@@ -1,0 +1,40 @@
+collection: kb
+
+embedding:
+  model: text-embedding-3-small
+  dimensions: 1024
+
+kinds: [fact, procedure, troubleshooting, policy, spec, definition]
+
+facets:
+  product_line:
+    index: keyword
+    values: ["*"]
+  model:
+    index: keyword
+    values: ["*"]
+  applies_to:
+    index: keyword
+    array: true
+  section:
+    index: keyword
+    values: [safety, assembly, console, programs, errors, maintenance, specs, warranty, policy, returns]
+  code:
+    index: keyword
+
+payload_indexes:
+  text:
+    index: text
+    tokenizer: word
+    lowercase: true
+    min_token_len: 1
+    max_token_len: 30
+  card_id:
+    index: keyword
+  kind:
+    index: keyword
+  authority:
+    index: integer
+
+ingest:
+  pdf_command: null
