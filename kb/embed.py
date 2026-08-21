@@ -30,7 +30,19 @@ class OpenAIEmbedder:
             response = self._client.embeddings.create(
                 model=self._model, input=batch, dimensions=self._dimensions
             )
-            for item in response.data:
+            data = list(response.data)
+            if len(data) != len(batch):
+                raise EmbedError(
+                    f"the API returned {len(data)} embeddings for {len(batch)} inputs"
+                )
+            # Response order is not contractual; each item carries its input's index.
+            data.sort(key=lambda entry: entry.index)
+            if [entry.index for entry in data] != list(range(len(batch))):
+                raise EmbedError(
+                    f"the API returned the index set {[entry.index for entry in data]} "
+                    f"for a batch of {len(batch)} inputs"
+                )
+            for item in data:
                 vector = list(item.embedding)
                 if len(vector) != self._dimensions:
                     raise EmbedError(
