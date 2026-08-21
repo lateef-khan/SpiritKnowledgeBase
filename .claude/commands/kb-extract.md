@@ -11,10 +11,15 @@ The source id is: $ARGUMENTS
 
 ## 1. Read before you write
 
-1. Read `sources/$ARGUMENTS/text.md` in full. All of it, before writing anything.
-2. Run `kb vocab`. It prints the declared facet keys, every value already in use,
+1. Confirm the source is on disk and will reach the PR:
+   `git status --porcelain sources/$ARGUMENTS sources/manifest.yaml`. `kb ingest`
+   wrote both before this branch existed, so they are usually untracked. They
+   must be committed alongside the cards or CI's `kb lint` reports
+   `unknown-source` for every card you write.
+2. Read `sources/$ARGUMENTS/text.md` in full. All of it, before writing anything.
+3. Run `kb vocab`. It prints the declared facet keys, every value already in use,
    the allowed `kind` values, and every existing card id.
-3. Reuse existing facet values. Do not invent `section: fault-codes` when
+4. Reuse existing facet values. Do not invent `section: fault-codes` when
    `section: errors` already exists. If you must add a new value, note it and
    report it at the end.
 
@@ -128,10 +133,13 @@ fails.
 ## 10. Open the PR
 
 ```bash
-git add cards/
+git add cards/ sources/
 git commit -m "feat(kb): extract cards from $ARGUMENTS"
 gh pr create --fill
 ```
+
+`sources/` belongs in the same commit. Without it the manifest row every card's
+`source.ref` names is absent from the branch and CI fails on `unknown-source`.
 
 If `gh` reports that it cannot determine the repository, the SSH host alias in
 `origin` is the cause. Retry with:
