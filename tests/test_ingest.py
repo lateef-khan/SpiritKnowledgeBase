@@ -100,3 +100,28 @@ def test_unknown_extension_raises(tmp_path):
     src.write_bytes(b"zip")
     with pytest.raises(IngestError, match="\\.docx"):
         ingest(tmp_path, config(), src, "d-1", "Thing", "file:///thing.docx", "2026-08-21")
+
+
+@pytest.mark.parametrize("bad_id", ["../escape", "a/b", "..", ""])
+def test_unsafe_source_id_raises(tmp_path, bad_id):
+    src = tmp_path / "in.txt"
+    src.write_text("plain text")
+    with pytest.raises(IngestError):
+        ingest(tmp_path, config(), src, bad_id, "Title", "file:///in.txt", "2026-08-21")
+
+
+def test_unsafe_source_id_writes_nothing(tmp_path):
+    src = tmp_path / "in.txt"
+    src.write_text("plain text")
+    with pytest.raises(IngestError):
+        ingest(tmp_path, config(), src, "../escape", "Title", "file:///in.txt", "2026-08-21")
+    assert not (tmp_path / "sources").exists()
+
+
+def test_missing_text_file_with_matching_manifest_hash_raises(tmp_path):
+    src = tmp_path / "in.txt"
+    src.write_text("plain text")
+    ingest(tmp_path, config(), src, "doc-1", "Doc One", "file:///in.txt", "2026-08-21")
+    (tmp_path / "sources" / "doc-1" / "text.md").unlink()
+    with pytest.raises(IngestError, match="missing"):
+        ingest(tmp_path, config(), src, "doc-1", "Doc One", "file:///in.txt", "2026-08-22")

@@ -3,6 +3,7 @@ from __future__ import annotations
 import email
 import email.policy
 import hashlib
+import re
 import shlex
 import subprocess
 from dataclasses import dataclass
@@ -19,6 +20,7 @@ KIND_BY_SUFFIX = {
     ".eml": "email_thread",
     ".pdf": "pdf",
 }
+SOURCE_ID_PATTERN = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
 
 
 class IngestError(Exception):
@@ -77,20 +79,35 @@ def ingest(
     if not path.is_file():
         raise IngestError(f"{path} does not exist")
 
+    if not SOURCE_ID_PATTERN.match(source_id):
+        raise IngestError(
+            f"source id {source_id!r} is invalid; ids must start with a letter or digit "
+            "and contain only letters, digits, '.', '_', or '-'"
+        )
+
     suffix = path.suffix.lower()
     kind = KIND_BY_SUFFIX.get(suffix)
     if kind is None:
         raise IngestError(f"no ingest handler for {suffix!r}; supported: {sorted(KIND_BY_SUFFIX)}")
 
+    sources_root = root / "sources"
+    target_dir = sources_root / source_id
+    target = target_dir / "text.md"
+    if not target_dir.resolve().is_relative_to(sources_root.resolve()):
+        raise IngestError(f"source id {source_id!r} escapes the sources directory")
+
     digest = _sha256(path)
     rows = load_manifest(root)
     existing = next((row for row in rows if row.id == source_id), None)
     text_relative = f"sources/{source_id}/text.md"
-    target_dir = root / "sources" / source_id
-    target = target_dir / "text.md"
 
     if existing is not None:
-        if existing.sha256 == digest and target.is_file():
+        if existing.sha256 == digest:
+            if not target.is_file():
+                raise IngestError(
+                    f"manifest row for {source_id!r} matches this file's hash, but "
+                    f"{text_relative} is missing; restore it or remove the row before re-ingesting"
+                )
             return IngestResult(row=existing, text_path=text_relative, skipped=True)
         raise IngestError(
             f"source id {source_id!r} already exists with different bytes; choose a new id"
@@ -102,7 +119,7 @@ def ingest(
     elif kind == "email_thread":
         text = _flatten_email(path)
     else:
-        text = path.read_text()
+        text = path.read_text(encoding="utf-8")
     target.write_text(text)
 
     row = SourceRow(
