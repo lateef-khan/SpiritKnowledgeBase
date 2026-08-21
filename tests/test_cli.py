@@ -56,6 +56,11 @@ MANIFEST = """
   ingested_at: 2026-08-21
 """
 
+MALFORMED_CARD = """---
+id: card-broken
+title: Broken
+"""
+
 
 @pytest.fixture
 def repo(tmp_path):
@@ -139,3 +144,39 @@ def test_sync_refuses_when_lint_fails(repo):
     result = run(repo, "sync", "--dry-run")
     assert result.exit_code == 1
     assert "unknown-source" in result.output
+
+
+def test_new_ignores_a_malformed_card_elsewhere_in_the_repo(repo):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    result = run(repo, "new", "card-z", "--today", "2026-08-21")
+    assert result.exit_code == 0
+    assert (repo / "cards" / "card-z.md").exists()
+
+
+def test_ingest_ignores_a_malformed_card_elsewhere_in_the_repo(repo, tmp_path):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    src = tmp_path / "two.md"
+    src.write_text("# Two\n")
+    result = run(
+        repo, "ingest", str(src), "--id", "src-2", "--title", "Source Two",
+        "--origin", "file:///two.md", "--today", "2026-08-21",
+    )
+    assert result.exit_code == 0
+    assert (repo / "sources" / "src-2" / "text.md").exists()
+
+
+def test_lint_still_fails_on_the_malformed_card(repo):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    result = run(repo, "lint")
+    assert result.exit_code != 0
+
+
+def test_ingest_reports_a_domain_error_without_a_traceback(repo, tmp_path):
+    src = tmp_path / "two.md"
+    src.write_text("# Two\n")
+    result = run(
+        repo, "ingest", str(src), "--id", "bad id", "--title", "Source Two",
+        "--origin", "file:///two.md", "--today", "2026-08-21",
+    )
+    assert result.exit_code == 1
+    assert "invalid" in result.output

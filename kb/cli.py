@@ -9,13 +9,13 @@ import click
 from kb.card import load_cards
 from kb.config import load_config
 from kb.embed import build_embedder
-from kb.ingest import ingest as run_ingest
+from kb.ingest import IngestError, ingest as run_ingest
 from kb.lint import lint_cards
 from kb.manifest import source_refs
 from kb.qdrant import apply_plan, ensure_collection, rebuild
 from kb.scaffold import new_card_text
 from kb.state import load_state, save_state
-from kb.syncplan import DangerousSyncError, plan_sync
+from kb.syncplan import DEFAULT_DELETE_RATIO_LIMIT, DangerousSyncError, plan_sync
 from kb.vocab import build_vocab, render_vocab
 
 QDRANT_URL_VARIABLE = "QDRANT_URL"
@@ -29,9 +29,9 @@ def main(ctx: click.Context, root: str) -> None:
     ctx.obj = {"root": Path(root)}
 
 
-def _load(ctx):
+def _load_config(ctx):
     root = ctx.obj["root"]
-    return root, load_config(root), load_cards(root)
+    return root, load_config(root)
 
 
 def _lint(root, config, cards):
@@ -41,7 +41,8 @@ def _lint(root, config, cards):
 @main.command()
 @click.pass_context
 def lint(ctx: click.Context) -> None:
-    root, config, cards = _load(ctx)
+    root, config = _load_config(ctx)
+    cards = load_cards(root)
     errors = _lint(root, config, cards)
     for error in errors:
         click.echo(f"{error.path}: [{error.check}] {error.message}")
@@ -52,7 +53,8 @@ def lint(ctx: click.Context) -> None:
 @main.command()
 @click.pass_context
 def vocab(ctx: click.Context) -> None:
-    root, config, cards = _load(ctx)
+    root, config = _load_config(ctx)
+    cards = load_cards(root)
     click.echo(render_vocab(build_vocab(cards, config)))
 
 
@@ -61,7 +63,7 @@ def vocab(ctx: click.Context) -> None:
 @click.option("--today", default=None, help="Override the extracted_at date")
 @click.pass_context
 def new(ctx: click.Context, card_id: str, today: str | None) -> None:
-    root, config, _ = _load(ctx)
+    root, config = _load_config(ctx)
     target = root / "cards" / f"{card_id}.md"
     if target.exists():
         click.echo(f"{target} already exists")
@@ -80,9 +82,13 @@ def new(ctx: click.Context, card_id: str, today: str | None) -> None:
 @click.option("--today", default=None)
 @click.pass_context
 def ingest(ctx, path, source_id, title, origin, today) -> None:
-    root, config, _ = _load(ctx)
+    root, config = _load_config(ctx)
     stamp = today or datetime.date.today().isoformat()
-    result = run_ingest(root, config, Path(path), source_id, title, origin, stamp)
+    try:
+        result = run_ingest(root, config, Path(path), source_id, title, origin, stamp)
+    except IngestError as exc:
+        click.echo(str(exc))
+        ctx.exit(1)
     verb = "skipped, already ingested" if result.skipped else "wrote"
     click.echo(f"{verb} {result.text_path}")
 
@@ -94,7 +100,8 @@ def ingest(ctx, path, source_id, title, origin, today) -> None:
 @click.option("--stamp", default=None, help="Suffix for the rebuilt collection")
 @click.pass_context
 def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
-    root, config, cards = _load(ctx)
+    root, config = _load_config(ctx)
+    cards = load_cards(root)
 
     errors = _lint(root, config, cards)
     if errors:
@@ -105,7 +112,7 @@ def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
 
     state = load_state(root)
     try:
-        plan = plan_sync(cards, state, delete_ratio_limit=1.0 if force else 0.10)
+        plan = plan_sync(cards, state, delete_ratio_limit=1.0 if force else DEFAULT_DELETE_RATIO_LIMIT)
     except DangerousSyncError as exc:
         click.echo(str(exc))
         ctx.exit(1)
