@@ -20,8 +20,7 @@ The source id is: $ARGUMENTS
 3. Run `kb vocab`. It prints the declared facet keys, every value already in use,
    the allowed `kind` values, and every existing card id.
 4. Reuse existing facet values. Do not invent `section: fault-codes` when
-   `section: errors` already exists. If you must add a new value, note it and
-   report it at the end.
+   `section: errors` already exists.
 
 ## 2. Create a branch
 
@@ -125,10 +124,16 @@ saying what is ambiguous and why.
 
 ```bash
 kb lint
+kb vocab
 ```
 
-Fix every problem it reports, then run it again. Do not open a PR while it
+Fix every lint problem it reports, then run it again. Do not open a PR while it
 fails.
+
+`kb vocab`'s `undeclared_facet_values` block lists every facet value your cards
+use that `kb.yaml` does not declare. Paste it into the PR body verbatim — it is
+the only mechanical record of what you invented, and a human decides whether to
+add it to `kb.yaml` or replace it with an existing value.
 
 ## 10. Open the PR
 
@@ -151,8 +156,8 @@ GH_REPO=lateef-khan/SpiritKnowledgeBase gh pr create --fill
 ## 11. Report in the PR body
 
 - Cards added, and cards changed.
-- **Every new facet value you introduced**, and why the existing ones did not
-  fit.
+- **`kb vocab`'s `undeclared_facet_values` block**, verbatim, and why the
+  existing values did not fit each one.
 - **Anything you could not place**, and why.
 - **Every two-place fact you found**, and where each half went.
 - **Anything ambiguous, contradictory, or damaged in the source**, and what you

@@ -46,6 +46,14 @@ The first sync creates `<collection>_<stamp>` and points the alias at it; every
 `--rebuild` builds a new stamped collection and moves the alias. The .NET reader
 queries the alias and never sees the swap.
 
+## Not yet supported
+
+`kb ingest` handles local `.md`, `.markdown`, `.txt`, `.eml` and `.pdf` files.
+The design's `kb ingest <file-or-uri>` also names a web-page-to-Markdown path;
+that is a deliberate deferral, not an oversight — URL fetching and HTML
+conversion are a feature with their own dependencies. Until it exists, save the
+page as Markdown by hand and ingest the file.
+
 ## Tests
 
 ```bash

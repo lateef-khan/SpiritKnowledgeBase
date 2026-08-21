@@ -71,3 +71,34 @@ def test_render_is_valid_deterministic_yaml():
     text = render_vocab(vocab)
     assert render_vocab(vocab) == text
     assert yaml.safe_load(text) == vocab
+
+
+def test_a_value_no_card_uses_is_not_reported_as_new():
+    vocab = build_vocab([card("a", "f63", "f63")], CONFIG)
+    assert vocab["undeclared_facet_values"] == {}
+
+
+def test_a_value_cards_use_but_kb_yaml_does_not_declare_is_reported():
+    vocab = build_vocab([card("a", "e95", "e95")], CONFIG)
+    assert vocab["undeclared_facet_values"] == {"model": ["e95"]}
+
+
+def test_an_open_facet_with_no_declared_values_reports_nothing():
+    vocab = build_vocab([card("a", "f63", "f63, f63-2026")], CONFIG)
+    assert "applies_to" not in vocab["undeclared_facet_values"]
+
+
+def test_undeclared_values_are_sorted_and_deduplicated():
+    cards = [card("a", "e95", "e95"), card("b", "c65", "c65"), card("c", "e95", "e95")]
+    assert build_vocab(cards, CONFIG)["undeclared_facet_values"] == {"model": ["c65", "e95"]}
+
+
+def test_the_declared_facet_block_still_lists_every_known_value():
+    vocab = build_vocab([card("a", "e95", "e95")], CONFIG)
+    assert vocab["facets"]["model"] == ["*", "e95", "f63"]
+
+
+def test_render_puts_undeclared_values_in_their_own_block():
+    text = render_vocab(build_vocab([card("a", "e95", "e95")], CONFIG))
+    assert "undeclared_facet_values:" in text
+    assert yaml.safe_load(text)["undeclared_facet_values"] == {"model": ["e95"]}
