@@ -43,11 +43,16 @@ def load_config(root: Path) -> KbConfig:
     except yaml.YAMLError as exc:
         raise ConfigError(f"kb.yaml is not valid YAML: {exc}") from exc
 
+    if not isinstance(raw, dict):
+        raise ConfigError("kb.yaml must be a mapping at the top level")
+
     collection = raw.get("collection")
     if not isinstance(collection, str) or not collection:
         raise ConfigError("kb.yaml is missing a non-empty 'collection'")
 
     embedding = raw.get("embedding") or {}
+    if not isinstance(embedding, dict):
+        raise ConfigError("kb.yaml 'embedding' must be a mapping")
     model = embedding.get("model")
     dimensions = embedding.get("dimensions")
     if model != REQUIRED_MODEL:
@@ -58,11 +63,15 @@ def load_config(root: Path) -> KbConfig:
         )
 
     kinds = raw.get("kinds") or []
-    if not kinds or not all(isinstance(k, str) for k in kinds):
+    if not isinstance(kinds, list) or not kinds or not all(isinstance(k, str) for k in kinds):
         raise ConfigError("kb.yaml needs a non-empty list of string 'kinds'")
 
+    raw_facets = raw.get("facets") or {}
+    if not isinstance(raw_facets, dict):
+        raise ConfigError("kb.yaml 'facets' must be a mapping")
+
     facets: dict[str, FacetSpec] = {}
-    for name, spec in (raw.get("facets") or {}).items():
+    for name, spec in raw_facets.items():
         spec = spec or {}
         index = spec.get("index")
         if index not in VALID_INDEX_TYPES:

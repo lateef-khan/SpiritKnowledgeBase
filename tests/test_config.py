@@ -72,3 +72,14 @@ def test_unknown_facet_index_type_raises(tmp_path):
     bad = MINIMAL.replace("index: keyword\n    values: [f63", "index: banana\n    values: [f63")
     with pytest.raises(ConfigError, match="banana"):
         load_config(write(tmp_path, bad))
+
+
+def test_non_mapping_yaml_raises(tmp_path):
+    with pytest.raises(ConfigError, match="mapping"):
+        load_config(write(tmp_path, "- a\n- b\n"))
+
+
+def test_kinds_as_scalar_raises(tmp_path):
+    bad = MINIMAL.replace("kinds: [fact, policy]", "kinds: fact")
+    with pytest.raises(ConfigError, match="kinds"):
+        load_config(write(tmp_path, bad))
