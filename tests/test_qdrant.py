@@ -54,8 +54,8 @@ def card(id="card-a", model="f63", body="Body."):
 
 
 class FakeClient:
-    def __init__(self, exists=False):
-        self._collections = {"kb"} if exists else set()
+    def __init__(self, exists=False, name="kb"):
+        self._collections = {name} if exists else set()
         self.created = []
         self.indexes = []
         self.upserted = []

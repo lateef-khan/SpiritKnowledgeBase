@@ -131,6 +131,71 @@ def test_full_text_index_separates_lookalike_codes(client):
     assert {h.payload["card_id"] for h in hits} == {"e31"}
 
 
+ALIAS_PROBE_COLLECTION_A = "kb_it_alias_a"
+ALIAS_PROBE_COLLECTION_B = "kb_it_alias_b"
+ALIAS_PROBE_ALIAS = "kb_it_alias_target"
+
+
+@pytest.fixture
+def alias_client():
+    c = QdrantClient(url="http://localhost:6333", prefer_grpc=False, timeout=120)
+
+    def cleanup():
+        matches = [a for a in c.get_aliases().aliases if a.alias_name == ALIAS_PROBE_ALIAS]
+        if matches:
+            c.update_collection_aliases(
+                change_aliases_operations=[
+                    models.DeleteAliasOperation(
+                        delete_alias=models.DeleteAlias(alias_name=ALIAS_PROBE_ALIAS)
+                    )
+                ]
+            )
+        for name in (ALIAS_PROBE_COLLECTION_A, ALIAS_PROBE_COLLECTION_B):
+            if c.collection_exists(name):
+                c.delete_collection(name)
+
+    cleanup()
+    yield c
+    cleanup()
+
+
+def test_bare_create_alias_repoints_an_existing_alias(alias_client):
+    c = alias_client
+    vectors_config = {
+        VECTOR_NAME: models.VectorParams(
+            size=CONFIG.embedding_dimensions, distance=models.Distance.COSINE
+        )
+    }
+    c.create_collection(collection_name=ALIAS_PROBE_COLLECTION_A, vectors_config=vectors_config)
+    c.create_collection(collection_name=ALIAS_PROBE_COLLECTION_B, vectors_config=vectors_config)
+
+    c.update_collection_aliases(
+        change_aliases_operations=[
+            models.CreateAliasOperation(
+                create_alias=models.CreateAlias(
+                    collection_name=ALIAS_PROBE_COLLECTION_A, alias_name=ALIAS_PROBE_ALIAS
+                )
+            )
+        ]
+    )
+    matches = [a for a in c.get_aliases().aliases if a.alias_name == ALIAS_PROBE_ALIAS]
+    assert len(matches) == 1
+    assert matches[0].collection_name == ALIAS_PROBE_COLLECTION_A
+
+    c.update_collection_aliases(
+        change_aliases_operations=[
+            models.CreateAliasOperation(
+                create_alias=models.CreateAlias(
+                    collection_name=ALIAS_PROBE_COLLECTION_B, alias_name=ALIAS_PROBE_ALIAS
+                )
+            )
+        ]
+    )
+    matches = [a for a in c.get_aliases().aliases if a.alias_name == ALIAS_PROBE_ALIAS]
+    assert len(matches) == 1
+    assert matches[0].collection_name == ALIAS_PROBE_COLLECTION_B
+
+
 def test_facet_index_filters_by_model(client):
     embedder = ConstantEmbedder()
     ensure_collection(client, CONFIG, CONFIG.collection)
