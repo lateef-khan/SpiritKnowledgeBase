@@ -12,7 +12,7 @@ from kb.embed import build_embedder
 from kb.ingest import IngestError, ingest as run_ingest
 from kb.lint import lint_cards
 from kb.manifest import source_refs
-from kb.qdrant import apply_plan, ensure_collection, rebuild
+from kb.qdrant import AliasConflictError, apply_plan, ensure_alias, rebuild
 from kb.scaffold import new_card_text
 from kb.state import load_state, save_state
 from kb.syncplan import DEFAULT_DELETE_RATIO_LIMIT, DangerousSyncError, plan_sync
@@ -97,7 +97,7 @@ def ingest(ctx, path, source_id, title, origin, today) -> None:
 @click.option("--dry-run", is_flag=True, help="Plan only; no network, no state written")
 @click.option("--force", is_flag=True, help="Allow a sync that deletes over the limit")
 @click.option("--rebuild", "do_rebuild", is_flag=True, help="Rebuild into a new collection behind the alias")
-@click.option("--stamp", default=None, help="Suffix for the rebuilt collection")
+@click.option("--stamp", default=None, help="Suffix for a newly created collection")
 @click.pass_context
 def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
     root, config = _load_config(ctx)
@@ -131,14 +131,18 @@ def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
         timeout=120,
     )
     embedder = build_embedder(config)
+    suffix = stamp or datetime.date.today().isoformat().replace("-", "_")
 
-    if do_rebuild:
-        suffix = stamp or datetime.date.today().isoformat().replace("-", "_")
-        name = rebuild(client, config, cards, embedder, suffix)
-        click.echo(f"rebuilt into {name}")
-    else:
-        ensure_collection(client, config, config.collection)
-        apply_plan(client, config, config.collection, plan, cards, embedder)
+    try:
+        if do_rebuild:
+            name = rebuild(client, config, cards, embedder, suffix)
+            click.echo(f"rebuilt into {name}")
+        else:
+            name = ensure_alias(client, config, suffix)
+            apply_plan(client, config, name, plan, cards, embedder)
+    except AliasConflictError as exc:
+        click.echo(str(exc))
+        ctx.exit(1)
 
     save_state(root, plan.next_state)
     click.echo(f"state written for {len(plan.next_state)} cards")

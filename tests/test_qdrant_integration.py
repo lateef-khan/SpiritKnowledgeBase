@@ -1,3 +1,4 @@
+from dataclasses import replace
 from pathlib import Path
 
 import pytest
@@ -6,7 +7,7 @@ from qdrant_client import QdrantClient, models
 from kb.card import parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.ids import point_id
-from kb.qdrant import VECTOR_NAME, apply_plan, ensure_collection
+from kb.qdrant import VECTOR_NAME, apply_plan, ensure_alias, ensure_collection, rebuild
 from kb.state import state_for
 from kb.syncplan import plan_sync
 
@@ -214,3 +215,76 @@ def test_facet_index_filters_by_model(client):
         with_payload=True,
     )
     assert {h.payload["card_id"] for h in hits} == {"f63-e03"}
+
+
+ALIAS_SYNC_BASE = "kb_it_sync"
+ALIAS_SYNC_CONFIG = replace(CONFIG, collection=ALIAS_SYNC_BASE)
+
+
+@pytest.fixture
+def alias_sync_client():
+    c = QdrantClient(url="http://localhost:6333", prefer_grpc=False, timeout=120)
+
+    def cleanup():
+        for alias in c.get_aliases().aliases:
+            if alias.alias_name == ALIAS_SYNC_BASE:
+                c.update_collection_aliases(
+                    change_aliases_operations=[
+                        models.DeleteAliasOperation(
+                            delete_alias=models.DeleteAlias(alias_name=ALIAS_SYNC_BASE)
+                        )
+                    ]
+                )
+        for collection in c.get_collections().collections:
+            if collection.name.startswith(ALIAS_SYNC_BASE):
+                c.delete_collection(collection.name)
+
+    cleanup()
+    yield c
+    cleanup()
+
+
+def alias_target(client, alias_name):
+    matches = [a.collection_name for a in client.get_aliases().aliases if a.alias_name == alias_name]
+    assert len(matches) == 1
+    return matches[0]
+
+
+def test_a_first_sync_then_a_rebuild_both_succeed_and_the_alias_follows(alias_sync_client):
+    c = alias_sync_client
+    embedder = ConstantEmbedder()
+    cards = [
+        card("e03", "Error E03 - hardware current too large"),
+        card("e31", "Error E31 - over temperature"),
+    ]
+
+    name = ensure_alias(c, ALIAS_SYNC_CONFIG, "first")
+    assert name == ALIAS_SYNC_BASE
+    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_first"
+
+    apply_plan(c, ALIAS_SYNC_CONFIG, name, plan_sync(cards, {}), cards, embedder)
+    assert c.count(ALIAS_SYNC_BASE, exact=True).count == 2
+
+    target = rebuild(c, ALIAS_SYNC_CONFIG, cards, embedder, "second")
+    assert target == f"{ALIAS_SYNC_BASE}_second"
+    assert alias_target(c, ALIAS_SYNC_BASE) == target
+    assert c.count(ALIAS_SYNC_BASE, exact=True).count == 2
+    assert not c.collection_exists(f"{ALIAS_SYNC_BASE}_first")
+
+    stored = c.retrieve(ALIAS_SYNC_BASE, ids=[point_id("e03")], with_payload=True)[0]
+    assert stored.payload["card_id"] == "e03"
+
+
+def test_a_second_ordinary_sync_reuses_the_alias_and_creates_nothing(alias_sync_client):
+    c = alias_sync_client
+    embedder = ConstantEmbedder()
+    cards = [card("e03", "Error E03 - hardware current too large")]
+
+    ensure_alias(c, ALIAS_SYNC_CONFIG, "first")
+    apply_plan(c, ALIAS_SYNC_CONFIG, ALIAS_SYNC_BASE, plan_sync(cards, {}), cards, embedder)
+
+    name = ensure_alias(c, ALIAS_SYNC_CONFIG, "second")
+    assert name == ALIAS_SYNC_BASE
+    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_first"
+    assert not c.collection_exists(f"{ALIAS_SYNC_BASE}_second")
+    assert c.count(ALIAS_SYNC_BASE, exact=True).count == 1

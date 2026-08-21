@@ -20,6 +20,10 @@ SCHEMA_BY_INDEX = {
 }
 
 
+class AliasConflictError(Exception):
+    pass
+
+
 def _field_schema(spec: dict):
     index = spec["index"]
     if index != "text":
@@ -55,6 +59,51 @@ def ensure_collection(client, config: KbConfig, name: str) -> None:
             field_schema=SCHEMA_BY_INDEX[spec.index],
             wait=True,
         )
+
+
+def _alias_names(client) -> set[str]:
+    return {alias.alias_name for alias in client.get_aliases().aliases}
+
+
+def _point_alias(client, alias_name: str, collection_name: str) -> None:
+    client.update_collection_aliases(
+        change_aliases_operations=[
+            models.CreateAliasOperation(
+                create_alias=models.CreateAlias(
+                    collection_name=collection_name, alias_name=alias_name
+                )
+            )
+        ]
+    )
+
+
+def _refuse_concrete_collection(client, name: str) -> None:
+    # collection_exists answers true for an alias, so the alias list is the discriminator.
+    if client.collection_exists(name) and name not in _alias_names(client):
+        raise AliasConflictError(
+            f"{name!r} is a concrete collection, not an alias. Qdrant refuses an alias "
+            f"whose name a collection already holds, so --rebuild could never swap it. "
+            f"Delete the collection {name!r} in Qdrant, then run 'kb sync --rebuild' to "
+            f"build a stamped collection behind the alias."
+        )
+
+
+def ensure_alias(client, config: KbConfig, stamp: str) -> str:
+    """Guarantee `config.collection` resolves as an alias and return that name.
+
+    Spec 6.3 swaps the alias on every rebuild, so the ordinary sync path must
+    address the alias too or the first rebuild collides with a same-named
+    collection after paying the whole embedding bill.
+    """
+    if config.collection in _alias_names(client):
+        ensure_collection(client, config, config.collection)
+        return config.collection
+
+    _refuse_concrete_collection(client, config.collection)
+    target = f"{config.collection}_{stamp}"
+    ensure_collection(client, config, target)
+    _point_alias(client, config.collection, target)
+    return config.collection
 
 
 def apply_plan(
@@ -103,6 +152,8 @@ def apply_plan(
 def rebuild(
     client, config: KbConfig, cards: list[Card], embedder: Embedder, stamp: str
 ) -> str:
+    _refuse_concrete_collection(client, config.collection)
+
     target = f"{config.collection}_{stamp}"
     if client.collection_exists(target):
         client.delete_collection(target)
@@ -128,15 +179,7 @@ def rebuild(
         for alias in client.get_aliases().aliases
         if alias.alias_name == config.collection
     }
-    client.update_collection_aliases(
-        change_aliases_operations=[
-            models.CreateAliasOperation(
-                create_alias=models.CreateAlias(
-                    collection_name=target, alias_name=config.collection
-                )
-            )
-        ]
-    )
+    _point_alias(client, config.collection, target)
     for old in previous - {target}:
         client.delete_collection(old)
     return target

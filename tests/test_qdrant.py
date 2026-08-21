@@ -1,10 +1,18 @@
 from pathlib import Path
 
+import pytest
 from qdrant_client import models
 
 from kb.card import parse_card
 from kb.config import FacetSpec, KbConfig
-from kb.qdrant import VECTOR_NAME, apply_plan, ensure_collection, rebuild
+from kb.qdrant import (
+    VECTOR_NAME,
+    AliasConflictError,
+    apply_plan,
+    ensure_alias,
+    ensure_collection,
+    rebuild,
+)
 from kb.state import state_for
 from kb.syncplan import plan_sync
 
@@ -68,7 +76,8 @@ class FakeClient:
         self._aliases = []
 
     def collection_exists(self, name):
-        return name in self._collections
+        # Qdrant answers true for an alias name too.
+        return name in self._collections or name in {a.alias_name for a in self._aliases}
 
     def create_collection(self, collection_name, vectors_config, **kwargs):
         self._collections.add(collection_name)
@@ -252,3 +261,72 @@ def test_rebuild_recreates_a_colliding_stamped_collection():
     assert client.deleted_collections == ["kb_stamp"]
     assert client.created[0]["name"] == "kb_stamp"
     assert client.collection_exists("kb_stamp")
+
+
+def aliases_of(client) -> dict:
+    return {a.alias_name: a.collection_name for a in client.get_aliases().aliases}
+
+
+def test_first_sync_creates_a_stamped_collection_behind_the_alias():
+    client = FakeClient()
+    name = ensure_alias(client, CONFIG, "20260821")
+    assert name == CONFIG.collection
+    assert client.created[0]["name"] == "kb_20260821"
+    assert aliases_of(client) == {"kb": "kb_20260821"}
+
+
+def test_a_later_sync_reuses_the_existing_alias():
+    client = FakeClient()
+    ensure_alias(client, CONFIG, "20260821")
+    client.created.clear()
+    name = ensure_alias(client, CONFIG, "20260822")
+    assert name == CONFIG.collection
+    assert client.created == []
+    assert aliases_of(client) == {"kb": "kb_20260821"}
+
+
+def test_sync_refuses_a_concrete_collection_holding_the_alias_name():
+    client = FakeClient(exists=True)
+    with pytest.raises(AliasConflictError, match="--rebuild"):
+        ensure_alias(client, CONFIG, "20260821")
+
+
+def test_rebuild_aborts_before_embedding_when_a_concrete_collection_holds_the_alias_name():
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    with pytest.raises(AliasConflictError, match="--rebuild"):
+        rebuild(client, CONFIG, [card()], embedder, "20260821")
+    assert embedder.seen == []
+    assert client.created == []
+    assert client.alias_ops == []
+
+
+def test_apply_plan_addresses_the_alias_not_the_backing_collection():
+    client, embedder = FakeClient(), FakeEmbedder()
+    name = ensure_alias(client, CONFIG, "20260821")
+    cards = [card()]
+    apply_plan(client, CONFIG, name, plan_sync(cards, {}), cards, embedder)
+    assert client.upsert_targets == ["kb"]
+
+
+def test_a_first_sync_then_a_rebuild_leaves_the_alias_on_the_newest_collection():
+    client, embedder = FakeClient(), FakeEmbedder()
+    cards = [card()]
+    name = ensure_alias(client, CONFIG, "20260821")
+    apply_plan(client, CONFIG, name, plan_sync(cards, {}), cards, embedder)
+
+    target = rebuild(client, CONFIG, cards, embedder, "20260822")
+    assert target == "kb_20260822"
+    assert aliases_of(client) == {"kb": "kb_20260822"}
+    assert client.deleted_collections == ["kb_20260821"]
+
+
+def test_ensure_alias_indexes_the_collection_it_creates():
+    client = FakeClient()
+    ensure_alias(client, CONFIG, "20260821")
+    assert set(client.indexes) == {
+        "text",
+        "card_id",
+        "authority",
+        "facets.model",
+        "facets.applies_to",
+    }
