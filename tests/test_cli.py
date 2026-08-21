@@ -3,7 +3,7 @@ import json
 import pytest
 from click.testing import CliRunner
 
-from kb.cli import main
+from kb.cli import client_kwargs, main
 
 KB_YAML = """
 collection: kb
@@ -244,3 +244,23 @@ def test_new_refuses_an_uppercase_id(repo):
     result = run(repo, "new", "F63-E03", "--today", "2026-08-21")
     assert result.exit_code == 1
     assert "lowercase" in result.output
+
+
+def test_sync_passes_the_qdrant_api_key_when_the_environment_sets_one(repo, monkeypatch):
+    monkeypatch.setenv("QDRANT_API_KEY", "secret-token")
+    assert client_kwargs() == {
+        "url": "http://localhost:6333",
+        "prefer_grpc": False,
+        "timeout": 120,
+        "api_key": "secret-token",
+    }
+
+
+def test_sync_omits_the_qdrant_api_key_when_the_environment_has_none(repo, monkeypatch):
+    monkeypatch.delenv("QDRANT_API_KEY", raising=False)
+    assert "api_key" not in client_kwargs()
+
+
+def test_sync_reads_the_qdrant_url_from_the_environment(repo, monkeypatch):
+    monkeypatch.setenv("QDRANT_URL", "https://example.cloud.qdrant.io:6333")
+    assert client_kwargs()["url"] == "https://example.cloud.qdrant.io:6333"

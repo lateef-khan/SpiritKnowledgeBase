@@ -19,7 +19,20 @@ from kb.syncplan import DEFAULT_DELETE_RATIO_LIMIT, DangerousSyncError, plan_syn
 from kb.vocab import build_vocab, render_vocab
 
 QDRANT_URL_VARIABLE = "QDRANT_URL"
+QDRANT_API_KEY_VARIABLE = "QDRANT_API_KEY"
 DEFAULT_QDRANT_URL = "http://localhost:6333"
+
+
+def client_kwargs() -> dict:
+    kwargs = {
+        "url": os.environ.get(QDRANT_URL_VARIABLE, DEFAULT_QDRANT_URL),
+        "prefer_grpc": False,
+        "timeout": 120,
+    }
+    api_key = os.environ.get(QDRANT_API_KEY_VARIABLE)
+    if api_key:
+        kwargs["api_key"] = api_key
+    return kwargs
 
 DOMAIN_ERRORS = (
     AliasConflictError,
@@ -143,11 +156,7 @@ def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
 
     from qdrant_client import QdrantClient
 
-    client = QdrantClient(
-        url=os.environ.get(QDRANT_URL_VARIABLE, DEFAULT_QDRANT_URL),
-        prefer_grpc=False,
-        timeout=120,
-    )
+    client = QdrantClient(**client_kwargs())
     embedder = build_embedder(config)
     suffix = stamp or datetime.date.today().isoformat().replace("-", "_")
 
