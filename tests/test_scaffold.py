@@ -1,7 +1,5 @@
 from pathlib import Path
 
-import pytest
-
 from kb.card import parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.lint import lint_cards
@@ -41,5 +39,12 @@ def test_scaffold_uses_the_first_declared_kind():
 
 def test_scaffold_fails_lint_only_on_the_placeholder_source():
     card = parse_card(new_card_text("new-card", CONFIG, "2026-08-21"), "cards/new-card.md")
+    checks = {e.check for e in lint_cards([card], CONFIG, set())}
+    assert checks == {"unknown-source"}
+
+
+def test_scaffold_fails_lint_only_on_the_placeholder_source_for_a_hyphenated_id():
+    card_id = "f63-e03-overcurrent"
+    card = parse_card(new_card_text(card_id, CONFIG, "2026-08-21"), f"cards/{card_id}.md")
     checks = {e.check for e in lint_cards([card], CONFIG, set())}
     assert checks == {"unknown-source"}

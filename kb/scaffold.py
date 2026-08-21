@@ -4,6 +4,7 @@ from kb.card import Card, render_card
 from kb.config import KbConfig
 
 SENTINEL = "*"
+TITLE_PLACEHOLDER = "REPLACE WITH THE QUESTION THIS CARD ANSWERS"
 
 
 def new_card_text(card_id: str, config: KbConfig, today: str) -> str:
@@ -13,7 +14,7 @@ def new_card_text(card_id: str, config: KbConfig, today: str) -> str:
 
     card = Card(
         id=card_id,
-        title=f"TITLE FOR {card_id}",
+        title=TITLE_PLACEHOLDER,
         kind=config.kinds[0],
         question=f"What is {card_id}?",
         asked_as=("first customer phrasing", "second customer phrasing"),
