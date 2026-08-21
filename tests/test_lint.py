@@ -1,4 +1,4 @@
-from kb.card import parse_card
+from kb.card import CardLoadFailure, parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.lint import lint_cards
 from pathlib import Path
@@ -162,3 +162,46 @@ def test_two_lookalike_codes_in_one_card_is_reported():
 def test_single_code_in_title_is_fine():
     errors = lint_cards([make(title="Error E03 - hardware current too large")], CONFIG, {"src-1"})
     assert errors == []
+
+
+def test_an_unparseable_card_is_reported_as_a_lint_error():
+    failures = [CardLoadFailure(path="cards/broken.md", message="unterminated frontmatter")]
+    errors = lint_cards([make()], CONFIG, {"src-1"}, failures)
+    assert [(e.path, e.check, e.message) for e in errors] == [
+        ("cards/broken.md", "unparseable", "unterminated frontmatter")
+    ]
+
+
+def test_the_good_cards_are_still_checked_alongside_an_unparseable_one():
+    failures = [CardLoadFailure(path="cards/broken.md", message="unterminated frontmatter")]
+    errors = lint_cards([make(ref="ghost")], CONFIG, {"src-1"}, failures)
+    assert {e.check for e in errors} == {"unparseable", "unknown-source"}
+
+
+def test_the_ten_spec_checks_all_have_a_slug():
+    """Spec section 5 lists ten checks. Check 9 went missing once already."""
+    duplicated = make(id="card-a", ref="ghost")
+    broken_text = TEMPLATE.format(
+        id="card-a",
+        title="Error E03 and error E31",
+        kind="anecdote",
+        facets="  model: ''\n  invented: nonsense",
+        ncw="[nobody]",
+        see_also="[nobody-either]",
+        ref="ghost",
+        body="   ",
+    ).replace("keywords: [alpha, beta, gamma, delta]", "keywords: [alpha]")
+    broken = parse_card(broken_text, "cards/card-b.md")
+    failures = [CardLoadFailure(path="cards/broken.md", message="unterminated frontmatter")]
+    assert set(slugs(lint_cards([duplicated, broken], CONFIG, {"src-1"}, failures))) == {
+        "unique-id",
+        "dangling-link",
+        "unknown-source",
+        "undeclared-facet",
+        "empty-facet",
+        "unknown-kind",
+        "list-length",
+        "empty-body",
+        "unparseable",
+        "shared-lookalike",
+    }

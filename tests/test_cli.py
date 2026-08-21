@@ -165,10 +165,54 @@ def test_ingest_ignores_a_malformed_card_elsewhere_in_the_repo(repo, tmp_path):
     assert (repo / "sources" / "src-2" / "text.md").exists()
 
 
-def test_lint_still_fails_on_the_malformed_card(repo):
+def test_lint_reports_the_malformed_card_as_a_named_check(repo):
     (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
     result = run(repo, "lint")
-    assert result.exit_code != 0
+    assert result.exit_code == 1
+    assert "cards/card-broken.md: [unparseable]" in result.output
+    assert "Traceback" not in result.output
+
+
+def test_lint_still_checks_the_good_cards_beside_a_malformed_one(repo):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    (repo / "cards" / "card-b.md").write_text(
+        CARD.replace("ref: src-1", "ref: ghost").replace("id: card-a", "id: card-b")
+    )
+    result = run(repo, "lint")
+    assert "unparseable" in result.output
+    assert "unknown-source" in result.output
+    assert "2 problems in 3 cards" in result.output
+
+
+def test_sync_refuses_when_a_card_is_unparseable(repo):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert "unparseable" in result.output
+
+
+def test_a_malformed_kb_yaml_reports_without_a_traceback(repo):
+    (repo / "kb.yaml").write_text("- a\n- b\n")
+    result = run(repo, "lint")
+    assert result.exit_code == 1
+    assert "mapping" in result.output
+    assert result.exception is None or isinstance(result.exception, SystemExit)
+
+
+def test_a_malformed_manifest_row_reports_without_a_traceback(repo):
+    (repo / "sources" / "manifest.yaml").write_text("- id: src-1\n  title: Only a title\n")
+    result = run(repo, "lint")
+    assert result.exit_code == 1
+    assert "manifest" in result.output
+    assert result.exception is None or isinstance(result.exception, SystemExit)
+
+
+def test_vocab_reports_a_malformed_card_without_a_traceback(repo):
+    (repo / "cards" / "card-broken.md").write_text(MALFORMED_CARD)
+    result = run(repo, "vocab")
+    assert result.exit_code == 1
+    assert "frontmatter" in result.output
+    assert result.exception is None or isinstance(result.exception, SystemExit)
 
 
 def test_ingest_reports_a_domain_error_without_a_traceback(repo, tmp_path):

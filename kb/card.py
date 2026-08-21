@@ -17,6 +17,17 @@ class CardParseError(Exception):
 
 
 @dataclass(frozen=True)
+class CardLoadFailure:
+    path: str
+    message: str
+
+
+def _without_path(message: str, path: str) -> str:
+    prefix = f"{path}: "
+    return message[len(prefix) :] if message.startswith(prefix) else message
+
+
+@dataclass(frozen=True)
 class Card:
     id: str
     title: str
@@ -124,13 +135,29 @@ def render_card(card: Card) -> str:
     return f"{FENCE}\n{dumped}\n{FENCE}\n\n{card.body}\n"
 
 
-def load_cards(root: Path) -> list[Card]:
+def load_cards_leniently(root: Path) -> tuple[list[Card], list[CardLoadFailure]]:
+    """Parse every card, collecting failures instead of raising on the first one.
+
+    Lint must report a broken card as a check, not a traceback, and must still
+    check the cards around it.
+    """
     root = Path(root)
     cards_dir = root / "cards"
     if not cards_dir.is_dir():
-        return []
-    cards = []
+        return [], []
+    cards: list[Card] = []
+    failures: list[CardLoadFailure] = []
     for file in sorted(cards_dir.rglob("*.md")):
         rel = file.relative_to(root).as_posix()
-        cards.append(parse_card(file.read_text(), rel))
+        try:
+            cards.append(parse_card(file.read_text(), rel))
+        except CardParseError as exc:
+            failures.append(CardLoadFailure(path=rel, message=_without_path(str(exc), rel)))
+    return cards, failures
+
+
+def load_cards(root: Path) -> list[Card]:
+    cards, failures = load_cards_leniently(root)
+    if failures:
+        raise CardParseError(f"{failures[0].path}: {failures[0].message}")
     return cards

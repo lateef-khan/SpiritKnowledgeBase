@@ -73,6 +73,8 @@ def load_config(root: Path) -> KbConfig:
     facets: dict[str, FacetSpec] = {}
     for name, spec in raw_facets.items():
         spec = spec or {}
+        if not isinstance(spec, dict):
+            raise ConfigError(f"facet {name!r} must be a mapping")
         index = spec.get("index")
         if index not in VALID_INDEX_TYPES:
             raise ConfigError(f"facet {name!r} has unknown index type {index!r}")
@@ -85,9 +87,17 @@ def load_config(root: Path) -> KbConfig:
         raise ConfigError("kb.yaml declares no facets")
 
     payload_indexes = raw.get("payload_indexes") or {}
+    if not isinstance(payload_indexes, dict):
+        raise ConfigError("kb.yaml 'payload_indexes' must be a mapping")
     for name, spec in payload_indexes.items():
+        if not isinstance(spec or {}, dict):
+            raise ConfigError(f"payload index {name!r} must be a mapping")
         if (spec or {}).get("index") not in VALID_INDEX_TYPES:
             raise ConfigError(f"payload index {name!r} has unknown index type")
+
+    ingest = raw.get("ingest") or {}
+    if not isinstance(ingest, dict):
+        raise ConfigError("kb.yaml 'ingest' must be a mapping")
 
     return KbConfig(
         root=Path(root),
@@ -97,5 +107,5 @@ def load_config(root: Path) -> KbConfig:
         kinds=tuple(kinds),
         facets=facets,
         payload_indexes=payload_indexes,
-        pdf_command=(raw.get("ingest") or {}).get("pdf_command"),
+        pdf_command=ingest.get("pdf_command"),
     )

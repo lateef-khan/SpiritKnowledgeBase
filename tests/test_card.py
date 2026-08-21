@@ -1,6 +1,13 @@
 import pytest
 
-from kb.card import Card, CardParseError, load_cards, parse_card, render_card
+from kb.card import (
+    Card,
+    CardParseError,
+    load_cards,
+    load_cards_leniently,
+    parse_card,
+    render_card,
+)
 
 SAMPLE = """---
 id: f63-e03-overcurrent
@@ -97,3 +104,21 @@ def test_load_cards_walks_tree_sorted(tmp_path):
     cards = load_cards(tmp_path)
     assert [c.path for c in cards] == ["cards/a/one.md", "cards/b/two.md"]
     assert isinstance(cards[0], Card)
+
+
+def test_load_cards_leniently_separates_the_broken_from_the_good(tmp_path):
+    (tmp_path / "cards").mkdir()
+    (tmp_path / "cards" / "good.md").write_text(SAMPLE)
+    (tmp_path / "cards" / "broken.md").write_text("---\nid: broken\n")
+    cards, failures = load_cards_leniently(tmp_path)
+    assert [c.path for c in cards] == ["cards/good.md"]
+    assert [f.path for f in failures] == ["cards/broken.md"]
+    assert "unterminated frontmatter" in failures[0].message
+    assert not failures[0].message.startswith("cards/broken.md")
+
+
+def test_load_cards_still_raises_on_a_broken_card(tmp_path):
+    (tmp_path / "cards").mkdir()
+    (tmp_path / "cards" / "broken.md").write_text("---\nid: broken\n")
+    with pytest.raises(CardParseError, match="unterminated"):
+        load_cards(tmp_path)

@@ -83,3 +83,21 @@ def test_kinds_as_scalar_raises(tmp_path):
     bad = MINIMAL.replace("kinds: [fact, policy]", "kinds: fact")
     with pytest.raises(ConfigError, match="kinds"):
         load_config(write(tmp_path, bad))
+
+
+def test_list_shaped_payload_indexes_raises(tmp_path):
+    bad = MINIMAL.replace("payload_indexes:\n  card_id:\n    index: keyword", "payload_indexes: [a, b]")
+    with pytest.raises(ConfigError, match="payload_indexes"):
+        load_config(write(tmp_path, bad))
+
+
+def test_list_shaped_ingest_raises(tmp_path):
+    bad = MINIMAL.replace("ingest:\n  pdf_command: null", "ingest: [a, b]")
+    with pytest.raises(ConfigError, match="ingest"):
+        load_config(write(tmp_path, bad))
+
+
+def test_list_shaped_facet_spec_raises(tmp_path):
+    bad = MINIMAL.replace("  model:\n    index: keyword\n    values: [f63, \"*\"]", "  model: [a, b]")
+    with pytest.raises(ConfigError, match="model"):
+        load_config(write(tmp_path, bad))

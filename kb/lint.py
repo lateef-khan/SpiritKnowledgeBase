@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import re
 from collections import Counter
+from collections.abc import Sequence
 from dataclasses import dataclass
 
-from kb.card import Card
+from kb.card import Card, CardLoadFailure
 from kb.config import KbConfig
 
 ASKED_AS_RANGE = (2, 4)
@@ -31,8 +32,13 @@ def _is_empty(value: object) -> bool:
     return False
 
 
-def lint_cards(cards: list[Card], config: KbConfig, source_refs: set[str]) -> list[LintError]:
-    errors: list[LintError] = []
+def lint_cards(
+    cards: list[Card],
+    config: KbConfig,
+    source_refs: set[str],
+    failures: Sequence[CardLoadFailure] = (),
+) -> list[LintError]:
+    errors = [LintError(f.path, "unparseable", f.message) for f in failures]
     known_ids = {card.id for card in cards}
 
     counts = Counter(card.id for card in cards)
