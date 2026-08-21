@@ -10,6 +10,9 @@ FENCE = "---"
 SCALAR_KEYS = ("id", "title", "kind", "question")
 SEQUENCE_KEYS = ("asked_as", "keywords", "not_to_be_confused_with", "see_also")
 SOURCE_KEYS = ("ref", "locator", "extracted_at")
+# Spec 4.1: write this rather than omitting a facet. group_by drops a point whose
+# grouping field is missing.
+FACET_SENTINEL = "*"
 
 
 class CardParseError(Exception):

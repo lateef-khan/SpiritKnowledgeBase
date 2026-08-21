@@ -1,3 +1,4 @@
+from dataclasses import replace
 from pathlib import Path
 
 import yaml
@@ -102,3 +103,19 @@ def test_render_puts_undeclared_values_in_their_own_block():
     text = render_vocab(build_vocab([card("a", "e95", "e95")], CONFIG))
     assert "undeclared_facet_values:" in text
     assert yaml.safe_load(text)["undeclared_facet_values"] == {"model": ["e95"]}
+
+
+def test_the_wildcard_sentinel_is_never_reported_as_a_new_value():
+    """Spec 4.1 makes "*" the "not applicable" marker, not invented vocabulary."""
+    closed = replace(
+        CONFIG,
+        facets={
+            "model": FacetSpec(index="keyword", array=False, values=("f63",)),
+            "applies_to": FacetSpec(index="keyword", array=True, values=()),
+        },
+    )
+    vocab = build_vocab([card("a", '"*"', '"*"')], closed)
+    assert vocab["undeclared_facet_values"] == {}
+    assert build_vocab([card("a", "e95", "e95")], closed)["undeclared_facet_values"] == {
+        "model": ["e95"]
+    }

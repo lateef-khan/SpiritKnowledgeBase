@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import yaml
 
-from kb.card import Card
+from kb.card import FACET_SENTINEL, Card
 from kb.config import KbConfig
 
 
@@ -24,9 +24,11 @@ def build_vocab(cards: list[Card], config: KbConfig) -> dict:
         for card in cards:
             observed |= _values_on_card(card, name)
         facets[name] = sorted(declared | observed)
-        # A facet that declares no values is open by design, so nothing about it is new.
-        if declared and observed - declared:
-            undeclared[name] = sorted(observed - declared)
+        # A facet that declares no values is open by design, so nothing about it is
+        # new; the sentinel is the card format's own marker, never invented vocabulary.
+        new_values = observed - declared - {FACET_SENTINEL}
+        if declared and new_values:
+            undeclared[name] = sorted(new_values)
 
     return {
         "kinds": list(config.kinds),

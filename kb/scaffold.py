@@ -3,10 +3,10 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from kb.card import Card, render_card
+from kb.card import FACET_SENTINEL, Card, render_card
 from kb.config import KbConfig
 
-SENTINEL = "*"
+SENTINEL = FACET_SENTINEL
 TITLE_PLACEHOLDER = "REPLACE WITH THE QUESTION THIS CARD ANSWERS"
 CARD_ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
