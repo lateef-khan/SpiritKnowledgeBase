@@ -1,5 +1,3 @@
-import pytest
-
 from kb.card import parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.lint import lint_cards
@@ -108,6 +106,11 @@ def test_empty_string_facet_is_reported():
 
 def test_empty_list_facet_is_reported():
     errors = lint_cards([make(facets="  model: f63\n  applies_to: []")], CONFIG, {"src-1"})
+    assert "empty-facet" in slugs(errors)
+
+
+def test_blank_entries_in_list_facet_is_reported():
+    errors = lint_cards([make(facets='  model: f63\n  applies_to: ["", " "]')], CONFIG, {"src-1"})
     assert "empty-facet" in slugs(errors)
 
 

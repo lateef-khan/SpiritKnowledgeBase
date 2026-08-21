@@ -24,7 +24,9 @@ def _is_empty(value: object) -> bool:
         return True
     if isinstance(value, str):
         return not value.strip()
-    if isinstance(value, (list, tuple, dict)):
+    if isinstance(value, (list, tuple)):
+        return all(isinstance(item, str) and not item.strip() for item in value)
+    if isinstance(value, dict):
         return len(value) == 0
     return False
 
@@ -73,16 +75,18 @@ def lint_cards(cards: list[Card], config: KbConfig, source_refs: set[str]) -> li
                 LintError(card.path, "unknown-kind", f"kind {card.kind!r} is not in {list(config.kinds)}")
             )
 
-        low, high = ASKED_AS_RANGE
-        if not low <= len(card.asked_as) <= high:
-            errors.append(
-                LintError(card.path, "list-length", f"asked_as needs {low}-{high} entries, has {len(card.asked_as)}")
-            )
-        low, high = KEYWORDS_RANGE
-        if not low <= len(card.keywords) <= high:
-            errors.append(
-                LintError(card.path, "list-length", f"keywords needs {low}-{high} entries, has {len(card.keywords)}")
-            )
+        for field_name, values, (low, high) in (
+            ("asked_as", card.asked_as, ASKED_AS_RANGE),
+            ("keywords", card.keywords, KEYWORDS_RANGE),
+        ):
+            if not low <= len(values) <= high:
+                errors.append(
+                    LintError(
+                        card.path,
+                        "list-length",
+                        f"{field_name} needs {low}-{high} entries, has {len(values)}",
+                    )
+                )
 
         if not card.body.strip():
             errors.append(LintError(card.path, "empty-body", "card body is empty"))
