@@ -1,11 +1,27 @@
 from __future__ import annotations
 
+import datetime
+import hashlib
+import json
+
 from kb.card import Card
 from kb.ids import retrieval_text
 
+EXCLUDED_FROM_HASH = frozenset({"card_id", "title", "question", "text", "body"})
+
+
+def _json_native(value: object) -> object:
+    if isinstance(value, (datetime.date, datetime.datetime)):
+        return value.isoformat()
+    if isinstance(value, dict):
+        return {key: _json_native(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_json_native(item) for item in value]
+    return value
+
 
 def build_payload(card: Card) -> dict:
-    return {
+    payload = {
         "card_id": card.id,
         "title": card.title,
         "kind": card.kind,
@@ -23,3 +39,11 @@ def build_payload(card: Card) -> dict:
             "extracted_at": card.source_extracted_at,
         },
     }
+    return _json_native(payload)
+
+
+def payload_hash(card: Card) -> str:
+    payload = build_payload(card)
+    material = {key: value for key, value in payload.items() if key not in EXCLUDED_FROM_HASH}
+    canonical = json.dumps(material, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import uuid
 
 from kb.card import Card
@@ -22,21 +21,3 @@ def retrieval_text(card: Card) -> str:
 
 def embed_hash(card: Card) -> str:
     return hashlib.sha256(retrieval_text(card).encode("utf-8")).hexdigest()
-
-
-def payload_hash(card: Card) -> str:
-    material = {
-        "kind": card.kind,
-        "facets": card.facets,
-        "path": card.path,
-        "authority": card.authority,
-        "see_also": list(card.see_also),
-        "not_to_be_confused_with": list(card.not_to_be_confused_with),
-        "source": {
-            "ref": card.source_ref,
-            "locator": card.source_locator,
-            "extracted_at": card.source_extracted_at,
-        },
-    }
-    canonical = json.dumps(material, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
-    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
