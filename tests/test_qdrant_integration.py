@@ -81,6 +81,7 @@ def count(client) -> int:
 def test_full_lifecycle_against_real_qdrant(client):
     embedder = ConstantEmbedder()
     ensure_collection(client, CONFIG, CONFIG.collection)
+    ensure_collection(client, CONFIG, CONFIG.collection)  # must be idempotent against an already-indexed live collection
 
     first = card("e03", "Error E03 - hardware current too large")
     apply_plan(client, CONFIG, CONFIG.collection, plan_sync([first], {}), [first], embedder)
