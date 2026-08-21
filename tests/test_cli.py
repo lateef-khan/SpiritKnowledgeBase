@@ -224,3 +224,23 @@ def test_ingest_reports_a_domain_error_without_a_traceback(repo, tmp_path):
     )
     assert result.exit_code == 1
     assert "invalid" in result.output
+
+
+def test_new_refuses_an_id_that_escapes_the_repo(repo, tmp_path):
+    result = run(repo, "new", "../../escaped", "--today", "2026-08-21")
+    assert result.exit_code == 1
+    assert "escaped" in result.output
+    assert not (repo.parent.parent / "escaped.md").exists()
+    assert list((repo / "cards").iterdir()) == [repo / "cards" / "card-a.md"]
+
+
+def test_new_refuses_an_id_with_a_path_separator(repo):
+    result = run(repo, "new", "f63/errors/e03", "--today", "2026-08-21")
+    assert result.exit_code == 1
+    assert not (repo / "cards" / "f63").exists()
+
+
+def test_new_refuses_an_uppercase_id(repo):
+    result = run(repo, "new", "F63-E03", "--today", "2026-08-21")
+    assert result.exit_code == 1
+    assert "lowercase" in result.output

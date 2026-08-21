@@ -13,7 +13,7 @@ from kb.ingest import IngestError, ingest as run_ingest
 from kb.lint import lint_cards
 from kb.manifest import ManifestError, source_refs
 from kb.qdrant import AliasConflictError, apply_plan, ensure_alias, rebuild
-from kb.scaffold import new_card_text
+from kb.scaffold import ScaffoldError, card_path, new_card_text
 from kb.state import load_state, save_state
 from kb.syncplan import DEFAULT_DELETE_RATIO_LIMIT, DangerousSyncError, plan_sync
 from kb.vocab import build_vocab, render_vocab
@@ -29,6 +29,7 @@ DOMAIN_ERRORS = (
     EmbedError,
     IngestError,
     ManifestError,
+    ScaffoldError,
 )
 
 
@@ -89,7 +90,7 @@ def vocab(ctx: click.Context) -> None:
 @click.pass_context
 def new(ctx: click.Context, card_id: str, today: str | None) -> None:
     root, config = _load_config(ctx)
-    target = root / "cards" / f"{card_id}.md"
+    target = card_path(root, card_id)
     if target.exists():
         click.echo(f"{target} already exists")
         ctx.exit(1)
