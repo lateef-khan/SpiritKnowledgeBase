@@ -5,9 +5,17 @@ import pytest
 from qdrant_client import QdrantClient, models
 
 from kb.card import parse_card
+from kb.cli import default_stamp
 from kb.config import FacetSpec, KbConfig
 from kb.ids import point_id
-from kb.qdrant import VECTOR_NAME, apply_plan, ensure_alias, ensure_collection, rebuild
+from kb.qdrant import (
+    VECTOR_NAME,
+    AliasConflictError,
+    apply_plan,
+    ensure_alias,
+    ensure_collection,
+    rebuild,
+)
 from kb.state import state_for
 from kb.syncplan import plan_sync
 
@@ -258,18 +266,24 @@ def test_a_first_sync_then_a_rebuild_both_succeed_and_the_alias_follows(alias_sy
         card("e31", "Error E31 - over temperature"),
     ]
 
-    name = ensure_alias(c, ALIAS_SYNC_CONFIG, "first")
+    # The first sync takes the stamp the CLI derives by default.
+    first = default_stamp()
+    name = ensure_alias(c, ALIAS_SYNC_CONFIG, first)
     assert name == ALIAS_SYNC_BASE
-    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_first"
+    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_{first}"
 
     apply_plan(c, ALIAS_SYNC_CONFIG, name, plan_sync(cards, {}), cards, embedder)
     assert c.count(ALIAS_SYNC_BASE, exact=True).count == 2
 
-    target = rebuild(c, ALIAS_SYNC_CONFIG, cards, embedder, "second")
-    assert target == f"{ALIAS_SYNC_BASE}_second"
+    with pytest.raises(AliasConflictError, match="--stamp"):
+        rebuild(c, ALIAS_SYNC_CONFIG, cards, embedder, first)
+    assert c.count(ALIAS_SYNC_BASE, exact=True).count == 2
+
+    target = rebuild(c, ALIAS_SYNC_CONFIG, cards, embedder, "rebuilt")
+    assert target == f"{ALIAS_SYNC_BASE}_rebuilt"
     assert alias_target(c, ALIAS_SYNC_BASE) == target
     assert c.count(ALIAS_SYNC_BASE, exact=True).count == 2
-    assert not c.collection_exists(f"{ALIAS_SYNC_BASE}_first")
+    assert not c.collection_exists(f"{ALIAS_SYNC_BASE}_{first}")
 
     stored = c.retrieve(ALIAS_SYNC_BASE, ids=[point_id("e03")], with_payload=True)[0]
     assert stored.payload["card_id"] == "e03"
@@ -280,11 +294,12 @@ def test_a_second_ordinary_sync_reuses_the_alias_and_creates_nothing(alias_sync_
     embedder = ConstantEmbedder()
     cards = [card("e03", "Error E03 - hardware current too large")]
 
-    ensure_alias(c, ALIAS_SYNC_CONFIG, "first")
+    # Both syncs take the CLI's default stamp, as two runs on the same day would.
+    stamp = default_stamp()
+    ensure_alias(c, ALIAS_SYNC_CONFIG, stamp)
     apply_plan(c, ALIAS_SYNC_CONFIG, ALIAS_SYNC_BASE, plan_sync(cards, {}), cards, embedder)
 
-    name = ensure_alias(c, ALIAS_SYNC_CONFIG, "second")
+    name = ensure_alias(c, ALIAS_SYNC_CONFIG, stamp)
     assert name == ALIAS_SYNC_BASE
-    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_first"
-    assert not c.collection_exists(f"{ALIAS_SYNC_BASE}_second")
+    assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_{stamp}"
     assert c.count(ALIAS_SYNC_BASE, exact=True).count == 1

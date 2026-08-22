@@ -264,3 +264,11 @@ def test_sync_omits_the_qdrant_api_key_when_the_environment_has_none(repo, monke
 def test_sync_reads_the_qdrant_url_from_the_environment(repo, monkeypatch):
     monkeypatch.setenv("QDRANT_URL", "https://example.cloud.qdrant.io:6333")
     assert client_kwargs()["url"] == "https://example.cloud.qdrant.io:6333"
+
+
+def test_lint_reports_an_undecodable_card_without_a_traceback(repo):
+    (repo / "cards" / "card-binary.md").write_bytes(b"---\nid: x\n\xff\xfe\n---\n")
+    result = run(repo, "lint")
+    assert result.exit_code == 1
+    assert "cards/card-binary.md: [unparseable]" in result.output
+    assert "Traceback" not in result.output

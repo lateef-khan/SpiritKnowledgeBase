@@ -23,6 +23,10 @@ QDRANT_API_KEY_VARIABLE = "QDRANT_API_KEY"
 DEFAULT_QDRANT_URL = "http://localhost:6333"
 
 
+def default_stamp() -> str:
+    return datetime.date.today().isoformat().replace("-", "_")
+
+
 def client_kwargs() -> dict:
     kwargs = {
         "url": os.environ.get(QDRANT_URL_VARIABLE, DEFAULT_QDRANT_URL),
@@ -34,6 +38,8 @@ def client_kwargs() -> dict:
         kwargs["api_key"] = api_key
     return kwargs
 
+# Invariant: a domain error class is raised only by explicit validation, never by
+# wrapping a broad except, so this handler can never swallow an unrelated bug.
 DOMAIN_ERRORS = (
     AliasConflictError,
     CardParseError,
@@ -158,7 +164,7 @@ def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
 
     client = QdrantClient(**client_kwargs())
     embedder = build_embedder(config)
-    suffix = stamp or datetime.date.today().isoformat().replace("-", "_")
+    suffix = stamp or default_stamp()
 
     if do_rebuild:
         name = rebuild(client, config, cards, embedder, suffix)

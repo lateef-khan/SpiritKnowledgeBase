@@ -155,6 +155,19 @@ def rebuild(
     _refuse_concrete_collection(client, config.collection)
 
     target = f"{config.collection}_{stamp}"
+    previous = {
+        alias.collection_name
+        for alias in client.get_aliases().aliases
+        if alias.alias_name == config.collection
+    }
+    if target in previous:
+        raise AliasConflictError(
+            f"the alias {config.collection!r} already resolves to {target!r}. Rebuilding "
+            f"into it would drop the live collection first, leaving the alias unresolvable "
+            f"for the whole embedding run, and an interrupted rebuild would empty the "
+            f"knowledge base for good. Pass a distinct --stamp."
+        )
+
     if client.collection_exists(target):
         client.delete_collection(target)
     ensure_collection(client, config, target)
@@ -174,12 +187,7 @@ def rebuild(
             wait=True,
         )
 
-    previous = {
-        alias.collection_name
-        for alias in client.get_aliases().aliases
-        if alias.alias_name == config.collection
-    }
     _point_alias(client, config.collection, target)
-    for old in previous - {target}:
+    for old in previous:
         client.delete_collection(old)
     return target

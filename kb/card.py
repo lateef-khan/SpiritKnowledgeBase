@@ -156,6 +156,8 @@ def load_cards_leniently(root: Path) -> tuple[list[Card], list[CardLoadFailure]]
             cards.append(parse_card(file.read_text(), rel))
         except CardParseError as exc:
             failures.append(CardLoadFailure(path=rel, message=_without_path(str(exc), rel)))
+        except (OSError, UnicodeDecodeError) as exc:
+            failures.append(CardLoadFailure(path=rel, message=f"cannot be read: {exc}"))
     return cards, failures
 
 

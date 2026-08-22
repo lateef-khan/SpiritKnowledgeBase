@@ -4,6 +4,7 @@ import pytest
 from qdrant_client import models
 
 from kb.card import parse_card
+from kb.cli import default_stamp
 from kb.config import FacetSpec, KbConfig
 from kb.qdrant import (
     VECTOR_NAME,
@@ -330,3 +331,26 @@ def test_ensure_alias_indexes_the_collection_it_creates():
         "facets.model",
         "facets.applies_to",
     }
+
+
+def test_a_same_day_sync_then_rebuild_is_refused_before_it_touches_anything():
+    """The CLI derives one stamp for both modes, so on the day the alias is first
+    created the rebuild target is the collection the alias already resolves to."""
+    client, embedder = FakeClient(), FakeEmbedder()
+    stamp = default_stamp()
+    cards = [card()]
+
+    name = ensure_alias(client, CONFIG, stamp)
+    apply_plan(client, CONFIG, name, plan_sync(cards, {}), cards, embedder)
+    live = aliases_of(client)[CONFIG.collection]
+    embedder.seen.clear()
+    client.calls.clear()
+
+    with pytest.raises(AliasConflictError, match="--stamp"):
+        rebuild(client, CONFIG, cards, embedder, stamp)
+
+    assert embedder.seen == []
+    assert client.deleted_collections == []
+    assert client.calls == []
+    assert aliases_of(client)[CONFIG.collection] == live
+    assert client.collection_exists(live)

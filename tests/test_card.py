@@ -122,3 +122,13 @@ def test_load_cards_still_raises_on_a_broken_card(tmp_path):
     (tmp_path / "cards" / "broken.md").write_text("---\nid: broken\n")
     with pytest.raises(CardParseError, match="unterminated"):
         load_cards(tmp_path)
+
+
+def test_load_cards_leniently_reports_a_file_it_cannot_decode(tmp_path):
+    (tmp_path / "cards").mkdir()
+    (tmp_path / "cards" / "good.md").write_text(SAMPLE)
+    (tmp_path / "cards" / "binary.md").write_bytes(b"---\nid: x\n\xff\xfe\n---\n")
+    cards, failures = load_cards_leniently(tmp_path)
+    assert [c.path for c in cards] == ["cards/good.md"]
+    assert [f.path for f in failures] == ["cards/binary.md"]
+    assert "cannot be read" in failures[0].message
