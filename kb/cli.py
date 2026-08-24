@@ -29,6 +29,7 @@ from kb.vocab import build_vocab, render_vocab
 QDRANT_URL_VARIABLE = "QDRANT_URL"
 QDRANT_API_KEY_VARIABLE = "QDRANT_API_KEY"
 DEFAULT_QDRANT_URL = "http://localhost:6333"
+ENV_FILENAME = ".env"
 
 
 def default_stamp() -> str:
@@ -102,11 +103,23 @@ class DomainErrorGroup(click.Group):
             ctx.exit(1)
 
 
+def load_env_file(root: Path) -> None:
+    """Read <root>/.env, letting a real environment variable win.
+
+    CI supplies its secrets through the environment and ships no .env, so a file
+    that overrode the environment would silently sync a developer's laptop keys.
+    """
+    from dotenv import load_dotenv
+
+    load_dotenv(Path(root) / ENV_FILENAME, override=False)
+
+
 @click.group(cls=DomainErrorGroup)
 @click.option("--root", default=".", type=click.Path(file_okay=False), help="Repository root")
 @click.pass_context
 def main(ctx: click.Context, root: str) -> None:
     ctx.obj = {"root": Path(root)}
+    load_env_file(Path(root))
 
 
 def _load_config(ctx):

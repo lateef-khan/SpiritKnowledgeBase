@@ -41,6 +41,22 @@ Review the pull request it opens. Merging it syncs the cards to Qdrant.
 set it for Qdrant Cloud or any authenticated endpoint, leave it unset for an
 unauthenticated self-hosted container.
 
+### Where the keys go
+
+For local work, put them in a `.env` beside `kb.yaml`. It is gitignored, and `kb`
+reads it on every command:
+
+```
+QDRANT_URL=https://your-cluster.cloud.qdrant.io:6333
+QDRANT_API_KEY=your-qdrant-key
+OPENAI_API_KEY=sk-your-openai-key
+```
+
+A real environment variable always beats the file, so CI keeps using its own
+secrets and a developer's `.env` can never reach it. In CI there is no `.env` at
+all — GitHub Actions supplies `QDRANT_URL`, `QDRANT_API_KEY` and `OPENAI_API_KEY`
+from repository secrets.
+
 **The collection is the sync state.** Every point carries an `embed_hash` and a
 `payload_hash` in its payload, and `kb sync` reads them back before planning.
 There is no state file to commit, and CI writes nothing to the repository. This

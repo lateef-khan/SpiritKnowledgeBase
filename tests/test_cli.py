@@ -525,3 +525,31 @@ def test_dry_run_refuses_a_concrete_collection_where_an_alias_is_required(repo, 
     result = run(repo, "sync", "--dry-run")
     assert result.exit_code == 1
     assert "concrete collection" in result.output
+
+
+def test_a_dotenv_file_supplies_the_qdrant_url(repo, monkeypatch):
+    monkeypatch.delenv("QDRANT_URL", raising=False)
+    (repo / ".env").write_text("QDRANT_URL=https://from-dotenv:6333\n")
+    run(repo, "lint")
+    assert client_kwargs()["url"] == "https://from-dotenv:6333"
+
+
+def test_a_real_environment_variable_beats_the_dotenv_file(repo, monkeypatch):
+    monkeypatch.setenv("QDRANT_URL", "https://from-environment:6333")
+    monkeypatch.delenv("QDRANT_API_KEY", raising=False)
+    (repo / ".env").write_text(
+        "QDRANT_URL=https://from-dotenv:6333\nQDRANT_API_KEY=from-dotenv-key\n"
+    )
+    run(repo, "lint")
+    kwargs = client_kwargs()
+    assert kwargs["api_key"] == "from-dotenv-key", "the file was never read"
+    assert kwargs["url"] == "https://from-environment:6333"
+
+
+def test_a_missing_dotenv_file_is_not_an_error(repo, monkeypatch):
+    monkeypatch.delenv("QDRANT_URL", raising=False)
+    monkeypatch.delenv("QDRANT_API_KEY", raising=False)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    assert not (repo / ".env").exists()
+    result = run(repo, "lint")
+    assert result.exit_code == 0
