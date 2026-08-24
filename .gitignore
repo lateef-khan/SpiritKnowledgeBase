@@ -5,3 +5,4 @@ __pycache__/
 sources/**/raw/
 .superpowers
 .kb-state.json
+.env
