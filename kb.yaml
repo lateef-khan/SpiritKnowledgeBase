@@ -37,4 +37,4 @@ payload_indexes:
     index: integer
 
 ingest:
-  pdf_command: null
+  pdf_command: "pdftotext -layout {input} {output}"
