@@ -6,7 +6,7 @@ from kb.card import Card
 from kb.config import KbConfig
 from kb.embed import Embedder
 from kb.ids import point_id, retrieval_text
-from kb.payload import build_payload
+from kb.payload import build_point_payload
 from kb.syncplan import SyncPlan
 
 VECTOR_NAME = "dense"
@@ -21,6 +21,10 @@ SCHEMA_BY_INDEX = {
 
 
 class AliasConflictError(Exception):
+    pass
+
+
+class QdrantError(Exception):
     pass
 
 
@@ -77,7 +81,7 @@ def _point_alias(client, alias_name: str, collection_name: str) -> None:
     )
 
 
-def _refuse_concrete_collection(client, name: str) -> None:
+def refuse_concrete_collection(client, name: str) -> None:
     # collection_exists answers true for an alias, so the alias list is the discriminator.
     if client.collection_exists(name) and name not in _alias_names(client):
         raise AliasConflictError(
@@ -99,7 +103,7 @@ def ensure_alias(client, config: KbConfig, stamp: str) -> str:
         ensure_collection(client, config, config.collection)
         return config.collection
 
-    _refuse_concrete_collection(client, config.collection)
+    refuse_concrete_collection(client, config.collection)
     target = f"{config.collection}_{stamp}"
     ensure_collection(client, config, target)
     _point_alias(client, config.collection, target)
@@ -112,7 +116,7 @@ def apply_plan(
     name: str,
     plan: SyncPlan,
     cards: list[Card],
-    embedder: Embedder,
+    embedder: Embedder | None,
 ) -> dict[str, int]:
     by_id = {card.id: card for card in cards}
 
@@ -123,7 +127,7 @@ def apply_plan(
             models.PointStruct(
                 id=action.point_id,
                 vector={VECTOR_NAME: vector},
-                payload=build_payload(by_id[action.card_id]),
+                payload=build_point_payload(by_id[action.card_id]),
             )
             for action, vector in zip(to_embed, vectors, strict=True)
         ]
@@ -133,7 +137,7 @@ def apply_plan(
         if action.op == "set_payload":
             client.set_payload(
                 collection_name=name,
-                payload=build_payload(by_id[action.card_id]),
+                payload=build_point_payload(by_id[action.card_id]),
                 points=[action.point_id],
                 wait=True,
             )
@@ -152,7 +156,7 @@ def apply_plan(
 def rebuild(
     client, config: KbConfig, cards: list[Card], embedder: Embedder, stamp: str
 ) -> str:
-    _refuse_concrete_collection(client, config.collection)
+    refuse_concrete_collection(client, config.collection)
 
     target = f"{config.collection}_{stamp}"
     previous = {
@@ -180,7 +184,7 @@ def rebuild(
                 models.PointStruct(
                     id=point_id(card.id),
                     vector={VECTOR_NAME: vector},
-                    payload=build_payload(card),
+                    payload=build_point_payload(card),
                 )
                 for card, vector in zip(cards, vectors, strict=True)
             ],

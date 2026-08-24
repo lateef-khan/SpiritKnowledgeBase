@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from kb.card import Card
 from kb.state import CardState, state_for
@@ -23,7 +23,6 @@ class Action:
 @dataclass(frozen=True)
 class SyncPlan:
     actions: tuple[Action, ...]
-    next_state: dict[str, CardState] = field(default_factory=dict)
 
     def counts(self) -> dict[str, int]:
         tally = {op: 0 for op in OPS}
@@ -61,4 +60,4 @@ def plan_sync(
     for card_id in removed:
         actions.append(Action(op="delete", card_id=card_id, point_id=state[card_id].point_id))
 
-    return SyncPlan(actions=tuple(actions), next_state=fresh)
+    return SyncPlan(actions=tuple(actions))

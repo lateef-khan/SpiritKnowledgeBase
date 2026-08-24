@@ -82,16 +82,6 @@ def test_counts_reports_each_operation():
     assert plan.counts() == {"upsert": 1, "set_payload": 0, "delete": 1, "skip": 1}
 
 
-def test_next_state_drops_deleted_and_adds_new():
-    kept = card("kept")
-    gone = card("gone")
-    fresh = card("fresh")
-    state = {"kept": state_for(kept), "gone": state_for(gone)}
-    plan = plan_sync([kept, fresh], state, delete_ratio_limit=1.0)
-    assert set(plan.next_state) == {"kept", "fresh"}
-    assert plan.next_state["fresh"] == state_for(fresh)
-
-
 def test_deleting_more_than_the_limit_raises():
     state = {f"c{i}": CardState("e", "p", "id") for i in range(10)}
     cards = [card(f"c{i}") for i in range(8)]

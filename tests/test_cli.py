@@ -1,9 +1,11 @@
-import json
-
 import pytest
 from click.testing import CliRunner
+from qdrant_client import models
+from qdrant_client.http.exceptions import ResponseHandlingException, UnexpectedResponse
 
+from kb.card import parse_card
 from kb.cli import client_kwargs, main
+from kb.state import state_for
 
 KB_YAML = """
 collection: kb
@@ -76,6 +78,151 @@ def run(repo, *args):
     return CliRunner().invoke(main, ["--root", str(repo), *args])
 
 
+class FakeQdrant:
+    def __init__(self, records=(), alias="kb"):
+        self._records = list(records)
+        self._aliases = [
+            models.AliasDescription(alias_name=alias, collection_name=f"{alias}_2026_01_01")
+        ]
+        self.calls = []
+
+    def collection_exists(self, name):
+        return name in {alias.alias_name for alias in self._aliases}
+
+    def scroll(self, collection_name, **kwargs):
+        self.calls.append("scroll")
+        return list(self._records), None
+
+    def get_aliases(self):
+        return models.CollectionsAliasesResponse(aliases=list(self._aliases))
+
+    def create_collection(self, **kwargs):
+        self.calls.append("create_collection")
+
+    def create_payload_index(self, **kwargs):
+        self.calls.append("create_payload_index")
+
+    def upsert(self, **kwargs):
+        self.calls.append("upsert")
+
+    def set_payload(self, **kwargs):
+        self.calls.append("set_payload")
+
+    def delete(self, **kwargs):
+        self.calls.append("delete")
+
+    def delete_collection(self, collection_name):
+        self.calls.append("delete_collection")
+
+    def update_collection_aliases(self, **kwargs):
+        self.calls.append("update_collection_aliases")
+
+
+WRITE_CALLS = {
+    "create_collection",
+    "create_payload_index",
+    "upsert",
+    "set_payload",
+    "delete",
+    "delete_collection",
+    "update_collection_aliases",
+}
+
+
+class FakeEmbedder:
+    def embed(self, texts):
+        return [[0.5] * 1024 for _ in texts]
+
+
+def install_client(monkeypatch, client):
+    """Hand `sync` a fake client and return one entry per client built."""
+    built = []
+
+    def factory():
+        built.append(client)
+        return client
+
+    monkeypatch.setattr("kb.cli.build_client", factory)
+    return built
+
+
+def install_embedder(monkeypatch):
+    """Hand `sync` a fake embedder and return one entry per embedder built."""
+    built = []
+
+    def factory(config):
+        built.append(config)
+        return FakeEmbedder()
+
+    monkeypatch.setattr("kb.cli.build_embedder", factory)
+    return built
+
+
+class ReadFailsQdrant(FakeQdrant):
+    def __init__(self, error):
+        super().__init__()
+        self._error = error
+
+    def collection_exists(self, name):
+        raise self._error
+
+
+class UpsertFailsQdrant(FakeQdrant):
+    def __init__(self, error):
+        super().__init__()
+        self._error = error
+
+    def upsert(self, **kwargs):
+        raise self._error
+
+
+class ConcreteCollectionQdrant(FakeQdrant):
+    def __init__(self):
+        super().__init__(alias="something-else")
+
+    def collection_exists(self, name):
+        return True
+
+
+def http_error(status_code, reason_phrase, content):
+    return UnexpectedResponse(
+        status_code=status_code, reason_phrase=reason_phrase, content=content, headers={}
+    )
+
+
+def spy_on_the_real_embedder(monkeypatch):
+    """Record each build_embedder call and still build the real one."""
+    from kb.embed import build_embedder as real
+
+    built = []
+
+    def factory(config):
+        built.append(config)
+        return real(config)
+
+    monkeypatch.setattr("kb.cli.build_embedder", factory)
+    return built
+
+
+def matching_record():
+    state = state_for(parse_card(CARD, "cards/card-a.md"))
+    return models.Record(
+        id=state.point_id,
+        payload={
+            "card_id": "card-a",
+            "embed_hash": state.embed_hash,
+            "payload_hash": state.payload_hash,
+        },
+    )
+
+
+def ghost(card_id):
+    return models.Record(
+        id=card_id,
+        payload={"card_id": card_id, "embed_hash": "e", "payload_hash": "p"},
+    )
+
+
 def test_lint_passes_on_a_clean_repo(repo):
     result = run(repo, "lint")
     assert result.exit_code == 0
@@ -123,20 +270,50 @@ def test_ingest_writes_source_and_manifest_row(repo, tmp_path):
     assert "src-2" in (repo / "sources" / "manifest.yaml").read_text()
 
 
-def test_sync_dry_run_prints_counts_and_writes_no_state(repo):
+def test_sync_dry_run_prints_counts_and_writes_nothing(repo, monkeypatch):
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    client = FakeQdrant()
+    install_client(monkeypatch, client)
     result = run(repo, "sync", "--dry-run")
     assert result.exit_code == 0
     assert "upsert 1" in result.output
-    assert not (repo / ".kb-state.json").exists()
+    assert not WRITE_CALLS & set(client.calls)
 
 
-def test_sync_dry_run_reports_the_safety_rail(repo):
-    (repo / ".kb-state.json").write_text(
-        json.dumps({f"ghost-{i}": {"embed_hash": "e", "payload_hash": "p", "point_id": "x"} for i in range(20)})
-    )
+def test_sync_dry_run_reports_the_safety_rail(repo, monkeypatch):
+    client = FakeQdrant(records=[ghost(f"ghost-{i}") for i in range(20)])
+    install_client(monkeypatch, client)
     result = run(repo, "sync", "--dry-run")
     assert result.exit_code == 1
     assert "--force" in result.output
+
+
+def test_sync_never_builds_a_client_when_lint_fails(repo, monkeypatch):
+    (repo / "cards" / "card-b.md").write_text(
+        CARD.replace("ref: src-1", "ref: ghost").replace("id: card-a", "id: card-b")
+    )
+    built = install_client(monkeypatch, FakeQdrant())
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert built == []
+
+
+def test_sync_reads_the_state_before_it_writes(repo, monkeypatch):
+    client = FakeQdrant()
+    install_client(monkeypatch, client)
+    install_embedder(monkeypatch)
+    result = run(repo, "sync")
+    assert result.exit_code == 0
+    assert client.calls.index("scroll") < client.calls.index("upsert")
+    assert "synced into kb" in result.output
+
+
+def test_lint_runs_with_every_credential_unset(repo, monkeypatch):
+    for name in ("QDRANT_URL", "QDRANT_API_KEY", "OPENAI_API_KEY"):
+        monkeypatch.delenv(name, raising=False)
+    result = run(repo, "lint")
+    assert result.exit_code == 0
+    assert "0 problems" in result.output
 
 
 def test_sync_refuses_when_lint_fails(repo):
@@ -272,3 +449,79 @@ def test_lint_reports_an_undecodable_card_without_a_traceback(repo):
     assert result.exit_code == 1
     assert "cards/card-binary.md: [unparseable]" in result.output
     assert "Traceback" not in result.output
+
+
+def test_a_sync_where_every_card_skips_needs_no_openai_key(repo, monkeypatch):
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    install_client(monkeypatch, FakeQdrant(records=[matching_record()]))
+    built = spy_on_the_real_embedder(monkeypatch)
+    result = run(repo, "sync")
+    assert result.exit_code == 0
+    assert "skip 1" in result.output
+    assert built == []
+
+
+def test_a_sync_with_an_upsert_still_builds_the_embedder(repo, monkeypatch):
+    install_client(monkeypatch, FakeQdrant())
+    built = install_embedder(monkeypatch)
+    result = run(repo, "sync")
+    assert result.exit_code == 0
+    assert "upsert 1" in result.output
+    assert len(built) == 1
+
+
+def test_rebuild_reports_the_cards_it_embeds_not_the_plan_it_discards(repo, monkeypatch):
+    install_client(monkeypatch, FakeQdrant(records=[matching_record()]))
+    built = install_embedder(monkeypatch)
+    result = run(repo, "sync", "--rebuild", "--stamp", "later")
+    assert result.exit_code == 0
+    assert "rebuilding 1 cards" in result.output
+    assert "skip 1" not in result.output
+    assert len(built) == 1
+
+
+def test_sync_reports_an_unreachable_qdrant_as_a_message(repo, monkeypatch):
+    monkeypatch.setenv("QDRANT_URL", "http://qdrant.example:6333")
+    error = ResponseHandlingException(ConnectionError("[Errno 111] Connection refused"))
+    install_client(monkeypatch, ReadFailsQdrant(error))
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert "http://qdrant.example:6333" in result.output
+    assert "Connection refused" in result.output
+    assert "Traceback" not in result.output
+
+
+def test_sync_reports_a_rejected_api_key_as_a_message(repo, monkeypatch):
+    monkeypatch.setenv("QDRANT_URL", "http://qdrant.example:6333")
+    error = http_error(403, "Forbidden", b"Must provide an API key or an Authorization bearer token")
+    install_client(monkeypatch, ReadFailsQdrant(error))
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert "403" in result.output
+    assert "Must provide an API key" in result.output
+    assert "QDRANT_API_KEY" in result.output
+    assert "Traceback" not in result.output
+
+
+def test_sync_reports_a_server_error_as_a_message(repo, monkeypatch):
+    install_client(monkeypatch, ReadFailsQdrant(http_error(500, "Internal Server Error", b"boom")))
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert "500" in result.output
+    assert "Traceback" not in result.output
+
+
+def test_sync_reports_a_failed_write_as_a_message(repo, monkeypatch):
+    install_client(monkeypatch, UpsertFailsQdrant(http_error(500, "Internal Server Error", b"boom")))
+    install_embedder(monkeypatch)
+    result = run(repo, "sync")
+    assert result.exit_code == 1
+    assert "500" in result.output
+    assert "Traceback" not in result.output
+
+
+def test_dry_run_refuses_a_concrete_collection_where_an_alias_is_required(repo, monkeypatch):
+    install_client(monkeypatch, ConcreteCollectionQdrant())
+    result = run(repo, "sync", "--dry-run")
+    assert result.exit_code == 1
+    assert "concrete collection" in result.output

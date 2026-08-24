@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import contextlib
 import datetime
 import os
 from pathlib import Path
@@ -12,9 +13,16 @@ from kb.embed import EmbedError, build_embedder
 from kb.ingest import IngestError, ingest as run_ingest
 from kb.lint import lint_cards
 from kb.manifest import ManifestError, source_refs
-from kb.qdrant import AliasConflictError, apply_plan, ensure_alias, rebuild
+from kb.qdrant import (
+    AliasConflictError,
+    QdrantError,
+    apply_plan,
+    ensure_alias,
+    rebuild,
+    refuse_concrete_collection,
+)
 from kb.scaffold import ScaffoldError, card_path, new_card_text
-from kb.state import load_state, save_state
+from kb.state import read_state
 from kb.syncplan import DEFAULT_DELETE_RATIO_LIMIT, DangerousSyncError, plan_sync
 from kb.vocab import build_vocab, render_vocab
 
@@ -38,6 +46,32 @@ def client_kwargs() -> dict:
         kwargs["api_key"] = api_key
     return kwargs
 
+
+def build_client():
+    from qdrant_client import QdrantClient
+
+    return QdrantClient(**client_kwargs())
+
+
+@contextlib.contextmanager
+def qdrant_errors(url: str):
+    """Report any Qdrant API failure as a message, not a traceback.
+
+    ApiException is the shared base of a transport failure, every 4xx and 5xx, and a
+    response whose body fails validation. Catching one named class keeps the
+    domain-error invariant below.
+    """
+    from qdrant_client.http.exceptions import ApiException
+
+    try:
+        yield
+    except ApiException as exc:
+        raise QdrantError(
+            f"Qdrant call to {url} failed: {exc}. Check that the server is up and that "
+            f"{QDRANT_URL_VARIABLE} and {QDRANT_API_KEY_VARIABLE} name and authenticate it."
+        ) from exc
+
+
 # Invariant: a domain error class is raised only by explicit validation, never by
 # wrapping a broad except, so this handler can never swallow an unrelated bug.
 DOMAIN_ERRORS = (
@@ -48,6 +82,7 @@ DOMAIN_ERRORS = (
     EmbedError,
     IngestError,
     ManifestError,
+    QdrantError,
     ScaffoldError,
 )
 
@@ -135,12 +170,17 @@ def ingest(ctx, path, source_id, title, origin, today) -> None:
 
 
 @main.command()
-@click.option("--dry-run", is_flag=True, help="Plan only; no network, no state written")
+@click.option("--dry-run", is_flag=True, help="Plan only; reads Qdrant, writes nothing")
 @click.option("--force", is_flag=True, help="Allow a sync that deletes over the limit")
 @click.option("--rebuild", "do_rebuild", is_flag=True, help="Rebuild into a new collection behind the alias")
 @click.option("--stamp", default=None, help="Suffix for a newly created collection")
 @click.pass_context
 def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
+    """Bring the Qdrant collection in line with the cards.
+
+    Needs QDRANT_URL and QDRANT_API_KEY, and OPENAI_API_KEY unless every card
+    skips. `kb lint` needs none of them and stays offline.
+    """
     root, config = _load_config(ctx)
     cards, failures = load_cards_leniently(root)
 
@@ -151,27 +191,28 @@ def sync(ctx, dry_run, force, do_rebuild, stamp) -> None:
         click.echo(f"refusing to sync: {len(errors)} lint problems")
         ctx.exit(1)
 
-    state = load_state(root)
-    plan = plan_sync(cards, state, delete_ratio_limit=1.0 if force else DEFAULT_DELETE_RATIO_LIMIT)
+    url = client_kwargs()["url"]
+    client = build_client()
+    with qdrant_errors(url):
+        state = read_state(client, config.collection)
+        refuse_concrete_collection(client, config.collection)
 
+    plan = plan_sync(cards, state, delete_ratio_limit=1.0 if force else DEFAULT_DELETE_RATIO_LIMIT)
     counts = plan.counts()
-    summary = " ".join(f"{op} {counts[op]}" for op in ("upsert", "set_payload", "delete", "skip"))
-    click.echo(summary)
+    if do_rebuild:
+        click.echo(f"rebuilding {len(cards)} cards")
+    else:
+        click.echo(" ".join(f"{op} {counts[op]}" for op in ("upsert", "set_payload", "delete", "skip")))
     if dry_run:
         return
 
-    from qdrant_client import QdrantClient
-
-    client = QdrantClient(**client_kwargs())
-    embedder = build_embedder(config)
+    embedder = build_embedder(config) if do_rebuild or counts["upsert"] else None
     suffix = stamp or default_stamp()
 
-    if do_rebuild:
-        name = rebuild(client, config, cards, embedder, suffix)
-        click.echo(f"rebuilt into {name}")
-    else:
-        name = ensure_alias(client, config, suffix)
-        apply_plan(client, config, name, plan, cards, embedder)
-
-    save_state(root, plan.next_state)
-    click.echo(f"state written for {len(plan.next_state)} cards")
+    with qdrant_errors(url):
+        if do_rebuild:
+            name = rebuild(client, config, cards, embedder, suffix)
+        else:
+            name = ensure_alias(client, config, suffix)
+            apply_plan(client, config, name, plan, cards, embedder)
+    click.echo(f"rebuilt into {name}" if do_rebuild else f"synced into {name}")

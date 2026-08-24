@@ -1,14 +1,13 @@
 from __future__ import annotations
 
-import json
-from dataclasses import asdict, dataclass
-from pathlib import Path
+from dataclasses import dataclass
 
 from kb.card import Card
 from kb.ids import embed_hash, point_id
-from kb.payload import payload_hash
+from kb.payload import STATE_FIELDS, payload_hash
 
-STATE_FILENAME = ".kb-state.json"
+SCROLL_FIELDS = ("card_id", *STATE_FIELDS)
+SCROLL_PAGE_SIZE = 256
 
 
 @dataclass(frozen=True)
@@ -26,15 +25,32 @@ def state_for(card: Card) -> CardState:
     )
 
 
-def load_state(root: Path) -> dict[str, CardState]:
-    path = Path(root) / STATE_FILENAME
-    if not path.is_file():
+def read_state(client, name: str) -> dict[str, CardState]:
+    """Rebuild the sync state from the collection itself. Never creates anything."""
+    if not client.collection_exists(name):
         return {}
-    raw = json.loads(path.read_text())
-    return {card_id: CardState(**value) for card_id, value in raw.items()}
 
-
-def save_state(root: Path, state: dict[str, CardState]) -> None:
-    path = Path(root) / STATE_FILENAME
-    payload = {card_id: asdict(state[card_id]) for card_id in sorted(state)}
-    path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n")
+    state: dict[str, CardState] = {}
+    offset = None
+    while True:
+        records, offset = client.scroll(
+            collection_name=name,
+            limit=SCROLL_PAGE_SIZE,
+            offset=offset,
+            with_payload=list(SCROLL_FIELDS),
+            with_vectors=False,
+        )
+        for record in records:
+            payload = record.payload or {}
+            card_id = payload.get("card_id")
+            if not card_id:
+                continue
+            # An absent hash becomes "", which can never equal a sha256, so plan_sync
+            # schedules a write and the point repairs itself.
+            state[card_id] = CardState(
+                embed_hash=payload.get("embed_hash") or "",
+                payload_hash=payload.get("payload_hash") or "",
+                point_id=str(record.id),
+            )
+        if offset is None:
+            return state

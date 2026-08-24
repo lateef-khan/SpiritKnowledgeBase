@@ -6,6 +6,7 @@ from qdrant_client import models
 from kb.card import parse_card
 from kb.cli import default_stamp
 from kb.config import FacetSpec, KbConfig
+from kb.ids import point_id
 from kb.qdrant import (
     VECTOR_NAME,
     AliasConflictError,
@@ -14,7 +15,7 @@ from kb.qdrant import (
     ensure_collection,
     rebuild,
 )
-from kb.state import state_for
+from kb.state import read_state, state_for
 from kb.syncplan import plan_sync
 
 CONFIG = KbConfig(
@@ -117,6 +118,34 @@ class FakeClient:
                     alias_name=create.alias_name, collection_name=create.collection_name
                 )
             )
+
+
+class FakeRecord:
+    def __init__(self, id, payload):
+        self.id = id
+        self.payload = payload
+
+
+class ScrollClient:
+    """Replays what the FakeClient was told to write, the way read_state sees it."""
+
+    def __init__(self, records, name="kb"):
+        self._records = records
+        self._name = name
+
+    def collection_exists(self, name):
+        return name == self._name
+
+    def scroll(self, collection_name, limit, offset, with_payload, with_vectors):
+        return list(self._records), None
+
+
+def collection_records(client):
+    by_id = {str(point.id): dict(point.payload) for point in client.upserted}
+    for write in client.payload_sets:
+        for pid in write["points"]:
+            by_id.setdefault(str(pid), {}).update(write["payload"])
+    return [FakeRecord(pid, payload) for pid, payload in by_id.items()]
 
 
 class FakeEmbedder:
@@ -354,3 +383,79 @@ def test_a_same_day_sync_then_rebuild_is_refused_before_it_touches_anything():
     assert client.calls == []
     assert aliases_of(client)[CONFIG.collection] == live
     assert client.collection_exists(live)
+
+
+def test_upsert_payload_carries_both_sync_hashes():
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    cards = [card()]
+    apply_plan(client, CONFIG, "kb", plan_sync(cards, {}), cards, embedder)
+    written = client.upserted[0].payload
+    expected = state_for(cards[0])
+    assert written["embed_hash"] == expected.embed_hash
+    assert written["payload_hash"] == expected.payload_hash
+
+
+def test_set_payload_carries_both_sync_hashes():
+    original = card()
+    moved = parse_card(
+        TEMPLATE.format(id="card-a", model="e95", body="Body."), "cards/other/card-a.md"
+    )
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    plan = plan_sync([moved], {"card-a": state_for(original)})
+    apply_plan(client, CONFIG, "kb", plan, [moved], embedder)
+
+    written = client.payload_sets[0]["payload"]
+    expected = state_for(moved)
+    assert written["embed_hash"] == expected.embed_hash
+    assert written["payload_hash"] == expected.payload_hash
+    assert written["payload_hash"] != state_for(original).payload_hash
+
+
+def test_rebuild_payloads_carry_both_sync_hashes():
+    client, embedder = FakeClient(), FakeEmbedder()
+    cards = [card("card-a"), card("card-b", model="e95")]
+    rebuild(client, CONFIG, cards, embedder, "stamp")
+
+    written = {point.payload["card_id"]: point.payload for point in client.upserted}
+    for one in cards:
+        expected = state_for(one)
+        assert written[one.id]["embed_hash"] == expected.embed_hash
+        assert written[one.id]["payload_hash"] == expected.payload_hash
+
+
+def test_an_upsert_read_back_plans_skip_for_every_card():
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    cards = [card("card-a"), card("card-b", model="e95"), card("card-c", body="Other.")]
+    apply_plan(client, CONFIG, "kb", plan_sync(cards, {}), cards, embedder)
+
+    state = read_state(ScrollClient(collection_records(client)), "kb")
+    assert set(state) == {"card-a", "card-b", "card-c"}
+    assert state["card-a"].point_id == point_id("card-a")
+    assert plan_sync(cards, state).counts() == {
+        "upsert": 0,
+        "set_payload": 0,
+        "delete": 0,
+        "skip": 3,
+    }
+
+
+def test_a_set_payload_read_back_plans_skip_and_does_not_repeat_for_ever():
+    original = card()
+    moved = parse_card(
+        TEMPLATE.format(id="card-a", model="e95", body="Body."), "cards/other/card-a.md"
+    )
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    apply_plan(client, CONFIG, "kb", plan_sync([original], {}), [original], embedder)
+
+    state = read_state(ScrollClient(collection_records(client)), "kb")
+    plan = plan_sync([moved], state)
+    assert plan.counts()["set_payload"] == 1
+    apply_plan(client, CONFIG, "kb", plan, [moved], embedder)
+
+    state = read_state(ScrollClient(collection_records(client)), "kb")
+    assert plan_sync([moved], state).counts() == {
+        "upsert": 0,
+        "set_payload": 0,
+        "delete": 0,
+        "skip": 1,
+    }
