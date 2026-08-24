@@ -5,9 +5,11 @@ import hashlib
 import json
 
 from kb.card import Card
-from kb.ids import retrieval_text
+from kb.ids import embed_hash, retrieval_text
 
-EXCLUDED_FROM_HASH = frozenset({"card_id", "title", "question", "text", "body"})
+STATE_FIELDS = ("embed_hash", "payload_hash")
+
+EXCLUDED_FROM_HASH = frozenset({"card_id", "title", "question", "text", "body", *STATE_FIELDS})
 
 
 def _json_native(value: object) -> object:
@@ -47,3 +49,11 @@ def payload_hash(card: Card) -> str:
     material = {key: value for key, value in payload.items() if key not in EXCLUDED_FROM_HASH}
     canonical = json.dumps(material, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def build_point_payload(card: Card) -> dict:
+    """The payload actually written to Qdrant: the card plus its two sync hashes."""
+    payload = build_payload(card)
+    payload["embed_hash"] = embed_hash(card)
+    payload["payload_hash"] = payload_hash(card)
+    return payload

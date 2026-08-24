@@ -1,6 +1,12 @@
 from kb.card import parse_card
-from kb.ids import retrieval_text
-from kb.payload import EXCLUDED_FROM_HASH, build_payload, payload_hash
+from kb.ids import embed_hash, retrieval_text
+from kb.payload import (
+    EXCLUDED_FROM_HASH,
+    STATE_FIELDS,
+    build_payload,
+    build_point_payload,
+    payload_hash,
+)
 
 SAMPLE = """---
 id: f63-e03-overcurrent
@@ -90,7 +96,15 @@ def test_payload_hash_handles_date_valued_facets():
 
 
 def test_hashed_keys_are_payload_keys_minus_excluded():
-    assert EXCLUDED_FROM_HASH == {"card_id", "title", "question", "text", "body"}
+    assert EXCLUDED_FROM_HASH == {
+        "card_id",
+        "title",
+        "question",
+        "text",
+        "body",
+        "embed_hash",
+        "payload_hash",
+    }
     payload = build_payload(card())
     assert set(payload) - EXCLUDED_FROM_HASH == {
         "kind",
@@ -101,3 +115,51 @@ def test_hashed_keys_are_payload_keys_minus_excluded():
         "not_to_be_confused_with",
         "source",
     }
+
+
+HEX_DIGITS = set("0123456789abcdef")
+
+
+def is_sha256_hex(value: object) -> bool:
+    return isinstance(value, str) and len(value) == 64 and set(value) <= HEX_DIGITS
+
+
+def test_build_payload_carries_no_state():
+    payload = build_payload(card())
+    for field in STATE_FIELDS:
+        assert field not in payload
+
+
+def test_point_payload_carries_both_hashes():
+    point = build_point_payload(card())
+    assert is_sha256_hex(point["embed_hash"])
+    assert is_sha256_hex(point["payload_hash"])
+
+
+def test_point_payload_hashes_match_the_standalone_functions():
+    point = build_point_payload(card())
+    assert point["payload_hash"] == payload_hash(card())
+    assert point["embed_hash"] == embed_hash(card())
+
+
+def test_point_payload_is_the_base_payload_plus_state():
+    payload = build_payload(card())
+    point = build_point_payload(card())
+    for key, value in payload.items():
+        assert point[key] == value
+    assert set(point) - set(payload) == set(STATE_FIELDS)
+
+
+def test_body_edit_moves_only_the_embed_hash():
+    edited = card(SAMPLE.replace("Body text here.", "Different body."))
+    before = build_point_payload(card())
+    after = build_point_payload(edited)
+    assert before["payload_hash"] == after["payload_hash"]
+    assert before["embed_hash"] != after["embed_hash"]
+
+
+def test_point_payload_handles_date_valued_facets():
+    dated = card(SAMPLE.replace("  section: errors", "  section: errors\n  reviewed: 2026-08-21"))
+    point = build_point_payload(dated)
+    assert point["facets"]["reviewed"] == "2026-08-21"
+    assert is_sha256_hex(point["payload_hash"])
