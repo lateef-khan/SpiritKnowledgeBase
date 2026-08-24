@@ -1,0 +1,30 @@
+name: kb
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv && uv pip install -e ".[dev]"
+      - run: .venv/bin/pytest
+      - run: .venv/bin/kb lint
+
+  sync:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: lint
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      QDRANT_URL: ${{ secrets.QDRANT_URL }}
+      QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv && uv pip install -e ".[dev]"
+      - run: .venv/bin/kb sync
