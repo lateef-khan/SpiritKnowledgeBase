@@ -1,0 +1,18 @@
+- id: ct900-om
+  title: Spirit CT900 owner's manual (curated notes)
+  kind: markdown
+  origin_uri: file://CT900_OwnersManual_900825_20250612.pdf
+  sha256: 58cc8b0be6f63abaa103a32518410c8b1bcbf00d7b9ae46b1cad68ac2b2cdd66
+  ingested_at: '2026-08-24'
+- id: ct900ent-om
+  title: Spirit CT900ENT owner's manual (curated notes)
+  kind: markdown
+  origin_uri: file://CT900ENT_20211119.pdf
+  sha256: 5730e7756cfba41c19c6b00a1d6b5bf02c09aff2226fc70c85bd14887a97771e
+  ingested_at: '2026-08-24'
+- id: ctsbs900-om
+  title: Spirit CTSBS900 owner's manual (curated notes)
+  kind: markdown
+  origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
+  sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
+  ingested_at: '2026-08-24'
