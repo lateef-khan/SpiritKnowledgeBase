@@ -1,0 +1,36 @@
+---
+id: ct900ent-calorie-program
+title: Calorie program
+kind: fact
+question: What is the Calorie program on a CT900ENT and how do I use it?
+asked_as:
+- what does the calorie program do
+- which program targets calories burned
+keywords:
+- calorie program
+- calories
+- sustained speed
+- energy output
+facets:
+  product_line: treadmill
+  model: ct900ent
+  applies_to:
+  - ct900ent
+  section: programs
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- ct900ent-fat-burn-program
+- ct900ent-personal-data-age-weight-calorie-note
+source:
+  ref: ct900ent-om
+  locator: p. 42
+  extracted_at: '2026-08-24'
+---
+
+**Speed:** This program follows a progression up to the maximum speed level (default or user input level) that is sustained for 2/3 of the workout. This program will challenge your ability to sustain your energy output for an extended period of time.
+
+**Incline:** The treadmill elevation is a quick and sustained progression up to the maximum value (default or user input) for 90% of the workout duration.
+
+For notes on why calorie readings are only an estimate, see [Why the console asks for your age and weight](personal-data-age-weight-calorie-note.md).
