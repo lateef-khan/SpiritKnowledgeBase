@@ -33,13 +33,19 @@ Review the pull request it opens. Merging it syncs the cards to Qdrant.
 | `kb vocab` | Facet vocabulary and card ids, for the extractor | no |
 | `kb new <id>` | Scaffold one card with valid frontmatter | no |
 | `kb lint` | Ten repo-wide checks | no |
-| `kb sync --dry-run` | Plan the diff and print the counts | no |
+| `kb sync --dry-run` | Plan the diff and print the counts | `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |
 | `kb sync` | Apply the diff to Qdrant | `OPENAI_API_KEY`, `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |
 | `kb sync --rebuild` | Rebuild every vector behind the alias | `OPENAI_API_KEY`, `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |
 
 `QDRANT_URL` defaults to `http://localhost:6333`. `QDRANT_API_KEY` is optional:
 set it for Qdrant Cloud or any authenticated endpoint, leave it unset for an
 unauthenticated self-hosted container.
+
+**The collection is the sync state.** Every point carries an `embed_hash` and a
+`payload_hash` in its payload, and `kb sync` reads them back before planning.
+There is no state file to commit, and CI writes nothing to the repository. This
+is why `--dry-run` needs Qdrant: it has to read the state to plan against it.
+`--dry-run` still needs no `OPENAI_API_KEY`, and `kb lint` needs nothing at all.
 
 Both sync modes address the collection name in `kb.yaml` as a **Qdrant alias**.
 The first sync creates `<collection>_<stamp>` and points the alias at it; every

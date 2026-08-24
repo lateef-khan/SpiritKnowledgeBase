@@ -16,7 +16,7 @@ from kb.qdrant import (
     ensure_collection,
     rebuild,
 )
-from kb.state import state_for
+from kb.state import read_state, state_for
 from kb.syncplan import plan_sync
 
 pytestmark = pytest.mark.integration
@@ -303,3 +303,28 @@ def test_a_second_ordinary_sync_reuses_the_alias_and_creates_nothing(alias_sync_
     assert name == ALIAS_SYNC_BASE
     assert alias_target(c, ALIAS_SYNC_BASE) == f"{ALIAS_SYNC_BASE}_{stamp}"
     assert c.count(ALIAS_SYNC_BASE, exact=True).count == 1
+
+
+def test_a_written_collection_reads_back_as_state_that_plans_skip(alias_sync_client):
+    c = alias_sync_client
+    embedder = ConstantEmbedder()
+    cards = [
+        card("e03", "Error E03 - hardware current too large"),
+        card("e31", "Error E31 - over temperature"),
+    ]
+    name = ensure_alias(c, ALIAS_SYNC_CONFIG, default_stamp())
+    apply_plan(c, ALIAS_SYNC_CONFIG, name, plan_sync(cards, {}), cards, embedder)
+
+    state = read_state(c, ALIAS_SYNC_BASE)
+    assert set(state) == {"e03", "e31"}
+    assert state["e03"].point_id == point_id("e03")
+    assert plan_sync(cards, state).counts() == {
+        "upsert": 0,
+        "set_payload": 0,
+        "delete": 0,
+        "skip": 2,
+    }
+
+
+def test_read_state_on_a_collection_that_does_not_exist_is_empty(alias_sync_client):
+    assert read_state(alias_sync_client, f"{ALIAS_SYNC_BASE}_absent") == {}

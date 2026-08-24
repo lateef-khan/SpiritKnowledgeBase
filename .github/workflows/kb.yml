@@ -19,8 +19,6 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: lint
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       QDRANT_URL: ${{ secrets.QDRANT_URL }}
@@ -30,10 +28,3 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - run: uv venv && uv pip install -e ".[dev]"
       - run: .venv/bin/kb sync
-      - name: Commit the state file
-        run: |
-          git config user.name  "kb-sync"
-          git config user.email "kb-sync@users.noreply.github.com"
-          git add .kb-state.json
-          git diff --cached --quiet || git commit -m "chore: sync kb state"
-          git push
