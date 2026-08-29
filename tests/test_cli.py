@@ -1,3 +1,4 @@
+from dataclasses import replace
 import pytest
 from click.testing import CliRunner
 from qdrant_client import models
@@ -205,7 +206,8 @@ def spy_on_the_real_embedder(monkeypatch):
 
 
 def matching_record():
-    state = state_for(parse_card(CARD, "cards/card-a.md"))
+    card = replace(parse_card(CARD, "cards/card-a.md"), source_title="Source One")
+    state = state_for(card)
     return models.Record(
         id=state.point_id,
         payload={

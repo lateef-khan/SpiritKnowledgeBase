@@ -37,6 +37,7 @@ def build_payload(card: Card) -> dict:
         "not_to_be_confused_with": list(card.not_to_be_confused_with),
         "source": {
             "ref": card.source_ref,
+            "title": card.source_title or card.source_ref,
             "locator": card.source_locator,
             "extracted_at": card.source_extracted_at,
         },
