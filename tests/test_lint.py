@@ -306,3 +306,76 @@ def test_empty_brand_falls_back_when_the_models_map_is_empty():
     errors = [e for e in checks_for(branded(brand="[]"), config=config) if e.check == "empty-facet"]
     assert len(errors) == 1
     assert "declares no brands" in errors[0].message
+
+
+def applies_errors(card):
+    return [e for e in checks_for(card) if e.check == "applies-to-valid"]
+
+
+def test_applies_to_accepts_a_concrete_model_card():
+    assert applies_errors(branded(brand="[sole]", model="f63", applies="[f63]")) == []
+
+
+def test_applies_to_rejects_a_concrete_model_that_does_not_match():
+    errors = applies_errors(branded(brand="[sole]", model="f63", applies="[f80]"))
+    assert len(errors) == 1
+    assert "exactly ['f63']" in errors[0].message
+
+
+def test_applies_to_accepts_a_sentinel_card_spanning_two_machines():
+    assert applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f80]")) == []
+
+
+def test_applies_to_rejects_a_sentinel_card_reaching_one_machine():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63]"))
+    assert any("two or more" in e.message for e in errors)
+
+
+def test_applies_to_rejects_an_unknown_machine():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f99]"))
+    assert any("'f99' is not a model" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_machine_whose_brand_is_not_listed():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[ct900, f63]"))
+    assert any("does not list brand 'spirit'" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_brand_that_contributes_nothing():
+    errors = applies_errors(branded(brand="[sole, spirit]", model="'*'", applies="[f63, f80]"))
+    assert any("no entry in applies_to is a spirit model" in e.message for e in errors)
+
+
+def test_applies_to_rejects_an_unsorted_list():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f80, f63]"))
+    assert any("not sorted" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_duplicate():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f63]"))
+    assert any("duplicate" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_bare_string():
+    """A dropped '- ' makes applies_to a string. _is_empty calls that non-empty, so
+    nothing else in lint catches it, and the card answers for the wrong machine."""
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="f63"))
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_applies_to_rejects_a_bare_string_on_a_concrete_model_card():
+    errors = applies_errors(branded(brand="[spirit]", model="ct900", applies="ct900ent"))
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_applies_to_checks_sortedness_on_a_concrete_model_card_too():
+    errors = applies_errors(branded(brand="[sole]", model="f63", applies="[f80, f63]"))
+    assert any("not sorted" in e.message for e in errors)
+
+
+def test_applies_to_is_silent_when_brand_is_not_declared():
+    """Must use a card that WOULD fail if the guard were removed, or it asserts nothing."""
+    card = make(facets="  model: f63\n  applies_to: [f80]")
+    assert [e for e in checks_for(card, config=CONFIG) if e.check == "applies-to-valid"] == []

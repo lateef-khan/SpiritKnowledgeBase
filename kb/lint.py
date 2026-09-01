@@ -95,6 +95,88 @@ def _brand_errors(card: Card, config: KbConfig) -> list[LintError]:
     return errors
 
 
+def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
+    if "brand" not in config.facets:
+        return []
+
+    applies = card.facets.get("applies_to")
+    if _is_empty(applies):
+        # empty-facet already reports this, and reporting it twice helps nobody.
+        return []
+    if not isinstance(applies, list):
+        # A dropped "- " turns the list into a bare string. _is_empty says a non-blank
+        # string is fine, so nothing else in lint catches it, and the card would reach
+        # exactly one machine while taking the sentinel branch of every other rule.
+        return [
+            LintError(
+                card.path,
+                "applies-to-valid",
+                "applies_to must be a list of model ids, not a bare value; write '- ' before each id",
+            )
+        ]
+
+    applies = [str(item) for item in applies]
+    brands = _brand_list(card)
+    errors: list[LintError] = []
+
+    if applies != sorted(applies):
+        errors.append(
+            LintError(card.path, "applies-to-valid", f"applies_to is not sorted; write {sorted(applies)}")
+        )
+    if len(set(applies)) != len(applies):
+        errors.append(LintError(card.path, "applies-to-valid", "applies_to holds a duplicate"))
+
+    model = card.facets.get("model")
+    if isinstance(model, str) and model != FACET_SENTINEL:
+        if applies != [model]:
+            errors.append(
+                LintError(
+                    card.path,
+                    "applies-to-valid",
+                    f"model is {model!r}, so applies_to must be exactly ['{model}']",
+                )
+            )
+        return errors
+
+    if len(applies) < 2:
+        errors.append(
+            LintError(
+                card.path,
+                "applies-to-valid",
+                "model is '*', so applies_to needs two or more machines; "
+                "a card about one machine names it in 'model'",
+            )
+        )
+
+    owner = {model_id: brand for brand, ids in config.models.items() for model_id in ids}
+    for value in applies:
+        brand = owner.get(value)
+        if brand is None:
+            errors.append(
+                LintError(card.path, "applies-to-valid", f"{value!r} is not a model in kb.yaml's models map")
+            )
+        elif brand not in brands:
+            errors.append(
+                LintError(
+                    card.path,
+                    "applies-to-valid",
+                    f"{value!r} is a {brand} model but this card does not list brand {brand!r}",
+                )
+            )
+
+    for brand in brands:
+        if brand in config.models and not any(owner.get(value) == brand for value in applies):
+            errors.append(
+                LintError(
+                    card.path,
+                    "applies-to-valid",
+                    f"brand names {brand!r} but no entry in applies_to is a {brand} model",
+                )
+            )
+
+    return errors
+
+
 def _empty_facet_message(key: str, config: KbConfig) -> str:
     """Name the repair the author must make, never a value the facet forbids."""
     if key == "brand":
@@ -149,6 +231,7 @@ def lint_cards(
                 )
 
         errors.extend(_brand_errors(card, config))
+        errors.extend(_applies_to_errors(card, config))
 
         if card.kind not in config.kinds:
             errors.append(
