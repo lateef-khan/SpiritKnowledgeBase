@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from kb.card import CardLoadFailure, parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.lint import lint_cards
@@ -221,3 +223,86 @@ def test_empty_ordinary_facet_still_says_to_write_the_sentinel():
     assert len(errors) == 1
     assert errors[0].check == "empty-facet"
     assert '"*"' in errors[0].message
+
+
+BRAND_CONFIG = replace(
+    CONFIG,
+    facets={
+        "brand": FacetSpec(index="keyword", array=True, values=("sole", "spirit")),
+        "model": FacetSpec(index="keyword", array=False, values=("f63", "*")),
+        "applies_to": FacetSpec(index="keyword", array=True, values=()),
+    },
+    models={"sole": ("f63", "f80"), "spirit": ("ct900",)},
+)
+
+BRAND_TEMPLATE = "  brand: {brand}\n  model: {model}\n  applies_to: {applies}"
+
+
+def branded(brand="[sole]", model="f63", applies="[f63]", **kw):
+    return make(facets=BRAND_TEMPLATE.format(brand=brand, model=model, applies=applies), **kw)
+
+
+def checks_for(card, config=BRAND_CONFIG):
+    return [e for e in lint_cards([card], config, {"src-1"})]
+
+
+def test_brand_model_agree_accepts_a_good_card():
+    assert [e for e in checks_for(branded()) if e.check == "brand-model-agree"] == []
+
+
+def test_brand_model_agree_rejects_an_unknown_brand():
+    errors = [e for e in checks_for(branded(brand="[sprit]")) if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "sprit" in errors[0].message
+    assert "sole, spirit" in errors[0].message
+
+
+def test_brand_model_agree_rejects_a_model_from_another_brand():
+    errors = [e for e in checks_for(branded(brand="[spirit]", model="f63", applies="[f63]"))
+              if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "not a model of brand 'spirit'" in errors[0].message
+
+
+def test_brand_model_agree_ignores_the_model_when_it_is_the_sentinel():
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]")
+    assert [e for e in checks_for(card) if e.check == "brand-model-agree"] == []
+
+
+def test_brand_model_agree_rejects_an_unsorted_brand_list():
+    errors = [e for e in checks_for(branded(brand="[spirit, sole]", model="'*'", applies="[ct900, f63]"))
+              if e.check == "brand-model-agree"]
+    assert any("sorted" in e.message for e in errors)
+
+
+def test_brand_model_agree_rejects_a_duplicate_brand():
+    errors = [e for e in checks_for(branded(brand="[sole, sole]")) if e.check == "brand-model-agree"]
+    assert any("duplicate" in e.message for e in errors)
+
+
+def test_brand_model_agree_rejects_a_bare_string_brand():
+    """A dropped '- ' makes brand a string, which would make rule 3 vacuous."""
+    errors = [e for e in checks_for(branded(brand="sole")) if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_brand_model_agree_is_silent_when_brand_is_not_declared():
+    """Must use a card that WOULD fail if the guard were removed, or it asserts nothing.
+    Under CONFIG there is no brand facet, so an unknown-brand card must stay silent."""
+    card = make(facets="  model: f63\n  applies_to: [f63]")
+    assert [e for e in checks_for(card, config=CONFIG) if e.check == "brand-model-agree"] == []
+
+
+def test_empty_brand_names_the_legal_values():
+    """Spec section 5: the generic empty-facet message would loop the extractor."""
+    errors = [e for e in checks_for(branded(brand="[]")) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert "list one or more of: sole, spirit" in errors[0].message
+
+
+def test_empty_brand_falls_back_when_the_models_map_is_empty():
+    config = replace(BRAND_CONFIG, models={})
+    errors = [e for e in checks_for(branded(brand="[]"), config=config) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert "declares no brands" in errors[0].message

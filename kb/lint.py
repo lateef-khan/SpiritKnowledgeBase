@@ -5,7 +5,7 @@ from collections import Counter
 from collections.abc import Sequence
 from dataclasses import dataclass
 
-from kb.card import SENTINEL_EXEMPT_FACETS, Card, CardLoadFailure
+from kb.card import FACET_SENTINEL, SENTINEL_EXEMPT_FACETS, Card, CardLoadFailure
 from kb.config import KbConfig
 
 ASKED_AS_RANGE = (2, 4)
@@ -30,6 +30,69 @@ def _is_empty(value: object) -> bool:
     if isinstance(value, dict):
         return len(value) == 0
     return False
+
+
+def _brand_list(card: Card) -> list[str]:
+    """Read `brand` as a list. A bare string is reported, not silently accepted."""
+    value = card.facets.get("brand")
+    if isinstance(value, list):
+        return [str(item) for item in value]
+    if isinstance(value, str):
+        return [value]
+    return []
+
+
+def _brand_errors(card: Card, config: KbConfig) -> list[LintError]:
+    if "brand" not in config.facets:
+        return []
+
+    raw = card.facets.get("brand")
+    if raw is not None and not isinstance(raw, list) and not _is_empty(raw):
+        # Same trap as applies_to: a dropped "- " makes the sort and duplicate rules
+        # vacuous and breaks the array shape the reader's filter relies on.
+        return [
+            LintError(
+                card.path,
+                "brand-model-agree",
+                "brand must be a list of brand keys, not a bare value; write '- ' before each key",
+            )
+        ]
+
+    brands = _brand_list(card)
+    errors: list[LintError] = []
+
+    if brands != sorted(brands):
+        errors.append(
+            LintError(card.path, "brand-model-agree", f"brand is not sorted; write {sorted(brands)}")
+        )
+    if len(set(brands)) != len(brands):
+        errors.append(LintError(card.path, "brand-model-agree", "brand holds a duplicate"))
+
+    legal = ", ".join(sorted(config.models)) or "(kb.yaml's models map declares no brands)"
+    for brand in brands:
+        if brand not in config.models:
+            errors.append(
+                LintError(
+                    card.path,
+                    "brand-model-agree",
+                    f"brand {brand!r} is not a brand in kb.yaml's models map; "
+                    f"brand must be one or more of: {legal}",
+                )
+            )
+
+    model = card.facets.get("model")
+    if isinstance(model, str) and model != FACET_SENTINEL:
+        for brand in brands:
+            if brand in config.models and model not in config.models[brand]:
+                errors.append(
+                    LintError(
+                        card.path,
+                        "brand-model-agree",
+                        f"model {model!r} is not a model of brand {brand!r}",
+                    )
+                )
+
+    return errors
 
 
 def _empty_facet_message(key: str, config: KbConfig) -> str:
@@ -84,6 +147,8 @@ def lint_cards(
                 errors.append(
                     LintError(card.path, "empty-facet", _empty_facet_message(key, config))
                 )
+
+        errors.extend(_brand_errors(card, config))
 
         if card.kind not in config.kinds:
             errors.append(
