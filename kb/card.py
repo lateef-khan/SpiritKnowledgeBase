@@ -13,6 +13,10 @@ SOURCE_KEYS = ("ref", "locator", "extracted_at")
 # Spec 4.1: write this rather than omitting a facet. group_by drops a point whose
 # grouping field is missing.
 FACET_SENTINEL = "*"
+# brand and applies_to name real machines and are filtered on directly. The
+# sentinel in either would match no scope at all, so the card would be invisible
+# rather than universal.
+SENTINEL_EXEMPT_FACETS = frozenset({"brand", "applies_to"})
 
 
 class CardParseError(Exception):

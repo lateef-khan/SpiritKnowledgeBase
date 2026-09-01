@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from kb.card import FACET_SENTINEL, Card, render_card
+from kb.card import FACET_SENTINEL, SENTINEL_EXEMPT_FACETS, Card, render_card
 from kb.config import KbConfig
 
 SENTINEL = FACET_SENTINEL
@@ -37,7 +37,10 @@ def card_path(root: Path, card_id: str) -> Path:
 def new_card_text(card_id: str, config: KbConfig, today: str) -> str:
     facets: dict[str, object] = {}
     for name, spec in config.facets.items():
-        facets[name] = [SENTINEL] if spec.array else SENTINEL
+        if name in SENTINEL_EXEMPT_FACETS:
+            facets[name] = []
+        else:
+            facets[name] = [SENTINEL] if spec.array else SENTINEL
 
     card = Card(
         id=card_id,

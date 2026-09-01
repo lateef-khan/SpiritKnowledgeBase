@@ -205,3 +205,19 @@ def test_the_ten_spec_checks_all_have_a_slug():
         "unparseable",
         "shared-lookalike",
     }
+
+
+def test_empty_exempt_facet_message_does_not_tell_you_to_write_the_sentinel():
+    card = make(facets="  model: f63\n  applies_to: []")
+    errors = [e for e in lint_cards([card], CONFIG, {"src-1"}) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert '"*"' not in errors[0].message
+    assert "model ids" in errors[0].message
+
+
+def test_empty_ordinary_facet_still_says_to_write_the_sentinel():
+    card = make(facets="  applies_to: [f63]")
+    errors = [e for e in lint_cards([card], CONFIG, {"src-1"}) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert errors[0].check == "empty-facet"
+    assert '"*"' in errors[0].message

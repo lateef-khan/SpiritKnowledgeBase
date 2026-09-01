@@ -5,7 +5,7 @@ from collections import Counter
 from collections.abc import Sequence
 from dataclasses import dataclass
 
-from kb.card import Card, CardLoadFailure
+from kb.card import SENTINEL_EXEMPT_FACETS, Card, CardLoadFailure
 from kb.config import KbConfig
 
 ASKED_AS_RANGE = (2, 4)
@@ -30,6 +30,19 @@ def _is_empty(value: object) -> bool:
     if isinstance(value, dict):
         return len(value) == 0
     return False
+
+
+def _empty_facet_message(key: str, config: KbConfig) -> str:
+    """Name the repair the author must make, never a value the facet forbids."""
+    if key == "brand":
+        legal = ", ".join(sorted(config.models)) or "(kb.yaml's models map declares no brands)"
+        return f"facet 'brand' is missing or empty; list one or more of: {legal}"
+    if key in SENTINEL_EXEMPT_FACETS:
+        return (
+            f"facet {key!r} is missing or empty; list one or more model ids. "
+            f"The facet sentinel is not allowed here."
+        )
+    return f"facet {key!r} is missing or empty; write \"*\" rather than omitting it"
 
 
 def lint_cards(
@@ -69,11 +82,7 @@ def lint_cards(
         for key in config.facets:
             if key not in card.facets or _is_empty(card.facets[key]):
                 errors.append(
-                    LintError(
-                        card.path,
-                        "empty-facet",
-                        f"facet {key!r} is missing or empty; write \"*\" rather than omitting it",
-                    )
+                    LintError(card.path, "empty-facet", _empty_facet_message(key, config))
                 )
 
         if card.kind not in config.kinds:
