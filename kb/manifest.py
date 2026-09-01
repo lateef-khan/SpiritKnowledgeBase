@@ -59,3 +59,8 @@ def save_manifest(root: Path, rows: list[SourceRow]) -> None:
 
 def source_refs(root: Path) -> set[str]:
     return {row.id for row in load_manifest(root)}
+
+
+def source_titles(root: Path) -> dict[str, str]:
+    """Map each source id to its title, for the citation the retriever shows."""
+    return {row.id: row.title for row in load_manifest(root)}

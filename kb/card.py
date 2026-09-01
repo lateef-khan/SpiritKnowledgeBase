@@ -1,10 +1,12 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date
 from pathlib import Path
 
 import yaml
+
+from kb.manifest import source_titles
 
 FENCE = "---"
 SCALAR_KEYS = ("id", "title", "kind", "question")
@@ -51,6 +53,7 @@ class Card:
     source_extracted_at: str
     body: str
     path: str
+    source_title: str = ""
 
 
 def _split(text: str, path: str) -> tuple[str, str]:
@@ -152,16 +155,19 @@ def load_cards_leniently(root: Path) -> tuple[list[Card], list[CardLoadFailure]]
     cards_dir = root / "cards"
     if not cards_dir.is_dir():
         return [], []
+    titles = source_titles(root)
     cards: list[Card] = []
     failures: list[CardLoadFailure] = []
     for file in sorted(cards_dir.rglob("*.md")):
         rel = file.relative_to(root).as_posix()
         try:
-            cards.append(parse_card(file.read_text(), rel))
+            card = parse_card(file.read_text(), rel)
         except CardParseError as exc:
             failures.append(CardLoadFailure(path=rel, message=_without_path(str(exc), rel)))
         except (OSError, UnicodeDecodeError) as exc:
             failures.append(CardLoadFailure(path=rel, message=f"cannot be read: {exc}"))
+        else:
+            cards.append(replace(card, source_title=titles.get(card.source_ref, card.source_ref)))
     return cards, failures
 
 

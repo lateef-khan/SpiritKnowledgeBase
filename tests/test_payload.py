@@ -43,9 +43,31 @@ def test_payload_carries_identity_and_citation():
     assert payload["path"] == "cards/f63/errors/e03.md"
     assert payload["source"] == {
         "ref": "2026-f63-om",
+        "title": "2026-f63-om",
         "locator": "p.27",
         "extracted_at": "2026-08-21",
     }
+
+
+def test_source_title_is_used_for_the_citation_when_the_manifest_holds_one():
+    from dataclasses import replace
+
+    titled = replace(card(), source_title="Spirit F63 owner's manual (curated notes)")
+    assert build_payload(titled)["source"]["title"] == (
+        "Spirit F63 owner's manual (curated notes)"
+    )
+    # The ref stays beside it: the title is what the model reads, the ref is what identifies it.
+    assert build_payload(titled)["source"]["ref"] == "2026-f63-om"
+
+
+def test_source_title_change_moves_the_payload_hash_and_not_the_embed_hash():
+    from dataclasses import replace
+
+    # A retitled source must be re-upserted, and must NOT be re-embedded: the vector is hashed off
+    # the retrieval text, which a title change does not touch.
+    titled = replace(card(), source_title="Spirit F63 owner's manual (curated notes)")
+    assert payload_hash(titled) != payload_hash(card())
+    assert embed_hash(titled) == embed_hash(card())
 
 
 def test_text_is_retrieval_text_and_body_is_clean():
