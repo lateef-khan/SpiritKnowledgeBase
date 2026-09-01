@@ -13,6 +13,8 @@ keywords:
 - percent grade
 - incline up down buttons
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

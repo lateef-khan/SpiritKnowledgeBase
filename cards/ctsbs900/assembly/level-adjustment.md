@@ -15,6 +15,8 @@ keywords:
 - uneven surface
 - incline adjustment box
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

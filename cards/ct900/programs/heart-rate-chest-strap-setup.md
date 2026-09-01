@@ -14,6 +14,8 @@ keywords:
 - cr2032
 - how to wear chest strap
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

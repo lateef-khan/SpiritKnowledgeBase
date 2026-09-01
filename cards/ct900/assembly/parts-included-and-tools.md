@@ -15,6 +15,8 @@ keywords:
 - box contents
 - what comes in the box
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

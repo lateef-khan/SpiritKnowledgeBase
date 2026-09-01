@@ -50,8 +50,9 @@ kb new <card-id>
 ```
 
 Then fill in the file it wrote at `cards/<card-id>.md`. Move it into a folder
-that helps a human browse — `cards/<model>/<section>/<card-id>.md`. The folder is
-for humans only; retrieval uses `facets`, never the path.
+that helps a human browse — `cards/<model>/<section>/<card-id>.md` for a
+one-machine card, or `cards/shared/<section>/<card-id>.md` when `model` is `"*"`.
+The folder is for humans only; retrieval uses `facets`, never the path.
 
 Frontmatter rules:
 
@@ -59,13 +60,26 @@ Frontmatter rules:
   Qdrant point id.
 - `title` — what this card answers, as a phrase.
 - `kind` — one of the values `kb vocab` printed.
-- `question` — the one question this card answers, in plain words.
+- `question` — the one question this card answers, in plain words. It must name the
+  machine: the model id for a one-machine card, or every brand named in `brand` for a
+  several-machine card. `kb lint`'s `question-names-model` enforces this.
 - `asked_as` — 2 to 4 phrasings a real customer would type. Sloppy, lowercase,
   no jargon.
 - `keywords` — 4 to 10 lowercase terms, **including synonyms the source never
   uses**.
 - `facets` — every declared key, always filled. Write `"*"` rather than leaving
-  one out. A missing facet makes the card invisible to grouped search.
+  one out, **except for `brand` and `applies_to`**, where `"*"` is illegal: they
+  are filtered on directly, so the sentinel would make the card match nothing
+  rather than everything. List real values in both.
+- `brand` — one or more brand keys from `kb.yaml`'s `models` map. Sorted, no
+  duplicates.
+- `model` and `applies_to` — a card takes one of two shapes:
+  - **About one machine.** `model` is that machine's id and `applies_to` is
+    exactly `[that id]`.
+  - **About several.** `model` is `"*"` and `applies_to` lists two or more
+    machines, sorted, every one a model of a brand this card lists, and every
+    brand listed contributing at least one machine. A card about exactly one
+    machine must use the first shape.
 - `authority` — 3 for a manual or spec, 2 for a technician note, 1 for an email
   or anecdote.
 - `source.ref` — `$ARGUMENTS`. `source.locator` — page, line range, or message
@@ -134,6 +148,21 @@ fails.
 use that `kb.yaml` does not declare. Paste it into the PR body verbatim — it is
 the only mechanical record of what you invented, and a human decides whether to
 add it to `kb.yaml` or replace it with an existing value.
+
+## 9b. If this PR adds a machine
+
+Adding models to `kb.yaml`'s `models` map does not update the cards that already
+exist. `applies_to` is checked for membership, not completeness, so lint cannot
+tell you which company-wide cards went stale.
+
+Before opening the PR, review **every** card whose `model` is `"*"` and extend
+`applies_to` on the ones that now cover the new machine. Find them with:
+
+```bash
+grep -rl "^  model: '\*'" cards/
+```
+
+Say in the PR body which ones you extended and which you deliberately did not.
 
 ## 10. Open the PR
 

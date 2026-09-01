@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from kb.card import CardLoadFailure, parse_card
 from kb.config import FacetSpec, KbConfig
 from kb.lint import lint_cards
@@ -205,3 +207,257 @@ def test_the_ten_spec_checks_all_have_a_slug():
         "unparseable",
         "shared-lookalike",
     }
+
+
+def test_the_three_brand_checks_all_have_a_slug():
+    """The inventory guard above cannot see these: it runs under CONFIG, which
+    declares no brand facet, so all three brand checks return early there."""
+    card = branded_q("How do I clean it?", brand="[sprit]", model="'*'", applies="[f63]")
+    assert {e.check for e in checks_for(card)} >= {
+        "brand-model-agree",
+        "applies-to-valid",
+        "question-names-model",
+    }
+
+
+def test_empty_exempt_facet_message_does_not_tell_you_to_write_the_sentinel():
+    card = make(facets="  model: f63\n  applies_to: []")
+    errors = [e for e in lint_cards([card], CONFIG, {"src-1"}) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert '"*"' not in errors[0].message
+    assert "model ids" in errors[0].message
+
+
+def test_empty_ordinary_facet_still_says_to_write_the_sentinel():
+    card = make(facets="  applies_to: [f63]")
+    errors = [e for e in lint_cards([card], CONFIG, {"src-1"}) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert errors[0].check == "empty-facet"
+    assert '"*"' in errors[0].message
+
+
+BRAND_CONFIG = replace(
+    CONFIG,
+    facets={
+        "brand": FacetSpec(index="keyword", array=True, values=("sole", "spirit")),
+        "model": FacetSpec(index="keyword", array=False, values=("f63", "*")),
+        "applies_to": FacetSpec(index="keyword", array=True, values=()),
+    },
+    models={"sole": ("f63", "f80"), "spirit": ("ct900",)},
+)
+
+BRAND_TEMPLATE = "  brand: {brand}\n  model: {model}\n  applies_to: {applies}"
+
+
+def branded(brand="[sole]", model="f63", applies="[f63]", **kw):
+    return make(facets=BRAND_TEMPLATE.format(brand=brand, model=model, applies=applies), **kw)
+
+
+def checks_for(card, config=BRAND_CONFIG):
+    return [e for e in lint_cards([card], config, {"src-1"})]
+
+
+def test_brand_model_agree_accepts_a_good_card():
+    assert [e for e in checks_for(branded()) if e.check == "brand-model-agree"] == []
+
+
+def test_brand_model_agree_rejects_an_unknown_brand():
+    errors = [e for e in checks_for(branded(brand="[sprit]")) if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "sprit" in errors[0].message
+    assert "sole, spirit" in errors[0].message
+
+
+def test_brand_model_agree_rejects_a_model_from_another_brand():
+    errors = [e for e in checks_for(branded(brand="[spirit]", model="f63", applies="[f63]"))
+              if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "not a model of brand 'spirit'" in errors[0].message
+
+
+def test_brand_model_agree_ignores_the_model_when_it_is_the_sentinel():
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]")
+    assert [e for e in checks_for(card) if e.check == "brand-model-agree"] == []
+
+
+def test_brand_model_agree_rejects_an_unsorted_brand_list():
+    errors = [e for e in checks_for(branded(brand="[spirit, sole]", model="'*'", applies="[ct900, f63]"))
+              if e.check == "brand-model-agree"]
+    assert any("sorted" in e.message for e in errors)
+
+
+def test_brand_model_agree_rejects_a_duplicate_brand():
+    errors = [e for e in checks_for(branded(brand="[sole, sole]")) if e.check == "brand-model-agree"]
+    assert any("duplicate" in e.message for e in errors)
+
+
+def test_brand_model_agree_rejects_a_bare_string_brand():
+    """A dropped '- ' makes brand a string, which would make rule 3 vacuous."""
+    errors = [e for e in checks_for(branded(brand="sole")) if e.check == "brand-model-agree"]
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_brand_model_agree_is_silent_when_brand_is_not_declared():
+    """Must use a card that WOULD fail if the guard were removed, or it asserts nothing.
+    Under CONFIG there is no brand facet, so an unknown-brand card must stay silent."""
+    card = make(facets="  model: f63\n  applies_to: [f63]")
+    assert [e for e in checks_for(card, config=CONFIG) if e.check == "brand-model-agree"] == []
+
+
+def test_empty_brand_names_the_legal_values():
+    """Spec section 5: the generic empty-facet message would loop the extractor."""
+    errors = [e for e in checks_for(branded(brand="[]")) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert "list one or more of: sole, spirit" in errors[0].message
+
+
+def test_empty_brand_falls_back_when_the_models_map_is_empty():
+    config = replace(BRAND_CONFIG, models={})
+    errors = [e for e in checks_for(branded(brand="[]"), config=config) if e.check == "empty-facet"]
+    assert len(errors) == 1
+    assert "declares no brands" in errors[0].message
+
+
+def applies_errors(card):
+    return [e for e in checks_for(card) if e.check == "applies-to-valid"]
+
+
+def test_applies_to_accepts_a_concrete_model_card():
+    assert applies_errors(branded(brand="[sole]", model="f63", applies="[f63]")) == []
+
+
+def test_applies_to_rejects_a_concrete_model_that_does_not_match():
+    errors = applies_errors(branded(brand="[sole]", model="f63", applies="[f80]"))
+    assert len(errors) == 1
+    assert "exactly ['f63']" in errors[0].message
+
+
+def test_applies_to_accepts_a_sentinel_card_spanning_two_machines():
+    assert applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f80]")) == []
+
+
+def test_applies_to_rejects_a_sentinel_card_reaching_one_machine():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63]"))
+    assert any("two or more" in e.message for e in errors)
+
+
+def test_applies_to_rejects_an_unknown_machine():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f99]"))
+    assert any("'f99' is not a model" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_machine_whose_brand_is_not_listed():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[ct900, f63]"))
+    assert any("does not list brand 'spirit'" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_brand_that_contributes_nothing():
+    errors = applies_errors(branded(brand="[sole, spirit]", model="'*'", applies="[f63, f80]"))
+    assert any("no entry in applies_to is a spirit model" in e.message for e in errors)
+
+
+def test_applies_to_rejects_an_unsorted_list():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f80, f63]"))
+    assert any("not sorted" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_duplicate():
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f63]"))
+    assert any("duplicate" in e.message for e in errors)
+
+
+def test_applies_to_rejects_a_bare_string():
+    """A dropped '- ' makes applies_to a string. _is_empty calls that non-empty, so
+    nothing else in lint catches it, and the card answers for the wrong machine."""
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="f63"))
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_applies_to_rejects_a_bare_string_on_a_concrete_model_card():
+    errors = applies_errors(branded(brand="[spirit]", model="ct900", applies="ct900ent"))
+    assert len(errors) == 1
+    assert "not a bare value" in errors[0].message
+
+
+def test_applies_to_checks_sortedness_on_a_concrete_model_card_too():
+    errors = applies_errors(branded(brand="[sole]", model="f63", applies="[f80, f63]"))
+    assert any("not sorted" in e.message for e in errors)
+
+
+def test_applies_to_is_silent_when_brand_is_not_declared():
+    """Must use a card that WOULD fail if the guard were removed, or it asserts nothing."""
+    card = make(facets="  model: f63\n  applies_to: [f80]")
+    assert [e for e in checks_for(card, config=CONFIG) if e.check == "applies-to-valid"] == []
+
+
+def branded_q(question, **kw):
+    """A branded card whose question is the thing under test.
+
+    TEMPLATE's question is fixed, and the concrete branch reads only the question.
+    """
+    return replace(branded(**kw), question=question)
+
+
+def naming_errors(card):
+    return [e for e in checks_for(card) if e.check == "question-names-model"]
+
+
+def test_question_names_model_accepts_a_question_naming_the_model():
+    card = branded_q("How do I clean an F63?", brand="[sole]", model="f63", applies="[f63]")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_rejects_a_question_that_does_not():
+    card = branded_q("How do I clean it?", brand="[spirit]", model="ct900", applies="[ct900]")
+    errors = naming_errors(card)
+    assert len(errors) == 1
+    assert "does not name model 'ct900'" in errors[0].message
+
+
+def test_question_names_model_ignores_the_title_on_a_concrete_model_card():
+    """Spec section 5: the concrete branch reads question and never title. Without
+    this test an implementation reading both would pass every other test here."""
+    card = branded_q("How do I clean it?", brand="[spirit]", model="ct900",
+                     applies="[ct900]", title="CT900 belt tension")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_does_not_match_a_longer_model_id():
+    """ct900 inside CT900ENT is the exact mislabel this check exists to catch."""
+    card = branded_q("Belt tension on a CT900ENT?", brand="[spirit]", model="ct900", applies="[ct900]")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_accepts_a_sentinel_card_naming_its_brand_in_the_title():
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]",
+                   title="Sole treadmill cleaning")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_accepts_a_sentinel_card_naming_its_brand_in_the_question():
+    """The sentinel branch reads question OR title. Without this the disjunction is
+    half-untested and an implementation reading only the title would pass."""
+    card = branded_q("How do I clean Sole equipment?", brand="[sole]", model="'*'",
+                     applies="[f63, f80]")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_rejects_a_sentinel_card_missing_a_brand():
+    card = branded(brand="[sole, spirit]", model="'*'", applies="[ct900, f63]",
+                   title="Sole equipment cleaning")
+    errors = naming_errors(card)
+    assert len(errors) == 1
+    assert "brand 'spirit'" in errors[0].message
+
+
+def test_question_names_model_does_not_match_sole_inside_console():
+    """'sole' sits inside 'console', a word in 14 titles and 99 bodies of this corpus."""
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]",
+                   title="Console screen overview")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_is_silent_when_brand_is_not_declared():
+    assert [e for e in checks_for(make(), config=CONFIG) if e.check == "question-names-model"] == []

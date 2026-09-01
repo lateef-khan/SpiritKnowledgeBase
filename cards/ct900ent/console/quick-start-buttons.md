@@ -17,6 +17,8 @@ keywords:
 - touch control screen
 - 0.5 mph
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

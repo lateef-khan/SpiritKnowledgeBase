@@ -12,6 +12,8 @@ keywords:
 - 1.5 mile run
 - air force run times
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

@@ -12,6 +12,8 @@ keywords:
 - pop out keyboard
 - user defined speed incline
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

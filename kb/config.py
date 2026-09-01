@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
@@ -31,6 +31,7 @@ class KbConfig:
     facets: dict[str, FacetSpec]
     payload_indexes: dict[str, dict]
     pdf_command: str | None
+    models: dict[str, tuple[str, ...]] = field(default_factory=dict)
 
 
 def load_config(root: Path) -> KbConfig:
@@ -99,6 +100,24 @@ def load_config(root: Path) -> KbConfig:
     if not isinstance(ingest, dict):
         raise ConfigError("kb.yaml 'ingest' must be a mapping")
 
+    raw_models = raw.get("models") or {}
+    if not isinstance(raw_models, dict):
+        raise ConfigError("kb.yaml 'models' must be a mapping of brand to a list of model ids")
+
+    models: dict[str, tuple[str, ...]] = {}
+    owner: dict[str, str] = {}
+    for brand, ids in raw_models.items():
+        if not isinstance(ids, list) or not ids or not all(isinstance(i, str) and i.strip() for i in ids):
+            raise ConfigError(f"brand {brand!r} in 'models' needs a non-empty list of model ids")
+        for model_id in ids:
+            if model_id in owner:
+                raise ConfigError(
+                    f"model {model_id!r} is listed under both {owner[model_id]!r} and {brand!r}. "
+                    f"applies_to is one flat namespace, so a model id names exactly one machine."
+                )
+            owner[model_id] = brand
+        models[brand] = tuple(ids)
+
     return KbConfig(
         root=Path(root),
         collection=collection,
@@ -108,4 +127,5 @@ def load_config(root: Path) -> KbConfig:
         facets=facets,
         payload_indexes=payload_indexes,
         pdf_command=ingest.get("pdf_command"),
+        models=models,
     )

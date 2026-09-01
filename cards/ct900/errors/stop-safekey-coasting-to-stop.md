@@ -13,6 +13,8 @@ keywords:
 - inverter warning
 - run command blocked
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

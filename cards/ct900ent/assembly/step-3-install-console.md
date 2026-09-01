@@ -15,6 +15,8 @@ keywords:
 - wiring harness
 - assembly step three
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

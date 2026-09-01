@@ -19,6 +19,8 @@ keywords:
 - 3 years
 - prisons excluded
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

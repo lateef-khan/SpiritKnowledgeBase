@@ -12,6 +12,8 @@ keywords:
 - 2 mile run
 - army standards by age
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

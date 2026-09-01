@@ -32,7 +32,7 @@ Review the pull request it opens. Merging it syncs the cards to Qdrant.
 | `kb ingest <file>` | Raw artefact to `sources/<id>/text.md` plus a manifest row | no |
 | `kb vocab` | Facet vocabulary and card ids, for the extractor | no |
 | `kb new <id>` | Scaffold one card with valid frontmatter | no |
-| `kb lint` | Ten repo-wide checks | no |
+| `kb lint` | Thirteen repo-wide checks | no |
 | `kb sync --dry-run` | Plan the diff and print the counts | `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |
 | `kb sync` | Apply the diff to Qdrant | `OPENAI_API_KEY`, `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |
 | `kb sync --rebuild` | Rebuild every vector behind the alias | `OPENAI_API_KEY`, `QDRANT_URL`; `QDRANT_API_KEY` if authenticated |

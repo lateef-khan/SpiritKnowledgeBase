@@ -12,6 +12,8 @@ keywords:
 - rear roller bearing
 - rear roller misaligned
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

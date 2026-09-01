@@ -14,6 +14,8 @@ keywords:
 - safety key switch
 - console main pcb
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

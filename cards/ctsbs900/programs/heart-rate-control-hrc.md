@@ -15,6 +15,8 @@ keywords:
 - target heart rate program
 - check pulse
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

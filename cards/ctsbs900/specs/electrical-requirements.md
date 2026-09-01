@@ -16,6 +16,8 @@ keywords:
 - nema 5-20p
 - dedicated circuit
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

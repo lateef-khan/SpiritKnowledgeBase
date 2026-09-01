@@ -119,3 +119,16 @@ def test_the_wildcard_sentinel_is_never_reported_as_a_new_value():
     assert build_vocab([card("a", "e95", "e95")], closed)["undeclared_facet_values"] == {
         "model": ["e95"]
     }
+
+
+def test_vocab_takes_model_values_from_the_models_map():
+    config = replace(CONFIG, models={"spirit": ("ct900",), "sole": ("f63",)})
+    vocab = build_vocab([card("a", "ct900", "ct900")], config)
+    assert vocab["facets"]["model"] == ["*", "ct900", "f63"]
+    assert "model" not in vocab["undeclared_facet_values"]
+
+
+def test_vocab_keeps_declared_values_when_the_map_is_empty():
+    vocab = build_vocab([card("a", "e95", "e95")], CONFIG)
+    assert vocab["facets"]["model"] == ["*", "e95", "f63"]
+    assert vocab["undeclared_facet_values"]["model"] == ["e95"]

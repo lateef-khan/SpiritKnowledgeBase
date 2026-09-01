@@ -18,6 +18,8 @@ keywords:
 - target heart rate
 - maximum heart rate formula
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

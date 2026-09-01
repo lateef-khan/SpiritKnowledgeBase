@@ -20,6 +20,10 @@ def build_vocab(cards: list[Card], config: KbConfig) -> dict:
     undeclared: dict[str, list[str]] = {}
     for name, spec in config.facets.items():
         declared = set(spec.values)
+        # The models map is the real declaration for `model`; kb.yaml's values list
+        # cannot hold it without repeating every brand's ids in two places.
+        if name == "model":
+            declared |= {model_id for ids in config.models.values() for model_id in ids}
         observed: set[str] = set()
         for card in cards:
             observed |= _values_on_card(card, name)

@@ -14,6 +14,8 @@ keywords:
 - pulse graph
 - console display
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

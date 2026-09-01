@@ -17,6 +17,8 @@ keywords:
 - 8mm allen wrench
 - off center
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

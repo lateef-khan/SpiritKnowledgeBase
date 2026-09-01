@@ -28,10 +28,10 @@ def test_scaffold_parses_as_a_card():
     assert card.source_extracted_at == "2026-08-21"
 
 
-def test_scaffold_declares_every_facet_with_a_sentinel():
+def test_scaffold_leaves_a_sentinel_exempt_facet_empty():
     card = parse_card(new_card_text("new-card", CONFIG, "2026-08-21"), "cards/new-card.md")
     assert card.facets["model"] == "*"
-    assert card.facets["applies_to"] == ["*"]
+    assert card.facets["applies_to"] == []
 
 
 def test_scaffold_uses_the_first_declared_kind():
@@ -39,17 +39,17 @@ def test_scaffold_uses_the_first_declared_kind():
     assert card.kind == "fact"
 
 
-def test_scaffold_fails_lint_only_on_the_placeholder_source():
+def test_scaffold_fails_lint_on_the_source_and_the_exempt_facet():
     card = parse_card(new_card_text("new-card", CONFIG, "2026-08-21"), "cards/new-card.md")
     checks = {e.check for e in lint_cards([card], CONFIG, set())}
-    assert checks == {"unknown-source"}
+    assert checks == {"unknown-source", "empty-facet"}
 
 
-def test_scaffold_fails_lint_only_on_the_placeholder_source_for_a_hyphenated_id():
+def test_scaffold_fails_lint_the_same_way_for_a_hyphenated_id():
     card_id = "f63-e03-overcurrent"
     card = parse_card(new_card_text(card_id, CONFIG, "2026-08-21"), f"cards/{card_id}.md")
     checks = {e.check for e in lint_cards([card], CONFIG, set())}
-    assert checks == {"unknown-source"}
+    assert checks == {"unknown-source", "empty-facet"}
 
 
 def test_card_path_places_a_slug_id_under_cards(tmp_path):

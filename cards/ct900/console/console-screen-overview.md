@@ -17,6 +17,8 @@ keywords:
 - direct access speed buttons
 - scan button
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

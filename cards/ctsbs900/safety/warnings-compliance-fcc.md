@@ -16,6 +16,8 @@ keywords:
 - class b digital device
 - compliance
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

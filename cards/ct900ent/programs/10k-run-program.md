@@ -14,6 +14,8 @@ keywords:
 - 6.2 miles
 - lap
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

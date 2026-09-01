@@ -13,6 +13,8 @@ keywords:
 - age weight top speed
 - warm-up 3 minute
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

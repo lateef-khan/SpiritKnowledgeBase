@@ -13,6 +13,8 @@ keywords:
 - beats per minute
 - hand sensors
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

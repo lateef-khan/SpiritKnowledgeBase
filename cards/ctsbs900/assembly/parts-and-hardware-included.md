@@ -18,6 +18,8 @@ keywords:
 - parts list
 - what comes in the box
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

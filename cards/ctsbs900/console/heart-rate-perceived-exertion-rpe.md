@@ -12,6 +12,8 @@ keywords:
 - perceived exertion
 - rating scale 6 to 20
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

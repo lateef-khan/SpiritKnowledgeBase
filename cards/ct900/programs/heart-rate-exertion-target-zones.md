@@ -15,6 +15,8 @@ keywords:
 - fat burning zone
 - cardiovascular zone
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

@@ -15,6 +15,8 @@ keywords:
 - unusual noises
 - squeaking
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

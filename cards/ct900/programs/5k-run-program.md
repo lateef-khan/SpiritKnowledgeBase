@@ -12,6 +12,8 @@ keywords:
 - distance goal
 - race program
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

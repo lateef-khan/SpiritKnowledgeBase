@@ -13,6 +13,8 @@ keywords:
 - filter failure
 - choke failure
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

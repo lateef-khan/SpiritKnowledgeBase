@@ -15,6 +15,8 @@ keywords:
 - quarter turn
 - center the belt
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

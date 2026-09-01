@@ -14,6 +14,8 @@ keywords:
 - 450 lb
 - how much weight can it hold
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

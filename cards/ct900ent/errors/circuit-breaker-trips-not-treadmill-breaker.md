@@ -14,6 +14,8 @@ keywords:
 - breaker keeps tripping
 - house breaker
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:
