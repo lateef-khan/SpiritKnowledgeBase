@@ -101,3 +101,38 @@ def test_list_shaped_facet_spec_raises(tmp_path):
     bad = MINIMAL.replace("  model:\n    index: keyword\n    values: [f63, \"*\"]", "  model: [a, b]")
     with pytest.raises(ConfigError, match="model"):
         load_config(write(tmp_path, bad))
+
+
+MODELS = MINIMAL + """
+models:
+  spirit: [ct900, ct900ent]
+  sole: [f63]
+"""
+
+
+def test_models_defaults_to_empty_when_absent(tmp_path):
+    cfg = load_config(write(tmp_path, MINIMAL))
+    assert cfg.models == {}
+
+
+def test_models_loads_brands_and_ids(tmp_path):
+    cfg = load_config(write(tmp_path, MODELS))
+    assert cfg.models == {"spirit": ("ct900", "ct900ent"), "sole": ("f63",)}
+
+
+def test_models_rejects_a_brand_with_no_ids(tmp_path):
+    text = MINIMAL + "\nmodels:\n  sole: []\n"
+    with pytest.raises(ConfigError, match="non-empty list"):
+        load_config(write(tmp_path, text))
+
+
+def test_models_rejects_a_model_listed_under_two_brands(tmp_path):
+    text = MINIMAL + "\nmodels:\n  spirit: [ct900]\n  sole: [ct900]\n"
+    with pytest.raises(ConfigError, match="both"):
+        load_config(write(tmp_path, text))
+
+
+def test_models_rejects_a_non_mapping(tmp_path):
+    text = MINIMAL + "\nmodels: [spirit, sole]\n"
+    with pytest.raises(ConfigError, match="must be a mapping"):
+        load_config(write(tmp_path, text))
