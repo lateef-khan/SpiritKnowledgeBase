@@ -209,6 +209,17 @@ def test_the_ten_spec_checks_all_have_a_slug():
     }
 
 
+def test_the_three_brand_checks_all_have_a_slug():
+    """The inventory guard above cannot see these: it runs under CONFIG, which
+    declares no brand facet, so all three brand checks return early there."""
+    card = branded_q("How do I clean it?", brand="[sprit]", model="'*'", applies="[f63]")
+    assert {e.check for e in checks_for(card)} >= {
+        "brand-model-agree",
+        "applies-to-valid",
+        "question-names-model",
+    }
+
+
 def test_empty_exempt_facet_message_does_not_tell_you_to_write_the_sentinel():
     card = make(facets="  model: f63\n  applies_to: []")
     errors = [e for e in lint_cards([card], CONFIG, {"src-1"}) if e.check == "empty-facet"]
@@ -379,3 +390,74 @@ def test_applies_to_is_silent_when_brand_is_not_declared():
     """Must use a card that WOULD fail if the guard were removed, or it asserts nothing."""
     card = make(facets="  model: f63\n  applies_to: [f80]")
     assert [e for e in checks_for(card, config=CONFIG) if e.check == "applies-to-valid"] == []
+
+
+def branded_q(question, **kw):
+    """A branded card whose question is the thing under test.
+
+    TEMPLATE's question is fixed, and the concrete branch reads only the question.
+    """
+    return replace(branded(**kw), question=question)
+
+
+def naming_errors(card):
+    return [e for e in checks_for(card) if e.check == "question-names-model"]
+
+
+def test_question_names_model_accepts_a_question_naming_the_model():
+    card = branded_q("How do I clean an F63?", brand="[sole]", model="f63", applies="[f63]")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_rejects_a_question_that_does_not():
+    card = branded_q("How do I clean it?", brand="[spirit]", model="ct900", applies="[ct900]")
+    errors = naming_errors(card)
+    assert len(errors) == 1
+    assert "does not name model 'ct900'" in errors[0].message
+
+
+def test_question_names_model_ignores_the_title_on_a_concrete_model_card():
+    """Spec section 5: the concrete branch reads question and never title. Without
+    this test an implementation reading both would pass every other test here."""
+    card = branded_q("How do I clean it?", brand="[spirit]", model="ct900",
+                     applies="[ct900]", title="CT900 belt tension")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_does_not_match_a_longer_model_id():
+    """ct900 inside CT900ENT is the exact mislabel this check exists to catch."""
+    card = branded_q("Belt tension on a CT900ENT?", brand="[spirit]", model="ct900", applies="[ct900]")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_accepts_a_sentinel_card_naming_its_brand_in_the_title():
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]",
+                   title="Sole treadmill cleaning")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_accepts_a_sentinel_card_naming_its_brand_in_the_question():
+    """The sentinel branch reads question OR title. Without this the disjunction is
+    half-untested and an implementation reading only the title would pass."""
+    card = branded_q("How do I clean Sole equipment?", brand="[sole]", model="'*'",
+                     applies="[f63, f80]")
+    assert naming_errors(card) == []
+
+
+def test_question_names_model_rejects_a_sentinel_card_missing_a_brand():
+    card = branded(brand="[sole, spirit]", model="'*'", applies="[ct900, f63]",
+                   title="Sole equipment cleaning")
+    errors = naming_errors(card)
+    assert len(errors) == 1
+    assert "brand 'spirit'" in errors[0].message
+
+
+def test_question_names_model_does_not_match_sole_inside_console():
+    """'sole' sits inside 'console', a word in 14 titles and 99 bodies of this corpus."""
+    card = branded(brand="[sole]", model="'*'", applies="[f63, f80]",
+                   title="Console screen overview")
+    assert len(naming_errors(card)) == 1
+
+
+def test_question_names_model_is_silent_when_brand_is_not_declared():
+    assert [e for e in checks_for(make(), config=CONFIG) if e.check == "question-names-model"] == []

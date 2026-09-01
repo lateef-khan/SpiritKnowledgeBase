@@ -177,6 +177,51 @@ def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
     return errors
 
 
+def _names_token(text: str, token: str) -> bool:
+    """Whether `token` appears in `text` as a whole identifier.
+
+    A bare substring test is useless here: 'ct900' sits inside 'CT900ENT', which
+    is exactly the mislabel this catches, and 'sole' sits inside 'console'. The
+    hyphen keeps a future variant id such as 'f63-2026' from reading as 'f63'.
+    """
+    pattern = rf"(?<![a-z0-9_-]){re.escape(token)}(?![a-z0-9_-])"
+    return re.search(pattern, text, re.IGNORECASE) is not None
+
+
+def _question_naming_errors(card: Card, config: KbConfig) -> list[LintError]:
+    if "brand" not in config.facets:
+        return []
+
+    model = card.facets.get("model")
+    if isinstance(model, str) and model != FACET_SENTINEL:
+        # Question only. The title cannot carry the model: shared-lookalike fails a
+        # title holding two identifier-shaped words, and CODE_PATTERN matches ids
+        # like ct900 and f63, so a title with a model and an error code is impossible.
+        if _names_token(card.question, model):
+            return []
+        return [
+            LintError(
+                card.path,
+                "question-names-model",
+                f"question does not name model {model!r}; write it so a reader knows "
+                f"which machine this answers for",
+            )
+        ]
+
+    # A card about several machines has no one model to name, so it names its brands.
+    # The title is fair game here: a brand name never trips shared-lookalike.
+    haystack = f"{card.question}\n{card.title}"
+    return [
+        LintError(
+            card.path,
+            "question-names-model",
+            f"model is '*', so question or title must name brand {brand!r}",
+        )
+        for brand in _brand_list(card)
+        if not _names_token(haystack, brand)
+    ]
+
+
 def _empty_facet_message(key: str, config: KbConfig) -> str:
     """Name the repair the author must make, never a value the facet forbids."""
     if key == "brand":
@@ -232,6 +277,7 @@ def lint_cards(
 
         errors.extend(_brand_errors(card, config))
         errors.extend(_applies_to_errors(card, config))
+        errors.extend(_question_naming_errors(card, config))
 
         if card.kind not in config.kinds:
             errors.append(
