@@ -17,6 +17,8 @@ keywords:
 - percentage of top speed
 - profile chart
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

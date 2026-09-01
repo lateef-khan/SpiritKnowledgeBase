@@ -15,6 +15,8 @@ keywords:
 - power switch off
 - inverter no dc 12v
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

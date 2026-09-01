@@ -13,6 +13,8 @@ keywords:
 - temperature sensor fault
 - slat belt error code
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

@@ -13,6 +13,8 @@ keywords:
 - e18 error
 - treadmill fault code
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

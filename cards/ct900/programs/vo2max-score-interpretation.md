@@ -12,6 +12,8 @@ keywords:
 - excellent good average poor
 - vo2max chart
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

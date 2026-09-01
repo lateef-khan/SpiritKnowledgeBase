@@ -17,6 +17,8 @@ keywords:
 - scan button
 - safety stop key
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

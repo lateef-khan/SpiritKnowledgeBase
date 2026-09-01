@@ -20,6 +20,8 @@ keywords:
 - 220 minus age
 - check pulse
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

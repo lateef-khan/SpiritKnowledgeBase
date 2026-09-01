@@ -12,6 +12,8 @@ keywords:
 - 65 percent
 - projected rate maximum
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

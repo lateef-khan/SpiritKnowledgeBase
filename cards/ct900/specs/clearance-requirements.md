@@ -16,6 +16,8 @@ keywords:
 - rear clearance
 - room size
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

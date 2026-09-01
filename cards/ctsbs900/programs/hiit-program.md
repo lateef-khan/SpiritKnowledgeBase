@@ -16,6 +16,8 @@ keywords:
 - rest speed
 - intervals
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

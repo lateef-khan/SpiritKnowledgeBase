@@ -15,6 +15,8 @@ keywords:
 - prediction mode
 - aerobic capacity
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

@@ -12,6 +12,8 @@ keywords:
 - 2 mile run
 - army run times
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

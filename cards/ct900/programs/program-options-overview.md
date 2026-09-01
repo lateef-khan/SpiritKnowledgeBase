@@ -14,6 +14,8 @@ keywords:
 - manual mode
 - how to start a program
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

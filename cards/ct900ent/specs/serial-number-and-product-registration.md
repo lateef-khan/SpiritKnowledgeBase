@@ -14,6 +14,8 @@ keywords:
 - warranty registration card
 - power switch
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900ent
   applies_to:

@@ -17,6 +17,8 @@ keywords:
 - static
 - 110 volt
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

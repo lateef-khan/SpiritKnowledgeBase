@@ -13,6 +13,8 @@ keywords:
 - bearing noise
 - drive belt misadjusted
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

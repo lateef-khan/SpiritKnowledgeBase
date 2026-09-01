@@ -12,6 +12,8 @@ keywords:
 - drive belt breaking in
 - normal wear debris
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

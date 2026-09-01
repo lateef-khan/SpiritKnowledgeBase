@@ -14,6 +14,8 @@ keywords:
 - cleaning spray
 - upholstery cleaner
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

@@ -15,6 +15,8 @@ keywords:
 - cr2032 battery
 - weak battery
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

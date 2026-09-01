@@ -14,6 +14,8 @@ keywords:
 - heart rate not accurate
 - false signal
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

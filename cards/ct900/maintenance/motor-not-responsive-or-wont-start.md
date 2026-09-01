@@ -15,6 +15,8 @@ keywords:
 - controller broken
 - treadmill stops by itself
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:

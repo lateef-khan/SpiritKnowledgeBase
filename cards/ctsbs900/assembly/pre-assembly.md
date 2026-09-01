@@ -14,6 +14,8 @@ keywords:
 - protective film
 - hardware package
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ctsbs900
   applies_to:

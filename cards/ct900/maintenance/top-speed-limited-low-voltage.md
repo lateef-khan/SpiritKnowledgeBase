@@ -15,6 +15,8 @@ keywords:
 - 16 gauge
 - 210 volt
 facets:
+  brand:
+  - spirit
   product_line: treadmill
   model: ct900
   applies_to:
