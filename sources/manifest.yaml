@@ -16,6 +16,60 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: sole-bike-b94-2016-service-manual
+  title: Sole B94 2016 service manual (SU410B-SB004)
+  kind: pdf
+  origin_uri: file://SU410B-SB004 (B94 2016) Service Manual.pdf
+  sha256: d3fc2a6a43a9e833cee664bbcf86c371713bba7e5aeb1f30ea62474dc9a45664
+  ingested_at: '2026-09-03'
+- id: sole-bike-b94-2019-service-manual
+  title: Sole B94 2019 service manual (SU415-SB021)
+  kind: pdf
+  origin_uri: file://SU415-SB021 (B94 2019) Service  Manual.pdf
+  sha256: 9b9e1389cc460271b351326ee2dfdd8eb1202ceac2af7f0aa9601b1695f1c7ee
+  ingested_at: '2026-09-03'
+- id: sole-bike-lcb-2016-service-manual
+  title: Sole LCB 2016 service manual (SU610B-YB012)
+  kind: pdf
+  origin_uri: file://SOLE LCB 2016 (SU610B-YB012) Service  Manual.pdf
+  sha256: 4f8040a8eab462ea7c16874e3ee9751d215eaf6ed991fd3f24a3910d667a95cf
+  ingested_at: '2026-09-03'
+- id: sole-bike-lcb-2019-service-manual
+  title: Sole LCB 2019 service manual (SU615-YB027)
+  kind: pdf
+  origin_uri: file://SU615-YB027 (LCB 2019) Service Manual.pdf
+  sha256: 04397a00c13bc7c52562e6d1e94e1a48642e0e7dcefd833e8cdb7cb9a8e979f5
+  ingested_at: '2026-09-03'
+- id: sole-bike-lcr-2016-service-manual
+  title: Sole LCR 2016 service manual (SR620B-YB012)
+  kind: pdf
+  origin_uri: file://SR620B-YB012 (LCR 2016) Service  Manual.pdf
+  sha256: c2b61d64f0be283bf11b9b469cb12de7518f019e0acdc6d580fb9e240acf84a0
+  ingested_at: '2026-09-03'
+- id: sole-bike-r92-2016-service-manual
+  title: Sole R92 2016 service manual (SR420-SB004)
+  kind: pdf
+  origin_uri: file://SR420-SB004 (R92 2016) Service Manual.pdf
+  sha256: d02d8861e7a9c447c6727bfbb1e554a21029c4451fa6e32c440321785c516f7a
+  ingested_at: '2026-09-03'
+- id: sole-bike-sb700-2019-service-manual
+  title: Sole SB700 2019 service manual (SB702EGS-3260N)
+  kind: pdf
+  origin_uri: file://SB702EGS-3260N (SOLE SB700 2019) Service  Manual.pdf
+  sha256: 213d7ac9bdef76f98670b3c93b69a7da210c39c6a2778cdd2db1bfaeb46df745
+  ingested_at: '2026-09-03'
+- id: sole-bike-sb700-2020-service-manual
+  title: Sole SB700 2020 service manual (SB702HGS-3268)
+  kind: pdf
+  origin_uri: file://SB702HGS-3268 (SOLE SB700 2020).pdf
+  sha256: 2cabbd6958a74c0cff2ab1fb83d9b7292f5d53d45edaa4958c6932c652e9a340
+  ingested_at: '2026-09-03'
+- id: sole-bike-sb900-2020-service-manual
+  title: Sole SB900 2020 service manual (SB900CGS-3268)
+  kind: pdf
+  origin_uri: file://SB900CGS-3268 (SOLE SB900 2020).pdf
+  sha256: d35157f078507649ca4b785c3763a6c52a3b3320abcf81ffeded79e8560942a0
+  ingested_at: '2026-09-03'
 - id: sole-ftms-model-status-20210806
   title: SOLE FTMS model status, 2021-08-06
   kind: markdown
@@ -408,4 +462,10 @@
   kind: markdown
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
+  ingested_at: '2026-09-03'
+- id: spirit-models-sole-bikes
+  title: Sole bike model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: 70344d3f46210d929c05f6e6f755c0e83d2875beb4e8c55f1bff0d673050e5e6
   ingested_at: '2026-09-03'
