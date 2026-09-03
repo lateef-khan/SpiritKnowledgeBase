@@ -16,6 +16,48 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: sole-ftms-model-status-20210806
+  title: SOLE FTMS model status, 2021-08-06
+  kind: markdown
+  origin_uri: file://SOLE FTMS model_status 20210806-1.xlsx
+  sha256: bdc11fad3965a3e12354e6ac1aaf95abd4e05cedf26a5933545398933343cd74
+  ingested_at: '2026-09-03'
+- id: sole-garmin-companion-sdk-support-old
+  title: OLD SOLE Garmin CompanionSDK and standard BLE HR support devices (superseded)
+  kind: markdown
+  origin_uri: file://_OLD_ SOLE Garmin CompanionSDK _ Standard BLE HR Support Devices.xlsx
+  sha256: 785d63098ed9d7b64bdb8ad5c55845446e5c2e7618351c58b9f19be2fc53b0e8
+  ingested_at: '2026-09-03'
+- id: sole-garmin-hrm-supported-20250517
+  title: NEW Garmin HRM supported list, 2025-05-17
+  kind: markdown
+  origin_uri: file://NEW Garmin HRM_Supported_20250517.xlsx
+  sha256: 671f279d9b97ce82fc1e1e7a7307cb9590c0db761cbc6d07bf1f59acc6d45eab
+  ingested_at: '2026-09-03'
+- id: sole-garmin-watch-support-list-20260525
+  title: SOLE Garmin watch support list, 2026-05-25 (current)
+  kind: markdown
+  origin_uri: file://SOLE_GarminWatch_SupportList_20260525.xlsx
+  sha256: 2dac475aa1f9944583b8c4aa41dd21404fe2ba8c45781caf60d3a14de203471e
+  ingested_at: '2026-09-03'
+- id: sole-lwr-not-match
+  title: LWR Not Match
+  kind: markdown
+  origin_uri: file://LWR Not Match.docx
+  sha256: bf36cb598bd4f35cf3283f4e8a6e304b3d132694035dbea38d21898ae8b12037
+  ingested_at: '2026-09-03'
+- id: sole-pairing-garmin-watches
+  title: Pairing Garmin Watches
+  kind: markdown
+  origin_uri: file://Pairing Garmin Watches.docx
+  sha256: 1feeeafe47210c20895fae61e7f322d075cc70297bf5a9481591526d8a95bc69
+  ingested_at: '2026-09-03'
+- id: sole-sole-plus-and-strava
+  title: Sole+ and Strava
+  kind: markdown
+  origin_uri: file://Sole+ and Strava.docx
+  sha256: 41cb097f13a60670d9317052df11169a29b405909bb7eb3f264e7174d108f580
+  ingested_at: '2026-09-03'
 - id: sole-srvo-app-links
   title: SRVO app store links
   kind: markdown
@@ -47,6 +89,18 @@
   origin_uri: file://SOLE 2026 series treadmill_NEW CONTROLLER & BRAKING RESISTOR
     INSTALLATION GUIDE (1).pdf
   sha256: 4dc1d5a3f89fd6f3b3ca6c1945af7a2b8a61f9530347689aedee73506232de2e
+  ingested_at: '2026-09-03'
+- id: sole-tm-airplay-or-screen-mirroring-not-working
+  title: Airplay or Screen Mirroring Not Working
+  kind: markdown
+  origin_uri: file://Airplay or Screen Mirroring Not Working.docx
+  sha256: e0c362dfb244c7de427d68d08366aa7cae0b9e06191d0e57bb5cbbc3b3874914
+  ingested_at: '2026-09-03'
+- id: sole-tm-apple-watch-connectivity
+  title: Apple Watch Connectivity
+  kind: markdown
+  origin_uri: file://Apple Watch Connectivity.docx
+  sha256: 1ec1b381d21562f676f424b8d7a75cf1f9bfbcb25d9fd7ed32ced5309570ff38
   ingested_at: '2026-09-03'
 - id: sole-tm-battery-test-instructions
   title: Battery Test Instructions
@@ -269,6 +323,18 @@
   kind: markdown
   origin_uri: file://Popping_Vibrating Noise Only When Inclining.docx
   sha256: 042a6331bf2cfeef0ca47077e14e0279ce46657dc417814638a6795ef5d2d45c
+  ingested_at: '2026-09-03'
+- id: sole-tm-sole-plus-not-linking-to-touchscreen
+  title: Sole+ Not Linking to Touchscreen
+  kind: markdown
+  origin_uri: file://Sole+ Not Linking to Touchscreen.docx
+  sha256: 1ff03319ad9f38871296654e36f8ed468aa195ab8b7f09386e8474cf9024e894
+  ingested_at: '2026-09-03'
+- id: sole-tm-sole-plus-stopped-syncing-workouts
+  title: Sole+ Stopped Syncing Workouts from Machine
+  kind: markdown
+  origin_uri: file://Sole+ Stopped Syncing Workouts from Machine.docx
+  sha256: a62543e384ab7e776e47e6c7b615d92dd2ac93aa971ff73ebdfa5d167a5cc668
   ingested_at: '2026-09-03'
 - id: sole-tm-st90-parts-and-wiring-diagram
   title: ST90 Parts and wiring diagram
