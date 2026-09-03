@@ -38,6 +38,11 @@ source:
   extracted_at: '2026-09-03'
 ---
 
+**Policy first: when an SRVO needs a repair, a new SRVO is sent to the customer,
+and individual parts are not replaced.** This procedure is printed in the seminar
+as reference. It does not replace the policy, so do not offer it to a customer in
+place of a replacement unit.
+
 **Do this only after every step on the stuck cable card has failed.** The seminar
 says so plainly: this is only to be done if all other methods have been
 unsuccessful.
@@ -60,7 +65,5 @@ system.
      smoothly.
 3. Once the cable retracts correctly, put the machine back together.
 
-The seminar gives no torque figures and no Allen key size. It also gives no
-warranty guidance for opening the unit, and the separate cables-not-retracting
-note says the whole SRVO is replaced rather than individual parts. Confirm with
-customer service before opening a customer's machine.
+The seminar gives no torque figures and no Allen key size, and no warranty
+guidance for opening the unit.

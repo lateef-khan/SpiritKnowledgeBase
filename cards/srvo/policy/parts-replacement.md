@@ -37,17 +37,15 @@ source:
   extracted_at: '2026-09-03'
 ---
 
-**Individual parts are not replaced on the SRVO.** When the retract fix fails,
-the full SRVO is replaced.
+**Individual parts are not replaced on the SRVO. When an SRVO needs a repair, a
+new SRVO is sent to the customer.**
 
-This rule is written in the cables-not-retracting note. Two things qualify it,
-and both live elsewhere:
+This is the standing policy, and it is what the cables-not-retracting note says
+as well: when the retract fix fails, the full SRVO is replaced.
 
-- The seminar carries a last-resort procedure that opens the back cover, removes
-  the motor bolts and the plastic guard, and frees the pulley by hand. That is a
-  repair on the machine, so the two documents pull in different directions.
-- The seminar's display fault card tells a technician to contact customer service
-  when the display or control board is suspect, rather than naming a part.
+The seminar carries a last-resort procedure that opens the back cover, unbolts
+the motor and frees the pulley by hand. **That procedure does not override this
+policy.** A replacement unit is the remedy the customer gets.
 
-Check with customer service before you tell a customer either that a part can be
-ordered or that the whole unit must be swapped.
+The seminar's display fault steps end the same way. They tell the technician to
+contact customer service rather than naming a part to order.

@@ -33,6 +33,7 @@ not_to_be_confused_with:
 see_also:
 - srvo-cable-stuck-back-cover
 - srvo-cables-not-retracting
+- srvo-parts-replacement-policy
 source:
   ref: sole-srvo-seminar
   locator: PDF page 42
@@ -55,5 +56,9 @@ automatically" fault, which has a shorter fix of its own.**
 2. Switch to **mode three**, pull the cable out completely, then restart the SRVO.
 3. Forceful approach: while the SRVO restarts, apply repeated forceful jolting of
    the cable.
-4. If none of that works, go to the last-resort procedure that removes the back
-   cover. It is on its own card.
+4. If none of that works, the machine is replaced: **a new SRVO is sent to the
+   customer.** Individual parts are not replaced.
+
+The seminar also prints a last-resort procedure that removes the back cover and
+frees the pulley by hand. It is on its own card, and it does not change the
+replacement policy.

@@ -49,3 +49,5 @@ source:
      control board.
 
 Contact customer service for further assistance in either case at step 3.
+Individual parts are not replaced on the SRVO; when a repair is needed, a new
+SRVO is sent to the customer.

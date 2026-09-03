@@ -50,10 +50,9 @@ fully extended, which has its own longer procedure and its own card.**
 
 Some older SRVOs also have a **button on the side** that triggers a retract.
 
-If none of that works, the full SRVO must be replaced. **Individual parts are not
-replaced.**
+If none of that works, **a new SRVO is sent to the customer**. Individual parts
+are not replaced.
 
 The seminar contains a longer last-resort procedure for a cable stuck fully
-extended, which opens the back cover and frees the pulley by hand. That procedure
-and this "replace the whole unit" rule point in different directions. Read both
-cards before you promise a customer anything.
+extended, which opens the back cover and frees the pulley by hand. That is a
+different fault, and it does not change the replacement policy.
