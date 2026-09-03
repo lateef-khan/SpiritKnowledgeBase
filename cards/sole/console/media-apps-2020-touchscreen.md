@@ -31,6 +31,7 @@ facets:
 authority: 2
 not_to_be_confused_with: []
 see_also:
+- sole-hulu-location-services-workaround
 - sole-update-media-apps-touchscreen
 source:
   ref: sole-tm-netflix-youtube-chrome-not-working-2020-touchscreens
