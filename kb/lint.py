@@ -138,12 +138,27 @@ def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
             )
         return errors
 
+    if FACET_SENTINEL in applies:
+        # AgentCore's wildcard scope puts IN [value, "*"] on every query, so ["*"] alone reaches
+        # every machine. A mix would also match turn 1's bare IN ["*"] and serve one machine's
+        # card before anyone has named a machine.
+        if applies != [FACET_SENTINEL]:
+            errors.append(
+                LintError(
+                    card.path,
+                    "applies-to-valid",
+                    "applies_to must not mix '*' with a model id; write ['*'] for every machine, "
+                    "or list the machines",
+                )
+            )
+        return errors
+
     if len(applies) < 2:
         errors.append(
             LintError(
                 card.path,
                 "applies-to-valid",
-                "model is '*', so applies_to needs two or more machines; "
+                "model is '*', so applies_to is ['*'] or two or more machines; "
                 "a card about one machine names it in 'model'",
             )
         )
@@ -228,10 +243,7 @@ def _empty_facet_message(key: str, config: KbConfig) -> str:
         legal = ", ".join(sorted(config.models)) or "(kb.yaml's models map declares no brands)"
         return f"facet 'brand' is missing or empty; list one or more of: {legal}"
     if key in SENTINEL_EXEMPT_FACETS:
-        return (
-            f"facet {key!r} is missing or empty; list one or more model ids. "
-            f"The facet sentinel is not allowed here."
-        )
+        return f"facet {key!r} is missing or empty; list one or more model ids."
     return f"facet {key!r} is missing or empty; write \"*\" rather than omitting it"
 
 
