@@ -13,7 +13,7 @@ facets:
     values: [sole, spirit]
   product_line:
     index: keyword
-    values: [treadmill, bike, elliptical, rower, strength, "*"]
+    values: [treadmill, bike, elliptical, rower, climber, strength, "*"]
   model:
     index: keyword
     values: ["*"]
@@ -31,6 +31,7 @@ models:
   sole:
     - b94-2016
     - b94-2019
+    - cc81-2020
     - e35
     - e95
     - e95s

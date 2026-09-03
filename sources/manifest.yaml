@@ -70,6 +70,12 @@
   origin_uri: file://SB900CGS-3268 (SOLE SB900 2020).pdf
   sha256: d35157f078507649ca4b785c3763a6c52a3b3320abcf81ffeded79e8560942a0
   ingested_at: '2026-09-03'
+- id: sole-climber-cc81-2020-service-manual
+  title: Sole CC81 2020 climber service manual (XS500-YP002)
+  kind: pdf
+  origin_uri: file://CC81_XS500-YP002_Service Manual.pdf
+  sha256: d42bc4cbb4b9308d8cfb57956bafdb0e380c77239fddac00ac5eef4b9b05f800
+  ingested_at: '2026-09-03'
 - id: sole-ftms-model-status-20210806
   title: SOLE FTMS model status, 2021-08-06
   kind: markdown
@@ -468,4 +474,10 @@
   kind: markdown
   origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
   sha256: 70344d3f46210d929c05f6e6f755c0e83d2875beb4e8c55f1bff0d673050e5e6
+  ingested_at: '2026-09-03'
+- id: spirit-models-sole-climbers
+  title: Sole climber and stepper model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: 62fe2203c9c36ec290383ef6b8df2136ce26143496f8b9c5388a5e2b3fec75b0
   ingested_at: '2026-09-03'
