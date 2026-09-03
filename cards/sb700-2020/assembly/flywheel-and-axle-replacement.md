@@ -47,4 +47,4 @@ source:
 
 **Note:** the bearing housing (32) and the **6004 bearing (66)** are glued together in production. If the bearing needs replacing, replace the whole set.
 
-The belt slippage answer in section 4.1 of this same manual says **1000 Newton** instead. See the belt tension card.
+700 to 750 N is the standard build figure. The belt slippage answer in section 4.1 says 1000 N, which is the fix for a belt that still slips at 700 N. See the belt tension card.

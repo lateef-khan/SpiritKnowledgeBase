@@ -22,7 +22,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
-  - '*'
+  - f63-2023
+  - f65-2023
+  - f80-2023
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f85-2026
+  - f89-2023
+  - st90-2020
+  - st90-2021
+  - tt8-2019
+  - tt8-2020
+  - tt8-2023
   section: console
   code: '*'
 authority: 2
@@ -36,6 +49,8 @@ source:
   locator: section "Touchscreens"
   extracted_at: '2026-09-03'
 ---
+
+**Scope.** This card is limited to the SOLE touchscreen machines. The list in `applies_to` is assembled from the machines this knowledge base already treats as touchscreen, because no source document enumerates them. A touchscreen machine that is missing from the list should be added, not read as unsupported. The nine 2016 to 2020 bikes with Dyaco service manuals are deliberately out of scope: none of them has a touchscreen.
 
 **This is the touchscreen way.** A non-touchscreen console pairs differently. See `sole-garmin-pair-non-touchscreen`.
 

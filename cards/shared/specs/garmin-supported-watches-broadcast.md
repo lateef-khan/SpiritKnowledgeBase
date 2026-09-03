@@ -22,7 +22,27 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
-  - '*'
+  - e35
+  - e95
+  - e95s
+  - e98
+  - f63
+  - f63-2013
+  - f63-2026
+  - f65
+  - f65-2026
+  - f80
+  - f80-2026
+  - f83
+  - f83-2026
+  - f85
+  - f89
+  - lcb
+  - lcr
+  - sb1200
+  - st90
+  - tt8
+  - tt9
   section: specs
   code: '*'
 authority: 3
@@ -37,6 +57,8 @@ source:
   locator: sheet "Garmin Broadcast HR (direct)"
   extracted_at: '2026-09-03'
 ---
+
+**Scope.** The SOLE non-touchscreen cardio machines. The list in `applies_to` is every declared SOLE model that is not on the touchscreen list, because no source document enumerates the non-touchscreen fleet. The nine 2016 to 2020 bikes with Dyaco service manuals are deliberately out of scope: **no source says a Garmin can broadcast to those consoles.** Their manuals describe a chest belt receiver and name no watch support.
 
 **This is the broadcast list for LED and LCD consoles, dated 17 May 2025.** A touchscreen console uses a different and longer list. See `sole-garmin-supported-watches-touchscreen`.
 

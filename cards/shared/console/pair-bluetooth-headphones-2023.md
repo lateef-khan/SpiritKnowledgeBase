@@ -23,7 +23,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
-  - '*'
+  - f63-2023
+  - f65-2023
+  - f80-2023
+  - f85-2023
+  - f89-2023
+  - tt8-2023
   section: console
   code: '*'
 authority: 2
@@ -37,7 +42,7 @@ source:
   extracted_at: '2026-09-03'
 ---
 
-**Scope:** 2023 SOLE touchscreen machines. The source names bikes, ellipticals **and** treadmills.
+**Scope.** The 2023 touchscreen machines. The `applies_to` list holds the 2023 treadmills this knowledge base declares. **The source also names 2023 bikes and 2023 ellipticals, and there is no model id for those yet**, so the list is short of what the card really covers. Add those ids and extend this card when they exist. The nine 2016 to 2020 bikes with Dyaco service manuals are out of scope: they are not 2023 machines and have no touchscreen.
 
 **This is the machine sending audio out to headphones.** It is not the phone sending audio into the machine's speakers, and it is not the SOLE+ app connecting. Those are in `sole-bluetooth-not-connecting`.
 

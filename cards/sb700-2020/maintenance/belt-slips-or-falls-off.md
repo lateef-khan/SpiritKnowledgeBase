@@ -37,7 +37,7 @@ source:
   extracted_at: '2026-09-03'
 ---
 
-**If the belt slips:** follow section 3.3 and move the **idler axle (74)** downward by turning the **1/4" x 3"L hex head bolt (69) counterclockwise**. Tighten the **belt (40)** until belt tension reads **1000 Newton**. Section 3.3 of the same manual says 700 to 750 N.
+**If the belt slips:** follow section 3.3 and move the **idler axle (74)** downward by turning the **1/4" x 3"L hex head bolt (69) counterclockwise**. Tighten the **belt (40)** to **700 to 750 Newton**, the standard setting. **If it still slips at 700 N, take it up to 1000 N.** The manual prints 1000 N here and 700 to 750 N in section 3.3; those are the two ends of the same adjustment, not a choice.
 
 **If the belt falls off:**
 
