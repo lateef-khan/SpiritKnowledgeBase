@@ -16,3 +16,293 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: sole-tm-2026-controller-braking-resistor-install
+  title: SOLE 2026 series treadmill new controller and braking resistor installation
+    guide
+  kind: pdf
+  origin_uri: file://SOLE 2026 series treadmill_NEW CONTROLLER & BRAKING RESISTOR
+    INSTALLATION GUIDE (1).pdf
+  sha256: 4dc1d5a3f89fd6f3b3ca6c1945af7a2b8a61f9530347689aedee73506232de2e
+  ingested_at: '2026-09-03'
+- id: sole-tm-battery-test-instructions
+  title: Battery Test Instructions
+  kind: markdown
+  origin_uri: file://Battery Test Instructions.docx
+  sha256: 8cbbb8c6ba4a833acdc67e749a609ce017d73bf2974a63b780bb1739f9f80841
+  ingested_at: '2026-09-03'
+- id: sole-tm-belt-replacement
+  title: Belt Replacement
+  kind: pdf
+  origin_uri: file://Belt_Replacement.pdf
+  sha256: 7b09308857c6c1edc6830e47c43fcff5dbd56b6be283a2d423fd71501cd923c8
+  ingested_at: '2026-09-03'
+- id: sole-tm-bluetooth-connectivity-issues
+  title: Bluetooth Connectivity Issues
+  kind: markdown
+  origin_uri: file://Bluetooth Connectivity Issues.docx
+  sha256: 93bf136ab1f35d22556d0917542b84c58724b8178e2f419a2be03555fb12c177
+  ingested_at: '2026-09-03'
+- id: sole-tm-burning-smell-from-treadmill
+  title: Burning Smell from Treadmill
+  kind: markdown
+  origin_uri: file://Burning Smell from Treadmill.docx
+  sha256: 6275a023cfc518a70f276091dcf8359bff54dc1c4728f94fb98ad55fd16b481c
+  ingested_at: '2026-09-03'
+- id: sole-tm-buttons-dont-work-after-assembling-2023-f63-and-f65
+  title: Buttons Don’t Work After Assembling (2023 F63 and F65)
+  kind: markdown
+  origin_uri: file://Buttons Don’t Work After Assembling (2023 F63 and F65).docx
+  sha256: 06ab8a9d842007b335fbb1445ca7dffc2735810a5e9a4eed7f11e0c44b0f7471
+  ingested_at: '2026-09-03'
+- id: sole-tm-calibration-2026-non-touchscreen-treadmills
+  title: Calibration (2026 Non-Touchscreen treadmills)
+  kind: markdown
+  origin_uri: file://Calibration (2026 Non-Touchscreen treadmills).docx
+  sha256: 63c32ceaa5e21429dd4431c170253b32552d279c0a9f94f25998656b86ba6ce4
+  ingested_at: '2026-09-03'
+- id: sole-tm-calibration-treadmills
+  title: Calibration (Treadmills)
+  kind: markdown
+  origin_uri: file://Calibration (Treadmills).docx
+  sha256: b3894b3cd92557576d48fb7981ea952506ccc1e5994065be82c5c183ac88edb4
+  ingested_at: '2026-09-03'
+- id: sole-tm-console-error-code-list
+  title: SOLE console error code list (2024-11-07)
+  kind: markdown
+  origin_uri: file://Errors - SOLE-Console Error Code List_20241107.xlsx
+  sha256: 893d96c03be2038825891e2e96d41de67e553ec3745376cdcc6d928331e29b0e
+  ingested_at: '2026-09-03'
+- id: sole-tm-drive-belt-chirping
+  title: Drive Belt Chirping
+  kind: markdown
+  origin_uri: file://Drive Belt Chirping.docx
+  sha256: 704c5e31eec9177f3f9026bd8cea31bd9e403a8558127be37629daed4da8d731
+  ingested_at: '2026-09-03'
+- id: sole-tm-e1-error-treadmills
+  title: E1 Error (Treadmills)
+  kind: markdown
+  origin_uri: file://E1 Error (Treadmills).docx
+  sha256: 07c949cbcd992bbc36d4df3110c88ff304d3751473b087e81f6a69dc13272ba5
+  ingested_at: '2026-09-03'
+- id: sole-tm-e2-error-treadmill
+  title: E2 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E2 Error (Treadmill).docx
+  sha256: ff28a7e0f2a7bd7e7927ec91ef55c38a81665449db103a10f29a6010e307270a
+  ingested_at: '2026-09-03'
+- id: sole-tm-e3-error-treadmill
+  title: E3 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E3 Error (Treadmill).docx
+  sha256: 560ab5d9e246c7de35d2dfc8d451e74e08caba74a080f70519143fceca585483
+  ingested_at: '2026-09-03'
+- id: sole-tm-e4-error-treadmill
+  title: E4 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E4 Error (Treadmill).docx
+  sha256: 8870d439244064fbbc17de893224e0d076e07152fbd12c49dadf8daa381619cb
+  ingested_at: '2026-09-03'
+- id: sole-tm-e5-error-treadmill
+  title: E5 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E5 Error (Treadmill).docx
+  sha256: 617e21a5a5b5cf18b302176249d1656f7347c130b000d617165e0e980a9c593d
+  ingested_at: '2026-09-03'
+- id: sole-tm-e6-error-treadmill
+  title: E6 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E6 Error (Treadmill).docx
+  sha256: f5a90729cb64efd809817786f08ac983f9bb116d989e93ebf3733cc1127ffc97
+  ingested_at: '2026-09-03'
+- id: sole-tm-e7-error-treadmill
+  title: E7 Error (Treadmill)
+  kind: markdown
+  origin_uri: file://E7 Error (Treadmill).docx
+  sha256: f48271d30471d2e59632420b48157867e1a51d3e95e109e9b3c88d09fe3e17b0
+  ingested_at: '2026-09-03'
+- id: sole-tm-enabling-sleep-mode-treadmill
+  title: Enabling Sleep Mode (Treadmill)
+  kind: markdown
+  origin_uri: file://Enabling Sleep Mode (Treadmill).docx
+  sha256: 8961fe483e0798f57917beda4e013c0529a3eae5b823e50ff8b8e0aeaaaff2b6
+  ingested_at: '2026-09-03'
+- id: sole-tm-engineering-mode-treadmill
+  title: Engineering Mode (Treadmill)
+  kind: markdown
+  origin_uri: file://Engineering Mode (Treadmill).docx
+  sha256: 600ec974bef2bfb8c1de3accb6364814ee018603c5b563ceace93e87be4b95b3
+  ingested_at: '2026-09-03'
+- id: sole-tm-f63-2013-563812-parts-diagram
+  title: F63-2013, 563812 Parts Diagram
+  kind: markdown
+  origin_uri: file://F63-2013, 563812 Parts Diagram.docx
+  sha256: 549b229237658e6efbbff0d9b11904a8f6fdd30ae3ebd25df0a05944fdc3078a
+  ingested_at: '2026-09-03'
+- id: sole-tm-f63-ota-freeze-instructions
+  title: F63 OTA Instructions (Freeze Issue) - EN
+  kind: pdf
+  origin_uri: file://F63 OTA Instructions (Freeze Issue) - EN.pdf
+  sha256: 14a0b1cfe46a269e63072370078ff5852caf643ccf4b045f4783157fd3417494
+  ingested_at: '2026-09-03'
+- id: sole-tm-f80-2023
+  title: F80 2023
+  kind: markdown
+  origin_uri: file://F80 2023.docx
+  sha256: 49e93dee1500a870b2745a68eb0ed85de845ad6060a4fe7d96808794178260bd
+  ingested_at: '2026-09-03'
+- id: sole-tm-f85-585820-2-0-to-2-4-update
+  title: F85 (585820) 2.0 to 2.4 Update
+  kind: markdown
+  origin_uri: file://F85 (585820) 2.0 to 2.4 Update.docx
+  sha256: d8e3f1fb22892c1b36812dec630481ef848585b0f7ce571377ec187164f050e7
+  ingested_at: '2026-09-03'
+- id: sole-tm-f85-585822-2023-wiring-diagram
+  title: F85, 585822 (2023) Wiring diagram
+  kind: markdown
+  origin_uri: file://F85, 585822 (2023) Wiring diagram.docx
+  sha256: 32142d50f65214ed37b166a3c0dc8d2ff72ebdc75154434d045472a4796b49af
+  ingested_at: '2026-09-03'
+- id: sole-tm-f85-f89-tt8-585822-589822-588822-start-button-grayed
+  title: F85_F89_TT8 (585822, 589822, 588822) Start Button Grayed Out
+  kind: markdown
+  origin_uri: file://F85_F89_TT8 (585822, 589822, 588822) Start Button Grayed Out.docx
+  sha256: c00068f2261bf8b05f697fc31bb98ec89ad476b959d6266a70a26378a7923c4f
+  ingested_at: '2026-09-03'
+- id: sole-tm-factory-reset-on-touchscreens
+  title: Factory Reset on Touchscreens
+  kind: markdown
+  origin_uri: file://Factory Reset on Touchscreens.docx
+  sha256: 20b01b990688a875c5d7eb912db52161dcc406d99bf40759858fb23b6e9a7d00
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-incline-signal-travels
+  title: How Incline Signal Travels
+  kind: markdown
+  origin_uri: file://How Incline Signal Travels.docx
+  sha256: b96700cefc8e638ad667c2df0b832ac1b71fb1617aa2277c2f12c3fb3ce61fc6
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-lubricate-treadmill-belt
+  title: How Lubricate Treadmill Belt
+  kind: markdown
+  origin_uri: file://How Lubricate Treadmill Belt.docx
+  sha256: 563c6fbc90bad1f7176340a002db9f27f37fa6535bfabde5a6ee63fe7ba27f28
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-speed-signal-travels
+  title: How Speed Signal Travels
+  kind: markdown
+  origin_uri: file://How Speed Signal Travels.docx
+  sha256: 8ab354b6eb47998e4854d9a3f34b9763e98dac4443c2e92750a04f6d54bba005
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-to-connect-wifi-touchscreens-only
+  title: How to Connect Wifi (Touchscreens only)
+  kind: markdown
+  origin_uri: file://How to Connect Wifi (Touchscreens only).docx
+  sha256: 1141ce3b300f43ba145b22a689ea098a25c6da95bc9857705a060ac0cb8d3dc7
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-to-install-motor-controller
+  title: How to Install Motor Controller
+  kind: markdown
+  origin_uri: file://How to Install Motor Controller.docx
+  sha256: 231888ec1e26b86a4f29a5bb094e4cd1e9ba4b9585de07be1c3de2d6d036aa4b
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-to-update-media-apps-touchscreens-only
+  title: How to Update Media Apps (Touchscreens Only)
+  kind: markdown
+  origin_uri: file://How to Update Media Apps (Touchscreens Only).docx
+  sha256: 18b00f390165d7d20ef92627646f9c424a48ba7591c933d5cca2d7f07902349b
+  ingested_at: '2026-09-03'
+- id: sole-tm-how-to-update-software-touchscreens-only
+  title: How to Update Software (Touchscreens Only)
+  kind: markdown
+  origin_uri: file://How to Update Software (Touchscreens Only).docx
+  sha256: 6e8a34d852b06afc0e712cf2c9a4d38610b9292fe35eee1f4e6b25fe5558fa87
+  ingested_at: '2026-09-03'
+- id: sole-tm-ls-error
+  title: LS Error
+  kind: markdown
+  origin_uri: file://LS Error.docx
+  sha256: 5a9c0d6bcf953ae9a6fa08df9d82b40c03f54751a8a1dc664492b94765ff9fcd
+  ingested_at: '2026-09-03'
+- id: sole-tm-netflix-youtube-chrome-not-working-2020-touchscreens
+  title: Netflix_YouTube_Chrome Not Working (2020 Touchscreens)
+  kind: markdown
+  origin_uri: file://Netflix_YouTube_Chrome Not Working (2020 Touchscreens).docx
+  sha256: 1b7ef6f30041d7c64a345e973527d20199728e65c52c12cfb6af91ba131737b6
+  ingested_at: '2026-09-03'
+- id: sole-tm-no-power-to-treadmill
+  title: No Power to Treadmill
+  kind: markdown
+  origin_uri: file://No Power to Treadmill.docx
+  sha256: e19d1621933767f238f7459100f87fa04257185f0c8c327873aad6e48430c42b
+  ingested_at: '2026-09-03'
+- id: sole-tm-pin-test-treadmill-older-than-2016
+  title: Pin Test (Treadmill older than 2016)
+  kind: markdown
+  origin_uri: file://Pin Test (Treadmill older than 2016).docx
+  sha256: 7362f5b6d005445bb2537e4179b53ff6b368cdd0fe84adb3738355505a14da72
+  ingested_at: '2026-09-03'
+- id: sole-tm-popping-vibrating-noise-only-when-inclining
+  title: Popping_Vibrating Noise Only When Inclining
+  kind: markdown
+  origin_uri: file://Popping_Vibrating Noise Only When Inclining.docx
+  sha256: 042a6331bf2cfeef0ca47077e14e0279ce46657dc417814638a6795ef5d2d45c
+  ingested_at: '2026-09-03'
+- id: sole-tm-st90-parts-and-wiring-diagram
+  title: ST90 Parts and wiring diagram
+  kind: markdown
+  origin_uri: file://ST90 Parts and wiring diagram.docx
+  sha256: be39762cf85f88e7332d0bbfadf8a522971bfbf57450749938546589577e1260
+  ingested_at: '2026-09-03'
+- id: sole-tm-sudden-stop-on-treadmill
+  title: Sudden Stop on Treadmill
+  kind: markdown
+  origin_uri: file://Sudden Stop on Treadmill.docx
+  sha256: 5919c3a8dc926ce47c5e50d3cfbcc17fc64c815bb570e9a2ab9731a8c9e5a157
+  ingested_at: '2026-09-03'
+- id: sole-tm-treadmill-belt-tensioning-and-tracking
+  title: Treadmill Belt Tensioning and Tracking
+  kind: markdown
+  origin_uri: file://Treadmill Belt Tensioning and Tracking.docx
+  sha256: a3516d2682b4754bdca4acaeb6c95ae520913ed6f691d9560a7ad6ce70beea7c
+  ingested_at: '2026-09-03'
+- id: sole-tm-treadmill-drive-belt-tension
+  title: Treadmill Drive Belt Tension
+  kind: markdown
+  origin_uri: file://Treadmill Drive Belt Tension.docx
+  sha256: ef6d4c63ee1717ee98737754ef3024f58ac5c33ef675371fad023bf17f3aefed
+  ingested_at: '2026-09-03'
+- id: sole-tm-treadmill-incline-goes-up-and-down-by-itself
+  title: Treadmill Incline Goes Up and Down by Itself
+  kind: markdown
+  origin_uri: file://Treadmill Incline Goes Up and Down by Itself.docx
+  sha256: 02c916355032da35ffae2a79b2bda3745ee35aeece1db1ce8deec739320243e6
+  ingested_at: '2026-09-03'
+- id: sole-tm-treadmill-power-wiring
+  title: Treadmill Power Wiring
+  kind: markdown
+  origin_uri: file://Treadmill Power Wiring.docx
+  sha256: 4151c1c32b8c07fc0b386d4f146bf4e8f4d22409c93050aaf17d95a4644e35f3
+  ingested_at: '2026-09-03'
+- id: sole-tm-treadmill-running-belt-speeding-up-or-down-on-its-ow
+  title: Treadmill Running Belt Speeding Up or Down on Its Own
+  kind: markdown
+  origin_uri: file://Treadmill Running Belt Speeding Up or Down on Its Own.docx
+  sha256: d2dc8b617b82259741fc3523072296cedef1636f8eb64d7c37b1412f2968e467
+  ingested_at: '2026-09-03'
+- id: sole-tm-various-noises-from-treadmill
+  title: Various Noises From Treadmill
+  kind: markdown
+  origin_uri: file://Various Noises From Treadmill.docx
+  sha256: ebc7119b632a0ab835093ef3e108c014e8fddab0b14265af94a0d8283e1323d5
+  ingested_at: '2026-09-03'
+- id: sole-tm-velcro-strap-pin
+  title: Velcro Strap & Pin
+  kind: markdown
+  origin_uri: file://Velcro Strap & Pin.docx
+  sha256: e14a9e8fac8a9571ec8eac2a0ba39818ef38ef0586720b0afd9528d1901f577f
+  ingested_at: '2026-09-03'
+- id: sole-tm-voltage-test
+  title: Voltage Test
+  kind: markdown
+  origin_uri: file://Voltage Test.docx
+  sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
+  ingested_at: '2026-09-03'
