@@ -23,8 +23,10 @@ facets:
   section: console
   code: '*'
 authority: 2
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- sole-android-settings-touchscreen
 see_also:
+- sole-android-settings-touchscreen
 - sole-engineering-menu-non-touchscreen
 - sole-calibration-touchscreen
 source:

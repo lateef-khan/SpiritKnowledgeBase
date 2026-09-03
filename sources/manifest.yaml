@@ -301,6 +301,12 @@
   origin_uri: file://How to Update Software (Touchscreens Only).docx
   sha256: 6e8a34d852b06afc0e712cf2c9a4d38610b9292fe35eee1f4e6b25fe5558fa87
   ingested_at: '2026-09-03'
+- id: sole-tm-hulu-location-services-workaround
+  title: Hulu Location Services Workaround, Treadmills (video step transcript)
+  kind: markdown
+  origin_uri: file://Hulu Location Services Workaround - Treadmills.mp4
+  sha256: 8d0b2c50608906ace024db9b49e0ddef52ae979f3abd18295acb6cb09f4535c3
+  ingested_at: '2026-09-03'
 - id: sole-tm-ls-error
   title: LS Error
   kind: markdown
