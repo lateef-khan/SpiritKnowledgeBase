@@ -22,7 +22,42 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
-  - '*'
+  - e35
+  - e95
+  - e95s
+  - e98
+  - f63
+  - f63-2013
+  - f63-2023
+  - f63-2026
+  - f65
+  - f65-2023
+  - f65-2026
+  - f80
+  - f80-2023
+  - f80-2026
+  - f83
+  - f83-2026
+  - f85
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f85-2026
+  - f89
+  - f89-2023
+  - lcb
+  - lcr
+  - sb1200
+  - srvo
+  - st90
+  - st90-2020
+  - st90-2021
+  - tt8
+  - tt8-2019
+  - tt8-2020
+  - tt8-2023
+  - tt9
   section: console
   code: '*'
 authority: 2
@@ -34,6 +69,8 @@ source:
   locator: whole document
   extracted_at: '2026-09-03'
 ---
+
+**Scope.** Every declared SOLE model except the nine 2016 to 2020 bikes with Dyaco service manuals. Those bikes are out of scope because no source says a watch or a third-party strap connects to their consoles.
 
 Sole+ can send workouts to Strava. It sends elapsed time, average speed, max speed, calories burned, distance, elevation gain, and heart rate.
 

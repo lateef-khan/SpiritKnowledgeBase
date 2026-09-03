@@ -29,6 +29,8 @@ facets:
 models:
   spirit: [ct900, ct900ent, ctsbs900]
   sole:
+    - b94-2016
+    - b94-2019
     - e35
     - e95
     - e95s
@@ -54,8 +56,15 @@ models:
     - f89
     - f89-2023
     - lcb
+    - lcb-2016
+    - lcb-2019
     - lcr
+    - lcr-2016
+    - r92-2016
     - sb1200
+    - sb700-2019
+    - sb700-2020
+    - sb900-2020
     - srvo
     - st90
     - st90-2020
