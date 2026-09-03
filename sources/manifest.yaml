@@ -16,6 +16,30 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: sole-srvo-app-links
+  title: SRVO app store links
+  kind: markdown
+  origin_uri: file://SRVO APP LINKS.docx
+  sha256: 309eba8938f343a6a5ae4efe1b76b1f8d31ce1a05657917a0f2ee3ea9fdc4ad8
+  ingested_at: '2026-09-03'
+- id: sole-srvo-app-screens
+  title: SRVO phone app screens (transcribed screenshots)
+  kind: markdown
+  origin_uri: file://SRVO APP/
+  sha256: 21e00fc3b96d469a49dba72f18c1ef8a1d110eb0f4ae9a1e94c6d66de0a5ebf7
+  ingested_at: '2026-09-03'
+- id: sole-srvo-cables-not-retracting
+  title: SRVO cables not retracting
+  kind: markdown
+  origin_uri: file://Cables Not Retracting.docx
+  sha256: 9b9d852a1afe67d6d0b4436fa96f43846566f37a13f3e2639909d8bc8be69fac
+  ingested_at: '2026-09-03'
+- id: sole-srvo-seminar
+  title: SOLE SRVO seminar (USA version)
+  kind: pdf
+  origin_uri: file://SOLE SRVO SEMINAR USA Version.pdf
+  sha256: 35ba76abbf21cc1b30195fbcb1a6c6e4f01b7928293610d0e0f07227b1b64a2c
+  ingested_at: '2026-09-03'
 - id: sole-tm-2026-controller-braking-resistor-install
   title: SOLE 2026 series treadmill new controller and braking resistor installation
     guide

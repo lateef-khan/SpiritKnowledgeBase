@@ -13,7 +13,7 @@ facets:
     values: [sole, spirit]
   product_line:
     index: keyword
-    values: [treadmill, bike, elliptical, rower, "*"]
+    values: [treadmill, bike, elliptical, rower, strength, "*"]
   model:
     index: keyword
     values: ["*"]
@@ -49,6 +49,7 @@ models:
     - f85-2026
     - f89
     - f89-2023
+    - srvo
     - st90
     - st90-2020
     - st90-2021
