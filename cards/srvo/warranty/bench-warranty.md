@@ -42,12 +42,11 @@ source:
 | Accessories | 1 year |
 | Cosmetic | 90 days |
 
-**The seminar states this in two places and they do not fully agree.** The bench
-product slide lists all three lines including the 90-day cosmetic cover. The
-warranty summary slide lists only Bench 1 year and Accessories 1 year, and omits
-the cosmetic line. This card keeps the longer of the two, because it is the only
-place the cosmetic term appears at all. Confirm the cosmetic term against the
-printed warranty before quoting it to a customer.
+**The 90-day cosmetic term is confirmed.** The seminar prints the warranty twice
+and the two slides differ: the bench product slide carries all three lines, while
+the warranty summary slide lists only Bench 1 year and Accessories 1 year and
+drops the cosmetic line. The three lines above are the correct terms. The summary
+slide is simply incomplete.
 
 The SRVO Strength Trainer itself has a separate warranty. See the SRVO warranty
 card.

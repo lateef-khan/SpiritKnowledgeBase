@@ -47,5 +47,8 @@ source:
 The seminar states these same three lines twice, on the product overview slide
 and on the warranty slide, and they agree.
 
+No cosmetic term is stated for the SRVO unit itself. The 90-day cosmetic cover
+the seminar prints belongs to the Multi-Angle Bench, not to the trainer.
+
 The SRVO Multi-Angle Bench has its own separate warranty. See the bench warranty
 card.
