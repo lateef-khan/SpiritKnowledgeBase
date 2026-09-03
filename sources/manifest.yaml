@@ -46,6 +46,13 @@
   origin_uri: file://LWR Not Match.docx
   sha256: bf36cb598bd4f35cf3283f4e8a6e304b3d132694035dbea38d21898ae8b12037
   ingested_at: '2026-09-03'
+- id: sole-pairing-bluetooth-headphones-2023-touchscreen
+  title: Pairing Bluetooth Headphones to SOLE 2023 Touchscreen Models (video step
+    transcript)
+  kind: markdown
+  origin_uri: file://Pairing Bluetooth Headphones to SOLE 2023 Touchscreen Models.mp4
+  sha256: fd7a3f4dda06a6aaaeda81c63e6a64151cce0b2fbcb7cd5ee47c9a78779be8c6
+  ingested_at: '2026-09-03'
 - id: sole-pairing-garmin-watches
   title: Pairing Garmin Watches
   kind: markdown

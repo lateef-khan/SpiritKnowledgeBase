@@ -26,6 +26,7 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - sole-apple-watch-heart-rate
+- sole-pair-bluetooth-headphones-2023
 - sole-update-software-touchscreen
 source:
   ref: sole-tm-bluetooth-connectivity-issues
