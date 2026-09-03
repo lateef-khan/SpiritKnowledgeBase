@@ -19,9 +19,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
-  - ct900
-  - ct900ent
-  - ctsbs900
+  - '*'
   section: maintenance
   code: '*'
 authority: 3

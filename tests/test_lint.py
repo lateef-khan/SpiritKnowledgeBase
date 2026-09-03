@@ -342,6 +342,20 @@ def test_applies_to_rejects_a_sentinel_card_reaching_one_machine():
     assert any("two or more" in e.message for e in errors)
 
 
+def test_applies_to_accepts_a_card_tagged_for_every_machine():
+    """AgentCore's wildcard scope reads applies_to: ['*'] as 'every machine' and puts it on
+    every query as IN [value, '*'], so the sentinel is the universal tag, not an invisible one."""
+    assert applies_errors(branded(brand="[sole]", model="'*'", applies="['*']")) == []
+
+
+def test_applies_to_rejects_mixing_the_sentinel_with_a_machine():
+    """['f63', '*'] matches turn 1's IN ['*'] and serves an F63 card before anyone named a
+    machine. The wildcard design forbids the mix; so does lint."""
+    errors = applies_errors(branded(brand="[sole]", model="'*'", applies="['*', f63]"))
+    assert len(errors) == 1
+    assert "mix" in errors[0].message
+
+
 def test_applies_to_rejects_an_unknown_machine():
     errors = applies_errors(branded(brand="[sole]", model="'*'", applies="[f63, f99]"))
     assert any("'f99' is not a model" in e.message for e in errors)
