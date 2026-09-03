@@ -70,8 +70,8 @@
   origin_uri: file://SB900CGS-3268 (SOLE SB900 2020).pdf
   sha256: d35157f078507649ca4b785c3763a6c52a3b3320abcf81ffeded79e8560942a0
   ingested_at: '2026-09-03'
-- id: sole-climber-cc81-service-manual
-  title: Sole CC81 climber service manual (XS500-YP002)
+- id: sole-climber-cc81-2020-service-manual
+  title: Sole CC81 2020 climber service manual (XS500-YP002)
   kind: pdf
   origin_uri: file://CC81_XS500-YP002_Service Manual.pdf
   sha256: d42bc4cbb4b9308d8cfb57956bafdb0e380c77239fddac00ac5eef4b9b05f800
