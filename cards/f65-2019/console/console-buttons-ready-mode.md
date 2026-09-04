@@ -1,0 +1,51 @@
+---
+id: f65-2019-console-buttons-ready-mode
+title: What each button does in READY mode
+kind: fact
+question: What does each console button do in READY mode on a Sole f65-2019 treadmill?
+asked_as:
+- what do the treadmill buttons do before i start
+- why does the speed button do nothing on my treadmill
+- sole treadmill console buttons explained
+keywords:
+- ready mode
+- start button
+- enter button
+- quick keys
+- speed rapid
+- incline rapid
+- fan
+- safety key
+facets:
+  brand:
+  - sole
+  product_line: treadmill
+  model: f65-2019
+  applies_to:
+  - f65-2019
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- f65-2019-console-buttons-run-mode
+- f65-2019-console-modes
+source:
+  ref: sole-tm-f65-2019-service-manual
+  locator: Section 4, Function Button in the Main Mode - READY MODE
+  extracted_at: '2026-09-04'
+---
+
+- **SAFETY KEY** - fit it in the right position to power on the computer. Pulling it away shuts the computer down automatically.
+- **STOP** - no function.
+- **START** - starts the treadmill. There is a **3 second count down** on the window display, then the machine starts running. In MANUAL it starts at MIN SPEED; in PROGRAM it starts at the program preset value.
+- **ENTER** - changes each function. MANUAL sets the time. A preset PROGRAM sets time and speed. Heart Rate Control 1~2 sets time, age and the heart rate value. User Program 1~2 sets time, speed and incline.
+- **FAST, SLOW, UP, DOWN** - non-functional until a setting has been entered.
+- **SPEED RAPID** - 7 preset buttons for rapid speed: 2,3,4,5,7,9,12
+- **INCLINE RAPID** - 7 preset buttons for rapid incline: 1,3,5,7,9,12,15.
+- **FAN** - turns the fan on or off.
+- **Another function of ENTER** is to exchange and poll the incline and speed profile display.
+- **DISPLAY KEY** - during exercise, pressing it polls the message window messages.
+- **PROGRAM KEY** - press PROGRAM (▲/▼) to choose a program, confirm each setting with ENTER, then press START to exercise.
+
+The console drawing labels two sets of quick keys, one on the console and one on the handrails ("Incline adjustment Rapid Key handrail" and "Speed adjustment Rapid Key handrail"): incline **1, 3, 5, 7, 9, 12, 15** and speed **2, 3, 4, 5, 7, 9, 12**.

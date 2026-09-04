@@ -1,0 +1,47 @@
+---
+id: sc200-2019-chest-belt-no-pulse
+title: Chest belt shows no pulse
+kind: troubleshooting
+question: Why is the wireless chest belt not reading on a Sole sc200-2019?
+asked_as:
+- chest strap not reading on sole climber
+- wireless heart rate not working
+- what battery does the sole chest belt take
+keywords:
+- chest belt
+- chest strap
+- wireless
+- no pulse
+- cr2032
+- battery
+- receiver
+- 3 feet
+facets:
+  brand:
+  - sole
+  product_line: elliptical
+  model: sc200-2019
+  applies_to:
+  - sc200-2019
+  section: errors
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- sc200-2019-hand-pulse-not-working
+- sc200-2019-erratic-pulse-display
+source:
+  ref: sole-elliptical-sc200-2019-service-manual
+  locator: Troubleshooting procedure matrix, page 39
+  extracted_at: '2026-09-04'
+---
+
+Symptom row: **Wireless lost its function (no pulse displayed on monitor).**
+
+| Reason | Solve |
+|---|---|
+| 1. Chest belt not worn properly. | 1. Check the chest belt has proper contact with skin and is oriented correctly. |
+| 2. Distance is too far and exceeds range of receiver. | 2. Use the chest belt in front of the console within **3 feet**. |
+| 3. Chest belt battery is weak or dead. | 3. Replace with a new lithium battery, type **CR2032**. |
+
+The hand grip sensors have their own row and their own card.
