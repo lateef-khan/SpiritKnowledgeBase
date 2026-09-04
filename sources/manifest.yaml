@@ -28,6 +28,12 @@
   origin_uri: file://SU415-SB021 (B94 2019) Service  Manual.pdf
   sha256: 9b9e1389cc460271b351326ee2dfdd8eb1202ceac2af7f0aa9601b1695f1c7ee
   ingested_at: '2026-09-03'
+- id: sole-bike-b94-2023-service-manual
+  title: Sole B94 2023 service manual (SU415A-SB025)
+  kind: pdf
+  origin_uri: file://B94(2023)_594122_SU415A-SB025_Service manual.pdf
+  sha256: fa63b3bf3d6b1621505762ef9f0ac6236fd9f33c52326d8bad0cd051ffc49b01
+  ingested_at: '2026-09-04'
 - id: sole-bike-lcb-2016-service-manual
   title: Sole LCB 2016 service manual (SU610B-YB012)
   kind: pdf
@@ -40,18 +46,42 @@
   origin_uri: file://SU615-YB027 (LCB 2019) Service Manual.pdf
   sha256: 04397a00c13bc7c52562e6d1e94e1a48642e0e7dcefd833e8cdb7cb9a8e979f5
   ingested_at: '2026-09-03'
+- id: sole-bike-lcb-2023-service-manual
+  title: Sole LCB 2023 service manual (511122)
+  kind: pdf
+  origin_uri: file://SOLE LCB 2023 Service Manual (511122).pdf
+  sha256: 97c3498d663176a5949ed88a03a23c803b73a793b89ade6fa0876b100abfd6b9
+  ingested_at: '2026-09-04'
 - id: sole-bike-lcr-2016-service-manual
   title: Sole LCR 2016 service manual (SR620B-YB012)
   kind: pdf
   origin_uri: file://SR620B-YB012 (LCR 2016) Service  Manual.pdf
   sha256: c2b61d64f0be283bf11b9b469cb12de7518f019e0acdc6d580fb9e240acf84a0
   ingested_at: '2026-09-03'
+- id: sole-bike-lcr-2023-service-manual
+  title: Sole LCR 2023 service manual (522122)
+  kind: pdf
+  origin_uri: file://SOLE LCR 2023 Service Manual (522122).pdf
+  sha256: 511adb57eb21e3e4c37a77bdc0d505987c8ff5584a1e0a21d577c8ca4722fa3e
+  ingested_at: '2026-09-04'
 - id: sole-bike-r92-2016-service-manual
   title: Sole R92 2016 service manual (SR420-SB004)
   kind: pdf
   origin_uri: file://SR420-SB004 (R92 2016) Service Manual.pdf
   sha256: d02d8861e7a9c447c6727bfbb1e554a21029c4451fa6e32c440321785c516f7a
   ingested_at: '2026-09-03'
+- id: sole-bike-r92-2023-service-manual
+  title: Sole R92 2023 service manual (592122)
+  kind: pdf
+  origin_uri: file://SOLE R92 2023 Service Manual (592122).pdf
+  sha256: a6fe4c6da3bfd4e56d15b1a3ad2286dccd0c532f27b8fc9d5cd898e1df8ded61
+  ingested_at: '2026-09-04'
+- id: sole-bike-sb1200-2023-service-manual
+  title: Sole SB1200 2023 service manual (512322)
+  kind: pdf
+  origin_uri: file://SOLE SB1200 2023 Service Manual (512322).pdf
+  sha256: f7f4b9402739a5631b8516d3fa2d3d8c4647f956a8bfff2bd3cd8db567766113
+  ingested_at: '2026-09-04'
 - id: sole-bike-sb700-2019-service-manual
   title: Sole SB700 2019 service manual (SB702EGS-3260N)
   kind: pdf
@@ -70,12 +100,138 @@
   origin_uri: file://SB900CGS-3268 (SOLE SB900 2020).pdf
   sha256: d35157f078507649ca4b785c3763a6c52a3b3320abcf81ffeded79e8560942a0
   ingested_at: '2026-09-03'
+- id: sole-bike-sb900-2023-service-manual
+  title: Sole SB900 2023 service manual (590322)
+  kind: pdf
+  origin_uri: file://SOLE SB900 2023 Service Manual (590322).pdf
+  sha256: 8c6a81274e4ed057f0eec895295a5d4f5a058c7ddabd02f6a43c612df2fe9348
+  ingested_at: '2026-09-04'
+- id: sole-c80-2026-service-manual
+  title: Sole C80 2026 service manual (TK700-SK001)
+  kind: pdf
+  origin_uri: file://C80(2026)_TK700-SK001_SM_US_V1.0.pdf
+  sha256: 4efba5ed00bef30aca846efb9038dc67c3f3c26a721603886901c34937018ea9
+  ingested_at: '2026-09-04'
 - id: sole-climber-cc81-2020-service-manual
   title: Sole CC81 2020 climber service manual (XS500-YP002)
   kind: pdf
   origin_uri: file://CC81_XS500-YP002_Service Manual.pdf
   sha256: d42bc4cbb4b9308d8cfb57956bafdb0e380c77239fddac00ac5eef4b9b05f800
   ingested_at: '2026-09-03'
+- id: sole-elliptical-e25-2016-service-manual
+  title: Sole E25 2016 service manual (SE565S-SE016)
+  kind: pdf
+  origin_uri: file://E25 2016 (SE565S-SE016) Service Manual.pdf
+  sha256: 253608ac70b6b7d12833b6b40068c2eb1765224d9db0ebcb0b20fe0a42816ab7
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e25-2019-service-manual
+  title: Sole E25 2019 service manual (SE665S-SE012)
+  kind: pdf
+  origin_uri: file://SE665S-SE012 (E25 2019) ServiceManual.pdf
+  sha256: 8fc8dbbb842cc080b8dcc57439e992f826731c172955f9102ecead54761a7af1
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e25-2023-service-manual
+  title: Sole E25 2023 service manual (SE668S-SE038-01)
+  kind: pdf
+  origin_uri: file://E25(2023)_525022_SE668S-SE038-01_Service manual.pdf
+  sha256: 3454fa964b856bd86bc0eef9a38cf94e07d40c24193c74127a45b2e1d3dc5949
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e25-2026-service-manual
+  title: Sole E25 2026 service manual (SE668SA-SE052-01)
+  kind: pdf
+  origin_uri: file://E25(2026)_SE668SA-SE052-01 Service  Manual.pdf
+  sha256: 033e34cabc742b13e5547fee1508c44690542f0705407bb88afda86c2cd935a1
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e35-2016-service-manual
+  title: Sole E35 2016 service manual (SE575-SE017)
+  kind: pdf
+  origin_uri: file://SE575-SE017 (E35 2016) Service  Manual.pdf
+  sha256: afe0d63be3fb08c9210f4cb3bc28432890bd28b0da1e3a7b3f2d1a95ce51a4a5
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e35-2019-service-manual
+  title: Sole E35 2019 service manual (SE675-SE013)
+  kind: pdf
+  origin_uri: file://SE675-SE013 (E35 2019) Service  Manual.pdf
+  sha256: fb4b5321636dc9a8e23e3c456444cbbf36f6f5c156548fd6866948cf27e47166
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e35-2023-service-manual
+  title: Sole E35 2023 service manual (535022)
+  kind: pdf
+  origin_uri: file://SOLE E35 2023 Service Manual (535022).pdf
+  sha256: 4391eaa5c7aa647b6daa5da5320236a6e99d03568ea4a779cdee06fdcc04f416
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e55-2016-service-manual
+  title: Sole E55 2016 service manual (SE585S-SE018)
+  kind: pdf
+  origin_uri: file://SE585S-SE018 (E55 2016) Service  Manual.pdf
+  sha256: e33b0b1fea14c96b3b2c3e219b6a719dc8fc588d30e0126978f6dd217a51ab9f
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e55-2019-service-manual
+  title: Sole E55 2019 service manual (SE685S-YE030)
+  kind: pdf
+  origin_uri: file://SE685S-YE030 (SOLE E55 2019) Service  Manual.pdf
+  sha256: 0f397f060175d49b10fe1512c2d02049eb00fb2fca5b0cf21fda0e2ae9d5d9d3
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e95-2016-service-manual
+  title: Sole E95 2016 service manual (SE595-YE021)
+  kind: pdf
+  origin_uri: file://SE595-YE021 (E95, 2016) Service Manual.pdf
+  sha256: 0e74280d0fcbffb6130acee44177be63d61a1c5c780433beb743c3a249af3cf8
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e95-2023-service-manual
+  title: Sole E95 2023 service manual (SE698-SE040)
+  kind: pdf
+  origin_uri: file://E95(2023)_595022_SE698-SE040_Service manual.pdf
+  sha256: aba3768403bd6c76971204b46dc91ac4041ae7c399da5fb70dd10cbe41df08b3
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e95s-2016-service-manual
+  title: Sole E95S 2016 service manual (XE895A-YE022)
+  kind: pdf
+  origin_uri: file://XE895A-YE022 (E95S 2016) Service Manual.pdf
+  sha256: e860283b4bd50ad8afd067f2a54cdf5cf96a67ffebddcbb791db70596400a3a6
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e95s-2019-service-manual
+  title: Sole E95s 2019 service manual (XE895B-YE028)
+  kind: pdf
+  origin_uri: file://XE895B-YE028 (E95s 2019)Service  Manual.pdf
+  sha256: 81d1c42f3ad18c05e5004a15e65489ea5b03b3d7c2ce990e0c80deb14c2078ff
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e95s-2023-service-manual
+  title: Sole E95s 2023 service manual (595622)
+  kind: pdf
+  origin_uri: file://SOLE E95s 2023 Service Manual (595622).pdf
+  sha256: ca287ae91e20159bec42b3539678fd62798c2f408b09e72993ef305dca62fe61
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e98-2016-service-manual
+  title: Sole E98 2016 service manual (SE865-YE023)
+  kind: pdf
+  origin_uri: file://SE865-YE023 (E98 2016) Service Manual.pdf
+  sha256: 1397b911364836a5a8749446c6aa00d5856cc98e0199c18abcdf4f6532ecd0fb
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e98-2019-service-manual
+  title: Sole E98 2019 service manual (SE855-YE029)
+  kind: pdf
+  origin_uri: file://SE855-YE029 (E98 2019) Service  Manual.pdf
+  sha256: ac09ec4042ddedd1d14f0e154d8e1f6ff51a70c4335c30411dc9f3d55e443cf7
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-e98-2023-service-manual
+  title: Sole E98 2023 service manual (598022)
+  kind: pdf
+  origin_uri: file://SOLE E98 2023 Service Manual (598022).pdf
+  sha256: 8f1a2fc74a7c2c06d11ec1fdde9e70e3779688096f18e41b8b41cc90b14a2c8e
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-sc200-2016-service-manual
+  title: Sole SC200 2016 service manual (XS110A-YS003)
+  kind: pdf
+  origin_uri: file://SC200 2016 (XS110A-YS003) Service Manual.pdf
+  sha256: 5e4ccff93f57ae0fa1fcc42d23bc1b69d55c402a0f0e96409777d5695486cba2
+  ingested_at: '2026-09-04'
+- id: sole-elliptical-sc200-2019-service-manual
+  title: Sole SC200 2019 service manual (XS110B-YS007)
+  kind: pdf
+  origin_uri: file://XS110B-YS007 (SC200 2019) Service  Manual.pdf
+  sha256: 0b782feb4d0fedfef0479f3b7964aa74c2d994850ab39a358e683ed56040b17f
+  ingested_at: '2026-09-04'
 - id: sole-ftms-model-status-20210806
   title: SOLE FTMS model status, 2021-08-06
   kind: markdown
@@ -119,6 +275,18 @@
   origin_uri: file://Pairing Garmin Watches.docx
   sha256: 1feeeafe47210c20895fae61e7f322d075cc70297bf5a9481591526d8a95bc69
   ingested_at: '2026-09-03'
+- id: sole-rower-sr500-2016-service-manual
+  title: Sole SR500 2016 service manual (CW800A-YR001-01)
+  kind: pdf
+  origin_uri: file://SR500 2016 (CW800A-YR001-01_CW800A)  Service Manual.pdf
+  sha256: 99b100a1f6b116d1f90158e322169ef8c5d3d9c1912be8b043ae7d1c222ace2a
+  ingested_at: '2026-09-04'
+- id: sole-rower-sr550-2023-service-manual
+  title: Sole SR550 2023 service manual (555922)
+  kind: pdf
+  origin_uri: file://SOLE SR550 2023 Service Manual (555922).pdf
+  sha256: 226abe7937aa39553284f534838f5343022ce520f0a342c073be6fc3774b7dd0
+  ingested_at: '2026-09-04'
 - id: sole-sole-plus-and-strava
   title: Sole+ and Strava
   kind: markdown
@@ -149,6 +317,12 @@
   origin_uri: file://SOLE SRVO SEMINAR USA Version.pdf
   sha256: 35ba76abbf21cc1b30195fbcb1a6c6e4f01b7928293610d0e0f07227b1b64a2c
   ingested_at: '2026-09-03'
+- id: sole-srvo-service-manual
+  title: Sole SRVO service manual (578712, 578722)
+  kind: pdf
+  origin_uri: file://SOLE SRVO Service Manual (578712, 578722).pdf
+  sha256: aab1e3e94bceaaeb6d8b83f9687454b70feb1fa8c96bdff90e89a326db65d31e
+  ingested_at: '2026-09-04'
 - id: sole-tm-2026-controller-braking-resistor-install
   title: SOLE 2026 series treadmill new controller and braking resistor installation
     guide
@@ -277,24 +451,114 @@
   origin_uri: file://Engineering Mode (Treadmill).docx
   sha256: 600ec974bef2bfb8c1de3accb6364814ee018603c5b563ceace93e87be4b95b3
   ingested_at: '2026-09-03'
+- id: sole-tm-f60-2016-service-manual
+  title: Sole F60 2016 service manual (560816)
+  kind: pdf
+  origin_uri: file://SOLE F60 2016 Service Manual (560816).pdf
+  sha256: 059c1935011b95c3fb61d5181e82229617c5d1a02f65ae6490b60ef9760a4f1b
+  ingested_at: '2026-09-04'
+- id: sole-tm-f60-2020-service-manual
+  title: Sole F60 2020 service manual (560820)
+  kind: pdf
+  origin_uri: file://SOLE F60 2020 Service Manual (560820).pdf
+  sha256: cb6a859bba67f7331bd34489270f53db7dc037ad4e0aea7c2880691b27340ac1
+  ingested_at: '2026-09-04'
 - id: sole-tm-f63-2013-563812-parts-diagram
   title: F63-2013, 563812 Parts Diagram
   kind: markdown
   origin_uri: file://F63-2013, 563812 Parts Diagram.docx
   sha256: 549b229237658e6efbbff0d9b11904a8f6fdd30ae3ebd25df0a05944fdc3078a
   ingested_at: '2026-09-03'
+- id: sole-tm-f63-2016-service-manual
+  title: Sole F63 2016 service manual (563816)
+  kind: pdf
+  origin_uri: file://SOLE F63 2016 Service Manual (563816).pdf
+  sha256: c0ce3a5f721473bc8edf54117ff35c5009097da7a870817d3ff2c828595d9634
+  ingested_at: '2026-09-04'
+- id: sole-tm-f63-2019-service-manual
+  title: Sole F63 2019 service manual (563818)
+  kind: pdf
+  origin_uri: file://SOLE F63 2019 Service Manual (563818).pdf
+  sha256: 4d85dbd1999d918b494b53fc78a64a5c9a0c601aa34b7c47afe1357184bdca11
+  ingested_at: '2026-09-04'
+- id: sole-tm-f63-2023-service-manual
+  title: Sole F63 2023 service manual (563822)
+  kind: pdf
+  origin_uri: file://SOLE F63 2023 Service Manual (563822).pdf
+  sha256: 937019da00827cc78afa6ddd21ff1f42d2c8d83ea1b60ed1aa0bf8bd4eba8052
+  ingested_at: '2026-09-04'
+- id: sole-tm-f63-2026-service-manual
+  title: Sole F63 2026 service manual (GT88-YT088)
+  kind: pdf
+  origin_uri: file://F63(2026)_GT88-YT088_Service Manual.pdf
+  sha256: 083bd282410b236692bc5cc2a304e1fff0f51fa8afa02f61d23049d95cc774d4
+  ingested_at: '2026-09-04'
 - id: sole-tm-f63-ota-freeze-instructions
   title: F63 OTA Instructions (Freeze Issue) - EN
   kind: pdf
   origin_uri: file://F63 OTA Instructions (Freeze Issue) - EN.pdf
   sha256: 14a0b1cfe46a269e63072370078ff5852caf643ccf4b045f4783157fd3417494
   ingested_at: '2026-09-03'
+- id: sole-tm-f65-2016-service-manual
+  title: Sole F65 2016 service manual (ST155-YT018)
+  kind: pdf
+  origin_uri: file://F65 2016 (ST155-YT018) Service Manual.pdf
+  sha256: ea0c6183062671ca5f519f3dba68014abc2ab0307a92a1632c4ede3644d3defa
+  ingested_at: '2026-09-04'
+- id: sole-tm-f65-2019-service-manual
+  title: Sole F65 2019 service manual (565818)
+  kind: pdf
+  origin_uri: file://SOLE F65 2019 Service Manual (565818).pdf
+  sha256: 47cdde62a8213b3a20f73c6428cddf1288d0e68ea5df68687a35c50c237daeb1
+  ingested_at: '2026-09-04'
+- id: sole-tm-f65-2023-service-manual
+  title: Sole F65 2023 service manual (565822)
+  kind: pdf
+  origin_uri: file://SOLE F65 2023 Service Manual (565822).pdf
+  sha256: aea698b951582c3df404faf4dbee221625928c3d7665e8c4666be2779023718e
+  ingested_at: '2026-09-04'
+- id: sole-tm-f80-2016-service-manual
+  title: Sole F80 2016 service manual (ST525-YT019)
+  kind: pdf
+  origin_uri: file://F80 2016 (ST525-YT019) Service Manual.pdf
+  sha256: 6895d21cef55b46a4a34143d6738cb09aa1d2e227d4400ebbbd5d251177c44c4
+  ingested_at: '2026-09-04'
+- id: sole-tm-f80-2019-service-manual
+  title: Sole F80 2019 service manual (580818)
+  kind: pdf
+  origin_uri: file://SOLE F80 2019 Service Manual (580818).pdf
+  sha256: 65e36a32c9101c54f7e4dc77ff2fee9bbf06d2cbf6fc3c0413f5d827093149dc
+  ingested_at: '2026-09-04'
 - id: sole-tm-f80-2023
   title: F80 2023
   kind: markdown
   origin_uri: file://F80 2023.docx
   sha256: 49e93dee1500a870b2745a68eb0ed85de845ad6060a4fe7d96808794178260bd
   ingested_at: '2026-09-03'
+- id: sole-tm-f80-2023-service-manual
+  title: Sole F80 2023 service manual (580822)
+  kind: pdf
+  origin_uri: file://SOLE F80 2023 Service Manual (580822).pdf
+  sha256: 79c0271864e87cce2086aa95b7156f106c0519107a7eb00c98fad8dbc6b6073f
+  ingested_at: '2026-09-04'
+- id: sole-tm-f85-2016-service-manual
+  title: Sole F85 2016 service manual (ST535-YT020)
+  kind: pdf
+  origin_uri: file://F85 2016 (ST535-YT020) Service Manual.pdf
+  sha256: fdda748fed21333c979c5a1a4a6e28e8ed13b0299d93b2e261b50c044f59ebef
+  ingested_at: '2026-09-04'
+- id: sole-tm-f85-2019-service-manual
+  title: Sole F85 2019 service manual (ST538-YT034)
+  kind: pdf
+  origin_uri: file://ST538-YT034(SOLE  F85 2019)  Service  Manual.pdf
+  sha256: b182fab5891bdf810337aa9846a12fad231fcfe5c424ad17cdb800302ff2314a
+  ingested_at: '2026-09-04'
+- id: sole-tm-f85-2023-service-manual
+  title: Sole F85 2023 service manual (ST278-YT071-01)
+  kind: pdf
+  origin_uri: file://F85(2023)_585822_ST278-YT071-01_Service manual.pdf
+  sha256: 6753914981f39300a0ddeb9e6c99856cd6462be662f2e19aaaafb2f50c61d2a1
+  ingested_at: '2026-09-04'
 - id: sole-tm-f85-585820-2-0-to-2-4-update
   title: F85 (585820) 2.0 to 2.4 Update
   kind: markdown
@@ -307,12 +571,24 @@
   origin_uri: file://F85, 585822 (2023) Wiring diagram.docx
   sha256: 32142d50f65214ed37b166a3c0dc8d2ff72ebdc75154434d045472a4796b49af
   ingested_at: '2026-09-03'
+- id: sole-tm-f85-ent-2021-service-manual
+  title: Sole F85 ENT 2021 service manual (ST538-YT056)
+  kind: pdf
+  origin_uri: file://ST538-YT056 (SOLE F85 ENT 2021) Service Manual.pdf
+  sha256: bcaf4feb08d9b7ce8eee9c759d3be99430b05548fa3bfe0c14820f706c3c7481
+  ingested_at: '2026-09-04'
 - id: sole-tm-f85-f89-tt8-585822-589822-588822-start-button-grayed
   title: F85_F89_TT8 (585822, 589822, 588822) Start Button Grayed Out
   kind: markdown
   origin_uri: file://F85_F89_TT8 (585822, 589822, 588822) Start Button Grayed Out.docx
   sha256: c00068f2261bf8b05f697fc31bb98ec89ad476b959d6266a70a26378a7923c4f
   ingested_at: '2026-09-03'
+- id: sole-tm-f89-2023-service-manual
+  title: Sole F89 2023 service manual (ST378-YT078-01)
+  kind: pdf
+  origin_uri: file://F89(2023)_585822_ST378-YT078-01_Service manual.pdf
+  sha256: 1276f33dad759f512f6bf1756f43f8b3471c15ff9b0f4a5bc6880c603135f3f2
+  ingested_at: '2026-09-04'
 - id: sole-tm-factory-reset-on-touchscreens
   title: Factory Reset on Touchscreens
   kind: markdown
@@ -397,6 +673,18 @@
   origin_uri: file://Popping_Vibrating Noise Only When Inclining.docx
   sha256: 042a6331bf2cfeef0ca47077e14e0279ce46657dc417814638a6795ef5d2d45c
   ingested_at: '2026-09-03'
+- id: sole-tm-s77-2016-service-manual
+  title: Sole S77 2016 service manual (ST725-YT020)
+  kind: pdf
+  origin_uri: file://S77 2016 (ST725-YT020) Service Manual.pdf
+  sha256: 9fc19ab2020e623cabbb6f677060986762f4f4c08cb9d168435c37b2de4fd091
+  ingested_at: '2026-09-04'
+- id: sole-tm-s77-2019-service-manual
+  title: Sole S77 2019 service manual (ST728-YT034)
+  kind: pdf
+  origin_uri: file://ST728-YT034 (SOLE S77 2019)Service  Manual .pdf
+  sha256: d767be1c7a6431f1dcc5868f55a65d77985e927d750e4b699f582ad82b5da9a5
+  ingested_at: '2026-09-04'
 - id: sole-tm-sole-plus-not-linking-to-touchscreen
   title: Sole+ Not Linking to Touchscreen
   kind: markdown
@@ -409,6 +697,18 @@
   origin_uri: file://Sole+ Stopped Syncing Workouts from Machine.docx
   sha256: a62543e384ab7e776e47e6c7b615d92dd2ac93aa971ff73ebdfa5d167a5cc668
   ingested_at: '2026-09-03'
+- id: sole-tm-st90-2021-service-manual
+  title: Sole ST90 2021 service manual (ST8900-YT061)
+  kind: pdf
+  origin_uri: file://ST90_ST8900-YT061_Service Manual Ver1.2.pdf
+  sha256: accbc6d66e55d9a7032f36d56bfd58b8cf11e3156d2625fb975923b1c11c7680
+  ingested_at: '2026-09-04'
+- id: sole-tm-st90-2023-service-manual
+  title: Sole ST90 2023 service manual (590822)
+  kind: pdf
+  origin_uri: file://SOLE ST90 2023 Service Manual (590822).pdf
+  sha256: bd8ce99d6090c715cfe2b710a395fcf90e9ea7bb3ca1ff625b0a60e14f379add
+  ingested_at: '2026-09-04'
 - id: sole-tm-st90-parts-and-wiring-diagram
   title: ST90 Parts and wiring diagram
   kind: markdown
@@ -451,6 +751,36 @@
   origin_uri: file://Treadmill Running Belt Speeding Up or Down on Its Own.docx
   sha256: d2dc8b617b82259741fc3523072296cedef1636f8eb64d7c37b1412f2968e467
   ingested_at: '2026-09-03'
+- id: sole-tm-tt8-2016-ac-service-manual
+  title: Sole TT8 2016 AC service manual (ST925A-YT030)
+  kind: pdf
+  origin_uri: file://ST925A-YT030 (TT8, 2016 (AC)) Service Manual.pdf
+  sha256: c874eda6432d7732ff74661d8fd3e2473e06ca50ca21aa6dcb42fe0ab42b7b82
+  ingested_at: '2026-09-04'
+- id: sole-tm-tt8-2016-service-manual
+  title: Sole TT8 2016 service manual (ST925-YT021)
+  kind: pdf
+  origin_uri: file://ST925-YT021 (TT8 2016) Service Manual.pdf
+  sha256: c4a0cef5d7180bc21bde1feb8a135e87938d79599a696c0b6519b4fbca8851da
+  ingested_at: '2026-09-04'
+- id: sole-tm-tt8-2019-ac-service-manual
+  title: Sole TT8 AC 2019 service manual (ST928A-YT037)
+  kind: pdf
+  origin_uri: file://ST928A-YT037(TT8 AC 2019)  Service  Manual.pdf
+  sha256: 2c44a9ac29cb977309e4319fccc709d011f51179a8a4b5cf85b1adaf923ece38
+  ingested_at: '2026-09-04'
+- id: sole-tm-tt8-2019-service-manual
+  title: Sole TT8 2019 service manual (ST928-YT035)
+  kind: pdf
+  origin_uri: file://ST928-YT035 (TT8 2019) Service  Manual.pdf
+  sha256: 28c4d293b26f96cc7b8bae7dea6cbb59f3b9cf5c48d361fdc02254d26e053a68
+  ingested_at: '2026-09-04'
+- id: sole-tm-tt8-2023-service-manual
+  title: Sole TT8 2023 service manual (588822)
+  kind: pdf
+  origin_uri: file://SOLE TT8 2023 Service Manual (588822).pdf
+  sha256: 52f45e13193232632779899bec02ceb939394d1792badcbfc844ff9e36fa0263
+  ingested_at: '2026-09-04'
 - id: sole-tm-various-noises-from-treadmill
   title: Various Noises From Treadmill
   kind: markdown
@@ -481,3 +811,27 @@
   origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
   sha256: 62fe2203c9c36ec290383ef6b8df2136ce26143496f8b9c5388a5e2b3fec75b0
   ingested_at: '2026-09-03'
+- id: spirit-models-sole-ellipticals
+  title: Sole ellipticals model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: f7e48dbe2e4b18f4e9fb55c55f8eabe0f2a0ffd722c4f994d5a4621d1140771b
+  ingested_at: '2026-09-04'
+- id: spirit-models-sole-rowers
+  title: Sole rowers model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: 61c9fb4333532b3da0ee8384b643e67cfe533d1291f27ce6535d908d100a4fb3
+  ingested_at: '2026-09-04'
+- id: spirit-models-sole-training
+  title: Sole training model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: fb86902c9a7ea87649c04c752f8ed435669627b59fc043ea1e2b7977807d0d78
+  ingested_at: '2026-09-04'
+- id: spirit-models-sole-treadmills
+  title: Sole treadmills model numbers from the Spirit database Models table
+  kind: markdown
+  origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
+  sha256: 7e142be8f6ebb8fdcdda9ebbd0992c765bace0d09abe5a009f860189f8fa52f4
+  ingested_at: '2026-09-04'
