@@ -1,0 +1,43 @@
+---
+id: f80-2016-roller-replacement
+title: Front and rear roller replacement
+kind: procedure
+question: How do I replace the front or rear roller on a Sole f80-2016 treadmill?
+asked_as:
+- how do i change the rollers on my treadmill
+- replace the front roller on a sole treadmill
+- rear roller replacement on a treadmill
+keywords:
+- front roller
+- rear roller
+- replacement
+- adjustment base
+- m6 allen
+- 13mm
+- belt tension
+- drive belt
+facets:
+  brand:
+  - sole
+  product_line: treadmill
+  model: f80-2016
+  applies_to:
+  - f80-2016
+  section: assembly
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- f80-2016-drive-belt-tension
+- f80-2016-noise-at-rear-of-treadmill
+- f80-2016-belt-tension-adjustment
+source:
+  ref: sole-tm-f80-2016-service-manual
+  locator: Section 12-6, Front/Rear Roller Replacement
+  extracted_at: '2026-09-04'
+---
+
+1. Use a Phillips head screwdriver to loosen the **2 screws on the rear adjustment base**.
+2. Use an **M6 L Allen wrench** to loosen the **2 screws on the rear roller**.
+3. Use Phillips head Screwdriver to remove screws. Disassemble left and right upright bracket cover. Remove the motor cover. Use 14mm T-shaped socket wrench to loosen 4 securing screws. Use 14mm wrench to loosen a side tension screw as well as a rear drive belt tension screw in order to loosening the drive belt. Reassemble in reverse order of disassembly. When reassembled, the running belt tension needs to be adjusted and centred.
+4. Use a 14mm open end wrench to adjust belt tension with a tension measuring device. Adjust to the **white LBS area between 70-75LBS**. Use the 14mm T-shaped socket wrench to secure and tighten the 4 securing screws.

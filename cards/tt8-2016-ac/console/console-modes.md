@@ -1,0 +1,45 @@
+---
+id: tt8-2016-ac-console-modes
+title: The four window display modes
+kind: fact
+question: What are the display modes on a Sole tt8-2016-ac treadmill console?
+asked_as:
+- what does off mode mean on the treadmill
+- why is my treadmill screen blank
+- treadmill ready mode and run mode
+keywords:
+- off mode
+- ready mode
+- sleep mode
+- run mode
+- safety key
+- blank display
+- console modes
+facets:
+  brand:
+  - sole
+  product_line: treadmill
+  model: tt8-2016-ac
+  applies_to:
+  - tt8-2016-ac
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with:
+- tt8-2016-console-modes
+see_also:
+- tt8-2016-ac-console-data-ranges
+source:
+  ref: sole-tm-tt8-2016-ac-service-manual
+  locator: Operation, Window Display Mode, page 16
+  extracted_at: '2026-09-04'
+---
+
+**AC model: TT8 2016 ST925A-YT030, AC drive motor driven by an inverter. The DC drive motor TT8 2016 (ST925-YT021) is a different machine and this card does not apply to it.**
+
+| Mode | What it means |
+|---|---|
+| OFF | The safety key is not in the console. All windows appear blank. |
+| READY | The treadmill is ON and the safety key is inserted. The message window shows the program profile name and cycle. Press START to run in Manual Mode. |
+| SLEEP | Pressing any button takes the console back to READY Mode. |
+| RUN | Pressing STOP or pulling the safety key stops the treadmill instantly and returns it to OFF Mode. |

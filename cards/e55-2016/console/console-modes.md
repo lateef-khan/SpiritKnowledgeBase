@@ -1,0 +1,53 @@
+---
+id: e55-2016-console-modes
+title: Console display, sleep, child lock, pause, end and reset modes
+kind: fact
+question: What are the console modes on a Sole e55-2016 elliptical and how do I leave
+  them?
+asked_as:
+- my sole console is locked
+- how do i unlock the child lock on my sole machine
+- how do i turn sleep mode on
+- how to reset the console on my sole machine
+keywords:
+- idle mode
+- sleep mode
+- child lock
+- console locked
+- pause
+- workout summary
+- reset
+- 30 minutes
+facets:
+  brand:
+  - sole
+  product_line: elliptical
+  model: e55-2016
+  applies_to:
+  - e55-2016
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- e55-2016-maintenance-menu
+- e55-2016-console-buttons
+source:
+  ref: sole-elliptical-e55-2016-service-manual
+  locator: Operation, Window Display Mode, pages 16-17
+  extracted_at: '2026-09-04'
+---
+
+**IDLE MODE** - each program profile is displayed on the message window in sequence and recycles.
+
+**DISPLAY MODE** - pre-set is DISPLAY ON (disabled); set it in Engineering Mode. With the setting "ON" the console will not enter sleep mode unless the power is turned off. With no RPM input in idle mode the console enters sleep mode after **thirty minutes** without a key press. There is also a quick key: **in idle mode press and hold ENTER + STOP + DISPLAY for 2 seconds**, use UP/DOWN to change sleep mode OFF or ON, press ENTER to confirm and return to idle. In display mode the LCD shows nothing and the backlight is off; press any key to wake it. Resistance in sleep mode: Incline = 1.
+
+**CHILD LOCK MODE** - pre-set is CHILD LOCK OFF; set it in Engineering Mode. The message window shows "CONSOLE LOCKED", then "CHILD LOCK-ON PRESS START AND ENTER TO ENABLE OPERATION". Turn it off by **pressing START and ENTER for more than two seconds**. All keys are dead while child lock is active.
+
+**EXERCISE MODE (QUICK START)** - from idle, press START to enter manual mode. Age and weight are preset values, time counts up from 00:00, all countable data counts up from 0 and resistance counts up from 1. Programs are chosen with MANUAL, PROGRAM, USER1, USER2, HRC1 and HRC2, then START.
+
+**PAUSE MODE** - press STOP. Exercise parameters are recorded and the window shows "PAUSE". It returns to idle after **five minutes** with no key press. The ramp incline level should return to 1 when the resistance level is 1; the tension motor and ramp positions return to the pre-pause level when START is pressed.
+
+**END MODE** - the message window shows "WORKOUT SUMMARY", cycling exercise data every three seconds. The system enters idle mode after **3 minutes** with no key press.
+
+**RESET MODE** - in idle, hold STOP for **more than three seconds**. You must leave console lock mode first. The window shows RESET for 2 seconds and returns to idle.

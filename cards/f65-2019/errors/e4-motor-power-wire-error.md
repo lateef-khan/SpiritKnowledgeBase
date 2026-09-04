@@ -1,0 +1,54 @@
+---
+id: f65-2019-e4-motor-power-wire-error
+title: 'E4 error: motor power wire'
+kind: troubleshooting
+question: What does an E4 error mean on a Sole f65-2019 treadmill?
+asked_as:
+- e4 error on my treadmill
+- treadmill shows e4 and stops
+- motor wire error on a sole treadmill
+keywords:
+- e4
+- motor power wire
+- m+
+- m-
+- lower controller
+- drive motor
+- error code
+- motor wiring
+facets:
+  brand:
+  - sole
+  product_line: treadmill
+  model: f65-2019
+  applies_to:
+  - f65-2019
+  section: errors
+  code: e4
+authority: 3
+not_to_be_confused_with:
+- f65-2019-e3-incline-error
+- f65-2019-e5-communication-error
+see_also:
+- f65-2019-drive-motor-spec
+- f65-2019-motor-replacement
+- sole-e4-error
+source:
+  ref: sole-tm-f65-2019-service-manual
+  locator: 'Section 8.4, Error Message: E4'
+  extracted_at: '2026-09-04'
+---
+
+**This is E4, not E3 (incline) and not E5 (communication).**
+
+**Definition**: "Motor power wire error."
+
+**Cause**: the power wire of the motor is not inserted into the lower controller.
+
+| Part | Troubleshooting |
+|---|---|
+| Lower controller | Insert power wire of motor or Replace Lower controller board. |
+| Motor | Replace Motor. |
+| Display board | Replace upper control board. |
+
+The drawing beside this section shows the RPM or motor signal returning, and the start or speed command being sent, through TX/RX of the main control wire.
