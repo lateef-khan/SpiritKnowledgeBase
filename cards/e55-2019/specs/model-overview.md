@@ -39,7 +39,7 @@ source:
 
 The manual's cover code is **SE685S-YE030**. Section 1 is titled "SE685S-YE030 Outlines" and the table of contents calls it the "SE685S Elliptical".
 
-This is the Sole E55 of model year 2019. The Spirit database SKU is **555018**; the last two digits, 18, are the model year field used for this generation of manual.
+This is the Sole E55 of model year 2019. The Spirit database names SKU **555018** as this machine. The year comes from that name, not from the digits of the number.
 
 The machine has a console, a main controller (DC power supply, incline driver and tension motor driver), a tension motor that changes brake resistance, and an AC incline motor.
 

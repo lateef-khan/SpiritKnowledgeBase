@@ -47,4 +47,4 @@ source:
 
 **The manual never prints the words "F85" or the six digit number.** Every heading inside it says ST535: "1. ST535 Treadmill Outlines", "4. ST535 Treadmill Product Operation", "8. ST535 Treadmill Error Messages". ST535 is the Dyaco factory code for the platform, not a Sole model name. The link from ST535-YT020 to the 2016 F85 comes from the manual's file name and from the Spirit database row, not from anything printed in the body.
 
-The last two digits of the SKU are the model year here: 585816 is named "SOLE F85 2016". That rule does not hold for every Sole line, so do not apply it blindly.
+The Spirit database names 585816 "SOLE F85 2016". The year comes from that name. There is no rule that decodes a Sole SKU\'s last two digits into a model year. That rule does not hold for every Sole line, so do not apply it blindly.

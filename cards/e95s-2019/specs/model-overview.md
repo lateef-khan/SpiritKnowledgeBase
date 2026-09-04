@@ -39,7 +39,7 @@ source:
 
 The manual's cover code is **XE895B-YE028**. The circuit diagram page is headed **XE895B-YE028-01**.
 
-This is the Sole E95S of model year 2019. The Spirit database SKU is **595618**; the last two digits, 18, are the model year field used for this generation of manual.
+This is the Sole E95S of model year 2019. The Spirit database names SKU **595618** as this machine. The year comes from that name, not from the digits of the number.
 
 **This machine adjusts stride, not incline.** Where the other 2019 Sole ellipticals have an incline motor and a ramp, this one has a **stride motor**, a moving range adjusting assembly, a slider adjustment and pedal bases running on aluminum tracks. The console is a **10.1" TFT**. Resistance is a tension motor on a steel cable, as on the E25, E35 and E55.
 

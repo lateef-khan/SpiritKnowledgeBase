@@ -39,7 +39,7 @@ source:
 
 The manual's cover code is **SE855-YE029-01**. Section 1 is titled "SE855-YE029 Outlines" and later section headers read SE855-YE029 or SE855-YE029-01.
 
-This is the Sole E98 of model year 2019. The Spirit database SKU is **598018**; the last two digits, 18, are the model year field used for this generation of manual.
+This is the Sole E98 of model year 2019. The Spirit database names SKU **598018** as this machine. The year comes from that name, not from the digits of the number.
 
 **A printing inconsistency, left as printed.** The table of contents line 1 reads "SE865 Elliptical Outlines", not SE855. Every other model reference in the manual says SE855.
 

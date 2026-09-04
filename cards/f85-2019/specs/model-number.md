@@ -48,4 +48,4 @@ source:
 
 **ST538 covers more than one model year.** The 2021 F85 ENT service manual is ST538-YT056, the same platform code with a different suffix. The suffix after the dash, not ST538 itself, identifies the build.
 
-The last two digits of the SKU are the model year here: 585818 is named "SOLE F85 2019". That rule does not hold for every Sole line, so do not apply it blindly.
+The Spirit database names 585818 "SOLE F85 2019". The year comes from that name. There is no rule that decodes a Sole SKU\'s last two digits into a model year. That rule does not hold for every Sole line, so do not apply it blindly.

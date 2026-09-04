@@ -39,7 +39,7 @@ source:
 
 The manual's cover code is **SE665S-SE012**. Section 1 is titled "SE665S-SE012 Outlines" and the table of contents calls it the "SE665S Elliptical".
 
-This is the Sole E25 of model year 2019. The Spirit database SKU is **525018**; the last two digits, 18, are the model year field used for this generation of manual.
+This is the Sole E25 of model year 2019. The Spirit database names SKU **525018** as this machine. The year comes from that name, not from the digits of the number.
 
 Note a printing inconsistency: the circuit diagram page is headed **SE665S-SE016**, not SE665S-SE012. Every other section header in the manual says SE012.
 
