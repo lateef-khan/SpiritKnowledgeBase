@@ -22,14 +22,10 @@ facets:
   - f63
   - f63-2013
   - f65
-  - f65-2026
   - f80
-  - f80-2026
   - f83
-  - f83-2026
   - f85
   - f85-2020
-  - f85-2026
   - f89
   - tt8
   - tt8-2020
@@ -60,4 +56,4 @@ Applies to the F63, F65, F80, F85, F89 and TT8, which use the DC digital control
 | No Display | Console does not light up when powered on | Check plug, fuse and control wires; if the power light is on, replace the control wire between console and controller; if it is off, replace the controller; replace the console |
 | Safety Key | Safety key setup and detection | Check the key is inserted; check the key cable; replace the console; replace the controller |
 
-**Scope.** This card is the fallback for the Sole treadmills that have no service manual in this knowledge base. Every machine listed in `applies_to` is one of those. A machine with a service manual has its own card for this code, or its manual shows the code does not exist on it — check the model's own cards first. AC inverter machines (ST90, TT9, the AC TT8 variants), the F63 2026 and the C80 use different code families and are deliberately excluded.
+**Scope.** This card is the fallback for the Sole treadmills that have no service manual in this knowledge base. Every machine listed in `applies_to` is one of those. A machine with a service manual has its own card for this code, or its manual shows the code does not exist on it — check the model's own cards first. AC inverter machines (ST90, TT9, the AC TT8 variants), the C80 and **every 2026 treadmill** use different code families and are deliberately excluded. The 2026 F50, F63, F65, F80, F83 and F85 print zero-padded **E01 to E06** plus **E22**, **E31** and, on the F80, F83 and F85, **E23** and a bare **ERROR**. None of them prints E1, E2, E4, E5, E6, E7, E8 or LS, and the meanings do not map across: E01 is over current here where E2 is over current above. **E3 is the one code common to both families**, and it is incline on both. Each 2026 machine has its own error cards from its owner's manual — use those.
