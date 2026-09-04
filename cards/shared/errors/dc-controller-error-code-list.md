@@ -19,7 +19,20 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
-  - '*'
+  - f63
+  - f63-2013
+  - f65
+  - f65-2026
+  - f80
+  - f80-2026
+  - f83
+  - f83-2026
+  - f85
+  - f85-2020
+  - f85-2026
+  - f89
+  - tt8
+  - tt8-2020
   section: errors
   code: '*'
 authority: 3
@@ -46,3 +59,5 @@ Applies to the F63, F65, F80, F85, F89 and TT8, which use the DC digital control
 | E8 | Controller EEPROM malfunction | Replace the controller (needs recalibration) |
 | No Display | Console does not light up when powered on | Check plug, fuse and control wires; if the power light is on, replace the control wire between console and controller; if it is off, replace the controller; replace the console |
 | Safety Key | Safety key setup and detection | Check the key is inserted; check the key cable; replace the console; replace the controller |
+
+**Scope.** This card is the fallback for the Sole treadmills that have no service manual in this knowledge base. Every machine listed in `applies_to` is one of those. A machine with a service manual has its own card for this code, or its manual shows the code does not exist on it — check the model's own cards first. AC inverter machines (ST90, TT9, the AC TT8 variants), the F63 2026 and the C80 use different code families and are deliberately excluded.

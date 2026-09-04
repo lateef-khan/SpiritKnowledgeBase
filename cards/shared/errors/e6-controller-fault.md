@@ -19,7 +19,20 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
-  - '*'
+  - f63
+  - f63-2013
+  - f65
+  - f65-2026
+  - f80
+  - f80-2026
+  - f83
+  - f83-2026
+  - f85
+  - f85-2020
+  - f85-2026
+  - f89
+  - tt8
+  - tt8-2020
   section: errors
   code: e6
 authority: 2
@@ -50,3 +63,5 @@ Before you fit a new motor controller, look for the wear that kills controllers:
 3. Ask whether there are squeaking or knocking noises.
    - Yes: ask whether the noise is at the front or the rear, and replace the front roller or the rear roller (possibly both) together with the motor controller.
    - No: replace the motor controller.
+
+**Scope.** This card is the fallback for the Sole treadmills that have no service manual in this knowledge base. Every machine listed in `applies_to` is one of those. A machine with a service manual has its own card for this code, or its manual shows the code does not exist on it — check the model's own cards first. AC inverter machines (ST90, TT9, the AC TT8 variants), the F63 2026 and the C80 use different code families and are deliberately excluded.
