@@ -32,6 +32,7 @@ see_also:
 - sr550-2023-gear-motor-voltage-test
 - sr550-2023-gear-motor-spec
 - sr550-2023-resistance-will-not-adjust
+- sole-rower-e2-part-to-replace
 source:
   ref: sole-rower-sr550-2023-service-manual
   locator: Section 8, error code list page 16, and section 8.1 page 17

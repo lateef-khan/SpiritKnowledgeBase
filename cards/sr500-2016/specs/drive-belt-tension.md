@@ -30,6 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - sr500-2016-flywheel-pulley-replacement
 - sr500-2016-fan-and-flywheel-replacement
+- sole-rower-drive-belt-tension-procedure
 source:
   ref: sole-rower-sr500-2016-service-manual
   locator: Section 8-4, step 7 iii

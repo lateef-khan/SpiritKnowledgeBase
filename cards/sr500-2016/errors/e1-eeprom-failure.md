@@ -30,6 +30,7 @@ not_to_be_confused_with:
 - sr500-2016-e2-motor-error
 see_also:
 - sr500-2016-console-no-display
+- sole-rower-e1-part-to-replace
 source:
   ref: sole-rower-sr500-2016-service-manual
   locator: Section 7, error code list, and section 7.1

@@ -30,6 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - sr550-2023-flywheel-pulley-replacement
 - sr550-2023-fan-and-flywheel-replacement
+- sole-rower-drive-belt-tension-procedure
 source:
   ref: sole-rower-sr550-2023-service-manual
   locator: Section 9.4, step 7c, page 24

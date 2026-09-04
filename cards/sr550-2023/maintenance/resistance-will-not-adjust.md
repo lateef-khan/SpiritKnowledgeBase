@@ -31,6 +31,7 @@ see_also:
 - sr550-2023-e2-gear-motor-failure
 - sr550-2023-pair-handlebar-controller
 - sr550-2023-gear-motor-replacement
+- sole-rower-resistance-changes-by-itself
 source:
   ref: sole-rower-sr550-2023-service-manual
   locator: Section 10.2, page 29-30

@@ -32,6 +32,7 @@ see_also:
 - sr500-2016-tension-motor-voltage-test
 - sr500-2016-tension-motor-connector-pinout
 - sr500-2016-no-adjustable-resistance
+- sole-rower-e2-part-to-replace
 source:
   ref: sole-rower-sr500-2016-service-manual
   locator: Section 7, error code list, and section 7.2

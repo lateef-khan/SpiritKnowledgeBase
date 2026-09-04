@@ -31,6 +31,7 @@ see_also:
 - sr500-2016-e2-motor-error
 - sr500-2016-rf-handheld-board-problem
 - sr500-2016-gear-motor-replacement
+- sole-rower-resistance-changes-by-itself
 source:
   ref: sole-rower-sr500-2016-service-manual
   locator: Section 8-11, No Adjustable Resistance

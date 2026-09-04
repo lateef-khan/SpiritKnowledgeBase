@@ -287,6 +287,55 @@
   origin_uri: file://SOLE SR550 2023 Service Manual (555922).pdf
   sha256: 226abe7937aa39553284f534838f5343022ce520f0a342c073be6fc3774b7dd0
   ingested_at: '2026-09-04'
+- id: sole-rw-e1-error-rower
+  title: E1 Error (Rower)
+  kind: markdown
+  origin_uri: file://E1 Error (Rower).docx
+  sha256: 3fbf66192dc4992245c057b7fd9cf079ee116fdbff4354ee1d93c59a204da705
+  ingested_at: '2026-09-04'
+- id: sole-rw-e2-error-rower
+  title: E2 Error (Rower)
+  kind: markdown
+  origin_uri: file://E2 Error (Rower).docx
+  sha256: 2dc5a111d9c45909edff588749865397802f593a4926f6c2550f4aec77095f64
+  ingested_at: '2026-09-04'
+- id: sole-rw-engineering-mode-on-rowers
+  title: Engineering Mode on Rowers
+  kind: markdown
+  origin_uri: file://Engineering Mode on Rowers.docx
+  sha256: b8ac40f8d3bd878ea5d1993a7982a7eb129c91b5088be9d1812c50ef9733969e
+  ingested_at: '2026-09-04'
+- id: sole-rw-how-level-signal-travels
+  title: How Level Signal Travels
+  kind: markdown
+  origin_uri: file://How Level Signal Travels.docx
+  sha256: 4bef5299ab9c207e12b622acfb753804cab6e9d60aaf98d1acce2eb27288130a
+  ingested_at: '2026-09-04'
+- id: sole-rw-no-resistance-or-too-much-resistance
+  title: No Resistance or Too Much Resistance on Ellipticals, Bikes or Rowers
+  kind: markdown
+  origin_uri: file://No Resistance or Too Much Resistance on Ellipticals, Bikes or
+    Rowers.docx
+  sha256: 10f4595f6abcc85e597f25628dc5df12b0b76a8ffbe742f2208193451a8afa67
+  ingested_at: '2026-09-04'
+- id: sole-rw-rower-drive-belt-tension
+  title: Rower Drive Belt Tension
+  kind: markdown
+  origin_uri: file://Rower Drive Belt Tension.docx
+  sha256: 1cadf6a958a68a4b52a5b11b13c6f0785f7454caccc44a8d57184501427439b5
+  ingested_at: '2026-09-04'
+- id: sole-rw-rower-resistance-changes-by-itself
+  title: Rower Resistance Changes by Itself
+  kind: markdown
+  origin_uri: file://Rower Resistance Changes by Itself.docx
+  sha256: 3f1588d6f90b440ac0218df69d365e1a7ba6e383693240dc7211e3986d83a0f4
+  ingested_at: '2026-09-04'
+- id: sole-rw-various-noises-on-rowers
+  title: Various Noises on Rowers
+  kind: markdown
+  origin_uri: file://Various Noises on Rowers.docx
+  sha256: 492b4c7c9a960eba1e078fed3ef2d771bf146056d637b1b37708cb11b74653fb
+  ingested_at: '2026-09-04'
 - id: sole-sole-plus-and-strava
   title: Sole+ and Strava
   kind: markdown
