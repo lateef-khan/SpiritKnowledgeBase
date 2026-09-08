@@ -58,4 +58,4 @@ source:
 - Operating temperature: **40 to 120 degrees Fahrenheit**.
 - Humidity: **95% non-condensing** (no water drops forming on surfaces).
 
-What the bike actually runs on is stated separately — see the power-up card for the 12V/3.3A DC supply and 115 VAC input.
+What the bike actually runs on is stated separately, and **the rating is not the same on every year** — see the power supply card for the figure that belongs to your machine.

@@ -26,14 +26,6 @@ facets:
   - b94-2013
   - b94-2016
   - b94-2019
-  - lcb-2011
-  - lcb-2013
-  - lcb-2016
-  - lcb-2019
-  - lcr-2011
-  - lcr-2013
-  - lcr-2016
-  - lcr-2019
   - r92-2011
   - r92-2013
   - r92-2016
@@ -47,11 +39,12 @@ see_also:
 - sole-b94-r92-2019-warranty-periods
 source:
   ref: sole-bike-b94-r92-2019-owners-manual
-  locator: page 32, Normal Responsibilities of the Consumer
+  locator: Normal Responsibilities of the Consumer, B94/R92 2011-2019 manuals (2019
+    page 32)
   extracted_at: '2026-09-08'
 ---
 
-This warranty applies only to products in ordinary household use. The consumer is responsible for:
+This warranty applies only to products in **ordinary household use**. The consumer is responsible for:
 
 1. Completing and returning the **warranty registration card** to the address on the card **within 10 days** of the original purchase, to validate the manufacturer's limited warranty.
 2. Proper use of the fitness bike in accordance with the instructions in the manual.
@@ -62,3 +55,5 @@ This warranty applies only to products in ordinary household use. The consumer i
 7. Routine maintenance of the unit as specified in the manual.
 
 The exclusions list is separate and states what the warranty does not cover at all.
+
+**The LCB and LCR print a different list.** Their 2013, 2016 and 2019 manuals give **five** items, not seven, and their scope sentence covers *ordinary household use or a non-dues paying, light commercial facility with 5 hours fitness bike use or less* — so does the LCB/LCR 2011 manual, even though its list has seven items. The 2023 B94/R92 manual lists eight. None of those machines is covered by this card.
