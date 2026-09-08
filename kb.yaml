@@ -27,7 +27,16 @@ facets:
     index: keyword
 
 models:
-  spirit: [ct900, ct900ent, ctsbs900]
+  spirit:
+    - ce800ent
+    - crw800h2o
+    - ct850-2016
+    - ct850-2020
+    - ct900
+    - ct900ent
+    - ctsbs900
+    - cu900ent
+    - cvc800
   sole:
     - b74-2015
     - b94-2011

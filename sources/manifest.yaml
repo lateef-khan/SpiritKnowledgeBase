@@ -1094,6 +1094,24 @@
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
   ingested_at: '2026-09-03'
+- id: spirit-bike-cu900ent-service-manual
+  title: Spirit CU900ENT upright bike service manual
+  kind: markdown
+  origin_uri: file://CU900ENT Service Manual.pdf
+  sha256: c52aa2dc7041c7e4a5a67ad1d9bc12154e6092d99f75d4169c49edf0fb8d62da
+  ingested_at: '2026-09-08'
+- id: spirit-climber-cvc800-service-manual
+  title: Spirit CVC800 vertical climber service manual
+  kind: markdown
+  origin_uri: file://CVC800 Service Manual.pdf
+  sha256: de707d0ad3440ebaed1f23337a000174b024b44e4ae3b4a3bade44eb6782e4cc
+  ingested_at: '2026-09-08'
+- id: spirit-elliptical-ce800ent-service-manual
+  title: Spirit CE800ENT 2020 elliptical service manual
+  kind: markdown
+  origin_uri: file://CE800ENT Service Manual.pdf
+  sha256: fe485a244293def94a02c66d7c1bb407cd578b7ab49472dd79541c2a3bc17104
+  ingested_at: '2026-09-08'
 - id: spirit-models-sole-bikes
   title: Sole bike model numbers from the Spirit database Models table
   kind: markdown
@@ -1130,3 +1148,27 @@
   origin_uri: sqlserver://spiritserver.database.windows.net/spiritwebdbTest/dbo.Models
   sha256: 7e142be8f6ebb8fdcdda9ebbd0992c765bace0d09abe5a009f860189f8fa52f4
   ingested_at: '2026-09-04'
+- id: spirit-models-spirit-commercial
+  title: Spirit commercial model numbers from the CustService MODEL table
+  kind: markdown
+  origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
+  sha256: c6482d0204653f2a17c6ac550b2e9754c7581b813b3f334c866852f93e09e2d1
+  ingested_at: '2026-09-08'
+- id: spirit-rower-crw800h2o-service-manual
+  title: Spirit CRW800H2O rower service manual
+  kind: markdown
+  origin_uri: file://CRW800H2O Service Manual.pdf
+  sha256: 309e931e93297b67969882afe47cf0372fdc41a582c8df0c04aae4510a388926
+  ingested_at: '2026-09-08'
+- id: spirit-treadmill-ct850-2016-service-manual
+  title: Spirit CT850 2016 treadmill service manual (ST8100-CT001, 110V)
+  kind: markdown
+  origin_uri: file://CT850 850845 Service Manual.pdf
+  sha256: a3bb22dcaec08dcfeb714b034fe3b29801a496d60cc5f7347e96f67cdd958706
+  ingested_at: '2026-09-08'
+- id: spirit-treadmill-ct850-2020-service-manual
+  title: Spirit CT850 2020 treadmill service manual
+  kind: markdown
+  origin_uri: file://CT850 Service Manual.pdf
+  sha256: ac4e9d1f6aa0f60ba5337f2808b5abe519c0b16c49117c8d20c3afbe185ae25d
+  ingested_at: '2026-09-08'
