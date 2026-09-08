@@ -4,6 +4,15 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: >-
+          Allow a sync that deletes more than 10% of the collection. Only for a
+          cleanup that intends it, such as merging duplicate cards. Check the
+          delete count with `kb sync --dry-run --force` first.
+        type: boolean
+        default: false
 
 jobs:
   lint:
@@ -28,3 +37,22 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - run: uv venv && uv pip install -e ".[dev]"
       - run: .venv/bin/kb sync
+
+  # Run by hand from the Actions tab when a merge intentionally retires a lot of
+  # cards. The push job above never forces, so the 10% guard still protects every
+  # automatic sync.
+  force-sync:
+    if: github.event_name == 'workflow_dispatch' && inputs.force
+    runs-on: ubuntu-latest
+    environment: qdrant-write
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      QDRANT_URL: ${{ secrets.QDRANT_URL }}
+      QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv && uv pip install -e ".[dev]"
+      - run: .venv/bin/kb lint
+      - run: .venv/bin/kb sync --dry-run --force
+      - run: .venv/bin/kb sync --force
