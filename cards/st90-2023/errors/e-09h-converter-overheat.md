@@ -26,8 +26,8 @@ facets:
   code: e-09h
 authority: 3
 not_to_be_confused_with:
-- st90-2023-e-02h-abnormal-temperature
-- st90-2023-e-29h-high-temperature-alert
+- st90-2021-e-02h-abnormal-temperature
+- st90-2021-e-29h-high-temperature-alert
 see_also:
 - sole-inverter-error-code-list
 - st90-2023-inverter-error-code-list

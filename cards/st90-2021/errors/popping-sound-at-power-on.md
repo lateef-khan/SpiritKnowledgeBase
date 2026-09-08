@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- st90-2021-only-reaches-7-mph
+- st90-2023-only-reaches-7-mph
 - st90-2021-inverter-replacement
 source:
   ref: sole-tm-st90-2021-service-manual

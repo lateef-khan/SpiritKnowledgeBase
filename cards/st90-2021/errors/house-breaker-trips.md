@@ -29,7 +29,7 @@ not_to_be_confused_with:
 - st90-2021-trips-onboard-15-amp-circuit
 see_also:
 - st90-2021-trips-onboard-15-amp-circuit
-- st90-2021-only-reaches-7-mph
+- st90-2023-only-reaches-7-mph
 source:
   ref: sole-tm-st90-2021-service-manual
   locator: Section 7-2 TROUBLESHOOTING, page 31
