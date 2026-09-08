@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-target-heart-rate-formula
 title: Working out your target heart rate zone
 kind: fact
-question: How do I calculate my target heart rate on a Sole B94-2019 or R92-2019?
+question: How do I calculate my target heart rate on a Sole bike?
 asked_as:
 - what heart rate should i train at on my sole bike
 - how do i work out my max heart rate
@@ -22,8 +22,18 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2016
+  - lcb-2019
+  - lcb-2023
+  - lcr-2016
+  - lcr-2019
+  - lcr-2023
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: programs
   code: '*'
 authority: 3

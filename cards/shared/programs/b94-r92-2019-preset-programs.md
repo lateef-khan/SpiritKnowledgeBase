@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-preset-programs
 title: The five preset workout programs
 kind: fact
-question: What preset programs does a Sole B94-2019 or R92-2019 have?
+question: What preset programs does a Sole bike or have?
 asked_as:
 - what programs are on my sole bike
 - which program should i use to lose weight
@@ -23,7 +23,11 @@ facets:
   model: '*'
   applies_to:
   - b94-2019
+  - b94-2023
+  - lcb-2019
+  - lcr-2019
   - r92-2019
+  - r92-2023
   section: programs
   code: '*'
 authority: 3

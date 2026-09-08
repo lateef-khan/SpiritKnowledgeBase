@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-pedal-strap-adjustment
 title: Adjusting the pedal straps
 kind: procedure
-question: How do I adjust the pedal straps on a Sole B94-2019 or R92-2019?
+question: How do I adjust the pedal straps on a Sole bike?
 asked_as:
 - how tight should my bike pedal straps be
 - sole bike foot strap adjustment
@@ -21,7 +21,11 @@ facets:
   model: '*'
   applies_to:
   - b94-2019
+  - b94-2023
+  - lcb-2019
+  - lcr-2019
   - r92-2019
+  - r92-2023
   section: assembly
   code: '*'
 authority: 3

@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-pedal-design
 title: Why the pedals tilt inward
 kind: fact
-question: Why are the pedals on a Sole B94-2019 or R92-2019 angled inward?
+question: Why are the pedals on a Sole bike or angled inward?
 asked_as:
 - why are my sole bike pedals tilted
 - what is q factor on an exercise bike
@@ -21,8 +21,26 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2011
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2011
+  - lcb-2013
+  - lcb-2016
+  - lcb-2019
+  - lcb-2023
+  - lcr-2011
+  - lcr-2013
+  - lcr-2016
+  - lcr-2019
+  - lcr-2023
+  - r92-2011
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: specs
   code: '*'
 authority: 3

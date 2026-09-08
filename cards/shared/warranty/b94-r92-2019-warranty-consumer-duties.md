@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-warranty-consumer-duties
 title: What the owner is responsible for
 kind: policy
-question: What do I have to do to keep the warranty valid on a Sole B94-2019 or R92-2019?
+question: What do I have to do to keep the warranty valid on a Sole bike?
 asked_as:
 - do i have to register my sole bike for warranty
 - what voids my exercise bike warranty
@@ -22,7 +22,21 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2011
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - lcb-2011
+  - lcb-2013
+  - lcb-2016
+  - lcb-2019
+  - lcr-2011
+  - lcr-2013
+  - lcr-2016
+  - lcr-2019
+  - r92-2011
+  - r92-2013
+  - r92-2016
   - r92-2019
   section: warranty
   code: '*'

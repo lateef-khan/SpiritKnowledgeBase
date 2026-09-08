@@ -2,8 +2,7 @@
 id: sole-b94-r92-2019-safety-instructions
 title: Safety rules for the fitness bike
 kind: policy
-question: What are the safety instructions for a Sole B94-2019 or R92-2019 fitness
-  bike?
+question: What are the safety instructions for a Sole or fitness bike?
 asked_as:
 - sole bike safety rules
 - is my sole bike safe for kids
@@ -24,7 +23,12 @@ facets:
   model: '*'
   applies_to:
   - b94-2019
+  - b94-2023
+  - lcb-2016
+  - lcb-2019
+  - lcr-2019
   - r92-2019
+  - r92-2023
   section: safety
   code: '*'
 authority: 3

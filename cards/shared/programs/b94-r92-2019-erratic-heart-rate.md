@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-erratic-heart-rate
 title: Wild or jumping heart rate readings
 kind: troubleshooting
-question: Why is the heart rate reading erratic on a Sole B94-2019 or R92-2019?
+question: Why is the heart rate reading erratic on a Sole bike?
 asked_as:
 - my sole bike heart rate jumps around
 - random numbers on my exercise bike pulse
@@ -22,8 +22,26 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b74-2015
+  - b94-2011
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2011
+  - lcb-2013
+  - lcb-2016
+  - lcb-2019
+  - lcr-2011
+  - lcr-2013
+  - lcr-2016
+  - lcr-2019
+  - r72-2015
+  - r92-2011
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: programs
   code: '*'
 authority: 3

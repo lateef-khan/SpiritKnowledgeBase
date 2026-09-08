@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-electrical-requirements
 title: Electrical and environment limits
 kind: spec
-question: What power and room conditions does a Sole B94-2019 or R92-2019 need?
+question: What power and room conditions does a Sole bike or need?
 asked_as:
 - what voltage does my sole bike need
 - can i keep my exercise bike in the garage
@@ -22,8 +22,22 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b74-2015
+  - b94-2011
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2011
+  - lcb-2023
+  - lcr-2011
+  - lcr-2023
+  - r72-2015
+  - r92-2011
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: specs
   code: '*'
 authority: 3

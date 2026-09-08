@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-preset-program-setup
 title: Setting up any preset program
 kind: procedure
-question: How do I set up a preset program on a Sole B94-2019 or R92-2019?
+question: How do I set up a preset program on a Sole bike?
 asked_as:
 - how do i set the max level on my sole bike program
 - setting up hill program on exercise bike
@@ -22,8 +22,16 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b74-2015
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - r72-2015
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: programs
   code: '*'
 authority: 3

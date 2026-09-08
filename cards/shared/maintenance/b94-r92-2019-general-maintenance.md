@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-general-maintenance
 title: Squeaks, thumps and levelling
 kind: troubleshooting
-question: My Sole B94-2019 or R92-2019 squeaks or thumps. What do I check?
+question: My Sole bike or squeaks or thumps. What do I check?
 asked_as:
 - my sole bike is making a clicking noise
 - exercise bike squeaks when i pedal
@@ -22,8 +22,12 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: maintenance
   code: '*'
 authority: 3

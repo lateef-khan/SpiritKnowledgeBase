@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-rpe-scale
 title: The Rate of Perceived Exertion scale
 kind: fact
-question: What is the RPE or Borg scale in the Sole B94-2019 and R92-2019 manual?
+question: What is the RPE or Borg scale in the Sole bike and manual?
 asked_as:
 - what is rpe on my exercise bike
 - borg scale chart sole
@@ -21,7 +21,17 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2011
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - lcb-2011
+  - lcb-2013
+  - lcr-2011
+  - lcr-2013
+  - r92-2011
+  - r92-2013
+  - r92-2016
   - r92-2019
   section: programs
   code: '*'

@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-warranty-periods
 title: Fitness bike warranty periods
 kind: policy
-question: What is the warranty on a Sole B94-2019 or R92-2019?
+question: What is the warranty on a Sole bike?
 asked_as:
 - how long is my sole bike warranty
 - is the frame on my exercise bike covered for life
@@ -22,8 +22,16 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2023
+  - lcr-2023
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: warranty
   code: '*'
 authority: 3

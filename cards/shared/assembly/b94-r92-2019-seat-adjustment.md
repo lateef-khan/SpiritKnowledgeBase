@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-seat-adjustment
 title: Adjusting the seat position
 kind: procedure
-question: How do I adjust the seat on a Sole B94-2019 or R92-2019?
+question: How do I adjust the seat on a Sole bike?
 asked_as:
 - how do i move the seat on my sole bike
 - sole bike seat too far forward
@@ -22,8 +22,19 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2013
+  - b94-2016
   - b94-2019
+  - b94-2023
+  - lcb-2019
+  - lcb-2023
+  - lcr-2016
+  - lcr-2019
+  - lcr-2023
+  - r92-2013
+  - r92-2016
   - r92-2019
+  - r92-2023
   section: assembly
   code: '*'
 authority: 3

@@ -2,7 +2,7 @@
 id: sole-b94-r92-2019-operation-cautions
 title: Operating cautions before you use the console
 kind: policy
-question: What should I avoid doing when operating a Sole B94-2019 or R92-2019?
+question: What should I avoid doing when operating a Sole bike?
 asked_as:
 - can i use my exercise bike in a thunderstorm
 - sole bike buttons need hard press
@@ -22,7 +22,9 @@ facets:
   model: '*'
   applies_to:
   - b94-2019
+  - b94-2023
   - r92-2019
+  - r92-2023
   section: safety
   code: '*'
 authority: 3
