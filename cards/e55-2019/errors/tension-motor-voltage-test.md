@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2019-e2-tension-motor-failure
-- e55-2019-fuse-replacement
-- e55-2019-tension-motor-spec
+- e25-2019-e2-tension-motor-failure
+- e25-2016-fuse-replacement
+- e25-2016-tension-motor-spec
 source:
   ref: sole-elliptical-e55-2019-service-manual
   locator: Section 8-2, pages 37-38

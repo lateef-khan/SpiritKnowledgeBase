@@ -27,7 +27,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sb900-2023-idler-wheel-replacement
+- sb1200-2023-idler-wheel-replacement
 - sb1200-2023-belt-tension
 - sb900-2020-belt-tension
 source:

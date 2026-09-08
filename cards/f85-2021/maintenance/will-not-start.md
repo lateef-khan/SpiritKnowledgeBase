@@ -27,11 +27,11 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2021-stops-immediately-after-start
+- f85-2016-stops-immediately-after-start
 see_also:
-- f85-2021-stops-immediately-after-start
+- f85-2016-stops-immediately-after-start
 - f85-2021-e1-no-rpm-signal
-- f85-2021-e4-motor-power-wire-error
+- f85-2016-e4-motor-power-wire-error
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: section 8.11 troubleshooting matrix, printed page 75, and section 10.2

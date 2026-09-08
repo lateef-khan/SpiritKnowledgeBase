@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2021-electrical-requirements
-- f85-2021-grounding
+- f85-2016-electrical-requirements
+- f85-2016-grounding
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: Special Note on ST538 CE version, printed page 4

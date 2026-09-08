@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sc200-2019-console-replacement
+- e25-2019-console-replacement
 - sc200-2019-flywheel-and-belt-replacement
 source:
   ref: sole-elliptical-sc200-2019-service-manual

@@ -31,7 +31,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f65-2026-aerosol-and-oxygen-environments
+- e20-2026-aerosol-and-oxygen-hazard
 - f65-2026-placement-and-clearance
 - f65-2026-warranty-void-outside-climate-control
 source:

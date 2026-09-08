@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2019-noises
+- e35-2016-noises
 - e98-2019-rough-feel
 - e98-2019-slip-problem
 source:

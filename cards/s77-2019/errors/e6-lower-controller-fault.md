@@ -26,7 +26,7 @@ facets:
   code: e6
 authority: 3
 not_to_be_confused_with:
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 - s77-2019-e1-no-rpm-signal
 - s77-2019-e2-over-current
 - s77-2019-e3-incline-vr

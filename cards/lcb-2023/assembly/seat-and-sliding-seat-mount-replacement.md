@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- lcb-2023-inner-slide-tube-replacement
+- b94-2023-inner-slide-tube-replacement
 source:
   ref: sole-bike-lcb-2023-service-manual
   locator: Section 9.4 Replacing the Seat and Sliding Seat Mount, pages 24-25

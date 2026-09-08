@@ -27,9 +27,9 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2019-stops-immediately-after-start
+- f85-2016-stops-immediately-after-start
 see_also:
-- f85-2019-stops-immediately-after-start
+- f85-2016-stops-immediately-after-start
 - f85-2019-e1-no-rpm-signal
 - f85-2019-e4-motor-power-wire-error
 source:

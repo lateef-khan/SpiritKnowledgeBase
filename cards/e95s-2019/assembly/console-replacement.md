@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e95s-2019-no-display
-- e95s-2019-hand-pulse-not-working
+- e25-2016-hand-pulse-not-working
 - e95s-2019-swing-arm-and-handle-bar-replacement
 source:
   ref: sole-elliptical-e95s-2019-service-manual

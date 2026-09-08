@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - e98-2016-drive-belt-tension
 - e98-2016-flywheel-replacement
-- e98-2016-cross-bar-replacement
+- e35-2016-cross-bar-replacement
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Section 11-8, headed Flywheel & Poly-V Belt Replacement, page 86

@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f63-2019-console-display-modes
+- f63-2016-console-display-modes
 source:
   ref: sole-tm-f63-2019-service-manual
   locator: pages 16 to 17, Operation, Function

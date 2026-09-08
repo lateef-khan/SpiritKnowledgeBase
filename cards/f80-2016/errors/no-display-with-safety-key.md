@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-e0-safety-key-error
+- f65-2016-e0-safety-key-error
 - f80-2016-display-does-not-light
 - f80-2016-console-replacement
 source:

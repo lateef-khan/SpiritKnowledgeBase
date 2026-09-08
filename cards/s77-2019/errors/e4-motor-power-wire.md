@@ -26,13 +26,13 @@ facets:
   code: e4
 authority: 3
 not_to_be_confused_with:
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 - s77-2019-e1-no-rpm-signal
 - s77-2019-e2-over-current
 - s77-2019-e3-incline-vr
 see_also:
 - s77-2019-drive-motor-spec
-- s77-2019-motor-replacement
+- s77-2016-motor-replacement
 - sole-e4-error
 source:
   ref: sole-tm-s77-2019-service-manual

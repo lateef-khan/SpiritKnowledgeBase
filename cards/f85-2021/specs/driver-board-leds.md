@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f85-2021-e2-over-current
-- f85-2021-speed-sensor-check
+- f85-2016-speed-sensor-check
 - f85-2021-lower-controller-replacement
 source:
   ref: sole-tm-f85-ent-2021-service-manual

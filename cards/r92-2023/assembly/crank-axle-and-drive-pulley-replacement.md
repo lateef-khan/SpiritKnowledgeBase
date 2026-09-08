@@ -27,7 +27,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - r92-2023-flywheel-replacement
-- r92-2023-crank-arm-and-pedal-replacement
+- lcr-2023-crank-arm-and-pedal-replacement
 source:
   ref: sole-bike-r92-2023-service-manual
   locator: Section 9.6 Replacing the Crank Axle and Drive Pulley, page 28

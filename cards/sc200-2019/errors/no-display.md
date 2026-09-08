@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - sc200-2019-tension-motor-voltage-test
 - sc200-2019-lcd-dim-or-incomplete
-- sc200-2019-console-replacement
+- e25-2019-console-replacement
 source:
   ref: sole-elliptical-sc200-2019-service-manual
   locator: Section 10-1 Console Problem, page 63

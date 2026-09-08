@@ -27,7 +27,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f63-2023-house-breaker-trips
+- f60-2016-house-breaker-trips
 - f63-2023-grounding-requirements
 source:
   ref: sole-tm-f63-2023-service-manual

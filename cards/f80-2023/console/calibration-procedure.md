@@ -30,8 +30,8 @@ not_to_be_confused_with: []
 see_also:
 - f80-2023-engineering-mode
 - f80-2023-console-data-ranges
-- f80-2023-e1-no-rpm-signal
-- f80-2023-e3-incline-vr-voltage
+- f65-2023-e1-no-rpm-signal
+- f65-2023-e3-incline-vr-voltage
 - sole-calibration-touchscreen
 source:
   ref: sole-tm-f80-2023-service-manual

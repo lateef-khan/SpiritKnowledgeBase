@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2019-e6-lower-controller-fault
-- f80-2019-calibration-procedure
+- f65-2019-e6-lower-controller-fault
+- f65-2016-calibration-procedure
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 12-1, Lower Controller Replacement

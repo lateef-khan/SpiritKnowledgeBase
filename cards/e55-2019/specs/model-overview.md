@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2019-tension-motor-spec
+- e25-2016-tension-motor-spec
 - e55-2019-incline-motor-spec
 source:
   ref: sole-elliptical-e55-2019-service-manual

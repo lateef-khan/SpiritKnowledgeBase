@@ -30,7 +30,7 @@ not_to_be_confused_with:
 - f85-2021-incline-motor
 see_also:
 - f85-2021-incline-motor
-- f85-2021-incline-motor-and-position-sensor-test
+- f85-2016-incline-motor-and-position-sensor-test
 - f85-2021-e3-incline-vr-error
 source:
   ref: sole-tm-f85-ent-2021-service-manual

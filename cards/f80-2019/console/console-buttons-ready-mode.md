@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2019-console-buttons-run-mode
-- f80-2019-console-modes
+- f65-2016-console-modes
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 4, Function Button in the Main Mode - READY MODE

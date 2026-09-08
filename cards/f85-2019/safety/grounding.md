@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2019-electrical-requirements
+- f85-2016-electrical-requirements
 source:
   ref: sole-tm-f85-2019-service-manual
   locator: section 7.3 Important Grounding Instructions, printed page 51, and section

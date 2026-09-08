@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2019-flywheel-no-resistance
-- e98-2019-noises
+- e35-2016-noises
 - e98-2019-flywheel-replacement
 source:
   ref: sole-elliptical-e98-2019-service-manual

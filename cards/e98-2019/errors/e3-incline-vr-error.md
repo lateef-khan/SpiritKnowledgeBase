@@ -31,8 +31,8 @@ not_to_be_confused_with:
 - e98-2019-e2-tension-motor-failure
 see_also:
 - e98-2019-incline-motor-test-procedure
-- e98-2019-incline-calibration
-- e98-2019-incline-position-mismatch
+- e35-2019-incline-calibration
+- e25-2016-incline-position-mismatch
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Section 8.2, pages 43-45

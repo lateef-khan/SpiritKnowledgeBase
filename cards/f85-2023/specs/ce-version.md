@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2023-electrical-power-requirements
+- f65-2023-electrical-power-requirements
 - f85-2023-model-overview
 source:
   ref: sole-tm-f85-2023-service-manual

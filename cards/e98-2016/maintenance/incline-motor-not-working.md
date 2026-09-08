@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2016-incline-motor-test-procedure
-- e98-2016-incline-motor-replacement
+- e25-2016-incline-motor-test-procedure
+- e35-2016-incline-motor-replacement
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Section 9-7 Controller & Incline Motor Problem, pages 63-64

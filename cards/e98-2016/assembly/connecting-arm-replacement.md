@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2016-swing-arm-replacement
-- e98-2016-pedal-arm-replacement
+- e35-2016-swing-arm-replacement
+- e35-2016-pedal-arm-replacement
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Section 11-3 Connecting Arm Replacement, pages 75-76

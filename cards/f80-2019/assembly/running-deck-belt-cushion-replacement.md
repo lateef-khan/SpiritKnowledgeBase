@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2019-roller-replacement
-- f80-2019-drive-belt-tension
-- f80-2019-folding-and-unfolding
+- f80-2016-roller-replacement
+- f65-2016-drive-belt-tension
+- f80-2016-folding-and-unfolding
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 12-7, Running Deck/Belt & Cushion Replacement

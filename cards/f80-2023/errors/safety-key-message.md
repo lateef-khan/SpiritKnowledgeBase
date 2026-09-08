@@ -26,7 +26,7 @@ facets:
   code: safety-key
 authority: 3
 not_to_be_confused_with:
-- f80-2023-e1-no-rpm-signal
+- f65-2023-e1-no-rpm-signal
 see_also:
 - f80-2023-error-code-list
 - sole-safety-key-not-detected

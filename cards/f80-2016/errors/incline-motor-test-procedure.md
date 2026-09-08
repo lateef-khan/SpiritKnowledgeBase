@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-e3-incline-error
+- f65-2019-e3-incline-error
 - f80-2016-incline-position-sensor-wiring
 - f80-2016-incline-motor-spec
 source:

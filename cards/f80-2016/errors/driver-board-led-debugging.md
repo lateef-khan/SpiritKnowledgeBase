@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-e2-over-current
+- f65-2016-e2-over-current
 - f80-2016-lower-controller-replacement
 - f80-2016-speed-sensor-check
 source:

@@ -27,9 +27,9 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2019-erratic-pulse-display
+- f85-2016-erratic-pulse-display
 see_also:
-- f85-2019-erratic-pulse-display
+- f85-2016-erratic-pulse-display
 - f85-2019-console-data-ranges
 - f85-2019-display-board-connections
 source:

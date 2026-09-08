@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95-2016-fuse-replacement
+- e35-2016-fuse-replacement
 source:
   ref: sole-elliptical-e95-2016-service-manual
   locator: Controller Indicator LED debugging, page 34

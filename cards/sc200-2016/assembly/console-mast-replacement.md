@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sc200-2016-console-replacement
-- sc200-2016-hand-pulse-not-working
+- e25-2016-hand-pulse-not-working
 source:
   ref: sole-elliptical-sc200-2016-service-manual
   locator: Section 9-6 Console Mast, page 59

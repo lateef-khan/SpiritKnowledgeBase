@@ -27,11 +27,11 @@ facets:
   code: e2
 authority: 3
 not_to_be_confused_with:
-- e95-2016-e1-eeprom-failure
+- e35-2016-e1-eeprom-failure
 - e95-2016-e3-ramp-error
 see_also:
 - e95-2016-tension-motor-voltage-test
-- e95-2016-tension-motor-spec
+- e25-2016-tension-motor-spec
 - e95-2016-tension-motor-connector-pinout
 source:
   ref: sole-elliptical-e95-2016-service-manual

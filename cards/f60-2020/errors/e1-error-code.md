@@ -35,7 +35,7 @@ not_to_be_confused_with:
 - f60-2020-e6-error-code
 see_also:
 - f60-2020-error-code-list
-- f60-2020-speed-sensor-check
+- f60-2016-speed-sensor-check
 source:
   ref: sole-tm-f60-2020-service-manual
   locator: pages 36 to 41, 8.2 Error Message E1, and page 56 of the matrix

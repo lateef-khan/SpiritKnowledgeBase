@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sr550-2023-slide-not-smooth
+- sr500-2016-slide-not-smooth
 - sr550-2023-folding-end-replacement
-- sr550-2023-pedal-replacement
+- sr500-2016-pedal-replacement
 source:
   ref: sole-rower-sr550-2023-service-manual
   locator: Section 9.8, page 26

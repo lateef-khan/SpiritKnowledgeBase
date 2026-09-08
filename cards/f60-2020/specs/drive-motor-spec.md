@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f60-2020-e4-error-code
-- f60-2020-drive-motor-replacement
+- f60-2016-drive-motor-replacement
 source:
   ref: sole-tm-f60-2020-service-manual
   locator: pages 9 to 10, GENERAL INFORMATION

@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sc200-2019-maintenance-menu
+- e25-2016-maintenance-menu
 - sc200-2019-console-buttons
 - sc200-2019-console-data-ranges
 source:

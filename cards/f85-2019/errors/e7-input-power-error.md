@@ -35,7 +35,7 @@ not_to_be_confused_with:
 - f85-2019-e5-communication-error
 - f85-2019-e6-lower-controller-error
 see_also:
-- f85-2019-electrical-requirements
+- f85-2016-electrical-requirements
 - sole-e7-error
 source:
   ref: sole-tm-f85-2019-service-manual

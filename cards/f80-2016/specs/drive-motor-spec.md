@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-e4-motor-power-wire-error
+- f65-2016-e4-motor-power-wire-error
 - f80-2016-motor-replacement
 source:
   ref: sole-tm-f80-2016-service-manual

@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 - s77-2019-calibration-procedure
 - s77-2019-lubrication-interval
 - sole-engineering-menu-non-touchscreen

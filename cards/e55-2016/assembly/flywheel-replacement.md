@@ -29,8 +29,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e55-2016-idler-wheel-replacement
-- e55-2016-flywheel-noise
-- e55-2016-drive-belt-tension
+- e35-2016-flywheel-noise
+- e25-2016-drive-belt-tension
 source:
   ref: sole-elliptical-e55-2016-service-manual
   locator: Section 11-8 Flywheel Replacement, pages 86-87

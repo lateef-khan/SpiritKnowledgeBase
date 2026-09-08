@@ -30,7 +30,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e35-2019-maintenance-menu
+- e25-2016-maintenance-menu
 - e35-2019-console-buttons
 source:
   ref: sole-elliptical-e35-2019-service-manual

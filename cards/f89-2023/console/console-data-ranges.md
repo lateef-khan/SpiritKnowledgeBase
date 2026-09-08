@@ -30,8 +30,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f89-2023-console-buttons-ready-mode
-- f89-2023-console-modes
+- f85-2023-console-buttons-ready-mode
+- f80-2023-console-modes
 source:
   ref: sole-tm-f89-2023-service-manual
   locator: Section 4.2 Display Function, pages 8-9

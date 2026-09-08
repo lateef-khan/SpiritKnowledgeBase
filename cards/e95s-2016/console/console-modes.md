@@ -30,7 +30,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2016-maintenance-menu
+- e95-2016-maintenance-menu
 - e95s-2016-console-buttons
 source:
   ref: sole-elliptical-e95s-2016-service-manual

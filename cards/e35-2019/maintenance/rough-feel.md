@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e35-2019-shaking-problem
-- e35-2019-noises
+- e25-2016-shaking-problem
+- e25-2019-noises
 - e35-2019-connecting-arm-lubrication
 source:
   ref: sole-elliptical-e35-2019-service-manual

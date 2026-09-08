@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - st90-2023-hand-pulse-no-reading
-- st90-2023-chest-belt-no-pulse
+- st90-2021-chest-belt-no-pulse
 - st90-2023-erratic-pulse-display
 source:
   ref: sole-tm-st90-2023-service-manual

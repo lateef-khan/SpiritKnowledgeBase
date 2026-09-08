@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - lcb-2023-belt-tension
-- lcb-2023-chain-cover-replacement
+- b94-2023-chain-cover-replacement
 - lcb-2023-belt-slips-or-falls-off
 source:
   ref: sole-bike-lcb-2023-service-manual

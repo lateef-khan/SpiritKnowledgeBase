@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f63-2023-calibration-procedure
+- f63-2016-calibration-procedure
 - f63-2023-e3-error-code
 source:
   ref: sole-tm-f63-2023-service-manual

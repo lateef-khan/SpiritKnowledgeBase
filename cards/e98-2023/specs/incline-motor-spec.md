@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2023-incline-motor-replacement
-- e98-2023-electrical-power-requirements
+- e95-2023-incline-motor-replacement
+- e35-2023-electrical-power-requirements
 - e98-2023-incline-motor-not-working
 source:
   ref: sole-elliptical-e98-2023-service-manual

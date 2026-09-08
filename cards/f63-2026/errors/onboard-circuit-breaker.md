@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - f63-2026-no-display-with-safety-key
 - f63-2026-deck-lubrication
-- f63-2026-house-breaker-trips
+- f60-2016-house-breaker-trips
 source:
   ref: sole-tm-f63-2026-owners-manual
   locator: page 28, Service Checklist - Diagnosis Guide

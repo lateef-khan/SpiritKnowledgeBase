@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e35-2019-e2-tension-motor-failure
-- e35-2019-tension-motor-voltage-test
+- e25-2019-e2-tension-motor-failure
+- e25-2019-tension-motor-voltage-test
 source:
   ref: sole-elliptical-e35-2019-service-manual
   locator: Section 9.8 Gear Motor Problem, page 67

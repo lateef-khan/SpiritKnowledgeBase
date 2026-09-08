@@ -27,8 +27,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- s77-2019-power-outlet-requirements
-- s77-2019-e7-input-power
+- s77-2016-power-outlet-requirements
+- s77-2016-e7-input-power
 - s77-2019-calibration-procedure
 source:
   ref: sole-tm-s77-2019-service-manual

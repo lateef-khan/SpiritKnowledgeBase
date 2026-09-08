@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- lcb-2016-crank-arm-and-pedal-replacement
+- b94-2016-crank-arm-and-pedal-replacement
 - lcb-2016-drive-belt-replacement
 source:
   ref: sole-bike-lcb-2016-service-manual

@@ -36,7 +36,7 @@ not_to_be_confused_with:
 - f85-2019-e7-input-power-error
 see_also:
 - f85-2019-drive-motor
-- f85-2019-drive-motor-replacement
+- f85-2016-drive-motor-replacement
 - sole-e4-error
 source:
   ref: sole-tm-f85-2019-service-manual

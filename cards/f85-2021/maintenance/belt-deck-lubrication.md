@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2021-belt-and-deck-cleaning
+- f85-2016-belt-and-deck-cleaning
 - f85-2021-lube-reminder-setup
 - f85-2021-e2-over-current
 - sole-lubricate-running-belt

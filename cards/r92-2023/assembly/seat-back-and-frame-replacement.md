@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- r92-2023-seat-handlebar-and-hand-pulse-replacement
+- lcr-2023-seat-handlebar-and-hand-pulse-replacement
 source:
   ref: sole-bike-r92-2023-service-manual
   locator: Section 9.8 Replacing the Seat Back and Seat Back Frame, page 31

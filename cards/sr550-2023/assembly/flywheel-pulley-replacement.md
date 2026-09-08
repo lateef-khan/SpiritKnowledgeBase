@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sr550-2023-drive-belt-tension
-- sr550-2023-ribbon-roll-will-not-retract
+- sr500-2016-drive-belt-tension
+- sr500-2016-ribbon-roll-will-not-retract
 - sr550-2023-fan-and-flywheel-replacement
 source:
   ref: sole-rower-sr550-2023-service-manual

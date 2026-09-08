@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sb900-2023-idler-wheel-replacement
+- sb1200-2023-idler-wheel-replacement
 - sb900-2023-bluetooth-knob-and-brake-replacement
 source:
   ref: sole-bike-sb900-2023-service-manual

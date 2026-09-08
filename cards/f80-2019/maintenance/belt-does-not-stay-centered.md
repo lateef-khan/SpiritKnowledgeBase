@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2019-belt-tracking-adjustment
-- f80-2019-belt-tension-adjustment
+- f65-2016-belt-tracking-adjustment
+- f65-2016-belt-tension-adjustment
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 10.2, Service Troubleshooting Checklist

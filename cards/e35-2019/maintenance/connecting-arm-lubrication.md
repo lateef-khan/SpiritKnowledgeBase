@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e35-2019-rough-feel
-- e35-2019-noises
+- e25-2019-noises
 - e35-2019-connecting-arm-replacement
 source:
   ref: sole-elliptical-e35-2019-service-manual

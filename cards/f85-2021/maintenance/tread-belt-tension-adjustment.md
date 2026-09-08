@@ -27,11 +27,11 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2021-tread-belt-tracking-adjustment
-- f85-2021-drive-belt-tension
+- f85-2016-tread-belt-tracking-adjustment
+- f85-2016-drive-belt-tension
 see_also:
-- f85-2021-tread-belt-tracking-adjustment
-- f85-2021-drive-belt-tension
+- f85-2016-tread-belt-tracking-adjustment
+- f85-2016-drive-belt-tension
 - f85-2021-belt-deck-lubrication
 source:
   ref: sole-tm-f85-ent-2021-service-manual

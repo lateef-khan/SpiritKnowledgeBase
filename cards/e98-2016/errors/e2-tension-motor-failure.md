@@ -27,7 +27,7 @@ facets:
   code: e2
 authority: 3
 not_to_be_confused_with:
-- e98-2016-e1-eeprom-failure
+- e35-2016-e1-eeprom-failure
 - e98-2016-e3-incline-vr-error
 see_also:
 - e98-2016-ems-brake-spec

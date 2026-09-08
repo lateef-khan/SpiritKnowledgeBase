@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e55-2019-console-modes
-- e55-2019-console-data-ranges
+- e25-2019-console-data-ranges
 source:
   ref: sole-elliptical-e55-2019-service-manual
   locator: Function Button In Main Mode, pages 21-22

@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - s77-2019-e5-communication
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 - s77-2019-console-replacement
 source:
   ref: sole-tm-s77-2019-service-manual

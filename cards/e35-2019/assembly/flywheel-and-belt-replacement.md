@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - e35-2019-idler-wheel-replacement
 - e35-2019-drive-belt-tension
-- e35-2019-flywheel-noise
+- e25-2019-flywheel-noise
 source:
   ref: sole-elliptical-e35-2019-service-manual
   locator: Section 11.9, pages 91-92

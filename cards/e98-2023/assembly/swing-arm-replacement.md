@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2023-connecting-arm-replacement
-- e98-2023-swing-arm-problems
+- e95-2023-swing-arm-problems
 source:
   ref: sole-elliptical-e98-2023-service-manual
   locator: Section 9.2, page 25

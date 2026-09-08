@@ -31,7 +31,6 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - sr500-2016-drive-belt-tension
-- sr550-2023-drive-belt-tension
 source:
   ref: sole-rw-rower-drive-belt-tension
   locator: whole document, including the picture note added at ingest

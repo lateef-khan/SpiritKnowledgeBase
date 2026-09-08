@@ -29,9 +29,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f65-2019-drive-motor-spec
-- f65-2019-incline-motor-spec
-- f65-2019-console-data-ranges
+- f65-2016-drive-motor-spec
+- f65-2016-incline-motor-spec
+- f65-2016-console-data-ranges
 source:
   ref: sole-tm-f65-2019-service-manual
   locator: Cover page, table of contents and section 1

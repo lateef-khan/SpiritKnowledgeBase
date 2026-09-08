@@ -31,9 +31,9 @@ not_to_be_confused_with:
 - f85-2021-e1-no-rpm-signal
 - f85-2021-e2-over-current
 - f85-2021-e3-incline-vr-error
-- f85-2021-e4-motor-power-wire-error
+- f85-2016-e4-motor-power-wire-error
 - f85-2021-e5-communication-error
-- f85-2021-e7-input-power-error
+- f85-2016-e7-input-power-error
 see_also:
 - f85-2021-e5-communication-error
 - f85-2021-lower-controller-replacement

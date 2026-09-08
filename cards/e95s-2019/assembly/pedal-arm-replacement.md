@@ -31,7 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - e95s-2019-slip-problem
 - e95s-2019-connecting-arm-replacement
-- e95s-2019-slider-adjustment-replacement
+- e95s-2016-slider-adjustment-replacement
 source:
   ref: sole-elliptical-e95s-2019-service-manual
   locator: Section 11-6, pages 87-92

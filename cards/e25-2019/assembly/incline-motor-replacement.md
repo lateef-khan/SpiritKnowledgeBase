@@ -31,7 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - e25-2019-incline-motor-spec
 - e25-2019-incline-motor-not-working
-- e25-2019-incline-calibration
+- e25-2016-incline-calibration
 source:
   ref: sole-elliptical-e25-2019-service-manual
   locator: Section 11.11, pages 90-93

@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2023-engineer-mode
+- e35-2023-engineer-mode
 - e95s-2023-incline-motor-controller-and-gear-motor-replacement
 source:
   ref: sole-elliptical-e95s-2023-service-manual

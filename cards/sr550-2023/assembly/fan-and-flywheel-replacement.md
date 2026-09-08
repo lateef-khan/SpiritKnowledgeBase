@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sr550-2023-flywheel-pulley-replacement
-- sr550-2023-gear-motor-replacement
+- sr500-2016-gear-motor-replacement
 - sr550-2023-noises
 source:
   ref: sole-rower-sr550-2023-service-manual

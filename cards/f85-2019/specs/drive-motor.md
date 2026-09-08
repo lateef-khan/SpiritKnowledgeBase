@@ -32,7 +32,7 @@ not_to_be_confused_with:
 see_also:
 - f85-2019-incline-motor
 - f85-2019-e4-motor-power-wire-error
-- f85-2019-drive-motor-replacement
+- f85-2016-drive-motor-replacement
 source:
   ref: sole-tm-f85-2019-service-manual
   locator: section 3 Electrical Configurations and General Information, printed pages

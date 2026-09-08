@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - e98-2019-drive-belt-tension
 - e98-2019-belt-and-idler-wheel-replacement
-- e98-2019-poly-v-belt-falls-off
+- e55-2019-poly-v-belt-falls-off
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Section 9-4 step 3, page 56

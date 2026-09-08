@@ -27,13 +27,13 @@ facets:
   code: e3
 authority: 3
 not_to_be_confused_with:
-- e95-2016-e1-eeprom-failure
+- e35-2016-e1-eeprom-failure
 - e95-2016-e2-tension-motor-failure
 see_also:
-- e95-2016-incline-motor-test-procedure
-- e95-2016-incline-calibration
+- e25-2016-incline-motor-test-procedure
+- e25-2016-incline-calibration
 - e95-2016-console-to-driver-board-pinout
-- e95-2016-incline-position-mismatch
+- e25-2016-incline-position-mismatch
 source:
   ref: sole-elliptical-e95-2016-service-manual
   locator: Section 8-3 and its repeat, pages 45-47 and 51-53
