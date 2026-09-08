@@ -1,0 +1,48 @@
+---
+id: ct850-2020-quick-start
+title: Quick start - starting, changing speed and stopping
+kind: procedure
+question: How do I start a workout on a Spirit CT850-2020 treadmill?
+asked_as:
+- how do i start the treadmill
+- how do i change the speed
+- how do i stop the belt
+keywords:
+- quick start
+- start button
+- stop button
+- speed up
+- speed down
+- direct access speed buttons
+- 0.5 mph
+- hand rail keys
+facets:
+  brand:
+  - spirit
+  product_line: treadmill
+  model: ct850-2020
+  applies_to:
+  - ct850-2020
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- ct850-2020-pause-stop-reset
+- ct850-2020-incline-adjustment
+- ct850-2020-console-layout
+source:
+  ref: spirit-treadmill-ct850-2020-service-manual
+  locator: Section 4-1-4 QUICK START, p. 14 (printed 13)
+  extracted_at: '2026-09-08'
+---
+
+- Press and release any button to wake the display up if it is not already on.
+- Press and release the **Start** button to begin belt movement at **0.5 mph**, then adjust to the
+  desired speed with the Up/Down Speed buttons. You may also use the **Direct Access Speed Buttons 1
+  through 12** to set a specific speed directly.
+- To slow the belt, press and hold the Speed Down button - on the console or on the hand rail - to
+  the desired speed. The Direct Access Speed Buttons work here too.
+- To stop the belt, press and release the red **Stop** button.
+
+What Stop does on the second and third press is a separate behaviour.
