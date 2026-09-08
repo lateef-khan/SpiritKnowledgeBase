@@ -22,11 +22,14 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2016
   - b94-2019
   - b94-2023
   - lcb-2016
   - lcb-2019
+  - lcr-2016
   - lcr-2019
+  - r92-2016
   - r92-2019
   - r92-2023
   section: safety
@@ -55,3 +58,5 @@ source:
 - This appliance is not intended for use by persons with reduced physical, sensory or mental capabilities, or lack of experience and knowledge, unless they have been given supervision or instruction concerning use of the appliance by a person responsible for their safety.
 
 The manual also states this bike is intended for **residential use only**. Any other application voids the warranty in its entirety.
+
+**The older manuals print a shorter list.** The B74, R72 and the 2011 and 2013 B94, R92, LCB and LCR say only *keep children away from the fitness bike*, with no age limit, and do not carry the reduced-capability clause. Those machines are not covered here.

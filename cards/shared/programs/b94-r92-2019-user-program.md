@@ -22,13 +22,9 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
-  - b74-2015
-  - b94-2013
   - b94-2016
   - b94-2019
   - b94-2023
-  - r72-2015
-  - r92-2013
   - r92-2016
   - r92-2019
   - r92-2023
@@ -39,7 +35,8 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: sole-bike-b94-r92-2019-owners-manual
-  locator: page 26, Custom User Defined Programs
+  locator: Custom User Defined Programs, B94/R92 2016, 2019 and 2023 manuals (2019
+    page 26)
   extracted_at: '2026-09-08'
 ---
 
@@ -51,6 +48,8 @@ The User programs let you build and save your own workout.
 4. Enter your **Weight**, then Enter.
 5. Enter the **Time**, then Enter.
 6. The first column blinks. Set the level for that segment and press Enter. Each next segment starts at the level of the one before it. Repeat until all **eighteen segments** are set.
+
+**Eighteen is right only for the 2016, 2019 and 2023 B94 and R92.** The B74, R72 and the 2011 and 2013 B94 and R92 manuals print **twenty** segments for the same procedure, and the LCB and LCR use a different Custom program entirely.
 7. The Message Window then offers Start to begin and save the program, or Enter to modify it. Pressing Stop exits to the start-up screen.
 8. Pressing Level up/down during the program changes only the level for the **current column**. When the profile moves to the next column it returns to the preset work level.
 9. Press **Display** to scroll through the data in the Message Window.

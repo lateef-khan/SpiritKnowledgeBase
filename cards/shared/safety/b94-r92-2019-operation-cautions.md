@@ -21,8 +21,12 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2013
+  - b94-2016
   - b94-2019
   - b94-2023
+  - r92-2013
+  - r92-2016
   - r92-2019
   - r92-2023
   section: safety
@@ -39,3 +43,5 @@ source:
 - Never operate this fitness bike without reading and completely understanding the results of any operational change you request from the computer.
 - **Never use your fitness bike during an electrical storm.** Surges may occur in your household power supply that could damage fitness bike components. Unplug the fitness bike during an electrical storm as a precaution.
 - Do not use excessive pressure on console control keys. They are precision set to function properly with little finger pressure. If you feel the buttons are not functioning properly with normal pressure, contact your SOLE dealer.
+
+**Not the 2011 or the B74/R72.** The 2011 B94 and R92 manuals add *pushing harder is not going to make the unit go faster or slower*, and the B74/R72 2015 manual says *contact your dealer* where these say *your SOLE dealer*.

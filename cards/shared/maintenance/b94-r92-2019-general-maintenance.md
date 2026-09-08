@@ -22,9 +22,13 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - b94-2013
   - b94-2016
   - b94-2019
   - b94-2023
+  - lcb-2013
+  - lcr-2013
+  - r92-2013
   - r92-2016
   - r92-2019
   - r92-2023
@@ -50,3 +54,5 @@ If a squeak, thump, clicking or rough feeling develops, the main cause is most l
 3. If squeaks or other noises persist, check the unit is properly levelled. There are **2 levelling pads on the bottom of the rear stabilizer**. Use a **14mm wrench** (or adjustable wrench) to adjust the levellers.
 
 A clicking or thumping specifically while pedalling is usually loose pedals — the assembly instructions say to tighten pedals as much as you possibly can, and to re-tighten them if thumping appears.
+
+**The B74 and R72 2015 manual is not covered by this card.** It prints the same crank arm nut, two levelling pads and 14mm wrench, but nowhere states that loose pedals cause clicking or thumping, so the closing paragraph above would over-claim for it.

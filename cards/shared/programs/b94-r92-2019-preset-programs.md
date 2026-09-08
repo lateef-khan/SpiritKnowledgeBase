@@ -32,12 +32,10 @@ facets:
   - lcb-2013
   - lcb-2016
   - lcb-2019
-  - lcb-2023
   - lcr-2011
   - lcr-2013
   - lcr-2016
   - lcr-2019
-  - lcr-2023
   - r72-2015
   - r92-2011
   - r92-2013
@@ -59,20 +57,12 @@ source:
   extracted_at: '2026-09-08'
 ---
 
-The fitness bike has **five** preset programs, each with a factory preset work level profile.
-
-| Program | What it does |
+The fitness bike has **five** preset programs, each with a factory preset work level profile. | Program | What it does |
 |---|---|
 | **Hill** | Simulates going up and down a hill. Resistance in the pedals steadily increases and then decreases during the program. |
 | **Fat Burn** | Designed to maximize the burning of fat. Most experts agree a lower exertion level held at a steady workload is best, and the best way to burn fat is a heart rate around **60% to 70%** of maximum. **This program does not use heart rate** — it simulates a lower, steady exertion workout. |
 | **Cardio** | Designed to increase cardiovascular function and endurance. Builds heart muscle and increases blood flow and lung capacity, using a higher level of exertion with slight fluctuations in work. |
 | **Strength** | Designed to increase muscular strength in the lower body. Steadily increases resistance to a high level and forces you to sustain it, to strengthen and tone the legs and glutes. |
-| **HIIT**, called **Interval** on the 2016 and earlier manuals | High intensity followed by low intensity. Increases endurance by depleting oxygen then recovering, so the cardiovascular system uses oxygen more efficiently. The heart rate spikes between recovery periods also aid heart rate recovery. |
+| **HIIT**, called **Interval** on the 2016 and earlier manuals | High intensity followed by low intensity. Increases endurance by depleting oxygen then recovering, so the cardiovascular system uses oxygen more efficiently. The heart rate spikes between recovery periods also aid heart rate recovery. | All five are set up the same way — see the preset program setup card. **The fifth program has two names.** Manuals up to 2016 print it as **Interval**; 2019 and later print it as **HIIT**. The description is the same in both. Interval: B74, R72, B94, R92, LCB and LCR up to 2016. HIIT: B94, R92, LCB and LCR from 2019. For a program that actually **controls** resistance from your heart rate, use HR1 or HR2 instead. Fat Burn only imitates the effort level. The console's program buttons also include Manual, 2 User and 2 HR alongside these five.
 
-All five are set up the same way — see the preset program setup card.
-
-**The fifth program has two names.** Manuals up to 2016 print it as **Interval**; 2019 and later print it as **HIIT**. The description is the same in both. Interval: B74, R72, B94, R92, LCB and LCR up to 2016. HIIT: B94, R92, LCB and LCR from 2019.
-
-For a program that actually **controls** resistance from your heart rate, use HR1 or HR2 instead. Fat Burn only imitates the effort level.
-
-The console's program buttons also include Manual, 2 User and 2 HR alongside these five.
+**The 2023 LCB and LCR are not covered by this card.** Their manual describes a different, touchscreen console with nine programs and prints none of the text above — no "five different programs" paragraph and no Hill, Fat Burn, Cardio or Strength description.

@@ -31,6 +31,7 @@ facets:
   - lcr-2016
   - lcr-2019
   - lcr-2023
+  - r72-2015
   - r92-2013
   - r92-2016
   - r92-2019
@@ -52,3 +53,5 @@ You can adjust the seat position while seated.
 2. Slide the carriage forward or backwards.
 3. The correct position is when there is a **slight bend in your knee** when the pedal is at its farthest position forward — the 3 o'clock position looking from the right side of the bike.
 4. Release the lever.
+
+**The B74 is different.** Its seat is height-adjusted with a knob and pin, not a fore-and-aft carriage lever, so the B74 half of the 2015 manual is a separate procedure.
