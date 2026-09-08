@@ -26,11 +26,13 @@ facets:
   - b94-2016
   - b94-2019
   - r92-2016
+  - r92-2019
   section: console
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- sole-b94-r92-2019-stop-key-behaviour
 - sole-bike-engineering-mode-tft-consoles
 - sole-bike-child-lock
 source:

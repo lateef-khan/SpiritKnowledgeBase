@@ -68,18 +68,25 @@ Frontmatter rules:
 - `keywords` — 4 to 10 lowercase terms, **including synonyms the source never
   uses**.
 - `facets` — every declared key, always filled. Write `"*"` rather than leaving
-  one out, **except for `brand` and `applies_to`**, where `"*"` is illegal: they
-  are filtered on directly, so the sentinel would make the card match nothing
-  rather than everything. List real values in both.
+  one out. In `applies_to` the sentinel is legal and reaches **everything**: it is
+  a wildcard facet in the agent's scope config, so a scope open on one machine
+  accepts a card whose `applies_to` is `"*"`. Spend it only on a fact that holds
+  for every machine — a policy, a warranty term, a company-wide support list.
+  Anywhere else, list the real values, because a wrong `"*"` answers every
+  question about every product line and nothing filters it back out.
 - `brand` — one or more brand keys from `kb.yaml`'s `models` map. Sorted, no
   duplicates.
-- `model` and `applies_to` — a card takes one of two shapes:
+- `model` and `applies_to` — a card takes one of three shapes:
   - **About one machine.** `model` is that machine's id and `applies_to` is
     exactly `[that id]`.
   - **About several.** `model` is `"*"` and `applies_to` lists two or more
     machines, sorted, every one a model of a brand this card lists, and every
     brand listed contributing at least one machine. A card about exactly one
     machine must use the first shape.
+  - **About every machine.** `model` is `"*"` and `applies_to` is exactly
+    `["*"]`. Reserved for a fact with no product line at all — a policy, a
+    warranty term, a company-wide support list. A fact that is merely true of
+    many machines uses the second shape and names them.
 - `authority` — 3 for a manual or spec, 2 for a technician note, 1 for an email
   or anecdote.
 - `source.ref` — `$ARGUMENTS`. `source.locator` — page, line range, or message

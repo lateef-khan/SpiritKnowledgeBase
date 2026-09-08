@@ -16,6 +16,12 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: sole-bike-b74-r72-2015-owners-manual
+  title: Sole B74/R72 2015 owner's manual (574115, 572115)
+  kind: pdf
+  origin_uri: file://SOLE B74 R72 2015 Owners Manual (574115, 572115).pdf
+  sha256: 5af911b041fb3644bd6a0000c5253f2f4d7e3e253e8a4fbf357397313667ad99
+  ingested_at: '2026-09-08'
 - id: sole-bike-b94-2016-service-manual
   title: Sole B94 2016 service manual (SU410B-SB004)
   kind: pdf
@@ -34,6 +40,54 @@
   origin_uri: file://B94(2023)_594122_SU415A-SB025_Service manual.pdf
   sha256: fa63b3bf3d6b1621505762ef9f0ac6236fd9f33c52326d8bad0cd051ffc49b01
   ingested_at: '2026-09-04'
+- id: sole-bike-b94-r92-2011-owners-manual
+  title: Sole B94/R92 2011 owner's manual (594110, 592110)
+  kind: pdf
+  origin_uri: file://SOLE B94 R92 2011 Owners Manual (594110, 592110).pdf
+  sha256: 02bd5680de77e5594ab80d9924bfa952baebd3796cb6b9e7666f7868c19c3d52
+  ingested_at: '2026-09-08'
+- id: sole-bike-b94-r92-2013-owners-manual
+  title: Sole B94/R92 2013 owner's manual (594112, 592112)
+  kind: pdf
+  origin_uri: file://SOLE B94 R92 2013 Owners Manual (594112, 592112).pdf
+  sha256: ffbf67eafc2cb9cc760d61cd268c19f80ea8f5b7fb310c20e8dcf9de4b7352fd
+  ingested_at: '2026-09-08'
+- id: sole-bike-b94-r92-2016-owners-manual
+  title: Sole B94/R92 2016 owner's manual (594116, 592116)
+  kind: markdown
+  origin_uri: file://SOLE B94 R92 2016 Owners Manual (594116, 592116).pdf
+  sha256: d39070d79e416f0322803a30eb60d5c2206783f927ab946e1026f7c6dcc62e4c
+  ingested_at: '2026-09-08'
+- id: sole-bike-b94-r92-2019-owners-manual
+  title: Sole B94/R92 2019 owner's manual (594118, 592118)
+  kind: markdown
+  origin_uri: file://SOLE B94 R92 2019 Owners Manual (594118, 592118).pdf
+  sha256: 5cbdbb5e440b4a3f8bf050a1524e782448acae130e40f5c43ffdf381cde916c2
+  ingested_at: '2026-09-08'
+- id: sole-bike-b94-r92-2023-owners-manual
+  title: Sole B94/R92 2023 owner's manual (594122, 592122)
+  kind: markdown
+  origin_uri: file://SOLE B94 R92 2023 Owners Manual (594122, 592122).pdf
+  sha256: 13752cab19e93d8d84c7c42543a70b65c38b99961c0b9193ed4acf45b864b9a1
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcb-2011-owners-manual
+  title: Sole LCB 2011 owner's manual (511110)
+  kind: pdf
+  origin_uri: file://SOLE LCB 2011 Owners Manual (511110).pdf
+  sha256: 667a02cf91641fd4fbf7fd8e195dab38ea0e2bf880332f03c7edddcf4682b5de
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcb-2013-owners-manual
+  title: Sole LCB 2013 owner's manual (511112)
+  kind: pdf
+  origin_uri: file://SOLE LCB 2013 Owners Manual (511112).pdf
+  sha256: 1a366fcb0c2ca825bd751891edbcb39980ecc76232bc324a8d302696ae38c733
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcb-2016-owners-manual
+  title: Sole LCB 2016 owner's manual (511116)
+  kind: markdown
+  origin_uri: file://SOLE LCB 2016 Owners Manual (511116).pdf
+  sha256: 0bca913324ba5c4c88584409ca33d7f3f7a29568e12f305cea90e0778976c312
+  ingested_at: '2026-09-08'
 - id: sole-bike-lcb-2016-service-manual
   title: Sole LCB 2016 service manual (SU610B-YB012)
   kind: pdf
@@ -52,6 +106,36 @@
   origin_uri: file://SOLE LCB 2023 Service Manual (511122).pdf
   sha256: 97c3498d663176a5949ed88a03a23c803b73a793b89ade6fa0876b100abfd6b9
   ingested_at: '2026-09-04'
+- id: sole-bike-lcb-lcr-2019-owners-manual
+  title: Sole LCB/LCR 2019 owner's manual (511118, 522118)
+  kind: markdown
+  origin_uri: file://SOLE LCB LCR 2019 Owners Manual (511118, 522118).pdf
+  sha256: 17e6076a1ac8b833e6a13d6c3c5f0d2b03ee556b71d1541f08ebabdb156a12bc
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcb-lcr-2023-owners-manual
+  title: Sole LCB/LCR 2023 owner's manual (511122, 522122)
+  kind: markdown
+  origin_uri: file://SOLE LCB LCR 2023 Owners Manual (511122, 522122).pdf
+  sha256: 00e4d85881bb57752658fe3aa08c2214fd27b69a4de24f3a1b1815b1d9c1a4d0
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcr-2011-owners-manual
+  title: Sole LCR 2011 owner's manual (522110)
+  kind: pdf
+  origin_uri: file://SOLE LCR 2011 Owners Manual (522110).pdf
+  sha256: ade6699f1f5fda783cce88a7b8719fbfbec4ca90cb9b76eeb9d9bbdd3cbda437
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcr-2013-owners-manual
+  title: Sole LCR 2013 owner's manual (522112)
+  kind: pdf
+  origin_uri: file://SOLE LCR 2013 Owners Manual (522112).pdf
+  sha256: 2be0d0b8a0c3fa2abe9a2b0e97d8a8815ecfbd75b128381aaf129b15ad5a1e04
+  ingested_at: '2026-09-08'
+- id: sole-bike-lcr-2016-owners-manual
+  title: Sole LCR 2016 owner's manual (522116)
+  kind: markdown
+  origin_uri: file://SOLE LCR 2016 Owners Manual (522116).pdf
+  sha256: cf403d240c4df547d94f8707827adb4cb706e7697f97c96ea0d221c2e36c70ee
+  ingested_at: '2026-09-08'
 - id: sole-bike-lcr-2016-service-manual
   title: Sole LCR 2016 service manual (SR620B-YB012)
   kind: pdf
@@ -88,36 +172,114 @@
   origin_uri: file://R92 (592126) 2026_.pdf
   sha256: 76315caef02c95c3fd5ffc7885fdb6bdd57639ed66836baa63e960b557670bee
   ingested_at: '2026-09-04'
+- id: sole-bike-sb1200-2023-owners-manual
+  title: Sole SB1200 2023 owner's manual (512322)
+  kind: markdown
+  origin_uri: file://SOLE SB1200 2023 Owners Manual (512322).pdf
+  sha256: 2fbc1a945ef8da7195923e7d8e74c1654ef9cee319639f5585516578888ffd12
+  ingested_at: '2026-09-08'
 - id: sole-bike-sb1200-2023-service-manual
   title: Sole SB1200 2023 service manual (512322)
   kind: pdf
   origin_uri: file://SOLE SB1200 2023 Service Manual (512322).pdf
   sha256: f7f4b9402739a5631b8516d3fa2d3d8c4647f956a8bfff2bd3cd8db567766113
   ingested_at: '2026-09-04'
+- id: sole-bike-sb700-2011-2016-owners-manual
+  title: Sole SB700 2011/2016 owner's manual (570110, 570116)
+  kind: pdf
+  origin_uri: file://SOLE SB700 2011 2016 Owners Manual (570110, 570116).pdf
+  sha256: 36aeb74eba634a035abe7a0ea9fb549256d914606268a57afd1ce41bd84723c9
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb700-2019-owners-manual
+  title: Sole SB700 2019 owner's manual (570119)
+  kind: markdown
+  origin_uri: file://SOLE SB700 2019 Owners Manual (570119).pdf
+  sha256: 6fb27923f547ba26e41f24848b4e662eee473567075c0d2f32da16afafa7ad6e
+  ingested_at: '2026-09-08'
 - id: sole-bike-sb700-2019-service-manual
   title: Sole SB700 2019 service manual (SB702EGS-3260N)
   kind: pdf
   origin_uri: file://SB702EGS-3260N (SOLE SB700 2019) Service  Manual.pdf
   sha256: 213d7ac9bdef76f98670b3c93b69a7da210c39c6a2778cdd2db1bfaeb46df745
   ingested_at: '2026-09-03'
+- id: sole-bike-sb700-2020-owners-manual
+  title: Sole SB700 2020 owner's manual (570120)
+  kind: markdown
+  origin_uri: file://SOLE SB700 2020 Owners Manual (570120).pdf
+  sha256: c312352a1b8d8338cc596d9be5925df4c7748379c85d337ab8f08e17d7e75ad9
+  ingested_at: '2026-09-08'
 - id: sole-bike-sb700-2020-service-manual
   title: Sole SB700 2020 service manual (SB702HGS-3268)
   kind: pdf
   origin_uri: file://SB702HGS-3268 (SOLE SB700 2020).pdf
   sha256: 2cabbd6958a74c0cff2ab1fb83d9b7292f5d53d45edaa4958c6932c652e9a340
   ingested_at: '2026-09-03'
+- id: sole-bike-sb700-2021-owners-manual
+  title: Sole SB700 2021 owner's manual (570121)
+  kind: markdown
+  origin_uri: file://SOLE SB700 2021 Owners Manual (570121).pdf
+  sha256: 0cb181b1b7f89b856bca8039f1946b245def140d1ccc00e149272aae6170b1d8
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2014-2016-owners-manual
+  title: Sole SB900 2014/2016 owner's manual (590314, 590316)
+  kind: pdf
+  origin_uri: file://SOLE SB900 2014 2016 Owners Manual (590314, 590316).pdf
+  sha256: 625a5dad7f881dfe19f9e8807e8d8f2bff63f64f7ea904f020f3b0727e463a2f
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2019-owners-manual
+  title: Sole SB900 2019 owner's manual (590319)
+  kind: pdf
+  origin_uri: file://SOLE SB900 2019 Owners Manual (590319).pdf
+  sha256: b3e2b282fd8a08efd4eebf7d85bf830cea3522a6bd6b3bc413ea49fc33a2109d
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2020-owners-manual
+  title: Sole SB900 2020 owner's manual (590320)
+  kind: markdown
+  origin_uri: file://SOLE SB900 2020 Owners Manual (590320).pdf
+  sha256: b296141d5fb6af195906537e0364123247780f89ff2f53df9dd7f42f22f8ea80
+  ingested_at: '2026-09-08'
 - id: sole-bike-sb900-2020-service-manual
   title: Sole SB900 2020 service manual (SB900CGS-3268)
   kind: pdf
   origin_uri: file://SB900CGS-3268 (SOLE SB900 2020).pdf
   sha256: d35157f078507649ca4b785c3763a6c52a3b3320abcf81ffeded79e8560942a0
   ingested_at: '2026-09-03'
+- id: sole-bike-sb900-2021-console-dt3268-manual
+  title: Sole SB900 2021 DT-3268 console manual (590321)
+  kind: pdf
+  origin_uri: file://SOLE SB900 Console (DT-3268) Manual (590321).pdf
+  sha256: 6aca5d8db1aff8086516debe890a319fd3e56969067b38529302a57552203ddf
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2021-owners-manual
+  title: Sole SB900 2021 owner's manual (590321)
+  kind: markdown
+  origin_uri: file://SOLE SB900 2021 Owners Manual (590321).pdf
+  sha256: 9697e206774be0709edbfef5e3ca8e2b6f3bde9a6d22187e526c32ead8e6be3b
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2023-console-dt3268-manual
+  title: Sole SB900 2023 DT-3268 console manual (590322)
+  kind: pdf
+  origin_uri: file://SOLE SB900 Console (DT-3268) Manual (590322).pdf
+  sha256: 935f8206be7fdc40f9c0c5e293a467abec4d49b2dea98ea8adddddcd5586dd81
+  ingested_at: '2026-09-08'
+- id: sole-bike-sb900-2023-owners-manual
+  title: Sole SB900 2023 owner's manual (590322)
+  kind: markdown
+  origin_uri: file://SOLE SB900 2023 Owners Manual (590322).pdf
+  sha256: f912f547c2b640641658e169567393ed5fcd7985f33d2754f217f27f6fdc8d63
+  ingested_at: '2026-09-08'
 - id: sole-bike-sb900-2023-service-manual
   title: Sole SB900 2023 service manual (590322)
   kind: pdf
   origin_uri: file://SOLE SB900 2023 Service Manual (590322).pdf
   sha256: 8c6a81274e4ed057f0eec895295a5d4f5a058c7ddabd02f6a43c612df2fe9348
   ingested_at: '2026-09-04'
+- id: sole-bike-sb900-2023-tension-knob-manual
+  title: Sole SB900 2023 tension knob manual (590322)
+  kind: pdf
+  origin_uri: file://SOLE SB900 Tension Knob Manual (590322).pdf
+  sha256: 8c6ae8b5bd90c99d3bfb39811e9f45fc997c5168d3b7102cba63c2e3ca435470
+  ingested_at: '2026-09-08'
 - id: sole-c80-2026-service-manual
   title: Sole C80 2026 service manual (TK700-SK001)
   kind: pdf
