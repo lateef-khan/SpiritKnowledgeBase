@@ -11,6 +11,8 @@ from kb.syncplan import SyncPlan
 
 VECTOR_NAME = "dense"
 
+UPSERT_BATCH_SIZE = 256
+
 SCHEMA_BY_INDEX = {
     "keyword": models.PayloadSchemaType.KEYWORD,
     "integer": models.PayloadSchemaType.INTEGER,
@@ -26,6 +28,15 @@ class AliasConflictError(Exception):
 
 class QdrantError(Exception):
     pass
+
+
+def _upsert_in_batches(client, name: str, points: list) -> None:
+    for start in range(0, len(points), UPSERT_BATCH_SIZE):
+        client.upsert(
+            collection_name=name,
+            points=points[start : start + UPSERT_BATCH_SIZE],
+            wait=True,
+        )
 
 
 def _field_schema(spec: dict):
@@ -131,7 +142,7 @@ def apply_plan(
             )
             for action, vector in zip(to_embed, vectors, strict=True)
         ]
-        client.upsert(collection_name=name, points=points, wait=True)
+        _upsert_in_batches(client, name, points)
 
     for action in plan.actions:
         if action.op == "set_payload":
@@ -178,9 +189,10 @@ def rebuild(
 
     vectors = embedder.embed([retrieval_text(card) for card in cards])
     if cards:
-        client.upsert(
-            collection_name=target,
-            points=[
+        _upsert_in_batches(
+            client,
+            target,
+            [
                 models.PointStruct(
                     id=point_id(card.id),
                     vector={VECTOR_NAME: vector},
@@ -188,7 +200,6 @@ def rebuild(
                 )
                 for card, vector in zip(cards, vectors, strict=True)
             ],
-            wait=True,
         )
 
     _point_alias(client, config.collection, target)
