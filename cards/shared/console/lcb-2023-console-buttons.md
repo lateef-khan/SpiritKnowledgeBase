@@ -2,7 +2,7 @@
 id: lcb-2023-console-buttons
 title: What each console button does in ready and exercise mode
 kind: spec
-question: What does each console button do on a Sole LCB-2023 bike?
+question: What does each console button do on a Sole bike?
 asked_as:
 - what do the buttons on my 2023 lcb do
 - what does the display key do on the light commercial bike
@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: bike
-  model: lcb-2023
+  model: '*'
   applies_to:
   - lcb-2023
+  - lcr-2023
   section: console
   code: '*'
 authority: 3
@@ -30,6 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - lcb-2023-console-modes
 - sole-bike-tft-console-buttons
+- lcr-2023-console-modes
 source:
   ref: sole-bike-lcb-2023-service-manual
   locator: Section 4 Product Operation, Button Function in each mode, page 10

@@ -27,11 +27,11 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - st90-2023-speed-rapid-key-not-working
-- st90-2023-e-3h-incline-error
+- st90-2021-e-3h-incline-error
 see_also:
 - st90-2023-key-test
 - st90-2023-rapid-key-replacement
-- st90-2023-e-3h-incline-error
+- st90-2021-e-3h-incline-error
 source:
   ref: sole-tm-st90-2023-service-manual
   locator: Troubleshooting procedure matrix, pages 17-18

@@ -28,7 +28,7 @@ not_to_be_confused_with: []
 see_also:
 - st90-2023-incline-motor-spec
 - st90-2023-calibration-procedure
-- st90-2023-e-3h-incline-error
+- st90-2021-e-3h-incline-error
 source:
   ref: sole-tm-st90-2023-service-manual
   locator: Section 9.12 Replacing Incline motor and incline rack, page 39

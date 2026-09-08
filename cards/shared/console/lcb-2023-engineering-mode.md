@@ -2,7 +2,7 @@
 id: lcb-2023-engineering-mode
 title: Getting into engineering mode
 kind: procedure
-question: How do I get into engineering mode on a Sole LCB-2023 bike?
+question: How do I get into engineering mode on a Sole bike?
 asked_as:
 - how do i get into engineering mode on my 2023 lcb
 - service menu on the light commercial upright bike
@@ -19,9 +19,10 @@ facets:
   brand:
   - sole
   product_line: bike
-  model: lcb-2023
+  model: '*'
   applies_to:
   - lcb-2023
+  - lcr-2023
   section: console
   code: '*'
 authority: 3
@@ -30,6 +31,7 @@ see_also:
 - lcb-2023-console-modes
 - sole-engineering-menu-touchscreen
 - sole-bike-engineering-mode-tft-consoles
+- lcr-2023-console-modes
 source:
   ref: sole-bike-lcb-2023-service-manual
   locator: Section 8.6 Maintenance Menu, page 21

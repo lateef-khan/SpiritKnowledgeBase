@@ -26,8 +26,8 @@ facets:
   code: incline-err
 authority: 3
 not_to_be_confused_with:
-- st90-2023-e-3h-incline-error
-- st90-2023-e-52h-incline-calibration-error
+- st90-2021-e-3h-incline-error
+- st90-2021-e-52h-incline-calibration-error
 see_also:
 - st90-2023-calibration-procedure
 - st90-2023-incline-position-does-not-match

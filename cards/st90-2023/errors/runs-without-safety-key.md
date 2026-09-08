@@ -30,7 +30,7 @@ not_to_be_confused_with:
 - st90-2023-no-display-with-safety-key
 see_also:
 - st90-2023-does-not-stop-when-key-removed
-- st90-2023-e-25h-emergency-stop
+- st90-2021-e-25h-emergency-stop
 - st90-2023-electrical-configuration
 source:
   ref: sole-tm-st90-2023-service-manual

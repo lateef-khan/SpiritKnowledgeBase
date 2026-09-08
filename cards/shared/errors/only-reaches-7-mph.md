@@ -2,7 +2,7 @@
 id: st90-2023-only-reaches-7-mph
 title: Belt tops out around seven miles per hour but the display reads faster
 kind: troubleshooting
-question: Why will a Sole ST90-2023 treadmill only reach about seven miles per hour?
+question: Why will a Sole treadmill only reach about seven miles per hour?
 asked_as:
 - my treadmill wont go faster than 7 mph
 - speed on the display does not match how fast the belt moves
@@ -19,14 +19,18 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2023
+  model: '*'
   applies_to:
+  - st90-2021
   - st90-2023
   section: errors
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- st90-2021-popping-sound-at-power-on
+- st90-2021-house-breaker-trips
+- sole-voltage-test
 - st90-2023-popping-sound-at-power-on
 - st90-2023-house-breaker-trips
 source:

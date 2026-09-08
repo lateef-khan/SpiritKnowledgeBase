@@ -1,8 +1,8 @@
 ---
-id: st90-2023-e-0ah-motor-overload
+id: st90-2021-e-0ah-motor-overload
 title: 'E-0AH on the inverter: motor overload'
 kind: troubleshooting
-question: What does E-0AH mean on a Sole ST90-2023 treadmill?
+question: What does E-0AH mean on a Sole treadmill?
 asked_as:
 - what does e-0ah mean on my treadmill
 - treadmill showing e-0ah
@@ -19,22 +19,24 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2023
+  model: '*'
   applies_to:
+  - st90-2021
   - st90-2023
   section: errors
   code: e-0ah
 authority: 3
 not_to_be_confused_with:
-- st90-2023-e-04h-overcurrent
-- st90-2023-e-0bh-converter-overload
+- st90-2021-e-04h-overcurrent
+- st90-2021-e-0bh-converter-overload
 see_also:
 - sole-inverter-error-code-list
 - sole-lubricate-running-belt
+- st90-2021-inverter-error-code-list
 - st90-2023-inverter-error-code-list
 source:
-  ref: sole-tm-st90-2023-service-manual
-  locator: Section 7 Error Code List, page 15
+  ref: sole-tm-st90-2021-service-manual
+  locator: Section 7-1 Error Codes, pages 29-30
   extracted_at: '2026-09-04'
 ---
 
@@ -49,4 +51,4 @@ The manual's cause column, word for word:
 
 > Please lubricate running belt or check for bad bearing.
 
-The whole printed table is on the card `st90-2023-inverter-error-code-list`. This machine runs an AC inverter, so it does not use the E1 to E8 code set of the DC digital controller fitted to the F63, F65, F80, F85, F89 and TT8.
+The whole printed table is on the cards `st90-2021-inverter-error-code-list` and `st90-2023-inverter-error-code-list`. This machine runs a Rhymebus AC inverter, so it does not use the E1 to E8 code set of the DC digital controller fitted to the F63, F65, F80, F85, F89 and TT8.
