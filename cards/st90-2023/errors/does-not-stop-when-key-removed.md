@@ -30,7 +30,7 @@ not_to_be_confused_with:
 - st90-2023-runs-without-safety-key
 see_also:
 - st90-2023-runs-without-safety-key
-- st90-2023-e-25h-emergency-stop
+- st90-2021-e-25h-emergency-stop
 source:
   ref: sole-tm-st90-2023-service-manual
   locator: Troubleshooting procedure matrix, pages 17-18, and section 8.3, pages 28-30

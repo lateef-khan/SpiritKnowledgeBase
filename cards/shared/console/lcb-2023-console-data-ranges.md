@@ -32,7 +32,6 @@ not_to_be_confused_with: []
 see_also:
 - lcb-2023-console-buttons
 - sole-bike-tft-console-data-ranges
-- lcr-2023-console-buttons
 source:
   ref: sole-bike-lcb-2023-service-manual
   locator: Section 4 Product Operation, Function, pages 8-9

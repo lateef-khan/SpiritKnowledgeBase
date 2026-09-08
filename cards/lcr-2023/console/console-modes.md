@@ -30,8 +30,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- lcr-2023-engineering-mode
-- lcr-2023-console-buttons
+- lcb-2023-engineering-mode
+- lcb-2023-console-buttons
 - sole-bike-child-lock
 source:
   ref: sole-bike-lcr-2023-service-manual
