@@ -8,6 +8,7 @@ from kb.cli import default_stamp
 from kb.config import FacetSpec, KbConfig
 from kb.ids import point_id
 from kb.qdrant import (
+    UPSERT_BATCH_SIZE,
     VECTOR_NAME,
     AliasConflictError,
     apply_plan,
@@ -70,6 +71,7 @@ class FakeClient:
         self.indexes = []
         self.upserted = []
         self.upsert_targets = []
+        self.upsert_batches = []
         self.payload_sets = []
         self.deleted = []
         self.deleted_collections = []
@@ -92,6 +94,7 @@ class FakeClient:
     def upsert(self, collection_name, points, wait=True):
         self.upserted.extend(points)
         self.upsert_targets.append(collection_name)
+        self.upsert_batches.append(len(points))
 
     def set_payload(self, collection_name, payload, points, wait=True):
         self.payload_sets.append({"payload": payload, "points": list(points)})
@@ -231,6 +234,22 @@ def test_embedding_is_batched_into_one_call_for_many_upserts():
     apply_plan(client, CONFIG, "kb", plan_sync(cards, {}), cards, embedder)
     assert len(embedder.seen) == 5
     assert len(client.upserted) == 5
+
+
+def test_a_sync_splits_its_upsert_into_requests_qdrant_will_accept():
+    client, embedder = FakeClient(exists=True), FakeEmbedder()
+    cards = [card(f"card-{i}") for i in range(UPSERT_BATCH_SIZE + 1)]
+    apply_plan(client, CONFIG, "kb", plan_sync(cards, {}), cards, embedder)
+    assert len(client.upserted) == UPSERT_BATCH_SIZE + 1
+    assert client.upsert_batches == [UPSERT_BATCH_SIZE, 1]
+
+
+def test_a_rebuild_splits_its_upsert_into_requests_qdrant_will_accept():
+    client, embedder = FakeClient(), FakeEmbedder()
+    cards = [card(f"card-{i}") for i in range(UPSERT_BATCH_SIZE + 1)]
+    rebuild(client, CONFIG, cards, embedder, "stamp")
+    assert len(client.upserted) == UPSERT_BATCH_SIZE + 1
+    assert client.upsert_batches == [UPSERT_BATCH_SIZE, 1]
 
 
 def test_rebuild_creates_the_stamped_collection_and_returns_its_name():
