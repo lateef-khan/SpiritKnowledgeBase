@@ -27,8 +27,8 @@ facets:
   code: e3
 authority: 3
 not_to_be_confused_with:
-- e95s-2016-e1-eeprom-failure
-- e95s-2016-e2-tension-motor-failure
+- e35-2016-e1-eeprom-failure
+- e25-2016-e2-tension-motor-failure
 see_also:
 - e95s-2016-stride-motor-test-procedure
 - e95s-2016-stride-calibration

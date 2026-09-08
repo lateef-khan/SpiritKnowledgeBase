@@ -31,8 +31,8 @@ not_to_be_confused_with:
 - f85-2021-incline-motor
 see_also:
 - f85-2021-incline-motor
-- f85-2021-e4-motor-power-wire-error
-- f85-2021-drive-motor-replacement
+- f85-2016-e4-motor-power-wire-error
+- f85-2016-drive-motor-replacement
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: section 3 Electrical Configurations and General Information, printed pages

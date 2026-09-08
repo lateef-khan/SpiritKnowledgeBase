@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2021-roller-replacement
-- f85-2021-drive-belt-tension
+- f85-2016-roller-replacement
+- f85-2016-drive-belt-tension
 - f85-2021-folding-and-unfolding
 source:
   ref: sole-tm-f85-ent-2021-service-manual

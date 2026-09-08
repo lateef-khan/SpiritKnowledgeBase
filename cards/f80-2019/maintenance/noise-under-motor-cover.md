@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2019-noise-at-rear-of-treadmill
-- f80-2019-drive-belt-tension
-- f80-2019-motor-replacement
+- f65-2016-noise-at-rear-of-treadmill
+- f65-2016-drive-belt-tension
+- f80-2016-motor-replacement
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 10.2, Service Troubleshooting Checklist

@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2016-rough-feel
+- e35-2016-rough-feel
 - e95s-2016-noises
 - e95s-2016-pedal-base-replacement
 source:

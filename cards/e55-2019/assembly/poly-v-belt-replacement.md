@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2019-drive-belt-tension
+- e25-2016-drive-belt-tension
 - e55-2019-idler-wheel-replacement
 - e55-2019-flywheel-replacement
 source:

@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2023-incline-motor-spec
-- f80-2023-e3-incline-vr-voltage
+- f65-2023-e3-incline-vr-voltage
 - f80-2023-calibration-procedure
 source:
   ref: sole-tm-f80-2023-service-manual

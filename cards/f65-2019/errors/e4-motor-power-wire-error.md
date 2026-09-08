@@ -28,10 +28,10 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - f65-2019-e3-incline-error
-- f65-2019-e5-communication-error
+- f65-2016-e5-communication-error
 see_also:
-- f65-2019-drive-motor-spec
-- f65-2019-motor-replacement
+- f65-2016-drive-motor-spec
+- f65-2016-motor-replacement
 - sole-e4-error
 source:
   ref: sole-tm-f65-2019-service-manual

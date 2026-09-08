@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sc200-2019-chest-belt-no-pulse
+- e25-2019-chest-belt-no-pulse
 - sc200-2019-erratic-pulse-display
 - sc200-2019-console-buttons
 source:

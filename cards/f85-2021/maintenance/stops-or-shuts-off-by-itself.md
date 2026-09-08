@@ -27,11 +27,11 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2021-stops-immediately-after-start
+- f85-2016-stops-immediately-after-start
 see_also:
 - f85-2021-belt-deck-lubrication
-- f85-2021-electrical-requirements
-- f85-2021-breaker-and-power-switch-replacement
+- f85-2016-electrical-requirements
+- f85-2016-breaker-and-power-switch-replacement
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: section 8.11 troubleshooting matrix, printed page 75

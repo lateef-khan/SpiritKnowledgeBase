@@ -31,7 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - sc200-2019-connecting-arm-replacement
 - sc200-2019-noises
-- sc200-2019-rough-feel
+- e35-2016-rough-feel
 source:
   ref: sole-elliptical-sc200-2019-service-manual
   locator: Section 10-5 Connecting Arm Problem, page 68

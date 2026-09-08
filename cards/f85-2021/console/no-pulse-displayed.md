@@ -27,9 +27,9 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2021-erratic-pulse-display
+- f85-2016-erratic-pulse-display
 see_also:
-- f85-2021-erratic-pulse-display
+- f85-2016-erratic-pulse-display
 - f85-2021-console-data-ranges
 - sole-heart-rate-monitor-other-brands
 source:

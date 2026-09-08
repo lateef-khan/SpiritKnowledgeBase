@@ -27,11 +27,11 @@ facets:
   code: e4
 authority: 3
 not_to_be_confused_with:
-- f80-2019-e3-incline-error
-- f80-2019-e5-communication-error
+- f65-2019-e3-incline-error
+- f65-2016-e5-communication-error
 see_also:
 - f80-2019-drive-motor-spec
-- f80-2019-motor-replacement
+- f80-2016-motor-replacement
 - sole-e4-error
 source:
   ref: sole-tm-f80-2019-service-manual

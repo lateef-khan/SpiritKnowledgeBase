@@ -29,9 +29,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2019-incline-motor-spec
-- f80-2019-e3-incline-error
-- f80-2019-incline-motor-test-procedure
+- f65-2016-incline-motor-spec
+- f65-2019-e3-incline-error
+- f65-2016-incline-motor-test-procedure
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Sections 11 and 12-9, Installation and Incline Motor Replacement

@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2016-no-display
+- e95-2016-no-display
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Section 8-5 Fuse replacement, page 50

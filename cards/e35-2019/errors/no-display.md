@@ -29,8 +29,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e35-2019-fuse-replacement
-- e35-2019-lcd-dim-or-incomplete
-- e35-2019-console-replacement
+- e25-2016-lcd-dim-or-incomplete
+- e25-2019-console-replacement
 source:
   ref: sole-elliptical-e35-2019-service-manual
   locator: Section 9.1 Console Problem, pages 56-57

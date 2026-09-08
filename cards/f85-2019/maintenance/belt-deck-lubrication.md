@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2019-belt-and-deck-cleaning
+- f85-2016-belt-and-deck-cleaning
 - f85-2019-e2-over-current
 - sole-lubricate-running-belt
 source:

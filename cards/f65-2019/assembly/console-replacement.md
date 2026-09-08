@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f65-2019-display-does-not-light
-- f65-2019-calibration-procedure
+- f65-2016-display-does-not-light
+- f65-2016-calibration-procedure
 source:
   ref: sole-tm-f65-2019-service-manual
   locator: Section 12-2, Console Replacement

@@ -31,7 +31,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - s77-2019-e4-motor-power-wire
-- s77-2019-motor-replacement
+- s77-2016-motor-replacement
 - s77-2019-electrical-configuration
 source:
   ref: sole-tm-s77-2019-service-manual

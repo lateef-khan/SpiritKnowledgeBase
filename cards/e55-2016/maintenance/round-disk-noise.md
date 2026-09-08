@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2016-noises
+- e35-2016-noises
 source:
   ref: sole-elliptical-e55-2016-service-manual
   locator: Section 9-2 Side case & Round Disk Problem, page 62

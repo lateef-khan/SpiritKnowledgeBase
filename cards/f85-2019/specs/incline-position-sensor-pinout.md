@@ -31,7 +31,7 @@ not_to_be_confused_with:
 - f85-2019-main-control-cable-pinout
 see_also:
 - f85-2019-incline-motor
-- f85-2019-incline-motor-and-position-sensor-test
+- f85-2016-incline-motor-and-position-sensor-test
 - f85-2019-e3-incline-vr-error
 source:
   ref: sole-tm-f85-2019-service-manual

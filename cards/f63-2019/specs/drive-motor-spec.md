@@ -29,8 +29,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f63-2019-e4-error-code
-- f63-2019-drive-motor-replacement
-- f63-2019-driver-board-sockets
+- f63-2016-drive-motor-replacement
+- f63-2016-driver-board-sockets
 source:
   ref: sole-tm-f63-2019-service-manual
   locator: page 11, GENERAL INFORMATION, and 12-3 Motor Replacement

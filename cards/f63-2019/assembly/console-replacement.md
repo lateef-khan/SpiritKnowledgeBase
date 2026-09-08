@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f63-2019-e5-error-code
+- f63-2016-e5-error-code
 source:
   ref: sole-tm-f63-2019-service-manual
   locator: page 70, 12-2 Console Replacement

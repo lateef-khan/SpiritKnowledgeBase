@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-house-breaker-trips
+- f65-2016-house-breaker-trips
 - f80-2016-belt-deck-lubrication
-- f80-2016-trips-onboard-15-amp-breaker
+- f65-2016-trips-onboard-15-amp-breaker
 source:
   ref: sole-tm-f80-2016-service-manual
   locator: Section 8.10, Troubleshooting procedure matrix

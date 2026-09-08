@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2019-incline-motor-not-working
+- e35-2016-incline-motor-not-working
 - e98-2019-incline-motor-spec
-- e98-2019-rear-frame-replacement
+- e35-2019-rear-frame-replacement
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Section 11-11, pages 88-90

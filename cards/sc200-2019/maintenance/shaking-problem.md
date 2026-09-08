@@ -29,8 +29,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sc200-2019-noises
-- sc200-2019-rough-feel
-- sc200-2019-slip-problem
+- e35-2016-rough-feel
+- sc200-2016-slip-problem
 source:
   ref: sole-elliptical-sc200-2019-service-manual
   locator: Section 11-3 Shaking Problem, page 71

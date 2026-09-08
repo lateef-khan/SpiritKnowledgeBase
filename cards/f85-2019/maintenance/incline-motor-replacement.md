@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - f85-2019-incline-motor
 - f85-2019-e3-incline-vr-error
-- f85-2019-incline-motor-and-position-sensor-test
+- f85-2016-incline-motor-and-position-sensor-test
 source:
   ref: sole-tm-f85-2019-service-manual
   locator: sections 11 and 12-9, printed pages 90 and 103 to 104

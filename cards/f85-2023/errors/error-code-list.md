@@ -30,13 +30,13 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f85-2023-safety-key-message
-- f85-2023-e1-no-rpm-signal
-- f85-2023-e2-over-current
-- f85-2023-e3-incline-vr-voltage
-- f85-2023-e4-motor-power-wire
-- f85-2023-e5-communication-error
-- f85-2023-e6-lower-controller-fault
-- f85-2023-e7-input-power-error
+- f65-2023-e1-no-rpm-signal
+- f65-2023-e2-over-current
+- f65-2023-e3-incline-vr-voltage
+- f65-2023-e4-motor-power-wire
+- f65-2023-e5-communication-error
+- f65-2023-e6-lower-controller-fault
+- f65-2023-e7-input-power-error
 - sole-dc-controller-error-code-list
 source:
   ref: sole-tm-f85-2023-service-manual

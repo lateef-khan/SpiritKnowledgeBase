@@ -26,7 +26,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- r92-2016-console-replacement
+- lcr-2016-console-replacement
 - r92-2016-front-shroud-replacement
 source:
   ref: sole-bike-r92-2016-service-manual

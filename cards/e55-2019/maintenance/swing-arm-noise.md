@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2019-noises
+- e35-2016-noises
 - e55-2019-bushing-housing-noise
 source:
   ref: sole-elliptical-e55-2019-service-manual

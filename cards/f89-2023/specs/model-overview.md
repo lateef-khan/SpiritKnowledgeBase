@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f89-2023-electrical-parts-overview
-- f89-2023-drive-motor-spec
-- f89-2023-incline-motor-spec
+- f80-2023-electrical-parts-overview
+- f80-2023-drive-motor-spec
+- f80-2023-incline-motor-spec
 source:
   ref: sole-tm-f89-2023-service-manual
   locator: Cover, page 1; Section 6.1 Display Board wire Connections, page 25

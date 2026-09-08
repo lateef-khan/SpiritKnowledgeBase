@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e35-2023-pedal-arm-replacement
-- e35-2023-connecting-arm-replacement
+- e25-2023-pedal-arm-replacement
+- e25-2023-connecting-arm-replacement
 source:
   ref: sole-elliptical-e35-2023-service-manual
   locator: Section 9.9, page 30

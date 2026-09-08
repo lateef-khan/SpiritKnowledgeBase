@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2016-motor-not-responsive-after-start
-- f80-2016-e4-motor-power-wire-error
+- f65-2016-e4-motor-power-wire-error
 source:
   ref: sole-tm-f80-2016-service-manual
   locator: Section 8.10, Troubleshooting procedure matrix

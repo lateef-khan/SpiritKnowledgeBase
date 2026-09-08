@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2016-console-modes
-- e98-2016-console-data-ranges
+- e95-2016-console-data-ranges
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Function Button In Main Mode, pages 22-23

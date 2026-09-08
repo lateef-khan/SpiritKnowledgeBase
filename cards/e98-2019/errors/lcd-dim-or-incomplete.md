@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2019-no-display
-- e98-2019-console-replacement
+- e25-2019-console-replacement
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Troubleshooting procedure matrix, page 49

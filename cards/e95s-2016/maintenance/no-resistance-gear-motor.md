@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2016-e2-tension-motor-failure
-- e95s-2016-tension-motor-voltage-test
+- e25-2016-e2-tension-motor-failure
+- e95-2016-tension-motor-voltage-test
 - e95s-2016-flywheel-noise
 source:
   ref: sole-elliptical-e95s-2016-service-manual

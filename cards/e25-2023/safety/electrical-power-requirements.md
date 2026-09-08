@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e25-2023-house-breaker-trips
+- e25-2016-house-breaker-trips
 source:
   ref: sole-elliptical-e25-2023-service-manual
   locator: Section 7, page 17

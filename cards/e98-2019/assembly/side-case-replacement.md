@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2019-round-disk-noise
+- e35-2016-round-disk-noise
 - e98-2019-cross-bar-replacement
 source:
   ref: sole-elliptical-e98-2019-service-manual

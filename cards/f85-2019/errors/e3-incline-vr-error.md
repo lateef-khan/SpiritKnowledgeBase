@@ -35,7 +35,7 @@ not_to_be_confused_with:
 - f85-2019-e6-lower-controller-error
 - f85-2019-e7-input-power-error
 see_also:
-- f85-2019-incline-motor-and-position-sensor-test
+- f85-2016-incline-motor-and-position-sensor-test
 - f85-2019-incline-position-sensor-pinout
 - sole-e3-error
 source:

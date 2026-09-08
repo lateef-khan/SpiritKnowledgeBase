@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - lcb-2019-belt-tension
 - lcb-2019-belt-slips-or-falls-off
-- lcb-2019-flywheel-replacement
+- lcb-2016-flywheel-replacement
 source:
   ref: sole-bike-lcb-2019-service-manual
   locator: "Section 9-8 Drive Belt and Bearing Housing"

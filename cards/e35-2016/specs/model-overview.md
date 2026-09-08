@@ -29,9 +29,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e35-2016-tension-motor-spec
+- e25-2016-tension-motor-spec
 - e35-2016-incline-motor-spec
-- e35-2016-console-data-ranges
+- e25-2016-console-data-ranges
 source:
   ref: sole-elliptical-e35-2016-service-manual
   locator: Cover and section 1, pages 1-8

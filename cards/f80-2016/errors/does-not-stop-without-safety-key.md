@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f80-2016-runs-without-safety-key
-- f80-2016-e0-safety-key-error
+- f65-2016-runs-without-safety-key
+- f65-2016-e0-safety-key-error
 source:
   ref: sole-tm-f80-2016-service-manual
   locator: Section 8.10, Troubleshooting procedure matrix

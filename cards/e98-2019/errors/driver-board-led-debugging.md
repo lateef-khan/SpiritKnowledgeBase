@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2019-incline-motor-test-procedure
-- e98-2019-fuse-replacement
+- e35-2019-fuse-replacement
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Controller Indicator LED debugging, page 33

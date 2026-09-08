@@ -29,10 +29,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e98-2023-incline-motor-replacement
+- e95-2023-incline-motor-replacement
 - e98-2023-incline-motor-spec
-- e98-2023-incline-calibration
-- e98-2023-connecting-arm-problems
+- e35-2023-incline-calibration
+- e95-2023-connecting-arm-problems
 source:
   ref: sole-elliptical-e98-2023-service-manual
   locator: Section 10.6, page 39

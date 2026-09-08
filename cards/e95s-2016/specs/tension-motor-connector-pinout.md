@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2016-tension-motor-spec
-- e95s-2016-e2-tension-motor-failure
+- e25-2016-tension-motor-spec
+- e25-2016-e2-tension-motor-failure
 source:
   ref: sole-elliptical-e95s-2016-service-manual
   locator: Tension Motor connector definition function, page 36

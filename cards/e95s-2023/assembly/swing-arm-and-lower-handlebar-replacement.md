@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2023-swing-arm-problems
+- e95-2023-swing-arm-problems
 - e95s-2023-side-case-replacement
 source:
   ref: sole-elliptical-e95s-2023-service-manual

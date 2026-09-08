@@ -28,8 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- r92-2023-e2-gear-motor-failure
-- r92-2023-front-shroud-replacement
+- b94-2023-e2-gear-motor-failure
+- lcr-2023-front-shroud-replacement
 source:
   ref: sole-bike-r92-2023-service-manual
   locator: Section 9.5 Replacing the Gear Motor, Steel Cable, and Reed Switch Sensor

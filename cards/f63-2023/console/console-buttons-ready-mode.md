@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f63-2023-console-buttons-run-mode
-- f63-2023-programs
+- f63-2016-programs
 source:
   ref: sole-tm-f63-2023-service-manual
   locator: page 9, Button Function in each mode, Ready Mode

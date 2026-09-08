@@ -28,10 +28,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f85-2023-engineering-mode
+- f80-2023-engineering-mode
 - f85-2023-console-data-ranges
-- f85-2023-e1-no-rpm-signal
-- f85-2023-e3-incline-vr-voltage
+- f65-2023-e1-no-rpm-signal
+- f65-2023-e3-incline-vr-voltage
 - sole-calibration-touchscreen
 source:
   ref: sole-tm-f85-2023-service-manual

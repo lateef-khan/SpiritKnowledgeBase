@@ -28,10 +28,10 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- f85-2019-noises
+- f85-2016-noises
 see_also:
 - f85-2019-e7-input-power-error
-- f85-2019-electrical-requirements
+- f85-2016-electrical-requirements
 - f85-2019-lower-controller-replacement
 source:
   ref: sole-tm-f85-2019-service-manual

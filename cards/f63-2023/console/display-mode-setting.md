@@ -27,7 +27,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f63-2023-e0-error-code
-- f63-2023-engineering-mode-menu
+- f63-2016-engineering-mode-menu
 source:
   ref: sole-tm-f63-2023-service-manual
   locator: page 20, note at the end of 8.1

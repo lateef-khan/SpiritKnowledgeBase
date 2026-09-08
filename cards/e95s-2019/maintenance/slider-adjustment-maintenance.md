@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2019-slider-adjustment-replacement
+- e95s-2016-slider-adjustment-replacement
 - e95s-2019-pedal-base-maintenance
 - e95s-2019-stride-motor-not-working
 source:

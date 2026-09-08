@@ -27,8 +27,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- s77-2019-belt-tracking-adjustment
-- s77-2019-belt-tension-adjustment
+- s77-2016-belt-tracking-adjustment
+- s77-2016-belt-tension-adjustment
 - sole-running-belt-tracking
 source:
   ref: sole-tm-s77-2019-service-manual

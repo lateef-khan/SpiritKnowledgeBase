@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2019-drive-motor-spec
-- f80-2019-incline-motor-spec
+- f65-2016-incline-motor-spec
 - f80-2019-console-data-ranges
 source:
   ref: sole-tm-f80-2019-service-manual

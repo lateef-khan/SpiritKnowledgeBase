@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2016-incline-motor-test-procedure
+- e25-2016-incline-motor-test-procedure
 - e55-2016-incline-motor-replacement
 source:
   ref: sole-elliptical-e55-2016-service-manual

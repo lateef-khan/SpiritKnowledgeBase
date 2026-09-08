@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e95s-2019-pedal-base-maintenance
-- e95s-2019-play-or-shaking
+- e25-2016-shaking-problem
 - e95s-2019-noises
 source:
   ref: sole-elliptical-e95s-2019-service-manual

@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e55-2019-poly-v-belt-replacement
-- e55-2019-drive-belt-tension
+- e25-2016-drive-belt-tension
 source:
   ref: sole-elliptical-e55-2019-service-manual
   locator: Section 11-7, page 78

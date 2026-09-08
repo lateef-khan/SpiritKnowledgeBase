@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2016-incline-motor-test-procedure
-- f80-2016-e3-incline-error
+- f65-2019-e3-incline-error
 source:
   ref: sole-tm-f80-2016-service-manual
   locator: Test Configuration, incline motor control function relate parts location

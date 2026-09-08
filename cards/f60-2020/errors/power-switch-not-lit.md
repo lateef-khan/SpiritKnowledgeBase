@@ -28,7 +28,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f60-2020-no-display-with-safety-key
-- f60-2020-house-breaker-trips
+- f60-2016-house-breaker-trips
 source:
   ref: sole-tm-f60-2020-service-manual
   locator: page 55, 8.10 Troubleshooting procedure matrix

@@ -29,8 +29,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- s77-2019-incline-position-sensor-test
-- s77-2019-incline-motor-installation
+- s77-2016-incline-position-sensor-test
+- s77-2016-incline-motor-installation
 - s77-2019-e3-incline-vr
 source:
   ref: sole-tm-s77-2019-service-manual

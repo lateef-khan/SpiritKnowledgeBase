@@ -28,7 +28,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e55-2016-connecting-arm-replacement
+- e25-2016-connecting-arm-replacement
 - e55-2016-drive-pulley-replacement
 source:
   ref: sole-elliptical-e55-2016-service-manual

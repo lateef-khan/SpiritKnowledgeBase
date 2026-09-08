@@ -27,7 +27,7 @@ facets:
   code: e1
 authority: 3
 not_to_be_confused_with:
-- r92-2023-e2-gear-motor-failure
+- b94-2023-e2-gear-motor-failure
 see_also:
 - sole-bike-eeprom-error
 source:

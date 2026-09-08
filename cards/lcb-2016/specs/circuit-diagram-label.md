@@ -27,7 +27,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - lcb-2016-model-overview
-- lcb-2016-noises
+- b94-2016-noises
 source:
   ref: sole-bike-lcb-2016-service-manual
   locator: "Circuit diagram page and the closing Epilog"

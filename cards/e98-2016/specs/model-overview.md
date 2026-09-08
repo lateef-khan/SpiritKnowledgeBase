@@ -30,8 +30,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2016-ems-brake-spec
-- e98-2016-incline-motor-spec
-- e98-2016-console-data-ranges
+- e35-2016-incline-motor-spec
+- e95-2016-console-data-ranges
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Cover and section 1, pages 1-8

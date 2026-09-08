@@ -30,8 +30,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f65-2019-driver-board-connectors
-- f65-2019-e5-communication-error
+- f65-2016-driver-board-connectors
+- f65-2016-e5-communication-error
 source:
   ref: sole-tm-f65-2019-service-manual
   locator: Section 8.3, test configuration - console to driver board connector

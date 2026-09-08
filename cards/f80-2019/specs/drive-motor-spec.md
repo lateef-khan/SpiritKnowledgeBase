@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2019-e4-motor-power-wire-error
-- f80-2019-motor-replacement
+- f80-2016-motor-replacement
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Section 3, Electrical Configurations and General Information

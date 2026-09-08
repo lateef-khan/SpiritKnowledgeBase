@@ -26,9 +26,9 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 see_also:
-- s77-2019-e0-safety-key
+- s77-2016-e0-safety-key
 - sole-no-display
 - sole-no-power
 source:

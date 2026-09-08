@@ -31,7 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - e98-2019-side-case-replacement
 - e98-2019-slip-problem
-- e98-2019-round-disk-noise
+- e35-2016-round-disk-noise
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Section 11-7, pages 82-83

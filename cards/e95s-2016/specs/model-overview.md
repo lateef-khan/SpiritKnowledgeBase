@@ -29,7 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- e95s-2016-tension-motor-spec
+- e25-2016-tension-motor-spec
 - e95s-2016-stride-motor-spec
 - e95s-2016-console-data-ranges
 source:

@@ -28,9 +28,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- s77-2019-roller-replacement
-- s77-2019-belt-tension-adjustment
-- s77-2019-drive-belt-tension
+- s77-2016-roller-replacement
+- s77-2016-belt-tension-adjustment
+- s77-2016-drive-belt-tension
 - sole-running-belt-replacement
 source:
   ref: sole-tm-s77-2019-service-manual

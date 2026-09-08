@@ -26,10 +26,10 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- st90-2023-chest-belt-no-pulse
+- st90-2021-chest-belt-no-pulse
 see_also:
 - st90-2023-heart-rate-feature
-- st90-2023-chest-belt-no-pulse
+- st90-2021-chest-belt-no-pulse
 source:
   ref: sole-tm-st90-2023-service-manual
   locator: Troubleshooting procedure matrix, pages 17-18, and section 8.3, pages 28-30

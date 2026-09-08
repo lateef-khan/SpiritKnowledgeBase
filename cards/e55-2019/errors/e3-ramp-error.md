@@ -27,12 +27,12 @@ facets:
   code: e3
 authority: 3
 not_to_be_confused_with:
-- e55-2019-e1-eeprom-failure
-- e55-2019-e2-tension-motor-failure
+- e35-2016-e1-eeprom-failure
+- e25-2019-e2-tension-motor-failure
 see_also:
-- e55-2019-incline-motor-test-procedure
-- e55-2019-incline-calibration
-- e55-2019-incline-position-mismatch
+- e25-2016-incline-motor-test-procedure
+- e25-2016-incline-calibration
+- e25-2016-incline-position-mismatch
 source:
   ref: sole-elliptical-e55-2019-service-manual
   locator: Sections 8-3 and its repeat, pages 39-42 and 44-46

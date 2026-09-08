@@ -30,7 +30,7 @@ not_to_be_confused_with: []
 see_also:
 - e98-2023-induction-brake-replacement
 - e98-2023-ems-brake-spec
-- e98-2023-round-disk-noise
+- e95-2023-round-disk-noise
 source:
   ref: sole-elliptical-e98-2023-service-manual
   locator: Section 10.3, page 36

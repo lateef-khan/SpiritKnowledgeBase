@@ -27,7 +27,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- f60-2020-running-belt-tension-adjustment
+- f60-2016-running-belt-tension-adjustment
 source:
   ref: sole-tm-f60-2020-service-manual
   locator: page 63, TREADBELT TRACKING ADJUSTMENT

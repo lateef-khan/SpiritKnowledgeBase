@@ -29,7 +29,7 @@ not_to_be_confused_with: []
 see_also:
 - lcb-2016-belt-tension
 - lcb-2016-drive-belt-replacement
-- lcb-2016-noises
+- b94-2016-noises
 source:
   ref: sole-bike-lcb-2016-service-manual
   locator: "Section 9-12 Slipping Belt and Belt falling Off"

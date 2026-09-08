@@ -29,7 +29,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sc200-2019-rod-end-shaft-replacement
-- sc200-2019-crank-arm-replacement
+- sc200-2016-crank-arm-replacement
 - sc200-2019-rod-end-shaft-and-linked-assembly
 source:
   ref: sole-elliptical-sc200-2019-service-manual

@@ -30,7 +30,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - e98-2019-e3-incline-vr-error
-- e98-2019-incline-calibration
+- e35-2019-incline-calibration
 - e98-2019-incline-motor-spec
 source:
   ref: sole-elliptical-e98-2019-service-manual

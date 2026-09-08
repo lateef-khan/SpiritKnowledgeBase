@@ -33,7 +33,7 @@ see_also:
 - e95s-2023-incline-motor-controller-and-gear-motor-replacement
 - e95s-2023-stride-motor-spec
 - e95s-2023-gear-motor-spec
-- e95s-2023-incline-calibration
+- e35-2023-incline-calibration
 source:
   ref: sole-elliptical-e95s-2023-service-manual
   locator: Section 10.6, page 59
