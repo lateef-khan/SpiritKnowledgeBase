@@ -16,7 +16,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - '*'
@@ -24,7 +24,8 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- cu900ent-wear-parts-inspection
 source:
   ref: ct900-om
   locator: p. 39
@@ -39,3 +40,6 @@ source:
 **WARNING**: The safety level of the equipment can be maintained only if it is examined regularly for damage and wear.
 1. Replace defective components immediately and/or keep the equipment out of use until repair.
 2. The components most susceptible to wear: Belt, PU wheel, Bearing, Idler, Shaft, Pedal.
+
+The CU900ENT service manual prints this same warning with a **four**-item list, dropping Shaft and
+Pedal. Neither manual says which list is right. See `cu900ent-wear-parts-inspection`.
