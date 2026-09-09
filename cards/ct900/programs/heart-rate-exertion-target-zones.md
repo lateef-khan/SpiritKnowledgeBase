@@ -23,6 +23,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   - ct900
   - xt285-2023
   section: programs
@@ -73,3 +76,21 @@ generations: 60/80 up to 2016, 65/85 from 2020.**
 cardiovascular system, while the same manual's Heart Rate Control page sets the Cardiovascular
 program to 80% - see `ct800-2020-programs-heart-rate-control-65-and-80-percent`. Neither figure is
 reconciled in the source.
+
+**The 2016, 2020 and CT850ENT owner's manuals print this same 65% / 85% guidance and the same
+117-to-153 example** (2016 and 2020 printed pages 32-33, CT850ENT printed pages 42-43, where it is
+headed "Target Heart Rate"). All three end it with the treadmill sentence: when the heart rate
+monitor feature is used with the Heart Rate programs, the machine automatically adjusts speed or
+incline to maintain the desired heart rate.
+
+**The 2018 CT850 prints 60% and 80% with a 108-to-144 example - that is
+`xt-2023-programs-heart-rate-training-zone`, a separate card. The CT850 therefore changed between
+printings: 60/80 in 2018, 65/85 in 2016 and 2020.**
+
+**Both CT850 manuals clash with their own Heart Rate Control page, and they clash on opposite
+halves.** In the 2016 manual this page recommends **65%** for burning fat while its Heart Rate
+Control page sets the Weight Control program to **60%**; the cardiovascular figure agrees at 85%
+(see `spirit-ct850-programs-heart-rate-control-60-and-85-percent`). In the 2020 manual the fat-burn
+figure agrees at 65% while this page's **85%** for the cardiovascular system meets a Cardiovascular
+program set to **80%** (see `ct800-2020-programs-heart-rate-control-65-and-80-percent`). Neither
+manual reconciles its own two figures.

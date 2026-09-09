@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
   - ct850-2020
   section: console
   code: '*'
@@ -32,6 +33,7 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ct800-console-layout-blue-led-matrix-window
 - ct800ent-2022-console-layout
+- ct850-2018-console-layout-red-led-matrix-window
 see_also:
 - ct850-2020-quick-start
 - ct850-2020-dot-matrix-message-center
@@ -83,3 +85,12 @@ CT800-2020 statements.
 and no USB charger, scan buttons or direct access ladders
 (`spirit-ct800-console-layout-blue-led-matrix-window`); the CT800ENT-2022 is a touchscreen
 (`ct800ent-2022-console-layout`).
+
+**The CT850-2016 owner's manual prints the same thirteen call-outs on its p. 15**, in the same
+words, so this card covers that machine. The CT850-2020 owner's manual prints the same page.
+
+**The owner's manuals and the service manual disagree about how many direct access speed buttons
+there are.** The service-manual drawing above numbers the speed ladder 1 to 12. The CT850-2016 and
+CT850-2020 owner's manuals both write, in their quick start text, "Direct Access Speed Buttons 1
+through 15": `spirit-ct850-console-quick-start-speed-keys-1-to-15`. Read the ladder on the machine
+in front of you before quoting a number.

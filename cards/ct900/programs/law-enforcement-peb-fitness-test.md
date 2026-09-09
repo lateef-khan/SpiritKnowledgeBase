@@ -20,6 +20,8 @@ facets:
   applies_to:
   - 80t-2026
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -56,3 +58,9 @@ The 2026 Spirit 8.0T owner's manual prints this same table, value for value, und
 simply "PEB". Neither the 2012 nor the 2016 CT800 manual has a PEB test. **The CT800ENT manual
 offers the test as "PEB (Physical Efficiency Battery) for U.S. Federal Law Enforcement" but prints
 its table as a picture**, so no values are recorded for that machine.
+
+**The 2016 and 2020 CT850 owner's manuals print this same table, value for value** (both on printed
+page 29), headed simply "PEB", with the bit.ly link http://bit.ly/SF-Peb rather than the fletc.gov
+address. **The 2018 CT850 has no PEB test.** **The CT850ENT manual offers the test as "PEB (Physical
+Efficiency Battery) for U.S. Federal Law Enforcement" with the fletc.gov link but prints its table as
+a picture**, so no values are recorded for that machine.

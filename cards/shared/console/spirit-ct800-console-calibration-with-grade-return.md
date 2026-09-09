@@ -27,6 +27,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   section: console
   code: '*'
 authority: 3
@@ -35,6 +36,8 @@ not_to_be_confused_with:
 - ct900-calibration-procedure
 - ct850-2016-calibration-procedure-metric-or-english
 - ct850-2016-calibration-procedure-english-only
+- ct850-2016-console-calibration-minimum-speed-0-5
+- ct850-2020-console-calibration-minimum-speed-0-3
 see_also:
 - spirit-ct800-console-engineering-mode-menu-with-units
 - ct850-2020-factory-setting-ranges
@@ -71,3 +74,17 @@ machine's figures, not these.
 
 The 2016 manual prints "safety button" for the safety key in steps 1 and 2. That manual replaces the
 word "key" with "button" throughout.
+
+**The CT850-2018 owner's manual prints these same nine steps on its p. 40**, including the Start and
+Fast + gesture, wheel size 2.98, minimum 0.5, maximum 12.0, maximum elevation 15 and the Grade
+return step with its European note, so this card covers that machine. Like the CT800 2016 manual it
+writes "safety button" rather than safety key.
+
+**The 2018 manual prints the speed sensor alignment procedure immediately after these steps**,
+headed by the sentence "If the calibration does not pass you may need to check the speed sensor
+alignment". The CT800 manuals put the same procedure in their maintenance chapter. It is held with
+the other speed sensor work at `spirit-ct800-maintenance-speed-sensor-alignment`.
+
+**The other CT850 owner's manuals do not use this routine.** The 2016 and 2020 manuals hold Start
+with **Speed Up**, have no grade return step and set a maximum of **15.0**; the ENT-2022 touchscreen
+has no key gesture at all.

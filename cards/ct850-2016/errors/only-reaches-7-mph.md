@@ -1,6 +1,7 @@
 ---
 id: ct850-2016-only-reaches-7-mph
-title: The belt only reaches about 7 mph while the display shows more
+title: The belt only reaches about 7 mph while the display shows more, on the row that
+  demands 12 gauge and a minimum of 110 volt AC at 60 Hz
 kind: troubleshooting
 question: Why does a Spirit CT850-2016 treadmill only reach about 7 mph?
 asked_as:
@@ -28,8 +29,10 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-only-reaches-7-mph
+- ct800-2020-errors-speed-caps-at-7-mph
 see_also:
 - ct850-2020-only-reaches-7-mph
+- ct800-2020-errors-speed-caps-at-7-mph
 - ct850-2016-speed-does-not-match-console-display
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
@@ -48,5 +51,9 @@ The manual's answer, word for word:
 Two numbers to hold on to: **12 gauge minimum** for an extension cord, and **110 volt AC, 60 Hz
 minimum** at the outlet.
 
-**The CT850 2020 manual prints different figures for the same fault** - 16-gauge and a minimum of
-100 volt AC - and adds `/10 kph` to the condition. See `ct850-2020-only-reaches-7-mph`.
+**The CT850 2020 service manual prints different figures for the same fault** - 16-gauge and a
+minimum of 100 volt AC - and adds `/10 kph` to the condition. See `ct850-2020-only-reaches-7-mph`.
+
+**The CT850 2016 owner's manual contradicts this service manual for the same machine.** It prints
+the same row with **16 gauge minimum** and **a minimum of 120 volt AC**, and drops the 60 Hz
+(`ct800-2020-errors-speed-caps-at-7-mph`). Nothing in either document reconciles the two.

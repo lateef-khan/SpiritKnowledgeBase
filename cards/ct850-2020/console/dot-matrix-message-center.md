@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
   - ct850-2020
   section: console
   code: '*'
@@ -66,4 +67,11 @@ those are held separately at `ct850-2020-message-window-display`.
 
 **On the earlier CT800 console the control is called the Display button, not a Scan button**, and
 the dot matrix and the message centre are two separate windows:
+`spirit-ct800-console-dot-matrix-display-button`.
+
+**The CT850-2016 owner's manual prints these paragraphs word for word on its pp. 18-19**, including
+the Up/Down Scan button, so this card covers that machine. The CT850-2020 owner's manual prints the
+same pages.
+
+**The CT850-2018 console names the same control a Display button**, not a Scan button:
 `spirit-ct800-console-dot-matrix-display-button`.

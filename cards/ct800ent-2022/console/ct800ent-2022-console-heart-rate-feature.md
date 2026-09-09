@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-heart-rate-feature
 title: Reading heart rate from the grips or a Polar or Bluetooth transmitter
 kind: fact
-question: How does heart rate work on a Spirit CT800ENT-2022 treadmill?
+question: How does heart rate work on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - why is my heart rate not showing on the treadmill
 - does it work with a bluetooth chest strap
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -55,3 +56,10 @@ described as Polar compatible "including coded transmissions" and name no Blueto
 The manual prints no pairing procedure for a strap and no list of supported strap models. How to
 wear a strap is `ctsbs900-heart-rate-chest-strap-pairing`; wild or random readings are
 `ctsbs900-heart-rate-chest-strap-troubleshooting`.
+
+**The CT850ENT-2022 owner's manual prints this section word for word on its p. 18.** Its console
+chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800ENT-2022's, page for
+page and line for line, so this card covers that machine.
+
+The CT850ENT manual names the machine in the last bullet - "The CT850ENT will also pick up wireless
+heart rate transmitters that are Polar and Bluetooth compatible" - and is otherwise identical.

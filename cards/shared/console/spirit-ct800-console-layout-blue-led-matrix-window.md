@@ -32,6 +32,7 @@ authority: 3
 not_to_be_confused_with:
 - ct850-2020-console-layout
 - ct800ent-2022-console-layout
+- ct850-2018-console-layout-red-led-matrix-window
 see_also:
 - spirit-ct800-console-quick-start-speed-keys-2-to-6
 - spirit-ct800-console-dot-matrix-display-button

@@ -51,8 +51,10 @@ There are two breakers in that list and they are different things: the one on th
 treadmill's own front grill, and the one in the building's breaker panel.
 
 **The outlet voltage in this row is 110 VAC, and it is not the same on every Spirit
-treadmill.** The CT900ENT and the XT manuals print 115 VAC in this same row
-(`ct900ent-display-does-not-light`) and the CT850 prints 120 VAC
-(`ct850-2016-display-does-not-light`). Do not carry the figure across machines. This row
+treadmill.** The CT900ENT, the XT manuals and the CT850 2018 and CT850ENT 2022 owner's
+manuals print 115 VAC in this same row (`ct900ent-display-does-not-light`); the CT800 2020
+and the CT850 2016 and 2020 owner's manuals print 110 - 120 VAC
+(`ct800-2020-errors-display-does-not-light`); and the CT850 service manuals print a plain
+120 VAC (`ct850-2016-display-does-not-light`). Do not carry the figure across machines. This row
 also stops at four causes; the XT manuals add a fifth, "treadmill defect, contact your
 dealer", which this manual does not print.

@@ -34,6 +34,7 @@ see_also:
 - ct850-2020-e-52h-incline-motor-fails-during-calibration
 - ct850-2020-incline-err
 - ct850-2016-calibration-procedure-metric-or-english
+- ct850-2020-console-calibration-minimum-speed-0-3
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 8-5 Factory and Acceleration Settings, p. 45 (printed 44)

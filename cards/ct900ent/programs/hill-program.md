@@ -20,6 +20,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -63,3 +66,9 @@ category rather than a program key.
 page 22), and writes "a gradual regression of resistance" as the XT manuals do; **it prints no
 Incline paragraph for Hill**, so the elevation description above does not come from that machine's
 manual.
+
+**The CT850ENT owner's manual prints both paragraphs word for word** (printed page 28), including
+"regression of Speed". **The 2016 and 2020 CT850 owner's manuals print the Speed paragraph only**
+(printed page 22), and write "a gradual regression of resistance" as the XT manuals do; **they print
+no Incline paragraph for Hill**, so the elevation description above does not come from those two
+manuals. **The 2018 CT850 manual prints no description of this program at all.**

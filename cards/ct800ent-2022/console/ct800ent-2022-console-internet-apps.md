@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-internet-apps
 title: The Internet section - streaming, news and social media apps
 kind: procedure
-question: How do I use the internet apps on a Spirit CT800ENT-2022 treadmill?
+question: How do I use the internet apps on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - how do i watch netflix on the treadmill
 - can i use the internet on the treadmill
@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -51,3 +52,11 @@ treadmill is put on a network is not answered here.
 The CT900ENT manual describes a different arrangement: **6 basic internet sites** chosen through an
 Internet interface, configurable from its Maintenance program (`ct900ent-internet-browsing`). That
 is a different machine; do not carry the count or the site manager onto this one.
+
+**The CT850ENT-2022 owner's manual prints this section word for word on its p. 19.** Its console
+chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800ENT-2022's, page for
+page and line for line, so this card covers that machine.
+
+Neither manual gives a network setup procedure - nothing about WiFi, Ethernet, a password screen or
+an administrator menu - so how either treadmill is put on a network is not answered here, even
+though both make internet access a requirement.

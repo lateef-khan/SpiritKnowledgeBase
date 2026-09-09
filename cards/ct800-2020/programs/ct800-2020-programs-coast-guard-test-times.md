@@ -2,7 +2,7 @@
 id: ct800-2020-programs-coast-guard-test-times
 title: Coast Guard 1.5 mile run - maximum time to pass, from 12:52 for men under thirty
 kind: fact
-question: What are the Coast Guard 1.5 mile run standards on a ct800-2020 treadmill?
+question: What are the Coast Guard 1.5 mile run standards on a Spirit treadmill that prints a pass time table?
 asked_as:
 - coast guard fitness test standards
 - what is a passing coast guard run time
@@ -18,9 +18,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2020
+  model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   section: programs
   code: '*'
 authority: 3
@@ -57,3 +59,8 @@ For more information visit: http://bit.ly/SF-CoastGuard
 The CT800ENT manual offers the same Coast Guard test and calls it a timed 1.5 mile run with the
 speed controlled manually, but **prints its table as a picture**, so no values are recorded for that
 machine.
+
+**The 2016 and 2020 CT850 owner's manuals print this same table, value for value** (both on printed
+page 29). **The 2018 CT850 has no Coast Guard test.** The CT850ENT manual offers the test and calls
+it a timed 1.5 mile run with the speed controlled manually, but **prints its table as a picture**, so
+no values are recorded for that machine.

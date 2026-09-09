@@ -28,6 +28,9 @@ facets:
   - ct800-2020
   - ct800ent-2022
   - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   section: errors
   code: low-speed
 authority: 3
@@ -42,7 +45,7 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
-    56-57 (printed 55-56); all four CT800 owner's manuals print the same two-way row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 996-999), printed page 38 of the 2016 manual (text.md lines 989-992), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md lines 1088-1091) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1180-1181)
+    56-57 (printed 55-56); all four CT800 owner's manuals print the same two-way row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 996-999), printed page 38 of the 2016 manual (text.md lines 989-992), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md lines 1088-1091) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1180-1181); all four CT850 owner's manuals print the same two-way row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2016 manual (text.md lines 1085-1088) and of the 2020 manual (text.md lines 1084-1087), SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md lines 1048-1051) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual (text.md lines 1186-1187)
   extracted_at: '2026-09-08'
 ---
 
@@ -59,10 +62,15 @@ The checklist splits this by what the belt does first.
 **only code any CT800 owner's manual prints**; those manuals carry no error-code table at
 all.
 
-**The CT850 2020 manual answers this differently.** It drops the LS distinction entirely and says
-only `Reset power. If still no good contact service.` - see
-`ct850-2020-motor-not-responsive-after-start`. So does the CT900ENT
-(`ct900ent-motor-unresponsive-after-start`).
+**All four CT850 owner's manuals print it word for word too** - the 2016, 2018 and 2020
+manuals and the CT850ENT 2022 manual. The same holds there: `LS` is the **only code any
+CT850 owner's manual prints**, and none of the four carries an error-code table.
+
+**The CT850 2020 *service* manual answers this differently.** It drops the LS distinction
+entirely and says only `Reset power. If still no good contact service.` - see
+`ct850-2020-motor-not-responsive-after-start`. That is the service document disagreeing with
+the owner's manual for the same machine, not a second machine. The CT900ENT gives the short
+answer as well (`ct900ent-motor-unresponsive-after-start`).
 
 **Three look-alikes for the same symptom.** The Spirit XT manuals print `E1` in this row
 rather than `LS` (`xt-2023-errors-e1-motor-not-responsive`), and several Sole treadmills

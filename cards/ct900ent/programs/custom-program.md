@@ -18,6 +18,7 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -48,3 +49,6 @@ manual does not print:
 The button-console CT800 generations build a Custom program segment by segment from the console
 windows and never say how many segments it holds - see
 `spirit-ct800-programs-custom-program-build`.
+
+**The CT850ENT owner's manual states the same twenty segments, the same on-screen keyboard and the
+same three-step sequence as the CT800ENT** (printed page 31).

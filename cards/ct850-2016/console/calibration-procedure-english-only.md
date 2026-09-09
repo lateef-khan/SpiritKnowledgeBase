@@ -29,6 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-calibration-procedure-metric-or-english
+- ct850-2016-console-calibration-minimum-speed-0-5
 see_also:
 - ct850-2016-calibration-procedure-metric-or-english
 - ct850-2016-incline-calibration-fails-checks
@@ -66,3 +67,7 @@ speed. So the two copies disagree on the maximum by about 0.7 kph and agree on t
 
 This copy is step 1 of the incline troubleshooting sequence: run calibration, and if it fails work
 through the wiring and voltage checks that follow it.
+
+**A third routine for this machine is printed in the owner's manual**, on its p. 38: entered by
+holding **Start and Speed Up**, offering Metric or Imperial, and setting a **maximum of 15.0** -
+`ct850-2016-console-calibration-minimum-speed-0-5`.

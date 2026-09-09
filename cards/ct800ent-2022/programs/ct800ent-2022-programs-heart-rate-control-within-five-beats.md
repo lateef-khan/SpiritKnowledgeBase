@@ -3,8 +3,7 @@ id: ct800ent-2022-programs-heart-rate-control-within-five-beats
 title: Heart Rate 1 and Heart Rate 2 default to 65 and 80 percent and hold you within
   five beats of target
 kind: fact
-question: How do the Heart Rate 1 and Heart Rate 2 programs work on a ct800ent-2022
-  treadmill?
+question: How do the Heart Rate 1 and Heart Rate 2 programs work on a Spirit touchscreen treadmill?
 asked_as:
 - what does the heart rate program do
 - can i change my target heart rate
@@ -23,9 +22,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -65,3 +65,8 @@ must not be carried across.
 
 The CT900ENT manual states the same five-beat behaviour and a 65% default but never prints a figure
 for its HR2 - see `ct900ent-hr-program`.
+
+**The CT850ENT owner's manual prints this same page word for word** (printed pages 30 and 40),
+including the 65% and 80% defaults, the five-beat tolerance, the option of changing the target
+yourself and the "No Heart Rate Detected" note. It likewise prints no step-by-step Heart Rate setup
+sequence.

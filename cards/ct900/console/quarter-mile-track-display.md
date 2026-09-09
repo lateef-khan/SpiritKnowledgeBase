@@ -21,6 +21,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
   - ct900
   section: console
   code: '*'
@@ -46,3 +48,12 @@ The 1/4-mile track (0.4 km) will be displayed around the dot matrix window. The 
 around it - so do not read that machine's layout onto these: `ct850-2020-quarter-mile-track`. **The
 CT800ENT-2022 has no track ring**; its touchscreen draws a virtual track as one of the workout
 views.
+
+**The CT850-2016 and CT850-2018 owner's manuals print this paragraph word for word** - 2016 p. 19,
+2018 p. 18 - so this card covers those machines.
+
+**The CT850-2020 owner's manual prints it too, on its p. 19, saying "around the dot matrix window".
+Its own service manual says the track is to the left of the dot matrix window**
+(`ct850-2020-quarter-mile-track`). The two documents describe the same machine and disagree about
+where the ring is, so that machine is deliberately left off this card; read the placement off the
+console in front of you.

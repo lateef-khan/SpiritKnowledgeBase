@@ -25,7 +25,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -58,7 +61,19 @@ CT800ENT-2022 p. 18.
 | CT800 2012 and 2016 | "a more rapid increase / decrease by selecting a quick key, **2 through 6**, on left hand side of console" |
 | CT800 2020 | "a more rapid increase / decrease by selecting a rapid incline button, **1 through 15**, on left hand side of console" |
 | CT800ENT-2022 | No rapid incline keys are printed - the manual gives only the press-and-hold bullet |
-| CT850-2020 | The service manual draws a Direct Access Incline ladder but its numbering is not legible; see `ct850-2020-console-layout` |
+| CT850 2016 and 2020 | "a more rapid increase / decrease by selecting a rapid incline button, **1 through 15**, on left hand side of console" - the owner's manuals settle the ladder the service manual drawing leaves illegible |
+| CT850-2018 | No rapid incline keys. Incline is typed on the **numeric buttonpad**: press the Incline button, type the value, press Enter |
+| CT850ENT-2022 | No rapid incline keys - the manual gives only the press-and-hold bullet |
 
 **The CT800ENT-2022 manual prints only the first two bullets above.** It does not say the display
 shows incline as percent of grade, so do not quote that third bullet for that machine.
+
+**All four CT850 owner's manuals print this section** - 2016 p. 18, 2018 p. 17, 2020 p. 18,
+CT850ENT-2022 p. 18.
+
+**The CT850ENT-2022 manual prints only the first two bullets.** Like the CT800ENT-2022 it does not
+say the display shows incline as percent of grade, so do not quote that third bullet for it.
+
+**The CT850-2018 prints all three bullets and a fourth route to the value**: pressing the Incline
+button and typing the desired incline on the numeric buttonpad, then Enter. Typing a speed the same
+way is `ct850-2018-console-quick-start-numeric-buttonpad`.

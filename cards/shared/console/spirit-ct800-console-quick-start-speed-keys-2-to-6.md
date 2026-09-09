@@ -32,6 +32,8 @@ authority: 3
 not_to_be_confused_with:
 - ct850-2020-quick-start
 - ct800ent-2022-console-quick-start
+- spirit-ct850-console-quick-start-speed-keys-1-to-15
+- ct850-2018-console-quick-start-numeric-buttonpad
 see_also:
 - ct850-2020-pause-stop-reset
 - ct850-2020-incline-adjustment

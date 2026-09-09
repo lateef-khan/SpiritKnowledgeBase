@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
   - ct850-2020
   section: programs
   code: '*'
@@ -69,3 +70,11 @@ graph**; that sentence is from the CT850-2020 service manual only.
 The five-preset CT800 generation has a shorter version of this procedure with no Program button and
 no no-warm-up list - see `spirit-ct800-programs-preset-setup-steps`. The CT800ENT touchscreen has its
 own - see `ct800ent-2022-programs-entering-a-program-touchscreen`.
+
+**The 2016 CT850 owner's manual prints these same seven steps word for word** (printed page 20),
+including the Program button, the 20 minute default, the Stop button that returns to the previous
+screen, the Kcal readout sentence and the same no-warm-up list. The 2016 and 2020 CT850 manuals are
+the same document revised, and this page did not change between them.
+
+**The 2018 CT850 is not covered by this card.** Its version names no Program button and excludes the
+Calorie program from the press-Start-early shortcut - see `ct850-2018-programs-preset-setup-steps`.

@@ -3,7 +3,7 @@ id: ct800ent-2022-errors-speed-caps-at-12-mph
 title: 'The belt tops out near 12 mph while the display shows more: supply voltage and
   extension cords'
 kind: troubleshooting
-question: Why does a Spirit ct800ent-2022 treadmill only reach about 12 mph when the
+question: Why does a Spirit CT800ENT or CT850ENT treadmill only reach about 12 mph when the
   display shows a higher speed?
 asked_as:
 - treadmill wont go faster than 12 mph
@@ -22,9 +22,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: errors
   code: no-code
 authority: 3
@@ -37,7 +38,9 @@ not_to_be_confused_with:
 see_also: []
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: TROUBLESHOOTING, printed page 52; text.md lines 1184-1186
+  locator: TROUBLESHOOTING, printed page 52; text.md lines 1184-1186; the CT850ENT 2022
+    owner's manual prints the same row in TROUBLESHOOTING on printed page 52 (text.md
+    lines 1190-1192)
   extracted_at: '2026-09-09'
 ---
 
@@ -49,13 +52,16 @@ Do not use an extension cord. If an extension cord is required, it should be as 
 possible and heavy duty, 16-gauge minimum, low voltage. Contact an electrician or your
 Spirit Fitness dealer. A minimum of 110-volt AC current is required.
 
-**This is the only Spirit manual that prints 12 mph in this row.** Every other CT800
-generation, and the CT900ENT and XT manuals, print **approximately 7 mph** with otherwise
-the same cause and remedy (`ct900ent-speed-display-mismatch-caps-at-7mph`,
-`ct800-2020-errors-speed-caps-at-7-mph`). A caller who reports a belt capped at 7 mph on
-this machine is below even the figure this row uses, so do not answer them from the 7 mph
-cards either - the remedy is the same, the threshold is not.
+**Two Spirit manuals print 12 mph in this row, and they are the two ENT treadmills**: this one
+and the **CT850ENT 2022** owner's manual, which prints the row word for word, the 110-volt
+minimum and the 16-gauge figure included. Every other CT800 and CT850 generation, and the
+CT900ENT and XT manuals, print **approximately 7 mph** with otherwise the same cause and remedy
+(`ct900ent-speed-display-mismatch-caps-at-7mph`, `ct800-2020-errors-speed-caps-at-7-mph`). A
+caller who reports a belt capped at 7 mph on either of these machines is below even the figure
+this row uses, so do not answer them from the 7 mph cards either - the remedy is the same, the
+threshold is not.
 
-The manual does not say why the figure is 12 mph here rather than 7, and it prints no
-maximum speed anywhere else to compare it against: the CT800ENT owner's manual has no
-calibration procedure and no specification table.
+Neither manual says why the figure is 12 mph here rather than 7. The CT800ENT owner's manual
+prints no maximum speed anywhere else to compare it against - it has no calibration procedure
+and no specification table. The CT850ENT 2022 manual does have a calibration procedure, and it
+sets the maximum speed to **15.0**, higher than the 12 mph this row uses.

@@ -41,9 +41,11 @@ The manual's whole answer:
 
 > Reset power. If still no good contact service.
 
-**The CT850 2016 manual answers this at more length.** It splits the fault by what the belt does and
-sends the technician to calibration when the display shows `LS`. See
-`ct850-2016-motor-not-responsive-after-start`.
+**This is the 2020 *service* manual's answer. The 2020 owner's manual answers the same row at
+more length** and disagrees with it: it splits the fault by what the belt does and sends the
+reader to calibration when the display shows `LS`, exactly as the CT850 2016, 2018 and
+CT850ENT 2022 owner's manuals do. See `ct850-2016-motor-not-responsive-after-start`. Nothing
+in either document reconciles the two answers for this machine.
 
 The matrix carries a longer row for a treadmill that does not start at all:
 `ct850-2020-does-not-start-when-start-pressed`.

@@ -26,6 +26,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
   section: console
   code: '*'
@@ -61,3 +63,13 @@ is held with the strap instructions at `ctsbs900-heart-rate-chest-strap-pairing`
 
 **The CT800ENT-2022 is described differently** - "Polar and Bluetooth compatible", with no mention of
 coded transmissions - and has its own card: `ct800ent-2022-console-heart-rate-feature`.
+
+**The CT850 2016, 2018 and 2020 owner's manuals print this paragraph word for word** - 2016 p. 19,
+2018 p. 18, 2020 p. 19 - naming Polar compatible transmitters "including coded transmissions", so
+this card covers those machines. **The 2016 and 2020 manuals add one line, in their chest strap
+section rather than here:** *"Chest straps that operate using Bluetooth or ANT+ should also work
+with this machine."* The 2018 manual does not print that line. It is held with the strap
+instructions at `ctsbs900-heart-rate-chest-strap-pairing`.
+
+**The CT850ENT-2022 is described differently** - "Polar and Bluetooth compatible", with no coded
+transmissions - and is held at `ct800ent-2022-console-heart-rate-feature`.

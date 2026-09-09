@@ -33,6 +33,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct800-2020-programs-heart-rate-control-65-and-80-percent
+- spirit-ct850-programs-heart-rate-control-60-and-85-percent
 - ct800ent-2022-programs-heart-rate-control-within-five-beats
 - ct900-heart-rate-control-hrc
 see_also:
@@ -87,3 +88,10 @@ says and it is preserved.*
 
 The CT900 targets the same 60% and 85% but is set up from a numeric keypad with different on-screen
 prompts - see `ct900-heart-rate-control-hrc`. The two procedures are not interchangeable.
+
+**The 2016 and 2018 CT850 manuals print the same 60% and 85% figures but a different setup
+sequence** - the program is reached from the program menu or a dedicated HR button and the console
+prompts through the Message Center, not the HR1/HR2 buttons and Pulse window used here, and there is
+no retargeting with the Incline keys mid-workout. See
+`spirit-ct850-programs-heart-rate-control-60-and-85-percent`; the two procedures are not
+interchangeable.

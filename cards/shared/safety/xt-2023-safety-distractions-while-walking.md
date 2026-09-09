@@ -2,7 +2,7 @@
 id: xt-2023-safety-distractions-while-walking
 title: Watching television or reading while walking on the treadmill
 kind: policy
-question: Can I watch television or read while walking on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800 treadmill, or a 2026 Spirit 4.0T treadmill?
+question: Can I watch television or read while walking on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill?
 asked_as:
 - can i watch tv while on the treadmill
 - is it safe to read on a treadmill
@@ -27,6 +27,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -49,7 +53,7 @@ see_also:
 - 80t-2026-safety-getting-on-and-off-the-treadmill
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print it on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print it on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7
   extracted_at: '2026-09-09'
 ---
 
@@ -106,3 +110,21 @@ and 2020 manuals carry a bike manual's verb through this whole page. Nothing els
 changes - it is a request for caution, never a prohibition, and it names the same mechanism, a
 distraction costing you your balance. Read `pedaling` as `walking` for these two machines and do
 not quote the word to a customer.
+
+## The four CT850 owner's manuals carry the same defect
+
+| Manual | Printed as |
+|---|---|
+| CT850 2016 | `while pedaling on your treadmill` |
+| CT850 2018 | `while pedaling on your Treadmill` |
+| CT850 2020 | `while pedaling on your treadmill` |
+| CT850ENT-2022 | `while on your Treadmill` |
+
+**`pedaling` is the same bike-manual defect**, and the CT850 2018 manual carries it too. A CT850 is
+a treadmill with no pedals. Nothing else in the sentence changes - it is a request for caution,
+never a prohibition, and the mechanism named is the same. Read `pedaling` as `walking` for those
+three machines and do not quote the word to a customer.
+
+**The CT850ENT-2022 manual corrects it**, dropping the verb entirely and saying
+`while on your Treadmill`, exactly as the CT800ENT manual does.
+

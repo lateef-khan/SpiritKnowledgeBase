@@ -3,8 +3,7 @@ id: ct800ent-2022-programs-fitness-test-before-during-after
 title: Before, during and after a fitness test, where only the Gerkin test warms up
   for three minutes
 kind: procedure
-question: What should I do before, during and after a fitness test on a ct800ent-2022
-  treadmill?
+question: What should I do before, during and after a fitness test on a Spirit touchscreen treadmill?
 asked_as:
 - how do i prepare for the fitness test
 - how long is the warm up on the fitness test
@@ -24,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -68,3 +68,8 @@ that restriction - see `ct900-gerkin-wfi-test-procedure`.
 **This manual prints no list of the data shown during the test.** The 2012, 2016 and 2020 manuals
 list time, incline, distance, speed, target heart rate and actual heart rate; do not carry that list
 across.
+
+**The CT850ENT owner's manual prints this same guidance word for word** (printed page 33), with the
+same three headings, the same "(GERKIN only)" restriction on the three minute warm-up at 3 MPH, and
+the same "(sold separately)" on the chest strap. It likewise prints no list of the data shown during
+the test.

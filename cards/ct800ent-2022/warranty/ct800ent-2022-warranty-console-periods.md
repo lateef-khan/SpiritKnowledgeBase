@@ -2,7 +2,7 @@
 id: ct800ent-2022-warranty-console-periods
 title: The console is covered for 3 years parts and 1 year labor
 kind: policy
-question: How long is the console covered on a ct800ent-2022 treadmill?
+question: How long is the console covered on a Spirit CT800ENT or CT850ENT treadmill?
 asked_as:
 - how long is the touchscreen covered
 - is the console under warranty
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -36,8 +37,10 @@ see_also:
 - spirit-ct800-warranty-use-environment
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: Warranty table, CONSOLE PARTS and CONSOLE LABOR columns, p. 53, text.md
-    lines 1209-1211
+  locator: 'Warranty table, CONSOLE PARTS and CONSOLE LABOR columns, CT800ENT 2022
+    p. 53 (text.md lines 1209-1211). The same two columns with the same two figures
+    are printed in the CT850ENT 2022 manual, p. 53 (spirit-treadmill-ct850ent-2022-owners-manual
+    text.md lines 1215-1217)'
   extracted_at: '2026-09-09'
 ---
 
@@ -52,7 +55,9 @@ The two columns sit at the right-hand end of the CT800ENT warranty table, after 
 
 **These are not the Parts and Labor columns.** Parts is 5 Years commercial and 10 Years residential, and Labor is 2 Years in both rows. Quoting Parts for a dead console promises up to seven years the manual does not give; quoting Labor doubles the console labor period. The other four columns are in `spirit-ct800-warranty-commercial-periods` and `spirit-ct800-warranty-residential-periods`.
 
-**No other CT800 manual prints these columns.** The 2012, 2016 and 2020 manuals print Frame, Motor/Deck, Parts and Labor and nothing else, so they state **no** console period at all. Do not read 3 Years onto a non-ENT CT800.
+**Only the two ENT manuals print these columns.** The CT800 2012, 2016 and 2020 manuals and the CT850 2016, 2018 and 2020 manuals print Frame, Motor/Deck, Parts and Labor and nothing else, so they state **no** console period at all. Do not read 3 Years onto a non-ENT CT800 or CT850.
+
+**The CT850ENT prints the same table.** Its warranty table carries the same two columns, headed CONSOLE PARTS: and CONSOLE LABOR:, reading 3 Years and 1 Year in both rows - identical figures, on a manual whose effective date is July 03, 2024 rather than the CT800ENT's March 15, 2024.
 
 **The Spirit XT ENT machines print a console column too, and it is not this one.** Theirs reads 2 Years residential and 1 Year light commercial, headed *Console Parts* or *Touchscreen* - see `spirit-xt-ent-warranty-console-screen-period`. Three years is a CT800ENT figure only.
 

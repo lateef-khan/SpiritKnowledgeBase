@@ -2,7 +2,7 @@
 id: ct800ent-2022-programs-hiit-eight-intervals
 title: HIIT defaults to eight intervals with sprint and rest periods of 20 to 90 seconds
 kind: procedure
-question: How do I set up the HIIT program on a ct800ent-2022 treadmill?
+question: How do I set up the HIIT program on a Spirit touchscreen treadmill that defaults to eight intervals?
 asked_as:
 - how do i set up hiit
 - how many intervals does hiit do
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -60,3 +61,7 @@ intensity of the levels.
 
 **This manual prints no default sprint speed and no default rest speed.** The button-console
 generation offers 6.0 MPH and 3.0 MPH as defaults; do not assume those figures here.
+
+**The CT850ENT owner's manual prints this same procedure word for word** (printed page 32),
+including the default of 8 intervals, the 3 to 15 range, the 20 to 90 second sprint and rest periods
+and the 3-minute warm-up at 50% of sprint speed. It likewise prints no default sprint or rest speed.

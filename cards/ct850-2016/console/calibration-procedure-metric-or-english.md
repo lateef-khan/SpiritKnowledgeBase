@@ -29,6 +29,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-calibration-procedure-english-only
+- ct850-2016-console-calibration-minimum-speed-0-5
 see_also:
 - ct850-2016-calibration-procedure-english-only
 - ct850-2016-engineering-mode-menu
@@ -66,3 +67,8 @@ copy's 12.0 mph. 0.8 kph and 0.5 mph are the same speed.
 
 If calibration does not pass, the manual sends you to check the speed sensor alignment, and gives a
 separate wiring and voltage sequence for a failed incline calibration.
+
+**The CT850-2016 owner's manual prints a third calibration routine for this machine**, on its p. 38:
+entered by holding **Start and Speed Up** rather than INCLINE and SPEED, and setting a **maximum of
+15.0** with a minimum of 0.5 - `ct850-2016-console-calibration-minimum-speed-0-5`. Three documents,
+three maxima, two entry gestures. Read all three.

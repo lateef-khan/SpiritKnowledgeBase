@@ -32,6 +32,7 @@ see_also:
 - ct850-2016-tread-belt-tension-adjustment
 - ct850-black-particles-under-treadmill
 - ct850-2016-trips-onboard-10-amp-circuit
+- spirit-ct800-maintenance-belt-deck-cleaning-4000-hours
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.1 Tread belt and Deck, p. 54 (printed 53)
@@ -72,5 +73,12 @@ Section 9.1 never mentions lubricant, wax or flipping the deck, and this manual 
 lubrication procedure. Do not read the troubleshooting matrix's "insufficient lubricant" row as
 permission to lubricate — see `ct850-2016-tread-belt-lubrication`.
 
-**The CT850 2020 manual has no General Maintenance chapter**, so it contains no cleaning
-procedure of its own; do not assume this one applies to it.
+## The owner's manuals supply the missing half
+
+The CT850 2016 and 2020 owner's manuals both print a BELT/DECK section on page 39 that covers the
+same monthly wipe-down **and** the two things this service manual omits: the deck is **dual-sided
+and rated 4,000 hrs a side** before it must be flipped, and **no lubricant or wax goes on the
+surface**. See `spirit-ct800-maintenance-belt-deck-cleaning-4000-hours`.
+
+**The CT850 2020 *service* manual has no General Maintenance chapter**, so it contains no cleaning
+procedure of its own; do not assume this one applies to it. The CT850 2020 *owner's* manual does.

@@ -3,8 +3,8 @@ id: ct800-2020-maintenance-after-each-workout-checks
 title: Wiping down the sweat, tightening every bolt and levelling the unit before each
   use
 kind: procedure
-question: What routine maintenance does a Spirit ct800-2020 treadmill need after each
-  workout and before each use?
+question: What routine maintenance does a Spirit treadmill need after each workout
+  and before each use?
 asked_as:
 - what do i do after using the treadmill
 - how do i stop my treadmill making noise
@@ -25,9 +25,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2020
+  model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   section: maintenance
   code: '*'
 authority: 3
@@ -43,7 +45,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: p. 44 GENERAL MAINTENANCE; the noise row is in the TROUBLESHOOTING table
-    on p. 43
+    on p. 43. The same three items and the same noise row are CT850 2016 pp. 43-44
+    and CT850 2020 pp. 43-44
   extracted_at: '2026-09-09'
 ---
 
@@ -53,6 +56,9 @@ source:
    **leveling pads on the bottom of the feet** to adjust height.
 
 The manual gives no wrench size for the levelers here and does not say how many pads there are.
+
+The **CT850 2016** and **CT850 2020** owner's manuals print the same three items word for word, on
+the same page 44, with the sanitizing section beneath them.
 
 ## The same advice is printed a second time, as a fault
 
@@ -65,14 +71,14 @@ The troubleshooting table on the previous page states it as a symptom rather tha
 That row is the same remedy in fewer words, and it is where a customer reporting a noise will be
 sent. It names "a wrench" without a size, as the list above does.
 
-## This is a shorter list than the 2016 manual's
+## This is a shorter list than the CT800 2016 and CT850 2018 manuals print
 
-The **CT800 2016** manual answers the same noise question with a different and longer list - a
-crank arm nut, **2 leveling pads on the rear stabilizer** and a **14mm wrench**, plus the claim
-that 90% of noise calls are loose hardware
-(`ct800-2016-maintenance-squeak-thump-or-clicking`). **None of those figures is printed in the 2020
-manual**, so none of them can be quoted for this machine. The **CT800 2012** and **CT800ENT 2022**
-manuals print no such section at all.
+The **CT800 2016** and **CT850 2018** manuals answer the same noise question with a different and
+longer list - a crank arm nut, **2 leveling pads on the rear stabilizer** and a **14mm wrench**,
+plus the claim that 90% of noise calls are loose hardware
+(`ct800-2016-maintenance-squeak-thump-or-clicking`). **None of those figures is printed in the
+manuals this card covers**, so none of them can be quoted for these machines. The **CT800 2012**,
+**CT800ENT 2022** and **CT850ENT 2022** manuals print no such section at all.
 
-For sanitizing rather than a routine sweat wipe-down, see `ct900-sanitizing-equipment`; the 2020
-manual prints that section on the same page.
+For sanitizing rather than a routine sweat wipe-down, see `ct900-sanitizing-equipment`; all three
+of these manuals print that section on the same page.

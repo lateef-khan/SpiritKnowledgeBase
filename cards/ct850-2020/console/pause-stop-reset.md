@@ -26,6 +26,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
   section: console
   code: '*'
@@ -58,4 +60,12 @@ p. 11, 2016 p. 16, 2020 pp. 17-18 - so this card covers those machines.
 
 **The CT800ENT-2022 prints only the first three.** Its manual has no hold-to-reset and no step-back
 bullet, and it does not say speed and incline return to their previous settings on resume:
+`ct800ent-2022-console-pause-stop`.
+
+**The CT850 2016, 2018 and 2020 owner's manuals print all six behaviours** - 2016 pp. 17-18, 2018
+p. 16, 2020 pp. 17-18 - under the heading PAUSE/STOP/PRESET, so this card covers those machines. The
+2016 and 2020 manuals write "more than 3 seconds" where the 2018 manual writes "more than three
+seconds"; it is the same figure.
+
+**The CT850ENT-2022 touchscreen prints only the first three**, like the CT800ENT-2022:
 `ct800ent-2022-console-pause-stop`.

@@ -2,7 +2,7 @@
 id: xt-2023-safety-console-key-pressure
 title: How hard the console keys should be pressed
 kind: fact
-question: How hard should I press the console keys on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), on a Spirit CT800 treadmill, or on a 2026 Spirit 4.0T treadmill?
+question: How hard should I press the console keys on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), on a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or on a 2026 Spirit 4.0T treadmill?
 asked_as:
 - do i have to press the buttons hard
 - my treadmill buttons dont respond
@@ -27,6 +27,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -48,7 +52,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print it on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print it on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7
   extracted_at: '2026-09-09'
 ---
 
@@ -86,3 +90,7 @@ without the closing full stop. Pressing harder is not the fix in either.
 `console control keys`, as the XT manuals do; the 2016, 2020 and ENT-2022 manuals write
 `console control buttons`. Pressing harder is not the fix in any of them, and none of the four adds
 the 4.0T manual's follow-up about contacting a dealer.
+
+**All four Spirit CT850 owner's manuals print the same two sentences**, writing
+`console control buttons` as the later CT800 manuals do. Pressing harder is not the fix in any of
+them, and none of the four adds the 4.0T manual's follow-up about contacting a dealer.

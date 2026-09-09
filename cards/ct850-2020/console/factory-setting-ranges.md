@@ -30,6 +30,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ctsbs900-factory-mode-min-max-speed
+- ct850-2020-console-calibration-minimum-speed-0-3
 see_also:
 - ct850-2020-incline-calibration
 - ct850-2016-calibration-procedure-metric-or-english
@@ -59,3 +60,9 @@ The elevation prompt is printed as `ADJUST MAX MAX ELEVATION` with MAX twice; it
 - The **CTSBS900** enters factory settings with the same Start + Speed Up gesture at power-on reset,
   but its ranges are min 0.5-0.6 mph / 0.8-1.0 kph and max 10.0-15.6 mph / 16.0-25.0 kph. Do not
   carry a value across from one machine to the other.
+
+**The CT850-2020 owner's manual tells the reader to set values this table does not allow.** Its
+calibration procedure on p. 38 says minimum speed **0.3** and maximum speed **15.0**
+(`ct850-2020-console-calibration-minimum-speed-0-3`); 15.0 is above the 10.0 to 12 range printed
+above, and 0.3 is the bottom of the min-speed range rather than the 0.5 default. The two documents
+describe the same machine. Both figures are reproduced as printed.

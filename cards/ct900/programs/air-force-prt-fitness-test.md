@@ -20,6 +20,9 @@ facets:
   - 80t-2026
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -54,3 +57,8 @@ The 2026 Spirit 8.0T owner's manual prints this same table, value for value, inc
 skipped 30-39 bracket (2016 printed page 23, 2020 printed page 28). The 2012 CT800 manual has no Air
 Force test. **The CT800ENT manual offers the Air Force test as a timed 1.5 mile run but prints its
 table as a picture**, so no values are recorded for that machine.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this same table, value for value** (2016 and
+2020 printed page 28, 2018 printed page 26), including the skipped 30-39 bracket. **The CT850ENT
+manual offers the Air Force test as a timed 1.5 mile run but prints its table as a picture**, so no
+values are recorded for that machine.

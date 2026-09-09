@@ -2,11 +2,11 @@
 id: spirit-ct800-safety-outlet-110-volt-15-amp
 title: The outlet is a nominal 110-volt, 15-amp dedicated circuit
 kind: policy
-question: What outlet and circuit does a Spirit CT800 treadmill of the 2012 or 2016 generation need?
+question: What outlet and circuit does a Spirit CT800 treadmill of the 2012 or 2016 generation, or a Spirit CT850-2018 treadmill, need?
 asked_as:
 - what outlet does the ct800 need
 - does the treadmill need its own circuit
-- what amp breaker for a ct800 treadmill
+- what amp breaker for a ct800 or ct850 2018 treadmill
 - can i plug anything else into the same socket
 keywords:
 - outlet
@@ -25,6 +25,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   section: safety
   code: '*'
 authority: 3
@@ -34,6 +35,7 @@ not_to_be_confused_with:
 - cvc800-outlet-and-circuit-requirement
 - xt-2015-safety-outlet-and-circuit-requirement
 see_also:
+- spirit-ct850-outlet-and-circuit-requirement
 - spirit-product-must-be-grounded
 - spirit-house-breaker-needs-a-high-inrush-type
 - spirit-never-use-a-gfci-wall-outlet
@@ -41,11 +43,12 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: Important Electrical Instructions and Grounding Instructions, page 3; the
-    CT800 2016 owner's manual prints both sentences on pages 4-5
+    CT800 2016 owner's manual prints both sentences on pages 4-5 and the CT850 2018 owner's
+    manual on page 5
   extracted_at: '2026-09-09'
 ---
 
-**Both manuals state it twice, on the same chapter's two pages, and the two agree.**
+**Each manual states it twice, on the same chapter's two pages, and the two statements agree.**
 
 The Important Electrical Instructions page, closing the circuit-breaker paragraph:
 
@@ -77,3 +80,23 @@ The rest of that chapter is `spirit-product-must-be-grounded`,
 `spirit-temporary-adapter-for-a-two-pole-receptacle`, `spirit-never-use-a-gfci-wall-outlet` and
 `spirit-house-breaker-needs-a-high-inrush-type` - which is where the Grainger and QO120HM breaker
 examples are.
+
+## The Spirit CT850-2018 owner's manual prints the same two sentences
+
+**Word for word, and the rest of its family does not.** The CT850 2016, 2020 and ENT-2022 manuals
+ask for **120 volt at 20 amp** (`spirit-ct850-outlet-and-circuit-requirement`); the 2018 manual
+asks for the CT800 family's 110 volt at 15 amp:
+
+> The electrical outlet used should have a dedicated 15 amp circuit breaker.
+
+> This product is for use on a nominal 110-volt/15 amp dedicated circuit, and has a grounding plug
+> that looks like the plug illustrated below.
+
+- **110 volt, 15 amp, dedicated, grounded**, and no NEMA type.
+- Like the CT800 2012 and 2016 manuals it prints no `flat level surface` sentence and never says in
+  words that nothing else may share the circuit; `dedicated` is the only word it uses.
+
+**This is a disagreement inside one machine family and no manual resolves it.** A CT850-2018 is the
+same commercial treadmill the 2016 and 2020 books describe at 120 volt and 20 amp. Quote the figure
+from the machine's own manual and say plainly that the other CT850 books print a different one; do
+not average them or pick the larger.

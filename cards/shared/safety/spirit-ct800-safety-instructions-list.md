@@ -2,10 +2,10 @@
 id: spirit-ct800-safety-instructions-list
 title: The appliance safety precautions printed before you use the treadmill
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit CT800 treadmill?
+question: What does the Important Safety Instructions page say for a Spirit CT800 or CT850 treadmill?
 asked_as:
 - what are the safety rules for my treadmill
-- safety instructions page of the ct800 manual
+- safety instructions page of the ct800 or ct850 manual
 - what does the manual say i must not do
 - read all instructions before using this appliance
 keywords:
@@ -28,12 +28,16 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct800ent-2022-safety-instructions-list
 - xt-2015-safety-instructions-list
+- ct900ent-general-safety-warnings
 see_also:
 - spirit-ct800-safety-who-may-use-the-treadmill
 - spirit-ct800-safety-user-weight-limit-450-lbs
@@ -44,7 +48,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: Important Safety Instructions, page 2; the CT800 2016 owner's manual prints
-    the same page on pages 3-4 and the CT800 2020 owner's manual on pages 4-5
+    the same page on pages 3-4 and the CT800 2020 owner's manual on pages 4-5. The CT850
+    owner's manuals print the same page on pages 4-5 (2016), pages 3-4 (2018) and pages 4-5 (2020)
   extracted_at: '2026-09-09'
 ---
 
@@ -118,3 +123,34 @@ not answer an ENT machine from this card: `ct800ent-2022-safety-instructions-lis
 **The 2016 and 2020 manuals carry the California Proposition 65 warning** on their Important
 Operation Instructions page (`xt-2015-safety-proposition-65-warning`). **The 2012 manual prints no
 Proposition 65 warning anywhere.**
+
+## The CT850 2016, 2018 and 2020 manuals print this same list
+
+**All three print the CT800 2016 and 2020 list word for word**, including all four of the added
+items - the 450 lb weight limit, the reduced-capability clause, `Keep children under the age of 13
+away from this machine` and the ASTM F2115-05 clearance figures. `The appliance is intended for
+household use` is printed on all three of these commercial CT850 manuals too; it is the same
+appliance-list boilerplate and not a restriction on where the machine may be installed.
+
+**The 2018 manual rearranges the two headings and changes nothing else.** The 2016 and 2020
+manuals put `When using an electrical appliance, basic precautions should always be followed` and
+`Read all instructions before using this appliance` above a DANGER line and a
+`WARNING - To reduce the risk of burns, fire electric shock, or injury to persons` heading. The
+2018 manual prints the DANGER line first, then the WARNING box, and folds
+`To reduce the risk of burns, fire electric shock, or injury to persons` and
+`Read all instructions before using this appliance` into the list as its first two bullets. Every
+item, and the closing `SAVE THESE INSTRUCTIONS - THINK SAFETY!`, is the same.
+
+**The CT850ENT-2022 manual prints a different list**, the treadmill-specific one the CT800ENT
+manual prints - handrails, proper shoes, pinch points, pulse sensors, an extension cord gauge and a
+grounded outlet - and drops the blanket, air-openings, unattended, carry-by-cord and household-use
+items entirely. Do not answer a CT850ENT from this card:
+`ct800ent-2022-safety-instructions-list`.
+
+The three cross-references above hold for these manuals too: the grounded-outlet bullet is stated
+at length on the grounding page (`spirit-product-must-be-grounded`), the DANGER line about
+unplugging is joined by the cover rule on the electrical page
+(`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`), and the close-supervision bullet sits
+with two further user rules (`spirit-ct800-safety-who-may-use-the-treadmill`). All three carry the
+California Proposition 65 warning on their Important Operation Instructions page
+(`xt-2015-safety-proposition-65-warning`).

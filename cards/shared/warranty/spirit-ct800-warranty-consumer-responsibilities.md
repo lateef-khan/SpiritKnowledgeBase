@@ -2,8 +2,8 @@
 id: spirit-ct800-warranty-consumer-responsibilities
 title: What the consumer or non-dues-paying facility must do for the warranty to apply
 kind: policy
-question: What is the owner or facility responsible for under the Spirit CT800 treadmill
-  warranty?
+question: What is the owner or facility responsible for under the Spirit CT800 or
+  CT850 treadmill warranty?
 asked_as:
 - what do i have to do to keep my warranty
 - who pays to move the treadmill for a repair
@@ -29,6 +29,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -46,7 +50,10 @@ source:
   locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER, p. 25, text.md lines 1101-1112.
     The same seven items in the same order are printed in all four CT800 manuals: 2012
     p. 25 (lines 1101-1112), 2016 p. 41 (lines 1069-1080), 2020 p. 45 (lines 1164-1175),
-    CT800ENT 2022 p. 53 (lines 1214-1224)'
+    CT800ENT 2022 p. 53 (lines 1214-1224). They are printed again, unchanged, in all
+    four CT850 owner''s manuals: ct850-2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual
+    text.md lines 1161-1172), ct850-2018 p. 45 (lines 1153-1165), ct850-2020 p. 45
+    (lines 1160-1171), ct850ent-2022 p. 53 (lines 1220-1230)'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,16 +67,16 @@ The consumer or non-dues paying facility is responsible for the items listed bel
 6. Damages to the fitness equipment finish during shipping, installation or following installation.
 7. Routine maintenance of this unit as specified in this manual.
 
-**The seven items are word for word identical in all four CT800 manuals.** Only the heading and its lead sentence change, and only in the CT800ENT:
+**The seven items are word for word identical in all eight manuals** - the four CT800 owner's manuals and the four CT850 ones. Only the heading and its lead sentence change, and only in the two ENT manuals:
 
 | Manual | Heading | Lead sentence |
 |---|---|---|
-| CT800 2012, 2016, 2020 | NORMAL RESPONSIBILITIES OF THE CONSUMER | The consumer or non-dues paying facility is responsible for the items listed below |
-| CT800ENT 2022 | NORMAL RESPONSIBILITIES OF THE FACILITY | The non-dues paying facility is responsible for the items listed below |
+| CT800 2012, 2016, 2020; CT850 2016, 2018, 2020 | NORMAL RESPONSIBILITIES OF THE CONSUMER | The consumer or non-dues paying facility is responsible for the items listed below |
+| CT800ENT 2022; CT850ENT 2022 | NORMAL RESPONSIBILITIES OF THE FACILITY | The non-dues paying facility is responsible for the items listed below |
 
-**The CT800ENT drops the consumer.** Its list addresses a facility only, and its opening paragraph says the warranty is administered "directly to a **facility**" where the other three say "directly to a consumer" - yet it still prints a Residential row in its warranty table. The manual never reconciles the two.
+**The ENT manuals drop the consumer.** Their lists address a facility only, and their opening paragraph says the warranty is administered "directly to a **facility**" where the other six say "directly to a consumer" - yet both still print a Residential row in their warranty tables. Neither manual reconciles the two.
 
-Three items bite in practice. **Item 1** is the only place a CT800 manual states a registration deadline, and exclusion 6 backs it with an outright exclusion (`spirit-ct800-warranty-registration`). **Item 4** puts blown fuses, loose connections and defective house or facility wiring on the owner. **Item 5** makes getting the machine to a place where it can be worked on the owner's expense, not a warranty cost (`xt-2023-warranty-owner-costs`).
+Three items bite in practice. **Item 1** is the only place a CT800 or CT850 manual states a registration deadline, and exclusion 6 backs it with an outright exclusion (`spirit-ct800-warranty-registration`). **Item 4** puts blown fuses, loose connections and defective house or facility wiring on the owner. **Item 5** makes getting the machine to a place where it can be worked on the owner's expense, not a warranty cost (`xt-2023-warranty-owner-costs`).
 
 This list is only half of what governs the warranty - the other half is the ten numbered exclusions on the next page, `spirit-ct800-warranty-exclusions`.
 

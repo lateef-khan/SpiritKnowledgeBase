@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-layout
 title: Touchscreen console layout and the quick operating buttons below the screen
 kind: fact
-question: What is on the console of a Spirit CT800ENT-2022 treadmill?
+question: What is on the console of a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - what is on the treadmill console
 - where is the usb port on the treadmill
@@ -23,15 +23,17 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-console-layout
 - spirit-ct800-console-layout-blue-led-matrix-window
+- ct850-2018-console-layout-red-led-matrix-window
 see_also:
 - ct800ent-2022-console-quick-start
 - ct800ent-2022-console-home-screen
@@ -71,3 +73,10 @@ screen, or use the **Quick Operating Buttons** on the handlebar instead:
 
 The manual gives no rating, current or data capability for the USB charging port, and no dimension
 for the reading rack or the trays.
+
+**The CT850ENT-2022 owner's manual prints the same call-out drawing on its p. 15 and the same
+FUNCTIONS OF THIS TREADMILL paragraph on its p. 17**, with the same ten labels and the same four
+quick operating buttons, so this card covers that machine. Only the heading differs - CT850ENT
+CONSOLE OPERATION rather than CT800ENT.
+
+Neither manual gives a rating, current or data capability for the USB charging port.

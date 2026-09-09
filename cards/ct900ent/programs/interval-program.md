@@ -20,6 +20,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   - xt185-2015
   - xt285-2015
@@ -54,3 +57,10 @@ For the full segment-by-segment speed and incline values on the CT900ENT, see [P
 (printed page 24) and adds one sentence neither of the others prints - "Your cardiovascular system
 gets programmed to use oxygen more efficiently"; **it prints no Incline paragraph for Interval**, so
 the 25%/65% figures do not come from that machine's manual.
+
+**The CT850ENT owner's manual prints both paragraphs word for word** (printed page 30), including
+the 25% and 65% elevation figures. **The 2016 and 2020 CT850 owner's manuals print the Speed
+paragraph only** (printed page 23) and add the same sentence the 2020 CT800 manual adds - "Your
+cardiovascular system gets programmed to use oxygen more efficiently"; **they print no Incline
+paragraph for Interval**, so the 25%/65% figures do not come from those two manuals. **The 2018
+CT850 manual prints no description of this program at all.**

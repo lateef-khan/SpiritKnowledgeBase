@@ -2,7 +2,7 @@
 id: ct850-2016-reset-odometer-and-hours
 title: Resetting cumulated distance and time from the diagnostics screen
 kind: procedure
-question: How do I reset the odometer on a Spirit CT850-2016 treadmill?
+question: How do I reset the odometer on a Spirit CT850 treadmill?
 asked_as:
 - how do i zero the total miles on the treadmill
 - how do i see total hours on the console
@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
   - ct850-2016
+  - ct850-2018
   section: console
   code: '*'
 authority: 3
@@ -50,3 +51,11 @@ ENTER; the sequence itself is unambiguous.
 
 Engineering mode has a separate **Maintenance** item that also resets the odometer reading. The
 manual does not say whether the two clear the same counter.
+
+**The CT850-2018 owner's manual prints these three steps on its p. 44**, under RESETTING CUMULATED
+DISTANCE/TIME, with the same 0 + Enter entry, the same 7-8-9-7 clear sequence and the same statement
+that total time is in the Time window while total mileage and the software version are in the
+Message Window, so this card covers that machine. It prints step 2 without the typo.
+
+**The 2016 and 2020 CT850 owner's manuals print no diagnostics screen.** They reset the odometer
+only through the engineering mode Maintenance item.

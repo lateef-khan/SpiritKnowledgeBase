@@ -2,7 +2,7 @@
 id: spirit-ct800-programs-fitness-test-entry-weight-age-gender
 title: Starting a fitness test by entering your weight, then age, then gender
 kind: procedure
-question: What does a Spirit CT800 treadmill ask for before a fitness test starts?
+question: What does a Spirit treadmill ask for before a fitness test starts, on a console that asks for weight first?
 asked_as:
 - what do i have to enter before the fitness test
 - does the fitness test ask for my gender
@@ -25,6 +25,8 @@ facets:
   applies_to:
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   section: programs
   code: '*'
 authority: 3
@@ -59,3 +61,10 @@ fourth value, height - see
 `ct800ent-2022-programs-fitness-test-entry-age-weight-height-gender`.
 
 For what to do before, during and after the test itself, see `ct900-gerkin-wfi-test-procedure`.
+
+**The 2016 and 2020 CT850 owner's manuals print these same four steps word for word** (both on
+printed page 26), with weight in the Distance window and age and gender both in the Incline window.
+
+**The 2018 CT850 is not covered by this card.** That manual prints the sequence twice in two
+disagreeing versions, and puts weight in the Incline window on one of them - see
+`ct850-2018-programs-fitness-test-entry`.

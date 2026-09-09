@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-language-selection
 title: Choosing one of the 13 display languages by tapping it
 kind: procedure
-question: How do I change the display language on a Spirit CT800ENT-2022 treadmill?
+question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - how do i change the language on the treadmill
 - how do i switch the treadmill to spanish
@@ -19,9 +19,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -47,3 +48,9 @@ source:
 survives the end of a workout. The CT900ENT touchscreen offers **12** and returns to a default
 language set in its Maintenance menu; that is a different machine and a different count:
 `ct900ent-language-selection`.
+
+**The CT850ENT-2022 owner's manual prints this section word for word on its p. 19.** Its console
+chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800ENT-2022's, page for
+page and line for line, so this card covers that machine.
+
+Neither manual prints which 13 languages they are.

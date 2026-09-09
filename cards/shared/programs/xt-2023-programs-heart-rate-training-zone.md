@@ -27,6 +27,7 @@ facets:
   - 40t-2026
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   - xt285-2015
   - xt385-2015
   - xt385-2023
@@ -92,3 +93,10 @@ would like to pursue"**; it does not print that closing paragraph. Neither ENT m
 the pedals"** - the bike-manual boilerplate, on a treadmill. Both also say the heart rate monitor
 feature may be used during manual mode or during any of the nine different programs. **The 2020 and
 CT800ENT manuals print 65% and 80% instead - see `ct900-heart-rate-exertion-target-zones`.**
+
+**The 2018 CT850 owner's manual prints this same 60% / 80% guidance and the same 108-to-144
+example** (printed pages 30-31). Like the 2015 XT manuals and the 2012 and 2016 CT800 manuals, **it
+ends the closing paragraph with "The Heart Rate program automatically controls resistance at the
+pedals"** - the bike-manual boilerplate, on a treadmill. It also says the heart rate monitor feature
+may be used during manual mode or during any of the nine different programs. **The 2016, 2020 and
+CT850ENT manuals print 65% and 85% instead - see `ct900-heart-rate-exertion-target-zones`.**

@@ -2,7 +2,7 @@
 id: ct900-gerkin-protocol
 title: Gerkin protocol (fireman's sub-max VO2 test) - stage chart
 kind: fact
-question: What is the Gerkin protocol on a CT900 and what are its stages?
+question: What is the Gerkin protocol on a Spirit treadmill whose second stage starts at one minute, and what are its stages?
 asked_as:
 - what is the gerkin test
 - fireman vo2 test
@@ -18,8 +18,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - ct850-2018
   - ct900
   section: programs
   code: '*'
@@ -86,3 +87,11 @@ The Gerkin protocol, also known as the fireman's protocol, is a sub-max Vo2 (vol
 | 11.4 | 11:00 | 7.0mph | 10% | 80 |
 
 For the before/during/after procedure common to both Gerkin and WFI, see [Gerkin/WFI test procedure](gerkin-wfi-test-procedure.md). To interpret the resulting VO2max score, see [VO2max score interpretation](vo2max-score-interpretation.md).
+
+**The 2018 CT850 owner's manual prints this same chart, value for value** (printed page 27),
+including stage 2.1 at 1:00 and the speeds and grades that step up a quarter-stage earlier than the
+other Spirit chart does. **That machine has no WFI test**, so on it this is the Gerkin chart only.
+
+**The 2016 and 2020 CT850 manuals print the other chart, the one whose stage 2.1 begins at 1:15** -
+see `spirit-2026t-programs-gerkin-chart`. The two are not interchangeable, and the difference is
+inside one model line: read the chart in the manual for the year of the machine in front of you.

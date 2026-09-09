@@ -2,7 +2,7 @@
 id: ct900ent-clearance-requirements
 title: Minimum clearance space required around the treadmill
 kind: policy
-question: How much clearance space does a Spirit CT900ENT, CT800-2016 or CT800-2020 treadmill need around it?
+question: How much clearance space does a Spirit CT900ENT, CT800 or CT850 treadmill need around it?
 asked_as:
 - how much space do i need around the treadmill
 - how far from the wall should the treadmill be
@@ -24,6 +24,9 @@ facets:
   applies_to:
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900ent
   section: safety
   code: '*'
@@ -31,9 +34,11 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct900ent-general-safety-warnings
+- spirit-ct800-safety-instructions-list
+- ct800ent-2022-safety-placement-and-rear-clearance
 source:
   ref: ct900ent-om
-  locator: p. 4 The CT800 2016 owner's manual prints the same item on its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and the CT800 2020 owner's manual on its page 5
+  locator: p. 4 The CT800 2016 owner's manual prints the same item on its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and the CT800 2020 owner's manual on its page 5 The CT850 owner's manuals print it on the same page - 2016 page 5, 2018 page 4, 2020 page 5
   extracted_at: '2026-08-24'
 ---
 
@@ -52,3 +57,13 @@ anywhere. The CT800ENT-2022 manual cites no standard and gives only a rear dista
 1 metre between the rear of the treadmill and any fixed object, with no side figure:
 `ct800ent-2022-safety-placement-and-rear-clearance`. Quoting 19.7 in. for either of those two
 machines would be an invention.
+
+**The Spirit CT850 2016, 2018 and 2020 owner's manuals print the same item word for word**, as a
+bullet of their Important Safety Instructions list, citing ASTM F2115-05 6.1.2.11 and the same two
+figures - 0.5 m (19.7 in.) on each side and 1 m (39 in.) behind the machine
+(`spirit-ct800-safety-instructions-list`).
+
+**The CT850ENT-2022 manual does not print it.** Like the CT800ENT manual it cites no standard and
+gives only a rear distance - a minimum of 1 metre between the rear of the treadmill and any fixed
+object, with no side figure: `ct800ent-2022-safety-placement-and-rear-clearance`. Quoting 19.7 in.
+for a CT850ENT would be an invention.

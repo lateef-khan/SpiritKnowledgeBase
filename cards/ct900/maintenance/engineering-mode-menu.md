@@ -27,6 +27,7 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2020
   - ct900
   section: console
   code: '*'
@@ -35,6 +36,8 @@ not_to_be_confused_with:
 - spirit-ct800-console-engineering-mode-menu-with-units
 - ct850-2016-engineering-mode-menu
 - xt-2015-console-engineering-mode-menu
+- ct850-2016-console-engineering-mode-menu-with-units
+- ct850-2018-console-engineering-mode-menu-with-da-test
 see_also:
 - ct900-calibration-procedure
 - ct900-pause-stop-reset
@@ -89,3 +92,14 @@ it, so do not quote SERVICE MODE, the RPM and AMPS readout or the numbered test 
 - **1.3.8 SERVICE MODE** (Enter for Menu)
   - **1.3.8.1 INCLINE** (Enter to run) - Use Incline keys, then MW displays: HOME POS SW - OFF. When the switch is activated, display changes to ON.
   - **1.3.8.2 DRIVE MOTOR** (Enter to run) - Use Speed keys. Each key press increases motor speed 0.1 mph/kph. MW then shows: RPM ___ AMPS___. RPM is measured from the flywheel hall sensor. The Speed window shows MPH information.
+
+**The CT850-2020 owner's manual prints items 1 to 5 above word for word on its p. 41**, including
+the five Functions settings, the 30 minute sleep figure and the Security entry printed twice with
+the Incline UP unlock sequence, so this card covers that machine.
+
+**The CT850-2016 owner's manual prints a sixth Functions setting, Units**, between Maintenance and
+GS Mode, and is held separately: `ct850-2016-console-engineering-mode-menu-with-units`. **The
+CT850-2018 menu is different again** - Button Test, LCD Test, a Functions list with ODO Reset and a
+DA Test, and a 20 minute sleep figure:
+`ct850-2018-console-engineering-mode-menu-with-da-test`. **The CT850ENT-2022 manual has no
+engineering mode section at all.**

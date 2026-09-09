@@ -27,7 +27,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
   - ct850-2020
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -77,3 +79,15 @@ list counts to twelve on the page. **Its no-warm-up list adds the Fitness Tests*
 service manual only. The 2020 CT800 owner's manual prints a full segment chart
 (`spirit-ct800-programs-preset-speed-incline-chart`), and the CT800ENT manual prints one as a
 picture.*
+
+**The 2016 CT850 owner's manual prints this same list word for word** (printed page 20), with the
+same "twelve preset programs" count, the same eleven printed entries and the same no-warm-up list.
+It is the same manual as the 2020 one, revised: the two print this page identically.
+
+**The CT850ENT touchscreen offers the same twelve programs** and writes the two heart rate programs
+out separately, exactly as the CT800ENT does, so its printed list counts to twelve. Its no-warm-up
+list also adds the Fitness Tests.
+
+**The 2018 CT850 is a different lineup and is not covered by this card.** It has Calorie and Strength
+where this one has HIIT, and one Gerkin fitness test where this one has seven - see
+`ct850-2018-programs-twelve-program-lineup`.

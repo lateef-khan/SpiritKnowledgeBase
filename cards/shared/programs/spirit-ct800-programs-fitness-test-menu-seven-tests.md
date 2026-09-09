@@ -3,8 +3,7 @@ id: spirit-ct800-programs-fitness-test-menu-seven-tests
 title: 'The Fitness Test menu offers seven tests: Gerkin, Army, Navy, Air Force, Marines,
   PEB and Coast Guard'
 kind: fact
-question: Which fitness tests does a Spirit CT800 treadmill with a seven-test menu
-  offer?
+question: Which fitness tests does a Spirit treadmill with a seven-test menu offer?
 asked_as:
 - what fitness tests can this treadmill run
 - does it have a coast guard test
@@ -29,6 +28,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -64,3 +66,18 @@ the list and you tap the test you want.
 
 **Neither the WFI protocol nor the UK Chester Fireman test is on this menu**; those are CT900 and
 CTSBS900 tests.
+
+**The 2016 and 2020 CT850 owner's manuals print this same sentence word for word** (both on printed
+page 26), **including the same contradiction**: "the dot matrix displays the 5 different tests
+available: Gerkin, Army, Navy, Air Force, Marines, PEB, Coast Guard". Both reach the tests with the
+**Fit-Test** button, then the arrow button and Enter, and both print a standards table for all
+seven.
+
+**The CT850ENT touchscreen names the same seven** (printed page 33) in the order Coast Guard, Navy,
+Air Force, Army, Gerkin, Marine Corps, Physical Efficiency Battery (PEB), with no count of five. You
+tap the test you want. **Every one of its standards tables is printed as a picture and did not
+survive text extraction**, so no times or rating bands are recorded for that machine; read the
+original manual before quoting one.
+
+**The 2018 CT850 offers only five tests and has no PEB and no Coast Guard** - see
+`ct800-2016-programs-fitness-test-menu-five-tests`.

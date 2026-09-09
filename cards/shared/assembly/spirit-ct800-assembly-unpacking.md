@@ -2,8 +2,8 @@
 id: spirit-ct800-assembly-unpacking
 title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
-question: How do I unpack a Spirit CT800 or CT800ENT treadmill and get the hardware
-  ready for assembly?
+question: How do I unpack a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill and
+  get the hardware ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
 - how do i unbox my treadmill
@@ -28,6 +28,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   section: assembly
   code: '*'
 authority: 3
@@ -41,7 +45,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
-    manual under Pre-Assembly, p. 8 of the 2020 manual and p. 8 of the CT800ENT manual
+    manual under Pre-Assembly, p. 8 of the 2020 manual, p. 8 of the CT800ENT manual,
+    and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual
   extracted_at: '2026-09-09'
 ---
 
@@ -56,15 +61,18 @@ source:
 to inspect the parts for shipping damage, and they do not tell you to remove any
 protective film.
 
-## What differs between the four manuals
+## What differs between the eight manuals
 
-- **The 2012 manual does not carry the sentence "The hardware is separated into
-  four steps."** Everything else is word for word the same.
-- **The 2016 manual carries that sentence but prints only three assembly steps.**
-  The manual contradicts itself here; the hardware tables in it are headed STEP 1,
-  STEP 2 and STEP 3 and there is no step four. Take the step count from the steps,
-  not from this sentence.
-- The 2020 and CT800ENT manuals say four steps and print four.
+- **The CT800 2012 manual does not carry the sentence "The hardware is separated
+  into four steps."** Everything else is word for word the same.
+- **The CT800 2016 manual carries that sentence but prints only three assembly
+  steps.** The manual contradicts itself here; the hardware tables in it are headed
+  STEP 1, STEP 2 and STEP 3 and there is no step four. Take the step count from the
+  steps, not from this sentence.
+- The CT800 2020 and CT800ENT manuals say four steps and print four.
+- **All four CT850 manuals say four steps and print four**, the 2018 book included.
+  It is the only CT850 manual whose four steps are not the CT800 four steps; see its
+  own procedure card.
 
 ## This is not the CT900 wording
 

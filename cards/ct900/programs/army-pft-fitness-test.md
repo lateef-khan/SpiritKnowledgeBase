@@ -21,6 +21,9 @@ facets:
   - 80t-2026
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -56,3 +59,9 @@ page 23, 2020 printed page 28); the 2020 manual adds the bit.ly link. The 2012 C
 Army test at all - its only fitness test is Gerkin. **The CT800ENT manual offers the Army test and
 calls it a timed 2 mile run with the speed controlled manually, but prints its table as a picture**,
 so no values are recorded for that machine and none may be carried across from here.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this same table, value for value** (2016 and
+2020 printed page 28, 2018 printed page 26), all three with the bit.ly link. **The CT850ENT manual
+offers the Army test and calls it a timed 2 mile run with the speed controlled manually, but prints
+its table as a picture**, so no values are recorded for that machine and none may be carried across
+from here.

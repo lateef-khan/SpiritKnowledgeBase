@@ -2,7 +2,7 @@
 id: xt-2023-warranty-service-steps
 title: The order of steps for getting warranty service
 kind: procedure
-question: How do I get warranty service on a Spirit XT or CT800 treadmill?
+question: How do I get warranty service on a Spirit XT, CT800 or CT850 treadmill?
 asked_as:
 - how do i get my treadmill fixed under warranty
 - who do i call for a warranty repair
@@ -26,6 +26,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -61,7 +65,10 @@ source:
     address as a sixth step. XT685ENT p. 55 (text.md lines 1638-1657), which leaves it
     unnumbered. CT800 2012 p. 25 (text.md lines 1138-1153), CT800 2016 p. 43 (lines
     1120-1137), CT800 2020 p. 47 (lines 1214-1231), CT800ENT 2022 p. 55 (lines 1262-1279),
-    all four numbering the mailing address as a step 6'
+    all four numbering the mailing address as a step 6. CT850 2016 p. 47 (spirit-treadmill-ct850-2016-owners-manual
+    text.md lines 1207-1228), CT850 2018 p. 47 (lines 1200-1221), CT850 2020 p. 47
+    (lines 1206-1227), CT850ENT 2022 p. 55 (lines 1264-1285), all four numbering the
+    mailing address as a step 6 as well'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,12 +88,12 @@ Correspondence to the service department by mail:
 
 **The general contact details are not the same in the two generations, but the service department number in step 3 is.** Check which manual came with the machine:
 
-| | 2023 manuals | 2015 manuals | XT485ENT | XT685ENT | CT800 2012 | CT800 2016 / 2020 / ENT |
-|---|---|---|---|---|---|---|
-| Service department (step 3) | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 |
-| General / customer care | 1-800-258-8511 | 800.258.4555 | 800.258.4555 | 1-800-258-8511 | 800-258-4555 | 800.258.4555 |
-| Email | questions@spiritfitness.com | spiritservice@spiritfitness.com | spiritservice@spiritfitness.com | questions@spiritfitness.com | *none printed* | spiritservice@spiritfitness.com |
-| Back cover address | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 |
+| | 2023 manuals | 2015 manuals | XT485ENT | XT685ENT | CT800 2012 | CT800 2016 / 2020 / ENT | CT850 (all four) |
+|---|---|---|---|---|---|---|---|
+| Service department (step 3) | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 |
+| General / customer care | 1-800-258-8511 | 800.258.4555 | 800.258.4555 | 1-800-258-8511 | 800-258-4555 | 800.258.4555 | 800.258.4555 |
+| Email | questions@spiritfitness.com | spiritservice@spiritfitness.com | spiritservice@spiritfitness.com | questions@spiritfitness.com | *none printed* | spiritservice@spiritfitness.com | spiritservice@spiritfitness.com |
+| Back cover address | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 |
 
 The 2023 back cover adds Fax 870-935-7611; the 2015 back covers print no fax number.
 
@@ -94,8 +101,8 @@ The five steps are identical in all five 2023 XT manuals, in all five 2015 ones,
 
 **The XT485ENT splits the two generations.** It numbers the mailing address as a step 6, following the 2015 layout, but prints the 2015 general contact pair as well - 800.258.4555 and spiritservice@spiritfitness.com - on a manual whose model id says 2023. Its copyright line reads © 2021, revision 04.16.2021. The **XT685ENT** follows the 2023 layout and the 2023 contact pair throughout.
 
-**The four Spirit CT800 manuals print these five steps word for word**, trip charge and 100-mile surcharge included, and number the mailing address as a step 6 as the 2015 manuals do. Two things about them are their own. The 2012 manual heads the return address **Spirit Fitness** where the other three head it **SPIRIT FITNESS, INC.**, and it is the only CT800 manual with a fax number on its back cover (870-935-7611) and the only one that prints no email address anywhere. The address, the P.O. Box and the return-authorization rule are unchanged in all four.
+**The four Spirit CT800 manuals and the four CT850 ones print these five steps word for word**, trip charge and 100-mile surcharge included, and number the mailing address as a step 6 as the 2015 manuals do. The CT850 range prints the CT800 2016/2020/ENT contact pair on its back cover - 800.258.4555 and spiritservice@spiritfitness.com - with no fax number, in all four manuals. Two things about them are their own. The 2012 manual heads the return address **Spirit Fitness** where the other three head it **SPIRIT FITNESS, INC.**, and it is the only CT800 manual with a fax number on its back cover (870-935-7611) and the only one that prints no email address anywhere. The address, the P.O. Box and the return-authorization rule are unchanged in all four.
 
-**Step 4 is not the step every Spirit commercial manual prints.** The CT900, the CTSBS900 and the 2026 4.0T, 7.0T and 8.0T stop at shipping and handling on replacement parts; the XT manuals **and all four CT800 manuals** go on to charge the customer a trip charge for in-home service and an additional one beyond 100 miles. The split is by manual, not by residential versus commercial. What the owner ends up paying is collected in `xt-2023-warranty-owner-costs`.
+**Step 4 is not the step every Spirit commercial manual prints.** The CT900, the CTSBS900 and the 2026 4.0T, 7.0T and 8.0T stop at shipping and handling on replacement parts; the XT manuals **and all four CT800 and all four CT850 manuals** go on to charge the customer a trip charge for in-home service and an additional one beyond 100 miles. The split is by manual, not by residential versus commercial. What the owner ends up paying is collected in `xt-2023-warranty-owner-costs`.
 
 The same page repeats that the warranty applies only in the 48 contiguous United States - see `xt-2023-warranty-geographic-coverage`.

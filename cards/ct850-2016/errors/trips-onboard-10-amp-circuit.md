@@ -1,6 +1,6 @@
 ---
 id: ct850-2016-trips-onboard-10-amp-circuit
-title: The treadmill trips its own onboard breaker
+title: The treadmill trips its own onboard 10 amp circuit
 kind: troubleshooting
 question: Why does a Spirit CT850-2016 treadmill trip its onboard 10 amp circuit?
 asked_as:
@@ -45,9 +45,13 @@ source:
 That one line is the whole answer this manual gives.
 
 **Two figures in this manual disagree about the current.** This row says a **10 amp** onboard
-circuit; the safety instructions in section 7.1 call for a 120-volt **20-amp** grounded outlet. The
-CT850 2020 manual prints the row as a **20 amp** circuit and gives a longer answer:
+circuit; the safety instructions in section 7.1 call for a 120-volt **20-amp** grounded outlet.
+The CT850 2020 service manual prints the row as a **20 amp** circuit and gives a longer answer:
 `ct850-2020-trips-onboard-20-amp-circuit`.
+
+**10 amp is a figure only this service manual prints.** The CT850 **2016 owner's manual** prints
+the row for the very same machine against a **20 amp** circuit, with the longer clean / amp-draw
+/ deck-flip answer (`ct850-2020-trips-onboard-20-amp-circuit`). Nothing reconciles the two.
 
 If the *house* breaker trips and this one does not, that is a different row:
 `ct850-2016-house-breaker-trips-not-treadmill-breaker`. The deck and belt work that reduces the

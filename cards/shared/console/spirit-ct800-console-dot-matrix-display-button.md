@@ -25,6 +25,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   section: console
   code: '*'
 authority: 3
@@ -65,3 +66,8 @@ show blinks. One more press of the Display button returns you to the Track profi
 
 On this console the scrolling text is a separate window - the 20-character Message Center - not the
 same panel as the dots: `ct850-2020-message-window-display`.
+
+**The CT850-2018 owner's manual prints these two paragraphs word for word on its p. 17**, under DOT
+MATRIX CENTER DISPLAY and with the same Display button, so this card covers that machine. It prints
+the message window as a separate section on the next page
+(`ct850-2020-message-window-display`), where the 2012 CT800 manual folds the sentence in here.

@@ -29,6 +29,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   - ct900
   section: maintenance
   code: '*'
@@ -41,10 +42,11 @@ see_also:
 - ct900-treadbelt-tracking-adjustment
 - ct900ent-belt-tension-adjustment
 - spirit-ct800-maintenance-schedule-tasks
+- spirit-ct800-assembly-parts-included
 source:
   ref: ct900-om
   locator: 'CT900 owner''s manual p. 36; the same two paragraphs are CT800 2012 p.
-    21 and CT800 2016 p. 33'
+    21, CT800 2016 p. 33 and CT850 2018 p. 37'
   extracted_at: '2026-08-24'
 ---
 
@@ -52,13 +54,26 @@ Your treadmill uses a very high-efficient, low-friction hard waxed deck. Perform
 
 The low maintenance (routine monthly cleaning), dual-sided hard wax deck is designed to withstand up to **20,000 miles on each side**. If the original side of the deck shows significant wear, it needs to be flipped. Contact your service technician for assistance. **Do not apply any type of lubricant or wax to the surface.**
 
-## The CT800 2012 and 2016 manuals print this word for word
+## The CT800 2012 and 2016 and the CT850 2018 print this word for word
 
-Both carry the same hard waxed deck, the same monthly routine and the same **20,000 miles a side**,
-in the same sentences. The CT800 2012 manual prints it on page 21 and the CT800 2016 manual on
-page 33, each in a chapter headed *General Maintenance*.
+All three carry the same hard waxed deck, the same monthly routine and the same **20,000 miles a
+side**, in the same sentences. The CT800 2012 manual prints it on page 21, the CT800 2016 manual on
+page 33 and the CT850 2018 manual on page 37, each in a chapter headed *General Maintenance*.
 
-**The later CT800 manuals do not.** The CT800 2020 and CT800ENT 2022 replace the hard waxed deck
-with a "proprietary belt/deck combination" and replace the figure with **4,000 hrs a side** - a
-different unit as well as a different number. Answer those two from
-`spirit-ct800-maintenance-belt-deck-cleaning-4000-hours`, never from this card.
+**The neighbouring manuals do not.** The CT800 2020, CT800ENT 2022, CT850 2016, CT850 2020 and
+CT850ENT 2022 replace the hard waxed deck with a "proprietary belt/deck combination" and replace
+the figure with **4,000 hrs a side** - a different unit as well as a different number. Answer those
+from `spirit-ct800-maintenance-belt-deck-cleaning-4000-hours`, never from this card.
+
+On the CT850 the split is not chronological: **the 2018 manual is the hard wax deck at 20,000
+miles, while the 2016 and 2020 manuals either side of it are the proprietary deck at 4,000 hrs.**
+Read the deck description off the customer's own manual rather than inferring it from the year.
+
+## "But there was a tube of lubricant in the box"
+
+The **CT800 2016** and **CT850 2018** cartons are the only two Spirit CT800/CT850 cartons that list
+**1 Tube of Lubricant (1 application)** among the parts included
+(`spirit-ct800-assembly-parts-included`) - and they are two of the three machines this card covers.
+Both manuals still say, on this page, not to apply any lubricant or wax to the deck surface, and
+neither names a target for the tube anywhere else. **Do not read the tube as permission to lubricate
+the deck.**
