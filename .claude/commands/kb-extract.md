@@ -43,6 +43,40 @@ Keep bodies short. A card should be readable at a glance.
 For an email thread the job is: **find the answer, discard the conversation.**
 One thread usually yields 0 to 2 cards. Zero is a correct result. Say so.
 
+## 3b. Extend the card that already holds the fact
+
+The knowledge base is keyed to the **fact**, not to the document it came from.
+Two manuals that state the same fact produce **one** card naming both machines,
+never one card per manual.
+
+Before you write each question from step 3, search the cards that exist:
+
+```bash
+grep -rn '^title:' cards/ --include='*.md' | grep -i '<a distinctive word from the question>'
+grep -rli '<the code, part number, or component>' cards/
+```
+
+Search on the thing itself — `belt slips`, `E03`, `poly-v tension`. A card
+written from another manual names another machine, so a search carrying this
+source's model id finds nothing and you write the duplicate anyway.
+
+Every fact then takes one of three outcomes:
+
+- **No card holds it.** Write a new card, as step 4 describes.
+- **A card holds the same fact.** Extend that card: add this machine to
+  `applies_to`, set `model` to `"*"`, and add the brand to `brand` if it is new.
+  Write no new card. Step 4's rules for the "About several" shape apply in full.
+  Keep the card's `id` — it is the Qdrant point id and never changes, even when
+  the card grows to cover ten machines.
+- **A card holds a fact that only looks the same.** Two machines whose torque
+  figures, step orders, or part numbers differ hold two different facts. Give
+  each its own card and link them with `see_also`.
+
+Extending a card edits a card another PR wrote. That is correct and expected.
+
+You are done with this step when every question from step 3 has one of the three
+outcomes written down.
+
 ## 4. Write each card
 
 ```bash
@@ -195,6 +229,8 @@ GH_REPO=lateef-khan/SpiritKnowledgeBase gh pr create --fill
 - **`kb vocab`'s `undeclared_facet_values` block**, verbatim, and why the
   existing values did not fit each one.
 - **Anything you could not place**, and why.
+- **Every fact that extended an existing card**, and that card's id.
+- **Every fact you kept separate from a look-alike card**, and why.
 - **Every two-place fact you found**, and where each half went.
 - **Anything ambiguous, contradictory, or damaged in the source**, and what you
   did. A contradiction in the source is a finding, not something to smooth over.
