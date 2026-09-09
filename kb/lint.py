@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections import Counter
 from collections.abc import Sequence
 from dataclasses import dataclass
@@ -11,6 +12,7 @@ from kb.config import KbConfig
 ASKED_AS_RANGE = (2, 4)
 KEYWORDS_RANGE = (4, 10)
 CODE_PATTERN = re.compile(r"\b[a-z]{1,2}\d{1,3}\b", re.IGNORECASE)
+FOLD_KEEP_CATEGORIES = frozenset({"Lu", "Ll", "Lt", "Lm", "Lo", "Nd", "Nl", "No", "Mn", "Mc"})
 
 
 @dataclass(frozen=True)
@@ -247,6 +249,85 @@ def _empty_facet_message(key: str, config: KbConfig) -> str:
     return f"facet {key!r} is missing or empty; write \"*\" rather than omitting it"
 
 
+def _fold(value: str) -> str:
+    """The comparable form of one facet value. Empty when nothing survives."""
+    return "".join(
+        character
+        for character in unicodedata.normalize("NFC", value).lower()
+        if unicodedata.category(character) in FOLD_KEEP_CATEGORIES
+    )
+
+
+def _facet_values(card: Card, key: str) -> list[str]:
+    """
+    Every string one card writes into one facet.
+
+    The sentinel is a wildcard, not a value. A blank belongs to empty-facet, which says
+    the same thing in the words the author needs.
+    """
+    raw = card.facets.get(key)
+    items = raw if isinstance(raw, list) else [raw]
+    return [
+        item
+        for item in items
+        if isinstance(item, str) and item.strip() and item != FACET_SENTINEL
+    ]
+
+
+def _fold_errors(cards: list[Card], config: KbConfig) -> list[LintError]:
+    """
+    Report the values a vocabulary could never tell apart.
+
+    Two spellings that fold alike, or one that folds away to nothing, stop AgentCore at
+    boot. Boot names only the pair; this names the cards that have to change.
+    """
+    errors: list[LintError] = []
+
+    for key in config.facets:
+        holders: dict[str, list[Card]] = {}
+        for card in cards:
+            for value in _facet_values(card, key):
+                holders.setdefault(value, []).append(card)
+
+        groups: dict[str, list[str]] = {}
+        for value in holders:
+            groups.setdefault(_fold(value), []).append(value)
+
+        for folded, values in sorted(groups.items()):
+            if not folded:
+                errors.extend(
+                    LintError(
+                        card.path,
+                        "facet-folds-to-empty",
+                        f"facet {key!r} value {value!r} keeps no letter or digit, so nothing "
+                        f"a caller says could ever match it",
+                    )
+                    for value in sorted(values)
+                    for card in holders[value]
+                )
+                continue
+
+            if len(values) < 2:
+                continue
+
+            # The spelling most cards already use wins, so the report names the few cards
+            # to change rather than the many.
+            winner = max(sorted(values), key=lambda value: len(holders[value]))
+            errors.extend(
+                LintError(
+                    card.path,
+                    "facet-fold-collision",
+                    f"facet {key!r} value {value!r} folds to {folded!r}, the same as {winner!r} "
+                    f"which {len(holders[winner])} cards use; write {winner!r}",
+                )
+                for value in sorted(values)
+                if value != winner
+                for card in holders[value]
+            )
+
+    return errors
+
+
 def lint_cards(
     cards: list[Card],
     config: KbConfig,
@@ -262,6 +343,8 @@ def lint_cards(
             errors.append(
                 LintError(card.path, "unique-id", f"id {card.id!r} is used by {counts[card.id]} cards")
             )
+
+    errors.extend(_fold_errors(cards, config))
 
     for card in cards:
         for key, links in (("see_also", card.see_also), ("not_to_be_confused_with", card.not_to_be_confused_with)):
