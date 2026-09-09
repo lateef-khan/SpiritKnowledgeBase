@@ -36,6 +36,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- xt185-2015-program-list
+- xt285-2015-program-list
+- xt385-2015-program-list
+- xt-2015-programs-program-list-xt485-xt685
 - xt-2023-programs-entering-a-program
 - xt-2023-programs-select-and-start-xt185-xt285
 - xt-2023-programs-select-and-start-xt385-xt485-xt685

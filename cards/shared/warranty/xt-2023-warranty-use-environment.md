@@ -32,7 +32,8 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-warranty-use-environment
 see_also:
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-consumer-responsibilities
@@ -55,6 +56,8 @@ Exclusion 8, on the second: the warranty does not cover
 > Product use in any environment other than a residential setting or **non-dues paying facility with 5 hours use or less per day**.
 
 So the covered envelope is a home, **or** a facility that charges no dues and runs the machine **5 hours a day or less**. A dues-paying gym is outside it. Exclusion 2 points the same way, refusing service call reimbursement for a treadmill "not in ordinary household or light commercial use".
+
+**This is the 2023 wording. The 2015 XT manuals word the lead sentence three different ways** and two of them promise light commercial use on machines that print no light commercial table - see `xt-2015-warranty-use-environment`.
 
 **The XT685 is a partial exception.** Its manual prints a Light Commercial warranty table with shorter motor, deck and parts periods, and its responsibilities paragraph reads "ordinary household use **or light commercial use**". It still prints exclusion 8 unchanged, it never defines light commercial use, and it never says how the two fit together. Treat a dues-paying placement as something these manuals do not answer, rather than as approved. See `xt685-2023-light-commercial-warranty-periods`.
 

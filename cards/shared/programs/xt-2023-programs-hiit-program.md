@@ -31,6 +31,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- ct900ent-interval-program
 - xt-2023-programs-fusion-program-xt385-xt485-xt685
 see_also:
 - xt-2023-programs-cardio-program

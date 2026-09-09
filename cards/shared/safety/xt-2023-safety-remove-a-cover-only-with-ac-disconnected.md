@@ -2,7 +2,7 @@
 id: xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 title: Disconnecting AC power before a cover comes off
 kind: policy
-question: Do I have to unplug a Spirit XT185-2023, XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill before removing a cover?
+question: Do I have to unplug a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685) before removing a cover?
 asked_as:
 - can i take the motor cover off with it plugged in
 - do i unplug the treadmill before opening it
@@ -22,10 +22,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: safety
   code: '*'
@@ -35,9 +40,10 @@ see_also:
 - xt-2023-safety-instructions-list
 - spirit-disconnect-from-the-outlet-before-cleaning-or-service
 - spirit-product-must-be-grounded
+- xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6)
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +59,9 @@ appliance from the electrical outlet immediately after using and before cleaning
 `spirit-disconnect-from-the-outlet-before-cleaning-or-service`).
 
 **These manuals state no capacitor discharge time and no lock-out procedure.**
+
+**The five 2015 XT owner's manuals print the same sentence, word for word**, on their Important
+Electrical Instructions page. Nothing about the rule changes between 2015 and 2023: no exception,
+no waiting time, no capacitor discharge figure, and no lock-out procedure in either generation.
+The 2015 half of the matching cleaning rule is on their Important Safety Instructions page
+(`xt-2015-safety-instructions-list`).

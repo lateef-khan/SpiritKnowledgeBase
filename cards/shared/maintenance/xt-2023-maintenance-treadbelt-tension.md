@@ -23,10 +23,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: maintenance
   code: '*'
@@ -37,8 +42,10 @@ see_also:
 - f65-2016-belt-tension-adjustment
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 32, MAINTENANCE & CARE - Belt Adjustments, Tread-belt Tension Adjustment
-    (XT285 p. 40, XT385 p. 44, XT485 p. 44, XT685 p. 43)
+  locator: 2023 manuals, page 32, MAINTENANCE & CARE - Belt Adjustments, Tread-belt
+    Tension Adjustment (XT285 p. 40, XT385 p. 44, XT485 p. 44, XT685 p. 43); 2015
+    manuals, Belt Adjustments - Tread-belt Tension Adjustment (XT185 p. 26, XT285
+    p. 34, XT385 p. 36, XT485 p. 41, XT685 p. 41)
   extracted_at: '2026-09-09'
 ---
 
@@ -55,6 +62,8 @@ Adjustment is made **from the rear roller** with the **6mm Allen wrench** provid
 
 **Damage to the running belt resulting from improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.**
 
-The wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685.
+**In the 2023 manuals** the wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685. **The 2015 manuals give no item number for it.** Their Tools Included list calls it an **M6_L Allen Wrench** on the XT185 and XT285 and simply an **L Allen Wrench** on the XT385, XT485 and XT685.
+
+All ten manuals - the five 2015 and the five 2023 - print this procedure in the same words, with the same 1/4 turn and the same 6mm wrench.
 
 The Sole procedure in `f65-2016-belt-tension-adjustment` reaches the same bolts through a hole in the end cap; the XT manuals do not describe an end cap hole and do not give a wrench size for the Sole machines.

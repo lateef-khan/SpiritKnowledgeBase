@@ -21,10 +21,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: warranty
   code: '*'
@@ -36,11 +41,13 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'EXCLUSIONS items 4 and 5, p. 41. Identical in all five 2023 XT manuals:
-    xt185 p. 41, xt285 p. 49, xt385 p. 54, xt485 p. 54, xt685 p. 53'
+    xt185 p. 41, xt285 p. 49, xt385 p. 54, xt485 p. 54, xt685 p. 53. Identical again
+    in all five 2015 XT manuals: xt185 text.md lines 783-784, xt285 lines 996-997,
+    xt385 lines 1049-1050, xt485 lines 1186-1187, xt685 lines 1175-1176'
   extracted_at: '2026-09-09'
 ---
 
-No. Exclusion 5, in all five 2023 XT manuals, puts outside the warranty:
+No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - puts outside the warranty:
 
 > Products that have been: sold, transferred, bartered, or given to a third party.
 
@@ -48,4 +55,4 @@ Four routes out of the original buyer's hands are named and all four end the cov
 
 Exclusion 4 sits next to it and is worth reading at the same time: **products with original serial numbers that have been removed or altered** are also excluded. A machine sold on with its serial sticker peeled off is outside the warranty on both counts.
 
-`xt-2023-warranty-exclusions` holds the full list of nine.
+`xt-2023-warranty-exclusions` holds the full list of nine for the 2023 machines and `xt-2015-warranty-exclusions` for the 2015 ones. The two lists differ only at item 6; items 4 and 5 quoted here are word for word the same in both.

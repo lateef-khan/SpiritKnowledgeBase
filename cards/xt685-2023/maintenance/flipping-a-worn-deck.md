@@ -2,7 +2,7 @@
 id: xt685-2023-flipping-a-worn-deck
 title: What to do when the deck surface shows significant wear
 kind: fact
-question: What do I do when the deck on an XT685-2023 treadmill is worn?
+question: What do I do when the deck on a Spirit XT685 treadmill is worn?
 asked_as:
 - my treadmill deck is worn out
 - can the treadmill deck be turned over
@@ -19,8 +19,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2023
+  model: '*'
   applies_to:
+  - xt685-2015
   - xt685-2023
   section: maintenance
   code: '*'
@@ -28,9 +29,11 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - xt685-2023-belt-deck-general-maintenance
+- ct900-belt-deck-cleaning
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
-  locator: page 44, BELT / DECK GENERAL MAINTENANCE
+  locator: 2023 manual page 44, BELT / DECK GENERAL MAINTENANCE; 2015 manual p. 41,
+    GENERAL MAINTENANCE - Belt/Deck
   extracted_at: '2026-09-09'
 ---
 
@@ -39,3 +42,5 @@ source:
 **Do not apply any type of lubricant or wax to the surface.**
 
 The manual gives no wear measurement, no interval at which to inspect for wear, and no instructions for flipping the deck yourself. It only says to contact a service technician.
+
+**Both XT685 manuals say this in the same words** - the 2015 owner's manual in its Belt/Deck section and the 2023 owner's manual in BELT / DECK GENERAL MAINTENANCE. Neither says how many sides the deck has or how far it can be flipped. The Spirit CT900 manual does put a figure on a flippable deck - 20,000 miles per side - but that is a different machine and no XT manual repeats it; see `ct900-belt-deck-cleaning`.

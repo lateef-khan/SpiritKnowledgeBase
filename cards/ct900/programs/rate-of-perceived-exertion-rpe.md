@@ -19,9 +19,13 @@ facets:
   model: '*'
   applies_to:
   - ct900
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
@@ -63,6 +67,6 @@ You can get an approximate heart rate level for each rating by simply adding a z
 | 19 | Very, Very Hard |
 | 20 | Maximal |
 
-The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same scale and the same wording under "Heart Rate - Perceived Exertion". The 2023 XT185 owner's manual has no heart rate chapter at all.
+The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same scale and the same wording under "Heart Rate - Perceived Exertion", and the 2015 XT285, XT385, XT485 and XT685 owner's manuals print it under "Rate of Perceived Exertion". Neither the 2015 nor the 2023 XT185 owner's manual has a heart rate chapter at all.
 
 **On the CT900 only**, the RPE=18+ and RPE=14 thresholds are used to stop the [Chester Treadmill Test](chester-treadmill-test.md) Performance and Prediction modes, respectively. No XT machine has that test.

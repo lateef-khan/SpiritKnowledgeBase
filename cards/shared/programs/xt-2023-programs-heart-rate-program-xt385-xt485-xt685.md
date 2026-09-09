@@ -31,6 +31,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-programs-heart-rate-program-xt385-xt485-xt685
 - xt285-2023-heart-rate-program
 see_also:
 - xt285-2023-heart-rate-program

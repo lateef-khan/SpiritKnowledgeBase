@@ -60,10 +60,26 @@ CI runs `kb lint`. Six things stay green that should not:
 - **A move that breaks a relative link.** Other cards may point at a card by
   relative path. Moving it into `cards/shared/` leaves those links dangling in a
   way lint does not report. Grep for links to a card before moving it.
+- **Two cards sharing one title.** Lint checks that an `id` is unique. It never
+  looks at `title`. As of 2026-09-09 the repository holds **625 duplicate-title
+  groups covering 2065 cards** — one title is used by 29 of them. Some are
+  legitimate (the same question about different machines), some are the duplicate
+  facts the organising rule forbids. Before adding a card, check its title is not
+  already in use:
+
+  ```bash
+  grep -rh '^title:' cards/ --include='*.md' | sed 's/^title: //' | sort | uniq -d
+  ```
 
 ## Conventions the code does not enforce
 
 - **A title names the fact and carries no model id.** The card can then grow to
   cover more machines without its title becoming wrong.
+- **When two cards hold the same kind of fact with different values, the title
+  carries the distinguishing value.** "The highest speed the console will accept"
+  on three cards with three different speeds gives a reader three identical-looking
+  results. Write the figure into the title — "The console accepts up to 9.9 mph and
+  incline level 9.5" — which distinguishes without naming a model, so the card can
+  still grow. The same applies to a variant: "...on the console with MP3 speakers".
 - **An `id` never changes.** It is the Qdrant point id, even when the card grows
   from one machine to ten.

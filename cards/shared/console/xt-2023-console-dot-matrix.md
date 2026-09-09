@@ -2,7 +2,7 @@
 id: xt-2023-console-dot-matrix
 title: What the dot matrix centre display is showing
 kind: fact
-question: What are the columns of dots in the middle of the display on a Spirit XT185, XT285, XT385, XT485 or XT685 2023 treadmill?
+question: What are the columns of dots in the middle of the display on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - what are the dots on my treadmill screen
 - what is the bar chart in the middle of the display
@@ -23,10 +23,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -52,3 +57,6 @@ changed during a workout.**
 
 The XT385, XT485 and XT685 manuals add a scrolling behaviour the XT185 and XT285 manuals do not
 mention - see `xt-2023-console-profile-scrolling`.
+
+The five 2015 XT owner's manuals print this paragraph word for word, so the same behaviour holds
+on the XT185-2015, XT285-2015, XT385-2015, XT485-2015 and XT685-2015.

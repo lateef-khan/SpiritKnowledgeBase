@@ -2,8 +2,8 @@
 id: ct900-pre-assembly
 title: Pre-assembly steps before starting
 kind: procedure
-question: What do I need to do before I start assembling a Spirit CT900, XT185-2023,
-  XT285-2023, XT385-2023, XT485-2023 or XT685-2023?
+question: What do I need to do before I start assembling a Spirit CT900, XT185,
+  XT285, XT385, XT485 or XT685 treadmill?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -20,10 +20,15 @@ facets:
   model: '*'
   applies_to:
   - ct900
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: assembly
   code: '*'
@@ -34,6 +39,9 @@ see_also:
 - xt185-xt285-2023-assembly-procedure
 - xt385-xt485-2023-assembly-procedure
 - xt685-2023-assembly-procedure
+- xt-2015-assembly-procedure-xt185-xt285
+- xt-2015-assembly-procedure-xt385-xt485
+- xt685-2015-assembly-procedure
 source:
   ref: ct900-om
   locator: p. 10
@@ -47,6 +55,8 @@ source:
 
 The same four steps are printed word for word in the XT185-2023 (p. 10), XT285-2023 (p. 11), XT385-2023 (p. 11), XT485-2023 (p. 11) and XT685-2023 (p. 11) owner's manuals.
 
-On the XT185-2023, XT285-2023, XT385-2023 and XT485-2023 there is one more thing to do first: a Velcro strap holds the folding deck shut and the deck can spring open if it is cut carelessly. See the shipping strap card before step 1. The CT900 and the XT685-2023 do not fold and have no such strap.
+The 2015 owner's manuals - XT185-2015 (p. 9), XT285-2015 (p. 9), XT385-2015 (p. 10), XT485-2015 (p. 9) and XT685-2015 (p. 10) - print the same words under the heading UNPACKING, as **three** numbered items rather than four: steps 3 and 4 above are run together in their item 3. Nothing is added and nothing is left out.
+
+On the XT185-2023, XT285-2023, XT385-2023 and XT485-2023 there is one more thing to do first: a Velcro strap holds the folding deck shut and the deck can spring open if it is cut carelessly. See the shipping strap card before step 1. The CT900 and the XT685-2023 do not fold and have no such strap. **The five 2015 manuals print no strap warning at all** and never use the word fold.
 
 Next: [Assembly Step One - install the uprights](../../ct900/assembly/assembly-step-1-uprights.md).

@@ -31,6 +31,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-warranty-consumer-responsibilities
 - ct900ent-facility-responsibilities
 see_also:
 - xt-2023-warranty-exclusions
@@ -53,7 +54,7 @@ The warranty **applies only to products in ordinary household use**, and the con
 4. Damages to the treadmill finish during shipping, installation or following installation.
 5. Routine maintenance of this unit as specified in this manual.
 
-The five items are word for word identical in all five 2023 XT manuals. Only the lead sentence differs: the **XT685** reads "ordinary household use **or light commercial use**", because that manual also carries a light commercial warranty table.
+The five items are word for word identical in all five 2023 XT manuals. **The 2015 XT manuals print six**, the extra one being a registration card due within 10 days that renumbers everything below it - see `xt-2015-warranty-consumer-responsibilities`. Only the lead sentence differs: the **XT685** reads "ordinary household use **or light commercial use**", because that manual also carries a light commercial warranty table.
 
 Two items bite in practice. **Item 3** makes getting the treadmill to a place where it can be worked on the owner's expense, not a warranty cost. **Item 4** puts finish damage during shipping and installation on the owner, so inspect the machine before the carrier leaves.
 

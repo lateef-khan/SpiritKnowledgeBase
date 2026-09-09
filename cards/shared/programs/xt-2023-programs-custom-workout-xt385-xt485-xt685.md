@@ -31,6 +31,8 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt385-2015-custom-user-program
+- xt-2015-programs-custom-user-program-xt485-xt685
 - xt-2023-programs-custom-workout-xt185-xt285
 see_also:
 - xt-2023-programs-custom-workout-xt185-xt285

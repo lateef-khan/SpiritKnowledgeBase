@@ -33,6 +33,7 @@ authority: 3
 not_to_be_confused_with:
 - xt185-xt285-2023-assembly-procedure
 - xt685-2023-assembly-procedure
+- xt-2015-assembly-procedure-xt385-xt485
 see_also:
 - xt385-xt485-2023-assembly-hardware-kit
 - xt-2023-assembly-shipping-strap-warning

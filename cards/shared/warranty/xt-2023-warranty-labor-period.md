@@ -23,10 +23,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: warranty
   code: '*'
@@ -34,6 +39,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - xt-2023-warranty-residential-coverage-periods
+- xt185-2015-residential-warranty-periods
 - xt-2023-warranty-service-steps
 - xt-2023-warranty-start-date
 source:
@@ -42,11 +48,14 @@ source:
     - CONTINUED, Responsibilities of the Owner / SERVICE, first paragraph, p. 42. Both
     halves are in all five 2023 XT manuals: table at xt185 p. 40, xt285 p. 48, xt385
     p. 53, xt485 p. 53, xt685 p. 52; SERVICE at xt185 p. 42, xt285 p. 50, xt385 p.
-    55, xt485 p. 55, xt685 p. 54'
+    55, xt485 p. 55, xt685 p. 54. Both halves are also in all five 2015 XT manuals,
+    word for word: xt185 text.md lines 756 and 792-795, xt285 lines 970 and 1005-1008,
+    xt385 lines 1022 and 1058-1061, xt485 lines 1159 and 1194-1197, xt685 lines 1148-1149
+    and 1183-1186'
   extracted_at: '2026-09-09'
 ---
 
-**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals - in the Residential row, and in the XT685's Light Commercial row as well.
+**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well. It is the one component period that never changes anywhere in the XT range.
 
 What sets the date is stated in a different place, the SERVICE paragraph:
 

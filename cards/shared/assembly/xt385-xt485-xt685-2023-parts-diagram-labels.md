@@ -32,6 +32,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - xt185-xt285-2023-parts-diagram-labels
+- xt-2015-assembly-parts-diagram-labels
 see_also:
 - xt185-xt285-2023-parts-diagram-labels
 - ct900-treadmill-parts-diagram-labels

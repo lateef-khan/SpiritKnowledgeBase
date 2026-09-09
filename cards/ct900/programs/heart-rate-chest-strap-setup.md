@@ -20,9 +20,13 @@ facets:
   model: '*'
   applies_to:
   - ct900
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'

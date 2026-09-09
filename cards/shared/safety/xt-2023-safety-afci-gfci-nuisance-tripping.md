@@ -2,7 +2,7 @@
 id: xt-2023-safety-afci-gfci-nuisance-tripping
 title: Why an arc-fault or ground-fault breaker trips during a workout
 kind: troubleshooting
-question: Can a Spirit XT185-2023, XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill be plugged into an AFCI or GFCI breaker?
+question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685) be plugged into an AFCI or GFCI breaker?
 asked_as:
 - my breaker trips when i run on the treadmill
 - can a treadmill go on an arc fault breaker
@@ -24,10 +24,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: safety
   code: '*'
@@ -38,9 +43,10 @@ see_also:
 - spirit-house-breaker-needs-a-high-inrush-type
 - xt-2023-safety-supply-voltage-variation
 - ct900-electrical-safety
+- xt-2015-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it across their Important Electrical and Important Grounding Instructions pages (XT185/XT285/XT485 pages 5-6, XT385/XT685 pages 6-7)
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +81,18 @@ new action.
 (`spirit-never-use-a-gfci-wall-outlet`), an outright ban with no tested brands. These five
 owner's manuals say "avoid if possible" and name breakers that passed testing. Two different
 instructions for two different machine families.
+
+**The five 2015 XT owner's manuals print this whole passage**, with the word `treadmill` where the
+2023 manuals print `unit` - so the 2015 wording reads `the high inrush currents of the treadmill
+drive electronics and motor`, `an issue that affects all treadmill brands`, and `Optimally the
+treadmill should be the only device plugged into the circuit`.
+
+**The same three breaker brands and series are named, and the same test result.** Eaton (Cutler
+Hammer Series), Leviton (Smart lock pro) and Schneider Electric (Canadian home series), none of
+which tripped in testing as long as no other device shared the circuit. The list of other devices
+that may cause tripping is the same four: fluorescent lights with electronic ballasts, a coffee
+maker, a space heater, a hair drier. The built-in surge suppressors are described the same way.
+
+The 2015 manuals also name the circuit the treadmill should have to itself - 110 volt, 15 amp,
+grounded, with only the treadmill plugged into it
+(`xt-2015-safety-outlet-and-circuit-requirement`).

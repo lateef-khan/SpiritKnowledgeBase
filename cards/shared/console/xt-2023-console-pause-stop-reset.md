@@ -2,7 +2,7 @@
 id: xt-2023-console-pause-stop-reset
 title: Pausing, ending and resetting a workout with the Stop key
 kind: procedure
-question: What does pressing Stop do on a Spirit XT185, XT285, XT385, XT485 or XT685 2023 treadmill?
+question: What does pressing Stop do on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - how do i pause my treadmill
 - what happens if i press stop twice
@@ -24,10 +24,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -53,3 +58,6 @@ source:
 settings**.
 
 These manuals describe no way to change the 5 minute pause timeout.
+
+The five 2015 XT owner's manuals print the same behaviour. The XT185-2015 and XT285-2015 manuals
+call it the **red** Stop key; the other three simply call it the Stop key.

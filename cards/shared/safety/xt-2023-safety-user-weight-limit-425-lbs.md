@@ -2,7 +2,7 @@
 id: xt-2023-safety-user-weight-limit-425-lbs
 title: User weight limit of 425 lbs
 kind: spec
-question: What is the user weight limit of a Spirit XT485-2023 or XT685-2023 treadmill?
+question: What is the user weight limit of a Spirit XT485-2023, XT685-2023 or XT685-2015 treadmill?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -22,6 +22,7 @@ facets:
   model: '*'
   applies_to:
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: safety
   code: '*'
@@ -32,9 +33,13 @@ not_to_be_confused_with:
 - xt385-2023-user-weight-limit
 see_also:
 - xt-2023-safety-instructions-list
+- xt-2015-safety-no-user-weight-limit-printed
+- xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt485-2023-owners-manual
-  locator: page 6, SAFETY INSTRUCTIONS, item 21; the XT685-2023 manual prints the same figure on its page 6
+  locator: page 6, SAFETY INSTRUCTIONS, item 21; the XT685-2023 manual prints the same figure on its page 6, and
+    the XT685-2015 manual prints it as an extra bullet on its Important Safety Instructions
+    page, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +64,11 @@ The manual repeats beside the list:
 
 **The weight limit is printed in one place only.** These manuals have no specification table
 carrying a user capacity, so the safety instructions page is the whole answer.
+
+**The XT685-2015 manual prints this same 425 figure**, as `User Weight Limit: 425lb` - one extra
+bullet on its Important Safety Instructions page rather than a numbered item, and written `425lb`
+rather than `425 lbs.` It is the same limit.
+
+**It is the only 2015 XT manual with a weight limit in it at all.** The XT185-2015, XT285-2015,
+XT385-2015 and XT485-2015 manuals state none anywhere, and their 2023 figures may not be carried
+back to them: `xt-2015-safety-no-user-weight-limit-printed`.

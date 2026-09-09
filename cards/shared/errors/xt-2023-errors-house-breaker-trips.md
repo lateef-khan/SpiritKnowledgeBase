@@ -2,7 +2,7 @@
 id: xt-2023-errors-house-breaker-trips
 title: The house breaker trips but the treadmill breaker does not
 kind: troubleshooting
-question: Why does the house breaker trip but not the treadmill's own breaker, on a Spirit XT 2023 treadmill?
+question: Why does the house breaker trip but not the treadmill's own breaker, on a Spirit XT treadmill of 2015 or 2023?
 asked_as:
 - house breaker trips when i use the treadmill
 - wall breaker pops but treadmill breaker is fine
@@ -22,10 +22,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: errors
   code: '*'
@@ -37,17 +42,22 @@ not_to_be_confused_with:
 see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2023-errors-trips-onboard-15-amp-breaker
+- xt-2015-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the XT685
+  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the XT685; the identical row is in the Service Checklist Diagnosis Guide on page 31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45 of the XT485 and page 46 of the XT685
   extracted_at: '2026-09-09'
 ---
 
 Printed cause and remedy: **check that the treadmill is the only appliance on the circuit.**
 
-The row then points at the manual's own **Electrical Safety** section, which carries the
-AFCI/GFCI advice and the dedicated-circuit rule. See
-`xt-2023-safety-afci-gfci-nuisance-tripping`.
+The row then points at the manual's own electrical section, which carries the AFCI/GFCI
+advice and the dedicated-circuit rule. **Only the name of that section changed between the
+two revisions**: the 2023 manuals call it *Electrical Safety*
+(`xt-2023-safety-afci-gfci-nuisance-tripping`), the 2015 manuals call it *Important
+Electrical Information* and put it in the front of the manual
+(`xt-2015-safety-outlet-and-circuit-requirement`). The printed cause and remedy in this row
+are word for word the same in 2015 and 2023.
 
 **This is the house breaker, not the machine's own.** For the treadmill's own 15 amp
 on-board breaker see `xt-2023-errors-trips-onboard-15-amp-breaker`.

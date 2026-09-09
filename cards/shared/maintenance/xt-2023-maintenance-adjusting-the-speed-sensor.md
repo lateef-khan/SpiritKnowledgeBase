@@ -23,8 +23,13 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
+  - xt285-2015
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: maintenance
   code: '*'
@@ -36,7 +41,9 @@ see_also:
 - f85-2019-speed-sensor-check
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: page 47, ADJUSTING THE SPEED SENSOR (XT485 p. 47, XT685 p. 46)
+  locator: 2023 manuals, page 47, ADJUSTING THE SPEED SENSOR (XT485 p. 47, XT685
+    p. 46); 2015 manuals, Adjusting the Speed Sensor (XT185 p. 30, XT285 p. 38, XT385
+    p. 39, XT485 p. 44, XT685 p. 43)
   extracted_at: '2026-09-09'
 ---
 
@@ -48,4 +55,4 @@ source:
 
 **These manuals give no gap measurement.** They say only "as close as possible without touching". The Sole service-manual procedure `f85-2019-speed-sensor-check` adds a maximum gap of 3 mm and a driver-board socket; neither figure appears in any XT 2023 owner's manual, so neither can be carried over.
 
-**The XT185 and XT285 manuals have no speed sensor section**, so this check is not documented for those two machines.
+**The XT185 2023 and XT285 2023 manuals have no speed sensor section**, so this check is not documented for those two machines in that year. **All five 2015 manuals do carry it**, in the same three steps and the same words, including the XT185 and XT285.

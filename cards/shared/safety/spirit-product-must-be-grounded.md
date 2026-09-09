@@ -2,8 +2,8 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850 treadmill, a 2023 Spirit XT treadmill, or a Spirit
-  CVC800 climber be grounded?
+question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, or
+  a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -26,10 +26,15 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: safety
   code: '*'
@@ -41,12 +46,16 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 - spirit-extension-cord-16-awg-or-better
 - ct850-2020-extension-cord-14-awg-or-better
+- xt-2015-safety-outlet-and-circuit-requirement
+- xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
     paragraphs are p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed
     26) of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the
-    five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8)
+    five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
+    and the Important Grounding Instructions page of the five 2015 XT owner's manuals
+    (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7)
   extracted_at: '2026-09-08'
 ---
 
@@ -96,3 +105,25 @@ machine's own manual; these manuals never reconcile the two.
 The XT manuals also carry the grounding rule a second time, as item 12 of their safety
 instructions - "Connect this appliance to a properly grounded outlet only. See Grounding
 Instructions" (`xt-2023-safety-instructions-list`).
+
+**The five 2015 XT owner's manuals print both paragraphs in the same words**, with `equipment`
+where the 2023 XT manuals print `unit` and the CT850 and CVC800 manuals print `treadmill` or
+`climber`: `If the your equipment should malfunction or breakdown`. The stray `the` is printed
+that way in all five 2015 manuals.
+
+**Their circuit sentence carries more than the 2023 one, and the five do not agree with each
+other.** The XT185-2015, XT285-2015 and XT385-2015 manuals print:
+
+> This product is for use on a nominal 110-volt/15 amp dedicated circuit, and has a grounding
+> plug that looks like the plug illustrated below.
+
+The XT485-2015 and XT685-2015 manuals print the same sentence with the amp figure removed -
+`a nominal 110-volt dedicated circuit`. The voltage is 110 in all five, matching the 2023 manuals;
+the amp figure and the word `dedicated` are 2015 additions the 2023 manuals dropped. All five 2015
+safety pages separately require a 15-amp outlet, so 15 amp is the figure for all five machines:
+`xt-2015-safety-outlet-and-circuit-requirement`.
+
+The 2015 manuals also carry the grounding rule a second time, as a bullet of their safety
+instructions - `Connect this appliance to a properly grounded outlet only`
+(`xt-2015-safety-instructions-list`). Unlike the 2023 list, that bullet has no
+`See Grounding Instructions` cross-reference.

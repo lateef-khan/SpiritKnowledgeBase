@@ -1,8 +1,8 @@
 ---
 id: xt685-2023-belt-deck-general-maintenance
-title: A pre-lubed belt that must never be lubricated, and how to clean it
+title: A deck that must never be lubricated, and how to clean the belt
 kind: procedure
-question: Does the XT685-2023 treadmill belt need lubricating, and how do I clean it?
+question: Does a Spirit XT685 treadmill belt need lubricating, and how do I clean it?
 asked_as:
 - do i need to lube my treadmill belt
 - can i put silicone on the running belt
@@ -10,6 +10,7 @@ asked_as:
 keywords:
 - pre-lubed
 - 2-ply belt
+- hard waxed deck
 - liquid wax
 - do not lubricate
 - soap and water
@@ -21,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2023
+  model: '*'
   applies_to:
+  - xt685-2015
   - xt685-2023
   section: maintenance
   code: '*'
@@ -32,16 +34,26 @@ see_also:
 - xt685-2023-flipping-a-worn-deck
 - xt-2023-maintenance-deck-lubrication-interval
 - xt-2023-maintenance-belt-and-deck-cleaning
+- xt-2015-maintenance-monthly-belt-and-deck-cleaning
+- ct900-sanitizing-equipment
 - f65-2026-cleaning-the-belt-and-deck
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
-  locator: page 44, BELT / DECK GENERAL MAINTENANCE
+  locator: 2023 manual page 44, BELT / DECK GENERAL MAINTENANCE; 2015 manual p. 41,
+    GENERAL MAINTENANCE - Belt/Deck
   extracted_at: '2026-09-09'
 ---
 
-**This machine is not lubricated by the owner.** Its manual carries no deck lubrication section, and states: **"Do not apply any type of lubricant or wax to the surface."** The other four XT 2023 treadmills are the opposite - the XT185, XT285, XT385 and XT485 manuals schedule lubrication every 90 days or 90 hours; see `xt-2023-maintenance-deck-lubrication-interval`. Do not carry that schedule across.
+**This machine is not lubricated by the owner, in either model year.** Neither the 2015 nor the 2023 owner's manual carries a deck lubrication section, and both state: **"Do not apply any type of lubricant or wax to the surface."**
 
-**The belt is a 2-ply belt that is pre-lubed with a high-efficient proprietary liquid wax combination** to minimize friction while extending the life of the belt and deck. **Performance is maximized when the deck is kept as clean as possible.**
+The two manuals give different reasons for it, and each says only its own:
+
+- **2015:** "Your treadmill uses a very high-efficient low-friction **hard waxed deck**."
+- **2023:** "The belt is a **2-ply belt that is pre-lubed with a high-efficient proprietary liquid wax combination** to minimize friction while extending the life of the belt and deck."
+
+Both then say **performance is maximized when the deck is kept as clean as possible.**
+
+**The other four XT treadmills of each year are the opposite.** The XT185, XT285, XT385 and XT485 2023 manuals schedule lubrication every 90 days or 90 hours (`xt-2023-maintenance-deck-lubrication-interval`); the same four 2015 manuals schedule it by running hours (`xt-2015-maintenance-lubrication-interval-180-hours` and `xt-2015-maintenance-lubrication-interval-90-hours`). Do not carry either schedule across to an XT685.
 
 **Cleaning, once a month, to extend belt and deck life:**
 
@@ -49,4 +61,8 @@ source:
 2. **Reach as far as practical directly under the belt edge.**
 3. A **mild soap and water solution along with a nylon scrub brush** will clean the top of the textured belt. **Allow to dry before using.**
 
-**A contradiction in this manual.** The Parts Included page lists **"1 Lubricant"** shipped with the machine, and the hardware illustrations on the tracking and belt-adjustment pages show only the Allen wrench, item 104. The maintenance section then forbids applying lubricant or wax. The manual never says what the supplied lubricant is for, and nothing in it resolves the two statements.
+**A contradiction in the 2023 manual only.** Its Parts Included page lists **"1 Lubricant"** shipped with the machine, and the hardware illustrations on the tracking and belt-adjustment pages show only the Allen wrench, item 104. The maintenance section then forbids applying lubricant or wax. That manual never says what the supplied lubricant is for, and nothing in it resolves the two statements.
+
+**The 2015 manual has no such contradiction.** Its Parts Included page lists no lubricant at all - Main Frame, Uprights, Console Mast Covers, Frame Base Covers, Console, Deck, Audio Cable, Beverage Holder, Power Cord, Hardware Kit - while the other four 2015 XT manuals all list "1 Lubricant". The XT685 2015 is the only one of the five that ships without it.
+
+**The 2015 manual adds a sanitizing section** the 2023 XT685 manual does not carry; it is the company-wide procedure already held by `ct900-sanitizing-equipment`.
