@@ -1,0 +1,57 @@
+---
+id: spirit-ce-programs-entering-a-program-and-default-settings
+title: Pressing Start skips data entry and runs the default or pre-saved settings
+kind: fact
+question: How do I skip the age and weight questions on a Spirit commercial elliptical?
+asked_as:
+- how do i skip entering my age and weight
+- can i just press start on the elliptical
+- what settings does it use if i dont enter any
+keywords:
+- skip data entry
+- default settings
+- pre-saved settings
+- press start
+- quick start
+- bypass programming
+- personal settings
+facets:
+  brand:
+  - spirit
+  product_line: elliptical
+  model: '*'
+  applies_to:
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce850-2016
+  - ce900-2021
+  - ce900-2025
+  section: programs
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- spirit-ce-programs-preset-setup-steps
+- spirit-ce-programs-manual-mode
+- ce800ent-programmable-features
+source:
+  ref: spirit-elliptical-ce800-2021-owners-manual
+  locator: 'CE800 2021 printed p. 18; CE800 2023 p. 19; CE900 2021 p. 18; CE900 2025 p. 19; CE800 2013 p. 15; CE850 2016 p. 20'
+  extracted_at: '2026-09-09'
+---
+
+When you enter a program you have the option of entering your own personal settings. If you want to
+work out **without** entering new settings, just press **Start**. That bypasses the programming of
+data and takes you directly to the start of your workout. If you start a program without changing
+the settings, the **default - or pre-saved - settings** are used.
+
+To change the settings instead, follow the instructions in the Message Window.
+
+**Which manuals print this.** The CE800 2013, CE850 2016, CE900 2021 and CE900 2025 say you enter a
+program by pressing a program key and then Enter. The CE800 2021 and CE800 2023 print the same
+paragraph without that parenthesis, because those consoles scroll with a single Program button.
+
+**The CE850 2020, CE850 2022 and CES880 2025 owner's manuals do not print this paragraph at all**,
+and neither does the CE800ENT owner's manual, which instead says on its program menu page that you
+may press Start to begin the program using the default settings.

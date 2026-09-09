@@ -29,7 +29,8 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- spirit-ce-specs-no-specification-table
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: p. 5 (printed 5), section 1 Outlines
@@ -42,3 +43,9 @@ The outline drawing labels: **Console**, **Cooling Fan**, **Console Mast Cover**
 
 The Outlines chapter carries **no dimensions, no machine weight, no maximum user weight and no
 power rating**. Those figures are not printed anywhere in this manual.
+
+**The owner's manual supplies two of the four.** `spirit-elliptical-ce800ent-owners-manual`
+states a **450 lb** weight limit on its safety page and requires a nominal **110-volt, 5 amp**
+grounded outlet on a dedicated 5 amp circuit breaker. It still gives **no dimensions and no
+machine weight**, and neither does any other Spirit commercial elliptical book - see
+`spirit-ce-specs-no-specification-table`.

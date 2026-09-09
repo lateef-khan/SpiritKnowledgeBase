@@ -3,7 +3,7 @@ id: ct900-quarter-mile-track-display
 title: 1/4 mile track display and lap counter
 kind: fact
 question: What does the 1/4 mile track display and lap counter show on a Spirit CT800 or CT900
-  treadmill?
+  treadmill, or a CE800 or CE850 elliptical?
 asked_as:
 - what is the circle around the dot matrix window
 - how does the lap counter work
@@ -15,9 +15,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2021
+  - ce800-2023
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -33,6 +37,8 @@ see_also:
 - ct900-dot-matrix-message-center
 - ct850-2020-dot-matrix-message-center
 - spirit-ct800-console-dot-matrix-display-button
+- ces880-2025-console-quarter-mile-track-restart
+- spirit-ce-console-led-console-face
 source:
   ref: ct900-om
   locator: p. 18
@@ -57,3 +63,16 @@ Its own service manual says the track is to the left of the dot matrix window**
 (`ct850-2020-quarter-mile-track`). The two documents describe the same machine and disagree about
 where the ring is, so that machine is deliberately left off this card; read the placement off the
 console in front of you.
+
+**Four Spirit commercial *elliptical* owner's manuals print this paragraph word for word too** -
+CE800-2021 p. 16, CE800-2023 p. 17, CE850-2020 p. 22 and CE850-2022 p. 23 - so this card now covers
+those machines and its product line is no longer treadmill-only. The ring, the 0.4 km figure, the
+flashing dot and the lap counter in the centre are stated identically on both product lines.
+
+**The CES880-2025 is deliberately not on this card.** Its manual prints a different paragraph for the
+same ring: a flashing **segment** rather than a dot, the ring **restarting** at each quarter mile, and
+**no lap counter at all**. See `ces880-2025-console-quarter-mile-track-restart`.
+
+**The CE800-2013 and CE850-2016 do not print this paragraph either.** On those consoles the track is
+one of two modes of the profile window, reached with the Display button:
+`spirit-ce-console-display-button-four-window-sets`.

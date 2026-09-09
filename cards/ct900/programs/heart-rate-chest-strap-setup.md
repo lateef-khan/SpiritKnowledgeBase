@@ -16,9 +16,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2013
+  - ce850-2016
+  - ce900-2025
+  - ces880-2025
   - ct900
   - xt285-2015
   - xt285-2023
@@ -39,6 +43,8 @@ see_also:
 - ct900-wireless-heart-rate-and-erratic-pulse
 - xt285-2023-heart-rate-program
 - xt-2023-programs-heart-rate-program-xt385-xt485-xt685
+- spirit-ce-programs-chest-strap-sold-separately
+- spirit-ce-programs-erratic-heart-rate-interference
 source:
   ref: ct900-om
   locator: p. 30
@@ -65,3 +71,19 @@ it adds one sentence to step 5 that the others do not print: *wearing clothing o
 transmitter/strap doesn't affect performance.*
 
 If your readings are erratic (wild, random numbers), see [chest strap warning - erratic operation](chest-strap-erratic-operation-interference.md).
+
+**Four Spirit commercial elliptical owner's manuals print these same six steps and the same battery
+figures**, including "interlocking key" and "Panasonic CR2032":
+
+- **CE900 2025** (printed page 25) and **CES880 2025** (page 35), both headed "Heart Rate Chest
+  Strap* (not included)".
+- **CE850 2016** (page 31), headed "Wearing The Chest Strap" with "*Not Included" beside it.
+- **CE800 2013** (page 24), headed "Wearing The Chest Strap". Like the 2010 XT685 it writes step 1
+  as "using the **locking parts**" rather than "using the interlocking key", and it adds the same
+  extra sentence to step 5: wearing clothing over the transmitter/strap doesn't affect performance.
+  It does not say the strap is not included.
+
+**Five other Spirit ellipticals print a different version** - "interlocking button", "sold
+separately", plain CR2032 and a sentence about Bluetooth or ANT+ straps. That is
+`spirit-ce-programs-chest-strap-sold-separately`, a separate card. The CE900 2021 owner's manual has
+no chest strap chapter at all.

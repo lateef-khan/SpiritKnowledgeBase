@@ -102,6 +102,36 @@ lower. A phantom model id is worse than a missing one: every card it touches gai
 machine that does not exist, and claims a second manual corroborates a fact when only
 one manual ever said it.
 
+## A manual can hide whole pages from `pdftotext`
+
+A PDF that extracts cleanly overall can still print individual pages as flat
+pictures with no text behind them. `pdftotext` returns the heading and nothing
+under it, so the page looks empty rather than broken, and an extraction agent
+reports the machine as simply not covering that topic.
+
+On 2026-09-09 the CE900-2025 and CES880-2025 owner's manuals extracted to ~9,000
+words each and looked complete. Their troubleshooting and error-code pages were
+images. One agent rendered them and recovered a six-row Condition/Reason/Solve
+matrix and an eight-row error table that eleven cards now rest on. Checking the
+other seven manuals in the same family found **2,323 further words** across 71
+pages — program pages, exploded views and part-name callout diagrams.
+
+**Before briefing anyone on a PDF-backed source, count the words on every page:**
+
+```bash
+n=$(pdfinfo FILE.pdf | awk '/^Pages/{print $2}')
+for p in $(seq 1 $n); do
+  w=$(pdftotext -f $p -l $p -layout FILE.pdf - | wc -w)
+  [ "$w" -lt 25 ] && echo "page $p: $w words"
+done
+```
+
+Render anything under about 25 words at 300 dpi and read it with
+`tesseract --psm 4`, then append it to `text.md` under a marked
+`=== OCR SUPPLEMENT, PDF PAGE n ===` header so a later reader knows which text is
+OCR and which is native. A genuinely blank page costs one OCR pass; a missed
+error table costs a wave.
+
 ## Never compare manuals with `diff`
 
 `diff` is **not reliable** in this environment. On 2026-09-09 the same two

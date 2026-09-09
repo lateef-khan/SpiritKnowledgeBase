@@ -55,3 +55,20 @@ icon, which supports the claim being about this machine.
 
 The manual gives no chest strap pairing procedure for this console. Bluetooth is enabled under
 **BT Setup** in the Maintenance menu.
+
+---
+
+**The owner's manual settles the copy-and-paste defect.** In `spirit-elliptical-ce800ent-owners-manual`
+p. 17 the same HEART RATE FEATURE paragraph is headed **"FUNCTIONS OF THIS ELLIPTICAL"**, and its last
+sentence reads **"The CE800ENT will also pick up wireless heart rate transmitters that are Polar and
+Bluetooth compatible."** It names this machine, not the CU800ENT.
+
+Every other clause matches word for word: both stainless steel sensors, pulse shown whenever the
+computer is receiving a signal from the hand pulse sensors, and hand pulse usable while in Heart Rate
+Control. **Polar and Bluetooth, on this machine - that is now stated by two documents and is no longer
+an inference.**
+
+**The owner's manual still gives no pairing procedure.** It adds only that the chest strap is sold
+separately, that its replacement battery is a **CR2032** with an estimated **2500 hours** of life, and
+that "chest straps that operate using Bluetooth should also work with this machine". It does not
+mention ANT+.

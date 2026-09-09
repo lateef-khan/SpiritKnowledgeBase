@@ -2,7 +2,8 @@
 id: ct900ent-sleep-mode-auto-shutoff
 title: Sleep mode and turning the treadmill off
 kind: fact
-question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill off?
+question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill,
+  or a CE850 elliptical, off?
 asked_as:
 - why did the screen turn off by itself
 - how do i turn off the treadmill
@@ -18,9 +19,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct850-2018
@@ -33,6 +36,8 @@ not_to_be_confused_with:
 see_also:
 - ct900ent-safety-tether-cord
 - spirit-ct800-console-engineering-mode-menu-with-units
+- spirit-ce850-console-maintenance-menu-cab-or-csafe
+- ce850-2016-console-engineering-mode-security-lock
 source:
   ref: ct900ent-om
   locator: p. 29
@@ -69,3 +74,20 @@ figures are reproduced as printed.
 
 **The CT850 2016 and 2020 owner's manuals have no TO TURN TREADMILL OFF section.** Their engineering
 menu is the only place either prints a sleep figure, and it says 30 minutes.
+
+**The CE850-2020 and CE850-2022 elliptical owner's manuals print these three paragraphs word for
+word** - CE850-2020 p. 22, CE850-2022 p. 23, under **TO TURN ELLIPTICAL OFF** - with "elliptical" for
+"treadmill" and "safety button" for "safety key", and with **30 minutes**. This card therefore covers
+those machines and its product line is no longer treadmill-only.
+
+**Those two manuals contradict themselves the same way the CT800 manuals do.** Their maintenance menu
+carries a **Sleep mode** entry with no figure beside it, so the 30 minutes is printed in only one
+place: `spirit-ce850-console-maintenance-menu-cab-or-csafe`.
+
+**"Safety button" on a CE850 is a copy-and-paste from a treadmill manual.** These ellipticals have no
+safety key or tether; nothing on the machine can be removed to power it down, and the manual names no
+such part anywhere else. Read that clause as the main power switch only.
+
+**The other Spirit ellipticals print different figures, or none.** The CE850-2016 engineering menu
+says **30 minutes**, the CE800-2013 and CE900-2025 menus say **20**, and the CE800-2021, CE800-2023,
+CE900-2021 and CES880 manuals print no inactivity timeout at all.

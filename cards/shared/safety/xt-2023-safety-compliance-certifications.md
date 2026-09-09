@@ -1,8 +1,8 @@
 ---
 id: xt-2023-safety-compliance-certifications
-title: The standards the treadmill is certified to, and the Part 15 declaration
+title: The standards the machine is certified to, and the Part 15 declaration
 kind: policy
-question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill certified to?
+question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, or a Spirit CE900-2025 elliptical, certified to?
 asked_as:
 - is this treadmill fcc approved
 - does the treadmill have bluetooth
@@ -21,9 +21,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce900-2025
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -39,9 +40,10 @@ see_also:
 - xt-2023-safety-rf-exposure-separation-distance
 - ct900-warnings-compliance-fcc
 - ctsbs900-warnings-compliance-fcc
+- ce900-2025-safety-product-labels
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5 The Spirit CE900 2025 elliptical owner's manual prints the same page as WARNINGS, COMPLIANCE AND NOTICES, page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -89,3 +91,25 @@ same probable misprint.
 **The XT485ENT manual has no compliance page**, exactly as the XT185 manual has none. The words
 FCC, UL, Part 15, Class B and FTMS appear nowhere in it - see
 `xt-2015-safety-no-compliance-page`, which carries that absence.
+
+## The Spirit CE900-2025 elliptical prints the same page with two standards, not three
+
+Its WARNINGS, COMPLIANCE AND NOTICES page lists:
+
+| Standard |
+|---|
+| FCC part 15 |
+| UL |
+
+**There is no Bluetooth entry.** The XT manuals' third line - `Bluetooth (with FTMS)`, or
+`Bluetooth 4.0 (with FTMS)` in the XT285 manual - is absent, and the CE900-2025 manual claims no
+Bluetooth certification anywhere. Do not carry that line onto an elliptical.
+
+**Its Part 15 declaration is printed word for word**, including the same `must not accept any
+interference received` in condition (2) that the XT manuals print. That is quoted as printed in both
+families; the usual FCC wording of that condition is `must accept`, and neither manual corrects
+itself.
+
+**It is the only Spirit elliptical manual with a compliance page.** The other nine print no
+certification list, no Part 15 declaration and no FCC mark anywhere, including on the pages that had
+to be recovered by OCR (`xt-2015-safety-no-compliance-page`).

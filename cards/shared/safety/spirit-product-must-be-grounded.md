@@ -2,7 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE850 elliptical, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -25,6 +25,9 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -55,6 +58,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-temporary-adapter-for-a-two-pole-receptacle
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- spirit-ce850-safety-instructions-list
 - xt-2023-safety-instructions-list
 - xt-2023-safety-supply-voltage-variation
 - spirit-extension-cord-16-awg-or-better
@@ -73,7 +78,7 @@ source:
     five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
     and the Important Grounding Instructions page of the five 2015 XT owner's manuals
     (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
-    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page 6. The XT685 2010 owner's manual prints the page as Grounding Instructions, PDF page 7 (printed 3)
+    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page 6. The XT685 2010 owner's manual prints the page as Grounding Instructions, PDF page 7 (printed 3) The three Spirit CE850 elliptical owner's manuals print the same paragraphs on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8
   extracted_at: '2026-09-08'
 ---
 
@@ -286,3 +291,35 @@ manuals, whose own safety pages do require a 15-amp outlet
 It also carries the grounding rule a second time, as item 12 of its appliance safety list -
 `Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
 (`spirit-ct800-safety-instructions-list`).
+
+## The three Spirit CE850 elliptical owner's manuals print both paragraphs
+
+**Word for word**, with `elliptical` in place of `treadmill` in the first sentence, on the GROUNDING
+INSTRUCTIONS page of the 2016, 2020 and 2022 manuals. Grounding is mandatory, the risk named is
+electric shock, and if the plug does not fit it is the outlet a qualified electrician changes, not
+the plug.
+
+**Their circuit sentence carries a figure no Spirit treadmill prints.**
+
+> This product is for use on a nominal 110-volt/5 amp dedicated circuit, and has a grounding plug
+> that looks like the plug illustrated below.
+
+**110 volt at 5 amp**, not the CT850's 120-volt sentence above and not the XT manuals' 110 volt. All
+three CE850 manuals agree with each other and with the 110-volt, 5-amp outlet their safety page
+requires (`spirit-ce850-safety-outlet-and-circuit-requirement`). Quote the figure from the machine's
+own manual; nothing in these manuals reconciles it with the treadmill figures.
+
+Their illustration labels the same parts - a Grounded Outlet, a Grounding Pin, an Adapter and the
+Metal Screw - and they too permit one temporary grounding adapter on the same page
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`), while their safety list forbids nothing
+about adapters at all.
+
+**The CE800ENT owner's manual has no grounding page.** It prints the 110-volt, 5-amp outlet
+requirement in its safety instructions and the circuit-breaker paragraph on its electrical page, and
+then stops; there is no grounding paragraph, no DANGER about the grounding conductor and no plug
+illustration in that manual (`spirit-ce850-safety-instructions-list`). Do not quote this page for a
+CE800ENT.
+
+**The other six Spirit ellipticals have no mains plug at all.** The CE800, CE900 and CES880 run off
+a built-in generator, so nothing on this card applies to them
+(`spirit-ce-safety-generator-produces-ac-power`).

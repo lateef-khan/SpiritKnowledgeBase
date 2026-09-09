@@ -2,7 +2,7 @@
 id: spirit-temporary-adapter-for-a-two-pole-receptacle
 title: Using a temporary adapter in a two-pole receptacle
 kind: procedure
-question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, or a Spirit CVC800 climber if there is no grounded outlet?
+question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit CE850 elliptical, or a Spirit CVC800 climber if there is no grounded outlet?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -22,6 +22,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct800ent-2022
@@ -49,6 +52,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-product-must-be-grounded
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- spirit-ce850-safety-instructions-list
 - xt-2023-safety-instructions-list
 - xt-2015-safety-instructions-list
 - spirit-2026t-safety-outlet-and-circuit-requirement
@@ -59,7 +64,7 @@ source:
     of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the five
     2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8), and the Important
     Grounding Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
-    p. 6, XT385/XT685 p. 7) The CT800 2012 owner's manual prints the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022 manual on page 6 The four CT850 owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6 The XT685 2010 owner's manual prints it on its Grounding Instructions page, PDF page 7 (printed 3)
+    p. 6, XT385/XT685 p. 7) The CT800 2012 owner's manual prints the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022 manual on page 6 The four CT850 owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6 The XT685 2010 owner's manual prints it on its Grounding Instructions page, PDF page 7 (printed 3) The three Spirit CE850 elliptical owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8
   extracted_at: '2026-09-08'
 ---
 
@@ -159,3 +164,20 @@ labelled **Tab of Grounding Screw** in the illustration on the same page.
 It prints no second sentence forbidding adapters. Its safety instructions say only
 `Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
 (`spirit-ct800-safety-instructions-list`).
+
+**The three Spirit CE850 elliptical owner's manuals print this paragraph word for word**, spelling
+the part `ear-lug` with a hyphen as the XT and CT manuals do, on their GROUNDING INSTRUCTIONS page.
+The same three conditions apply: temporary use only, the tab connected to a permanent ground, and
+the adapter held in place by a metal screw.
+
+**Their safety list prints no sentence forbidding adapters**, so unlike the CT850 chapter these
+manuals do not contradict themselves. The circuit their grounding page names is a nominal
+110-volt/5 amp dedicated one (`spirit-ce850-safety-outlet-and-circuit-requirement`).
+
+**The CE800ENT owner's manual has no grounding page and no adapter permission.** Its electrical page
+runs from the cover-removal warning to the circuit-breaker paragraph and stops
+(`spirit-ce850-safety-instructions-list`); do not offer this procedure for a CE800ENT.
+
+**The other six Spirit ellipticals have no mains plug at all.** The CE800, CE900 and CES880 are
+generator-powered, so there is nothing to adapt
+(`spirit-ce-safety-generator-produces-ac-power`).

@@ -1,0 +1,65 @@
+---
+id: spirit-ce-console-pedal-to-power-up
+title: Pedal to power the console up - there is no AC outlet and the display stays dark for a few seconds
+kind: procedure
+question: How do I turn on a Spirit commercial elliptical whose console has no power cord?
+asked_as:
+- how do i turn on my spirit elliptical
+- my elliptical console will not light up
+- where do i plug in the elliptical
+- elliptical screen is dark when i start
+keywords:
+- power up
+- generator
+- no power cord
+- no ac outlet
+- pedal to start
+- self test
+- start-up message
+- console does not light
+- display dark
+facets:
+  brand:
+  - spirit
+  product_line: elliptical
+  model: '*'
+  applies_to:
+  - ce800-2021
+  - ce800-2023
+  - ce900-2021
+  - ce900-2025
+  - ces880-2025
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- spirit-ce850-console-power-up-self-test
+- ce850-2016-console-power-up-from-the-ac-cord
+- ce800-2013-console-power-up-odometer
+- spirit-ce-console-quick-start-time-counts-up
+source:
+  ref: spirit-elliptical-ce800-2021-owners-manual
+  locator: CE800 2021 p. 14 POWER; CE800 2023 p. 15; CE900 2021 p. 13; CE900 2025 p. 14 Powering On &
+    Starting Operation; CES880 2025 p. 27 Plugging in and Powering On
+  extracted_at: '2026-09-09'
+---
+
+**Spirit Fitness commercial elliptical trainers have a built-in generator for power and do not need
+to be plugged into an AC outlet.** To power the machine up, **simply start to pedal** and the
+console turns on automatically.
+
+When initially powered on the console performs an **internal self-test**. **During this time the
+display may not light up for a few seconds.** Keep pedalling and the display will light. Once
+powered on, the message display scrolls the start-up message and you may begin your workout program.
+
+**A dark display in the first few seconds of pedalling is normal, not a fault.**
+
+All five manuals print this paragraph word for word. Only the name of the display differs: the
+CE800 and the CES880 call it the **Dot Matrix Message Center**, the CE900 manuals call it the
+**Message Window**.
+
+**Do not read this onto every Spirit elliptical.** The CE850-2020 and CE850-2022 ship with a power
+cord and their manuals never mention a generator; the CE850-2016 is powered from its AC cord
+outright. See `spirit-ce850-console-power-up-self-test` and
+`ce850-2016-console-power-up-from-the-ac-cord`.

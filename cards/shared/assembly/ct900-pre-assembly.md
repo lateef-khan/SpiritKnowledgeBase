@@ -4,7 +4,7 @@ title: Pre-assembly steps before starting
 kind: procedure
 question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
   40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
-  XT685ENT treadmill?
+  XT685ENT treadmill, or a Spirit CE850 or CE900 elliptical?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -17,12 +17,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2025
   - ct900
   - ctsbs900
   - xt185-2015
@@ -56,10 +60,18 @@ see_also:
 - xt685-2015-assembly-procedure
 - ctsbs900-step-1-attach-handlebar-upright-tubes
 - ct900ent-pre-assembly-unpacking-tools-parts
+- spirit-ce850-assembly-procedure
+- spirit-ce900-assembly-procedure
+- spirit-ce850-assembly-tools-included
 source:
   ref: spirit-treadmill-ct900-owners-manual
   locator: p. 10, PRE-ASSEMBLY; the same four items at p. 11 of the CTSBS900 manual
-    (`spirit-treadmill-ctsbs900-owners-manual`), which adds a fifth
+    (`spirit-treadmill-ctsbs900-owners-manual`), which adds a fifth; the same four
+    items at p. 9 of the CE900 2025 elliptical manual
+    (`spirit-elliptical-ce900-2025-owners-manual`), and the three-item form at p. 9
+    of the CE850 2020 and 2022 manuals (`spirit-elliptical-ce850-2020-owners-manual`,
+    `spirit-elliptical-ce850-2022-owners-manual`) and p. 7 of the CE850 2016 manual
+    (`spirit-elliptical-ce850-2016-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +94,20 @@ On the XT185-2023, XT285-2023, XT385-2023 and XT485-2023 there is one more thing
 The three 2026 machines share these words and nothing else about assembly. Their hardware, their step counts and their item numbers are all different; take the rest of the build from the card for the machine in front of you.
 
 Every machine on this card builds differently after this point. On the CT900 and CT900ENT, next: [Assembly Step One - install the uprights](../../ct900/assembly/assembly-step-1-uprights.md). On the CTSBS900, next: [Assembly step 1 - attach the handlebar upright tubes](../../ctsbs900/assembly/step-1-attach-handlebar-upright-tubes.md). The CTSBS900 is a six-step build with letter-keyed hardware and shares none of the CT900 item numbers.
+
+## Four Spirit ellipticals print these words too
+
+The **CE900 2025** manual prints all four items word for word, under the heading
+PRE-ASSEMBLY. The **CE850** manuals - 2016, 2020 and 2022 - print the **three**-item
+form, running items 3 and 4 together in their item 3 exactly as the 2015 treadmill
+manuals do, under the heading CE850 PRE-ASSEMBLY / UNPACKING. Nothing is added and
+nothing is left out.
+
+**The CE900 2021 manual does not print these words**, even though the CE900 2025
+manual does and the two machines build identically. It prints the CT800 two-item
+form instead - see [that card](spirit-ct800-assembly-unpacking.md). So do the CE800
+manuals and the CE800ENT.
+
+Every elliptical here builds differently from every treadmill here. On the CE850,
+next: [the step-zero build](spirit-ce850-assembly-procedure.md). On the CE900, next:
+[the four-step build](spirit-ce900-assembly-procedure.md).

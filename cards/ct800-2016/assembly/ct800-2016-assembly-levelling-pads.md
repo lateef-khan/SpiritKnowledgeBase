@@ -3,7 +3,8 @@ id: ct800-2016-assembly-levelling-pads
 title: Two levelling pads under the rear stabiliser, turned with a 14mm wrench
 kind: procedure
 question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 or
-  CTSBS900 treadmill that rocks or squeaks?
+  CTSBS900 treadmill, or a Spirit CE800, CE800ENT or CE850 elliptical, that rocks or
+  squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -21,9 +22,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
   - ct800-2016
   - ct850-2018
   - ct900
@@ -34,6 +41,9 @@ authority: 3
 not_to_be_confused_with:
 - ct800-2020-assembly-levelling-pads
 - xt-2023-assembly-levelling-feet
+- ce800-2013-assembly-levelling-pads
+- spirit-ce900-assembly-levelling-pads
+- ces880-2025-assembly-levelling-note
 see_also:
 - ct800-2020-assembly-levelling-pads
 - ctsbs900-level-adjustment
@@ -44,6 +54,9 @@ see_also:
 - ct900-post-workout-care-and-hardware-check
 - ctsbs900-post-workout-cleaning
 - spirit-ct900-assembly-tools-included
+- ce800-2013-assembly-levelling-pads
+- spirit-ce900-assembly-levelling-pads
+- ces880-2025-assembly-levelling-note
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 40, GENERAL MAINTENANCE item 2c; the same sentence at GENERAL
@@ -80,3 +93,26 @@ The CT800 2020 and the CT850 2016 and 2020 say pads on the bottom of the feet, w
 no pad count and no wrench size; the CT800 2012, the CT800ENT and the CT850ENT say
 nothing about levelling at all. Do not carry the 14mm figure across; see the linked
 cards. **The CT900ENT manual prints no levelling instruction either.**
+
+## Six Spirit ellipticals print the same sentence, in the same place
+
+The CE800 2021 and 2023, the CE800ENT and the CE850 2016, 2020 and 2022 manuals all
+print it word for word, and all six put it in the same place - the last remedy in the
+noise item, not in the assembly chapter. **Two levelling pads under the rear
+stabiliser, 14mm wrench**, on all six.
+
+**None of those six cartons holds a 14mm wrench either.** The CE800 and CE800ENT
+cartons hold a 13/14mm wrench and the CE850 carton a 13/14mm and a 12/14mm wrench,
+which will fit; no carton on this card holds a plain 14mm.
+
+## Three Spirit ellipticals give a different number
+
+Do not carry the figure of two across to these:
+
+- The **CE800 2013** manual says **4** levelling pads, on the bottom of the **rear
+  rails**, not the rear stabiliser. Same wrench. See its own card.
+- The **CE900** manuals, 2021 and 2025, say **6** levelling pads on the bottom of
+  **the machine**. Same wrench. See their own card.
+- The **CES880** does not use this sentence at all. It has six levellers, fitted
+  during assembly, each locked by an adjustment plate rather than turned to suit
+  afterwards. See its own card.

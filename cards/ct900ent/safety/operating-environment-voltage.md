@@ -2,7 +2,7 @@
 id: ct900ent-operating-environment-voltage
 title: Operating environment - temperature, humidity, moisture, and voltage
 kind: spec
-question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill need?
+question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, or a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, need?
 asked_as:
 - can i use this treadmill outside
 - what temperature range is safe
@@ -20,9 +20,18 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2021
+  - ce900-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -44,9 +53,12 @@ see_also:
 - spirit-ct850-outlet-and-circuit-requirement
 - spirit-ct800-safety-outlet-110-volt-15-amp
 - ctsbs900-electrical-safety
+- spirit-ce-safety-generator-produces-ac-power
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- ces880-2025-safety-instructions-list
 source:
   ref: ct900ent-om
-  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual prints the same two paragraphs on its Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches'
+  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual prints the same two paragraphs on its Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches. The nine Spirit elliptical owner''s manuals that carry the paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed 3), CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6'
   extracted_at: '2026-08-24'
 ---
 
@@ -118,3 +130,31 @@ prints the CT800 family's Fahrenheit range, so quoting `40 degrees C` for an XT6
 **The XT685-2010 manual states no amp figure anywhere**, so the circuit it names is 110 volt and
 nothing more - see `spirit-product-must-be-grounded`. Do not carry the CT800 family's
 110-volt/15-amp figure onto it (`spirit-ct800-safety-outlet-110-volt-15-amp`).
+
+## Nine Spirit ellipticals print the same environment paragraph, and only four print the voltage half
+
+**All nine print the rain, moisture and temperature paragraph word for word**, with `elliptical` or
+`elliptical trainer` in place of `treadmill`, and with the same two figures: **40 to 120 degrees
+Fahrenheit** and **95% non-condensing**. One Fahrenheit range, no Celsius conversion, no minimum
+humidity and no storage or transport figure, in every one of them.
+
+**Only the four mains-powered ellipticals print the ten percent voltage paragraph** - the CE850
+2016, 2020 and 2022 and the CE800ENT owner's manuals - in the same printed block, which is why they
+are carried here. Their wording is this card's, with `Elliptical` in place of `treadmill`, and the
+figures are unchanged: ten percent, performance rather than damage, not covered under warranty, and
+the power company or a licensed electrician as the action.
+
+**The CE800 2013, 2021 and 2023 and the CE900 2021 and 2025 manuals print no voltage rule at all.**
+Their electrical page carries the environment paragraph and nothing else, because those machines
+have no mains supply to vary - the same page warns instead that the generator is producing AC power
+while the machine is pedalled (`spirit-ce-safety-generator-produces-ac-power`). Do not quote a ten
+percent threshold or a warranty exclusion for one of them.
+
+The nominal circuit the four mains-powered ellipticals name is **110 volt at 5 amp** -
+`spirit-ce850-safety-outlet-and-circuit-requirement` - the smallest figure Spirit prints for any
+machine, and neither the CT800's 15 amp nor the CT850's 20 amp.
+
+**The CES880-2025 manual prints no environment limits at all.** It has no electrical page: no
+temperature figure, no humidity figure and no rain or moisture sentence anywhere. Its safety list
+says only `Do not use outdoors` (`ces880-2025-safety-instructions-list`). That is an absence - do not
+fill it from this card.

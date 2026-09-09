@@ -2,7 +2,7 @@
 id: xt-2023-warranty-start-date
 title: When the warranty clock starts
 kind: policy
-question: When does the warranty start on a Spirit XT, CT800, CT850, CT900 or 2026
+question: When does the warranty start on a Spirit treadmill or elliptical, the 2026
   treadmill?
 asked_as:
 - when does my treadmill warranty start
@@ -19,12 +19,22 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2021
+  - ce900-2025
+  - ces880-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -63,19 +73,29 @@ see_also:
 - spirit-ct800-warranty-labor-period
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 'WARRANTY - RESIDENTIAL, opening paragraph, p. 40. The same sentence opens
-    the warranty section of all eleven XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385
-    p. 53, xt485 p. 53, xt685 p. 52; 2015 - xt185 text.md line 750, xt285 line 964,
-    xt385 line 1016, xt485 line 1153, xt685 line 1142. XT485ENT p. 55 (text.md lines
-    1085-1089); XT685ENT p. 53 (text.md lines 1571-1575). XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md lines
-    1506-1510). CT800 2012 p. 25 (text.md
-    lines 1093-1097), CT800 2016 p. 41 (lines 1058-1063), CT800 2020 p. 45 (lines
-    1152-1157), CT800ENT 2022 p. 53 (lines 1203-1208). CT850 2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual
-    text.md lines 1148-1154), CT850 2018 p. 45 (lines 1141-1147), CT850 2020 p. 45
-    (lines 1147-1153), CT850ENT 2022 p. 53 (lines 1208-1214). CT900 p. 52 (spirit-treadmill-ct900-owners-manual
-    text.md lines 1471-1477), CT900ENT p. 50 (spirit-treadmill-ct900ent-owners-manual
-    text.md lines 1124-1130), CTSBS900 p. 54 (spirit-treadmill-ctsbs900-owners-manual
-    text.md lines 1669-1675)'
+  locator: 'WARRANTY - RESIDENTIAL, opening paragraph, p. 40. The same sentence opens the
+    warranty section of all eleven XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385 p. 53,
+    xt485 p. 53, xt685 p. 52; 2015 - xt185 text.md line 750, xt285 line 964, xt385 line 1016,
+    xt485 line 1153, xt685 line 1142. XT485ENT p. 55 (text.md lines 1085-1089); XT685ENT p. 53
+    (text.md lines 1571-1575). XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual
+    text.md lines 1506-1510). CT800 2012 p. 25 (text.md lines 1093-1097), CT800 2016 p. 41
+    (lines 1058-1063), CT800 2020 p. 45 (lines 1152-1157), CT800ENT 2022 p. 53 (lines
+    1203-1208). CT850 2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual text.md lines
+    1148-1154), CT850 2018 p. 45 (lines 1141-1147), CT850 2020 p. 45 (lines 1147-1153), CT850ENT
+    2022 p. 53 (lines 1208-1214). CT900 p. 52 (spirit-treadmill-ct900-owners-manual text.md
+    lines 1471-1477), CT900ENT p. 50 (spirit-treadmill-ct900ent-owners-manual text.md lines
+    1124-1130), CTSBS900 p. 54 (spirit-treadmill-ctsbs900-owners-manual text.md lines
+    1669-1675). All ten Spirit elliptical owner''s manuals open with the same sentence:
+    ce800-2013 p. 27 (spirit-elliptical-ce800-2013-owners-manual text.md lines 1063-1069),
+    ce800-2021 p. 36 (spirit-elliptical-ce800-2021-owners-manual text.md lines 930-935),
+    ce800-2023 p. 37 (spirit-elliptical-ce800-2023-owners-manual text.md lines 952-957),
+    ce800ent p. 40 (spirit-elliptical-ce800ent-owners-manual text.md lines 910-916), ce850-2016
+    p. 34 (spirit-elliptical-ce850-2016-owners-manual text.md lines 812-817), ce850-2020 p. 41
+    (spirit-elliptical-ce850-2020-owners-manual text.md lines 1006-1012), ce850-2022 p. 42
+    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1012-1018), ce900-2021 p. 26
+    (spirit-elliptical-ce900-2021-owners-manual text.md lines 613-619), ce900-2025 p. 36
+    (spirit-elliptical-ce900-2025-owners-manual text.md lines 1084-1090), ces880-2025 p. 58
+    (spirit-elliptical-ces880-2025-owners-manual text.md lines 1966-1972)'
   extracted_at: '2026-09-09'
 ---
 
@@ -104,5 +124,30 @@ The rest of that opening paragraph sets out what Spirit Fitness owes: **new or r
 **The CT900, CT900ENT and CTSBS900 open with the same sentence as well, in two of the wordings already described.** The **CT900** warrants "all its **home use** Treadmill parts" and the **CTSBS900** "all its **home use** Slat Belt Sled Treadmill parts" - the XT wording, kept - while both read "as determined by **sale receipt**" like the 2026 manuals. The **CT900ENT** drops *home use*, reads "as determined by sale receipt", and makes the CT800 2012 change as well: "from the date of **sale**" where the CT900 and CTSBS900 read "from the date of **retail sale**". The clock is unchanged on all three: date of sale, or eighteen months from factory shipping when there is no receipt. Their effective dates are October 01, 2024 (CT900), November 19, 2021 (CT900ENT) and October 29, 2025 (CTSBS900). The rest of the paragraph - new or remanufactured parts at Spirit Fitness's option, administered directly to a consumer where there is no dealer - is word for word the same on all three.
 
 **What follows their sentence is three different tables.** The CT900 prints three rows - dues-paying commercial, non-dues-paying commercial and residential - the CTSBS900 prints one dues-paying commercial row and no residential row at all, and the CT900ENT prints one unqualified Commercial row with no wear-items or deck column. Read the periods from `ct900-warranty-coverage-terms`, `ctsbs900-warranty-coverage-commercial` or `ct900ent-warranty-coverage-terms`, never from each other. Their labor period is **3 Years** on all three - neither the XT's one year nor the CT800's two.
+
+## The ten Spirit elliptical manuals open with the same sentence, in four wordings
+
+**The clock is unchanged in all ten**: the date of retail sale as determined by a sale receipt, or eighteen (18) months from the original factory shipping date when there is no receipt. What moves is the noun and the warrantor:
+
+| Manual | Opening clause | Effective date |
+|---|---|---|
+| CE800 2013 | Spirit Fitness warrants all its **elliptical trainer** parts | March 1, 2012 |
+| CE800 2021 | Spirit Fitness warrants all its elliptical trainer parts | November 08, 2021 |
+| CE800 2023 | Spirit Fitness warrants all its elliptical trainer parts | June 08, 2023 |
+| CE800ENT | Spirit Fitness warrants all its **Elliptical** parts | July 3, 2024 |
+| CE850 2016 | **Spirit Fitness, Inc. (Spirit Fitness)** warrants all its elliptical trainer parts | December 23, 2015 |
+| CE850 2020 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts | November 08, 2021 |
+| CE850 2022 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts | July 06, 2022 |
+| CE900 2021 | Spirit Fitness warrants **this elliptical trainer** | November 08, 2021 |
+| CE900 2025 | Spirit Fitness Inc. warrants all its **home use Elliptical** parts | October 01, 2024 |
+| CES880 2025 | Spirit Fitness warrants all its **Suspension Elliptical** parts | December 17, 2024 |
+
+**The CE900 2021 is the odd one.** It warrants "**this** elliptical trainer" rather than "all its elliptical trainer parts", counts "from the date of **sale**" rather than the date of **retail** sale, and says the warranties "will be administered by Spirit Fitness **directly**" with no consumer or facility named at all. The eighteen-month fallback is unchanged.
+
+**Two elliptical manuals change who the warranty is administered to.** The **CE800ENT** says "directly to a **facility**" where the other nine say "directly to a **consumer**" - on a manual that still prints a Residential row. The **CE900 2021** names neither.
+
+**Three effective dates repeat across ranges.** November 08, 2021 heads the CE800 2021, the CE850 2020 **and** the CE900 2021 warranties - three different machines, one warranty revision. The date is the date the warranty was written, not the model year, so it is no guide to which manual is newer. The CE850 2020 manual carries the November 08, 2021 warranty and the CE850 2022 manual the July 06, 2022 one.
+
+**What follows the elliptical sentence is four different tables.** Seven of the ten print Frame Lifetime with a 5-year brake or electronics column (`spirit-ce-warranty-commercial-periods`, `spirit-ce-warranty-residential-periods`); the CE900 2021 prints one unqualified Commercial row and no residential row (`ce900-2021-warranty-coverage-periods`); the CE900 2025 and the CES880 print three rows, a 10-year frame and a Wear Items column (`spirit-ce-2025-warranty-coverage-periods`).
 
 **Labor has its own clock**, stated separately in the SERVICE paragraph two pages later and dated from the bill of sale or the serial number. Do not answer a labor question from this paragraph - see `xt-2023-warranty-labor-period`.

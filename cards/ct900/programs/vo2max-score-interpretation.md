@@ -14,10 +14,17 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 80t-2026
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2020
+  - ce850-2022
+  - ces880-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -34,6 +41,8 @@ not_to_be_confused_with: []
 see_also:
 - ct900-gerkin-protocol
 - ct900-wfi-protocol
+- spirit-ce-programs-fitness-test-ymca-protocol
+- spirit-ce-programs-fitness-test-workload-charts-are-pictures
 source:
   ref: ct900-om
   locator: p. 28
@@ -86,3 +95,19 @@ charts are interleaved column-for-column by the text extraction and the female /
 "Excellent" row prints as a bare figure rather than a ">" threshold, exactly as it does above.
 **The CT850ENT manual prints the same heading but its chart is a picture**, so no bands are recorded
 for that machine.
+
+**Five Spirit commercial elliptical owner's manuals print these same two charts, value for value**,
+under "What Your Score Means": CE800 2021 (printed page 27), CE800 2023 (page 28), CE850 2020 (page
+32), CE850 2022 (page 33) and CE800 2013 (page 21, from an image-only scan whose OCR nonetheless
+recovered every figure legibly). On the ellipticals the score comes from the **YMCA sub-maximal
+protocol**, not from a Gerkin or WFI treadmill test - see
+`spirit-ce-programs-fitness-test-ymca-protocol`.
+
+**Two more ellipticals print the same two charts as pictures, and OCR has since recovered both.**
+The **CES880 2025** (PDF pages 51-52, printed 49-50) and the **CE800ENT** (PDF page 36, printed 34)
+match every figure above. In the CE800ENT scan the `>` glyph of the top "excellent" row came out as
+digits and stray characters - `756`, `51`, `245`, `at`, `»37` for `>56`, `>51`, `>45`, `>41`, `>37` -
+so only that row's leading symbol is OCR damage; the numbers themselves are legible and six other
+manuals print the same ones.
+
+The CE850 2016, CE900 2021 and CE900 2025 owner's manuals have no fitness test at all.

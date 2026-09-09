@@ -2,7 +2,8 @@
 id: xt-2023-console-usb-charging-port
 title: What the console USB port can and cannot do
 kind: spec
-question: Can I charge my phone from the console USB port on a Spirit XT285, XT385, XT485 or XT685 2023 treadmill?
+question: Can I charge my phone from the console USB port on a Spirit XT285, XT385, XT485 or XT685
+  2023 treadmill, or a CES880 elliptical?
 asked_as:
 - can i charge my phone on my treadmill
 - what kind of usb port is on the treadmill
@@ -21,9 +22,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ces880-2025
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -36,6 +38,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - xt-2023-console-status-icons
+- ce800ent-usb-charging-port
+- spirit-ce-console-led-console-face
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
   locator: page 25, FEATURES - CONTINUED / Charge Portable Devices with USB port
@@ -62,3 +66,14 @@ p. 21, the XT685ENT on its p. 24. **The XT685ENT manual adds one note the others
 not print**: your device's *charging* icon may or may not indicate it is charging,
 because depending on the current your device asks for the icon may stay off while the
 device still charges, possibly at a lower rate.
+
+**The CES880-2025 suspension elliptical owner's manual prints this word for word**, so this card
+covers an elliptical as well as the 2023 XT treadmills and its product line is no longer
+treadmill-only. It is on **p. 34, FEATURES - CONTINUED / Charge Portable Devices with USB
+port**, with the same two steps, the same **5Vdc/1.0 amp** and **USB 2.0** figures and the same
+"charging purposes only" sentence.
+
+**No other Spirit elliptical owner's manual states a USB rating.** The CE800-2021, CE800-2023,
+CE850-2020 and CE850-2022 drawings label a **USB Charger** on the console face and say nothing more
+about it, so **do not quote 5Vdc/1.0 amp for those machines**. The CE800ENT figure comes from its own
+service manual: `ce800ent-usb-charging-port`.

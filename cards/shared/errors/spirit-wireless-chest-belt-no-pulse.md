@@ -2,8 +2,8 @@
 id: spirit-wireless-chest-belt-no-pulse
 title: The wireless chest belt shows no pulse
 kind: troubleshooting
-question: Why is the wireless chest belt not reading on a Spirit CE800ENT, CT850,
-  CU900ENT or CVC800?
+question: Why is the wireless chest belt not reading on a Spirit CE800ENT, CE900-2025,
+  CT850, CU900ENT or CVC800?
 asked_as:
 - chest strap not reading on my spirit machine
 - wireless heart rate not working
@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce900-2025
   - ct850-2016
   - ct850-2020
   - cu900ent
@@ -41,11 +42,11 @@ source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: 'Troubleshooting procedure matrix: CE800ENT section 7-3 page 27; CT850
     2016 section 8.3 pages 49-52; CT850 2020 section 8-7 pages 47-51; CU900ENT page
-    39; CVC800 section 8-5 page 34'
+    39; CVC800 section 8-5 page 34; CE900 2025 owner''s manual printed page 32'
   extracted_at: '2026-09-08'
 ---
 
-Five Spirit commercial manuals print this row and all five give the same three causes and the same
+Six Spirit commercial manuals print this row and all six give the same three causes and the same
 three fixes. The condition is printed as
 `Wireless lost its function. (No pulse displayed on monitor)`.
 
@@ -57,10 +58,11 @@ three fixes. The condition is printed as
 
 The battery is a **CR2032** lithium cell. Working range is **within 3 feet** of the console.
 
-A second row with the same answer follows it in the CT850 2016, CT850 2020, CU900ENT and CVC800
-manuals - `Chest belt too close to the [machine]. Weak battery. Replace with new lithium battery
-with type CR2032.` **The CE800ENT manual does not print that second row**, and prints instead a
-Bluetooth chest strap row the other four do not have: `ce800ent-bluetooth-chest-strap-no-heart-rate`.
+A second row with the same answer follows it in the CT850 2016, CT850 2020, CU900ENT, CVC800 and
+CE900 2025 manuals - `Chest belt too close to the [machine]. Weak battery. Replace with new lithium
+battery with type CR2032.` **The CE800ENT manual does not print that second row**, and prints
+instead a Bluetooth chest strap row the other five do not have:
+`ce800ent-bluetooth-chest-strap-no-heart-rate`.
 
 The CRW800H2O rower answers this question differently again - it asks for a 5.0 kHz belt worn
 correctly, and names no battery: `crw800h2o-console-shows-no-pulse-data`.
