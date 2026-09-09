@@ -2,8 +2,9 @@
 id: spirit-2026t-warranty-owner-costs
 title: What the owner pays for a warranty repair - freight and shipping, no trip charge
 kind: policy
-question: Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill
-  pay anything for a warranty repair?
+question: Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill,
+  or of a Spirit CE900 or CES880 elliptical bought under the 2024 terms, pay anything
+  for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
 - who pays shipping for warranty parts
@@ -21,12 +22,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce900-2025
+  - ces880-2025
   - ct900
   - ctsbs900
   section: warranty
@@ -41,14 +44,18 @@ see_also:
 - spirit-2026t-warranty-commercial-periods
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'SERVICE step 4 (4.0T p. 53, 7.0T p. 52, 8.0T p. 70); RESPONSIBILITIES OF
-    THE FACILITY items 5 and 6 (4.0T p. 51, 7.0T p. 50, 8.0T p. 68); EXCLUSIONS item
-    2 (4.0T p. 52, 7.0T p. 51, 8.0T p. 69). All three halves are identical in the three
-    2026 manuals. The CT900 and the CTSBS900 print all three halves too: SERVICE step
-    4 and step 5 (spirit-treadmill-ct900-owners-manual text.md lines 1543-1549, p. 54;
-    spirit-treadmill-ctsbs900-owners-manual lines 1743-1749, p. 56), RESPONSIBILITIES
-    OF THE FACILITY item 6 (ct900 line 1495, p. 52; ctsbs900 line 1695, p. 54) and
-    EXCLUSIONS item 2 (ct900 line 1509, p. 53; ctsbs900 line 1709, p. 55)'
+  locator: 'SERVICE step 4 (4.0T p. 53, 7.0T p. 52, 8.0T p. 70); RESPONSIBILITIES OF THE
+    FACILITY items 5 and 6 (4.0T p. 51, 7.0T p. 50, 8.0T p. 68); EXCLUSIONS item 2 (4.0T p. 52,
+    7.0T p. 51, 8.0T p. 69). All three halves are identical in the three 2026 manuals. The CT900
+    and the CTSBS900 print all three halves too: SERVICE step 4 and step 5
+    (spirit-treadmill-ct900-owners-manual text.md lines 1543-1549, p. 54;
+    spirit-treadmill-ctsbs900-owners-manual lines 1743-1749, p. 56), RESPONSIBILITIES OF THE
+    FACILITY item 6 (ct900 line 1495, p. 52; ctsbs900 line 1695, p. 54) and EXCLUSIONS item 2
+    (ct900 line 1509, p. 53; ctsbs900 line 1709, p. 55). The same four charges are printed in
+    two Spirit elliptical owner''s manuals: ce900-2025 pp. 37-38
+    (spirit-elliptical-ce900-2025-owners-manual text.md lines 1121-1124 and 1152-1161) and
+    ces880-2025 pp. 59-60 (spirit-elliptical-ces880-2025-owners-manual text.md lines 2004-2007
+    and 2035-2044)'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,6 +75,10 @@ And exclusion 2 refuses **service call reimbursement to the consumer**.
 The manuals print **no figure** for any of these charges and no way to have one waived.
 
 **The CT900 and the CTSBS900 charge the owner exactly the same four things**, in the same four places and in the same words - step 4's freight to and from a service center and shipping and handling on replacement parts, step 5's packaging and freight claims, the facility's expense in making the machine accessible, and exclusion 2's refusal of service call reimbursement to the consumer. Neither charges a trip charge either; their step 4 stops at shipping and handling, exactly as the 2026 step 4 does.
+
+**The Spirit CE900 2025 and CES880 ellipticals charge the owner the same four things**, in the same four places and in the same words. Their step 4 stops at shipping and handling on replacement parts and names no trip charge either. Their accessibility duty is item **5** of the RESPONSIBILITIES OF THE FACILITY list on the CE900 2025 and item **6** as printed on the CES880, whose numbering is shifted by one (`spirit-ce-2025-warranty-facility-responsibilities`).
+
+**Two Spirit ellipticals do not belong on this card.** The **CE900 2021** step 4 ends at "All repairs must be preauthorized by Spirit Fitness" and prints neither the freight sentence nor the shipping-and-handling one - the same gap the CT900ENT has - so two of the four charges above are not stated in that manual at all. The seven earlier CE800 and CE850 manuals go further the other way and **do** charge a trip charge and a 100-mile surcharge (`xt-2023-warranty-owner-costs`).
 
 **The CT900ENT does not belong on this card and is the reason to check before quoting it.** Its SERVICE step 4 ends at "All repairs must be preauthorized by Spirit Fitness" and prints **neither** the freight sentence **nor** the shipping-and-handling sentence. Two of the four charges above are simply not stated in that manual, so quoting them to a CT900ENT owner would invent a cost the source does not impose. What it does state is step 5's packaging duty and exclusion 2 - see `ct900ent-obtaining-service` and `ct900ent-exclusions`.
 

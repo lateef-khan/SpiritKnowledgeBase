@@ -1,0 +1,105 @@
+---
+id: spirit-ce850-safety-outlet-and-circuit-requirement
+title: The outlet is a nominal 110-volt, 5-amp dedicated circuit
+kind: spec
+question: What outlet and circuit does a Spirit CE850 or CE800ENT elliptical (ce800ent, ce850-2016, ce850-2020 or ce850-2022) need?
+asked_as:
+- what outlet does the elliptical need
+- how many amps does the elliptical draw
+- can i share the socket with something else
+- does the elliptical need its own circuit
+keywords:
+- outlet
+- 110 volt
+- 5 amp
+- dedicated circuit
+- circuit breaker
+- grounded outlet
+- socket
+- power requirement
+- level surface
+- plug
+facets:
+  brand:
+  - spirit
+  product_line: elliptical
+  model: '*'
+  applies_to:
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  section: safety
+  code: '*'
+authority: 3
+not_to_be_confused_with:
+- spirit-ct800-safety-outlet-110-volt-15-amp
+- spirit-ct800-safety-outlet-120-volt-15-amp
+- spirit-ct850-outlet-and-circuit-requirement
+- xt-2015-safety-outlet-and-circuit-requirement
+- spirit-mt200-safety-outlet-and-circuit-requirement
+- spirit-2026t-safety-outlet-and-circuit-requirement
+see_also:
+- spirit-ce850-safety-instructions-list
+- spirit-product-must-be-grounded
+- spirit-temporary-adapter-for-a-two-pole-receptacle
+- spirit-house-breaker-needs-a-high-inrush-type
+- xt-2015-safety-extension-cord-14-awg-or-better
+- spirit-ce-safety-generator-produces-ac-power
+source:
+  ref: spirit-elliptical-ce850-2020-owners-manual
+  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph
+    on page 8; the CE850 2022 manual prints both on pages 6 and 8, the CE850 2016 manual
+    on pages 5 and 6, and the CE800ENT manual on pages 4 and 5. The 110-volt/5 amp
+    dedicated-circuit sentence is on the GROUNDING INSTRUCTIONS page of the three CE850
+    manuals - 2016 page 6, 2020 page 8, 2022 page 8
+  extracted_at: '2026-09-09'
+---
+
+**110 volt, 5 amp, grounded, and nothing else on the circuit.** All four manuals print the same
+requirement in the WARNING header of their safety instructions:
+
+> WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+> elliptical on a flat level surface with access to a 110-volt, 5-amp grounded outlet with only the
+> elliptical plugged into the circuit.
+
+The circuit-breaker paragraph on the electrical page closes with the breaker rating:
+
+> The electrical outlet used should have a dedicated 5 amp circuit breaker.
+
+| Requirement | Figure |
+|---|---|
+| Nominal supply | 110 volt |
+| Current | 5 amp |
+| Outlet | grounded |
+| Circuit | dedicated - only the elliptical plugged into it |
+| Breaker | dedicated 5 amp |
+
+**The three CE850 manuals state it a third time on their grounding page**, as `This product is for
+use on a nominal 110-volt/5 amp dedicated circuit, and has a grounding plug that looks like the plug
+illustrated below`. The three figures agree with the two statements above.
+
+**The CE800ENT manual has no grounding page**, so its only statements are the WARNING header and
+the breaker sentence. Both give the same figures.
+
+**5 amp is not a Spirit treadmill figure.** No treadmill card answers for these ellipticals, and
+this card answers for no treadmill: the CT800 family is 110 or 120 volt at **15 amp**
+(`spirit-ct800-safety-outlet-110-volt-15-amp`, `spirit-ct800-safety-outlet-120-volt-15-amp`), the
+CT850 is **20 amp** (`spirit-ct850-outlet-and-circuit-requirement`), the MT200 is 115 volt at
+**20 amp** (`spirit-mt200-safety-outlet-and-circuit-requirement`) and the 2026 machines need a
+NEMA 5-20P on a 120-volt, **20-amp** circuit
+(`spirit-2026t-safety-outlet-and-circuit-requirement`). Never carry one of those figures onto an
+elliptical.
+
+**The manuals name no NEMA type and no frequency.** They print no Hz figure and no receptacle type
+for either the plug or the socket - only the illustration on the grounding page, which labels a
+Grounded Outlet, a Grounding Pin, an Adapter and a Metal Screw
+(`spirit-product-must-be-grounded`).
+
+**The other six Spirit ellipticals need no outlet at all.** The CE800, CE900 and CES880 run off a
+built-in generator and their manuals state no supply requirement
+(`spirit-ce-safety-generator-produces-ac-power`). Check which machine is in front of you before
+quoting 110 volt / 5 amp.
+
+A house breaker that trips while the machine's own does not is a different problem with a different
+answer: `spirit-house-breaker-needs-a-high-inrush-type`.

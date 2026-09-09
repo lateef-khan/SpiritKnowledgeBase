@@ -15,10 +15,19 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2025
+  - ces880-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -47,6 +56,8 @@ see_also:
 - ct900-heart-rate-exertion-target-zones
 - ct900-chester-treadmill-test
 - xt-2023-programs-heart-rate-training-zone
+- spirit-ce-programs-target-zone-of-108-to-153-beats
+- spirit-ce-programs-target-zone-of-108-to-144-beats
 source:
   ref: ct900-om
   locator: p. 33
@@ -104,3 +115,22 @@ drop those sentences and say instead that the scale helps users determine an app
 level when a heart rate monitor is not in use (2016 and 2020 printed page 35, CT850ENT printed page
 41). The ratings, the descriptions and the add-a-zero rule are identical in all four. None of the
 four has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.
+
+**Nine of the ten Spirit commercial elliptical owner's manuals print the same scale, value for
+value.** They split into the same two framings the treadmill manuals use:
+
+- The **"listen to your body"** opening, with "This scale rates exercise intensity from 6 to 20":
+  CE800 2013 (printed page 23), CE850 2016 (page 30), CE900 2025 (page 28) and CES880 2025 (page
+  38), the last two headed "Heart Rate - Perceived Exertion".
+- The **reworded** opening - the scale helps users determine an approximate heart rate level when a
+  heart rate monitor was not in use: CE800 2021 (page 32), CE800 2023 (page 33), CE850 2020 (page
+  37), CE850 2022 (page 38) and CE800ENT (page 35), all headed "Rate of Perceived Exertion".
+
+The CE800 2013 and CE850 2016 keep four closing sentences that the CT900 wording does not carry: if
+your body is strong and rested you will feel strong and your pace will feel easier, and you can
+train harder; if you are tired and sluggish your body needs a break and your pace will feel harder,
+which shows up in your RPE. The CE900 2025 and CES880 2025 print the same four with "comfortable"
+for "easier" and "difficult" for "harder".
+
+**The CE900 2021 owner's manual has no Borg scale and no heart rate chapter at all.** No Spirit
+elliptical has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.

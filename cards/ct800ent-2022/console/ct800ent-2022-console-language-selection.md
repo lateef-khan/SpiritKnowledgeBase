@@ -2,7 +2,8 @@
 id: ct800ent-2022-console-language-selection
 title: Choosing one of the 13 display languages by tapping it
 kind: procedure
-question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
+question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill,
+  or a CE800ENT elliptical?
 asked_as:
 - how do i change the language on the treadmill
 - how do i switch the treadmill to spanish
@@ -18,9 +19,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent
   - ct800ent-2022
   - ct850ent-2022
   section: console
@@ -31,6 +33,9 @@ not_to_be_confused_with:
 see_also:
 - ct800ent-2022-console-home-screen
 - ct800ent-2022-console-internet-apps
+- ce800ent-console-layout
+- ct800ent-2022-console-screen-mirroring-ios
+- ct800ent-2022-console-screen-mirroring-android
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
   locator: TOUCHSCREEN OPERATION / LANGUAGE, p. 19
@@ -54,3 +59,11 @@ chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800
 page and line for line, so this card covers that machine.
 
 Neither manual prints which 13 languages they are.
+
+**The CE800ENT elliptical owner's manual prints this section word for word on its p. 18**, under
+TOUCHSCREEN OPERATION / LANGUAGE, so this card covers that machine and its product line is no longer
+treadmill-only. **Thirteen languages there too**, the same tap-to-select behaviour, and the same Home
+button in the upper left corner for leaving without changing anything.
+
+**That manual does not name the 13 languages either**, and says nothing about whether the choice
+survives the end of a workout.

@@ -48,3 +48,8 @@ Two things are wrong in the source and are left as printed above. The main-contr
 "...that control **Bike** functions", copied from the bike manual. And the **incline motor** entry
 is boilerplate: this elliptical has no incline motor, the block diagram on p. 16 has no incline
 block, and no other page in the manual mentions one. No voltage is given for any part.
+
+**The owner's manual confirms there is no incline.** `spirit-elliptical-ce800ent-owners-manual`
+is a 52-page book with a full 163-item parts list, and the word *incline* appears in it **zero
+times** - no incline motor, no incline cover, no incline key on the console. Treat the incline
+motor entry above as inherited wording and nothing else.

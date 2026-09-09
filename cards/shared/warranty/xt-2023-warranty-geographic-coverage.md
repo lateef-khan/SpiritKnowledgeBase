@@ -2,7 +2,7 @@
 id: xt-2023-warranty-geographic-coverage
 title: Where in the world the warranty is honoured
 kind: policy
-question: Is a Spirit XT, CT800, CT850, CT900 or 2026 treadmill under warranty outside
+question: Is a Spirit treadmill or elliptical under warranty outside
   the 48 contiguous states?
 asked_as:
 - is my treadmill under warranty in canada
@@ -19,12 +19,22 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2021
+  - ce900-2025
+  - ces880-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -61,27 +71,36 @@ see_also:
 - spirit-ct800-warranty-exclusions
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 'EXCLUSIONS item 9 and the note under the list, p. 41, repeated under the
-    SERVICE steps, p. 42. Both sentences are in all five 2023 XT manuals: xt185 pp.
-    41-42, xt285 pp. 49-50, xt385 pp. 54-55, xt485 pp. 54-55, xt685 pp. 53-54. Both
-    are in all five 2015 XT manuals too, the note printed once instead of twice: xt185
-    text.md lines 790 and 813-814, xt285 lines 1003 and 1026-1027, xt385 lines 1056
-    and 1079-1080, xt485 lines 1192 and 1215-1216, xt685 lines 1181 and 1204-1205.
-    XT485ENT: exclusion 9 p. 56 (line 1124) and the note p. 56 (lines 1147-1148), printed
-    once. XT685 2010: exclusion 9 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md
-    line 1572) and the note p. 37 (line 1609), printed
-    once. XT685ENT: exclusion 9 p. 54 (line 1620) and the note printed twice, pp. 54
-    and 55 (lines 1624-1625 and 1659-1660). CT800 2012 p. 25 (lines 1133 and 1155),
-    CT800 2016 pp. 42 and 43 (lines 1108 and 1139), CT800 2020 pp. 46 and 47 (lines
-    1202 and 1233), CT800ENT 2022 pp. 54 and 55 (lines 1251 and 1281), each printing
-    the note once. CT850 2016 pp. 46 and 47 (spirit-treadmill-ct850-2016-owners-manual
-    text.md lines 1199 and 1230), CT850 2018 pp. 46 and 47 (lines 1192 and 1223), CT850
-    2020 pp. 46 and 47 (lines 1198 and 1229), CT850ENT 2022 pp. 54 and 55 (lines 1257
-    and 1287), each printing the note once as well. CT900 pp. 53-54 (spirit-treadmill-ct900-owners-manual
-    text.md lines 1521, 1526 and 1559) and CTSBS900 pp. 55-56 (spirit-treadmill-ctsbs900-owners-manual
-    text.md lines 1721, 1726 and 1759), each printing the note twice; CT900ENT p. 51
-    unnumbered (spirit-treadmill-ct900ent-owners-manual text.md line 1173) with the
-    note once at p. 52 (line 1200)'
+  locator: 'EXCLUSIONS item 9 and the note under the list, p. 41, repeated under the SERVICE
+    steps, p. 42. Both sentences are in all five 2023 XT manuals: xt185 pp. 41-42, xt285 pp.
+    49-50, xt385 pp. 54-55, xt485 pp. 54-55, xt685 pp. 53-54. Both are in all five 2015 XT
+    manuals too, the note printed once instead of twice: xt185 text.md lines 790 and 813-814,
+    xt285 lines 1003 and 1026-1027, xt385 lines 1056 and 1079-1080, xt485 lines 1192 and
+    1215-1216, xt685 lines 1181 and 1204-1205. XT485ENT: exclusion 9 p. 56 (line 1124) and the
+    note p. 56 (lines 1147-1148), printed once. XT685 2010: exclusion 9 p. 37
+    (spirit-treadmill-xt685-2010-owners-manual text.md line 1572) and the note p. 37 (line
+    1609), printed once. XT685ENT: exclusion 9 p. 54 (line 1620) and the note printed twice, pp.
+    54 and 55 (lines 1624-1625 and 1659-1660). CT800 2012 p. 25 (lines 1133 and 1155), CT800
+    2016 pp. 42 and 43 (lines 1108 and 1139), CT800 2020 pp. 46 and 47 (lines 1202 and 1233),
+    CT800ENT 2022 pp. 54 and 55 (lines 1251 and 1281), each printing the note once. CT850 2016
+    pp. 46 and 47 (spirit-treadmill-ct850-2016-owners-manual text.md lines 1199 and 1230), CT850
+    2018 pp. 46 and 47 (lines 1192 and 1223), CT850 2020 pp. 46 and 47 (lines 1198 and 1229),
+    CT850ENT 2022 pp. 54 and 55 (lines 1257 and 1287), each printing the note once as well.
+    CT900 pp. 53-54 (spirit-treadmill-ct900-owners-manual text.md lines 1521, 1526 and 1559) and
+    CTSBS900 pp. 55-56 (spirit-treadmill-ctsbs900-owners-manual text.md lines 1721, 1726 and
+    1759), each printing the note twice; CT900ENT p. 51 unnumbered
+    (spirit-treadmill-ct900ent-owners-manual text.md line 1173) with the note once at p. 52
+    (line 1200). Both sentences are printed in all ten Spirit elliptical owner''s manuals; the
+    48-states note is at ce800-2013 p. 27 (spirit-elliptical-ce800-2013-owners-manual text.md
+    line 1157), ce800-2021 p. 38 (spirit-elliptical-ce800-2021-owners-manual text.md line 1009),
+    ce800-2023 p. 39 (spirit-elliptical-ce800-2023-owners-manual text.md line 1031), ce800ent p.
+    42 (spirit-elliptical-ce800ent-owners-manual text.md line 988), ce850-2016 p. 36
+    (spirit-elliptical-ce850-2016-owners-manual text.md line 877), ce850-2020 p. 44
+    (spirit-elliptical-ce850-2020-owners-manual text.md line 1089), ce850-2022 p. 45
+    (spirit-elliptical-ce850-2022-owners-manual text.md line 1095), ce900-2021 p. 28
+    (spirit-elliptical-ce900-2021-owners-manual text.md line 689), ce900-2025 pp. 37 and 38
+    (spirit-elliptical-ce900-2025-owners-manual text.md lines 1138 and 1171) and ces880-2025 pp.
+    59 and 60 (spirit-elliptical-ces880-2025-owners-manual text.md lines 2021 and 2054)'
   extracted_at: '2026-09-09'
 ---
 
@@ -104,5 +123,11 @@ Alaska and Hawaii are named as outside the 48 contiguous states. The manuals sta
 **The four Spirit CT800 manuals and the four CT850 ones print both sentences as well**, and follow the 2015 pattern: the note appears **once**, at the foot of the SERVICE page, and reads "does not **apply to** Alaska or Hawaii". Their exclusion 9 is numbered **10** - the CT800 and CT850 lists run to ten items, not nine - and the sentence itself is unchanged.
 
 **One word of the CT800 note names a different warrantor.** The 2012 manual reads "All warranties are made by **Spirit Fitness**"; the CT800 2016, 2020 and CT800ENT manuals and all four CT850 manuals read "All warranties are made by **Spirit Manufacturing, Inc.**", as the CT900ENT does. The XT manuals, the 2010 XT685 included, read "Spirit Fitness, Inc." None of them says which entity honours a claim on a machine sold under an earlier manual.
+
+**All ten Spirit elliptical manuals print both sentences too, and eight of the ten follow the 2015 pattern.** The CE800 2013, 2021 and 2023, the CE800ENT, the CE850 2016, 2020 and 2022 and the CE900 2021 print the note **once**, at the foot of the SERVICE page, and read "does not **apply to** Alaska or Hawaii". The **CE900 2025** and the **CES880** follow the 2023 pattern - twice, "does not **include**" under the exclusions and "does not **apply to**" under the service steps.
+
+**The outside-the-US sentence takes four different slots across those ten.** It is item **9** in the CE800 2013, the CE850 2016, the CE900 2025 and the CES880; item **10** in the CE800 2021 and 2023, the CE800ENT and the CE850 2020 and 2022, whose lists run to ten; and **unnumbered**, printed below item 8, in the CE900 2021. The sentence itself never changes.
+
+**The elliptical manuals name three different warrantors.** The CE800 2013 reads "All warranties are made by **Spirit Fitness**"; the CE850 2016, the CE900 2025 and the CES880 read **Spirit Fitness, Inc.**; the CE800 2021 and 2023, the CE800ENT, the CE850 2020 and 2022 and the CE900 2021 read **Spirit Manufacturing, Inc.** None says which entity honours a claim on a machine sold under an earlier manual.
 
 **The CT900, CT900ENT and CTSBS900 print both sentences too, and split between the two patterns.** The **CT900** (exclusion 9 p. 53, note p. 53 and again p. 54) and the **CTSBS900** (exclusion 9 p. 55, note p. 55 and again p. 56) follow the 2023 pattern exactly - twice, "does not **include**" first and "does not **apply to**" second - and both name the warrantor **Spirit Fitness, Inc.** The **CT900ENT** follows the 2015 pattern: the note appears **once**, at the foot of the SERVICE page (p. 52), reads "does not **apply to**", and names **Spirit Manufacturing, Inc.** Its outside-the-US sentence is also the only one on this card that is **unnumbered** - printed below item 8 rather than as an item of the list, because that list runs to eight items and not nine. The sentences themselves do not change on any of the three. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.

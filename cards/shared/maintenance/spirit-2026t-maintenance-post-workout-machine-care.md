@@ -2,7 +2,7 @@
 id: spirit-2026t-maintenance-post-workout-machine-care
 title: Post-workout machine care, the screen cloth and the cupholders
 kind: procedure
-question: What should I do to a Spirit treadmill after every workout?
+question: What should I do to a Spirit treadmill or elliptical after every workout?
 asked_as:
 - how do i clean my treadmill after using it
 - what do i wipe the screen with
@@ -21,11 +21,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
+  - ce900-2025
+  - ces880-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -34,10 +36,12 @@ see_also:
 - spirit-2026t-maintenance-belt-and-deck-cleaning
 - ct900-sanitizing-equipment
 - 70t-2026-maintenance-squeak-thump-or-clicking
+- spirit-ce900-maintenance-squeak-thump-or-clicking
+- ce900-2025-maintenance-machine-care-schedule
+- ces880-2025-maintenance-machine-care-schedule
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40
-    (spirit-treadmill-70t-2026-owners-manual)
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word'
   extracted_at: '2026-09-09'
 ---
 
@@ -55,4 +59,16 @@ period-by-period cleaning table — see `80t-2026-maintenance-cleaning-schedule`
 
 The 7.0T manual prints the heading "Post-Workout Machine Care" **twice** on page 40: once over the
 sweat-path and noise text (`70t-2026-maintenance-squeak-thump-or-clicking`) and once over these
-four steps.
+four steps. **The CE900 2025 elliptical manual repeats the heading twice in the same way**, over
+its noise text (`spirit-ce900-maintenance-squeak-thump-or-clicking`) and over these four steps; the
+CES880 prints them once, under MAINTENANCE & CARE.
+
+**Step 1 points at storage instructions that are not printed.** None of these four manuals contains
+a storage chapter, a folding step, or any other "instructions" for putting the machine away - the
+two ellipticals do not fold. Read step 1 as "put it back where it belongs", and do not invent a
+procedure for it.
+
+**Only the CE900 2025 and CES880 2025 ellipticals print this list.** The CE800 (all printings),
+CE800ENT, CE850 (all printings) and CE900 2021 manuals have no post-workout section beyond the
+sweat-path wipe-down in `ct800-2016-maintenance-squeak-thump-or-clicking` and
+`spirit-ce900-maintenance-squeak-thump-or-clicking`.

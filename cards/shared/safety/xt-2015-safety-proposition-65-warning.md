@@ -2,7 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill, or for a Spirit CT850 or CT850ENT treadmill?
+question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill, for a Spirit CT850 or CT850ENT treadmill, or for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -22,9 +22,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2020
+  - ce850-2022
+  - ce900-2021
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
@@ -48,10 +54,13 @@ see_also:
 - sole-bike-prop-65-warning
 - xt-2015-safety-instructions-list
 - xt-2015-safety-product-labels-and-serial-number
+- ce900-2025-safety-product-labels
+- ces880-2025-safety-product-labels
+- spirit-ce-safety-serial-number-location
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, boxed beside the list; the XT285
-    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5 The CT800 2016, CT800 2020 and CT800ENT-2022 owner's manuals print the same box on their Important Operation Instructions page - 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7
+    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5 The CT800 2016, CT800 2020 and CT800ENT-2022 owner's manuals print the same box on their Important Operation Instructions page - 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7 Six Spirit elliptical owner's manuals print the same box beside their Important Operation Instructions - CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 6, CE850 2020 page 9, CE850 2022 page 9, CE900 2021 page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -121,3 +130,26 @@ sentence quoted above; every chemical, harm and web address is present.
 and XT685-2010 owner's manuals carry no such box, no such sticker and no mention of
 Toluene or Acrylamide anywhere. Do not quote this warning for one of those machines, and do not
 tell an owner their manual carries it.
+
+## Six Spirit elliptical owner's manuals print this box word for word
+
+**The CE800 2021 and 2023, the CE800ENT, the CE850 2020 and 2022 and the CE900 2021 manuals** print
+it beside their Important Operation Instructions, as the CT800 and CT850 manuals do, capitalising
+`Cancer` in the same place. Toluene and Acrylamide, cancer and birth defects or other reproductive
+harm, and `www.P65Warnings.ca.gov`.
+
+Like the other manuals in this family they print the warning **in the manual** and describe no
+sticker; none of the six has a product labels page
+(`spirit-ce-safety-serial-number-location`).
+
+**Two older Spirit ellipticals print no Proposition 65 warning at all.** The CE800-2013 and
+CE850-2016 owner's manuals name no chemical and give no web address anywhere. Do not carry Toluene
+and Acrylamide back onto either.
+
+**The two 2025 Spirit ellipticals print the other Proposition 65 text, and put it on the machine.**
+The CE900-2025 and CES880-2025 manuals carry a PRODUCT LABELS page saying only
+`The State of California requires us to inform you that this unit was manufactured using chemicals
+that could cause harm with improper use`, naming **no chemical** and printing **no web address** -
+the CE900's sticker on the side of the console, the CES880's on the rear stabilizer
+(`ce900-2025-safety-product-labels`, `ces880-2025-safety-product-labels`). The two texts are not
+interchangeable in either direction.

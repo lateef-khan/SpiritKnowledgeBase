@@ -2,7 +2,8 @@
 id: xt-2023-console-spirit-plus-app-pairing
 title: Pairing the machine with the Spirit+ app over Bluetooth
 kind: procedure
-question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill to the Spirit+ app?
+question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, or a CES880
+  elliptical, to the Spirit+ app?
 asked_as:
 - how do i connect my treadmill to my phone
 - how do i pair the spirit app with my treadmill
@@ -22,9 +23,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ces880-2025
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -38,6 +40,7 @@ see_also:
 - xt-2023-console-spirit-plus-minimum-os
 - xt-2023-console-bluetooth-speaker
 - xt-2023-console-status-icons
+- spirit-ce-console-pulse-window-polar-coded-straps
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
   locator: page 22, USING THE SPIRIT+ APP
@@ -67,3 +70,17 @@ Bluetooth, the app, or a USB port. Do not quote this card for an XT185.
 its p. 22. **The XT485ENT is a different app section**: it names the **Spirit App**,
 not Spirit+, gives different sync steps and different cloud wording; see
 `xt485ent-2023-console-spirit-app-pairing`.
+
+**The CES880-2025 suspension elliptical owner's manual prints this word for word**, so this card
+covers an elliptical as well as the 2023 XT treadmills and its product line is no longer
+treadmill-only. It is on **p. 32, USING THE SPIRIT+ APP**, with all five steps and the same four
+cloud sites - Apple Health, Google Fit, MapMyFitness and Fitbit - word for word.
+
+**The CES880 manual adds a page of its own about the app** (p. 30, ABOUT YOUR MACHINE): the Spirit+
+app is on **Google Play and the Apple App Store**, downloading it unlocks tracking workouts and
+sharing data via **Google Fit and Apple Fitness**, and a QR code is printed for sign-up.
+
+**It is the only Spirit commercial elliptical with a Bluetooth app.** The CE800, CE850 and CE900
+owner's manuals describe no app and no Bluetooth transceiver; their only wireless feature is a
+Polar-compatible heart rate receiver:
+`spirit-ce-console-pulse-window-polar-coded-straps`.

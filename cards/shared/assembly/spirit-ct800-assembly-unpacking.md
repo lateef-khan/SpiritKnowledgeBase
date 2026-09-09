@@ -3,7 +3,8 @@ id: spirit-ct800-assembly-unpacking
 title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
 question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
-  treadmill and get the hardware ready for assembly?
+  treadmill, or a Spirit CE800, CE800ENT or CE900 elliptical, and get the hardware
+  ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
 - how do i unbox my treadmill
@@ -21,9 +22,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce900-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -44,12 +50,22 @@ see_also:
 - ct900-pre-assembly
 - ct900ent-pre-assembly-unpacking-tools-parts
 - xt685-2010-assembly-procedure
+- spirit-ce800-assembly-procedure
+- spirit-ce800-assembly-tools-included
+- ce800ent-assembly-procedure
+- spirit-ce900-assembly-procedure
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
     manual under Pre-Assembly, p. 8 of the 2020 manual, p. 8 of the CT800ENT manual,
     and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual;
-    also spirit-treadmill-xt685-2010-owners-manual PDF p. 9, headed Pre-Assembly
+    also spirit-treadmill-xt685-2010-owners-manual PDF p. 9, headed Pre-Assembly;
+    and word for word on five ellipticals - p. 7 of the CE800 2021 and 2023 manuals
+    (`spirit-elliptical-ce800-2021-owners-manual`,
+    `spirit-elliptical-ce800-2023-owners-manual`), p. 7 of the CE800ENT manual
+    (`spirit-elliptical-ce800ent-owners-manual`), p. 6 of the CE900 2021 manual
+    (`spirit-elliptical-ce900-2021-owners-manual`) and PDF p. 7 of the CE800 2013
+    manual (`spirit-elliptical-ce800-2013-owners-manual`, headed Pre-Assembly)
   extracted_at: '2026-09-09'
 ---
 
@@ -89,3 +105,23 @@ The CT900, the **2015 and 2023** XT and the 2026 commercial manuals print a
 cutting along the dotted line on the bottom of the box. That is a different set
 of instructions for different machines - see the linked card rather than mixing
 the two.
+
+## Five Spirit ellipticals print the same two items
+
+The **CE800** (2021 and 2023 printings), the **CE800ENT** and the **CE900 2021**
+manuals print both items word for word, including "separated into four steps", and
+all four print four assembly steps. The **CE800 2013** manual prints them under the
+heading **Pre-Assembly**, as the CT800 2012 manual does, and it too says four steps -
+but it prints only **three**. Take the step count from the steps, not from this
+sentence; the same defect is recorded above for the CT800 2016.
+
+The elliptical cartons hold different tools and different parts from any treadmill
+here. See [the CE800 tools card](spirit-ce800-assembly-tools-included.md), [the CE800
+parts card](spirit-ce800-assembly-parts-included.md) and
+[the CE900 tools card](spirit-ce900-assembly-tools-included.md).
+
+**The CE850 and the CE900 2025 do not use these words.** They print the four-item
+list that adds "inspect for any damage or missing parts" - see
+[the four-item pre-assembly card](ct900-pre-assembly.md). The **CES880** prints a
+third form again, about clearing a space rather than opening a box; see
+[its own card](../../ces880-2025/assembly/ces880-2025-assembly-pre-assembly.md).

@@ -31,6 +31,7 @@ not_to_be_confused_with: []
 see_also:
 - spirit-wireless-chest-belt-no-pulse
 - spirit-erratic-pulse-display
+- spirit-ce-errors-erratic-heart-rate-interference
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: Section 7-3 Troubleshooting procedure matrix, page 27
@@ -49,3 +50,8 @@ older 5 kHz analogue chest belt instead, on `spirit-wireless-chest-belt-no-pulse
 names a CR2032 battery and a 3-foot range. Neither figure is printed for the Bluetooth strap here.
 
 Bluetooth itself is enabled under **Maintenance** in engineering mode.
+
+The CE800ENT **owner's manual** (p. 38) adds only that "chest straps that operate using Bluetooth
+should also work with this machine". The CR2032 battery and 2500-hour life it prints on that page
+belong to the analogue transmitter it describes, not to a Bluetooth strap, so do not quote them as
+this strap's battery.

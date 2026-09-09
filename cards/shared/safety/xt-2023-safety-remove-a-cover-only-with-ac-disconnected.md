@@ -2,7 +2,7 @@
 id: xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 title: Disconnecting AC power before a cover comes off
 kind: policy
-question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, before removing a cover?
+question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit CE850 or CE800ENT elliptical, before removing a cover?
 asked_as:
 - can i take the motor cover off with it plugged in
 - do i unplug the treadmill before opening it
@@ -19,12 +19,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -53,6 +57,8 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-ce850-safety-instructions-list
+- spirit-ce-safety-generator-produces-ac-power
 - xt-2023-safety-instructions-list
 - spirit-disconnect-from-the-outlet-before-cleaning-or-service
 - spirit-product-must-be-grounded
@@ -60,7 +66,7 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3)
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner's manuals print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS page - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -146,3 +152,21 @@ manuals do (`spirit-ct800-safety-instructions-list`). **It does not print the fu
 `prior to cleaning and/or service work` sentence**
 (`spirit-disconnect-from-the-outlet-before-cleaning-or-service`); do not quote that for an
 XT685-2010.
+
+**The four mains-powered Spirit ellipticals print the same sentence, word for word**, as the opening
+WARNING of their electrical page - the CE850 2016, 2020 and 2022 and the CE800ENT owner's manuals.
+No exception, no waiting time, no capacitor discharge figure and no lock-out procedure in any of the
+four.
+
+Their matching cleaning rule is the appliance list's DANGER line - `Always unplug this appliance from
+the electrical outlet immediately after using and before cleaning` - which all four print
+(`spirit-ce850-safety-instructions-list`). **None of them prints the fuller
+`prior to cleaning and/or service work` sentence**
+(`spirit-disconnect-from-the-outlet-before-cleaning-or-service`); do not quote it for an elliptical.
+
+**The other six Spirit ellipticals state the opposite hazard, and this sentence must not be carried
+onto them.** The CE800, CE900 and CES880 have no mains cord to disconnect; their electrical page
+warns instead that the generator is producing AC power while the machine is being pedalled and that
+it must not be serviced while the generator is spinning
+(`spirit-ce-safety-generator-produces-ac-power`). Telling one of those owners to disconnect AC power
+before removing a cover would leave the real hazard unaddressed.

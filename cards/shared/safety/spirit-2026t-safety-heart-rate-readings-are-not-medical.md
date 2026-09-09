@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-heart-rate-readings-are-not-medical
 title: The pulse sensors are not medical devices and the heart rate readings may be inaccurate
 kind: policy
-question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, or on a Spirit MT200 rehabilitation treadmill?
+question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, or on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical?
 asked_as:
 - is the heart rate on the treadmill accurate
 - why is my pulse reading wrong on the treadmill
@@ -22,11 +22,21 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 80t-2026
+  - ce800-2013
+  - ce800-2021
+  - ce800-2023
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
+  - ce900-2021
+  - ce900-2025
+  - ces880-2025
   - mt200-2010
   - mt200-2022
   section: safety
@@ -36,9 +46,12 @@ not_to_be_confused_with: []
 see_also:
 - spirit-2026t-safety-over-exercise-can-cause-injury-or-death
 - sole-bike-hand-pulse-not-a-medical-device
+- spirit-ce800-safety-instructions-list
+- spirit-ce850-safety-instructions-list
+- spirit-ce900-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
+  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual All ten Spirit elliptical owner's manuals print the disclaimer in their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT pages 4-5, CE850 2016 page 5, CE850 2020 pages 6-7, CE850 2022 pages 6-7, CE900 2021 page 3, CE900 2025 page 5 item 7, CES880 2025 page 4 item 10
   extracted_at: '2026-09-09'
 ---
 
@@ -99,3 +112,28 @@ inaccurate` - and both restate the point at greater length in their operating ch
 *Extraction note: in the converted 2022 manual the middle of the pulse-sensor bullet is missing -
 the text runs `Various factors, including` and then breaks off before `The pulse sensors are
 intended only as exercise aids`. The 2010 manual prints the sentence in full and is quoted above.*
+
+## All ten Spirit elliptical owner's manuals print the disclaimer, in two lengths
+
+**The long form** - the CE800 2013, 2021 and 2023, the CE800ENT and the CE850 2016, 2020 and 2022
+manuals:
+
+> The hand pulse sensors are not medical devices. Their purpose is to provide you with an
+> approximate measurement in relation to your target heart rate. Use of a chest transmitter strap is
+> a much more accurate method of heart rate analysis. Various factors, including the user's
+> movement, may affect the accuracy of heart rate readings. The pulse sensors are intended only as
+> exercise aids in determining heart rate trends in general.
+
+The CE800ENT and the three CE850 manuals add `(sold separately)` after `chest transmitter strap`.
+
+**The short form** - the CE900 2021 and 2025 and the CES880 2025 manuals - drops the two middle
+sentences and keeps the first and last, so it makes **no claim about a chest strap being more
+accurate**. The CES880 manual writes `The pulse sensors` where the others write `The hand pulse
+sensors`.
+
+- **Not a medical device**, in all ten.
+- **Exercise aids for a trend**, in all ten.
+- **Only the seven long-form manuals recommend a chest transmitter strap** as the more accurate
+  method. Do not offer that recommendation as a CE900 or CES880 manual's - theirs do not print it.
+
+None of the ten states an accuracy figure, a tolerance or a beats-per-minute error.

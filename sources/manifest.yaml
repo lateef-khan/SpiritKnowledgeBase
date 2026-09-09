@@ -1106,12 +1106,76 @@
   origin_uri: file://CVC800 Service Manual.pdf
   sha256: de707d0ad3440ebaed1f23337a000174b024b44e4ae3b4a3bade44eb6782e4cc
   ingested_at: '2026-09-08'
+- id: spirit-elliptical-ce800-2013-owners-manual
+  title: Spirit CE800 Elliptical Trainer Owner's Manual (part 800843, revision CE800_20130605)
+    - OCR
+  kind: text
+  origin_uri: file://Treadmills/CT800/CE800_OM_800843.pdf
+  sha256: d1d2e06ac1def5b31ec9b0d21424462362a639973dab1963640e8ea90387707d
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800-2021-owners-manual
+  title: Spirit CE800 Elliptical Trainer Owner's Manual (effective November 8, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/CE800/CE800_20211108.pdf
+  sha256: 14a94ec747941ac2f2a43a6364c8d0a0406d223103538e0ad8ad738ab7575c50
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800-2023-owners-manual
+  title: Spirit CE800 Elliptical Trainer Owner's Manual (part 800042, effective June
+    8, 2023)
+  kind: text
+  origin_uri: file://Ellipticals/CE800/CE800_800042_OM_20230608.pdf
+  sha256: ffff2b971b3cf8e69d81b21e1dfe303df25ef83d99327531777f01ade2de0f31
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800ent-owners-manual
+  title: Spirit CE800ENT Elliptical Trainer Owner's Manual (part 800054, effective
+    July 3, 2024)
+  kind: text
+  origin_uri: file://Ellipticals/CE800ENT/CE800ENT_800054_OM_20240703.pdf
+  sha256: 9f10dc03d8bbbeedb7294416f3462a4a5285642816188414866e66b22942068d
+  ingested_at: '2026-09-09'
 - id: spirit-elliptical-ce800ent-service-manual
   title: Spirit CE800ENT 2020 elliptical service manual
   kind: markdown
   origin_uri: file://CE800ENT Service Manual.pdf
   sha256: fe485a244293def94a02c66d7c1bb407cd578b7ab49472dd79541c2a3bc17104
   ingested_at: '2026-09-08'
+- id: spirit-elliptical-ce850-2016-owners-manual
+  title: Spirit CE850 Elliptical Trainer Owner's Manual (revision 2016-02-03, effective
+    December 23, 2015)
+  kind: text
+  origin_uri: file://Ellipticals/CE850/2016/CE850_OM_20160203.pdf
+  sha256: ba3fb4fe72257836f928e2225e6d8ddeb2f3c6e4334046b32131617c18e05a14
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce850-2020-owners-manual
+  title: Spirit CE850 Elliptical Trainer Owner's Manual (2020 model, revision 2021-11-08)
+  kind: text
+  origin_uri: file://Ellipticals/CE850/2020/CE850_OwnersManual_2020_20211108.pdf
+  sha256: 0aafc6b5e5bc23784ac762852a9c0faee0580a471f7c30d9a3f8be2ad44da825
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce850-2022-owners-manual
+  title: Spirit CE850 Elliptical Trainer Owner's Manual (effective July 6, 2022)
+  kind: text
+  origin_uri: file://Ellipticals/CE850/CE850_20220706.pdf
+  sha256: 2ca9e399c469e2fffebd9bb95f4ff2eee57fd66e01fc75f89e28f709d753b2c9
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce900-2021-owners-manual
+  title: Spirit CE900 Elliptical Trainer Owner's Manual (effective November 8, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/CE900/CE900_20211108.pdf
+  sha256: 64764ac2edd346d31f488e023205582b28cbe8b107ab498630d8e0978e7ed56a
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce900-2025-owners-manual
+  title: Spirit CE900 Elliptical Trainer Owner's Manual (part 900025, revision 2025-06-12)
+  kind: text
+  origin_uri: file://Ellipticals/CE900/CE900_OwnersManual_900025_20250612.pdf
+  sha256: c2dd854d9272e7039d8b38ec0f8b7a6a6f898a5501a6a3557f9135cd63e652a7
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-ces880-2025-owners-manual
+  title: Spirit CES880 Elliptical Trainer Owner's Manual (revision 2025-06-12)
+  kind: text
+  origin_uri: file://Ellipticals/CES880/CES880_OM_20250612.pdf
+  sha256: 5082a11f5816a0fb52b4047becb39b6cbca9a5764361084bfe01e8734c3ab029
+  ingested_at: '2026-09-09'
 - id: spirit-ent-console-bluetooth-pairing-tip
   title: Spirit Commercial ENT Console - Connecting Bluetooth (support note, rev 04.14.2021)
   kind: text
@@ -1196,15 +1260,6 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
   sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
   ingested_at: '2026-09-09'
-- id: spirit-treadmill-ct800-800810-duplicate-scan
-  title: 'DUPLICATE SCAN, do not card from this: part 800810 filed under 2010 is a photocopy
-    of the CT800 2012 owner''s manual. Same internal stamp CT800_20130729, same 30 pages,
-    same warranty effective March 1 2012, 95.1% word-level match. There is no 2010 CT800
-    manual. Use spirit-treadmill-ct800-2012-owners-manual instead.'
-  kind: text
-  origin_uri: file://Treadmills/CT800/CT800_2010_OM_800810.pdf
-  sha256: ff3c61a6dd4e5198dd814238b9fd034752644068b0d42ddc3982744568259312
-  ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct800-2012-owners-manual
   title: 2012 Spirit CT800 treadmill owner's manual
   kind: pdf
@@ -1223,6 +1278,15 @@
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2020/CT800_800840_OM_20231228.pdf
   sha256: b07899919fdb6087420db58d8b5f15553c3dfaddda949282e6f0fddf3564d6db
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-800810-duplicate-scan
+  title: 'DUPLICATE SCAN, do not card from this: part 800810 filed under 2010 is a
+    photocopy of the CT800 2012 owner''s manual. Same internal stamp CT800_20130729,
+    same 30 pages, same warranty effective March 1 2012, 95.1% word-level match. There
+    is no 2010 CT800 manual. Use spirit-treadmill-ct800-2012-owners-manual instead.'
+  kind: text
+  origin_uri: file://Treadmills/CT800/CT800_2010_OM_800810.pdf
+  sha256: ff3c61a6dd4e5198dd814238b9fd034752644068b0d42ddc3982744568259312
   ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct800ent-2022-owners-manual
   title: 2022 Spirit CT800ENT treadmill owner's manual

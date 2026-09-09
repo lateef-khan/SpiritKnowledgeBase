@@ -3,7 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -24,6 +24,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ce800ent
+  - ce850-2016
+  - ce850-2020
+  - ce850-2022
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -40,6 +44,8 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2016-house-breaker-trips-not-treadmill-breaker
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- spirit-ce850-safety-instructions-list
 - spirit-ct800-safety-outlet-110-volt-15-amp
 - ct850-2016-trips-onboard-10-amp-circuit
 - ct850-2020-trips-onboard-20-amp-circuit
@@ -50,7 +56,7 @@ source:
   locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
     (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
     and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
-    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important Electrical Instructions page, PDF page 7 (printed 3)
+    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner's manuals print the paragraph on their electrical page - CE850 2016 page 6, CE850 2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -149,3 +155,22 @@ it is not a warranty defect.
 manuals add `The electrical outlet used should have a dedicated 15 amp circuit breaker`, this
 manual's paragraph ends at `part #QO120HM.` **It states no amp figure anywhere**, so there is no
 dedicated-breaker rating to quote for an XT685-2010 - see `spirit-product-must-be-grounded`.
+
+## The four mains-powered Spirit ellipticals print the paragraph with one figure changed
+
+**The CE850 2016, 2020 and 2022 and the CE800ENT owner's manuals print it word for word**, with
+`elliptical` in place of `treadmill` and with both part numbers - **Grainger # 1D237** and
+www.squared.com **# QO120HM**. The test is which breaker trips, the fix is a high inrush type, and it
+is not a warranty defect.
+
+**All four close the paragraph with a 5 amp breaker, not 15 or 20.**
+
+> The electrical outlet used should have a dedicated 5 amp circuit breaker.
+
+That is the supply requirement rather than this fault, and it is the smallest figure Spirit prints
+for any machine: `spirit-ce850-safety-outlet-and-circuit-requirement`. Do not answer an elliptical
+owner with the CT800's 15 amp or the CT850's 20 amp.
+
+**The other six Spirit ellipticals cannot have this fault.** The CE800, CE900 and CES880 run off a
+built-in generator and draw nothing from a house circuit
+(`spirit-ce-safety-generator-produces-ac-power`).
