@@ -2,7 +2,7 @@
 id: xt-2023-maintenance-vacuuming-and-general-cleaning
 title: Vacuuming under and inside the machine
 kind: procedure
-question: How often should I vacuum under a Spirit XT 2023 treadmill and under the motor cover?
+question: How often should I vacuum under a Spirit XT treadmill and under the motor cover?
 asked_as:
 - how often do i vacuum under my treadmill
 - do i need to take the motor cover off to clean
@@ -23,7 +23,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -31,13 +33,14 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-maintenance-vacuuming-motor-hood-yearly
 see_also:
 - xt-2023-maintenance-post-workout-care
 - xt-2023-maintenance-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685
+  locator: 2023 manuals, page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685. 2015 manuals, General Maintenance - XT185 p. 26 and XT285 p. 33
   extracted_at: '2026-09-09'
 ---
 
@@ -52,3 +55,12 @@ Dirt, dust and hair can block air inlets and accumulate on the running belt.
 The five XT 2023 manuals print this paragraph with **no page reference and no maintenance
 chart**. A Sole manual carrying the same wording adds a chart reference; that is a separate
 card and a separate machine.
+
+**Which machines this covers.** The XT185 2015 and XT285 2015 manuals print the same two
+intervals under the heading General Maintenance, and add one line the 2023 manuals do not:
+**"(Please keep a record of your maintenance)"** - without printing any chart to record it in.
+
+**The XT385, XT485 and XT685 2015 manuals are different and are not on this card.** They put the
+motor-hood vacuum at **once a year**, not every other month, and they say **pet hair** rather than
+hair. That is a different interval, so it has its own card:
+`xt-2015-maintenance-vacuuming-motor-hood-yearly`.

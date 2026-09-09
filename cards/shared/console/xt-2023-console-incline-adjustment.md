@@ -2,7 +2,7 @@
 id: xt-2023-console-incline-adjustment
 title: Adjusting the incline, and why it drops back to zero
 kind: fact
-question: How do I change the incline on a Spirit XT185, XT285, XT385, XT485 or XT685 2023 treadmill?
+question: How do I change the incline on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - how do i change the incline on my treadmill
 - why does my treadmill incline go back to flat
@@ -24,10 +24,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -53,3 +58,15 @@ source:
 The last bullet is printed exactly as quoted in all five manuals: the incline self-levels at the end
 of a workout, and the machine can only be left at a raised incline by cutting power to it while it is
 raised.
+
+**Two of these bullets read differently on the 2015 machines.**
+
+- The rapid alternative on the 2015 consoles is **the Select Incline key followed by 0 through 9**,
+  not a direct level button - those consoles have no direct level buttons. See
+  `xt-2015-console-select-keys-two-digits` and
+  `xt-2015-console-select-keys-two-or-three-digits`.
+- The **XT185-2015** manual names only the console keys. It describes no handrail speed or incline
+  controls at all, so "console or handrail" does not apply to that machine.
+
+Everything else - adjustable any time after belt movement, 0.5 increments, and the return to zero -
+is printed the same in all five 2015 manuals.

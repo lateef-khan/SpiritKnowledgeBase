@@ -2,7 +2,7 @@
 id: ct850-2020-power-on-sequence
 title: What the console shows when you power it on
 kind: fact
-question: What happens when I turn on a Spirit CT850-2020 treadmill?
+question: What happens when I turn on a Spirit CT850-2020, XT185-2015 or XT285-2015 treadmill?
 asked_as:
 - what do the numbers mean when i switch the treadmill on
 - treadmill shows hours and miles at startup
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
   - ct850-2020
+  - xt185-2015
+  - xt285-2015
   section: console
   code: '*'
 authority: 3
@@ -51,3 +53,11 @@ At power on, in order:
 4. The treadmill enters **idle mode**, which is the starting point for operation.
 
 Metric or English is changed in the console settings.
+
+**The XT185-2015 and XT285-2015 owner's manuals print this same sequence**, under the heading
+"Getting Started", in the same order and with the same odometer explanation. Those two manuals say
+the power switch is at the front of the treadmill **below the motor cover** and that the **safety
+key** must be installed, where the CT850-2020 service manual says motor hood and safety button.
+
+**The XT385-2015, XT485-2015 and XT685-2015 manuals have no power-up section**, so nothing here is
+claimed for them.

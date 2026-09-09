@@ -2,7 +2,7 @@
 id: xt-2023-console-readouts
 title: What the console shows while a workout is running
 kind: fact
-question: What does the console display during a workout on a Spirit XT185, XT285, XT385, XT485 or XT685 2023 treadmill?
+question: What does the console display during a workout on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - what do the numbers on my treadmill screen mean
 - where is the pace shown on the display
@@ -25,10 +25,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -61,3 +66,9 @@ The workout-mode screen labels these readings:
 
 On the XT285, XT385, XT485 and XT685 the screen also carries a column of Bluetooth and USB status
 icons down the left side. The XT185 screen does not.
+
+**Scope of the table above: it is the 2023 manuals' workout-screen diagram only.** The five 2015
+manuals print the readout list in the first paragraph - and nothing else. They carry no
+screen-label diagram, and the only status icon any 2015 manual mentions is a Bluetooth icon that
+lights when the Spirit Fit App connects (XT285, XT385, XT485 and XT685 only); see
+`xt-2015-console-spirit-fit-app-pairing`. No 2015 XT manual mentions a USB port.

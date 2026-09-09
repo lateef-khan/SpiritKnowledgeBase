@@ -2,8 +2,8 @@
 id: spirit-route-the-power-cord-away-from-moving-parts
 title: Route the power cord away from every moving part
 kind: policy
-question: Where should the power cord be routed on a Spirit CT850 or 2023 XT treadmill,
-  or a Spirit CVC800 climber?
+question: Where should the power cord be routed on a Spirit CT850 treadmill, a 2015
+  or 2023 Spirit XT treadmill, or a Spirit CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -26,10 +26,15 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: safety
   code: '*'
@@ -44,7 +49,9 @@ source:
   locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
     same sentence is p. 33 (printed 32) of the CT850 2020 manual, p. 25 (printed
     25) of the CVC800 manual, and the ELECTRICAL SAFETY page of the five 2023 XT
-    owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7)
+    owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important
+    Electrical Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
+    p. 5, XT385/XT685 p. 6)
   extracted_at: '2026-09-08'
 ---
 
@@ -66,3 +73,8 @@ inside the GFCI bullet:
 > mechanism and transport wheels.
 
 The two parts named are the same two: the elevation mechanism and the transport wheels.
+
+**The five 2015 XT owner's manuals print the same sentence** with `treadmill`, the word the CT850
+manuals use, rather than the `unit` of the 2023 XT manuals. Like the 2023 manuals they print it
+as the opening WARNING of their Important Electrical Instructions page, not inside a GFCI bullet,
+and the two parts named are again the elevation mechanism and the transport wheels.

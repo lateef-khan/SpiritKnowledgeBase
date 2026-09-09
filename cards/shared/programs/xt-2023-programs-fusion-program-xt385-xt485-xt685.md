@@ -31,6 +31,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-programs-fusion-program-xt485-xt685
 - xt-2023-programs-fusion-setup-xt185-xt285
 - xt-2023-programs-hiit-program
 see_also:

@@ -2,8 +2,7 @@
 id: xt-2023-programs-fusion-workout-structure
 title: How a Fusion session runs from warm-up to cool-down
 kind: fact
-question: What happens during a Fusion workout on a 2023 Spirit XT385, XT485 or XT685
-  treadmill?
+question: What happens during a Fusion workout on a Spirit XT treadmill?
 asked_as:
 - what happens during a fusion workout
 - do i get off the treadmill during fusion
@@ -25,13 +24,16 @@ facets:
   model: '*'
   applies_to:
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- xt-2015-programs-fusion-program-xt485-xt685
 - xt-2023-programs-fusion-program-xt385-xt485-xt685
 - xt-2023-programs-fusion-strength-exercises
 source:
@@ -57,3 +59,5 @@ How the interval count maps onto the five exercises:
 **Caution:** for the exercises that require dumbbells, select a pair you can safely and effectively manoeuvre over the strength interval time you have chosen.
 
 Note that in this worked example the interval and recovery times are the reverse of the setup defaults (which are 1:00 interval and 0:30 recovery) because the user chose them; both are printed in the manual as shown.
+
+The 2015 XT485 and XT685 owner's manuals print this worked example word for word, so nothing about how a Fusion session runs changed between the 2015 and 2023 consoles. Only the way you reach the program changed - a dedicated Fusion key in 2015, the PROGRAM key in 2023.

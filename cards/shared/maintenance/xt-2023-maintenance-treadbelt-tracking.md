@@ -23,10 +23,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: maintenance
   code: '*'
@@ -37,8 +42,10 @@ see_also:
 - f65-2016-belt-tracking-adjustment
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 31, MAINTENANCE & CARE - Treadbelt Tracking Adjustment / SETTING TREAD-BELT
-    TRACKING (XT285 p. 39, XT385 p. 43, XT485 p. 43, XT685 p. 42)
+  locator: 2023 manuals, page 31, MAINTENANCE & CARE - Treadbelt Tracking Adjustment
+    / SETTING TREAD-BELT TRACKING (XT285 p. 39, XT385 p. 43, XT485 p. 43, XT685 p.
+    42); 2015 manuals, Setting Tread-Belt Tracking (XT185 p. 27, XT285 p. 35, XT385
+    p. 37, XT485 p. 42, XT685 p. 42)
   extracted_at: '2026-09-09'
 ---
 
@@ -54,6 +61,8 @@ A small adjustment can make a dramatic difference which may not be apparent righ
 
 **Damage to the running belt resulting from improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.**
 
-The wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685.
+**In the 2023 manuals** the wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685. **The 2015 manuals give no item number for it.**
+
+All ten manuals print the same steps, the same **left side bolt**, the same **1/4 turn**, and the same **3 mph**. The 2015 XT385, XT485 and XT685 manuals add the metric equivalent in brackets - **3 mph (5 kmph)**. That is the same speed written twice, not a range.
 
 The Sole procedure in `f65-2016-belt-tracking-adjustment` is not the same fact: it calls for a 10 mm Allen wrench and a speed of 3 to 5 kph.

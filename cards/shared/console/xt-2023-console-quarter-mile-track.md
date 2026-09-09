@@ -2,7 +2,7 @@
 id: xt-2023-console-quarter-mile-track
 title: The quarter mile track ring and the lap counter
 kind: fact
-question: What is the 1/4 mile track on the display of a Spirit XT185, XT285, XT385, XT485 or XT685 2023 treadmill?
+question: What is the 1/4 mile track on the display of a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - what is the ring around the display on my treadmill
 - how long is one lap on my treadmill
@@ -24,10 +24,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -49,3 +54,8 @@ indicates your progress**.
 
 **The lap track moves in a counterclockwise direction.** There is a **lap counter in the message
 window** for monitoring your distance.
+
+The five 2015 XT owner's manuals print this paragraph word for word.
+
+The **CT850-2020 puts its track somewhere else** - to the left of the dot matrix window, not around
+it - so do not read that machine's layout onto these. See `ct850-2020-quarter-mile-track`.

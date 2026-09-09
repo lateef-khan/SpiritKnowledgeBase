@@ -30,6 +30,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-programs-select-and-start-xt385-xt485-xt685
 - xt-2023-programs-select-and-start-xt185-xt285
 see_also:
 - xt-2023-programs-select-and-start-xt185-xt285

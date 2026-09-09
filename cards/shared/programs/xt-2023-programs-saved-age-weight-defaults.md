@@ -2,7 +2,7 @@
 id: xt-2023-programs-saved-age-weight-defaults
 title: Whether age and weight have to be entered before every workout
 kind: fact
-question: Do I have to enter my age and weight every time I use my 2023 Spirit XT treadmill?
+question: Do I have to enter my age and weight every time I use my Spirit XT treadmill?
 asked_as:
 - do i have to put my age in every time
 - does the treadmill remember my weight
@@ -21,10 +21,15 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
@@ -47,3 +52,5 @@ The Age and Weight default settings change when you enter a new number, so **the
 - someone else enters a different Age and Weight.
 
 That last case is why a shared machine can show a stranger's figures: whoever used it last leaves their numbers behind as the defaults.
+
+All five 2015 XT owner's manuals print this note in the same words, so the behaviour did not change between the 2015 and 2023 consoles.

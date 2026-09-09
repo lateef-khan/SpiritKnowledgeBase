@@ -19,10 +19,15 @@ facets:
   model: '*'
   applies_to:
   - ct900ent
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
@@ -42,6 +47,6 @@ source:
 
 **Incline:** The deck elevation is a more gradual and sustained progression. Maximum elevation is in the middle of the workout and lasts for 10% of the duration.
 
-All five 2023 XT owner's manuals (XT185, XT285, XT385, XT485, XT685) print the same description, except that they write "a gradual regression of **resistance** back to approximately 10%" where the CT900ENT manual writes "regression of **Speed**".
+All five 2023 XT owner's manuals and all five 2015 XT owner's manuals (XT185, XT285, XT385, XT485, XT685) print the same description, except that they write "a gradual regression of **resistance** back to approximately 10%" where the CT900ENT manual writes "regression of **Speed**". The 2015 and 2023 wordings of this program are identical.
 
 On the CT900ENT, the full segment-by-segment speed and incline values are in [Preset program speed/incline chart](preset-speed-incline-chart.md). The 2023 XT manuals print a profile picture only, with no numeric segment table.

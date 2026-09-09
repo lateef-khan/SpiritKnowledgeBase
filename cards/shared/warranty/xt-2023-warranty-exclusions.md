@@ -32,6 +32,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-warranty-exclusions
 - ct900-warranty-exclusions
 - ctsbs900-warranty-exclusions
 - ct900ent-exclusions
@@ -64,7 +65,7 @@ Printed under the list:
 
 > Product features or specifications as described or illustrated are subject to change without notice. All warranties are made by Spirit Fitness, Inc. This warranty applies only in the 48 contiguous United States. NOTE: This does not include Alaska or Hawaii.
 
-All nine items are word for word identical in the XT185, XT285, XT385, XT485 and XT685 manuals.
+All nine items are word for word identical in the 2023 XT185, XT285, XT385, XT485 and XT685 manuals. The 2015 XT manuals print nine items too, eight of them identical to these; their **item 6 also excludes products with no warranty registration card on file**. See `xt-2015-warranty-exclusions`.
 
 **Item 8 is not the exclusion the Spirit commercial manuals print in that slot.** CT900, CT900ENT and CTSBS900 use item 8 for "product used in prisons and correctional facilities"; the XT manuals use it for the use-environment limit and say nothing about prisons - except the XT685, which carries the prisons line as a footnote to its light commercial table instead. Read each machine's own list.
 

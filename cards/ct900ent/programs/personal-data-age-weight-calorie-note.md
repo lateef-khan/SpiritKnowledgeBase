@@ -21,10 +21,15 @@ facets:
   model: '*'
   applies_to:
   - ct900ent
+  - xt185-2015
   - xt185-2023
+  - xt285-2015
   - xt285-2023
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
@@ -51,3 +56,5 @@ Each of the programs can be customized with your personal information and change
 **The CT900ENT manual adds two sentences the XT manuals do not print:** the only way to measure your calorie burn accurately is in a clinical setting connected to a host of machines, because every person burns calories at a different rate; and you will continue to burn calories at an accelerated rate for at least an hour after you have finished exercising.
 
 The 2023 XT manuals add that each preset program has a maximum Speed and Incline level displayed in the Message Center when the workout is chosen, and that the last Age and Weight entered become the new defaults - see the linked cards.
+
+All five **2015** XT owner's manuals print this same "Programming The Console" paragraph and the same calorie note. **The 2015 XT185 prints it too, saying age is "necessary during the Heart Rate programs", even though that machine has no Heart Rate program** - see `xt185-2015-program-list`.

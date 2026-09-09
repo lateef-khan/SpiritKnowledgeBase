@@ -32,6 +32,7 @@ authority: 3
 not_to_be_confused_with:
 - xt185-xt285-2023-assembly-procedure
 - xt385-xt485-2023-assembly-procedure
+- xt685-2015-assembly-procedure
 see_also:
 - xt685-2023-assembly-hardware-kit
 - xt685-2023-moving-the-treadmill

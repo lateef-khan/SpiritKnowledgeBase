@@ -2,7 +2,7 @@
 id: xt-2023-console-profile-scrolling
 title: Why the speed and incline profile only shows half the program
 kind: fact
-question: Why does the workout profile show only half the program on a Spirit XT385, XT485 or XT685 2023 treadmill?
+question: Why does the workout profile show only half the program on a Spirit XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - why does my treadmill profile only show part of the workout
 - the bars on my treadmill screen keep moving left
@@ -23,8 +23,11 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - xt385-2015
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: console
   code: '*'
@@ -46,3 +49,6 @@ once. See `xt-2023-console-dot-matrix` for the rest of the display's behaviour.
 
 **The XT185 and XT285 manuals do not print this sentence**, so this card does not claim the
 behaviour for them.
+
+The XT385-2015, XT485-2015 and XT685-2015 manuals print the same sentence. The XT185-2015 and
+XT285-2015 manuals do not, so this card does not claim the behaviour for them either.

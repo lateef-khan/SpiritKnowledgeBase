@@ -2,8 +2,8 @@
 id: xt-2023-programs-fusion-strength-exercises
 title: The five strength exercises used in the Fusion program
 kind: procedure
-question: Which strength exercises does the Fusion program on a 2023 Spirit XT385,
-  XT485 or XT685 treadmill ask for, and how are they performed?
+question: Which strength exercises does the Fusion program on a Spirit XT treadmill
+  ask for, and how are they performed?
 asked_as:
 - what exercises do i do during fusion
 - how do i do the dumbbell row for fusion
@@ -25,13 +25,16 @@ facets:
   model: '*'
   applies_to:
   - xt385-2023
+  - xt485-2015
   - xt485-2023
+  - xt685-2015
   - xt685-2023
   section: programs
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- xt-2015-programs-fusion-program-xt485-xt685
 - xt-2023-programs-fusion-program-xt385-xt485-xt685
 - xt-2023-programs-fusion-workout-structure
 source:
@@ -75,3 +78,5 @@ source:
 5. Repeat this sequence for the duration of the strength interval.
 
 The console names the first one as "DUMBBELL ROW". The manual prints the remaining four across two columns of one page, so the order of exercises 2-5 above is the order they read down the left column then the right; the manual states only that the five are performed sequentially as listed.
+
+The 2015 XT485 and XT685 owner's manuals print the same five exercises in the same order and the same words.

@@ -32,6 +32,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt-2015-warranty-registration
 - ctsbs900-product-registration
 - ct900ent-serial-number-and-product-registration
 see_also:
@@ -63,4 +64,4 @@ Customer care, on the same opening pages: **1-800-258-8511**, questions@spiritfi
 
 So an unregistered machine is not declared void. The owner is instead exposed to being asked for proof of purchase - which is why the SERVICE paragraph says to keep the bill of sale, and why the warranty clock falls back to eighteen months from factory shipping when there is no receipt (`xt-2023-warranty-start-date`).
 
-**Do not carry a registration deadline over from another manual.** The Spirit commercial manuals impose one - the CTSBS900 requires registration "completed online to validate the manufacturer's limited warranty", and the CT900ENT requires the card returned within 10 days of purchase. Sole's manuals impose their own 10-day card. None of that is printed in the 2023 XT manuals, and quoting it to an XT customer would invent a requirement the source does not state.
+**Do not carry a registration deadline over from another manual - including the earlier XT manual for the same machine name.** The **2015** XT manuals impose a 10-day registration card deadline and exclude an unregistered product outright (`xt-2015-warranty-registration`); everything on this card is about the 2023 manuals only. The Spirit commercial manuals impose a deadline too - the CTSBS900 requires registration "completed online to validate the manufacturer's limited warranty", and the CT900ENT requires the card returned within 10 days of purchase. Sole's manuals impose their own 10-day card. None of that is printed in the 2023 XT manuals, and quoting it to an XT customer would invent a requirement the source does not state.
