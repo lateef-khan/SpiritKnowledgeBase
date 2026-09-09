@@ -3,7 +3,7 @@ id: ct800ent-2022-programs-entering-a-program-touchscreen
 title: Starting a program by tapping it on the touchscreen, and which programs skip
   the warm-up
 kind: procedure
-question: How do I start and customise a workout program on a ct800ent-2022 treadmill?
+question: How do I start and customise a workout program on a Spirit touchscreen treadmill?
 asked_as:
 - how do i start a workout on the touchscreen
 - how do i skip the warm up
@@ -22,9 +22,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -63,3 +64,7 @@ from the sense of the procedure; the numbering is reproduced above as a continuo
 **This console does not prompt for time, age, bodyweight and top speed in fixed console windows the
 way the button consoles do.** It says only "customize the program on the following screens by
 entering your data"; the individual per-program screens are described on each program's own page.
+
+**The CT850ENT owner's manual prints this same page word for word** (printed page 22): the same
+twelve-program menu, the same numbered list that jumps from 1 to 3 with no step 2, and the same
+no-warm-up list including the Fitness Tests.

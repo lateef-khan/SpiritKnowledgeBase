@@ -31,6 +31,7 @@ see_also:
 - ct850-2016-tread-belt-and-deck-cleaning
 - ct850-tread-belt-hesitates-when-stepped-on
 - ct850-noise-under-motor-cover
+- ct900ent-belt-tension-adjustment
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.1 BELT ADJUSTMENTS, pp. 54-55 (printed 53-54)
@@ -57,6 +58,16 @@ matrix gives for a noise under the motor cover — see `ct850-noise-under-motor-
 The same bolts set tracking, and turning them unevenly walks the belt off centre — see
 `ct850-2016-treadbelt-tracking-adjustment`.
 
-**The CT850 2020 manual has no General Maintenance chapter.** Its troubleshooting row for a
-hesitating belt points at a "General Maintenance section on running belt Tension" that is not in
-that document. This procedure is printed only in the 2016 manual.
+## The owner's manual prints the same procedure with a wrench size
+
+The CT850 2016 owner's manual (p. 39) gives the same rear-roller, 1/4-turn-each procedure and adds
+what this manual leaves out: an **8 mm Allen wrench**, the qualifier "belt tension is not critical
+for most users", and the caution to turn the bolts on both sides evenly. It is carded at
+`ct900ent-belt-tension-adjustment`, which covers all four CT850 owner's-manual years. Note that the
+same owner's manual's tools list names a **10 mm** Allen wrench and no 8 mm one, so treat the 8 mm
+figure with care.
+
+**The CT850 2020 *service* manual has no General Maintenance chapter.** Its troubleshooting row for
+a hesitating belt points at a "General Maintenance section on running belt Tension" that is not in
+that document. Among the service manuals this procedure is printed only in the 2016 one; all four
+CT850 owner's manuals print their own version.

@@ -2,7 +2,8 @@
 id: ct800-2020-assembly-procedure
 title: Four-step assembly with one computer cable threaded up the right upright
 kind: procedure
-question: How do I assemble a Spirit CT800 (ct800-2020) treadmill from the carton?
+question: How do I assemble a Spirit CT800 (ct800-2020) or CT850 (ct850-2020)
+  treadmill from the carton?
 asked_as:
 - how do i put my treadmill together
 - what order do i assemble the treadmill in
@@ -22,15 +23,18 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2020
+  model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2020
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct800ent-2022-assembly-procedure
 - spirit-ct800-assembly-procedure-three-step
+- ct850-2016-assembly-procedure
+- ct850-2018-assembly-procedure
 see_also:
 - spirit-ct800-assembly-hardware-kit-four-step
 - spirit-ct800-assembly-tools-included
@@ -38,14 +42,21 @@ see_also:
 - spirit-ct800-assembly-power-on
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
-  locator: pp. 10-13, CT800 STEP ONE to STEP FOUR
+  locator: pp. 10-13, CT800 STEP ONE to STEP FOUR; the same four steps at pp. 10-13
+    of the CT850 2020 manual, headed CT850 STEP ONE to STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
 **This is not the earlier CT800 build.** The 2012 and 2016 manuals assemble console
-mast tubes, a handle bar frame and interface mounts in three steps; this machine
-has uprights, a console support and a locking plate assembly in four steps, and
+mast tubes, a handle bar frame and interface mounts in three steps; these machines
+have uprights, a console support and a locking plate assembly in four steps, and
 none of the item numbers carry over.
+
+**The CT800 2020 and CT850 2020 assembly chapters are the same document.** Every
+word of the four steps and of all four hardware tables is identical; only the model
+name in the page headings differs. **The CT850 2016 manual is not.** It prints this
+same chapter with one instruction changed - three locking-plate bolts a side in step
+two instead of two - and has its own card.
 
 ## Step one - right upright, then left
 

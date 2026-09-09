@@ -30,6 +30,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   - mt200-2010
   - mt200-2022
   section: programs
@@ -120,3 +122,13 @@ for that machine and this chart must not be assumed to be the one it prints; see
 
 *This card's id begins `spirit-2026t-` because the 2026 manuals were the first source to reach it.
 The id is the Qdrant point id and never changes; the chart is not specific to the 2026 machines.*
+
+**The 2016 and 2020 CT850 owner's manuals print this same chart, value for value** (both on printed
+page 27), with stage 2.1 at 1:15. Their surrounding sentence reads "The Gerkin protocol, also known
+as the fireman's protocol, and is a submax Vo2 (volume of oxygen) test" - the stray "and" is in the
+printed page.
+
+**The 2018 CT850 prints the other chart, the one whose stage 2.1 begins at 1:00** - see
+`ct900-gerkin-protocol`. **The CT850ENT prints its chart as a picture** - see
+`ct800ent-2022-programs-gerkin-test-chart-is-a-picture`. Do not read a stage value for one CT850
+printing off another.

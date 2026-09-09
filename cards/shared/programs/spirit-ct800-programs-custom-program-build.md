@@ -3,7 +3,7 @@ id: spirit-ct800-programs-custom-program-build
 title: Building the Custom program segment by segment, then saving it by pressing
   Start
 kind: procedure
-question: How do I build and save a Custom program on a Spirit CT800 treadmill?
+question: How do I build and save a Custom program on a Spirit treadmill with console windows?
 asked_as:
 - how do i make my own workout
 - how do i save a custom program
@@ -27,6 +27,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   section: programs
   code: '*'
 authority: 3
@@ -63,3 +65,12 @@ touchscreen uses - see `ct900ent-custom-program`.
 
 The 2012 and 2016 manuals add to step 3 that entering the correct age affects the Heart Rate Bar
 Graph accuracy; the 2020 manual drops that sentence. The steps are otherwise identical in all three.
+
+**The 2016 and 2020 CT850 owner's manuals print these same seven steps word for word** (both on
+printed page 25), including the single row of dots, the carried-over segment value and the Start
+button that saves the program to memory. Like the 2012 and 2016 CT800 manuals they say the
+bodyweight affects the **Calorie** readout accuracy; they do not add the Heart Rate Bar Graph
+sentence to step 3. Their step 1 names a **Program** button.
+
+**The 2018 CT850 builds into one of two user memories, U1 or U2, and is a different procedure** -
+see `ct850-2018-programs-custom-program-u1-u2`.

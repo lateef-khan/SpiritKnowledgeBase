@@ -2,7 +2,7 @@
 id: xt-2023-safety-speed-and-incline-response-delay
 title: Why speed and incline changes are not instant
 kind: fact
-question: Why does a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800 treadmill, or a 2026 Spirit 4.0T treadmill, take a moment to change speed or incline?
+question: Why does a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill, take a moment to change speed or incline?
 asked_as:
 - why is my treadmill slow to speed up
 - the incline lags when i press the button
@@ -28,6 +28,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -49,7 +53,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints both sentences on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print both sentences on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 pages 6-7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints both sentences on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print both sentences on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 pages 6-7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 pages 6-7
   extracted_at: '2026-09-09'
 ---
 
@@ -120,3 +124,27 @@ identical and it is the rule that answers the question: set the level, **release
 the console obeys gradually. Neither manual gives a ramp rate or a time in seconds, and neither
 prints the word `speed` or `incline` anywhere on that page, so do not quote either manual's
 sentence verbatim to a customer asking about speed or incline - give them the rule.
+
+## Three of the four CT850 manuals print the wrong control too
+
+**The CT850 2016, 2018 and 2020 owner's manuals print `resistance`**, word for word with the CT800
+2016 and 2020 manuals:
+
+> Understand that changes in resistance do not occur immediately. Set your desired resistance level
+> on the computer console and release the adjustment button. The computer will obey the command
+> gradually.
+
+**A CT850 has no resistance control.** It is the same bike-manual wording carried through the whole
+page, which also says `pedaling` where it means walking
+(`xt-2023-safety-distractions-while-walking`). The rule these three manuals state is otherwise
+identical and it is the rule that answers the question: set the level, **release** the button, and
+the console obeys gradually. None of the three gives a ramp rate or a time in seconds, and none
+prints the word `speed` or `incline` anywhere on that page, so do not quote their sentence verbatim
+to a customer asking about speed or incline.
+
+**The CT850ENT-2022 manual names both controls correctly**, as the CT800ENT manual does:
+
+> Understand that changes in speed or incline do not occur immediately. Set your desired speed or
+> incline level on the computer console and release the adjustment button. The computer will obey
+> the command gradually.
+

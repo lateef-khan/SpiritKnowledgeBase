@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-screen-mirroring-ios
 title: Screen mirroring from an iPhone or iPad, which needs iOS 8 or higher
 kind: procedure
-question: How do I mirror an iPhone or iPad to a Spirit CT800ENT-2022 treadmill?
+question: How do I mirror an iPhone or iPad to a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - how do i put my iphone on the treadmill screen
 - screen mirroring not working on the treadmill
@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -51,3 +52,9 @@ to the console.** On Android it is the other way round - the headphones connect 
 
 **There is no app to install for iOS.** The Android route needs the Spirit Mirroring app. The manual
 prints no pairing code, no device-name step and no troubleshooting for mirroring.
+
+**The CT850ENT-2022 owner's manual prints this section word for word on its p. 20.** Its console
+chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800ENT-2022's, page for
+page and line for line, so this card covers that machine.
+
+Neither manual prints a pairing code, a device-name step or any mirroring troubleshooting.

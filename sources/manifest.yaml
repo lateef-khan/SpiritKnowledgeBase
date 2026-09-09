@@ -1203,18 +1203,43 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800ENT/2022/CT800ENT_800852_OM_20240703.pdf
   sha256: 834f439c6317e292cb1740f51e0bdb66f5a7bb2d92ded4ba7b8ab3f55302f508
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct850-2016-owners-manual
+  title: 2016 Spirit CT850 treadmill owner's manual (rev. 03/2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850/2016/CT850_20220318.pdf
+  sha256: 0e7a283a64d3f5f6eb848bcbe3511b18e1c22ece36f5b379b74c9f573d1666b8
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct850-2016-service-manual
   title: Spirit CT850 2016 treadmill service manual (ST8100-CT001, 110V)
   kind: markdown
   origin_uri: file://CT850 850845 Service Manual.pdf
   sha256: a3bb22dcaec08dcfeb714b034fe3b29801a496d60cc5f7347e96f67cdd958706
   ingested_at: '2026-09-08'
+- id: spirit-treadmill-ct850-2018-owners-manual
+  title: Spirit CT850 treadmill owner's manual, part 850845 (rev. 08/2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850/CT850_OM_082018
+    850845.pdf
+  sha256: 62a4e75da0211438529c534c60af8991b4cd9fab618ad59f565006359dd831b5
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct850-2020-owners-manual
+  title: 2020 Spirit CT850 treadmill owner's manual (rev. 12/2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850/2020/CT850_850840_OM_20231228.pdf
+  sha256: 29a4be2235e17efe09b63928bed416c3cf1afe3be6b8b1dac3f2a26b9a93e14a
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct850-2020-service-manual
   title: Spirit CT850 2020 treadmill service manual
   kind: markdown
   origin_uri: file://CT850 Service Manual.pdf
   sha256: ac4e9d1f6aa0f60ba5337f2808b5abe519c0b16c49117c8d20c3afbe185ae25d
   ingested_at: '2026-09-08'
+- id: spirit-treadmill-ct850ent-2022-owners-manual
+  title: 2022 Spirit CT850ENT treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850ENT/2022/CT850ENT_850852_OM_20240703.pdf
+  sha256: 7b9f36a53255aaeb528f23aab66069337587cda92597ac000055887235b629d6
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-mt200-2010-owners-manual
   title: MT200 treadmill owner's manual (2010 series, effective July 2013)
   kind: pdf

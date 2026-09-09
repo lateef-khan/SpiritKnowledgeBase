@@ -28,7 +28,8 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct850-2016-console-engineering-mode-menu-with-units
 see_also:
 - ct850-2016-calibration-procedure-metric-or-english
 - ct850-2016-reset-odometer-and-hours
@@ -71,3 +72,8 @@ numeric key **0** and **Enter** at the same time to unlock the console and retur
 
 Engineering mode is **not** where calibration lives. Calibration has its own entry sequence -
 INCLINE + SPEED with the safety key - and its own menu headed "Factory settings".
+
+**The CT850-2016 owner's manual describes the same menu with a different entry gesture** - hold
+Start, Stop and Enter, then insert the safety button - and a differently ordered menu with a Child
+Lock unlock sequence: `ct850-2016-console-engineering-mode-menu-with-units`. The two documents are
+for the same machine and neither resolves the other. Try both gestures.

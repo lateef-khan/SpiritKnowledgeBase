@@ -24,6 +24,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ctsbs900
   - xt485ent-2023
   - xt685ent-2023
@@ -77,7 +81,18 @@ printed differently in them:
 | CT800 2016 | Step 1 says "using the interlocking button". Battery: **Panasonic CR2032**. No sold-separately statement. |
 | CT800 2020 | Heading reads "WEARING THE CHEST STRAP (SOLD SEPARATELY)". Battery: **CR2032**, without the Panasonic name. Adds: *"Chest straps that operate using Bluetooth or ANT+ should also work with this machine."* |
 | CT800ENT-2022 | Battery: **CR2032**. Adds: *"Chest straps that operate using Bluetooth should also work with this machine"* - **Bluetooth only, no ANT+.** |
+| CT850 2016 and 2020 | Heading reads "WEARING THE CHEST STRAP (SOLD SEPARATELY)". Step 1 says "using the interlocking button". Battery: **CR2032**, without the Panasonic name. Adds: *"Chest straps that operate using Bluetooth or ANT+ should also work with this machine."* |
+| CT850-2018 | Step 1 says "using the interlocking button". Battery: **Panasonic CR2032**. No sold-separately statement anywhere, and **no Bluetooth or ANT+ line**. |
+| CT850ENT-2022 | Heading reads "WEARING THE CHEST STRAP (SOLD SEPARATELY)". Step 1 says "using the interlocking button". Battery: **CR2032**. Adds: *"Chest straps that operate using Bluetooth should also work with this machine"* - **Bluetooth only, no ANT+.** |
 
 **Do not carry the ANT+ line onto the ENT machine, or either line onto the 2012 and 2016
 machines** - those two manuals describe Polar compatible transmitters only
 (`ct850-2020-heart-rate-feature`).
+
+**All four CT850 owner's manuals print the same six steps and the same note** - 2016 p. 36, 2018
+p. 33, 2020 p. 36, CT850ENT-2022 p. 44 - so this card covers those machines; the four rows above say
+what each of them prints differently.
+
+**Do not carry the ANT+ line onto the CT850-2018 or the CT850ENT-2022.** The 2018 manual prints no
+strap-technology line at all and describes Polar compatible transmitters only
+(`ct850-2020-heart-rate-feature`); the ENT manual names Bluetooth and not ANT+.

@@ -29,6 +29,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -64,7 +68,10 @@ source:
     and 55 (lines 1624-1625 and 1659-1660). CT800 2012 p. 25 (lines 1133 and 1155),
     CT800 2016 pp. 42 and 43 (lines 1108 and 1139), CT800 2020 pp. 46 and 47 (lines
     1202 and 1233), CT800ENT 2022 pp. 54 and 55 (lines 1251 and 1281), each printing
-    the note once'
+    the note once. CT850 2016 pp. 46 and 47 (spirit-treadmill-ct850-2016-owners-manual
+    text.md lines 1199 and 1230), CT850 2018 pp. 46 and 47 (lines 1192 and 1223), CT850
+    2020 pp. 46 and 47 (lines 1198 and 1229), CT850ENT 2022 pp. 54 and 55 (lines 1257
+    and 1287), each printing the note once as well'
   extracted_at: '2026-09-09'
 ---
 
@@ -84,8 +91,8 @@ The wording of the second sentence wobbles and the meaning does not. The 2023 ma
 
 Alaska and Hawaii are named as outside the 48 contiguous states. The manuals state no separate Alaska or Hawaii terms at all, and no shipping surcharge for them.
 
-**The four Spirit CT800 manuals print both sentences as well**, and follow the 2015 pattern: the note appears **once**, at the foot of the SERVICE page, and reads "does not **apply to** Alaska or Hawaii". Their exclusion 9 is numbered **10** - the CT800 list runs to ten items, not nine - and the sentence itself is unchanged.
+**The four Spirit CT800 manuals and the four CT850 ones print both sentences as well**, and follow the 2015 pattern: the note appears **once**, at the foot of the SERVICE page, and reads "does not **apply to** Alaska or Hawaii". Their exclusion 9 is numbered **10** - the CT800 and CT850 lists run to ten items, not nine - and the sentence itself is unchanged.
 
-**One word of the CT800 note names a different warrantor.** The 2012 manual reads "All warranties are made by **Spirit Fitness**"; the 2016, 2020 and CT800ENT manuals read "All warranties are made by **Spirit Manufacturing, Inc.**", as the CT900ENT does. The XT manuals read "Spirit Fitness, Inc." None of them says which entity honours a claim on a machine sold under an earlier manual.
+**One word of the CT800 note names a different warrantor.** The 2012 manual reads "All warranties are made by **Spirit Fitness**"; the CT800 2016, 2020 and CT800ENT manuals and all four CT850 manuals read "All warranties are made by **Spirit Manufacturing, Inc.**", as the CT900ENT does. The XT manuals read "Spirit Fitness, Inc." None of them says which entity honours a claim on a machine sold under an earlier manual.
 
 The Spirit CT900 and CTSBS900 manuals print the same two sentences; those machines are not on this card and have their own. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.

@@ -35,3 +35,9 @@ source:
 The **1/4-mile (0.4 km) track** and lap counter are **to the left of the dot matrix window**. The
 flashing dot indicates your progress. In the centre of the track there is a lap counter for
 reference.
+
+**The CT850-2020 owner's manual contradicts this placement.** On its p. 19 it prints the same
+paragraph as the CT800 and CT850-2016 manuals, saying the track "will be displayed **around** the
+dot matrix window", not to the left of it: `ct900-quarter-mile-track-display`. Both documents are
+manuals for this machine and neither resolves the other. The flashing dot, the 0.4 km figure and the
+lap counter in the centre are stated the same way in both.

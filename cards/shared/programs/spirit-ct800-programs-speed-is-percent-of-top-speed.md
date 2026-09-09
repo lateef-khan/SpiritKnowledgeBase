@@ -3,7 +3,7 @@ id: spirit-ct800-programs-speed-is-percent-of-top-speed
 title: A preset chart speed number is a percentage of the top speed you set, so 20
   means twenty percent
 kind: fact
-question: What do the speed numbers in a Spirit CT800 preset program chart mean?
+question: What do the speed numbers in a Spirit treadmill preset program chart mean?
 asked_as:
 - what does the number 20 in the program chart mean
 - why is my treadmill slower than the chart says
@@ -28,6 +28,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -58,3 +62,9 @@ survive text extraction**. For the numbers on the machines where they did, see
 
 **The manuals say nothing about the incline numbers being scaled.** They are printed as percent of
 grade in the chart and no manual calls them a percentage of anything you set.
+
+**All four CT850 owner's manuals print this paragraph and the same worked example** (2016 and 2020
+printed page 21, 2018 printed page 21, CT850ENT printed page 26). The 2016, 2018 and 2020 manuals
+label the worked-example row **P1**; the CT850ENT manual writes it as **HILL (Program 1, HILL)**.
+**The CT850ENT chart of numbers is printed as a graphic and did not survive text extraction**, so no
+segment values are recorded for that machine.

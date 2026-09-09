@@ -21,6 +21,9 @@ facets:
   - 80t-2026
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -52,3 +55,8 @@ The 2026 Spirit 4.0T and 8.0T owner's manuals print this same table, value for v
 page 23, 2020 printed page 28). The 2012 CT800 manual has no Marines test. **The CT800ENT manual
 offers the test under the name Marine Corps and calls it a timed 3 mile run, but prints its table as
 a picture**, so no values are recorded for that machine.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this same table, value for value** (2016 and
+2020 printed page 28, 2018 printed page 26). **The CT850ENT manual offers the test under the name
+Marine Corps and calls it a timed 3 mile run, but prints its table as a picture**, so no values are
+recorded for that machine.

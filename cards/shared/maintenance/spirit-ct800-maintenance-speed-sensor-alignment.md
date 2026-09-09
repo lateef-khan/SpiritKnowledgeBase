@@ -3,7 +3,7 @@ id: spirit-ct800-maintenance-speed-sensor-alignment
 title: Aligning the speed sensor behind an eight-screw motor hood when calibration
   does not pass
 kind: procedure
-question: How do I check and align the speed sensor on a Spirit CT800 treadmill?
+question: How do I check and align the speed sensor on a Spirit treadmill?
 asked_as:
 - calibration will not pass on my treadmill
 - where is the speed sensor on this treadmill
@@ -30,6 +30,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2018
   section: maintenance
   code: '*'
 authority: 3
@@ -43,7 +44,7 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: 'CT800 2020 p. 38 ADJUSTING THE SPEED SENSOR; the same three steps are
-    CT800 2012 p. 24, CT800 2016 p. 36 and CT800ENT 2022 p. 51'
+    CT800 2012 p. 24, CT800 2016 p. 36, CT800ENT 2022 p. 51 and CT850 2018 p. 40'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,9 +59,14 @@ only trigger the manuals give for this job.
    **aligned with the centre of the magnet when it passes by**. **Two screws hold the sensor in
    place** and need to be loosened to adjust it. **Re-tighten the screws when finished.**
 
-All four CT800 manuals print these three steps in the same words. None of them gives a gap
-measurement between the sensor and the magnet, and none names a wrench or driver size for the eight
-hood screws.
+All four CT800 manuals and the **CT850 2018** owner's manual print these three steps in the same
+words, under the same trigger sentence and immediately after the calibration procedure. None of
+them gives a gap measurement between the sensor and the magnet, and none names a wrench or driver
+size for the eight hood screws.
+
+**The CT850 2018 is the only CT850 owner's manual with this section.** The CT850 2016, CT850 2020
+and CT850ENT 2022 manuals print the calibration procedure and then stop; they say nothing about the
+speed sensor. Their silence is not evidence that those machines are different.
 
 ## Other Spirit and Sole procedures use different numbers
 

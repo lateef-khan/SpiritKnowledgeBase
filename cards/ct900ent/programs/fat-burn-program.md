@@ -19,6 +19,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -64,3 +67,9 @@ input level", and "treadmill elevation" for "deck elevation". See `ct900ent-calo
 "maximum speed level". **The 2020 CT800 owner's manual prints the Speed paragraph only** (printed
 page 22) and writes "maximum resistance level"; **it prints no Incline paragraph for Fat Burn**, so
 the 90%-of-duration elevation figure does not come from that machine's manual.
+
+**The CT850ENT owner's manual prints both paragraphs word for word** (printed page 28), writing
+"maximum speed level". **The 2016 and 2020 CT850 owner's manuals print the Speed paragraph only**
+(printed page 22) and write "maximum resistance level"; **they print no Incline paragraph for Fat
+Burn**, so the 90%-of-duration elevation figure does not come from those two manuals. **The 2018
+CT850 manual prints no description of this program at all.**

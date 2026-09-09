@@ -34,6 +34,8 @@ not_to_be_confused_with:
 - ct900-engineering-mode-menu
 - ct850-2016-engineering-mode-menu
 - xt-2015-console-engineering-mode-menu
+- ct850-2016-console-engineering-mode-menu-with-units
+- ct850-2018-console-engineering-mode-menu-with-da-test
 see_also:
 - spirit-ct800-console-calibration-with-grade-return
 - ct900ent-sleep-mode-auto-shutoff

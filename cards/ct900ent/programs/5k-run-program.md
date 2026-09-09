@@ -21,6 +21,7 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -41,6 +42,12 @@ source:
 Both speed and incline are controlled by the user. Increase or decrease levels at any time during your workout. The Track display will set the distance of 1 lap to **5 kilometers (metric) or 3.1 miles (standard measurement)**.
 
 **The CT800ENT owner's manual prints the first two sentences word for word** (printed page 29), and
+adds that when the program begins the distance counts down and the program ends when it reaches
+zero, and that the speed readout is in MPH if the console is not set to Metric. **It prints no lap
+distance**, so the 5 kilometre / 3.1 mile figure above is not recorded for that machine. Its manual
+puts 5K Run and 10K Run under one heading; they are two identifiers and stay two cards.
+
+**The CT850ENT owner's manual prints the first two sentences word for word** (printed page 29), and
 adds that when the program begins the distance counts down and the program ends when it reaches
 zero, and that the speed readout is in MPH if the console is not set to Metric. **It prints no lap
 distance**, so the 5 kilometre / 3.1 mile figure above is not recorded for that machine. Its manual

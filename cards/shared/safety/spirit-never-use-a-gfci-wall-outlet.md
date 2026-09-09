@@ -2,7 +2,7 @@
 id: spirit-never-use-a-gfci-wall-outlet
 title: Never use a GFCI wall outlet with this machine
 kind: policy
-question: Can a Spirit CT850 or CT800 treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber be plugged into a GFCI outlet?
+question: Can a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber be plugged into a GFCI outlet?
 asked_as:
 - can i plug the treadmill into a gfci outlet
 - why does the gfci keep tripping with my machine
@@ -28,7 +28,9 @@ facets:
   - ct800-2020
   - ct800ent-2022
   - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   - cvc800
   section: safety
   code: '*'
@@ -45,7 +47,7 @@ source:
   locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
     same sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed
     25) of the CVC800 manual, and the opening WARNING of the ELECTRICAL SAFETY page,
-    p. 6, of the 2026 4.0T owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5
+    p. 6, of the 2026 4.0T owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -93,3 +95,13 @@ manual does:
 
 Same rule and same reason in all four, with no exception and no alternative GFCI rating. **RCD and
 GFCI are the same device** - the ENT manual says so itself.
+
+**All four Spirit CT850 owner's manuals print the prohibition as well.** The 2016, 2018 and 2020
+manuals print the CT850 service manual's sentence word for word, opening `NEVER use a ground fault
+circuit interrupt (GFCI) wall outlet with this treadmill`. The **CT850ENT-2022** manual prints the
+CT800ENT wording, naming the device by its international name first:
+
+> NEVER use a RCD - Residual Current Device (U.S. ver.= GFCI) - wall outlet with this treadmill. As
+> with any appliance with a large motor, the RCD/GFCI will trip often.
+
+Same rule, same reason, no exception and no alternative GFCI rating in any of the four.

@@ -30,6 +30,7 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ct800-console-quick-start-speed-keys-2-to-6
 - ct800ent-2022-console-quick-start
+- spirit-ct850-console-quick-start-speed-keys-1-to-15
 see_also:
 - ct850-2020-pause-stop-reset
 - ct850-2020-incline-adjustment
@@ -57,3 +58,10 @@ twelve Direct Access Speed Buttons, so this card covers that machine.
 through 12**: `spirit-ct800-console-quick-start-speed-keys-2-to-6`. The CT800ENT-2022 touchscreen has
 none at all: `ct800ent-2022-console-quick-start`. Do not read one machine's key numbering onto
 another.
+
+**The CT850-2016 and CT850-2020 owner's manuals print fifteen direct access speed buttons, not
+twelve**, in these same four bullets on their p. 17:
+`spirit-ct850-console-quick-start-speed-keys-1-to-15`. The service manual drawing this card was
+written from numbers the ladder 1 to 12. The two documents describe the same machine and disagree,
+so the CT850 machines are held on that card and not on this one; count the ladder on the console in
+front of you.

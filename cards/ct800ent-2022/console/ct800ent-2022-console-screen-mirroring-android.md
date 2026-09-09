@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-screen-mirroring-android
 title: Screen mirroring from an Android phone with the Spirit Mirroring app
 kind: procedure
-question: How do I mirror an Android phone to a Spirit CT800ENT-2022 treadmill?
+question: How do I mirror an Android phone to a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - how do i put my android phone on the treadmill screen
 - what app do i need to mirror to the treadmill
@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -53,3 +54,10 @@ connected to your device** - not to the console. The iOS route is the opposite a
 
 The manual prints no minimum Android version, where the iOS half requires iOS 8 or higher, and it
 does not say where the device name is displayed.
+
+**The CT850ENT-2022 owner's manual prints this section word for word on its p. 21.** Its console
+chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800ENT-2022's, page for
+page and line for line, so this card covers that machine.
+
+Neither manual prints a minimum Android version, and both print the note about the headphones with
+the same "connected to the your device" typo.

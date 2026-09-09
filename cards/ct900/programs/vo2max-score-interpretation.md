@@ -21,6 +21,9 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   - mt200-2010
   - mt200-2022
@@ -76,3 +79,10 @@ three the two charts are interleaved column-for-column by the text extraction an
 de-conditioned "Excellent" row prints as a bare figure rather than a ">" threshold, exactly as it
 does above. **The CT800ENT manual prints the same heading but its chart is a picture**, so no bands
 are recorded for that machine.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print both charts again, value for value**, under
+"What Your Score Means" (2016 and 2020 printed page 31, 2018 printed page 29). In all three the two
+charts are interleaved column-for-column by the text extraction and the female / de-conditioned
+"Excellent" row prints as a bare figure rather than a ">" threshold, exactly as it does above.
+**The CT850ENT manual prints the same heading but its chart is a picture**, so no bands are recorded
+for that machine.

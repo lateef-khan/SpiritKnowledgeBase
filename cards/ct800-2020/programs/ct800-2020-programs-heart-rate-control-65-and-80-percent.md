@@ -3,8 +3,8 @@ id: ct800-2020-programs-heart-rate-control-65-and-80-percent
 title: Heart Rate Control holds you at 65 percent of maximum for weight control or
   80 percent for cardiovascular
 kind: procedure
-question: How does the Heart Rate Control program work on a ct800-2020 treadmill and
-  how do I set it up?
+question: How does the Heart Rate Control program work on a Spirit treadmill that
+  targets 65 and 80 percent, and how do I set it up?
 asked_as:
 - how does heart rate control work
 - what is hr1 and hr2
@@ -24,14 +24,16 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2020
+  model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2020
   section: programs
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-programs-heart-rate-control-60-and-85-percent
+- spirit-ct850-programs-heart-rate-control-60-and-85-percent
 - ct800ent-2022-programs-heart-rate-control-within-five-beats
 - ct900-heart-rate-control-hrc
 see_also:
@@ -85,3 +87,13 @@ two figures; both are recorded as printed. For the training page, see
    screen.
 
 **HR 1 and HR 2 have no warm-up** - see `ct850-2020-starting-and-customising-a-program`.
+
+**The 2020 CT850 owner's manual prints this same page word for word** (printed pages 33-34),
+including the 65% and 80% figures, the Check Pulse prompt and all nine steps. Its own heart rate
+training page carries the same unreconciled clash, recommending 85% for strengthening the
+cardiovascular system while this page sets the Cardiovascular program to 80%.
+
+**The 2016 and 2018 CT850 manuals print 60% and 85% on this page** with otherwise the same
+sequence - see `spirit-ct850-programs-heart-rate-control-60-and-85-percent`. Within the CT850 line
+the figures changed between printings, so read the manual for the year of the machine in front of
+you.

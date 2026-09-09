@@ -28,6 +28,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   section: maintenance
   code: '*'
@@ -42,11 +46,13 @@ see_also:
 - ct900ent-belt-tension-adjustment
 - ct900ent-treadbelt-off-center-hesitates
 - spirit-2026t-warranty-belt-adjustment-damage
+- spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
   locator: p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
     p. 44; all four Spirit CT800 owner's manuals print it too - 2012 p. 22, 2016 p.
-    35, 2020 p. 40 and CT800ENT 2022 p. 50
+    35, 2020 p. 40 and CT800ENT 2022 p. 50; all four Spirit CT850 owner's manuals print
+    it too - 2016 p. 40, 2018 p. 39, 2020 p. 40 and CT850ENT 2022 p. 51
   extracted_at: '2026-08-24'
 ---
 
@@ -74,13 +80,31 @@ the belt speed.
 All four also print, under the heading ATTENTION: damage to the running belt resulting from
 improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.
 
+## Also all four CT850 generations
+
+The Spirit **CT850 2016, CT850 2018, CT850 2020 and CT850ENT 2022** owner's manuals print this
+procedure word for word - the same **8mm Allen wrench**, the same **left side bolt**, the same
+**3 mph**, the same **1/4 turn** clockwise and counter-clockwise, and the same ATTENTION line about
+the warranty. None of the four prints a metric equivalent for the belt speed.
+
+## The CT850 2016 owner's manual and its service manual disagree on the wrench
+
+For the **same machine**, the CT850 2016 *service* manual says a **10 mm** Allen wrench at **3 to
+5 kph** (`ct850-2016-treadbelt-tracking-adjustment`), while the CT850 2016 *owner's* manual - the
+one this card carries - says an **8mm** Allen wrench at **3 mph**. The speeds are compatible
+(3 mph is about 4.8 kph); the wrench sizes are not.
+
+The owner's manual weakens its own figure: all four CT850 owner's manuals list the tools in the box
+on the pre-assembly page as a **3/8" Allen wrench, a 10mm Allen wrench and a Phillips
+screwdriver** - **there is no 8mm Allen wrench in a CT850 box**, even though the tracking paragraph
+says one "is provided for this adjustment". Check the bolt head rather than quoting a size.
+
 ## Also the 2026 4.0T
 
 The Spirit 4.0T 2026 owner's manual (p. 44) prints this procedure word for word, adding only the
 metric equivalent of the belt speed: **3 mph (5 km/hr)**. Same wrench, same bolt, same 1/4 turns.
 
 Other Spirit treadmills use different figures for the same job and must not be answered from this
-card: the CT850 2016 says a **10 mm** wrench at **3 to 5 kph**
-(`ct850-2016-treadbelt-tracking-adjustment`), and the 2026 7.0T and 8.0T say **2 to 3 mph** with a
-10mm and an 8mm wrench respectively (`70t-2026-maintenance-treadbelt-tracking-adjustment`,
+card: the 2026 7.0T and 8.0T say **2 to 3 mph** with a 10mm and an 8mm wrench respectively
+(`70t-2026-maintenance-treadbelt-tracking-adjustment`,
 `80t-2026-maintenance-treadbelt-tracking-adjustment`).

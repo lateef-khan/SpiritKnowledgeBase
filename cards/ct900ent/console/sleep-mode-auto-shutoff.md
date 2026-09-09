@@ -2,7 +2,7 @@
 id: ct900ent-sleep-mode-auto-shutoff
 title: Sleep mode and turning the treadmill off
 kind: fact
-question: How does sleep mode work and how do I turn a Spirit CT800 or CT900ENT treadmill off?
+question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill off?
 asked_as:
 - why did the screen turn off by itself
 - how do i turn off the treadmill
@@ -23,6 +23,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   - ct900ent
   section: console
   code: '*'
@@ -56,3 +57,15 @@ section at all - its engineering menu is the only place it prints a sleep figure
 
 **The 2015 XT manuals print a different, three step version** of this instruction and describe the
 30 minutes as "no key operations": `xt-2015-console-turning-the-treadmill-off`.
+
+**The CT850-2018 owner's manual prints these three paragraphs word for word on its p. 19**, under TO
+TURN TREADMILL OFF, with **30 minutes** and with "safety button" for the safety key, so this card
+covers that machine.
+
+**That manual contradicts itself the same way the CT800 manuals do.** Its engineering mode Functions
+menu prints **20 minutes** for the same Sleep Mode setting
+(`ct850-2018-console-engineering-mode-menu-with-da-test`). Nothing in the manual resolves it; both
+figures are reproduced as printed.
+
+**The CT850 2016 and 2020 owner's manuals have no TO TURN TREADMILL OFF section.** Their engineering
+menu is the only place either prints a sleep figure, and it says 30 minutes.

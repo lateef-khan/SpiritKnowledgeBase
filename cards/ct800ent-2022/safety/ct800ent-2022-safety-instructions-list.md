@@ -2,9 +2,9 @@
 id: ct800ent-2022-safety-instructions-list
 title: The safety warnings printed before you use the treadmill
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit ct800ent-2022 treadmill?
+question: What does the Important Safety Instructions page say for a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
-- what are the safety rules for the ct800ent
+- what are the safety rules for the ct800ent or ct850ent
 - safety instructions page of the ent manual
 - what does the manual say i must not do
 - read all instructions before using this appliance
@@ -23,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: safety
   code: '*'
 authority: 3
@@ -34,6 +35,7 @@ not_to_be_confused_with:
 - ct900ent-general-safety-warnings
 see_also:
 - spirit-ct800-safety-outlet-120-volt-15-amp
+- spirit-ct850-outlet-and-circuit-requirement
 - ct850-2020-extension-cord-14-awg-or-better
 - spirit-ct800-safety-user-weight-limit-450-lbs
 - ct800ent-2022-safety-placement-and-rear-clearance
@@ -42,7 +44,8 @@ see_also:
 - spirit-product-must-be-grounded
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, pages 4-5
+  locator: IMPORTANT SAFETY INSTRUCTIONS, pages 4-5; the CT850ENT-2022 owner's manual prints the
+    same page on its pages 4-5
   extracted_at: '2026-09-09'
 ---
 
@@ -112,6 +115,29 @@ the supply cord, intended for household use - and none of those items is in this
 figure; its only age rule is `Keep children away from the treadmill` with no number, and its only
 clearance figure is the 1 metre behind the machine. Quoting 13 years or the 0.5 m side clearance
 for a CT800ENT would be an invention.
+
+## The Spirit CT850ENT-2022 manual prints this same list
+
+**Word for word, with one figure changed.** Every bullet above is printed in the CT850ENT-2022
+manual in the same order, and the page closes with the same
+`SAVE THESE INSTRUCTIONS - THINK SAFETY!`.
+
+**The outlet in its WARNING header is a 20-amp one, and it names a plug type:**
+
+> WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+> treadmill on a flat level surface with access to a 120 volt AC (NEMA 5-20P electrical cord) 20
+> amp grounded outlet. With only the treadmill plugged into the circuit.
+
+The CT800ENT header asks for a 120-volt AC, **15-amp** outlet and names no plug type. Quote 20 amp
+and NEMA 5-20P only for the CT850ENT (`spirit-ct850-outlet-and-circuit-requirement`) and 15 amp
+only for the CT800ENT (`spirit-ct800-safety-outlet-120-volt-15-amp`). **Nothing else on the page
+differs.**
+
+**The same two figures are absent here as well.** The CT850ENT manual carries no
+`Keep children under the age of 13 away from this machine` bullet and no ASTM F2115-05 clearance
+figure, though the CT850 2016, 2018 and 2020 manuals print both
+(`spirit-ct800-safety-who-may-use-the-treadmill`, `ct900ent-clearance-requirements`). Quoting 13
+years or the 0.5 m side clearance for a CT850ENT would be an invention.
 
 **The CT900ENT manual prints a close but different list** - it opens with `consult a physician`,
 keeps `Keep children under the age of 13 away`, and prints `Maximum User Weight` rather than

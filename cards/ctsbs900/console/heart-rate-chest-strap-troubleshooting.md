@@ -26,6 +26,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ctsbs900
   section: console
   code: '*'
@@ -72,3 +76,13 @@ your dealer". Two differences:
 are held separately: CTSBS900 in
 [console/heart-rate-chest-strap-pairing.md](heart-rate-chest-strap-pairing.md), the
 2026 machines in `spirit-2026t-console-chest-strap-wearing`.
+
+**All four CT850 owner's manuals print this section** - 2016 p. 37, 2018 p. 34, 2020 p. 37,
+CT850ENT-2022 p. 45 - all four wording the caution as "for Heart Rate programs" and ending "If you
+continue to experience problems contact your dealer". Two differences:
+
+- **Only the CT850ENT-2022 prints item 1, the grounding item.** The 2016, 2018 and 2020 CT850
+  manuals print a **seven** item list that starts at the microwave ovens. Do not quote grounding as
+  a printed cause for those three.
+- **Item 5 is worded two ways here too.** The CT850-2018 manual prints "Perimeter fence for a pet";
+  the 2016, 2020 and ENT manuals print "Electric fence for a pet". Same item.

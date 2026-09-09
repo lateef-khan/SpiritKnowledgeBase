@@ -21,6 +21,7 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -44,3 +45,7 @@ Both speed and incline are controlled by the user. Increase or decrease levels a
 adds that the distance counts down and the program ends at zero. **It prints no lap distance**, so
 the 10 kilometre / 6.2 mile figure above is not recorded for that machine. Its manual puts 5K Run and
 10K Run under one heading; they are two identifiers and stay two cards.
+
+**The CT850ENT owner's manual prints the first two sentences word for word** (printed page 29), and
+adds that the distance counts down and the program ends at zero. **It prints no lap distance**, so
+the 10 kilometre / 6.2 mile figure above is not recorded for that machine.

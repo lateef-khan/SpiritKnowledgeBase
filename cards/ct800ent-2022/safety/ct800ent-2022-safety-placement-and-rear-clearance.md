@@ -2,7 +2,7 @@
 id: ct800ent-2022-safety-placement-and-rear-clearance
 title: One metre of clearance behind the treadmill, and no plush or shag carpet under it
 kind: policy
-question: Where can a Spirit ct800ent-2022 treadmill stand, and how much room does it need behind it?
+question: Where can a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill stand, and how much room does it need behind it?
 asked_as:
 - how much space do i need behind the treadmill
 - how far from the wall should the treadmill be
@@ -22,9 +22,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,7 +39,8 @@ see_also:
 - ct900ent-operating-environment-voltage
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 4
+  locator: IMPORTANT SAFETY INSTRUCTIONS, page 4; the CT850ENT-2022 owner's manual prints the same
+    two bullets on its page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -67,5 +69,16 @@ quoting 19.7 in. for a CT800ENT would be an invention. The rear figure happens t
 **The CT800-2012 manual prints no placement or clearance rule at all** - no carpet rule and no
 distance anywhere in it.
 
-The temperature, humidity and moisture limits for this machine are
+**The Spirit CT850ENT-2022 owner's manual prints both bullets word for word.** Same 1 metre behind
+the machine clear of any fixed object, same carpet rule and the same reason - damage to both the
+carpet and the treadmill - and the same absence of a side or front figure. Its WARNING header adds
+a flat, level surface with a 120 volt AC, 20-amp grounded outlet
+(`spirit-ct850-outlet-and-circuit-requirement`) where the CT800ENT header says 15 amp.
+
+**Do not fill the side-clearance gap from the other CT850 manuals either.** The CT850 2016, 2018
+and 2020 books print the ASTM F2115-05 figures - 0.5 m (19.7 in.) each side and 1 m (39 in.) behind
+(`ct900ent-clearance-requirements`); the ENT-2022 book cites no standard and prints no side figure.
+The rear figure happens to agree at 1 metre.
+
+The temperature, humidity and moisture limits for these machines are
 `ct900ent-operating-environment-voltage`.

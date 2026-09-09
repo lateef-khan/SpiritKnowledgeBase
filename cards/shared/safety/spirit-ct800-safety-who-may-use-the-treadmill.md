@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-who-may-use-the-treadmill
 title: Who may use the treadmill, and the supervised exception the list allows
 kind: policy
-question: Who may use a Spirit CT800 treadmill, and can children use it?
+question: Who may use a Spirit CT800 or CT850 treadmill, and can children use it?
 asked_as:
 - can my kids use the treadmill
 - what age can someone use a treadmill
@@ -27,6 +27,9 @@ facets:
   applies_to:
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   section: safety
   code: '*'
 authority: 3
@@ -40,7 +43,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: IMPORTANT SAFETY INSTRUCTIONS, pages 3-4; the CT800 2020 owner's manual
-    prints the same three bullets on pages 4-5
+    prints the same three bullets on pages 4-5. The CT850 owner's manuals print them on pages
+    4-5 (2016), pages 3-4 (2018) and pages 4-5 (2020)
   extracted_at: '2026-09-09'
 ---
 
@@ -78,6 +82,17 @@ appears. The user weight limit is a separate bullet of the same list:
 
 **The CT800-2012 manual prints only the close-supervision bullet.** It carries no age-13 rule and
 no reduced-capability clause anywhere, so neither may be quoted for a 2012 machine.
+
+## The CT850 2016, 2018 and 2020 manuals print the same three bullets
+
+**Word for word, all three of them**, with the same age figure and the same supervised exception.
+Under 13: keep away. Children, invalids or disabled persons near the machine: close supervision.
+Reduced capability or lack of experience: not intended, unless supervised or instructed by a person
+responsible for their safety. No maximum age, no other minimum, and no height qualification.
+
+**The CT850ENT-2022 manual carries no age figure either**, for the same reason the CT800ENT manual
+does not: it prints the ENT list instead (`ct800ent-2022-safety-instructions-list`). Do not quote 13
+years for a CT850ENT.
 
 **The CT800ENT-2022 manual carries no age figure.** It prints `Keep children away from the
 treadmill. There are obvious pinch points and other caution areas that can cause harm` with no

@@ -2,7 +2,7 @@
 id: ct800ent-2022-programs-fitness-test-entry-age-weight-height-gender
 title: Starting a fitness test by entering your age, weight, height and gender
 kind: procedure
-question: What does a ct800ent-2022 treadmill ask for before a fitness test starts?
+question: What does a Spirit touchscreen treadmill ask for before a fitness test starts?
 asked_as:
 - what do i have to enter before the fitness test
 - does the fitness test ask for my height
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -56,3 +57,6 @@ weight only.
 `ct800ent-2022-programs-entering-a-program-touchscreen`. The Gerkin test is the exception and starts
 with its own three minute warm-up at 3 mph; see
 `ct800ent-2022-programs-fitness-test-before-during-after`.
+
+**The CT850ENT owner's manual prints this same sequence word for word** (printed page 33), asking
+for Age, Weight, Height and Gender at the beginning of each program and then Start.

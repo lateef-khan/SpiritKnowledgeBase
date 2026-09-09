@@ -20,6 +20,9 @@ facets:
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -43,3 +46,9 @@ For the full segment-by-segment speed and incline values, see [Preset program sp
 segments 4, 9 and 14 as the maximum elevation points. **The 2020 CT800 owner's manual prints the
 Speed paragraph only** (printed page 22) and writes "near maximum resistance level"; **it prints no
 Incline paragraph for Cardio**, so the segment 4/9/14 figures do not come from that machine's manual.
+
+**The CT850ENT owner's manual prints both paragraphs word for word** (printed page 29), including
+segments 4, 9 and 14 as the maximum elevation points. **The 2016 and 2020 CT850 owner's manuals
+print the Speed paragraph only** (printed page 22) and write "near maximum resistance level"; **they
+print no Incline paragraph for Cardio**, so the segment 4/9/14 figures do not come from those two
+manuals. **The 2018 CT850 manual prints no description of this program at all.**

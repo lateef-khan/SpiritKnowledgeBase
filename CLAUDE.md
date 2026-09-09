@@ -71,6 +71,27 @@ CI runs `kb lint`. Six things stay green that should not:
   grep -rh '^title:' cards/ --include='*.md' | sed 's/^title: //' | sort | uniq -d
   ```
 
+## Never compare manuals with `diff`
+
+`diff` is **not reliable** in this environment. On 2026-09-09 the same two
+274 KB files, unchanged on disk, produced `[ok] Files are identical` with exit 0
+on one run and a correct one-line diff on the next. In the failing run `cmp`, in
+the same command, correctly reported the files differ. An extraction agent hit
+the same false negative on two real manuals and caught it only because it
+re-checked in Python.
+
+A false "identical" silently merges two machines' facts into one card. Use
+instead:
+
+- `cmp -s a b` — a trustworthy same/differ answer.
+- `comm -12 <(sort -u a) <(sort -u b)` — set overlap, with `LC_ALL=C` so the
+  sort order matches what `comm` expects.
+- `python3 -c "import difflib; ..."` — when you need the actual changed lines.
+
+For measuring how much two manuals share, none of those is enough on its own:
+compare **8-word phrase shingles**, not lines. See "Never diff by raw line" in
+`docs/superpowers/specs/2026-09-09-spirit-owners-manuals-digest-design.md`.
+
 ## Conventions the code does not enforce
 
 - **A title names the fact and carries no model id.** The card can then grow to

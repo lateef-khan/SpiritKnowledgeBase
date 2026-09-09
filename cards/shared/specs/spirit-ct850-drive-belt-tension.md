@@ -33,6 +33,7 @@ not_to_be_confused_with:
 - ce800ent-drive-belt-tension
 - cvc800-drive-belt-tension
 - cu900ent-drive-belt-tension
+- spirit-ct850-specs-no-specification-table
 see_also:
 - ct850-2016-motor-replacement
 - ct850-2020-motor-replacement
@@ -51,8 +52,11 @@ Adjust it with a **14 mm open-end wrench** on the tension screw, then tighten th
 adjusting bolts** with an **M8 L-shape Allen wrench** to lock it. Reconnect the motor grounding
 wire (green/yellow) and the U / V / W motor cables afterwards.
 
-Both CT850 manuals print the same figure in the same step, so it holds for the 2016 and the 2020
-machine alike.
+Both CT850 **service** manuals print the same figure in the same step, so it holds for the 2016
+and the 2020 machine alike. It holds for nothing else. No CT850 **owner's** manual prints it,
+there is no tread-belt tension figure in any Spirit CT850 book, and no source states any belt
+tension for the `ct850-2018` or the `ct850ent-2022`, which have no service manual - see
+`spirit-ct850-specs-no-specification-table`.
 
 This is a **force in pounds on a mechanical gauge**. The other Spirit commercial machines use
 completely different units for their drive belts - the CVC800 and CE800ENT use a sonic meter

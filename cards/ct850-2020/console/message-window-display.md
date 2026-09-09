@@ -21,6 +21,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
   section: console
   code: '*'
@@ -44,4 +46,10 @@ draws the workout profile in the same panel is described separately.
 its p. 12 and the 2016 manual on its p. 18, both under MESSAGE WINDOW DISPLAY, and the 2020 manual
 on its p. 18 inside the DOT MATRIX MESSAGE CENTER section. On the 2012 and 2016 consoles this is a
 separate **20-character Message Center** window; on the 2020 console it is the same panel as the
+dots.
+
+**The CT850 2016, 2018 and 2020 owner's manuals print these two sentences word for word** - the 2018
+manual on its p. 18 under its own MESSAGE WINDOW DISPLAY heading, the 2016 and 2020 manuals on their
+p. 18 folded into the DOT MATRIX MESSAGE CENTER section. On the 2018 console this is a separate
+**20-character Message Center** window; on the 2016 and 2020 consoles it is the same panel as the
 dots.

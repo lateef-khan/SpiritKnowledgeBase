@@ -26,6 +26,8 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
   - xt185-2015
   - xt285-2015
@@ -73,3 +75,7 @@ send the reader to the maintenance chapter to change miles to kilometres.
 **The XT385-2015, XT485-2015 and XT685-2015 manuals have no power-up section**, so nothing here is
 claimed for them. **Neither does the CT800ENT-2022**, whose touchscreen shows a loading screen and a
 Home Screen instead and no odometer or software version: `ct800ent-2022-console-home-screen`.
+
+**The CT850 2016, 2018 and 2020 owner's manuals print this same sequence** under the heading POWER -
+2016 p. 16, 2018 p. 15, 2020 p. 16 - in the same order, with the same odometer explanation and the
+same "safety button" wording, so this card covers those machines.

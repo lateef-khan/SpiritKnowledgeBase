@@ -2,7 +2,7 @@
 id: spirit-route-the-power-cord-away-from-moving-parts
 title: Route the power cord away from every moving part
 kind: policy
-question: Where should the power cord be routed on a Spirit CT850 or CT800 treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -28,7 +28,9 @@ facets:
   - ct800-2020
   - ct800ent-2022
   - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   - cvc800
   - xt185-2015
   - xt185-2023
@@ -59,7 +61,7 @@ source:
     owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important
     Electrical Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
     p. 5, XT385/XT685 p. 6), and the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T
-    owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5
+    owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -107,3 +109,9 @@ the CT850 manuals had it - as the closing half of the GFCI bullet
 (`spirit-never-use-a-gfci-wall-outlet`) rather than as a WARNING of its own. The CT800ENT-2022
 manual writes `main power cord` where the other three write `power cord`; the two parts named are
 again the elevation mechanism and the transport wheels.
+
+**All four Spirit CT850 owner's manuals print the sentence too**, with `treadmill`, and put it
+where the CT850 service manuals had it - as the closing half of the GFCI bullet
+(`spirit-never-use-a-gfci-wall-outlet`). The CT850ENT-2022 manual writes `main power cord` where
+the 2016, 2018 and 2020 manuals write `power cord`, exactly as the CT800ENT manual does. The two
+parts named are again the elevation mechanism and the transport wheels.

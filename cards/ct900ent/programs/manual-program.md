@@ -20,6 +20,7 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -38,3 +39,5 @@ Both Speed and Incline are controlled by the user. Increase or decrease levels a
 **The CT800ENT owner's manual prints this sentence word for word** (printed page 27). The three
 button-console CT800 generations list a Manual program but describe it only through the console's
 Quick Start and dot matrix pages, not as a program of its own.
+
+**The CT850ENT owner's manual prints this sentence word for word** (printed page 27).

@@ -31,6 +31,9 @@ not_to_be_confused_with:
 - spirit-ct800-console-calibration-with-grade-return
 - xt-2015-console-calibration-fast-plus
 - ct850-2016-calibration-procedure-metric-or-english
+- ct850-2016-console-calibration-minimum-speed-0-5
+- ct850-2020-console-calibration-minimum-speed-0-3
+- ct850ent-2022-console-calibration-touchscreen
 see_also:
 - ct900-engineering-mode-menu
 - ct900-incline-position-mismatch-e33

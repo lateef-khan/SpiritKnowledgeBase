@@ -3,7 +3,7 @@ id: ct800-2016-programs-fitness-test-menu-five-tests
 title: 'The Fit-Test button offers five tests: Army, Navy, Air Force, Marines and
   Gerkin'
 kind: fact
-question: Which fitness tests does a ct800-2016 treadmill offer?
+question: Which fitness tests does a Spirit treadmill with a five-test Fit-Test menu offer?
 asked_as:
 - what fitness tests can this treadmill run
 - does it have an army fitness test
@@ -22,9 +22,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2016
+  model: '*'
   applies_to:
   - ct800-2016
+  - ct850-2018
   section: programs
   code: '*'
 authority: 3
@@ -58,3 +59,12 @@ statement.
 
 For what the console asks for before the test starts, see
 `spirit-ct800-programs-fitness-test-entry-weight-age-gender`.
+
+**The 2018 CT850 owner's manual prints this same five-test sentence word for word** (printed page
+25), naming Army (PFT), Navy (PRT), Air Force (PRT), Marines (PFT) and Gerkin, reached with the
+Fit-Test button, the arrow button and Enter. Its Programmable Features page likewise describes the
+machine as having "a Gerkin Protocol based Fitness Test" as though Gerkin were the only one - see
+`ct850-2018-programs-twelve-program-lineup`.
+
+For what that console asks you to enter before the test - which it prints twice, in two
+disagreeing versions - see `ct850-2018-programs-fitness-test-entry`.

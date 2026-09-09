@@ -22,6 +22,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2018
   - ct850-2020
   section: console
   code: '*'
@@ -49,3 +50,9 @@ p. 18, and both label the graph **Heart Rate % Profile** on the console drawing.
 **The CT800-2020 and CT800ENT-2022 manuals have no heart rate bar graph section at all**, so nothing
 here is claimed for them. The 2020 console chapter goes straight from the quarter mile track to the
 HEART RATE WINDOW.
+
+**The CT850-2018 owner's manual prints this paragraph word for word on its p. 18**, and labels the
+graph **Heart Rate % Profile** on its console drawing, so this card covers that machine.
+
+**The CT850-2016 and CT850-2020 owner's manuals have no heart rate bar graph section**, and their
+console drawing does not label one. Nothing here is claimed for those two.

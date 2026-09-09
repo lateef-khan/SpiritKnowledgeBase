@@ -33,10 +33,12 @@ not_to_be_confused_with: []
 see_also:
 - ct850-2016-electrical-part-descriptions
 - ct850-2020-electrical-part-descriptions
+- spirit-ct850-specs-no-specification-table
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: CT850-2016 p. 15 (printed 14) and p. 19 (printed 18); CT850-2020 p. 45
-    (printed 44) section 8-5
+    (printed 44) section 8-5; the owner's-manual figures below are from the CT850-2016
+    owner's manual p. 38 and the CT850-2020 owner's manual p. 38
   extracted_at: '2026-09-08'
 ---
 
@@ -56,5 +58,16 @@ incline work range and preset range as **0 to 15**, but its RUN MODE description
 treat the 12 as an error in the source, and check the console's own MAX ELEVATION setting if a
 particular machine stops short.
 
-No Spirit CT850 manual prints a motor horsepower, a running-surface size, a machine weight or a
-maximum user weight.
+**The owner's manuals for these same two machines say 15.0 mph, not 12.0.** The CT850-2016 and
+CT850-2020 owner's manuals both give a Calibration Procedure whose step 6 reads "Adjust the
+maximum speed (if needed) to 15.0", and the 2016 console carries Direct Access Speed Buttons
+numbered 1 through 15. Their minimum-speed steps disagree with each other too - 0.5 in the 2016
+book, 0.3 in the 2020 book. Neither owner's manual states a working range at all, so the 0.5 to
+12 mph above remains the only *rated* figure; but a machine calibrated from the owner's manual
+will accept a higher maximum than this card's range. Check the console's own MAX SPEED setting
+before quoting either. The full four-manual picture, including the CT850-2018 and the
+CT850ENT-2022, is in `spirit-ct850-specs-no-specification-table`.
+
+No Spirit CT850 manual prints a motor horsepower, a running-surface size or a machine weight.
+The **service** manuals print no maximum user weight either; all four owner's manuals do print
+one, on their safety pages rather than in any spec table.

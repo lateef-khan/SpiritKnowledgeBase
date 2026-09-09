@@ -3,7 +3,7 @@ id: ct800ent-2022-programs-gerkin-test-chart-is-a-picture
 title: The Gerkin test description, whose stage chart and score chart are printed
   as pictures
 kind: fact
-question: What is the Gerkin fitness test on a ct800ent-2022 treadmill?
+question: What is the Gerkin test on a Spirit touchscreen treadmill and where are its stage values?
 asked_as:
 - what is the gerkin test
 - fireman vo2 test
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: programs
   code: '*'
 authority: 3
@@ -60,3 +61,9 @@ to be the one on this console:
 
 Read the original CT800ENT manual pages before quoting a stage speed or a VO2max score for this
 machine.
+
+**The CT850ENT owner's manual prints this same description word for word** (printed page 36),
+including the heart-rate-strap note, and **its Gerkin value table (printed page 37) and VO2max score
+chart (printed page 38) are pictures too**, so no stage values and no score bands are recorded for
+that machine either. The same warning applies: the two Spirit charts that do exist disagree with
+each other and neither may be assumed to be the one on this console.

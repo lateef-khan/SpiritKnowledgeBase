@@ -2,8 +2,7 @@
 id: ct850-tread-belt-does-not-stay-centered
 title: Tread belt drifts off to one side
 kind: troubleshooting
-question: Why does the tread belt run off centre on a Spirit CT850 treadmill (2016
-  or 2020)?
+question: Why does the tread belt run off centre on a Spirit CT850 treadmill?
 asked_as:
 - the belt keeps drifting to one side
 - tread belt will not stay in the middle
@@ -22,7 +21,9 @@ facets:
   model: '*'
   applies_to:
   - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   section: maintenance
   code: '*'
 authority: 3
@@ -58,9 +59,21 @@ causes**. Neither chapter mentions the other, so both are reproduced here.
 **The 2020 manual heads that second row "Running belt does not stay centered".** The cause text
 under it is word for word the same as the 2016 manual's.
 
+## All four owner's manuals print the same row
+
+The CT850 2016, 2018, 2020 and CT850ENT 2022 **owner's** manuals carry this second row word for
+word, merged with the hesitation symptom into one heading — *"Tread-belt does not stay centered /
+Treadmill belt hesitates when walked/run on"* — with the same favouring-one-foot cause and the
+closing instruction *"See General Maintenance section on Tread-belt Tension. Adjust as
+necessary."* See `ct850-tread-belt-hesitates-when-stepped-on` for the hesitation half.
+
 ## Where the procedure is
 
-The tracking and tension procedures themselves are printed **only in the 2016 manual** — see
-`ct850-2016-treadbelt-tracking-adjustment` and `ct850-2016-tread-belt-tension-adjustment`.
-The 2020 manual has **no General Maintenance chapter at all**; its troubleshooting rows point at
-a "General Maintenance section" that does not exist anywhere in that document.
+Among the **service** manuals the tracking and tension procedures are printed **only in the 2016
+one** — `ct850-2016-treadbelt-tracking-adjustment` and `ct850-2016-tread-belt-tension-adjustment`.
+The 2020 service manual has **no General Maintenance chapter at all**; its troubleshooting rows
+point at a "General Maintenance section" that does not exist anywhere in that document.
+
+The **owner's** manuals do not have that problem: all four print a BELT ADJUSTMENTS and a
+TREADBELT TRACKING ADJUSTMENT section, so the cross-reference resolves. Those are
+`ct900ent-belt-tension-adjustment` and `ct900ent-treadbelt-tracking-adjustment`.

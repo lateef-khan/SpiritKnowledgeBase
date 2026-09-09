@@ -2,8 +2,8 @@
 id: spirit-2026t-warranty-prisons-excluded
 title: Prisons and correctional facilities are excluded from cover
 kind: policy
-question: Is a Spirit 2026 4.0T, 7.0T, 8.0T or CT800 treadmill under warranty in a
-  prison or correctional facility?
+question: Is a Spirit 2026 4.0T, 7.0T, 8.0T, CT800 or CT850 treadmill under warranty
+  in a prison or correctional facility?
 asked_as:
 - is the treadmill covered in a prison gym
 - does the warranty work in a correctional facility
@@ -29,6 +29,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -47,7 +51,11 @@ source:
     printed in all three 2026 manuals: 4.0T pp. 51-52, 7.0T pp. 50-51, 8.0T pp. 68-69.
     CT800: the exclusion in all four manuals - 2012 p. 25 (text.md line 1132), 2016 p.
     42 (line 1107), 2020 p. 46 (line 1201), CT800ENT 2022 p. 54 (line 1250) - and the
-    table footnote in two, 2020 p. 45 (line 1162) and CT800ENT 2022 p. 53 (line 1212)'
+    table footnote in two, 2020 p. 45 (line 1162) and CT800ENT 2022 p. 53 (line 1212).
+    CT850: the exclusion in all four owner''s manuals - ct850-2016 p. 46 (spirit-treadmill-ct850-2016-owners-manual
+    text.md line 1198), ct850-2018 p. 46 (line 1191), ct850-2020 p. 46 (line 1197),
+    ct850ent-2022 p. 54 (line 1256) - and the table footnote in three, ct850-2016 p.
+    45 (line 1159), ct850-2020 p. 45 (line 1158) and ct850ent-2022 p. 53 (line 1218)'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,13 +73,13 @@ The exclusion is **flat**. The manuals name no shortened period, no separate ins
 
 **This is not the exclusion the XT manuals print in slot 8.** The residential XT manuals use item 8 for a use-environment limit - "any environment other than a residential setting or non-dues paying facility with 5 hours use or less per day" - and say nothing about prisons, except the XT685, which carries the prisons line as a footnote to its light commercial table. Read the machine's own list rather than carrying either sentence across: `xt-2023-warranty-use-environment`.
 
-**The four Spirit CT800 manuals exclude prisons too, and only two of them say it twice.** The exclusion itself is in all four, as item **9** of a ten-item list rather than item 8:
+**The four Spirit CT800 manuals and the four CT850 ones exclude prisons too, and only five of the eight say it twice.** The exclusion itself is in all eight, as item **9** of a ten-item list rather than item 8:
 
 > Product used in prisons and correctional facilities
 
-The footnote under the warranty table - the second half of the fact on the 2026 machines - is printed only in the **2020 and CT800ENT** manuals. The 2012 and 2016 manuals print the exclusion and no footnote, so a CT800 buyer reading only the warranty table in those two is not shown it. The CT800 list is `spirit-ct800-warranty-exclusions`.
+The footnote under the warranty table - the second half of the fact on the 2026 machines - is printed in the **CT800 2020, CT800ENT, CT850 2016, CT850 2020 and CT850ENT** manuals. The **CT800 2012, CT800 2016 and CT850 2018** manuals print the exclusion and no footnote, so a buyer reading only the warranty table in those three is not shown it. The list they share is `spirit-ct800-warranty-exclusions`.
 
-**On a CT800 the prisons exclusion is not the only environment excluded.** Those manuals also exclude a dues-paying facility - a YMCA or health club - in the slot above it, which the 2026 manuals say nothing about: `spirit-ct800-warranty-use-environment`.
+**On a CT800 or CT850 the prisons exclusion is not the only environment excluded.** Those manuals also exclude a dues-paying facility - a YMCA or health club - in the slot above it, which the 2026 manuals say nothing about: `spirit-ct800-warranty-use-environment`.
 
 The Spirit CT900, CT900ENT and CTSBS900 manuals print the same prisons sentence in their own warranty sections; those machines have their own cards.
 

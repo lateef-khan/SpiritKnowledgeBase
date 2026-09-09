@@ -2,7 +2,8 @@
 id: spirit-ct800-assembly-power-on
 title: Plugging in and switching on at the power switch below the motor hood
 kind: procedure
-question: How do I plug in and switch on a Spirit CT800 treadmill for the first time?
+question: How do I plug in and switch on a Spirit CT800 or CT850 treadmill for the
+  first time?
 asked_as:
 - where is the power switch on my treadmill
 - my treadmill wont turn on
@@ -26,6 +27,9 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   section: assembly
   code: '*'
 authority: 3
@@ -40,8 +44,9 @@ see_also:
 - ct900-plugging-in-and-power-on
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: p. 15, POWER; the same words at p. 10 of the 2012 manual under Power Up
-    and p. 16 of the 2020 manual
+  locator: p. 15, POWER; the same words at p. 10 of the 2012 manual under Power Up,
+    p. 16 of the 2020 manual, p. 16 of the CT850 2016 and 2020 manuals and p. 15 of the
+    CT850 2018 manual, all headed POWER
   extracted_at: '2026-09-09'
 ---
 
@@ -51,9 +56,15 @@ source:
 3. **Ensure that the safety key is installed** - the treadmill will not power on
    without it.
 
-All three manuals print these words identically. The 2016 and 2020 manuals call it
-the **safety button**, the 2012 manual the **safety key**; it is the same magnetic
-key, and the tether-cord pages of all three describe it the same way.
+All six manuals print these words identically. The CT800 2016 and 2020 manuals and
+all three CT850 manuals call it the **safety button**, the CT800 2012 manual the
+**safety key**; it is the same magnetic key, and the tether-cord pages describe it
+the same way.
+
+**The CT850 2018 has no parts list and no exploded view**, so there is no item
+number to give for its power switch. The CT850 2016 and 2020 manuals put the serial
+number "at the front of the treadmill by the Power switch", which is the same place
+this step sends you.
 
 ## What the console then shows is a separate question
 
@@ -68,6 +79,6 @@ If nothing lights at all after step 3, the troubleshooting table in each of thes
 manuals starts with the tether cord not being in position and the circuit breaker
 on the front grill.
 
-**The CT800ENT does not power up like this.** Its manual gives no motor-hood
-location for the switch and shows a loading screen and a Home Screen rather than
-an odometer; it has its own card.
+**The CT800ENT and CT850ENT do not power up like this.** Their manuals give no
+motor-hood location for the switch and show a loading screen and a Home Screen
+rather than an odometer; they have their own card.

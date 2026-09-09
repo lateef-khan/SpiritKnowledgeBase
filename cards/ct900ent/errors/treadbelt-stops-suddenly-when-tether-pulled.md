@@ -3,7 +3,7 @@ id: ct900ent-treadbelt-stops-suddenly-when-tether-pulled
 title: Treadbelt stops quickly/suddenly when tether cord is pulled
 kind: troubleshooting
 question: Why does the tread belt stop so suddenly when the tether cord is pulled on a
-  Spirit CT800, CT800ENT, CT900ENT or XT treadmill?
+  Spirit CT800, CT800ENT, CT850, CT850ENT, CT900ENT or XT treadmill?
 asked_as:
 - the belt stops too fast when the safety clip comes off
 - treadmill stops abruptly not gradually
@@ -26,6 +26,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -44,6 +48,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- ct850-2016-tread-belt-stops-suddenly-when-tether-cord-pulled
 - ct900ent-belt-deck-cleaning
 - ct900ent-safety-tether-cord
 - xt-2023-errors-trips-onboard-15-amp-breaker
@@ -55,7 +60,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1011-1015), printed page 39 of the 2016 manual (text.md lines 1007-1011), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2020 manual (text.md lines 1106-1110) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1188-1189)
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1011-1015), printed page 39 of the 2016 manual (text.md lines 1007-1011), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2020 manual (text.md lines 1106-1110) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1188-1189); all four CT850 owner's manuals print the same row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2016 manual (text.md lines 1103-1107) and of the 2020 manual (text.md lines 1102-1106), SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 42 of the 2018 manual (text.md lines 1066-1070) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual (text.md lines 1194-1195)
   extracted_at: '2026-08-24'
 ---
 
@@ -84,6 +89,18 @@ its original side" qualifier included, so this fault reads the same on a 2012 ma
 a 2022 one. Only the cross-reference moved: the 2012, 2016 and 2020 manuals send the reader
 to their own General Maintenance section on cleaning the deck, while the CT800ENT 2022
 manual drops that pointer and starts straight at the friction.
+
+**All four CT850 owner's manuals print the long answer**, deck-wear check and the "if it is
+on its original side" qualifier included - the 2016, 2018 and 2020 manuals and the CT850ENT
+2022 manual. Only the cross-reference moved: the 2016, 2018 and 2020 manuals send the reader
+to their own General Maintenance section on cleaning the deck, while the CT850ENT 2022 manual
+drops that pointer and starts straight at the friction, exactly as the CT800ENT does.
+
+**The CT850 2016 service manual gives a shorter answer for the same machine.** It prints the
+condition with the words `High belt/deck friction.` and nothing more, and it says the row is
+absent from the 2020 service manual
+(`ct850-2016-tread-belt-stops-suddenly-when-tether-cord-pulled`). That card is filed under
+`section: maintenance`, which is where a reader looking for this symptom will not find it.
 
 **Both ENT manuals print the long answer.** The XT485ENT and XT685ENT each go on to the
 deck-wear check and each carry the qualifier - the deck may need to be flipped **if it is on

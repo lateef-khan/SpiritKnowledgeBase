@@ -24,6 +24,9 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -67,4 +70,12 @@ shown in the **Dot Matrix Message Center** rather than a Message Window.
 
 **The CT800ENT manual scopes the during-and-after halves to the Gerkin test only** and says the
 three minute warm-up at 3 MPH is Gerkin only - that is a different fact, see
+`ct800ent-2022-programs-fitness-test-before-during-after`.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this guidance word for word** (2016 and 2020
+printed page 30, 2018 printed page 28). None of the three has a WFI test, so for them this is the
+Gerkin procedure only. The 2018 manual shows the target and actual heart rate in the **Message
+Window**; the 2016 and 2020 manuals show them in the **Dot Matrix Message Center**.
+
+**The CT850ENT scopes the during-and-after halves to the Gerkin test only** - see
 `ct800ent-2022-programs-fitness-test-before-during-after`.

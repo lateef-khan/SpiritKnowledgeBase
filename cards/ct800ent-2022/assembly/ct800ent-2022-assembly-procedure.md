@@ -3,7 +3,7 @@ id: ct800ent-2022-assembly-procedure
 title: Four-step assembly with four cables threaded up the right upright, including
   Ethernet and C-safe
 kind: procedure
-question: How do I assemble a Spirit CT800ENT (ct800ent-2022) treadmill from the carton?
+question: How do I assemble a Spirit CT800ENT or CT850ENT treadmill from the carton?
 asked_as:
 - how do i put my treadmill together
 - what order do i assemble the treadmill in
@@ -23,15 +23,18 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2022
+  model: '*'
   applies_to:
   - ct800ent-2022
+  - ct850ent-2022
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct800-2020-assembly-procedure
 - spirit-ct800-assembly-procedure-three-step
+- ct850-2016-assembly-procedure
+- ct850-2018-assembly-procedure
 see_also:
 - spirit-ct800-assembly-hardware-kit-four-step
 - spirit-ct800-assembly-tools-included
@@ -39,13 +42,19 @@ see_also:
 - ct800ent-2022-assembly-power-on
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: pp. 10-13, CT800ENT STEP ONE to STEP FOUR
+  locator: pp. 10-13, CT800ENT STEP ONE to STEP FOUR; the same four steps at pp. 10-13
+    of the CT850ENT manual, headed CT850ENT STEP ONE to STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
-**The same four steps and the same hardware as the LED CT800 of the same platform,
-with four cables where that machine has one.** The differences are all listed at
-the bottom of this card; take them seriously, because two of the counts differ.
+**The same four steps and the same hardware as the LED CT800 and CT850 of the same
+platform, with four cables where those machines have one.** The differences are all
+listed at the bottom of this card; take them seriously, because two of the counts
+differ.
+
+**The CT800ENT and CT850ENT assembly chapters are the same document.** Every word of
+the four steps and of all four hardware tables is identical; only the model name in
+the page headings differs.
 
 ## Step one - right upright, then left
 

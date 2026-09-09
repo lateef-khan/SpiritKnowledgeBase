@@ -27,7 +27,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   section: console
   code: '*'
 authority: 3
@@ -65,3 +68,9 @@ Reality Fitness system by WebRacing LTD."* It adds that a dealer can explain how
 against a computer controlled figure or real life exercisers, a sentence the 2016 manual keeps
 without the WebRacing name. The port is the same port; only the named software differs, and no
 manual gives a pinout or a cable part number.
+
+**All four CT850 owner's manuals print this section too** - 2016 p. 16, 2018 p. 15, 2020 p. 16 and
+CT850ENT-2022 p. 47 - all four in exactly the words above, so this card covers those machines. All
+four head the section **CSAFE FEATURE**, without the hyphen this card's title uses. The 2016, 2018
+and 2020 manuals print it in the console chapter; the CT850ENT-2022 prints it in its maintenance
+chapter, beside the safety tether cord instructions.

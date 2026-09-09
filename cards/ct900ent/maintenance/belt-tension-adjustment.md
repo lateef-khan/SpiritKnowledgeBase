@@ -28,12 +28,15 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ct900ent
   section: maintenance
   code: '*'
 authority: 3
 not_to_be_confused_with:
-- ct850-2016-tread-belt-tension-adjustment
 - 70t-2026-maintenance-treadbelt-tension-adjustment
 - 80t-2026-maintenance-treadbelt-tension-adjustment
 - xt-2023-maintenance-treadbelt-tension
@@ -41,11 +44,14 @@ see_also:
 - ct900ent-treadbelt-tracking-adjustment
 - ct900ent-motor-unresponsive-after-start
 - spirit-2026t-warranty-belt-adjustment-damage
+- ct850-2016-tread-belt-tension-adjustment
+- spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
   locator: p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
     p. 43-44; all four Spirit CT800 owner's manuals print it too - 2012 p. 21, 2016
-    p. 34, 2020 p. 39 and CT800ENT 2022 p. 49
+    p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner's manuals
+    print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50
   extracted_at: '2026-08-24'
 ---
 
@@ -68,6 +74,22 @@ qualifier this manual leaves out.
 The CT800 manuals add the warranty consequence in the belt chapter: damage to the running belt
 resulting from improper tracking or tension adjustments is not covered under the Spirit Fitness
 warranty.
+
+## Also all four CT850 generations
+
+The Spirit **CT850 2016, CT850 2018, CT850 2020 and CT850ENT 2022** owner's manuals print this
+procedure word for word - the same **8mm Allen wrench**, the same rear roller, the same bolts at
+the end of the step rails, the same **1/4 turn each**, the same "turn the bolts on both sides
+evenly" caution and the same over-tightening and drive-belt warning. Like the CT800 manuals they
+open with **"Belt tension is not critical for most users"**, and all four print the same warranty
+consequence under the tracking heading: damage to the running belt resulting from improper tracking
+or tension adjustments is not covered under the Spirit Fitness warranty.
+
+**No CT850 owner's manual actually ships an 8mm Allen wrench.** All four print a *TOOLS INCLUDED*
+list on the pre-assembly page naming a **3/8" Allen wrench, a 10mm Allen wrench and a Phillips
+screwdriver** - no 8mm. The CT850 2016 *service* manual specifies a **10 mm** Allen wrench for the
+rear-roller bolts (`ct850-2016-tread-belt-tension-adjustment`). Check the bolt head before assuming
+the 8mm figure printed here.
 
 ## Also the 2026 4.0T
 

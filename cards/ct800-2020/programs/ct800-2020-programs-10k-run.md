@@ -2,7 +2,7 @@
 id: ct800-2020-programs-10k-run
 title: The 10K Run program counts a ten kilometre goal down to zero
 kind: fact
-question: What is the 10K Run program on a ct800-2020 treadmill and how does it end?
+question: What is the 10K Run program on a Spirit treadmill and how does it end?
 asked_as:
 - how do i run a 10k on this treadmill
 - is there a 10k program
@@ -18,9 +18,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2020
+  model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   section: programs
   code: '*'
 authority: 3
@@ -50,3 +53,7 @@ The Speed readout is in MPH if the console is not set to Metric.
 
 The CT800ENT touchscreen manual describes its 10K Run differently, saying only that speed and
 incline are user controlled and the distance counts down - see `ct900ent-10k-run-program`.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this paragraph word for word** (2016 and 2020
+printed page 25, 2018 printed page 24), under a heading that covers the 5K and the 10K together.
+**The CT850ENT describes its 10K Run differently** - see `ct900ent-10k-run-program`.

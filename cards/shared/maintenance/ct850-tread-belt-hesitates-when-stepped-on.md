@@ -2,8 +2,7 @@
 id: ct850-tread-belt-hesitates-when-stepped-on
 title: Tread belt hesitates or catches when stepped on
 kind: troubleshooting
-question: Why does the tread belt hesitate when stepped on, on a Spirit CT850 treadmill
-  (2016 or 2020)?
+question: Why does the tread belt hesitate when stepped on, on a Spirit CT850 treadmill?
 asked_as:
 - the belt catches when i step on it
 - tread belt hesitates when i walk on it
@@ -22,7 +21,9 @@ facets:
   model: '*'
   applies_to:
   - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   section: maintenance
   code: '*'
 authority: 3
@@ -62,9 +63,18 @@ section** — the cross-reference is dangling. Read
 
 The sentence about a loose motor drive belt is printed **only in the 2016 manual**.
 
+## The owner's manuals blame tension only, and their cross-reference works
+
+The CT850 2016, 2018, 2020 and CT850ENT 2022 **owner's** manuals fold this symptom into the
+off-centre row — *"Tread-belt does not stay centered / Treadmill belt hesitates when walked/run
+on"* — and send the reader to *"General Maintenance section on Tread-belt Tension"*. **They print
+no lubricant row at all**, and unlike the service manuals they really do contain the section they
+point at (`ct900ent-belt-tension-adjustment`). Their BELT/DECK section states outright that no
+lubricant or wax goes on the surface.
+
 ## What to actually do
 
-Tension first. The tension procedure exists only in the 2016 manual —
-`ct850-2016-tread-belt-tension-adjustment` — and it ends with the same advice as the 2016
-checklist row: if the belt is tight enough and still slips, the motor drive belt under the front
-cover may be loose.
+Tension first. Among the service manuals the tension procedure exists only in the 2016 one —
+`ct850-2016-tread-belt-tension-adjustment` — and it ends with the same advice as the 2016 checklist
+row: if the belt is tight enough and still slips, the motor drive belt under the front cover may be
+loose. All four owner's manuals print that same drive-belt caution.

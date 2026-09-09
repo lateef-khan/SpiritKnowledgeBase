@@ -23,6 +23,10 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
+  - ct850ent-2022
   - ct900
   - xt285-2015
   - xt285-2023
@@ -91,3 +95,11 @@ printed page 29). The 2020 and CT800ENT manuals reword the opening: they drop th
 body" sentences and instead say the scale helps users determine an approximate heart rate level when
 a heart rate monitor is not in use (2020 printed page 35, CT800ENT printed page 41). The ratings, the
 descriptions and the add-a-zero rule are identical in all four.
+
+**All four CT850 owner's manuals print the same scale, value for value.** The 2018 manual prints it
+under "Rate of Perceived Exertion" with the "listen to your body" opening (printed page 32). The
+2016, 2020 and CT850ENT manuals reword the opening the way the 2020 and CT800ENT manuals do - they
+drop those sentences and say instead that the scale helps users determine an approximate heart rate
+level when a heart rate monitor is not in use (2016 and 2020 printed page 35, CT850ENT printed page
+41). The ratings, the descriptions and the add-a-zero rule are identical in all four. None of the
+four has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.

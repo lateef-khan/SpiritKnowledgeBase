@@ -23,6 +23,8 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct850-2016
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -52,4 +54,12 @@ SPRINT SPD 6.0 MPH, REST SPEED 3.0 MPH and the 3-minute warm-up at 50% of sprint
 2012 nor the 2016 CT800 manual has a HIIT program.
 
 **The CT800ENT touchscreen defaults to 8 intervals and allows 20 to 90 second periods** - different
+figures, see `ct800ent-2022-programs-hiit-eight-intervals`.
+
+**The 2016 and 2020 CT850 owner's manuals print this procedure word for word** (printed pages
+23-24), including the default of 10 intervals, the 3 to 15 range, the 30 to 60 second sprint and
+rest times, SPRINT SPD 6.0 MPH, REST SPEED 3.0 MPH and the 3-minute warm-up at 50% of sprint speed.
+**The 2018 CT850 has no HIIT program at all.**
+
+**The CT850ENT touchscreen defaults to 8 intervals and allows 20 to 90 second periods** - different
 figures, see `ct800ent-2022-programs-hiit-eight-intervals`.

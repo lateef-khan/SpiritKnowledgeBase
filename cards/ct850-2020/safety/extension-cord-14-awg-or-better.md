@@ -2,7 +2,7 @@
 id: ct850-2020-extension-cord-14-awg-or-better
 title: Extension cord must be 14 AWG or better with one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit CT850-2020 or CT800ENT-2022 treadmill?
+question: Can I use an extension cord on a Spirit CT850-2020, CT850ENT-2022 or CT800ENT-2022 treadmill?
 asked_as:
 - what gauge extension cord for the 2020 treadmill
 - can i run the treadmill off an extension lead
@@ -24,6 +24,7 @@ facets:
   applies_to:
   - ct800ent-2022
   - ct850-2020
+  - ct850ent-2022
   section: safety
   code: '*'
 authority: 3
@@ -35,7 +36,7 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Important Safety Instructions, section 7 Product Safety Instructions, p.
-    33 (printed 32) The CT800ENT-2022 owner's manual prints both sentences in capitals in the WARNING header of its IMPORTANT SAFETY INSTRUCTIONS page, page 4
+    33 (printed 32) The CT800ENT-2022 and CT850ENT-2022 owner's manuals print both sentences in capitals in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS page, page 4
   extracted_at: '2026-09-08'
 ---
 
@@ -69,6 +70,20 @@ since a larger conductor is a lower AWG number. One outlet on the end, in both.
 `should be as short as possible and heavy duty, 16-gauge minimum`, thinner than the 14 AWG the
 safety page demands - the same disagreement the CT850 2020 manual has, and neither manual
 reconciles it.
+
+**The Spirit CT850ENT-2022 owner's manual prints both sentences too**, in capitals, in the same
+WARNING header - `DO NOT USE AN EXTENSION CORD UNLESS IT IS 14 AWG OR LARGER, WITH ONLY ONE OUTLET
+ON THE END` and the grounded-plug sentence
+(`ct800ent-2022-safety-instructions-list`). It disagrees with itself the same way: its
+troubleshooting row for a treadmill that only reaches about 12 mph asks for a lead
+`as short as possible and heavy duty, 16-gauge minimum`, thinner than the 14 AWG its safety page
+demands, and the manual never reconciles the two.
+
+**The CT850 2016, 2018 and 2020 owner's manuals print no extension-cord requirement** on their
+safety pages. Their only mention of one is that same troubleshooting line asking for a lead
+`as short as possible` and `16 gauge minimum` - a different sentence for a different purpose. The
+14 AWG figure for a CT850-2020 comes from its **service** manual, quoted at the top of this card;
+do not quote it as the owner's manual's, and do not quote it for a CT850-2016 or CT850-2018 at all.
 
 **The CT800 2012, 2016 and 2020 manuals print no extension-cord requirement** on their safety
 pages. Their only mention of one is the same troubleshooting line, which asks for a lead

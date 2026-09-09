@@ -3,7 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850 or CT800 treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -29,7 +29,9 @@ facets:
   - ct800-2020
   - ct800ent-2022
   - ct850-2016
+  - ct850-2018
   - ct850-2020
+  - ct850ent-2022
   - cvc800
   section: safety
   code: '*'
@@ -37,6 +39,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2016-house-breaker-trips-not-treadmill-breaker
+- spirit-ct800-safety-outlet-110-volt-15-amp
 - ct850-2016-trips-onboard-10-amp-circuit
 - ct850-2020-trips-onboard-20-amp-circuit
 - spirit-never-use-a-gfci-wall-outlet
@@ -46,7 +49,7 @@ source:
   locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
     (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
     and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
-    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5
+    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -94,7 +97,7 @@ silent on a tripping supply breaker.
 
 **The CT800 2012, 2016 and 2020 owner's manuals print this paragraph word for word**, including
 both part numbers - **Grainger # 1D237** and www.squared.com **# QO120HM**. All three add one
-sentence the CT850 and CVC800 manuals do not print:
+sentence the CT850 service manuals and the CVC800 manual do not print:
 
 > The electrical outlet used should have a dedicated 15 amp circuit breaker.
 
@@ -109,3 +112,28 @@ rating - is the same. It also writes `manufacturer` where the other three write 
 
 Everything that decides the answer is unchanged in all four: the test is which breaker trips, the
 fix is a high inrush type, and it is not a warranty defect.
+
+## The four CT850 owner's manuals split the same way
+
+**The CT850 2016, 2018 and 2020 owner's manuals print this paragraph word for word**, including
+both part numbers - **Grainger # 1D237** and www.squared.com **# QO120HM**. Like the CT800 owner's
+manuals, and unlike the CT850 service manuals, all three close the paragraph with a dedicated
+breaker sentence - and the three do not agree on its figure:
+
+| Manual | Closing sentence |
+|---|---|
+| CT850 2016 | `The electrical outlet used should have a dedicated 20 amp circuit breaker.` |
+| CT850 2018 | `The electrical outlet used should have a dedicated 15 amp circuit breaker.` |
+| CT850 2020 | `The electrical outlet used should have a dedicated 20 amp circuit breaker.` |
+
+That is the supply requirement, not this fault: `spirit-ct850-outlet-and-circuit-requirement` for
+the 2016 and 2020 machines and `spirit-ct800-safety-outlet-110-volt-15-amp` for the 2018.
+
+**The CT850ENT-2022 manual prints the paragraph but names no part numbers.** As the CT800ENT manual
+does, it stops at `This part is available through most electrical supply stores` and drops both the
+Grainger and QO120HM examples and the dedicated-breaker sentence. Do not quote those part numbers
+as the CT850ENT manual's, though the requirement they satisfy - a high inrush breaker of the proper
+current rating - is the same. It also writes `manufacturer` where the other three write
+`manufacture`.
+
+Everything that decides the answer is unchanged in all four.

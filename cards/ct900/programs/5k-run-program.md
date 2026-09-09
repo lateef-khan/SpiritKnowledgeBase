@@ -20,6 +20,9 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2016
+  - ct850-2018
+  - ct850-2020
   - ct900
   section: programs
   code: '*'
@@ -45,3 +48,9 @@ identifier and a separate card, see `ct800-2020-programs-10k-run`. **5K Run has 
 
 The CT800ENT manual describes its 5K Run differently, as a user-controlled run whose distance counts
 down - see `ct900ent-5k-run-program`.
+
+**The 2016, 2018 and 2020 CT850 owner's manuals print this paragraph word for word** (2016 and 2020
+printed page 25 under the combined heading "5K RUN 10K RUN", 2018 printed page 24 under "5K/10K
+RUN"). All three state the same behaviour for a 10 kilometre goal, which is a separate identifier
+and a separate card - see `ct800-2020-programs-10k-run`. **5K Run has no warm-up on any of the
+three.** The CT850ENT describes its 5K Run differently - see `ct900ent-5k-run-program`.
