@@ -24,7 +24,7 @@ facets:
   applies_to:
   - cvc800
   section: errors
-  code: e-2
+  code: e2
 authority: 3
 not_to_be_confused_with:
 - cvc800-e-1-ram-error
