@@ -30,6 +30,8 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-extension-cord-14-awg-or-better
+- 40t-2026-safety-extension-cord-1-mm2-or-better
+- spirit-2026t-safety-extension-cord-12-awg-or-larger
 see_also:
 - ct850-2016-only-reaches-7-mph
 - spirit-product-must-be-grounded

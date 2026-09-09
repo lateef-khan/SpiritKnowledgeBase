@@ -1160,6 +1160,24 @@
   origin_uri: file://CRW800H2O Service Manual.pdf
   sha256: 309e931e93297b67969882afe47cf0372fdc41a582c8df0c04aae4510a388926
   ingested_at: '2026-09-08'
+- id: spirit-treadmill-40t-2026-owners-manual
+  title: 2026 Spirit 4.0T treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/4.0T/40T_OwnersManual_740885_20260108.pdf
+  sha256: 883d0195d7d95305e7d3b333bc5e91e2f65d05a1735b14b7c62b282d836f6ab9
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-70t-2026-owners-manual
+  title: 2026 Spirit 7.0T treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/70T/70T_OwnersManual_770885_20251118.pdf
+  sha256: 548fdb19105cab4b39ba7d5f0f7335c79d052e00f8b8dc20383d54d17f15f30f
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-80t-2026-owners-manual
+  title: 2026 Spirit 8.0T treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
+  sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct850-2016-service-manual
   title: Spirit CT850 2016 treadmill service manual (ST8100-CT001, 110V)
   kind: markdown

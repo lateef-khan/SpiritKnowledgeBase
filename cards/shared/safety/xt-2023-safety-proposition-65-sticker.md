@@ -30,7 +30,8 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-2026t-safety-proposition-65-sticker
 see_also:
 - xt-2023-safety-warning-sticker-on-the-upright
 - ct900ent-prop65-warning

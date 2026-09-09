@@ -1,0 +1,59 @@
+---
+id: spirit-2026t-console-belt-acceleration-time
+title: "How long the belt takes to change 1 mph: 3 seconds by default, 1 to 60 adjustable"
+kind: fact
+question: How do I change how quickly the belt speeds up on a Spirit 7.0T or 8.0T treadmill?
+asked_as:
+- the belt changes speed too fast for my patient
+- how do i slow down the acceleration
+- how long does it take to get to 1 mph
+- can i make the treadmill ramp up more gently
+keywords:
+- acceleration
+- deceleration
+- ramp rate
+- seconds per mph
+- default 3 seconds
+- 1 to 60 seconds
+- belt speed change
+- accel key lock
+facets:
+  brand:
+  - spirit
+  product_line: treadmill
+  model: '*'
+  applies_to:
+  - 70t-2026
+  - 80t-2026
+  section: console
+  code: '*'
+authority: 3
+not_to_be_confused_with:
+- 70t-2026-console-speed-limit-setting
+see_also:
+- 70t-2026-console-factory-settings
+- 70t-2026-console-maintenance-mode-menu
+source:
+  ref: spirit-treadmill-70t-2026-owners-manual
+  locator: 7.0T p. 24 FEATURES - Acceleration - Deceleration; 8.0T p. 11 UNIQUE USES
+  extracted_at: '2026-09-09'
+---
+
+This function adjusts the acceleration and deceleration rate of the walking belt by
+changing **how many seconds it takes for the belt to change 1 mph of speed**. The
+adjustment value is in seconds.
+
+- **The default setting is 3 seconds**, which means the belt takes 3 seconds to go
+  from zero to 1 mph.
+- **The range can be set from 1 second to 60 seconds.**
+
+The 8.0T prints the same figures against **1 km/h (1 mph)**.
+
+**On the 7.0T only**, the function can be disabled in Maintenance mode, and Service
+Mode holds an **Acceleration Key Lock**: MW shows "ACCEL KEY", press enter and MW
+shows **"ACCEL LOCKED"**, which is the default; pressing the up or down key shows
+**"ACCEL UNLOCKED"**; press enter to exit. The acceleration and deceleration times
+themselves are set in the 7.0T's Factory settings sequence; see
+`70t-2026-console-factory-settings`.
+
+**The 8.0T manual gives no menu path for changing this.**

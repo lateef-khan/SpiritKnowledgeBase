@@ -2,7 +2,7 @@
 id: xt-2023-safety-console-key-pressure
 title: How hard the console keys should be pressed
 kind: fact
-question: How hard should I press the console keys on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685)?
+question: How hard should I press the console keys on a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or on a 2026 Spirit 4.0T treadmill?
 asked_as:
 - do i have to press the buttons hard
 - my treadmill buttons dont respond
@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -41,7 +42,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8)
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8
   extracted_at: '2026-09-09'
 ---
 
@@ -57,3 +58,16 @@ thing: `xt-2023-safety-speed-and-incline-response-delay`.
 **The five 2015 XT owner's manuals print the same sentence, word for word**, on their Important
 Operation Instructions page, without the closing full stop. Pressing harder is not the fix in
 either generation.
+
+**The 2026 Spirit 4.0T owner's manual prints the same two sentences and adds two more**, which
+say what to do when a key still will not answer:
+
+> Do not use excessive pressure on console control keys. They are precision set to function
+> properly with little finger pressure. Pushing harder is not going to make the unit go faster or
+> slower. If you feel the buttons are not functioning properly with normal pressure contact your
+> dealer.
+
+- **Pushing harder changes nothing** - the 4.0T manual says so in those words.
+- **The action is to contact your dealer**, not to press harder or to open the console.
+
+**The 2026 7.0T and 8.0T owner's manuals print no key-pressure warning.**

@@ -2,8 +2,8 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, or
-  a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, a
+  2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -23,6 +23,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2026
+  - 70t-2026
+  - 80t-2026
   - ct850-2016
   - ct850-2020
   - cvc800
@@ -48,6 +51,9 @@ see_also:
 - ct850-2020-extension-cord-14-awg-or-better
 - xt-2015-safety-outlet-and-circuit-requirement
 - xt-2015-safety-instructions-list
+- spirit-2026t-safety-outlet-and-circuit-requirement
+- spirit-2026t-safety-extension-cord-12-awg-or-larger
+- 40t-2026-safety-extension-cord-1-mm2-or-better
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
@@ -55,7 +61,8 @@ source:
     26) of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the
     five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
     and the Important Grounding Instructions page of the five 2015 XT owner's manuals
-    (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7)
+    (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
+    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals
   extracted_at: '2026-09-08'
 ---
 
@@ -127,3 +134,28 @@ The 2015 manuals also carry the grounding rule a second time, as a bullet of the
 instructions - `Connect this appliance to a properly grounded outlet only`
 (`xt-2015-safety-instructions-list`). Unlike the 2023 list, that bullet has no
 `See Grounding Instructions` cross-reference.
+
+**The three 2026 Spirit treadmill owner's manuals - 4.0T, 7.0T and 8.0T - print both paragraphs
+in the same words**, each naming its own machine: `In the unlikely event that the 4.0T's
+electrical system should malfunction or breakdown grounding provides a path of the least
+resistance for electric current`. The rule is unchanged: grounding is mandatory, the plug must
+not be modified, and a qualified electrician installs the right outlet if the plug does not fit.
+
+**These three manuals print no voltage on the grounding page.** They stop after
+`in accordance with all local codes and ordinances`, and print neither the
+`nominal 120-volt circuit` sentence of the CT850 and CVC800 manuals nor the `nominal 110-volt`
+sentence of the XT manuals. The mains figure for these machines is printed on their Electrical
+Safety page instead, as **120 volts, 60 Hz, dedicated 20-amp circuit, NEMA 5-20P**:
+`spirit-2026t-safety-outlet-and-circuit-requirement`. Quote it from there, not from the 110 vs
+120 disagreement above.
+
+**They print no temporary-adapter paragraph at all.** Do not offer
+`spirit-temporary-adapter-for-a-two-pole-receptacle` for a 2026 machine: that permission is not
+in its manual. What these three do print, as item 20 of the 4.0T list and item 3 of the 7.0T and
+8.0T lists, is the flat rule -
+
+> To avoid risk of electric shock, this equipment must only be connected to a supply main with
+> protective earth.
+
+and, in the same lists, `Do not attempt to disable the grounded plug by using improper adapters,
+or in any way modify the cord set`.

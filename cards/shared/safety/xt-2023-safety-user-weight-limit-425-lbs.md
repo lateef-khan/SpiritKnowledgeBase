@@ -31,6 +31,7 @@ not_to_be_confused_with:
 - xt185-2023-user-weight-limit
 - xt285-2023-user-weight-limit
 - xt385-2023-user-weight-limit
+- spirit-2026t-safety-user-weight-limit-440-lbs
 see_also:
 - xt-2023-safety-instructions-list
 - xt-2015-safety-no-user-weight-limit-printed

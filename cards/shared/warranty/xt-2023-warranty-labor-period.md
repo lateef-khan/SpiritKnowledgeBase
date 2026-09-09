@@ -23,6 +23,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - 70t-2026
+  - 80t-2026
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -38,6 +41,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-2026t-warranty-commercial-periods
 - xt-2023-warranty-residential-coverage-periods
 - xt185-2015-residential-warranty-periods
 - xt-2023-warranty-service-steps
@@ -55,9 +59,11 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well. It is the one component period that never changes anywhere in the XT range.
+**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills.
 
-What sets the date is stated in a different place, the SERVICE paragraph:
+**The 2026 machines share the figure, not the rest of the table.** Their only other period is Parts 5 Years and they print no Frame, Motor or Deck column at all: `spirit-2026t-warranty-commercial-periods`. Do not answer any period other than labor from this card.
+
+What sets the date is stated in a different place, the SERVICE paragraph, word for word the same in all thirteen manuals:
 
 > Keep your bill of sale. Twelve (12) months from the date on the bill of sale or eighteen (18) months from the date of factory shipping as determined by the serial number establishes the labor warranty period should service be required.
 
@@ -65,6 +71,6 @@ That sentence names **two** dates - twelve months from the bill of sale, or eigh
 
 The manual's own advice follows from it: keep the bill of sale, and if service is performed, obtain and keep all receipts.
 
-**This fact is printed in two places.** The one-year figure is in the table on the first warranty page; the dating rule is in the SERVICE paragraph on the third. `xt-2023-warranty-residential-coverage-periods` holds the table, `xt-2023-warranty-service-steps` the rest of the SERVICE paragraph.
+**This fact is printed in two places.** The one-year figure is in the table on the first warranty page; the dating rule is in the SERVICE paragraph on the third. `xt-2023-warranty-residential-coverage-periods` holds the table for the XT machines and `spirit-2026t-warranty-commercial-periods` for the 2026 ones; `xt-2023-warranty-service-steps` holds the rest of the SERVICE paragraph for the XT machines and `ct900-warranty-service-claims-process` for the 2026 ones.
 
 The manual adds that this written warranty gives specific legal rights and that other rights vary from state to state.

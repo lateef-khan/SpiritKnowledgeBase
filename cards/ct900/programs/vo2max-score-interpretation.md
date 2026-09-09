@@ -2,7 +2,7 @@
 id: ct900-vo2max-score-interpretation
 title: What your VO2max score means (rating charts by age and sex)
 kind: fact
-question: What does my VO2max score mean for my age and sex on a CT900?
+question: What does my VO2max score mean for my age and sex on a Spirit treadmill?
 asked_as:
 - is my vo2max score good
 - vo2max rating by age
@@ -15,8 +15,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 80t-2026
   - ct900
   section: programs
   code: '*'
@@ -56,3 +57,5 @@ source:
 | Very poor | <28 | <26 | <22 | <20 | <18 | <17 |
 
 These charts are used to interpret the score from the [Gerkin protocol](gerkin-protocol.md) or [WFI test](wfi-protocol.md).
+
+The 2026 Spirit 8.0T owner's manual prints both charts again, value for value, headed "Gerkin chart for males and very fit females" and "Gerkin chart for females and de-conditioned males" (page 47). The 4.0T and 7.0T manuals leave the equivalent page blank in the extracted text, so no score chart is recorded for those two machines.

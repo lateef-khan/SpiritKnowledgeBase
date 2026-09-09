@@ -30,6 +30,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - cvc800-outlet-and-circuit-requirement
+- spirit-2026t-safety-outlet-and-circuit-requirement
 see_also:
 - ct850-2016-mains-voltage-figures-disagree
 - ct850-2016-trips-onboard-10-amp-circuit

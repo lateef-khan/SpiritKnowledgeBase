@@ -176,6 +176,14 @@ them. **These are rulings, not majorities:**
   is `console`. A workout that targets a zone is `programs`.
 - **User weight limit.** `safety`. It is a safety limit and the manuals print it
   on the safety page, not in a spec table.
+- **Powering on.** Split by the question, because the repository genuinely holds
+  both (10 `console`, 6 `assembly`). *First* power-on, as the last step of
+  putting the machine together — plug in, power switch, safety key — is
+  `assembly`. What the console shows in normal running, including idle and sleep
+  behaviour, is `console`. A card covering both stays where its first sentence
+  belongs and links to the other.
+- **Motor horsepower.** `specs` (repo 3-1). The outlet, plug type and circuit
+  rating that power it are `safety`, where the repo majority sits.
 
 For a topic none of the above covers, measure the repository before you guess:
 

@@ -2,7 +2,7 @@
 id: ct900-chester-treadmill-test
 title: Chester Treadmill Test (CTT) - Performance and Prediction modes
 kind: fact
-question: What is the Chester Treadmill Test on a CT900 and what are its two modes?
+question: What is the Chester Treadmill Test on a Spirit treadmill and what are its two modes?
 asked_as:
 - what is the chester test
 - ctt performance vs prediction
@@ -18,8 +18,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 40t-2026
   - ct900
   section: programs
   code: '*'
@@ -51,3 +52,5 @@ CTT Prediction is a submaximal test designed to predict aerobic capacity.
 1. Same walk protocol as CTT Performance but wearing an HR monitor.
 2. Test is stopped when the subject reaches 80%HRMax or RPE=14.
 3. A VO2 score is given at the end of the test.
+
+The 2026 Spirit 4.0T owner's manual prints this same text word for word (page 34), adding the imperial equivalent of the fixed speed: **6.2km/hr (3.8 MPH)**. On the 4.0T the two modes are the ninth entry on the VO2 key, and CTT Performance is the one test that does not ask for your age. **The 8.0T manual prints a longer version with a cool down phase and its own end conditions** - see `80t-2026-programs-chester-treadmill-test`.
