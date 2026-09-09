@@ -475,3 +475,47 @@ def test_question_names_model_does_not_match_sole_inside_console():
 
 def test_question_names_model_is_silent_when_brand_is_not_declared():
     assert [e for e in checks_for(make(), config=CONFIG) if e.check == "question-names-model"] == []
+
+
+def test_facet_values_that_fold_alike_are_reported():
+    errors = lint_cards(
+        [
+            make(id="card-a", path="cards/a.md", facets="  model: f63\n  applies_to: [f63]"),
+            make(id="card-b", path="cards/b.md", facets="  model: f-63\n  applies_to: [f63]"),
+        ],
+        CONFIG,
+        {"src-1"},
+    )
+    assert "facet-fold-collision" in slugs(errors)
+
+
+def test_the_spelling_most_cards_use_is_the_one_kept():
+    cards = [
+        make(id=f"card-{n}", path=f"cards/{n}.md", facets="  model: f63\n  applies_to: [f63]")
+        for n in range(3)
+    ]
+    cards.append(
+        make(id="card-odd", path="cards/odd.md", facets="  model: F-63\n  applies_to: [f63]")
+    )
+    errors = [e for e in lint_cards(cards, CONFIG, {"src-1"}) if e.check == "facet-fold-collision"]
+    assert [e.path for e in errors] == ["cards/odd.md"]
+    assert "write 'f63'" in errors[0].message
+
+
+def test_a_facet_value_that_folds_to_nothing_is_reported():
+    errors = lint_cards([make(facets="  model: '--'\n  applies_to: [f63]")], CONFIG, {"src-1"})
+    assert "facet-folds-to-empty" in slugs(errors)
+
+
+def test_the_wildcard_is_not_a_vocabulary_value():
+    """'*' folds away to nothing, so a sentinel that counted would fail every card."""
+    errors = lint_cards(
+        [
+            make(id="card-a", path="cards/a.md", facets="  model: '*'\n  applies_to: [f63]"),
+            make(id="card-b", path="cards/b.md", facets="  model: f63\n  applies_to: [f63]"),
+        ],
+        CONFIG,
+        {"src-1"},
+    )
+    assert "facet-folds-to-empty" not in slugs(errors)
+    assert "facet-fold-collision" not in slugs(errors)
