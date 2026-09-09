@@ -32,7 +32,7 @@ see_also:
 - ct900-electrical-power-requirements
 source:
   ref: ct900-om
-  locator: p. 7
+  locator: 'p. 7. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900-owners-manual, GROUNDING INSTRUCTIONS, page 7, and matches'
   extracted_at: '2026-08-24'
 ---
 

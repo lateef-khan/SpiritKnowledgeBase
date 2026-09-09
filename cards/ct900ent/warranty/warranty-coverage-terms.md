@@ -28,14 +28,20 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900-warranty-coverage-terms
+- ctsbs900-warranty-coverage-commercial
+- spirit-ct800-warranty-commercial-periods
 see_also:
+- ct900ent-warranty-use-environment
 - ct900ent-facility-responsibilities
 - ct900ent-exclusions
 - ct900ent-obtaining-service
 source:
   ref: ct900ent-om
-  locator: p. 50
+  locator: 'p. 50. The same table and the prisons footnote are printed in the CT900ENT
+    owner''s manual PDF, spirit-treadmill-ct900ent-owners-manual text.md lines 1124-1135,
+    p. 50. All four figures verified unchanged against that PDF on 2026-09-09'
   extracted_at: '2026-08-24'
 ---
 
@@ -49,5 +55,11 @@ Spirit Fitness warrants all its treadmill parts for a period of time listed belo
 | Drive Motor | 10 Years |
 | Parts | 3 Years |
 | Labor | 3 Years |
+
+The PDF prints the Parts figure as "3 **Year**", singular, in a row that reads "3 Years" for Labor. The period is three years for both.
+
+**"Commercial" here is not qualified, and the exclusions narrow it.** The row carries no dues-paying or non-dues-paying label and the manual prints no residential row at all, but exclusion 2 refuses service call reimbursement for "fitness equipment not in **non-dues paying facility or household use**". Read [warranty use environment](warranty-use-environment.md) before telling a health club this row covers them.
+
+**This is not the CT900 table and not the CTSBS900 one.** The CT900 prints three rows with a Deck and a Wear Items column and a frame period of 10 Years, not Lifetime; the CTSBS900 prints one Commercial (Dues Paying Facilities) row with Frame 10 Years and Motor 5 Years. No figure in this table appears in either of theirs.
 
 **Prisons and correctional facilities are excluded from warranty coverage.**

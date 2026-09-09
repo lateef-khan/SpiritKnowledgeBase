@@ -28,12 +28,16 @@ facets:
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
-see_also: []
+not_to_be_confused_with:
+- ctsbs900-parts-of-your-treadmill
+see_also:
+- ct900-parts-included-and-tools
+- ct800-2016-assembly-levelling-pads
+- ct900-full-parts-list-and-exploded-view
 source:
-  ref: ct900-om
-  locator: p. 9
-  extracted_at: '2026-08-24'
+  ref: spirit-treadmill-ct900-owners-manual
+  locator: p. 9, PARTS OF YOUR TREADMILL
+  extracted_at: '2026-09-09'
 ---
 
 The owner's manual diagram labels the following parts on the treadmill body:
@@ -53,5 +57,9 @@ The owner's manual diagram labels the following parts on the treadmill body:
 | K | Belt |
 | L | Side rails |
 | M | Levelers |
+
+**M is the levellers.** To adjust them see [two levelling pads under the rear stabiliser](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md); the CT900 assembly chapter prints no levelling instruction and the only one in the book is at the back, in machine care.
+
+**The CT900ENT manual prints no diagram like this**, and the CTSBS900's letters mean different parts on each of its two lettered pages. Do not read a letter from one manual against another.
 
 For the console's on-screen buttons and displays (a different, more detailed diagram), see [console screen overview](../console/console-screen-overview.md).

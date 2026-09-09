@@ -33,7 +33,7 @@ see_also:
 - ctsbs900-level-adjustment
 source:
   ref: ctsbs900-om
-  locator: p. 44
+  locator: 'ctsbs900-om p. 44; checked against spirit-treadmill-ctsbs900-owners-manual p. 44'
   extracted_at: '2026-08-24'
 ---
 

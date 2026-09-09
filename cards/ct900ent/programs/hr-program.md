@@ -32,4 +32,9 @@ source:
 
 The default value is **65% of your projected rate maximum**. You have the option of changing your target heart rate. The machine will attempt to keep you within five beats of your target heart rate.
 
+**The manual gives two different targets for its heart rate programs and reconciles neither.** This
+page sets the default at 65% of projected maximum; the Heart Rate Program pages set Weight control
+(HR1) to 60% and Cardiovascular (HR2) to 85% of Maximum Heart Rate. Both halves are recorded as
+printed - see [Heart Rate Control program](heart-rate-control-program.md).
+
 This is a brief overview. For the full Heart Rate Control setup procedure — including choosing between the Weight control (HR1) and Cardiovascular (HR2) modes and the step-by-step programming sequence — see [Heart Rate Control program](heart-rate-control-program.md).

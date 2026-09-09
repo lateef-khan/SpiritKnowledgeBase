@@ -36,7 +36,7 @@ see_also:
 - ctsbs900-bluetooth-connectivity
 source:
   ref: ctsbs900-om
-  locator: p. 49
+  locator: p. 49, 51-52
   extracted_at: '2026-08-24'
 ---
 

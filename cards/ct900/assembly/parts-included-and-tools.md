@@ -1,44 +1,50 @@
 ---
 id: ct900-parts-included-and-tools
-title: Parts included and tools needed for assembly
+title: What comes in the carton - one main frame, two uprights, a main panel and the
+  cover set
 kind: fact
-question: What parts and tools do I need to assemble a CT900?
+question: What parts are in the box of a Spirit CT900 or CT900ENT treadmill?
 asked_as:
-- what tools do i need to assemble the treadmill
 - what should be in the box
-- is a wrench included
+- what parts come with the treadmill
+- i think i'm missing a part
+- is the console in the same box
 keywords:
 - parts included
-- tools needed
-- allen wrench
-- phillips screwdriver
 - box contents
-- what comes in the box
+- carton
+- main frame
+- uprights
+- main panel
+- console bracket cover
+- handrail covers
+- end caps
 facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
   - ct900
+  - ct900ent
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ctsbs900-parts-and-hardware-included
+- spirit-ct800-assembly-parts-included
 see_also:
+- spirit-ct900-assembly-tools-included
 - ct900-full-parts-list-and-exploded-view
 - ct900-pre-assembly
+- ct900ent-pre-assembly-unpacking-tools-parts
 source:
-  ref: ct900-om
-  locator: p. 8
-  extracted_at: '2026-08-24'
+  ref: spirit-treadmill-ct900-owners-manual
+  locator: p. 8, PARTS INCLUDED; the same eight lines at p. 7 of the CT900ENT manual
+    (`spirit-treadmill-ct900ent-owners-manual`)
+  extracted_at: '2026-09-09'
 ---
 
-## Tools (included)
-- 8mm Allen Wrench
-- 2 Phillips Screwdrivers
-
-## Parts included
 - 1 Main Frame
 - 2 Uprights
 - 1 Main Panel
@@ -48,4 +54,13 @@ source:
 - 2 Upright Covers
 - 2 End Caps
 
-For the full hardware/part-number list used across all assembly steps, see [full parts list and exploded view](full-parts-list-and-exploded-view.md).
+**Both manuals print these eight lines and nothing else.** Neither panel gives item
+numbers, neither lists a power cord, and neither lists a safety key even though both
+machines need one to power on.
+
+The **tools** in the carton are on their own card - see [the tools included card](../../shared/assembly/spirit-ct900-assembly-tools-included.md).
+
+The **CTSBS900 carton is different** and is listed as A-K rather than by quantity;
+see [its own parts card](../../ctsbs900/assembly/parts-and-hardware-included.md).
+
+For the full hardware and part-number list used across all assembly steps, see [full parts list and exploded view](full-parts-list-and-exploded-view.md). The CT900ENT manual has no parts list and no exploded view - see [what its manual leaves out](../../ct900ent/assembly/no-levelling-parts-list-or-moving.md).

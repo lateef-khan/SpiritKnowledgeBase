@@ -25,18 +25,26 @@ facets:
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-specs-no-parts-list
+- ctsbs900-exploded-view-and-parts-diagram
 see_also:
 - ct900-parts-included-and-tools
+- spirit-ct900-specs-no-specification-table
 source:
   ref: ct900-om
-  locator: p. 49
+  locator: Exploded view p. 49; Parts List pp. 50-51. Every row below was re-checked
+    against the PDF text of `spirit-treadmill-ct900-owners-manual` pp. 50-51 on 2026-09-09
   extracted_at: '2026-08-24'
 ---
 
-Page 49 of the manual contains an exploded-view line drawing of the entire treadmill (drawing number 1081210PM0300), showing every part below by its callout number. That diagram is a picture and is not reproduced here; use the numbered parts list below with the diagram in the PDF to identify a specific part.
+Page 49 of the manual contains an exploded-view line drawing of the entire treadmill (drawing number 1081210PM0300), showing every part below by its callout number. That diagram is a picture and is not reproduced here; use the numbered parts list below with the diagram in the PDF to identify a specific part. The drawing number is read off the drawing itself; the page carries no extractable text, so it cannot be re-checked against the PDF text layer.
 
-Numbers 25, 28, 96, 108, 113-122, 124-127, 129-130, 134-136 do not appear in the source parts list (skipped in the manual's own numbering) - this is not an extraction error, they are simply absent from the printed table.
+**No part on this list is rated or sized.** Item 10 is "AC Motor" and item 13 "Incline Motor" with no horsepower or wattage, and items 11, 12, 14 and 15 - the front roller, rear roller, running deck and running belt - carry no dimensions. See `spirit-ct900-specs-no-specification-table`.
+
+**120 rows are printed.** The whole numbers that appear are 1-24, 26, 27, 29-42, 44-49, 51-72, 74-80, 82-95, 97-107, 109-112, 123, 128, 131-133 and 137-144, and item 43 appears only as the three sub-numbered rows `43~01`, `43~02` and `43~05`. Any number outside that run is not printed in this manual at all - **25, 28, 50, 73, 81, 96, 108, 113-122, 124-127, 129, 130, 134, 135 and 136 are absent, not a missing page.**
+
+A plain `43` is never printed; the tilde in `43~01` is the manual's own character and is kept here. Items **102** and **103** are printed `Conneting Wire`, a dropped `c`, and are left as printed.
 
 ## Parts list (part 1-75)
 
@@ -60,7 +68,7 @@ Numbers 25, 28, 96, 108, 113-122, 124-127, 129-130, 134-136 do not appear in the
 | 16 | Axle for Idler Wheel | 1 |
 | 17 | Motor Inverter | 1 |
 | 18 | AC Power Filter | 1 |
-| 19 | Leveling Foot Pad | 1 |
+| 19 | Leveling Foot Pad | 2 |
 | 20 | Drive Belt | 1 |
 | 21 | Interface Board Bracket | 1 |
 | 22 | Inverter Board | 1 |
@@ -71,7 +79,7 @@ Numbers 25, 28, 96, 108, 113-122, 124-127, 129-130, 134-136 do not appear in the
 | 29 | Aluminum Side Rail | 2 |
 | 30 | Step Rail | 2 |
 | 31 | Inverter Support Bracket | 1 |
-| 32 | Motor Insulator | 1 |
+| 32 | Motor Insulator | 2 |
 | 33 | Motor Insulating bushing | 4 |
 | 34 | Interface Dummy Bracket | 1 |
 | 35 | Deck Cushion | 8 |
@@ -82,9 +90,9 @@ Numbers 25, 28, 96, 108, 113-122, 124-127, 129-130, 134-136 do not appear in the
 | 40 | Frame Base Cover (L) | 1 |
 | 41 | Rear End Cap (R) | 1 |
 | 42 | Rear End Cap (L) | 1 |
-| 43-01 | Beverage Holder Cover | 1 |
-| 43-02 | Handlebar Cover Inner (R) | 1 |
-| 43-05 | 3.5 x 12mm Sheet Metal Screw | 4 |
+| 43~01 | Beverage Holder Cover | 1 |
+| 43~02 | Handlebar Cover Inner (R) | 1 |
+| 43~05 | 3.5 x 12mm Sheet Metal Screw | 4 |
 | 44 | Beverage Holder Cover (Bottom) | 1 |
 | 45 | Handrail Cover Inner (R) | 1 |
 | 46 | Handrail Cover Outer (R) | 1 |
@@ -144,8 +152,8 @@ Numbers 25, 28, 96, 108, 113-122, 124-127, 129-130, 134-136 do not appear in the
 | 99 | 800mm Handpulse Wire (SMP3) | 1 |
 | 100 | 800mm Handpulse Wire (SMR4) | 1 |
 | 101 | 500mm Connecting Wire | 1 |
-| 102 | 350mm Connecting Wire (XHP-7) | 1 |
-| 103 | 350mm Connecting Wire (XHP-8) | 1 |
+| 102 | 350mm Conneting Wire (XHP-7) | 1 |
+| 103 | 350mm Conneting Wire (XHP-8) | 1 |
 | 104 | 2300mm Computer Cable | 1 |
 | 105 | Monitor module | 1 |
 | 106 | 800mm Connecting Wire | 1 |

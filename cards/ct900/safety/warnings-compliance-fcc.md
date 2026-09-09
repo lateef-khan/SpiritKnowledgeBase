@@ -27,10 +27,12 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- ctsbs900-warnings-compliance-fcc
+- xt-2023-safety-compliance-certifications
 source:
   ref: ct900-om
-  locator: p. 4
+  locator: 'p. 4. Corroborated in the shipping PDF spirit-treadmill-ct900-owners-manual, WARNINGS, COMPLIANCE AND NOTICES, page 4, which prints condition (2) as must not accept any interference received'
   extracted_at: '2026-08-24'
 ---
 
@@ -38,7 +40,11 @@ This product has been certified to meet the following standards:
 - FCC part 15
 - UL
 
-This device complies with part 15 of the FCC Rules. Operation is subject to two conditions: (1) this device must not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.
+The Part 15 declaration, as printed on page 4:
+
+> This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device must not cause harmful interference, and (2) this device **must not accept** any interference received, including interference that may cause undesired operation.
+
+**Condition (2) is printed as "must not accept".** The usual FCC wording is "must **accept** any interference received", and this manual never corrects itself, so treat the sentence as a probable misprint rather than as a different rule. The CTSBS900 manual and the four 2023 XT manuals print condition (2) the same way - see [ctsbs900-warnings-compliance-fcc](../../ctsbs900/safety/warnings-compliance-fcc.md) and `xt-2023-safety-compliance-certifications`.
 
 **NOTE**: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, try to correct the interference by one or more of the following measures:
 1. Reorient or relocate the receiving antenna.

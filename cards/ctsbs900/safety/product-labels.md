@@ -31,7 +31,7 @@ see_also:
 - ctsbs900-product-registration
 source:
   ref: ctsbs900-om
-  locator: p. 3
+  locator: 'p. 3. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ctsbs900-owners-manual, PRODUCT LABELS, page 3, and matches'
   extracted_at: '2026-08-24'
 ---
 

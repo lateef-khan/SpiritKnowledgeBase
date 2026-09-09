@@ -2,7 +2,8 @@
 id: xt-2023-warranty-start-date
 title: When the warranty clock starts
 kind: policy
-question: When does the warranty start on a Spirit XT, CT800, CT850 or 2026 treadmill?
+question: When does the warranty start on a Spirit XT, CT800, CT850, CT900 or 2026
+  treadmill?
 asked_as:
 - when does my treadmill warranty start
 - i lost my receipt is the treadmill still covered
@@ -32,6 +33,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - ct900
+  - ct900ent
+  - ctsbs900
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -66,7 +70,10 @@ source:
     lines 1093-1097), CT800 2016 p. 41 (lines 1058-1063), CT800 2020 p. 45 (lines
     1152-1157), CT800ENT 2022 p. 53 (lines 1203-1208). CT850 2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual
     text.md lines 1148-1154), CT850 2018 p. 45 (lines 1141-1147), CT850 2020 p. 45
-    (lines 1147-1153), CT850ENT 2022 p. 53 (lines 1208-1214)'
+    (lines 1147-1153), CT850ENT 2022 p. 53 (lines 1208-1214). CT900 p. 52 (spirit-treadmill-ct900-owners-manual
+    text.md lines 1471-1477), CT900ENT p. 50 (spirit-treadmill-ct900ent-owners-manual
+    text.md lines 1124-1130), CTSBS900 p. 54 (spirit-treadmill-ctsbs900-owners-manual
+    text.md lines 1669-1675)'
   extracted_at: '2026-09-09'
 ---
 
@@ -89,5 +96,9 @@ The rest of that opening paragraph sets out what Spirit Fitness owes: **new or r
 **The two ENT manuals change who the warranty is administered to.** Where every other manual on this card says these warranties "will be administered by Spirit Fitness directly to a **consumer**", the CT800ENT and the CT850ENT say "directly to a **facility**" - on manuals that still print a Residential row in their tables. Nothing about the clock changes; the difference is worth knowing before quoting the paragraph to a home owner.
 
 **What follows the CT800 and CT850 sentence is not the XT table.** Those eight manuals print a Commercial row and a Residential row whose labor period is **2 Years**, not one. Read them from `spirit-ct800-warranty-commercial-periods` and `spirit-ct800-warranty-residential-periods`, and the CT800 labor clock from `spirit-ct800-warranty-labor-period`, never from `xt-2023-warranty-labor-period`.
+
+**The CT900, CT900ENT and CTSBS900 open with the same sentence as well, in two of the wordings already described.** The **CT900** warrants "all its **home use** Treadmill parts" and the **CTSBS900** "all its **home use** Slat Belt Sled Treadmill parts" - the XT wording, kept - while both read "as determined by **sale receipt**" like the 2026 manuals. The **CT900ENT** drops *home use*, reads "as determined by sale receipt", and makes the CT800 2012 change as well: "from the date of **sale**" where the CT900 and CTSBS900 read "from the date of **retail sale**". The clock is unchanged on all three: date of sale, or eighteen months from factory shipping when there is no receipt. Their effective dates are October 01, 2024 (CT900), November 19, 2021 (CT900ENT) and October 29, 2025 (CTSBS900). The rest of the paragraph - new or remanufactured parts at Spirit Fitness's option, administered directly to a consumer where there is no dealer - is word for word the same on all three.
+
+**What follows their sentence is three different tables.** The CT900 prints three rows - dues-paying commercial, non-dues-paying commercial and residential - the CTSBS900 prints one dues-paying commercial row and no residential row at all, and the CT900ENT prints one unqualified Commercial row with no wear-items or deck column. Read the periods from `ct900-warranty-coverage-terms`, `ctsbs900-warranty-coverage-commercial` or `ct900ent-warranty-coverage-terms`, never from each other. Their labor period is **3 Years** on all three - neither the XT's one year nor the CT800's two.
 
 **Labor has its own clock**, stated separately in the SERVICE paragraph two pages later and dated from the bill of sale or the serial number. Do not answer a labor question from this paragraph - see `xt-2023-warranty-labor-period`.

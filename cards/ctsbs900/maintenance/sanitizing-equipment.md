@@ -29,7 +29,7 @@ see_also:
 - ctsbs900-post-workout-cleaning
 source:
   ref: ctsbs900-om
-  locator: p. 44
+  locator: 'ctsbs900-om p. 44; confirmed word for word against spirit-treadmill-ctsbs900-owners-manual p. 44'
   extracted_at: '2026-08-24'
 ---
 

@@ -26,14 +26,17 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900-safety-tether-cord-and-key
+- ct900ent-safety-tether-cord
+- xt-2015-safety-tether-cord
 see_also:
 - ctsbs900-console-screen-overview
 - ctsbs900-esp-emergency-stop-activated
 - ctsbs900-powering-on
 source:
   ref: ctsbs900-om
-  locator: p. 39
+  locator: 'p. 39. Corroborated in the shipping PDF spirit-treadmill-ctsbs900-owners-manual, SAFETY TETHER CORD, page 39'
   extracted_at: '2026-08-24'
 ---
 
@@ -45,3 +48,10 @@ The treadmill is equipped with a safety system located between the handrails at 
 **Note:** When the safety switch is activated (by hitting or pressing it, or by pulling the cord), the part tethered by the cord is pulled out of its socket. To return the treadmill to standby mode, push the pulled-out part back in.
 
 The treadmill will **not power on at all** without the safety key/tether installed — see [assembly/powering-on.md](../assembly/powering-on.md). If the safety key is pulled or the safety switch fails while the console is running, the console will show the **ESP (Emergency stop activated)** error — see [errors/esp-emergency-stop-activated.md](../errors/esp-emergency-stop-activated.md).
+
+**This is not the magnetic tether the other CT900-family machines use.** The CT900 and CT900ENT
+manuals describe a magnet that sits on a round metal portion of the console control head and a
+plastic clip fastened to your clothing, and those machines will not start with the magnet off
+(`ct900-safety-tether-cord-and-key`, `ct900ent-safety-tether-cord`). This manual describes neither
+a magnet nor a clip. Do not carry the magnet instructions onto a CTSBS900, or the pushed-in reset
+step onto a CT900 or CT900ENT.

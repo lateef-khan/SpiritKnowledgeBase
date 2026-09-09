@@ -53,6 +53,10 @@ You have the option, during setup mode, to choose either the **Weight control (H
 
 Your Maximum Heart Rate is based upon a formula that subtracts your age from a constant of 220. Your HR setting is automatically calculated during setup mode when you enter your age.
 
+**These 60% and 85% figures are contradicted by the manual's own HR program page**, which gives the
+default as 65% of projected maximum and says the machine holds you within five beats of the target -
+see [HR program - quick overview](hr-program.md). The source does not reconcile the two.
+
 ## Heart Rate Control programming steps
 
 1. Press **HR button** to enter heart rate program.

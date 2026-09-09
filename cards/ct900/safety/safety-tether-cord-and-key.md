@@ -28,13 +28,16 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct900-e21-safety-key
+- ctsbs900-safety-stop-key-and-tether-cord
 see_also:
 - ct900-pause-stop-reset
 - ct900-safety-key-removed-treadmill-wont-stop
 - ct900-e21-safety-key
+- ct900ent-safety-tether-cord
+- xt-2015-safety-tether-cord
 source:
   ref: ct900-om
-  locator: p. 17
+  locator: 'p. 17. Corroborated in the shipping PDF spirit-treadmill-ct900-owners-manual, Safety Tether Cord, page 17'
   extracted_at: '2026-08-24'
 ---
 
@@ -49,3 +52,15 @@ Note: The magnet has strong enough power to minimize accidental, unexpected stop
 The console will not power on and cannot operate without the safety key/magnet installed - see [Setting Up Your Treadmill](../assembly/plugging-in-and-power-on.md).
 
 If the safety key is removed and the treadmill does NOT stop, or if the treadmill runs/displays with no safety key installed at all, this indicates the safety key device itself is broken - see [safety key removed but treadmill won't stop](../maintenance/safety-key-removed-treadmill-wont-stop.md). The console also has a dedicated internal fault code, [E21 SAFETY KEY](../errors/e21-safety-key.md), for problems in this circuit.
+
+**The CTSBS900 has a different safety system and this description does not fit it.** That machine
+has no magnet on the console control head. Its manual (page 39) describes a safety button you hit
+downwards and a cord you pull out, and says that once it trips you push the pulled-out part back
+in to return to standby - see `ctsbs900-safety-stop-key-and-tether-cord`. Answering
+"place the magnet on the console" for a CTSBS900 would send a customer looking for a part the
+machine does not have.
+
+**The CT900ENT owner's manual prints this section word for word** on its page 44, down to the
+one-to-two-step coast and the unauthorized-use sentence. That statement is carried separately by
+`ct900ent-safety-tether-cord`; the two cards hold the same fact for two machines of the same
+brand and should be one card.

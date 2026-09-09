@@ -22,11 +22,15 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
-see_also: []
+not_to_be_confused_with:
+- ct900ent-general-maintenance-schedule
+- spirit-ct800-maintenance-schedule-tasks
+see_also:
+- ct900-maintenance-schedule
+- ctsbs900-lubricating-drive-belt-teeth
 source:
   ref: ctsbs900-om
-  locator: p. 43
+  locator: 'ctsbs900-om p. 43; checked row for row against spirit-treadmill-ctsbs900-owners-manual p. 43'
   extracted_at: '2026-08-24'
 ---
 
@@ -52,3 +56,13 @@ source:
 | Accessory Cups | Clean | | | | Inspect |
 | Stop Switch | Clean | | | Inspect | |
 | Emergency Switch | Clean | | | Inspect | |
+
+The **CT900** prints this same 18-item table verbatim on its page 38
+(`ct900-maintenance-schedule`); only the unplug line differs, which names the treadmill rather than
+the Slat Belt Sled Treadmill. It is **not** the seven-task *How To* table the CT900ENT, CT800 and
+CT850 manuals print (`ct900ent-general-maintenance-schedule`,
+`spirit-ct800-maintenance-schedule-tasks`).
+
+The table lists no greasing task. The CTSBS900's belt-tooth greasing has no interval anywhere in the
+manual - its trigger is "when unusual noises are detected"
+(`ctsbs900-lubricating-drive-belt-teeth`).

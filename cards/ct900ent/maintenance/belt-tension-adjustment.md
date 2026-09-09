@@ -48,10 +48,7 @@ see_also:
 - spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
-  locator: p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
-    p. 43-44; all four Spirit CT800 owner's manuals print it too - 2012 p. 21, 2016
-    p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner's manuals
-    print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50
+  locator: 'p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 43-44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 21, 2016 p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner''s manuals print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50; the CT900ENT pages are spirit-treadmill-ct900ent-owners-manual p. 45-46'
   extracted_at: '2026-08-24'
 ---
 
@@ -62,6 +59,17 @@ Tighten the rear roller only enough to prevent slippage at the front roller. Tur
 ## Do not over-tighten
 
 **DO NOT OVER TIGHTEN** — Over tightening will cause belt damage and premature bearing failure. If you tighten the belt a lot and it still slips, the problem could actually be the **drive belt** (located under the motor cover) that connects the motor to the front roller. If the drive belt is loose it feels similar to the walking belt being loose. Tightening the motor belt should be done by a trained service person.
+
+## The CT900 keeps the qualifier and is a separate card
+
+The Spirit **CT900** owner's manual (`spirit-treadmill-ct900-owners-manual` p. 36) prints this
+procedure with the same 8mm wrench, the same rear roller, the same bolts at the end of the step
+rails and the same 1/4 turn each - but it *does* open with **"Belt tension is not critical for most
+users"**, so the CT900 reads with the CT800/CT850/4.0T wording rather than this manual's. It is not
+listed in `applies_to` above because it already has its own card,
+`ct900-belt-tension-adjustment`, which is where a CT900 question should be answered. That card also
+confirms the **8mm Allen wrench is genuinely in the CT900 carton** - unlike the CT850 boxes
+discussed below.
 
 ## Also all four CT800 generations
 

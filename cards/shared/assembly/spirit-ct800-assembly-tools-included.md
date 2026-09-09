@@ -38,6 +38,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-assembly-tools-included
+- spirit-ct900-assembly-tools-included
 - xt-2023-assembly-tools-included
 see_also:
 - spirit-ct800-assembly-unpacking

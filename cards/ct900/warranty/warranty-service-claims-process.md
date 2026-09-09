@@ -40,7 +40,9 @@ source:
   ref: ct900-om
   locator: 'p. 54. The same five steps, the same phone number and the same mailing address
     are printed under WARRANTY - CONTINUED, Responsibilities of the Owner / SERVICE in the
-    three 2026 manuals: 4.0T p. 53, 7.0T p. 52, 8.0T p. 70'
+    three 2026 manuals: 4.0T p. 53, 7.0T p. 52, 8.0T p. 70. The same five steps, phone
+    number and mailing address are printed in the CT900 owner''s manual PDF, spirit-treadmill-ct900-owners-manual
+    text.md lines 1532-1556, p. 54'
   extracted_at: '2026-08-24'
 ---
 

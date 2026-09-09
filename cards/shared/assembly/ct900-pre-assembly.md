@@ -2,8 +2,9 @@
 id: ct900-pre-assembly
 title: Pre-assembly steps before starting
 kind: procedure
-question: What do I need to do before I start assembling a Spirit CT900, 40t-2026,
-  70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or XT685ENT treadmill?
+question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
+  40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
+  XT685ENT treadmill?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -23,6 +24,7 @@ facets:
   - 70t-2026
   - 80t-2026
   - ct900
+  - ctsbs900
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -40,6 +42,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-ct900-assembly-tools-included
 - spirit-2026t-assembly-tools-included
 - 40t-2026-assembly-procedure
 - 70t-2026-assembly-procedure
@@ -51,16 +54,24 @@ see_also:
 - xt-2015-assembly-procedure-xt185-xt285
 - xt-2015-assembly-procedure-xt385-xt485
 - xt685-2015-assembly-procedure
+- ctsbs900-step-1-attach-handlebar-upright-tubes
+- ct900ent-pre-assembly-unpacking-tools-parts
 source:
-  ref: ct900-om
-  locator: p. 10
-  extracted_at: '2026-08-24'
+  ref: spirit-treadmill-ct900-owners-manual
+  locator: p. 10, PRE-ASSEMBLY; the same four items at p. 11 of the CTSBS900 manual
+    (`spirit-treadmill-ctsbs900-owners-manual`), which adds a fifth
+  extracted_at: '2026-09-09'
 ---
 
 1. Cut the straps, then lift the box over the unit and unpack.
 2. Carefully remove all parts from the carton and inspect for any damage or missing parts. If parts are damaged or missing, contact your dealer immediately.
 3. Locate the hardware package. Remove the tools first.
 4. Remove the hardware for each step as needed to avoid confusion. The numbers in the instructions that are in parenthesis (#) are the item number from the assembly drawing for reference.
+5. **CTSBS900 only:** Remove the protective plastic film before installation.
+
+**Only the CTSBS900 prints item 5.** Every other manual on this card stops at four
+items and never mentions a film. It is printed at p. 11 of the CTSBS900 manual, word
+for word after the same four items above.
 
 The same four steps are printed word for word in the XT185-2023 (p. 10), XT285-2023 (p. 11), XT385-2023 (p. 11), XT485-2023 (p. 11), XT685-2023 (p. 11) and XT685ENT (`xt685ent-2023`, p. 11) owner's manuals, and in the 2026 commercial-capable manuals for the 7.0T (`70t-2026`, p. 14) and the 8.0T (`80t-2026`, p. 13).
 
@@ -70,4 +81,4 @@ On the XT185-2023, XT285-2023, XT385-2023 and XT485-2023 there is one more thing
 
 The three 2026 machines share these words and nothing else about assembly. Their hardware, their step counts and their item numbers are all different; take the rest of the build from the card for the machine in front of you.
 
-Next: [Assembly Step One - install the uprights](../../ct900/assembly/assembly-step-1-uprights.md).
+Every machine on this card builds differently after this point. On the CT900 and CT900ENT, next: [Assembly Step One - install the uprights](../../ct900/assembly/assembly-step-1-uprights.md). On the CTSBS900, next: [Assembly step 1 - attach the handlebar upright tubes](../../ctsbs900/assembly/step-1-attach-handlebar-upright-tubes.md). The CTSBS900 is a six-step build with letter-keyed hardware and shares none of the CT900 item numbers.

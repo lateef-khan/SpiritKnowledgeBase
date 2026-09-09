@@ -28,9 +28,11 @@ not_to_be_confused_with: []
 see_also:
 - ct900-belt-tension-adjustment
 - ct900-treadbelt-off-center-or-hesitates
+- ct900-parts-included-and-tools
+- ct900ent-treadbelt-tracking-adjustment
 source:
   ref: ct900-om
-  locator: p. 37
+  locator: 'ct900-om p. 37; the same paragraphs are spirit-treadmill-ct900-owners-manual p. 37'
   extracted_at: '2026-08-24'
 ---
 
@@ -46,3 +48,15 @@ An 8mm Allen wrench is provided for this adjustment. **Make tracking adjustments
 The belt may require periodic tracking adjustment depending on use and walking/running characteristics. Some users may affect tracking differently. Expect to make adjustments as required to center the treadbelt. Adjustments will become less of a maintenance concern as the belt is used. Proper belt tracking is an owner responsibility common with all treadmills.
 
 For belt slipping/hesitating (a tension problem, not a tracking problem), see [belt tension adjustment](belt-tension-adjustment.md).
+
+## 3 mph, not 3 to 5 kph
+
+Page 37 of `spirit-treadmill-ct900-owners-manual` carries a duplicated *GENERAL MAINTENANCE* block
+over this column that sets the tracking speed at **3 to 5 kph** and calls for **"a 8 mm Allen
+wrench"** on the rear roller. That block is not CT900 text - it is the same foreign layer that
+prints the deck life in kilometres (see `ct900-belt-deck-cleaning`). **3 mph is the CT900 figure.**
+
+The 8mm Allen wrench this procedure calls for is genuinely in the box: the CT900 *PARTS INCLUDED*
+page lists an 8mm Allen wrench and 2 Phillips screwdrivers (`ct900-parts-included-and-tools`). No
+CT850 carton does, though the CT850 manuals print the same sentence -
+see `ct900ent-treadbelt-tracking-adjustment`.

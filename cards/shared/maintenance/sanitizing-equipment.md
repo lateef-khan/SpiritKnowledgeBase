@@ -28,7 +28,7 @@ see_also:
 - cu900ent-wear-parts-inspection
 source:
   ref: ct900-om
-  locator: p. 39
+  locator: 'ct900-om p. 39; the same four bullets and the same WARNING are spirit-treadmill-ct900-owners-manual p. 39 and spirit-treadmill-ctsbs900-owners-manual p. 44; spirit-treadmill-ct900ent-owners-manual p. 49 prints the four bullets without the WARNING'
   extracted_at: '2026-08-24'
 ---
 

@@ -45,4 +45,7 @@ A timed **1.5 mile run**. You control the speed manually. Maximum time allowed t
 
 For more information visit: http://bit.ly/SF-AirForce
 
+**The table skips the 30-39 bracket**, jumping from "20-30" straight to "40-49", exactly as printed
+on printed page 29 of the owner's manual.
+
 See [programs/fitness-test-overview.md](fitness-test-overview.md) for how to select and start this test.

@@ -27,14 +27,16 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-electrical-requirements-gfci-breakers
 see_also:
 - ct900-house-breaker-trips-afci-gfci
 - ct900-grounding-instructions
 - ct900-electrical-power-requirements
+- ctsbs900-electrical-safety
 source:
   ref: ct900-om
-  locator: p. 6
+  locator: 'p. 6. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900-owners-manual, ELECTRICAL SAFETY, page 6, and matches'
   extracted_at: '2026-08-24'
 ---
 
@@ -53,3 +55,11 @@ A matching troubleshooting entry for this exact nuisance-tripping symptom is at 
 - **NEVER** use your unit during an electrical storm. Surges may occur in your household power supply that could damage unit components. Unplug the unit during an electrical storm as a precaution.
 - Use caution while participating in other activities while walking on your unit; such as watching television, reading, etc. These distractions may cause you to lose balance which may result in serious injury.
 - Do not use excessive pressure on console control keys. They are precision set to function properly with little finger pressure.
+
+**A sibling machine's manual states the opposite rule.** The CT900ENT owner's manual (page 4)
+prints `NEVER use a ground fault circuit interrupt (GFCI) wall outlet with this treadmill. As with
+any appliance with a large motor, the GFCI will trip often.` - a prohibition, where this manual
+says only to avoid AFCI/GFCI breakers *if possible* and acknowledges that local law may require
+them. The two manuals are not reconcilable and neither corrects the other, so answer from the
+manual for the machine in front of you and never carry one rule onto the other machine. See
+`ct900ent-electrical-requirements-gfci-breakers`.

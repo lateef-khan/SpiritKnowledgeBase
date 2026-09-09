@@ -25,13 +25,17 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-obtaining-service
 see_also:
+- ct900-warranty-service-claims-process
 - ctsbs900-warranty-coverage-commercial
 - ctsbs900-product-registration
 source:
   ref: ctsbs900-om
-  locator: p. 56
+  locator: 'p. 56. The same five steps, phone number and mailing address are printed
+    in the CTSBS900 owner''s manual PDF, spirit-treadmill-ctsbs900-owners-manual text.md
+    lines 1732-1759, p. 56'
   extracted_at: '2026-08-24'
 ---
 
