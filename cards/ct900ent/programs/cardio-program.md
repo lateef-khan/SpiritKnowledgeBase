@@ -2,7 +2,7 @@
 id: ct900ent-cardio-program
 title: Cardio program
 kind: fact
-question: What is the Cardio program on a CT900ENT and how do I use it?
+question: What is the Cardio program on a Spirit treadmill and how do I use it?
 asked_as:
 - what does the cardio program do
 - which program is good for heart health
@@ -16,8 +16,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900ent
+  model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -36,3 +38,8 @@ source:
 **Incline:** The elevation in this program is moderate. There are several elevation spikes at different points of the workout. Segments 4, 9, and 14 are maximum elevation for this program.
 
 For the full segment-by-segment speed and incline values, see [Preset program speed/incline chart](preset-speed-incline-chart.md).
+
+**The CT800ENT owner's manual prints both paragraphs word for word** (printed page 29), including
+segments 4, 9 and 14 as the maximum elevation points. **The 2020 CT800 owner's manual prints the
+Speed paragraph only** (printed page 22) and writes "near maximum resistance level"; **it prints no
+Incline paragraph for Cardio**, so the segment 4/9/14 figures do not come from that machine's manual.

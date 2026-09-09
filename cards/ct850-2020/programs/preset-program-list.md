@@ -2,7 +2,8 @@
 id: ct850-2020-preset-program-list
 title: Which workout programs the console offers
 kind: fact
-question: What workout programs does a Spirit CT850-2020 treadmill have?
+question: What workout programs does a Spirit treadmill console that counts twelve
+  preset programs have?
 asked_as:
 - what programs are on my spirit treadmill
 - does the treadmill have a fitness test
@@ -22,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2020
   section: programs
   code: '*'
@@ -59,3 +62,18 @@ speed or incline table.
 
 **5k Run, 10k Run, HR 1 & 2, Custom and Manual have no warm-up.** Every other program starts with a
 three minute warm-up.
+
+**The 2020 CT800 owner's manual prints this same list word for word** (printed page 20), with the
+same "twelve preset programs" count and the same eleven printed entries. It also prints the same
+no-warm-up list.
+
+**The CT800ENT touchscreen offers the same twelve programs**, reached by tapping Exercise Programs on
+the Home Screen: Manual, Hill, Fat Burn, Cardio, Interval, Heart Rate 1, Heart Rate 2, Custom, 5k
+Run, 10k Run, HIIT and Fitness Test. It writes the two heart rate programs out separately, so its
+list counts to twelve on the page. **Its no-warm-up list adds the Fitness Tests** - see
+`ct800ent-2022-programs-entering-a-program-touchscreen`.
+
+*The sentence above about no profile chart and no speed or incline table is true of the CT850-2020
+service manual only. The 2020 CT800 owner's manual prints a full segment chart
+(`spirit-ct800-programs-preset-speed-incline-chart`), and the CT800ENT manual prints one as a
+picture.*

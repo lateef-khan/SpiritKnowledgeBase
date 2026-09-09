@@ -27,6 +27,9 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
   - mt200-2010
   - mt200-2022
   section: programs
@@ -107,3 +110,13 @@ in full.
 **Both MT200 owner's manuals print this same chart, value for value, without the km/h
 equivalents** - the 2010-generation manual on printed page 19, the 2022-generation manual on
 printed page 31. Both head it "VO2 Max" and neither repeats a stage row.
+
+**The 2012, 2016 and 2020 CT800 owner's manuals print this same chart, value for value** - 2012 on
+printed page 15, 2016 on printed page 24, 2020 on printed page 27 - together with the same
+description paragraph above it. Those three consoles have no WFI test, so on them this is the Gerkin
+chart only. **The CT800ENT manual prints its Gerkin value table as a picture**, so it is not recorded
+for that machine and this chart must not be assumed to be the one it prints; see
+`ct800ent-2022-programs-gerkin-test-chart-is-a-picture`.
+
+*This card's id begins `spirit-2026t-` because the 2026 manuals were the first source to reach it.
+The id is the Qdrant point id and never changes; the chart is not specific to the 2026 machines.*

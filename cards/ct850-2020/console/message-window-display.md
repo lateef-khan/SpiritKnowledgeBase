@@ -2,7 +2,7 @@
 id: ct850-2020-message-window-display
 title: What the message window is for
 kind: fact
-question: What does the message window show on a Spirit CT850-2020 treadmill?
+question: What does the message window show on a Spirit CT800 or CT850-2020 treadmill?
 asked_as:
 - what is the message window on the console
 - what does the scrolling text mean on the treadmill
@@ -16,8 +16,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
@@ -36,3 +39,9 @@ program it displays your workout data.
 
 That is the whole of what this manual says about the message window. The dot matrix behaviour that
 draws the workout profile in the same panel is described separately.
+
+**All three LED CT800 owner's manuals print these two sentences word for word** - the 2012 manual on
+its p. 12 and the 2016 manual on its p. 18, both under MESSAGE WINDOW DISPLAY, and the 2020 manual
+on its p. 18 inside the DOT MATRIX MESSAGE CENTER section. On the 2012 and 2016 consoles this is a
+separate **20-character Message Center** window; on the 2020 console it is the same panel as the
+dots.

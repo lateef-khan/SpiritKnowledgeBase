@@ -18,6 +18,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   - xt185-2015
   - xt285-2015
@@ -46,3 +48,9 @@ All five 2015 XT owner's manuals print the same description under the name **Int
 **The 2023 XT manuals dropped the Interval program and replaced it with HIIT**, whose text is different — see `xt-2023-programs-hiit-program`. No 2015 XT machine has a HIIT program and no 2023 XT machine has an Interval program.
 
 For the full segment-by-segment speed and incline values on the CT900ENT, see [Preset program speed/incline chart](preset-speed-incline-chart.md).
+
+**The CT800ENT owner's manual prints both paragraphs word for word** (printed page 30), including the
+25% and 65% elevation figures. **The 2020 CT800 owner's manual prints the Speed paragraph only**
+(printed page 24) and adds one sentence neither of the others prints - "Your cardiovascular system
+gets programmed to use oxygen more efficiently"; **it prints no Incline paragraph for Interval**, so
+the 25%/65% figures do not come from that machine's manual.

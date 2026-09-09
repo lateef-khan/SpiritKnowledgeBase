@@ -2,7 +2,7 @@
 id: xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 title: Disconnecting AC power before a cover comes off
 kind: policy
-question: Do I have to unplug a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, before removing a cover?
+question: Do I have to unplug a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800 treadmill, or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, before removing a cover?
 asked_as:
 - can i take the motor cover off with it plugged in
 - do i unplug the treadmill before opening it
@@ -25,6 +25,10 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - mt200-2010
   - mt200-2022
   - xt185-2015
@@ -51,7 +55,7 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -98,3 +102,13 @@ either.
 Important Electrical Information page. No exception, no waiting time, no capacitor discharge figure
 and no lock-out procedure in these manuals either. The matching rule for cleaning and service is
 `spirit-disconnect-from-the-outlet-before-cleaning-or-service`.
+
+**All four Spirit CT800 owner's manuals print the same sentence, word for word**, on their
+Important Electrical Instructions page. No exception, no waiting time, no capacitor discharge
+figure and no lock-out procedure in any of the four.
+
+The matching cleaning rule differs by generation. The 2012, 2016 and 2020 manuals put it in their
+appliance safety list - `Always unplug this appliance from the electrical outlet immediately after
+using and before cleaning` (`spirit-ct800-safety-instructions-list`). The CT800ENT-2022 manual
+prints the CT850's fuller sentence instead, covering service work as well as cleaning
+(`spirit-disconnect-from-the-outlet-before-cleaning-or-service`).

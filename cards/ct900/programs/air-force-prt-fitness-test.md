@@ -18,6 +18,8 @@ facets:
   model: '*'
   applies_to:
   - 80t-2026
+  - ct800-2016
+  - ct800-2020
   - ct900
   section: programs
   code: '*'
@@ -47,3 +49,8 @@ For more information visit: http://bit.ly/SF-AirForce
 Note: the source table skips the 30-39 age bracket - it jumps from "20-30" directly to "40-49," exactly as printed.
 
 The 2026 Spirit 8.0T owner's manual prints this same table, value for value, including the skipped 30-39 bracket. **The 4.0T manual prints a different Air Force table** whose first bracket is "<30" at 13:36 and whose 50-59 female time is 19:43 - see `40t-2026-programs-air-force-test`.
+
+**The 2016 and 2020 CT800 owner's manuals print this same table, value for value**, including the
+skipped 30-39 bracket (2016 printed page 23, 2020 printed page 28). The 2012 CT800 manual has no Air
+Force test. **The CT800ENT manual offers the Air Force test as a timed 1.5 mile run but prints its
+table as a picture**, so no values are recorded for that machine.

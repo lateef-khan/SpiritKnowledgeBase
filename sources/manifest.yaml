@@ -1178,6 +1178,31 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
   sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2012-owners-manual
+  title: 2012 Spirit CT800 treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2012/SpiritFitness_OM_CT800_2012.pdf
+  sha256: c7ab1ed5a903f9e966090936970b0c222107e70e15b5d38036f2166e42b2b7b9
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2016-owners-manual
+  title: 2016 Spirit CT800 treadmill owner's manual (rev. 08/2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2016/CT800_OM_800845
+    (rev. 082018).pdf
+  sha256: 355c9163eb60665134ae5f14223644f1641e4a54a5c69c4c8b616d66d3a19ef8
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2020-owners-manual
+  title: 2020 Spirit CT800 treadmill owner's manual (rev. 12/2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2020/CT800_800840_OM_20231228.pdf
+  sha256: b07899919fdb6087420db58d8b5f15553c3dfaddda949282e6f0fddf3564d6db
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800ent-2022-owners-manual
+  title: 2022 Spirit CT800ENT treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800ENT/2022/CT800ENT_800852_OM_20240703.pdf
+  sha256: 834f439c6317e292cb1740f51e0bdb66f5a7bb2d92ded4ba7b8ab3f55302f508
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct850-2016-service-manual
   title: Spirit CT850 2016 treadmill service manual (ST8100-CT001, 110V)
   kind: markdown

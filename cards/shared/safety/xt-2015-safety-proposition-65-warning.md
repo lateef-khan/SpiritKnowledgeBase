@@ -2,7 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or for a Spirit XT485ENT treadmill?
+question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, or for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -25,6 +25,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -44,7 +47,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, boxed beside the list; the XT285
-    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5
+    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5 The CT800 2016, CT800 2020 and CT800ENT-2022 owner's manuals print the same box on their Important Operation Instructions page - 2016 page 6, 2020 page 7, ENT-2022 page 7
   extracted_at: '2026-09-09'
 ---
 
@@ -84,3 +87,14 @@ describes no sticker; it has no product labels page
 **The XT685ENT manual prints the other Proposition 65 text**, on a PRODUCT LABELS page describing
 a sticker on the interior side of the upright, naming no chemical and no web address:
 `xt-2023-safety-proposition-65-sticker`. The two are not interchangeable in either direction.
+
+**Three of the four Spirit CT800 owner's manuals print this box word for word** - the 2016, the
+2020 and the ENT-2022 - naming Toluene and Acrylamide, cancer and birth defects or other
+reproductive harm, and `www.P65Warnings.ca.gov`. They print it beside their Important Operation
+Instructions rather than beside the safety list, and they capitalise `Cancer`.
+
+Like the 2015 manuals they print the warning **in the manual** and describe no sticker; no CT800
+manual has a product labels page (`spirit-ct800-safety-serial-number-and-product-labels`).
+
+**The CT800-2012 manual prints no Proposition 65 warning at all.** It names no chemical and gives
+no web address anywhere. Do not carry Toluene and Acrylamide back onto a 2012 machine.

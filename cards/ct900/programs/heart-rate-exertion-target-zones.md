@@ -21,6 +21,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct900
   - xt285-2023
   section: programs
@@ -56,3 +58,18 @@ If you enter your age during programming, the console will perform this calculat
 The two most popular reasons for, or goals, of exercise are cardiovascular fitness (training for the heart and lungs) and weight control. The training heart rate, for either cardiovascular fitness or weight loss, can be achieved by training at 85% or 65%, respectively, of your MHR, on a schedule approved by your physician. Consult your physician before participating in any exercise program.
 
 You may use the heart rate monitor feature without using a Heart Rate program. On the CT900 this function can be used during manual mode or during any of the nine different programs. The 2023 XT285 manual adds that when the heart rate monitor feature is used in conjunction with the Heart Rate programs, the machine automatically adjusts speed or incline to maintain the desired heart rate.
+
+**The 2020 and CT800ENT CT800 owner's manuals print this same 65% / 85% guidance and the same
+117-to-153 example** (2020 printed pages 32-33, CT800ENT printed pages 42-43, where it is headed
+"Target Heart Rate"). Both end it with the treadmill sentence: when the heart rate monitor feature is
+used with the Heart Rate programs, the machine automatically adjusts speed or incline to maintain the
+desired heart rate.
+
+**The 2012 and 2016 CT800 manuals print 60% and 80% with a 108-to-144 example - that is
+`xt-2023-programs-heart-rate-training-zone`, a separate card. The CT800 therefore changed between
+generations: 60/80 up to 2016, 65/85 from 2020.**
+
+**A contradiction inside the 2020 manual:** this page recommends 85% for strengthening the
+cardiovascular system, while the same manual's Heart Rate Control page sets the Cardiovascular
+program to 80% - see `ct800-2020-programs-heart-rate-control-65-and-80-percent`. Neither figure is
+reconciled in the source.

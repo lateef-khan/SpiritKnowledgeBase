@@ -2,8 +2,8 @@
 id: xt-2015-errors-calibration-does-not-pass
 title: Calibration does not pass, and the speed sensor alignment it points to
 kind: troubleshooting
-question: What do I check when calibration will not pass on a Spirit XT185-2015, XT285-2015,
-  XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What do I check when calibration will not pass on a Spirit CT800, CT800ENT or
+  XT treadmill?
 asked_as:
 - calibration keeps failing on my treadmill
 - factory settings wont finish calibrating
@@ -25,6 +25,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -43,7 +47,7 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'ADJUSTING THE SPEED SENSOR, page 30; the same section is page 38 of the
     XT285 2015 manual, page 39 of the XT385, page 44 of the XT485 and page 43 of the
-    XT685'
+    XT685; all four CT800 owner''s manuals print the same sentence under Adjusting The Speed Sensor - printed page 24 of the 2012 manual (text.md lines 1053-1054), printed page 36 of the 2016 manual (text.md lines 938-939), printed page 38 of the 2020 manual (text.md lines 976-977) and printed page 51 of the CT800ENT 2022 manual (text.md lines 1154-1155)'
   extracted_at: '2026-09-09'
 ---
 
@@ -69,6 +73,20 @@ The other end of this fact is the E1 row of the troubleshooting table
 (`xt-2023-errors-e1-motor-not-responsive`): when the belt moves but stops after a short time
 and the display shows E1, the manual says run calibration. This card is what to do when that
 calibration then fails.
+
+**All four CT800 generations print the same one-line answer**, word for word, with no error
+code and no second cause. The **alignment check itself differs from the XT one**, so do not
+carry the XT figures onto a CT800: the CT800 manuals have the reader loosen **8** motor-hood
+screws rather than 4, describe **two** screws holding the sensor rather than one, and ask for
+the sensor to be aligned with the **centre of the magnet as it passes** rather than set "as
+close as possible to the pulley without touching it". The alignment procedure is a
+maintenance fact and belongs on a maintenance card, not here.
+
+**The CT800ENT 2022 manual points at a calibration it never prints.** It carries this
+sentence and the whole Adjusting The Speed Sensor section, but the manual has no calibration
+procedure and no engineering mode section anywhere - so a CT800ENT owner told to run
+calibration has nothing in the book telling them how. The 2012, 2016 and 2020 CT800 manuals
+all print a calibration procedure.
 
 **A Sole E1 is not this fault.** On several Sole treadmills `E1` *is* the no-RPM-signal
 code raised during calibration (`f63-2016-e1-error-code`, `f65-2023-e1-no-rpm-signal`).

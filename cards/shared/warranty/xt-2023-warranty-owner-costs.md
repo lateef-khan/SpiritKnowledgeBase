@@ -2,7 +2,8 @@
 id: xt-2023-warranty-owner-costs
 title: What the owner pays even when the repair is under warranty
 kind: policy
-question: Does the owner of a Spirit XT treadmill pay anything for a warranty repair?
+question: Does the owner of a Spirit XT or CT800 treadmill pay anything for a warranty
+  repair?
 asked_as:
 - do i have to pay for a warranty service call
 - is the service call free under warranty
@@ -23,6 +24,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -43,6 +48,7 @@ see_also:
 - xt-2023-warranty-service-steps
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-consumer-responsibilities
+- spirit-ct800-warranty-consumer-responsibilities
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'SERVICE step 4, p. 42; RESPONSIBILITIES OF THE CONSUMER item 3, p. 40;
@@ -51,7 +57,9 @@ source:
     three are word for word the same in the five 2015 XT manuals, where the accessibility
     item is numbered 4 rather than 3: xt185 text.md lines 765-766, 775-778 and 799-803.
     XT485ENT pp. 55-56 (accessibility item 4 at line 1100, exclusion 2 at line 1109,
-    SERVICE step 4 at lines 1133-1137). XT685ENT pp. 53-55'
+    SERVICE step 4 at lines 1133-1137). XT685ENT pp. 53-55. CT800 2012 p. 25 (accessibility
+    item 5 at lines 1109-1110, exclusion 2 at lines 1119-1121, SERVICE step 4 at lines
+    1142-1146), CT800 2016 pp. 41-43, CT800 2020 pp. 45-47, CT800ENT 2022 pp. 53-55'
   extracted_at: '2026-09-09'
 ---
 
@@ -71,4 +79,6 @@ And exclusion 2 refuses **service call reimbursement to the consumer**.
 
 Adequate packaging for a return is the owner's responsibility too, and freight damage claims go to the carrier, not to Spirit Fitness.
 
-These sentences are the sharpest difference between the XT warranty and the Spirit commercial one: the CT900 and CTSBS900 service steps stop at shipping and handling and say nothing about trip charges. `xt-2023-warranty-service-steps` holds the full step order.
+**The four Spirit CT800 manuals charge all five, word for word.** The 2012, 2016, 2020 and CT800ENT print the same SERVICE step 4 - freight both ways, shipping and handling on parts, a trip charge for in-home service, and an additional one beyond 100 miles - and the same exclusion 2. Their accessibility duty is item **5** of the responsibilities list rather than item 3 or 4, and it reads "fitness equipment" where the XT list reads "treadmill" (`spirit-ct800-warranty-consumer-responsibilities`). The 2012 manual prints step 4's trip-charge sentence as "Forin-home service", a conversion artefact of the printed line break; the wording is otherwise identical.
+
+**Do not treat the trip charge as an XT-only rule.** It is not the difference between a residential and a commercial Spirit warranty: the CT800 is a commercial machine and charges it, while the CT900, the CTSBS900 and the 2026 4.0T, 7.0T and 8.0T stop at shipping and handling and say nothing about trip charges (`spirit-2026t-warranty-owner-costs`). Read the machine's own step 4. `xt-2023-warranty-service-steps` holds the full step order.

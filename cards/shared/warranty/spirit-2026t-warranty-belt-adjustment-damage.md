@@ -3,7 +3,7 @@ id: spirit-2026t-warranty-belt-adjustment-damage
 title: Belt damage caused by a bad tracking or tension adjustment
 kind: policy
 question: Is running-belt damage from a bad adjustment covered on a Spirit 2026 4.0T,
-  7.0T or 8.0T treadmill?
+  7.0T, 8.0T or CT800 treadmill?
 asked_as:
 - i overtightened the belt is it covered
 - did i void the warranty adjusting the belt
@@ -27,6 +27,10 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -36,6 +40,7 @@ not_to_be_confused_with:
 see_also:
 - ct900-warranty-exclusions
 - spirit-2026t-warranty-owner-costs
+- spirit-ct800-warranty-exclusions
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: 'MACHINE CARE - CONTINUED, Treadbelt tracking adjustment, Attention box:
@@ -51,6 +56,12 @@ source:
 The same page makes tracking the owner's job: "Proper belt tracking is an owner responsibility common with all treadmills" (the 7.0T and 8.0T print "common with all rehabilitation treadmills"). The manual also warns that over-tightening "will cause belt damage and premature bearing failure", and that a small adjustment makes a dramatic difference - turn the bolt a quarter turn at a time.
 
 **The 4.0T states this only in the text layer of its PDF.** The sentence is in the file, in capitals - "ATTENTION: DAMAGE TO THE RUNNING BELT RESULTING FROM IMPROPER TRACKING / TENSION ADJUSTMENTS IS NOT COVERED UNDER THE SPIRIT WARRANTY" - positioned over the right-hand column of printed page 44, but it does not render. A 4.0T owner reading the printed page has not been shown it. Treat the exclusion as stated for the 7.0T and 8.0T, and flag the 4.0T as an unresolved documentation defect before quoting it to a 4.0T customer.
+
+**The four Spirit CT800 manuals print the same Attention box**, in the same place beside the treadbelt tracking procedure, and name the warrantor in it:
+
+> Damage to the running belt resulting from improper tracking / tension adjustments is not covered under the **Spirit Fitness** warranty.
+
+It renders on the printed page in all four - the 2012 manual sets it under an ATTENTION heading of its own, the other three print it as an inline "ATTENTION:" line - so a CT800 owner has been shown it. The same page makes tracking the owner's job in the CT800 wording: "Proper belt tracking is an owner responsibility common with all treadmills." The CT800 exclusion list is `spirit-ct800-warranty-exclusions`, whose item 3 carries the general "improper maintenance" case.
 
 This sits alongside, not inside, the numbered exclusion list. Exclusion 3 in that list already refuses damage from "improper maintenance"; the Attention box is the specific case. The full list is `ct900-warranty-exclusions`.
 

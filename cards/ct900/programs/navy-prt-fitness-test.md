@@ -18,6 +18,8 @@ facets:
   model: '*'
   applies_to:
   - 80t-2026
+  - ct800-2016
+  - ct800-2020
   - ct900
   section: programs
   code: '*'
@@ -52,3 +54,8 @@ For more information visit: http://bit.ly/SF-Navy
 **Source note**: the manual's Navy 1.5-mile times for ages 17-41 are printed identically to the [Army 2-mile run](army-pft-fitness-test.md) times for the same age brackets. This is preserved exactly as printed; it is not resolved here whether this is intentional or a manual data-entry duplication, since a 1.5-mile and a 2-mile standard would normally differ.
 
 The 2026 Spirit 8.0T owner's manual prints this same table, value for value, including the rows that repeat the Army times. **The 4.0T manual prints a different Navy table**, starting at age 19 with 12:30 / 15:00 and running to 65+ - see `40t-2026-programs-navy-test`.
+
+**The 2016 and 2020 CT800 owner's manuals print this same table, value for value**, including the
+rows that repeat the Army times (2016 printed page 23, 2020 printed page 28). The 2012 CT800 manual
+has no Navy test. **The CT800ENT manual offers the Navy test as a timed 1.5 mile run but prints its
+table as a picture**, so no values are recorded for that machine.

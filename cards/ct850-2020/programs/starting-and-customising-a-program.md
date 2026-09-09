@@ -2,7 +2,8 @@
 id: ct850-2020-starting-and-customising-a-program
 title: Selecting a program and entering your personal data
 kind: procedure
-question: How do I set up a workout program on a Spirit CT850-2020 treadmill?
+question: How do I set up a workout program on a Spirit treadmill with a Program
+  button?
 asked_as:
 - how do i pick a program on the treadmill
 - how do i enter my age and weight
@@ -21,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: programs
   code: '*'
@@ -58,3 +60,12 @@ changed so far.
 **5k Run, 10k Run, HR 1 & 2, Custom and Manual do not have a warm-up.**
 
 Age is what the console uses to calculate your maximum heart rate for the heart rate bar graph.
+
+**The 2020 CT800 owner's manual prints these same seven steps word for word** (printed page 20),
+including the Program button, the Stop button that returns to the previous screen, and the same
+no-warm-up list. **It does not print the closing sentence about age feeding the heart rate bar
+graph**; that sentence is from the CT850-2020 service manual only.
+
+The five-preset CT800 generation has a shorter version of this procedure with no Program button and
+no no-warm-up list - see `spirit-ct800-programs-preset-setup-steps`. The CT800ENT touchscreen has its
+own - see `ct800ent-2022-programs-entering-a-program-touchscreen`.

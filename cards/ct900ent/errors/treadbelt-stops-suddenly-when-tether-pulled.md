@@ -3,7 +3,7 @@ id: ct900ent-treadbelt-stops-suddenly-when-tether-pulled
 title: Treadbelt stops quickly/suddenly when tether cord is pulled
 kind: troubleshooting
 question: Why does the tread belt stop so suddenly when the tether cord is pulled on a
-  Spirit CT900ENT, or on a Spirit XT treadmill of 2015 or 2023?
+  Spirit CT800, CT800ENT, CT900ENT or XT treadmill?
 asked_as:
 - the belt stops too fast when the safety clip comes off
 - treadmill stops abruptly not gradually
@@ -22,6 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -51,7 +55,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1011-1015), printed page 39 of the 2016 manual (text.md lines 1007-1011), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2020 manual (text.md lines 1106-1110) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1188-1189)
   extracted_at: '2026-08-24'
 ---
 
@@ -74,6 +78,12 @@ That is the 2023 documents being briefer, not those machines behaving differentl
 The XT 2023 manuals give the same cause for the treadmill tripping its own 15 amp breaker
 (`xt-2023-errors-trips-onboard-15-amp-breaker`), so treat the two symptoms as one friction
 problem.
+
+**All four CT800 generations print the long answer**, deck-wear check and the "if it is on
+its original side" qualifier included, so this fault reads the same on a 2012 machine as on
+a 2022 one. Only the cross-reference moved: the 2012, 2016 and 2020 manuals send the reader
+to their own General Maintenance section on cleaning the deck, while the CT800ENT 2022
+manual drops that pointer and starts straight at the friction.
 
 **Both ENT manuals print the long answer.** The XT485ENT and XT685ENT each go on to the
 deck-wear check and each carry the qualifier - the deck may need to be flipped **if it is on
