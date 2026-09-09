@@ -3,7 +3,7 @@ id: xt-2023-assembly-tools-included
 title: The tools packed with the treadmill
 kind: fact
 question: What tools are supplied to assemble a Spirit XT185, XT285, XT385, XT485,
-  XT485ENT, XT685 or XT685ENT treadmill?
+  XT485ENT, XT685 or XT685ENT treadmill of any year?
 asked_as:
 - what tools do i need to build my treadmill
 - is an allen key included
@@ -32,6 +32,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -50,16 +51,36 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: p. 8, PARTS INCLUDED - TOOLS INCLUDED; XT485ENT owner's manual p. 9 and
-    XT685ENT owner's manual p. 9
+    XT685ENT owner's manual p. 9; also spirit-treadmill-xt685-2010-owners-manual
+    PDF p. 9, headed Assembly Tools
   extracted_at: '2026-09-09'
 ---
 
-All twelve manuals - the five 2015 owner's manuals, the five 2023 ones and the
-two ENT ones - list the same three tools. Nothing else is needed:
+All thirteen manuals - the XT685 2010 one, the five 2015 owner's manuals, the five
+2023 ones and the two ENT ones - list the same three tools. Nothing else is needed:
 
 - L Allen Wrench (M6)
 - Phillips Head Screwdriver
 - Combination M5 Allen Wrench & Phillips Head Screwdriver
+
+## The XT685 2010 panel, which is the odd one out twice over
+
+It prints the same three tools, writing the first **M6 Allen Wrench**, and then adds
+two items no other panel carries: **#18 Deck/Belt Lubricant** and **#63 Safety Key**.
+Neither is a tool. That manual prints **no separate PARTS INCLUDED panel**, so its
+tools panel is the only place it names anything that comes in the box, and it never
+gives a carton list.
+
+Its three tools carry **different item numbers** from every later XT - the panel
+numbers them **106** (combination), **107** (M6 Allen) and **109** (Phillips) - so do
+not read 103, 104 or 126 onto a 2010 machine.
+
+**And its own four assembly steps use 106 and 107 the other way round**, four times
+out of four: steps 1 and 3 call (106) the M6 Allen Wrench, steps 2 and 3 call (107)
+the Combination M5 Allen Wrench & Phillips Head Screw Driver. The panel's order - the
+combination wrench on the lower number, the M6 Allen on the next one up - is the order
+every later XT manual uses, but that is a pattern, not a statement by this manual,
+which never reconciles the two. Item 109 agrees in both places.
 
 The 2015 XT185 and XT285 panels write the first one **M6_L Allen Wrench**; every
 other panel writes **L Allen Wrench**. Same tool. The 2015 panels are on XT185

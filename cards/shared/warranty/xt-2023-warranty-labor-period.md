@@ -35,6 +35,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -62,15 +63,15 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills. The **XT485ENT** and **XT685ENT** print it too - the XT685ENT in both its Residential and its Light Commercial row.
+**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals, all five 2015 ones and the 2010 XT685 - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills. The **XT485ENT** and **XT685ENT** print it too - the XT685ENT in both its Residential and its Light Commercial row.
 
 **The 2026 machines share the figure, not the rest of the table.** Their only other period is Parts 5 Years and they print no Frame, Motor or Deck column at all: `spirit-2026t-warranty-commercial-periods`. Do not answer any period other than labor from this card.
 
-What sets the date is stated in a different place, the SERVICE paragraph, word for word the same in all thirteen manuals:
+What sets the date is stated in a different place, the SERVICE paragraph, word for word the same in all fourteen manuals:
 
 > Keep your bill of sale. Twelve (12) months from the date on the bill of sale or eighteen (18) months from the date of factory shipping as determined by the serial number establishes the labor warranty period should service be required.
 
-That sentence names **two** dates - twelve months from the bill of sale, or eighteen months from factory shipping read off the serial number - and does not say which governs when they disagree.
+That sentence names **two** dates - twelve months from the bill of sale, or eighteen months from factory shipping read off the serial number - and does not say which governs when they disagree. Here it does not contradict the table, because the Labor column already reads one year; on a CT800 or CT850, whose column reads two, the same sentence does contradict it (`spirit-ct800-warranty-labor-period`).
 
 The manual's own advice follows from it: keep the bill of sale, and if service is performed, obtain and keep all receipts.
 

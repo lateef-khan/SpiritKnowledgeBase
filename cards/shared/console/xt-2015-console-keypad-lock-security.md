@@ -27,6 +27,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -60,3 +61,9 @@ assume the Start-and-Enter method carries over to them; the manuals do not state
 **This is not the 2023 arrangement.** The 2023 XT consoles have a **dedicated Child Lock button**
 that lights an LED, and it is unlocked by holding **Child Lock** itself for 3 seconds, not Start and
 Enter. See `xt-2023-console-child-lock`.
+
+**The XT685 2010 owner's manual prints the same item on its p. 36** - *"Security (Allows the keypad
+to be locked to prevent unauthorized use)"* and nothing more - so this card covers that machine, and
+like the 2015 XT385, XT485 and XT685 manuals it does not say how to unlock it. On that machine
+Security is item **b** of four, not item 4 of five; the menu it sits in is
+`xt685-2010-console-engineering-mode-menu`.

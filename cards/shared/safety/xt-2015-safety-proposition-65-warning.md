@@ -116,3 +116,8 @@ carries the opening as far as `...cause Cancer and birth defects or`, and the cl
 `other reproductive harm. For more information, go to www.P65Warnings.ca.gov` sit at the top of the
 extracted page 3, beside the `Serial Number Location` illustration. The two halves are the same
 sentence quoted above; every chemical, harm and web address is present.
+
+**Two earlier Spirit treadmill manuals print no Proposition 65 warning at all.** The CT800-2012
+and XT685-2010 owner's manuals carry no such box, no such sticker and no mention of
+Toluene or Acrylamide anywhere. Do not quote this warning for one of those machines, and do not
+tell an owner their manual carries it.

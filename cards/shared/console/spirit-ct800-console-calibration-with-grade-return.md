@@ -88,3 +88,6 @@ the other speed sensor work at `spirit-ct800-maintenance-speed-sensor-alignment`
 **The other CT850 owner's manuals do not use this routine.** The 2016 and 2020 manuals hold Start
 with **Speed Up**, have no grade return step and set a maximum of **15.0**; the ENT-2022 touchscreen
 has no key gesture at all.
+
+**The XT685 2010 routine is these nine steps with a different wheel size - 3.01, not 2.98** - and is
+kept apart for that reason: `xt685-2010-console-calibration-wheel-size-3-01`.

@@ -84,3 +84,8 @@ XT685-2023 manuals write it, with the same boxed note beside the list.
 anywhere - no safety-list item and no specification table - so 425 lbs may not be quoted for it:
 `xt-2015-safety-no-user-weight-limit-printed`. Sharing a model number with the XT485-2023 does not
 make it the same machine's manual.
+
+**The XT685-2010 owner's manual prints no user weight limit at all.** It is an earlier document
+than the XT685-2015 manual and its safety instructions page has no weight bullet, so the 425 lb
+figure may not be quoted for an XT685-2010:
+`xt-2015-safety-no-user-weight-limit-printed`, which now carries that machine.

@@ -61,3 +61,12 @@ page and line for line, so this card covers that machine.
 
 Neither manual prints a minimum Android version, and both print the note about the headphones with
 the same "connected to the your device" typo.
+
+**The Spirit Commercial support note "Screen Mirroring" (revision 07.01.2024) supplies the device
+name the manual leaves out.** Its step 3 says to open the Spirit Mirroring app, *"Select the device
+name 'Spirit ENT-XXX,' then click the 'Start Mirroring' button"*. The note prints no minimum Android
+version either.
+
+**The note adds three conditions the manual does not print**, and they are held together at
+`spirit-ent-console-screen-mirroring-limits`: a subscription may be required for some apps, paid TV
+streaming apps will not mirror at all, and the phone must be on the **same** WiFi as the console.

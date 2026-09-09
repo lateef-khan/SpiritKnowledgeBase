@@ -31,6 +31,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -54,3 +55,6 @@ Entering your weight when you program a workout is what makes the reading closer
 half of the fact is printed in the Programs section of these manuals, not here.
 
 The five 2015 XT owner's manuals print the same two sentences word for word.
+
+**The XT685 2010 owner's manual prints these two sentences on its p. 20**, so this card covers that
+machine.

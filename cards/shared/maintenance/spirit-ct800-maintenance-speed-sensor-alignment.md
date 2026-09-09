@@ -31,6 +31,7 @@ facets:
   - ct800-2020
   - ct800ent-2022
   - ct850-2018
+  - xt685-2010
   section: maintenance
   code: '*'
 authority: 3
@@ -44,7 +45,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: 'CT800 2020 p. 38 ADJUSTING THE SPEED SENSOR; the same three steps are
-    CT800 2012 p. 24, CT800 2016 p. 36, CT800ENT 2022 p. 51 and CT850 2018 p. 40'
+    CT800 2012 p. 24, CT800 2016 p. 36, CT800ENT 2022 p. 51 and CT850 2018 p. 40;
+    also XT685 2010 printed p. 32 (spirit-treadmill-xt685-2010-owners-manual PDF p. 36)'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,6 +66,18 @@ words, under the same trigger sentence and immediately after the calibration pro
 them gives a gap measurement between the sensor and the magnet, and none names a wrench or driver
 size for the eight hood screws.
 
+## The XT685 2010 prints this version, not the XT version
+
+The **XT685 2010** owner's manual is the one XT machine on this card. Its ADJUSTING THE SPEED
+SENSOR section is the CT800 text word for word: **8 hood screws**, the magnet on the **outside
+edge** of the pulley, and **two screws** holding the sensor.
+
+Every later XT manual is different - **4 hood screws**, the magnet on the **face** of the pulley,
+**one** sensor screw, and an added "as close as possible without touching"
+(`xt-2023-maintenance-adjusting-the-speed-sensor`). **Do not answer an XT685 2010 from that card,
+or a 2015/2023 XT from this one.** The screw counts alone will send a customer to the wrong number
+of fasteners.
+
 **The CT850 2018 is the only CT850 owner's manual with this section.** The CT850 2016, CT850 2020
 and CT850ENT 2022 manuals print the calibration procedure and then stop; they say nothing about the
 speed sensor. Their silence is not evidence that those machines are different.
@@ -72,9 +86,10 @@ speed sensor. Their silence is not evidence that those machines are different.
 
 Do not answer a CT800 from any of these:
 
-- The **Spirit XT** owner's manuals say the hood comes off with **4 screws**, put the magnet on the
-  **face** of the pulley, and say **one** screw holds the sensor
-  (`xt-2023-maintenance-adjusting-the-speed-sensor`).
+- The **Spirit XT 2015 and 2023** owner's manuals say the hood comes off with **4 screws**, put the
+  magnet on the **face** of the pulley, and say **one** screw holds the sensor
+  (`xt-2023-maintenance-adjusting-the-speed-sensor`). The XT685 2010 is the exception and is on this
+  card.
 - The **Spirit CT850 2016** service manual adds a **maximum 3 mm gap** and calls the part a reed
   switch (`ct850-2016-low-speed-check-rpm-sensor`).
 - The **Sole** service manuals say to get the sensor as close as possible without touching and cap

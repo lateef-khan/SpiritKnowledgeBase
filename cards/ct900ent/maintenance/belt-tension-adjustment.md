@@ -71,7 +71,7 @@ listed in `applies_to` above because it already has its own card,
 confirms the **8mm Allen wrench is genuinely in the CT900 carton** - unlike the CT850 boxes
 discussed below.
 
-## Also all four CT800 generations
+## Also all five CT800 generations
 
 The Spirit **CT800 2012, CT800 2016, CT800 2020 and CT800ENT 2022** owner's manuals print this
 procedure word for word - the same **8mm Allen wrench**, the same rear roller, the same bolts at

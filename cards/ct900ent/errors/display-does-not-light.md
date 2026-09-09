@@ -39,6 +39,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -57,7 +58,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed page 23 of the CT800 2012 owner's manual (text.md lines 979-985), Service Checklist - Diagnosis Guide on printed page 38 of the CT800 2016 owner's manual (text.md lines 975-981) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 owner's manual (text.md lines 1171-1175); the same row is SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the CT850 2018 owner's manual (text.md lines 1034-1040) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 owner's manual (text.md lines 1177-1181)
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed page 23 of the CT800 2012 owner's manual (text.md lines 979-985), Service Checklist - Diagnosis Guide on printed page 38 of the CT800 2016 owner's manual (text.md lines 975-981) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 owner's manual (text.md lines 1171-1175); the same row is SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the CT850 2018 owner's manual (text.md lines 1034-1040) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 owner's manual (text.md lines 1177-1181); the same row is Service Checklist - Diagnosis Guide on printed page 31 of the XT685 2010 owner's manual (PDF page 35, text.md lines 1376-1386)
   extracted_at: '2026-08-24'
 ---
 
@@ -97,3 +98,7 @@ four generations.
 **Both XT ENT consoles print this row in full.** The XT485ENT and XT685ENT owner's manuals
 print all five steps, step 5 included, and both print the same 115 VAC outlet figure. That
 keeps them with the ten XT manuals rather than with the CT900ENT, whose list stops at step 4.
+
+**The 2010 XT685 owner's manual prints all five steps and the same 115 VAC outlet**, word for
+word, so the oldest documented XT685 sits here too and the figure is unchanged across all
+three revisions of that model - 2010, 2015 and 2023.

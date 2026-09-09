@@ -33,6 +33,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -72,3 +73,8 @@ manuals print the readout list in the first paragraph - and nothing else. They c
 screen-label diagram, and the only status icon any 2015 manual mentions is a Bluetooth icon that
 lights when the Spirit Fit App connects (XT285, XT385, XT485 and XT685 only); see
 `xt-2015-console-spirit-fit-app-pairing`. No 2015 XT manual mentions a USB port.
+
+**The XT685 2010 owner's manual prints the readout list on its p. 17**, in the same order and with
+the same Speed & Incline profile graph sentence, so this card covers that machine. Like the 2015
+manuals it carries **no screen-label diagram**, so the table above is not claimed for it, and it
+mentions no Bluetooth, no app and no USB port.

@@ -2,8 +2,8 @@
 id: spirit-ct800-assembly-unpacking
 title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
-question: How do I unpack a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill and
-  get the hardware ready for assembly?
+question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
+  treadmill and get the hardware ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
 - how do i unbox my treadmill
@@ -32,6 +32,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xt685-2010
   section: assembly
   code: '*'
 authority: 3
@@ -42,11 +43,13 @@ see_also:
 - spirit-ct800-assembly-procedure-three-step
 - ct900-pre-assembly
 - ct900ent-pre-assembly-unpacking-tools-parts
+- xt685-2010-assembly-procedure
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
     manual under Pre-Assembly, p. 8 of the 2020 manual, p. 8 of the CT800ENT manual,
-    and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual
+    and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual;
+    also spirit-treadmill-xt685-2010-owners-manual PDF p. 9, headed Pre-Assembly
   extracted_at: '2026-09-09'
 ---
 
@@ -61,7 +64,7 @@ source:
 to inspect the parts for shipping damage, and they do not tell you to remove any
 protective film.
 
-## What differs between the eight manuals
+## What differs between the nine manuals
 
 - **The CT800 2012 manual does not carry the sentence "The hardware is separated
   into four steps."** Everything else is word for word the same.
@@ -73,11 +76,16 @@ protective film.
 - **All four CT850 manuals say four steps and print four**, the 2018 book included.
   It is the only CT850 manual whose four steps are not the CT800 four steps; see its
   own procedure card.
+- **The XT685 2010 manual prints these two items word for word as the CT800 2012
+  manual does** - no "separated into four steps" sentence - and then prints **four**
+  assembly steps. It is the only XT machine that uses this wording at all; every
+  other XT manual uses the four-item list described below. Its page also carries the
+  tools panel, and it has no carton list; see its own assembly cards.
 
 ## This is not the CT900 wording
 
-The CT900, XT and 2026 commercial manuals print a **four**-item unpacking list
-that adds "inspect for any damage or missing parts" and does **not** mention
+The CT900, the **2015 and 2023** XT and the 2026 commercial manuals print a
+**four**-item unpacking list that adds "inspect for any damage or missing parts" and does **not** mention
 cutting along the dotted line on the bottom of the box. That is a different set
 of instructions for different machines - see the linked card rather than mixing
 the two.

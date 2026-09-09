@@ -40,7 +40,8 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-operating-environment-voltage
 see_also:
 - xt-2023-safety-instructions-list
 - xt-2023-safety-placement-and-clearance
@@ -85,3 +86,9 @@ also the only environmental limit they give: `xt-2015-safety-placement-requireme
 range. The XT685ENT manual prints it on its Electrical Safety page, page 7, saying `unit`; the
 XT485ENT manual prints it on its Important Electrical Instructions page, page 6, saying
 `treadmill`.
+
+**The XT685-2010 manual prints a different figure and is not carried here.** Its Important
+Electrical Instructions page gives the CT800 family's range - `40 to 120 degrees Fahrenheit`, with
+the same 95% non-condensing humidity - rather than the single `40 degrees C` above
+(`ct900ent-operating-environment-voltage`). Quoting 40 degrees C for an XT685-2010, or the
+40-to-120 Fahrenheit range for an XT685-2015 or XT685-2023, would be wrong in both directions.

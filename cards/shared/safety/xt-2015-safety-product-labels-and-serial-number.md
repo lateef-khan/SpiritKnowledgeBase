@@ -2,7 +2,7 @@
 id: xt-2015-safety-product-labels-and-serial-number
 title: The stickers on the machine, and where the manual says the serial number is
 kind: fact
-question: Where is the serial number and the warning sticker on a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or on a Spirit XT485ENT treadmill?
+question: Where is the serial number and the warning sticker on a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or on a Spirit XT485ENT treadmill?
 asked_as:
 - where is the serial number on my treadmill
 - i need the serial number to register the warranty
@@ -29,6 +29,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   section: safety
   code: '*'
@@ -45,7 +46,7 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 8, Record Your Serial Number / Serial Number Location; the XT285 and
     XT485 manuals print the same page on page 8, the XT385 and XT685 manuals on page
-    9. The XT485ENT owner's manual prints its Record Your Serial Number panel on page 4
+    9. The XT485ENT owner's manual prints its Record Your Serial Number panel on page 4 The XT685 2010 owner's manual prints its Record Your Serial Number panel on PDF page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -98,3 +99,20 @@ all three locations in words - serial number on the rear of the motor cover, saf
 sticker and Proposition 65 sticker on the interior side of the upright
 (`xt-2023-safety-serial-number-sticker`, `xt-2023-safety-warning-sticker-on-the-upright`,
 `xt-2023-safety-proposition-65-sticker`). Those are that machine's statements.
+
+## The XT685-2010 manual prints the panel and nothing else
+
+**Its `Record Your Serial Number` panel is the CT800 family's panel** - `Please record the serial
+number of this fitness product in the space provided below. Serial Number: ______` - beside a
+`Register Your Purchase` panel pointing at the registration card and at the online registration
+page.
+
+**It names no part and describes no sticker.** The manual does not say where on the machine the
+number is, does not mention a barcode, and never says that a safety warning label or a Proposition
+65 label is applied to the machine. It carries no Proposition 65 wording at all, inside the manual
+or on a label (`xt-2015-safety-proposition-65-warning`), and it has no PRODUCT LABELS page. Point
+the customer at their own manual's serial number panel, or have them read the number off the
+machine and confirm it.
+
+**Do not carry `rear of the motor cover` back onto it** from the 2023 XT manuals
+(`xt-2023-safety-serial-number-sticker`); that is a 2023 statement about a later machine.

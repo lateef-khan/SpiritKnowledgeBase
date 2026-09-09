@@ -32,6 +32,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -61,3 +62,6 @@ These manuals describe no way to change the 5 minute pause timeout.
 
 The five 2015 XT owner's manuals print the same behaviour. The XT185-2015 and XT285-2015 manuals
 call it the **red** Stop key; the other three simply call it the Stop key.
+
+**The XT685 2010 owner's manual prints the same behaviour on its p. 19**, under PAUSE/STOP/PRESET,
+calling it the **red** Stop key, so this card covers that machine.

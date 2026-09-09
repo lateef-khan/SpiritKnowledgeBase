@@ -1112,6 +1112,24 @@
   origin_uri: file://CE800ENT Service Manual.pdf
   sha256: fe485a244293def94a02c66d7c1bb407cd578b7ab49472dd79541c2a3bc17104
   ingested_at: '2026-09-08'
+- id: spirit-ent-console-bluetooth-pairing-tip
+  title: Spirit Commercial ENT Console - Connecting Bluetooth (support note, rev 04.14.2021)
+  kind: text
+  origin_uri: file://_ENT_Tips_/ENT Support - Bluetooth Pairing.pdf
+  sha256: 8d5d2f4298dc6a3ecbea2fa057cf6836392d44e02d19d3fdc3be78d8b8a45045
+  ingested_at: '2026-09-09'
+- id: spirit-ent-console-internet-connection-tip
+  title: Spirit Commercial ENT Console - Connecting to the Internet (support note)
+  kind: text
+  origin_uri: file://_ENT_Tips_/ENT Support - Connecting to the Internet.pdf
+  sha256: 4dbd651746a19804aa1a3a8529befa223378095a65904cabe847aa274ff6f782
+  ingested_at: '2026-09-09'
+- id: spirit-ent-console-screen-mirroring-tip
+  title: Spirit Commercial ENT Console - Screen Mirroring (support note)
+  kind: text
+  origin_uri: file://_ENT_Tips_/ENT Support - Screen Mirroring.pdf
+  sha256: e25211e3c14fd372f91e771440f5fbcf10ecad874a6bfaa3d73e5c9ac63a7695
+  ingested_at: '2026-09-09'
 - id: spirit-models-sole-bikes
   title: Sole bike model numbers from the Spirit database Models table
   kind: markdown
@@ -1177,6 +1195,15 @@
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
   sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-800810-duplicate-scan
+  title: 'DUPLICATE SCAN, do not card from this: part 800810 filed under 2010 is a photocopy
+    of the CT800 2012 owner''s manual. Same internal stamp CT800_20130729, same 30 pages,
+    same warranty effective March 1 2012, 95.1% word-level match. There is no 2010 CT800
+    manual. Use spirit-treadmill-ct800-2012-owners-manual instead.'
+  kind: text
+  origin_uri: file://Treadmills/CT800/CT800_2010_OM_800810.pdf
+  sha256: ff3c61a6dd4e5198dd814238b9fd034752644068b0d42ddc3982744568259312
   ingested_at: '2026-09-09'
 - id: spirit-treadmill-ct800-2012-owners-manual
   title: 2012 Spirit CT800 treadmill owner's manual
@@ -1323,6 +1350,12 @@
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485ENT/2023/XT485ENT_485850_OM_20210416.pdf
   sha256: 695d877d60fdb56c51023dc0e65339a02280381b00fb0be9f188f252f675c7ed
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt685-2010-owners-manual
+  title: Spirit XT685 Treadmill Owner's Manual (2010, part 652810) - OCR
+  kind: text
+  origin_uri: file://Treadmills/XT685/XT685_2010_ OM_652810.pdf
+  sha256: 62c9eb80482d180d5d9073db38d7cca055d40b1e115316202194d98bfc617ec8
   ingested_at: '2026-09-09'
 - id: spirit-treadmill-xt685-2015-owners-manual
   title: 2015 Spirit XT685 treadmill owner's manual

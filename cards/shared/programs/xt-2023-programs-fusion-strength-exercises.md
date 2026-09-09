@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: programs
@@ -79,4 +80,4 @@ source:
 
 The console names the first one as "DUMBBELL ROW". The manual prints the remaining four across two columns of one page, so the order of exercises 2-5 above is the order they read down the left column then the right; the manual states only that the five are performed sequentially as listed.
 
-The 2015 XT485 and XT685 owner's manuals print the same five exercises in the same order and the same words.
+The 2015 XT485 and XT685 owner's manuals print the same five exercises in the same order and the same words, and so does the **2010 XT685** manual (printed pages 20-21).

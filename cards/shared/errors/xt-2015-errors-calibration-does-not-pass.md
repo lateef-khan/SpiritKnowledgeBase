@@ -34,6 +34,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: errors
   code: '*'
@@ -50,7 +51,7 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'ADJUSTING THE SPEED SENSOR, page 30; the same section is page 38 of the
     XT285 2015 manual, page 39 of the XT385, page 44 of the XT485 and page 43 of the
-    XT685; all four CT800 owner''s manuals print the same sentence under Adjusting The Speed Sensor - printed page 24 of the 2012 manual (text.md lines 1053-1054), printed page 36 of the 2016 manual (text.md lines 938-939), printed page 38 of the 2020 manual (text.md lines 976-977) and printed page 51 of the CT800ENT 2022 manual (text.md lines 1154-1155); the CT850 2018 owner''s manual prints the same sentence under ADJUSTING THE SPEED SENSOR on printed page 40 (text.md lines 1020-1021)'
+    XT685; all four CT800 owner''s manuals print the same sentence under Adjusting The Speed Sensor - printed page 24 of the 2012 manual (text.md lines 1053-1054), printed page 36 of the 2016 manual (text.md lines 938-939), printed page 38 of the 2020 manual (text.md lines 976-977) and printed page 51 of the CT800ENT 2022 manual (text.md lines 1154-1155); the CT850 2018 owner''s manual prints the same sentence under ADJUSTING THE SPEED SENSOR on printed page 40 (text.md lines 1020-1021); the XT685 2010 owner''s manual prints the same sentence under Adjusting The Speed Sensor on printed page 32 (PDF page 36, text.md lines 1464-1465)'
   extracted_at: '2026-09-09'
 ---
 
@@ -102,3 +103,15 @@ all print a calibration procedure.
 **A Sole E1 is not this fault.** On several Sole treadmills `E1` *is* the no-RPM-signal
 code raised during calibration (`f63-2016-e1-error-code`, `f65-2023-e1-no-rpm-signal`).
 These Spirit manuals raise no code at all when calibration fails.
+
+**The 2010 XT685 owner's manual prints the same one-line answer**, word for word, with no
+error code and no second cause.
+
+**On the XT685 the alignment check the sentence points at is not the XT one in 2010.** The
+2010 XT685 manual describes the **CT800-shaped** procedure - loosen **8** motor-hood screws,
+**two** screws hold the sensor, and align it with the **centre of the magnet as it passes** -
+not the 2015 XT procedure of 4 hood screws, one sensor screw and "as close as possible to the
+pulley without touching it". So on the XT685 the *remedy* this row sends a reader to changed
+between 2010 and 2015 even though the row itself did not. The alignment procedure is a
+maintenance fact and is carded as `spirit-ct800-maintenance-speed-sensor-alignment`, not here;
+a 2010 XT685 owner needs that CT800-shaped procedure rather than the XT one.

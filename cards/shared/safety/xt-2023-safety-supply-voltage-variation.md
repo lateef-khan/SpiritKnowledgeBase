@@ -42,7 +42,8 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-operating-environment-voltage
 see_also:
 - spirit-product-must-be-grounded
 - xt-2023-safety-afci-gfci-nuisance-tripping
@@ -113,3 +114,11 @@ the action.
 The nominal circuit these two manuals name is **115 volt AC, 60 Hz, 20 amp** -
 `spirit-mt200-safety-outlet-and-circuit-requirement` - which is neither the XT manuals' 110 volt
 nor the 2026 machines' 120 volt.
+
+**The XT685-2010 manual prints this same paragraph, and it is carried elsewhere.**
+In that manual the ten percent rule and the temperature-and-humidity paragraph are one
+printed block on the electrical page, so both halves are held together on
+`ct900ent-operating-environment-voltage` - the card that already carries the CT800, CT850 and
+CT900ENT machines for the same reason. Every figure agrees with this card - ten percent,
+performance rather than damage, not covered under warranty, and the power company or a licensed
+electrician as the action.

@@ -30,6 +30,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-console-quick-speed-and-incline-keys
 - xt-2015-console-select-keys-two-digits
 - xt-2023-console-direct-speed-incline-buttons
 see_also:

@@ -2,8 +2,8 @@
 id: xt-2015-programs-fusion-program-xt485-xt685
 title: What the Fusion program is and how to set it up from its own key
 kind: procedure
-question: What is the Fusion program on a 2015 Spirit XT485 or XT685 treadmill and
-  how do I set it up?
+question: What is the Fusion program on a Spirit XT485 or XT685 treadmill with a
+  dedicated Fusion key, and how do I set it up?
 asked_as:
 - what is the fusion workout
 - how do i set up fusion on my treadmill
@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -61,5 +62,7 @@ Setting it up:
 8. The Message Center blinks the desired **recovery time (default setting is 0:30)** that you want after completing both the cardio and strength intervals. Use the + or - keys to adjust, then press Enter.
 
 The manual stops at step 8 and prints no closing "press Start" step here.
+
+**The 2010 XT685 manual prints these same eight steps and the same descriptions** (setup on printed page 19, profile on printed page 23), with the same 10/20/30 interval choice, the same 1:00 interval default and the same 25% / 65% elevation alternation. **It prints no default figure for the recovery time** at step 8 - the 0:30 default above is stated only in the 2015 manuals.
 
 For how a Fusion session runs from warm-up to cool-down, and for the five dumbbell exercises it calls out, see the linked cards — the 2015 manuals print both of those word for word as the 2023 manuals do.

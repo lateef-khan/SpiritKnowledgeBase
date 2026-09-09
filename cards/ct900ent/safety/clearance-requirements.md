@@ -33,6 +33,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-ct800-safety-no-placement-or-clearance-requirement
 - ct900ent-general-safety-warnings
 - spirit-ct800-safety-instructions-list
 - ct800ent-2022-safety-placement-and-rear-clearance
@@ -54,8 +55,9 @@ bullet of their Important Safety Instructions list, citing the same standard and
 figures - 0.5 m (19.7 in.) on each side and 1 m (39 in.) behind the machine
 (`spirit-ct800-safety-instructions-list`).
 
-**The other two CT800 manuals do not print it.** The CT800-2012 manual states no clearance figure
-anywhere. The CT800ENT-2022 manual cites no standard and gives only a rear distance - a minimum of
+**The other two CT800 manuals do not print it.** The CT800-2012 manual states no
+clearance figure anywhere, and no placement rule of any kind
+(`spirit-ct800-safety-no-placement-or-clearance-requirement`). The CT800ENT-2022 manual cites no standard and gives only a rear distance - a minimum of
 1 metre between the rear of the treadmill and any fixed object, with no side figure:
 `ct800ent-2022-safety-placement-and-rear-clearance`. Quoting 19.7 in. for either of those two
 machines would be an invention.

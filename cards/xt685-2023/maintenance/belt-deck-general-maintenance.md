@@ -30,7 +30,9 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-maintenance-lubrication-interval-180-hours
+- xt-2015-maintenance-deck-lubrication-procedure
 see_also:
 - xt685-2023-flipping-a-worn-deck
 - xt-2023-maintenance-deck-lubrication-interval
@@ -45,7 +47,9 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-**This machine is not lubricated by the owner, in any of its three manuals.** None of the 2015, the 2023 and the XT685ENT owner's manuals carries a deck lubrication section, and all three state: **"Do not apply any type of lubricant or wax to the surface."**
+**This machine is not lubricated by the owner, in any of the three manuals this card covers.** None of the 2015, the 2023 and the XT685ENT owner's manuals carries a deck lubrication section, and all three state: **"Do not apply any type of lubricant or wax to the surface."**
+
+**The XT685 2010 manual is the exception and reverses this.** It ships a tube of Deck/Belt Lubricant as tool item 18, prints a full Belt/Deck Lubrication Procedure, requires lubrication **every 180 hours of use or sooner if the deck is dry**, and warns that failure to lubricate at regular intervals may void the warranty (`xt-2015-maintenance-lubrication-interval-180-hours`, `xt-2015-maintenance-deck-lubrication-procedure`, `xt-2015-maintenance-why-lubrication-matters`). It is **not** on this card. Telling a 2010 owner never to lubricate is the one answer this card can get badly wrong, so confirm the manual year before answering.
 
 The two manuals give different reasons for it, and each says only its own:
 

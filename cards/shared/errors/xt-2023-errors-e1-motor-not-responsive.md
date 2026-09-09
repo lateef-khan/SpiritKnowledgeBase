@@ -39,6 +39,7 @@ facets:
   code: e1
 authority: 3
 not_to_be_confused_with:
+- ct850-2016-motor-not-responsive-after-start
 - ct900-e1-over-current
 - cvc800-e-1-ram-error
 - f65-2026-e01-over-current
@@ -98,3 +99,11 @@ a Calibration Procedure section, and neither has a speed-sensor adjustment secti
 of either manual is told to run calibration and is not told how. The base XT 2015 and 2023
 manuals do print the procedure (`xt-2023-console-calibration-basic`), so answer an ENT owner
 from those rather than from the manual in their hands, and say that is where it comes from.
+
+**The XT685 did not always print E1 in this row.** The XT685 **2010** owner's manual prints
+the identical condition and the identical two branches with **`LS`** in place of `E1`
+(Service Checklist - Diagnosis Guide, printed page 31), which is the code the CT800 and CT850
+manuals use (`ct850-2016-motor-not-responsive-after-start`). The 2010 machine is on that card,
+not this one. The symptom, the split by whether the belt moved and both remedies are the same
+in all three revisions - only the code string changed between 2010 and 2015. Do not answer a
+2010 XT685 with `E1`.

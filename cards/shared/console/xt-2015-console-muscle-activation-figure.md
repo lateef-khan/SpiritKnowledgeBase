@@ -27,6 +27,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -60,3 +61,6 @@ body muscles are activated by adjusting the incline automatically.
 a different reading - see `xt-2015-console-heart-rate-percent-profile`.
 
 **The XT185-2015 and XT285-2015 have no muscle activation figure.** Neither manual mentions one.
+
+**The XT685 2010 owner's manual prints the same paragraph, the same two bullets and the same two
+elevation bands on its p. 16**, so this card covers that machine.

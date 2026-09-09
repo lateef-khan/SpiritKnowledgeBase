@@ -26,6 +26,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: programs
@@ -56,5 +57,11 @@ source:
 **Note**: The transmitter is automatically activated when it detects activity from the user's heart. It automatically deactivates when it does not receive any activity. Although the transmitter is water resistant, moisture can have the effect of creating false signals, so completely dry the transmitter after use to prolong battery life. Estimated transmitter battery life is **2500 hours**. The replacement battery is **Panasonic CR2032**.
 
 The 2023 XT285, XT385, XT485 and XT685 owner's manuals print these same instructions and the same battery figures under "Heart Rate Chest Strap* (not included)". The 2023 XT185 owner's manual has no heart rate chapter at all.
+
+**The 2010 XT685 owner's manual prints these same six steps and the same battery figures under
+"Wearing The Chest Strap"** (printed page 26). It does not say the strap is not included. It writes
+step 1 as "using the locking parts" where the CT900 manual writes "using the interlocking key", and
+it adds one sentence to step 5 that the others do not print: *wearing clothing over the
+transmitter/strap doesn't affect performance.*
 
 If your readings are erratic (wild, random numbers), see [chest strap warning - erratic operation](chest-strap-erratic-operation-interference.md).

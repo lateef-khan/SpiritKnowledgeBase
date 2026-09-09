@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-instructions-list
 title: The appliance safety precautions printed before you use the treadmill
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit CT800 or CT850 treadmill?
+question: What does the Important Safety Instructions page say for a Spirit CT800 or CT850 treadmill, or for a Spirit XT685-2010 treadmill?
 asked_as:
 - what are the safety rules for my treadmill
 - safety instructions page of the ct800 or ct850 manual
@@ -31,6 +31,7 @@ facets:
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - xt685-2010
   section: safety
   code: '*'
 authority: 3
@@ -49,7 +50,9 @@ source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: Important Safety Instructions, page 2; the CT800 2016 owner's manual prints
     the same page on pages 3-4 and the CT800 2020 owner's manual on pages 4-5. The CT850
-    owner's manuals print the same page on pages 4-5 (2016), pages 3-4 (2018) and pages 4-5 (2020)
+    owner's manuals print the same page on pages 4-5 (2016), pages 3-4 (2018) and pages 4-5 (2020).
+    The XT685 2010 owner's manual prints the same page as its Important Safety Instructions,
+    PDF page 6 (printed 2)
   extracted_at: '2026-09-09'
 ---
 
@@ -89,6 +92,21 @@ The page closes with **SAVE THESE INSTRUCTIONS - THINK SAFETY!**
 manuals.** It is the boilerplate of the appliance-safety list, and it sits beside a warranty
 chapter that prices light-commercial and full-commercial use. Do not quote it as a restriction on
 where the machine may be installed.
+
+## The XT685-2010 manual prints this list, not the XT list
+
+**The Spirit XT685-2010 owner's manual prints these same thirteen WARNING items and the same DANGER
+line**, in the 2012 manual's order and wording, closing with
+`SAVE THESE INSTRUCTIONS - THINK SAFETY!`. Like the 2012 manual it prints **none** of the four items
+the 2016 and 2020 manuals add: no user weight figure, no age figure, no reduced-capability clause
+and no clearance figure. It prints no California Proposition 65 warning anywhere either.
+
+**Its page is this page, item for
+item** - it does **not** carry the WARNING header requiring a 110-volt, 15-amp grounded outlet on a
+flat level surface, the capitalised extension-cord line, the reduced-capability sentence or the
+`Keep children under the age of 13 away from this machine` bullet that the five 2015 XT manuals
+print (`xt-2015-safety-instructions-list`). Answering an XT685-2010 from the 2015 XT card would
+quote four rules its manual does not contain.
 
 ## The 2016 and 2020 manuals add four items the 2012 manual does not print
 

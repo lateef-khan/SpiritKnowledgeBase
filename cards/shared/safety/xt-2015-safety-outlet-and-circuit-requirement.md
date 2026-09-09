@@ -101,3 +101,9 @@ from its own safety page.
 XT manuals carry none. Its grounding page prints only `a nominal 110-volt circuit` - no amp figure
 anywhere in the manual - so there is no 15-amp figure to quote for an XT685ENT:
 `spirit-product-must-be-grounded`.
+
+**The XT685-2010 manual states no amp figure anywhere**, exactly as the XT685ENT manual does. Its
+safety instructions page carries no outlet WARNING header, its circuit-breaker paragraph ends
+without the `dedicated 15 amp circuit breaker` sentence the CT800 manuals close with, and its
+grounding page reads only `a nominal 110-volt circuit`. So the 15-amp figure on this card is a 2015
+statement and may not be quoted for an XT685-2010 - see `spirit-product-must-be-grounded`.

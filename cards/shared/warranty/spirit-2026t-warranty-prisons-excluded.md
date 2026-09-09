@@ -81,7 +81,7 @@ And again as exclusion 8, in the EXCLUSIONS list on the next page:
 
 The exclusion is **flat**. The manuals name no shortened period, no separate institutional programme and no way to buy cover back. They also do not say what happens to a machine moved into a correctional facility part way through its term.
 
-**This is not the exclusion the XT manuals print in slot 8.** The residential XT manuals use item 8 for a use-environment limit - "any environment other than a residential setting or non-dues paying facility with 5 hours use or less per day" - and say nothing about prisons, except the XT685, which carries the prisons line as a footnote to its light commercial table. Read the machine's own list rather than carrying either sentence across: `xt-2023-warranty-use-environment`.
+**This is not the exclusion the XT manuals print in slot 8.** The residential XT manuals use item 8 for a use-environment limit - "any environment other than a residential setting or non-dues paying facility with 5 hours use or less per day" - and say nothing about prisons, except the 2015 and 2023 XT685, which carry the prisons line as a footnote to their light commercial table. **The 2010 XT685 carries it nowhere.** Its light commercial table prints no footnote and its nine-item exclusion list has no prisons item, so no XT685 manual older than 2015 states this exclusion at all. Do not quote it to the owner of one. Read the machine's own list rather than carrying either sentence across: `xt-2023-warranty-use-environment`.
 
 **The four Spirit CT800 manuals and the four CT850 ones exclude prisons too, and only five of the eight say it twice.** The exclusion itself is in all eight, as item **9** of a ten-item list rather than item 8:
 

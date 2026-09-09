@@ -3,7 +3,7 @@ id: ct850-2016-motor-not-responsive-after-start
 title: The motor does not respond after START is pressed and the display shows LS
 kind: troubleshooting
 question: What does it mean when the motor does not respond after START on a Spirit CT800,
-  CT800ENT or CT850 treadmill?
+  CT800ENT, CT850 or 2010 XT685 treadmill?
 asked_as:
 - motor not responding after i press start
 - belt moves then stops and shows ls
@@ -31,6 +31,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xt685-2010
   section: errors
   code: low-speed
 authority: 3
@@ -45,7 +46,7 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
-    56-57 (printed 55-56); all four CT800 owner's manuals print the same two-way row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 996-999), printed page 38 of the 2016 manual (text.md lines 989-992), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md lines 1088-1091) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1180-1181); all four CT850 owner's manuals print the same two-way row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2016 manual (text.md lines 1085-1088) and of the 2020 manual (text.md lines 1084-1087), SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md lines 1048-1051) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual (text.md lines 1186-1187)
+    56-57 (printed 55-56); all four CT800 owner's manuals print the same two-way row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 996-999), printed page 38 of the 2016 manual (text.md lines 989-992), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md lines 1088-1091) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1180-1181); all four CT850 owner's manuals print the same two-way row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2016 manual (text.md lines 1085-1088) and of the 2020 manual (text.md lines 1084-1087), SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md lines 1048-1051) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual (text.md lines 1186-1187); the XT685 2010 owner's manual prints the same two-way row in Service Checklist - Diagnosis Guide on printed page 31 (PDF page 35, text.md lines 1397-1400)
   extracted_at: '2026-09-08'
 ---
 
@@ -72,10 +73,17 @@ entirely and says only `Reset power. If still no good contact service.` - see
 the owner's manual for the same machine, not a second machine. The CT900ENT gives the short
 answer as well (`ct900ent-motor-unresponsive-after-start`).
 
-**Three look-alikes for the same symptom.** The Spirit XT manuals print `E1` in this row
-rather than `LS` (`xt-2023-errors-e1-motor-not-responsive`), and several Sole treadmills
-raise an `LS` of their own with a different diagnostic path (`sole-ls-error`). A Sole `LS`
-is not this fault, and `E1` is not this code.
+**Three look-alikes for the same symptom.** The 2015 and 2023 Spirit XT manuals print `E1`
+in this row rather than `LS` (`xt-2023-errors-e1-motor-not-responsive`), and several Sole
+treadmills raise an `LS` of their own with a different diagnostic path (`sole-ls-error`). A
+Sole `LS` is not this fault, and `E1` is not this code.
+
+**The XT685 changed code between generations, and the 2010 machine is on this card.** The
+XT685 **2010** owner's manual prints this row with `LS`, word for word as the CT800 and CT850
+manuals do. The XT685 2015 and 2023 manuals print the identical two branches with `E1`
+instead. The symptom, the split by whether the belt moved, and both remedies are unchanged -
+only the code string moved. Answer a 2010 XT685 owner with `LS`; do not carry `E1` back onto
+that machine, and do not carry `LS` forward onto the 2015 or 2023 one.
 
 **The CT900 owner's manual prints this same two-way row, but the CT900 is not on this card.**
 `spirit-treadmill-ct900-owners-manual`, TROUBLESHOOTING on printed page 40 (text.md lines

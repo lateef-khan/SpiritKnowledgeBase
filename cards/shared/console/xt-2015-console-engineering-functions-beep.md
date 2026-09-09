@@ -31,6 +31,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-console-engineering-mode-menu
 - xt-2015-console-engineering-functions-key-tone
 - xt-2023-console-engineering-functions
 - xt-2023-console-engineering-functions-with-key-tone

@@ -80,8 +80,8 @@ a `Maximum User Weight` in the 2016, 2018 and 2020 books, and 450 lb as a
 `Recommended User Weight Limit` in the CT850ENT-2022 book. The figure is 450 in all four and none
 of them says what happens above it.
 
-**The CT800-2012 manual prints no user weight limit anywhere.** Do not carry 450 lbs back onto it:
-`xt-2015-safety-no-user-weight-limit-printed`, which now carries that machine.
+**The CT800-2012 manual prints no user weight limit anywhere.** Do not carry 450 lbs
+back onto it: `xt-2015-safety-no-user-weight-limit-printed`.
 
 **Other Spirit treadmills print other figures**, and none of them answers for a CT800: 425 lbs on
 the XT485-2023, XT685-2023, XT685-2015 and XT685ENT

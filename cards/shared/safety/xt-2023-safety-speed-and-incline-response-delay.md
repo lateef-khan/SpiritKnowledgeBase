@@ -2,7 +2,7 @@
 id: xt-2023-safety-speed-and-incline-response-delay
 title: Why speed and incline changes are not instant
 kind: fact
-question: Why does a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill, take a moment to change speed or incline?
+question: Why does a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill, take a moment to change speed or incline?
 asked_as:
 - why is my treadmill slow to speed up
 - the incline lags when i press the button
@@ -41,6 +41,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -53,7 +54,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints both sentences on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print both sentences on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 pages 6-7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 pages 6-7
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints both sentences on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print both sentences on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 pages 6-7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 pages 6-7. The XT685 2010 owner's manual prints it on its Important Operation Instructions page, PDF page 8 (printed 4)
   extracted_at: '2026-09-09'
 ---
 
@@ -148,3 +149,9 @@ to a customer asking about speed or incline.
 > incline level on the computer console and release the adjustment button. The computer will obey
 > the command gradually.
 
+**The Spirit XT685-2010 owner's manual prints both sentences in the XT wording**, with `treadmill`,
+`work level`, `computer console` and `adjustment key`. Set the level, **release** the adjustment
+key, and the computer obeys gradually. It gives no ramp rate and no time in seconds.
+
+It is not affected by the `resistance` misprint: that belongs to the CT800 2016 and 2020 and CT850
+2016, 2018 and 2020 manuals, which are different documents.

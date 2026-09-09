@@ -45,6 +45,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -62,7 +63,8 @@ source:
   locator: 'EXCLUSIONS items 4 and 5, p. 41. Identical in all five 2023 XT manuals:
     xt185 p. 41, xt285 p. 49, xt385 p. 54, xt485 p. 54, xt685 p. 53. Identical again
     in all five 2015 XT manuals: xt185 text.md lines 783-784, xt285 lines 996-997,
-    xt385 lines 1049-1050, xt485 lines 1186-1187, xt685 lines 1175-1176. XT485ENT p.
+    xt385 lines 1049-1050, xt485 lines 1186-1187, xt685 lines 1175-1176. XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual
+    text.md lines 1560-1562). XT485ENT p.
     55 (text.md lines 1117-1118); XT685ENT p. 54 (text.md lines 1614-1615). CT800 2012
     p. 25 (lines 1125-1126), CT800 2016 p. 42 (lines 1100-1101), CT800 2020 p. 46 (lines
     1194-1195), CT800ENT 2022 p. 54 (lines 1243-1244). CT850 2016 p. 46 (spirit-treadmill-ct850-2016-owners-manual
@@ -74,7 +76,7 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - in both ENT manuals, and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
+No. Exclusion 5, in all eleven XT manuals - the 2010 XT685, the 2015 generation and the 2023 one - in both ENT manuals, and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
 
 > Products that have been: sold, transferred, bartered, or given to a third party.
 

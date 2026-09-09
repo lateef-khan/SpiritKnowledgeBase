@@ -32,6 +32,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -76,3 +77,8 @@ is printed the same in all five 2015 manuals.
 does not** - its incline paragraph drops the 0.5 increment and the return to zero,
 and adds the touchscreen and Direct Access routes instead; see
 `xt485ent-2023-console-incline-during-a-workout`.
+
+**The XT685 2010 owner's manual prints all four bullets on its p. 19**, including the 0.5 increments
+and the return to zero, so this card covers that machine. Its rapid alternative is the **Quick
+Incline** key followed by 0 through 9 - see
+`xt685-2010-console-quick-speed-and-incline-keys`, not the Select key card.

@@ -32,6 +32,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-console-calibration-wheel-size-3-01
 - xt-2023-console-calibration-basic
 - xt-2023-console-calibration-wheel-size-two-four-three
 - xt685-2023-calibration-procedure

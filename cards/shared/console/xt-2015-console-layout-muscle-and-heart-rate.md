@@ -16,6 +16,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -68,3 +69,12 @@ activation figure nor the heart rate bar graph - see their own cards.
 **This is the 2015 panel, not the 2023 one.** The 2023 XT385, XT485 and XT685 consoles are labelled
 with a USB charging port, a handrail lock, a child lock and direct speed and incline buttons, and
 they have no Select keys - see `xt-2023-console-layout`.
+
+**The XT685 2010 owner's manual carries the same labelled diagram on its p. 18.** It names the
+Muscle Activation Profile, the Heart Rate % Profile, the Integrated Speakers for MP3 player, the
+Swivel Fan, the Contact Heart Rate Grips, the Large LCD with feedback and scrolling message center,
+and a **water bottle holder and cargo compartment for keys, phone, or MP3 player** that the 2015
+diagram does not label. Its drawing labels a **QUICK KEYS** block where the 2015 diagram labels
+**Select Keys Control Speed & Incline**; the keys are used differently as well, so read
+`xt685-2010-console-quick-speed-and-incline-keys` for that machine and
+`xt-2015-console-select-keys-two-or-three-digits` for the 2015 ones.

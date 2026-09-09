@@ -32,6 +32,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -73,3 +74,14 @@ All five 2015 manuals add one more sentence about how the reading starts: **gras
 sensors on the stationary handle bars (or, on the four machines that support it, wearing the heart
 rate transmitter) starts the Heart Icon blinking, which may take a few seconds**, and the Pulse
 window then shows the rate in beats per minute.
+
+**The XT685 2010 owner's manual prints this section on its p. 20**, including **"You may not use the
+Grip Pulse feature while in Heart Rate Programs"**, so this card covers that machine. It resolves
+the ambiguous sentence with **"or"**, as the 2015 manuals do, but it puts the sensors somewhere
+else: *"You must use both stainless steel sensors on the **front cross bar** or the heart rate
+transmitter chest strap to display your pulse"*, where every other manual in this family says
+"stationary grips". It does not print the blinking Heart Icon sentence the 2015 manuals add.
+
+**The CT800 and CT850 LED manuals say the opposite about Heart Rate Control**, allowing Grip Pulse
+during it - the CT800 2012 manual on its p. 12 and the 2016 and 2020 manuals in the same place:
+`ct850-2020-heart-rate-feature`. Do not read one family's rule onto the other.

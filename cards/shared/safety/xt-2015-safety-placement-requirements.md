@@ -35,6 +35,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-ct800-safety-no-placement-or-clearance-requirement
 - xt-2023-safety-placement-and-clearance
 - ct900ent-clearance-requirements
 see_also:
@@ -87,3 +88,10 @@ it says nothing about children, pets or keeping the area clear of furniture.
 **Do not fill that gap from its model-mate.** The XT685ENT manual does have a GROUNDING & LOCATION
 REQUIREMENTS page, asking for 20in at the front and each side and 6ft behind
 (`xt-2023-safety-placement-and-clearance`). Those are that machine's figures.
+
+**The XT685-2010 manual prints none of this.** It has no location page and no scattered placement
+rules either - no flat-level-surface sentence, no carpet rule and no outlet requirement on its
+safety page. The only thing it says that bears on placement is `Do not use outdoors` and the
+rain-and-moisture paragraph. See
+`spirit-ct800-safety-no-placement-or-clearance-requirement`, and do not carry the flat-level-surface
+or shag-carpet rules back onto that machine.

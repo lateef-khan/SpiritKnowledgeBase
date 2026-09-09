@@ -28,6 +28,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -47,6 +48,8 @@ source:
 **Incline:** All of your lower extremity muscles will be equally challenged throughout this program. The incline alternates between 25% and 65% of maximum elevation.
 
 All five 2015 XT owner's manuals print the same description under the name **Interval**, and add one sentence the CT900ENT manual does not: "This program will spike similar to the speed profile, but in different segments (columns)". They print a profile picture only, with no numeric segment table.
+
+**The 2010 XT685 owner's manual prints the same description under the name Interval** (printed page 23), including the 25% and 65% elevation figures and that same extra sentence about spiking in different segments. It also adds the sentence the 2020 CT800 and CT850 manuals add - "Your cardiovascular system gets programmed to use oxygen more efficiently" - which no other XT manual prints.
 
 **The 2023 XT manuals dropped the Interval program and replaced it with HIIT**, whose text is different — see `xt-2023-programs-hiit-program`. No 2015 XT machine has a HIIT program and no 2023 XT machine has an Interval program.
 

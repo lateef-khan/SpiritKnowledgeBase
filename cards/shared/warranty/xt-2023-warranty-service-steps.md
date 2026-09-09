@@ -39,6 +39,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -61,7 +62,9 @@ source:
     p. 55, xt485 p. 55, xt685 p. 54. They are word for word the same in the five 2015
     XT manuals, which number the mailing address as a sixth step: xt185 text.md lines
     795-810, xt285 lines 1008-1023, xt385 lines 1061-1076, xt485 lines 1197-1212, xt685
-    lines 1186-1201. XT485ENT p. 56 (text.md lines 1130-1146), which numbers the mailing
+    lines 1186-1201. XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md
+    lines 1576-1607), which numbers the mailing address as a sixth step. XT485ENT p. 56
+    (text.md lines 1130-1146), which numbers the mailing
     address as a sixth step. XT685ENT p. 55 (text.md lines 1638-1657), which leaves it
     unnumbered. CT800 2012 p. 25 (text.md lines 1138-1153), CT800 2016 p. 43 (lines
     1120-1137), CT800 2020 p. 47 (lines 1214-1231), CT800ENT 2022 p. 55 (lines 1262-1279),
@@ -97,7 +100,9 @@ Correspondence to the service department by mail:
 
 The 2023 back cover adds Fax 870-935-7611; the 2015 back covers print no fax number.
 
-The five steps are identical in all five 2023 XT manuals, in all five 2015 ones, and in both ENT manuals. The only structural difference is that the 2015 manuals number the mailing-address paragraph as a **step 6**, where the 2023 manuals print it unnumbered below step 5. The address itself is unchanged.
+**The 2010 XT685 has no back cover in this knowledge base**, so it is not a column in that table. The last page of its scan is blank, and the manual therefore states no general customer-care number, no email address and no street address. What it does print is the same SERVICE step 3 number, **(870) 935-1107**, and the same step 6 P.O. Box as every other manual here, and it heads that return address **Spirit Fitness, Inc.** as the 2015 XT manuals do. **Do not read a customer-care number or email for a 2010 XT685 out of a sibling manual** - if you give one, say which manual it came from.
+
+The five steps are identical in all five 2023 XT manuals, in all five 2015 ones, in the 2010 XT685 and in both ENT manuals. The only structural difference is that the 2015 manuals, the 2010 XT685 and the CT800 and CT850 ranges number the mailing-address paragraph as a **step 6**, where the 2023 manuals print it unnumbered below step 5. The address itself is unchanged.
 
 **The XT485ENT splits the two generations.** It numbers the mailing address as a step 6, following the 2015 layout, but prints the 2015 general contact pair as well - 800.258.4555 and spiritservice@spiritfitness.com - on a manual whose model id says 2023. Its copyright line reads © 2021, revision 04.16.2021. The **XT685ENT** follows the 2023 layout and the 2023 contact pair throughout.
 

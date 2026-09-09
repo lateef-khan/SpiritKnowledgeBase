@@ -29,6 +29,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   section: warranty
   code: '*'
@@ -48,7 +49,9 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'EXCLUSIONS, manual pp. 32-33, text.md lines 771-790. All nine items are
     identical in all five 2015 XT manuals: xt185 lines 771-790, xt285 lines 984-1003,
-    xt385 lines 1037-1056, xt485 lines 1173-1192, xt685 lines 1163-1181. The XT485ENT
+    xt385 lines 1037-1056, xt485 lines 1173-1192, xt685 lines 1163-1181. They are identical
+    again in the 2010 XT685 manual, p. 37: spirit-treadmill-xt685-2010-owners-manual
+    text.md lines 1542-1572. The XT485ENT
     prints the same nine: spirit-treadmill-xt485ent-2023-owners-manual pp. 55-56, text.md
     lines 1105-1125'
   extracted_at: '2026-09-09'
@@ -72,10 +75,12 @@ Printed under the list:
 
 All nine items are word for word identical in the 2015 XT185, XT285, XT385, XT485 and XT685 manuals.
 
+**The 2010 XT685 manual prints the same nine items, word for word, thirteen years before the 2023 ones.** A word-level comparison of its whole warranty section against the 2015 XT685 differs in only three places, and none of them is in this list: the effective date, the missing prisons footnote under the table, and one extra responsibility item. So this list is settled across the whole XT685 range. The two differences that are real are in `xt685-2010-warranty-consumer-responsibilities` and `xt685-2023-light-commercial-warranty-periods`.
+
 **The XT485ENT prints this list, not the 2023 one.** Its manual is a 2021-generation document, and its item 6 is the harsher version - a product with no warranty registration card on file at Spirit Fitness is excluded outright. The note printed under its list uses "does not **apply to** Alaska or Hawaii", as the other 2015 manuals do.
 
 **Item 6 is the one that differs from the 2023 XT manuals, and it is the harsher version.** The 2015 list excludes outright any product "that does not have a warranty registration card on file at Spirit Fitness"; the 2023 list drops that whole sentence and keeps only the reservation of the right to ask for proof of purchase. Do not answer a 2015-machine registration question from `xt-2023-warranty-exclusions` - see `xt-2015-warranty-registration`.
 
-Item 8 is not the exclusion the Spirit commercial manuals print in that slot. CT900, CT900ENT and CTSBS900 use item 8 for prisons and correctional facilities; these manuals use it for the use-environment limit. The XT685 carries the prisons line as a footnote to its light commercial table instead.
+Item 8 is not the exclusion the Spirit commercial manuals print in that slot. CT900, CT900ENT and CTSBS900 use item 8 for prisons and correctional facilities; these manuals use it for the use-environment limit. The 2015 and 2023 XT685 carry the prisons line as a footnote to their light commercial table instead - but the **2010 XT685 carries it nowhere at all**, neither as a footnote nor as an item, so on that manual prisons are simply not excluded in writing (`spirit-2026t-warranty-prisons-excluded`).
 
 Three items are big enough to be asked about on their own and are held by cards that also cover the 2023 machines, because their wording is unchanged: item 5 in `xt-2023-warranty-transfer`, item 8 in `xt-2015-warranty-use-environment`, and item 9 with the 48-states note in `xt-2023-warranty-geographic-coverage`.

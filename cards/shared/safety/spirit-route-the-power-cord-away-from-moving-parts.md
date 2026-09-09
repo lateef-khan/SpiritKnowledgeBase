@@ -41,6 +41,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -61,7 +62,7 @@ source:
     owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important
     Electrical Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
     p. 5, XT385/XT685 p. 6), and the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T
-    owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5
+    owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3)
   extracted_at: '2026-09-08'
 ---
 
@@ -115,3 +116,9 @@ where the CT850 service manuals had it - as the closing half of the GFCI bullet
 (`spirit-never-use-a-gfci-wall-outlet`). The CT850ENT-2022 manual writes `main power cord` where
 the 2016, 2018 and 2020 manuals write `power cord`, exactly as the CT800ENT manual does. The two
 parts named are again the elevation mechanism and the transport wheels.
+
+**The Spirit XT685-2010 owner's manual prints the sentence too**, with `treadmill`, and puts it
+where the CT800 and CT850 manuals have it - as the closing half of the GFCI bullet
+(`spirit-never-use-a-gfci-wall-outlet`) rather than as the standalone WARNING its 2015 and 2023
+successors print it as. The two parts named are again the elevation mechanism and the transport
+wheels.

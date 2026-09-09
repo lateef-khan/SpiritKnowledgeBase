@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: programs
@@ -46,7 +47,7 @@ source:
 **Caution!** Do not use this treadmill for Heart Rate programs unless a steady, solid Actual Heart Rate value is being displayed. High, wild, random numbers being displayed indicate a problem.
 
 Areas to look for interference which may cause erratic heart rate:
-1. Treadmill is not properly grounded - see [grounding instructions](../safety/grounding-instructions.md). *(This cause is listed in the CT900 manual; the 2023 XT manuals begin their list at the next item.)*
+1. Treadmill is not properly grounded - see [grounding instructions](../safety/grounding-instructions.md). *(This cause is listed in the CT900 manual; the 2023 XT manuals and the 2010 XT685 manual begin their list at the next item.)*
 2. Microwave ovens, TV's, small appliances, etc.
 3. Fluorescent lights.
 4. Some household security systems.
@@ -58,5 +59,7 @@ Areas to look for interference which may cause erratic heart rate:
 If you continue to experience problems contact Spirit Fitness.
 
 The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same caution and the same list under "Chest Strap Warning* (not included)". The 2023 XT185 owner's manual has no heart rate chapter at all.
+
+**The 2010 XT685 owner's manual prints the same caution and the same seven remaining causes under "Erratic Operation"** (printed page 26). It closes with "contact your dealer" rather than "contact Spirit Fitness".
 
 The Troubleshooting table has a matching entry for this exact symptom ("Erratic pulse display") with a similar but shorter set of causes - see [wireless heart rate not working / erratic pulse](../maintenance/wireless-heart-rate-and-erratic-pulse.md).

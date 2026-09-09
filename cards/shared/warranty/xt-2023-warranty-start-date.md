@@ -45,6 +45,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -63,10 +64,11 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'WARRANTY - RESIDENTIAL, opening paragraph, p. 40. The same sentence opens
-    the warranty section of all ten XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385
+    the warranty section of all eleven XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385
     p. 53, xt485 p. 53, xt685 p. 52; 2015 - xt185 text.md line 750, xt285 line 964,
     xt385 line 1016, xt485 line 1153, xt685 line 1142. XT485ENT p. 55 (text.md lines
-    1085-1089); XT685ENT p. 53 (text.md lines 1571-1575). CT800 2012 p. 25 (text.md
+    1085-1089); XT685ENT p. 53 (text.md lines 1571-1575). XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md lines
+    1506-1510). CT800 2012 p. 25 (text.md
     lines 1093-1097), CT800 2016 p. 41 (lines 1058-1063), CT800 2020 p. 45 (lines
     1152-1157), CT800ENT 2022 p. 53 (lines 1203-1208). CT850 2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual
     text.md lines 1148-1154), CT850 2018 p. 45 (lines 1141-1147), CT850 2020 p. 45
@@ -82,6 +84,8 @@ The periods in the warranty table are counted **from the date of retail sale, as
 **In the absence of a sales receipt**, they are counted from **eighteen (18) months from the original factory shipping date**.
 
 The same sentence opens the warranty section of all five 2023 XT manuals **and all five 2015 ones**. Only the effective date and the model name on the line above it change - the 2015 manuals read *Effective March 13, 2021*, except the XT685 at *Effective November 30, 2021*.
+
+**The 2010 XT685 opens with it too**, in the XT wording with one addition the later manuals drop: it names the warrantor **Spirit Fitness, Inc. (Spirit Fitness)** in the first clause. It reads "from the date of **retail sale**, as determined by **sale receipt**", effective March 11, 2012 - a date whose day digits are OCR-recovered and could be March 1. The clock itself is unchanged.
 
 **The two ENT manuals open with it as well, and they do not agree on the wording.** The **XT685ENT** (effective February 16, 2024) prints the XT sentence exactly - "all its **home use** treadmill parts", "as determined by **a sales receipt**". The **XT485ENT** (effective March 16, 2021) drops "home use" and reads "as determined by **sale receipt**", the same two changes the 2026 manuals make. The clock is unchanged in both: date of retail sale, or eighteen months from factory shipping when there is no receipt.
 
