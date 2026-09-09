@@ -2,7 +2,7 @@
 id: ct900-navy-prt-fitness-test
 title: Navy (PRT) fitness test - 1.5 mile run standards
 kind: fact
-question: What are the Navy PRT 1.5 mile run standards on a CT900?
+question: What are the Navy PRT 1.5 mile run standards on a Spirit treadmill?
 asked_as:
 - what is the navy run test time
 - navy prt standards
@@ -15,8 +15,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 80t-2026
   - ct900
   section: programs
   code: '*'
@@ -49,3 +50,5 @@ A timed 1.5 mile run. You control the speed manually. Maximum time allowed to pa
 For more information visit: http://bit.ly/SF-Navy
 
 **Source note**: the manual's Navy 1.5-mile times for ages 17-41 are printed identically to the [Army 2-mile run](army-pft-fitness-test.md) times for the same age brackets. This is preserved exactly as printed; it is not resolved here whether this is intentional or a manual data-entry duplication, since a 1.5-mile and a 2-mile standard would normally differ.
+
+The 2026 Spirit 8.0T owner's manual prints this same table, value for value, including the rows that repeat the Army times. **The 4.0T manual prints a different Navy table**, starting at age 19 with 12:30 / 15:00 and running to 65+ - see `40t-2026-programs-navy-test`.

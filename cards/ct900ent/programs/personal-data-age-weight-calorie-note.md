@@ -20,6 +20,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -58,3 +59,5 @@ Each of the programs can be customized with your personal information and change
 The 2023 XT manuals add that each preset program has a maximum Speed and Incline level displayed in the Message Center when the workout is chosen, and that the last Age and Weight entered become the new defaults - see the linked cards.
 
 All five **2015** XT owner's manuals print this same "Programming The Console" paragraph and the same calorie note. **The 2015 XT185 prints it too, saying age is "necessary during the Heart Rate programs", even though that machine has no Heart Rate program** - see `xt185-2015-program-list`.
+
+The 2026 Spirit 4.0T owner's manual prints this same "Programmable Features" paragraph and the same calorie note (page 21), including both of the sentences listed above as CT900ENT-only. **The 7.0T and 8.0T do not ask for age and weight inside a program at all**: they take patient data - age, gender, weight and height - from a Set Up menu on the console instead.

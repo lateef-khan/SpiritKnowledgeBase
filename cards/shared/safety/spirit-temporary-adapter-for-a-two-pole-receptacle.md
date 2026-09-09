@@ -44,6 +44,7 @@ see_also:
 - spirit-product-must-be-grounded
 - xt-2023-safety-instructions-list
 - xt-2015-safety-instructions-list
+- spirit-2026t-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
@@ -95,3 +96,12 @@ metal screw.
 Like the 2023 manuals, the 2015 manuals print no second sentence forbidding adapters. Their safety
 instructions say only `Connect this appliance to a properly grounded outlet only`
 (`xt-2015-safety-instructions-list`).
+
+**The three 2026 Spirit treadmill owner's manuals - 4.0T, 7.0T and 8.0T - print no
+temporary-adapter paragraph at all.** Their grounding page stops after
+`in accordance with all local codes and ordinances`, and their safety instructions say only
+`Do not attempt to disable the grounded plug by using improper adapters, or in any way modify the
+cord set`. **There is no adapter permission for a 2026 machine** - do not offer this procedure for
+one. Those manuals require a NEMA 5-20P receptacle on a dedicated 20-amp circuit, which an
+ordinary two-pole outlet cannot provide in any case:
+`spirit-2026t-safety-outlet-and-circuit-requirement`.

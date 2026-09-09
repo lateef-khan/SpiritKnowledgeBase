@@ -3,7 +3,7 @@ id: spirit-route-the-power-cord-away-from-moving-parts
 title: Route the power cord away from every moving part
 kind: policy
 question: Where should the power cord be routed on a Spirit CT850 treadmill, a 2015
-  or 2023 Spirit XT treadmill, or a Spirit CVC800 climber?
+  or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -23,6 +23,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2026
   - ct850-2016
   - ct850-2020
   - cvc800
@@ -44,6 +45,7 @@ see_also:
 - spirit-never-use-a-gfci-wall-outlet
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
+- spirit-2026t-safety-power-cord-condition-and-routing
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
@@ -51,7 +53,8 @@ source:
     25) of the CVC800 manual, and the ELECTRICAL SAFETY page of the five 2023 XT
     owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important
     Electrical Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
-    p. 5, XT385/XT685 p. 6)
+    p. 5, XT385/XT685 p. 6), and the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T
+    owner's manual
   extracted_at: '2026-09-08'
 ---
 
@@ -78,3 +81,13 @@ The two parts named are the same two: the elevation mechanism and the transport 
 manuals use, rather than the `unit` of the 2023 XT manuals. Like the 2023 manuals they print it
 as the opening WARNING of their Important Electrical Instructions page, not inside a GFCI bullet,
 and the two parts named are again the elevation mechanism and the transport wheels.
+
+**The 2026 Spirit 4.0T owner's manual prints the sentence word for word**, with `treadmill`, and
+puts it back where the CT850 manuals had it - as the closing half of the RCD/GFCI bullet
+(`spirit-never-use-a-gfci-wall-outlet`) rather than as a WARNING of its own. The two parts named
+are again the elevation mechanism and the transport wheels.
+
+**The 2026 7.0T and 8.0T owner's manuals do not print it.** Their only cord-routing rule is item
+7 of the safety instructions - keep the cord away from heated surfaces and out of all travel
+lanes - which is about the floor, not the machine's moving parts:
+`spirit-2026t-safety-power-cord-condition-and-routing`.

@@ -21,6 +21,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -45,7 +46,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685
+    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.
   extracted_at: '2026-08-24'
 ---
 
@@ -56,4 +57,5 @@ source:
 The XT185, XT285, XT385, XT485 and XT685 owner's manuals print this row word for word in
 both the 2015 and the 2023 revision, and send the reader to their own Grounding
 Instructions, which sit in the safety pages at the front of each manual, not in the
-troubleshooting table.
+troubleshooting table. The 2026 4.0T prints the row word for word and sends the reader to
+its own Grounding Instructions the same way.

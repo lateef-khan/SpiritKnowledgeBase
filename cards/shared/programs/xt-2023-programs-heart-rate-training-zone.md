@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - xt285-2015
   - xt385-2015
   - xt385-2023
@@ -71,3 +72,5 @@ The two most popular goals of exercise are cardiovascular fitness (training for 
 You may use the heart rate monitor feature **without** using a Heart Rate program; it can be used during manual mode or during any of the other programs. When the heart rate monitor is used together with the Heart Rate programs, the machine automatically adjusts speed or incline to maintain the desired heart rate.
 
 *Where the 2023 manuals say the machine adjusts speed or incline, the four 2015 manuals end this paragraph with "The Heart Rate program automatically controls resistance at the pedals." A treadmill has no pedals; that sentence is boilerplate carried over from a bike manual and is recorded here only because the source prints it.*
+
+The 2026 Spirit 4.0T owner's manual prints this same 60% / 80% guidance and the same 108-to-144 example (page 40), and ends it with the treadmill sentence: when the heart rate monitor feature is used with the Heart Rate programs, the machine automatically adjusts speed or incline to maintain the desired heart rate. It adds one sentence the XT manuals do not print: the black columns on its chart represent the MHR for a person of the age listed at the bottom of each column. **The 8.0T does not print this guidance; its Heart Rate Target program uses a different formula, MHR = (220 - age) x 65%** - see `80t-2026-programs-heart-rate-target`.

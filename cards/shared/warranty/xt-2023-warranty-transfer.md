@@ -21,6 +21,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - 70t-2026
+  - 80t-2026
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -36,6 +39,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- ct900-warranty-exclusions
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-registration
 source:
@@ -47,7 +51,7 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - puts outside the warranty:
+No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
 
 > Products that have been: sold, transferred, bartered, or given to a third party.
 
@@ -55,4 +59,4 @@ Four routes out of the original buyer's hands are named and all four end the cov
 
 Exclusion 4 sits next to it and is worth reading at the same time: **products with original serial numbers that have been removed or altered** are also excluded. A machine sold on with its serial sticker peeled off is outside the warranty on both counts.
 
-`xt-2023-warranty-exclusions` holds the full list of nine for the 2023 machines and `xt-2015-warranty-exclusions` for the 2015 ones. The two lists differ only at item 6; items 4 and 5 quoted here are word for word the same in both.
+`xt-2023-warranty-exclusions` holds the full list of nine for the 2023 machines, `xt-2015-warranty-exclusions` for the 2015 ones, and `ct900-warranty-exclusions` for the 2026 4.0T, 7.0T and 8.0T. The three lists differ at items 6 and 8; items 4 and 5 quoted here are word for word the same in all of them.

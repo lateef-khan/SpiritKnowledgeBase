@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -47,7 +48,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685
+    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.
   extracted_at: '2026-08-24'
 ---
 
@@ -59,4 +60,5 @@ The XT185, XT285, XT385, XT485 and XT685 owner's manuals print this row word for
 both the 2015 and the 2023 revision, and point the reader at the **Tread-belt Tension**
 heading rather than at a tracking heading. Only the chapter name differs: the 2015 manuals
 call it *General Maintenance*, the 2023 manuals *Maintenance & Care*. The cause and the
-remedy are the same in all eleven manuals.
+remedy are the same in all twelve manuals, the 2026 4.0T included; the 4.0T points at
+**Tread-belt Tension** exactly as the XT manuals do.

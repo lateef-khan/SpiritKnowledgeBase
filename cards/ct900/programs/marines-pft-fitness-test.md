@@ -2,7 +2,7 @@
 id: ct900-marines-pft-fitness-test
 title: Marines (PFT) fitness test - 3 mile run standards
 kind: fact
-question: What are the Marines PFT 3 mile run standards on a CT900?
+question: What are the Marines PFT 3 mile run standards on a Spirit treadmill?
 asked_as:
 - what is the marine corps run test time
 - marines pft standards
@@ -15,8 +15,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 40t-2026
+  - 80t-2026
   - ct900
   section: programs
   code: '*'
@@ -41,3 +43,5 @@ A timed 3 mile run. You control the speed manually. Maximum time allowed to pass
 | 46+ | 33:00 | 36:00 |
 
 For more information visit: http://bit.ly/SF-Marines
+
+The 2026 Spirit 4.0T and 8.0T owner's manuals print this same table, value for value, under their own Marines fitness test. The 4.0T manual writes the distance as 3 mile (4.8 kilometer).

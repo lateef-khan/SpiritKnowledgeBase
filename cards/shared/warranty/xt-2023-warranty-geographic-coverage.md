@@ -21,6 +21,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - 70t-2026
+  - 80t-2026
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -37,6 +40,7 @@ authority: 3
 not_to_be_confused_with:
 - sole-bike-warranty-geographic-coverage
 see_also:
+- ct900-warranty-exclusions
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-service-steps
 source:
@@ -50,7 +54,7 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-Two sentences, both printed in all five 2023 XT manuals and all five 2015 ones.
+Two sentences, both printed in all five 2023 XT manuals, all five 2015 ones, and the 2026 4.0T, 7.0T and 8.0T.
 
 Exclusion 9:
 
@@ -60,10 +64,10 @@ And the note printed under the exclusions and again under the service steps:
 
 > This warranty applies only in the **48 contiguous United States**. NOTE: This does not include Alaska or Hawaii.
 
-The wording of the second sentence wobbles and the meaning does not. The 2023 manuals print it twice and use "does not **include** Alaska or Hawaii" on the first page and "does not **apply to** Alaska or Hawaii" on the second. The 2015 manuals print the note only once, at the foot of the warranty section, and use "does not **apply to**". Alaska and Hawaii are outside the covered area on every one of the ten manuals.
+The wording of the second sentence wobbles and the meaning does not. The 2023 manuals print it twice and use "does not **include** Alaska or Hawaii" on the first page and "does not **apply to** Alaska or Hawaii" on the second. The 2015 manuals print the note only once, at the foot of the warranty section, and use "does not **apply to**". The 2026 4.0T, 7.0T and 8.0T print it twice in the 2023 pattern - "does not include" under the exclusions, "does not apply to" under the service steps. Alaska and Hawaii are outside the covered area on every one of the thirteen manuals.
 
 **The manual never says what the warranty outside the United States actually is** - only that it may differ, and that the local dealer is the authority. Do not quote the periods in the warranty table to a customer outside the 48 contiguous states as though they applied.
 
 Alaska and Hawaii are named as outside the 48 contiguous states. The manuals state no separate Alaska or Hawaii terms at all, and no shipping surcharge for them.
 
-The Spirit CT900 and CTSBS900 manuals print the same two sentences. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.
+The Spirit CT900 and CTSBS900 manuals print the same two sentences; those machines are not on this card and have their own. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.

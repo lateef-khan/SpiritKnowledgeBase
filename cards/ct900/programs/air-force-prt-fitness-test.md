@@ -2,7 +2,7 @@
 id: ct900-air-force-prt-fitness-test
 title: Air Force (PRT) fitness test - 1.5 mile run standards
 kind: fact
-question: What are the Air Force PRT 1.5 mile run standards on a CT900?
+question: What are the Air Force PRT 1.5 mile run standards on a Spirit treadmill?
 asked_as:
 - what is the air force run test time
 - air force prt standards
@@ -15,8 +15,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 80t-2026
   - ct900
   section: programs
   code: '*'
@@ -44,3 +45,5 @@ A timed 1.5 mile run. You control the speed manually. Maximum time allowed to pa
 For more information visit: http://bit.ly/SF-AirForce
 
 Note: the source table skips the 30-39 age bracket - it jumps from "20-30" directly to "40-49," exactly as printed.
+
+The 2026 Spirit 8.0T owner's manual prints this same table, value for value, including the skipped 30-39 bracket. **The 4.0T manual prints a different Air Force table** whose first bracket is "<30" at 13:36 and whose 50-59 female time is 19:43 - see `40t-2026-programs-air-force-test`.

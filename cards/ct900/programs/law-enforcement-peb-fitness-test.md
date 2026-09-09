@@ -2,7 +2,7 @@
 id: ct900-law-enforcement-peb-fitness-test
 title: Law Enforcement (PEB) fitness test - 1.5 mile run standards
 kind: fact
-question: What are the Law Enforcement PEB 1.5 mile run standards on a CT900?
+question: What are the Law Enforcement PEB 1.5 mile run standards on a Spirit treadmill?
 asked_as:
 - law enforcement fitness test standards
 - peb test times
@@ -16,8 +16,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - 80t-2026
   - ct900
   section: programs
   code: '*'
@@ -47,3 +48,5 @@ A timed 1.5 mile run. You control the speed manually. Maximum time allowed to pa
 | 60+ | 15:07 | 17:37 |
 
 For more detailed information, visit: https://www.fletc.gov/peb-scores-age-and-gender
+
+The 2026 Spirit 8.0T owner's manual prints this same table, value for value, under the heading "PEB (LAW ENFORCEMENT)". **The 4.0T manual offers the PEB test but prints no table at all** - see `40t-2026-programs-peb-test`.
