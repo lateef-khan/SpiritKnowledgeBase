@@ -22,7 +22,21 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
-  - '*'
+  - f50-2026
+  - f63-2023
+  - f63-2026
+  - f65-2023
+  - f65-2026
+  - f80-2023
+  - f80-2026
+  - f83-2026
+  - f85-2021
+  - f85-2023
+  - f85-2026
+  - f89-2023
+  - st90-2021
+  - st90-2023
+  - tt8-2023
   section: console
   code: '*'
 authority: 2

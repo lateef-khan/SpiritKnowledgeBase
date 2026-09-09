@@ -18,7 +18,14 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
-  - '*'
+  - f63
+  - f63-2013
+  - f65
+  - f80
+  - f83
+  - f85
+  - f89
+  - tt8
   section: maintenance
   code: '*'
 authority: 2
