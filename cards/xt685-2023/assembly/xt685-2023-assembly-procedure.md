@@ -33,9 +33,11 @@ not_to_be_confused_with:
 - xt185-xt285-2023-assembly-procedure
 - xt385-xt485-2023-assembly-procedure
 - xt685-2015-assembly-procedure
+- xt685ent-2023-assembly-procedure
 see_also:
 - xt685-2023-assembly-hardware-kit
 - xt685-2023-moving-the-treadmill
+- xt685ent-2023-assembly-procedure
 - ct900-pre-assembly
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
@@ -46,6 +48,12 @@ source:
 Item numbers in brackets are from the exploded view. This machine does not fold,
 so there is no Velcro shipping strap to cut; it is shipped with bolted-on
 stabilizer plates instead.
+
+**This is the XT685-2023, not the XT685ENT.** The two share their hardware kit
+and their steps 3 and 4 word for word, but every cable connection in steps 1 and
+2 is different - the ENT lands both its speed and incline cables on one Handrail
+Wire (36-18) and adds a ground wire. Check which machine you have before joining
+anything up.
 
 **Step 1 - shipping plates, uprights and gussets.** Remove **4 pcs of
 3/8" x 2 1/4" Flat Head Socket Bolts (102)** using the L Allen Wrench (104), then

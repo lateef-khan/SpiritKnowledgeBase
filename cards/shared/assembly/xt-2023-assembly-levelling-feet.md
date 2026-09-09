@@ -2,8 +2,8 @@
 id: xt-2023-assembly-levelling-feet
 title: Adjusting the levelling feet
 kind: procedure
-question: How do I level a Spirit XT185-2023, XT285-2023, XT385-2023, XT485-2023 or
-  XT685-2023 treadmill?
+question: How do I level a Spirit XT185-2023, XT285-2023, XT385-2023, XT485-2023,
+  XT685-2023 or XT685ENT treadmill?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -28,6 +28,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: assembly
   code: '*'
 authority: 3
@@ -36,16 +37,20 @@ see_also:
 - ctsbs900-level-adjustment
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: p. 14, SETTING UP YOUR TREAD - Leveling
+  locator: p. 14, SETTING UP YOUR TREAD - Leveling; XT685ENT owner's manual p. 16
   extracted_at: '2026-09-09'
 ---
 
 Use an **M14 wrench** to adjust the height of the levelling feet.
 
-That single line is all five manuals say about levelling. They do not say how
+That single line is all six manuals say about levelling. They do not say how
 many feet there are, which way to turn them, or how to check the machine is
 level. The M14 wrench is **not** one of the three tools packed in the carton -
 it has to be found separately.
+
+The XT685ENT prints the same line on its SETTING UP YOUR TREAD page, and its
+parts diagram labels the levellers **M**. **The XT485ENT is not on this card**:
+that manual has no setting-up section and never mentions a levelling foot.
 
 A different Spirit treadmill, the CTSBS900, documents a loosen-adjust-retighten
 sequence for its feet; that sequence is not printed in these five manuals and

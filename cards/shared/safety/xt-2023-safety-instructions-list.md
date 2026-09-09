@@ -30,12 +30,14 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct900-safety-instructions
 - ctsbs900-safety-instructions
+- xt-2015-safety-instructions-list
 see_also:
 - xt-2023-safety-placement-and-clearance
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
@@ -47,7 +49,7 @@ see_also:
 - xt-2023-safety-user-weight-limit-425-lbs
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 5, SAFETY INSTRUCTIONS; the XT285, XT385, XT485 and XT685 manuals print the same page on page 6
+  locator: page 5, SAFETY INSTRUCTIONS; the XT285, XT385, XT485 and XT685 manuals print the same page on page 6. The XT685ENT owner's manual prints the same page, also page 6
   extracted_at: '2026-09-09'
 ---
 
@@ -122,3 +124,14 @@ cannot access it. Do not quote the age-13 rule for an XT.
 
 **Item 13 says household use.** These manuals make no claim of commercial or light
 commercial duty.
+
+**The XT685ENT owner's manual prints this same 21-item page word for word**, on its own page 6,
+with the same boxed note beside it and the same item 21 - `User Weight Limit: 425 lbs.`
+(`xt-2023-safety-user-weight-limit-425-lbs`). Nothing on the page is different.
+
+**The XT485ENT manual prints a different page.** Its manual is a 2021-generation document and its
+Important Safety Instructions page is the older, unnumbered list - with the 110-volt 15-amp outlet
+requirement, the 14AWG extension cord rule, the close-supervision and under-13 children clauses,
+and the Toluene and Acrylamide Proposition 65 box, none of which appear here. See
+`xt-2015-safety-instructions-list`, which carries that machine. Do not answer an XT485ENT owner
+from this list, or the reverse.

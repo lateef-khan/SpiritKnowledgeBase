@@ -33,8 +33,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -77,3 +79,9 @@ generations.
 The 2015 manuals' short form of the rule - `Do not use outdoors` - is on their Important Safety
 Instructions page (`xt-2015-safety-instructions-list`). They have no location page, so this is
 also the only environmental limit they give: `xt-2015-safety-placement-requirements`.
+
+**Both ENT owner's manuals print the same paragraph and the same two figures** - 40 degrees C and
+95% non-condensing, one temperature figure, no minimum, no Fahrenheit conversion and no storage
+range. The XT685ENT manual prints it on its Electrical Safety page, page 7, saying `unit`; the
+XT485ENT manual prints it on its Important Electrical Instructions page, page 6, saying
+`treadmill`.

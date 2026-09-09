@@ -34,8 +34,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -55,11 +57,12 @@ source:
     55, xt485 p. 55, xt685 p. 54. Both halves are also in all five 2015 XT manuals,
     word for word: xt185 text.md lines 756 and 792-795, xt285 lines 970 and 1005-1008,
     xt385 lines 1022 and 1058-1061, xt485 lines 1159 and 1194-1197, xt685 lines 1148-1149
-    and 1183-1186'
+    and 1183-1186. XT485ENT: table p. 55 (line 1091), SERVICE p. 56 (lines 1126-1129).
+    XT685ENT: tables p. 53 (lines 1580, 1585), SERVICE p. 55 (lines 1634-1638)'
   extracted_at: '2026-09-09'
 ---
 
-**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills.
+**Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals and all five 2015 ones - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills. The **XT485ENT** and **XT685ENT** print it too - the XT685ENT in both its Residential and its Light Commercial row.
 
 **The 2026 machines share the figure, not the rest of the table.** Their only other period is Parts 5 Years and they print no Frame, Motor or Deck column at all: `spirit-2026t-warranty-commercial-periods`. Do not answer any period other than labor from this card.
 

@@ -2,7 +2,7 @@
 id: ctsbs900-heart-rate-chest-strap-pairing
 title: Heart rate chest strap — attaching and wearing (not included)
 kind: procedure
-question: How do I attach and wear a heart rate chest strap with a CTSBS900?
+question: How do I attach and wear a heart rate chest strap on a Spirit treadmill?
 asked_as:
 - how do i wear the heart rate strap
 - where does the chest strap battery go
@@ -18,9 +18,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ctsbs900
+  model: '*'
   applies_to:
   - ctsbs900
+  - xt485ent-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -48,3 +50,13 @@ The Bluetooth heart rate chest strap is sold separately (not included).
 **Note:** The transmitter automatically activates when it detects heart activity, and automatically deactivates when it does not receive any activity. Although water resistant, moisture can create false signals, so completely dry the transmitter after use to prolong battery life (estimated transmitter battery life is **2500 hours**). The replacement battery is **Panasonic CR2032**.
 
 If readings are erratic or missing, see [console/heart-rate-chest-strap-troubleshooting.md](heart-rate-chest-strap-troubleshooting.md).
+
+**Both ENT manuals print all six steps and the note word for word**, including the
+interlocking key, the 2 ribbed oval areas and the Panasonic CR2032 - the XT485ENT on
+its p. 48, the XT685ENT on its p. 29. The XT485ENT heads the section *Wearing The
+Chest Strap*; the XT685ENT heads it *Heart Rate Chest Strap (not included)*.
+
+**The base XT285, XT385, XT485 and XT685 manuals of 2015 and 2023 print the same six
+steps** and are not yet on this card. They were extracted in earlier waves and this
+card should probably grow to cover them; that was left for whoever owns those
+sources.

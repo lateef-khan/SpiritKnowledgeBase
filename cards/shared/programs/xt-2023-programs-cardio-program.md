@@ -30,6 +30,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
   section: programs
@@ -59,3 +60,9 @@ All five 2015 XT owner's manuals print the same description as the 2023 ones. Wo
 - The **2023 XT685** manual prints "near maximum **speed** level" where the other four 2023 manuals print "near maximum **resistance** level". All five 2015 manuals print "resistance".
 
 The CT900ENT prints the same Cardio description but names *segments 4, 9 and 14* as the maximum elevation points, so its card is a separate fact.
+
+The XT485ENT owner's manual (page 38) prints "near maximum **resistance** level" and the
+**singular** "Segment 15 is maximum elevation for this program", matching the 2015 XT385,
+XT485 and XT685 wording rather than the 2023 XT685 wording. The XT685ENT manual prints no
+Cardio description at all; it gives a numeric segment table instead - see
+`xt685ent-2023-programs-preset-segment-chart`.

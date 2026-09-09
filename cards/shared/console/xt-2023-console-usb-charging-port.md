@@ -27,7 +27,9 @@ facets:
   - xt285-2023
   - xt385-2023
   - xt485-2023
+  - xt485ent-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -54,3 +56,9 @@ equipment power must be on.**
 **This is not the same port as the 2026 Sole treadmill consoles carry** - those are type-C and rated
 5Vdc/1.5 amp. Do not quote the 1.5 amp figure for these machines. **The XT185 has no USB port in its
 manual at all.**
+
+**Both ENT consoles print the same port and the same figures** - the XT485ENT on its
+p. 21, the XT685ENT on its p. 24. **The XT685ENT manual adds one note the others do
+not print**: your device's *charging* icon may or may not indicate it is charging,
+because depending on the current your device asks for the icon may stay off while the
+device still charges, possibly at a lower rate.

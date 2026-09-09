@@ -2,8 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015,
-  XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or for a Spirit XT485ENT treadmill?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -30,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -44,7 +44,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, boxed beside the list; the XT285
-    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5
+    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +74,13 @@ address** - see `xt-2023-safety-proposition-65-sticker`.
 
 So the two are not interchangeable in either direction: Toluene and Acrylamide are named only by
 the 2015 manuals, and the sticker location is given only by the 2023 manuals.
+
+**The XT485ENT owner's manual prints this box word for word**, beside its safety instructions list
+on page 5 - Toluene and Acrylamide, cancer and birth defects or other reproductive harm, and
+`www.P65Warnings.ca.gov`. Like the 2015 manuals it prints the warning **in the manual** and
+describes no sticker; it has no product labels page
+(`xt-2015-safety-product-labels-and-serial-number`).
+
+**The XT685ENT manual prints the other Proposition 65 text**, on a PRODUCT LABELS page describing
+a sticker on the interior side of the upright, naming no chemical and no web address:
+`xt-2023-safety-proposition-65-sticker`. The two are not interchangeable in either direction.

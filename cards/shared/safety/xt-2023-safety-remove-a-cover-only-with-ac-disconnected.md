@@ -25,6 +25,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -33,8 +35,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -47,7 +51,7 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8
   extracted_at: '2026-09-09'
 ---
 
@@ -83,4 +87,14 @@ What follows the sentence differs between them, and neither half changes the cov
   `xt-2023-safety-supply-voltage-variation`.
 
 The matching cleaning rule for all three is
+`spirit-disconnect-from-the-outlet-before-cleaning-or-service`.
+
+**Both ENT owner's manuals print the same sentence, word for word** - the XT685ENT on its
+Electrical Safety page, page 7, and the XT485ENT on its Important Electrical Instructions page,
+page 6. No exception, no waiting time, no capacitor discharge figure and no lock-out procedure in
+either.
+
+**Both Spirit MT200 owner's manuals print the same sentence**, as the first WARNING of their
+Important Electrical Information page. No exception, no waiting time, no capacitor discharge figure
+and no lock-out procedure in these manuals either. The matching rule for cleaning and service is
 `spirit-disconnect-from-the-outlet-before-cleaning-or-service`.

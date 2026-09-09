@@ -2,7 +2,7 @@
 id: 70t-2026-console-power-on-self-test
 title: "Powering on: the self-test shows the software version, the odometer and the hours used"
 kind: fact
-question: What does the console show when you switch on a Spirit 70t-2026 treadmill?
+question: What does the console show when you switch on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - what are the numbers when i turn my treadmill on
 - where do i find the software version
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -54,3 +56,8 @@ start up message. You may now begin to use the machine.
 
 The odometer can be zeroed from maintenance mode; see
 `70t-2026-console-maintenance-mode-menu`.
+
+**Both MT200 manuals print this paragraph word for word** - the 2010 manual on its
+p. 12, the 2022 manual on its p. 21. **The 2010 manual adds one sentence the other
+two drop**: in Idle Mode *the dot matrix display scrolls through the different
+program profiles* as well as the message window scrolling the start up message.

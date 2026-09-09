@@ -2,8 +2,8 @@
 id: 70t-2026-programs-symmetry
 title: The Symmetry program that measures left and right step length
 kind: procedure
-question: What does the Symmetry program do on a Spirit 70t-2026 treadmill and how
-  do I start it?
+question: What does the Symmetry program do on a Spirit 70t-2026 or MT200
+  rehabilitation treadmill, and how do I start it?
 asked_as:
 - what is the symmetry program
 - how do i check a patients gait
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -61,3 +63,7 @@ the symmetry program key to flip the display.*
 
 The 8.0T has a Symmetry feature too, but there it is a screen mode rather than a program with its own
 key.
+
+Both MT200 owner's manuals print this program in the same words, including the 26 vs. 15 inch
+example and the note about flipping the display - the 2010-generation manual on printed page
+22, the 2022-generation manual on printed pages 34-35.

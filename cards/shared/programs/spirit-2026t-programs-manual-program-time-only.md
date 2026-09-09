@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -55,3 +57,7 @@ matrix. When the program ends you may press start to run it again, stop to exit,
 key to save what you just did as the facility program.
 
 The 4.0T's Manual program is set up differently: it asks for age, weight and time.
+
+**Both MT200 owner's manuals print the 7.0T version of this word for word** - the
+2010-generation manual on printed page 16, the 2022-generation manual on printed page 27.
+On the MT200 you press the **manual** key then the **enter** key, exactly as on the 7.0T.

@@ -2,7 +2,7 @@
 id: 70t-2026-console-service-mode-tests
 title: "Service Mode: the incline, drive-motor, brake and step-sensor tests and the readings each shows"
 kind: procedure
-question: What do the Service Mode tests do on a Spirit 70t-2026 treadmill and what readings do they show?
+question: What do the Service Mode tests do on a Spirit 7.0T or MT200 treadmill and what readings do they show?
 asked_as:
 - how do i test the incline motors
 - what do the f and r numbers mean in service mode
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -74,3 +76,7 @@ message window, `DM` the dot matrix.
 
 Calibrating those step sensors is a separate routine; see
 `70t-2026-console-step-sensor-calibration`.
+
+**Both MT200 manuals print every one of these tests word for word**, including the
+`F 920 R 70` example - the 2010 manual on its p. 39, the 2022 manual on its
+pp. 62-63.

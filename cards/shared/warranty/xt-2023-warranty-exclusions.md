@@ -28,6 +28,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -45,7 +46,7 @@ source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'WARRANTY - CONTINUED, What is not covered? / EXCLUSIONS, p. 41. All nine
     items are identical in all five 2023 XT manuals: xt185 p. 41, xt285 p. 49, xt385
-    p. 54, xt485 p. 54, xt685 p. 53'
+    p. 54, xt485 p. 54, xt685 p. 53, xt685ent p. 54'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,7 +66,9 @@ Printed under the list:
 
 > Product features or specifications as described or illustrated are subject to change without notice. All warranties are made by Spirit Fitness, Inc. This warranty applies only in the 48 contiguous United States. NOTE: This does not include Alaska or Hawaii.
 
-All nine items are word for word identical in the 2023 XT185, XT285, XT385, XT485 and XT685 manuals. The 2015 XT manuals print nine items too, eight of them identical to these; their **item 6 also excludes products with no warranty registration card on file**. See `xt-2015-warranty-exclusions`.
+All nine items are word for word identical in the 2023 XT185, XT285, XT385, XT485 and XT685 manuals, and in the **XT685ENT** manual, whose item 6 is the milder proof-of-purchase version and whose note reads "does not **include** Alaska or Hawaii".
+
+**The XT485ENT is not on this card.** Its manual is a 2021-generation document whose item 6 excludes a product with no registration card on file outright - see `xt-2015-warranty-exclusions`. The 2015 XT manuals print nine items too, eight of them identical to these; their **item 6 also excludes products with no warranty registration card on file**. See `xt-2015-warranty-exclusions`.
 
 **Item 8 is not the exclusion the Spirit commercial manuals print in that slot.** CT900, CT900ENT and CTSBS900 use item 8 for "product used in prisons and correctional facilities"; the XT manuals use it for the use-environment limit and say nothing about prisons - except the XT685, which carries the prisons line as a footnote to its light commercial table instead. Read each machine's own list.
 

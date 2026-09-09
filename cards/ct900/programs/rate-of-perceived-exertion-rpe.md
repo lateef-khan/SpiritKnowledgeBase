@@ -26,8 +26,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: programs
   code: '*'
 authority: 3
@@ -73,3 +75,8 @@ The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same scale and 
 **On the CT900 only**, the RPE=18+ and RPE=14 thresholds are used to stop the [Chester Treadmill Test](chester-treadmill-test.md) Performance and Prediction modes, respectively. No XT machine has that test.
 
 The 2026 Spirit 4.0T owner's manual prints the same scale and the same wording under "Heart Rate - Perceived Exertion" (page 41). On that machine RPE=18+ and RPE=14 stop the Chester Treadmill Test the same way they do on the CT900. Neither the 7.0T nor the 8.0T manual prints the Borg scale, although the 8.0T uses the same two RPE thresholds in its own Chester Treadmill Test.
+
+The XT485ENT owner's manual prints the same scale and the same wording under "Rate of Perceived
+Exertion" (page 47), and the XT685ENT owner's manual prints it under "Heart Rate - Perceived
+Exertion" (page 32). Neither ENT machine has a Chester Treadmill Test, so neither uses the
+RPE=18+ and RPE=14 thresholds.

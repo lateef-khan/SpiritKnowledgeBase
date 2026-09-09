@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -53,3 +55,7 @@ same manual and this card does not resolve which is right; see
 
 **The 4.0T is different again**, and prints Bluetooth or ANT+; see
 `40t-2026-console-chest-strap-bluetooth-ant`.
+
+**Both MT200 manuals print the same note** - the 2010 manual on its p. 23, the 2022
+manual on its p. 40. The 2010 manual adds that **a chest strap transmitter may be
+purchased from Spirit**. Neither MT200 manual mentions Bluetooth or ANT+.

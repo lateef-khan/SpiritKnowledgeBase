@@ -27,6 +27,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -101,3 +103,7 @@ The 7.0T manual prints the same values without the km/h equivalents. *The 8.0T m
 
 To interpret the resulting score, see `ct900-vo2max-score-interpretation`, which the 8.0T manual reprints
 in full.
+
+**Both MT200 owner's manuals print this same chart, value for value, without the km/h
+equivalents** - the 2010-generation manual on printed page 19, the 2022-generation manual on
+printed page 31. Both head it "VO2 Max" and neither repeats a stage row.

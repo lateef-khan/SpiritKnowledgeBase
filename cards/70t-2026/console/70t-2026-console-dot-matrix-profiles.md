@@ -2,7 +2,7 @@
 id: 70t-2026-console-dot-matrix-profiles
 title: "The dot matrix: three profiles and 24 columns of one minute each"
 kind: fact
-question: What does the dot matrix display show on a Spirit 70t-2026 treadmill?
+question: What does the dot matrix display show on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - what is the grid of lights on my treadmill
 - how do i show the track instead of the hill
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -49,3 +51,6 @@ most programs.
 column represents 1 minute** - the time per column can be modified in other
 programs. **At the end of the 24th column (24 minutes of work) the display wraps
 around and restarts at the first column.**
+
+**Both MT200 manuals print this word for word** - the 2010 manual on its p. 13, the
+2022 manual on its pp. 22-23.

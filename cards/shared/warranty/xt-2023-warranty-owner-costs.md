@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -47,11 +49,13 @@ source:
     EXCLUSIONS item 2, p. 41. All three are in all five 2023 XT manuals: xt185 pp.
     40-42, xt285 pp. 48-50, xt385 pp. 53-55, xt485 pp. 53-55, xt685 pp. 52-54. All
     three are word for word the same in the five 2015 XT manuals, where the accessibility
-    item is numbered 4 rather than 3: xt185 text.md lines 765-766, 775-778 and 799-803'
+    item is numbered 4 rather than 3: xt185 text.md lines 765-766, 775-778 and 799-803.
+    XT485ENT pp. 55-56 (accessibility item 4 at line 1100, exclusion 2 at line 1109,
+    SERVICE step 4 at lines 1133-1137). XT685ENT pp. 53-55'
   extracted_at: '2026-09-09'
 ---
 
-Yes. The XT manuals - the 2015 generation and the 2023 one alike - name five charges the customer carries while the machine is still inside its warranty period, and refuse one reimbursement outright.
+Yes. The XT manuals - the 2015 generation, the 2023 one, and both ENT manuals alike - name five charges the customer carries while the machine is still inside its warranty period, and refuse one reimbursement outright.
 
 | What the customer pays | Where the manual says so |
 |---|---|
@@ -59,7 +63,7 @@ Yes. The XT manuals - the 2015 generation and the 2023 one alike - name five cha
 | **Shipping and handling** on replacement parts shipped while the product is under warranty | SERVICE step 4 |
 | A **trip charge** for in-home service | SERVICE step 4 |
 | An **additional trip charge** if the customer is over **100 miles** from the nearest service center | SERVICE step 4 |
-| Expenses for making the treadmill accessible for servicing | Responsibilities of the consumer, item 3 (item **4** in the 2015 manuals, which carry an extra registration item at the top of the list) |
+| Expenses for making the treadmill accessible for servicing | Responsibilities of the consumer, item 3 (item **4** in the 2015 manuals and in the XT485ENT, which carry an extra registration item at the top of the list) |
 
 And exclusion 2 refuses **service call reimbursement to the consumer**.
 

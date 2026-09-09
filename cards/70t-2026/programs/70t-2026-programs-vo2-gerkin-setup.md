@@ -2,7 +2,8 @@
 id: 70t-2026-programs-vo2-gerkin-setup
 title: The Vo2 test is the Gerkin protocol and asks only for age and weight
 kind: procedure
-question: How do I run the Vo2 test on a Spirit 70t-2026 treadmill?
+question: How do I run the Vo2 test on a Spirit 70t-2026 or MT200 rehabilitation
+  treadmill?
 asked_as:
 - how do i do the vo2 test
 - what fitness tests does this treadmill have
@@ -21,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -51,3 +54,7 @@ tests on this console; the 4.0T offers nine tests and the 8.0T ten.
 Gender and height are not asked for. The test increases speed and elevation alternately until **85% of
 Max heart rate** is attained; the time taken to reach 85% determines the score. The stage chart and the
 before/during/after guidance are on separate cards.
+
+Both MT200 owner's manuals print the same four setup steps and the same 85% rule, and offer the
+**same single fitness test** - the 2010-generation manual on printed pages 19-20, the
+2022-generation manual on printed pages 31-32. Neither asks for gender or height either.

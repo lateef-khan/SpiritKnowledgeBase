@@ -2,8 +2,7 @@
 id: xt-2015-safety-outlet-and-circuit-requirement
 title: The outlet and circuit the safety pages require
 kind: policy
-question: What outlet and circuit does a Spirit XT185-2015, XT285-2015, XT385-2015,
-  XT485-2015 or XT685-2015 treadmill need?
+question: What outlet and circuit does a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill need, or a Spirit XT485ENT treadmill?
 asked_as:
 - what outlet does my treadmill need
 - does the treadmill need its own circuit
@@ -29,6 +28,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -46,7 +46,7 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, and page 6, Important Grounding
     Instructions; the XT285 and XT485 manuals print both on pages 4 and 6, the XT385
-    and XT685 manuals on pages 5 and 7
+    and XT685 manuals on pages 5 and 7. The XT485ENT owner's manual prints the safety-page half on its page 5 and the grounding-page half on its page 7
   extracted_at: '2026-09-09'
 ---
 
@@ -89,3 +89,15 @@ is `spirit-product-must-be-grounded` and
 **The 2023 XT manuals dropped the amp figure.** They print only `a nominal 110-volt circuit` on
 the grounding page and no outlet requirement on the safety page at all, so the 15-amp figure is a
 2015 statement. See `spirit-product-must-be-grounded`.
+
+**The XT485ENT owner's manual states it twice too**, in the same two places. Its safety
+instructions page, page 5, prints the WARNING header word for word - a flat level surface with
+access to a **110-volt, 15-amp** grounded outlet with only the treadmill plugged into the circuit.
+Its grounding page, page 7, prints `a nominal 110-volt dedicated circuit`, the amp-free wording
+the XT485-2015 and XT685-2015 grounding pages use. So 15 amp is this machine's figure as well,
+from its own safety page.
+
+**The XT685ENT manual carries no outlet requirement on its safety page**, exactly as the five 2023
+XT manuals carry none. Its grounding page prints only `a nominal 110-volt circuit` - no amp figure
+anywhere in the manual - so there is no 15-amp figure to quote for an XT685ENT:
+`spirit-product-must-be-grounded`.

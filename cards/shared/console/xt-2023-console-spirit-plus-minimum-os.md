@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -41,3 +42,7 @@ source:
 
 **Your device will need to be running on a minimum operating system of iOS 13.1 or Android 8.0 for
 the Spirit+ App to operate properly.**
+
+**The XT685ENT prints the same two versions** on its p. 22. **The XT485ENT prints
+different ones** - iOS 7 or Android 4.4, for the older Spirit App; see
+`xt485ent-2023-console-spirit-app-minimum-os`.

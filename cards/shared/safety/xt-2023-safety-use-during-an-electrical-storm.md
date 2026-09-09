@@ -25,6 +25,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -33,8 +35,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -44,7 +48,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner's manuals print it as the first bullet of their Important Operation Instructions page, 2010 page 5 and 2022 page 10
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +85,18 @@ commercial-capable machines:
 **None of the three prints `Unplug the unit during an electrical storm as a precaution.`** Do not
 use the storm rule to tell a 2026 owner their manual asks them to unplug; it asks only that they
 do not use the machine. Their manuals also describe no surge suppressor.
+
+**Both ENT owner's manuals print all three sentences**, including `Unplug the unit during an
+electrical storm as a precaution`. The XT685ENT prints them on its Electrical Safety page, page 7,
+saying `unit`; the XT485ENT prints them on its Important Operation Instructions page, page 8,
+saying `treadmill`.
+
+**Both Spirit MT200 owner's manuals print the first two sentences and drop the third**, as the 2026
+machines do, and say **facility** rather than household - these are clinic and hospital machines:
+
+> NEVER use the treadmill during an electrical storm. Surges may occur in your facility power
+> supply that could damage the treadmill's components.
+
+**Neither prints `Unplug the unit during an electrical storm as a precaution.`** Do not tell an
+MT200 owner their manual asks them to unplug; it asks only that the machine not be used. Their
+manuals describe no surge suppressor either.

@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -39,7 +40,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 30, MAINTENANCE & CARE - Post-Workout Machine Care (XT285 p. 38, XT385
-    p. 42, XT485 p. 42, XT685 p. 41)
+    p. 42, XT485 p. 42, XT685 p. 41; XT685ENT p. 43)
   extracted_at: '2026-09-09'
 ---
 
@@ -48,6 +49,8 @@ source:
 3. **Use a microfiber cloth** to clean the screen and remove unwanted oils and other things that may damage the screen.
 4. **Avoid leaving paper or other small debris in the cupholders.**
 
-The XT185, XT285, XT485 and XT685 manuals write "the touchscreen" in step 3; the XT385 manual writes "the screen". Nothing else in the four steps differs between the five manuals.
+The XT185, XT285, XT485, XT685 and XT685ENT manuals write "the touchscreen" in step 3; the XT385 manual writes "the screen". Nothing else in the four steps differs between the six manuals.
+
+**The XT485ENT manual has no Post-Workout Machine Care section at all**, so this routine is not documented for that machine.
 
 This is the routine sweat wipe-down only. Disinfecting is a separate procedure and is covered by `ct900-sanitizing-equipment`, which applies to all Spirit Fitness equipment. The CT900 and CTSBS900 manuals print this same four-step list next to loose-hardware and noise guidance that the XT manuals do not carry.

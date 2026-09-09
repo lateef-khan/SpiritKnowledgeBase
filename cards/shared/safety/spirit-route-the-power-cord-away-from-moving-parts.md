@@ -35,8 +35,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -91,3 +93,8 @@ are again the elevation mechanism and the transport wheels.
 7 of the safety instructions - keep the cord away from heated surfaces and out of all travel
 lanes - which is about the floor, not the machine's moving parts:
 `spirit-2026t-safety-power-cord-condition-and-routing`.
+
+**Both ENT owner's manuals print the same sentence** as the opening WARNING of their electrical
+page - the XT685ENT saying `unit` (Electrical Safety, page 7) and the XT485ENT saying `treadmill`
+(Important Electrical Instructions, page 6). The two parts named are again the elevation mechanism
+and the transport wheels.

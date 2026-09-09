@@ -29,6 +29,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -61,3 +62,8 @@ come. **You must download the matching fitness app for its icon to be active and
 
 **The XT185 owner's manual has no Bluetooth or Spirit+ section at all** - it never mentions
 Bluetooth, the app, or a USB port. Do not quote this card for an XT185.
+
+**The XT685ENT prints all five steps and the same four cloud sites word for word** on
+its p. 22. **The XT485ENT is a different app section**: it names the **Spirit App**,
+not Spirit+, gives different sync steps and different cloud wording; see
+`xt485ent-2023-console-spirit-app-pairing`.

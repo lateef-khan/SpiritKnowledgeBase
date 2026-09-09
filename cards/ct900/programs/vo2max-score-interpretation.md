@@ -19,6 +19,8 @@ facets:
   applies_to:
   - 80t-2026
   - ct900
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -59,3 +61,8 @@ source:
 These charts are used to interpret the score from the [Gerkin protocol](gerkin-protocol.md) or [WFI test](wfi-protocol.md).
 
 The 2026 Spirit 8.0T owner's manual prints both charts again, value for value, headed "Gerkin chart for males and very fit females" and "Gerkin chart for females and de-conditioned males" (page 47). The 4.0T and 7.0T manuals leave the equivalent page blank in the extracted text, so no score chart is recorded for those two machines.
+
+**Both MT200 owner's manuals print both charts again, value for value** - the 2010-generation
+manual on printed page 21, the 2022-generation manual on printed page 33 - headed "VO2max Chart
+for males and very fit females" and "VO2max Chart for females and de-conditioned males". They
+are the score charts for the MT200's Gerkin-protocol Vo2 test.

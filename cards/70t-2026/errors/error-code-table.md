@@ -34,6 +34,7 @@ not_to_be_confused_with:
 - ct850-2016-error-code-items-list
 - cu900ent-error-code-messages-list
 see_also:
+- spirit-mt200-errors-error-code-table
 - 70t-2026-errors-e1-over-current
 - 70t-2026-errors-e29-i-signl-stop
 - 70t-2026-errors-err-incline-err
@@ -78,7 +79,7 @@ different on other Spirit treadmills.
 | E26 | Bk Chopper | Reset Power; Bad Drive |
 | E27 | PG Error | Check Motor |
 | E28 | Phase Loss | Check Wiring; Bad Drive |
-| E29 | I Signl Stop | Reset Power (see the note below) |
+| E29 | I Signl Stop | Reset Power; Bad Drive (see the note below) |
 | E30 | CPU Error | Electronic circuit fault |
 | E31 | Fan | Drive Fan Bad |
 | E32 | Analog In | Check Wiring; Bad Drive |
@@ -102,10 +103,9 @@ holds five fragments belonging to five different codes. Each column was read
 top-to-bottom on its own; every column but the fourth begins with a code heading and
 every column ends at a code's last cause, so the split is unambiguous.
 
-**The one thing that is not.** The fourth column opens with a bare `Bad Drive` line under
-no code heading, and the third column ends with `E29 I Signl Stop / Reset Power`. That
-line is most likely E29's second remedy, but it cannot be proved from the text across the
-column break, so it is not stated as one on the E29 card:
+**The one thing that was not, and what settled it.** The fourth column opens with a bare
+`Bad Drive` line under no code heading, and the third column ends with `E29 I Signl Stop /
+Reset Power`. From this manual alone that line could not be proved to belong to E29:
 
 ```
 E29 I Signl Stop      <- column 3, second-to-last row
@@ -113,5 +113,15 @@ Reset Power           <- column 3, last row
 Bad Drive             <- column 4, first row, no code heading
 ```
 
+**Both Spirit MT200 owner's manuals print the same table in a different column layout, and
+in them E29, `Reset Power` and `Bad Drive` are three consecutive rows inside one column with
+no break between them.** `Bad Drive` is E29's second remedy. See
+`spirit-mt200-errors-error-code-table` and `70t-2026-errors-e29-i-signl-stop`.
+
 The table gives no description, no test procedure and no part number for any code - only
 the name and the short cause or remedy words above.
+
+**A Spirit machine that shares this table.** Both MT200 owner's manuals print E1 to E38 with
+the same names and the same causes, in the same order. They differ only at the tail: the
+MT200 numbers the incline and decline faults `E41` and `E42` where this manual prints `ERR`
+and `ER2`, and it prints no Grade-window note (`spirit-mt200-errors-error-code-table`).

@@ -34,6 +34,7 @@ facets:
   - xt485-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -70,3 +71,8 @@ raised.
 
 Everything else - adjustable any time after belt movement, 0.5 increments, and the return to zero -
 is printed the same in all five 2015 manuals.
+
+**The XT685ENT prints all four bullets word for word** on its p. 24. **The XT485ENT
+does not** - its incline paragraph drops the 0.5 increment and the return to zero,
+and adds the touchscreen and Direct Access routes instead; see
+`xt485ent-2023-console-incline-during-a-workout`.

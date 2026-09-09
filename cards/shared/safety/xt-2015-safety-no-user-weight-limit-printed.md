@@ -2,8 +2,7 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT185-2015, XT285-2015, XT385-2015
-  or XT485-2015 treadmill?
+question: What is the user weight limit of a Spirit XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, or of a Spirit XT485ENT treadmill?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -28,6 +27,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -41,7 +41,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185,
-    XT285 and XT485 manuals) and prints no weight item
+    XT285 and XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight item on its safety instructions page, page 5, and carries no specification table
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +70,17 @@ item 21 of their safety list, and the figures differ per model:
 
 Those are 2023 figures for 2023 machines. The 2015 manuals never state whether they apply to the
 2015 versions, so quoting 275 lbs for an XT185-2015 would be an invention.
+
+**The XT485ENT owner's manual states no user weight limit either.** Its safety instructions page
+has no weight item and no boxed weight-and-power note, and the manual carries no specification
+table - only an exploded view and a parts list. Every occurrence of the word *weight* in it is
+about the body weight entered on the console for the workout summary.
+
+**Do not carry the 425 lb figure across from the XT485-2023.** The two manuals share a model
+number and nothing else: the XT485-2023 manual prints `User Weight Limit: 425 lbs.` as item 21 of
+its safety list (`xt-2023-safety-user-weight-limit-425-lbs`), and the XT485ENT manual is a
+2021-generation document that prints no such item. Quoting 425 lbs for an XT485ENT would be an
+invention.
+
+**The XT685ENT manual does print 425 lbs**, as item 21 of its own safety list, so that machine is
+covered by `xt-2023-safety-user-weight-limit-425-lbs` and not by this card.

@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-power-cord-condition-and-routing
 title: Keeping the power cord clear of heat and walkways, and when not to use a damaged cord
 kind: policy
-question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual say about the power cord and where it runs?
+question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual, or a Spirit MT200 rehabilitation treadmill manual, say about the power cord and where it runs?
 asked_as:
 - where should the power cable run
 - my treadmill cord is damaged can i still use it
@@ -28,6 +28,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -39,7 +41,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 7, page 4; the 8.0T owner's manual prints the same item on its page 4, and the 4.0T owner's manual splits it between items 14 and 15 of its page 4
+  locator: SAFETY INSTRUCTIONS item 7, page 4; the 8.0T owner's manual prints the same item on its page 4, and the 4.0T owner's manual splits it between items 14 and 15 of its page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +71,16 @@ mechanism and the transport wheels - and only the 4.0T of these three prints it:
 `spirit-route-the-power-cord-away-from-moving-parts`.
 
 What the cord must be plugged into is `spirit-2026t-safety-outlet-and-circuit-requirement`.
+
+**Both Spirit MT200 owner's manuals print the 7.0T and 8.0T form of the instruction**, as one
+sentence, with `treadmill` in place of the machine's name:
+
+> Keep the electrical cord away from heated surfaces and out of all travel lanes and do not operate
+> the treadmill if the cord or plug is damaged.
+
+Heated surfaces, travel lanes, and a damaged cord or plug stopping the machine being used - all
+three. **Neither MT200 manual names a contact to call**, as the 4.0T manual does.
+
+**Neither MT200 manual prints the moving-parts routing rule** about the elevation mechanism and the
+transport wheels (`spirit-route-the-power-cord-away-from-moving-parts`); like the 7.0T and 8.0T,
+their only cord-routing rule is about the floor.

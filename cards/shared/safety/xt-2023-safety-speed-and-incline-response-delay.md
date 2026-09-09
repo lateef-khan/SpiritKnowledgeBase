@@ -32,8 +32,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -81,3 +83,8 @@ manual gives no ramp rate and no time in seconds either.
 page is about the patient rather than the console. The 8.0T does state an acceleration figure in
 its own chapter - a default of 3 seconds per 1 km/h, adjustable from 1 to 60 seconds - but that
 is a console setting, not this warning.
+
+**Both ENT owner's manuals print both sentences.** The XT685ENT prints them on its Electrical
+Safety page, page 7, saying `unit`; the XT485ENT prints them on its Important Operation
+Instructions page, page 8, saying `treadmill`. The instruction is the same - set the level and
+**release** the adjustment key - and neither manual gives a ramp rate or a time in seconds.

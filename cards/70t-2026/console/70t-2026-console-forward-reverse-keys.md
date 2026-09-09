@@ -2,7 +2,7 @@
 id: 70t-2026-console-forward-reverse-keys
 title: The Forward and Reverse keys and the minus sign in the speed window
 kind: fact
-question: How do I make the belt run backwards on a Spirit 70t-2026 treadmill?
+question: How do I make the belt run backwards on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i run the belt in reverse
 - why is there a minus in front of the speed
@@ -21,9 +21,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -54,3 +56,6 @@ reverse.
 
 The top reverse speed has its own factory default of 3.0 mph; see
 `70t-2026-console-factory-settings`.
+
+**Both MT200 manuals print both keys word for word** - the 2010 manual on its p. 14,
+the 2022 manual on its p. 25.

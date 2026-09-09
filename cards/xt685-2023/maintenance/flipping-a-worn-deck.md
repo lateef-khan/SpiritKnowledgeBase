@@ -23,6 +23,7 @@ facets:
   applies_to:
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -33,7 +34,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
   locator: 2023 manual page 44, BELT / DECK GENERAL MAINTENANCE; 2015 manual p. 41,
-    GENERAL MAINTENANCE - Belt/Deck
+    GENERAL MAINTENANCE - Belt/Deck; XT685ENT manual p. 44, BELT / DECK GENERAL MAINTENANCE
   extracted_at: '2026-09-09'
 ---
 
@@ -43,4 +44,4 @@ source:
 
 The manual gives no wear measurement, no interval at which to inspect for wear, and no instructions for flipping the deck yourself. It only says to contact a service technician.
 
-**Both XT685 manuals say this in the same words** - the 2015 owner's manual in its Belt/Deck section and the 2023 owner's manual in BELT / DECK GENERAL MAINTENANCE. Neither says how many sides the deck has or how far it can be flipped. The Spirit CT900 manual does put a figure on a flippable deck - 20,000 miles per side - but that is a different machine and no XT manual repeats it; see `ct900-belt-deck-cleaning`.
+**All three XT685 manuals say this in the same words** - the 2015 owner's manual in its Belt/Deck section, and the 2023 and XT685ENT owner's manuals in BELT / DECK GENERAL MAINTENANCE. Neither says how many sides the deck has or how far it can be flipped. The Spirit CT900 manual does put a figure on a flippable deck - 20,000 miles per side - but that is a different machine and no XT manual repeats it; see `ct900-belt-deck-cleaning`.

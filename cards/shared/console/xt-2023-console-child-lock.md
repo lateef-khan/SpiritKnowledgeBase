@@ -28,6 +28,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -49,3 +50,6 @@ prevent unauthorized use.
   operate.**
 
 This is a dedicated Child Lock button on the console, not a setting hidden in an engineering menu.
+
+**The XT685ENT prints this word for word** on its p. 23. **The XT485ENT manual
+describes no child lock at all.**

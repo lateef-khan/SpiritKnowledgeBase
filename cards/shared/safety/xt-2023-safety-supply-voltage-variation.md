@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -33,8 +35,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -46,7 +50,7 @@ see_also:
 - spirit-2026t-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8
   extracted_at: '2026-09-09'
 ---
 
@@ -88,3 +92,24 @@ exclusion anywhere. Do not carry the 10% figure onto a 4.0T.
 The nominal circuit the 7.0T and 8.0T name is **120 volt, 60 Hz** on a dedicated 20-amp
 NEMA 5-20P circuit, not the 110 volt of the XT manuals:
 `spirit-2026t-safety-outlet-and-circuit-requirement`.
+
+**The XT685ENT owner's manual prints the same paragraph** on its Electrical Safety page, page 7,
+in the `unit` wording, and the **XT485ENT owner's manual prints it** on its Important Electrical
+Instructions page, page 6, in the `treadmill` wording. Every figure is identical in both: ten
+percent, performance rather than damage, not covered under warranty, and the power company or a
+licensed electrician as the action.
+
+The nominal circuit the XT685ENT manual names is **110 volt**, as the base 2023 manuals do. The
+XT485ENT manual names **110 volt** on its grounding page too, but its safety instructions page adds
+the amp figure the 2023 manuals dropped - a 110-volt, **15-amp** grounded outlet
+(`xt-2015-safety-outlet-and-circuit-requirement`).
+
+**Both Spirit MT200 owner's manuals print the same paragraph**, in the `treadmill` wording, on
+their Important Electrical Information page. The 2010 manual writes the threshold as
+`ten percent (10%)` and the 2022 manual as `10%`. Every other figure is identical: performance
+rather than damage, not covered under warranty, and the power company or a licensed electrician as
+the action.
+
+The nominal circuit these two manuals name is **115 volt AC, 60 Hz, 20 amp** -
+`spirit-mt200-safety-outlet-and-circuit-requirement` - which is neither the XT manuals' 110 volt
+nor the 2026 machines' 120 volt.

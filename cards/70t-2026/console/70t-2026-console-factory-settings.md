@@ -2,7 +2,7 @@
 id: 70t-2026-console-factory-settings
 title: "Factory settings: the Start + Speed Fast sequence and every default it sets"
 kind: procedure
-question: How do I open the factory settings and calibrate the grade on a Spirit 70t-2026 treadmill?
+question: How do I open the factory settings and calibrate the grade on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i get into factory settings
 - how do i calibrate the incline
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -65,3 +67,8 @@ mode.**
 **The decline default disagrees with the display range.** The Basic Information
 page prints a rear incline range of 0 to minus 10%, but the factory Max Decline
 default is 5; see `70t-2026-console-data-windows`.
+
+**Both MT200 manuals print the same entry sequence, the same eight prompts and the
+same defaults and ranges** - the 2010 manual on its p. 40, the 2022 manual on its
+p. 64. The same disagreement over the decline figure is printed in both MT200
+manuals too.

@@ -2,8 +2,7 @@
 id: xt-2015-safety-instructions-list
 title: The Important Safety Instructions page printed before you use the treadmill
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit XT185-2015,
-  XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What does the Important Safety Instructions page say for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or for a Spirit XT485ENT treadmill?
 asked_as:
 - what are the safety rules for my treadmill
 - safety instructions page of the manual
@@ -30,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -44,10 +44,11 @@ see_also:
 - xt-2015-safety-who-may-use-the-treadmill
 - xt-2015-safety-proposition-65-warning
 - spirit-product-must-be-grounded
+- xt-2015-safety-tether-cord
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print
-    the same page on page 4, the XT385 and XT685 manuals on page 5
+    the same page on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same page as its IMPORTANT SAFETY INSTRUCTIONS, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -132,3 +133,34 @@ first bullet. Nothing in the rules changes.
 | Keep children under the age of 13 away | printed | not printed |
 | To disconnect, turn all controls off then remove the plug | not printed | item 14 |
 | User Weight Limit | XT685 only | item 21, on all five |
+
+## The XT485ENT prints this page, not the 2023 one
+
+**The XT485ENT owner's manual is a 2021-generation document** (revision 04.16.2021) and its
+IMPORTANT SAFETY INSTRUCTIONS page, page 5, is this page - not the renumbered 21-item list its
+model-mates the XT485-2023 and XT685-2023 print. Everything above holds for it: the same DANGER
+line, the same 110-volt 15-amp WARNING header
+(`xt-2015-safety-outlet-and-circuit-requirement`), the same capitalised **14AWG** extension cord
+line (`xt-2015-safety-extension-cord-14-awg-or-better`), the same close-supervision and
+**under-13** children clauses (`xt-2015-safety-who-may-use-the-treadmill`), the same
+`being use` misprint in the aerosol bullet, the same `SAVE THESE INSTRUCTIONS - THINK SAFETY!`
+close, and the same Toluene-and-Acrylamide Proposition 65 box
+(`xt-2015-safety-proposition-65-warning`). Like the XT485-2015 and XT685-2015 manuals it prints
+`To reduce the risk of burns, fire electric shock, or injury to persons:` as a lead-in sentence
+rather than as the first bullet.
+
+**Two bullets appear here that none of the five 2015 manuals print:**
+
+> Risk of Injury to Persons - To Avoid Injury, use extreme caution when stepping onto or off of a
+> moving belt. Read Instruction Manual Before Using.
+
+> To disconnect, turn all controls to the off position, then remove plug from outlet.
+
+The first is the only thing this family's manuals say about mounting and dismounting: **extreme
+caution**, not a prohibition. It gives no start-up sequence, names no step rails and no handrail
+hold, so do not fill those in from a 2026 machine's card. The second is the rule the 2015 manuals
+omit and the 2023 manuals carry as item 14.
+
+**The XT485ENT list has no user weight item**, exactly like the four 2015 manuals that print none
+(`xt-2015-safety-no-user-weight-limit-printed`), and its page carries no boxed weight-and-power
+note.

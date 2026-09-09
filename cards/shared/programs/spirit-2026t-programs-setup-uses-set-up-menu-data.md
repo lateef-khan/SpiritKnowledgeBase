@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -49,3 +51,7 @@ When a program is selected you have the option of modifying the settings.
 
 Both manuals print this paragraph in the same words. The 4.0T answers the same question differently -
 there the console falls back on "the default or pre-saved setting" - see `40t-2026-programs-setup-defaults`.
+
+Both MT200 owner's manuals print this paragraph in the same words - the 2010-generation manual
+on printed page 16, the 2022-generation manual on printed page 27 - and, like the 7.0T, point
+at the patient data behind the set up key at the top left of the console.

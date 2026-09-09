@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-over-exercise-can-cause-injury-or-death
 title: Over-exercising can cause serious injury or death, so stop if you feel faint
 kind: policy
-question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual say about exercising too hard?
+question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual, or a Spirit MT200 rehabilitation treadmill manual, say about exercising too hard?
 asked_as:
 - what if i feel dizzy on the treadmill
 - can you overdo it on a treadmill
@@ -27,6 +27,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -37,7 +39,7 @@ see_also:
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 17 and 27, page 4 and page 5; the 7.0T owner's manual prints it as item 13 of its page 4 and the 8.0T as item 13 of its page 4
+  locator: SAFETY INSTRUCTIONS items 17 and 27, page 4 and page 5; the 7.0T owner's manual prints it as item 13 of its page 4 and the 8.0T as item 13 of its page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +66,14 @@ Incorrect training as well as excessive; the 7.0T and 8.0T manuals do not print 
 Neither the warning nor the symptom list is a substitute for the clearance each manual asks for
 before starting - `40t-2026-safety-consult-a-physician` for the 4.0T,
 `spirit-2026t-safety-medical-clearance-and-exertion` for the 7.0T and 8.0T.
+
+**Both Spirit MT200 owner's manuals print the sentence with the heart rate clause in front of it**,
+as the 8.0T does:
+
+> WARNING: Heart rate monitoring system may be inaccurate. Over exercise may result in injury or
+> death. If you feel faint stop exercising immediately.
+
+The 2022 manual prints the same three sentences without the `WARNING:` prefix. The action is the
+same - **stop immediately**, on the trigger of feeling faint - and both MT200 manuals give the
+longer symptom list for the operator to watch for on their Important Operation Instructions page
+(`spirit-2026t-safety-medical-clearance-and-exertion`).

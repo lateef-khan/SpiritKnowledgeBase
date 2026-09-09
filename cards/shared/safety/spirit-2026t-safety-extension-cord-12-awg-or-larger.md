@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-extension-cord-12-awg-or-larger
 title: An extension cord must be 12 AWG or larger with only one outlet on the end
 kind: policy
-question: Can I use an extension cord with a 2026 Spirit 7.0T or 8.0T treadmill?
+question: Can I use an extension cord with a 2026 Spirit 7.0T or 8.0T treadmill, or with a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for this treadmill
@@ -26,6 +26,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,9 +40,10 @@ not_to_be_confused_with:
 see_also:
 - spirit-2026t-safety-outlet-and-circuit-requirement
 - spirit-product-must-be-grounded
+- spirit-mt200-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 2, page 4; the 8.0T owner's manual prints the same sentence as item 2 of its page 4
+  locator: SAFETY INSTRUCTIONS item 2, page 4; the 8.0T owner's manual prints the same sentence as item 2 of its page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +69,21 @@ number the sentence leads with.
 **The 4.0T in the same family asks for a far thinner cord** - 1 mm2, roughly 17 AWG:
 `40t-2026-safety-extension-cord-1-mm2-or-better`. The two figures are not interchangeable, and
 neither is the 16 AWG of the CT850 2016 or the 14 AWG of the CT850 2020.
+
+**Both Spirit MT200 owner's manuals print the same rule in the same sentence as their outlet
+requirement**, saying `treadmill` where the 2026 manuals name their machine:
+
+> Do not use an extension cord unless it is 12awg (2.5mm2) or larger, with only one outlet on the
+> end. The treadmill should be the only appliance in the electrical circuit. Do not attempt to
+> disable the grounded plug by using improper adapters, or in any way modify the cord set; a
+> serious shock or fire hazard may result along with computer malfunctions.
+
+12 awg minimum, one outlet on the end, nothing else on the circuit, and never defeat the grounding
+pin - all four points unchanged.
+
+**The 2010 manual writes the metric figure as `(2.5mm2)` and the 2022 manual drops it**, printing
+`12awg or larger`. The mismatch noted above is the same one: 12 AWG is about 3.3 mm2. **12 awg is
+the safe reading** for an MT200 too.
+
+**The circuit the MT200 needs is not the 2026 machines' circuit** - it is 115 volt AC, 60 Hz,
+20 amp: `spirit-mt200-safety-outlet-and-circuit-requirement`.

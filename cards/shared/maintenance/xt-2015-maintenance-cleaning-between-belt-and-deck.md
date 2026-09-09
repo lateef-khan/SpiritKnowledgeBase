@@ -2,8 +2,8 @@
 id: xt-2015-maintenance-cleaning-between-belt-and-deck
 title: Dragging a rag between the belt and the deck before lubricating
 kind: procedure
-question: How do I clean the debris out from between the belt and deck on a Spirit
-  XT 2015 treadmill?
+question: How do I clean the debris out from between the belt and deck before lubricating
+  a Spirit XT treadmill?
 asked_as:
 - how do i clean under my treadmill belt
 - there is grit under the running belt
@@ -29,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -41,11 +42,11 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: p. 28, Belt/Deck Lubrication Procedure, first paragraph (XT285 p. 36, XT385
-    p. 37, XT485 p. 42)
+    p. 37, XT485 p. 42); XT485ENT p. 53
   extracted_at: '2026-09-09'
 ---
 
-The 2015 manuals print this as the **first step of the lubrication procedure**, not as a routine of its own. They give it no interval; it is done whenever you are about to lubricate.
+The 2015 manuals and the XT485ENT manual print this as the **first step of the lubrication procedure**, not as a routine of its own. They give it no interval; it is done whenever you are about to lubricate.
 
 1. Use a **clean, non-fraying rag, t-shirt, or light towel**.
 2. **Halfway between the end of the treadmill and the motor cover**, shove the garment under the belt until you can **grasp it on both sides of the belt**.
@@ -56,4 +57,4 @@ The 2015 manuals print this as the **first step of the lubrication procedure**, 
 
 **The XT685 2015 has no such procedure**, because it takes no lubricant. Its manual gives a monthly damp-cloth routine instead; see `xt685-2023-belt-deck-general-maintenance`.
 
-**Damage in the source.** The XT385 and XT485 2015 manuals begin this paragraph "**These** First, you want to clean between the belt and deck", with a stray leading word the XT185 and XT285 manuals do not have. Nothing else in the paragraph differs between the four.
+**Damage in the source.** The XT385 and XT485 2015 manuals **and the XT485ENT manual** begin this paragraph "**These** First, you want to clean between the belt and deck", with a stray leading word the XT185 and XT285 manuals do not have. Nothing else in the paragraph differs between the five.

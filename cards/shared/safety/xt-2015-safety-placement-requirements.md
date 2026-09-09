@@ -2,8 +2,7 @@
 id: xt-2015-safety-placement-requirements
 title: Where the treadmill may stand, and the clearance figures these manuals do not print
 kind: policy
-question: Where can a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015
-  treadmill be installed, and how much room does it need?
+question: Where can a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill be installed, or a Spirit XT485ENT treadmill, and how much room does it need?
 asked_as:
 - how much space do i need around a treadmill
 - how far from the wall should the treadmill be
@@ -30,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -45,7 +45,7 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, and page 5, Fitness Equipment Safety
     Instructions and Important Electrical Instructions; the XT385 and XT685 manuals
-    print the same pages on 5 and 6
+    print the same pages on 5 and 6. The XT485ENT owner's manual prints the same scattered rules on its pages 5 and 6, and has no location page
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +74,16 @@ give one.
 
 The commercial Spirit CT900 family quotes ASTM figures instead
 (`ct900ent-clearance-requirements`); those are a different machine family's numbers.
+
+**The XT485ENT owner's manual has no location or clearance page either**, and says the same three
+scattered things: a flat level surface with a 110-volt 15-amp grounded outlet
+(`xt-2015-safety-outlet-and-circuit-requirement`), not on deeply padded, plush or shag carpet, and
+not outdoors or anywhere exposed to rain, moisture, a pool or spa or high humidity, at 40 degrees C
+and 95% non-condensing (`xt-2023-safety-operating-environment-limits`).
+
+**No clearance distance is printed in it** - not for the front, not for the sides, not behind - and
+it says nothing about children, pets or keeping the area clear of furniture.
+
+**Do not fill that gap from its model-mate.** The XT685ENT manual does have a GROUNDING & LOCATION
+REQUIREMENTS page, asking for 20in at the front and each side and 6ft behind
+(`xt-2023-safety-placement-and-clearance`). Those are that machine's figures.

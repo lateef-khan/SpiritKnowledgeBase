@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -42,7 +43,7 @@ source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'RESPONSIBILITIES OF THE CONSUMER, p. 40. The same five items appear in
     all five 2023 XT manuals: xt185 p. 40, xt285 p. 48, xt385 p. 53, xt485 p. 53, xt685
-    p. 52'
+    p. 52, xt685ent p. 53'
   extracted_at: '2026-09-09'
 ---
 
@@ -54,7 +55,9 @@ The warranty **applies only to products in ordinary household use**, and the con
 4. Damages to the treadmill finish during shipping, installation or following installation.
 5. Routine maintenance of this unit as specified in this manual.
 
-The five items are word for word identical in all five 2023 XT manuals. **The 2015 XT manuals print six**, the extra one being a registration card due within 10 days that renumbers everything below it - see `xt-2015-warranty-consumer-responsibilities`. Only the lead sentence differs: the **XT685** reads "ordinary household use **or light commercial use**", because that manual also carries a light commercial warranty table.
+The five items are word for word identical in all five 2023 XT manuals and in the **XT685ENT** manual (effective February 16, 2024). **The 2015 XT manuals print six**, the extra one being a registration card due within 10 days that renumbers everything below it - see `xt-2015-warranty-consumer-responsibilities`. Only the lead sentence differs: the **XT685 and the XT685ENT** read "ordinary household use **or light commercial use**", because those manuals also carry a light commercial warranty table.
+
+**The XT485ENT is not on this card.** Despite its 2023 model id its manual is a 2021-generation document printing the six-item list with the 10-day registration duty at number 1 - see `xt-2015-warranty-consumer-responsibilities`.
 
 Two items bite in practice. **Item 3** makes getting the treadmill to a place where it can be worked on the owner's expense, not a warranty cost. **Item 4** puts finish damage during shipping and installation on the owner, so inspect the machine before the carrier leaves.
 

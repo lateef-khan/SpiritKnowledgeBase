@@ -29,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: warranty
   code: '*'
@@ -46,7 +47,8 @@ source:
   locator: 'RESPONSIBILITIES OF THE CONSUMER lead sentence, manual p. 32, and EXCLUSIONS
     item 8, p. 33. Lead sentence: xt185 line 760, xt285 line 973, xt385 line 1026,
     xt485 line 1163, xt685 line 1152. Exclusion 8: xt185 line 789, xt285 line 1002,
-    xt385 line 1055, xt485 line 1191, xt685 line 1180'
+    xt385 line 1055, xt485 line 1191, xt685 line 1180. XT485ENT: lead sentence p. 55
+    (text.md line 1095), exclusion 8 p. 56 (line 1122)'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,12 +66,13 @@ The manual states this in two places, and in the 2015 manuals the two places dis
 | XT285 | ordinary household or Light Commercial use (see restrictions above) |
 | XT385 | ordinary household use (see restrictions above) |
 | XT485 | ordinary household *(the sentence ends there - no "use", no light commercial)* |
+| XT485ENT | ordinary household *(the same truncated sentence as the XT485)* |
 | XT685 | ordinary household or Light Commercial use (see restrictions above) |
 
 **The XT185 and XT285 contradict themselves.** Both say the warranty applies to household **or Light Commercial** use and both point at "restrictions above", but neither manual prints a light commercial warranty table or any light commercial restriction anywhere. Their warranty table has a Residential row and nothing else. Do not read a light commercial entitlement into an XT185 or XT285 from that sentence - the manual gives no periods to honour it with.
 
 **Only the XT685 backs the phrase with a table**, and that table also supplies the definition the other manuals never give: light commercial means **5 hours use or less in a non-dues paying facility**. See `xt685-2023-light-commercial-warranty-periods`, which covers the 2015 and 2023 XT685 alike, and carries the footnote excluding prisons and correctional facilities.
 
-So the covered envelope is a home, **or** a facility that charges no dues and runs the machine 5 hours a day or less. A dues-paying gym is outside it on every one of the five. Exclusion 2 points the same way, refusing service call reimbursement for a treadmill "not in ordinary household or light commercial use".
+So the covered envelope is a home, **or** a facility that charges no dues and runs the machine 5 hours a day or less. A dues-paying gym is outside it on every one of these manuals. The **XT485ENT** prints no light commercial table either, so like the XT485 it gives no periods for any use beyond the home; only exclusion 8 says what is tolerated. Exclusion 2 points the same way, refusing service call reimbursement for a treadmill "not in ordinary household or light commercial use".
 
 The full exclusion list is in `xt-2015-warranty-exclusions`; the responsibilities list in `xt-2015-warranty-consumer-responsibilities`.

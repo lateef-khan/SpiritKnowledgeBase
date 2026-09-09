@@ -2,8 +2,7 @@
 id: xt-2015-safety-extension-cord-14-awg-or-better
 title: Extension cord must be 14AWG or better with only one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015
-  or XT685-2015 treadmill?
+question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, or on a Spirit XT485ENT treadmill?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for my treadmill
@@ -27,6 +26,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -42,7 +42,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print
-    the same line on page 4, the XT685 manual on page 5
+    the same line on page 4, the XT685 manual on page 5. The XT485ENT owner's manual prints the same line on its IMPORTANT SAFETY INSTRUCTIONS page, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +65,13 @@ and the CVC800 climber ask for 16 AWG (`spirit-extension-cord-16-awg-or-better`)
 
 **The 2023 XT owner's manuals print no extension cord rule at all**, so there is no 2023 figure to
 compare this against.
+
+**The XT485ENT owner's manual prints the same capitalised line**, on its own safety instructions
+page, page 5, with a colon at the end where the 2015 manuals have none:
+`DO NOT USE AN EXTENSION CORD UNLESS IT IS A 14AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END:`.
+14AWG minimum, one outlet on the end.
+
+**The XT685ENT manual prints no extension cord rule at all**, as the five 2023 XT manuals print
+none. Its only mention of one is a troubleshooting row about low voltage, which asks for a heavy
+duty 16 gauge minimum lead kept as short as possible - a different sentence for a different
+purpose, and not this requirement.

@@ -26,6 +26,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: assembly
   code: '*'
 authority: 3
@@ -40,7 +42,9 @@ see_also:
 - ctsbs900-level-adjustment
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19 SETTING UP YOUR TREADMILL - Leveling; and 80T owner's manual p. 21
+  locator: p. 19 SETTING UP YOUR TREADMILL - Leveling; 80T owner's manual p. 21;
+    MT200 2010 owner's manual p. 10 and MT200 2022 owner's manual p. 19, Leveling
+    the MT200
   extracted_at: '2026-09-09'
 ---
 
@@ -53,7 +57,9 @@ unit** to ensure proper stability.
 3. Tighten the top nut against the **bottom of the stabilizer tube**.
 4. Make sure the **bottom nut remains cinched against the levelling foot**.
 
-Both manuals print this paragraph word for word, changing only the model name.
+All four manuals print this paragraph word for word, changing only the model
+name. **Only the two MT200 manuals say how many glides there are: four.** The
+7.0T and 8.0T write "the leveling glides" with no count.
 
 **This is the half-inch-wrench procedure on the rear incline unit.** It is not
 the same as the XT-2023 treadmills, which say only that an M14 wrench adjusts

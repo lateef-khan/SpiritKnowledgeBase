@@ -34,8 +34,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -105,3 +107,9 @@ cord set`. **There is no adapter permission for a 2026 machine** - do not offer 
 one. Those manuals require a NEMA 5-20P receptacle on a dedicated 20-amp circuit, which an
 ordinary two-pole outlet cannot provide in any case:
 `spirit-2026t-safety-outlet-and-circuit-requirement`.
+
+**Both ENT owner's manuals print this paragraph word for word**, spelling the part `ear-lug` with a
+hyphen as the other XT manuals do - the XT685ENT on its GROUNDING & LOCATION REQUIREMENTS page,
+page 8, and the XT485ENT on its GROUNDING INSTRUCTIONS page, page 7. The same three conditions
+apply: temporary use only, the tab connected to a permanent ground, and the adapter held in place
+by a metal screw.

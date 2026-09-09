@@ -30,6 +30,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -42,7 +43,7 @@ see_also:
 - spirit-2026t-safety-proposition-65-sticker
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 4, PRODUCT LABELS; the XT285, XT385, XT485 and XT685 manuals print the same page, also page 4. The 2026 4.0T, 7.0T and 8.0T owner's manuals print the same label on their PRODUCT LABELS page, page 3
+  locator: page 4, PRODUCT LABELS; the XT285, XT385, XT485 and XT685 manuals print the same page, also page 4. The 2026 4.0T, 7.0T and 8.0T owner's manuals print the same label on their PRODUCT LABELS page, page 3. The XT685ENT owner's manual prints the same PRODUCT LABELS page, also page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +73,11 @@ artwork shows the barcode alone.
 the Proposition 65 sticker is also on the back of the motor cover, not on the upright:
 `spirit-2026t-safety-proposition-65-sticker`. Do not answer a 2026 owner from
 `xt-2023-safety-proposition-65-sticker`.
+
+**The XT685ENT owner's manual prints this label page in the same words**, on its own PRODUCT
+LABELS page, page 4. The sticker is on the rear of the motor cover, the number to record is the
+one below the barcode, and it is what registers the warranty. Its label artwork shows the same
+telephone number **(870) 935-1107**.
+
+**The XT485ENT owner's manual has no PRODUCT LABELS page at all** and never names the part the
+sticker is on - `xt-2015-safety-product-labels-and-serial-number` carries that absence.

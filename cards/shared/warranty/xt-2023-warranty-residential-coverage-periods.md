@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -41,6 +43,7 @@ not_to_be_confused_with:
 - ct900-warranty-coverage-terms
 - xt685-2023-light-commercial-warranty-periods
 see_also:
+- spirit-xt-ent-warranty-console-screen-period
 - xt-2023-warranty-start-date
 - xt-2023-warranty-labor-period
 - xt-2023-warranty-use-environment
@@ -51,7 +54,9 @@ source:
     table is printed in all five 2023 XT owner''s manuals: xt185 p. 40, xt285 p. 48,
     xt385 p. 53, xt485 p. 53, xt685 p. 52. The identical row is printed in four of
     the five 2015 XT manuals: xt285 text.md line 970, xt385 line 1022, xt485 line 1159,
-    xt685 line 1149. The 2015 XT185 is the exception and is excluded from this card'
+    xt685 line 1149. The 2015 XT185 is the exception and is excluded from this card.
+    The same five figures are in the XT485ENT p. 55 (text.md lines 1090-1091) and the
+    XT685ENT p. 53 (lines 1579-1580), both of which print a sixth column'
   extracted_at: '2026-09-09'
 ---
 
@@ -74,10 +79,14 @@ Spirit Fitness warrants the parts of these treadmills for the periods below, in 
 | XT385 2015 | March 13, 2021 |
 | XT485 2015 | March 13, 2021 |
 | XT685 2015 | November 30, 2021 |
+| XT485ENT | March 16, 2021 |
+| XT685ENT | February 16, 2024 |
 
 **The 2015 XT185 is not on this card.** Its table reads **Parts 5 Years**, not 10, and a shared card would state the wrong number for it. See `xt185-2015-residential-warranty-periods`.
 
-Both XT685 manuals print a **second** table, a Light Commercial row with shorter motor, deck and parts periods. The other eight manuals print no commercial table at all - see `xt685-2023-light-commercial-warranty-periods`. In the 2015 XT685 that table is printed **above** the residential row rather than below it.
+**The two ENT manuals print a sixth column this table does not have.** Their Frame, Motor, Deck, Parts and Labor figures are exactly the five above, but between Parts and Labor they add a console screen period of **2 Years** - headed *Console Parts* in the XT485ENT and *Touchscreen* in the XT685ENT. Nothing on this card is wrong for an ENT machine; it is incomplete. Read the screen period from `spirit-xt-ent-warranty-console-screen-period` and never fold it into Parts 10 Years.
+
+Both XT685 manuals print a **second** table, a Light Commercial row with shorter motor, deck and parts periods. The XT685ENT prints one too. The other eight manuals print no commercial table at all - see `xt685-2023-light-commercial-warranty-periods`. In the 2015 XT685 that table is printed **above** the residential row rather than below it.
 
 Two things this table does not tell you on its own. When the clock starts is stated in the paragraph above it (`xt-2023-warranty-start-date`), and the one-year labor figure is dated separately in the SERVICE paragraph three pages later (`xt-2023-warranty-labor-period`).
 

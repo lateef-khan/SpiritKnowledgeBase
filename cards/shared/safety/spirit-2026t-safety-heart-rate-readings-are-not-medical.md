@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-heart-rate-readings-are-not-medical
 title: The pulse sensors are not medical devices and the heart rate readings may be inaccurate
 kind: policy
-question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill?
+question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, or on a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - is the heart rate on the treadmill accurate
 - why is my pulse reading wrong on the treadmill
@@ -27,6 +27,8 @@ facets:
   applies_to:
   - 40t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -36,7 +38,7 @@ see_also:
 - sole-bike-hand-pulse-not-a-medical-device
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9
+  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +75,27 @@ over-exercise warning alone, with the heart rate clause absent
 The Sole manuals carry a disclaimer of the same shape
 (`sole-bike-hand-pulse-not-a-medical-device`); it is a different brand's manual and not an answer
 for a Spirit machine.
+
+**Both Spirit MT200 owner's manuals print the long 4.0T form of the disclaimer**, as a bullet of
+their safety instructions page:
+
+> The pulse sensors are not medical devices. Various factors, including the user's movement, may
+> affect the accuracy of heart rate readings. The pulse sensors are intended only as exercise aids
+> in determining heart rate trends in general.
+
+They print the short form as well, as the 8.0T does - `Heart rate monitoring system may be
+inaccurate` - and both restate the point at greater length in their operating chapter:
+
+> The heart rate function on this product is not a medical device and should not be relied on when
+> accurate readings are necessary. Some people, including those in a cardiac rehab program, may
+> benefit from using an alternate heart rate monitoring system like a chest or wrist strap.
+
+- **Not a medical device**, on both generations. The reading is an exercise aid for trends in
+  general.
+- **A cardiac rehab patient is named** as someone who may need a chest or wrist strap instead - a
+  sentence no other Spirit treadmill manual in this knowledge base prints.
+- **The heart rate chest strap is an optional purchase** on the MT200, as it is on the 8.0T.
+
+*Extraction note: in the converted 2022 manual the middle of the pulse-sensor bullet is missing -
+the text runs `Various factors, including` and then breaks off before `The pulse sensors are
+intended only as exercise aids`. The 2010 manual prints the sentence in full and is quoted above.*

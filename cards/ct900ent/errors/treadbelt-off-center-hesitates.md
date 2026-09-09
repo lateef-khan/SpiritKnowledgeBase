@@ -32,8 +32,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -48,7 +50,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.
+    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-08-24'
 ---
 
@@ -62,3 +64,8 @@ heading rather than at a tracking heading. Only the chapter name differs: the 20
 call it *General Maintenance*, the 2023 manuals *Maintenance & Care*. The cause and the
 remedy are the same in all twelve manuals, the 2026 4.0T included; the 4.0T points at
 **Tread-belt Tension** exactly as the XT manuals do.
+
+**The two ENT manuals print the row word for word and differ only in the chapter they send
+you to.** The XT685ENT says *Maintenance & Care*, as the other 2023 manuals do. The XT485ENT
+says *General Maintenance*, which is the 2015 manuals' chapter name - its document is an
+older generation than its 2023 badge suggests. The cause and the remedy are identical.

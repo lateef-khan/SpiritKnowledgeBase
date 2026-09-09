@@ -2,8 +2,7 @@
 id: xt-2015-safety-fitness-equipment-instructions
 title: The Fitness Equipment Safety Instructions list
 kind: policy
-question: What does the Fitness Equipment Safety Instructions list say for a Spirit
-  XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What does the Fitness Equipment Safety Instructions list say for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or for a Spirit XT485ENT treadmill?
 asked_as:
 - what shoes should i wear on the treadmill
 - do i need to see a doctor before using a treadmill
@@ -30,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: safety
   code: '*'
@@ -43,7 +43,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 5, Fitness Equipment Safety Instructions; the XT285 and XT485 manuals
-    print the same list on page 5, the XT385 and XT685 manuals on page 6
+    print the same list on page 5, the XT385 and XT685 manuals on page 6. The XT485ENT owner's manual prints the same list under the same heading, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -85,3 +85,12 @@ clearance page; what they do and do not say about where the machine may stand is
 **By 2023 this list was merged away.** The 2023 XT manuals fold these bullets into a single
 numbered safety list as items 15-20 and drop the chest-strap sentence from the pulse-sensor item
 (`xt-2023-safety-instructions-list`). The rules themselves are unchanged.
+
+**The XT485ENT owner's manual prints this separately headed list word for word**, on its page 5,
+including the closing consequence line. Its pulse-sensor bullet is the longer one: it carries
+`Use of a chest transmitter strap (sold separately) is a much more accurate method of heart rate
+analysis`, as the XT285, XT385, XT485 and XT685 2015 manuals do and the XT185-2015 manual does not.
+
+**The XT685ENT manual has no such list.** Like the base 2023 manuals it folds these bullets into
+its single numbered safety list as items 15 to 20 and drops the chest-strap sentence
+(`xt-2023-safety-instructions-list`).

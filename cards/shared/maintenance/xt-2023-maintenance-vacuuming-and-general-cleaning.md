@@ -30,6 +30,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -40,7 +41,7 @@ see_also:
 - xt-2023-maintenance-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 2023 manuals, page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685. 2015 manuals, General Maintenance - XT185 p. 26 and XT285 p. 33
+  locator: 2023 manuals, page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685; XT685ENT p. 43. 2015 manuals, General Maintenance - XT185 p. 26 and XT285 p. 33
   extracted_at: '2026-09-09'
 ---
 
@@ -52,8 +53,8 @@ Dirt, dust and hair can block air inlets and accumulate on the running belt.
   may have accumulated.
 - **UNPLUG THE POWER CORD BEFORE THIS TASK.**
 
-The five XT 2023 manuals print this paragraph with **no page reference and no maintenance
-chart**. A Sole manual carrying the same wording adds a chart reference; that is a separate
+The five XT 2023 manuals and the XT685ENT manual print this paragraph with **no page reference
+and no maintenance chart**. A Sole manual carrying the same wording adds a chart reference; that is a separate
 card and a separate machine.
 
 **Which machines this covers.** The XT185 2015 and XT285 2015 manuals print the same two
@@ -64,3 +65,6 @@ intervals under the heading General Maintenance, and add one line the 2023 manua
 motor-hood vacuum at **once a year**, not every other month, and they say **pet hair** rather than
 hair. That is a different interval, so it has its own card:
 `xt-2015-maintenance-vacuuming-motor-hood-yearly`.
+
+**The XT485ENT is on that yearly card, not this one.** Its General Cleaning paragraph is the
+2015-generation text - **once a year**, **black motor hood**, **pet hair**.

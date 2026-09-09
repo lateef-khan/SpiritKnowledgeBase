@@ -2,7 +2,7 @@
 id: 70t-2026-console-program-keys-number-pad
 title: The program keys double as a number pad during data entry
 kind: fact
-question: How do I type a number instead of holding the arrows on a Spirit 70t-2026 treadmill?
+question: How do I type a number instead of holding the arrows on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i type in my age quickly
 - is there a number pad on the console
@@ -19,9 +19,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -43,3 +45,6 @@ enter the numbers quickly.
 In idle mode the same keys do something else: **pressing a program key previews
 that program's profile.** To begin a program, press its program key and then the
 enter key.
+
+**Both MT200 manuals print this word for word** - the 2010 manual on its p. 14, the
+2022 manual on its p. 24.
