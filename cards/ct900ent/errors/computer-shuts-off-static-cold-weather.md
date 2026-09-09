@@ -36,6 +36,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -52,7 +53,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1024-1027), printed page 39 of the 2016 manual (text.md lines 1019-1021), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2020 manual (text.md lines 1118-1120) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1194-1195)
+    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1024-1027), printed page 39 of the 2016 manual (text.md lines 1019-1021), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2020 manual (text.md lines 1118-1120) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1194-1195); the same row is Service Checklist - Diagnosis Guide on printed page 31 of the XT685 2010 owner's manual (PDF page 35, text.md lines 1426-1430)
   extracted_at: '2026-08-24'
 ---
 
@@ -71,6 +72,9 @@ own Grounding Instructions in the electrical pages at the front of the manual, n
 troubleshooting table. Only the page number in the pointer changes - page 3 in the 2012 and
 2016 manuals, page 6 in the 2020 manual, and no page number at all in the CT800ENT 2022
 manual.
+
+**The 2010 XT685 owner's manual prints this row word for word too** and points at page 3, so
+the cause and the remedy are unchanged on that model across 2010, 2015 and 2023.
 
 **The XT485ENT and XT685ENT owner's manuals print this row word for word** and send the
 reader to their own Grounding Instructions in the safety pages at the front, exactly as the

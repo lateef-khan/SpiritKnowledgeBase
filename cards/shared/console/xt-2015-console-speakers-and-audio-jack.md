@@ -26,6 +26,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -56,3 +57,7 @@ under the name "Bt-speaker" - see `xt-2023-console-bluetooth-speaker`.
 but that manual prints no Speakers paragraph, so it never says whether that console has a volume
 control. See `xt285-2015-console-layout`. **The XT185-2015 has neither** - its diagram labels no
 speakers and no audio jack.
+
+**The XT685 2010 owner's manual prints the same three sentences on its p. 20**, so this card covers
+that machine. It places the jack explicitly - **on the right side of the console** - which the 2015
+manuals do not, and it names the audio source as a CD player, MP3 or computer.

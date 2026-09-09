@@ -32,6 +32,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -59,3 +60,6 @@ The five 2015 XT owner's manuals print this paragraph word for word.
 
 The **CT850-2020 puts its track somewhere else** - to the left of the dot matrix window, not around
 it - so do not read that machine's layout onto these. See `ct850-2020-quarter-mile-track`.
+
+**The XT685 2010 owner's manual prints this paragraph on its p. 20**, including the counterclockwise
+direction and the lap counter in the message window, so this card covers that machine.

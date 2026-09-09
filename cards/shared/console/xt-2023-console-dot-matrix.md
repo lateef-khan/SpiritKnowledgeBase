@@ -31,6 +31,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -60,3 +61,8 @@ mention - see `xt-2023-console-profile-scrolling`.
 
 The five 2015 XT owner's manuals print this paragraph word for word, so the same behaviour holds
 on the XT185-2015, XT285-2015, XT385-2015, XT485-2015 and XT685-2015.
+
+**The XT685 2010 owner's manual prints this paragraph on its p. 19**, so this card covers that
+machine. It says the boxes show an approximate level of **speed/incline** effort where the 2023
+manuals say resistance; the twenty columns, the ten-high boxes and the profile "picture" are the
+same.

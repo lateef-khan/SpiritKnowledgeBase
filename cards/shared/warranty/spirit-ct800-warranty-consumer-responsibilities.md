@@ -38,6 +38,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct900ent-facility-responsibilities
+- xt685-2010-warranty-consumer-responsibilities
 - xt-2015-warranty-consumer-responsibilities
 - xt-2023-warranty-consumer-responsibilities
 see_also:
@@ -80,4 +81,4 @@ Three items bite in practice. **Item 1** is the only place a CT800 or CT850 manu
 
 This list is only half of what governs the warranty - the other half is the ten numbered exclusions on the next page, `spirit-ct800-warranty-exclusions`.
 
-**This is not the XT list and not the CT900ENT list.** The residential XT manuals head theirs RESPONSIBILITIES OF THE CONSUMER, run to five items, open with "the warranty applies only to products in ordinary household use" and carry no grounded-power-supply item. The CT900ENT and the 2026 machines print seven items whose registration duty is the same, but their lists have no "consumer" in the lead sentence at all.
+**This is not the XT list and not the CT900ENT list.** The 2023 XT manuals head theirs RESPONSIBILITIES OF THE CONSUMER, run to five items, open with "the warranty applies only to products in ordinary household use" and carry no grounded-power-supply item; the 2015 XT manuals run to six under the same NORMAL RESPONSIBILITIES OF THE CONSUMER heading and carry no grounded-power-supply item either (`xt-2015-warranty-consumer-responsibilities`). **One XT manual does carry it.** The 2010 XT685 prints a seven-item list with the grounded-power-supply duty at number 4, in this order - but worded for a treadmill rather than for fitness equipment, and with no "or completed online" in item 1. It is a third list, not this one: `xt685-2010-warranty-consumer-responsibilities`. The CT900ENT and the 2026 machines print seven items whose registration duty is the same, but their lists have no "consumer" in the lead sentence at all.

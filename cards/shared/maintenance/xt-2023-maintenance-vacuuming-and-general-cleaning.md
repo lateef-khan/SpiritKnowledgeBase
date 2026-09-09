@@ -29,6 +29,7 @@ facets:
   - xt285-2023
   - xt385-2023
   - xt485-2023
+  - xt685-2010
   - xt685-2023
   - xt685ent-2023
   section: maintenance
@@ -41,7 +42,7 @@ see_also:
 - xt-2023-maintenance-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 2023 manuals, page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685; XT685ENT p. 43. 2015 manuals, General Maintenance - XT185 p. 26 and XT285 p. 33
+  locator: 2023 manuals, page 30, MAINTENANCE & CARE - General Cleaning; the same paragraph is page 38 of the XT285, page 42 of the XT385 and XT485, and page 41 of the XT685; XT685ENT p. 43. 2015 manuals, General Maintenance - XT185 p. 26 and XT285 p. 33. XT685 2010 printed p. 28 (spirit-treadmill-xt685-2010-owners-manual PDF p. 32)
   extracted_at: '2026-09-09'
 ---
 
@@ -57,6 +58,10 @@ The five XT 2023 manuals and the XT685ENT manual print this paragraph with **no 
 and no maintenance chart**. A Sole manual carrying the same wording adds a chart reference; that is a separate
 card and a separate machine.
 
+**The XT685 2010 manual does print a chart**, and points at it here: "(Use the chart at the
+beginning of the manual to record your maintenance)". The chart itself, with its four tasks and
+their intervals, is `xt685-2010-maintenance-record-chart`.
+
 **Which machines this covers.** The XT185 2015 and XT285 2015 manuals print the same two
 intervals under the heading General Maintenance, and add one line the 2023 manuals do not:
 **"(Please keep a record of your maintenance)"** - without printing any chart to record it in.
@@ -65,6 +70,10 @@ intervals under the heading General Maintenance, and add one line the 2023 manua
 motor-hood vacuum at **once a year**, not every other month, and they say **pet hair** rather than
 hair. That is a different interval, so it has its own card:
 `xt-2015-maintenance-vacuuming-motor-hood-yearly`.
+
+**The XT685 does not move in one direction on this.** Its **2010** manual is on this card at every
+other month, its **2015** manual is on the yearly card, and its **2023** manual is back here at
+every other month. Ask which manual the customer has rather than reasoning from the model name.
 
 **The XT485ENT is on that yearly card, not this one.** Its General Cleaning paragraph is the
 2015-generation text - **once a year**, **black motor hood**, **pet hair**.

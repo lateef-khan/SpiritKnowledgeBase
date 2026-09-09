@@ -59,7 +59,7 @@ All five 2015 XT owner's manuals print the same description as the 2023 ones. Wo
 - **All five 2015 manuals print that sentence.** The 2015 XT185 and XT285 print the plural "Segments 15"; the 2015 XT385, XT485 and XT685 print the singular "**Segment** 15". Neither prints a segment table either.
 - The **2023 XT685** manual prints "near maximum **speed** level" where the other four 2023 manuals print "near maximum **resistance** level". All five 2015 manuals print "resistance".
 
-The CT900ENT prints the same Cardio description but names *segments 4, 9 and 14* as the maximum elevation points, so its card is a separate fact.
+The CT900ENT prints the same Cardio description but names *segments 4, 9 and 14* as the maximum elevation points, so its card is a separate fact. **The 2010 XT685 manual prints that same 4/9/14 wording**, so it sits on that card and not on this one - see `ct900ent-cardio-program`. **The XT685 therefore changed between generations on this figure: segments 4, 9 and 14 in 2010, segment 15 in 2015 and 2023.**
 
 The XT485ENT owner's manual (page 38) prints "near maximum **resistance** level" and the
 **singular** "Segment 15 is maximum elevation for this program", matching the 2015 XT385,

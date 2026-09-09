@@ -27,6 +27,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -64,3 +65,11 @@ sentence.
 
 **The XT185-2015 has no handrail controls.** Its manual has no Handrail Adjustments section, no
 disable switch, and no indicator light - although its Quick Start steps do mention hand rail keys.
+
+**The XT685 2010 owner's manual prints both paragraphs too** - Handrail Adjustments on its p. 16 and
+Handrail Buttons Disable Switch on its p. 20 - so this card covers that machine. **It gives the same
+two locations as the 2015 books, and its second location is the third variant of the three:** its
+Handrail Adjustments paragraph says the disable button is **on the right side of the lower portion
+of the console**, and its Handrail Buttons Disable Switch paragraph says the switch is **to the
+right of the Stop button**, where the XT385, XT485 and XT685 of 2015 say to the right of the Enter
+button. All three descriptions are reproduced as printed.

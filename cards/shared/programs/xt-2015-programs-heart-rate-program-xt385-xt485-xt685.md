@@ -32,6 +32,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-programs-heart-rate-program-speed-keys
 - xt285-2015-heart-rate-program
 - xt-2023-programs-heart-rate-program-xt385-xt485-xt685
 see_also:
@@ -58,3 +59,5 @@ Both programs operate the same and are programmed the same way; the only differe
 8. During the HR 1 or HR 2 programs you can scroll through the data in the Message Center by pressing **Enter**.
 
 **On the XT285 the workload is changed from the Speed keys on the right handlebar instead**, and that manual adds a ninth step for restarting the program when it ends — see the linked card. The XT185 has no heart rate program at all.
+
+**The 2010 XT685 also uses the Speed keys on the right handlebar, not the Incline keys on the left**, and it too prints a ninth step — one that additionally lets you save the finished workout to a User key. **The XT685 therefore changed between generations on this point.** See `xt685-2010-programs-heart-rate-program-speed-keys`; the two procedures are not interchangeable.

@@ -93,3 +93,11 @@ sensory or mental capabilities.
 It carries no age-13 rule and no close-supervision rule; its location page says instead to install
 the treadmill where children and pets cannot access it. The age-13 figure may not be quoted for an
 XT685ENT - see `xt-2023-safety-instructions-list`.
+
+**The XT685-2010 manual prints none of these three bullets but the first.** Its safety page is the
+CT800 family's thirteen-item appliance list
+(`spirit-ct800-safety-instructions-list`), whose only user rule is
+`Close supervision is necessary when this appliance is used by, on, or near children, invalids, or
+disabled persons`. It carries no `Keep children under the age of 13 away from this machine` bullet
+and no reduced-capability sentence, so neither may be quoted for an XT685-2010. The under-13 figure
+enters this family with the 2015 manuals and leaves again with the 2023 ones.

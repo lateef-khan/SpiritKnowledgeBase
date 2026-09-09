@@ -26,6 +26,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: programs
@@ -61,3 +62,5 @@ How the interval count maps onto the five exercises:
 Note that in this worked example the interval and recovery times are the reverse of the setup defaults (which are 1:00 interval and 0:30 recovery) because the user chose them; both are printed in the manual as shown.
 
 The 2015 XT485 and XT685 owner's manuals print this worked example word for word, so nothing about how a Fusion session runs changed between the 2015 and 2023 consoles. Only the way you reach the program changed - a dedicated Fusion key in 2015, the PROGRAM key in 2023.
+
+The **2010 XT685** manual prints the same worked example word for word too (printed page 19), so this has not changed since 2010 either. Its Message Center line reads "STRENGTH INTERVAL BEGIN DUMBBELL ROW" without the interval number; that manual was recovered by OCR and drops single characters elsewhere, so the missing **1** is not recorded as a difference.

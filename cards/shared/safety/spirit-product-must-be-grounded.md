@@ -2,7 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -45,6 +45,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -72,7 +73,7 @@ source:
     five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
     and the Important Grounding Instructions page of the five 2015 XT owner's manuals
     (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
-    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page 6
+    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page 6. The XT685 2010 owner's manual prints the page as Grounding Instructions, PDF page 7 (printed 3)
   extracted_at: '2026-09-08'
 ---
 
@@ -255,3 +256,33 @@ carry the grounding rule a second time, as a bullet of their safety instructions
 `Do not modify the plug provided with the product if it will not fit the outlet` and, in capitals,
 `DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
 CORD SET` (`ct800ent-2022-safety-instructions-list`).
+
+Both manuals also carry the grounding rule a second time, as item 12 of their appliance safety
+list - `Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
+(`spirit-ct800-safety-instructions-list`).
+
+## The XT685-2010 manual prints both paragraphs and names no amp figure
+
+**It prints them in the CT800 and CT850 wording, with `treadmill`** - not the `equipment` of the
+2015 XT manuals or the `unit` of the 2023 ones. Grounding is mandatory, the risk named is electric
+shock, the plug must not be modified, and a qualified electrician installs the right outlet if the
+plug does not fit. It carries the temporary-adapter paragraph too
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`), spelling the tab `earlug` as the CT850 2016
+manual does.
+
+**Its circuit sentence is the shortest in the XT family:**
+
+> This product is for use on a nominal 110-volt circuit, and has a grounding plug that looks like
+> the plug illustrated below.
+
+**No amp figure appears anywhere in that manual.** Its safety instructions page carries no outlet
+WARNING header, and its circuit-breaker paragraph ends without the `dedicated 15 amp circuit
+breaker` sentence the CT800 manuals close with
+(`spirit-house-breaker-needs-a-high-inrush-type`). So there is no 15-amp figure to quote for an
+XT685-2010 - the same position the XT685ENT manual is in, and the opposite of the five 2015 XT
+manuals, whose own safety pages do require a 15-amp outlet
+(`xt-2015-safety-outlet-and-circuit-requirement`). The voltage is 110, as in every other XT manual.
+
+It also carries the grounding rule a second time, as item 12 of its appliance safety list -
+`Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
+(`spirit-ct800-safety-instructions-list`).

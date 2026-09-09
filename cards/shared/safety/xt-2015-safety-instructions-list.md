@@ -164,3 +164,12 @@ omit and the 2023 manuals carry as item 14.
 **The XT485ENT list has no user weight item**, exactly like the four 2015 manuals that print none
 (`xt-2015-safety-no-user-weight-limit-printed`), and its page carries no boxed weight-and-power
 note.
+
+## The XT685-2010 manual does not print this page
+
+**The Spirit XT685-2010 owner's manual prints the CT800 family's thirteen-item appliance list
+instead** (`spirit-ct800-safety-instructions-list`). It has no WARNING header requiring a
+110-volt, 15-amp grounded outlet on a flat level surface, no capitalised **14AWG** extension-cord
+line, no reduced-capability sentence, no `Keep children under the age of 13 away from this
+machine` bullet, no `User Weight Limit` bullet and no Proposition 65 box. Do not answer an
+XT685-2010 from this card - four of the rules on it are not in that manual.

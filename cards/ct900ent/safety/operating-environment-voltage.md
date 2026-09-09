@@ -2,7 +2,7 @@
 id: ct900ent-operating-environment-voltage
 title: Operating environment - temperature, humidity, moisture, and voltage
 kind: spec
-question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800 or CT850 treadmill need?
+question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill need?
 asked_as:
 - can i use this treadmill outside
 - what temperature range is safe
@@ -32,6 +32,7 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900ent
+  - xt685-2010
   section: safety
   code: '*'
 authority: 3
@@ -45,7 +46,7 @@ see_also:
 - ctsbs900-electrical-safety
 source:
   ref: ct900ent-om
-  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches'
+  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual prints the same two paragraphs on its Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches'
   extracted_at: '2026-08-24'
 ---
 
@@ -100,3 +101,20 @@ quick-reference copy at `ctsbs900-environmental-operating-conditions`.
 
 **The ten percent voltage paragraph, by contrast, is word for word the same in all three CT900
 manuals** and in the CT800 and CT850 manuals. Only the temperature figure splits the family.
+
+## The XT685-2010 manual prints the same block, and its own successors do not
+
+**The Spirit XT685-2010 owner's manual prints both paragraphs word for word**, with the same
+figures: 40 to 120 degrees Fahrenheit, 95% non-condensing, and the ten percent voltage variation
+that is not covered under warranty. One Fahrenheit range, no Celsius conversion, no minimum humidity
+and no storage or transport figure.
+
+**That is the reason to read this card before an XT card for that machine.** Its 2015 and 2023
+successors print a single `40 degrees C` figure instead
+(`xt-2023-safety-operating-environment-limits`), which is a different statement. The 2010 manual
+prints the CT800 family's Fahrenheit range, so quoting `40 degrees C` for an XT685-2010, or the
+40-to-120 range for an XT685-2015 or XT685-2023, would be wrong in both directions.
+
+**The XT685-2010 manual states no amp figure anywhere**, so the circuit it names is 110 volt and
+nothing more - see `spirit-product-must-be-grounded`. Do not carry the CT800 family's
+110-volt/15-amp figure onto it (`spirit-ct800-safety-outlet-110-volt-15-amp`).

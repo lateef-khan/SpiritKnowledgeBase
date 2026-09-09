@@ -30,6 +30,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-programs-heart-rate-program-speed-keys
 - xt-2015-programs-heart-rate-program-xt385-xt485-xt685
 - xt285-2023-heart-rate-program
 see_also:
@@ -57,3 +58,5 @@ Both programs operate the same and are programmed the same way; the only differe
 9. When the program ends you may press **Start** to begin the same program again, or **Stop** to exit the program.
 
 **On the XT385, XT485 and XT685 the workload is changed from the Incline keys on the left handlebar instead**, and those manuals print no step 9 — see the linked card. This console has two separate HR keys; the XT485 and XT685 have one HR 1-2 key.
+
+**The 2010 XT685 matches this console on the Speed keys, the right handlebar and the step 9**, but has one HR 1-2 key rather than two, and its step 9 adds a third option — saving the finished workout to a User key. See `xt685-2010-programs-heart-rate-program-speed-keys`.

@@ -34,6 +34,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -93,6 +94,12 @@ would like to pursue"**; it does not print that closing paragraph. Neither ENT m
 the pedals"** - the bike-manual boilerplate, on a treadmill. Both also say the heart rate monitor
 feature may be used during manual mode or during any of the nine different programs. **The 2020 and
 CT800ENT manuals print 65% and 80% instead - see `ct900-heart-rate-exertion-target-zones`.**
+
+**The 2010 XT685 owner's manual prints this same guidance and the same 108-to-144 example**
+(printed page 24) but ends the closing paragraph differently from every other manual listed here:
+it says the Heart Rate program automatically controls **elevation** to keep you at your desired
+heart rate percentage. It also counts **eleven** different programs where the CT800 manuals count
+nine.
 
 **The 2018 CT850 owner's manual prints this same 60% / 80% guidance and the same 108-to-144
 example** (printed pages 30-31). Like the 2015 XT manuals and the 2012 and 2016 CT800 manuals, **it

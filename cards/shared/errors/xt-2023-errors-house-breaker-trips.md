@@ -77,3 +77,11 @@ them to *Important Electrical Information* "in the front of this manual" - the 2
 wording and placement. The printed cause and remedy, **check that the treadmill is the only
 appliance in the circuit**, are word for word the same in both, and neither ENT manual
 mentions a breaker type.
+
+**The XT685 answered this row differently in 2010, and that machine is not on this card.**
+The XT685 **2010** owner's manual prints the same condition with the CT800 and CT900ENT
+remedy - replace the house breaker with a "High In-rush current" type - and says nothing
+about the treadmill being the only appliance on the circuit
+(`ct900ent-circuit-breaker-trips-not-treadmill-breaker`). The claim above that no XT manual
+names a breaker type is true of the 2015 and 2023 revisions and of both ENT manuals; it is
+not true of the 2010 document. Answer by generation.

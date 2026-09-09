@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   section: console
@@ -52,3 +53,8 @@ behaviour for them.
 
 The XT385-2015, XT485-2015 and XT685-2015 manuals print the same sentence. The XT185-2015 and
 XT285-2015 manuals do not, so this card does not claim the behaviour for them either.
+
+**The XT685 2010 owner's manual prints the same sentence on its p. 19**, so this card covers that
+machine. It adds one more: **"The Lap track will move in a counterclockwise direction."** - a
+sentence about the track ring rather than the profile, held with the rest of the track behaviour at
+`xt-2023-console-quarter-mile-track`.

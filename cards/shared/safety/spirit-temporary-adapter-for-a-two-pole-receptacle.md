@@ -2,7 +2,7 @@
 id: spirit-temporary-adapter-for-a-two-pole-receptacle
 title: Using a temporary adapter in a two-pole receptacle
 kind: procedure
-question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2015 or 2023 Spirit XT treadmill, or a Spirit CVC800 climber if there is no grounded outlet?
+question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, or a Spirit CVC800 climber if there is no grounded outlet?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -39,6 +39,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -58,7 +59,7 @@ source:
     of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the five
     2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8), and the Important
     Grounding Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
-    p. 6, XT385/XT685 p. 7) The CT800 2012 owner's manual prints the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022 manual on page 6 The four CT850 owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6
+    p. 6, XT385/XT685 p. 7) The CT800 2012 owner's manual prints the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022 manual on page 6 The four CT850 owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6 The XT685 2010 owner's manual prints it on its Grounding Instructions page, PDF page 7 (printed 3)
   extracted_at: '2026-09-08'
 ---
 
@@ -148,3 +149,13 @@ service manuals and the CT800ENT manual do. Its safety instructions print, in ca
 ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE CORD SET`
 (`ct800ent-2022-safety-instructions-list`), while this grounding paragraph allows the one specific
 temporary grounding adapter.
+
+**The Spirit XT685-2010 owner's manual prints this paragraph word for word.** The same three
+conditions apply: temporary use only, the tab connected to a permanent ground, and the adapter held
+in place by a metal screw. It spells the part `earlug` without a hyphen, as the CT850 2016 manual
+does, where the other XT manuals print `ear-lug`. It is the same green rigid grounding tab,
+labelled **Tab of Grounding Screw** in the illustration on the same page.
+
+It prints no second sentence forbidding adapters. Its safety instructions say only
+`Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
+(`spirit-ct800-safety-instructions-list`).

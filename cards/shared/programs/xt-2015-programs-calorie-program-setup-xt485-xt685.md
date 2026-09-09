@@ -2,7 +2,8 @@
 id: xt-2015-programs-calorie-program-setup-xt485-xt685
 title: Setting a calorie goal and how the workout counts down to it
 kind: procedure
-question: How do I use the Calorie program on a 2015 Spirit XT485 or XT685 treadmill?
+question: How do I use the Calorie program on a Spirit XT485 or XT685 treadmill with
+  a Calorie key?
 asked_as:
 - how do i set a calorie goal on my treadmill
 - what happens when the time runs out before the calories
@@ -24,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -57,4 +59,6 @@ How the workout then runs:
 - When the program begins, **both the Calorie and Time windows count down to 0**. **If the Time expires before calories burned reaches 0, the Time window begins accumulating time until the Calories reach 0.**
 - After the program has ended there is a **3:00 cool down** — 1:00 @ 3 mph/kmph, 1:00 @ 2 mph/kmph, and 1:00 @ 1 mph/kmph — or you may press Stop to end the workout.
 
-*Step 7 in the manual contradicts itself over which steps Enter returns you to: it says the Program Time is "a value that was determined by the data you entered in steps 2-6" and then that Enter will "return to steps 3-6". Both are printed as shown.*
+*Step 7 in the manual contradicts itself over which steps Enter returns you to: the 2015 manuals say the Program Time is "a value that was determined by the data you entered in steps 2-6" and then that Enter will "return to steps 3-6". Both are printed as shown. The 2010 XT685 manual prints the same contradiction with a different second figure - "return to steps 3-5".*
+
+**The 2010 XT685 manual prints this program on printed page 18** with the same seven steps and the same figures - age 35, weight 150, calorie goal 300, top speed 3 mph or 5 kph, top incline 1.0% - and the same countdown behaviour. **Its cool-down phase is printed in the opposite order to the 2015 manuals': 1:00 @ 1 mph, 1:00 @ 2 mph, then 1:00 @ 3 mph**, the same ascending order as its warm-up. That is what the 2010 page prints; the two printings are not interchangeable on this point.

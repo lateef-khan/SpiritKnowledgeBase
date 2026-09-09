@@ -34,7 +34,8 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-maintenance-speed-sensor-alignment
 see_also:
 - xt-2023-console-calibration-wheel-size-two-four-three
 - xt685-2023-calibration-procedure
@@ -56,3 +57,9 @@ source:
 **These manuals give no gap measurement.** They say only "as close as possible without touching". The Sole service-manual procedure `f85-2019-speed-sensor-check` adds a maximum gap of 3 mm and a driver-board socket; neither figure appears in any XT 2023 owner's manual, so neither can be carried over.
 
 **The XT185 2023 and XT285 2023 manuals have no speed sensor section**, so this check is not documented for those two machines in that year. **All five 2015 manuals do carry it**, in the same three steps and the same words, including the XT185 and XT285.
+
+**The XT685 2010 is not on this card and its figures are different.** That manual prints the CT800
+version of the same job - **8 hood screws**, the magnet on the **outside edge** of the pulley, and
+**two screws** holding the sensor - and is answered from
+`spirit-ct800-maintenance-speed-sensor-alignment`. An XT685 owner has to be asked which manual they
+have before any screw count is quoted.

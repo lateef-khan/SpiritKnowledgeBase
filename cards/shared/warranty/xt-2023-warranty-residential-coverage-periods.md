@@ -32,6 +32,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -66,7 +67,7 @@ Spirit Fitness warrants the parts of these treadmills for the periods below, in 
 |---|---|---|---|---|---|
 | Residential | Lifetime | Lifetime | Lifetime | 10 Years | 1 Year |
 
-**The row is word for word the same in all five 2023 XT manuals and in four of the five 2015 ones.** Only the effective date printed above it changes:
+**The row is word for word the same in all five 2023 XT manuals, in four of the five 2015 ones, and in the 2010 XT685.** Only the effective date printed above it changes:
 
 | Manual | Effective date |
 |---|---|
@@ -79,6 +80,7 @@ Spirit Fitness warrants the parts of these treadmills for the periods below, in 
 | XT385 2015 | March 13, 2021 |
 | XT485 2015 | March 13, 2021 |
 | XT685 2015 | November 30, 2021 |
+| XT685 2010 | March 11, 2012 |
 | XT485ENT | March 16, 2021 |
 | XT685ENT | February 16, 2024 |
 
@@ -86,7 +88,9 @@ Spirit Fitness warrants the parts of these treadmills for the periods below, in 
 
 **The two ENT manuals print a sixth column this table does not have.** Their Frame, Motor, Deck, Parts and Labor figures are exactly the five above, but between Parts and Labor they add a console screen period of **2 Years** - headed *Console Parts* in the XT485ENT and *Touchscreen* in the XT685ENT. Nothing on this card is wrong for an ENT machine; it is incomplete. Read the screen period from `spirit-xt-ent-warranty-console-screen-period` and never fold it into Parts 10 Years.
 
-Both XT685 manuals print a **second** table, a Light Commercial row with shorter motor, deck and parts periods. The XT685ENT prints one too. The other eight manuals print no commercial table at all - see `xt685-2023-light-commercial-warranty-periods`. In the 2015 XT685 that table is printed **above** the residential row rather than below it.
+All three XT685 manuals print a **second** table, a Light Commercial row with shorter motor, deck and parts periods. The XT685ENT prints one too. The other eight manuals print no commercial table at all - see `xt685-2023-light-commercial-warranty-periods`. In the 2015 and the 2010 XT685 that table is printed **above** the residential row rather than below it.
+
+**The 2010 XT685 is the oldest manual on this card and its row has not moved since.** Lifetime, Lifetime, Lifetime, 10 Years, 1 Year, effective March 11, 2012 - the same five figures the 2023 manuals print. Two other parts of its warranty section do differ from the 2015 one, and neither is in this table: `xt685-2010-warranty-consumer-responsibilities` and the missing prisons footnote noted in `xt685-2023-light-commercial-warranty-periods`.
 
 Two things this table does not tell you on its own. When the clock starts is stated in the paragraph above it (`xt-2023-warranty-start-date`), and the one-year labor figure is dated separately in the SERVICE paragraph three pages later (`xt-2023-warranty-labor-period`).
 

@@ -29,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -74,3 +75,10 @@ hand rail)" and its step 3 offers "(console or handgrip keys)", but that manual 
 handrail speed or incline controls anywhere else, and it has no Handrail Adjustments section and no
 handrail disable switch. Treat the XT185 as console-keys-only until the technical department
 confirms otherwise.
+
+**The XT685 2010 owner's manual prints the same five steps on its p. 19**, so this card covers that
+machine, with two wording differences. Its step 3 reads *"To slow the tread-belt press and hold the
+Speed + / - or Fast/Slow keys (console or hand rail) to the desired speed"*, a third variant of the
+sentence described above. And the key it names for typing a value is the **Quick Speed** or **Quick
+Incline** key, not the Select key - see
+`xt685-2010-console-quick-speed-and-incline-keys`.

@@ -2,8 +2,8 @@
 id: ct850-2020-power-on-sequence
 title: What the console shows when you power it on
 kind: fact
-question: What happens when I turn on a Spirit CT800, CT850-2020, XT185-2015 or XT285-2015
-  treadmill?
+question: What happens when I turn on a Spirit CT800, CT850-2020, XT185-2015, XT285-2015 or
+  XT685-2010 treadmill?
 asked_as:
 - what do the numbers mean when i switch the treadmill on
 - treadmill shows hours and miles at startup
@@ -31,6 +31,7 @@ facets:
   - ct850-2020
   - xt185-2015
   - xt285-2015
+  - xt685-2010
   section: console
   code: '*'
 authority: 3
@@ -79,3 +80,11 @@ Home Screen instead and no odometer or software version: `ct800ent-2022-console-
 **The CT850 2016, 2018 and 2020 owner's manuals print this same sequence** under the heading POWER -
 2016 p. 16, 2018 p. 15, 2020 p. 16 - in the same order, with the same odometer explanation and the
 same "safety button" wording, so this card covers those machines.
+
+**The XT685 2010 owner's manual prints it too, on its p. 18**, under "Getting Started", in the same
+order and with the same odometer explanation - so this card covers that machine, and the note above
+about the 2015 XT manuals having no power-up section does not extend to the 2010 XT685 book. That
+manual
+says the power switch is at the front of the treadmill **below the motor cover** and that the
+**safety key** must be installed, and it adds that the software version **scrolls across the Message
+Center** rather than simply being displayed.

@@ -34,6 +34,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-console-engineering-mode-menu
 - xt-2023-console-engineering-mode-menu
 - ct850-2016-engineering-mode-menu
 see_also:

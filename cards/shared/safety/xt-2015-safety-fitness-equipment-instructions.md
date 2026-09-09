@@ -94,3 +94,10 @@ analysis`, as the XT285, XT385, XT485 and XT685 2015 manuals do and the XT185-20
 **The XT685ENT manual has no such list.** Like the base 2023 manuals it folds these bullets into
 its single numbered safety list as items 15 to 20 and drops the chest-strap sentence
 (`xt-2023-safety-instructions-list`).
+
+**The XT685-2010 manual has no Fitness Equipment Safety Instructions list.** Its safety chapter is
+the CT800 family's single thirteen-item appliance list
+(`spirit-ct800-safety-instructions-list`), and it prints none of the rules on this card - no shag
+carpet rule, no `consult a physician` sentence, no `keep hands away from all moving parts`, and
+nothing about the pulse sensors not being medical devices. The one place it mentions a physician is
+inside a workout chapter, not in a safety list. Do not answer an XT685-2010 from this card.

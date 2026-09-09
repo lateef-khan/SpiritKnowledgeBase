@@ -60,3 +60,14 @@ page and line for line, so this card covers that machine.
 Neither manual gives a network setup procedure - nothing about WiFi, Ethernet, a password screen or
 an administrator menu - so how either treadmill is put on a network is not answered here, even
 though both make internet access a requirement.
+
+**The Spirit Commercial support note "Connecting to the Internet" (revision 07.01.2024) does name
+apps.** Its Internet screen shows **Prime Video, Hulu, YouTube, ABC News, CBS News, CNN, ESPN, FOX
+NEWS and NBC News**, and the note adds that **"available streaming apps are subject to change"** -
+so treat that list as what one console showed on that date, not as a specification.
+
+The note also prints a reminder the manual does not: **"SIGN OUT OF ANY APPS USED AT THE END OF YOUR
+WORKOUT."** On a machine in a facility the next user otherwise inherits the account.
+
+**The note supplies the network setup this manual omits.** WiFi is configured from the Maintenance
+menu: `spirit-ent-console-wifi-setup`.

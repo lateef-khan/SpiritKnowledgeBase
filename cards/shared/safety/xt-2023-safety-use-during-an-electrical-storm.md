@@ -2,7 +2,7 @@
 id: xt-2023-safety-use-during-an-electrical-storm
 title: Using the treadmill during an electrical storm
 kind: policy
-question: Can I use a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800-2012 treadmill, or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, during a thunderstorm?
+question: Can I use a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800-2012 treadmill, or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, during a thunderstorm?
 asked_as:
 - can i run on the treadmill during a storm
 - should i unplug the treadmill in a thunderstorm
@@ -37,6 +37,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -49,7 +50,7 @@ see_also:
 - xt-2015-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner's manuals print it as the first bullet of their Important Operation Instructions page, 2010 page 5 and 2022 page 10 The CT800 2012 owner's manual prints all three sentences on its Important Operation Instructions page, page 4
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner's manuals print it as the first bullet of their Important Operation Instructions page, 2010 page 5 and 2022 page 10 The CT800 2012 owner's manual prints all three sentences on its Important Operation Instructions page, page 4. The XT685 2010 owner's manual prints it on its Important Operation Instructions page, PDF page 8 (printed 4)
   extracted_at: '2026-09-09'
 ---
 
@@ -116,3 +117,11 @@ components from a surge in the household supply.
 print no electrical-storm warning anywhere - their Important Operation Instructions pages carry
 only the response-delay, distraction and key-pressure items. Do not tell the owner of a CT800-2016,
 CT800-2020 or CT800ENT-2022 that their manual asks them to unplug in a storm; it is silent.
+
+**The Spirit XT685-2010 owner's manual prints all three sentences**, in the same `treadmill`
+wording as the CT800-2012 manual. Do not use it during the storm, unplug it as a precaution, and
+the risk named is damage to components from a surge in the household supply.
+
+**Within the XT family this is a 2010 and 2015 statement in this place.** The five 2023 manuals
+moved it to their Electrical Safety page and the 2026 machines dropped the unplug sentence; the
+earlier books print all three sentences on an Important Operation Instructions page.

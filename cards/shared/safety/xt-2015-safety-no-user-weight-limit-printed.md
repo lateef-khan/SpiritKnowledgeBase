@@ -2,7 +2,7 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, or of a Spirit CT800-2012 treadmill?
+question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, or of a Spirit CT800-2012 treadmill?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -29,6 +29,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   section: safety
   code: '*'
 authority: 3
@@ -42,7 +43,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185,
-    XT285 and XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight item on its safety instructions page, page 5, and carries no specification table The CT800 2012 owner's manual prints no weight item on its Important Safety Instructions page, page 2, and carries no specification table
+    XT285 and XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight item on its safety instructions page, page 5, and carries no specification table The CT800 2012 owner's manual prints no weight item on its Important Safety Instructions page, page 2, and carries no specification table The XT685 2010 owner's manual prints no weight item on its Important Safety Instructions page, PDF page 6 (printed 2), and carries no specification table
   extracted_at: '2026-09-09'
 ---
 
@@ -95,3 +96,13 @@ calorie count, not a capacity of the machine.
 and CT800ENT-2022 manuals each print a 450 lb limit as a bullet of their safety instructions
 (`spirit-ct800-safety-user-weight-limit-450-lbs`); the 2012 manual is a different document that
 prints no such item, and quoting 450 lbs for a CT800-2012 would be an invention.
+
+**The Spirit XT685-2010 owner's manual states no user weight limit either.** Its Important Safety
+Instructions page has no weight item and the manual carries no specification table. Every occurrence
+of the word *weight* in it is the body weight keyed into the console for the calorie count, not a
+capacity of the machine.
+
+**It is the trap in this family.** Its own successor, the XT685-2015 manual, prints
+`User Weight Limit: 425lb` as an extra bullet, and the XT685-2023 and XT685ENT manuals print
+`425 lbs.` as item 21 of their safety list (`xt-2023-safety-user-weight-limit-425-lbs`). The 2010
+manual prints no such bullet anywhere, so quoting 425 lb for an XT685-2010 would be an invention.

@@ -36,6 +36,7 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900
+  - xt685-2010
   section: warranty
   code: '*'
 authority: 3
@@ -54,7 +55,9 @@ source:
     same box sits beside the TREADBELT TRACKING ADJUSTMENT procedure in all four CT850
     owner''s manuals: ct850-2016 p. 40 (spirit-treadmill-ct850-2016-owners-manual text.md
     lines 1035-1036), ct850-2018 p. 39 (lines 998-999), ct850-2020 p. 40 (lines 1036-1037),
-    ct850ent-2022 p. 51 (lines 1167-1168). The CT900 prints it beside the same procedure:
+    ct850ent-2022 p. 51 (lines 1167-1168). The XT685 2010 prints it beside the same procedure,
+    p. 33 (spirit-treadmill-xt685-2010-owners-manual text.md lines 1311-1313). The CT900
+    prints it beside the same procedure:
     spirit-treadmill-ct900-owners-manual text.md lines 1210-1212, MACHINE CARE
     - CONTINUED, p. 37'
   extracted_at: '2026-09-09'
@@ -97,5 +100,7 @@ responsibility sentence but **no Attention box and no warranty sentence at all**
 states this exclusion, so do not quote it to an owner of either - their only relevant
 exclusion is the general "improper maintenance" of item 3
 (`ct900ent-exclusions`, `ctsbs900-warranty-exclusions`).
+
+**One Spirit XT manual prints the box, and the later XT manuals dropped it.** The **2010 XT685** carries it under an ATTENTION heading of its own, beside its treadbelt tracking procedure, in the CT800 wording - "not covered under the **Spirit Fitness** warranty" - together with the same "Proper belt tracking is an owner responsibility common with all treadmills" sentence. **No 2015 or 2023 XT manual prints it**, and neither does the XT485ENT or the XT685ENT: the phrase "improper tracking" appears nowhere in any of them. So an XT685 owner's entitlement here depends on which manual came with the machine, and for every XT except the 2010 XT685 the only relevant exclusion is the general "improper maintenance" of item 3 (`xt-2015-warranty-exclusions`, `xt-2023-warranty-exclusions`).
 
 **A Sole manual states the same rule about a Sole machine.** That is a different machine's fact, not this one - see `f50-2026-belt-damage-from-adjustment-not-covered`.

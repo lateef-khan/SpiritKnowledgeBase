@@ -20,6 +20,7 @@ facets:
   - ct900ent
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -39,7 +40,7 @@ source:
 
 **Incline:** The treadmill elevation is a quick and sustained progression up to the maximum value (default or user input) for 90% of the workout duration.
 
-The 2015 XT485 and XT685 owner's manuals print the same description under the name **Calories**, except that they write "follows a **quick** progression up to the maximum speed level"; the CT900ENT manual omits the word "quick". No other machine in this family has a Calorie program, and the 2023 XT manuals replaced it with a Target Calories program.
+The 2015 XT485 and XT685 owner's manuals and the **2010 XT685** manual (printed page 23) print the same description under the name **Calories**, except that they write "follows a **quick** progression up to the maximum speed level"; the CT900ENT manual omits the word "quick". No other machine in this family has a Calorie program, and the 2023 XT manuals replaced it with a Target Calories program.
 
 For how to set a calorie goal on the XT485 and XT685, see `xt-2015-programs-calorie-program-setup-xt485-xt685`. For notes on why calorie readings are only an estimate, see [Why the console asks for your age and weight](personal-data-age-weight-calorie-note.md).
 

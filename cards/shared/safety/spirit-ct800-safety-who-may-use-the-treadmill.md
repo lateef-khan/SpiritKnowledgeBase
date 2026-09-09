@@ -80,8 +80,15 @@ appears. The user weight limit is a separate bullet of the same list:
 
 ## The other two CT800 manuals print less
 
-**The CT800-2012 manual prints only the close-supervision bullet.** It carries no age-13 rule and
-no reduced-capability clause anywhere, so neither may be quoted for a 2012 machine.
+**The CT800-2012 manual prints only the close-supervision bullet.** It carries no
+age-13 rule and no reduced-capability clause anywhere, so it may not be quoted for a 2012
+machine.
+
+**The Spirit XT685-2010 manual is in the same position.** It prints this family's thirteen-item
+appliance list (`spirit-ct800-safety-instructions-list`), whose only user rule is the same
+close-supervision bullet. Do not answer an XT685-2010 from
+`xt-2015-safety-who-may-use-the-treadmill` either - the age-13 and reduced-capability rules on that
+card are 2015 additions its manual does not print.
 
 ## The CT850 2016, 2018 and 2020 manuals print the same three bullets
 

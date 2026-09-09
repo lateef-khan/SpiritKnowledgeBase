@@ -29,6 +29,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   section: maintenance
   code: '*'
 authority: 3
@@ -41,18 +42,19 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: p. 28, Belt/Deck Lubrication Procedure, and the Parts Included list on
     p. 8 (XT285 p. 36, XT385 p. 37, XT485 p. 42); XT485ENT p. 53 and Parts Included
-    p. 9
+    p. 9; XT685 2010 printed p. 30 and Assembly Tools p. 5 (spirit-treadmill-xt685-2010-owners-manual
+    PDF pp. 34 and 9)
   extracted_at: '2026-09-09'
 ---
 
 **Do not lubricate with anything other than Spirit Fitness approved lubricant.**
 
-- Your treadmill comes with **one tube of "Lube"**. It is listed in Parts Included as **1 Lubricant**, with **no item number**. The **XT485ENT** Parts Included page lists it the same way, and its Parts List numbers the Lubricant **30**.
+- Your treadmill comes with **one tube of "Lube"**. It is listed in Parts Included as **1 Lubricant**, with **no item number**. The **XT485ENT** Parts Included page lists it the same way, and its Parts List numbers the Lubricant **30**. The **XT685 2010** manual lists it on its Assembly Tools page as **Deck/Belt Lubricant, item 18** - it is the only one of these manuals that puts the tube among the tools rather than among the parts.
 - **Extra tubes can be ordered directly from Spirit Fitness or your authorized Spirit Fitness dealer.**
 - **You may also use a Lube-n-Walk kit**, purchased through either of those two sellers.
 
-**These manuals do call it silicone.** The procedure that follows says "use the following procedure to apply the **silicone lubricant**" and ends "to evenly distribute the **silicone lube**". The **XT485ENT** manual says both of those too. They still do not give a grade, a part number, or a named substitute product, so no specific equivalent can be recommended from this source.
+**These manuals do call it silicone.** The procedure that follows says "use the following procedure to apply the **silicone lubricant**" and ends "to evenly distribute the **silicone lube**". The **XT485ENT** and **XT685 2010** manuals say both of those too. They still do not give a grade, a part number, or a named substitute product, so no specific equivalent can be recommended from this source.
 
 **The 2023 manuals are not the same on this point** and must not be merged with it. They call the tube "treadmill belt lubricant", give it an item number (58 on the XT185 and XT285, 30 on the XT385 and XT485), send you to **www.Spiritfitness.com or (800)258-8511** rather than to a dealer, never mention a Lube-n-Walk kit, and never use the word silicone. See `xt-2023-maintenance-approved-lubricant`.
 
-**The XT685 2015 ships no lubricant** and its manual forbids applying any; see `xt685-2023-belt-deck-general-maintenance`.
+**The XT685 2015 ships no lubricant** and its manual forbids applying any; see `xt685-2023-belt-deck-general-maintenance`. **The XT685 2010 does ship it and does require it** - the model line changed, not the answer for one machine. Establish the year before telling an XT685 owner either thing.

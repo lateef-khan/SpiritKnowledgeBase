@@ -2,8 +2,8 @@
 id: xt-2015-programs-select-and-start-xt385-xt485-xt685
 title: Selecting and starting a preset program, with a thirty minute default
 kind: procedure
-question: How do I select and start a preset program on a 2015 Spirit XT385, XT485
-  or XT685 treadmill?
+question: How do I select and start a preset program on a Spirit XT385, XT485 or XT685
+  treadmill whose time defaults to thirty minutes?
 asked_as:
 - how do i start the hill workout
 - how do i pick a program on my treadmill
@@ -27,6 +27,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -52,8 +53,12 @@ source:
 3. The Message Center blinks a value indicating your **Body Weight (default is 150 lbs.)**. The correct body weight affects the calorie count. Use the + or - keys to adjust, then press Enter.
 4. The Message Center blinks a value indicating **Time (the default value is 30 minutes)**. Use any of the + or - keys to adjust, then press Enter to accept. *You may press Start at any time during the programming to start the program.*
 5. The Message Center blinks the **preset top speed** of the selected program (**3 mph or 5.0 kmph**). Use the **Speed + or -** keys to adjust, then press Enter. Each program has various speed changes throughout, so this limits the highest speed the program can reach.
-6. The Message Center blinks the **preset top incline** of the selected program. Use the **Incline + / -** keys to adjust, then press Enter. The manual prints no default figure for the incline.
+6. The Message Center blinks the **preset top incline** of the selected program. Use the **Incline + / -** keys to adjust, then press Enter. The three 2015 manuals print no default figure for the incline; **the 2010 XT685 manual prints one - 6.0%.**
 
-You are then done programming data and may press **Start** to begin your workout, or **Stop** to go back one level to change data entered in the programming phase.
+You are then done programming data and may press **Start** to begin your workout, or **Stop** to go back one level to change data entered in the programming phase. **The 2010 XT685 manual names Enter, not Stop, as the key that goes back one level here.**
 
-Each preset program has a maximum **speed** level that is displayed when a desired workout is chosen; the maximum speed the program will reach is displayed in the **Speed window**. These three manuals name only speed here, and name the Speed window rather than the Message Center — the XT185 and XT285 manuals name both speed and incline, in the Message Center.
+Each preset program has a maximum **speed** level that is displayed when a desired workout is chosen; the maximum speed the program will reach is displayed in the **Speed window**. These manuals name only speed here, and name the Speed window rather than the Message Center — the XT185 and XT285 manuals name both speed and incline, in the Message Center.
+
+**The 2010 XT685 manual prints these six steps word for word** (printed page 17), with the same age, bodyweight, time and top speed defaults. Its two departures from the 2015 printings are the ones marked above: it prints a 6.0% top incline default, and it names Enter rather than Stop for going back a level.
+
+*This card's id begins `xt-2015-` because the 2015 manuals were the first source to reach it. The id is the Qdrant point id and never changes.*

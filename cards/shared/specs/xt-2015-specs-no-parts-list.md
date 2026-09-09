@@ -3,7 +3,7 @@ id: xt-2015-specs-no-parts-list
 title: The owner's manuals print no exploded view and no parts list
 kind: fact
 question: Where is the exploded view diagram and the parts list for a Spirit XT185-2015,
-  XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+  XT285-2015, XT385-2015, XT485-2015, XT685-2010 or XT685-2015 treadmill?
 asked_as:
 - where is the parts diagram for my treadmill
 - what is the part number for the running belt
@@ -30,6 +30,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: specs
   code: '*'
@@ -48,22 +49,33 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: Table of Contents p. 2 and whole document; the same absence holds in the
-    XT285-2015, XT385-2015, XT485-2015 and XT685-2015 manuals
+    XT285-2015, XT385-2015, XT485-2015 and XT685-2015 manuals, and in the XT685-2010
+    manual, Table of Contents p. 3 and whole document, Assembly Instructions pp. 9-14
   extracted_at: '2026-09-09'
 ---
 
 **None of the five 2015 XT owner's manuals contains an exploded view diagram or a
-parts list.** There is no Parts List or Exploded View entry in any of their tables
-of contents, and no whole-machine table of item number, description and quantity
-appears anywhere in them. The documents run from the safety pages to the warranty
-and stop.
+parts list, and neither does the XT685-2010 book.** There is no Parts List or
+Exploded View entry in any of their tables of contents, and no whole-machine
+table of item number, description and quantity appears anywhere in them. The
+documents run from the safety pages to the warranty and stop.
 
-**Do not answer a 2015 part number from a 2023 manual.** The 2023 XT manuals each
+**Do not answer a 2010 or 2015 part number from a 2023 manual.** The 2023 XT manuals each
 carry a full parts list, and those item numbers are numbered per manual - the
 XT185-2023 Drive Motor is 027, the XT385/XT485-2023 Drive Motor is 34, the
 XT685-2023 Drive Motor is 20. Nothing establishes that any of those numbers applies
-to a 2015 machine. Get 2015 part numbers from Spirit Fitness or the dealer parts
-list, and say the owner's manual does not print them.
+to a 2010 or a 2015 machine. Get those part numbers from Spirit Fitness or the
+dealer parts list, and say the owner's manual does not print them.
+
+**The XT685-2010 book prints even less than the 2015 books.** Its four assembly
+steps each carry a HARDWARE box, but as captions under the drawing rather than
+the PART / TYPE / DESCRIPTION / QTY table the 2015 books use, and it has no PARTS
+INCLUDED box at all - only a row of numbered assembly tools (#106 combination M5
+Allen wrench and Phillips screwdriver, #107 M6 Allen wrench, #109 Phillips head
+screwdriver, #18 deck/belt lubricant, #63 safety key). Its assembly text cites
+item numbers in parentheses the same way, and the drawing they index is not
+printed. Nothing establishes that its numbers are the 2015 machine's numbers, so
+do not read one book's item number against the other.
 
 **What the 2015 manuals do print instead.**
 

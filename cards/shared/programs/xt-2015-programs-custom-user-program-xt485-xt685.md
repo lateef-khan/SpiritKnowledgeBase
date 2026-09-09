@@ -2,8 +2,8 @@
 id: xt-2015-programs-custom-user-program-xt485-xt685
 title: Building and saving your own workout from one user key
 kind: procedure
-question: How do I build and save a User 1 or User 2 program on a 2015 Spirit XT485
-  or XT685 treadmill?
+question: How do I build and save a User 1 or User 2 program on a Spirit XT485 or
+  XT685 treadmill with a single User 1-2 key?
 asked_as:
 - how do i make my own workout
 - how do i save my program on the treadmill
@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: programs
   code: '*'
@@ -54,4 +55,10 @@ source:
 
 **Note:** while in a User program, if you change the speed, all segment speeds from there on also change. If you increase your current speed 1 mph, the remaining segment speeds increase by 1 mph; if you decrease your current speed .5 mph, the remaining segment speeds decrease by .5 mph.
 
-**Neither manual says how many segments a User program holds.** They print only "repeat until all segments have been programmed"; do not assume the XT385's figure of 18 applies here.
+**The two 2015 manuals do not say how many segments a User program holds.** They print only "repeat until all segments have been programmed"; do not assume the XT385's figure of 18 applies to them.
+
+**The 2010 XT685 manual does say: 20 segments** (printed page 18). It prints "Repeat the above process until all **20** segments have been programmed" for the speed pass and "program all **20** segments for incline" for the incline pass, and its console chapter describes the dot matrix as twenty columns of boxes ten high, one column per segment. That figure is recorded for the 2010 XT685 only; it is not stated for the 2015 machines and must not be carried across to them.
+
+Two smaller departures in the 2010 printing: step 6 also lets you press **Enter** to go back one step and reprogram, and the manual prints no re-scaling note (step 8 above).
+
+*This card's id begins `xt-2015-` because the 2015 manuals were the first source to reach it. The id is the Qdrant point id and never changes.*

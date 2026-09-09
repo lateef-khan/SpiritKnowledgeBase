@@ -85,3 +85,9 @@ to the 2015 books and the ENT book, not to the whole 2023 generation.
 **Do not extend this to the XT685ENT.** That manual's Direct Speed & Incline
 Buttons paragraph stops before naming any maximum, and no speed figure appears
 anywhere in it.
+
+**Do not extend it to the XT685-2010 either.** The 2010 XT685 owner's manual
+prints the same kind of paragraph with a lower ceiling - 9.9 mph or kmph and
+incline level 9.5 - which is held by
+`xt-2015-specs-speed-and-incline-range-xt185-xt285`. The model name alone does
+not settle which pair of figures applies; establish the year first.

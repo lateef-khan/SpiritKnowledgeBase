@@ -36,6 +36,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -58,7 +59,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed page 23 of the CT800 2012 owner's manual (text.md lines 1002-1007) and on printed page 39 of the CT800 2016 owner's manual (text.md lines 1000-1005); the CT850 2018 owner's manual prints the same row in SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 42 (text.md lines 1059-1064)
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed page 23 of the CT800 2012 owner's manual (text.md lines 1002-1007) and on printed page 39 of the CT800 2016 owner's manual (text.md lines 1000-1005); the CT850 2018 owner's manual prints the same row in SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 42 (text.md lines 1059-1064); the same row is Service Checklist - Diagnosis Guide on printed page 31 of the XT685 2010 owner's manual (PDF page 35, text.md lines 1401-1411)
   extracted_at: '2026-08-24'
 ---
 
@@ -95,6 +96,10 @@ and name the cause as low AC voltage to the treadmill. The other two changed a f
 and have their own cards: the **CT800 2020** manual demands **120 volt AC**
 (`ct800-2020-errors-speed-caps-at-7-mph`) and the **CT800ENT 2022** manual raises the speed
 in the row to **12 mph** (`ct800ent-2022-errors-speed-caps-at-12-mph`).
+
+**The 2010 XT685 owner's manual prints this row word for word as well**, so on that model the
+two figures - 16 gauge minimum and a minimum of 110 volt AC - are unchanged across 2010, 2015
+and 2023.
 
 **Both ENT manuals print the same two figures** - **16 gauge minimum** for an extension cord
 and **a minimum of 110 volt AC** - and both name the cause as low AC voltage to the

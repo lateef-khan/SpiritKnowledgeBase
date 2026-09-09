@@ -29,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -60,3 +61,15 @@ The standby draw is described by comparison only, and the two halves of the fami
 comparisons: the XT185 and XT285 manuals say "about as much as your screen when it is turned off",
 the XT385, XT485 and XT685 manuals say "about as much as your television when it is turned off".
 **No manual gives a figure in watts.**
+
+**The XT685 2010 owner's manual prints the same three steps on its p. 20**, with the same 30 minutes
+and the same television comparison, so this card covers that machine. It describes the standby draw
+as being **in sleep mode** where the 2015 manuals say in display mode; no manual gives a figure in
+watts.
+
+**On the 2010 machine the setting that holds the 30 minutes is in a different Functions list** - see
+`xt685-2010-console-engineering-mode-menu`, not the 2015 Functions cards.
+
+That manual also carries an **in-store display mode** the 2015 books do not, in which the console
+stays powered on until the main power switch is turned off:
+`xt685-2010-console-exit-in-store-display-mode`.

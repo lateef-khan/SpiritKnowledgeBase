@@ -41,6 +41,7 @@ facets:
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   - xt685-2023
   - xt685ent-2023
@@ -60,7 +61,8 @@ source:
     40-42, xt285 pp. 48-50, xt385 pp. 53-55, xt485 pp. 53-55, xt685 pp. 52-54. All
     three are word for word the same in the five 2015 XT manuals, where the accessibility
     item is numbered 4 rather than 3: xt185 text.md lines 765-766, 775-778 and 799-803.
-    XT485ENT pp. 55-56 (accessibility item 4 at line 1100, exclusion 2 at line 1109,
+    XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md lines 1535-1536,
+    1552-1554 and 1590-1595), where the accessibility item is numbered 5. XT485ENT pp. 55-56 (accessibility item 4 at line 1100, exclusion 2 at line 1109,
     SERVICE step 4 at lines 1133-1137). XT685ENT pp. 53-55. CT800 2012 p. 25 (accessibility
     item 5 at lines 1109-1110, exclusion 2 at lines 1119-1121, SERVICE step 4 at lines
     1142-1146), CT800 2016 pp. 41-43, CT800 2020 pp. 45-47, CT800ENT 2022 pp. 53-55. The same three
@@ -71,7 +73,7 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-Yes. The XT manuals - the 2015 generation, the 2023 one, and both ENT manuals alike - name five charges the customer carries while the machine is still inside its warranty period, and refuse one reimbursement outright.
+Yes. The XT manuals - the 2010 XT685, the 2015 generation, the 2023 one, and both ENT manuals alike - name five charges the customer carries while the machine is still inside its warranty period, and refuse one reimbursement outright.
 
 | What the customer pays | Where the manual says so |
 |---|---|
@@ -79,7 +81,7 @@ Yes. The XT manuals - the 2015 generation, the 2023 one, and both ENT manuals al
 | **Shipping and handling** on replacement parts shipped while the product is under warranty | SERVICE step 4 |
 | A **trip charge** for in-home service | SERVICE step 4 |
 | An **additional trip charge** if the customer is over **100 miles** from the nearest service center | SERVICE step 4 |
-| Expenses for making the treadmill accessible for servicing | Responsibilities of the consumer, item 3 (item **4** in the 2015 manuals and in the XT485ENT, which carry an extra registration item at the top of the list) |
+| Expenses for making the treadmill accessible for servicing | Responsibilities of the consumer, item 3 (item **4** in the 2015 manuals and in the XT485ENT, which carry an extra registration item at the top of the list; item **5** in the 2010 XT685, which carries a grounded-power-supply item as well) |
 
 And exclusion 2 refuses **service call reimbursement to the consumer**.
 

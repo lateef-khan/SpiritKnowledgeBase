@@ -26,6 +26,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt685-2010
   - xt685-2015
   section: console
   code: '*'
@@ -67,3 +68,9 @@ preset, two user and one manual - so that count does not agree with itself in th
 
 **The XT185-2015 and XT285-2015 have no heart rate bar graph section.** Their manuals mention a
 "heart rate Bar Graph Display" only in the program data-entry steps and never print a colour scale.
+
+**The XT685 2010 owner's manual prints the same paragraph and the same three colour bands on its
+p. 17**, with the same gaps below 50%, between 60% and 65% and between 80% and 85%, so this card
+covers that machine. It too describes the age as the one entered "during the programming phase of
+any of the 10 programs", and it too describes twelve programs elsewhere - nine preset, two user and
+one manual - so that count does not agree with itself in the 2010 XT685 book either.

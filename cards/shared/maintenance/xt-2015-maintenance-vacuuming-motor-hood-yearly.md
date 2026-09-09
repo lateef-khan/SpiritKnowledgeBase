@@ -55,4 +55,7 @@ Dirt, dust and **pet hair** can block air inlets and accumulate on the running b
 
 The Spirit CT850 2016 service manual prints this paragraph with the same two intervals; that is a different machine and has its own card, `ct850-2016-tread-belt-and-deck-cleaning`.
 
-These manuals print no maintenance chart and give no page reference for one.
+These manuals print no maintenance chart and give no page reference for one. **The XT685 2010
+manual does both**, and puts the motor-hood vacuum at **every other month** rather than once a
+year - so the XT685 2015 on this card is the odd year out within its own model line, not the norm.
+See `xt-2023-maintenance-vacuuming-and-general-cleaning` and `xt685-2010-maintenance-record-chart`.

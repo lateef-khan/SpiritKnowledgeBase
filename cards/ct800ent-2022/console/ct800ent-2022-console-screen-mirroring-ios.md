@@ -58,3 +58,15 @@ chapter and its TOUCHSCREEN OPERATION chapter are the same document as the CT800
 page and line for line, so this card covers that machine.
 
 Neither manual prints a pairing code, a device-name step or any mirroring troubleshooting.
+
+**The Spirit Commercial support note "Screen Mirroring" (revision 07.01.2024) supplies the device
+name the manual leaves out.** In its step 2 you *"select the device name 'Spirit ENT-XXX'"* on the
+phone to complete the pairing - the console appears in the phone's mirroring list under that name.
+
+**That note and the manual disagree about which corner to swipe from.** The note says the newer iOS
+gesture is a swipe **down from the top right corner**; the manual says **top left**. Both are
+reproduced as printed and neither is corrected here.
+
+**The note adds three conditions the manual does not print**, and they are held together at
+`spirit-ent-console-screen-mirroring-limits`: a subscription may be required for some apps, paid TV
+streaming apps will not mirror at all, and the phone must be on the **same** WiFi as the console.

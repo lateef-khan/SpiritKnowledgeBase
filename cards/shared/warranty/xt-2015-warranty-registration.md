@@ -29,6 +29,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   - xt685-2015
   section: warranty
   code: '*'
@@ -54,7 +55,7 @@ source:
 
 ## Is registration required?
 
-**Yes, and there is a deadline.** Responsibility 1, printed in all five 2015 XT manuals:
+**Yes, and there is a deadline.** Responsibility 1, printed in all five 2015 XT manuals and in the 2010 XT685:
 
 > The warranty registration card must be completed and returned to the address listed on the card **within 10 days of the original purchase** to validate the manufacturer's limited warranty.
 
@@ -71,6 +72,14 @@ The registration page at the front of the manual says:
 > The self-addressed product registration card must be completed in full and returned to Spirit Fitness. You can also go to **www.spiritfitness.com/warranty** under the **Support** tab to register online.
 
 The same page asks the owner to record the **serial number** in the space provided. These manuals print **no QR code** and name no registration telephone number.
+
+**The 2010 XT685 sends the owner somewhere else.** Its page reads:
+
+> The self-addressed product registration card must be completed in full and returned to Spirit Fitness. You can also go to **https://www.spiritfitness.com/residentialwarrantyregistration.html** to register online.
+
+Two things differ from the five 2015 manuals: the address is the residential registration page rather than `/warranty`, and the sentence names **no Support tab**. Read the link off the manual in hand. The same address is printed in the CT800 2012 manual (`spirit-ct800-warranty-registration`), so it is the address of that era rather than a defect peculiar to the XT685. Neither URL resolves to a documented form in this knowledge base. Its registration page carries the Record Your Serial Number box and no QR code, as the 2015 ones do.
+
+**The 2010 XT685 belongs here on both halves.** It prints responsibility 1 with the 10-day deadline and exclusion 6 excluding a product with no registration card on file, word for word - only the registration address moves. Its other two warranty differences from the 2015 manual are elsewhere: `xt685-2010-warranty-consumer-responsibilities` and `xt685-2023-light-commercial-warranty-periods`.
 
 **The XT485ENT belongs here, despite its 2023 model id.** Its manual is a 2021-generation document and it prints both halves: responsibility 1 with the 10-day deadline, and exclusion 6 excluding a product with no registration card on file. Its registration page gives the address as **https://www.spiritfitness.com/warranty**, under the Support tab, and it prints no QR code. Its back cover names **800.258.4555** and **spiritservice@spiritfitness.com** - the 2015 contact pair, not the 2023 one.
 

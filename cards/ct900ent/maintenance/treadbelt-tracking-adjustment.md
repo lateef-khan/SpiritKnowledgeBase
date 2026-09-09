@@ -73,7 +73,7 @@ procedure word for word - same 8mm wrench, same left side bolt, same 3 mph, same
 answered from `ct900-treadbelt-tracking-adjustment`, not from here. The CT900 is the one machine in
 this group whose carton demonstrably contains the 8mm Allen wrench the paragraph names.
 
-## Also all four CT800 generations
+## Also all five CT800 generations
 
 The Spirit **CT800 2012, CT800 2016, CT800 2020 and CT800ENT 2022** owner's manuals print this
 procedure word for word - the same **8mm Allen wrench**, the same **left side bolt**, the same
@@ -81,7 +81,7 @@ procedure word for word - the same **8mm Allen wrench**, the same **left side bo
 responsibility common with all treadmills" closing. None of the four prints a metric equivalent for
 the belt speed.
 
-All four also print, under the heading ATTENTION: damage to the running belt resulting from
+All five also print, under the heading ATTENTION: damage to the running belt resulting from
 improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.
 
 ## Also all four CT850 generations

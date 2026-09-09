@@ -3,7 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -33,6 +33,7 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - cvc800
+  - xt685-2010
   section: safety
   code: '*'
 authority: 3
@@ -49,7 +50,7 @@ source:
   locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
     (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
     and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
-    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5
+    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important Electrical Instructions page, PDF page 7 (printed 3)
   extracted_at: '2026-09-08'
 ---
 
@@ -137,3 +138,14 @@ current rating - is the same. It also writes `manufacturer` where the other thre
 `manufacture`.
 
 Everything that decides the answer is unchanged in all four.
+
+## The XT685-2010 manual prints the paragraph and stops one sentence early
+
+**It prints the paragraph word for word**, including both part numbers - **Grainger # 1D237** and
+www.squared.com **# QO120HM**. The test is which breaker trips, the fix is a high inrush type, and
+it is not a warranty defect.
+
+**It does not close with the dedicated-breaker sentence.** Where the CT800 2012, 2016 and 2020
+manuals add `The electrical outlet used should have a dedicated 15 amp circuit breaker`, this
+manual's paragraph ends at `part #QO120HM.` **It states no amp figure anywhere**, so there is no
+dedicated-breaker rating to quote for an XT685-2010 - see `spirit-product-must-be-grounded`.

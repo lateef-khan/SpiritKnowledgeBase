@@ -71,6 +71,37 @@ CI runs `kb lint`. Six things stay green that should not:
   grep -rh '^title:' cards/ --include='*.md' | sed 's/^title: //' | sort | uniq -d
   ```
 
+## A filename year is not evidence
+
+Twice now a manual's folder or filename has named a year the document does not.
+Before you create a model id from a filename, prove the year from the document.
+
+- `CT850 2012 OM 850812.pdf` is effective **November 1, 2013**.
+- `CT800_2010_OM_800810.pdf` is a **photocopy of the 2012 manual**. Both print the
+  stamp `CT800_20130729` and "Effective March 1, 2012", both are 30 pages, and they
+  match **95.1%** at word level once OCR letter confusions are normalised — against
+  73.7% for the genuinely different CT800-2016. It was carded as `ct800-2010` and had
+  to be stripped from 84 cards.
+
+Check three things before ingesting, in this order:
+
+```bash
+pdfinfo FILE.pdf | grep -E 'Pages|Producer|CreationDate|Title'
+grep -oE '<MODEL>_[0-9]{8}' text.md | sort -u     # the internal revision stamp
+grep -i 'effective' text.md                        # the warranty effective date
+```
+
+A `Producer` naming a scanner (Lexmark, Xerox, Canon) with `Title: Scanned Document`
+means someone photocopied a book — the file's date tells you when it was scanned, not
+when it was printed. A document cannot predate its own warranty effective date.
+
+Then compare against the manual you think it duplicates. Normalise the OCR confusions
+(`l`/`1`/`I`, `O`/`0`, `S`/`5`, `|`) and run `difflib.SequenceMatcher` at word level.
+**Above roughly 90% it is the same document**; a real sibling generation sits far
+lower. A phantom model id is worse than a missing one: every card it touches gains a
+machine that does not exist, and claims a second manual corroborates a fact when only
+one manual ever said it.
+
 ## Never compare manuals with `diff`
 
 `diff` is **not reliable** in this environment. On 2026-09-09 the same two

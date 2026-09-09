@@ -87,3 +87,29 @@ parts package**. That wrench is not on this tools panel in any of them. Belt
 tension and tracking are maintenance questions and have their own cards; what
 matters here is that the carton is said to hold a tool the tools panel does not
 name.
+
+**The manual says it twice, in two different words.** The belt chapter of each of
+the eight prints both - tread-belt tension: "Adjustment must be made from the rear
+roller with the **8mm Allen wrench provided in the parts package**"; tread-belt
+tracking: "**An 8mm Allen wrench is provided** for this adjustment." The wrench is
+called provided in both places and named on no tools panel.
+
+**All eight were read in the source text, one by one** - CT800 2012, CT800 2016,
+CT800 2020, CT800ENT, CT850 2016, CT850 2018, CT850 2020 and CT850ENT - and every
+one carries both sentences and the same three-tool panel. Nothing here is inferred
+from a sibling manual.
+
+The parts lists do not settle it either: items 159 and 160 are sizeless on the
+CT800 2020 and the CT850 2016 and 2020 lists, and 6mm-looking on the two ENT lists,
+as described above. An 8mm is on none of them, and no manual says it is packed
+separately. So an owner counting the bag against the panel will think a tool is
+missing when it is not - or find the panel complete and have nothing to turn the
+belt bolts with.
+
+**A different tool contradiction, on a different machine:** the XT685 2010 tools
+panel and its own assembly steps swap two item numbers between them. That is not
+this fault and is on its own card - see the linked XT tools card.
+
+Part **numbering** on the 2012 and 2016 machines is a third, separate trap; see
+`spirit-ct800-specs-no-parts-list` rather than reading item numbers across
+generations.

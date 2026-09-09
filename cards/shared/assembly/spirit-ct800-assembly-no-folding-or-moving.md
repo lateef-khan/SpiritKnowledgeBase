@@ -37,6 +37,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xt685-2010-assembly-no-levelling-folding-or-parts-list
 - xt-2023-assembly-folding-and-moving
 - xt-2023-assembly-levelling-feet
 - 40t-2026-assembly-no-levelling-or-moving

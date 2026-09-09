@@ -27,6 +27,7 @@ facets:
   - xt385-2015
   - xt485-2015
   - xt485ent-2023
+  - xt685-2010
   section: maintenance
   code: '*'
 authority: 3
@@ -39,7 +40,8 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: p. 28, Belt/Deck Lubrication Procedure (XT285 p. 36, XT385 p. 37, XT485
-    p. 42); XT485ENT p. 53
+    p. 42); XT485ENT p. 53; XT685 2010 printed p. 30 (spirit-treadmill-xt685-2010-owners-manual
+    PDF p. 34)
   extracted_at: '2026-09-09'
 ---
 
@@ -49,8 +51,8 @@ If the lubricant dries out, the friction between the belt and deck rises and pla
 
 **Failure to lubricate the deck at regular intervals may void the warranty.**
 
-All four 2015 manuals that carry a lubrication section, **and the XT485ENT manual**, print this paragraph in the same words. The interval it refers to is not the same on all five - **180 hours** on the XT185 and XT285, **90 hours** on the XT385, the XT485 and the XT485ENT. See `xt-2015-maintenance-lubrication-interval-180-hours` and `xt-2015-maintenance-lubrication-interval-90-hours`.
+All four 2015 manuals that carry a lubrication section, **the XT485ENT manual and the XT685 2010 manual**, print this paragraph in the same words. The interval it refers to is not the same on all six - **180 hours** on the XT185, the XT285 and the XT685 2010, **90 hours** on the XT385, the XT485 and the XT485ENT. See `xt-2015-maintenance-lubrication-interval-180-hours` and `xt-2015-maintenance-lubrication-interval-90-hours`.
 
-**This does not apply to the XT685 2015**, which takes no lubricant at all; see `xt685-2023-belt-deck-general-maintenance`.
+**This does not apply to the XT685 2015**, which takes no lubricant at all; see `xt685-2023-belt-deck-general-maintenance`. It does apply to the **XT685 2010**, which is the generation before it and is lubricated.
 
 The 2023 manuals say the same thing with one word changed - "failure to **clean and** lubricate the deck at regular intervals may void the warranty" - and attach it to a different interval; see `xt-2023-maintenance-deck-lubrication-interval`.

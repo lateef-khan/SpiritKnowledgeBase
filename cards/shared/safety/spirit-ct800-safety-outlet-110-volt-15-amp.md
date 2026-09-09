@@ -100,3 +100,11 @@ asks for the CT800 family's 110 volt at 15 amp:
 same commercial treadmill the 2016 and 2020 books describe at 120 volt and 20 amp. Quote the figure
 from the machine's own manual and say plainly that the other CT850 books print a different one; do
 not average them or pick the larger.
+
+## Do not carry this figure onto the XT685-2010
+
+**The Spirit XT685-2010 owner's manual prints the same electrical and grounding chapter as the
+CT800-2012 manual, but neither of these two sentences.** Its circuit-breaker paragraph ends at
+`part #QO120HM.` and its grounding page reads `a nominal 110-volt circuit` - no amp figure and no
+`dedicated`. **No amp figure appears anywhere in that manual**, so 15 amp may not be quoted for an
+XT685-2010: `spirit-product-must-be-grounded`.
