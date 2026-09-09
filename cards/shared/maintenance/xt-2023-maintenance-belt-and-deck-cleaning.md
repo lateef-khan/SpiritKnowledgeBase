@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -39,11 +40,11 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 34, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Belt & Deck Cleaning
-    (XT285 p. 42, XT385 p. 46, XT485 p. 46, XT685 p. 45)
+    (XT285 p. 42, XT385 p. 46, XT485 p. 46, XT685 p. 45, XT685ENT p. 47)
   extracted_at: '2026-09-09'
 ---
 
-All five XT 2023 manuals print this procedure identically.
+All five XT 2023 manuals and the XT685ENT manual print this procedure identically.
 
 1. Ensure that your machine is **off**, and that the **power cord is unplugged** to minimize risk of injury.
 2. **Grab one edge of the treadmill belt and lift slightly** to expose the area between the top of the treadmill base and the running belt.
@@ -52,5 +53,9 @@ All five XT 2023 manuals print this procedure identically.
 5. Using both hands, **drag the cleaning cloth up and down the length of the treadmill base 1-2 times**.
 6. For excessive dirt accumulation, **rotate the belt halfway and repeat step 5**. Continue until your cleaning cloth is no longer picking up any dirt.
 7. **Remove the cleaning cloth from the treadmill before plugging back in.**
+
+**The XT485ENT is not on this card.** Its manual has no seven-step version; the only thing it
+prints is the shorter 2015-generation rag-drag, as the first step of its lubrication procedure.
+See `xt-2015-maintenance-cleaning-between-belt-and-deck`.
 
 The manuals do not give an interval for this procedure. On the XT185, XT285, XT385 and XT485 it is described as part of the same routine as lubrication, which is scheduled every 90 days or 90 hours; see `xt-2023-maintenance-deck-lubrication-interval`.

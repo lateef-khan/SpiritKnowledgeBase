@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -45,7 +47,7 @@ source:
   locator: 2023 manuals, page 31, MAINTENANCE & CARE - Treadbelt Tracking Adjustment
     / SETTING TREAD-BELT TRACKING (XT285 p. 39, XT385 p. 43, XT485 p. 43, XT685 p.
     42); 2015 manuals, Setting Tread-Belt Tracking (XT185 p. 27, XT285 p. 35, XT385
-    p. 37, XT485 p. 42, XT685 p. 42)
+    p. 37, XT485 p. 42, XT685 p. 42); XT485ENT p. 52; XT685ENT p. 45
   extracted_at: '2026-09-09'
 ---
 
@@ -61,8 +63,8 @@ A small adjustment can make a dramatic difference which may not be apparent righ
 
 **Damage to the running belt resulting from improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.**
 
-**In the 2023 manuals** the wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685. **The 2015 manuals give no item number for it.**
+**In the 2023 manuals** the wrench is the M6 L Allen wrench in the hardware kit: item **97** on the XT185 and XT285, item **132** on the XT385 and XT485, item **104** on the XT685. The **XT685ENT** manual also shows item **104**. **The 2015 manuals and the XT485ENT manual give no item number for it**; the XT485ENT calls it only "the 6 mm Allen wrench" and lists an "L Allen Wrench" in Tools Included.
 
-All ten manuals print the same steps, the same **left side bolt**, the same **1/4 turn**, and the same **3 mph**. The 2015 XT385, XT485 and XT685 manuals add the metric equivalent in brackets - **3 mph (5 kmph)**. That is the same speed written twice, not a range.
+All twelve manuals print the same steps, the same **left side bolt**, the same **1/4 turn**, and the same **3 mph**. The 2015 XT385, XT485 and XT685 manuals **and the XT485ENT manual** add the metric equivalent in brackets - **3 mph (5 kmph)**. That is the same speed written twice, not a range. The XT685ENT prints **3 mph** with no metric equivalent.
 
 The Sole procedure in `f65-2016-belt-tracking-adjustment` is not the same fact: it calls for a 10 mm Allen wrench and a speed of 3 to 5 kph.

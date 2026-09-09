@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-tether-cord-stops-the-belt
 title: The magnetic safety tether cord should be used at all times and stops the belt when pulled
 kind: policy
-question: What is the safety tether cord on a 2026 Spirit 7.0T or 8.0T treadmill for?
+question: What is the safety tether cord on a 2026 Spirit 7.0T or 8.0T treadmill, or on a Spirit MT200 rehabilitation treadmill, for?
 asked_as:
 - what is the cord that clips to my clothes for
 - how does the emergency stop cord work
@@ -26,6 +26,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,7 +40,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 21, page 5; the 8.0T owner's manual prints the same words as item 21 of its page 5
+  locator: SAFETY INSTRUCTIONS item 21, page 5; the 8.0T owner's manual prints the same words as item 21 of its page 5. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +63,19 @@ an 8.0T from their safety pages.
 
 **The 4.0T manual does not describe the tether cord at all.** Its only mention is a rule about
 putting it away afterwards: `spirit-2026t-safety-secure-the-tether-cord-after-use`.
+
+**Both Spirit MT200 owner's manuals print the same sentences**, as the last bullet of their safety
+instructions page, saying `this unit` where the 2026 manuals name their machine:
+
+> A safety tether cord is provided with this unit. It is a simple magnetic design that should be
+> used at all times. It is for your safety should you fall or move too far back on the tread-belt.
+> Pulling this safety tether cord will stop tread-belt movement.
+
+**The MT200 manuals call the same part a Safety Lanyard elsewhere.** Their Features drawing labels
+it item 3, `Safety Lanyard`, and their parts list carries it as `800m/m_Safety Key`. Lanyard, safety
+key and safety tether cord are one part on this machine.
+
+**These manuals give no coast distance either**, and do not say the treadmill will not start
+without the magnet or how to fasten the clip to clothing. The one-to-two-step coast and the
+clip instructions quoted for the CT850, CT900 and XT machines
+(`xt-2015-safety-tether-cord`) are not figures an MT200 manual states.

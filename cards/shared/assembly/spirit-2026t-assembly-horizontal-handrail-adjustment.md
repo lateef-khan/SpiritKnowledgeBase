@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: assembly
   code: '*'
 authority: 3
@@ -38,7 +40,8 @@ see_also:
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: p. 19 SETTING UP YOUR TREADMILL - Adjusting the Horizontal Handrail Position;
-    and 80T owner's manual p. 21
+    80T owner's manual p. 21; MT200 2010 owner's manual p. 10 and MT200 2022 owner's
+    manual p. 20, Adjusting the hand rail horizontal position
   extracted_at: '2026-09-09'
 ---
 
@@ -51,7 +54,8 @@ There are **numbered scales on the tubes** for repeatable settings.
 when the position is changed. Pull the lever out, rotate it to a new position
 that allows tightening, and let it back in.
 
-Both manuals print this paragraph word for word. **The horizontal adjustment is
-the one thing the two machines share here** - their vertical handrail
-adjustments are different mechanisms and have a card each. The 4.0T has fixed
+All four manuals print this paragraph word for word. **The horizontal adjustment
+is the one thing the 7.0T and the 8.0T share here** - their vertical handrail
+adjustments are different mechanisms and have a card each. The MT200 of both
+years uses the 7.0T's knob-and-pin vertical adjustment. The 4.0T has fixed
 handrails and no adjustment of either kind.

@@ -26,7 +26,8 @@ facets:
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-mt200-programs-running-a-saved-program
 see_also:
 - 70t-2026-programs-facility-program
 source:

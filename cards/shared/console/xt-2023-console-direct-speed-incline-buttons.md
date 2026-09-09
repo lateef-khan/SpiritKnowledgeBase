@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -50,3 +51,12 @@ that level, so you do not have to hold a button down until it reaches the value.
 
 **These ranges are not the same across the family.** The XT185 reaches speed 10 and incline 10, and
 the XT285 reaches speed 12 and incline 12. Check the machine before quoting a maximum.
+
+**The XT685ENT prints the same paragraph** on its p. 23 **but never states a range**.
+That manual has no Quick Start section and prints no speed or incline maximum
+anywhere, so **do not quote 1 through 12 or 0 through 15 for an XT685ENT** - the
+figures above come from the other three manuals.
+
+**The XT485ENT works differently again.** Its keys are Direct Access keys numbered
+0~9 and you type two or three digits after a Speed or Incline key; see
+`xt485ent-2023-console-direct-access-keys-two-or-three-digits`.

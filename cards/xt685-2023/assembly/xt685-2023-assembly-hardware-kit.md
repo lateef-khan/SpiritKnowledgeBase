@@ -2,8 +2,8 @@
 id: xt685-2023-assembly-hardware-kit
 title: Hardware kit for the non-folding gusseted treadmill assembly
 kind: fact
-question: What fasteners are in the hardware kit of a Spirit XT685-2023 treadmill
-  and which step uses each one?
+question: What fasteners are in the hardware kit of a Spirit XT685-2023 or XT685ENT
+  treadmill and which step uses each one?
 asked_as:
 - what bolts come with my treadmill
 - how many screws should be in the bag
@@ -23,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2023
+  model: '*'
   applies_to:
   - xt685-2023
+  - xt685ent-2023
   section: assembly
   code: '*'
 authority: 3
@@ -35,13 +36,18 @@ not_to_be_confused_with:
 - xt685-2015-assembly-hardware-kit
 see_also:
 - xt685-2023-assembly-procedure
+- xt685ent-2023-assembly-procedure
 - xt-2023-assembly-tools-included
 - xt-2023-assembly-parts-included
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
-  locator: p. 9, PARTS INCLUDED / ASSEMBLY TOOLS panel
+  locator: p. 9, PARTS INCLUDED / ASSEMBLY TOOLS panel; XT685ENT owner's manual p.
+    9, same panel
   extracted_at: '2026-09-09'
 ---
+
+The XT685-2023 and the XT685ENT print the same panel: the same twelve rows, the
+same item numbers and the same counts.
 
 | Panel step | Item | Description | Qty |
 |---|---|---|---|

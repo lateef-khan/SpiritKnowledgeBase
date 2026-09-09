@@ -32,8 +32,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -96,3 +98,14 @@ maker, a space heater, a hair drier. The built-in surge suppressors are describe
 The 2015 manuals also name the circuit the treadmill should have to itself - 110 volt, 15 amp,
 grounded, with only the treadmill plugged into it
 (`xt-2015-safety-outlet-and-circuit-requirement`).
+
+**The XT685ENT owner's manual prints this whole passage on its Electrical Safety page, page 7**,
+in the `unit` wording, and the **XT485ENT owner's manual prints it on its Important Electrical
+Instructions page, page 6**, in the `treadmill` wording the 2015 manuals use. The same three
+breaker brands and series are named - Eaton (Cutler Hammer Series), Leviton (Smart lock pro) and
+Schneider Electric (Canadian home series) - with the same test result, the same four example
+devices, and the same built-in surge suppressors.
+
+Both ENT manuals also repeat the check as the same troubleshooting row - "Circuit breaker trips,
+but not the treadmill circuit breaker: check that the treadmill is the only appliance in the
+circuit" - and add nothing to it.

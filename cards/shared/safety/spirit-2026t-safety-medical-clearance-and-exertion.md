@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-medical-clearance-and-exertion
 title: Medical clearance, a safe starting level, and a three to five minute warm up and cool down
 kind: policy
-question: What must be checked before putting someone on a 2026 Spirit 7.0T or 8.0T treadmill, and how should the session start and end?
+question: What must be checked before putting someone on a 2026 Spirit 7.0T or 8.0T treadmill, or on a Spirit MT200 rehabilitation treadmill, and how should the session start and end?
 asked_as:
 - does the patient need clearance before using the treadmill
 - how long should a warm up on the treadmill be
@@ -27,6 +27,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,7 +40,7 @@ see_also:
 - spirit-2026t-safety-intended-patient-population
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: OPERATION INSTRUCTIONS, WARNING list, page 8, and APPLICATION SPECIFICATION, INTENDED PATIENT POPULATION, page 9; the 8.0T owner's manual prints both on its pages 8 and 9
+  locator: OPERATION INSTRUCTIONS, WARNING list, page 8, and APPLICATION SPECIFICATION, INTENDED PATIENT POPULATION, page 9; the 8.0T owner's manual prints both on its pages 8 and 9. Both Spirit MT200 owner's manuals print the same three bullets on their Important Operation Instructions page, 2010 page 5 and 2022 page 10, and repeat the clearance bullet on their Application Specification page, 2010 page 6 and 2022 page 11
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +67,16 @@ symptom list. The two are different rules for different machines.
 
 Some patients are excluded whatever their clearance says:
 `spirit-2026t-safety-rehabilitation-contraindications`.
+
+**Both Spirit MT200 owner's manuals print the same three bullets word for word**, on their
+Important Operation Instructions page, and repeat the clearance line on their Application
+Specification page with the same qualifier - `especially important for person with a history of
+heart disease or other high risk factors`.
+
+Medical clearance rather than a consultation, **three to five minutes** of warm up and the same
+again to cool down every session, and the same non-exhaustive symptom list: shortness of breath or
+difficulty in breathing, pain or discomfort, feeling faint.
+
+**The 2022 MT200 manual adds an exclusion list the 2010 manual does not have**, on the same page -
+patients who must not be put on the machine whatever their clearance says
+(`spirit-2026t-safety-rehabilitation-contraindications`).

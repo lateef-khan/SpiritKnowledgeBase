@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
   section: programs
@@ -50,3 +51,7 @@ source:
 All five 2023 XT owner's manuals and all five 2015 XT owner's manuals (XT185, XT285, XT385, XT485, XT685) print the same description, except that they write "a gradual regression of **resistance** back to approximately 10%" where the CT900ENT manual writes "regression of **Speed**". The 2015 and 2023 wordings of this program are identical.
 
 On the CT900ENT, the full segment-by-segment speed and incline values are in [Preset program speed/incline chart](preset-speed-incline-chart.md). The 2023 XT manuals print a profile picture only, with no numeric segment table.
+
+The XT485ENT owner's manual prints the same description on page 36, using "regression of
+**resistance**" as the XT manuals do. Its touchscreen reaches the program from the Programs
+category rather than a program key.

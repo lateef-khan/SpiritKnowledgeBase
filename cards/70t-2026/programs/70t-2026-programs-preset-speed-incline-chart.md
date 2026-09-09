@@ -28,7 +28,8 @@ facets:
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-mt200-programs-preset-speed-incline-chart
 see_also:
 - 70t-2026-programs-preset-program-list
 - ct900-preset-programs-hill-fatburn-cardio-interval

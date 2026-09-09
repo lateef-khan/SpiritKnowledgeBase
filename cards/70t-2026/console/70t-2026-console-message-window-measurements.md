@@ -2,7 +2,7 @@
 id: 70t-2026-console-message-window-measurements
 title: The seven measurements the message window scrolls through
 kind: fact
-question: What measurements can the message window show on a Spirit 70t-2026 treadmill?
+question: What measurements can the message window show on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - what can the message window show
 - how do i see my mets
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -56,3 +58,6 @@ program.** Measurements include:
 
 **To the left of the message window is a display key that switches the data
 shown.**
+
+**Both MT200 manuals print the same seven measurements with the same figures** - the
+2010 manual on its p. 14, the 2022 manual on its p. 23.

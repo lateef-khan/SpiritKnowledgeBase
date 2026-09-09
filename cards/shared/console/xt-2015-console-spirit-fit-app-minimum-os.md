@@ -2,7 +2,7 @@
 id: xt-2015-console-spirit-fit-app-minimum-os
 title: Minimum phone or tablet operating system for the Spirit Fit App
 kind: spec
-question: What phone or tablet does the Spirit Fit App need on a Spirit XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What phone or tablet does the Spirit Fit App need on a Spirit XT285-2015, XT385-2015, XT485-2015, XT685-2015 or XT485ENT treadmill?
 asked_as:
 - what phone works with the spirit app
 - what version of android do i need for the treadmill app
@@ -26,6 +26,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: console
   code: '*'
@@ -50,3 +51,8 @@ Spirit Fit App to operate properly.**
 the **Spirit+** App, a different app. See `xt-2023-console-spirit-plus-minimum-os`.
 
 **The XT185-2015 owner's manual has no app section**, so it states no requirement at all.
+
+**The XT485ENT prints the same two figures** on its p. 49, spelled "iOs 7" the same way, even though
+it is a 2023 machine. Its sibling the XT685ENT is the Spirit+ machine and needs iOS 13.1 or Android
+8.0 - see `xt-2023-console-spirit-plus-minimum-os`. **The two ENT treadmills do not run the same
+app.**

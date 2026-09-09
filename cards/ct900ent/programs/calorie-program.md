@@ -19,6 +19,7 @@ facets:
   applies_to:
   - ct900ent
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: programs
   code: '*'
@@ -41,3 +42,10 @@ source:
 The 2015 XT485 and XT685 owner's manuals print the same description under the name **Calories**, except that they write "follows a **quick** progression up to the maximum speed level"; the CT900ENT manual omits the word "quick". No other machine in this family has a Calorie program, and the 2023 XT manuals replaced it with a Target Calories program.
 
 For how to set a calorie goal on the XT485 and XT685, see `xt-2015-programs-calorie-program-setup-xt485-xt685`. For notes on why calorie readings are only an estimate, see [Why the console asks for your age and weight](personal-data-age-weight-calorie-note.md).
+
+The XT485ENT owner's manual prints this program on page 41 as **CALORIES**, with the word
+"quick" and with "(default or user input **value**)" where the CT900ENT writes "level". The
+same manual also prints a **FAT BURN** program (page 37) describing the same profile, differing only
+in "resistance level" for "speed level", "user input level" for "user input value", and "deck
+elevation" for "treadmill elevation". The two programs are listed separately and the manual gives no
+way to tell their profiles apart. Both are recorded as printed.

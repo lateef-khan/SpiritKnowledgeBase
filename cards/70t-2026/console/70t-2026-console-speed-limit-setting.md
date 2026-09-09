@@ -2,7 +2,7 @@
 id: 70t-2026-console-speed-limit-setting
 title: Setting the top speed limit anywhere from 10.0 down to 3.0 mph
 kind: procedure
-question: How do I cap the top speed on a Spirit 70t-2026 treadmill?
+question: How do I cap the top speed on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i limit how fast the treadmill goes
 - can i stop a patient going above a certain speed
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -49,3 +51,6 @@ Under Service Mode:
 The Factory settings sequence sets the same maximum from a different menu, along
 with the minimum speed and the reverse maximum; see
 `70t-2026-console-factory-settings`.
+
+**Both MT200 manuals print the same default, the same 0.1 mph steps and the same
+3.0 mph floor** - the 2010 manual on its p. 40, the 2022 manual on its p. 63.

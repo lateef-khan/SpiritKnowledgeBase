@@ -32,8 +32,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -48,7 +50,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-08-24'
 ---
 
@@ -69,3 +71,7 @@ word for word.
 
 Other Spirit treadmills print a different outlet voltage in this same row - 120 VAC on the
 CT850 (`ct850-2016-display-does-not-light`) - so do not carry the figure across machines.
+
+**Both XT ENT consoles print this row in full.** The XT485ENT and XT685ENT owner's manuals
+print all five steps, step 5 included, and both print the same 115 VAC outlet figure. That
+keeps them with the ten XT manuals rather than with the CT900ENT, whose list stops at step 4.

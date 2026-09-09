@@ -2,7 +2,8 @@
 id: 70t-2026-programs-facility-program
 title: Building and saving the Facility program with twenty-four level segments
 kind: procedure
-question: How do I build and save the Facility program on a Spirit 70t-2026 treadmill?
+question: How do I build and save the Facility program on a Spirit 70t-2026 or MT200
+  rehabilitation treadmill?
 asked_as:
 - how do i make my own workout
 - can i save a program with the clinic name
@@ -20,9 +21,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -63,3 +66,8 @@ the instructions in the message window to save it as the facility program.
 
 Unlike the 4.0T's Custom program, this one asks for a single **level** per segment, not a separate speed
 and grade.
+
+Both MT200 owner's manuals print the same procedure, the same `Name - A` prompt and the same
+twenty-four segments - the 2010-generation manual on printed pages 17-18, the 2022-generation
+manual on printed pages 29-30. On the MT200 a saved program is run from the **facility** key,
+not from a `user` key; see `spirit-mt200-programs-running-a-saved-program`.

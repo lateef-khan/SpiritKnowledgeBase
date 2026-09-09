@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-rehabilitation-contraindications
 title: Patients the rehabilitation treadmill must not be used for
 kind: policy
-question: Which patients must not be put on a 2026 Spirit 7.0T or 8.0T rehabilitation treadmill?
+question: Which patients must not be put on a 2026 Spirit 7.0T or 8.0T rehabilitation treadmill, or on a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - who should not use this rehab treadmill
 - can a patient with osteoporosis use the treadmill
@@ -27,6 +27,7 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -35,9 +36,10 @@ see_also:
 - spirit-2026t-safety-user-weight-limit-440-lbs
 - spirit-2026t-safety-intended-patient-population
 - spirit-2026t-safety-medical-clearance-and-exertion
+- spirit-mt200-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: OPERATION INSTRUCTIONS, WARNING list, page 8; the 8.0T owner's manual prints the same bullet on its page 8
+  locator: OPERATION INSTRUCTIONS, WARNING list, page 8; the 8.0T owner's manual prints the same bullet on its page 8. The 2022 Spirit MT200 owner's manual prints the same paragraph on its Important operation instructions page, page 10
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +74,14 @@ the other half of the same page: `spirit-2026t-safety-intended-patient-populatio
 **The 4.0T manual prints no contraindications.** It is not sold as a rehabilitation treadmill and
 its only user-suitability rule is to consult a physician first
 (`40t-2026-safety-consult-a-physician`). Do not read this list to a 4.0T owner as their manual's.
+
+**The 2022 Spirit MT200 owner's manual prints this paragraph word for word**, with `MT200` in place
+of `7.0T`, as the last bullet of its Important operation instructions page, page 10. Same
+conditions, same 200 kg bariatric figure, same `BP over 180/110 Hg`, same `such as`.
+
+**The 2010 MT200 owner's manual prints no contraindications.** Its Important Operation Instructions
+page, page 5, ends with the warm-up and cool-down bullet, and the exclusion list appears nowhere
+else in that manual. Do not read this list to the owner of a 2010 MT200 as their manual's - it is
+a 2022 addition. Their manual's only user-suitability rules are medical clearance
+(`spirit-2026t-safety-medical-clearance-and-exertion`) and the 200 kg patient weight capacity
+(`spirit-2026t-safety-user-weight-limit-440-lbs`).

@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-do-not-modify-or-fit-aftermarket-parts
 title: Modifying the treadmill or fitting aftermarket parts
 kind: policy
-question: Can I fit a non-Spirit part or modify a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill?
+question: Can I fit a non-Spirit part or modify a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - can i fit a cheaper belt from somewhere else
 - will an aftermarket part void the warranty
@@ -28,6 +28,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,7 +40,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 1 and 15, page 4; the 8.0T owner's manual prints items 1 and 15 on its page 4 and item 26 on its page 5, and the 4.0T owner's manual prints items 22 and 25 on its page 5
+  locator: SAFETY INSTRUCTIONS items 1 and 15, page 4; the 8.0T owner's manual prints items 1 and 15 on its page 4 and item 26 on its page 5, and the 4.0T owner's manual prints items 22 and 25 on its page 5. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +78,17 @@ use of the treadmill.` It names a subject and supplies no information, so there 
 quote.
 
 Doing the work is a separate question: `spirit-2026t-safety-servicing-only-by-trained-personnel`.
+
+**Both Spirit MT200 owner's manuals print both rules**, and they name a different party from the
+2026 manuals:
+
+> Do not modify this equipment without authorization of the manufacturer.
+
+> Do not use any after market parts on this device, other than those recommended by Spirit.
+
+**The 2010 manual writes `Spirit`; the 2022 manual writes `Spirit Fitness`.** Neither writes
+**Dyaco**, the name the 7.0T and 8.0T manuals use for the same permission. Quote the name from the
+machine's own manual.
+
+**Neither MT200 manual states a warranty consequence** for fitting an incompatible part - that
+sentence is the 8.0T's alone. Do not carry it onto an MT200.

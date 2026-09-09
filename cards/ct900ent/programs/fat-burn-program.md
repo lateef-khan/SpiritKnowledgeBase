@@ -26,6 +26,7 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
   section: programs
@@ -49,3 +50,10 @@ source:
 All five 2023 XT owner's manuals and all five 2015 XT owner's manuals print the same description. Among the 2023 manuals the XT185 and XT285 write "maximum resistance level" where the CT900ENT and the 2023 XT385, XT485 and XT685 write "maximum speed level"; **all five 2015 XT manuals write "maximum resistance level"**.
 
 On the CT900ENT, the full segment-by-segment speed and incline values are in [Preset program speed/incline chart](preset-speed-incline-chart.md). The 2023 XT manuals print a profile picture only, with no numeric segment table.
+
+The XT485ENT owner's manual prints the same description on page 37 and writes "maximum
+**resistance** level", as the 2015 XT manuals do. That manual also prints a separate
+**Calories** program (page 41) that describes the same profile - a quick progression to the maximum
+level sustained for 2/3 of the workout, and an elevation progression to the maximum for 90% of the
+duration - differing only in "speed level" for "resistance level", "user input value" for "user
+input level", and "treadmill elevation" for "deck elevation". See `ct900ent-calorie-program`.

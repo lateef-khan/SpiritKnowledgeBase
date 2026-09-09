@@ -2,8 +2,8 @@
 id: xt-2015-maintenance-monthly-belt-and-deck-cleaning
 title: The monthly damp-cloth and soap routine for the belt edge and textured belt
 kind: procedure
-question: How do I clean the belt and deck each month on a Spirit XT385 2015 or XT485
-  2015 treadmill?
+question: How do I clean the belt edge and the textured belt each month on a Spirit
+  XT treadmill?
 asked_as:
 - how do i clean the running belt
 - can i use soap on the treadmill belt
@@ -27,6 +27,7 @@ facets:
   applies_to:
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -39,7 +40,8 @@ see_also:
 - ct900-belt-deck-cleaning
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: p. 35, GENERAL MAINTENANCE - Belt/Deck (XT485 p. 40)
+  locator: p. 35, GENERAL MAINTENANCE - Belt/Deck (XT485 p. 40); XT485ENT p. 51,
+    GENERAL MAINTENANCE - Belt/Deck
   extracted_at: '2026-09-09'
 ---
 
@@ -50,6 +52,8 @@ source:
 3. A **mild soap and water solution along with a nylon scrub brush** will clean the top of the textured belt. **Allow to dry before using.**
 
 **This should be done once a month to extend belt and deck life.**
+
+**The XT485ENT manual prints this paragraph word for word**, under its own GENERAL MAINTENANCE heading. Its whole maintenance chapter is the 2015-generation text, not the 2023 one, which is why that machine is on this card rather than on an XT 2023 one.
 
 **This is a different routine from the rag-drag done before lubricating.** That one reaches under the belt to pull out trapped debris and has no interval; see `xt-2015-maintenance-cleaning-between-belt-and-deck`. These two machines get both.
 

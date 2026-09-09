@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-operating-environment-limits
 title: The treadmill may be used from 10 to 36 degrees Celsius at 30 to 90 percent humidity
 kind: spec
-question: Where can a 2026 Spirit 7.0T or 8.0T treadmill be kept, and how hot, humid or high may the room be?
+question: Where can a 2026 Spirit 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation treadmill, be kept, and how hot, humid or high may the room be?
 asked_as:
 - can i keep this treadmill in the garage
 - how hot or humid can the clinic be
@@ -27,6 +27,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -39,7 +41,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: ELECTRICAL SAFETY, page 6; the 8.0T owner's manual prints the same bullets on its page 6, and both repeat the temperature and humidity figures on their APPLICATION SPECIFICATION page, page 9
+  locator: ELECTRICAL SAFETY, page 6; the 8.0T owner's manual prints the same bullets on its page 6, and both repeat the temperature and humidity figures on their APPLICATION SPECIFICATION page, page 9. Both Spirit MT200 owner's manuals print the same block on their Important Electrical Information page, 2010 page 5 and 2022 page 8, and repeat the temperature and humidity figures on their Application Specification page, 2010 page 6 and 2022 page 12
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +78,25 @@ and 2023 XT manuals print a single 40 degrees C figure with no minimum
 The Application Specification page repeats the same two figures - `Temperature range: 10 C ~ 36 C`
 and `Relative humidity range: 30% R.H. ~ 90% R.H., non-condensing` - as part of the intended
 conditions of use: `spirit-2026t-safety-intended-conditions-of-use`.
+
+**Both Spirit MT200 owner's manuals print the same five figures and the same standard**, on their
+Important Electrical Information page:
+
+> If not stated otherwise Spirit devices are designed for operation in normal climatic surroundings
+> (IEC 60601-1)
+
+10 to 36 degrees C, 30 to 90 % relative humidity non condensing, 700 to 1060 mbar, approx. 10,000
+feet (3000m) without pressurization, and transport and storage at -20 to +50 degrees C - every
+figure the same as the 7.0T's and 8.0T's. The 2022 manual writes `Spirit Fitness devices` where the
+2010 manual writes `Spirit devices`.
+
+The same page also states, in both:
+
+> NEVER expose this product to rain or moisture. This product is NOT designed for use outdoors,
+> near a pool or spa, or in any other high humidity environment.
+
+> The MT200 is NOT protected against the ingress of water or particulate matter.
+
+The 2022 manual writes `The treadmill is not protected` in that last sentence. **No IP rating is
+printed** in either. Both repeat the temperature and humidity figures on their Application
+Specification page as part of the intended conditions of use.

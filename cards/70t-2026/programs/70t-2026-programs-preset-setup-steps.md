@@ -2,7 +2,8 @@
 id: 70t-2026-programs-preset-setup-steps
 title: 'Setting up a preset program: a thirty minute default and a three minute warm-up'
 kind: procedure
-question: How do I set up and start a preset program on a Spirit 70t-2026 treadmill?
+question: How do I set up and start a preset program on a Spirit 70t-2026 or a later
+  MT200 rehabilitation treadmill?
 asked_as:
 - how do i start the interval program
 - how long is the warm up
@@ -21,13 +22,15 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- mt200-2010-programs-preset-setup-steps
 see_also:
 - 70t-2026-programs-preset-program-list
 - spirit-2026t-programs-setup-uses-set-up-menu-data
@@ -50,3 +53,8 @@ source:
 
 **There is a 3 minute warm-up to begin.** You can press the start button to bypass it and go straight to
 the workout. During the warm-up the clock counts down from 3 minutes.
+
+**This is the thirty minute default.** The later-generation MT200 owner's manual prints these
+same four steps and the same thirty minute default on printed page 28. The earlier
+2010-generation MT200 manual prints the same steps with a **twenty minute** default - a
+different figure, on its own card: `mt200-2010-programs-preset-setup-steps`.

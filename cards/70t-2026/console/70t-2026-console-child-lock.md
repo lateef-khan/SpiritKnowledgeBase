@@ -2,7 +2,7 @@
 id: 70t-2026-console-child-lock
 title: Child Lock and the Start + Enter sequence that unlocks the keypad
 kind: procedure
-question: How do I lock and unlock the keypad on a Spirit 70t-2026 treadmill?
+question: How do I lock and unlock the keypad on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i lock the console
 - the buttons on my treadmill do nothing
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -45,3 +47,6 @@ pressed.**
 
 A console that will not respond to any key is the first thing to check against
 this setting.
+
+**Both MT200 manuals print the same Security item and the same unlock sequence** -
+the 2010 manual on its p. 40, the 2022 manual on its p. 63.

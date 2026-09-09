@@ -30,8 +30,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -50,7 +52,9 @@ source:
     p. 55, xt485 p. 55, xt685 p. 54. They are word for word the same in the five 2015
     XT manuals, which number the mailing address as a sixth step: xt185 text.md lines
     795-810, xt285 lines 1008-1023, xt385 lines 1061-1076, xt485 lines 1197-1212, xt685
-    lines 1186-1201'
+    lines 1186-1201. XT485ENT p. 56 (text.md lines 1130-1146), which numbers the mailing
+    address as a sixth step. XT685ENT p. 55 (text.md lines 1638-1657), which leaves it
+    unnumbered'
   extracted_at: '2026-09-09'
 ---
 
@@ -70,16 +74,18 @@ Correspondence to the service department by mail:
 
 **The general contact details are not the same in the two generations, but the service department number in step 3 is.** Check which manual came with the machine:
 
-| | 2023 manuals | 2015 manuals |
-|---|---|---|
-| Service department (step 3) | (870) 935-1107 | (870) 935-1107 |
-| General / customer care | 1-800-258-8511 | 800.258.4555 |
-| Email | questions@spiritfitness.com | spiritservice@spiritfitness.com |
-| Back cover address | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 |
+| | 2023 manuals | 2015 manuals | XT485ENT | XT685ENT |
+|---|---|---|---|---|
+| Service department (step 3) | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 | (870) 935-1107 |
+| General / customer care | 1-800-258-8511 | 800.258.4555 | 800.258.4555 | 1-800-258-8511 |
+| Email | questions@spiritfitness.com | spiritservice@spiritfitness.com | spiritservice@spiritfitness.com | questions@spiritfitness.com |
+| Back cover address | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 |
 
 The 2023 back cover adds Fax 870-935-7611; the 2015 back covers print no fax number.
 
-The five steps are identical in all five 2023 XT manuals and in all five 2015 ones. The only structural difference is that the 2015 manuals number the mailing-address paragraph as a **step 6**, where the 2023 manuals print it unnumbered below step 5. The address itself is unchanged.
+The five steps are identical in all five 2023 XT manuals, in all five 2015 ones, and in both ENT manuals. The only structural difference is that the 2015 manuals number the mailing-address paragraph as a **step 6**, where the 2023 manuals print it unnumbered below step 5. The address itself is unchanged.
+
+**The XT485ENT splits the two generations.** It numbers the mailing address as a step 6, following the 2015 layout, but prints the 2015 general contact pair as well - 800.258.4555 and spiritservice@spiritfitness.com - on a manual whose model id says 2023. Its copyright line reads © 2021, revision 04.16.2021. The **XT685ENT** follows the 2023 layout and the 2023 contact pair throughout.
 
 **Step 4 is not the step the Spirit commercial manuals print.** The CT900 and CTSBS900 versions stop at shipping and handling on replacement parts; the XT version goes on to charge the customer a trip charge for in-home service and an additional one beyond 100 miles. What the owner ends up paying is collected in `xt-2023-warranty-owner-costs`.
 

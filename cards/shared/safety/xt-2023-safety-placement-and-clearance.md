@@ -30,18 +30,20 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-clearance-requirements
+- xt-2015-safety-placement-requirements
 see_also:
 - xt-2023-safety-instructions-list
 - xt-2023-safety-operating-environment-limits
 - spirit-product-must-be-grounded
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 7, GROUNDING & LOCATION REQUIREMENTS; the XT285, XT385, XT485 and XT685 manuals print the same page on page 8
+  locator: page 7, GROUNDING & LOCATION REQUIREMENTS; the XT285, XT385, XT485 and XT685 manuals print the same page on page 8. The XT685ENT owner's manual prints the same page, also page 8
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +70,12 @@ adds the reason: "Damage to both carpet and equipment may result"
 CT900 and CT900ENT manuals quote ASTM F2115-05 at 0.5 m (19.7 in.) each side and 1 m (39 in.)
 behind. These five owner's manuals ask for 20in at the sides and **6ft** behind - a much
 larger rear figure. Use the figure from the machine's own manual.
+
+**The XT685ENT owner's manual prints the same Location Requirements**, page 8 - at least 20in at
+the front and each side, at least 6ft behind, the front being where the motor is, install where
+children and pets cannot access it, keep the area clear, and no deeply padded, plush or shag
+carpet.
+
+**The XT485ENT manual has no location or clearance page.** It prints no clearance distance at all,
+so none of these figures may be quoted for it:
+`xt-2015-safety-placement-requirements`.

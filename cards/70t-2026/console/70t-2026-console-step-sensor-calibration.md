@@ -2,7 +2,7 @@
 id: 70t-2026-console-step-sensor-calibration
 title: Calibrating the step sensors to an A/D target of 65
 kind: procedure
-question: How do I calibrate the step sensors on a Spirit 70t-2026 treadmill?
+question: How do I calibrate the step sensors on a Spirit 7.0T or MT200 treadmill?
 asked_as:
 - how do i calibrate the step sensors
 - what number should the calibration read
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -55,3 +57,6 @@ Calibration sits under Service Mode. `MW` is the message window.
 
 **This calibrates the step sensors, not the grade.** Grade calibration is the last
 step of the Factory settings sequence; see `70t-2026-console-factory-settings`.
+
+**Both MT200 manuals print this routine word for word**, including the `TGT 65`
+target - the 2010 manual on its p. 40, the 2022 manual on its p. 63.

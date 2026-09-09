@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -49,7 +51,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-08-24'
 ---
 
@@ -72,3 +74,12 @@ That is the 2023 documents being briefer, not those machines behaving differentl
 The XT 2023 manuals give the same cause for the treadmill tripping its own 15 amp breaker
 (`xt-2023-errors-trips-onboard-15-amp-breaker`), so treat the two symptoms as one friction
 problem.
+
+**Both ENT manuals print the long answer.** The XT485ENT and XT685ENT each go on to the
+deck-wear check and each carry the qualifier - the deck may need to be flipped **if it is on
+its original side**.
+
+For the XT685ENT that agrees with its base XT685-2023 manual. **For the XT485ENT it does
+not**: the base XT485-2023 manual stops at the deck-cleaning line, so on that machine the ENT
+document is the fuller of the two. The rule stated above - that of the 2023 manuals only the
+XT685 goes this far - does not hold once the ENT documents are counted.

@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -79,3 +81,8 @@ Still a request for caution, never a prohibition, and it names the same mechanis
 Instructions page asks instead that the user face forward and not turn around or look backwards
 while the belt is running (`80t-2026-safety-getting-on-and-off-the-treadmill`), which is a
 different rule with a different reason.
+
+**Both ENT owner's manuals print the same sentence.** The XT685ENT prints it on its Electrical
+Safety page, page 7, saying `while walking on your unit`; the XT485ENT prints it on its Important
+Operation Instructions page, page 8, saying `while walking on your treadmill`. A request for
+caution in both, never a prohibition, and the same mechanism is named.

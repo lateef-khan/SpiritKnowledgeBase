@@ -26,6 +26,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -51,3 +52,9 @@ the full length of the handrails without fear of activating the speed or incline
 **The XT285 has the same disable feature but its manual puts the button somewhere else, and
 contradicts itself about where** - see `xt285-2023-console-handrail-speed-incline-controls`. The
 XT185 manual describes no disable control at all.
+
+**The XT685ENT prints this word for word** on its p. 23, including the button being
+next to the child lock. **The XT485ENT puts the button somewhere else and calls it
+something else** - a Handrails On/Off button on the right of the lower console - so
+that machine is not on this card; see
+`xt485ent-2023-console-handrails-on-off-button`.

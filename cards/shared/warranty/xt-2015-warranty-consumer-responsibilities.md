@@ -29,6 +29,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: warranty
   code: '*'
@@ -45,7 +46,9 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER, manual p. 32, text.md lines 759-770.
     The same six items appear in all five 2015 XT manuals: xt185 lines 759-770, xt285
-    lines 972-983, xt385 lines 1025-1036, xt485 lines 1163-1172, xt685 lines 1151-1162'
+    lines 972-983, xt385 lines 1025-1036, xt485 lines 1163-1172, xt685 lines 1151-1162.
+    The XT485ENT prints the same six under the same heading: spirit-treadmill-xt485ent-2023-owners-manual
+    p. 55, text.md lines 1095-1104'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,10 +63,12 @@ Under the heading **NORMAL RESPONSIBILITIES OF THE CONSUMER**, the consumer/faci
 
 The six items are word for word identical in all five 2015 XT manuals.
 
+**The XT485ENT prints this list too, not the 2023 one.** Its manual is a 2021-generation document - *Treadmill Warranty - Effective March 16, 2021*, revision 04.16.2021 - and it carries the same heading, the same six items in the same order, and the same 10-day registration duty at number 1. Its lead sentence is the XT485 one: "This warranty applies only to products in ordinary household," with no noun after it. Answer an XT485ENT question from this card, never from `xt-2023-warranty-consumer-responsibilities`.
+
 **There are six items here, not five.** The 2023 XT manuals print the same list with the registration card item removed and everything renumbered, so item 4 here is item 3 there. `xt-2023-warranty-consumer-responsibilities` is the 2023 list and must not be quoted to the owner of a 2015 machine: it would drop the 10-day registration duty entirely. See `xt-2015-warranty-registration`.
 
 Two items bite in practice. **Item 4** makes getting the treadmill to a place where it can be worked on the owner's expense, not a warranty cost. **Item 5** puts finish damage during shipping and installation on the owner, so inspect the machine before the carrier leaves.
 
-**The lead sentence is not the same in all five manuals**, and it is the sentence that says what kind of use is covered. Three manuals say "ordinary household or Light Commercial use", the XT385 says "ordinary household use", and the XT485 says "ordinary household" with no noun after it. That difference, and the exclusion that qualifies it, are in `xt-2015-warranty-use-environment`.
+**The lead sentence is not the same in all five manuals**, and it is the sentence that says what kind of use is covered. Three manuals say "ordinary household or Light Commercial use", the XT385 says "ordinary household use", and the XT485 and the XT485ENT say "ordinary household" with no noun after it. That difference, and the exclusion that qualifies it, are in `xt-2015-warranty-use-environment`.
 
 This list is only half of what governs the warranty - the other half is the nine numbered exclusions on the next page, in `xt-2015-warranty-exclusions`.

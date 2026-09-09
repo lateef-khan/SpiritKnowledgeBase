@@ -1190,6 +1190,18 @@
   origin_uri: file://CT850 Service Manual.pdf
   sha256: ac4e9d1f6aa0f60ba5337f2808b5abe519c0b16c49117c8d20c3afbe185ae25d
   ingested_at: '2026-09-08'
+- id: spirit-treadmill-mt200-2010-owners-manual
+  title: MT200 treadmill owner's manual (2010 series, effective July 2013)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/MT200/2010/MT200-Owners-Manual-USA-11-2017.pdf
+  sha256: 0992a6187f6f5ca6cc0a1363aeec8b9ffcdaf4f86f0c5c49a3e65773e3a99f4e
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-mt200-2022-owners-manual
+  title: MT200 treadmill owner's manual (2022 series)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/MT200/2022/MT200_OM_420082_20211124.pdf
+  sha256: 5a00e8fc43fdb686ed32caf6d27fb9f40d925fc76112063f8c49637289780241
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-xt185-2015-owners-manual
   title: 2015 Spirit XT185 treadmill owner's manual
   kind: pdf
@@ -1238,6 +1250,12 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485/2023/XT485_485823_OM_20231127.pdf
   sha256: b07060a7ea7a5dd4f654b7e5e30bb6c6f25012f5b4b8839da44accef5baeef2b
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt485ent-2023-owners-manual
+  title: 2023 Spirit XT485ENT treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485ENT/2023/XT485ENT_485850_OM_20210416.pdf
+  sha256: 695d877d60fdb56c51023dc0e65339a02280381b00fb0be9f188f252f675c7ed
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-xt685-2015-owners-manual
   title: 2015 Spirit XT685 treadmill owner's manual
   kind: pdf
@@ -1249,4 +1267,16 @@
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT685/2023/XT685_685823_OM_20231127.pdf
   sha256: edd5f8bc96e3e3c371622063fe95a4aa49216ede6176fca2d6ba80c4964a178a
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt685ent-2023-owners-manual
+  title: 2023 Spirit XT685ENT treadmill owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT685ENT/2023/XT685ENT_685523_OM_20240717.pdf
+  sha256: 68ce11b0137a5c9a0123fbff429b9b33201bfbb04d6d023a4f8de3fdf5501e9a
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-xth-rails-owners-manual
+  title: Spirit XTH extended handrails owner's manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XTH/XTHRails_OM_2023.pdf
+  sha256: f28d10edd82f3e4e9ef7b1545d46f3466e3fd0326f7fd87876dc6b77727525ec
   ingested_at: '2026-09-09'

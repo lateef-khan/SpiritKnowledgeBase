@@ -28,6 +28,8 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-errors-er2-decline-err
+- spirit-mt200-errors-e41-incline-err
+- spirit-mt200-errors-e42-decline-err
 - 70t-2026-errors-e3-over-v-decel
 - ct900-e33-incline-err
 - ct850-2020-incline-err
@@ -52,3 +54,9 @@ source:
 `ERR` and `ER2` are the only two messages in this table that are not numbered `E<n>`, and the only two whose printed row names the window they appear in. The manual is telling you where to look, not what failed: an incline fault shows up in the Grade window rather than as a number in the message window.
 
 **The table lists no cause and no remedy for ERR.** Every numbered code in the same table carries at least one; this row carries none. Do not read the neighbouring column's causes across into it - they belong to the numbered codes.
+
+**The MT200 numbers this fault instead of naming it.** Both Spirit MT200 owner's manuals
+print the identical E1-E38 table and then end it with `E41 Incline Err` and `E42 Decline
+Err` rather than `ERR` and `ER2`, and print no window note
+(`spirit-mt200-errors-e41-incline-err`). Same fault, different identifier - which is why it
+is a separate card.

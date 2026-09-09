@@ -27,6 +27,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -69,3 +71,9 @@ three machines and the WFI test on the 4.0T and 8.0T.
   the test completes successfully.
 - **Take note of the score, because the console returns to the start-up mode automatically after a few
   minutes.**
+
+**Both MT200 owner's manuals print this guidance for their Vo2 test** - the 2010-generation
+manual on printed page 20, the 2022-generation manual on printed pages 32-33. Like the 7.0T
+they omit the hand-grip bullet, and like the 7.0T they say only "you may wear a heart rate
+chest strap transmitter" - **neither MT200 manual names a Polar T31 or T34.** Everything else,
+including the 3 minute warm-up at 3 mph (4.8 kph), is printed as above.

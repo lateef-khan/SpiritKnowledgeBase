@@ -27,16 +27,18 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-safety-no-compliance-page
 see_also:
 - xt-2023-safety-compliance-certifications
 - xt-2023-safety-rf-exposure-separation-distance
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -57,3 +59,8 @@ interference follows it. If it does, it lists four measures to try:
 The manual gives no other remedy, and no service action.
 
 **The XT185 manual has no compliance page at all**, so it prints none of this.
+
+**The XT685ENT owner's manual prints the same notice and the same four measures**, page 5.
+
+**The XT485ENT manual has no compliance page at all**, so it prints none of this:
+`xt-2015-safety-no-compliance-page`.

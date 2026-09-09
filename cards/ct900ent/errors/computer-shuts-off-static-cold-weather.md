@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -46,7 +48,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.
+    of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-08-24'
 ---
 
@@ -59,3 +61,7 @@ both the 2015 and the 2023 revision, and send the reader to their own Grounding
 Instructions, which sit in the safety pages at the front of each manual, not in the
 troubleshooting table. The 2026 4.0T prints the row word for word and sends the reader to
 its own Grounding Instructions the same way.
+
+**The XT485ENT and XT685ENT owner's manuals print this row word for word** and send the
+reader to their own Grounding Instructions in the safety pages at the front, exactly as the
+ten XT manuals do.

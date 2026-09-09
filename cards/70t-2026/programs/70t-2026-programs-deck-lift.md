@@ -2,8 +2,8 @@
 id: 70t-2026-programs-deck-lift
 title: The deck-lift program and its thirty levels from 5.25 to 12.5 inches
 kind: procedure
-question: What does the deck-lift program do on a Spirit 70t-2026 treadmill and how
-  high does it go?
+question: What does the deck-lift program do on a Spirit 70t-2026 or MT200
+  rehabilitation treadmill, and how high does it go?
 asked_as:
 - how do i raise the deck
 - how high does the deck lift go
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: programs
   code: '*'
 authority: 3
@@ -56,3 +58,9 @@ patient walks lets the therapist assist by moving their legs without bending ove
 
 The 8.0T has an equivalent Lift program, set up from a touch screen; its manual does not print these
 heights on the program page.
+
+Both MT200 owner's manuals print this program with the same five steps and the same heights -
+the 2010-generation manual on printed page 15, the 2022-generation manual on printed page 26.
+The 2010 manual adds that the Deck-Lift program is also used with the **Spirit basic
+un-weighting system**; the 2022 manual drops the word "Spirit" and calls it the basic
+un-weighting system.

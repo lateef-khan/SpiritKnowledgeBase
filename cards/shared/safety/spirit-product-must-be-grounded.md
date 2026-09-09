@@ -2,8 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, a
-  2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -29,6 +28,8 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - mt200-2010
+  - mt200-2022
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -37,8 +38,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -54,6 +57,7 @@ see_also:
 - spirit-2026t-safety-outlet-and-circuit-requirement
 - spirit-2026t-safety-extension-cord-12-awg-or-larger
 - 40t-2026-safety-extension-cord-1-mm2-or-better
+- spirit-mt200-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
@@ -62,7 +66,7 @@ source:
     five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
     and the Important Grounding Instructions page of the five 2015 XT owner's manuals
     (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
-    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals
+    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9
   extracted_at: '2026-09-08'
 ---
 
@@ -159,3 +163,30 @@ in its manual. What these three do print, as item 20 of the 4.0T list and item 3
 
 and, in the same lists, `Do not attempt to disable the grounded plug by using improper adapters,
 or in any way modify the cord set`.
+
+**The two ENT owner's manuals print both paragraphs.** The XT685ENT manual reads like the base 2023
+manuals - `If the unit should malfunction or breakdown` - and prints `a nominal 110-volt circuit`
+with no amp figure. The XT485ENT manual reads like the 2015 manuals, stray word and all -
+`If the your equipment should malfunction or breakdown` - and prints `a nominal 110-volt dedicated
+circuit`. Its own safety page still requires a 15-amp outlet
+(`xt-2015-safety-outlet-and-circuit-requirement`). Both carry the temporary-adapter paragraph
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`).
+
+**The two Spirit MT200 owner's manuals print both paragraphs in the 2026 machines' wording**, with
+`treadmill's` where the 4.0T manual names itself:
+
+> This product must be grounded. In the unlikely event that the treadmill's electrical system
+> should malfunction or breakdown grounding provides a path of least resistance for electric
+> current, reducing the risk of electric shock.
+
+**Like the 2026 manuals they print no voltage on the grounding page**, stopping after
+`have a proper outlet installed by a qualified electrician`, and **they print no
+temporary-adapter paragraph at all** - do not offer
+`spirit-temporary-adapter-for-a-two-pole-receptacle` for an MT200. Their mains figure is on the
+safety instructions page instead, as **115 volts AC, 60 Hz, 20 amp**:
+`spirit-mt200-safety-outlet-and-circuit-requirement`.
+
+Their safety instructions also carry the 2026 machines' flat rule -
+`To avoid risk of electric shock, this equipment must only be connected to a supply main with
+protective earth` - alongside `Do not attempt to disable the grounded plug by using improper
+adapters, or in any way modify the cord set`.

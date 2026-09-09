@@ -30,8 +30,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -45,7 +47,7 @@ see_also:
 - xt-2015-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the XT685; the identical row is in the Service Checklist Diagnosis Guide on page 31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45 of the XT485 and page 46 of the XT685
+  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the XT685; the identical row is in the Service Checklist Diagnosis Guide on page 31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45 of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-09-09'
 ---
 
@@ -67,4 +69,11 @@ printed here: the CT850 and CT900ENT manuals say the house breaker must be repla
 "high in-rush current" type breaker
 (`ct850-2016-house-breaker-trips-not-treadmill-breaker`,
 `ct900ent-circuit-breaker-trips-not-treadmill-breaker`). None of the five XT 2023 manuals
+mentions a breaker type.
+
+**The two ENT manuals name different chapters, and the XT485ENT names the 2015 one.** The
+XT685ENT sends the reader to *Electrical Safety*, as the 2023 manuals do. The XT485ENT sends
+them to *Important Electrical Information* "in the front of this manual" - the 2015 manuals'
+wording and placement. The printed cause and remedy, **check that the treadmill is the only
+appliance in the circuit**, are word for word the same in both, and neither ENT manual
 mentions a breaker type.

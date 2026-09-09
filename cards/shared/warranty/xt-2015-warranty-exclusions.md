@@ -28,6 +28,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: warranty
   code: '*'
@@ -47,7 +48,9 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'EXCLUSIONS, manual pp. 32-33, text.md lines 771-790. All nine items are
     identical in all five 2015 XT manuals: xt185 lines 771-790, xt285 lines 984-1003,
-    xt385 lines 1037-1056, xt485 lines 1173-1192, xt685 lines 1163-1181'
+    xt385 lines 1037-1056, xt485 lines 1173-1192, xt685 lines 1163-1181. The XT485ENT
+    prints the same nine: spirit-treadmill-xt485ent-2023-owners-manual pp. 55-56, text.md
+    lines 1105-1125'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,6 +71,8 @@ Printed under the list:
 > Product features or specifications as described or illustrated are subject to change without notice. All warranties are made by Spirit Fitness, Inc. This warranty applies only in the 48 contiguous United States. NOTE: This does not apply to Alaska or Hawaii.
 
 All nine items are word for word identical in the 2015 XT185, XT285, XT385, XT485 and XT685 manuals.
+
+**The XT485ENT prints this list, not the 2023 one.** Its manual is a 2021-generation document, and its item 6 is the harsher version - a product with no warranty registration card on file at Spirit Fitness is excluded outright. The note printed under its list uses "does not **apply to** Alaska or Hawaii", as the other 2015 manuals do.
 
 **Item 6 is the one that differs from the 2023 XT manuals, and it is the harsher version.** The 2015 list excludes outright any product "that does not have a warranty registration card on file at Spirit Fitness"; the 2023 list drops that whole sentence and keeps only the reservation of the right to ask for proof of purchase. Do not answer a 2015-machine registration question from `xt-2023-warranty-exclusions` - see `xt-2015-warranty-registration`.
 

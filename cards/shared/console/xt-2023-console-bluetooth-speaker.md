@@ -27,6 +27,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -49,3 +50,8 @@ Your device can now transmit music to the exercise equipment.
 
 The manuals print the speaker's Bluetooth name as **"Bt-speaker"** and list it separately from the
 Spirit+ App pairing steps.
+
+**The XT685ENT prints the same three steps and the same "Bt-speaker" name** on its
+p. 22. **The XT485ENT manual describes no Bluetooth speaker**; its touchscreen pairs
+Bluetooth earphones and speakers from a Settings menu instead - see
+`xt485ent-2023-console-settings-menu`.

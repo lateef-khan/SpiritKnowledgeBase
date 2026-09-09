@@ -29,6 +29,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -43,7 +44,7 @@ source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'RESPONSIBILITIES OF THE CONSUMER lead sentence, p. 40, and EXCLUSIONS item
     8, p. 41. Both halves are in all five 2023 XT manuals: xt185 pp. 40-41, xt285 pp.
-    48-49, xt385 pp. 53-54, xt485 pp. 53-54, xt685 pp. 52-53'
+    48-49, xt385 pp. 53-54, xt485 pp. 53-54, xt685 pp. 52-53, xt685ent pp. 53-54'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,6 +59,8 @@ Exclusion 8, on the second: the warranty does not cover
 So the covered envelope is a home, **or** a facility that charges no dues and runs the machine **5 hours a day or less**. A dues-paying gym is outside it. Exclusion 2 points the same way, refusing service call reimbursement for a treadmill "not in ordinary household or light commercial use".
 
 **This is the 2023 wording. The 2015 XT manuals word the lead sentence three different ways** and two of them promise light commercial use on machines that print no light commercial table - see `xt-2015-warranty-use-environment`.
+
+**The XT685ENT reads exactly as the XT685 does** - the same lead sentence, the same exclusion 8, the same light commercial table with the prisons footnote - so everything said below about the XT685 holds for it. The **XT485ENT is not on this card**; its manual is a 2021-generation document and its lead sentence is the truncated "ordinary household", covered by `xt-2015-warranty-use-environment`.
 
 **The XT685 is a partial exception.** Its manual prints a Light Commercial warranty table with shorter motor, deck and parts periods, and its responsibilities paragraph reads "ordinary household use **or light commercial use**". It still prints exclusion 8 unchanged, it never defines light commercial use, and it never says how the two fit together. Treat a dues-paying placement as something these manuals do not answer, rather than as approved. See `xt685-2023-light-commercial-warranty-periods`.
 

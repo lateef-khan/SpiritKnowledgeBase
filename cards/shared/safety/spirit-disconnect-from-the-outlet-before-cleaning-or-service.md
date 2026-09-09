@@ -2,8 +2,7 @@
 id: spirit-disconnect-from-the-outlet-before-cleaning-or-service
 title: Disconnect from the electrical outlet before cleaning or service work
 kind: policy
-question: Do I have to unplug a Spirit CT850 treadmill, a 2026 Spirit 4.0T, 7.0T or
-  8.0T treadmill, or a Spirit CVC800 climber before servicing it?
+question: Do I have to unplug a Spirit CT850 treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -29,6 +28,8 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -43,7 +44,7 @@ source:
   locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
     sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25)
     of the CVC800 manual, and the opening WARNING of the SAFETY INSTRUCTIONS page,
-    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner's manuals
+    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line of their safety instructions page, 2010 page 4 and 2022 page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -76,4 +77,16 @@ AC power is disconnected (`xt-2023-safety-remove-a-cover-only-with-ac-disconnect
 item 9 of the 4.0T list and item 10 of the 7.0T and 8.0T lists, how to disconnect:
 `To disconnect, turn all controls to the off position and then remove the plug from the outlet`.
 
+They state no capacitor discharge time and no lock-out procedure either.
+
+**Both Spirit MT200 owner's manuals open their safety instructions with the same sentence**, in the
+CT850's `treadmill` wording, under a DANGER heading:
+
+> DANGER - To reduce the risk of electric shock disconnect your treadmill from the electrical
+> outlet prior to cleaning and/or service work.
+
+Cleaning as well as service, and disconnect from the outlet rather than switch off. These manuals
+also carry the cover rule separately
+(`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`), and, as a bullet of the same list,
+`To disconnect, turn all controls to the off position then remove the plug from the outlet`.
 They state no capacitor discharge time and no lock-out procedure either.

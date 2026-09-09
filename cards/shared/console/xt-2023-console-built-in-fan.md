@@ -30,6 +30,7 @@ facets:
   - xt485-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: console
   code: '*'
 authority: 3
@@ -51,3 +52,8 @@ XT385-2015, XT485-2015 and XT685-2015 as well as on the 2023 XT385, XT485 and XT
 **The 2023 XT185 and XT285 are the exception.** Their console diagrams label an **Adjustable Fan**,
 but those two manuals give no instruction for switching it on, so this card does not claim the same
 key for them.
+
+**The XT685ENT prints the same instruction** on its p. 23. The XT485ENT does not: its
+console drawing labels a **Swivel Fan** and its button list has a **Fan button to
+control the fan speed**, which is a different control, so that machine is not on this
+card - see `xt485ent-2023-console-panel-and-physical-buttons`.

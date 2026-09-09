@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -71,3 +73,7 @@ say what to do when a key still will not answer:
 - **The action is to contact your dealer**, not to press harder or to open the console.
 
 **The 2026 7.0T and 8.0T owner's manuals print no key-pressure warning.**
+
+**Both ENT owner's manuals print the same two sentences** - the XT685ENT on its Electrical Safety
+page, page 7, and the XT485ENT on its Important Operation Instructions page, page 8, where it ends
+without the closing full stop. Pressing harder is not the fix in either.

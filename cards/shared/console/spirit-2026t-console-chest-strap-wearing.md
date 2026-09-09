@@ -27,6 +27,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -72,3 +74,6 @@ deactivates when it receives none.**
 **The CTSBS900's strap is described differently** - interlocking key, ribbed oval
 electrodes - so that card is kept separate; see
 `ctsbs900-heart-rate-chest-strap-pairing`.
+
+**Both MT200 manuals print all six steps word for word**, including the *2 black
+square areas* - the 2010 manual on its p. 23, the 2022 manual on its pp. 40-41.

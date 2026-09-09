@@ -30,8 +30,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -51,7 +53,7 @@ source:
     56 in the XT385 and XT485 manuals and page 55 in the XT685 manual; the identical
     row is in the Service Checklist Diagnosis Guide on page 31 of the XT185 2015 manual,
     page 39 of the XT285, page 41 of the XT385, page 45 of the XT485 and page 46 of
-    the XT685
+    the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +80,10 @@ Two look-alikes worth keeping apart: the Spirit CT900ENT trips a **20 amp** on-b
 (`ct900ent-trips-20-amp-circuit`), and the Sole cards for a 15 amp on-board breaker answer
 with **lubrication** (`f65-2016-trips-onboard-15-amp-breaker`), which these Spirit manuals
 never ask for - they ask for the deck to be cleaned.
+
+**Both ENT manuals print the second step.** The XT485ENT and XT685ENT each carry the amp-draw
+check and the "if it is on its original side" qualifier.
+
+For the XT685ENT that agrees with its base XT685-2023 manual. **For the XT485ENT it does
+not**: the base XT485-2023 manual stops at the friction line. The rule stated above - that of
+the 2023 manuals only the XT685 prints it - does not hold once the ENT documents are counted.

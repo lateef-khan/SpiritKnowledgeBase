@@ -26,6 +26,7 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
@@ -34,9 +35,10 @@ see_also:
 - xt-2023-safety-instructions-list
 - xt-2023-safety-proposition-65-sticker
 - xt-2023-safety-serial-number-sticker
+- xt-2015-safety-product-labels-and-serial-number
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 4, PRODUCT LABELS; the XT285, XT385, XT485 and XT685 manuals print the same page, also page 4
+  locator: page 4, PRODUCT LABELS; the XT285, XT385, XT485 and XT685 manuals print the same page, also page 4. The XT685ENT owner's manual prints the same page, also page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +55,11 @@ quote it.
 
 A second sticker sits on the same interior side of the upright - the Proposition 65
 warning: `xt-2023-safety-proposition-65-sticker`.
+
+**The XT685ENT owner's manual prints the same page in the same words**, page 4. The sticker is on
+the interior side of the treadmill's upright, the same warning is printed in the manual, and the
+manual asks the reader to be aware of the precautions before operating the unit. It does not
+reproduce the sticker's own wording either.
+
+**The XT485ENT owner's manual describes no sticker anywhere.** It has no PRODUCT LABELS page -
+`xt-2015-safety-product-labels-and-serial-number`.

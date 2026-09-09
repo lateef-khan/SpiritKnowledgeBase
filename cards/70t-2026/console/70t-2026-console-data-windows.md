@@ -2,7 +2,7 @@
 id: 70t-2026-console-data-windows
 title: The four data windows and the -3 to 10 mph speed range they show
 kind: fact
-question: What do the four data windows show on a Spirit 70t-2026 treadmill console?
+question: What do the four data windows show on a Spirit 7.0T or MT200 treadmill console?
 asked_as:
 - what do the four windows on the console show
 - how fast does the display go up to
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -57,3 +59,9 @@ see `70t-2026-console-incline-decline-zero-keys`.
 prints a rear incline range of 0 to minus 10%, while the Factory settings sequence
 sets a **max decline defaulting to 5, adjustable up to 10**; see
 `70t-2026-console-factory-settings`.
+
+**Both MT200 manuals print the same four windows and the same figures** - the 2010
+manual on its p. 13, the 2022 manual on its p. 23. **The 2010 manual names the menu
+differently**: it says the distance unit is *selected in engineering mode*, where the
+2022 and 7.0T manuals say *Maintenance mode*. It is the same menu; see
+`70t-2026-console-maintenance-mode-menu`.

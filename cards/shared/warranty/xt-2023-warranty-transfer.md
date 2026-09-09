@@ -32,8 +32,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: warranty
   code: '*'
 authority: 3
@@ -47,11 +49,12 @@ source:
   locator: 'EXCLUSIONS items 4 and 5, p. 41. Identical in all five 2023 XT manuals:
     xt185 p. 41, xt285 p. 49, xt385 p. 54, xt485 p. 54, xt685 p. 53. Identical again
     in all five 2015 XT manuals: xt185 text.md lines 783-784, xt285 lines 996-997,
-    xt385 lines 1049-1050, xt485 lines 1186-1187, xt685 lines 1175-1176'
+    xt385 lines 1049-1050, xt485 lines 1186-1187, xt685 lines 1175-1176. XT485ENT p.
+    55 (text.md lines 1117-1118); XT685ENT p. 54 (text.md lines 1614-1615)'
   extracted_at: '2026-09-09'
 ---
 
-No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
+No. Exclusion 5, in all ten XT manuals - the 2015 generation and the 2023 one - in both ENT manuals, and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
 
 > Products that have been: sold, transferred, bartered, or given to a third party.
 

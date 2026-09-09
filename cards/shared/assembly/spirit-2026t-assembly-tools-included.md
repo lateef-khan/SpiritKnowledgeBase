@@ -3,7 +3,7 @@ id: spirit-2026t-assembly-tools-included
 title: The three tools packed in the carton, a 5mm and a 6mm Allen wrench and a Phillips
   screwdriver
 kind: fact
-question: What tools are supplied to assemble the Spirit 4.0T and 7.0T treadmills?
+question: What tools are supplied to assemble the Spirit 4.0T, 7.0T or MT200 treadmills?
 asked_as:
 - what tools do i need to build my treadmill
 - is an allen key included
@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 40t-2026
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: assembly
   code: '*'
 authority: 3
@@ -38,25 +40,34 @@ see_also:
 - ct900-pre-assembly
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 10 PRE-ASSEMBLY - Tools; and 7.0T owner's manual p. 12 PARTS INCLUDED
-    - Tools
+  locator: p. 10 PRE-ASSEMBLY - Tools; 7.0T owner's manual p. 12 PARTS INCLUDED
+    - Tools; MT200 2022 owner's manual p. 45 Tools, and MT200 2010 owner's manual
+    pp. 33-34 parts list
   extracted_at: '2026-09-09'
 ---
 
-Both cartons hold the same three tools, and nothing else is listed:
+All these cartons hold the same three tools, and nothing else is listed:
 
 - 5mm L Allen Wrench
 - 6mm L Allen Wrench
 - 1 Phillips Screwdriver
 
-The 4.0T prints them as a plain list with no item numbers. The 7.0T photographs
-them and numbers them:
+The 4.0T prints them as a plain list with no item numbers. The 7.0T and the
+MT200-2022 photograph them and number them, and **the three numbers are the same
+on both machines**:
 
-| Tool | 7.0T item number |
+| Tool | 7.0T and MT200 item number |
 |---|---|
 | Phillips screw driver | 113 |
 | 5mm Allen wrench | 137 |
 | 6mm Allen wrench | 259 |
+
+**The MT200-2010 manual prints no tools panel.** Its assembly chapter opens
+straight into the per-step hardware photographs. The same three items are in its
+parts list at a quantity of one each - 113 Phillips Head Screw Driver, 137 L
+Allen Wrench, 259 6mm Allen Wrench - which is where the answer for that manual
+comes from. Note that both MT200 parts lists call item 137 simply an **L Allen
+Wrench** with no size; only the 2022 tools panel says it is **5mm**.
 
 **Those numbers belong to the 7.0T only, and two of them are already in use for
 other things.** On the 4.0T, item **137** is a Bolt, M8 x 35mm. On the 8.0T,

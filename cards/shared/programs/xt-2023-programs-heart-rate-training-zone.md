@@ -30,8 +30,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: programs
   code: '*'
 authority: 3
@@ -74,3 +76,10 @@ You may use the heart rate monitor feature **without** using a Heart Rate progra
 *Where the 2023 manuals say the machine adjusts speed or incline, the four 2015 manuals end this paragraph with "The Heart Rate program automatically controls resistance at the pedals." A treadmill has no pedals; that sentence is boilerplate carried over from a bike manual and is recorded here only because the source prints it.*
 
 The 2026 Spirit 4.0T owner's manual prints this same 60% / 80% guidance and the same 108-to-144 example (page 40), and ends it with the treadmill sentence: when the heart rate monitor feature is used with the Heart Rate programs, the machine automatically adjusts speed or incline to maintain the desired heart rate. It adds one sentence the XT manuals do not print: the black columns on its chart represent the MHR for a person of the age listed at the bottom of each column. **The 8.0T does not print this guidance; its Heart Rate Target program uses a different formula, MHR = (220 - age) x 65%** - see `80t-2026-programs-heart-rate-target`.
+
+**The two ENT touchscreen manuals print this same 60% / 80% guidance and the same 108-to-144
+example.** The XT685ENT manual prints it in full on page 31, including the closing paragraph
+about using the heart rate monitor without a Heart Rate program. The XT485ENT manual prints it
+on pages 45-46 but **stops after "After calculating your MHR you can decide upon which goal you
+would like to pursue"**; it does not print that closing paragraph. Neither ENT manual prints the
+2015 "resistance at the pedals" sentence.

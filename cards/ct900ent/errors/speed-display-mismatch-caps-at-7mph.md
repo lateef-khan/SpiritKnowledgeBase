@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: '*'
 authority: 3
@@ -50,7 +52,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-08-24'
 ---
 
@@ -72,3 +74,7 @@ asks what cord to buy, and quote 16 gauge only as what this row prints.
 
 **Do not carry these numbers to another Spirit treadmill.** The CT850 manuals print 12 gauge
 and 110 volt AC 60 Hz for 2016, and 16 gauge and 100 volt AC for 2020.
+
+**Both ENT manuals print the same two figures** - **16 gauge minimum** for an extension cord
+and **a minimum of 110 volt AC** - and both name the cause as low AC voltage to the
+treadmill. The XT485ENT and XT685ENT match the ten XT manuals here, not the CT850 figures.

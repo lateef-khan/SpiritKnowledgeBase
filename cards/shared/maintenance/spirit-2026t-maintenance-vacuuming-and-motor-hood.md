@@ -27,6 +27,8 @@ facets:
   applies_to:
   - 40t-2026
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: maintenance
   code: '*'
 authority: 3
@@ -37,11 +39,13 @@ see_also:
 - spirit-2026t-maintenance-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 43 "General cleaning"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual)
+  locator: p. 43 "General cleaning"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual);
+    MT200 2010 p. 37 and MT200 2022 p. 59, "General cleaning"
   extracted_at: '2026-09-09'
 ---
 
 Dirt, dust, carpet fibers and pet hair can block air inlets and accumulate on the running belt.
+The two MT200 manuals name only **dirt, dust and carpet fibers** - no pet hair.
 
 - **On a monthly basis:** vacuum underneath the treadmill to prevent buildup.
 - **Once a year:** remove the motor hood and vacuum out dirt that may accumulate. The 4.0T calls it
@@ -51,6 +55,8 @@ Dirt, dust, carpet fibers and pet hair can block air inlets and accumulate on th
 Do not attempt any servicing or adjustments other than those described in the manual. Opening the
 motor cover must be left to trained service personnel familiar with electro-mechanical equipment
 and authorized under the laws of the country in question to carry out maintenance and repair work.
+The 2026 manuals print that warning beside this paragraph; **the MT200 manuals print it in their
+Important Safety Instructions instead**, not next to the cleaning text.
 
 ## The 4.0T states the motor-cover interval twice, and the two halves disagree
 
@@ -64,3 +70,9 @@ the interval.
 The 8.0T is not in `applies_to` because its Machine Care chapter carries no such paragraph; it puts
 the same two tasks in a table instead — monthly vacuuming under and around the equipment, and a
 yearly motor-cover removal. See `80t-2026-maintenance-cleaning-schedule`.
+
+## The MT200 manuals state it once and once only
+
+The MT200 2010 and MT200 2022 manuals print this paragraph with the same two intervals and the
+same **UNPLUG POWER CORD BEFORE THIS TASK**. Neither carries a maintenance schedule table, so
+unlike the 4.0T there is no second figure to disagree with.

@@ -31,8 +31,10 @@ facets:
   - xt385-2023
   - xt485-2015
   - xt485-2023
+  - xt485ent-2023
   - xt685-2015
   - xt685-2023
+  - xt685ent-2023
   section: errors
   code: e1
 authority: 3
@@ -55,7 +57,7 @@ source:
     manual, page 56 in the XT385 and XT485 manuals and page 55 in the XT685 manual;
     and the identical row is in the Service Checklist Diagnosis Guide on page 31 of
     the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45 of
-    the XT485 and page 46 of the XT685
+    the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-09-09'
 ---
 
@@ -84,3 +86,15 @@ is an inverter over-current, `E-1` on a Spirit CVC800 is a display board RAM err
 Sole 2026 treadmills use `E01` (over current) and `E31` (over temperature). A Spirit CT900ENT
 prints no code at all for this row - it says reset the power, then contact service
 (`ct900ent-motor-unresponsive-after-start`).
+
+**The XT485ENT and XT685ENT print both branches word for word, and E1 is still the only code
+either of them carries.** Both ENT owner's manuals were read end to end for this card:
+nothing in either names a second error code.
+
+**Neither ENT manual prints the calibration procedure this row tells you to run.** The word
+*calibration* appears exactly once in the XT485ENT owner's manual and exactly once in the
+XT685ENT owner's manual - in this troubleshooting row, and nowhere else. Neither document has
+a Calibration Procedure section, and neither has a speed-sensor adjustment section. A reader
+of either manual is told to run calibration and is not told how. The base XT 2015 and 2023
+manuals do print the procedure (`xt-2023-console-calibration-basic`), so answer an ENT owner
+from those rather than from the manual in their hands, and say that is where it comes from.

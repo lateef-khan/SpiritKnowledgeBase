@@ -28,10 +28,12 @@ facets:
   - xt385-2023
   - xt485-2023
   - xt685-2023
+  - xt685ent-2023
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-safety-no-compliance-page
 see_also:
 - xt-2023-safety-fcc-class-b-interference
 - xt-2023-safety-rf-exposure-separation-distance
@@ -39,7 +41,7 @@ see_also:
 - ctsbs900-warnings-compliance-fcc
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +75,12 @@ as a different rule.
 and the words FCC, UL, Bluetooth and FTMS appear nowhere in it. These manuals therefore do
 not say whether the XT185 is certified to these standards or has Bluetooth. That is an
 absence, not a "no".
+
+**The XT685ENT owner's manual prints the same page**, page 5. It lists the same three standards
+and, like the XT385, XT485 and XT685 manuals, prints `Bluetooth (with FTMS)` with **no version
+number**. Its Part 15 declaration also reads `must not accept any interference received` - the
+same probable misprint.
+
+**The XT485ENT manual has no compliance page**, exactly as the XT185 manual has none. The words
+FCC, UL, Part 15, Class B and FTMS appear nowhere in it - see
+`xt-2015-safety-no-compliance-page`, which carries that absence.

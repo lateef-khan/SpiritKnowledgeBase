@@ -2,7 +2,8 @@
 id: 70t-2026-maintenance-treadbelt-tracking-adjustment
 title: Centring the tread belt at 2 to 3 mph with a 10mm Allen wrench
 kind: procedure
-question: How do I centre the tread belt on a Spirit 70t-2026 rehabilitation treadmill?
+question: How do I centre the tread belt on a Spirit rehabilitation treadmill that
+  takes a 10mm Allen wrench?
 asked_as:
 - the belt keeps drifting to one side
 - how do i centre the running belt
@@ -22,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
   - 70t-2026
+  - mt200-2010
+  - mt200-2022
   section: maintenance
   code: '*'
 authority: 3
@@ -38,17 +41,19 @@ see_also:
 - spirit-2026t-warranty-belt-adjustment-damage
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 41-42 "Treadbelt tracking adjustment" / "To set treadbelt tracking"
+  locator: p. 41-42 "Treadbelt tracking adjustment" / "To set treadbelt tracking";
+    MT200 2010 p. 38 and MT200 2022 pp. 60-61, "TREADBELT TRACKING ADJUSTMENT" / "To
+    set treadbelt tracking"
   extracted_at: '2026-09-09'
 ---
 
-**This machine takes a 10mm Allen wrench and 2 to 3 mph. The 8.0T takes an 8mm wrench, and the
+**These machines take a 10mm Allen wrench and 2 to 3 mph. The 8.0T takes an 8mm wrench, and the
 CT850 2016 takes 10mm at 3 to 5 kph.**
 
 Performance depends on the frame running on a **reasonably level surface**. If the frame is not
 level the front and back roller cannot run parallel, and constant belt adjustment may be necessary.
 
-The 7.0T is designed to keep the tread-belt reasonably centered while in use. It is normal for some
+The machine is designed to keep the tread-belt reasonably centered while in use. It is normal for some
 belts to drift near one side while the belt is running with no one on it; after a few minutes of
 use the tread-belt should have a tendency to center itself. Adjust only if the belt keeps moving
 toward one side **during use**.
@@ -68,10 +73,17 @@ The belt may require periodic tracking adjustment depending on use and walking/r
 characteristics; some users will affect tracking differently. Expect to make adjustments as
 required to center the tread-belt. Adjustments will become less of a maintenance concern as the
 belt is used. Proper belt tracking is an owner responsibility common with all rehabilitation
-treadmills.
+treadmills — the two MT200 manuals write "common with all treadmills".
 
 Damage caused by a bad tracking adjustment is not a warranty item —
 `spirit-2026t-warranty-belt-adjustment-damage`.
+
+## The two MT200 manuals print the same procedure
+
+The MT200 2010 and MT200 2022 owner's manuals print this in the same words: the level-surface
+requirement, the **10mm** wrench, **left side only**, **2 to 3 mph**, **clockwise moves the belt
+to the right**, and **1/4 turn** at a time. **Neither MT200 manual carries the duplicated block
+described next** — that damage is in the 7.0T manual only.
 
 ## A second block on the same page prints different figures
 

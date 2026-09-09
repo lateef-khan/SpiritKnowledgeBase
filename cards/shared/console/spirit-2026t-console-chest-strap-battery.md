@@ -26,6 +26,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -50,3 +52,7 @@ Completely dry the transmitter after use to prolong battery life.
 
 All three 2026 manuals print this note identically, inside the wearing
 instructions; see `spirit-2026t-console-chest-strap-wearing`.
+
+**Both MT200 manuals print the same note** - the 2010 manual on its p. 23, the 2022
+manual on its p. 41. **The 2010 manual names the cell as a Panasonic CR2032**; the
+2022 manual, like the 2026 manuals, prints only CR2032.

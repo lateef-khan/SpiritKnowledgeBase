@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-aerosol-and-oxygen
 title: Using the treadmill where aerosols are sprayed or oxygen is in use
 kind: policy
-question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill be used where oxygen is being given or aerosols are sprayed?
+question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation treadmill, be used where oxygen is being given or aerosols are sprayed?
 asked_as:
 - can i use the treadmill near an oxygen tank
 - is hairspray or air freshener a problem near the treadmill
@@ -27,6 +27,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: safety
   code: '*'
 authority: 3
@@ -40,7 +42,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen half as a bullet of their ELECTRICAL SAFETY page, page 6
+  locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen half as a bullet of their ELECTRICAL SAFETY page, page 6. Both Spirit MT200 owner's manuals state the oxygen half as a bullet of their Important Electrical Information page, 2010 page 5 and 2022 page 8
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +69,13 @@ reason and no mention of aerosols:
 The Sole manuals carry a rule of the same shape (`e20-2026-aerosol-and-oxygen-hazard`,
 `sole-bike-aerosol-and-oxygen`). They are a different brand's manuals and not an answer for a
 Spirit machine.
+
+**Both Spirit MT200 owner's manuals state it the 7.0T and 8.0T way** - a flat unsuitability on the
+electrical page, with no reason given:
+
+> The MT200 is not suitable for use in an oxygen rich environment.
+
+The 2022 manual writes `The treadmill is not suitable`. **Neither MT200 manual mentions aerosols at
+all**, so do not tell an MT200 owner their manual forbids sprays; only the 4.0T manual names them.
+Like the 7.0T and 8.0T these are clinic and hospital machines, and their manuals state the limit as
+a property of the machine.

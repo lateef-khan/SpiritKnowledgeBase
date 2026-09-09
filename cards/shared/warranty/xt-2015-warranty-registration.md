@@ -28,6 +28,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: warranty
   code: '*'
@@ -45,7 +46,9 @@ source:
   locator: 'Record Your Serial Number / Register Your Purchase, manual p. 8, text.md
     lines 166-177; RESPONSIBILITIES OF THE CONSUMER item 1, p. 32, line 762; EXCLUSIONS
     item 6, p. 33, line 785. Same in all five 2015 XT manuals: registration page xt185
-    line 174, xt285 line 198, xt385 line 193, xt485 line 189, xt685 line 190'
+    line 174, xt285 line 198, xt385 line 193, xt485 line 189, xt685 line 190. XT485ENT:
+    Register Your Purchase p. 4 (text.md lines 54-58), responsibility 1 p. 55 (line 1096),
+    exclusion 6 p. 56 (line 1119)'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,6 +71,8 @@ The registration page at the front of the manual says:
 > The self-addressed product registration card must be completed in full and returned to Spirit Fitness. You can also go to **www.spiritfitness.com/warranty** under the **Support** tab to register online.
 
 The same page asks the owner to record the **serial number** in the space provided. These manuals print **no QR code** and name no registration telephone number.
+
+**The XT485ENT belongs here, despite its 2023 model id.** Its manual is a 2021-generation document and it prints both halves: responsibility 1 with the 10-day deadline, and exclusion 6 excluding a product with no registration card on file. Its registration page gives the address as **https://www.spiritfitness.com/warranty**, under the Support tab, and it prints no QR code. Its back cover names **800.258.4555** and **spiritservice@spiritfitness.com** - the 2015 contact pair, not the 2023 one.
 
 ## Do not answer this from the 2023 card
 

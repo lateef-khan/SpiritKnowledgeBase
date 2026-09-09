@@ -37,6 +37,11 @@ models:
     - ctsbs900
     - cu900ent
     - cvc800
+    - mt200-2010
+    - mt200-2022
+    - xt485ent-2023
+    - xt685ent-2023
+    - xth-rails
     - 40t-2026
     - 70t-2026
     - 80t-2026

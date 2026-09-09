@@ -2,7 +2,7 @@
 id: xt-2015-console-spirit-fit-app-pairing
 title: Pairing the machine with the Spirit Fit App over Bluetooth
 kind: procedure
-question: How do I connect a Spirit XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill to the phone app?
+question: How do I connect a Spirit XT285-2015, XT385-2015, XT485-2015, XT685-2015 or XT485ENT treadmill to the phone app?
 asked_as:
 - how do i connect my treadmill to my phone
 - what app works with my spirit treadmill
@@ -28,6 +28,7 @@ facets:
   - xt285-2015
   - xt385-2015
   - xt485-2015
+  - xt485ent-2023
   - xt685-2015
   section: console
   code: '*'
@@ -70,3 +71,8 @@ more to come". The 2023 Spirit+ manuals do name four; that list is theirs, not t
 
 **The XT185-2015 owner's manual has no Bluetooth or app section at all.** It never mentions
 Bluetooth, an app, or a USB port. Do not quote this card for an XT185-2015.
+
+**The XT485ENT prints this same section word for word** on its p. 49, including the icon in the top
+left corner, the three display screens and the built-in personal calendar. **That manual calls it
+simply "the Spirit App"**, not the Spirit Fit App, and it is a 2023 machine - so a 2023 XT question
+is not automatically a Spirit+ question. Check which app name the manual in front of you prints.

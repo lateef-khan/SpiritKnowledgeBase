@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: assembly
   code: '*'
 authority: 3
@@ -35,7 +37,9 @@ see_also:
 - spirit-2026t-assembly-horizontal-handrail-adjustment
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19 SETTING UP YOUR TREADMILL - Rear Step; and 80T owner's manual p. 21
+  locator: p. 19 SETTING UP YOUR TREADMILL - Rear Step; 80T owner's manual p. 21;
+    MT200 2010 owner's manual p. 11 and step 4 on p. 30, MT200 2022 owner's manual
+    p. 20 and step 4 on p. 50
   extracted_at: '2026-09-09'
 ---
 
@@ -49,8 +53,10 @@ The step slides into the receiving tubes under the rear of the deck. **Raising
 the rear incline may make it easier to line up the holes for the pins.**
 
 **The pins carry a different item number on each machine** - the 7.0T secures
-its rear step (181) with pins (217); the 8.0T uses pins (42). Order by machine,
-not by number.
+its rear step (181) with pins (217); the 8.0T uses pins (42). Both MT200 years
+use the same numbers as the 7.0T, step (181) and pins (217), and their parts
+lists name them Step Up Frame and Step Up Frame Pop Pin. Order by machine, not
+by number.
 
 The 8.0T adds one sentence the 7.0T does not print: in **Deck Lift Mode** the
 deck, step-up and handrails can be set parallel to the floor for stepping and

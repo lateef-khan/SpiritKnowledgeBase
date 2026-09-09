@@ -25,6 +25,8 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - mt200-2010
+  - mt200-2022
   section: console
   code: '*'
 authority: 3
@@ -57,3 +59,9 @@ themselves are set in the 7.0T's Factory settings sequence; see
 `70t-2026-console-factory-settings`.
 
 **The 8.0T manual gives no menu path for changing this.**
+
+**Both MT200 manuals print the same 3 second default and the same 1 to 60 second
+range** - the 2010 manual on its p. 15, the 2022 manual on its p. 25. Each points at
+its own menu for disabling the function: **the 2010 manual says Engineering mode
+(its p. 39), the 2022 manual says Maintenance mode (its p. 58)**. It is the same
+menu under two names; see `70t-2026-console-maintenance-mode-menu`.
