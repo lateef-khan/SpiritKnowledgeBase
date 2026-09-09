@@ -2,8 +2,8 @@
 id: spirit-temporary-adapter-for-a-two-pole-receptacle
 title: Using a temporary adapter in a two-pole receptacle
 kind: procedure
-question: Can I use an adapter plug on a Spirit CT850 treadmill or a Spirit CVC800
-  climber if there is no grounded outlet?
+question: Can I use an adapter plug on a Spirit CT850 treadmill, a 2023 Spirit XT
+  treadmill, or a Spirit CVC800 climber if there is no grounded outlet?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -26,17 +26,24 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - xt185-2023
+  - xt285-2023
+  - xt385-2023
+  - xt485-2023
+  - xt685-2023
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-product-must-be-grounded
+- xt-2023-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
-    paragraph is p. 34 (printed 33) of the CT850 2020 manual and p. 26 (printed 26)
-    of the CVC800 manual
+    paragraph is p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed 26)
+    of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the five
+    2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8)
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +68,13 @@ labelled **Tab of Grounding Screw**.
 `Do not attempt to disable the grounded plug by using improper adapters or in any way modify the
 cord outlet`. The permission here is narrow: one grounding-type adapter, grounded by its own screw,
 used only until an outlet is installed. See `spirit-product-must-be-grounded`.
+
+**The five 2023 XT owner's manuals print this paragraph word for word**, spelling the part
+`ear-lug` with a hyphen where the CT850 2016 manual prints `earlug` and the CT850 2020 and
+CVC800 manuals print `earplug`. It is the same green rigid grounding tab, and the same three
+conditions apply: temporary use only, the tab connected to a permanent ground, and the
+adapter held in place by a metal screw.
+
+The XT manuals print no second sentence forbidding adapters. Their safety instructions say
+only "Connect this appliance to a properly grounded outlet only"
+(`xt-2023-safety-instructions-list`).

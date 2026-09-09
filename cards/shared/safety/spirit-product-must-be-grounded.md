@@ -2,7 +2,8 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850 treadmill or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850 treadmill, a 2023 Spirit XT treadmill, or a Spirit
+  CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -25,19 +26,27 @@ facets:
   - ct850-2016
   - ct850-2020
   - cvc800
+  - xt185-2023
+  - xt285-2023
+  - xt385-2023
+  - xt485-2023
+  - xt685-2023
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-temporary-adapter-for-a-two-pole-receptacle
+- xt-2023-safety-instructions-list
+- xt-2023-safety-supply-voltage-variation
 - spirit-extension-cord-16-awg-or-better
 - ct850-2020-extension-cord-14-awg-or-better
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
-    paragraphs are p. 34 (printed 33) of the CT850 2020 manual and p. 26 (printed
-    26) of the CVC800 manual
+    paragraphs are p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed
+    26) of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the
+    five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8)
   extracted_at: '2026-09-08'
 ---
 
@@ -70,3 +79,20 @@ adapter half is `spirit-temporary-adapter-for-a-two-pole-receptacle`.
 
 All three manuals print these paragraphs. The CVC800 says `climber` for `treadmill`, and the CT850
 2016 prints `earlug` where the other two print `earplug`.
+
+**The five 2023 XT owner's manuals print both paragraphs in the same words**, with `unit` in
+place of `treadmill` in the first sentence, and with one figure changed.
+
+**The XT manuals say 110 volt, not 120.**
+
+> This product is for use on a nominal 110-volt circuit, and has a grounding plug that looks
+> like the plug illustrated below.
+
+So the "nominal 120-volt" sentence above is the CT850 and CVC800 figure. The XT185-2023,
+XT285-2023, XT385-2023, XT485-2023 and XT685-2023 manuals print **110-volt** in the same
+place, and print no other mains figure anywhere on that page. Quote the figure from the
+machine's own manual; these manuals never reconcile the two.
+
+The XT manuals also carry the grounding rule a second time, as item 12 of their safety
+instructions - "Connect this appliance to a properly grounded outlet only. See Grounding
+Instructions" (`xt-2023-safety-instructions-list`).
