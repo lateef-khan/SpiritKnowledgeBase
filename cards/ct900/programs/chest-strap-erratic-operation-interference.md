@@ -2,7 +2,7 @@
 id: ct900-chest-strap-erratic-operation-interference
 title: Chest strap warning - erratic heart rate operation and interference sources
 kind: troubleshooting
-question: What causes erratic chest strap heart rate readings on a CT900?
+question: What causes erratic chest strap heart rate readings on a Spirit treadmill?
 asked_as:
 - why is my heart rate reading jumping around
 - heart rate shows crazy high numbers
@@ -18,9 +18,13 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
   - ct900
+  - xt285-2023
+  - xt385-2023
+  - xt485-2023
+  - xt685-2023
   section: programs
   code: '*'
 authority: 3
@@ -38,7 +42,7 @@ source:
 **Caution!** Do not use this treadmill for Heart Rate programs unless a steady, solid Actual Heart Rate value is being displayed. High, wild, random numbers being displayed indicate a problem.
 
 Areas to look for interference which may cause erratic heart rate:
-1. Treadmill is not properly grounded - see [grounding instructions](../safety/grounding-instructions.md).
+1. Treadmill is not properly grounded - see [grounding instructions](../safety/grounding-instructions.md). *(This cause is listed in the CT900 manual; the 2023 XT manuals begin their list at the next item.)*
 2. Microwave ovens, TV's, small appliances, etc.
 3. Fluorescent lights.
 4. Some household security systems.
@@ -48,5 +52,7 @@ Areas to look for interference which may cause erratic heart rate:
 8. Another individual wearing a transmitter within 3' of your machine's console.
 
 If you continue to experience problems contact Spirit Fitness.
+
+The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same caution and the same list under "Chest Strap Warning* (not included)". The 2023 XT185 owner's manual has no heart rate chapter at all.
 
 The Troubleshooting table has a matching entry for this exact symptom ("Erratic pulse display") with a similar but shorter set of causes - see [wireless heart rate not working / erratic pulse](../maintenance/wireless-heart-rate-and-erratic-pulse.md).

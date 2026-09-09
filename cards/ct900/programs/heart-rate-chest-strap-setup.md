@@ -2,7 +2,7 @@
 id: ct900-heart-rate-chest-strap-setup
 title: Heart Rate chest strap - fitting and battery (not included)
 kind: procedure
-question: How do I fit and power the heart rate chest strap for a CT900?
+question: How do I fit and power the heart rate chest strap on a Spirit treadmill?
 asked_as:
 - how do i put on the heart rate chest strap
 - what battery does the chest strap use
@@ -17,9 +17,13 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
   - ct900
+  - xt285-2023
+  - xt385-2023
+  - xt485-2023
+  - xt685-2023
   section: programs
   code: '*'
 authority: 3
@@ -28,13 +32,15 @@ see_also:
 - ct900-heart-rate-control-hrc
 - ct900-chest-strap-erratic-operation-interference
 - ct900-wireless-heart-rate-and-erratic-pulse
+- xt285-2023-heart-rate-program
+- xt-2023-programs-heart-rate-program-xt385-xt485-xt685
 source:
   ref: ct900-om
   locator: p. 30
   extracted_at: '2026-08-24'
 ---
 
-*The chest strap transmitter is not included with the CT900.*
+*The chest strap transmitter is not included with the machine.*
 
 1. Attach the transmitter to the elastic strap using the interlocking key.
 2. Adjust the strap as tightly as possible as long as the strap is not too tight to remain comfortable.
@@ -44,5 +50,7 @@ source:
 6. Your workout must be within range - distance between transmitter/receiver - to achieve a strong steady signal. The length of range may vary somewhat but generally stay close enough to the console to maintain good, strong, reliable readings. Wearing the transmitter directly on bare skin assures you of proper operation. If you wish, you may wear the transmitter over a shirt. To do so, wet the areas of the shirt that the electrodes will rest upon.
 
 **Note**: The transmitter is automatically activated when it detects activity from the user's heart. It automatically deactivates when it does not receive any activity. Although the transmitter is water resistant, moisture can have the effect of creating false signals, so completely dry the transmitter after use to prolong battery life. Estimated transmitter battery life is **2500 hours**. The replacement battery is **Panasonic CR2032**.
+
+The 2023 XT285, XT385, XT485 and XT685 owner's manuals print these same instructions and the same battery figures under "Heart Rate Chest Strap* (not included)". The 2023 XT185 owner's manual has no heart rate chapter at all.
 
 If your readings are erratic (wild, random numbers), see [chest strap warning - erratic operation](chest-strap-erratic-operation-interference.md).
