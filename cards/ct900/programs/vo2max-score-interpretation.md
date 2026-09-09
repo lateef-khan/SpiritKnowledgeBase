@@ -18,6 +18,9 @@ facets:
   model: '*'
   applies_to:
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
   - ct900
   - mt200-2010
   - mt200-2022
@@ -66,3 +69,10 @@ The 2026 Spirit 8.0T owner's manual prints both charts again, value for value, h
 manual on printed page 21, the 2022-generation manual on printed page 33 - headed "VO2max Chart
 for males and very fit females" and "VO2max Chart for females and de-conditioned males". They
 are the score charts for the MT200's Gerkin-protocol Vo2 test.
+
+**The 2012, 2016 and 2020 CT800 owner's manuals print both charts again, value for value**, under
+"What Your Score Means" (2012 printed page 16, 2016 printed page 26, 2020 printed page 31). In all
+three the two charts are interleaved column-for-column by the text extraction and the female /
+de-conditioned "Excellent" row prints as a bare figure rather than a ">" threshold, exactly as it
+does above. **The CT800ENT manual prints the same heading but its chart is a picture**, so no bands
+are recorded for that machine.

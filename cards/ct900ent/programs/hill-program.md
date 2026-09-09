@@ -18,6 +18,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -55,3 +57,9 @@ On the CT900ENT, the full segment-by-segment speed and incline values are in [Pr
 The XT485ENT owner's manual prints the same description on page 36, using "regression of
 **resistance**" as the XT manuals do. Its touchscreen reaches the program from the Programs
 category rather than a program key.
+
+**The CT800ENT owner's manual prints both paragraphs word for word** (printed page 29), including
+"regression of Speed". **The 2020 CT800 owner's manual prints the Speed paragraph only** (printed
+page 22), and writes "a gradual regression of resistance" as the XT manuals do; **it prints no
+Incline paragraph for Hill**, so the elevation description above does not come from that machine's
+manual.

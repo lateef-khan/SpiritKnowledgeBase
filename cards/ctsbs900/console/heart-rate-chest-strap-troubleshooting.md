@@ -22,6 +22,10 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ctsbs900
   section: console
   code: '*'
@@ -54,7 +58,17 @@ Areas to look for interference which may cause erratic heart rate readings:
 If you continue to experience problems, contact Spirit Fitness. The 2026 manuals say to contact your dealer.
 
 The 2026 4.0T, 7.0T and 8.0T owner's manuals print this list word for word, so this
-card covers them too. **The straps themselves differ**, so the wearing instructions
+card covers them too.
+
+**All four CT800 owner's manuals print this section** - 2012 p. 19, 2016 p. 31, 2020 p. 37,
+CT800ENT-2022 p. 45 - and all four word the caution as "for Heart Rate programs" and end "contact
+your dealer". Two differences:
+
+- **Only the CT800ENT-2022 prints item 1, the grounding item.** The 2012, 2016 and 2020 CT800
+  manuals print a **seven** item list that starts at the microwave ovens. Do not quote grounding as
+  a printed cause for those three.
+- **Item 5 is worded two ways.** The 2012 and 2016 manuals print "Perimeter fence for a pet"; the
+  2020 and ENT manuals print "Electric fence for a pet". Same item. **The straps themselves differ**, so the wearing instructions
 are held separately: CTSBS900 in
 [console/heart-rate-chest-strap-pairing.md](heart-rate-chest-strap-pairing.md), the
 2026 machines in `spirit-2026t-console-chest-strap-wearing`.

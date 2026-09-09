@@ -2,7 +2,7 @@
 id: ct900ent-manual-program
 title: Manual program
 kind: fact
-question: What is the Manual program on a CT900ENT and how do I use it?
+question: What is the Manual program on a Spirit treadmill and how do I use it?
 asked_as:
 - how do i control speed and incline myself
 - is there a program with no preset profile
@@ -17,8 +17,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900ent
+  model: '*'
   applies_to:
+  - ct800ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -33,3 +34,7 @@ source:
 ---
 
 Both Speed and Incline are controlled by the user. Increase or decrease levels at any time during your workout.
+
+**The CT800ENT owner's manual prints this sentence word for word** (printed page 27). The three
+button-console CT800 generations list a Manual program but describe it only through the console's
+Quick Start and dot matrix pages, not as a program of its own.

@@ -2,7 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850 treadmill, a 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850 or CT800 treadmill, a 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -25,6 +25,10 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
   - cvc800
@@ -66,7 +70,7 @@ source:
     five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
     and the Important Grounding Instructions page of the five 2015 XT owner's manuals
     (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
-    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9
+    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6
   extracted_at: '2026-09-08'
 ---
 
@@ -190,3 +194,34 @@ Their safety instructions also carry the 2026 machines' flat rule -
 `To avoid risk of electric shock, this equipment must only be connected to a supply main with
 protective earth` - alongside `Do not attempt to disable the grounded plug by using improper
 adapters, or in any way modify the cord set`.
+
+**All four Spirit CT800 owner's manuals print both paragraphs in the CT850's wording**, with
+`treadmill`. Grounding is mandatory, the risk named is electric shock, the plug must not be
+modified, and a qualified electrician installs the right outlet if the plug does not fit.
+
+**The four do not agree on the voltage, and they split by generation.**
+
+| Manual | Grounding page circuit sentence |
+|---|---|
+| CT800 2012 | `a nominal 110-volt/15 amp dedicated circuit` |
+| CT800 2016 | `a nominal 110-volt/15 amp dedicated circuit` |
+| CT800 2020 | `a nominal 120-volt/15 amp dedicated circuit` |
+| CT800ENT-2022 | `a nominal 120-volt/15 amp dedicated circuit` |
+
+So the 110 of the XT manuals and the 120 of the CT850 and CVC800 manuals are **both** printed
+inside this one family. Nothing in any CT800 manual reconciles them; quote the figure from the
+machine's own manual. The amp figure is 15 in all four, and both halves have their own cards:
+`spirit-ct800-safety-outlet-110-volt-15-amp` and `spirit-ct800-safety-outlet-120-volt-15-amp`.
+
+**Three of the four carry the temporary-adapter paragraph; the 2020 manual does not.** The CT800
+2020 grounding page replaces it with `If a properly grounded outlet not available,please contact a
+qualified electrician to have one properly installed` - the missing space is printed that way. Do
+not offer `spirit-temporary-adapter-for-a-two-pole-receptacle` for a CT800-2020.
+
+The 2012, 2016 and 2020 manuals also carry the grounding rule a second time, as a bullet of their
+safety instructions - `Connect this appliance to a properly grounded outlet only. See Grounding
+Instructions` (`spirit-ct800-safety-instructions-list`). The ENT-2022 manual carries instead
+`Do not modify the plug provided with the product if it will not fit the outlet` and, in capitals,
+`DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
+CORD SET` (`ct800ent-2022-safety-instructions-list`) - the same both-ways treatment of adapters the
+CT850 chapter has.

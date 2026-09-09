@@ -2,7 +2,7 @@
 id: ct850-2020-console-layout
 title: Console layout - what each window, key and fitting is called
 kind: fact
-question: What is on the console of a Spirit CT850-2020 treadmill?
+question: What is on the console of a Spirit CT800-2020 or CT850-2020 treadmill?
 asked_as:
 - what does each button on the treadmill console do
 - console diagram for my spirit treadmill
@@ -22,13 +22,16 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-console-layout-blue-led-matrix-window
+- ct800ent-2022-console-layout
 see_also:
 - ct850-2020-quick-start
 - ct850-2020-dot-matrix-message-center
@@ -66,4 +69,17 @@ sit to the left of it.
 
 The speed ladder is numbered 1 to 12, which matches the twelve Direct Access Speed Buttons named in
 the quick start instructions. The incline ladder numbering is drawn too small to read reliably at
-300 dpi, so it is not quoted here; the factory setting for maximum elevation is 15.
+300 dpi, so it is not quoted here; the factory setting for maximum elevation is 15. The CT800-2020
+manual states its own incline ladder in words, in the INCLINE section, not on the drawing - see
+`ct850-2020-incline-adjustment`, which lists each machine's range.
+
+**The CT800-2020 owner's manual prints the same thirteen call-outs on its p. 15**, in the same words
+including "for buttons, phone, or MP3 player", so this card covers that machine. **Two things above
+come from the CT850 drawing only** and are not printed in the CT800-2020 manual: the labels on the
+two LED rows, and the INCLINE / SPEED / TRACK indicator arrangement. Do not quote those as
+CT800-2020 statements.
+
+**The other two CT800 consoles look nothing like this.** The 2012 and 2016 console has six call-outs
+and no USB charger, scan buttons or direct access ladders
+(`spirit-ct800-console-layout-blue-led-matrix-window`); the CT800ENT-2022 is a touchscreen
+(`ct800ent-2022-console-layout`).

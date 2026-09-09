@@ -2,7 +2,7 @@
 id: ct900ent-sleep-mode-auto-shutoff
 title: Sleep mode and turning the treadmill off
 kind: fact
-question: How does sleep mode work and how do I turn a CT900ENT off?
+question: How does sleep mode work and how do I turn a Spirit CT800 or CT900ENT treadmill off?
 asked_as:
 - why did the screen turn off by itself
 - how do i turn off the treadmill
@@ -19,15 +19,19 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900ent
+  model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
   - ct900ent
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-console-turning-the-treadmill-off
 see_also:
 - ct900ent-safety-tether-cord
+- spirit-ct800-console-engineering-mode-menu-with-units
 source:
   ref: ct900ent-om
   locator: p. 29
@@ -39,3 +43,16 @@ The screen will automatically turn off (go to sleep) after **30 minutes of inact
 There is only a tiny amount of current used in sleep mode (about the same as your TV when it is turned off) and it is perfectly fine to leave the main power switch on in sleep mode.
 
 Of course, you may also remove the safety key or turn off the main power switch to power down the treadmill completely.
+
+**The CT800 2012 and 2016 owner's manuals print these three paragraphs word for word**, under TO
+TURN TREADMILL OFF on their p. 12 and p. 18, so this card covers those machines.
+
+**Those two manuals contradict themselves about the time-out.** Their engineering mode Functions
+menu prints **20 minutes**, not 30, for the same Sleep Mode setting
+(`spirit-ct800-console-engineering-mode-menu-with-units`). Nothing in either manual resolves it;
+both figures are reproduced as printed. The CT800-2020 manual has **no** TO TURN TREADMILL OFF
+section at all - its engineering menu is the only place it prints a sleep figure, and that one says
+30 minutes.
+
+**The 2015 XT manuals print a different, three step version** of this instruction and describe the
+30 minutes as "no key operations": `xt-2015-console-turning-the-treadmill-off`.

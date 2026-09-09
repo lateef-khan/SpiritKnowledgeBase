@@ -2,7 +2,8 @@
 id: ct900-engineering-mode-menu
 title: Engineering Mode Menu - diagnostic and service settings
 kind: procedure
-question: How do I open Engineering Mode on a CT900 and what settings does it hold?
+question: How do I open Engineering Mode on a Spirit CT800-2020 or CT900 treadmill and what
+  settings does it hold?
 asked_as:
 - how do i enter engineering mode
 - how do i lock the keypad
@@ -23,13 +24,17 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct900
-  section: maintenance
+  section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-console-engineering-mode-menu-with-units
+- ct850-2016-engineering-mode-menu
+- xt-2015-console-engineering-mode-menu
 see_also:
 - ct900-calibration-procedure
 - ct900-pause-stop-reset
@@ -50,6 +55,23 @@ The console has built-in maintenance/diagnostic software that lets you change se
    - **Maintenance** - Reset maintenance reminder message and odometer readings.
    - **GS Mode** - Returns the elevation to lowest setting when pause is pressed.
    - **Beep Mode** - Turns the speaker (beep sound) on or off.
+
+**The CT800-2020 owner's manual prints items 1 to 4 above word for word on its p. 41**, including the
+five Functions settings and the 30 minute sleep figure, so this card covers that machine. Two
+details of how it prints them:
+
+- **It lists Security twice** - as item 3, "Allows the keypad to be locked to prevent unauthorized
+  use", and again as item 5, "Sets the Child Lock function", with the same Incline UP unlock
+  sequence. Item 3 above holds both descriptions.
+- **It has no Units setting and no Grade Return setting under those names.** GS Mode is the grade
+  return. The earlier CT800 menu does have both, along with a 20 minute sleep figure and a different
+  item order: `spirit-ct800-console-engineering-mode-menu-with-units`.
+
+**The CT800ENT-2022 manual has no engineering mode section at all**, so nothing here is claimed for
+that machine.
+
+**The Maintenance Mode sub-menu below is printed in the CT900 manual only.** No CT800 manual prints
+it, so do not quote SERVICE MODE, the RPM and AMPS readout or the numbered test steps for a CT800.
 
 ## Maintenance Mode sub-menu detail
 

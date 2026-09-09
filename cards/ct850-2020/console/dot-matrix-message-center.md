@@ -1,8 +1,8 @@
 ---
 id: ct850-2020-dot-matrix-message-center
-title: Dot matrix message centre and the Track / Speed / Incline profiles
+title: The dot matrix message centre and the Scan button that cycles Track, Speed and Incline
 kind: fact
-question: What do the dots in the middle of the Spirit CT850-2020 console mean?
+question: What do the dots in the middle of a Spirit CT800-2020 or CT850-2020 console mean?
 asked_as:
 - what are the dots on the treadmill display
 - how do i change what the dot matrix shows
@@ -21,13 +21,15 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-console-dot-matrix-display-button
 see_also:
 - ct850-2020-quarter-mile-track
 - ct850-2020-message-window-display
@@ -57,3 +59,11 @@ Next to the dot matrix are three LEDs labelled **Track**, **Speed** and **Inclin
 Press the Up/Down Scan button to change the view. After scrolling through all three, the window
 **scrolls automatically, showing each profile for four seconds**, and the LED for the profile on
 show blinks. One more press of the Scan button returns you to the Track profile.
+
+**The CT800-2020 owner's manual prints these paragraphs word for word on its pp. 18-19**, so this
+card covers that machine. It also folds the message window's two sentences into the same section;
+those are held separately at `ct850-2020-message-window-display`.
+
+**On the earlier CT800 console the control is called the Display button, not a Scan button**, and
+the dot matrix and the message centre are two separate windows:
+`spirit-ct800-console-dot-matrix-display-button`.

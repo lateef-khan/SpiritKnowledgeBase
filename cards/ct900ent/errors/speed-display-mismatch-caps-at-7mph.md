@@ -1,9 +1,10 @@
 ---
 id: ct900ent-speed-display-mismatch-caps-at-7mph
-title: Treadmill will only achieve approximately 7 mph but shows higher speed on display
+title: The belt tops out near 7 mph while the display shows more, on the row that demands
+  a minimum of 110 volt AC
 kind: troubleshooting
-question: Why does a Spirit CT900ENT, or a Spirit XT treadmill of 2015 or 2023, only reach
-  about 7 mph when the display shows more?
+question: Why does a Spirit CT800, CT900ENT or XT treadmill only reach about 7 mph when
+  the display shows more?
 asked_as:
 - treadmill wont go faster than 7 mph
 - display shows a speed higher than the belt is actually going
@@ -22,6 +23,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -39,6 +42,8 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- ct800-2020-errors-speed-caps-at-7-mph
+- ct800ent-2022-errors-speed-caps-at-12-mph
 - ct850-2016-only-reaches-7-mph
 - ct850-2020-only-reaches-7-mph
 see_also:
@@ -52,7 +57,7 @@ source:
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
-    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed page 23 of the CT800 2012 owner's manual (text.md lines 1002-1007) and on printed page 39 of the CT800 2016 owner's manual (text.md lines 1000-1005)
   extracted_at: '2026-08-24'
 ---
 
@@ -74,6 +79,13 @@ asks what cord to buy, and quote 16 gauge only as what this row prints.
 
 **Do not carry these numbers to another Spirit treadmill.** The CT850 manuals print 12 gauge
 and 110 volt AC 60 Hz for 2016, and 16 gauge and 100 volt AC for 2020.
+
+**Two of the four CT800 generations belong here.** The CT800 2012 and CT800 2016 owner's
+manuals print this row word for word - 7 mph, 16 gauge minimum, a minimum of 110 volt AC -
+and name the cause as low AC voltage to the treadmill. The other two changed a figure each
+and have their own cards: the **CT800 2020** manual demands **120 volt AC**
+(`ct800-2020-errors-speed-caps-at-7-mph`) and the **CT800ENT 2022** manual raises the speed
+in the row to **12 mph** (`ct800ent-2022-errors-speed-caps-at-12-mph`).
 
 **Both ENT manuals print the same two figures** - **16 gauge minimum** for an extension cord
 and **a minimum of 110 volt AC** - and both name the cause as low AC voltage to the

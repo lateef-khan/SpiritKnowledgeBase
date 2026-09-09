@@ -2,7 +2,7 @@
 id: ct850-2020-heart-rate-feature
 title: Reading heart rate from the grips or a chest transmitter
 kind: fact
-question: How does heart rate work on a Spirit CT850-2020 treadmill?
+question: How does heart rate work on a Spirit CT800 or CT850-2020 treadmill?
 asked_as:
 - why is my heart rate not showing on the treadmill
 - does it work with a polar chest strap
@@ -21,14 +21,19 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct800ent-2022-console-heart-rate-feature
 see_also:
+- ctsbs900-heart-rate-chest-strap-pairing
 - ct850-2020-heart-rate-bar-graph
 - ct850-2020-preset-program-list
 - spirit-erratic-pulse-display
@@ -47,3 +52,12 @@ The **Pulse** window displays your current heart rate in beats per minute during
   including coded transmissions**.
 
 The manual names no Bluetooth chest strap for this machine and gives no pairing procedure.
+
+**The CT800 2012, 2016 and 2020 owner's manuals print this paragraph word for word** - 2012 p. 12,
+2016 p. 18, 2020 p. 19 - so this card covers those machines. **The 2020 CT800 manual adds one line,
+in its chest strap section rather than here:** *"Chest straps that operate using Bluetooth or ANT+
+should also work with this machine."* That line is not printed in the 2012 or 2016 manuals, and it
+is held with the strap instructions at `ctsbs900-heart-rate-chest-strap-pairing`.
+
+**The CT800ENT-2022 is described differently** - "Polar and Bluetooth compatible", with no mention of
+coded transmissions - and has its own card: `ct800ent-2022-console-heart-rate-feature`.

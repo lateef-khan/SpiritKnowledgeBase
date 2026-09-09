@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-secure-the-tether-cord-after-use
 title: Removing or storing the tether cord after use so nobody else can start the treadmill
 kind: policy
-question: How do I stop someone else starting a 2026 Spirit 4.0T or 8.0T treadmill after I have finished?
+question: How do I stop someone else starting a 2026 Spirit 4.0T or 8.0T treadmill, or a Spirit CT800ENT-2022 treadmill, after I have finished?
 asked_as:
 - how do i stop my kids starting the treadmill
 - where should i keep the safety key
@@ -26,6 +26,7 @@ facets:
   applies_to:
   - 40t-2026
   - 80t-2026
+  - ct800ent-2022
   section: safety
   code: '*'
 authority: 3
@@ -38,7 +39,7 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 28, page 5; the 8.0T owner's manual states its version as item 22 of its page 5
+  locator: SAFETY INSTRUCTIONS item 28, page 5; the 8.0T owner's manual states its version as item 22 of its page 5 The CT800ENT-2022 owner's manual prints the same bullet on its IMPORTANT SAFETY INSTRUCTIONS page, page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +66,21 @@ afterwards. Do not tell a 7.0T owner their manual asks for this.
 
 The related keep-away rules are `spirit-2026t-safety-keep-children-away` and, for the 4.0T only,
 the age-8 supervision clause `40t-2026-safety-children-aged-8-and-above`.
+
+**The Spirit CT800ENT-2022 owner's manual prints the 4.0T's rule word for word**, as a bullet of
+its safety instructions:
+
+> Remove tether cord after use to prevent unauthorized treadmill operation.
+
+Take the cord off the machine, and the reason is the same: with the magnet in place anyone can
+start the treadmill. This manual names no location to keep it in and describes no lock or code.
+
+The same manual's tether-cord section makes the point a second way - `Removing the magnet also
+secures the treadmill from unauthorized use` (`xt-2015-safety-tether-cord`), which is what the
+magnet does rather than an instruction to do it after every workout. This bullet is the
+instruction.
+
+**The other three CT800 owner's manuals state no such rule.** The 2012, 2016 and 2020 manuals
+carry only the tether-cord section's sentence about unauthorized use and never ask for the cord to
+be removed after use. Do not tell a CT800-2012, CT800-2016 or CT800-2020 owner that their manual
+asks for this.

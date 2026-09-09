@@ -24,6 +24,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   section: maintenance
   code: '*'
@@ -32,6 +36,7 @@ not_to_be_confused_with:
 - ct850-2016-treadbelt-tracking-adjustment
 - 70t-2026-maintenance-treadbelt-tracking-adjustment
 - 80t-2026-maintenance-treadbelt-tracking-adjustment
+- xt-2023-maintenance-treadbelt-tracking
 - sole-running-belt-tracking
 see_also:
 - ct900ent-belt-tension-adjustment
@@ -40,7 +45,8 @@ see_also:
 source:
   ref: ct900ent-om
   locator: p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
-    p. 44
+    p. 44; all four Spirit CT800 owner's manuals print it too - 2012 p. 22, 2016 p.
+    35, 2020 p. 40 and CT800ENT 2022 p. 50
   extracted_at: '2026-08-24'
 ---
 
@@ -56,6 +62,17 @@ An 8mm Allen wrench is provided for this adjustment. Make tracking adjustments o
 The belt may require periodic tracking adjustment depending on use and walking/running characteristics. Some users may affect tracking differently. Expect to make adjustments as required to center the treadbelt. Adjustments will become less of a maintenance concern as the belt is used. Proper belt tracking is an owner responsibility common with all treadmills.
 
 If the belt hesitates or feels off-center while walking/running due to gait, see [Treadbelt does not stay centered / hesitates](../errors/treadbelt-off-center-hesitates.md).
+
+## Also all four CT800 generations
+
+The Spirit **CT800 2012, CT800 2016, CT800 2020 and CT800ENT 2022** owner's manuals print this
+procedure word for word - the same **8mm Allen wrench**, the same **left side bolt**, the same
+**3 mph**, the same **1/4 turn** clockwise and counter-clockwise, and the same "owner
+responsibility common with all treadmills" closing. None of the four prints a metric equivalent for
+the belt speed.
+
+All four also print, under the heading ATTENTION: damage to the running belt resulting from
+improper tracking or tension adjustments is not covered under the Spirit Fitness warranty.
 
 ## Also the 2026 4.0T
 

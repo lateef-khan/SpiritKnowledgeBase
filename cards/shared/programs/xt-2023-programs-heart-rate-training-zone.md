@@ -2,8 +2,8 @@
 id: xt-2023-programs-heart-rate-training-zone
 title: Maximum heart rate and the sixty to eighty percent training zone
 kind: fact
-question: How do I work out my maximum heart rate and training zone on a Spirit XT
-  treadmill?
+question: How do I work out my maximum heart rate and training zone on a Spirit
+  treadmill that recommends sixty and eighty percent?
 asked_as:
 - how do i work out my max heart rate
 - what heart rate should i train at to burn fat
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
   - xt285-2015
   - xt385-2015
   - xt385-2023
@@ -83,3 +85,10 @@ about using the heart rate monitor without a Heart Rate program. The XT485ENT ma
 on pages 45-46 but **stops after "After calculating your MHR you can decide upon which goal you
 would like to pursue"**; it does not print that closing paragraph. Neither ENT manual prints the
 2015 "resistance at the pedals" sentence.
+
+**The 2012 and 2016 CT800 owner's manuals print this same 60% / 80% guidance and the same
+108-to-144 example** (2012 printed page 17, 2016 printed pages 27-28). Like the 2015 XT manuals,
+**both end the closing paragraph with "The Heart Rate program automatically controls resistance at
+the pedals"** - the bike-manual boilerplate, on a treadmill. Both also say the heart rate monitor
+feature may be used during manual mode or during any of the nine different programs. **The 2020 and
+CT800ENT manuals print 65% and 80% instead - see `ct900-heart-rate-exertion-target-zones`.**

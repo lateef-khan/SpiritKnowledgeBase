@@ -23,6 +23,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2020
   section: console
   code: '*'
@@ -51,3 +55,13 @@ The 2026 4.0T owner's manual prints the same two ports in the same words, so thi
 machine too; it writes the COMM port's use as "software applications" rather than "fitness software
 applications". **Neither the 7.0T nor the 8.0T mentions C-SAFE** - the 8.0T has a USB Type B port and
 a UART port instead.
+
+**All four CT800 owner's manuals print this section too** - 2012 p. 10, 2016 p. 15, 2020 p. 16 and
+CT800ENT-2022 p. 46 - and the 2016, 2020 and ENT manuals word it exactly as above.
+
+**The 2012 CT800 manual names a specific system on the COMM port** where the others say "fitness
+software applications": *"The Communication port (COMM) can be used to interact with the Virtual
+Reality Fitness system by WebRacing LTD."* It adds that a dealer can explain how members race
+against a computer controlled figure or real life exercisers, a sentence the 2016 manual keeps
+without the WebRacing name. The port is the same port; only the named software differs, and no
+manual gives a pinout or a cable part number.

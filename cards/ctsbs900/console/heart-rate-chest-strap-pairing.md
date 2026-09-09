@@ -20,6 +20,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ctsbs900
   - xt485ent-2023
   - xt685ent-2023
@@ -32,6 +36,8 @@ not_to_be_confused_with:
 see_also:
 - ctsbs900-heart-rate-chest-strap-troubleshooting
 - ctsbs900-bluetooth-connectivity
+- ct850-2020-heart-rate-feature
+- ct800ent-2022-console-heart-rate-feature
 source:
   ref: ctsbs900-om
   locator: p. 35
@@ -60,3 +66,18 @@ Chest Strap*; the XT685ENT heads it *Heart Rate Chest Strap (not included)*.
 steps** and are not yet on this card. They were extracted in earlier waves and this
 card should probably grow to cover them; that was left for whoever owns those
 sources.
+
+**All four CT800 owner's manuals print the same six steps and the same note** - 2012 p. 19, 2016
+p. 30, 2020 p. 36, CT800ENT-2022 p. 44 - so this card covers those machines. Four details are
+printed differently in them:
+
+| Machine | What differs |
+|---|---|
+| CT800 2012 | Step 1 says "using the locking parts", not the interlocking key. Battery: **Panasonic CR2032**. No sold-separately statement anywhere. |
+| CT800 2016 | Step 1 says "using the interlocking button". Battery: **Panasonic CR2032**. No sold-separately statement. |
+| CT800 2020 | Heading reads "WEARING THE CHEST STRAP (SOLD SEPARATELY)". Battery: **CR2032**, without the Panasonic name. Adds: *"Chest straps that operate using Bluetooth or ANT+ should also work with this machine."* |
+| CT800ENT-2022 | Battery: **CR2032**. Adds: *"Chest straps that operate using Bluetooth should also work with this machine"* - **Bluetooth only, no ANT+.** |
+
+**Do not carry the ANT+ line onto the ENT machine, or either line onto the 2012 and 2016
+machines** - those two manuals describe Polar compatible transmitters only
+(`ct850-2020-heart-rate-feature`).

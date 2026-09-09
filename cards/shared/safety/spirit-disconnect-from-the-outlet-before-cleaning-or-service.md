@@ -2,7 +2,7 @@
 id: spirit-disconnect-from-the-outlet-before-cleaning-or-service
 title: Disconnect from the electrical outlet before cleaning or service work
 kind: policy
-question: Do I have to unplug a Spirit CT850 treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber before servicing it?
+question: Do I have to unplug a Spirit CT850 or CT800ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -25,6 +25,7 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
   - cvc800
@@ -44,7 +45,7 @@ source:
   locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
     sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25)
     of the CVC800 manual, and the opening WARNING of the SAFETY INSTRUCTIONS page,
-    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line of their safety instructions page, 2010 page 4 and 2022 page 5
+    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line of their safety instructions page, 2010 page 4 and 2022 page 5 The CT800ENT-2022 owner's manual prints it as the DANGER line of its IMPORTANT SAFETY INSTRUCTIONS page, page 4
   extracted_at: '2026-09-08'
 ---
 
@@ -90,3 +91,21 @@ also carry the cover rule separately
 (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`), and, as a bullet of the same list,
 `To disconnect, turn all controls to the off position then remove the plug from the outlet`.
 They state no capacitor discharge time and no lock-out procedure either.
+
+**The Spirit CT800ENT-2022 owner's manual opens its safety instructions with the same sentence**,
+under a DANGER heading and naming the brand rather than the machine:
+
+> DANGER - To reduce the risk of electric shock disconnect your SPIRIT treadmill from the
+> electrical outlet prior to cleaning and/or service work.
+
+Cleaning as well as service, and disconnect from the outlet rather than switch off. The same list
+adds how to disconnect - `To disconnect, turn all controls to the off position, remove tether cord,
+then remove the plug from the outlet` - the only Spirit list that asks for the tether cord to come
+off as part of the sequence (`ct800ent-2022-safety-instructions-list`). It states no capacitor
+discharge time and no lock-out procedure either.
+
+**The CT800 2012, 2016 and 2020 manuals do not print this sentence.** Their equivalent is the
+appliance-list DANGER line - `Always unplug this appliance from the electrical outlet immediately
+after using and before cleaning` - which covers cleaning but not service work:
+`spirit-ct800-safety-instructions-list`. Do not quote `prior to cleaning and/or service work` for
+those three.

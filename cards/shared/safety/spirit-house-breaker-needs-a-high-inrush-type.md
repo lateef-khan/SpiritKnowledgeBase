@@ -3,8 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850 treadmill,
-  a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850 or CT800 treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -25,6 +24,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
   - cvc800
@@ -43,7 +46,7 @@ source:
   locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
     (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
     and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
-    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual
+    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -88,3 +91,21 @@ high inrush type, and it is not a warranty defect.
 
 **The 2026 7.0T and 8.0T owner's manuals print no circuit-breaker paragraph.** Their manuals are
 silent on a tripping supply breaker.
+
+**The CT800 2012, 2016 and 2020 owner's manuals print this paragraph word for word**, including
+both part numbers - **Grainger # 1D237** and www.squared.com **# QO120HM**. All three add one
+sentence the CT850 and CVC800 manuals do not print:
+
+> The electrical outlet used should have a dedicated 15 amp circuit breaker.
+
+That is the supply requirement, not this fault: `spirit-ct800-safety-outlet-110-volt-15-amp` for
+the 2012 and 2016 machines and `spirit-ct800-safety-outlet-120-volt-15-amp` for the 2020.
+
+**The CT800ENT-2022 manual prints the paragraph but names no part numbers.** It stops at
+`This part is available through most electrical supply stores`, and drops both the Grainger and
+QO120HM examples and the dedicated-15-amp sentence. Do not quote those part numbers as the ENT
+manual's, though the requirement they satisfy - a high inrush breaker of the proper current
+rating - is the same. It also writes `manufacturer` where the other three write `manufacture`.
+
+Everything that decides the answer is unchanged in all four: the test is which breaker trips, the
+fix is a high inrush type, and it is not a warranty defect.

@@ -2,7 +2,7 @@
 id: ct850-2020-incline-adjustment
 title: Adjusting incline during a workout
 kind: fact
-question: How do I change the incline on a Spirit CT850-2020 treadmill?
+question: How do I change the incline on a Spirit CT800 or CT850-2020 treadmill?
 asked_as:
 - how do i raise the incline
 - what does the incline number mean
@@ -19,8 +19,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2020
   section: console
   code: '*'
@@ -41,4 +45,20 @@ source:
 - The display indicates incline numbers as **percent of grade**, the same as the grade of a road, as
   adjustments are made.
 
-The maximum elevation is a factory setting, adjustable from 10 to 15 with a default of 15.
+The maximum elevation is a factory setting, adjustable from 10 to 15 with a default of 15 on the
+CT850-2020; the CT800 manuals print 15 as the value to set and no range.
+
+**All four CT800 owner's manuals print this section** - 2012 p. 11, 2016 p. 17, 2020 p. 18,
+CT800ENT-2022 p. 18.
+
+**The rapid incline keys differ from machine to machine, so take the number from your own:**
+
+| Machine | What the manual says |
+|---|---|
+| CT800 2012 and 2016 | "a more rapid increase / decrease by selecting a quick key, **2 through 6**, on left hand side of console" |
+| CT800 2020 | "a more rapid increase / decrease by selecting a rapid incline button, **1 through 15**, on left hand side of console" |
+| CT800ENT-2022 | No rapid incline keys are printed - the manual gives only the press-and-hold bullet |
+| CT850-2020 | The service manual draws a Direct Access Incline ladder but its numbering is not legible; see `ct850-2020-console-layout` |
+
+**The CT800ENT-2022 manual prints only the first two bullets above.** It does not say the display
+shows incline as percent of grade, so do not quote that third bullet for that machine.

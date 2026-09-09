@@ -2,7 +2,7 @@
 id: xt-2015-safety-tether-cord
 title: What the safety tether cord is for and how to wear it
 kind: procedure
-question: How does the safety tether cord work on a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or on a Spirit XT485ENT or XT685ENT treadmill?
+question: How does the safety tether cord work on a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT or XT685ENT treadmill, or on a Spirit CT800 treadmill?
 asked_as:
 - what is the clip that attaches to my shirt
 - how does the emergency stop cord work
@@ -24,6 +24,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -43,7 +47,7 @@ see_also:
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 7, Safety Tether Cord; the XT285 and XT485 manuals print the same
-    section on page 7, the XT385 and XT685 manuals on page 8. The XT485ENT owner's manual prints the same section as SAFETY TETHER CORD, page 8, and the XT685ENT owner's manual as its own SAFETY KEY page, page 18
+    section on page 7, the XT385 and XT685 manuals on page 8. The XT485ENT owner's manual prints the same section as SAFETY TETHER CORD, page 8, and the XT685ENT owner's manual as its own SAFETY KEY page, page 18 The four CT800 owner's manuals print the same section headed SAFETY TETHER CORD - 2012 on its Important Operation Instructions page, page 4, 2016 on page 40, 2020 on pages 16-17, and ENT-2022 on page 46
   extracted_at: '2026-09-09'
 ---
 
@@ -95,3 +99,23 @@ in place of `to assure`. Every instruction and the one-to-two-step coast are the
 
 Both manuals also state, in their power-on instructions, that the treadmill will not power on
 unless the safety key is installed - the same fact the numbered step above gives.
+
+## The four CT800 manuals print the same section
+
+**All four Spirit CT800 owner's manuals print these paragraphs word for word**, under the heading
+`SAFETY TETHER CORD`. Every instruction is the same: the magnet is also the key, the treadmill will
+not start without it, removing it secures the machine from unauthorized use, the clip must be
+fastened securely, and a **one to two step coast** is normal.
+
+Two manuals change a word. The **CT800ENT-2022** manual writes `treadbelt` where the other three
+write `tread-belt`, and `Stop/Pause button` where the 2012, 2016 and 2020 manuals write
+`Stop / Pause switch`. Nothing in the rule changes.
+
+**Where the section sits moves between generations.** The 2012 manual prints it on the Important
+Operation Instructions page, beside the safety warnings; the 2020 manual prints it in the console
+chapter; the 2016 and ENT-2022 manuals print it in general maintenance. It is the same section in
+all four.
+
+**The CT800ENT-2022 manual adds a rule the other three do not print** - `Remove tether cord after
+use to prevent unauthorized treadmill operation`, as a bullet of its safety instructions:
+`spirit-2026t-safety-secure-the-tether-cord-after-use`.

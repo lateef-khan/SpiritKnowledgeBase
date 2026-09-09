@@ -2,7 +2,8 @@
 id: ct900-hiit-program
 title: HIIT (High Intensity Interval Training) program setup
 kind: procedure
-question: How do I set up the HIIT program on a CT900?
+question: How do I set up the HIIT program on a Spirit treadmill that defaults to ten
+  intervals?
 asked_as:
 - how do i set up hiit
 - what is high intensity interval training on this treadmill
@@ -19,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct900
   section: programs
   code: '*'
@@ -43,3 +45,11 @@ The HIIT, or High Intensity Interval Training, program takes advantage of the la
 5. The Dot Matrix Message Center now displays SPRINT SPD 6.0 MPH. Use Up/Down buttons to adjust the sprint speed you desire and press Enter.
 6. The Dot Matrix Message Center now displays REST SPEED 3.0 MPH. Use Up/Down buttons to adjust the rest speed you desire and press Enter.
 7. Press **Start** to begin the HIIT program. The program starts with a 3-minute warm-up period with the speed set to 50% of the sprint speed selected previously. You can manually adjust the speed during warm-up if you wish.
+
+**The 2020 CT800 owner's manual prints this procedure word for word** (printed pages 23-24),
+including the default of 10 intervals, the 3 to 15 range, the 30 to 60 second sprint and rest times,
+SPRINT SPD 6.0 MPH, REST SPEED 3.0 MPH and the 3-minute warm-up at 50% of sprint speed. Neither the
+2012 nor the 2016 CT800 manual has a HIIT program.
+
+**The CT800ENT touchscreen defaults to 8 intervals and allows 20 to 90 second periods** - different
+figures, see `ct800ent-2022-programs-hiit-eight-intervals`.

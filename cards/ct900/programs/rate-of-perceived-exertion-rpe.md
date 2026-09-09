@@ -19,6 +19,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct900
   - xt285-2015
   - xt285-2023
@@ -80,3 +84,10 @@ The XT485ENT owner's manual prints the same scale and the same wording under "Ra
 Exertion" (page 47), and the XT685ENT owner's manual prints it under "Heart Rate - Perceived
 Exertion" (page 32). Neither ENT machine has a Chester Treadmill Test, so neither uses the
 RPE=18+ and RPE=14 thresholds.
+
+**All four CT800 owner's manuals print the same scale, value for value.** The 2012 and 2016 manuals
+print it under "Rate of Perceived Exertion" with the wording above (2012 printed page 18, 2016
+printed page 29). The 2020 and CT800ENT manuals reword the opening: they drop the "listen to your
+body" sentences and instead say the scale helps users determine an approximate heart rate level when
+a heart rate monitor is not in use (2020 printed page 35, CT800ENT printed page 41). The ratings, the
+descriptions and the add-a-zero rule are identical in all four.

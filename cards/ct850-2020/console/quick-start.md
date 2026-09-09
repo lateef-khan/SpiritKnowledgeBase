@@ -1,8 +1,8 @@
 ---
 id: ct850-2020-quick-start
-title: Quick start - starting, changing speed and stopping
+title: Quick start on the console with Direct Access Speed Buttons 1 through 12
 kind: procedure
-question: How do I start a workout on a Spirit CT850-2020 treadmill?
+question: How do I start a workout on a Spirit CT800-2020 or CT850-2020 treadmill?
 asked_as:
 - how do i start the treadmill
 - how do i change the speed
@@ -20,13 +20,16 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-console-quick-start-speed-keys-2-to-6
+- ct800ent-2022-console-quick-start
 see_also:
 - ct850-2020-pause-stop-reset
 - ct850-2020-incline-adjustment
@@ -46,3 +49,11 @@ source:
 - To stop the belt, press and release the red **Stop** button.
 
 What Stop does on the second and third press is a separate behaviour.
+
+**The CT800-2020 owner's manual prints these four bullets word for word on its p. 17**, including the
+twelve Direct Access Speed Buttons, so this card covers that machine.
+
+**The earlier CT800 console has five rapid speed keys numbered 2 through 6, not twelve numbered 1
+through 12**: `spirit-ct800-console-quick-start-speed-keys-2-to-6`. The CT800ENT-2022 touchscreen has
+none at all: `ct800ent-2022-console-quick-start`. Do not read one machine's key numbering onto
+another.

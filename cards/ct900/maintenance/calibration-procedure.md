@@ -2,7 +2,8 @@
 id: ct900-calibration-procedure
 title: Calibration procedure - wheel size, min/max speed, max elevation
 kind: procedure
-question: How do I calibrate wheel size, min/max speed and max elevation on a CT900?
+question: How do I calibrate wheel size, min/max speed and max elevation on a Spirit CT800-2020
+  or CT900 treadmill?
 asked_as:
 - how do i calibrate the treadmill
 - how do i reset the treadmill to factory settings
@@ -19,16 +20,21 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct900
-  section: maintenance
+  section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-console-calibration-with-grade-return
+- xt-2015-console-calibration-fast-plus
+- ct850-2016-calibration-procedure-metric-or-english
 see_also:
 - ct900-engineering-mode-menu
 - ct900-incline-position-mismatch-e33
+- ct850-2020-factory-setting-ranges
 source:
   ref: ct900-om
   locator: p. 34
@@ -45,3 +51,18 @@ source:
 8. Press **Start** to begin calibration. The process is automatic; the speed will start up without warning, so do not stand on the belt.
 
 If the incline position doesn't match the console after calibration, or you see INCLINE ERR / E33, see [incline position mismatch (E33)](incline-position-mismatch-e33.md).
+
+**The CT800-2020 owner's manual prints these eight steps word for word on its p. 38**, including the
+same mix of "safety key" in step 1 and "safety button" in step 2, so this card covers that machine.
+
+**There is no grade return step here.** The 2012 and 2016 CT800 routine has nine steps, holds Start
+with **Fast +** rather than Speed Up, and ends with a Grade return setting and a European note:
+`spirit-ct800-console-calibration-with-grade-return`. Running one machine's routine on the other is
+the classic mistake.
+
+**The CT800ENT-2022 manual prints no calibration procedure at all**, although it twice tells the
+reader to run one - in its troubleshooting table and at the head of its speed sensor alignment
+section. Nothing on this card is claimed for that machine.
+
+Adjustable ranges for these five values are not printed in any CT800 or CT900 manual. The CT850-2020
+service manual prints them for that machine: `ct850-2020-factory-setting-ranges`.

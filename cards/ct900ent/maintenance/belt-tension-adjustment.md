@@ -24,6 +24,10 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2012
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   section: maintenance
   code: '*'
@@ -32,6 +36,7 @@ not_to_be_confused_with:
 - ct850-2016-tread-belt-tension-adjustment
 - 70t-2026-maintenance-treadbelt-tension-adjustment
 - 80t-2026-maintenance-treadbelt-tension-adjustment
+- xt-2023-maintenance-treadbelt-tension
 see_also:
 - ct900ent-treadbelt-tracking-adjustment
 - ct900ent-motor-unresponsive-after-start
@@ -39,7 +44,8 @@ see_also:
 source:
   ref: ct900ent-om
   locator: p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
-    p. 43-44
+    p. 43-44; all four Spirit CT800 owner's manuals print it too - 2012 p. 21, 2016
+    p. 34, 2020 p. 39 and CT800ENT 2022 p. 49
   extracted_at: '2026-08-24'
 ---
 
@@ -50,6 +56,18 @@ Tighten the rear roller only enough to prevent slippage at the front roller. Tur
 ## Do not over-tighten
 
 **DO NOT OVER TIGHTEN** — Over tightening will cause belt damage and premature bearing failure. If you tighten the belt a lot and it still slips, the problem could actually be the **drive belt** (located under the motor cover) that connects the motor to the front roller. If the drive belt is loose it feels similar to the walking belt being loose. Tightening the motor belt should be done by a trained service person.
+
+## Also all four CT800 generations
+
+The Spirit **CT800 2012, CT800 2016, CT800 2020 and CT800ENT 2022** owner's manuals print this
+procedure word for word - the same **8mm Allen wrench**, the same rear roller, the same bolts at
+the end of the step rails, the same **1/4 turn each**, and the same over-tightening and drive-belt
+warning. Like the 4.0T they open with **"Belt tension is not critical for most users"**, the
+qualifier this manual leaves out.
+
+The CT800 manuals add the warranty consequence in the belt chapter: damage to the running belt
+resulting from improper tracking or tension adjustments is not covered under the Spirit Fitness
+warranty.
 
 ## Also the 2026 4.0T
 

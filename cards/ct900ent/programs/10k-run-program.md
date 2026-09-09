@@ -2,7 +2,8 @@
 id: ct900ent-10k-run-program
 title: 10K Run program
 kind: fact
-question: What is the 10K Run program on a CT900ENT and how do I use it?
+question: What is the 10K Run program on a Spirit touchscreen treadmill and how do I
+  use it?
 asked_as:
 - how do i run a 10k on the treadmill
 - does the treadmill track a 10k distance
@@ -17,8 +18,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct900ent
+  model: '*'
   applies_to:
+  - ct800ent-2022
   - ct900ent
   section: programs
   code: '*'
@@ -37,3 +39,8 @@ source:
 **This is the 10K Run program, not the [5K Run program](5k-run-program.md).**
 
 Both speed and incline are controlled by the user. Increase or decrease levels at any time during your workout. The Track display will set the distance of 1 lap to **10 kilometers (metric) or 6.2 miles (standard measurement)**.
+
+**The CT800ENT owner's manual prints the first two sentences word for word** (printed page 29), and
+adds that the distance counts down and the program ends at zero. **It prints no lap distance**, so
+the 10 kilometre / 6.2 mile figure above is not recorded for that machine. Its manual puts 5K Run and
+10K Run under one heading; they are two identifiers and stay two cards.

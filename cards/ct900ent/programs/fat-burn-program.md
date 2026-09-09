@@ -17,6 +17,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -57,3 +59,8 @@ The XT485ENT owner's manual prints the same description on page 37 and writes "m
 level sustained for 2/3 of the workout, and an elevation progression to the maximum for 90% of the
 duration - differing only in "speed level" for "resistance level", "user input value" for "user
 input level", and "treadmill elevation" for "deck elevation". See `ct900ent-calorie-program`.
+
+**The CT800ENT owner's manual prints both paragraphs word for word** (printed page 28), writing
+"maximum speed level". **The 2020 CT800 owner's manual prints the Speed paragraph only** (printed
+page 22) and writes "maximum resistance level"; **it prints no Incline paragraph for Fat Burn**, so
+the 90%-of-duration elevation figure does not come from that machine's manual.
