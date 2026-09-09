@@ -35,14 +35,17 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900-electrical-safety
+- ctsbs900-environmental-operating-conditions
 see_also:
 - ct900ent-electrical-requirements-gfci-breakers
 - spirit-ct850-outlet-and-circuit-requirement
 - spirit-ct800-safety-outlet-110-volt-15-amp
+- ctsbs900-electrical-safety
 source:
   ref: ct900ent-om
-  locator: p. 4 The four CT800 owner's manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5
+  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches'
   extracted_at: '2026-08-24'
 ---
 
@@ -86,3 +89,14 @@ the CT800ENT manual does. No figure changes.
 The nominal circuit the CT850 manuals name is **120 volt at 20 amp** in the 2016, 2020 and ENT-2022
 books (`spirit-ct850-outlet-and-circuit-requirement`) and **110 volt at 15 amp** in the 2018 book
 (`spirit-ct800-safety-outlet-110-volt-15-amp`).
+
+**Do not answer a CT900 or a CTSBS900 from this card either.** Those two owner's manuals print the
+same paragraph with a different figure - `The temperature specification is 40 degrees C, and
+humidity is 95%, non-condensing` (CT900 page 6, CTSBS900 page 6). One Celsius maximum, no minimum,
+no Fahrenheit conversion. That is the same form the XT manuals print, not the 40-to-120 Fahrenheit
+range on this card, so quoting 40 to 120 F for a CT900 or a CTSBS900 would be wrong. Those two
+statements are carried by `ct900-electrical-safety` and `ctsbs900-electrical-safety`, with a
+quick-reference copy at `ctsbs900-environmental-operating-conditions`.
+
+**The ten percent voltage paragraph, by contrast, is word for word the same in all three CT900
+manuals** and in the CT800 and CT850 manuals. Only the temperature figure splits the family.

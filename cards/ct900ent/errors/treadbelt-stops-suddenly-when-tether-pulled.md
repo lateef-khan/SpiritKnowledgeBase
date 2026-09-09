@@ -66,14 +66,14 @@ source:
 
 **Problem:** Treadbelt stops quickly/suddenly when tether cord is pulled (rather than the normal one-to-two step coast described in [Using the safety tether cord](../safety/safety-tether-cord.md)).
 
-**Cause / fix:** High belt/deck friction. See [Belt and deck cleaning](../maintenance/belt-deck-cleaning.md). If cleaning doesn't prevent this from reoccurring, check to see if there is significant wear of the deck. If so, the deck may need to be flipped.
+**Cause / fix:** High belt/deck friction. See [Belt and deck cleaning](../maintenance/belt-deck-cleaning.md). If cleaning doesn't prevent this from reoccurring, check to see if there is significant wear of the deck. If so, the deck may need to be flipped **if it is on its original side**.
 
 **Which manual prints which half.** All ten XT owner's manuals print the cause and the
 deck-cleaning remedy.
 
 - **All five 2015 manuals** (XT185, XT285, XT385, XT485, XT685) go on to the deck-wear check
-  and carry the qualifier the CT900ENT does not: the deck may need to be flipped **if it is
-  on its original side**.
+  and carry the qualifier: the deck may need to be flipped **if it is on its original side**.
+  So does the CT900ENT owner's manual itself.
 - **Of the 2023 manuals, only the XT685** goes that far. The 2023 XT185, XT285, XT385 and
   XT485 manuals stop at the deck-cleaning line.
 
@@ -110,3 +110,13 @@ For the XT685ENT that agrees with its base XT685-2023 manual. **For the XT485ENT
 not**: the base XT485-2023 manual stops at the deck-cleaning line, so on that machine the ENT
 document is the fuller of the two. The rule stated above - that of the 2023 manuals only the
 XT685 goes this far - does not hold once the ENT documents are counted.
+
+**The CT900ENT prints the long answer too.** The CT900ENT owner's manual PDF
+(`spirit-treadmill-ct900ent-owners-manual`, TROUBLESHOOTING on printed page 48, text.md
+lines 1091-1093) prints this row with the deck-wear check *and* the "if it is on its original
+side" qualifier. Every machine on this card therefore carries the full answer; there is no
+short-answer variant among them.
+
+**Neither the CT900 nor the CTSBS900 owner's manual prints this row at all.** Their
+troubleshooting tables (CT900 printed page 40, CTSBS900 printed page 45) have no
+"tether cord pulled" entry, so those two machines are deliberately absent from `applies_to`.

@@ -26,13 +26,21 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-warranty-coverage-terms
+- ctsbs900-warranty-coverage-commercial
+- spirit-ct800-warranty-commercial-periods
+- spirit-2026t-warranty-commercial-periods
 see_also:
 - ct900-warranty-exclusions
 - ct900-warranty-service-claims-process
+- ct900-warranty-use-environment
 source:
   ref: ct900-om
-  locator: p. 52
+  locator: 'p. 52. The same table, footnotes and facility list are printed in the CT900
+    owner''s manual PDF, spirit-treadmill-ct900-owners-manual text.md lines 1471-1498,
+    p. 52. All six figures in all three rows verified unchanged against that PDF on
+    2026-09-09'
   extracted_at: '2026-08-24'
 ---
 
@@ -63,5 +71,9 @@ Spirit Fitness Inc. warrants all its home use Treadmill parts for a period of ti
 6. Expenses for making the fitness equipment accessible for servicing, including any item that was not part of the fitness equipment at the time it was shipped from the factory.
 7. Damages to the fitness equipment finish during shipping, installation or following installation.
 8. Routine maintenance of this unit as specified in this manual.
+
+**Three rows, three environments - and this is the only Spirit treadmill in this knowledge base whose table covers a dues-paying gym.** Dues-paying and non-dues-paying differ only in Deck and Parts, 3 Years against 5. Which row applies where, and the two sentences elsewhere in the section that contradict it, are in [warranty use environment](warranty-use-environment.md).
+
+**Do not answer a CT900ENT or CTSBS900 question from this table.** The CT900ENT prints one unqualified Commercial row - Frame Lifetime, Drive Motor 10 Years, Parts 3 Years, Labor 3 Years - with no deck, wear-items or residential row (`ct900ent-warranty-coverage-terms`). The CTSBS900 prints one Commercial (Dues Paying Facilities) row with no deck column and no residential row (`ctsbs900-warranty-coverage-commercial`). Neither is this table.
 
 What isn't covered by this warranty is detailed separately in [warranty exclusions](warranty-exclusions.md).

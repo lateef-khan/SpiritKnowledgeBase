@@ -38,12 +38,14 @@ not_to_be_confused_with:
 - xt-2015-console-engineering-mode-menu
 - ct850-2016-console-engineering-mode-menu-with-units
 - ct850-2018-console-engineering-mode-menu-with-da-test
+- ctsbs900-maintenance-mode-key-and-display-test
+- ctsbs900-maintenance-mode-function-settings
 see_also:
 - ct900-calibration-procedure
 - ct900-pause-stop-reset
 source:
   ref: ct900-om
-  locator: p. 34
+  locator: p. 34-35
   extracted_at: '2026-08-24'
 ---
 
@@ -73,8 +75,10 @@ details of how it prints them:
 **The CT800ENT-2022 manual has no engineering mode section at all**, so nothing here is claimed for
 that machine.
 
-**The Maintenance Mode sub-menu below is printed in the CT900 manual only.** No CT800 manual prints
-it, so do not quote SERVICE MODE, the RPM and AMPS readout or the numbered test steps for a CT800.
+**Of the CT800 and CT850 range, the Maintenance Mode sub-menu below is printed in the CT900 manual
+only.** No CT800 manual prints it, so do not quote SERVICE MODE, the RPM and AMPS readout or the
+numbered test steps for a CT800. The CT900 manual prints it as the full-page figure on p. 35, not as
+running text, so a text-only extract of that manual will not contain it.
 
 ## Maintenance Mode sub-menu detail
 
@@ -103,3 +107,10 @@ CT850-2018 menu is different again** - Button Test, LCD Test, a Functions list w
 DA Test, and a 20 minute sleep figure:
 `ct850-2018-console-engineering-mode-menu-with-da-test`. **The CT850ENT-2022 manual has no
 engineering mode section at all.**
+
+**The CTSBS900 has a Maintenance Mode that is entered differently and holds different items.** It
+opens on Start + Stop + Enter held for **2 seconds** with no safety key to insert, and its menu is
+KEY TEST, DISPLAY TEST, FUNCTION and SERVICE - it has no Security or Child Lock entry, and it adds
+ODOMETER RESET, OTA AUTO and a SERVICE menu for USB and over-the-air software updates that nothing
+here describes: `ctsbs900-maintenance-mode-key-and-display-test`,
+`ctsbs900-maintenance-mode-function-settings`. Nothing on this card is claimed for that machine.

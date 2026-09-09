@@ -33,6 +33,8 @@ not_to_be_confused_with:
 - ctsbs900-warranty-exclusions
 see_also:
 - ct900-warranty-coverage-terms
+- ct900-warranty-use-environment
+- ctsbs900-warranty-use-environment
 - spirit-2026t-warranty-commercial-periods
 - spirit-2026t-warranty-prisons-excluded
 - spirit-2026t-warranty-use-environment
@@ -43,7 +45,10 @@ source:
   ref: ct900-om
   locator: 'p. 53. The same nine items in the same order are printed under WARRANTY -
     CONTINUED, What is not covered? / EXCLUSIONS in the three 2026 manuals: 4.0T p. 52,
-    7.0T p. 51, 8.0T p. 69'
+    7.0T p. 51, 8.0T p. 69. The same nine items and the same note are printed in the
+    CT900 owner''s manual PDF, spirit-treadmill-ct900-owners-manual text.md lines 1504-1526,
+    p. 53, and word for word again in spirit-treadmill-ctsbs900-owners-manual text.md
+    lines 1704-1726, p. 55'
   extracted_at: '2026-08-24'
 ---
 
@@ -67,4 +72,10 @@ That surviving phrase - *ordinary household or light commercial use* - is reside
 
 **Three of these items are asked about on their own:** item 5 in `xt-2023-warranty-transfer`, item 8 in `spirit-2026t-warranty-prisons-excluded`, and item 9 with the 48-states note in `xt-2023-warranty-geographic-coverage`. A tenth exclusion is printed outside this list, beside the belt tracking procedure: `spirit-2026t-warranty-belt-adjustment-damage`.
 
-**The other Spirit lists are not this list.** The CT900ENT and CTSBS900 run to eight items and word item 2 as "fitness equipment ... not in non-dues paying facility or household use"; the CT900ENT also excludes a product with no registration card on file. The residential XT manuals use slot 8 for a use-environment limit rather than for prisons. Read the machine's own list: `ct900ent-exclusions`, `ctsbs900-warranty-exclusions`, `xt-2023-warranty-exclusions`, `xt-2015-warranty-exclusions`.
+**The CTSBS900 prints this list, word for word.** All nine items, in this order, and the same note below them. The CTSBS900 has a card of its own holding the same nine - `ctsbs900-warranty-exclusions` - so the fact is held twice in this repository and either card answers a CTSBS900 question correctly. Nothing in the CTSBS900 list differs from the nine above.
+
+**The CT900ENT list is a different list.** It runs to **eight** items, not nine: it words item 2 as "fitness equipment ... not in **non-dues paying facility or household use**" rather than "units not in ordinary household or light commercial use", it uses item 6 to exclude a product with no registration card on file outright, and it prints the outside-the-US sentence unnumbered below the list rather than as item 9. Read it from `ct900ent-exclusions`.
+
+**The residential XT manuals** use slot 8 for a use-environment limit rather than for prisons: `xt-2023-warranty-exclusions`, `xt-2015-warranty-exclusions`.
+
+**Item 2 is residential wording standing inside a commercial warranty on the CT900 as well.** "Ordinary household or light commercial use" reads as a limit on the dues-paying gym that this manual's own warranty table covers on its first row. The manual never reconciles the two - see `ct900-warranty-use-environment`, and `ctsbs900-warranty-use-environment` for the same sentence on a machine whose only row is a dues-paying one.

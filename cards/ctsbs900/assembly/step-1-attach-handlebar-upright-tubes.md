@@ -30,7 +30,7 @@ not_to_be_confused_with:
 - ctsbs900-step-5-attach-console
 - ctsbs900-step-6-install-covers-and-power-cord
 see_also:
-- ctsbs900-pre-assembly
+- ct900-pre-assembly
 - ctsbs900-step-2-attach-water-cup-holder
 source:
   ref: ctsbs900-om

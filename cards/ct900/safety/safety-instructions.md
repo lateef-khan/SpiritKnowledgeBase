@@ -34,7 +34,7 @@ see_also:
 - ct900-electrical-safety
 source:
   ref: ct900-om
-  locator: p. 5
+  locator: 'p. 5. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900-owners-manual, SAFETY INSTRUCTIONS, page 5, and matches'
   extracted_at: '2026-08-24'
 ---
 
@@ -61,3 +61,5 @@ When using an electrical appliance, basic precautions should always be followed.
 16. **User Weight Limit: 450 lb.** See [user weight limit](../specs/user-weight-limit.md).
 
 Please ensure that you review and adhere to the user weight restrictions and power requirements of your new machine. Failure to do so may result in serious injury or damage to your machine.
+
+**`on your elliptical` is a defect, not a different rule.** The shoe bullet is printed with the word `elliptical` in all three CT900-family owner's manuals - the CT900 (page 5), the CT900ENT (page 3) and the CTSBS900 (page 5) - and every one of those machines is a treadmill with no pedals. Nothing else in the sentence changes. It is the same wrong-machine wording the CT800 and CT850 manuals carry in their distraction bullet (`xt-2023-safety-distractions-while-walking`). Read `elliptical` as `treadmill` and quote the rule as printed.

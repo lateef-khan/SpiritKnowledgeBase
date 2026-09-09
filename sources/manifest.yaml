@@ -1240,6 +1240,24 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850ENT/2022/CT850ENT_850852_OM_20240703.pdf
   sha256: 7b9f36a53255aaeb528f23aab66069337587cda92597ac000055887235b629d6
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct900-owners-manual
+  title: Spirit CT900 treadmill owner's manual, part 900825 (rev. 06/2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT900/CT900_OwnersManual_900825_20250612.pdf
+  sha256: fe617d1fdc672cab9aee0cc481bbee45b58f087620221370f332bccdc493bda2
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct900ent-owners-manual
+  title: Spirit CT900ENT treadmill owner's manual (rev. 11/2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT900ENT/CT900ENT_20211119.pdf
+  sha256: 872975f9a93804cd2b76edce4d45ae17340ee00ffd8ce30808bcb5629b7f6905
+  ingested_at: '2026-09-09'
+- id: spirit-treadmill-ctsbs900-owners-manual
+  title: Spirit CTSBS900 treadmill owner's manual, part 900885 (rev. 10/2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CTSBS900/CTSBS900_OwnersManual_900885_20251029.pdf
+  sha256: 0e351b286f2f8b707a5902c28ed8bb36ff01bc7bdb140ea00873b787eb322a38
+  ingested_at: '2026-09-09'
 - id: spirit-treadmill-mt200-2010-owners-manual
   title: MT200 treadmill owner's manual (2010 series, effective July 2013)
   kind: pdf

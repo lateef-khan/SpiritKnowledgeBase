@@ -49,10 +49,7 @@ see_also:
 - spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
-  locator: p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual
-    p. 44; all four Spirit CT800 owner's manuals print it too - 2012 p. 22, 2016 p.
-    35, 2020 p. 40 and CT800ENT 2022 p. 50; all four Spirit CT850 owner's manuals print
-    it too - 2016 p. 40, 2018 p. 39, 2020 p. 40 and CT850ENT 2022 p. 51
+  locator: 'p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 22, 2016 p. 35, 2020 p. 40 and CT800ENT 2022 p. 50; all four Spirit CT850 owner''s manuals print it too - 2016 p. 40, 2018 p. 39, 2020 p. 40 and CT850ENT 2022 p. 51; the CT900ENT page is spirit-treadmill-ct900ent-owners-manual p. 47'
   extracted_at: '2026-08-24'
 ---
 
@@ -68,6 +65,13 @@ An 8mm Allen wrench is provided for this adjustment. Make tracking adjustments o
 The belt may require periodic tracking adjustment depending on use and walking/running characteristics. Some users may affect tracking differently. Expect to make adjustments as required to center the treadbelt. Adjustments will become less of a maintenance concern as the belt is used. Proper belt tracking is an owner responsibility common with all treadmills.
 
 If the belt hesitates or feels off-center while walking/running due to gait, see [Treadbelt does not stay centered / hesitates](../errors/treadbelt-off-center-hesitates.md).
+
+## The CT900 is a separate card
+
+The Spirit **CT900** owner's manual (`spirit-treadmill-ct900-owners-manual` p. 37) prints this
+procedure word for word - same 8mm wrench, same left side bolt, same 3 mph, same 1/4 turns - and is
+answered from `ct900-treadbelt-tracking-adjustment`, not from here. The CT900 is the one machine in
+this group whose carton demonstrably contains the 8mm Allen wrench the paragraph names.
 
 ## Also all four CT800 generations
 

@@ -32,11 +32,12 @@ not_to_be_confused_with:
 - ctsbs900-maintenance-mode-key-and-display-test
 - ctsbs900-maintenance-mode-software-update
 - ctsbs900-factory-mode-min-max-speed
+- ct900-engineering-mode-menu
 see_also:
 - ctsbs900-maintenance-mode-key-and-display-test
 source:
   ref: ctsbs900-om
-  locator: p. 49
+  locator: p. 49-51
   extracted_at: '2026-08-24'
 ---
 
@@ -62,3 +63,8 @@ Details:
 - **OTA AUTO – ON/OFF:** Press Enter to toggle. The MW displays "OTA AUTO – ON" or "OTA AUTO – OFF."
 
 To exit Maintenance Mode entirely, select **EXIT** from the main menu.
+
+**This is not the CT900 Functions list.** The CT900's Engineering Mode holds Sleep, Pause,
+Maintenance, GS and Beep, with a Maintenance entry that resets the reminder message and the
+odometer. This menu names the odometer reset in its own right, adds OTA AUTO, and has no
+Maintenance entry: `ct900-engineering-mode-menu`.

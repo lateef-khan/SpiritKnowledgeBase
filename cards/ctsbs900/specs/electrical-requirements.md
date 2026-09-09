@@ -27,6 +27,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-2026t-specs-drive-motor-rating
 - ctsbs900-grounding-instructions
 - ctsbs900-electrical-safety
 - ctsbs900-troubleshooting-common-problems

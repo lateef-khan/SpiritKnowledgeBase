@@ -83,3 +83,9 @@ The **WFI** test uses this same stage chart, but calculates the score differentl
 | 11.2 | 10:30 | 7.0mph | 10% | 77.7 |
 | 11.3 | 10:45 | 7.0mph | 10% | 79.1 |
 | 11.4 | 11:00 | 7.0mph | 10% | 80 |
+
+**The CTSBS900 owner's manual PDF prints this chart as a picture** (source
+`spirit-treadmill-ctsbs900-owners-manual`, printed page 31): that page carries the protocol
+paragraph and nothing else in text, so the stages above cannot be re-checked against it. This is the
+variant whose stage 2.1 begins at **1:00**; other Spirit manuals print one whose stage 2.1 begins at
+1:15, and the two are not interchangeable.

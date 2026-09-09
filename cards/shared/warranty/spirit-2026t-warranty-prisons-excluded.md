@@ -2,8 +2,8 @@
 id: spirit-2026t-warranty-prisons-excluded
 title: Prisons and correctional facilities are excluded from cover
 kind: policy
-question: Is a Spirit 2026 4.0T, 7.0T, 8.0T, CT800 or CT850 treadmill under warranty
-  in a prison or correctional facility?
+question: Is a Spirit 2026 4.0T, 7.0T, 8.0T, CT800, CT850, CT900, CT900ENT or CTSBS900
+  treadmill under warranty in a prison or correctional facility?
 asked_as:
 - is the treadmill covered in a prison gym
 - does the warranty work in a correctional facility
@@ -33,6 +33,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - ct900
+  - ct900ent
+  - ctsbs900
   section: warranty
   code: '*'
 authority: 3
@@ -42,6 +45,9 @@ not_to_be_confused_with:
 see_also:
 - spirit-2026t-warranty-commercial-periods
 - spirit-2026t-warranty-use-environment
+- ct900-warranty-use-environment
+- ct900ent-warranty-use-environment
+- ctsbs900-warranty-use-environment
 - ct900-warranty-exclusions
 - spirit-ct800-warranty-exclusions
 - spirit-ct800-warranty-use-environment
@@ -55,7 +61,11 @@ source:
     CT850: the exclusion in all four owner''s manuals - ct850-2016 p. 46 (spirit-treadmill-ct850-2016-owners-manual
     text.md line 1198), ct850-2018 p. 46 (line 1191), ct850-2020 p. 46 (line 1197),
     ct850ent-2022 p. 54 (line 1256) - and the table footnote in three, ct850-2016 p.
-    45 (line 1159), ct850-2020 p. 45 (line 1158) and ct850ent-2022 p. 53 (line 1218)'
+    45 (line 1159), ct850-2020 p. 45 (line 1158) and ct850ent-2022 p. 53 (line 1218).
+    All three CT900-family manuals print both halves - table footnote and exclusion:
+    spirit-treadmill-ct900-owners-manual pp. 52 and 53 (text.md lines 1486 and 1520),
+    spirit-treadmill-ct900ent-owners-manual pp. 50 and 51 (lines 1135 and 1171),
+    spirit-treadmill-ctsbs900-owners-manual pp. 54 and 55 (lines 1687 and 1720)'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,6 +91,8 @@ The footnote under the warranty table - the second half of the fact on the 2026 
 
 **On a CT800 or CT850 the prisons exclusion is not the only environment excluded.** Those manuals also exclude a dues-paying facility - a YMCA or health club - in the slot above it, which the 2026 manuals say nothing about: `spirit-ct800-warranty-use-environment`.
 
-The Spirit CT900, CT900ENT and CTSBS900 manuals print the same prisons sentence in their own warranty sections; those machines have their own cards.
+**The CT900, CT900ENT and CTSBS900 print both halves too**, and they are the only Spirit treadmills in this knowledge base where every manual carries the footnote as well as the exclusion. In all three the footnote sits under the warranty table and the exclusion is item **8** of the list, as on the 2026 machines rather than item 9. The CT900ENT prints the footnote with a leading asterisk that matches no marker in its table.
 
-The full nine-item exclusion list for these three machines is in `ct900-warranty-exclusions`, which they share word for word.
+**Their exclusion lists are not one list, so do not read the rest of the section across.** The CT900 and the CTSBS900 share a nine-item list word for word (`ct900-warranty-exclusions`, `ctsbs900-warranty-exclusions`). The CT900ENT list runs to **eight** items, words item 2 differently, excludes an unregistered product outright, and prints its outside-the-US sentence unnumbered below the list (`ct900ent-exclusions`).
+
+**On these three the prisons exclusion is not the whole of the use-environment answer, and it differs by machine.** The CT900 covers a dues-paying gym on its own row of periods, the CTSBS900 covers only a dues-paying facility, and the CT900ENT prints one unqualified Commercial row narrowed by its exclusion 2: `ct900-warranty-use-environment`, `ctsbs900-warranty-use-environment`, `ct900ent-warranty-use-environment`.

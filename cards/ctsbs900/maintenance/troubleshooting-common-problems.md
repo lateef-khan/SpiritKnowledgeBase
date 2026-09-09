@@ -36,7 +36,7 @@ see_also:
 - ctsbs900-grounding-instructions
 source:
   ref: ctsbs900-om
-  locator: p. 45
+  locator: 'ctsbs900-om p. 45; checked row for row against spirit-treadmill-ctsbs900-owners-manual p. 45'
   extracted_at: '2026-08-24'
 ---
 

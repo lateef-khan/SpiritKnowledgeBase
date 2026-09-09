@@ -35,11 +35,18 @@ see_also:
 - ct900ent-interval-program
 source:
   ref: ct900ent-om
-  locator: p. 32
+  locator: p. 32 (PRESET PROGRAMS SPEED/INCLINE SETTINGS)
   extracted_at: '2026-08-24'
 ---
 
 The preset program Speed and Incline levels are shown in the chart below. The Speed numbers shown indicate a **percentage of the top speed of the program**. For instance, the first Speed setting for P1 (Program 1, HILL) shows the number 20. This means that this segment of the program will have a speed that is 20% of the top speed for the program (the user sets the top speed in the [starting/customizing procedure](starting-and-customizing-a-program.md)). If the user sets the top speed to 10 mph, then the first segment will be 2 mph. Segment 12 shows 100, which means the speed will be set to 100% of 10 mph, or simply 10 mph.
+
+**The CT900ENT owner's manual PDF prints this chart as a picture** (source
+`spirit-treadmill-ct900ent-owners-manual`, printed page 32): the page carries the explanatory
+paragraph and the legend, and no numeric row survives text extraction. That legend names four
+programs - **P1 = HILL; P2 = FAT BURN; P3 = CARDIO; P4 = INTERVAL** - so the manual gives no chart
+row for **Strength**, and none of the numeric rows below can be re-checked against it. Read the
+picture on printed page 32 before relying on a value here.
 
 **Table structure note:** The source chart's header row names 22 columns (Warm up, segments 1-20, Cool down), but the printed Speed/Incline data rows contain 24-25 values each — one or more values per row could not be confidently matched to a named column. Rather than guess a mapping, each row below is reproduced as a sequence in the exact left-to-right order printed in the source. If you need an exact value for a specific numbered segment, cross-check against the original PDF page 32.
 

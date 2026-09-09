@@ -26,16 +26,22 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- ct900-warnings-compliance-fcc
+- xt-2023-safety-compliance-certifications
 source:
   ref: ctsbs900-om
-  locator: p. 4
+  locator: 'p. 4. Corroborated in the shipping PDF spirit-treadmill-ctsbs900-owners-manual, WARNINGS, COMPLIANCE AND NOTICES, page 4, which prints condition (2) as must not accept any interference received'
   extracted_at: '2026-08-24'
 ---
 
 The CTSBS900 is certified to meet FCC Part 15 and UL standards.
 
-This device complies with Part 15 of the FCC Rules. Operation is subject to two conditions: (1) this device must not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.
+The Part 15 declaration, as printed on page 4:
+
+> This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device must not cause harmful interference, and (2) this device **must not accept** any interference received, including interference that may cause undesired operation.
+
+**Condition (2) is printed as "must not accept".** The usual FCC wording is "must **accept** any interference received", and this manual never corrects itself, so treat the sentence as a probable misprint rather than as a different rule. The CT900 manual and the four 2023 XT manuals print condition (2) the same way - see [ct900-warnings-compliance-fcc](../../ct900/safety/warnings-compliance-fcc.md) and `xt-2023-safety-compliance-certifications`.
 
 **Note:** This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses, and can radiate radio frequency energy and, if not installed and used according to instructions, may cause harmful interference to radio communications. There is no guarantee interference will not occur in a particular installation.
 

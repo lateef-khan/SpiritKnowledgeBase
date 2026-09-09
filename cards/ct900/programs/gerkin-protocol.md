@@ -86,6 +86,12 @@ The Gerkin protocol, also known as the fireman's protocol, is a sub-max Vo2 (vol
 | 11.3 | 10:45 | 7.0mph | 10% | 79.1 |
 | 11.4 | 11:00 | 7.0mph | 10% | 80 |
 
+**The CT900 owner's manual PDF prints this chart as a picture** (source
+`spirit-treadmill-ct900-owners-manual`, printed page 26): that page carries the protocol paragraph
+and nothing else in text, so the stages above cannot be re-checked against it. Anyone settling which
+Spirit machines print the 1:00 chart and which print the 1:15 chart has to read that page as an
+image.
+
 For the before/during/after procedure common to both Gerkin and WFI, see [Gerkin/WFI test procedure](gerkin-wfi-test-procedure.md). To interpret the resulting VO2max score, see [VO2max score interpretation](vo2max-score-interpretation.md).
 
 **The 2018 CT850 owner's manual prints this same chart, value for value** (printed page 27),

@@ -31,7 +31,7 @@ see_also:
 - ctsbs900-lubricating-drive-belt-teeth
 source:
   ref: ctsbs900-om
-  locator: p. 40
+  locator: 'ctsbs900-om p. 40; confirmed word for word against spirit-treadmill-ctsbs900-owners-manual p. 40'
   extracted_at: '2026-08-24'
 ---
 

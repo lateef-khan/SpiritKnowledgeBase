@@ -39,7 +39,8 @@ source:
   ref: ct900ent-om
   locator: 'p. 50. The same seven items, word for word and in the same order, are printed
     under RESPONSIBILITIES OF THE FACILITY in the three 2026 manuals: 4.0T p. 51, 7.0T
-    p. 50, 8.0T p. 68'
+    p. 50, 8.0T p. 68. The same seven items are printed in the CT900ENT owner''s manual
+    PDF, spirit-treadmill-ct900ent-owners-manual text.md lines 1137-1148, p. 50'
   extracted_at: '2026-08-24'
 ---
 

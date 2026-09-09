@@ -29,13 +29,14 @@ not_to_be_confused_with:
 - ctsbs900-maintenance-mode-key-and-display-test
 - ctsbs900-maintenance-mode-function-settings
 - ctsbs900-maintenance-mode-software-update
+- ct900-calibration-procedure
 see_also:
 - ctsbs900-maintenance-mode-function-settings
 - ctsbs900-speed-and-incline-ranges
 - ctsbs900-quick-start
 source:
   ref: ctsbs900-om
-  locator: p. 51
+  locator: p. 51-52
   extracted_at: '2026-08-24'
 ---
 
@@ -51,5 +52,11 @@ source:
    - English range: 10.0–15.6 MPH
    Press Enter to confirm.
 4. The MW displays "FINISHED," followed by the scrolling message "CONSOLE RESET."
+
+**This routine sets units, minimum speed and maximum speed and nothing else.** There is no wheel
+size step, no maximum elevation step, and no automatic belt run at the end - it finishes on FINISHED
+and CONSOLE RESET. The CT900 opens its routine with the same Start + Speed Up gesture but then asks
+for wheel size 2.98 and maximum elevation 15 and fixes the maximum speed at a single 12.0, so its
+eight steps must not be run here: `ct900-calibration-procedure`.
 
 A quick-reference version of these ranges is at [specs/speed-and-incline-ranges.md](../specs/speed-and-incline-ranges.md). Note the default Quick Start speed (0.5 mph / 0.8 kph — see [assembly/quick-start.md](../assembly/quick-start.md)) falls at the low end of the min-speed range set here.

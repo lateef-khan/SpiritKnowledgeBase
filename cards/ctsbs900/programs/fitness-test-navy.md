@@ -50,4 +50,9 @@ A timed **1.5 mile run**. You control the speed manually. Maximum time allowed t
 
 For more information visit: http://bit.ly/SF-Navy
 
+**The Navy 1.5-mile times for ages 17-41 are printed identically to the [Army](fitness-test-army.md)
+2-mile times for the same brackets.** That is how printed page 29 of the owner's manual has it; the
+manual does not say whether it is intended, and a 1.5-mile and a 2-mile standard would normally
+differ.
+
 See [programs/fitness-test-overview.md](fitness-test-overview.md) for how to select and start this test.

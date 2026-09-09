@@ -28,14 +28,21 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900-warranty-coverage-terms
+- ct900ent-warranty-coverage-terms
+- spirit-ct800-warranty-commercial-periods
 see_also:
+- ctsbs900-warranty-use-environment
 - ctsbs900-warranty-exclusions
 - ctsbs900-warranty-service-and-contact
 - ctsbs900-product-registration
 source:
   ref: ctsbs900-om
-  locator: p. 54
+  locator: 'p. 54. The same single-row table, its footnotes and the facility list are
+    printed in the CTSBS900 owner''s manual PDF, spirit-treadmill-ctsbs900-owners-manual
+    text.md lines 1669-1697, p. 54. All five figures verified unchanged against that
+    PDF on 2026-09-09'
   extracted_at: '2026-08-24'
 ---
 
@@ -64,5 +71,9 @@ Spirit Fitness Inc. warrants all its home use Slat Belt Sled Treadmill parts for
 5. Expenses for making the fitness equipment accessible for servicing, including any item that was not part of the fitness equipment at the time it was shipped from the factory.
 6. Damages to the fitness equipment finish during shipping, installation, or following installation.
 7. Routine maintenance of this unit as specified in this manual.
+
+**There is no Deck column.** The CT900 table carries one; this machine is a slat belt sled and its table runs Frame, Motor, Parts, Labor, Wear Items only. Do not read a deck period onto it from the CT900.
+
+**The dues-paying row is the only row.** No non-dues-paying row and no residential row is printed, which makes this the mirror image of the CT800 and CT850, whose warranties exclude a dues-paying facility outright. The home-use discrepancy noted above is one of three sentences pulling different ways - see [warranty/warranty-use-environment.md](warranty-use-environment.md).
 
 For what is *not* covered, see [warranty/warranty-exclusions.md](warranty-exclusions.md). For how to obtain service, see [warranty/warranty-service-and-contact.md](warranty-service-and-contact.md). To register, see [warranty/product-registration.md](product-registration.md).

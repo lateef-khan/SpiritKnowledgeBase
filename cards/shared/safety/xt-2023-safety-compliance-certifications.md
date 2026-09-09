@@ -66,10 +66,15 @@ The Part 15 declaration, as printed:
 > undesired operation.
 
 **Condition (2) is printed as "must not accept" in all four manuals.** The usual FCC wording
-of that condition, and the wording the Spirit CT900 and CTSBS900 manuals print, is
-"must **accept** any interference received". The four XT manuals are quoted here as printed;
-the manual never corrects itself, so treat the sentence as a probable misprint rather than
-as a different rule.
+of that condition is "must **accept** any interference received". The four XT manuals are
+quoted here as printed; the manual never corrects itself, so treat the sentence as a probable
+misprint rather than as a different rule.
+
+**The Spirit CT900 and CTSBS900 owner's manuals print the same misprint.** Page 4 of each reads
+`this device must not accept any interference received`, word for word with these four manuals
+(`spirit-treadmill-ct900-owners-manual` page 4, `spirit-treadmill-ctsbs900-owners-manual`
+page 4). Condition (2) therefore does not distinguish the XT manuals from the CT900 family -
+see `ct900-warnings-compliance-fcc` and `ctsbs900-warnings-compliance-fcc`.
 
 **The XT185 manual has no compliance page.** It is not in that manual's table of contents,
 and the words FCC, UL, Bluetooth and FTMS appear nowhere in it. These manuals therefore do

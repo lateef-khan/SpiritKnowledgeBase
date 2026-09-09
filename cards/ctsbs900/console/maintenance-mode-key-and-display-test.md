@@ -27,17 +27,22 @@ not_to_be_confused_with:
 - ctsbs900-maintenance-mode-function-settings
 - ctsbs900-maintenance-mode-software-update
 - ctsbs900-factory-mode-min-max-speed
+- ct900-engineering-mode-menu
 see_also:
 - ctsbs900-maintenance-mode-function-settings
 - ctsbs900-maintenance-mode-software-update
 - ctsbs900-factory-mode-min-max-speed
 source:
   ref: ctsbs900-om
-  locator: p. 49
+  locator: p. 49-50
   extracted_at: '2026-08-24'
 ---
 
 To enter **Maintenance Mode**, press and hold the **Start, Stop, and Enter** keys simultaneously for 2 seconds.
+
+**No safety key is inserted, and the hold is 2 seconds.** The CT900's Engineering Mode uses the same
+three keys but is entered by holding them while you *insert the safety button*, for about 5 seconds,
+and opens a different menu that includes Security and Child Lock: `ct900-engineering-mode-menu`.
 
 Maintenance Mode is operated through a menu system:
 - KEY TEST

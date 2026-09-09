@@ -40,7 +40,7 @@ In Sled Mode, the running belt generates resistance to simulate the user pushing
 
 **Manual sub-mode:**
 1. Select Sled Mode to enter the mode.
-2. The resistance level can be directly adjusted from the console (levels 1–15, via the SLED RESISTANCE LEVELS buttons — see [console/console-screen-overview.md](../console/console-screen-overview.md)).
+2. The resistance level can be directly adjusted from the console. **The manual states no resistance range for Manual sled mode.** The only sled resistance range it prints is the one in Custom Interval - default 4, range 1-12 - see [programs/sled-mode-custom-interval.md](sled-mode-custom-interval.md).
 3. After completing your program settings, press the **ENTER** key to confirm, then press the **START** key to begin the program.
 4. Press the **STOP** button once to pause, twice to view the Workout Summary, and three times to exit Sled Mode and return to the idle screen.
 

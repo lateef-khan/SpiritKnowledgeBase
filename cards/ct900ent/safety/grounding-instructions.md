@@ -32,7 +32,7 @@ see_also:
 - ct900ent-computer-shuts-off-static-cold-weather
 source:
   ref: ct900ent-om
-  locator: p. 5
+  locator: 'p. 5. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, GROUNDING INSTRUCTIONS, page 5, and matches'
   extracted_at: '2026-08-24'
 ---
 

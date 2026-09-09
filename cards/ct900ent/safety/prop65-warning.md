@@ -29,7 +29,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: ct900ent-om
-  locator: p. 6
+  locator: 'p. 6. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, the WARNING box above RECORD YOUR SERIAL NUMBER, page 6, and matches'
   extracted_at: '2026-08-24'
 ---
 

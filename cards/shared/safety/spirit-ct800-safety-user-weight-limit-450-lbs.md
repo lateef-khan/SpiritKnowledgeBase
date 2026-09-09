@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-user-weight-limit-450-lbs
 title: User weight limit of 450 lbs
 kind: spec
-question: What is the user weight limit of a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill?
+question: What is the user weight limit of a Spirit CT800, CT800ENT, CT850, CT850ENT or CT900ENT treadmill?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -30,6 +30,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - ct900ent
   section: safety
   code: '*'
 authority: 3
@@ -40,15 +41,15 @@ not_to_be_confused_with:
 - xt285-2023-user-weight-limit
 - xt385-2023-user-weight-limit
 - xt-2015-safety-no-user-weight-limit-printed
+- ctsbs900-user-weight-limit
 see_also:
 - spirit-ct800-safety-instructions-list
 - ct800ent-2022-safety-instructions-list
 - ct900-user-weight-limit
+- ct900ent-general-safety-warnings
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 3; the CT800 2020 owner's manual prints
-    the same bullet on page 4 and the CT800ENT-2022 owner's manual on page 5. The CT850 owner's
-    manuals print it on page 4 (2016), page 3 (2018), page 4 (2020) and page 5 (ENT-2022)
+  locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 3; the CT800 2020 owner''s manual prints the same bullet on page 4 and the CT800ENT-2022 owner''s manual on page 5. The CT850 owner''s manuals print it on page 4 (2016), page 3 (2018), page 4 (2020) and page 5 (ENT-2022). The CT900ENT owner''s manual prints it on page 3, in the shipping PDF spirit-treadmill-ct900ent-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,6 +64,7 @@ source:
 | CT850 2018 | `Maximum User Weight: 450 lbs` |
 | CT850 2020 | `Maximum User Weight: 450 lbs` |
 | CT850ENT-2022 | `Recommended User Weight Limit: 450 lb` |
+| CT900ENT | `Maximum User Weight: 450 lbs,` |
 
 **The ENT manuals call the same number a recommendation.** The CT800 2016 and 2020 and CT850 2016,
 2018 and 2020 manuals print it as a maximum. The figure is 450 in all three and no manual states what happens above it, so quote 450 lb
@@ -87,6 +89,17 @@ the XT485-2023, XT685-2023, XT685-2015 and XT685ENT
 (`spirit-2026t-safety-user-weight-limit-440-lbs`), and 275, 350 and 375 lbs on the smaller 2023 XT
 machines.
 
-**The Spirit CT900 manual prints the same 450 lb figure** for that machine, filed as a
-specification rather than in the safety section (`ct900-user-weight-limit`). It is a different
-machine's manual; this card is the CT800 statement.
+**The Spirit CT900ENT owner's manual prints the same bullet**, `Maximum User Weight: 450 lbs,`
+on page 3 of its IMPORTANT SAFETY INSTRUCTIONS page, in the same list and the same wording as the
+CT800 2016 and 2020 and CT850 2016, 2018 and 2020 books. It is the same fact and that machine is
+carried here. The trailing comma is the manual's, not a truncated figure - nothing follows it.
+
+**The Spirit CT900 manual prints the same 450 lb figure** for that machine, but as
+`User Weight Limit: 450 lb.`, item 16 of a numbered list rather than a bullet. It is filed as a
+specification rather than in the safety section (`ct900-user-weight-limit`) and is not carried
+here for that reason alone; the figure agrees.
+
+**The Spirit CTSBS900 prints 400 lb, not 450.** Its manual makes the weight limit item 19 of the
+same numbered list, `User Weight Limit: 400 lb.` (`ctsbs900-user-weight-limit`). The CTSBS900 is a
+slat-belt sled treadmill sold alongside the CT900 and the two are easily confused, so never quote
+450 lb for one of them without checking which machine is in front of you.

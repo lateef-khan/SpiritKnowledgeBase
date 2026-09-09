@@ -34,6 +34,7 @@ not_to_be_confused_with:
 - ct850-2016-console-calibration-minimum-speed-0-5
 - ct850-2020-console-calibration-minimum-speed-0-3
 - ct850ent-2022-console-calibration-touchscreen
+- ctsbs900-factory-mode-min-max-speed
 see_also:
 - ct900-engineering-mode-menu
 - ct900-incline-position-mismatch-e33
@@ -69,3 +70,10 @@ section. Nothing on this card is claimed for that machine.
 
 Adjustable ranges for these five values are not printed in any CT800 or CT900 manual. The CT850-2020
 service manual prints them for that machine: `ct850-2020-factory-setting-ranges`.
+
+**The CTSBS900 opens factory settings with the same Start + Speed Up gesture but runs a shorter
+routine.** Its Factory Mode sets units, minimum speed and maximum speed only - there is no wheel
+size step, no maximum elevation step, and no automatic belt run at the end; it finishes with
+FINISHED and CONSOLE RESET. Its maximum speed is also a range, 10.0-15.6 mph / 16.0-25.0 kph, not
+the single 12.0 above. Do not carry any value on this card across to that machine:
+`ctsbs900-factory-mode-min-max-speed`.

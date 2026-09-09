@@ -28,9 +28,11 @@ not_to_be_confused_with: []
 see_also:
 - ct900-treadbelt-tracking-adjustment
 - ct900-treadbelt-off-center-or-hesitates
+- ct900-parts-included-and-tools
+- ct900ent-belt-tension-adjustment
 source:
   ref: ct900-om
-  locator: p. 36
+  locator: 'ct900-om p. 36; the same paragraphs are spirit-treadmill-ct900-owners-manual p. 36'
   extracted_at: '2026-08-24'
 ---
 
@@ -41,3 +43,11 @@ Tighten the rear roller only enough to prevent slippage at the front roller. Tur
 **DO NOT OVER TIGHTEN** - Over tightening will cause belt damage and premature bearing failure. If you tighten the belt a lot and it still slips, the problem could actually be the drive belt - located under the motor cover - that connects the motor to the front roller. If that belt is loose it feels similar to the walking belt being loose. Tightening the motor belt should be done by a trained service person.
 
 If, after this adjustment, the belt is running off-center rather than slipping, see [treadbelt tracking adjustment](treadbelt-tracking-adjustment.md) instead - that is a different bolt/adjustment.
+
+## The 8mm wrench really is in a CT900 box
+
+The CT900's *PARTS INCLUDED* page lists the tools as an **8mm Allen wrench and 2 Phillips
+screwdrivers** (`ct900-parts-included-and-tools`), so the wrench this procedure calls for is the one
+shipped. That is worth stating because it does **not** hold across the range: no CT850 carton ships
+an 8mm Allen wrench even though the CT850 manuals print the same sentence - see the wrench note on
+`ct900ent-belt-tension-adjustment`. Check the bolt head before quoting a size for any other machine.

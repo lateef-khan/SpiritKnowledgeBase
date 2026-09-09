@@ -27,14 +27,16 @@ facets:
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ctsbs900-parts-and-hardware-included
 see_also:
 - ctsbs900-console-screen-overview
 - ctsbs900-parts-and-hardware-included
+- ctsbs900-level-adjustment
 source:
-  ref: ctsbs900-om
-  locator: p. 10
-  extracted_at: '2026-08-24'
+  ref: spirit-treadmill-ctsbs900-owners-manual
+  locator: p. 10, PARTS OF YOUR SLAT BELT SLED TREADMILL
+  extracted_at: '2026-09-09'
 ---
 
 | Label | Part |
@@ -47,5 +49,11 @@ source:
 | F | Running Belt |
 | G | Levelers |
 | H | Hand Pulse Grips |
+
+**These letters are not the carton letters.** The PARTS INCLUDED panel two pages
+earlier also runs A-K, and every letter means something else there - A is the frame
+assembly, E the right handrail tube. See [parts and hardware included](parts-and-hardware-included.md) and read each letter only against the page it is printed on.
+
+**G is the levellers.** To adjust them, see [level adjustment](level-adjustment.md).
 
 For details on the console's individual controls and displays, see [console/console-screen-overview.md](../console/console-screen-overview.md).

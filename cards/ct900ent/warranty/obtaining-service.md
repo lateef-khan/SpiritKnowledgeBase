@@ -24,12 +24,15 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900-warranty-service-claims-process
+- ctsbs900-warranty-service-and-contact
 see_also:
 - ct900ent-warranty-coverage-terms
 source:
   ref: ct900ent-om
-  locator: p. 52
+  locator: 'p. 52. The same six steps are printed in the CT900ENT owner''s manual PDF,
+    spirit-treadmill-ct900ent-owners-manual text.md lines 1178-1200, p. 52'
   extracted_at: '2026-08-24'
 ---
 
@@ -49,3 +52,5 @@ P.O. Box 2037
 Jonesboro, AR 72402-2037
 
 *Product features or specifications as described or illustrated are subject to change without notice. All warranties are made by Spirit Manufacturing, Inc. This warranty applies only in the 48 contiguous United States. NOTE: This does not apply to Alaska or Hawaii.*
+
+**Step 4 here is shorter than the CT900 and CTSBS900 step 4, and the difference costs money.** Those two continue past "preauthorized by Spirit Fitness" to make freight to and from a service center, and shipping and handling on replacement parts, the customer's responsibility. **Neither sentence is printed in this manual.** Do not quote either to a CT900ENT owner - see `ct900-warranty-service-claims-process`, `ctsbs900-warranty-service-and-contact` and `spirit-2026t-warranty-owner-costs`.

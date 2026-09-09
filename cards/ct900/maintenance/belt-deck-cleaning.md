@@ -37,16 +37,17 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ct800-maintenance-belt-deck-cleaning-4000-hours
 - ct900ent-belt-deck-cleaning
+- ctsbs900-lubricating-drive-belt-teeth
 see_also:
 - ct900-belt-tension-adjustment
 - ct900-treadbelt-tracking-adjustment
 - ct900ent-belt-tension-adjustment
 - spirit-ct800-maintenance-schedule-tasks
 - spirit-ct800-assembly-parts-included
+- 40t-2026-maintenance-deck-life-and-flipping
 source:
   ref: ct900-om
-  locator: 'CT900 owner''s manual p. 36; the same two paragraphs are CT800 2012 p.
-    21, CT800 2016 p. 33 and CT850 2018 p. 37'
+  locator: 'CT900 owner''s manual p. 36; the same two paragraphs are CT800 2012 p. 21, CT800 2016 p. 33 and CT850 2018 p. 37; the CT900 page is spirit-treadmill-ct900-owners-manual p. 36'
   extracted_at: '2026-08-24'
 ---
 
@@ -68,6 +69,26 @@ from `spirit-ct800-maintenance-belt-deck-cleaning-4000-hours`, never from this c
 On the CT850 the split is not chronological: **the 2018 manual is the hard wax deck at 20,000
 miles, while the 2016 and 2020 manuals either side of it are the proprietary deck at 4,000 hrs.**
 Read the deck description off the customer's own manual rather than inferring it from the year.
+
+## The CT900 PDF prints a second, contradicting figure on the same page
+
+Page 36 of `spirit-treadmill-ct900-owners-manual` carries a duplicated *GENERAL MAINTENANCE* block
+laid over the manual's own column. That block describes a **"low-friction bed"** rather than a hard
+waxed deck, gives the deck life as **"20,000 kilometers on each side"**, and prints a running
+surface of **56x224cm** - none of which is CT900 content. The 2026 4.0T, 7.0T and 8.0T manuals carry
+the identical block (`40t-2026-maintenance-deck-life-and-flipping` records it there).
+
+**20,000 miles, above, is the figure in the CT900's own text.** Do not quote the kilometre figure
+for a CT900, and do not card the *Belt Dust* or *General Cleaning* paragraphs that ride in with that
+block - they are not printed anywhere in the CT900's own pages. The curated `ct900-om` notes this
+card was written from contain no trace of the overlay.
+
+## A CTSBS900 is the opposite instruction
+
+The Spirit **CTSBS900** slat belt sled treadmill has no wax deck and is the one machine in this
+family that *must* be greased - manufacturer-specified SL-41031, on the belt's toothed surface
+(`ctsbs900-lubricating-drive-belt-teeth`). Never apply that answer to a CT900, and never apply this
+card's "no lubricant or wax" rule to a CTSBS900.
 
 ## "But there was a tube of lubricant in the box"
 

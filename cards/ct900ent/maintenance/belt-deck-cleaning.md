@@ -26,14 +26,17 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ctsbs900-lubricating-drive-belt-teeth
+- spirit-ct800-maintenance-belt-deck-cleaning-4000-hours
 see_also:
+- ct900-belt-deck-cleaning
 - ct900ent-belt-tension-adjustment
 - ct900ent-treadbelt-stops-suddenly-when-tether-pulled
 - ct900ent-trips-20-amp-circuit
 source:
   ref: ct900ent-om
-  locator: p. 45
+  locator: 'ct900ent-om p. 45; confirmed word for word against spirit-treadmill-ct900ent-owners-manual p. 45'
   extracted_at: '2026-08-24'
 ---
 
@@ -44,5 +47,9 @@ A mild soap and water solution along with a nylon scrub brush will clean the top
 The low maintenance (routine monthly cleaning), dual-sided, hard-wax deck is designed to withstand up to **20,000 miles on each side**. If the original side of the deck shows significant wear, it needs to be flipped. Contact your service technician for assistance.
 
 **Do not apply any type of lubricant or wax to the surface.**
+
+The **CTSBS900** in the same family carries the opposite instruction - it is a slat belt sled with no
+wax deck, and greasing the belt's toothed surface is a printed maintenance step
+(`ctsbs900-lubricating-drive-belt-teeth`). Do not carry either rule across.
 
 If the belt starts slipping/friction increases and cleaning doesn't resolve it, this can be a sign the deck needs to be flipped — see [Treadbelt stops quickly/suddenly when tether cord is pulled](../errors/treadbelt-stops-suddenly-when-tether-pulled.md) and [Treadmill trips on board 20 amp circuit](../errors/trips-20-amp-circuit.md).

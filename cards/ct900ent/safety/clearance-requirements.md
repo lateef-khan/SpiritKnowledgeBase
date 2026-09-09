@@ -36,9 +36,11 @@ see_also:
 - ct900ent-general-safety-warnings
 - spirit-ct800-safety-instructions-list
 - ct800ent-2022-safety-placement-and-rear-clearance
+- ct900-clearance-requirements
+- ctsbs900-clearance-requirements
 source:
   ref: ct900ent-om
-  locator: p. 4 The CT800 2016 owner's manual prints the same item on its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and the CT800 2020 owner's manual on its page 5 The CT850 owner's manuals print it on the same page - 2016 page 5, 2018 page 4, 2020 page 5
+  locator: 'p. 4 The CT800 2016 owner''s manual prints the same item on its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and the CT800 2020 owner''s manual on its page 5 The CT850 owner''s manuals print it on the same page - 2016 page 5, 2018 page 4, 2020 page 5. Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, the last bullet of IMPORTANT SAFETY INSTRUCTIONS, page 4, and matches'
   extracted_at: '2026-08-24'
 ---
 
@@ -67,3 +69,9 @@ figures - 0.5 m (19.7 in.) on each side and 1 m (39 in.) behind the machine
 gives only a rear distance - a minimum of 1 metre between the rear of the treadmill and any fixed
 object, with no side figure: `ct800ent-2022-safety-placement-and-rear-clearance`. Quoting 19.7 in.
 for a CT850ENT would be an invention.
+
+**The CT900 and CTSBS900 manuals print the same item word for word**, citing the same standard and
+the same two figures, as item 15 of their numbered SAFETY INSTRUCTIONS list - CT900 page 5,
+CTSBS900 page 5. Those two statements are already carried, but as specifications rather than in
+the safety section: `ct900-clearance-requirements` and `ctsbs900-clearance-requirements`. The
+figures agree with this card in every respect; only the filing differs.

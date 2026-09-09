@@ -76,3 +76,19 @@ answer as well (`ct900ent-motor-unresponsive-after-start`).
 rather than `LS` (`xt-2023-errors-e1-motor-not-responsive`), and several Sole treadmills
 raise an `LS` of their own with a different diagnostic path (`sole-ls-error`). A Sole `LS`
 is not this fault, and `E1` is not this code.
+
+**The CT900 owner's manual prints this same two-way row, but the CT900 is not on this card.**
+`spirit-treadmill-ct900-owners-manual`, TROUBLESHOOTING on printed page 40 (text.md lines
+1317-1318), prints both branches word for word. The CT900 is left out of `applies_to` only
+because the fact is already held for that machine by `ct900-motor-not-responsive-or-wont-start`,
+which is filed under `section: maintenance` with `code: '*'` - so a scope filtered to
+`section: errors` or to `code: low-speed` reaches the CT800 and CT850 answer but not the
+CT900's. Folding the CT900 in belongs with a decision about that card, not with a second copy
+of the row here.
+
+**"No error-code table" is a CT800/CT850 statement, not a Spirit-wide one.** Two other Spirit
+commercial treadmills print this same LS row *and* carry a code table. The CT900 owner's
+manual devotes printed pages 44-48 to ERROR CODES, three of them headed *ERROR CODES - AC
+MOTOR DRIVE INVERTER*; the CTSBS900 owner's manual prints a seventeen-row inverter table on
+printed pages 46-48 (`ctsbs900-le1-inverter-low-voltage` and its siblings). Neither family
+uses `LS`-style codes.
