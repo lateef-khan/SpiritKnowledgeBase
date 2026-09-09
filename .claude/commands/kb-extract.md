@@ -63,16 +63,33 @@ source's model id finds nothing and you write the duplicate anyway.
 Every fact then takes one of three outcomes:
 
 - **No card holds it.** Write a new card, as step 4 describes.
-- **A card holds the same fact.** Extend that card: add this machine to
-  `applies_to`, set `model` to `"*"`, and add the brand to `brand` if it is new.
-  Write no new card. Step 4's rules for the "About several" shape apply in full.
-  Keep the card's `id` — it is the Qdrant point id and never changes, even when
-  the card grows to cover ten machines.
+- **A card of the same brand holds the same fact.** Extend that card: add this
+  machine to `applies_to` and set `model` to `"*"`. Write no new card. Step 4's
+  rules for the "About several" shape apply in full. Keep the card's `id` — it is
+  the Qdrant point id and never changes, even when the card grows to cover ten
+  machines.
+- **A card of a *different* brand holds the same fact.** Write a new card for
+  your brand. **Never add a second brand to an existing card.** A card carries
+  exactly one brand; see "One brand per card" in `CLAUDE.md`. Link the two with
+  `see_also`, or with `not_to_be_confused_with` when the figures differ. Those
+  are pointers, not merges.
 - **A card holds a fact that only looks the same.** Two machines whose torque
   figures, step orders, or part numbers differ hold two different facts. Give
   each its own card and link them with `see_also`.
 
 Extending a card edits a card another PR wrote. That is correct and expected.
+
+**Widening a card does not oblige you to move its file.** The folder is for
+human browsing only; retrieval uses facets. Before moving any card into
+`cards/shared/<section>/`, do both checks:
+
+```bash
+ls cards/shared/<section>/<card-id>.md          # target must not exist
+grep -rn '<the card-id>' cards/ --include='*.md'  # who links to it
+```
+
+If other cards link to it by relative path, **leave the file where it is** and
+say so in the PR. A dangling relative link is invisible to `kb lint`.
 
 You are done with this step when every question from step 3 has one of the three
 outcomes written down.
@@ -95,7 +112,7 @@ Frontmatter rules:
 - `title` — what this card answers, as a phrase.
 - `kind` — one of the values `kb vocab` printed.
 - `question` — the one question this card answers, in plain words. It must name the
-  machine: the model id for a one-machine card, or every brand named in `brand` for a
+  machine: the model id for a one-machine card, or the card's brand for a
   several-machine card. `kb lint`'s `question-names-model` enforces this.
 - `asked_as` — 2 to 4 phrasings a real customer would type. Sloppy, lowercase,
   no jargon.
@@ -108,15 +125,15 @@ Frontmatter rules:
   for every machine — a policy, a warranty term, a company-wide support list.
   Anywhere else, list the real values, because a wrong `"*"` answers every
   question about every product line and nothing filters it back out.
-- `brand` — one or more brand keys from `kb.yaml`'s `models` map. Sorted, no
-  duplicates.
+- `brand` — **exactly one** brand key from `kb.yaml`'s `models` map. `kb lint`
+  accepts a list, but a card that lists two brands is wrong; see "One brand per
+  card" in `CLAUDE.md`.
 - `model` and `applies_to` — a card takes one of three shapes:
   - **About one machine.** `model` is that machine's id and `applies_to` is
     exactly `[that id]`.
   - **About several.** `model` is `"*"` and `applies_to` lists two or more
-    machines, sorted, every one a model of a brand this card lists, and every
-    brand listed contributing at least one machine. A card about exactly one
-    machine must use the first shape.
+    machines, sorted, every one a model of this card's brand. A card about
+    exactly one machine must use the first shape.
   - **About every machine.** `model` is `"*"` and `applies_to` is exactly
     `["*"]`. Reserved for a fact with no product line at all — a policy, a
     warranty term, a company-wide support list. A fact that is merely true of
@@ -125,6 +142,69 @@ Frontmatter rules:
   or anecdote.
 - `source.ref` — `$ARGUMENTS`. `source.locator` — page, line range, or message
   id, enough for a human to check you.
+
+## 4b. Choosing `section`
+
+`kb lint` checks that `section` is a *declared key*. It never checks the
+*value*. A wrong `section` therefore ships green and quietly mis-files the card.
+
+**The section follows the question a person asks, not the component the fact
+mentions.** "How do I calibrate?" is a console question even though calibration
+moves the belt. "The belt will not track" is a maintenance question even though
+you fix it with a wrench.
+
+Settled by what the repository already does. The counts are pre-existing cards:
+
+| Fact about | `section` | Repo |
+|---|---|---|
+| Calibration procedure | `console` | 41 vs 10 `errors` |
+| Engineering / service mode | `console` | 32 vs 1 |
+| Console screen, buttons, Bluetooth, app | `console` | 37 vs 3 |
+| Belt or deck lubrication | `maintenance` | 31 vs 3 |
+| Belt tension figure | `specs` | 43 vs 13 `assembly` |
+| Assembly step, hardware kit, tools | `assembly` | 228 |
+| Warranty period, exclusion, transfer | `warranty` | 118 |
+
+Four topics split roughly evenly in the repository, so precedent cannot settle
+them. **These are rulings, not majorities:**
+
+- **Speed sensor.** The adjustment procedure is `maintenance`. "Calibration
+  fails" or "the speed reads wrong" is `errors`.
+- **Safety key / tether cord.** What it is and why it exists is `safety`. "The
+  machine runs without the key" is `errors`.
+- **Heart rate.** How the console reads a pulse — grips, chest strap, pairing —
+  is `console`. A workout that targets a zone is `programs`.
+- **User weight limit.** `safety`. It is a safety limit and the manuals print it
+  on the safety page, not in a spec table.
+
+For a topic none of the above covers, measure the repository before you guess:
+
+```bash
+grep -rl -i '^title:.*<the topic>' cards/ --include='*.md' \
+  | xargs grep -h '^  section:' | sort | uniq -c | sort -rn
+```
+
+Follow a clear majority. If there is none, pick one, write **one** card, and say
+in the PR body which section you chose and why.
+
+**Two agents must never both own a topic.** When a fact could sit in either of
+two sections, it belongs to whichever section's question a customer would ask,
+and the other section links to it with `see_also`. Never write it twice.
+
+## 4c. How granular is one card
+
+The repository is inconsistent here — safety content for one machine runs to 6
+cards, 8 for another, 18 for a third — so precedent gives no answer.
+
+**One card answers one thing a person would ask.** Not one card per printed
+bullet, and not one card for a whole chapter.
+
+- A numbered procedure whose steps are only meaningful together is **one** card.
+- A list of warnings a reader scans as a unit is **one** card.
+- A figure someone asks for by name — a torque value, a warranty period, a
+  weight limit — is its **own** card, even when it is printed inside a list.
+- A figure that *differs between machines* is always its own card, because a
+  shared card would state the wrong number for some of them.
 
 ## 5. Look-alike identifiers
 
@@ -173,6 +253,8 @@ saying what is ambiguous and why.
 - Answer a question the source does not answer. Absence is information.
 - Change a number, a unit, a part number, or a step order.
 - Write a card that covers two identifiers.
+- Write a card that lists two brands, or add a brand to a card that has one.
+- Write the same fact in two sections because it could belong to either.
 - Reuse an existing `id` for different content.
 
 ## 9. Check yourself
@@ -196,14 +278,30 @@ Adding models to `kb.yaml`'s `models` map does not update the cards that already
 exist. `applies_to` is checked for membership, not completeness, so lint cannot
 tell you which company-wide cards went stale.
 
-Before opening the PR, review **every** card whose `model` is `"*"` and extend
-`applies_to` on the ones that now cover the new machine. Find them with:
+Before opening the PR, review the `model: "*"` cards that could have gone stale
+and extend `applies_to` on the ones that now cover the new machine.
+
+**Only cards of the same brand can go stale.** A card whose `brand` is `[sole]`
+is not made stale by a Spirit machine — it can never cover one, because a card
+carries exactly one brand. Scope the review that way or it is unusable: the
+repository holds over 800 `model: "*"` cards, of which a single-brand,
+single-product-line wave touches a couple of dozen.
 
 ```bash
-grep -rl "^  model: '\*'" cards/
+grep -rl "^  model: '\*'" cards/ \
+  | xargs grep -l "product_line: <this wave's line>" \
+  | xargs grep -l "^  - <this wave's brand>$"
 ```
 
+Capture that list **before** you start writing, so you can tell a pre-existing
+card from one this PR created.
+
+A card whose `applies_to` is the `'*'` sentinel already reaches everything and
+needs no edit.
+
 Say in the PR body which ones you extended and which you deliberately did not.
+"Different platform, different figures" is a good reason not to; say it plainly
+rather than leaving the card unmentioned.
 
 ## 10. Open the PR
 
@@ -228,6 +326,8 @@ GH_REPO=lateef-khan/SpiritKnowledgeBase gh pr create --fill
 - Cards added, and cards changed.
 - **`kb vocab`'s `undeclared_facet_values` block**, verbatim, and why the
   existing values did not fit each one.
+- **Every `section` you had to choose** where section 4b did not settle it, and
+  what the repository count was.
 - **Anything you could not place**, and why.
 - **Every fact that extended an existing card**, and that card's id.
 - **Every fact you kept separate from a look-alike card**, and why.
