@@ -32,6 +32,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-med-stepper-safety-packaging-symbols-and-the-ce-mark
 - spirit-climber-safety-outlet-100-to-240-volt-15-amp
 - ms300-2021-safety-instructions-list
 see_also:
@@ -45,8 +46,10 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**The MS300 is the only Spirit climber manual with a packaging-symbol legend.** It runs over two
-pages at the back of the book.
+**The MS300 is the only Spirit-badged climber manual with a packaging-symbol legend.** It runs over
+two pages at the back of the book. The two MED-badged rehabilitation stepper books print the same
+legend with two of its rows corrected and a CE row added -
+`spirit-med-stepper-safety-packaging-symbols-and-the-ce-mark`.
 
 | Symbol | Legend |
 |---|---|
@@ -77,6 +80,12 @@ treadmill` is a leftover from the template the book was assembled from, as are t
 bullets that call the machine a bike (`ms300-2021-safety-instructions-list`) and the stray `7.0 S` on
 the cover. Nothing in the book describes a running belt.
 
+**The MED book this page came from prints both rows correctly** - `100-240 Volt, 15Amps, 50Hz` and
+`before operating your new 7.0S`. That book is the same machine under another badge, which is what
+makes the two rows here template damage rather than a specification
+(`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`).
+
 **`Type B applied parts` is a real medical classification, not a defect.** It is the IEC 60601-1
 class for parts that touch the patient and need only ordinary electrical protection. It is consistent
-with the rest of the MS300's medical framing, and no other Spirit climber manual declares one.
+with the rest of the MS300's medical framing. The two MED books declare the same class; no other
+Spirit climber manual declares one at all.

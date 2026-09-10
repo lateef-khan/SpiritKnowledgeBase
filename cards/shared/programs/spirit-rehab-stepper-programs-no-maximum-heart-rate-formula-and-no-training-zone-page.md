@@ -24,6 +24,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -38,6 +40,7 @@ not_to_be_confused_with:
 see_also:
 - 85s-2025-programs-heart-rate-target-defaults-to-sixty-five-percent-of-220-minus-age
 - spirit-rehab-stepper-programs-ten-program-keys-including-an-hr-key-no-manual-describes
+- spirit-rehab-stepper-programs-heart-rate-program-asks-for-a-heart-rate-level
 - ct900-rate-of-perceived-exertion-rpe
 source:
   ref: spirit-climber-ms300-2021-owners-manual
@@ -45,9 +48,9 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**None. Four of the five rehabilitation steppers print no heart rate training page at all.**
+**None. Six of the seven rehabilitation stepper manuals print no heart rate training page at all.**
 
-Specifically, the **MS300**, **7.0S** and **7.5S** manuals have:
+Specifically, the **MS300**, the **7.0S** and **7.5S** of 2025 and the two **MED** books have:
 
 - **No maximum heart rate formula.** A loose search of each book for "220" returns only parts-list
   line numbers and an AC supply rating; a search for "maximum heart" returns a single sentence
@@ -62,14 +65,23 @@ The **8.5S** touchscreen manual has none of those three either. Its one heart ra
 Heart Rate Target program's own default - see
 `85s-2025-programs-heart-rate-target-defaults-to-sixty-five-percent-of-220-minus-age`.
 
-**What all four do print** is a chest strap chapter ("Using a heart rate transmitter") and, on the
-three dot matrix machines, an **HR percent bar graph** beside the display marked 50%, 60%, 70%, 80%
+The two **MED-badged** books - the 7.0S and 7.5S of 2021 - print none of the three either. Their
+chapter *Using a heart rate transmitter* runs to a chest strap, an interference list and a Heart
+Rate program, and stops there.
+
+**What all of them do print** is a chest strap chapter ("Using a heart rate transmitter") and, on
+the dot matrix machines, an **HR percent bar graph** beside the display marked 50%, 60%, 70%, 80%
 and 90%, with the note *"Enter the correct age in Set Up for the Bar Graph to be accurate."* That is
 the whole of it.
+
+**A heart rate level is not a training zone.** The HR program asks the operator to *"adjust the
+Heart rate Level"* and gives no number, no percentage and no default -
+`spirit-rehab-stepper-programs-heart-rate-program-asks-for-a-heart-rate-level`. A caller asking
+"what should I set it to?" is asking something these books do not answer.
 
 **The 8.5S-Fit is the exception in this family** and does print the page, recommending **65% and
 85%** - see
 `85s-fit-2026-programs-target-zone-computed-as-117-and-153-but-printed-117-to-144`.
 
-**Do not answer a heart rate question for these four machines from a Spirit stepper card.** The
+**Do not answer a heart rate question for these six machines from a Spirit stepper card.** The
 CS800 and CRS800S print 60% and 85% and a 108-to-153 zone; none of that is in these books.

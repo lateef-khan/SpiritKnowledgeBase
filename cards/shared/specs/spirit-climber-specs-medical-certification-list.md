@@ -27,6 +27,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -50,13 +52,15 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**Four of the five print a certification list. The 8.5S-FIT prints none.**
+**Six of the seven print a certification list. The 8.5S-FIT prints none.**
 
 | Machine | European route | What else is listed |
 |---|---|---|
 | **8.5S-2025** | **EU MDR 2017/745 Class I** | CAN/CSA-C22.2 No. 60601-1:14, ANSI/AAMI ES60601-1:2005+A2 (R2012)+A1, IEC 60601-1-2:2014, EN 60601-1-2:2015, IEC 60601-1:2015+A1:2012, EN 60601-1:2006+A1:2013+A12:2014, **EN ISO 20957-1**, **EN ISO 20957-8**, ISO 14971:2012 |
 | **7.0S-2025** | **MDD 93/42/EEC Class Im** | CAN/CSA-C22.2 No. 60601-1:14, ANS/AAMI ES60601-1:2005+A2 (R2012)+A1, IEC 60601-1-2:2007, EN 60601-1-2:2007, IEC 60601-1:2005, EN 60601-1:2006+A11+A12, EN ISO 20957:2013, ISO 14971:2012 |
 | **7.5S-2025** | **MDD 93/42/EEC Class Im** | the same list, word for word |
+| **7.0S MED-2021** | **MDD 93/42/EEC Class Im**, with a **CE 0123** mark beside it | the same list as the 2025 7.0S, but writing CAN/**CAS**-C22.2 as the MS300 does |
+| **7.5S MED-2021** | the same, word for word | the same list |
 | **MS300-2021** | not listed | CAN/CAS-C22.2 No. 60601-1:14, ANS/AAMI ES60601-1:2005+A2 (R2012)+A1, IEC 60601-1-2:2007, EN 60601-1-2:2007, IEC 60601-1:2005, EN 60601-1:2006+A11+A12, plus a classification line |
 | **8.5S-FIT-2026** | **none printed** | **none printed** |
 
@@ -67,16 +71,36 @@ under two different regimes, and their IEC 60601-1-2 editions differ by seven
 years - 2014 against 2007. **Quote each machine's own block; do not modernise the
 7.0S's.**
 
+## The two MED books add a notified body number and a European representative
+
+Theirs is the only certification block in the family that carries the **CE mark with `0123`
+underneath it**, and the only one followed by a second manufacturer block:
+
+> **Dyaco Europe GMBH**, Friedrich-Ebert-Straße 75, 51429 Bergisch Gladbach, Germany.
+> TEL: +49 (0) 2204 844300
+
+against an authorised-representative symbol. The same **CE 0123 / MDD 93/42/EEC Class Im** row is
+repeated on their packaging-symbol page -
+`spirit-med-stepper-safety-packaging-symbols-and-the-ce-mark`. **That is the European conformity
+route stated in full**, where the Spirit-badged 7.0S and 7.5S cite the directive and stop.
+
+They also spell it **`CAN/CAS-C22.2`** rather than `CAN/CSA`, the same transposition the MS300
+makes. `CSA` is the Canadian Standards Association; read `CAS` as a typo in all three books.
+
 ## The MS300 adds a device classification the others do not
 
-Its page carries a sentence the rest omit:
+Its page carries a sentence the other six omit:
 
 > Class II measuring, Type BF, ordinary equipment, continuous operation. This
 > product is classed as ordinary equipment according to IEC/EN/UL60601-1 and is
 > **NOT protected against the ingress of water**.
 
 That last clause is the useful one for a service answer: there is no IP rating
-and the machine must not be washed down.
+and the machine must not be washed down. **The MED books say the same thing on
+their electrical page instead** - *"The 7.0S is not protected against the ingress
+of water or particulate matter"* and *"is not suitable for use in an oxygen rich
+environment"* - so the fact holds for those two machines as well, from a different
+page.
 
 ## The 8.5S-FIT is the fitness variant and its book shows it
 

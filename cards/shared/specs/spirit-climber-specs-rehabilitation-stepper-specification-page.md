@@ -27,6 +27,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -55,8 +57,9 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**Five Spirit rehabilitation recumbent steppers print a specification page. No
-other Spirit stepper, stair climber or vertical climber prints one at all** - see
+**Seven Spirit rehabilitation recumbent stepper manuals print a specification
+page. No other Spirit stepper, stair climber or vertical climber prints one at
+all** - see
 `spirit-climber-specs-no-specification-table`, which covers eleven machines that
 do not.
 
@@ -64,21 +67,21 @@ The page is headed `SPECIFICATIONS` and carries, in some order:
 
 | Row | Printed on |
 |---|---|
-| **Dimensions** - length, width, height | all five |
-| **Weight** or **Product weight** | four; the 8.5S-FIT prints the heading and no figure |
-| **Patient weight capacity** | all five, 440 lb (200 kg) on every one |
-| **Work load** in watts | all five |
-| **Resistance** - the type and the level count | all five |
-| **Input power** or **Power supply** | all five |
-| **Fuse rating** | all five |
-| **External power supply** - a named Sinpro part | the MS300, 7.0S and 7.5S only |
-| **Readouts** - what the console can show | the MS300, 7.0S and 7.5S only |
-| **Disposal** | the MS300 and 7.5S only |
-| **Certifications** | four; the 8.5S-FIT prints none |
-| **Manufacturer** - Dyaco International Inc., Changhua County, Taiwan | all five |
+| **Dimensions** - length, width, height | all seven |
+| **Weight** or **Product weight** | six; the 8.5S-FIT prints the heading and no figure |
+| **Patient weight capacity** | all seven, 440 lb (200 kg) on every one |
+| **Work load** in watts | all seven |
+| **Resistance** - the type and the level count | all seven |
+| **Input power** or **Power supply** | all seven |
+| **Fuse rating** | all seven |
+| **External power supply** - a named Sinpro part | the MS300, the 2025 7.0S and 7.5S, and both MED books |
+| **Readouts** - what the console can show | the MS300, the 2025 7.0S and 7.5S, and both MED books |
+| **Disposal** | the MS300, the 2025 7.5S and both MED books |
+| **Certifications** | six; the 8.5S-FIT prints none |
+| **Manufacturer** - Dyaco International Inc., Changhua County, Taiwan | all seven; the two MED books add a Dyaco Europe GmbH authorised representative |
 
 **No shipping weight, no carton size, no flywheel weight, no step height and no
-seat travel** is printed on any of the five. Those still have to come from Spirit
+seat travel** is printed on any of the seven. Those still have to come from Spirit
 Fitness.
 
 ## Two things on the page are wrong as printed
@@ -113,14 +116,18 @@ asks for.
 
 ## The manufacturer row names Dyaco, and these are still Spirit machines
 
-All five pages give the manufacturer as **Dyaco International Inc., No.1, Gong 1st
-Rd., Hemei Township, Changhua County 50843, Taiwan**. Every one of the five books
-is Spirit-branded - the cover reads `SPIRIT powered by dyaco`, the support line is
+All seven pages give the manufacturer as **Dyaco International Inc., No.1, Gong 1st
+Rd., Hemei Township, Changhua County 50843, Taiwan**. Five of the seven books are
+Spirit-branded - the cover reads `SPIRIT powered by dyaco`, the support line is
 Spirit Fitness's, and the warranty is Spirit Fitness's. **A Dyaco address in the
 manufacturer row is not evidence that the machine is a Dyaco product**, and these
 cards are Spirit cards.
 
-There are separate, genuinely Dyaco-branded `7.0S` and `7.5S` rehabilitation
-manuals that are **not** these machines and are not in this repository. If a
-document says "Dyaco" and never says "Spirit", it is one of those; nothing in it
-belongs on a Spirit card.
+**The other two are the MED-badged `7.0S` and `7.5S` books**, which say Dyaco
+throughout and never say Spirit. They are carded here as Spirit machines all the
+same, on the owner's ruling that only a manual saying XTERRA is a different brand.
+Their specification pages add a second manufacturer block - **Dyaco Europe GmbH,
+Friedrich-Ebert-Straße 75, 51429 Bergisch Gladbach, Germany, +49 (0) 2204 844300**,
+against an authorised-representative symbol - which no Spirit-badged book prints.
+The MED 7.0S's page is the MS300's, figure for figure; see
+`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`.

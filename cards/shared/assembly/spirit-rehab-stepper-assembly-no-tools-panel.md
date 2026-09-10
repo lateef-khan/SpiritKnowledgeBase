@@ -26,6 +26,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -106,3 +108,12 @@ a 13/14mm wrench and a Phillips screwdriver before you start.
 The setting-up page calls for a **½" wrench** and the maintenance page for a **14mm
 wrench**, and no panel says either is in the carton. See
 [the levelling card](spirit-85s-assembly-levelling-glides-by-hand.md).
+
+## The two MED books are the MS300's case again
+
+Neither prints a TOOLS INCLUDED panel, and neither prints a PRE-ASSEMBLY page: **the word "tool"
+does not occur anywhere in either book**, across 72 and 75 pages. They supply the same six numbered
+rows as the 7.0S and 7.5S - 209 to 214 - and the MED 7.5S adds **208, L Allen Wrench (6 x 27 x
+120L)**, exactly as the 2025 7.5S does. What is in each step's hardware panel is carded separately:
+`spirit-rehab-stepper-assembly-hardware-panels-for-the-four-steps` and
+`7-5s-med-assembly-hardware-panels-for-the-four-steps`.

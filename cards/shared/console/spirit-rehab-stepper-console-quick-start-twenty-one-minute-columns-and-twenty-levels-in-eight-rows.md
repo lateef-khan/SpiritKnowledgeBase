@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -66,4 +68,4 @@ residential and commercial books
 level.
 
 **The MS300-2021 says "The unit will get harder to pedal"**; the 2025 books name the machine, "The
-7.0S" and "The 7.5S". Nothing else in the section differs across the three.
+7.0S" and "The 7.5S". Nothing else in the section differs across the five, the two MED books included.

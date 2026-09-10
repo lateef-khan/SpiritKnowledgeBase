@@ -24,6 +24,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -76,7 +78,7 @@ adding your facility name.**
 
 *The last bullet of the build sequence is printed as "During the **facility** program you will be
 able to scroll through the data in the message window by pressing the enter key" - on a machine
-whose keys are labelled User 1 and User 2. All three books print it that way; recorded as printed.*
+whose keys are labelled User 1 and User 2. All five books print it that way; recorded as printed.*
 
 **These manuals never say how many characters the name may hold.** The Spirit steppers cap it at
 seven; these books give no figure and none should be carried across.

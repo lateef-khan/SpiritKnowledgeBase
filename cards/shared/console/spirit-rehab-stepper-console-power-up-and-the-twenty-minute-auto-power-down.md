@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -62,7 +64,7 @@ maintenance menu carries a **Sleep mode - on** entry with no timeout figure atta
 connects the two
 (`spirit-rehab-stepper-console-maintenance-menu-with-a-five-window-sensor-test`).
 
-**"Always disconnect the main power when the machine is not in use."** All three books print that
+**"Always disconnect the main power when the machine is not in use."** All five books print that
 sentence in the same paragraph, which is the opposite of the CS800's advice that it is perfectly fine
 to leave the main power switch on in sleep mode.
 

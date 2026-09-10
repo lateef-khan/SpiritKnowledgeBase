@@ -26,6 +26,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -47,7 +49,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-| Row | Printed on all three |
+| Row | Printed on all five |
 |---|---|
 | Input power | **12 VDC, 2.74 Amps** |
 | External power supply | **Sinpro model # HPU32A-105, 30 watt power supply** |
@@ -76,7 +78,7 @@ order a Sinpro adapter for an 8.5S.**
 
 ## These three have no fuse a user can change
 
-All three print **`Fuse rating / No user replaceable fuse`**. See
+All five print **`Fuse rating / No user replaceable fuse`**. See
 `spirit-climber-specs-fuse-rating`, which holds both halves of that question.
 
 ## The outlet and circuit are a safety question
