@@ -2,7 +2,7 @@
 id: f85-software-2-0-to-2-4-update
 title: Console locks on update 2 of 2
 kind: procedure
-question: How do I get my Sole F85 (585820) past the 2.0 to 2.4 update lock?
+question: How do I get my Sole F85 past the 2.0 to 2.4 update lock?
 asked_as:
 - console says update 2 of 2 and is stuck
 - treadmill locked during a software update
@@ -11,7 +11,6 @@ keywords:
 - 2.0 to 2.4
 - update 2 of 2
 - forget wifi
-- '585820'
 - bluetooth
 facets:
   brand:
@@ -27,13 +26,14 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - sole-update-software-touchscreen
+- f85-model-numbers
 source:
   ref: sole-tm-f85-585820-2-0-to-2-4-update
   locator: whole document
   extracted_at: '2026-09-03'
 ---
 
-Applies to the F85, SKU 585820, which is called both the 2020 and the 2021 machine. Updating from 2.0 to 2.4 locks the console with a message saying it needs update 2 of 2.
+Applies to the F85 that is called both the 2020 and the 2021 machine; its model number is not confirmed, see the F85 model card, `f85-model-numbers`. Updating from 2.0 to 2.4 locks the console with a message saying it needs update 2 of 2.
 
 **To clear the lock**
 

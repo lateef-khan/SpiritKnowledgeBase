@@ -2,13 +2,12 @@
 id: f85-2023-wiring
 title: Wiring and part numbers for the 2023 F85
 kind: spec
-question: How is the F85-2023 (585822) wired?
+question: How is the F85-2023 wired?
 asked_as:
 - wiring diagram for the 2023 f85
 - which parts are in the f85 power path
 keywords:
 - wiring diagram
-- '585822'
 - rear incline controller
 - filter
 - computer cables
@@ -28,13 +27,14 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - sole-start-button-grayed-2023
+- f85-model-numbers
 source:
   ref: sole-tm-f85-585822-2023-wiring-diagram
   locator: whole document
   extracted_at: '2026-09-03'
 ---
 
-Model 585822. Full serial prefix seen in the source: 5858222401010453.
+Full serial prefix seen in the source: 5858222401010453. The model number is on the F85 model card, `f85-model-numbers`.
 
 **Power path**
 

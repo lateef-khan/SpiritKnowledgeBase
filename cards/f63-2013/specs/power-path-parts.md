@@ -2,13 +2,12 @@
 id: f63-2013-power-path-parts
 title: Power path parts for the 2013 F63
 kind: spec
-question: What are the power path part numbers for the F63-2013 (563812)?
+question: What are the power path part numbers for the F63-2013?
 asked_as:
 - part numbers for my 2013 treadmill
 - which computer cable does the 2013 model use
 keywords:
 - parts diagram
-- '563812'
 - power cord
 - breaker
 - computer cables
@@ -28,13 +27,14 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - sole-power-wiring
+- f63-model-numbers
 source:
   ref: sole-tm-f63-2013-563812-parts-diagram
   locator: whole document
   extracted_at: '2026-09-03'
 ---
 
-Model 563812. AC switch to controller path.
+AC switch to controller path, from the parts diagram for the 2013 F63. The model number is on the F63 model card, `f63-model-numbers`.
 
 | Item | Ref | Part number | Notes |
 |---|---|---|---|

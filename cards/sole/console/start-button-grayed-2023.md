@@ -11,7 +11,6 @@ keywords:
 - rear incline controller
 - touchscreen
 - will not start
-- '588822'
 facets:
   brand:
   - sole
@@ -27,13 +26,16 @@ authority: 2
 not_to_be_confused_with: []
 see_also:
 - f85-2023-wiring
+- f85-model-numbers
+- f89-model-numbers
+- tt8-model-numbers
 source:
   ref: sole-tm-f85-f89-tt8-585822-589822-588822-start-button-grayed
   locator: whole document
   extracted_at: '2026-09-03'
 ---
 
-Applies to the 2023 F85 (585822), F89 (589822) and TT8 (588822).
+Applies to the 2023 F85, F89 and TT8. Their model numbers are on the F85, F89 and TT8 model cards.
 
 Check the wiring on the rear incline controller first. **If that does not fix it, replace the rear incline controller.**
 
