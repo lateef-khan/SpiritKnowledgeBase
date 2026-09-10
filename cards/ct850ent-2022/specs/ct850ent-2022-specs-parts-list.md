@@ -29,7 +29,8 @@ facets:
   - ct850ent-2022
   section: specs
   code: '*'
-  model_number: '850852'
+  model_number:
+  - '850852'
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-specs-parts-list

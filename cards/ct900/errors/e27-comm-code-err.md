@@ -20,7 +20,8 @@ facets:
   - ct900
   section: errors
   code: e27
-  model_number: '900825'
+  model_number:
+  - '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-e30-comm-cmd-err

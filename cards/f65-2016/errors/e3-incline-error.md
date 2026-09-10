@@ -25,7 +25,8 @@ facets:
   - f65-2016
   section: errors
   code: e3
-  model_number: '565816'
+  model_number:
+  - '565816'
 authority: 3
 not_to_be_confused_with:
 - f65-2016-e2-over-current

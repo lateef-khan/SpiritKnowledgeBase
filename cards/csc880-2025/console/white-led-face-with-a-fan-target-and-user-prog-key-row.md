@@ -28,7 +28,8 @@ facets:
   - csc880-2025
   section: console
   code: '*'
-  model_number: '880665'
+  model_number:
+  - '880665'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-console-screen-overview

@@ -28,7 +28,8 @@ facets:
   - jb950-2022
   section: console
   code: '*'
-  model_number: '950348'
+  model_number:
+  - '950348'
 authority: 3
 not_to_be_confused_with: []
 see_also:

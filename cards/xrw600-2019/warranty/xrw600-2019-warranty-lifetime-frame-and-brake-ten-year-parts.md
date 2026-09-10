@@ -28,7 +28,8 @@ facets:
   - xrw600-2019
   section: warranty
   code: '*'
-  model_number: '600976'
+  model_number:
+  - '600976'
 authority: 3
 not_to_be_confused_with:
 - xrw600-2021-warranty-no-brake-column-ten-year-parts

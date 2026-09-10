@@ -28,7 +28,8 @@ facets:
   - cic800-2021
   section: assembly
   code: '*'
-  model_number: '800390'
+  model_number:
+  - '800390'
 authority: 3
 not_to_be_confused_with:
 - cic850-2022-assembly-procedure

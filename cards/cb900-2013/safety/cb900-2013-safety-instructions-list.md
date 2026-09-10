@@ -30,7 +30,8 @@ facets:
   - cb900-2013
   section: safety
   code: '*'
-  model_number: '900111'
+  model_number:
+  - '900111'
 authority: 3
 not_to_be_confused_with:
 - spirit-xic600-safety-instructions-list

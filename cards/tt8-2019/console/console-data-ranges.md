@@ -27,7 +27,8 @@ facets:
   - tt8-2019
   section: console
   code: '*'
-  model_number: '588818'
+  model_number:
+  - '588818'
 authority: 3
 not_to_be_confused_with:
 - tt8-2019-ac-console-data-ranges

@@ -17,7 +17,8 @@ facets:
   - xt285-2015
   section: console
   code: '*'
-  model_number: '285815'
+  model_number:
+  - '285815'
 keywords:
 - console layout
 - console overview

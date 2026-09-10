@@ -29,7 +29,8 @@ facets:
   - ab950-2024
   section: safety
   code: '*'
-  model_number: '950744'
+  model_number:
+  - '950744'
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-2024-2025-safety-product-labels

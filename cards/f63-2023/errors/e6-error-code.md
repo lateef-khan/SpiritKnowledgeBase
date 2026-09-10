@@ -24,7 +24,8 @@ facets:
   - f63-2023
   section: errors
   code: e6
-  model_number: '563822'
+  model_number:
+  - '563822'
 authority: 3
 not_to_be_confused_with:
 - f63-2023-e0-error-code

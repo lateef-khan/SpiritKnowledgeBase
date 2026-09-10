@@ -26,7 +26,8 @@ facets:
   - tt8-2019
   section: errors
   code: '*'
-  model_number: '588818'
+  model_number:
+  - '588818'
 authority: 3
 not_to_be_confused_with:
 - tt8-2019-ac-incline-vr-test-procedure

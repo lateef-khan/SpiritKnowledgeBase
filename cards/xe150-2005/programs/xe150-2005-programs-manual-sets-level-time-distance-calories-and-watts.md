@@ -26,7 +26,8 @@ facets:
   - xe150-2005
   section: programs
   code: '*'
-  model_number: '150005'
+  model_number:
+  - '150005'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce-programs-manual-mode

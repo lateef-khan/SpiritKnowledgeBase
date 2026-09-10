@@ -25,7 +25,8 @@ facets:
   - cu800-2012
   section: programs
   code: '*'
-  model_number: '800343'
+  model_number:
+  - '800343'
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-programs-wearing-the-chest-strap

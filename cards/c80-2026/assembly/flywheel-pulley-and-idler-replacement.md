@@ -26,7 +26,8 @@ facets:
   - c80-2026
   section: assembly
   code: '*'
-  model_number: '580996'
+  model_number:
+  - '580996'
 authority: 3
 not_to_be_confused_with: []
 see_also:

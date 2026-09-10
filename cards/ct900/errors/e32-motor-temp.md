@@ -20,7 +20,8 @@ facets:
   - ct900
   section: errors
   code: e32
-  model_number: '900825'
+  model_number:
+  - '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-e3-igbt-over-temp

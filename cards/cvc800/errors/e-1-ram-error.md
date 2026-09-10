@@ -25,7 +25,8 @@ facets:
   - cvc800
   section: errors
   code: e1
-  model_number: '800440'
+  model_number:
+  - '800440'
 authority: 3
 not_to_be_confused_with:
 - cvc800-e-2-tension-motor-error

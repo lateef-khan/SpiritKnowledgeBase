@@ -26,7 +26,8 @@ facets:
   - ct850-2016
   section: errors
   code: incline-err
-  model_number: '850845'
+  model_number:
+  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-incline-err-vr-out-of-range

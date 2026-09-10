@@ -24,7 +24,8 @@ facets:
   - f80-2023
   section: errors
   code: safety-key
-  model_number: '580822'
+  model_number:
+  - '580822'
 authority: 3
 not_to_be_confused_with:
 - f65-2023-e1-no-rpm-signal

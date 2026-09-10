@@ -25,7 +25,8 @@ facets:
   - csc900-2024
   section: errors
   code: er11
-  model_number: '900665'
+  model_number:
+  - '900665'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-errors-er12-console-not-receiving-controller-data

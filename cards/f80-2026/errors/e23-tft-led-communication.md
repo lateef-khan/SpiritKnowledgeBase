@@ -25,7 +25,8 @@ facets:
   - f80-2026
   section: errors
   code: e23
-  model_number: '580286'
+  model_number:
+  - '580286'
 authority: 3
 not_to_be_confused_with:
 - f80-2026-e22-led-control-board-communication

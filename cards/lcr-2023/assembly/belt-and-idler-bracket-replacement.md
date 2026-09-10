@@ -25,7 +25,8 @@ facets:
   - lcr-2023
   section: assembly
   code: '*'
-  model_number: '522122'
+  model_number:
+  - '522122'
 authority: 3
 not_to_be_confused_with: []
 see_also:

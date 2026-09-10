@@ -23,7 +23,8 @@ facets:
   - f63-2023
   section: errors
   code: '*'
-  model_number: '563822'
+  model_number:
+  - '563822'
 authority: 3
 not_to_be_confused_with: []
 see_also:

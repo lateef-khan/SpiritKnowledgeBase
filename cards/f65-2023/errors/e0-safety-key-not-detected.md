@@ -24,7 +24,8 @@ facets:
   - f65-2023
   section: errors
   code: e0
-  model_number: '565822'
+  model_number:
+  - '565822'
 authority: 3
 not_to_be_confused_with:
 - f65-2023-e1-no-rpm-signal

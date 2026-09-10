@@ -25,7 +25,8 @@ facets:
   - tt8-2023
   section: errors
   code: e3
-  model_number: '588822'
+  model_number:
+  - '588822'
 authority: 3
 not_to_be_confused_with:
 - tt8-2023-safety-key-message

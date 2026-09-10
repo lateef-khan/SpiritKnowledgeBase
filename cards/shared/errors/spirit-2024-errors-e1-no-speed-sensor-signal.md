@@ -25,7 +25,8 @@ facets:
   - ct800-2024
   section: errors
   code: e1
-  model_number: '800825'
+  model_number:
+  - '800825'
 authority: 3
 not_to_be_confused_with:
 - spirit-2024-errors-e1-drive-motor-no-output-signal

@@ -24,7 +24,8 @@ facets:
   - lcb-2023
   section: maintenance
   code: '*'
-  model_number: '511122'
+  model_number:
+  - '511122'
 authority: 3
 not_to_be_confused_with: []
 see_also:

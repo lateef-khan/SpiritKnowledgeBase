@@ -21,7 +21,8 @@ facets:
   - ct900
   section: errors
   code: inc1
-  model_number: '900825'
+  model_number:
+  - '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-inc2-up-down-loss

@@ -27,7 +27,8 @@ facets:
   - f65-2023
   section: console
   code: '*'
-  model_number: '565822'
+  model_number:
+  - '565822'
 authority: 3
 not_to_be_confused_with: []
 see_also:

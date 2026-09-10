@@ -25,7 +25,8 @@ facets:
   - 85ue-2025
   section: programs
   code: '*'
-  model_number: '785045'
+  model_number:
+  - '785045'
 authority: 3
 not_to_be_confused_with:
 - spirit-touchscreen-rehab-stepper-programs-calories-and-steps-targets-end-the-workout

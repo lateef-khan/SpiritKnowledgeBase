@@ -25,7 +25,8 @@ facets:
   - f65-2019
   section: assembly
   code: '*'
-  model_number: '565818'
+  model_number:
+  - '565818'
 authority: 3
 not_to_be_confused_with: []
 see_also:

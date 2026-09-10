@@ -27,6 +27,7 @@ facets:
     index: keyword
   model_number:
     index: keyword
+    array: true
     optional: true
 
 models:

@@ -25,7 +25,8 @@ facets:
   - sb1200-2023
   section: errors
   code: eeprom-err
-  model_number: '512322'
+  model_number:
+  - '512322'
 authority: 3
 not_to_be_confused_with:
 - sb1200-2023-lwr-not-found

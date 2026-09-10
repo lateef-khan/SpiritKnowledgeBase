@@ -141,6 +141,32 @@ def test_optional_facet_still_checks_its_value():
     assert errors == []
 
 
+ARRAY_CONFIG = replace(
+    CONFIG,
+    facets=dict(CONFIG.facets, model_number=FacetSpec(index="keyword", array=True, values=(), optional=True)),
+)
+
+
+def test_optional_array_facet_may_hold_several_values():
+    """A machine sold in two colours has two SKUs, and both belong on the card."""
+    errors = lint_cards(
+        [make(facets=GOOD_FACETS + "\n  model_number: ['720080', '720087']")], ARRAY_CONFIG, {"src-1"}
+    )
+    assert errors == []
+
+
+def test_optional_array_facet_may_be_omitted():
+    errors = lint_cards([make()], ARRAY_CONFIG, {"src-1"})
+    assert errors == []
+
+
+def test_unquoted_number_in_an_array_facet_is_reported():
+    errors = lint_cards(
+        [make(facets=GOOD_FACETS + "\n  model_number: ['720080', 720087]")], ARRAY_CONFIG, {"src-1"}
+    )
+    assert "non-string-facet" in slugs(errors)
+
+
 def test_unquoted_number_in_a_keyword_facet_is_reported():
     """YAML reads an unquoted 585818 as an int, which no string filter can match."""
     errors = lint_cards(

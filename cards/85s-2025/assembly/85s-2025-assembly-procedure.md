@@ -27,7 +27,8 @@ facets:
   - 85s-2025
   section: assembly
   code: '*'
-  model_number: '785545'
+  model_number:
+  - '785545'
 authority: 3
 not_to_be_confused_with:
 - 85s-fit-2026-assembly-procedure

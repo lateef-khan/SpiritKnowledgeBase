@@ -25,7 +25,8 @@ facets:
   - e25-2019
   section: errors
   code: e3
-  model_number: '525018'
+  model_number:
+  - '525018'
 authority: 3
 not_to_be_confused_with:
 - e25-2016-e1-eeprom-failure

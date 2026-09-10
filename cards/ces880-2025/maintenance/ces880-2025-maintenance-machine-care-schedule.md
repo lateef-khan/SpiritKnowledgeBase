@@ -28,7 +28,8 @@ facets:
   - ces880-2025
   section: maintenance
   code: '*'
-  model_number: '880025'
+  model_number:
+  - '880025'
 authority: 3
 not_to_be_confused_with:
 - ce900-2025-maintenance-machine-care-schedule

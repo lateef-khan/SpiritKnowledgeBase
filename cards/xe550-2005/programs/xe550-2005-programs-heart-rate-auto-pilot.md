@@ -25,7 +25,8 @@ facets:
   - xe550-2005
   section: programs
   code: '*'
-  model_number: '550005'
+  model_number:
+  - '550005'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-programs-hr-auto-pilot

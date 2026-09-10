@@ -26,7 +26,8 @@ facets:
   - jb950-2022
   section: programs
   code: '*'
-  model_number: '950348'
+  model_number:
+  - '950348'
 authority: 3
 not_to_be_confused_with:
 - cu800-2012-programs-target-zone-of-108-to-144-beats

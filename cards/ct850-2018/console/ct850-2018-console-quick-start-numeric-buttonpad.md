@@ -27,7 +27,8 @@ facets:
   - ct850-2018
   section: console
   code: '*'
-  model_number: '850845'
+  model_number:
+  - '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct850-console-quick-start-speed-keys-1-to-15

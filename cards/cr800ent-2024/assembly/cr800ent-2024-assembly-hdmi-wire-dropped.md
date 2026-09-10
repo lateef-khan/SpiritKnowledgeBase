@@ -28,7 +28,8 @@ facets:
   - cr800ent-2024
   section: assembly
   code: '*'
-  model_number: '800165'
+  model_number:
+  - '800165'
 authority: 3
 not_to_be_confused_with: []
 see_also:

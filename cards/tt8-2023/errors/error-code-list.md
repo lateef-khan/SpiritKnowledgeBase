@@ -25,7 +25,8 @@ facets:
   - tt8-2023
   section: errors
   code: '*'
-  model_number: '588822'
+  model_number:
+  - '588822'
 authority: 3
 not_to_be_confused_with: []
 see_also:

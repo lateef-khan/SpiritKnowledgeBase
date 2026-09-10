@@ -24,7 +24,8 @@ facets:
   - f83-2026
   section: errors
   code: e22
-  model_number: '583826'
+  model_number:
+  - '583826'
 authority: 3
 not_to_be_confused_with:
 - f83-2026-e23-error-code

@@ -28,7 +28,8 @@ facets:
   - xt685ent-2023
   section: specs
   code: '*'
-  model_number: '685523'
+  model_number:
+  - '685523'
 authority: 3
 not_to_be_confused_with:
 - xt685-2023-parts-list

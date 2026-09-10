@@ -27,7 +27,8 @@ facets:
   - xbr25-2023
   section: assembly
   code: '*'
-  model_number: '251123'
+  model_number:
+  - '251123'
 authority: 3
 not_to_be_confused_with:
 - xbr25-2019-assembly-procedure

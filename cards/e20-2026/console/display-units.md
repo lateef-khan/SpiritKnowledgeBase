@@ -25,7 +25,8 @@ facets:
   - e20-2026
   section: console
   code: '*'
-  model_number: '520026'
+  model_number:
+  - '520026'
 authority: 3
 not_to_be_confused_with:
 - e20-2026-sleep-mode

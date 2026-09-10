@@ -22,7 +22,8 @@ facets:
   - f85-2023
   section: specs
   code: '*'
-  model_number: '585822'
+  model_number:
+  - '585822'
 authority: 2
 not_to_be_confused_with: []
 see_also:
