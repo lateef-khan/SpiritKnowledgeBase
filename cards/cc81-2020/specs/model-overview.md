@@ -33,6 +33,7 @@ see_also:
 - cc81-2020-model-number
 - cc81-2020-tension-motor-spec
 - cc81-2020-part-names
+- cc81-model-numbers
 source:
   ref: sole-climber-cc81-2020-service-manual
   locator: "Cover page, Section 2 Electronic Parts, Section 3 Electrical Configurations and Section 4-1 Display Windows"
@@ -41,7 +42,6 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **581519** |
 | Model year | 2020 |
 | Code on the service manual cover | XS500-YP002 |
 | Manual publisher | Dyaco International Inc. |
@@ -53,4 +53,4 @@ source:
 
 The manual describes the console as the "interface that controls all functions of the climber".
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code. Neither one prints the model year; see the card `cc81-2020-model-number` for where the year comes from and why the SKU suffix does not give it.
+The manual prints only the factory code. The model number is on the CC81 model card, `cc81-model-numbers`. Neither one prints the model year; see the card `cc81-2020-model-number` for where the year comes from and why the SKU suffix does not give it.

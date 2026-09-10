@@ -34,6 +34,7 @@ not_to_be_confused_with: []
 see_also:
 - sole-bike-service-manual-model-numbers
 - sole-bike-ems-brake-spec
+- lcr-model-numbers
 source:
   ref: sole-bike-lcr-2023-service-manual
   locator: Cover page, Section 3 Electrical Configurations and Section 4 Product Operation
@@ -42,7 +43,6 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **522122** |
 | Code on the service manual cover | SR625A-SB026 |
 | Product name on the cover | ENT RECUMBENT BIKE |
 | Console | Touchscreen with a keypad and a TFT LCD. The brake controller carries the DC power supply for the console and the EMS driver control circuit. |
@@ -53,4 +53,4 @@ The manual covers outlines, electronic parts, wiring, safety, three error messag
 
 The console to brake controller cable is a **6-pin computer cable**, and the brake controller part number the manual asks you to verify is **CS51012**.
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code.
+The manual prints only the factory code. The model number is on the LCR model card, `lcr-model-numbers`.

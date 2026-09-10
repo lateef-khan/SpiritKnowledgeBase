@@ -34,6 +34,7 @@ see_also:
 - e25-2016-tension-motor-spec
 - e35-2016-incline-motor-spec
 - e25-2016-console-data-ranges
+- e35-model-numbers
 source:
   ref: sole-elliptical-e35-2016-service-manual
   locator: Cover and section 1, pages 1-8
@@ -42,7 +43,7 @@ source:
 
 The manual's cover code is **SE575-SE017**. Section 1 is titled "SE575-SE017 Outlines" and the table of contents calls it the "SE575 Elliptical". The circuit diagram page is also headed SE575-SE017.
 
-This is the Sole E35 of model year 2016. The Spirit database SKU taken for it is **535016**.
+This is the Sole E35 of model year 2016. The model number is on the E35 model card, `e35-model-numbers`.
 
 The machine has a console with a **7.5" LCD display**, a main controller (DC power supply, incline driver and tension motor driver), a **tension motor** that changes brake resistance, and a **115 volt AC incline motor**.
 

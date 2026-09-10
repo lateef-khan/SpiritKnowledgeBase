@@ -34,6 +34,7 @@ see_also:
 - lcr-2026-console-layout
 - lcr-2026-preset-programs
 - lcr-2026-does-the-bike-have-incline
+- lcr-model-numbers
 source:
   ref: sole-bike-lcr-2026-owners-manual
   locator: front matter (unnumbered) and pages 11 to 12, cover ATTENTION notice and
@@ -52,7 +53,7 @@ source:
 
 **The manual prints no Sole model number (SKU)**, no weight, no dimensions, no maximum user weight, no resistance level count, no flywheel weight and no power rating. Do not cite this document as the source of a SKU.
 
-The number exists elsewhere. The Sole model number for this machine is **522126**, from the manual's own file name, `LCR (522126) 2026_.pdf`, and from the Spirit customer-service database, which names 522126 "LCR BIKE".
+The model number is on the LCR model card, `lcr-model-numbers`.
 
 **The intended use is stated two different ways in the same manual** - "residential use only" on the cover, and household **or** light commercial in the warranty. See `lcr-2026-who-and-what-use-is-covered`.
 

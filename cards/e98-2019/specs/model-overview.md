@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - e98-2019-ems-brake-spec
 - e98-2019-incline-motor-spec
+- e98-model-numbers
 source:
   ref: sole-elliptical-e98-2019-service-manual
   locator: Cover, table of contents and section 1, pages 1-4
@@ -41,7 +42,7 @@ source:
 
 The manual's cover code is **SE855-YE029-01**. Section 1 is titled "SE855-YE029 Outlines" and later section headers read SE855-YE029 or SE855-YE029-01.
 
-This is the Sole E98 of model year 2019. The Spirit database names SKU **598018** as this machine. The year comes from that name, not from the digits of the number.
+This is the Sole E98 of model year 2019. The model number is on the E98 model card, `e98-model-numbers`. The year comes from the database row's name, not from the digits of the number.
 
 **A printing inconsistency, left as printed.** The table of contents line 1 reads "SE865 Elliptical Outlines", not SE855. Every other model reference in the manual says SE855.
 

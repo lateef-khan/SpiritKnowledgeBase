@@ -31,6 +31,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sole-bike-service-manual-model-numbers
+- lcb-model-numbers
 source:
   ref: sole-bike-lcb-2019-service-manual
   locator: "Cover page, Section 2 Electronic Parts and Section 3 Electrical Configurations"
@@ -39,7 +40,6 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **511118** |
 | Code on the service manual cover | SU615-YB027 |
 | Console | 10.1 inch TFT console. |
 | Resistance | EMS brake, DC 0 to 21 V, 40 resistance levels. |
@@ -48,4 +48,4 @@ source:
 This machine uses a **6-pin** console to driver board cable. The LCB 2016 and LCR 2016 use a 7-pin cable.
 
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code.
+The manual prints only the factory code. The model number is on the LCB model card, `lcb-model-numbers`.

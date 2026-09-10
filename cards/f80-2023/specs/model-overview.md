@@ -33,6 +33,7 @@ see_also:
 - f80-2023-electrical-parts-overview
 - f80-2023-drive-motor-spec
 - f80-2023-incline-motor-spec
+- f80-model-numbers
 source:
   ref: sole-tm-f80-2023-service-manual
   locator: Cover, page 1; Section 6.1 Display Board wire Connections, page 24
@@ -50,6 +51,4 @@ driver, a DC drive motor and an AC incline motor.
 **The manual never prints a six digit SKU.** It identifies the machine only by the name on the cover and the
 factory code above.
 
-The Sole model number for this machine is **580822**. It comes from the service manual's own file name,
-`SOLE F80 2023 Service Manual (580822).pdf`, and from the Spirit customer-service database. It is not
-printed on any page.
+The model number is on the F80 model card, `f80-model-numbers`.

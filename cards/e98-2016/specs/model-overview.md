@@ -34,6 +34,7 @@ see_also:
 - e98-2016-ems-brake-spec
 - e35-2016-incline-motor-spec
 - e95-2016-console-data-ranges
+- e98-model-numbers
 source:
   ref: sole-elliptical-e98-2016-service-manual
   locator: Cover and section 1, pages 1-8
@@ -42,7 +43,7 @@ source:
 
 The manual's cover code is **SE865-YE023**. Section 1 is titled "SE865-YE023 Outlines" and the table of contents calls it the "SE865 Elliptical".
 
-This is the Sole E98 of model year 2016. The Spirit database SKU taken for it is **598016**.
+This is the Sole E98 of model year 2016. The model number is on the E98 model card, `e98-model-numbers`.
 
 **This machine brakes electrically.** It has a console with a **10.1" TFT display**, an **EMS controller**, an **EMS brake** (an induction brake on an inductive flywheel) instead of a tension motor and steel cable, a speed sensor and a **115 volt AC incline motor**. The general information page says the main controller includes the power supply, the EMS driver control circuit and the incline control circuit.
 

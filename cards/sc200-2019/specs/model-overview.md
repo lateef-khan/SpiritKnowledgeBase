@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - sc200-2019-tension-motor-spec
 - sc200-2019-electrical-power-requirements
+- sc200-model-numbers
 source:
   ref: sole-elliptical-sc200-2019-service-manual
   locator: Cover, section 1 and section 3, pages 1-11

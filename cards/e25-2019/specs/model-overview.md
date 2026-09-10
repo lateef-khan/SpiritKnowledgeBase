@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - e25-2016-tension-motor-spec
 - e25-2019-incline-motor-spec
+- e25-model-numbers
 source:
   ref: sole-elliptical-e25-2019-service-manual
   locator: Cover and section 1, pages 1-4
@@ -41,7 +42,7 @@ source:
 
 The manual's cover code is **SE665S-SE012**. Section 1 is titled "SE665S-SE012 Outlines" and the table of contents calls it the "SE665S Elliptical".
 
-This is the Sole E25 of model year 2019. The Spirit database names SKU **525018** as this machine. The year comes from that name, not from the digits of the number.
+This is the Sole E25 of model year 2019. The model number is on the E25 model card, `e25-model-numbers`. The year comes from the database row's name, not from the digits of the number.
 
 Note a printing inconsistency: the circuit diagram page is headed **SE665S-SE016**, not SE665S-SE012. Every other section header in the manual says SE012.
 

@@ -35,6 +35,7 @@ see_also:
 - sr550-2023-gear-motor-spec
 - sr550-2023-power-up
 - sr550-2023-home-screen
+- sr550-model-numbers
 source:
   ref: sole-rower-sr550-2023-service-manual
   locator: Cover page 1 and section 3, page 5
@@ -43,7 +44,7 @@ source:
 
 The cover reads **SR550(2023)**, the factory code is **CW800C-YR005**, and the machine is described on the cover as an **ENT ROWER** - the ENT console is the Android touchscreen.
 
-The Spirit database SKU is **555922**, named "SOLE SR550 2023". **Note that the SKU's last two digits are 22, not 23**, even though the name and the manual cover both say 2023.
+The model number is on the SR550 model card, `sr550-model-numbers`. Its last two digits do not give the model year, even though the database name and the manual cover both say 2023.
 
 Section 3 lists only two electrical assemblies:
 

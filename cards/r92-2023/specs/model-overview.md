@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - sole-bike-service-manual-model-numbers
 - sole-bike-tension-motor-spec
+- r92-model-numbers
 source:
   ref: sole-bike-r92-2023-service-manual
   locator: Cover page, Section 3 Electrical Configurations and Section 4 Product Operation
@@ -41,7 +42,6 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **592122** |
 | Code on the service manual cover | SR425A-SB025 |
 | Console | Keypad and LCD display. The main controller carries the power supply and the motor driver control circuit. |
 | Resistance | Gear motor, DC 4.5 to 7.5 V, 20 resistance levels. |
@@ -51,4 +51,4 @@ The manual covers outlines, electronic parts, wiring, safety, two error messages
 
 **The contents page is missing its first line.** It starts at "2. Electronic Parts", but section 1 Outlines is printed on page 3.
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code.
+The manual prints only the factory code. The model number is on the R92 model card, `r92-model-numbers`.

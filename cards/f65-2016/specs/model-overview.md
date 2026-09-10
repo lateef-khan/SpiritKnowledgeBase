@@ -34,13 +34,14 @@ see_also:
 - f65-2016-drive-motor-spec
 - f65-2016-incline-motor-spec
 - f65-2016-console-data-ranges
+- f65-model-numbers
 source:
   ref: sole-tm-f65-2016-service-manual
   locator: Cover page, table of contents and section 1
   extracted_at: '2026-09-04'
 ---
 
-The cover reads **ST155 Treadmill Service Manual**, and every section heading inside says ST155. This is the Sole F65 of model year 2016; the Spirit database SKU is **565816**.
+The cover reads **ST155 Treadmill Service Manual**, and every section heading inside says ST155. This is the Sole F65 of model year 2016. The model number is on the F65 model card, `f65-model-numbers`.
 
 Two things on the paperwork do not match:
 

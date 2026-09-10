@@ -31,6 +31,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sole-bike-service-manual-model-numbers
+- sb700-model-numbers
 source:
   ref: sole-bike-sb700-2020-service-manual
   locator: "Cover page, Section 2 Electronic Parts and Section 3 Electrical Configurations"
@@ -39,7 +40,6 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **570120** |
 | Code on the service manual cover | SB702HGS-3268 |
 | Console | DT-3268 universal spinner bike console, rechargeable, BLE 4.0, with a speed sensor transmitter. |
 | Resistance | Friction brake. A brake tension knob presses a leather brake pad with wool felt onto the flywheel. |
@@ -48,4 +48,4 @@ source:
 The manual covers outlines, the console manual, eight replacement procedures and five questions and answers. It has no error code list.
 
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code.
+The manual prints only the factory code. The model number is on the SB700 model card, `sb700-model-numbers`.

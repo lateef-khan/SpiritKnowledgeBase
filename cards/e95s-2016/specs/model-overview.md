@@ -34,6 +34,7 @@ see_also:
 - e25-2016-tension-motor-spec
 - e95s-2016-stride-motor-spec
 - e95s-2016-console-data-ranges
+- e95s-model-numbers
 source:
   ref: sole-elliptical-e95s-2016-service-manual
   locator: Cover and section 1, pages 1-7
@@ -42,7 +43,7 @@ source:
 
 The manual's cover code is **XE895A-YE022**. Section 1 is titled "XE895A-YE022 Outlines". The table of contents heads section 1 simply "Elliptical Outlines" with no model name.
 
-This is the Sole E95S of model year 2016. The Spirit database SKU taken for it is **595616**.
+This is the Sole E95S of model year 2016. The model number is on the E95S model card, `e95s-model-numbers`.
 
 **This machine adjusts stride length, not incline.** It has a console with a **10.1" TFT display**, a main controller (DC power supply, stride driver and tension motor driver), a **tension motor** that changes brake resistance through a steel cable, and a **115 volt AC stride motor**. The general information page calls it the STRIDE MOTOR; the LED and disassembly sections head the same part "Incline Motor".
 

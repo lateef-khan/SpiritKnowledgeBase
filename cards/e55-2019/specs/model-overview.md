@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - e25-2016-tension-motor-spec
 - e55-2019-incline-motor-spec
+- e55-model-numbers
 source:
   ref: sole-elliptical-e55-2019-service-manual
   locator: Cover and section 1, pages 1-6
@@ -41,7 +42,7 @@ source:
 
 The manual's cover code is **SE685S-YE030**. Section 1 is titled "SE685S-YE030 Outlines" and the table of contents calls it the "SE685S Elliptical".
 
-This is the Sole E55 of model year 2019. The Spirit database names SKU **555018** as this machine. The year comes from that name, not from the digits of the number.
+This is the Sole E55 of model year 2019. The model number is on the E55 model card, `e55-model-numbers`. The year comes from the database row's name, not from the digits of the number.
 
 The machine has a console, a main controller (DC power supply, incline driver and tension motor driver), a tension motor that changes brake resistance, and an AC incline motor.
 

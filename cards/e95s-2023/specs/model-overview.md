@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - e95s-2023-stride-motor-spec
 - e95s-2023-gear-motor-spec
+- e95s-model-numbers
 source:
   ref: sole-elliptical-e95s-2023-service-manual
   locator: Cover and section 3, pages 1 and 7
@@ -41,7 +42,7 @@ source:
 
 The cover reads **E95S(2023)**, **SE895B-SE041**, "ENT Elliptical Trainer". That factory code is the manual's own name for the machine. **ENT** is how the cover marks the entertainment console model.
 
-This is the Sole E95s of model year 2023. The Spirit database SKU is **595622**.
+This is the Sole E95s of model year 2023. The model number is on the E95S model card, `e95s-model-numbers`.
 
 What the manual says the machine is made of:
 

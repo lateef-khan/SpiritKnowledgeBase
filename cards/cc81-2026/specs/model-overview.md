@@ -33,6 +33,7 @@ see_also:
 - cc81-2026-what-this-machine-is-called
 - cc81-2026-residential-use-only
 - cc81-2026-warranty-coverage-periods
+- cc81-model-numbers
 source:
   ref: sole-climber-cc81-2026-owners-manual
   locator: page 1, front cover, and page 2, version stamp and ATTENTION block
@@ -43,6 +44,6 @@ The cover calls this machine the **CC81 Climber Trainer**, and the manual is the
 
 **Residential use only.** The ATTENTION block on page 2 reads: "THIS FITNESS CLIMBER IS INTENDED FOR RESIDENTIAL USE ONLY AND IS WARRANTED FOR THE APPLICATION. ANY OTHER APPLICATION VOIDS THIS WARRANTY IN ITS ENTIRETY."
 
-**The year conflict, unresolved.** The version stamp at the foot of page 2 reads **"CC81-2025 Ver. A"**, while the warranty on page 20 is dated **January 1, 2026** and the file this was extracted from is the 2026 manual (SKU 581526). The knowledge base files this machine as CC81-2026. Both printed values are recorded here and neither is treated as the winner.
+**The year conflict, unresolved.** The version stamp at the foot of page 2 reads **"CC81-2025 Ver. A"**, while the warranty on page 20 is dated **January 1, 2026** and the file this was extracted from is the 2026 manual. The knowledge base files this machine as CC81-2026. Both printed values are recorded here and neither is treated as the winner. The model number is on the CC81 model card, `cc81-model-numbers`.
 
 **How this was read.** The manual draws its body text as outlined glyphs, so `pdftotext` dropped pages 1 and 2 entirely — the whole cover, the table of contents and the ATTENTION block were missing from the text layer, leaving only the string "CC81-2025 Ver. A". This card was read from the rendered page image.
