@@ -2,7 +2,7 @@
 id: spirit-ce-console-fan-key-on-the-front-right
 title: The console fan is switched on with the key on the front right of the console
 kind: fact
-question: Where is the fan key on an older Spirit commercial elliptical console?
+question: Where is the fan key on an older Spirit commercial elliptical or bike console?
 asked_as:
 - how do i turn on the fan on my old spirit elliptical
 - where is the fan button on the elliptical console
@@ -18,11 +18,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
   - ce850-2016
+  - cu800-2012
   section: console
   code: '*'
 authority: 3
@@ -46,3 +47,11 @@ the key.
 
 **The CE900 fan is a three-speed and its key is on the upper right**, which is a different key in a
 different place: `spirit-ce900-console-three-speed-fan`.
+
+**The CU800-2012 bike owner's manual prints this sentence word for word on its p. 15**, so this card
+covers a bike as well as the two ellipticals and its product line is no longer elliptical-only. It
+says no more than they do: no speeds, no off instruction, no automatic behaviour. Its console drawing
+labels **Fan to keep you cool** at the top of the console face but does not mark the key.
+
+**The later CR900 and CU900 bikes have a three-speed fan on the upper right**, which is a different
+key in a different place: `spirit-ce900-console-three-speed-fan`.

@@ -102,6 +102,49 @@ lower. A phantom model id is worse than a missing one: every card it touches gai
 machine that does not exist, and claims a second manual corroborates a fact when only
 one manual ever said it.
 
+## The manual dates itself on its back cover
+
+Spirit owner's manuals print their own revision stamp on the last page, under
+the Jonesboro address:
+
+```
+CR900 Owners Manual
+© 2018 All Rights Reserved
+Revision: 08.05.2018
+```
+
+That page is a flat image. `pdftotext` returns nothing from it, so the stamp is
+invisible until you OCR the last page. **It is the best evidence of a manual's
+date** — better than the filename, better than the PDF creation date, and better
+than the warranty effective date, which is a floor rather than a print date and
+is sometimes swapped without the rest of the book changing.
+
+On 2026-09-09 the back covers settled four bike manuals at once:
+
+- `CR900_20211108.pdf` stamps `Revision: 08.05.2018`, `© 2018`, and its warranty
+  page still reads *effective January 1, 2017*. The 2021 in the filename is a
+  re-export date. It is `cr900-2018`.
+- `CU900_900346_OM_20211119.pdf` stamps `Revision: 08.08.2018`, `© 2018` — but
+  its warranty page reads *effective November 19, 2021*. **The warranty page was
+  replaced and the rest of the book was not.** It is `cu900-2018` carrying 2021
+  warranty terms, and a card must say so.
+- `CR900ENT` and `CU900ENT`, exported the same fortnight, stamp
+  `Revision: 11.08.2021` and `Revision: 11.19.2021` and agree with their warranty
+  pages. So Spirit does bump the stamp when it reprints — which is what makes a
+  stale stamp meaningful.
+
+Read the last page before you name a model id:
+
+```bash
+n=$(pdfinfo FILE.pdf | awk '/^Pages/{print $2}')
+pdftoppm -r 300 -png -f $n -l $n FILE.pdf /tmp/back
+tesseract /tmp/back-*.png stdout --psm 4 | grep -iE 'revision|©'
+```
+
+When the copyright year, the revision stamp and the warranty date disagree, the
+revision stamp names the document; the warranty date belongs on the warranty
+card and nowhere else.
+
 ## A manual can hide whole pages from `pdftotext`
 
 A PDF that extracts cleanly overall can still print individual pages as flat
@@ -131,6 +174,36 @@ Render anything under about 25 words at 300 dpi and read it with
 `=== OCR SUPPLEMENT, PDF PAGE n ===` header so a later reader knows which text is
 OCR and which is native. A genuinely blank page costs one OCR pass; a missed
 error table costs a wave.
+
+**A word count per page is not enough.** A page can be half text and half
+picture, and the text half alone clears any threshold you set. On 2026-09-09 the
+CU800ENT-2024 troubleshooting page extracted 37 native words — a single intro
+bullet — above a seven-row Condition/Reason/Solve table that was a flat image;
+the render gave 375 words. Two agents found pages of this shape in the same
+wave, one of them under a heading the word count had already passed as healthy.
+
+So compare the render against the extraction, rather than trusting a threshold:
+
+```bash
+for p in $(seq 1 $n); do
+  nat=$(pdftotext -f $p -l $p -layout FILE.pdf - | wc -w)
+  pdftoppm -r 300 -png -f $p -l $p FILE.pdf /tmp/pg
+  ocr=$(tesseract /tmp/pg-*.png stdout --psm 4 2>/dev/null | wc -w)
+  [ "$ocr" -gt $(( nat * 2 )) ] && echo "page $p: native $nat, render $ocr"
+done
+```
+
+Rendering every page is slow, so reserve the full sweep for the pages a section
+actually rests on — and always run it before carding an **absence**. Half the
+absences in this repository would be defects if the missing text were merely
+imaged.
+
+**Do not stop the rotation search early.** A scanned page can read plausibly
+upside down: enough short words survive to pass a common-word score, so a check
+that accepts the first good-looking rotation keeps the wrong one. The 2012 CU800
+scan is upside down throughout, and an early-exit scorer took the 0° reading and
+produced digits that three warranty cards then repeated. Score all four
+rotations and keep the best.
 
 ## Prove an absence twice before you card it
 

@@ -2,7 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine, a Spirit CU800ENT-2024 upright bike, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -36,6 +36,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2024
   - cvc800
   - mt200-2010
   - mt200-2022
@@ -75,15 +76,27 @@ see_also:
 - spirit-mt200-safety-outlet-and-circuit-requirement
 - spirit-xe-safety-outlet-110-volt-15-amp
 - spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-bike-ent-safety-instructions-list
+- spirit-ct800-safety-outlet-120-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
-    paragraphs are p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed
-    26) of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the
-    five 2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8),
-    and the Important Grounding Instructions page of the five 2015 XT owner's manuals
-    (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page,
-    p. 7, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS, page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5 and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page 6. The XT685 2010 owner's manual prints the page as Grounding Instructions, PDF page 7 (printed 3) The three Spirit CE850 elliptical owner's manuals print the same paragraphs on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8
+  locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same paragraphs
+    are p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed 26) of the CVC800
+    manual, and the GROUNDING & LOCATION REQUIREMENTS page of the five 2023 XT owner's
+    manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8), and the Important Grounding
+    Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485 p. 6,
+    XT385/XT685 p. 7), and the GROUNDING INSTRUCTIONS page, p. 7, of the 2026 4.0T, 7.0T and
+    8.0T owner's manuals. The XT485ENT owner's manual prints the page as GROUNDING
+    INSTRUCTIONS, page 7, the XT685ENT owner's manual as GROUNDING & LOCATION REQUIREMENTS,
+    page 8, and the two Spirit MT200 owner's manuals as Grounding Instructions, 2010 page 5
+    and 2022 page 9 The four CT800 owner's manuals print the page as Grounding Instructions
+    - 2012 page 3, 2016 page 5, 2020 page 6, ENT-2022 page 6, and the four CT850 owner's
+    manuals as GROUNDING INSTRUCTIONS - 2016 page 6, 2018 page 5, 2020 page 6, ENT-2022 page
+    6. The XT685 2010 owner's manual prints the page as Grounding Instructions, PDF page 7
+    (printed 3) The three Spirit CE850 elliptical owner's manuals print the same paragraphs
+    on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8 The
+    CU800ENT-2024 bike owner's manual prints two capitalised sentences in the WARNING header
+    of its SAFETY INSTRUCTIONS page, printed page 5, and has no grounding page of its own
   extracted_at: '2026-09-08'
 ---
 
@@ -351,3 +364,22 @@ neither manual reconciles the two figures (`spirit-xe-safety-outlet-115-volt-15-
 only grounding sentence is the safety-list bullet `Connect this appliance to a properly grounded
 outlet only`; the XE100/XE200/XE300, XE150/XE350/XE550, both XE795 printings and the two 2023 books
 print nothing at all about grounding. That is an absence - do not read this chapter across to them.
+
+## The CU800ENT-2024 bike states the rule in two sentences and has no grounding page
+
+> DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
+> CORD SET. A serious shock or fire hazard may result along with computer malfunctions.
+
+together with the outlet requirement in the sentence above it - a **120-volt AC, 15-Amp grounded
+outlet** with only the bike on the circuit (`spirit-ct800-safety-outlet-120-volt-15-amp`).
+
+**That is all it prints.** This manual has no Grounding Instructions section, no plug illustration,
+no adapter drawing and no nominal-circuit sentence. So the mandatory grounding, the do-not-modify
+rule and the shock hazard are all stated - but **do not quote the adapter procedure or the plug
+diagram above for this bike**; they come from the treadmill and elliptical manuals and are not in
+this book.
+
+**The other twelve Spirit commercial bike manuals print no grounding rule at all.** The two other
+mains-powered ENT bikes, CU800ENT-2022 and CR800ENT-2023, ask only for a grounded outlet and never
+mention the plug; the eight self-powered bikes have no plug and the CR900ENT-2021 and CU900ENT print
+no electrical figures of any kind.

@@ -1,8 +1,8 @@
 ---
 id: spirit-xe-safety-no-outlet-figure-printed
-title: The eight residential manuals that print no voltage and no amp figure at all
+title: The manuals that print no voltage and no amp figure at all
 kind: fact
-question: What outlet and circuit does a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2023 or XE795-2023 residential elliptical need?
+question: What outlet and circuit does a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2023 or XE795-2023 residential elliptical, or a Spirit CR900ENT-2021 or CU900ENT commercial bike, need?
 asked_as:
 - what outlet does my xe elliptical need
 - how many amps does the elliptical draw
@@ -22,9 +22,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - cr900ent-2021
+  - cu900ent
   - xe100-2007
   - xe150-2005
   - xe200-2007
@@ -47,12 +49,20 @@ see_also:
 - ces880-2025-safety-instructions-list
 - spirit-ce-safety-no-placement-or-clearance-requirement
 - xt-2023-safety-supply-voltage-variation
+- spirit-bike-safety-no-mains-outlet-needed
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- spirit-ct800-safety-outlet-120-volt-15-amp
+- spirit-bike-safety-instructions-list
 source:
   ref: spirit-elliptical-xe395-2023-owners-manual
-  locator: ELECTRICAL SAFETY, page 6, and SAFETY INSTRUCTIONS, page 5 - neither names a
-    voltage or an amp figure. The XE795 2023 manual has no electrical page; the
-    XE100/XE200/XE300 and XE150/XE350/XE550 manuals print Important Electrical
-    Information on their page 4
+  locator: ELECTRICAL SAFETY, page 6, and SAFETY INSTRUCTIONS, page 5 - neither names a voltage or
+    an amp figure. The XE795 2023 manual has no electrical page; the XE100/XE200/XE300 and
+    XE150/XE350/XE550 manuals print Important Electrical Information on their page 4 The
+    CR900ENT-2021 and CU900ENT-2021 bike owner's manuals print no voltage and no amp figure
+    anywhere; their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 3, carries only
+    the rain-and-moisture paragraph, and the only power sentence in either book is on the
+    STARTING OPERATION page - printed page 14 of the CR900ENT and printed page 12 of the
+    CU900ENT
   extracted_at: '2026-09-09'
 ---
 
@@ -109,3 +119,25 @@ Say the manual does not state a supply requirement, and get the figure from the 
 label or from Spirit. **Do not read the 15 amp figure across from the 2010 or 2021 XE books**, and
 never read the treadmill figures across - a Spirit treadmill is 15 or 20 amp for a motor these
 machines do not have.
+
+## The CR900ENT-2021 and CU900ENT bikes plug in, and their manuals name no figure either
+
+Both books say only:
+
+> Plug in the power cord located at the front base of the unit. When the power is turned on, the
+> screen will show the initial image and then enter the Home screen.
+
+- **They are mains-powered.** There is a power cord and a power switch, and the touchscreen console
+  will not come up without them.
+- **No voltage, no amperage, no breaker rating, no NEMA type, no extension-cord rule and no
+  grounding page** appears in either manual. The words *volt*, *amp*, *outlet*, *grounded* and
+  *circuit breaker* are absent from both.
+- **Their electrical page is missing something too.** Where the non-ENT CR900 and CU900 manuals open
+  `IMPORTANT ELECTRICAL INSTRUCTIONS` with the spinning-generator shock warning, these two print
+  only the rain, moisture, temperature and humidity paragraph. That is the tell that they are not
+  self-powered machines.
+
+Do not fill the gap from a sibling. The CU800ENT-2022 and CR800ENT-2023 are given **110 volt at 5
+amp** (`spirit-ce850-safety-outlet-and-circuit-requirement`) and the CU800ENT-2024 **120 volt at 15
+amp** (`spirit-ct800-safety-outlet-120-volt-15-amp`); nothing in the CR900ENT or CU900ENT manual
+says either applies. Get the rating from the machine's own data plate or from Spirit.

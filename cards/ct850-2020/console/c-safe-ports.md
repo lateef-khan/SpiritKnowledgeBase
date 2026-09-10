@@ -2,7 +2,7 @@
 id: ct850-2020-c-safe-ports
 title: The C-SAFE feature and the POWER and COMM ports
 kind: fact
-question: What are the C-SAFE ports on a Spirit treadmill or elliptical console for?
+question: What are the C-SAFE ports on a Spirit treadmill, elliptical or bike console for?
 asked_as:
 - what is the c-safe port for
 - can i power a tv from the treadmill console
@@ -31,6 +31,10 @@ facets:
   - ce850-2022
   - ce900-2021
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -39,6 +43,11 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
   section: console
   code: '*'
 authority: 3
@@ -99,3 +108,23 @@ with the same sentence about members racing a computer controlled figure or real
 **stops** - the word COMM appears nowhere in that document. See `ct900-c-safe-port`.
 
 **The CE850-2016 manual has no C-SAFE section at all.**
+
+**Nine Spirit commercial *bike* owner's manuals print this section too**, so this card now covers
+bikes as well as treadmills and ellipticals. The CR900-2018 p. 13 and CU900-2018 p. 12 head it
+**C-SAFE FEATURE**; the CU800-2021 p. 14 heads it **C-SAFE FEATURE** and the CR800-2021 p. 14 and
+CR800-2023 p. 14 head it **CSAFE FEATURE** without the hyphen; the CU800ENT-2022 p. 15 and
+CR800ENT-2023 p. 15 head it **CSAFE FEATURE**; the CU800ENT-2024 p. 15 heads it **C-Safe Features**
+under FEATURES. All eight print both ports in exactly the words above.
+
+**The CU800-2012 manual carries the WebRacing variant** already described above, word for word: its
+COMM port "can be used to interact with the Virtual Reality Fitness system by WebRacing LTD", with
+the same sentence about members racing a computer controlled figure or real life exercisers (p. 13).
+It is the only bike manual in the range that names the software.
+
+**The 2025 CR900 and CU900 are deliberately not on this card.** Like the CE900-2025 they print the
+POWER port sentence and stop; the word COMM appears nowhere in either document. See
+`ct900-c-safe-port`.
+
+**The CR900ENT-2021 and CU900ENT touchscreen bike manuals have no C-SAFE section at all.** The only
+place either mentions the port is the Maintenance menu's **Machine Setup** entry, which chooses
+whether the Csafe port drives Csafe or a CAB TV tuner: `ct900ent-maintenance-menu-overview`.

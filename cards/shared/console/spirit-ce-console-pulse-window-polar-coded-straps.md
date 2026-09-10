@@ -2,7 +2,7 @@
 id: spirit-ce-console-pulse-window-polar-coded-straps
 title: The pulse window needs both steel grips, and the console also reads Polar coded chest straps
 kind: fact
-question: Why is my heart rate not showing on a Spirit CE800, CE850 or CES880 elliptical?
+question: Why is my heart rate not showing on a Spirit CE800, CE850 or CES880 elliptical, or a Spirit CR800 or CU800-2021 bike?
 asked_as:
 - why does my elliptical not show my heart rate
 - do i have to hold both handles for pulse on the elliptical
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -30,6 +30,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cu800-2021
   section: console
   code: '*'
 authority: 3
@@ -64,3 +67,18 @@ a separate feature: `xt-2023-console-spirit-plus-app-pairing`.
 
 **These consoles have no percentage bar graph.** The heart icon and bar graph belong to the
 CE800-2013, CE850-2016 and CE900 consoles: `spirit-ce-console-heart-icon-and-bar-graph`.
+
+**The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print this paragraph word for
+word** - p. 16, p. 16 and p. 15, under HEART RATE WINDOW - so this card covers bikes as well as
+ellipticals and its product line is no longer elliptical-only. Only the name in the last sentence
+changes: "The CR800" or "The CU800 will also pick up wireless heart rate transmitters that are Polar
+compatible, including coded transmissions."
+
+**Those three bike manuals claim Polar compatibility and nothing more either**, even though all
+three parts lists carry a **Bluetooth** module as an item. See
+`spirit-cr800-cu800-console-bluetooth-module-with-no-procedure`.
+
+**The touchscreen bikes are described as Polar *and Bluetooth* compatible**, which is a different
+claim: `ct800ent-2022-console-heart-rate-feature`. The CR900 and CU900 bikes have a heart icon and a
+percentage bar graph instead of a plain pulse window:
+`spirit-ce-console-heart-icon-and-bar-graph`.

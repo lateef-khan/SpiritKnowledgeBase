@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-heart-rate-feature
 title: Reading heart rate from the grips or a Polar or Bluetooth transmitter
 kind: fact
-question: How does heart rate work on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
+question: How does heart rate work on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, or a CU800ENT or CR800ENT bike?
 asked_as:
 - why is my heart rate not showing on the treadmill
 - does it work with a bluetooth chest strap
@@ -20,11 +20,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
+  - cu800ent-2024
   section: console
   code: '*'
 authority: 3
@@ -63,3 +66,18 @@ page and line for line, so this card covers that machine.
 
 The CT850ENT manual names the machine in the last bullet - "The CT850ENT will also pick up wireless
 heart rate transmitters that are Polar and Bluetooth compatible" - and is otherwise identical.
+
+**Three Spirit ENT *bike* owner's manuals print this section word for word too** - CU800ENT-2022
+p. 16, CR800ENT-2023 p. 16 and CU800ENT-2024 p. 15 - so this card covers bikes as well as treadmills
+and its product line is no longer treadmill-only. Only the name in the last bullet changes: "The
+CU800ENT", "The CR800ENT", and on the 2024 manual simply "The Upright Bike".
+
+**The 2024 manual heads it HEART RATE WINDOW** where the others head it HEART RATE FEATURE, and it
+also lists **Bluetooth (with FTMS)** among the machine's features. **None of the three prints a
+pairing procedure or a list of supported straps.** On the 2024 console a strap is paired from the
+**Heart Rate icon** in the status bar: `cu800ent-2024-console-status-bar-and-tabs`.
+
+**The LED bikes claim less.** The CR800-2021, CR800-2023 and CU800-2021 manuals say Polar compatible
+"including coded transmissions" and name no Bluetooth strap:
+`spirit-ce-console-pulse-window-polar-coded-straps`. Do not read one statement onto the other
+machine.

@@ -2,7 +2,7 @@
 id: cu900ent-wifi-ethernet-setup
 title: Wi-Fi and Ethernet setup
 kind: procedure
-question: How do I connect a Spirit CU900ENT bike to the network?
+question: How do I connect a Spirit CU900ENT or CR900ENT bike to the network?
 asked_as:
 - how do i connect the bike to wifi
 - how do i set a static ip on the console
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -68,3 +69,15 @@ Those values are the demonstration machine's, not settings to copy.
 
 Pressing **"Etherner Configuration"** ten consecutive times opens the Android setting mode, which is
 where date and time are set.
+
+**The CR900ENT-2021 owner's manual describes the same two buttons on its p. 19**, and the CU900ENT
+owner's manual on its p. 17, so this card covers both machines. Their wording is shorter than the
+service manual's: *"Press the desired button for setting up Wifi or Ethernet. Turn Wifi on and press
+scan for available Wifi connections. Press desired connection and follow the on-screen directions.
+Press Ethernet Configuration to set up a new connection. Select DHCP to search for connection or
+Static IP to enter manually."*
+
+**The field names, the demonstration values and the Android-settings shortcut above are from the
+CU900ENT service manual only.** Neither owner's manual prints an IP address, a netmask, a gateway, a
+DNS field or a MAC address, and neither mentions pressing "Etherner Configuration" ten times. Nothing
+in the CR900ENT documentation contradicts them, but nothing corroborates them either.

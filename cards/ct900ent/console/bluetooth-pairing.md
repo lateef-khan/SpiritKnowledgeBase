@@ -2,7 +2,7 @@
 id: ct900ent-bluetooth-pairing
 title: Bluetooth pairing procedure for phone or tablet audio
 kind: procedure
-question: How do I pair a phone or tablet to a CT900ENT over Bluetooth?
+question: How do I pair a phone or tablet to a Spirit CT900ENT treadmill or a CR900ENT or CU900ENT bike over Bluetooth?
 asked_as:
 - how do i connect my phone to the treadmill speakers
 - how do i pair bluetooth
@@ -19,10 +19,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: ct900ent
+  product_line: '*'
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - ct900ent
+  - cu900ent
   section: console
   code: '*'
 authority: 3
@@ -41,3 +43,16 @@ source:
 4. The A2DP console and phone will ask you to confirm pairing, press **OK**.
 5. Pairing complete.
 6. Open the audio app on your phone and the audio will be played through the headphone port on the ENT console.
+
+**The CR900ENT-2021 (p. 20) and CU900ENT (p. 18) bike owner's manuals print these six steps word for
+word**, headed BLUETOOTH PAIRING PROCEDURE, so this card covers those bikes as well and its product
+line is no longer treadmill-only. All three say the audio then plays **through the headphone port on
+the ENT console**.
+
+**This is the on-screen route.** The CU900ENT *service* manual documents a different one, a **BT
+Setup** screen inside engineering mode with Pair Mode, Deleted Pair, Reset and Rename BT Device
+buttons, where the console appears as **"ENT console"** rather than **A2DP**:
+`cu900ent-bluetooth-pairing`. Both reach the same radio; neither manual mentions the other.
+
+**No manual gives a PIN, a timeout, or a list of what the link carries.** The steps describe audio
+from a phone's audio app and nothing else.

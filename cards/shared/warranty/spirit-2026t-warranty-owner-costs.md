@@ -3,8 +3,8 @@ id: spirit-2026t-warranty-owner-costs
 title: What the owner pays for a warranty repair - freight and shipping, no trip charge
 kind: policy
 question: Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill,
-  or of a Spirit CE900 or CES880 elliptical bought under the 2024 terms, pay anything
-  for a warranty repair?
+  of a Spirit CE900 or CES880 elliptical, or of a Spirit CR900, CU900 or CU800ENT bike,
+  bought under the 2024 terms, pay anything for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
 - who pays shipping for warranty parts
@@ -30,8 +30,11 @@ facets:
   - 80t-2026
   - ce900-2025
   - ces880-2025
+  - cr900-2025
   - ct900
   - ctsbs900
+  - cu800ent-2024
+  - cu900-2025
   section: warranty
   code: '*'
 authority: 3
@@ -83,3 +86,9 @@ The manuals print **no figure** for any of these charges and no way to have one 
 **The CT900ENT does not belong on this card and is the reason to check before quoting it.** Its SERVICE step 4 ends at "All repairs must be preauthorized by Spirit Fitness" and prints **neither** the freight sentence **nor** the shipping-and-handling sentence. Two of the four charges above are simply not stated in that manual, so quoting them to a CT900ENT owner would invent a cost the source does not impose. What it does state is step 5's packaging duty and exclusion 2 - see `ct900ent-obtaining-service` and `ct900ent-exclusions`.
 
 Blown fuses, loose connections and defects in house or facility wiring are the facility's to fix as well - item 5 of the same list, in `ct900ent-facility-responsibilities`. The step order itself is `ct900-warranty-service-claims-process`.
+
+## The CR900 2025, CU900 2025 and CU800ENT 2024 bikes print the same step 4
+
+All three carry the freight-to-and-from and the shipping-and-handling sentences and **stop there** - no trip charge and no mileage clause, exactly as the CE900 2025 and CES880 do. Step 5 puts adequate packaging and the freight-damage claim on the owner in the same words.
+
+**Their siblings differ in both directions.** The CR800, CU800 and the two 800ENT bikes add a trip charge and a 100-mile surcharge (`xt-2023-warranty-owner-costs`); the CR900 2018, CU900 2018, CR900ENT and CU900ENT state no owner cost at all.

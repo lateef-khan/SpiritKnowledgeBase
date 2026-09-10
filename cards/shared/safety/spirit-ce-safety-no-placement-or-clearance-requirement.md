@@ -2,7 +2,7 @@
 id: spirit-ce-safety-no-placement-or-clearance-requirement
 title: A flat level surface and no shag carpet, and no clearance figure at all
 kind: fact
-question: How much room does a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or any Spirit XE residential elliptical, need around it, and where may it stand?
+question: How much room does a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, any Spirit XE residential elliptical, or a Spirit CU800ENT or CR800ENT commercial bike, need around it, and where may it stand?
 asked_as:
 - how much space do i need for my elliptical
 - how far from the wall should the elliptical be
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -34,6 +34,9 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - cr800ent-2023
+  - cu800ent-2022
+  - cu800ent-2024
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -65,10 +68,14 @@ see_also:
 - spirit-xe-safety-outlet-110-volt-15-amp
 - spirit-xe-safety-outlet-115-volt-15-amp
 - spirit-xe-safety-no-outlet-figure-printed
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, pages 6-7, the flat-level-surface WARNING and
-    the shag-carpet bullet; the corresponding pages of the other eight manuals
+  locator: IMPORTANT SAFETY INSTRUCTIONS, pages 6-7, the flat-level-surface WARNING and the
+    shag-carpet bullet; the corresponding pages of the other eight manuals The CU800ENT-2022
+    and CR800ENT-2023 bike owner's manuals print both rules on their IMPORTANT SAFETY
+    INSTRUCTIONS page, printed page 4, and the CU800ENT-2024 manual on its SAFETY
+    INSTRUCTIONS page, printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -148,3 +155,23 @@ carries both:
 
 **That is an absence, not a zero**, and the CES880-2025 figures quoted above are that machine's
 alone - an 87 in by 43 in area with 12 in at the front - and must not be given for a residential XE.
+
+## The three mains-powered Spirit commercial bikes say the same two things
+
+**CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024** print the flat-level-surface requirement in the
+WARNING header of their safety list, tied to the outlet rather than to a room size:
+
+> install the bike on a flat level surface with access to a grounded outlet with only the bike
+> plugged into the circuit
+
+and the carpet rule as the first bullet of the list:
+
+> Do not operate the bike on deeply padded, plush or shag carpet. Damage to both carpet and bike may
+> result.
+
+**No clearance figure appears in any of the three.** The word *clearance* is absent from all three
+books, as are *inches* and any side, front or rear distance. That is an absence, not a permission.
+
+**The other ten Spirit commercial bike manuals print neither rule.** They have no
+flat-level-surface sentence and no carpet sentence at all -
+`spirit-ct800-safety-no-placement-or-clearance-requirement` carries them.

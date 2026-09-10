@@ -2,7 +2,7 @@
 id: cu900ent-maintenance-menu
 title: Maintenance menu - language, updates, internet, network and FTP
 kind: fact
-question: What is in the Maintenance menu on a Spirit CU900ENT bike?
+question: What is in the Maintenance menu on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - what is in maintenance on the bike console
 - how many languages does the bike console have
@@ -20,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -71,3 +72,18 @@ screenshot, no description, nothing. The other five all have their own pages.
 The elliptical in the same console family has a different Maintenance menu: seven buttons, with
 Wi-Fi and Ethernet split apart, a BT Setup button, and no Internet Manager, Machine Setup or FTP
 Settings.
+
+**Machine Setup is explained after all - in the owner's manual, not the service manual.** The
+CU900ENT owner's manual (p. 15) and the CR900ENT-2021 owner's manual (p. 17) print a description of
+each of the six buttons, so this card covers both machines. Their entry for the one this manual
+leaves blank:
+
+> Machine Setup allows you to select whether the Csafe port is used for Csafe or CAB TV Tuner. This
+> menu also allows you to set the screen brightness.
+
+The full six-bullet set is `ct900ent-maintenance-menu-overview`, and the Csafe-or-CAB choice itself
+is `cu900ent-tv-switching-box-selection`.
+
+**The twelve-language list above is from the service manual only.** Neither owner's manual names the
+languages; both say only that Default Language Setup sets the language shown when the console is
+turned on, and that the console returns to it once the user finishes.

@@ -2,8 +2,7 @@
 id: ct900ent-sleep-mode-auto-shutoff
 title: Sleep mode and turning the treadmill off
 kind: fact
-question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill,
-  or a CE850 elliptical, off?
+question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill, a CE850 elliptical, or a CR800, CU800-2021, CR900ENT or CU900ENT bike off?
 asked_as:
 - why did the screen turn off by itself
 - how do i turn off the treadmill
@@ -24,10 +23,15 @@ facets:
   applies_to:
   - ce850-2020
   - ce850-2022
+  - cr800-2021
+  - cr800-2023
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct850-2018
   - ct900ent
+  - cu800-2021
+  - cu900ent
   section: console
   code: '*'
 authority: 3
@@ -91,3 +95,45 @@ such part anywhere else. Read that clause as the main power switch only.
 **The other Spirit ellipticals print different figures, or none.** The CE850-2016 engineering menu
 says **30 minutes**, the CE800-2013 and CE900-2025 menus say **20**, and the CE800-2021, CE800-2023,
 CE900-2021 and CES880 manuals print no inactivity timeout at all.
+
+**The CR800-2021 (p. 16), CR800-2023 (p. 16) and CU800-2021 (p. 15) bike owner's manuals print these
+three paragraphs word for word**, under **TO TURN BIKE OFF**, with **30 minutes** and with "safety
+button" for the safety key, so this card covers bikes as well as treadmills and ellipticals.
+
+**"Safety button" on one of these bikes is a copy-and-paste from a treadmill manual**, exactly as it
+is on the CE850. None of the three bikes has a safety key or tether; nothing on the machine can be
+removed to power it down, and none of the manuals names such a part anywhere else. Read that clause
+as the main power switch only - and note that all three of these bikes are **generator powered** and
+have no mains cord either (`spirit-ce-console-pedal-to-power-up`), which leaves the sentence with
+nothing on the machine to describe.
+
+**Those three manuals contradict themselves the way the CT800 manuals do.** Their engineering menu
+carries a **Pause mode** entry but no sleep entry and no figure at all, so the 30 minutes is printed
+in only one place: `spirit-ce800-console-maintenance-menu-function-and-service`.
+
+**The other bikes print different figures, or none.** The **CU800-2012** and the **2025 CR900 and
+CU900** engineering menus say **20 minutes**
+(`ce800-2013-console-engineering-mode-elliptical-or-bike`,
+`ce900-2025-console-engineering-mode-unit-type`). The **CR900-2018** and **CU900-2018** menus say **20
+minutes** as well, on a page headed MAINTENANCE MODE MENU
+(`ce900-2025-console-engineering-mode-unit-type`); neither of those two manuals has a TO TURN BIKE
+OFF section, so 20 minutes is the only figure they print. The **CU900ENT** service manual's Engineering Mode screen has a
+**Sleep Mode** switch that is **off by default** and sleeps after **30 minutes**
+(`cu900ent-engineering-mode-settings`).
+
+**The CR900ENT-2021 (p. 24) and CU900ENT (p. 22) bike owner's manuals print a shortened version**,
+under **TO TURN THE BIKE OFF**, with **30 minutes**, so this card covers those two machines as well.
+
+**Their version drops the safety key**, correctly: it says the bike powers down everything except a
+minimum of circuitry **for detecting button presses**, and stops there - no safety key or safety
+button clause, and no "you may also remove the safety key" sentence at the end. These are
+touchscreen bikes with a mains cord and no tether, so the main power switch is the only way to power
+one down completely.
+
+**They also drop the word "most"** - "the bike will power down everything except for a minimum of
+circuitry" rather than "power down most everything".
+
+**Neither of those two manuals prints a sleep setting anywhere else.** The CU900ENT *service*
+manual's Engineering Mode screen has a **SLEEP MODE** switch, off in the screenshot, with the same
+**30 minutes** beside it: `cu900ent-engineering-mode-settings`. **That is the only figure in the
+range that two separate documents agree on.**

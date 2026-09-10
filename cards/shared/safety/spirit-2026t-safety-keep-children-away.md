@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-keep-children-away
 title: Keep children away from the machine because of its pinch points
 kind: policy
-question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, near a Spirit MT200 rehabilitation treadmill, near a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or near a Spirit XE100, XE150, XE200, XE300, XE350, XE550 or XE395-2010 residential elliptical?
+question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, near a Spirit MT200 rehabilitation treadmill, near a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, near a Spirit XE residential elliptical, or near a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - can my kids be near the treadmill
 - is a treadmill dangerous for children
@@ -36,6 +36,19 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - mt200-2010
   - mt200-2022
   - xe100-2007
@@ -56,9 +69,21 @@ see_also:
 - spirit-ce-safety-who-may-use-the-elliptical
 - ces880-2025-safety-warning-on-the-cover
 - spirit-xe-2005-2007-safety-instructions-list
+- spirit-bike-safety-instructions-list
+- cu800-2012-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 4 and 5, page 4; the 7.0T and 8.0T owner's manuals print it as item 5 of their page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual Nine Spirit elliptical owner's manuals print the same bullet - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6, CE900 2021 page 3, CE900 2025 page 5 item 2
+  locator: SAFETY INSTRUCTIONS items 4 and 5, page 4; the 7.0T and 8.0T owner's manuals print it as
+    item 5 of their page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals
+    print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7
+    of the 2022 manual Nine Spirit elliptical owner's manuals print the same bullet - CE800
+    2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4,
+    CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6, CE900 2021 page 3, CE900 2025
+    page 5 item 2 All thirteen Spirit commercial bike owner's manuals print the same bullet
+    in their safety list - CU800-2012 printed page 2, CR900-2018 and CU900-2018 printed page
+    3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021
+    printed page 4, CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 printed pages 4 to 5, and
+    CR900-2025 and CU900-2025 as item 2 of their printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -139,3 +164,19 @@ is their only rule about children.
 keep-away rule and the reduced-capability sentence but **not** this pinch-points bullet
 (`spirit-ce-safety-who-may-use-the-elliptical`). The two 2023 manuals carry neither. Quote the rule
 the machine's own manual prints.
+
+**All thirteen Spirit commercial bike manuals print the rule**, in the 4.0T's words with the bike's
+name:
+
+> Keep children away from the fitness bike. There are obvious pinch points and other caution areas
+> that can cause harm.
+
+The three mains-powered ENT bikes write `the upright bike` or `the recumbent bike`; the rest write
+`the fitness bike`. **No age is attached to this item in any of the thirteen**, and the hazard named
+is the pinch points, which are there whether or not anyone is pedalling.
+
+**Twelve of the thirteen qualify it elsewhere** with `Keep children under the age of 13 away from
+this machine` and the supervised exception for reduced-capability users
+(`spirit-ce-safety-who-may-use-the-elliptical`). **The 2012 CU800 manual prints neither**, so this
+bullet is the whole of what that book says about children
+(`cu800-2012-safety-instructions-list`).

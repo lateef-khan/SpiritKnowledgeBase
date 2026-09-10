@@ -2,7 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill, for a Spirit CT850 or CT850ENT treadmill, for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, or for a Spirit XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine?
+question: What is the California Proposition 65 warning for a Spirit XT-2015 or XT485ENT treadmill, for a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, for a Spirit XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine, or for a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -31,6 +31,11 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900ent-2021
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
@@ -38,6 +43,10 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2021
+  - cu800ent-2022
+  - cu900-2018
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe395ent-2021
@@ -64,10 +73,24 @@ see_also:
 - spirit-ce-safety-serial-number-location
 - spirit-xe-2023-safety-product-labels
 - spirit-xe-2021-safety-instructions-list
+- spirit-bike-safety-operation-instructions
+- spirit-bike-2024-2025-safety-product-labels
+- cu800-2012-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: page 4, Important Safety Instructions, boxed beside the list; the XT285
-    and XT485 manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's manual prints the same box beside its safety instructions list, page 5 The CT800 2016, CT800 2020 and CT800ENT-2022 owner's manuals print the same box on their Important Operation Instructions page - 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7 Six Spirit elliptical owner's manuals print the same box beside their Important Operation Instructions - CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 6, CE850 2020 page 9, CE850 2022 page 9, CE900 2021 page 4
+  locator: page 4, Important Safety Instructions, boxed beside the list; the XT285 and XT485
+    manuals print it on page 4, the XT385 and XT685 manuals on page 5. The XT485ENT owner's
+    manual prints the same box beside its safety instructions list, page 5 The CT800 2016,
+    CT800 2020 and CT800ENT-2022 owner's manuals print the same box on their Important
+    Operation Instructions page - 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four
+    CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7
+    Six Spirit elliptical owner's manuals print the same box beside their Important
+    Operation Instructions - CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 6, CE850
+    2020 page 9, CE850 2022 page 9, CE900 2021 page 4 Nine Spirit commercial bike owner's
+    manuals print the same box on their operation instructions page - CR900-2018 and
+    CU900-2018 printed page 4, CR900ENT-2021 and CU900ENT-2021 printed page 4, CR800-2021,
+    CR800-2023 and CU800-2021 printed page 5, and CU800ENT-2022 and CR800ENT-2023 printed
+    page 6
   extracted_at: '2026-09-09'
 ---
 
@@ -182,3 +205,21 @@ machine.** The XE395-2023 and XE795-2023 manuals carry a PRODUCT LABELS page say
 that could cause harm with improper use`, naming **no chemical** and printing **no web address**,
 with the sticker on the **left side of the upright** (`spirit-xe-2023-safety-product-labels`). The
 two texts are not interchangeable in either direction.
+
+## Nine Spirit commercial bikes print the same box, and four do not
+
+**CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021, CU800ENT-2022
+and CR800ENT-2023** print it word for word, boxed on their operation instructions page. They
+capitalise `Cancer` and put a comma in `For more information, go to`; the two chemicals, the harms
+and the web address are identical.
+
+**The 2012 CU800 manual prints no Proposition 65 warning at all.** The word *California* does not
+appear anywhere in the manual, in either of the two scans its source concatenates
+(`cu800-2012-safety-instructions-list`).
+
+**The three newest bikes moved it to a sticker and dropped the chemicals.** The CU800ENT-2024,
+CR900-2025 and CU900-2025 manuals print only `The State of California requires us to inform you that
+this unit was manufactured using chemicals that could cause harm with improper use`, on a PRODUCT
+LABELS page describing a sticker on the front stabilizer. **No chemical is named and no web address
+is given** (`spirit-bike-2024-2025-safety-product-labels`). Toluene and Acrylamide belong to the nine
+manuals above and to no bike newer than 2023.

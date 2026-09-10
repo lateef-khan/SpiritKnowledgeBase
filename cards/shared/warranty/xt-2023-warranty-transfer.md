@@ -2,7 +2,7 @@
 id: xt-2023-warranty-transfer
 title: Whether the warranty follows a second-hand machine
 kind: policy
-question: Does a Spirit treadmill or elliptical warranty transfer
+question: Does a Spirit treadmill, elliptical or bike warranty transfer
   to a second owner?
 asked_as:
 - i bought this treadmill used is it under warranty
@@ -35,6 +35,12 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -46,6 +52,13 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -154,3 +167,7 @@ None of the eleven names a reinstatement route, a transfer fee or a procedure fo
 **Two things move and neither changes the rule.** The **2005 and 2007 books print item 5 without the colon** - *Products that have been sold, transferred, bartered, or given to a third party* - where every Spirit manual from 2010 on prints *Products that have been: sold, ...*. And **the XE195 numbers them 3 and 4**, not 4 and 5, because its list leaves the opening consequential-damages item unnumbered; the words are unchanged.
 
 None of the eleven names a reinstatement route, a transfer fee or a procedure for a second owner. Their lists are `spirit-xe-2005-warranty-exclusions`, `spirit-xe-warranty-exclusions-residential-setting-only`, `spirit-ce850-warranty-exclusions` and `spirit-xe-2023-warranty-exclusions`.
+
+## All thirteen Spirit commercial bike manuals print the same exclusion
+
+*Products that have been: sold, transferred, bartered, or given to a third party* is item **5** on every one of the thirteen - the CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and 2024, the CR800ENT 2023, the CR900 2018 and 2025, the CU900 2018 and 2025, the CR900ENT and the CU900ENT - whether the list around it runs to eight, nine or ten items. The word *warranty* does not appear in it on any of them, and none of the thirteen says in as many words that the warranty is non-transferable.

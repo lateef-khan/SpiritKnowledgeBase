@@ -3,7 +3,7 @@ id: ct800ent-2022-warranty-console-periods
 title: The console is covered for 3 years parts and 1 year labor
 kind: policy
 question: How long is the console covered on a Spirit CT800ENT or CT850ENT treadmill,
-  or a Spirit CE800ENT elliptical?
+  a Spirit CE800ENT elliptical, or a Spirit CU800ENT or CR800ENT bike?
 asked_as:
 - how long is the touchscreen covered
 - is the console under warranty
@@ -25,8 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -70,3 +72,9 @@ The two columns sit at the right-hand end of the warranty table, after Labor. Th
 **The Spirit XT ENT machines print a console column too, and it is not this one.** Theirs reads 2 Years residential and 1 Year light commercial, headed *Console Parts* or *Touchscreen* - see `spirit-xt-ent-warranty-console-screen-period`. Three years is a CT800ENT figure only.
 
 The manual never defines what "Console Parts" covers - whether the whole console assembly or only the screen - and never says which column governs a fault that could be either.
+
+## Two Spirit commercial bike manuals print the same two columns
+
+The CU800ENT 2022 and the CR800ENT 2023 warranty tables carry **CONSOLE PARTS 3 Years** and **CONSOLE LABOR 1 Year** in both the commercial and the residential row, the same figures in the same two columns as the CT800ENT, CT850ENT and CE800ENT. The four columns to their left are on `spirit-bike-warranty-commercial-periods` and `spirit-bike-warranty-residential-periods`.
+
+**These are not the CU800ENT 2024 figures.** That manual replaces the pair with a column headed **Console Parts, Labor** at 2 Years and a second headed **Console Labor** at 1 Year - three years of console parts is not on its table at all (`cu800ent-2024-warranty-coverage-periods`).

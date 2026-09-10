@@ -26,11 +26,14 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-internet-site-manager
 see_also:
 - cu900ent-maintenance-menu
 - cu900ent-usb-software-update
 - cu900ent-wifi-ethernet-setup
+- ct900ent-internet-site-manager
+- ct900ent-internet-browsing
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Software update pages and Instruction for adding new webs, pp. 31-32 (printed
@@ -55,3 +58,15 @@ manual's worked example is the You Tube button.
 
 The manual does not say whether adding a seventh site is possible, or what happens when the list is
 full.
+
+**The owner's manual describes a different way to do both jobs, and the two do not agree.** The
+CU900ENT owner's manual (p. 16) and the CR900ENT-2021 owner's manual (p. 18) say a link is removed by
+**pressing its icon for two seconds** and confirming in a pop-up, and that a site is added by
+**pressing the dotted outline box**, then typing the web address and either uploading a picture or
+taking a default-look button with the site name on it. **No USB stick, no `Dyaco` folder and no ten
+presses:** `ct900ent-internet-site-manager`.
+
+**Neither document mentions the other.** The service manual route above is the one that installs a
+custom icon file; the owner's manual route is the one that works from the screen alone.
+
+**Nothing on this card is corroborated for the CR900ENT-2021.**

@@ -32,6 +32,7 @@ see_also:
 - cu900ent-engineering-mode-menu
 - cu900ent-console-layout
 - cu900ent-maintenance-menu
+- ct900ent-bluetooth-pairing
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: BT Setup, p. 37 (printed 37)
@@ -59,3 +60,16 @@ source:
 
 The manual gives no PIN and no timeout. It does not say whether the console pairs for audio, for
 heart rate, or for both.
+
+**The owner's manual pairs from the home screen instead, and does not mention this screen.** The
+CU900ENT owner's manual (p. 18) and the CR900ENT-2021 owner's manual (p. 20) say to press the **Blue
+Tooth (BT) icon on the bottom left of the screen**, then **Pair Mode** in the pop-up, and that the
+phone will show the console as **A2DP** - not as "ENT console". Audio then plays **through the
+headphone port on the ENT console**: `ct900ent-bluetooth-pairing`.
+
+**A2DP is an audio profile name, which settles what the link is for on that route** - the service
+manual's own volume control on this screen is labelled headphone volume. Neither document says
+whether the console pairs for heart rate as well.
+
+**Nothing on this card is corroborated for the CR900ENT-2021**, whose owner's manual never opens
+engineering mode.

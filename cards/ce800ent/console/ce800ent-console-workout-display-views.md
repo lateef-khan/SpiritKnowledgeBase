@@ -2,7 +2,7 @@
 id: ce800ent-console-workout-display-views
 title: The three workout views - Simple, Track and Dashboard - and what each one shows
 kind: fact
-question: How do I change what the screen shows during a workout on a Spirit ce800ent elliptical?
+question: How do I change what the screen shows during a workout on a Spirit ce800ent elliptical or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i change the elliptical screen during my workout
 - how do i see the virtual track on the elliptical
@@ -22,10 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: ce800ent
+  product_line: '*'
+  model: '*'
   applies_to:
   - ce800ent
+  - cr800ent-2023
+  - cu800ent-2022
   section: console
   code: '*'
 authority: 3
@@ -58,3 +60,16 @@ Dashboard.**
 
 **This machine has no dot matrix track ring.** The track here is drawn on the touchscreen as one of
 these three views, not built from lights around a window.
+
+**The CU800ENT-2022 (pp. 23-24) and CR800ENT-2023 (pp. 23-24) bike owner's manuals print this section
+word for word too**, so this card covers bikes as well as the elliptical and its product line is no
+longer elliptical-only. Same three buttons along the bottom, same three lists of readings, and the
+same closing "as well as other exercise data" on all three. Only the Dashboard sentence changes its
+noun: it mimics **a typical Upright Bike display** or **a typical Recumbent Bike display**.
+
+**Neither bike has a dot matrix track ring either.** The track is one of these three touchscreen
+views.
+
+**The CU800ENT-2024 has three different views** - **Stats, Charts and Track**, not Simple, Track and
+Dashboard - and its Stats view can be customised:
+`cu800ent-2024-console-workout-views`. Do not read one set of names onto the other machine.

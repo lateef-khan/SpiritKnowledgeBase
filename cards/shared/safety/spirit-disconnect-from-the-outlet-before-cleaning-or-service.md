@@ -25,10 +25,13 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - cr800ent-2023
   - ct800ent-2022
   - ct850-2016
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2022
+  - cu800ent-2024
   - cvc800
   - mt200-2010
   - mt200-2022
@@ -49,12 +52,19 @@ see_also:
 - spirit-2026t-safety-servicing-only-by-trained-personnel
 - spirit-ce-safety-generator-produces-ac-power
 - spirit-xe-2021-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- spirit-bike-safety-no-mains-outlet-needed
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
-    sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25)
-    of the CVC800 manual, and the opening WARNING of the SAFETY INSTRUCTIONS page,
-    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line of their safety instructions page, 2010 page 4 and 2022 page 5 The CT800ENT-2022 and CT850ENT-2022 owner's manuals print it as the DANGER line of their IMPORTANT SAFETY INSTRUCTIONS page, page 4
+  locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same sentence is p.
+    33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25) of the CVC800 manual,
+    and the opening WARNING of the SAFETY INSTRUCTIONS page, p. 4, of the 2026 4.0T, 7.0T
+    and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line
+    of their safety instructions page, 2010 page 4 and 2022 page 5 The CT800ENT-2022 and
+    CT850ENT-2022 owner's manuals print it as the DANGER line of their IMPORTANT SAFETY
+    INSTRUCTIONS page, page 4 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print
+    the same DANGER at the head of their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4,
+    and the CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page, printed page 5
   extracted_at: '2026-09-08'
 ---
 
@@ -164,3 +174,18 @@ service rule is not to work on it while the generator is spinning
 reconciles them.
 
 **The XE100/XE200/XE300, XE150/XE350/XE550 and the two 2023 manuals print no DANGER line at all.**
+
+**The three mains-powered Spirit commercial bikes print the same DANGER**, in the bike's words:
+
+> **DANGER** - To reduce the risk of electric shock: Always unplug this appliance from the
+> electrical outlet immediately after using and before cleaning.
+
+CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024. All three also print the disconnect procedure as a
+bullet of the same list - `To disconnect, turn all controls to the off position, then remove the plug
+from the outlet` (`spirit-bike-ent-safety-instructions-list`).
+
+**The other ten Spirit commercial bikes have nothing to unplug.** They are self-powered or, in the
+CR900ENT-2021 and CU900ENT, plug in without any such rule being printed
+(`spirit-bike-safety-no-mains-outlet-needed`). On the eight self-powered bikes the way to make the
+machine safe before service is to let the flywheel stop, not to pull a plug
+(`spirit-ce-safety-generator-produces-ac-power`).

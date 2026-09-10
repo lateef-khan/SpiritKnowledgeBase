@@ -4,8 +4,8 @@ title: Pre-assembly steps before starting
 kind: procedure
 question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
   40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
-  XT685ENT treadmill, or a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
-  XE795 or XG400 elliptical?
+  XT685ENT treadmill, a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
+  XE795 or XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -28,8 +28,11 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2025
+  - cr900-2025
   - ct900
   - ctsbs900
+  - cu800ent-2024
+  - cu900-2025
   - xe195-2021
   - xe295-2021
   - xe395-2023
@@ -54,6 +57,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-cr900-assembly-tools-included
+- spirit-cu900-assembly-tools-included
+- spirit-cu800-assembly-tools-included
 - spirit-ct900-assembly-tools-included
 - spirit-2026t-assembly-tools-included
 - 40t-2026-assembly-procedure
@@ -151,3 +157,15 @@ manuals and the CE800ENT.
 Every elliptical here builds differently from every treadmill here. On the CE850,
 next: [the step-zero build](spirit-ce850-assembly-procedure.md). On the CE900, next:
 [the four-step build](spirit-ce900-assembly-procedure.md).
+
+## Three Spirit commercial bikes print these words too
+
+The **CR900 2025**, **CU900 2025** and **CU800ENT 2024** manuals print all four items
+word for word, under the heading PRE-ASSEMBLY. They are the only three bike manuals
+that do; the other ten print the two-item form that cuts along the dotted line on the
+bottom of the box - see [that card](spirit-ct800-assembly-unpacking.md).
+
+On all three the older printing of the same machine used the two-item form, so this
+is a change of wording rather than a change of machine: the CR900 2018 and CU900 2018
+manuals and the CU800ENT 2022 manual print the two-item form for builds that are
+otherwise word for word the same.

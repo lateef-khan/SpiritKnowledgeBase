@@ -2,7 +2,7 @@
 id: spirit-ce850-safety-outlet-and-circuit-requirement
 title: The outlet is a nominal 110-volt, 5-amp dedicated circuit
 kind: spec
-question: What outlet and circuit does a Spirit CE850 or CE800ENT elliptical (ce800ent, ce850-2016, ce850-2020 or ce850-2022) need?
+question: What outlet and circuit does a Spirit CE850 or CE800ENT elliptical, or a Spirit CU800ENT-2022 or CR800ENT-2023 commercial bike, need?
 asked_as:
 - what outlet does the elliptical need
 - how many amps does the elliptical draw
@@ -22,13 +22,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800ent
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800ent-2023
+  - cu800ent-2022
   section: safety
   code: '*'
 authority: 3
@@ -46,13 +48,18 @@ see_also:
 - spirit-house-breaker-needs-a-high-inrush-type
 - xt-2015-safety-extension-cord-14-awg-or-better
 - spirit-ce-safety-generator-produces-ac-power
+- spirit-bike-ent-safety-instructions-list
+- spirit-bike-safety-no-mains-outlet-needed
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph
-    on page 8; the CE850 2022 manual prints both on pages 6 and 8, the CE850 2016 manual
-    on pages 5 and 6, and the CE800ENT manual on pages 4 and 5. The 110-volt/5 amp
-    dedicated-circuit sentence is on the GROUNDING INSTRUCTIONS page of the three CE850
-    manuals - 2016 page 6, 2020 page 8, 2022 page 8
+  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph on page 8; the
+    CE850 2022 manual prints both on pages 6 and 8, the CE850 2016 manual on pages 5 and 6,
+    and the CE800ENT manual on pages 4 and 5. The 110-volt/5 amp dedicated-circuit sentence
+    is on the GROUNDING INSTRUCTIONS page of the three CE850 manuals - 2016 page 6, 2020
+    page 8, 2022 page 8 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the
+    same WARNING header on their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the
+    same breaker sentence at the end of the circuit-breaker paragraph on their printed page
+    5
   extracted_at: '2026-09-09'
 ---
 
@@ -103,3 +110,25 @@ quoting 110 volt / 5 amp.
 
 A house breaker that trips while the machine's own does not is a different problem with a different
 answer: `spirit-house-breaker-needs-a-high-inrush-type`.
+
+## Two Spirit commercial bikes take the same 110-volt, 5-amp circuit
+
+**CU800ENT-2022 and CR800ENT-2023.** Both print the requirement in the WARNING header of their
+safety list, with the bike's name in place of the elliptical's:
+
+> WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+> upright bike on a flat level surface with access to a 110-volt, 5-amp grounded outlet with only
+> the upright bike plugged into the circuit.
+
+and close their circuit-breaker paragraph with the same breaker rating:
+
+> The electrical outlet used should have a dedicated 5 amp circuit breaker.
+
+Neither bike manual has a grounding page, so those are its only two statements, and both give the
+same figures as the four elliptical manuals above.
+
+**No other Spirit commercial bike takes this circuit.** The CU800ENT-2024 is **120-volt AC at 15
+amp** (`spirit-ct800-safety-outlet-120-volt-15-amp`), the CR900ENT-2021 and CU900ENT plug in but
+print **no figure at all** (`spirit-xe-safety-no-outlet-figure-printed`), and the eight non-ENT bikes
+need **no outlet at all** (`spirit-bike-safety-no-mains-outlet-needed`). Read the figure off the
+machine's own manual; a CR800 and a CR800ENT of the same year do not share an answer.

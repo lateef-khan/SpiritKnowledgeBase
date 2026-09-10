@@ -4,12 +4,13 @@ title: 40 levels of resistance, with two different band descriptions printed for
   them
 kind: spec
 question: How many resistance levels does a Spirit CE800, CE900 or CES880 commercial
-  elliptical, or a Spirit XE795 home elliptical, have?
+  elliptical, a Spirit XE795 home elliptical, or a Spirit CR800, CR900, CU800 or
+  CU900 commercial bike have?
 asked_as:
 - how many resistance levels on this elliptical
 - what is the highest level on the spirit elliptical
-- how hard does the xe795 go
-- resistance range on the commercial elliptical
+- how many levels does the spirit commercial bike have
+- resistance range on the commercial bike
 keywords:
 - resistance levels
 - level range
@@ -23,7 +24,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -32,6 +33,16 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe795-2021
   - xe795-2023
   section: specs
@@ -43,18 +54,31 @@ not_to_be_confused_with:
 see_also:
 - spirit-ce-specs-no-specification-table
 - spirit-xe-specs-no-specification-table
+- spirit-bike-specs-no-specification-table
+- spirit-bike-specs-generator-brake-or-induction-brake
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: 'p. 15, Console Operation, the paragraph beginning "There are 40 levels
     of resistance"; the same paragraph is CE800-2023 p. 16, CE900-2021 p. 14, CE900-2025
-    p. 15, CES880-2025 p. 29 and CE800-2013 PDF page 16, and on the residential machines
-    XE795-2021 February p. 19, XE795-2021 November p. 19 and XE795-2023 p. 17'
+    p. 15, CES880-2025 p. 29 and CE800-2013 PDF page 16, on the residential machines
+    XE795-2021 February p. 19, XE795-2021 November p. 19 and XE795-2023 p. 17, and
+    on the commercial bikes CR800-2021 p. 15, CR800-2023 p. 15, CR900-2018 p. 14, CR900-2025
+    p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p. 13, CU900-2025 p. 14,
+    CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans'
   extracted_at: '2026-09-09'
 ---
 
-**40 levels.** Level 1 is the easiest. Eight Spirit ellipticals share this figure:
-the commercial CE800, CE900 and CES880, and the residential XE795 in both its 2021
-printings and its 2023 rewrite.
+**40 levels.** Level 1 is the easiest. Eighteen Spirit machines share this
+figure - eight ellipticals and ten commercial bikes:
+
+- **Ellipticals:** the commercial CE800, CE900 and CES880, and the residential
+  XE795 in both its 2021 printings and its 2023 rewrite.
+- **Bikes:** the commercial CR800 (2021 and 2023), CR900 (2018 and 2025),
+  CR900ENT-2021, CU800 (2012 and 2021), CU900 (2018 and 2025) and CU900ENT-2021.
+
+The bikes print the commercial elliptical's paragraph word for word, including
+the four bands below and the "10 rows of lights" wording. **The three ENT-800
+bikes are the exception and are not covered by this card** - see the last section.
 
 The six commercial books print four clean bands of ten, and say the levels are
 shown on the console as 10 rows of lights:
@@ -99,11 +123,26 @@ scale**, so confirm which model is in front of you.
 level count, and its console is a different, touch-screen unit. Do not quote 40
 for a CE800ENT.
 
-**These are console levels, not a physical resistance rating.** No Spirit
-elliptical manual, commercial or residential, states resistance in watts, newtons
-or kilograms, and none prints a level-to-watts table. The Watts readout on the
-XE795 console reports the work you are doing, not the setting.
+**Neither are the three ENT-800 bikes.** The CR800ENT-2023, CU800ENT-2022 and
+CU800ENT-2024 owner's manuals never state a level count either. The words *levels
+of resistance* appear in none of the three, no number is attached to the word
+*level* anywhere in them, and their consoles are touch-screen units with a
+different brake - an induction brake and EMS controller rather than a generator
+brake, see `spirit-bike-specs-generator-brake-or-induction-brake`. **Do not quote
+40 for a CR800ENT or a CU800ENT.**
 
-**A Sole elliptical card is not an answer here.** Sole's ellipticals run 1 to 20 -
-see `e25-2023-console-data-ranges` - so a Sole card served for one of these
-machines understates the top level by half.
+**These are console levels, not a physical resistance rating.** No Spirit
+elliptical manual and no Spirit commercial bike manual states resistance in watts,
+newtons or kilograms, and none prints a level-to-watts table. The Watts readout on
+an XE795 or a commercial bike console reports the work you are doing, not the
+setting.
+
+**A Sole card is not an answer here.** Sole's ellipticals run 1 to 20 - see
+`e25-2023-console-data-ranges` - so a Sole card served for one of these machines
+understates the top level by half. The same applies to the Sole bikes.
+
+**This card now spans two product lines**, so its `product_line` facet is the `*`
+sentinel. Its `applies_to` still names every machine individually, so it cannot be
+served for a treadmill, a rower or a climber. The count is genuinely the same fact
+on the elliptical and on the bike: the same paragraph, the same bands, the same
+console family.

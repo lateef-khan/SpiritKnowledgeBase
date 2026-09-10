@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-home-screen
 title: What the touchscreen shows at power-up, and the Home Screen
 kind: procedure
-question: What does the screen show when I switch on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
+question: What does the screen show when I switch on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, or a CU800ENT or CR800ENT bike?
 asked_as:
 - how do i turn the treadmill on
 - what is the home screen on the treadmill
@@ -19,11 +19,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
+  - cu800ent-2024
   section: console
   code: '*'
 authority: 3
@@ -62,3 +65,21 @@ page and line for line, so this card covers that machine.
 **Its LED stablemates do show an odometer and a software version at power-up** -
 `ct850-2020-power-on-sequence` covers the CT850 2016, 2018 and 2020 consoles, and does not describe
 this machine.
+
+**Three Spirit ENT *bike* owner's manuals print the second bullet word for word too** - CU800ENT-2022
+p. 15 and CR800ENT-2023 p. 15 under STARTING OPERATION, CU800ENT-2024 p. 13 under SETTING UP YOUR
+UPRIGHT BIKE - so this card covers bikes as well as treadmills and its product line is no longer
+treadmill-only. All three say the same thing: **power on, a brief loading screen, then the Home
+Screen, which indicates that the machine is ready to operate.** All three add **"Begin operation by
+touching the icons"** and that the **quick operating buttons are conveniently located for basic
+Upright Bike or Recumbent Bike functions**.
+
+**The first bullet does not apply to a bike.** None of the three bikes has a safety key, and none of
+the three manuals names a main power switch position; the 2024 manual labels only a **Power Input**
+on the Quick Start page. Read the power-switch and safety-key sentence as treadmill-only.
+
+**None of the three bike manuals lists the Home Screen's icons either**, and none shows an odometer
+or a software version at power-up.
+
+**The 2024 console's Home Screen is a different layout**, split into **Training** and **Media** tabs
+with a status bar across the top: `cu800ent-2024-console-status-bar-and-tabs`.

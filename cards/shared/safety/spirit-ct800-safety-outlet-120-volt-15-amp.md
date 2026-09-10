@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-outlet-120-volt-15-amp
 title: The outlet is a nominal 120-volt, 15-amp dedicated circuit
 kind: policy
-question: What outlet and circuit does a Spirit CT800 treadmill of the 2020 or ENT-2022 generation need?
+question: What outlet and circuit does a Spirit CT800 treadmill of the 2020 or ENT-2022 generation, or a Spirit CU800ENT-2024 upright bike, need?
 asked_as:
 - what outlet does the ct800 need
 - does the treadmill need its own circuit
@@ -20,11 +20,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - ct800-2020
   - ct800ent-2022
+  - cu800ent-2024
   section: safety
   code: '*'
 authority: 3
@@ -38,11 +39,15 @@ see_also:
 - spirit-never-use-a-gfci-wall-outlet
 - ct850-2020-extension-cord-14-awg-or-better
 - ct800ent-2022-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- spirit-ce850-safety-outlet-and-circuit-requirement
+- spirit-bike-safety-no-mains-outlet-needed
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
-  locator: Important Electrical Instructions page 6 and Grounding Instructions page
-    6; the CT800ENT-2022 owner's manual prints its figure on IMPORTANT SAFETY INSTRUCTIONS
-    page 4 and on GROUNDING INSTRUCTIONS page 6
+  locator: Important Electrical Instructions page 6 and Grounding Instructions page 6; the
+    CT800ENT-2022 owner's manual prints its figure on IMPORTANT SAFETY INSTRUCTIONS page 4
+    and on GROUNDING INSTRUCTIONS page 6 The CU800ENT-2024 bike owner's manual prints its
+    figure in the WARNING header of its SAFETY INSTRUCTIONS page, printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -98,3 +103,23 @@ states and quote 120 as the requirement.
 **The CT800-2020 manual is consistent.** The same troubleshooting row in it reads
 `A minimum of 120 volt AC current is required`, matching its safety pages. The 2012 and 2016
 manuals print 110 in both places, matching theirs.
+
+## The CU800ENT-2024 upright bike takes the same 120-volt, 15-amp circuit
+
+Printed in the WARNING header of its safety instructions, in the same shape as the CT800ENT-2022's:
+
+> WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+> Upright Bike on a flat level surface with access to a 120-volt AC, 15-Amp. grounded outlet. With
+> only the Upright Bike plugged into the circuit.
+
+- **120 volt AC, 15 amp, grounded, and nothing else on the circuit.**
+- **A flat, level surface**, as the ENT treadmill manual also requires.
+- **No NEMA type and no breaker sentence.** Unlike the CT800-2020 manual, this book prints no
+  `dedicated 15 amp circuit breaker` line and has no grounding page; its breaker guidance is the
+  AFCI/GFCI nuisance-tripping paragraph instead (`xt-2023-safety-afci-gfci-nuisance-tripping`).
+
+**This figure is the CU800ENT-2024's alone among the Spirit commercial bikes.** Its two immediate
+predecessors, the CU800ENT-2022 and CR800ENT-2023, take **110 volt at 5 amp**
+(`spirit-ce850-safety-outlet-and-circuit-requirement`) - a third of the current on a lower nominal
+supply. The remaining bikes need either no figure or no outlet at all
+(`spirit-xe-safety-no-outlet-figure-printed`, `spirit-bike-safety-no-mains-outlet-needed`).

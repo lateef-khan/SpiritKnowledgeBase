@@ -2,7 +2,7 @@
 id: xt-2023-warranty-geographic-coverage
 title: Where in the world the warranty is honoured
 kind: policy
-question: Is a Spirit treadmill or elliptical under warranty outside
+question: Is a Spirit treadmill, elliptical or bike under warranty outside
   the 48 contiguous states?
 asked_as:
 - is my treadmill under warranty in canada
@@ -35,6 +35,12 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -46,6 +52,13 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe395-2023
@@ -163,3 +176,13 @@ The 48-states note is word for word the same on all seven - the XE195, XE295, XE
 **The XE195 exclusion says North America where its six siblings say the United States.** Its item 8 reads *Warranties outside of **North America** may vary*, while the XE295, XE395ENT, XG400, XE795 and both 2023 manuals read *outside of the **United States***. The 48-states note under the list is unchanged on all seven, so the XE195 manual limits the warranty to the 48 contiguous states in one sentence and implies cover across North America in another. It never reconciles them - quote both. See `spirit-xe-warranty-exclusions-residential-setting-only`.
 
 **The three older XE books are not on this card and say the opposite.** The 2005 XE150/XE350/XE550, the 2007 XE100/XE200/XE300 and the 2010 XE395 cover the **50 states of the U.S.A.** - Alaska and Hawaii included - and the 2005 book covers **Canada** as well. Answering one of those from this card takes away cover their manuals give: `spirit-xe-warranty-geographic-fifty-states`.
+
+## All thirteen Spirit commercial bike manuals print both sentences, and they split by generation
+
+**The ten older bikes follow the 2015 pattern** - the 48-states note printed **once**, at the foot of the SERVICE page, reading "does not **apply to** Alaska or Hawaii". Those are the CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022, the CR800ENT 2023, the CR900 2018, the CU900 2018, the CR900ENT and the CU900ENT. **The CU800ENT 2024, CR900 2025 and CU900 2025 follow the 2023 pattern** - twice, "does not **include**" under the exclusions and "does not **apply to**" under the service steps.
+
+The outside-the-US sentence takes three slots. It is item **10** in the six CR800, CU800 and 800ENT manuals whose lists run to ten; **unnumbered**, printed below item 8, in the CR900 2018, CU900 2018, CR900ENT and CU900ENT; and item **9** in the CU800ENT 2024, CR900 2025 and CU900 2025. The sentence itself never changes.
+
+**The bikes name three warrantors.** The CU800 2012 reads "All warranties are made by **Spirit Fitness**"; the CR800 2021 and 2023, CU800 2021, CU800ENT 2022, CR800ENT 2023, CR900 2018, CU900 2018, CR900ENT and CU900ENT read **Spirit Manufacturing, Inc.**; the CU800ENT 2024, CR900 2025 and CU900 2025 read **Spirit Fitness, Inc.** None says which entity honours a claim on a machine sold under an earlier manual.
+
+**The CU800 2012 note appears twice on disk and once in the book.** That source is two OCR scans of the same manual concatenated, so every warranty page is present in duplicate. It follows the 2015 pattern.

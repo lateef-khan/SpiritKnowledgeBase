@@ -2,8 +2,8 @@
 id: spirit-2026t-warranty-prisons-excluded
 title: Prisons and correctional facilities are excluded from cover
 kind: policy
-question: Is a Spirit treadmill or elliptical under warranty in a prison or correctional
-  facility?
+question: Is a Spirit treadmill, elliptical or bike under warranty in a prison or
+  correctional facility?
 asked_as:
 - is the treadmill covered in a prison gym
 - does the warranty work in a correctional facility
@@ -33,6 +33,12 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -44,6 +50,13 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe795-2021
@@ -169,3 +182,11 @@ Five of the eleven print it - the **XE195**, **XE295**, **XG400**, the **Novembe
 **The XE795 is the machine to be careful with.** Its two 2021 printings are the same machine and the same model id, and the footnote is in the **November** one only. The November printing is the later revision, so it is the current statement - but if a customer is reading the February book, the sentence is not on their page.
 
 **On an XE or XG machine, prisons is not the whole use-environment answer.** Their exclusion 8 also bars a dues-paying facility and, on eight of the eleven manuals, caps use at five hours a day; the XE195 and the XE395 2010 bar everything but a home. The whole picture is `spirit-xe-warranty-use-environment`.
+
+## All thirteen Spirit commercial bike manuals exclude prisons, and one of them only in the list
+
+**Twelve print the footnote** under the warranty table - *Prisons and correctional facilities are excluded from warranty coverage* - starred on the ten older manuals and unstarred on the CU800ENT 2024, CR900 2025 and CU900 2025.
+
+**The CU800 2012 prints no footnote at all.** Neither of its two scans carries one under the table. It excludes prisons only through the numbered list, at item **9**: *Product used in prisons and correctional facilities*. The answer for a CU800 2012 is the same; the sentence a customer is shown must come from the exclusion list, not from a footnote that manual does not print.
+
+The list item sits at three different numbers across the thirteen - item **9** in the six CR800, CU800 and 800ENT 2022/2023 manuals, item **8** in the CR900 2018, CU900 2018, CR900ENT and CU900ENT, and item **8** in the CU800ENT 2024, CR900 2025 and CU900 2025.

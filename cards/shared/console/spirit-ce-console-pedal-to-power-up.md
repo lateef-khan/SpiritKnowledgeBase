@@ -2,7 +2,7 @@
 id: spirit-ce-console-pedal-to-power-up
 title: Pedal to power the console up - there is no AC outlet and the display stays dark for a few seconds
 kind: procedure
-question: How do I turn on a Spirit commercial elliptical whose console has no power cord?
+question: How do I turn on a Spirit commercial elliptical or bike whose console has no power cord?
 asked_as:
 - how do i turn on my spirit elliptical
 - my elliptical console will not light up
@@ -21,7 +21,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -29,6 +29,13 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
   section: console
   code: '*'
 authority: 3
@@ -55,7 +62,7 @@ powered on, the message display scrolls the start-up message and you may begin y
 
 **A dark display in the first few seconds of pedalling is normal, not a fault.**
 
-All five manuals print this paragraph word for word. Only the name of the display differs: the
+All twelve manuals print this paragraph word for word. Only the name of the display differs: the
 CE800 and the CES880 call it the **Dot Matrix Message Center**, the CE900 manuals call it the
 **Message Window**.
 
@@ -63,3 +70,27 @@ CE800 and the CES880 call it the **Dot Matrix Message Center**, the CE900 manual
 cord and their manuals never mention a generator; the CE850-2016 is powered from its AC cord
 outright. See `spirit-ce850-console-power-up-self-test` and
 `ce850-2016-console-power-up-from-the-ac-cord`.
+
+**Seven Spirit commercial *bike* owner's manuals print this paragraph too**, so this card covers
+bikes as well as ellipticals and its product line is no longer elliptical-only:
+
+| Manual | Where | What it calls the display |
+|---|---|---|
+| CR900-2018 p. 13, CU900-2018 p. 12 | POWER | **Message Window** |
+| CR900-2025 p. 13, CU900-2025 p. 13 | SETTING UP YOUR BIKE / Powering On | **Message Window** |
+| CR800-2021 p. 14, CR800-2023 p. 14, CU800-2021 p. 14 | POWER | **Dot Matrix Message Center** |
+
+**The 2018 and 2025 CR900 and CU900 manuals open with the same sentence as the ellipticals** -
+"Spirit Fitness commercial fitness bikes have a built-in generator for power and do not need to be
+plugged into an AC outlet." **The three 800-series manuals narrow it to the machine in front of
+you** - "The bike has a built-in generator" on the CU800, "The recumbent has a built-in generator"
+on both CR800 printings - and say nothing about the rest of the range.
+
+**Do not read this onto the touchscreen bikes.** The CR900ENT-2021, CU900ENT, CU800ENT-2022,
+CR800ENT-2023 and CU800ENT-2024 are mains powered: their manuals tell you to plug a power cord in,
+and none of them mentions a generator. See `cu900ent-home-screen` and
+`ct800ent-2022-console-home-screen`.
+
+**The CU800-2012 is a generator bike but its power-up sequence is longer**, with all the lights on,
+a software version and an odometer reading before the start-up display:
+`spirit-ce850-console-power-up-self-test`.

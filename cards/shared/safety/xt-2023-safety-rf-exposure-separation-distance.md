@@ -2,7 +2,7 @@
 id: xt-2023-safety-rf-exposure-separation-distance
 title: The 20 cm RF exposure separation distance
 kind: policy
-question: How far from the antenna must a person stay on a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, on a Spirit CE900-2025 elliptical, or on a Spirit XE395-2023 or XE795-2023 elliptical?
+question: How far from the antenna must a person stay on a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, on a Spirit CE900-2025 elliptical, on a Spirit XE395-2023 or XE795-2023 elliptical, or on a Spirit CU800ENT-2024 upright bike?
 asked_as:
 - is the treadmill bluetooth radiation safe
 - how far away should i be from the antenna
@@ -23,6 +23,7 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - cu800ent-2024
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -39,9 +40,14 @@ see_also:
 - xt-2023-safety-compliance-certifications
 - xt-2023-safety-fcc-class-b-interference
 - ce900-2025-safety-product-labels
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5 The Spirit CE900 2025 elliptical owner's manual prints the same CAUTION on its WARNINGS, COMPLIANCE AND NOTICES page, page 4
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the
+    same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
+    The Spirit CE900 2025 elliptical owner's manual prints the same CAUTION on its WARNINGS,
+    COMPLIANCE AND NOTICES page, page 4 The CU800ENT-2024 bike owner's manual prints the
+    same WARNINGS, COMPLIANCE AND NOTICES page, printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +84,11 @@ it gives no figure in inches.
 COMPLIANCE AND NOTICES page: a separation distance of **at least 20 cm** must be maintained between
 the antenna of the device and all persons, and the transmitter must not be co-located or operating in
 conjunction with any other antenna or transmitter. No figure changes.
+
+**The Spirit CU800ENT-2024 upright bike prints the same page**, and it is the **only one of the
+thirteen Spirit commercial bike owner's manuals that has a compliance page at all**. The words *FCC*,
+*part 15*, *FTMS* and *20 cm* appear in none of the other twelve, so no certification, interference
+remedy or RF figure may be quoted for any other Spirit commercial bike.
+
+Its CAUTION carries the same **20 cm** separation distance and the same co-location prohibition, and
+it does not say where the antenna is either.

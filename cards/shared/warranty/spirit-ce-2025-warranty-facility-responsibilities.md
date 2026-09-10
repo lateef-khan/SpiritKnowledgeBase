@@ -4,7 +4,7 @@ title: The seven-item facility list, and the two manuals that disagree about whe
   a registration card exists
 kind: policy
 question: What is the facility responsible for under the Spirit CE900 or CES880 elliptical
-  warranty under the 2024 terms?
+  warranty, or the Spirit CR900, CU900 or CU800ENT bike warranty, under the 2024 terms?
 asked_as:
 - what do we have to do to keep the ces880 warranty
 - who pays to move the elliptical for a repair
@@ -22,11 +22,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce900-2025
   - ces880-2025
+  - cr900-2025
+  - cu800ent-2024
+  - cu900-2025
   section: warranty
   code: '*'
 authority: 3
@@ -79,3 +82,13 @@ Item 5 makes getting the machine to a place where it can be worked on the facili
 **The list is addressed to a facility on a manual that still warrants a home.** The table's third row is Residential and the opening paragraph says the warranty is administered "directly to a consumer", yet no part of this list addresses a home owner. Neither manual reconciles that - `spirit-ce-2025-warranty-coverage-periods`.
 
 This list is only half of what governs the warranty. The other half is the nine exclusions on the next page, `spirit-ce-2025-warranty-exclusions`.
+
+## Three Spirit commercial bike manuals print the same seven items
+
+The CR900 2025, the CU900 2025 and the CU800ENT 2024 print items 1 to 7 word for word as the CE900 2025 does, under the same RESPONSIBILITIES OF THE FACILITY heading without the word NORMAL, with **online-only registration** at item 1 and the grounded-power-supply duty at item 4.
+
+**The CU800ENT 2024 numbering is damaged in the same way the CES880's is.** It numbers the lead sentence itself as item 1 - "1. The facility is responsible for the items listed below:" - and the seven duties then run 2 to 8. The CR900 2025 and CU900 2025 number them 1 to 7 correctly. The duties and their order are unchanged on all three; cite them by wording, not by number, when quoting from the CU800ENT 2024.
+
+**All three are addressed to a facility on a manual that still warrants a home**, exactly as the two ellipticals are: a Residential row in the table, an opening paragraph warranting "all its **home use**" parts and administering the warranty "directly to a **consumer**", and a duty list that never addresses a home owner. None of the three reconciles it.
+
+**Do not answer the other ten bikes from this card.** The CR800, CU800 and the two 800ENT bikes print a seven-item list with a 10-day registration card at item 1 (`spirit-ct800-warranty-consumer-responsibilities`); the four 900-series bikes print six items with no grounded-power-supply duty (`ce900-2021-warranty-facility-responsibilities`).

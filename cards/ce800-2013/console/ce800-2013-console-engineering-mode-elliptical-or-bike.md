@@ -2,7 +2,7 @@
 id: ce800-2013-console-engineering-mode-elliptical-or-bike
 title: The engineering menu whose Functions list holds a 20-minute sleep and an Elliptical or Bike setting
 kind: procedure
-question: How do I get into engineering mode on a Spirit ce800-2013 elliptical, and what is in it?
+question: How do I get into engineering mode on a Spirit ce800-2013 elliptical or a Spirit cu800-2012 bike, and what is in it?
 asked_as:
 - how do i get into engineering mode on my old spirit elliptical
 - how do i lock the keypad on the elliptical
@@ -22,10 +22,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: ce800-2013
+  product_line: '*'
+  model: '*'
   applies_to:
   - ce800-2013
+  - cu800-2012
   section: console
   code: '*'
 authority: 3
@@ -72,3 +73,20 @@ renumbered 1-7 here rather than guessed at.
 **An Elliptical-or-Bike setting also exists on the 2025 CE900**, where it is called **Unit Type** and
 sits at the top level of a flat nine-item menu:
 `ce900-2025-console-engineering-mode-unit-type`.
+
+**The CU800-2012 bike owner's manual prints this menu word for word on its p. 26**, so this card
+covers a bike as well as the CE800-2013 elliptical and its product line is no longer
+elliptical-only. Same four top-level entries in the same order, the same seven Functions entries in
+the same order, the same **20 minutes**, the same **Elliptical or Bike** setting and the same **DA
+Test**.
+
+**Both scans of that manual print it**, and the two agree entry for entry, so the OCR can be trusted
+here. They also share the CE800-2013's damaged Roman numerals, which is why this card numbers the
+Functions entries 1-7 rather than reproducing them.
+
+**On a bike the Elliptical or Bike setting is the one that must be right.** It sets the console
+software calculations; the manual does not say what goes wrong if it is set to Elliptical.
+
+**The later CR800 and CU800-2021 bikes have a different menu** - Key Test, Display Test, Function,
+Service, Exit, with a PWM test and a Csafe test and no Security or sleep entry:
+`spirit-ce800-console-maintenance-menu-function-and-service`.

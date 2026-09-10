@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - cr900ent-2021
   - ct800ent-2022
   - ct850ent-2022
   - cu900ent

@@ -2,7 +2,7 @@
 id: spirit-ce-safety-serial-number-location
 title: Where the serial number is, and the manuals that only leave a blank
 kind: fact
-question: Where is the serial number on a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, or on a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021 generation?
+question: Where is the serial number on a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, on a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021 generation, or on a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - where is the serial number on my elliptical
 - i cant find the serial number on the machine
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -33,6 +33,16 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu900-2018
+  - cu900ent
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -53,18 +63,24 @@ not_to_be_confused_with:
 - ces880-2025-safety-product-labels
 - xt-2023-safety-serial-number-sticker
 - spirit-ct800-safety-serial-number-and-product-labels
+- spirit-bike-2024-2025-safety-product-labels
 see_also:
 - ce900-2021-safety-console-warning-decal
 - spirit-ce800-safety-instructions-list
 - spirit-ce850-safety-instructions-list
 - spirit-ce900-safety-instructions-list
 - spirit-xe-2023-safety-product-labels
+- spirit-bike-2024-2025-safety-product-labels
+- spirit-bike-safety-instructions-list
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: RECORD YOUR SERIAL NUMBER, page 5. The other seven manuals print the same
-    heading with no location - CE800 2013 PDF page 3 (printed 4), CE800 2021 page 3,
-    CE800 2023 page 3, CE800ENT page 6, CE850 2016 page 7, CE850 2020 page 5, CE850
-    2022 page 5
+  locator: RECORD YOUR SERIAL NUMBER, page 5. The other seven manuals print the same heading with
+    no location - CE800 2013 PDF page 3 (printed 4), CE800 2021 page 3, CE800 2023 page 3,
+    CE800ENT page 6, CE850 2016 page 7, CE850 2020 page 5, CE850 2022 page 5 Ten Spirit
+    commercial bike owner's manuals print a RECORD YOUR SERIAL NUMBER block - CR900-2018 and
+    CU900-2018 on their printed page 4, CR900ENT-2021 and CU900ENT-2021 on printed pages 5
+    and 4, CR800-2021, CR800-2023, CU800-2021, CU800ENT-2022 and CR800ENT-2023 on their
+    printed page 3, and CU800-2012 on its printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -142,3 +158,31 @@ returned, and give a web alternative: `www.spiritfitness.com/warranty.htm` (XE10
 `www.spiritfitness.com` (XE150/XE350/XE550), `www.spiritfitness.com/warranty.asp` under the support
 tab (XE395-2010), `www.spiritfitness.com/warranty` under the Support tab (XE795 2021), and
 `https://www.spiritfitness.com/warranty` under the Support tab (XE195, XE295, XG400, XE395ENT).
+
+## Ten Spirit commercial bikes, and the same split again
+
+**Four say where it is, in one sentence, and name no part:**
+
+> Please record the serial number of this fitness product in the space provided below. The serial
+> number is located at the front of the fitness bike.
+
+CR900-2018, CU900-2018, CR900ENT-2021 and CU900ENT. `At the front of the fitness bike` is the whole
+statement - no stabilizer, no mast, no barcode.
+
+**Six print the heading and the blank and no location at all:** CU800-2012, CR800-2021, CR800-2023,
+CU800-2021, CU800ENT-2022 and CR800ENT-2023. None of the ten has a product labels page and none
+draws a `Serial Number Location` illustration, so unlike the CE850-2016 there is not even a picture
+to read.
+
+**The three newest bikes are the exception and do say where it is.** The CU800ENT-2024, CR900-2025
+and CU900-2025 manuals carry a PRODUCT LABELS page: the serial number sticker is **on the front
+stabilizer**, and the number to record is the one **below the barcode**
+(`spirit-bike-2024-2025-safety-product-labels`). That is those three machines' answer and no
+other's - do not carry `front stabilizer` back onto a CR800 or a CU900-2018.
+
+**Registering the warranty.** The bike manuals ask for the completed registration card to be
+returned and give a web alternative under the Support tab:
+`www.spiritfitness.com/warranty` (CR900-2018, CR900ENT-2021, CR800-2021, CR800-2023, CU800-2021,
+CU800ENT-2022, CR800ENT-2023), `www.spiritfitness.com/commercialwarrantyregistration.html`
+(CU900-2018, CU900ENT-2021) and `wwwspiritfitness.com/warranty.asp` (CU800-2012, as its scan reads
+it). The 2024 and 2025 manuals replace the card with a QR code.

@@ -28,11 +28,14 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct900ent-tv-tuner-setup
 see_also:
 - cu900ent-tv-switching-box-selection
 - cu900ent-engineering-mode-menu
 - cu900ent-home-screen
+- ct900ent-tv-tuner-setup
+- ct900ent-watching-tv-while-exercising
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: TV Setup, p. 36 (printed 36). This page is a flattened image and was read
@@ -58,3 +61,17 @@ alone.
 
 The screen also carries an **OSD Exit** button and a four-way arrow pad. The channel list in the
 screenshot is a Taiwanese one; it is the demonstration machine's, not a shipped default.
+
+**The owner's manual prints a different channel scan for this same screen, and the two do not
+agree.** The CU900ENT owner's manual (p. 14) and the CR900ENT-2021 owner's manual (p. 16) say the
+first highlighted OSD item is **Air/Cable**, that OSD Enter switches between **Cable** and **Air**
+signal source ("usually Cable"), and that you then navigate down to **Auto Scan** with the arrows
+below OSD Exit. There is no **AUTO / DTV / ATV Tuner** step and no country selection in that route:
+`ct900ent-tv-tuner-setup`.
+
+**Neither document mentions the other.** Both end at **Update Channel List** and both warn that **OSD
+Command is for engineering use only**. Which menu a given console shows is not recorded anywhere;
+read the screen in front of you.
+
+**Nothing on this card is corroborated for the CR900ENT-2021**, whose owner's manual carries only the
+Air/Cable route.

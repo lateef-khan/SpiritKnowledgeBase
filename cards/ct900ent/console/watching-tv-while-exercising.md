@@ -2,7 +2,7 @@
 id: ct900ent-watching-tv-while-exercising
 title: Watching TV while exercising
 kind: procedure
-question: How do I watch TV while exercising on a CT900ENT?
+question: How do I watch TV while exercising on a Spirit CT900ENT treadmill or a CR900ENT or CU900ENT bike?
 asked_as:
 - how do i watch tv while running
 - how do i change the channel while walking
@@ -20,10 +20,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: ct900ent
+  product_line: '*'
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - ct900ent
+  - cu900ent
   section: console
   code: '*'
 authority: 3
@@ -45,3 +47,8 @@ When the **TV button** on the Home screen is pressed, it directly enters the TV 
 - Change the TV channel by pressing the channel up/down buttons on the right side of the screen.
 - Use the **Volume Up/Down** buttons to change the sound levels. To silence the audio, touch the **Mute** button.
 - Touch **Max Screen** to switch to full screen viewing. Touching anywhere on the screen will return it to the original screen size.
+
+**The CR900ENT-2021 (p. 22) and CU900ENT (p. 20) bike owner's manuals print this section word for
+word**, so this card covers those bikes as well and its product line is no longer treadmill-only.
+Only the machine noun changes - press the **Start button at front of the bike** to initiate Quick
+Start, or press **Programs** to select a workout.

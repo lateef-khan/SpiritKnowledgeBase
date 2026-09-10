@@ -2,7 +2,7 @@
 id: ct900ent-operating-environment-voltage
 title: Operating environment - temperature, humidity, moisture, and voltage
 kind: spec
-question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or a Spirit XE100, XE200, XE300, XE395-2010, XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine, need?
+question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, a Spirit XE residential machine, or a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike, need?
 asked_as:
 - can i use this treadmill outside
 - what temperature range is safe
@@ -32,6 +32,12 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -41,6 +47,12 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900ent
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe100-2007
   - xe195-2021
   - xe200-2007
@@ -67,9 +79,26 @@ see_also:
 - ces880-2025-safety-instructions-list
 - spirit-xe-2005-2007-safety-instructions-list
 - spirit-xe-2021-safety-instructions-list
+- spirit-bike-safety-no-mains-outlet-needed
+- spirit-bike-safety-instructions-list
+- xt-2023-safety-supply-voltage-variation
 source:
   ref: ct900ent-om
-  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual prints the same two paragraphs on its Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches. The nine Spirit elliptical owner''s manuals that carry the paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed 3), CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6'
+  locator: >-
+    p. 4 The four CT800 owner's manuals print the same two paragraphs on their Important
+    Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5,
+    and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5,
+    ENT-2022 page 5. The XT685 2010 owner's manual prints the same two paragraphs on its
+    Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card
+    was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT
+    ELECTRICAL INSTRUCTIONS, page 4, and matches. The nine Spirit elliptical owner's manuals
+    that carry the paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed
+    3), CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850 2020
+    page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6 Twelve of the thirteen
+    Spirit commercial bike owner's manuals print the temperature paragraph on their electrical
+    page - CR900-2018, CU900-2018, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021,
+    CR800-2023 and CU800-2021 printed pages 4 to 5, CU800ENT-2022 and CR800ENT-2023 printed page
+    5, CR900-2025 and CU900-2025 printed page 5, and CU800-2012 printed page 3 in both scans
   extracted_at: '2026-08-24'
 ---
 
@@ -210,3 +239,33 @@ book, continues into the figures. That is an absence, not a licence to borrow th
 **The XE395-2023 manual prints one Celsius maximum instead**, the XT and CT900 form, which is a
 different statement from this 40-to-120 Fahrenheit range. Quoting 40 to 120 F for an XE395-2023, or
 40 degrees C for any of the nine above, would be wrong in both directions.
+
+## Twelve Spirit commercial bikes print the same temperature paragraph, and only three print the voltage one
+
+The temperature and humidity figures are identical to the CT800's, in the bike's words:
+
+> NEVER expose this fitness bike to rain or moisture. This product is NOT designed for use outdoors,
+> near a pool or spa, or in any other high humidity environment. The operating temperature
+> specification is 40 to 120 degrees Fahrenheit, and humidity is 95% non-condensing (no water drops
+> forming on surfaces).
+
+**40 to 120 degrees Fahrenheit, 95% non-condensing**, on CU800-2012, CR900-2018, CU900-2018,
+CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021, CU800ENT-2022, CR800ENT-2023,
+CR900-2025 and CU900-2025. One Fahrenheit range, no Celsius conversion, no minimum humidity, no
+storage figure.
+
+**Only the CU800ENT-2022 and CR800ENT-2023 also print the voltage paragraph.** The other ten
+manuals on this list stop after the humidity sentence, and nine of those ten are self-powered bikes
+with no mains supply for a voltage to vary (`spirit-bike-safety-no-mains-outlet-needed`). Do not
+quote the ten-percent rule for a CR800, a CR900, a CU800-2012, a CU900 or either ENT-2021 bike -
+their manuals do not print it.
+
+**The CU800ENT-2024 is the one bike that prints a different figure.** Its ELECTRICAL SAFETY page
+gives `40 degrees C` with no minimum and no Fahrenheit conversion, the XT wording rather than this
+one - `xt-2023-safety-operating-environment-limits`. It is a single figure, not a range, and it is
+not this 40-to-120 Fahrenheit statement.
+
+**The CU800-2012 manual states the limits twice**, on its Important Electrical Instructions page as
+above and again on its operation instructions page as `Maximum environmental ratings are 40-120
+degrees Fahrenheit, 95% humidity non-condensing`. Same figures, different words, and both scans in
+its source agree.

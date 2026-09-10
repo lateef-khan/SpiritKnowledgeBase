@@ -49,6 +49,7 @@ not_to_be_confused_with:
 - spirit-ce900-maintenance-squeak-thump-or-clicking
 - spirit-xe-maintenance-squeak-thump-or-clicking
 see_also:
+- cu900ent-general-maintenance
 - spirit-ct800-maintenance-schedule-tasks
 - ct900-belt-deck-cleaning
 - ct900-sanitizing-equipment
@@ -89,7 +90,8 @@ CT850 2018 manual - not in the assembly chapter, and neither revision carries a 
 the loose-hardware and levelling checks for a treadmill and do not send a treadmill customer
 looking for a crank arm. The same carried sentence is in the Spirit CT900 and CTSBS900 owner's
 manuals (`ct900-post-workout-care-and-hardware-check`, `ctsbs900-post-workout-cleaning`) and in the
-CU900ENT bike manual, where it is literal again (`cu900ent-general-maintenance`).
+twelve Spirit commercial bike owner's manuals and the CU900ENT service manual, where it is
+literal again - a bike has a crank arm (`cu900ent-general-maintenance`).
 
 ## The neighbouring manuals say something different
 

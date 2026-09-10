@@ -1,8 +1,8 @@
 ---
 id: spirit-ce800-console-maintenance-menu-function-and-service
-title: The maintenance menu whose Function list holds Units, Pause mode, Odometer Reset and Beep sound
+title: The Start, Stop and Enter menu whose Function list holds Units, Pause mode, Odometer Reset and Beep sound
 kind: procedure
-question: How do I get into maintenance mode on a Spirit CE800 elliptical, and what is in it?
+question: How do I get into maintenance mode on a Spirit CE800 elliptical or a Spirit CR800 or CU800-2021 bike, and what is in it?
 asked_as:
 - how do i get into engineering mode on the elliptical
 - how do i switch the elliptical to metric
@@ -22,11 +22,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
   - ce800-2023
+  - cr800-2021
+  - cr800-2023
+  - cu800-2021
   section: console
   code: '*'
 authority: 3
@@ -64,3 +67,28 @@ Both printings list these items in this order, word for word.
 **There is no Sleep mode entry and no protocol choice in this menu.** The CE850-2020 and CE850-2022
 menus add both, plus a Motor test and a Stride test:
 `spirit-ce850-console-maintenance-menu-cab-or-csafe`. Do not read one machine's menu onto the other.
+
+**The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print the same five items in the
+same order, word for word** - p. 36, p. 36 and p. 35 - so this card covers bikes as well as
+ellipticals and its product line is no longer elliptical-only.
+
+**But the screen does not say the same thing.** The three bike manuals head the section **ENGINEERING
+MODE MENU** and say the Message Center displays **Engineering Mode Menu**; the CE800 manuals head it
+ENGINEERING MODE MENU but say the Dot Matrix Message Center displays **Maintenance Mode**. Quote the
+words the owner's own machine prints.
+
+**The bike manuals do not tell you to pedal first.** They open with a sentence the CE800 manuals do
+not print - *"The console has built in maintenance/diagnostic software. The software will allow you
+to change the console settings from English to Metric and turn off the beeping of the speaker when a
+button is pressed for example."* - and then go straight to holding the three keys. These bikes are
+generator powered all the same (`spirit-ce-console-pedal-to-power-up`), so the console is not live
+standing still; the instruction is simply missing from those three documents.
+
+**The 2025 CR900 and CU900 bikes have a different menu**, flat and nine items long, with a Brake Test
+and a Unit Type and no Function or Service sub-menus:
+`ce900-2025-console-engineering-mode-unit-type`. **The CU800-2012 has a third menu again**, with a
+Security keypad lock and a 20-minute sleep:
+`ce800-2013-console-engineering-mode-elliptical-or-bike`. **The CR900-2018 and CU900-2018
+have the same nine-item menu as the 2025 pair**, under a page headed **MAINTENANCE MODE MENU** rather
+than ENGINEERING MODE MENU - which is why the word "engineering" appears nowhere in either document.
+Nothing on this card may be quoted for those two machines either.

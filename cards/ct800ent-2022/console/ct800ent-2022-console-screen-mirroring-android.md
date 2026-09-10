@@ -2,8 +2,7 @@
 id: ct800ent-2022-console-screen-mirroring-android
 title: Screen mirroring from an Android phone with the Spirit Mirroring app
 kind: procedure
-question: How do I mirror an Android phone to a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill,
-  or a CE800ENT elliptical?
+question: How do I mirror an Android phone on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, a CE800ENT elliptical, or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i put my android phone on the treadmill screen
 - what app do i need to mirror to the treadmill
@@ -24,8 +23,10 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
   section: console
   code: '*'
 authority: 3
@@ -81,3 +82,12 @@ code or Google Play search for **"Spirit Mirroring"**, same four steps, and the 
 including the same "connected to the your device" typo.
 
 **No minimum Android version is printed there either.**
+
+**The CU800ENT-2022 (p. 20) and CR800ENT-2023 (p. 20) bike owner's manuals print this section word
+for word too**, so this card covers bikes as well. Same QR code or Google Play search for **"Spirit
+Mirroring"**, same four steps, and the same headphones note including the same "connected to the your
+device" typo. **No minimum Android version is printed in either.**
+
+**The CU800ENT-2024 mirrors differently.** Its console puts Mirroring in the **Media** tab behind a
+**How It Works** button that shows the instructions on screen, and its manual prints no steps and
+names no app: `cu800ent-2024-console-media-tab-and-mirroring`.
