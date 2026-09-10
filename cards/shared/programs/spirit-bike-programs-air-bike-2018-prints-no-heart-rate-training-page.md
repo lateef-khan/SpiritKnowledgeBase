@@ -27,7 +27,8 @@ facets:
   - ab900-2018
   section: programs
   code: '*'
-  model_number: '900748'
+  model_number:
+  - '900748'
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-programs-no-target-heart-rate-zone-page

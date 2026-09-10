@@ -25,7 +25,8 @@ facets:
   - e98-2016
   section: errors
   code: e3
-  model_number: '598016'
+  model_number:
+  - '598016'
 authority: 3
 not_to_be_confused_with:
 - e35-2016-e1-eeprom-failure

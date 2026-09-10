@@ -26,7 +26,8 @@ facets:
   - lcb-2019
   section: assembly
   code: '*'
-  model_number: '511118'
+  model_number:
+  - '511118'
 authority: 3
 not_to_be_confused_with: []
 see_also:

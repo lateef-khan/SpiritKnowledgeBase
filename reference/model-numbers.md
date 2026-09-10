@@ -1,8 +1,13 @@
 # Where a machine's model number comes from
 
-`facets.model_number` holds the six digit Sole or Spirit SKU. Every card whose
-`applies_to` names exactly one machine carries that machine's number; every card
-naming several machines omits it, because there is no single answer.
+`facets.model_number` holds the six digit Sole or Spirit SKUs for a machine. It
+is a **list**, because one machine often has more than one: a colour variant is
+its own SKU, and so is a commercial trim. Recording one and dropping the rest
+loses real data - 171 SKUs across 54 products are not yet on any card.
+
+Every card whose `applies_to` names exactly one machine carries that machine's
+numbers; every card naming several machines omits the facet, because there is no
+single answer.
 
 The facet is **classification, not a quotation.** `model: lcr-2026` is not a
 phrase from the manual either. The card **body** is where the manual is quoted,
@@ -56,6 +61,17 @@ Answers resting **only** on elimination — "every other SKU in this family is
 taken, so this machine must have the last one" — were dropped rather than
 guessed: `sc200-2019`, `st90` and `st90-2021`. `xth-rails` is an extended
 handrail kit, not a machine, and will never carry a machine SKU.
+
+## Which SKUs belong to the same machine is not in the table
+
+The table does not say that `730030` "Spirit MS300 (White)" and `730037` "Spirit
+MS300" are one machine in two colours, and it does not separate them from two
+generations that simply never got a year in their name. A rule built on "no year
+named means the same machine" wrongly tied the 2023 and 2026 E25 numbers to the
+2019 machine, and the 2026 F85's number to the 2023 one. It was thrown away.
+
+So a second SKU is added to a machine only when a person confirms the two are the
+same machine. Nothing here guesses it.
 
 ## One SKU can cover several machines
 

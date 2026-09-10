@@ -22,7 +22,8 @@ facets:
   - ctsbs900
   section: assembly
   code: '*'
-  model_number: '900885'
+  model_number:
+  - '900885'
 authority: 3
 not_to_be_confused_with:
 - ctsbs900-step-2-attach-water-cup-holder

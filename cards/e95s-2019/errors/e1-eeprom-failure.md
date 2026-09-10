@@ -25,7 +25,8 @@ facets:
   - e95s-2019
   section: errors
   code: e1
-  model_number: '595618'
+  model_number:
+  - '595618'
 authority: 3
 not_to_be_confused_with:
 - e95s-2019-e2-tension-motor-failure

@@ -28,7 +28,8 @@ facets:
   - xe395-2010
   section: safety
   code: '*'
-  model_number: '395010'
+  model_number:
+  - '395010'
 authority: 3
 not_to_be_confused_with:
 - spirit-xe-2005-2007-safety-instructions-list

@@ -25,7 +25,8 @@ facets:
   - xt685-2023
   section: console
   code: '*'
-  model_number: '685823'
+  model_number:
+  - '685823'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-console-calibration-wheel-size-two-four-three

@@ -26,7 +26,8 @@ facets:
   - r92-2026
   section: programs
   code: '*'
-  model_number: '592126'
+  model_number:
+  - '592126'
 authority: 3
 not_to_be_confused_with:
 - r92-2026-manual-program

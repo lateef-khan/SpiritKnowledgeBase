@@ -30,7 +30,8 @@ facets:
   - ct800ent-2024
   section: specs
   code: '*'
-  model_number: '800865'
+  model_number:
+  - '800865'
 authority: 3
 not_to_be_confused_with:
 - ct800-2024-specs-parts-list

@@ -28,7 +28,8 @@ facets:
   - ct850-2018
   section: programs
   code: '*'
-  model_number: '850845'
+  model_number:
+  - '850845'
 authority: 3
 not_to_be_confused_with:
 - xt-2015-programs-calorie-program-setup-xt485-xt685

@@ -25,7 +25,8 @@ facets:
   - e98-2019
   section: errors
   code: e2
-  model_number: '598018'
+  model_number:
+  - '598018'
 authority: 3
 not_to_be_confused_with:
 - e98-2019-e1-eeprom-failure

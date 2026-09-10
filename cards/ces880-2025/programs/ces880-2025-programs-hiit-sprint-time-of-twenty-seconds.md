@@ -25,7 +25,8 @@ facets:
   - ces880-2025
   section: programs
   code: '*'
-  model_number: '880025'
+  model_number:
+  - '880025'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce800-programs-hiit-two-minute-cool-down

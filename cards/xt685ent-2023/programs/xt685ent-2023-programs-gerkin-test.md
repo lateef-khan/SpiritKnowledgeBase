@@ -28,7 +28,8 @@ facets:
   - xt685ent-2023
   section: programs
   code: '*'
-  model_number: '685523'
+  model_number:
+  - '685523'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-programs-gerkin-chart

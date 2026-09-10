@@ -28,7 +28,8 @@ facets:
   - xe795-2023
   section: assembly
   code: '*'
-  model_number: '795023'
+  model_number:
+  - '795023'
 authority: 3
 not_to_be_confused_with:
 - xe795-2021-assembly-hardware-by-step

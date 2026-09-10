@@ -28,7 +28,8 @@ facets:
   - crw800h2o
   section: safety
   code: '*'
-  model_number: '800998'
+  model_number:
+  - '800998'
 authority: 3
 not_to_be_confused_with:
 - crw900-2021-safety-warning-labels-and-serial-decal

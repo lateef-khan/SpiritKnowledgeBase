@@ -25,7 +25,8 @@ facets:
   - ces880-2025
   section: errors
   code: no-code
-  model_number: '880025'
+  model_number:
+  - '880025'
 authority: 3
 not_to_be_confused_with: []
 see_also:

@@ -25,7 +25,8 @@ facets:
   - ce850-2024
   section: errors
   code: no-code
-  model_number: '850025'
+  model_number:
+  - '850025'
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-incline-buttons-not-working

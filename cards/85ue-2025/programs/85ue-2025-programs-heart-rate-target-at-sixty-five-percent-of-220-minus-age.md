@@ -27,7 +27,8 @@ facets:
   - 85ue-2025
   section: programs
   code: '*'
-  model_number: '785045'
+  model_number:
+  - '785045'
 authority: 3
 not_to_be_confused_with:
 - 85s-2025-programs-heart-rate-target-defaults-to-sixty-five-percent-of-220-minus-age

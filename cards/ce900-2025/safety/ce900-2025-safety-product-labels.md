@@ -28,7 +28,8 @@ facets:
   - ce900-2025
   section: safety
   code: '*'
-  model_number: '900025'
+  model_number:
+  - '900025'
 authority: 3
 not_to_be_confused_with:
 - ces880-2025-safety-product-labels

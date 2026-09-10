@@ -26,7 +26,8 @@ facets:
   - f80-2026
   section: returns
   code: '*'
-  model_number: '580286'
+  model_number:
+  - '580286'
 authority: 3
 not_to_be_confused_with: []
 see_also:

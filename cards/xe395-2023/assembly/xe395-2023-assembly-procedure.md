@@ -27,7 +27,8 @@ facets:
   - xe395-2023
   section: assembly
   code: '*'
-  model_number: '395023'
+  model_number:
+  - '395023'
 authority: 3
 not_to_be_confused_with:
 - xe395ent-2021-assembly-procedure

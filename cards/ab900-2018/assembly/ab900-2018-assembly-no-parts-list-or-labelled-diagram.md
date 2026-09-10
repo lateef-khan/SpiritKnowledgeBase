@@ -26,7 +26,8 @@ facets:
   - ab900-2018
   section: assembly
   code: '*'
-  model_number: '900748'
+  model_number:
+  - '900748'
 authority: 3
 see_also:
 - ab900-2018-assembly-hardware-kit

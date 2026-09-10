@@ -27,7 +27,8 @@ facets:
   - xe395-2010
   section: console
   code: '*'
-  model_number: '395010'
+  model_number:
+  - '395010'
 authority: 3
 not_to_be_confused_with: []
 see_also:

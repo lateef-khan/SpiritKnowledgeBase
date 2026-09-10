@@ -25,7 +25,8 @@ facets:
   - f85-2016
   section: console
   code: '*'
-  model_number: '585816'
+  model_number:
+  - '585816'
 authority: 3
 not_to_be_confused_with:
 - f85-2016-erratic-pulse-display

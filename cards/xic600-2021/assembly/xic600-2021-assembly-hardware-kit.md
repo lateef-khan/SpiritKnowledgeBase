@@ -27,7 +27,8 @@ facets:
   - xic600-2021
   section: assembly
   code: '*'
-  model_number: '600377'
+  model_number:
+  - '600377'
 authority: 3
 not_to_be_confused_with:
 - xic600-2018-assembly-hardware-kit

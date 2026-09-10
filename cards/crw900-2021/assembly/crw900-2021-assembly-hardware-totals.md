@@ -19,7 +19,8 @@ facets:
   - crw900-2021
   section: assembly
   code: '*'
-  model_number: '900948'
+  model_number:
+  - '900948'
 keywords:
 - hardware
 - fasteners

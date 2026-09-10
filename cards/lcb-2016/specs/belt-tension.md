@@ -25,7 +25,8 @@ facets:
   - lcb-2016
   section: specs
   code: '*'
-  model_number: '511116'
+  model_number:
+  - '511116'
 authority: 3
 not_to_be_confused_with: []
 see_also:

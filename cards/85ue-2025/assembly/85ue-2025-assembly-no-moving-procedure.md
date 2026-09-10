@@ -27,7 +27,8 @@ facets:
   - 85ue-2025
   section: assembly
   code: '*'
-  model_number: '785045'
+  model_number:
+  - '785045'
 authority: 3
 not_to_be_confused_with:
 - crw800-2024-assembly-folding-and-moving

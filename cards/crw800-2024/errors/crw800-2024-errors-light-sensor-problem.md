@@ -25,7 +25,8 @@ facets:
   - crw800-2024
   section: errors
   code: no-code
-  model_number: '800925'
+  model_number:
+  - '800925'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-errors-speed-abnormal-then-data-resets

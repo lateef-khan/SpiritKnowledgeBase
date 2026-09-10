@@ -25,7 +25,8 @@ facets:
   - crs800s-2024
   section: errors
   code: motor-error
-  model_number: '800525'
+  model_number:
+  - '800525'
 authority: 3
 not_to_be_confused_with:
 - cvc800-e-2-tension-motor-error

@@ -25,7 +25,8 @@ facets:
   - lcb-2013
   section: assembly
   code: '*'
-  model_number: '511112'
+  model_number:
+  - '511112'
 authority: 3
 not_to_be_confused_with: []
 see_also: []

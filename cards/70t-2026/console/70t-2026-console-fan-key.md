@@ -24,7 +24,8 @@ facets:
   - 70t-2026
   section: console
   code: '*'
-  model_number: '770885'
+  model_number:
+  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-console-built-in-fan

@@ -27,7 +27,8 @@ facets:
   - crw900-2021
   section: warranty
   code: '*'
-  model_number: '900948'
+  model_number:
+  - '900948'
 authority: 3
 not_to_be_confused_with:
 - spirit-rower-warranty-effective-dates

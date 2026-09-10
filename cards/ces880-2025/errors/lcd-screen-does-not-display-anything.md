@@ -26,7 +26,8 @@ facets:
   - ces880-2025
   section: errors
   code: no-display
-  model_number: '880025'
+  model_number:
+  - '880025'
 authority: 3
 not_to_be_confused_with:
 - ces880-2025-errors-lcd-not-bright-incomplete-or-imperfect

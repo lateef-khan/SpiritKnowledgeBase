@@ -24,7 +24,8 @@ facets:
   - xt385-2023
   section: safety
   code: '*'
-  model_number: '385823'
+  model_number:
+  - '385823'
 authority: 3
 not_to_be_confused_with:
 - xt185-2023-user-weight-limit

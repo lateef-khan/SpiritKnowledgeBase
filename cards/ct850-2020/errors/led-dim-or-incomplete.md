@@ -25,7 +25,8 @@ facets:
   - ct850-2020
   section: errors
   code: no-code
-  model_number: '850840'
+  model_number:
+  - '850840'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-led-displays-dim-or-incomplete

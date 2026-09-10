@@ -28,7 +28,8 @@ facets:
   - 85s-2025
   section: console
   code: '*'
-  model_number: '785545'
+  model_number:
+  - '785545'
 authority: 3
 not_to_be_confused_with:
 - csc880-2025-console-bluetooth-with-ftms-declared-with-no-pairing-procedure

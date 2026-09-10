@@ -27,7 +27,8 @@ facets:
   - 85s-2025
   section: specs
   code: '*'
-  model_number: '785545'
+  model_number:
+  - '785545'
 authority: 3
 not_to_be_confused_with:
 - spirit-climber-specs-rehabilitation-stepper-brake-magnets-on-a-disc

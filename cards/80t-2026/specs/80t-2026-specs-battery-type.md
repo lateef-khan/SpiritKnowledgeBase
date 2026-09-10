@@ -27,7 +27,8 @@ facets:
   - 80t-2026
   section: specs
   code: '*'
-  model_number: '780885'
+  model_number:
+  - '780885'
 authority: 3
 not_to_be_confused_with: []
 see_also:

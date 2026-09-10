@@ -29,7 +29,8 @@ facets:
   - cic800-2021
   section: maintenance
   code: '*'
-  model_number: '800390'
+  model_number:
+  - '800390'
 authority: 3
 not_to_be_confused_with:
 - cic850-2022-maintenance-belt-tension-behind-the-top-and-right-guards

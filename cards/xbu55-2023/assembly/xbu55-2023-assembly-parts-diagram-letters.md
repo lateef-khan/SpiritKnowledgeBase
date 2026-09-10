@@ -26,7 +26,8 @@ facets:
   - xbu55-2023
   section: assembly
   code: '*'
-  model_number: '552123'
+  model_number:
+  - '552123'
 authority: 3
 not_to_be_confused_with:
 - spirit-xbu55-assembly-parts-diagram-callouts

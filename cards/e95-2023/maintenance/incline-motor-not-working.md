@@ -26,7 +26,8 @@ facets:
   - e95-2023
   section: maintenance
   code: '*'
-  model_number: '595022'
+  model_number:
+  - '595022'
 authority: 3
 not_to_be_confused_with: []
 see_also:

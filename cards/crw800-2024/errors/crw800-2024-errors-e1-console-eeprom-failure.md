@@ -25,7 +25,8 @@ facets:
   - crw800-2024
   section: errors
   code: e1
-  model_number: '800925'
+  model_number:
+  - '800925'
 authority: 3
 not_to_be_confused_with:
 - crw800-2024-errors-e2-cable-tension-communication-error

@@ -25,7 +25,8 @@ facets:
   - f85-2019
   section: errors
   code: e0
-  model_number: '585818'
+  model_number:
+  - '585818'
 authority: 3
 not_to_be_confused_with:
 - f85-2019-e1-no-rpm-signal

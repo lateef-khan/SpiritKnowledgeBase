@@ -24,7 +24,8 @@ facets:
   - r72-2015
   section: assembly
   code: '*'
-  model_number: '572115'
+  model_number:
+  - '572115'
 authority: 3
 not_to_be_confused_with: []
 see_also: []

@@ -23,7 +23,8 @@ facets:
   - f65-2026
   section: errors
   code: e04
-  model_number: '565826'
+  model_number:
+  - '565826'
 authority: 3
 not_to_be_confused_with:
 - f65-2026-e02-hall-mistake

@@ -28,7 +28,8 @@ facets:
   - xt185-2023
   section: console
   code: '*'
-  model_number: '185823'
+  model_number:
+  - '185823'
 authority: 3
 not_to_be_confused_with: []
 see_also:

@@ -28,7 +28,8 @@ facets:
   - e95-2026
   section: assembly
   code: '*'
-  model_number: '595026'
+  model_number:
+  - '595026'
 authority: 3
 not_to_be_confused_with: []
 see_also:

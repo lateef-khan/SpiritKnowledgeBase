@@ -29,7 +29,8 @@ facets:
   - xt385-2015
   section: specs
   code: '*'
-  model_number: '385815'
+  model_number:
+  - '385815'
 authority: 3
 not_to_be_confused_with:
 - xt-2015-specs-speed-and-incline-range-xt185-xt285

@@ -26,7 +26,8 @@ facets:
   - crw800h2o
   section: programs
   code: '*'
-  model_number: '800998'
+  model_number:
+  - '800998'
 authority: 3
 not_to_be_confused_with:
 - crw900-2021-programs-target-heart-rate-set-by-age-between-65-and-85-percent

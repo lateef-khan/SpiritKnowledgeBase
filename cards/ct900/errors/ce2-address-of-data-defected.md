@@ -21,7 +21,8 @@ facets:
   - ct900
   section: errors
   code: ce2
-  model_number: '900825'
+  model_number:
+  - '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-ce1-communication-command-defected

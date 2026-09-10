@@ -25,7 +25,8 @@ facets:
   - xe350-2005
   section: console
   code: '*'
-  model_number: '350005'
+  model_number:
+  - '350005'
 authority: 3
 not_to_be_confused_with: []
 see_also:

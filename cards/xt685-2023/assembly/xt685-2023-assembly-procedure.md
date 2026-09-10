@@ -28,7 +28,8 @@ facets:
   - xt685-2023
   section: assembly
   code: '*'
-  model_number: '685823'
+  model_number:
+  - '685823'
 authority: 3
 not_to_be_confused_with:
 - xt185-xt285-2023-assembly-procedure

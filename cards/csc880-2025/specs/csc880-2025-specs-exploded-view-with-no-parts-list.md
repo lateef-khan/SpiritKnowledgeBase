@@ -29,7 +29,8 @@ facets:
   - csc880-2025
   section: specs
   code: '*'
-  model_number: '880665'
+  model_number:
+  - '880665'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-specs-no-parts-list

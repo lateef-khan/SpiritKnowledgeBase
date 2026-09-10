@@ -29,7 +29,8 @@ facets:
   - xbr95-2023
   section: maintenance
   code: '*'
-  model_number: '951123'
+  model_number:
+  - '951123'
 authority: 3
 not_to_be_confused_with:
 - cu900ent-general-maintenance

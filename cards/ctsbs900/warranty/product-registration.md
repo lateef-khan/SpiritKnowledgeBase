@@ -23,7 +23,8 @@ facets:
   - ctsbs900
   section: warranty
   code: '*'
-  model_number: '900885'
+  model_number:
+  - '900885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-warranty-registration

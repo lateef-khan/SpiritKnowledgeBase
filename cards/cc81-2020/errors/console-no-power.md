@@ -25,7 +25,8 @@ facets:
   - cc81-2020
   section: errors
   code: '*'
-  model_number: '581519'
+  model_number:
+  - '581519'
 authority: 3
 not_to_be_confused_with: []
 see_also:

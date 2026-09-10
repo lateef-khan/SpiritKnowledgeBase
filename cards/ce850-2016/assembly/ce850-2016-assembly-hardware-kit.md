@@ -30,7 +30,8 @@ facets:
   - ce850-2016
   section: assembly
   code: '*'
-  model_number: '850045'
+  model_number:
+  - '850045'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce850-assembly-hardware-kit
