@@ -1,6 +1,6 @@
 ---
 id: sb900-2023-model-overview
-title: 'What this indoor cycle is: model number, factory code and drive system'
+title: 'What this indoor cycle is: factory code and drive system'
 kind: spec
 question: What is the Sole SB900-2023, and what console and resistance does
   it use?

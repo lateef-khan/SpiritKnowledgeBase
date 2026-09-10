@@ -1,6 +1,6 @@
 ---
 id: b94-2016-model-overview
-title: "What this upright bike is: model number, factory code and drive system"
+title: "What this upright bike is: factory code and drive system"
 kind: spec
 question: "What is the B94-2016, and what console and resistance does it use?"
 asked_as:

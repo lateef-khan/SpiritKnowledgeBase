@@ -1,6 +1,6 @@
 ---
 id: r92-2016-model-overview
-title: "What this recumbent bike is: model number, factory code and drive system"
+title: "What this recumbent bike is: factory code and drive system"
 kind: spec
 question: "What is the R92-2016, and what console and resistance does it use?"
 asked_as:

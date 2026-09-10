@@ -1,6 +1,6 @@
 ---
 id: lcb-2023-model-overview
-title: 'What this light commercial upright bike is: model number, factory code and
+title: 'What this light commercial upright bike is: factory code and
   drive system'
 kind: spec
 question: What is the Sole LCB-2023, and what console and resistance does

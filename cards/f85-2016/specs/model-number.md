@@ -1,6 +1,6 @@
 ---
 id: f85-2016-model-number
-title: The code on the service manual cover and where the model year comes from
+title: The ST535 code on the service manual cover and where the model year comes from
 kind: spec
 question: What does the code on the F85-2016 service manual cover mean, and where does
   its model year come from?

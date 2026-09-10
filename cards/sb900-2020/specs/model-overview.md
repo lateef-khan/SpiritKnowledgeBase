@@ -1,6 +1,6 @@
 ---
 id: sb900-2020-model-overview
-title: "What this indoor cycle is: model number, factory code and drive system"
+title: "What this indoor cycle is: factory code and drive system"
 kind: spec
 question: "What is the SB900-2020, and what console and resistance does it use?"
 asked_as:
