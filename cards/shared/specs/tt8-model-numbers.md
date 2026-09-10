@@ -43,6 +43,8 @@ not_to_be_confused_with: []
 see_also:
 - tt8-2016-ac-drive-motor-spec
 - tt8-2019-ac-drive-motor-spec
+- sole-media-apps-2020-touchscreen
+- sole-start-button-grayed-2023
 source:
   ref: custservice-model-numbers
   locator: rows tt8-2016 to tt8-2023; no row for tt8-2020

@@ -30,7 +30,9 @@ facets:
   - '577818'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- s77-2016-model-number
+- s77-2019-model-number
 source:
   ref: custservice-model-numbers
   locator: rows s77-2016 to s77-2019

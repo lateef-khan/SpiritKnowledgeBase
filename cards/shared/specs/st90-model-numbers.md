@@ -33,7 +33,10 @@ facets:
   - '590822'
 authority: 3
 not_to_be_confused_with: []
-see_also: []
+see_also:
+- sole-media-apps-2020-touchscreen
+- st90-2021-model-number
+- st90-2023-model-number
 source:
   ref: custservice-model-numbers
   locator: row st90-2023; no row for st90, st90-2020, st90-2021
