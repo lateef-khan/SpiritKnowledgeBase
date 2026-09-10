@@ -52,6 +52,20 @@ facets:
   - cu900ent
   - mt200-2010
   - mt200-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -244,3 +258,25 @@ in their Fitness Equipment Safety Instructions: the pulse sensors are not medica
 transmitter strap sold separately is a much more accurate method, the user's movement may affect
 accuracy, and the sensors are exercise aids for heart rate trends in general. All six do make the
 chest-strap comparison. No figure or claim differs from the 2021 books.
+
+## All fourteen Spirit residential bike manuals print the disclaimer, in two lengths
+
+**The ten earlier books print the long form**, which recommends the chest strap in the same breath:
+
+> The pulse sensors are not medical devices. Their purpose is to provide you with an approximate
+> measurement in relation to your target heart rate. Use of a chest transmitter strap (sold
+> separately) is a much more accurate method of heart rate analysis. Various factors, including the
+> user's movement, may affect the accuracy of heart rate readings. The pulse sensors are intended
+> only as exercise aids in determining heart rate trends in general.
+
+XBR95 2016, 2018 and 2021; XBR55 2019 and 2021; XBR55ENT-2021; XBU55 2019 and 2021; XBU55ENT-2021;
+and XBR25-2019.
+
+**The four 2023 books print the short form**, which drops the target-heart-rate sentence and the
+chest-strap recommendation and keeps the rest: item 18 of the numbered list in XBR25-2023,
+XBR55-2023 and XBU55-2023, and item 10 in XBR95-2023. **A 2023 owner is not told from this page that
+a chest strap is more accurate.**
+
+**The 2023 books also carry it on the safety warning sticker**, in a third and blunter form -
+`Heart Rate monitoring systems can be inaccurate; use them for reference only`
+(`spirit-xb-2023-safety-warning-sticker-text`).

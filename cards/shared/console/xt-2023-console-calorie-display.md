@@ -24,6 +24,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   - xe395-2023
   - xe795-2018
   - xe795-2021
@@ -48,9 +59,7 @@ see_also:
 - spirit-xe-console-calorie-note-you-keep-burning-at-an-accelerated-rate-for-an-hour
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: XT185 2023 page 22, FEATURES - CONTINUED / Calorie Display; XE795 2021 p. 17 Calorie Display;
-    XE395 2023 p. 24 and XE795 2023 p. 23, FEATURES - CONTINUED / Calorie Display; XE795 2018 p. 17
-    and XE895 2018 p. 19, Calorie Display
+  locator: XT185 2023 page 22, FEATURES - CONTINUED / Calorie Display; XE795 2021 p. 17 Calorie Display; XE395 2023 p. 24 and XE795 2023 p. 23, FEATURES - CONTINUED / Calorie Display; XE795 2018 p. 17 and XE895 2018 p. 19, Calorie Display; XBR95 2016, 2018 and 2021 p. 15, XBR55/XBU55 2019 and 2021 p. 16, all Calorie Display; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55/XBU55 2023 p. 22, all FEATURES - CONTINUED
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +87,17 @@ XG400 and XE395 name the calorie window nowhere but in their program instruction
 same text: `spirit-xe-console-calorie-note-you-keep-burning-at-an-accelerated-rate-for-an-hour`. The
 **XE795 (2018 and 2021) and the XE895-2018** are the machines that print a shortened version of that
 one, calling the readings "only an estimate" and dropping the after-exercise claim entirely.
+
+**Eleven Spirit residential bike printings print a Calorie Display paragraph too**, so this card now
+covers bikes as well.
+
+**The second sentence is worded two ways and the difference is only grammar.** The **XBR95** of 2016,
+2018 and 2021 and **all four 2023 bikes** print "...different exercise sessions, **and is not to be
+used** for medical purposes", the same wording as the treadmills and ellipticals. The **XBR55 and
+XBU55** of 2019 and 2021 print "...different exercise sessions, **which cannot be used** for medical
+purposes". Neither says anything the other does not.
+
+**The XBR25-2019 and the two ENT bikes have no Calorie Display paragraph at all.** They name the
+calorie window nowhere but in their program instructions. Every one of the fourteen bike manuals does
+print the longer CALORIE NOTE warning, which is a different piece of text:
+`spirit-xe-console-calorie-note-you-keep-burning-at-an-accelerated-rate-for-an-hour`.

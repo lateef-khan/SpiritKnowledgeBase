@@ -2,7 +2,7 @@
 id: xe395ent-2021-console-panel-call-outs-and-the-audio-jack
 title: 'The console panel: touchscreen, reading rack, speakers, swivel fan, cargo compartment and a 3.5 mm input-only jack'
 kind: fact
-question: What is on the console of a Spirit xe395ent-2021 elliptical?
+question: What is on the console of a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
 asked_as:
 - what is on my xe395ent console
 - can i plug headphones into my elliptical
@@ -21,9 +21,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe395ent-2021
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   section: console
   code: '*'
@@ -36,7 +38,7 @@ see_also:
 - spirit-xe-console-speakers-take-an-audio-cable-and-have-no-volume-control
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: p. 18, XE395ENT CONSOLE OPERATION drawing
+  locator: p. 18, XE395ENT CONSOLE OPERATION drawing; XBR55ENT and XBU55ENT p. 15, CONSOLE OPERATION
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +68,16 @@ bar on the Homescreen and during a workout:
 
 **A USB charging port is described in the text but is not on this drawing**:
 `spirit-xe-console-usb-port-charges-a-device-but-saves-no-data`.
+
+**Both Spirit ENT residential bikes print the same seven call-outs**, so this card is no longer
+elliptical-only: the **XBR55ENT-2021** and the **XBU55ENT-2021**, each on its own **p. 15**. Same
+Touchscreen Display, same Phone and Tablet Reading Rack, same Integrated Speakers for MP3 Player, same
+Swivel Fan, same cargo compartment, same **3.5mm Audio-input Only (no output)** and same Easy-Touch
+Control Keys. The two bike drawings differ from each other only in the model name printed above them.
+
+**This is not the console face of the commercial ENT bikes.** The CR800ENT, CU800ENT-2022 and
+CU800ENT-2024 drawings name five things - a touchscreen, a tablet rack, an adjustable fan angle, a
+**USB Charging port** and the Start, Stop and Level controls - and no audio jack, no speakers and no
+cargo compartment: `spirit-ent-bike-console-layout-touchscreen`. **The two residential ENT bikes do
+have a USB port**, described in their text on p. 18, but their drawing does not mark it, exactly as on
+the XE395ENT.

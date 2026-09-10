@@ -2,7 +2,7 @@
 id: spirit-bike-programs-preset-setup-steps
 title: A preset asks for age, weight, time and a max level, and Up or Down then shifts the whole profile
 kind: procedure
-question: How do I set up a preset workout program on a Spirit commercial bike with an LED console?
+question: How do I set up a preset workout program on a Spirit bike with an LED console?
 asked_as:
 - how do i start a program on the bike
 - how do i change the difficulty of the hill program
@@ -31,6 +31,18 @@ facets:
   - cu800-2021
   - cu900-2018
   - cu900-2025
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   section: programs
   code: '*'
 authority: 3
@@ -41,7 +53,7 @@ see_also:
 - spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-max-level-five
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 18 (scan 1 PDF p. 20); CR900 2018 p. 20; CU900 2018 p. 19; CR800 2021 p. 21; CU800 2021 p. 20; CR800 2023 p. 21; CR900 2025 p. 20; CU900 2025 p. 19'
+  locator: 'CU800 2012 printed p. 18 (scan 1 PDF p. 20); CR900 2018 p. 20; CU900 2018 p. 19; CR800 2021 p. 21; CU800 2021 p. 20; CR800 2023 p. 21; CR900 2025 p. 20; CU900 2025 p. 19; XBR95 2016/2018/2021 printed p. 26; XBR25 2019 p. 21; XBR55 2019/2021 p. 23; XBU55 2019/2021 p. 23; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +80,14 @@ Down there affects only the present column. The preset behaviour is as printed a
 
 **The touchscreen bikes do not work this way.** On an ENT console the parameters are tapped on a
 setup screen - see `spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-max-level-five`.
+
+**The twelve LED-console residential XBR and XBU manuals print the same steps** - age, weight, time,
+Max Resistance Level, then Start - and the same explanation that Up or Down shifts the whole profile
+while the printed picture stays put so you can still see the shape of the workout.
+
+**The XBR95 books add a second place to press.** Their step 7 reads "press the Level Up/Down keys on
+the console **or above the heart rate sensor grips of the stationary handlebars**"; no other
+residential book mentions the handlebar keys.
+
+**The 2023 books reach a preset through the PROGRAM key** and use `+` and `-` in place of Up and
+Down. They also drop the sentence about the profile picture not changing.

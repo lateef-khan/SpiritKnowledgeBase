@@ -4,7 +4,8 @@ title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
 question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
   treadmill, a Spirit CE800, CE800ENT, CE900 or XE395 elliptical, or a Spirit CR800,
-  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, and get the
+  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or a Spirit
+  XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, and get the
   hardware ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
@@ -49,6 +50,16 @@ facets:
   - cu800ent-2022
   - cu900-2018
   - cu900ent
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe395-2010
   - xt685-2010
   section: assembly
@@ -56,6 +67,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-xbr55-assembly-tools-included
+- spirit-xbr-assembly-procedure
+- spirit-xbu55-assembly-procedure
+- xbr25-2019-assembly-procedure
 - spirit-cr900-assembly-tools-included
 - spirit-cu900-assembly-tools-included
 - spirit-cr800-assembly-tools-included
@@ -90,7 +105,16 @@ source:
     p. 5 of the CR900 2018, CU900 2018 and CU900ENT manuals, p. 6 of the CR900ENT
     manual and p. 7 of the CR800 2021, CR800 2023, CR800ENT, CU800 2021 and CU800ENT
     2022 manuals, and PDF p. 7 (printed 5) of the CU800 2012 manual, headed
-    Pre-Assembly
+    Pre-Assembly; and word for word on ten Spirit residential bikes - p. 6 of the
+    XBR95 2016, 2018 and 2021 manuals (`spirit-bike-xbr95-2016-owners-manual`,
+    `spirit-bike-xbr95-2018-owners-manual`, `spirit-bike-xbr95-2021-owners-manual`),
+    p. 7 of the XBR25 2019, XBR55 2019 and 2021 and XBU55 2019 and 2021 manuals
+    (`spirit-bike-xbr25-2019-owners-manual`, `spirit-bike-xbr55-2019-owners-manual`,
+    `spirit-bike-xbr55-2021-owners-manual`, `spirit-bike-xbu55-2019-owners-manual`,
+    `spirit-bike-xbu55-2021-owners-manual`) and p. 8 of the XBR55ENT and XBU55ENT
+    manuals (`spirit-bike-xbr55ent-2021-owners-manual`,
+    `spirit-bike-xbu55ent-2021-owners-manual`), in each case headed with the machine
+    name followed by PRE ASSEMBLY / UNPACKING
   extracted_at: '2026-09-09'
 ---
 
@@ -184,3 +208,20 @@ front of you.
 **The three newest bike manuals do not use these words.** The CR900 2025, CU900 2025
 and CU800ENT 2024 manuals print the four-item list that adds "inspect for any damage
 or missing parts" - see [that card](ct900-pre-assembly.md).
+
+## Ten Spirit residential bikes print the same two items
+
+The **XBR95** 2016, 2018 and 2021 manuals, the **XBR25 2019**, the **XBR55** 2019 and
+2021 manuals, the **XBR55ENT**, the **XBU55** 2019 and 2021 manuals and the
+**XBU55ENT** all print both items word for word, including "separated into four
+steps", and all ten print four. The heading is the machine name followed by PRE
+ASSEMBLY / UNPACKING, as on the nine commercial bikes above.
+
+**The four 2023 residential bikes do not use these words.** The XBR25 2023, XBR55
+2023, XBR95 2023 and XBU55 2023 manuals print the four-item list that adds "inspect
+for any damage or missing parts" - see [that card](ct900-pre-assembly.md).
+
+These ten cartons hold three different tool sets and two different hardware kits.
+See [the recumbent build](spirit-xbr-assembly-procedure.md),
+[the upright build](spirit-xbu55-assembly-procedure.md) and
+[the XBR25 build](../../xbr25-2019/assembly/xbr25-2019-assembly-procedure.md).

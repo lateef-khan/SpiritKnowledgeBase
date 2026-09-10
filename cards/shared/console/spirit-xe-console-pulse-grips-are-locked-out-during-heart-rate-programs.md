@@ -2,7 +2,7 @@
 id: spirit-xe-console-pulse-grips-are-locked-out-during-heart-rate-programs
 title: The grip sensors need both hands and are not usable while a heart rate program is running
 kind: fact
-question: Why do the pulse grips stop working during a heart rate program on a Spirit XE elliptical?
+question: Why do the pulse grips stop working during a heart rate program on a Spirit XE elliptical or XB bike?
 asked_as:
 - my elliptical stops reading my pulse in the heart rate program
 - do i need to hold both handles for the heart rate
@@ -20,9 +20,20 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   - xe395-2023
   - xe795-2018
   - xe795-2021
@@ -37,7 +48,7 @@ see_also:
 - spirit-xe795-console-dot-matrix-is-twenty-columns-of-boxes-ten-high
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 17 Pulse Grip Feature (same in the February 19 2021 printing); XE395 2023 p. 24; XE795 2023 p. 23, both under FEATURES - CONTINUED
+  locator: XE795 2021 p. 17 Pulse Grip Feature (same in the February 19 2021 printing); XE395 2023 p. 24; XE795 2023 p. 23, both under FEATURES - CONTINUED; XBR95 2016, 2018 and 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 16, all Pulse Grip Feature; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55/XBU55 2023 p. 22, all FEATURES - CONTINUED
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +78,24 @@ full, so the restriction reaches back to the August 2018 printing run rather tha
 The 2005, 2007 and 2010 manuals, the XE395-2018, both XE195 and XE295 printings, the XG400 and the
 XE395ENT describe the grips without it - **none of those has a Pulse Grip Feature paragraph at all**
 - so nothing there should be read as saying the grips are locked out.
+
+**Eleven Spirit residential bike printings print this paragraph too**, so this card is no longer
+elliptical-only. Both sensors or the chest strap, the pulse value shown whenever the upper display
+has a signal, and the same flat ban on the grips during Heart Rate Programs.
+
+**Where the sensors are splits the bikes the same way it splits the ellipticals.** The **XBR95** of
+2016, 2018 and 2021 puts them on the **stationary grips**; the **XBR55 and XBU55** of 2019 and 2021
+and **all four 2023 bikes** put them on the **front cross bar**. The 2019 and 2021 XBR55 and XBU55
+also add the XE795's "Refer to Important Safety Instructions (page 3) concerning Pulse Grip
+operation" note; the XBR95 printings and the 2023 books do not.
+
+**The XBR95 printings call it the Pulse Grip feature in both sentences**, as the 2018 and 2021 XE795
+does. The **XBR55, XBU55 and the four 2023 bikes write Grip Pulse in the second**, as the 2023
+ellipticals do.
+
+**The XBR25-2019 has no Pulse Grip Feature paragraph at all** - it is the only residential bike
+without one, and its 2023 successor added it. Nothing in the XBR25-2019 book should be read as saying
+its grips are locked out.
+
+**The two ENT bikes print no such paragraph either.** They pair a Bluetooth strap from the
+touchscreen Settings menu instead.

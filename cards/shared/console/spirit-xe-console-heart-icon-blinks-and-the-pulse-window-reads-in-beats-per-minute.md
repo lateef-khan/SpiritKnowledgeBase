@@ -2,7 +2,7 @@
 id: spirit-xe-console-heart-icon-blinks-and-the-pulse-window-reads-in-beats-per-minute
 title: Grasping the hand sensors or wearing the chest strap starts the heart icon blinking and fills the Pulse window
 kind: fact
-question: How does a Spirit XE elliptical pick up my heart rate, and why is nothing showing yet?
+question: How does a Spirit XE elliptical or XB bike pick up my heart rate, and why is nothing showing yet?
 asked_as:
 - why is my elliptical not showing my heart rate
 - how long before the elliptical picks up my pulse
@@ -21,9 +21,21 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   - xe100-2007
   - xe195-2019
   - xe195-2021
@@ -49,10 +61,7 @@ see_also:
 - xe150-2005-console-heart-rate-transmitter-is-an-option-not-an-inclusion
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 18;
-    XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual;
-    XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21;
-    XG400 2019 p. 20
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual; XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +87,18 @@ sensors are on the front cross bar rather than the stationary handlebars:
 
 **A chest strap is not supplied with every machine.** On the XE150 the transmitter is an optional
 extra: `xe150-2005-console-heart-rate-transmitter-is-an-option-not-an-inclusion`.
+
+**Twelve Spirit residential bike printings print this sentence word for word**, so this card is no
+longer elliptical-only. On the bikes it sits inside the **Program Keys** paragraph (2016-2021 books)
+or the **FEATURES** page (2023 books) rather than under a heading of its own: the machine has a built
+in heart rate monitoring system, the hand pulse sensors **on the stationary handle bars** or the chest
+transmitter start the **Heart Icon blinking**, it **may take a few seconds**, and the **Pulse Display
+Window** shows the reading in beats per minute.
+
+**Every one of the twelve says "stationary handle bars" here**, including the four 2023 bikes whose
+Pulse Grip Feature paragraph, two pages later, says the sensors are on the **front cross bar**. The
+same manual gives the sensors two addresses; the Pulse Grip paragraph is the one written about the
+sensors themselves. See `spirit-xe-console-pulse-grips-are-locked-out-during-heart-rate-programs`.
+
+**The two ENT bikes pick up heart rate a different way.** They pair a Bluetooth strap from the
+touchscreen and have no heart icon or Pulse Display Window described.

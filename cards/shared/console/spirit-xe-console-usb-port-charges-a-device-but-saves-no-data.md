@@ -36,6 +36,7 @@ see_also:
 - xe795-2023-console-usb-charging-needs-forty-rpm
 - xt-2023-console-spirit-plus-app-pairing
 - xe395ent-2021-console-profiles-and-the-spirit-app-link
+- xt-2023-console-usb-charging-port
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
   locator: XE395ENT p. 21 CHARGE PORTABLE DEVICES WITH USB PORT; XE395 2023 p. 24 and XE795 2023 p. 23, FEATURES - CONTINUED
@@ -68,3 +69,9 @@ owner of one of those to look for a port.**
 **Workout data leaves these machines another way.** The XE395-2023 and XE795-2023 sync over Bluetooth
 to the Spirit+ app (`xt-2023-console-spirit-plus-app-pairing`); the XE395ENT saves to the cloud over
 WiFi against a profile (`xe395ent-2021-console-profiles-and-the-spirit-app-link`).
+
+**Six Spirit residential bikes print the same three notes**, and they are carried on
+`xt-2023-console-usb-charging-port` rather than here so that one card holds them all: the XBR55-2023,
+XBR95-2023 and XBU55-2023, and the XBR55ENT-2021 and XBU55ENT-2021. **That card and this one state
+the same figures** - 5 Vdc, 1.0 amp, USB 2.0, charging only. **The XBR25 of either printing has no USB
+port.**

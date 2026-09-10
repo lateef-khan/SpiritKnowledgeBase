@@ -3,8 +3,8 @@ id: cu900ent-general-maintenance
 title: 'General bike maintenance: loose hardware, the crank arm nut and two leveling
   pads'
 kind: procedure
-question: What is the general maintenance routine for a Spirit commercial bike, and
-  what do I check when it squeaks or thumps?
+question: What is the general maintenance routine for a Spirit bike, and what do I
+  check when it squeaks or thumps?
 asked_as:
 - how do i maintain the bike after each workout
 - the bike squeaks and thumps, what do i check
@@ -40,6 +40,19 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xic600-2018
   - xic600-2021
   section: maintenance
@@ -59,6 +72,10 @@ see_also:
 - ct800-2016-maintenance-squeak-thump-or-clicking
 - ct900-sanitizing-equipment
 - spirit-bike-maintenance-machine-care-schedule
+- spirit-2026t-maintenance-post-workout-machine-care
+- spirit-xe-maintenance-no-sanitizing-section
+- xbr95-2023-maintenance-no-noise-or-levelling-section
+- spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: 'GENERAL MAINTENANCE, p. 38 (printed 38). The same three figures - 90%,
@@ -76,7 +93,23 @@ source:
     printed p. 33 (the two identical to each other at difflib 1.000), and spirit-bike-xic600-2018-owners-manual
     and spirit-bike-xic600-2021-owners-manual both printed p. 25 (identical to each
     other at difflib 1.000). All four pages were checked against a 300 dpi render;
-    native and rendered word counts match, so nothing is imaged.'
+    native and rendered word counts match, so nothing is imaged. Thirteen Spirit
+    residential XBR/XBU bike owner''s manuals print the same three figures and were
+    added in wave 14. Ten print them under GENERAL MAINTENANCE - spirit-bike-xbr95-2016-owners-manual
+    printed p. 35, spirit-bike-xbr95-2018-owners-manual p. 35, spirit-bike-xbr95-2021-owners-manual
+    p. 35, spirit-bike-xbr55-2019-owners-manual p. 33, spirit-bike-xbr55-2021-owners-manual
+    p. 33, spirit-bike-xbu55-2019-owners-manual p. 33, spirit-bike-xbu55-2021-owners-manual
+    p. 33, spirit-bike-xbr25-2019-owners-manual p. 28, spirit-bike-xbr55ent-2021-owners-manual
+    p. 44 and spirit-bike-xbu55ent-2021-owners-manual p. 44. Those ten blocks match each
+    other at difflib word level 0.973 to 1.000 and match the CR800 2021 and CU800 2021
+    commercial blocks at 0.979. Three print the same three remedies as two rows of a
+    troubleshooting table instead - spirit-bike-xbr25-2023-owners-manual printed p. 37,
+    spirit-bike-xbr55-2023-owners-manual p. 45 and spirit-bike-xbu55-2023-owners-manual
+    p. 44. spirit-bike-xbr95-2023-owners-manual prints none of it and is deliberately
+    absent from applies_to - xbr95-2023-maintenance-no-noise-or-levelling-section. Every
+    residential maintenance page was checked against a 300 dpi render (native 356 /
+    rendered 354 on the 2016 and 2021 XBR95; 269 / 270 on both ENTs; 185 / 183 on all
+    four 2023 books), so nothing on them is imaged.'
   extracted_at: '2026-09-09'
 ---
 
@@ -113,6 +146,38 @@ XIC600 printings say "one of **three** reasons" and number the same three I/II/I
 the two pedal-and-cleaner notes to items 1 and 2 of the list
 (`spirit-indoor-cycle-maintenance-pedal-internals-and-approved-cleaners`). **No figure changes** —
 90%, 2 pads and 14 mm on all sixteen.
+
+## Thirteen residential XBR and XBU bikes print it too
+
+The **XBR25**, **XBR55**, **XBR55ENT**, **XBR95**, **XBU55** and **XBU55ENT** owner's manuals
+carry the same three figures — **90%, 2 pads, 14 mm** — and the same crank arm nut. Ten of them
+print the list exactly as above, under **GENERAL MAINTENANCE**, one page before the warranty: the
+XBR95 of 2016, 2018 and 2021, the XBR55 of 2019 and 2021, the XBU55 of 2019 and 2021, the XBR25
+2019, and both November 2021 touchscreen books, the XBR55ENT and XBU55ENT. The only wording
+change in any of them is the XBR25 2019, which writes "This point cannot be stressed enough"
+where the other nine write "I cannot stress this point enough". **No figure changes.**
+
+## On the three 2023 residential bikes the same remedies moved into the troubleshooting table
+
+The **XBR25 2023**, **XBR55 2023** and **XBU55 2023** manuals print the three remedies as **two
+rows of a Troubleshooting table** — one row headed *Squeak, thump, clicking sound heard* and a
+second row headed *Rough feeling when using bike*, each repeating all three remedies in full — and
+**not** under a maintenance heading. The chapter itself is carded at
+`spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows`. Two consequences for those three books:
+
+- **They do not print item 1.** There is no "wipe down all areas in the sweat path" sentence
+  anywhere in them. Their maintenance chapter is the four-step post-workout routine instead —
+  `spirit-2026t-maintenance-post-workout-machine-care`. Quote items 2 and 3 of this card for those
+  machines, not item 1.
+- **"One of two reasons" is gone**, and with it the miscount; the table simply lists three
+  numbered remedies under each symptom.
+
+The figures are unchanged: 90% of noise calls, 2 levelling pads on the bottom of the rear
+stabilizer, 14 mm wrench.
+
+**The XBR95 2023 is the one residential bike this card does not cover.** Its book has no
+troubleshooting table and no noise section at all — no crank arm nut, no 90% figure, no pad count.
+See `xbr95-2023-maintenance-no-noise-or-levelling-section`. Do not read this card onto it.
 
 ## Four indoor cycles carry a schedule table this card does not
 

@@ -2,7 +2,7 @@
 id: xt485ent-2023-console-screen-mirroring
 title: Casting a phone or tablet to the console with Screen Mirroring
 kind: procedure
-question: How do I mirror my phone to the screen on a Spirit XT485ENT treadmill or XE395ENT elliptical?
+question: How do I mirror my phone to the screen on a Spirit XT485ENT treadmill, XE395ENT elliptical or ENT bike?
 asked_as:
 - how do i cast my phone to the treadmill screen
 - can i airplay to my treadmill
@@ -22,6 +22,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   - xt485ent-2023
   section: console
@@ -34,7 +36,7 @@ see_also:
 - xt485ent-2023-console-wifi-first-time-setup
 source:
   ref: spirit-treadmill-xt485ent-2023-owners-manual
-  locator: XT485ENT p. 27, SCREEN MIRRORING; XE395ENT 2021 p. 27, SCREEN MIRRORING
+  locator: XT485ENT p. 27, SCREEN MIRRORING; XE395ENT 2021 p. 27, SCREEN MIRRORING; XBR55ENT and XBU55ENT p. 24, SCREEN MIRRORING
   extracted_at: '2026-09-09'
 ---
 
@@ -55,3 +57,10 @@ browsing and retrieval uses the facets. Both manuals add the same line to their 
 
 **Casting needs the WiFi connection.** The set-up page states that without WiFi,
 casting content will not work; see `xt485ent-2023-console-wifi-first-time-setup`.
+
+**Both Spirit ENT residential bikes print this section word for word** on their **p. 24**, so this
+card now covers bikes as well: open the section, follow the on-screen instructions for iOS or
+Android, then the full screen and exit icons. They too print **no iOS or Android steps of their own**.
+
+**Screen mirroring is also reachable during a workout on these two.** Their WORKOUT VIEWS page says
+INTERNET and SCREEN MIRRORING work the same way as outside a workout.

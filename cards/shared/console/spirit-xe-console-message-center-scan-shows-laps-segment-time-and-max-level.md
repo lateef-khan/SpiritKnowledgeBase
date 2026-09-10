@@ -2,7 +2,7 @@
 id: spirit-xe-console-message-center-scan-shows-laps-segment-time-and-max-level
 title: The Message Center scans Program name, Speed, Watts, Laps, Segment time and Max level, four seconds each
 kind: fact
-question: How do I change what the Message Center shows on a Spirit XE elliptical?
+question: How do I change what the Message Center shows on a Spirit XE elliptical or XB bike?
 asked_as:
 - how do i see watts on my elliptical
 - what does the scrolling message on the elliptical show
@@ -22,9 +22,17 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -46,9 +54,7 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 19; XE395 2023 p. 23;
-    XE395 2018 p. 21; XE795 2018 p. 19; XE895 2018 p. 21; XE195 2019 p. 19; XE295 2019 p. 20;
-    XG400 2019 p. 19, all under Basic Information
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 19; XE395 2023 p. 23; XE395 2018 p. 21; XE795 2018 p. 19; XE895 2018 p. 21; XE195 2019 p. 19; XE295 2019 p. 20; XG400 2019 p. 19, all under Basic Information; XBR95 2016, 2018 and 2021 p. 17, XBR25 2019 p. 16, XBR55 2019 and 2021 p. 18, XBU55 2019 and 2021 p. 18, all Basic Information
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +84,19 @@ nothing in the manual says what its Message Center cycles.
 **This is not the two-Display-button console of the 2005 and 2007 machines.** Those step through
 four fixed pairs of readings instead:
 `spirit-xe-console-display-button-steps-through-four-sets-of-readings`.
+
+**Eight Spirit residential bike printings print this list word for word**, so this card is no longer
+elliptical-only: the **XBR95** of 2016, 2018 and 2021 (p. 17), the **XBR25-2019** (p. 16), the
+**XBR55** of 2019 and 2021 (p. 18) and the **XBU55** of 2019 and 2021 (p. 18). Program name first,
+then Speed for four seconds, Watts with the 100-watt light bulb line, then Laps completed, Segment
+time and Max level, and Enter to come back to the beginning.
+
+**Laps are on the list even where there is no lap track.** The XBR25-2019 has no 1/4 Mile Track
+paragraph at all but still scans Laps completed here and reports total Laps on its Workout Summary.
+
+**None of the four 2023 bikes has this paragraph.** Their FEATURES page lists what the console can
+display - RPM, Calories, Time, Distance, Pulse, Resistance, Program Name, Laps and Segment Time - but
+never says the Message Center cycles them or how long each stays up, exactly as on the XE795-2023.
+
+**The two ENT bikes have no Message Center.** Their workout stats sit in a fixed panel on the
+touchscreen.

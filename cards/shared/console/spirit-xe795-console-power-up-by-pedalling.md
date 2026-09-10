@@ -2,7 +2,7 @@
 id: spirit-xe795-console-power-up-by-pedalling
 title: The console runs off a built-in generator, so you pedal to power it up and it blanks when the flywheel stops
 kind: procedure
-question: How do I turn on a Spirit XE795 elliptical that has no power cord?
+question: How do I turn on a Spirit XE795 elliptical or XBR95 bike that has no power cord?
 asked_as:
 - how do i turn on my xe795 elliptical
 - my elliptical console will not light up
@@ -17,14 +17,16 @@ keywords:
 - flywheel
 - display turns off
 - self test
-- ver 1.0
-- self powered
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
   - xe795-2018
   - xe795-2021
   - xe795-2023
@@ -36,9 +38,11 @@ not_to_be_confused_with:
 see_also:
 - spirit-xe-console-power-up-self-test-with-the-totals-in-the-data-windows
 - xe795-2023-console-usb-charging-needs-forty-rpm
+- spirit-ce-console-pedal-to-power-up
+- spirit-xe-console-power-up-shows-odo-miles-and-hours
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 16 POWER (the February 19 2021 printing carries the same paragraph); XE795 2023 p. 15 Powering On
+  locator: XE795 2021 p. 16 POWER (the February 19 2021 printing carries the same paragraph); XE795 2023 p. 15 Powering On; XBR95 2016, 2018 and 2021 p. 14 POWER; XBR95 2023 p. 13 Powering On
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +77,29 @@ one of those owners to pedal to wake the console.
 
 **On the XE795-2023 the generator also limits USB charging** - it needs 40 RPM or more; see
 `xe795-2023-console-usb-charging-needs-forty-rpm`.
+
+**All four printings of the Spirit XBR95 residential recumbent bike are self-powered the same way**,
+so this card is no longer elliptical-only. The 2016, 2018 and 2021 manuals print it on **p. 14** under
+POWER and the 2023 manual on **p. 13** under **Powering On**: the bike **has a built-in generator for
+power and does not need to be plugged into an AC outlet**; **to power it up simply start to pedal and
+the console turns on automatically**.
+
+**The bike manuals print no flywheel stand-by sentence.** The half of this card's title about the
+display blanking when the flywheel stops is the **XE795's** wording and only the XE795's - none of the
+four XBR95 books says what the console does when you stop pedalling. Do not tell an XBR95 owner the
+manual says the display will blank.
+
+**Two of the three older XBR95 books also mis-name the machine.** The 2016, 2018 and 2021 POWER
+paragraphs open "Spirit Fitness **commercial** Semi - Recumbent Bikes have a built-in generator" in a
+manual whose own warranty page sells the machine as residential. The 2023 manual drops the word and
+names the XBR95 directly.
+
+**What the self-test then shows differs across the four.** The 2016, 2018 and 2021 books print an
+`ODO 123 MI 123 HRS` odometer line
+(`spirit-xe-console-power-up-shows-odo-miles-and-hours`); the 2023 book puts the totals in the
+distance and time windows
+(`spirit-xe-console-power-up-self-test-with-the-totals-in-the-data-windows`).
+
+**No other Spirit residential bike works this way.** The XBR25, XBR55, XBU55 and both ENT bikes are
+cord-powered. The commercial CR and CU bikes are generator machines but print a different paragraph:
+`spirit-ce-console-pedal-to-power-up`.

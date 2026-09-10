@@ -62,6 +62,10 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr55ent-2021
+  - xbr95-2023
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2021
   - xe295-2021
   - xe795-2021
@@ -88,6 +92,8 @@ see_also:
 - spirit-ct800-warranty-use-environment
 - spirit-xe-warranty-use-environment
 - spirit-xe795-warranty-light-commercial-periods
+- spirit-xb-warranty-use-environment
+- spirit-xb-warranty-light-commercial-periods
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: >-
@@ -135,8 +141,21 @@ source:
     spirit-bike-cic850-2022-owners-manual pp. 36 and 37 (text.md lines 790 and 825),
     spirit-bike-ab950-2024-owners-manual pp. 33 and 34 (text.md lines 1061 and 1104). The words
     prison and correctional appear nowhere in spirit-bike-cb900-2013-owners-manual or
-    spirit-bike-xic600-2018-owners-manual
-  extracted_at: '2026-09-09'
+    spirit-bike-xic600-2018-owners-manual Four of the fourteen Spirit XB residential upright
+    and recumbent bike manuals carry it, as a footnote under the warranty table only and
+    never as a numbered exclusion: spirit-bike-xbr55ent-2021-owners-manual p. 45 (text.md
+    line 1646), spirit-bike-xbu55ent-2021-owners-manual p. 45 (text.md line 1548),
+    spirit-bike-xbr95-2023-owners-manual p. 41 (text.md line 1878),
+    spirit-bike-xbu55-2023-owners-manual p. 41 (text.md line 1710). The words prison and
+    correctional appear nowhere in spirit-bike-xbr95-2016-owners-manual,
+    spirit-bike-xbr95-2018-owners-manual, spirit-bike-xbr95-2021-owners-manual,
+    spirit-bike-xbr25-2019-owners-manual, spirit-bike-xbr25-2023-owners-manual,
+    spirit-bike-xbr55-2019-owners-manual, spirit-bike-xbr55-2021-owners-manual,
+    spirit-bike-xbr55-2023-owners-manual, spirit-bike-xbu55-2019-owners-manual or
+    spirit-bike-xbu55-2021-owners-manual; the warranty-table page of five of those ten was
+    additionally rendered at 300 dpi and read with tesseract --psm 4, whose word count
+    matched the native extraction to within two words
+  extracted_at: '2026-09-10'
 ---
 
 **No.** The 2026 manuals say so twice, and both halves are worth quoting.
@@ -232,3 +251,17 @@ The other six carry it, and **three of the six print only one of the two halves*
 **The clause enters this range in October 2018.** The XIC600 manual effective **August 22, 2018** does not carry it; the AB900 manual effective **October 1, 2018** does. So it is not simply a 2021 addition - and the two XIC600 printings, three years apart, are the clean before-and-after pair (`spirit-indoor-cycle-warranty-residential-only-periods`).
 
 **That date is an indoor-cycle and air-bike date, not a Spirit-wide one.** Six Spirit XE and XG elliptical manuals straddle it - three effective August 22, 2018 and three effective February 04, 2019 - and not one of them picks the clause up. Read October 2018 as when this range changed, and check each other range separately.
+
+## Spirit XB home bikes: four of fourteen manuals, and the clause arrives in November 2021
+
+**No XBR95, XBR55, XBR25, XBU55, XBR55ENT or XBU55ENT manual carries a prisons item in its numbered exclusion list.** Where the clause appears at all it is a **footnote under the warranty table only**:
+
+> \*Prisons and correctional facilities are excluded from warranty coverage
+
+Four of the fourteen print it - the **XBR55ENT 2021**, the **XBU55ENT 2021**, the **XBR95 2023** and the **XBU55 2023**. On the two ENT bikes it sits under the single Residential row; on the two 2023 machines it is the footnote to the **Light Commercial Warranty** table, not to the home one.
+
+**Ten print it nowhere.** The words *prison* and *correctional* appear at no point in the **XBR95 2016, 2018 or 2021**, the **XBR25 2019 or 2023**, the **XBR55 2019, 2021 or 2023**, or the **XBU55 2019 or 2021**. Do not quote the exclusion to the owner of one.
+
+**This range dates the clause to November 30, 2021, not to October 2018.** Six XB manuals are effective between October 2018 and March 2021 - the XBR25 2019, XBR55 2019, XBU55 2019, XBR55 2021, XBU55 2021 and XBR95 2021 - and **none of the six states it**. The first XB manuals that do are the two ENT books, both effective November 30, 2021, which is the same date the XE295, XG400 and November XE795 printings pick it up. So the air bikes' October 2018 date reached neither the elliptical range nor this one.
+
+**Two 2023 XB manuals still do not carry it**, three years after the ENT bikes did. The XBR25 2023 and the XBR55 2023 print no Light Commercial table, and with no such table there is no footnote - so those two books, the newest in the range, state the exclusion nowhere while their XBR95 and XBU55 siblings of the **same August 07, 2023 effective date** state it. On this range the clause travels with the light commercial table, not with the printing date (`spirit-xb-warranty-light-commercial-periods`).

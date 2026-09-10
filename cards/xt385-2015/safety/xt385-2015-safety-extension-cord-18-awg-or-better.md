@@ -22,6 +22,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -95,3 +98,19 @@ apart, only the model.
 
 **The XG400 manuals print `E-Glide` where the others print `elliptical`.** The 2019 cover reads
 `XG400 E-Glide Trainer`; the gauge is the same.
+
+## The three Spirit XBR95 bike manuals print 18AWG too
+
+**XBR95-2016, XBR95-2018 and XBR95-2021 print `DO NOT USE AN EXTENSION CORD UNLESS IT IS A 18AWG OR
+BETTER, WITH ONLY ONE OUTLET ON THE END`** in capitals, in the same position on their safety
+instructions page.
+
+**Their seven sibling bike manuals ask for 14AWG** - XBR25-2019, XBR55-2019, XBR55-2021,
+XBR55ENT-2021, XBU55-2019, XBU55-2021 and XBU55ENT-2021
+(`xt-2015-safety-extension-cord-14-awg-or-better`). Nothing in any of the ten reconciles the two
+gauges.
+
+**The XBR95 is self-powered and has no cord to extend.** The same manual's POWER section says the
+bike runs on a built-in generator and does not need to be plugged into an AC outlet
+(`spirit-bike-safety-no-mains-outlet-needed`). This line is printed regardless; it is not evidence
+that the machine plugs in.

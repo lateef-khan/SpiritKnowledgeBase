@@ -64,6 +64,20 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -165,8 +179,19 @@ source:
     spirit-bike-cic850-2022-owners-manual p. 36 (text.md lines 778-779),
     spirit-bike-jb950-2022-owners-manual p. 71 (text.md lines 1779-1780),
     spirit-bike-ab950-2024-owners-manual p. 33 (text.md lines 1054-1055). Back-cover revision
-    stamps read from the last page of each PDF
-  extracted_at: '2026-09-09'
+    stamps read from the last page of each PDF. Fourteen Spirit XB residential upright and
+    recumbent bike manuals open their warranty section with the same sentence; each text.md
+    line cited is the effective-date line it follows: spirit-bike-xbr95-2016-owners-manual line
+    1229, spirit-bike-xbr95-2018-owners-manual line 1238, spirit-bike-xbr25-2019-owners-manual
+    line 1032, spirit-bike-xbr55-2019-owners-manual line 1304,
+    spirit-bike-xbu55-2019-owners-manual line 1029, spirit-bike-xbr55-2021-owners-manual line
+    1204, spirit-bike-xbu55-2021-owners-manual line 1121, spirit-bike-xbr95-2021-owners-manual
+    line 1221, spirit-bike-xbr55ent-2021-owners-manual line 1637,
+    spirit-bike-xbu55ent-2021-owners-manual line 1540, spirit-bike-xbr25-2023-owners-manual
+    line 1395, spirit-bike-xbr55-2023-owners-manual line 1928,
+    spirit-bike-xbr95-2023-owners-manual line 1865, spirit-bike-xbu55-2023-owners-manual line
+    1697
+  extracted_at: '2026-09-10'
 ---
 
 The periods in the warranty table are counted **from the date of retail sale, as determined by a sales receipt**.
@@ -292,3 +317,22 @@ Date of retail sale by receipt, or eighteen months from the original factory shi
 **On the two XIC600 manuals the two dates agree to the day** - back-cover stamps of 08.22.2018 and 11.30.2021 against warranties effective August 22, 2018 and November 30, 2021.
 
 **What follows the sentence is four different tables**, none of them the CR800 or CR900 table. Read the periods from `spirit-indoor-cycle-warranty-three-row-periods`, `spirit-indoor-cycle-warranty-residential-only-periods`, `spirit-air-bike-warranty-periods` or `spirit-jb950-warranty-commercial-only-periods`, never from each other.
+
+## The fourteen Spirit XB home bikes open with the same sentence, in two wordings
+
+**The clock is unchanged on all fourteen**: the date of retail sale, or eighteen months from the original factory shipping date when there is no receipt. What moves is how the sentence is phrased and what it calls the machine.
+
+| Manuals | Wording |
+|---|---|
+| XBR95 2016, 2018, 2021; XBR25 2019; XBR55 2019, 2021; XBU55 2019, 2021; XBR55ENT and XBU55ENT 2021 | "warrants all its **\<machine\>** parts ... as determined by **sale receipt**" |
+| XBR25 2023; XBR55 2023; XBR95 2023; XBU55 2023 | "warrants all its **home use** \<machine\> parts ... as determined by **a sales receipt**" |
+
+**The 2023 books add "home use" to the warranting clause** - the same two changes the XT and 2026 treadmill manuals make in reverse - while two of the four go on to print a Light Commercial table under it (`spirit-xb-warranty-light-commercial-periods`). The manual warrants "home use" parts and then states commercial periods for them; it never reconciles the two.
+
+**The XBR25 2019 names the warrantor in full**, *Spirit Fitness, Inc. (Spirit Fitness)*, and calls the machine a generic *fitness bike* - the only one of the fourteen that does either. The other nine older manuals name the machine by type: Semi - Recumbent Bike, Recumbent Bike or Upright Bike.
+
+**The effective dates run from January 25, 2016 to August 07, 2023**, and three machines share one date: the XBR95, XBR55 and XBU55 2023 books are all effective **August 07, 2023**, while the XBR25 2023 is effective July 25, 2023. The full list is in `spirit-xb-warranty-residential-periods`.
+
+**One of them dates itself twice and disagrees.** The XBR55 2023 stamps *Version: 6.0, Revision: 04.16.23* on its registration page and prints a warranty effective **August 07, 2023** - the warranty page was replaced without the version stamp being bumped (`spirit-xb-warranty-registration`).
+
+**What follows the sentence is not one table.** Thirteen of the fourteen print Frame Lifetime, Brake Lifetime, Parts 10 Years, Labor 1 Year; the XBR25 2019 prints Parts **5 Years** (`xbr25-2019-warranty-residential-five-year-parts`). Read the periods from the machine's own card, never from a Spirit commercial bike one.

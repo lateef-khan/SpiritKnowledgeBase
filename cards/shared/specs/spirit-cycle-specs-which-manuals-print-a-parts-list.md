@@ -39,6 +39,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-specs-which-manuals-print-a-parts-list
+- spirit-residential-bike-specs-which-manuals-print-a-parts-list
 - spirit-ct800-specs-no-parts-list
 - spirit-2026t-specs-no-parts-list
 see_also:

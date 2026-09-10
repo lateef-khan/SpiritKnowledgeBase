@@ -40,6 +40,7 @@ see_also:
 - spirit-xe-warranty-use-environment
 - xt-2023-warranty-transfer
 - xt-2023-warranty-geographic-coverage
+- spirit-xb-2023-warranty-exclusions
 source:
   ref: spirit-elliptical-xe395-2023-owners-manual
   locator: WARRANTY - CONTINUED, "What is not covered? / EXCLUSIONS", text.md lines

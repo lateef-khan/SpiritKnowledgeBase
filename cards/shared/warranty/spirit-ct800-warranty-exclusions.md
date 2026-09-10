@@ -56,6 +56,7 @@ not_to_be_confused_with:
 - ctsbs900-warranty-exclusions
 - xt-2015-warranty-exclusions
 - xt-2023-warranty-exclusions
+- spirit-xb-warranty-exclusions
 see_also:
 - spirit-ct800-warranty-consumer-responsibilities
 - spirit-ct800-warranty-registration

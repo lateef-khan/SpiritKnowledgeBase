@@ -2,7 +2,7 @@
 id: spirit-xe-console-quick-start-with-twenty-resistance-levels
 title: Quick Start counts the time up from zero, with twenty resistance levels banded five at a time
 kind: procedure
-question: How do I start a workout without programming anything on a Spirit XE elliptical with twenty levels?
+question: How do I start a workout without programming anything on a Spirit XE elliptical or XB bike with twenty levels?
 asked_as:
 - how do i just start pedalling on my elliptical
 - how do i start the elliptical without picking a program
@@ -22,9 +22,19 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -46,7 +56,7 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 18; XE295 p. 19; XG400 p. 18; XE395 2010 p. 17; XE395 2023 p. 18, all under QUICK START
+  locator: XE195 p. 18; XE295 p. 19; XG400 p. 18; XE395 2010 p. 17; XE395 2023 p. 18, all under QUICK START; XBR25 2019 p. 16, XBR55 2019 and 2021 p. 18, XBU55 2019 and 2021 p. 16, XBR55ENT/XBU55ENT p. 16, all Quick Start; XBR25 2023 p. 15, XBR55/XBU55 2023 p. 16, QUICK START
   extracted_at: '2026-09-09'
 ---
 
@@ -86,3 +96,27 @@ console counts levels **1 to 16**.
 
 **The XE395ENT touchscreen has the same 20 levels but a different start.** You press **Start
 Workout** on the screen or the START key; see `xe395ent-2021-console-power-up-and-quick-start`.
+
+**Ten Spirit residential bike printings print the same twenty-level banding**, so this card is no
+longer elliptical-only: the **XBR25** of 2019 and 2023, the **XBR55** and **XBU55** of 2019, 2021 and
+2023, and both **ENT** touchscreens. Every one of them bands 1-5, 6-10, 11-15 and 16-20 exactly as
+the table above, and every one of them prints "extremely hard".
+
+| Manual | Page |
+|---|---|
+| XBR25-2019 | p. 16 |
+| XBR55 2019 and 2021 | p. 18 |
+| XBU55 2019 and 2021 | p. 16 |
+| XBR55ENT-2021, XBU55ENT-2021 | p. 16 |
+| XBR25-2023 | p. 15 |
+| XBR55-2023, XBU55-2023 | p. 16 |
+
+**How you start differs on the touchscreens.** The XBR55ENT and XBU55ENT say to press **START WORKOUT
+on the screen, or the Start key**; every LED-console bike says press Start. The ENT books still
+describe the dot matrix bottom row even though their console is a touchscreen.
+
+**The 2023 bikes print Level + / -** where the 2019 and 2021 bikes print Level Up/Down, and number the
+whole thing as two steps rather than two paragraphs. Nothing about the levels changes.
+
+**The XBR95 is the residential bike to keep off this card.** All four of its printings have **40**
+levels: `spirit-xe795-console-quick-start-with-forty-resistance-levels`.

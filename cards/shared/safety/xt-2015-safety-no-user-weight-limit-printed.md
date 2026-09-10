@@ -26,6 +26,14 @@ facets:
   - ce850-2016
   - ct800-2012
   - cu800-2012
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -207,3 +215,18 @@ same way, so this is not a scanning loss.
 (`spirit-ct800-safety-user-weight-limit-450-lbs`). That figure belongs to the 2018 and later
 machines. Nothing in the 2012 manual says it applies to the CU800-2012, so quoting it for that
 machine would be an invention.
+
+## Eight Spirit residential bike manuals print no limit either
+
+**XBR95-2016, XBR95-2018, XBR95-2021, XBR55-2019, XBR55-2021, XBU55-2019, XBU55-2021 and
+XBR25-2019 print no weight item on their safety instructions page and carry no specification
+table.** Their pages 3 to 5 were read from the text layer and from a 300 dpi render at the same
+time, and neither shows a weight bullet; the word *weight* in these eight books is the body weight
+keyed into the console for the calorie count and nothing else.
+
+**The figure was added, not changed.** The XBR55ENT-2021 and XBU55ENT-2021 manuals, printed the same
+year as two of the books above, end their safety list at `Recommended Weight Limit: 350 lb`, and all
+four 2023 manuals print `User Weight Limit: 350 lbs.`
+(`spirit-bike-safety-user-weight-limit-350-lb`). An owner of one of these eight will find no limit
+in their own book; do not tell them their machine has none, and do not read 350 lb back onto it as
+the manual's answer.

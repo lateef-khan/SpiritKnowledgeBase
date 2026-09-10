@@ -22,9 +22,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   section: safety
@@ -71,3 +78,22 @@ manual describes no DC supply anywhere.
 **Treat it as the same rule and say what the manual prints.** Disconnect the machine from the wall
 before removing a cover. Do not tell an XE195 owner their manual says AC when it says DC, and do not
 tell an XE295 owner theirs says DC.
+
+## Seven Spirit residential bike manuals say DC in the same sentence
+
+**XBR25-2019, XBR55-2019, XBR55-2021 and XBR55ENT-2021 print `NEVER remove any cover without first
+disconnecting D.C. power`**, with the stops; **XBU55-2019, XBU55-2021 and XBU55ENT-2021 print
+`disconnecting DC power`**, without. It opens the Important Electrical Instructions page in all
+seven, immediately above the ten percent voltage paragraph.
+
+**None of the seven reconciles it with the mains outlet the safety page asks for two pages
+earlier** - 115-volt for the XBR55 pair and the XBR55ENT, 110-volt for the XBU55 trio and the XBR25
+(`spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp`). These are
+mains-powered bikes whose cover-removal rule names DC, exactly as the XE195 books do.
+
+**The three XBR95 manuals print no cover-removal rule at all**, and neither does the XBR95-2023.
+
+**The three 2023 XB manuals say AC.** XBR25-2023, XBR55-2023 and XBU55-2023 print `NEVER remove any
+cover without first disconnecting AC power` on their ELECTRICAL SAFETY page
+(`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`). The wording changed between the
+generations of the same machine; quote the customer's own book.

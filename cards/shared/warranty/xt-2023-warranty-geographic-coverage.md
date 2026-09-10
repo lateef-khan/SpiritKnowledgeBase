@@ -65,6 +65,20 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -154,9 +168,9 @@ source:
     Bikes/bike backup: xe395-2018 pp. 38-39 (spirit-elliptical-xe395-2018-owners-manual text.md
     lines 1340, 1362-1363), xe795-2018 pp. 38-39 (lines 1290, 1313-1314), xe895-2018 pp. 37-38
     (lines 1382, 1405-1406), xe195-2019 pp. 33-34 (lines 1077, 1101-1102), xe295-2019 pp. 37-38
-    (lines 1180, 1202-1203), xg400-2019 pp. 36-37 (lines 1187, 1209-1210). The 48-states note in all eight Spirit indoor
-    cycle and air bike manuals, with the warrantor sentence immediately before it:
-    spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 463-464);
+    (lines 1180, 1202-1203), xg400-2019 pp. 36-37 (lines 1187, 1209-1210). The 48-states note
+    in all eight Spirit indoor cycle and air bike manuals, with the warrantor sentence
+    immediately before it: spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 463-464);
     spirit-bike-xic600-2018-owners-manual p. 27 (lines 924-925);
     spirit-bike-ab900-2018-owners-manual p. 47 (lines 1337-1338);
     spirit-bike-cic800-2021-owners-manual p. 22 (lines 505-506);
@@ -164,8 +178,18 @@ source:
     spirit-bike-cic850-2022-owners-manual p. 38 (lines 855-856);
     spirit-bike-jb950-2022-owners-manual p. 73 (lines 1856-1857);
     spirit-bike-ab950-2024-owners-manual, printed twice, pp. 35 and 36 (lines 1109-1110 and
-    1142-1143)
-  extracted_at: '2026-09-09'
+    1142-1143) All fourteen Spirit XB residential upright and recumbent bike manuals print both
+    sentences; the first 48-contiguous-states note is at spirit-bike-xbr95-2016-owners-manual
+    line 1295, spirit-bike-xbr95-2018-owners-manual line 1304,
+    spirit-bike-xbr25-2019-owners-manual line 1097, spirit-bike-xbr55-2019-owners-manual line
+    1370, spirit-bike-xbu55-2019-owners-manual line 1095, spirit-bike-xbr55-2021-owners-manual
+    line 1270, spirit-bike-xbu55-2021-owners-manual line 1187,
+    spirit-bike-xbr95-2021-owners-manual line 1288, spirit-bike-xbr55ent-2021-owners-manual
+    line 1703, spirit-bike-xbu55ent-2021-owners-manual line 1606,
+    spirit-bike-xbr25-2023-owners-manual line 1447, spirit-bike-xbr55-2023-owners-manual line
+    1980, spirit-bike-xbr95-2023-owners-manual line 1920, spirit-bike-xbu55-2023-owners-manual
+    line 1753
+  extracted_at: '2026-09-10'
 ---
 
 Two sentences, both printed in all five 2023 XT manuals, all five 2015 ones, the 2010 XT685, both ENT manuals, and the 2026 4.0T, 7.0T and 8.0T.
@@ -233,3 +257,18 @@ The outside-the-US sentence takes three slots. It is item **10** in the six CR80
 **Every one of the eight opens its warranty section by saying that *Spirit Fitness* warrants the machine, and then four of them close it by saying the warranties are made by *Spirit Manufacturing, Inc.*** Neither entity is defined in any of the eight manuals, and none says which honours a claim. Quote both sentences rather than choosing between them (`xt-2023-warranty-start-date`).
 
 **The outside-the-US sentence is missing from two of the eight.** *Warranties outside of the United States may vary. Please contact your local dealer for details* is item **9** in the CB900, both XIC600s, the CIC800, the CIC850 and the AB950, and it is **absent from the AB900 and the JB950** - whose exclusion lists end at item 8 and item 7 respectively. Both of those manuals instead print "For international customers, please contact your local distributer" in their CUSTOMER SUPPORT and SERVICE paragraphs, which is guidance rather than a statement about cover. The 48-states note is on all eight regardless.
+
+## The fourteen Spirit XB home bikes print both sentences, and split on both
+
+**The 48-contiguous-states note is on all fourteen**, and the two patterns split exactly at 2023:
+
+| Manuals | How many times | Wording |
+|---|---|---|
+| XBR95 2016, 2018, 2021; XBR25 2019; XBR55 2019, 2021; XBU55 2019, 2021; XBR55ENT and XBU55ENT 2021 | **once**, at the foot of the SERVICE page | "does not **apply to** Alaska or Hawaii" |
+| XBR25 2023; XBR55 2023; XBR95 2023; XBU55 2023 | **twice** - under the exclusions and again under the service steps | "does not **include**" first, then "does not **apply to**" |
+
+**The outside-the-warranty sentence names a different area on either side of the same line.** The ten older manuals read *Warranties outside of **North America** may vary*, as exclusion **8** of an eight-item list; the four 2023 manuals read *Warranties outside of **the United States** may vary*, as exclusion **9** of a nine-item list. Neither says what the warranty outside that area actually is, only that the local dealer is the authority.
+
+**All fourteen name Spirit Fitness, Inc. as the warrantor** in the note - *All warranties are made by Spirit Fitness, Inc.* - not Spirit Manufacturing and not the bare Spirit Fitness the CT800 2012 uses.
+
+The lists these sentences sit in are `spirit-xb-warranty-exclusions` and `spirit-xb-2023-warranty-exclusions`.

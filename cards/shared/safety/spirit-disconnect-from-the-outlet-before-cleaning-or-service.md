@@ -35,6 +35,19 @@ facets:
   - cvc800
   - mt200-2010
   - mt200-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -215,3 +228,25 @@ their second heading; **the XE795-2018 does not**, as neither 2021 XE795 printin
 **The XE795-2018 prints the DANGER line on a machine with no plug.** It is generator-powered and its
 parts list contains no power cord (`spirit-ce-safety-generator-produces-ac-power`), so the sentence
 is printed and unreconciled, as it is in both 2021 printings.
+
+## Thirteen Spirit residential bike manuals print the unplug-after-use form
+
+**XBR95-2016, XBR95-2018, XBR95-2021, XBR55-2019, XBR55-2021, XBR55ENT-2021, XBU55-2019,
+XBU55-2021, XBU55ENT-2021, XBR25-2019, XBR25-2023, XBR55-2023 and XBU55-2023** print it under the
+DANGER heading of their safety instructions page:
+
+> **DANGER - To reduce the risk of electric shock:** Always unplug this appliance from the
+> electrical outlet immediately after using and before cleaning.
+
+**This covers cleaning and not service work**, like the other manuals that print this form. None of
+the thirteen prints a separate before-service sentence.
+
+**The three XBR95 books that print it have no plug to pull.** XBR95-2016, XBR95-2018 and XBR95-2021
+are self-powered - the same manuals say the bike has a built-in generator and does not need to be
+plugged into an AC outlet (`spirit-bike-safety-no-mains-outlet-needed`) - so the sentence is
+boilerplate carried over from the mains-powered books.
+
+**The XBR95-2023 manual prints no DANGER heading and no unplug sentence at all.** Its thirteen-item
+safety list has no cord, plug or outlet item of any kind
+(`ab950-2024-safety-instructions-list`). That is an absence, and a consistent one: it is the one XB
+manual whose safety page was rewritten for a machine with no mains supply.

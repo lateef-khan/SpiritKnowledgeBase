@@ -28,6 +28,13 @@ facets:
   - ct800-2012
   - mt200-2010
   - mt200-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbu55-2023
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -168,3 +175,23 @@ unplug; its manual just never says to. **That is an absence, not a permission.**
 the machine is generator-powered and has no plug to pull
 (`spirit-ce-safety-generator-produces-ac-power`). That is an absence, not a permission to use it in
 a storm.
+
+## Seven Spirit residential bike manuals print the rule, and seven do not
+
+**Printed, with `fitness bike`:** XBR25-2019, XBR55-2019, XBR55-2021 and XBR55ENT-2021 -
+`NEVER use your fitness bike during an electrical storm. Surges may occur in your household power
+supply that could damage fitness bike components. Unplug the fitness bike during an electrical storm
+as a precaution.`
+
+**Printed, with `unit`:** XBR25-2023, XBR55-2023 and XBU55-2023, on their ELECTRICAL SAFETY page.
+
+**Not printed at all:** XBU55-2019, XBU55-2021, XBU55ENT-2021, and all four XBR95 books
+(2016, 2018, 2021, 2023).
+
+**The XBU55 books are the surprise.** They are otherwise the same book as the XBR55 books with the
+upright frame swapped in, and they carry the circuit-breaker and voltage paragraphs beside it, but
+their operation instructions page runs the other bullets and stops - the same shape the XE895-2018
+manual has. That is an absence in those three printings, not a permission: the rule was in the
+XBR55 book of the same year and returned to the XBU55 book in 2023. The four XBR95 books are
+self-powered and have no household supply to surge
+(`spirit-bike-safety-no-mains-outlet-needed`).

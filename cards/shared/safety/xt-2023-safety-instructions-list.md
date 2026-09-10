@@ -22,9 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xt185-2023
   - xt285-2023
   - xt385-2023
@@ -135,3 +138,19 @@ requirement, the 14AWG extension cord rule, the close-supervision and under-13 c
 and the Toluene and Acrylamide Proposition 65 box, none of which appear here. See
 `xt-2015-safety-instructions-list`, which carries that machine. Do not answer an XT485ENT owner
 from this list, or the reverse.
+
+## Three Spirit residential bikes print the same twenty-one items
+
+**The XBR25-2023, XBR55-2023 and XBU55-2023 owner's manuals print this page word for word**,
+including `being use` in item 11 and the boxed weight-and-power callout. All three print
+`21. User Weight Limit: 350 lbs.` (`spirit-bike-safety-user-weight-limit-350-lb`).
+
+**Item 12's cross-reference has nothing to point at in these three books.** The item reads
+`Connect this appliance to a properly grounded outlet only. See Grounding Instructions`, but none of
+the three manuals contains a Grounding Instructions section: the word *ground* appears in them twice
+and both times inside item 12 itself. Do not answer a grounding question for one of these bikes from
+`spirit-product-must-be-grounded` - see `spirit-xb-2023-safety-grounding-instructions-not-printed`.
+
+**The fourth 2023 XB manual prints a different list.** The XBR95-2023 is self-powered and its safety
+page runs to thirteen items with no cord, plug, outlet or grounding item at all
+(`ab950-2024-safety-instructions-list`).

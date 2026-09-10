@@ -42,6 +42,7 @@ not_to_be_confused_with:
 - cu800ent-2024-warranty-coverage-periods
 - spirit-ct800-warranty-commercial-periods
 - spirit-ce-warranty-commercial-periods
+- spirit-xb-warranty-light-commercial-periods
 see_also:
 - spirit-bike-warranty-use-environment
 - ct800ent-2022-warranty-console-periods

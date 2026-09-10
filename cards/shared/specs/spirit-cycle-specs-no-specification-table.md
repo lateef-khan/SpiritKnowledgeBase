@@ -40,6 +40,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-specs-no-specification-table
+- spirit-residential-bike-specs-no-specification-table
 - spirit-ce-specs-no-specification-table
 - spirit-xe-specs-no-specification-table
 see_also:

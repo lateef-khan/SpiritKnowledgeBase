@@ -19,9 +19,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2023
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xt185-2023
   - xt285-2023
   - xt385-2023
@@ -63,3 +67,27 @@ interior side of the treadmill's upright, no chemical named and no web address.
 sticker at all. What it prints instead, boxed beside its safety instructions, is the older
 Proposition 65 wording naming **Toluene and Acrylamide** and the address
 `www.P65Warnings.ca.gov`: `xt-2015-safety-proposition-65-warning`.
+
+## The four 2023 Spirit residential bikes describe the same sticker, on two different faces
+
+All four print the same sentence on their PRODUCT LABELS page, with the machine's own name:
+
+> This sticker will be found on the [face] of your Recumbent Bike's upright. The State of California
+> requires us to inform you that this unit was manufactured using chemicals that could cause harm
+> with improper use.
+
+| Manual | Where the sticker is |
+|---|---|
+| XBR25-2023, XBR55-2023 | **left side** of the Recumbent Bike's upright |
+| XBU55-2023 | **left side** of the Bike's upright |
+| XBR95-2023 | **interior side** of the Recumbent Bike's upright |
+
+`Left side` and `interior side` are not the same face. Give the location from the machine's own
+manual.
+
+**All four print the short sticker text: no chemical is named and no web address is given.** The ten
+earlier XB manuals print the other Proposition 65 text - Toluene, Acrylamide and
+www.P65Warnings.ca.gov, boxed inside the manual rather than described as a label
+(`xt-2015-safety-proposition-65-warning`) - except the XBR95-2016, which prints neither. The sticker
+artwork on the 2023 label page also carries `WARNING: Cancer and Reproductive Harm -
+www.P65Warnings.ca.gov`, which is on the label and not in the manual's own text.

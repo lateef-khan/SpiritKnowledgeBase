@@ -37,6 +37,20 @@ facets:
   - cr800ent-2023
   - cu800ent-2022
   - cu800ent-2024
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -192,3 +206,25 @@ appear nowhere in any of them, and there is no side, front, rear or ceiling dist
 size. That is an absence, not a permission. The outlet figure inside the same WARNING is 115 volt in
 four of them and 110 volt in the XE795-2018 and XE895-2018
 (`spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp`).
+
+## The fourteen Spirit residential bike manuals print no clearance figure either
+
+**No distance from a wall, no side or rear space, no ceiling height and no room size appears in any
+of the fourteen XBR or XBU owner's manuals**, in any year. The words *clearance*, *free area*,
+*free space* and *minimum space* are in none of them, and none prints a footprint-plus-margin
+drawing.
+
+What they say about where the bike may stand is the same two sentences:
+
+- **The shag-carpet rule, in all fourteen.** `Do not operate equipment on deeply padded, plush or
+  shag carpet. Damage to both carpet and equipment may result.`
+- **The flat level surface, in the ten earlier manuals only.** Their safety WARNING header reads
+  `install the bike on a flat level surface with access to a 115-volt, 15-amp grounded outlet`
+  (110-volt in the XBU55 trio and the XBR25-2019: `spirit-xe-safety-outlet-115-volt-15-amp`,
+  `spirit-xe-safety-outlet-110-volt-15-amp`). **The four 2023 manuals drop it** - their safety list
+  has no flat-level-surface sentence, so the carpet rule is the whole of what they say about the
+  floor.
+
+**Levelling is not a placement rule.** All four 2023 manuals tell you to adjust the levelling feet
+with an M14 wrench on their setting-up page; that is a setup step and says nothing about the space
+around the machine.

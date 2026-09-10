@@ -2,7 +2,7 @@
 id: spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
 title: The engineering menu whose Functions list ends with a Motor Test and a Safety item
 kind: procedure
-question: How do I get into engineering mode on a Spirit XE elliptical and what is in it?
+question: How do I get into engineering mode on a Spirit XE elliptical or XBR25, XBR55 or XBU55 bike, and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i switch my elliptical to metric
@@ -22,9 +22,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -42,10 +47,10 @@ see_also:
 - spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
 - xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
 - xe395-2018-errors-incline-calibration-three-key-hold
+- xe395-2023-console-engineering-mode-with-a-child-lock
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36; XE895 2018 p. 35;
-    XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under Engineering Mode Menu
+  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36; XE895 2018 p. 35; XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under Engineering Mode Menu; XBR25 2019 p. 28, XBR55 2019 and 2021 p. 33, XBU55 2019 and 2021 p. 33, all Engineering Mode Menu
   extracted_at: '2026-09-09'
 ---
 
@@ -93,3 +98,25 @@ XE795**, despite sharing its console face.
 Security line with an **Incline Calibration** keystroke - Start, Level up and Stop together for five
 seconds - which none of the other seven has, because none of them has a powered incline. It is
 carded separately as `xe395-2018-errors-incline-calibration-three-key-hold`.
+
+**Five Spirit residential bike printings print this menu word for word**, so this card is no longer
+elliptical-only: the **XBR25-2019** (p. 28) and the **XBR55** and **XBU55** of 2019 and 2021 (p. 33).
+Same three-key entry, same five-second hold, same four top-level items, and Functions ending in the
+same undescribed **Motor Test** and **Safety**.
+
+**The XBR25-2019 prints Security in the wrong place.** Its list runs the Functions items to
+**VIII. Security**, inside Functions, instead of breaking out to a top-level **4. Security** the way
+the XBR55, XBU55 and all eight ellipticals do. **The item and its description are identical** - "Allows
+the keypad to be locked to prevent unauthorized use" - so this is a numbering slip in that one book,
+not a different menu. Nothing else in the XBR25-2019 list differs.
+
+**The XBR95 is the residential bike to keep off this card.** All three of its LED printings end
+Functions with a **DA Test** instead, and have neither Motor Test nor Safety:
+`xe795-2021-console-engineering-mode-with-a-da-test`.
+
+**All four 2023 bikes moved to the newer menu** - Display Test in place of LCD Test, a fifteen-minute
+Sleep Mode, a described Motor test, a Child Lock and an Exit:
+`xe395-2023-console-engineering-mode-with-a-child-lock`.
+
+**Neither ENT bike has an engineering menu.** Their touchscreen Settings menu holds units, brightness,
+child lock and a software update, and no key test, odometer reset or diagnostics of any kind.

@@ -40,6 +40,7 @@ see_also:
 - spirit-xe-warranty-registration
 - xt-2023-warranty-transfer
 - xe195-2021-warranty-fitness-bike-wording
+- spirit-xb-warranty-exclusions
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: 'EXCLUSIONS, p. 29 (text.md lines 1055-1074). The same nine items, renumbered,

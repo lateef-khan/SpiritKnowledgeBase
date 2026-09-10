@@ -51,6 +51,15 @@ facets:
   - cu900-2018
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -270,3 +279,20 @@ www.P65Warnings.ca.gov, word for word as the 2021 books do. **The XE895-2018 run
 `For more information go to` on to the end of the harm sentence** where the other five break it to
 its own line; no word and no chemical changes. None of the six has a product labels page, so this
 boxed paragraph is the only Proposition 65 text in any of them.
+
+## Nine Spirit residential bike manuals print the boxed warning, and the oldest prints none
+
+**Word for word, naming Toluene and Acrylamide and giving www.P65Warnings.ca.gov**, boxed on the
+electrical page of XBR95-2018, XBR95-2021, XBR55-2019, XBR55-2021, XBR55ENT-2021, XBU55-2019,
+XBU55-2021, XBU55ENT-2021 and XBR25-2019.
+
+**The XBR95-2016 manual prints no Proposition 65 warning at all.** A loose search of the whole book
+returns no *Proposition*, no *Toluene*, no *Acrylamide*, no *California* and no *P65*; its pages 3
+to 5 read the same from the text layer and from a 300 dpi render. The warning was added between the
+2016 and the 2018 printing of the same book. That is an absence in the 2016 book, not a gap in the
+extraction.
+
+**The four 2023 XB manuals moved it to a sticker.** XBR25-2023, XBR55-2023, XBU55-2023 and
+XBR95-2023 print no Toluene, no Acrylamide and no web address; their PRODUCT LABELS page describes a
+Proposition 65 sticker on the machine in the short form instead
+(`xt-2023-safety-proposition-65-sticker`). The two are not interchangeable in either direction.

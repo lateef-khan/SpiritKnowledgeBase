@@ -40,6 +40,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-specs-console-display-type
+- spirit-residential-bike-specs-console-display-type
 see_also:
 - spirit-bike-console-no-console-at-all-tension-knob-only
 - spirit-bike-console-xic600-face-and-two-keys

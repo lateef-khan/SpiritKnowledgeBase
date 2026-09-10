@@ -39,6 +39,14 @@ facets:
   - cu800-2021
   - cu900-2018
   - cu900-2025
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe100-2007
   - xe195-2019
   - xe195-2021
@@ -64,10 +72,7 @@ see_also:
 - spirit-ce-console-quick-start-time-counts-up
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22; CE900 2021 p. 16; CE900
-    2025 p. 17; CES880 2025 p. 33; CE850 2016 p. 19; CE800 2013 p. 18 (printed 15); XE100/XE200 p. 23
-    and XE300 p. 35 of the XE100/XE200/XE300 manual; XE350/XE550 p. 22 of the XE150/XE350/XE550
-    manual; XE395 2010 p. 18; XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20
+  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22; CE900 2021 p. 16; CE900 2025 p. 17; CES880 2025 p. 33; CE850 2016 p. 19; CE800 2013 p. 18 (printed 15); XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300 manual; XE350/XE550 p. 22 of the XE150/XE350/XE550 manual; XE395 2010 p. 18; XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys
   extracted_at: '2026-09-09'
 ---
 
@@ -112,3 +117,18 @@ the same two ways the ellipticals do:**
 **The five touchscreen bikes have no program key.** Their programs are tiles behind an Exercise
 Programs or All Programs icon and there is no preview from the start-up screen; the CU800ENT-2024
 previews a program by tapping its card instead.
+
+**Eight Spirit residential bike printings print the full paragraph too**, all with **one key per
+program**: the XBR95 of 2016, 2018 and 2021 (p. 18), the XBR25-2019 (p. 17) and the XBR55 and XBU55
+of 2019 and 2021 (p. 19). Press a program key from the start-up screen to preview its profile, then
+the program key and **Enter** to select it and enter the data-setting mode.
+
+**The XBR95-2016 writes "program keys" in lower case** where the later books write Program Keys.
+Nothing else differs across the eight.
+
+**The four 2023 bikes print the shortened version**, exactly as the XE395-2023 and XE795-2023 do:
+"press **the program key** to preview what the program profile looks like", with no Enter step and no
+second sentence. They are deliberately not on this card.
+
+**Neither ENT bike has program keys.** Their programs are tiles behind the Workout Programs tab on
+the touchscreen.

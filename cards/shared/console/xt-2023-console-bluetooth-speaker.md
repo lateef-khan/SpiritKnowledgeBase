@@ -25,6 +25,9 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -41,7 +44,7 @@ see_also:
 - ce800ent-earphone-jack
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 22, USING THE SPIRIT+ APP, Bluetooth music paragraph
+  locator: page 22, USING THE SPIRIT+ APP, Bluetooth music paragraph; XBR95 2023 p. 19, XBR55 2023 and XBU55 2023 p. 20, at the foot of USING THE SPIRIT+ APP
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +79,17 @@ Bluetooth and no volume control on the console.
 **No other Spirit commercial elliptical plays music.** The CE800, CE850 and CE900 owner's manuals
 describe no Bluetooth audio at all, and the CE800ENT's audio comes out of an earphone jack that is an
 output only: `ce800ent-earphone-jack`.
+
+**The XBR95-2023 (p. 19), XBR55-2023 and XBU55-2023 (p. 20) residential bike owner's manuals print
+this word for word**, so this card covers bikes as well. Same three steps, same **"Bt-speaker"** name,
+printed at the foot of the same USING THE SPIRIT+ APP page. Their workout-mode drawing also labels a
+**Bluetooth Speaker** icon among the status icons down the left of the display.
+
+**The XBR25-2023 has no Bluetooth of any kind** - no speaker, no app, no icons on its workout-mode
+drawing.
+
+**No earlier Spirit residential bike plays music this way.** The XBR95 of 2016, 2018 and 2021 and the
+XBR55 and XBU55 of 2019 and 2021 have **built-in speakers with a 3.5 mm audio input jack** and no
+volume control on the console:
+`spirit-xe-console-speakers-take-an-audio-cable-and-have-no-volume-control`. The two ENT bikes pair
+Bluetooth speakers and earphones from their touchscreen Settings menu instead.

@@ -37,6 +37,7 @@ not_to_be_confused_with:
 - spirit-jb950-warranty-commercial-only-periods
 - spirit-bike-warranty-residential-periods
 - spirit-bike-900-warranty-commercial-periods
+- spirit-xb-warranty-residential-periods
 see_also:
 - spirit-indoor-cycle-air-bike-warranty-use-environment
 - spirit-indoor-cycle-warranty-console-voiding

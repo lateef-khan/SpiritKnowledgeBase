@@ -2,7 +2,7 @@
 id: spirit-bike-programs-erratic-heart-rate-interference
 title: Wild or random pulse numbers mean interference, and the manual lists eight sources to check
 kind: troubleshooting
-question: Why does my Spirit commercial bike or air bike show wild or random heart rate numbers?
+question: Why does my Spirit bike or air bike show wild or random heart rate numbers?
 asked_as:
 - the bike heart rate jumps all over the place
 - my pulse reading on the exercise bike is wrong
@@ -32,6 +32,19 @@ facets:
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2025
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -44,7 +57,7 @@ see_also:
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT 2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21'
+  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT 2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21; XBR95 2016/2018/2021 printed p. 33; XBR25 2019 p. 26; XBR55 2019/2021 p. 31; XBU55 2019/2021 p. 31; XBR55ENT/XBU55ENT 2021 p. 42; XBR95 2023 p. 23; XBR55/XBU55 2023 p. 24'
   extracted_at: '2026-09-09'
 ---
 
@@ -92,3 +105,22 @@ ovens.
 
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no such warning page.** **Nor does the
 AB900 2018 air bike** - see `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+
+**Thirteen residential XBR and XBU manuals print this page**, and they split over item 1 the same way
+the commercial books do.
+
+- **Eight-item list, headed by grounding:** XBR55 2019, XBR55 2021 and XBR55ENT 2021. Their item 1
+  reads **"Treadmill not properly grounded - Proper grounding is a must!"** - the word *treadmill*,
+  on a bike. It is carried over from a treadmill manual; read it as "this machine".
+- **Seven-item list, starting at microwave ovens:** XBR95 2016/2018/2021 and 2023, XBR25 2019,
+  XBU55 2019/2021/2023, XBR55 2023 and XBU55ENT 2021. **The XBU55ENT drops the grounding item that
+  its XBR55ENT twin keeps.** Measured at word level, those two pages agree at **92.2%**, and the only
+  differences are that one word and the machine name - Recumbent Bike against Upright Bike.
+
+All thirteen name the pet fence a **Perimeter fence**. The closing line is **"contact your dealer"**
+in the ten older books and **"contact Spirit Fitness"** in the four 2023 books. Every one of the
+thirteen names its own machine correctly in the caution - Recumbent Bike, Semi-Recumbent Bike or
+Upright Bike - unlike the CU800 2012, which calls itself an elliptical trainer.
+
+**The XBR25 2023 prints no such page.** Its manual has no chest strap chapter and no heart rate
+program - see `spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.

@@ -3,7 +3,7 @@ id: spirit-ce-maintenance-no-repair-beyond-this-manual
 title: Customizing, adjustment, repair and maintenance not described in the manual
   must not be attempted
 kind: policy
-question: How much of a Spirit elliptical is the owner allowed to service?
+question: How much of a Spirit elliptical or bike is the owner allowed to service?
 asked_as:
 - can i fix the elliptical myself
 - am i allowed to take the covers off
@@ -21,7 +21,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -32,6 +32,16 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -53,7 +63,15 @@ see_also:
 - spirit-xe-maintenance-no-sanitizing-section
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: 'front matter, the line under the table of contents; text.md lines 19-20. The same sentence is in the same place in the CE800 2013, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850 2022 and CE900 2021 owner''s manuals, and, word for word, in the residential spirit-elliptical-xe195-2021-owners-manual line 16, spirit-elliptical-xe295-2021-owners-manual line 17, spirit-elliptical-xe395ent-2021-owners-manual line 19, spirit-elliptical-xe795-2021-february-owners-manual line 16, spirit-elliptical-xe795-2021-november-owners-manual line 16 and spirit-elliptical-xg400-2021-owners-manual line 17. It is also the same sentence, in the same place under the table of contents, in the six earlier residential printings: spirit-elliptical-xe395-2018-owners-manual line 18, spirit-elliptical-xe795-2018-owners-manual line 17, spirit-elliptical-xe895-2018-owners-manual line 17, spirit-elliptical-xe195-2019-owners-manual line 17, spirit-elliptical-xe295-2019-owners-manual line 18 and spirit-elliptical-xg400-2019-owners-manual line 30'
+  locator: 'front matter, the line under the table of contents; text.md lines 19-20. The same sentence is in the same place in the CE800 2013, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850 2022 and CE900 2021 owner''s manuals, and, word for word, in the residential spirit-elliptical-xe195-2021-owners-manual line 16, spirit-elliptical-xe295-2021-owners-manual line 17, spirit-elliptical-xe395ent-2021-owners-manual line 19, spirit-elliptical-xe795-2021-february-owners-manual line 16, spirit-elliptical-xe795-2021-november-owners-manual line 16 and spirit-elliptical-xg400-2021-owners-manual line 17. It is also the same sentence, in the same place under the table of contents, in the six earlier residential printings: spirit-elliptical-xe395-2018-owners-manual line 18, spirit-elliptical-xe795-2018-owners-manual line 17, spirit-elliptical-xe895-2018-owners-manual line 17, spirit-elliptical-xe195-2019-owners-manual line 17, spirit-elliptical-xe295-2019-owners-manual line 18 and spirit-elliptical-xg400-2019-owners-manual line 30. Ten Spirit residential XBR/XBU
+    bike owner''s manuals print the same sentence in the same place under the table of
+    contents and were added in wave 14: spirit-bike-xbr95-2016-owners-manual line 28,
+    spirit-bike-xbr95-2018-owners-manual line 17, spirit-bike-xbr95-2021-owners-manual
+    line 17, spirit-bike-xbr55-2019-owners-manual line 18, spirit-bike-xbr55-2021-owners-manual
+    line 18, spirit-bike-xbu55-2019-owners-manual line 18, spirit-bike-xbu55-2021-owners-manual
+    line 18, spirit-bike-xbr25-2019-owners-manual line 17, spirit-bike-xbr55ent-2021-owners-manual
+    line 20 and spirit-bike-xbu55ent-2021-owners-manual line 20. The four 2023 residential
+    bike manuals return zero hits for the phrase and are deliberately absent'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,6 +94,33 @@ books already print it, word for word and in the same place, so it is not a 2021
 those six do **not** print is the sanitizing section the 2021 reprints added, so the "what it does
 describe" list above is shorter for them by exactly that one item -
 `spirit-xe-maintenance-no-sanitizing-section`.
+
+## Ten Spirit residential bikes print the same sentence, and the four 2023 books dropped it
+
+The **XBR95** of 2016, 2018 and 2021, the **XBR55** of 2019 and 2021, the **XBU55** of 2019 and
+2021, the **XBR25 2019** and both November 2021 touchscreen books, the **XBR55ENT** and
+**XBU55ENT**, all print it word for word and in the same place - the line under the table of
+contents. What their books describe is shorter than an elliptical's: the sweat-path wipe, the
+loose-hardware and crank arm nut checks and the two levelling pads
+(`cu900ent-general-maintenance`), plus, on the two ENT books only, the sanitizing bullets. They
+prescribe **no lubrication and no drive belt work at all**
+(`spirit-bike-maintenance-no-lubricant-belt-or-battery-service`), so on a residential bike this
+sentence leaves an owner with almost nothing to do beyond cleaning and tightening.
+
+**The XBR25 2023, XBR55 2023, XBR95 2023 and XBU55 2023 do not print it.** Like the 2023 XE395 and
+XE795, they dropped it when their front matter was rewritten - the phrase returns zero hits in all
+four books. Their nearest equivalent is the Maintenance & Care chapter itself
+(`spirit-2026t-maintenance-post-workout-machine-care`).
+
+## Other Spirit lines print it and are not yet on this card
+
+The sentence appears, word for word, in **58 Spirit sources**. Beyond the machines listed in
+`applies_to` it is also in the twelve commercial bike manuals (CR800, CR800ENT, CR900, CR900ENT,
+CU800, CU800ENT, CU900, CU900ENT), the CIC800, CIC850 and both XIC600 indoor cycles, the AB900
+2018, and thirteen treadmill manuals (CT800 2016 and 2020, CT800ENT, CT850 2016, 2018 and 2020,
+CT850ENT, CT900ENT and the 2015 XT line). **Those machines were not verified for this card and are
+deliberately not listed**; the fact is true of them and simply has no card yet. Do not read the
+absence of a machine from `applies_to` as evidence that its manual omits the sentence.
 
 ## Five residential XE manuals do not print it either
 

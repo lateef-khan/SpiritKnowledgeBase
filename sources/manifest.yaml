@@ -1250,6 +1250,112 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/JB950/2015/JB950_950348_OM_20220421.pdf
   sha256: d5c082d4910e905fd74ef6c9c44035f16e382337fe2a0d6f4fb43bac9559101c
   ingested_at: '2026-09-09'
+- id: spirit-bike-xbr25-2019-owners-manual
+  title: 2019 Spirit XBR25 recumbent bike owner's manual, Revision 02.04.2019, warranty
+    effective February 4, 2019 (the 2015 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR25/2015/XBR25_OM_20190204.pdf
+  sha256: ccc6e2cf1d9b3b44f9db8bd53a77d3abdc726e7db12c535ae6ab90b134deddaf
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr25-2023-owners-manual
+  title: 2023 Spirit XBR25 recumbent bike owner's manual, (c) 2023, warranty effective
+    July 25, 2023
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR25/2023/XBR25_251123_OM_20240418.pdf
+  sha256: 85fbfac3fc721edf977554eb1be9fa90b7643a4d6e01abc56f6dc843d70175c5
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55-2019-owners-manual
+  title: 2019 Spirit XBR55 recumbent bike owner's manual, warranty effective February
+    4, 2019. Exists only in Bikes/bike backup.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/XBR55/XBR55_OM_20190204.pdf
+  sha256: bf5dee9f4a3000e1ba446114d70379e66e38c84439c0ae9bea83a9c52b9048db
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55-2021-owners-manual
+  title: 2021 Spirit XBR55 recumbent bike owner's manual, Revision 02.04.2021, warranty
+    effective February 4, 2021. A byte-identical copy is filed at XBR55/2023/XBR55_20210204.pdf;
+    there is no separate 2015 or 2023 file behind those two names.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR55/2015/XBR55_551115_OM_20210204.pdf
+  sha256: 1829a4ea202c98a8d87682110554eb8d8bf779cfc2d09df89b74b7b976bded3e
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55-2023-owners-manual
+  title: 2023 Spirit XBR55 recumbent bike owner's manual, (c) 2023, warranty effective
+    August 7, 2023
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR55/2023/XBR55_551223_OM_20240715.pdf
+  sha256: 33b3f9db9056a3778a552ddc19e4d4ef4d7b9495c755f5e2cf3704309c746240
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55ent-2021-owners-manual
+  title: 2021 Spirit XBR55ENT recumbent bike owner's manual, warranty effective November
+    30, 2021 (the 2023 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR55ENT/2023/XBR55ENT_551150
+    _OM_20211130.pdf
+  sha256: f19f8fca408bddf20cbd2d2f137bce64953e35056856d7cedc816240521c99a4
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2016-owners-manual
+  title: 2016 Spirit XBR95 recumbent bike owner's manual, Revision 01.26.2016, warranty
+    effective January 25, 2016
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/spiritfitness_om_xbr95_2016.pdf
+  sha256: 4c7a17d9c29d9bbd43a46beb71958cd994b50d4a1a58aa6199739b412e9e7767
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2018-owners-manual
+  title: 2018 Spirit XBR95 recumbent bike owner's manual, Revision 08.22.2018, warranty
+    effective August 22, 2018
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/XBR95/XBR95_OM_20180822.pdf
+  sha256: 7b3f700b3932cdbfd6170718ec1e051170b4361701cc6c82e703bfb3f2bdae0a
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2021-owners-manual
+  title: 2021 Spirit XBR95 recumbent bike owner's manual, Revision 03.16.2021, warranty
+    effective March 16, 2021 (the 2017 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR95/2017/XBR95_OM_20210316.pdf
+  sha256: eee7bc65e7129e522401e6a6e310d06fa31ff8e32e3c79f36fb746bb79a69e21
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2023-owners-manual
+  title: 2023 Spirit XBR95 recumbent bike owner's manual, (c) 2023, warranty effective
+    August 7, 2023. A second export of the same document sits at bike backup/XBR95/XBR95_NewStyle_OM_2024_0715.pdf;
+    their native text matches 99.9%, so there is only one XBR95 2023 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR95/2023/XBR95_951123_OM_20240715.pdf
+  sha256: 2ba87d1a7e9e3a18b3281cf160ad379fcbb5c87fc746303bef2f5d7fd5f5f692
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55-2019-owners-manual
+  title: 2019 Spirit XBU55 upright bike owner's manual, warranty effective February
+    4, 2019. Exists only in Bikes/bike backup.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/XBU55/XBU55_OM_20190204.pdf
+  sha256: 9e354b93cc740ae16cf080661b4dddbc629993701641975f4265e9389122f8ff
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55-2021-owners-manual
+  title: 2021 Spirit XBU55 upright bike owner's manual, Revision 02.04.2021, warranty
+    effective February 4, 2021 (the 2013 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBU55/2013/XBU55_OM_20210204.pdf
+  sha256: 8cd5527d0bb4413bd8e17a119bf0d88e8e9592697d125f31a92ab00b7b7ef2f8
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55-2023-owners-manual
+  title: 2023 Spirit XBU55 upright bike owner's manual, (c) 2023, warranty effective
+    August 7, 2023
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBU55/2023/XBU55_552123_OM_20240412.pdf
+  sha256: 6aebdeeb45becb4d57edd09ec548309fa43590cb1158783cb8cbb39d568403ca
+  ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55ent-2021-owners-manual
+  title: 2021 Spirit XBU55ENT upright bike owner's manual, warranty effective November
+    30, 2021 (the 2023 folder is wrong). Note its part number 551150 is the XBR55ENT's
+    part number.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBU55ENT/2023/XBU55ENT_551150_OM_20211130.pdf
+  sha256: 16efdfb9ff6be45388669e00ce681ab6d7df259348883c253889c18e27a29f46
+  ingested_at: '2026-09-10'
 - id: spirit-bike-xic600-2018-owners-manual
   title: 2018 Spirit XIC600 indoor cycle owner's manual, warranty effective August
     22, 2018. No back-cover revision stamp. Exists only in the Bikes/bike backup folder.

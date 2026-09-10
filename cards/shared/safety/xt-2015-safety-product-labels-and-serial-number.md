@@ -21,9 +21,19 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -116,3 +126,29 @@ machine and confirm it.
 
 **Do not carry `rear of the motor cover` back onto it** from the 2023 XT manuals
 (`xt-2023-safety-serial-number-sticker`); that is a 2023 statement about a later machine.
+
+## Ten Spirit residential bike manuals print the same panel
+
+**XBR95 2016, 2018 and 2021; XBR55 2019 and 2021; XBR55ENT-2021; XBU55 2019 and 2021;
+XBU55ENT-2021; and XBR25-2019 have no PRODUCT LABELS page.** Each prints the same
+`Record Your Serial Number` panel on its Important Operation Instructions page:
+
+> Please record the serial number of this fitness product in the space provided below.
+>
+> Serial Number: ______
+
+Beside it, in all ten, is an illustration captioned **Serial Number Location**.
+
+**The location is given only by that drawing.** None of the ten names the part the sticker is on
+anywhere in its text, and none mentions a barcode. Point the customer at the Serial Number Location
+illustration on that page of their own manual, or have them read the number off the machine.
+
+**No safety warning sticker and no Proposition 65 sticker is described in any of the ten.** Nine of
+them do print the Proposition 65 wording inside the manual, on the electrical page, as a boxed
+warning rather than as a label; the XBR95-2016 prints none at all
+(`xt-2015-safety-proposition-65-warning`).
+
+**Do not answer a 2023 XB bike from this card.** The four 2023 manuals added a PRODUCT LABELS page
+that names the front stabilizer tube and the face of the upright each sticker is on
+(`spirit-bike-2024-2025-safety-product-labels`). Those are 2023 statements; these ten manuals never
+confirm them.

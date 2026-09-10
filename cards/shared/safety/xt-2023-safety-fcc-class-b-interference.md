@@ -25,6 +25,9 @@ facets:
   applies_to:
   - ce900-2025
   - cu800ent-2024
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -118,3 +121,17 @@ thirteen Spirit commercial bike owner's manuals that has a compliance page at al
 remedy or RF figure may be quoted for any other Spirit commercial bike.
 
 The four measures it lists are the same four, in the same order.
+
+## Three Spirit residential bikes print the same notice, and one lists a measure fewer
+
+**XBR55-2023, XBU55-2023 and XBR95-2023** print the Class B notice word for word.
+
+**The XBR95-2023 lists three corrective measures where the other two list four.** It omits
+`Connect the equipment to an outlet on a circuit different from that to which the receiver is
+connected`, which is the only difference between the two versions of the page - and a sensible one,
+because the XBR95 is self-powered and is on no outlet
+(`spirit-bike-safety-no-mains-outlet-needed`). Its remaining measures are reorienting the antenna,
+increasing the separation, and consulting the dealer or a radio/TV technician.
+
+**The XBR25-2023 manual prints no compliance page** and no FCC notice of any kind
+(`xt-2015-safety-no-compliance-page`).

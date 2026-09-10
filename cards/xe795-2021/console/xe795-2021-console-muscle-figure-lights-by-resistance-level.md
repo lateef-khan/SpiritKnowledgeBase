@@ -2,11 +2,12 @@
 id: xe795-2021-console-muscle-figure-lights-by-resistance-level
 title: The muscle figure never lights the upper body and bands the lower body at levels 1-20 and 21-40
 kind: fact
-question: Why does the upper body never light on the muscle figure of a Spirit XE795 elliptical?
+question: Why does the upper body never light on the muscle figure of a Spirit XE795 elliptical or XBR95 bike?
 asked_as:
 - the arms never light up on my elliptical display
 - what is the body picture on my elliptical console
 - what do the green amber and red muscles mean on my xe795
+- what is the body picture on my recumbent bike console
 keywords:
 - muscle activation figure
 - anatomical figure
@@ -21,9 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
   - xe795-2018
   - xe795-2021
   section: console
@@ -37,8 +41,7 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: p. 18, Muscle Activation Figure (same in the February 19 2021 printing; the August 22
-    2018 printing prints it on its p. 17)
+  locator: p. 18, Muscle Activation Figure (same in the February 19 2021 printing; the August 22 2018 printing prints it on its p. 17); XBR95 2016, 2018 and 2021 p. 15, Muscle Activation Figure
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +79,18 @@ console face but not its muscle rule**, so do not answer an XE895 question from 
 
 **The XE395 follows a third rule**, banded by incline level:
 `spirit-xe395-console-muscle-figure-bands-by-incline-level`.
+
+**The three older Spirit XBR95 recumbent bike printings print this paragraph word for word**, so this
+card is no longer elliptical-only. It is on **p. 15** of the 2016, the 2018 and the 2021 manual: the
+same anatomical figure at the top of the console, the same flat statement that **the upper body LEDs
+will not light**, the same three degrees of engagement and the same two bands at **levels 1-20** and
+**21-40**. The XBR95 has 40 resistance levels, which is what makes that banding fit.
+
+**The XBR55 and XBU55 band the same figure at 1-10 and 11-20** because they have 20 levels, not 40.
+Quoting this card for one of those would put a customer two bands out:
+`spirit-residential-bike-console-muscle-figure-bands-at-ten-and-twenty`.
+
+**The XBR95-2023 dropped the figure.** Its console overview names an LCD Window, Adjustable Fan,
+Program Buttons, Direct Resistance Level Buttons and USB Charging, and no muscle figure appears
+anywhere in its console section. Neither the XBR25 of either printing nor the two ENT touchscreens
+has one.

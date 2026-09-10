@@ -2,12 +2,13 @@
 id: spirit-cr800-assembly-tools-included
 title: 'Three tools in the recumbent carton: a 14/15mm wrench, a 12/14mm wrench and a Phillips screwdriver'
 kind: fact
-question: What tools come in the box with a Spirit CR800 or CR800ENT recumbent bike?
+question: What tools come in the box with a Spirit CR800 or CR800ENT recumbent bike, or
+  a Spirit XBR25 or XBR95 residential recumbent bike?
 asked_as:
 - what tools do i need to build the cr800
 - are the tools in the box with the spirit cr800
 - is there an allen key in the cr800 box
-- what wrench sizes come with the recumbent bike
+- what tools come with the xbr95
 keywords:
 - tools included
 - assembly tools
@@ -16,6 +17,7 @@ keywords:
 - 14/15mm wrench
 - 12/14mm wrench
 - recumbent bike
+- semi-recumbent
 - no allen key
 facets:
   brand:
@@ -26,14 +28,23 @@ facets:
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
+  - xbr25-2019
+  - xbr25-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-xbr55-assembly-tools-included
 - spirit-cu800-assembly-tools-included
 - spirit-cr900-assembly-tools-included
 - spirit-cu900-assembly-tools-included
 see_also:
+- spirit-xbr-assembly-procedure
+- xbr25-2019-assembly-procedure
+- xbr25-2023-assembly-procedure
 - spirit-cr800-assembly-parts-included
 - spirit-cr800-assembly-procedure
 - spirit-cr800-assembly-hardware-kit
@@ -44,7 +55,12 @@ source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: p. 7, CR800 PRE-ASSEMBLY, TOOLS INCLUDED panel; the same three lines at p. 7
     of the CR800 2023 manual (`spirit-bike-cr800-2023-owners-manual`) and p. 7 of the
-    CR800ENT manual (`spirit-bike-cr800ent-2023-owners-manual`)
+    CR800ENT manual (`spirit-bike-cr800ent-2023-owners-manual`); and the same three
+    lines at p. 6 of the XBR95 2016, 2018 and 2021 manuals
+    (`spirit-bike-xbr95-2016-owners-manual`, `spirit-bike-xbr95-2018-owners-manual`,
+    `spirit-bike-xbr95-2021-owners-manual`), p. 7 of the XBR25 2019 manual
+    (`spirit-bike-xbr25-2019-owners-manual`) and p. 6 of the XBR25 2023 manual
+    (`spirit-bike-xbr25-2023-owners-manual`, TOOLS INCLUDED beside PARTS INCLUDED)
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +89,25 @@ parts-list numbers for the packed tools, not sizes.
 **A 14mm is in this carton**, in the 14/15mm and the 12/14mm - unusually for a Spirit
 machine, the wrench the levelling sentence asks for is actually in the box. See
 [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+## Five Spirit residential recumbents hold the same three
+
+The **XBR95** 2016, 2018 and 2021 cartons and the **XBR25** 2019 and 2023 cartons print
+the same three lines - 12/14mm Wrench, 14/15mm Wrench, Phillips Screwdriver - and no
+Allen key. The three older books list them in that order beside the unpacking steps;
+the XBR25 2023 book prints them as a TOOLS INCLUDED column beside its hardware
+pictures.
+
+**The XBR55 carton holds four, not three**, and its second wrench is a 13/15mm rather
+than a 14/15mm. So does the XBR95 **2023** carton, which is the one XBR95 printing that
+does not belong on this card. See
+[the four-tool card](spirit-xbr55-assembly-tools-included.md).
+
+**The XBR25 2023 panel numbers its tools #112 (12/14mm), #132 (14/15mm) and #114
+(Phillips), and its own step three then calls for "the WRENCHES provided (112 & 130)".
+There is no #130 in that carton.** The 2019 book gets it right and says 112 & 132. Use
+the 14/15mm; #130 is the 13/14mm wrench of the XBR55 carton, which this machine is not
+shipped.
+
+**A 14mm is in these cartons too**, in both wrenches, so the wrench the levelling
+sentence asks for is in the box.

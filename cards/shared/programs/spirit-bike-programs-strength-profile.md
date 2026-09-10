@@ -2,7 +2,7 @@
 id: spirit-bike-programs-strength-profile
 title: Strength on a bike climbs to 100% of maximum effort and holds it for a quarter of the workout
 kind: fact
-question: What does the Strength program do on a Spirit commercial bike?
+question: What does the Strength program do on a Spirit bike?
 asked_as:
 - what is the strength program on the bike
 - how does strength work on the exercise bike
@@ -25,6 +25,19 @@ facets:
   - cr900ent-2021
   - cu800-2012
   - cu900ent
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -35,7 +48,7 @@ see_also:
 - spirit-ce-programs-strength-profile
 source:
   ref: spirit-bike-cr900ent-2021-owners-manual
-  locator: 'CU800 2012 printed p. 17 (scan 1 PDF p. 19); CR900ENT 2021 p. 31; CU900ENT p. 28'
+  locator: 'CU800 2012 printed p. 17 (scan 1 PDF p. 19); CR900ENT 2021 p. 31; CU900ENT p. 28; XBR95 2016/2018/2021 printed p. 24; XBR25 2019 p. 20; XBR55 2019/2021 p. 22; XBU55 2019/2021 p. 22; XBR55ENT/XBU55ENT 2021 pp. 31-35; XBR25 2023 p. 23; XBR95 2023 p. 28; XBR55 2023 p. 29; XBU55 2023 p. 29'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +71,15 @@ The only place the word "strength" appears in either book is the heart rate page
 "strengthening the cardio vascular system".
 
 The CR900 2018, CU900 2018 and the three 800ENT bikes have no Strength program.
+
+**Thirteen of the fourteen Spirit residential XBR and XBU bike manuals print the same description** -
+XBR95 2016, 2018, 2021 and 2023; XBR25 2023; XBR55 2019, 2021 and 2023; XBR55ENT 2021; XBU55 2019,
+2021 and 2023; and XBU55ENT 2021. The XBR95 LED books head it `STRENGTH` and open the sentence with
+`Resistance:`; the ENT books replace "progression of resistance" with "progression of speed", which
+is a carry-over from a treadmill manual on a bike that has no speed control.
+
+**The XBR25 2019 is the one residential book with no Strength program.** Its console carries six
+keys - Manual, Cardio, Hill, Fatburn, Interval and HR - and its preset page counts four programs and
+describes Hill, Fat Burn, Cardio and Interval. Do not answer that machine with this card; see
+`spirit-bike-programs-four-presets-hill-fat-burn-cardio-and-interval`. The XBR25 **2023** did gain
+Strength.

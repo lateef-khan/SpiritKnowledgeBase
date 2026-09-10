@@ -35,7 +35,9 @@ facets:
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-residential-bike-specs-forty-resistance-levels
+- spirit-residential-bike-specs-twenty-resistance-levels
 see_also:
 - spirit-bike-programs-manual-asks-time-age-and-weight-and-starts-at-level-one
 - spirit-bike-programs-preset-setup-steps

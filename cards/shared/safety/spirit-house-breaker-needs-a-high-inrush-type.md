@@ -39,6 +39,13 @@ facets:
   - ct850ent-2022
   - cu800ent-2022
   - cvc800
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -233,3 +240,20 @@ and the same closing sentence that it is not a warranty defect. Their breaker ra
 nuisance-tripping guidance instead (`xt-2023-safety-afci-gfci-nuisance-tripping`), which names a
 different cause and a different remedy. The other ten bikes print neither, having no mains supply or
 no electrical figures at all.
+
+## Seven Spirit residential bike manuals print the same paragraph
+
+**Word for word, with the Grainger part # 1D237 and the www.squared.com part #QO120HM examples and
+the dedicated 15 amp circuit breaker**, on the Important Electrical Instructions page of XBR25-2019,
+XBR55-2019, XBR55-2021, XBR55ENT-2021, XBU55-2019, XBU55-2021 and XBU55ENT-2021. All seven print
+`we as a manufacture` rather than `manufacturer`.
+
+**The three XBR95 manuals print no circuit-breaker paragraph at all**, and neither does the
+XBR95-2023: the machine is self-powered and never loads a house breaker
+(`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The three 2023 XB manuals replaced it with a different paragraph.** XBR25-2023, XBR55-2023 and
+XBU55-2023 print the AFCI/GFCI nuisance-tripping text naming Eaton, Leviton and Schneider Electric
+instead, and no high-inrush breaker, no Grainger part number and no QO120HM
+(`xt-2023-safety-afci-gfci-nuisance-tripping`). Do not quote a high-inrush replacement breaker for a
+2023 XB bike.

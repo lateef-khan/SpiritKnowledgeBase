@@ -2,11 +2,12 @@
 id: xe795-2021-console-quarter-mile-lap-track-runs-counterclockwise
 title: A quarter mile track runs counterclockwise around the dot matrix and restarts every lap
 kind: fact
-question: What is the ring of segments around the display on a Spirit XE795 or XE895 elliptical?
+question: What is the ring of segments around the display on a Spirit XE795 or XE895 elliptical, or an XBR95, XBR55 or XBU55 bike?
 asked_as:
 - what is the oval of lights on my elliptical display
 - what is the track on the elliptical screen
 - how far is one lap on my elliptical
+- what is the track on my exercise bike screen
 keywords:
 - quarter mile track
 - one lap
@@ -20,9 +21,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe795-2018
   - xe795-2021
   - xe895-2018
@@ -36,8 +44,7 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: p. 17, 1/4 Mile Track (same in the February 19 2021 printing; the XE795 August 22 2018
-    printing prints it on its p. 16 and the XE895 August 22 2018 manual on its p. 19)
+  locator: p. 17, 1/4 Mile Track (same in the February 19 2021 printing; the XE795 August 22 2018 printing prints it on its p. 16 and the XE895 August 22 2018 manual on its p. 19); XBR95 2016 and 2018 p. 14, XBR95 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 15, all 1/4 Mile Track
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +73,18 @@ and its Workout Summary is the only one in the family with **no Laps field** at 
 **This is not the switchable track of the 2005 and 2007 consoles.** On the XE550 and XE300 the track
 replaces the profile when you press a Display button; here it is drawn around the profile and is
 always there: `spirit-xe-console-dot-matrix-switches-between-profile-and-a-quarter-mile-track`.
+
+**Seven Spirit residential bike printings print this paragraph word for word**, so this card is no
+longer elliptical-only: the **XBR95** of 2016 and 2018 (p. 14) and of 2021 (p. 15), the **XBR55** of
+2019 and 2021 (p. 16) and the **XBU55** of 2019 and 2021 (p. 15). Same one-lap quarter mile, same
+flashing segment, same restart at 0.4 k, same counterclockwise direction, same lap counter in the
+Message Center.
+
+**The XBR95-2016 prints the lap counter sentence run on to the direction sentence** - "The Lap track
+will move in a counterclockwise direction.There is a lap counter in the message center" - the way the
+XE895 runs its own lines together. The fact is unchanged.
+
+**Two residential bikes never had it.** The **XBR25** of 2019 has no 1/4 Mile Track paragraph at all,
+though its Workout Summary still reports **total Laps**. And **all four 2023 bikes dropped it**: the
+XBR25, XBR55, XBR95 and XBU55 of 2023 describe the same twenty-column dot matrix with no track around
+it, exactly as the XE795-2023 does.

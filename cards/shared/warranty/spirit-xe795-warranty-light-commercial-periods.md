@@ -36,6 +36,7 @@ not_to_be_confused_with:
 - spirit-xe-warranty-residential-periods-ten-year-parts
 - spirit-ce-warranty-commercial-periods
 - xt685-2023-light-commercial-warranty-periods
+- spirit-xb-warranty-light-commercial-periods
 see_also:
 - spirit-xe-warranty-use-environment
 - spirit-2026t-warranty-prisons-excluded

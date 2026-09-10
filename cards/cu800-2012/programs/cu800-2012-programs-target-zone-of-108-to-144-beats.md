@@ -2,7 +2,7 @@
 id: cu800-2012-programs-target-zone-of-108-to-144-beats
 title: The bike training zone at 60% and 80% of maximum is 108 to 144 beats for a forty year old
 kind: fact
-question: How do I work out my target heart rate zone on a Spirit CU800 2012 bike or AB950 2024 air bike?
+question: How do I work out my target heart rate zone on a Spirit bike or air bike?
 asked_as:
 - how do i work out my max heart rate on the bike
 - what heart rate should i train at on the air bike
@@ -25,6 +25,19 @@ facets:
   applies_to:
   - ab950-2024
   - cu800-2012
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -38,7 +51,7 @@ see_also:
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 source:
   ref: spirit-bike-cu800-2012-owners-manual
-  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024 printed p. 22 (HEART RATE EXERTION)'
+  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024 printed p. 22 (HEART RATE EXERTION); XBR95 2016/2018/2021 printed p. 29; XBR25 2019 p. 22; XBR55 2019/2021 p. 26; XBU55 2019/2021 p. 26; XBR55ENT/XBU55ENT 2021 p. 38; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25'
   extracted_at: '2026-09-09'
 ---
 
@@ -79,3 +92,22 @@ calculation automatically" (the AB950 only asks for age in Target Heart Rate Mod
 them apart rather than harmonising them. The CR800 2021, CR800 2023 and CU800 2021 print 60%/85% and
 108 to 153; the three 800ENT bikes print 65%/85% and 117 to 153; the CR900 2025 and CU900 2025 print
 65%/80% with a printed answer of 117 to **225**. Four manuals have no such page at all.
+
+**Thirteen residential XBR and XBU bike manuals print this page with every figure identical** - 220
+minus age, a 50% to 90% training zone, 60% for fat and 80% for the cardiovascular system, and 108 to
+144 beats for a forty year old. They are XBR95 2016, 2018, 2021 and 2023; XBR25 2019; XBR55 2019,
+2021 and 2023; XBR55ENT 2021; XBU55 2019, 2021 and 2023; and XBU55ENT 2021. The four 2023 books head
+it **HEART RATE EXERTION**; the older nine head it **Heart Rate Programs**. The Target Heart Rate
+Training Chart beside it is a flat image in all thirteen, so its values are not recoverable here
+either.
+
+**60/80 is what these thirteen print, but it is not what most of their consoles offer.** The XBR55,
+XBU55 and XBR95 2023 books put four heart rate keys at **55%, 65%, 75% and 85%** two pages later, and
+none of those four percentages appears on this page. The 60% and 80% keys of the older LED consoles
+do match it. Quote the page for training advice and the program card for what the console will
+actually target.
+
+**The XBR25 2023 prints no such page.** Searching its whole manual for "220", for "maximum heart
+rate" and for the loose word "zone" returns nothing, and its Programs chapter runs from Programs
+Intro straight to Maintenance - see
+`spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.

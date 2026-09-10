@@ -43,6 +43,7 @@ not_to_be_confused_with:
 - spirit-ct800-warranty-use-environment
 - spirit-ce-warranty-use-environment
 - ctsbs900-warranty-use-environment
+- spirit-xb-warranty-use-environment
 see_also:
 - spirit-indoor-cycle-warranty-three-row-periods
 - spirit-indoor-cycle-warranty-residential-only-periods

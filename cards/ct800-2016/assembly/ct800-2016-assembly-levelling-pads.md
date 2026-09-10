@@ -5,7 +5,8 @@ kind: procedure
 question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 or
   CTSBS900 treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, a Spirit XE195,
   XE295, XE395 2018, XE395ENT, XE795, XE895 or XG400 residential elliptical, or a
-  Spirit CR800, CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or
+  Spirit CR800, CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, a
+  Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, or
   a Spirit CIC800, CIC850 or XIC600 indoor cycle, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
@@ -51,6 +52,19 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -68,12 +82,17 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-xb-2023-assembly-levelling-m14-wrench
 - ct800-2020-assembly-levelling-pads
 - xt-2023-assembly-levelling-feet
 - ce800-2013-assembly-levelling-pads
 - spirit-ce900-assembly-levelling-pads
 - ces880-2025-assembly-levelling-note
 see_also:
+- spirit-xb-2023-assembly-levelling-m14-wrench
+- spirit-xb-assembly-no-moving-or-transport-section
+- spirit-xbr-assembly-procedure
+- spirit-xbu55-assembly-procedure
 - xe895-2018-assembly-procedure
 - spirit-xe-assembly-levelling-bottom-nut
 - spirit-xe-assembly-levelling-top-nut
@@ -131,7 +150,19 @@ source:
     `spirit-elliptical-xe395ent-2021-owners-manual`,
     `spirit-elliptical-xg400-2021-owners-manual`,
     `spirit-elliptical-xe795-2021-february-owners-manual`,
-    `spirit-elliptical-xe795-2021-november-owners-manual`)
+    `spirit-elliptical-xe795-2021-november-owners-manual`); and word for word on
+    thirteen Spirit residential bikes, in the same noise item - in the GENERAL
+    MAINTENANCE chapter of the XBR95 2016, 2018 and 2021, XBR25 2019, XBR55 2019 and
+    2021, XBU55 2019 and 2021, XBR55ENT and XBU55ENT manuals
+    (`spirit-bike-xbr95-2016-owners-manual`, `spirit-bike-xbr95-2018-owners-manual`,
+    `spirit-bike-xbr95-2021-owners-manual`, `spirit-bike-xbr25-2019-owners-manual`,
+    `spirit-bike-xbr55-2019-owners-manual`, `spirit-bike-xbr55-2021-owners-manual`,
+    `spirit-bike-xbu55-2019-owners-manual`, `spirit-bike-xbu55-2021-owners-manual`,
+    `spirit-bike-xbr55ent-2021-owners-manual`,
+    `spirit-bike-xbu55ent-2021-owners-manual`) and in the TROUBLESHOOTING chapter of
+    the XBR25 2023, XBR55 2023 and XBU55 2023 manuals
+    (`spirit-bike-xbr25-2023-owners-manual`, `spirit-bike-xbr55-2023-owners-manual`,
+    `spirit-bike-xbu55-2023-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -262,3 +293,32 @@ you supply.
 
 **The CU800 2012 manual gives a different answer** - four pads, under the rear rails.
 See [that card](../../ce800-2013/assembly/ce800-2013-assembly-levelling-pads.md).
+
+## Thirteen Spirit residential bikes print the same sentence
+
+The **XBR25** 2019 and 2023, **XBR55** 2019, 2021 and 2023, **XBR55ENT**, **XBR95**
+2016, 2018 and 2021, **XBU55** 2019, 2021 and 2023 and **XBU55ENT** manuals all carry it
+word for word - **two levelling pads under the rear stabiliser, 14mm wrench** - as the
+last remedy in the noise item, never in the assembly chapter. Recumbent and upright
+agree, as they do on the commercial bikes above.
+
+**The fourteenth, the XBR95 2023, does not print it.** Its maintenance chapter is a
+post-workout care list and a sanitizing section, with no noise item at all, so the only
+levelling instruction in that book is the M14 one below. The other three 2023 books
+print both.
+
+**All ten pre-2023 cartons hold a wrench that fits** - a 12/14mm on every one of them.
+See [the recumbent tools card](../../shared/assembly/spirit-cr800-assembly-tools-included.md),
+[the upright tools card](../../shared/assembly/spirit-cu800-assembly-tools-included.md) and
+[the XBR55 four-tool card](../../shared/assembly/spirit-xbr55-assembly-tools-included.md).
+
+## The four 2023 residential bikes give a second, different answer
+
+Their SETTING UP YOUR BIKE page says to use an **M14 wrench** on the **Leveling Feet**,
+with no pad count and no location. Neither page mentions the other. Take this one when
+you are chasing a noise and that one when you are setting the machine up; see
+[that card](../../shared/assembly/spirit-xb-2023-assembly-levelling-m14-wrench.md).
+
+**On the ten older residential bikes this sentence is the only levelling instruction in
+the book**, and those ten have no setting-up page at all - see
+[the absence card](../../shared/assembly/spirit-xb-assembly-no-moving-or-transport-section.md).

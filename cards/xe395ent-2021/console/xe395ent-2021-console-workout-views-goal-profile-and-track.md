@@ -2,7 +2,7 @@
 id: xe395ent-2021-console-workout-views-goal-profile-and-track
 title: The Goal, Profile and Track views and the level and incline arrows in the right-hand panel
 kind: fact
-question: What is on the screen during a workout on a Spirit xe395ent-2021 elliptical?
+question: What is on the screen during a workout on a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
 asked_as:
 - what are the three views on my elliptical screen
 - how do i change the resistance from the touchscreen
@@ -22,9 +22,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe395ent-2021
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   section: console
   code: '*'
@@ -37,7 +39,7 @@ see_also:
 - xt485ent-2023-console-screen-mirroring
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: pp. 28-30, WORKOUT VIEWS; the view screenshots read from the OCR supplement for PDF page 29
+  locator: pp. 28-30, WORKOUT VIEWS; the view screenshots read from the OCR supplement for PDF page 29; XBR55ENT and XBU55ENT pp. 25-27, WORKOUT VIEWS
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +73,17 @@ the record appears in the History tab.
 **The XT485ENT treadmill page is the same except for one word** - it says **SPEED AND INCLINE
 CONTROLS** where this says **LEVEL AND INCLINE**, and it adds a Skip button for warm-up and
 cool-down phases that this manual does not print. See `xt485ent-2023-console-workout-views`.
+
+**Both Spirit ENT residential bikes print this page** on their **pp. 25-27**, so this card is no
+longer elliptical-only. Same fixed left panel of WORKOUT STATS with a **+** to reveal more, same top
+panel of volume, fan and WiFi, same HR pairing reachable while paused, same INTERNET and SCREEN
+MIRRORING behaviour, same Stop in the bottom right, and the same three views - **GOAL**, **PROFILE**
+and **TRACK**.
+
+**The bikes have no incline, and their wording says so.** Where the XE395ENT reads "**LEVEL AND
+INCLINE CONTROLS** can be adjusted by tapping on arrows in the right panel", both bike manuals read
+**"LEVEL CONTROLS"**. That is the only difference in the whole section.
+
+**The bikes' TRACK VIEW is the same quarter mile track** - "helps to imagine yourself making laps on
+a 1/4 mile track and shows your progress depending on distance covered" - and it is the only place a
+quarter mile track survives on a Spirit residential bike after the 2021 LED printings.

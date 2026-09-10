@@ -52,6 +52,20 @@ facets:
   - cu800-2021
   - cu800ent-2022
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -132,17 +146,27 @@ source:
     1462, 1480, 1514), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines
     1344, 1359, 1393), and in the six printings filed under Bikes/bike backup: xe395-2018
     (spirit-elliptical-xe395-2018-owners-manual text.md lines 1316, 1326, 1349), xe795-2018
-    (lines 1266, 1276, 1299), xe895-2018 (lines 1358, 1368, 1391), xe195-2019 (lines 1054, 1063,
-    1088), xe295-2019 (lines 1156, 1166, 1189), xg400-2019 (lines 1163, 1173, 1196).
-    Service steps 4 and 5 and the responsibilities list in seven Spirit
-    indoor cycle and air bike manuals. Accessibility item: spirit-bike-cb900-2013-owners-manual
-    text.md line 417 (list heading line 412); spirit-bike-xic600-2018-owners-manual line 877
-    (heading line 871); spirit-bike-ab900-2018-owners-manual line 1275 (heading line 1269);
+    (lines 1266, 1276, 1299), xe895-2018 (lines 1358, 1368, 1391), xe195-2019 (lines 1054,
+    1063, 1088), xe295-2019 (lines 1156, 1166, 1189), xg400-2019 (lines 1163, 1173, 1196).
+    Service steps 4 and 5 and the responsibilities list in seven Spirit indoor cycle and air
+    bike manuals. Accessibility item: spirit-bike-cb900-2013-owners-manual text.md line 417
+    (list heading line 412); spirit-bike-xic600-2018-owners-manual line 877 (heading line 871);
+    spirit-bike-ab900-2018-owners-manual line 1275 (heading line 1269);
     spirit-bike-cic800-2021-owners-manual line 445 (heading line 441);
     spirit-bike-xic600-2021-owners-manual line 896 (heading line 889);
     spirit-bike-cic850-2022-owners-manual line 795 (heading line 791);
-    spirit-bike-jb950-2022-owners-manual line 1794 (heading line 1790)
-  extracted_at: '2026-09-09'
+    spirit-bike-jb950-2022-owners-manual line 1794 (heading line 1790) All fourteen Spirit XB
+    residential upright and recumbent bike manuals print the same charges in SERVICE step 4, at
+    spirit-bike-xbr95-2016-owners-manual line 1281, spirit-bike-xbr95-2018-owners-manual line
+    1290, spirit-bike-xbr25-2019-owners-manual line 1083, spirit-bike-xbr55-2019-owners-manual
+    line 1356, spirit-bike-xbu55-2019-owners-manual line 1081,
+    spirit-bike-xbr55-2021-owners-manual line 1256, spirit-bike-xbu55-2021-owners-manual line
+    1173, spirit-bike-xbr95-2021-owners-manual line 1274,
+    spirit-bike-xbr55ent-2021-owners-manual line 1689, spirit-bike-xbu55ent-2021-owners-manual
+    line 1592, spirit-bike-xbr25-2023-owners-manual line 1464,
+    spirit-bike-xbr55-2023-owners-manual line 1997, spirit-bike-xbr95-2023-owners-manual line
+    1937, spirit-bike-xbu55-2023-owners-manual line 1770
+  extracted_at: '2026-09-10'
 ---
 
 Yes. The XT manuals - the 2010 XT685, the 2015 generation, the 2023 one, and both ENT manuals alike - name five charges the customer carries while the machine is still inside its warranty period, and refuse one reimbursement outright.
@@ -198,3 +222,13 @@ The CB900 2013, both XIC600 printings, the AB900 2018, the CIC800 2021, the CIC8
 **Only the AB900 puts the electrical supply on the owner** of these seven - blown fuses, loose connections and defects in house or facility wiring - as its third bullet. The other six drop that item, and the two CIC manuals and the CB900 drop the proper-installation item as well.
 
 **The AB950 2024 does not belong on this card.** Its step 4 stops at shipping and handling on replacement parts and names **no** trip charge and **no** 100-mile surcharge (`spirit-2026t-warranty-owner-costs`). Quoting a trip charge to an AB950 owner would invent a cost their manual does not impose - and it is the newest of the eight, so it is the one most likely to be in a customer's hands.
+
+## The fourteen Spirit XB home bikes charge the owner the same five things
+
+**All four SERVICE step 4 charges are on every one of the fourteen**, word for word: freight to and from a service center, shipping and handling on replacement parts, a trip charge for in-home service, and an **additional** trip charge beyond **100 miles** from the nearest service center. Exclusion 2 refuses service call reimbursement to the consumer on all fourteen as well.
+
+**The accessibility item moves with the length of the responsibilities list.** It is item **5** in the ten manuals printed before 2023, whose list runs to seven, and item **3** in the four 2023 manuals, whose list runs to five (`spirit-xb-warranty-consumer-responsibilities`, `spirit-xb-2023-warranty-consumer-responsibilities`).
+
+**The ten older manuals put the electrical supply on the owner as well** - a grounded supply of sufficient voltage, blown fuses, loose connections and defects in house wiring, as item 4 of their list. **The four 2023 manuals drop that item entirely**, so a 2023 XB owner carries one fewer cost than the owner of the same machine's earlier printing. Do not read it to them.
+
+**No figure is printed for any of these charges** on any of the fourteen, and none says who sets the trip charge. Adequate packaging for a return is the owner's responsibility too, and freight damage claims go to the carrier.

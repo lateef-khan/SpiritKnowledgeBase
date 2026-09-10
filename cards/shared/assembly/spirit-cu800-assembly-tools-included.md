@@ -2,12 +2,13 @@
 id: spirit-cu800-assembly-tools-included
 title: 'Three tools in the upright carton: a 13/15mm wrench, a 12/14mm wrench and a Phillips screwdriver'
 kind: fact
-question: What tools come in the box with a Spirit CU800 or CU800ENT upright bike?
+question: What tools come in the box with a Spirit CU800 or CU800ENT upright bike, or a
+  Spirit XBU55 or XBU55ENT residential upright bike?
 asked_as:
 - what tools do i need to build the cu800
 - are the tools in the box with the spirit cu800
 - is there an allen key in the cu800 box
-- what wrench sizes come with the upright bike
+- what tools come with the xbu55
 keywords:
 - tools included
 - assembly tools
@@ -27,14 +28,22 @@ facets:
   - cu800-2021
   - cu800ent-2022
   - cu800ent-2024
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-xbr55-assembly-tools-included
 - spirit-cr800-assembly-tools-included
 - spirit-cu900-assembly-tools-included
 - spirit-cr900-assembly-tools-included
 see_also:
+- spirit-xbu55-assembly-procedure
+- xbu55-2023-assembly-procedure
+- spirit-xbu55-assembly-parts-included
 - cu800-2021-assembly-parts-included
 - spirit-cu800ent-assembly-parts-included
 - cu800-2021-assembly-procedure
@@ -49,7 +58,11 @@ source:
     the CU800ENT 2024 manual (`spirit-bike-cu800ent-2024-owners-manual`, headed TOOLS
     under PARTS INCLUDED) and PDF p. 7 (printed 5) of the CU800 2012 manual
     (`spirit-bike-cu800-2012-owners-manual`, headed Assembly Tools), repeated at PDF
-    p. 9 in the second scan bound into the same file
+    p. 9 in the second scan bound into the same file; and the same three lines at p. 7
+    of the XBU55 2019 and 2021 manuals (`spirit-bike-xbu55-2019-owners-manual`,
+    `spirit-bike-xbu55-2021-owners-manual`), p. 8 of the XBU55ENT manual
+    (`spirit-bike-xbu55ent-2021-owners-manual`) and p. 7 of the XBU55 2023 manual
+    (`spirit-bike-xbu55-2023-owners-manual`, TOOLS INCLUDED beside PARTS INCLUDED)
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +95,20 @@ packed tools, not sizes, and the manuals never say which of the three each one i
 **A 14mm is in this carton**, in the 12/14mm - the wrench the levelling sentence asks
 for is actually in the box. See
 [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+## Four Spirit residential uprights hold the same three
+
+The **XBU55** 2019, 2021 and 2023 cartons and the **XBU55ENT** carton print the same
+three, and no Allen key. The three older books print the **13/15mm first** and the
+12/14mm second, which is the reverse of the CU800 order; the sizes are the same. The
+2023 book prints the 12/14mm first and adds a numbered tool row beneath its hardware
+pictures - **#92 13/15mm Wrench, #93 Phillips Head Screwdriver, #100 12/14mm Wrench**.
+
+Those are the same three item numbers the CU800 2021 and CU800ENT steps use, on a
+different machine. **The XBU55 build is not the CU800 build** - its step one takes a
+3/8" x 2" bolt with a flat washer and a nut where the CU800 takes a 3/8" x 135mm bolt
+with a curved washer, and its steps run in a different order. See
+[the XBU55 build](spirit-xbu55-assembly-procedure.md) and
+[its hardware](spirit-xbu55-assembly-hardware-kit.md).
+
+**A 14mm is in these cartons too**, in the 12/14mm.

@@ -2,8 +2,8 @@
 id: spirit-xe-maintenance-no-sanitizing-section
 title: The maintenance page ends at the leveling pads and prints no sanitizing section
 kind: fact
-question: Does the Spirit XE195, XE295, XE395, XE395ENT, XE795, XE895 or XG400 owner's
-  manual say how to sanitize the machine?
+question: Does the Spirit XE195, XE295, XE395, XE395ENT, XE795, XE895, XG400, XBR25,
+  XBR55, XBR95 or XBU55 owner's manual say how to sanitize the machine?
 asked_as:
 - my manual has no sanitizing page
 - how do i disinfect my spirit elliptical
@@ -12,9 +12,17 @@ asked_as:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe195-2019
   - xe295-2019
   - xe395-2018
@@ -43,9 +51,21 @@ see_also:
 - spirit-xe-maintenance-squeak-thump-or-clicking
 - ct800-2016-maintenance-squeak-thump-or-clicking
 - spirit-ce-maintenance-no-repair-beyond-this-manual
+- cu900ent-general-maintenance
+- spirit-2026t-maintenance-post-workout-machine-care
 source:
   ref: spirit-elliptical-xe395-2018-owners-manual
-  locator: 'GENERAL MAINTENANCE, printed p. 36, which ends at the Engineering Mode Menu on p. 37 and is followed by the warranty on p. 38. The same shape in spirit-elliptical-xe795-2018-owners-manual printed p. 37 (warranty p. 38), spirit-elliptical-xe895-2018-owners-manual printed p. 35 (warranty p. 37), spirit-elliptical-xe195-2019-owners-manual printed p. 31 (warranty p. 33), spirit-elliptical-xe295-2019-owners-manual printed p. 35 (warranty p. 37) and spirit-elliptical-xg400-2019-owners-manual printed p. 34 (warranty p. 36). Proved three ways for each of the six: the words sanitiz, isopropyl and 75% return zero hits in the whole text.md including its OCR supplements; each table of contents runs GENERAL MAINTENANCE straight into MANUFACTURER''S LIMITED WARRANTY with nothing between; and every page of all six PDFs was extracted individually with pdftotext -layout and none contains the word. For xe395ent-2021 the evidence is the same zero hit across spirit-elliptical-xe395ent-2021-owners-manual and its table of contents, which runs GENERAL MAINTENANCE p. 47 into the warranty p. 48'
+  locator: 'GENERAL MAINTENANCE, printed p. 36, which ends at the Engineering Mode Menu on p. 37 and is followed by the warranty on p. 38. The same shape in spirit-elliptical-xe795-2018-owners-manual printed p. 37 (warranty p. 38), spirit-elliptical-xe895-2018-owners-manual printed p. 35 (warranty p. 37), spirit-elliptical-xe195-2019-owners-manual printed p. 31 (warranty p. 33), spirit-elliptical-xe295-2019-owners-manual printed p. 35 (warranty p. 37) and spirit-elliptical-xg400-2019-owners-manual printed p. 34 (warranty p. 36). Proved three ways for each of the six: the words sanitiz, isopropyl and 75% return zero hits in the whole text.md including its OCR supplements; each table of contents runs GENERAL MAINTENANCE straight into MANUFACTURER''S LIMITED WARRANTY with nothing between; and every page of all six PDFs was extracted individually with pdftotext -layout and none contains the word. For xe395ent-2021 the evidence is the same zero hit across spirit-elliptical-xe395ent-2021-owners-manual and its table of contents, which runs GENERAL MAINTENANCE p. 47 into the warranty p. 48. Eight Spirit residential
+    XBR/XBU bike owner''s manuals were added in wave 14 on the same three-way proof:
+    spirit-bike-xbr95-2016-owners-manual printed p. 35, spirit-bike-xbr95-2018-owners-manual
+    p. 35, spirit-bike-xbr95-2021-owners-manual p. 35, spirit-bike-xbr55-2019-owners-manual
+    p. 33, spirit-bike-xbr55-2021-owners-manual p. 33, spirit-bike-xbu55-2019-owners-manual
+    p. 33, spirit-bike-xbu55-2021-owners-manual p. 33 and spirit-bike-xbr25-2019-owners-manual
+    p. 28. For each: saniti, isoprop, alcohol, disinfect, conditioner and 75% return zero
+    hits across the whole text.md including its OCR supplements; each table of contents runs
+    GENERAL MAINTENANCE straight into MANUFACTURER''S LIMITED WARRANTY with nothing between;
+    and every page of all eight PDFs (40, 40, 40, 40, 40, 40, 40 and 36 pages) was extracted
+    individually with pdftotext -layout and none contains any of those words'
   extracted_at: '2026-09-10'
 ---
 
@@ -82,6 +102,44 @@ book.
 The XE795 of 2021 is the one model id that sits on both sides of the line, because its two 2021
 printings differ - `xe795-2021-maintenance-november-printing-adds-sanitizing`. That is why
 `xe795-2021` is not listed above.
+
+## Eight Spirit residential bikes are in exactly the same position
+
+The **XBR95** of 2016, 2018 and 2021, the **XBR55** of 2019 and 2021, the **XBU55** of 2019 and
+2021 and the **XBR25 2019** print no sanitizing or disinfecting section either. Their GENERAL
+MAINTENANCE page ends at the same two levelling pads (`cu900ent-general-maintenance`), the
+Engineering Mode Menu follows, and then the warranty. No alcohol strength, no conditioner note,
+no support-article link.
+
+## On the bikes the section arrived in November 2021, not in February
+
+The residential bikes repeat the XE795 pattern, and here it separates two printings of the same
+year:
+
+| printing | warranty effective | GENERAL MAINTENANCE list | SANITIZING section |
+|---|---|---|---|
+| XBR95 2016, XBR95 2018 | Jan 25 2016, Aug 22 2018 | unchanged | **none** |
+| XBR25 2019, XBR55 2019, XBU55 2019 | Feb 4 2019 | unchanged | **none** |
+| XBR55 2021, XBU55 2021 | **Feb 4 2021** | unchanged | **none** |
+| XBR95 2021 | **Mar 16 2021** | unchanged | **none** |
+| XBR55ENT, XBU55ENT | **Nov 30 2021** | unchanged | **yes** |
+| XBR25 2023, XBR55 2023, XBR95 2023, XBU55 2023 | 2023 | replaced | yes |
+
+**The three February and March 2021 books do not have it and the two November 2021 books do**, so
+on the residential bike line the cut-off falls inside 2021, exactly as it does between the
+February and November printings of the XE795. **The maintenance list itself did not change across
+any of it**: difflib at word level puts all ten blocks between 0.973 and 1.000, and the only
+wording difference anywhere is the XBR25 2019 writing "This point cannot be stressed enough" for
+"I cannot stress this point enough". 90% of noise calls, 2 levelling pads and a 14 mm wrench in
+every printing. A customer whose bike book has no sanitizing page has an earlier printing, not a
+different machine and not an incomplete book.
+
+The two ENT books print the four bullets under GENERAL MAINTENANCE on the same page as the
+levelling pads; the four 2023 books print them in a two-column Maintenance & Care page beside the
+post-workout routine (`spirit-2026t-maintenance-post-workout-machine-care`). **None of the fourteen
+prints the wear-parts WARNING** that the treadmill and commercial-bike versions carry - checked for
+"susceptible" and "damage and wear" in all fourteen, zero hits; the only "PU wheel" hits are
+parts-list rows.
 
 ## Not the same as a manual with no maintenance chapter
 

@@ -2,7 +2,7 @@
 id: spirit-bike-programs-manual-asks-time-age-and-weight-and-starts-at-level-one
 title: Manual mode on an LED console asks for time, age and weight and always starts at level one
 kind: procedure
-question: How does Manual mode work on a Spirit commercial bike with an LED console?
+question: How does Manual mode work on a Spirit bike with an LED console?
 asked_as:
 - how do i use manual mode on the bike
 - what level does the bike start at in manual
@@ -31,6 +31,18 @@ facets:
   - cu800-2021
   - cu900-2018
   - cu900-2025
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   section: programs
   code: '*'
 authority: 3
@@ -41,7 +53,7 @@ see_also:
 - spirit-bike-programs-forty-levels-of-resistance-shown-as-ten-rows
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p. 19; CU900 2025 p. 18'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018 printed p. 19, XBR95 2021 p. 20; XBR25 2019 p. 19; XBR55 2019/2021 p. 21; XBU55 2019 p. 20, XBU55 2021 p. 21; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,4 +79,18 @@ just completed as a custom program by pressing the Custom key** - see
 `cu800-2012-programs-custom-twenty-segments-saved-under-a-facility-name`.
 
 **On a touchscreen console Manual behaves differently** - see
+`spirit-bike-programs-manual-on-the-touchscreen-is-user-controlled-resistance`.
+
+**The twelve LED-console residential XBR and XBU manuals print the same procedure** - XBR95 2016,
+2018, 2021 and 2023; XBR25 2019 and 2023; XBR55 2019, 2021 and 2023; XBU55 2019, 2021 and 2023.
+The order is Age, then Weight, then Time, then Start; the workout begins at **level one** and the
+manual advises staying there a while to warm up.
+
+**The 2023 books label the keys `Level +` and `Level -`** instead of Level Up and Level Down, and
+reach Manual through the single **PROGRAM** key rather than a dedicated Manual button. **The eight
+older books add a final step** the 2023 books drop: at the end of the program you may save the
+workout you just completed as a custom user program by pressing a User key. The XBR25 2019 keeps that
+step even though its console has no User key.
+
+**The two ENT touchscreens work differently** - see
 `spirit-bike-programs-manual-on-the-touchscreen-is-user-controlled-resistance`.
