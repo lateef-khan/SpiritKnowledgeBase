@@ -3,8 +3,8 @@ id: 75s-2025-assembly-procedure
 title: 'The only build in the range that bolts on two wheelchair anchors and a seat
   assembly, and presses two stabiliser end caps rather than four'
 kind: procedure
-question: How do I assemble a Spirit 7.5S (75s-2025) rehabilitation recumbent stepper
-  from the carton?
+question: How do I assemble a Spirit 7.5S (75s-2025, 7-5s-med) rehabilitation recumbent
+  stepper from the carton?
 asked_as:
 - how do i put together the 7.5s
 - how does the wheelchair anchor fit on the 7.5s
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 75s-2025
+  model: '*'
   applies_to:
+  - 7-5s-med
   - 75s-2025
   section: assembly
   code: '*'
@@ -42,7 +43,8 @@ source:
   locator: printed pp. 12-19 (PDF pp. 14-21), PARTS INCLUDED, PARTS OF YOUR RECUMBENT
     STEPPER, PRE-ASSEMBLY and ASSEMBLY - STEP ONE to STEP FOUR. The step one and step
     two hardware pictures on printed p. 12 are a flat image and were read from a 300
-    dpi render; the text layer returns only the step three and step four groups
+    dpi render; the text layer returns only the step three and step four groups. The same
+    four steps at printed and PDF pp. 54-58 of spirit-climber-7-5s-med-owners-manual
   extracted_at: '2026-09-10'
 ---
 
@@ -125,3 +127,19 @@ the two machines.
 The parts diagram lists, as **optional parts (not shown)**, a **lower extremity
 bi-lateral stabilization set (2.2)** and a **hand/wrist stabilization set (2.3)**. No
 step fits either and no other page mentions them.
+
+## The MED-badged 7.5S builds the same machine and numbers three things differently
+
+The 2021 MED book prints the same four steps, the same wheelchair anchors and the same two
+stabiliser end caps. Four differences are worth having in front of you:
+
+| | MED book (2021) | Spirit book (2025) |
+|---|---|---|
+| 3/8" split washer, anchors and seat | **243** | 194 |
+| Swivel seat latch handle bolts | **6mm x 40mm (128)** | not a numbered step |
+| Rubber isolators under the pedals | **(82)**, fitted with the pedals | not mentioned |
+| Step two's six M8 x 30L bolts | *"from the top side of the **armrest**"* | *"secure the **Handle Sliders (244)**"* |
+
+Both books put the same **six M8 x 30mm bolts (196) and six M8 nuts (160)** in that step, so the
+count is six in all on either machine. The MED book also fits the **safety cover (108) and seat
+belts (233)** onto the step-one bolts, word for word as this one does.

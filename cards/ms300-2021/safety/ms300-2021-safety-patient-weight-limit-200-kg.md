@@ -2,7 +2,8 @@
 id: ms300-2021-safety-patient-weight-limit-200-kg
 title: A 200 kg maximal patient weight and no User Weight Limit line anywhere in the manual
 kind: spec
-question: What is the user weight limit of a Spirit MS300-2021 rehabilitation recumbent stepper?
+question: What is the user weight limit of a Spirit MS300-2021, 7-0s-med or 7-5s-med
+  rehabilitation recumbent stepper?
 asked_as:
 - what is the weight limit on the ms300
 - how much can the ms300 hold
@@ -22,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: ms300-2021
+  model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - ms300-2021
   section: safety
   code: '*'
@@ -69,3 +72,11 @@ over 180/110 Hg. A person under 200 kg may still be outside the intended populat
 
 **200 kg is 441 lb**, so the metric and imperial statements are the same allowance rounded
 differently. The manual does not say what happens above it.
+
+## The two MED-badged books print the same three statements
+
+The MED 7.0S and 7.5S books state the allowance in the same three places, in the same words, and
+likewise carry **no `User Weight Limit` line** anywhere - `Maximal patient's weight is 200kg.` in
+the intended patient population, `Do not use for patients weighing greater than 200kgs (bariatric)`
+in the contraindications, and `440 Lbs. (200 Kgs.)` on the specification page. Their page numbers
+are 25, 20 and 68 in the 7.0S book, and 25, 20 and 71 in the 7.5S.

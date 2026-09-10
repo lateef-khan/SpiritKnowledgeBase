@@ -27,6 +27,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -54,7 +56,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**These four machines take any ordinary mains supply. The figure is a range, not a single voltage.**
+**These six machines take any ordinary mains supply. The figure is a range, not a single voltage.**
 
 > To reduce the risk of burns, fire, electric shock, or injury to persons, install the 8.5S on a flat
 > level surface with access to a **100 to 240-volt AC, 50/60 Hz, 15-amp** grounded outlet. ... The

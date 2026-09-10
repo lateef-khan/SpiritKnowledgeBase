@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -74,9 +76,29 @@ broken.**
 overwritten - a find-and-replace that ran too far, leaving only 7.0T untouched. **Read the 7.0S
 list**: the software covers the 7.0T, 7.0S, 7.5S, 7.0U and 7.0R.
 
-**The URL is a Dyaco address in a Spirit-branded book.** All three manuals print
+**The URL is a Dyaco address in a Spirit-branded book.** All five manuals print
 `dyaco.com/software`; none of them prints a spiritfitness.com equivalent. Give the caller the address
 the manual prints.
 
 **No manual says what fields the .CSV contains**, how a session is identified in it, or whether the
 console stores more than one session.
+
+## The chapter names the consoles the software works with
+
+The MED 7.0S and 7.5S books open it with:
+
+> Works with newer **7.0T, 7.0S, 7.5S, 7.0R and 7.0U** consoles with USB ports on the back
+
+The 2025 7.0S prints the same five names in a different order - *7.0T, 7.0S, 7.5S, **7.0U and
+7.0R***. Both add that the software runs on **Windows 10, 7 and XP series with .Net Framework 2.0**.
+So the same PC software serves a treadmill, a recumbent bike and an upper-body ergometer as well as
+these steppers.
+
+**Four of the five worked examples say `7.0S`.** The status line reads `Connected 7.0S` and the
+sample CSV is headed `Model: 7.0S` in the MED 7.0S book, in the **MS300** book and in the 2025 7.0S
+book. **Only the MED 7.5S re-took the screenshots** - `Connected 7.5S`, `Model: 75S`. That the
+MS300's book shows a 7.0S is one of the things that identifies it as a 7.0S under another badge
+(`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`).
+
+The sample rows are dated **2017/8/1** in every book, six years before the newest of them. It is a
+stock screenshot, not a record from the machine in the carton.

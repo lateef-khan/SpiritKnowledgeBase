@@ -30,9 +30,11 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ms300-2021-specs-dimensions-and-weight
+- 7-5s-med-specs-dimensions-and-weight
 - 75s-2025-specs-dimensions-and-weight
 - spirit-climber-85s-specs-dimensions-and-weight
 see_also:
+- spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s
 - spirit-climber-specs-rehabilitation-stepper-specification-page
 - spirit-climber-specs-workload-5-to-1000-watts
 - spirit-climber-specs-isokinetic-twenty-levels
@@ -54,7 +56,7 @@ Every pair converts correctly. **No shipping weight, no gross weight and no
 carton size** is printed in the 56-page manual, and neither is a step height or a
 seat travel.
 
-## Two machines share this weight and are not the same size
+## Three machines share this weight and are not the same size
 
 The **MS300** rehabilitation stepper also weighs 257.4 lbs. (117 kg) and is
 **67" long, 30" wide** - shorter and much narrower. See
@@ -62,11 +64,14 @@ The **MS300** rehabilitation stepper also weighs 257.4 lbs. (117 kg) and is
 and much heavier at 305.8 lbs. **Check the length before quoting a weight**, and
 never answer a 7.5S from this card.
 
-**Do not confuse this machine with the Dyaco-branded 7.0S.** There is a separate
-rehabilitation manual for a 7.0S that says "Dyaco" throughout and never says
-"Spirit". It is a different document about a different product and none of its
-figures belong here. This card is the Spirit 7.0S, whose cover reads
-`SPIRIT powered by dyaco` and whose warranty is Spirit Fitness's.
+**There is an earlier machine also called 7.0S**, carded as `7-0s-med` from a
+MED-badged 2021 manual that says Dyaco throughout and never says Spirit. It is
+**67" x 30" x 48"** and its work load ceiling is **650 watts**, not 1000 - the same
+specification page as the MS300, because it is the MS300 under another badge.
+**None of its figures belong here and none of these belong there.** See
+`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`. This card is
+the 2025 machine, whose cover reads `SPIRIT powered by dyaco` and whose book carries
+a warranty chapter.
 
 ## The user weight limit is a different figure
 

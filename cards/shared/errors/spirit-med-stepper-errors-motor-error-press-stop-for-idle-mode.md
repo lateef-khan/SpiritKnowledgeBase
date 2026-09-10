@@ -26,6 +26,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -82,7 +84,7 @@ two words - or the same sentence - and give a different answer:
 | CVC800 vertical climber | `E-2` | The same sentence, plus a signal path, a voltage and a pass band (`cvc800-e-2-tension-motor-error`) |
 | CS800 2024 stepper | `Err` in the LEVEL window | Tension motor feedback missing, cable checked first (`cs800-2024-errors-err-in-the-level-window-tension-motor-feedback`) |
 
-**The page these three manuals print it on says `EEPROM Error` is "the only error message".** It is
+**The page these five manuals print it on says `EEPROM Error` is "the only error message".** It is
 not - this one is printed directly beneath it. See
 `cs800-2024-errors-eeprom-error-replace-the-console`.
 

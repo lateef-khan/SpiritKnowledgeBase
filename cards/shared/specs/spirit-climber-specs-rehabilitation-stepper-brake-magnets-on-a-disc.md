@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -104,3 +106,11 @@ closer or further from the" and stops. The last four words - "aluminum flywheel
 creating more or less resistance" - are on the printed page and are readable only
 from a 300 dpi render. **Read that page from a render**, and do not report the
 sentence as truncated in the source.
+
+## The two MED books number the brake exactly as the MS300 does
+
+Item **44 Gear Motor**, **45 Braking Magnet x4**, **61 Aluminum Brake Disc**, **62 Magnet Bracket**
+and **43 Flywheel Mass x1** are all present in both MED parts lists, with the MS300's quantities.
+So the split above is between the **2021 books** - the MS300 and the two MED books, all carrying a
+single `Flywheel Mass` - and the **2025 pair**, which carry three `Curved weight Block`. Read the
+paragraph above as 2021 against 2025 rather than MS300 against the rest.

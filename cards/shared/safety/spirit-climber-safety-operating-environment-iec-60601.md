@@ -27,6 +27,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025

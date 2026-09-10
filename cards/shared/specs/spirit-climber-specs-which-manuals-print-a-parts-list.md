@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -67,7 +69,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**Eight of the sixteen print a usable numbered parts list. Four print an
+**Ten of the eighteen print a usable numbered parts list. Four print an
 exploded-view drawing with no list to decode it. Four print neither.**
 
 | Manual | Exploded view | Parts list | Highest item number |
@@ -83,6 +85,8 @@ exploded-view drawing with no list to decode it. Four print neither.**
 | CS800-2024 stepper | printed p. 38 (PDF p. 40) | printed pp. 39-40 (PDF pp. 41-42) | 139 rows |
 | CRS800S-2024 recumbent stepper | printed p. 37 (PDF p. 39) | printed pp. 38-41 (PDF pp. 40-43) | 239 rows |
 | MS300-2021 rehabilitation stepper | printed p. 48 (PDF p. 48) | printed pp. 49-56 (PDF pp. 49-56) | **263** |
+| 7.0S MED-2021 rehabilitation stepper | printed p. 56 (PDF p. 56) | printed pp. 57-64 (PDF pp. 57-64) | **263** |
+| 7.5S MED-2021 rehabilitation stepper | printed p. 59 (PDF p. 59) | printed pp. 60-67 (PDF pp. 60-67) | **263** |
 | 7.0S-2025 recumbent stepper | printed p. 43 (PDF p. 45) | printed pp. 44-47 (PDF pp. 46-49) | **337** |
 | 7.5S-2025 recumbent stepper | printed p. 45 (PDF p. 47) | printed pp. 46-49 (PDF pp. 48-51) | **337** |
 | **8.5S-2025 recumbent stepper** | printed pp. 61-62 (PDF pp. 63-64) | **none** | - |

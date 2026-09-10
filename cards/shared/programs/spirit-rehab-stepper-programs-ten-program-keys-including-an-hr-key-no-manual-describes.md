@@ -1,6 +1,6 @@
 ---
 id: spirit-rehab-stepper-programs-ten-program-keys-including-an-hr-key-no-manual-describes
-title: Ten keys on the rehabilitation stepper - four presets, Manual, Symmetry, two User keys, a Set Up key and an HR key no manual describes
+title: Ten keys on the rehabilitation stepper - four presets, Manual, Symmetry, two User keys, a Set Up key and an HR key
 kind: fact
 question: What workout programs does a Spirit rehabilitation recumbent stepper with a dot matrix console have?
 asked_as:
@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -36,12 +38,14 @@ not_to_be_confused_with:
 - xs895-programs-ten-programs-including-two-heart-rate-keys
 - 85s-2025-programs-eleven-programs-on-the-touchscreen
 see_also:
+- spirit-rehab-stepper-programs-heart-rate-program-asks-for-a-heart-rate-level
 - spirit-rehab-stepper-programs-what-the-four-preset-profiles-do
 - spirit-rehab-stepper-programs-symmetry-measures-left-and-right-leg-power
 - spirit-rehab-stepper-programs-no-maximum-heart-rate-formula-and-no-training-zone-page
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300 printed p. 21 (PDF 21); 7.0S printed p. 22 (PDF 24); 7.5S printed p. 24 (PDF 26)
+  locator: MS300 printed p. 21 (PDF 21); 2025 7.0S printed p. 22 (PDF 24); 2025 7.5S printed
+    p. 24 (PDF 26); MED 7.0S printed p. 33 (PDF 33); MED 7.5S printed p. 34 (PDF 34)
   extracted_at: '2026-09-10'
 ---
 
@@ -49,7 +53,8 @@ The key strip reads, left to right:
 
 **Manual | Hill | Plateau | Cardio | Interval | Symmetry | User 1 | User 2 | HR | Set up**
 
-Identical on all three machines - the MS300, the 7.0S and the 7.5S.
+Identical on all five machines - the MS300, the Spirit-badged 7.0S and 7.5S of 2025, and the two
+MED-badged 7.0S and 7.5S books of 2021.
 
 - **Manual** - you set the workload; see
   `spirit-rehab-stepper-programs-manual-mode-asks-age-weight-and-time-only`.
@@ -61,15 +66,17 @@ Identical on all three machines - the MS300, the 7.0S and the 7.5S.
   `spirit-rehab-stepper-programs-user-one-and-two-build-twenty-four-segments-under-a-facility-name`.
 - **Set up** - seat and arm position by patient height, and the track-or-step-graph switch.
 
-**The HR key has no described program in any of the three manuals.** A loose search of all three
-books for "heart rate program", "HR program", "target heart rate", "65%" and "80%" returns nothing;
-the only heart rate content is the HR percent bar graph beside the dot matrix and the chest strap
-chapter. Whatever the key does, these books do not say - and no figure, percentage or procedure for
-it should be carried across from a Spirit stepper or elliptical.
+- **HR** - the Heart Rate program, which asks for a heart rate level and holds it;
+  `spirit-rehab-stepper-programs-heart-rate-program-asks-for-a-heart-rate-level`.
 
-*The key strip is a photograph on all three pages. It was read from a 300 dpi render, not from the
+**Every one of the five books does describe the HR key**, on a page headed *Heart rate program
+operation* (MS300 and both MED books) or *HEART RATE PROGRAM OPERATION* (2025 books). An earlier
+reading of this card said no manual described it; that was a failed search, not an absence, and the
+page is in all five.
+
+*The key strip is a photograph on all five pages. It was read from a 300 dpi render, not from the
 extraction: `pdftotext` returns the ten labels for the MS300 and the 7.0S but silently drops **HR**
-from the 7.5S strip, which would have made the 7.5S look like a nine-key machine.*
+from the 2025 7.5S strip, which would have made the 7.5S look like a nine-key machine.*
 
 **The program keys double as a numeric keypad** during data setup - Manual is 1, Hill is 2, and so
 on - and, pressed in idle mode, **preview** a program's profile without starting it.

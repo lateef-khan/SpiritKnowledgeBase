@@ -69,3 +69,10 @@ None of the four books says which console level produces which wattage. The
 console *displays* watts during a workout, left and right separately, but the
 manual gives only the end points of the range. A customer asking what wattage
 level 12 is cannot be answered from the manual.
+
+## The features page of the 7.0S and 7.5S says 750 watts
+
+Both 2025 books print **"Work range up to 750 Watts."** on their features page - a sentence carried
+over unchanged from the 650-watt generation and 250 watts short of this row. Quote the
+specification page; see
+`spirit-rehab-stepper-specs-the-features-page-says-750-watts-and-the-specification-page-does-not`.

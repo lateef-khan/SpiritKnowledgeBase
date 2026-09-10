@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -56,7 +58,7 @@ source:
 no timeout and no automatic end. **Do not quote the five-minute pause of the CS800 and CRS800S**
 (`spirit-ce-console-stop-button-press-once-twice-hold`), nor the stair climbers' thirty seconds.
 **The maintenance menu's Pause mode entry says the console will remain paused indefinitely if the
-setting is off**, which is the only qualification any of the three books gives.
+setting is off**, which is the only qualification any of the five books gives.
 
 **The enter key** enters data during programming **and scrolls through the different data in the
 message window during exercise**. There is no scan key on this console.
@@ -65,5 +67,5 @@ message window during exercise**. There is no scan key on this console.
 program's profile**; press **enter** to select it. In the data set-up mode the same keys type
 numbers: **the Manual key is 1, the Hill key is 2, and so on**.
 
-**The mapping is printed only as far as 2.** None of the three manuals lists the remaining digits, so
+**The mapping is printed only as far as 2.** None of the five manuals lists the remaining digits, so
 do not tell a caller which key is 7.

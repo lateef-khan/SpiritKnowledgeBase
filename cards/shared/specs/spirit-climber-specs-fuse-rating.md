@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - 85s-2025
@@ -47,7 +49,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**Two of the five specify a fuse. Three say there is none the user may change.**
+**Two of the seven specify a fuse. Five say there is none the user may change.**
 
 | Machine | Fuse rating row |
 |---|---|
@@ -56,19 +58,21 @@ source:
 | **7.0S-2025** | **No user replaceable fuse** |
 | **7.5S-2025** | **No user replaceable fuse** |
 | **MS300-2021** | **No user replaceable fuse** |
+| **7.0S MED-2021** | **No user replaceable fuse** |
+| **7.5S MED-2021** | **No user replaceable fuse** |
 
 **"Fast acting" is part of the specification, not a description.** A 5 x 20 mm
 time-delay fuse of the same rating is the wrong part; so is a 5 x 20 mm fuse,
 which is 0.2 mm narrower than the 5.2 mm the manual asks for. The word *only* is
 the manual's.
 
-## The three with no fuse are not fuseless machines
+## The five with no fuse are not fuseless machines
 
 They run from an external 30 watt Sinpro brick at 12 volts DC - see
 `spirit-climber-specs-twelve-volt-dc-from-a-sinpro-supply`. Whatever protection
 they have is inside that adapter or on a board, and the manual says plainly that
-the user is not to replace it. **A 7.0S, 7.5S or MS300 that is dead is a service
-call, not a fuse.**
+the user is not to replace it. **A 7.0S, 7.5S or MS300 of either generation that is
+dead is a service call, not a fuse.**
 
 The 8.5S pair have no external adapter and take mains directly, which is why
 theirs is the only fuse in the family - see

@@ -3,8 +3,8 @@ id: ms300-2021-maintenance-hygienic-requirements-and-cleaning
 title: No particular restriction on hygienic requirements, and no disinfection procedure
   in the whole book
 kind: policy
-question: How should a clinic clean a Spirit ms300-2021 rehabilitation recumbent stepper
-  between patients?
+question: How should a clinic clean a Spirit ms300-2021, 7-0s-med or 7-5s-med rehabilitation
+  recumbent stepper between patients?
 asked_as:
 - how do we clean the rehab stepper between patients
 - infection control for the ms300
@@ -25,8 +25,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: ms300-2021
+  model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - ms300-2021
   section: maintenance
   code: '*'
@@ -88,3 +90,11 @@ this machine that its manufacturer never stated for it.
 infection-control protocol beyond them is the facility's own decision under its own policy, not
 something this manual specifies. If the facility needs a manufacturer-approved disinfectant, that
 is a question for Spirit Fitness service, not for this book.
+
+## The two MED-badged books go further: they print no sanitizing bullets at all
+
+The MED 7.0S and 7.5S print the same **`there is no particular restriction on hygienic
+requirements`** line and the same damp-cloth sentence, and then stop. A loose search of both books
+for `sanitiz`, `isopropyl` and `disinfect` returns **zero hits of each**. So on those two machines
+the damp cloth is the whole of the printed cleaning, without even the 75% isopropyl bullets this
+book carries. Say so plainly rather than importing the bullets from here.

@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -45,16 +47,21 @@ source:
 ---
 
 **Press and hold Start, Stop and Enter together for about 5 seconds**, then press **enter**
-to open the menu. **You do not have to be pedalling** - none of the three books says so, unlike the
+to open the menu. **You do not have to be pedalling** - none of the five books says so, unlike the
 CS800 and CRS800S manuals, which open the same instruction with "pedal the stepper".
 
-**What the screen says is not the same in the two generations.**
+**What the screen says is not the same from book to book, and it does not split by generation.**
 
-- The **MS300-2021** says the message window will display **"Engineering mode"**.
-- The **7.0S-2025** and **7.5S-2025** say it will display **"Maintenance mode"**.
+| Book | The message window will display |
+|---|---|
+| **MS300-2021** | **"Engineering mode"** |
+| **MED 7.5S** (7-5s-med) | **"Engineering mode"** |
+| **MED 7.0S** (7-0s-med) | **"Maintenance mode"** |
+| **7.0S-2025**, **7.5S-2025** | **"Maintenance mode"** |
 
-All three head the paragraph "may be called Engineering mode, depending on version", so both words
-mean this menu.
+**The two MED books disagree with each other**, on otherwise identical pages. All five head the
+paragraph "may be called Engineering mode, depending on version", so both words mean this menu and
+neither is wrong on a given console.
 
 | Item | What it holds |
 |---|---|
@@ -87,6 +94,6 @@ to** when it says centimetres are used "if the machine is set to metric measurem
 printed in the console chapter and never connected to this entry
 (`spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down`).
 
-**The troubleshooting chapters of all three books send technicians here** - "Perform Keypad test in
+**The troubleshooting chapters of all five books send technicians here** - "Perform Keypad test in
 Maintenance mode", "Perform the Sensor tests in Maintenance mode" - and call the Key Test a
 **Keypad test**, which is not what this menu calls it.

@@ -30,9 +30,11 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ms300-2021-specs-dimensions-and-weight
+- 7-5s-med-specs-dimensions-and-weight
 - 70s-2025-specs-dimensions-and-weight
 - spirit-climber-85s-specs-dimensions-and-weight
 see_also:
+- spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s
 - spirit-climber-specs-rehabilitation-stepper-specification-page
 - spirit-climber-specs-workload-5-to-1000-watts
 - spirit-climber-specs-isokinetic-twenty-levels
@@ -58,10 +60,13 @@ steppers** - 48 lbs heavier than the 7.0S and 10.6 inches longer than the MS300,
 while being an inch and a half lower than either. It shares the 7.0S's width
 exactly, at 33.5" (85 cm), so width alone will not tell the two apart.
 
-**Do not confuse this machine with the Dyaco-branded 7.5S.** There is a separate
-rehabilitation manual for a 7.5S that says "Dyaco" throughout and never says
-"Spirit". It is a different document about a different product and none of its
-figures belong here.
+**There is an earlier machine also called 7.5S**, carded as `7-5s-med` from a
+MED-badged 2021 manual that says Dyaco throughout and never says Spirit. It weighs
+**the same 305.8 lbs.** and is a different size - **80.3" x 33.1" x 46.9"**, two and
+a half inches longer than this one - and its work load ceiling is **650 watts**, not
+1000. **The matching weight is not proof you have the right book; check the length.**
+See `7-5s-med-specs-dimensions-and-weight` and
+`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`.
 
 ## The user weight limit is a different figure
 

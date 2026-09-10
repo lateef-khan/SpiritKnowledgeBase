@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -66,7 +68,7 @@ the peak of the profile.
 level. **You may need to change the peak setting several times before the current segment
 increases.**"*
 
-That last sentence is the answer to "I pressed up and nothing happened". It is printed on all three
+That last sentence is the answer to "I pressed up and nothing happened". It is printed on all five
 machines and has no counterpart in the Spirit stepper manuals, whose Up/Down shifts the whole
 profile at once - see
 `spirit-stepper-programs-preset-setup-asks-age-weight-time-and-a-max-level`.

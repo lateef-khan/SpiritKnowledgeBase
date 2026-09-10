@@ -2,8 +2,8 @@
 id: ms300-2021-specs-dimensions-and-weight
 title: A 67 by 30 by 48 inch rehabilitation stepper weighing 257.4 pounds
 kind: spec
-question: What are the dimensions and the weight of a Spirit ms300-2021 rehabilitation
-  recumbent stepper?
+question: What are the dimensions and the weight of a Spirit MS300 or MED-badged 7.0S
+  rehabilitation recumbent stepper?
 asked_as:
 - how much does the ms300 weigh
 - how big is the ms300 stepper
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: ms300-2021
+  model: '*'
   applies_to:
+  - 7-0s-med
   - ms300-2021
   section: specs
   code: '*'
@@ -32,15 +33,18 @@ authority: 3
 not_to_be_confused_with:
 - 70s-2025-specs-dimensions-and-weight
 - 75s-2025-specs-dimensions-and-weight
+- 7-5s-med-specs-dimensions-and-weight
 - spirit-climber-85s-specs-dimensions-and-weight
 see_also:
+- spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s
 - spirit-climber-specs-rehabilitation-stepper-specification-page
 - ms300-2021-specs-workload-5-to-650-watts
 - spirit-climber-specs-isokinetic-twenty-levels
 source:
   ref: spirit-climber-ms300-2021-owners-manual
   locator: Specifications, printed p. 61 (PDF p. 61), Dimensions and Weight rows; read
-    from a 300 dpi render as well as the text layer
+    from a 300 dpi render as well as the text layer. The same four rows at printed and PDF
+    p. 68 of spirit-climber-7-0s-med-owners-manual, also read from a 300 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -55,10 +59,21 @@ source:
 gross weight and no carton size is printed anywhere in the 71-page manual, and
 neither is a step height, a stride length or a seat travel.
 
-**The 7.0S of 2025 weighs the same 257.4 lbs. and is a different size** - 69.7"
-long against this machine's 67". Do not treat the matching weight as proof you
-have the right book; check the length. See
-`70s-2025-specs-dimensions-and-weight`.
+## The MED-badged 7.0S prints this same page, figure for figure
+
+The 2021 MED book for a machine called **7.0S** prints `Length : 67" (172cm)`,
+`Width : 30" (77cm)`, `Height : 48" (122cm)` and `257.4 Lbs. (117 Kgs)` - the same
+four rows as the MS300, in the same rounding. Its work load row, its Sinpro
+supply, its `Isokinetic with 20 levels of effort` and its parts list are the MS300's
+as well. **The MS300 and the MED 7.0S are one machine under two badges**, which is
+why one card answers for both; the MS300's own data-transfer screenshots report the
+connected product as `7.0S`. See
+`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`.
+
+**The Spirit-badged 7.0S of 2025 weighs the same 257.4 lbs. and is a different
+size** - 69.7" long and 33.5" wide, against this machine's 67" by 30". Do not treat
+the matching weight as proof you have the right book; check the length and the
+width. See `70s-2025-specs-dimensions-and-weight`.
 
 ## The inch and centimetre figures are rounded independently
 

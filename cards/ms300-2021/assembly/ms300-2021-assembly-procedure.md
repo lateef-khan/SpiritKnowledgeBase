@@ -3,7 +3,7 @@ id: ms300-2021-assembly-procedure
 title: 'A four-step rehabilitation build: seat belts and safety cover onto the handle
   bar bolts, then mast and transport wheels, seat back, console and arms'
 kind: procedure
-question: How do I assemble a Spirit MS300 (ms300-2021) rehabilitation recumbent stepper
+question: How do I assemble a Spirit MS300 (ms300-2021) or MED 7.0S (7-0s-med) rehabilitation recumbent stepper
   from the carton?
 asked_as:
 - how do i put together the ms300
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: ms300-2021
+  model: '*'
   applies_to:
+  - 7-0s-med
   - ms300-2021
   section: assembly
   code: '*'
@@ -40,7 +41,9 @@ see_also:
 source:
   ref: spirit-climber-ms300-2021-owners-manual
   locator: pp. 40-47, "Assembly instructions for MS300" - the per-step hardware
-    pictures at pp. 40-42 and the four numbered steps at pp. 43-47
+    pictures at pp. 40-42 and the four numbered steps at pp. 43-47. The same four steps at
+    printed and PDF pp. 52-55 of spirit-climber-7-0s-med-owners-manual, with its hardware
+    panels at pp. 50-51
   extracted_at: '2026-09-10'
 ---
 
@@ -91,13 +94,24 @@ drawing before beginning it - the manual's own opening instruction.
 
 - Connect the computer cable into the back of the console and install the **console
   (29)** onto the mast with **four 5mm x 12mm screws (143)**.
-- Install the **left and right arms (3 & 4)** with **3/8" x 3/4" bolts (243)** on the
-  sides of the arms and **3/8" curved washers (218)** on the front and rear. **Tighten
-  these very securely so the arms do not loosen during use.**
+- Install the **left and right arms (3 & 4)** with **3/8" x 3/4" bolts (216)**, using
+  **3/8" flat washers (217) and 3/8" split washers (243)** on the sides of the arms and
+  **3/8" curved washers (218)** on the front and rear. **Tighten these very securely so
+  the arms do not loosen during use.**
 - Fit the release levers to the handle bar (17) with the Allen screws. **Set them so the
   patient can reach them comfortably.** They are labelled left and right:
   **the left lever, with the grey cable, is the fore/aft seat adjustment; the right
   lever, with the black cable, is the seat back angle.**
+
+## The MED-badged 7.0S is the same build, hardware panel for hardware panel
+
+The 2021 MED book for a machine called **7.0S** prints these four steps in the same words and
+the same four hardware panels, item number for item number and quantity for quantity - down to
+the twelve **#181 M5 x 15L** screws of step one and the twelve **#216 3/8" x 3/4"** bolts of
+step four. It is the same machine under another badge; see
+`spirit-rehab-stepper-specs-two-different-machines-are-called-7-0s`. The one wording difference
+is that the MED book writes the swivel-seat-latch washers as **5/16" curved washers (185)**
+where this book writes **6mm**; both are item 185 and both are four pieces.
 
 ## What this build has that no other Spirit machine does
 

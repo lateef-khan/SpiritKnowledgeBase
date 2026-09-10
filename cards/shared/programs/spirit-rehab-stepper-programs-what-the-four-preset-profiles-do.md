@@ -24,6 +24,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -62,7 +64,7 @@ may adjust the level of difficulty (max level) for each program before beginning
 **One wording difference between the printings.** The 7.0S and 7.5S open Hill with *"This program
 follows a triangle or pyramid type of gradual progression to simulate going up and down a hill"*;
 the MS300 begins straight at *"The Hill program simulates going up and down a hill"*. The remaining
-three descriptions are word for word the same in all three books.
+three descriptions are word for word the same in all five books.
 
 **These are not the Spirit stepper descriptions.** The CS800 and CRS800S give Hill a 10%-of-maximum
 figure and a peak lasting 10% of the workout, and have Fat Burn and Strength instead of Plateau -

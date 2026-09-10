@@ -3,8 +3,8 @@ id: ms300-2021-maintenance-rust-pedals-and-half-inch-wrench
 title: Wiping the sweat path to prevent rust, a monthly pedal check, and a half-inch
   wrench on the levelers
 kind: procedure
-question: What is the maintenance routine for a Spirit ms300-2021 rehabilitation recumbent
-  stepper, and what makes it squeak?
+question: What is the maintenance routine for a Spirit ms300-2021 or 7-0s-med rehabilitation
+  recumbent stepper, and what makes it squeak?
 asked_as:
 - how do we maintain the ms300 in the clinic
 - the rehab stepper squeaks
@@ -25,8 +25,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: ms300-2021
+  model: '*'
   applies_to:
+  - 7-0s-med
   - ms300-2021
   section: maintenance
   code: '*'
@@ -91,3 +92,16 @@ appears in the book, so do not read a 14 mm levelling figure out of them.
   there is no daily/weekly/quarterly grid.
 - **No cleaning procedure for between patients** beyond the damp cloth here and the standard 75%
   sanitizing bullets — `ms300-2021-maintenance-hygienic-requirements-and-cleaning`.
+
+## The MED-badged 7.0S prints this page word for word
+
+Same wipe-down and its reason, same monthly pedal check, same 90% sentence, same crank arm nut that
+the machine does not have, and the same **2 levelling pads on the bottom of the rear stabiliser**
+with a **½" wrench**. It supplies the same three wrenches in the parts list (209, 210, 211) and none
+of them is a ½" either.
+
+**The MED 7.5S does not.** Its care page replaces the monthly pedal check with *"Check hand grips,
+seat cushions and foot pedals for signs of wear (once a month)"*, drops the crank arm nut, and ends
+at *"check that the 7.5S is properly leveled. See leveling instructions."* - with no pad count and no
+wrench size. See
+`7-5s-med-maintenance-monthly-wear-check-on-grips-cushions-and-pedals`.

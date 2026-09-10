@@ -25,6 +25,8 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - 7-0s-med
+  - 7-5s-med
   - 70s-2025
   - 75s-2025
   - ms300-2021
@@ -49,7 +51,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**`Isokinetic with 20 levels of effort`**, word for word on all three
+**`Isokinetic with 20 levels of effort`**, word for word on all five
 specification pages.
 
 **Isokinetic is not the same claim as "20 resistance levels" on an elliptical or
@@ -67,7 +69,7 @@ do not.
 | CS800, CRS800S, XS895, CE850, XE and XG | ordinary resistance levels in four bands of five; harder as the number rises - see `spirit-ce850-specs-twenty-resistance-levels` |
 | CSC900 stair climber | twenty levels on which a **higher level brakes less**, so the stairs turn faster - see `spirit-csc900-specs-twenty-levels-with-less-braking-at-the-top` |
 
-**Never answer one from another.** The words "20 levels" appear on all three and
+**Never answer one from another.** The words "20 levels" appear on all five and
 describe three different things.
 
 ## The 8.5S has fifty, and they are constant as well as isokinetic
@@ -84,7 +86,7 @@ then jumps straight to `Work load`, so the extraction reads as though the machin
 never states a resistance type. A 300 dpi render of the same page read with
 `tesseract --psm 4` returns the full line. **The value above was read from the
 picture.** The 7.0S and 7.5S pages have complete text layers and were checked
-against renders as well; all three agree.
+against renders as well; all five agree.
 
 ## The level count is not a workload
 

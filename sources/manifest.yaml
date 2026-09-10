@@ -1401,6 +1401,23 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XIC600/2015/XIC600_600377_OM_20211130.pdf
   sha256: a47bc251ba445b4ca621d638d1eca8391fd896bf68751ebcccbb9f3c87e97f00
   ingested_at: '2026-09-09'
+- id: spirit-climber-7-0s-med-owners-manual
+  title: Spirit 7.0S MED rehabilitation recumbent seated stepper owner's manual, Rev.
+    1, no date printed. Its cover and body are branded MED and name Dyaco as manufacturer;
+    the machine is Spirit's. Held back from the climber wave until the brand was settled.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/70S/7.0S_OM.PDF
+  sha256: c4374badeb27653c5435bf4c7f4a1efd37069babab1e4f6a1c94b7ffea2dcc86
+  ingested_at: '2026-09-10'
+- id: spirit-climber-7-5s-med-owners-manual
+  title: Spirit 7.5S MED rehabilitation recumbent seated stepper owner's manual, Rev.
+    1, no date printed. 93.7% against the 7.0S MED manual on native text.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/75S/7.5S_OM.PDF
+  sha256: 083ea077e6fc9ad8494c8bbbcbf11fcaef3d732ad2daf45417996f1b5b166e08
+  ingested_at: '2026-09-10'
 - id: spirit-climber-70s-2025-owners-manual
   title: 2025 Spirit 7.0S stepper owner's manual, (c) 2025, warranty effective December
     18, 2025
