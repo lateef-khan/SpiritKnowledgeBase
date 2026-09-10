@@ -2,11 +2,12 @@
 id: crw800h2o-console-shows-no-data
 title: The console shows no data
 kind: troubleshooting
-question: Why does the console show no data on a Spirit CRW800H2O rower?
+question: Why does the console show no data on a Spirit water rower?
 asked_as:
 - rower console is blank
 - no numbers on my spirit rower display
 - spirit water rower monitor not working
+- screen is lit but nothing counts when i row
 keywords:
 - no data
 - no display
@@ -14,33 +15,42 @@ keywords:
 - magnet
 - mesh belt wheel
 - wires
+- computer lead
 - console
 - rower
-- sensor
+- sensor gap
 facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800h2o
+  model: '*'
   applies_to:
   - crw800h2o
+  - crw900-2021
   section: errors
   code: no-code
 authority: 3
 not_to_be_confused_with:
 - crw800h2o-console-shows-no-display
+- spirit-water-rower-errors-inconsistent-split-time-and-stroke-rate
 see_also:
 - crw800h2o-console-shows-no-display
 - crw800h2o-console-powers-on-by-itself
 - crw800h2o-console-shows-no-pulse-data
+- spirit-water-rower-errors-inconsistent-split-time-and-stroke-rate
+- spirit-rower-errors-no-error-codes-printed
 source:
   ref: spirit-rower-crw800h2o-service-manual
-  locator: Section 2 Q&A, Console Error, page 21
+  locator: 'CRW800H2O service manual, Section 2 Q&A, Console Error, page 21; and the
+    TROUBLESHOOTING table row "The console screen illuminates, but does not register
+    when rowing" in the CRW800H2O 2021 owner''s manual printed page 34 and the CRW900
+    2021 owner''s manual printed page 53, both read from a 300 dpi render as well as
+    the text layer.'
   extracted_at: '2026-09-08'
 ---
 
-The manual's answer, in its order. The question is printed as `The console without data` and the
-answer opens `When there is no display, check as below`.
+The service manual's answer, in its order. The question is printed as `The console without data` and
+the answer opens `When there is no display, check as below`.
 
 1. Check if batteries have enough power. If not, change new battery to try.
 2. Check if wires are connected properly. If not, try to connect all the wires again.
@@ -49,11 +59,28 @@ answer opens `When there is no display, check as below`.
 4. Check if wires have breakage. If yes, change new wire.
 5. If all is OK, change a new console.
 
-**This manual carries a second question that looks like the same fault and gives a shorter answer.**
-`The console without display` is answered with the battery check and a new console only - no wiring
-and no magnet check. It is on `crw800h2o-console-shows-no-display`. Work this longer list first; the
-magnet in the mesh belt wheel is the check the short answer leaves out and it is the one a rower
-loses data over.
+**The owner's manuals of both water rowers describe the same fault from the customer's side** -
+`The console screen illuminates, but does not register when rowing` - and add a check the service
+manual leaves out:
 
-This is a **battery** console. There is no mains supply to check, and this manual documents **no
-error codes at all** - it has four console questions and nothing else.
+| Possible Cause | Instructions |
+|---|---|
+| Loose or failed connection | Check that the computer lead is connected properly. If it is connected then contact your local service center. |
+| Sensor gap too wide | Check sensor gap. |
+
+**The sensor gap is set with the console's own back cover**, used as a gap tool against the magnetic
+ring - the same measurement the inconsistent-readings row asks for
+(`spirit-water-rower-errors-inconsistent-split-time-and-stroke-rate`). Neither manual prints a gap
+figure, so the cover is the only gauge there is.
+
+**Work this list before the shorter one.** The service manual carries a second question that looks
+like the same fault and answers it in two steps - `The console without display`, battery and then a
+new console, on `crw800h2o-console-shows-no-display`. The magnet in the mesh belt wheel and the
+sensor gap are the checks that short answer leaves out, and they are the ones a rower loses data
+over.
+
+These are **battery** consoles - both console chapters name 4 AA cells - so there is no mains supply
+to check, and **neither water rower prints an error code anywhere**
+(`spirit-rower-errors-no-error-codes-printed`).
+
+The service manual covers the CRW800H2O only; the CRW900 contributes the owner's manual row.

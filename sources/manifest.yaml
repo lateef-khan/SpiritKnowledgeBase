@@ -1426,10 +1426,10 @@
   sha256: 62f289e8e225d83ec1286e58a99bafbe0286f9d11762e861779ce49c4c436754
   ingested_at: '2026-09-10'
 - id: spirit-climber-85s-fit-2026-owners-manual
-  title: '2026 Spirit 8.5S-Fit stepper owner''s manual, (c) 2026. The newest manual
+  title: 2026 Spirit 8.5S-Fit stepper owner's manual, (c) 2026. The newest manual
     in the corpus. Warranty effective May 20, 2026, printed on PDF p. 55 and readable
     only from a render, not from the extraction. Its registration page reads "Dyaco
-    provides..." where its three siblings read "Spirit by Dyaco".'
+    provides..." where its three siblings read "Spirit by Dyaco".
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
     Steppers/8.5S/85S-Fit_OwnersManual_20260520.pdf
@@ -1782,6 +1782,13 @@
   origin_uri: file://_ENT_Tips_/ENT Support - Screen Mirroring.pdf
   sha256: e25211e3c14fd372f91e771440f5fbcf10ecad874a6bfaa3d73e5c9ac63a7695
   ingested_at: '2026-09-09'
+- id: spirit-ergometer-85ue-2025-owners-manual
+  title: 2025 Spirit 8.5UE upper body ergometer owner's manual, (c) 2025, warranty
+    effective December 15, 2025. The only upper body ergometer in the corpus.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/ERGOMETER/85UE_OwnersManual_20251215.pdf
+  sha256: ff2d731be203f7a1adf5db5af5893c47a83682b359554e1dc2dd62cf4217276a
+  ingested_at: '2026-09-10'
 - id: spirit-models-sole-bikes
   title: Sole bike model numbers from the Spirit database Models table
   kind: markdown
@@ -1824,6 +1831,15 @@
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
   sha256: c6482d0204653f2a17c6ac550b2e9754c7581b813b3f334c866852f93e09e2d1
   ingested_at: '2026-09-08'
+- id: spirit-rower-crw800-2021-owners-manual
+  title: 2021 Spirit CRW800 rower owner's manual, (c) 2021, warranty effective October
+    8, 2021. Predecessor of the carded crw800-2024. Its filename carries a malformed
+    date, 202020211008.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/CRW800/CRW800_OM_
+    202020211008.pdf
+  sha256: 81b1f528ea39df390bd48e69aed99d929e746c5b962b7863d6c9f0c4c1dc611b
+  ingested_at: '2026-09-10'
 - id: spirit-rower-crw800-2024-owners-manual
   title: 2024 Spirit CRW800 rower owner's manual, warranty effective September 26,
     2024. Distinct from the carded crw800h2o water rower.
@@ -1832,12 +1848,41 @@
     Units/CRW800_OwnersManual_800925_20240926.pdf
   sha256: b48d0526fd50b927c499f61a4225bafaa9cf35d615349da365f4700fb21836f7
   ingested_at: '2026-09-10'
+- id: spirit-rower-crw800h2o-2021-owners-manual
+  title: 2021 Spirit CRW800H2O water rowing machine owner's manual, (c) 2021, warranty
+    effective November 12, 2021. Cards use the existing model id crw800h2o, which
+    has no year suffix.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/CRW800H2O/CRW800H2O_20211112.pdf
+  sha256: 8a6caf127995ec67b93a5a003ef16c5dc833425744f6951228d1eba60c4b566d
+  ingested_at: '2026-09-10'
 - id: spirit-rower-crw800h2o-service-manual
   title: Spirit CRW800H2O rower service manual
   kind: markdown
   origin_uri: file://CRW800H2O Service Manual.pdf
   sha256: 309e931e93297b67969882afe47cf0372fdc41a582c8df0c04aae4510a388926
   ingested_at: '2026-09-08'
+- id: spirit-rower-crw900-2021-owners-manual
+  title: 2021 Spirit CRW900 water rower owner's manual, warranty effective October
+    22, 2021 against a (c) 2019 back cover. 68 pages, the longest rower manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/CRW900/CRW900_20211022.pdf
+  sha256: 41f100b512b46c56e152a50342aaabb6fa62cb381dcb022d745f4d7b6fb13516
+  ingested_at: '2026-09-10'
+- id: spirit-rower-xrw600-2019-owners-manual
+  title: 2019 Spirit XRW600 rower owner's manual, (c) 2018, warranty effective February
+    4, 2019
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/XRW600/XRW600_201900204.pdf
+  sha256: 9f3f66afc90a5acec3d46c7dcb4e32455f2efc1d5281193b07bcf1862ed3fb74
+  ingested_at: '2026-09-10'
+- id: spirit-rower-xrw600-2021-owners-manual
+  title: 2021 Spirit XRW600 rower owner's manual, Revision 11.30.2021, warranty effective
+    November 30, 2021. 97.2% against the 2019 printing on native text.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/XRW600/XRW600_20211130.pdf
+  sha256: acc7c3db987c2351f494cb61cf791dd0e709f2f02babc45a10670ed930d76d94
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-40t-2026-owners-manual
   title: 2026 Spirit 4.0T treadmill owner's manual
   kind: pdf

@@ -3,7 +3,8 @@ id: crw800-2024-safety-instructions-list
 title: The thirteen numbered rower safety instructions, printed with no DANGER line and no
   electric-shock rule
 kind: policy
-question: What does the SAFETY INSTRUCTIONS page say for a Spirit CRW800-2024 rower?
+question: What does the safety instructions page say for a Spirit CRW800 rower, in the 2021 or the
+  2024 owner's manual?
 asked_as:
 - what are the safety rules for the crw800 rower
 - safety instructions page of the rower manual
@@ -24,8 +25,9 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: safety
   code: '*'
@@ -42,7 +44,9 @@ see_also:
 - spirit-2024-safety-product-labels
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: SAFETY INSTRUCTIONS, printed page 4 (PDF page 6)
+  locator: SAFETY INSTRUCTIONS, printed page 4 (PDF page 6); the CRW800-2021 owner's manual
+    prints the same thirteen items as bullets under IMPORTANT SAFETY INSTRUCTIONS on its printed
+    page 4 (PDF page 6), in spirit-rower-crw800-2021-owners-manual
   extracted_at: '2026-09-10'
 ---
 
@@ -93,3 +97,32 @@ Beside the list is the boxed note printed on every one of the fourteen 2024 manu
 
 **The CRW800H2O is a different machine.** It is a water rower with its own manual; nothing on this
 page may be quoted for it, and nothing from its manual may be quoted here.
+
+
+## The 2021 CRW800 manual prints the same thirteen items
+
+**The CRW800-2021 owner's manual carries this list word for word**, in the same order, on its
+printed page 4 - including `Never operate the Rower is damaged` in item 4 and the sparks-from-the-
+motor sentence in item 5. Only the presentation changed between the two printings:
+
+| | CRW800-2021 | CRW800-2024 |
+|---|---|---|
+| Items | thirteen **bullets** | thirteen **numbered** items |
+| Opening line | none | `Read all instructions before using this appliance.` |
+| WARNING header | bare `WARNING` | `WARNING - To reduce the risk of burns, fire electric shock, or injury to persons:` |
+| Closing line | `SAVE THESE INSTRUCTIONS - THINK SAFETY!` | the boxed weight-and-power note |
+
+**No item was added, removed or reworded.** The thirteen sentences are identical, so the 450 lb
+limit, the under-13 rule, the chest-strap claim and the motor sentence all read the same in both
+books.
+
+**The 2021 book prints its electrical warning as a separate heading.** `IMPORTANT ELECTRICAL
+INSTRUCTIONS` sits beside the list on the same page and carries only the moisture and temperature
+limits (`ct900ent-operating-environment-voltage`); the 2024 book folds the same text into an
+`ELECTRICAL SAFETY` heading on the next page. Neither names an outlet.
+
+**The other four rowers of this range print a different list.** The two XRW600 books open with a
+DANGER line and an outlet WARNING this manual does not have
+(`spirit-rower-xrw600-safety-instructions-list`), and the CRW900 and CRW800H2O water rowers print DO
+and DO NOT lists that share almost nothing with this page
+(`spirit-water-rower-safety-do-and-do-not-lists`).

@@ -9,7 +9,7 @@ question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 
   Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, or
   a Spirit CIC800, CIC850 or XIC600 indoor cycle, a Spirit CRS800S semi-recumbent
   stepper, CS800 stepper, XS895 incline stepper, CVC800 vertical climber, 7.0S or 7.5S
-  rehabilitation stepper, or a Spirit CRW800 rower, that rocks or squeaks?
+  rehabilitation stepper, or a Spirit CRW800 or XRW600 rower, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -52,6 +52,7 @@ facets:
   - cr900-2025
   - cr900ent-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
   - cs800-2021
   - cs800-2024
@@ -97,6 +98,8 @@ facets:
   - xg400-2021
   - xic600-2018
   - xic600-2021
+  - xrw600-2019
+  - xrw600-2021
   - xs895-2018
   - xs895-2021
   section: assembly
@@ -110,6 +113,10 @@ not_to_be_confused_with:
 - spirit-ce900-assembly-levelling-pads
 - ces880-2025-assembly-levelling-note
 see_also:
+- spirit-xrw600-assembly-tools-included
+- crw800h2o-assembly-levelling-rear-feet
+- crw900-2021-assembly-choose-a-flat-surface
+- 85ue-2025-assembly-levelling-glides
 - spirit-xb-2023-assembly-levelling-m14-wrench
 - spirit-xb-assembly-no-moving-or-transport-section
 - spirit-xbr-assembly-procedure
@@ -203,7 +210,11 @@ source:
     (`spirit-climber-cvc800-2021-owners-manual`), p. 37 of the CS800 2021
     (`spirit-climber-cs800-2021-owners-manual`), p. 38 of the 7.0S
     (`spirit-climber-70s-2025-owners-manual`) and p. 40 of the 7.5S
-    (`spirit-climber-75s-2025-owners-manual`)
+    (`spirit-climber-75s-2025-owners-manual`); and word for word again on three earlier
+    Spirit rower printings, in the same noise item - p. 33 of the CRW800 2021 manual
+    (`spirit-rower-crw800-2021-owners-manual`) and p. 37 of both XRW600 manuals
+    (`spirit-rower-xrw600-2019-owners-manual`,
+    `spirit-rower-xrw600-2021-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -432,3 +443,33 @@ Do not carry 2 pads and 14mm onto any of them:
 two centre and four corner - and a **½" wrench**, and this noise item on the same book's
 maintenance page says two pads and a 14mm wrench. See
 [the setting-up card](../../shared/assembly/spirit-rehab-stepper-assembly-levelling-six-glides.md).
+
+## Three earlier rower printings print it too, and two other Spirit rowers do not
+
+The **CRW800 2021** and both **XRW600** printings, 2019 and 2021, carry the sentence word
+for word as the last remedy in the same noise item, never in their assembly chapters.
+**Two levelling pads under the rear stabiliser, 14mm wrench**, on all three. It is the
+only levelling instruction in any of the three books, and no step of either build fits or
+adjusts a leveller - although the **XRW600 machine diagram labels LEVELERS twice**, once
+at the front stabiliser and once at the rear, which is two more than this sentence
+accounts for.
+
+**All three cartons hold a 13/14mm wrench**, which will open to 14. See
+[the XRW600 tools card](../../shared/assembly/spirit-xrw600-assembly-tools-included.md)
+and [the CRW800 tools card](../../crw800-2024/assembly/crw800-2024-assembly-tools-included.md).
+
+**The two Spirit water rowers do not print this sentence at all.** Do not carry the two
+pads or the 14mm across to either:
+
+- the **CRW800H2O** says only "Adjust the rear feet if the machine is out of balance",
+  with no count and no wrench -
+  see [that card](../../crw800h2o/assembly/crw800h2o-assembly-levelling-rear-feet.md);
+- the **CRW900** has no levelling instruction anywhere. Its build ends by telling you to
+  "choose a flat, level surface on which to use your rower, to avoid rocking and potential
+  premature wear", and the machine has elevated legs rather than levellers -
+  see [that card](../../crw900-2021/assembly/crw900-2021-assembly-choose-a-flat-surface.md).
+
+**The 8.5UE upper body ergometer prints a different sentence again** - two pads under the
+**front and rear** stabiliser, a 14mm wrench on the **top nut** - which is the 8.5S
+wording, not this one. It is deliberately not on this card; see
+[the 8.5UE levelling card](../../85ue-2025/assembly/85ue-2025-assembly-levelling-glides.md).

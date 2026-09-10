@@ -33,6 +33,8 @@ facets:
   - xe795-2018
   - xe795-2021
   - xe895-2018
+  - xrw600-2019
+  - xrw600-2021
   section: safety
   code: '*'
 authority: 3
@@ -58,7 +60,7 @@ source:
   locator: IMPORTANT SAFETY INSTRUCTIONS, page 2, and GROUNDING INSTRUCTIONS, page 3.
     All three XE795 printings print the safety-page WARNING on their page 4 - August 22
     2018, February 19 2021 and November 30 2021. The XE895-2018 prints it on its page 4
-    and its Grounding Instructions on its page 6
+    and its Grounding Instructions on its page 6 The two Spirit XRW600 rower owner's manuals print the same WARNING on their printed page 5 - the February 2019 and the November 2021 printings
   extracted_at: '2026-09-09'
 ---
 
@@ -175,3 +177,26 @@ are otherwise the same book as the XBU55 pair and print 115-volt in the same sen
 (`spirit-xe-safety-outlet-115-volt-15-amp`). Never read one across to the other.
 
 **The four 2023 XB manuals print no voltage and no amperage at all.**
+
+
+## The two Spirit XRW600 rower manuals print the same figure
+
+**110 volt, 15 amp, grounded, nothing else on the circuit**, in the WARNING header of their
+Important Safety Instructions page - the February 2019 printing and the November 2021 printing
+alike, word for word except that both write `the Rower`:
+
+> WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+> Rower on a flat level surface with access to a 110-volt, 15-amp grounded outlet with only the
+> Rower plugged into the circuit.
+
+**Both also print the full circuit-breaker paragraph** and close it
+`The electrical outlet used should have a dedicated 15 amp circuit breaker`
+(`spirit-house-breaker-needs-a-high-inrush-type`), so unlike the XE395-2010 and the XE795 books
+these two do give a breaker rating. Neither names a NEMA type and neither names a frequency.
+
+**No other Spirit rower prints an outlet figure.** The CRW800-2021 and CRW800-2024 air rowers run
+their consoles on batteries and print no supply at all
+(`crw800-2024-safety-console-runs-on-two-c-batteries`), and the CRW900 and CRW800H2O water rowers
+run on 4 AA cells and print no electrical page whatsoever
+(`spirit-water-rower-safety-four-aa-batteries-and-no-electrical-page`). Never carry 110 volt onto
+one of those four.

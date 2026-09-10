@@ -3,7 +3,7 @@ id: crw800-2024-assembly-parts-included
 title: What comes in the carton, eight part lines and no seat, no power cord and no
   hand grips
 kind: fact
-question: What parts come in the carton of a Spirit CRW800 (crw800-2024) rower?
+question: What parts come in the carton of a Spirit CRW800 rower (crw800-2021 or crw800-2024)?
 asked_as:
 - what should be in the box of my crw800
 - how many parts come with the spirit rower
@@ -22,13 +22,16 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xrw600-assembly-parts-included
+- crw800h2o-assembly-parts-checklist
 see_also:
 - crw800-2024-assembly-tools-included
 - crw800-2024-assembly-procedure
@@ -36,7 +39,8 @@ see_also:
 - crw800-2024-assembly-folding-and-moving
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: p. 6, PARTS INCLUDED
+  locator: p. 6, PARTS INCLUDED; the same eight lines at p. 6 of the 2021 manual
+    (`spirit-rower-crw800-2021-owners-manual`)
   extracted_at: '2026-09-10'
 ---
 
@@ -64,6 +68,16 @@ Board (No.16)**. None of the five is on this panel.
 
 **The seat is the one that matters.** An owner counting the box against this list has no
 line to tick it against, and step four is where it goes on.
+
+## The 2021 printing lists the same eight
+
+Nothing was added or removed from the carton panel in the 2024 redesign.
+
+## The XRW600 carton has a ninth line
+
+The Spirit **XRW600** panel prints these eight and a **Power Cord**; that rower runs from
+the mains and this one does not. See
+[the XRW600 parts card](../../shared/assembly/spirit-xrw600-assembly-parts-included.md).
 
 ## The panel lists no power cord
 

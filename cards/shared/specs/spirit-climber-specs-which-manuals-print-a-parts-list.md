@@ -54,6 +54,8 @@ see_also:
 - spirit-climber-specs-no-specification-table
 - spirit-climber-2024-specs-resistance-system
 - csc880-2025-specs-exploded-view-with-no-parts-list
+- spirit-rower-specs-which-manuals-print-a-parts-list
+- 85ue-2025-specs-exploded-view-with-no-parts-list
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: Table of Contents printed p. 1, which runs Machine Care 32, Troubleshooting
@@ -86,6 +88,13 @@ exploded-view drawing with no list to decode it. Four print neither.**
 | **8.5S-2025 recumbent stepper** | printed pp. 61-62 (PDF pp. 63-64) | **none** | - |
 | **8.5S-FIT-2026 recumbent stepper** | printed pp. 51-52 (PDF pp. 53-54) | **none** | - |
 | **CSC880-2025 stair climber** | printed pp. 35-37 (PDF pp. 37-39) | **none** | - |
+
+**The Spirit rowers are counted separately** - three of six print a list -
+because `product_line` is a single value and one card cannot span two lines. See
+`spirit-rower-specs-which-manuals-print-a-parts-list`. The **8.5UE upper body
+ergometer** is a third line again and prints two drawings with no list -
+`85ue-2025-specs-exploded-view-with-no-parts-list`, which makes **four** Spirit
+machines whose books show a diagram they give you no way to read.
 
 ## A drawing with no list is not a parts list
 

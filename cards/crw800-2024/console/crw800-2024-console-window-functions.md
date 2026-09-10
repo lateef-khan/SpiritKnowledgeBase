@@ -3,7 +3,7 @@ id: crw800-2024-console-window-functions
 title: What each console window reads and its range, including the point that stands for thousands of
   watts
 kind: fact
-question: What do the windows on a Spirit crw800-2024 rower console show, and what are their ranges?
+question: What do the windows on a Spirit air rower console show, and what are their ranges?
 asked_as:
 - what does the rower display show
 - what is the watts range on the spirit rower
@@ -24,9 +24,12 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
+  - xrw600-2021
   section: console
   code: '*'
 authority: 3
@@ -38,7 +41,9 @@ see_also:
 - crw800-2024-console-two-c-batteries
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: p. 14, FEATURES / WINDOW FUNCTIONS
+  locator: CRW800-2024 printed p. 14, FEATURES / WINDOW FUNCTIONS. The CRW800-2021 prints the same
+    list on its printed pp. 13-14 and the XRW600-2019 and XRW600-2021 on their printed pp. 15-16,
+    under the heading "Window Functions". Every range is identical across the four
   extracted_at: '2026-09-10'
 ---
 
@@ -72,3 +77,16 @@ window.
 
 **The 500M/TIME window is not in this list** - it appears only in four of the workout modes and
 alternates with the wave pattern: `crw800-2024-console-scan-500m-time`.
+
+**Every range above is printed identically in all four manuals** - CRW800-2021, CRW800-2024,
+XRW600-2019 and XRW600-2021. Nothing widens or narrows between the printings.
+
+**The XRW600 books add one bullet under Calories that the CRW800 books do not print:** *"The calorie
+value is based on built in estimates of the average user and may not reflect accuracy. To have a more
+accurate basis of caloric burn - please contact your physician and they can assist you."* The
+CRW800's calorie entry stops at the 0 - 999 range. **The disclaimer is the XRW600's alone**, though
+the estimate behind the number is the same on both.
+
+**A wording difference with no figure behind it:** the CRW800 books say the calorie window shows
+*"the value of calorie dissipated"*, the XRW600 books *"the value of calories burned"*. Same window,
+same range.

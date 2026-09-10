@@ -30,6 +30,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-rower-programs-erratic-heart-rate-seven-sources-of-interference
 - spirit-stepper-programs-erratic-heart-rate-interference
 - spirit-ce-programs-erratic-heart-rate-interference
 - spirit-bike-programs-erratic-heart-rate-interference
@@ -60,6 +61,11 @@ Areas to look for interference which may cause erratic heart rate:
 8. Another individual wearing a transmitter **within 3 feet** of your machine's console.
 
 If problems continue, contact Spirit Fitness.
+
+**This is the eight-item list, and only the 2024 CRW800 prints it.** The 2021 CRW800 and both XRW600
+books print a **seven**-item list without the grounding item, and word item 4 differently - see
+`spirit-rower-programs-erratic-heart-rate-seven-sources-of-interference`. Counting from the wrong
+card gives the wrong item numbers.
 
 *The caution refers to "Heart Rate programs" on a machine that has none - see
 `crw800-2024-programs-eleven-workout-modes-in-mode-button-order`. The page is the standard Spirit

@@ -3,7 +3,7 @@ id: crw800-2024-console-button-functions
 title: The five keys - Mode, Up, Down, Start/Stop and Reset - and what each does in idle, setting and
   stopping mode
 kind: fact
-question: What do the buttons on a Spirit crw800-2024 rower console do?
+question: What do the buttons on a Spirit rower console do?
 asked_as:
 - what do the buttons on the spirit rower do
 - how do i change the workout mode on the rower
@@ -24,9 +24,12 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
+  - xrw600-2021
   section: console
   code: '*'
 authority: 3
@@ -37,9 +40,12 @@ see_also:
 - crw800-2024-console-window-functions
 - crw800-2024-console-screen-overview
 - crw800-2024-console-scan-500m-time
+- xrw600-console-screen-overview
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: p. 15, FEATURES - CONTINUED / BUTTON FUNCTION
+  locator: CRW800-2024 printed p. 15, FEATURES - CONTINUED / BUTTON FUNCTION. The CRW800-2021
+    prints the same section word for word on its printed p. 15 (PDF p. 17), and the XRW600-2019
+    and XRW600-2021 print it on their printed pp. 17-18 under the heading "Key button Function"
   extracted_at: '2026-09-10'
 ---
 
@@ -72,3 +78,15 @@ of the CSC900 (`csc900-2024-console-start-stop-pause-thirty-seconds`).
 
 **"Turns on the console again" is the manual's own wording** for the three-second hold. It does not
 say what is cleared, or whether the odometer survives.
+
+**Four machines, one section, word for word.** The CRW800's 2021 and 2024 printings and the XRW600's
+2019 and 2021 printings all print this key table with the same wording, the same eleven-mode order
+and the same three-second hold. Only the headings move: the CRW800 books print **BUTTON FUNCTION /
+MODE BUTTON**, the XRW600 books print **Key button Function / Mode Key**.
+
+**The XRW600 books add two bullets the CRW800 books do not print:**
+
+- *"Any valid key button pressed will generate a beep sound."*
+- *"When in power off mode, pressing any key button turns on the console."*
+
+**Only the XRW600 manual states them**, so quote them for that machine and not for the CRW800.

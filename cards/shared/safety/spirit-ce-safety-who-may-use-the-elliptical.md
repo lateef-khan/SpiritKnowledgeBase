@@ -45,6 +45,7 @@ facets:
   - cr900-2025
   - cr900ent-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
   - cs800-2024
   - csc900-2024
@@ -82,6 +83,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xrw600-2019
+  - xrw600-2021
   section: safety
   code: '*'
 authority: 3
@@ -112,7 +115,7 @@ source:
     safety list - CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and CU900ENT-2021
     printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, CU800ENT-2022 and
     CR800ENT-2023 printed page 5, CU800ENT-2024 printed page 5, and CR900-2025 and
-    CU900-2025 as items 9 and 10 of their printed page 4
+    CU900-2025 as items 9 and 10 of their printed page 4 The XRW600-2019 and XRW600-2021 rower owner's manuals print both bullets on their printed page 5 and the CRW800-2021 on its printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -289,3 +292,29 @@ The 2012 to 2020 CT800 and CT850 manuals did print the age rule
 (`spirit-ct800-safety-instructions-list`). The four 2024 treadmill manuals dropped it. Do not carry
 `keep children under the age of 13 away` onto a 2024 treadmill from an older book, and do not offer
 a 2024 CT800 or CT850 owner the supervised-use exception their manual does not print.
+
+
+## Three more Spirit rower manuals print the same two bullets
+
+**XRW600-2019, XRW600-2021 and CRW800-2021** close their safety list with the same pair, as the
+CRW800-2024 does:
+
+> This exercise equipment is not intended for use by persons with reduced physical, sensory or
+> mental capabilities, or lack of experience and knowledge.
+
+> Keep children under the age of 13 away from this machine.
+
+**The CRW800-2021 prints the supervised exception and the two XRW600 manuals do not.** Its wording
+is `This appliance is not intended for use by persons with reduced physical, sensory or mental
+capabilities, or lack of experience and knowledge, unless they have been given supervision or
+instruction concerning use of the appliance by a person responsible for their safety`; the XRW600
+books stop at `knowledge` and allow no exception. That is the same split this card already records
+elsewhere.
+
+**The two Spirit water rowers say something different.** The CRW900-2021 and CRW800H2O manuals print
+no capability bullet and no age figure; they say `Do not let unsupervised children operate the
+rower` and add `Rower is not suitable for therapeutic purposes`
+(`spirit-water-rower-safety-do-and-do-not-lists`,
+`spirit-water-rower-safety-not-suitable-for-therapeutic-purposes`). **The 8.5UE upper body ergometer
+is the opposite of all of them** - it is a rehabilitation device with a printed list of conditions
+that rule a patient out (`85ue-2025-safety-who-may-not-use-the-ergometer`).

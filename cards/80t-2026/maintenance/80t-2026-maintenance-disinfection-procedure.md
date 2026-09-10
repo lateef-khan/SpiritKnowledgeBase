@@ -2,8 +2,8 @@
 id: 80t-2026-maintenance-disinfection-procedure
 title: Disinfecting with 20 ml of 70% or stronger isopropyl alcohol
 kind: procedure
-question: How do I disinfect a Spirit rehabilitation treadmill or 8.5S stepper between
-  patients?
+question: How do I disinfect a Spirit rehabilitation treadmill, 8.5S stepper or 8.5UE
+  ergometer between patients?
 asked_as:
 - how do we disinfect the treadmill between patients
 - what strength alcohol for the clinic treadmill
@@ -28,6 +28,7 @@ facets:
   - 80t-2026
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -44,7 +45,10 @@ source:
     steps, word for word, are spirit-climber-85s-2025-owners-manual printed p. 56 (PDF p. 58)
     and spirit-climber-85s-fit-2026-owners-manual printed p. 47 (PDF p. 49), under the same
     heading on their MACHINE CARE page. Measured from the PDF pages, not from text.md; the
-    8.5S page was also read from a 200 dpi render, which agrees with the text layer'
+    8.5S page was also read from a 200 dpi render, which agrees with the text layer.
+    spirit-ergometer-85ue-2025-owners-manual prints the same seven steps at printed p. 52 (PDF
+    p. 54), under the same heading, matching the 8.5S block at difflib word level 0.997; that page
+    was read from a 300 dpi render with tesseract --psm 4 (native 489 words, rendered 485)'
   extracted_at: '2026-09-09'
 ---
 
@@ -92,3 +96,18 @@ book uses the word *patient* on this page — but the wording it inherits does, 
 CRS800S 2021, CVC800, CSC900 2021, CSC880 2025, MS300 2021, 7.0S and 7.5S. Notably the **MS300**,
 which *is* a clinical rehabilitation machine, prints no disinfection procedure at all
 (`ms300-2021-maintenance-hygienic-requirements-and-cleaning`).
+
+## The 8.5UE prints it too
+
+The **8.5UE 2025** upper body ergometer carries the same seven steps on printed p. 52, beside the
+post-workout noise checks (`spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads`).
+Every figure is unchanged — **20 ml**, **70% or greater isopropyl alcohol**, a **minimum of 15
+minutes** of manual disinfection, a **3 to 5 minute** dwell, a **30 second** water-only clean, and
+the instruction to remove the disinfectant afterwards or the machine will corrode.
+
+Its list of most-touched points is written for an arm ergometer: *manual mechanical brake lever,
+front handlebar, saddle, console display and buttons, main body cover, adjustment levers*.
+
+**The 8.5UE carries the same alcohol contradiction**, on printed p. 54 —
+`80t-2026-maintenance-cleaning-cautions`.
+

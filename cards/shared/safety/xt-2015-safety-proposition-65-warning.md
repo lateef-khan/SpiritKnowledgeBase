@@ -39,6 +39,9 @@ facets:
   - cr800ent-2023
   - cr900-2018
   - cr900ent-2021
+  - crw800-2021
+  - crw800h2o
+  - crw900-2021
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
@@ -73,6 +76,8 @@ facets:
   - xg400-2021
   - xic600-2018
   - xic600-2021
+  - xrw600-2019
+  - xrw600-2021
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -117,7 +122,7 @@ source:
     page 6 Six indoor cycle, air bike and Johnny G manuals print the same box - CIC800-2021
     printed page 6, CIC850-2022 printed page 7, XIC600-2018 and XIC600-2021 printed page 6
     beside the numbered operation instructions, and AB900-2018 printed page 16 and JB950-2022
-    printed page 16 beside RECORD YOUR SERIAL NUMBER
+    printed page 16 beside RECORD YOUR SERIAL NUMBER Five Spirit rower owner's manuals print the same box - XRW600-2019 printed page 5, XRW600-2021 printed page 6, CRW800-2021 printed page 5, CRW900-2021 printed page 17 and CRW800H2O printed page 10
   extracted_at: '2026-09-09'
 ---
 
@@ -296,3 +301,31 @@ extraction.
 XBR95-2023 print no Toluene, no Acrylamide and no web address; their PRODUCT LABELS page describes a
 Proposition 65 sticker on the machine in the short form instead
 (`xt-2023-safety-proposition-65-sticker`). The two are not interchangeable in either direction.
+
+
+## Five Spirit rower manuals print the same box
+
+**XRW600-2019, XRW600-2021, CRW800-2021, CRW900-2021 and CRW800H2O** all print the Toluene and
+Acrylamide wording above, word for word.
+
+| Manual | Where the box is printed |
+|---|---|
+| XRW600-2019 | beside the Important Safety Instructions list, printed page 5 |
+| XRW600-2021 | beside the Important Electrical Instructions, printed page 6 - it moved a page between printings |
+| CRW800-2021 | on the IMPORTANT OPERATION INSTRUCTIONS page, printed page 5 |
+| CRW900-2021 | on the SAFEGUARDS page, printed page 17 |
+| CRW800H2O | on the SAFEGUARDS page, printed page 10 |
+
+**The two water rowers print it twice, in two different wordings.** Beside the box above, their
+warning-labels page reproduces the decal itself, which reads only
+`WARNING: Cancer and Reproductive Harm - www.P65Warnings.ca.gov` and names no chemical, captioned
+`CALIFORNIA PROP 65 WARNING DECAL (For US model only)`
+(`crw900-2021-safety-warning-labels-and-serial-decal`,
+`crw800h2o-safety-warning-labels-and-sticker-locations`). The `(For US model only)` caption appears
+on no other manual on this card.
+
+**The 8.5UE upper body ergometer is not on this card.** Its PRODUCT LABELS page prints the short
+decal and a sentence of its own - `The State of California requires us to inform you that this unit
+was manufactured using chemicals that could cause harm with improper use` - and **names no
+chemical at all** (`85ue-2025-safety-product-labels-and-proposition-65`). Do not quote Toluene and
+Acrylamide for an 8.5UE.

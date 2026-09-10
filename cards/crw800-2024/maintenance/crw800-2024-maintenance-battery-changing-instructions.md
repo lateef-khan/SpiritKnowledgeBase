@@ -2,8 +2,8 @@
 id: crw800-2024-maintenance-battery-changing-instructions
 title: Changing the handle batteries, and re-coding the wireless handle to the console
 kind: procedure
-question: How do I change the batteries on a Spirit crw800-2024 rower, and why do the
-  handle buttons stop working afterwards?
+question: How do I change the batteries on a Spirit CRW800 rower, and why do the handle
+  buttons stop working afterwards?
 asked_as:
 - how do i change the battery in the rowing handle
 - the up and down buttons on the handle stopped working
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: maintenance
   code: '*'
@@ -35,6 +36,7 @@ not_to_be_confused_with:
 - cic850-2022-maintenance-sensor-board-battery-behind-left-chain-guard
 see_also:
 - crw800-2024-maintenance-machine-care-schedule
+- crw800-2021-maintenance-two-remedies-and-no-crank-arm-nut
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: 'Two facing pages. "Battery Changing Instructions" is MACHINE CARE - CONTINUED,
@@ -42,7 +44,12 @@ source:
     text. "Wireless handle coding steps" is MACHINE CARE - CONTINUED, printed p. 30 (PDF
     p. 32), in the right-hand column beside the post-workout routine. Both pages read from a
     300 dpi render with tesseract --psm 4 and the picture page inspected by eye, because the
-    captions are all the text there is'
+    captions are all the text there is. spirit-rower-crw800-2021-owners-manual prints both blocks
+    unchanged one printing earlier: BATTERY CHANGING INSTRUCTIONS printed p. 35 (PDF p. 37) and
+    WIRELESS HANDLE CODING STEPS printed p. 33 (PDF p. 35), a +2 page offset. The picture page was
+    rendered at 300 dpi and inspected by eye - six panels in two three-step rows, the upper row
+    ending in two cylindrical cells and the lower in one button cell - and the coding steps were
+    compared with the 2024 wording at difflib word level, where they are identical'
   extracted_at: '2026-09-10'
 ---
 
@@ -95,3 +102,22 @@ manual is the **CR2032 in the heart rate chest strap**, which the troubleshootin
 replace when the pulse reading drops out — a different battery in a different place.
 
 **This is the CRW800, not the CRW800H2O water rower**, whose manual describes a different machine.
+
+## The 2021 printing names the console cell where the 2024 printing does not
+
+The **CRW800 2021** owner's manual prints the same six panels and the same three captions, and its
+console chapter adds what the 2024 book leaves out: **"The console operates on 2*C batteries (not
+included). The battery compartment is on the back side of the console."** That is printed p. 15 of
+the 2021 book, ten pages before the wireless-handle coding steps and twenty before the pictures.
+
+So on a **CRW800 2021** the two covers can be told apart with confidence:
+
+- The **upper** picture row, ending in two cylindrical cells, is the **console** on the back of the
+  display — **2 x C**, not supplied.
+- The **lower** row, ending in one button cell, is the **wireless handle** — **CR2032**.
+
+The 2024 book keeps the same two pictures but never puts the two statements together, which is why
+the caution above stands for that machine. On the 2021 machine, read the cell in front of the
+customer anyway: the manual names the type on a different page from the picture, and never labels
+either sequence.
+

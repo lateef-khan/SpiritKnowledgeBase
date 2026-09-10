@@ -3,7 +3,7 @@ id: crw800-2024-assembly-tools-included
 title: Three tools in the carton, and no screwdriver for the seven Phillips screws
   step four calls for
 kind: fact
-question: What tools are supplied to assemble a Spirit CRW800 (crw800-2024) rower?
+question: What tools are supplied to assemble a Spirit CRW800 rower (crw800-2021 or crw800-2024)?
 asked_as:
 - what tools come with the crw800
 - do i need my own screwdriver for the rower
@@ -22,14 +22,18 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-assembly-tools-included
+- spirit-xrw600-assembly-tools-included
+- crw800h2o-assembly-tools-included
+- crw900-2021-assembly-tools-included
 see_also:
 - crw800-2024-assembly-parts-included
 - crw800-2024-assembly-procedure
@@ -37,7 +41,9 @@ see_also:
 - crw800-2024-assembly-folding-and-moving
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: p. 6, PARTS INCLUDED / TOOLS
+  locator: p. 6, PARTS INCLUDED / TOOLS; the same three lines at p. 6 of the 2021
+    manual (`spirit-rower-crw800-2021-owners-manual`), whose PRE-ASSEMBLY page prints
+    them in a TOOLS INCLUDED panel beside the parts list
   extracted_at: '2026-09-10'
 ---
 
@@ -76,6 +82,19 @@ The maintenance chapter prints the same sentence as the rest of the range - two 
 pads under the rear stabiliser, adjusted with a **14mm wrench** - and the 13/14mm in this
 carton opens to 14. See
 [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+## The 2021 printing lists the same three
+
+The **CRW800 2021** manual prints the same three lines and the same four steps, and its
+step four sends the same seven Phillips screws to the same combination wrench. Nothing
+about the tools changed in the 2024 redesign.
+
+## The XRW600 carton prints these same three lines and means something else by them
+
+Its step four calls the third tool, in full, a **"Combination M5 Allen Wrench & Phillips
+Head Screw Driver"** - so that carton does hold something that drives a Phillips head,
+and this one, on both printings, does not say so. Same panel, different books. See
+[the XRW600 tools card](../../shared/assembly/spirit-xrw600-assembly-tools-included.md).
 
 ## Nothing here is a torque wrench
 

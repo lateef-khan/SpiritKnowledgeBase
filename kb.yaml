@@ -13,7 +13,7 @@ facets:
     values: [sole, spirit]
   product_line:
     index: keyword
-    values: [treadmill, bike, elliptical, rower, climber, strength, "*"]
+    values: [treadmill, bike, elliptical, rower, climber, strength, ergometer, "*"]
   model:
     index: keyword
     values: ["*"]
@@ -151,6 +151,11 @@ models:
     - 75s-2025
     - 85s-2025
     - 85s-fit-2026
+    - xrw600-2019
+    - xrw600-2021
+    - crw800-2021
+    - crw900-2021
+    - 85ue-2025
   sole:
     - b74-2015
     - b94-2011

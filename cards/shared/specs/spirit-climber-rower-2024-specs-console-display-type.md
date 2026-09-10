@@ -1,10 +1,10 @@
 ---
 id: spirit-climber-rower-2024-specs-console-display-type
-title: The console display each stepper, stair climber, vertical climber and rower
-  has - blue LED, white LED, LCD, dot matrix or touchscreen
+title: The console display each stepper, stair climber, vertical climber, rower and
+  ergometer has - blue LED, white LED, LCD, dot matrix or touchscreen
 kind: spec
 question: What kind of console display does a Spirit stepper, stair climber, vertical
-  climber or rower have, and how big is the screen?
+  climber, rower or upper body ergometer have, and how big is the screen?
 asked_as:
 - what colour is the display on the spirit stepper
 - is the stair climber console a touch screen
@@ -31,9 +31,13 @@ facets:
   - 75s-2025
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   - crs800s-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
+  - crw800h2o
+  - crw900-2021
   - cs800-2021
   - cs800-2024
   - csc880-2025
@@ -42,6 +46,8 @@ facets:
   - csc900-2024
   - cvc800
   - ms300-2021
+  - xrw600-2019
+  - xrw600-2021
   - xs895-2018
   - xs895-2021
   section: specs
@@ -67,13 +73,18 @@ source:
     console chapters read for the rest are CVC800-2021 printed p. 13 (PDF p. 15), XS895-2018
     and XS895-2021 printed p. 15, 7.0S-2025 and 7.5S-2025 printed p. 25, MS300-2021
     printed p. 25, 8.5S-2025 printed p. 11 (PDF p. 13) and the 8.5S-FIT-2026 Table
-    of Contents and Touchscreen Operation chapter, printed pp. 25-32
+    of Contents and Touchscreen Operation chapter, printed pp. 25-32. The six machines
+    added on 2026-09-10 were read at CRW800-2021 printed p. 12 (PDF p. 14), XRW600-2019
+    and XRW600-2021 printed p. 14 (PDF p. 14), CRW900-2021 printed pp. 41-42 (PDF pp.
+    41-42), CRW800H2O-2021 printed pp. 22-23 (PDF pp. 22-23) and the 8.5UE-2025 parts
+    page printed p. 12 (PDF p. 14)
   extracted_at: '2026-09-10'
 ---
 
-**Two of the seventeen machines are touchscreens; the rest are LED or LCD panels
-with a dot matrix. Three books state a display colour and no book anywhere states
-a screen size.**
+**Three of the twenty-three machines are touchscreens; the rest are LED or LCD
+panels with a dot matrix. Only the two stair climbers and the XRW600 rower have
+books that state a display colour, and exactly one book anywhere states a screen
+size.**
 
 | Machine | What the manual calls the display |
 |---|---|
@@ -86,7 +97,10 @@ a screen size.**
 | MS300-2021, 7.0S-2025, 7.5S-2025 rehabilitation stepper | a **"Dot matrix display"** with a heart-rate bar graph beside it - **no colour, no size** |
 | **8.5S-2025** rehabilitation stepper | a **"Touch Screen Display"**: "All information required for operation is explained on screen" |
 | **8.5S-FIT-2026** rehabilitation stepper | a **touchscreen** - the manual has a whole `Touchscreen Operation` chapter and a Home page reached by pressing "Hello Guest" ten times |
-| CRW800-2024 rower | **"Large LED Matrix Window"** on the console drawing - **no colour, no size** |
+| CRW800-2021 and CRW800-2024 rower | **"Large LED Matrix Window"** on the console drawing - **no colour, no size** |
+| **XRW600-2019 and XRW600-2021** rower | **"Large Blue-LED Matrix Window"** - the only rower console whose book states a colour |
+| **CRW900-2021 and CRW800H2O-2021** water rower | never called LED or matrix. The drawings label four **panels** - Interval Display, Heart Rate Display, a Time/Distance/Calories/Watts/Speed/RPM panel and a Control Keypad - and the text calls the screen an **LCD** twice and refers to a **7-segment display** for the level window |
+| **8.5UE-2025 upper body ergometer** | a **"10" touch panel console"** on a 360-degree articulating arm - **the only console in this table given a size** |
 
 **The colour word is the tell between the two stair climbers.** The CSC900 is
 blue in 2019, 2021 and 2024; the **CSC880 of 2025 is white**. Nothing else in the
@@ -151,11 +165,34 @@ climber" there, and use this card only for "what kind of screen is it".
 
 ## What none of the four manuals gives
 
-**No screen resolution, no brightness figure, no diagonal measurement and no
-operating system - on any of the seventeen, touchscreens included.** Neither the
-8.5S nor the 8.5S-FIT gives a screen size, and their specification pages have no
-display row. Where a book names iOS or Android it is describing the customer's
-phone for the app, never the console. For anything past the words above, go to
-Spirit Fitness - see `spirit-climber-specs-no-specification-table`,
+**No screen resolution, no brightness figure and no operating system - on any of
+the twenty-three, touchscreens included.** Where a book names iOS or Android it is
+describing the customer's phone for the app, never the console. For anything past
+the words above, go to Spirit Fitness - see
+`spirit-climber-specs-no-specification-table`,
 `spirit-climber-specs-rehabilitation-stepper-specification-page` and
 `spirit-crw800-specs-no-specification-table`.
+
+**One book does give a size.** The **8.5UE** labels its console a
+**`10" touch panel console`** on the parts page, printed p. 12. Neither the 8.5S
+nor the 8.5S-FIT gives one, and neither of their specification pages has a display
+row - **the 8.5UE's specification page has no display row either**, so the size
+comes from the parts callout and nowhere else. The full console face and what its
+arm adjusts through is a `console` question -
+`85ue-2025-console-ten-inch-touch-panel-on-a-360-degree-articulating-arm`.
+
+## The two water rowers are the only consoles here never called LED
+
+Both books call the screen an **LCD** - *"the LCD will display the numerical hour
+number next to an 'H'"*, and *"If the LCD screen fails to illuminate"* in the
+troubleshooting table - and both refer to a **7-segment display** for the level and
+VR window. **Neither book ever uses the words LED, matrix or dot matrix.** Their
+console drawings label panels rather than a screen type
+(`spirit-water-rower-console-window-call-outs`).
+
+## The XRW600 states the colour and the CRW800 does not
+
+The two books are otherwise the same console chapter, but the XRW600's overview
+drawing reads **"Large Blue-LED Matrix Window"** and the CRW800's reads **"Large
+LED Matrix Window"**. **A customer who says their rower's display is blue has an
+XRW600**, and the CRW800's book neither confirms nor denies a colour for its own.

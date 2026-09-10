@@ -2,7 +2,7 @@
 id: crw800-2024-programs-the-three-countdown-target-modes
 title: 'The Distance, Time and Calories modes count down from 100 m, 1:00 or 100 calories and repeat if you keep rowing'
 kind: procedure
-question: How do I set a distance, time or calorie goal on the Spirit crw800-2024 rower?
+question: How do I set a distance, time or calorie goal on a Spirit rower with a MODE button?
 asked_as:
 - how do i row a set distance
 - can i set a time on the rower
@@ -23,9 +23,12 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
+  - xrw600-2021
   section: programs
   code: '*'
 authority: 3
@@ -37,7 +40,8 @@ see_also:
 - crw800-2024-programs-manual-mode-and-the-scanning-centre-display
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: printed pages 19-20
+  locator: 'CRW800 2024 printed pp. 19-20; CRW800 2021 printed pp. 18-20 (PDF pp. 20-22);
+    XRW600 2019 and 2021 printed pp. 20-23'
   extracted_at: '2026-09-10'
 ---
 
@@ -52,7 +56,7 @@ sounds with a long beep. If paddling continues, the count-down repeats.**
 | **Target Calorie** | **100** | **10** up or down | not stated |
 
 *The Target Time paragraph opens "The default **distance** is 1:00" - the word distance where time
-is meant. Recorded as printed.*
+is meant. **All four books carry the same slip.** Recorded as printed.*
 
 Under all three modes, **pressing Up or Down adjusts the resistance level**, and the centre of the
 LCD scans every 5 seconds between the stroke-speed wave and the 500M/TIME split - see

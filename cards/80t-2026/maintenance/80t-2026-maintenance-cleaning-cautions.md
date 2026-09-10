@@ -2,8 +2,8 @@
 id: 80t-2026-maintenance-cleaning-cautions
 title: What must never be used to clean the machine, and the alcohol contradiction
 kind: policy
-question: What cleaners are not allowed on a Spirit rehabilitation treadmill or 8.5S
-  stepper?
+question: What cleaners are not allowed on a Spirit rehabilitation treadmill, 8.5S stepper
+  or 8.5UE ergometer?
 asked_as:
 - can i use bleach on this treadmill
 - is an alcohol wipe safe on the console
@@ -29,6 +29,7 @@ facets:
   - 80t-2026
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -43,7 +44,12 @@ source:
     blocks, word for word, are spirit-climber-85s-2025-owners-manual printed p. 57 and p. 58
     (PDF p. 59 and p. 60) and spirit-climber-85s-fit-2026-owners-manual printed p. 48 and
     p. 49 (PDF p. 50 and p. 51). Measured from the PDF pages; the cleaning instructions match
-    at difflib word level 0.992, the difference being two spaces the 8.0T sets differently'
+    at difflib word level 0.992, the difference being two spaces the 8.0T sets differently.
+    spirit-ergometer-85ue-2025-owners-manual prints the Cleaning Instructions at printed p. 53 (PDF
+    p. 55) and the Warning list at printed p. 54 (PDF p. 56); its cleaning instructions match the
+    8.5S block at difflib word level **1.000** (124 words) and its warning list at 0.974, where
+    every flagged word is a line break. Both pages were read from a 300 dpi render with tesseract
+    --psm 4 (native 281 / rendered 288 and native 205 / rendered 199)'
   extracted_at: '2026-09-09'
 ---
 
@@ -99,3 +105,16 @@ nine warnings, under the same headings, on their own MACHINE CARE pages. On thos
 carries the mismatched task, asking for **tread belt cleaning** on a machine with no tread belt
 (`spirit-85s-maintenance-machine-care-schedule`). The two books swapped which half of the pair is
 wrong.
+
+## The 8.5UE prints both blocks and the same contradiction
+
+The **8.5UE 2025** upper body ergometer carries the three cleaning instructions word for word
+(difflib 1.000 against the 8.5S) on printed p. 53, and the nine warnings on printed p. 54. Its
+disinfection steps, three pages earlier at printed p. 52, ask for **70% or greater isopropyl
+alcohol**; p. 54 says cleaning agents and disinfectants **containing alcohol are not permitted**.
+Two pages apart, unreconciled, exactly as on the 8.5S.
+
+On the 8.5UE step 3's "textured **pedals**" is a carry-over: it has no pedals. Its own schedule
+table names the part correctly, **Foot Rest Plate cleaning**, and asks for the same 10:1 water to
+soap and the same nylon scrub brush (`85ue-2025-maintenance-machine-care-schedule`).
+

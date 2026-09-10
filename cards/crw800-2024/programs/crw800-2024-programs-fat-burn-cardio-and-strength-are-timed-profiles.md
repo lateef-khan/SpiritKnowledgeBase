@@ -2,7 +2,7 @@
 id: crw800-2024-programs-fat-burn-cardio-and-strength-are-timed-profiles
 title: Fat Burn, Cardio and Strength on a rower are timed profiles set in five minute steps, described only as a picture
 kind: fact
-question: What do the Fat Burn, Cardio and Strength programs do on the Spirit crw800-2024 rower?
+question: What do the Fat Burn, Cardio and Strength programs do on a Spirit rower with a MODE button?
 asked_as:
 - what does fat burn do on the rower
 - how do i set the time for the cardio program
@@ -22,9 +22,12 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
+  - xrw600-2021
   section: programs
   code: '*'
 authority: 3
@@ -36,7 +39,8 @@ see_also:
 - crw800-2024-programs-eleven-workout-modes-in-mode-button-order
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: printed pages 22-23
+  locator: 'CRW800 2024 printed pp. 22-23; CRW800 2021 printed pp. 24-26 (PDF pp. 26-28);
+    XRW600 2019 and 2021 printed pp. 27-29'
   extracted_at: '2026-09-10'
 ---
 
@@ -58,7 +62,8 @@ effort, and no segment table - only the on-screen picture. The elliptical, bike 
 descriptions of the same three names belong to resistance profiles built round a **Max Level**,
 which this console never asks for; do not carry them across.
 
-*One difference between the three: the Strength paragraph omits the sentence "Under the workout
+*All four books print these three pages the same way, to the figure. One difference between the
+three programs: the Strength paragraph omits the sentence "Under the workout
 mode, pressing Up or Down button adjusts the resistance level" that Fat Burn and Cardio both print,
 and puts the time count-down sentence in its place. Whether resistance can be adjusted during
 Strength is not stated.*

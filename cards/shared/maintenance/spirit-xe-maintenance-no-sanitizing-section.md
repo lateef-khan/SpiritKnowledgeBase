@@ -30,6 +30,7 @@ facets:
   - xe795-2018
   - xe895-2018
   - xg400-2019
+  - xrw600-2019
   section: maintenance
   code: '*'
 keywords:
@@ -65,7 +66,14 @@ source:
     hits across the whole text.md including its OCR supplements; each table of contents runs
     GENERAL MAINTENANCE straight into MANUFACTURER''S LIMITED WARRANTY with nothing between;
     and every page of all eight PDFs (40, 40, 40, 40, 40, 40, 40 and 36 pages) was extracted
-    individually with pdftotext -layout and none contains any of those words'
+    individually with pdftotext -layout and none contains any of those words. spirit-rower-xrw600-2019-owners-manual
+    was added in wave 17 on the same three-way proof: GENERAL MAINTENANCE printed p. 37 (PDF p. 37,
+    no offset), saniti, isoprop, alcohol, disinfect, conditioner and 75% return zero hits across the whole
+    text.md including its OCR supplements; its table of contents runs GENERAL MAINTENANCE p. 37 straight
+    into MANUFACTURER''S LIMITED WARRANTY p. 38 with nothing between; and all 40 pages of the PDF were
+    extracted individually with pdftotext -layout and none contains any of those words. The page was also
+    read from a 300 dpi render with tesseract --psm 4 (native 151 words, rendered 149), so the section is
+    not hiding as a flattened image'
   extracted_at: '2026-09-10'
 ---
 
@@ -148,3 +156,19 @@ and no leveler count (`spirit-xe-maintenance-manual-prints-no-maintenance-sectio
 machines here do have one; it is only the sanitizing page that is missing. The **XE100/XE200/XE300**
 and **XE395 2010** manuals also predate the section, and the **2023 XE395 and XE795** print it
 inside a two-column Maintenance & Care page rather than under its own heading.
+
+## The XRW600 rower repeats the pattern, and its two printings straddle the same cut-off
+
+The **XRW600 2019** owner's manual, warranty effective **February 4 2019**, prints no sanitizing
+section: its GENERAL MAINTENANCE page ends at the two levelling pads and the warranty follows.
+The **XRW600 2021** printing, warranty effective **November 30 2021**, prints the four sanitizing
+bullets on the same page, directly under the levelling pads.
+
+**The maintenance list itself did not change** — difflib puts the two blocks at word level 0.987,
+and every flagged word is a place where `pdftotext` breaks a line. So the rower falls exactly where
+the XE795 and the residential bikes fall: the section arrived at a **November 2021** reprint, not
+at a change of machine. `xrw600-2021` is therefore not listed above.
+
+The CRW800 2021 rower, warranty effective **October 8 2021**, already has the section, so on the
+commercial rowers it is in place a month earlier than on the XRW600.
+
