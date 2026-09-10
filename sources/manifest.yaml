@@ -16,6 +16,13 @@
   origin_uri: file://CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 7a88a67ce348f2621d67707203998eb8e3ab44d18dcc6f2b677818f0ddf8b6d2
   ingested_at: '2026-08-24'
+- id: custservice-model-numbers
+  title: Machine model numbers (SKUs) by model id, from dbo.MODEL in CustService on
+    the Spirit Server
+  kind: markdown
+  origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
+  sha256: 9bddf2e628415ad7506e3399216222d99f6a6499705683d6d3f5ebcc2904bb51
+  ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
   kind: pdf

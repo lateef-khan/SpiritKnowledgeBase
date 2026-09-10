@@ -1,0 +1,259 @@
+# Machine model numbers (SKUs) from dbo.MODEL in CustService on the Spirit Server
+
+Exported 2026-09-10 from `reference/model-numbers.csv` in the SpiritKnowledgeBase
+repository. Each row pairs a knowledge-base machine id with the six-digit SKU
+resolved for it from the `dbo.MODEL` table of the `CustService` database on the
+Spirit Server (reached over `ssh spirit`), and names the evidence that settled it.
+`reference/model-numbers.md` explains the evidence classes. A machine with two SKUs
+(a colour pair, or a strength machine the table lists twice) has both in the cell,
+separated by a space. The Azure `spiritwebdbTest` database is not the source of
+any number here.
+
+203 machines.
+
+| machine | model_number | evidence |
+|---|---|---|
+| 40t-2026 | 740885 | own-manual-text |
+| 70s-2025 | 770545 | own-manual-text |
+| 70t-2026 | 770885 | own-manual-text |
+| 75s-2025 | 775545 | own-manual-text |
+| 80t-2026 | 780885 | own-manual-text |
+| 85s-2025 | 785545 | own-manual-text |
+| 85ue-2025 | 785045 | own-manual-text |
+| ab900-2018 | 900748 | fp-date |
+| ab950-2024 | 950744 | own-manual-text |
+| b74-2015 | 574115 | own-filename |
+| b94-2011 | 594110 | own-filename |
+| b94-2016 | 594116 | card-confirmed |
+| b94-2019 | 594118 | card-confirmed |
+| b94-2023 | 594122 | card-confirmed |
+| c80-2026 | 580996 | own-filename |
+| cb900-2013 | 900111 | only-candidate |
+| cc81-2020 | 581519 | own-manual-text |
+| cc81-2026 | 581526 | card-confirmed |
+| ce800-2024 | 800025 | own-manual-text |
+| ce800ent | 800054 | own-manual-text |
+| ce800ent-2024 | 800065 | own-manual-text |
+| ce850-2016 | 850045 | year-in-name |
+| ce850-2020 | 850040 | year-in-name |
+| ce850-2024 | 850025 | own-manual-text |
+| ce900-2025 | 900025 | own-manual-text |
+| ces880-2025 | 880025 | own-manual-text |
+| cic800-2021 | 800390 | own-filename |
+| cr800-2024 | 800125 | own-manual-text |
+| cr800ent-2023 | 800150 | own-manual-text |
+| cr800ent-2024 | 800165 | own-manual-text |
+| crs800s-2024 | 800525 | own-manual-text |
+| crw800-2024 | 800925 | own-manual-text |
+| crw800h2o | 800998 | only-candidate |
+| crw900-2021 | 900948 | only-candidate |
+| cs800-2024 | 800625 | own-manual-text |
+| csc880-2025 | 880665 | own-manual-text |
+| csc900-2019 | 900669 | own-filename |
+| csc900-2024 | 900665 | own-manual-text |
+| csd-acbe | 622233 | db-names-the-machine |
+| csd-bcte | 623833 | db-names-the-machine |
+| csd-cpsp | 627773 | db-names-the-machine |
+| csd-itot | 648683 | db-names-the-machine |
+| csd-lelc | 653523 653525 | db-names-the-machine |
+| csd-lpce | 657233 | db-names-the-machine |
+| csd-lpsr | 657773 | db-names-the-machine |
+| csd-pfrd | 673733 | db-names-the-machine |
+| csd-puda | 678323 | db-names-the-machine |
+| csf-aabb | 622224 | db-names-the-machine |
+| csf-bext | 623924 | db-names-the-machine |
+| csf-funt | 636223 636225 | db-names-the-machine |
+| csf-hrac | 647224 | db-names-the-machine |
+| csf-legp | 653424 | db-names-the-machine |
+| csf-uprb | 687724 | db-names-the-machine |
+| csi-lrow | 257694 | db-names-the-machine |
+| css-abdo | 622364 | db-names-the-machine |
+| css-bcur | 622874 | db-names-the-machine |
+| css-bext | 623984 | db-names-the-machine |
+| css-delt | 633584 | db-names-the-machine |
+| css-glut | 645884 | db-names-the-machine |
+| css-latp | 652874 | db-names-the-machine |
+| css-latr | 652884 | db-names-the-machine |
+| css-lext | 653984 | db-names-the-machine |
+| css-lrow | 657694 | db-names-the-machine |
+| css-prlc | 677524 | db-names-the-machine |
+| css-scex | 672394 | db-names-the-machine |
+| css-scpr | 672774 | db-names-the-machine |
+| css-shpr | 674774 | db-names-the-machine |
+| css-slgc | 675424 | db-names-the-machine |
+| css-slgp | 675474 | db-names-the-machine |
+| css-sqsc | 677724 | db-names-the-machine |
+| css-srow | 677694 | db-names-the-machine |
+| css-text | 683984 | db-names-the-machine |
+| css-trot | 687684 | db-names-the-machine |
+| ct800-2016 | 800845 | year-in-name |
+| ct800-2020 | 800840 | own-manual-text |
+| ct800-2024 | 800825 | own-manual-text |
+| ct800ent-2022 | 800852 | own-manual-text |
+| ct800ent-2024 | 800865 | own-manual-text |
+| ct850-2016 | 850845 | own-manual-text |
+| ct850-2018 | 850845 | own-filename |
+| ct850-2020 | 850840 | own-manual-text |
+| ct850-2024 | 850825 | own-manual-text |
+| ct850ent-2022 | 850852 | own-manual-text |
+| ct850ent-2024 | 850865 | own-manual-text |
+| ct900 | 900825 | own-manual-text |
+| ctsbs900 | 900885 | own-manual-text |
+| cu800-2012 | 800343 | own-manual-text |
+| cu800-2021 | 800340 | own-filename |
+| cu800-2024 | 800325 | own-manual-text |
+| cu800ent-2022 | 800350 | own-filename |
+| cu800ent-2024 | 800365 | own-manual-text |
+| cvc800 | 800440 | only-candidate |
+| e20-2026 | 520026 | own-filename |
+| e25-2016 | 525116 | card-confirmed |
+| e25-2019 | 525018 | card-confirmed |
+| e25-2023 | 525022 | card-confirmed |
+| e25-2026 | 525206 | own-filename |
+| e35-2016 | 535016 | card-confirmed |
+| e35-2019 | 535018 | card-confirmed |
+| e35-2023 | 535022 | card-confirmed |
+| e35-2026 | 535026 | own-filename |
+| e55-2016 | 555016 | card-confirmed |
+| e55-2019 | 555018 | card-confirmed |
+| e95-2023 | 595022 | card-confirmed |
+| e95-2026 | 595026 | own-filename |
+| e95s-2016 | 595616 | card-confirmed |
+| e95s-2019 | 595618 | card-confirmed |
+| e95s-2023 | 595622 | card-confirmed |
+| e98-2016 | 598016 | card-confirmed |
+| e98-2019 | 598018 | card-confirmed |
+| e98-2023 | 598022 | card-confirmed |
+| f50-2026 | 550826 | own-filename |
+| f60-2016 | 560816 | own-filename |
+| f60-2020 | 560820 | own-filename |
+| f63-2013 | 563812 | own-manual-text |
+| f63-2016 | 563816 | own-filename |
+| f63-2019 | 563818 | own-filename |
+| f63-2023 | 563822 | own-filename |
+| f63-2026 | 563286 | own-filename |
+| f65-2016 | 565816 | card-confirmed |
+| f65-2019 | 565818 | card-confirmed |
+| f65-2023 | 565822 | own-filename |
+| f65-2026 | 565826 | own-filename |
+| f80-2016 | 580816 | card-confirmed |
+| f80-2019 | 580818 | card-confirmed |
+| f80-2023 | 580822 | own-filename |
+| f80-2026 | 580286 | own-filename |
+| f83-2026 | 583826 | own-filename |
+| f85-2016 | 585816 | card-confirmed |
+| f85-2019 | 585818 | card-confirmed |
+| f85-2023 | 585822 | own-filename |
+| f85-2026 | 585286 | own-filename |
+| f89-2023 | 589853 | user-confirmed |
+| jb950-2022 | 950348 | own-filename |
+| lcb-2011 | 511110 | own-filename |
+| lcb-2013 | 511112 | own-filename |
+| lcb-2016 | 511116 | card-confirmed |
+| lcb-2019 | 511118 | card-confirmed |
+| lcb-2023 | 511122 | card-confirmed |
+| lcr-2011 | 522110 | own-filename |
+| lcr-2013 | 522112 | own-filename |
+| lcr-2016 | 522116 | card-confirmed |
+| lcr-2019 | 522118 | own-filename |
+| lcr-2023 | 522122 | card-confirmed |
+| lcr-2026 | 522126 | own-filename |
+| ms300-2021 | 730030 730037 | colour-pair |
+| mt200-2010 | 720080 720087 | colour-pair |
+| mt200-2022 | 720080 720087 | colour-pair |
+| r72-2015 | 572115 | own-filename |
+| r92-2011 | 592110 | own-filename |
+| r92-2016 | 592116 | card-confirmed |
+| r92-2019 | 592118 | own-filename |
+| r92-2023 | 592122 | card-confirmed |
+| r92-2026 | 592126 | own-filename |
+| s77-2016 | 577816 | year-in-name |
+| s77-2019 | 577818 | year-in-name |
+| sb1200-2023 | 512322 | card-confirmed |
+| sb700-2019 | 570119 | card-confirmed |
+| sb700-2020 | 570120 | card-confirmed |
+| sb700-2021 | 570121 | own-filename |
+| sb900-2019 | 590319 | own-filename |
+| sb900-2020 | 590320 | card-confirmed |
+| sb900-2023 | 590322 | card-confirmed |
+| sc200-2016 | 520516 | fp-date |
+| sc200-2019 | 520517 | sibling-pairing |
+| sr500-2016 | 500911 | year-in-name |
+| sr550-2023 | 555922 | card-confirmed |
+| st800dr3 | 808049 | db-names-the-machine |
+| st800fi | 808039 | db-names-the-machine |
+| st800ft | 808019 | db-names-the-machine |
+| st90-2023 | 590822 | own-filename |
+| tt8-2016 | 588816 | year-in-name |
+| tt8-2016-ac | 588816 | year-in-name |
+| tt8-2019 | 588818 | year-in-name |
+| tt8-2019-ac | 588818 | year-in-name |
+| tt8-2023 | 588822 | own-filename |
+| xbr25-2023 | 251123 | own-manual-text |
+| xbr95-2023 | 951123 | own-manual-text |
+| xbu55-2023 | 552123 | own-manual-text |
+| xe100-2007 | 100007 | only-candidate |
+| xe150-2005 | 150005 | only-candidate |
+| xe200-2007 | 200007 | only-candidate |
+| xe300-2007 | 300007 | only-candidate |
+| xe350-2005 | 350005 | only-candidate |
+| xe395-2010 | 395010 | fp-date |
+| xe395-2023 | 395023 | own-manual-text |
+| xe550-2005 | 550005 | only-candidate |
+| xe795-2023 | 795023 | own-manual-text |
+| xic600-2018 | 600377 | only-candidate |
+| xic600-2021 | 600377 | own-filename |
+| xrw600-2019 | 600976 | only-candidate |
+| xrw600-2021 | 600976 | only-candidate |
+| xs895-2018 | 895677 | only-candidate |
+| xt185-2015 | 185815 | own-filename |
+| xt185-2023 | 185823 | own-manual-text |
+| xt285-2015 | 285815 | own-filename |
+| xt285-2023 | 285823 | own-manual-text |
+| xt385-2015 | 385815 | own-filename |
+| xt385-2023 | 385823 | own-manual-text |
+| xt485ent-2023 | 485850 | own-filename |
+| xt685-2015 | 685815 | own-filename |
+| xt685-2023 | 685823 | own-manual-text |
+| xt685ent-2023 | 685523 | own-manual-text |
+
+## Machines with no confirmed number
+
+From `reference/model-numbers-open.csv`: the machine ids the knowledge base declares
+whose SKU has not been settled. A candidate list, where one exists, is in that file;
+none of it is confirmed.
+
+30 machines.
+
+| machine | product | year |
+|---|---|---|
+| 7-5s-med | 7-5s-med | — |
+| 85s-fit-2026 | 85s-fit | 2026 |
+| ce800-2013 | ce800 | 2013 |
+| ce800-2021 | ce800 | 2021 |
+| ce800-2023 | ce800 | 2023 |
+| ce850-2022 | ce850 | 2022 |
+| ce900-2021 | ce900 | 2021 |
+| cic850-2022 | cic850 | 2022 |
+| crs800s-2021 | crs800s | 2021 |
+| crw800-2021 | crw800 | 2021 |
+| cs800-2021 | cs800 | 2021 |
+| ct800-2012 | ct800 | 2012 |
+| ct900ent | ct900ent | — |
+| cu900ent | cu900ent | — |
+| e95-2016 | e95 | 2016 |
+| f63 | f63 | — |
+| f85-2021 | f85 | 2021 |
+| srvo | srvo | — |
+| st90 | st90 | — |
+| st90-2021 | st90 | 2021 |
+| xbr25-2019 | xbr25 | 2019 |
+| xe195-2021 | xe195 | 2021 |
+| xe295-2021 | xe295 | 2021 |
+| xe395-2018 | xe395 | 2018 |
+| xe395ent-2021 | xe395ent | 2021 |
+| xe795-2021 | xe795 | 2021 |
+| xe895-2018 | xe895 | 2018 |
+| xg400-2021 | xg400 | 2021 |
+| xt685-2010 | xt685 | 2010 |
+| xth-rails | xth-rails | — |
