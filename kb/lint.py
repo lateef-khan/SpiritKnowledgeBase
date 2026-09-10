@@ -82,8 +82,16 @@ def _brand_errors(card: Card, config: KbConfig) -> list[LintError]:
                 )
             )
 
-    model = card.facets.get("model")
-    if isinstance(model, str) and model != FACET_SENTINEL:
+    raw_model = card.facets.get("model")
+    if isinstance(raw_model, list) and FACET_SENTINEL in raw_model:
+        errors.append(
+            LintError(
+                card.path,
+                "brand-model-agree",
+                "model list holds '*'; write '*' as a bare value, or list the machine ids",
+            )
+        )
+    for model in _model_list(card):
         for brand in brands:
             if brand in config.models and model not in config.models[brand]:
                 errors.append(
@@ -95,6 +103,17 @@ def _brand_errors(card: Card, config: KbConfig) -> list[LintError]:
                 )
 
     return errors
+
+
+def _model_list(card: Card) -> list[str]:
+    """Every model id the card's `model` facet names, with the sentinel left out.
+
+    A product card lists a whole family here so Qdrant's keyword filter on any one
+    machine still reaches it. A sentinel inside a list is applies-to-valid's to report.
+    """
+    value = card.facets.get("model")
+    items = value if isinstance(value, list) else [value]
+    return [str(item) for item in items if isinstance(item, str) and item != FACET_SENTINEL]
 
 
 def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
@@ -140,6 +159,23 @@ def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
             )
         return errors
 
+    if isinstance(model, list):
+        # A list-valued model names a family. Every machine the card applies to must be
+        # in that list, or a filter on the machine would miss the card that is for it.
+        models = [str(item) for item in model]
+        for value in applies:
+            if value not in models:
+                errors.append(
+                    LintError(
+                        card.path,
+                        "applies-to-valid",
+                        f"applies_to names {value!r} but the model list does not; "
+                        f"a list-valued model holds every machine in applies_to",
+                    )
+                )
+        errors.extend(_owner_errors(card, config, applies, brands))
+        return errors
+
     if FACET_SENTINEL in applies:
         # AgentCore's wildcard scope puts IN [value, "*"] on every query, so ["*"] alone reaches
         # every machine. A mix would also match turn 1's bare IN ["*"] and serve one machine's
@@ -165,6 +201,13 @@ def _applies_to_errors(card: Card, config: KbConfig) -> list[LintError]:
             )
         )
 
+    errors.extend(_owner_errors(card, config, applies, brands))
+    return errors
+
+
+def _owner_errors(card: Card, config: KbConfig, applies: list[str], brands: list[str]) -> list[LintError]:
+    """Every applies_to entry is a known machine of a listed brand, and every brand contributes one."""
+    errors: list[LintError] = []
     owner = {model_id: brand for brand, ids in config.models.items() for model_id in ids}
     for value in applies:
         brand = owner.get(value)

@@ -470,6 +470,50 @@ def test_applies_to_is_silent_when_brand_is_not_declared():
     assert [e for e in checks_for(card, config=CONFIG) if e.check == "applies-to-valid"] == []
 
 
+def model_errors(card):
+    return [e for e in checks_for(card) if e.check == "brand-model-agree"]
+
+
+def test_list_model_accepts_a_family_card():
+    """A product card lists the family: a bare slug plus every machine it applies to."""
+    card = branded(brand="[sole]", model="[f63, f80]", applies="[f63, f80]")
+    assert model_errors(card) == []
+    assert applies_errors(card) == []
+
+
+def test_list_model_accepts_a_family_of_one_machine():
+    """One machine is a whole family when only one year is declared; no 'two or more' rule."""
+    card = branded(brand="[sole]", model="[f63]", applies="[f63]")
+    assert applies_errors(card) == []
+
+
+def test_list_model_rejects_an_entry_from_another_brand():
+    errors = model_errors(branded(brand="[sole]", model="[ct900, f63]", applies="[f63]"))
+    assert len(errors) == 1
+    assert "'ct900' is not a model of brand 'sole'" in errors[0].message
+
+
+def test_list_model_rejects_the_sentinel_inside_the_list():
+    errors = model_errors(branded(brand="[sole]", model="['*', f63]", applies="[f63]"))
+    assert any("holds '*'" in e.message for e in errors)
+
+
+def test_list_model_rejects_an_applies_to_entry_the_list_does_not_hold():
+    errors = applies_errors(branded(brand="[sole]", model="[f63]", applies="[f63, f80]"))
+    assert len(errors) == 1
+    assert "applies_to names 'f80' but the model list does not" in errors[0].message
+
+
+def test_list_model_still_checks_applies_to_sortedness():
+    errors = applies_errors(branded(brand="[sole]", model="[f63, f80]", applies="[f80, f63]"))
+    assert any("not sorted" in e.message for e in errors)
+
+
+def test_list_model_still_checks_applies_to_against_the_models_map():
+    errors = applies_errors(branded(brand="[sole]", model="[f63, f99]", applies="[f63, f99]"))
+    assert any("'f99' is not a model in kb.yaml's models map" in e.message for e in errors)
+
+
 def branded_q(question, **kw):
     """A branded card whose question is the thing under test.
 
