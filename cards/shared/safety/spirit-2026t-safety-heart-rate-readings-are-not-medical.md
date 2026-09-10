@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-heart-rate-readings-are-not-medical
 title: The pulse sensors are not medical devices and the heart rate readings may be inaccurate
 kind: policy
-question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, or on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical?
+question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical, or on any Spirit XE residential elliptical?
 asked_as:
 - is the heart rate on the treadmill accurate
 - why is my pulse reading wrong on the treadmill
@@ -39,6 +39,20 @@ facets:
   - ces880-2025
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -137,3 +151,28 @@ sensors`.
   method. Do not offer that recommendation as a CE900 or CES880 manual's - theirs do not print it.
 
 None of the ten states an accuracy figure, a tolerance or a beats-per-minute error.
+
+## All fourteen Spirit residential machines print the disclaimer, in two lengths
+
+**The short form, the 4.0T's item 16 word for word**, is printed by the XE100/XE200/XE300 and
+XE150/XE350/XE550 manuals and by both 2023 manuals:
+
+> The [hand] pulse sensors are not medical devices. Various factors, including the user's movement,
+> may affect the accuracy of heart rate readings. The pulse sensors are intended only as exercise
+> aids in determining heart rate trends in general.
+
+**The long form adds two sentences at the front**, and is printed by the XE395-2010 manual and all
+six 2021 manuals:
+
+> The [hand] pulse sensors are not medical devices. Their purpose is to provide you with an
+> approximate measurement in relation to your target heart rate. Use of a chest transmitter strap
+> [(sold separately)] is a much more accurate method of heart rate analysis. Various factors,
+> including the user's movement...
+
+- **Not a medical device**, on all fourteen. The reading is an exercise aid for trends in general.
+- **The three oldest manuals write `hand pulse sensors`** - XE100/XE200/XE300, XE150/XE350/XE550 and
+  XE395-2010. The six 2021 manuals and the two 2023 manuals write `pulse sensors`. Nothing else
+  changes.
+- **The chest strap is named as the more accurate method** only in the seven manuals that print the
+  long form. The XE395-2010 manual omits `(sold separately)`; the six 2021 manuals print it.
+- **None of the fourteen prints the over-exercise warning** the 4.0T carries as item 17.

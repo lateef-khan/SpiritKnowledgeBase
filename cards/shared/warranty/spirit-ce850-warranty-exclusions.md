@@ -28,6 +28,10 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - xe295-2021
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   section: warranty
   code: '*'
 authority: 3
@@ -42,6 +46,9 @@ see_also:
 - spirit-ce-warranty-registration
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-transfer
+- spirit-xe-warranty-use-environment
+- spirit-xe-warranty-exclusions-residential-setting-only
+- spirit-xe-2023-warranty-exclusions
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
   locator: 'EXCLUSIONS, pp. 34-35 (text.md lines 833-853). Items 1 to 8 and the final
@@ -49,7 +56,14 @@ source:
     pp. 42-43 (spirit-elliptical-ce850-2020-owners-manual text.md lines 1036-1059),
     ce850-2022 pp. 43-44 (spirit-elliptical-ce850-2022-owners-manual text.md lines
     1042-1065). Those two insert the prisons item as number 9 and renumber the last
-    item to 10'
+    item to 10
+    The same nine items are printed in four Spirit XE and XG residential owners manuals:
+    xe795-2021-february p. 38 (spirit-elliptical-xe795-2021-february-owners-manual text.md lines
+    942-961), xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual text.md lines
+    936-955), xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines
+    867-885), xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines
+    886-904), xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual
+    text.md lines 965-984)'
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +92,15 @@ and the outside-the-US sentence becomes item 10. Their lists therefore run to **
 **Nine items, or ten with prisons. This is not the CE800 list.** The CE800 2021, CE800 2023 and CE800ENT manuals print ten items in a different order: their item 8 is "Product used in a dues paying facility (YMCA, Health Club, Etc.)" with no hours cap, prisons is item 9 and outside-the-US is item 10 (`spirit-ct800-warranty-exclusions`). The CE800 2013 list runs to nine with neither an hours cap nor prisons (`ce800-2013-warranty-exclusions`). The CE900 2021 list runs to eight and never mentions a dues-paying facility (`ce900-2021-warranty-exclusions`). The CE900 2025 and CES880 lists run to nine and drop item 6's outright exclusion (`spirit-ce-2025-warranty-exclusions`).
 
 Items 4 and 5 are asked about on their own - a sale, a transfer, a barter or a gift ends the cover, and so does a removed serial number: `xt-2023-warranty-transfer`. Item 9 or 10 and the 48-states note are `xt-2023-warranty-geographic-coverage`.
+
+## Four Spirit XE and XG residential machines print these nine items word for word
+
+The **XE295**, the **XE395ENT**, the **XG400** and the **XE795** - in both its February and its November 2021 printing - print items 1 to 9 exactly as the CE850 2016 manual does. A word-level comparison of the CE850 2016 block against the XE795 February block comes back **identical** but for a hyphenation the conversion left in *MERCHANTABILITY*.
+
+**The XG400 substitutes one noun.** Its item 2 reads *E•Glide Trainer* where the others read *elliptical trainer*, twice. Its cover calls the machine an E•Glide Trainer and not an elliptical, so quote the machine's own word to its owner. Nothing else in its list differs.
+
+**None of the four adds a prisons item.** The CE850 2020 and 2022 manuals insert *Prisons and correctional facilities are excluded from warranty coverage* as item 9 and renumber the outside-the-US sentence to 10; these four keep the nine-item CE850 2016 shape, and carry prisons as a **footnote under the table** instead - on three of them (`spirit-2026t-warranty-prisons-excluded`).
+
+**Three XE manuals are deliberately not on this card.** The **XE195** and the **XE395 2010** replace item 8 with a bare *Product use in any environment other than a residential setting* and read *outside of North America* in the last item, so their envelope is narrower (`spirit-xe-warranty-exclusions-residential-setting-only`). The **XE395 2023** and **XE795 2023** drop the first sentence of item 6, so an unregistered machine is no longer excluded outright (`spirit-xe-2023-warranty-exclusions`). Quoting this list for any of those would state a rule their manual does not.
+
+The XE and XG periods governed by this list are in `spirit-xe-warranty-residential-periods-ten-year-parts` and `spirit-xe795-warranty-light-commercial-periods`.

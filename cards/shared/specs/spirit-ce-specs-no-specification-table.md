@@ -41,6 +41,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-xe-specs-no-specification-table
 - spirit-ct800-specs-no-specification-table
 - spirit-ct850-specs-no-specification-table
 - spirit-ct900-specs-no-specification-table
@@ -78,6 +79,11 @@ them:
 Get these figures from Spirit Fitness or the product spec sheet, and say the
 owner's manual does not state them. **Do not carry a figure across from one
 generation to another, or in from a Sole elliptical.**
+
+**The residential XE and XG books print no specification table either**, and their
+absences are not the same as these - see `spirit-xe-specs-no-specification-table`.
+The CE850's 18-to-24-inch stride is the only stride length any Spirit elliptical
+manual states, and it is not an answer for a home machine.
 
 ## What the ten books do print, and where each fact lives
 

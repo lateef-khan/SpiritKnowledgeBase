@@ -3,7 +3,7 @@ id: xt-2023-console-spirit-plus-minimum-os
 title: Minimum phone or tablet operating system for the app
 kind: spec
 question: What phone or tablet does the Spirit+ app need on a Spirit XT285, XT385, XT485 or XT685
-  2023 treadmill, or a CES880 elliptical?
+  2023 treadmill, or a CES880, XE395 or XE795 2023 elliptical?
 asked_as:
 - what phone do i need for the spirit app
 - does the app work on my old iphone
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - xe395-2023
+  - xe795-2023
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -33,7 +35,8 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-console-spirit-fit-app-minimum-os
 see_also:
 - xt-2023-console-spirit-plus-app-pairing
 source:
@@ -53,3 +56,6 @@ different ones** - iOS 7 or Android 4.4, for the older Spirit App; see
 covers an elliptical as well as the 2023 XT treadmills and its product line is no longer
 treadmill-only. Its closing note on **p. 32** prints the same two versions: **iOS 13.1 or
 Android 8.0**. The CES880 manual writes it as "IOS 13.1".
+
+**The XE395-2023 (p. 22) and XE795-2023 (p. 21) residential ellipticals print the same closing
+note**, also spelled "IOS 13.1 or Android 8.0".

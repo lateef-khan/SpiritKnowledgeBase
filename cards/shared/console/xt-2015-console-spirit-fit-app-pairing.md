@@ -2,7 +2,8 @@
 id: xt-2015-console-spirit-fit-app-pairing
 title: Pairing the machine with the Spirit Fit App over Bluetooth
 kind: procedure
-question: How do I connect a Spirit XT285-2015, XT385-2015, XT485-2015, XT685-2015 or XT485ENT treadmill to the phone app?
+question: How do I connect a Spirit XT285-2015, XT385-2015, XT485-2015, XT685-2015 or XT485ENT
+  treadmill, or an XE295 or XG400 elliptical, to the phone app?
 asked_as:
 - how do i connect my treadmill to my phone
 - what app works with my spirit treadmill
@@ -22,9 +23,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xe295-2021
+  - xg400-2021
   - xt285-2015
   - xt385-2015
   - xt485-2015
@@ -41,7 +44,8 @@ see_also:
 source:
   ref: spirit-treadmill-xt285-2015-owners-manual
   locator: Using the Spirit FIT App, p. 31; the XT385-2015 (p. 33), XT485-2015 (p.
-    38) and XT685-2015 (p. 38) manuals print the identical section
+    38) and XT685-2015 (p. 38) manuals print the identical section; XE295 2021 p. 32 and XG400 2021
+    p. 31 print it as "Using the Spirit F IT App"
   extracted_at: '2026-09-09'
 ---
 
@@ -68,6 +72,16 @@ finished workouts to a **built-in personal calendar**.
 
 **The manuals name no cloud sites.** They say only "one of many fitness cloud sites we support with
 more to come". The 2023 Spirit+ manuals do name four; that list is theirs, not this one's.
+
+**Two residential XE ellipticals print this section word for word**, so this card is no longer
+treadmill-only: the **XE295-2021** (p. 32) and the **XG400-2021** (p. 31). Both head it "Using the
+Spirit F IT App", give the same five sync steps, the same three display screens, the same built-in
+personal calendar and the same unnamed cloud sites. **These are the only two Spirit ellipticals of
+any line whose manual describes the Spirit Fit App**; the XE195 and XE795 of the same November 2021
+printing run have no app section at all, and neither does any 2005, 2007 or 2010 XE.
+
+**Do not offer this to an XE395-2023 or XE795-2023 owner.** Those two run **Spirit+**, a different
+app with different steps and a different minimum OS: `xt-2023-console-spirit-plus-app-pairing`.
 
 **The XT185-2015 owner's manual has no Bluetooth or app section at all.** It never mentions
 Bluetooth, an app, or a USB port. Do not quote this card for an XT185-2015.

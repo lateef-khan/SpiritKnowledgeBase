@@ -35,6 +35,7 @@ facets:
   - ce850-2022
   - ct800-2016
   - ct850-2018
+  - xe795-2021
   section: maintenance
   code: '*'
 authority: 3
@@ -46,6 +47,7 @@ not_to_be_confused_with:
 - 80t-2026-maintenance-squeak-thump-or-clicking
 - ce800-2013-maintenance-squeak-thump-or-clicking
 - spirit-ce900-maintenance-squeak-thump-or-clicking
+- spirit-xe-maintenance-squeak-thump-or-clicking
 see_also:
 - spirit-ct800-maintenance-schedule-tasks
 - ct900-belt-deck-cleaning
@@ -53,7 +55,7 @@ see_also:
 - ct800-2016-assembly-levelling-pads
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE'
+  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36'
   extracted_at: '2026-09-09'
 ---
 
@@ -69,9 +71,10 @@ source:
      **2 leveling pads on the bottom of the rear stabilizer**; use a **14mm wrench** (or adjustable
      wrench) to adjust the levelers.
 
-The **CT850 2018** treadmill manual and **six Spirit commercial elliptical** owner's manuals print
-this list word for word, including the "one of two reasons" miscount and the crank arm nut: the
-**CE800 2021**, **CE800 2023**, **CE800ENT**, **CE850 2016**, **CE850 2020** and **CE850 2022**. The
+The **CT850 2018** treadmill manual, **six Spirit commercial elliptical** owner's manuals and both
+2021 printings of the **residential XE795** print this list word for word, including the "one of two
+reasons" miscount and the crank arm nut: the **CE800 2021**, **CE800 2023**, **CE800ENT**,
+**CE850 2016**, **CE850 2020**, **CE850 2022** and the **XE795 2021**. The
 CE800ENT and CE900 wording swaps the lead-in "I cannot stress this point enough" for "It is
 important to note that" and renumbers the items; the three figures - 90%, 2 pads, 14mm - are
 unchanged.
@@ -103,6 +106,18 @@ If the noise is a belt slipping or hesitating rather than a squeak, that is a te
 `ct900ent-belt-tension-adjustment`. **That card is for a tread belt and does not apply to the six
 ellipticals above** - they have no tread belt and no deck, and their owner's manuals print no belt
 tension figure and no lubrication step of any kind.
+
+## The residential XE795 is the only XE machine on this list
+
+The XE795 2021 February and November printings carry these three items and **no rail cleaning**.
+Every other residential XE manual differs. The 2021 **XE195, XE295, XE395ENT and XG400** print a
+**four**-item list - this one with the rail-cleaning paragraph put back between the hardware and
+the crank arm nut (`spirit-xe-maintenance-squeak-thump-or-clicking`). The **XE100/XE200/XE300**,
+**XE395 2010** and **CE800 2013** give **4** pads under the rear rails and no crank arm nut
+(`ce800-2013-maintenance-squeak-thump-or-clicking`). The **XE150/XE350/XE550** manual prints no
+maintenance chapter at all, and the **2023 XE395 and XE795** manuals replaced it with a four-step
+post-workout routine that has no noise check
+(`spirit-2026t-maintenance-post-workout-machine-care`).
 
 ## The elliptical manuals that say something different
 

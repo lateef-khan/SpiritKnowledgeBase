@@ -2,7 +2,7 @@
 id: spirit-ce-safety-who-may-use-the-elliptical
 title: Who may use the elliptical trainer, and the supervised exception the list allows
 kind: policy
-question: Who may use a Spirit CE800, CE800ENT, CE850 or CE900 elliptical trainer, and can children use it?
+question: Who may use a Spirit CE800, CE800ENT, CE850 or CE900 elliptical trainer, or a Spirit XE residential elliptical of the 2021 or 2023 generation, and can children use it?
 asked_as:
 - can my kids use the elliptical
 - what age can someone use an elliptical
@@ -33,6 +33,13 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -46,6 +53,9 @@ see_also:
 - spirit-ce850-safety-instructions-list
 - spirit-ce900-safety-instructions-list
 - ces880-2025-safety-warning-on-the-cover
+- spirit-xe-2021-safety-instructions-list
+- spirit-xe795-2021-safety-instructions-list
+- ces880-2025-safety-instructions-list
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
   locator: IMPORTANT SAFETY INSTRUCTIONS, page 7, last two bullets; the same two bullets
@@ -100,3 +110,38 @@ by, on, or near children, invalids, or disabled persons`
 (`spirit-ct800-safety-who-may-use-the-treadmill`) - and the 2015 XT manuals print the
 reduced-capability sentence flatly, with no supervised exception
 (`xt-2015-safety-who-may-use-the-treadmill`).
+
+## The six 2021 residential Spirit machines print the age rule and drop the exception
+
+**The XE195, XE295, XG400, XE395ENT and both XE795 2021 printings** print both bullets, and the
+first of them **stops where the CES880 list stops**:
+
+> This exercise equipment is not intended for use by persons with reduced physical, sensory or mental
+> capabilities, or lack of experience and knowledge.
+
+> Keep children under the age of 13 away from this machine.
+
+- **Under 13: keep away from the machine**, exactly as on the commercial machines.
+- **There is no `unless they have been given supervision or instruction` clause** in any of the six.
+  Read as printed, these lists allow no supervised use - the CES880 reading, not the CE850 one. Do
+  not add the exception for an XE owner from a CE manual.
+- All six spell `mental` correctly, and all six write `This exercise equipment` where the CE manuals
+  write `This appliance`.
+
+**They also print a third bullet the commercial ellipticals do not**, the one the CT800 and CT850
+treadmill manuals carry: `Close supervision is necessary when this appliance is used by, on, or near
+children, invalids, or disabled persons`. That sentence and the keep-away-under-13 sentence sit in
+the same list and neither cancels the other.
+
+## The two 2023 residential machines print no age rule at all
+
+**The XE395-2023 and XE795-2023 manuals print item 1 without the exception, and have no age item** -
+the CES880-2025 pattern exactly (`ces880-2025-safety-instructions-list`). **Do not quote 13 years for
+a 2023 machine.**
+
+## The six oldest residential machines print neither bullet
+
+**The XE100/XE200/XE300, XE150/XE350/XE550 and XE395-2010 manuals have no age rule and no
+reduced-capability sentence anywhere.** Their only rule about children is the pinch-points bullet,
+which attaches no age (`spirit-2026t-safety-keep-children-away`). Neither bullet on this card may be
+quoted for one of those seven machines.

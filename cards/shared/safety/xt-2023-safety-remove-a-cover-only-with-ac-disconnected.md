@@ -2,7 +2,7 @@
 id: xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 title: Disconnecting AC power before a cover comes off
 kind: policy
-question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit CE850 or CE800ENT elliptical, before removing a cover?
+question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit CE850 or CE800ENT elliptical, or a Spirit XE residential elliptical, before removing a cover?
 asked_as:
 - can i take the motor cover off with it plugged in
 - do i unplug the treadmill before opening it
@@ -39,6 +39,17 @@ facets:
   - ct850ent-2022
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -64,6 +75,7 @@ see_also:
 - spirit-product-must-be-grounded
 - xt-2015-safety-instructions-list
 - xt-2023-safety-supply-voltage-variation
+- xe195-2021-safety-remove-a-cover-only-with-dc-disconnected
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner's manuals print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS page - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5
@@ -170,3 +182,20 @@ warns instead that the generator is producing AC power while the machine is bein
 it must not be serviced while the generator is spinning
 (`spirit-ce-safety-generator-produces-ac-power`). Telling one of those owners to disconnect AC power
 before removing a cover would leave the real hazard unaddressed.
+
+## Eleven Spirit residential machines print the same sentence
+
+**Word for word**, on the electrical page of the XE100/XE200/XE300 and XE150/XE350/XE550 manuals -
+which write `AC power supply` rather than `AC power` - and of the XE395-2010, XE295, XG400, XE395ENT
+and XE395-2023 manuals. No exception, no waiting time, no capacitor discharge figure and no lock-out
+procedure in any of them.
+
+**Three residential XE machines are not covered by this card.**
+
+- **The XE195 manual prints `DC power` in the same sentence.** It is the only one of the fourteen
+  that does (`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`).
+- **Neither XE795 prints this sentence at all.** Both 2021 printings replace their electrical page
+  with the generator warning, and the 2023 manual has no electrical page
+  (`spirit-ce-safety-generator-produces-ac-power`). On a generator-powered machine the equivalent
+  rule is not to service it while the generator is spinning, because disconnecting a supply is not
+  possible - there is none.

@@ -32,6 +32,11 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - xe195-2021
+  - xe295-2021
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   section: maintenance
   code: '*'
 authority: 3
@@ -41,7 +46,7 @@ see_also:
 - ct900-sanitizing-equipment
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: 'front matter, the line under the table of contents; text.md lines 19-20. The same sentence is in the same place in the CE800 2013, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850 2022 and CE900 2021 owner''s manuals'
+  locator: 'front matter, the line under the table of contents; text.md lines 19-20. The same sentence is in the same place in the CE800 2013, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850 2022 and CE900 2021 owner''s manuals, and, word for word, in the residential spirit-elliptical-xe195-2021-owners-manual line 16, spirit-elliptical-xe295-2021-owners-manual line 17, spirit-elliptical-xe395ent-2021-owners-manual line 19, spirit-elliptical-xe795-2021-february-owners-manual line 16, spirit-elliptical-xe795-2021-november-owners-manual line 16 and spirit-elliptical-xg400-2021-owners-manual line 17'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,6 +61,15 @@ and wheels. Anything beyond that goes to the dealer.
 
 Warranty exclusions state the consequence separately - the warranty does not cover damage from
 alterations, modifications, abuse, misuse or improper maintenance.
+
+## Five residential XE manuals do not print it either
+
+The sentence is a 2021-generation front-matter line. The **XE100/XE200/XE300 (2007)**,
+**XE150/XE350/XE550 (2005)** and **XE395 (2010)** manuals predate it, and the **2023 XE395 and
+XE795** manuals dropped it when their front matter was rewritten. Do not quote it for those five
+books. The 2023 pair's nearest equivalent is its own Maintenance & Care chapter
+(`spirit-2026t-maintenance-post-workout-machine-care`); the three older books state no limit on
+owner service anywhere.
 
 **The CE900 2025 and CES880 2025 manuals do not print this sentence.** Both replace the front-matter
 line with a Machine Care chapter, and their equivalent limit is the table's own instruction to

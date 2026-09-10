@@ -1,8 +1,8 @@
 ---
 id: xt385-2015-safety-extension-cord-18-awg-or-better
-title: The extension cord gauge this manual prints, and how it differs from its family
+title: The extension cord gauge printed as 18AWG, thinner than the 14AWG its siblings allow
 kind: policy
-question: Can I use an extension cord on a Spirit XT385-2015 treadmill?
+question: Can I use an extension cord on a Spirit XT385-2015 treadmill, or on a Spirit XE195, XE295, XE395ENT or XG400 machine of the 2021 generation?
 asked_as:
 - what gauge extension cord for the xt385
 - can i run my treadmill off an extension lead
@@ -19,9 +19,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: xt385-2015
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xe195-2021
+  - xe295-2021
+  - xe395ent-2021
+  - xg400-2021
   - xt385-2015
   section: safety
   code: '*'
@@ -34,6 +38,8 @@ see_also:
 - xt-2015-safety-outlet-and-circuit-requirement
 - xt-2015-safety-instructions-list
 - spirit-product-must-be-grounded
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: page 5, Important Safety Instructions
@@ -61,3 +67,21 @@ own manual if you quote it at all.
 Other Spirit manuals print 14 AWG (`ct850-2020-extension-cord-14-awg-or-better`) and 16 AWG
 (`spirit-extension-cord-16-awg-or-better`) for other machines. None of those is an XT385-2015
 figure either.
+
+## Four 2021 Spirit residential ellipticals print the same 18AWG sentence
+
+**The XE195, XE295, XG400 and XE395ENT owner's manuals print it word for word and in the same
+capitals**, in the WARNING header of their Important Safety Instructions:
+
+> DO NOT USE AN EXTENSION CORD UNLESS IT IS A 18AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END:
+
+18AWG minimum, one outlet on the end. The circuit these four ask for is **115 volt at 15 amp** with
+a dedicated 15 amp breaker (`spirit-xe-safety-outlet-115-volt-15-amp`).
+
+**Their own XE stablemates print 14AWG.** The XE395-2010 manual and both 2021 XE795 printings ask for
+14AWG or better in the same position (`xt-2015-safety-extension-cord-14-awg-or-better`), so the
+residential elliptical range disagrees with itself exactly as the 2015 XT range does. Quote the
+gauge from the machine's own manual and never carry one across.
+
+**The XG400 manual prints `E-Glide` where the other three print `elliptical`.** Its cover reads
+`XG400 E-Glide Trainer`; the gauge is the same.

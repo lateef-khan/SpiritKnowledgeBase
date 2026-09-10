@@ -44,6 +44,11 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - xe195-2021
+  - xe295-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: warranty
   code: '*'
 authority: 3
@@ -62,6 +67,8 @@ see_also:
 - ct900-warranty-exclusions
 - spirit-ct800-warranty-exclusions
 - spirit-ct800-warranty-use-environment
+- spirit-xe-warranty-use-environment
+- spirit-xe795-warranty-light-commercial-periods
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: 'Footnote to the Commercial Warranty table and EXCLUSIONS item 8. Both are printed in
@@ -87,7 +94,19 @@ source:
     pp. 36 and 37 (spirit-elliptical-ce900-2025-owners-manual text.md lines 1098 and 1132),
     ces880-2025 pp. 58 and 59 (spirit-elliptical-ces880-2025-owners-manual text.md lines 1981
     and 2015). The ce800-2013 and ce850-2016 manuals print neither half anywhere in the
-    document'
+    document
+    Five of the eleven Spirit XE and XG residential owners manuals print the footnote under the
+    warranty table and none of the eleven prints a numbered prisons item: xe195-2021 p. 33
+    (spirit-elliptical-xe195-2021-owners-manual text.md line 736), xe295-2021 p. 37
+    (spirit-elliptical-xe295-2021-owners-manual text.md line 854), xg400-2021 p. 36
+    (spirit-elliptical-xg400-2021-owners-manual text.md line 873), xe795-2021-november p. 39
+    (spirit-elliptical-xe795-2021-november-owners-manual text.md line 953), xe795-2023
+    (spirit-elliptical-xe795-2023-owners-manual text.md line 1334). The words prison and
+    correctional appear nowhere in spirit-elliptical-xe795-2021-february-owners-manual,
+    spirit-elliptical-xe395ent-2021-owners-manual, spirit-elliptical-xe395-2023-owners-manual,
+    spirit-elliptical-xe395-2010-owners-manual,
+    spirit-elliptical-xe100-xe200-xe300-owners-manual or
+    spirit-elliptical-xe150-xe350-xe550-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -136,3 +155,17 @@ The other eight print both halves, footnote and numbered item, but the item numb
 **The CE850 2020 and 2022 manuals are the only ones here whose exclusion item repeats the footnote sentence verbatim** instead of the "Product used in..." wording every other manual uses. The rule is the same either way.
 
 **On a CE800, a CE800ENT or a CE850 the prisons exclusion is not the only environment excluded** - a dues-paying facility is excluded too, and the CE850 manuals cap use at five hours a day besides. On the CE900 2025 and the CES880 a dues-paying gym is **covered**, and prisons are the only environment excluded at all. The whole picture is `spirit-ce-warranty-use-environment`.
+
+## Spirit XE and XG residential machines: five of eleven manuals, and the footnote is all there is
+
+**No XE or XG residential manual carries a prisons item in its numbered exclusion list.** Where the exclusion appears at all it is a **footnote under the warranty table only**:
+
+> \*Prisons and correctional facilities are excluded from warranty coverage.
+
+Five of the eleven print it - the **XE195**, **XE295**, **XG400**, the **November 2021** printing of the XE795, and the **XE795 2023**. The XE795 2023 prints it as the footnote to its Light Commercial Warranty table rather than under the residential one.
+
+**Six print it nowhere.** The words *prison* and *correctional* appear at no point in the **February 2021** printing of the XE795, the **XE395ENT**, the **XE395 2023**, the **XE395 2010**, the 2007 **XE100/XE200/XE300** book or the 2005 **XE150/XE350/XE550** book. Do not quote the exclusion to the owner of one.
+
+**The XE795 is the machine to be careful with.** Its two 2021 printings are the same machine and the same model id, and the footnote is in the **November** one only. The November printing is the later revision, so it is the current statement - but if a customer is reading the February book, the sentence is not on their page.
+
+**On an XE or XG machine, prisons is not the whole use-environment answer.** Their exclusion 8 also bars a dues-paying facility and, on eight of the eleven manuals, caps use at five hours a day; the XE195 and the XE395 2010 bar everything but a home. The whole picture is `spirit-xe-warranty-use-environment`.

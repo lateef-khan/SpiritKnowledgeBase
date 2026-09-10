@@ -2,7 +2,7 @@
 id: spirit-ce-programs-strength-profile
 title: The Strength program holds 100% of maximum effort for a quarter of the workout
 kind: fact
-question: What does the Strength program do on a Spirit commercial elliptical?
+question: What does the Strength program do on a Spirit elliptical?
 asked_as:
 - what is the strength workout on the elliptical
 - how does the strength program work
@@ -25,6 +25,13 @@ facets:
   - ce800-2013
   - ce850-2016
   - ce900-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -51,3 +58,15 @@ Strength is not one of them.
 
 The profile picture that goes with it is a printed image in every manual, so the KB does not hold
 its column values.
+
+**Seven Spirit residential XE machines print this description word for word too** - XE395 2010
+(printed page 21), XE295, XG400 and XE795 2021, XE395ENT (page 37), XE395 2023 (page 32) and XE795
+2023 (page 31). The XE395 2010 writes "gluts" where the later manuals write "glutes", and it and the
+XE395ENT add a pedal **Incline** paragraph - see `xe395-2010-programs-incline-profiles`. The XE295
+and XG400 2021 manuals also write "gluts".
+
+**The XE195 has no Strength program at all** - its four presets are Hill, Fat Burn, Cardio and
+Interval.
+
+**The two oldest XE consoles describe Strength differently.** That is
+`spirit-xe-programs-strength-climbs-to-a-high-level-and-holds-it`.

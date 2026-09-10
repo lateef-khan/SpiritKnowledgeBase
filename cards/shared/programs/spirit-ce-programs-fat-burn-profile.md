@@ -2,7 +2,7 @@
 id: spirit-ce-programs-fat-burn-profile
 title: The Fat Burn program holds maximum resistance for two thirds of the workout
 kind: fact
-question: What does the Fat Burn program do on a Spirit commercial elliptical?
+question: What does the Fat Burn program do on a Spirit elliptical?
 asked_as:
 - what is the fat burn workout
 - how does fat burn work on the elliptical
@@ -31,6 +31,14 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -54,3 +62,12 @@ CE800 2013 heads it "Resistance:" before the sentence.
 
 The profile picture that goes with it is a printed image in every manual, so the KB does not hold
 its column values.
+
+**Eight Spirit residential XE machines print this description word for word too** - XE395 2010
+(printed page 19), XE195, XE295, XG400 and XE795 2021, XE395ENT (page 35), XE395 2023 (page 31) and
+XE795 2023 (page 30). The XE395 2010 and XE395ENT head it "Resistance:" and add a pedal **Incline**
+paragraph - see `xe395-2010-programs-incline-profiles`. The XE395 2023 capitalises "Resistance level"
+mid-sentence; the figures are the same.
+
+**The two oldest XE consoles describe Fat Burn differently** and print a heart rate percentage the
+others do not. That is `spirit-xe-programs-fat-burn-sixty-to-seventy-percent-of-maximum`.

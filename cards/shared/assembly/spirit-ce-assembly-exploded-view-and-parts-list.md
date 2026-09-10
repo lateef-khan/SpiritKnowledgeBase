@@ -1,10 +1,10 @@
 ---
 id: spirit-ce-assembly-exploded-view-and-parts-list
-title: Where the exploded view and the numbered parts list are printed, and the four
+title: Where the exploded view and the numbered parts list are printed, and the
   Spirit elliptical manuals that have neither or only one
 kind: fact
-question: Does the manual for my Spirit elliptical have an exploded view and a parts
-  list, and what page is it on?
+question: Does the manual for my Spirit elliptical - commercial CE or residential XE
+  - have an exploded view and a parts list, and what page is it on?
 asked_as:
 - where is the parts list in my spirit elliptical manual
 - is there an exploded view for the ce850
@@ -35,6 +35,20 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: assembly
   code: '*'
 authority: 3
@@ -49,7 +63,7 @@ see_also:
 source:
   ref: spirit-elliptical-ce800ent-owners-manual
   locator: contents p. 3 and pp. 46-48; and the equivalent pages of the other nine
-    manuals as tabulated below
+    commercial manuals and of the eleven residential XE manuals, as tabulated below
   extracted_at: '2026-09-09'
 ---
 
@@ -65,6 +79,35 @@ source:
 | ce900-2021 | **none** | **none** |
 | ce900-2025 | printed p. 34 | printed pp. 35-36 |
 | ces880-2025 | printed pp. 57-58, in two drawings | **none** |
+
+## The eleven residential XE manuals
+
+| Manual | Exploded view | Numbered parts list |
+|---|---|---|
+| xe150-2005, xe350-2005, xe550-2005 | three named drawings, pp. 8-14 | **none** |
+| xe100-2007, xe200-2007, xe300-2007 | three drawings, pp. 12, 13 and 20 | **none** |
+| xe395-2010 | four unheaded drawings facing the four steps | **none** |
+| xe795-2021 (both printings) | **none** | **none** |
+| xe395ent-2021 | printed p. 50 | printed pp. 51-55 |
+| xe195-2021 | **none** | **none** |
+| xe295-2021 | **none** | **none** |
+| xg400-2021 | **none** | **none** |
+| xe395-2023 | printed p. 38 | printed pp. 39-42 |
+| xe795-2023 | printed p. 37 | printed pp. 38-40 |
+
+**Only three of the fourteen residential machines have a numbered parts list** - the
+XE395ENT and the two 2023 machines. Those three lists are ordinary text and are
+trustworthy. Everything else in the XE range has drawings and no table, or nothing at
+all, so an item number quoted in an XE assembly step often cannot be checked against
+anything in its own book.
+
+**The 2005 drawings are the useful ones and carry no numbers.** The XE150, XE350 and
+XE550 each get a two-page drawing whose parts are labelled by **name** - console
+mast, handle bar cover, foot pad axle, wheel cover - not by item number, and each
+carries the drawing code `940920 PM1900`. The XE100, XE200 and XE300 drawings are
+numbered, and are line art with no text layer: reading them by machine has returned
+strings like "ros \\ A SY\" 55-1" and "| BX 105" for numbers that are certainly three
+digits or fewer. **Read those callouts off the drawing itself.**
 
 ## Three manuals have neither
 

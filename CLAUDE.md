@@ -132,6 +132,34 @@ Render anything under about 25 words at 300 dpi and read it with
 OCR and which is native. A genuinely blank page costs one OCR pass; a missed
 error table costs a wave.
 
+## Prove an absence twice before you card it
+
+"The manual prints no X" is a real answer here and many cards give it. That makes a
+**false** absence a real defect: it tells a reader to stop looking for something that
+is on the page.
+
+Two ways it has happened:
+
+- **A page-number offset that is not there.** An agent looked for printed page 32 on
+  PDF pages 33 and 34, found a different chapter, and concluded the section was
+  missing. In those manuals printed page 32 *is* PDF page 32. Check the offset against
+  a page you can identify before trusting it.
+- **A heading the extractor letter-spaces.** "Using the Spirit FIT App" comes out of
+  `pdftotext` as `Using the Spirit F IT App`, so a grep for the product name returns
+  nothing while the section sits there in full.
+
+Before writing that a manual lacks something:
+
+```bash
+grep -ric 'app'        sources/<id>/text.md     # the loose word, not the exact phrase
+grep -in  'F *I *T'    sources/<id>/text.md     # allow spaces between letters
+pdftotext -f N -l N -layout FILE.pdf -          # read the page itself, no offset guess
+```
+
+Then confirm the page is not a flattened image — see "A manual can hide whole pages
+from `pdftotext`" above. Only after a loose-word search, a spacing-tolerant search and
+a look at the page is an absence safe to card.
+
 ## Never compare manuals with `diff`
 
 `diff` is **not reliable** in this environment. On 2026-09-09 the same two

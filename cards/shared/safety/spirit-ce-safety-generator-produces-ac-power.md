@@ -2,7 +2,7 @@
 id: spirit-ce-safety-generator-produces-ac-power
 title: The generator makes AC power while you pedal, so never service a spinning machine
 kind: policy
-question: Is a Spirit CE800 or CE900 elliptical trainer (ce800-2013, ce800-2021, ce800-2023, ce900-2021 or ce900-2025) live while it is being pedalled?
+question: Is a Spirit CE800 or CE900 elliptical trainer, or a Spirit XE795 residential elliptical (ce800-2013, ce800-2021, ce800-2023, ce900-2021, ce900-2025 or xe795-2021), live while it is being pedalled?
 asked_as:
 - is the elliptical live while someone is pedalling
 - can i work on the elliptical while the flywheel is turning
@@ -30,12 +30,14 @@ facets:
   - ce800-2023
   - ce900-2021
   - ce900-2025
+  - xe795-2021
   section: safety
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce850-safety-outlet-and-circuit-requirement
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
+- spirit-xe-safety-outlet-110-volt-15-amp
 see_also:
 - spirit-ce800-safety-instructions-list
 - spirit-ce900-safety-instructions-list
@@ -46,7 +48,8 @@ source:
   locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints the
     same WARNING on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the CE900
     2021 manual on page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY page,
-    page 6
+    page 6. Both XE795 2021 printings print it on their Important Electrical Instructions
+    page, page 5 - February 19 2021 and November 30 2021
   extracted_at: '2026-09-09'
 ---
 
@@ -84,3 +87,33 @@ and no generator warning at all. That is an absence; do not quote this WARNING f
 outlet, and their electrical page states the opposite rule for the same job: never remove a cover
 without first disconnecting AC power
 (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`).
+
+## The residential XE795 prints the same WARNING, and an outlet requirement beside it
+
+**Both 2021 printings of the XE795 owner's manual print this warning word for word**, on their
+Important Electrical Instructions page - `Be aware that the generator is producing A.C. power while
+the elliptical trainer is being used. Do not service the elliptical trainer while the generator is
+spinning; serious electric shock could occur.` The February 19 2021 and November 30 2021 printings
+agree here; nothing in this warning changed between them.
+
+**The XE795 is generator-powered.** Its setting-up page says `The console power is created by a
+built in generator. When you begin pedaling the Elliptical trainer, the console will automatically
+power up`, and **no power cord appears in its parts list** - the 2021 XE195, XE295, XG400 and
+XE395ENT manuals all list `1 Power Cord` and the XE795 manuals list none.
+
+**Its safety page nevertheless asks for a wall outlet.** Both printings carry
+`install the elliptical on a flat level surface with access to a 110-volt, 15-amp grounded outlet
+with only the elliptical plugged into the circuit`, and a 14AWG extension-cord line beside it, on a
+machine with nothing to plug in (`spirit-xe-safety-outlet-110-volt-15-amp`). Both sentences are
+printed and the manual never reconciles them - the same contradiction the CE800 2021 and 2023
+manuals carry with their unplug-before-cleaning DANGER line.
+
+**The XE795-2023 manual prints no such warning.** That machine is generator-powered too - its
+setting-up page prints the same built-in-generator sentence and its parts list has no power cord -
+but its manual has **no electrical page at all** and no generator warning, exactly as the
+CES880-2025 manual does not. That is an absence; do not quote this WARNING for an XE795-2023.
+
+**The other nine residential XE machines are not generator-powered.** The XE100, XE200, XE300,
+XE150, XE350 and XE550 run from an external power supply, and the XE395-2010, XE195, XE295, XG400,
+XE395ENT and XE395-2023 have a mains power cord. None of their manuals mentions a generator
+(`spirit-xe-safety-no-outlet-figure-printed`, `spirit-xe-safety-outlet-115-volt-15-amp`).

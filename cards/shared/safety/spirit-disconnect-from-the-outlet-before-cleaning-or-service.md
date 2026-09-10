@@ -2,7 +2,7 @@
 id: spirit-disconnect-from-the-outlet-before-cleaning-or-service
 title: Disconnect from the electrical outlet before cleaning or service work
 kind: policy
-question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CVC800 climber before servicing it?
+question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit XE residential elliptical of the 2010 or 2021 generation, or a Spirit CVC800 climber, before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -32,6 +32,12 @@ facets:
   - cvc800
   - mt200-2010
   - mt200-2022
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -41,6 +47,8 @@ see_also:
 - spirit-ct850-outlet-and-circuit-requirement
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 - spirit-2026t-safety-servicing-only-by-trained-personnel
+- spirit-ce-safety-generator-produces-ac-power
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
@@ -127,3 +135,32 @@ appliance-list DANGER line - `Always unplug this appliance from the electrical o
 after using and before cleaning` - which covers cleaning but not service work:
 `spirit-ct800-safety-instructions-list`. Do not quote `prior to cleaning and/or service work` for
 those three.
+
+## Six Spirit residential ellipticals open their safety page with a DANGER line
+
+**The XE395-2010 manual prints this card's sentence**, with `elliptical` in place of `treadmill`:
+
+> DANGER - To reduce the risk of electric shock disconnect your Spirit elliptical from the electrical
+> outlet prior to cleaning and/or service work.
+
+Cleaning as well as service, and the action is to disconnect from the outlet.
+
+**The five 2021 manuals print a shorter DANGER line in the same position**, and it is a different
+sentence:
+
+> DANGER - To reduce the risk of electric shock: Always unplug this appliance from the electrical
+> outlet immediately after using and before cleaning.
+
+- **It asks for the plug to be pulled after *every* use**, not only before cleaning or service - a
+  wider rule than this card's.
+- **It does not mention service work at all.** The XE195, XE295, XG400 and XE395ENT manuals put the
+  service rule on their electrical page instead, as the cover-removal sentence
+  (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`).
+
+**Both XE795 2021 printings print that DANGER line on a machine with no plug.** The XE795 is
+generator-powered and its parts list carries no power cord, so there is nothing to unplug; its real
+service rule is not to work on it while the generator is spinning
+(`spirit-ce-safety-generator-produces-ac-power`). Both sentences are printed and the manual never
+reconciles them.
+
+**The XE100/XE200/XE300, XE150/XE350/XE550 and the two 2023 manuals print no DANGER line at all.**

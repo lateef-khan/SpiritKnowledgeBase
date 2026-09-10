@@ -2,7 +2,7 @@
 id: spirit-ce-programs-hill-profile
 title: The Hill program climbs from a tenth of maximum effort to a peak that lasts a tenth of the workout
 kind: fact
-question: What does the Hill program do on a Spirit commercial elliptical?
+question: What does the Hill program do on a Spirit elliptical?
 asked_as:
 - what is the hill workout on the elliptical
 - how does the hill program work
@@ -31,6 +31,14 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -56,3 +64,15 @@ CE800 2013 heads it "Resistance:" before the sentence; the wording after that is
 
 The profile picture that goes with it is a printed image in every manual, so the KB does not hold
 its column values.
+
+**Eight Spirit residential XE machines print this description word for word too.** The XE395 2010
+(printed page 19) and the XE395ENT (page 34) head it "Resistance:" and print a second paragraph for
+pedal **Incline** - see `xe395-2010-programs-incline-profiles`. The XE195, XE295, XG400 and XE795
+2021 manuals (printed pages 22-23, 24, 22-23 and 27 respectively) and the XE395 2023 and XE795 2023
+manuals (printed page 31 and page 30) print the resistance paragraph alone.
+
+**The two oldest XE consoles describe Hill differently** - "simulates going up and down a hill", with
+no percentages. That is `spirit-xe-programs-hill-simulates-going-up-and-down-a-hill`, a separate card.
+
+The Sole E25 2026 and CC81 2026 owner's manuals print the older "simulates going up and down a hill"
+wording for their own Hill programs. Those are Sole machines and are not covered by this card.

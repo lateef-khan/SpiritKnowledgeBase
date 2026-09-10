@@ -2,7 +2,7 @@
 id: xt-2023-safety-afci-gfci-nuisance-tripping
 title: Why an arc-fault or ground-fault breaker trips during a workout
 kind: troubleshooting
-question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685) be plugged into an AFCI or GFCI breaker?
+question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or a Spirit XE395-2023 elliptical, be plugged into an AFCI or GFCI breaker?
 asked_as:
 - my breaker trips when i run on the treadmill
 - can a treadmill go on an arc fault breaker
@@ -21,9 +21,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xe395-2023
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -46,6 +47,7 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 - ct900-electrical-safety
 - xt-2015-safety-outlet-and-circuit-requirement
+- spirit-xe-safety-no-outlet-figure-printed
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it across their Important Electrical and Important Grounding Instructions pages (XT185/XT285/XT485 pages 5-6, XT385/XT685 pages 6-7)
@@ -109,3 +111,26 @@ devices, and the same built-in surge suppressors.
 Both ENT manuals also repeat the check as the same troubleshooting row - "Circuit breaker trips,
 but not the treadmill circuit breaker: check that the treadmill is the only appliance in the
 circuit" - and add nothing to it.
+
+## The Spirit XE395-2023 elliptical prints this passage on its ELECTRICAL SAFETY page
+
+**In the `unit` wording**, page 6: the same three breaker brands and series - Eaton (Cutler Hammer
+Series), Leviton (Smart lock pro) and Schneider Electric (Canadian home series) - with the same test
+result, the same built-in surge suppressors, and the same sentence
+`Optimally the unit should be the only device plugged into the circuit`.
+
+**Its printing is shorter than the treadmill manuals'.** It carries no `avoid AFCI/GFCI if possible`
+opening and **no list of other devices** - no fluorescent lights, coffee maker, space heater or hair
+drier - and no troubleshooting row repeating the check. What it prints is the surge-suppressor
+sentence, the tested brands and the only-device sentence.
+
+**This is the XE395-2023's only statement about its circuit.** Its manual names no voltage and no
+amp figure anywhere (`spirit-xe-safety-no-outlet-figure-printed`), so `Optimally` is as close as it
+comes to a dedicated-circuit requirement.
+
+**Its 2021 predecessors print the opposite advice.** The XE195, XE295, XG400 and XE395ENT manuals
+carry the high-inrush breaker paragraph instead, with its Grainger and QO120HM part numbers and a
+`dedicated 15 amp circuit breaker` (`spirit-house-breaker-needs-a-high-inrush-type`). Neither
+passage appears in the other's manual.
+
+**The XE795-2023 manual has no electrical page** and prints none of this.

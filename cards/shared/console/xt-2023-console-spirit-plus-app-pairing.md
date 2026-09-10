@@ -2,8 +2,8 @@
 id: xt-2023-console-spirit-plus-app-pairing
 title: Pairing the machine with the Spirit+ app over Bluetooth
 kind: procedure
-question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, or a CES880
-  elliptical, to the Spirit+ app?
+question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, or a CES880,
+  XE395 or XE795 2023 elliptical, to the Spirit+ app?
 asked_as:
 - how do i connect my treadmill to my phone
 - how do i pair the spirit app with my treadmill
@@ -27,6 +27,8 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - xe395-2023
+  - xe795-2023
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -35,7 +37,8 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xt-2015-console-spirit-fit-app-pairing
 see_also:
 - xt-2023-console-spirit-plus-minimum-os
 - xt-2023-console-bluetooth-speaker
@@ -79,6 +82,19 @@ cloud sites - Apple Health, Google Fit, MapMyFitness and Fitbit - word for word.
 **The CES880 manual adds a page of its own about the app** (p. 30, ABOUT YOUR MACHINE): the Spirit+
 app is on **Google Play and the Apple App Store**, downloading it unlocks tracking workouts and
 sharing data via **Google Fit and Apple Fitness**, and a QR code is printed for sign-up.
+
+**The XE395-2023 and XE795-2023 residential elliptical owner's manuals print this word for word**,
+on **XE395 p. 22** and **XE795 p. 21**, under the same heading: the same opening paragraph, the same
+five steps and the same four cloud sites. Both also print the same **ABOUT YOUR MACHINE** page
+beforehand - XE395 p. 19, XE795 p. 18 - naming Google Play and the Apple App Store and a QR code,
+and promising tracking and sharing through Google Fit and Apple Fitness.
+
+**No earlier residential XE elliptical runs Spirit+, but two run its predecessor.** The **XE295-2021**
+(p. 32) and **XG400-2021** (p. 31) describe the older **Spirit Fit App** - a different app, with
+different sync steps, an older minimum OS and no named cloud sites:
+`xt-2015-console-spirit-fit-app-pairing`. **Check which name the manual prints before quoting either
+card.** The XE195 and XE795 of the same 2021 printing run, and every 2005, 2007 and 2010 XE, describe
+no app at all; the XE395ENT uses a WiFi touchscreen and the Spirit APP account instead.
 
 **It is the only Spirit commercial elliptical with a Bluetooth app.** The CE800, CE850 and CE900
 owner's manuals describe no app and no Bluetooth transceiver; their only wireless feature is a

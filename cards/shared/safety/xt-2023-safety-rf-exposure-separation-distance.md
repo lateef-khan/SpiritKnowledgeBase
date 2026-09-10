@@ -2,7 +2,7 @@
 id: xt-2023-safety-rf-exposure-separation-distance
 title: The 20 cm RF exposure separation distance
 kind: policy
-question: How far from the antenna must a person stay on a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, or on a Spirit CE900-2025 elliptical?
+question: How far from the antenna must a person stay on a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, on a Spirit CE900-2025 elliptical, or on a Spirit XE395-2023 or XE795-2023 elliptical?
 asked_as:
 - is the treadmill bluetooth radiation safe
 - how far away should i be from the antenna
@@ -23,6 +23,8 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - xe395-2023
+  - xe795-2023
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -69,3 +71,10 @@ it gives no figure in inches.
 
 **No other Spirit elliptical manual carries an RF exposure caution**
 (`xt-2015-safety-no-compliance-page`).
+
+## Both 2023 Spirit residential ellipticals print the same CAUTION
+
+**The XE395-2023 and XE795-2023 owner's manuals** carry it word for word on their WARNINGS,
+COMPLIANCE AND NOTICES page: a separation distance of **at least 20 cm** must be maintained between
+the antenna of the device and all persons, and the transmitter must not be co-located or operating in
+conjunction with any other antenna or transmitter. No figure changes.

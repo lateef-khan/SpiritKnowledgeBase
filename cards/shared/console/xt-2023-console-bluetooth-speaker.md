@@ -3,7 +3,7 @@ id: xt-2023-console-bluetooth-speaker
 title: Playing music through the machine over Bluetooth
 kind: procedure
 question: How do I play music through a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, or a
-  CES880 elliptical?
+  CES880, XE395 or XE795 2023 elliptical?
 asked_as:
 - how do i play music on my treadmill
 - what is bt-speaker in my bluetooth list
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - xe395-2023
+  - xe795-2023
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -63,6 +65,13 @@ Bluetooth earphones and speakers from a Settings menu instead - see
 covers an elliptical as well as the 2023 XT treadmills and its product line is no longer
 treadmill-only. It is on **p. 32, USING THE SPIRIT+ APP**, with the same three steps and the
 same **"Bt-speaker"** name.
+
+**The XE395-2023 and XE795-2023 residential elliptical owner's manuals print this word for word**,
+on **XE395 p. 22** and **XE795 p. 21**, with the same three steps and the same **"Bt-speaker"** name.
+
+**No other Spirit residential elliptical plays music this way.** The 2021 XE295, XG400 and XE795
+consoles have **integrated speakers for an MP3 player** fed by a 3.5 mm audio cable, with no
+Bluetooth and no volume control on the console.
 
 **No other Spirit commercial elliptical plays music.** The CE800, CE850 and CE900 owner's manuals
 describe no Bluetooth audio at all, and the CE800ENT's audio comes out of an earphone jack that is an

@@ -41,6 +41,14 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -66,6 +74,7 @@ see_also:
 - xt-2023-warranty-labor-period
 - xt-2023-warranty-geographic-coverage
 - spirit-ct800-warranty-labor-period
+- spirit-xe-2005-warranty-service-and-transport-costs
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'WARRANTY - CONTINUED, Responsibilities of the Owner / SERVICE, p. 42. The same five
@@ -92,7 +101,21 @@ source:
     (spirit-elliptical-ce850-2022-owners-manual text.md line 1077), ce900-2021 p. 28
     (spirit-elliptical-ce900-2021-owners-manual text.md line 675), ce900-2025 p. 38
     (spirit-elliptical-ce900-2025-owners-manual text.md line 1152), ces880-2025 p. 60
-    (spirit-elliptical-ces880-2025-owners-manual text.md line 2035)'
+    (spirit-elliptical-ces880-2025-owners-manual text.md line 2035)
+    The same five steps are in eight of the eleven Spirit XE and XG residential owners manuals,
+    from the SERVICE heading to the P.O. Box: xe395-2010 p. 29
+    (spirit-elliptical-xe395-2010-owners-manual text.md lines 1075-1095), xe795-2021-february
+    p. 39 (spirit-elliptical-xe795-2021-february-owners-manual text.md lines 962-982),
+    xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 956-976),
+    xe195-2021 p. 34 (spirit-elliptical-xe195-2021-owners-manual text.md lines 771-791),
+    xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines 886-906),
+    xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 905-925),
+    xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
+    lines 985-1005), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
+    1506-1528), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines
+    1385-1407). Back-cover contact details: xe795-2021-february line 991, xe395ent-2021 line
+    1092, xe195-2021 line 803, xe295-2021 line 915, xg400-2021 line 935, xe795-2021-november
+    line 1027, xe395-2023 line 1539, xe795-2023 line 1416'
   extracted_at: '2026-09-09'
 ---
 
@@ -159,3 +182,22 @@ The first seven print them on a back cover reading 3000 Nestle Road, Jonesboro, 
 **Step 4 is not the step every Spirit commercial manual prints.** The CT900, the CTSBS900 and the 2026 4.0T, 7.0T and 8.0T stop at shipping and handling on replacement parts; the XT manuals **and all four CT800 and all four CT850 manuals** go on to charge the customer a trip charge for in-home service and an additional one beyond 100 miles. The split is by manual, not by residential versus commercial. What the owner ends up paying is collected in `xt-2023-warranty-owner-costs`.
 
 The same page repeats that the warranty applies only in the 48 contiguous United States - see `xt-2023-warranty-geographic-coverage`.
+
+## Eight Spirit XE and XG residential machines print these five steps too
+
+The 2010 XE395, the six 2021 manuals and the two 2023 ones print step 4 in full - freight to and from a service center, shipping and handling on replacement parts, a trip charge for in-home service, and an additional trip charge beyond **100 miles** - and step 3's service department number is **(870) 935-1107** on every one. Their return address is the same P.O. Box 2037, Jonesboro, AR 72402-2037.
+
+| | XE395 2010 | the six 2021 manuals | XE395 and XE795 2023 |
+|---|---|---|---|
+| Mailing address | step **6** | step **6** | **unnumbered** below step 5 |
+| Whose obligation step 4 names | **Spirit's** | Spirit Fitness' | Spirit Fitness' |
+| Return address headed | Spirit Fitness, Inc. | Spirit Fitness, Inc. | Spirit Fitness, Inc. |
+| Customer care | *none printed* | 800.258.4555 | 1-800-258-8511 |
+| Email | *none printed* | spiritservice@spiritfitness.com | questions@spiritfitness.com |
+| Back cover | *none in this knowledge base* | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401, Fax 870-935-7611 |
+
+**The 2010 XE395 names the company "Spirit" throughout step 4** - *Spirit's obligation... at Spirit's option... preauthorized by Spirit* - where every later manual reads *Spirit Fitness*. It also prints the trip-charge sentence as "Forin-home service", the same conversion artefact the CT800 2012 and CE800 2013 manuals show. Nothing about the charges changes.
+
+**The 2010 XE395 manual prints no general customer-care number, no email address and no street address** anywhere in this knowledge base. Do not read one for it out of a sibling manual; if you give one, say which manual it came from.
+
+**The 2005 and 2007 XE books are not on this card and their step 4 is a different promise.** They print **five** steps, not six, promise parts **at no charge** where no local service is available, put **all** transportation costs on the owner, and name no trip charge, no 100-mile surcharge, no preauthorization and no shipping-and-handling on parts. Answering one of those from this card would invent four charges: `spirit-xe-2005-warranty-service-and-transport-costs`.

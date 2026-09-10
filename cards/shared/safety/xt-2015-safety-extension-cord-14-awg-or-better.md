@@ -2,7 +2,7 @@
 id: xt-2015-safety-extension-cord-14-awg-or-better
 title: Extension cord must be 14AWG or better with only one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, or on a Spirit CE850 or CE800ENT elliptical?
+question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, on a Spirit CE850 or CE800ENT elliptical, or on a Spirit XE395-2010 or XE795-2021 residential elliptical?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for my treadmill
@@ -27,6 +27,8 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - xe395-2010
+  - xe795-2021
   - xt185-2015
   - xt285-2015
   - xt485-2015
@@ -45,6 +47,9 @@ see_also:
 - xt-2015-safety-outlet-and-circuit-requirement
 - xt-2015-safety-instructions-list
 - spirit-product-must-be-grounded
+- spirit-xe-safety-outlet-110-volt-15-amp
+- xe395-2010-safety-instructions-list
+- spirit-ce-safety-generator-produces-ac-power
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print
@@ -99,3 +104,26 @@ The circuit these four require is a nominal 110-volt, 5-amp dedicated one
 **The other six Spirit ellipticals have no mains plug and no extension-cord rule.** The CE800, CE900
 and CES880 run off a built-in generator, and none of their manuals mentions an extension cord
 (`spirit-ce-safety-generator-produces-ac-power`). Do not quote 14AWG for one of them.
+
+## Two residential Spirit ellipticals print the same sentence
+
+**The XE395-2010 owner's manual and both 2021 printings of the XE795 owner's manual print it word
+for word and in the same capitals**, in the WARNING header of their safety instructions:
+
+> DO NOT USE AN EXTENSION CORD UNLESS IT IS A 14AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END:
+
+14AWG minimum, one outlet on the end. The circuit these two ask for is **110 volt at 15 amp**, not
+the CE850's 5 amp (`spirit-xe-safety-outlet-110-volt-15-amp`).
+
+**The XE795 has no mains plug.** It is generator-powered and its parts list contains no power cord,
+so this line and the outlet WARNING beside it describe a supply the machine never uses
+(`spirit-ce-safety-generator-produces-ac-power`). Both sentences are printed; the manual never
+reconciles them.
+
+**The 2021 XE195, XE295, XG400 and XE395ENT manuals print 18AWG in the same position** - a thinner
+cord than this sentence allows (`xt385-2015-safety-extension-cord-18-awg-or-better`). Nothing
+reconciles the two figures; quote the gauge from the machine's own manual.
+
+**Six residential XE manuals print no extension-cord rule at all** - the XE100/XE200/XE300 and
+XE150/XE350/XE550 books, which have no outlet page, and the two 2023 books
+(`spirit-xe-safety-no-outlet-figure-printed`).

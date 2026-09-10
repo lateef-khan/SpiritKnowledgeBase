@@ -2,7 +2,7 @@
 id: xt-2023-safety-supply-voltage-variation
 title: Supply voltage that varies by ten percent or more
 kind: policy
-question: What happens if the supply voltage to a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or to a 2026 Spirit 7.0T or 8.0T treadmill, is low or varies?
+question: What happens if the supply voltage to a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), to a 2026 Spirit 7.0T or 8.0T treadmill, or to a Spirit XE residential elliptical, is low or varies?
 asked_as:
 - my treadmill acts weird when the voltage drops
 - does low voltage damage the treadmill
@@ -20,13 +20,25 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 70t-2026
   - 80t-2026
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -49,6 +61,8 @@ see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2015-safety-outlet-and-circuit-requirement
 - spirit-2026t-safety-outlet-and-circuit-requirement
+- ct900ent-operating-environment-voltage
+- spirit-ce-safety-generator-produces-ac-power
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8
@@ -122,3 +136,19 @@ printed block on the electrical page, so both halves are held together on
 CT900ENT machines for the same reason. Every figure agrees with this card - ten percent,
 performance rather than damage, not covered under warranty, and the power company or a licensed
 electrician as the action.
+
+## Twelve Spirit residential machines print the same paragraph
+
+**Word for word, with `elliptical` or `Elliptical` in place of `unit`**, in the XE100/XE200/XE300,
+XE150/XE350/XE550, XE395-2010, XE195, XE295, XG400, XE395ENT and XE395-2023 manuals. Every figure is
+identical: ten percent, performance rather than damage, not covered under warranty, and the power
+company or a licensed electrician as the action.
+
+The nominal circuit these manuals name is **110 volt** in the XE395-2010 book and **115 volt** in the
+four 2021 books, at 15 amp (`spirit-xe-safety-outlet-110-volt-15-amp`,
+`spirit-xe-safety-outlet-115-volt-15-amp`). The XE100/XE200/XE300, XE150/XE350/XE550 and XE395-2023
+manuals name no circuit at all (`spirit-xe-safety-no-outlet-figure-printed`).
+
+**Neither XE795 prints this paragraph.** Both 2021 printings and the 2023 manual state no
+supply-voltage rule, because that machine is generator-powered and has no mains supply to vary
+(`spirit-ce-safety-generator-produces-ac-power`). That is an absence, not a permission.

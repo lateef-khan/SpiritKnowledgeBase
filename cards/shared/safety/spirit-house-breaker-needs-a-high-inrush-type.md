@@ -3,7 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -37,6 +37,10 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - cvc800
+  - xe195-2021
+  - xe295-2021
+  - xe395ent-2021
+  - xg400-2021
   - xt685-2010
   section: safety
   code: '*'
@@ -51,6 +55,8 @@ see_also:
 - ct850-2020-trips-onboard-20-amp-circuit
 - spirit-never-use-a-gfci-wall-outlet
 - spirit-2026t-safety-outlet-and-circuit-requirement
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
@@ -174,3 +180,22 @@ owner with the CT800's 15 amp or the CT850's 20 amp.
 **The other six Spirit ellipticals cannot have this fault.** The CE800, CE900 and CES880 run off a
 built-in generator and draw nothing from a house circuit
 (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Four 2021 Spirit residential ellipticals print the same paragraph
+
+**The XE195, XE295, XG400 and XE395ENT owner's manuals print it word for word** on their electrical
+page, with `elliptical` - or `E-Glide` in the XG400 manual - where the treadmill manuals write
+`treadmill`. The same two examples are named, **Grainger part # 1D237** and **www.squared.com part
+#QO120HM**, and the paragraph closes with the same breaker rating:
+
+> The electrical outlet used should have a dedicated 15 amp circuit breaker.
+
+**15 amp, not the CE850's 5 amp.** These are residential machines on a 115-volt, 15-amp circuit
+(`spirit-xe-safety-outlet-115-volt-15-amp`), so the breaker figure at the end of this paragraph is
+not the one the CE850 and CE800ENT manuals print
+(`spirit-ce850-safety-outlet-and-circuit-requirement`).
+
+**No other residential XE manual carries this paragraph.** The XE395-2010, both XE795 printings, the
+XE100/XE200/XE300 and XE150/XE350/XE550 books print no circuit-breaker paragraph at all, and the two
+2023 books replace it with the AFCI/GFCI passage and its tested brands
+(`xt-2023-safety-afci-gfci-nuisance-tripping`). Do not quote Grainger or QO120HM for one of those.

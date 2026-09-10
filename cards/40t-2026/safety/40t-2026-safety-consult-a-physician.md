@@ -2,7 +2,7 @@
 id: 40t-2026-safety-consult-a-physician
 title: Consult a physician before starting, especially over the age of 35
 kind: policy
-question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the 4.0T), or a Spirit CE900 or CES880 elliptical?
+question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the 4.0T), a Spirit CE900 or CES880 elliptical, or a Spirit XE residential elliptical of the 2021 or 2023 generation?
 asked_as:
 - do i need a doctor before using a treadmill
 - is a treadmill safe if i have a heart condition
@@ -26,6 +26,13 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -82,3 +89,21 @@ numbered list.
 and 2023, the CE800ENT and the CE850 2016, 2020 and 2022 manuals never mention consulting a doctor
 (`spirit-ce800-safety-instructions-list`, `spirit-ce850-safety-instructions-list`). That is an
 absence; do not carry the age 35 onto them.
+
+## Eight Spirit residential machines print the same rule and the same age
+
+**The XE195, XE295, XG400, XE395ENT, both XE795 2021 printings and the two 2023 manuals** all carry
+it, in the shorter CE900 wording:
+
+> Before beginning this or any exercise program, consult a physician. This is especially important
+> for persons over the age of 35 or persons with pre-existing health conditions.
+
+The age figure is the same **35**, the trigger is the same pre-existing health condition, and it is
+again a consultation rather than a written clearance. It is a bullet of the Fitness Equipment Safety
+Instructions in the six 2021 manuals (`spirit-xe-2021-safety-instructions-list`,
+`spirit-xe795-2021-safety-instructions-list`) and item 8 of the numbered list in the two 2023
+manuals (`ces880-2025-safety-instructions-list`).
+
+**The six oldest residential XE manuals print no physician rule at all.** The XE100/XE200/XE300,
+XE150/XE350/XE550 and XE395-2010 books name no age and ask for no consultation anywhere. That is an
+absence - do not tell one of those owners their manual says to see a doctor.

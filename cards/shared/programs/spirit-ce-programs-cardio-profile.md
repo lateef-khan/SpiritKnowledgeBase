@@ -2,7 +2,7 @@
 id: spirit-ce-programs-cardio-profile
 title: The Cardio program climbs to near maximum resistance and fluctuates before a quick cool down
 kind: fact
-question: What does the Cardio program do on a Spirit commercial elliptical?
+question: What does the Cardio program do on a Spirit elliptical?
 asked_as:
 - what is the cardio workout on the elliptical
 - how does the cardio program work
@@ -32,6 +32,14 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -56,3 +64,12 @@ CE800 2013 heads it "Resistance:" before the sentence.
 
 The profile picture that goes with it is a printed image in every manual, so the KB does not hold
 its column values.
+
+**Eight Spirit residential XE machines print this description word for word too** - XE395 2010
+(printed page 20), XE195, XE295, XG400 and XE795 2021, XE395ENT (page 36), XE395 2023 (page 31) and
+XE795 2023 (page 30). The XE395 2010 and XE395ENT head it "Resistance:" and add a pedal **Incline**
+paragraph naming segments 4, 9 and 14 as maximum elevation - see
+`xe395-2010-programs-incline-profiles`.
+
+**The two oldest XE consoles describe Cardio differently.** That is
+`spirit-xe-programs-cardio-exercise-for-your-heart-and-lungs`.

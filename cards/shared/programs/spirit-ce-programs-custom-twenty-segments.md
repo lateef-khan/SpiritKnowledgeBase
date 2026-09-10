@@ -30,6 +30,7 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ce-programs-custom-twenty-four-segments
 see_also:
+- xe550-2005-programs-heart-rate-auto-pilot
 - spirit-ce-programs-custom-twenty-four-segments
 - ce800ent-programs-custom-twenty-segments-on-screen
 - spirit-ce-programs-manual-mode
@@ -67,5 +68,11 @@ just completed as a custom program**. It can be personalised further by adding y
     and a quarter mile track.
 
 **A dangling reference in the source.** Step 11 says you "can switch to heart rate Auto-Pilot mode.
-See Heart Rate section for details of this feature". **Neither manual describes Auto-Pilot
-anywhere.** The phrase appears exactly once in each document, here.
+See Heart Rate section for details of this feature". **Neither the CE800 2013 nor the CE850 2016
+describes Auto-Pilot anywhere.** The phrase appears exactly once in each document, here.
+
+**What the feature is, is printed in a different book.** The Spirit XE150/XE350/XE550 owner's manual
+defines it on printed page 33: at any time, during any program, pressing Auto-pilot switches the
+console to heart rate control and holds your heart rate at the level it was at - see
+`xe550-2005-programs-heart-rate-auto-pilot`. **That is the XE550's behaviour, not a statement about
+the CE800 or CE850**, whose own manuals never say how their version works.
