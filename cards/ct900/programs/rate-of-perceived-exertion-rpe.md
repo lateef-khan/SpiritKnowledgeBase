@@ -37,6 +37,20 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt285-2015
   - xt285-2023
   - xt385-2015
@@ -134,3 +148,17 @@ for "easier" and "difficult" for "harder".
 
 **The CE900 2021 owner's manual has no Borg scale and no heart rate chapter at all.** No Spirit
 elliptical has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.
+
+**All eleven Spirit residential XE owner's manuals print the same scale, value for value.** They
+split into the two framings above:
+
+- The **"listen to your body"** opening, headed "Rate of Perceived Exertion": XE100/XE200/XE300
+  (printed page 30), XE150/XE350/XE550 (page 30), XE395 2010 (page 25), XE195 (page 26), XE295 (page
+  32), XG400 (page 31), both XE795 2021 printings (page 31) and the XE395ENT (page 41). All of them
+  keep the four closing sentences the CE800 2013 keeps, with "easier" and "harder".
+- The XE395 2023 (printed page 27) and XE795 2023 (page 26) head it **"Heart Rate - Perceived
+  Exertion"**, keep the "listen to your body" opening, and print the four closing sentences with
+  **"comfortable"** for "easier" and **"difficult"** for "harder", exactly as the CE900 2025 and
+  CES880 2025 do.
+
+No Spirit elliptical has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.

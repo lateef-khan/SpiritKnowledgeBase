@@ -3,8 +3,8 @@ id: spirit-ct800-assembly-unpacking
 title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
 question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
-  treadmill, or a Spirit CE800, CE800ENT or CE900 elliptical, and get the hardware
-  ready for assembly?
+  treadmill, or a Spirit CE800, CE800ENT, CE900 or XE395 elliptical, and get the
+  hardware ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
 - how do i unbox my treadmill
@@ -38,6 +38,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xe395-2010
   - xt685-2010
   section: assembly
   code: '*'
@@ -54,6 +55,8 @@ see_also:
 - spirit-ce800-assembly-tools-included
 - ce800ent-assembly-procedure
 - spirit-ce900-assembly-procedure
+- spirit-xe-assembly-unpacking-2005-2007
+- xe395-2010-assembly-procedure
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
@@ -65,7 +68,10 @@ source:
     `spirit-elliptical-ce800-2023-owners-manual`), p. 7 of the CE800ENT manual
     (`spirit-elliptical-ce800ent-owners-manual`), p. 6 of the CE900 2021 manual
     (`spirit-elliptical-ce900-2021-owners-manual`) and PDF p. 7 of the CE800 2013
-    manual (`spirit-elliptical-ce800-2013-owners-manual`, headed Pre-Assembly)
+    manual (`spirit-elliptical-ce800-2013-owners-manual`, headed Pre-Assembly); and
+    p. 4 of the XE395 2010 manual
+    (`spirit-elliptical-xe395-2010-owners-manual`, headed XE395 ASSEMBLY
+    INSTRUCTIONS / PRE-ASSEMBLY)
   extracted_at: '2026-09-09'
 ---
 
@@ -119,6 +125,19 @@ The elliptical cartons hold different tools and different parts from any treadmi
 here. See [the CE800 tools card](spirit-ce800-assembly-tools-included.md), [the CE800
 parts card](spirit-ce800-assembly-parts-included.md) and
 [the CE900 tools card](spirit-ce900-assembly-tools-included.md).
+
+## The XE395 2010 is the only residential elliptical that uses these words
+
+The **XE395 2010** manual prints both items word for word, including "separated into
+four steps", and it prints four assembly steps. It is the only one of the eleven
+Spirit residential elliptical manuals that does; the 2005 and 2007 XE books use a
+razor-knife wording of their own and the 2021 and 2023 books use the four-item list.
+See [the 2005/2007 card](spirit-xe-assembly-unpacking-2005-2007.md) and
+[the four-item card](ct900-pre-assembly.md).
+
+Its carton and its build are its own. See
+[the XE395 2010 tools card](../../xe395-2010/assembly/xe395-2010-assembly-tools-included.md)
+and [its four-step build](../../xe395-2010/assembly/xe395-2010-assembly-procedure.md).
 
 **The CE850 and the CE900 2025 do not use these words.** They print the four-item
 list that adds "inspect for any damage or missing parts" - see

@@ -2,7 +2,7 @@
 id: ct900-heart-rate-chest-strap-setup
 title: Heart Rate chest strap - fitting and battery (not included)
 kind: procedure
-question: How do I fit and power the heart rate chest strap on a Spirit treadmill?
+question: How do I fit and power the heart rate chest strap on a Spirit treadmill or elliptical?
 asked_as:
 - how do i put on the heart rate chest strap
 - what battery does the chest strap use
@@ -24,6 +24,14 @@ facets:
   - ce900-2025
   - ces880-2025
   - ct900
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt285-2015
   - xt285-2023
   - xt385-2015
@@ -87,3 +95,26 @@ figures**, including "interlocking key" and "Panasonic CR2032":
 separately", plain CR2032 and a sentence about Bluetooth or ANT+ straps. That is
 `spirit-ce-programs-chest-strap-sold-separately`, a separate card. The CE900 2021 owner's manual has
 no chest strap chapter at all.
+
+**Eight Spirit residential XE ellipticals print these same six steps and the same battery figures**,
+including the "2 ribbed oval areas" electrode description and the Panasonic CR2032:
+
+- **XE195, XE295, XG400 and both XE795 2021 printings** (printed pages 28, 33, 32 and 32), headed
+  "Wearing The Chest Strap", and the **XE395ENT** (page 42). All five write step 1 as "using the
+  **interlocking key**".
+- **XE395 2023** (printed page 24) and **XE795 2023** (page 23), headed "Heart Rate Chest Strap*
+  (not included)", also with "interlocking key".
+- **XE395 2010** (printed page 25), headed "Using Heart Rate Transmitter". Like the CE800 2013 and
+  the 2010 XT685 it writes step 1 as "using the **locking parts**" and adds the extra sentence to
+  step 5: wearing clothing over the transmitter/strap doesn't affect performance. It does not say
+  the strap is not included.
+
+The XE395 2023 and XE795 2023 manuals add one line beside these steps that no other manual here
+prints: the heart icon lights and the heart rate is displayed when a **Bluetooth** heart rate chest
+strap is successfully connected, and the icon is off when it is disconnected. *Those two manuals
+also print a procedure for switching the console's older **5 kHz** receiver on, which is off by
+default; that is a console setting and is not carded here.*
+
+**The XE100/XE200/XE300 and XE150/XE350/XE550 manuals print an older version of this page** -
+**2 black square** electrodes rather than 2 ribbed oval ones, and on the XE100/XE200/XE300 a POLAR
+logo. That is `spirit-xe-programs-chest-strap-with-black-square-electrodes`, a separate card.

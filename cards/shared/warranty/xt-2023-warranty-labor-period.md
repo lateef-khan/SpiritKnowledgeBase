@@ -20,12 +20,26 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -42,13 +56,18 @@ facets:
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct800-warranty-labor-period
 see_also:
 - spirit-2026t-warranty-commercial-periods
 - xt-2023-warranty-residential-coverage-periods
 - xt185-2015-residential-warranty-periods
 - xt-2023-warranty-service-steps
 - xt-2023-warranty-start-date
+- spirit-xe-warranty-residential-periods-ten-year-parts
+- xe195-2021-warranty-residential-periods-five-year-parts
+- spirit-xe795-warranty-light-commercial-periods
+- spirit-xe-2005-warranty-two-year-base-period
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'Labor column of the Home Use Limited Warranty table, p. 40, and WARRANTY
@@ -59,7 +78,24 @@ source:
     word for word: xt185 text.md lines 756 and 792-795, xt285 lines 970 and 1005-1008,
     xt385 lines 1022 and 1058-1061, xt485 lines 1159 and 1194-1197, xt685 lines 1148-1149
     and 1183-1186. XT485ENT: table p. 55 (line 1091), SERVICE p. 56 (lines 1126-1129).
-    XT685ENT: tables p. 53 (lines 1580, 1585), SERVICE p. 55 (lines 1634-1638)'
+    XT685ENT: tables p. 53 (lines 1580, 1585), SERVICE p. 55 (lines 1634-1638)
+    Labor 1 Year is printed in the warranty table of all eleven Spirit XE and XG residential
+    owners manuals: xe150-xe350-xe550 p. 34 (spirit-elliptical-xe150-xe350-xe550-owners-manual
+    text.md line 1110), xe100-xe200-xe300 p. 44 (spirit-elliptical-xe100-xe200-xe300-owners-manual
+    text.md line 1650, in both columns), xe395-2010 p. 29
+    (spirit-elliptical-xe395-2010-owners-manual text.md lines 1040-1041), xe795-2021-february p. 38
+    (spirit-elliptical-xe795-2021-february-owners-manual text.md lines 928-929, both rows),
+    xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual text.md line 922),
+    xe195-2021 p. 33 (spirit-elliptical-xe195-2021-owners-manual text.md line 735), xe295-2021
+    p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md line 853), xg400-2021 p. 36
+    (spirit-elliptical-xg400-2021-owners-manual text.md line 872), xe795-2021-november p. 39
+    (spirit-elliptical-xe795-2021-november-owners-manual text.md lines 951-952, both rows),
+    xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md line 1454), xe795-2023
+    (spirit-elliptical-xe795-2023-owners-manual text.md lines 1330, 1336, both rows). The
+    SERVICE paragraph is at xe150-xe350-xe550 line 1147, xe100-xe200-xe300 line 1688,
+    xe395-2010 line 1077, xe795-2021-february line 963, xe395ent-2021 line 957, xe195-2021
+    line 772, xe295-2021 line 887, xg400-2021 line 906, xe795-2021-november line 986,
+    xe395-2023 line 1506, xe795-2023 line 1385'
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +114,15 @@ The manual's own advice follows from it: keep the bill of sale, and if service i
 **This fact is printed in two places.** The one-year figure is in the table on the first warranty page; the dating rule is in the SERVICE paragraph on the third. `xt-2023-warranty-residential-coverage-periods` holds the table for the XT machines and `spirit-2026t-warranty-commercial-periods` for the 2026 ones; `xt-2023-warranty-service-steps` holds the rest of the SERVICE paragraph for the XT machines and `ct900-warranty-service-claims-process` for the 2026 ones.
 
 The manual adds that this written warranty gives specific legal rights and that other rights vary from state to state.
+
+## Labor is 1 Year on every Spirit XE and XG residential machine too
+
+**All eleven of those owner's manuals print it**, from the 2005 XE150/XE350/XE550 book to the 2023 XE395 and XE795 - in the Residential row, and in the XE795's Light Commercial row as well. It is the one figure that never moves anywhere in the range, on tables that otherwise disagree about the parts period, the brake and even whether there is a brake column at all.
+
+**One year is an XE, XG and XT figure. Do not answer it from a Spirit commercial elliptical card.** The CE800, CE800ENT and CE850 tables read **Labor 2 Years** in both rows (`spirit-ct800-warranty-labor-period`), and the CE900 and CES880 read 3 Years. Doubling an XE customer's labor cover is the easy mistake here.
+
+**The SERVICE paragraph is word for word the same on nine of the eleven** - the 2010 XE395, the six 2021 manuals and the two 2023 ones - and it does not contradict their tables either, because the Labor column already reads one year.
+
+**The 2005 and 2007 books word it differently, and the difference matters.** They read *"...establishes the **warranty** period should service be required"*, not *"the **labor** warranty period"*. On those two the sentence therefore appears to date the whole warranty from the bill of sale or the serial number, not just the labor half - and their table has a two-year base period and a five-year component period that neither twelve nor eighteen months can be reconciled with. Neither book resolves it. Quote the sentence and the table together (`spirit-xe-2005-warranty-two-year-base-period`).
+
+The XE and XG tables themselves are `spirit-xe-warranty-residential-periods-ten-year-parts`, `xe195-2021-warranty-residential-periods-five-year-parts` and `spirit-xe795-warranty-light-commercial-periods`.

@@ -2,7 +2,7 @@
 id: spirit-ce-programs-entering-a-program-and-default-settings
 title: Pressing Start skips data entry and runs the default or pre-saved settings
 kind: fact
-question: How do I skip the age and weight questions on a Spirit commercial elliptical?
+question: How do I skip the age and weight questions on a Spirit elliptical?
 asked_as:
 - how do i skip entering my age and weight
 - can i just press start on the elliptical
@@ -27,6 +27,18 @@ facets:
   - ce850-2016
   - ce900-2021
   - ce900-2025
+  - xe100-2007
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -55,3 +67,17 @@ paragraph without that parenthesis, because those consoles scroll with a single 
 **The CE850 2020, CE850 2022 and CES880 2025 owner's manuals do not print this paragraph at all**,
 and neither does the CE800ENT owner's manual, which instead says on its program menu page that you
 may press Start to begin the program using the default settings.
+
+**Twelve Spirit residential XE machines print this same paragraph.** The XE100/XE200/XE300,
+XE150/XE350/XE550, XE395 2010, XE195, XE295, XG400 and XE795 2021 manuals say you enter a program by
+pressing a **program key** and then Enter; the XE395 2023 and XE795 2023 manuals say the **PROGRAM**
+key, because those consoles scroll a single button through the list.
+
+All twelve add the note the commercial manuals also print: the last Age and Weight you enter become
+the new defaults, so you only re-enter them if your age or weight changes or somebody else enters
+different ones.
+
+**The five oldest XE consoles print the actual default values**, which no commercial manual does -
+see `spirit-xe-programs-default-settings-and-per-program-max-levels`.
+
+**The XE150 and the XE395ENT do not print this paragraph.** Both use a different flow.

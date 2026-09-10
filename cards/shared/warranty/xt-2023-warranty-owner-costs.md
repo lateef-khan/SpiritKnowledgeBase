@@ -40,6 +40,14 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -62,6 +70,7 @@ see_also:
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-consumer-responsibilities
 - spirit-ct800-warranty-consumer-responsibilities
+- spirit-xe-2005-warranty-service-and-transport-costs
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'SERVICE step 4, p. 42; RESPONSIBILITIES OF THE CONSUMER item 3, p. 40; EXCLUSIONS
@@ -87,7 +96,20 @@ source:
     and 973-978), ce850-2016 pp. 35 (spirit-elliptical-ce850-2016-owners-manual text.md lines
     839-841 and 862-868), ce850-2020 pp. 42-43 (spirit-elliptical-ce850-2020-owners-manual
     text.md lines 1043-1046 and 1074-1079), ce850-2022 pp. 43-44
-    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1049-1052 and 1080-1085)'
+    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1049-1052 and 1080-1085)
+    Eight Spirit XE and XG residential owners manuals charge the same five. Responsibilities
+    accessibility item, EXCLUSIONS item 2 and SERVICE step 4 respectively: xe395-2010 p. 29
+    (spirit-elliptical-xe395-2010-owners-manual text.md lines 1051, 1061, 1083),
+    xe795-2021-february pp. 38-39 (spirit-elliptical-xe795-2021-february-owners-manual text.md
+    lines 937, 947, 970), xe395ent-2021 p. 48
+    (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 931, 941, 964), xe195-2021
+    pp. 33-34 (spirit-elliptical-xe195-2021-owners-manual text.md lines 745, 755, 779),
+    xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines 862, 872,
+    894), xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 881,
+    891, 913), xe795-2021-november p. 39
+    (spirit-elliptical-xe795-2021-november-owners-manual text.md lines 961, 971, 993),
+    xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines 1462, 1480, 1514),
+    xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines 1344, 1359, 1393)'
   extracted_at: '2026-09-09'
 ---
 
@@ -114,3 +136,9 @@ Adequate packaging for a return is the owner's responsibility too, and freight d
 **Three Spirit ellipticals do not belong on this card, and that is worth checking before quoting it.** The **CE900 2025** and the **CES880** stop at shipping and handling on replacement parts and charge no trip charge (`spirit-2026t-warranty-owner-costs`). The **CE900 2021** step 4 ends at "All repairs must be preauthorized by Spirit Fitness" and prints **neither** the freight sentence nor the shipping-and-handling sentence nor a trip charge - three of the five charges above are simply not stated in that manual. Quoting them to a CE900 2021 owner would invent a cost the source does not impose.
 
 **Do not treat the trip charge as an XT-only rule.** It is not the difference between a residential and a commercial Spirit warranty: the CT800 and the CT850 are commercial machines and charge it, while the CT900, the CTSBS900 and the 2026 4.0T, 7.0T and 8.0T stop at shipping and handling and say nothing about trip charges (`spirit-2026t-warranty-owner-costs`). Read the machine's own step 4. `xt-2023-warranty-service-steps` holds the full step order.
+
+**Eight Spirit XE and XG residential machines charge all five, word for word.** The 2010 XE395, the six 2021 manuals - XE195, XE295, XE395ENT, XG400 and the XE795 in both printings - and the two 2023 manuals print the same SERVICE step 4 and the same exclusion 2 refusing service call reimbursement to the consumer.
+
+Their accessibility duty sits at a different number in each generation: item **5** in the 2010 XE395 and the XE195, whose lists carry both a registration item and a grounded-power-supply item; item **4** in the XE295, XE395ENT, XG400 and XE795 2021 manuals, which drop the electrical item; and item **3** in the two 2023 manuals, which drop the registration item as well. The words never change.
+
+**The 2005 and 2007 XE books do not belong on this card, and that is the reason to check before quoting it.** Their step 4 promises parts **at no charge** where no local service is available and charges the owner **all transportation costs both ways** - and it names **no** shipping-and-handling charge on parts, **no** trip charge and **no** 100-mile surcharge. Three of the five charges above are simply not stated in either book, and quoting them to the owner of an XE100, XE150, XE200, XE300, XE350 or XE550 would invent a cost the source does not impose: `spirit-xe-2005-warranty-service-and-transport-costs`.

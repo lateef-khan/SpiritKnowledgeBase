@@ -4,7 +4,8 @@ title: Pre-assembly steps before starting
 kind: procedure
 question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
   40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
-  XT685ENT treadmill, or a Spirit CE850 or CE900 elliptical?
+  XT685ENT treadmill, or a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
+  XE795 or XG400 elliptical?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -29,6 +30,13 @@ facets:
   - ce900-2025
   - ct900
   - ctsbs900
+  - xe195-2021
+  - xe295-2021
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -63,6 +71,9 @@ see_also:
 - spirit-ce850-assembly-procedure
 - spirit-ce900-assembly-procedure
 - spirit-ce850-assembly-tools-included
+- spirit-xe-assembly-tools-2021
+- spirit-xe-assembly-parts-included-2021
+- spirit-xe-assembly-unpacking-2005-2007
 source:
   ref: spirit-treadmill-ct900-owners-manual
   locator: p. 10, PRE-ASSEMBLY; the same four items at p. 11 of the CTSBS900 manual
@@ -71,7 +82,16 @@ source:
     (`spirit-elliptical-ce900-2025-owners-manual`), and the three-item form at p. 9
     of the CE850 2020 and 2022 manuals (`spirit-elliptical-ce850-2020-owners-manual`,
     `spirit-elliptical-ce850-2022-owners-manual`) and p. 7 of the CE850 2016 manual
-    (`spirit-elliptical-ce850-2016-owners-manual`)
+    (`spirit-elliptical-ce850-2016-owners-manual`); the four-item form again at p. 9
+    of the XE395 2023 manual (`spirit-elliptical-xe395-2023-owners-manual`) and p. 8
+    of the XE795 2023 manual (`spirit-elliptical-xe795-2023-owners-manual`), and the
+    three-item form at p. 9 of the XE195, XE295 and XG400 2021 manuals
+    (`spirit-elliptical-xe195-2021-owners-manual`,
+    `spirit-elliptical-xe295-2021-owners-manual`,
+    `spirit-elliptical-xg400-2021-owners-manual`), p. 7 of both XE795 2021 printings
+    (`spirit-elliptical-xe795-2021-february-owners-manual`,
+    `spirit-elliptical-xe795-2021-november-owners-manual`) and p. 10 of the XE395ENT
+    manual (`spirit-elliptical-xe395ent-2021-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -94,6 +114,26 @@ On the XT185-2023, XT285-2023, XT385-2023 and XT485-2023 there is one more thing
 The three 2026 machines share these words and nothing else about assembly. Their hardware, their step counts and their item numbers are all different; take the rest of the build from the card for the machine in front of you.
 
 Every machine on this card builds differently after this point. On the CT900 and CT900ENT, next: [Assembly Step One - install the uprights](../../ct900/assembly/assembly-step-1-uprights.md). On the CTSBS900, next: [Assembly step 1 - attach the handlebar upright tubes](../../ctsbs900/assembly/step-1-attach-handlebar-upright-tubes.md). The CTSBS900 is a six-step build with letter-keyed hardware and shares none of the CT900 item numbers.
+
+## Seven residential Spirit ellipticals print these words too
+
+The **XE395 2023** and **XE795 2023** manuals print all four items word for word,
+under the heading PRE-ASSEMBLY. The five 2021 residential machines - **XE195**,
+**XE295**, **XG400**, **XE795** (both the February and the November printing) and
+**XE395ENT** - print the **three**-item form, running items 3 and 4 together in their
+item 3 exactly as the 2015 treadmill manuals and the CE850 manuals do. Their heading
+is the machine name followed by PRE ASSEMBLY / UNPACKING. Nothing is added and
+nothing is left out.
+
+**The XE395 2010 manual does not print these words**, and neither do the 2005 and
+2007 XE books. The 2010 book prints the CT800 two-item form - see
+[that card](spirit-ct800-assembly-unpacking.md) - and the older two print a
+razor-knife wording used by no other Spirit machine, see
+[the 2005/2007 card](spirit-xe-assembly-unpacking-2005-2007.md).
+
+Each of these seven builds differently. Take the rest of the build from the card for
+the machine in front of you; their tool panels differ too - see
+[the 2021 tools card](spirit-xe-assembly-tools-2021.md).
 
 ## Four Spirit ellipticals print these words too
 

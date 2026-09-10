@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-aerosol-and-oxygen
 title: Using the machine where aerosols are sprayed or oxygen is in use
 kind: policy
-question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, or a Spirit CE800, CE800ENT or CE850 elliptical, be used where oxygen is being given or aerosols are sprayed?
+question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, or a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021 generation, be used where oxygen is being given or aerosols are sprayed?
 asked_as:
 - can i use the treadmill near an oxygen tank
 - is hairspray or air freshener a problem near the treadmill
@@ -36,6 +36,18 @@ facets:
   - ce850-2022
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -49,6 +61,8 @@ see_also:
 - spirit-2026t-safety-instructions-list
 - spirit-ce800-safety-instructions-list
 - spirit-ce850-safety-instructions-list
+- spirit-xe-2005-2007-safety-instructions-list
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen half as a bullet of their ELECTRICAL SAFETY page, page 6. Both Spirit MT200 owner's manuals state the oxygen half as a bullet of their Important Electrical Information page, 2010 page 5 and 2022 page 8 Seven Spirit elliptical owner's manuals print the rule as a bullet of their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6
@@ -111,3 +125,28 @@ and the CES880 2025 manuals never mention aerosols or oxygen
 (`spirit-ce900-safety-instructions-list`, `ces880-2025-safety-instructions-list`). That is an
 absence, not a permission - do not tell a CE900 or CES880 owner their manual forbids it, and do not
 tell them it allows it.
+
+## Twelve Spirit residential machines print the rule, in the 4.0T's two shapes
+
+**The three oldest manuals name the mechanism, exactly as the 4.0T does.** The XE100/XE200/XE300,
+XE150/XE350/XE550 and XE395-2010 owner's manuals print it as a safety bullet:
+
+> Do not operate where aerosol spray products are being used or where oxygen is being administered.
+> Sparks from the motor may ignite a highly gaseous environment.
+
+**The 2021 manuals drop the reason.** The XE195, XE295, XG400, XE395ENT and both XE795 printings stop
+at the prohibition, and add a bracket the older books do not:
+
+> Do not operate where aerosol (spray) products are being use or where oxygen is being administered.
+
+`being use` is printed that way in all six 2021 manuals; the word intended is *used*. Nothing about
+the rule changes.
+
+- **Oxygen being administered: all twelve say no.**
+- **Aerosol sprays: all twelve name them**, unlike the 7.0T and 8.0T.
+- **Only the 2005, 2007 and 2010 books explain why.** Do not tell a 2021 XE owner that their manual
+  blames sparks from the motor - it does not give a reason at all.
+
+**The two 2023 residential XE manuals print no aerosol or oxygen rule anywhere.** Their thirteen
+numbered safety instructions have no such item (`ces880-2025-safety-instructions-list`). That is an
+absence; do not quote this rule for an XE395-2023 or XE795-2023.

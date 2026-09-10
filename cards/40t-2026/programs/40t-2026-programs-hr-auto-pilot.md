@@ -26,8 +26,10 @@ facets:
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xe550-2005-programs-heart-rate-auto-pilot
 see_also:
+- xe550-2005-programs-heart-rate-auto-pilot
 - 40t-2026-programs-heart-rate-programs
 - 40t-2026-programs-custom-program
 source:
@@ -46,3 +48,9 @@ rate.
 - **You must wear a heart rate strap to enter this mode.** If no heart rate is detected the message
   window shows **NO HEART RATE**.
 - At the end of the HR auto pilot program a workout summary is displayed in the message window.
+
+**A Spirit elliptical has a feature of the same name that behaves differently.** The XE550's
+Auto-pilot works **at any time, during any program**, and its manual states no strap requirement, no
+NO HEART RATE message and no closing workout summary. It is
+`xe550-2005-programs-heart-rate-auto-pilot`, a separate card, and the two must not be answered for
+each other.

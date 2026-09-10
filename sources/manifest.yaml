@@ -1176,6 +1176,78 @@
   origin_uri: file://Ellipticals/CES880/CES880_OM_20250612.pdf
   sha256: 5082a11f5816a0fb52b4047becb39b6cbca9a5764361084bfe01e8734c3ab029
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe100-xe200-xe300-owners-manual
+  title: Spirit XE100 / XE200 / XE300 Elliptical Owner's Manual (Ver. A, effective
+    October 15, 2007)
+  kind: text
+  origin_uri: file://Ellipticals/XE150/XE100_200_300_OwnersManual_007.pdf
+  sha256: 3f966d91be9e1642e858bc4bd7ee7d1f5089039fc4ba618f60bc81cfe5b4b6fc
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe150-xe350-xe550-owners-manual
+  title: Spirit XE150 / XE350 / XE550 Elliptical Owner's Manual (effective October
+    15, 2005)
+  kind: text
+  origin_uri: file://Ellipticals/XE150/XE150_350_550_OwnersManual_005.pdf
+  sha256: b17eb2fa3c50cbd9d36528d25b6a0130b07fcf77afacd00c2b19d489cb5e7fb6
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe195-2021-owners-manual
+  title: Spirit XE195 Elliptical Trainer Owner's Manual (effective November 30, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/XE195/XE195_20211130.pdf
+  sha256: 3ef1c3db1d71734aa27c372fec680e66376db5fa3223f0b1efea69227e6962d3
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe295-2021-owners-manual
+  title: Spirit XE295 Elliptical Trainer Owner's Manual (effective November 30, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/XE295/XE295_20211130.pdf
+  sha256: 09f7848a9f41e0c49daec9a0bef991b7dd71d5679a58696b7f2b29fb00b70e6c
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395-2010-owners-manual
+  title: Spirit XE395 Elliptical Owner's Manual (stamp XE395_20101117, effective September
+    15, 2010)
+  kind: text
+  origin_uri: file://Ellipticals/XE395/2011/SpiritFitness_OM_XE395_2011.pdf
+  sha256: 6fde29c0837e22b4a6db9e85a83df5703b0286e92e735738a7b7663f80f83574
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395-2023-owners-manual
+  title: Spirit XE395 Elliptical Owner's Manual (part 395023, effective August 7,
+    2023)
+  kind: text
+  origin_uri: file://Ellipticals/XE395/2023/XE395_395023_OM_20240715.pdf
+  sha256: b70fad543b7bf7c7f523330c8c7b1a6410448eaf3b9744e05f230065fd7fbc80
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395ent-2021-owners-manual
+  title: Spirit XE395ENT Elliptical Trainer Owner's Manual (effective February 25,
+    2021)
+  kind: text
+  origin_uri: file://Ellipticals/XE395ENT/XE395ENT_20210225.pdf
+  sha256: 7414d5c9670d56942b6ba6c2f6073be0dba02c3c5eb60df869fb93a0d768d379
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe795-2021-february-owners-manual
+  title: Spirit XE795 Elliptical Owner's Manual (effective February 19, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/XE795/XE795_OM_20210219.pdf
+  sha256: 466ee3d10e9b38a580527058c047431c8a5254c6c8e3053185ad639b32515fbc
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe795-2021-november-owners-manual
+  title: Spirit XE795 Elliptical Owner's Manual (effective November 30, 2021 - adds
+    a cleaning section)
+  kind: text
+  origin_uri: file://Ellipticals/XE795/XE795_20211130.pdf
+  sha256: 22e0695f808620714a678b25b8f9e1df094e6974d9da3330a99edf784965229d
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe795-2023-owners-manual
+  title: Spirit XE795 Elliptical Owner's Manual (part 795023, effective June 2, 2023)
+  kind: text
+  origin_uri: file://Ellipticals/XE795/XE795_795023_OM_20240715.pdf
+  sha256: a52f7d4ab1bc6d9a69937ed818406d177d8bf88ef74e6f2f91e4525a67a6fddb
+  ingested_at: '2026-09-09'
+- id: spirit-elliptical-xg400-2021-owners-manual
+  title: Spirit XG400 E-Glide Trainer Owner's Manual (effective November 30, 2021)
+  kind: text
+  origin_uri: file://Ellipticals/XG400/XG400_20211130.pdf
+  sha256: 69ecf2bf24c6f0d5fbbeef0ca5147bbb5118f0c9b12fe7a51861478e6ef8ff9d
+  ingested_at: '2026-09-09'
 - id: spirit-ent-console-bluetooth-pairing-tip
   title: Spirit Commercial ENT Console - Connecting Bluetooth (support note, rev 04.14.2021)
   kind: text

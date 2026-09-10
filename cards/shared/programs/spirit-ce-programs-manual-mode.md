@@ -2,7 +2,7 @@
 id: spirit-ce-programs-manual-mode
 title: Manual mode starts you at level one and you set the workload yourself
 kind: procedure
-question: How do I use Manual mode on a Spirit commercial elliptical?
+question: How do I use Manual mode on a Spirit elliptical?
 asked_as:
 - how do i just start pedalling without a program
 - how does manual mode work on the elliptical
@@ -31,6 +31,18 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe100-2007
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -72,3 +84,28 @@ any time with the stride up/down keys on the left swing arm.
 
 The CE800ENT does not print these steps. Its manual describes Manual mode in one line - see
 `ce800ent-programs-touchscreen-program-menu`.
+
+**Twelve Spirit residential XE machines print these same steps.** What each adds:
+
+- **XE100, XE200, XE300, XE350 and XE550** (XE100/XE200/XE300 manual printed pages 23-24 and 35-36;
+  XE150/XE350/XE550 manual pages 22-23) add, between steps 6 and 7, that you scroll the message
+  window with the adjacent Display or Enter key, and, on the XE300, XE350 and XE550, that you may
+  switch between the profile display and a quarter mile track. Those same step-7 sentences also
+  mention switching to heart rate **Auto-Pilot** mode, but **only the XE550 actually has that
+  button** - see `xe550-2005-programs-heart-rate-auto-pilot`, which explains why the sentence appears
+  in books covering machines that do not have it. All five add a final step: you may save the workout
+  you just completed as a custom user program by pressing a **User** key.
+- **XE395 2010** (printed page 18) adds a whole step the others do not have: **the program starts
+  with no Incline**, and you raise or lower it during the program with the Up and Down keys on the
+  **left swing arm**, while resistance is changed on the console or the **right** swing arm.
+- **XE195, XE295, XG400 and XE795 2021** (printed pages 22, 23, 22 and 22) print steps 1-7 and add
+  the same "save it as a custom user program by pressing a User key" ending. On these the keys are
+  named **Level Up / Level Down**.
+- **XE395 2023 and XE795 2023** (printed page 30 and page 29) print steps 1-7 with a **PROGRAM** key
+  used to scroll to Manual, and their closing step offers only Start or Stop - **the save-as-custom
+  ending is gone**.
+
+**Two XE consoles do not work this way at all.** The XE150 sets a level, a time, a distance, a
+calorie target and a watt target before you start - see
+`xe150-2005-programs-manual-sets-level-time-distance-calories-and-watts`. The XE395ENT touchscreen
+asks only for a target time - see `xe395ent-2021-programs-manual-asks-only-for-a-target-time`.

@@ -2,7 +2,7 @@
 id: spirit-ce-programs-heart-rate-control-operation
 title: The Heart Rate program moves resistance up or down to hold your target heart rate
 kind: procedure
-question: How does the Heart Rate control program work on a Spirit commercial elliptical?
+question: How does the Heart Rate control program work on a Spirit elliptical?
 asked_as:
 - how does the heart rate program work on the elliptical
 - how do i set a target heart rate
@@ -31,6 +31,19 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe100-2007
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -72,3 +85,24 @@ read via pulse grips or wireless chest strap.
 **The 65% / 80% program names clash with the same manuals' training-zone page**, which recommends
 60% for burning fat and 85% for the cardiovascular system. Neither figure is reconciled in the
 source - see `spirit-ce-programs-target-zone-of-108-to-153-beats`.
+
+**Thirteen Spirit residential XE machines print these same steps.** What differs:
+
+- **XE100, XE200, XE300, XE350 and XE550** print step 1 as "press the **HR 1** or **HR 2** key",
+  add a step saying the adjacent Display key scrolls the message window, and end with an offer to
+  save the workout as a custom user program with a User key. Those consoles have two dedicated HR
+  keys.
+- **XE395 2010, XE295, XG400, XE795 2021 and XE395ENT** print the same two-program HR 1 / HR 2 form
+  and add two sentences the commercial manuals do not: **you must wear the chest strap for these
+  programs**, and the program will try to hold you **within 3 to 5 beats per minute** of your
+  target. See `spirit-xe-programs-heart-rate-programs-hold-you-within-three-to-five-beats`.
+- **XE195** has a single **HR** key with no percentage choice - see
+  `xe195-2021-programs-single-heart-rate-key-defaults-to-sixty-percent`.
+- **XE395 2023 and XE795 2023** offer **four** heart rate programs rather than two - see
+  `spirit-xe-2023-programs-four-heart-rate-targets`.
+
+On every XE machine from 2010 on, the heart rate the console first offers is derived from the
+percentage you chose, and changing that number moves the percentage with it.
+
+**The XE150 console has no HR key.** Its heart rate program is reached from the program icon and
+offers 55%, 75%, 90% or a custom target - see `xe150-2005-programs-target-hr-program`.

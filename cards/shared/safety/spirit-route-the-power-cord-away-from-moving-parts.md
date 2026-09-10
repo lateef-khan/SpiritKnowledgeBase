@@ -2,7 +2,7 @@
 id: spirit-route-the-power-cord-away-from-moving-parts
 title: Route the power cord away from every moving part
 kind: policy
-question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, or a Spirit CVC800 climber?
+question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, a Spirit XE395-2023 elliptical, or a Spirit CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -32,6 +32,7 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - cvc800
+  - xe395-2023
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -54,6 +55,7 @@ see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 - spirit-2026t-safety-power-cord-condition-and-routing
+- spirit-xe-safety-no-outlet-figure-printed
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
@@ -122,3 +124,17 @@ where the CT800 and CT850 manuals have it - as the closing half of the GFCI bull
 (`spirit-never-use-a-gfci-wall-outlet`) rather than as the standalone WARNING its 2015 and 2023
 successors print it as. The two parts named are again the elevation mechanism and the transport
 wheels.
+
+## The Spirit XE395-2023 elliptical prints the same WARNING
+
+**Word for word**, opening its ELECTRICAL SAFETY page:
+
+> Route the power cord away from any moving part of the unit including the transport wheels.
+
+**The transport wheels are named on an elliptical too**, and they are the part of an elliptical a
+cord is most likely to be trapped under when the machine is rolled.
+
+**The XE795-2023 manual, the matching 2023 book, prints no such rule.** It has no electrical page,
+and the machine is generator-powered with no power cord in its parts list
+(`spirit-xe-safety-no-outlet-figure-printed`). No other residential XE manual prints this sentence
+either.

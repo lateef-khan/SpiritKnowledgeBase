@@ -2,7 +2,7 @@
 id: spirit-product-must-be-grounded
 title: The product must be grounded and the plug must not be modified
 kind: policy
-question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE850 elliptical, or a Spirit CVC800 climber be grounded?
+question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -39,6 +39,9 @@ facets:
   - cvc800
   - mt200-2010
   - mt200-2022
+  - xe395-2010
+  - xe395ent-2021
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -70,6 +73,8 @@ see_also:
 - spirit-2026t-safety-extension-cord-12-awg-or-larger
 - 40t-2026-safety-extension-cord-1-mm2-or-better
 - spirit-mt200-safety-outlet-and-circuit-requirement
+- spirit-xe-safety-outlet-110-volt-15-amp
+- spirit-xe-safety-outlet-115-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
@@ -323,3 +328,26 @@ CE800ENT.
 **The other six Spirit ellipticals have no mains plug at all.** The CE800, CE900 and CES880 run off
 a built-in generator, so nothing on this card applies to them
 (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Three residential Spirit ellipticals print the same grounding page
+
+**The XE395-2010, XE395ENT-2021 and XG400-2021 owner's manuals print the whole chapter word for
+word**, with `elliptical` or `equipment` where the treadmill manuals write `treadmill` - the product
+must be grounded, the equipment-grounding plug must go into an outlet installed and grounded to
+local codes and ordinances, the DANGER about an improperly connected grounding conductor, and the
+instruction not to modify the plug but to have a proper outlet installed by a qualified electrician.
+
+**The nominal circuit each names differs**, and the amp figure is not always there:
+
+| Manual | Grounding-page sentence |
+|---|---|
+| XE395-2010 | `a nominal 110-volt circuit` - **no amp figure**, the XT685-2010 wording |
+| XE395ENT-2021, XG400-2021 | `a nominal 110-volt/15 amp dedicated circuit` |
+
+**The XE395ENT and XG400 safety pages say 115 volt for the same circuit**, two pages earlier, and
+neither manual reconciles the two figures (`spirit-xe-safety-outlet-115-volt-15-amp`).
+
+**The other eleven residential XE manuals have no grounding page.** The XE195 and XE295 manuals'
+only grounding sentence is the safety-list bullet `Connect this appliance to a properly grounded
+outlet only`; the XE100/XE200/XE300, XE150/XE350/XE550, both XE795 printings and the two 2023 books
+print nothing at all about grounding. That is an absence - do not read this chapter across to them.

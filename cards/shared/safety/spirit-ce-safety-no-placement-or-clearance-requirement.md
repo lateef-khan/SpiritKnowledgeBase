@@ -2,7 +2,7 @@
 id: spirit-ce-safety-no-placement-or-clearance-requirement
 title: A flat level surface and no shag carpet, and no clearance figure at all
 kind: fact
-question: How much room does a Spirit CE800, CE800ENT, CE850 or CE900 elliptical need around it, and where may it stand?
+question: How much room does a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or any Spirit XE residential elliptical, need around it, and where may it stand?
 asked_as:
 - how much space do i need for my elliptical
 - how far from the wall should the elliptical be
@@ -34,6 +34,20 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: safety
   code: '*'
 authority: 3
@@ -48,6 +62,9 @@ see_also:
 - spirit-ce850-safety-outlet-and-circuit-requirement
 - spirit-ce800-safety-instructions-list
 - spirit-ce850-safety-instructions-list
+- spirit-xe-safety-outlet-110-volt-15-amp
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-xe-safety-no-outlet-figure-printed
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
   locator: IMPORTANT SAFETY INSTRUCTIONS, pages 6-7, the flat-level-surface WARNING and
@@ -103,3 +120,31 @@ once, there.
 
 The levelers on the CE850, CE900 and CES880 are an assembly step, not a placement rule; they set the
 machine steady on whatever floor it is standing on.
+
+## None of the fourteen residential Spirit machines prints a clearance figure either
+
+**No distance from a wall, no side or rear space, no ceiling height and no room size** appears in any
+of the eleven residential owner's manuals covering the XE100, XE150, XE200, XE300, XE350, XE550,
+XE395-2010, XE195, XE295, XE395ENT, XE795, XG400, XE395-2023 and XE795-2023.
+
+What they say about where the machine may stand is the same two sentences, and not every manual
+carries both:
+
+| Manual | Shag carpet rule | Flat level surface |
+|---|---|---|
+| XE100/XE200/XE300, XE150/XE350/XE550 | yes | **not printed** |
+| XE395-2010, XE795-2021 | yes | yes, in the 110-volt outlet WARNING |
+| XE195, XE295, XG400, XE395ENT | yes | yes, in the 115-volt outlet WARNING |
+| XE395-2023, XE795-2023 | yes, as item 7 | **not printed** |
+
+- **The flat level surface requirement is printed only as part of the outlet sentence**, as it is on
+  the commercial machines, so only the six that print an outlet figure carry it
+  (`spirit-xe-safety-outlet-110-volt-15-amp`, `spirit-xe-safety-outlet-115-volt-15-amp`). The other
+  eight print no floor requirement beyond the carpet rule
+  (`spirit-xe-safety-no-outlet-figure-printed`).
+- **All fourteen say `Do not use outdoors`**, and the manuals with an electrical page add that the
+  machine is not designed for use outdoors, near a pool or spa, or in any other high humidity
+  environment (`ct900ent-operating-environment-voltage`).
+
+**That is an absence, not a zero**, and the CES880-2025 figures quoted above are that machine's
+alone - an 87 in by 43 in area with 12 in at the front - and must not be given for a residential XE.

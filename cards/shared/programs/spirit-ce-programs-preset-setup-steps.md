@@ -2,7 +2,7 @@
 id: spirit-ce-programs-preset-setup-steps
 title: Setting up a preset program asks for age, weight, time and a Max Level
 kind: procedure
-question: How do I set up a preset program on a Spirit commercial elliptical?
+question: How do I set up a preset program on a Spirit elliptical?
 asked_as:
 - how do i start the hill program
 - what is max level on the elliptical
@@ -33,6 +33,13 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -71,3 +78,22 @@ or **Scan** key beside the Message Window.
 
 The CE800ENT is a touchscreen and does not print these steps - see
 `ce800ent-programs-touchscreen-program-menu`.
+
+**Seven Spirit residential XE machines print these same nine steps** - XE395 2010 (printed pages
+22-23), XE195 (page 24), XE295 (pages 25-26), XG400 (page 24), XE795 2021 (page 26), XE395 2023
+(page 30) and XE795 2023 (page 29). On the XE195, XE295, XG400 and XE795 2021 step 7 adds that the
+Level Up/Down keys are duplicated **above the heart rate sensor grips of the stationary handlebars**;
+the XE395 2010 puts them on the **right swing arm**.
+
+Step 7 reads slightly differently between them: the XE395 2010 says the picture stays put so you can
+see **half** of the profile at all times, where every later manual says **the entire** profile.
+
+**The XE395 2010 has two extra steps** between step 5 and step 6, asking whether you want Incline On
+or Off and then for a Max Incline Level - see
+`xe395-2010-programs-preset-setup-asks-incline-on-or-off`.
+
+**The two oldest XE consoles behave the opposite way at step 7.** On the XE100, XE200, XE300, XE350
+and XE550, Up and Down change **only the column you are in**, and the level returns to the preset
+value when the profile moves to the next column. That is
+`spirit-xe-programs-up-and-down-change-only-the-current-column`, a separate card, and it is the
+difference most likely to produce a wrong answer.

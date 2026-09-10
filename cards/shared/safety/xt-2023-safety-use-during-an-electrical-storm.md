@@ -2,7 +2,7 @@
 id: xt-2023-safety-use-during-an-electrical-storm
 title: Using the treadmill during an electrical storm
 kind: policy
-question: Can I use a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800-2012 treadmill, or a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, during a thunderstorm?
+question: Can I use a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800-2012 treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit XE residential elliptical, during a thunderstorm?
 asked_as:
 - can i run on the treadmill during a storm
 - should i unplug the treadmill in a thunderstorm
@@ -19,7 +19,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
   - 40t-2026
@@ -28,6 +28,18 @@ facets:
   - ct800-2012
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -48,6 +60,8 @@ not_to_be_confused_with: []
 see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2015-safety-instructions-list
+- spirit-ce-safety-generator-produces-ac-power
+- spirit-xe-2005-2007-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner's manuals print it as the first bullet of their Important Operation Instructions page, 2010 page 5 and 2022 page 10 The CT800 2012 owner's manual prints all three sentences on its Important Operation Instructions page, page 4. The XT685 2010 owner's manual prints it on its Important Operation Instructions page, PDF page 8 (printed 4)
@@ -125,3 +139,21 @@ the risk named is damage to components from a surge in the household supply.
 **Within the XT family this is a 2010 and 2015 statement in this place.** The five 2023 manuals
 moved it to their Electrical Safety page and the 2026 machines dropped the unplug sentence; the
 earlier books print all three sentences on an Important Operation Instructions page.
+
+## Twelve Spirit residential machines print the same rule, and two of them drop the unplug half
+
+**The XE395-2010, XE195, XE295, XG400, XE395ENT and XE395-2023 manuals print all three sentences**,
+with `elliptical` or `unit` in place of `treadmill`: do not use it during the storm, unplug it as a
+precaution, and the risk named is damage to components from a surge in the household supply.
+
+**The XE100/XE200/XE300 and XE150/XE350/XE550 manuals print only the first two sentences.** Their
+Important Operation Instructions read `NEVER use your elliptical during an electrical storm. Surges
+may occur in your household power supply that could damage elliptical components` and stop there -
+**there is no `Unplug the elliptical during an electrical storm as a precaution` sentence** in either
+book (`spirit-xe-2005-2007-safety-instructions-list`). Do not tell one of those six owners their
+manual asks them to unplug.
+
+**Neither XE795 prints any storm rule.** Both 2021 printings and the 2023 manual omit it entirely -
+the machine is generator-powered and has no plug to pull
+(`spirit-ce-safety-generator-produces-ac-power`). That is an absence, not a permission to use it in
+a storm.

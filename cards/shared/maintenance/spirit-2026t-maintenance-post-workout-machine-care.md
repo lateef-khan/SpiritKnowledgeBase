@@ -28,11 +28,14 @@ facets:
   - 70t-2026
   - ce900-2025
   - ces880-2025
+  - xe395-2023
+  - xe795-2023
   section: maintenance
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-xe-maintenance-squeak-thump-or-clicking
 - spirit-2026t-maintenance-belt-and-deck-cleaning
 - ct900-sanitizing-equipment
 - 70t-2026-maintenance-squeak-thump-or-clicking
@@ -41,7 +44,7 @@ see_also:
 - ces880-2025-maintenance-machine-care-schedule
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word'
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176)'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,12 +66,21 @@ four steps. **The CE900 2025 elliptical manual repeats the heading twice in the 
 its noise text (`spirit-ce900-maintenance-squeak-thump-or-clicking`) and over these four steps; the
 CES880 prints them once, under MAINTENANCE & CARE.
 
-**Step 1 points at storage instructions that are not printed.** None of these four manuals contains
-a storage chapter, a folding step, or any other "instructions" for putting the machine away - the
-two ellipticals do not fold. Read step 1 as "put it back where it belongs", and do not invent a
-procedure for it.
+**Step 1 points at storage instructions that are not printed.** None of these six manuals contains
+a storage chapter, a folding step, or any other "instructions" for putting the machine away - none
+of the four ellipticals folds. The 2023 XE395 and XE795 come closest with a "Moving The Elliptical"
+line in their setup chapter - tilt the machine by the rear stabilizer and roll it on its transport
+wheels - and that is all either book says about putting it away. Read step 1 as "put it back where
+it belongs", and do not invent a procedure for it.
 
-**Only the CE900 2025 and CES880 2025 ellipticals print this list.** The CE800 (all printings),
-CE800ENT, CE850 (all printings) and CE900 2021 manuals have no post-workout section beyond the
-sweat-path wipe-down in `ct800-2016-maintenance-squeak-thump-or-clicking` and
+**Four ellipticals print this list: the CE900 2025, the CES880 2025 and the residential XE395 and
+XE795 of 2023.** The CE800 (all printings), CE800ENT, CE850 (all printings) and CE900 2021 manuals
+have no post-workout section beyond the sweat-path wipe-down in
+`ct800-2016-maintenance-squeak-thump-or-clicking` and
 `spirit-ce900-maintenance-squeak-thump-or-clicking`.
+
+**On the two 2023 XE machines this list is the whole maintenance chapter.** It replaced the
+sweat-path wipe-down and the squeak/thump list that every earlier residential XE manual carried, so
+those two books state **no noise check, no rail cleaning, no lubricant and no leveler count** -
+`ce800-2013-maintenance-rear-rail-cleaning-and-lubrication`,
+`spirit-xe-maintenance-squeak-thump-or-clicking`. Do not read a 2021 XE figure onto a 2023 machine.

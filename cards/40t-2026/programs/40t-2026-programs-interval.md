@@ -2,7 +2,7 @@
 id: 40t-2026-programs-interval
 title: The Interval program that depletes and replenishes oxygen
 kind: fact
-question: What does the Interval program do on a Spirit 40t-2026 treadmill?
+question: What does the Interval program do on a Spirit treadmill or elliptical that describes it as depleting and replenishing oxygen?
 asked_as:
 - what is the interval program
 - which program is high intensity
@@ -19,10 +19,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: 40t-2026
+  product_line: '*'
+  model: '*'
   applies_to:
   - 40t-2026
+  - xe100-2007
+  - xe200-2007
+  - xe300-2007
+  - xe350-2005
+  - xe550-2005
   section: programs
   code: '*'
 authority: 3
@@ -50,3 +55,16 @@ Interval program.
 The CT900ENT and the 2015 XT manuals print a longer Interval description that mentions fast twitch
 muscle fibres and an incline alternating between 25% and 65% of maximum elevation. That is different
 wording for a different machine and is a separate card.
+
+**Five Spirit residential XE ellipticals print this description word for word.** The
+XE100/XE200/XE300 owner's manual prints it on printed pages 27 and 40, and the XE150/XE350/XE550
+manual on printed page 26, both under "Interval", writing "cardio vascular" as two words. On those
+machines the profile is a **resistance** profile, not speed and grade; the sentences above name
+neither, which is why one card now covers both product lines.
+
+Those five manuals print a profile picture only and give no numeric segment values, exactly as the
+4.0T manual does.
+
+**Do not confuse this with the Interval description the later ellipticals print.** The XE395 2010
+and every XE from 2021 on print the longer "Fast Twitch muscle fibers" wording, which is
+`spirit-ce-programs-interval-profile`. The XE150 console has no program named Interval at all.

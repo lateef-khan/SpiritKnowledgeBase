@@ -2,7 +2,7 @@
 id: spirit-temporary-adapter-for-a-two-pole-receptacle
 title: Using a temporary adapter in a two-pole receptacle
 kind: procedure
-question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit CE850 elliptical, or a Spirit CVC800 climber if there is no grounded outlet?
+question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber, if there is no grounded outlet?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -33,6 +33,9 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - cvc800
+  - xe395-2010
+  - xe395ent-2021
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -57,6 +60,7 @@ see_also:
 - xt-2023-safety-instructions-list
 - xt-2015-safety-instructions-list
 - spirit-2026t-safety-outlet-and-circuit-requirement
+- spirit-xe-safety-outlet-115-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
@@ -181,3 +185,16 @@ runs from the cover-removal warning to the circuit-breaker paragraph and stops
 **The other six Spirit ellipticals have no mains plug at all.** The CE800, CE900 and CES880 are
 generator-powered, so there is nothing to adapt
 (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Three residential Spirit ellipticals print the same paragraph
+
+**The XE395-2010, XE395ENT-2021 and XG400-2021 owner's manuals print it word for word** on their
+grounding page: a temporary adapter may connect the grounding plug to a 2-pole receptacle if a
+properly grounded outlet is not available; it is to be used **only until a properly grounded outlet
+can be installed by a qualified electrician**; the green rigid ear-lug must be connected to a
+permanent ground such as a properly grounded outlet box cover; and whenever the adapter is used it
+must be held in place by a metal screw.
+
+**The other eleven residential XE manuals have no grounding page and no adapter rule**
+(`spirit-product-must-be-grounded`). Do not offer an adapter to an XE195, XE295, XE795 or 2023 owner
+from this card - their manuals do not mention one.

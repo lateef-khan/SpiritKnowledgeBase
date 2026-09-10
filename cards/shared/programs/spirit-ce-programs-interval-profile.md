@@ -2,7 +2,7 @@
 id: spirit-ce-programs-interval-profile
 title: The Interval program alternates high intensity and recovery to develop fast twitch fibres
 kind: fact
-question: What does the Interval program do on a Spirit commercial elliptical?
+question: What does the Interval program do on a Spirit elliptical?
 asked_as:
 - what is the interval workout on the elliptical
 - how does the interval program work
@@ -31,6 +31,14 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2021
+  - xe295-2021
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   section: programs
   code: '*'
 authority: 3
@@ -61,3 +69,23 @@ a separate, fully customisable program on eight of the ten machines - see
 
 The profile picture that goes with Interval is a printed image in every manual, so the KB does not
 hold its column values.
+
+**Eight Spirit residential XE machines print this description word for word too**, but three of them
+print it under a different name.
+
+- Printed as **Interval**: XE395 2010 (printed page 21), XE195 (page 24), XE295 (page 25), XG400
+  (page 24) and XE795 2021 (page 29).
+- Printed as **HIIT**: XE395ENT (page 38), XE395 2023 (page 32) and XE795 2023 (page 31). Those three
+  print no program called Interval. The XE395 2023 and XE795 2023 also print a **Fusion** program
+  whose text is this same paragraph with "high levels of cardio & strength intensity" in place of
+  "high levels of intensity".
+
+**This HIIT is not the CE800 and CE850 HIIT.** On those machines HIIT is a separate configurable
+program with its own interval and cool-down settings; on these three XE machines HIIT is simply the
+Interval preset profile under a new name.
+
+The XE395 2010 and XE395ENT add a pedal **Incline** paragraph saying the incline alternates between
+**25 and 65% of maximum elevation** - see `xe395-2010-programs-incline-profiles`.
+
+**The two oldest XE consoles describe Interval in wording that a Spirit treadmill card already
+holds** - see `40t-2026-programs-interval`.

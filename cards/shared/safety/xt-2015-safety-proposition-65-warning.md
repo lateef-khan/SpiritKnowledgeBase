@@ -2,7 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill, for a Spirit CT850 or CT850ENT treadmill, or for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical?
+question: What is the California Proposition 65 warning for a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, for a Spirit XT485ENT treadmill, for a Spirit CT800-2016, CT800-2020 or CT800ENT-2022 treadmill, for a Spirit CT850 or CT850ENT treadmill, for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, or for a Spirit XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -38,6 +38,11 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - xe195-2021
+  - xe295-2021
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -57,6 +62,8 @@ see_also:
 - ce900-2025-safety-product-labels
 - ces880-2025-safety-product-labels
 - spirit-ce-safety-serial-number-location
+- spirit-xe-2023-safety-product-labels
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: page 4, Important Safety Instructions, boxed beside the list; the XT285
@@ -153,3 +160,25 @@ that could cause harm with improper use`, naming **no chemical** and printing **
 the CE900's sticker on the side of the console, the CES880's on the rear stabilizer
 (`ce900-2025-safety-product-labels`, `ces880-2025-safety-product-labels`). The two texts are not
 interchangeable in either direction.
+
+## Five 2021 Spirit residential machines print this box word for word
+
+**The XE195, XE295, XG400, XE395ENT and both XE795 printings** carry it beside their electrical page,
+naming Toluene and Acrylamide, cancer and birth defects or other reproductive harm, and
+`www.P65Warnings.ca.gov`. The XE195, XE295 and XG400 manuals capitalise `Cancer`; the XE395ENT and
+XE795 manuals do not. No figure or chemical changes.
+
+Like the other manuals in this family they print the warning **in the manual** and describe no
+sticker; none of the five has a product labels page.
+
+**Four earlier residential XE manuals print no Proposition 65 warning at all.** The
+XE100/XE200/XE300, XE150/XE350/XE550 and XE395-2010 owner's manuals name no chemical and give no web
+address anywhere. Do not carry Toluene and Acrylamide back onto an XE100, XE150, XE200, XE300,
+XE350, XE550 or XE395-2010.
+
+**The two 2023 residential XE manuals print the other Proposition 65 text, and put it on the
+machine.** The XE395-2023 and XE795-2023 manuals carry a PRODUCT LABELS page saying only
+`The State of California requires us to inform you that this unit was manufactured using chemicals
+that could cause harm with improper use`, naming **no chemical** and printing **no web address**,
+with the sticker on the **left side of the upright** (`spirit-xe-2023-safety-product-labels`). The
+two texts are not interchangeable in either direction.

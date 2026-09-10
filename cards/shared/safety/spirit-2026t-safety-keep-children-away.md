@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-keep-children-away
 title: Keep children away from the machine because of its pinch points
 kind: policy
-question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, near a Spirit MT200 rehabilitation treadmill, or near a Spirit CE800, CE800ENT, CE850 or CE900 elliptical?
+question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, near a Spirit MT200 rehabilitation treadmill, near a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or near a Spirit XE100, XE150, XE200, XE300, XE350, XE550 or XE395-2010 residential elliptical?
 asked_as:
 - can my kids be near the treadmill
 - is a treadmill dangerous for children
@@ -38,6 +38,13 @@ facets:
   - ce900-2025
   - mt200-2010
   - mt200-2022
+  - xe100-2007
+  - xe150-2005
+  - xe200-2007
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe550-2005
   section: safety
   code: '*'
 authority: 3
@@ -48,6 +55,7 @@ see_also:
 - spirit-2026t-safety-secure-the-tether-cord-after-use
 - spirit-ce-safety-who-may-use-the-elliptical
 - ces880-2025-safety-warning-on-the-cover
+- spirit-xe-2005-2007-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: SAFETY INSTRUCTIONS items 4 and 5, page 4; the 7.0T and 8.0T owner's manuals print it as item 5 of their page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual Nine Spirit elliptical owner's manuals print the same bullet - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6, CE900 2021 page 3, CE900 2025 page 5 item 2
@@ -113,3 +121,21 @@ this bullet is the whole of what it says about children.
 **The CES880-2025 manual prints neither.** Its numbered list has no children item; its only
 statement is on the front cover - keep children and pets away from the equipment when in use
 (`ces880-2025-safety-warning-on-the-cover`). Do not answer a CES880 owner from this card.
+
+## Seven Spirit residential ellipticals print the 4.0T form of the rule
+
+**The XE100/XE200/XE300, XE150/XE350/XE550 and XE395-2010 owner's manuals print it word for word**,
+with `elliptical` in place of the machine's name:
+
+> Keep children away from the elliptical. There are obvious pinch points and other caution areas
+> that can cause harm.
+
+**No age is attached**, and these three manuals attach no age anywhere - they print no
+`Keep children under the age of 13 away from this machine` item and no reduced-capability sentence
+(`spirit-xe-2005-2007-safety-instructions-list`, `xe395-2010-safety-instructions-list`). This bullet
+is their only rule about children.
+
+**The six 2021 residential XE manuals print the opposite arrangement.** They carry the age-13
+keep-away rule and the reduced-capability sentence but **not** this pinch-points bullet
+(`spirit-ce-safety-who-may-use-the-elliptical`). The two 2023 manuals carry neither. Quote the rule
+the machine's own manual prints.

@@ -2,7 +2,7 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, or of a Spirit CE850-2016 elliptical?
+question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, or of a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2010 or XE395ENT residential elliptical?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -25,6 +25,14 @@ facets:
   applies_to:
   - ce850-2016
   - ct800-2012
+  - xe100-2007
+  - xe150-2005
+  - xe200-2007
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395ent-2021
+  - xe550-2005
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -42,6 +50,9 @@ not_to_be_confused_with:
 see_also:
 - xt-2015-safety-instructions-list
 - spirit-ce850-safety-instructions-list
+- xe195-2021-safety-user-weight-limit-350-lb
+- spirit-xe-2021-safety-recommended-weight-limit-400-lb
+- ces880-2025-safety-user-weight-limit-400-lbs
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185,
@@ -117,3 +128,29 @@ occurrence of *weight* in it is the body weight keyed into the console for the c
 **Its own successors do print a figure**, which is exactly why it must not be filled in from them:
 the CE850 2020 and 2022 manuals print `User Weight Limit: 450 lb` in the same list
 (`spirit-ct800-safety-user-weight-limit-450-lbs`). Say the 2016 manual does not state one.
+
+## Eight Spirit residential ellipticals print no figure either
+
+**The XE100/XE200/XE300, XE150/XE350/XE550, XE395-2010 and XE395ENT-2021 owner's manuals name no
+user weight limit anywhere** - not in the safety list, not on a sticker, not in a specification
+table, and not in pounds or kilograms.
+
+**The XE395ENT is the surprising one.** Its manual is otherwise the same 2021 book as the XE195,
+XE295 and XG400 manuals, which each close their safety list with a weight bullet; the XE395ENT list
+ends at `Keep children under the age of 13 away from this machine`. That is an absence, not an
+oversight to correct from a sibling.
+
+**The February 2021 XE795 printing prints no figure either**, but its November 2021 printing does -
+the same machine, `xe795-2021`, gained the bullet between printings, so 400 lb is that machine's
+limit (`spirit-xe-2021-safety-recommended-weight-limit-400-lb`).
+
+| Residential machine | Figure |
+|---|---|
+| XE100, XE200, XE300, XE150, XE350, XE550, XE395-2010, XE395ENT | **none printed** |
+| XE195 | 350 lb (`xe195-2021-safety-user-weight-limit-350-lb`) |
+| XE295, XG400, XE795-2021 | 400 lb |
+| XE395-2023, XE795-2023 | 400 lbs (`ces880-2025-safety-user-weight-limit-400-lbs`) |
+
+**Do not fill an absence from the row below it.** The residential range prints three different
+figures and no figure at all, and nothing in any manual says a machine without a printed limit
+shares one.

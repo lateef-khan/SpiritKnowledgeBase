@@ -2,7 +2,7 @@
 id: ces880-2025-safety-instructions-list
 title: The thirteen numbered safety instructions for household use
 kind: policy
-question: What does the Safety Instructions page say for a Spirit ces880-2025 suspension elliptical?
+question: What does the Safety Instructions page say for a Spirit CES880-2025 suspension elliptical, or for a Spirit XE395-2023 or XE795-2023 elliptical?
 asked_as:
 - what are the safety rules for my suspension elliptical
 - safety instructions page of the ces880 manual
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ces880-2025
+  model: '*'
   applies_to:
   - ces880-2025
+  - xe395-2023
+  - xe795-2023
   section: safety
   code: '*'
 authority: 3
@@ -40,6 +42,9 @@ see_also:
 - ces880-2025-safety-product-labels
 - 40t-2026-safety-consult-a-physician
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
+- spirit-xe-2023-safety-product-labels
+- xt-2023-safety-compliance-certifications
+- spirit-xe-safety-no-outlet-figure-printed
 source:
   ref: spirit-elliptical-ces880-2025-owners-manual
   locator: SAFETY INSTRUCTIONS, page 4
@@ -98,3 +103,34 @@ prints 450 lb (`ces880-2025-safety-user-weight-limit-400-lbs`).
 grounding instructions, no circuit-breaker paragraph, no supply-voltage rule and no temperature or
 humidity limit. The machine runs off a built-in generator and does not plug into an AC outlet. That
 is an absence, not a permission - do not fill it from a CE850 or CE800ENT manual.
+
+## The two 2023 residential Spirit ellipticals print the same thirteen items
+
+**The XE395-2023 and XE795-2023 owner's manuals print items 1 to 13 word for word**, in the same
+order, on their page 5. Three things around the list differ:
+
+| | CES880-2025 | XE395-2023 and XE795-2023 |
+|---|---|---|
+| WARNING heading | `To reduce the risk of injury to persons:` | `To reduce the risk of burns, fire electric shock, or injury to persons:` |
+| Boxed note | `review and adhere to the user weight restrictions of your new machine` | `...the user weight restrictions **and power requirements** of your new machine` |
+| Cover CAUTION | `181 kgs/ 400 lbs` | not printed |
+
+**Item 1 has no supervised exception in either 2023 manual**, exactly as in the CES880 list. **There
+is no age item** in either, so the `Keep children under the age of 13 away from this machine` rule
+that the six 2021 residential XE manuals print does not reach a 2023 machine
+(`spirit-ce-safety-who-may-use-the-elliptical`). **Item 6 says household use** in both, on machines
+whose manuals also carry a Proposition 65 sticker page - unlike the CES880, these two are
+residential and the sentence raises no contradiction.
+
+**Item 13 is `User Weight Limit: 400 lbs.` in all three manuals**
+(`ces880-2025-safety-user-weight-limit-400-lbs`).
+
+**Only the XE395-2023 manual has an electrical page.** The XE795-2023 manual, like the CES880-2025
+manual, has none at all - no outlet requirement, no extension-cord gauge, no grounding instructions,
+no circuit-breaker paragraph, no supply-voltage rule and no temperature or humidity limit. It is
+generator-powered. The XE395-2023 does have that page and does plug in
+(`spirit-xe-safety-no-outlet-figure-printed`).
+
+**Both 2023 XE manuals add two pages the CES880 manual does not have** - a PRODUCT LABELS page
+(`spirit-xe-2023-safety-product-labels`) and a WARNINGS, COMPLIANCE AND NOTICES page
+(`xt-2023-safety-compliance-certifications`).

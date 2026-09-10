@@ -2,7 +2,7 @@
 id: ct900ent-operating-environment-voltage
 title: Operating environment - temperature, humidity, moisture, and voltage
 kind: spec
-question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, or a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, need?
+question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or a Spirit XE100, XE200, XE300, XE395-2010, XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine, need?
 asked_as:
 - can i use this treadmill outside
 - what temperature range is safe
@@ -41,6 +41,15 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900ent
+  - xe100-2007
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe395-2010
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   - xt685-2010
   section: safety
   code: '*'
@@ -56,6 +65,8 @@ see_also:
 - spirit-ce-safety-generator-produces-ac-power
 - spirit-ce850-safety-outlet-and-circuit-requirement
 - ces880-2025-safety-instructions-list
+- spirit-xe-2005-2007-safety-instructions-list
+- spirit-xe-2021-safety-instructions-list
 source:
   ref: ct900ent-om
   locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual prints the same two paragraphs on its Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS, page 4, and matches. The nine Spirit elliptical owner''s manuals that carry the paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed 3), CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6'
@@ -158,3 +169,44 @@ machine, and neither the CT800's 15 amp nor the CT850's 20 amp.
 temperature figure, no humidity figure and no rain or moisture sentence anywhere. Its safety list
 says only `Do not use outdoors` (`ces880-2025-safety-instructions-list`). That is an absence - do not
 fill it from this card.
+
+## Nine Spirit residential machines print the same figures, and five print neither paragraph
+
+**40 to 120 degrees Fahrenheit and 95% non-condensing**, unchanged, in the XE395-2010 manual, the
+XE195, XE295, XG400 and XE395ENT manuals and both XE795 2021 printings, all in this card's wording
+with `elliptical` or `elliptical trainer` in place of `treadmill`.
+
+**The XE100/XE200/XE300 manual states the same two figures in different words**, as one sentence on
+its electrical page rather than as part of the moisture paragraph:
+
+> Maximum environmental ratings are 40-120 degrees Fahrenheit, 95% humidity non-condensing (no water
+> droplets forming on surfaces).
+
+`Maximum environmental ratings are` rather than `The operating temperature specification is`, and
+`droplets` rather than `drops`. **Both figures are the same.**
+
+**The ten percent voltage paragraph is printed by seven of the nine.** The XE100/XE200/XE300 manual,
+the XE395-2010 manual and the XE195, XE295, XG400 and XE395ENT manuals all carry it
+(`xt-2023-safety-supply-voltage-variation` holds the same rule for the machines carded there). The
+XE195 manual writes `DC power` where the sentence before it should read AC
+(`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`); no figure changes.
+
+**Neither XE795 2021 printing prints a voltage rule at all.** Their electrical page carries the
+moisture and temperature paragraph and the generator warning, and nothing else - that machine has no
+mains supply to vary (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Five residential XE manuals print no temperature or humidity figure
+
+| Manual | What it prints |
+|---|---|
+| XE150/XE350/XE550 | the rain and moisture sentence only - **no temperature, no humidity** |
+| XE395-2023 | `40 degrees C` and 95%, non-condensing (`xt-2023-safety-operating-environment-limits`) |
+| XE795-2023 | **no electrical page at all** (`spirit-xe-safety-no-outlet-figure-printed`) |
+
+**There is no temperature or humidity figure for an XE150, XE350 or XE550.** Its manual's moisture
+bullet stops at `high humidity environment` where the XE100/XE200/XE300 manual, otherwise the same
+book, continues into the figures. That is an absence, not a licence to borrow the 2007 sentence.
+
+**The XE395-2023 manual prints one Celsius maximum instead**, the XT and CT900 form, which is a
+different statement from this 40-to-120 Fahrenheit range. Quoting 40 to 120 F for an XE395-2023, or
+40 degrees C for any of the nine above, would be wrong in both directions.

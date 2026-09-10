@@ -2,7 +2,7 @@
 id: xt485ent-2023-console-wifi-first-time-setup
 title: Connecting the touchscreen to WiFi, and what stops working without it
 kind: procedure
-question: How do I connect a Spirit xt485ent-2023 treadmill to WiFi, and what needs it?
+question: How do I connect a Spirit XT485ENT treadmill or XE395ENT elliptical to WiFi, and what needs it?
 asked_as:
 - how do i get my treadmill on wifi
 - where are the wifi settings on the screen
@@ -21,9 +21,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: xt485ent-2023
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xe395ent-2021
   - xt485ent-2023
   section: console
   code: '*'
@@ -37,7 +38,7 @@ see_also:
 - xt485ent-2023-console-internet-and-apps
 source:
   ref: spirit-treadmill-xt485ent-2023-owners-manual
-  locator: p. 22, TOUCH SCREEN OPERATION / Set Up
+  locator: XT485ENT p. 22, TOUCH SCREEN OPERATION / Set Up; XE395ENT 2021 p. 21, WIFI SETUP
   extracted_at: '2026-09-09'
 ---
 
@@ -54,6 +55,11 @@ the screen.**
 
 The same first-run screen asks you to **choose "Guest" user or create a profile**; a
 **maximum of 9 profiles** can be created. See `xt485ent-2023-console-profile-tabs`.
+
+**The XE395ENT-2021 elliptical prints this paragraph word for word** under the heading **WIFI
+SETUP**, including the same Guest / profile sentence and the same maximum of 9 profiles, so this card
+is no longer treadmill-only. Its file still sits in the XT485ENT folder; the folder is for human
+browsing and retrieval uses the facets.
 
 **This is not the CT900ENT network setup.** That commercial console reaches WiFi and
 Ethernet from a Maintenance suite behind ten presses of the Home icon, and offers a

@@ -29,6 +29,10 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - xe295-2021
+  - xe395ent-2021
+  - xe795-2021
+  - xg400-2021
   section: warranty
   code: '*'
 authority: 3
@@ -42,13 +46,23 @@ see_also:
 - spirit-ce-warranty-registration
 - spirit-ce-warranty-use-environment
 - xt-2023-warranty-owner-costs
+- spirit-xe-warranty-use-environment
+- spirit-xe-warranty-consumer-responsibilities-electrical-duty
+- spirit-xe-2023-warranty-consumer-responsibilities
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
   locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER, p. 34 (text.md lines 822-832).
     The same six items in the same order and the same lead sentence are printed in
     the other two manuals: ce850-2020 p. 41 (spirit-elliptical-ce850-2020-owners-manual
     text.md lines 1019-1034), ce850-2022 p. 42 (spirit-elliptical-ce850-2022-owners-manual
-    text.md lines 1025-1040)'
+    text.md lines 1025-1040)
+    The same six items and lead sentence are in four Spirit XE and XG residential owners manuals:
+    xe795-2021-february p. 38 (spirit-elliptical-xe795-2021-february-owners-manual text.md lines
+    930-941), xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual text.md lines
+    924-935), xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines
+    855-866), xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines
+    874-885), xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual
+    text.md lines 954-965)'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +86,20 @@ source:
 Item 4 makes getting the machine to a place where it can be worked on the owner's expense, not a warranty cost (`xt-2023-warranty-owner-costs`).
 
 This list is only half of what governs the warranty. The other half is the exclusions on the next page, `spirit-ce850-warranty-exclusions`.
+
+## Four Spirit XE and XG residential machines print the same six items
+
+The **XE295**, the **XE395ENT**, the **XG400** and the **XE795** - in both its February and its November 2021 printing - carry the same heading, the same lead sentence and the same six items, in the same order, with no grounded-power-supply duty.
+
+**The lead sentence is not identical on all of them, and it is the sentence that says what use is covered:**
+
+| Manual | Lead sentence |
+|---|---|
+| XE795 2021, both printings | ordinary household **or Light Commercial** use (see restrictions above), and the consumer/facility... |
+| XE295 2021, XG400 2021, XE395ENT 2021 | ordinary household use **(see restrictions above)**, and the consumer/facility... |
+
+**On the XE295, XG400 and XE395ENT the "see restrictions above" points at nothing.** Their tables print a Residential row and no commercial row at all, so there is no restriction above to see - and their exclusion 8 nevertheless permits a non-dues-paying facility of five hours a day that their table gives no periods for. None of the three reconciles it (`spirit-xe-warranty-use-environment`).
+
+**The XG400 substitutes one noun** - *E•Glide Trainer* for *elliptical trainer* in items 2, 3, 4 and 5 - because its manual never calls the machine an elliptical.
+
+**Three XE manuals are not on this card.** The **XE195** and the **XE395 2010** print **seven** items including the grounded-power-supply duty that puts blown fuses and house wiring on the owner (`spirit-xe-warranty-consumer-responsibilities-electrical-duty`); the **two 2023 manuals** print **five** and drop the registration item entirely (`spirit-xe-2023-warranty-consumer-responsibilities`).

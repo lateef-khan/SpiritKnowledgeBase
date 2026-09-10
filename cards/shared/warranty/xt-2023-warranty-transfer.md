@@ -46,6 +46,20 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - xe100-2007
+  - xe150-2005
+  - xe195-2021
+  - xe200-2007
+  - xe295-2021
+  - xe300-2007
+  - xe350-2005
+  - xe395-2010
+  - xe395-2023
+  - xe395ent-2021
+  - xe550-2005
+  - xe795-2021
+  - xe795-2023
+  - xg400-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -68,6 +82,9 @@ see_also:
 - xt-2023-warranty-exclusions
 - xt-2023-warranty-registration
 - spirit-ct800-warranty-exclusions
+- spirit-xe-2005-warranty-exclusions
+- spirit-xe-warranty-exclusions-residential-setting-only
+- spirit-xe-2023-warranty-exclusions
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: 'EXCLUSIONS items 4 and 5, p. 41. Identical in all five 2023 XT manuals: xt185 p. 41,
@@ -93,7 +110,20 @@ source:
     (spirit-elliptical-ce850-2022-owners-manual text.md lines 1055-1056), ce900-2021 p. 27
     (spirit-elliptical-ce900-2021-owners-manual text.md lines 655-656), ce900-2025 p. 37
     (spirit-elliptical-ce900-2025-owners-manual text.md lines 1127-1128), ces880-2025 p. 59
-    (spirit-elliptical-ces880-2025-owners-manual text.md lines 2010-2011)'
+    (spirit-elliptical-ces880-2025-owners-manual text.md lines 2010-2011)
+    Items 4 and 5 are printed in the same two slots in all eleven Spirit XE and XG residential
+    owners manuals: xe150-xe350-xe550 p. 34 (spirit-elliptical-xe150-xe350-xe550-owners-manual
+    text.md lines 1137-1138), xe100-xe200-xe300 p. 44
+    (spirit-elliptical-xe100-xe200-xe300-owners-manual text.md lines 1678-1679), xe395-2010 p. 29
+    (spirit-elliptical-xe395-2010-owners-manual text.md lines 1067-1068), xe795-2021-february p. 38
+    (spirit-elliptical-xe795-2021-february-owners-manual text.md lines 953, 955), xe395ent-2021 p. 48
+    (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 947, 949), xe195-2021 p. 33
+    (spirit-elliptical-xe195-2021-owners-manual text.md lines 761-762, numbered 3 and 4),
+    xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines 878, 880),
+    xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 897, 899),
+    xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
+    lines 977, 979), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
+    1486-1487), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines 1365-1366)'
   extracted_at: '2026-09-09'
 ---
 
@@ -112,3 +142,15 @@ Exclusion 4 sits next to it and is worth reading at the same time: **products wi
 **The CT900, CT900ENT and CTSBS900 print items 4 and 5 in the same two slots as well.** The CT900 and the CTSBS900 print item 5 word for word - "Products that have been: sold, transferred, bartered, or given to a third party." The CT900ENT drops the colon and the serial comma - "Products that have been sold, transferred, bartered or given to a third party" - and item 4 is unchanged in all three. Nothing about the rule moves: a sale, a transfer, a barter or a gift ends the cover on all three machines, and none of them names a reinstatement route or a transfer fee. Their lists are `ct900-warranty-exclusions`, `ctsbs900-warranty-exclusions` and `ct900ent-exclusions`.
 
 `xt-2023-warranty-exclusions` holds the full list of nine for the 2023 machines, `xt-2015-warranty-exclusions` for the 2015 ones, and `ct900-warranty-exclusions` for the 2026 4.0T, 7.0T and 8.0T. The three lists differ at items 6 and 8; items 4 and 5 quoted here are word for word the same in all of them.
+
+**All eleven Spirit XE and XG residential owner's manuals print items 4 and 5 in the same two slots as well** - the XE150/XE350/XE550 2005 book, the XE100/XE200/XE300 2007 book, the XE395 2010, the XE795 (both 2021 printings), the XE395ENT, the XE195, the XE295, the XG400 and the two 2023 manuals. A sale, a transfer, a barter or a gift ends the cover on all fourteen machines, and a removed or altered serial number is excluded on its own.
+
+**Two things move and neither changes the rule.** The **2005 and 2007 books print item 5 without the colon** - *Products that have been sold, transferred, bartered, or given to a third party* - where every Spirit manual from 2010 on prints *Products that have been: sold, ...*. And **the XE195 numbers them 3 and 4**, not 4 and 5, because its list leaves the opening consequential-damages item unnumbered; the words are unchanged.
+
+None of the eleven names a reinstatement route, a transfer fee or a procedure for a second owner. Their lists are `spirit-xe-2005-warranty-exclusions`, `spirit-xe-warranty-exclusions-residential-setting-only`, `spirit-ce850-warranty-exclusions` and `spirit-xe-2023-warranty-exclusions`.
+
+**All eleven Spirit XE and XG residential owner's manuals print items 4 and 5 in the same two slots as well** - the XE150/XE350/XE550 2005 book, the XE100/XE200/XE300 2007 book, the XE395 2010, the XE795 in both 2021 printings and in 2023, the XE395ENT, the XE195, the XE295, the XG400 and the XE395 2023. A sale, a transfer, a barter or a gift ends the cover on all fourteen machines, and a removed or altered serial number is excluded on its own.
+
+**Two things move and neither changes the rule.** The **2005 and 2007 books print item 5 without the colon** - *Products that have been sold, transferred, bartered, or given to a third party* - where every Spirit manual from 2010 on prints *Products that have been: sold, ...*. And **the XE195 numbers them 3 and 4**, not 4 and 5, because its list leaves the opening consequential-damages item unnumbered; the words are unchanged.
+
+None of the eleven names a reinstatement route, a transfer fee or a procedure for a second owner. Their lists are `spirit-xe-2005-warranty-exclusions`, `spirit-xe-warranty-exclusions-residential-setting-only`, `spirit-ce850-warranty-exclusions` and `spirit-xe-2023-warranty-exclusions`.

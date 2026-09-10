@@ -2,7 +2,7 @@
 id: xt-2023-safety-operating-environment-limits
 title: Temperature, humidity and moisture limits
 kind: spec
-question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685) be used outdoors, in a garage, or near a pool?
+question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or a Spirit XE395-2023 elliptical, be used outdoors, in a garage, or near a pool?
 asked_as:
 - can i keep my treadmill in the garage
 - is it ok to use a treadmill outside
@@ -22,9 +22,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xe395-2023
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -47,6 +48,8 @@ see_also:
 - xt-2023-safety-placement-and-clearance
 - xt-2015-safety-placement-requirements
 - xt-2015-safety-instructions-list
+- ct900ent-operating-environment-voltage
+- spirit-xe-safety-no-outlet-figure-printed
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6)
@@ -92,3 +95,19 @@ Electrical Instructions page gives the CT800 family's range - `40 to 120 degrees
 the same 95% non-condensing humidity - rather than the single `40 degrees C` above
 (`ct900ent-operating-environment-voltage`). Quoting 40 degrees C for an XT685-2010, or the
 40-to-120 Fahrenheit range for an XT685-2015 or XT685-2023, would be wrong in both directions.
+
+## The Spirit XE395-2023 elliptical prints the same paragraph
+
+**Word for word, with `unit`**, on its ELECTRICAL SAFETY page: `The temperature specification is 40
+degrees C, and humidity is 95%, non-condensing (no water drops forming on surfaces)`. One Celsius
+maximum, no minimum, no Fahrenheit conversion and no storage range.
+
+**Its own predecessors print a Fahrenheit range instead.** The XE395-2010 manual and the six other
+2021 residential XE manuals print `40 to 120 degrees Fahrenheit`
+(`ct900ent-operating-environment-voltage`), which is a different statement. Quote the figure from the
+machine's own manual in both directions.
+
+**The XE795-2023 manual, the matching 2023 book for the sibling machine, has no electrical page and
+prints no environment limits at all** - no temperature, no humidity and no rain or moisture sentence
+anywhere (`spirit-xe-safety-no-outlet-figure-printed`). That is an absence; do not fill it from this
+card.

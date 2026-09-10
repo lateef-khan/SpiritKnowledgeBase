@@ -2,7 +2,7 @@
 id: xt-2023-safety-compliance-certifications
 title: The standards the machine is certified to, and the Part 15 declaration
 kind: policy
-question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, or a Spirit CE900-2025 elliptical, certified to?
+question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, a Spirit CE900-2025 elliptical, or a Spirit XE395-2023 or XE795-2023 elliptical, certified to?
 asked_as:
 - is this treadmill fcc approved
 - does the treadmill have bluetooth
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - xe395-2023
+  - xe795-2023
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -41,6 +43,7 @@ see_also:
 - ct900-warnings-compliance-fcc
 - ctsbs900-warnings-compliance-fcc
 - ce900-2025-safety-product-labels
+- spirit-xe-2023-safety-product-labels
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
   locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5 The Spirit CE900 2025 elliptical owner's manual prints the same page as WARNINGS, COMPLIANCE AND NOTICES, page 4
@@ -113,3 +116,9 @@ itself.
 **It is the only Spirit elliptical manual with a compliance page.** The other nine print no
 certification list, no Part 15 declaration and no FCC mark anywhere, including on the pages that had
 to be recovered by OCR (`xt-2015-safety-no-compliance-page`).
+
+## Both 2023 Spirit residential ellipticals print this page word for word
+
+**The XE395-2023 and XE795-2023 owner's manuals** carry it as WARNINGS, COMPLIANCE AND NOTICES on
+their page 4: certified to **FCC part 15**, **UL** and **Bluetooth (with FTMS)**, followed by the
+same two-condition Part 15 declaration. Nothing in the list or the declaration changes.
