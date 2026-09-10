@@ -36,6 +36,8 @@ authority: 3
 not_to_be_confused_with:
 - spirit-bike-assembly-pedal-tighten-as-much-as-possible
 - spirit-bike-ent-assembly-pedal-no-thread-warning
+- ab950-2024-assembly-pedal-torque-33-to-37-lb-ft
+- spirit-cycle-assembly-pedal-reverse-thread-no-torque-figure
 see_also:
 - spirit-cr900-assembly-procedure
 - spirit-cu900-assembly-procedure

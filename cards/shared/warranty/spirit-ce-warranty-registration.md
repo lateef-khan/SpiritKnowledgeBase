@@ -3,9 +3,10 @@ id: spirit-ce-warranty-registration
 title: Registering the machine, from a ten-day card deadline to a QR code, and what
   happens if nobody does
 kind: policy
-question: Do I have to register a Spirit CE800, CE850, CE900 or CES880 elliptical trainer,
-  or a Spirit CR900, CU900, CR900ENT, CU900ENT or CU800ENT bike, for the warranty, and
-  how?
+question: >-
+  Do I have to register a Spirit CE800, CE850, CE900 or CES880 elliptical trainer, or a
+  Spirit CR900, CU900, CR900ENT, CU900ENT, CU800ENT, CB900, XIC600, CIC800, CIC850, AB900,
+  AB950 or JB950 bike, for the warranty, and how?
 asked_as:
 - do i have to register my elliptical
 - how do i register my spirit warranty
@@ -27,6 +28,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ab900-2018
+  - ab950-2024
+  - cb900-2013
   - ce800-2013
   - ce850-2016
   - ce850-2020
@@ -34,6 +38,8 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cic800-2021
+  - cic850-2022
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
@@ -41,6 +47,9 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - jb950-2022
+  - xic600-2018
+  - xic600-2021
   section: warranty
   code: '*'
 authority: 3
@@ -58,16 +67,28 @@ see_also:
 - xt-2023-warranty-start-date
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
-  locator: 'Register Your Purchase, p. 7 (text.md lines 134-137); NORMAL RESPONSIBILITIES
-    OF THE CONSUMER item 1, p. 34 (lines 825-826); EXCLUSIONS item 6, p. 35 (lines
-    848-849). The same three passages in the other six manuals: ce800-2013 pp. 2 and
-    27 (spirit-elliptical-ce800-2013-owners-manual text.md lines 58-62, 1081-1082,
-    1113-1114); ce850-2020 pp. 5, 41, 43 (spirit-elliptical-ce850-2020-owners-manual
-    text.md lines 54-56, 1021-1022, 1051-1052); ce850-2022 pp. 5, 42, 44 (spirit-elliptical-ce850-2022-owners-manual
-    text.md lines 54-56, 1027-1028, 1057-1058); ce900-2021 pp. 5, 26, 27 (spirit-elliptical-ce900-2021-owners-manual
-    text.md lines 110-112, 627-628, 657-658); ce900-2025 pp. 2 and 36 (spirit-elliptical-ce900-2025-owners-manual
-    text.md lines 53-85, 1102, 1129); ces880-2025 pp. 2 and 58 (spirit-elliptical-ces880-2025-owners-manual
-    text.md lines 72-104, 1985-1986, 2012)'
+  locator: >-
+    Register Your Purchase, p. 7 (text.md lines 134-137); NORMAL RESPONSIBILITIES OF THE
+    CONSUMER item 1, p. 34 (lines 825-826); EXCLUSIONS item 6, p. 35 (lines 848-849). The same
+    three passages in the other six manuals: ce800-2013 pp. 2 and 27
+    (spirit-elliptical-ce800-2013-owners-manual text.md lines 58-62, 1081-1082, 1113-1114);
+    ce850-2020 pp. 5, 41, 43 (spirit-elliptical-ce850-2020-owners-manual text.md lines 54-56,
+    1021-1022, 1051-1052); ce850-2022 pp. 5, 42, 44 (spirit-elliptical-ce850-2022-owners-manual
+    text.md lines 54-56, 1027-1028, 1057-1058); ce900-2021 pp. 5, 26, 27
+    (spirit-elliptical-ce900-2021-owners-manual text.md lines 110-112, 627-628, 657-658);
+    ce900-2025 pp. 2 and 36 (spirit-elliptical-ce900-2025-owners-manual text.md lines 53-85,
+    1102, 1129); ces880-2025 pp. 2 and 58 (spirit-elliptical-ces880-2025-owners-manual text.md
+    lines 72-104, 1985-1986, 2012) Eight Spirit indoor cycle and air bike manuals.
+    Register-your-purchase page, then responsibilities item 1, then exclusion 6:
+    spirit-bike-cb900-2013-owners-manual pp. 1 and 13 (text.md lines 60-63, 413, 436);
+    spirit-bike-xic600-2018-owners-manual pp. 7 and 26-27 (lines 124-127, 873, 896);
+    spirit-bike-ab900-2018-owners-manual pp. 17 and 46 (lines 595-598, list at 1269-1276 with
+    no registration item, exclusion 6 line 1300); spirit-bike-cic800-2021-owners-manual pp. 6
+    and 20-21 (lines 99-105, 442, 470); spirit-bike-xic600-2021-owners-manual pp. 7 and 26-27
+    (lines 129-132, 892, 914); spirit-bike-cic850-2022-owners-manual pp. 5 and 36-37 (lines
+    55-57, 792, 821); spirit-bike-jb950-2022-owners-manual pp. 17 and 71-72 (lines 466-473,
+    list at 1790-1796 with no registration item, exclusion 6 line 1819);
+    spirit-bike-ab950-2024-owners-manual pp. 2 and 33-34 (lines 57-83, 1070, 1102)
   extracted_at: '2026-09-09'
 ---
 
@@ -130,3 +151,46 @@ Keeping the bill of sale matters either way: it is what the periods are dated fr
 **The three 2024-terms bikes print the QR code** on their PRODUCT REGISTRATION page beside the Serial Number, Date of Purchase and Dealer boxes, and all three put the serial sticker on the **front stabilizer**. No other bike manual prints a QR code.
 
 The six CR800, CU800, CU800ENT 2022 and CR800ENT bikes state the rule in the CT800 wording and are carded with the treadmills at `spirit-ct800-warranty-registration`.
+
+## Eight Spirit indoor cycles and air bikes, and three of them do not require registration at all
+
+| Manual | Responsibilities item 1 says | Deadline |
+|---|---|---|
+| CB900 2013 | card completed and returned to the address on the card | **10 days** |
+| XIC600 2018, XIC600 2021 | card completed and returned to the address on the card | **10 days** |
+| CIC800 2021, CIC850 2022 | card within 10 days, **or completed online** | **10 days** |
+| AB950 2024 | card within 10 days, or completed online (as item **2**) | **10 days** |
+| **AB900 2018** | **no registration item anywhere in the list** | **none stated** |
+| **JB950 2022** | **no registration item anywhere in the list** | **none stated** |
+
+**The AB900 and the JB950 are the only Spirit bike manuals here whose duty list never mentions registration.** Both still print a REGISTER YOUR PURCHASE page; neither ties the warranty to it.
+
+**The two XIC600 printings offer no online route in item 1** - only the card, returned to the address printed on it - even though both print a Register Your Purchase page that does offer online registration. Neither reconciles the two halves. Say both to a customer.
+
+## Where to register
+
+| Manual | Page the manual sends you to |
+|---|---|
+| CB900 2013 | www.spiritfitness.com/**warranty.asp** under the support tab |
+| XIC600 2018 | https://www.spiritfitness.com under the Support tab - **no path at all** |
+| AB900 2018 | https://www.spiritfitness.com/**commercialwarrantyregistration.html** |
+| CIC800 2021, XIC600 2021 | www.spiritfitness.com/warranty |
+| CIC850 2022 | http://www.spiritfitness.com/warranty |
+| **JB950 2022** | **no web address** - mail the card to PO Box 2037, Jonesboro, AR 72402, **or call 800-258-8511** |
+| AB950 2024 | a **QR code** to scan, or spiritfitness.com/warranty |
+
+**The JB950 is the only Spirit manual in this knowledge base that offers a telephone registration**, and the only one that offers no online route at all. The **CB900 is the only one that sends the owner to `warranty.asp`**, a page name no other manual uses. The **XIC600 2018 gives the bare domain** with no path, so an owner following it lands on the home page and must find the Support tab themselves.
+
+**The AB950 prints the QR code** on its PRODUCT REGISTRATION page beside the Serial Number, Date of Purchase and Dealer boxes, as the CE900 2025, CES880 and the three 2024-terms bikes do. It is the only one of these eight with a QR code.
+
+**Where the serial number lives moves too**: under the rear cover on the CB900, on the **rear stabilizer** on the AB950, on the **center floor tube behind the crank** on the JB950. The CIC and XIC600 manuals print a Serial Number Location picture rather than naming the place in words.
+
+## What happens if nobody registers
+
+**Five of the eight exclude the product outright.** Exclusion 6 in the CB900, both XIC600 printings, the CIC800 and the CIC850:
+
+> Products that do not have a warranty registration card on file at Spirit Fitness. Spirit Fitness reserves the right to request proof of purchase if no warranty record exists for the product.
+
+The two sentences do not say the same thing, and none of the five reconciles them. Say both.
+
+**The AB900, the JB950 and the AB950 dropped the first sentence.** Their item 6 keeps only the proof-of-purchase half, so an unregistered machine is **not** excluded by their lists. **The AB950 is the sharp case**: its list does not exclude an unregistered bike, while its responsibilities item 2 still demands the card within ten days. The manual never says what happens if the owner misses the deadline. Do not tell an AB950 owner they have lost cover - the exclusion list their claim would be refused under does not say so.

@@ -2,8 +2,9 @@
 id: spirit-2026t-warranty-owner-costs
 title: What the owner pays for a warranty repair - freight and shipping, no trip charge
 kind: policy
-question: Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill,
-  of a Spirit CE900 or CES880 elliptical, or of a Spirit CR900, CU900 or CU800ENT bike,
+question: >-
+  Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill, of a
+  Spirit CE900 or CES880 elliptical, or of a Spirit CR900, CU900, CU800ENT or AB950 bike,
   bought under the 2024 terms, pay anything for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
@@ -28,6 +29,7 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ab950-2024
   - ce900-2025
   - ces880-2025
   - cr900-2025
@@ -47,18 +49,22 @@ see_also:
 - spirit-2026t-warranty-commercial-periods
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'SERVICE step 4 (4.0T p. 53, 7.0T p. 52, 8.0T p. 70); RESPONSIBILITIES OF THE
-    FACILITY items 5 and 6 (4.0T p. 51, 7.0T p. 50, 8.0T p. 68); EXCLUSIONS item 2 (4.0T p. 52,
-    7.0T p. 51, 8.0T p. 69). All three halves are identical in the three 2026 manuals. The CT900
-    and the CTSBS900 print all three halves too: SERVICE step 4 and step 5
+  locator: >-
+    SERVICE step 4 (4.0T p. 53, 7.0T p. 52, 8.0T p. 70); RESPONSIBILITIES OF THE FACILITY items
+    5 and 6 (4.0T p. 51, 7.0T p. 50, 8.0T p. 68); EXCLUSIONS item 2 (4.0T p. 52, 7.0T p. 51,
+    8.0T p. 69). All three halves are identical in the three 2026 manuals. The CT900 and the
+    CTSBS900 print all three halves too: SERVICE step 4 and step 5
     (spirit-treadmill-ct900-owners-manual text.md lines 1543-1549, p. 54;
     spirit-treadmill-ctsbs900-owners-manual lines 1743-1749, p. 56), RESPONSIBILITIES OF THE
     FACILITY item 6 (ct900 line 1495, p. 52; ctsbs900 line 1695, p. 54) and EXCLUSIONS item 2
     (ct900 line 1509, p. 53; ctsbs900 line 1709, p. 55). The same four charges are printed in
-    two Spirit elliptical owner''s manuals: ce900-2025 pp. 37-38
+    two Spirit elliptical owner's manuals: ce900-2025 pp. 37-38
     (spirit-elliptical-ce900-2025-owners-manual text.md lines 1121-1124 and 1152-1161) and
     ces880-2025 pp. 59-60 (spirit-elliptical-ces880-2025-owners-manual text.md lines 2004-2007
-    and 2035-2044)'
+    and 2035-2044) spirit-bike-ab950-2024-owners-manual SERVICE steps 4 and 5, printed p. 36
+    (text.md lines 1127-1136); RESPONSIBILITIES OF THE FACILITY, printed p. 33 (lines
+    1068-1078, accessibility at line 1076, grounded supply at line 1074); exclusion 2, printed
+    p. 34 (line 1093)
   extracted_at: '2026-09-09'
 ---
 
@@ -92,3 +98,13 @@ Blown fuses, loose connections and defects in house or facility wiring are the f
 All three carry the freight-to-and-from and the shipping-and-handling sentences and **stop there** - no trip charge and no mileage clause, exactly as the CE900 2025 and CES880 do. Step 5 puts adequate packaging and the freight-damage claim on the owner in the same words.
 
 **Their siblings differ in both directions.** The CR800, CU800 and the two 800ENT bikes add a trip charge and a 100-mile surcharge (`xt-2023-warranty-owner-costs`); the CR900 2018, CU900 2018, CR900ENT and CU900ENT state no owner cost at all.
+
+## The AB950 2024 air bike prints the same step 4
+
+Its SERVICE step 4 carries the freight-to-and-from and the shipping-and-handling sentences and **stops there** - no trip charge and no mileage clause - exactly as the CE900 2025, the CES880 and the three 2024-terms bikes do. Step 5 puts adequate packaging and the freight-damage claim on the owner in the same words, and exclusion 2 refuses service call reimbursement to the consumer.
+
+**Its accessibility duty is item 6** of a RESPONSIBILITIES OF THE FACILITY list whose numbering is shifted by one: item 1 is the sentence *The facility is responsible for the items listed below*, so the list of duties actually starts at item 2. The same off-by-one the CES880 shows.
+
+**The AB950 is the only one of the eight Spirit indoor cycles and air bikes that stops at shipping and handling.** The AB900 2018 - the same machine family six years earlier - and the other six all charge a trip charge and a 100-mile surcharge (`xt-2023-warranty-owner-costs`). Read the machine's own step 4 rather than the range's.
+
+The AB950 also states an owner duty the earlier books put only on the AB900: **proper connection to a grounded power supply, replacement of blown fuses, and repair of loose connections or defects in house or facility wiring**, as item 5 of the same list.

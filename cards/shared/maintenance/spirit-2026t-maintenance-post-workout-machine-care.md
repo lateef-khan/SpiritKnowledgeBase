@@ -26,6 +26,7 @@ facets:
   applies_to:
   - 40t-2026
   - 70t-2026
+  - ab950-2024
   - ce900-2025
   - ces880-2025
   - cr900-2025
@@ -47,9 +48,10 @@ see_also:
 - ces880-2025-maintenance-machine-care-schedule
 - spirit-bike-maintenance-machine-care-schedule
 - cu900ent-general-maintenance
+- spirit-air-bike-maintenance-daily-dry-off-and-six-sweat-points
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED'
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED. spirit-bike-ab950-2024-owners-manual prints the same four steps word for word under MAINTENANCE & CARE at printed p. 27 (PDF p. 29), checked against a 300 dpi render of that page (329 native / 320 rendered); it is the only one of the eight Spirit indoor cycle, air bike and Johnny G manuals that carries them'
   extracted_at: '2026-09-09'
 ---
 
@@ -97,3 +99,8 @@ sweat-path wipe-down and the squeak/thump list that every earlier residential XE
 those two books state **no noise check, no rail cleaning, no lubricant and no leveler count** -
 `ce800-2013-maintenance-rear-rail-cleaning-and-lubrication`,
 `spirit-xe-maintenance-squeak-thump-or-clicking`. Do not read a 2021 XE figure onto a 2023 machine.
+
+**The AB950 2024 is the only bike of its family to print this.** The AB900 2018 and the JB950 2022
+give the daily dry-off and wipe-down instead
+(`spirit-air-bike-maintenance-daily-dry-off-and-six-sweat-points`), and the CB900, CIC800, CIC850
+and XIC600 give only a one-line sweat-path wipe (`cu900ent-general-maintenance`).

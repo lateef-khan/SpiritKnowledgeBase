@@ -2,7 +2,7 @@
 id: xt-2015-safety-proposition-65-warning
 title: The California Proposition 65 warning, and the two chemicals it names
 kind: fact
-question: What is the California Proposition 65 warning for a Spirit XT-2015 or XT485ENT treadmill, for a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, for a Spirit XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine, or for a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
+question: What is the California Proposition 65 warning for a Spirit XT-2015 or XT485ENT treadmill, for a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, for a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, for a Spirit XE195, XE295, XE395ENT, XE795-2021 or XG400 residential machine, for a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike, or for a Spirit XIC600 or CIC800 or CIC850 indoor cycle, AB900 air bike or JB950 Johnny G Spirit Bike?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - california cancer warning on the machine
@@ -16,21 +16,24 @@ keywords:
 - acrylamide
 - cancer
 - birth defects
-- reproductive harm
 - p65warnings
-- chemical warning
+- indoor cycle
+- air bike
 facets:
   brand:
   - spirit
   product_line: '*'
   model: '*'
   applies_to:
+  - ab900-2018
   - ce800-2021
   - ce800-2023
   - ce800ent
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -47,11 +50,14 @@ facets:
   - cu800ent-2022
   - cu900-2018
   - cu900ent
+  - jb950-2022
   - xe195-2021
   - xe295-2021
   - xe395ent-2021
   - xe795-2021
   - xg400-2021
+  - xic600-2018
+  - xic600-2021
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -66,6 +72,9 @@ not_to_be_confused_with:
 - ct900ent-prop65-warning
 see_also:
 - sole-bike-prop-65-warning
+- spirit-air-bike-safety-warning-labels-and-stickers
+- ab950-2024-safety-product-labels
+- cb900-2013-safety-instructions-list
 - xt-2015-safety-instructions-list
 - xt-2015-safety-product-labels-and-serial-number
 - ce900-2025-safety-product-labels
@@ -90,7 +99,10 @@ source:
     manuals print the same box on their operation instructions page - CR900-2018 and
     CU900-2018 printed page 4, CR900ENT-2021 and CU900ENT-2021 printed page 4, CR800-2021,
     CR800-2023 and CU800-2021 printed page 5, and CU800ENT-2022 and CR800ENT-2023 printed
-    page 6
+    page 6 Six indoor cycle, air bike and Johnny G manuals print the same box - CIC800-2021
+    printed page 6, CIC850-2022 printed page 7, XIC600-2018 and XIC600-2021 printed page 6
+    beside the numbered operation instructions, and AB900-2018 printed page 16 and JB950-2022
+    printed page 16 beside RECORD YOUR SERIAL NUMBER
   extracted_at: '2026-09-09'
 ---
 
@@ -223,3 +235,22 @@ this unit was manufactured using chemicals that could cause harm with improper u
 LABELS page describing a sticker on the front stabilizer. **No chemical is named and no web address
 is given** (`spirit-bike-2024-2025-safety-product-labels`). Toluene and Acrylamide belong to the nine
 manuals above and to no bike newer than 2023.
+
+## Six more machines print the same box
+
+**CIC800-2021, CIC850-2022, XIC600-2018, XIC600-2021, AB900-2018 and JB950-2022 print this warning
+word for word**, so the answer for an indoor cycle, an air bike or a Johnny G Spirit Bike is the
+same as for a treadmill. Two details differ and neither changes the warning:
+
+- **The CIC, AB900 and JB950 manuals capitalise `Cancer`** and write `For more information, go to`
+  with a comma; the XIC600 manuals match the treadmill text exactly.
+- **The AB900 and JB950 print it twice.** Once as this box, on the RECORD YOUR SERIAL NUMBER page,
+  and once as a `CALIFORNIA PROP 65 WARNING DECAL (For US model only)` on their warning labels page.
+  The decal is the short form - `WARNING: Cancer and Reproductive Harm - www.P65Warnings.ca.gov` -
+  and names no chemical (`spirit-air-bike-safety-warning-labels-and-stickers`).
+
+**Two machines in that family print no Toluene and Acrylamide text at all.** The AB950-2024 carries
+only the short-form sticker described on its PRODUCT LABELS page
+(`ab950-2024-safety-product-labels`), and the **CB900-2013 manual has no Proposition 65 warning of
+any kind** - the words *California*, *Toluene* and *Acrylamide* do not appear in the book
+(`cb900-2013-safety-instructions-list`).

@@ -4,8 +4,8 @@ title: Two levelling pads under the rear stabiliser, turned with a 14mm wrench
 kind: procedure
 question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 or
   CTSBS900 treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, or a Spirit CR800,
-  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, that rocks or
-  squeaks?
+  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or a Spirit CIC800,
+  CIC850 or XIC600 indoor cycle, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -32,6 +32,8 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -48,6 +50,8 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xic600-2018
+  - xic600-2021
   section: assembly
   code: '*'
 authority: 3
@@ -58,6 +62,11 @@ not_to_be_confused_with:
 - spirit-ce900-assembly-levelling-pads
 - ces880-2025-assembly-levelling-note
 see_also:
+- spirit-cycle-assembly-levelling-by-turning-the-feet
+- spirit-xic600-assembly-no-levelling-or-moving-section
+- spirit-xic600-assembly-tools-included
+- cic800-2021-assembly-tools-included
+- cic850-2022-assembly-tools-included
 - cu800-2021-assembly-parts-diagram-labels
 - spirit-cr900-assembly-tools-included
 - spirit-cu900-assembly-tools-included
@@ -88,7 +97,11 @@ source:
     the CR900ENT, CR800 2021 and CR800 2023 manuals, p. 34 of the CU800 2021 manual,
     p. 32 of the CU900ENT and CU900 2025 manuals, p. 40 of the CU800ENT 2022 and
     CR800ENT manuals, p. 33 of the CR900 2025 manual and p. 49 of the CU800ENT 2024
-    manual
+    manual; and on four Spirit indoor cycles, in the same item - p. 25 of both
+    XIC600 manuals (`spirit-bike-xic600-2018-owners-manual`,
+    `spirit-bike-xic600-2021-owners-manual`), p. 18 of the CIC800 manual
+    (`spirit-bike-cic800-2021-owners-manual`) and in the CIC850 manual
+    (`spirit-bike-cic850-2022-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -165,6 +178,26 @@ care schedule, without saying how often or what "inspect" means beyond this sent
 **LEVELERS** callout on p. 6 - the only bike diagram in the family that points at them,
 and it gives no count and no wrench size. See
 [that card](../../cu800-2021/assembly/cu800-2021-assembly-parts-diagram-labels.md).
+
+## Four Spirit indoor cycles print the same sentence, in the same place
+
+The **CIC800**, **CIC850** and both **XIC600** printings all carry it word for word, as
+the last remedy in the same noise item. **Two levelling pads under the rear stabiliser,
+14mm wrench**, on all four.
+
+**On the two XIC600 printings this is the only levelling instruction in the book.**
+Those manuals have no INDOOR CYCLE SETUP page and no levelling step in the assembly
+chapter - the word LEVELERS appears there only as a callout on the parts drawing. See
+[that card](../../shared/assembly/spirit-xic600-assembly-no-levelling-or-moving-section.md).
+The CIC800 and CIC850 do print a setup instruction as well, which gives the method
+without a tool or a count; see
+[that card](../../shared/assembly/spirit-cycle-assembly-levelling-by-turning-the-feet.md).
+
+**The XIC600 is the one carton on this card that holds a wrench that fits.** Both
+printings ship a **14/15mm Wrench (#85)**. The CIC800 and CIC850 cartons hold a
+**13/17mm** combination wrench, which does not open to 14, so those two need a wrench
+you supply.
+
 
 **The CU800 2012 manual gives a different answer** - four pads, under the rear rails.
 See [that card](../../ce800-2013/assembly/ce800-2013-assembly-levelling-pads.md).

@@ -2,7 +2,7 @@
 id: spirit-bike-programs-rate-of-perceived-exertion
 title: The Borg scale rates effort from 6 to 20, and adding a zero gives an approximate heart rate
 kind: fact
-question: What is the rate of perceived exertion scale in a Spirit commercial bike manual?
+question: What is the rate of perceived exertion scale in a Spirit commercial bike or air bike manual?
 asked_as:
 - what is the borg scale on the bike
 - how do i judge how hard im working on the exercise bike
@@ -21,6 +21,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - ab950-2024
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -40,7 +41,7 @@ see_also:
 - ct900-rate-of-perceived-exertion-rpe
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29'
+  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29; AB950 2024 p. 23'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,5 +66,9 @@ The manuals introduce the scale by saying heart rate is not the only variable: s
 physical health, emotional health, temperature, humidity, the time of day, and when and what you
 last ate all contribute to the intensity at which you should work out.
 
+**The AB950 2024 air bike prints the same page**, headed HEART RATE - PERCEIVED EXERTION, with the
+same 6-to-20 table and the same add-a-zero rule.
+
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no RPE page.** Searching all four whole
-manuals for "Borg" and for "perceived" returns nothing.
+manuals for "Borg" and for "perceived" returns nothing. **Nor does the AB900 2018 air bike** - see
+`spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.

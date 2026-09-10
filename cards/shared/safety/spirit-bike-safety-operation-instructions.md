@@ -4,7 +4,7 @@ title: The bike operation instructions about resistance delay, distractions and 
   key pressure
 kind: policy
 question: What operation instructions does the owner's manual print on the safety pages
-  of a Spirit commercial upright or recumbent bike?
+  of a Spirit commercial upright or recumbent bike, or of a Spirit XIC600 indoor cycle?
 asked_as:
 - why does the resistance take a while to change on the bike
 - can i read or watch tv while riding the bike
@@ -40,6 +40,8 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xic600-2018
+  - xic600-2021
   section: safety
   code: '*'
 authority: 3
@@ -53,6 +55,8 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 - spirit-bike-2025-safety-instructions-list
 - xt-2015-safety-proposition-65-warning
+- spirit-xic600-safety-instructions-list
+- spirit-indoor-cycle-safety-fixed-gear-dismount
 source:
   ref: spirit-bike-cr900-2018-owners-manual
   locator: IMPORTANT OPERATION INSTRUCTIONS, printed page 4. The CU900-2018, CR900ENT-2021
@@ -104,3 +108,28 @@ beside these rules rather than in the safety list - `xt-2015-safety-proposition-
 **The treadmill cards state the same rules with different figures and a different verb** and must
 not be used to answer for a bike: `xt-2023-safety-speed-and-incline-response-delay`,
 `xt-2023-safety-distractions-while-walking` and `xt-2023-safety-console-key-pressure`.
+
+## The XIC600 indoor cycle prints three of the four
+
+**Both XIC600 manuals print rules one, three and four, in the same order and the same words**, with
+`Indoor Cycle` for `fitness bike`:
+
+> - NEVER operate this Indoor Cycle without reading and completely understanding the owner's
+>   manual.
+> - Use caution while participating in other activities while pedaling on your Indoor Cycle; such
+>   as watching television, reading, etc. These distractions may cause you to lose balance which may
+>   result in serious injury.
+> - Do not use excessive pressure on console control keys. They are precision set to function
+>   properly with little finger pressure.
+
+- **Rule one is shortened.** The commercial manuals require understanding `the results of any
+  operational change you request from the computer console`; the XIC600 requires only understanding
+  the owner's manual.
+- **The resistance-delay rule is absent, and correctly so.** An XIC600's resistance is a mechanical
+  brake knob the rider turns, not a level the console ramps to, so there is nothing to lag. Do not
+  tell an XIC600 owner that a delay is normal.
+
+**The CB900, CIC800 and CIC850 manuals print none of these four rules.** Their IMPORTANT OPERATION
+INSTRUCTIONS page carries the rain, temperature and humidity paragraph and nothing else -
+`spirit-indoor-cycle-safety-operating-temperature-and-humidity`. Neither air bike and not the JB950
+prints an operation instructions page at all.

@@ -2,8 +2,9 @@
 id: xt-2023-warranty-service-steps
 title: The order of steps for getting warranty service
 kind: procedure
-question: How do I get warranty service on a Spirit XT, CT800 or CT850 treadmill,
-  on a Spirit elliptical trainer, or on a Spirit upright or recumbent bike?
+question: >-
+  How do I get warranty service on a Spirit XT, CT800 or CT850 treadmill, on a Spirit
+  elliptical trainer, or on a Spirit bike - upright, recumbent, indoor cycle or air bike?
 asked_as:
 - how do i get my treadmill fixed under warranty
 - who do i call for a warranty repair
@@ -23,6 +24,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ab900-2018
+  - ab950-2024
+  - cb900-2013
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -33,6 +37,8 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -54,6 +60,7 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - jb950-2022
   - xe195-2021
   - xe295-2021
   - xe395-2010
@@ -62,6 +69,8 @@ facets:
   - xe795-2021
   - xe795-2023
   - xg400-2021
+  - xic600-2018
+  - xic600-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -90,45 +99,18 @@ see_also:
 - spirit-xe-2005-warranty-service-and-transport-costs
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 'WARRANTY - CONTINUED, Responsibilities of the Owner / SERVICE, p. 42. The same five
-    steps are in all five 2023 XT manuals: xt185 p. 42, xt285 p. 50, xt385 p. 55, xt485 p. 55,
-    xt685 p. 54. They are word for word the same in the five 2015 XT manuals, which number the
-    mailing address as a sixth step: xt185 text.md lines 795-810, xt285 lines 1008-1023, xt385
-    lines 1061-1076, xt485 lines 1197-1212, xt685 lines 1186-1201. XT685 2010 p. 37
-    (spirit-treadmill-xt685-2010-owners-manual text.md lines 1576-1607), which numbers the
-    mailing address as a sixth step. XT485ENT p. 56 (text.md lines 1130-1146), which numbers the
-    mailing address as a sixth step. XT685ENT p. 55 (text.md lines 1638-1657), which leaves it
-    unnumbered. CT800 2012 p. 25 (text.md lines 1138-1153), CT800 2016 p. 43 (lines 1120-1137),
-    CT800 2020 p. 47 (lines 1214-1231), CT800ENT 2022 p. 55 (lines 1262-1279), all four
-    numbering the mailing address as a step 6. CT850 2016 p. 47
-    (spirit-treadmill-ct850-2016-owners-manual text.md lines 1207-1228), CT850 2018 p. 47 (lines
-    1200-1221), CT850 2020 p. 47 (lines 1206-1227), CT850ENT 2022 p. 55 (lines 1264-1285), all
-    four numbering the mailing address as a step 6 as well. The same steps are printed in all
-    ten Spirit elliptical owner''s manuals, beginning at ce800-2013 p. 27
-    (spirit-elliptical-ce800-2013-owners-manual text.md line 1133), ce800-2021 p. 38
-    (spirit-elliptical-ce800-2021-owners-manual text.md line 991), ce800-2023 p. 39
-    (spirit-elliptical-ce800-2023-owners-manual text.md line 1013), ce800ent p. 42
-    (spirit-elliptical-ce800ent-owners-manual text.md line 970), ce850-2016 p. 35
-    (spirit-elliptical-ce850-2016-owners-manual text.md line 859), ce850-2020 p. 43
-    (spirit-elliptical-ce850-2020-owners-manual text.md line 1071), ce850-2022 p. 44
-    (spirit-elliptical-ce850-2022-owners-manual text.md line 1077), ce900-2021 p. 28
-    (spirit-elliptical-ce900-2021-owners-manual text.md line 675), ce900-2025 p. 38
-    (spirit-elliptical-ce900-2025-owners-manual text.md line 1152), ces880-2025 p. 60
-    (spirit-elliptical-ces880-2025-owners-manual text.md line 2035)
-    The same five steps are in eight of the eleven Spirit XE and XG residential owners manuals,
-    from the SERVICE heading to the P.O. Box: xe395-2010 p. 29
-    (spirit-elliptical-xe395-2010-owners-manual text.md lines 1075-1095), xe795-2021-february
-    p. 39 (spirit-elliptical-xe795-2021-february-owners-manual text.md lines 962-982),
-    xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 956-976),
-    xe195-2021 p. 34 (spirit-elliptical-xe195-2021-owners-manual text.md lines 771-791),
-    xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines 886-906),
-    xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 905-925),
-    xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
-    lines 985-1005), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
-    1506-1528), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines
-    1385-1407). Back-cover contact details: xe795-2021-february line 991, xe395ent-2021 line
-    1092, xe195-2021 line 803, xe295-2021 line 915, xg400-2021 line 935, xe795-2021-november
-    line 1027, xe395-2023 line 1539, xe795-2023 line 1416'
+  locator: >-
+    All eight Spirit indoor cycle and air bike manuals print the five steps. SERVICE step 3,
+    which carries the phone number, is at spirit-bike-cb900-2013-owners-manual text.md line 446
+    (section heading line 439, printed p. 13); spirit-bike-xic600-2018-owners-manual line 909
+    (heading line 902, p. 27); spirit-bike-ab900-2018-owners-manual line 1321 (p. 47);
+    spirit-bike-cic800-2021-owners-manual line 490 (p. 22);
+    spirit-bike-xic600-2021-owners-manual line 927 (heading line 920, p. 28);
+    spirit-bike-cic850-2022-owners-manual line 840 (p. 38);
+    spirit-bike-jb950-2022-owners-manual line 1840 (p. 73);
+    spirit-bike-ab950-2024-owners-manual line 1126 (heading line 1119, p. 36). Return addresses
+    follow the step-5 paragraph in each. Contact pairs read from each manuals back cover on the
+    last PDF page
   extracted_at: '2026-09-09'
 ---
 
@@ -230,3 +212,43 @@ The order never changes: selling dealer, then local authorized service organizat
 **Do not quote a trip charge to a 900-series bike owner.** Four of the thirteen state none, and the four are exactly the manuals whose tables carry a single Commercial row.
 
 **The CU800 2012 addresses the mail step to "Spirit Fitness" without "Inc."** in both scans, and OCR-damages the P.O. Box line to `RO. Box 2037` in one of them. The box number and the ZIP are legible and unchanged in both.
+
+## All eight Spirit indoor cycle and air bike manuals print these steps, and one of them prints a different phone number
+
+**Step 3's service department number is (870) 935-1107 on seven of the eight.** The **JB950 prints (866) 463-2662** in that step - the only Spirit manual in this knowledge base that does not send a warranty claim to 935-1107. Do not read the usual number to a JB950 owner (`spirit-jb950-warranty-commercial-only-periods`).
+
+What else moves is the layout, the return address and the contact pair:
+
+| Manual | Mailing address | Step 4 ends at | Return address headed |
+|---|---|---|---|
+| CB900 2013 | step 6 | the 100-mile trip charge | Spirit Fitness |
+| XIC600 2018, XIC600 2021 | step 6 | the 100-mile trip charge | Spirit Fitness, Inc. |
+| AB900 2018 | unnumbered bullet | the 100-mile trip charge | Spirit Fitness, **3000 Nestle Rd.** |
+| CIC800 2021, CIC850 2022 | step 6 | the 100-mile trip charge | SPIRIT FITNESS, INC. |
+| JB950 2022 | unnumbered bullet | the 100-mile trip charge | Spirit Fitness, PO Box 2037 |
+| AB950 2024 | **unnumbered below step 5** | **shipping and handling on parts** | Spirit Fitness, Inc. |
+
+**The AB900 is the only manual of the eight that sends correspondence to a street address** - 3000 Nestle Rd., Jonesboro, AR 72401 - rather than to P.O. Box 2037, Jonesboro, AR 72402-2037. The other seven use the P.O. Box.
+
+**The AB900 and the JB950 print the five steps as unnumbered bullets** rather than a numbered list, so "step 3" and "step 4" are positions in their bullet list, not printed numbers.
+
+**The AB950 charges no trip charge.** Its step 4 stops at shipping and handling on replacement parts and names neither an in-home trip charge nor the 100-mile surcharge (`spirit-2026t-warranty-owner-costs`). The other seven charge both (`xt-2023-warranty-owner-costs`).
+
+**Step 5 is word for word the same on all eight**, return-authorization rule included: a unit shipped to the factory without a return authorization number will be refused, and freight damage claims go to the carrier.
+
+**The contact pairs split four ways:**
+
+| Manual | Customer care | Email |
+|---|---|---|
+| CB900 2013 | 800-258-4555 | *none printed* |
+| XIC600 2018, XIC600 2021 | 800.258-8511 | spiritservice@spiritfitness.com |
+| AB900 2018 | 1-800-258-8511 | spiritservice@spiritfitness.com |
+| CIC800 2021, CIC850 2022 | 800.258.4555 | spiritservice@spiritfitness.com |
+| JB950 2022 | 800.258.4555 back cover, **1-800-258-8511** in CUSTOMER SUPPORT, **800-258-8511** for registration | spiritservice@spiritfitness.com |
+| AB950 2024 | 800-258-8511 | **questions@spiritfitness.com** |
+
+**The CB900 prints no email address anywhere**, and its back cover is the only one of the eight with a fax number beside the 2013-era 800-258-4555. The AB950 back cover prints a fax number too (870-935-7611) with the newer 800-258-8511.
+
+**The JB950 gives four numbers in one book** and its own website, www.johnnygspiritbike.com, as the running footer. The one that matters for a warranty claim is step 3's (866) 463-2662.
+
+**The AB900 and the JB950 print an international manufacturer block** on the page after the service steps - Spirit Fitness in Jonesboro alongside Dyaco Shanghai and Dyaco Canada - which the other six do not carry. Both also tell international customers to contact their local distributor rather than Jonesboro. **The JB950 return address drops the zip extension** the other seven print, reading Jonesboro, AR **72402** rather than 72402-2037.
