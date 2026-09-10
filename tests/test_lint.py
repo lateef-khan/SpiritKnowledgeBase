@@ -475,7 +475,7 @@ def model_errors(card):
 
 
 def test_list_model_accepts_a_family_card():
-    """A product card lists the family: a bare slug plus every machine it applies to."""
+    """A product card's model list holds every machine the card applies to."""
     card = branded(brand="[sole]", model="[f63, f80]", applies="[f63, f80]")
     assert model_errors(card) == []
     assert applies_errors(card) == []

@@ -109,7 +109,7 @@ def _model_list(card: Card) -> list[str]:
     """Every model id the card's `model` facet names, with the sentinel left out.
 
     A product card lists a whole family here so Qdrant's keyword filter on any one
-    machine still reaches it. A sentinel inside a list is applies-to-valid's to report.
+    machine still reaches it. A sentinel inside a list is reported by brand-model-agree.
     """
     value = card.facets.get("model")
     items = value if isinstance(value, list) else [value]
@@ -271,11 +271,12 @@ def _question_naming_errors(card: Card, config: KbConfig) -> list[LintError]:
     # A card about several machines has no one model to name, so it names its brands.
     # The title is fair game here: a brand name never trips shared-lookalike.
     haystack = f"{card.question}\n{card.title}"
+    shape = "a list" if isinstance(model, list) else "'*'"
     return [
         LintError(
             card.path,
             "question-names-model",
-            f"model is '*', so question or title must name brand {brand!r}",
+            f"model is {shape}, so question or title must name brand {brand!r}",
         )
         for brand in _brand_list(card)
         if not _names_token(haystack, brand)
