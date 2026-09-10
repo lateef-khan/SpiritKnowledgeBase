@@ -25,6 +25,8 @@ facets:
   - css-prlc
   section: programs
   code: '*'
+  model_number:
+  - '677524'
 authority: 3
 not_to_be_confused_with:
 - css-slgc-programs-workout-placard

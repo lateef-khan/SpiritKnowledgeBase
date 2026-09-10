@@ -25,6 +25,9 @@ facets:
   - csf-funt
   section: programs
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard

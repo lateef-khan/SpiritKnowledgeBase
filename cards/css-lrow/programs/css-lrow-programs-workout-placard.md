@@ -25,6 +25,8 @@ facets:
   - css-lrow
   section: programs
   code: '*'
+  model_number:
+  - '657694'
 authority: 3
 not_to_be_confused_with:
 - css-srow-programs-workout-placard

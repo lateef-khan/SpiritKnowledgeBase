@@ -24,6 +24,8 @@ facets:
   - csf-bext
   section: programs
   code: '*'
+  model_number:
+  - '623924'
 authority: 3
 not_to_be_confused_with:
 - css-bext-programs-workout-placard

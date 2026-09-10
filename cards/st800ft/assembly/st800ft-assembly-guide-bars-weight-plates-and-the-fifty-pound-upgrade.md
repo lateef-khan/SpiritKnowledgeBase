@@ -32,6 +32,8 @@ facets:
   - st800ft
   section: assembly
   code: '*'
+  model_number:
+  - '808019'
 authority: 3
 see_also:
 - st800ft-assembly-cable-routing-bolt-end-at-finish

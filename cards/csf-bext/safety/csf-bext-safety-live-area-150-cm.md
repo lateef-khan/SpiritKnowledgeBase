@@ -28,6 +28,8 @@ facets:
   - csf-bext
   section: safety
   code: '*'
+  model_number:
+  - '623924'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-safety-live-area-600-mm

@@ -28,6 +28,8 @@ facets:
   - csf-uprb
   section: safety
   code: '*'
+  model_number:
+  - '687724'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-safety-live-area-600-mm

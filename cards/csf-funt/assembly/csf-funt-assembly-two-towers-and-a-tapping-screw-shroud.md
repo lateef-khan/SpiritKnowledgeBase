@@ -32,6 +32,9 @@ facets:
   - csf-funt
   section: assembly
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 see_also:
 - spirit-strength-assembly-the-shroud-hardware-panel

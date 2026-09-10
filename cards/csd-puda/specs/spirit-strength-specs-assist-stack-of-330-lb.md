@@ -26,6 +26,8 @@ facets:
   - csd-puda
   section: specs
   code: '*'
+  model_number:
+  - '678323'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

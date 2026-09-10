@@ -25,6 +25,8 @@ facets:
   - css-delt
   section: programs
   code: '*'
+  model_number:
+  - '633584'
 authority: 3
 not_to_be_confused_with:
 - css-latr-programs-workout-placard

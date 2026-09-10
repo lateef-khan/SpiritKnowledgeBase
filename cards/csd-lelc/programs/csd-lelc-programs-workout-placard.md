@@ -26,6 +26,9 @@ facets:
   - csd-lelc
   section: programs
   code: '*'
+  model_number:
+  - '653523'
+  - '653525'
 authority: 3
 not_to_be_confused_with:
 - css-lext-programs-workout-placard

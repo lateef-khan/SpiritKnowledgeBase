@@ -25,6 +25,8 @@ facets:
   - css-bcur
   section: programs
   code: '*'
+  model_number:
+  - '622874'
 authority: 3
 not_to_be_confused_with:
 - csd-bcte-programs-workout-placard

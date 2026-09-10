@@ -26,6 +26,8 @@ facets:
   - css-slgp
   section: specs
   code: '*'
+  model_number:
+  - '675474'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

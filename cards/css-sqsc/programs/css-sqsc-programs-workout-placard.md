@@ -26,6 +26,8 @@ facets:
   - css-sqsc
   section: programs
   code: '*'
+  model_number:
+  - '677724'
 authority: 3
 not_to_be_confused_with:
 - css-scex-programs-workout-placard

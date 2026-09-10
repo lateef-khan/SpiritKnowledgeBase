@@ -31,6 +31,8 @@ facets:
   - st800ft
   section: assembly
   code: '*'
+  model_number:
+  - '808019'
 authority: 3
 see_also:
 - spirit-strength-assembly-cable-routing-diagram-names-two-wires

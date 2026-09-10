@@ -28,6 +28,8 @@ facets:
   - st800fi
   section: safety
   code: '*'
+  model_number:
+  - '808039'
 authority: 3
 not_to_be_confused_with:
 - st800dr3-safety-total-weight-limit-and-floor-anchoring

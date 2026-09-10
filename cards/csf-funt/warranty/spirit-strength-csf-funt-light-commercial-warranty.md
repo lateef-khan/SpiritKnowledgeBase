@@ -27,6 +27,9 @@ facets:
   - csf-funt
   section: warranty
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-csd-warranty-periods-with-counter-timer

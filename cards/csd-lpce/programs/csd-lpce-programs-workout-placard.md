@@ -24,6 +24,8 @@ facets:
   - csd-lpce
   section: programs
   code: '*'
+  model_number:
+  - '657233'
 authority: 3
 not_to_be_confused_with:
 - css-slgp-programs-workout-placard

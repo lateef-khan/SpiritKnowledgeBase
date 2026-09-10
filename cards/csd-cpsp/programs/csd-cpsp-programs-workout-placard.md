@@ -24,6 +24,8 @@ facets:
   - csd-cpsp
   section: programs
   code: '*'
+  model_number:
+  - '627773'
 authority: 3
 not_to_be_confused_with:
 - css-scpr-programs-workout-placard

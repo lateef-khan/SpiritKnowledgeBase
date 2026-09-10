@@ -28,6 +28,8 @@ facets:
   - csf-hrac
   section: safety
   code: '*'
+  model_number:
+  - '647224'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-safety-user-weight-limit-360-lb
