@@ -27,6 +27,7 @@ facets:
   - crw900-2021
   section: maintenance
   code: '*'
+  model_number: '900948'
 authority: 3
 not_to_be_confused_with:
 - ct800-2016-maintenance-squeak-thump-or-clicking

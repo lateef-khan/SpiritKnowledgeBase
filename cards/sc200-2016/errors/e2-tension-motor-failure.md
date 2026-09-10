@@ -25,6 +25,7 @@ facets:
   - sc200-2016
   section: errors
   code: e2
+  model_number: '520516'
 authority: 3
 not_to_be_confused_with:
 - sc200-2016-e1-eeprom-failure

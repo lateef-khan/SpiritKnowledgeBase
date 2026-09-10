@@ -28,6 +28,7 @@ facets:
   - 85s-2025
   section: programs
   code: '*'
+  model_number: '785545'
 authority: 3
 not_to_be_confused_with:
 - spirit-rehab-stepper-programs-symmetry-measures-left-and-right-leg-power

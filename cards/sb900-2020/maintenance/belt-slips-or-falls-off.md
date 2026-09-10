@@ -25,6 +25,7 @@ facets:
   - sb900-2020
   section: maintenance
   code: '*'
+  model_number: '590320'
 authority: 3
 not_to_be_confused_with: []
 see_also:

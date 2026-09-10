@@ -28,6 +28,7 @@ facets:
   - xt185-2023
   section: specs
   code: '*'
+  model_number: '185823'
 authority: 3
 not_to_be_confused_with:
 - xt285-2023-parts-list

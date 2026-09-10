@@ -25,6 +25,7 @@ facets:
   - f80-2026
   section: errors
   code: error
+  model_number: '580286'
 authority: 3
 not_to_be_confused_with:
 - f80-2026-e23-tft-led-communication

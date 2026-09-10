@@ -26,6 +26,7 @@ facets:
   - crw800-2024
   section: errors
   code: no-code
+  model_number: '800925'
 authority: 3
 not_to_be_confused_with:
 - crw800-2024-errors-wireless-heartbeat-has-no-effect

@@ -17,6 +17,7 @@ facets:
   - xt185-2015
   section: console
   code: '*'
+  model_number: '185815'
 keywords:
 - console layout
 - console overview

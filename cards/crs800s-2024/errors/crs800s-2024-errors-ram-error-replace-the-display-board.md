@@ -25,6 +25,7 @@ facets:
   - crs800s-2024
   section: errors
   code: ram-error
+  model_number: '800525'
 authority: 3
 not_to_be_confused_with:
 - cvc800-e-1-ram-error

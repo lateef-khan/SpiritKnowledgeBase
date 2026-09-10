@@ -28,6 +28,7 @@ facets:
   - ce850-2016
   section: console
   code: '*'
+  model_number: '850045'
 authority: 3
 not_to_be_confused_with:
 - ce800-2013-console-engineering-mode-elliptical-or-bike

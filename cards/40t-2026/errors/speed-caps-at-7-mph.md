@@ -25,6 +25,7 @@ facets:
   - 40t-2026
   section: errors
   code: no-code
+  model_number: '740885'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-speed-display-mismatch-caps-at-7mph

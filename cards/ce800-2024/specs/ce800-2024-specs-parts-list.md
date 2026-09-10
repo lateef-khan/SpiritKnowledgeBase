@@ -29,6 +29,7 @@ facets:
   - ce800-2024
   section: specs
   code: '*'
+  model_number: '800025'
 authority: 3
 not_to_be_confused_with:
 - ce850-2024-specs-parts-list

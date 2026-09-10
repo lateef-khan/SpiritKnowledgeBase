@@ -27,6 +27,7 @@ facets:
   - 85ue-2025
   section: programs
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-programs-constant-power-on-the-touchscreen

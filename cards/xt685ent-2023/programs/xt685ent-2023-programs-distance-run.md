@@ -26,6 +26,7 @@ facets:
   - xt685ent-2023
   section: programs
   code: '*'
+  model_number: '685523'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-programs-5k-10k-run-xt385-xt485-xt685

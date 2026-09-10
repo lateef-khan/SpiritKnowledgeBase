@@ -30,6 +30,7 @@ facets:
   - ce800ent-2024
   section: specs
   code: '*'
+  model_number: '800065'
 authority: 3
 not_to_be_confused_with:
 - ce800-2024-specs-parts-list

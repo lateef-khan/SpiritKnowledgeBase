@@ -25,6 +25,7 @@ facets:
   - e25-2026
   section: specs
   code: '*'
+  model_number: '525206'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -39,7 +40,7 @@ source:
 
 The cover reads **E25(2026)** and the factory code is **SE668SA-SE052**. The circuit diagram sheet is headed "SE668SA-SE052 ELLIPICAL CIRCUIT DIAGRAM" (the word ELLIPTICAL is misspelled on that sheet) and names the console **SE668SA**.
 
-This is the Sole E25 of model year 2026. **No Spirit database SKU has been matched to this manual**, so do not quote a six digit model number for it.
+This is the Sole E25 of model year 2026. The Sole model number is **525206**, from the manual's own file name, `E25 (525206) 2026_.pdf`, and from the Spirit customer-service database, which names 525206 "E25 Elliptical Trainer". **The manual itself never prints it.**
 
 Section 3 lists four electrical assemblies:
 

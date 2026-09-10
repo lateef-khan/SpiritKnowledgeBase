@@ -28,6 +28,7 @@ facets:
   - csc900-2024
   section: assembly
   code: '*'
+  model_number: '900665'
 authority: 3
 not_to_be_confused_with: []
 see_also:

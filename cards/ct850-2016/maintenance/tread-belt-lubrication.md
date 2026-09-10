@@ -23,6 +23,7 @@ facets:
   - ct850-2016
   section: maintenance
   code: '*'
+  model_number: '850845'
 authority: 3
 not_to_be_confused_with:
 - sole-lubricate-running-belt

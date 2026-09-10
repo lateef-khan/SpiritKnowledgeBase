@@ -22,6 +22,7 @@ facets:
   - f63-2013
   section: specs
   code: '*'
+  model_number: '563812'
 authority: 2
 not_to_be_confused_with: []
 see_also:

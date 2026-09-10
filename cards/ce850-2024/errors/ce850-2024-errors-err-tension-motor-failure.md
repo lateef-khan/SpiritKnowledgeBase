@@ -24,6 +24,7 @@ facets:
   - ce850-2024
   section: errors
   code: err
+  model_number: '850025'
 authority: 3
 not_to_be_confused_with:
 - cs800-2024-errors-err-in-the-level-window-tension-motor-feedback

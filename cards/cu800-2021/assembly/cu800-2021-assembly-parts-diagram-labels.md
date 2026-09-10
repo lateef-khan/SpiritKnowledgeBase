@@ -26,6 +26,7 @@ facets:
   - cu800-2021
   section: assembly
   code: '*'
+  model_number: '800340'
 authority: 3
 not_to_be_confused_with:
 - spirit-cr800-assembly-parts-diagram-labels

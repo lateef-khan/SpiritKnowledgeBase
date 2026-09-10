@@ -26,6 +26,7 @@ facets:
   - cvc800
   section: safety
   code: '*'
+  model_number: '800440'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct850-outlet-and-circuit-requirement

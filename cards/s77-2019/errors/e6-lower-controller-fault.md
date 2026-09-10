@@ -24,6 +24,7 @@ facets:
   - s77-2019
   section: errors
   code: e6
+  model_number: '577818'
 authority: 3
 not_to_be_confused_with:
 - s77-2016-e0-safety-key

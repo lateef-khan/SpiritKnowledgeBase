@@ -28,6 +28,7 @@ facets:
   - 85ue-2025
   section: console
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - spirit-rehab-stepper-console-usb-data-transfer-to-a-csv-file

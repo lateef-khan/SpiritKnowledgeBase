@@ -28,6 +28,7 @@ facets:
   - csc900-2019
   section: console
   code: '*'
+  model_number: '900669'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-console-four-display-windows

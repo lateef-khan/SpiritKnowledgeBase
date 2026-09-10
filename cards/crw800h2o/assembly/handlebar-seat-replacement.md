@@ -23,6 +23,7 @@ facets:
   - crw800h2o
   section: assembly
   code: '*'
+  model_number: '800998'
 authority: 3
 not_to_be_confused_with:
 - crw800h2o-seat-replacement

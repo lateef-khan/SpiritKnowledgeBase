@@ -29,6 +29,7 @@ facets:
   - 85ue-2025
   section: warranty
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - crw800-2021-warranty-commercial-and-residential-periods

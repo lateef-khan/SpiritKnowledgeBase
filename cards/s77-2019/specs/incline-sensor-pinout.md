@@ -25,6 +25,7 @@ facets:
   - s77-2019
   section: specs
   code: '*'
+  model_number: '577818'
 authority: 3
 not_to_be_confused_with: []
 see_also:

@@ -28,6 +28,7 @@ facets:
   - 85ue-2025
   section: console
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - 85s-2025-console-beacon-progress-indicator-colour-bands

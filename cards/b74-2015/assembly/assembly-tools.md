@@ -25,6 +25,7 @@ facets:
   - b74-2015
   section: assembly
   code: '*'
+  model_number: '574115'
 authority: 3
 not_to_be_confused_with: []
 see_also: []

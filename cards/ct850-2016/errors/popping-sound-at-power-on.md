@@ -25,6 +25,7 @@ facets:
   - ct850-2016
   section: errors
   code: no-code
+  model_number: '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-popping-sound-at-power-on

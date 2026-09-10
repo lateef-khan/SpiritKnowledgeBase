@@ -25,6 +25,7 @@ facets:
   - ces880-2025
   section: console
   code: '*'
+  model_number: '880025'
 authority: 3
 not_to_be_confused_with:
 - ct900-quarter-mile-track-display

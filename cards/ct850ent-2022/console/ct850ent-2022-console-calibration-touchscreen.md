@@ -29,6 +29,7 @@ facets:
   - ct850ent-2022
   section: console
   code: '*'
+  model_number: '850852'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-console-calibration-minimum-speed-0-3

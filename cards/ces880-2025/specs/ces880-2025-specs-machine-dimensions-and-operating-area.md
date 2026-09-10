@@ -28,6 +28,7 @@ facets:
   - ces880-2025
   section: specs
   code: '*'
+  model_number: '880025'
 authority: 3
 not_to_be_confused_with: []
 see_also:

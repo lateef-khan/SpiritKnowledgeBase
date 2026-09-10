@@ -25,6 +25,7 @@ facets:
   - cc81-2020
   section: specs
   code: '*'
+  model_number: '581519'
 authority: 2
 not_to_be_confused_with: []
 see_also:

@@ -28,6 +28,7 @@ facets:
   - jb950-2022
   section: maintenance
   code: '*'
+  model_number: '950348'
 authority: 3
 not_to_be_confused_with:
 - spirit-air-bike-maintenance-tool-list-eight-tools

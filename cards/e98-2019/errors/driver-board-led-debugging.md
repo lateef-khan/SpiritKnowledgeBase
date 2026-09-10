@@ -25,6 +25,7 @@ facets:
   - e98-2019
   section: errors
   code: '*'
+  model_number: '598018'
 authority: 3
 not_to_be_confused_with: []
 see_also:

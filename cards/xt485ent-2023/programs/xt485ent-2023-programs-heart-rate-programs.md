@@ -27,6 +27,7 @@ facets:
   - xt485ent-2023
   section: programs
   code: '*'
+  model_number: '485850'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-programs-heart-rate-program-xt385-xt485-xt685

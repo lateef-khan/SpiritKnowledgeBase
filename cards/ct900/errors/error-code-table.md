@@ -26,6 +26,7 @@ facets:
   - ct900
   section: errors
   code: '*'
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with:
 - ctsbs900-troubleshooting-common-problems

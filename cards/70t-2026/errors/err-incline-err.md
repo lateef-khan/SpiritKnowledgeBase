@@ -25,6 +25,7 @@ facets:
   - 70t-2026
   section: errors
   code: err
+  model_number: '770885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-errors-er2-decline-err

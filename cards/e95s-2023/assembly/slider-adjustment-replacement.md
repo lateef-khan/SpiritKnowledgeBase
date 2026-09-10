@@ -26,6 +26,7 @@ facets:
   - e95s-2023
   section: assembly
   code: '*'
+  model_number: '595622'
 authority: 3
 not_to_be_confused_with: []
 see_also:

@@ -25,6 +25,7 @@ facets:
   - r92-2026
   section: errors
   code: err
+  model_number: '592126'
 authority: 3
 not_to_be_confused_with: []
 see_also:

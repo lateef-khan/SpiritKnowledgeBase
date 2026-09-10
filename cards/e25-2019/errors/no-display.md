@@ -25,6 +25,7 @@ facets:
   - e25-2019
   section: errors
   code: no-display
+  model_number: '525018'
 authority: 3
 not_to_be_confused_with: []
 see_also:

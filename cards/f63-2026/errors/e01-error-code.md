@@ -25,6 +25,7 @@ facets:
   - f63-2026
   section: errors
   code: e01
+  model_number: '563286'
 authority: 3
 not_to_be_confused_with:
 - f63-2026-e3-error-code

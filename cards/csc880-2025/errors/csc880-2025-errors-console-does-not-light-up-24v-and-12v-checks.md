@@ -30,6 +30,7 @@ facets:
   - csc880-2025
   section: errors
   code: no-display
+  model_number: '880665'
 authority: 3
 not_to_be_confused_with:
 - csc900-2024-errors-console-does-not-light-up-after-power-on

@@ -27,6 +27,7 @@ facets:
   - ct900
   section: programs
   code: '*'
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with: []
 see_also:

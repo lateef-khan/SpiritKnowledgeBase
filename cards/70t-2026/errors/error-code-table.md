@@ -27,6 +27,7 @@ facets:
   - 70t-2026
   section: errors
   code: '*'
+  model_number: '770885'
 authority: 3
 not_to_be_confused_with:
 - ct900-e1-over-current

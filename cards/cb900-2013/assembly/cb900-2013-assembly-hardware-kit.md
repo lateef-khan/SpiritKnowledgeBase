@@ -27,6 +27,7 @@ facets:
   - cb900-2013
   section: assembly
   code: '*'
+  model_number: '900111'
 authority: 3
 not_to_be_confused_with:
 - xic600-2018-assembly-hardware-kit

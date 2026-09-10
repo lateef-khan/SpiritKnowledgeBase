@@ -28,6 +28,7 @@ facets:
   - xt285-2015
   section: programs
   code: '*'
+  model_number: '285815'
 authority: 3
 not_to_be_confused_with:
 - xt185-2015-program-list

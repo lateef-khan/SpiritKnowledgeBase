@@ -28,6 +28,7 @@ facets:
   - cu800-2012
   section: specs
   code: '*'
+  model_number: '800343'
 authority: 3
 not_to_be_confused_with:
 - r92-2026-foot-pedal-design-and-q-factor

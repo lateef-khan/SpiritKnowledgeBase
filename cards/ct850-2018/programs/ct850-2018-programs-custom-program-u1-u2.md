@@ -27,6 +27,7 @@ facets:
   - ct850-2018
   section: programs
   code: '*'
+  model_number: '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-programs-custom-program-build

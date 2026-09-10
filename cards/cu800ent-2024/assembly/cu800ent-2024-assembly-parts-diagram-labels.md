@@ -26,6 +26,7 @@ facets:
   - cu800ent-2024
   section: assembly
   code: '*'
+  model_number: '800365'
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-assembly-parts-diagram-letters

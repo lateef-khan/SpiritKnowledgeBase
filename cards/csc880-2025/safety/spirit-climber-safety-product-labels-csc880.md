@@ -30,6 +30,7 @@ facets:
   - csc880-2025
   section: safety
   code: '*'
+  model_number: '880665'
 authority: 3
 not_to_be_confused_with:
 - spirit-2024-safety-product-labels
