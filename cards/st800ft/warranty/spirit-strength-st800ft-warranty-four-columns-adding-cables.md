@@ -28,6 +28,8 @@ facets:
   - st800ft
   section: warranty
   code: '*'
+  model_number:
+  - '808019'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-st800fi-warranty-lifetime-at-home-ten-years-in-a-facility

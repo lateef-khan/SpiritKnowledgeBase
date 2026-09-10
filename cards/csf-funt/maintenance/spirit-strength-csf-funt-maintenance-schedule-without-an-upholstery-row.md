@@ -28,6 +28,9 @@ facets:
   - csf-funt
   section: maintenance
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-maintenance-schedule-thirteen-actions-daily-to-bi-monthly

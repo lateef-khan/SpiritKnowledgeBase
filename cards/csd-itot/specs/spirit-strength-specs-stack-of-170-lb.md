@@ -26,6 +26,8 @@ facets:
   - csd-itot
   section: specs
   code: '*'
+  model_number:
+  - '648683'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

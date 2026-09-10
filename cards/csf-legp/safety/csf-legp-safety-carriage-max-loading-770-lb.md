@@ -28,6 +28,8 @@ facets:
   - csf-legp
   section: safety
   code: '*'
+  model_number:
+  - '653424'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-safety-max-loading-capacity-600-lb

@@ -26,6 +26,8 @@ facets:
   - csd-pfrd
   section: programs
   code: '*'
+  model_number:
+  - '673733'
 authority: 3
 not_to_be_confused_with:
 - css-delt-programs-workout-placard

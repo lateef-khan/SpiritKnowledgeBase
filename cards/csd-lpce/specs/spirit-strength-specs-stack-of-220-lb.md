@@ -26,6 +26,8 @@ facets:
   - csd-lpce
   section: specs
   code: '*'
+  model_number:
+  - '657233'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

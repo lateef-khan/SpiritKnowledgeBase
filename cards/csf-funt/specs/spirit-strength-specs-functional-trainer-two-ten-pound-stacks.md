@@ -26,6 +26,9 @@ facets:
   - csf-funt
   section: specs
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

@@ -30,6 +30,8 @@ facets:
   - st800ft
   section: maintenance
   code: '*'
+  model_number:
+  - '808019'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-maintenance-no-cleaning-agent-and-no-storage-section

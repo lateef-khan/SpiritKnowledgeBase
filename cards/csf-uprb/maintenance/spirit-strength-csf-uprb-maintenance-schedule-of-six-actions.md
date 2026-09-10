@@ -28,6 +28,8 @@ facets:
   - csf-uprb
   section: maintenance
   code: '*'
+  model_number:
+  - '687724'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-maintenance-schedule-thirteen-actions-daily-to-bi-monthly

@@ -29,6 +29,8 @@ facets:
   - st800fi
   section: maintenance
   code: '*'
+  model_number:
+  - '808039'
 authority: 3
 not_to_be_confused_with:
 - ct800-2016-maintenance-squeak-thump-or-clicking

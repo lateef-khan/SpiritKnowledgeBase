@@ -30,6 +30,8 @@ facets:
   - st800fi
   section: assembly
   code: '*'
+  model_number:
+  - '808039'
 authority: 3
 see_also:
 - spirit-st800-assembly-hardware-lives-in-the-tube-holes

@@ -31,6 +31,8 @@ facets:
   - st800dr3
   section: assembly
   code: '*'
+  model_number:
+  - '808049'
 authority: 3
 see_also:
 - spirit-st800-assembly-anchoring-and-shimming-with-flat-washers

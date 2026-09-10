@@ -28,6 +28,8 @@ facets:
   - st800dr3
   section: safety
   code: '*'
+  model_number:
+  - '808049'
 authority: 3
 not_to_be_confused_with:
 - st800fi-safety-weight-limits-1000-lb-total

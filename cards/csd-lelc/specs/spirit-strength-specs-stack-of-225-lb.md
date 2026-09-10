@@ -26,6 +26,9 @@ facets:
   - csd-lelc
   section: specs
   code: '*'
+  model_number:
+  - '653523'
+  - '653525'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

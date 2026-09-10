@@ -25,6 +25,8 @@ facets:
   - css-trot
   section: programs
   code: '*'
+  model_number:
+  - '687684'
 authority: 3
 see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard

@@ -25,6 +25,8 @@ facets:
   - css-scpr
   section: programs
   code: '*'
+  model_number:
+  - '672774'
 authority: 3
 not_to_be_confused_with:
 - css-shpr-programs-workout-placard

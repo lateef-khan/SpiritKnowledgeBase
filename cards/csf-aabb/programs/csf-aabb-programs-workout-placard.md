@@ -23,6 +23,8 @@ facets:
   - csf-aabb
   section: programs
   code: '*'
+  model_number:
+  - '622224'
 authority: 3
 not_to_be_confused_with:
 - css-abdo-programs-workout-placard

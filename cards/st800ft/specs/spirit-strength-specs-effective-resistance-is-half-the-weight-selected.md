@@ -26,6 +26,8 @@ facets:
   - st800ft
   section: specs
   code: '*'
+  model_number:
+  - '808019'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

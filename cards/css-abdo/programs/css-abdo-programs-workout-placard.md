@@ -25,6 +25,8 @@ facets:
   - css-abdo
   section: programs
   code: '*'
+  model_number:
+  - '622364'
 authority: 3
 not_to_be_confused_with:
 - css-text-programs-workout-placard

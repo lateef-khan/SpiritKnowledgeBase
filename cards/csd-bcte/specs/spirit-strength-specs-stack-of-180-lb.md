@@ -26,6 +26,8 @@ facets:
   - csd-bcte
   section: specs
   code: '*'
+  model_number:
+  - '623833'
 authority: 3
 see_also:
 - spirit-strength-specs-no-weight-stack-rating-printed

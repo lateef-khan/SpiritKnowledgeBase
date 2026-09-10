@@ -24,6 +24,8 @@ facets:
   - csd-puda
   section: programs
   code: '*'
+  model_number:
+  - '678323'
 authority: 3
 see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard

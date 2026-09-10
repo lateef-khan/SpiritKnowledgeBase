@@ -27,6 +27,8 @@ facets:
   - css-latr
   section: console
   code: '*'
+  model_number:
+  - '652884'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-console-counter-placard-part-number-311010581

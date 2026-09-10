@@ -28,6 +28,9 @@ facets:
   - csf-funt
   section: safety
   code: '*'
+  model_number:
+  - '636223'
+  - '636225'
 authority: 3
 not_to_be_confused_with:
 - spirit-strength-safety-user-weight-limit-360-lb

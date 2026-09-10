@@ -37,6 +37,7 @@ two cards had been written against it claiming a SKU did not exist when it does.
 | `colour-pair` | 3 | two rows whose names differ only by a colour word, so both are the same machine |
 | `user-confirmed` | 1 | a person who knows the product line settled it |
 | `sibling-pairing` | 1 | the product has exactly as many machines as SKUs, and the first-production dates order the same way |
+| `db-names-the-machine` | 38 | the table's `MODEL` field spells the model id outright |
 
 **A manual is evidence only for its own model id.** Matching by product name
 instead attributes a 2024 book's SKU to the 2018 machine: an early pass did
@@ -81,6 +82,21 @@ One shape is safe. Where two rows' names differ **only by a colour word**, they
 are one machine in two colours: `Spirit MT200 (White)` and `Spirit MT200`,
 `Spirit MS300 (White)` and `Spirit MS300`. Those cards carry both numbers. Every
 other second SKU is added only when a person confirms it.
+
+## Sometimes the table simply names the machine
+
+The Spirit strength range is the easy case: `dbo.MODEL` spells the model id
+outright. `622233` is `CSD-ACBE`, and its description reads "SPIRIT Strength
+AB/BACK". Thirty-five of the thirty-nine matched on an exact name, and the three
+ST800 machines matched once the search allowed for the table writing them as
+"Trainer Spirit ST800FT" rather than `ST800FT`. Their descriptions - Functional
+Trainer, FI Bench, Dumbbell Rack - agree with what the manuals describe.
+
+Only `csi-cpsp` has no row. The table holds `CSI LELC` and `CSI LROW` but no
+chest-press CSI.
+
+Two of them carry two numbers, which is why the facet is a list: `csd-lelc` is
+653523 and 653525, `csf-funt` is 636223 and 636225.
 
 ## A SKU can belong to a machine that has no cards yet
 
