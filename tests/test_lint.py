@@ -116,6 +116,44 @@ def test_blank_entries_in_list_facet_is_reported():
     assert "empty-facet" in slugs(errors)
 
 
+OPTIONAL_CONFIG = replace(
+    CONFIG,
+    facets=dict(CONFIG.facets, model_number=FacetSpec(index="keyword", array=False, values=(), optional=True)),
+)
+
+
+def test_optional_facet_may_be_omitted():
+    errors = lint_cards([make()], OPTIONAL_CONFIG, {"src-1"})
+    assert errors == []
+
+
+def test_optional_facet_may_not_be_left_blank():
+    errors = lint_cards(
+        [make(facets=GOOD_FACETS + '\n  model_number: ""')], OPTIONAL_CONFIG, {"src-1"}
+    )
+    assert "empty-facet" in slugs(errors)
+
+
+def test_optional_facet_still_checks_its_value():
+    errors = lint_cards(
+        [make(facets=GOOD_FACETS + "\n  model_number: '585818'")], OPTIONAL_CONFIG, {"src-1"}
+    )
+    assert errors == []
+
+
+def test_unquoted_number_in_a_keyword_facet_is_reported():
+    """YAML reads an unquoted 585818 as an int, which no string filter can match."""
+    errors = lint_cards(
+        [make(facets=GOOD_FACETS + "\n  model_number: 585818")], OPTIONAL_CONFIG, {"src-1"}
+    )
+    assert "non-string-facet" in slugs(errors)
+
+
+def test_unquoted_number_inside_a_list_facet_is_reported():
+    errors = lint_cards([make(facets="  model: f63\n  applies_to: [f63, 585818]")], CONFIG, {"src-1"})
+    assert "non-string-facet" in slugs(errors)
+
+
 def test_unknown_kind_is_reported():
     errors = lint_cards([make(kind="rumour")], CONFIG, {"src-1"})
     assert "unknown-kind" in slugs(errors)
