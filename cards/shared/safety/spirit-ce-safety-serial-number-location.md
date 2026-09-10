@@ -38,6 +38,7 @@ facets:
   - cr800ent-2023
   - cr900-2018
   - cr900ent-2021
+  - crw800-2021
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
@@ -61,6 +62,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xrw600-2019
+  - xrw600-2021
   section: safety
   code: '*'
 authority: 3
@@ -86,7 +89,7 @@ source:
     commercial bike owner's manuals print a RECORD YOUR SERIAL NUMBER block - CR900-2018 and
     CU900-2018 on their printed page 4, CR900ENT-2021 and CU900ENT-2021 on printed pages 5
     and 4, CR800-2021, CR800-2023, CU800-2021, CU800ENT-2022 and CR800ENT-2023 on their
-    printed page 3, and CU800-2012 on its printed page 4
+    printed page 3, and CU800-2012 on its printed page 4 The XRW600-2019, XRW600-2021 and CRW800-2021 rower owner's manuals each print a RECORD YOUR SERIAL NUMBER block with no location - XRW600 printed page 7, CRW800-2021 printed page 3; the two XRW600 books add an illustration captioned Serial Number Location on the same page
   extracted_at: '2026-09-09'
 ---
 
@@ -205,3 +208,29 @@ returned and give a web alternative under the Support tab:
 CU800ENT-2022, CR800ENT-2023), `www.spiritfitness.com/commercialwarrantyregistration.html`
 (CU900-2018, CU900ENT-2021) and `wwwspiritfitness.com/warranty.asp` (CU800-2012, as its scan reads
 it). The 2024 and 2025 manuals replace the card with a QR code.
+
+
+## Three Spirit rower manuals leave a blank, and two of them draw the answer
+
+**XRW600-2019, XRW600-2021 and CRW800-2021** each print `RECORD YOUR SERIAL NUMBER` above
+`Please record the serial number of this fitness product in the space provided below` and a blank
+line, and **none of the three puts the location into words**.
+
+**The two XRW600 manuals draw it.** Beside the blank, both print a boxed illustration captioned
+`Serial Number Location` - the caption is the only text - showing the rower from the front with an
+arrow pointing at **the underside of the main frame tube, just behind the front stabilizer and below
+the foot pedals**. Read from a 300 dpi render of printed page 7; the drawing is a flat image and
+`pdftotext` returns nothing from inside it. That is the same shape of answer the CE850-2016 manual
+gives.
+
+**The CRW800-2021 has no drawing at all**, so its manual says nothing whatever about where the
+sticker is, in words or in a picture. Do not fill it in from the XRW600 books - they are a different
+machine.
+
+**The other three machines of this range do say, and each says something different**, so none of them
+answers for the three above:
+
+| Machine | Where the manual says the serial number is |
+|---|---|
+| CRW900-2021, CRW800H2O | on the centre floor tube behind the crank (`spirit-water-rower-safety-serial-number-on-the-centre-floor-tube`) |
+| 8.5UE | on the front stabilizer (`85ue-2025-safety-product-labels-and-proposition-65`) |

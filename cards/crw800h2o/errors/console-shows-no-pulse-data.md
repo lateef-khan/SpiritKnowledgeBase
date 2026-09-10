@@ -26,8 +26,10 @@ facets:
   section: errors
   code: no-code
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- crw900-2021-errors-heart-rate-signal-drops-during-the-stroke
 see_also:
+- crw900-2021-errors-heart-rate-signal-drops-during-the-stroke
 - spirit-wireless-chest-belt-no-pulse
 - ce800ent-bluetooth-chest-strap-no-heart-rate
 - crw800h2o-console-shows-no-data
@@ -53,3 +55,7 @@ printed here. The CE800ENT elliptical is the only one of the six that documents 
 `ce800ent-bluetooth-chest-strap-no-heart-rate`.
 
 This rower has no hand pulse row at all.
+
+**The CRW900, the other Spirit water rower, asks for 5.3 KHz, not 5.0** -
+`crw900-2021-errors-heart-rate-signal-drops-during-the-stroke`. Two water rowers, two frequencies;
+quote each machine's own figure.

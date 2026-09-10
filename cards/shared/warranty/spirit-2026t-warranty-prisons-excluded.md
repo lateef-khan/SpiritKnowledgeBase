@@ -29,6 +29,7 @@ facets:
   - 80t-2026
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   - ab900-2018
   - ab950-2024
   - ce800-2021
@@ -54,7 +55,10 @@ facets:
   - cr900ent-2021
   - crs800s-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
+  - crw800h2o
+  - crw900-2021
   - cs800-2021
   - cs800-2024
   - csc880-2025
@@ -97,6 +101,7 @@ facets:
   - xe795-2023
   - xg400-2021
   - xic600-2021
+  - xrw600-2021
   section: warranty
   code: '*'
 authority: 3
@@ -104,6 +109,9 @@ not_to_be_confused_with:
 - xt-2023-warranty-use-environment
 - xt-2015-warranty-use-environment
 see_also:
+- spirit-rower-warranty-use-environment
+- spirit-water-rower-warranty-exclusions-eight-items
+- 85ue-2025-warranty-exclusions-nine-items
 - spirit-ce-warranty-use-environment
 - ce800-2013-warranty-exclusions
 - spirit-ce850-warranty-exclusions
@@ -179,7 +187,19 @@ source:
     spirit-bike-xbr55-2023-owners-manual, spirit-bike-xbu55-2019-owners-manual or
     spirit-bike-xbu55-2021-owners-manual; the warranty-table page of five of those ten was
     additionally rendered at 300 dpi and read with tesseract --psm 4, whose word count
-    matched the native extraction to within two words
+    matched the native extraction to within two words. Five of the six Spirit rower and
+    upper body ergometer manuals carry it. Footnote under the warranty table only:
+    spirit-rower-xrw600-2021-owners-manual p. 38 (text.md line 1285),
+    spirit-rower-crw800-2021-owners-manual p. 37 (text.md line 1234). Both halves -
+    footnote and numbered item 8: spirit-rower-crw900-2021-owners-manual pp. 61 and 62
+    (text.md lines 2927 and 2962), spirit-rower-crw800h2o-2021-owners-manual pp. 35 and
+    36 (text.md lines 1114 and 1148), spirit-ergometer-85ue-2025-owners-manual pp. 59 and
+    60 (text.md lines 3237 and 3278), where the footnote is printed above the table. The
+    words prison and correctional appear nowhere in
+    spirit-rower-xrw600-2019-owners-manual; that absence was checked with a loose,
+    spacing-tolerant search of the whole document and with 300 dpi renders of both its
+    warranty pages, PDF pp. 38 and 39, the second read with tesseract --psm 4. All five
+    warranty tables were read from 300 dpi renders as well as from the extraction
   extracted_at: '2026-09-10'
 ---
 
@@ -333,3 +353,27 @@ and the numbered item is item **8** of nine, in the "Product used in..." wording
 **This range confirms that the clause travels with the commercial table rather than with the printing date.** The two machines that omit it are the two whose table is headed *Light Commercial* and *Residential* rather than *Commercial* - the XS895 2018 and the XS895 2021 - and the February 2021 XS895 sits between the CSC900 2019 and the CRS800S 2021, both of which carry it. **It also pushes the earliest date back.** Wave 14 pinned the clause to November 30, 2021 on the XB and XE ranges; the CSC900 2019 states it almost two years earlier.
 
 **On nine of the eleven, prisons is the only environment excluded by name.** The exception is the CRS800S, CS800 and CVC800 trio, whose item 8 bars any environment other than a home or a non-dues-paying facility used five hours a day or less. The whole picture for this range is `spirit-climber-warranty-use-environment`.
+
+## Five of the six Spirit rowers and the upper body ergometer exclude prisons, and the sixth states it nowhere
+
+**The XRW600 manual effective February 04, 2019 carries no prisons clause at all.** The words *prison* and *correctional* appear at no point in that document - no footnote under its warranty table, no numbered item in its nine-item exclusion list, whose item 8 is a use-environment limit instead. The absence was checked twice: a spacing-tolerant search of the whole document, and 300 dpi renders of both warranty pages, PDF pp. 38 and 39. **Do not quote the exclusion to the owner of one.**
+
+The other five carry it, and the halves they print differ:
+
+| Manual | Footnote under the table | Exclusion item |
+|---|---|---|
+| XRW600 February 2019 | **none** | **none** |
+| CRW800 October 2021 | yes, with a leading asterisk | **none** - its item 8 is a use-environment limit instead |
+| XRW600 November 2021 | yes, with a leading asterisk | **none** - its item 8 is a use-environment limit instead |
+| CRW900, CRW800H2O | yes, with a leading asterisk | item **8** of eight |
+| 8.5UE 2025 | yes, printed **above** the table, with a leading asterisk | item **8** of nine |
+
+**The two XRW600 printings are the clean before-and-after pair for this range**, and they are the same machine. The February 2019 book states the exclusion nowhere; the November 30, 2021 book prints the footnote. Nothing else about the warranty changed except the loss of the Brake column, and the two warranty sections still match at **98.5%** at word level. **November 30, 2021 is the same date the XE, XG and XB ranges pick the clause up**, so on Spirit's residential machines that date now covers three ranges.
+
+**This range disproves the rule that the clause travels with a Commercial table.** The **XRW600 November 2021** manual prints the footnote under a table whose only row is **Residential** - there is no Commercial row anywhere in the book, and no Light Commercial table either. It is the first machine in this knowledge base to carry the footnote with no commercial row of any kind above it. On the rowers the clause travels with the **printing date**: everything printed in October 2021 or later carries it, and the one book printed earlier does not.
+
+**February 04, 2019 is the date that fixes it.** That XRW600 warranty falls after the October 2018 date the indoor cycles and air bikes pick the clause up, and before the December 1, 2019 CSC900 date, and it states the clause nowhere - so neither of those earlier dates reached this range.
+
+**The 8.5UE prints its footnote above the table**, between the *Commercial Warranty* heading and the column row, as the 2025 and 2026 steppers do. Its exclusion list is nine items with prisons at 8 and the outside-the-US line at 9: `85ue-2025-warranty-exclusions-nine-items`.
+
+**On the two water rowers, prisons is the only environment excluded anywhere.** Their exclusion lists carry no use-environment item, and their item 2 drops the *not in ordinary household or light commercial use* clause the air rowers keep - so a dues-paying gym, a hotel or a school is barred by nothing in those two books: `spirit-water-rower-warranty-exclusions-eight-items`. On the three air rowers prisons is **not** the whole answer; their item 8 bars any environment other than a home or a non-dues-paying facility used five hours a day or less: `spirit-rower-warranty-use-environment`.

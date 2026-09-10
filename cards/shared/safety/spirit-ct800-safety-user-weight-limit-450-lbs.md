@@ -43,6 +43,7 @@ facets:
   - cr900ent-2021
   - crs800s-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
   - cs800-2021
   - cs800-2024
@@ -102,7 +103,7 @@ source:
     3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021
     printed page 4, CU800ENT-2022 and CR800ENT-2023 printed page 5, and CR900-2025 and
     CU900-2025 as item 11 of their printed page 4. The CU800ENT-2024 manual prints it on its
-    printed page 5
+    printed page 5 The CRW800-2021 rower owner's manual prints the same bullet as the last item of its IMPORTANT SAFETY INSTRUCTIONS list, printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -238,3 +239,25 @@ different manuals; nothing here may be quoted for the water rower.
 **The 2021 CS800 and CRS800S say the same thing.** The CRS800S-2021 prints `User Weight Limit: 450
 lb` and the CS800-2021 `Recommended User Weight Limit: 450 lb` - the same one-word difference between
 the two books as in 2024, and the same figure. Neither says what happens above it.
+
+
+## The 2021 CRW800 rower prints it too, three years before the 2024 book
+
+**The CRW800-2021 owner's manual prints `User Weight Limit: 450 lb`** as the last bullet of its
+IMPORTANT SAFETY INSTRUCTIONS list, printed page 4. The CRW800-2024 book prints the identical
+sentence as item 13 of the same list; the thirteen items are word for word the same in both books
+and only the bullets became numbers (`crw800-2024-safety-instructions-list`). The figure did not
+change between the two printings.
+
+**No other Spirit rower prints 450 lb.** The four remaining rowers of the 2019-2021 range disagree
+with each other and with this figure:
+
+| Rower | Printed limit |
+|---|---|
+| XRW600-2019 | **none printed** (`xt-2015-safety-no-user-weight-limit-printed`) |
+| XRW600-2021 | 350 lb (`spirit-rower-safety-user-weight-limit-350-lb`) |
+| CRW800H2O | 350 lbs (`spirit-rower-safety-user-weight-limit-350-lb`) |
+| CRW900-2021 | 450 lbs in its text and **330 lbs on its own decal** (`crw900-2021-safety-user-weight-limit-contradiction`) |
+
+**Never quote 450 lb for a CRW900 without saying the decal disagrees**, and never read the CRW800
+figure across to an XRW600 or a water rower.

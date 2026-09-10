@@ -60,6 +60,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xrw600-2019
+  - xrw600-2021
   - xs895-2018
   - xs895-2021
   - xt685-2010
@@ -93,7 +95,7 @@ source:
     elliptical owner's manuals print the paragraph on their electrical page - CE850 2016
     page 6, CE850 2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5 The CU800ENT-2022 and
     CR800ENT-2023 bike owner's manuals print the same paragraph on their printed page 5,
-    ending with the dedicated 5 amp breaker sentence
+    ending with the dedicated 5 amp breaker sentence The two Spirit XRW600 rower owner's manuals print the whole paragraph on their Important Electrical Instructions page, printed page 6
   extracted_at: '2026-09-08'
 ---
 
@@ -276,3 +278,13 @@ the CSC900 and the CRW800 rower print neither.
 the others name theirs: the CRS800S-2021 and CS800-2021 steppers on their printed page 5, and the
 XS895 incline stepper on printed page 6 of both the 2018 and 2021 books. The Grainger and Square D
 part numbers are the same in all of them.
+
+
+**The two Spirit XRW600 rower manuals print the whole paragraph**, on their Important Electrical
+Instructions page - `Rower` in place of `treadmill`, the same Grainger part # 1D237 and
+www.squared.com part #QO120HM examples, and the same closing sentence
+`The electrical outlet used should have a dedicated 15 amp circuit breaker`. The February 2019 and
+November 2021 printings agree word for word.
+
+**No other Spirit rower prints it.** The CRW800 air rowers and the CRW900 and CRW800H2O water rowers
+are battery powered and carry no breaker paragraph at all.

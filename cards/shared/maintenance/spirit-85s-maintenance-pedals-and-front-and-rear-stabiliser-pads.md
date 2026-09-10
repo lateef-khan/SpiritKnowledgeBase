@@ -3,8 +3,8 @@ id: spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads
 title: Two leveling pads under each of the front and rear stabilisers, and the pedals
   to retighten as well
 kind: troubleshooting
-question: What makes a Spirit 8.5S stepper squeak, thump or wobble, and how do I level
-  it?
+question: What makes a Spirit 8.5S stepper or 8.5UE upper body ergometer squeak, thump
+  or wobble, and how do I level it?
 asked_as:
 - my 8.5s stepper squeaks
 - the stepper wobbles on the floor
@@ -24,11 +24,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: climber
+  product_line: '*'
   model: '*'
   applies_to:
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -39,6 +40,8 @@ not_to_be_confused_with:
 - spirit-70s-75s-maintenance-leveller-count-and-wrench-disagree
 see_also:
 - spirit-85s-maintenance-care-page-names-dyaco-machines
+- 85ue-2025-maintenance-care-page-names-dyaco-machines
+- 85ue-2025-maintenance-machine-care-schedule
 - spirit-85s-maintenance-machine-care-schedule
 - 80t-2026-maintenance-disinfection-procedure
 - 80t-2026-maintenance-cleaning-cautions
@@ -49,7 +52,12 @@ source:
     these 2025 books come from the same authoring chain as the 2024 range; the two agree.
     spirit-climber-85s-fit-2026-owners-manual prints the same four items at printed p. 46
     (PDF p. 49); the two blocks match at difflib word level 0.993 and the only difference is
-    the model list in the opening sentence'
+    the model list in the opening sentence. spirit-ergometer-85ue-2025-owners-manual prints the
+    same four items at printed p. 52 (PDF p. 54, a +2 offset), under MACHINE CARE; the whole
+    two-column page matches the 8.5S page at difflib word level **0.996** (496 words each) and the
+    only differences are the Dyaco model list in the opening sentence and one line break. That page
+    was read from a 300 dpi render with tesseract --psm 4 as well as from the text layer - native
+    489 words, rendered 485 - so nothing on it is imaged'
   extracted_at: '2026-09-10'
 ---
 
@@ -103,3 +111,26 @@ warning list two pages later is `80t-2026-maintenance-cleaning-cautions`.
 
 **Neither book prints the four-step post-workout routine** — no microfibre cloth for the screen, no
 cupholder line. Searched for "microfiber", "cupholder" and "Store your machine": nothing in either.
+
+## The 8.5UE upper body ergometer prints the identical page
+
+The **8.5UE 2025** owner's manual carries all four items word for word on printed p. 52 — the same
+**90%**, the same **2 levelling pads on the bottom of the front and rear stabilizer**, the same
+**14 mm** wrench with the top-nut and bottom-nut sequence, and the same warranty item 4. The whole
+two-column page matches the 8.5S page at difflib word level 0.996.
+
+**It carries the same lead-in miscount**: "one of two reasons" over a list of four.
+
+**On the 8.5UE item 2 is half literal.** An 8.5UE is an arm-crank ergometer: it has crank arms, and
+"crank arm nut" is exactly the right place to send a customer. It has **no pedals** — its manual
+calls the equivalent parts **foot rest plates** and **handles** — so read the crank arm nut onto it
+and leave the pedals out. Its own care schedule asks for *Handles checking* and *Foot Rest Plate
+cleaning* where the 8.5S asks for pedals (`85ue-2025-maintenance-machine-care-schedule`).
+
+**Its Dyaco model list differs from the 8.5S list** — 8.0T, 8.0R, 8.0U, 8.5S, 8.5UE against the
+8.5S book's 8.0T, 8.0U, 8.5R, 8.5S, 8.5UE. See
+`85ue-2025-maintenance-care-page-names-dyaco-machines`.
+
+**The 8.5UE prints no second wrench size.** The ½" disagreement that the 8.5S, 7.0S and 7.5S books
+carry is not in this one; 14 mm is the only spanner it names.
+

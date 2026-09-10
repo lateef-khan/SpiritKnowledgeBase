@@ -29,6 +29,7 @@ facets:
   - 80t-2026
   - 85s-2025
   - 85s-fit-2026
+  - 85ue-2025
   - ce850-2016
   - ce850-2020
   - ce850-2022
@@ -111,7 +112,7 @@ source:
     (printed 3) The three Spirit CE850 elliptical owner's manuals print the same paragraphs
     on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8 The
     CU800ENT-2024 bike owner's manual prints two capitalised sentences in the WARNING header
-    of its SAFETY INSTRUCTIONS page, printed page 5, and has no grounding page of its own
+    of its SAFETY INSTRUCTIONS page, printed page 5, and has no grounding page of its own The Spirit 8.5UE upper body ergometer owner's manual prints the page as GROUNDING INSTRUCTIONS, printed page 7 (PDF page 9)
   extracted_at: '2026-09-08'
 ---
 
@@ -429,3 +430,25 @@ older books say `If the ... should malfunction or breakdown`; the instruction is
 the CSC880-2025 carry the grounding sentences only as items of their safety list, and those items
 forbid an adapter outright (`csc900-2024-safety-outlet-120-or-230-volt`,
 `spirit-climber-safety-outlet-120-vac-only`). Neither CRS800S printing has a grounding page either.
+
+
+## The Spirit 8.5UE upper body ergometer prints the same page
+
+**Its GROUNDING INSTRUCTIONS page, printed page 7, carries both paragraphs**, with `the 8.5UE`
+in place of `the treadmill` and one added clause - `In the unlikely event that the 8.5UE's
+electrical system should malfunction or breakdown`. Grounding is mandatory, the risk named is
+electric shock, and if the plug does not fit the outlet a qualified electrician changes the outlet.
+
+**It names no nominal voltage in that paragraph.** Where the treadmill and CE850 books close with
+`This product is for use on a nominal 120-volt circuit`, the 8.5UE sentence simply stops. Its supply
+figure is on the safety page instead - 100 to 240 volt AC, 50/60 Hz, on a 15-amp circuit
+(`85ue-2025-safety-outlet-100-to-240-volt-50-60-hz-15-amp`) - and its safety list adds
+`this equipment must only be connected to a supply main with protective earth`.
+
+**Its illustration shows a temporary adapter that its text never mentions.** The boxed drawing on
+the same page labels a `Grounded Outlet`, a `Grounded Pin`, a `Grounded Outlet Pin`, an `Adapter`, a
+`Metal Screw` and a `Tab of Grounding Screw` - the two-pole-receptacle adapter picture - while the
+text above it says only `Do not modify the plug provided with the product if it will not fit the
+outlet; have a proper outlet installed by a qualified electrician`. **The manual prints no adapter
+procedure and no permission to use one**, so do not read one out of the drawing
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`). Read from a 300 dpi render of printed page 7.

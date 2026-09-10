@@ -2,7 +2,7 @@
 id: crw800-2024-programs-the-three-interval-modes-of-ten-cycles
 title: The 20/10, 10/20 and Custom Interval modes, each running ten exercise and rest cycles
 kind: procedure
-question: How do the interval programs work on the Spirit crw800-2024 rower?
+question: How do the interval programs work on a Spirit rower with a MODE button?
 asked_as:
 - what is the 20 10 interval on the rower
 - can i set my own interval times
@@ -22,9 +22,12 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
+  - xrw600-2021
   section: programs
   code: '*'
 authority: 3
@@ -35,7 +38,8 @@ see_also:
 - crw800-2024-programs-eleven-workout-modes-in-mode-button-order
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: printed pages 20-21
+  locator: 'CRW800 2024 printed pp. 20-21; CRW800 2021 printed pp. 21-23 (PDF pp. 23-25);
+    XRW600 2019 and 2021 printed pp. 24-26'
   extracted_at: '2026-09-10'
 ---
 

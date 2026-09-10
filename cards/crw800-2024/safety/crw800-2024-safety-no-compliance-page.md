@@ -2,8 +2,8 @@
 id: crw800-2024-safety-no-compliance-page
 title: The rower manual prints no compliance, FCC or certification page
 kind: fact
-question: What standards is a Spirit CRW800-2024 rower certified to, and does its manual carry
-  an FCC notice?
+question: What standards is a Spirit CRW800, CRW800H2O or XRW600 rower certified to, and does its
+  manual carry an FCC notice?
 asked_as:
 - is the spirit rower fcc approved
 - what certifications does the crw800 have
@@ -24,9 +24,13 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
+  - crw800h2o
+  - xrw600-2019
+  - xrw600-2021
   section: safety
   code: '*'
 authority: 3
@@ -62,3 +66,24 @@ occurrence of `FCC`, `UL`, `Part 15` or `FTMS`.
 
 **Do not answer a rower owner from the sibling manuals' compliance page.** Nothing in this book says
 the machine is certified to those standards, and nothing says it is not.
+
+
+## Four more Spirit rower manuals print no compliance page either
+
+**CRW800-2021, XRW600-2019, XRW600-2021 and CRW800H2O name no standard, print no FCC Part 15
+declaration, no Class B interference notice and no RF exposure separation distance.** The strings
+`FCC`, `UL`, `Part 15`, `FTMS` and `compliance` occur nowhere in any of the four books.
+
+**The absence is genuine and not a lost text layer.** Every page of all four that extracts under 25
+native words was re-rendered at 300 dpi and read with OCR; none is a compliance page, and none
+mentions a certification.
+
+**The CRW900-2021 is the one rower with certification marks, and they are on a picture.** Its
+warning-labels page reproduces a serial decal carrying the **CE**, **TÜV** and **GS** marks and
+`CLASS : SC`, with no accompanying text anywhere in the book
+(`crw900-2021-safety-warning-labels-and-serial-decal`). Those marks are all the certification
+information any Spirit rower manual gives, and they belong to that machine alone.
+
+**The 8.5UE upper body ergometer is the opposite case.** Its specification page prints a full
+CERTIFICATIONS block - IEC 60601-1, EN ISO 20957, EU MDR 2017/745 Class I and more - because it is
+a medical device. Nothing there may be read onto a rower.

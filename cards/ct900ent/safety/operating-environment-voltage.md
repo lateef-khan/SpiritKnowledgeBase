@@ -42,6 +42,7 @@ facets:
   - cr900-2025
   - cr900ent-2021
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
   - cs800-2024
   - csc900-2024
@@ -86,6 +87,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xrw600-2019
+  - xrw600-2021
   - xt685-2010
   section: safety
   code: '*'
@@ -122,7 +125,7 @@ source:
     Spirit commercial bike owner's manuals print the temperature paragraph on their electrical
     page - CR900-2018, CU900-2018, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021,
     CR800-2023 and CU800-2021 printed pages 4 to 5, CU800ENT-2022 and CR800ENT-2023 printed page
-    5, CR900-2025 and CU900-2025 printed page 5, and CU800-2012 printed page 3 in both scans
+    5, CR900-2025 and CU900-2025 printed page 5, and CU800-2012 printed page 3 in both scans The XRW600-2019 and XRW600-2021 rower owner's manuals print both paragraphs on their Important Electrical Instructions page, printed page 6, and the CRW800-2021 prints the temperature sentences only, on its printed page 4
   extracted_at: '2026-08-24'
 ---
 
@@ -353,3 +356,25 @@ and for them the answer to a voltage question is that the manual gives none:
 CE800ENT-2024 and the CR800ENT-2024 print `The temperature specification is 40 degrees C, and
 humidity is 95%, non-condensing` (`xt-2023-safety-operating-environment-limits`). Never convert one
 statement into the other; give the figure from the machine's own manual.
+
+
+## Three Spirit rower manuals print the same block
+
+**XRW600-2019, XRW600-2021 and CRW800-2021** print `40 to 120 degrees Fahrenheit` and
+`95% non-condensing`, with `Rower` in place of `treadmill`, on their electrical page.
+
+| Manual | Temperature and humidity | Ten-percent voltage paragraph |
+|---|---|---|
+| XRW600-2019, XRW600-2021 | yes | yes |
+| CRW800-2021 | yes | **not printed** |
+
+**The CRW800-2021 prints the temperature sentences without the voltage paragraph**, because its
+console runs on two C batteries and it names no supply at all
+(`crw800-2024-safety-console-runs-on-two-c-batteries`). Its whole IMPORTANT ELECTRICAL INSTRUCTIONS
+section is the moisture and temperature warning and nothing else.
+
+**The CRW800-2024, CRW900-2021 and CRW800H2O are not on this card for different reasons.** The 2024
+book is carried above; the two water rowers print **no electrical page at all** and state no
+temperature, humidity or voltage anywhere
+(`spirit-water-rower-safety-four-aa-batteries-and-no-electrical-page`). Do not read 40 to 120
+Fahrenheit onto a water rower.

@@ -35,6 +35,8 @@ not_to_be_confused_with:
 see_also:
 - spirit-crw800-specs-no-specification-table
 - crw800-2024-specs-resistance-system
+- spirit-rower-specs-crw800-parts-list-2021-vs-2024
+- spirit-rower-specs-which-manuals-print-a-parts-list
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: Exploded view printed p. 35 (PDF p. 37); Parts List printed pp. 36-37 (PDF pp.
@@ -48,10 +50,16 @@ readable form of it.
 
 **145 rows are printed.** The whole item numbers that appear are 1-40, 43-115, 120-132, 134-137, 139. Any number outside that run is **not printed in this manual at all** - 41, 42, 116, 117, 118, 119, 133, 138 are absent, not a missing page.
 
-**This is the first parts list the repository holds for a Spirit air-and-magnetic
-rower.** The only other Spirit rower carded is the **CRW800 H2O, a water rower** -
-a different machine with a different mechanism. `crw800h2o-outlines-part-names`
-is not an answer for this one.
+**The CRW800-2021 manual prints this same list**, with 98.3% of the part names
+shared and exactly two rows different - see
+`spirit-rower-specs-crw800-parts-list-2021-vs-2024` before quoting item 96 or
+item 132 for a machine of either year.
+
+**No other Spirit rower list resembles this one.** The two water rowers are
+different machines with different mechanisms - the CRW900 numbers its parts with
+five-digit part numbers on eight drawing sheets, and the CRW800H2O prints no list
+at all. The XRW600 books print none either. See
+`spirit-rower-specs-which-manuals-print-a-parts-list`.
 
 ## Item 132 is printed twice, with two different parts
 

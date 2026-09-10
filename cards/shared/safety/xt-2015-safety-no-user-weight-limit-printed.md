@@ -48,6 +48,7 @@ facets:
   - xe795-2018
   - xe895-2018
   - xg400-2019
+  - xrw600-2019
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -81,7 +82,7 @@ source:
     carries no specification table The Spirit CE850-2016 elliptical owner's manual has no
     weight item on its Important Safety Instructions page, pages 5-6 The CU800 2012 owner's
     manual prints no weight item on its Important Safety Instructions page, printed page 2,
-    in either of the two scans the source concatenates, and carries no specification table
+    in either of the two scans the source concatenates, and carries no specification table The XRW600-2019 rower owner's manual prints no weight item on its Important Safety Instructions page, printed page 5, and carries no specification table
   extracted_at: '2026-09-09'
 ---
 
@@ -230,3 +231,24 @@ four 2023 manuals print `User Weight Limit: 350 lbs.`
 (`spirit-bike-safety-user-weight-limit-350-lb`). An owner of one of these eight will find no limit
 in their own book; do not tell them their machine has none, and do not read 350 lb back onto it as
 the manual's answer.
+
+
+## The 2019 Spirit XRW600 rower prints no figure either
+
+**The XRW600-2019 owner's manual states no user weight limit anywhere.** The words *lb*, *lbs*, *kg*,
+*capacity* and *weight limit* appear nowhere in the 40-page book; the only four occurrences of
+*weight* are `Weight Loss` on the heart-rate zone chart and the body weight it discusses there. Its
+safety list runs from the extension-cord header to `Keep children under the age of 13 away from this
+machine` with no weight item, and the manual has no specification table. Every page of the book that
+extracts under 25 native words was re-read from a 300 dpi render and none carries a weight figure
+either.
+
+**Its own successor prints one, which is exactly why it must not be filled in.** The XRW600-2021
+printing is otherwise the same book - the two safety chapters share 94.4% of their eight-word
+phrases - and its one substantive change is a new final bullet, `Recommended Weight Limit: 350 lb`
+(`spirit-rower-safety-user-weight-limit-350-lb`). The Proposition 65 box also moved from page 5 to
+page 6. Nothing else on the safety pages differs.
+
+So an owner reading the February 2019 book will find no limit in it while the November 2021 book for
+the same machine name states one. **Say the 2019 manual does not print one**, and give 350 lb only
+with the printing it comes from.

@@ -35,6 +35,7 @@ facets:
   - ce900-2021
   - ce900-2025
   - cr800ent-2023
+  - crw800-2021
   - cu800ent-2022
   - cu800ent-2024
   - xbr25-2019
@@ -71,6 +72,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xrw600-2019
+  - xrw600-2021
   section: safety
   code: '*'
 authority: 3
@@ -95,7 +98,7 @@ source:
     shag-carpet bullet; the corresponding pages of the other eight manuals The CU800ENT-2022
     and CR800ENT-2023 bike owner's manuals print both rules on their IMPORTANT SAFETY
     INSTRUCTIONS page, printed page 4, and the CU800ENT-2024 manual on its SAFETY
-    INSTRUCTIONS page, printed page 5
+    INSTRUCTIONS page, printed page 5 The XRW600-2019 and XRW600-2021 rower owner's manuals print both sentences on their printed page 5 and the CRW800-2021 the carpet bullet alone on its printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -228,3 +231,24 @@ What they say about where the bike may stand is the same two sentences:
 **Levelling is not a placement rule.** All four 2023 manuals tell you to adjust the levelling feet
 with an M14 wrench on their setting-up page; that is a setup step and says nothing about the space
 around the machine.
+
+
+## The three Spirit air rowers print no clearance figure either
+
+**XRW600-2019, XRW600-2021 and CRW800-2021** name no distance from a wall, no side or rear space, no
+ceiling height and no room size. What they say about where the rower may stand is the same two
+sentences the ellipticals print:
+
+| Manual | Shag carpet rule | Flat level surface |
+|---|---|---|
+| XRW600-2019, XRW600-2021 | yes, first bullet | yes, in the 110-volt outlet WARNING |
+| CRW800-2021 | yes, first bullet | **not printed** |
+
+The CRW800-2021 has no outlet sentence to carry the flat-level-surface phrase, because it is battery
+powered, so the carpet rule is the whole of what it says about the floor.
+
+**The two Spirit water rowers do print a figure and are not on this card.** The CRW900-2021 and
+CRW800H2O manuals ask for `an area no less than 2ft kept clear around the rower`
+(`spirit-water-rower-safety-two-feet-of-clearance`), and the 8.5UE upper body ergometer asks for
+more again (`85ue-2025-safety-clearance-two-feet-sides-one-front-three-and-a-half-rear`). Never
+answer a water rower or an ergometer owner from this card.

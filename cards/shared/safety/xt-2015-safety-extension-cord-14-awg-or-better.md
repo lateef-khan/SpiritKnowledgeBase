@@ -44,6 +44,8 @@ facets:
   - xe795-2018
   - xe795-2021
   - xe895-2018
+  - xrw600-2019
+  - xrw600-2021
   - xs895-2018
   - xs895-2021
   - xt185-2015
@@ -78,7 +80,7 @@ source:
     page 6, CE800ENT page 4 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print
     the same capitalised line in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS
     page, printed page 4, and the CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page,
-    printed page 5
+    printed page 5 The two Spirit XRW600 rower owner's manuals print the same capitalised sentence under the outlet WARNING on their printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -195,3 +197,13 @@ the XS895 incline stepper on printed page 4 of both the 2018 and 2021 books.
 **The 8.5S and 8.5S-Fit ask for 16awg or larger instead**, in item 2 of their own lists
 (`spirit-extension-cord-16-awg-or-better`), and the 7.0S, 7.5S and MS300 print no extension-cord
 gauge at all. Never carry 14AWG onto one of those five.
+
+
+**The two Spirit XRW600 rower manuals print the same rule**, in capitals directly under the outlet
+WARNING on their Important Safety Instructions page:
+
+> DO NOT USE AN EXTENSION CORD UNLESS IT IS A 14AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END:
+
+The February 2019 and November 2021 printings are identical in this sentence. **No other Spirit
+rower prints an extension-cord rule at all** - the CRW800 air rowers and the two water rowers are
+battery powered and have nothing to plug in.

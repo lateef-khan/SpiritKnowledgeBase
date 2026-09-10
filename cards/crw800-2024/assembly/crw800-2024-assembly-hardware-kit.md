@@ -3,7 +3,7 @@ id: crw800-2024-assembly-hardware-kit
 title: Hardware for the four tables, and the flat washer typed as a bolt in the step
   four table
 kind: fact
-question: What fasteners does each step of the Spirit CRW800 (crw800-2024) rower
+question: What fasteners does each step of the Spirit CRW800 rower (crw800-2021 or crw800-2024)
   assembly use, and how many of each?
 asked_as:
 - what bolts come with the crw800
@@ -23,20 +23,24 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: assembly
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xrw600-assembly-hardware-by-step
+- crw800h2o-assembly-hardware-kit
 see_also:
 - crw800-2024-assembly-procedure
 - crw800-2024-assembly-tools-included
 - crw800-2024-assembly-parts-included
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: pp. 9-12, the HARDWARE FOR STEP tables
+  locator: pp. 9-12, the HARDWARE FOR STEP tables; the same four tables at pp. 7-10
+    of the 2021 manual (`spirit-rower-crw800-2021-owners-manual`)
   extracted_at: '2026-09-10'
 ---
 
@@ -105,6 +109,19 @@ the carton - see [the tools card](crw800-2024-assembly-tools-included.md).
 Steps one, three and four match their own text line for line. **Step two is the only one
 that does not close against the bag**, and only because two of its five fasteners come off
 the machine rather than out of the hardware kit.
+
+## The 2021 and 2024 tables are identical row for row
+
+All twelve rows across the four tables - part number, type, description and quantity -
+match exactly between the two printings, whitespace aside. **Item 122 is typed as a bolt
+in the step four table of both books**, so that is a fault the 2024 redesign inherited
+rather than introduced, and the five-bolts-four-washers step three is in both as well.
+
+## The XRW600 hardware is not this hardware
+
+That rower fits its front stabiliser with three bolts and no spring washer, and shares
+only item 123 with this table. See
+[the XRW600 hardware card](../../shared/assembly/spirit-xrw600-assembly-hardware-by-step.md).
 
 ## What the tables do not print
 

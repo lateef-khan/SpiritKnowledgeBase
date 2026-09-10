@@ -39,7 +39,9 @@ facets:
   - cr800-2024
   - cr800ent-2023
   - crs800s-2024
+  - crw800-2021
   - crw800-2024
+  - crw800h2o
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -65,6 +67,8 @@ not_to_be_confused_with:
 - mt200-2022-warranty-service-clock
 - ct800ent-2022-warranty-console-periods
 see_also:
+- crw800-2021-warranty-commercial-and-residential-periods
+- crw800h2o-warranty-coverage-periods
 - spirit-ce-warranty-commercial-periods
 - spirit-ce-warranty-residential-periods
 - spirit-ct800-warranty-commercial-periods
@@ -131,3 +135,11 @@ The **CT800** and **CT850** treadmills, the **CE800** and **CE850** ellipticals,
 **Five of the fourteen do not belong on this card.** The **CT800ENT**, **CT850ENT**, **CE800ENT** and **CR800ENT** print **no general Labor column at all** - only a Console Labor column of 1 Year - so their manuals state no labor period for the machine (`spirit-2024-treadmill-ent-warranty-coverage-periods`, `cu800ent-2024-warranty-coverage-periods`). The **CSC900** merges parts and labor into one column at **3 Years** (`spirit-2024-stair-climber-warranty-coverage-periods`). Do not carry two years onto any of the five.
 
 The tables for the nine are `spirit-2024-treadmill-warranty-coverage-periods` and `spirit-2024-warranty-coverage-periods-parts-labor`.
+
+## The two Spirit rowers of October and November 2021 read two years as well
+
+The **CRW800** warranty effective October 08, 2021 and the **CRW800H2O** water rowing machine warranty effective November 12, 2021 both read **2 Years** in the Labor column of **both** rows - commercial and residential - and both print the same SERVICE paragraph dating the term from twelve months on the bill of sale or eighteen months from factory shipping. Their tables are `crw800-2021-warranty-commercial-and-residential-periods` and `crw800h2o-warranty-coverage-periods`.
+
+**The paragraph disagrees with the column on these two the same way it does everywhere else**, and neither manual reconciles it. Quote both.
+
+**Do not carry two years onto the other three rowers or onto the ergometer.** Both XRW600 printings read **Labor 1 Year** in their single residential row. The **CRW900** reads **1 Year** commercially and **2 Years** residentially, so the answer there depends on which row the machine sits in (`crw900-2021-warranty-five-column-periods-tank-and-seals`). The **8.5UE** upper body ergometer reads **1 Year** in its single commercial row (`85ue-2025-warranty-commercial-parts-five-years-labor-one-year`). Four of the seven rower and ergometer manuals in this knowledge base are not two-year machines.

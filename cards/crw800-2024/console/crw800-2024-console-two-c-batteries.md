@@ -2,7 +2,7 @@
 id: crw800-2024-console-two-c-batteries
 title: The console runs on two C batteries that are not supplied, in a compartment on the back of it
 kind: fact
-question: What powers the console on a Spirit crw800-2024 rower?
+question: What powers the console on a Spirit CRW800 rower?
 asked_as:
 - what batteries does the spirit rower take
 - my rower display is dead
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: console
   code: '*'
@@ -30,12 +31,15 @@ authority: 3
 not_to_be_confused_with:
 - spirit-bike-console-air-bike-four-aa-batteries
 - spirit-bike-console-xic600-two-aaa-batteries-each
+- spirit-water-rower-console-four-aa-batteries
 see_also:
 - crw800-2024-console-button-functions
 - crw800-2024-console-screen-overview
+- xrw600-console-no-power-source-is-named
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: p. 14, FEATURES / BATTERY INSTALLATION
+  locator: CRW800-2024 printed p. 14, FEATURES / BATTERY INSTALLATION. The CRW800-2021 prints the
+    same two sentences on its printed p. 13 (PDF p. 15), spelling the word "compartement"
   extracted_at: '2026-09-10'
 ---
 
@@ -62,5 +66,16 @@ names, then the 12 V supply the troubleshooting table names.
 (`spirit-bike-console-air-bike-four-aa-batteries`) and the XIC600 takes **two AAA** in each of two
 compartments (`spirit-bike-console-xic600-two-aaa-batteries-each`). Do not carry a cell size across.
 
-**The CRW800H2O water rower is a different machine and is not covered here.** Nothing on this card is
-claimed for it.
+**Both CRW800 printings say it.** The 2021 book and the 2024 book print the same two sentences; the
+2021 book spells it *"battery compartement"*. **That typo is the only textual change in the whole
+console chapter between the two printings** - everything else, down to the eleven-mode order and the
+270-second sleep, is word for word.
+
+**The XRW600 is not covered here and takes nothing from this card.** Its manual has no BATTERY
+INSTALLATION section at all and names no power source for its console
+(`xrw600-console-no-power-source-is-named`). **Do not tell an XRW600 owner it takes two C cells** -
+neither of its manuals says so.
+
+**The CRW800H2O and CRW900 water rowers are different machines and are not covered here.** They take
+**four AA** cells (`spirit-water-rower-console-four-aa-batteries`). Nothing on this card is claimed
+for them.

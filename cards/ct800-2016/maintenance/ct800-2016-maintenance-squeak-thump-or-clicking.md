@@ -52,6 +52,8 @@ facets:
   - xe795-2018
   - xe795-2021
   - xe895-2018
+  - xrw600-2019
+  - xrw600-2021
   - xs895-2018
   - xs895-2021
   section: maintenance
@@ -71,6 +73,7 @@ not_to_be_confused_with:
 - ce800-2013-maintenance-squeak-thump-or-clicking
 - spirit-ce900-maintenance-squeak-thump-or-clicking
 - spirit-xe-maintenance-squeak-thump-or-clicking
+- crw800-2021-maintenance-two-remedies-and-no-crank-arm-nut
 see_also:
 - cvc800-noise-troubleshooting
 - crs800s-2024-maintenance-step-rail-and-carriage-cleaning
@@ -80,9 +83,11 @@ see_also:
 - ct900-belt-deck-cleaning
 - ct900-sanitizing-equipment
 - ct800-2016-assembly-levelling-pads
+- spirit-rower-maintenance-no-lubricant-named-anywhere
+- spirit-xe-maintenance-no-sanitizing-section
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text. Ten of the fourteen 2024 New Black Units manuals print the same block word for word under MACHINE CARE - CONTINUED, added in wave 15: ct800-2024 and ct850-2024 printed p. 40, ct800ent-2024 and ct850ent-2024 printed p. 56, ce800-2024 printed p. 36, ce850-2024 printed p. 37, ce800ent-2024 printed p. 49, crs800s-2024 printed p. 34, cs800-2024 printed p. 35 and crw800-2024 printed p. 30. Each of those pages was read from a 300 dpi render with tesseract --psm 4, not from the text layer, because every one of these PDFs carries a second, invisible text layer whose wording differs. Six Spirit climber and stepper owner''s manuals were added in wave 16, all measured from the PDF page rather than from text.md and compared with difflib at word level: spirit-climber-cs800-2021-owners-manual printed p. 34 (PDF p. 37) and spirit-climber-cvc800-2021-owners-manual printed p. 24 (PDF p. 27) are identical to each other at **1.000**; spirit-climber-70s-2025-owners-manual printed p. 37 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 39 (PDF p. 42), under MACHINE CARE, are identical to each other at **1.000** and to the CS800 2021 block at **1.000**; spirit-climber-xs895-2018-owners-manual and spirit-climber-xs895-2021-owners-manual, both printed p. 33 (PDF p. 34), are identical to each other at **1.000** and match the CS800 2021 block at **0.935**, the difference being only the lead-in wording and where the list breaks. The 7.0S, 7.5S and 8.5S pages were checked against a 300 dpi render because these 2025 books come from the same authoring chain as the 2024 range; the rendered page and the extraction agree'
+  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text. Ten of the fourteen 2024 New Black Units manuals print the same block word for word under MACHINE CARE - CONTINUED, added in wave 15: ct800-2024 and ct850-2024 printed p. 40, ct800ent-2024 and ct850ent-2024 printed p. 56, ce800-2024 printed p. 36, ce850-2024 printed p. 37, ce800ent-2024 printed p. 49, crs800s-2024 printed p. 34, cs800-2024 printed p. 35 and crw800-2024 printed p. 30. Each of those pages was read from a 300 dpi render with tesseract --psm 4, not from the text layer, because every one of these PDFs carries a second, invisible text layer whose wording differs. Six Spirit climber and stepper owner''s manuals were added in wave 16, all measured from the PDF page rather than from text.md and compared with difflib at word level: spirit-climber-cs800-2021-owners-manual printed p. 34 (PDF p. 37) and spirit-climber-cvc800-2021-owners-manual printed p. 24 (PDF p. 27) are identical to each other at **1.000**; spirit-climber-70s-2025-owners-manual printed p. 37 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 39 (PDF p. 42), under MACHINE CARE, are identical to each other at **1.000** and to the CS800 2021 block at **1.000**; spirit-climber-xs895-2018-owners-manual and spirit-climber-xs895-2021-owners-manual, both printed p. 33 (PDF p. 34), are identical to each other at **1.000** and match the CS800 2021 block at **0.935**, the difference being only the lead-in wording and where the list breaks. The 7.0S, 7.5S and 8.5S pages were checked against a 300 dpi render because these 2025 books come from the same authoring chain as the 2024 range; the rendered page and the extraction agree. Two Spirit XRW600 air-rower owner''s manuals were added in wave 17, both printed p. 37 (PDF p. 37, no offset): spirit-rower-xrw600-2019-owners-manual and spirit-rower-xrw600-2021-owners-manual. The two blocks are identical to each other at difflib word level **0.987** (151 words each, the difference being only where pdftotext hyphenates), and each matches the CT800 2016 block at **0.954** and **0.947**. Both pages were read from a 300 dpi render with tesseract --psm 4 as well as from the text layer (native 151 / rendered 149 on the 2019, native 270 / rendered 271 on the 2021, whose page also carries the sanitizing block), so neither hides imaged text. The XRW600 wording says "one of **three** reasons" and numbers the three remedies I/II/III, giving the crank arm nut its own item; no figure changes'
   extracted_at: '2026-09-09'
 ---
 
@@ -230,3 +235,27 @@ and a **½"** wrench: `spirit-70s-75s-maintenance-leveller-count-and-wrench-disa
 **The CRS800S also carries a rail-cleaning procedure this card has no room for** —
 `crs800s-2024-maintenance-step-rail-and-carriage-cleaning`, printed in the 2021 and 2024 books
 alike.
+
+## Both XRW600 air rowers print it, and the crank arm nut is a carry-over there too
+
+The **XRW600 2019** and **XRW600 2021** owner's manuals carry the block on printed p. 37 with all
+three figures unchanged — **90% of noise calls, 2 levelling pads on the bottom of the rear
+stabilizer, a 14 mm wrench**. Their lead-in says "one of **three** reasons" and numbers the
+remedies I, II and III, so unlike the treadmill and elliptical printings they do not carry the
+miscount. The two printings are identical to each other at difflib word level 0.987.
+
+**An XRW600 has no crank arm.** The phrase appears nowhere else in either book — not in the
+assembly chapter and not in the parts list. Quote the loose-hardware and levelling checks and stop
+there, as on the treadmills, the steppers and the CRW800 2024.
+
+**The CRW800 2021 is the rower this card does not cover.** Its page prints the same three figures
+but only **two** remedies, with no crank arm nut at all —
+`crw800-2021-maintenance-two-remedies-and-no-crank-arm-nut`. Its own 2024 successor put the crank
+arm nut back, so the sentence arrived on that machine between the two printings.
+
+**Neither water rower prints any of this.** The CRW800H2O and the CRW900 2021 have no
+sweat-path sentence, no noise section, no pad count and no wrench size: `squeak`, `crank arm`,
+`leveling pads` and `14mm` all return zero hits across both books including their OCR supplements.
+Their maintenance page is a schedule table instead —
+`spirit-water-rower-maintenance-weekly-rails-and-hundred-hour-belt-check`.
+

@@ -3,7 +3,7 @@ id: crw800-2024-assembly-procedure
 title: 'Four-step rower build: front stabilizer, rear stabilizer onto the track,
   folding end assembly, then pedals, cover and seat'
 kind: procedure
-question: How do I assemble a Spirit CRW800 (crw800-2024) rower from the carton?
+question: How do I assemble a Spirit CRW800 rower (crw800-2021 or crw800-2024) from the carton?
 asked_as:
 - how do i put together the crw800
 - what order do i assemble the spirit rower in
@@ -22,14 +22,17 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
 - crw800h2o-aluminum-rail-replacement
+- spirit-xrw600-assembly-procedure
+- crw800h2o-assembly-procedure
 see_also:
 - crw800-2024-assembly-tools-included
 - crw800-2024-assembly-parts-included
@@ -38,7 +41,8 @@ see_also:
 - ct900-pre-assembly
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: pp. 9-12, ASSEMBLY - STEP ONE to STEP FOUR
+  locator: pp. 9-12, ASSEMBLY - STEP ONE to STEP FOUR; the same four steps at
+    pp. 7-10 of the 2021 manual (`spirit-rower-crw800-2021-owners-manual`)
   extracted_at: '2026-09-10'
 ---
 
@@ -48,6 +52,11 @@ Item numbers in parentheses are the assembly-drawing numbers. Hardware quantitie
 
 **This is not the water rower.** The Spirit CRW800H2O builds differently and shares no
 item number with this machine.
+
+**The 2021 and 2024 printings are the same build.** Every part number, description and
+quantity in all four hardware tables is identical between them, and the step texts differ
+only in line breaks. The 2024 redesign moved each table below its step and renumbered the
+pages; it changed nothing an assembler does.
 
 ## Step one - front stabilizer
 

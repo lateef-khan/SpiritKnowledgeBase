@@ -2,7 +2,7 @@
 id: crw800-2024-programs-game-workout
 title: The Game workout, a five minute scrolling game where your height on screen is your stroke speed
 kind: fact
-question: What is the Game workout on the Spirit crw800-2024 rower?
+question: What is the Game workout on a Spirit CRW800 rower?
 asked_as:
 - what is the game mode on the rower
 - how does the rowing game work
@@ -21,18 +21,20 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2021
   - crw800-2024
   section: programs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xrw600-programs-game-workout-with-an-obstacle-field
 see_also:
 - crw800-2024-programs-eleven-workout-modes-in-mode-button-order
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: printed page 23
+  locator: 'CRW800 2024 printed p. 23; CRW800 2021 printed p. 27 (PDF p. 29)'
   extracted_at: '2026-09-10'
 ---
 
@@ -46,5 +48,9 @@ Choose Game workout mode with the **MODE** button, then press **Start/Stop** to 
 - **The time for the game workout starts counting down from 5 minutes and ends when time is up.**
 
 **The Game duration is fixed at 5 minutes**; unlike every other timed mode on this console it takes
-no user setting. The manual states no score, no obstacle and no win condition - the scrolling
-profile and the height of your marker are all it describes.
+no user setting. **Both CRW800 books state no score, no obstacle and no win condition** - the
+scrolling profile and the height of your marker are all they describe.
+
+**The XRW600 books add a sentence these two do not print**, giving the game a goal and an obstacle
+field - see `spirit-xrw600-programs-game-workout-with-an-obstacle-field`. Do not read that goal back
+onto a CRW800.
