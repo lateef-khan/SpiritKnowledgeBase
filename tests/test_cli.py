@@ -259,6 +259,22 @@ def test_facet_gaps_names_the_machines_still_missing_the_facet(repo):
     assert "1 machines without model_number, 0 with it" in result.output
 
 
+def test_facet_gaps_counts_a_list_valued_facet(repo):
+    """model_number is an array, so a machine with two SKUs still counts as carried."""
+    (repo / "kb.yaml").write_text(
+        OPTIONAL_KB_YAML.replace(
+            "  model_number:\n    index: keyword\n    optional: true",
+            "  model_number:\n    index: keyword\n    array: true\n    optional: true",
+        )
+    )
+    (repo / "cards" / "card-a.md").write_text(
+        CARD.replace("  applies_to: [f63]", "  applies_to: [f63]\n  model_number: ['720080', '720087']")
+    )
+    result = run(repo, "facet-gaps")
+    assert result.exit_code == 0
+    assert "0 machines without model_number, 1 with it" in result.output
+
+
 def test_facet_gaps_ignores_a_card_naming_several_machines(repo):
     (repo / "kb.yaml").write_text(OPTIONAL_KB_YAML)
     (repo / "cards" / "card-a.md").write_text(
