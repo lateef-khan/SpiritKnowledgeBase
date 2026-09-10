@@ -2,7 +2,7 @@
 id: xe395ent-2021-console-settings-menu-and-its-eight-items
 title: The eight items in the touchscreen Settings menu, including Child Lock, Units and Display Mode
 kind: fact
-question: What is in the Settings menu on a Spirit xe395ent-2021 elliptical?
+question: What is in the Settings menu on a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
 asked_as:
 - how do i change the time on my elliptical
 - how do i update the software on the console
@@ -22,9 +22,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe395ent-2021
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   section: console
   code: '*'
@@ -37,7 +39,7 @@ see_also:
 - xt485ent-2023-console-wifi-first-time-setup
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: p. 22, SETTINGS
+  locator: p. 22, SETTINGS; XBR55ENT and XBU55ENT p. 19, SETTINGS
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +72,16 @@ interchangeable.
 
 **Units here changes the whole console.** Each profile can also carry its own unit system:
 `xe395ent-2021-console-profiles-and-the-spirit-app-link`.
+
+**Both Spirit ENT residential bikes print the same eight items in the same order** on their **p. 19**,
+so this card is no longer elliptical-only: DISPLAY BRIGHTNESS, WIFI, BLUETOOTH, SOFTWARE, DATE or
+TIME, CHILD LOCK, UNITS and DISPLAY MODE, with the same descriptions word for word.
+
+**This is where a Bluetooth chest strap is paired on these two bikes.** Their console has no Polar
+receiver and no Pulse Grip Feature paragraph, so the strap comes in here, alongside earphones and
+speakers. Their own 3.5 mm jack is an input only:
+`xe395ent-2021-console-panel-call-outs-and-the-audio-jack`.
+
+**Neither ENT bike has an engineering menu either.** No key test, no display test, no odometer reset
+and no calibration is described anywhere in either book - unlike every LED-console residential bike,
+which reaches one by holding Start, Stop and Enter for five seconds.

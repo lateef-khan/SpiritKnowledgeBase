@@ -2,7 +2,7 @@
 id: spirit-xe-console-the-last-age-and-weight-entered-becomes-the-new-default
 title: The last age and weight entered are saved as the new defaults, so a second user overwrites the first
 kind: fact
-question: Why has my age or weight changed on my Spirit XE elliptical console?
+question: Why has my age or weight changed on my Spirit XE elliptical or XB bike console?
 asked_as:
 - why is my weight wrong on the elliptical
 - do i have to enter my age every time on the elliptical
@@ -21,9 +21,21 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   - xe100-2007
   - xe195-2019
   - xe195-2021
@@ -53,8 +65,7 @@ see_also:
 - xe395ent-2021-console-profiles-and-the-spirit-app-link
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 21; XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE395 2018 p. 23;
-    XE795 2018 p. 21; XE895 2018 p. 23; XE195 2019 p. 21; XE295 2019 p. 22; XG400 2019 p. 21; XE395 2010 p. 18; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 and XE300 p. 36 of the XE100/XE200/XE300 manual; XE350/XE550 p. 23 of the XE150/XE350/XE550 manual
+  locator: XE795 2021 p. 21; XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE395 2018 p. 23; XE795 2018 p. 21; XE895 2018 p. 23; XE195 2019 p. 21; XE295 2019 p. 22; XG400 2019 p. 21; XE395 2010 p. 18; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 and XE300 p. 36 of the XE100/XE200/XE300 manual; XE350/XE550 p. 23 of the XE150/XE350/XE550 manual; XBR95 2016, 2018 and 2021 p. 19, XBR25 2019 p. 18, XBR55/XBU55 2019 and 2021 p. 20, all Entering A Program & Changing Settings; XBR25 2023 p. 21, XBR95 2023 p. 26, XBR55/XBU55 2023 p. 27, all PROGRAMS INTRO
   extracted_at: '2026-09-09'
 ---
 
@@ -85,3 +96,18 @@ Target HR program asks for an age each time it is set up.
 
 **The XE395ENT stores profiles instead.** Its touchscreen keeps up to nine, each with its own data;
 see `xe395ent-2021-console-profiles-and-the-spirit-app-link`.
+
+**Twelve Spirit residential bike printings print the same note word for word**, so this card is no
+longer elliptical-only - the bikes just say "the first time you use the **fitness bike**" where the
+ellipticals say elliptical. One slot, last entry wins, no user profiles.
+
+**Pressing Start at a program's first data screen bypasses data entry on the bikes too** and uses the
+default or last saved settings.
+
+**On the XBR95 printings age does one more job.** Their Programming The Console paragraph says
+entering your Age "ensures that the **Heart Rate bar graph** shows the correct number" as well as
+setting up the Heart Rate control program; the XBR25, XBR55 and XBU55 books name the Heart Rate
+programs only.
+
+**The two ENT bikes store profiles instead**, exactly as the XE395ENT does: a named profile per user,
+linked to a Spirit app account by scanning a QR code, each with its own units and its own history.

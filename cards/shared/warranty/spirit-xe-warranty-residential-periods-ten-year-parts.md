@@ -48,6 +48,7 @@ not_to_be_confused_with:
 - spirit-xe-2005-warranty-two-year-base-period
 - spirit-ce-warranty-residential-periods
 - spirit-ct800-warranty-residential-periods
+- spirit-xb-warranty-residential-periods
 see_also:
 - spirit-xt-ent-warranty-console-screen-period
 - spirit-xe-warranty-use-environment

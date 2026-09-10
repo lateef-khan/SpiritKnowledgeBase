@@ -2,7 +2,7 @@
 id: spirit-xe-console-calorie-note-you-keep-burning-at-an-accelerated-rate-for-an-hour
 title: The calorie readout is a comparison guide only, and the manual claims you keep burning at an accelerated rate for at least an hour
 kind: fact
-question: How accurate is the calorie count on a Spirit XE elliptical?
+question: How accurate is the calorie count on a Spirit XE elliptical or XB residential bike?
 asked_as:
 - are the calories on my elliptical accurate
 - why does my elliptical calorie count differ from my watch
@@ -22,9 +22,23 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe195-2019
   - xe195-2021
@@ -49,7 +63,7 @@ see_also:
 - ct900ent-personal-data-age-weight-calorie-note
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: XE395 2010 p. 18; XE195 p. 20; XE295 p. 21; XG400 p. 20; XE395ENT p. 20; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 of the XE100/XE200/XE300 manual, all under the CALORIE NOTE
+  locator: XE395 2010 p. 18; XE195 p. 20; XE295 p. 21; XG400 p. 20; XE395ENT p. 20; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 of the XE100/XE200/XE300 manual, all under the CALORIE NOTE; all fourteen Spirit residential bike manuals print it - XBR95 2016/2018/2021 p. 18, XBR25 2019 p. 18, XBR55/XBU55 2019 and 2021 p. 20, XBR55ENT/XBU55ENT p. 17, XBR25 2023 p. 21, XBR95 2023 p. 26, XBR55/XBU55 2023 p. 27
   extracted_at: '2026-09-09'
 ---
 
@@ -88,3 +102,28 @@ included: XE395-2018 p. 22, XE195-2019 p. 20, XE295-2019 p. 21, XG400-2019 p. 20
 section covers the machine before quoting either figure.
 
 **None of these manuals says the figure can be calibrated or corrected**, and none gives a formula.
+
+**Every one of the fourteen Spirit residential bike owner's manuals prints this warning word for
+word**, so this card is no longer elliptical-only. The XBR25, XBR55, XBR95 and XBU55 of every
+printing, and both ENT touchscreens, carry the same five sentences ending in the accelerated-rate
+claim.
+
+| Manual | Page |
+|---|---|
+| XBR95 2016, 2018, 2021 | p. 18 |
+| XBR25-2019 | p. 18 |
+| XBR55, XBU55 2019 and 2021 | p. 20 |
+| XBR55ENT-2021, XBU55ENT-2021 | p. 17 |
+| XBR25-2023 | p. 21 |
+| XBR95-2023 | p. 26 |
+| XBR55-2023, XBU55-2023 | p. 27 |
+
+**The sentence that introduces it is not the same on all fourteen.** The XBR95 printings say entering
+your Age "ensures that the Heart Rate bar graph shows the correct number" and is also needed for the
+Heart Rate control program; the XBR25, XBR55 and XBU55 name the Heart Rate programs only. That is a
+difference about age, not about calories.
+
+**On the bikes, as on the ellipticals, the half of the fact that matters is Weight.** Entering your
+weight is what brings the estimate closer, and the last weight entered becomes the default for
+whoever uses the machine next:
+`spirit-xe-console-the-last-age-and-weight-entered-becomes-the-new-default`.

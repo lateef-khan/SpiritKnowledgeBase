@@ -22,9 +22,19 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -197,3 +207,62 @@ none, so none of them prints the temporary-adapter rule
 (`spirit-temporary-adapter-for-a-two-pole-receptacle`) nor the `This product must be grounded`
 paragraph (`spirit-product-must-be-grounded`). Their only grounding sentence is the
 `Connect this appliance to a properly grounded outlet only` bullet above.
+
+## Ten Spirit residential bike manuals print this same list
+
+**The XBR and XBU residential bikes print this page word for word**, under the same two headings
+and in the same order, with the machine's own name where the elliptical manuals write `elliptical`.
+Ten printings carry it: XBR95 2016, 2018 and 2021; XBR55 2019 and 2021; XBR55ENT-2021; XBU55 2019
+and 2021; XBU55ENT-2021; and XBR25-2019.
+
+| | XBR95-2016 | XBR95-2018 | XBR95-2021 | XBR55-2019 | XBR55-2021 | XBR55ENT-2021 | XBU55-2019 | XBU55-2021 | XBU55ENT-2021 | XBR25-2019 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Weight limit item | not printed | not printed | not printed | not printed | not printed | **350 lb** | not printed | not printed | **350 lb** | not printed |
+| Outlet in the WARNING | 115-volt | 115-volt | 115-volt | 115-volt | 115-volt | 115-volt | **110-volt** | **110-volt** | **110-volt** | **110-volt** |
+| Extension cord | **18AWG** | **18AWG** | **18AWG** | 14AWG | 14AWG | 14AWG | 14AWG | 14AWG | 14AWG | 14AWG |
+| Cover removal rule | **not printed** | **not printed** | **not printed** | D.C. power | D.C. power | D.C. power | DC power | DC power | DC power | D.C. power |
+| Circuit breaker paragraph | **not printed** | **not printed** | **not printed** | yes | yes | yes | yes | yes | yes | yes |
+| Electrical storm rule | **not printed** | **not printed** | **not printed** | yes | yes | yes | **not printed** | **not printed** | **not printed** | yes |
+| Proposition 65 box | **not printed** | yes | yes | yes | yes | yes | yes | yes | yes | yes |
+| Grounding Instructions page | no | no | no | no | no | no | no | no | no | no |
+| Machine called | Semi-Recumbent Bike | Semi-Recumbent Bike | Semi-Recumbent Bike | Recumbent Bike | Semi-Recumbent Bike | Recumbent Bike | Upright Bike | Upright Bike | Upright Bike | fitness bike / Semi-Recumbent Bike |
+
+- **The three XBR95 books ask for a 115-volt, 15-amp outlet on a machine that has no plug.** The
+  same manual's POWER section says the bike has a built-in generator and does not need to be plugged
+  into an AC outlet. Both statements are printed; the machine takes no mains supply. See
+  `spirit-bike-safety-no-mains-outlet-needed` before answering an XBR95 owner from the WARNING
+  header quoted above.
+- **The weight limit was added, not changed.** Only the two ENT-2021 books print
+  `Recommended Weight Limit: 350 lb`; the other eight print no weight item at all
+  (`xt-2015-safety-no-user-weight-limit-printed`,
+  `spirit-bike-safety-user-weight-limit-350-lb`). An owner with a 2016, 2018, 2019 or non-ENT 2021
+  book will find no limit in it; do not tell them their machine has none.
+- **The XBR95-2016 book is the oldest wording of the who-may-use bullet.** It reads
+  `This appliance is not intended for use by persons with reduced physical, sensory or metal
+  capabilities, or lack of experience and knowledge, unless they have been given supervision or
+  instruction concerning use of the appliance by a person responsible for their safety` - with the
+  supervised exception the other nine drop, and with `metal` printed where `mental` is meant
+  (`spirit-ce-safety-who-may-use-the-elliptical`). It is also the only one of the ten with no
+  Proposition 65 box (`xt-2015-safety-proposition-65-warning`).
+- **The XBR25-2019 book writes `fitness bike` in the WARNING header** - `install the fitness bike on
+  a flat level surface` - and `Semi-Recumbent Bike` on its electrical and operation pages. It is
+  also the only one of the ten that writes `Close supervision` as one word where the other nine
+  print `Close super vision`.
+- **The XBR55-2021 book calls the machine a Semi-Recumbent Bike where its own 2019 printing calls it
+  a Recumbent Bike.** No rule changes with the name.
+- **None of the ten has a Grounding Instructions page**, so none prints the temporary-adapter rule
+  (`spirit-temporary-adapter-for-a-two-pole-receptacle`) or the `This product must be grounded`
+  paragraph (`spirit-product-must-be-grounded`). Their only grounding sentence is the
+  `Connect this appliance to a properly grounded outlet only` bullet above.
+
+**What sits beside the list in these ten books** is the same furniture as the ellipticals':
+the 40-to-120 degrees Fahrenheit and 95% non-condensing operating range
+(`ct900ent-operating-environment-voltage`), the ten percent supply-voltage paragraph and the
+circuit-breaker paragraph in the seven that print them
+(`spirit-house-breaker-needs-a-high-inrush-type`), and the operation instructions
+(`spirit-bike-safety-operation-instructions`).
+
+**The four 2023 XB bike manuals print a different list.** XBR25-2023, XBR55-2023 and XBU55-2023
+renumber it 1 to 21 (`xt-2023-safety-instructions-list`) and XBR95-2023 prints a shorter thirteen
+-item list with no cord or outlet items at all (`ab950-2024-safety-instructions-list`). Do not answer
+a 2023 machine from this card.

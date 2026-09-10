@@ -40,6 +40,19 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xic600-2018
   - xic600-2021
   section: safety
@@ -133,3 +146,29 @@ not be used to answer for a bike: `xt-2023-safety-speed-and-incline-response-del
 INSTRUCTIONS page carries the rain, temperature and humidity paragraph and nothing else -
 `spirit-indoor-cycle-safety-operating-temperature-and-humidity`. Neither air bike and not the JB950
 prints an operation instructions page at all.
+
+## Thirteen Spirit residential bike manuals print these rules, and the 2023 books drop one
+
+**The ten earlier XB manuals print all four rules**, in this order, with the machine's own name in
+place of `fitness bike` and with `from the computer` where the commercial manuals write
+`from the computer console`: XBR95 2016, 2018 and 2021; XBR55 2019 and 2021; XBR55ENT-2021;
+XBU55 2019 and 2021; XBU55ENT-2021; and XBR25-2019.
+
+> NEVER operate this Semi-Recumbent Bike without reading and completely understanding the results of
+> any operational change you request from the computer.
+
+The XBR55-2019 and XBR55ENT books write `Recumbent Bike` and the three XBU55 books `Upright Bike` in
+that sentence. No rule changes with the name.
+
+**The three 2023 books print only three of the four.** XBR25-2023, XBR55-2023 and XBU55-2023 carry
+the operating-change rule, the distraction rule - reworded `while cycling on your unit` - and the
+console-key rule on their ELECTRICAL SAFETY page, and **print no resistance-delay rule at all**. The
+sentence `Understand that changes in resistance do not occur immediately` is in none of the four
+2023 manuals. That is an absence: an owner of a 2023 bike is not told the console applies a
+resistance change gradually.
+
+**The XBR95-2023 prints none of the four.** It has no ELECTRICAL SAFETY page and no operation
+instructions page (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The electrical-storm rule sits in this same block in the books that print it**, and seven of the
+fourteen XB manuals do not (`xt-2023-safety-use-during-an-electrical-storm`).

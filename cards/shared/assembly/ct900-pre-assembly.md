@@ -5,7 +5,8 @@ kind: procedure
 question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
   40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
   XT685ENT treadmill, a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
-  XE795, XE895 or XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike?
+  XE795, XE895 or XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike, or a
+  Spirit XBR25 2023, XBR55 2023, XBR95 2023 or XBU55 2023 residential bike?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -33,6 +34,10 @@ facets:
   - ctsbs900
   - cu800ent-2024
   - cu900-2025
+  - xbr25-2023
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -63,6 +68,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-xbr-2023-assembly-procedure
+- xbu55-2023-assembly-procedure
+- xbr25-2023-assembly-procedure
+- spirit-xb-2023-assembly-levelling-m14-wrench
 - spirit-cr900-assembly-tools-included
 - spirit-cu900-assembly-tools-included
 - spirit-cu800-assembly-tools-included
@@ -110,7 +119,11 @@ source:
     `spirit-elliptical-xe295-2019-owners-manual`,
     `spirit-elliptical-xg400-2019-owners-manual`), p. 7 of the XE795 2018 manual
     (`spirit-elliptical-xe795-2018-owners-manual`) and p. 8 of the XE895 2018 manual
-    (`spirit-elliptical-xe895-2018-owners-manual`)
+    (`spirit-elliptical-xe895-2018-owners-manual`); and the four-item form again at
+    p. 8 of the XBR95 2023 manual (`spirit-bike-xbr95-2023-owners-manual`) and p. 9
+    of the XBR25 2023, XBR55 2023 and XBU55 2023 manuals
+    (`spirit-bike-xbr25-2023-owners-manual`, `spirit-bike-xbr55-2023-owners-manual`,
+    `spirit-bike-xbu55-2023-owners-manual`), all four headed PRE-ASSEMBLY
   extracted_at: '2026-09-09'
 ---
 
@@ -189,3 +202,20 @@ On all three the older printing of the same machine used the two-item form, so t
 is a change of wording rather than a change of machine: the CR900 2018 and CU900 2018
 manuals and the CU800ENT 2022 manual print the two-item form for builds that are
 otherwise word for word the same.
+
+## Four Spirit residential bikes print these words too
+
+The **XBR25 2023**, **XBR55 2023**, **XBR95 2023** and **XBU55 2023** manuals print all
+four items word for word, under the heading PRE-ASSEMBLY. They are the only four of the
+fourteen residential XB bike manuals that do; the other ten print the two-item form
+that cuts along the dotted line on the bottom of the box - see
+[that card](spirit-ct800-assembly-unpacking.md).
+
+On all four the older printing of the same machine used the two-item form, so this is a
+change of wording rather than a change of machine, exactly as it is on the three 2024
+and 2025 commercial bikes above.
+
+All four of these builds end with a SETTING UP YOUR BIKE page the older printings do
+not have, carrying a levelling instruction and a way to move the bike. See
+[the levelling card](spirit-xb-2023-assembly-levelling-m14-wrench.md) and
+[the transport card](spirit-xb-2023-assembly-transport-wheels.md).

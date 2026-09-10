@@ -30,6 +30,9 @@ facets:
   - cu800ent-2024
   - mt200-2010
   - mt200-2022
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -193,3 +196,19 @@ in the XG400 - in place of the treadmill's name. The figure and the warranty exc
 unchanged. **The XE795-2018 does not print it**, as neither 2021 XE795 printing does: that book's
 electrical page is the generator warning instead
 (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Three Spirit residential bikes print the same rule
+
+**XBR25-2023, XBR55-2023 and XBU55-2023** print it on their ELECTRICAL SAFETY page, with `unit`:
+`If voltage varies by ten percent (10%) or more, the performance of your unit may be affected. Such
+conditions are not covered under your warranty. If you suspect the voltage is low, contact your local
+power company or a licensed electrician for proper testing.` Ten percent, performance rather than
+damage, not covered under warranty, and the power company or a licensed electrician as the action.
+
+**Seven earlier XB bike manuals print the same rule** with `fitness bike` in place of `unit` -
+XBR25-2019, XBR55-2019, XBR55-2021, XBR55ENT-2021, XBU55-2019, XBU55-2021 and XBU55ENT-2021 - as one
+printed block with their temperature paragraph, which is why they are carried by
+`ct900ent-operating-environment-voltage` instead.
+
+**No XBR95 manual prints it, in any year.** All four are self-powered and have no mains supply for a
+voltage to vary (`spirit-bike-safety-no-mains-outlet-needed`).

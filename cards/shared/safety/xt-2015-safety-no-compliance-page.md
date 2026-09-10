@@ -46,6 +46,17 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe195-2019
   - xe295-2019
   - xe395-2018
@@ -178,3 +189,18 @@ California Proposition 65 warning boxed on the safety page
 **The same is true of the four 2021 XE books and both 2021 XE795 printings** on the same text-level
 check, but they are not listed in `applies_to` above because this pass did not re-render their pages
 to rule out a flattened compliance page. Add them when those sources are next opened.
+
+## Ten Spirit residential bike manuals have no compliance page, and so does one of the 2023 four
+
+**None of the ten earlier XB manuals has one.** XBR95 2016, 2018 and 2021, XBR55 2019 and 2021,
+XBR55ENT-2021, XBU55 2019 and 2021, XBU55ENT-2021 and XBR25-2019 run Important Safety Instructions,
+Important Electrical Instructions, Important Operation Instructions, Product Registration and then
+straight into assembly. The words **FCC**, **Part 15**, **Class B**, **RF exposure** and
+**certification** are in none of them.
+
+**The XBR25-2023 is the odd book of the 2023 four.** Its three siblings - XBR55-2023, XBU55-2023 and
+XBR95-2023 - each print a WARNINGS, COMPLIANCE AND NOTICES page before the safety list
+(`xt-2023-safety-compliance-certifications`). The XBR25-2023 goes PRODUCT LABELS straight to SAFETY
+INSTRUCTIONS, and a loose search of the whole book returns **no** occurrence of FCC, Part 15,
+Class B, certification, RF exposure, compliance or even Bluetooth. That is an absence in a manual
+whose siblings print the page, not a gap in the extraction.

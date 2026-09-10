@@ -79,3 +79,10 @@ check the L and R stamps on the pedal posts before forcing anything.
 The CR900ENT and CU900ENT manuals keep the full sentence - reverse thread,
 counterclockwise, 300 in-lb - so this is not something all Spirit touchscreen bikes do.
 See [that card](spirit-bike-assembly-pedal-torque-300-in-lb.md).
+
+## Not every Spirit touchscreen bike drops it
+
+The residential **XBR55ENT** and **XBU55ENT** manuals print the reverse-thread warning
+in full, with the "L" and "R" stamps and the thumping sentence. This card is about the
+three commercial touchscreen books only; see
+[the residential pedal card](spirit-bike-assembly-pedal-tighten-as-much-as-possible.md).

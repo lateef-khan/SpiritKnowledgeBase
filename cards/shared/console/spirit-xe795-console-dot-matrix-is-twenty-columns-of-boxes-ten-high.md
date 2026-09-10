@@ -2,11 +2,12 @@
 id: spirit-xe795-console-dot-matrix-is-twenty-columns-of-boxes-ten-high
 title: The dot matrix is twenty columns of boxes ten high, one column per workout segment, showing effort not a value
 kind: fact
-question: What do the blocks in the middle of the display mean on a Spirit XE795 elliptical?
+question: What do the blocks in the middle of the display mean on a Spirit XE795 elliptical or XB bike?
 asked_as:
 - what are the squares on my elliptical display
 - what do the blocks on the elliptical screen mean
 - how many segments does my elliptical workout have
+- what are the squares on my exercise bike display
 keywords:
 - dot matrix
 - twenty columns
@@ -20,9 +21,21 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   - xe795-2018
   - xe795-2021
   - xe795-2023
@@ -38,7 +51,7 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 16 Dot Matrix Center Display (same in the February 19 2021 printing); XE795 2023 p. 22 FEATURES
+  locator: XE795 2021 p. 16 Dot Matrix Center Display (same in the February 19 2021 printing); XE795 2023 p. 22 FEATURES; XBR95 2016, 2018 and 2021 p. 14, XBR25/XBR55/XBU55 2019 and 2021 p. 15, all Dot Matrix Center Display; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +79,23 @@ carried over: `spirit-ce-console-quick-start-time-counts-up`.
 `xe795-2021-console-quarter-mile-lap-track-runs-counterclockwise`. **The XE895-2018 prints the lap
 track's direction inside this paragraph** rather than in the track section - "The Lap track will move
 in a counterclockwise direction" is its closing line. The 2023 manual describes no track at all.
+
+**All twelve LED-console Spirit residential bike printings print this paragraph word for word**, so
+this card is no longer elliptical-only. Twenty columns, ten high, one column per segment, an
+approximate level of effort rather than a value, and a profile "picture" built up in Manual
+Operation - not a word of it differs.
+
+| Manual | Where |
+|---|---|
+| XBR95 2016, 2018, 2021 | p. 14, Dot Matrix Center Display |
+| XBR25, XBR55, XBU55 2019 and 2021 | p. 15, Dot Matrix Center Display |
+| XBR25-2023 | p. 19, FEATURES |
+| XBR95-2023 | p. 20, FEATURES |
+| XBR55-2023, XBU55-2023 | p. 21, FEATURES |
+
+**The number of resistance levels behind the picture is not the same on all twelve.** Every XBR95
+printing has **40**; the XBR25, XBR55 and XBU55 have **20**. The dot matrix looks identical either
+way, which is exactly why the manual says a column is not a value.
+
+**The two ENT bikes have no dot matrix.** The XBR55ENT and XBU55ENT are touchscreens and show a
+profile view on the screen instead.

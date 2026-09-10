@@ -33,6 +33,9 @@ facets:
   - ct850ent-2022
   - cu800ent-2024
   - cvc800
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xe395-2023
   - xt185-2015
   - xt185-2023
@@ -158,3 +161,11 @@ the transport wheels and the crank and pedal assembly are the moving parts that 
 cord be kept away from heated surfaces and that a damaged cord is not used
 (`spirit-bike-ent-safety-instructions-list`); the remaining ten bikes have no cord to route or print
 no cord rule at all.
+
+## Three Spirit residential bikes print the same line
+
+**XBR25-2023, XBR55-2023 and XBU55-2023** open their ELECTRICAL SAFETY page with
+`Route the power cord away from any moving part of the unit including the transport wheels.`
+
+**Their own earlier printings do not print it**, and neither does any XBR95 manual - the XBR95 is
+self-powered and has no power cord (`spirit-bike-safety-no-mains-outlet-needed`).

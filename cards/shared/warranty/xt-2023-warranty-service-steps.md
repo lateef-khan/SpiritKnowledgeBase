@@ -61,6 +61,20 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -116,15 +130,26 @@ source:
     spirit-bike-jb950-2022-owners-manual line 1840 (p. 73);
     spirit-bike-ab950-2024-owners-manual line 1126 (heading line 1119, p. 36). Return addresses
     follow the step-5 paragraph in each. Contact pairs read from each manuals back cover on the
-    last PDF page. The six XE and XG printings filed under Bikes/bike backup print the same five
-    steps; SERVICE step 3 with the phone number and the step-6 P.O. Box are at
+    last PDF page. The six XE and XG printings filed under Bikes/bike backup print the same
+    five steps; SERVICE step 3 with the phone number and the step-6 P.O. Box are at
     spirit-elliptical-xe395-2018-owners-manual lines 1348 and 1360,
     spirit-elliptical-xe795-2018-owners-manual lines 1298 and 1310,
     spirit-elliptical-xe895-2018-owners-manual lines 1390 and 1402,
     spirit-elliptical-xe195-2019-owners-manual lines 1087 and 1099,
     spirit-elliptical-xe295-2019-owners-manual lines 1188 and 1200,
-    spirit-elliptical-xg400-2019-owners-manual lines 1195 and 1207
-  extracted_at: '2026-09-09'
+    spirit-elliptical-xg400-2019-owners-manual lines 1195 and 1207 All fourteen Spirit XB
+    residential upright and recumbent bike manuals print the same SERVICE paragraph and the
+    same five numbered steps; the SERVICE heading is at spirit-bike-xbr95-2016-owners-manual
+    line 1273, spirit-bike-xbr95-2018-owners-manual line 1282,
+    spirit-bike-xbr25-2019-owners-manual line 1075, spirit-bike-xbr55-2019-owners-manual line
+    1348, spirit-bike-xbu55-2019-owners-manual line 1073, spirit-bike-xbr55-2021-owners-manual
+    line 1248, spirit-bike-xbu55-2021-owners-manual line 1165,
+    spirit-bike-xbr95-2021-owners-manual line 1266, spirit-bike-xbr55ent-2021-owners-manual
+    line 1681, spirit-bike-xbu55ent-2021-owners-manual line 1584,
+    spirit-bike-xbr25-2023-owners-manual line 1456, spirit-bike-xbr55-2023-owners-manual line
+    1989, spirit-bike-xbr95-2023-owners-manual line 1929, spirit-bike-xbu55-2023-owners-manual
+    line 1762
+  extracted_at: '2026-09-10'
 ---
 
 Keep your bill of sale. Service under this warranty must be obtained by following these steps, **in order**:
@@ -267,3 +292,15 @@ What else moves is the layout, the return address and the contact pair:
 **The JB950 gives four numbers in one book** and its own website, www.johnnygspiritbike.com, as the running footer. The one that matters for a warranty claim is step 3's (866) 463-2662.
 
 **The AB900 and the JB950 print an international manufacturer block** on the page after the service steps - Spirit Fitness in Jonesboro alongside Dyaco Shanghai and Dyaco Canada - which the other six do not carry. Both also tell international customers to contact their local distributor rather than Jonesboro. **The JB950 return address drops the zip extension** the other seven print, reading Jonesboro, AR **72402** rather than 72402-2037.
+
+## The fourteen Spirit XB home bikes print the same five steps
+
+**Word for word, on all fourteen**, from the XBR95 2016 to the four 2023 books: dealer first, then the local service organization, then **(870) 935-1107**, then the preauthorization-and-freight step, then the packaging-and-return-authorization step. **The service department number is (870) 935-1107 on every one of the fourteen** and does not change with the printing.
+
+**The mailing address is the same on all fourteen** - Spirit Fitness, Inc., P.O. Box 2037, Jonesboro, AR 72402-2037 - but it is not always a numbered step. The ten older manuals print it as **step 6**; the four 2023 manuals stop the numbered list at five and print *For any further information, or to contact our service department by mail, send your correspondence to:* as an unnumbered paragraph below it.
+
+**The numbering slips on three of them.** In the XBR55 2019, the XBR55 2021 and the XBR55ENT 2021 the SERVICE steps are printed **9 to 14** rather than 1 to 6 - the list continues the exclusions' numbering instead of restarting. The steps and their order are unchanged; only the labels are wrong. The XBU55ENT 2021, printed the same week as the XBR55ENT, numbers them 1 to 6 correctly, as do the other ten.
+
+**The 2023 books put the steps under an extra heading.** They print *Responsibilities of the Owner* above SERVICE, on a page headed *WARRANTY - CONTINUED*; the ten older manuals print SERVICE alone.
+
+**The customer-facing numbers on the back cover changed, and the service number did not.** The ten older manuals print **800.258.4555** and spiritservice@spiritfitness.com; the four 2023 manuals print **1-800-258-8511**, questions@spiritfitness.com and a fax on 870-935-7611. Neither number is the one in step 3 (`spirit-xb-warranty-registration`).

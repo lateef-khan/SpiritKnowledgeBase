@@ -2,7 +2,7 @@
 id: spirit-bike-programs-chest-strap-with-an-interlocking-key-and-a-panasonic-battery
 title: The chest strap is not included, fastens with an interlocking key, and takes a Panasonic CR2032
 kind: procedure
-question: How do I fit the heart rate chest strap on a Spirit CR900 2025, CU900 2025, CU800ENT 2024 bike or AB950 2024 air bike, and is it included?
+question: How do I fit the heart rate chest strap on a Spirit bike or air bike, and is it included?
 asked_as:
 - is the chest strap included with the 2025 bike
 - how do i wear the heart rate strap on the air bike
@@ -28,6 +28,19 @@ facets:
   - cr900-2025
   - cu800ent-2024
   - cu900-2025
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -41,7 +54,7 @@ see_also:
 - ct900-heart-rate-chest-strap-setup
 source:
   ref: spirit-bike-cr900-2025-owners-manual
-  locator: 'CR900 2025 printed p. 27; CU900 2025 p. 26; CU800ENT 2024 p. 43; AB950 2024 p. 20-21'
+  locator: 'CR900 2025 printed p. 27; CU900 2025 p. 26; CU800ENT 2024 p. 43; AB950 2024 p. 20-21; XBR95 2016/2018/2021 printed p. 32; XBR25 2019 p. 25; XBR55 2019/2021 p. 29; XBU55 2019/2021 p. 29; XBR55ENT/XBU55ENT 2021 p. 41; XBR95 2023 p. 22; XBR55/XBU55 2023 p. 23'
   extracted_at: '2026-09-09'
 ---
 
@@ -89,3 +102,16 @@ strap sentence - see `spirit-bike-programs-wearing-the-chest-strap`.
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT have no chest strap chapter at all.** **Neither
 does the AB900 2018 air bike**, though its console still reads a strap - see
 `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+
+**Thirteen residential XBR and XBU manuals print this page word for word** - the interlocking
+**key**, the 2500-hour estimate and the **Panasonic CR2032** - and, like the CR900 2025 and CU900
+2025, **none of them prints the third-party strap sentence**. A loose search of all thirteen for
+"Bluetooth" and "ANT" returns nothing on this page, so these manuals do not say whether a Bluetooth or
+ANT+ strap works.
+
+**How they say it is not supplied.** The ten older books head the chapter "USING HEART RATE
+TRANSMITTER" and say **sold separately** in the heart rate program note; the four 2023 books head it
+**"HEART RATE CHEST STRAP* (NOT INCLUDED)"**.
+
+**The XBR25 2023 has no chest strap chapter at all** - see
+`spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.

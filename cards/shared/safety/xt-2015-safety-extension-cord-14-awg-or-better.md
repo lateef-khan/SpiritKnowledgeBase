@@ -30,6 +30,13 @@ facets:
   - cr800ent-2023
   - cu800ent-2022
   - cu800ent-2024
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe395-2010
   - xe795-2018
   - xe795-2021
@@ -163,3 +170,15 @@ a larger conductor is a lower number; both sentences mean 14 AWG is the thinnest
 **The other ten Spirit commercial bike manuals print no extension-cord rule at all**, because eight
 of them have no plug and the CR900ENT-2021 and CU900ENT print no electrical figures of any kind
 (`spirit-bike-safety-no-mains-outlet-needed`, `spirit-xe-safety-no-outlet-figure-printed`).
+
+## Seven Spirit residential bike manuals print the same line
+
+**14AWG or better, with only one outlet on the end**, in capitals on the safety instructions page of
+XBR25-2019, XBR55-2019, XBR55-2021, XBR55ENT-2021, XBU55-2019, XBU55-2021 and XBU55ENT-2021.
+
+**The three XBR95 manuals ask for 18AWG in the same sentence** - a thinner cord - and are the odd
+books of the ten (`xt385-2015-safety-extension-cord-18-awg-or-better`). Quote the gauge from the
+machine's own manual.
+
+**The four 2023 XB manuals print no extension-cord rule at all**, so there is no 2023 bike figure to
+compare this against.

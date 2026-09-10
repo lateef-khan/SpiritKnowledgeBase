@@ -24,6 +24,9 @@ facets:
   applies_to:
   - ce900-2025
   - cu800ent-2024
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -92,3 +95,11 @@ remedy or RF figure may be quoted for any other Spirit commercial bike.
 
 Its CAUTION carries the same **20 cm** separation distance and the same co-location prohibition, and
 it does not say where the antenna is either.
+
+## Three Spirit residential bikes print the same 20 cm figure
+
+**XBR55-2023, XBU55-2023 and XBR95-2023** print the CAUTION word for word on their WARNINGS,
+COMPLIANCE AND NOTICES page, with the same 20 cm separation and the same co-location bar.
+
+**The XBR25-2023 manual prints no compliance page**, so it gives no separation distance
+(`xt-2015-safety-no-compliance-page`).

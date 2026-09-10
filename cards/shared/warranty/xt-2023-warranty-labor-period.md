@@ -46,6 +46,20 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -128,16 +142,27 @@ source:
     printings filed under Bikes/bike backup: xe395-2018 lines 1307 and 1341, xe795-2018 lines
     1257-1258 (both rows) and 1291, xe895-2018 lines 1349-1350 (both rows) and 1383, xe195-2019
     lines 1044 and 1079, xe295-2019 lines 1146 and 1181, xg400-2019 lines 1154 and 1188. The
-    SERVICE labor-clock sentence in all eight Spirit indoor
-    cycle and air bike manuals: spirit-bike-cb900-2013-owners-manual text.md line 440 (p. 13);
+    SERVICE labor-clock sentence in all eight Spirit indoor cycle and air bike manuals:
+    spirit-bike-cb900-2013-owners-manual text.md line 440 (p. 13);
     spirit-bike-xic600-2018-owners-manual line 903 (p. 27);
     spirit-bike-ab900-2018-owners-manual line 1314 (p. 47);
     spirit-bike-cic800-2021-owners-manual line 483 (p. 22);
     spirit-bike-xic600-2021-owners-manual line 921 (p. 28);
     spirit-bike-cic850-2022-owners-manual line 833 (p. 38);
     spirit-bike-jb950-2022-owners-manual line 1833 (p. 73);
-    spirit-bike-ab950-2024-owners-manual line 1120 (p. 36)
-  extracted_at: '2026-09-09'
+    spirit-bike-ab950-2024-owners-manual line 1120 (p. 36) All fourteen Spirit XB residential
+    upright and recumbent bike manuals print the same SERVICE sentence, and Labor 1 Year in
+    every warranty row they print: spirit-bike-xbr95-2016-owners-manual line 1274,
+    spirit-bike-xbr95-2018-owners-manual line 1283, spirit-bike-xbr25-2019-owners-manual line
+    1076, spirit-bike-xbr55-2019-owners-manual line 1349, spirit-bike-xbu55-2019-owners-manual
+    line 1074, spirit-bike-xbr55-2021-owners-manual line 1249,
+    spirit-bike-xbu55-2021-owners-manual line 1166, spirit-bike-xbr95-2021-owners-manual line
+    1267, spirit-bike-xbr55ent-2021-owners-manual line 1682,
+    spirit-bike-xbu55ent-2021-owners-manual line 1585, spirit-bike-xbr25-2023-owners-manual
+    line 1457, spirit-bike-xbr55-2023-owners-manual line 1990,
+    spirit-bike-xbr95-2023-owners-manual line 1930, spirit-bike-xbu55-2023-owners-manual line
+    1763
+  extracted_at: '2026-09-10'
 ---
 
 **Labor is covered for 1 Year.** That figure is in the warranty table of all five 2023 XT manuals, all five 2015 ones and the 2010 XT685 - in the Residential row, and in the XT685's Light Commercial row as well - and again in the single **Commercial** row of the 2026 4.0T, 7.0T and 8.0T. It is the one component period that never changes anywhere in the Spirit XT range or in the 2026 treadmills. The **XT485ENT** and **XT685ENT** print it too - the XT685ENT in both its Residential and its Light Commercial row.
@@ -185,3 +210,13 @@ Twelve (12) months from the date on the bill of sale, or eighteen (18) months fr
 **Labor 1 Year is the one figure every Spirit indoor cycle and air bike shares.** The frame runs from 5 years to Lifetime and the parts period from 2 to 3 years across the four tables (`spirit-indoor-cycle-warranty-three-row-periods`, `spirit-indoor-cycle-warranty-residential-only-periods`, `spirit-air-bike-warranty-periods`, `spirit-jb950-warranty-commercial-only-periods`); labor never moves.
 
 **Do not answer one of these from a Spirit commercial bike card.** The CR800, CU800 and 800ENT tables read **Labor 2 Years** (`spirit-ct800-warranty-labor-period`) and the 900-series bikes read 3 Years (`spirit-bike-900-warranty-commercial-periods`). Trebling an indoor cycle owner's labor cover is the easy mistake here.
+
+## Labor is 1 Year on every Spirit XB home bike too
+
+**All fourteen of those owner's manuals print it**, from the XBR95 2016 to the XBR95, XBR55 and XBU55 books of August 2023 - in the Residential row, and in the XBR95's and XBU55's Light Commercial rows as well. It is the one figure that never moves anywhere in the range, over seven and a half years, on tables that otherwise disagree about the parts period and about whether a light commercial row exists at all.
+
+**Two of them print "1Year" with no space** - the XBU55 2019 and the XBU55 2021, in the Residential row only. One year on all fourteen.
+
+**The dating sentence is word for word the one quoted above** in every one of the fourteen, under a SERVICE heading on the last warranty page. Here it does not contradict the table, because the Labor column already reads one year.
+
+The tables themselves are `spirit-xb-warranty-residential-periods`, `spirit-xb-warranty-light-commercial-periods` and - for the single manual whose parts period is halved - `xbr25-2019-warranty-residential-five-year-parts`. **The two ENT bikes add a Console column at 2 Years**, which is not a labor figure and must not be read as one (`spirit-xt-ent-warranty-console-screen-period`).

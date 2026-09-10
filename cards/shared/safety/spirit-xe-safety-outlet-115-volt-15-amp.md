@@ -22,9 +22,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -160,3 +166,25 @@ better with one outlet on the end (`xt385-2015-safety-extension-cord-18-awg-or-b
 Matching figures do not make them one fact: check the brand on the machine in front of you before
 quoting either, because the rest of each manual's electrical chapter - extension-cord gauge,
 breaker advice, grounding page - does not match.
+
+## Six Spirit residential bike manuals print the same figure
+
+**115-volt, 15-amp, with only the bike plugged into the circuit**, in the WARNING header of the
+safety instructions page, with `bike` where the elliptical manuals write `elliptical`: XBR55-2019,
+XBR55-2021, XBR55ENT-2021, XBR95-2016, XBR95-2018 and XBR95-2021.
+
+**The three XBR95 manuals print it on a machine that has no plug.** The same books say, in their
+POWER section, that the bike has a built-in generator and does not need to be plugged into an AC
+outlet, and none of the three has a power cord in its parts list. The outlet sentence is boilerplate
+carried over from the mains-powered books; a customer asking what outlet an XBR95 needs should be
+answered from `spirit-bike-safety-no-mains-outlet-needed`, which states the contradiction, not from
+this figure alone.
+
+**The XBU55 and XBR25 bikes ask for 110-volt instead** - XBU55-2019, XBU55-2021, XBU55ENT-2021 and
+XBR25-2019 (`spirit-xe-safety-outlet-110-volt-15-amp`). The XBR55 and XBU55 are otherwise the same
+book with the recumbent and upright frames swapped, so the two figures sit side by side in one
+product family. Quote the machine's own manual.
+
+**The four 2023 XB manuals print no voltage and no amperage at all.** Their ELECTRICAL SAFETY page
+gives the ten percent variation rule and the AFCI/GFCI paragraph and names no circuit
+(`spirit-xe-safety-no-outlet-figure-printed` covers the same absence for the XE machines).

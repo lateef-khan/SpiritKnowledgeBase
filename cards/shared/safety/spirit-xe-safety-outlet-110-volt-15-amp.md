@@ -22,9 +22,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2019
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe395-2010
   - xe795-2018
   - xe795-2021
@@ -159,3 +163,15 @@ XE895-2018 and the eight 115-volt books do (`spirit-house-breaker-needs-a-high-i
 (`e95-2026-power-outlet-requirements`, `e25-2023-electrical-power-requirements`). The amp figure
 matches; the voltage does not, and they are a different brand's manuals. Check the brand on the
 machine before quoting any of the three.
+
+## Four Spirit residential bike manuals print the same figure
+
+**110-volt, 15-amp, with only the bike plugged into the circuit**, in the WARNING header of the
+safety instructions page: XBU55-2019, XBU55-2021, XBU55ENT-2021 and XBR25-2019. The XBR25-2019 book
+writes `install the fitness bike on a flat level surface`; the three XBU55 books write `the bike`.
+
+**Their recumbent siblings ask for 115-volt.** The XBR55-2019, XBR55-2021 and XBR55ENT-2021 manuals
+are otherwise the same book as the XBU55 pair and print 115-volt in the same sentence
+(`spirit-xe-safety-outlet-115-volt-15-amp`). Never read one across to the other.
+
+**The four 2023 XB manuals print no voltage and no amperage at all.**

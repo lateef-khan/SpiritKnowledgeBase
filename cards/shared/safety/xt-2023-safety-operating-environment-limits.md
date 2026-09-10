@@ -26,6 +26,9 @@ facets:
   model: '*'
   applies_to:
   - cu800ent-2024
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xe395-2023
   - xt185-2015
   - xt185-2023
@@ -128,3 +131,21 @@ temperature figure, no minimum, no Fahrenheit conversion, no storage range.
 (`ct900ent-operating-environment-voltage`). The two statements are not interchangeable, and a
 CU800ENT-2022 or CR800ENT-2023 must not be answered from this card even though it is the same
 console family.
+
+## Three Spirit residential bikes print the same paragraph
+
+**Word for word, with `unit`**, on the ELECTRICAL SAFETY page of the XBR25-2023 (printed page 5),
+XBR55-2023 (printed page 6) and XBU55-2023 (printed page 6) owner's manuals:
+`The temperature specification is 40 degrees C, and humidity is 95%, non-condensing (no water drops
+forming on surfaces).` One Celsius maximum, no minimum, no Fahrenheit conversion and no storage
+range.
+
+**Their own predecessors print a Fahrenheit range instead.** The ten earlier XBR and XBU manuals -
+XBR95 2016/2018/2021, XBR55 2019/2021, XBR55ENT-2021, XBU55 2019/2021, XBU55ENT-2021 and XBR25-2019
+- print `40 to 120 degrees Fahrenheit` (`ct900ent-operating-environment-voltage`), which is a
+different statement. Quote the figure from the machine's own manual in both directions.
+
+**The XBR95-2023 manual, the fourth book of the same 2023 family, has no electrical page and prints
+no environment limits at all** - no temperature, no humidity and no rain or moisture sentence
+anywhere. Its safety list says only `Do not use outdoors`
+(`ab950-2024-safety-instructions-list`). That is an absence; do not fill it from this card.

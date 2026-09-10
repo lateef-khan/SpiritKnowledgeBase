@@ -2,7 +2,7 @@
 id: xe795-2023-console-direct-resistance-buttons
 title: Direct buttons jump straight to a resistance level, and there is no incline to set
 kind: fact
-question: How do I jump straight to a resistance level on a Spirit xe795-2023 elliptical?
+question: How do I jump straight to a resistance level on a Spirit XE795-2023 elliptical or a 2023 XB bike?
 asked_as:
 - how do i change the resistance quickly on my elliptical
 - does my elliptical have an incline
@@ -18,9 +18,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe795-2023
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr25-2023
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe795-2023
   section: console
   code: '*'
@@ -32,7 +36,7 @@ see_also:
 - spirit-xe795-console-quick-start-with-forty-resistance-levels
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
-  locator: p. 23, FEATURES - CONTINUED / Direct Resistance Buttons; console drawing p. 19
+  locator: p. 23, FEATURES - CONTINUED / Direct Resistance Buttons; console drawing p. 19; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, all FEATURES - CONTINUED / Direct Resistance Buttons
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +57,19 @@ customer which button is which level.**
 
 **The XE395-2023 version of this feature covers incline as well**:
 `xe395-2023-console-direct-resistance-and-incline-buttons`.
+
+**All four 2023 Spirit residential bikes print this paragraph word for word**, so this card is no
+longer elliptical-only: the **XBR25** (p. 20), the **XBR95** (p. 21) and the **XBR55** and **XBU55**
+(p. 22). Each names its own machine - "the Recumbent Bike" or "the Upright Bike" - and nothing else
+differs. Their console overview drawings all label **Direct Resistance Level Buttons** below the LCD
+window, beside the **Program Buttons**.
+
+**None of the four says how many buttons there are or which level each one carries.** The XBR25,
+XBR55 and XBU55 have **20** resistance levels and the XBR95 has **40**, so on the XBR95 in particular
+there is certainly not one button per level. **Do not tell a customer which button is which level.**
+
+**The XBR25-2023 has these buttons even though it has no USB port and no Bluetooth.** They are the
+one 2023 console feature it shares in full with its three stablemates.
+
+**No 2016-2021 residential bike has them.** The XBR25, XBR55, XBU55 and XBR95 of those printings set
+resistance by holding **Level Up/Down**, and their console drawings label no direct level buttons.

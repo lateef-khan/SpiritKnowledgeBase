@@ -2,11 +2,12 @@
 id: spirit-xe-console-speakers-take-an-audio-cable-and-have-no-volume-control
 title: The built-in speakers take an audio input jack and have no volume control on the console
 kind: fact
-question: How do I play music through the speakers on a Spirit XE elliptical, and where is the volume?
+question: How do I play music through the speakers on a Spirit XE elliptical or XB bike, and where is the volume?
 asked_as:
 - how do i play music through my elliptical speakers
 - where is the volume control on my elliptical
 - can i plug my phone into the elliptical
+- where do i plug my phone into my exercise bike
 keywords:
 - speakers
 - audio input jack
@@ -19,9 +20,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe195-2019
   - xe295-2019
   - xe295-2021
@@ -42,7 +50,7 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 17 Speakers (same in the February 19 2021 printing); XE295 p. 17 and XG400 p. 16 console drawings, "Integrated Speakers for MP3 Player"; audio cable listed in each hardware pack
+  locator: XE795 2021 p. 17 Speakers (same in the February 19 2021 printing); XE295 p. 17 and XG400 p. 16 console drawings, "Integrated Speakers for MP3 Player"; audio cable listed in each hardware pack; XBR95 2016, 2018 and 2021 p. 15, XBR55/XBU55 2019 and 2021 p. 16, all Speakers
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +84,19 @@ the speakers were removed.
 
 **The 2023 machines took the opposite route** - Bluetooth audio under the name **"Bt-speaker"**, with
 no audio jack described: `xt-2023-console-bluetooth-speaker`.
+
+**Seven Spirit residential bike printings print a Speakers paragraph with the whole sentence in it**,
+so this card is no longer elliptical-only, and they say where the jack is.
+
+- **XBR95 2016, 2018, 2021 (p. 15)**: "The console has built-in Speakers **and an audio input jack**.
+  There is no volume control on the console. The volume must be controlled on the Audio Source."
+- **XBR55 and XBU55 2019 and 2021 (p. 16)**: the same two closing sentences, but the jack is placed -
+  "You may plug an Audio Source (CD player, MP3, Computer, etc.) into the jack **on the right side of
+  console**."
+
+**The console drawings of all seven label a cargo compartment for "keys, phone, or MP3 player"**, not
+the speakers, so the jack is worth quoting from the paragraph rather than the picture.
+
+**The XBR25-2019 and all four 2023 bikes print no Speakers paragraph.** The 2023 bikes play music over
+Bluetooth instead, pairing to a device named "Bt-speaker": `xt-2023-console-bluetooth-speaker`. Do not
+quote an audio jack for a 2023 bike.

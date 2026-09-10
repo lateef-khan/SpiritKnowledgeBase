@@ -39,6 +39,7 @@ see_also:
 - spirit-xe-2023-warranty-exclusions
 - spirit-xe-warranty-use-environment
 - xt-2023-warranty-owner-costs
+- spirit-xb-2023-warranty-consumer-responsibilities
 source:
   ref: spirit-elliptical-xe395-2023-owners-manual
   locator: RESPONSIBILITIES OF THE CONSUMER, text.md lines 1458-1466. The same five

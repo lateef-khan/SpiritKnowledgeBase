@@ -35,6 +35,10 @@ facets:
   - cu800-2021
   - cu900-2018
   - cu900-2025
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
   section: safety
   code: '*'
 authority: 3
@@ -101,3 +105,46 @@ warning, and no ENT manual prints that warning anywhere.
 answer.** None of them has a generator - the word appears in none of those eight manuals - and the
 CB900 and CIC800 have no console to power at all. See
 `spirit-indoor-cycle-safety-no-mains-outlet-or-voltage`, which gives the battery type for each.
+
+## The four Spirit XBR95 residential recumbent bikes are self-powered too - and three of their manuals still print an outlet
+
+**All four XBR95 owner's manuals say the same thing about power**, in the POWER section of their
+console chapter:
+
+> Spirit Fitness commercial Semi - Recumbent Bikes have a built-in generator for power and do not
+> need to be plugged into an AC outlet. To power up the Semi - Recumbent Bike simply start to pedal,
+> the console will turn on automatically.
+
+The XBR95-2023 manual says it in its own words on the setting-up page - `The XBR95 Recumbent Bike
+has a built-in generator for power and does not need to be plugged into an AC outlet` - under the
+heading **Powering On**, where its three 2023 siblings print **Plugging in and Powering On**.
+
+**The XBR95-2016, XBR95-2018 and XBR95-2021 manuals nevertheless print a mains outlet requirement on
+their safety page**, and this card's blanket statement does not hold for them:
+
+| What the three earlier XBR95 books print | Reference |
+|---|---|
+| `install the bike on a flat level surface with access to a 115-volt, 15-amp grounded outlet with only the bike plugged into the circuit` | `spirit-xe-safety-outlet-115-volt-15-amp` |
+| `DO NOT USE AN EXTENSION CORD UNLESS IT IS A 18AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END` | `xt385-2015-safety-extension-cord-18-awg-or-better` |
+| `Always unplug this appliance from the electrical outlet immediately after using and before cleaning` | `spirit-disconnect-from-the-outlet-before-cleaning-or-service` |
+| `Connect this appliance to a properly grounded outlet only` | `spirit-xe-2021-safety-instructions-list` |
+
+**Both statements are printed and neither manual reconciles them.** The machine takes no mains
+supply: there is no power cord in any XBR95 parts list, no plug-in step in its assembly, and the
+console comes up on pedalling alone. The outlet sentences are boilerplate carried over from the
+mains-powered XBR55 and XBU55 books, which are otherwise the same book. **Tell an XBR95 owner the
+bike needs no outlet, and say that their manual's safety page prints one anyway** - do not quote
+115 volts as the machine's requirement, and do not tell them their manual says no such thing.
+
+**The XBR95-2023 manual is the one that was rewritten to match.** It prints no outlet, no voltage, no
+amperage, no extension-cord rule, no unplug-before-cleaning sentence, no grounding sentence, no
+cover-removal rule, no electrical-storm rule and no ELECTRICAL SAFETY page at all - a clean absence
+across the whole book (`ab950-2024-safety-instructions-list`).
+
+**None of the four prints a voltage-variation rule or a circuit-breaker paragraph**, in any year, for
+the same reason (`xt-2023-safety-supply-voltage-variation`,
+`spirit-house-breaker-needs-a-high-inrush-type`).
+
+**The other ten XB residential bikes do plug in.** XBR55, XBU55 and XBR25 in every year print an
+outlet requirement and a power cord, and their consoles come up when the cord is connected. Never
+read the XBR95's generator onto one of them.

@@ -27,6 +27,9 @@ facets:
   applies_to:
   - ces880-2025
   - cu800ent-2024
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -46,7 +49,7 @@ see_also:
 - spirit-ce-console-pulse-window-polar-coded-straps
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 22, USING THE SPIRIT+ APP
+  locator: page 22, USING THE SPIRIT+ APP; XBR95 2023 p. 19, XBR55 2023 and XBU55 2023 p. 20, USING THE SPIRIT+ APP
   extracted_at: '2026-09-09'
 ---
 
@@ -116,3 +119,24 @@ says the same thing again: downloading Spirit+ unlocks tracking workouts and sha
 **It is the only Spirit commercial *bike* with a Bluetooth app.** No CR800, CU800, CR900, CU900,
 CR900ENT, CU900ENT, CU800ENT-2022 or CR800ENT-2023 owner's manual describes an app or a Bluetooth
 transceiver; the touchscreen bikes use Bluetooth for audio and heart rate only.
+
+**Three 2023 Spirit residential bike owner's manuals print all five steps word for word** - the
+**XBR95-2023** (p. 19) and the **XBR55-2023** and **XBU55-2023** (p. 20) - so this card covers
+residential bikes as well. Same opening paragraph, same QR-code download, same **"DISPLAY"** button,
+same **"END & SAVE WORKOUT"**, and the same four cloud sites: **Apple Health, Google Fit, MapMyFitness
+or Fitbit**.
+
+**The XBR25-2023 is the one 2023 bike without it.** Its manual names no app, no Bluetooth and no USB
+port anywhere: neither the word Bluetooth nor the word app appears outside "appliance", its console
+overview drawing labels no USB Charging, and its workout-mode drawing carries none of the three
+Bluetooth icons its stablemates' drawings do. Both of those pages are flattened images, and the
+rendered OCR confirms the labels are absent rather than unextracted.
+
+**The two ENT bikes run Spirit+ with different steps.** The XBR55ENT and XBU55ENT search from an icon
+in the **top right** corner, select the machine by tapping its row, and upload to the cloud
+automatically with no "END & SAVE WORKOUT" step - see
+`spirit-ent-bike-console-spirit-plus-app-from-the-top-right-icon`. Do not quote this card for either.
+
+**No earlier Spirit residential bike runs Spirit+, but four run its predecessor.** The XBR55 and
+XBU55 of 2019 and 2021 describe the older **Spirit Fit App**, a different app with different sync
+steps and an older minimum OS: `xt-2015-console-spirit-fit-app-pairing`.

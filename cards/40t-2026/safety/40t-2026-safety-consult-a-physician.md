@@ -36,6 +36,20 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -160,3 +174,21 @@ as the second item of their Fitness Equipment Safety Instructions, word for word
 physician before beginning this or any exercise program, especially over the age of 35 or with
 pre-existing health conditions. **Age 35 is the only age in the sentence in all six**, and none of
 them adds a second qualification.
+
+## All fourteen Spirit residential bike manuals print the same rule
+
+**Word for word in the older phrasing**, with the hyphen in `pre-existing`:
+`Before beginning this or any exercise program, consult a physician. This is especially important
+for persons over the age of 35 or persons with pre-existing health conditions.`
+
+It is a bullet of the Fitness Equipment Safety Instructions in the ten earlier books - XBR95 2016,
+2018 and 2021, XBR55 2019 and 2021, XBR55ENT-2021, XBU55 2019 and 2021, XBU55ENT-2021 and
+XBR25-2019 - item 16 of the numbered list in XBR25-2023, XBR55-2023 and XBU55-2023, and item 8 in
+XBR95-2023.
+
+**35 is the only age figure any of the fourteen prints for an adult user**, and none of them asks
+for written clearance or says to repeat the consultation.
+
+**The four 2023 manuals also print it a second time, on the safety warning sticker**, as
+`Consult your physician before use` with no age attached
+(`spirit-xb-2023-safety-warning-sticker-text`).

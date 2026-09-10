@@ -2,7 +2,7 @@
 id: spirit-bike-programs-entering-a-program-and-default-settings
 title: Pressing Start instead of Enter skips data entry and runs the program on its saved settings
 kind: fact
-question: How do I start a workout on a Spirit commercial bike without entering my age and weight?
+question: How do I start a workout on a Spirit bike without entering my age and weight?
 asked_as:
 - how do i skip entering my age on the bike
 - can i just start the program without setting it up
@@ -31,6 +31,18 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
   section: programs
   code: '*'
 authority: 3
@@ -41,7 +53,7 @@ see_also:
 - spirit-ce-programs-entering-a-program-and-default-settings
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16; CR800 2021 p. 18; CU800 2021 p. 17; CR800 2023 p. 18; CR900ENT 2021 p. 29; CU900ENT p. 26; CR900 2025 p. 19; CU900 2025 p. 18'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16; CR800 2021 p. 18; CU800 2021 p. 17; CR800 2023 p. 18; CR900ENT 2021 p. 29; CU900ENT p. 26; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018/2021 printed p. 18; XBR25 2019 p. 17; XBR55 2019/2021 p. 19; XBU55 2019/2021 p. 19; XBR25 2023 p. 21; XBR95 2023 p. 26; XBR55/XBU55 2023 p. 27'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +70,13 @@ To change the personal settings instead, follow the instructions in the message 
 only "Customize the program on the following screens by entering your data, or press the Start
 button to begin the program using the default settings"; the CU800ENT 2024 drops it entirely and
 describes the Program Setup page instead.
+
+**The twelve LED-console residential XBR and XBU manuals print this paragraph** word for word, and
+all twelve add the note that **Age and Weight defaults change when you enter a new number**, so the
+last age and weight entered become the new defaults and you need not retype them unless they change
+or somebody else uses the machine - see
+`spirit-bike-programs-age-and-weight-set-the-heart-rate-bar-and-the-calorie-count`.
+
+**The two ENT touchscreens do not print it.** Searching the XBR55ENT and XBU55ENT manuals for
+"bypass" and for "default settings" returns nothing on the program pages; they describe a program
+setup screen instead.

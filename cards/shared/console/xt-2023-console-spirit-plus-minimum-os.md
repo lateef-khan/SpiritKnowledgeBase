@@ -26,6 +26,9 @@ facets:
   applies_to:
   - ces880-2025
   - cu800ent-2024
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -42,7 +45,7 @@ see_also:
 - xt-2023-console-spirit-plus-app-pairing
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 22, USING THE SPIRIT+ APP, closing note
+  locator: page 22, USING THE SPIRIT+ APP, closing note; XBR95 2023 p. 19, XBR55 2023 and XBU55 2023 p. 20 print the same closing note
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +66,12 @@ note**, also spelled "IOS 13.1 or Android 8.0".
 
 **The CU800ENT-2024 bike owner's manual prints the same closing note on its p. 18**, spelled "IOS
 13.1 or Android 8.0", so this card covers a bike as well.
+
+**The XBR95-2023 (p. 19), XBR55-2023 and XBU55-2023 (p. 20) residential bikes print the same closing
+note**, spelled "IOS 13.1 or Android 8.0", so this card covers residential bikes as well.
+
+**The two ENT bikes print a different figure.** The XBR55ENT and XBU55ENT (p. 43) require **iOs 13**,
+not 13.1, for the same Spirit+ app. One decimal place apart, and it is the manual's own wording; see
+`spirit-ent-bike-console-spirit-plus-app-from-the-top-right-icon`.
+
+**The XBR25-2023 states no requirement at all** because it has no app section.

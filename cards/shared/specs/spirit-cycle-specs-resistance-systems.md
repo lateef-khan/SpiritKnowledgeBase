@@ -41,6 +41,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-bike-specs-generator-brake-or-induction-brake
+- spirit-residential-bike-specs-gear-motor-or-generator-brake
 - spirit-ce-specs-forty-resistance-levels
 see_also:
 - spirit-jb950-specs-twenty-motor-driven-resistance-levels

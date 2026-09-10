@@ -53,6 +53,16 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   - xe100-2007
   - xe195-2019
   - xe195-2021
@@ -282,3 +292,32 @@ not this 40-to-120 Fahrenheit statement.
 above and again on its operation instructions page as `Maximum environmental ratings are 40-120
 degrees Fahrenheit, 95% humidity non-condensing`. Same figures, different words, and both scans in
 its source agree.
+
+## Ten Spirit residential bike manuals print the same figures, and only seven print the voltage half
+
+**40 to 120 degrees Fahrenheit and 95% non-condensing**, in this card's wording with the bike's own
+name in place of `treadmill`, in XBR95 2016, 2018 and 2021; XBR55 2019 and 2021; XBR55ENT-2021;
+XBU55 2019 and 2021; XBU55ENT-2021; and XBR25-2019. One Fahrenheit range, no Celsius conversion, no
+minimum humidity and no storage or transport figure in any of the ten.
+
+The bike manuals name the machine three ways in the same sentence - `Semi-Recumbent Bike` in the
+XBR95, XBR55-2021 and XBR25 books, `Recumbent Bike` in the XBR55-2019 and XBR55ENT books, and
+`Upright Bike` in the three XBU55 books. No figure changes with the name.
+
+**The three XBR95 manuals print the temperature paragraph and not the ten percent voltage
+paragraph.** Their electrical page is the moisture and temperature sentence alone. That is the same
+shape as the XE795 books, and for the same reason: the XBR95 is self-powered and has no mains supply
+for a voltage to vary (`spirit-bike-safety-no-mains-outlet-needed`). Do not quote a ten percent
+threshold or a warranty exclusion for an XBR95.
+
+**The other seven print both halves**, with `fitness bike` where this card writes `treadmill`:
+`If voltage varies by ten percent (10%) or more, the performance of your fitness bike may be
+affected.` The four XBR and XBR25 books write `D.C. power` in the sentence before it and the three
+XBU55 books write `DC power`; either way the rule is the same and no figure changes
+(`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`).
+
+**The four 2023 XB manuals print a different temperature figure.** XBR25-2023, XBR55-2023 and
+XBU55-2023 give `40 degrees C` on their ELECTRICAL SAFETY page - one Celsius maximum, not this
+Fahrenheit range (`xt-2023-safety-operating-environment-limits`) - and the XBR95-2023 has no
+electrical page and prints no environment limits at all. Quoting 40 to 120 F for a 2023 XB bike, or
+40 degrees C for one of the ten above, would be wrong in both directions.

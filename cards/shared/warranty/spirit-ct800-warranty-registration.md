@@ -53,6 +53,7 @@ not_to_be_confused_with:
 - xt-2023-warranty-registration
 - ctsbs900-product-registration
 - ct900ent-serial-number-and-product-registration
+- spirit-xb-warranty-registration
 see_also:
 - spirit-ct800-warranty-consumer-responsibilities
 - spirit-ct800-warranty-exclusions

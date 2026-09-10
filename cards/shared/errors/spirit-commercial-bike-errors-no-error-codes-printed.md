@@ -1,6 +1,6 @@
 ---
 id: spirit-commercial-bike-errors-no-error-codes-printed
-title: Fifteen bike owner's manuals print no error code and no troubleshooting table
+title: Twenty-six bike owner's manuals print no error code and no troubleshooting table
 kind: fact
 question: Does a Spirit bike owner's manual - upright, recumbent, indoor cycle or
   air bike - list any error codes or a troubleshooting section?
@@ -39,6 +39,17 @@ facets:
   - cu900-2018
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55ent-2021
   section: errors
   code: no-code
 authority: 3
@@ -58,13 +69,19 @@ see_also:
 - ce900-2025-errors-eeprom-error-replace-upper-controller
 - ce800ent-e5-console-controller-communication
 - spirit-xe-errors-no-error-codes-printed
+- spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows
+- spirit-residential-bike-errors-display-does-not-light-115-vac
 source:
   ref: spirit-bike-cu800-2021-owners-manual
   locator: 'Absence, checked over the full text, the page-by-page text layer and the
     table of contents of fifteen Spirit bike owner''s manuals: CR800 2021, CR800 2023,
     CR800ENT 2023, CR900 2018, CR900ENT 2021, CU800 2012, CU800 2021, CU800ENT 2022,
     CU900 2018, CU900ENT 2021, and the five added on 2026-09-09 - CB900 2013, AB900
-    2018, CIC800 2021, JB950 2022, AB950 2024'
+    2018, CIC800 2021, JB950 2022, AB950 2024. Extended 2026-09-10 with eleven residential
+    XB manuals - XBR95 2016, XBR95 2018, XBR25 2019, XBR55 2019, XBU55 2019, XBR55
+    2021, XBU55 2021, XBR95 2021, XBR55ENT 2021, XBU55ENT 2021, XBR95 2023 - each
+    checked over its full text, its table of contents, and a 300 dpi render of every
+    page compared against the text layer'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,15 +89,19 @@ source:
 but the CU900ENT **service** manual carries a full eight-row code table plus `EEPROM ERR` -
 `cu900ent-error-code-messages-list`. The absence below is about the owner's manual only.
 
-**Fifteen Spirit bike owner's manuals print no error code, no fault code, no
-condition/reason/solve matrix and no troubleshooting chapter.** Six of them do print one
+**Twenty-six Spirit bike owner's manuals print no error code, no fault code, no
+condition/reason/solve matrix and no troubleshooting chapter.** Seventeen of them do print one
 fault page - `ERRATIC OPERATION`, the heart rate interference list - and that is the whole of
 their fault content; see the end of this card. Across the ten commercial uprights and
 recumbents the word *error* appears twice in total, both times in the same sentence about FTP
 settings on the two ENT touchscreen books, and the word *troubleshooting* appears in that same
 sentence and nowhere else. Across the five indoor cycles and air bikes added later the word
 *error* appears **once**, on the JB950's LIMIT SENSOR page, and *troubleshooting* not at all.
-None of the fifteen tables of contents lists a troubleshooting or error-code section.
+Across the eleven residential XB manuals added on 2026-09-10 the words *error*, *fault* and
+*troubleshooting* appear **not once**; the only hit for any of the four is *diagnostic*, in the
+sentence "The console has built in maintenance/diagnostic software" that opens the Engineering
+Mode Menu, and the two ENT touchscreen books do not print even that. None of the twenty-six
+tables of contents lists a troubleshooting or error-code section.
 
 | Machine | Manual | Type |
 |---|---|---|
@@ -97,6 +118,24 @@ None of the fifteen tables of contents lists a troubleshooting or error-code sec
 | JB950 | 2022 | Johnny G Spirit Bike |
 | AB900 | 2018 | air bike |
 | AB950 | 2024 | air bike |
+| XBR95 | 2016, 2018, 2021, 2023 | residential recumbent |
+| XBR25 | 2019 | residential recumbent |
+| XBR55 | 2019, 2021 | residential recumbent |
+| XBR55ENT | 2021 | residential recumbent, touchscreen |
+| XBU55 | 2019, 2021 | residential upright |
+| XBU55ENT | 2021 | residential upright, touchscreen |
+
+**Three residential bikes are *not* in that list and do print a troubleshooting chapter** - the
+**XBR25 2023, XBR55 2023 and XBU55 2023**. It is three rows long, it holds no code, and it is
+carded at `spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows`.
+
+**The XBR95 2023 is the exception inside its own generation.** It was printed in the same
+August 2023 family as the XBR55 2023 and shares 91.3% of its words with it, yet its table of
+contents runs Maintenance & Care 34, Engineering Mode 35, Exploded View 36, Parts List 37,
+Warranty 41 and stops. Printed pages 44 and 45 are blank and page 46 is the back cover. There is
+no troubleshooting page in it, checked page by page against the PDF rather than by offset. Do not
+quote the XBR55 2023 troubleshooting table to an XBR95 2023 owner as if it were in their book -
+the advice is the same, but the page is not there.
 
 **Three Spirit indoor cycles are *not* in that list and do print a troubleshooting page** - the
 XIC600 2018, the XIC600 2021 and the CIC850 2022. Four or five symptoms each, no codes:
@@ -173,6 +212,38 @@ What the five indoor cycles and air bikes print instead:
   `www.spiritfitness.com` on every page footer.
 - **`TESTING THE BIKE`**, a post-assembly checklist on the AB900 and the JB950. It is an
   assembly sign-off, not a diagnostic. Carded under `section: assembly`.
+
+What the eleven residential XB manuals print instead:
+
+- **The `Erratic Operation` heart rate interference list**, on all eleven, and it is their only
+  symptom-and-cause page: `spirit-ce-errors-erratic-heart-rate-interference`. Three of them -
+  XBR55 2019, XBR55 2021 and XBR55ENT 2021 - open the list with **`Treadmill not properly
+  grounded`** on a machine that is a recumbent bike; that is a copy-and-paste defect in the
+  source, not a second machine.
+- **An `Engineering Mode Menu`** on the nine LCD-console books, entered by holding Start, Stop
+  and Enter for about five seconds. Key Test, an LCD Test the XBR95 2023 renames Display Test,
+  and a Functions submenu; the eight older books close with Security, the XBR95 2023 with Exit.
+  The component test inside Functions is **not the same on every model**: the XBR95 2016, 2018
+  and 2021 books call it `DA Test (Tests the brake resistance)`, the XBR25 2019, XBR55 2019,
+  XBR55 2021, XBU55 2019 and XBU55 2021 books call it `Motor Test`, and the XBR95 2023 calls it
+  `PWM test (Test the Brake resistance)`. It is the nearest thing these consoles offer to a
+  self-diagnostic and it returns no code, only a live reading. Carded under `section: console`.
+- **The XBR55ENT 2021 and XBU55ENT 2021 touchscreen books document no service or engineering
+  mode at all**, exactly as the CR800ENT 2023 and CU800ENT 2022 do. The words *error*, *fault*,
+  *troubleshooting* and *diagnostic* are absent from both books entirely. Those two are the
+  emptiest of the eleven for a technician.
+- **A squeak, thump, clicking or rough feeling** under `GENERAL MAINTENANCE` - loose assembly
+  hardware, the crank arm nut, and two levelling pads on the rear stabiliser adjusted with a
+  14 mm wrench. Carded under `section: maintenance`.
+
+The eleven were checked the same way as the five added on 2026-09-09: **every page of all eleven
+was rendered at 300 dpi and OCRed, and the OCR word count compared against the native
+extraction**, rather than trusting a word-count threshold. 612 pages across the fourteen
+residential bike manuals were swept. The only pages that came back richer than the text layer
+were console screenshots, program-description pages and exploded views - eight of them on the
+XBR55ENT and seven on the XBU55ENT. The strings `TROUBLESHOOTING` and `Problem Solution/Cause`
+appear in the renders of exactly three manuals, and all three are the 2023 books already named
+above. No hidden fault table exists in any of the eleven.
 
 The Spirit residential ellipticals have the same gap, described at
 `spirit-xe-errors-no-error-codes-printed`.

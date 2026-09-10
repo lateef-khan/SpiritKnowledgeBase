@@ -145,13 +145,23 @@ On 2026-09-09 the back covers settled four bike manuals at once:
   pages. So Spirit does bump the stamp when it reprints — which is what makes a
   stale stamp meaningful.
 
-Read the last page before you name a model id:
+Read the last page before you name a model id — **native text first**:
 
 ```bash
 n=$(pdfinfo FILE.pdf | awk '/^Pages/{print $2}')
+pdftotext -f $n -l $n -layout FILE.pdf - | grep -iE 'revision|rev\.|©|P#'
+# only if that returns nothing:
 pdftoppm -r 300 -png -f $n -l $n FILE.pdf /tmp/back
-tesseract /tmp/back-*.png stdout --psm 4 | grep -iE 'revision|©'
+tesseract /tmp/back-*.png stdout --psm 4 | grep -iE 'revision|rev\.|©|P#'
 ```
+
+**Do not report "no stamp" from a failed OCR grep.** On 2026-09-09 and again on
+2026-09-10 a render-and-grep pass reported four manuals as unstamped; agents then
+found every one of them stamped in the **native** text layer — `Revision:
+02.04.2019 P#: 551118`, `Revision: 11.30.2021`, `Rev. 2`. OCR mangles the word
+*Revision* far more often than the page lacks it, and a `P#:` on that line is a
+part number worth having. Grep the text layer, then the render, and only then
+call a stamp absent.
 
 When the copyright year, the revision stamp and the warranty date disagree, the
 revision stamp names the document; the warranty date belongs on the warranty
@@ -264,6 +274,31 @@ pdftotext -f N -l N -layout FILE.pdf -          # read the page itself, no offse
 Then confirm the page is not a flattened image — see "A manual can hide whole pages
 from `pdftotext`" above. Only after a loose-word search, a spacing-tolerant search and
 a look at the page is an absence safe to card.
+
+## Measure similarity from the PDF, never from `text.md`
+
+`text.md` is not the manual. It is the extraction **plus** every
+`=== OCR SUPPLEMENT, PDF PAGE n ===` block appended to it, and those blocks are
+not evenly distributed: a file with many flattened pages gains thousands of OCR
+words that its own twin does not have.
+
+On 2026-09-10 two XBR95 exports of **the same document** measured **75.2%**
+against each other from `text.md`, because one export had 40 supplemented pages
+and the other 14. Measured from the PDFs' own text layer they are **99.9%**
+identical, four words apart in ten thousand. The first number would have created
+a phantom model id; the second correctly collapsed two files into one.
+
+So when you measure, extract fresh:
+
+```bash
+pdftotext -layout FILE.pdf - | tr -cs '[:alnum:]' '\n' | tr 'A-Z' 'a-z'
+```
+
+Use `text.md` for **reading** a manual, and the PDF for **comparing** two.
+
+Stripping the supplements back out of `text.md` is not a safe substitute — a
+naive regex removes the header line and leaves the OCR body behind, which is the
+mistake that produced the 75.2%.
 
 ## Never compare manuals with `diff`
 

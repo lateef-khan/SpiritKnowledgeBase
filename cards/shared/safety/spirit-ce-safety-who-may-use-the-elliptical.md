@@ -45,6 +45,20 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -214,3 +228,31 @@ supervised exception offered. Do not add the exception for an XE owner from a CE
 spell `mental` correctly and all six write `This exercise equipment` where the CE manuals write
 `This appliance`. **Under 13 is the only age figure any of the six prints**, and none states a
 maximum age or a height.
+
+## The fourteen Spirit residential bike manuals, and the one that keeps the supervised exception
+
+**The XBR95-2016 manual prints the long form quoted above, word for word** - the reduced-capability
+sentence *with* its `unless they have been given supervision or instruction concerning use of the
+appliance by a person responsible for their safety` clause - alongside
+`Keep children under the age of 13 away from this machine`. It prints `metal capabilities` where
+`mental` is meant; the sentence is otherwise this card's.
+
+**The other nine earlier bike manuals print the short form.** XBR95-2018, XBR95-2021, XBR55-2019,
+XBR55-2021, XBR55ENT-2021, XBU55-2019, XBU55-2021, XBU55ENT-2021 and XBR25-2019 print
+`This exercise equipment is not intended for use by persons with reduced physical, sensory or mental
+capabilities, or lack of experience and knowledge` and stop there - **no supervised exception at
+all** - beside the same under-13 keep-away bullet. Do not offer a supervised-use exception to an
+owner of one of those nine; their book does not allow one.
+
+All ten also print `Close super vision is necessary when this appliance is used by, on, or near
+children, invalids, or disabled persons`, as two words, except the XBR25-2019 which prints
+`Close supervision`.
+
+**The four 2023 bike manuals keep the short form and move the age rule to a sticker.** XBR25-2023,
+XBR55-2023 and XBU55-2023 print the reduced-capability sentence as item 3 of their safety list, and
+XBR95-2023 as item 1 (`xt-2023-safety-instructions-list`,
+`ab950-2024-safety-instructions-list`); **none of the four prints an under-13 item in the list at
+all.** The age rule is on the SAFETY WARNING sticker instead, whose last bullet reads
+`Risk of personal injury - Keep children under the age of 13 away from machine`
+(`spirit-xb-2023-safety-warning-sticker-text`). It is the same figure, in a different place - a
+reader who stops at the safety list of a 2023 XB manual will find no age at all.

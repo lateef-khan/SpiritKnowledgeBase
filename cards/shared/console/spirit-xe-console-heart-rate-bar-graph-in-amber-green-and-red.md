@@ -2,7 +2,7 @@
 id: spirit-xe-console-heart-rate-bar-graph-in-amber-green-and-red
 title: The bar graph right of the LCD colours 50-60 percent amber, 65-80 amber and green, 85-90 amber green and red
 kind: fact
-question: What do the coloured bars beside the screen mean on a Spirit XE elliptical?
+question: What do the coloured bars beside the screen mean on a Spirit XE elliptical or XB bike?
 asked_as:
 - what do the coloured lights on my elliptical mean
 - what is the bar graph on the elliptical screen
@@ -22,9 +22,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe295-2019
   - xe295-2021
   - xe395-2018
@@ -43,7 +50,7 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
-  locator: XE395 2018 p. 19; XE795 2018 p. 18; XE895 2018 p. 20; XE295 2019 p. 18; XG400 2019 p. 17; XE295 p. 18; XG400 p. 17; XE795 2021 p. 18, all under Heart Rate % Profile
+  locator: XE395 2018 p. 19; XE795 2018 p. 18; XE895 2018 p. 20; XE295 2019 p. 18; XG400 2019 p. 17; XE295 p. 18; XG400 p. 17; XE795 2021 p. 18, all under Heart Rate % Profile; XBR95 2016, 2018 and 2021 p. 13, XBR55 2019 and 2021 p. 17, XBU55 2019 and 2021 p. 18, all Heart Rate % Profile
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +84,17 @@ XE395-2018 is on this card and the XE395-2010 is not.
 
 **On the 2023 pair the feature survives only as a call-out.** Both workout-mode drawings label a
 **Maximum Heart Rate Percentage** area, but neither manual prints any colour bands for it.
+
+**Seven Spirit residential bike printings print this paragraph and this table word for word**, so
+this card is no longer elliptical-only: the **XBR95** of 2016, 2018 and 2021 (p. 13), the **XBR55** of
+2019 and 2021 (p. 17) and the **XBU55** of 2019 and 2021 (p. 18). Same bar graph to the right of the
+LCD, same three colour bands, same dependence on the age entered during the programming phase of any
+of the 10 programs.
+
+**The XBU55 prints the heading in capitals** - HEART RATE % PROFILE - where the others print Heart
+Rate % Profile. Nothing else differs.
+
+**Three residential bikes have no bar graph paragraph.** The **XBR25-2019** describes no percent
+profile at all, and its console drawing labels no bar graph. **All four 2023 bikes** replaced it with
+a **Maximum Heart Rate Percentage** readout labelled on the workout-mode drawing, with no colours
+printed anywhere. Do not quote the amber-green-red bands for a 2023 bike.

@@ -55,6 +55,7 @@ not_to_be_confused_with:
 - xt685-2010-warranty-consumer-responsibilities
 - xt-2015-warranty-consumer-responsibilities
 - xt-2023-warranty-consumer-responsibilities
+- spirit-xb-warranty-consumer-responsibilities
 see_also:
 - spirit-ct800-warranty-exclusions
 - spirit-ct800-warranty-registration

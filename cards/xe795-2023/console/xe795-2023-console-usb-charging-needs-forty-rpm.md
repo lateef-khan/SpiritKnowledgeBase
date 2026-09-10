@@ -2,7 +2,7 @@
 id: xe795-2023-console-usb-charging-needs-forty-rpm
 title: USB charging needs at least 40 RPM, because the generator makes the power
 kind: fact
-question: Why does the USB port stop charging on a Spirit xe795-2023 elliptical?
+question: Why does the USB port stop charging on a Spirit XE795-2023 elliptical or XBR95-2023 bike?
 asked_as:
 - my phone stops charging on the elliptical
 - usb port not working on my elliptical
@@ -19,9 +19,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe795-2023
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr95-2023
   - xe795-2023
   section: console
   code: '*'
@@ -30,9 +31,10 @@ not_to_be_confused_with: []
 see_also:
 - spirit-xe-console-usb-port-charges-a-device-but-saves-no-data
 - spirit-xe795-console-power-up-by-pedalling
+- xt-2023-console-usb-charging-port
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
-  locator: p. 23, FEATURES - CONTINUED, the fourth USB note
+  locator: p. 23, FEATURES - CONTINUED, the fourth USB note; XBR95 2023 p. 21, the fourth bullet under Charge Portable Devices with USB port
   extracted_at: '2026-09-09'
 ---
 
@@ -52,3 +54,14 @@ condition at all**.
 
 **40 RPM is the only figure the manual gives**, and it says nothing about what the port does between
 zero and 40 RPM beyond not generating enough power.
+
+**The Spirit XBR95-2023 recumbent bike prints the same note word for word** on its **p. 21**, so this
+card is no longer elliptical-only. That bike is self-powered the same way the XE795 is - a built-in
+generator, no AC cord - so its USB port stops when the pedalling does:
+`spirit-xe795-console-power-up-by-pedalling`.
+
+**The XBR55-2023 and XBU55-2023 have no such note** because they are cord-powered; their USB pages
+print the same three bullets with no RPM condition. The **XBR25-2023 has no USB port at all**.
+
+**40 RPM is the only figure either manual gives.** Neither says what the port does between zero and
+40 RPM beyond not generating enough power.

@@ -46,6 +46,7 @@ see_also:
 - spirit-xe-2005-warranty-exclusions
 - spirit-xe-warranty-exclusions-residential-setting-only
 - xt-2023-warranty-owner-costs
+- spirit-xb-warranty-consumer-responsibilities
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER, p. 29 (text.md lines 1043-1054).

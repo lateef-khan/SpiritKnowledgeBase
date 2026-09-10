@@ -2,7 +2,7 @@
 id: xt485ent-2023-console-wifi-first-time-setup
 title: Connecting the touchscreen to WiFi, and what stops working without it
 kind: procedure
-question: How do I connect a Spirit XT485ENT treadmill or XE395ENT elliptical to WiFi, and what needs it?
+question: How do I connect a Spirit XT485ENT treadmill, XE395ENT elliptical or ENT bike to WiFi, and what needs it?
 asked_as:
 - how do i get my treadmill on wifi
 - where are the wifi settings on the screen
@@ -24,6 +24,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   - xt485ent-2023
   section: console
@@ -38,7 +40,7 @@ see_also:
 - xt485ent-2023-console-internet-and-apps
 source:
   ref: spirit-treadmill-xt485ent-2023-owners-manual
-  locator: XT485ENT p. 22, TOUCH SCREEN OPERATION / Set Up; XE395ENT 2021 p. 21, WIFI SETUP
+  locator: XT485ENT p. 22, TOUCH SCREEN OPERATION / Set Up; XE395ENT 2021 p. 21, WIFI SETUP; XBR55ENT and XBU55ENT p. 18, WIFI SETUP
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +67,14 @@ browsing and retrieval uses the facets.
 Ethernet from a Maintenance suite behind ten presses of the Home icon, and offers a
 static IP; see `ct900ent-wifi-ethernet-setup`. **The XT685ENT has no WiFi at all** -
 its manual never mentions a network, only Bluetooth.
+
+**Both Spirit ENT residential bikes print this paragraph word for word** on their **p. 18**, so this
+card now covers bikes as well: the Signal icon in the top right corner or the SETTINGS menu in the
+bottom right, the warning that without WiFi the cloud, the apps and casting will not work, the
+fallback to setting date and time by hand, and the reminder that WiFi settings stay in the bottom
+right corner.
+
+**Neither bike manual prints the profile half of the first-run screen.** The Guest-or-profile choice
+and the **maximum of 9 profiles** figure are printed by the XT485ENT and XE395ENT and by neither ENT
+bike. **Do not quote a nine-profile limit for an XBR55ENT or XBU55ENT** - their PROFILE page says only
+to press **+** on the starting screen.

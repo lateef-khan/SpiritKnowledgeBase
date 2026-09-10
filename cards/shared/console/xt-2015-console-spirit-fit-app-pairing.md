@@ -2,7 +2,7 @@
 id: xt-2015-console-spirit-fit-app-pairing
 title: Pairing the machine with the Spirit Fit App over Bluetooth
 kind: procedure
-question: How do I connect a Spirit treadmill or elliptical to the phone app?
+question: How do I connect a Spirit treadmill, elliptical or XBR55 or XBU55 bike to the phone app?
 asked_as:
 - how do i connect my treadmill to my phone
 - what app works with my spirit treadmill
@@ -25,6 +25,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe295-2019
   - xe295-2021
   - xe395-2018
@@ -45,9 +49,7 @@ see_also:
 - xt-2015-console-speakers-and-audio-jack
 source:
   ref: spirit-treadmill-xt285-2015-owners-manual
-  locator: Using the Spirit FIT App, p. 31; the XT385-2015 (p. 33), XT485-2015 (p.
-    38) and XT685-2015 (p. 38) manuals print the identical section; XE395 2018 p. 33, XE295 2019 p. 32, XG400 2019 p. 31,
-    XE295 2021 p. 32 and XG400 2021 p. 31 print it as "Using the Spirit F IT App"
+  locator: Using the Spirit FIT App, p. 31; the XT385-2015 (p. 33), XT485-2015 (p. 38) and XT685-2015 (p. 38) manuals print the identical section; XE395 2018 p. 33, XE295 2019 p. 32, XG400 2019 p. 31, XE295 2021 p. 32 and XG400 2021 p. 31 print it as "Using the Spirit F IT App"; XBR55 2019 and 2021 p. 30 and XBU55 2019 and 2021 p. 30, Using the Spirit F IT App
   extracted_at: '2026-09-09'
 ---
 
@@ -72,8 +74,11 @@ The app shows current workout data in **three different display screens**, lets 
 the workout view and internet, social media or email sites by icons on the screen, and saves
 finished workouts to a **built-in personal calendar**.
 
-**The manuals name no cloud sites.** They say only "one of many fitness cloud sites we support with
-more to come". The 2023 Spirit+ manuals do name four; that list is theirs, not this one's.
+**Most of these manuals name no cloud sites.** They say only "one of many fitness cloud sites we
+support with more to come". **Two do name them**: the XBR55-2019 and XBU55-2019 bike manuals list
+**iHealth, MapMyFitness, Record or Fitbit**, twice each - once in the opening paragraph and once in
+step 5. **Their own 2021 reprints deleted both lists** and left the sentence hanging on its colon. The
+2023 Spirit+ manuals name a different four; that list is theirs, not this one's.
 
 **Five residential XE elliptical printings print this section word for word**, so this card is no
 longer treadmill-only: the **XE395-2018** (p. 33), the **XE295-2019** (p. 32), the **XG400-2019**
@@ -105,3 +110,22 @@ Bluetooth, an app, or a USB port. Do not quote this card for an XT185-2015.
 left corner, the three display screens and the built-in personal calendar. **That manual calls it
 simply "the Spirit App"**, not the Spirit Fit App, and it is a 2023 machine - so a 2023 XT question
 is not automatically a Spirit+ question. Check which app name the manual in front of you prints.
+
+**Four Spirit residential bike printings print this section too**, so this card now covers bikes as
+well: the **XBR55** and **XBU55** of 2019 and 2021, all four on **p. 30**. Same heading, letter-spaced
+the same way by the extractor; same five sync steps; same three display screens; same built-in
+personal calendar; same top-left search icon.
+
+**The 2021 reprints deleted the cloud-site list and nothing else.** Word for word against their own
+2019 editions, the only change in the whole app section is that **"iHealth, MapMyFitness, Record or
+Fitbit, with more to come"** and the step-5 repeat **"such as iHealth, MapMyFitness, Record, Fitbit,
+etc"** are gone. The XBR55-2021 paragraph now ends "...one of many fitness cloud sites we support:"
+with nothing after the colon, and the XBU55-2021 runs "compatible fitness Appin order for the icon to
+be active" where the deletion closed up. **The page is native text in both printings, not an image, so
+the absence is a deletion and not a failed extraction.** If a 2021 XBR55 or XBU55 owner asks which
+cloud services are supported, their manual no longer says.
+
+**The other ten residential bikes are not on this card.** The XBR25 of 2019 and 2023 names no app,
+no Bluetooth and no USB anywhere; the XBR95 of 2016, 2018 and 2021 names none either. All four 2023
+bikes and both ENT bikes run **Spirit+** instead:
+`xt-2023-console-spirit-plus-app-pairing`.

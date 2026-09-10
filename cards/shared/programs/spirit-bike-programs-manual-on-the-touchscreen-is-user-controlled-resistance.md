@@ -2,7 +2,7 @@
 id: spirit-bike-programs-manual-on-the-touchscreen-is-user-controlled-resistance
 title: Manual mode on a touchscreen bike only sets a target time and leaves resistance to the rider
 kind: fact
-question: How does Manual mode work on a Spirit ENT touchscreen bike?
+question: How does Manual mode work on a Spirit touchscreen bike?
 asked_as:
 - how does manual work on the ent bike
 - how long can i set a manual workout on the touchscreen bike
@@ -26,6 +26,8 @@ facets:
   - cu800ent-2022
   - cu800ent-2024
   - cu900ent
+  - xbr55ent-2021
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -36,7 +38,7 @@ see_also:
 - spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-max-level-five
 source:
   ref: spirit-bike-cu800ent-2022-owners-manual
-  locator: 'CR900ENT 2021 printed p. 30; CU900ENT p. 27; CU800ENT 2022 p. 23-25; CR800ENT 2023 p. 23-25; CU800ENT 2024 p. 31'
+  locator: 'CR900ENT 2021 printed p. 30; CU900ENT p. 27; CU800ENT 2022 p. 23-25; CR800ENT 2023 p. 23-25; CU800ENT 2024 p. 31; XBR55ENT/XBU55ENT 2021 printed p. 30'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +60,11 @@ see `spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-m
 
 **On an LED console Manual behaves differently**, asking for time, age and weight and starting at
 level one - see `spirit-bike-programs-manual-asks-time-age-and-weight-and-starts-at-level-one`.
+
+**The XBR55ENT and XBU55ENT 2021 print the same two sentences**, word for word: Manual requires a
+time frame set before starting, you set it with the scale or the arrows, **level is adjusted manually
+while running**, and you press START to begin. The program tile itself adds "Level is controlled by
+the user. Increase or decrease level at any time during your workout."
+
+Those two manuals are **identical to each other across the whole programs chapter** - measured at
+100.0% at word level over printed pages 28 to 40.

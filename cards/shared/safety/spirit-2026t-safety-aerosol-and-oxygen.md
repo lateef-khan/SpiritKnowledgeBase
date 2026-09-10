@@ -39,6 +39,19 @@ facets:
   - cu800ent-2024
   - mt200-2010
   - mt200-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -190,3 +203,19 @@ it as a bullet of their Important Safety Instructions, in the range's usual word
 `Do not operate where aerosol (spray) products are being use or where oxygen is being administered.`
 The grammatical slip `being use` is printed in all six, as it is in the 2021 books. No rule and no
 condition changes.
+
+## Thirteen Spirit residential bike manuals print the plain rule, and one prints nothing
+
+**Ten earlier XB manuals and three of the four 2023 books print the flat form with no reason given:**
+`Do not operate where aerosol (spray) products are being use or where oxygen is being administered.`
+`being use` is printed that way in all thirteen. It is a bullet of the safety list in XBR95 2016,
+2018 and 2021, XBR55 2019 and 2021, XBR55ENT-2021, XBU55 2019 and 2021, XBU55ENT-2021 and
+XBR25-2019, and item 11 of the numbered list in XBR25-2023, XBR55-2023 and XBU55-2023.
+
+**None of the thirteen names sparks, a motor or a gaseous environment.** They give the rule and no
+mechanism, so do not attach the 4.0T's explanation to a bike.
+
+**The XBR95-2023 manual prints no aerosol and no oxygen rule at all.** Its thirteen-item safety list
+goes from `Do not use outdoors` straight to `The appliance is intended for household use`
+(`ab950-2024-safety-instructions-list`), and the words *aerosol*, *spray* and *oxygen* are nowhere
+in the book. That is an absence; its three 2023 siblings print the rule and it does not.

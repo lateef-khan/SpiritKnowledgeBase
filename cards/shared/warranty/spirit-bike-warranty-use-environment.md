@@ -47,6 +47,7 @@ not_to_be_confused_with:
 - spirit-ce-warranty-use-environment
 - ct900-warranty-use-environment
 - ctsbs900-warranty-use-environment
+- spirit-xb-warranty-use-environment
 see_also:
 - spirit-bike-warranty-commercial-periods
 - spirit-bike-900-warranty-commercial-periods

@@ -2,7 +2,7 @@
 id: xt-2015-console-spirit-fit-app-minimum-os
 title: Minimum phone or tablet operating system for the Spirit Fit App
 kind: spec
-question: What phone or tablet does the Spirit Fit App need on a Spirit treadmill or elliptical?
+question: What phone or tablet does the Spirit Fit App need on a Spirit treadmill, elliptical, or XBR55 or XBU55 bike?
 asked_as:
 - what phone works with the spirit app
 - what version of android do i need for the treadmill app
@@ -23,6 +23,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr55-2019
+  - xbr55-2021
+  - xbu55-2019
+  - xbu55-2021
   - xe295-2019
   - xe295-2021
   - xe395-2018
@@ -42,9 +46,7 @@ see_also:
 - xt-2015-console-spirit-fit-app-pairing
 source:
   ref: spirit-treadmill-xt285-2015-owners-manual
-  locator: Using the Spirit FIT App, footnote, p. 31; the XT385-2015 (p. 33), XT485-2015
-    (p. 38) and XT685-2015 (p. 38) manuals print the same footnote; XE395 2018 p. 33, XE295 2019 p. 32,
-    XG400 2019 p. 31, XE295 2021 p. 32 and XG400 2021 p. 31 print it too
+  locator: Using the Spirit FIT App, footnote, p. 31; the XT385-2015 (p. 33), XT485-2015 (p. 38) and XT685-2015 (p. 38) manuals print the same footnote; XE395 2018 p. 33, XE295 2019 p. 32, XG400 2019 p. 31, XE295 2021 p. 32 and XG400 2021 p. 31 print it too; XBR55 2019 and 2021 p. 30 and XBU55 2019 and 2021 p. 30 print the same footnote
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +73,12 @@ section entirely; see `xt-2015-console-spirit-fit-app-pairing` for how that abse
 it is a 2023 machine. Its sibling the XT685ENT is the Spirit+ machine and needs iOS 13.1 or Android
 8.0 - see `xt-2023-console-spirit-plus-minimum-os`. **The two ENT treadmills do not run the same
 app.**
+
+**Four Spirit residential bike printings print the same footnote**, spelled "iOs 7" the same way: the
+**XBR55** and **XBU55** of 2019 and 2021, all four on **p. 30**. The figures did not move between the
+2019 printings and their 2021 successors, even though those reprints deleted the cloud-site list from
+the paragraph above.
+
+**No other Spirit residential bike states a minimum OS for this app.** The XBR25 and the XBR95 of
+every printing have no app section at all. The four 2023 bikes and both ENT bikes are Spirit+
+machines and need a newer OS: `xt-2023-console-spirit-plus-minimum-os`.

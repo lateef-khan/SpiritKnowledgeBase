@@ -26,6 +26,9 @@ facets:
   applies_to:
   - ce900-2025
   - cu800ent-2024
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -137,3 +140,13 @@ remedy or RF figure may be quoted for any other Spirit commercial bike.
 Its list is the three-line one without a Bluetooth version: **FCC part 15**, **UL**,
 **Bluetooth (with FTMS)**. It prints condition (2) of the Part 15 declaration as `must not accept any
 interference received`, the same wording as the XT manuals.
+
+## Three Spirit residential bikes print the same page
+
+**XBR55-2023, XBU55-2023 and XBR95-2023** print WARNINGS, COMPLIANCE AND NOTICES with the same three
+standards - **FCC part 15**, **UL** and **Bluetooth (with FTMS)** - and the same Part 15 two-condition
+declaration, word for word.
+
+**The XBR25-2023 manual has no compliance page at all** and claims no certification anywhere
+(`xt-2015-safety-no-compliance-page`). It is the only one of the four 2023 XB books without it, so do
+not read UL or FCC part 15 onto an XBR25-2023 from its siblings.

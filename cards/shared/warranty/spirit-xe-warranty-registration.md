@@ -55,6 +55,7 @@ not_to_be_confused_with:
 - xt-2015-warranty-registration
 - xt-2023-warranty-registration
 - spirit-2026t-warranty-registration
+- spirit-xb-warranty-registration
 see_also:
 - spirit-xe-2005-warranty-exclusions
 - spirit-xe-warranty-exclusions-residential-setting-only

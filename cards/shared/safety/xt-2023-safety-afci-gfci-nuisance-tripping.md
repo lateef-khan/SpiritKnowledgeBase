@@ -25,6 +25,9 @@ facets:
   model: '*'
   applies_to:
   - cu800ent-2024
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xe395-2023
   - xt185-2015
   - xt185-2023
@@ -154,3 +157,18 @@ drive electronics.
 breakers, the Grainger 1D237 and QO120HM replacements, and a dedicated 5 amp breaker
 (`spirit-house-breaker-needs-a-high-inrush-type`). Different cause, different remedy, different
 rating - do not swap the two.
+
+## Three Spirit residential bikes print the same paragraph
+
+**XBR25-2023, XBR55-2023 and XBU55-2023** print it on their ELECTRICAL SAFETY page, word for word,
+with the same three tested brands - Eaton (Cutler Hammer Series), Leviton (Smart lock pro) and
+Schneider Electric (Canadian home series) - and the same condition, that they do not trip as long as
+no other device shares the circuit.
+
+**Their own earlier printings print the opposite advice.** The XBR25-2019, XBR55-2019, XBR55-2021,
+XBU55-2019 and XBU55-2021 manuals say a tripping house breaker must be replaced with a high-inrush
+type and name Grainger part # 1D237 and QO120HM
+(`spirit-house-breaker-needs-a-high-inrush-type`). The 2023 rewrite dropped that and put the surge
+suppressor and the tested-breaker list in its place. Answer from the customer's own book.
+
+**The XBR95-2023 manual has no ELECTRICAL SAFETY page and prints neither paragraph.**

@@ -65,6 +65,20 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xbr25-2019
+  - xbr25-2023
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -151,12 +165,12 @@ source:
     xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 897, 899),
     xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
     lines 977, 979), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
-    1486-1487), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines 1365-1366),
-    and in the six printings filed under Bikes/bike backup: xe395-2018 p. 38
+    1486-1487), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines
+    1365-1366), and in the six printings filed under Bikes/bike backup: xe395-2018 p. 38
     (spirit-elliptical-xe395-2018-owners-manual text.md lines 1332, 1334), xe795-2018 p. 38
-    (lines 1282, 1284), xe895-2018 p. 37 (lines 1374, 1376), xe195-2019 p. 33 (lines 1069, 1071,
-    numbered 3 and 4), xe295-2019 p. 37 (lines 1172, 1174), xg400-2019 p. 36 (lines 1179, 1181).
-    Exclusion item 5 in all eight Spirit indoor cycle and air bike manuals:
+    (lines 1282, 1284), xe895-2018 p. 37 (lines 1374, 1376), xe195-2019 p. 33 (lines 1069,
+    1071, numbered 3 and 4), xe295-2019 p. 37 (lines 1172, 1174), xg400-2019 p. 36 (lines 1179,
+    1181). Exclusion item 5 in all eight Spirit indoor cycle and air bike manuals:
     spirit-bike-cb900-2013-owners-manual p. 13 (text.md line 433),
     spirit-bike-xic600-2018-owners-manual p. 26 (text.md line 894),
     spirit-bike-ab900-2018-owners-manual p. 46 (text.md line 1298),
@@ -164,8 +178,19 @@ source:
     spirit-bike-xic600-2021-owners-manual p. 27 (text.md line 913),
     spirit-bike-cic850-2022-owners-manual p. 37 (text.md line 820),
     spirit-bike-jb950-2022-owners-manual p. 72 (text.md line 1817),
-    spirit-bike-ab950-2024-owners-manual p. 34 (text.md line 1100)
-  extracted_at: '2026-09-09'
+    spirit-bike-ab950-2024-owners-manual p. 34 (text.md line 1100) All fourteen Spirit XB
+    residential upright and recumbent bike manuals print the same sold-or-transferred
+    exclusion, at spirit-bike-xbr95-2016-owners-manual line 1264,
+    spirit-bike-xbr95-2018-owners-manual line 1273, spirit-bike-xbr25-2019-owners-manual line
+    1066, spirit-bike-xbr55-2019-owners-manual line 1339, spirit-bike-xbu55-2019-owners-manual
+    line 1064, spirit-bike-xbr55-2021-owners-manual line 1239,
+    spirit-bike-xbu55-2021-owners-manual line 1156, spirit-bike-xbr95-2021-owners-manual line
+    1257, spirit-bike-xbr55ent-2021-owners-manual line 1672,
+    spirit-bike-xbu55ent-2021-owners-manual line 1575, spirit-bike-xbr25-2023-owners-manual
+    line 1439, spirit-bike-xbr55-2023-owners-manual line 1972,
+    spirit-bike-xbr95-2023-owners-manual line 1912, spirit-bike-xbu55-2023-owners-manual line
+    1743
+  extracted_at: '2026-09-10'
 ---
 
 No. Exclusion 5, in all eleven XT manuals - the 2010 XT685, the 2015 generation and the 2023 one - in both ENT manuals, and word for word again in the 2026 4.0T, 7.0T and 8.0T, puts outside the warranty:
@@ -201,3 +226,15 @@ None of the seventeen names a reinstatement route, a transfer fee or a procedure
 The word *warranty* does not appear in the sentence on any of them, and **none of the eight says in as many words that the warranty is non-transferable**. None names a reinstatement route, a transfer fee or a procedure for a second owner.
 
 **The JB950 has the shortest exclusion list of the eight**, at seven items, and this is still item 5 in it. The AB900's runs to eight and the other six to nine; the rule keeps its slot in every one.
+
+## All fourteen Spirit XB home bikes print the same sentence
+
+**Word for word, in the same slot relative to the serial-number item**, from the XBR95 2016 to the four 2023 books:
+
+> Products that have been: sold, transferred, bartered, or given to a third party.
+
+**Its number moves once.** It is item **4** in the ten manuals printed before 2023, whose exclusion list runs to eight numbered items because the consequential-damages paragraph above it is unnumbered, and item **5** in the four 2023 manuals, whose list runs to nine because that paragraph became item 1. The item above it - products whose original serial numbers have been removed or altered - moves with it, from 3 to 4.
+
+**None of the fourteen says in as many words that the warranty is non-transferable**, and none names a reinstatement route, a transfer fee or a procedure for a second owner. A bike sold on with its serial sticker peeled off is outside cover on both counts.
+
+The lists are `spirit-xb-warranty-exclusions` and `spirit-xb-2023-warranty-exclusions`.

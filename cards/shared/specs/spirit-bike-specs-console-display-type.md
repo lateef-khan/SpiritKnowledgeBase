@@ -45,6 +45,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-cycle-specs-console-display-type
+- spirit-residential-bike-specs-console-display-type
 see_also:
 - spirit-bike-specs-no-specification-table
 - spirit-ce-specs-forty-resistance-levels

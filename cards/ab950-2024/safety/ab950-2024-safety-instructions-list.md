@@ -1,10 +1,10 @@
 ---
 id: ab950-2024-safety-instructions-list
-title: The thirteen numbered air bike safety instructions that name the blocked air
-  openings
+title: The thirteen numbered safety instructions on a self-powered machine, ending
+  at 350 lbs
 kind: policy
-question: What safety instructions does the 2024 Spirit AB950 air bike owner's manual
-  (ab950-2024) print before you ride?
+question: What safety instructions does the owner's manual print before you ride a
+  self-powered Spirit air bike or recumbent bike (ab950-2024 or xbr95-2023)?
 asked_as:
 - what are the safety warnings for the ab950
 - what does the ab950 manual say before you ride
@@ -25,9 +25,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: ab950-2024
+  model: '*'
   applies_to:
   - ab950-2024
+  - xbr95-2023
   section: safety
   code: '*'
 authority: 3
@@ -102,3 +103,19 @@ A boxed callout sits beside the list:
 they have been given supervision or instruction concerning use of the appliance by a person
 responsible for their safety`. The AB950 stops at `lack of experience and knowledge`, as the XIC600
 manuals do.
+
+## The Spirit XBR95-2023 recumbent bike prints the same thirteen items
+
+**Word for word, in the same order, ending at `13. User Weight Limit: 350 lbs.`** on printed page 5
+of the XBR95-2023 owner's manual. Like the AB950 this is a self-powered machine, which is why the
+list carries no cord, plug, outlet, unplug-before-cleaning or grounding item
+(`spirit-bike-safety-no-mains-outlet-needed`).
+
+**Its boxed callout says more than the AB950's.** The XBR95-2023 prints
+`Please ensure that you review and adhere to the user weight restrictions and power requirements of
+your new machine. Failure to do so may result in serious injury or damage to your machine` - with
+`and power requirements` where the AB950 names weight alone. No item of the list changes.
+
+**Its three sibling 2023 bikes print a longer list.** The XBR25-2023, XBR55-2023 and XBU55-2023
+manuals renumber the same content to twenty-one items and add the mains-supply items this list omits
+(`xt-2023-safety-instructions-list`). Do not answer one of those from this card.

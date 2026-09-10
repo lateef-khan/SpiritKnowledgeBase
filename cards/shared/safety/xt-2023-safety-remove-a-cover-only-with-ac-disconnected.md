@@ -42,6 +42,9 @@ facets:
   - cu800ent-2024
   - mt200-2010
   - mt200-2022
+  - xbr25-2023
+  - xbr55-2023
+  - xbu55-2023
   - xe100-2007
   - xe150-2005
   - xe200-2007
@@ -237,3 +240,16 @@ CU800ENT-2024.
 different rule in the same position - do not service the machine while the generator is spinning
 (`spirit-ce-safety-generator-produces-ac-power`). Pulling a plug is not the safe state on those
 machines because there is no plug; stopping the flywheel is.
+
+## Three Spirit residential bikes print the same sentence
+
+**XBR25-2023, XBR55-2023 and XBU55-2023** open their ELECTRICAL SAFETY page with
+`NEVER remove any cover without first disconnecting AC power`, word for word.
+
+**Their own earlier printings say DC.** The XBR25-2019, XBR55-2019, XBR55-2021, XBU55-2019 and
+XBU55-2021 manuals print `D.C. power` or `DC power` in the same position
+(`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`). The sentence changed with the 2023
+rewrite; do not read one generation's wording onto the other.
+
+**The XBR95-2023 manual prints no cover-removal rule**, because it has no ELECTRICAL SAFETY page at
+all (`spirit-bike-safety-no-mains-outlet-needed`).

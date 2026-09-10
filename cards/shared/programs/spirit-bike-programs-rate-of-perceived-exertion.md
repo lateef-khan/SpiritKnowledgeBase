@@ -2,7 +2,7 @@
 id: spirit-bike-programs-rate-of-perceived-exertion
 title: The Borg scale rates effort from 6 to 20, and adding a zero gives an approximate heart rate
 kind: fact
-question: What is the rate of perceived exertion scale in a Spirit commercial bike or air bike manual?
+question: What is the rate of perceived exertion scale in a Spirit bike or air bike manual?
 asked_as:
 - what is the borg scale on the bike
 - how do i judge how hard im working on the exercise bike
@@ -31,6 +31,19 @@ facets:
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2025
+  - xbr25-2019
+  - xbr55-2019
+  - xbr55-2021
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2018
+  - xbr95-2021
+  - xbr95-2023
+  - xbu55-2019
+  - xbu55-2021
+  - xbu55-2023
+  - xbu55ent-2021
   section: programs
   code: '*'
 authority: 3
@@ -41,7 +54,7 @@ see_also:
 - ct900-rate-of-perceived-exertion-rpe
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29; AB950 2024 p. 23'
+  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29; AB950 2024 p. 23; XBR95 2016/2018/2021 printed p. 31; XBR25 2019 p. 24; XBR55 2019/2021 p. 28; XBU55 2019/2021 p. 28; XBR55ENT/XBU55ENT 2021 p. 40; XBR95 2023 p. 25; XBR55/XBU55 2023 p. 26'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +85,11 @@ same 6-to-20 table and the same add-a-zero rule.
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no RPE page.** Searching all four whole
 manuals for "Borg" and for "perceived" returns nothing. **Nor does the AB900 2018 air bike** - see
 `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+
+**Thirteen residential XBR and XBU bike manuals print this page**, with the same 6-to-20 Borg table
+and the same add-a-zero rule: XBR95 2016, 2018, 2021 and 2023; XBR25 2019; XBR55 2019, 2021 and 2023;
+XBR55ENT 2021; XBU55 2019, 2021 and 2023; and XBU55ENT 2021. The four 2023 books head it **HEART RATE
+- PERCEIVED EXERTION**, the nine older ones **Rate of Perceived Exertion**.
+
+**The XBR25 2023 prints no RPE page.** Searching its whole manual for "Borg" and for "perceived"
+returns nothing.

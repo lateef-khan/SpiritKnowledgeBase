@@ -1,10 +1,11 @@
 ---
 id: spirit-bike-2024-2025-safety-product-labels
-title: The three bike product label stickers, and the two places the safety warning
+title: The three bike product label stickers, and the three places the safety warning
   sticker is put
 kind: fact
-question: What stickers are on a 2024 or 2025 Spirit commercial bike (cu800ent-2024,
-  cr900-2025 or cu900-2025), and where is the serial number?
+question: What stickers are on a Spirit bike whose manual prints a PRODUCT LABELS page
+  (cr900-2025, cu800ent-2024, cu900-2025, xbr25-2023, xbr55-2023, xbr95-2023 or
+  xbu55-2023), and where is the serial number?
 asked_as:
 - where is the serial number on my bike
 - what stickers are on the exercise bike
@@ -30,6 +31,10 @@ facets:
   - cr900-2025
   - cu800ent-2024
   - cu900-2025
+  - xbr25-2023
+  - xbr55-2023
+  - xbr95-2023
+  - xbu55-2023
   section: safety
   code: '*'
 authority: 3
@@ -87,3 +92,41 @@ the CU800ENT-2024.
 **The ten older bike manuals have no product labels page.** They print a `RECORD YOUR SERIAL NUMBER`
 block with a blank and, in the 2018 and 2021 manuals, one sentence of location -
 `spirit-ce-safety-serial-number-location`.
+
+## The four 2023 Spirit residential bikes print the same page
+
+**XBR25-2023, XBR55-2023, XBU55-2023 and XBR95-2023 print a PRODUCT LABELS page with the same three
+stickers**, the same telephone number (870) 935-1107 on the serial-number artwork, and the same
+instruction to record the number below the barcode.
+
+| Machine | Serial number sticker | Safety warning sticker | Proposition 65 sticker |
+|---|---|---|---|
+| XBR25-2023, XBR55-2023 | front stabilizer **tube** | **left side** of the Recumbent Bike's upright | **left side** of the upright |
+| XBU55-2023 | front stabilizer **tube** | **left side** of the Bike's upright | **left side** of the upright |
+| XBR95-2023 | front stabilizer **tube** | **interior side** of the Recumbent Bike's upright | **interior side** of the upright |
+
+- **All four say `front stabilizer tube`**, with the word `tube` the CR900-2025, CU900-2025 and
+  CU800ENT-2024 manuals leave out. Same part, one word longer.
+- **`Left side` and `interior side` of an upright are not the same face.** The XBR95-2023 is the odd
+  book of the four, exactly as the CU900-2025 is the odd book of the three above. Give the location
+  from the machine's own manual.
+- **The XBU55-2023 writes `your Bike's upright`** where the three recumbent books write
+  `your Recumbent Bike's upright`.
+
+**These four manuals reproduce the safety warning sticker's own wording in the label artwork**, which
+the CR900-2025, CU900-2025 and CU800ENT-2024 manuals do not: seven English bullets and a French
+translation, recovered from the flattened label page -
+`spirit-xb-2023-safety-warning-sticker-text`.
+
+**The Proposition 65 sticker text is the short form here too** - no chemical named and no web address
+in the manual's own words - but the label artwork on all four pages carries
+`WARNING: Cancer and Reproductive Harm - www.P65Warnings.ca.gov`, read from a 400 dpi render of the
+page in each of the four (`xt-2023-safety-proposition-65-sticker`).
+
+**The registration block on the previous page carries each manual's revision stamp**, in the same
+`Version` and `Revision` form as the three bikes above - the XBR95-2023 prints
+`Version: 4.0, Revision: 08.07.23`.
+
+**The ten earlier XB bike manuals have no product labels page.** They print a
+`Record Your Serial Number` panel beside a `Serial Number Location` illustration and describe no
+sticker at all (`xt-2015-safety-product-labels-and-serial-number`).

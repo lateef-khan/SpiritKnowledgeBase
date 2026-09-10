@@ -2,7 +2,7 @@
 id: xe395ent-2021-console-internet-and-apps-may-need-a-subscription
 title: The third-party apps section needs WiFi, and the manual warns some apps may need a subscription
 kind: fact
-question: What is the Internet & Apps tab for on a Spirit xe395ent-2021 elliptical?
+question: What is the Internet & Apps tab for on a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
 asked_as:
 - can i watch netflix on my elliptical
 - what apps are on my elliptical console
@@ -20,9 +20,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: xe395ent-2021
+  product_line: '*'
+  model: '*'
   applies_to:
+  - xbr55ent-2021
+  - xbu55ent-2021
   - xe395ent-2021
   section: console
   code: '*'
@@ -34,7 +36,7 @@ see_also:
 - xt485ent-2023-console-internet-and-apps
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: p. 26, INTERNET & APPS
+  locator: p. 26, INTERNET & APPS; XBR55ENT and XBU55ENT p. 23, INTERNET & APPS
   extracted_at: '2026-09-09'
 ---
 
@@ -57,3 +59,8 @@ the app icon" - **with no subscription warning at all**. See `xt485ent-2023-cons
 
 **Internet and Apps also works during a workout**, and behaves the same way there:
 `xe395ent-2021-console-workout-views-goal-profile-and-track`.
+
+**Both Spirit ENT residential bikes print this section word for word** on their **p. 23**, so this
+card is no longer elliptical-only - and they point back to their own **p. 18** for the WiFi
+instructions rather than to p. 21. Same third-party apps, same subscription warning, same full-screen
+and home icons, and the same refusal to name a single app.

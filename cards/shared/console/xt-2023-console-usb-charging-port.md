@@ -26,6 +26,11 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2023
+  - xbu55-2023
+  - xbu55ent-2021
   - xt285-2023
   - xt385-2023
   - xt485-2023
@@ -40,9 +45,11 @@ see_also:
 - xt-2023-console-status-icons
 - ce800ent-usb-charging-port
 - spirit-ce-console-led-console-face
+- spirit-xe-console-usb-port-charges-a-device-but-saves-no-data
+- xe795-2023-console-usb-charging-needs-forty-rpm
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 25, FEATURES - CONTINUED / Charge Portable Devices with USB port
+  locator: page 25, FEATURES - CONTINUED / Charge Portable Devices with USB port; XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, FEATURES - CONTINUED; XBR55ENT and XBU55ENT p. 18, CHARGE PORTABLE DEVICES WITH USB PORT
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +84,22 @@ port**, with the same two steps, the same **5Vdc/1.0 amp** and **USB 2.0** figur
 CE850-2020 and CE850-2022 drawings label a **USB Charger** on the console face and say nothing more
 about it, so **do not quote 5Vdc/1.0 amp for those machines**. The CE800ENT figure comes from its own
 service manual: `ce800ent-usb-charging-port`.
+
+**Five Spirit residential bike printings print this word for word**, so this card covers residential
+bikes as well: the **XBR95-2023** (p. 21), the **XBR55-2023** and **XBU55-2023** (p. 22), and both ENT
+touchscreens, the **XBR55ENT-2021** and **XBU55ENT-2021** (p. 18). Same two steps, same **5Vdc/1.0
+amp**, same **USB 2.0**, same "charging purposes only" sentence, same not-included cable.
+
+**The XBR95-2023 adds a fourth note the others do not print**: **"Minimum speed must reach to 40 RPM
+or above to generate enough power for USB charging."** That machine has no mains supply - its console
+and its port both run off a built-in generator. See
+`xe795-2023-console-usb-charging-needs-forty-rpm`.
+
+**The XBR25-2023 has no USB port at all**, and neither does any 2016-2021 residential bike. The word
+USB appears nowhere in the XBR25 manual of either printing, and its console overview drawing - a
+flattened image, checked by rendering the page - labels no USB Charging where its three 2023
+stablemates' drawings do.
+
+**The same fact is also held by `spirit-xe-console-usb-port-charges-a-device-but-saves-no-data`**,
+which carries the XE395-2023, XE795-2023 and XE395ENT. The two cards state identical figures; they
+were written from different manuals and neither is wrong.
