@@ -25,6 +25,7 @@ facets:
   - cs800-2024
   section: errors
   code: no-code
+  model_number: '800625'
 authority: 3
 not_to_be_confused_with:
 - spirit-lcd-dim-or-incomplete

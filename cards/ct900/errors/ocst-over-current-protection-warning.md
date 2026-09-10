@@ -20,6 +20,7 @@ facets:
   - ct900
   section: errors
   code: ocst
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-e1-over-current

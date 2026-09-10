@@ -26,6 +26,7 @@ facets:
   - ce850-2024
   section: programs
   code: '*'
+  model_number: '850025'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce-programs-constant-power-watt

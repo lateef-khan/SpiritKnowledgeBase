@@ -29,6 +29,7 @@ facets:
   - ct800-2024
   section: specs
   code: '*'
+  model_number: '800825'
 authority: 3
 not_to_be_confused_with:
 - ct850-2024-specs-parts-list

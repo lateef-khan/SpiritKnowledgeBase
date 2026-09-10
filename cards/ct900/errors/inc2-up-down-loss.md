@@ -21,6 +21,7 @@ facets:
   - ct900
   section: errors
   code: inc2
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-inc1-up-down-not-responding

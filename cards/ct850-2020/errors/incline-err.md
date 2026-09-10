@@ -25,6 +25,7 @@ facets:
   - ct850-2020
   section: errors
   code: incline-err
+  model_number: '850840'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-e3-incline-motor-cannot-work

@@ -28,6 +28,7 @@ facets:
   - xt485ent-2023
   section: specs
   code: '*'
+  model_number: '485850'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-specs-parts-list-xt385-xt485

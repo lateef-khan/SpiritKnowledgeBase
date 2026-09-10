@@ -25,6 +25,7 @@ facets:
   - ct850-2016
   section: console
   code: '*'
+  model_number: '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:

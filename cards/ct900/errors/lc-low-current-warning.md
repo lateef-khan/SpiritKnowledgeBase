@@ -20,6 +20,7 @@ facets:
   - ct900
   section: errors
   code: lc
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900-e22-low-current

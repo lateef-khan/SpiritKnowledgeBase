@@ -29,6 +29,7 @@ facets:
   - crs800s-2024
   section: maintenance
   code: '*'
+  model_number: '800525'
 authority: 3
 not_to_be_confused_with:
 - cs800-2024-maintenance-machine-care-schedule

@@ -25,6 +25,7 @@ facets:
   - lcr-2011
   section: assembly
   code: '*'
+  model_number: '522110'
 authority: 3
 not_to_be_confused_with: []
 see_also: []

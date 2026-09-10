@@ -30,6 +30,7 @@ facets:
   - cr800ent-2024
   section: specs
   code: '*'
+  model_number: '800165'
 authority: 3
 not_to_be_confused_with:
 - cr800-2024-specs-parts-list

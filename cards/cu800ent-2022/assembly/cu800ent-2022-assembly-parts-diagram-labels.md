@@ -26,6 +26,7 @@ facets:
   - cu800ent-2022
   section: assembly
   code: '*'
+  model_number: '800350'
 authority: 3
 not_to_be_confused_with:
 - cu800-2021-assembly-parts-diagram-labels

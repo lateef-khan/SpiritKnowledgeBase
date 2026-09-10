@@ -26,6 +26,7 @@ facets:
   - xbr25-2023
   section: assembly
   code: '*'
+  model_number: '251123'
 authority: 3
 not_to_be_confused_with:
 - spirit-xbr-2023-assembly-parts-diagram-letters

@@ -24,6 +24,7 @@ facets:
   - f63-2019
   section: errors
   code: e6
+  model_number: '563818'
 authority: 3
 not_to_be_confused_with:
 - f63-2016-e0-error-code

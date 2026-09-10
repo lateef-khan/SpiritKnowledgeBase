@@ -25,6 +25,7 @@ facets:
   - f85-2026
   section: programs
   code: '*'
+  model_number: '585286'
 authority: 3
 not_to_be_confused_with:
 - f85-2026-favorites

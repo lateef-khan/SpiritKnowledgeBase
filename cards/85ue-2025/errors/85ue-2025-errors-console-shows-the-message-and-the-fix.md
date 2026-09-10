@@ -29,6 +29,7 @@ facets:
   - 85ue-2025
   section: errors
   code: no-code
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - 85s-2025-errors-console-shows-the-fault-and-a-suggested-fix

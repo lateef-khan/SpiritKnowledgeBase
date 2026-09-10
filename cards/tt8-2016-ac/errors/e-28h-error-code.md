@@ -24,6 +24,7 @@ facets:
   - tt8-2016-ac
   section: errors
   code: e-28h
+  model_number: '588816'
 authority: 3
 not_to_be_confused_with:
 - tt8-2016-ac-e-21h-error-code

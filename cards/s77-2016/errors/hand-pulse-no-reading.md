@@ -24,6 +24,7 @@ facets:
   - s77-2016
   section: errors
   code: '*'
+  model_number: '577816'
 authority: 3
 not_to_be_confused_with:
 - s77-2016-chest-belt-no-pulse

@@ -27,6 +27,7 @@ facets:
   - csc880-2025
   section: programs
   code: '*'
+  model_number: '880665'
 authority: 3
 not_to_be_confused_with:
 - spirit-stepper-programs-target-zone-of-108-to-153-beats

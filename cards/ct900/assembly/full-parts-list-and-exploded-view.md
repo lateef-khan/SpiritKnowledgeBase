@@ -24,6 +24,7 @@ facets:
   - ct900
   section: assembly
   code: '*'
+  model_number: '900825'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-specs-no-parts-list

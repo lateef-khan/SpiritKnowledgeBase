@@ -24,6 +24,7 @@ facets:
   - xt285-2023
   section: safety
   code: '*'
+  model_number: '285823'
 authority: 3
 not_to_be_confused_with:
 - xt185-2023-user-weight-limit

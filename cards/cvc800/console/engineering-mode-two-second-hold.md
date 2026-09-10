@@ -28,6 +28,7 @@ facets:
   - cvc800
   section: console
   code: '*'
+  model_number: '800440'
 authority: 3
 not_to_be_confused_with:
 - spirit-stepper-console-maintenance-menu-sleep-default-on

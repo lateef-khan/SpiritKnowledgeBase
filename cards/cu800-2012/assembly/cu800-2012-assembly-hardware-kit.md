@@ -26,6 +26,7 @@ facets:
   - cu800-2012
   section: assembly
   code: '*'
+  model_number: '800343'
 authority: 3
 not_to_be_confused_with:
 - spirit-cu800-assembly-hardware-kit

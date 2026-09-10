@@ -29,6 +29,7 @@ facets:
   - csc900-2019
   section: safety
   code: '*'
+  model_number: '900669'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce-safety-generator-produces-ac-power

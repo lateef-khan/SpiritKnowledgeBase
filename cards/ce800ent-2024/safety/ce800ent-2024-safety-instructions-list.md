@@ -28,6 +28,7 @@ facets:
   - ce800ent-2024
   section: safety
   code: '*'
+  model_number: '800065'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce800-safety-instructions-list

@@ -28,6 +28,7 @@ facets:
   - 70s-2025
   section: assembly
   code: '*'
+  model_number: '770545'
 authority: 3
 not_to_be_confused_with:
 - ms300-2021-assembly-procedure

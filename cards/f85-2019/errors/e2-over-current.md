@@ -25,6 +25,7 @@ facets:
   - f85-2019
   section: errors
   code: e2
+  model_number: '585818'
 authority: 3
 not_to_be_confused_with:
 - f85-2019-e0-safety-key-error

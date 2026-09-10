@@ -21,6 +21,7 @@ facets:
   - ctsbs900
   section: errors
   code: ol
+  model_number: '900885'
 authority: 3
 not_to_be_confused_with:
 - ctsbs900-ol1-inverter-overload

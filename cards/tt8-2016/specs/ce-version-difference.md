@@ -24,6 +24,7 @@ facets:
   - tt8-2016
   section: specs
   code: '*'
+  model_number: '588816'
 authority: 3
 not_to_be_confused_with:
 - tt8-2016-ac-ce-version-difference

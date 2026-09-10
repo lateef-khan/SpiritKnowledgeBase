@@ -28,6 +28,7 @@ facets:
   - 80t-2026
   section: safety
   code: '*'
+  model_number: '780885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-safety-getting-on-and-off-the-treadmill

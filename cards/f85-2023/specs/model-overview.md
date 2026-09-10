@@ -25,6 +25,7 @@ facets:
   - f85-2023
   section: specs
   code: '*'
+  model_number: '585822'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -47,3 +48,8 @@ driver, a DC drive motor and an AC incline motor. It also has a **rear incline m
 
 **The manual never prints a six digit SKU.** It identifies the machine only by the name on the cover and the
 factory code above.
+
+The Sole model number for this machine is **585822**. It comes from the service manual's own file name,
+`F85(2023)_585822_ST278-YT071-01_Service manual.pdf`, and from the Spirit customer-service database.
+It is not printed on any page. The F89 2023 service manual carries the same number in *its* file name,
+which is a naming error on that file, not a shared SKU.

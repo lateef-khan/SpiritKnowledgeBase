@@ -28,6 +28,7 @@ facets:
   - ce800ent
   section: assembly
   code: '*'
+  model_number: '800054'
 authority: 3
 not_to_be_confused_with:
 - spirit-ce800-assembly-parts-diagram-labels

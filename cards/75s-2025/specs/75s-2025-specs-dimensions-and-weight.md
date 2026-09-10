@@ -27,6 +27,7 @@ facets:
   - 75s-2025
   section: specs
   code: '*'
+  model_number: '775545'
 authority: 3
 not_to_be_confused_with:
 - ms300-2021-specs-dimensions-and-weight

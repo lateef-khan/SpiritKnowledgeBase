@@ -27,6 +27,7 @@ facets:
   - e55-2016
   section: specs
   code: '*'
+  model_number: '555016'
 authority: 3
 not_to_be_confused_with: []
 see_also:

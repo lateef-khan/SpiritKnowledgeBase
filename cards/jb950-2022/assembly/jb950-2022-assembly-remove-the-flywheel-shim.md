@@ -26,6 +26,7 @@ facets:
   - jb950-2022
   section: assembly
   code: '*'
+  model_number: '950348'
 authority: 3
 see_also:
 - jb950-2022-assembly-procedure

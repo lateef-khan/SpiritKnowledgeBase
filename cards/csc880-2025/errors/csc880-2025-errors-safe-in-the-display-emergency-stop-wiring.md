@@ -27,6 +27,7 @@ facets:
   - csc880-2025
   section: errors
   code: safe
+  model_number: '880665'
 authority: 3
 not_to_be_confused_with:
 - csc880-2025-errors-er02-infrared-emergency-stop-triggered

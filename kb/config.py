@@ -19,6 +19,7 @@ class FacetSpec:
     index: str
     array: bool
     values: tuple[str, ...]
+    optional: bool = False
 
 
 @dataclass(frozen=True)
@@ -83,6 +84,7 @@ def load_config(root: Path) -> KbConfig:
             index=index,
             array=bool(spec.get("array", False)),
             values=tuple(spec.get("values") or ()),
+            optional=bool(spec.get("optional", False)),
         )
     if not facets:
         raise ConfigError("kb.yaml declares no facets")

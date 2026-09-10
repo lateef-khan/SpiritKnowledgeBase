@@ -26,6 +26,7 @@ facets:
   - e25-2023
   section: specs
   code: '*'
+  model_number: '525022'
 authority: 3
 not_to_be_confused_with: []
 see_also:

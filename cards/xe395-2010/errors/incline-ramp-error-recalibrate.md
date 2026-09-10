@@ -19,6 +19,7 @@ facets:
   - xe395-2010
   section: errors
   code: no-code
+  model_number: '395010'
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-incline-err-during-incline-action

@@ -27,6 +27,7 @@ facets:
   - cvc800
   section: programs
   code: '*'
+  model_number: '800440'
 authority: 3
 not_to_be_confused_with:
 - spirit-stepper-programs-manual-starts-at-level-one-and-can-be-saved-as-custom

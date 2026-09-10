@@ -25,6 +25,7 @@ facets:
   - e25-2023
   section: errors
   code: e1
+  model_number: '525022'
 authority: 3
 not_to_be_confused_with:
 - e25-2023-e2-gear-motor-failure

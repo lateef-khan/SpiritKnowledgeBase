@@ -25,6 +25,7 @@ facets:
   - f63-2026
   section: safety
   code: '*'
+  model_number: '563286'
 authority: 3
 not_to_be_confused_with: []
 see_also:

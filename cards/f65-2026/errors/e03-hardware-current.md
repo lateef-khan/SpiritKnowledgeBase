@@ -24,6 +24,7 @@ facets:
   - f65-2026
   section: errors
   code: e03
+  model_number: '565826'
 authority: 3
 not_to_be_confused_with:
 - f65-2026-e01-over-current

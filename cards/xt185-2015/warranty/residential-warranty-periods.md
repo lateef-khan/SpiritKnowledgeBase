@@ -27,6 +27,7 @@ facets:
   - xt185-2015
   section: warranty
   code: '*'
+  model_number: '185815'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-warranty-residential-coverage-periods

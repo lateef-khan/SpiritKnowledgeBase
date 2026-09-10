@@ -29,6 +29,7 @@ facets:
   - 85ue-2025
   section: safety
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-safety-medical-clearance-and-exertion

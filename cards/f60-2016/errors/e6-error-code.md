@@ -24,6 +24,7 @@ facets:
   - f60-2016
   section: errors
   code: e6
+  model_number: '560816'
 authority: 3
 not_to_be_confused_with:
 - f60-2016-e0-error-code

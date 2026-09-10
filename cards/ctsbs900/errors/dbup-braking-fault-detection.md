@@ -21,6 +21,7 @@ facets:
   - ctsbs900
   section: errors
   code: dbup
+  model_number: '900885'
 authority: 3
 not_to_be_confused_with: []
 see_also:

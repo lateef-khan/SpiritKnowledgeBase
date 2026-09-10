@@ -28,6 +28,7 @@ facets:
   - 85s-2025
   section: console
   code: '*'
+  model_number: '785545'
 authority: 3
 not_to_be_confused_with:
 - spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down

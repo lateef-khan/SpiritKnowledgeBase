@@ -151,6 +151,46 @@ def vocab(ctx: click.Context) -> None:
     click.echo(render_vocab(build_vocab(cards, config)))
 
 
+@main.command("facet-gaps")
+@click.option("--facet", default="model_number", help="The optional facet to report on")
+@click.pass_context
+def facet_gaps(ctx: click.Context, facet: str) -> None:
+    """
+    Machines whose cards name one machine and still lack an optional facet.
+
+    An optional facet cannot be made required until every machine carries it, so
+    the remaining work has to show up somewhere other than a red suite.
+    """
+    root, config = _load_config(ctx)
+    spec = config.facets.get(facet)
+    if spec is None:
+        click.echo(f"facet {facet!r} is not declared in kb.yaml")
+        ctx.exit(1)
+
+    missing: dict[str, int] = {}
+    carried: dict[str, set[str]] = {}
+    for card in load_cards(root):
+        applies = card.facets.get("applies_to")
+        applies = applies if isinstance(applies, list) else [applies]
+        applies = [a for a in applies if isinstance(a, str) and a and a != "*"]
+        if len(applies) != 1:
+            continue
+        value = card.facets.get(facet)
+        if isinstance(value, str) and value.strip():
+            carried.setdefault(applies[0], set()).add(value)
+        else:
+            missing[applies[0]] = missing.get(applies[0], 0) + 1
+
+    for machine in sorted(missing):
+        click.echo(f"{machine}: {missing[machine]} cards without {facet}")
+    for machine, values in sorted(carried.items()):
+        if len(values) > 1:
+            click.echo(f"{machine}: DISAGREES - {facet} is {sorted(values)}")
+    click.echo(
+        f"{len(missing)} machines without {facet}, {len(carried)} with it"
+    )
+
+
 @main.command()
 @click.argument("card_id")
 @click.option("--today", default=None, help="Override the extracted_at date")

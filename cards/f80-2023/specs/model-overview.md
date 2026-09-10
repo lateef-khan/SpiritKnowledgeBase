@@ -25,6 +25,7 @@ facets:
   - f80-2023
   section: specs
   code: '*'
+  model_number: '580822'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -47,3 +48,7 @@ driver, a DC drive motor and an AC incline motor.
 
 **The manual never prints a six digit SKU.** It identifies the machine only by the name on the cover and the
 factory code above.
+
+The Sole model number for this machine is **580822**. It comes from the service manual's own file name,
+`SOLE F80 2023 Service Manual (580822).pdf`, and from the Spirit customer-service database. It is not
+printed on any page.

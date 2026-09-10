@@ -24,6 +24,7 @@ facets:
   - ctsbs900
   section: assembly
   code: '*'
+  model_number: '900885'
 authority: 3
 not_to_be_confused_with:
 - ct800-2020-assembly-levelling-pads

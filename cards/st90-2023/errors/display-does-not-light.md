@@ -24,6 +24,7 @@ facets:
   - st90-2023
   section: errors
   code: '*'
+  model_number: '590822'
 authority: 3
 not_to_be_confused_with:
 - st90-2023-power-switch-not-lit

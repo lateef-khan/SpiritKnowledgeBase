@@ -27,6 +27,7 @@ facets:
   - xt385-2015
   section: programs
   code: '*'
+  model_number: '385815'
 authority: 3
 not_to_be_confused_with:
 - xt-2015-programs-custom-user-program-xt485-xt685

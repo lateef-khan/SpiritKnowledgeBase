@@ -27,6 +27,7 @@ facets:
   - 85s-2025
   section: programs
   code: '*'
+  model_number: '785545'
 authority: 3
 not_to_be_confused_with:
 - 85s-fit-2026-programs-heart-rate-program-defaults-to-sixty-five-or-eighty-five-percent-within-five-beats

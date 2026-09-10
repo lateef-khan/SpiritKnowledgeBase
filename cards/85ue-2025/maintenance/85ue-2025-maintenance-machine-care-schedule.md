@@ -30,6 +30,7 @@ facets:
   - 85ue-2025
   section: maintenance
   code: '*'
+  model_number: '785045'
 authority: 3
 not_to_be_confused_with:
 - spirit-85s-maintenance-machine-care-schedule

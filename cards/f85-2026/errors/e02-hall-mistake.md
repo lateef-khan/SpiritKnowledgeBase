@@ -25,6 +25,7 @@ facets:
   - f85-2026
   section: errors
   code: e02
+  model_number: '585286'
 authority: 3
 not_to_be_confused_with:
 - f85-2026-e01-over-current

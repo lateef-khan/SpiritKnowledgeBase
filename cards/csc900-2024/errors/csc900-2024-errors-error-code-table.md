@@ -26,6 +26,7 @@ facets:
   - csc900-2024
   section: errors
   code: '*'
+  model_number: '900665'
 authority: 3
 not_to_be_confused_with:
 - csc880-2025-errors-error-code-table

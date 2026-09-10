@@ -249,6 +249,34 @@ def _empty_facet_message(key: str, config: KbConfig) -> str:
     return f"facet {key!r} is missing or empty; write \"*\" rather than omitting it"
 
 
+def _facet_type_errors(card: Card, config: KbConfig) -> list[LintError]:
+    """
+    A keyword facet must hold strings.
+
+    YAML reads an unquoted 585818 as an integer. Nothing downstream complains:
+    _is_empty accepts it, _facet_values drops it from every value check, and the
+    payload reaches Qdrant as an integer against a keyword index, where no string
+    filter will ever match it.
+    """
+    errors: list[LintError] = []
+    for key, value in card.facets.items():
+        spec = config.facets.get(key)
+        if spec is None or spec.index not in ("keyword", "text"):
+            continue
+        for item in (value if isinstance(value, list) else [value]):
+            if item is None or isinstance(item, str):
+                continue
+            errors.append(
+                LintError(
+                    card.path,
+                    "non-string-facet",
+                    f"facet {key!r} holds {item!r}, which YAML read as "
+                    f"{type(item).__name__}; quote it so it stays text",
+                )
+            )
+    return errors
+
+
 def _fold(value: str) -> str:
     """The comparable form of one facet value. Empty when nothing survives."""
     return "".join(
@@ -364,7 +392,10 @@ def lint_cards(
                 errors.append(
                     LintError(card.path, "undeclared-facet", f"facet {key!r} is not declared in kb.yaml")
                 )
-        for key in config.facets:
+        errors.extend(_facet_type_errors(card, config))
+        for key, spec in config.facets.items():
+            if spec.optional and key not in card.facets:
+                continue
             if key not in card.facets or _is_empty(card.facets[key]):
                 errors.append(
                     LintError(card.path, "empty-facet", _empty_facet_message(key, config))

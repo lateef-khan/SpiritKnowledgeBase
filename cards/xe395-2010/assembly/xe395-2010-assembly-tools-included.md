@@ -27,6 +27,7 @@ facets:
   - xe395-2010
   section: assembly
   code: '*'
+  model_number: '395010'
 authority: 3
 not_to_be_confused_with:
 - spirit-xe-assembly-tools-2005-2007

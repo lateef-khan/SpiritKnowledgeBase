@@ -26,6 +26,7 @@ facets:
   - xe300-2007
   section: warranty
   code: '*'
+  model_number: '300007'
 authority: 3
 not_to_be_confused_with:
 - spirit-xe-2007-warranty-periods-five-year-components

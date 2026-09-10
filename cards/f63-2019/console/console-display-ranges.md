@@ -25,6 +25,7 @@ facets:
   - f63-2019
   section: console
   code: '*'
+  model_number: '563818'
 authority: 3
 not_to_be_confused_with: []
 see_also:

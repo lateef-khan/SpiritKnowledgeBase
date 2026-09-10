@@ -29,6 +29,7 @@ facets:
   - ct800ent-2022
   section: specs
   code: '*'
+  model_number: '800852'
 authority: 3
 not_to_be_confused_with:
 - ct800-2020-specs-parts-list

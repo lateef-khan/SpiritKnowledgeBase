@@ -25,6 +25,7 @@ facets:
   - sc200-2016
   section: console
   code: '*'
+  model_number: '520516'
 authority: 3
 not_to_be_confused_with: []
 see_also:
