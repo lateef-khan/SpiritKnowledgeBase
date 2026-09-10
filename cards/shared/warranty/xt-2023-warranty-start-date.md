@@ -2,8 +2,7 @@
 id: xt-2023-warranty-start-date
 title: When the warranty clock starts
 kind: policy
-question: When does the warranty start on a Spirit treadmill or elliptical, the 2026
-  treadmill?
+question: When does the warranty start on a Spirit treadmill, elliptical or bike?
 asked_as:
 - when does my treadmill warranty start
 - i lost my receipt is the treadmill still covered
@@ -35,6 +34,12 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -46,6 +51,13 @@ facets:
   - ct900
   - ct900ent
   - ctsbs900
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -202,3 +214,17 @@ The rest of that opening paragraph sets out what Spirit Fitness owes: **new or r
 The rest of the paragraph is the familiar one on all eleven - new or remanufactured parts at Spirit's option, technical support to independent dealers and servicing organisations, and the warranty administered **directly to a consumer** where there is no dealer. **None of the eleven says "to a facility."**
 
 **What follows the sentence is six different tables.** Seven machines share Frame Lifetime, Brake Lifetime, Parts 10 Years and Labor 1 Year (`spirit-xe-warranty-residential-periods-ten-year-parts`); the XE195 reads Parts 5 Years (`xe195-2021-warranty-residential-periods-five-year-parts`); the XE795 adds a Light Commercial row (`spirit-xe795-warranty-light-commercial-periods`); and the 2005 and 2007 books print neither shape (`spirit-xe-2005-warranty-two-year-base-period`, `spirit-xe-2007-warranty-periods-five-year-components`, `xe300-2007-warranty-periods-ten-year-components`).
+
+## All thirteen Spirit commercial bike manuals open with the same clock
+
+Date of retail sale by receipt, or eighteen months from the original factory shipping date when there is no receipt. Only the wording around it moves, in three groups:
+
+| Manuals | Opening clause | Date clause |
+|---|---|---|
+| CU800 2012; CR800 2021, 2023; CU800 2021; CU800ENT 2022; CR800ENT 2023 | warrants **all its** fitness bike / Upright Bike / Recumbent Bike **parts** | date of **retail** sale, as determined by sale receipt |
+| CR900 2018; CU900 2018; CR900ENT 2021; CU900ENT | warrants **this** fitness bike | date of sale, as determined by sale receipt |
+| CU800ENT 2024; CR900 2025; CU900 2025 | Spirit Fitness Inc. warrants all its **home use** Upright/Recumbent Bike parts | date of **retail** sale, as determined by sale receipt |
+
+**The four 900-series manuals warrant "this fitness bike" rather than its parts**, and drop the word *retail*. Neither change moves the clock: both alternatives are stated in the same sentence on all thirteen.
+
+**A printed effective date is not the model year.** The CU900 2018 manual is a 2018 book whose warranty page was replaced and now reads *effective November 19, 2021*; the CR900 2018 manual still carries terms *effective January 1, 2017* although its file was re-exported in 2021. Read the effective date off the manual in hand and do not infer it from the machine's year - `spirit-bike-900-warranty-commercial-periods`.

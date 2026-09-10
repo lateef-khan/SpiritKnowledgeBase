@@ -2,7 +2,7 @@
 id: spirit-ce-console-program-key-previews-the-profile
 title: Pressing a program key previews its profile before you commit to it
 kind: fact
-question: How do I look at a program's shape before starting it on a Spirit elliptical?
+question: How do I look at a program's shape before starting it on a Spirit elliptical or bike?
 asked_as:
 - how do i see what a program looks like before i start
 - how do i pick a program on the elliptical
@@ -19,7 +19,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -31,6 +31,14 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cu800-2012
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
   - xe100-2007
   - xe195-2021
   - xe200-2007
@@ -82,3 +90,16 @@ shortened version with **one Program Key** and **no Enter step**: "The Program K
 each program. When you first turn the console on you may press the program key to preview what the
 program profile looks like." That is a different keypad and a different instruction; see
 `spirit-xe-console-a-single-program-key-with-no-enter-step`.
+
+**Eight Spirit commercial *bike* owner's manuals print this paragraph too**, so this card covers
+bikes as well as ellipticals and its product line is no longer elliptical-only. **The bikes split
+the same two ways the ellipticals do:**
+
+- **One key per program**, pressed then Enter: CU800-2012 p. 15, CR900-2018 p. 16, CU900-2018 p. 15,
+  CR900-2025 p. 15, CU900-2025 p. 15.
+- **One Program key** that steps through them, then Enter: CR800-2021 p. 17, CR800-2023 p. 17,
+  CU800-2021 p. 16.
+
+**The five touchscreen bikes have no program key.** Their programs are tiles behind an Exercise
+Programs or All Programs icon and there is no preview from the start-up screen; the CU800ENT-2024
+previews a program by tapping its card instead.

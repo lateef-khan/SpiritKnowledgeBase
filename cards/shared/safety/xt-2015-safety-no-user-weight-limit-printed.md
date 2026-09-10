@@ -2,7 +2,7 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, or of a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2010 or XE395ENT residential elliptical?
+question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012 upright bike, or of a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2010 or XE395ENT residential elliptical?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -25,6 +25,7 @@ facets:
   applies_to:
   - ce850-2016
   - ct800-2012
+  - cu800-2012
   - xe100-2007
   - xe150-2005
   - xe200-2007
@@ -53,10 +54,20 @@ see_also:
 - xe195-2021-safety-user-weight-limit-350-lb
 - spirit-xe-2021-safety-recommended-weight-limit-400-lb
 - ces880-2025-safety-user-weight-limit-400-lbs
+- cu800-2012-safety-instructions-list
+- spirit-ct800-safety-user-weight-limit-450-lbs
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185,
-    XT285 and XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight item on its safety instructions page, page 5, and carries no specification table The CT800 2012 owner's manual prints no weight item on its Important Safety Instructions page, page 2, and carries no specification table The XT685 2010 owner's manual prints no weight item on its Important Safety Instructions page, PDF page 6 (printed 2), and carries no specification table The Spirit CE850-2016 elliptical owner's manual has no weight item on its Important Safety Instructions page, pages 5-6
+  locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185, XT285 and
+    XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight
+    item on its safety instructions page, page 5, and carries no specification table The
+    CT800 2012 owner's manual prints no weight item on its Important Safety Instructions
+    page, page 2, and carries no specification table The XT685 2010 owner's manual prints no
+    weight item on its Important Safety Instructions page, PDF page 6 (printed 2), and
+    carries no specification table The Spirit CE850-2016 elliptical owner's manual has no
+    weight item on its Important Safety Instructions page, pages 5-6 The CU800 2012 owner's
+    manual prints no weight item on its Important Safety Instructions page, printed page 2,
+    in either of the two scans the source concatenates, and carries no specification table
   extracted_at: '2026-09-09'
 ---
 
@@ -154,3 +165,16 @@ limit (`spirit-xe-2021-safety-recommended-weight-limit-400-lb`).
 **Do not fill an absence from the row below it.** The residential range prints three different
 figures and no figure at all, and nothing in any manual says a machine without a printed limit
 shares one.
+
+## The 2012 Spirit CU800 upright bike states no limit either
+
+Its eight-bullet safety list ends at *wear proper shoes* and has no weight item
+(`cu800-2012-safety-instructions-list`). The words *lb*, *lbs*, *capacity* and *weight limit* appear
+nowhere in the manual; every occurrence of *weight* is the body weight keyed into the console for a
+program. The source file holds two independent OCR scans of the same book and both read the page the
+same way, so this is not a scanning loss.
+
+**Every later Spirit commercial bike manual prints 450 lbs**
+(`spirit-ct800-safety-user-weight-limit-450-lbs`). That figure belongs to the 2018 and later
+machines. Nothing in the 2012 manual says it applies to the CU800-2012, so quoting it for that
+machine would be an invention.

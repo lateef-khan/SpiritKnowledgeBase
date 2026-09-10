@@ -3,7 +3,8 @@ id: spirit-ct800-assembly-unpacking
 title: Unpacking the carton and laying the hardware out step by step
 kind: procedure
 question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
-  treadmill, or a Spirit CE800, CE800ENT, CE900 or XE395 elliptical, and get the
+  treadmill, a Spirit CE800, CE800ENT, CE900 or XE395 elliptical, or a Spirit CR800,
+  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, and get the
   hardware ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
@@ -30,6 +31,11 @@ facets:
   - ce800-2023
   - ce800ent
   - ce900-2021
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -38,6 +44,11 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu900-2018
+  - cu900ent
   - xe395-2010
   - xt685-2010
   section: assembly
@@ -45,6 +56,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-cr900-assembly-tools-included
+- spirit-cu900-assembly-tools-included
+- spirit-cr800-assembly-tools-included
+- spirit-cu800-assembly-tools-included
 - spirit-ct800-assembly-tools-included
 - spirit-ct800-assembly-parts-included
 - spirit-ct800-assembly-procedure-three-step
@@ -71,7 +86,11 @@ source:
     manual (`spirit-elliptical-ce800-2013-owners-manual`, headed Pre-Assembly); and
     p. 4 of the XE395 2010 manual
     (`spirit-elliptical-xe395-2010-owners-manual`, headed XE395 ASSEMBLY
-    INSTRUCTIONS / PRE-ASSEMBLY)
+    INSTRUCTIONS / PRE-ASSEMBLY); and word for word on ten Spirit commercial bikes -
+    p. 5 of the CR900 2018, CU900 2018 and CU900ENT manuals, p. 6 of the CR900ENT
+    manual and p. 7 of the CR800 2021, CR800 2023, CR800ENT, CU800 2021 and CU800ENT
+    2022 manuals, and PDF p. 7 (printed 5) of the CU800 2012 manual, headed
+    Pre-Assembly
   extracted_at: '2026-09-09'
 ---
 
@@ -144,3 +163,24 @@ list that adds "inspect for any damage or missing parts" - see
 [the four-item pre-assembly card](ct900-pre-assembly.md). The **CES880** prints a
 third form again, about clearing a space rather than opening a box; see
 [its own card](../../ces880-2025/assembly/ces880-2025-assembly-pre-assembly.md).
+
+## Ten Spirit commercial bikes print the same two items
+
+Both items appear word for word, including "separated into four steps", in the
+**CR900** 2018, **CR900ENT**, **CU900** 2018 and **CU900ENT** manuals, in the
+**CR800** 2021 and 2023, **CR800ENT**, **CU800** 2021 and **CU800ENT** 2022 manuals,
+and in the **CU800 2012** manual, which prints them under the heading Pre-Assembly as
+the CT800 2012 and CE800 2013 manuals do. All ten say four steps and all ten print
+four. The heading on the other nine is the machine name followed by PRE-ASSEMBLY /
+UNPACKING.
+
+The CU800 2012 book is two OCR scans of one manual bound into one text file; both
+scans carry the same two items and differ only in OCR noise.
+
+Every one of these ten builds differently and their cartons hold different tools.
+See the four bike tools cards linked above, and the procedure card for the machine in
+front of you.
+
+**The three newest bike manuals do not use these words.** The CR900 2025, CU900 2025
+and CU800ENT 2024 manuals print the four-item list that adds "inspect for any damage
+or missing parts" - see [that card](ct900-pre-assembly.md).

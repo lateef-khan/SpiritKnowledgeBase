@@ -2,7 +2,7 @@
 id: spirit-ce-console-display-button-four-window-sets
 title: The Display button cycles four sets of readings and switches the profile for a quarter mile track
 kind: fact
-question: How do I change what the message window shows on an older Spirit commercial elliptical?
+question: How do I change what the message window shows on an older Spirit commercial elliptical or bike?
 asked_as:
 - how do i see watts on my old spirit elliptical
 - how do i get the track display on the elliptical
@@ -22,11 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
   - ce850-2016
+  - cu800-2012
   section: console
   code: '*'
 authority: 3
@@ -68,3 +69,15 @@ above and neither manual resolves the count.
 
 The later CE800, CE850, CE900 and CES880 consoles replaced this button with a **Scan** button and a
 fixed pair of data sets; see `spirit-ce-console-led-data-windows-scan`.
+
+**The CU800-2012 bike owner's manual prints both halves of this section word for word on its p. 14**,
+under Basic Information, so this card covers a bike as well as the two ellipticals and its product
+line is no longer elliptical-only. Same two Display buttons, same quarter-mile track toggle, same
+five stops described as "four windows in all", and the same Scan light behaviour.
+
+**Both scans of that manual agree on the list**, including the order Time and Distance, Pulse and
+Kcal, Speed in RPM and MPH, Work Level and Watts, then METs.
+
+**The later CR800, CU800, CR900 and CU900 bike consoles replaced this button with a Scan button** and
+a fixed pair of data sets: `spirit-ce-console-led-data-windows-scan` and
+`spirit-cr900-cu900-console-message-window-scan`.

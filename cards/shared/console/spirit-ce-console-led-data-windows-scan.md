@@ -3,7 +3,7 @@ id: spirit-ce-console-led-data-windows-scan
 title: The Scan button swaps Distance, Calories, Pulse and Time Elapsed for Speed, Watts, METs and Time
   Remaining
 kind: fact
-question: What do the LED data windows on a Spirit elliptical show, and how do I see the other readings?
+question: What do the LED data windows on a Spirit elliptical or bike show, and how do I see the other readings?
 asked_as:
 - how do i see watts on my elliptical
 - how do i change what the elliptical display shows
@@ -23,7 +23,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -31,6 +31,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cu800-2021
   section: console
   code: '*'
 authority: 3
@@ -66,3 +69,12 @@ and CES880 manuals call it an **RPM** window. The CE850-2020 and CE850-2022 manu
 **The CE900 shows a different pair of sets** - Watts, Time Elapsed, Calories and Distance, then
 METs, Time Remaining, Calories/Hour and Strides. Do not read this card onto a CE900:
 `spirit-ce900-console-message-window-scan`.
+
+**The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print this section word for word**
+- p. 16, p. 16 and p. 15, under BASIC INFORMATION - so this card covers bikes as well as ellipticals
+and its product line is no longer elliptical-only. All three name the pedal-speed window **RPM**, as
+the CE800 manuals do, and print the same two sets in the same order.
+
+**The CR900 and CU900 bikes show a different pair of sets** - Watts, Time Elapsed, Calories and
+Distance, then METs, Time Remaining, Calories/Hour and **Speed**. Do not read this card onto one:
+`spirit-cr900-cu900-console-message-window-scan`.

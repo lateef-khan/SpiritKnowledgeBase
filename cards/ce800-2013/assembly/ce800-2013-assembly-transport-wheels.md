@@ -3,7 +3,7 @@ id: ce800-2013-assembly-transport-wheels
 title: Two transport wheels that engage when the rear of the machine is lifted
 kind: fact
 question: How do I move a Spirit CE800 2013, XE100, XE150, XE200, XE300, XE350 or
-  XE550 elliptical?
+  XE550 elliptical, or a Spirit cu800-2012 upright bike?
 asked_as:
 - how do i move my spirit elliptical
 - does the ce800 have wheels
@@ -20,10 +20,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
+  - cu800-2012
   - xe100-2007
   - xe150-2005
   - xe200-2007
@@ -36,6 +37,8 @@ authority: 3
 not_to_be_confused_with:
 - ces880-2025-assembly-moving-and-clearance
 see_also:
+- cu800-2012-assembly-procedure
+- spirit-cu800-assembly-tools-included
 - ce800-2013-assembly-levelling-pads
 - ce800-2013-assembly-procedure
 - ces880-2025-assembly-moving-and-clearance
@@ -85,3 +88,18 @@ includes **2 Transport Wheels** and the CE900 2025 diagram labels one.
 and it is a different one - hold the base frame with two hands and tow. See
 [its card](../../ces880-2025/assembly/ces880-2025-assembly-moving-and-clearance.md).
 Do not carry that across; the CES880 has a base frame this machine does not.
+
+## The CU800 2012 bike prints the same sentence
+
+Its Transportation heading reads "The fitness bike is equipped with two transport
+wheels, which are engages when the rear of the CU800 fitness bike is lifted" - the
+grammar is the manual's own, in both scans. Same count, same mechanism, same silence
+about weight, lifting point or how many people it takes, and it is not in the assembly
+chapter either: it sits on the features page beside the Footpads note about Q factor.
+
+**It is the only Spirit commercial bike manual that says anything about moving the
+machine.** In the other twelve - the CR800, CR800ENT, CR900, CR900ENT, CU800 2021,
+CU800ENT and CU900 manuals - "transport" appears only as the parts-list line
+**Transportation Wheel, quantity 2**, or not at all: the CR900 2018, CU900 2018,
+CR900ENT and CU900ENT manuals print no parts list and never use the word. None of the
+twelve has a transportation section, a moving instruction or a step that fits a wheel.

@@ -2,7 +2,7 @@
 id: xt-2023-safety-fcc-class-b-interference
 title: Radio or TV interference near the machine, and what the manual says to try
 kind: troubleshooting
-question: My radio or TV picks up interference near my Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, near my Spirit CE900-2025 elliptical, or near my Spirit XE395-2023 or XE795-2023 elliptical - what does the manual say?
+question: My radio or TV picks up interference near my Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, near my Spirit CE900-2025 elliptical, near my Spirit XE395-2023 or XE795-2023 elliptical, or near my Spirit CU800ENT-2024 upright bike - what does the manual say?
 asked_as:
 - my tv goes fuzzy when the treadmill is on
 - treadmill interferes with the radio
@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - cu800ent-2024
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -41,9 +42,14 @@ see_also:
 - xt-2023-safety-rf-exposure-separation-distance
 - spirit-ce-safety-generator-produces-ac-power
 - spirit-xe-2023-safety-product-labels
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5 The Spirit CE900 2025 elliptical owner's manual prints the same notice on its WARNINGS, COMPLIANCE AND NOTICES page, page 4
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the
+    same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
+    The Spirit CE900 2025 elliptical owner's manual prints the same notice on its WARNINGS,
+    COMPLIANCE AND NOTICES page, page 4 The CU800ENT-2024 bike owner's manual prints the
+    same WARNINGS, COMPLIANCE AND NOTICES page, printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -105,3 +111,10 @@ The Class B statement above the list is word for word the same in both. **The XE
 generator-powered and has no mains plug**, which is consistent with an outlet measure being dropped,
 but neither manual says so - do not offer the different-circuit remedy to an XE795-2023 owner, and
 do not tell an XE395-2023 owner their manual omits it.
+
+**The Spirit CU800ENT-2024 upright bike prints the same page**, and it is the **only one of the
+thirteen Spirit commercial bike owner's manuals that has a compliance page at all**. The words *FCC*,
+*part 15*, *FTMS* and *20 cm* appear in none of the other twelve, so no certification, interference
+remedy or RF figure may be quoted for any other Spirit commercial bike.
+
+The four measures it lists are the same four, in the same order.

@@ -2,7 +2,7 @@
 id: spirit-ce-console-number-pad-for-age-and-weight
 title: Typing age and weight on the number pad instead of holding the arrow keys
 kind: fact
-question: How do I type a number instead of holding the arrows on a Spirit elliptical?
+question: How do I type a number instead of holding the arrows on a Spirit elliptical or bike?
 asked_as:
 - how do i type my age into the elliptical quickly
 - is there a number pad on the elliptical console
@@ -19,13 +19,18 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
   - ce850-2016
   - ce900-2021
   - ce900-2025
+  - cr900-2018
+  - cr900-2025
+  - cu800-2012
+  - cu900-2018
+  - cu900-2025
   - xe100-2007
   - xe200-2007
   - xe300-2007
@@ -66,3 +71,19 @@ those to type a number.
 **No residential XE built after 2007 has one either.** The XE150 of the same 2005 manual, the
 XE395-2010, and every 2021 and 2023 XE set values with the Level Up and Down keys alone. The
 XE395ENT is a touchscreen and has an on-screen keyboard instead.
+
+**Five Spirit commercial *bike* owner's manuals have this number pad too**, so this card covers
+bikes as well as ellipticals and its product line is no longer elliptical-only.
+
+- The **CU800-2012** (p. 15) prints the CE800-2013 and CE850-2016 wording word for word: the
+  **program keys** also act as a number key pad and **under each program key is a number**.
+- The **CR900-2018** (p. 17), **CU900-2018** (p. 16), **CR900-2025** (p. 15) and **CU900-2025**
+  (p. 15) print the CE900 wording under the heading **NUMBER Button PAD** or **Number Key Pad**, and
+  do not say which keys carry the digits.
+
+**The CR800-2021, CR800-2023 and CU800-2021 have no number pad**, exactly as their CE800 stablemates
+do not: those manuals set every value with the Level Up and Down keys alone. Do not tell one of
+their owners to type a number.
+
+**No touchscreen bike has one either.** The CR900ENT-2021, CU900ENT, CU800ENT-2022, CR800ENT-2023
+and CU800ENT-2024 take values on screen.

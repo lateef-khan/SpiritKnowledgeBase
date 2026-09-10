@@ -2,8 +2,9 @@
 id: spirit-ct800-warranty-exclusions
 title: The ten-item exclusion list, including dues-paying gyms and prisons
 kind: policy
-question: What is not covered by the Spirit CT800 or CT850 treadmill warranty, or
-  the Spirit CE800 or CE800ENT elliptical warranty?
+question: What is not covered by the Spirit CT800 or CT850 treadmill warranty, the
+  Spirit CE800 or CE800ENT elliptical warranty, or the Spirit CR800, CU800, CU800ENT
+  or CR800ENT bike warranty?
 asked_as:
 - what voids my treadmill warranty
 - is damage from a bad repair covered
@@ -28,6 +29,9 @@ facets:
   - ce800-2021
   - ce800-2023
   - ce800ent
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -36,6 +40,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -112,3 +119,13 @@ Four items are asked about on their own: items 4 and 5 in `xt-2023-warranty-tran
 **An eleventh exclusion is printed outside this list**, beside the belt tracking procedure in the eight **treadmill** manuals: damage from an improper tracking or tension adjustment - `spirit-2026t-warranty-belt-adjustment-damage`. The three elliptical manuals have no belt to track and print no such box. Item 3's "improper maintenance" is the general case; that Attention box is the specific one.
 
 **The 2012 conversion damaged the numbering** of items 8, 9 and 10, which print as "8. 8.", "9. 9." and "10. 10." in `text.md`. The item text is intact and matches the other three manuals; only the duplicated numerals are conversion noise.
+
+## The same ten items are printed in six Spirit commercial bike manuals
+
+The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and the CR800ENT 2023 print this list, in this order and with the same numbering. Item 8 excludes a dues-paying facility on all six, so a CR800, CU800, CU800ENT or CR800ENT in a health club is outside cover whatever its table's row label says (`spirit-bike-warranty-use-environment`).
+
+**The CU800 2012 numerals survive rendering even though the extraction loses them.** Its text.md shows `I.`, `|.` and `2,` where the manual sets `1.` and `2.`, because that book's digit 1 is a bare vertical stroke and its scan is soft. Page 31 of `CU800_OM_)800343.pdf`, rendered at 300 dpi and rotated 180 degrees, carries the ten items in this order with item 8 the dues-paying facility and item 9 prisons. Quote the numbers.
+
+**Two of the six omit the prisons footnote but keep the prisons exclusion.** Item 9 - *Product used in prisons and correctional facilities* - is on all six lists. The footnote under the warranty table is not: the CU800 2012 prints no footnote at all (`spirit-2026t-warranty-prisons-excluded`).
+
+**This is not the list the other seven bikes print.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT run to **eight** numbered items with no dues-paying exclusion anywhere (`ce900-2021-warranty-exclusions`), and the CR900 2025, CU900 2025 and CU800ENT 2024 run to **nine** and drop the outright exclusion of an unregistered machine (`spirit-ce-2025-warranty-exclusions`).

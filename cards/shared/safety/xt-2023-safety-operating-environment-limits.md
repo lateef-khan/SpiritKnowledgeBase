@@ -2,7 +2,7 @@
 id: xt-2023-safety-operating-environment-limits
 title: Temperature, humidity and moisture limits
 kind: spec
-question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), or a Spirit XE395-2023 elliptical, be used outdoors, in a garage, or near a pool?
+question: Can a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit XE395-2023 elliptical, or a Spirit CU800ENT-2024 upright bike, be used outdoors, in a garage, or near a pool?
 asked_as:
 - can i keep my treadmill in the garage
 - is it ok to use a treadmill outside
@@ -25,6 +25,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - cu800ent-2024
   - xe395-2023
   - xt185-2015
   - xt185-2023
@@ -50,9 +51,14 @@ see_also:
 - xt-2015-safety-instructions-list
 - ct900ent-operating-environment-voltage
 - spirit-xe-safety-no-outlet-figure-printed
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6)
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
+    on page 7. The five 2015 XT owner's manuals print it on their Important Electrical
+    Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6) The CU800ENT-2024 bike
+    owner's manual prints the same paragraph and the same two figures on its ELECTRICAL
+    SAFETY page, printed page 6, with `unit` in place of `treadmill`
   extracted_at: '2026-09-09'
 ---
 
@@ -111,3 +117,14 @@ machine's own manual in both directions.
 prints no environment limits at all** - no temperature, no humidity and no rain or moisture sentence
 anywhere (`spirit-xe-safety-no-outlet-figure-printed`). That is an absence; do not fill it from this
 card.
+
+**The Spirit CU800ENT-2024 upright bike prints the same paragraph and the same two figures** -
+`The temperature specification is 40 degrees C, and humidity is 95%, non-condensing` - on its
+ELECTRICAL SAFETY page, printed page 6, with `unit` where the 2015 manuals write `treadmill`. One
+temperature figure, no minimum, no Fahrenheit conversion, no storage range.
+
+**It is the only Spirit commercial bike that prints this figure.** The other twelve bike manuals give
+`40 to 120 degrees Fahrenheit` instead - a range, in the other unit
+(`ct900ent-operating-environment-voltage`). The two statements are not interchangeable, and a
+CU800ENT-2022 or CR800ENT-2023 must not be answered from this card even though it is the same
+console family.

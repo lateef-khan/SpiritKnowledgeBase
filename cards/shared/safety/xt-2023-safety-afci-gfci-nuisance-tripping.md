@@ -24,6 +24,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - cu800ent-2024
   - xe395-2023
   - xt185-2015
   - xt185-2023
@@ -48,9 +49,14 @@ see_also:
 - ct900-electrical-safety
 - xt-2015-safety-outlet-and-circuit-requirement
 - spirit-xe-safety-no-outlet-figure-printed
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it across their Important Electrical and Important Grounding Instructions pages (XT185/XT285/XT485 pages 5-6, XT385/XT685 pages 6-7)
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
+    on page 7. The five 2015 XT owner's manuals print it across their Important Electrical
+    and Important Grounding Instructions pages (XT185/XT285/XT485 pages 5-6, XT385/XT685
+    pages 6-7) The CU800ENT-2024 bike owner's manual prints the same paragraph on its
+    ELECTRICAL SAFETY page, printed page 6
   extracted_at: '2026-09-09'
 ---
 
@@ -134,3 +140,17 @@ carry the high-inrush breaker paragraph instead, with its Grainger and QO120HM p
 passage appears in the other's manual.
 
 **The XE795-2023 manual has no electrical page** and prints none of this.
+
+**The Spirit CU800ENT-2024 upright bike prints the same paragraph in full**, on its ELECTRICAL SAFETY
+page - avoid AFCI/GFCI breakers where possible, the high inrush current of the drive electronics as
+the cause, that it affects all brands, that local law may require them, and the same examples of
+other devices on the circuit that can also trip one: fluorescent lights with electronic ballasts, a
+coffee maker, a space heater and a hair drier.
+
+The paragraph names `motor` among the causes; **this bike has no motor**, so read that word as the
+drive electronics.
+
+**The CU800ENT-2022 and CR800ENT-2023 print a different breaker paragraph**, naming high-inrush house
+breakers, the Grainger 1D237 and QO120HM replacements, and a dedicated 5 amp breaker
+(`spirit-house-breaker-needs-a-high-inrush-type`). Different cause, different remedy, different
+rating - do not swap the two.

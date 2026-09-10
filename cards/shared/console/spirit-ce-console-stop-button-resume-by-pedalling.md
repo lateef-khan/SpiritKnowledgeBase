@@ -3,7 +3,7 @@ id: spirit-ce-console-stop-button-resume-by-pedalling
 title: Pause can also be resumed by pedalling, and the workout survives five minutes with the display
   off
 kind: fact
-question: What happens when I press Stop, or just stop pedalling, on a Spirit CE800, CE850 or CE900 elliptical?
+question: What happens when I press Stop, or just stop pedalling, on a Spirit CE800, CE850 or CE900 elliptical or a Spirit CR900, CU900 or CU800-2012 bike?
 asked_as:
 - what happens if i stop pedalling on my elliptical
 - my elliptical screen went blank mid workout did i lose my data
@@ -23,13 +23,18 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
   - ce850-2016
   - ce900-2021
   - ce900-2025
+  - cr900-2018
+  - cr900-2025
+  - cu800-2012
+  - cu900-2018
+  - cu900-2025
   section: console
   code: '*'
 authority: 3
@@ -52,11 +57,23 @@ The Stop/Reset key has four jobs:
 | **Stop held down for 3 seconds** | The console performs a **complete Reset**. |
 | **Stop during data entry** | **Previous Screen** - goes back one step per press. |
 
-**Stopping pedalling does the same thing as pressing Stop once.** All four manuals add the same
+**Stopping pedalling does the same thing as pressing Stop once.** All nine manuals add the same
 parenthesis: *when you stop pedalling without AC power the display will turn off, but the memory
 will be saved for 5 minutes, just like the pause mode.* **A display that has gone dark mid-workout
 has not lost your data for the first five minutes.**
 
 **Do not tell a CE800-2021, CE800-2023, CE850-2020, CE850-2022 or CES880 owner to pedal to resume.**
 Those manuals name only the Start key, and print no memory-hold sentence:
+`spirit-ce-console-stop-button-press-once-twice-hold`.
+
+**Five Spirit commercial *bike* owner's manuals print this paragraph word for word too**, so this
+card covers bikes as well as ellipticals and its product line is no longer elliptical-only:
+CU800-2012 pp. 14-15, CR900-2018 p. 16, CU900-2018 p. 15, CR900-2025 p. 15 and CU900-2025 p. 15.
+All five carry the *"or start pedaling"* clause and the memory-hold parenthesis.
+
+**The CU800-2012 calls the key Stop/Reset**, as the CE800-2013 and CE850-2016 do; the four CR900 and
+CU900 manuals call it the **Stop key** or the **Stop button**. Same key, same four jobs.
+
+**Do not tell a CR800 or CU800-2021 owner to pedal to resume.** Those three bike manuals name only
+the Start key and print no memory-hold sentence, exactly as the CE800-2021 and CE800-2023 do:
 `spirit-ce-console-stop-button-press-once-twice-hold`.

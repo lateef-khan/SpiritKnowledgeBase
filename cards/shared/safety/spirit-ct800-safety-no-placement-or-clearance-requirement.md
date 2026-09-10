@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-no-placement-or-clearance-requirement
 title: The manual states no placement, floor or clearance requirement at all
 kind: fact
-question: Where can a Spirit CT800-2012 or XT685-2010 treadmill be installed, and how much clearance does it need around it?
+question: Where can a Spirit CT800-2012 or XT685-2010 treadmill, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike or a CR900ENT or CU900ENT bike, be installed, and how much clearance does it need around it?
 asked_as:
 - how much space do i need around my treadmill
 - how far from the wall should the treadmill be
@@ -22,10 +22,20 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
+  - cu800-2012
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xt685-2010
   section: safety
   code: '*'
@@ -40,12 +50,19 @@ see_also:
 - ct900ent-operating-environment-voltage
 - spirit-ct800-safety-outlet-110-volt-15-amp
 - spirit-product-must-be-grounded
+- spirit-ce-safety-no-placement-or-clearance-requirement
+- spirit-bike-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: whole manual - the safety, electrical, grounding and operation instructions
-    on printed pages 2 to 4, none of which states a placement or clearance
-    requirement. The XT685 2010 owner's manual is silent in the same way, on its PDF
-    pages 6 to 8 (printed 2 to 4)
+  locator: whole manual - the safety, electrical, grounding and operation instructions on printed
+    pages 2 to 4, none of which states a placement or clearance requirement. The XT685 2010
+    owner's manual is silent in the same way, on its PDF pages 6 to 8 (printed 2 to 4) Ten
+    Spirit commercial bike owner's manuals are silent in the same way, across their safety,
+    electrical and operation instruction pages - CR900-2018 and CU900-2018 printed pages 3
+    to 4, CR900ENT-2021 and CU900ENT-2021 printed pages 3 to 4, CR800-2021, CR800-2023 and
+    CU800-2021 printed pages 4 to 5, CR900-2025 and CU900-2025 printed pages 4 to 5, and
+    CU800-2012 printed pages 2 to 4
   extracted_at: '2026-09-09'
 ---
 
@@ -85,3 +102,25 @@ not a placement one - a nominal 110-volt, 15-amp dedicated circuit
 (`spirit-ct800-safety-outlet-110-volt-15-amp`). The XT685-2010 manual states no amp figure at all.
 Neither sentence says anything about a flat or level floor; the `install the treadmill on a flat
 level surface` wording belongs to the 2015 XT and ENT manuals.
+
+## Ten Spirit commercial bike manuals are silent in exactly the same way
+
+**CU800-2012, CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021,
+CR900-2025 and CU900-2025.** None states where the bike may stand or how much room it needs. The
+words *clearance*, *level surface*, *flat level* and *carpet* appear nowhere in any of the ten, and
+none carries a location page or a floor sentence.
+
+The only placement-adjacent rules any of them prints are environmental, and they sit on the
+electrical page:
+
+- **Not outdoors**, and never exposed to rain or moisture, near a pool or spa, or in any other
+  high-humidity environment - 40 to 120 degrees Fahrenheit, 95% non-condensing
+  (`ct900ent-operating-environment-voltage`).
+- **Do not use outdoors**, the same rule in short, in the safety list
+  (`spirit-bike-safety-instructions-list`, `spirit-bike-2025-safety-instructions-list`).
+
+**Three Spirit commercial bikes do state something**, and they are the ones that plug in: the
+CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 require a flat level surface and forbid deeply
+padded, plush or shag carpet, though they too give no clearance figure
+(`spirit-ce-safety-no-placement-or-clearance-requirement`). Do not carry those two rules onto a
+self-powered bike; its manual does not print them.

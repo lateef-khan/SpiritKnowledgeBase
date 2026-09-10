@@ -3,7 +3,8 @@ id: spirit-ct800-warranty-consumer-responsibilities
 title: What the consumer or non-dues-paying facility must do for the warranty to apply
 kind: policy
 question: What is the owner or facility responsible for under the Spirit CT800 or
-  CT850 treadmill warranty, or the Spirit CE800 or CE800ENT elliptical warranty?
+  CT850 treadmill warranty, the Spirit CE800 or CE800ENT elliptical warranty, or the
+  Spirit CR800, CU800, CU800ENT or CR800ENT bike warranty?
 asked_as:
 - what do i have to do to keep my warranty
 - who pays to move the treadmill for a repair
@@ -28,6 +29,9 @@ facets:
   - ce800-2021
   - ce800-2023
   - ce800ent
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -36,6 +40,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -95,3 +102,18 @@ This list is only half of what governs the warranty - the other half is the ten 
 **This is not the XT list and not the CT900ENT list.** The 2023 XT manuals head theirs RESPONSIBILITIES OF THE CONSUMER, run to five items, open with "the warranty applies only to products in ordinary household use" and carry no grounded-power-supply item; the 2015 XT manuals run to six under the same NORMAL RESPONSIBILITIES OF THE CONSUMER heading and carry no grounded-power-supply item either (`xt-2015-warranty-consumer-responsibilities`). **One XT manual does carry it.** The 2010 XT685 prints a seven-item list with the grounded-power-supply duty at number 4, in this order - but worded for a treadmill rather than for fitness equipment, and with no "or completed online" in item 1. It is a third list, not this one: `xt685-2010-warranty-consumer-responsibilities`. The CT900ENT and the 2026 machines print seven items whose registration duty is the same, but their lists have no "consumer" in the lead sentence at all.
 
 **And it is not any other Spirit elliptical list.** Only three of the ten Spirit elliptical owner's manuals print this list - the CE800 2021, the CE800 2023 and the CE800ENT. The three CE850 manuals run to **six** items and carry no grounded-power-supply duty (`spirit-ce850-warranty-consumer-responsibilities`); the CE900 2021 runs to six addressed to a facility only (`ce900-2021-warranty-facility-responsibilities`); the CE900 2025 and the CES880 run to seven but replace item 1 (`spirit-ce-2025-warranty-facility-responsibilities`); and the CE800 2013 runs to **four** (`ce800-2013-warranty-consumer-responsibilities`).
+
+## Six Spirit commercial bike manuals print the same seven items
+
+The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and the CR800ENT 2023 owner's manuals print this list word for word, in this order, and they split by heading the same way the treadmills and ellipticals do:
+
+| Manual | Heading | Lead sentence |
+|---|---|---|
+| CU800 2012; CR800 2021; CU800 2021; CR800 2023 | NORMAL RESPONSIBILITIES OF THE CONSUMER | The consumer or non-dues paying facility is responsible for the items listed below |
+| CU800ENT 2022; CR800ENT 2023 | NORMAL RESPONSIBILITIES OF THE FACILITY | The non-dues paying facility is responsible for the items listed below |
+
+**The two ENT bikes drop the consumer from the list and keep the Residential row in the table**, exactly as the CT800ENT, CT850ENT and CE800ENT do, and their opening paragraph likewise administers the warranty "directly to a **facility**". Neither manual reconciles the two.
+
+**The CU800 2012 numerals are sound on the page and unreliable only in the extraction.** Its text.md renders item 1 as `|.` and "10 days" as "I0 days", because the manual sets its digit 1 as a bare vertical stroke that OCR reads as a pipe. Page 31 of `CU800_OM_)800343.pdf`, rendered at 300 dpi and rotated 180 degrees, prints a proper **1.** and **10 days**, under the same NORMAL RESPONSIBILITIES OF THE CONSUMER heading, with all seven items in this order. Quote the numbers; it is the extracted text, not the book, that is damaged.
+
+**This is not the list the four 900-series bikes print.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT run to **six** items addressed to a facility only, with no grounded-power-supply duty at all (`ce900-2021-warranty-facility-responsibilities`), and the CR900 2025, CU900 2025 and CU800ENT 2024 replace item 1 with online-only registration (`spirit-ce-2025-warranty-facility-responsibilities`).

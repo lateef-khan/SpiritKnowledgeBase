@@ -2,7 +2,7 @@
 id: xt-2015-safety-extension-cord-14-awg-or-better
 title: Extension cord must be 14AWG or better with only one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, on a Spirit CE850 or CE800ENT elliptical, or on a Spirit XE395-2010 or XE795-2021 residential elliptical?
+question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, on a Spirit CE850 or CE800ENT elliptical, on a Spirit XE395-2010 or XE795-2021 residential elliptical, or on a Spirit CU800ENT or CR800ENT commercial bike?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for my treadmill
@@ -27,6 +27,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800ent-2023
+  - cu800ent-2022
+  - cu800ent-2024
   - xe395-2010
   - xe795-2021
   - xt185-2015
@@ -50,10 +53,18 @@ see_also:
 - spirit-xe-safety-outlet-110-volt-15-amp
 - xe395-2010-safety-instructions-list
 - spirit-ce-safety-generator-produces-ac-power
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print
-    the same line on page 4, the XT685 manual on page 5. The XT485ENT owner's manual prints the same line on its IMPORTANT SAFETY INSTRUCTIONS page, page 5 The four mains-powered Spirit elliptical owner's manuals print the same sentence in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS page - CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6, CE800ENT page 4
+  locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print the same line
+    on page 4, the XT685 manual on page 5. The XT485ENT owner's manual prints the same line
+    on its IMPORTANT SAFETY INSTRUCTIONS page, page 5 The four mains-powered Spirit
+    elliptical owner's manuals print the same sentence in the WARNING header of their
+    IMPORTANT SAFETY INSTRUCTIONS page - CE850 2016 page 5, CE850 2020 page 6, CE850 2022
+    page 6, CE800ENT page 4 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print
+    the same capitalised line in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS
+    page, printed page 4, and the CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page,
+    printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -127,3 +138,18 @@ reconciles the two figures; quote the gauge from the machine's own manual.
 **Six residential XE manuals print no extension-cord rule at all** - the XE100/XE200/XE300 and
 XE150/XE350/XE550 books, which have no outlet page, and the two 2023 books
 (`spirit-xe-safety-no-outlet-figure-printed`).
+
+**The three mains-powered Spirit commercial bikes print the same gauge**, in two wordings:
+
+- **CU800ENT-2022 and CR800ENT-2023:** `DO NOT USE AN EXTENSION CORD UNLESS IT IS A 14AWG OR BETTER,
+  WITH ONLY ONE OUTLET ON THE END:`
+- **CU800ENT-2024:** `DO NOT USE AN EXTENSION CORD UNLESS IT IS 14 AWG OR LARGER, WITH ONLY ONE
+  OUTLET ON THE END.` and it adds `The Upright Bike should be the only appliance in the electrical
+  circuit.`
+
+**`14 AWG or larger` and `14AWG or better` are the same requirement.** AWG numbers run backwards, so
+a larger conductor is a lower number; both sentences mean 14 AWG is the thinnest cord allowed.
+
+**The other ten Spirit commercial bike manuals print no extension-cord rule at all**, because eight
+of them have no plug and the CR900ENT-2021 and CU900ENT print no electrical figures of any kind
+(`spirit-bike-safety-no-mains-outlet-needed`, `spirit-xe-safety-no-outlet-figure-printed`).

@@ -2,7 +2,7 @@
 id: spirit-ce-console-blue-led-console-face
 title: The blue LED matrix console with a 20-character message centre and a cargo compartment
 kind: fact
-question: What is on the console of an older Spirit commercial elliptical with a blue LED matrix window?
+question: What is on the console of an older Spirit commercial elliptical or bike with a blue LED matrix window?
 asked_as:
 - what are the parts of my old spirit elliptical console
 - where do i put my phone on the elliptical console
@@ -20,11 +20,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
   - ce850-2016
+  - cu800-2012
   section: console
   code: '*'
 authority: 3
@@ -55,3 +56,14 @@ buttons. See `spirit-ce-console-led-console-face` for the later face.
 **The CE800-2013 page is an image-only scan.** Its call-out text survives OCR, but the drawing's
 finer labels do not; nothing beyond the six above can be read off it. No key names, no USB port and
 no C-SAFE port are labelled on the picture in either manual.
+
+**The CU800-2012 bike owner's manual prints the same drawing with the same seven call-outs on its
+p. 13**, so this card covers a bike as well as the two ellipticals and its product line is no longer
+elliptical-only. The page is headed **CU800 Console**, and the call-outs are word for word the ones
+above - Fan to keep you cool, Ten innovative programs, Large Blue-LED Matrix Window, Heart Rate %
+Profile, 20-Character Message Center, Easy-Touch Control Buttons and the cargo compartment for keys,
+phone, or MP3 player.
+
+**That page is an image-only scan as well.** It survives OCR - the manual's own file is two scans of
+the same book concatenated, and both scans print the same seven call-outs - but nothing finer than
+those seven can be read off the drawing. No key names, no USB port and no C-SAFE port are labelled.

@@ -2,7 +2,7 @@
 id: spirit-ce-console-stop-button-press-once-twice-hold
 title: Stop once pauses for five minutes, twice ends the program and three seconds resets the console
 kind: fact
-question: What happens when I press Stop on a Spirit elliptical?
+question: What happens when I press Stop on a Spirit elliptical or bike?
 asked_as:
 - what happens if i press stop on the elliptical
 - how do i pause my elliptical workout
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -30,6 +30,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cu800-2021
   - xe100-2007
   - xe200-2007
   - xe300-2007
@@ -87,3 +90,18 @@ when the generator stops - see `spirit-ce-console-stop-button-resume-by-pedallin
 **A printing note.** The 2021 CE800 and 2020 CE850 print "if you need to get a drink"; the 2023
 CE800 and 2022 CE850 print "if you need to get a Water" in the same sentence. Nothing about the
 behaviour changed.
+
+**The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print this paragraph word for
+word** - p. 17, p. 17 and p. 16 - so this card covers bikes as well as ellipticals and its product
+line is no longer elliptical-only. Like the CE800-2021 and CE800-2023 they name **only the Start
+key** for resuming and print no memory-hold sentence, so do not tell one of their owners to pedal to
+resume.
+
+**Pause mode is a setting on these three too.** Their engineering menu carries the same Pause mode
+entry, which can be turned off so the console pauses indefinitely instead:
+`spirit-ce800-console-maintenance-menu-function-and-service`.
+
+**The other seven bikes in the range do let you pedal to resume**, and print a memory-hold sentence
+with it: `spirit-ce-console-stop-button-resume-by-pedalling`. **The five touchscreen bikes work
+differently again** - the CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 end a workout on a summary
+screen and need a third press to reach Home, and none of the five prints a hold-to-reset.

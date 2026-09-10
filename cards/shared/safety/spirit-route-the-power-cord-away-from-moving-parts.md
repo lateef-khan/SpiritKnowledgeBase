@@ -31,6 +31,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2024
   - cvc800
   - xe395-2023
   - xt185-2015
@@ -56,15 +57,21 @@ see_also:
 - xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 - spirit-2026t-safety-power-cord-condition-and-routing
 - spirit-xe-safety-no-outlet-figure-printed
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
-    same sentence is p. 33 (printed 32) of the CT850 2020 manual, p. 25 (printed
-    25) of the CVC800 manual, and the ELECTRICAL SAFETY page of the five 2023 XT
-    owner's manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important
-    Electrical Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
-    p. 5, XT385/XT685 p. 6), and the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T
-    owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3)
+  locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the same sentence is
+    p. 33 (printed 32) of the CT850 2020 manual, p. 25 (printed 25) of the CVC800 manual,
+    and the ELECTRICAL SAFETY page of the five 2023 XT owner's manuals (XT185 p. 6,
+    XT285/XT385/XT485/XT685 p. 7), and the Important Electrical Instructions page of the
+    five 2015 XT owner's manuals (XT185/XT285/XT485 p. 5, XT385/XT685 p. 6), and the
+    ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Important
+    Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page
+    4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5,
+    2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on
+    its Important Electrical Instructions page, PDF page 7 (printed 3) The CU800ENT-2024
+    bike owner's manual prints the same sentence on its ELECTRICAL SAFETY page, printed page
+    6
   extracted_at: '2026-09-08'
 ---
 
@@ -138,3 +145,16 @@ cord is most likely to be trapped under when the machine is rolled.
 and the machine is generator-powered with no power cord in its parts list
 (`spirit-xe-safety-no-outlet-figure-printed`). No other residential XE manual prints this sentence
 either.
+
+**The Spirit CU800ENT-2024 upright bike prints the same rule**, on its ELECTRICAL SAFETY page:
+
+> Route the main power cord away from any moving part of the Upright Bike including the elevation
+> mechanism and transport wheels.
+
+**An upright bike has no elevation mechanism.** That half of the sentence is treadmill boilerplate;
+the transport wheels and the crank and pedal assembly are the moving parts that actually apply.
+
+**No other Spirit commercial bike prints it.** The CU800ENT-2022 and CR800ENT-2023 ask only that the
+cord be kept away from heated surfaces and that a damaged cord is not used
+(`spirit-bike-ent-safety-instructions-list`); the remaining ten bikes have no cord to route or print
+no cord rule at all.

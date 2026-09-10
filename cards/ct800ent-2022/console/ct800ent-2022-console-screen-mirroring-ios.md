@@ -2,8 +2,7 @@
 id: ct800ent-2022-console-screen-mirroring-ios
 title: Screen mirroring from an iPhone or iPad, which needs iOS 8 or higher
 kind: procedure
-question: How do I mirror an iPhone or iPad to a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill,
-  or a CE800ENT elliptical?
+question: How do I mirror an iPhone or iPad on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, a CE800ENT elliptical, or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i put my iphone on the treadmill screen
 - screen mirroring not working on the treadmill
@@ -24,8 +23,10 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
   section: console
   code: '*'
 authority: 3
@@ -84,3 +85,12 @@ note that the Bluetooth headphones must be connected to the console.
 Screen Mirroring tile on the Home screen and its Operation text says nothing about it - see
 `ce800ent-console-layout`. **The owner's manual is the only document for that machine that describes
 the procedure, and it places Screen Mirroring on the Entertainment screen, not the Home screen.**
+
+**The CU800ENT-2022 (p. 19) and CR800ENT-2023 (p. 19) bike owner's manuals print this section word
+for word too**, so this card covers bikes as well. Only the machine noun changes - the phone's screen
+is displayed on the touchscreen of the **Upright Bike** or the **Recumbent Bike**. Same iOS 8
+minimum, same facility WiFi step, same two swipe gestures, same **top left** corner, and the same
+note that the Bluetooth headphones must be connected to the console.
+
+**Neither bike manual prints a pairing code, a device-name step or any mirroring troubleshooting**
+either.

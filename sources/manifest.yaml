@@ -1094,6 +1094,107 @@
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
   ingested_at: '2026-09-03'
+- id: spirit-bike-cr800-2021-owners-manual
+  title: 2021 Spirit CR800 recumbent bike owner's manual, warranty effective November
+    8, 2021
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/CR800/CR800_20211108.pdf
+  sha256: 4b7b87685c7253a17e12e4489dcdda5c0d191a7e921beabe234d6c1b35840290
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cr800-2023-owners-manual
+  title: 2023 Spirit CR800 recumbent bike owner's manual, warranty effective June
+    21, 2023 (the 2020 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR800/2020/CR800_800140_OM_20230706.pdf
+  sha256: 1600f444fe71e346cceeeef81ed1802a0831b818a7b60c2ef599858e9448312e
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cr800ent-2023-owners-manual
+  title: 2023 Spirit CR800ENT recumbent bike owner's manual. A byte-identical copy
+    of this file is misfiled at XIC600/2023/; there is no XIC600 2023 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR800/2020/CR800ENT_800150_OM_20230706.pdf
+  sha256: ae23204e3d2ce138dbc01f0dade0143d06bd77a66075a4ff83e7a3bd68a81342
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cr900-2018-owners-manual
+  title: '2018 Spirit CR900 recumbent bike owner''s manual. Dated from its back cover:
+    Revision 08.05.2018, (c) 2018. The filename says 20211108 and the warranty page
+    still reads effective January 1, 2017; both are wrong as a print date.'
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/CR900/CR900_20211108.pdf
+  sha256: b8b195eba30e55a4751b9342c1170de9f20ce2b27a54cfb8244959756c946abc
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cr900-2025-owners-manual
+  title: 2025 Spirit CR900 recumbent bike owner's manual, Version 3.0 Revision 06.12.25,
+    warranty effective October 1, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR900/2025/CR900_OwnersManual_900125_20250612.pdf
+  sha256: f6bdfc5f99d63be7b0c1adcb82d40b9fa2ac877e412511e89414026f2681698a
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cr900ent-2021-owners-manual
+  title: 2021 Spirit CR900ENT recumbent bike owner's manual, Revision 11.08.2021 (the
+    2015 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR900ENT/2015/CR900ENT_900015_OM_20211108.pdf
+  sha256: d4f661e5a444569196e9c923fee0e1df5c6a3a220413d7d8cd254f8bf72ef079
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu800-2012-owners-manual
+  title: '2012 Spirit CU800 upright bike owner''s manual. Warranty effective March
+    1, 2012; internal stamp CU800_20130729. The PDF has no text layer at all, so this
+    text.md is OCR of TWO scans of the one manual, concatenated so any figure can
+    be cross-checked: part 800343 (32 pages, filed under CU800ENT/2023, though the
+    machine is a CU800) and part 800312 (30 pages, filed under CU800/2015). The two
+    match 96.9% at word level and carry the same effective date. The pages are scanned
+    upside down, so OCR taken without a rotation search is unreliable. There is no
+    separate 2015 CU800 manual and no 2023 CU800ENT scan.'
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2023/CU800_OM_)800343.pdf
+  sha256: 0da5bcfada9ab4d76cc3683e1a0ec186769f360380151a26a86760347610b9b2
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu800-2021-owners-manual
+  title: 2021 Spirit CU800 upright bike owner's manual, warranty effective November
+    12, 2021 (the 2023 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800/2023/CU800_800340_OM_20211112.pdf
+  sha256: ee27d355b319de055355356c3894e861c77c2503f633be305868fc3afa5cab65
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu800ent-2022-owners-manual
+  title: 2022 Spirit CU800ENT upright bike owner's manual, warranty effective February
+    8, 2022 (the 2021 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2021/CU800ENT_800350_OM_20220208.pdf
+  sha256: 6d33cd73d0f25ef66c4f23cc40164e254b4acb935668998900e266e980021e1a
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu800ent-2024-owners-manual
+  title: 2024 Spirit CU800ENT upright bike owner's manual, Version 1.0 Revision 10.25.24,
+    warranty effective October 8, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2025/CU800ENT_OwnersManual_800365_20241009.pdf
+  sha256: 6edbc27fadca8a7b3ee7cc6be16262eefc1d96854cf261e32bdacce9fb439fe0
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu900-2018-owners-manual
+  title: 2018 Spirit CU900 upright bike owner's manual. Back cover reads Revision
+    08.08.2018, (c) 2018, but its warranty page was replaced and now reads effective
+    November 19, 2021. The body is 2018; the warranty terms are 2021.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU900/2016/CU900_900346_OM_20211119.pdf
+  sha256: c91a5084e043cacf064d55e4ddd3fe1fef06b1fc93ea78e999330957c7bf0150
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu900-2025-owners-manual
+  title: 2025 Spirit CU900 upright bike owner's manual, Version 3.0 Revision 06.12.25,
+    warranty effective October 1, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU900/CU900_OwnersManual_900325_20250612.pdf
+  sha256: 36d3d7529d79f3abb0d908350673f0e02bb69c0bdcf61ba9e7da6ff63705e924
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cu900ent-2021-owners-manual
+  title: 2021 Spirit CU900ENT upright bike owner's manual, Revision 11.19.2021. Cards
+    use the existing model id cu900ent, which has no year suffix.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU900ENT/CU900ENT_20211119.pdf
+  sha256: 2f324bb1e6c0c51c10f8de44b934f737bf7e6d1670bdc70d0c003105db04f8d3
+  ingested_at: '2026-09-09'
 - id: spirit-bike-cu900ent-service-manual
   title: Spirit CU900ENT upright bike service manual
   kind: markdown

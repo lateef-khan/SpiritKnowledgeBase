@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-aerosol-and-oxygen
 title: Using the machine where aerosols are sprayed or oxygen is in use
 kind: policy
-question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, or a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021 generation, be used where oxygen is being given or aerosols are sprayed?
+question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, a Spirit XE residential elliptical, or a Spirit CU800ENT or CR800ENT commercial bike, be used where oxygen is being given or aerosols are sprayed?
 asked_as:
 - can i use the treadmill near an oxygen tank
 - is hairspray or air freshener a problem near the treadmill
@@ -34,6 +34,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800ent-2023
+  - cu800ent-2022
+  - cu800ent-2024
   - mt200-2010
   - mt200-2022
   - xe100-2007
@@ -63,9 +66,18 @@ see_also:
 - spirit-ce850-safety-instructions-list
 - spirit-xe-2005-2007-safety-instructions-list
 - spirit-xe-2021-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen half as a bullet of their ELECTRICAL SAFETY page, page 6. Both Spirit MT200 owner's manuals state the oxygen half as a bullet of their Important Electrical Information page, 2010 page 5 and 2022 page 8 Seven Spirit elliptical owner's manuals print the rule as a bullet of their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6
+  locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen
+    half as a bullet of their ELECTRICAL SAFETY page, page 6. Both Spirit MT200 owner's
+    manuals state the oxygen half as a bullet of their Important Electrical Information
+    page, 2010 page 5 and 2022 page 8 Seven Spirit elliptical owner's manuals print the rule
+    as a bullet of their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021
+    page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850
+    2022 page 6 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the rule as a
+    bullet of their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the
+    CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page, printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -150,3 +162,16 @@ the rule changes.
 **The two 2023 residential XE manuals print no aerosol or oxygen rule anywhere.** Their thirteen
 numbered safety instructions have no such item (`ces880-2025-safety-instructions-list`). That is an
 absence; do not quote this rule for an XE395-2023 or XE795-2023.
+
+**Three Spirit commercial bikes print the 4.0T's full form**, aerosols, oxygen and reason together:
+
+> Do not operate where aerosol spray products are being used or where oxygen is being administered.
+> Sparks from the motor may ignite a highly gaseous environment.
+
+CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024. **These bikes have no motor**, so the reason the
+sentence gives is boilerplate carried from the treadmill list. The rule itself still stands: not
+where oxygen is being administered, and not where aerosols are sprayed.
+
+**The other ten Spirit commercial bike manuals print no aerosol or oxygen rule at all.** It is
+absent from the self-powered bikes' safety list and from both ENT-2021 manuals
+(`spirit-bike-safety-instructions-list`, `spirit-bike-2025-safety-instructions-list`).

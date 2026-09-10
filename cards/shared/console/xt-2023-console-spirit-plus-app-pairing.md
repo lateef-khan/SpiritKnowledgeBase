@@ -2,8 +2,7 @@
 id: xt-2023-console-spirit-plus-app-pairing
 title: Pairing the machine with the Spirit+ app over Bluetooth
 kind: procedure
-question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, or a CES880,
-  XE395 or XE795 2023 elliptical, to the Spirit+ app?
+question: How do I connect a Spirit XT285, XT385, XT485 or XT685 2023 treadmill, a CES880, XE395 or XE795 2023 elliptical, or a CU800ENT-2024 bike, to the Spirit+ app?
 asked_as:
 - how do i connect my treadmill to my phone
 - how do i pair the spirit app with my treadmill
@@ -27,6 +26,7 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - cu800ent-2024
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -100,3 +100,19 @@ no app at all; the XE395ENT uses a WiFi touchscreen and the Spirit APP account i
 owner's manuals describe no app and no Bluetooth transceiver; their only wireless feature is a
 Polar-compatible heart rate receiver:
 `spirit-ce-console-pulse-window-polar-coded-straps`.
+
+**The CU800ENT-2024 bike owner's manual prints all five steps word for word** on its **p. 18, USING
+THE SPIRIT+ APP**, so this card covers a bike as well as the treadmills and ellipticals above. It
+prints the same opening paragraph, the same free download from the Apple Store or Google Play, the
+same **"DISPLAY"** button and the same **"END & SAVE WORKOUT"**.
+
+**Its cloud list names Google Health Connect, not Google Fit.** The CU800ENT-2024 prints **Apple
+Health, Google Health Connect, MapMyFitness or Fitbit**; the eight machines above print **Apple
+Health, Google Fit, MapMyFitness and Fitbit**. Same four services, and Google renamed the middle one
+- but quote the words the owner's own manual prints. That manual's **ABOUT YOUR MACHINE** page (p. 17)
+says the same thing again: downloading Spirit+ unlocks tracking workouts and sharing data via
+**Google Health Connect and Apple Health**.
+
+**It is the only Spirit commercial *bike* with a Bluetooth app.** No CR800, CU800, CR900, CU900,
+CR900ENT, CU900ENT, CU800ENT-2022 or CR800ENT-2023 owner's manual describes an app or a Bluetooth
+transceiver; the touchscreen bikes use Bluetooth for audio and heart rate only.

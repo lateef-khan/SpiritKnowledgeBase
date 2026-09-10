@@ -39,6 +39,8 @@ see_also:
 - spirit-ce-programs-erratic-heart-rate-interference
 - spirit-ce-programs-heart-rate-control-operation
 - spirit-wireless-chest-belt-no-pulse
+- spirit-bike-programs-wearing-the-chest-strap
+- spirit-bike-programs-chest-strap-with-an-interlocking-key-and-a-panasonic-battery
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: 'CE800 2021 printed p. 33; CE800 2023 p. 34; CE850 2020 p. 38; CE850 2022 p. 39; CE800ENT p. 38'
@@ -76,3 +78,12 @@ says Bluetooth only and does not mention ANT+.**
 CES880 2025 print the Spirit treadmill version of this page - "interlocking key", "Panasonic
 CR2032", no third-party sentence - which is `ct900-heart-rate-chest-strap-setup`. The CE900 2021
 owner's manual has no chest strap chapter at all.
+
+**The Spirit commercial bikes print both wordings too, and are carded separately** because a card
+carries one `product_line` and nothing filters a product line back out at retrieval. The CR800 2021,
+CR800 2023, CU800 2021, CU800ENT 2022 and CR800ENT 2023 print this same interlocking-button page -
+`spirit-bike-programs-wearing-the-chest-strap`; the CR900 2025, CU900 2025 and CU800ENT 2024 print
+the interlocking-key page -
+`spirit-bike-programs-chest-strap-with-an-interlocking-key-and-a-panasonic-battery`. The CU800 2012
+prints the page with no supply statement, and the CR900 2018, CU900 2018, CR900ENT and CU900ENT have
+no chest strap chapter.

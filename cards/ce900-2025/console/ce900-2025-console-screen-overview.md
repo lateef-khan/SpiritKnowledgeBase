@@ -2,7 +2,7 @@
 id: ce900-2025-console-screen-overview
 title: The console overview drawing that names an ultra-bright white LED display and a tablet rack
 kind: fact
-question: What does the console overview drawing name on a Spirit ce900-2025 elliptical?
+question: What does the console overview drawing name on a Spirit ce900-2025 elliptical or a 2025 Spirit cr900-2025 or cu900-2025 bike?
 asked_as:
 - what is on the ce900 console
 - does the ce900 have a tablet holder
@@ -19,10 +19,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: ce900-2025
+  product_line: '*'
+  model: '*'
   applies_to:
   - ce900-2025
+  - cr900-2025
+  - cu900-2025
   section: console
   code: '*'
 authority: 3
@@ -59,3 +61,13 @@ quote either colour for the other year.
 The machine-overview drawing on p. 7 of this manual is a separate picture and names the console, the
 console fan, the tablet rack, the pulse sensors and a **water bottle holder** among the parts of the
 elliptical.
+
+**The 2025 CR900 and CU900 bike owner's manuals print the same drawing with the same six call-outs**
+- CR900 p. 17, CU900 p. 17, both headed CONSOLE SCREEN - OVERVIEW - so this card covers bikes as well
+as the elliptical and its product line is no longer elliptical-only. **White there too**, the same
+tablet rack, and no key named on either drawing.
+
+**The 2018 CR900 and CU900 drawings name the same six things but call the display BLUE**, and their
+matrix call-out is worded differently:
+`spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack`. **White is the 2025 word; blue is the
+2018 word.** Do not quote either colour for the other year.

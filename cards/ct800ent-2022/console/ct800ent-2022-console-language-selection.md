@@ -2,8 +2,7 @@
 id: ct800ent-2022-console-language-selection
 title: Choosing one of the 13 display languages by tapping it
 kind: procedure
-question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill,
-  or a CE800ENT elliptical?
+question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, a CE800ENT elliptical, or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i change the language on the treadmill
 - how do i switch the treadmill to spanish
@@ -23,8 +22,10 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
   section: console
   code: '*'
 authority: 3
@@ -67,3 +68,15 @@ button in the upper left corner for leaving without changing anything.
 
 **That manual does not name the 13 languages either**, and says nothing about whether the choice
 survives the end of a workout.
+
+**The CU800ENT-2022 (p. 17) and CR800ENT-2023 (p. 17) bike owner's manuals print this section word
+for word too**, so this card covers bikes as well. **Thirteen languages there too**, the same
+tap-to-select behaviour and the same Home button in the upper left corner for leaving without
+changing anything. **Neither bike manual names the 13 either.**
+
+**The CU800ENT-2024 is not on this card.** Its console is a different generation with a status bar:
+language and units are changed by pressing the **Gear icon**, and no count of languages is printed.
+See `cu800ent-2024-console-status-bar-and-tabs`.
+
+**The CR900ENT-2021 and CU900ENT bikes offer 12, not 13**, and return to a default language when the
+user finishes: `ct900ent-language-selection`.

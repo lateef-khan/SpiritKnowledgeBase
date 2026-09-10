@@ -2,8 +2,8 @@
 id: ct850-2020-led-displays-dim-or-incomplete
 title: The LED display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
-question: Why are LED display segments missing on a Spirit CT850-2020 treadmill or
-  CE900-2025 elliptical?
+question: Why are LED display segments missing on a Spirit CT850-2020 treadmill, CE900-2025
+  elliptical or CR900-2025 or CU900-2025 bike?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -23,7 +23,9 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - cr900-2025
   - ct850-2020
+  - cu900-2025
   section: errors
   code: no-code
 authority: 3
@@ -37,8 +39,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: 'CT850 2020 service manual section 8-7 Troubleshooting procedure matrix,
-    pages 47-51 (printed 46-50); CE900 2025 owner''s manual TROUBLESHOOTING, printed
-    page 32'
+    pages 47-51 (printed 46-50); CE900 2025 owner''s manual TROUBLESHOOTING printed
+    page 32; CR900 2025 printed page 34; CU900 2025 printed page 33'
   extracted_at: '2026-09-08'
 ---
 
@@ -46,9 +48,12 @@ source:
 |---|---|
 | LED displays are broken | Replace with new console |
 
-**The CT850 2020 treadmill service manual and the CE900 2025 elliptical owner's manual print this
-row word for word**, so it is one fact about two machines. On the CE900 2025 the page is a picture
-and carries no text layer.
+**The CT850 2020 treadmill service manual and the CE900 2025 elliptical, CR900 2025 recumbent bike
+and CU900 2025 upright bike owner's manuals print this row word for word**, so it is one fact about
+four machines. On all three owner's manuals the page is a picture and carries no text layer.
+
+**The CU800ENT 2024 bike prints no such row.** Its troubleshooting table has one display row only,
+about the TFT touch panel.
 
 This is the row about the **displays**, not the light behind them. The row above it offers a power
 check first, and the two machines do **not** agree there: the CT850 2020 asks for `120V` at the

@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - ces880-2025
+  - cu800ent-2024
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -59,3 +60,6 @@ Android 8.0**. The CES880 manual writes it as "IOS 13.1".
 
 **The XE395-2023 (p. 22) and XE795-2023 (p. 21) residential ellipticals print the same closing
 note**, also spelled "IOS 13.1 or Android 8.0".
+
+**The CU800ENT-2024 bike owner's manual prints the same closing note on its p. 18**, spelled "IOS
+13.1 or Android 8.0", so this card covers a bike as well.

@@ -2,7 +2,7 @@
 id: xt-2023-safety-compliance-certifications
 title: The standards the machine is certified to, and the Part 15 declaration
 kind: policy
-question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, a Spirit CE900-2025 elliptical, or a Spirit XE395-2023 or XE795-2023 elliptical, certified to?
+question: What standards is a Spirit XT285-2023, XT385-2023, XT485-2023 or XT685-2023 treadmill, a Spirit CE900-2025 elliptical, a Spirit XE395-2023 or XE795-2023 elliptical, or a Spirit CU800ENT-2024 upright bike, certified to?
 asked_as:
 - is this treadmill fcc approved
 - does the treadmill have bluetooth
@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - cu800ent-2024
   - xe395-2023
   - xe795-2023
   - xt285-2023
@@ -44,9 +45,14 @@ see_also:
 - ctsbs900-warnings-compliance-fcc
 - ce900-2025-safety-product-labels
 - spirit-xe-2023-safety-product-labels
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5 The Spirit CE900 2025 elliptical owner's manual prints the same page as WARNINGS, COMPLIANCE AND NOTICES, page 4
+  locator: page 5, WARNINGS, COMPLIANCE AND NOTICES; the XT385, XT485 and XT685 manuals print the
+    same page, also page 5. The XT685ENT owner's manual prints the same page, also page 5
+    The Spirit CE900 2025 elliptical owner's manual prints the same page as WARNINGS,
+    COMPLIANCE AND NOTICES, page 4 The CU800ENT-2024 bike owner's manual prints the same
+    WARNINGS, COMPLIANCE AND NOTICES page, printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -122,3 +128,12 @@ to be recovered by OCR (`xt-2015-safety-no-compliance-page`).
 **The XE395-2023 and XE795-2023 owner's manuals** carry it as WARNINGS, COMPLIANCE AND NOTICES on
 their page 4: certified to **FCC part 15**, **UL** and **Bluetooth (with FTMS)**, followed by the
 same two-condition Part 15 declaration. Nothing in the list or the declaration changes.
+
+**The Spirit CU800ENT-2024 upright bike prints the same page**, and it is the **only one of the
+thirteen Spirit commercial bike owner's manuals that has a compliance page at all**. The words *FCC*,
+*part 15*, *FTMS* and *20 cm* appear in none of the other twelve, so no certification, interference
+remedy or RF figure may be quoted for any other Spirit commercial bike.
+
+Its list is the three-line one without a Bluetooth version: **FCC part 15**, **UL**,
+**Bluetooth (with FTMS)**. It prints condition (2) of the Part 15 declaration as `must not accept any
+interference received`, the same wording as the XT manuals.

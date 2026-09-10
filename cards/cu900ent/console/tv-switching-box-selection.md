@@ -2,7 +2,7 @@
 id: cu900ent-tv-switching-box-selection
 title: Choosing the C-SAFE or CAB TV switching box
 kind: fact
-question: What does the C-SAFE or CAB setting do on a Spirit CU900ENT bike?
+question: What does the C-SAFE or CAB setting do on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - what is c-safe on the bike console
 - how do i change the screen brightness on the bike
@@ -19,8 +19,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -47,3 +48,17 @@ TV screen) and **CAB protocol** (connect a set-top box), on its A/V Source Setup
 
 This is a different thing from **TV Setup**, which is where the tuner source is chosen and channels
 are scanned.
+
+**The owner's manuals say where the choice lives and what else is on that screen.** The CU900ENT
+owner's manual (p. 15) and the CR900ENT-2021 owner's manual (p. 17) both put it under **Machine
+Setup** in the Maintenance menu:
+
+> Machine Setup allows you to select whether the Csafe port is used for Csafe or CAB TV Tuner. This
+> menu also allows you to set the screen brightness.
+
+So the pair is a choice about **what the Csafe port drives** - the Csafe protocol itself, or a CAB TV
+tuner - and the brightness adjustment the service manual shows beside it is on the same screen. This
+card therefore covers the CR900ENT-2021 as well.
+
+**Still no cable specification and no rule for which to pick.** No document in the range says which
+setting a given TV switching box needs.

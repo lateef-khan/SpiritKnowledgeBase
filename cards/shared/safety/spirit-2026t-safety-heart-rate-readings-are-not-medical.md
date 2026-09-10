@@ -2,7 +2,7 @@
 id: spirit-2026t-safety-heart-rate-readings-are-not-medical
 title: The pulse sensors are not medical devices and the heart rate readings may be inaccurate
 kind: policy
-question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical, or on any Spirit XE residential elliptical?
+question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical, on a Spirit XE residential elliptical, or on a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - is the heart rate on the treadmill accurate
 - why is my pulse reading wrong on the treadmill
@@ -37,6 +37,19 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - mt200-2010
   - mt200-2022
   - xe100-2007
@@ -63,9 +76,26 @@ see_also:
 - spirit-ce800-safety-instructions-list
 - spirit-ce850-safety-instructions-list
 - spirit-ce900-safety-instructions-list
+- spirit-bike-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
+- cu800-2012-safety-instructions-list
+- spirit-bike-programs-erratic-heart-rate-interference
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual All ten Spirit elliptical owner's manuals print the disclaimer in their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT pages 4-5, CE850 2016 page 5, CE850 2020 pages 6-7, CE850 2022 pages 6-7, CE900 2021 page 3, CE900 2025 page 5 item 7, CES880 2025 page 4 item 10
+  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item
+    13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit
+    MT200 rehabilitation treadmill owner's manuals print it on their safety instructions
+    page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual All ten Spirit
+    elliptical owner's manuals print the disclaimer in their safety instructions - CE800
+    2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT pages 4-5,
+    CE850 2016 page 5, CE850 2020 pages 6-7, CE850 2022 pages 6-7, CE900 2021 page 3, CE900
+    2025 page 5 item 7, CES880 2025 page 4 item 10 All thirteen Spirit commercial bike
+    owner's manuals print the disclaimer in their safety list - CU800-2012 printed page 2,
+    CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and CU900ENT-2021 printed page
+    3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, CU800ENT-2022 and CR800ENT-2023
+    printed pages 4 to 5, CU800ENT-2024 printed page 5, and CR900-2025 and CU900-2025 as
+    item 7 of their printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -176,3 +206,26 @@ six 2021 manuals:
 - **The chest strap is named as the more accurate method** only in the seven manuals that print the
   long form. The XE395-2010 manual omits `(sold separately)`; the six 2021 manuals print it.
 - **None of the fourteen prints the over-exercise warning** the 4.0T carries as item 17.
+
+## All thirteen Spirit commercial bikes print the same disclaimer
+
+Ten of them print the short form:
+
+> The hand pulse sensors are not medical devices. Various factors, including the user's movement,
+> may affect the accuracy of heart rate readings. The pulse sensors are intended only as exercise
+> aids in determining heart rate trends in general.
+
+**The three mains-powered ENT bikes - CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 - add a
+sentence in front of it** that the others do not print:
+
+> Their purpose is to provide you with an approximate measurement in relation to your target heart
+> rate. Use of a chest transmitter strap (sold separately) is a much more accurate method of heart
+> rate analysis.
+
+That is a comparison between two accessories, not a claim that either reading is medical. Nine bikes
+make no such comparison, so do not tell a CR900 or CU900 owner their manual recommends a chest strap
+over the grips - it does not.
+
+**A separate rule forbids running a heart rate program on a bad reading.** Nine of the thirteen bike
+manuals print it, with the interference list that goes with it -
+`spirit-bike-programs-erratic-heart-rate-interference`.

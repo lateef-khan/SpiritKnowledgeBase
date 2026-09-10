@@ -3,7 +3,7 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400 residential machine, a Spirit CU800ENT-2022 or CR800ENT-2023 bike, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -28,6 +28,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -36,6 +37,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2022
   - cvc800
   - xe195-2021
   - xe295-2021
@@ -57,12 +59,22 @@ see_also:
 - spirit-2026t-safety-outlet-and-circuit-requirement
 - spirit-xe-safety-outlet-115-volt-15-amp
 - spirit-xe-2021-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- xt-2023-safety-afci-gfci-nuisance-tripping
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
-    (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
-    and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
-    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800 owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner's manuals print the paragraph on their electrical page - CE850 2016 page 6, CE850 2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5
+  locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27 (printed 26); the
+    same paragraph is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25) of
+    the CVC800 manual, and the Circuit Breakers bullet of the ELECTRICAL SAFETY page, p. 6,
+    of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800
+    owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of
+    the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6,
+    ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important
+    Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit
+    elliptical owner's manuals print the paragraph on their electrical page - CE850 2016
+    page 6, CE850 2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5 The CU800ENT-2022 and
+    CR800ENT-2023 bike owner's manuals print the same paragraph on their printed page 5,
+    ending with the dedicated 5 amp breaker sentence
   extracted_at: '2026-09-08'
 ---
 
@@ -199,3 +211,13 @@ not the one the CE850 and CE800ENT manuals print
 XE100/XE200/XE300 and XE150/XE350/XE550 books print no circuit-breaker paragraph at all, and the two
 2023 books replace it with the AFCI/GFCI passage and its tested brands
 (`xt-2023-safety-afci-gfci-nuisance-tripping`). Do not quote Grainger or QO120HM for one of those.
+
+**The CU800ENT-2022 and CR800ENT-2023 bikes print the paragraph in full**, with the bike's name in
+place of the treadmill's, the same Grainger part # 1D237 and www.squared.com part #QO120HM examples,
+and the same closing sentence that it is not a warranty defect. Their breaker rating is the CE850's
+**dedicated 5 amp** circuit (`spirit-ce850-safety-outlet-and-circuit-requirement`), not 15 or 20 amp.
+
+**The CU800ENT-2024 bike does not print this paragraph.** Its manual replaces it with the AFCI/GFCI
+nuisance-tripping guidance instead (`xt-2023-safety-afci-gfci-nuisance-tripping`), which names a
+different cause and a different remedy. The other ten bikes print neither, having no mains supply or
+no electrical figures at all.

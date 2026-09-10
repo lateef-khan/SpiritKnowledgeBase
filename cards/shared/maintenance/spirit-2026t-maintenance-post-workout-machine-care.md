@@ -2,7 +2,7 @@
 id: spirit-2026t-maintenance-post-workout-machine-care
 title: Post-workout machine care, the screen cloth and the cupholders
 kind: procedure
-question: What should I do to a Spirit treadmill or elliptical after every workout?
+question: What should I do to a Spirit treadmill, elliptical or bike after every workout?
 asked_as:
 - how do i clean my treadmill after using it
 - what do i wipe the screen with
@@ -28,6 +28,9 @@ facets:
   - 70t-2026
   - ce900-2025
   - ces880-2025
+  - cr900-2025
+  - cu800ent-2024
+  - cu900-2025
   - xe395-2023
   - xe795-2023
   section: maintenance
@@ -42,9 +45,11 @@ see_also:
 - spirit-ce900-maintenance-squeak-thump-or-clicking
 - ce900-2025-maintenance-machine-care-schedule
 - ces880-2025-maintenance-machine-care-schedule
+- spirit-bike-maintenance-machine-care-schedule
+- cu900ent-general-maintenance
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176)'
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,6 +77,14 @@ of the four ellipticals folds. The 2023 XE395 and XE795 come closest with a "Mov
 line in their setup chapter - tilt the machine by the rear stabilizer and roll it on its transport
 wheels - and that is all either book says about putting it away. Read step 1 as "put it back where
 it belongs", and do not invent a procedure for it.
+
+**Three commercial bikes print it too: the CR900 2025, the CU900 2025 and the CU800ENT 2024.**
+They are the same three bike manuals that carry a machine care schedule table
+(`spirit-bike-maintenance-machine-care-schedule`), and like the CE900 2025 they repeat the
+"Post-Workout Machine Care" heading twice on the page - once over the sweat-path and noise text
+(`cu900ent-general-maintenance`) and once over these four steps. **The other ten Spirit commercial
+bike manuals print none of it**, only the sweat-path wipe-down. On the two 2025 bikes step 1 is
+doubly empty: they have no storage chapter and no folding mechanism either.
 
 **Four ellipticals print this list: the CE900 2025, the CES880 2025 and the residential XE395 and
 XE795 of 2023.** The CE800 (all printings), CE800ENT, CE850 (all printings) and CE900 2021 manuals

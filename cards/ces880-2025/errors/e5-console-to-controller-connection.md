@@ -54,10 +54,12 @@ source:
 
 **Check the wire first, then the controller, then the console.**
 
-**This is not the CE800ENT's E5.** The CE800ENT service manual documents the same code with a
-different table - it names the *lower* controller, the main control wire and the console cable,
-and it is the only error message that manual carries. See
-`ce800ent-e5-console-controller-communication` before quoting a part list across the two machines.
+**This is not the CE800ENT's or the CU800ENT 2024's E5.** Those two manuals define the code as
+*poor communication* between console and lower controller, in a sentence of their own. The CE800ENT
+service manual pairs that definition with a different table - it names the *lower* controller, the
+main control wire and the console cable - and the CU800ENT 2024 bike owner's manual prints the
+definition with no table at all. See `ce800ent-e5-console-controller-communication` before quoting a
+part list across the machines.
 
 A blank screen with no code at all is a different row:
 `ces880-2025-errors-lcd-screen-does-not-display-anything`.

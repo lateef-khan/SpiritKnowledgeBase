@@ -2,9 +2,9 @@
 id: xt-2023-warranty-owner-costs
 title: What the owner pays even when the repair is under warranty
 kind: policy
-question: Does the owner of a Spirit XT, CT800 or CT850 treadmill, or of a Spirit
-  CE800, CE800ENT or CE850 elliptical, pay anything for
-  a warranty repair?
+question: Does the owner of a Spirit XT, CT800 or CT850 treadmill, of a Spirit CE800,
+  CE800ENT or CE850 elliptical, or of a Spirit CR800, CU800, CU800ENT or CR800ENT bike,
+  pay anything for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
 - is the service call free under warranty
@@ -32,6 +32,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -40,6 +43,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
   - xe195-2021
   - xe295-2021
   - xe395-2010
@@ -142,3 +148,9 @@ Adequate packaging for a return is the owner's responsibility too, and freight d
 Their accessibility duty sits at a different number in each generation: item **5** in the 2010 XE395 and the XE195, whose lists carry both a registration item and a grounded-power-supply item; item **4** in the XE295, XE395ENT, XG400 and XE795 2021 manuals, which drop the electrical item; and item **3** in the two 2023 manuals, which drop the registration item as well. The words never change.
 
 **The 2005 and 2007 XE books do not belong on this card, and that is the reason to check before quoting it.** Their step 4 promises parts **at no charge** where no local service is available and charges the owner **all transportation costs both ways** - and it names **no** shipping-and-handling charge on parts, **no** trip charge and **no** 100-mile surcharge. Three of the five charges above are simply not stated in either book, and quoting them to the owner of an XE100, XE150, XE200, XE300, XE350 or XE550 would invent a cost the source does not impose: `spirit-xe-2005-warranty-service-and-transport-costs`.
+
+## Six Spirit commercial bike manuals put the same costs on the owner
+
+The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and the CR800ENT 2023 print service steps 4 and 5 word for word as the CT800 and CT850 manuals do: freight to and from the service centre, shipping and handling on warranty replacement parts, a trip charge for in-home service, an **additional** trip charge beyond 100 miles from the nearest service centre, and adequate packaging plus the freight-damage claim on the owner.
+
+**The other seven bikes do not say this.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT stop step 4 at "All repairs must be preauthorized by Spirit Fitness" and state **no** freight, shipping or trip charge at all - do not quote a trip charge to those owners from this card. The CR900 2025, CU900 2025 and CU800ENT 2024 carry the freight and shipping sentences but no trip charge (`spirit-2026t-warranty-owner-costs`).

@@ -1,8 +1,8 @@
 ---
 id: spirit-ce-safety-who-may-use-the-elliptical
-title: Who may use the elliptical trainer, and the supervised exception the list allows
+title: Who may use the machine, and the supervised exception the list allows
 kind: policy
-question: Who may use a Spirit CE800, CE800ENT, CE850 or CE900 elliptical trainer, or a Spirit XE residential elliptical of the 2021 or 2023 generation, and can children use it?
+question: Who may use a Spirit CE800, CE800ENT, CE850 or CE900 elliptical trainer, a Spirit XE residential elliptical of the 2021 or 2023 generation, or a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike, and can children use it?
 asked_as:
 - can my kids use the elliptical
 - what age can someone use an elliptical
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -33,6 +33,18 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe395-2023
@@ -56,12 +68,21 @@ see_also:
 - spirit-xe-2021-safety-instructions-list
 - spirit-xe795-2021-safety-instructions-list
 - ces880-2025-safety-instructions-list
+- spirit-bike-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
+- cu800-2012-safety-instructions-list
+- spirit-ct800-safety-who-may-use-the-treadmill
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 7, last two bullets; the same two bullets
-    are CE850 2022 page 7, CE850 2016 page 5, CE800ENT page 5, CE800 2021 page 4, CE800
-    2023 page 4, CE900 2021 page 3, and items 9 and 10 of the CE900 2025 numbered list,
-    page 5
+  locator: IMPORTANT SAFETY INSTRUCTIONS, page 7, last two bullets; the same two bullets are CE850
+    2022 page 7, CE850 2016 page 5, CE800ENT page 5, CE800 2021 page 4, CE800 2023 page 4,
+    CE900 2021 page 3, and items 9 and 10 of the CE900 2025 numbered list, page 5 Twelve of
+    the thirteen Spirit commercial bike owner's manuals print the same two items in their
+    safety list - CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and CU900ENT-2021
+    printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, CU800ENT-2022 and
+    CR800ENT-2023 printed page 5, CU800ENT-2024 printed page 5, and CR900-2025 and
+    CU900-2025 as items 9 and 10 of their printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +166,27 @@ a 2023 machine.**
 reduced-capability sentence anywhere.** Their only rule about children is the pinch-points bullet,
 which attaches no age (`spirit-2026t-safety-keep-children-away`). Neither bullet on this card may be
 quoted for one of those seven machines.
+
+## Twelve Spirit commercial bikes print the same two items
+
+**CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021,
+CU800ENT-2022, CR800ENT-2023, CU800ENT-2024, CR900-2025 and CU900-2025** all carry the pair, in the
+elliptical's exact words:
+
+> - This appliance is not intended for use by persons with reduced physical, sensory or mental
+>   capabilities, or lack of experience and knowledge, unless they have been given supervision or
+>   instruction concerning use of the appliance by a person responsible for their safety.
+> - Keep children under the age of 13 away from this machine.
+
+The age is the same **13**, the exception is the same supervised-or-instructed one, and no bike
+manual attaches a different age or a different condition.
+
+- **Four of them print `metal capabilities` for `mental capabilities`** - CU900ENT-2021,
+  CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024. It is a typographic error carried between books;
+  no rule changes.
+- **The 2025 manuals number the two items 9 and 10**; the others print them as bullets. Same
+  content.
+
+**The 2012 CU800 manual prints neither item.** Its list says only *keep children away from the
+fitness bike* and stops (`cu800-2012-safety-instructions-list`). There is no age of 13 and no
+reduced-capability rule in that book, so neither may be quoted for a CU800-2012.

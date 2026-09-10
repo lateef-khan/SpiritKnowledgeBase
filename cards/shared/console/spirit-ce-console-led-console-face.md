@@ -2,7 +2,7 @@
 id: spirit-ce-console-led-console-face
 title: The console face with two Scan buttons, a dot matrix message centre and a USB charger
 kind: fact
-question: What is on the console of a Spirit commercial elliptical with LED data windows?
+question: What is on the console of a Spirit commercial elliptical or bike with LED data windows?
 asked_as:
 - what are the buttons on my spirit elliptical console
 - where is the usb port on the elliptical console
@@ -20,7 +20,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2021
@@ -28,6 +28,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cu800-2021
   section: console
   code: '*'
 authority: 3
@@ -66,4 +69,18 @@ on the machine-overview drawing, not on this one.
 
 The CE900 consoles look different and are drawn differently; see
 `ce900-2025-console-screen-overview`. The CE800-2013 and CE850-2016 are a different console again:
+`spirit-ce-console-blue-led-console-face`.
+
+**The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print the same drawing with the
+same eight call-outs** - CR800-2021 p. 13, CR800-2023 p. 13, CU800-2021 p. 13 - so this card covers
+bikes as well as ellipticals and its product line is no longer elliptical-only. Only the page
+heading changes: **CR800 CONSOLE OPERATION** or **CU800 CONSOLE OPERATION**.
+
+**These three bike drawings carry no other labels either.** No headphone socket, no speaker, no
+water bottle holder and no C-SAFE port is named on the console face, and no rating is given anywhere
+for the USB charger.
+
+**The CR900 and CU900 bikes are drawn differently** - see
+`spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack` and
+`ce900-2025-console-screen-overview`. The CU800-2012 is a different console again:
 `spirit-ce-console-blue-led-console-face`.

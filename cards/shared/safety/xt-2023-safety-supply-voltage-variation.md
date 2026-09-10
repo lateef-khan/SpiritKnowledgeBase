@@ -25,6 +25,9 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - cr800ent-2023
+  - cu800ent-2022
+  - cu800ent-2024
   - mt200-2010
   - mt200-2022
   - xe100-2007
@@ -63,9 +66,17 @@ see_also:
 - spirit-2026t-safety-outlet-and-circuit-requirement
 - ct900ent-operating-environment-voltage
 - spirit-ce-safety-generator-produces-ac-power
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
+    on page 7. The five 2015 XT owner's manuals print it on their Important Electrical
+    Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T
+    owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200
+    owner's manuals print it on their Important Electrical Information page, 2010 page 5 and
+    2022 page 8 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the same
+    sentences on their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 5, and the
+    CU800ENT-2024 manual on its ELECTRICAL SAFETY page, printed page 6
   extracted_at: '2026-09-09'
 ---
 
@@ -152,3 +163,18 @@ manuals name no circuit at all (`spirit-xe-safety-no-outlet-figure-printed`).
 **Neither XE795 prints this paragraph.** Both 2021 printings and the 2023 manual state no
 supply-voltage rule, because that machine is generator-powered and has no mains supply to vary
 (`spirit-ce-safety-generator-produces-ac-power`). That is an absence, not a permission.
+
+**The three mains-powered Spirit commercial bikes print the same paragraph**, with the bike's name in
+place of the treadmill's:
+
+> If voltage varies by ten percent (10%) or more, the performance of your Upright bike may be
+> affected. Such conditions are not covered under your warranty. If you suspect the voltage is low,
+> contact your local power company or a licensed electrician for proper testing.
+
+CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024. The CU800ENT-2024 writes `your unit` instead of the
+machine's name; the figure and the exclusion are unchanged.
+
+**No other Spirit commercial bike prints it.** The eight self-powered bikes have no mains supply, and
+the CR900ENT-2021 and CU900ENT print no electrical figures at all
+(`spirit-bike-safety-no-mains-outlet-needed`, `spirit-xe-safety-no-outlet-figure-printed`). Do not
+quote a ten-percent rule for any of those ten.

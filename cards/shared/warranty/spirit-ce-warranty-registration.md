@@ -3,8 +3,9 @@ id: spirit-ce-warranty-registration
 title: Registering the machine, from a ten-day card deadline to a QR code, and what
   happens if nobody does
 kind: policy
-question: Do I have to register a Spirit CE800, CE850, CE900 or CES880 elliptical trainer
-  for the warranty, and how?
+question: Do I have to register a Spirit CE800, CE850, CE900 or CES880 elliptical trainer,
+  or a Spirit CR900, CU900, CR900ENT, CU900ENT or CU800ENT bike, for the warranty, and
+  how?
 asked_as:
 - do i have to register my elliptical
 - how do i register my spirit warranty
@@ -23,7 +24,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -33,6 +34,13 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   section: warranty
   code: '*'
 authority: 3
@@ -106,3 +114,19 @@ source:
 Keeping the bill of sale matters either way: it is what the periods are dated from when there is a receipt, and eighteen months from factory shipping is the fallback when there is not - `xt-2023-warranty-start-date`.
 
 **Do not carry another Spirit manual's registration rule across.** The CE800 2021, CE800 2023 and CE800ENT manuals state the rule in the CT800 and CT850 wording and are carded with them at `spirit-ct800-warranty-registration`, which lists their registration pages. The XT, CT900 and 2026 rules differ again.
+
+## Seven Spirit commercial bike manuals, and the address changes twice
+
+**The four 900-series bikes print the CE900 2021 rule exactly** - item 1 offering a card returned within **10 days** *or* online registration, and the two-sentence exclusion 6 that excludes an unregistered product outright. **The CR900 2025, CU900 2025 and CU800ENT 2024 print the CE900 2025 rule** - "The warranty registration must be completed **online**", no card and no day count anywhere - and, like the CE900 2025 and CES880, their item 6 keeps only the proof-of-purchase sentence, so an unregistered machine is not excluded by that list.
+
+| Manual | Page the manual sends you to |
+|---|---|
+| CR900 2018, CR900ENT 2021 | www.spiritfitness.com/warranty |
+| CU900 2018, CU900ENT | www.spiritfitness.com/**commercialwarrantyregistration.html** |
+| CR900 2025, CU900 2025, CU800ENT 2024 | a **QR code** to scan, or spiritfitness.com/warranty |
+
+**The recumbent and the upright of the same generation do not send the owner to the same page.** The CR900 2018 and CR900ENT send them to `/warranty`; the CU900 2018 and CU900ENT, whose warranty pages are otherwise word for word the same, send them to `commercialwarrantyregistration.html`. Neither manual explains the difference. Read the link off the manual in hand.
+
+**The three 2024-terms bikes print the QR code** on their PRODUCT REGISTRATION page beside the Serial Number, Date of Purchase and Dealer boxes, and all three put the serial sticker on the **front stabilizer**. No other bike manual prints a QR code.
+
+The six CR800, CU800, CU800ENT 2022 and CR800ENT bikes state the rule in the CT800 wording and are carded with the treadmills at `spirit-ct800-warranty-registration`.

@@ -29,6 +29,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -37,6 +38,8 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2022
+  - cu800ent-2024
   - mt200-2010
   - mt200-2022
   - xe100-2007
@@ -76,9 +79,24 @@ see_also:
 - xt-2015-safety-instructions-list
 - xt-2023-safety-supply-voltage-variation
 - xe195-2021-safety-remove-a-cover-only-with-dc-disconnected
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200 owner's manuals print it on their Important Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner's manuals print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS page - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5
+  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
+    on page 7. The five 2015 XT owner's manuals print it on their Important Electrical
+    Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T
+    and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two
+    Spirit MT200 owner's manuals print it on their Important Electrical Information page,
+    2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important
+    Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5,
+    and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5,
+    ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical
+    Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical
+    owner's manuals print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS
+    page - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5 The
+    CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the same WARNING at the head
+    of their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 5, and the CU800ENT-2024
+    manual on its ELECTRICAL SAFETY page, printed page 6
   extracted_at: '2026-09-09'
 ---
 
@@ -199,3 +217,12 @@ procedure in any of them.
   (`spirit-ce-safety-generator-produces-ac-power`). On a generator-powered machine the equivalent
   rule is not to service it while the generator is spinning, because disconnecting a supply is not
   possible - there is none.
+
+**The three mains-powered Spirit commercial bikes print the same rule**, opening their electrical
+page: `NEVER remove any cover without first disconnecting AC power.` CU800ENT-2022, CR800ENT-2023 and
+CU800ENT-2024.
+
+**The eight self-powered Spirit bikes have no AC power to disconnect**, and their manuals print a
+different rule in the same position - do not service the machine while the generator is spinning
+(`spirit-ce-safety-generator-produces-ac-power`). Pulling a plug is not the safe state on those
+machines because there is no plug; stopping the flywheel is.

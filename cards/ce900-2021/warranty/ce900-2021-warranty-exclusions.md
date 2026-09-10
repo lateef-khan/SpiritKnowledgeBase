@@ -2,7 +2,8 @@
 id: ce900-2021-warranty-exclusions
 title: The eight-item exclusion list that never mentions a dues-paying facility
 kind: policy
-question: What is not covered by the Spirit ce900-2021 elliptical trainer warranty?
+question: What is not covered by the Spirit CE900 elliptical warranty, or by the Spirit
+  CR900, CU900, CR900ENT or CU900ENT bike warranty?
 asked_as:
 - what voids the ce900 warranty
 - is the ce900 covered in a health club
@@ -20,10 +21,14 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
-  model: ce900-2021
+  product_line: '*'
+  model: '*'
   applies_to:
   - ce900-2021
+  - cr900-2018
+  - cr900ent-2021
+  - cu900-2018
+  - cu900ent
   section: warranty
   code: '*'
 authority: 3
@@ -71,3 +76,13 @@ Printed **unnumbered** below item 8, not as an item of the list:
 **It is not the CT900ENT list either**, although both run to eight items with an unnumbered outside-the-US sentence below. Read the machine's own list.
 
 Items 4 and 5 are asked about on their own - `xt-2023-warranty-transfer`. Item 8 is `spirit-2026t-warranty-prisons-excluded`. The outside-the-US sentence and the 48-states note are `xt-2023-warranty-geographic-coverage`.
+
+## Four Spirit commercial bike manuals print the same eight items
+
+The CR900 2018, the CU900 2018, the CR900ENT 2021 and the CU900ENT print this list word for word, in this order, with the outside-the-United-States sentence **unnumbered** below item 8 exactly as the CE900 2021 does. **None of the four excludes a dues-paying facility**; their tables carry one Commercial row, the two ENT bikes label it *Commercial (All Facilities)*, and nothing in the section narrows it (`spirit-bike-warranty-use-environment`).
+
+**The two 2018 bike manuals misspell one word.** The CR900 2018 and CU900 2018 both read "Service call reimbursement to the **faciltiy**" at item 2; the CR900ENT, the CU900ENT and the CE900 2021 print *facility*. Nothing else in the eight items differs across the four bikes.
+
+**Item 2 contradicts the bikes' own warranty table.** It withholds service-call reimbursement for equipment "not in **non-dues paying facility** or household use" on all four, while the table's row is unqualified *Commercial* on the two 2018 manuals and *Commercial (All Facilities)* on the two ENT ones. So the table admits a dues-paying gym and item 2 withholds a reimbursement from it, and no manual reconciles the two. Quote both - `spirit-bike-warranty-use-environment`.
+
+**Do not answer a CR800, CU800 or CU800ENT bike from this card.** Those six print a **ten**-item list whose item 8 excludes a dues-paying facility outright (`spirit-ct800-warranty-exclusions`), and the CR900 2025, CU900 2025 and CU800ENT 2024 print a **nine**-item list (`spirit-ce-2025-warranty-exclusions`).

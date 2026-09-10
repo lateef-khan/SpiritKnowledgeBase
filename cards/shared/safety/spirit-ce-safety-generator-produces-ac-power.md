@@ -2,7 +2,7 @@
 id: spirit-ce-safety-generator-produces-ac-power
 title: The generator makes AC power while you pedal, so never service a spinning machine
 kind: policy
-question: Is a Spirit CE800 or CE900 elliptical trainer, or a Spirit XE795 residential elliptical (ce800-2013, ce800-2021, ce800-2023, ce900-2021, ce900-2025 or xe795-2021), live while it is being pedalled?
+question: Is a Spirit CE800 or CE900 elliptical trainer, a Spirit XE795 residential elliptical, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike, live while it is being pedalled?
 asked_as:
 - is the elliptical live while someone is pedalling
 - can i work on the elliptical while the flywheel is turning
@@ -22,7 +22,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -30,6 +30,14 @@ facets:
   - ce800-2023
   - ce900-2021
   - ce900-2025
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cu800-2012
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
   - xe795-2021
   section: safety
   code: '*'
@@ -43,13 +51,21 @@ see_also:
 - spirit-ce900-safety-instructions-list
 - ct900ent-operating-environment-voltage
 - spirit-disconnect-from-the-outlet-before-cleaning-or-service
+- spirit-bike-safety-no-mains-outlet-needed
+- spirit-bike-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints the
-    same WARNING on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the CE900
-    2021 manual on page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY page,
-    page 6. Both XE795 2021 printings print it on their Important Electrical Instructions
-    page, page 5 - February 19 2021 and November 30 2021
+  locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints the same WARNING
+    on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the CE900 2021 manual on
+    page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY page, page 6. Both XE795 2021
+    printings print it on their Important Electrical Instructions page, page 5 - February 19
+    2021 and November 30 2021 Eight Spirit commercial bike owner's manuals print the same
+    WARNING at the head of their electrical page - CR900-2018 and CU900-2018 printed page 3,
+    CR800-2021, CR800-2023 and CU800-2021 printed page 4, CR900-2025 and CU900-2025 on their
+    ELECTRICAL SAFETY & IMPORTANT OPERATION INSTRUCTIONS page, printed page 5, and
+    CU800-2012 on its Important Electrical Instructions page, printed page 3, in both of the
+    scans its source concatenates
   extracted_at: '2026-09-09'
 ---
 
@@ -117,3 +133,27 @@ CES880-2025 manual does not. That is an absence; do not quote this WARNING for a
 XE150, XE350 and XE550 run from an external power supply, and the XE395-2010, XE195, XE295, XG400,
 XE395ENT and XE395-2023 have a mains power cord. None of their manuals mentions a generator
 (`spirit-xe-safety-no-outlet-figure-printed`, `spirit-xe-safety-outlet-115-volt-15-amp`).
+
+## Eight Spirit commercial bikes print the same warning, in the bike's words
+
+**CR900-2018, CU900-2018, CU800-2012, CR800-2021, CR800-2023, CU800-2021, CR900-2025 and
+CU900-2025:**
+
+> **WARNING** - Be aware that the generator is producing A.C. power while the fitness bike is being
+> used. Do not service the fitness bike while the generator is spinning; serious electric shock
+> could occur.
+
+The hazard, the condition and the consequence are identical to the elliptical wording. The CR900-2018
+manual writes `AC power`; the other seven write `A.C. power`. Nothing else differs.
+
+- **These eight bikes have no mains plug at all** (`spirit-bike-safety-no-mains-outlet-needed`), so
+  there is nothing to unplug before service. The only way to make the machine safe is to stop the
+  flywheel and wait for it to come to rest.
+- **A coasting flywheel is still generating.** Ending the workout or walking away does not end the
+  hazard.
+
+**The five ENT bikes are the opposite case and print no such warning.** CR900ENT-2021, CU900ENT,
+CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 all plug into a wall socket, have no generator, and
+carry mains-appliance rules instead - disconnect before cleaning or removing a cover
+(`spirit-disconnect-from-the-outlet-before-cleaning-or-service`). Do not give a self-powered bike's
+warning for an ENT bike, or the reverse.

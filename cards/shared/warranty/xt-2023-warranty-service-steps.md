@@ -3,7 +3,7 @@ id: xt-2023-warranty-service-steps
 title: The order of steps for getting warranty service
 kind: procedure
 question: How do I get warranty service on a Spirit XT, CT800 or CT850 treadmill,
-  or on a Spirit elliptical trainer?
+  on a Spirit elliptical trainer, or on a Spirit upright or recumbent bike?
 asked_as:
 - how do i get my treadmill fixed under warranty
 - who do i call for a warranty repair
@@ -33,6 +33,12 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -41,6 +47,13 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe395-2010
@@ -201,3 +214,19 @@ The 2010 XE395, the six 2021 manuals and the two 2023 ones print step 4 in full 
 **The 2010 XE395 manual prints no general customer-care number, no email address and no street address** anywhere in this knowledge base. Do not read one for it out of a sibling manual; if you give one, say which manual it came from.
 
 **The 2005 and 2007 XE books are not on this card and their step 4 is a different promise.** They print **five** steps, not six, promise parts **at no charge** where no local service is available, put **all** transportation costs on the owner, and name no trip charge, no 100-mile surcharge, no preauthorization and no shipping-and-handling on parts. Answering one of those from this card would invent four charges: `spirit-xe-2005-warranty-service-and-transport-costs`.
+
+## All thirteen Spirit commercial bike manuals print the same steps, in three lengths
+
+The order never changes: selling dealer, then local authorized service organization, then the service department on **(870) 935-1107**, then Spirit Fitness repairing or replacing at its option through an authorized service centre with all repairs preauthorized, then the owner's packaging and freight-damage duty, then the mailing address - **Spirit Fitness, Inc., P.O. Box 2037, Jonesboro, AR 72402-2037** on all thirteen.
+
+**Step 4 is where they differ, and it changes what the owner pays.**
+
+| Manuals | Step 4 stops at |
+|---|---|
+| CR900 2018; CU900 2018; CR900ENT 2021; CU900ENT | "All repairs must be preauthorized by Spirit Fitness." **No** freight, shipping or trip charge is stated at all |
+| CU800ENT 2024; CR900 2025; CU900 2025 | freight to and from the service centre, and shipping and handling on parts - **no** trip charge (`spirit-2026t-warranty-owner-costs`) |
+| CU800 2012; CR800 2021, 2023; CU800 2021; CU800ENT 2022; CR800ENT 2023 | the same, **plus** an in-home trip charge and an additional charge beyond 100 miles (`xt-2023-warranty-owner-costs`) |
+
+**Do not quote a trip charge to a 900-series bike owner.** Four of the thirteen state none, and the four are exactly the manuals whose tables carry a single Commercial row.
+
+**The CU800 2012 addresses the mail step to "Spirit Fitness" without "Inc."** in both scans, and OCR-damages the P.O. Box line to `RO. Box 2037` in one of them. The box number and the ZIP are legible and unchanged in both.

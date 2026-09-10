@@ -34,6 +34,18 @@ facets:
   - ce850-2022
   - ce900-2021
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -51,11 +63,20 @@ see_also:
 - xt-2015-safety-instructions-list
 - ce900-2025-safety-product-labels
 - ces880-2025-safety-product-labels
+- spirit-bike-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
+- xt-2023-safety-compliance-certifications
 source:
   ref: spirit-treadmill-xt285-2015-owners-manual
-  locator: whole manual; the table of contents runs Important Safety, Electrical,
-    Grounding and Operation Instructions then Product Registration, with no compliance
-    page, and the same is true of the XT185, XT385, XT485 and XT685 manuals. The XT485ENT owner's manual likewise has no compliance page, its table of contents running Product Registration then the four Important Instructions pages then assembly Nine of the ten Spirit elliptical owner's manuals have no compliance page either - CE800 2013, CE800 2021, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850 2022, CE900 2021 and CES880 2025
+  locator: whole manual; the table of contents runs Important Safety, Electrical, Grounding and
+    Operation Instructions then Product Registration, with no compliance page, and the same
+    is true of the XT185, XT385, XT485 and XT685 manuals. The XT485ENT owner's manual
+    likewise has no compliance page, its table of contents running Product Registration then
+    the four Important Instructions pages then assembly Nine of the ten Spirit elliptical
+    owner's manuals have no compliance page either - CE800 2013, CE800 2021, CE800 2023,
+    CE800ENT, CE850 2016, CE850 2020, CE850 2022, CE900 2021 and CES880 2025 Twelve of the
+    thirteen Spirit commercial bike owner's manuals have no compliance page either - the
+    words FCC, part 15, UL, FTMS and 20 cm appear in none of them
   extracted_at: '2026-09-09'
 ---
 
@@ -122,3 +143,19 @@ the 20 cm RF exposure caution (`xt-2023-safety-compliance-certifications`,
 `xt-2023-safety-fcc-class-b-interference`,
 `xt-2023-safety-rf-exposure-separation-distance`). Those are that machine's statements and must not
 be carried onto the other nine.
+
+## Twelve of the thirteen Spirit commercial bike manuals print no compliance page either
+
+**CU800-2012, CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021,
+CU800ENT-2022, CR800ENT-2023, CR900-2025 and CU900-2025.** The words *FCC*, *part 15*, *UL*, *FTMS*
+and *20 cm* appear in none of the twelve, and none carries a WARNINGS, COMPLIANCE AND NOTICES page,
+a Part 15 declaration, a Class B interference notice or an RF exposure caution.
+
+**The CU800ENT-2024 is the one exception in the family**, and it prints the full page - FCC part 15,
+UL and Bluetooth (with FTMS), the Part 15 declaration, the Class B notice and the 20 cm RF caution
+(`xt-2023-safety-compliance-certifications`, `xt-2023-safety-fcc-class-b-interference`,
+`xt-2023-safety-rf-exposure-separation-distance`). Its page answers for that machine and no other
+bike.
+
+**That is an absence, not evidence that a machine is uncertified.** Get a certification claim for any
+of the twelve from Spirit or from the machine's own rating label, never from the owner's manual.

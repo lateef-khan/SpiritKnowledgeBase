@@ -2,8 +2,9 @@
 id: spirit-ct800-warranty-labor-period
 title: Labor is covered for 2 years, dated from the bill of sale or the serial number
 kind: policy
-question: How long is labor covered on a Spirit CT800 or CT850 treadmill, or a Spirit
-  CE800, CE800ENT or CE850 elliptical, and what date is it counted from?
+question: How long is labor covered on a Spirit CT800 or CT850 treadmill, a Spirit
+  CE800, CE800ENT or CE850 elliptical, or a Spirit CR800, CU800, CU800ENT or CR800ENT
+  bike, and what date is it counted from?
 asked_as:
 - how long is labor covered on our ct800
 - does the warranty pay the repair man
@@ -31,6 +32,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -39,6 +43,9 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
   section: warranty
   code: '*'
 authority: 3
@@ -95,3 +102,11 @@ What sets the date is stated in a different place, the SERVICE paragraph, word f
 The manual's own advice follows from it: keep the bill of sale, and if service is performed, obtain and keep all receipts. It adds that this written warranty gives specific legal rights and that other rights vary from state to state.
 
 **This fact is printed in two places.** The two-year figure is in the table on the first warranty page; the dating rule is in the SERVICE paragraph two pages later. The treadmill tables are `spirit-ct800-warranty-commercial-periods` and `spirit-ct800-warranty-residential-periods`; the elliptical ones are `spirit-ce-warranty-commercial-periods` and `spirit-ce-warranty-residential-periods`. The rest of the SERVICE paragraph is `xt-2023-warranty-service-steps`.
+
+## Six Spirit commercial bike manuals print the same two-year figure
+
+The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and the CR800ENT 2023 warranty tables all read **2 Year** or **2 Years** in the Labor column of both rows, and all six print the same SERVICE paragraph dating it from the bill of sale or, failing that, eighteen months from the serial number. The CU800 2012 prints "2 Years" in both rows; the CR800 2021, CU800 2021 and CR800 2023 print "2 Year" in both; the two ENT bikes print "2 Years". The period is two years on all six.
+
+**The two ENT bikes cover console labor separately and for one year only** - a seventh column their tables print and this one does not (`ct800ent-2022-warranty-console-periods`).
+
+**Do not answer a 900-series bike from this card.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT warrant labor for **3 Years** (`spirit-bike-900-warranty-commercial-periods`), and the CR900 2025, CU900 2025 and CU800ENT 2024 tables are different again.

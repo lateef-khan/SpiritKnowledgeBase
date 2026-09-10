@@ -2,7 +2,7 @@
 id: cu900ent-home-screen
 title: The home screen and its four tiles
 kind: fact
-question: What is on the home screen of a Spirit CU900ENT bike?
+question: What is on the home screen of a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - what are the four buttons on the bike screen
 - how do i start a workout on my spirit bike
@@ -20,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -57,3 +58,22 @@ Pressing **Home ten times** from here opens engineering mode.
 
 **This manual prints no program list.** The Exercise Programs tile is named on this screenshot and
 nowhere else; there is no table of program names and no setup sequence anywhere in the manual.
+
+**The owner's manuals confirm the four tiles and add the power-up step.** The CU900ENT owner's
+manual (p. 12) and the CR900ENT-2021 owner's manual (p. 14) both head the page **STARTING
+OPERATION**: *"Plug in the power cord located at the front base of the unit. When the power is turned
+on, the screen will show the initial image and then enter the Home screen."* So this console is
+**mains powered** - unlike every LED bike in the range, which is generator driven
+(`spirit-ce-console-pedal-to-power-up`).
+
+Both owner's manuals then say **"Home screen: Begin operation by touching the icons"** and that the
+**quick operating buttons are convenient for basic bike functions**. Their TOUCH SCREEN OPERATION
+chapters open each of the four tiles in turn - Language, TV, Internet and Exercise Programs - which
+is where the tile names on this card are confirmed for both machines.
+
+**The owner's manuals do print a program count where the service manual prints none: 12 programs.**
+They give no list of names; see the programs section for what is on record.
+
+The same page in the CT900ENT treadmill owner's manual is
+`ct900ent-starting-the-treadmill-home-screen`, which names the same four tiles and a different set of
+quick operating buttons.

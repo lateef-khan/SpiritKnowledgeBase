@@ -3,12 +3,12 @@ id: spirit-ce-errors-erratic-heart-rate-interference
 title: Wild or random heart rate numbers, and the interference list that ends at a
   strap within 3 feet
 kind: troubleshooting
-question: Why does the heart rate reading go wild or random on a Spirit elliptical
-  or E-Glide Trainer?
+question: Why does the heart rate reading go wild or random on a Spirit elliptical,
+  commercial bike or E-Glide Trainer?
 asked_as:
 - heart rate jumping all over the place on my elliptical
-- crazy high pulse numbers on the elliptical console
-- what interferes with the chest strap on an elliptical
+- crazy pulse numbers on my exercise bike console
+- what interferes with the chest strap
 - chest strap reading is wrong
 keywords:
 - erratic heart rate
@@ -23,7 +23,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce800-2013
@@ -35,6 +35,15 @@ facets:
   - ce850-2022
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2025
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2025
   - xe195-2021
   - xe295-2021
   - xe395-2010
@@ -59,21 +68,32 @@ source:
     CE800 2021 p. 34; CE800 2023 p. 35; CE850 2020 p. 39; CE850 2022 p. 40; CE850
     2016 p. 32; CE800 2013 scan page 26; XE395 2010 p. 26; XE195 2021 p. 29; XE295
     2021 p. 33; XG400 2021 p. 32; XE795 2021 February p. 35; XE795 2021 November p.
-    35; XE395ENT 2021 pp. 44-45; XE395 2023 p. 26; XE795 2023 p. 25'
+    35; XE395ENT 2021 pp. 44-45; XE395 2023 p. 26; XE795 2023 p. 25; CU800 2012 p.
+    24; CR800 2021 p. 33; CU800 2021 p. 32; CU800ENT 2022 p. 38; CR800ENT 2023 p.
+    38; CR800 2023 p. 33; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27'
   extracted_at: '2026-09-09'
 ---
 
 **Caution! Do not use this machine for Heart Rate programs unless a steady, solid Actual Heart
 Rate value is being displayed. High, wild, random numbers being displayed indicate a problem.**
 *(Each manual names its own machine in that caution. `elliptical trainer`: CE800 2013, CE800 2021,
-CE800 2023, XE195, XE295, XE795 2021, XE395ENT. `elliptical` or `Elliptical`: CE800ENT, CE850 2016,
-CE850 2020, CE850 2022, CE900 2025, XE395 2010, XE395 2023, XE795 2023. `Suspension Elliptical`:
-CES880 2025. `E•Glide Trainer`: XG400.)*
+CE800 2023, XE195, XE295, XE795 2021, XE395ENT, **and the CU800 2012 upright bike**. `elliptical`
+or `Elliptical`: CE800ENT, CE850 2016, CE850 2020, CE850 2022, CE900 2025, XE395 2010, XE395 2023,
+XE795 2023. `Suspension Elliptical`: CES880 2025. `E•Glide Trainer`: XG400. `fitness bike`: CR800
+2021, CR800 2023, CU800 2021. `Recumbent Bike`: CR800ENT 2023, CR900 2025. `Upright Bike`:
+CU800ENT 2022, CU800ENT 2024, CU900 2025.)*
+
+**The CU800 2012 bike manual calls the machine an `elliptical trainer` in its own caution line.**
+Both OCR scans of that manual agree on the wording, so it is a copy-and-paste defect in the source,
+not a second machine. Do not tell a CU800 owner they have an elliptical.
 
 Areas to look for interference which may cause erratic heart rate:
 
-1. **The elliptical is not properly grounded.** *(Printed only in the CE800ENT and CE900 2025
-   manuals. Every other manual on this card begins its list at the next item.)*
+1. **The machine is not properly grounded.** *(Printed only in the CE800ENT, CE900 2025, CR800ENT
+   2023, CU800ENT 2022, CU800ENT 2024, CR900 2025 and CU900 2025 manuals. Every other manual on this
+   card begins its list at the next item. The CR900 2025, CU900 2025 and CU800ENT 2024 books print
+   the machine's name as a plural against a singular verb - `Upright Bikes is not properly
+   grounded` - which is a typo, not a statement about two machines.)*
 2. **Microwave ovens, TV's, small appliances**, etc.
 3. **Fluorescent lights.**
 4. **Some household security systems.**
@@ -97,6 +117,10 @@ close" does not change between them.** What does change:
 | CES880 2025 | no | `Perimeter fence for a pet` | contact Spirit Fitness |
 | XE395 2010, XE195, XE295, XG400, XE795 2021, XE395ENT | no | `Perimeter fence for a pet` | contact your dealer |
 | XE395 2023, XE795 2023 | no | `Perimeter fence for a pet` | contact Spirit Fitness |
+| CU800 2012 | no | `Perimeter fence for a pet` | contact your dealer |
+| CR800 2021, CR800 2023, CU800 2021 | no | `Electric fence for a pet` | contact your dealer |
+| CR800ENT 2023, CU800ENT 2022 | yes | `Electric fence for a pet` | contact your dealer |
+| CR900 2025, CU900 2025, CU800ENT 2024 | yes | `Perimeter fence for a pet` | contact Spirit Fitness |
 
 **Every residential XE machine on this card prints the same seven items as the CE800 2013 and
 CE850 2016 books, word for word.** Measured on the erratic-operation block itself rather than on
@@ -121,6 +145,13 @@ default and gives the key sequence to switch it on. That is a console setting, n
 cause, and it is carded under `section: console`.
 
 The CE900 2021 owner's manual has **no heart rate chapter at all** and prints none of this.
+
+**Nine of the thirteen Spirit commercial bike owner's manuals print this list.** The four that do
+not are the CR900 2018, CU900 2018, CR900ENT 2021 and CU900ENT 2021 - checked three ways, on the
+loose words `erratic`, `fence` and `interference`, on a spacing-tolerant `E R R A T I C`, and by
+rendering and OCRing every page of those four that carried under 25 words of text. The CR900 2025
+and CU900 2025 lists are word-for-word identical to each other, as are the CR800 2021 and CR800
+2023 lists.
 
 The CE800 2013 manual is an image-only scan read by OCR; its list is legible and matches the
 CE850 2016 wording item for item.

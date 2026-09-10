@@ -31,6 +31,7 @@ facets:
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - cu800ent-2024
   - cvc800
   - xt685-2010
   section: safety
@@ -43,12 +44,18 @@ see_also:
 - cvc800-outlet-and-circuit-requirement
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - spirit-2026t-safety-outlet-and-circuit-requirement
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
-    same sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed
-    25) of the CVC800 manual, and the opening WARNING of the ELECTRICAL SAFETY page,
-    p. 6, of the 2026 4.0T owner's manual and the Important Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3)
+  locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the same sentence is
+    p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25) of the CVC800 manual,
+    and the opening WARNING of the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's
+    manual and the Important Electrical Instructions page of the four CT800 owner's manuals
+    - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's
+    manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's
+    manual prints it on its Important Electrical Instructions page, PDF page 7 (printed 3)
+    The CU800ENT-2024 bike owner's manual prints the same WARNING at the head of its
+    ELECTRICAL SAFETY page, printed page 6
   extracted_at: '2026-09-08'
 ---
 
@@ -116,3 +123,16 @@ arc-fault and ground-fault breakers as prone to nuisance tripping and point at b
 suppressors instead (`xt-2023-safety-afci-gfci-nuisance-tripping`), so do not tell an XT685-2015 or
 XT685-2023 owner that their manual forbids a GFCI outlet, or an XT685-2010 owner that theirs merely
 warns about one.
+
+**The Spirit CU800ENT-2024 upright bike prints the same warning**, at the head of its ELECTRICAL
+SAFETY page:
+
+> NEVER use a RCD - Residual Current Device (U.S. ver.= GFCI) - wall outlet with this Upright Bike.
+> As with any appliance with a large motor, the RCD/GFCI will trip often.
+
+**The bike has no large motor.** The reason the sentence gives is boilerplate from the treadmill
+manual; the instruction itself is printed for this machine.
+
+**It is the only Spirit commercial bike that prints it.** The CU800ENT-2022 and CR800ENT-2023 print
+the high-inrush house-breaker paragraph instead (`spirit-house-breaker-needs-a-high-inrush-type`),
+and the other ten bikes print nothing about breakers or outlets at all.

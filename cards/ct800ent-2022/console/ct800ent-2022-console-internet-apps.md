@@ -2,7 +2,7 @@
 id: ct800ent-2022-console-internet-apps
 title: The Internet section - streaming, news and social media apps
 kind: procedure
-question: How do I use the internet apps on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill?
+question: How do I use the internet apps on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i watch netflix on the treadmill
 - can i use the internet on the treadmill
@@ -19,11 +19,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - cr800ent-2023
   - ct800ent-2022
   - ct850ent-2022
+  - cu800ent-2022
   section: console
   code: '*'
 authority: 3
@@ -71,3 +73,12 @@ WORKOUT."** On a machine in a facility the next user otherwise inherits the acco
 
 **The note supplies the network setup this manual omits.** WiFi is configured from the Maintenance
 menu: `spirit-ent-console-wifi-setup`.
+
+**The CU800ENT-2022 (p. 17) and CR800ENT-2023 (p. 17) bike owner's manuals print this section word
+for word too**, so this card covers bikes as well as treadmills and its product line is no longer
+treadmill-only. **Neither bike manual names an app, prints a count, or gives any network setup
+procedure** - no WiFi, no Ethernet, no password screen, no administrator menu - even though both
+make internet access a requirement.
+
+**Those two bike manuals have no maintenance or engineering menu section at all**, so the WiFi setup
+that `spirit-ent-console-wifi-setup` describes is the only route on record for them.

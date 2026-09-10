@@ -2,7 +2,7 @@
 id: 40t-2026-safety-consult-a-physician
 title: Consult a physician before starting, especially over the age of 35
 kind: policy
-question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the 4.0T), a Spirit CE900 or CES880 elliptical, or a Spirit XE residential elliptical of the 2021 or 2023 generation?
+question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the 4.0T), a Spirit CE900 or CES880 elliptical, a Spirit XE residential elliptical of the 2021 or 2023 generation, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike or a CR900ENT or CU900ENT bike?
 asked_as:
 - do i need a doctor before using a treadmill
 - is a treadmill safe if i have a heart condition
@@ -26,6 +26,16 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cr800-2021
+  - cr800-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe195-2021
   - xe295-2021
   - xe395-2023
@@ -44,9 +54,19 @@ see_also:
 - spirit-ce900-safety-instructions-list
 - ces880-2025-safety-instructions-list
 - ces880-2025-safety-warning-on-the-cover
+- spirit-bike-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
+- cu800-2012-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 1, page 4 The Spirit CE900 2021 owner's manual prints the same rule on page 3, the CE900 2025 manual as item 1 of its safety list on page 5, and the CES880 2025 manual as item 8 of its safety list on page 4
+  locator: SAFETY INSTRUCTIONS item 1, page 4 The Spirit CE900 2021 owner's manual prints the same
+    rule on page 3, the CE900 2025 manual as item 1 of its safety list on page 5, and the
+    CES880 2025 manual as item 8 of its safety list on page 4 Ten Spirit commercial bike
+    owner's manuals print the same rule as the first item of their safety list - CU800-2012
+    printed page 2, CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and
+    CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, and
+    CR900-2025 and CU900-2025 as item 1 of their printed page 4
   extracted_at: '2026-09-09'
 ---
 
@@ -107,3 +127,21 @@ manuals (`ces880-2025-safety-instructions-list`).
 **The six oldest residential XE manuals print no physician rule at all.** The XE100/XE200/XE300,
 XE150/XE350/XE550 and XE395-2010 books name no age and ask for no consultation anywhere. That is an
 absence - do not tell one of those owners their manual says to see a doctor.
+
+## Ten Spirit commercial bikes print the same rule and the same age
+
+**CU800-2012, CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT, CR800-2021, CR800-2023, CU800-2021,
+CR900-2025 and CU900-2025** all open their safety list with it, in the ellipticals' shorter wording:
+
+> Before beginning this or any exercise program, consult a physician. This is especially important
+> for persons over the age of 35 or persons with pre-existing health conditions.
+
+The age figure is the same **35**, the trigger is the same pre-existing health condition, and it is
+again a consultation rather than a written clearance.
+
+**The three mains-powered ENT bikes do not print it.** CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024
+open their safety list with the electric-shock DANGER instead, and no physician sentence appears in
+their safety pages at all (`spirit-bike-ent-safety-instructions-list`). The only physician sentence
+in those three books is in the HEART RATE EXERTION chapter - `a schedule approved by your physician` -
+which is advice about training intensity, not a pre-use instruction. Do not answer a CU800ENT or
+CR800ENT from this card.

@@ -2,7 +2,7 @@
 id: spirit-ct800-safety-user-weight-limit-450-lbs
 title: User weight limit of 450 lbs
 kind: spec
-question: What is the user weight limit of a Spirit CT800, CT800ENT, CT850, CT850ENT or CT900ENT treadmill, or of a Spirit CE800, CE800ENT, CE850 or CE900 elliptical?
+question: What is the user weight limit of a Spirit CT800, CT800ENT, CT850, CT850ENT or CT900ENT treadmill, of a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, or of a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -30,6 +30,12 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900-2025
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
@@ -38,6 +44,12 @@ facets:
   - ct850-2020
   - ct850ent-2022
   - ct900ent
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   section: safety
   code: '*'
 authority: 3
@@ -57,9 +69,25 @@ see_also:
 - ces880-2025-safety-user-weight-limit-400-lbs
 - ce800-2013-safety-user-weight-limit-unreadable
 - spirit-ce850-safety-instructions-list
+- spirit-bike-safety-instructions-list
+- spirit-bike-ent-safety-instructions-list
+- spirit-bike-2025-safety-instructions-list
+- cu800-2012-safety-instructions-list
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 3; the CT800 2020 owner''s manual prints the same bullet on page 4 and the CT800ENT-2022 owner''s manual on page 5. The CT850 owner''s manuals print it on page 4 (2016), page 3 (2018), page 4 (2020) and page 5 (ENT-2022). The CT900ENT owner''s manual prints it on page 3, in the shipping PDF spirit-treadmill-ct900ent-owners-manual. Seven Spirit elliptical owner''s manuals print the same figure in their safety instructions - CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 5, CE850 2020 page 7, CE850 2022 page 7, CE900 2021 page 3, CE900 2025 page 5'
+  locator: >-
+    IMPORTANT SAFETY INSTRUCTIONS, page 3; the CT800 2020 owner's manual prints the same bullet
+    on page 4 and the CT800ENT-2022 owner's manual on page 5. The CT850 owner's manuals print it
+    on page 4 (2016), page 3 (2018), page 4 (2020) and page 5 (ENT-2022). The CT900ENT owner's
+    manual prints it on page 3, in the shipping PDF spirit-treadmill-ct900ent-owners-manual.
+    Seven Spirit elliptical owner's manuals print the same figure in their safety instructions -
+    CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 5, CE850 2020 page 7, CE850 2022 page 7,
+    CE900 2021 page 3, CE900 2025 page 5 Twelve of the thirteen Spirit commercial bike owner's
+    manuals print the same figure in their safety list - CR900-2018 and CU900-2018 printed page
+    3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021
+    printed page 4, CU800ENT-2022 and CR800ENT-2023 printed page 5, and CR900-2025 and
+    CU900-2025 as item 11 of their printed page 4. The CU800ENT-2024 manual prints it on its
+    printed page 5
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +173,21 @@ anywhere.
   (`ces880-2025-safety-user-weight-limit-400-lbs`).
 - **CE800-2013** prints a metric figure its scan cannot resolve; no number may be quoted for it and
   450 lb must not be substituted (`ce800-2013-safety-user-weight-limit-unreadable`).
+
+## Twelve Spirit commercial bikes print the same 450 lb figure
+
+Every bike owner's manual in the CR800, CR900, CU800 and CU900 families except the 2012 CU800
+prints it, in three wordings that mean the same thing:
+
+| Manuals | Printed as |
+|---|---|
+| CR900-2018, CU900-2018, CR900ENT-2021, CU900ENT-2021, CR800-2021, CR800-2023, CU800-2021 | `Maximum User Weight: 450 lbs` |
+| CU800ENT-2022, CR800ENT-2023, CU800ENT-2024 | `Weight Limit: 450lb` |
+| CR900-2025, CU900-2025 | `User Weight Limit: 450 lb.` |
+
+The figure never changes across the four bike families, the two console generations or the thirteen
+years, and it is the same 450 lbs the CT800 and CE800 families print. Neither the recumbent nor the
+upright is given a different limit.
+
+**The 2012 CU800 manual is the exception and prints no limit at all** - see
+`xt-2015-safety-no-user-weight-limit-printed`. Do not carry 450 lbs back to it.

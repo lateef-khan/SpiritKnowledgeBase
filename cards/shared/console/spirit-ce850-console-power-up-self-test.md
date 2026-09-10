@@ -2,7 +2,7 @@
 id: spirit-ce850-console-power-up-self-test
 title: The power-up self-test shows the software version, then the miles and hours, for a few seconds
 kind: fact
-question: What does the console show at power-up on a Spirit CE850 elliptical?
+question: What does the console show at power-up on a Spirit CE850 elliptical or a Spirit CU800-2012 bike?
 asked_as:
 - what is ver 1.0 on the elliptical display
 - how do i see total miles on my elliptical
@@ -20,11 +20,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce850-2020
   - ce850-2022
+  - cu800-2012
   section: console
   code: '*'
 authority: 3
@@ -56,3 +57,26 @@ Both printings word this identically.
 machine is not the pedal-to-power console the CE800-2021, CE800-2023, CE900 and CES880 manuals
 describe: `spirit-ce-console-pedal-to-power-up`. The manual states no power-up method at all -
 that absence is what it says, and nothing here should be read as a claim either way.
+
+**The CU800-2012 bike owner's manual prints this sequence on its p. 13**, so this card covers a bike
+as well as the two CE850 ellipticals and its product line is no longer elliptical-only. Same
+self-test with **all the lights on**, same **software version (i.e. VER 1.0)**, same odometer for
+**only a few seconds**, then the same start-up display scrolling the profiles and the start-up
+message.
+
+**Two differences on the CU800-2012, both about where the numbers appear.**
+
+- That console has a **20-character Message Window**, not LED data windows, so the odometer reading
+  is printed there. The manual gives the literal form: **`ODO 123 MI 123 HRS`** - virtual miles and
+  hours of use.
+- The **software version appears on the dot matrix display**, which is what the CE850 manuals also
+  say.
+
+**Unlike the CE850s, the CU800-2012 does say how it is powered.** It is generator driven - "Spirit
+Fitness commercial fitness bikes have a built-in generator for power and do not need to be plugged
+into an AC outlet. To power up the fitness bike simply start to pedal" - which is the sentence the
+CE850 manuals never print. See `spirit-ce-console-pedal-to-power-up` for the machines that print
+only that much and no self-test detail.
+
+**Both scans of the CU800-2012 manual print this page**, and they agree on VER 1.0 and on the ODO
+line.

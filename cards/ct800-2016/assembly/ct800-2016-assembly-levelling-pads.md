@@ -3,7 +3,8 @@ id: ct800-2016-assembly-levelling-pads
 title: Two levelling pads under the rear stabiliser, turned with a 14mm wrench
 kind: procedure
 question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 or
-  CTSBS900 treadmill, or a Spirit CE800, CE800ENT or CE850 elliptical, that rocks or
+  CTSBS900 treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, or a Spirit CR800,
+  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, that rocks or
   squeaks?
 asked_as:
 - my treadmill rocks on the floor
@@ -31,10 +32,22 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
   - ct800-2016
   - ct850-2018
   - ct900
   - ctsbs900
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   section: assembly
   code: '*'
 authority: 3
@@ -45,6 +58,12 @@ not_to_be_confused_with:
 - spirit-ce900-assembly-levelling-pads
 - ces880-2025-assembly-levelling-note
 see_also:
+- cu800-2021-assembly-parts-diagram-labels
+- spirit-cr900-assembly-tools-included
+- spirit-cu900-assembly-tools-included
+- spirit-cr800-assembly-tools-included
+- spirit-cu800-assembly-tools-included
+- cu900ent-foot-pad-and-moving-wheel-replacement
 - ct800-2020-assembly-levelling-pads
 - ctsbs900-level-adjustment
 - spirit-ct800-assembly-no-folding-or-moving
@@ -62,7 +81,14 @@ source:
   locator: p. 40, GENERAL MAINTENANCE item 2c; the same sentence at GENERAL
     MAINTENANCE item 2c, p. 43 of the CT850 2018 manual, at p. 39 of the CT900 manual
     (`spirit-treadmill-ct900-owners-manual`, MACHINE CARE - CONTINUED item 2) and at
-    p. 44 of the CTSBS900 manual (`spirit-treadmill-ctsbs900-owners-manual`, same item)
+    p. 44 of the CTSBS900 manual (`spirit-treadmill-ctsbs900-owners-manual`, same
+    item); and word for word on twelve Spirit commercial bikes, in each case the last
+    remedy in the noise item - p. 28 of the CR900 2018 manual
+    (`spirit-bike-cr900-2018-owners-manual`), p. 27 of the CU900 2018 manual, p. 35 of
+    the CR900ENT, CR800 2021 and CR800 2023 manuals, p. 34 of the CU800 2021 manual,
+    p. 32 of the CU900ENT and CU900 2025 manuals, p. 40 of the CU800ENT 2022 and
+    CR800ENT manuals, p. 33 of the CR900 2025 manual and p. 49 of the CU800ENT 2024
+    manual
   extracted_at: '2026-09-09'
 ---
 
@@ -116,3 +142,29 @@ Do not carry the figure of two across to these:
 - The **CES880** does not use this sentence at all. It has six levellers, fitted
   during assembly, each locked by an adjustment plate rather than turned to suit
   afterwards. See its own card.
+
+## Twelve Spirit commercial bikes print the same sentence, in the same place
+
+The **CR800** 2021 and 2023, **CR800ENT**, **CR900** 2018 and 2025, **CR900ENT**,
+**CU800** 2021, **CU800ENT** 2022 and 2024, **CU900** 2018 and 2025 and **CU900ENT**
+manuals all print it word for word, and every one of them puts it in the same place -
+the last remedy in the noise item, after tightening the hardware, and never in the
+assembly chapter. **Two levelling pads under the rear stabiliser, 14mm wrench**, on
+all twelve. Recumbent and upright agree here, which is rare in this family: their
+assembly chapters share almost nothing.
+
+**No bike carton on this card holds a plain 14mm wrench either.** The CR900 and CU900
+cartons hold a 13/15mm wrench (the CR900 adds two 17mm), and the CR800, CR800ENT,
+CU800 and CU800ENT cartons a 12/14mm and a 13/15mm or 14/15mm - the 12/14mm will fit.
+See the four bike tools cards linked above.
+
+The three 2024 and 2025 bike manuals also list **Levelers - Inspect** in their machine
+care schedule, without saying how often or what "inspect" means beyond this sentence.
+
+**One bike manual shows you where they are.** The CU800 2021 parts drawing carries a
+**LEVELERS** callout on p. 6 - the only bike diagram in the family that points at them,
+and it gives no count and no wrench size. See
+[that card](../../cu800-2021/assembly/cu800-2021-assembly-parts-diagram-labels.md).
+
+**The CU800 2012 manual gives a different answer** - four pads, under the rear rails.
+See [that card](../../ce800-2013/assembly/ce800-2013-assembly-levelling-pads.md).

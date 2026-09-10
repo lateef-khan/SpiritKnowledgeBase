@@ -2,8 +2,8 @@
 id: xt-2023-warranty-labor-period
 title: How the labour warranty period is fixed
 kind: policy
-question: How long is labour covered on a Spirit XT treadmill, and what date is it
-  counted from?
+question: How long is labour covered on a Spirit XT treadmill or a Spirit upright or
+  recumbent bike, and what date is it counted from?
 asked_as:
 - how long is labor covered on my treadmill
 - does the warranty pay the repair man
@@ -26,6 +26,19 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - cr800-2021
+  - cr800-2023
+  - cr800ent-2023
+  - cr900-2018
+  - cr900-2025
+  - cr900ent-2021
+  - cu800-2012
+  - cu800-2021
+  - cu800ent-2022
+  - cu800ent-2024
+  - cu900-2018
+  - cu900-2025
+  - cu900ent
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -126,3 +139,11 @@ The manual adds that this written warranty gives specific legal rights and that 
 **The 2005 and 2007 books word it differently, and the difference matters.** They read *"...establishes the **warranty** period should service be required"*, not *"the **labor** warranty period"*. On those two the sentence therefore appears to date the whole warranty from the bill of sale or the serial number, not just the labor half - and their table has a two-year base period and a five-year component period that neither twelve nor eighteen months can be reconciled with. Neither book resolves it. Quote the sentence and the table together (`spirit-xe-2005-warranty-two-year-base-period`).
 
 The XE and XG tables themselves are `spirit-xe-warranty-residential-periods-ten-year-parts`, `xe195-2021-warranty-residential-periods-five-year-parts` and `spirit-xe795-warranty-light-commercial-periods`.
+
+## All thirteen Spirit commercial bike manuals print the same SERVICE sentence
+
+Twelve (12) months from the date on the bill of sale, or eighteen (18) months from the date of factory shipping as determined by the serial number, establishes the labor warranty period. It is word for word the same on the CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and 2024, the CR800ENT 2023, the CR900 2018 and 2025, the CU900 2018 and 2025, the CR900ENT and the CU900ENT.
+
+**On a bike this sentence contradicts the table more sharply than on an XT.** The four 900-series bikes warrant Labor for **3 Years** and the CR900 2025 and CU900 2025 for 2 or 3 years by row, while this paragraph dates the labor period from a twelve-month or eighteen-month clock. No bike manual reconciles the two; quote both. The figures are on `spirit-bike-900-warranty-commercial-periods`, `spirit-bike-2024-warranty-coverage-periods` and `spirit-ct800-warranty-labor-period`.
+
+**The CU800ENT 2024 table has no general Labor column at all** - only Console Labor - so this sentence is the only labor period that manual states outside the console (`cu800ent-2024-warranty-coverage-periods`).
