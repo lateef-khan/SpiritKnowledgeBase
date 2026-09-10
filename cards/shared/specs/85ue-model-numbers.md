@@ -1,13 +1,13 @@
 ---
 id: 85ue-model-numbers
-title: 85UE model numbers by year
+title: 8.5UE model numbers by year
 kind: spec
-question: What is the model number for the Spirit 85UE?
+question: What is the model number for the Spirit 8.5UE?
 asked_as:
+- 8.5UE SKU
 - 85UE SKU
-- 85UE part number
-- which years was the 85UE made
-- what year is my 85UE
+- 8.5UE part number
+- what year is my 8.5UE
 keywords:
 - model number
 - sku

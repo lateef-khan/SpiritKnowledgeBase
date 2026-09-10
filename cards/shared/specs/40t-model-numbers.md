@@ -1,13 +1,13 @@
 ---
 id: 40t-model-numbers
-title: 40T model numbers by year
+title: 4.0T model numbers by year
 kind: spec
-question: What is the model number for the Spirit 40T?
+question: What is the model number for the Spirit 4.0T?
 asked_as:
+- 4.0T SKU
 - 40T SKU
-- 40T part number
-- which years was the 40T made
-- what year is my 40T
+- 4.0T part number
+- what year is my 4.0T
 keywords:
 - model number
 - sku

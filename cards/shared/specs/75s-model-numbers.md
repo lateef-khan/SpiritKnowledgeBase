@@ -1,13 +1,13 @@
 ---
 id: 75s-model-numbers
-title: 75S model numbers by year
+title: 7.5S model numbers by year
 kind: spec
-question: What is the model number for the Spirit 75S?
+question: What is the model number for the Spirit 7.5S?
 asked_as:
+- 7.5S SKU
 - 75S SKU
-- 75S part number
-- which years was the 75S made
-- what year is my 75S
+- 7.5S part number
+- what year is my 7.5S
 keywords:
 - model number
 - sku

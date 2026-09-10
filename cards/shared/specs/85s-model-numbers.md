@@ -1,13 +1,13 @@
 ---
 id: 85s-model-numbers
-title: 85S model numbers by year
+title: 8.5S model numbers by year
 kind: spec
-question: What is the model number for the Spirit 85S?
+question: What is the model number for the Spirit 8.5S?
 asked_as:
+- 8.5S SKU
 - 85S SKU
-- 85S part number
-- which years was the 85S made
-- what year is my 85S
+- 8.5S part number
+- what year is my 8.5S
 keywords:
 - model number
 - sku

@@ -1,13 +1,13 @@
 ---
 id: 70t-model-numbers
-title: 70T model numbers by year
+title: 7.0T model numbers by year
 kind: spec
-question: What is the model number for the Spirit 70T?
+question: What is the model number for the Spirit 7.0T?
 asked_as:
+- 7.0T SKU
 - 70T SKU
-- 70T part number
-- which years was the 70T made
-- what year is my 70T
+- 7.0T part number
+- what year is my 7.0T
 keywords:
 - model number
 - sku

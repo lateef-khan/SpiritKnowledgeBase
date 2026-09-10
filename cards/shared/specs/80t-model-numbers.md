@@ -1,13 +1,13 @@
 ---
 id: 80t-model-numbers
-title: 80T model numbers by year
+title: 8.0T model numbers by year
 kind: spec
-question: What is the model number for the Spirit 80T?
+question: What is the model number for the Spirit 8.0T?
 asked_as:
+- 8.0T SKU
 - 80T SKU
-- 80T part number
-- which years was the 80T made
-- what year is my 80T
+- 8.0T part number
+- what year is my 8.0T
 keywords:
 - model number
 - sku
