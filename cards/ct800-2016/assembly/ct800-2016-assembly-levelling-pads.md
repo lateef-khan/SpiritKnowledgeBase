@@ -106,6 +106,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-strength-assembly-no-levelling-instruction-anywhere
 - spirit-xb-2023-assembly-levelling-m14-wrench
 - ct800-2020-assembly-levelling-pads
 - xt-2023-assembly-levelling-feet
