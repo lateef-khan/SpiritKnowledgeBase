@@ -21,11 +21,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
+  product_line: '*'
   model: '*'
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cs800-2021
   - cu800-2021
   section: console
   code: '*'
@@ -68,3 +69,16 @@ strongest claim on record, and it is about a chest strap, not about a phone.
 Spirit+ app runs on the CU800ENT-2024 (`xt-2023-console-spirit-plus-app-pairing`), and the ENT
 touchscreen bikes pair a phone for audio (`ct900ent-bluetooth-pairing`); none of those documents
 describes these machines.
+
+**The CS800-2021 stepper is in exactly the same position**, so this card is no longer
+bike-only. Its parts list carries item **30~13, "Bluetooth"**, one per machine, and its console
+chapter names no Bluetooth button, no pairing screen, no device list and no app. Its HEART RATE
+WINDOW claims **Polar compatibility and nothing more**
+(`spirit-ce-console-pulse-window-polar-coded-straps`), while its chest strap page on printed p. 33
+says **"Chest straps that operate using Bluetooth or ANT+ should also work with this machine"**
+(`spirit-ce-programs-chest-strap-sold-separately`). The two statements never mention each other.
+
+**Its sibling the CRS800S-2021 has no Bluetooth item in its parts list at all**, and prints the same
+two heart-rate claims. Do not tell a CRS800S owner their machine has the module.
+
+**Neither 2021 stepper has the Spirit+ app.** The word app appears in neither book.

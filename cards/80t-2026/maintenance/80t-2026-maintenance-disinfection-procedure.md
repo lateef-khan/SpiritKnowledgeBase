@@ -2,7 +2,8 @@
 id: 80t-2026-maintenance-disinfection-procedure
 title: Disinfecting with 20 ml of 70% or stronger isopropyl alcohol
 kind: procedure
-question: How do I disinfect a Spirit 80t-2026 rehabilitation treadmill between patients?
+question: How do I disinfect a Spirit rehabilitation treadmill or 8.5S stepper between
+  patients?
 asked_as:
 - how do we disinfect the treadmill between patients
 - what strength alcohol for the clinic treadmill
@@ -21,10 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: 80t-2026
+  product_line: '*'
+  model: '*'
   applies_to:
   - 80t-2026
+  - 85s-2025
+  - 85s-fit-2026
   section: maintenance
   code: '*'
 authority: 3
@@ -33,14 +36,20 @@ not_to_be_confused_with:
 see_also:
 - 80t-2026-maintenance-cleaning-cautions
 - 80t-2026-maintenance-cleaning-schedule
+- spirit-85s-maintenance-machine-care-schedule
+- spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: p. 61 "Sanitizing Your Spirit Fitness Equipment"
+  locator: 'p. 61 "Sanitizing Your Spirit Fitness Equipment" (PDF p. 63). The same seven
+    steps, word for word, are spirit-climber-85s-2025-owners-manual printed p. 56 (PDF p. 58)
+    and spirit-climber-85s-fit-2026-owners-manual printed p. 47 (PDF p. 49), under the same
+    heading on their MACHINE CARE page. Measured from the PDF pages, not from text.md; the
+    8.5S page was also read from a 200 dpi render, which agrees with the text layer'
   extracted_at: '2026-09-09'
 ---
 
-**Read `80t-2026-maintenance-cleaning-cautions` before using this. The same manual forbids
-alcohol-based disinfectants four pages later.**
+**Read `80t-2026-maintenance-cleaning-cautions` before using this. Every manual that prints these
+seven steps also forbids alcohol-based disinfectants a page or two later.**
 
 The equipment must undergo routine cleaning and disinfection as required as part of the standard or
 transmission-based precautions. The choice of products for cleaning and disinfection is an
@@ -69,3 +78,17 @@ The 4.0T, 7.0T and the older Spirit commercial manuals give a different procedur
 isopropyl alcohol solution and wipe with a clean dry cloth, with a conditioner afterwards on
 upholstered or soft-plastic surfaces (`ct900-sanitizing-equipment`). Different strength, different
 volume, different dwell. Use the one printed for the machine in front of you.
+
+## Two steppers print it as well, and they are not rehabilitation machines
+
+The **8.5S 2025** and the **8.5S-FIT 2026** carry these seven steps word for word under the same
+heading, on the same MACHINE CARE page as their noise text
+(`spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads`) and one page before the same
+period table and the same warning list. Neither is sold as a rehabilitation machine, and neither
+book uses the word *patient* on this page — but the wording it inherits does, referring to
+"standard or transmission-based precautions". Read it as a facility cleaning procedure.
+
+**Every other Spirit climber and stepper prints the 75% bullets instead** — the CS800 2021,
+CRS800S 2021, CVC800, CSC900 2021, CSC880 2025, MS300 2021, 7.0S and 7.5S. Notably the **MS300**,
+which *is* a clinical rehabilitation machine, prints no disinfection procedure at all
+(`ms300-2021-maintenance-hygienic-requirements-and-cleaning`).

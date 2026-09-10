@@ -24,7 +24,9 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   section: programs
   code: '*'
@@ -37,7 +39,7 @@ see_also:
 - spirit-ce-programs-heart-rate-control-operation
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 printed page 28; CRS800S printed page 27
+  locator: CS800 2021 printed p. 31; CRS800S 2021 p. 29; CS800 2024 p. 28; CRS800S 2024 p. 27
   extracted_at: '2026-09-10'
 ---
 
@@ -57,3 +59,9 @@ source:
 The same machines' heart rate training page recommends **60% for burning fat and 85% for the
 cardiovascular system** - see `spirit-stepper-programs-target-zone-of-108-to-153-beats`. The manual
 does not reconcile the two pairs; both are recorded as printed.
+
+**The 2021 printings of both machines carry the same eight steps**, headed "HEART RATE PROGRAM
+OPERATION", and the same 65% / 80% pair.
+
+**The CVC800 vertical climber has no such program**, although its contents page names a
+`HEART RATE PROGRAM` chapter - see `cvc800-programs-no-heart-rate-program-despite-the-chapter-title`.

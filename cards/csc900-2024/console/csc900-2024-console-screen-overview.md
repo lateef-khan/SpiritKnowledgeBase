@@ -22,8 +22,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: console
   code: '*'
@@ -31,11 +33,13 @@ authority: 3
 not_to_be_confused_with:
 - ct850-2020-console-layout
 - spirit-ce-console-led-console-face
+- csc880-2025-console-white-led-face-with-a-fan-target-and-user-prog-key-row
 see_also:
 - csc900-2024-console-four-display-windows
 - csc900-2024-console-two-speed-fan
 - csc900-2024-console-start-stop-pause-thirty-seconds
 - spirit-ce-console-number-pad-for-age-and-weight
+- csc880-2025-console-white-led-face-with-a-fan-target-and-user-prog-key-row
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: p. 19, CONSOLE SCREEN - OVERVIEW. The page is a flattened image and the call-outs were read
@@ -71,3 +75,21 @@ CU800, CRS800S and CS800 consoles have a Scan button for the LED windows, a seco
 dot matrix, a quarter-mile track ring, a Fan and a USB Charger in the drawing
 (`spirit-ce-console-led-console-face`). **None of those is on this drawing, and this machine's manual
 prints no quarter-mile track section at all.**
+
+**The CSC900-2019 and CSC900-2021 drawings name the same five things** - printed p. 14 of
+each - so this console face is unchanged across all three CSC900 printings. Premium, ultra-bright
+**Blue** LED display; Large LED Matrix window to track workout progress; Program Direct Keys;
+Resistance level display window; Workout Results Key. **No fan button, no USB port, no tether socket
+and no heart rate grip is named on any of the three**, and none of the three books ever says what the
+Workout Results Key does.
+
+**Both 2019 and 2021 pages are flattened images**; the call-outs were read from the OCR supplements
+in `text.md` and confirmed against the native text where it survived.
+
+**The 2021 drawing prints its program key legends** where the 2019 drawing's are unreadable:
+FITNESS TESTS, FAT BURNING, TRAINING, ROLLING HILLS, CHALLENGE, INTERVAL, and a TARGET key. Those are
+key legends, not call-outs; the call-out list is still the five above.
+
+**The CSC880-2025 is a different face and must not be answered from this card.** Its display is
+**White**, not Blue, and its drawing carries a labelled key row this one has not:
+`csc880-2025-console-white-led-face-with-a-fan-target-and-user-prog-key-row`.

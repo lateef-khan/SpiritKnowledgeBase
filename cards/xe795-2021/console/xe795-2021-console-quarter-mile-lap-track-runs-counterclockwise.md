@@ -34,6 +34,8 @@ facets:
   - xe795-2018
   - xe795-2021
   - xe895-2018
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -88,3 +90,14 @@ XE895 runs its own lines together. The fact is unchanged.
 though its Workout Summary still reports **total Laps**. And **all four 2023 bikes dropped it**: the
 XBR25, XBR55, XBR95 and XBU55 of 2023 describe the same twenty-column dot matrix with no track around
 it, exactly as the XE795-2023 does.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word** - XS895-2018 and
+XS895-2021, p. 16, 1/4 Mile Track - so this card now covers a stepper as well. One lap is a quarter
+mile (metric 0.4 k), the flashing segment shows progress, the feature restarts when the lap is
+complete, and the lap counter is in the message window.
+
+**The XS895 splits it the way the XE895 does**: the counterclockwise sentence is the closing line of
+its Dot Matrix Center Display paragraph, not part of the track paragraph.
+
+**Total Laps is one of the five fields on its Workout Summary**, and Laps completed is one of the
+readings its Message Center scans.

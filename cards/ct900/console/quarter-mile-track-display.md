@@ -24,7 +24,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -99,3 +101,10 @@ sentences for different machines; it is a pre-existing split, not a difference o
 
 **The CSC900-2024 and CRW800-2024 have no track ring.** Neither manual prints the section and neither
 console drawing labels one.
+
+**The 2021 CRS800S and CS800 owner's manuals print this paragraph word for word** -
+CRS800S-2021 printed p. 20 and CS800-2021 printed p. 19, headed 1/4 MILE TRACK. A quarter mile is
+**0.4 km**, the flashing dot shows progress, and **the lap counter sits in the centre of the track**.
+
+**Neither 2021 console drawing labels the ring**, so a caller looking for it on the diagram will not
+find it named.

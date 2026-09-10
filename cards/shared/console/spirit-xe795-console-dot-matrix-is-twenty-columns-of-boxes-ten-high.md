@@ -40,6 +40,8 @@ facets:
   - xe795-2021
   - xe795-2023
   - xe895-2018
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -99,3 +101,13 @@ way, which is exactly why the manual says a column is not a value.
 
 **The two ENT bikes have no dot matrix.** The XBR55ENT and XBU55ENT are touchscreens and show a
 profile view on the screen instead.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word too** - XS895-2018 and
+XS895-2021, p. 15, Dot Matrix Center Display - so this card is no longer elliptical-and-bike only.
+Twenty columns of boxes ten high, an approximate level of effort rather than a value, and the profile
+"picture" built up in Manual Operation.
+
+**The XS895 closes the paragraph with the lap track's direction**, exactly as the XE895-2018 does:
+"The Lap track will move in a counterclockwise direction."
+
+**The XS895 has 20 resistance levels**, like the XE895 and unlike the XE795 and XBR95.

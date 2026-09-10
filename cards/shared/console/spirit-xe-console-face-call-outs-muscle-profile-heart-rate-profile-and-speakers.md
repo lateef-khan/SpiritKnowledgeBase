@@ -24,7 +24,7 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - xe295-2019
@@ -35,6 +35,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -46,6 +48,7 @@ see_also:
 - spirit-xe-console-fan-key-on-the-left-of-the-console
 - spirit-xe-console-heart-rate-bar-graph-in-amber-green-and-red
 - spirit-xe-console-muscle-figure-lights-by-pedal-direction
+- xs895-console-power-up-shows-an-altimeter-in-the-vertical-window
 source:
   ref: spirit-elliptical-xe895-2018-owners-manual
   locator: 'p. 17, the XE895 CONSOLE OPERATION drawing. The same eight labels are printed
@@ -95,3 +98,27 @@ this: `xe395ent-2021-console-panel-call-outs-and-the-audio-jack`.
 
 **The 2023 machines replaced the drawing.** The XE395-2023 and XE795-2023 print a FEATURES page and a
 workout-mode call-out drawing instead, with no muscle profile and no cargo compartment.
+
+**The Spirit XS895 incline stepper wears this console face too**, so this card is no longer
+elliptical-only. The XS895-2018 and XS895-2021 owner's manuals print the same eight call-outs on
+their p. 14, in the same positions and the same words - Muscle Activation Profile, Large LCD with
+scrolling feedback and scrolling message center, Heart Rate % Profile, Integrated Speakers for MP3
+Player, Swivel Fan to keep you cool, Convenient cargo compartment for keys, phone, or MP3 player,
+Ten innovative programs offer a variety of work-outs, and Easy-Touch Control Keys.
+
+**Read from a 300 dpi render of that page, because the drawing is a picture and the key legends are
+not in the extracted text.** The stepper's key layout is not the elliptical's:
+
+- an **INCLINE up/down rocker** on the left handgrip and a **LEVEL +/- rocker** on the right, which
+  no XE machine on this card has;
+- a bottom row reading **FAN, START, LEVEL - / +, STOP, ENTER**;
+- program keys labelled **FAT BURN, CARDIO, STRENGTH, INTERVAL, USER-1, USER-2, HR**.
+
+**The LCD windows are the stepper's own**: CALORIES, TIME, **VERTICAL** (feet), a heart symbol beside
+a pulse figure, **INCLINE**, **LEVEL**, a steps/FPM figure, the dot-matrix profile, and a message line
+that in the drawing reads `FLOORS 48` with a **SCAN** indicator lit. There is no distance window and
+no speed window.
+
+**There is no DISPLAY key anywhere on this drawing**, which matters because the same manual's
+Bluetooth instruction tells you to press one:
+`xs895-console-bluetooth-on-off-on-a-key-the-drawing-never-shows`.

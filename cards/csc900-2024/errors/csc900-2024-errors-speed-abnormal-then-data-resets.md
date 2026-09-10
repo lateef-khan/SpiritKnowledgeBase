@@ -1,13 +1,14 @@
 ---
 id: csc900-2024-errors-speed-abnormal-then-data-resets
-title: The speed reads wrong and the data resets three seconds after stopping, and the light sensor is the cause
+title: The light sensor is why the speed window reads wrong or blank and the machine gives up after three seconds
 kind: troubleshooting
-question: Why does a Spirit CSC900-2024 stairclimber show an abnormal speed and then
-  reset the display?
+question: Why does a Spirit stair climber show a wrong or missing speed and then reset
+  the display three seconds later?
 asked_as:
 - my stairclimber speed reading is wrong
 - csc900 display resets a few seconds after i stop
 - speed jumps around on my spirit stair climber
+- csc880 stops three seconds after i press start
 keywords:
 - light sensor
 - speed abnormal
@@ -21,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
   - csc900-2024
   section: errors
   code: no-code
@@ -31,12 +33,16 @@ not_to_be_confused_with:
 - ces880-2025-errors-rpm-shows-zero
 see_also:
 - csc900-2024-errors-error-code-table
+- csc880-2025-errors-error-code-table
 - ces880-2025-errors-rpm-shows-zero
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: TROUBLESHOOTING, Problem / Reason / Method table on printed page 34. That
-    page is a flat picture with no text layer and was read from the rendered page at 500
-    dpi.
+  locator: 'CSC900 2024: TROUBLESHOOTING, Problem / Reason / Method table on printed
+    page 34; that page is a flat picture with no text layer and was read from the rendered
+    page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
+    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 6 on printed
+    page 34 (PDF page 36), read from the native text layer and confirmed against a 400
+    dpi render.'
   extracted_at: '2026-09-10'
 ---
 
@@ -56,3 +62,22 @@ gives no figure for it.
 wrong number.
 
 The five codes this machine does print are on `csc900-2024-errors-error-code-table`.
+
+## The CSC880 2025 stair climber prints the same cause with a blunter symptom
+
+Its row reads:
+
+> After pressing "START" to start, there is no data in the speed window, and the machine stops after
+> 3 seconds.
+
+Same cause - light sensor malfunction - and the same three checks, with one addition:
+
+> 3. Replace the light sensor (this phenomenon may also occur when no one is standing on the back
+>    step and the step cannot rotate).
+
+**That parenthesis is the check to make first, and it costs nothing.** A stair climber with nobody on
+the back step cannot turn, so the sensor sees nothing and the machine stops - which looks exactly
+like a failed sensor. Put someone on the machine before condemning the part.
+
+The CSC880 book calls the slotted part a **light grid**; the CSC900 book calls it a **grating**. It
+is one part.

@@ -2,8 +2,8 @@
 id: spirit-2026t-warranty-prisons-excluded
 title: Prisons and correctional facilities are excluded from cover
 kind: policy
-question: Is a Spirit treadmill, elliptical or bike under warranty in a prison or
-  correctional facility?
+question: Is a Spirit treadmill, elliptical, bike, climber, stepper or stair climber
+  under warranty in a prison or correctional facility?
 asked_as:
 - is the treadmill covered in a prison gym
 - does the warranty work in a correctional facility
@@ -23,8 +23,12 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - 70s-2025
   - 70t-2026
+  - 75s-2025
   - 80t-2026
+  - 85s-2025
+  - 85s-fit-2026
   - ab900-2018
   - ab950-2024
   - ce800-2021
@@ -48,9 +52,14 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
   - crw800-2024
+  - cs800-2021
   - cs800-2024
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   - ct800-2012
   - ct800-2016
@@ -75,7 +84,9 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - cvc800
   - jb950-2022
+  - ms300-2021
   - xbr55ent-2021
   - xbr95-2023
   - xbu55-2023
@@ -295,3 +306,30 @@ and the numbered item is item **8** of nine, in the "Product used in..." wording
 **A 2024 machine's printing date does not decide it, and neither does a Light Commercial table.** None of the fourteen prints a Light Commercial table; all fourteen print a *Commercial Limited Warranty* table, and all fourteen carry the exclusion. What these fourteen have in common is the commercial table itself.
 
 **On these fourteen prisons is the only environment excluded by name.** Their exclusion lists have no dues-paying item and no five-hour cap, so the rest of the use-environment answer has to come from the table's row labels: `spirit-2024-warranty-use-environment`.
+
+## Eleven of the thirteen Spirit climbers and steppers exclude prisons, and the two XS895 books state it nowhere
+
+**The clause reaches this range in December 2019**, on the CSC900 - and it arrives as a **numbered item only**. The CSC900 2019 warranty, effective **December 1, 2019**, prints *Product used in prisons and correctional facilities* as item **8** of eight and prints **no footnote** under its table. That is the earliest Spirit manual in this knowledge base to state the exclusion outside the indoor-cycle and air-bike range, two years before the November 30, 2021 date the XE, XG and XB ranges pick it up.
+
+| Machine | Footnote under the table | Exclusion item |
+|---|---|---|
+| XS895 2018, XS895 2021 | **none** | **none** |
+| CSC900 2019 | **none** | item **8** of eight |
+| CSC900 2021 | yes, with a leading asterisk | item **8** of eight |
+| CRS800S 2021, CS800 2021 | yes, with a leading asterisk | **none** - their item 8 is a use-environment cap instead |
+| CVC800 | yes, with a leading asterisk | item **9** of ten |
+| MS300 | yes, with a leading asterisk | **none** - its list is unnumbered and has no prisons bullet |
+| CSC880 2025 | yes, **no** leading asterisk | item **8** of nine |
+| 7.0S, 7.5S, 8.5S, 8.5S-Fit | yes, with a leading asterisk, printed **above** the table | item **8** of nine |
+
+**The two XS895 incline stepper manuals state the exclusion nowhere.** The words *prison* and *correctional* appear at no point in either document - no footnote under the warranty table, no numbered item. **Do not quote it to the owner of one.** Their item 8 is a use-environment cap instead (`spirit-ce850-warranty-exclusions`).
+
+**The CVC800 is the only machine in this range that prints it twice in the same list's numbering** - as the asterisked footnote and again as item 9, between the use-environment cap at 8 and the outside-the-US sentence at 10. Its sibling the CS800, printed a week earlier on the same template, prints the footnote and stops at nine items.
+
+**On the four 2025 and 2026 steppers the footnote is printed above the table, not below it**, between the *Commercial Warranty* heading and the column row - a footnote to a table it precedes. It carries a leading asterisk that matches no marker in the table.
+
+**The MS300 is the medical machine and its list is not numbered at all.** Prisons appears only in the table footnote; the unnumbered bullet list on the following two pages has no prisons item. There is no "exclusion 8" to cite on an MS300 (`ms300-2021-warranty-exclusions`).
+
+**This range confirms that the clause travels with the commercial table rather than with the printing date.** The two machines that omit it are the two whose table is headed *Light Commercial* and *Residential* rather than *Commercial* - the XS895 2018 and the XS895 2021 - and the February 2021 XS895 sits between the CSC900 2019 and the CRS800S 2021, both of which carry it. **It also pushes the earliest date back.** Wave 14 pinned the clause to November 30, 2021 on the XB and XE ranges; the CSC900 2019 states it almost two years earlier.
+
+**On nine of the eleven, prisons is the only environment excluded by name.** The exception is the CRS800S, CS800 and CVC800 trio, whose item 8 bars any environment other than a home or a non-dues-paying facility used five hours a day or less. The whole picture for this range is `spirit-climber-warranty-use-environment`.

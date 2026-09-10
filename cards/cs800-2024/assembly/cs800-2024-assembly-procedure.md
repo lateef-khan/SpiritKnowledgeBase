@@ -3,7 +3,7 @@ id: cs800-2024-assembly-procedure
 title: 'Four-stage build numbered zero to three: throw two bolts away, then rear
   stabilizer and mast, both handlebar loops, then covers and console'
 kind: procedure
-question: How do I assemble a Spirit CS800 (cs800-2024) stepper from the carton?
+question: How do I assemble a Spirit CS800 (cs800-2021 or cs800-2024) stepper from the carton?
 asked_as:
 - how do i put together the cs800
 - what order do i assemble the spirit stepper in
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: cs800-2024
+  model: '*'
   applies_to:
+  - cs800-2021
   - cs800-2024
   section: assembly
   code: '*'
@@ -113,3 +114,13 @@ table does type Button Head Socket Bolt, is used in item 3 and nowhere else.
 no step fits the two transport wheels the carton also lists. The setting-up page that
 follows is the first power-on only: connect the AC power cord and the console comes up
 by itself.
+
+## The 2021 printing is the same chapter but for one step
+
+`spirit-climber-cs800-2021-owners-manual`, pp. 8-13, prints step zero, step one, step
+two and step two continued unchanged, with all three hardware tables identical - the
+same **3/4"** typo on flat washer 100, the same **3/8 x 2-14"** on bolt 77 and the same
+counts. **Step three of the 2021 printing stops at item 3.** It has no item 4, so the
+water bottle holder on its own carton panel is never fitted and its own screw count of
+ten leaves two over. See
+[the water bottle holder card](../../cs800-2021/assembly/cs800-2021-assembly-water-bottle-holder-never-fitted.md).

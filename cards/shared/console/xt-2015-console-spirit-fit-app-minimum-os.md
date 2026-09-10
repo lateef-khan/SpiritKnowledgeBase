@@ -32,6 +32,8 @@ facets:
   - xe395-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt285-2015
   - xt385-2015
   - xt485-2015
@@ -82,3 +84,6 @@ the paragraph above.
 **No other Spirit residential bike states a minimum OS for this app.** The XBR25 and the XBR95 of
 every printing have no app section at all. The four 2023 bikes and both ENT bikes are Spirit+
 machines and need a newer OS: `xt-2023-console-spirit-plus-minimum-os`.
+
+**The Spirit XS895 incline stepper prints the same footnote** - XS895-2018 and XS895-2021,
+p. 30: a minimum of **iOS 7 or Android 4.4** for the Spirit Fit App to operate properly.

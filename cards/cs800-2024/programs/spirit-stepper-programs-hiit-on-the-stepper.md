@@ -2,7 +2,7 @@
 id: spirit-stepper-programs-hiit-on-the-stepper
 title: HIIT on a stepper targets 90 pedal rpm, warms up for three minutes at level 5 and cools down for two
 kind: procedure
-question: How do I set up the HIIT program on the Spirit cs800-2024 stepper?
+question: How do I set up the HIIT program on a Spirit CS800 stepper?
 asked_as:
 - how do i set up hiit on the stepper
 - how fast should i step during the sprint
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: cs800-2024
+  model: '*'
   applies_to:
+  - cs800-2021
   - cs800-2024
   section: programs
   code: '*'
@@ -37,7 +38,7 @@ see_also:
 - spirit-bike-programs-hiit-sprint-of-twenty-to-sixty-seconds
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 2024 printed page 27
+  locator: CS800 2021 printed pp. 27-28; CS800 2024 printed p. 27
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +70,9 @@ procedure, and names HIIT only as a caption on its strip of profile pictures. Se
 
 The 2024 CE850 elliptical prints this same ten-step procedure; the 2024 CE800, CR800 and CU800 stop
 at step 6 - see `spirit-2024-programs-hiit-procedure-stops-at-step-six`.
+
+**The 2021 CS800 prints the same ten steps**, the same 3-to-15 interval range, the same 20-to-60
+second sprint, the same 90 pedal rpm target and the same level-5 warm-up and rest.
+
+**Neither CRS800S printing has it.** The 2021 CRS800S names HIIT only as a picture caption, exactly
+as the 2024 one does.

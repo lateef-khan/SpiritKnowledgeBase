@@ -23,12 +23,17 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - 70s-2025
   - 70t-2026
+  - 75s-2025
   - 80t-2026
+  - 85s-2025
+  - 85s-fit-2026
   - ce850-2016
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -51,6 +56,8 @@ facets:
   - xe395ent-2021
   - xe895-2018
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -411,3 +418,14 @@ print this rule in the same words. **The other eight 2024 manuals have no ground
 CE800, CE800ENT, CR800, CR800ENT, CU800, CRS800S, CSC900 and CRW800. The CSC900 states the rule as
 item 4 of its safety list instead and forbids any adapter
 (`csc900-2024-safety-outlet-120-or-230-volt`).
+
+**Seven more Spirit climbers print this instruction.** The CS800-2021 stepper on its printed page 6,
+the XS895 incline stepper on printed page 6 of both the 2018 and 2021 books, and the 7.0S, 7.5S,
+8.5S and 8.5S-Fit steppers on their printed page 7. The four stepper books open it as
+`In the unlikely event that the 8.5S's electrical system should malfunction or breakdown` where the
+older books say `If the ... should malfunction or breakdown`; the instruction is the same.
+
+**The stair climbers print no grounding page at all.** The CSC900 books of 2019, 2021 and 2024 and
+the CSC880-2025 carry the grounding sentences only as items of their safety list, and those items
+forbid an adapter outright (`csc900-2024-safety-outlet-120-or-230-volt`,
+`spirit-climber-safety-outlet-120-vac-only`). Neither CRS800S printing has a grounding page either.

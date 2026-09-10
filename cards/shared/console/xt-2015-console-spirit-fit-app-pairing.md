@@ -34,6 +34,8 @@ facets:
   - xe395-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt285-2015
   - xt385-2015
   - xt485-2015
@@ -129,3 +131,12 @@ cloud services are supported, their manual no longer says.
 no Bluetooth and no USB anywhere; the XBR95 of 2016, 2018 and 2021 names none either. All four 2023
 bikes and both ENT bikes run **Spirit+** instead:
 `xt-2023-console-spirit-plus-app-pairing`.
+
+**The Spirit XS895 incline stepper prints this section word for word** - XS895-2018 p. 29-30
+and XS895-2021 p. 29-30, headed **USING THE SPIRIT APP** over a sub-heading **Using the Spirit Fit
+App** - so this card now covers a stepper as well. Same five steps, same Bluetooth transceiver, same
+three display screens, same automatic save to the built-in calendar, and the same cloud list:
+**iHealth, MapMyFitness, Record or Fitbit**.
+
+**Search for this section with a loose word.** `pdftotext` letter-spaces the heading in some Spirit
+books, so a grep for the exact phrase can return nothing while the section sits there in full.

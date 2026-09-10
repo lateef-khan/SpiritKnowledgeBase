@@ -2,8 +2,8 @@
 id: spirit-2024-safety-instructions-list-stepper
 title: The stepper safety list that is the CE850 elliptical page with 15 amps in its header
 kind: policy
-question: What does the SAFETY INSTRUCTIONS page say for a Spirit CRS800S-2024 semi-recumbent
-  stepper or CS800-2024 stepper?
+question: What does the safety instructions page say for a Spirit CRS800S semi-recumbent stepper
+  or CS800-2024 stepper?
 asked_as:
 - what are the safety rules for the crs800s or cs800
 - safety instructions page of the stepper manual
@@ -26,6 +26,7 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   - cs800-2024
   section: safety
@@ -35,6 +36,7 @@ not_to_be_confused_with:
 - spirit-ce850-safety-instructions-list
 - csc900-2024-safety-instructions-list
 - ce800ent-2024-safety-instructions-list
+- spirit-climber-safety-instructions-list-2021-stepper-and-climber
 see_also:
 - spirit-2024-safety-outlet-110-volt-15-amp-stepper
 - spirit-ct800-safety-user-weight-limit-450-lbs
@@ -45,7 +47,9 @@ see_also:
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
   locator: SAFETY INSTRUCTIONS, printed page 5 (PDF page 7); the CS800-2024 owner's manual prints
-    the same page on its printed page 5, differing in one word only
+    the same page on its printed page 5, differing in one word only; the CRS800S-2021 owner's
+    manual prints the same fifteen items and the same 15-amp header on its printed pages 4 and 5
+    (PDF pages 6 and 7)
   extracted_at: '2026-09-10'
 ---
 
@@ -101,6 +105,19 @@ fifteen items, same order, same extension-cord line. Two words differ, and one o
 **Never carry the 5-amp figure onto a stepper or the 15-amp figure onto a CE850.** The stepper
 manuals' own electrical page then asks for a **5-amp** breaker, which does not agree with the
 15-amp outlet in this header; see `spirit-2024-safety-outlet-110-volt-15-amp-stepper`.
+
+## The CRS800S said 15 amps three years before the CS800 did
+
+The CRS800S-2021 owner's manual, checked on a 300 dpi render of its printed page 4, already prints
+`a 110-volt, 15-amp grounded outlet` above the same 5-amp breaker sentence. Its fifteen items are
+this page's fifteen items in the same order, and its item 15 reads `User Weight Limit: 450 lb`, the
+CRS800S wording.
+
+**The CS800-2021 did not.** Its header reads `a 110-volt, 5-amp grounded outlet`, matching its own
+breaker sentence, so the CS800 book was internally consistent in 2021 and stopped being so in 2024
+(`spirit-climber-safety-instructions-list-2021-stepper-and-climber`,
+`spirit-climber-safety-outlet-110-volt-5-amp`). The 15-amp header is therefore a CRS800S change that
+the CS800 picked up three years later, not a change the 2024 range made together.
 
 **The CSC900 stairclimber's list is a different list entirely** - eight items written for a
 commercial gymnasium, a 400 lb limit and a 120/230 VAC input

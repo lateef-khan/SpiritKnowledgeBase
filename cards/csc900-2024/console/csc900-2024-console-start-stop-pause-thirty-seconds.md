@@ -21,8 +21,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2021
   - csc900-2024
   section: console
   code: '*'
@@ -60,3 +62,11 @@ their readings for 5 minutes and return speed and incline to their previous sett
 
 **The manual prints no hold-to-reset and no step-back-during-data-entry behaviour** for this key, and
 does not say whether the workout data survives the 30 seconds.
+
+**The CSC900-2021 and the CSC880-2025 print this paragraph word for word** - CSC900-2021
+printed p. 15 and CSC880-2025 printed p. 19 - so the thirty-second pause and the restart at
+resistance level one are four years older than the 2024 book and are still current in 2025.
+
+**The CSC900-2019 is the printing to keep off this card.** Its pause holds the staircase locked with
+no time limit at all:
+`csc900-2019-console-pause-locks-the-staircase-with-no-time-limit`.

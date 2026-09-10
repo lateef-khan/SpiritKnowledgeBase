@@ -52,6 +52,8 @@ facets:
   - xe795-2023
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -127,3 +129,8 @@ difference about age, not about calories.
 weight is what brings the estimate closer, and the last weight entered becomes the default for
 whoever uses the machine next:
 `spirit-xe-console-the-last-age-and-weight-entered-becomes-the-new-default`.
+
+**The Spirit XS895 incline stepper prints the CALORIE NOTE word for word** - XS895-2018 and
+XS895-2021, p. 19, under PROGRAMMING THE CONSOLE - so this card now covers a stepper as well,
+including the claim that you keep burning at an accelerated rate for **at least an hour** after
+finishing.

@@ -3,7 +3,7 @@ id: csc900-2024-assembly-tools-included
 title: Two tools in the carton, a 5mm and a 6mm Allen wrench, and no screwdriver for
   the six screws step four calls for
 kind: fact
-question: What tools are supplied to assemble a Spirit CSC900 (csc900-2024)
+question: What tools are supplied to assemble a Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024)
   stairclimber?
 asked_as:
 - what tools come with the csc900
@@ -23,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: assembly
   code: '*'
@@ -75,3 +77,19 @@ levellers as callout I and no page in the book says how to adjust one. See
 ## Nothing here is a torque wrench
 
 No step of this build gives a torque figure.
+
+## Three printings, and only one row ever changed
+
+`spirit-climber-csc900-2019-owners-manual` (pp. 7-12) and
+`spirit-climber-csc900-2021-owners-manual` (pp. 7-12) print this chapter unchanged from
+the 2024 book, step for step and table for table, including the M6/M8 disagreement in
+step one. Compared from the three PDFs' own text.
+
+**One row moved.** The handrail-cover screw is **M4 x 25L** in the 2019 printing - in
+its table, in its step text and on its drawing - and **M4 x 30L** in the 2021 and 2024
+printings. See
+[the handrail cover screw card](../../csc900-2019/assembly/csc900-2019-assembly-handrail-cover-screw-m4-x-25.md)
+before ordering one for a 2019 machine.
+
+The 2024 book also adds the five-connector wire diagram under step four. Neither the
+2019 nor the 2021 printing has it; their step four ends at item 3.

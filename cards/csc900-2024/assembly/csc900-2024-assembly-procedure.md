@@ -3,7 +3,7 @@ id: csc900-2024-assembly-procedure
 title: 'Four-step stairclimber build: console mast and column group, step base, both
   handlebar loops, then console and handrail covers'
 kind: procedure
-question: How do I assemble a Spirit CSC900 (csc900-2024) stairclimber from the carton?
+question: How do I assemble a Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024) stairclimber from the carton?
 asked_as:
 - how do i put together the csc900
 - what order do i assemble the stair climber in
@@ -22,8 +22,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: assembly
   code: '*'
@@ -91,7 +93,8 @@ bolts in this step go in bare.*
    pins and colours according to the diagram on the following page - see
    [the wire chart](csc900-2024-assembly-step-four-wire-pins-and-colours.md).
 2. Secure the handlebars on each side using **2 ST4.2*15L screws**.
-3. Attach the **Handrail Covers** on each side using **4 M4*30L screws**.
+3. Attach the **Handrail Covers** on each side using **4 M4*30L screws** - **M4*25L on
+   the 2019 printing**, which says 25 in its table, its step text and its drawing alike.
 
 **The carton holds no screwdriver for items 2 and 3.** Its only two tools are a 5mm and
 a 6mm Allen wrench. See [the tools card](csc900-2024-assembly-tools-included.md).
@@ -108,3 +111,19 @@ directly by QUICK START, which carries the Power Input drawing and nothing else 
 putting the machine together. No step fits a leveller, and the book prints no moving or
 transport procedure. See
 [the absence card](csc900-2024-assembly-no-levelling-or-moving-instruction.md).
+
+## Three printings, and only one row ever changed
+
+`spirit-climber-csc900-2019-owners-manual` (pp. 7-12) and
+`spirit-climber-csc900-2021-owners-manual` (pp. 7-12) print this chapter unchanged from
+the 2024 book, step for step and table for table, including the M6/M8 disagreement in
+step one. Compared from the three PDFs' own text.
+
+**One row moved.** The handrail-cover screw is **M4 x 25L** in the 2019 printing - in
+its table, in its step text and on its drawing - and **M4 x 30L** in the 2021 and 2024
+printings. See
+[the handrail cover screw card](../../csc900-2019/assembly/csc900-2019-assembly-handrail-cover-screw-m4-x-25.md)
+before ordering one for a 2019 machine.
+
+The 2024 book also adds the five-connector wire diagram under step four. Neither the
+2019 nor the 2021 printing has it; their step four ends at item 3.

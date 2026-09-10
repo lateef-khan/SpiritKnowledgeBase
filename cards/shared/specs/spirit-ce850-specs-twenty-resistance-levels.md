@@ -3,7 +3,7 @@ id: spirit-ce850-specs-twenty-resistance-levels
 title: 20 levels of resistance, in four bands of five
 kind: spec
 question: How many resistance levels does a Spirit CE850 commercial elliptical, a Spirit
-  CS800 or CRS800S commercial stepper, or a Spirit XE195, XE295, XE395, XE895 or XG400
+  CS800, CRS800S or XS895 stepper, or a Spirit XE195, XE295, XE395, XE895 or XG400
   home machine, have?
 asked_as:
 - how many resistance levels on the ce850
@@ -30,7 +30,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - xe195-2019
   - xe195-2021
@@ -43,6 +45,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: specs
   code: '*'
 authority: 3
@@ -66,15 +70,18 @@ source:
     p. 18, XE295-2021 p. 19, XE395ENT-2021 p. 19, XE395-2023 p. 18, XE195-2019 p.
     18, XG400-2019 p. 18, XE295-2019 p. 19, XE395-2018 p. 20 and XE895-2018 p. 21;
     and on the 2024 New Black Units machines CE850-2024 printed p. 17 (PDF p. 19), CRS800S-2024
-    printed p. 16 (PDF p. 18) and CS800-2024 printed p. 16 (PDF p. 18)'
+    printed p. 16 (PDF p. 18) and CS800-2024 printed p. 16 (PDF p. 18); and on the
+    2018-2021 climbers XS895-2018 printed p. 17, XS895-2021 printed p. 17, CRS800S-2021
+    printed p. 17 and CS800-2021 printed p. 17'
   extracted_at: '2026-09-09'
 ---
 
-**20 levels.** Level 1 is the easiest. Seventeen Spirit machines share this
-figure: **all four commercial CE850 printings**, **the two 2024 commercial
-steppers - the CS800 and the CRS800S** - and eleven residential ellipticals: both
-XE195 printings, both XE295 printings, both XG400 printings, the XE895-2018 and
-all four XE395s (2010, 2018, ENT-2021 and 2023).
+**20 levels.** Level 1 is the easiest. Twenty-one Spirit machines share this
+figure: **all four commercial CE850 printings**, **six steppers and incline
+steppers - the CS800 and CRS800S of 2021 and of 2024, and the XS895 of 2018 and
+2021** - and eleven residential ellipticals: both XE195 printings, both XE295
+printings, both XG400 printings, the XE895-2018 and all four XE395s (2010, 2018,
+ENT-2021 and 2023).
 
 The manuals describe the levels in four bands of five, and the two families print
 the band edges one level apart:
@@ -86,11 +93,20 @@ the band edges one level apart:
 | third | 10 to 15 | 11 to 15 | start getting tough, the levels jump more dramatically |
 | hardest | 15 to 20 | 16 to 20 | extremely hard; good for short interval peaks and elite athletic training |
 
-**The two 2024 steppers print the residential band edges, not the CE850's.** The
-CS800-2024 and CRS800S-2024 paragraphs read "The first 5 levels ... Levels 6-10 ...
-Levels 11-15 ... Levels 16-20 are extremely difficult", word for word with the XE
-and XG books. They do not carry the CE850's "displayed as 10 rows of lights"
-clause.
+**All six steppers print the residential band edges, not the CE850's.** The
+CS800 and CRS800S paragraphs of 2021 and of 2024, and both XS895 printings, read
+"The first 5 levels ... Levels 6-10 ... Levels 11-15 ... Levels 16-20", word for
+word with the XE and XG books. They do not carry the CE850's "displayed as 10
+rows of lights" clause.
+
+**The stepper paragraph did not change between 2021 and 2024.** The only
+difference anywhere in the six is the last two words: the CS800 and CRS800S say
+levels 16-20 are "extremely difficult" and both XS895 printings say "extremely
+hard". Nothing else moved.
+
+**The XS895 is an incline stepper, and these 20 levels are its resistance scale.**
+Its manual also has an incline control and an incline calibration, and it states
+no count for the incline. Do not read 20 as an incline range.
 
 **Only the CE850 books add "displayed as 10 rows of lights"** to the sentence.
 All four CE850 printings do, the 2024 one included. The
@@ -104,6 +120,11 @@ rewrite of the XE395 changed only "extremely hard" to "extremely difficult". The
 2018 and 2019 printings - XE395-2018, XE895-2018, XE195-2019, XE295-2019 and
 XG400-2019 - carry the paragraph unchanged, so the figure is stable across every
 printing of these machines.
+
+**`xs895-2018` and `xe895-2018` are two different machines.** The XS895 is an
+incline stepper and the XE895 is an elliptical; their model ids differ by one
+letter and both are on this card. Read the letter before you quote a figure that
+is not on this card - see `spirit-climber-specs-xs895-is-not-the-xe895`.
 
 **The XE895-2018 has 20 resistance levels and a separate powered stride**, set per
 segment in the custom programs. Its stride level is a different control and a

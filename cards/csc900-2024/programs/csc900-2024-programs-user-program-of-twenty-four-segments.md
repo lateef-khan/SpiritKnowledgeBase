@@ -2,7 +2,7 @@
 id: csc900-2024-programs-user-program-of-twenty-four-segments
 title: The User Program customises all twenty-four segments of the dot matrix display
 kind: procedure
-question: How do I build my own program on the Spirit csc900-2024 stairclimber?
+question: How do I build my own program on a Spirit stairclimber?
 asked_as:
 - how do i make my own stairclimber workout
 - how many segments can i set
@@ -19,8 +19,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -32,7 +35,7 @@ see_also:
 - csc900-2024-programs-target-training-goals-and-ranges
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed page 30
+  locator: CSC900 2019 printed p. 27; CSC900 2021 p. 31; CSC900 2024 p. 30; CSC880 2025 p. 27
   extracted_at: '2026-09-10'
 ---
 
@@ -52,3 +55,7 @@ whether the program can be named. Those questions are not answered for this mach
 the answers across from the Spirit steppers, whose Custom programs are built quite differently and
 hold **twenty** segments, not twenty-four - see
 `spirit-stepper-programs-two-custom-programs-named-after-the-user`.
+
+**Identical in all four stairclimber manuals**, six steps and no more, from the 2019 CSC900 through
+the 2025 CSC880. Six years of printings and none of them ever says how the 24 segment levels are
+actually entered.

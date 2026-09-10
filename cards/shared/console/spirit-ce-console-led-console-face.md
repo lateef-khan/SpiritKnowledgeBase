@@ -30,6 +30,8 @@ facets:
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - crs800s-2021
+  - cs800-2021
   - cu800-2021
   section: console
   code: '*'
@@ -84,3 +86,17 @@ for the USB charger.
 `spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack` and
 `ce900-2025-console-screen-overview`. The CU800-2012 is a different console again:
 `spirit-ce-console-blue-led-console-face`.
+
+**The 2021 CRS800S and CS800 wear this console face already** - CRS800S-2021 printed p. 17
+and CS800-2021 printed p. 16 - so this card now covers a stepper and a semi-recumbent stepper as
+well. Both drawings label the same seven things: **Scan Button for LED Windows**, **LED Data Display
+Windows**, **Scan Button for Dot Matrix**, **Dot Matrix Message Center**, **Up, Down, Program
+Controls**, **Fan**, **USB Charger** and **Start, Stop, Level Controls**.
+
+**The two drawings differ in one label only.** The CS800's lower LED row reads **VERTICAL DISTANCE**,
+WATTS, METs, TIME REMAINING; the CRS800S's reads plain **DISTANCE**, WATTS, METs, TIME REMAINING -
+the same split their text prints
+(`spirit-stepper-console-led-data-windows-steps-and-vertical-distance`).
+
+**Neither 2021 drawing labels a quarter-mile track ring**, though both manuals describe one in text
+(`ct900-quarter-mile-track-display`), and neither labels a safety tether socket or a heart rate grip.

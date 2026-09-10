@@ -2,7 +2,8 @@
 id: 80t-2026-maintenance-cleaning-cautions
 title: What must never be used to clean the machine, and the alcohol contradiction
 kind: policy
-question: What cleaners are not allowed on a Spirit 80t-2026 rehabilitation treadmill?
+question: What cleaners are not allowed on a Spirit rehabilitation treadmill or 8.5S
+  stepper?
 asked_as:
 - can i use bleach on this treadmill
 - is an alcohol wipe safe on the console
@@ -22,10 +23,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
-  model: 80t-2026
+  product_line: '*'
+  model: '*'
   applies_to:
   - 80t-2026
+  - 85s-2025
+  - 85s-fit-2026
   section: maintenance
   code: '*'
 authority: 3
@@ -33,9 +36,14 @@ not_to_be_confused_with: []
 see_also:
 - 80t-2026-maintenance-disinfection-procedure
 - 80t-2026-maintenance-cleaning-schedule
+- spirit-85s-maintenance-machine-care-schedule
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: p. 62 "Cleaning Instructions" and p. 64 "Warning"
+  locator: 'p. 62 "Cleaning Instructions" and p. 64 "Warning" (PDF p. 64 and p. 66). Both
+    blocks, word for word, are spirit-climber-85s-2025-owners-manual printed p. 57 and p. 58
+    (PDF p. 59 and p. 60) and spirit-climber-85s-fit-2026-owners-manual printed p. 48 and
+    p. 49 (PDF p. 50 and p. 51). Measured from the PDF pages; the cleaning instructions match
+    at difflib word level 0.992, the difference being two spaces the 8.0T sets differently'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,6 +84,18 @@ Page 61 instructs you to prepare **20 ml of 70% or greater isopropyl alcohol** a
 refers to the other. Do not answer from one half alone; quote both and refer the customer to Spirit
 Fitness service before choosing.
 
+**The 8.5S 2025 and the 8.5S-FIT 2026 carry the same contradiction**, two pages apart instead of
+three: their disinfection steps are on printed p. 56 and this warning list on printed p. 58.
+
 The steps 1 and 3 above are the same instructions the page-62 schedule table sits under —
 `80t-2026-maintenance-cleaning-schedule`. Note that step 3 says "textured **pedals**" on a
 treadmill; the schedule table one page later says "textured **belt**" for the same task.
+
+## The two 8.5S steppers print both blocks word for word
+
+The **8.5S 2025** and the **8.5S-FIT 2026** print the same three cleaning instructions and the same
+nine warnings, under the same headings, on their own MACHINE CARE pages. On those two machines step
+3's "textured **pedals**" is literal — they have pedals — and it is their own period table that
+carries the mismatched task, asking for **tread belt cleaning** on a machine with no tread belt
+(`spirit-85s-maintenance-machine-care-schedule`). The two books swapped which half of the pair is
+wrong.

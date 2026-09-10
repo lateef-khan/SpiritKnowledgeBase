@@ -34,6 +34,7 @@ not_to_be_confused_with:
 - spirit-ce-programs-five-preset-work-level-profiles
 - spirit-bike-programs-five-presets-of-which-four-are-described
 see_also:
+- spirit-stepper-programs-the-program-count-the-manual-claims-changes-with-the-printing
 - spirit-stepper-programs-preset-setup-asks-age-weight-time-and-a-max-level
 - spirit-stepper-programs-hiit-on-the-stepper
 - spirit-stepper-programs-heart-rate-keys-of-sixty-five-and-eighty-percent

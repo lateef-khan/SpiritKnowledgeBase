@@ -8,7 +8,8 @@ question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 
   Spirit CR800, CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, a
   Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, or
   a Spirit CIC800, CIC850 or XIC600 indoor cycle, a Spirit CRS800S semi-recumbent
-  stepper or CS800 stepper, or a Spirit CRW800 rower, that rocks or squeaks?
+  stepper, CS800 stepper, XS895 incline stepper, CVC800 vertical climber, 7.0S or 7.5S
+  rehabilitation stepper, or a Spirit CRW800 rower, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -29,6 +30,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 70s-2025
+  - 75s-2025
   - ce800-2021
   - ce800-2023
   - ce800-2024
@@ -50,6 +53,7 @@ facets:
   - cr900ent-2021
   - crs800s-2024
   - crw800-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2016
   - ct800-2024
@@ -66,6 +70,7 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - cvc800
   - xbr25-2019
   - xbr25-2023
   - xbr55-2019
@@ -92,6 +97,8 @@ facets:
   - xg400-2021
   - xic600-2018
   - xic600-2021
+  - xs895-2018
+  - xs895-2021
   section: assembly
   code: '*'
 authority: 3
@@ -189,7 +196,14 @@ source:
     `spirit-bike-cr800ent-2024-owners-manual`, `spirit-bike-cu800-2024-owners-manual`),
     the CRS800S and CS800 (`spirit-climber-crs800s-2024-owners-manual`,
     `spirit-climber-cs800-2024-owners-manual`) and the CRW800
-    (`spirit-rower-crw800-2024-owners-manual`)
+    (`spirit-rower-crw800-2024-owners-manual`); and word for word again on six Spirit
+    climbers and steppers, in the same noise item - p. 34 of both XS895 printings
+    (`spirit-climber-xs895-2018-owners-manual`,
+    `spirit-climber-xs895-2021-owners-manual`), p. 27 of the CVC800 vertical climber
+    (`spirit-climber-cvc800-2021-owners-manual`), p. 37 of the CS800 2021
+    (`spirit-climber-cs800-2021-owners-manual`), p. 38 of the 7.0S
+    (`spirit-climber-70s-2025-owners-manual`) and p. 40 of the 7.5S
+    (`spirit-climber-75s-2025-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -395,3 +409,26 @@ CE800 and CE800ENT cartons hold a 13/14mm, the CE850 a 13/14mm and a 12/14mm, th
 CR800, CR800ENT and CU800 a 12/14mm, the CRS800S a 12/14mm and a 13/14mm, the CS800 a
 13/14mm and a 12/14mm, and the CRW800 a 13/14mm. Every one of those except the
 treadmills' will open to 14; the four treadmill owners need a wrench they supply.
+
+## Six of the thirteen climber and stepper manuals of 2026's wave print it
+
+The **XS895** (both printings), the **CVC800**, the **CS800 2021**, the **7.0S** and
+the **7.5S** print this sentence word for word as the last remedy in their noise item.
+
+**Seven of the thirteen do not, and three of those print a figure that contradicts it.**
+Do not carry 2 pads and 14mm onto any of them:
+
+- the **CRS800S 2021** says 2 pads on the front and 2 on the back, and names no wrench -
+  see [that card](../../crs800s-2021/maintenance/crs800s-2021-maintenance-four-pads-front-and-back.md);
+- the **MS300** prints this sentence with a **½" wrench** in place of the 14mm;
+- the **8.5S** and **8.5S-Fit** say 2 pads under the bottom of the **front and rear**
+  stabiliser and then give a top-nut procedure -
+  see [that card](../../shared/maintenance/spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads.md);
+- the **CSC900** (2019, 2021 and 2024) and the **CSC880** print no levelling
+  instruction at all - see
+  [that card](../../csc900-2024/assembly/csc900-2024-assembly-no-levelling-or-moving-instruction.md).
+
+**The 7.0S and 7.5S contradict themselves.** Their setting-up page says six levellers -
+two centre and four corner - and a **½" wrench**, and this noise item on the same book's
+maintenance page says two pads and a 14mm wrench. See
+[the setting-up card](../../shared/assembly/spirit-rehab-stepper-assembly-levelling-six-glides.md).

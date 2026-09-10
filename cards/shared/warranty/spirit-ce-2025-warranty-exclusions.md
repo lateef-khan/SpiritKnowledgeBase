@@ -5,8 +5,8 @@ title: The nine-item exclusion list that drops the outright exclusion of an unre
 kind: policy
 question: What is not covered by the Spirit warranty under the 2024 terms - on a CE900,
   CES880, CE800, CE850 or CE800ENT elliptical, a CR900, CU900, CU800ENT, CR800, CU800
-  or CR800ENT bike, a CT800, CT850, CT800ENT or CT850ENT treadmill, a CRS800S, CS800
-  or CSC900 climber, or a CRW800 rower?
+  or CR800ENT bike, a CT800, CT850, CT800ENT or CT850ENT treadmill, a CRS800S, CS800 or CSC900 climber, a CSC880 stair climber, a 7.0S, 7.5S,
+  8.5S or 8.5S-Fit stepper, or a CRW800 rower?
 asked_as:
 - what voids the ces880 warranty
 - is damage from a bad repair covered
@@ -28,6 +28,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 70s-2025
+  - 75s-2025
+  - 85s-2025
+  - 85s-fit-2026
   - ce800-2024
   - ce800ent-2024
   - ce850-2024
@@ -39,6 +43,7 @@ facets:
   - crs800s-2024
   - crw800-2024
   - cs800-2024
+  - csc880-2025
   - csc900-2024
   - ct800-2024
   - ct800ent-2024
@@ -119,3 +124,13 @@ The CR900 2025 and CU900 2025 print this list word for word - the comparison is 
 **The other eight print item 2 in full**, with the "ordinary household or light commercial use" clause: the CT800, CT850, CE800, CE850, CR800, CU800, CSC900 and CRW800. On those eight the clause still contradicts nothing in the table, because the 2024 tables print no dues-paying row for it to argue with.
 
 **None of the fourteen excludes a dues-paying facility.** Their predecessors did, at item 9 of a ten-item list (`spirit-ct800-warranty-exclusions`). The 2024 books state no period for one and no exclusion of one; `spirit-2024-warranty-use-environment` sets out what to tell a customer.
+
+## The CSC880 and the four 2025-and-2026 steppers print the same nine items
+
+**The CSC880 2025, the 7.0S, the 7.5S, the 8.5S and the 8.5S-Fit carry this list unchanged**, under the same *What is not covered?* heading on their WARRANTY - CONTINUED page. One word moves: item 2's noun reads **units** on the CSC880 and **Recumbent Stepper** on the four steppers, where the 2024 manuals read *units*. Nothing else differs across the five.
+
+**Item 2 is complete on the printed page of all five.** This was checked rather than assumed: the CSC880's exclusion page (PDF p. 41) and the 8.5S's (PDF p. 66) were rendered at 300 dpi and read with `tesseract --psm 4`, and both end the item at "...or units not in ordinary household or light commercial use" / "...or Recumbent Stepper not in ordinary household or light commercial use". **Neither shows the "...or units" break** that six of the autumn-2024 manuals show. So the truncation was a defect of that reissue and it did not survive into the 2025 books.
+
+**Item 6 has dropped the outright exclusion of an unregistered machine here too**, so an unregistered CSC880 or 8.5S is not excluded by this list - only a proof of purchase may be asked for. Its predecessors the CSC900 2019 and 2021 still exclude one outright at their item 6 (`spirit-csc900-warranty-exclusions`).
+
+**Item 8 is prisons on all five**, and on the four steppers it is the second half of a fact whose first half - the asterisked footnote - is printed **above** their warranty table rather than below it (`spirit-2026t-warranty-prisons-excluded`).

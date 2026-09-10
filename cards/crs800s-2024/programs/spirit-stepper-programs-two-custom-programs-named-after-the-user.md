@@ -2,7 +2,7 @@
 id: spirit-stepper-programs-two-custom-programs-named-after-the-user
 title: Two Custom programs, CUS1 and CUS2, each holding a seven character name and twenty segments
 kind: procedure
-question: How do I build and save a Custom program on the Spirit crs800s-2024 recumbent stepper, which has two Custom programs?
+question: How do I build and save a Custom program on a Spirit CRS800S recumbent stepper, which has two Custom programs?
 asked_as:
 - how do i make my own workout on the recumbent stepper
 - can two people save a program
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: programs
   code: '*'
@@ -36,7 +37,7 @@ see_also:
 - spirit-stepper-programs-preset-setup-asks-age-weight-time-and-a-max-level
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
-  locator: CRS800S 2024 printed page 26
+  locator: CRS800S 2021 printed pp. 26-27; CRS800S 2024 printed p. 26
   extracted_at: '2026-09-10'
 ---
 
@@ -64,3 +65,6 @@ you personalise the program by adding **your name**.
    been set**.
 10. Press **Enter** to save. The Center says **"Program Saved"**, then offers to start or modify.
     **Stop** exits to the start-up screen.
+
+**The 2021 CRS800S prints the same ten steps**, the same CUS1/CUS2 slots, the same seven-character
+cap and the same twenty segments.

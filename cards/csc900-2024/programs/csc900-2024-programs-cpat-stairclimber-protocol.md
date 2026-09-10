@@ -2,7 +2,7 @@
 id: csc900-2024-programs-cpat-stairclimber-protocol
 title: The CPAT test - twenty seconds at 50 steps a minute, then three minutes at 60, pass or fail
 kind: procedure
-question: How does the CPAT fitness test work on the Spirit csc900-2024 stairclimber?
+question: How does the CPAT fitness test work on a Spirit stairclimber?
 asked_as:
 - what is the cpat test
 - firefighter cpat on the stairclimber
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -36,7 +37,7 @@ see_also:
 - csc900-2024-programs-seven-buttons-and-a-fitness-tests-button
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed page 24 (PDF page 26)
+  locator: CSC900 2021 printed pp. 23-24 (PDF 25-26); CSC900 2024 printed p. 24 (PDF 26)
   extracted_at: '2026-09-10'
 ---
 
@@ -68,3 +69,10 @@ down; the stairs simply stop and lock.
 
 *The console spells the test **CAPT** in the button instruction at step 2 and **CPAT** everywhere
 else. Recorded as printed.*
+
+**The 2021 CSC900 prints this test identically**, including the same **CAPT** misspelling at step 2.
+
+The **2019 CSC900** has no Fitness Tests button and no CPAT page. The **2025 CSC880** has a FITNESS
+TEST key on its console overlay but prints no CPAT page either - see
+`csc880-2025-programs-five-profiles-a-target-and-a-user-button`. Do not serve this card for a
+CSC880.

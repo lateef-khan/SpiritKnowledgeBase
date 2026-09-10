@@ -3,7 +3,9 @@ id: spirit-ce850-warranty-exclusions
 title: The exclusion list whose item 8 caps use at 5 hours a day in a non-dues-paying
   facility
 kind: policy
-question: What is not covered by the Spirit CE850 elliptical trainer warranty?
+question: What is not covered by the Spirit CE850, XE295, XE395, XE795, XE895 or
+  XG400 elliptical warranty, by the Spirit XS895 incline stepper warranty, or by the
+  Spirit CRS800S, CS800 or CVC800 warranty?
 asked_as:
 - what voids my ce850 warranty
 - is the elliptical covered in a health club
@@ -22,12 +24,15 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - crs800s-2021
+  - cs800-2021
+  - cvc800
   - xe295-2019
   - xe295-2021
   - xe395-2018
@@ -37,6 +42,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: warranty
   code: '*'
 authority: 3
@@ -118,3 +125,17 @@ The **XE295** (2019 and 2021), the **XE395** 2018, the **XE395ENT**, the **XE795
 **Four XE manuals are deliberately not on this card.** The **XE195** - in its 2019 printing as in its 2021 one - and the **XE395 2010** replace item 8 with a bare *Product use in any environment other than a residential setting* and read *outside of North America* in the last item, so their envelope is narrower (`spirit-xe-warranty-exclusions-residential-setting-only`). The **XE395 2023** and **XE795 2023** drop the first sentence of item 6, so an unregistered machine is no longer excluded outright (`spirit-xe-2023-warranty-exclusions`). Quoting this list for any of those would state a rule their manual does not.
 
 The XE and XG periods governed by this list are in `spirit-xe-warranty-residential-periods-ten-year-parts` and `spirit-xe795-warranty-light-commercial-periods`.
+
+## Five Spirit climbers and steppers print the same list
+
+**The two XS895 incline stepper manuals, the CRS800S 2021, the CS800 2021 and the CVC800 carry these nine items**, word for word, with one substitution: the noun in item 2 follows the machine. It reads *elliptical trainer* on the ellipticals, **Incline Stepper** on the two XS895 books, **stepper** on the CRS800S and CS800, and **Vertical Climber** on the CVC800. Nothing else in the nine changes.
+
+**Item 8 is the reason these five sit here.** The same two conditions apply - a home or a non-dues-paying facility, and no more than **five hours of use per day**. On the XS895 the row label repeats the cap; on the other three the table says only *Commercial (Non-Dues Paying Facilities)* and the five-hour limit is stated **only** in item 8, where a customer reading the table alone will not find it (`spirit-climber-warranty-use-environment`).
+
+**The CVC800 is the ten-item variant, exactly as the CE850 2020 and 2022 are.** It inserts the same sentence between items 8 and 9 -
+
+> 9. Prisons and correctional facilities are excluded from warranty coverage.
+
+- and the outside-the-US sentence becomes item 10. **It is the only one of the five that mentions prisons in its list at all**, and the only one that says so twice, since it also prints the asterisked footnote under its table (`spirit-2026t-warranty-prisons-excluded`). The CRS800S and CS800 print the footnote and keep a nine-item list; **the two XS895 manuals print neither.**
+
+**Item 2 is complete on all five**, ending "...or [machine] not in ordinary household or light commercial use". The truncation at "...or units" that six of the autumn-2024 manuals show on the printed page - including the **2024** CRS800S and CS800 - is **not** in their 2021 predecessors. The defect belongs to the 2024 reissue, not to the template.

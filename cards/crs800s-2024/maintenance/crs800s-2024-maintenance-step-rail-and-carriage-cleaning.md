@@ -3,8 +3,8 @@ id: crs800s-2024-maintenance-step-rail-and-carriage-cleaning
 title: Cleaning the step rails and pedal carriage wheels behind the mast and center
   covers
 kind: procedure
-question: The pedals on a Spirit crs800s-2024 semi-recumbent stepper feel rough - how
-  do I clean the rails and wheels?
+question: The pedals on a Spirit semi-recumbent stepper feel rough - how do I clean the
+  rails and wheels?
 asked_as:
 - the pedals feel rough and gritty
 - how do i clean the rails on my stepper
@@ -24,8 +24,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: maintenance
   code: '*'
@@ -35,12 +36,16 @@ not_to_be_confused_with:
 - ce800-2013-maintenance-rear-rail-cleaning-and-lubrication
 see_also:
 - crs800s-2024-maintenance-machine-care-schedule
+- crs800s-2021-maintenance-four-pads-front-and-back
 - ct800-2016-maintenance-squeak-thump-or-clicking
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
   locator: 'STEP RAIL AND CARRIAGE MAINTENANCE, printed p. 33 (PDF p. 35), below the machine
     care schedule table. Read from a 300 dpi render with tesseract --psm 4, because this PDF
-    carries a second, invisible text layer'
+    carries a second, invisible text layer. spirit-climber-crs800s-2021-owners-manual prints
+    the identical procedure under STEP RAIL AND CARRIAGE MAINTENANCE at printed p. 34 (PDF
+    p. 34), directly under GENERAL MAINTENANCE and with no schedule table above it; that page
+    was read from a 300 dpi render and agrees with its text layer word for word'
   extracted_at: '2026-09-10'
 ---
 
@@ -59,21 +64,28 @@ means the rails and wheels most likely need cleaning.
 
 ## No interval, no lubricant, no tool
 
-The manual gives **no frequency** for this job — the machine care table has no row for the rails or
-the carriage (`crs800s-2024-maintenance-machine-care-schedule`), so the trigger is the symptom: a
-rough feel underfoot.
+Neither manual gives a **frequency** for this job. The 2024 machine care table has no row for the
+rails or the carriage (`crs800s-2024-maintenance-machine-care-schedule`) and the 2021 book has no
+table at all, so the trigger is the symptom: a rough feel underfoot.
 
 It also names **no lubricant of any kind**, and does not say the rails should or should not be
 lubricated after cleaning. Say the manual is silent rather than importing a rule.
 
 No tool is called for. The covers are described as pressing and sliding by hand.
 
-## Only the CRS800S prints this
+## Only the CRS800S prints this, and it printed it in 2021 already
 
 Checked across all fourteen 2024 New Black Units manuals: **the CS800 stepper and the CSC900
 stairclimber print nothing of the kind**, and neither do the treadmills, ellipticals, bikes or the
 rower. The CS800 has the same *Steps — clean daily, inspect monthly* row in its table and no
 procedure behind it.
+
+The same is true of the thirteen climber and stepper manuals of wave 16: the CS800 2021, CVC800,
+XS895, CSC900, CSC880, MS300, 7.0S, 7.5S, 8.5S and 8.5S-FIT books print no rail or carriage
+procedure. Only the CRS800S does, and its **2021** manual prints it word for word — same three
+steps, same four corners, same rag around the mast tube, same rag and alcohol. **The procedure did
+not change between 2021 and 2024**, which is worth saying because the noise-and-levelling text on
+the facing page did (`crs800s-2021-maintenance-four-pads-front-and-back`).
 
 ## It is not the elliptical rail procedure
 

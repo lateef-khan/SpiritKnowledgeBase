@@ -3,7 +3,7 @@ id: crs800s-2024-assembly-tools-included
 title: Seven tools in the carton, three L Allen wrenches and two screwdrivers including
   a short one
 kind: fact
-question: What tools are supplied to assemble a Spirit CRS800S (crs800s-2024)
+question: What tools are supplied to assemble a Spirit CRS800S (crs800s-2021 or crs800s-2024)
   semi-recumbent stepper?
 asked_as:
 - what tools come with the crs800s
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: assembly
   code: '*'
@@ -75,3 +76,12 @@ levelling pads under the rear stabiliser, adjusted with a **14mm wrench** - and 
 
 No step of this build gives a torque figure, and the panel holds nothing that could
 set one.
+
+## The 2021 printing is the same chapter, word for word
+
+`spirit-climber-crs800s-2021-owners-manual`, pp. 9-15, prints this unchanged - the same
+steps in the same order and the same five hardware tables, item number for item number
+and quantity for quantity. Compared from the two PDFs' own text, not from the
+conversions. The only difference in the whole chapter is layout: the 2021 book puts
+TOOLS INCLUDED and PARTS INCLUDED on the pre-assembly page and the 2024 book puts them
+on a page of their own two pages earlier.

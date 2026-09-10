@@ -40,6 +40,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -98,3 +100,12 @@ Rate % Profile. Nothing else differs.
 profile at all, and its console drawing labels no bar graph. **All four 2023 bikes** replaced it with
 a **Maximum Heart Rate Percentage** readout labelled on the workout-mode drawing, with no colours
 printed anywhere. Do not quote the amber-green-red bands for a 2023 bike.
+
+**The Spirit XS895 incline stepper prints the same three colour bands** - XS895-2018 and
+XS895-2021, p. 19, HEART RATE % PROFILE: 50-60% amber, 65-80% amber and green, 85-90% or more amber,
+green and red. The bar graph sits to the right of the LCD and reads percent of the projected maximum
+heart rate calculated from the age entered during programming.
+
+**The printed scale on the console drawing is marked 90%, 80%, 70%, 60% and 50%** - five labelled
+rungs, read from a 300 dpi render of p. 14. The text's bands and the drawing's rungs do not line up
+exactly, and the manual never reconciles them.

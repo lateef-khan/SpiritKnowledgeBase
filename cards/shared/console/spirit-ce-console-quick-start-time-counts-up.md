@@ -42,7 +42,9 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - cu800-2012
   - cu800-2021
@@ -129,3 +131,15 @@ owner would describe the wrong machine.
 
 **The CRW800-2024 rower has no Quick Start section at all.** Its console is an LCD with a Mode key
 and eleven workout modes: `crw800-2024-console-button-functions`.
+
+**The 2021 CRS800S and CS800 owner's manuals print this section word for word** -
+CRS800S-2021 printed p. 18 and CS800-2021 printed p. 17. Time counts up from zero, all workout data
+accrues, the workload is set by hand on the Level Up and Down buttons, and the Dot Matrix Message
+Center starts with just the bottom row lit.
+
+**Both 2021 books also print the 24-column rule in the same paragraph**: the Dot Matrix Message
+Center has **24 columns of lights, each column one minute**, and at the end of the 24th column the
+display wraps around and starts at the first column again.
+
+**Twenty resistance levels, banded 1-5, 6-10, 11-15 and 16-20**, with 16-20 called "extremely
+difficult" - the CE wording, not the residential machines' "extremely hard".

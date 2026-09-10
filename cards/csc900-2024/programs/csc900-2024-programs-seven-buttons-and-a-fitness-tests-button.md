@@ -2,7 +2,7 @@
 id: csc900-2024-programs-seven-buttons-and-a-fitness-tests-button
 title: The stairclimber program buttons - five profiles, a Target button, a User Program button and a Fitness Tests button
 kind: fact
-question: What workout programs does the Spirit csc900-2024 stairclimber offer?
+question: What workout programs does a Spirit CSC900 stairclimber offer?
 asked_as:
 - what programs are on the stairclimber
 - list of workouts on the stair climber
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -37,7 +38,7 @@ see_also:
 - csc900-2024-programs-wfi-stairclimber-protocol
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed pages 25-30
+  locator: CSC900 2021 printed pp. 25-31; CSC900 2024 printed pp. 25-30
   extracted_at: '2026-09-10'
 ---
 
@@ -66,3 +67,12 @@ source:
 machine, and **no heart rate control program**. The program set shares no name with the Spirit
 steppers - see `spirit-stepper-programs-five-programs-claimed-and-which-are-described` - and must
 not be answered from them.
+
+**The 2021 CSC900 has exactly this button set and exactly these five descriptions**, word for word.
+
+**The 2019 CSC900 does not.** It has a **WARM UP** button where the 2021 has **FITNESS TESTS**, and
+it prints the ten setup steps for each profile with **no description paragraph at all** - see
+`csc900-2019-programs-warm-up-button-and-no-fitness-tests`.
+
+**The 2025 CSC880 keeps the five descriptions and has a FITNESS TEST key of its own, but prints no
+WFI or CPAT page for it** - see `csc880-2025-programs-five-profiles-a-target-and-a-user-button`.

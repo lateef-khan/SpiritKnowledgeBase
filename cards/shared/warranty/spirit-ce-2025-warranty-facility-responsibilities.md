@@ -6,7 +6,8 @@ kind: policy
 question: What is the facility responsible for under a Spirit warranty written on the
   2024 terms - a CE900, CES880, CE800, CE850 or CE800ENT elliptical, a CR900, CU900,
   CU800ENT, CR800, CU800 or CR800ENT bike, a CT800, CT850, CT800ENT or CT850ENT treadmill,
-  a CRS800S, CS800 or CSC900 climber, or a CRW800 rower?
+  a CRS800S, CS800 or CSC900 climber, a CSC880 stair climber, a 7.0S,
+  7.5S, 8.5S or 8.5S-Fit stepper, or a CRW800 rower?
 asked_as:
 - what do we have to do to keep the ces880 warranty
 - who pays to move the elliptical for a repair
@@ -27,6 +28,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 70s-2025
+  - 75s-2025
+  - 85s-2025
+  - 85s-fit-2026
   - ce800-2024
   - ce800ent-2024
   - ce850-2024
@@ -38,6 +43,7 @@ facets:
   - crs800s-2024
   - crw800-2024
   - cs800-2024
+  - csc880-2025
   - csc900-2024
   - ct800-2024
   - ct800ent-2024
@@ -122,3 +128,18 @@ The CR900 2025, the CU900 2025 and the CU800ENT 2024 print items 1 to 7 word for
 **All fourteen are addressed to a facility on a manual that still warrants a home**, exactly as the ellipticals and bikes above are - and the **CSC900** is the sharpest case of it, because its table has no Residential row at all yet its opening paragraph still warrants "all its home use Stair Climber parts" and administers the warranty "directly to a consumer" (`spirit-2024-stair-climber-warranty-coverage-periods`).
 
 **Do not answer their predecessors from this card.** The CT800, CT850, CE800, CE850, CR800 and CU800 manuals before 2024 print a seven-item list with a 10-day registration **card** at item 1 (`spirit-ct800-warranty-consumer-responsibilities`).
+
+## The CSC880 and the four 2025-and-2026 steppers print the same seven duties, and they split on the off-by-one
+
+**All five carry items 2 to 7 word for word.** They differ in where the list starts and in what item 1 says.
+
+| Manual | Heading | Item 1 | Numbering |
+|---|---|---|---|
+| CSC880 2025 | RESPONSIBILITIES OF THE FACILITY, then *The facility is responsible for the items listed below:* as a lead sentence | "The warranty registration must be completed **online** to validate the manufacturer's limited warranty." | 1 to **7**, correct |
+| 7.0S, 7.5S, 8.5S, 8.5S-Fit | RESPONSIBILITIES OF THE FACILITY | *The facility is responsible for the items listed below:* is printed **as item 1** | 1 to **8**, shifted by one |
+
+**On the four steppers the duties actually begin at item 2**, which is the registration item - "The warranty registration card must be completed and returned to the address listed on the card within 10 days of the original purchase, or completed online". So the accessibility duty is item **6** on those four and item **5** on the CSC880, and a customer told "item 5" gets a different duty depending on which book they hold. **Cite the duty, not the number.**
+
+This is the same off-by-one the CES880 and the AB950 show. The CSC880, printed the same year, does not have it.
+
+**The CSC880 and the four steppers also disagree about registration itself.** The CSC880 asks for online registration and names **no deadline**; the four steppers restore the ten-day card and offer online as an alternative (`spirit-ce-warranty-registration`).

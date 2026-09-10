@@ -3,7 +3,7 @@ id: csc900-2024-assembly-pre-assembly-six-items
 title: A six-item pre-assembly list that says not to move the machine alone and not to
   lift it by the plastic covers
 kind: procedure
-question: What do I need to do before I start assembling a Spirit CSC900 (csc900-2024)
+question: What do I need to do before I start assembling a Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024)
   stairclimber?
 asked_as:
 - how do i start assembling the csc900
@@ -23,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: assembly
   code: '*'
@@ -85,3 +87,19 @@ everything finger-tight until step four is done.
 
 It never mentions the carton, the straps, the box or shipping damage. Whatever the other
 thirteen books tell you to do before item 1 here, this one does not.
+
+## Three printings, and only one row ever changed
+
+`spirit-climber-csc900-2019-owners-manual` (pp. 7-12) and
+`spirit-climber-csc900-2021-owners-manual` (pp. 7-12) print this chapter unchanged from
+the 2024 book, step for step and table for table, including the M6/M8 disagreement in
+step one. Compared from the three PDFs' own text.
+
+**One row moved.** The handrail-cover screw is **M4 x 25L** in the 2019 printing - in
+its table, in its step text and on its drawing - and **M4 x 30L** in the 2021 and 2024
+printings. See
+[the handrail cover screw card](../../csc900-2019/assembly/csc900-2019-assembly-handrail-cover-screw-m4-x-25.md)
+before ordering one for a 2019 machine.
+
+The 2024 book also adds the five-connector wire diagram under step four. Neither the
+2019 nor the 2021 printing has it; their step four ends at item 3.

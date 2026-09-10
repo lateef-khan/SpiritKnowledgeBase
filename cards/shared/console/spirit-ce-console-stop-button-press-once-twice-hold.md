@@ -35,7 +35,9 @@ facets:
   - cr800-2021
   - cr800-2023
   - cr800-2024
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - cu800-2021
   - cu800-2024
@@ -129,3 +131,12 @@ menu at `spirit-ce800-console-maintenance-menu-function-and-service`; the CE850-
 **The CSC900-2024 stair climber works differently and is not on this card.** Its START/STOP key
 pauses for **30 seconds**, not five minutes, and restarts the staircase at **resistance level one**:
 `csc900-2024-console-start-stop-pause-thirty-seconds`.
+
+**The 2021 CRS800S and CS800 owner's manuals print this paragraph word for word** -
+CRS800S-2021 printed p. 19 and CS800-2021 printed p. 18, in the BASIC INFORMATION section. Once
+pauses for **five minutes**, twice ends the program and returns the console to the start-up screen, a
+**three-second hold** resets, and during data entry the key performs a Previous Screen function.
+
+**Five minutes, not thirty seconds.** The Spirit stair climbers pause for 30 seconds and restart at
+resistance level one: `csc900-2024-console-start-stop-pause-thirty-seconds`. Do not quote that
+behaviour at a CS800 or CRS800S of any year.

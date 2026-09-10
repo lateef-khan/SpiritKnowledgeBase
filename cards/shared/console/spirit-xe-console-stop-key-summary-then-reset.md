@@ -50,6 +50,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -106,3 +108,11 @@ this card.
 
 **What the Workout Summary lists is not the same on all fourteen bikes**, and the 2023 books drop a
 field: `spirit-xe-console-what-the-workout-summary-lists`.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word** - XS895-2018 and
+XS895-2021, p. 17, Basic Information - so this card is no longer elliptical-and-bike only. Once
+pauses for five minutes, twice ends on a Workout Summary, a third press or a three-second hold
+resets, and during data entry the key steps back a screen.
+
+**What its summary lists is not what the ellipticals list**; see
+`spirit-xe-console-what-the-workout-summary-lists`.

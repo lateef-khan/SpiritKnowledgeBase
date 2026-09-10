@@ -6,8 +6,9 @@ question: >-
   Does the owner of a Spirit machine bought under the 2024 terms pay anything for a warranty
   repair? Covers the 2026 4.0T, 7.0T, 8.0T, the CT900, CTSBS900, CT800, CT850, CT800ENT and
   CT850ENT treadmills, the CE900, CES880, CE800, CE850 and CE800ENT ellipticals, the CR900,
-  CU900, CU800ENT, CR800, CU800, CR800ENT and AB950 bikes, the CRS800S, CS800 and CSC900
-  climbers, and the CRW800 rower.
+  CU900, CU800ENT, CR800, CU800, CR800ENT and AB950 bikes, the CRS800S, CS800, CSC900 and CSC880
+  climbers, the 7.0S, 7.5S, 8.5S and 8.5S-Fit steppers, the MS300 rehabilitation stepper,
+  and the CRW800 rower.
 asked_as:
 - do i have to pay for a warranty service call
 - who pays shipping for warranty parts
@@ -29,8 +30,12 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - 70s-2025
   - 70t-2026
+  - 75s-2025
   - 80t-2026
+  - 85s-2025
+  - 85s-fit-2026
   - ab950-2024
   - ce800-2024
   - ce800ent-2024
@@ -43,6 +48,7 @@ facets:
   - crs800s-2024
   - crw800-2024
   - cs800-2024
+  - csc880-2025
   - csc900-2024
   - ct800-2024
   - ct800ent-2024
@@ -53,6 +59,7 @@ facets:
   - cu800-2024
   - cu800ent-2024
   - cu900-2025
+  - ms300-2021
   section: warranty
   code: '*'
 authority: 3
@@ -134,3 +141,19 @@ The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800EN
 **Their own predecessors charge more.** The four earlier CT800 and CT850 manuals, the seven earlier CE800 and CE850 manuals and the CR800, CU800 and 800ENT bikes all add an in-home trip charge and an additional charge beyond 100 miles (`xt-2023-warranty-owner-costs`). The change came with the 2024 reissue, not with the machine: read step 4 off the manual in hand.
 
 **On six of the fourteen, exclusion 2 is a broken sentence.** The CT800ENT, CT850ENT, CE800ENT, CR800ENT, CRS800S and CS800 end it at "...or units", so the refusal of service call reimbursement is still legible but the use restriction that follows it on the other eight is not printed (`spirit-ce-2025-warranty-exclusions`).
+
+## The CSC880 and the four 2025-and-2026 steppers charge the owner the same four things
+
+Their SERVICE step 4 carries the freight-to-and-from and the shipping-and-handling sentences and **stops there** - no trip charge and no mileage clause. Step 5 puts adequate packaging and the freight-damage claim on the owner in the same words, and exclusion 2 refuses service call reimbursement to the consumer.
+
+**Their accessibility duty sits at two different numbers.** It is item **5** of the CSC880's RESPONSIBILITIES OF THE FACILITY list and item **6** on the four steppers, whose numbering is shifted by one because the lead sentence is printed as item 1 (`spirit-ce-2025-warranty-facility-responsibilities`).
+
+**Their predecessors charge more, not less.** The CRS800S 2021, CS800 2021 and CVC800 - the machines these replaced - add a trip charge for in-home service and a further one beyond 100 miles (`xt-2023-warranty-owner-costs`). A customer moving from a 2021 machine to a 2025 one is charged less for the same call, and neither book says so.
+
+## The MS300 charges the same four and states them as bullets
+
+Its Service list carries the same freight and shipping-and-handling sentences and stops at them, with no trip charge and no mileage clause. **It is not numbered**, so there is no "step 4" to cite on an MS300, and its accessibility duty is a bullet in an unnumbered *Normal responsibilities of the facility* list (`ms300-2021-warranty-service-contacts`).
+
+## The CSC900 2019 and 2021 belong on neither card
+
+**Their SERVICE step 4 ends at "All repairs must be preauthorized by Spirit Fitness"** and prints neither the freight sentence nor the shipping-and-handling one - the same gap the CT900ENT and the CE900 2021 have. Two of the four charges above are simply not stated in a CSC900 owner's manual, so quoting them would invent a cost the source does not impose. What those two books do state is step 5's packaging duty and exclusion 2 (`spirit-csc900-warranty-exclusions`, `spirit-climber-returns-authorization-required`).

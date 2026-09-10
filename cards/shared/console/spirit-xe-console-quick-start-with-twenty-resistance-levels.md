@@ -45,6 +45,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -120,3 +122,14 @@ whole thing as two steps rather than two paragraphs. Nothing about the levels ch
 
 **The XBR95 is the residential bike to keep off this card.** All four of its printings have **40**
 levels: `spirit-xe795-console-quick-start-with-forty-resistance-levels`.
+
+**The Spirit XS895 incline stepper bands its twenty levels exactly this way** - XS895-2018 and
+XS895-2021, p. 16-17 - so this card is no longer elliptical-and-bike only. Same four bands, same
+"extremely hard" in the 16-20 row, same bottom-row-lit dot matrix.
+
+**Only the machine name changes**: "The Incline Stepper will get harder to pedal as the rows
+increase."
+
+**The XS895 raises the incline as well as the resistance during a preset program**, and its preset
+setup asks for an **Incline on/off** choice that no machine on this card has. That is a programs
+question, not a Quick Start one - Quick Start itself adjusts the workload only.

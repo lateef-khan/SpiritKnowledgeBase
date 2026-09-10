@@ -59,3 +59,10 @@ The connection will now pair with a Bluetooth chest strap.
 
 So a facility that leaves chest straps on the machines has to reselect BLECHESTSTRAP after every
 power cycle. That is by design, not a fault.
+
+**The 2021 owner's manual prints this procedure word for word** on its printed p. 16, under
+CONNECTING BLUETOOTH, including the closing NOTE that a power cycle reverts the console to APP. Both
+books agree in every detail, down to the spelling **BLECHESTSTRAP**.
+
+**Neither book says how the app is paired, or names an app.** APP is one of two values of a setting;
+no page in either book describes a phone application, a download, or a pairing screen for it.

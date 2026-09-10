@@ -2,7 +2,7 @@
 id: spirit-2024-safety-outlet-110-volt-15-amp-stepper
 title: The outlet is 110-volt, 15-amp but the breaker sentence on the next page asks for 5 amps
 kind: spec
-question: What outlet and circuit does a Spirit CRS800S-2024 semi-recumbent stepper or CS800-2024
+question: What outlet and circuit does a Spirit CRS800S semi-recumbent stepper or CS800-2024
   stepper need?
 asked_as:
 - what outlet does the stepper need
@@ -26,6 +26,7 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   - cs800-2024
   section: safety
@@ -37,6 +38,7 @@ not_to_be_confused_with:
 - spirit-ct800-safety-outlet-120-volt-15-amp
 - csc900-2024-safety-outlet-120-or-230-volt
 - cvc800-outlet-and-circuit-requirement
+- spirit-climber-safety-outlet-110-volt-5-amp
 see_also:
 - spirit-2024-safety-instructions-list-stepper
 - spirit-house-breaker-needs-a-high-inrush-type
@@ -80,9 +82,20 @@ which it means.
 - **An extension cord must be 14AWG or better with only one outlet on the end**
   (`xt-2015-safety-extension-cord-14-awg-or-better`).
 
-**The CRS800S has no grounding page at all.** Its safety chapter ends at the electrical page; the
-CS800 book adds `GROUNDING & IMPORTANT OPERATION INSTRUCTIONS` on its printed page 7 and the
-CRS800S does not.
+**Neither CRS800S printing has a grounding page at all.** The 2021 and 2024 CRS800S safety chapters
+end at the electrical page; the CS800 books add a grounding page and the CRS800S books do not.
+
+**The CRS800S-2021 already printed 15 amps, and the CS800-2021 printed 5.** Both figures were read
+from 300 dpi renders of the printed pages, not from the text layer.
+
+| Machine | Header | Breaker sentence | Agree? |
+|---|---|---|---|
+| CS800-2021 | 110 V, 5 amp | 5 amp | yes |
+| CRS800S-2021 | 110 V, **15 amp** | 5 amp | no |
+| CRS800S-2024, CS800-2024 | 110 V, **15 amp** | 5 amp | no |
+
+So the contradiction on this card is three years older than the 2024 range, and it began on the
+CRS800S alone (`spirit-climber-safety-outlet-110-volt-5-amp`).
 
 **The CRS800S console is fed by a DC power cord.** Its setting-up page says `When the DC Power cord
 is connected to the equipment, the console will automatically power up`, and a `Power Cord` is

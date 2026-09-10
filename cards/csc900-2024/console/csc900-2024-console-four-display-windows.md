@@ -24,8 +24,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2021
   - csc900-2024
   section: console
   code: '*'
@@ -70,3 +72,21 @@ the 2024 range, where one Up/Down Scan key swaps a whole row of four readings at
 
 **The manual gives no ranges** - no maximum for Floors, Steps, Watts or METs - and does not say how a
 floor is counted.
+
+**The CSC900-2021 and the CSC880-2025 print this section word for word** - CSC900-2021
+printed p. 17 and CSC880-2025 printed p. 18, both headed DISPLAY or FEATURES / Console - so this card
+now covers three machines. Same four windows, same twelve data points in the same three rows, same
+button below each window, same 0-999 rollover with the decimal-space light that moves with each
+1,000, and the same bare instruction that **1, 2, 3, OK** changes imperial to meters.
+
+**The CSC900-2021 page is native text and the CSC900-2024 page is a flattened image**, so the two
+were read different ways and still agree character for character. The CSC880-2025 page is native text
+too.
+
+**None of the three has an engineering or maintenance mode** - see
+`spirit-stairclimber-console-has-no-engineering-or-maintenance-mode-in-any-printing` - so the
+key sequence really is the only unit switch on all three.
+
+**The CSC900-2019 is the printing to keep off this card.** It prints the same twelve-cell table under
+a sentence that counts **thirteen** data points:
+`csc900-2019-console-display-counts-thirteen-data-points-over-a-table-of-twelve`.

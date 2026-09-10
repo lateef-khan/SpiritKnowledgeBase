@@ -22,10 +22,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 85s-fit-2026
   - ce850-2016
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -44,6 +46,8 @@ facets:
   - xe395ent-2021
   - xe895-2018
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -217,3 +221,14 @@ grounding page, printed page 7 - the four 2024 treadmills, the CE850-2024 and th
 have no grounding page. **The CSC900-2024 forbids an adapter outright**: `Do not modify the plug
 provided with the product. NO adapter should be used with this product`
 (`csc900-2024-safety-outlet-120-or-230-volt`). Never offer this procedure to a CSC900 owner.
+
+**Five more Spirit climbers describe the adapter.** The CS800-2021 stepper and the CVC800-2021
+vertical climber on their printed page 6, the XS895 incline stepper on printed page 6 of both the
+2018 and 2021 books, and the 8.5S-Fit stepper on its printed page 7.
+
+**The 7.0S, 7.5S and 8.5S print the adapter illustration and not the paragraph.** Their grounding
+pages end at `have a proper outlet installed by a qualified electrician`, and the labelled drawing of
+the adapter, its tab and its grounding screw sits below with no text explaining it. Do not read the
+procedure into those three books; and note that the 8.5S-Fit, which does print it, forbids an
+adapter in item 2 of its own safety list two pages earlier
+(`spirit-climber-safety-outlet-120-volt-15-amp-fit`).
