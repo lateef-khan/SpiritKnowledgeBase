@@ -74,6 +74,10 @@ The service manuals carry the Dyaco factory code on their cover, not the Sole mo
 | SB900 2023 | SB910-3268T |
 | SB1200 2023 | SB950-SB027 |
 
-**Look up the number, do not decode the digits.** There is no rule that turns the last two digits of a Sole model number into a model year: several 2019 machines carry numbers ending in 18 or 19, the F89's ends in 53, and two rows share the name "SOLE E95 2016". Take the year from the model card's Year column.
+**Look up the number, do not decode the digits.** There is no rule that turns the last two digits of a Sole model number into a model year: several 2019 machines carry numbers ending in 18 or 19, the F89's ends in 53, and two rows share the name "SOLE E95 2016". Take the year from the `ModelName` column of the `Models` row.
+
+**Rows where the database gives no year.** The LCB 2016, LCR 2016, SB1200 2023 and B94 2023 rows are named only "LCB", "LCR", "SB1200" and "SOLE B94". Their model year is not recorded anywhere in the database. Say the year is unconfirmed rather than reading it off the digits.
 
 **The SB1200 2023 has no year printed anywhere** — not in the database and not on its manual cover, which prints only `SB1200` where its five 2023 siblings print `LCB(2023)`, `LCR(2023)`, `R92(2023)`, `B94(2023)` and `SB900(2023)`.
+
+**One row is named "SOLE SB900 2022"** and no manual in this knowledge base describes that machine; the SB900 model card lists it as not confirmed.
