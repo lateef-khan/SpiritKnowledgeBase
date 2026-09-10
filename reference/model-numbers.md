@@ -35,6 +35,8 @@ two cards had been written against it claiming a SKU did not exist when it does.
 | `year-in-name` | 9 | one row's `MODEL` or `DESC` names the model year |
 | `fp-date` | 3 | one row's first-production date falls in the model year or the one before |
 | `colour-pair` | 3 | two rows whose names differ only by a colour word, so both are the same machine |
+| `user-confirmed` | 1 | a person who knows the product line settled it |
+| `sibling-pairing` | 1 | the product has exactly as many machines as SKUs, and the first-production dates order the same way |
 
 **A manual is evidence only for its own model id.** Matching by product name
 instead attributes a 2024 book's SKU to the 2018 machine: an early pass did
@@ -79,6 +81,23 @@ One shape is safe. Where two rows' names differ **only by a colour word**, they
 are one machine in two colours: `Spirit MT200 (White)` and `Spirit MT200`,
 `Spirit MS300 (White)` and `Spirit MS300`. Those cards carry both numbers. Every
 other second SKU is added only when a person confirms it.
+
+## A SKU can belong to a machine that has no cards yet
+
+`589826` is the **F89 2026**, confirmed by the product owner. The knowledge base
+has only `f89-2023`, so that number belongs to a machine nothing here describes,
+and `f89-2023` takes `589853`. Expect this shape wherever one model id faces two
+SKUs.
+
+`sibling-pairing` is the narrow case where it can be resolved without asking. The
+SC200 has two model ids and two SKUs. The two service manuals are **84.3%**
+alike, under the 90% that means one document, and print different factory codes -
+`XS110A-YS003` for 2016 against `XS110B-YS007` for 2019. Two machines, two
+numbers, and the first-production dates run the same way round: December 2015 to
+`sc200-2016`, May 2017 to `sc200-2019`.
+
+That reasoning needs a genuine one-to-one count. The ST90 has **four** model ids
+and two SKUs, so it does not qualify and is left open.
 
 ## One SKU can cover several machines
 
