@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
   section: programs
@@ -78,3 +79,8 @@ and a top incline instead of a resistance level and defaults the interval time t
 see `xt-2015-programs-fusion-program-xt485-xt685`. The five dumbbell exercises and the worked
 warm-up-to-cool-down example are printed only in the treadmill manuals; **no XE manual lists which
 five exercises they are**, so this KB holds none for the ellipticals.
+
+**The XE795 2018 printing (printed pages 24-25) prints all of the above, figure for figure**,
+including the **150 lbs** body weight default at step 3 that the 2021 printing gives and the 2023
+manuals omit. Fusion is one of the two programs that separates the XE795 from every other XE
+elliptical of its generation; no XE395, XE895, XE295, XE195 or XG400 manual has it.

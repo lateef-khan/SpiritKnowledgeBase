@@ -31,13 +31,19 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -71,3 +77,12 @@ mid-sentence; the figures are the same.
 
 **The two oldest XE consoles describe Fat Burn differently** and print a heart rate percentage the
 others do not. That is `spirit-xe-programs-fat-burn-sixty-to-seventy-percent-of-maximum`.
+
+**Six earlier XE printings print this same Fat Burn description, word for word** - XE195 2019
+and XG400 2019 (printed page 23), XE295 2019 (page 24), XE395 2018 (page 25), XE895 2018 (page
+27) and XE795 2018 (page 28).
+
+**Two of the six print a second profile beside it.** The XE395 2018 adds an **Incline:** paragraph to
+every preset - see `xe395-2010-programs-incline-profiles`. The XE895 2018 prints a **Stride Profile**
+chart beside every Work Profile but describes none of them in words - see
+`xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed`.

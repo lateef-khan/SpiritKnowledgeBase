@@ -25,12 +25,18 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -42,7 +48,9 @@ see_also:
 - xe395ent-2021-console-power-up-and-quick-start
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XE395 2010 p. 17; XE395 2023 p. 23; XE795 2023 p. 22, all under Basic Information
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 17;
+    XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 21; XE795 2018 p. 19; XE895 2018 p. 21;
+    XE195 2019 p. 19; XE295 2019 p. 20; XG400 2019 p. 19, all under Basic Information
   extracted_at: '2026-09-09'
 ---
 
@@ -55,7 +63,7 @@ The Stop key has four jobs:
 | **Stop held for 3 seconds, or a third press during the program** | The console performs a **complete Reset**. |
 | **Stop during data entry** | **Previous screen or segment** - goes back to change programming data. |
 
-All seven manuals print this paragraph word for word.
+**All thirteen manuals print this paragraph word for word**, the 2018 and 2019 printings included.
 
 **The five minutes is a setting, not a fixed figure.** Every one of these machines has a **Pause
 Mode** item in engineering mode - "turn on allow 5 minutes of pause, turn off to have the console

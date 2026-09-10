@@ -61,13 +61,19 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xic600-2018
   - xic600-2021
@@ -110,7 +116,14 @@ source:
     spirit-bike-jb950-2022-owners-manual line 1840 (p. 73);
     spirit-bike-ab950-2024-owners-manual line 1126 (heading line 1119, p. 36). Return addresses
     follow the step-5 paragraph in each. Contact pairs read from each manuals back cover on the
-    last PDF page
+    last PDF page. The six XE and XG printings filed under Bikes/bike backup print the same five
+    steps; SERVICE step 3 with the phone number and the step-6 P.O. Box are at
+    spirit-elliptical-xe395-2018-owners-manual lines 1348 and 1360,
+    spirit-elliptical-xe795-2018-owners-manual lines 1298 and 1310,
+    spirit-elliptical-xe895-2018-owners-manual lines 1390 and 1402,
+    spirit-elliptical-xe195-2019-owners-manual lines 1087 and 1099,
+    spirit-elliptical-xe295-2019-owners-manual lines 1188 and 1200,
+    spirit-elliptical-xg400-2019-owners-manual lines 1195 and 1207
   extracted_at: '2026-09-09'
 ---
 
@@ -178,18 +191,20 @@ The first seven print them on a back cover reading 3000 Nestle Road, Jonesboro, 
 
 The same page repeats that the warranty applies only in the 48 contiguous United States - see `xt-2023-warranty-geographic-coverage`.
 
-## Eight Spirit XE and XG residential machines print these five steps too
+## Fifteen Spirit XE and XG residential manuals print these five steps too
 
-The 2010 XE395, the six 2021 manuals and the two 2023 ones print step 4 in full - freight to and from a service center, shipping and handling on replacement parts, a trip charge for in-home service, and an additional trip charge beyond **100 miles** - and step 3's service department number is **(870) 935-1107** on every one. Their return address is the same P.O. Box 2037, Jonesboro, AR 72402-2037.
+The 2010 XE395, the three August 2018 printings, the three February 2019 ones, the six 2021 manuals and the two 2023 ones print step 4 in full - freight to and from a service center, shipping and handling on replacement parts, a trip charge for in-home service, and an additional trip charge beyond **100 miles** - and step 3's service department number is **(870) 935-1107** on every one. Their return address is the same P.O. Box 2037, Jonesboro, AR 72402-2037.
 
-| | XE395 2010 | the six 2021 manuals | XE395 and XE795 2023 |
-|---|---|---|---|
-| Mailing address | step **6** | step **6** | **unnumbered** below step 5 |
-| Whose obligation step 4 names | **Spirit's** | Spirit Fitness' | Spirit Fitness' |
-| Return address headed | Spirit Fitness, Inc. | Spirit Fitness, Inc. | Spirit Fitness, Inc. |
-| Customer care | *none printed* | 800.258.4555 | 1-800-258-8511 |
-| Email | *none printed* | spiritservice@spiritfitness.com | questions@spiritfitness.com |
-| Back cover | *none in this knowledge base* | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401, Fax 870-935-7611 |
+| | XE395 2010 | the six 2018 and 2019 printings | the six 2021 manuals | XE395 and XE795 2023 |
+|---|---|---|---|---|
+| Mailing address | step **6** | step **6** | step **6** | **unnumbered** below step 5 |
+| Whose obligation step 4 names | **Spirit's** | Spirit Fitness' | Spirit Fitness' | Spirit Fitness' |
+| Return address headed | Spirit Fitness, Inc. | Spirit Fitness, Inc. | Spirit Fitness, Inc. | Spirit Fitness, Inc. |
+| Customer care | *none printed* | 800.258.4555 | 800.258.4555 | 1-800-258-8511 |
+| Email | *none printed* | spiritservice@spiritfitness.com | spiritservice@spiritfitness.com | questions@spiritfitness.com |
+| Back cover | *none in this knowledge base* | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401 | 3000 Nestle Road, Jonesboro, AR 72401, Fax 870-935-7611 |
+
+**The 2018 and 2019 printings are word for word the 2021 SERVICE paragraph.** Compared at word level against the XE795 February 2021 block, each of the six comes back **99.6%** - the residual a single space the conversion dropped in *rights.You*. Nothing about who pays, whom to call or where to write changed between August 2018 and November 2021.
 
 **The 2010 XE395 names the company "Spirit" throughout step 4** - *Spirit's obligation... at Spirit's option... preauthorized by Spirit* - where every later manual reads *Spirit Fitness*. It also prints the trip-charge sentence as "Forin-home service", the same conversion artefact the CT800 2012 and CE800 2013 manuals show. Nothing about the charges changes.
 

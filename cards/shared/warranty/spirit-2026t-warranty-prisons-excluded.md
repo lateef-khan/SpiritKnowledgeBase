@@ -185,15 +185,17 @@ The other eight print both halves, footnote and numbered item, but the item numb
 
 **On a CE800, a CE800ENT or a CE850 the prisons exclusion is not the only environment excluded** - a dues-paying facility is excluded too, and the CE850 manuals cap use at five hours a day besides. On the CE900 2025 and the CES880 a dues-paying gym is **covered**, and prisons are the only environment excluded at all. The whole picture is `spirit-ce-warranty-use-environment`.
 
-## Spirit XE and XG residential machines: five of eleven manuals, and the footnote is all there is
+## Spirit XE and XG residential machines: five of seventeen manuals, and the footnote is all there is
 
 **No XE or XG residential manual carries a prisons item in its numbered exclusion list.** Where the exclusion appears at all it is a **footnote under the warranty table only**:
 
 > \*Prisons and correctional facilities are excluded from warranty coverage.
 
-Five of the eleven print it - the **XE195**, **XE295**, **XG400**, the **November 2021** printing of the XE795, and the **XE795 2023**. The XE795 2023 prints it as the footnote to its Light Commercial Warranty table rather than under the residential one.
+Five of the seventeen print it - the **XE195 2021**, **XE295 2021**, **XG400 2021**, the **November 2021** printing of the XE795, and the **XE795 2023**. The XE795 2023 prints it as the footnote to its Light Commercial Warranty table rather than under the residential one.
 
-**Six print it nowhere.** The words *prison* and *correctional* appear at no point in the **February 2021** printing of the XE795, the **XE395ENT**, the **XE395 2023**, the **XE395 2010**, the 2007 **XE100/XE200/XE300** book or the 2005 **XE150/XE350/XE550** book. Do not quote the exclusion to the owner of one.
+**Twelve print it nowhere.** The words *prison* and *correctional* appear at no point in the **February 2021** printing of the XE795, the **XE395ENT**, the **XE395 2023**, the **XE395 2010**, the 2007 **XE100/XE200/XE300** book, the 2005 **XE150/XE350/XE550** book, or any of the six 2018 and 2019 printings - **XE395 2018**, **XE795 2018**, **XE895 2018**, **XE195 2019**, **XE295 2019** and **XG400 2019**. Do not quote the exclusion to the owner of one.
+
+**The October 2018 date does not carry over to the XE range.** Three XE manuals are effective **August 22, 2018**, before that date, and three more are effective **February 04, 2019**, after it. **None of the six states the exclusion**, in a footnote or in a numbered item. The absence was checked twice on each: a spacing-tolerant search of the whole document, and a 300 dpi render of the warranty-table page read with `tesseract --psm 4`, whose word count matched the native extraction to within three words. So the clause did not enter the XE and XG range in October 2018 with the indoor cycles - the earliest XE or XG manual here that states it is dated **November 30, 2021**, more than three years later.
 
 **The XE795 is the machine to be careful with.** Its two 2021 printings are the same machine and the same model id, and the footnote is in the **November** one only. The November printing is the later revision, so it is the current statement - but if a customer is reading the February book, the sentence is not on their page.
 
@@ -228,3 +230,5 @@ The other six carry it, and **three of the six print only one of the two halves*
 **On this range the prisons clause is often the only environment restriction there is.** The AB900, the AB950 and the JB950 exclusion lists carry no dues-paying item and no residential-setting item, so prisons is the whole of the environment answer on those three. The XIC600 2021 is the opposite: its item 8 bars everything but a home or a non-dues-paying facility used five hours a day or less. The whole picture is `spirit-indoor-cycle-air-bike-warranty-use-environment`.
 
 **The clause enters this range in October 2018.** The XIC600 manual effective **August 22, 2018** does not carry it; the AB900 manual effective **October 1, 2018** does. So it is not simply a 2021 addition - and the two XIC600 printings, three years apart, are the clean before-and-after pair (`spirit-indoor-cycle-warranty-residential-only-periods`).
+
+**That date is an indoor-cycle and air-bike date, not a Spirit-wide one.** Six Spirit XE and XG elliptical manuals straddle it - three effective August 22, 2018 and three effective February 04, 2019 - and not one of them picks the clause up. Read October 2018 as when this range changed, and check each other range separately.

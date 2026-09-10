@@ -3,7 +3,8 @@ id: xe795-2021-assembly-procedure
 title: 'Six-step generator-powered build that starts on its side: levellers and wheels
   first, mast second, console fifth and pedals last'
 kind: procedure
-question: How do I assemble a Spirit xe795-2021 elliptical from the box?
+question: How do I assemble a Spirit XE795 elliptical (xe795-2018 or xe795-2021) from
+  the box?
 asked_as:
 - how do i put my xe795 together
 - assembly instructions for the spirit xe795
@@ -22,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: assembly
   code: '*'
@@ -40,7 +42,8 @@ source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: pp. 9-14, XE795 STEP ONE to STEP SIX; the same six steps at pp. 9-14 of
     the February printing
-    (`spirit-elliptical-xe795-2021-february-owners-manual`)
+    (`spirit-elliptical-xe795-2021-february-owners-manual`) and at pp. 9-14 of the
+    2018 printing (`spirit-elliptical-xe795-2018-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -106,6 +109,13 @@ plug them in.
 **There is no power cord and no power step.** The console runs off a built-in
 generator - it wakes when you start pedalling and goes to stand-by when the flywheel
 stops.
+
+## The 2018 printing builds identically too
+
+The XE795 2018 manual prints the same six steps, the same six hardware panels, the
+same item numbers and the same counts, word for word. **Its carton has no power cord
+either**, and its machine diagram uses the February wording, PULSE GRIPS. Three
+printings of this machine and one build.
 
 ## The February and November printings build identically
 

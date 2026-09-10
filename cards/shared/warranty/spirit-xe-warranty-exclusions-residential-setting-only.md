@@ -24,6 +24,7 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   - xe395-2010
   section: warranty
@@ -41,8 +42,10 @@ see_also:
 - xe195-2021-warranty-fitness-bike-wording
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: EXCLUSIONS, p. 29 (text.md lines 1055-1074). The same nine items, renumbered,
+  locator: 'EXCLUSIONS, p. 29 (text.md lines 1055-1074). The same nine items, renumbered,
     are in spirit-elliptical-xe195-2021-owners-manual pp. 33-34 (text.md lines 749-768)
+    and in the earlier XE195 printing, spirit-elliptical-xe195-2019-owners-manual pp.
+    32-33 (text.md lines 1058-1077)'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +79,7 @@ Two further wording changes in the XE195:
 Items 4 and 5 are asked about on their own - a sale, a transfer, a barter or a gift ends the cover, and so does a removed serial number: `xt-2023-warranty-transfer`.
 
 **Item 3 excludes corrosion and discoloration of paint or plastic.** The 2005 and 2007 books do not (`spirit-xe-2005-warranty-exclusions`).
+
+**Both XE195 printings carry this list, unchanged.** The 2019 manual (effective February 04, 2019) and the 2021 one (effective November 30, 2021) compare **99.6% identical** at word level across the whole EXCLUSIONS block, the residual being a page number the conversion swept in. Neither prints the *non-dues paying facility with 5 hours use or less per day* allowance that every other XE and XG manual of the same years prints in item 8 (`spirit-ce850-warranty-exclusions`), and neither mentions prisons at all.
+
+**Both number the list from 1 after an unnumbered opening item.** The CONSEQUENTIAL, COLLATERAL, OR INCIDENTAL DAMAGES paragraph is printed above the numbering rather than as item 1, so the items a customer sees numbered 7 and 8 on their page are the residential-setting and North America items shown here as 8 and 9. Quote the sentence, not the number.

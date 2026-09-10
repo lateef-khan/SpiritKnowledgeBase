@@ -32,6 +32,7 @@ authority: 3
 not_to_be_confused_with:
 - ce800-2013-maintenance-squeak-thump-or-clicking
 - spirit-xe-maintenance-squeak-thump-or-clicking
+- spirit-xe-maintenance-no-sanitizing-section
 see_also:
 - ce800-2013-maintenance-rear-rail-cleaning-and-lubrication
 - ct900-sanitizing-equipment

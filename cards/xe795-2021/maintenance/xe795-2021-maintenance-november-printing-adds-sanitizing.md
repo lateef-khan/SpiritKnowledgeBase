@@ -29,7 +29,8 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xe-maintenance-no-sanitizing-section
 see_also:
 - ct900-sanitizing-equipment
 - ct800-2016-maintenance-squeak-thump-or-clicking
@@ -66,3 +67,9 @@ XE795** carry them inside a two-column Maintenance & Care page alongside the pos
 the February XE795, its GENERAL MAINTENANCE page ends at the leveling pads. The
 **XE100/XE200/XE300**, **XE150/XE350/XE550** and **XE395 2010** manuals predate the section
 entirely.
+
+**Nor do the printings that came before 2021.** The 2018 **XE395**, **XE795** and **XE895** and the
+2019 **XE195**, **XE295** and **XG400** books print no sanitizing heading either, so the February
+XE795 is not an oddity - it is the older book. The section arrived with the 2021 reprint and the
+XE795's two 2021 printings straddle it. Those six machines are
+`spirit-xe-maintenance-no-sanitizing-section`.

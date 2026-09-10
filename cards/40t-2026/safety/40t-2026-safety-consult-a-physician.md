@@ -36,12 +36,18 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -145,3 +151,12 @@ their safety pages at all (`spirit-bike-ent-safety-instructions-list`). The only
 in those three books is in the HEART RATE EXERTION chapter - `a schedule approved by your physician` -
 which is advice about training intensity, not a pre-use instruction. Do not answer a CU800ENT or
 CR800ENT from this card.
+
+
+## Six earlier Spirit residential ellipticals print the sentence
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals** print it
+as the second item of their Fitness Equipment Safety Instructions, word for word: consult a
+physician before beginning this or any exercise program, especially over the age of 35 or with
+pre-existing health conditions. **Age 35 is the only age in the sentence in all six**, and none of
+them adds a second qualification.

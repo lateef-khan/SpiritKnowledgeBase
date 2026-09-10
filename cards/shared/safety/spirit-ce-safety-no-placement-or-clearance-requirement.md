@@ -39,17 +39,23 @@ facets:
   - cu800ent-2024
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -175,3 +181,14 @@ books, as are *inches* and any side, front or rear distance. That is an absence,
 **The other ten Spirit commercial bike manuals print neither rule.** They have no
 flat-level-surface sentence and no carpet sentence at all -
 `spirit-ct800-safety-no-placement-or-clearance-requirement` carries them.
+
+
+## Six earlier Spirit residential ellipticals print both sentences and no figure
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals each print
+the shag-carpet sentence and the flat-level-surface WARNING**, the XG400 with `E-Glide` in place of
+`elliptical`. **None of the six prints a clearance figure**: the words *clearance* and *inches*
+appear nowhere in any of them, and there is no side, front, rear or ceiling distance and no room
+size. That is an absence, not a permission. The outlet figure inside the same WARNING is 115 volt in
+four of them and 110 volt in the XE795-2018 and XE895-2018
+(`spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp`).

@@ -44,13 +44,19 @@ facets:
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2025
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: errors
   code: no-code
@@ -70,18 +76,21 @@ source:
     2021 p. 33; XG400 2021 p. 32; XE795 2021 February p. 35; XE795 2021 November p.
     35; XE395ENT 2021 pp. 44-45; XE395 2023 p. 26; XE795 2023 p. 25; CU800 2012 p.
     24; CR800 2021 p. 33; CU800 2021 p. 32; CU800ENT 2022 p. 38; CR800ENT 2023 p.
-    38; CR800 2023 p. 33; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27'
+    38; CR800 2023 p. 33; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27;
+    XE395 2018 p. 34; XE795 2018 p. 35; XE895 2018 p. 33; XE195 2019 p. 29; XE295
+    2019 p. 33; XG400 2019 p. 32'
   extracted_at: '2026-09-09'
 ---
 
 **Caution! Do not use this machine for Heart Rate programs unless a steady, solid Actual Heart
 Rate value is being displayed. High, wild, random numbers being displayed indicate a problem.**
 *(Each manual names its own machine in that caution. `elliptical trainer`: CE800 2013, CE800 2021,
-CE800 2023, XE195, XE295, XE795 2021, XE395ENT, **and the CU800 2012 upright bike**. `elliptical`
-or `Elliptical`: CE800ENT, CE850 2016, CE850 2020, CE850 2022, CE900 2025, XE395 2010, XE395 2023,
-XE795 2023. `Suspension Elliptical`: CES880 2025. `E•Glide Trainer`: XG400. `fitness bike`: CR800
-2021, CR800 2023, CU800 2021. `Recumbent Bike`: CR800ENT 2023, CR900 2025. `Upright Bike`:
-CU800ENT 2022, CU800ENT 2024, CU900 2025.)*
+CE800 2023, XE395 2018, XE795 2018, XE895 2018, XE195 2019, XE295 2019, XE195 2021, XE295 2021,
+XE795 2021, XE395ENT, **and the CU800 2012 upright bike**. `elliptical` or `Elliptical`: CE800ENT,
+CE850 2016, CE850 2020, CE850 2022, CE900 2025, XE395 2010, XE395 2023, XE795 2023.
+`Suspension Elliptical`: CES880 2025. `E•Glide Trainer`: XG400 2019 and XG400 2021.
+`fitness bike`: CR800 2021, CR800 2023, CU800 2021. `Recumbent Bike`: CR800ENT 2023, CR900 2025.
+`Upright Bike`: CU800ENT 2022, CU800ENT 2024, CU900 2025.)*
 
 **The CU800 2012 bike manual calls the machine an `elliptical trainer` in its own caution line.**
 Both OCR scans of that manual agree on the wording, so it is a copy-and-paste defect in the source,
@@ -115,7 +124,7 @@ close" does not change between them.** What does change:
 | CE800ENT | yes | `Electric fence for a pet` | contact your dealer |
 | CE900 2025 | yes | `Perimeter fence for a pet` | contact Spirit Fitness |
 | CES880 2025 | no | `Perimeter fence for a pet` | contact Spirit Fitness |
-| XE395 2010, XE195, XE295, XG400, XE795 2021, XE395ENT | no | `Perimeter fence for a pet` | contact your dealer |
+| XE395 2010, XE395 2018, XE795 2018, XE895 2018, XE195 2019, XE295 2019, XG400 2019, XE195 2021, XE295 2021, XG400 2021, XE795 2021, XE395ENT | no | `Perimeter fence for a pet` | contact your dealer |
 | XE395 2023, XE795 2023 | no | `Perimeter fence for a pet` | contact Spirit Fitness |
 | CU800 2012 | no | `Perimeter fence for a pet` | contact your dealer |
 | CR800 2021, CR800 2023, CU800 2021 | no | `Electric fence for a pet` | contact your dealer |
@@ -129,6 +138,15 @@ to each other at 8-word shingles; the XG400 and XE395ENT sit at 94-95% and the X
 and every difference is a line-wrap or the machine's own name. The XE395 2023 measures 95% against
 the XE195 once its facing column is separated out; the remaining 5% is its closing line, and the
 XE795 2023 prints the same seven items and the same closing line as the XE395 2023.
+
+**The six earlier printings added on 2026-09-10 change nothing in this list.** Measured on the
+erratic-operation block alone, as Jaccard over 8-word shingles with bare page numbers stripped,
+the **XE395 2018, XE795 2018, XE895 2018, XE195 2019 and XE295 2019 blocks are 100% identical to
+each other and to the XE195 2021, XE295 2021 and XE795 2021 February blocks**, and the **XG400
+2019 block is 100% identical to the XG400 2021 block**. The XG400 pair differs from the other
+five only in the caution line, where it names an `E•Glide Trainer`. The seven items, the
+`Perimeter fence for a pet` wording, the 3-foot figure and the `contact your dealer` closing
+therefore all predate 2021 unchanged, and no answer here depends on which printing a caller owns.
 
 **The XG400 is not an elliptical.** Its manual calls the machine an `E•Glide Trainer` throughout,
 so do not describe it as an elliptical to its owner. Everything else in its list is the same. The

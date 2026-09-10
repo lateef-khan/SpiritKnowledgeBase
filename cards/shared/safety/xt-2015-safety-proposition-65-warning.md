@@ -51,10 +51,16 @@ facets:
   - cu900-2018
   - cu900ent
   - jb950-2022
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xic600-2018
   - xic600-2021
@@ -254,3 +260,13 @@ only the short-form sticker described on its PRODUCT LABELS page
 (`ab950-2024-safety-product-labels`), and the **CB900-2013 manual has no Proposition 65 warning of
 any kind** - the words *California*, *Toluene* and *Acrylamide* do not appear in the book
 (`cb900-2013-safety-instructions-list`).
+
+
+## Six earlier Spirit residential ellipticals print the same boxed warning
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals all box it
+on their safety instructions page**, naming Toluene and Acrylamide and pointing to
+www.P65Warnings.ca.gov, word for word as the 2021 books do. **The XE895-2018 runs
+`For more information go to` on to the end of the harm sentence** where the other five break it to
+its own line; no word and no chemical changes. None of the six has a product labels page, so this
+boxed paragraph is the only Proposition 65 text in any of them.

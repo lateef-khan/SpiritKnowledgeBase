@@ -33,12 +33,18 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -97,3 +103,15 @@ and XE550, Up and Down change **only the column you are in**, and the level retu
 value when the profile moves to the next column. That is
 `spirit-xe-programs-up-and-down-change-only-the-current-column`, a separate card, and it is the
 difference most likely to produce a wrong answer.
+
+**Five earlier XE printings print these same nine steps** - XE895 2018, XE195 2019 and XG400 2019
+(printed page 24), XE295 2019 (page 25) and XE795 2018 (page 26). On all five, step 7 adds that the
+Level Up/Down keys are duplicated **above the heart rate sensor grips of the stationary handlebars**,
+exactly as their 2021 printings do.
+
+**The XE395 2018 prints a shorter list** (printed page 27). It has the same steps 1-5, the same two
+extra incline steps the XE395 2010 has, and the same closing scroll and summary steps - but it
+**omits step 6 (press Start to begin) and the whole of step 7**, the paragraph explaining that Up and
+Down change the workload of the entire profile while the picture stays put. Nine numbers are printed,
+but two of the nine actions above are not among them. For its incline steps see
+`xe395-2010-programs-preset-setup-asks-incline-on-or-off`.

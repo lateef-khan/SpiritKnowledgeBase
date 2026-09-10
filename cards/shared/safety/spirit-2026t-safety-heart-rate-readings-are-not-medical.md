@@ -54,17 +54,23 @@ facets:
   - mt200-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -229,3 +235,12 @@ over the grips - it does not.
 **A separate rule forbids running a heart rate program on a bad reading.** Nine of the thirteen bike
 manuals print it, with the interference list that goes with it -
 `spirit-bike-programs-erratic-heart-rate-interference`.
+
+
+## Six earlier Spirit residential ellipticals print the full paragraph
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals** print it
+in their Fitness Equipment Safety Instructions: the pulse sensors are not medical devices, a chest
+transmitter strap sold separately is a much more accurate method, the user's movement may affect
+accuracy, and the sensors are exercise aids for heart rate trends in general. All six do make the
+chest-strap comparison. No figure or claim differs from the 2021 books.

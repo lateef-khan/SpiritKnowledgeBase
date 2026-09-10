@@ -24,6 +24,7 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   - xe795-2023
   section: console
@@ -45,10 +46,12 @@ source:
 - The **workload is adjusted by hand** with the **Level Up/Down keys** (2023: **Level +/-**).
 - The **dot matrix shows only the bottom row lit at first**; more rows light as the workload rises.
 
-**There are 40 levels of resistance**, twice as many as any other residential XE elliptical.
+**There are 40 levels of resistance**, twice as many as any other residential XE elliptical - the
+XE895-2018, which shares this machine's console face, has 20.
 
-**The banding as printed contradicts itself and both printings and both generations repeat the same
-error.** Word for word, all four documents say:
+**The banding as printed contradicts itself, and every printing of both generations repeats the same
+error.** Word for word, all five documents - the August 2018 printing (p. 19), both 2021 printings
+and the 2023 manual - say:
 
 > The first 10 levels are very easy workloads and the changes between levels are set to a good
 > progression for de-conditioned users. Levels 6-10 are more challenging, but the increases in
@@ -61,5 +64,6 @@ described.** This is the 20-level paragraph (`spirit-xe-console-quick-start-with
 with only its first and last figures changed. **Only "40 levels of resistance" should be quoted as
 fact; the banding in between is not reliable.**
 
-**The 2021 manuals print "extremely difficult"; so does the 2023.** The 20-level machines mostly
-print "extremely hard".
+**The 2018 and 2021 manuals print "extremely difficult"; so does the 2023.** The 20-level machines
+mostly print "extremely hard". **The error is not a 2021 typo** - it was already in the August 2018
+book.

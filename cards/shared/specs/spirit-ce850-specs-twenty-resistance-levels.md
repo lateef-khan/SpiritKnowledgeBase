@@ -3,7 +3,7 @@ id: spirit-ce850-specs-twenty-resistance-levels
 title: 20 levels of resistance, in four bands of five
 kind: spec
 question: How many resistance levels does a Spirit CE850 commercial elliptical, or
-  a Spirit XE195, XE295, XE395 or XG400 home machine, have?
+  a Spirit XE195, XE295, XE395, XE895 or XG400 home machine, have?
 asked_as:
 - how many resistance levels on the ce850
 - what is the top level on this elliptical
@@ -28,11 +28,16 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: specs
   code: '*'
@@ -42,6 +47,7 @@ not_to_be_confused_with:
 - e25-2023-console-data-ranges
 - e95-2016-console-data-ranges
 see_also:
+- xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed
 - spirit-ce-specs-no-specification-table
 - spirit-ce850-specs-stride-length-18-to-24-inches
 - spirit-xe-specs-no-specification-table
@@ -51,13 +57,15 @@ source:
   locator: 'p. 20, Console Operation, the paragraph beginning "There are 20 levels
     of resistance"; the same paragraph is CE850-2016 p. 17 and CE850-2022 p. 21,
     and on the residential machines XE395-2010 p. 17, XE195-2021 p. 18, XG400-2021
-    p. 18, XE295-2021 p. 19, XE395ENT-2021 p. 19 and XE395-2023 p. 18'
+    p. 18, XE295-2021 p. 19, XE395ENT-2021 p. 19, XE395-2023 p. 18, XE195-2019 p.
+    18, XG400-2019 p. 18, XE295-2019 p. 19, XE395-2018 p. 20 and XE895-2018 p. 21'
   extracted_at: '2026-09-09'
 ---
 
-**20 levels.** Level 1 is the easiest. Nine Spirit ellipticals share this figure:
-the three commercial CE850 printings and six residential machines - the XE195-2021,
-XE295-2021, XG400-2021 and all three XE395s (2010, ENT-2021 and 2023).
+**20 levels.** Level 1 is the easiest. Fourteen Spirit ellipticals share this
+figure: the three commercial CE850 printings and eleven residential machines - both
+XE195 printings, both XE295 printings, both XG400 printings, the XE895-2018 and all
+four XE395s (2010, 2018, ENT-2021 and 2023).
 
 The manuals describe the levels in four bands of five, and the two families print
 the band edges one level apart:
@@ -74,17 +82,26 @@ residential books describe the same dot-matrix behaviour a line earlier instead 
 the bottom row lights first and more rows light as the workload rises.
 
 All three CE850 printings agree, including the 2022 printing that added the water
-bottle holder. All six residential books agree word for word, and the 2023 rewrite
-of the XE395 changed only "extremely hard" to "extremely difficult".
+bottle holder. All eleven residential books agree word for word, and the 2023
+rewrite of the XE395 changed only "extremely hard" to "extremely difficult". The
+2018 and 2019 printings - XE395-2018, XE895-2018, XE195-2019, XE295-2019 and
+XG400-2019 - carry the paragraph unchanged, so the figure is stable across every
+printing of these machines.
+
+**The XE895-2018 has 20 resistance levels and a separate powered stride**, set per
+segment in the custom programs. Its stride level is a different control and a
+different scale, and the manual states no count for it - see
+`xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed`.
 
 **Not to be confused with the 40 levels of the CE800, CE900, CES880 and XE795.**
 Those manuals print the same paragraph with 40 in place of 20 - see
 `spirit-ce-specs-forty-resistance-levels`. None of the consoles on this card will
 accept a level above 20. **The XE795 is the one residential machine in the family
-that goes to 40**, so check which model is in front of you before quoting either
-number.
+that goes to 40**, in all four of its printings, so check which model is in front
+of you before quoting either number. The XE895-2018 sits one model number above the
+XE795 and still runs to 20, not 40.
 
-**Two of the eleven residential books state no level count at all.** The
+**Two of the seventeen residential books state no level count at all.** The
 XE100/XE200/XE300 and XE150/XE350/XE550 manuals never say how many levels their
 consoles have; their program pages give only a per-program maximum work level such
 as Hill = 7. Do not answer those machines with 20.

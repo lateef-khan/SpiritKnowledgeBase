@@ -1,10 +1,11 @@
 ---
 id: xe195-2021-assembly-hardware-by-step
-title: Four hardware panels, and the three sheet metal screws of item 120 that no step
-  uses
+title: Four hardware panels, the three sheet metal screws of item 120 that no step
+  uses, and the step-four screw that changed from M5 x 12mm to M5 x 10mm between
+  printings
 kind: fact
-question: What hardware is in each step's bag when I assemble a Spirit xe195-2021
-  elliptical?
+question: What hardware is in each step's bag when I assemble a Spirit XE195 elliptical
+  (xe195-2019 or xe195-2021)?
 asked_as:
 - what bolts go in step one of the xe195
 - hardware list for the spirit xe195
@@ -23,8 +24,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe195-2021
+  model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   section: assembly
   code: '*'
@@ -38,7 +40,9 @@ see_also:
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
   locator: pp. 13-16, the four panels headed HARDWARE FOR STEP 1 to HARDWARE FOR
-    STEP 4, each with the columns PART, TYPE, DESCRIPTION, QTY
+    STEP 4, each with the columns PART, TYPE, DESCRIPTION, QTY; the same four panels
+    at pp. 13-16 of the 2019 printing (`spirit-elliptical-xe195-2019-owners-manual`),
+    whose step-four panel differs
   extracted_at: '2026-09-09'
 ---
 
@@ -76,10 +80,34 @@ Every panel has the same four columns - **PART, TYPE, DESCRIPTION, QTY**.
 
 ## Hardware for step 4
 
+**This is the one panel that changed between the two printings.**
+
+*2021 printing (`xe195-2021`):*
+
 | Part | Type | Description | Qty |
 |---|---|---|---|
 | 116 | Phillips head screw | M5 X 10MM | 8 |
 | 119 | Sheet metal screw | 3.5 X 12MM | 6 |
+
+*2019 printing (`xe195-2019`):*
+
+| Part | Type | Description | Qty |
+|---|---|---|---|
+| 115 | Phillips head screw | M5 X 12MM | 8 |
+| 119 | Sheet metal screw | 3.5 X 12MM | 6 |
+
+**Item 115, M5 x 12mm on the 2019 printing; item 116, M5 x 10mm on the 2021.** Same
+quantity, same three jobs, same sheet metal screw beside it - a different screw with a
+different number, two millimetres longer on the earlier book. The step text follows
+the panel in each book, calling the screw (115) throughout the 2019 build and (116)
+throughout the 2021 build. **Order by the printing in front of you, not by the model
+name.** The XE295 uses item 115, M5 x 12mm, on both of its printings.
+
+## The other three panels did not change
+
+Steps 1, 2 and 3 are printed unchanged in the XE195 2019 manual - every part number,
+type, description and quantity, compared row by row. So are the leftover three screws
+of item 120 and the phantom item 127 below.
 
 ## Item 120 is supplied and never used
 
@@ -107,8 +135,8 @@ with the same printed size and different item numbers; order by item number.
 - Step 1's **six** of item 176 close exactly: four for the rear floor support, two
   for the rail-to-frame joint.
 - Step 2's **four** wave washers close exactly: two per axle.
-- Step 4's **eight** of item 116 close exactly, and its **six** of item 119 close at
-  three per side.
+- Step 4's **eight** Phillips screws close exactly - item 116 on the 2021 printing,
+  item 115 on the 2019 - and its **six** of item 119 close at three per side.
 - Step 1's **six** curved washers (153) do not close against the printed text. Job 4
   puts one on each of two bolts, and job 7 says "Curved Washers (153) on each side"
   without a count.

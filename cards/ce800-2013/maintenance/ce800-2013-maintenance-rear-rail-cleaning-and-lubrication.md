@@ -27,12 +27,16 @@ facets:
   applies_to:
   - ce800-2013
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xg400-2019
   - xg400-2021
   section: maintenance
   code: '*'
@@ -45,7 +49,7 @@ see_also:
 - spirit-xe-maintenance-squeak-thump-or-clicking
 source:
   ref: spirit-elliptical-ce800-2013-owners-manual
-  locator: 'GENERAL MAINTENANCE item 2.II; sources/spirit-elliptical-ce800-2013-owners-manual/text.md lines 1028-1033, scan page 28 (printed 26). The same paragraph, checked word for word with difflib, is spirit-elliptical-xe100-xe200-xe300-owners-manual p. 42 item 2.ii, spirit-elliptical-xe395-2010-owners-manual p. 28 item 2.II, and item II of the GENERAL MAINTENANCE list of spirit-elliptical-xe195-2021-owners-manual p. 31, spirit-elliptical-xe295-2021-owners-manual p. 34, spirit-elliptical-xe395ent-2021-owners-manual p. 46 and spirit-elliptical-xg400-2021-owners-manual p. 33'
+  locator: 'GENERAL MAINTENANCE item 2.II; sources/spirit-elliptical-ce800-2013-owners-manual/text.md lines 1028-1033, scan page 28 (printed 26). The same paragraph, checked word for word with difflib, is spirit-elliptical-xe100-xe200-xe300-owners-manual p. 42 item 2.ii, spirit-elliptical-xe395-2010-owners-manual p. 28 item 2.II, and item II of the GENERAL MAINTENANCE list of spirit-elliptical-xe195-2021-owners-manual p. 31, spirit-elliptical-xe295-2021-owners-manual p. 34, spirit-elliptical-xe395ent-2021-owners-manual p. 46 and spirit-elliptical-xg400-2021-owners-manual p. 33. Four earlier printings carry the same paragraph, unchanged: spirit-elliptical-xe395-2018-owners-manual printed p. 36, spirit-elliptical-xe195-2019-owners-manual printed p. 31, spirit-elliptical-xe295-2019-owners-manual printed p. 35 and spirit-elliptical-xg400-2019-owners-manual printed p. 34. Their whole GENERAL MAINTENANCE block matches the 2021 text at difflib word-level 0.983 to 0.994, and every word difflib flags is a hyphenation break pdftotext introduced, not a change of wording; each page was also rendered at 300 dpi and gives the same text'
   extracted_at: '2026-09-09'
 ---
 
@@ -69,8 +73,12 @@ The CE900 manuals print the same cleaning steps for their **aluminium tracks** a
 lubricant - see `spirit-ce900-maintenance-track-and-wheel-cleaning`. The CE800 2021/2023, CE800ENT
 and all three CE850 manuals print no rail or track cleaning at all.
 
-**Three residential XE manuals also print none of this.** The XE795 2021 February and November
-printings drop the paragraph and go straight from loose hardware to the crank arm nut, and the
-2023 XE395 and XE795 manuals replaced the whole chapter with a four-step post-workout routine. The
-XE150/XE350/XE550 manual has no maintenance chapter at all. Do not quote a rail lubricant for any
-of those six machines.
+**The XE795 and the XE895 print none of this.** The XE795 2018 printing, both XE795 2021 printings
+and the XE895 2018 manual drop the paragraph and go straight from loose hardware to the crank arm
+nut; the 2023 XE395 and XE795 manuals replaced the whole chapter with a four-step post-workout
+routine; and the XE150/XE350/XE550 manual has no maintenance chapter at all. Do not quote a rail
+lubricant for any of those machines.
+
+**Nothing changed between the printings that do carry it.** The XE395 2018 and the XE195, XE295 and
+XG400 2019 books print this paragraph word for word with their 2021 reprints - same cloth, same
+alcohol, same thin coat, and still no brand, type, part number or interval for the lubricant.

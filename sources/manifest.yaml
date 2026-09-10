@@ -1355,12 +1355,30 @@
   origin_uri: file://Ellipticals/XE150/XE150_350_550_OwnersManual_005.pdf
   sha256: b17eb2fa3c50cbd9d36528d25b6a0130b07fcf77afacd00c2b19d489cb5e7fb6
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe195-2019-owners-manual
+  title: 2019 Spirit XE195 elliptical owner's manual, Revision 02.04.2019. Exists
+    only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xe195-2021,
+    82.8% word-level.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XE195/XE195_OM_20190204.pdf
+  sha256: 7180025207760d08886c31c2b9fdc2fe9d309e0caf74bdfe029e147f45e80aa8
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-xe195-2021-owners-manual
   title: Spirit XE195 Elliptical Trainer Owner's Manual (effective November 30, 2021)
   kind: text
   origin_uri: file://Ellipticals/XE195/XE195_20211130.pdf
   sha256: 3ef1c3db1d71734aa27c372fec680e66376db5fa3223f0b1efea69227e6962d3
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe295-2019-owners-manual
+  title: 2019 Spirit XE295 elliptical owner's manual, Revision 02.04.2019. Exists
+    only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xe295-2021,
+    85.6% word-level.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XE295/XE295_OM_20190204.pdf
+  sha256: 98628ace0fb12f3da8def2fb79870ac8caad81b6e2eb41cc20c07c87ffbc599b
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-xe295-2021-owners-manual
   title: Spirit XE295 Elliptical Trainer Owner's Manual (effective November 30, 2021)
   kind: text
@@ -1374,6 +1392,15 @@
   origin_uri: file://Ellipticals/XE395/2011/SpiritFitness_OM_XE395_2011.pdf
   sha256: 6fde29c0837e22b4a6db9e85a83df5703b0286e92e735738a7b7663f80f83574
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395-2018-owners-manual
+  title: 2018 Spirit XE395 elliptical owner's manual, Revision 08.22.2018. Exists
+    only in Bikes/bike backup/Spirit Ellipticals; sits between xe395-2010 (62.0%)
+    and xe395-2023 (30.3%).
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XE395/XE395_OM_20180822.pdf
+  sha256: 018093afe5434431c789c14a81a693c49c9be305a04b2e7d4a04bbc5e21b9584
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-xe395-2023-owners-manual
   title: Spirit XE395 Elliptical Owner's Manual (part 395023, effective August 7,
     2023)
@@ -1388,6 +1415,15 @@
   origin_uri: file://Ellipticals/XE395ENT/XE395ENT_20210225.pdf
   sha256: 7414d5c9670d56942b6ba6c2f6073be0dba02c3c5eb60df869fb93a0d768d379
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe795-2018-owners-manual
+  title: 2018 Spirit XE795 elliptical owner's manual, warranty effective August 22,
+    2018. Exists only in Bikes/bike backup/Spirit Ellipticals; the closest pair in
+    this wave at 87.1% against the February 2021 printing.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XE795/XE795_OM_20180822.pdf
+  sha256: 59520917f2bede15a5cc2e7a5940aca6cf63346b254f0a79a35fe599f6bea2b1
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-xe795-2021-february-owners-manual
   title: Spirit XE795 Elliptical Owner's Manual (effective February 19, 2021)
   kind: text
@@ -1407,6 +1443,25 @@
   origin_uri: file://Ellipticals/XE795/XE795_795023_OM_20240715.pdf
   sha256: a52f7d4ab1bc6d9a69937ed818406d177d8bf88ef74e6f2f91e4525a67a6fddb
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe895-2018-owners-manual
+  title: 2018 Spirit XE895 elliptical owner's manual, warranty effective August 22,
+    2018. A MACHINE WITH NO CARDS AT ALL - the only XE895 manual anywhere on disk,
+    and it exists only in Bikes/bike backup/Spirit Ellipticals. Nearest carded relative
+    is xe795-2021-february at 66.5%.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XE895/XE895_OM_20180822.pdf
+  sha256: 7274a626a028971fb28da7312adb1f751e556433dd7b1bfacff42571d61c6c7c
+  ingested_at: '2026-09-10'
+- id: spirit-elliptical-xg400-2019-owners-manual
+  title: 2019 Spirit XG400 E-Glide Trainer owner's manual, Revision 02.04.2019. Exists
+    only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xg400-2021,
+    84.8% word-level.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/Spirit Ellipticals/XG400/XG400_OM_20190204.pdf
+  sha256: f4f6d00fda51a401e5e15836ec3152822b8a65df450fbb97076ba9002eedb52e
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-xg400-2021-owners-manual
   title: Spirit XG400 E-Glide Trainer Owner's Manual (effective November 30, 2021)
   kind: text

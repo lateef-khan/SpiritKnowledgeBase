@@ -1,8 +1,8 @@
 ---
 id: xe195-2021-safety-remove-a-cover-only-with-dc-disconnected
-title: The one manual that says disconnect DC power before a cover comes off
+title: The two manuals that say disconnect DC power before a cover comes off
 kind: policy
-question: Do I have to disconnect power from a Spirit XE195 elliptical (xe195-2021) before removing a cover, and does its manual say AC or DC?
+question: Do I have to disconnect power from a Spirit XE195 elliptical (xe195-2019 or xe195-2021) before removing a cover, and does its manual say AC or DC?
 asked_as:
 - can i take the cover off the elliptical with it plugged in
 - do i unplug the elliptical before opening it
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe195-2021
+  model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   section: safety
   code: '*'
@@ -38,11 +39,16 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: Important Electrical Instructions, page 6, first sentence of the WARNING
+  locator: Important Electrical Instructions, page 6, first sentence of the WARNING.
+    The 2019 printing prints the same sentence on its own page 6
   extracted_at: '2026-09-09'
 ---
 
-**The XE195 manual prints DC where every other Spirit manual prints AC.**
+**Both XE195 manuals print DC where every other Spirit manual prints AC.**
+
+The February 4 2019 printing and the 2021 printing carry the sentence word for word, in the same
+position on the same page. It is the machine's wording across both generations, not a one-off
+misprint in a single book.
 
 > NEVER remove any cover without first disconnecting DC power. If voltage varies by ten percent
 > (10%) or more, the performance of your Elliptical may be affected.
@@ -51,13 +57,14 @@ source:
   off.** No exception, no waiting time, no capacitor discharge figure and no lock-out procedure.
 - Switching the machine's own power switch off is not what the sentence asks for.
 
-**The XE295, XG400 and XE395ENT manuals - the same 2021 book for the sibling machines - print `AC
-power` in the same sentence in the same position** (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`),
-and so do the 2005, 2007 and 2010 XE manuals and the XE395-2023 manual. **The XE195 is the only one
-of the fourteen that says DC.**
+**Every sibling manual prints `AC power` in the same sentence in the same position**
+(`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`): the XE295, XG400 and XE395ENT 2021
+books, the XE295-2019 and XG400-2019 books, the XE395-2018 and XE895-2018 books, the 2005, 2007 and
+2010 XE manuals, and the XE395-2023 manual. **The XE195 is the only machine of the range that says
+DC, and it says it in both of its printings.**
 
-**Nothing in the manual reconciles it.** Two pages earlier the same book asks for a 115-volt, 15-amp
-grounded outlet and lists `1 Power Cord` among the parts
+**Nothing in either manual reconciles it.** Two pages earlier the same book asks for a 115-volt,
+15-amp grounded outlet and lists `1 Power Cord` among the parts
 (`spirit-xe-safety-outlet-115-volt-15-amp`), so the supply that reaches the machine is AC. The
 manual describes no DC supply anywhere.
 

@@ -36,6 +36,7 @@ not_to_be_confused_with:
 - spirit-ce900-assembly-parts-included
 - ces880-2025-assembly-parts-included
 see_also:
+- spirit-xe-assembly-parts-included-2021
 - spirit-ce850-assembly-tools-included
 - spirit-ce850-assembly-procedure
 - spirit-ce-assembly-water-bottle-holder

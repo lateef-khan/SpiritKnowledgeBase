@@ -1,10 +1,11 @@
 ---
 id: spirit-xe-assembly-tools-2021
-title: The four tools in the 2021 carton, and the 5mm and 8mm L wrenches the steps
-  ask for and the panel does not list
+title: The four tools in the carton - 13/14mm, 12/14mm, Phillips and a combination
+  M5 Allen - and the 5mm and 8mm L wrenches the steps ask for and the panel does not
+  list
 kind: fact
-question: What tools come in the box with a Spirit XE195, XE295, XE395ENT, XE795 2021
-  or XG400, and do I need anything else?
+question: What tools come in the box with a Spirit XE195, XE295, XE395 2018, XE395ENT,
+  XE795 or XG400 elliptical, and do I need anything else?
 asked_as:
 - what tools do i need to build my spirit xe795
 - are the tools in the box of the xe295
@@ -25,20 +26,27 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xg400-2019
   - xg400-2021
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xe895-2018-assembly-tools-included
 - xe395-2010-assembly-tools-included
 - spirit-xe-assembly-tools-2005-2007
 - xe795-2023-assembly-tools-included
 - xe395-2023-assembly-tools-included
 see_also:
+- xe895-2018-assembly-tools-included
 - spirit-xe-assembly-parts-included-2021
 - ct900-pre-assembly
 - xe195-2021-assembly-procedure
@@ -49,11 +57,17 @@ see_also:
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
   locator: p. 9, TOOLS INCLUDED; the same four at p. 9 of the XE195 and XG400
-    manuals, p. 7 of both XE795 2021 printings and p. 10 of the XE395ENT manual
+    manuals, p. 7 of both XE795 2021 printings and p. 10 of the XE395ENT manual;
+    the same four again at p. 9 of the XE395 2018, XE195 2019, XE295 2019 and
+    XG400 2019 manuals (`spirit-elliptical-xe395-2018-owners-manual`,
+    `spirit-elliptical-xe195-2019-owners-manual`,
+    `spirit-elliptical-xe295-2019-owners-manual`,
+    `spirit-elliptical-xg400-2019-owners-manual`) and p. 7 of the XE795 2018 manual
+    (`spirit-elliptical-xe795-2018-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
-All five cartons list the same four tools, and nothing else:
+All ten cartons list the same four tools, and nothing else:
 
 - 13/14mm Wrench
 - Phillips Head Screwdriver
@@ -66,9 +80,9 @@ that is both an M5 Allen key and a Phillips driver.
 
 ## The steps ask for tools that are not on this panel
 
-- The **XE795 2021** build names a **5MM L WRENCH** in steps 1 and 4 and an **8MM L
-  WRENCH** in step 3. Neither is on its tools panel, and neither is anywhere in its
-  carton list.
+- The **XE795** build names a **5MM L WRENCH** in steps 1 and 4 and an **8MM L
+  WRENCH** in step 3, on the 2018 printing and both 2021 printings alike. Neither is
+  on its tools panel, and neither is anywhere in its carton list.
 - The **XG400** build names an **8mm Allen WRENCH (108)** in step 1.
 - The **XE295** build names an **L ALLEN WRENCH (177)** in steps 1 and 4, where the
   XE195 calls the same item 177 the **COMBINATION M5 ALLEN WRENCH & PHILLIPS HEAD
@@ -76,6 +90,16 @@ that is both an M5 Allen key and a Phillips driver.
 
 The M5 combination tool will do a 5mm socket head. **Nothing in any of these five
 cartons is an 8mm Allen key**, so an XE795 or XG400 builder has to supply one.
+
+## The panel did not change between 2018 and 2021
+
+The XE395 2018, XE795 2018, XE195 2019, XE295 2019 and XG400 2019 panels list the
+same four tools in the same order as their 2021 printings, and each book's step text
+asks for the same extra wrenches. **The XE895 2018 is the one machine of this family
+that ships a different set** - it drops the combination M5 Allen tool and puts an
+**8mm L Allen wrench** in the carton instead, which is exactly the wrench the XE795
+and XG400 builders have to supply. See
+[the XE895 tools card](../../xe895-2018/assembly/xe895-2018-assembly-tools-included.md).
 
 ## The item numbers for the same tool are not stable between the five books
 
@@ -101,8 +125,9 @@ what to tighten with.
 and the XE395ENT list stops without it. Use the combination tool in the box and
 ignore the number.
 
-## This is not the 2010 panel and not the 2023 panel
+## This is not the 2010 panel, the 2023 panel or the XE895 panel
 
 The XE395 2010 carton has a **short Phillips driver** where this one has the
 combination Allen tool. The XE395 2023 carton has three tools and the XE795 2023
-carton has five. See the linked cards.
+carton has five. The **XE895 2018** carton has four, but not these four. See the
+linked cards.

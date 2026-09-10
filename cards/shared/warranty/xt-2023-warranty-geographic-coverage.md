@@ -65,12 +65,18 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xic600-2018
   - xic600-2021
@@ -134,7 +140,7 @@ source:
     (spirit-elliptical-ce900-2021-owners-manual text.md line 689), ce900-2025 pp. 37 and 38
     (spirit-elliptical-ce900-2025-owners-manual text.md lines 1138 and 1171) and ces880-2025
     pp. 59 and 60 (spirit-elliptical-ces880-2025-owners-manual text.md lines 2021 and 2054)
-    Both sentences are printed in seven of the eleven Spirit XE and XG residential owners
+    Both sentences are printed in thirteen of the seventeen Spirit XE and XG residential owners
     manuals: xe795-2021-february p. 38-39 (spirit-elliptical-xe795-2021-february-owners-manual
     text.md lines 961, 984-985), xe395ent-2021 p. 48
     (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 955, 977-978), xe195-2021 p.
@@ -144,7 +150,11 @@ source:
     xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
     lines 984, 1007-1008), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
     1492, 1496-1497 and 1531-1532), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual
-    text.md lines 1371, 1375-1376 and 1410-1411) The 48-states note in all eight Spirit indoor
+    text.md lines 1371, 1375-1376 and 1410-1411), and in the six printings filed under
+    Bikes/bike backup: xe395-2018 pp. 38-39 (spirit-elliptical-xe395-2018-owners-manual text.md
+    lines 1340, 1362-1363), xe795-2018 pp. 38-39 (lines 1290, 1313-1314), xe895-2018 pp. 37-38
+    (lines 1382, 1405-1406), xe195-2019 pp. 33-34 (lines 1077, 1101-1102), xe295-2019 pp. 37-38
+    (lines 1180, 1202-1203), xg400-2019 pp. 36-37 (lines 1187, 1209-1210). The 48-states note in all eight Spirit indoor
     cycle and air bike manuals, with the warrantor sentence immediately before it:
     spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 463-464);
     spirit-bike-xic600-2018-owners-manual p. 27 (lines 924-925);
@@ -186,13 +196,13 @@ Alaska and Hawaii are named as outside the 48 contiguous states. The manuals sta
 
 **The CT900, CT900ENT and CTSBS900 print both sentences too, and split between the two patterns.** The **CT900** (exclusion 9 p. 53, note p. 53 and again p. 54) and the **CTSBS900** (exclusion 9 p. 55, note p. 55 and again p. 56) follow the 2023 pattern exactly - twice, "does not **include**" first and "does not **apply to**" second - and both name the warrantor **Spirit Fitness, Inc.** The **CT900ENT** follows the 2015 pattern: the note appears **once**, at the foot of the SERVICE page (p. 52), reads "does not **apply to**", and names **Spirit Manufacturing, Inc.** Its outside-the-US sentence is also the only one on this card that is **unnumbered** - printed below item 8 rather than as an item of the list, because that list runs to eight items and not nine. The sentences themselves do not change on any of the three. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.
 
-## Seven Spirit XE and XG residential machines print both sentences, and one of them says North America
+## Thirteen Spirit XE and XG residential manuals print both sentences, and two of them say North America
 
-The 48-states note is word for word the same on all seven - the XE195, XE295, XE395ENT, XE795 (both 2021 printings and 2023), XG400 and XE395 2023 - and all seven name the warrantor **Spirit Fitness, Inc.**
+The 48-states note is word for word the same on all thirteen - the XE395 2018, XE795 2018, XE895 2018, XE195 (2019 and 2021), XE295 (2019 and 2021), XG400 (2019 and 2021), XE395ENT, XE795 (both 2021 printings and 2023) and XE395 2023 - and all thirteen name the warrantor **Spirit Fitness, Inc.**
 
-**The 2021 manuals follow the 2015 pattern** - the note printed **once**, at the foot of the SERVICE page, reading "does not **apply to** Alaska or Hawaii". **The two 2023 manuals follow the 2023 pattern** - printed **twice**, "does not **include**" under the exclusions and "does not **apply to**" under the service steps.
+**The 2018, 2019 and 2021 manuals follow the 2015 pattern** - the note printed **once**, at the foot of the SERVICE page, reading "does not **apply to** Alaska or Hawaii". **The two 2023 manuals follow the 2023 pattern** - printed **twice**, "does not **include**" under the exclusions and "does not **apply to**" under the service steps.
 
-**The XE195 exclusion says North America where its six siblings say the United States.** Its item 8 reads *Warranties outside of **North America** may vary*, while the XE295, XE395ENT, XG400, XE795 and both 2023 manuals read *outside of the **United States***. The 48-states note under the list is unchanged on all seven, so the XE195 manual limits the warranty to the 48 contiguous states in one sentence and implies cover across North America in another. It never reconciles them - quote both. See `spirit-xe-warranty-exclusions-residential-setting-only`.
+**The XE195 exclusion says North America where its eleven siblings say the United States, and it does so in both printings.** The last item of its list reads *Warranties outside of **North America** may vary* in the February 04, 2019 manual and again in the November 30, 2021 one, while the XE395 2018, XE795 2018, XE895 2018, XE295, XE395ENT, XG400, XE795 and both 2023 manuals read *outside of the **United States***. The 48-states note under the list is unchanged on all thirteen, so the XE195 manual limits the warranty to the 48 contiguous states in one sentence and implies cover across North America in another. It never reconciles them, in either printing - quote both. See `spirit-xe-warranty-exclusions-residential-setting-only`.
 
 **The three older XE books are not on this card and say the opposite.** The 2005 XE150/XE350/XE550, the 2007 XE100/XE200/XE300 and the 2010 XE395 cover the **50 states of the U.S.A.** - Alaska and Hawaii included - and the 2005 book covers **Canada** as well. Answering one of those from this card takes away cover their manuals give: `spirit-xe-warranty-geographic-fifty-states`.
 

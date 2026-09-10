@@ -32,6 +32,7 @@ not_to_be_confused_with:
 - xe395ent-2021-assembly-procedure
 - xe395-2023-assembly-procedure
 see_also:
+- xe395-2018-assembly-procedure
 - xe395-2010-assembly-hardware-by-step
 - xe395-2010-assembly-tools-included
 - spirit-xe-assembly-levelling-bottom-nut

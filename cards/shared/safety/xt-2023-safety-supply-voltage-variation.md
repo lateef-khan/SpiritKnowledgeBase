@@ -32,15 +32,20 @@ facets:
   - mt200-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt185-2015
   - xt185-2023
@@ -178,3 +183,13 @@ machine's name; the figure and the exclusion are unchanged.
 the CR900ENT-2021 and CU900ENT print no electrical figures at all
 (`spirit-bike-safety-no-mains-outlet-needed`, `spirit-xe-safety-no-outlet-figure-printed`). Do not
 quote a ten-percent rule for any of those ten.
+
+
+## Five earlier Spirit residential ellipticals print it too
+
+**The XE395-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals print the ten-percent
+sentence** at the head of their Important Electrical Instructions, with `Elliptical` - or `E-Glide`
+in the XG400 - in place of the treadmill's name. The figure and the warranty exclusion are
+unchanged. **The XE795-2018 does not print it**, as neither 2021 XE795 printing does: that book's
+electrical page is the generator warning instead
+(`spirit-ce-safety-generator-produces-ac-power`).

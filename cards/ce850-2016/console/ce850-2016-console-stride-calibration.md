@@ -26,7 +26,8 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xe895-2018-errors-stride-calibration-three-key-hold
 see_also:
 - ce850-2016-console-engineering-mode-security-lock
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
@@ -48,6 +49,11 @@ That is the whole procedure as printed. The manual gives **no figure to compare 
 expected duration and no pass or fail message**, and does not say whether the machine must be
 stationary or being pedalled.
 
-**No other Spirit elliptical owner's manual in this family prints a stride calibration.** The
+**No other Spirit commercial elliptical owner's manual prints a stride calibration.** The
 CE850-2020 and CE850-2022 maintenance menus carry a **Stride test** under Service, which is a test
 rather than a calibration: `spirit-ce850-console-maintenance-menu-cab-or-csafe`.
+
+**One residential book does print one, with a different key hold.** The XE895 2018 manual runs its
+stride calibration from **Start, Level up and Stop held together for 5 seconds**, with no Enter -
+see `xe895-2018-errors-stride-calibration-three-key-hold`. Quote the combination that belongs to
+the machine in front of you.

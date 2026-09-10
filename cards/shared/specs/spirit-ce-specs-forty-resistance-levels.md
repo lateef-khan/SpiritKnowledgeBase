@@ -43,6 +43,7 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xe795-2018
   - xe795-2021
   - xe795-2023
   section: specs
@@ -61,18 +62,19 @@ source:
   locator: 'p. 15, Console Operation, the paragraph beginning "There are 40 levels
     of resistance"; the same paragraph is CE800-2023 p. 16, CE900-2021 p. 14, CE900-2025
     p. 15, CES880-2025 p. 29 and CE800-2013 PDF page 16, on the residential machines
-    XE795-2021 February p. 19, XE795-2021 November p. 19 and XE795-2023 p. 17, and
+    XE795-2018 p. 19, XE795-2021 February p. 19, XE795-2021 November p. 19 and
+    XE795-2023 p. 17, and
     on the commercial bikes CR800-2021 p. 15, CR800-2023 p. 15, CR900-2018 p. 14, CR900-2025
     p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p. 13, CU900-2025 p. 14,
     CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans'
   extracted_at: '2026-09-09'
 ---
 
-**40 levels.** Level 1 is the easiest. Eighteen Spirit machines share this
-figure - eight ellipticals and ten commercial bikes:
+**40 levels.** Level 1 is the easiest. Nineteen Spirit machines share this
+figure - nine ellipticals and ten commercial bikes:
 
 - **Ellipticals:** the commercial CE800, CE900 and CES880, and the residential
-  XE795 in both its 2021 printings and its 2023 rewrite.
+  XE795 in its 2018 printing, both its 2021 printings and its 2023 rewrite.
 - **Bikes:** the commercial CR800 (2021 and 2023), CR900 (2018 and 2025),
   CR900ENT-2021, CU800 (2012 and 2021), CU900 (2018 and 2025) and CU900ENT-2021.
 
@@ -92,29 +94,31 @@ shown on the console as 10 rows of lights:
 
 The wording is identical in all six, including the OCR'd 2013 scan.
 
-## The three XE795 books print a band list that does not add up
+## The four XE795 books print a band list that does not add up
 
-**The count of 40 is not in doubt** - all three XE795 books open the paragraph with
+**The count of 40 is not in doubt** - all four XE795 books open the paragraph with
 "There are 40 levels of resistance available for plenty of variety". What follows
 is a botched edit of the 20-level paragraph: the first band is widened to ten
 levels and the last is moved to 30-40, but the two middle bands are left at their
 20-level values.
 
-Printed in the XE795-2021 February, XE795-2021 November and XE795-2023 books, word
-for word:
+Printed in the XE795-2018, XE795-2021 February, XE795-2021 November and XE795-2023
+books, word for word:
 
 > The first 10 levels are very easy ... Levels 6-10 are more challenging ... Levels
 > 11-15 start getting tough ... Levels 30-40 are extremely difficult
 
 Levels 6 to 10 are described twice and levels 16 to 29 are not described at all.
-**This is what the source says; it has not been tidied up here.** Answer a customer
+**This is what the source says; it has not been tidied up here.** The 2018 printing
+carries it too, so the botched edit is four printings old and is not a typo
+introduced in 2021. Answer a customer
 with the count - 40 - and with the commercial band table only if you say it comes
 from a different book. Do not present the XE795's own band list as a coherent
 scale.
 
-**Not to be confused with the nine Spirit ellipticals that have 20 levels, not
-40.** The CE850, and the residential XE195, XE295, XG400 and all three XE395s, top
-out at 20 - see `spirit-ce850-specs-twenty-resistance-levels`. The paragraphs are
+**Not to be confused with the fourteen Spirit ellipticals that have 20 levels, not
+40.** The CE850, and the residential XE195, XE295, XG400, XE895 and all four
+XE395s, top out at 20 - see `spirit-ce850-specs-twenty-resistance-levels`. The paragraphs are
 otherwise word for word the same, so a search on the wording will return both.
 **The XE395 and the XE795 sit in the same residential range and differ by half the
 scale**, so confirm which model is in front of you.

@@ -31,7 +31,9 @@ facets:
   - cu800ent-2022
   - cu800ent-2024
   - xe395-2010
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
   - xt185-2015
   - xt285-2015
   - xt485-2015
@@ -138,6 +140,14 @@ reconciles the two figures; quote the gauge from the machine's own manual.
 **Six residential XE manuals print no extension-cord rule at all** - the XE100/XE200/XE300 and
 XE150/XE350/XE550 books, which have no outlet page, and the two 2023 books
 (`spirit-xe-safety-no-outlet-figure-printed`).
+
+**Two more residential ellipticals print the same 14AWG sentence.** The **XE795-2018** printing
+carries it exactly as the two 2021 XE795 printings do, and the **XE895-2018** carries it in the same
+position in its WARNING header. The XE895 is the one 14AWG book of the five that also asks for a
+dedicated 15 amp breaker (`spirit-house-breaker-needs-a-high-inrush-type`); the circuit all five ask
+for is 110 volt at 15 amp (`spirit-xe-safety-outlet-110-volt-15-amp`). Their 115-volt siblings ask
+for the thinner 18AWG instead (`xt385-2015-safety-extension-cord-18-awg-or-better`), so never carry
+a gauge from one XE book to another.
 
 **The three mains-powered Spirit commercial bikes print the same gauge**, in two wordings:
 

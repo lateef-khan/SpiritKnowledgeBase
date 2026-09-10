@@ -22,9 +22,13 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xg400-2019
   - xg400-2021
   - xt385-2015
   section: safety
@@ -68,20 +72,26 @@ Other Spirit manuals print 14 AWG (`ct850-2020-extension-cord-14-awg-or-better`)
 (`spirit-extension-cord-16-awg-or-better`) for other machines. None of those is an XT385-2015
 figure either.
 
-## Four 2021 Spirit residential ellipticals print the same 18AWG sentence
+## Eight Spirit residential ellipticals print the same 18AWG sentence
 
-**The XE195, XE295, XG400 and XE395ENT owner's manuals print it word for word and in the same
-capitals**, in the WARNING header of their Important Safety Instructions:
+**The XE195, XE295, XG400 and XE395ENT 2021 owner's manuals, and the XE395-2018, XE195-2019,
+XE295-2019 and XG400-2019 printings, print it word for word and in the same capitals**, in the
+WARNING header of their Important Safety Instructions:
 
 > DO NOT USE AN EXTENSION CORD UNLESS IT IS A 18AWG OR BETTER, WITH ONLY ONE OUTLET ON THE END:
 
-18AWG minimum, one outlet on the end. The circuit these four ask for is **115 volt at 15 amp** with
+18AWG minimum, one outlet on the end. The circuit these eight ask for is **115 volt at 15 amp** with
 a dedicated 15 amp breaker (`spirit-xe-safety-outlet-115-volt-15-amp`).
 
-**Their own XE stablemates print 14AWG.** The XE395-2010 manual and both 2021 XE795 printings ask for
-14AWG or better in the same position (`xt-2015-safety-extension-cord-14-awg-or-better`), so the
-residential elliptical range disagrees with itself exactly as the 2015 XT range does. Quote the
-gauge from the machine's own manual and never carry one across.
+**Their own XE stablemates print 14AWG.** The XE395-2010 manual, the **XE895-2018** manual and all
+three XE795 printings ask for 14AWG or better in the same position
+(`xt-2015-safety-extension-cord-14-awg-or-better`), so the residential elliptical range disagrees
+with itself exactly as the 2015 XT range does. Quote the gauge from the machine's own manual and
+never carry one across.
 
-**The XG400 manual prints `E-Glide` where the other three print `elliptical`.** Its cover reads
+**The XE395-2018 and the XE895-2018 were printed on the same day and disagree.** August 22 2018 on
+both covers; the XE395 book says 18AWG and the XE895 book says 14AWG. There is no year to tell them
+apart, only the model.
+
+**The XG400 manuals print `E-Glide` where the others print `elliptical`.** The 2019 cover reads
 `XG400 E-Glide Trainer`; the gauge is the same.

@@ -3,7 +3,8 @@ id: xe195-2021-assembly-procedure
 title: 'Four-step build with one-piece swing arms: console mast and rails, swing arms,
   connecting arms, then covers and levellers'
 kind: procedure
-question: How do I assemble a Spirit xe195-2021 elliptical from the box?
+question: How do I assemble a Spirit XE195 elliptical (xe195-2019 or xe195-2021) from
+  the box?
 asked_as:
 - how do i put my xe195 together
 - assembly instructions for the spirit xe195
@@ -22,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe195-2021
+  model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   section: assembly
   code: '*'
@@ -38,7 +40,9 @@ see_also:
 - spirit-xe-assembly-levelling-bottom-nut
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: pp. 12-16, XE195 STEP ONE to STEP FOUR
+  locator: pp. 12-16, XE195 STEP ONE to STEP FOUR; the same four steps at
+    pp. 12-16 of the 2019 printing (`spirit-elliptical-xe195-2019-owners-manual`),
+    whose step four names a different screw
   extracted_at: '2026-09-09'
 ---
 
@@ -95,6 +99,19 @@ handlebar wiring to join - the XE295 and XE395ENT both have both.
    the handle bar axle connections, **3 SHEET METAL SCREWS (119) on each side**.
 4. Check the four floor levellers under the middle and rear of the machine - see
    [the levelling card](../../shared/assembly/spirit-xe-assembly-levelling-bottom-nut.md).
+
+## The 2019 printing builds the same way with one different screw
+
+The XE195 2019 manual prints the same four steps, in the same order, with the same
+item numbers and counts everywhere except step four's Phillips screw: **item 115,
+M5 x 12mm** on the 2019 printing against **item 116, M5 x 10mm** on the 2021. Every
+sentence of step four that reads (116) above reads (115) in the 2019 book. Steps one
+to three are word for word the same, including the phantom nut 127 below. See
+[the hardware card](xe195-2021-assembly-hardware-by-step.md).
+
+**Its machine diagram is not the same either.** The 2019 book labels **SPEAKERS** and
+**PULSE GRIPS**; the 2021 book has no speakers label and says PULSE SENSORS. See
+[the diagram card](../../shared/assembly/spirit-xe-assembly-parts-diagram-labels-2021.md).
 
 ## Nothing in this build needs mains power
 

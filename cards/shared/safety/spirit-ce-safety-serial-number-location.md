@@ -45,15 +45,21 @@ facets:
   - cu900ent
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -131,6 +137,19 @@ XE550, XE395-2010, XE195, XE295, XE395ENT, XE795-2021 and XG400 puts the locatio
 prints a `Record Your Serial Number` heading, the sentence
 `Please record the serial number of this fitness product in the space provided below`, and a blank
 line.
+
+**Six earlier printings filed under `Bikes` say no more either.** The XE395-2018, XE795-2018,
+XE895-2018, XE195-2019, XE295-2019 and XG400-2019 books print the same blank and the same
+`Serial Number Location` illustration beside their operation instructions, with no location in
+words, no product labels page and no description of the sticker.
+
+**The illustration is not quite silent: it carries an arrow.** In the XE395-2018 and XE895-2018
+drawings a curved arrow points from the left at the **lower front of the machine, at the base of the
+front shroud** - forward of the pedal arms and below the flywheel housing. That is a drawing, not a
+sentence: it narrows where to look but names no part, so **say the manual shows the front of the
+machine rather than quoting it as a stated location**. The 2023 books' PRODUCT LABELS page, which
+does say *front stabilizer* in words, is the only stated answer in the range and is a different
+machine's book.
 
 **Six of them add an unlabelled illustration captioned `Serial Number Location`** - the XE195, XE295,
 XG400, XE395ENT and both XE795 2021 printings, beside their operation instructions. The caption is

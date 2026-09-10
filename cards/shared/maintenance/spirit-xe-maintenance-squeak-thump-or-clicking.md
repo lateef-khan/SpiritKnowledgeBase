@@ -3,8 +3,8 @@ id: spirit-xe-maintenance-squeak-thump-or-clicking
 title: A squeak or thump traced to loose hardware, dirty rear rails, the crank arm
   nut, or two leveling pads out of adjustment
 kind: troubleshooting
-question: What makes a Spirit XE195, XE295, XE395ENT or XG400 squeak, thump or click,
-  and what do I do after each workout?
+question: What makes a Spirit XE195, XE295, XE395, XE395ENT or XG400 squeak, thump
+  or click, and what do I do after each workout?
 asked_as:
 - my elliptical squeaks when i pedal
 - there is a thumping noise from the machine
@@ -27,9 +27,13 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xg400-2019
   - xg400-2021
   section: maintenance
   code: '*'
@@ -42,13 +46,14 @@ see_also:
 - ce800-2013-maintenance-rear-rail-cleaning-and-lubrication
 - ct900-sanitizing-equipment
 - spirit-ce-maintenance-no-repair-beyond-this-manual
+- spirit-xe-maintenance-no-sanitizing-section
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: 'GENERAL MAINTENANCE, printed p. 31; text.md lines 678-694. The same list, checked word for word with difflib at a ratio of 1.000 against all three, is spirit-elliptical-xe295-2021-owners-manual p. 34 (text.md lines 794-810), spirit-elliptical-xe395ent-2021-owners-manual p. 46 (text.md lines 893-909) and spirit-elliptical-xg400-2021-owners-manual p. 33 (text.md lines 812-828)'
+  locator: 'GENERAL MAINTENANCE, printed p. 31; text.md lines 678-694. The same list, checked word for word with difflib at a ratio of 1.000 against all three, is spirit-elliptical-xe295-2021-owners-manual p. 34 (text.md lines 794-810), spirit-elliptical-xe395ent-2021-owners-manual p. 46 (text.md lines 893-909) and spirit-elliptical-xg400-2021-owners-manual p. 33 (text.md lines 812-828). Four earlier printings carry the identical list, checked with difflib at word level against the 2021 text and differing only where pdftotext hyphenates across a line break (0.983 for the first three, 0.994 for the XG400): spirit-elliptical-xe195-2019-owners-manual printed p. 31, spirit-elliptical-xe295-2019-owners-manual printed p. 35, spirit-elliptical-xe395-2018-owners-manual printed p. 36 (its table of contents says 34; the printed footer and the page itself say 36) and spirit-elliptical-xg400-2019-owners-manual printed p. 34. Each of those four pages was rendered at 300 dpi and read with tesseract --psm 4: native 404-406 words against 402-404 rendered, so nothing on them is imaged'
   extracted_at: '2026-09-09'
 ---
 
-**These four machines have 2 leveling pads under the rear stabilizer, and their list runs to four
+**These eight machines have 2 leveling pads under the rear stabilizer, and their list runs to four
 causes, not two.** No other Spirit machine prints this combination.
 
 1. **Wipe down all areas in the sweat path with a damp cloth after each workout.**
@@ -70,10 +75,23 @@ The manual writes the lead-in as "one of **several** reasons" and then numbers f
 fourth of which is the levelling check rather than a cause. Earlier Spirit books say "one of two
 reasons" over the same kind of list.
 
+## Eight printings, one list
+
+The list is the same on all eight machines and across three printings of it. The **XE395 2018**,
+**XE195 2019**, **XE295 2019** and **XG400 2019** books print it word for word with the 2021
+reprints of the XE195, XE295, XE395ENT and XG400; the only differences difflib finds are places
+where `pdftotext` breaks a word across a line. **No figure moved between the printings** - 90%, 2
+pads and 14mm are the same in 2018, 2019 and 2021.
+
+What the 2021 reprints did add is a **SANITIZING YOUR SPIRIT FITNESS EQUIPMENT** section on the
+facing page. The 2018 and 2019 books have none, and go straight from this page to the warranty -
+`spirit-xe-maintenance-no-sanitizing-section`.
+
 ## Every neighbouring Spirit list drops one of these four items
 
-- The **XE795 2021** February and November printings drop the **rail cleaning** and keep the crank
-  arm nut, giving three items and the same 2 pads -
+- The **XE795** and **XE895** drop the **rail cleaning** and keep the crank arm nut, giving three
+  items and the same 2 pads - the 2018 printings of both and the 2021 February and November
+  printings of the XE795 are one list,
   `ct800-2016-maintenance-squeak-thump-or-clicking`. That card also covers the CE800 2021/2023,
   CE800ENT, CE850 and the CT800 2016 and CT850 2018 treadmills.
 - The **XE100/XE200/XE300**, **XE395 2010** and **CE800 2013** drop the **crank arm nut**, keep the
@@ -87,9 +105,10 @@ figures, and quoting the wrong one sends an owner under the wrong end of the fra
 
 ## The XG400 is not an elliptical
 
-Its manual cover reads **XG400 E-Glide Trainer**. This maintenance list is printed for it word for
-word, and the body above says "the unit" and "the machine" because the XG400 book does. Do not
-describe an XG400 to a customer as an elliptical.
+Its manual cover reads **XG400 E-Glide Trainer**, in 2019 as in 2021, and its warranty page is
+headed "E-Glide Trainer Warranty". This maintenance list is printed for it word for word, and the
+body above says "the unit" and "the machine" because the XG400 book does. Do not describe an XG400
+to a customer as an elliptical.
 
 ## The 2023 rewrite deletes this list
 

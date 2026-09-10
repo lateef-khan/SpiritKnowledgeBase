@@ -25,10 +25,16 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395-2023
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -40,7 +46,9 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 19; XE395 2023 p. 23, all under Basic Information
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 19; XE395 2023 p. 23;
+    XE395 2018 p. 21; XE795 2018 p. 19; XE895 2018 p. 21; XE195 2019 p. 19; XE295 2019 p. 20;
+    XG400 2019 p. 19, all under Basic Information
   extracted_at: '2026-09-09'
 ---
 
@@ -56,7 +64,8 @@ through the data, **four seconds at a time**:
 
 **Pressing the Enter key again brings you back to the beginning.**
 
-All five manuals print this word for word.
+**All eleven manuals print this word for word**, and the list did not change between the 2018/2019
+printings and their 2021 successors.
 
 **The XE395-2010 scans a different list.** It shows Speed, Watts, then **Segment Time, Laps
 completed and Altitude** - elevation gain based on the incline level through the program - because it

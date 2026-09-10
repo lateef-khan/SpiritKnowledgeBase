@@ -24,8 +24,10 @@ facets:
   model: '*'
   applies_to:
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
   section: console
   code: '*'
 authority: 3
@@ -49,13 +51,19 @@ workout**, and the manuals set two conditions on it:
 
 **The pulse value displays any time the upper display is receiving a pulse signal.**
 
-**Where the sensors are is not the same on all three.** The XE795-2021 puts them on the **stationary
-grips**; the XE395-2023 and XE795-2023 put them on the **front cross bar**.
+**Where the sensors are is not the same on all five.** The XE795 of both printings and the XE895-2018
+put them on the **stationary grips**; the XE395-2023 and XE795-2023 put them on the **front cross
+bar**.
 
-**Two other wording differences, neither of them a behaviour change.** The 2021 manual calls it the
-**Pulse Grip** feature in both sentences; the 2023 pair writes **Grip Pulse** in the second. Only the
-2021 manual adds "Refer to Important Safety Instructions (page 3) concerning Pulse Grip operation".
+**Two other wording differences, neither of them a behaviour change.** The 2018 and 2021 XE795 and
+the XE895 call it the **Pulse Grip** feature in both sentences; the 2023 pair writes **Grip Pulse**
+in the second. The **XE795-2018 (p. 17) and XE795-2021** add "Refer to Important Safety Instructions
+(page 3) concerning Pulse Grip operation"; **the XE895-2018 (p. 19) does not**, though the rest of
+its paragraph is word for word the same.
 
-**No other residential XE elliptical prints this restriction.** The 2005, 2007, 2010, 2021 XE195 and
-XE295, XG400 and XE395ENT manuals describe the grips without it, so nothing there should be read as
-saying the grips are locked out.
+**Only the machines with a Pulse Grip Feature paragraph print this restriction**, and an earlier
+reading of this card missed two of them. The **XE795-2018** and the **XE895-2018** both print it in
+full, so the restriction reaches back to the August 2018 printing run rather than starting in 2021.
+The 2005, 2007 and 2010 manuals, the XE395-2018, both XE195 and XE295 printings, the XG400 and the
+XE395ENT describe the grips without it - **none of those has a Pulse Grip Feature paragraph at all**
+- so nothing there should be read as saying the grips are locked out.

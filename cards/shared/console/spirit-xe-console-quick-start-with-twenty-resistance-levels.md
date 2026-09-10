@@ -25,10 +25,15 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -38,6 +43,7 @@ see_also:
 - spirit-xe795-console-quick-start-with-forty-resistance-levels
 - spirit-xe-console-quick-start-lights-the-bottom-row-of-the-dot-matrix
 - xe395ent-2021-console-power-up-and-quick-start
+- spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
   locator: XE195 p. 18; XE295 p. 19; XG400 p. 18; XE395 2010 p. 17; XE395 2023 p. 18, all under QUICK START
@@ -61,10 +67,18 @@ source:
 | **11-15** | Start getting tough as the levels jump more dramatically |
 | **16-20** | Extremely hard; good for short interval peaks and elite athletic training |
 
-The XE395-2010, XE195, XE295 and XG400 print "extremely hard"; the XE395-2023 prints "extremely
-difficult". Nothing else differs.
+The XE395-2010, XE195, XE295, XG400, XE395-2018 and XE895-2018 print "extremely hard"; the XE395-2023
+prints "extremely difficult". Nothing else differs.
 
-**Twenty is not every XE.** The **XE795 of both generations has 40 levels** on a differently banded
+**The 2018 and 2019 printings band them the same way**: XE395-2018 p. 20, XE895-2018 p. 21,
+XE195-2019 p. 18, XE295-2019 p. 19, XG400-2019 p. 18. The level count did not change between those
+printings and their 2021 successors.
+
+**The XE895-2018 has 20 levels even though it wears the XE795 console face.** Do not read 40 off an
+XE795 card for it; see
+`spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers`.
+
+**Twenty is not every XE.** The **XE795 of every printing has 40 levels** on a differently banded
 scale: `spirit-xe795-console-quick-start-with-forty-resistance-levels`. The 2005 and 2007 machines
 print no level count in Quick Start at all -
 `spirit-xe-console-quick-start-lights-the-bottom-row-of-the-dot-matrix` - and the XE150's own

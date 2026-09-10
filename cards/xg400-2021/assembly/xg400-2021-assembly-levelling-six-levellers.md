@@ -3,8 +3,8 @@ id: xg400-2021-assembly-levelling-six-levellers
 title: Six levellers fitted at the build, middle pair screwed fully in and the front
   and rear backed out two or three turns
 kind: procedure
-question: How do I fit and set the levellers on a Spirit xg400-2021 E-Glide Trainer
-  that rocks?
+question: How do I fit and set the levellers on a Spirit XG400 E-Glide Trainer
+  (xg400-2019 or xg400-2021) that rocks?
 asked_as:
 - my xg400 rocks on the floor
 - how do i level the xg400
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xg400-2021
+  model: '*'
   applies_to:
+  - xg400-2019
   - xg400-2021
   section: assembly
   code: '*'
@@ -40,7 +41,8 @@ see_also:
 - spirit-xe-assembly-levelling-bottom-nut
 source:
   ref: spirit-elliptical-xg400-2021-owners-manual
-  locator: p. 15, XG400 STEP FIVE job 2
+  locator: p. 15, XG400 STEP FIVE job 2; the same words at p. 15 of the 2019
+    printing (`spirit-elliptical-xg400-2019-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -63,6 +65,17 @@ XE195, XE295, XE395 2010, XE395ENT and XE395 2023 all say to check "the four flo
 levelers underneath the middle and rear" and never say how many are fitted or where.
 The **XE795** builds fit six the same way, three a side, and give no setting order at
 all.
+
+## Both printings say it word for word
+
+The XG400 2019 manual prints this job unchanged, in the same place, job 2 of step
+five. Nothing about levelling changed between the 2019 and the 2021 printing.
+
+**Both books also carry a second, different levelling sentence** in their GENERAL
+MAINTENANCE noise item - two levelling pads under the rear stabiliser, adjusted with a
+14mm wrench. Six levellers here, two pads there, and neither page mentions the other.
+See
+[the 14mm levelling-pad card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
 
 ## The manual names no wrench and no lock nut
 

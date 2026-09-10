@@ -3,7 +3,8 @@ id: xe295-2021-assembly-procedure
 title: 'Four-step build with a two-piece swing arm: mast and rails, lower arms and
   connecting arms, upper arms and the wired handlebar, then covers'
 kind: procedure
-question: How do I assemble a Spirit xe295-2021 elliptical from the box?
+question: How do I assemble a Spirit XE295 elliptical (xe295-2019 or xe295-2021) from
+  the box?
 asked_as:
 - how do i put my xe295 together
 - assembly instructions for the spirit xe295
@@ -22,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe295-2021
+  model: '*'
   applies_to:
+  - xe295-2019
   - xe295-2021
   section: assembly
   code: '*'
@@ -38,7 +40,8 @@ see_also:
 - spirit-xe-assembly-levelling-bottom-nut
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
-  locator: pp. 12-16, XE295 STEP ONE to STEP FOUR
+  locator: pp. 12-16, XE295 STEP ONE to STEP FOUR; the same four steps at
+    pp. 12-16 of the 2019 printing (`spirit-elliptical-xe295-2019-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -97,6 +100,15 @@ different head.
    the handle bar axle connections, **4 SHEET METAL SCREWS (119) on each side**.
 4. Check the four floor levellers under the middle and rear of the machine - see
    [the levelling card](../../shared/assembly/spirit-xe-assembly-levelling-bottom-nut.md).
+
+## The 2019 printing builds identically
+
+The XE295 2019 manual prints the same four steps, the same four hardware panels, the
+same item numbers and the same counts, word for word - the button head socket bolts,
+the single switch wire cap, the four-screw step-four bag and all. The only difference
+anywhere in its assembly chapter is the machine diagram's pulse label, **PULSE GRIPS**
+in 2019 against **PULSE SENSORS** in 2021. See
+[the diagram card](../../shared/assembly/spirit-xe-assembly-parts-diagram-labels-2021.md).
 
 ## Only the right swing arm is wired on this machine
 

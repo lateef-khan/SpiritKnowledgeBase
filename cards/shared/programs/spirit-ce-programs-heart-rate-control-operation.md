@@ -32,17 +32,23 @@ facets:
   - ce900-2025
   - ces880-2025
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -106,3 +112,17 @@ percentage you chose, and changing that number moves the percentage with it.
 
 **The XE150 console has no HR key.** Its heart rate program is reached from the program icon and
 offers 55%, 75%, 90% or a custom target - see `xe150-2005-programs-target-hr-program`.
+
+**Six earlier XE printings print these same steps.** Five of them - XE395 2018 (printed pages 34-35),
+XE795 2018 (pages 35-36), XE895 2018 (pages 33-34), XE295 2019 (pages 33-34) and XG400 2019 (pages
+32-33) - use the two-program **HR 1 / HR 2** form and add the same two sentences: you must wear the
+chest strap, and the program holds you within **3 to 5 beats per minute** of your target. See
+`spirit-xe-programs-heart-rate-programs-hold-you-within-three-to-five-beats`.
+
+The **XE195 2019** (printed pages 29-30) has a single **HR** key with no percentage choice, exactly
+as its 2021 printing does - see
+`xe195-2021-programs-single-heart-rate-key-defaults-to-sixty-percent`.
+
+All six close the training-zone page with the same sentence the 2021 printings carry: you may use the
+heart rate monitor feature without running a Heart Rate program, during manual mode or during any of
+the programs, and **the Heart Rate program automatically controls resistance at the pedals**.

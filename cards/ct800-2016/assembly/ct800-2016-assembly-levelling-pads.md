@@ -3,9 +3,10 @@ id: ct800-2016-assembly-levelling-pads
 title: Two levelling pads under the rear stabiliser, turned with a 14mm wrench
 kind: procedure
 question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 or
-  CTSBS900 treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, or a Spirit CR800,
-  CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or a Spirit CIC800,
-  CIC850 or XIC600 indoor cycle, that rocks or squeaks?
+  CTSBS900 treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, a Spirit XE195,
+  XE295, XE395 2018, XE395ENT, XE795, XE895 or XG400 residential elliptical, or a
+  Spirit CR800, CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or
+  a Spirit CIC800, CIC850 or XIC600 indoor cycle, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -50,6 +51,17 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xe195-2019
+  - xe195-2021
+  - xe295-2019
+  - xe295-2021
+  - xe395-2018
+  - xe395ent-2021
+  - xe795-2018
+  - xe795-2021
+  - xe895-2018
+  - xg400-2019
+  - xg400-2021
   - xic600-2018
   - xic600-2021
   section: assembly
@@ -62,6 +74,10 @@ not_to_be_confused_with:
 - spirit-ce900-assembly-levelling-pads
 - ces880-2025-assembly-levelling-note
 see_also:
+- xe895-2018-assembly-procedure
+- spirit-xe-assembly-levelling-bottom-nut
+- spirit-xe-assembly-levelling-top-nut
+- xg400-2021-assembly-levelling-six-levellers
 - spirit-cycle-assembly-levelling-by-turning-the-feet
 - spirit-xic600-assembly-no-levelling-or-moving-section
 - spirit-xic600-assembly-tools-included
@@ -101,7 +117,21 @@ source:
     XIC600 manuals (`spirit-bike-xic600-2018-owners-manual`,
     `spirit-bike-xic600-2021-owners-manual`), p. 18 of the CIC800 manual
     (`spirit-bike-cic800-2021-owners-manual`) and in the CIC850 manual
-    (`spirit-bike-cic850-2022-owners-manual`)
+    (`spirit-bike-cic850-2022-owners-manual`); and word for word on eleven Spirit
+    residential ellipticals, in the same noise item - p. 31 of the XE195 2019 manual
+    (`spirit-elliptical-xe195-2019-owners-manual`), p. 35 of the XE295 2019 manual
+    (`spirit-elliptical-xe295-2019-owners-manual`), p. 34 of the XE395 2018 and
+    XG400 2019 manuals (`spirit-elliptical-xe395-2018-owners-manual`,
+    `spirit-elliptical-xg400-2019-owners-manual`), p. 37 of the XE795 2018 manual
+    (`spirit-elliptical-xe795-2018-owners-manual`), p. 35 of the XE895 2018 manual
+    (`spirit-elliptical-xe895-2018-owners-manual`) and in the GENERAL MAINTENANCE
+    item of the XE195 2021, XE295 2021, XE395ENT 2021, XG400 2021 and both XE795
+    2021 printings (`spirit-elliptical-xe195-2021-owners-manual`,
+    `spirit-elliptical-xe295-2021-owners-manual`,
+    `spirit-elliptical-xe395ent-2021-owners-manual`,
+    `spirit-elliptical-xg400-2021-owners-manual`,
+    `spirit-elliptical-xe795-2021-february-owners-manual`,
+    `spirit-elliptical-xe795-2021-november-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -155,6 +185,37 @@ Do not carry the figure of two across to these:
 - The **CES880** does not use this sentence at all. It has six levellers, fitted
   during assembly, each locked by an adjustment plate rather than turned to suit
   afterwards. See its own card.
+
+## Eleven Spirit residential ellipticals print the same sentence too - and most of
+them contradict it four pages earlier
+
+The **XE195**, **XE295**, **XE395 2018**, **XE395ENT**, **XE795**, **XE895** and
+**XG400** manuals, across their 2018, 2019 and 2021 printings, all carry it word for
+word, as the last remedy in the same noise item. **Two levelling pads under the rear
+stabiliser, 14mm wrench**, on all eleven.
+
+**On every one of them except the XE895 the assembly chapter says something else.**
+The XE195, XE295 and XE395 2018 builds end by checking **four floor levellers
+underneath the middle and rear**, loosened at the nut and turned clockwise with a
+carton wrench; the XG400 and XE795 builds **fit six, three per side**. Two pads here,
+four or six there, and neither page mentions the other. Take the assembly figure when
+you are building the machine and this one when you are chasing a noise - see
+[the bottom-nut card](../../shared/assembly/spirit-xe-assembly-levelling-bottom-nut.md),
+[the top-nut card](../../shared/assembly/spirit-xe-assembly-levelling-top-nut.md) and
+[the XG400 six-leveller card](../../xg400-2021/assembly/xg400-2021-assembly-levelling-six-levellers.md).
+
+**On the XE895 2018 this sentence is the only levelling instruction in the book.** Its
+carton list counts **6 Levelers** and its machine diagram labels them, and no step of
+its five-step build fits or adjusts one. It is the one residential XE here with no
+assembly-chapter levelling job at all.
+
+**No residential XE carton holds a 14mm wrench either.** All of them ship a 13/14mm
+and a 12/14mm wrench, both of which open to 14.
+
+**The XE395 2010 gives a different answer** - **4** pads on the bottom of the **rear
+rails**, same wrench - and is deliberately not on this card. See
+[that card](../../ce800-2013/assembly/ce800-2013-assembly-levelling-pads.md). The
+**XE395 2023** and **XE795 2023** manuals print no such sentence at all.
 
 ## Twelve Spirit commercial bikes print the same sentence, in the same place
 

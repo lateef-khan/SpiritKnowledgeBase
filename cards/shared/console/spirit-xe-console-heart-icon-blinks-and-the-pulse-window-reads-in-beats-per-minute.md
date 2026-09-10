@@ -25,13 +25,19 @@ facets:
   model: '*'
   applies_to:
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -43,7 +49,10 @@ see_also:
 - xe150-2005-console-heart-rate-transmitter-is-an-option-not-an-inclusion
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 18;
+    XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual;
+    XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21;
+    XG400 2019 p. 20
   extracted_at: '2026-09-09'
 ---
 
@@ -52,17 +61,18 @@ on the stationary handle bars**, or **wearing the heart rate transmitter**, star
 blinking**. The manuals warn this **may take a few seconds**. The **Pulse Display Window** then shows
 your heart rate, or Pulse, **in beats per minute**.
 
-**A few seconds of nothing is normal.** All nine manuals print that warning in the same sentence.
+**A few seconds of nothing is normal.** All fifteen manuals print that warning in the same sentence.
 
-**The 2021 and 2023 manuals add a pointer**, "(see Using Heart Rate Transmitter section)", where the
-2007 and 2010 manuals just say "the heart rate transmitter". Nothing about the behaviour differs.
+**The 2018, 2019, 2021 and 2023 manuals add a pointer**, "(see Using Heart Rate Transmitter
+section)", where the 2007 and 2010 manuals just say "the heart rate transmitter". Nothing about the
+behaviour differs.
 
-**Where the number appears is not the same on every machine.** These nine put it in a dedicated
+**Where the number appears is not the same on every machine.** These fifteen put it in a dedicated
 **Pulse Display Window**. The XE300, XE350 and XE550 put it in the **Message Window** instead, as one
 of the sets the Display button steps through:
 `spirit-xe-console-display-button-steps-through-four-sets-of-readings`.
 
-**On three of these the grips are locked out during a heart rate program**, and on the 2023 pair the
+**On five of these the grips are locked out during a heart rate program**, and on the 2023 pair the
 sensors are on the front cross bar rather than the stationary handlebars:
 `spirit-xe-console-pulse-grips-are-locked-out-during-heart-rate-programs`.
 

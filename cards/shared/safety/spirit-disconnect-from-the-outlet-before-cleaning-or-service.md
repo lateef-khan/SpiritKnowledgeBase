@@ -35,11 +35,17 @@ facets:
   - cvc800
   - mt200-2010
   - mt200-2022
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -189,3 +195,23 @@ CR900ENT-2021 and CU900ENT, plug in without any such rule being printed
 (`spirit-bike-safety-no-mains-outlet-needed`). On the eight self-powered bikes the way to make the
 machine safe before service is to let the flywheel stop, not to pull a plug
 (`spirit-ce-safety-generator-produces-ac-power`).
+
+
+## Six earlier Spirit residential ellipticals open with the DANGER line
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals** print the
+range's shorter wording at the head of their safety list, not this card's sentence:
+
+> DANGER - To reduce the risk of electric shock: Always unplug this appliance from the electrical
+> outlet immediately after using and before cleaning.
+
+**It names cleaning and not service work**, exactly as the 2021 books do; the service half of the
+rule is the separate cover-removal sentence
+(`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`,
+`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`). Five of the six add
+`To disconnect turn all controls to the off position, then remove the plug from the outlet` under
+their second heading; **the XE795-2018 does not**, as neither 2021 XE795 printing does.
+
+**The XE795-2018 prints the DANGER line on a machine with no plug.** It is generator-powered and its
+parts list contains no power cord (`spirit-ce-safety-generator-produces-ac-power`), so the sentence
+is printed and unreconciled, as it is in both 2021 printings.

@@ -39,17 +39,23 @@ facets:
   - ct900
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt285-2015
   - xt285-2023
@@ -162,3 +168,9 @@ split into the two framings above:
   CES880 2025 do.
 
 No Spirit elliptical has a Chester Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.
+
+**Six earlier Spirit XE elliptical printings print the same scale, value for value**, all headed
+"Rate of Perceived Exertion" with the **"listen to your body"** opening and the four closing
+sentences with "easier" and "harder": XE195 2019 (printed page 27), XG400 2019 (page 29), XE295 2019
+(page 30), XE395 2018 and XE895 2018 (page 31) and XE795 2018 (page 33). None of them has a Chester
+Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.

@@ -45,12 +45,18 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -190,3 +196,21 @@ manual attaches a different age or a different condition.
 **The 2012 CU800 manual prints neither item.** Its list says only *keep children away from the
 fitness bike* and stops (`cu800-2012-safety-instructions-list`). There is no age of 13 and no
 reduced-capability rule in that book, so neither may be quoted for a CU800-2012.
+
+
+## Six earlier Spirit residential ellipticals print the age rule and drop the exception
+
+**The XE395-2018, XE895-2018, XE195-2019, XE295-2019, XG400-2019 and XE795-2018 manuals** print both
+bullets exactly as their 2021 successors do:
+
+> This exercise equipment is not intended for use by persons with reduced physical, sensory or
+> mental capabilities, or lack of experience and knowledge.
+
+> Keep children under the age of 13 away from this machine.
+
+**None of the six carries the `unless they have been given supervision or instruction` clause** that
+the CE manuals print. For these machines the rule is flat: not intended for that person, with no
+supervised exception offered. Do not add the exception for an XE owner from a CE manual. All six
+spell `mental` correctly and all six write `This exercise equipment` where the CE manuals write
+`This appliance`. **Under 13 is the only age figure any of the six prints**, and none states a
+maximum age or a height.
