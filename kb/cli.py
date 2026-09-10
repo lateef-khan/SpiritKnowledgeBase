@@ -176,8 +176,10 @@ def facet_gaps(ctx: click.Context, facet: str) -> None:
         if len(applies) != 1:
             continue
         value = card.facets.get(facet)
-        if isinstance(value, str) and value.strip():
-            carried.setdefault(applies[0], set()).add(value)
+        values = value if isinstance(value, list) else [value]
+        values = [v.strip() for v in values if isinstance(v, str) and v.strip()]
+        if values:
+            carried.setdefault(applies[0], set()).add(", ".join(sorted(values)))
         else:
             missing[applies[0]] = missing.get(applies[0], 0) + 1
 
