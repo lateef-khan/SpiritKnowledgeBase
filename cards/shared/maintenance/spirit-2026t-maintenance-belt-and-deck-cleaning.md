@@ -28,6 +28,10 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - mt200-2010
   - mt200-2022
   section: maintenance
@@ -41,9 +45,14 @@ see_also:
 - ct900ent-belt-deck-cleaning
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 43 "Belt and deck"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual)
+  locator: 'p. 43 "Belt and deck"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual)
     and 8.0T p. 63 (spirit-treadmill-80t-2026-owners-manual); MT200 2010 p. 37 and
-    MT200 2022 p. 59, "Maintenance - Belt and deck"
+    MT200 2022 p. 59, "Maintenance - Belt and deck". The four 2024 New Black Units treadmill
+    manuals print the same paragraph under POST WORKOUT - MACHINE CARE, added in wave 15 -
+    spirit-treadmill-ct800-2024-owners-manual and spirit-treadmill-ct850-2024-owners-manual printed
+    p. 37 (PDF p. 39), spirit-treadmill-ct800ent-2024-owners-manual and
+    spirit-treadmill-ct850ent-2024-owners-manual printed p. 53 (PDF p. 55); all four pages read from
+    a 300 dpi render with tesseract --psm 4, because these PDFs carry a second, invisible text layer'
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +84,16 @@ On the three 2026 machines nothing goes onto the deck itself: see
 opposite.** They carry no lubrication section, name no lubricant and give no interval, yet their
 fault tables list "Deck Lube" as a remedy for several error codes. Nothing in either manual
 resolves that, so do not carry the 2026 no-lubricant rule onto an MT200.
+
+## The four 2024 New Black Units treadmills print it, with "belt" for "deck and belt"
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** carry this paragraph
+word for word, including **use water only - no cleaners or abrasives** and the **once a month**
+interval. Their opening sentence names only the belt - "Your treadmill uses a very high-efficient
+low-friction belt" - where the 2026 machines name the deck and belt, and they close "to extend belt
+and **bed** life" rather than belt and deck life. **No figure and no step changes.**
+
+Like the 4.0T and 7.0T they give **no soap ratio**.
+
+Their deck-life figure is **not** the 2026 one: these four say 20,000 *kilometres* a side, and that
+is a separate card - `spirit-2024-maintenance-deck-life-20000-kilometres`.

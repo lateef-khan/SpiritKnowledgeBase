@@ -24,6 +24,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - cu800ent-2024
   - xbr25-2023
   - xbr55-2023
@@ -172,3 +178,11 @@ type and name Grainger part # 1D237 and QO120HM
 suppressor and the tested-breaker list in its place. Answer from the customer's own book.
 
 **The XBR95-2023 manual has no ELECTRICAL SAFETY page and prints neither paragraph.**
+
+**Six of the fourteen 2024 New Black Units print this paragraph**, unchanged, on their ELECTRICAL
+SAFETY page, printed page 6 - the CT800-2024, CT850-2024, CT800ENT-2024, CT850ENT-2024,
+CE800ENT-2024 and CR800ENT-2024. The CE850-2024 and the two 2024 steppers print the high-inrush
+house-breaker paragraph instead (`spirit-house-breaker-needs-a-high-inrush-type`). The self-powered
+CE800, CR800 and CU800, the CSC900 and the CRW800 rower print neither, and the CT800-2024 and
+CT850-2024 add a sentence the others do not: `NEVER use your unit during an electrical storm`
+(`xt-2023-safety-use-during-an-electrical-storm`).

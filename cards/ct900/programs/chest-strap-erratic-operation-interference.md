@@ -20,6 +20,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900
   - xt285-2015
   - xt285-2023
@@ -63,3 +67,6 @@ The 2023 XT285, XT385, XT485 and XT685 owner's manuals print the same caution an
 **The 2010 XT685 owner's manual prints the same caution and the same seven remaining causes under "Erratic Operation"** (printed page 26). It closes with "contact your dealer" rather than "contact Spirit Fitness".
 
 The Troubleshooting table has a matching entry for this exact symptom ("Erratic pulse display") with a similar but shorter set of causes - see [wireless heart rate not working / erratic pulse](../maintenance/wireless-heart-rate-and-erratic-pulse.md).
+
+**All four 2024 treadmill manuals print this same warning and the same eight interference sources**
+word for word (CT800 and CT850 printed page 33; CT800ENT and CT850ENT printed page 49).

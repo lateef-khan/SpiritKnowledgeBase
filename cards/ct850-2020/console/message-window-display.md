@@ -21,9 +21,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -53,3 +55,7 @@ manual on its p. 18 under its own MESSAGE WINDOW DISPLAY heading, the 2016 and 2
 p. 18 folded into the DOT MATRIX MESSAGE CENTER section. On the 2018 console this is a separate
 **20-character Message Center** window; on the 2016 and 2020 consoles it is the same panel as the
 dots.
+
+**The 2024 CT800 and CT850 owner's manuals print these two sentences word for word on their p. 18**,
+inside the FEATURES / Dot Matrix Message Center bullet rather than under a heading of their own, so
+this card covers those two machines. On those consoles it is the same panel as the dots.

@@ -2,7 +2,8 @@
 id: spirit-2026t-maintenance-post-workout-machine-care
 title: Post-workout machine care, the screen cloth and the cupholders
 kind: procedure
-question: What should I do to a Spirit treadmill, elliptical or bike after every workout?
+question: What should I do to a Spirit treadmill, elliptical, bike, stepper, stairclimber
+  or rower after every workout?
 asked_as:
 - how do i clean my treadmill after using it
 - what do i wipe the screen with
@@ -27,9 +28,23 @@ facets:
   - 40t-2026
   - 70t-2026
   - ab950-2024
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - xbr25-2023
@@ -57,7 +72,7 @@ see_also:
 - spirit-xe-maintenance-no-sanitizing-section
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED. spirit-bike-ab950-2024-owners-manual prints the same four steps word for word under MAINTENANCE & CARE at printed p. 27 (PDF p. 29), checked against a 300 dpi render of that page (329 native / 320 rendered); it is the only one of the eight Spirit indoor cycle, air bike and Johnny G manuals that carries them'
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED. spirit-bike-ab950-2024-owners-manual prints the same four steps word for word under MAINTENANCE & CARE at printed p. 27 (PDF p. 29), checked against a 300 dpi render of that page (329 native / 320 rendered); it is the only one of the eight Spirit indoor cycle, air bike and Johnny G manuals that carries them. All fourteen 2024 New Black Units owner''s manuals print the same four steps word for word, each under MACHINE CARE - CONTINUED except csc900-2024, which prints them under MACHINE CARE: ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58), ce800-2024 printed p. 36 (PDF p. 38), ce850-2024 printed p. 37 (PDF p. 39), ce800ent-2024 printed p. 49 (PDF p. 51), cr800-2024 and cu800-2024 printed p. 36 (PDF p. 38), cr800ent-2024 printed p. 49 (PDF p. 51), crs800s-2024 printed p. 34 (PDF p. 36), cs800-2024 printed p. 35 (PDF p. 37), csc900-2024 printed p. 32 (PDF p. 34) and crw800-2024 printed p. 30 (PDF p. 32). Every one of those pages was rendered at 300 dpi and read with tesseract --psm 4 rather than taken from the text layer, because these PDFs carry a second, invisible text layer'
   extracted_at: '2026-09-09'
 ---
 
@@ -123,3 +138,22 @@ all four books say about putting the machine away.
 give the daily dry-off and wipe-down instead
 (`spirit-air-bike-maintenance-daily-dry-off-and-six-sweat-points`), and the CB900, CIC800, CIC850
 and XIC600 give only a one-line sweat-path wipe (`cu900ent-general-maintenance`).
+
+## All fourteen 2024 New Black Units print it, including four machine types that had no card
+
+Spirit's September-October 2024 commercial reissue prints these same four steps word for word in
+**every one of its fourteen manuals** - the CT800, CT850, CT800ENT and CT850ENT treadmills, the
+CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the **CRS800S**
+semi-recumbent stepper, the **CS800** stepper, the **CSC900** stairclimber and the **CRW800**
+rower. On thirteen of them it sits under *MACHINE CARE - CONTINUED*; the CSC900 prints it under
+*MACHINE CARE*.
+
+This is the first time a Spirit stepper, stairclimber or rower manual has carried the list, and it
+is what makes this card's `product_line` sentinel earned rather than assumed - the wording was
+checked on each of the fourteen pages.
+
+**Step 1 is empty on all fourteen as well.** None of them has a storage chapter, a folding step or
+any other "instructions" for putting the machine away, and none of the fourteen folds.
+
+**The CRW800 rower is not the CRW800H2O water rower.** The two are different machines; nothing on
+this card was carried across from the water rower's manual.

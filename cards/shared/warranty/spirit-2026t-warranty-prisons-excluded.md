@@ -29,9 +29,12 @@ facets:
   - ab950-2024
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -39,23 +42,34 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
   - ct900ent
   - ctsbs900
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -265,3 +279,19 @@ Four of the fourteen print it - the **XBR55ENT 2021**, the **XBU55ENT 2021**, th
 **This range dates the clause to November 30, 2021, not to October 2018.** Six XB manuals are effective between October 2018 and March 2021 - the XBR25 2019, XBR55 2019, XBU55 2019, XBR55 2021, XBU55 2021 and XBR95 2021 - and **none of the six states it**. The first XB manuals that do are the two ENT books, both effective November 30, 2021, which is the same date the XE295, XG400 and November XE795 printings pick it up. So the air bikes' October 2018 date reached neither the elliptical range nor this one.
 
 **Two 2023 XB manuals still do not carry it**, three years after the ENT bikes did. The XBR25 2023 and the XBR55 2023 print no Light Commercial table, and with no such table there is no footnote - so those two books, the newest in the range, state the exclusion nowhere while their XBR95 and XBU55 siblings of the **same August 07, 2023 effective date** state it. On this range the clause travels with the light commercial table, not with the printing date (`spirit-xb-warranty-light-commercial-periods`).
+
+## All fourteen Spirit machines reissued in autumn 2024 say it twice
+
+**Every one of the fourteen prints both halves** - the CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower. The footnote sits under the Commercial Limited Warranty table, **without a leading asterisk**, as it does on the CU800ENT 2024, CR900 2025 and CU900 2025:
+
+> Prisons and correctional facilities are excluded from warranty coverage.
+
+and the numbered item is item **8** of nine, in the "Product used in..." wording:
+
+> Product used in prisons and correctional facilities.
+
+**There is no exception and no split.** This is the first family in this knowledge base where every manual carries both halves - the CT800 and CT850 range before it printed the footnote on only five of eight, the CU800 2012 printed no footnote at all, and two ellipticals and two indoor cycles state the exclusion nowhere.
+
+**A 2024 machine's printing date does not decide it, and neither does a Light Commercial table.** None of the fourteen prints a Light Commercial table; all fourteen print a *Commercial Limited Warranty* table, and all fourteen carry the exclusion. What these fourteen have in common is the commercial table itself.
+
+**On these fourteen prisons is the only environment excluded by name.** Their exclusion lists have no dues-paying item and no five-hour cap, so the rest of the use-environment answer has to come from the table's row labels: `spirit-2024-warranty-use-environment`.

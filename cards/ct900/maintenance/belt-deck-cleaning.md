@@ -35,6 +35,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-maintenance-deck-life-20000-kilometres
 - spirit-ct800-maintenance-belt-deck-cleaning-4000-hours
 - ct900ent-belt-deck-cleaning
 - ctsbs900-lubricating-drive-belt-teeth

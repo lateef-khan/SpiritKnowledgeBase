@@ -2,8 +2,9 @@
 id: spirit-hand-pulse-not-working
 title: The handgrip pulse sensors read nothing
 kind: troubleshooting
-question: Why do the hand pulse grips show no heart rate on a Spirit CE800ENT, CE900-2025,
-  CR900-2025, CT850, CU800ENT-2024, CU900-2025 or CU900ENT?
+question: Why do the hand pulse grips show no heart rate on a Spirit commercial treadmill,
+  elliptical, bike or stepper - CE800, CE800ENT, CE850, CE900, CR800, CR800ENT, CR900, CS800,
+  CT850, CU800, CU800ENT, CU900 or CU900ENT?
 asked_as:
 - hand grips not reading my pulse on a spirit machine
 - no heart rate from the handlebars
@@ -23,11 +24,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - cs800-2024
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - cu900ent
@@ -70,3 +80,15 @@ files. The CR900 2025 and CU900 2025 troubleshooting pages are word-for-word ide
 the pulse wire rather than at a board: `ces880-2025-errors-hand-pulse-lost-its-functions`.
 
 A chest belt that reads nothing is a different row: `spirit-wireless-chest-belt-no-pulse`.
+
+**Nine of the fourteen 2024 New Black manuals print this row with the same four causes and the
+same four fixes** - the CE800 2024, CE800ENT 2024 and CE850 2024 ellipticals, the CR800 2024,
+CR800ENT 2024 and CU800 2024 bikes, the CS800 2024 stepper and the CT800ENT 2024 and CT850ENT 2024
+treadmills.
+
+**The CRS800S 2024 semi-recumbent stepper does not print it**, although the CS800 2024 stepper
+beside it does; its matrix covers the chest belt only, exactly as the CVC800 climber's does. The
+CT800 2024 and CT850 2024 treadmills have no pulse rows at all. The CSC900 2024 stairclimber
+answers the same symptom in different words and blames the hand pulse wire:
+`csc900-2024-errors-heartbeat-not-sensed`. The CRW800 2024 rower prints no hand pulse row
+either.

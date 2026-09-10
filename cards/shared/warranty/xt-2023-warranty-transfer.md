@@ -2,8 +2,8 @@
 id: xt-2023-warranty-transfer
 title: Whether the warranty follows a second-hand machine
 kind: policy
-question: Does a Spirit treadmill, elliptical or bike warranty transfer
-  to a second owner?
+question: Does a Spirit treadmill, elliptical, bike, stepper, stair climber or rower
+  warranty transfer to a second owner?
 asked_as:
 - i bought this treadmill used is it under warranty
 - can i transfer the warranty to the buyer
@@ -31,10 +31,13 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -42,23 +45,34 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
   - ct900ent
   - ctsbs900
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -238,3 +252,11 @@ The word *warranty* does not appear in the sentence on any of them, and **none o
 **None of the fourteen says in as many words that the warranty is non-transferable**, and none names a reinstatement route, a transfer fee or a procedure for a second owner. A bike sold on with its serial sticker peeled off is outside cover on both counts.
 
 The lists are `spirit-xb-warranty-exclusions` and `spirit-xb-2023-warranty-exclusions`.
+
+## The fourteen Spirit machines reissued in autumn 2024 print items 4 and 5 unchanged
+
+The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower all print item 5 word for word in the colon-and-serial-comma version - *Products that have been: sold, transferred, bartered, or given to a third party.* - and item 4 unchanged, in the same two slots of a **nine**-item list. Their predecessors printed the same two items on a **ten**-item list; the numbering of the slots either side moved and these two did not.
+
+None of the fourteen names a reinstatement route, a transfer fee or a procedure for a second owner. Their list is `spirit-ce-2025-warranty-exclusions`.
+
+**The transfer rule survives on the six manuals whose exclusion 2 is broken.** The CT800ENT, CT850ENT, CE800ENT, CR800ENT, CRS800S and CS800 lose the tail of item 2 to a printing defect, but items 4 and 5 are complete and legible on all six.

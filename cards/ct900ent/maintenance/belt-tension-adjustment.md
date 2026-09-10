@@ -27,11 +27,15 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900ent
   section: maintenance
   code: '*'
@@ -48,7 +52,7 @@ see_also:
 - spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
-  locator: 'p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 43-44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 21, 2016 p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner''s manuals print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50; the CT900ENT pages are spirit-treadmill-ct900ent-owners-manual p. 45-46'
+  locator: 'p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 43-44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 21, 2016 p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner''s manuals print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50; the CT900ENT pages are spirit-treadmill-ct900ent-owners-manual p. 45-46; the four 2024 New Black Units treadmill manuals print it under POST WORKOUT - MACHINE CARE, added in wave 15 - ct800-2024 and ct850-2024 printed p. 37 (PDF p. 39), ct800ent-2024 and ct850ent-2024 printed p. 53 (PDF p. 55), each read from a 300 dpi render because these PDFs carry a second, invisible text layer whose figures differ'
   extracted_at: '2026-08-24'
 ---
 
@@ -115,3 +119,24 @@ the cause may be a loose motor drive belt under the front cover.
 The 2026 7.0T and 8.0T use **1/4 to 1/2 turn** increments and are separate cards
 (`70t-2026-maintenance-treadbelt-tension-adjustment`,
 `80t-2026-maintenance-treadbelt-tension-adjustment`).
+
+## Also the four 2024 New Black Units treadmills
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** print this procedure
+word for word - the same **8mm Allen wrench**, the same rear roller, the same bolts at the end of
+the step rails, the same **1/4 turn each**, the same "both sides evenly" caution and the same
+over-tightening and drive-belt warning. Like the CT800/CT850 books they open with **"Belt tension is
+not critical for most users"**, and they add "as shown in the diagram to the right" where the
+CT900ENT names no diagram.
+
+They also print the warranty consequence, under the tracking heading on the next page: damage to the
+running belt resulting from improper tracking or tension adjustments is not covered under the Spirit
+warranty.
+
+**Their tracking procedure is not this family's.** The 2024 machines centre the belt at **2 to
+3 mph** from the **left side only**, not at a flat 3 mph with a left/right rule - see
+`80t-2026-maintenance-treadbelt-tracking-adjustment`, not `ct900ent-treadbelt-tracking-adjustment`.
+
+**Read these four pages from a render, not from the text layer.** Every 2024 New Black Units PDF
+carries a second, invisible text layer over the maintenance pages that gives the belt speed as
+3 to 5 kph and adds "in the end caps" and a 56x224 cm running surface. None of that is printed.

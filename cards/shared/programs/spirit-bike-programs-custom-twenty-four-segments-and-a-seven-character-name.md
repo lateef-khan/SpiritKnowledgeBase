@@ -24,7 +24,9 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cu800-2021
+  - cu800-2024
   section: programs
   code: '*'
 authority: 3

@@ -2,7 +2,8 @@
 id: cr800ent-2023-assembly-procedure
 title: Four-step touchscreen recumbent build that threads five cables up the console mast
 kind: procedure
-question: How do I assemble a Spirit cr800ent-2023 recumbent bike?
+question: How do I assemble a Spirit CR800ENT recumbent bike, on the 2023
+  (cr800ent-2023) or 2024 (cr800ent-2024) printing?
 asked_as:
 - how do i put together the spirit cr800ent
 - assembly instructions for the touchscreen recumbent bike
@@ -22,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: 'bike'
-  model: 'cr800ent-2023'
+  model: '*'
   applies_to:
   - cr800ent-2023
+  - cr800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -41,7 +43,9 @@ see_also:
 - spirit-ct800-assembly-unpacking
 source:
   ref: spirit-bike-cr800ent-2023-owners-manual
-  locator: pp. 9-12, CR800ENT STEP ONE to STEP FOUR
+  locator: pp. 9-12, CR800ENT STEP ONE to STEP FOUR; the same four steps at
+    pp. 10-13 of the CR800ENT 2024 manual (`spirit-bike-cr800ent-2024-owners-manual`),
+    headed ASSEMBLY - STEP ONE to STEP FOUR, with one cable dropped from step four
   extracted_at: '2026-09-09'
 ---
 
@@ -119,3 +123,16 @@ the difference above.
 
 The build ends here. There is no first-power-on step: these bikes are
 generator-powered and the console starts when you pedal.
+
+## The 2024 redesign reprints this build with one cable removed
+
+The **CR800ENT 2024** manual prints these four steps word for word and its four
+hardware tables row for row, with a single change: **step four no longer connects the
+HDMI Connecting Wire (No.186)**. Its item 2 lists four cables where the 2023 book lists
+five - computer cable, handpulse wire, CSAFE connecting wire and network connecting
+cable - and the word HDMI appears nowhere in the 2024 manual.
+
+That is the only difference between the two builds. Everything else is identical,
+item 5's missing reverse-thread warning included. See
+[the dropped-wire card](../../cr800ent-2024/assembly/cr800ent-2024-assembly-hdmi-wire-dropped.md)
+before telling a 2024 owner to look for an HDMI cable.

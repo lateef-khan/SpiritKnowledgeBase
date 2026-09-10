@@ -22,10 +22,14 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
   - xt285-2023
   section: programs
@@ -94,3 +98,11 @@ Control page sets the Weight Control program to **60%**; the cardiovascular figu
 figure agrees at 65% while this page's **85%** for the cardiovascular system meets a Cardiovascular
 program set to **80%** (see `ct800-2020-programs-heart-rate-control-65-and-80-percent`). Neither
 manual reconciles its own two figures.
+
+**All four 2024 treadmill manuals print this same 65% / 85% guidance and the same 117-to-153
+example** (CT800 and CT850 printed page 34; CT800ENT and CT850ENT printed page 50). **The 2024
+CE800, CE850, CR800 and CU800 print 65% and 80% on this page and reach 225 beats** - an arithmetic
+error, see `ce900-2025-programs-target-zone-of-117-to-225-beats` and
+`spirit-bike-programs-target-zone-of-117-to-225-beats`. **The 2024 CRS800S, CS800 and CRW800 print
+60% and 85% and reach 108 to 153** - see `spirit-stepper-programs-target-zone-of-108-to-153-beats`
+and `crw800-2024-programs-target-zone-of-108-to-153-beats`.

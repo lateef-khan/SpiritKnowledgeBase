@@ -26,6 +26,7 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - xbr25-2019
   - xbr55-2019
   - xbr55-2021
@@ -126,3 +127,10 @@ and add a **Console Tablet Holder** - thirteen lines. The XBR25 2023 panel drops
 same three and adds nothing - twelve. See
 [the 2023 parts card](spirit-xbr-2023-assembly-parts-included.md) and
 [the XBR25 2023 card](../../xbr25-2023/assembly/xbr25-2023-assembly-parts-included.md).
+
+## The 2024 redesign prints the same fifteen lines
+
+The **CR800 2024** carton lists the same fifteen lines in the same order, all three
+stabilizer and seat-back covers included. The touchscreen **CR800ENT 2024** carton is
+still three lines shorter and drops the same three; see
+[the touchscreen parts card](../../cr800ent-2023/assembly/cr800ent-2023-assembly-parts-included.md).

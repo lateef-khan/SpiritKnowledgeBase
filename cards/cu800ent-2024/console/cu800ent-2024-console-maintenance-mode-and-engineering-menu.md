@@ -2,7 +2,7 @@
 id: cu800ent-2024-console-maintenance-mode-and-engineering-menu
 title: The maintenance mode opened by pressing Hello Guest ten times, and its five groups
 kind: procedure
-question: How do I get into maintenance mode on a Spirit cu800ent-2024 bike, and what is in it?
+question: How do I get into maintenance mode on a Spirit 2024 ENT touchscreen machine, and what is in it?
 asked_as:
 - how do i get into the service menu on the spirit ent bike
 - how do i reset the odometer on the bike touchscreen
@@ -22,9 +22,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -81,3 +85,32 @@ minutes - `ce900-2025-console-engineering-mode-unit-type` says 20,
 **This is not the older ENT entry gesture.** The CR900ENT, CU900ENT, CE800ENT, CT800ENT-2022 and
 CT850ENT-2022 consoles are opened by pressing the **Home** icon ten times, and their Settings list is
 seven entries, not five: `spirit-ent-console-enter-engineering-mode`.
+
+**The four 2024 ENT machines print this menu too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: the ENGINEERING MODE MENU page is CT800ENT-2024 and CT850ENT-2024 **p. 52**, CE800ENT-2024
+and CR800ENT-2024 **p. 47**; the TOUCHSCREEN OPERATION Maintenance Mode paragraph is p. 21 on the
+treadmills and p. 19 on the elliptical and the bike.
+
+**The CE800ENT-2024 and CR800ENT-2024 menus are identical to the CU800ENT-2024's**, five groups and
+the same Service list - Key Test, Information, **PWM Test**, Ethernet Setup, Error Code Log - and the
+same Preferences block with the **15 minute** sleep that defaults OFF.
+
+**The two ENT treadmills differ in one row, and add a block.** Their Service list reads Key Test,
+Information, **Calibration**, Ethernet Setup, Error Code Log - **Calibration where the other three
+have PWM Test** - and the page carries a fourth block the other three do not:
+
+> **Calibration.** 1. The default Speed is Minimum **0.5 (mi/hr)** - Maximum **12.0 (mi/hr)**.
+> 2. The default Incline is **15 level**. 3. Click on the Calibration to start setting.
+
+Those figures are held on their own card, because they are numbers a technician asks for by name:
+`ct800ent-2024-console-calibration-defaults-0-5-to-12-0-mph`. **Do not offer a PWM Test to an ENT
+treadmill owner, or a Calibration entry to an ENT bike or elliptical owner.**
+
+**All five books print the same contradiction about where you press Hello Guest** - the TOUCHSCREEN
+OPERATION page says *from the Home page*, the ENGINEERING MODE MENU page says *from the Login page* -
+and none of them resolves it.

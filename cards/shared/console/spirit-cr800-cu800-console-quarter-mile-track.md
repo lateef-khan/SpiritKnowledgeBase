@@ -25,7 +25,9 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cu800-2021
+  - cu800-2024
   section: console
   code: '*'
 authority: 3
@@ -58,3 +60,12 @@ Track and back: `spirit-ce-console-display-button-four-window-sets`.
 **The manuals give no lap count, no reset behaviour and no unit switch for this window.** Whether the
 counter follows the Units setting in engineering mode is not stated
 (`spirit-ce800-console-maintenance-menu-function-and-service`).
+
+**The CR800-2024 and CU800-2024 owner's manuals print the same two sentences word for word on their
+p. 16**, so this card covers those machines.
+
+**The rest of the 2024 New Black Units range prints the identical paragraph** but is held at
+`ct900-quarter-mile-track-display`, where their own predecessors already sit - the CT800-2024,
+CT850-2024, CE800-2024, CE850-2024, CRS800S-2024 and CS800-2024. The two cards carry the same two
+sentences for different machines; it is a pre-existing split of one paragraph, not a difference of
+fact.

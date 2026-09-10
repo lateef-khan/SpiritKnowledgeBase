@@ -24,8 +24,10 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -75,3 +77,9 @@ same pages.
 
 **The CT850-2018 console names the same control a Display button**, not a Scan button:
 `spirit-ct800-console-dot-matrix-display-button`.
+
+**The 2024 CT800 and CT850 owner's manuals print these paragraphs word for word on their p. 18**,
+including the ten rows, the twenty-four columns, the three Track / Speed / Incline LEDs and the
+four-second automatic scroll, so this card covers those two machines. They fold the message window's
+two sentences into the same section, as the 2020 manuals do; those are held separately at
+`ct850-2020-message-window-display`.

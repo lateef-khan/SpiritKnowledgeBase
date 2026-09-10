@@ -1,7 +1,7 @@
 ---
 id: spirit-bike-specs-generator-brake-or-induction-brake
 title: Two different resistance units - a generator brake on most commercial bikes,
-  an induction brake with an EMS controller on three of them
+  an induction brake with an EMS controller on four of them
 kind: spec
 question: What kind of resistance or brake does a Spirit commercial upright or recumbent
   bike use?
@@ -29,9 +29,12 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2025
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2025
@@ -45,13 +48,17 @@ see_also:
 - spirit-bike-specs-no-specification-table
 - spirit-bike-specs-which-manuals-print-a-parts-list
 - spirit-ce-specs-forty-resistance-levels
+- spirit-ce-2024-specs-brake-and-resistance-unit
+- cr800-2024-specs-parts-list
 source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: 'Parts List p. 41, items 43 and 55; also CR800-2023 p. 41, CU800-2021
     p. 41 items 20 and 21, CR900-2025 p. 37 items 69 and 70, CU900-2025 p. 36 items
     49 and 50, CR800ENT-2023 p. 47 items 047, 048, 049, 055 and 195, CU800ENT-2022
     p. 47 items 20, 21, 27, 31 and 32, CU800ENT-2024 p. 53 items 20, 21, 27, 31 and
-    32'
+    32; also CR800-2024 printed pp. 40-42 items 43, 47, 48, 55 and 56, CU800-2024 printed
+    pp. 40-41 items 20, 21, 22, 30 and 31, and CR800ENT-2024 printed pp. 53-55 items
+    41, 43, 47, 49, 55 and 56'
   extracted_at: '2026-09-09'
 ---
 
@@ -61,11 +68,12 @@ same part on every machine.** The parts lists name it.
 
 | Machines | Resistance unit named in the parts list | Its controller |
 |---|---|---|
-| CR800-2021, CR800-2023 | **Generator/Brake** (item 55) | Generator/Brake Controller (43) |
-| CU800-2021 | **Generator/Brake** (item 20) | Generator/Brake Controller (21) |
+| CR800-2021, CR800-2023, **CR800-2024** | **Generator/Brake** (item 55) | Generator/Brake Controller (43) |
+| CU800-2021, **CU800-2024** | **Generator/Brake** (item 20) | Generator/Brake Controller (21) |
 | CR900-2025 | **Generator/Resistance** (item 69) | Generator/Brake Controller (70) |
 | CU900-2025 | **Generator/Resistance** (item 49) | Generator/Brake Controller (50) |
 | CR800ENT-2023 | **Induction Brake** (item **055**) | **EMS Controller** (**049**) |
+| **CR800ENT-2024** | **Induction Brake** (item **55**, unpadded) | **EMS Controller** (**49**) |
 | CU800ENT-2022, CU800ENT-2024 | **Induction Brake** (item 20) | **EMS Controller** (21) |
 
 **A CR800 and a CR800ENT do not share a brake.** The generator machines brake
@@ -85,12 +93,15 @@ Generator/Brake Controller quoted is the wrong part.
 The CR800ENT-2023 numbers its electrical parts in a three-digit padded series of
 its own - Power Adaptor **047**, Control Power Board **048**, EMS Controller
 **049**, Induction Brake **055**, AC Electronic Module **195**. The two CU800ENT
-books number the identical parts **31, 32, 21, 20 and 27**. Quote an item number
+books number the identical parts **31, 32, 21, 20 and 27**. **The CR800ENT-2024
+kept the 2023 numbers but dropped the padding** - Power Adaptor **47**, EMS
+Controller **49**, Induction Brake **55** - so a search for `055` against the 2024
+book returns nothing at all; see `cr800ent-2024-specs-parts-list`. Quote an item number
 only from the book for the machine in front of you. **Both numbering schemes were
 re-read from the parts-list pages rendered at 300 dpi**, not only from the text
 extract.
 
-## Five of the thirteen manuals cannot answer this question
+## Five of the sixteen manuals cannot answer this question
 
 The CR900-2018, CR900ENT-2021, CU800-2012, CU900-2018 and CU900ENT-2021 owner's
 manuals print no parts list at all, so **they name no brake part**. The CR900-2018,
@@ -104,13 +115,13 @@ from a book that covers a different machine - see
 
 Whether the machine needs an outlet, and at what voltage and amperage, is a
 safety question and lives in the `safety` section, not here. In outline: the
-**eight LED-console machines** run off the built-in generator and need no outlet;
-**all five touchscreen machines plug in**. The CR900ENT-2021 and CU900ENT-2021
+**ten LED-console machines** run off the built-in generator and need no outlet;
+**all six touchscreen machines plug in**. The CR900ENT-2021 and CU900ENT-2021
 books simply say to plug in the power cord at the front base and never use the
 word *generator* at all; the CR800ENT-2023 and CU800ENT-2022 ask for a 110-volt,
-5-amp grounded circuit; and **the CU800ENT-2024 asks for a 120-volt, 15-amp
-circuit instead** - the same machine family, a different requirement, so check the
-printing in front of you.
+5-amp grounded circuit; and **the CU800ENT-2024 and the CR800ENT-2024 both ask for
+a 120-volt AC, 15-amp circuit instead** - the same machine family, a different
+requirement, so check the printing in front of you.
 
 ## No resistance figure is printed anywhere
 

@@ -2,8 +2,8 @@
 id: ct850-2016-does-not-stop-after-safety-key-removed
 title: The treadmill does not stop when the safety key is pulled
 kind: troubleshooting
-question: Why will a Spirit CT850 treadmill, 2016 or 2020, not stop when the safety
-  key is removed?
+question: Why will a Spirit CT800ENT-2024, CT850 or CT850ENT-2024 treadmill not stop
+  when the safety key is removed?
 asked_as:
 - treadmill wont stop when i pull the tether
 - safety key does not stop the belt
@@ -22,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -46,3 +48,7 @@ One cause and one fix, printed identically in the 2016 and 2020 manuals.
 
 The opposite fault - the machine runs with no key fitted at all - is a separate row on
 `ct850-2016-operates-without-safety-key`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.

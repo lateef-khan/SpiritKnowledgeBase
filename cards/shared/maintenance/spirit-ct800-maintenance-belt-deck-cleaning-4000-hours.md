@@ -36,6 +36,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-maintenance-deck-life-20000-kilometres
 - ct900-belt-deck-cleaning
 - ct900ent-belt-deck-cleaning
 - 40t-2026-maintenance-deck-life-and-flipping

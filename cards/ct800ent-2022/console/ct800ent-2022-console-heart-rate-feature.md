@@ -23,9 +23,13 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
   - cr800ent-2023
+  - cr800ent-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800ent-2022
   - cu800ent-2024
   section: console
@@ -81,3 +85,18 @@ pairing procedure or a list of supported straps.** On the 2024 console a strap i
 "including coded transmissions" and name no Bluetooth strap:
 `spirit-ce-console-pulse-window-polar-coded-straps`. Do not read one statement onto the other
 machine.
+
+**The four 2024 ENT owner's manuals print this section word for word too** - CT800ENT-2024 and
+CT850ENT-2024 p. 18 under **FEATURES - CONTINUED / Heart Rate Window**, CE800ENT-2024 and
+CR800ENT-2024 p. 16 under **FEATURES / Heart Rate Window** - so this card covers a treadmill and an
+elliptical of that generation as well. Only the name in the last bullet changes: "The treadmill",
+"The Elliptical" and "The Recumbent Bike will also pick up wireless heart rate transmitters that are
+Polar and Bluetooth compatible."
+
+**On all four a strap is paired from the Heart Rate icon in the status bar**, not from a procedure in
+this section: `cu800ent-2024-console-status-bar-and-tabs`. None of the four prints a pairing
+procedure here or a list of supported straps.
+
+**The eight LED machines of the same 2024 range claim less** - Polar compatible "including coded
+transmissions" and no Bluetooth strap:
+`spirit-ce-console-pulse-window-polar-coded-straps` and `ct850-2020-heart-rate-feature`.

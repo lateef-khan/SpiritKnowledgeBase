@@ -2,7 +2,7 @@
 id: cu800ent-2024-console-media-tab-and-mirroring
 title: The Media tab, the automatic app logout, and the Floating Panel that keeps the workout visible
 kind: procedure
-question: How do I use the apps and cast my phone to the screen on a Spirit cu800ent-2024 bike?
+question: How do I use the apps and cast my phone to the screen on a Spirit 2024 ENT touchscreen machine?
 asked_as:
 - how do i watch netflix on the spirit bike
 - how do i cast my phone to the bike screen
@@ -22,9 +22,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -77,3 +81,22 @@ machine; that one needs the **Spirit Mirroring** app on Android and iOS 8 or hig
 
 **While in the Media section, use the physical keys to change level** - the on-screen level panels
 belong to the workout views: `cu800ent-2024-console-workout-views`.
+
+**The four 2024 ENT machines print this section word for word too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: CT800ENT-2024 and CT850ENT-2024 pp. 27-28, CE800ENT-2024 and CR800ENT-2024 pp. 25-26.
+
+**One sentence is on the CU800ENT-2024 only.** *"(Built-in apps subject to change without notice.)"*
+is printed in the CU800ENT-2024 book and in none of the other four. The apps on any of these consoles
+are still not a specification - the other four simply do not say so in words.
+
+**The CT800ENT-2024, CT850ENT-2024 and CE800ENT-2024 head the Media page "Workout Mode"**, repeating
+the heading from the page before it. The CR800ENT-2024 and CU800ENT-2024 head it **Media**. It is a
+heading error in three books, not a different feature; the paragraph beneath is identical in all five.
+
+**On the two ENT treadmills the physical keys that replace the on-screen panels are speed and
+incline**, not level: `cu800ent-2024-console-workout-views`.

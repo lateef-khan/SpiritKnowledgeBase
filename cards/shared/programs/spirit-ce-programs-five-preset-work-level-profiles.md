@@ -24,6 +24,8 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -60,3 +62,10 @@ and one or two Heart Rate programs.
 
 **The CE850 manuals say seven, not five** - see
 `spirit-ce850-programs-seven-preset-work-level-profiles`.
+
+**The 2024 CE800 and CE850 owner's manuals both say five** and both describe only four - Hill, Fat
+Burn, Cardio and Interval - with Strength appearing only as a caption on the strip of profile
+pictures. **The CE850 dropped its seven-program claim in 2024**: the 2016, 2020 and 2022 CE850
+manuals open the chapter with seven (see
+`spirit-ce850-programs-seven-preset-work-level-profiles`), and the 2024 CE850 prints the CE800
+sentence instead.

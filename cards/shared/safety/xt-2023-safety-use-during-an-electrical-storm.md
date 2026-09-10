@@ -26,6 +26,8 @@ facets:
   - 70t-2026
   - 80t-2026
   - ct800-2012
+  - ct800-2024
+  - ct850-2024
   - mt200-2010
   - mt200-2022
   - xbr25-2019
@@ -195,3 +197,9 @@ manual has. That is an absence in those three printings, not a permission: the r
 XBR55 book of the same year and returned to the XBU55 book in 2023. The four XBR95 books are
 self-powered and have no household supply to surge
 (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The CT800-2024 and CT850-2024 owner's manuals print the same paragraph**, unchanged, on their
+ELECTRICAL SAFETY page, printed page 6. They are the only two of the fourteen 2024 New Black Units
+that print it: the four other mains-powered machines of the range - CT800ENT-2024, CT850ENT-2024,
+CE800ENT-2024 and CR800ENT-2024 - carry the AFCI/GFCI paragraph without this sentence, and the
+remaining eight print no storm warning at all.

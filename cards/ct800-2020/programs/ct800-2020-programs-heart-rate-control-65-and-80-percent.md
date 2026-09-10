@@ -27,7 +27,9 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -97,3 +99,9 @@ cardiovascular system while this page sets the Cardiovascular program to 80%.
 sequence - see `spirit-ct850-programs-heart-rate-control-60-and-85-percent`. Within the CT850 line
 the figures changed between printings, so read the manual for the year of the machine in front of
 you.
+
+**The 2024 CT800 and CT850 owner's manuals print this same page word for word** (both printed pages
+31), including the 65% and 80% figures, the Check Pulse prompt and all nine steps. They carry the
+same unreconciled clash with their own heart rate training page, which recommends 85% for
+strengthening the cardiovascular system. **The 2024 ENT touchscreens state the pair as 65% or 85%**
+- see `ct800ent-2024-programs-heart-rate-defaults-to-sixty-five-or-eighty-five-percent`.

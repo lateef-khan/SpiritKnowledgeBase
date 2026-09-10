@@ -25,18 +25,24 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
+  - crs800s-2024
+  - cs800-2024
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   - xbr25-2019
@@ -132,3 +138,9 @@ second sentence. They are deliberately not on this card.
 
 **Neither ENT bike has program keys.** Their programs are tiles behind the Workout Programs tab on
 the touchscreen.
+
+**Six of the 2024 New Black Units owner's manuals print this paragraph word for word** - CE800-2024
+p. 17, CE850-2024 p. 19, CR800-2024 p. 17, CU800-2024 p. 17, CRS800S-2024 p. 18 and CS800-2024 p. 18,
+at the foot of BASIC INFORMATION - so this card covers a stepper and a semi-recumbent stepper as well
+as ellipticals and bikes. The CRS800S-2024 and CS800-2024 write "program key" in lower case where the
+others write "Program key"; nothing else differs.

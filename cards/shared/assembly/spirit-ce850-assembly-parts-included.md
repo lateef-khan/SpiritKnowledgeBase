@@ -28,6 +28,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: assembly
   code: '*'
 authority: 3
@@ -87,3 +88,19 @@ other. See [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-le
 
 The **tools** are printed in a second panel on the same page and are on their own
 card - see [tools included](spirit-ce850-assembly-tools-included.md).
+
+## The 2024 redesign prints the same thirteen lines
+
+The **CE850 2024** carton lists the same thirteen lines as the 2022 one, in the same
+order, the water bottle holder included: main frame, console mast, console mast cover,
+2 swing arms, 2 connecting arms, **6 levelers**, console, water bottle holder, 2 foot
+pedals, power cord, audio cable, **2 transport wheels** and hardware kit.
+
+**Six levellers here, two in the same book's maintenance chapter.** The CE850 2024
+prints the same noise-item sentence as the rest of the range - two levelling pads
+under the rear stabiliser, 14mm wrench - and no step of its build fits or adjusts a
+leveller. Neither page mentions the other. See
+[the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+**The two transport wheels are on the panel and in no step.** Nothing in the CE850
+2024 build fits them and nothing in the book says how to use them to move the machine.

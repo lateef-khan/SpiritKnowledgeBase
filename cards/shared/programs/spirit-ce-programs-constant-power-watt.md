@@ -24,7 +24,9 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -61,3 +63,7 @@ resistance level or slower pedalling at a higher resistance level.
 
 **No CE850 owner's manual has this program.** The 2016, 2020 and 2022 CE850 manuals never mention
 Constant Power or Watts.
+
+**The 2024 CE800 prints these same nine steps** (printed page 25). **The 2024 CE850 has no Constant
+Power program at all** - it is the only machine in the 2024 range whose LED console drops it, and a
+loose search of that book for "watt" and "constant power" returns nothing in the programs chapter.

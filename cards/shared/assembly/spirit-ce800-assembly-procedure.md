@@ -28,6 +28,7 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -135,3 +136,18 @@ PART, TYPE, DESCRIPTION, QTY in that order. In the 2023 text extraction the step
 header appears broken across the heading line, which reads as a swap and is not one.
 
 Steps one, two and four are word for word identical between the printings.
+
+## The 2024 redesign reprints this build
+
+The **CE800 2024** manual prints these four steps word for word, the water bottle
+holder step included, and its four hardware tables row for row. The two things this
+card already flags are both still there in 2024: step three's console mast still goes
+on with three screws and then a fourth with a washer, and step one still names items
+**64 and 65** for both the middle stabilizer tube and the rear one, asking for two
+screws each out of four.
+
+**The touchscreen CE800ENT 2024 builds the same machine with different item numbers.**
+Its step one secures a **Rail Support Assembly (No.3)** where this one secures a
+**Center Aluminum Rail (No.72)**, and every fastener number differs, though the
+quantities match line for line. Take the numbers from the book in front of you; see
+[the touchscreen build](../../ce800ent/assembly/ce800ent-assembly-procedure.md).

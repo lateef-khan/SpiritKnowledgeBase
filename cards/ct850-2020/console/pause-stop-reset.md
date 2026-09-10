@@ -26,9 +26,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -69,3 +71,6 @@ seconds"; it is the same figure.
 
 **The CT850ENT-2022 touchscreen prints only the first three**, like the CT800ENT-2022:
 `ct800ent-2022-console-pause-stop`.
+
+**The 2024 CT800 and CT850 owner's manuals print all six behaviours word for word on their p. 17**,
+under PAUSE / STOP / RESET, so this card covers those two machines.

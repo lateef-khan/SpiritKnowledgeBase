@@ -20,9 +20,19 @@ facets:
   model: '*'
   applies_to:
   - ce800-2013
+  - ce800-2024
+  - ce800ent-2024
   - ce850-2016
+  - ce850-2024
   - ce900-2025
   - ces880-2025
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900
   - xe195-2019
   - xe195-2021
@@ -131,3 +141,10 @@ figures**, headed "Wearing The Chest Strap", with the "2 ribbed oval areas" elec
 page 28), XG400 2019 (page 30), XE295 2019 (page 31), XE395 2018 and XE895 2018 (page 32) and XE795
 2018 (page 34). **None of the six says the strap is not included** on this page; each says elsewhere,
 on its safety page, that a chest transmitter strap is sold separately.
+
+**Ten of the fourteen 2024 New Black Unit manuals print these same six steps and the same battery
+figures** under "HEART RATE CHEST STRAP* (NOT INCLUDED)", including "interlocking key", the 2500
+hour battery life and the Panasonic CR2032. The four 2024 bikes print the same page and are held on
+`spirit-bike-programs-chest-strap-with-an-interlocking-key-and-a-panasonic-battery`. **The CSC900
+stairclimber prints no chest strap page at all** - see
+`csc900-2024-programs-no-heart-rate-training-page`.

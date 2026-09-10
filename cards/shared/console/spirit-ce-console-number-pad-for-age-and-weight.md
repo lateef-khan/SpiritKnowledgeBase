@@ -28,6 +28,9 @@ facets:
   - ce900-2025
   - cr900-2018
   - cr900-2025
+  - crs800s-2024
+  - cs800-2024
+  - csc900-2024
   - cu800-2012
   - cu900-2018
   - cu900-2025
@@ -87,3 +90,18 @@ their owners to type a number.
 
 **No touchscreen bike has one either.** The CR900ENT-2021, CU900ENT, CU800ENT-2022, CR800ENT-2023
 and CU800ENT-2024 take values on screen.
+
+**The CSC900-2024 stair climber owner's manual prints the CE900 wording word for word on its p. 16**,
+under a **Number Keypad** heading in FEATURES: *"When you are in the data set-up mode setting new data
+such as age, weight etc., you can use these buttons to enter the numbers quickly."* It does not say
+which keys carry the digits, exactly as the CE900 manuals do not. Its program instructions then use
+the pad throughout, calling it the **numerical Keypad**.
+
+**The CS800-2024 and CRS800S-2024 have a numeric button pad too, but never describe it in the console
+chapter.** Neither book has a Number Keypad heading; the pad is named only inside the program set-up
+steps - CS800-2024 p. 22 ("You may enter your Age, using the Up and Down buttons or the numeric
+button pad") and CRS800S-2024 p. 24, in the weight step. The fact holds for both machines; the
+description of it does not exist outside those steps.
+
+**The CE800-2024, CE850-2024, CR800-2024 and CU800-2024 have no number pad**, exactly as their
+predecessors do not: those four books set every value with the Level Up and Down keys alone.

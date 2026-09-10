@@ -25,8 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: errors
   code: no-code
 authority: 3
@@ -76,3 +78,12 @@ machines they print 12 gauge and a minimum of 110 volt AC at 60 Hz for 2016
 (`ct850-2016-only-reaches-7-mph`), and 16 gauge and a minimum of 100 volt AC for 2020
 (`ct850-2020-only-reaches-7-mph`) - three different supply figures across the two documents
 for one machine pair, and nothing reconciles them.
+
+**The CT800 2024 and CT850 2024 owner's manuals print this row word for word**, the 16 gauge
+minimum and the minimum of 120 volt AC included, on printed page 41 of both books. The condition is
+worded `Treadmill will only achieve approximately 7mph but shows higher on the display`.
+
+**Those two books contradict themselves about the supply on this very page.** Four rows above, the
+`Display does not light` row of the same table tells the reader to push the plug into a **230 VAC**
+wall outlet, while this row demands a minimum of **120 volt AC**. Nothing in either manual
+reconciles the two. See `spirit-2024-errors-display-does-not-light-230-vac-outlet`.

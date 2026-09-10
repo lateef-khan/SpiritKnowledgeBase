@@ -2,8 +2,8 @@
 id: ct900ent-treadbelt-off-center-hesitates
 title: Treadbelt does not stay centered / hesitates when walked or run on
 kind: troubleshooting
-question: Why does the tread belt drift off centre or hesitate on a Spirit CT900ENT, or
-  on a Spirit XT treadmill of 2015 or 2023?
+question: Why does the tread belt drift off centre or hesitate on a Spirit CT800, CT850,
+  CT900ENT or XT treadmill?
 asked_as:
 - the belt keeps drifting to one side
 - belt feels like it hesitates when i step
@@ -23,6 +23,8 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ct800-2024
+  - ct850-2024
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -74,3 +76,12 @@ older generation than its 2023 badge suggests. The cause and the remedy are iden
 **The 2010 XT685 owner's manual prints this row word for word**, and sends the reader to the
 **Tread-belt Tension** heading of its own *General Maintenance* chapter, exactly as the 2015
 manuals do. The cause and the remedy did not change on the XT685 between 2010, 2015 and 2023.
+
+**The CT800 2024 and CT850 2024 owner's manuals print this row word for word** and send the reader
+to the **Machine Care** section on Tread-belt Tension - the 2024 books' name for the chapter the
+XT manuals call *General Maintenance* or *Maintenance & Care*. The cause and the remedy are
+unchanged.
+
+**The two ENT treadmills of the same 2024 family split this one row into two**, with different
+causes for each half - uneven belt tension for the tracking, insufficient lubricant or insufficient
+tension for the hesitation. See `spirit-2024-errors-tread-belt-does-not-run-in-center`.

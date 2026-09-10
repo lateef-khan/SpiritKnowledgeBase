@@ -28,6 +28,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: specs
   code: '*'
 authority: 3
@@ -38,8 +39,8 @@ see_also:
 - spirit-ce850-specs-twenty-resistance-levels
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: 'p. 23, STRIDE LENGTH ADJUSTMENT; the same passage is CE850-2016 p. 21
-    and CE850-2022 p. 24'
+  locator: 'p. 23, STRIDE LENGTH ADJUSTMENT; the same passage is CE850-2016 p. 21,
+    CE850-2022 p. 24 and CE850-2024 printed p. 18 (PDF p. 20)'
   extracted_at: '2026-09-09'
 ---
 
@@ -53,12 +54,16 @@ adjustable, not fixed.
 - The stride can also be **computer controlled** in some programs, and set by hand
   from the console at any time with the stride up/down keys.
 
-All three CE850 printings state the same two figures.
+All four CE850 printings state the same two figures, the 2024 New Black Units
+reissue included - it rewrote about half the book and left this paragraph
+untouched, adding only that the stride "can be controlled by buttons on the left
+swing arm and also can be automatically adjusted during the built-in workout
+programs".
 
 **No other Spirit commercial elliptical manual prints a stride length at all.**
 The CE800, CE800ENT, CE900 and CES880 owner's manuals state none, and none of
 them describes an adjustable stride. Do not quote 18 to 24 inches for any of
-those machines - it is a CE850 figure and the CE850 is the only one of the ten
+those machines - it is a CE850 figure and the CE850 is the only one of the thirteen
 with the adjustable-stride feature. See
 `spirit-ce-specs-no-specification-table`.
 

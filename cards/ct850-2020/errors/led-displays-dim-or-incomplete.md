@@ -2,8 +2,8 @@
 id: ct850-2020-led-displays-dim-or-incomplete
 title: The LED display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
-question: Why are LED display segments missing on a Spirit CT850-2020 treadmill, CE900-2025
-  elliptical or CR900-2025 or CU900-2025 bike?
+question: Why are LED display segments missing on a Spirit CT850-2020 treadmill, a CE800-2024,
+  CE850-2024 or CE900-2025 elliptical, a CR900-2025 or CU900-2025 bike, or a CS800-2024 stepper?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -22,8 +22,11 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce850-2024
   - ce900-2025
   - cr900-2025
+  - cs800-2024
   - ct850-2020
   - cu900-2025
   section: errors
@@ -63,3 +66,11 @@ manual goes straight to a new console.
 
 The CT850 2016 manual prints the same row as `LCD displays not bright, incomplete or imperfect`:
 `spirit-lcd-displays-dim-or-incomplete`.
+
+**Three of the 2024 New Black machines print this row word for word** - the CE800 2024 and CE850
+2024 ellipticals and the CS800 2024 stepper. All three say `LED displays are broken` and `Replace
+with new console`, and all three pages are flat pictures read from the rendered page.
+
+The CR800 2024 and CU800 2024 bikes and the CRS800S 2024 stepper of the same family print the LCD
+wording instead: `spirit-lcd-displays-dim-or-incomplete`. The two ENT treadmills print a TFT
+version: `cu900ent-tft-displays-not-bright`.

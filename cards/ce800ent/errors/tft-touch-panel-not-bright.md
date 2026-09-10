@@ -2,8 +2,8 @@
 id: ce800ent-tft-touch-panel-not-bright
 title: The touch panel is not bright, incomplete or imperfect
 kind: troubleshooting
-question: Why is the touch screen dim or incomplete on a Spirit CE800ENT elliptical or
-  CU800ENT-2024 bike?
+question: Why is the touch screen dim or incomplete on a Spirit CE800ENT or CE800ENT-2024
+  elliptical or a CR800ENT-2024 or CU800ENT-2024 bike?
 asked_as:
 - elliptical touch screen is dim
 - spirit elliptical screen half lit
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
+  - cr800ent-2024
   - cu800ent-2024
   section: errors
   code: no-code
@@ -64,3 +66,6 @@ CU900ENT manuals all carry one, and so do the CR900 2025 and CU900 2025 bikes:
 
 The CR900 2025 and CU900 2025 bikes answer the same symptom about an **LED** panel, with different
 causes and no voltage figure: `ce900-2025-errors-leds-not-bright-incomplete-or-imperfect`.
+
+**The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print this row word for word**,
+the 120VAC included. Neither has a second row for dead segments either.

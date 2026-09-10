@@ -2,8 +2,8 @@
 id: ct850-2020-no-display-when-safety-key-inserted
 title: No display on the monitor when the safety key is inserted
 kind: troubleshooting
-question: Why is there no display when I insert the safety key on a Spirit CT850-2020
-  treadmill?
+question: Why is there no display when I insert the safety key on a Spirit CT800ENT-2024,
+  CT850-2020 or CT850ENT-2024 treadmill?
 asked_as:
 - no display when i put the safety key in
 - spirit treadmill console blank with key fitted
@@ -21,9 +21,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -54,3 +56,11 @@ Eight causes, in the order the manual lists them.
 
 The earlier CT850 2016 manual names this cable specifically as a **12-pin computer cable**:
 `ct850-2016-no-display-when-safety-key-inserted`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+All eight causes are unchanged, in the same order. **Both 2024 books misspell `Varistor` as
+`Visitor`** in the sixth row - `Visitor on controller is blown / Replace visitor or controller`. The
+part is the varistor; the fifth row of the same table spells it correctly on the CT850 2020.

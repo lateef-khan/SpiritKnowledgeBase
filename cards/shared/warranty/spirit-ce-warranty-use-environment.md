@@ -40,6 +40,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-warranty-use-environment
 - spirit-ct800-warranty-use-environment
 - ct900-warranty-use-environment
 - ct900ent-warranty-use-environment

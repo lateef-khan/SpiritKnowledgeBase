@@ -2,7 +2,7 @@
 id: cu800ent-2024-console-garmin-pairing
 title: Pairing a Garmin watch by typing the pin-code the watch shows
 kind: procedure
-question: How do I connect a Garmin device to a Spirit cu800ent-2024 bike?
+question: How do I connect a Garmin device to a Spirit 2024 ENT touchscreen treadmill, elliptical or bike?
 asked_as:
 - how do i connect my garmin watch to the spirit bike
 - garmin pairing on the bike console
@@ -18,9 +18,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -51,3 +55,15 @@ it does not say what happens to the pairing at the end of a workout.
 **This is a separate flow from ordinary Bluetooth pairing**, which has its own icon and no pin-code
 step: `cu800ent-2024-console-bluetooth-pairing`. **No other Spirit bike manual mentions Garmin at
 all.**
+
+**The four 2024 ENT machines print this section word for word too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: CT800ENT-2024 and CT850ENT-2024 p. 29, CE800ENT-2024 and CR800ENT-2024 p. 27, under
+**Garmin Pairing**. Identical wording on all five machines: press the Garmin logo, press Connect
+Device, put the watch into pairing mode, select it on screen, type the pin-code the watch shows.
+
+**No Spirit manual outside this 2024 ENT family mentions Garmin at all.**

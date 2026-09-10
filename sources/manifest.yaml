@@ -1150,6 +1150,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR800/2020/CR800_800140_OM_20230706.pdf
   sha256: 1600f444fe71e346cceeeef81ed1802a0831b818a7b60c2ef599858e9448312e
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr800-2024-owners-manual
+  title: 2024 Spirit CR800 recumbent bike owner's manual, warranty effective September
+    17, 2024. 55.9% against the 2023 CR800 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CR800_OwnersManual_800125_20240916.pdf
+  sha256: 0b86dc6ce4f96a4cacbede2d76ea4523fbab446af97f9d3d226c726d3f3f64c3
+  ingested_at: '2026-09-10'
 - id: spirit-bike-cr800ent-2023-owners-manual
   title: 2023 Spirit CR800ENT recumbent bike owner's manual. A byte-identical copy
     of this file is misfiled at XIC600/2023/; there is no XIC600 2023 manual.
@@ -1157,6 +1165,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR800/2020/CR800ENT_800150_OM_20230706.pdf
   sha256: ae23204e3d2ce138dbc01f0dade0143d06bd77a66075a4ff83e7a3bd68a81342
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr800ent-2024-owners-manual
+  title: 2024 Spirit CR800ENT recumbent bike owner's manual, warranty effective October
+    8, 2024. 42.6% against the 2023 CR800ENT manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CR800ENT_OwnersManual_800165_20241008.pdf
+  sha256: 767ebb61f0cb7737fe08d12d55f984bf7c08f7f30aea8ac3e0cbff84087c7de3
+  ingested_at: '2026-09-10'
 - id: spirit-bike-cr900-2018-owners-manual
   title: '2018 Spirit CR900 recumbent bike owner''s manual. Dated from its back cover:
     Revision 08.05.2018, (c) 2018. The filename says 20211108 and the warranty page
@@ -1168,7 +1184,9 @@
   ingested_at: '2026-09-09'
 - id: spirit-bike-cr900-2025-owners-manual
   title: 2025 Spirit CR900 recumbent bike owner's manual, Version 3.0 Revision 06.12.25,
-    warranty effective October 1, 2024
+    warranty effective October 1, 2024. New Black Units/CR900_OwnersManual_900125_20241001.pdf
+    is the same document at 99.8% on native text - an earlier export of this manual,
+    not a separate printing.
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR900/2025/CR900_OwnersManual_900125_20250612.pdf
   sha256: f6bdfc5f99d63be7b0c1adcb82d40b9fa2ac877e412511e89414026f2681698a
@@ -1200,6 +1218,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800/2023/CU800_800340_OM_20211112.pdf
   sha256: ee27d355b319de055355356c3894e861c77c2503f633be305868fc3afa5cab65
   ingested_at: '2026-09-09'
+- id: spirit-bike-cu800-2024-owners-manual
+  title: 2024 Spirit CU800 upright bike owner's manual, warranty effective September
+    17, 2024. 48.0% against the 2021 CU800 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CU800_OwnersManual_800325_20240919.pdf
+  sha256: 6f573a7300592ad4916d9ac42e067b64473b76594a8e460b83134ce5fff242a1
+  ingested_at: '2026-09-10'
 - id: spirit-bike-cu800ent-2022-owners-manual
   title: 2022 Spirit CU800ENT upright bike owner's manual, warranty effective February
     8, 2022 (the 2021 folder is wrong)
@@ -1209,7 +1235,9 @@
   ingested_at: '2026-09-09'
 - id: spirit-bike-cu800ent-2024-owners-manual
   title: 2024 Spirit CU800ENT upright bike owner's manual, Version 1.0 Revision 10.25.24,
-    warranty effective October 8, 2024
+    warranty effective October 8, 2024. A byte-different but textually IDENTICAL export
+    (100.0% on native text) sits at New Black Units/CU800ENT_OwnersManual_800365_20241009.pdf.
+    Same filename, different hash, one manual.
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2025/CU800ENT_OwnersManual_800365_20241009.pdf
   sha256: 6edbc27fadca8a7b3ee7cc6be16262eefc1d96854cf261e32bdacce9fb439fe0
@@ -1224,7 +1252,9 @@
   ingested_at: '2026-09-09'
 - id: spirit-bike-cu900-2025-owners-manual
   title: 2025 Spirit CU900 upright bike owner's manual, Version 3.0 Revision 06.12.25,
-    warranty effective October 1, 2024
+    warranty effective October 1, 2024. New Black Units/CU900_OwnersManual_900325_20241001.pdf
+    is the same document at 99.8% on native text - an earlier export of this manual,
+    not a separate printing.
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU900/CU900_OwnersManual_900325_20250612.pdf
   sha256: 36d3d7529d79f3abb0d908350673f0e02bb69c0bdcf61ba9e7da6ff63705e924
@@ -1371,6 +1401,30 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XIC600/2015/XIC600_600377_OM_20211130.pdf
   sha256: a47bc251ba445b4ca621d638d1eca8391fd896bf68751ebcccbb9f3c87e97f00
   ingested_at: '2026-09-09'
+- id: spirit-climber-crs800s-2024-owners-manual
+  title: 2024 Spirit CRS800S recumbent stepper owner's manual, warranty effective
+    September 27, 2024. A machine with no cards in the repository.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CRS800S_OwnersManual_800525_20240927.pdf
+  sha256: c41a6b5ad7839f5472cc224b5206e7d871c62a279800345339113735794a4c88
+  ingested_at: '2026-09-10'
+- id: spirit-climber-cs800-2024-owners-manual
+  title: 2024 Spirit CS800 stepper owner's manual, warranty effective September 30,
+    2024. A machine with no cards in the repository.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CS800_OwnersManual_800625_20240930.pdf
+  sha256: a0cbf05bd7e880ae5f4a089b56c4a53a7469a7b854d1332b59bb30d022c13ff0
+  ingested_at: '2026-09-10'
+- id: spirit-climber-csc900-2024-owners-manual
+  title: 2024 Spirit CSC900 stairclimber owner's manual, warranty effective September
+    27, 2024. A machine with no cards in the repository.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CSC900_OwnersManual_900665_20240925.pdf
+  sha256: 1156f153e149c2187680b7c6a2a5f596a8c484e596e3f1866626a3afea647cc0
+  ingested_at: '2026-09-10'
 - id: spirit-climber-cvc800-service-manual
   title: Spirit CVC800 vertical climber service manual
   kind: markdown
@@ -1397,6 +1451,22 @@
   origin_uri: file://Ellipticals/CE800/CE800_800042_OM_20230608.pdf
   sha256: ffff2b971b3cf8e69d81b21e1dfe303df25ef83d99327531777f01ade2de0f31
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800-2024-owners-manual
+  title: 2024 Spirit CE800 elliptical owner's manual, warranty effective September
+    17, 2024. 51.4% against the 2023 CE800 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CE800_OwnersManual_800025_20240919.pdf
+  sha256: 8feace96dd886360b03ba3de3f685163b221a458549ff03be2642d3b1f6a6d7a
+  ingested_at: '2026-09-10'
+- id: spirit-elliptical-ce800ent-2024-owners-manual
+  title: 2024 Spirit CE800ENT elliptical owner's manual, warranty effective October
+    8, 2024. 45.2% against the carded CE800ENT manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CE800ENT_OwnersManual_800065_20241008.pdf
+  sha256: 60559ceb9d0a3bb12d59baa8448df9ccbd1153700ea3815febbcd0185aad0a29
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-ce800ent-owners-manual
   title: Spirit CE800ENT Elliptical Trainer Owner's Manual (part 800054, effective
     July 3, 2024)
@@ -1429,6 +1499,14 @@
   origin_uri: file://Ellipticals/CE850/CE850_20220706.pdf
   sha256: 2ca9e399c469e2fffebd9bb95f4ff2eee57fd66e01fc75f89e28f709d753b2c9
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce850-2024-owners-manual
+  title: 2024 Spirit CE850 elliptical owner's manual, warranty effective September
+    23, 2024. 51.6% against the 2022 CE850 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CE850_OwnersManual_850025_20240920.pdf
+  sha256: 0f13ece8b7786c725b9c5441e80e0f23a9ee5f87bc7d105d6e21b829b1082360
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-ce900-2021-owners-manual
   title: Spirit CE900 Elliptical Trainer Owner's Manual (effective November 8, 2021)
   kind: text
@@ -1436,7 +1514,9 @@
   sha256: 64764ac2edd346d31f488e023205582b28cbe8b107ab498630d8e0978e7ed56a
   ingested_at: '2026-09-09'
 - id: spirit-elliptical-ce900-2025-owners-manual
-  title: Spirit CE900 Elliptical Trainer Owner's Manual (part 900025, revision 2025-06-12)
+  title: Spirit CE900 Elliptical Trainer Owner's Manual (part 900025, revision 2025-06-12).
+    New Black Units/CE900_OwnersManual_900025_20241001.pdf is the same document at
+    99.8% on native text - an earlier export of this manual, not a separate printing.
   kind: text
   origin_uri: file://Ellipticals/CE900/CE900_OwnersManual_900025_20250612.pdf
   sha256: c2dd854d9272e7039d8b38ec0f8b7a6a6f898a5501a6a3557f9135cd63e652a7
@@ -1634,6 +1714,14 @@
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
   sha256: c6482d0204653f2a17c6ac550b2e9754c7581b813b3f334c866852f93e09e2d1
   ingested_at: '2026-09-08'
+- id: spirit-rower-crw800-2024-owners-manual
+  title: 2024 Spirit CRW800 rower owner's manual, warranty effective September 26,
+    2024. Distinct from the carded crw800h2o water rower.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CRW800_OwnersManual_800925_20240926.pdf
+  sha256: b48d0526fd50b927c499f61a4225bafaa9cf35d615349da365f4700fb21836f7
+  ingested_at: '2026-09-10'
 - id: spirit-rower-crw800h2o-service-manual
   title: Spirit CRW800H2O rower service manual
   kind: markdown
@@ -1677,6 +1765,15 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2020/CT800_800840_OM_20231228.pdf
   sha256: b07899919fdb6087420db58d8b5f15553c3dfaddda949282e6f0fddf3564d6db
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2024-owners-manual
+  title: 2024 Spirit CT800 treadmill owner's manual, warranty effective September
+    17, 2024. The New Black Units redesign - only 55.4% of the 2020 CT800 manual's
+    text survives.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CT800_OwnersManual_800825_20240916.pdf
+  sha256: 43e9aaf3102fc76b987b94dc26dc70f1baee4874e42430e19b14940c0f15609e
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-ct800-800810-duplicate-scan
   title: 'DUPLICATE SCAN, do not card from this: part 800810 filed under 2010 is a
     photocopy of the CT800 2012 owner''s manual. Same internal stamp CT800_20130729,
@@ -1692,6 +1789,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800ENT/2022/CT800ENT_800852_OM_20240703.pdf
   sha256: 834f439c6317e292cb1740f51e0bdb66f5a7bb2d92ded4ba7b8ab3f55302f508
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800ent-2024-owners-manual
+  title: 2024 Spirit CT800ENT treadmill owner's manual, warranty effective October
+    7, 2024. 40.9% against the 2022 CT800ENT manual - the largest rewrite in the set.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CT800ENT_OwnersManual_800865_20241004.pdf
+  sha256: ae89d2fe5c1260b74337507a2f2a715026e31a9f94a49a6c15800ddda20d74ce
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-ct850-2016-owners-manual
   title: 2016 Spirit CT850 treadmill owner's manual (rev. 03/2022)
   kind: pdf
@@ -1723,14 +1828,32 @@
   origin_uri: file://CT850 Service Manual.pdf
   sha256: ac4e9d1f6aa0f60ba5337f2808b5abe519c0b16c49117c8d20c3afbe185ae25d
   ingested_at: '2026-09-08'
+- id: spirit-treadmill-ct850-2024-owners-manual
+  title: 2024 Spirit CT850 treadmill owner's manual, warranty effective September
+    17, 2024. 56.3% against the 2020 CT850 manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CT850_OwnersManual_850825_20240916.pdf
+  sha256: f90158cdb7c5dc28764495c8dc1d9a336e86e3362e6ce9203fed2904dd00874b
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-ct850ent-2022-owners-manual
   title: 2022 Spirit CT850ENT treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850ENT/2022/CT850ENT_850852_OM_20240703.pdf
   sha256: 7b9f36a53255aaeb528f23aab66069337587cda92597ac000055887235b629d6
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct850ent-2024-owners-manual
+  title: 2024 Spirit CT850ENT treadmill owner's manual, warranty effective October
+    7, 2024. 40.6% against the 2022 CT850ENT manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
+    Units/CT850ENT_OwnersManual_850865_20241007.pdf
+  sha256: 2ce32e3ecdfeda6508d5f6a5a0362b3ec3023a05ba85ac12308a272484bd380e
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-ct900-owners-manual
-  title: Spirit CT900 treadmill owner's manual, part 900825 (rev. 06/2025)
+  title: Spirit CT900 treadmill owner's manual, part 900825 (rev. 06/2025). New Black
+    Units/CT900_OwnersManual_900825_20241001.pdf is the same document at 99.8% on
+    native text - an earlier export of this manual, not a separate printing.
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT900/CT900_OwnersManual_900825_20250612.pdf
   sha256: fe617d1fdc672cab9aee0cc481bbee45b58f087620221370f332bccdc493bda2

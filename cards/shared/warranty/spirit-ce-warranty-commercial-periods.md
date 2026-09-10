@@ -37,6 +37,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-warranty-coverage-periods-parts-labor
 - spirit-ce-warranty-residential-periods
 - spirit-ce-2025-warranty-coverage-periods
 - ce900-2021-warranty-coverage-periods

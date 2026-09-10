@@ -28,14 +28,20 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800ent-2024
   - cvc800
   - mt200-2010
@@ -396,3 +402,12 @@ book prints it. The XE195 and XE295 books have no grounding page in either gener
 mains-powered ENT bikes, CU800ENT-2022 and CR800ENT-2023, ask only for a grounded outlet and never
 mention the plug; the eight self-powered bikes have no plug and the CR900ENT-2021 and CU900ENT print
 no electrical figures of any kind.
+
+**Six of the fourteen 2024 New Black Units print the grounding page.** The CT800-2024, CT850-2024,
+CT800ENT-2024 and CT850ENT-2024 carry `GROUNDING INSTRUCTIONS & LOCATION REQUIREMENTS` on their
+printed page 7, the CE850-2024 carries `GROUNDING AND IMPORTANT OPERATION INSTRUCTIONS` and the
+CS800-2024 `GROUNDING & IMPORTANT OPERATION INSTRUCTIONS`, both also on printed page 7. All six
+print this rule in the same words. **The other eight 2024 manuals have no grounding page at all** -
+CE800, CE800ENT, CR800, CR800ENT, CU800, CRS800S, CSC900 and CRW800. The CSC900 states the rule as
+item 4 of its safety list instead and forbids any adapter
+(`csc900-2024-safety-outlet-120-or-230-volt`).

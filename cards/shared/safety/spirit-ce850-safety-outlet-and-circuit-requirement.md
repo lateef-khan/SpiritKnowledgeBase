@@ -29,6 +29,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - cr800ent-2023
   - cu800ent-2022
   section: safety
@@ -132,3 +133,20 @@ amp** (`spirit-ct800-safety-outlet-120-volt-15-amp`), the CR900ENT-2021 and CU90
 print **no figure at all** (`spirit-xe-safety-no-outlet-figure-printed`), and the eight non-ENT bikes
 need **no outlet at all** (`spirit-bike-safety-no-mains-outlet-needed`). Read the figure off the
 machine's own manual; a CR800 and a CR800ENT of the same year do not share an answer.
+
+## The CE850-2024 asks for the same circuit
+
+The 2024 New Black Units CE850 owner's manual prints both sentences again - the 110-volt, 5-amp
+grounded outlet in the WARNING header of its safety instructions, printed page 5, and the
+`dedicated 5 amp circuit breaker` at the end of the circuit-breaker paragraph on its printed page 6.
+Its GROUNDING page, printed page 7, repeats `This product is for use on a nominal 110-volt/5 amp
+dedicated circuit`. Nothing changed.
+
+**Its two sibling steppers did change.** The CRS800S-2024 and CS800-2024 manuals print the same page
+with **15-amp** in the header while leaving the breaker sentence at 5 amp, so those two books
+contradict themselves (`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). Never read a stepper
+figure onto a CE850 or a CE850 figure onto a stepper.
+
+**The 2024 CE800ENT and CR800ENT moved to 120-volt, 15-amp.** The CE800ENT and CU800ENT/CR800ENT
+books that preceded them are on this card at 110-volt, 5-amp; their 2024 replacements are not
+(`spirit-ct800-safety-outlet-120-volt-15-amp`).

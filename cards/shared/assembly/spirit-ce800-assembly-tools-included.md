@@ -30,6 +30,7 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -97,3 +98,14 @@ The 2013 manual, which has four levelling pads rather than two, says the same 14
 and the 17mm and adds a 14/17mm; the CE850 carries four tools; the CE900 carries
 five, none of them shared with this list; the CES880 carries four again. Do not
 carry this panel across - see the linked tools cards.
+
+## The 2024 redesign prints the same six
+
+The **CE800 2024** manual lists the same six tools on its PARTS INCLUDED page, in the
+same order and with the same wording, the combination tool included. Nothing is added
+and nothing is dropped, and the **12mm wrench is still on the panel** even though the
+parts list still has no item number for it.
+
+**The touchscreen CE800ENT 2024 carton is not this one.** It holds five tools and a
+14/17mm wrench in place of the 17mm and the 12mm; see
+[the touchscreen tools card](../../ce800ent/assembly/ce800ent-assembly-tools-included.md).

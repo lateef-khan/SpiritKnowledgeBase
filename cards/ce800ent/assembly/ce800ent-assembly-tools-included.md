@@ -23,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -76,3 +77,10 @@ wrench in place of the plain 17mm. See
 
 **No 14mm wrench on its own.** The noise item says to adjust the two levelling pads
 with a 14mm wrench; both wrenches above have a 14mm end.
+
+## The 2024 redesign prints the same five
+
+The **CE800ENT 2024** manual lists the same five tools on its PARTS INCLUDED page, in
+the same order and with the same wording. **Item 140 is still given no size**, and the
+build still needs an Allen key for the M8x25mm socket head cap bolts of the console
+mast and the 5/16"x15mm socket head cap bolt of the pedal arms.

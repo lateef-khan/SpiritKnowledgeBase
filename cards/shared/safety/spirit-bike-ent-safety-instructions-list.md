@@ -29,6 +29,7 @@ facets:
   model: '*'
   applies_to:
   - cr800ent-2023
+  - cr800ent-2024
   - cu800ent-2022
   - cu800ent-2024
   section: safety
@@ -131,3 +132,20 @@ the same gauge in different words.
 **None of the three prints `consult a physician` in this list.** The age-35 rule that opens the
 self-powered bikes' list is simply absent from these books; the only physician sentence in them is
 in the HEART RATE EXERTION chapter, which is not a safety instruction.
+
+## The CR800ENT-2024 prints this page word for word
+
+The CR800ENT-2024 owner's manual, printed page 5, prints the same page as the CU800ENT-2024 book:
+the same WARNING header with its 120-volt AC, 15-Amp. grounded outlet, the same 14 AWG extension
+cord line, the same grounded-plug prohibition and the same fifteen bulleted items in the same order,
+ending at `Weight Limit: 450lb`. Compared word by word, the only difference in the whole page is
+`Recumbent Bike` where the CU800ENT book prints `Upright Bike`.
+
+**The CE800ENT-2024 elliptical prints the same page again**, with `Elliptical` substituted for the
+bike name and nothing else changed. It is carded separately because the machine noun runs through
+every quoted line and it is a different product line
+(`ce800ent-2024-safety-instructions-list`); the rules are the same rules.
+
+**The CR800ENT-2023 book that this one replaces asks for a different circuit** - 110-volt, 5-amp,
+not 120-volt, 15-amp (`spirit-ce850-safety-outlet-and-circuit-requirement`,
+`spirit-ct800-safety-outlet-120-volt-15-amp`). Quote the figure from the machine's own manual.

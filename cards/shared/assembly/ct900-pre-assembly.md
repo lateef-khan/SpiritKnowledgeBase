@@ -6,7 +6,11 @@ question: What do I need to do before I start assembling a Spirit CT900, CTSBS90
   40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
   XT685ENT treadmill, a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
   XE795, XE895 or XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike, or a
-  Spirit XBR25 2023, XBR55 2023, XBR95 2023 or XBU55 2023 residential bike?
+  Spirit XBR25 2023, XBR55 2023, XBR95 2023 or XBU55 2023 residential bike, or any of
+  the thirteen Spirit machines of the 2024 commercial redesign - the CT800, CT850,
+  CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the
+  CR800, CR800ENT and CU800 bikes, the CRS800S and CS800 steppers and the CRW800
+  rower?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -25,13 +29,26 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce800-2024
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900
   - ctsbs900
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - xbr25-2023
@@ -219,3 +236,35 @@ All four of these builds end with a SETTING UP YOUR BIKE page the older printing
 not have, carrying a levelling instruction and a way to move the bike. See
 [the levelling card](spirit-xb-2023-assembly-levelling-m14-wrench.md) and
 [the transport card](spirit-xb-2023-assembly-transport-wheels.md).
+
+## Thirteen of the fourteen 2024 commercial machines print these words too
+
+Spirit's September and October 2024 redesign reissued the whole commercial range, and
+**thirteen of its fourteen manuals print all four items word for word**, under the
+heading PRE-ASSEMBLY: the **CT800**, **CT850**, **CT800ENT** and **CT850ENT**
+treadmills, the **CE800**, **CE850** and **CE800ENT** ellipticals, the **CR800**,
+**CR800ENT** and **CU800** bikes, the **CRS800S** semi-recumbent stepper, the
+**CS800** stepper and the **CRW800** rower. None of the thirteen adds an item and
+none leaves one out.
+
+**On nine of the thirteen this is a change of wording, not a change of machine.** The
+CT800, CT850, CT800ENT, CT850ENT, CE800, CE800ENT, CR800, CR800ENT and CU800 all
+replace a predecessor that printed the two-item form which cuts along the dotted line
+on the bottom of the box - see [that card](spirit-ct800-assembly-unpacking.md). The
+CE850 already printed a three-item form of these words and is now on the four-item
+form. The CRS800S, CS800 and CRW800 have no predecessor in this repository.
+
+**The fourteenth, the CSC900 stairclimber, prints something else entirely** - a
+six-item list that tells you to read all the instructions first, not to move the unit
+alone, and not to grasp the plastic covers while lifting. It is the only Spirit
+manual in the repository with that wording. See
+[the CSC900 pre-assembly card](../../csc900-2024/assembly/csc900-2024-assembly-pre-assembly-six-items.md).
+
+**Two of the thirteen have a step before step one.** The CE850 2024 and the CS800
+open their assembly chapters with a STEP ZERO that releases a protective shipping
+bracket from the mast mounting plate. That is not part of these four items and neither
+manual mentions it here. See
+[the step-zero card](spirit-2024-assembly-step-zero-shipping-bracket.md).
+
+Every one of the thirteen builds differently after this point. Take the rest of the
+build from the card for the machine in front of you.

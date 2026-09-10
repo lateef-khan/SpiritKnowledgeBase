@@ -2,7 +2,8 @@
 id: ct850-2020-does-not-start-when-start-pressed
 title: The treadmill does not start when START is pressed
 kind: troubleshooting
-question: Why does a Spirit CT850-2020 treadmill not start when I press START?
+question: Why does a Spirit CT800ENT-2024, CT850-2020 or CT850ENT-2024 treadmill
+  not start when I press START?
 asked_as:
 - treadmill does nothing when i press start
 - belt will not move on my spirit treadmill
@@ -19,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -49,3 +52,11 @@ The earlier CT850 2016 manual names the wires: `AC Motor U or V or W wire`. See
 
 If the belt starts and then stops, that is a different row:
 `ct850-2016-stops-immediately-after-start`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+One word changed with the console: where the CT850 2020 says
+`Treadmill controller shut down and **LED** would be ON`, both 2024 ENT books say
+`... and **TFT** would be ON`. Same condition, named for the screen the 2024 machine actually has.

@@ -20,13 +20,19 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
+  - crs800s-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
+  - ct850-2024
   - ct900
   section: console
   code: '*'
@@ -76,3 +82,20 @@ same ring: a flashing **segment** rather than a dot, the ring **restarting** at 
 **The CE800-2013 and CE850-2016 do not print this paragraph either.** On those consoles the track is
 one of two modes of the profile window, reached with the Display button:
 `spirit-ce-console-display-button-four-window-sets`.
+
+**Six of the 2024 New Black Units owner's manuals print this paragraph word for word too** -
+CT800-2024 and CT850-2024 p. 18, CE800-2024 p. 16, CE850-2024 p. 18, CRS800S-2024 p. 17 and
+CS800-2024 p. 17 - so this card now covers a stepper and a semi-recumbent stepper as well as
+treadmills and ellipticals. The ring, the 0.4 km figure, the flashing dot and the lap counter in the
+centre are stated identically on all three product lines.
+
+**A quarter-mile track on a stepper is the manual's own wording**, not a transcription error: the
+CRS800S and CS800 books print the section under **1/4 Mile Track** in their FEATURES chapter, and
+neither says what a lap means on a machine that measures steps and vertical distance.
+
+**The 2024 CR800 and CU800 bikes print the same paragraph** but are held with their own predecessors
+at `spirit-cr800-cu800-console-quarter-mile-track`. That card and this one carry the identical two
+sentences for different machines; it is a pre-existing split, not a difference of fact.
+
+**The CSC900-2024 and CRW800-2024 have no track ring.** Neither manual prints the section and neither
+console drawing labels one.

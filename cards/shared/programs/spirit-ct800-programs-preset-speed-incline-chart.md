@@ -29,9 +29,13 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
+  - ct850ent-2024
   section: programs
   code: '*'
 authority: 3
@@ -100,3 +104,8 @@ applies.
 P6 = Strength - see `ct850-2018-programs-calorie-strength-speed-incline-chart`. **The CT850ENT manual
 prints the same legend P1 = HILL, P2 = FAT BURN, P3 = CARDIO, P4 = INTERVAL but its chart is a
 graphic**, so no values are recorded for that machine and none may be carried across.
+
+**All four 2024 treadmill manuals print this same chart, value for value** (CT800 and CT850 printed
+page 23; CT800ENT and CT850ENT printed page 34). The 2024 ENT manuals label the rows **Hill,
+Fatburn, Cardio and Interval** instead of P1 to P4, and - unlike the 2022 ENT manuals, whose chart
+was a picture - print the chart as live text.

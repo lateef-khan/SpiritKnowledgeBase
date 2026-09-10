@@ -29,10 +29,12 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   - xbr95-2016
@@ -148,3 +150,21 @@ the same reason (`xt-2023-safety-supply-voltage-variation`,
 **The other ten XB residential bikes do plug in.** XBR55, XBU55 and XBR25 in every year print an
 outlet requirement and a power cord, and their consoles come up when the cord is connected. Never
 read the XBR95's generator onto one of them.
+
+## The 2024 CR800 and CU800 are self-powered too
+
+The CR800-2024 and CU800-2024 owner's manuals repeat it under `Powering On & Starting Operation`:
+the machine `has a built-in generator for power and do not need to be plugged into an AC outlet. To
+power up the [bike] simply start to pedal`. Neither book prints an outlet, a voltage, an amperage, a
+breaker rating, an extension cord gauge or a grounding page, and their safety lists name none
+either (`spirit-bike-2025-safety-instructions-list`).
+
+**Their safety list still opens with an unplug-after-use DANGER line.** `Always unplug this
+appliance from the electrical outlet immediately after using and before cleaning` is printed above a
+list for a machine that has no plug. The 2025 CR900 and CU900 books dropped that line; the 2024
+books print it. The manuals do not reconcile it.
+
+**The CE800-2024 elliptical is the same arrangement** and its manual says so in the same words
+(`spirit-ce-safety-generator-produces-ac-power`). **The CRW800-2024 rower is not**: its console runs
+on two C batteries and there is no generator
+(`crw800-2024-safety-console-runs-on-two-c-batteries`).

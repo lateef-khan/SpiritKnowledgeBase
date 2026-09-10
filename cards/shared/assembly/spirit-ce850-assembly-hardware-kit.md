@@ -28,6 +28,7 @@ facets:
   applies_to:
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: assembly
   code: '*'
 authority: 3
@@ -118,3 +119,13 @@ the 2022 - exactly the four screws the bottle holder takes. See
   bagged bolts and two salvaged ones.
 - Step four item 3 asks for four screws to hold **four** covers - 2 of item 104 and 2
   of item 105 - one screw per cover.
+
+## The 2024 redesign reprints all four tables
+
+The **CE850 2024** manual prints these four tables row for row, including the four
+M5x12mm screws of item 152 in the step one table that the 2020 book does not have. It
+is a 2022-style table.
+
+**Item 152 is still printed at two lengths in the same manual**, M5 x 12mm in the step
+one table and M5 x 15L in the step four table, and the counts that did not close in
+2022 still do not close in 2024.

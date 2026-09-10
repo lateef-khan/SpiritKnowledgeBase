@@ -23,7 +23,9 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct800ent-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: console
   code: '*'
 authority: 3
@@ -63,3 +65,16 @@ page and line for line, so this card covers that machine.
 fifteen (`spirit-ct850-console-quick-start-speed-keys-1-to-15`) and the CT850-2018 types the speed
 on a numeric buttonpad (`ct850-2018-console-quick-start-numeric-buttonpad`). Neither belongs on this
 machine.
+
+**The CT800ENT-2024 and CT850ENT-2024 owner's manuals print these three bullets word for word on
+their p. 16**, including the **0.5 mph** start, so this card covers those two machines. Their manuals
+draw the keys as **Speed ▲/▼** where the 2022 books write "Speed up/down button"; it is the same
+control.
+
+**Those two consoles still have no direct access speed buttons and no wake-the-display step**, and
+their manuals still print no top speed here. The maximum is a calibration default of **12.0 mi/hr**:
+`ct800ent-2024-console-calibration-defaults-0-5-to-12-0-mph`.
+
+**The 2024 ENT treadmills add a pause the 2022 ones do not have.** Their FEATURES - CONTINUED page
+describes an automatic stop when nobody is on the belt:
+`ct800ent-2024-console-no-user-detected-auto-pause`.

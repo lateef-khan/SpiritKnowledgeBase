@@ -2,8 +2,8 @@
 id: ce800ent-no-internet
 title: The console cannot reach the internet
 kind: troubleshooting
-question: Why will the console not connect to the internet on a Spirit CE800ENT elliptical
-  or CU800ENT-2024 bike?
+question: Why will the console not connect to the internet on a Spirit CE800ENT or
+  CE800ENT-2024 elliptical or a CR800ENT-2024 or CU800ENT-2024 bike?
 asked_as:
 - spirit elliptical wont connect to wifi
 - no internet on the console
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
+  - cr800ent-2024
   - cu800ent-2024
   section: errors
   code: no-code
@@ -52,3 +54,7 @@ rather than a page that lost a line. Nothing appears to be missing from the sens
 remaining steps are reproduced above.
 
 Wi-Fi and Ethernet are set up under **Maintenance** in engineering mode.
+
+**The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print this row word for word**,
+the skipped step number included - `1.` then `3.`, on both. Four manuals now carry the same missing
+step 2, which settles it as a typesetting fault inherited from one master document.

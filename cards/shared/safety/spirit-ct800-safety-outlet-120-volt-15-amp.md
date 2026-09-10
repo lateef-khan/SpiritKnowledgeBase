@@ -23,8 +23,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
   - ct800-2020
   - ct800ent-2022
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: safety
   code: '*'
@@ -123,3 +127,30 @@ predecessors, the CU800ENT-2022 and CR800ENT-2023, take **110 volt at 5 amp**
 (`spirit-ce850-safety-outlet-and-circuit-requirement`) - a third of the current on a lower nominal
 supply. The remaining bikes need either no figure or no outlet at all
 (`spirit-xe-safety-no-outlet-figure-printed`, `spirit-bike-safety-no-mains-outlet-needed`).
+
+## Four of the 2024 New Black Units ask for the same outlet, and three pages later two of them disagree
+
+The CT800ENT-2024, CT850ENT-2024, CE800ENT-2024 and CR800ENT-2024 owner's manuals print the figure
+in the WARNING header of their SAFETY INSTRUCTIONS page, printed page 5, in the same words:
+
+> install the [machine] on a flat level surface with access to a **120-volt AC, 15-Amp.** grounded
+> outlet. With only the [machine] plugged into the circuit.
+
+**None of the four prints a dedicated-breaker sentence.** The `The electrical outlet used should
+have a dedicated 15 amp circuit breaker` line the CT800-2020 book carried is gone from all four; the
+120-volt AC 15-Amp header above is the only supply figure on the page.
+
+**On the two ENT treadmills the manual then contradicts itself.** Their GROUNDING INSTRUCTIONS page,
+printed page 7, says `This product is for use on a nominal **110-volt** circuit`, with no amperage
+(`spirit-2024-safety-grounding-page-says-110-volt`). Neither figure is retracted. Quote both and say
+which page each is on. The CE800ENT-2024 and CR800ENT-2024 have no grounding page at all, so for
+those two the 120-volt AC 15-Amp header stands alone.
+
+**The CT800-2024 and CT850-2024 are not on this card.** Their safety list names no outlet, and their
+grounding page names a nominal 110-volt circuit with no amperage anywhere in the book. Do not carry
+120 volt or 15 amps onto them.
+
+**The CT850ENT-2022 asked for 20 amps, not 15.** Its header reads
+`120 volt AC (NEMA 5-20P electrical cord) 20 amp grounded outlet`
+(`spirit-ct850-outlet-and-circuit-requirement`). The CT850ENT-2024 that replaces it asks for 15 amps
+and names no NEMA type. That is a real change between the two books; quote the machine's own manual.

@@ -20,8 +20,10 @@ facets:
   applies_to:
   - 80t-2026
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   - ct900
   section: programs
   code: '*'

@@ -2,8 +2,8 @@
 id: cu800ent-2024-console-status-bar-and-tabs
 title: The Training and Media tabs, and the five icons in the status bar
 kind: fact
-question: What are the icons along the top of the screen on a Spirit cu800ent-2024 bike, and what are
-  the two tabs at the bottom?
+question: What are the icons along the top of the screen on a Spirit 2024 ENT touchscreen machine,
+  and what are the two tabs at the bottom?
 asked_as:
 - what are the icons at the top of the bike screen
 - where is wifi on the spirit bike screen
@@ -23,9 +23,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -75,3 +79,18 @@ maintenance mode: `cu800ent-2024-console-maintenance-mode-and-engineering-menu`.
 **These are not the LED status icons of the 2023 XT range.** Those are four fixed indicators down the
 left of a workout screen - USB charge, Bluetooth speaker, Bluetooth heart rate, Bluetooth on/off -
 and nothing there is pressable: `xt-2023-console-status-icons`.
+
+**The four 2024 ENT machines print this section word for word too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: CT800ENT-2024 and CT850ENT-2024 p. 22, CE800ENT-2024 and CR800ENT-2024 p. 20, all under
+**TOUCHSCREEN OPERATION - CONTINUED / Basic Operation & Home Page**. Same two tabs, same five icons in
+the same order, same ranking list, and the same sentence that a workout starts either from the Start
+button on the screen or from the physical Start key.
+
+**The CE800ENT-2024 alone shortens one sentence.** Where the other four say All Programs opens "the
+preset programs **and fitness tests**", the elliptical says only "the preset programs". It prints
+fitness tests elsewhere in the book; the Programs sentence simply omits them.

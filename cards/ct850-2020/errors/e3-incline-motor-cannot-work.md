@@ -2,7 +2,7 @@
 id: ct850-2020-e3-incline-motor-cannot-work
 title: 'E3: the incline motor cannot work normally'
 kind: troubleshooting
-question: What does E3 mean on a Spirit CT850-2020 treadmill?
+question: What does E3 mean on a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill?
 asked_as:
 - what does e3 mean on my spirit treadmill
 - treadmill showing e3
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
   - ct850-2020
+  - ct850-2024
+  - ct850ent-2024
   section: errors
   code: e3
 authority: 3
@@ -85,3 +87,10 @@ Neighbours worth keeping apart:
 
 If `Check the incline motor is stuck` finds a seized motor, the replacement procedure is on
 `ct850-2020-incline-motor-replacement`.
+
+**The CT850 2024 and CT850ENT 2024 owner's manuals print this row word for word**, cause
+and solution alike, in the ERROR CODES table on printed page 42 of the CT850 2024 manual and
+printed pages 60 and 61 of the CT850ENT 2024 manual. Both of those pages are flat pictures with
+no text layer, and both were read from the rendered page. The 2024 books changed the machine
+around this table but not the table: the whole twenty-three-code list is unchanged from the
+2020 service manual.

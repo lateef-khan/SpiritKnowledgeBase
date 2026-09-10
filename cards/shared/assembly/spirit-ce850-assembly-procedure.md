@@ -27,6 +27,7 @@ facets:
   applies_to:
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: assembly
   code: '*'
 authority: 3
@@ -140,3 +141,18 @@ The 2022 extraction also breaks step one across two columns where the 2020 keeps
 in one. That is a page-layout change, not an instruction change.
 
 **Nothing about the wiring, the bolts or the order of the build is different.**
+
+## The 2024 redesign reprints this build
+
+The **CE850 2024** manual prints all five stages word for word - step zero included -
+and its four hardware tables row for row. It prints the **2022** form of step one, the
+five-item one with the water bottle holder, not the 2020 four-item form.
+
+Everything this card flags survives: step zero still tells you to dispose of the side
+back while step one needs four of item 145 against two in the bag, and item 152 is
+still M5 x 12mm in one table and M5 x 15L in another.
+
+**The CS800 stepper of the same redesign opens with a step zero of its own**, and it
+is a different instruction on a different part number. Do not answer one from the
+other; see
+[the step-zero card](spirit-2024-assembly-step-zero-shipping-bracket.md).

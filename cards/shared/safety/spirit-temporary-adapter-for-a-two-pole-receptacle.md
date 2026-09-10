@@ -25,13 +25,19 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cvc800
   - xe395-2010
   - xe395-2018
@@ -205,3 +211,9 @@ Box callouts on the drawing beside it. Five residential XE manuals carry the rul
 (`spirit-product-must-be-grounded`). Do not offer an adapter to an XE195, XE295, XE795 or 2023 owner
 from this card - their manuals do not mention one, in either generation. **The XG400-2019 does not
 mention one either**, although the XG400-2021 does: the page was added between the two printings.
+
+**Six of the fourteen 2024 New Black Units print the adapter paragraph**, unchanged, on their
+grounding page, printed page 7 - the four 2024 treadmills, the CE850-2024 and the CS800-2024. Eight
+have no grounding page. **The CSC900-2024 forbids an adapter outright**: `Do not modify the plug
+provided with the product. NO adapter should be used with this product`
+(`csc900-2024-safety-outlet-120-or-230-volt`). Never offer this procedure to a CSC900 owner.

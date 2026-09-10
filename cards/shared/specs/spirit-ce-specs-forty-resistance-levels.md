@@ -30,16 +30,19 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   - cu900ent
@@ -57,6 +60,7 @@ see_also:
 - spirit-xe-specs-no-specification-table
 - spirit-bike-specs-no-specification-table
 - spirit-bike-specs-generator-brake-or-induction-brake
+- spirit-ce-2024-specs-brake-and-resistance-unit
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: 'p. 15, Console Operation, the paragraph beginning "There are 40 levels
@@ -66,23 +70,27 @@ source:
     XE795-2023 p. 17, and
     on the commercial bikes CR800-2021 p. 15, CR800-2023 p. 15, CR900-2018 p. 14, CR900-2025
     p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p. 13, CU900-2025 p. 14,
-    CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans'
+    CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans; and
+    on the 2024 New Black Units reissue CE800-2024, CR800-2024 and CU800-2024, each
+    printed p. 15 (PDF p. 17)'
   extracted_at: '2026-09-09'
 ---
 
-**40 levels.** Level 1 is the easiest. Nineteen Spirit machines share this
-figure - nine ellipticals and ten commercial bikes:
+**40 levels.** Level 1 is the easiest. Twenty-two Spirit machines share this
+figure - ten ellipticals and twelve commercial bikes:
 
-- **Ellipticals:** the commercial CE800, CE900 and CES880, and the residential
-  XE795 in its 2018 printing, both its 2021 printings and its 2023 rewrite.
-- **Bikes:** the commercial CR800 (2021 and 2023), CR900 (2018 and 2025),
-  CR900ENT-2021, CU800 (2012 and 2021), CU900 (2018 and 2025) and CU900ENT-2021.
+- **Ellipticals:** the commercial CE800 (2013, 2021, 2023 and **2024**), CE900 and
+  CES880, and the residential XE795 in its 2018 printing, both its 2021 printings
+  and its 2023 rewrite.
+- **Bikes:** the commercial CR800 (2021, 2023 and **2024**), CR900 (2018 and
+  2025), CR900ENT-2021, CU800 (2012, 2021 and **2024**), CU900 (2018 and 2025)
+  and CU900ENT-2021.
 
 The bikes print the commercial elliptical's paragraph word for word, including
 the four bands below and the "10 rows of lights" wording. **The three ENT-800
 bikes are the exception and are not covered by this card** - see the last section.
 
-The six commercial books print four clean bands of ten, and say the levels are
+The seven commercial elliptical books print four clean bands of ten, and say the levels are
 shown on the console as 10 rows of lights:
 
 | Band | What the commercial manual says |
@@ -92,7 +100,10 @@ shown on the console as 10 rows of lights:
 | 20 to 30 | start getting tough, the levels jump more dramatically |
 | 30 to 40 | extremely hard; good for short interval peaks and elite athletic training |
 
-The wording is identical in all six, including the OCR'd 2013 scan.
+The wording is identical in every commercial printing, including the OCR'd 2013
+scan and the three 2024 New Black Units books - the CE800-2024, CR800-2024 and
+CU800-2024 print the paragraph unchanged, "displayed as 10 rows of lights" and
+all four bands, even though roughly half the rest of each book was rewritten.
 
 ## The four XE795 books print a band list that does not add up
 
@@ -123,13 +134,18 @@ otherwise word for word the same, so a search on the wording will return both.
 **The XE395 and the XE795 sit in the same residential range and differ by half the
 scale**, so confirm which model is in front of you.
 
-**The CE800ENT is not covered by this card.** Its owner's manual never states a
-level count, and its console is a different, touch-screen unit. Do not quote 40
-for a CE800ENT.
+**The CE800ENT is not covered by this card.** Neither of its owner's manuals -
+the earlier printing or the October 2024 one - ever states a level count, and its
+console is a different, touch-screen unit. Do not quote 40 for a CE800ENT.
 
-**Neither are the three ENT-800 bikes.** The CR800ENT-2023, CU800ENT-2022 and
-CU800ENT-2024 owner's manuals never state a level count either. The words *levels
-of resistance* appear in none of the three, no number is attached to the word
+**Nor is any stepper, stair climber or rower.** The 2024 range added four
+machines that are not on this card: the CS800 and CRS800S steppers run 1 to 20,
+the CSC900 stair climber runs 1 to 20 with the scale reversed, and the CRW800
+rower runs 1 to 16.
+
+**Neither are the four ENT-800 bikes.** The CR800ENT-2023, CR800ENT-2024,
+CU800ENT-2022 and CU800ENT-2024 owner's manuals never state a level count either.
+The words *levels of resistance* appear in none of the four, no number is attached to the word
 *level* anywhere in them, and their consoles are touch-screen units with a
 different brake - an induction brake and EMS controller rather than a generator
 brake, see `spirit-bike-specs-generator-brake-or-induction-brake`. **Do not quote

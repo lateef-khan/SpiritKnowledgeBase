@@ -2,7 +2,8 @@
 id: xt-2023-warranty-start-date
 title: When the warranty clock starts
 kind: policy
-question: When does the warranty start on a Spirit treadmill, elliptical or bike?
+question: When does the warranty start on a Spirit treadmill, elliptical, bike, stepper,
+  stair climber or rower?
 asked_as:
 - when does my treadmill warranty start
 - i lost my receipt is the treadmill still covered
@@ -30,10 +31,13 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -41,23 +45,34 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
   - ct900ent
   - ctsbs900
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -336,3 +351,17 @@ Date of retail sale by receipt, or eighteen months from the original factory shi
 **One of them dates itself twice and disagrees.** The XBR55 2023 stamps *Version: 6.0, Revision: 04.16.23* on its registration page and prints a warranty effective **August 07, 2023** - the warranty page was replaced without the version stamp being bumped (`spirit-xb-warranty-registration`).
 
 **What follows the sentence is not one table.** Thirteen of the fourteen print Frame Lifetime, Brake Lifetime, Parts 10 Years, Labor 1 Year; the XBR25 2019 prints Parts **5 Years** (`xbr25-2019-warranty-residential-five-year-parts`). Read the periods from the machine's own card, never from a Spirit commercial bike one.
+
+## The fourteen Spirit machines reissued in autumn 2024 open with the same sentence
+
+The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower all open with it, in one wording:
+
+> Spirit Fitness Inc. warrants all its **home use** &lt;machine&gt; parts for a period of time listed below from the date of **retail sale**, as determined by **sale receipt**, or in the absence of a sales receipt **eighteen (18) months** from the original factory shipping date.
+
+Only the machine's name changes - *Treadmill*, *Elliptical*, *Recumbent Bike*, *Upright Bike*, *Semi-Recumbent Stepper*, *Stepper*, *Stair Climber*, *Rower*. The clock is the XT clock: date of retail sale, or eighteen months from factory shipping when there is no receipt. All fourteen keep *home use* (which the 2026 manuals drop) and use *sale receipt* (which the XT manuals write as *a sales receipt*).
+
+**All fourteen administer the warranty "directly to a consumer"**, not to a facility. That is the CT800 and CE800 wording, not the CT800ENT 2022 and CT850ENT 2022 wording, which reads *directly to a facility*. On these fourteen the paragraph and the table's Residential row at least agree with each other - but the duty list under them is still headed RESPONSIBILITIES OF THE **FACILITY** (`spirit-2024-warranty-use-environment`).
+
+**The effective date on the line above the sentence is not the manual's revision stamp**, and on five of the fourteen the two disagree: `spirit-2024-warranty-effective-dates`.
+
+**What follows the sentence is five different tables, not one.** Read the periods from `spirit-2024-treadmill-warranty-coverage-periods`, `spirit-2024-treadmill-ent-warranty-coverage-periods`, `spirit-2024-warranty-coverage-periods-parts-labor`, `cu800ent-2024-warranty-coverage-periods` or `spirit-2024-stair-climber-warranty-coverage-periods` - never from a sibling machine's card.

@@ -3,9 +3,11 @@ id: spirit-2026t-warranty-owner-costs
 title: What the owner pays for a warranty repair - freight and shipping, no trip charge
 kind: policy
 question: >-
-  Does the owner of a Spirit 2026 4.0T, 7.0T, 8.0T, CT900 or CTSBS900 treadmill, of a
-  Spirit CE900 or CES880 elliptical, or of a Spirit CR900, CU900, CU800ENT or AB950 bike,
-  bought under the 2024 terms, pay anything for a warranty repair?
+  Does the owner of a Spirit machine bought under the 2024 terms pay anything for a warranty
+  repair? Covers the 2026 4.0T, 7.0T, 8.0T, the CT900, CTSBS900, CT800, CT850, CT800ENT and
+  CT850ENT treadmills, the CE900, CES880, CE800, CE850 and CE800ENT ellipticals, the CR900,
+  CU900, CU800ENT, CR800, CU800, CR800ENT and AB950 bikes, the CRS800S, CS800 and CSC900
+  climbers, and the CRW800 rower.
 asked_as:
 - do i have to pay for a warranty service call
 - who pays shipping for warranty parts
@@ -30,11 +32,25 @@ facets:
   - 70t-2026
   - 80t-2026
   - ab950-2024
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900
   - ctsbs900
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   section: warranty
@@ -108,3 +124,13 @@ Its SERVICE step 4 carries the freight-to-and-from and the shipping-and-handling
 **The AB950 is the only one of the eight Spirit indoor cycles and air bikes that stops at shipping and handling.** The AB900 2018 - the same machine family six years earlier - and the other six all charge a trip charge and a 100-mile surcharge (`xt-2023-warranty-owner-costs`). Read the machine's own step 4 rather than the range's.
 
 The AB950 also states an owner duty the earlier books put only on the AB900: **proper connection to a grounded power supply, replacement of blown fuses, and repair of loose connections or defects in house or facility wiring**, as item 5 of the same list.
+
+## The fourteen Spirit machines reissued in autumn 2024 charge the owner the same four things
+
+The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower all carry the freight-to-and-from and the shipping-and-handling sentences in step 4 and **stop there** - no trip charge and no mileage clause. Step 5 puts adequate packaging and the freight-damage claim on the owner in the same words, and exclusion 2 refuses service call reimbursement to the consumer.
+
+**The accessibility duty is item 5 on eight of them and item 6 on six of them**, because the CT800, CT850, CT800ENT, CT850ENT, CE800ENT and CR800ENT number the lead sentence of the list as item 1 (`spirit-ce-2025-warranty-facility-responsibilities`).
+
+**Their own predecessors charge more.** The four earlier CT800 and CT850 manuals, the seven earlier CE800 and CE850 manuals and the CR800, CU800 and 800ENT bikes all add an in-home trip charge and an additional charge beyond 100 miles (`xt-2023-warranty-owner-costs`). The change came with the 2024 reissue, not with the machine: read step 4 off the manual in hand.
+
+**On six of the fourteen, exclusion 2 is a broken sentence.** The CT800ENT, CT850ENT, CE800ENT, CR800ENT, CRS800S and CS800 end it at "...or units", so the refusal of service call reimbursement is still legible but the use restriction that follows it on the other eight is not printed (`spirit-ce-2025-warranty-exclusions`).

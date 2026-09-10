@@ -22,6 +22,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
+  - cr800-2024
+  - cr800ent-2024
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - xbr25-2023
   - xbr55-2023
   - xbr95-2023
@@ -91,3 +105,21 @@ www.P65Warnings.ca.gov, boxed inside the manual rather than described as a label
 (`xt-2015-safety-proposition-65-warning`) - except the XBR95-2016, which prints neither. The sticker
 artwork on the 2023 label page also carries `WARNING: Cancer and Reproductive Harm -
 www.P65Warnings.ca.gov`, which is on the label and not in the manual's own text.
+
+## All fourteen 2024 New Black Units print the same sticker, in ten different places
+
+Every one of the fourteen 2024 manuals carries a PRODUCT LABELS page on its printed page 3 with the
+same short Proposition 65 wording - no chemical named, no web address in the manual's own text:
+
+> The State of California requires us to inform you that this unit was manufactured using chemicals
+> that could cause harm with improper use.
+
+**Where the sticker is changes from machine to machine**, and the full table is on
+`spirit-2024-safety-product-labels`. In short: the four treadmills put it on the **left side of the
+upright**; the CE800-2024 and CE800ENT-2024 on the **side of the console upright**; the CE850,
+CR800, CR800ENT, CU800 and CRS800S on the **front stabilizer**; the CS800 on the **console
+upright**; the CSC900 on the **main frame**; and the CRW800 rower **near the handlebar**.
+
+The sticker artwork reproduced on the treadmill labels page also carries `WARNING: Cancer and
+Reproductive Harm - www.P65Warnings.ca.gov`. That text is on the label, not in the manual's own
+sentence, exactly as on the 2023 machines.

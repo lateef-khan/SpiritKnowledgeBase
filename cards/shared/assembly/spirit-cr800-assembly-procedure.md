@@ -2,7 +2,8 @@
 id: spirit-cr800-assembly-procedure
 title: Four-step recumbent build that fits the console last, after the mast and the front handlebars
 kind: procedure
-question: How do I assemble a Spirit CR800 recumbent bike?
+question: How do I assemble a Spirit CR800 recumbent bike, on the 2021, 2023 or 2024
+  printing?
 asked_as:
 - how do i put together the spirit cr800
 - assembly instructions for the cr800 recumbent bike
@@ -26,6 +27,7 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -43,7 +45,9 @@ see_also:
 source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: pp. 8-11, CR800 STEP ONE to STEP FOUR; the same steps at pp. 8-11 of the
-    CR800 2023 manual (`spirit-bike-cr800-2023-owners-manual`)
+    CR800 2023 manual (`spirit-bike-cr800-2023-owners-manual`); and the same steps
+    word for word at pp. 10-13 of the CR800 2024 manual
+    (`spirit-bike-cr800-2024-owners-manual`), headed ASSEMBLY - STEP ONE to STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
@@ -115,3 +119,19 @@ adapter, a PU wheel and a round cap - but nothing in the four steps fits any of 
 
 The build ends here. There is no first-power-on step: these bikes are
 generator-powered and the console starts when you pedal.
+
+## The 2024 redesign reprints this build
+
+The **CR800 2024** manual prints these four steps word for word and its four hardware
+tables row for row. It prints the **2023** form throughout: item 4 of step three uses
+**No.94**, and the step-three table carries item 94 and six of item 68.
+
+**The step-two count still does not close.** The 2024 step still asks for four of item
+71 and its table still lists two, exactly as both older printings do. Six bolts and six
+nuts go through the joint by the step's own arithmetic, and the table says four and
+four. The CR800ENT 2024, built on the same chassis, prints a step that asks for **two**
+of item 71 and agrees with the table.
+
+Around the build, only the pre-assembly page changed - from the two-item unpacking list
+to the four-item one. The carton panel, the tools panel and all four hardware tables
+are unchanged.

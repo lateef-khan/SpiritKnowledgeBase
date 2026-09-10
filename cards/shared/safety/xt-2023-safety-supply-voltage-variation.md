@@ -25,7 +25,16 @@ facets:
   applies_to:
   - 70t-2026
   - 80t-2026
+  - ce800ent-2024
+  - ce850-2024
   - cr800ent-2023
+  - cr800ent-2024
+  - crs800s-2024
+  - cs800-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - cu800ent-2022
   - cu800ent-2024
   - mt200-2010
@@ -212,3 +221,10 @@ printed block with their temperature paragraph, which is why they are carried by
 
 **No XBR95 manual prints it, in any year.** All four are self-powered and have no mains supply for a
 voltage to vary (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**Nine of the fourteen 2024 New Black Units print it**, unchanged, on their ELECTRICAL SAFETY page,
+printed page 6 - the four 2024 treadmills, the CE850-2024, the CE800ENT-2024, the CR800ENT-2024 and
+the two 2024 steppers. **The other five print no voltage statement at all**: the self-powered
+CE800-2024, CR800-2024 and CU800-2024, the battery-powered CRW800-2024 rower, and the CSC900-2024,
+which states its supply on its safety page instead
+(`csc900-2024-safety-outlet-120-or-230-volt`, `ct900ent-operating-environment-voltage`).

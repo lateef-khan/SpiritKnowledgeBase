@@ -30,6 +30,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: safety
   code: '*'
 authority: 3
@@ -142,3 +143,22 @@ breaker (`spirit-house-breaker-needs-a-high-inrush-type`), the grounding instruc
 extension-cord sentence and the circuit-breaker paragraph, and then goes straight to the operation
 instructions. There is no grounding paragraph and no temporary-adapter permission for a CE800ENT;
 those are the three CE850 manuals'.
+
+## The CE850-2024 prints the same page, numbered
+
+The 2024 New Black Units CE850 owner's manual, printed page 5, prints the same WARNING header and
+the same fifteen items in the same order, numbered rather than bulleted. The header still asks for a
+**110-volt, 5-amp** grounded outlet and a **14AWG** extension cord, item 13 still prints `metal
+capabilities`, and the weight limit is `User Weight Limit: 450 lb` as item 15
+(`spirit-ct800-safety-user-weight-limit-450-lbs`).
+
+Two things differ: the 2024 book adds the opening sentence `When using an electrical appliance,
+basic precautions should always be followed, including the following`, and it closes with the boxed
+weight-and-power note printed on all fourteen 2024 manuals instead of
+`SAVE THESE INSTRUCTIONS - THINK SAFETY!`.
+
+**The two 2024 steppers print this page with two words changed.** The CRS800S-2024 and CS800-2024
+manuals print the same fifteen items with `stepper` for `elliptical`, `mental` for `metal`, and
+**15-amp** where this header says **5-amp**
+(`spirit-2024-safety-instructions-list-stepper`,
+`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). Never carry the 5-amp figure onto a stepper.

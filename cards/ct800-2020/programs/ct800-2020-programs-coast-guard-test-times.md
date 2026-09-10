@@ -21,8 +21,10 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -64,3 +66,8 @@ machine.
 page 29). **The 2018 CT850 has no Coast Guard test.** The CT850ENT manual offers the test and calls
 it a timed 1.5 mile run with the speed controlled manually, but **prints its table as a picture**, so
 no values are recorded for that machine.
+
+**The 2024 CT800 and CT850 owner's manuals print this same table, value for value** (both printed
+page 29). **The 2024 ENT touchscreens print a Coast Guard table one second lower in every male
+bracket** - 12:51 rather than 12:52 and so on - see
+`ct800ent-2024-programs-coast-guard-test-times`. The two must not be swapped.

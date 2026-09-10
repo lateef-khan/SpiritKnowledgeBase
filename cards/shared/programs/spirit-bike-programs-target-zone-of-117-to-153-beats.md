@@ -23,6 +23,7 @@ facets:
   model: '*'
   applies_to:
   - cr800ent-2023
+  - cr800ent-2024
   - cu800ent-2022
   - cu800ent-2024
   section: programs
@@ -65,3 +66,7 @@ see `spirit-bike-programs-heart-rate-defaults-to-sixty-five-percent-and-holds-wi
 prints 60%/80% and 108 to 144; the CR800 2021, CR800 2023 and CU800 2021 print 60%/85% and 108 to
 153; the CR900 2025 and CU900 2025 print 65%/80% with a printed answer of 117 to **225**. Four
 manuals have no such page.
+
+**The 2024 CR800ENT prints this same page and the same 117-to-153 example** (printed page 46).
+**Its LED stablemates the 2024 CR800 and CU800 do not** - see
+`spirit-bike-programs-target-zone-of-117-to-225-beats`.

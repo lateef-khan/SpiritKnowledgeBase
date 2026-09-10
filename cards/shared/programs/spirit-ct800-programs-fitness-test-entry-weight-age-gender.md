@@ -25,8 +25,10 @@ facets:
   applies_to:
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -68,3 +70,6 @@ printed page 26), with weight in the Distance window and age and gender both in 
 **The 2018 CT850 is not covered by this card.** That manual prints the sequence twice in two
 disagreeing versions, and puts weight in the Incline window on one of them - see
 `ct850-2018-programs-fitness-test-entry`.
+
+**The 2024 CT800 and CT850 owner's manuals print this same sequence word for word** (both printed
+page 27): weight in the Distance window, then age in the Incline window, then gender, then Start.

@@ -21,10 +21,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cu800ent-2022
   - cu800ent-2024
   section: console
@@ -84,3 +86,21 @@ screen, however, is a later software generation with a status bar and Training a
 **The treadmill of the same generation is drawn with ten call-outs, not five** - it adds a cell phone
 ledge, tray storage, accessory trays, a safety key and heart rate grips:
 `ct800ent-2022-console-layout`.
+
+**The CE800ENT-2024 and CR800ENT-2024 owner's manuals print the same five call-outs on their p. 28**,
+in the same words - Touchscreen, Tablet Friendly Reading Rack, Fan, USB Charger, Start, Stop, Level
+controls - so this card covers an elliptical as well as bikes and its product line is no longer
+bike-only. Both pages are flattened images and the labels were read from the OCR supplement in
+`text.md`.
+
+**Both label the fan simply "Fan"**, where the 2022 and 2023 drawings label an **Adjustable fan
+angle**. Neither manual describes a fan switch or a fan speed, so the fan is still a grille with no
+control described.
+
+**Their FUNCTIONS paragraph is the 2024 wording** - *"You can directly touch any button on the screen
+or through the physical buttons below the console to control functions"* - naming Start, Stop and
+Level on the lower portion of the console.
+
+**The two 2024 ENT treadmills are drawn with ten call-outs, not five**: they add a cellphone ledge, a
+small storage tray, a water bottle holder and cargo compartment, a safety key and contact heart rate
+grips (`ct800ent-2022-console-layout`).

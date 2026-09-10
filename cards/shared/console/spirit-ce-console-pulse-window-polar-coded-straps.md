@@ -27,12 +27,18 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
+  - crs800s-2024
+  - cs800-2024
   - cu800-2021
+  - cu800-2024
   section: console
   code: '*'
 authority: 3
@@ -82,3 +88,21 @@ three parts lists carry a **Bluetooth** module as an item. See
 claim: `ct800ent-2022-console-heart-rate-feature`. The CR900 and CU900 bikes have a heart icon and a
 percentage bar graph instead of a plain pulse window:
 `spirit-ce-console-heart-icon-and-bar-graph`.
+
+**Six of the 2024 New Black Units owner's manuals print this paragraph word for word** - CE800-2024
+p. 16, CE850-2024 p. 18, CR800-2024 p. 16, CU800-2024 p. 16, CRS800S-2024 p. 17 and CS800-2024 p. 17,
+all under HEART RATE WINDOW - so this card covers a stepper and a semi-recumbent stepper as well as
+ellipticals and bikes. Only the name in the last sentence changes: "The CE800", "The CE850", "The
+CR800", "The CU800", "The CRS800S" and "The CS800 will also pick up wireless heart rate transmitters
+that are Polar compatible, including coded transmissions."
+
+**All six claim Polar compatibility and nothing more for this window**, even though all six describe
+a Bluetooth transceiver for the Spirit+ app on the next page
+(`xt-2023-console-spirit-plus-app-pairing`). The app radio and the pulse window are separate
+features; do not promise a Bluetooth strap will drive this window on any of them.
+
+**The 2024 ENT machines claim more.** The CT800ENT-2024, CT850ENT-2024, CE800ENT-2024 and
+CR800ENT-2024 are described as **Polar and Bluetooth compatible**:
+`ct800ent-2022-console-heart-rate-feature`. **The CSC900-2024 is different again** - it names a
+Bluetooth chest strap the console detects automatically:
+`csc900-2024-console-heart-rate-bluetooth-and-contact`.

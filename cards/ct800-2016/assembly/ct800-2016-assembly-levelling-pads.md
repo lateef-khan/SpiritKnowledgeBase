@@ -7,7 +7,8 @@ question: How do I level a Spirit CT800 (ct800-2016), CT850 (ct850-2018), CT900 
   XE295, XE395 2018, XE395ENT, XE795, XE895 or XG400 residential elliptical, or a
   Spirit CR800, CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, a
   Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, or
-  a Spirit CIC800, CIC850 or XIC600 indoor cycle, that rocks or squeaks?
+  a Spirit CIC800, CIC850 or XIC600 indoor cycle, a Spirit CRS800S semi-recumbent
+  stepper or CS800 stepper, or a Spirit CRW800 rower, that rocks or squeaks?
 asked_as:
 - my treadmill rocks on the floor
 - how do i level the treadmill
@@ -30,23 +31,36 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - cic800-2021
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
   - ct800-2016
+  - ct800-2024
+  - ct800ent-2024
   - ct850-2018
+  - ct850-2024
+  - ct850ent-2024
   - ct900
   - ctsbs900
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -162,7 +176,20 @@ source:
     `spirit-bike-xbu55ent-2021-owners-manual`) and in the TROUBLESHOOTING chapter of
     the XBR25 2023, XBR55 2023 and XBU55 2023 manuals
     (`spirit-bike-xbr25-2023-owners-manual`, `spirit-bike-xbr55-2023-owners-manual`,
-    `spirit-bike-xbu55-2023-owners-manual`)
+    `spirit-bike-xbu55-2023-owners-manual`); and word for word again in the 2024
+    redesign, in the same noise item on thirteen of its fourteen manuals - the CT800
+    2024 and CT850 2024 (`spirit-treadmill-ct800-2024-owners-manual`,
+    `spirit-treadmill-ct850-2024-owners-manual`), the CT800ENT 2024 and CT850ENT 2024
+    (`spirit-treadmill-ct800ent-2024-owners-manual`,
+    `spirit-treadmill-ct850ent-2024-owners-manual`), the CE800 2024, CE850 2024 and
+    CE800ENT 2024 (`spirit-elliptical-ce800-2024-owners-manual`,
+    `spirit-elliptical-ce850-2024-owners-manual`,
+    `spirit-elliptical-ce800ent-2024-owners-manual`), the CR800 2024, CR800ENT 2024
+    and CU800 2024 (`spirit-bike-cr800-2024-owners-manual`,
+    `spirit-bike-cr800ent-2024-owners-manual`, `spirit-bike-cu800-2024-owners-manual`),
+    the CRS800S and CS800 (`spirit-climber-crs800s-2024-owners-manual`,
+    `spirit-climber-cs800-2024-owners-manual`) and the CRW800
+    (`spirit-rower-crw800-2024-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -322,3 +349,49 @@ you are chasing a noise and that one when you are setting the machine up; see
 **On the ten older residential bikes this sentence is the only levelling instruction in
 the book**, and those ten have no setting-up page at all - see
 [the absence card](../../shared/assembly/spirit-xb-assembly-no-moving-or-transport-section.md).
+
+## The 2024 redesign carries the sentence unchanged onto two new machine shapes
+
+Spirit reissued its whole commercial range in September and October 2024, and
+**thirteen of the fourteen new manuals print this sentence word for word** - two
+levelling pads under the rear stabiliser, 14mm wrench - in the same place as every
+manual above: the last remedy in the general-maintenance noise item, never in the
+assembly chapter. The thirteen are the CT800, CT850, CT800ENT and CT850ENT
+treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800
+bikes, the **CRS800S** semi-recumbent stepper, the **CS800** stepper and the
+**CRW800** rower.
+
+The stepper, the semi-recumbent stepper and the rower are the first machines of their
+kind on this card. Nothing about the sentence changes for them.
+
+**The noise item they print it in is the bike and elliptical one.** Its second remedy
+reads "The crank arm nut needs to be retightened" - on all thirteen, the four
+treadmills included, which have no crank arm. Take the levelling sentence from it and
+nothing else.
+
+**The CSC900 stairclimber is the fourteenth, and it does not print the sentence at
+all.** The word "leveling" appears in that book only as callout I on its machine
+diagram; it has no noise item, no levelling instruction and no wrench size anywhere.
+See [the CSC900 absence card](../../csc900-2024/assembly/csc900-2024-assembly-no-levelling-or-moving-instruction.md).
+
+## Two of the thirteen count levellers differently on their own carton page
+
+Do not answer a carton question from this sentence on either of these:
+
+- The **CE850 2024** carton list counts **6 Levelers**, four more than this sentence
+  describes, exactly as the 2016, 2020 and 2022 CE850 cartons do. See
+  [the CE850 parts card](../../shared/assembly/spirit-ce850-assembly-parts-included.md).
+- The **CS800** carton list counts **4 Levelers**. It is the only stepper carton that
+  counts them, and no step of its build fits one. See
+  [the CS800 parts card](../../cs800-2024/assembly/cs800-2024-assembly-parts-included.md).
+
+Neither manual's assembly chapter fits or adjusts a leveller, so on both machines
+this sentence remains the only instruction for turning one - it just does not agree
+with the carton about how many there are.
+
+**None of the thirteen 2024 cartons holds a plain 14mm wrench.** The four treadmill
+cartons hold two Allen wrenches and a screwdriver and no open-end wrench at all; the
+CE800 and CE800ENT cartons hold a 13/14mm, the CE850 a 13/14mm and a 12/14mm, the
+CR800, CR800ENT and CU800 a 12/14mm, the CRS800S a 12/14mm and a 13/14mm, the CS800 a
+13/14mm and a 12/14mm, and the CRW800 a 13/14mm. Every one of those except the
+treadmills' will open to 14; the four treadmill owners need a wrench they supply.

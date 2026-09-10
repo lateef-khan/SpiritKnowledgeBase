@@ -4,7 +4,7 @@ title: The three tools packed in the carton, a 3/8 inch Allen wrench, a 10mm All
   wrench and a Phillips screwdriver
 kind: fact
 question: What tools are supplied to assemble a Spirit CT800, CT800ENT, CT850 or
-  CT850ENT treadmill?
+  CT850ENT treadmill, of any printing from 2012 to 2024?
 asked_as:
 - what tools do i need to build my treadmill
 - is an allen key in the box
@@ -28,11 +28,15 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -48,11 +52,15 @@ source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, TOOLS INCLUDED; the same three at p. 5 of the 2012 manual under
     Assembly Tools, p. 8 of the 2020 manual, p. 8 of the CT800ENT manual, and p. 8 of
-    each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual
+    each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual; and p. 8 of
+    each of the four 2024 manuals (`spirit-treadmill-ct800-2024-owners-manual`,
+    `spirit-treadmill-ct850-2024-owners-manual`,
+    `spirit-treadmill-ct800ent-2024-owners-manual`,
+    `spirit-treadmill-ct850ent-2024-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
-All eight cartons list the same three tools, and nothing else:
+All twelve cartons list the same three tools, and nothing else:
 
 - 3/8" Allen Wrench
 - 10mm Allen Wrench
@@ -113,3 +121,17 @@ this fault and is on its own card - see the linked XT tools card.
 Part **numbering** on the 2012 and 2016 machines is a third, separate trap; see
 `spirit-ct800-specs-no-parts-list` rather than reading item numbers across
 generations.
+
+## The 2024 redesign does not change them
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** manuals -
+Spirit's September and October 2024 reissue of the whole commercial range - print the
+same three on the same page, with the third spelled **Phillips Head Screwdriver**
+rather than Phillips Screwdriver. Nothing is added and nothing is dropped.
+
+**These four cartons hold no open-end wrench of any size**, and their own maintenance
+chapter tells you to level the machine with a 14mm wrench. That wrench is not in the
+box; see
+[the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+Every other 2024 carton in the redesign holds a wrench that opens to 14 - these four
+are the exception.

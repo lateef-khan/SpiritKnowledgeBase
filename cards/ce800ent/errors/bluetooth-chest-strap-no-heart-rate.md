@@ -2,8 +2,8 @@
 id: ce800ent-bluetooth-chest-strap-no-heart-rate
 title: The Bluetooth chest strap shows no heart rate
 kind: troubleshooting
-question: Why does the Bluetooth chest strap show no heart rate on a Spirit CE800ENT
-  elliptical or CU800ENT-2024 bike?
+question: Why does the Bluetooth chest strap show no heart rate on a Spirit CE800ENT or
+  CE800ENT-2024 elliptical or a CR800ENT-2024 or CU800ENT-2024 bike?
 asked_as:
 - bluetooth chest strap not pairing with my spirit elliptical
 - no heart rate from my bluetooth belt
@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
+  - cr800ent-2024
   - cu800ent-2024
   section: errors
   code: no-code
@@ -65,3 +67,7 @@ The CE800ENT **owner's manual** (p. 38) adds only that "chest straps that operat
 should also work with this machine". The CR2032 battery and 2500-hour life it prints on that page
 belong to the analogue transmitter it describes, not to a Bluetooth strap, so do not quote them as
 this strap's battery.
+
+**The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print this row word for word.**
+Both also print the analogue `Wireless lost its function` row above it and, like the CE800ENT and
+CU800ENT 2024, neither prints the `Chest belt too close` row.

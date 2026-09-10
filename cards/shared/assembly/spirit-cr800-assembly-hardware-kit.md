@@ -25,7 +25,9 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -111,3 +113,13 @@ manuals draw.
 
 The CR800ENT tables carry the same item numbers and the same quantities as the CR800
 2023 tables throughout; only the capitalisation and the row order differ.
+
+## The 2024 redesign reprints all four tables
+
+The **CR800 2024** and **CR800ENT 2024** manuals print these four tables row for row -
+the same item numbers, the same descriptions and the same quantities. Both print the
+**2023** form of step three, with item 94 in it.
+
+Item **98** is still typed a **Hex Head Bolt** in the CR800 book and a **Philips Head
+Screw** in the CR800ENT book, at the same M6 x 15mm, and the step-two disagreement over
+item 71 is still there on the CR800.

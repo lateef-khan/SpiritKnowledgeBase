@@ -28,12 +28,16 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cu800-2021
+  - cu800-2024
   section: console
   code: '*'
 authority: 3
@@ -78,3 +82,16 @@ the CE800 manuals do, and print the same two sets in the same order.
 **The CR900 and CU900 bikes show a different pair of sets** - Watts, Time Elapsed, Calories and
 Distance, then METs, Time Remaining, Calories/Hour and **Speed**. Do not read this card onto one:
 `spirit-cr900-cu900-console-message-window-scan`.
+
+**Four of the 2024 New Black Units owner's manuals print this section word for word** - CE800-2024
+p. 17, CE850-2024 p. 19, CR800-2024 p. 17 and CU800-2024 p. 17, all under BASIC INFORMATION - so this
+card covers those machines. The CE800-2024, CR800-2024 and CU800-2024 name the pedal-speed window
+**RPM**; the CE850-2024 names it **Stride**, exactly as their predecessors do. All four print the same
+two sets in the same order.
+
+**The 2024 CRS800S and CS800 steppers print different sets and are deliberately not on this card.**
+Theirs open on **Steps, Calories, Pulse, Time Elapsed** and scan to **Distance** or **Vertical
+Distance**, Watts, METs, Time Remaining, and their pedal-speed window is **Strides Per Minute**:
+`spirit-stepper-console-led-data-windows-steps-and-vertical-distance`. **The CSC900-2024 has four
+windows with twelve data points and no scan key at all**:
+`csc900-2024-console-four-display-windows`.

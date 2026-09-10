@@ -27,12 +27,18 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
+  - crs800s-2024
+  - cs800-2024
   - cu800-2021
+  - cu800-2024
   - xe100-2007
   - xe200-2007
   - xe300-2007
@@ -105,3 +111,21 @@ entry, which can be turned off so the console pauses indefinitely instead:
 with it: `spirit-ce-console-stop-button-resume-by-pedalling`. **The five touchscreen bikes work
 differently again** - the CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 end a workout on a summary
 screen and need a third press to reach Home, and none of the five prints a hold-to-reset.
+
+**Six of the 2024 New Black Units owner's manuals print this paragraph word for word** - CE800-2024
+p. 17, CE850-2024 p. 19, CR800-2024 p. 17, CU800-2024 p. 17, CRS800S-2024 p. 18 and CS800-2024 p. 18,
+all under BASIC INFORMATION - so this card covers a stepper and a semi-recumbent stepper as well as
+ellipticals and bikes. All six name **only the Start key** for resuming and print no memory-hold
+sentence, so do not tell one of their owners to pedal to resume.
+
+**Pause mode is a setting on all six.** The CE800-2024, CR800-2024 and CU800-2024 carry it in the
+menu at `spirit-ce800-console-maintenance-menu-function-and-service`; the CE850-2024 at
+`spirit-ce850-console-maintenance-menu-cab-or-csafe`; the CRS800S-2024 and CS800-2024 at
+`spirit-stepper-console-maintenance-menu-sleep-default-on`.
+
+**The 2024 printings restore "if you need to get a drink"** where the 2022 CE850 and 2023 CE800 print
+"if you need to get a Water". Nothing about the behaviour changed.
+
+**The CSC900-2024 stair climber works differently and is not on this card.** Its START/STOP key
+pauses for **30 seconds**, not five minutes, and restarts the staircase at **resistance level one**:
+`csc900-2024-console-start-stop-pause-thirty-seconds`.

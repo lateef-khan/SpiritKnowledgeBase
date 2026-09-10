@@ -23,14 +23,18 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ce800ent-2024
+  - cr800ent-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
   - ct850ent-2022
+  - ct850ent-2024
   - cu800ent-2024
   - cvc800
   - xt685-2010
@@ -136,3 +140,10 @@ manual; the instruction itself is printed for this machine.
 **It is the only Spirit commercial bike that prints it.** The CU800ENT-2022 and CR800ENT-2023 print
 the high-inrush house-breaker paragraph instead (`spirit-house-breaker-needs-a-high-inrush-type`),
 and the other ten bikes print nothing about breakers or outlets at all.
+
+**Four of the fourteen 2024 New Black Units print it** - the CT800ENT-2024, CT850ENT-2024,
+CE800ENT-2024 and CR800ENT-2024, at the head of their ELECTRICAL SAFETY page, printed page 6, in the
+same words. **The CT800-2024 and CT850-2024 dropped it**: their electrical page opens at
+`Route the power cord away from any moving part` and never mentions an RCD or a GFCI wall outlet,
+although both still print the AFCI/GFCI nuisance-tripping paragraph lower down
+(`xt-2023-safety-afci-gfci-nuisance-tripping`). The other eight 2024 manuals print neither.

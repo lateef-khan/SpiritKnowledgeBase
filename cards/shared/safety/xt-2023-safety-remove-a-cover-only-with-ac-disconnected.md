@@ -26,18 +26,27 @@ facets:
   - 70t-2026
   - 80t-2026
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - cr800ent-2023
+  - cr800ent-2024
+  - crs800s-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800ent-2022
   - cu800ent-2024
   - mt200-2010
@@ -253,3 +262,10 @@ rewrite; do not read one generation's wording onto the other.
 
 **The XBR95-2023 manual prints no cover-removal rule**, because it has no ELECTRICAL SAFETY page at
 all (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**Nine of the fourteen 2024 New Black Units print it**, unchanged, on their ELECTRICAL SAFETY page,
+printed page 6 - the four 2024 treadmills, the CE850-2024, the CE800ENT-2024, the CR800ENT-2024 and
+the two 2024 steppers. **The self-powered CE800-2024, CR800-2024 and CU800-2024 print a different
+rule for the same job**: do not service the machine while the generator is spinning
+(`spirit-ce-safety-generator-produces-ac-power`). The CSC900-2024 and the CRW800-2024 rower print
+neither.

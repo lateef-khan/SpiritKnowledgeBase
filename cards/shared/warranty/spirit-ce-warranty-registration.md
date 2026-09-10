@@ -4,9 +4,11 @@ title: Registering the machine, from a ten-day card deadline to a QR code, and w
   happens if nobody does
 kind: policy
 question: >-
-  Do I have to register a Spirit CE800, CE850, CE900 or CES880 elliptical trainer, or a
-  Spirit CR900, CU900, CR900ENT, CU900ENT, CU800ENT, CB900, XIC600, CIC800, CIC850, AB900,
-  AB950 or JB950 bike, for the warranty, and how?
+  Do I have to register a Spirit elliptical trainer, bike, treadmill, stepper, stair
+  climber or rower for the warranty, and how? Covers the CE800, CE850, CE900, CES880 and
+  CE800ENT, the CR900, CU900, CR900ENT, CU900ENT, CU800ENT, CR800, CU800, CR800ENT, CB900,
+  XIC600, CIC800, CIC850, AB900, AB950 and JB950, the CT800, CT850, CT800ENT and CT850ENT,
+  the CRS800S, CS800 and CSC900, and the CRW800.
 asked_as:
 - do i have to register my elliptical
 - how do i register my spirit warranty
@@ -32,17 +34,31 @@ facets:
   - ab950-2024
   - cb900-2013
   - ce800-2013
+  - ce800-2024
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
   - cic800-2021
   - cic850-2022
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - cu900-2018
   - cu900-2025
@@ -194,3 +210,31 @@ The six CR800, CU800, CU800ENT 2022 and CR800ENT bikes state the rule in the CT8
 The two sentences do not say the same thing, and none of the five reconciles them. Say both.
 
 **The AB900, the JB950 and the AB950 dropped the first sentence.** Their item 6 keeps only the proof-of-purchase half, so an unregistered machine is **not** excluded by their lists. **The AB950 is the sharp case**: its list does not exclude an unregistered bike, while its responsibilities item 2 still demands the card within ten days. The manual never says what happens if the owner misses the deadline. Do not tell an AB950 owner they have lost cover - the exclusion list their claim would be refused under does not say so.
+
+## The fourteen machines reissued in autumn 2024 print the CE900 2025 rule, and a QR code
+
+**All fourteen state the rule the same way** - the CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower:
+
+> The warranty registration must be completed **online** to validate the manufacturer's limited warranty.
+
+**No card, and no day count anywhere in any of the fourteen.** The words *10 days* and *registration card* appear in none of them, and their exclusion 6 keeps only the proof-of-purchase sentence, so an unregistered machine is **not** excluded by that list (`spirit-ce-2025-warranty-exclusions`). This is the CE900 2025 rule, not the CT800 and CE800 rule those same machine names carried before 2024 (`spirit-ct800-warranty-registration`), and it is the whole registration rule those manuals print.
+
+**All fourteen print a QR code** on the PRODUCT REGISTRATION page beside the Serial Number, Date of Purchase and Dealer boxes, above the same two sentences:
+
+> Use your smartphone to scan the QR code above to quickly and easily register your new Spirit Fitness machine. You can also go to **spiritfitness.com/warranty** under the Support tab to register online.
+
+**Where the serial sticker lives is the part that changes, and it changes seven ways:**
+
+| Machine | The sticker is on |
+|---|---|
+| CT800, CT850, CT800ENT, CT850ENT | the back of the **motor cover** |
+| CE800, CE800ENT | the **frame** |
+| CS800 | the **frame** |
+| CE850 | the **front stabilizer** |
+| CR800, CR800ENT, CU800, CRS800S | the **front stabilizer** |
+| CSC900 | the **main frame** |
+| CRW800 | the **middle stabilizer** |
+
+**Read the location off the manual in hand.** The CE800 and the CE850 are the pair to be careful with: they are the same product line, effective within a week of each other, and one says *the frame* while the other says *the front stabilizer*.
+
+The number under the barcode is what the registration form wants, and the same PRODUCT LABELS page prints **(870) 935-1107** beside it.

@@ -2,7 +2,8 @@
 id: 80t-2026-maintenance-treadbelt-tracking-adjustment
 title: Centring the tread belt at 2 to 3 mph with an 8mm Allen wrench
 kind: procedure
-question: How do I centre the tread belt on a Spirit 80t-2026 rehabilitation treadmill?
+question: How do I centre the tread belt on a Spirit treadmill that takes an 8mm Allen
+  wrench at 2 to 3 mph?
 asked_as:
 - the belt keeps drifting to one side
 - how do i centre the running belt
@@ -22,9 +23,13 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 80t-2026
+  model: '*'
   applies_to:
   - 80t-2026
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   section: maintenance
   code: '*'
 authority: 3
@@ -39,12 +44,16 @@ see_also:
 - spirit-2026t-warranty-belt-adjustment-damage
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: p. 63-64 "Treadbelt tracking adjustment" / "To set treadbelt tracking"
+  locator: p. 63-64 "Treadbelt tracking adjustment" / "To set treadbelt tracking"; the four 2024
+    New Black Units treadmill manuals print the same figures under MACHINE CARE - CONTINUED, added in
+    wave 15 - ct800-2024 and ct850-2024 printed p. 38 (PDF p. 40), ct800ent-2024 and ct850ent-2024
+    printed p. 54 (PDF p. 56) - each read from a 300 dpi render because these PDFs carry a second,
+    invisible text layer that gives the speed as 3 to 5 kph
   extracted_at: '2026-09-09'
 ---
 
-**This machine takes an 8mm Allen wrench at 2 to 3 mph. The 7.0T takes a 10mm wrench, and the
-CT900ENT takes 8mm at a flat 3 mph.**
+**These machines take an 8mm Allen wrench at 2 to 3 mph. The 7.0T takes a 10mm wrench, and the
+CT900ENT, the CT800/CT850 generations before 2024 and the 4.0T take 8mm at a flat 3 mph.**
 
 Performance depends on the frame running on a **reasonably level surface**. If the frame is not
 level the front and back roller cannot run parallel, and constant belt adjustment may be necessary.
@@ -79,3 +88,24 @@ Damage caused by a bad tracking adjustment is not a warranty item —
 Page 63 carries a duplicated "GENERAL MAINTENANCE" block over the manual's own column. That block
 says "Set belt speed at approximately 3 to 5 kph". The figures above are the ones in the 8.0T's own
 text.
+
+## The four 2024 New Black Units treadmills print the same figures
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** print the same
+**8mm Allen wrench**, the same **left side only**, the same **2 to 3 MPH**, the same
+**clockwise moves the belt to the right** and the same **1/4 turn**. Two differences of wording,
+neither a figure:
+
+- They stop the adjustment when **"the belt is stabilized and the edge is between step rails"**,
+  where the 8.0T says "stabilizes in the center of the running deck".
+- They do **not** print the 8.0T's opening about the frame needing a reasonably level surface. That
+  sentence exists on the 2024 pages only in the invisible second text layer, so do not quote it for
+  them.
+
+They print the ATTENTION line in full: damage to the running belt resulting from improper tracking
+or tension adjustments is not covered under the Spirit warranty.
+
+**This is a change from their predecessors.** The CT800 2020, CT800ENT 2022, CT850 2020 and
+CT850ENT 2022 set tracking at a flat **3 mph** with a left/right clockwise rule
+(`ct900ent-treadbelt-tracking-adjustment`). The 2024 reissue replaced that with the 2 to 3 mph
+single-direction wording above.

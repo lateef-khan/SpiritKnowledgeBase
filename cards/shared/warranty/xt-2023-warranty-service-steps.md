@@ -30,10 +30,13 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -41,20 +44,31 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -304,3 +318,13 @@ What else moves is the layout, the return address and the contact pair:
 **The 2023 books put the steps under an extra heading.** They print *Responsibilities of the Owner* above SERVICE, on a page headed *WARRANTY - CONTINUED*; the ten older manuals print SERVICE alone.
 
 **The customer-facing numbers on the back cover changed, and the service number did not.** The ten older manuals print **800.258.4555** and spiritservice@spiritfitness.com; the four 2023 manuals print **1-800-258-8511**, questions@spiritfitness.com and a fax on 870-935-7611. Neither number is the one in step 3 (`spirit-xb-warranty-registration`).
+
+## The fourteen Spirit machines reissued in autumn 2024 print the same five steps, and no trip charge
+
+**Word for word on all fourteen**, and identical to each other at word level - 284 words from *Keep your bill of sale* to the mailing address, compared across all fourteen with `difflib` and matching exactly. Dealer first, then the local service organization, then **(870) 935-1107**, then the preauthorization-and-freight step, then the packaging-and-return-authorization step.
+
+**Their step 4 stops at shipping and handling on replacement parts.** No in-home trip charge, no 100-mile surcharge - the words *trip charge* and *100 miles* appear nowhere in any of the fourteen. That puts them with the CT900, CTSBS900, CE900 2025, CES880, CU800ENT 2024, CR900 2025, CU900 2025, AB950 and the 2026 treadmills, and **against their own predecessors**: all four earlier CT800 and CT850 manuals, all seven earlier CE800 and CE850 manuals and the CR800, CU800 and 800ENT bikes charge both (`xt-2023-warranty-owner-costs`). **Do not quote a trip charge to the owner of a 2024 machine** - `spirit-2026t-warranty-owner-costs`.
+
+**The mailing address is unnumbered on all fourteen.** The list stops at five and *For any further information, or to contact our service department by mail, send your correspondence to:* runs below it, with SPIRIT FITNESS, INC. as **Spirit Fitness, Inc.**, P.O. Box 2037, Jonesboro, AR 72402-2037. All fourteen print *Responsibilities of the Owner* above SERVICE on a page headed WARRANTY - CONTINUED, as the 2023 books do.
+
+**The back cover is the same on all fourteen**: 3000 Nestle Road, Jonesboro, AR 72401, Phone **800-258-8511**, Fax **870-935-7611**, with **questions@spiritfitness.com** and **1-800-258-8511** in the customer-support block. Neither is step 3's number, which is (870) 935-1107 on every one.

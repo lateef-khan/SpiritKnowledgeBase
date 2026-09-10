@@ -23,7 +23,9 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -65,3 +67,8 @@ twelve**, in these same four bullets on their p. 17:
 written from numbers the ladder 1 to 12. The two documents describe the same machine and disagree,
 so the CT850 machines are held on that card and not on this one; count the ladder on the console in
 front of you.
+
+**The 2024 CT800 and CT850 owner's manuals print these four bullets word for word on their p. 16**,
+including the twelve Direct Access Speed Buttons and the 0.5 mph start, so this card covers those two
+machines. The two 2024 books are the same document: their QUICK START, CONSOLE SCREEN - OVERVIEW and
+CALIBRATION pages match each other **100%** word for word, measured on native PDF text.

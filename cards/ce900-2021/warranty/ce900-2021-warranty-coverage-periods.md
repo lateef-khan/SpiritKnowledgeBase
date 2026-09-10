@@ -30,6 +30,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-stair-climber-warranty-coverage-periods
 - spirit-ce-warranty-commercial-periods
 - spirit-ce-warranty-residential-periods
 - spirit-ce-2025-warranty-coverage-periods

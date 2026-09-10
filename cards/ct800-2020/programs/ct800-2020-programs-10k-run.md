@@ -21,9 +21,11 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -57,3 +59,6 @@ incline are user controlled and the distance counts down - see `ct900ent-10k-run
 **The 2016, 2018 and 2020 CT850 owner's manuals print this paragraph word for word** (2016 and 2020
 printed page 25, 2018 printed page 24), under a heading that covers the 5K and the 10K together.
 **The CT850ENT describes its 10K Run differently** - see `ct900ent-10k-run-program`.
+
+**The 2024 CT800 and CT850 owner's manuals print this paragraph word for word** (both printed page
+26), under the same heading covering the 5K and the 10K together.

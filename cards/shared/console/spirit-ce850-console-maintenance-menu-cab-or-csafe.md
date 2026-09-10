@@ -22,11 +22,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: elliptical
+  product_line: '*'
   model: '*'
   applies_to:
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: console
   code: '*'
 authority: 3
@@ -72,3 +73,18 @@ instruction on which to pick.
 **The CE800-2021 and CE800-2023 menu is shorter** - no Sleep mode, no protocol entry, and a PWM
 test where this one has a Motor test and a Stride test:
 `spirit-ce800-console-maintenance-menu-function-and-service`.
+
+**The CE850-2024 owner's manual prints the same five items in the same order, word for word, on its
+p. 35**, so this card covers that machine and its product line is no longer elliptical-only. Same
+six-entry Function list ending in **CAB Protocol or CSAFE Protocol**, same Service list of **Motor
+test, Stride test, Csafe test, Sensor test**, same Exit, and the same instruction to hold Start,
+Stop and Enter for about 5 seconds with no pedalling step.
+
+**The 2024 manual opens the section differently**: *"Maintenance Menu in console software: To enter
+the Maintenance Mode..."* Neither the gesture nor any menu item changed.
+
+**The 2024 CRS800S and CS800 steppers have this same six-entry Function list but a shorter Service
+list.** Theirs has no **Stride test**, and their Sleep mode entry prints a default -
+**Sleep mode (Default On)** - which this card's machines do not:
+`spirit-stepper-console-maintenance-menu-sleep-default-on`. Do not carry the Stride test onto a
+stepper; it has no adjustable stride.

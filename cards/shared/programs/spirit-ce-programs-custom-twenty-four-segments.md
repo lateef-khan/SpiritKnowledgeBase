@@ -24,8 +24,10 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ces880-2025
   section: programs
   code: '*'

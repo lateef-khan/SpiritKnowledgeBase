@@ -26,25 +26,37 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
+  - crs800s-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -128,3 +140,14 @@ POWER port sentence and stop; the word COMM appears nowhere in either document. 
 **The CR900ENT-2021 and CU900ENT touchscreen bike manuals have no C-SAFE section at all.** The only
 place either mentions the port is the Maintenance menu's **Machine Setup** entry, which chooses
 whether the Csafe port drives Csafe or a CAB TV tuner: `ct900ent-maintenance-menu-overview`.
+
+**All twelve 2024 New Black Units owner's manuals print this section too**, so this card now covers
+them. The eight LED machines print it under **FEATURES / C-Safe Features** - CT800-2024 and
+CT850-2024 p. 17, CE800-2024 p. 16, CE850-2024 p. 18, CR800-2024 and CU800-2024 p. 16, CRS800S-2024
+and CS800-2024 p. 17. The four ENT touchscreens print it under **FEATURES / C-Safe Features** as
+well - CT800ENT-2024 and CT850ENT-2024 p. 17, CE800ENT-2024 and CR800ENT-2024 p. 16. All twelve print
+both ports in exactly the words above, and all twelve head it **C-Safe Features** rather than C-SAFE
+FEATURE or CSAFE FEATURE.
+
+**The CSC900-2024 stair climber and the CRW800-2024 rower are the two machines of the wave that do
+not print it.** The words C-SAFE, CSAFE, POWER port and COMM port appear nowhere in either document.

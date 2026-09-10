@@ -3,8 +3,10 @@ id: spirit-ce-2025-warranty-exclusions
 title: The nine-item exclusion list that drops the outright exclusion of an unregistered
   machine
 kind: policy
-question: What is not covered by the Spirit CE900 or CES880 elliptical warranty, or
-  the Spirit CR900, CU900 or CU800ENT bike warranty, under the 2024 terms?
+question: What is not covered by the Spirit warranty under the 2024 terms - on a CE900,
+  CES880, CE800, CE850 or CE800ENT elliptical, a CR900, CU900, CU800ENT, CR800, CU800
+  or CR800ENT bike, a CT800, CT850, CT800ENT or CT850ENT treadmill, a CRS800S, CS800
+  or CSC900 climber, or a CRW800 rower?
 asked_as:
 - what voids the ces880 warranty
 - is damage from a bad repair covered
@@ -26,9 +28,23 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   section: warranty
@@ -91,3 +107,15 @@ The CR900 2025 and CU900 2025 print this list word for word - the comparison is 
 **The CU800ENT 2024 item 2 breaks off mid-sentence on the printed page.** It runs "...for units not requiring component replacement, or units" and stops there, and the phrase *ordinary household* appears nowhere in that manual. **This is a defect in the manual, not in the extraction.** Page 58 of `CU800ENT_OwnersManual_800365_20241009.pdf` was rendered at 300 dpi and read by OCR: the rendered page ends item 2 at the same word, with white space after it and item 3 beginning below. **Do not complete the sentence from a sibling manual** - the words are not on the page to recover. Tell a CU800ENT 2024 owner that their printed item 2 is incomplete and read the use restriction off the table rows instead (`cu800ent-2024-warranty-coverage-periods`).
 
 **Do not answer the other ten bikes from this card.** The CR800, CU800 and the two 800ENT bikes print **ten** items including an outright exclusion of a dues-paying facility (`spirit-ct800-warranty-exclusions`); the four 900-series bikes print **eight** (`ce900-2021-warranty-exclusions`).
+
+## The fourteen Spirit machines reissued in autumn 2024 print the same nine items
+
+**Word for word.** The whole list was compared at word level against the CE900 2025 text for every one of the fourteen - the CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower - and eight of them match it exactly, 258 words to 258 words. All fourteen head it *What is not covered?* above EXCLUSIONS, exclude prisons at item **8**, put the outside-the-United-States sentence at item **9**, and **keep only the proof-of-purchase sentence at item 6**, so an unregistered machine is not excluded outright (`spirit-ce-warranty-registration`).
+
+**Six of the fourteen break off item 2 mid-sentence, exactly as the CU800ENT 2024 does.** The **CT800ENT**, **CT850ENT**, **CE800ENT**, **CR800ENT**, **CRS800S** and **CS800** all end item 2 at "...for units not requiring component replacement, or units" and stop there. The phrase *ordinary household or light commercial use* appears nowhere in any of the six.
+
+**This is a defect in the manuals, not in the extraction.** The CS800's printed page 42 (PDF p. 44) was rendered at 300 dpi and read with `tesseract --psm 4`: the rendered page ends item 2 at the same word, with white space after it and item 3 beginning below. Do not complete the sentence from a sibling manual - the words are not on the page to recover. Tell the owner of one of the six that their printed item 2 is incomplete and read the use restriction off the table's row labels instead (`spirit-2024-warranty-use-environment`).
+
+**The other eight print item 2 in full**, with the "ordinary household or light commercial use" clause: the CT800, CT850, CE800, CE850, CR800, CU800, CSC900 and CRW800. On those eight the clause still contradicts nothing in the table, because the 2024 tables print no dues-paying row for it to argue with.
+
+**None of the fourteen excludes a dues-paying facility.** Their predecessors did, at item 9 of a ten-item list (`spirit-ct800-warranty-exclusions`). The 2024 books state no period for one and no exclusion of one; `spirit-2024-warranty-use-environment` sets out what to tell a customer.
