@@ -32,9 +32,11 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xe895-2018-assembly-hardware-by-step
 - ce850-2016-assembly-hardware-kit
 - spirit-ce800-assembly-hardware-kit
 see_also:
+- xe895-2018-assembly-hardware-by-step
 - spirit-ce850-assembly-procedure
 - spirit-ce850-assembly-tools-included
 - spirit-ce-assembly-water-bottle-holder

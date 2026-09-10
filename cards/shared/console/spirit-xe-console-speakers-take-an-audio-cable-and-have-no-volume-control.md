@@ -22,8 +22,14 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -33,6 +39,7 @@ see_also:
 - xt-2015-console-spirit-fit-app-pairing
 - xt-2023-console-bluetooth-speaker
 - xe395ent-2021-console-panel-call-outs-and-the-audio-jack
+- spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: XE795 2021 p. 17 Speakers (same in the February 19 2021 printing); XE295 p. 17 and XG400 p. 16 console drawings, "Integrated Speakers for MP3 Player"; audio cable listed in each hardware pack
@@ -40,25 +47,32 @@ source:
 ---
 
 **The console has built-in speakers and an audio input jack.** An **audio cable** is supplied in the
-hardware pack of all three machines.
+hardware pack of every machine on this card.
 
 **There is no volume control on the console. The volume must be controlled on the audio source** -
 the phone or MP3 player you plug in.
 
-The XE795 manual is the one that spells this out, on its Speakers page. The XE295 and XG400 name the
-feature only on the console drawing, as **"Integrated Speakers for MP3 Player"**, and neither adds a
-volume instruction; nothing in either manual contradicts the XE795 wording.
+**Two of these manuals spell it out and the rest only label it.** The **XE795** (2018 p. 17, 2021)
+and the **XE895-2018** (p. 19) print a Speakers paragraph carrying the whole sentence. The XE395,
+XE295, XG400 and XE195 name the feature only on the console drawing, as **"Integrated Speakers for
+MP3 Player"**, and none of them adds a volume instruction; nothing in any of them contradicts the
+XE795 wording. **Quote the no-volume-control sentence as printed only for the XE795 and XE895.**
 
 **This is a cable, not Bluetooth.** None of these three manuals describes Bluetooth audio or a paired
 speaker, and there is no volume control on the console for any source.
 
-**Two of the three do have a Bluetooth app, and it does not carry sound.** The XE295 and XG400
-describe the **Spirit Fit App** for workout data only (`xt-2015-console-spirit-fit-app-pairing`);
-the XE795-2021 manual describes no app at all. **Bluetooth audio arrived on the 2023 machines**, as
+**Some of these do have a Bluetooth app, and it does not carry sound.** The XE395-2018, XE295 and
+XG400 describe the **Spirit Fit App** for workout data only
+(`xt-2015-console-spirit-fit-app-pairing`); the XE795 and XE895 manuals describe no app at all. **Bluetooth audio arrived on the 2023 machines**, as
 "Bt-speaker": `xt-2023-console-bluetooth-speaker`.
 
-**The XE195 has no speakers.** Its console drawing shows a large LCD, a swivel fan, a cargo
-compartment and Easy-Touch control keys, and an audio cable is still listed in its hardware pack.
+**The XE195 lost the speaker call-out between its two printings.** The **2019** console drawing
+(p. 17) labels **"Integrated Speakers for MP3 Player"** alongside the large LCD, swivel fan, cargo
+compartment and Easy-Touch control keys, so the 2019 machine belongs on this card. The **2021**
+drawing (p. 17) prints the same four other labels and **drops the speaker one**. An audio cable is
+listed in the hardware pack of both printings. An earlier reading of this card said flatly that the
+XE195 has no speakers; that holds for the 2021 printing only, and even there the manual never says
+the speakers were removed.
 
 **The 2023 machines took the opposite route** - Bluetooth audio under the name **"Bt-speaker"**, with
 no audio jack described: `xt-2023-console-bluetooth-speaker`.

@@ -39,9 +39,14 @@ facets:
   - ct850ent-2022
   - cu800ent-2022
   - cvc800
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt685-2010
   section: safety
@@ -207,9 +212,16 @@ page, with `elliptical` - or `E-Glide` in the XG400 manual - where the treadmill
 not the one the CE850 and CE800ENT manuals print
 (`spirit-ce850-safety-outlet-and-circuit-requirement`).
 
-**No other residential XE manual carries this paragraph.** The XE395-2010, both XE795 printings, the
-XE100/XE200/XE300 and XE150/XE350/XE550 books print no circuit-breaker paragraph at all, and the two
-2023 books replace it with the AFCI/GFCI passage and its tested brands
+**Five earlier residential XE printings carry it too.** The XE395-2018, XE895-2018, XE195-2019,
+XE295-2019 and XG400-2019 books print the paragraph word for word, with the same Grainger part #
+1D237 and www.squared.com part #QO120HM examples and the same closing `dedicated 15 amp circuit
+breaker` sentence. The XG400 books put `E-Glide` where the others put `elliptical`; no figure
+changes. **The XE895-2018 is the only 110-volt residential elliptical that prints this paragraph**
+(`spirit-xe-safety-outlet-110-volt-15-amp`).
+
+**No other residential XE manual carries this paragraph.** The XE395-2010, all three XE795
+printings, the XE100/XE200/XE300 and XE150/XE350/XE550 books print no circuit-breaker paragraph at
+all, and the two 2023 books replace it with the AFCI/GFCI passage and its tested brands
 (`xt-2023-safety-afci-gfci-nuisance-tripping`). Do not quote Grainger or QO120HM for one of those.
 
 **The CU800ENT-2022 and CR800ENT-2023 bikes print the paragraph in full**, with the bike's name in

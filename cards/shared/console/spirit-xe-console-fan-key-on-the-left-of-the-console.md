@@ -23,12 +23,18 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -41,20 +47,22 @@ see_also:
 - xe395ent-2021-console-homescreen-icon-bar-and-six-tabs
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 20; XE295 p. 21; XG400 p. 20; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22
+  locator: XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE795 2021 p. 20; XE395 2010 p. 18;
+    XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22;
+    XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p. 20
   extracted_at: '2026-09-09'
 ---
 
 **The console includes a built-in fan to help keep you cool. To turn the fan on, press the key on
 the left side of the console.**
 
-The 2021 manuals write "press the **key**"; the XE395-2010 and the 2023 pair write "press the
-**button**". Same instruction, same place.
+The 2018, 2019 and 2021 manuals write "press the **key**"; the XE395-2010 and the 2023 pair write
+"press the **button**". Same instruction, same place.
 
-**The console drawings call it different things.** The XE195, XE295, XG400 and XE795-2021 drawings
-label a **Swivel Fan to keep you cool**; the 2023 overview drawings label an **Adjustable Fan**.
+**The console drawings call it different things.** Every 2018, 2019 and 2021 XE drawing labels a
+**Swivel Fan to keep you cool**; the 2023 overview drawings label an **Adjustable Fan**.
 
-**No speeds and no off instruction are printed** in any of these seven manuals. Nothing says the fan
+**No speeds and no off instruction are printed** in any of these thirteen manuals. Nothing says the fan
 stops on its own.
 
 **On the older XE100 to XE550 it is on the other side and it is a switch you flip, not a key**:

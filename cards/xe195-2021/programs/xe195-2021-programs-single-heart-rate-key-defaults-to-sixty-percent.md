@@ -2,7 +2,7 @@
 id: xe195-2021-programs-single-heart-rate-key-defaults-to-sixty-percent
 title: The single HR key defaults to 60% of maximum, with 60-80% suggested for fat loss and 81-100% for cardio
 kind: fact
-question: What is the heart rate program set to on the Spirit xe195-2021 elliptical?
+question: What is the heart rate program set to on a Spirit XE195 elliptical, 2019 or 2021 printing?
 asked_as:
 - what percent is the heart rate program on my elliptical
 - is there an hr2 on the xe195
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe195-2021
+  model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   section: programs
   code: '*'
@@ -35,7 +36,7 @@ see_also:
 - xe195-2021-programs-four-presets-and-six-programs
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: printed p. 29-30
+  locator: 'XE195 2021 printed p. 29-30; XE195 2019 p. 29-30'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,3 +61,7 @@ and calls 60-80% the zone for maximum benefit. The source does not reconcile the
 
 **The XE295, XG400 and XE795 2021, built in the same year, have two HR keys at 60% and 80%** - see
 `spirit-xe-programs-heart-rate-programs-hold-you-within-three-to-five-beats`.
+
+**The XE195 2019 printing (printed pages 29-30) prints this page word for word** - one HR key, a 60%
+default, the 60-80% / 81-100% guidance, the 3-to-5-beat tolerance and the same unreconciled clash
+with its own training-zone page.

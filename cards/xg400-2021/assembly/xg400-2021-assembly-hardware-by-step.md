@@ -3,8 +3,8 @@ id: xg400-2021-assembly-hardware-by-step
 title: Five metric hardware panels, the only residential XE build with no inch bolt
   in it
 kind: fact
-question: What hardware is in each step's bag when I assemble a Spirit xg400-2021
-  E-Glide Trainer?
+question: What hardware is in each step's bag when I assemble a Spirit XG400 E-Glide
+  Trainer (xg400-2019 or xg400-2021)?
 asked_as:
 - what bolts go in step one of the xg400
 - hardware list for the spirit xg400
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xg400-2021
+  model: '*'
   applies_to:
+  - xg400-2019
   - xg400-2021
   section: assembly
   code: '*'
@@ -39,7 +40,8 @@ see_also:
 source:
   ref: spirit-elliptical-xg400-2021-owners-manual
   locator: pp. 11-15, the five panels headed HARDWARE FOR STEP 1 to HARDWARE FOR
-    STEP 5
+    STEP 5; identical panels at pp. 11-15 of the 2019 printing
+    (`spirit-elliptical-xg400-2019-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -80,6 +82,13 @@ source:
 |---|---|---|---|
 | 71 | Round cap | - | 6 |
 | 83 | Levelers | - | 6 |
+
+## The 2019 printing supplies exactly the same five bags
+
+Every part number, type, description and quantity above is printed unchanged in the
+XG400 2019 manual, compared row by row. Its step-three panel prints item 44 above
+item 34 where the 2021 book prints them the other way up; the parts and counts are the
+same.
 
 ## Two bolts of the same size with different item numbers
 

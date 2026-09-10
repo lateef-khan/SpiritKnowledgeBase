@@ -2,7 +2,7 @@
 id: xe395-2010-programs-custom-user-resistance-then-incline
 title: 'The two User programs are built twice over: twenty resistance segments, then twenty incline segments'
 kind: procedure
-question: How do I build a custom User program on the Spirit xe395-2010 elliptical?
+question: How do I build a custom User program on the Spirit XE395 elliptical, 2010 or 2018 printing?
 asked_as:
 - how do i make my own workout on this elliptical
 - how do i set the incline for my own program
@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe395-2010
+  model: '*'
   applies_to:
   - xe395-2010
+  - xe395-2018
   section: programs
   code: '*'
 authority: 3
@@ -35,7 +36,7 @@ see_also:
 - spirit-xe-2021-programs-custom-user-programs-cap-the-name-at-seven-characters
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: printed p. 23
+  locator: 'XE395 2010 printed p. 23; XE395 2018 p. 27-29'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +66,18 @@ one goes straight from Time to the per-segment levels.
 
 **No other Spirit elliptical builds two profiles.** The XE295, XG400 and XE795 2021 build twenty
 resistance segments only; the XE195 has no custom program at all.
+
+**The XE395 2018 printing builds the same two profiles, twenty segments each** (printed pages 27-29),
+but its list differs from the 2010 one in four places:
+
+- The username is capped at **7 characters**, which the 2010 manual does not state.
+- If a program is already stored, pressing Start or Enter prompts **"Run Program?"**, and choosing No
+  offers to delete it. **You must delete the stored program to build a new one.** The 2010 manual has
+  no such prompt.
+- **There is a Max Level step before each profile** - a **Max Resistance Level** before the twenty
+  resistance segments and a **Max Incline Level** before the twenty incline segments. The sentence
+  above that says there is no Max Level step is true of the 2010 printing only.
+- On saving it says **"PROG SAVED"**, where the 2010 manual says "New program saved".
+
+The XE895 2018 builds the same two-profile shape with **stride** in place of incline - see
+`xe895-2018-programs-user-programs-set-twenty-resistance-then-twenty-stride-segments`.

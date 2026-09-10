@@ -3,8 +3,8 @@ id: xe295-2021-assembly-hardware-by-step
 title: Four hardware panels, and the step-four bag that supplies four Phillips screws
   where the jobs need eight
 kind: fact
-question: What hardware is in each step's bag when I assemble a Spirit xe295-2021
-  elliptical?
+question: What hardware is in each step's bag when I assemble a Spirit XE295 elliptical
+  (xe295-2019 or xe295-2021)?
 asked_as:
 - what bolts go in step one of the xe295
 - hardware list for the spirit xe295
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe295-2021
+  model: '*'
   applies_to:
+  - xe295-2019
   - xe295-2021
   section: assembly
   code: '*'
@@ -38,7 +39,8 @@ see_also:
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
   locator: pp. 13-16, the four panels headed HARDWARE FOR STEP 1 to HARDWARE FOR
-    STEP 4
+    STEP 4; identical panels at pp. 13-16 of the 2019 printing
+    (`spirit-elliptical-xe295-2019-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -82,6 +84,13 @@ source:
 |---|---|---|---|
 | 115 | Phillips head screw | M5 X 12MM | 4 |
 | 119 | Sheet metal screw | 3.5 X 12MM | 8 |
+
+## The 2019 printing supplies exactly the same four bags
+
+Every part number, type, description and quantity above is printed unchanged in the
+XE295 2019 manual, compared row by row - including the short step-four bag and item
+130 being a bolt rather than a nut. **Nothing in this machine's hardware changed
+between the 2019 and the 2021 printing.**
 
 ## Step four is four screws short of its own instructions
 

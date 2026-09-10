@@ -30,15 +30,19 @@ facets:
   - mt200-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xg400-2019
   - xg400-2021
   - xt185-2015
   - xt185-2023
@@ -153,7 +157,14 @@ may occur in your household power supply that could damage elliptical components
 book (`spirit-xe-2005-2007-safety-instructions-list`). Do not tell one of those six owners their
 manual asks them to unplug.
 
-**Neither XE795 prints any storm rule.** Both 2021 printings and the 2023 manual omit it entirely -
+**The XE895-2018 prints no storm rule either, and its siblings do.** The XE395-2018, XE195-2019,
+XE295-2019 and XG400-2019 books all carry the full two-sentence rule in their Important Operation
+Instructions; the XE895-2018 book's operation instructions run the other four bullets and stop. Its
+page 7 was rendered at 300 dpi to confirm the bullet is not a flattened image - it is simply not
+printed. The XE895 is a mains-powered machine with a plug, so unlike the XE795 it has something to
+unplug; its manual just never says to. **That is an absence, not a permission.**
+
+**No XE795 printing prints any storm rule.** Both 2021 printings and the 2023 manual omit it entirely -
 the machine is generator-powered and has no plug to pull
 (`spirit-ce-safety-generator-produces-ac-power`). That is an absence, not a permission to use it in
 a storm.

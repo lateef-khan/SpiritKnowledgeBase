@@ -24,10 +24,15 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -54,20 +59,26 @@ When the console is first powered on it runs an **internal self-test**:
 5. The console goes to the start-up display: the **dot matrix scrolls the different program
    profiles** and the **Message Center scrolls the start-up message**. You may now begin.
 
-**Three of them add how the console gets power, and one does not.** The XE195, XE295 and XG400 open
-the paragraph with "When the power cord is connected to the elliptical (XG400: to the E-Glide), the
-console will automatically power up". The XE395-2010 instead says the A.C. power cord must be
-connected **and the power switch turned on** - it is the only one of the five with a power switch in
+**Most of them add how the console gets power, and one does not.** The XE195, XE295, XG400 and
+XE395-2018 open the paragraph with "When the power cord is connected to the elliptical (XG400: to
+the E-Glide), the console will automatically power up". **The XE895-2018 writes "connected to the
+equipment"** rather than naming the machine. The XE395-2010 instead says the A.C. power cord must be
+connected **and the power switch turned on** - it is the only one on this card with a power switch in
 the instruction. The XE395-2023 prints no such sentence at all; its heading is simply "Plugging in
 and Powering On".
 
-**What the distance window is counting is worded two ways.** The XE195, XE295 and XG400 say
-"distance total"; the XE395-2010 and XE395-2023 say "the distance in **miles**". No manual says the
+**The 2018 and 2019 printings say the same thing as their 2021 successors.** XE395-2018 p. 20,
+XE895-2018 p. 18, XE195-2019 p. 18, XE295-2019 p. 19 and XG400-2019 p. 18 print this paragraph word
+for word.
+
+**What the distance window is counting is worded three ways.** The XE195, XE295, XG400 and XE395-2018
+say "distance total"; the XE395-2010 and XE395-2023 say "the distance in **miles**"; the XE895-2018
+says "the **total distance in miles**". No manual says the
 window can be switched, though Units in engineering mode changes the whole display to metric.
 
-**Only the XE395-2010 of these five states a stand-by timeout** - twenty minutes, any key to wake:
+**Only the XE395-2010 of these states a stand-by timeout** - twenty minutes, any key to wake:
 `spirit-xe-console-stand-by-after-twenty-minutes-without-input`. The 2021 and 2023 power-up
 paragraphs print none.
 
-**The XE795 of both generations powers itself and is not covered here.** It has a built-in generator
+**The XE795 of every printing powers itself and is not covered here.** It has a built-in generator
 and you pedal to wake it: `spirit-xe795-console-power-up-by-pedalling`.

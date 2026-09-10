@@ -27,17 +27,23 @@ facets:
   - ces880-2025
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -109,3 +115,8 @@ chapter once, inside the XE350 and XE550 operation section. The XE150 console ha
 keys at all: its heart rate program offers **55%, 75%, 90% or a custom target** - see
 `xe150-2005-programs-target-hr-program`. The 60% / 80% figures on
 this page are the general training-zone guidance, not the XE150's program settings.
+
+**Six earlier XE printings print this same 60% / 80% guidance and the same 108-to-144 example, value
+for value** - XG400 2019 (printed page 27), XE195 2019 and XE295 2019 (page 26 and page 28), XE895
+2018 (page 29), XE395 2018 (page 30) and XE795 2018 (page 31). None of the six prints any other
+figure pair, and none of them prints a target-zone table.

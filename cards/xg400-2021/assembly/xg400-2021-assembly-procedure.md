@@ -3,7 +3,8 @@ id: xg400-2021-assembly-procedure
 title: 'Five-step build with a hand brake and a shipping lock: mast and brake lever,
   swing arms and pedals, transport wheels, pedal arm brackets, then levellers'
 kind: procedure
-question: How do I assemble a Spirit xg400-2021 E-Glide Trainer from the box?
+question: How do I assemble a Spirit XG400 E-Glide Trainer (xg400-2019 or xg400-2021)
+  from the box?
 asked_as:
 - how do i put my xg400 together
 - assembly instructions for the spirit xg400
@@ -22,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xg400-2021
+  model: '*'
   applies_to:
+  - xg400-2019
   - xg400-2021
   section: assembly
   code: '*'
@@ -38,7 +40,8 @@ see_also:
 - spirit-xe-assembly-parts-included-2021
 source:
   ref: spirit-elliptical-xg400-2021-owners-manual
-  locator: pp. 11-15, XG400 STEP ONE to STEP FIVE
+  locator: pp. 11-15, XG400 STEP ONE to STEP FIVE; the same five steps at pp. 11-15
+    of the 2019 printing (`spirit-elliptical-xg400-2019-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -103,6 +106,14 @@ two wrenches.
 3. **Unlock the black lever near the flywheel at the end of the BRAKE CABLE (90).**
    It is locked for shipping, and it also serves as a safety lock to stop unauthorised
    use of the machine.
+
+## The 2019 printing builds identically
+
+The XG400 2019 manual prints the same five steps, the same five hardware panels, the
+same item numbers and the same counts, word for word - hand brake, shipping lock and
+all. The only difference anywhere in its assembly chapter is the machine diagram's
+pulse label, **PULSE GRIPS** in 2019 against the 2021 book's stray-backtick
+`PULSE SENSORS\``.
 
 ## The shipping lock is the last job of the build and nothing else mentions it
 

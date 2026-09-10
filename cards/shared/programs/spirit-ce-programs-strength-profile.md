@@ -25,12 +25,17 @@ facets:
   - ce800-2013
   - ce850-2016
   - ce900-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -70,3 +75,12 @@ Interval.
 
 **The two oldest XE consoles describe Strength differently.** That is
 `spirit-xe-programs-strength-climbs-to-a-high-level-and-holds-it`.
+
+**Five earlier XE printings print this same Strength description, word for word** - XG400 2019
+(printed page 24), XE295 2019 (page 25), XE395 2018 (page 26), XE895 2018 (page 28) and XE795 2018
+(page 29). The XE395 2018 adds an **Incline:** paragraph, and the XE895 2018 a **Stride Profile**
+chart with no words.
+
+**The XE195 2019 has no Strength program**, exactly as its 2021 printing does not - its preset page
+opens "the elliptical has **four** different programs" and prints Hill, Fat Burn, Cardio and Interval
+only. See `xe195-2021-programs-four-presets-and-six-programs`.

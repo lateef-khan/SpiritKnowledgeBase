@@ -25,16 +25,22 @@ facets:
   model: '*'
   applies_to:
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -47,7 +53,8 @@ see_also:
 - xe395ent-2021-console-profiles-and-the-spirit-app-link
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 21; XE195 p. 20; XE295 p. 21; XG400 p. 20; XE395 2010 p. 18; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 and XE300 p. 36 of the XE100/XE200/XE300 manual; XE350/XE550 p. 23 of the XE150/XE350/XE550 manual
+  locator: XE795 2021 p. 21; XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE395 2018 p. 23;
+    XE795 2018 p. 21; XE895 2018 p. 23; XE195 2019 p. 21; XE295 2019 p. 22; XG400 2019 p. 21; XE395 2010 p. 18; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 and XE300 p. 36 of the XE100/XE200/XE300 manual; XE350/XE550 p. 23 of the XE150/XE350/XE550 manual
   extracted_at: '2026-09-09'
 ---
 

@@ -28,17 +28,23 @@ facets:
   applies_to:
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: warranty
   code: '*'
@@ -63,17 +69,25 @@ source:
     36-38), spirit-elliptical-xe395-2010-owners-manual p. 1 (lines 30-32). Exclusion
     8 or 7 in the other seven manuals: xe395-2010 line 1073, xe795-2021-february line
     960, xe395ent-2021 line 954, xe195-2021 line 767, xe295-2021 line 884, xg400-2021
-    line 903, xe395-2023 line 1491, xe795-2023 line 1370'
+    line 903, xe395-2023 line 1491, xe795-2023 line 1370; and in the six printings filed
+    under Bikes/bike backup: xe395-2018 line 1339, xe795-2018 line 1289, xe895-2018
+    line 1381, xe195-2019 line 1076, xe295-2019 line 1179, xg400-2019 line 1186'
   extracted_at: '2026-09-09'
 ---
 
-**There is no one answer across these eleven manuals, and none of them says a dues-paying gym is covered.** The words *YMCA* and *health club* appear nowhere in any of the eleven.
+**There is no one answer across these seventeen manuals, and none of them says a dues-paying gym is covered.** The words *YMCA* and *health club* appear nowhere in any of the seventeen.
 
 | Manual | Rows in the table | What the exclusion allows | Hours cap | Prisons |
 |---|---|---|---|---|
 | XE150/XE350/XE550 2005 | one, unlabelled | *ordinary household use* only; no numbered environment item | none | not mentioned |
 | XE100/XE200/XE300 2007 | two columns, unlabelled | *ordinary household use* only; no numbered environment item | none | not mentioned |
 | XE395 2010 | one, unlabelled | **a residential setting only** | none | not mentioned |
+| XE395 2018 | Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
+| XE795 2018 | Light Commercial + Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
+| XE895 2018 | Light Commercial + Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
+| XE195 2019 | Residential | **a residential setting only** | none | not mentioned |
+| XE295 2019 | Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
+| XG400 2019 | Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
 | XE195 2021 | Residential | **a residential setting only** | none | footnote |
 | XE795 2021, February | Light Commercial + Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | **not mentioned** |
 | XE395ENT 2021 | Residential | a residential setting **or** a non-dues-paying facility | **5 hours a day** | not mentioned |
@@ -91,26 +105,30 @@ The 2005 and 2007 books print it as a boxed notice before anything else:
 
 The 2010 XE395 manual prints the same sentence in lower case. **This is the strongest wording anywhere in the range** - not a shortened period, not an excluded item, but the whole warranty gone. Their exclusion lists back it from the other side: the 2005 and 2007 lists carry **no** numbered environment item at all, and their responsibilities and reimbursement clauses limit cover to *ordinary household use*; the 2010 list adds one - *Product use in any environment other than a residential setting.*
 
-**No later XE or XG manual prints that ATTENTION notice.** From 2021 on, the front of the book says nothing about use environment and the whole answer is in exclusion 8.
+**No later XE or XG manual prints that ATTENTION notice.** From the August 2018 printings on, the front of the book says nothing about use environment and the whole answer is in exclusion 8.
 
-## The 2021 and 2023 manuals allow a facility that charges no dues
+## Twelve manuals, from August 2018 on, allow a facility that charges no dues
 
-Exclusion 8 in the XE295, XE395ENT, XE795 (both printings), XG400, XE395 2023 and XE795 2023:
+Exclusion 8 in the XE395 2018, XE795 2018, XE895 2018, XE295 (2019 and 2021), XG400 (2019 and 2021), XE395ENT, XE795 (both 2021 printings), XE395 2023 and XE795 2023:
 
 > Product use in any environment other than a residential setting or non-dues paying facility with **5 hours use or less per day**.
 
-That is two limits in one sentence: it bars a facility that charges dues, **and** caps use at five hours a day even in one that charges nothing. **None of the seven defines what makes a facility dues-paying.** There is no parenthesis of examples, as the Spirit CE and CT manuals carry.
+That is two limits in one sentence: it bars a facility that charges dues, **and** caps use at five hours a day even in one that charges nothing. **None of the twelve defines what makes a facility dues-paying.** There is no parenthesis of examples, as the Spirit CE and CT manuals carry.
 
-**The XE195 is the exception among the 2021 machines.** Its list stops at *Product use in any environment other than a residential setting* - no facility allowance and no hours cap. On that machine a workplace or apartment gym is outside the warranty whether or not it charges dues.
+**The allowance arrives with the August 22, 2018 printings and never leaves.** The 2010 XE395 bars everything but a home; the XE395, XE795 and XE895 books effective August 22, 2018 are the earliest XE manuals here that permit a non-dues-paying facility, and every later manual but the XE195 keeps the sentence unchanged.
 
-## Four manuals allow a facility their table gives no periods for
+**The XE195 is the exception, in both its printings.** Its list stops at *Product use in any environment other than a residential setting* - no facility allowance and no hours cap - in the February 04, 2019 manual and again in the November 30, 2021 one. On that machine a workplace or apartment gym is outside the warranty whether or not it charges dues, whichever book the customer holds.
 
-The **XE395ENT, XE295, XG400 and XE395 2023** print exclusion 8's non-dues-paying allowance while their tables print a **Residential row and nothing else**. So a placement the exclusions permit has no set of periods stated for it anywhere in the manual, and none of the four reconciles the two. Only the **XE795** prints a Light Commercial row with its own shorter figures (`spirit-xe795-warranty-light-commercial-periods`).
+## Seven manuals allow a facility their table gives no periods for
 
-Three of those four go further and lead their responsibilities list with *"ordinary household use **(see restrictions above)**, and the consumer/facility is responsible..."* - pointing at restrictions their own table never prints, and addressing a facility their table never covers.
+The **XE395 2018**, the **XE295 2019**, the **XG400 2019**, the **XE395ENT 2021**, the **XE295 2021**, the **XG400 2021** and the **XE395 2023** print exclusion 8's non-dues-paying allowance while their tables print a **Residential row and nothing else**. So a placement the exclusions permit has no set of periods stated for it anywhere in the manual, and none of the seven reconciles the two. Only the **XE795** and the **XE895** print a Light Commercial row with its own shorter figures (`spirit-xe795-warranty-light-commercial-periods`).
+
+Six of those seven - all but the XE395 2023 - go further and lead their responsibilities list with *"ordinary household use **(see restrictions above)**, and the consumer/facility is responsible..."* - pointing at restrictions their own table never prints, and addressing a facility their table never covers.
 
 ## Prisons
 
-Where it appears at all it is a **footnote under the table only**; no XE or XG manual carries a prisons item in its numbered exclusion list. Five of the eleven print it: the XE195, XE295, XG400, the **November** XE795 2021 printing and the XE795 2023. The February XE795 2021 printing, the XE395ENT, the XE395 2023 and the three older books print it nowhere - `spirit-2026t-warranty-prisons-excluded`.
+Where it appears at all it is a **footnote under the table only**; no XE or XG manual carries a prisons item in its numbered exclusion list. Five of the seventeen print it: the XE195 **2021**, the XE295 **2021**, the XG400 **2021**, the **November** XE795 2021 printing and the XE795 2023. Twelve print it nowhere - the February XE795 2021 printing, the XE395ENT, the XE395 2023, the three older books, and all six of the 2018 and 2019 printings (`spirit-2026t-warranty-prisons-excluded`).
+
+**The clause reaches the XE range later than the rest of Spirit.** The XE395, XE795 and XE895 books effective **August 22, 2018** and the XE195, XE295 and XG400 books effective **February 04, 2019** all print it nowhere, so the October 2018 date at which it enters the Spirit indoor-cycle range does not carry over here: the earliest XE or XG manual in this knowledge base that states it is dated **November 30, 2021**.
 
 **Do not answer a Spirit commercial elliptical question from this card, or the reverse.** The CE800, CE800ENT, CE850, CE900 and CES880 envelope is a different set of manuals with a different answer, and two of them cover a dues-paying gym outright (`spirit-ce-warranty-use-environment`).

@@ -1,7 +1,7 @@
 ---
 id: xe395-2010-errors-incline-ramp-error-recalibrate
-title: The console shows an error for the incline ramp, and the key hold that re-calibrates
-  it
+title: The console shows an error for the incline ramp, and the Start plus level UP
+  hold that re-calibrates it
 kind: troubleshooting
 question: What do I do when the console shows an error for the incline or ramp on
   a Spirit xe395-2010 elliptical?
@@ -23,6 +23,7 @@ authority: 3
 not_to_be_confused_with:
 - ct850-2016-incline-err-during-incline-action
 - ct850-2020-incline-err
+- xe395-2018-errors-incline-calibration-three-key-hold
 keywords:
 - incline error
 - ramp error
@@ -35,6 +36,8 @@ keywords:
 - maintenance menu
 see_also:
 - ct850-2016-incline-calibration-fails-checks
+- spirit-xe-errors-no-error-codes-printed
+- xe895-2018-errors-stride-calibration-three-key-hold
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: 'Maintenance Menu in Console Software, item g (Calibration), printed page
@@ -57,10 +60,18 @@ its own two-key combination.
 incline/ramp". Do not tell a caller the console reads `INCLINE ERR` or any other string - no
 residential Spirit elliptical manual states one.
 
-**This is the only calibration instruction in any Spirit residential elliptical owner's manual.**
-The word does not appear in the XE100/XE200/XE300, XE150/XE350/XE550, XE195, XE295, XE395ENT,
-XE795 2021, XG400, XE395 2023 or XE795 2023 books, so there is no equivalent procedure to offer an
-owner of one of those machines.
+**Two later books print a calibration too, and neither uses this key hold.** The XE395 2018
+manual prints an `Incline Calibration` and the XE895 2018 manual a `Stride Calibration`, both run
+by holding **Start, Level up and Stop together for 5 seconds** with no Enter and no restart - see
+`xe395-2018-errors-incline-calibration-three-key-hold` and
+`xe895-2018-errors-stride-calibration-three-key-hold`. **Do not offer the two-key hold above to an
+XE395 2018 or XE895 2018 owner, or the three-key hold to an XE395 2010 owner.**
+
+Those three manuals are the only Spirit residential elliptical books that print a calibration at
+all. The word does not appear in the XE100/XE200/XE300, XE150/XE350/XE550, XE795 2018, XE195 2019,
+XE295 2019, XG400 2019, XE195 2021, XE295 2021, XE395ENT 2021, XE795 2021 February, XE795 2021
+November, XG400 2021, XE395 2023 or XE795 2023 books, so there is no equivalent procedure to offer
+an owner of one of those machines.
 
 **A Spirit treadmill `INCLINE ERR` is a different fault on a different platform** with its own
 causes and its own test procedure - see `ct850-2016-incline-err-during-incline-action` and

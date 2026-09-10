@@ -32,16 +32,22 @@ facets:
   - ce900-2025
   - ces880-2025
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -109,3 +115,18 @@ The CE800ENT does not print these steps. Its manual describes Manual mode in one
 calorie target and a watt target before you start - see
 `xe150-2005-programs-manual-sets-level-time-distance-calories-and-watts`. The XE395ENT touchscreen
 asks only for a target time - see `xe395ent-2021-programs-manual-asks-only-for-a-target-time`.
+
+**Six earlier XE printings, filed on disk under bikes, print these same steps** - XE795 2018,
+XE195 2019 and XG400 2019 (printed page 22), XE295 2019 (page 23), and XE395 2018 and XE895 2018
+(page 24). All six print steps 1-7 and add the same "save the workout you just completed as a custom
+user program by pressing a **User** key" ending. Two small differences:
+
+- **Which key goes back at step 5.** The XE795 2018 says **Stop**, and adds the note that Stop goes
+  back one level or screen at any time during data entry. The other five say **Enter**.
+- **What the workload keys are called.** The XE895 2018 calls them plain **Up / Down** throughout;
+  the XE795 2018 says Level Up/Down for age and weight but plain Up/Down for the workload; the other
+  four say **Level Up / Level Down** everywhere.
+
+*The XE195 2019 prints that save-as-custom ending even though it has no User key and its manual has
+no Custom User Defined Programs section at all - the same mismatch its 2021 printing carries. See
+`xe195-2021-programs-four-presets-and-six-programs`.*

@@ -26,13 +26,17 @@ facets:
   model: '*'
   applies_to:
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe795-2023
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -49,7 +53,7 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-All nine manuals print the same warning:
+All thirteen manuals print the same warning:
 
 > **Calorie readings on every piece of exercise equipment, whether it is in a gym or at home, are not
 > accurate and tend to vary widely.** They are meant **only as a guide to monitor your progress from
@@ -66,13 +70,19 @@ All nine manuals print the same warning:
 "aides in calculating a more correct Calorie reading"; see
 `spirit-xe-console-the-last-age-and-weight-entered-becomes-the-new-default`.
 
-**Three of the fourteen residential XE ellipticals print something else.** The **XE300, XE350 and
-XE550** claim you keep burning **at about the same rate as during exercise for 20-30 minutes**, which
-is a different length and a different rate:
-`spirit-xe-console-calorie-note-you-keep-burning-at-the-same-rate-for-20-to-30-minutes`. **The
-XE795-2021** prints a shortened note - "**only an estimate** and tend to vary widely... meant only as
-a guide to monitor your progress from workout to workout" - with **no clinical-setting sentence and
-no after-exercise claim at all**.
+**Some residential XE ellipticals print something else.** The **XE300, XE350 and XE550** claim you
+keep burning **at about the same rate as during exercise for 20-30 minutes**, which is a different
+length and a different rate:
+`spirit-xe-console-calorie-note-you-keep-burning-at-the-same-rate-for-20-to-30-minutes`.
+
+**The XE795 and the XE895 print a shortened note instead** - "**only an estimate** and tend to vary
+widely... meant only as a guide to monitor your progress from workout to workout" - with **no
+clinical-setting sentence and no after-exercise claim at all**. That holds for the **XE795-2018**
+(p. 20), both 2021 XE795 printings and the **XE895-2018** (p. 22). **Never quote the hour claim to an
+XE795 or XE895 owner**: their manual does not make it.
+
+**The 2018 and 2019 printings of the machines on this card print the full warning**, hour claim
+included: XE395-2018 p. 22, XE195-2019 p. 20, XE295-2019 p. 21, XG400-2019 p. 20.
 
 **The XE100 and XE200 sit here, the XE300 does not, and they share one manual.** Check which console
 section covers the machine before quoting either figure.

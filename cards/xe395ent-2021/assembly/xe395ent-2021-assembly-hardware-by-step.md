@@ -30,10 +30,12 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xe395-2018-assembly-hardware-by-step
 - xe395-2010-assembly-hardware-by-step
 - xe295-2021-assembly-hardware-by-step
 - xe395-2023-assembly-hardware-by-step
 see_also:
+- xe395-2018-assembly-hardware-by-step
 - xe395ent-2021-assembly-procedure
 - spirit-xe-assembly-tools-2021
 source:

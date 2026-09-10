@@ -2,8 +2,8 @@
 id: xe195-2021-warranty-fitness-bike-wording
 title: The warranty section calls the machine a fitness bike seven times
 kind: fact
-question: Why does the warranty in the Spirit xe195-2021 owner's manual talk about
-  a fitness bike, and does it still apply to the elliptical?
+question: Why does the warranty in the Spirit XE195 owner's manual talk about a fitness
+  bike, and does it still apply to the elliptical?
 asked_as:
 - my elliptical manual says fitness bike in the warranty
 - is the warranty in my manual for the wrong machine
@@ -20,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe195-2021
+  model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
   section: warranty
   code: '*'
@@ -33,12 +34,16 @@ see_also:
 - xe195-2021-warranty-residential-periods-five-year-parts
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: NORMAL RESPONSIBILITIES OF THE CONSUMER items 2, 3, 5 and 6 and EXCLUSIONS
-    item 1, pp. 33-34 (text.md lines 741, 742, 745, 747, 757)
+  locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER items 2, 3, 5 and 6 and EXCLUSIONS
+    item 1, pp. 33-34 (text.md lines 741, 742, 745, 747, 757). The same five passages
+    carry the same seven occurrences in the earlier printing, spirit-elliptical-xe195-2019-owners-manual
+    pp. 32-33 (text.md lines 1050, 1051, 1054, 1056, 1064-1065)'
   extracted_at: '2026-09-09'
 ---
 
-**Yes, the warranty still applies, and the wording is a documentation defect.** The manual is headed *XE195 Elliptical Trainer* throughout, its warranty table is headed *Elliptical Trainer Warranty - Effective November 30, 2021*, and the words *fitness bike* appear **seven times on five lines**, all of them inside the warranty section and nowhere else in the document:
+**Yes, the warranty still applies, and the wording is a documentation defect.** The manual is headed *XE195 Elliptical Trainer* throughout, its warranty table is headed *Elliptical Trainer Warranty*, and the words *fitness bike* appear **seven times on five lines**, all of them inside the warranty section and nowhere else in the document.
+
+**Both XE195 printings do it, identically.** The 2019 manual (effective February 04, 2019) and the 2021 one (effective November 30, 2021) carry the same seven occurrences in the same five passages, so the defect is not a slip that one printing introduced and the other fixed - it survived a reprint two and a half years later. The passages:
 
 | Where | The phrase |
 |---|---|
@@ -50,7 +55,7 @@ source:
 
 **It is copy-paste from a bike manual.** The same five passages in the 2010 XE395 manual are word for word identical except that each reads *elliptical* where this one reads *fitness bike* - a word-level comparison of the two blocks differs in nothing else. So the rules are the Spirit elliptical rules; only the noun was left behind from another document.
 
-**No other manual in this wave does it.** The XE100/XE200/XE300, XE150/XE350/XE550, XE395 2010, XE295, XE395ENT, XE795 (both 2021 printings and 2023), XG400 and XE395 2023 manuals contain the phrase **zero** times.
+**No other XE or XG manual does it.** The XE100/XE200/XE300, XE150/XE350/XE550, XE395 2010, XE395 2018, XE795 2018, XE895 2018, XE295 2019, XG400 2019, XE295 2021, XE395ENT 2021, XE795 (both 2021 printings and 2023), XG400 2021 and XE395 2023 manuals contain the phrase **zero** times. Seventeen manuals, and only the two XE195 printings say it.
 
 **Record it; do not correct it when quoting.** If a customer is reading the printed page, the words they see say *fitness bike*. Tell them the section governs their elliptical and that the noun is a misprint, rather than quoting a corrected sentence their manual does not contain.
 

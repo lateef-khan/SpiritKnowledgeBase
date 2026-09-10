@@ -48,17 +48,23 @@ facets:
   - jb950-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xic600-2018
   - xic600-2021
@@ -118,7 +124,11 @@ source:
     SERVICE paragraph is at xe150-xe350-xe550 line 1147, xe100-xe200-xe300 line 1688,
     xe395-2010 line 1077, xe795-2021-february line 963, xe395ent-2021 line 957, xe195-2021 line
     772, xe295-2021 line 887, xg400-2021 line 906, xe795-2021-november line 986, xe395-2023
-    line 1506, xe795-2023 line 1385 The SERVICE labor-clock sentence in all eight Spirit indoor
+    line 1506, xe795-2023 line 1385. The Labor column and the SERVICE paragraph of the six
+    printings filed under Bikes/bike backup: xe395-2018 lines 1307 and 1341, xe795-2018 lines
+    1257-1258 (both rows) and 1291, xe895-2018 lines 1349-1350 (both rows) and 1383, xe195-2019
+    lines 1044 and 1079, xe295-2019 lines 1146 and 1181, xg400-2019 lines 1154 and 1188. The
+    SERVICE labor-clock sentence in all eight Spirit indoor
     cycle and air bike manuals: spirit-bike-cb900-2013-owners-manual text.md line 440 (p. 13);
     spirit-bike-xic600-2018-owners-manual line 903 (p. 27);
     spirit-bike-ab900-2018-owners-manual line 1314 (p. 47);
@@ -148,11 +158,11 @@ The manual adds that this written warranty gives specific legal rights and that 
 
 ## Labor is 1 Year on every Spirit XE and XG residential machine too
 
-**All eleven of those owner's manuals print it**, from the 2005 XE150/XE350/XE550 book to the 2023 XE395 and XE795 - in the Residential row, and in the XE795's Light Commercial row as well. It is the one figure that never moves anywhere in the range, on tables that otherwise disagree about the parts period, the brake and even whether there is a brake column at all.
+**All seventeen of those owner's manuals print it**, from the 2005 XE150/XE350/XE550 book to the 2023 XE395 and XE795 - in the Residential row, and in the XE795's and XE895's Light Commercial rows as well. It is the one figure that never moves anywhere in the range, over eighteen years, on tables that otherwise disagree about the parts period, the brake and even whether there is a brake column at all.
 
 **One year is an XE, XG and XT figure. Do not answer it from a Spirit commercial elliptical card.** The CE800, CE800ENT and CE850 tables read **Labor 2 Years** in both rows (`spirit-ct800-warranty-labor-period`), and the CE900 and CES880 read 3 Years. Doubling an XE customer's labor cover is the easy mistake here.
 
-**The SERVICE paragraph is word for word the same on nine of the eleven** - the 2010 XE395, the six 2021 manuals and the two 2023 ones - and it does not contradict their tables either, because the Labor column already reads one year.
+**The SERVICE paragraph is word for word the same on fifteen of the seventeen** - the 2010 XE395, the six 2018 and 2019 printings, the six 2021 manuals and the two 2023 ones - and it does not contradict their tables either, because the Labor column already reads one year. A word-level comparison of the SERVICE block of each of the six 2018 and 2019 printings against the XE795 February 2021 one comes back **99.6%**, the residual a single missing space the conversion left in *rights.You*.
 
 **The 2005 and 2007 books word it differently, and the difference matters.** They read *"...establishes the **warranty** period should service be required"*, not *"the **labor** warranty period"*. On those two the sentence therefore appears to date the whole warranty from the bill of sale or the serial number, not just the labor half - and their table has a two-year base period and a five-year component period that neither twelve nor eighteen months can be reconciled with. Neither book resolves it. Quote the sentence and the table together (`spirit-xe-2005-warranty-two-year-base-period`).
 

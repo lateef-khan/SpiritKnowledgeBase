@@ -31,7 +31,8 @@ facets:
   section: specs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed
 see_also:
 - spirit-ce-specs-no-specification-table
 - spirit-ce850-specs-twenty-resistance-levels
@@ -63,3 +64,10 @@ with the adjustable-stride feature. See
 
 The manuals give no intermediate step size, no count of stride positions and no
 metric equivalent.
+
+**One residential Spirit machine also has a powered stride, and this figure is not
+its figure.** The XE895-2018 home elliptical adjusts its stride per workout segment
+and its owner's manual prints **no length at all** - see
+`xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed`. Answering
+an XE895 with 18 to 24 inches carries a commercial figure onto a different machine
+with a different mechanism.

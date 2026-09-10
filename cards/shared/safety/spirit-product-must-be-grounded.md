@@ -41,7 +41,9 @@ facets:
   - mt200-2010
   - mt200-2022
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xe895-2018
   - xg400-2021
   - xt185-2015
   - xt185-2023
@@ -378,6 +380,17 @@ no adapter drawing and no nominal-circuit sentence. So the mandatory grounding, 
 rule and the shock hazard are all stated - but **do not quote the adapter procedure or the plug
 diagram above for this bike**; they come from the treadmill and elliptical manuals and are not in
 this book.
+
+**Two more residential ellipticals print the full paragraph.** The **XE395-2018** book prints it on
+its page 7 and the **XE895-2018** book on its page 6, each with the plug and adapter illustrations
+and the nominal-circuit sentence beside it - `nominal 110-volt/15 amp dedicated circuit` in both
+(`spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp`). The
+XE395-2018 writes `If the your equipment should malfunction` where the XE895-2018 writes `If the
+elliptical should malfunction`; nothing else differs and no figure changes.
+
+**The XG400 had no grounding page in 2019 and gained one in 2021.** The XG400-2019 book's electrical
+chapter ends at the circuit-breaker paragraph, so this paragraph is absent from it; the XG400-2021
+book prints it. The XE195 and XE295 books have no grounding page in either generation.
 
 **The other twelve Spirit commercial bike manuals print no grounding rule at all.** The two other
 mains-powered ENT bikes, CU800ENT-2022 and CR800ENT-2023, ask only for a grounded outlet and never

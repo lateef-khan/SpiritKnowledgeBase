@@ -2,7 +2,7 @@
 id: xe395-2010-programs-preset-setup-asks-incline-on-or-off
 title: Preset setup asks whether you want Incline On or Off, and then for a Max Incline Level
 kind: procedure
-question: How do I turn the automatic incline on or off in a preset program on the Spirit xe395-2010 elliptical?
+question: How do I turn the automatic incline on or off in a preset program on the Spirit XE395 elliptical, 2010 or 2018 printing?
 asked_as:
 - how do i stop the pedals lifting on their own
 - how do i turn the incline off
@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe395-2010
+  model: '*'
   applies_to:
   - xe395-2010
+  - xe395-2018
   section: programs
   code: '*'
 authority: 3
@@ -33,7 +34,7 @@ see_also:
 - spirit-ce-programs-manual-mode
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: printed p. 22
+  locator: 'XE395 2010 printed p. 22; XE395 2018 p. 27'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +57,13 @@ Resistance is adjusted on the console or the **right** swing arm; incline on the
 left swing arm whenever you want to - see `spirit-ce-programs-manual-mode`.
 
 For what the incline then does in each program, see `xe395-2010-programs-incline-profiles`.
+
+**The XE395 2018 printing asks the same two questions and explains neither** (printed page 27). Its
+steps 6 and 7 read only "Now you are asked to adjust the Incline on/off" and "Now you are asked to
+adjust the Max Incline level. This is the peak exertion level you will experience during the
+program." **Everything above about what On and Off actually do, and about the left swing arm, is
+printed in the 2010 manual only.** Do not quote the random-times behaviour or the swing-arm controls
+for a 2018 machine.
+
+The 2018 printing also drops the "press Start to begin" step and the whole-profile paragraph its
+siblings carry - see `spirit-ce-programs-preset-setup-steps`.

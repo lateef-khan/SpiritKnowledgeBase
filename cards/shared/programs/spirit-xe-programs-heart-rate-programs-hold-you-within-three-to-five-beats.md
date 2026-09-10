@@ -23,10 +23,15 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -69,3 +74,11 @@ For the keystrokes, see `spirit-ce-programs-heart-rate-control-operation`.
 program. The XE395 2023 and XE795 2023 have **four** heart rate programs at 55%, 65%, 75% and 85%.
 The XE100, XE200, XE300, XE350 and XE550 also use 60% and 80%, but their manuals print neither the
 3-to-5-beat tolerance nor the chest strap requirement.
+
+**Five earlier XE printings print this same HR 1 = 60% / HR 2 = 80% pairing and the same 3-to-5-beat
+tolerance** - XG400 2019 (printed pages 32-33), XE295 2019 and XE895 2018 (pages 33-34), XE395 2018
+(pages 34-35) and XE795 2018 (pages 35-36). All five print the same nine setup steps and the same
+"you must wear the heart rate transmitter strap for these programs" note.
+
+**The XE195 2019 is the exception**, as its 2021 printing is: one HR key, defaulting to 60%, with no
+HR 2 - see `xe195-2021-programs-single-heart-rate-key-defaults-to-sixty-percent`.

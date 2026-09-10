@@ -24,13 +24,19 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -51,9 +57,15 @@ the same on every machine:
 | Machine | Fields the manual lists |
 |---|---|
 | **XE395-2010** | Avg. Speed, Avg. Watts, Avg. Incline, Laps completed, total Altitude (elevation gain) |
-| **XE195, XE295, XG400, XE795-2021, XE395-2023** | Total time, Avg. Speed, Avg. Watts, Avg. HR, total Laps |
+| **XE195, XE295, XG400 and XE795 (every printing), XE395-2018, XE895-2018, XE395-2023** | Total time, Avg. Speed, Avg. Watts, Avg. HR, total Laps |
 | **XE795-2023** | Total time, Avg. Speed, Avg. Watts, Avg. HR - **no Laps** |
 | **XE395ENT-2021** | Total time, Avg. Speed, Avg. **Power**, Avg. HR, total Laps |
+
+**The 2018 and 2019 printings changed nothing here.** XE395-2018 p. 21, XE795-2018 p. 19,
+XE895-2018 p. 21, XE195-2019 p. 19, XE295-2019 p. 20 and XG400-2019 p. 19 all print the same five
+fields, in the same order, as their 2021 successors. **The XE395 is the machine to watch**: its 2010
+summary reports incline and altitude and its 2018 summary does not, so the ramp fields were gone by
+August 2018 even though the machine still has a powered incline.
 
 **Three things to read off that table.**
 

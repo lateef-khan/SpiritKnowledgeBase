@@ -24,13 +24,19 @@ facets:
   - ce900-2025
   - ces880-2025
   - ct900
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt285-2015
   - xt285-2023
@@ -118,3 +124,10 @@ default; that is a console setting and is not carded here.*
 **The XE100/XE200/XE300 and XE150/XE350/XE550 manuals print an older version of this page** -
 **2 black square** electrodes rather than 2 ribbed oval ones, and on the XE100/XE200/XE300 a POLAR
 logo. That is `spirit-xe-programs-chest-strap-with-black-square-electrodes`, a separate card.
+
+**Six earlier Spirit XE elliptical printings print these same six steps and the same battery
+figures**, headed "Wearing The Chest Strap", with the "2 ribbed oval areas" electrode description,
+"using the **interlocking key**" at step 1, 2500 hours and the Panasonic CR2032: XE195 2019 (printed
+page 28), XG400 2019 (page 30), XE295 2019 (page 31), XE395 2018 and XE895 2018 (page 32) and XE795
+2018 (page 34). **None of the six says the strap is not included** on this page; each says elsewhere,
+on its safety page, that a chest transmitter strap is sold separately.

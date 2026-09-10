@@ -28,9 +28,14 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: warranty
   code: '*'
@@ -63,7 +68,14 @@ source:
     936-955), xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines
     867-885), xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines
     886-904), xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual
-    text.md lines 965-984)'
+    text.md lines 965-984)
+    The same nine items are printed in five earlier XE and XG printings filed under
+    Bikes/bike backup: xe395-2018 pp. 37-38 (spirit-elliptical-xe395-2018-owners-manual
+    text.md lines 1320-1340), xe795-2018 pp. 38-39 (spirit-elliptical-xe795-2018-owners-manual
+    text.md lines 1270-1290), xe895-2018 pp. 36-37 (spirit-elliptical-xe895-2018-owners-manual
+    text.md lines 1362-1382), xe295-2019 pp. 36-37 (spirit-elliptical-xe295-2019-owners-manual
+    text.md lines 1160-1180), xg400-2019 pp. 35-36 (spirit-elliptical-xg400-2019-owners-manual
+    text.md lines 1167-1187)'
   extracted_at: '2026-09-09'
 ---
 
@@ -93,14 +105,16 @@ and the outside-the-US sentence becomes item 10. Their lists therefore run to **
 
 Items 4 and 5 are asked about on their own - a sale, a transfer, a barter or a gift ends the cover, and so does a removed serial number: `xt-2023-warranty-transfer`. Item 9 or 10 and the 48-states note are `xt-2023-warranty-geographic-coverage`.
 
-## Four Spirit XE and XG residential machines print these nine items word for word
+## Nine Spirit XE and XG residential model years print these nine items word for word
 
-The **XE295**, the **XE395ENT**, the **XG400** and the **XE795** - in both its February and its November 2021 printing - print items 1 to 9 exactly as the CE850 2016 manual does. A word-level comparison of the CE850 2016 block against the XE795 February block comes back **identical** but for a hyphenation the conversion left in *MERCHANTABILITY*.
+The **XE295** (2019 and 2021), the **XE395** 2018, the **XE395ENT**, the **XE795** (2018, both 2021 printings and the 2023 book's predecessor), the **XE895** 2018 and the **XG400** (2019 and 2021) print items 1 to 9 exactly as the CE850 2016 manual does - ten manuals in all, spanning August 2018 to November 2021. A word-level comparison of the CE850 2016 block against the XE795 February 2021 block comes back **identical** but for a hyphenation the conversion left in *MERCHANTABILITY*, and the XE395 2018 and XE795 2018 blocks come back **100.0% identical** to that February 2021 block, word for word.
 
-**The XG400 substitutes one noun.** Its item 2 reads *E•Glide Trainer* where the others read *elliptical trainer*, twice. Its cover calls the machine an E•Glide Trainer and not an elliptical, so quote the machine's own word to its owner. Nothing else in its list differs.
+**The XG400 substitutes one noun, in both its printings.** Its item 2 reads *E•Glide Trainer* where the others read *elliptical trainer*, twice, in 2019 as in 2021. Its cover calls the machine an E•Glide Trainer and not an elliptical, so quote the machine's own word to its owner. Nothing else in its list differs.
 
-**None of the four adds a prisons item.** The CE850 2020 and 2022 manuals insert *Prisons and correctional facilities are excluded from warranty coverage* as item 9 and renumber the outside-the-US sentence to 10; these four keep the nine-item CE850 2016 shape, and carry prisons as a **footnote under the table** instead - on three of them (`spirit-2026t-warranty-prisons-excluded`).
+**None of the ten manuals adds a prisons item.** The CE850 2020 and 2022 manuals insert *Prisons and correctional facilities are excluded from warranty coverage* as item 9 and renumber the outside-the-US sentence to 10; these keep the nine-item CE850 2016 shape, and carry prisons as a **footnote under the table** instead - on only three of the ten, the XE295 2021, the XG400 2021 and the November XE795 2021 printing (`spirit-2026t-warranty-prisons-excluded`).
 
-**Three XE manuals are deliberately not on this card.** The **XE195** and the **XE395 2010** replace item 8 with a bare *Product use in any environment other than a residential setting* and read *outside of North America* in the last item, so their envelope is narrower (`spirit-xe-warranty-exclusions-residential-setting-only`). The **XE395 2023** and **XE795 2023** drop the first sentence of item 6, so an unregistered machine is no longer excluded outright (`spirit-xe-2023-warranty-exclusions`). Quoting this list for any of those would state a rule their manual does not.
+**On the five 2018 and 2019 printings prisons is not excluded in writing at all.** The words *prison* and *correctional* appear nowhere in the XE395 2018, XE795 2018, XE895 2018, XE295 2019 or XG400 2019 manual - not in this list, and not as a footnote under the warranty table. The three 2018 books are effective **August 22, 2018** and the two 2019 books **February 04, 2019**, so they bracket the October 2018 date at which the clause enters the Spirit indoor-cycle range without picking it up.
+
+**Four XE manuals are deliberately not on this card.** The **XE195** - in its 2019 printing as in its 2021 one - and the **XE395 2010** replace item 8 with a bare *Product use in any environment other than a residential setting* and read *outside of North America* in the last item, so their envelope is narrower (`spirit-xe-warranty-exclusions-residential-setting-only`). The **XE395 2023** and **XE795 2023** drop the first sentence of item 6, so an unregistered machine is no longer excluded outright (`spirit-xe-2023-warranty-exclusions`). Quoting this list for any of those would state a rule their manual does not.
 
 The XE and XG periods governed by this list are in `spirit-xe-warranty-residential-periods-ten-year-parts` and `spirit-xe795-warranty-light-commercial-periods`.

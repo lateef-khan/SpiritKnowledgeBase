@@ -28,16 +28,22 @@ facets:
   - ce900-2021
   - ce900-2025
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -81,3 +87,13 @@ different ones.
 see `spirit-xe-programs-default-settings-and-per-program-max-levels`.
 
 **The XE150 and the XE395ENT do not print this paragraph.** Both use a different flow.
+
+**Six earlier XE printings print this same paragraph and the same Age and Weight note** - XE795 2018,
+XE195 2019 and XG400 2019 (printed page 21), XE295 2019 (page 22), and XE395 2018 and XE895 2018
+(page 23). All six say you enter a program by pressing a **program key** and then Enter.
+
+**The XE795 2018 and XE895 2018 shorten the calorie note that sits immediately above it** (printed
+page 20 and page 23). Both say calorie readings "are only an estimate and tend to vary widely" and
+stop there. The XE395 2018, XE195 2019, XE295 2019 and XG400 2019 print the longer note the 2021
+manuals print - readings "are **not accurate**", the only accurate measure is a clinical setting, and
+you keep burning calories at an accelerated rate for at least an hour afterwards.

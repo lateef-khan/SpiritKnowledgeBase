@@ -23,6 +23,7 @@ facets:
   model: '*'
   applies_to:
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
   section: programs
   code: '*'
@@ -35,7 +36,7 @@ see_also:
 - xe395-2010-programs-preset-setup-asks-incline-on-or-off
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: XE395 2010 printed p. 19-21; XE395ENT p. 34-38
+  locator: XE395 2010 printed p. 19-21; XE395ENT p. 34-38; XE395 2018 p. 25-27
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +65,12 @@ no segment-by-segment incline values beyond the segment numbers quoted above.
 **No other Spirit elliptical prints incline profiles.** The XE195, XE295, XG400, XE795 and the 2023
 machines print the resistance paragraph only, and no Spirit commercial elliptical manual has an
 incline chapter at all.
+
+**The XE395 2018 printing prints all five Incline paragraphs word for word** (printed pages 25-27),
+including "Segments 4, 9, and 14 are maximum elevation" for Cardio and "The incline alternates
+between 25 & 65 % of maximum elevation" for Interval. It names the program **INTERVAL**, as the 2010
+manual does, not HIIT, and it says "similar to the **resistance** profile".
+
+**The XE895 2018 is the one other Spirit elliptical that prints a second profile per preset**, but
+its second profile is **stride**, not incline, and it is a picture with no paragraph beside it - see
+`xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed`.

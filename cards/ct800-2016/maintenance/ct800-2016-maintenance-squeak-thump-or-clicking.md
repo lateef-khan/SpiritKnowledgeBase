@@ -35,7 +35,9 @@ facets:
   - ce850-2022
   - ct800-2016
   - ct850-2018
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
   section: maintenance
   code: '*'
 authority: 3
@@ -49,6 +51,7 @@ not_to_be_confused_with:
 - spirit-ce900-maintenance-squeak-thump-or-clicking
 - spirit-xe-maintenance-squeak-thump-or-clicking
 see_also:
+- spirit-xe-maintenance-no-sanitizing-section
 - cu900ent-general-maintenance
 - spirit-ct800-maintenance-schedule-tasks
 - ct900-belt-deck-cleaning
@@ -56,7 +59,7 @@ see_also:
 - ct800-2016-assembly-levelling-pads
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36'
+  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,10 +75,11 @@ source:
      **2 leveling pads on the bottom of the rear stabilizer**; use a **14mm wrench** (or adjustable
      wrench) to adjust the levelers.
 
-The **CT850 2018** treadmill manual, **six Spirit commercial elliptical** owner's manuals and both
-2021 printings of the **residential XE795** print this list word for word, including the "one of two
-reasons" miscount and the crank arm nut: the **CE800 2021**, **CE800 2023**, **CE800ENT**,
-**CE850 2016**, **CE850 2020**, **CE850 2022** and the **XE795 2021**. The
+The **CT850 2018** treadmill manual, **six Spirit commercial elliptical** owner's manuals and four
+residential XE printings print this list word for word, including the "one of two reasons" miscount
+and the crank arm nut: the **CE800 2021**, **CE800 2023**, **CE800ENT**, **CE850 2016**,
+**CE850 2020**, **CE850 2022**, the **XE795 2018**, both 2021 printings of the **XE795**, and the
+**XE895 2018**. The
 CE800ENT and CE900 wording swaps the lead-in "I cannot stress this point enough" for "It is
 important to note that" and renumbers the items; the three figures - 90%, 2 pads, 14mm - are
 unchanged.
@@ -109,11 +113,17 @@ If the noise is a belt slipping or hesitating rather than a squeak, that is a te
 ellipticals above** - they have no tread belt and no deck, and their owner's manuals print no belt
 tension figure and no lubrication step of any kind.
 
-## The residential XE795 is the only XE machine on this list
+## The XE795 and the XE895 are the only XE machines on this list
 
-The XE795 2021 February and November printings carry these three items and **no rail cleaning**.
-Every other residential XE manual differs. The 2021 **XE195, XE295, XE395ENT and XG400** print a
-**four**-item list - this one with the rail-cleaning paragraph put back between the hardware and
+The XE795 2018 printing, the XE795 2021 February and November printings and the XE895 2018 manual
+carry these three items and **no rail cleaning**. The XE795 block did not change between 2018 and
+2021 - difflib puts it at 1.000 - and the XE895, whose only owner's manual is the 2018 one, prints
+the identical block. **The XE895 is given no maintenance check of its own**: the same three items,
+the same 2 pads and the same 14mm wrench, and its 2018 manual is the only one it has.
+
+Every other residential XE manual differs. The **XE395 2018**, the **XE195 2019** and **XE295
+2019**, the **XG400 2019**, and the 2021 reprints of the XE195, XE295, XE395ENT and XG400 all print
+a **four**-item list - this one with the rail-cleaning paragraph put back between the hardware and
 the crank arm nut (`spirit-xe-maintenance-squeak-thump-or-clicking`). The **XE100/XE200/XE300**,
 **XE395 2010** and **CE800 2013** give **4** pads under the rear rails and no crank arm nut
 (`ce800-2013-maintenance-squeak-thump-or-clicking`). The **XE150/XE350/XE550** manual prints no

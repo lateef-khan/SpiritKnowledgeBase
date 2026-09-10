@@ -25,8 +25,13 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -36,9 +41,11 @@ see_also:
 - xe795-2021-console-engineering-mode-with-a-da-test
 - spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
 - xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
+- xe395-2018-errors-incline-calibration-three-key-hold
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 32; XE295 p. 36; XG400 p. 35, all under Engineering Mode Menu
+  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36; XE895 2018 p. 35;
+    XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under Engineering Mode Menu
   extracted_at: '2026-09-09'
 ---
 
@@ -66,8 +73,10 @@ displays **Engineering Mode Menu**. Press **Enter** to reach the menu.
 6. **Motor Test** - no description is printed
 7. **Safety** - no description is printed
 
-All three manuals print this word for word. **There is no Exit item and no Factory Settings item**,
-unlike the 2007 and 2010 menus.
+**All eight manuals print this word for word** - the XE395-2018 (p. 36), XE895-2018 (p. 35),
+XE195-2019 (p. 31), XE295-2019 (p. 35), XG400-2019 (p. 34) and the XE195, XE295 and XG400 of 2021.
+The menu did not change between the 2018/2019 printings and their 2021 successors. **There is no Exit
+item and no Factory Settings item**, unlike the 2007 and 2010 menus.
 
 **Two items are named and never explained.** The manuals give **Motor Test** and **Safety** no
 description at all. The XE395-2010 manual, which does explain them, says its Motor Test runs the
@@ -75,6 +84,12 @@ resistance motor up and down showing the level setting and position sensor readi
 Safety is turned on by holding Start and Enter together - but that is a different machine and should
 not be quoted as this one's behaviour.
 
-**The XE795 of the same year has a different list** - **DA Test (tests the brake resistance)** in
-place of Motor Test and Safety, and its Display Mode is worded the opposite way round:
-`xe795-2021-console-engineering-mode-with-a-da-test`.
+**The XE795 has a different list in both its printings** - **DA Test (tests the brake resistance)**
+in place of Motor Test and Safety, and its Display Mode is worded the opposite way round:
+`xe795-2021-console-engineering-mode-with-a-da-test`. **The XE895-2018 sits here rather than with the
+XE795**, despite sharing its console face.
+
+**One of these eight prints an extra paragraph under the menu.** The **XE395-2018** follows the
+Security line with an **Incline Calibration** keystroke - Start, Level up and Stop together for five
+seconds - which none of the other seven has, because none of them has a powered incline. It is
+carded separately as `xe395-2018-errors-incline-calibration-three-key-hold`.

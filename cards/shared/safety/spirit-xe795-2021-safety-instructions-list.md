@@ -1,8 +1,8 @@
 ---
 id: spirit-xe795-2021-safety-instructions-list
-title: The 2021 safety instructions list that omits the unattended-appliance and grounded-outlet bullets
+title: The safety instructions list that omits the unattended-appliance and grounded-outlet bullets
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit XE795 elliptical of the 2021 generation (xe795-2021)?
+question: What does the Important Safety Instructions page say for a Spirit XE795 elliptical (xe795-2018 or xe795-2021)?
 asked_as:
 - what are the safety rules for my xe795
 - safety instructions page of the xe795 manual
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: safety
   code: '*'
@@ -47,15 +48,20 @@ see_also:
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: Important Safety Instructions and Fitness Equipment Safety Instructions,
-    pages 4-5. The February 19 2021 printing prints the same two headings on the same
-    pages
+    pages 4-5. The February 19 2021 printing and the August 22 2018 printing print the
+    same two headings on the same pages
   extracted_at: '2026-09-09'
 ---
 
-**The XE795 list is shorter than the list its 2021 siblings print.** Five bullets that the XE195,
-XE295, XG400 and XE395ENT manuals carry are absent here, and one weight bullet appears in only one
-of the two 2021 printings. Read the list from this card, not from
+**The XE795 list is shorter than the list its siblings print.** Five bullets that the XE195, XE295,
+XG400, XE395 and XE895 manuals carry are absent here, and one weight bullet appears in only one of
+the three XE795 printings. Read the list from this card, not from
 `spirit-xe-2021-safety-instructions-list`.
+
+**Three printings carry this list**: XE795-2018 (August 22 2018), and the February 19 2021 and
+November 30 2021 printings of the XE795-2021. The 2018 printing was filed under `Bikes` and missed
+until now; **its list is the February 2021 list word for word**, down to the same five omissions and
+the same absent weight bullet.
 
 > **WARNING** - When using an electrical appliance, basic precautions should always be followed,
 > including the following: Read all instructions before using this appliance.
@@ -131,16 +137,19 @@ paragraph the other 2021 manuals print: `Be aware that the generator is producin
 the elliptical trainer is being used. Do not service the elliptical trainer while the generator is
 spinning; serious electric shock could occur.` **There is no `NEVER remove any cover without first
 disconnecting AC power` sentence, no ten-percent supply-voltage paragraph, no circuit-breaker
-paragraph and no electrical-storm rule anywhere in either printing** - all four are absences, not
-permissions.
+paragraph, no Grounding Instructions page and no electrical-storm rule anywhere in any of the three
+printings** - all five are absences, not permissions. The 2018 printing keeps the 40 to 120 degrees
+Fahrenheit and 95% non-condensing operating range beside the generator warning, as both 2021
+printings do (`ct900ent-operating-environment-voltage`).
 
-## The two 2021 printings differ by one bullet in this list
+## Only one of the three printings prints a weight limit
 
 **Only the November 30 2021 printing prints `Recommended Weight Limit: 400 lb`.** The February 19
-2021 printing's list ends at the age-13 bullet and prints **no weight figure anywhere**. Both
-printings describe the same machine, `xe795-2021`, and the figure was added rather than changed, so
-400 lb is the machine's limit (`spirit-xe-2021-safety-recommended-weight-limit-400-lb`). Say which printing
-a figure comes from when a customer is reading the February book.
+2021 printing and the **August 22 2018 printing** both end their list at the age-13 bullet and print
+**no weight figure anywhere** (`xt-2015-safety-no-user-weight-limit-printed`). The figure was added
+rather than changed, so 400 lb is the machine's limit
+(`spirit-xe-2021-safety-recommended-weight-limit-400-lb`). Say which printing a figure comes from
+when a customer is reading the 2018 or the February book.
 
 The November printing also adds a cleaning and sanitizing section the February printing does not
 carry (`xe795-2021-maintenance-november-printing-adds-sanitizing`). Nothing else in the safety

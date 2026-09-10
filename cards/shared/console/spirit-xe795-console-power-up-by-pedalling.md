@@ -25,6 +25,7 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   - xe795-2023
   section: console
@@ -56,12 +57,18 @@ The self-test then runs:
 
 **A dark display on a machine nobody is pedalling is normal, not a fault.**
 
-**The two printings and the two generations differ only in one word.** The February 2021 and
-November 2021 printings are identical here. The 2021 manuals say the distance window shows the
-distance **in miles or kilometers**; the 2023 manual says **in miles**.
+**Three printings and two generations differ only in one word.** The **August 2018** printing
+(p. 16), the February 2021 and the November 2021 printings are identical here. The 2018 and 2021
+manuals say the distance window shows the distance **in miles or kilometers**; the 2023 manual says
+**in miles**. **The generator is not a 2021 change** - the XE795 has powered itself this way since at
+least August 2018.
 
-**No other residential XE elliptical works this way.** The XE100 to XE550 run from an external power
-supply, the XE195, XE295, XG400, XE395-2010, XE395-2023 and XE395ENT from a power cord. Do not tell
+**No other residential XE elliptical works this way, and the XE895 is the one that catches people
+out.** The XE895-2018 shares the XE795's console face call-out for call-out, but it **runs from the
+power cord** and its manual prints the ordinary cord power-up paragraph:
+`spirit-xe-console-power-up-self-test-with-the-totals-in-the-data-windows`. The XE100 to XE550 run
+from an external power supply, and the XE195, XE295, XG400, XE395-2010, XE395-2018, XE395-2023 and
+XE395ENT from a power cord. Do not tell
 one of those owners to pedal to wake the console.
 
 **On the XE795-2023 the generator also limits USB charging** - it needs 40 RPM or more; see

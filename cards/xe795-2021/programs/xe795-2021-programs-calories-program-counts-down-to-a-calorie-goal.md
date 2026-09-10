@@ -2,7 +2,7 @@
 id: xe795-2021-programs-calories-program-counts-down-to-a-calorie-goal
 title: The Calories program counts down to a calorie target you set and works out the workout time for you
 kind: procedure
-question: How do I use the Calories program on the Spirit xe795-2021 elliptical?
+question: How do I use the Calories program on a Spirit XE795 elliptical, 2018 or 2021 printing?
 asked_as:
 - how do i set a calorie goal on my elliptical
 - what happens if the time runs out before the calories
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: programs
   code: '*'
@@ -36,7 +37,7 @@ see_also:
 - spirit-xe-2023-programs-target-time-distance-and-calories
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: printed p. 23
+  locator: 'XE795 2021 printed p. 23; XE795 2018 p. 23'
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +72,8 @@ step 3 of the Fusion program in the same manual prints **150 lbs**. Both are pri
 speed and a top incline and warms up at 1, 2 and 3 mph - see
 `xt-2015-programs-calorie-program-setup-xt485-xt685`. **The XE395 2023 and XE795 2023 replaced this
 with a Target Calories program** that simply counts a calorie total down, with none of the above.
+
+**The XE795 2018 printing (printed page 23) prints these seven steps and every figure above** - age
+35, body weight 100, calorie burn 300, average pedal RPM 50, top resistance Level 5, the 3:00 warm up
+at Levels 1, 2 and 3 and the 3:00 cool down at Levels 3, 2 and 1. It carries the same body-weight
+contradiction with its own Fusion page, which prints 150 lbs.

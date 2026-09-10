@@ -36,6 +36,7 @@ not_to_be_confused_with:
 - ce800ent-assembly-tools-included
 - spirit-ce900-assembly-tools-included
 see_also:
+- xe895-2018-assembly-tools-included
 - spirit-ce850-assembly-procedure
 - ce850-2016-assembly-procedure
 - spirit-ce850-assembly-hardware-kit
@@ -85,6 +86,12 @@ Wrench" with no size in all three parts lists. It is the one step zero calls for
 The noise item in all three manuals says to adjust the two levelling pads with a
 **14mm wrench**. Both open-end wrenches above have a 14mm end. See
 [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+**One other Spirit elliptical carton is this one.** The residential **XE895 2018**
+lists the same four tools in the same order, and builds the same machine in the same
+five stages - but its step two does the rod-end job with wrenches **194 and 195**, both
+in the box, where this one calls for 200 and 201, which are not. See
+[the XE895 tools card](../../xe895-2018/assembly/xe895-2018-assembly-tools-included.md).
 
 **No other Spirit elliptical carton is this one.** The CE800 carton holds six tools,
 the CE800ENT five, the CE900 five and the CES880 four, and no two lists overlap

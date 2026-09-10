@@ -31,9 +31,11 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- xe895-2018-assembly-procedure
 - ce850-2016-assembly-procedure
 - spirit-ce800-assembly-procedure
 see_also:
+- xe895-2018-assembly-procedure
 - spirit-ce850-assembly-hardware-kit
 - spirit-ce850-assembly-tools-included
 - spirit-ce850-assembly-parts-included

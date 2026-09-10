@@ -31,13 +31,19 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -89,3 +95,12 @@ The XE395 2010 and XE395ENT add a pedal **Incline** paragraph saying the incline
 
 **The two oldest XE consoles describe Interval in wording that a Spirit treadmill card already
 holds** - see `40t-2026-programs-interval`.
+
+**Six earlier XE printings print this same Interval description, word for word** - XE195 2019
+(printed page 24), XG400 2019 (page 24), XE295 2019 (page 25), XE395 2018 (page 26), XE895 2018
+(page 28) and XE795 2018 (page 29).
+
+**Two of the six print a second profile beside it.** The XE395 2018 adds an **Incline:** paragraph to
+every preset - see `xe395-2010-programs-incline-profiles`. The XE895 2018 prints a **Stride Profile**
+chart beside every Work Profile but describes none of them in words - see
+`xe895-2018-specs-powered-stride-set-per-segment-with-no-length-printed`.

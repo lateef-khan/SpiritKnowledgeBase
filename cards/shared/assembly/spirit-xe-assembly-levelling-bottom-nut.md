@@ -24,7 +24,9 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
   - xe395-2010
   section: assembly
@@ -37,6 +39,7 @@ not_to_be_confused_with:
 - ct800-2016-assembly-levelling-pads
 - spirit-ce900-assembly-levelling-pads
 see_also:
+- ct800-2016-assembly-levelling-pads
 - spirit-xe-assembly-levelling-top-nut
 - xg400-2021-assembly-levelling-six-levellers
 - xe795-2023-assembly-levelling-m14-wrench
@@ -46,7 +49,10 @@ source:
   ref: spirit-elliptical-xe295-2021-owners-manual
   locator: p. 16, XE295 STEP FOUR job 5; the same words at p. 16 of the XE195 manual
     (`spirit-elliptical-xe195-2021-owners-manual`, STEP FOUR job 5) and p. 12 of the
-    XE395 2010 manual (`spirit-elliptical-xe395-2010-owners-manual`, step 4 job 8)
+    XE395 2010 manual (`spirit-elliptical-xe395-2010-owners-manual`, step 4 job 8);
+    and again at p. 16 of the XE195 2019 and XE295 2019 manuals
+    (`spirit-elliptical-xe195-2019-owners-manual`,
+    `spirit-elliptical-xe295-2019-owners-manual`), STEP FOUR job 5 in both
   extracted_at: '2026-09-09'
 ---
 
@@ -57,15 +63,31 @@ elliptical.** If any of them is not in contact with the floor:
 2. **Turn the rubber foot clockwise** until it makes solid contact with the floor.
 3. Retighten the bottom nut so it cannot move.
 
-It is the last job of the last assembly step on all three machines, not a maintenance
+It is the last job of the last assembly step on all five machines, not a maintenance
 item.
+
+## The 2019 printings say it word for word
+
+The XE195 2019 and XE295 2019 manuals print this job unchanged - four levellers,
+bottom nut, rubber caster clockwise - in the same place, job 5 of step four. **Nothing
+about levelling changed between the 2019 and the 2021 printing of either machine.**
 
 ## The bottom nut, not the top nut
 
-The **XE395ENT 2021** and the **XE395 2023** print this job word for word with one
-change: **top** nut, loosened and retightened. Same four levellers, same clockwise
+The **XE395 2018**, the **XE395ENT 2021** and the **XE395 2023** print this job word
+for word with one change: **top** nut, loosened and retightened. Same four levellers, same clockwise
 turn, opposite nut. Do not carry either instruction across; see
 [the top-nut card](spirit-xe-assembly-levelling-top-nut.md).
+
+## A second, different levelling instruction is printed later in the same book
+
+Every manual on this card also carries, in its GENERAL MAINTENANCE noise item, the
+sentence **"There are 2 leveling pads on the bottom of the rear stabilizer, use a
+14mm wrench (or adjustable wrench) to adjust the levelers."** Two pads and a 14mm
+wrench there; four levellers and a carton wrench here. The two halves never mention
+each other. See
+[the 14mm levelling-pad card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+The XE395 2010 prints **4** pads on the **rear rails** in that sentence instead.
 
 ## Four in the instruction and six in the box
 

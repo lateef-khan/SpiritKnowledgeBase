@@ -2,7 +2,7 @@
 id: spirit-xe-safety-outlet-115-volt-15-amp
 title: The outlet is 115 volt, 15 amp on a dedicated 15 amp breaker, and the grounding page says 110
 kind: policy
-question: What outlet and circuit does a Spirit XE195, XE295, XE395ENT or XG400 machine of the 2021 generation need?
+question: What outlet and circuit does a Spirit XE195, XE295, XE395 or XG400 elliptical need (xe195-2019, xe195-2021, xe295-2019, xe295-2021, xe395-2018, xe395ent-2021, xg400-2019 or xg400-2021)?
 asked_as:
 - what outlet does the xe295 need
 - how many amps does the elliptical draw
@@ -25,9 +25,13 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2019
   - xe195-2021
+  - xe295-2019
   - xe295-2021
+  - xe395-2018
   - xe395ent-2021
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -54,18 +58,23 @@ source:
     on page 7. The XE195 manual prints both on pages 5 and 7, the XG400 manual on pages
     5 and 6-7, and the XE395ENT manual on pages 6 and 8. The nominal 110-volt/15 amp
     sentence is on the Grounding Instructions page of the XG400 manual, page 7, and of
-    the XE395ENT manual, page 8
+    the XE395ENT manual, page 8. The XE395-2018, XE195-2019, XE295-2019 and XG400-2019
+    printings print the WARNING on their page 5 and the circuit-breaker paragraph on
+    their page 7; the XE395-2018 grounding page, carrying the nominal 110-volt/15 amp
+    sentence, is its page 7
   extracted_at: '2026-09-09'
 ---
 
 **115 volt, 15 amp, grounded, nothing else on the circuit, and a dedicated 15 amp breaker.** All
-four manuals print the same WARNING at the head of their safety instructions:
+**eight** manuals print the same WARNING at the head of their safety instructions - the four 2021
+books (XE195, XE295, XG400, XE395ENT) and four earlier printings filed under `Bikes` and missed
+until now: **XE395-2018, XE195-2019, XE295-2019 and XG400-2019**.
 
 > WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
 > elliptical on a flat level surface with access to a 115-volt, 15-amp grounded outlet with only the
 > elliptical plugged into the circuit.
 
-and all four close their circuit-breaker paragraph with the breaker rating:
+and all eight close their circuit-breaker paragraph with the breaker rating:
 
 > The electrical outlet used should have a dedicated 15 amp circuit breaker.
 
@@ -78,12 +87,21 @@ and all four close their circuit-breaker paragraph with the breaker rating:
 | Breaker | dedicated 15 amp |
 | Surface | flat and level |
 
-**The XG400 manual prints `E-Glide` where the other three print `elliptical`.** Its cover reads
+**The XG400 manuals print `E-Glide` where the others print `elliptical`.** The 2019 cover reads
 `XG400 E-Glide Trainer`; the requirement is the same.
+
+## The XE395's figure changed at the 2018 printing
+
+**The XE395-2010 manual asks for 110 volt** (`spirit-xe-safety-outlet-110-volt-15-amp`); the
+**XE395-2018 and XE395ENT-2021 manuals ask for 115 volt.** The 2018 printing is where the change
+happened, and it is a real change rather than a reprint of the same sentence. Ask which book an
+XE395 owner is holding before quoting a figure - and note that the XE895-2018, printed the same day
+as the XE395-2018, still asks for **110 volt**.
 
 ## The same manuals say 110 volt two pages later
 
-**The XE395ENT and XG400 grounding pages name a different nominal voltage for the same circuit:**
+**The XE395-2018, XE395ENT-2021 and XG400-2021 grounding pages name a different nominal voltage for
+the same circuit:**
 
 > This product is for use on a nominal 110-volt/15 amp dedicated circuit, and has a grounding plug
 > that looks like the plug illustrated below.
@@ -94,11 +112,17 @@ Quote both sentences to a customer rather than picking one - a nominal 110-volt 
 115-volt circuit are the same domestic supply described two ways, and neither manual says which
 figure it means.
 
-**The XE195 and XE295 manuals have no grounding page at all**, so 115 volt is their only statement.
-Neither prints the `nominal 110-volt/15 amp` sentence, and neither prints the `This product must be
-grounded` paragraph or the temporary-adapter rule (`spirit-product-must-be-grounded`,
-`spirit-temporary-adapter-for-a-two-pole-receptacle`). Their only grounding sentence is the safety
-list bullet `Connect this appliance to a properly grounded outlet only`.
+**Five of the eight have no grounding page at all**, so 115 volt is their only statement: the XE195
+and XE295 books of both generations, **and the XG400-2019**. None of them prints the `nominal
+110-volt/15 amp` sentence, the `This product must be grounded` paragraph or the temporary-adapter
+rule (`spirit-product-must-be-grounded`, `spirit-temporary-adapter-for-a-two-pole-receptacle`).
+Their only grounding sentence is the safety list bullet `Connect this appliance to a properly
+grounded outlet only`.
+
+**The XG400 gained its grounding page between the 2019 and 2021 printings.** The XG400-2019 book's
+electrical chapter ends at the circuit-breaker paragraph on page 7 - rendered at 300 dpi to confirm
+the page is not a flattened image - while the XG400-2021 book carries a full grounding page. So the
+110-volt sentence exists for an XG400 owner only if they hold the 2021 book.
 
 **No manual prints a NEMA type and none prints a frequency.**
 
@@ -119,7 +143,8 @@ volt at 15 amp is printed by no Spirit treadmill manual in this repository.**
 | Machine | Outlet requirement |
 |---|---|
 | **XE195, XE295, XG400, XE395ENT (2021)** | **115 volt, 15 amp, dedicated 15 amp breaker** |
-| XE395-2010, XE795-2021 | 110 volt, 15 amp, no breaker rating (`spirit-xe-safety-outlet-110-volt-15-amp`) |
+| **XE395-2018, XE195-2019, XE295-2019, XG400-2019** | **115 volt, 15 amp, dedicated 15 amp breaker** |
+| XE395-2010, XE795-2018, XE795-2021, XE895-2018 | 110 volt, 15 amp (`spirit-xe-safety-outlet-110-volt-15-amp`) |
 | XE100, XE200, XE300, XE150, XE350, XE550, XE395-2023, XE795-2023 | none printed (`spirit-xe-safety-no-outlet-figure-printed`) |
 
 A house breaker that trips while the machine's own does not is a different problem with a different

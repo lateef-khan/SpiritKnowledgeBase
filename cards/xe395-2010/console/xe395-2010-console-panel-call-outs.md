@@ -35,6 +35,7 @@ see_also:
 - xe395-2010-console-message-center-scan-shows-altitude
 - xe395-2010-console-heart-rate-bar-graph-in-gold-green-and-red
 - xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
+- spirit-xe395-console-muscle-figure-bands-by-incline-level
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: p. 15, GETTING FAMILIAR WITH THE CONTROL PANEL / XE395 CONSOLE

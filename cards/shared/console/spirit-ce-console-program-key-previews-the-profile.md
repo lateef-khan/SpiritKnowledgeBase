@@ -40,14 +40,20 @@ facets:
   - cu900-2018
   - cu900-2025
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe550-2005
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: console
   code: '*'
@@ -79,9 +85,12 @@ want and then Enter.
 The CE800ENT touchscreen has no program key; its programs are tiles behind the **Exercise Programs**
 button on the Home screen.
 
-**Eleven residential Spirit XE ellipticals print the same paragraph**, all with **one key per
-program**: the XE100, XE200 and XE300 (2007), the XE350 and XE550 (2005), the XE395-2010, and the
-XE195, XE295, XG400 and XE795 of 2021. The XE395-2010 and the 2021 machines add nothing to it.
+**Seventeen residential Spirit XE elliptical printings print the same paragraph**, all with **one
+key per program**: the XE100, XE200 and XE300 (2007), the XE350 and XE550 (2005), the XE395-2010,
+the XE195, XE295, XG400 and XE795 of 2021, and the six 2018-2019 printings - the XE395-2018 (p. 21),
+XE795-2018 (p. 20), XE895-2018 (p. 22), XE195-2019 (p. 19), XE295-2019 (p. 20) and XG400-2019
+(p. 19). None of them adds anything to it, and the paragraph did not change between the 2018/2019
+printings and their 2021 successors.
 
 **Three residential machines are deliberately left out.** The **XE150** has no program keys at all -
 it selects a program by highlighting an icon with Up/Down and pressing **Mode**

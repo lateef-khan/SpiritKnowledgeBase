@@ -2,7 +2,7 @@
 id: xe795-2021-programs-seven-presets-including-calories-and-fusion
 title: Seven preset profiles, adding Calories and Fusion to the usual five, on a console the callout says has ten programs
 kind: fact
-question: How many programs does the Spirit xe795-2021 elliptical have and what are they?
+question: How many programs does a Spirit XE795 elliptical have, in the 2018 or the 2021 printing, and what are they?
 asked_as:
 - how many programs does my elliptical have
 - what is the fusion program on the xe795
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: programs
   code: '*'
@@ -38,7 +39,7 @@ see_also:
 - spirit-xe-programs-fusion-alternates-cardio-intervals-with-dumbbell-work
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: printed p. 28-30; feature callout p. 16
+  locator: 'XE795 2021 printed p. 28-30, feature callout p. 16; XE795 2018 p. 28-30, feature callout p. 15'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +68,9 @@ The extra two:
 have word-for-word identical program chapters, 4,395 words each; the November printing's only
 addition to the book is a cleaning and sanitizing section, which the February printing does not
 carry.
+
+**The XE795 2018 printing says all of this, word for word** (preset page printed pages 28-30, feature
+callout page 15). It carries the same self-contradicting opening - "has **seven** different programs
+... These **five** programs have factory preset work level profiles" - the same "Ten innovative
+programs" callout over a key row of twelve, and the same Calories description copied from Fat Burn.
+The XE795 is the only Spirit residential elliptical of either year with these two extra presets.

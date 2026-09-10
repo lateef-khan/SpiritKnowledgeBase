@@ -2,7 +2,7 @@
 id: xe795-2021-console-engineering-mode-with-a-da-test
 title: The engineering menu whose Functions list ends with a DA Test that tests the brake resistance
 kind: procedure
-question: How do I get into engineering mode on a Spirit xe795-2021 elliptical and what is in it?
+question: How do I get into engineering mode on a Spirit XE795 elliptical and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i test the brake on my elliptical
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: console
   code: '*'
@@ -36,7 +37,8 @@ see_also:
 - spirit-xe795-console-power-up-by-pedalling
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: p. 38, Engineering Mode Menu (the February 19 2021 printing prints the same list on its p. 37)
+  locator: p. 38, Engineering Mode Menu (the February 19 2021 printing prints the same list on its
+    p. 37; the August 22 2018 printing prints it on its p. 37)
   extracted_at: '2026-09-09'
 ---
 
@@ -60,12 +62,14 @@ displays **Engineering Mode Menu**. Press **Enter** to reach the menu.
 5. **Beep** - turns off the speaker so no beeping sound is heard
 6. **DA Test** - **tests the brake resistance**
 
-**Both 2021 printings are identical here.** The February 19 and November 30 2021 manuals print the
-same six Functions items in the same order.
+**All three printings are identical here.** The **August 22 2018** manual (p. 37) and the February 19
+and November 30 2021 manuals print the same six Functions items in the same order, including the
+"turn on" wording of Display Mode. **The DA Test is not a 2021 addition.**
 
-**Two differences from the XE195, XE295 and XG400 menu of the same year.** Those three end Functions
+**Two differences from the XE195, XE295, XG400, XE395-2018 and XE895-2018 menu.** Those five end Functions
 with **Motor Test** and **Safety**; this one ends with **DA Test** and has neither. And their Display
-Mode says **turn off** to power down after 20 minutes where this one says **turn on**. The two
+Mode says **turn off** to power down after 20 minutes where this one says **turn on**. **The
+XE895-2018 is in the first group, not this one**, even though its console face matches the XE795's. The two
 readings are opposites and **no manual resolves which is right**; see
 `spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item`.
 

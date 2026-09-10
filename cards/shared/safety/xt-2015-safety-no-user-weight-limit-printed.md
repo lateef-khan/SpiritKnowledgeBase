@@ -2,7 +2,7 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012 upright bike, or of a Spirit XE100, XE150, XE200, XE300, XE350, XE550, XE395-2010 or XE395ENT residential elliptical?
+question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012 upright bike, or of a Spirit XE100, XE150, XE195-2019, XE200, XE295-2019, XE300, XE350, XE395-2010, XE395-2018, XE395ENT, XE550, XE795-2018, XE895-2018 or XG400-2019 residential elliptical?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -28,12 +28,18 @@ facets:
   - cu800-2012
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe200-2007
+  - xe295-2019
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
+  - xe895-2018
+  - xg400-2019
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -71,10 +77,33 @@ source:
   extracted_at: '2026-09-09'
 ---
 
-**These four manuals state no user weight limit anywhere.** The safety instructions page has no
+**None of these manuals states a user weight limit anywhere.** The safety instructions page has no
 weight item, and the manuals carry no specification table. Every occurrence of the word *weight*
 in them is about the body weight you key into the console for the calorie count (default 150
 lbs.), not a capacity of the machine.
+
+## The six ellipticals filed under `Bikes` print no limit either
+
+**XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 print no weight item on
+their safety instructions page and carry no specification table.** Their pages 4-5 were read both
+from the text layer and from a 300 dpi render, and neither shows a weight bullet; every occurrence
+of the word *weight* in all six is the body weight keyed into the console for the calorie count.
+
+**The figure was added at the next printing, not changed.** The same machines' 2021 books do print
+one:
+
+| Machine | 2018/2019 printing | 2021 printing |
+|---|---|---|
+| XE195 | none | `Recommended Weight Limit: 350 lb` (`xe195-2021-safety-user-weight-limit-350-lb`) |
+| XE295 | none | `400 lb` (`spirit-xe-2021-safety-recommended-weight-limit-400-lb`) |
+| XG400 | none | `400 lb` (`spirit-xe-2021-safety-recommended-weight-limit-400-lb`) |
+| XE795 | none | `400 lb`, **November printing only** - the February 2021 printing prints none |
+| XE395 | none (2018) | none (XE395ENT-2021) |
+| XE895 | none | no later printing exists in this repository |
+
+So an owner reading a 2018 or 2019 book will find no limit in it, while the same machine's 2021 book
+states one. **Do not tell them their machine has no limit** - tell them their book does not print
+one, and give the later printing's figure only if you say which book it comes from.
 
 **That is an absence, not a figure of "unlimited".** Say the manual does not state one, and get
 the capacity from the model's spec sheet or from Spirit rather than from these manuals.

@@ -38,6 +38,7 @@ facets:
   - cu800-2021
   - cu900-2018
   - cu900-2025
+  - xe795-2018
   - xe795-2021
   section: safety
   code: '*'
@@ -151,6 +152,12 @@ manual writes `AC power`; the other seven write `A.C. power`. Nothing else diffe
   flywheel and wait for it to come to rest.
 - **A coasting flywheel is still generating.** Ending the workout or walking away does not end the
   hazard.
+
+**The XE795-2018 printing carries the same warning as the two 2021 printings.** Its Important
+Electrical Instructions page is the generator warning and nothing else - no cover-removal sentence,
+no ten-percent supply-voltage paragraph, no circuit-breaker paragraph and no grounding page
+(`spirit-xe795-2021-safety-instructions-list`). The XE795 has been a self-powered machine since at
+least August 2018.
 
 **The five ENT bikes are the opposite case and print no such warning.** CR900ENT-2021, CU900ENT,
 CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 all plug into a wall socket, have no generator, and

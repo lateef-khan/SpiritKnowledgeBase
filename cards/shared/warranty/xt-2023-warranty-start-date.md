@@ -66,17 +66,23 @@ facets:
   - jb950-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xic600-2018
   - xic600-2021
@@ -142,7 +148,14 @@ source:
     spirit-elliptical-xg400-2021-owners-manual p. 36 (lines 865-869),
     spirit-elliptical-xe795-2021-november-owners-manual p. 39 (lines 942-946),
     spirit-elliptical-xe395-2023-owners-manual Warranty section (lines 1443-1448),
-    spirit-elliptical-xe795-2023-owners-manual Warranty section (lines 1319-1324) All eight
+    spirit-elliptical-xe795-2023-owners-manual Warranty section (lines 1319-1324), and in the
+    six printings filed under Bikes/bike backup:
+    spirit-elliptical-xe395-2018-owners-manual p. 37 (lines 1300-1305),
+    spirit-elliptical-xe795-2018-owners-manual p. 38 (lines 1250-1255),
+    spirit-elliptical-xe895-2018-owners-manual p. 36 (lines 1342-1347),
+    spirit-elliptical-xe195-2019-owners-manual p. 32 (lines 1037-1042),
+    spirit-elliptical-xe295-2019-owners-manual p. 36 (lines 1138-1143),
+    spirit-elliptical-xg400-2019-owners-manual p. 35 (lines 1146-1151). All eight
     Spirit indoor cycle and air bike manuals open with the same sentence:
     spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 400-401),
     spirit-bike-xic600-2018-owners-manual p. 26 (text.md lines 862-863),
@@ -209,15 +222,18 @@ The rest of that opening paragraph sets out what Spirit Fitness owes: **new or r
 
 **Labor has its own clock**, stated separately in the SERVICE paragraph two pages later and dated from the bill of sale or the serial number. Do not answer a labor question from this paragraph - see `xt-2023-warranty-labor-period`.
 
-## The eleven Spirit XE and XG residential manuals open with it too, and two of them add a clause that changes the answer
+## The seventeen Spirit XE and XG residential manuals open with it too, and two of them add a clause that changes the answer
 
-**The clock is the same in nine of the eleven**: the date of retail sale as determined by sale receipt, or eighteen (18) months from the original factory shipping date in the absence of a receipt.
+**The clock is the same in fifteen of the seventeen**: the date of retail sale as determined by sale receipt, or eighteen (18) months from the original factory shipping date in the absence of a receipt.
 
 | Manual | Opening clause | Effective date |
 |---|---|---|
 | XE150/XE350/XE550 2005 | **Spirit Manufacturing Inc.** warrants all its elliptical parts **for a period of 2 years** | October 15, 2005 |
 | XE100/XE200/XE300 2007 | Spirit Manufacturing Inc. warrants all its elliptical parts | October 15, 2007 |
 | XE395 2010 | **Spirit Fitness Inc.** warrants all its elliptical parts | September 15, 2010 |
+| XE395 2018, XE795 2018, XE895 2018 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its **elliptical trainer** parts | August 22, 2018 |
+| XE195 2019, XE295 2019 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts | February 04, 2019 |
+| XG400 2019 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its **E•Glide Trainer** parts | February 04, 2019 |
 | XE795 2021, February | Spirit Fitness, Inc. (Spirit Fitness) warrants all its **elliptical trainer** parts | February 19, 2021 |
 | XE395ENT 2021 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts | February 25, 2021 |
 | XE195, XE295, XG400, XE795 2021 November | Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts | November 30, 2021 |
@@ -228,11 +244,13 @@ The rest of that opening paragraph sets out what Spirit Fitness owes: **new or r
 
 **The 2005 book goes further still.** It omits "in the absence of a sales receipt" altogether - "for a period of 2 years from the date of retail sale, as determined by sale receipt, **or** eighteen (18) months from the original factory shipping date, whichever comes first" - so the eighteen-month limb is unconditional there. It is also the only Spirit manual in this knowledge base that states a **base** period in this sentence rather than pointing at the table below it; the two do not agree, and `spirit-xe-2005-warranty-two-year-base-period` sets out the contradiction.
 
-**The XG400 sentence names a different machine.** It warrants all its **E•Glide Trainer** parts, and its table is headed *E•Glide Trainer Warranty*. The clock is unchanged.
+**The XG400 sentence names a different machine, in both its printings.** It warrants all its **E•Glide Trainer** parts, and its table is headed *E•Glide Trainer Warranty*, in 2019 as in 2021. The clock is unchanged.
 
-The rest of the paragraph is the familiar one on all eleven - new or remanufactured parts at Spirit's option, technical support to independent dealers and servicing organisations, and the warranty administered **directly to a consumer** where there is no dealer. **None of the eleven says "to a facility."**
+**The August 22, 2018 printings open with the wording the 2021 books use, three years early.** The XE395, XE795 and XE895 manuals of that date carry the *Spirit Fitness, Inc. (Spirit Fitness) warrants all its elliptical trainer parts* form word for word, so the sentence changed in 2018 and not in 2021. Word-level comparison of the whole opening paragraph against the XE795 February 2021 one comes back **97.8%**, the residual being the effective date itself.
 
-**What follows the sentence is six different tables.** Seven machines share Frame Lifetime, Brake Lifetime, Parts 10 Years and Labor 1 Year (`spirit-xe-warranty-residential-periods-ten-year-parts`); the XE195 reads Parts 5 Years (`xe195-2021-warranty-residential-periods-five-year-parts`); the XE795 adds a Light Commercial row (`spirit-xe795-warranty-light-commercial-periods`); and the 2005 and 2007 books print neither shape (`spirit-xe-2005-warranty-two-year-base-period`, `spirit-xe-2007-warranty-periods-five-year-components`, `xe300-2007-warranty-periods-ten-year-components`).
+The rest of the paragraph is the familiar one on all seventeen - new or remanufactured parts at Spirit's option, technical support to independent dealers and servicing organisations, and the warranty administered **directly to a consumer** where there is no dealer. **None of the seventeen says "to a facility."**
+
+**What follows the sentence is six different tables.** Twelve model years share Frame Lifetime, Brake Lifetime, Parts 10 Years and Labor 1 Year (`spirit-xe-warranty-residential-periods-ten-year-parts`); the XE195 reads Parts 5 Years in both its printings (`xe195-2021-warranty-residential-periods-five-year-parts`); the XE795 and the XE895 add a Light Commercial row (`spirit-xe795-warranty-light-commercial-periods`); and the 2005 and 2007 books print neither shape (`spirit-xe-2005-warranty-two-year-base-period`, `spirit-xe-2007-warranty-periods-five-year-components`, `xe300-2007-warranty-periods-ten-year-components`).
 
 ## All thirteen Spirit commercial bike manuals open with the same clock
 

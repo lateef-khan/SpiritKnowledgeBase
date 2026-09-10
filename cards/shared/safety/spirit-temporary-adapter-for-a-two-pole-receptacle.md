@@ -34,7 +34,9 @@ facets:
   - ct850ent-2022
   - cvc800
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xe895-2018
   - xg400-2021
   - xt185-2015
   - xt185-2023
@@ -195,6 +197,11 @@ can be installed by a qualified electrician**; the green rigid ear-lug must be c
 permanent ground such as a properly grounded outlet box cover; and whenever the adapter is used it
 must be held in place by a metal screw.
 
-**The other eleven residential XE manuals have no grounding page and no adapter rule**
+**The XE395-2018 and XE895-2018 owner's manuals print it word for word too**, on their pages 7 and 6
+respectively, with the same Grounded Outlet Adapter, Metal Screw, Grounding Pin and Grounded Outlet
+Box callouts on the drawing beside it. Five residential XE manuals carry the rule in total.
+
+**The other fifteen residential XE manuals have no grounding page and no adapter rule**
 (`spirit-product-must-be-grounded`). Do not offer an adapter to an XE195, XE295, XE795 or 2023 owner
-from this card - their manuals do not mention one.
+from this card - their manuals do not mention one, in either generation. **The XG400-2019 does not
+mention one either**, although the XG400-2021 does: the page was added between the two printings.

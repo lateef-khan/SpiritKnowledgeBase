@@ -45,13 +45,17 @@ facets:
   - xe100-2007
   - xe150-2005
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395-2023
   - xe395ent-2021
   - xe550-2005
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt185-2015
   - xt185-2023
@@ -217,6 +221,13 @@ procedure in any of them.
   (`spirit-ce-safety-generator-produces-ac-power`). On a generator-powered machine the equivalent
   rule is not to service it while the generator is spinning, because disconnecting a supply is not
   possible - there is none.
+
+**Four earlier residential XE printings print the same sentence**: XE395-2018, XE895-2018,
+XE295-2019 and XG400-2019, each at the head of its Important Electrical Instructions. **The
+XE195-2019 is the exception and says `DC` instead**, exactly as the XE195-2021 does - it is the
+machine's wording across both its printings, not a one-off misprint
+(`xe195-2021-safety-remove-a-cover-only-with-dc-disconnected`). **No XE795 printing carries the
+sentence at all**, in 2018 or 2021.
 
 **The three mains-powered Spirit commercial bikes print the same rule**, opening their electrical
 page: `NEVER remove any cover without first disconnecting AC power.` CU800ENT-2022, CR800ENT-2023 and

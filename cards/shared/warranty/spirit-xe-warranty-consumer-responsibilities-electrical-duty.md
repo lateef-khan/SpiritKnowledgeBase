@@ -27,6 +27,7 @@ facets:
   applies_to:
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
   - xe300-2007
@@ -51,7 +52,8 @@ source:
     The same seven items with a different noun are in spirit-elliptical-xe195-2021-owners-manual
     p. 33 (lines 737-748); a six-item version is in spirit-elliptical-xe100-xe200-xe300-owners-manual
     p. 44 (lines 1655-1666) and spirit-elliptical-xe150-xe350-xe550-owners-manual p.
-    34 (lines 1114-1125)'
+    34 (lines 1114-1125). The XE195 seven-item list is printed unchanged in the earlier
+    printing, spirit-elliptical-xe195-2019-owners-manual p. 32 (text.md lines 1046-1057)'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,27 +67,27 @@ source:
 6. Damages to the elliptical finish during shipping, installation or following installation.
 7. Routine maintenance of this unit as specified in this manual.
 
-## Item 4 is what sets these eight machines apart
+## Item 4 is what sets these machines apart
 
-**Blown fuses, loose connections and defects in house wiring are the owner's, not a warranty repair.** No Spirit XE or XG manual from 2021 onwards carries this duty except the XE195 - the XE295, XE395ENT, XG400, XE795 and the two 2023 books drop it entirely. Do not quote it to the owner of one of those; their manuals do not impose it.
+**Blown fuses, loose connections and defects in house wiring are the owner's, not a warranty repair.** No Spirit XE or XG manual after the 2010 XE395 carries this duty except the XE195 - and the XE195 carries it in **both** its printings, 2019 and 2021. The XE395 2018, XE795 2018, XE895 2018, XE295 (2019 and 2021), XG400 (2019 and 2021), XE395ENT and the two 2023 books drop it entirely and print six items instead of seven (`spirit-ce850-warranty-consumer-responsibilities`). Do not quote it to the owner of one of those; their manuals do not impose it.
 
 ## Two lengths of list
 
 | Manual | Items | What differs |
 |---|---|---|
 | XE150/XE350/XE550 2005, XE100/XE200/XE300 2007 | **6** | no routine-maintenance item; **installation must be "by an authorized Spirit service company"** |
-| XE395 2010, XE195 2021 | **7** | routine maintenance added as item 7; the installer requirement dropped from item 3 |
+| XE395 2010, XE195 2019, XE195 2021 | **7** | routine maintenance added as item 7; the installer requirement dropped from item 3 |
 
-The 2005 and 2007 books are word for word identical to each other. The 2010 and 2021 lists are word for word identical to each other apart from the noun.
+The 2005 and 2007 books are word for word identical to each other. The 2010, 2019 and 2021 lists are word for word identical to each other apart from the noun - a word-level comparison of the XE195 2019 block against the XE195 2021 block comes back **100.0% identical**.
 
 **The 2005 and 2007 books require an authorized Spirit service company to install the machine.** That is the only place in the whole range where the warranty names who may assemble it. Neither book says what happens to the warranty when an owner assembles it themselves, and every later manual drops the phrase.
 
-**The XE195 calls the machine a *fitness bike* in items 2, 3, 5 and 6.** The duties are the same; the noun is copy-paste from a bike manual - `xe195-2021-warranty-fitness-bike-wording`.
+**The XE195 calls the machine a *fitness bike* in items 2, 3, 5 and 6, in both printings.** The duties are the same; the noun is copy-paste from a bike manual - `xe195-2021-warranty-fitness-bike-wording`.
 
 ## Two items bite in practice
 
 **Item 5** makes getting the machine to a place where it can be worked on the owner's expense, not a warranty cost. **Item 6** puts finish damage during shipping and installation on the owner, so inspect the machine before the carrier leaves. What the owner ends up paying in total is `xt-2023-warranty-owner-costs`.
 
-**Item 1's 10-day deadline is backed by a flat exclusion** on all eight machines - an unregistered product is named as something the warranty does not cover, on the next page. See `spirit-xe-warranty-registration`.
+**Item 1's 10-day deadline is backed by a flat exclusion** on every machine on this card - an unregistered product is named as something the warranty does not cover, on the next page. See `spirit-xe-warranty-registration`.
 
 This list is only half of what governs the warranty. The other half is the exclusions beneath it: `spirit-xe-2005-warranty-exclusions` for the 2005 and 2007 books, `spirit-xe-warranty-exclusions-residential-setting-only` for the 2010 XE395 and the XE195.

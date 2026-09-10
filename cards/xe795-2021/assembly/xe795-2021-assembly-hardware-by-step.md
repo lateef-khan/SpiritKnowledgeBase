@@ -3,8 +3,8 @@ id: xe795-2021-assembly-hardware-by-step
 title: Six hardware panels, and the six levellers and six end caps that appear in no
   panel at all
 kind: fact
-question: What hardware is in each step's bag when I assemble a Spirit xe795-2021
-  elliptical?
+question: What hardware is in each step's bag when I assemble a Spirit XE795 elliptical
+  (xe795-2018 or xe795-2021)?
 asked_as:
 - what bolts go in step one of the xe795
 - hardware list for the spirit xe795
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe795-2021
+  model: '*'
   applies_to:
+  - xe795-2018
   - xe795-2021
   section: assembly
   code: '*'
@@ -40,7 +41,8 @@ source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: pp. 9-14, the six panels headed HARDWARE FOR STEP 1 to HARDWARE FOR
     STEP 6; identical panels at pp. 9-14 of the February printing
-    (`spirit-elliptical-xe795-2021-february-owners-manual`)
+    (`spirit-elliptical-xe795-2021-february-owners-manual`) and at pp. 9-14 of the
+    2018 printing (`spirit-elliptical-xe795-2018-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -89,6 +91,12 @@ source:
 | Part | Type | Description | Qty |
 |---|---|---|---|
 | 55 | Phillips head screw | M5 × 10MM | 8 |
+
+## The 2018 printing supplies exactly the same six bags
+
+Every part number, type, description and quantity above is printed unchanged in the
+XE795 2018 manual, compared row by row. **Nothing in this machine's hardware changed
+across three printings.**
 
 ## Step one fits three things the panel does not supply
 

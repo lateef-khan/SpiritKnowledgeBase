@@ -41,15 +41,21 @@ facets:
   - mt200-2022
   - xe100-2007
   - xe150-2005
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
   - xe550-2005
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   section: safety
   code: '*'
@@ -175,3 +181,12 @@ where oxygen is being administered, and not where aerosols are sprayed.
 **The other ten Spirit commercial bike manuals print no aerosol or oxygen rule at all.** It is
 absent from the self-powered bikes' safety list and from both ENT-2021 manuals
 (`spirit-bike-safety-instructions-list`, `spirit-bike-2025-safety-instructions-list`).
+
+
+## Six earlier Spirit residential ellipticals print the rule
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals** all carry
+it as a bullet of their Important Safety Instructions, in the range's usual wording:
+`Do not operate where aerosol (spray) products are being use or where oxygen is being administered.`
+The grammatical slip `being use` is printed in all six, as it is in the 2021 books. No rule and no
+condition changes.

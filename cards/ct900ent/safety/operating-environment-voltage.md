@@ -54,13 +54,19 @@ facets:
   - cu900-2025
   - cu900ent
   - xe100-2007
+  - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe395-2010
+  - xe395-2018
   - xe395ent-2021
+  - xe795-2018
   - xe795-2021
+  - xe895-2018
+  - xg400-2019
   - xg400-2021
   - xt685-2010
   section: safety
@@ -122,6 +128,13 @@ under warranty.
 single `40 degrees C` figure with no minimum and no Fahrenheit conversion
 (`xt-2023-safety-operating-environment-limits`), which is a different statement from this
 40-to-120 Fahrenheit range. The 2026 machines are different again.
+
+**Six earlier Spirit residential ellipticals print the same block.** The XE395-2018, XE795-2018,
+XE895-2018, XE195-2019, XE295-2019 and XG400-2019 manuals all print `40 to 120 degrees Fahrenheit`
+and `95% non-condensing`, with `elliptical` - or `E-Glide` in the XG400 - in place of `treadmill`.
+**The XE795-2018 prints the temperature and humidity sentences and not the ten-percent voltage
+paragraph**, exactly as its two 2021 printings do: its electrical page is the generator warning
+instead (`spirit-ce-safety-generator-produces-ac-power`). The other five print both halves.
 
 **The voltage paragraph is printed by many Spirit manuals**, and the wording and figures here are
 the same ten percent rule those manuals state (`xt-2023-safety-supply-voltage-variation`). That

@@ -46,6 +46,12 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xe195-2019
+  - xe295-2019
+  - xe395-2018
+  - xe795-2018
+  - xe895-2018
+  - xg400-2019
   - xt185-2015
   - xt285-2015
   - xt385-2015
@@ -159,3 +165,16 @@ bike.
 
 **That is an absence, not evidence that a machine is uncertified.** Get a certification claim for any
 of the twelve from Spirit or from the machine's own rating label, never from the owner's manual.
+
+## Six Spirit residential ellipticals print no compliance page either
+
+**The XE395-2018, XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019 owner's manuals
+carry no FCC statement, no Part 15 declaration, no certification mark and no standards list.** The
+strings `FCC`, `certif`, `compliance`, `UL`, `ETL` and `CSA` appear nowhere in any of the six, in
+either the extracted text or the OCR of their imaged pages. Their only regulatory text is the
+California Proposition 65 warning boxed on the safety page
+(`xt-2015-safety-proposition-65-warning`).
+
+**The same is true of the four 2021 XE books and both 2021 XE795 printings** on the same text-level
+check, but they are not listed in `applies_to` above because this pass did not re-render their pages
+to rule out a flattened compliance page. Add them when those sources are next opened.

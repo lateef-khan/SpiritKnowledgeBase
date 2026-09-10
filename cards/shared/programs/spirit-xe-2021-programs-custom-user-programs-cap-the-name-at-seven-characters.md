@@ -24,8 +24,11 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe295-2019
   - xe295-2021
+  - xe795-2018
   - xe795-2021
+  - xg400-2019
   - xg400-2021
   section: programs
   code: '*'
@@ -71,3 +74,12 @@ and November, carry the duplication.*
 name the slots **Custom 1 and Custom 2** and drop the Max Resistance Level step. The
 XE100/XE200/XE300, XE350 and XE550 use **User 1 and User 2** with an unlimited-length name and no
 "Run Program?" prompt.
+
+**Three earlier printings print these same steps** - XG400 2019 (printed pages 25-26), XE295 2019
+(pages 26-27) and XE795 2018 (pages 27-28). The XE795 2018 carries the same duplicated step the 2021
+printings do, so its list also runs to ten numbers for nine actions.
+
+**Two more machines build a second profile after the resistance one, so they are not on this card.**
+The XE395 2018 adds twenty incline segments - `xe395-2010-programs-custom-user-resistance-then-incline`.
+The XE895 2018 adds twenty **stride** segments -
+`xe895-2018-programs-user-programs-set-twenty-resistance-then-twenty-stride-segments`.
