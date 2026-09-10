@@ -27,6 +27,9 @@ facets:
   - mt200-2010
   section: warranty
   code: '*'
+  model_number:
+  - '720080'
+  - '720087'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-warranty-transfer

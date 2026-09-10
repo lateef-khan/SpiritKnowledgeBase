@@ -108,6 +108,9 @@ lcr-2016,522116,card-confirmed
 lcr-2019,522118,own-filename
 lcr-2023,522122,card-confirmed
 lcr-2026,522126,own-filename
+ms300-2021,730030 730037,colour-pair
+mt200-2010,720080 720087,colour-pair
+mt200-2022,720080 720087,colour-pair
 r72-2015,572115,own-filename
 r92-2011,592110,own-filename
 r92-2016,592116,card-confirmed
@@ -124,6 +127,7 @@ sb900-2019,590319,own-filename
 sb900-2020,590320,card-confirmed
 sb900-2023,590322,card-confirmed
 sc200-2016,520516,fp-date
+sr500-2016,500911,year-in-name
 sr550-2023,555922,card-confirmed
 st90-2023,590822,own-filename
 tt8-2016,588816,year-in-name
