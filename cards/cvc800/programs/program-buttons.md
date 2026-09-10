@@ -31,6 +31,9 @@ see_also:
 - cvc800-console-layout
 - cvc800-idle-mode-buttons
 - cvc800-quick-start
+- cvc800-programs-what-each-preset-profile-does
+- cvc800-programs-manual-mode-starts-at-level-one
+- cvc800-programs-no-heart-rate-program-despite-the-chapter-title
 source:
   ref: spirit-climber-cvc800-service-manual
   locator: Section 4 Product Operation, Function Button Locations, p. 14 (printed
@@ -51,4 +54,10 @@ Press a program button to select that program.
 **This service manual prints nothing else about the programs** - no profile chart, no default
 duration, no level table, no setup sequence. It says only that pressing **Start** in idle mode
 begins a workout in **Manual** mode, and that **Enter** in idle mode opens the data settings page.
-Anything more would have to come from the owner's manual.
+
+**The owner's manual supplies the rest**, and confirms the same six buttons: it describes the five
+preset profiles (`cvc800-programs-what-each-preset-profile-does`) and prints a numbered procedure for
+Manual only (`cvc800-programs-manual-mode-starts-at-level-one`). It prints **no setup procedure for
+the five presets**, no Custom or User program, and **no heart rate program** despite naming a
+`HEART RATE PROGRAM` chapter on its contents page - see
+`cvc800-programs-no-heart-rate-program-despite-the-chapter-title`.

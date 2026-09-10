@@ -43,3 +43,11 @@ Window then shows:
 **After 3 seconds** the console goes to the start-up display and the climber is ready to use.
 
 So a version number and an hours reading at power on are normal, not a fault.
+
+**The 2021 owner's manual prints this paragraph word for word** on its printed p. 16, under
+POWER, so the behaviour is corroborated by both books. Its only wording difference is that it runs
+the two readings into one sentence: "The LCD Data Display Window will show the software version and
+the total time the climber has been used since it was new."
+
+**Neither book says the console has a power switch of its own**, and neither gives the software
+version format.

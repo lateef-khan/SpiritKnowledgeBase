@@ -2,7 +2,7 @@
 id: csc900-2024-programs-target-training-goals-and-ranges
 title: Target Training counts down a time from 5 to 99 minutes, or counts up to 990 calories or 990 vertical
 kind: procedure
-question: How does the Target Training program work on the Spirit csc900-2024 stairclimber?
+question: How does the Target Training program work on a Spirit stairclimber?
 asked_as:
 - how do i set a calorie goal on the stairclimber
 - can i set a vertical distance target
@@ -22,8 +22,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -35,7 +38,7 @@ see_also:
 - csc900-2024-programs-seven-buttons-and-a-fitness-tests-button
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed page 30
+  locator: CSC900 2019 printed p. 26; CSC900 2021 p. 30; CSC900 2024 p. 30; CSC880 2025 p. 27
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +65,6 @@ and calories.**
 
 *The manual gives no unit for Vertical. Elsewhere in the same book the workout summary calls the
 figure "Vertical"; the unit is not stated and is not inferred here.*
+
+**Identical in all four stairclimber manuals** - the 2019 and 2021 CSC900, the 2024 CSC900 and the
+2025 CSC880. Same three goals, same three ranges, same ten steps.

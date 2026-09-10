@@ -27,6 +27,8 @@ not_to_be_confused_with: []
 see_also:
 - spirit-2024-maintenance-treadmill-wear-parts-two-lists
 - cu900ent-wear-parts-inspection
+- 80t-2026-maintenance-disinfection-procedure
+- ms300-2021-maintenance-hygienic-requirements-and-cleaning
 - xe795-2021-maintenance-november-printing-adds-sanitizing
 source:
   ref: ct900-om
@@ -46,8 +48,8 @@ source:
 The CU900ENT service manual prints this same warning with a **four**-item list, dropping Shaft and
 Pedal. Neither manual says which list is right. See `cu900ent-wear-parts-inspection`.
 
-**The WARNING is a treadmill and bike addition; the residential Spirit ellipticals print the four
-bullets without it.** Six residential XE owner's manuals carry the bullets word for word - the 2021
+**The WARNING is a treadmill, bike and 2025-stepper addition; the residential Spirit ellipticals
+print the four bullets without it.** Six residential XE owner's manuals carry the bullets word for word - the 2021
 XE195, XE295, XG400 and the **November** printing of the XE795, and the 2023 XE395 and XE795 - and
 none of them prints the wear-parts warning or names a component list. The other five residential XE
 manuals, including the **February** printing of the XE795, carry no sanitizing section at all:
@@ -70,3 +72,31 @@ six-item one above beside these bullets, and a five-item treadmill list (Belt, I
 Tread-belt) on the maintenance page three pages earlier. See
 `spirit-2024-maintenance-treadmill-wear-parts-two-lists`; answer a treadmill wear question from the
 five-item list.
+
+## Eight wave-16 climbers and steppers print the bullets; two print a different procedure entirely
+
+The **CS800 2021**, **CRS800S 2021**, **CVC800**, **CSC900 2021**, **CSC880 2025**, **MS300 2021**,
+**7.0S 2025** and **7.5S 2025** owner's manuals print these four bullets word for word, including
+the same support URL.
+
+**Two of the thirteen print the WARNING with them: the 7.0S and the 7.5S.** They are the first
+Spirit **steppers** to carry it, with the same six-item list — Belt, PU wheel, Bearing, Idler,
+Shaft, Pedal — so the sentence above about it being a treadmill-and-bike addition is no longer the
+whole story. Checked for "susceptible" across all thirteen wave-16 sources: only those two hit.
+
+**Three print no sanitizing section at all:** the **CSC900 2019**, whose maintenance chapter is one
+page with the warranty on the next, and both printings of the **XS895** — the 2018 book and the
+February 2021 book, which is eight months earlier than the October and November 2021 printings that
+first carry the bullets.
+
+**The 8.5S 2025 and the 8.5S-FIT 2026 print something else under the same heading.** Their
+"Sanitizing Your Spirit Fitness Equipment" is the seven-step clinical procedure — **20 ml of 70% or
+greater** isopropyl alcohol, a 15-minute application and a 3-to-5-minute dwell
+(`80t-2026-maintenance-disinfection-procedure`). Different strength, different volume, different
+dwell, and no conditioner step. **Do not answer an 8.5S question from the 75% bullets**, and do not
+answer any other machine's from the seven steps.
+
+**The MS300 is a rehabilitation machine and still prints only these four bullets.** It has no
+disinfection procedure of any kind — "disinfect" occurs zero times in its 71 pages — and its
+intended-use chapter states there is *no particular restriction on hygienic requirements*
+(`ms300-2021-maintenance-hygienic-requirements-and-cleaning`).

@@ -2,8 +2,8 @@
 id: csc900-2024-maintenance-machine-care-schedule
 title: The daily-to-biannual stairclimber care schedule with an accessory cups row
 kind: procedure
-question: What is the machine care schedule for a Spirit csc900-2024 stairclimber,
-  and how often do I inspect each part?
+question: What is the machine care schedule for a Spirit stairclimber, and how often
+  do I inspect each part?
 asked_as:
 - how often should i clean the stairclimber
 - maintenance checklist for the spirit stair climber
@@ -24,8 +24,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
   - csc900-2024
   section: maintenance
   code: '*'
@@ -36,6 +37,7 @@ not_to_be_confused_with:
 - crw800-2024-maintenance-machine-care-schedule
 see_also:
 - csc900-2024-maintenance-one-reason-and-owner-responsibility
+- spirit-csc900-maintenance-schedule-promised-not-printed
 - spirit-2026t-maintenance-post-workout-machine-care
 - ct900-sanitizing-equipment
 source:
@@ -43,7 +45,11 @@ source:
   locator: 'MACHINE CARE - CONTINUED - SCHEDULE, printed p. 33 (PDF p. 35). The table is a
     flattened image: the native text layer returns the heading and the unplug line only. The
     page was rendered at 300 dpi and every cell placed by its OCR word box against the header
-    x-positions'
+    x-positions. spirit-climber-csc880-2025-owners-manual prints the identical table under
+    MACHINE CARE - CONTINUED - SCHEDULE, printed p. 32 (PDF p. 34); there the table is native
+    text, and it was checked cell by cell against a 200 dpi render of the page, which agrees.
+    The two tables match at difflib word level 0.997 - nine rows, five intervals, the same
+    marks, and the same unplug line'
   extracted_at: '2026-09-10'
 ---
 
@@ -87,3 +93,20 @@ Switch row blank. See `cs800-2024-maintenance-machine-care-schedule` and
 - **Nothing for the staircase drive.** The Steps row covers cleaning and inspecting the steps
   themselves; the chain, belt or drive that rotates them is not a row and has no interval in this
   manual.
+
+## The CSC880 2025 prints the same nine rows
+
+The **CSC880** stair climber's table is this table: the same nine items in the same order, the same
+five intervals, the same marks in the same cells, and the same **UNPLUG STEPPER** line over a
+machine that is not a stepper. Nothing was added and nothing dropped, so there is still no Levelers
+row, no USB Port row and nothing for the staircase drive.
+
+The difference between the two books is above the table, not in it: on the CSC880 the table is
+native text in the PDF, while on the CSC900 2024 it is a flattened image.
+
+## Neither CSC900 of 2019 or 2021 prints a table at all
+
+Both earlier books promise "daily, weekly and monthly preventive maintenance routines **outlined
+below**" and then print nothing —
+`spirit-csc900-maintenance-schedule-promised-not-printed`. The CSC900 2024 is where the schedule
+first appears. Do not quote these nine rows for a 2019 or 2021 machine.

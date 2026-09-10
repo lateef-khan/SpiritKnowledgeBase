@@ -2,7 +2,7 @@
 id: csc900-2024-programs-no-heart-rate-training-page
 title: The stairclimber manual prints no maximum heart rate formula, no RPE scale and no chest strap page
 kind: fact
-question: What heart rate training guidance does the Spirit csc900-2024 stairclimber manual give?
+question: What heart rate training guidance does a Spirit CSC900 stairclimber manual give?
 asked_as:
 - what heart rate should i train at on the stairclimber
 - how do i work out my max heart rate on the stair climber
@@ -22,8 +22,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -37,7 +39,7 @@ see_also:
 - spirit-stepper-programs-target-zone-of-108-to-153-beats
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: table of contents printed page 1; programs chapter printed pages 20-21
+  locator: CSC900 2019 table of contents printed p. 1, programs chapter pp. 19-28; CSC900 2021 ToC p. 1, chapter pp. 19-32; CSC900 2024 ToC p. 1, chapter pp. 20-21
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +64,12 @@ minus age. See `csc900-2024-programs-wfi-stairclimber-protocol`.
 
 **Do not answer a heart rate training question for this machine from a Spirit stepper card.** The
 steppers print 60% and 85% and a 108-to-153 zone; this manual prints no zone at all.
+
+**This is not a 2024 change. All three CSC900 printings omit it.** The 2019 book's contents run
+`19 PROGRAMMABLE FEATURES` straight to `29 GENERAL MAINTENANCE`; the 2021 book's run
+`19 PROGRAMS` straight to `33 GENERAL MAINTENANCE`. A loose search of the 2019 text for "220",
+"maximum heart", "perceived", "Borg" and "strap" returns **zero hits of each**.
+
+**The CSC880 that replaced it does print one**, with a 35-year-old example rather than a 40-year-old
+one, and an RPE scale as well - see `csc880-2025-programs-target-zone-of-111-to-157-beats`. So the
+gap belongs to the CSC900 console, not to Spirit stairclimbers in general.

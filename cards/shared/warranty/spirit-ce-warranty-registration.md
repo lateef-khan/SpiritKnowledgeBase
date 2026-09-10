@@ -8,7 +8,8 @@ question: >-
   climber or rower for the warranty, and how? Covers the CE800, CE850, CE900, CES880 and
   CE800ENT, the CR900, CU900, CR900ENT, CU900ENT, CU800ENT, CR800, CU800, CR800ENT, CB900,
   XIC600, CIC800, CIC850, AB900, AB950 and JB950, the CT800, CT850, CT800ENT and CT850ENT,
-  the CRS800S, CS800 and CSC900, and the CRW800.
+  the CRS800S, CS800, CSC900, CSC880, XS895, CVC800, MS300, 7.0S, 7.5S, 8.5S
+  and 8.5S-Fit, and the CRW800.
 asked_as:
 - do i have to register my elliptical
 - how do i register my spirit warranty
@@ -30,6 +31,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 70s-2025
+  - 75s-2025
+  - 85s-2025
+  - 85s-fit-2026
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -50,9 +55,14 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
   - crw800-2024
+  - cs800-2021
   - cs800-2024
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   - ct800-2024
   - ct800ent-2024
@@ -63,9 +73,13 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - cvc800
   - jb950-2022
+  - ms300-2021
   - xic600-2018
   - xic600-2021
+  - xs895-2018
+  - xs895-2021
   section: warranty
   code: '*'
 authority: 3
@@ -238,3 +252,26 @@ The two sentences do not say the same thing, and none of the five reconciles the
 **Read the location off the manual in hand.** The CE800 and the CE850 are the pair to be careful with: they are the same product line, effective within a week of each other, and one says *the frame* while the other says *the front stabilizer*.
 
 The number under the barcode is what the registration form wants, and the same PRODUCT LABELS page prints **(870) 935-1107** beside it.
+
+## The thirteen Spirit climbers and steppers, where the address changes four times in seven years
+
+| Manual | Where it sends the owner | Deadline in the responsibilities list |
+|---|---|---|
+| XS895 2018 | `https://www.spiritfitness.com/residentialwarrantyregistration.html` under the Support tab | card, **10 days**, no online alternative |
+| CSC900 2019 | `www.spiritfitness.com/commercialwarrantyregistration.html` under the Support tab | card, **10 days**, or online |
+| XS895 2021, CRS800S, CS800, CSC900 2021, CVC800 | `spiritfitness.com/warranty` under the Support tab | XS895 card only; the other four card **or** online, **10 days** |
+| MS300 | `www.spiritfitness.com/commercialwarrantyregistration.html` | "The warranty registration must be completed **online**" - **no deadline stated** |
+| CSC880 2025 | a **QR code** to scan, or `spiritfitness.com/warranty` | "must be completed **online**" - **no deadline stated** |
+| 7.0S, 7.5S, 8.5S, 8.5S-Fit | a **QR code** to scan, or `spiritfitness.com/warranty` | card, **10 days**, or online |
+
+**Two of the thirteen name no deadline at all** - the MS300 and the CSC880. Both ask only that registration be completed online. The four steppers printed alongside the CSC880 restore the ten-day card, so 2025 is not a clean cut-off; read the rule off the manual in hand.
+
+**The XS895 is the one that contradicts itself.** Both its manuals print a *Register Your Purchase* page offering online registration, and both make item 1 of the responsibilities list the card alone - "completed and returned to the address listed on the card within 10 days". Neither reconciles the two. Say both.
+
+**The 2018 XS895 is sent to the residential page and the 2019 CSC900 to the commercial one**, and by 2021 all five books of that generation are sent to a single `spiritfitness.com/warranty`. The distinction disappears without explanation.
+
+**Six of the thirteen print a QR code** - the CSC880 and the four steppers, on their *Warranty Registration* page at the front, beside boxes for Serial Number, Date of Purchase and Dealer / Place of Purchase, and stamped **Version: 1.0** (the CSC880 is **Version: 1.1**). No older manual in this range prints a QR code, a registration phone number or an email address on that page.
+
+**The 8.5S-Fit registration page names the wrong company.** Its introduction opens "**Dyaco** provides simple, reliable products..." where its three siblings open "**Spirit by Dyaco**" and the machine's warranty two pages from the back is administered by *Spirit Fitness, Inc.* It is a printing slip on one page, not a different manufacturer's warranty. Register an 8.5S-Fit as a Spirit machine.
+
+**Failing to register is an exclusion on eight of the thirteen and not on five.** The XS895, CSC900, CRS800S, CS800, CVC800 and MS300 lists exclude a product with no registration on file outright; the CSC880 and the four steppers dropped that sentence and reserve only the right to ask for proof of purchase (`spirit-ce-2025-warranty-exclusions`).

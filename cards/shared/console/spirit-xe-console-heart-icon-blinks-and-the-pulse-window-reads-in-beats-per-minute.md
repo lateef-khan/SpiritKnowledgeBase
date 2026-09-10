@@ -51,6 +51,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -102,3 +104,9 @@ sensors themselves. See `spirit-xe-console-pulse-grips-are-locked-out-during-hea
 
 **The two ENT bikes pick up heart rate a different way.** They pair a Bluetooth strap from the
 touchscreen and have no heart icon or Pulse Display Window described.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word** - XS895-2018 and
+XS895-2021, p. 18, in the Program Keys section rather than under a heading of its own. Grasping the
+hand pulse sensors on the stationary handle bars, or wearing the heart rate transmitter, starts the
+**Heart Icon blinking** (this may take a few seconds), and the **Pulse Display Window** reads in beats
+per minute.

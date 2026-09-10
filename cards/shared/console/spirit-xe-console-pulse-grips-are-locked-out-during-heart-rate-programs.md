@@ -39,6 +39,8 @@ facets:
   - xe795-2021
   - xe795-2023
   - xe895-2018
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -99,3 +101,8 @@ its grips are locked out.
 
 **The two ENT bikes print no such paragraph either.** They pair a Bluetooth strap from the
 touchscreen Settings menu instead.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word** - XS895-2018 and
+XS895-2021, p. 16, Pulse Grip Feature. Both stainless steel sensors on the **stationary grips**, or
+the heart rate transmitter chest strap, and **you may not use the Pulse Grip feature while in Heart
+Rate Programs**.

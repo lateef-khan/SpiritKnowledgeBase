@@ -28,8 +28,11 @@ facets:
   - ce850-2020
   - ce850-2022
   - cr800ent-2023
+  - crs800s-2021
+  - cs800-2021
   - cu800ent-2022
   - cu800ent-2024
+  - cvc800
   - xbr25-2019
   - xbr55-2019
   - xbr55-2021
@@ -41,6 +44,8 @@ facets:
   - xe795-2018
   - xe795-2021
   - xe895-2018
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt285-2015
   - xt485-2015
@@ -182,3 +187,11 @@ machine's own manual.
 
 **The four 2023 XB manuals print no extension-cord rule at all**, so there is no 2023 bike figure to
 compare this against.
+
+**Five more Spirit climbers print this line.** The CRS800S-2021 and CS800-2021 steppers and the
+CVC800-2021 vertical climber carry it in the WARNING header of their safety list, printed page 4, and
+the XS895 incline stepper on printed page 4 of both the 2018 and 2021 books.
+
+**The 8.5S and 8.5S-Fit ask for 16awg or larger instead**, in item 2 of their own lists
+(`spirit-extension-cord-16-awg-or-better`), and the 7.0S, 7.5S and MS300 print no extension-cord
+gauge at all. Never carry 14AWG onto one of those five.

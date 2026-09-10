@@ -29,6 +29,7 @@ facets:
   - cr900-2018
   - cr900-2025
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - csc900-2024
   - cu800-2012
@@ -105,3 +106,11 @@ description of it does not exist outside those steps.
 
 **The CE800-2024, CE850-2024, CR800-2024 and CU800-2024 have no number pad**, exactly as their
 predecessors do not: those four books set every value with the Level Up and Down keys alone.
+
+**The CS800-2021 owner's manual prints the numeric pad into its Manual program steps** -
+printed p. 21, steps 2 and 3: age and weight may be entered "using the Up and Down buttons, **or the
+numeric button pad**".
+
+**The CRS800S-2021 does not.** Its matching steps on printed p. 21 offer only the Up and Down keys,
+even though the two books are otherwise near-identical here. Do not promise a keypad on the
+semi-recumbent stepper of that year.

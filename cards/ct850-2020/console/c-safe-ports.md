@@ -40,7 +40,9 @@ facets:
   - cr800ent-2023
   - cr800ent-2024
   - cr900-2018
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -151,3 +153,8 @@ FEATURE or CSAFE FEATURE.
 
 **The CSC900-2024 stair climber and the CRW800-2024 rower are the two machines of the wave that do
 not print it.** The words C-SAFE, CSAFE, POWER port and COMM port appear nowhere in either document.
+
+**The 2021 CRS800S and CS800 owner's manuals print this section word for word** -
+CRS800S-2021 printed p. 18 and CS800-2021 printed p. 17, both headed **C-SAFE FEATURE** and both
+placed between POWER and QUICK START in the console chapter. Same two ports, same two uses, same
+absence of a pinout or a cable part number.

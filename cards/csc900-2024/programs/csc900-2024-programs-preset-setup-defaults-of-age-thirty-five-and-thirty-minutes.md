@@ -2,7 +2,7 @@
 id: csc900-2024-programs-preset-setup-defaults-of-age-thirty-five-and-thirty-minutes
 title: Preset setup defaults to age 35, 65 kg and 30 minutes, and every program starts at 23 steps per minute
 kind: procedure
-question: How do I set up a preset program on the Spirit csc900-2024 stairclimber?
+question: How do I set up a preset program on a Spirit stairclimber?
 asked_as:
 - how do i start a program on the stair climber
 - what speed does the stairclimber start at
@@ -23,8 +23,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -36,7 +39,7 @@ see_also:
 - csc900-2024-programs-target-training-goals-and-ranges
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed pages 25-29
+  locator: CSC900 2019 printed pp. 20-25; CSC900 2021 pp. 25-29; CSC900 2024 pp. 25-29; CSC880 2025 pp. 22-26
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +65,10 @@ to ten for a nine-action sequence. It is reproduced as printed.*
 
 The same ten steps are printed once for each of the five programs, identical apart from the button
 pressed in step 1.
+
+**All four stairclimber manuals print this same sequence, word for word** - the 2019 and 2021
+CSC900, the 2024 CSC900 and the 2025 CSC880. The defaults (age 35, 65 kg / 145 lbs, 30 minutes, a
+5-to-99 minute range) and the 23 SPM start have not changed across six years.
+
+**The 2019 CSC900 prints the sequence a sixth time, under a WARM UP button** the later machines do
+not have - see `csc900-2019-programs-warm-up-button-and-no-fitness-tests`.

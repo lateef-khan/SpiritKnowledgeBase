@@ -21,8 +21,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: console
   code: '*'
@@ -58,3 +61,13 @@ gives no airflow figure for either speed.
 **No other machine in the 2024 New Black Units range describes a fan control at all.** The eight LED
 machines and the four ENT touchscreens label a **Fan** on their console drawings and print no switch,
 no speed and no default.
+
+**All three of the other stair climber printings print this paragraph word for word** -
+CSC900-2019 printed p. 16, CSC900-2021 printed p. 16 and CSC880-2025 printed p. 17 - so this card now
+covers the whole Spirit stair climber line from 2019 to 2025. Off by default, first press High,
+second press Low, third press off, adjustable vent, no airflow figure.
+
+**Two of them do say where the button is.** The **CSC880-2025** console drawing on printed p. 20
+labels a **FAN** key in the row under the resistance level window, between RESULTS and LEVEL; the
+CSC900-2019 and CSC900-2021 drawings label no fan key, and neither does the 2024 drawing
+(`csc900-2024-console-screen-overview`).

@@ -32,6 +32,8 @@ see_also:
 - cvc800-quick-start
 - cvc800-idle-mode-buttons
 - cvc800-program-buttons
+- cvc800-console-engineering-mode-two-second-hold
+- cvc800-console-fls-and-fpm-in-the-message-window
 source:
   ref: spirit-climber-cvc800-service-manual
   locator: Section 4 Product Operation, Display Windows p. 12 (printed 12) and Function
@@ -54,3 +56,20 @@ The LCD carries a **TIME** window at the top, a row of smaller value windows bel
 symbol beside a pulse field, a **LEVEL** window, and a dot-matrix profile block underneath.
 
 The console is a self-contained head on the console mast; there is no separate handlebar keypad.
+
+**The 2021 owner's manual draws the same console with four call-outs**, on its printed
+p. 15, and adds one part the service manual never names:
+
+| Call-out | Where it is |
+|---|---|
+| **Tablet Holder** | Above the screen |
+| **LCD Data Display Window** | The screen |
+| **Program Buttons** | Down the left of the screen |
+| **Start, Stop, Level Up, Level Down, and Enter** | The row below the screen |
+
+**The Tablet Holder is the only part the two books disagree about**, and only by omission - the
+service manual's drawing does not label it. **The owner's manual gives no screen size**, so the 5.5"
+figure comes from the service manual alone.
+
+**Neither book labels a fan, a USB port, a water bottle holder or a heart rate grip on this
+console.**

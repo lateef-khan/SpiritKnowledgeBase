@@ -3,7 +3,7 @@ id: cs800-2024-assembly-tools-included
 title: Five tools in the carton, and the only tools panel in the range that prints an
   item number beside each one
 kind: fact
-question: What tools are supplied to assemble a Spirit CS800 (cs800-2024) stepper?
+question: What tools are supplied to assemble a Spirit CS800 (cs800-2021 or cs800-2024) stepper?
 asked_as:
 - what tools come with the cs800
 - do i need my own allen key for the stepper
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: cs800-2024
+  model: '*'
   applies_to:
+  - cs800-2021
   - cs800-2024
   section: assembly
   code: '*'
@@ -77,3 +78,13 @@ This manual prints the same maintenance sentence as the rest of the range - two
 levelling pads under the rear stabiliser, adjusted with a **14mm wrench** - and both
 wrenches in this carton open to 14. Its own carton panel counts **4 Levelers**. See
 [the levelling card](../../ct800-2016/assembly/ct800-2016-assembly-levelling-pads.md).
+
+## The 2021 printing is the same chapter but for one step
+
+`spirit-climber-cs800-2021-owners-manual`, pp. 8-13, prints step zero, step one, step
+two and step two continued unchanged, with all three hardware tables identical - the
+same **3/4"** typo on flat washer 100, the same **3/8 x 2-14"** on bolt 77 and the same
+counts. **Step three of the 2021 printing stops at item 3.** It has no item 4, so the
+water bottle holder on its own carton panel is never fitted and its own screw count of
+ten leaves two over. See
+[the water bottle holder card](../../cs800-2021/assembly/cs800-2021-assembly-water-bottle-holder-never-fitted.md).

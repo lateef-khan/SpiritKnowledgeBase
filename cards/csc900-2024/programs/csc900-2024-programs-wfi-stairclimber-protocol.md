@@ -2,7 +2,7 @@
 id: csc900-2024-programs-wfi-stairclimber-protocol
 title: The WFI stairclimber test, whose target heart rate is 208 minus 0.7 times age, not 220 minus age
 kind: procedure
-question: How does the WFI fitness test work on the Spirit csc900-2024 stairclimber?
+question: How does the WFI fitness test work on a Spirit stairclimber?
 asked_as:
 - what is the wfi test on the stairclimber
 - how is my target heart rate worked out
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -40,7 +41,7 @@ see_also:
 - csc900-2024-programs-no-heart-rate-training-page
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed pages 21-23 (PDF pages 23-25)
+  locator: CSC900 2021 printed pp. 20-22 (PDF 22-24); CSC900 2024 printed pp. 21-23 (PDF 23-25)
   extracted_at: '2026-09-10'
 ---
 
@@ -115,3 +116,14 @@ three minute cool down, not part of the ascending test.
 
 This page is a flat image; the table was read from a 400 dpi render and checked against a second
 pass.
+
+**The 2021 CSC900 prints this test identically** - the same eight steps, the same protocol table, the
+same THR formula and the same skipped level 6. **The 2019 CSC900 has no fitness test at all**: a
+loose search of that book for "WFI", "CPAT", "VO2" and "fitness test" returns nothing, and its table
+of contents runs Programmable Features p. 19 straight to General Maintenance p. 29. The Fitness
+Tests button arrived in 2021, not 2024 - see
+`csc900-2019-programs-warm-up-button-and-no-fitness-tests`.
+
+**The 2025 CSC880 has a FITNESS TEST key on its console overlay but prints no WFI or CPAT page at
+all** - see `csc880-2025-programs-five-profiles-a-target-and-a-user-button`. Do not serve this card
+for a CSC880: no CSC880 source states these levels, step rates or formulas.

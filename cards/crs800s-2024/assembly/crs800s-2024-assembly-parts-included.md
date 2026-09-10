@@ -3,7 +3,7 @@ id: crs800s-2024-assembly-parts-included
 title: What comes in the carton, sixteen part lines with a power cord, an audio cable
   and two transport wheels
 kind: fact
-question: What parts come in the carton of a Spirit CRS800S (crs800s-2024)
+question: What parts come in the carton of a Spirit CRS800S (crs800s-2021 or crs800s-2024)
   semi-recumbent stepper?
 asked_as:
 - what should be in the box of my crs800s
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: assembly
   code: '*'
@@ -92,3 +93,12 @@ commercial bikes and the CE800 elliptical do.
 It gives no carton count, no shipping weight and no box dimensions, and it lists no
 handlebars, handgrips, armrests or handle sliders even though steps one, two and four
 fit all four.
+
+## The 2021 printing is the same chapter, word for word
+
+`spirit-climber-crs800s-2021-owners-manual`, pp. 9-15, prints this unchanged - the same
+steps in the same order and the same five hardware tables, item number for item number
+and quantity for quantity. Compared from the two PDFs' own text, not from the
+conversions. The only difference in the whole chapter is layout: the 2021 book puts
+TOOLS INCLUDED and PARTS INCLUDED on the pre-assembly page and the 2024 book puts them
+on a page of their own two pages earlier.

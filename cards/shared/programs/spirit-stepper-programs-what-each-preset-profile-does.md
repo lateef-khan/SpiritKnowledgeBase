@@ -25,7 +25,9 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   section: programs
   code: '*'
@@ -39,7 +41,7 @@ see_also:
 - spirit-bike-programs-strength-profile
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 printed pages 24-25; CRS800S printed pages 24-25
+  locator: CS800 2021 printed pp. 22-24; CRS800S 2021 pp. 24-25; CS800 2024 pp. 24-25; CRS800S 2024 pp. 24-25
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +64,10 @@ source:
 The 2024 CE800, CE850, CR800 and CU800 name Strength only as a picture caption and print no
 description; the steppers print it in full, and the sentence about the **lower body and glutes** is
 theirs alone - the elliptical and bike versions say "in the lower body".
+
+**The 2021 printings of both machines carry these five descriptions word for word**, the lower body
+and glutes sentence included.
+
+**Do not carry them to the CVC800 vertical climber.** That machine's owner's manual prints its own,
+shorter Hill, Fat Burn, Cardio and Strength wording and has no Interval program at all - see
+`cvc800-programs-what-each-preset-profile-does`.

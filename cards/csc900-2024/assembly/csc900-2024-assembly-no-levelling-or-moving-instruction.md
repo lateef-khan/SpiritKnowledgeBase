@@ -1,9 +1,9 @@
 ---
 id: csc900-2024-assembly-no-levelling-or-moving-instruction
-title: The only manual in the 2024 range that never says how to level the machine or
-  how to move it
+title: No stairclimber manual ever says how to level the machine or how to move it,
+  on a machine whose own diagram labels the levellers
 kind: fact
-question: How do I level or move a Spirit CSC900 (csc900-2024) stairclimber, and what
+question: How do I level or move a Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024) stairclimber, and what
   does its manual say about the levellers on its diagram?
 asked_as:
 - how do i level my csc900
@@ -23,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: assembly
   code: '*'
@@ -41,7 +43,9 @@ source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: p. 9, PARTS OF YOUR STAIR CLIMBER callout I; and the absence of any
     levelling or moving instruction in the whole 44-page manual, including its
-    MACHINE CARE noise item
+    MACHINE CARE noise item. The same absence in the whole of the 36-page 2019
+    printing (`spirit-climber-csc900-2019-owners-manual`) and the whole of the 40-page
+    2021 printing (`spirit-climber-csc900-2021-owners-manual`)
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +95,19 @@ labels no transport wheel.
 Both are climbers of the same redesign and both do print the levelling sentence. The
 **CS800** carton even counts four levellers on its panel. Neither figure belongs to
 this machine.
+
+## Every CSC900 printing is like this, and so is the CSC880
+
+`spirit-climber-csc900-2019-owners-manual` and
+`spirit-climber-csc900-2021-owners-manual` print no levelling instruction and no moving
+procedure either. In both, the whole word "level" returns only resistance levels, the
+two "hard, level surface" placement lines and - in the 2021 book - nothing else at all;
+neither prints the diagram callout the 2024 book has, because neither has a machine
+diagram. Their maintenance chapters carry no noise item with a levelling remedy.
+
+The **CSC880 2025** stair climber is the same: its diagram labels **J. Leveler** and no
+page says how to adjust one. See
+[the CSC880 diagram card](../../csc880-2025/assembly/csc880-2025-assembly-parts-diagram-and-oem-label.md).
+
+**So this is a stair climber trait rather than a 2024 one.** Four Spirit stair climber
+manuals across seven years, and not one of them says how to level the machine.

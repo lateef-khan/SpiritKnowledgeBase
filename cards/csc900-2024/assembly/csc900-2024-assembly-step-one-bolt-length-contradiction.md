@@ -3,7 +3,7 @@ id: csc900-2024-assembly-step-one-bolt-length-contradiction
 title: The decorative ring bolt is called M8x65 by the step and M6x65 by its own
   hardware table
 kind: fact
-question: Is the long bolt in step one of the Spirit CSC900 (csc900-2024) stairclimber
+question: Is the long bolt in step one of the Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024) stairclimber
   build an M8 or an M6?
 asked_as:
 - is the csc900 bolt m6 or m8
@@ -23,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: assembly
   code: '*'
@@ -73,3 +75,19 @@ them the same way. This is what the book prints, not a scanning error.
 Step four's drawing labels an **ST4.2*16 Screw** where its text and table both say
 ST4.2*15L, and an **M4*25 Screw** where both say M4*30L. Same pattern, different page,
 and there the drawing is the odd one out rather than the table.
+
+## Three printings, and only one row ever changed
+
+`spirit-climber-csc900-2019-owners-manual` (pp. 7-12) and
+`spirit-climber-csc900-2021-owners-manual` (pp. 7-12) print this chapter unchanged from
+the 2024 book, step for step and table for table, including the M6/M8 disagreement in
+step one. Compared from the three PDFs' own text.
+
+**One row moved.** The handrail-cover screw is **M4 x 25L** in the 2019 printing - in
+its table, in its step text and on its drawing - and **M4 x 30L** in the 2021 and 2024
+printings. See
+[the handrail cover screw card](../../csc900-2019/assembly/csc900-2019-assembly-handrail-cover-screw-m4-x-25.md)
+before ordering one for a 2019 machine.
+
+The 2024 book also adds the five-connector wire diagram under step four. Neither the
+2019 nor the 2021 printing has it; their step four ends at item 3.

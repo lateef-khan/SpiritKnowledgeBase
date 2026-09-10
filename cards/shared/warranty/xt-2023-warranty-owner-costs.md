@@ -5,7 +5,8 @@ kind: policy
 question: >-
   Does the owner of a Spirit XT, CT800 or CT850 treadmill, of a Spirit CE800, CE800ENT or
   CE850 elliptical, or of a Spirit CR800, CU800, CU800ENT, CR800ENT, CB900, XIC600, CIC800,
-  CIC850, AB900 or JB950 bike, pay anything for a warranty repair?
+  CIC850, AB900 or JB950 bike, or of a Spirit XS895, CRS800S, CS800 or CVC800 climber
+  or stepper, pay anything for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
 - is the service call free under warranty
@@ -40,6 +41,8 @@ facets:
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
+  - crs800s-2021
+  - cs800-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -51,6 +54,7 @@ facets:
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
+  - cvc800
   - jb950-2022
   - xbr25-2019
   - xbr25-2023
@@ -82,6 +86,8 @@ facets:
   - xg400-2021
   - xic600-2018
   - xic600-2021
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -232,3 +238,15 @@ The CB900 2013, both XIC600 printings, the AB900 2018, the CIC800 2021, the CIC8
 **The ten older manuals put the electrical supply on the owner as well** - a grounded supply of sufficient voltage, blown fuses, loose connections and defects in house wiring, as item 4 of their list. **The four 2023 manuals drop that item entirely**, so a 2023 XB owner carries one fewer cost than the owner of the same machine's earlier printing. Do not read it to them.
 
 **No figure is printed for any of these charges** on any of the fourteen, and none says who sets the trip charge. Adequate packaging for a return is the owner's responsibility too, and freight damage claims go to the carrier.
+
+## Five Spirit climbers and steppers charge the trip charge too
+
+**The XS895 2018 and 2021, the CRS800S 2021, the CS800 2021 and the CVC800 print the same step 4**, ending with the two sentences that make this card different from `spirit-2026t-warranty-owner-costs`:
+
+> For in-home service, the customer will be responsible for a trip charge. There will be an additional trip charge if the customer is located over 100 miles from the nearest service center.
+
+**Their accessibility duty is item 4 on the XS895 and item 5 on the other three**, because the two XS895 manuals print a six-item responsibilities list with no grounded-power-supply item (`spirit-climber-warranty-six-item-responsibilities`, `spirit-ct800-warranty-consumer-responsibilities`).
+
+**A trip charge for in-home service on a CVC800 or a CS800 is worth pausing over.** Both are commercial machines whose tables print a Residential row, so the sentence is not dead text - a home owner calling one out is charged for the visit.
+
+**The other eight climbers and steppers do not charge it.** The CSC880, the four 2025-and-2026 steppers and the MS300 stop at shipping and handling (`spirit-2026t-warranty-owner-costs`), and the two CSC900 manuals stop one sentence earlier still, at "All repairs must be preauthorized", stating no freight or shipping cost at all. Read the machine's own step 4 rather than the range's.

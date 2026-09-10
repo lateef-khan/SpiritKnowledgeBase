@@ -35,7 +35,9 @@ facets:
   - cr800-2021
   - cr800-2023
   - cr800-2024
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - cu800-2021
   - cu800-2024
@@ -106,3 +108,19 @@ CR800ENT-2024 are described as **Polar and Bluetooth compatible**:
 `ct800ent-2022-console-heart-rate-feature`. **The CSC900-2024 is different again** - it names a
 Bluetooth chest strap the console detects automatically:
 `csc900-2024-console-heart-rate-bluetooth-and-contact`.
+
+**The 2021 CRS800S and CS800 owner's manuals print this paragraph word for word too** -
+CRS800S-2021 printed p. 20 and CS800-2021 printed p. 19, both under HEART RATE WINDOW - so the claim
+is three years older than the 2024 books. Only the name in the last sentence changes: "The CRS800S"
+and "The CS800 will also pick up wireless heart rate transmitters that are Polar compatible,
+including coded transmissions."
+
+**Both 2021 books contradict this window on their own chest strap page.** Printed p. 33 of each says
+**"Chest straps that operate using Bluetooth or ANT+ should also work with this machine"** - a
+claim the HEART RATE WINDOW paragraph never makes and never qualifies. The chest strap half of the
+fact is `spirit-ce-programs-chest-strap-sold-separately`. Neither statement mentions the other.
+
+**The CS800-2021 parts list carries a Bluetooth module as well**, item 30~13, which its console
+chapter never mentions:
+`spirit-cr800-cu800-console-bluetooth-module-with-no-procedure`. **The CRS800S-2021 parts list has
+no such item.**

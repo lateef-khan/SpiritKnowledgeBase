@@ -4,7 +4,8 @@ title: What the consumer or non-dues-paying facility must do for the warranty to
 kind: policy
 question: What is the owner or facility responsible for under the Spirit CT800 or
   CT850 treadmill warranty, the Spirit CE800 or CE800ENT elliptical warranty, or the
-  Spirit CR800, CU800, CU800ENT or CR800ENT bike warranty?
+  Spirit CR800, CU800, CU800ENT or CR800ENT bike warranty, or the
+  Spirit CRS800S, CS800 or CVC800 warranty?
 asked_as:
 - what do i have to do to keep my warranty
 - who pays to move the treadmill for a repair
@@ -32,6 +33,8 @@ facets:
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
+  - crs800s-2021
+  - cs800-2021
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -43,6 +46,7 @@ facets:
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
+  - cvc800
   section: warranty
   code: '*'
 authority: 3
@@ -118,3 +122,18 @@ The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and t
 **The CU800 2012 numerals are sound on the page and unreliable only in the extraction.** Its text.md renders item 1 as `|.` and "10 days" as "I0 days", because the manual sets its digit 1 as a bare vertical stroke that OCR reads as a pipe. Page 31 of `CU800_OM_)800343.pdf`, rendered at 300 dpi and rotated 180 degrees, prints a proper **1.** and **10 days**, under the same NORMAL RESPONSIBILITIES OF THE CONSUMER heading, with all seven items in this order. Quote the numbers; it is the extracted text, not the book, that is damaged.
 
 **This is not the list the four 900-series bikes print.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT run to **six** items addressed to a facility only, with no grounded-power-supply duty at all (`ce900-2021-warranty-facility-responsibilities`), and the CR900 2025, CU900 2025 and CU800ENT 2024 replace item 1 with online-only registration (`spirit-ce-2025-warranty-facility-responsibilities`).
+
+## Three Spirit climbers and steppers print the same seven items
+
+**The CRS800S 2021, the CS800 2021 and the CVC800 carry these seven duties word for word**, in the same order. Only the heading and its lead sentence move, and they move in two directions at once:
+
+| Manual | Heading | Lead sentence |
+|---|---|---|
+| CRS800S 2021 | NORMAL RESPONSIBILITIES OF THE **OWNER** | The **consumer or non-dues paying facility** is responsible for the items listed below: |
+| CS800 2021, CVC800 | NORMAL RESPONSIBILITIES OF THE **CONSUMER** | The **non-dues paying facility** is responsible for the items listed below: |
+
+**The CS800 and CVC800 pairing is the odd one.** Their heading addresses a consumer and the sentence under it addresses a facility, on a table that has a Residential row. Neither manual reconciles them, and neither says a home owner is excused any of the seven. Read the list as binding on whoever owns the machine.
+
+**None of the three is the same list its 2024 successor prints.** The CRS800S 2024 and CS800 2024 renumber it under a *RESPONSIBILITIES OF THE FACILITY* heading and change item 1 (`spirit-ce-2025-warranty-facility-responsibilities`).
+
+**Four of the thirteen Spirit climbers and steppers print a shorter list and are not on this card.** The two XS895 manuals and the two CSC900 ones run to **six** items, with no grounded-power-supply item at all: the duty to replace blown fuses and repair house or facility wiring, item 4 here, is simply absent, and the remaining items shift up by one. Their list is `spirit-climber-warranty-six-item-responsibilities`. Do not quote item numbers between the two shapes.

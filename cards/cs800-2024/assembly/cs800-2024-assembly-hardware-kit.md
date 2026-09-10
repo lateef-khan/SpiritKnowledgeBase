@@ -3,7 +3,7 @@ id: cs800-2024-assembly-hardware-kit
 title: Hardware for the three tables, and the flat washer printed 3/4 inch in one and
   3/8 inch in the next
 kind: fact
-question: What fasteners does each step of the Spirit CS800 (cs800-2024) stepper
+question: What fasteners does each step of the Spirit CS800 (cs800-2021 or cs800-2024) stepper
   assembly use, and how many of each?
 asked_as:
 - what bolts come with the cs800
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: cs800-2024
+  model: '*'
   applies_to:
+  - cs800-2021
   - cs800-2024
   section: assembly
   code: '*'
@@ -100,3 +101,13 @@ of eight. Nothing is over or under.
 
 **No torque figure for any bolt**, and no table for the two bolts step zero removes -
 the manual only says to discard them.
+
+## The 2021 printing is the same chapter but for one step
+
+`spirit-climber-cs800-2021-owners-manual`, pp. 8-13, prints step zero, step one, step
+two and step two continued unchanged, with all three hardware tables identical - the
+same **3/4"** typo on flat washer 100, the same **3/8 x 2-14"** on bolt 77 and the same
+counts. **Step three of the 2021 printing stops at item 3.** It has no item 4, so the
+water bottle holder on its own carton panel is never fitted and its own screw count of
+ten leaves two over. See
+[the water bottle holder card](../../cs800-2021/assembly/cs800-2021-assembly-water-bottle-holder-never-fitted.md).

@@ -27,7 +27,9 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   section: console
   code: '*'
@@ -74,3 +76,21 @@ error in that book, not a different part.
 **The CSC900-2024 stair climber has no scan key and no two sets.** It has four separate windows with
 twelve data points and a button under each one:
 `csc900-2024-console-four-display-windows`.
+
+**The 2021 printings of both machines print this section word for word** - CRS800S-2021
+printed p. 19 and CS800-2021 printed p. 18, both headed BASIC INFORMATION - so this card now covers
+four machines. Same opening set (Steps, Calories, Pulse, Time Elapsed), same second set on the
+Up/Down Scan key, same four-second scan loop, same Strides Per Minute and Level windows.
+
+**The Vertical Distance / Distance split is three years old.** The **CS800-2021** already printed
+**Vertical Distance** in its second set and the **CRS800S-2021** already printed plain **Distance**,
+exactly as their 2024 successors do. It is a standing difference between the two machines, not a
+2024 edit.
+
+**The "LED Data Diplay Window" typo is three years old too.** The CRS800S-2021 misspells it the same
+way, four times on the same two pages, and the CS800-2021 spells it correctly. The misprint travels
+with the CRS800S book, not with the model year.
+
+**Only the 2024 books say the windows open on Steps "initially".** Both wordings mean the same thing;
+the 2021 books say the window "will initially be displaying" and the 2024 books say the same. Nothing
+here changed.

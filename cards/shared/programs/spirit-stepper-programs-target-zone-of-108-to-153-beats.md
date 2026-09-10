@@ -1,8 +1,8 @@
 ---
 id: spirit-stepper-programs-target-zone-of-108-to-153-beats
-title: Training at 60% to 85% of maximum gives a forty year old a stepper zone of 108 to 153 beats
+title: Training at 60% to 85% of maximum gives a forty year old a stepper or climber zone of 108 to 153 beats
 kind: fact
-question: What heart rate should I train at on a Spirit stepper?
+question: What heart rate should I train at on a Spirit stepper or vertical climber?
 asked_as:
 - what heart rate should i aim for on the stepper
 - how do i work out my maximum heart rate
@@ -24,8 +24,11 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
+  - cvc800
   section: programs
   code: '*'
 authority: 3
@@ -39,7 +42,7 @@ see_also:
 - ct900-rate-of-perceived-exertion-rpe
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 printed page 31; CRS800S printed page 32
+  locator: CS800 2021 printed p. 29; CRS800S 2021 p. 28; CVC800 p. 20; CS800 2024 p. 31; CRS800S 2024 p. 32
   extracted_at: '2026-09-10'
 ---
 
@@ -67,3 +70,14 @@ manual does not reconcile the two pairs - see
 
 **The CSC900 stairclimber prints no version of this page** - see
 `csc900-2024-programs-no-heart-rate-training-page`.
+
+**The 2021 CS800 and CRS800S and the CVC800 vertical climber print this page identically**, with the
+same 40-year-old example and the same 108-to-153 answer.
+
+Two other climbers in the same line print **different figures** and must not be answered from this
+card:
+
+- the **CSC880 stair climber** works its example at age **35**, giving **111 to 157** -
+  `csc880-2025-programs-target-zone-of-111-to-157-beats`;
+- the **8.5S-Fit rehabilitation stepper** recommends **65%** rather than 60%, and its summary line
+  misprints the answer - `85s-fit-2026-programs-target-zone-computed-as-117-and-153-but-printed-117-to-144`.

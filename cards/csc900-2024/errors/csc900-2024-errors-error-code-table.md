@@ -28,6 +28,9 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- csc880-2025-errors-error-code-table
+- csc880-2025-errors-er02-infrared-emergency-stop-triggered
+- csc880-2025-errors-er04-overcurrent-magnetic-wheel-short
 - spirit-2024-errors-seven-code-table-with-no-hyphen
 - ct850-2020-inverter-error-code-list
 see_also:
@@ -50,8 +53,8 @@ source:
 ---
 
 Five codes, each with its own card; this table is only the index. **They are written `ER` and two
-digits** - no `E`, no hyphen, no trailing letter - and no other Spirit machine in the repository uses
-that shape.
+digits** - no `E`, no hyphen, no trailing letter. One other Spirit machine uses that shape and
+numbers it differently; read the warning at the foot of this card before answering.
 
 | Code | Condition as printed | What it means |
 |---|---|---|
@@ -72,7 +75,24 @@ Three things to know before using this table.
   Problem/Reason/Method troubleshooting matrix, in the Problem column, mixed with rows that have no
   code at all. The table above was assembled from those rows; the manual has no error code chapter.
 
-**None of these codes exists on any other Spirit machine.** The 2024 treadmills use `E1`-`E7` or
+**The CSC880 2025 stair climber uses the same `ER` and two digits, and means different things by
+them.** It prints `ER01`, `ER02`, `ER03`, `ER04` and `ER07`, and **only `ER07` agrees with this
+table**:
+
+| Fault | On this machine | On the CSC880 2025 |
+|---|---|---|
+| Console not receiving controller data | **ER12** | **ER01** |
+| Controller not receiving console data | **ER11** | **ER03** |
+| Over-current | **ER05** | **ER04** |
+| Emergency stop switch or its wiring | **ER07** | **ER07** |
+| Magnet wheel wiring or a shorted MOS | **ER02** | folded into **ER04** |
+| Infrared emergency stop switch triggered | not printed | **ER02** |
+
+So `ER02` names two different faults on two Spirit stair climbers - a parts job here, a power cycle
+there. **Establish the model before you read a code back.** The CSC880 set is at
+`csc880-2025-errors-error-code-table`.
+
+**No other Spirit product line prints any of these.** The 2024 treadmills use `E1`-`E7` or
 `E-01H`-`E-52H`, the 2024 bikes and ellipticals use `EEPROM ERROR` and `E5`, the 2024 steppers use
 `RAM ERROR`, `MOTOR ERROR`, `EEPROM ERROR` and `Err`, and the 2024 rower uses `E1` and `E2`. Never
 answer a CSC900 caller from one of those.

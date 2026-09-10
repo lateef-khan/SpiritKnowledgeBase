@@ -3,7 +3,7 @@ id: csc900-2024-safety-instructions-list
 title: The eight numbered safety instructions written for a commercial gymnasium rather than
   a household
 kind: policy
-question: What does the SAFETY INSTRUCTIONS page say for a Spirit CSC900-2024 stairclimber?
+question: What does the safety instructions page say for a Spirit CSC900 stairclimber?
 asked_as:
 - what are the safety rules for the csc900 stair climber
 - safety instructions page of the stairclimber manual
@@ -24,8 +24,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: safety
   code: '*'
@@ -34,6 +36,7 @@ not_to_be_confused_with:
 - spirit-2024-safety-instructions-list-stepper
 - spirit-ce850-safety-instructions-list
 - ctsbs900-safety-instructions
+- spirit-climber-safety-instructions-list-csc880
 see_also:
 - csc900-2024-safety-user-weight-limit-400-lb
 - csc900-2024-safety-outlet-120-or-230-volt
@@ -41,15 +44,20 @@ see_also:
 - csc900-2024-safety-moving-staircase-and-stop-button
 - ct900ent-operating-environment-voltage
 - spirit-ce-safety-who-may-use-the-elliptical
+- spirit-climber-safety-tether-cord-on-a-stair-climber
+- spirit-climber-safety-generator-is-live-while-the-stairs-turn
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: SAFETY INSTRUCTIONS, printed page 5 (PDF page 7)
+  locator: SAFETY INSTRUCTIONS, printed page 5 (PDF page 7). The 2019 and 2021 printings carry the
+    same eight items as bullets on their IMPORTANT SAFETY INSTRUCTIONS page, printed page 3 (PDF
+    page 5)
   extracted_at: '2026-09-10'
 ---
 
 **This is the only one of the fourteen 2024 manuals whose safety list is written for a club rather
 than a home.** It is eight items long - the shortest list in the range - and it carries no carpet
-rule, no proper-shoes rule, no aerosol rule and no pulse-sensor rule.
+rule, no proper-shoes rule, no aerosol rule and no pulse-sensor rule. **The 2019 and 2021 CSC900
+manuals print the same eight items**, as bullets rather than numbers.
 
 > When using an electrical appliance, basic precautions should always be followed, including the
 > following: Read all instructions before using this appliance.
@@ -75,6 +83,27 @@ Beside the list is the boxed note printed on every one of the fourteen 2024 manu
 > Please ensure that you review and adhere to the user weight restrictions and power requirements of
 > your new machine. Failure to do so may result in serious injury or damage to your machine.
 
+## What the 2019 and 2021 printings do differently
+
+| | 2019 and 2021 | 2024 |
+|---|---|---|
+| The items | eight **bullets**, weight limit third from the end | eight **numbered** items, weight limit last |
+| Item 8 wording | `Maximum User Weight: 400 lbs / 180 kg.` | `User Weight Limit: 400 lb.` |
+| DANGER header | not printed | `DANGER - To reduce the risk of electric shock` |
+| Boxed weight-and-power note | not printed | printed |
+| Closing line | `SAVE THESE INSTRUCTIONS - THINK SAFETY!` | not printed |
+
+The eight instructions themselves are the same instructions in the same order. Nothing that decides
+an answer changes between the three printings except the wording of the weight line, and the figure
+in it does not move.
+
+**The 2019 electrical page carries one warning the later two dropped**, about the generator being
+live while the staircase turns
+(`spirit-climber-safety-generator-is-live-while-the-stairs-turn`).
+
+**The 2019 and 2021 machines have a safety tether cord and the 2024 machine does not**
+(`spirit-climber-safety-tether-cord-on-a-stair-climber`).
+
 **Item 2 puts servicing out of the owner's hands entirely.** No other 2024 manual says this; the
 other thirteen tell the user to call a dealer only when the machine is not working properly.
 
@@ -90,5 +119,9 @@ dismounting, clothing and hair, and the owner's duty to maintain the machine
 `csc900-2024-safety-moving-staircase-and-stop-button`).
 
 **400 lb, not 450.** Every other machine in the 2024 range is 450 lb
-(`spirit-ct800-safety-user-weight-limit-450-lbs`); this one is not
+(`spirit-ct800-safety-user-weight-limit-450-lbs`); this one is not, and has not been since 2019
 (`csc900-2024-safety-user-weight-limit-400-lb`).
+
+**The CSC880-2025 that replaces this machine prints the same eight items with two figures changed**,
+330 lb and a supply sentence that offers 120 VAC alone
+(`spirit-climber-safety-instructions-list-csc880`).

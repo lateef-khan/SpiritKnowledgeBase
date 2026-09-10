@@ -38,6 +38,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -120,3 +122,21 @@ Sleep Mode, a described Motor test, a Child Lock and an Exit:
 
 **Neither ENT bike has an engineering menu.** Their touchscreen Settings menu holds units, brightness,
 child lock and a software update, and no key test, odometer reset or diagnostics of any kind.
+
+**The Spirit XS895 incline stepper prints this menu word for word** - XS895-2018 p. 34 and
+XS895-2021 p. 34, Engineering Mode Menu - so this card now covers a stepper as well. Same three-key
+entry, same five-second hold, same four top-level items, and Functions ending in the same undescribed
+**Motor Test** and **Safety**. The **Security** item breaks out to top level as **4. Security**, the
+way the ellipticals print it.
+
+**The two XS895 printings are identical here.** Their console sections match at 99.3% at word level
+across the whole chapter, and this menu is one of the passages with no difference at all.
+
+**The XS895 prints two extra keystrokes below the menu that no other machine on this card has**, both
+in the same block:
+
+- an **Incline Calibration** - Start, Level up and Stop together for five seconds - which it shares
+  with the XE395-2018 (`xe395-2018-errors-incline-calibration-three-key-hold`) because it is the
+  other machine on this platform with a powered incline;
+- a **Bluetooth on/off** toggle on a key its own console drawing never shows:
+  `xs895-console-bluetooth-on-off-on-a-key-the-drawing-never-shows`.

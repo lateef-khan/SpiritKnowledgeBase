@@ -54,6 +54,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -111,3 +113,7 @@ programs only.
 
 **The two ENT bikes store profiles instead**, exactly as the XE395ENT does: a named profile per user,
 linked to a Spirit app account by scanning a QR code, each with its own units and its own history.
+
+**The Spirit XS895 incline stepper prints this note word for word** - XS895-2018 and
+XS895-2021, p. 20, under ENTERING A PROGRAM AND CHANGING SETTINGS. The last Age and Weight entered
+become the new defaults, so the next user on the machine inherits them until they type their own.

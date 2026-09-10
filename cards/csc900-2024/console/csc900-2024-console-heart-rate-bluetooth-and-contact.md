@@ -24,8 +24,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2021
   - csc900-2024
   section: console
   code: '*'
@@ -65,3 +67,20 @@ Bluetooth compatible** and pair a strap from a **Heart Rate icon** in the status
 
 **It prints no bpm range** and no troubleshooting for a strap that will not read. How to wear a strap
 is `ctsbs900-heart-rate-chest-strap-pairing`.
+
+**The CSC900-2021 and the CSC880-2025 print this paragraph word for word** - CSC900-2021
+printed p. 15 and CSC880-2025 printed p. 19, both under BASIC INFORMATION - so the automatic
+closest-sensor behaviour is four years older than the 2024 book and is still current in 2025. Same
+two capabilities, same upper left side window, same scroll button, same "may take a few seconds",
+and the same silence about what happens when two straps are in range.
+
+**None of the three manuals mentions Polar.**
+
+**The CSC880-2025 is the only one of the three that says what radio it is.** Its compliance page
+lists **Bluetooth (with FTMS)** among the standards the product is certified to -
+`csc880-2025-console-bluetooth-with-ftms-declared-with-no-pairing-procedure`. The two CSC900
+printings declare no such thing anywhere.
+
+**The CSC900-2019 is the printing to keep off this card.** It describes a **built-in heart rate
+monitoring system** with contact sensors only and no Bluetooth at all:
+`csc900-2019-console-heart-rate-is-contact-only-with-no-bluetooth-strap`.

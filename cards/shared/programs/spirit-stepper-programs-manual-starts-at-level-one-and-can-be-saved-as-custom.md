@@ -23,7 +23,9 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   section: programs
   code: '*'
@@ -36,7 +38,7 @@ see_also:
 - spirit-ce-programs-manual-mode
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 printed page 22; CRS800S printed page 22
+  locator: CS800 2021 printed p. 21; CRS800S 2021 p. 21; CS800 2024 p. 22; CRS800S 2024 p. 22
   extracted_at: '2026-09-10'
 ---
 
@@ -60,3 +62,6 @@ The Manual program works as the name implies: **you control the workload, not th
    following the Dot Matrix Message Center.
 
 **Manual asks for no Max Level**, because there is no profile to scale.
+
+**The 2021 printings carry the same eight steps.** The quarter-mile-track sentence in step 7 is on the
+CS800 in both years and on neither CRS800S printing.

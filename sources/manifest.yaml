@@ -1401,6 +1401,48 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XIC600/2015/XIC600_600377_OM_20211130.pdf
   sha256: a47bc251ba445b4ca621d638d1eca8391fd896bf68751ebcccbb9f3c87e97f00
   ingested_at: '2026-09-09'
+- id: spirit-climber-70s-2025-owners-manual
+  title: 2025 Spirit 7.0S stepper owner's manual, (c) 2025, warranty effective December
+    18, 2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/70S/70S_770545_OwnersManual_20251218.pdf
+  sha256: 393dae94e0abbd0d65ed3ad7abe20a1cfe0838bd38ec631699f62f297803468d
+  ingested_at: '2026-09-10'
+- id: spirit-climber-75s-2025-owners-manual
+  title: 2025 Spirit 7.5S stepper owner's manual, (c) 2025, warranty effective October
+    23, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/75S/75S_775545_OwnersManual_20251215.pdf
+  sha256: fb32f52c7f84702c6f13bf1cf15723e8128eecb512cec215245553ef0b2eed3d
+  ingested_at: '2026-09-10'
+- id: spirit-climber-85s-2025-owners-manual
+  title: 2025 Spirit 8.5S stepper owner's manual, (c) 2025, warranty effective December
+    15, 2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/8.5S/85S_OwnersManual_20251210.pdf
+  sha256: 62f289e8e225d83ec1286e58a99bafbe0286f9d11762e861779ce49c4c436754
+  ingested_at: '2026-09-10'
+- id: spirit-climber-85s-fit-2026-owners-manual
+  title: '2026 Spirit 8.5S-Fit stepper owner''s manual, (c) 2026. The newest manual
+    in the corpus. Warranty effective May 20, 2026, printed on PDF p. 55 and readable
+    only from a render, not from the extraction. Its registration page reads "Dyaco
+    provides..." where its three siblings read "Spirit by Dyaco".'
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/8.5S/85S-Fit_OwnersManual_20260520.pdf
+  sha256: 376ff2ccc29ab0beea082ee2eff61d6475cdbf544fe5b62a1337267151283e4f
+  ingested_at: '2026-09-10'
+- id: spirit-climber-crs800s-2021-owners-manual
+  title: 2021 Spirit CRS800S recumbent stepper owner's manual, (c) 2021, warranty
+    effective October 8, 2021
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CRS800s/CRS800S_20211008.pdf
+  sha256: 105191ff1fcf9430bca20e20fbf1cc245ad1a5d1da5c0e927535955f13e0c5e1
+  ingested_at: '2026-09-10'
 - id: spirit-climber-crs800s-2024-owners-manual
   title: 2024 Spirit CRS800S recumbent stepper owner's manual, warranty effective
     September 27, 2024. A machine with no cards in the repository.
@@ -1408,6 +1450,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/New Black
     Units/CRS800S_OwnersManual_800525_20240927.pdf
   sha256: c41a6b5ad7839f5472cc224b5206e7d871c62a279800345339113735794a4c88
+  ingested_at: '2026-09-10'
+- id: spirit-climber-cs800-2021-owners-manual
+  title: 2021 Spirit CS800 stepper owner's manual, (c) 2021, warranty effective November
+    12, 2021
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CS800/CS800_20211112.pdf
+  sha256: d51ad48dd30aa3ec7443d95f9d3ff31bc02055ed21331a5ec372eed4ab0effc0
   ingested_at: '2026-09-10'
 - id: spirit-climber-cs800-2024-owners-manual
   title: 2024 Spirit CS800 stepper owner's manual, warranty effective September 30,
@@ -1417,6 +1467,31 @@
     Units/CS800_OwnersManual_800625_20240930.pdf
   sha256: a0cbf05bd7e880ae5f4a089b56c4a53a7469a7b854d1332b59bb30d022c13ff0
   ingested_at: '2026-09-10'
+- id: spirit-climber-csc880-2025-owners-manual
+  title: 2025 Spirit CSC880 stair climber owner's manual, (c) 2025, warranty effective
+    February 14, 2025. Its cover carries the untranslated OEM label CLE450S-3A1 in
+    Chinese.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CSC880/CSC880_880665_OM_20251030.pdf
+  sha256: 623815745f6b1ba2085b96ccfdfa02622a51cdf11acd1a2142da5b29a40bc092
+  ingested_at: '2026-09-10'
+- id: spirit-climber-csc900-2019-owners-manual
+  title: 2019 Spirit CSC900 StairClimber owner's manual, Revision 12.01.2019, warranty
+    effective December 1, 2019
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CSC900/CSC900 900669 Owners Manual.pdf
+  sha256: 479099092f0db2abcea4cb08c29069c30003d3b7668bcda5e18b96eb64a65784
+  ingested_at: '2026-09-10'
+- id: spirit-climber-csc900-2021-owners-manual
+  title: 2021 Spirit CSC900 StairClimber owner's manual, Revision 11.19.2021, warranty
+    effective November 19, 2021. 85.9% against the 2019 printing.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CSC900/CSC900_20211119.pdf
+  sha256: 26daee54ace1776c986b70a9a220ca647233e82d5a6853e623518e38ed45da28
+  ingested_at: '2026-09-10'
 - id: spirit-climber-csc900-2024-owners-manual
   title: 2024 Spirit CSC900 stairclimber owner's manual, warranty effective September
     27, 2024. A machine with no cards in the repository.
@@ -1425,12 +1500,47 @@
     Units/CSC900_OwnersManual_900665_20240925.pdf
   sha256: 1156f153e149c2187680b7c6a2a5f596a8c484e596e3f1866626a3afea647cc0
   ingested_at: '2026-09-10'
+- id: spirit-climber-cvc800-2021-owners-manual
+  title: 2021 Spirit CVC800 Vertical Climber owner's manual, (c) 2021, warranty effective
+    November 19, 2021. Cards use the existing model id cvc800, which has no year suffix
+    and already carries 74 cards from the service manual.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/CVC800/CVC800_20211119.pdf
+  sha256: 98d691c8b473bcd6d248cf6e29a7ba0691dbf950e50e3cef4761aae45f569da2
+  ingested_at: '2026-09-10'
 - id: spirit-climber-cvc800-service-manual
   title: Spirit CVC800 vertical climber service manual
   kind: markdown
   origin_uri: file://CVC800 Service Manual.pdf
   sha256: de707d0ad3440ebaed1f23337a000174b024b44e4ae3b4a3bade44eb6782e4cc
   ingested_at: '2026-09-08'
+- id: spirit-climber-ms300-2021-owners-manual
+  title: 2021 Spirit MS300 physical rehabilitation recumbent stepper owner's manual,
+    71 pages. Its cover carries a stray '7.0 S' from the Dyaco MED template it was
+    made from.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/MS300/MS300_20211124.pdf
+  sha256: ffda8059408375d39d9cc5dd42edcbc1b8832af8cd1489100f019e25407e9c85
+  ingested_at: '2026-09-10'
+- id: spirit-climber-xs895-2018-owners-manual
+  title: 2018 Spirit XS895 incline stepper owner's manual, (c) 2018, warranty effective
+    August 22, 2018. Held back from the elliptical waves because an XS895 is a stepper,
+    not an elliptical.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/XS895/XS895_OM_20180822.pdf
+  sha256: e812a7b9e6e4a0743abc7449b62a4426106fc9851f6247577c9abea737b2e0bc
+  ingested_at: '2026-09-10'
+- id: spirit-climber-xs895-2021-owners-manual
+  title: 2021 Spirit XS895 incline stepper owner's manual, (c) 2021, warranty effective
+    February 19, 2021. 97.0% against the 2018 printing on native text.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Climbers
+    Steppers/XS895/XS895_20210219.pdf
+  sha256: d172ca6bff81c50cb7799a83da103d9291721a6e47202b985b2682a1d7bd63e6
+  ingested_at: '2026-09-10'
 - id: spirit-elliptical-ce800-2013-owners-manual
   title: Spirit CE800 Elliptical Trainer Owner's Manual (part 800843, revision CE800_20130605)
     - OCR

@@ -36,10 +36,12 @@ not_to_be_confused_with:
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
 - spirit-ce800-console-maintenance-menu-function-and-service
 - ce900-2025-console-engineering-mode-unit-type
+- spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page
 see_also:
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
 - ct900ent-sleep-mode-auto-shutoff
 - spirit-stepper-console-led-data-windows-steps-and-vertical-distance
+- spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page
 source:
   ref: spirit-climber-cs800-2024-owners-manual
   locator: CS800-2024 p. 33 ENGINEERING MODE MENU; the CRS800S-2024 owner's manual prints the same
@@ -89,3 +91,13 @@ mode, no protocol choice, and a **PWM test** where this one has a Motor test:
 **The CSC900-2024 stair climber has no maintenance or engineering menu at all.** The words
 engineering mode and maintenance mode appear nowhere in that manual; units are changed by pressing
 **1, 2, 3, OK** from the running display instead (`csc900-2024-console-four-display-windows`).
+
+**Correction: these two are not the only Spirit machines whose menu states the sleep
+default, and the default they state is not the only one on record.** The **CRS800S-2021** owner's
+manual prints the same menu with **Sleep mode (Default Off)** - the opposite value - on its printed
+p. 36, and its TO TURN STEPPER OFF paragraph says so again in words. The **CS800-2021** prints a bare
+**Sleep mode** with no default, like the CE850. So the 2024 books did not introduce the annotation;
+they **flipped the value it carries**, on the CRS800S at least.
+
+Quote the year in front of you. The 2021 pair is carded separately, because the figure differs:
+`spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page`.

@@ -2,11 +2,12 @@
 id: csc900-2024-errors-brake-does-not-turn-on
 title: The brake does not turn on and the machine will not run, and the test is 24 volts and a click
 kind: troubleshooting
-question: Why will a Spirit CSC900-2024 stairclimber not run after pressing START?
+question: Why will a Spirit stair climber not run after pressing START, with the brake still on?
 asked_as:
 - my stairclimber wont move when i press start
 - csc900 brake wont engage
 - stair climber steps wont run
+- csc880 brake not releasing
 keywords:
 - brake
 - 24v
@@ -20,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
   - csc900-2024
   section: errors
   code: no-code
@@ -30,13 +32,17 @@ not_to_be_confused_with:
 - csc900-2024-errors-er12-console-not-receiving-controller-data
 see_also:
 - csc900-2024-errors-error-code-table
+- csc880-2025-errors-error-code-table
 - csc900-2024-errors-er02-magnetic-wheel-or-control-board
 - csc900-2024-errors-er12-console-not-receiving-controller-data
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: TROUBLESHOOTING, Problem / Reason / Method table on printed page 34. That
-    page is a flat picture with no text layer and was read from the rendered page at 500
-    dpi.
+  locator: 'CSC900 2024: TROUBLESHOOTING, Problem / Reason / Method table on printed
+    page 34; that page is a flat picture with no text layer and was read from the rendered
+    page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
+    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 7 on printed
+    page 34 (PDF page 36), read from the native text layer and confirmed against a 400
+    dpi render.'
   extracted_at: '2026-09-10'
 ---
 
@@ -58,3 +64,19 @@ only the sound.
 If the console reports `ER02` at the same time, the magnet wheel wiring is the first thing to reseat
 (`csc900-2024-errors-er02-magnetic-wheel-or-control-board`). A machine that runs but will not brake
 is `ER12` instead (`csc900-2024-errors-er12-console-not-receiving-controller-data`).
+
+## The CSC880 2025 stair climber prints the same row, with the same 24 volts
+
+Its wording names the part a **power-off brake** - a brake held open by power, so that losing power
+applies it - and gives the same two tests:
+
+> 1. Check whether the connection cable is loose or damaged.
+> 2. Apply a separate 24V voltage to check whether the brake is open (a "click" sound will be heard
+>    when it is open).
+> 3. Replace the power-off brake.
+>
+> Controller failure: After startup, use a multimeter to measure whether there is a 24V output
+> voltage at the controller brake connector. Replace the controller.
+
+Same figure, same pass condition, same order. The only difference is the name: the CSC900 book calls
+it "the brake is no power or failure", the CSC880 book calls it a power-off brake.

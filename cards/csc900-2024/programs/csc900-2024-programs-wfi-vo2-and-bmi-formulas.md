@@ -2,7 +2,7 @@
 id: csc900-2024-programs-wfi-vo2-and-bmi-formulas
 title: How the stairclimber turns your time and body mass index into an estimated VO2 max
 kind: fact
-question: How is the VO2 max score calculated on the Spirit csc900-2024 stairclimber?
+question: How is the VO2 max score calculated on a Spirit stairclimber?
 asked_as:
 - how does the stairclimber work out my vo2 max
 - what is the vo2 formula
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc900-2021
   - csc900-2024
   section: programs
   code: '*'
@@ -35,7 +36,7 @@ see_also:
 - csc900-2024-programs-cpat-stairclimber-protocol
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: printed page 23 (PDF page 25)
+  locator: CSC900 2021 printed p. 22 (PDF 24); CSC900 2024 printed p. 23 (PDF 25)
   extracted_at: '2026-09-10'
 ---
 
@@ -70,3 +71,6 @@ tests, which use a different protocol and a different estimator.
 
 *The formula lines are printed as a flat image and were read from a 400 dpi render. The BMI line
 carries a stray "z" after "Height (m)2" in the print; it is not part of the formula.*
+
+**The 2021 CSC900 prints the same three formulas**, including the same stray "z" after
+"Height (m)2". The 2019 CSC900 and the 2025 CSC880 print no fitness test and no VO2 estimator.

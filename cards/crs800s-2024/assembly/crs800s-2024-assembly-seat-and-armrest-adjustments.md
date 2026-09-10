@@ -4,7 +4,7 @@ title: Five adjustments on five separate levers - seat rotation, recline, fore/a
   armrest angle and handhold reach
 kind: procedure
 question: How do I adjust the seat, the armrests and the handholds on a Spirit CRS800S
-  (crs800s-2024) semi-recumbent stepper?
+  (crs800s-2021 or crs800s-2024) semi-recumbent stepper?
 asked_as:
 - how do i move the seat on the crs800s
 - how do i swivel the seat to get on
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: assembly
   code: '*'
@@ -76,3 +77,12 @@ The same page says the console powers up automatically when the DC power cord is
 connected, performs a self-test with all lights on, then shows the software version,
 the total hours of use and the total ksteps before going to the start-up display. There
 is no power switch and no safety key in the sequence.
+
+## The 2021 printing is the same chapter, word for word
+
+`spirit-climber-crs800s-2021-owners-manual`, pp. 9-15, prints this unchanged - the same
+steps in the same order and the same five hardware tables, item number for item number
+and quantity for quantity. Compared from the two PDFs' own text, not from the
+conversions. The only difference in the whole chapter is layout: the 2021 book puts
+TOOLS INCLUDED and PARTS INCLUDED on the pre-assembly page and the 2024 book puts them
+on a page of their own two pages earlier.

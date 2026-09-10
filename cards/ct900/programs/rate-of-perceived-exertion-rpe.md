@@ -19,6 +19,7 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - 85s-fit-2026
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -33,9 +34,12 @@ facets:
   - ces880-2025
   - cr800-2024
   - cr800ent-2024
+  - crs800s-2021
   - crs800s-2024
   - crw800-2024
+  - cs800-2021
   - cs800-2024
+  - csc880-2025
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -50,6 +54,7 @@ facets:
   - ct850ent-2024
   - ct900
   - cu800-2024
+  - cvc800
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -70,6 +75,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt285-2015
   - xt285-2023
   - xt385-2015
@@ -192,3 +199,22 @@ Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.
 the treadmills through to the rower, under the heading "HEART RATE - PERCEIVED EXERTION". **The
 CSC900 stairclimber is the exception** - it prints no RPE page, no heart rate training page and no
 chest strap page; see `csc900-2024-programs-no-heart-rate-training-page`.
+
+**Seven of the thirteen 2018-2026 Spirit climber and stepper manuals print the same scale, value for
+value.** They split into the two framings above:
+
+- The **"listen to your body"** opening, headed "Rate of Perceived Exertion": XS895 2018 and XS895
+  2021 incline steppers (printed page 28), both keeping the four closing sentences with "easier" and
+  "harder".
+- The **reworded** opening - the scale helps users determine an approximate heart rate level when a
+  heart rate monitor was not in use: CVC800 vertical climber (printed page 22), CS800 2021 stepper
+  (page 32) and CRS800S 2021 recumbent stepper (page 31), all headed "Rate of Perceived Exertion".
+- The **CSC880 2025** stair climber (printed page 30) and the **8.5S-Fit 2026** rehabilitation
+  stepper (page 46) head it "Heart Rate - Perceived Exertion" with the "listen to your body" opening
+  and the four closing sentences using "comfortable" and "difficult".
+
+**Six of the thirteen print no RPE page at all**: the CSC900 2019 and CSC900 2021 stairclimbers -
+which, like the 2024 one, print no heart rate chapter of any kind - and the MS300, 7.0S, 7.5S and
+8.5S rehabilitation steppers. For the rehabilitation machines see
+`spirit-rehab-stepper-programs-no-maximum-heart-rate-formula-and-no-training-zone-page`.
+

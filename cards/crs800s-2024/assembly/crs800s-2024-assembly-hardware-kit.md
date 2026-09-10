@@ -3,7 +3,7 @@ id: crs800s-2024-assembly-hardware-kit
 title: Hardware for the five tables, twelve 3/8 inch by 3/4 inch swing arm bolts and
   the only square nuts in the range
 kind: fact
-question: What fasteners does each step of the Spirit CRS800S (crs800s-2024)
+question: What fasteners does each step of the Spirit CRS800S (crs800s-2021 or crs800s-2024)
   semi-recumbent stepper assembly use, and how many of each?
 asked_as:
 - what bolts come with the crs800s
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: assembly
   code: '*'
@@ -130,3 +131,12 @@ eight. Nothing in the book accounts for the other two.
 
 **No torque figure for any bolt.** No step of this build gives one, and the carton
 holds no tool that could set one.
+
+## The 2021 printing is the same chapter, word for word
+
+`spirit-climber-crs800s-2021-owners-manual`, pp. 9-15, prints this unchanged - the same
+steps in the same order and the same five hardware tables, item number for item number
+and quantity for quantity. Compared from the two PDFs' own text, not from the
+conversions. The only difference in the whole chapter is layout: the 2021 book puts
+TOOLS INCLUDED and PARTS INCLUDED on the pre-assembly page and the 2024 book puts them
+on a page of their own two pages earlier.

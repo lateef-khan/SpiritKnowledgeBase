@@ -32,6 +32,7 @@ see_also:
 - cvc800-workout-mode-buttons
 - cvc800-idle-mode-buttons
 - cvc800-program-buttons
+- cvc800-console-fls-and-fpm-in-the-message-window
 source:
   ref: spirit-climber-cvc800-service-manual
   locator: Section 4 Product Operation, Operation, QUICK START, p. 13 (printed 13)
@@ -49,3 +50,11 @@ with the **UP / DOWN** keys.
 
 Pressing STOP a third time returns the console to idle mode, and holding STOP for 3 seconds in idle
 mode resets the console.
+
+**The 2021 owner's manual prints this procedure word for word** on its printed p. 16, under
+QUICK START, so both books agree: Start begins, Time counts up from zero, Up/Down set the workload,
+Stop once pauses, Start resumes, Stop twice ends.
+
+**The owner's manual adds one line the service manual has not**, immediately below the procedure:
+`NOTE: FLS (Total Floors Climbed), FPM (Floors Per Minute)` -
+`cvc800-console-fls-and-fpm-in-the-message-window`.

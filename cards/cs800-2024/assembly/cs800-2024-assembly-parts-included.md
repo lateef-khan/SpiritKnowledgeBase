@@ -3,7 +3,7 @@ id: cs800-2024-assembly-parts-included
 title: What comes in the carton, twelve part lines with four levellers no step ever
   fits
 kind: fact
-question: What parts come in the carton of a Spirit CS800 (cs800-2024) stepper?
+question: What parts come in the carton of a Spirit CS800 (cs800-2021 or cs800-2024) stepper or CVC800 (cvc800) vertical climber stepper?
 asked_as:
 - what should be in the box of my cs800
 - how many parts come with the spirit stepper
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: cs800-2024
+  model: '*'
   applies_to:
+  - cs800-2021
   - cs800-2024
+  - cvc800
   section: assembly
   code: '*'
 authority: 3
@@ -94,3 +96,20 @@ than loose in the carton. It is thrown away. See
 It gives no carton count, no shipping weight and no box dimensions, and it lists no
 handlebar connecting plate or handlebar caps even though step two and step three fit
 both.
+
+## Three machines print this panel, line for line
+
+The **CS800 2021** manual (`spirit-climber-cs800-2021-owners-manual`, p. 8) and the
+**CVC800** vertical climber (`spirit-climber-cvc800-2021-owners-manual`, p. 8) print
+the same twelve lines with the same quantities, in the same order. Compared from the
+three PDFs' own text.
+
+The CVC800 is a vertical climber and the CS800 a stepper, and they still ship the same
+carton manifest - four levellers, two transport wheels, four handlebar tubings and a
+water bottle holder.
+
+**Only the CVC800 fits the water bottle holder.** Its step four item 6 installs the
+Beverage Holder (No.78) with two tapping screws. Neither CS800 printing of the build
+mentions it: the 2024 book fits it at step three item 4 and the 2021 book does not fit
+it at all. See
+[the CVC800 build](../../cvc800/assembly/cvc800-assembly-procedure.md).

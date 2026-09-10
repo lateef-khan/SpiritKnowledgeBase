@@ -48,6 +48,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -98,3 +100,11 @@ give it its own **Built-in Fan** heading on the FEATURES page.
 
 **The two ENT bikes control the fan from the screen.** Their console drawing labels a **Swivel Fan**
 and their icon bar carries a Fan on/off icon, on the Homescreen and during a workout alike.
+
+**The Spirit XS895 incline stepper prints the same sentence** - XS895-2018 and XS895-2021,
+p. 18: "The console includes a built-in fan to help keep you cool. To turn the fan on, press the key
+on the left side of the console."
+
+**Its console drawing labels the fan a Swivel Fan** and shows a **FAN** key at the left end of the
+bottom key row, which is the key the sentence means. The manual gives **no speed, no default and no
+way to switch it off**.

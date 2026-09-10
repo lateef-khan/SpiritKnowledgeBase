@@ -30,6 +30,7 @@ facets:
   - cr800-2024
   - cr900ent-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -178,3 +179,13 @@ place in those three books.
 CT800-2020 has none. Their engineering menu is the only place either prints a sleep figure, and it
 says 30 minutes (`ct900-engineering-mode-menu`). **The CSC900-2024 and CRW800-2024 print no
 inactivity timeout anywhere.**
+
+**The CS800-2021 owner's manual prints this paragraph word for word** - printed p. 19, TO
+TURN STEPPER OFF. Thirty minutes of inactivity, most circuitry powered down except enough to detect a
+button press and the safety button, about as much current as a television that is switched off, and
+it is fine to leave the main power switch on.
+
+**The CS800-2021 prints no default for sleep mode**, in this paragraph or in its engineering menu.
+**Its sibling the CRS800S-2021 does, and says the default is Off** - which is the opposite of what
+the 2024 books say. See
+`spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page`.

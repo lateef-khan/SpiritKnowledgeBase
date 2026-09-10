@@ -2,8 +2,8 @@
 id: csc900-2024-safety-clearance-around-the-machine
 title: Twenty inches of clearance at each side and forty-eight inches behind the machine
 kind: policy
-question: How much room does a Spirit CSC900-2024 stairclimber need around it, and where may
-  it stand?
+question: How much room does a Spirit CSC900 or CSC880 stair climber need around it, and where
+  may it stand?
 asked_as:
 - how much space do i need around the stair climber
 - clearance behind the csc900
@@ -24,8 +24,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: csc900-2024
+  model: '*'
   applies_to:
+  - csc880-2025
+  - csc900-2019
+  - csc900-2021
   - csc900-2024
   section: safety
   code: '*'
@@ -34,13 +37,17 @@ not_to_be_confused_with:
 - spirit-2024-safety-treadmill-location-requirements
 - ct900ent-clearance-requirements
 - spirit-indoor-cycle-safety-floor-and-clearance
+- spirit-climber-safety-clearance-two-feet-at-the-sides
+- spirit-climber-safety-clearance-three-and-a-half-feet-at-the-rear
 see_also:
 - csc900-2024-safety-instructions-list
 - csc900-2024-safety-moving-staircase-and-stop-button
 - csc900-2024-safety-outlet-120-or-230-volt
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: ELECTRICAL SAFETY, printed page 6 (PDF page 8), the club rules paragraph
+  locator: ELECTRICAL SAFETY, printed page 6 (PDF page 8), the club rules paragraph. The 2019 and
+    2021 CSC900 printings carry the same paragraph on their IMPORTANT ELECTRICAL INSTRUCTIONS
+    page, printed page 4, and the CSC880-2025 on its ELECTRICAL SAFETY page, printed page 6
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +76,11 @@ national and local codes above them.
 20in at the front and sides and **6ft** behind
 (`spirit-2024-safety-treadmill-location-requirements`) - a different figure for a different machine,
 printed on a different page.
+
+**All four stair climber manuals print this paragraph word for word** - CSC900 in 2019, 2021 and
+2024, and CSC880 in 2025. No figure has changed across six years and two model numbers.
+
+**The steppers of the same range are in feet, not inches, and are not interchangeable with this.**
+The 7.0S, 7.5S and MS300 ask for two feet at the sides and one foot front and rear
+(`spirit-climber-safety-clearance-two-feet-at-the-sides`); the 8.5S and 8.5S-Fit for three and a half
+feet at the rear (`spirit-climber-safety-clearance-three-and-a-half-feet-at-the-rear`).

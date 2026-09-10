@@ -25,7 +25,9 @@ facets:
   product_line: climber
   model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   section: programs
   code: '*'
@@ -38,7 +40,7 @@ see_also:
 - spirit-stepper-programs-manual-starts-at-level-one-and-can-be-saved-as-custom
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: CS800 printed pages 22-23; CRS800S printed pages 22-23
+  locator: CS800 2021 printed p. 25; CRS800S 2021 p. 23; CS800 2024 pp. 22-23; CRS800S 2024 pp. 22-23
   extracted_at: '2026-09-10'
 ---
 
@@ -63,3 +65,7 @@ source:
 
 If you start a program without changing the settings, **the default or pre-saved settings are used**
 - pressing **Start** instead of Enter bypasses data entry entirely.
+
+**The 2021 printings of both machines carry the same nine steps**, including the sentence about the
+profile picture not changing. The **2021 CS800 alone** spells the display "LED Data Dipslay Window"
+in step 8, twice; the 2021 CRS800S and both 2024 books spell it correctly.

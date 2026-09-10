@@ -30,7 +30,9 @@ facets:
   - ce850-2022
   - ce850-2024
   - cr800ent-2023
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -58,6 +60,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   - xt685-2010
   section: safety
   code: '*'
@@ -267,3 +271,8 @@ Grainger `1D237` and squared.com `QO120HM` examples and the same `we as a manufa
 2024 treadmills and the three touchscreen ENT machines print the AFCI/GFCI nuisance-tripping text
 instead (`xt-2023-safety-afci-gfci-nuisance-tripping`), and the self-powered CE800, CR800 and CU800,
 the CSC900 and the CRW800 rower print neither.
+
+**Four more Spirit climbers print this paragraph word for word**, each naming its own machine where
+the others name theirs: the CRS800S-2021 and CS800-2021 steppers on their printed page 5, and the
+XS895 incline stepper on printed page 6 of both the 2018 and 2021 books. The Grainger and Square D
+part numbers are the same in all of them.

@@ -3,7 +3,7 @@ id: crs800s-2024-assembly-procedure
 title: 'Five-stage build with a continued step two: seat and handgrip first, then
   transport wheels and mast, seat back, and the swing arms last'
 kind: procedure
-question: How do I assemble a Spirit CRS800S (crs800s-2024) semi-recumbent stepper
+question: How do I assemble a Spirit CRS800S (crs800s-2021 or crs800s-2024) semi-recumbent stepper
   from the carton?
 asked_as:
 - how do i put together the crs800s
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: assembly
   code: '*'
@@ -116,3 +117,12 @@ step two installs. There is no first-power-on step either: the setting-up page t
 follows is five seat and armrest adjustments, and the console comes on when the DC
 cord is connected. See
 [the adjustments card](crs800s-2024-assembly-seat-and-armrest-adjustments.md).
+
+## The 2021 printing is the same chapter, word for word
+
+`spirit-climber-crs800s-2021-owners-manual`, pp. 9-15, prints this unchanged - the same
+steps in the same order and the same five hardware tables, item number for item number
+and quantity for quantity. Compared from the two PDFs' own text, not from the
+conversions. The only difference in the whole chapter is layout: the 2021 book puts
+TOOLS INCLUDED and PARTS INCLUDED on the pre-assembly page and the 2024 book puts them
+on a page of their own two pages earlier.

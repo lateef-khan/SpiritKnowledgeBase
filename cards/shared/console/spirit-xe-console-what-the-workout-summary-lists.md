@@ -53,6 +53,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -117,3 +119,17 @@ does, and neither manual says the two are different measurements.
 
 **The XBR25-2019 reports total Laps with no lap track described anywhere in the book** - the only
 residential bike in that position.
+
+**The Spirit XS895 incline stepper reports a stepper's fields**, and it is the only machine on
+this card that does. XS895-2018 and XS895-2021, p. 17:
+
+| Machine | Fields the manual lists |
+|---|---|
+| **XS895-2018, XS895-2021** | Total time, **Avg. fpm**, **total floors**, Avg. HR, total Laps |
+
+**Avg. fpm is floors per minute and total floors is a floor count** - the stepper's own readings,
+where every elliptical and bike on this card reports Avg. Speed and Avg. Watts. Do not quote a speed
+or a watt figure from a summary on this machine; neither is in it.
+
+**Total time, Avg. HR and total Laps are in the same places as everywhere else**, so only the two
+middle fields differ.

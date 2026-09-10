@@ -41,8 +41,10 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
   - crw800-2024
+  - cs800-2021
   - cs800-2024
   - ct800-2016
   - ct800-2020
@@ -232,3 +234,7 @@ lb.`, and `400 lbs. / 180 kg` again on its electrical page
 
 **The CRW800-2024 rower is not the CRW800H2O water rower.** They are different machines with
 different manuals; nothing here may be quoted for the water rower.
+
+**The 2021 CS800 and CRS800S say the same thing.** The CRS800S-2021 prints `User Weight Limit: 450
+lb` and the CS800-2021 `Recommended User Weight Limit: 450 lb` - the same one-word difference between
+the two books as in 2024, and the same figure. Neither says what happens above it.

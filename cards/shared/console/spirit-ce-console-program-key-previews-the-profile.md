@@ -38,7 +38,9 @@ facets:
   - cr800-2024
   - cr900-2018
   - cr900-2025
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2021
   - cs800-2024
   - cu800-2012
   - cu800-2021
@@ -144,3 +146,8 @@ p. 17, CE850-2024 p. 19, CR800-2024 p. 17, CU800-2024 p. 17, CRS800S-2024 p. 18 
 at the foot of BASIC INFORMATION - so this card covers a stepper and a semi-recumbent stepper as well
 as ellipticals and bikes. The CRS800S-2024 and CS800-2024 write "program key" in lower case where the
 others write "Program key"; nothing else differs.
+
+**The 2021 CRS800S and CS800 owner's manuals print this paragraph word for word** -
+CRS800S-2021 printed p. 19 and CS800-2021 printed p. 18, as the closing paragraph of BASIC
+INFORMATION. Press a program key in idle to preview the profile, then **Enter** to select it and
+enter the data set-up mode.

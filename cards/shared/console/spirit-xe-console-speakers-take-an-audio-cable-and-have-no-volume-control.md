@@ -39,6 +39,8 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xs895-2018
+  - xs895-2021
   section: console
   code: '*'
 authority: 3
@@ -100,3 +102,10 @@ the speakers, so the jack is worth quoting from the paragraph rather than the pi
 **The XBR25-2019 and all four 2023 bikes print no Speakers paragraph.** The 2023 bikes play music over
 Bluetooth instead, pairing to a device named "Bt-speaker": `xt-2023-console-bluetooth-speaker`. Do not
 quote an audio jack for a 2023 bike.
+
+**The Spirit XS895 incline stepper prints this paragraph word for word** - XS895-2018 and
+XS895-2021, p. 16, Speakers - so this card now covers a stepper as well. Built-in speakers, an audio
+input jack, **no volume control on the console**, and the volume must be set on the audio source.
+
+**Its console drawing labels them Integrated Speakers for MP3 Player** and puts a **cargo
+compartment for keys, phone, or MP3 player** directly below them.
