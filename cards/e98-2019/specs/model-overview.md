@@ -16,7 +16,6 @@ keywords:
 - service manual
 - '2019'
 - elliptical
-- '598018'
 facets:
   brand:
   - sole

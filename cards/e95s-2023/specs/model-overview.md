@@ -16,7 +16,6 @@ keywords:
 - '2023'
 - elliptical
 - sku
-- '595622'
 facets:
   brand:
   - sole

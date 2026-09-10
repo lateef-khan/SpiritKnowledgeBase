@@ -14,7 +14,6 @@ keywords:
 - service manual
 - '2019'
 - sku
-- '565818'
 - treadmill
 - factory code
 facets:

@@ -2,7 +2,7 @@
 id: lcb-2016-model-overview
 title: "What this upright bike is: model number, factory code and drive system"
 kind: spec
-question: "What is the LCB-2016 (511116), and what console and resistance does it use?"
+question: "What is the LCB-2016, and what console and resistance does it use?"
 asked_as:
 - "what is the sku for the lcb 2016"
 - "what console does the lcb 2016 use"

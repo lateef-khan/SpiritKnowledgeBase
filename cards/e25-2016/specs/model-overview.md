@@ -16,7 +16,6 @@ keywords:
 - '2016'
 - elliptical
 - sku
-- '525116'
 facets:
   brand:
   - sole

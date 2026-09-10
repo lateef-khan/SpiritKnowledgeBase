@@ -16,7 +16,6 @@ keywords:
 - service manual
 - '2023'
 - rower
-- '555922'
 - touchscreen
 facets:
   brand:

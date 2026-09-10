@@ -2,7 +2,7 @@
 id: sb700-2019-model-overview
 title: "What this indoor cycle is: model number, factory code and drive system"
 kind: spec
-question: "What is the SB700-2019 (570119), and what console and resistance does it use?"
+question: "What is the SB700-2019, and what console and resistance does it use?"
 asked_as:
 - "what is the sku for the sb700 2019"
 - "what console does the sb700 2019 use"

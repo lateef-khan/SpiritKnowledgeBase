@@ -3,7 +3,7 @@ id: lcb-2023-model-overview
 title: 'What this light commercial upright bike is: model number, factory code and
   drive system'
 kind: spec
-question: What is the Sole LCB-2023 (511122), and what console and resistance does
+question: What is the Sole LCB-2023, and what console and resistance does
   it use?
 asked_as:
 - what is the sku for the lcb 2023

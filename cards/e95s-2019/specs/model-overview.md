@@ -16,7 +16,6 @@ keywords:
 - '2019'
 - adjustable stride
 - elliptical
-- '595618'
 facets:
   brand:
   - sole

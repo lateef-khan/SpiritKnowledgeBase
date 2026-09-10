@@ -2,7 +2,7 @@
 id: lcr-2016-model-overview
 title: "What this recumbent bike is: model number, factory code and drive system"
 kind: spec
-question: "What is the LCR-2016 (522116), and what console and resistance does it use?"
+question: "What is the LCR-2016, and what console and resistance does it use?"
 asked_as:
 - "what is the sku for the lcr 2016"
 - "what console does the lcr 2016 use"

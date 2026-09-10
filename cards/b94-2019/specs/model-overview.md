@@ -2,7 +2,7 @@
 id: b94-2019-model-overview
 title: "What this upright bike is: model number, factory code and drive system"
 kind: spec
-question: "What is the B94-2019 (594118), and what console and resistance does it use?"
+question: "What is the B94-2019, and what console and resistance does it use?"
 asked_as:
 - "what is the sku for the b94 2019"
 - "what console does the b94 2019 use"

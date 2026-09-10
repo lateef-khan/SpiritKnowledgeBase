@@ -2,7 +2,7 @@
 id: sb1200-2023-model-overview
 title: 'What this spin bike is: model number, factory code and drive system'
 kind: spec
-question: What is the Sole SB1200-2023 (512322), and what console and resistance does
+question: What is the Sole SB1200-2023, and what console and resistance does
   it use?
 asked_as:
 - what is the sku for the sb1200

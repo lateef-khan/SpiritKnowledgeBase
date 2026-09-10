@@ -16,7 +16,6 @@ keywords:
 - '2019'
 - elliptical
 - sku
-- '555018'
 facets:
   brand:
   - sole

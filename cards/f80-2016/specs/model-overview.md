@@ -14,7 +14,6 @@ keywords:
 - service manual
 - '2016'
 - sku
-- '580816'
 - treadmill
 - factory code
 facets:
