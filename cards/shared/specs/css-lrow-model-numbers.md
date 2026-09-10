@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-LROW?
 asked_as:
 - CSS-LROW SKU
 - CSS-LROW part number
-- which years was the CSS-LROW made
-- what year is my CSS-LROW
 keywords:
 - model number
 - sku

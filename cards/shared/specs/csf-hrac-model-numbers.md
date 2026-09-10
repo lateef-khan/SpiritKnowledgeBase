@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-HRAC?
 asked_as:
 - CSF-HRAC SKU
 - CSF-HRAC part number
-- which years was the CSF-HRAC made
-- what year is my CSF-HRAC
 keywords:
 - model number
 - sku

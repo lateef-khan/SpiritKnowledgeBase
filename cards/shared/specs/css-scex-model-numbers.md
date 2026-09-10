@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-SCEX?
 asked_as:
 - CSS-SCEX SKU
 - CSS-SCEX part number
-- which years was the CSS-SCEX made
-- what year is my CSS-SCEX
 keywords:
 - model number
 - sku

@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-LATR?
 asked_as:
 - CSS-LATR SKU
 - CSS-LATR part number
-- which years was the CSS-LATR made
-- what year is my CSS-LATR
 keywords:
 - model number
 - sku

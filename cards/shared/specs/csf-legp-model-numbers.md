@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-LEGP?
 asked_as:
 - CSF-LEGP SKU
 - CSF-LEGP part number
-- which years was the CSF-LEGP made
-- what year is my CSF-LEGP
 keywords:
 - model number
 - sku

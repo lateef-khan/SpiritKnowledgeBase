@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSI-LROW?
 asked_as:
 - CSI-LROW SKU
 - CSI-LROW part number
-- which years was the CSI-LROW made
-- what year is my CSI-LROW
 keywords:
 - model number
 - sku

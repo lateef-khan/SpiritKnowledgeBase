@@ -6,8 +6,6 @@ question: What is the model number for the Spirit ST800DR3?
 asked_as:
 - ST800DR3 SKU
 - ST800DR3 part number
-- which years was the ST800DR3 made
-- what year is my ST800DR3
 keywords:
 - model number
 - sku

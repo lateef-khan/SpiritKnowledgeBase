@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-SLGC?
 asked_as:
 - CSS-SLGC SKU
 - CSS-SLGC part number
-- which years was the CSS-SLGC made
-- what year is my CSS-SLGC
 keywords:
 - model number
 - sku

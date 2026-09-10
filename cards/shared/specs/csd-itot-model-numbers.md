@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-ITOT?
 asked_as:
 - CSD-ITOT SKU
 - CSD-ITOT part number
-- which years was the CSD-ITOT made
-- what year is my CSD-ITOT
 keywords:
 - model number
 - sku

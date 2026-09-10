@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-ABDO?
 asked_as:
 - CSS-ABDO SKU
 - CSS-ABDO part number
-- which years was the CSS-ABDO made
-- what year is my CSS-ABDO
 keywords:
 - model number
 - sku

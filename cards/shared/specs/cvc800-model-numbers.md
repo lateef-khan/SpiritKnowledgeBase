@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CVC800?
 asked_as:
 - CVC800 SKU
 - CVC800 part number
-- which years was the CVC800 made
-- what year is my CVC800
 keywords:
 - model number
 - sku

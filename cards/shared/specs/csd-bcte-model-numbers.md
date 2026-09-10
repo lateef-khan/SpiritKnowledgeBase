@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-BCTE?
 asked_as:
 - CSD-BCTE SKU
 - CSD-BCTE part number
-- which years was the CSD-BCTE made
-- what year is my CSD-BCTE
 keywords:
 - model number
 - sku

@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-SCPR?
 asked_as:
 - CSS-SCPR SKU
 - CSS-SCPR part number
-- which years was the CSS-SCPR made
-- what year is my CSS-SCPR
 keywords:
 - model number
 - sku

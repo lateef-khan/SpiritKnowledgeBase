@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-LPSR?
 asked_as:
 - CSD-LPSR SKU
 - CSD-LPSR part number
-- which years was the CSD-LPSR made
-- what year is my CSD-LPSR
 keywords:
 - model number
 - sku

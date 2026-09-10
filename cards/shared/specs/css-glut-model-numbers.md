@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-GLUT?
 asked_as:
 - CSS-GLUT SKU
 - CSS-GLUT part number
-- which years was the CSS-GLUT made
-- what year is my CSS-GLUT
 keywords:
 - model number
 - sku

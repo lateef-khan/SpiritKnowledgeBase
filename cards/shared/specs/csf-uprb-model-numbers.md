@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-UPRB?
 asked_as:
 - CSF-UPRB SKU
 - CSF-UPRB part number
-- which years was the CSF-UPRB made
-- what year is my CSF-UPRB
 keywords:
 - model number
 - sku

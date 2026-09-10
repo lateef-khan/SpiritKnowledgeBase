@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-SQSC?
 asked_as:
 - CSS-SQSC SKU
 - CSS-SQSC part number
-- which years was the CSS-SQSC made
-- what year is my CSS-SQSC
 keywords:
 - model number
 - sku

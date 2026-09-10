@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CRW800H2O?
 asked_as:
 - CRW800H2O SKU
 - CRW800H2O part number
-- which years was the CRW800H2O made
-- what year is my CRW800H2O
 keywords:
 - model number
 - sku

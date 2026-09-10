@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-LATP?
 asked_as:
 - CSS-LATP SKU
 - CSS-LATP part number
-- which years was the CSS-LATP made
-- what year is my CSS-LATP
 keywords:
 - model number
 - sku

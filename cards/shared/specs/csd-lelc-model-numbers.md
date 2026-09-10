@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-LELC?
 asked_as:
 - CSD-LELC SKU
 - CSD-LELC part number
-- which years was the CSD-LELC made
-- what year is my CSD-LELC
 keywords:
 - model number
 - sku

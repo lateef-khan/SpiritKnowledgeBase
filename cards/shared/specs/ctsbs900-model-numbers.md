@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CTSBS900?
 asked_as:
 - CTSBS900 SKU
 - CTSBS900 part number
-- which years was the CTSBS900 made
-- what year is my CTSBS900
 keywords:
 - model number
 - sku

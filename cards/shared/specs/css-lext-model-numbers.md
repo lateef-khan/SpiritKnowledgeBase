@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-LEXT?
 asked_as:
 - CSS-LEXT SKU
 - CSS-LEXT part number
-- which years was the CSS-LEXT made
-- what year is my CSS-LEXT
 keywords:
 - model number
 - sku

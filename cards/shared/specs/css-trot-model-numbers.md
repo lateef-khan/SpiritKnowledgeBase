@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-TROT?
 asked_as:
 - CSS-TROT SKU
 - CSS-TROT part number
-- which years was the CSS-TROT made
-- what year is my CSS-TROT
 keywords:
 - model number
 - sku

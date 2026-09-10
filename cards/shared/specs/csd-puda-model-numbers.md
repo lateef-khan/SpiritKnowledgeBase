@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-PUDA?
 asked_as:
 - CSD-PUDA SKU
 - CSD-PUDA part number
-- which years was the CSD-PUDA made
-- what year is my CSD-PUDA
 keywords:
 - model number
 - sku

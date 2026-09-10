@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-DELT?
 asked_as:
 - CSS-DELT SKU
 - CSS-DELT part number
-- which years was the CSS-DELT made
-- what year is my CSS-DELT
 keywords:
 - model number
 - sku

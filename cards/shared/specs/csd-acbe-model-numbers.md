@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-ACBE?
 asked_as:
 - CSD-ACBE SKU
 - CSD-ACBE part number
-- which years was the CSD-ACBE made
-- what year is my CSD-ACBE
 keywords:
 - model number
 - sku

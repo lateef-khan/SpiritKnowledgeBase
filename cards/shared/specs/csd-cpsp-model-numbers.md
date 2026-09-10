@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-CPSP?
 asked_as:
 - CSD-CPSP SKU
 - CSD-CPSP part number
-- which years was the CSD-CPSP made
-- what year is my CSD-CPSP
 keywords:
 - model number
 - sku

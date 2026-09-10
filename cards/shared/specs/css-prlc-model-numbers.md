@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-PRLC?
 asked_as:
 - CSS-PRLC SKU
 - CSS-PRLC part number
-- which years was the CSS-PRLC made
-- what year is my CSS-PRLC
 keywords:
 - model number
 - sku

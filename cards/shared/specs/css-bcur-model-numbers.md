@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-BCUR?
 asked_as:
 - CSS-BCUR SKU
 - CSS-BCUR part number
-- which years was the CSS-BCUR made
-- what year is my CSS-BCUR
 keywords:
 - model number
 - sku

@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-BEXT?
 asked_as:
 - CSF-BEXT SKU
 - CSF-BEXT part number
-- which years was the CSF-BEXT made
-- what year is my CSF-BEXT
 keywords:
 - model number
 - sku

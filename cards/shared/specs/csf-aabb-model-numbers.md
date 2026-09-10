@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-AABB?
 asked_as:
 - CSF-AABB SKU
 - CSF-AABB part number
-- which years was the CSF-AABB made
-- what year is my CSF-AABB
 keywords:
 - model number
 - sku

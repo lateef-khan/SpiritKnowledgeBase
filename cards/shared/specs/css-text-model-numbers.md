@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-TEXT?
 asked_as:
 - CSS-TEXT SKU
 - CSS-TEXT part number
-- which years was the CSS-TEXT made
-- what year is my CSS-TEXT
 keywords:
 - model number
 - sku

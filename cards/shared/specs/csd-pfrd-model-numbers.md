@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-PFRD?
 asked_as:
 - CSD-PFRD SKU
 - CSD-PFRD part number
-- which years was the CSD-PFRD made
-- what year is my CSD-PFRD
 keywords:
 - model number
 - sku

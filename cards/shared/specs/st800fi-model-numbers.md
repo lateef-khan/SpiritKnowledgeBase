@@ -6,8 +6,6 @@ question: What is the model number for the Spirit ST800FI?
 asked_as:
 - ST800FI SKU
 - ST800FI part number
-- which years was the ST800FI made
-- what year is my ST800FI
 keywords:
 - model number
 - sku

@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSD-LPCE?
 asked_as:
 - CSD-LPCE SKU
 - CSD-LPCE part number
-- which years was the CSD-LPCE made
-- what year is my CSD-LPCE
 keywords:
 - model number
 - sku

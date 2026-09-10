@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CT900?
 asked_as:
 - CT900 SKU
 - CT900 part number
-- which years was the CT900 made
-- what year is my CT900
 keywords:
 - model number
 - sku

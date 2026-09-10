@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSF-FUNT?
 asked_as:
 - CSF-FUNT SKU
 - CSF-FUNT part number
-- which years was the CSF-FUNT made
-- what year is my CSF-FUNT
 keywords:
 - model number
 - sku

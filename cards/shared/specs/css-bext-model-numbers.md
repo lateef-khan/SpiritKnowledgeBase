@@ -6,8 +6,6 @@ question: What is the model number for the Spirit CSS-BEXT?
 asked_as:
 - CSS-BEXT SKU
 - CSS-BEXT part number
-- which years was the CSS-BEXT made
-- what year is my CSS-BEXT
 keywords:
 - model number
 - sku
