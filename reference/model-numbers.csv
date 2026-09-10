@@ -96,6 +96,7 @@ f85-2016,585816,card-confirmed
 f85-2019,585818,card-confirmed
 f85-2023,585822,own-filename
 f85-2026,585286,own-filename
+f89-2023,589853,user-confirmed
 jb950-2022,950348,own-filename
 lcb-2011,511110,own-filename
 lcb-2013,511112,own-filename
@@ -127,6 +128,7 @@ sb900-2019,590319,own-filename
 sb900-2020,590320,card-confirmed
 sb900-2023,590322,card-confirmed
 sc200-2016,520516,fp-date
+sc200-2019,520517,sibling-pairing
 sr500-2016,500911,year-in-name
 sr550-2023,555922,card-confirmed
 st90-2023,590822,own-filename
