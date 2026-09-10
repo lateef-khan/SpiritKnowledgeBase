@@ -28,6 +28,9 @@ facets:
   - ms300-2021
   section: warranty
   code: '*'
+  model_number:
+  - '730030'
+  - '730037'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-warranty-labor-period

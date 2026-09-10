@@ -34,6 +34,7 @@ two cards had been written against it claiming a SKU did not exist when it does.
 | `only-candidate` | 14 | the product has exactly one row in the table |
 | `year-in-name` | 9 | one row's `MODEL` or `DESC` names the model year |
 | `fp-date` | 3 | one row's first-production date falls in the model year or the one before |
+| `colour-pair` | 3 | two rows whose names differ only by a colour word, so both are the same machine |
 
 **A manual is evidence only for its own model id.** Matching by product name
 instead attributes a 2024 book's SKU to the 2018 machine: an early pass did
@@ -70,8 +71,14 @@ generations that simply never got a year in their name. A rule built on "no year
 named means the same machine" wrongly tied the 2023 and 2026 E25 numbers to the
 2019 machine, and the 2026 F85's number to the 2023 one. It was thrown away.
 
-So a second SKU is added to a machine only when a person confirms the two are the
-same machine. Nothing here guesses it.
+The same name is reused across generations, which is the trap. **Five** SKUs are
+named plainly "LCR" - 522110, 522112, 522116, 522122, 522126 - and they are five
+different machines. So a shared name proves nothing.
+
+One shape is safe. Where two rows' names differ **only by a colour word**, they
+are one machine in two colours: `Spirit MT200 (White)` and `Spirit MT200`,
+`Spirit MS300 (White)` and `Spirit MS300`. Those cards carry both numbers. Every
+other second SKU is added only when a person confirms it.
 
 ## One SKU can cover several machines
 

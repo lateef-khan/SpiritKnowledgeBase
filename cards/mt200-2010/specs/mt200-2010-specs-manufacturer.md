@@ -28,6 +28,9 @@ facets:
   - mt200-2010
   section: specs
   code: '*'
+  model_number:
+  - '720080'
+  - '720087'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-specs-manufacturer

@@ -30,6 +30,9 @@ facets:
   - ms300-2021
   section: safety
   code: '*'
+  model_number:
+  - '730030'
+  - '730037'
 authority: 3
 not_to_be_confused_with:
 - spirit-climber-safety-instructions-list-nineteen-items
