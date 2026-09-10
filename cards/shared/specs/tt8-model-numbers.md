@@ -58,4 +58,4 @@ source:
 | 2020 | not confirmed | tt8-2020 |
 | 2023 | 588822 | tt8-2023 |
 
-The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one. A row reading *not confirmed* has no settled number yet. A tag ending `-ac` is the AC drive motor version of that year and shares the year's number; the plain tag is the DC drive motor machine.
+The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one. A row reading *not confirmed* has no settled number yet. A tag ending `-ac` shares its year's number with the plain tag.
