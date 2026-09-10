@@ -1900,6 +1900,295 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/XRW600/XRW600_20211130.pdf
   sha256: acc7c3db987c2351f494cb61cf791dd0e709f2f02babc45a10670ed930d76d94
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-acbe-owners-manual
+  title: Spirit CSD-ACBE ab crunch / back extension strength machine owner's manual,
+    warranty effective february 21, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ACBE/CSD-ACBE_622233_OM_20240325.pdf
+  sha256: 1c8ac0640b5f3f8877856e6ffb65d3132d02b8693b75fda769e7b4c6ccedd31f
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-bcte-owners-manual
+  title: Spirit CSD-BCTE biceps curl / triceps extension strength machine owner's
+    manual, warranty effective february 21, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-BCTE/CSD-BCTE_623833_OM_20240325.pdf
+  sha256: ec252124fb3c3d8c5bfbf5dc6bfcf459a475f8b46883b0bbec1ad1533226e927
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-cpsp-owners-manual
+  title: Spirit CSD-CPSP chest press / shoulder press strength machine owner's manual,
+    warranty effective february 21, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-CPSP/CSD-CPSP_627773_OM_20240325.pdf
+  sha256: 4a5c1acd5ac761755412e1cbac34364f35f91f8a3d29b90282f40bd5fcace706
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-itot-owners-manual
+  title: Spirit CSD-ITOT inner / outer thigh strength machine owner's manual, warranty
+    effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ITOT/CSD-ITOT_648683_OM_20240221.pdf
+  sha256: 3a4ed7653e05a2cfe6d0413c2e5d7adbdfada52a2c8320ac716fa31c034a65f0
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-lelc-owners-manual
+  title: Spirit CSD-LELC leg extension / leg curl strength machine owner's manual,
+    warranty effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LELC/CSD-LELC_OM_653523_20250310.pdf
+  sha256: 68edbab95e04d9b936ffccad09d9f30bd5a883347709f5b4d59644e36fb8c42a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-lpce-owners-manual
+  title: Spirit CSD-LPCE leg press / calf extension strength machine owner's manual,
+    warranty effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LPCE/CSD-LPCE_657233_OM_20240221.pdf
+  sha256: 3d82b102a8b879e1d64ee718bc4b74b66b9c67509545508551e022882e603d05
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-lpsr-owners-manual
+  title: Spirit CSD-LPSR lat pulldown / seated row strength machine owner's manual,
+    warranty effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LPSR/SP-4332US, CSD-LPSR, LatPulldownSeatedRow - 2025 0521.pdf
+  sha256: 4be69d327c85bf942fe292dbad4038beb115737b819b1507803dbe0404469585
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-pfrd-owners-manual
+  title: Spirit CSD-PFRD pec fly / rear delt strength machine owner's manual, warranty
+    effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-PFRD/SP-4331US, CSD-PFRD, PecFlyRearDelt - 2025 0521.pdf
+  sha256: 4b115ae0f29aae09b3ea58a52219849b806329f8e88c05c7945e7f4b437c17dc
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csd-puda-owners-manual
+  title: Spirit CSD-PUDA pull-up / dip assist strength machine owner's manual, warranty
+    effective february 22, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-PUDA/CSD-PUDA_678323_OM_20240619.pdf
+  sha256: 398bc3889a7f5237ab304336421b8ff14ba557108234c3a4e1548221db5e1c4b
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-aabb-owners-manual
+  title: Spirit CSF-AABB ab and back bench strength machine owner's manual, warranty
+    effective march 05, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSF-AABB/CSF-AABB_OM_20240304.pdf
+  sha256: de929dc29a64c2b53dad9903042eaec09d625446d57747fd3d2679b1ffbd0a6a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-bext-owners-manual
+  title: Spirit CSF-BEXT back extension bench strength machine owner's manual, warranty
+    effective march 05, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSF-BEXT/CSF-BEXT_OM_20240304.pdf
+  sha256: e1d0cd7fbd769158caac337bdd320d144b8fc67bd8bb2296bbc9822e3e401b1a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-funt-owners-manual
+  title: Spirit CSF-FUNT functional trainer strength machine owner's manual, warranty
+    effective december 29, 2023
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSF-FUNT/SP-3526,
+    CSF-FUNT_OM - 2025 0526.pdf
+  sha256: c531597981e3c777ce8481dbc5f84cde8ca7e7095ad448dc59b87114614fe293
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-hrac-owners-manual
+  title: Spirit CSF-HRAC half rack strength machine owner's manual, warranty effective
+    march 05, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CDF-HRAC/CSF-HRAC_OM_20240304.pdf
+  sha256: a78c9283c2bad2508af2f07d5abfbebc32f04155eaefed2a5b637f5227b440e7
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-legp-owners-manual
+  title: Spirit CSF-LEGP leg press strength machine owner's manual, warranty effective
+    march 05, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSF-LEGP/CSF-LEGP_OM_20240304.pdf
+  sha256: e05b230d6027d10bab53518b4f856578401b0d7de030d8050b1625ce0018bf93
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csf-uprb-owners-manual
+  title: Spirit CSF-UPRB upright bench strength machine owner's manual, warranty effective
+    march 05, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSF-UPRB/CSF-UPRB_OM_20240304.pdf
+  sha256: 9c9c82dbd9bcd04bd9823a50a5db7d65d6eb441fb4e4cff75159f52901a83690
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csi-cpsp-owners-manual
+  title: Spirit CSI-CPSP chest press / shoulder press strength machine owner's manual,
+    warranty effective january 01, 2026
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSI-CPSP/CSI-CPSP_OwnersManual_20260112
+    (1).pdf
+  sha256: 708462cf8dde790badef6fddad60899ea36555bb5fc554504314afc5caab814d
+  ingested_at: '2026-09-10'
+- id: spirit-strength-csi-lrow-owners-manual
+  title: Spirit CSI-LROW low row strength machine owner's manual, warranty effective
+    january 01, 2026
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSI-LR0W/CSI-LROW_OwnersManual_20260101
+    (1).pdf
+  sha256: 31371185448aff89cfca506336201907e0af9ad7045d8fd130be93bbf0d43e7c
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-abdo-owners-manual
+  title: Spirit CSS-ABDO abdominal strength machine owner's manual, warranty effective
+    july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-ABDO/SP-4309, Abdominal CSS-ABDO_OM - 2025 0512v2.pdf
+  sha256: f340be911312a0773dfcd8823b561a0f81022a4e5b86dc77fb3a45359ae73a3b
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-bcur-owners-manual
+  title: Spirit CSS-BCUR biceps curl strength machine owner's manual, warranty effective
+    july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-BCUR/SP-4307, CSS
+    BicepsCurl_BCUR_OM - 2025 0617.pdf
+  sha256: 393b0b076f06d837300e40bb02d8a9d9c58c111f982b850c0b0ed76913b6a764
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-bext-owners-manual
+  title: Spirit CSS-BEXT back extension strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-BEXT/SP-4310, BackExtension_CSS-BEXT_OM - 20250512v2.pdf
+  sha256: 1bedcd5eb023089bea46de58ad1b75b260aa60360113f748676527e2fe61d2ed
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-delt-owners-manual
+  title: Spirit CSS-DELT deltoid trainer strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-DELT/SP-4312, DeltoidTrainer_DELT_OM - 2025 0610.pdf
+  sha256: 8d8f12ae56641a917f7cf6375b61896ebba3ef6512844f648d975d8440b1be3e
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-glut-owners-manual
+  title: Spirit CSS-GLUT glute strength machine owner's manual, warranty effective
+    july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-GLUT/SP-4320, CSS
+    Glute_GLUT_OM - 2025 0617.pdf
+  sha256: 1415d18471eb6698e547f8980315fca2e329779f37fc729d6625b856269c9d7a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-latp-owners-manual
+  title: Spirit CSS-LATP lat pulldown strength machine owner's manual, no warranty
+    effective date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-LATP/SP-4313,
+    LatPulldown_ CSS-LATP_OM - 2025 0512v2.pdf
+  sha256: 31592213a9827d2ff6bac86d25dccf7200c63289d9dd06a0ff8bf4361a0ad44f
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-latr-owners-manual
+  title: Spirit CSS-LATR lateral raise strength machine owner's manual, warranty effective
+    july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-LATR/SP-4322,
+    CSS LateralRaise_LATR_OM - 2025 0617.pdf
+  sha256: d8713010b51b5ffe48f70b565d0830114b6939407569b63e6b23bc464bff8bd5
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-lext-owners-manual
+  title: Spirit CSS-LEXT leg extension strength machine owner's manual, no warranty
+    effective date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-LEXT/SP-4305 LegExtension CSS-LEXT - 2025 0522.pdf
+  sha256: eb3ca2c73d14e570d143b9766bb827c8943578d226400fd9b8a0570e2a0bc73a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-lrow-owners-manual
+  title: Spirit CSS-LROW lat row strength machine owner's manual, warranty effective
+    july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-LROW/SP-4319, CSS
+    LatRow_LROW_OM - 2025 0617.pdf
+  sha256: 6ee08041ec50931ea59682f9d219713f41edd9773ab8e53f60ee59666e2205d4
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-prlc-owners-manual
+  title: Spirit CSS-PRLC prone leg curl strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-PRLC/SP-4318, CSS
+    ProneLegCurl_PRLC_OM - 2025 0617.pdf
+  sha256: 304e19c72b4c1aff4f654f51986f6ee3d44ae05887c9883a7f79afd600e2f3f0
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-scex-owners-manual
+  title: Spirit CSS-SCEX standing calf extension strength machine owner's manual,
+    warranty effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SCEX/SP-4317, CSS
+    StandingCalfExtension_SCEX_OM - 2025 0617.pdf
+  sha256: ede8842c6b7c7738c4c2416cc63ab66c1c5ea5461fc252758fbe72f32dac5aee
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-scpr-owners-manual
+  title: Spirit CSS-SCPR seated chest press strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SCPR/SP-4301, SeatedChestPress
+    CSS-SCPR - 2025 0521.pdf
+  sha256: 2fc8178e7edc535edeaf626541eedc6026873394d71d72ec9f85a151ca4f1674
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-shpr-owners-manual
+  title: Spirit CSS-SHPR shoulder press strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SHPR/SP-4303, ShoulderPress_SHPR_OM - 20250512
+    v2.pdf
+  sha256: 13a0f79da502ddc1df5f0ed6c0e5940b339a34d03cc04776576ddc8ec722ddea
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-slgc-owners-manual
+  title: Spirit CSS-SLGC seated leg curl strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SLGC/SP-4306,
+    SeatedLegCurl_SLGC_OM - 2025 0522.pdf
+  sha256: 48d5221da3188368f57fe9275649fc7aec2b2359900469bcd6055ee20124936f
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-slgp-owners-manual
+  title: Spirit CSS-SLGP seated leg press strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SLGP/SP-4311, SeatedLegPress_SLGP_OM - 2025
+    0513.pdf
+  sha256: 5fb741aa94c5acb11cb042ce3c8a9c09617baa6954f4366cf178b03eeff5f4b3
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-sqsc-owners-manual
+  title: Spirit CSS-SQSC squat / standing calf strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SQSC/SP-4330, SquatStandingCalf_CSS-SQSC_OM - 2025 0522.pdf
+  sha256: 9f5d42b81ebcac7be9f9560393bad0e32f51dbe38cee458a8ffc235a03a437c5
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-srow-owners-manual
+  title: Spirit CSS-SROW seated row strength machine owner's manual, no warranty effective
+    date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-SROW/SP-4302, SeatedRow_CSS-SROW_OM - 20250521.pdf
+  sha256: 839ef3022970c17d3b794c7464674332f4b5036058eb38fe79ebb90395f76f97
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-text-owners-manual
+  title: Spirit CSS-TEXT triceps extension strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-TEXT/SP-4308, CSS
+    TricepsExtension_TEXT_OM - 2025 0626.pdf
+  sha256: d208a9591a724f539efb9f030c9e6b23ae826023e52246348b5138fac3925b3d
+  ingested_at: '2026-09-10'
+- id: spirit-strength-css-trot-owners-manual
+  title: Spirit CSS-TROT torso rotation strength machine owner's manual, warranty
+    effective july 02, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-TROT/SP-4304, TorsoRotation_TROT_OM - 2025 0521.pdf
+  sha256: 0cafbec26c89c68d62d54acf679f4e713232b0911f16c4caac23ad247f06ac2a
+  ingested_at: '2026-09-10'
+- id: spirit-strength-st800dr3-owners-manual
+  title: Spirit ST800DR3 dumbbell rack strength machine owner's manual, no warranty
+    effective date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/ST800R3/ST800DR3_20211124.pdf
+  sha256: 20229e0399941fefb534c04fe576ebdc755b393f0a4ecfe850744e9ce191fd74
+  ingested_at: '2026-09-10'
+- id: spirit-strength-st800fi-owners-manual
+  title: Spirit ST800FI flat / incline bench strength machine owner's manual, no warranty
+    effective date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/ST800FI/ST800FI_20211124.pdf
+  sha256: d2d46c932175b4f862a4a2f4372a62aaca634647425c8e84d6b460e70c151872
+  ingested_at: '2026-09-10'
+- id: spirit-strength-st800ft-owners-manual
+  title: Spirit ST800FT functional trainer strength machine owner's manual, no warranty
+    effective date printed
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/ST800FT/ST800FT_20211124
+    (2).pdf
+  sha256: a09a0a80b6b8ee266a928591dba21e607ab467b72db001513370a6741eca6745
+  ingested_at: '2026-09-10'
 - id: spirit-treadmill-40t-2026-owners-manual
   title: 2026 Spirit 4.0T treadmill owner's manual
   kind: pdf

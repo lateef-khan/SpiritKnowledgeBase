@@ -2,8 +2,8 @@
 id: spirit-2026t-warranty-prisons-excluded
 title: Prisons and correctional facilities are excluded from cover
 kind: policy
-question: Is a Spirit treadmill, elliptical, bike, climber, stepper or stair climber
-  under warranty in a prison or correctional facility?
+question: Is a Spirit treadmill, elliptical, bike, climber, stepper, stair climber, rower or
+  strength machine under warranty in a prison or correctional facility?
 asked_as:
 - is the treadmill covered in a prison gym
 - does the warranty work in a correctional facility
@@ -65,6 +65,42 @@ facets:
   - csc900-2019
   - csc900-2021
   - csc900-2024
+  - csd-acbe
+  - csd-bcte
+  - csd-cpsp
+  - csd-itot
+  - csd-lelc
+  - csd-lpce
+  - csd-lpsr
+  - csd-pfrd
+  - csd-puda
+  - csf-aabb
+  - csf-bext
+  - csf-funt
+  - csf-hrac
+  - csf-legp
+  - csf-uprb
+  - csi-cpsp
+  - csi-lrow
+  - css-abdo
+  - css-bcur
+  - css-bext
+  - css-delt
+  - css-glut
+  - css-latp
+  - css-latr
+  - css-lext
+  - css-lrow
+  - css-prlc
+  - css-scex
+  - css-scpr
+  - css-shpr
+  - css-slgc
+  - css-slgp
+  - css-sqsc
+  - css-srow
+  - css-text
+  - css-trot
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -91,6 +127,9 @@ facets:
   - cvc800
   - jb950-2022
   - ms300-2021
+  - st800dr3
+  - st800fi
+  - st800ft
   - xbr55ent-2021
   - xbr95-2023
   - xbu55-2023
@@ -127,6 +166,9 @@ see_also:
 - spirit-xe795-warranty-light-commercial-periods
 - spirit-xb-warranty-use-environment
 - spirit-xb-warranty-light-commercial-periods
+- spirit-strength-warranty-use-environment
+- spirit-strength-warranty-exclusions-eight-items
+- spirit-strength-st800fi-warranty-lifetime-at-home-ten-years-in-a-facility
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: >-
@@ -377,3 +419,19 @@ The other five carry it, and the halves they print differ:
 **The 8.5UE prints its footnote above the table**, between the *Commercial Warranty* heading and the column row, as the 2025 and 2026 steppers do. Its exclusion list is nine items with prisons at 8 and the outside-the-US line at 9: `85ue-2025-warranty-exclusions-nine-items`.
 
 **On the two water rowers, prisons is the only environment excluded anywhere.** Their exclusion lists carry no use-environment item, and their item 2 drops the *not in ordinary household or light commercial use* clause the air rowers keep - so a dues-paying gym, a hotel or a school is barred by nothing in those two books: `spirit-water-rower-warranty-exclusions-eight-items`. On the three air rowers prisons is **not** the whole answer; their item 8 bars any environment other than a home or a non-dues-paying facility used five hours a day or less: `spirit-rower-warranty-use-environment`.
+
+## Spirit strength: all thirty-nine manuals exclude prisons, and three say it twice
+
+**Every one of the thirty-nine Spirit strength manuals carries the exclusion, as item 8 of an eight-item list**, in the same words the 2026 treadmills use:
+
+> Product used in prisons and correctional facilities.
+
+That is the nine CSD dual stations, the nineteen CSS single stations, the six CSF benches and racks, the two CSI machines and the three ST800 benches and rack. There is no strength machine in this knowledge base whose manual is silent on it, and none dates the exclusion - no strength book prints October 2018, 30 November 2021 or 1 December 2019 beside it, or anywhere else.
+
+**The three ST800 books state it twice.** As on the CT900 and the 2026 treadmills, the ST800DR3, ST800FI and ST800FT print a footnote directly under the coverage table as well:
+
+> \*Prisons and correctional facilities are excluded from warranty coverage.
+
+The thirty-six CSD, CSS, CSF and CSI books print the exclusion **once only**, in the list. A buyer of one of those who reads only the warranty table is not shown it - which is the same trap the CT800 2012, CT800 2016 and CT850 2018 manuals set.
+
+**On a strength machine the prisons line is close to the whole of the use-environment answer.** These manuals never mention a dues-paying gym in either direction; the only other environment wording is exclusion 2, which limits reimbursement to a non-dues-paying facility or household use. See `spirit-strength-warranty-use-environment` and `spirit-strength-warranty-exclusions-eight-items`.

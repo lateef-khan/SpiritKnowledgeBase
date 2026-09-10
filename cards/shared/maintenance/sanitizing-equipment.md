@@ -30,6 +30,7 @@ see_also:
 - 80t-2026-maintenance-disinfection-procedure
 - ms300-2021-maintenance-hygienic-requirements-and-cleaning
 - xe795-2021-maintenance-november-printing-adds-sanitizing
+- spirit-strength-maintenance-no-cleaning-agent-and-no-storage-section
 source:
   ref: ct900-om
   locator: 'ct900-om p. 39; the same four bullets and the same WARNING are spirit-treadmill-ct900-owners-manual p. 39 and spirit-treadmill-ctsbs900-owners-manual p. 44; spirit-treadmill-ct900ent-owners-manual p. 49 prints the four bullets without the WARNING. All fourteen 2024 New Black Units owner''s manuals print the same four bullets, checked on a 300 dpi render of each page in wave 15; only the four treadmills attach the WARNING to them - ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58)'
@@ -100,3 +101,19 @@ answer any other machine's from the seven steps.
 disinfection procedure of any kind — "disinfect" occurs zero times in its 71 pages — and its
 intended-use chapter states there is *no particular restriction on hygienic requirements*
 (`ms300-2021-maintenance-hygienic-requirements-and-cleaning`).
+
+## Three of the thirty-nine Spirit strength manuals print the bullets, and thirty-six print nothing
+
+The **ST800DR3** dumbbell rack, **ST800FI** flat/incline bench and **ST800FT** functional trainer
+print these four bullets word for word, including the same support URL, under
+"SANITIZING YOUR SPIRIT FITNESS EQUIPMENT" - printed p. 17 (PDF p. 19) in the DR3 and FI, and
+printed p. 30 (PDF p. 32) in the FT. **None of the three carries the WARNING or a wear-parts list.**
+
+**The other thirty-six Spirit strength owner's manuals - all nineteen CSS, all nine CSD, all six CSF
+and both CSI - print no sanitizing section at all**, and no cleaning agent of any kind. Their
+maintenance tables say *Clean: Upholstery* and *Clean: Handgrips* with no product behind either;
+every page of all thirty-six PDFs was searched for "sanitiz", "vinyl", "wax" and "damp cloth" and
+the only hits are the word "clothing" on their safety pages. See
+`spirit-strength-maintenance-no-cleaning-agent-and-no-storage-section`. This card is still the right
+answer to give those customers - it is Spirit's own guidance and its `applies_to` reaches them - but
+do not tell them it is printed in their manual.

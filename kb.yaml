@@ -162,6 +162,45 @@ models:
     - 85ue-2025
     - 7-0s-med
     - 7-5s-med
+    - csd-acbe
+    - csd-bcte
+    - csd-cpsp
+    - csd-itot
+    - csd-lelc
+    - csd-lpce
+    - csd-lpsr
+    - csd-pfrd
+    - csd-puda
+    - csf-aabb
+    - csf-bext
+    - csf-funt
+    - csf-hrac
+    - csf-legp
+    - csf-uprb
+    - csi-cpsp
+    - csi-lrow
+    - css-abdo
+    - css-bcur
+    - css-bext
+    - css-delt
+    - css-glut
+    - css-latp
+    - css-latr
+    - css-lext
+    - css-lrow
+    - css-prlc
+    - css-scex
+    - css-scpr
+    - css-shpr
+    - css-slgc
+    - css-slgp
+    - css-sqsc
+    - css-srow
+    - css-text
+    - css-trot
+    - st800dr3
+    - st800fi
+    - st800ft
   sole:
     - b74-2015
     - b94-2011
