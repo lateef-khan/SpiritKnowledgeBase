@@ -38,7 +38,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows ct800-2012 to ct800-2024; no row for ct800-2012
+  locator: rows ct800-2016 to ct800-2024; no row for ct800-2012
   extracted_at: '2026-09-10'
 ---
 

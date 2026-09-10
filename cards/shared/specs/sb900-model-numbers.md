@@ -47,7 +47,7 @@ see_also:
 - sole-bike-service-manual-model-numbers
 source:
   ref: custservice-model-numbers
-  locator: rows sb900-2014 to sb900-2023; no row for sb900-2014, sb900-2016, sb900-2021,
+  locator: rows sb900-2019 to sb900-2023; no row for sb900-2014, sb900-2016, sb900-2021,
     sb900-2022
   extracted_at: '2026-09-10'
 ---

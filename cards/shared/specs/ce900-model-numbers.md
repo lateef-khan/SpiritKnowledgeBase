@@ -32,7 +32,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows ce900-2021 to ce900-2025; no row for ce900-2021
+  locator: row ce900-2025; no row for ce900-2021
   extracted_at: '2026-09-10'
 ---
 

@@ -36,7 +36,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows st90 to st90-2023; no row for st90, st90-2020, st90-2021
+  locator: row st90-2023; no row for st90, st90-2020, st90-2021
   extracted_at: '2026-09-10'
 ---
 

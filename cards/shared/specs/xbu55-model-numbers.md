@@ -34,7 +34,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows xbu55-2019 to xbu55-2023; no row for xbu55-2019, xbu55-2021
+  locator: row xbu55-2023; no row for xbu55-2019, xbu55-2021
   extracted_at: '2026-09-10'
 ---
 

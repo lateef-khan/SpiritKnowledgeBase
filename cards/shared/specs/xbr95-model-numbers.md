@@ -36,7 +36,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows xbr95-2016 to xbr95-2023; no row for xbr95-2016, xbr95-2018, xbr95-2021
+  locator: row xbr95-2023; no row for xbr95-2016, xbr95-2018, xbr95-2021
   extracted_at: '2026-09-10'
 ---
 

@@ -32,7 +32,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows xbr25-2019 to xbr25-2023; no row for xbr25-2019
+  locator: row xbr25-2023; no row for xbr25-2019
   extracted_at: '2026-09-10'
 ---
 

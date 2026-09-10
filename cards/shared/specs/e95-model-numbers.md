@@ -38,7 +38,7 @@ see_also:
 - e95-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e95-2016 to e95-2026; no row for e95-2016
+  locator: rows e95-2023 to e95-2026; no row for e95-2016
   extracted_at: '2026-09-10'
 ---
 

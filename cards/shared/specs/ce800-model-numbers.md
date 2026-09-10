@@ -36,7 +36,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows ce800-2013 to ce800-2024; no row for ce800-2013, ce800-2021, ce800-2023
+  locator: row ce800-2024; no row for ce800-2013, ce800-2021, ce800-2023
   extracted_at: '2026-09-10'
 ---
 

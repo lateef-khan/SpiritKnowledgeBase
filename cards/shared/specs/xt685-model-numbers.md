@@ -35,7 +35,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows xt685-2010 to xt685-2023; no row for xt685-2010
+  locator: rows xt685-2015 to xt685-2023; no row for xt685-2010
   extracted_at: '2026-09-10'
 ---
 
