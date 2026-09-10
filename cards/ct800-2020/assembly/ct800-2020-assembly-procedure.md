@@ -2,8 +2,8 @@
 id: ct800-2020-assembly-procedure
 title: Four-step assembly with one computer cable threaded up the right upright
 kind: procedure
-question: How do I assemble a Spirit CT800 (ct800-2020) or CT850 (ct850-2020)
-  treadmill from the carton?
+question: How do I assemble a Spirit CT800 or CT850 treadmill from the carton, on the
+  2020 (ct800-2020, ct850-2020) or 2024 (ct800-2024, ct850-2024) printing?
 asked_as:
 - how do i put my treadmill together
 - what order do i assemble the treadmill in
@@ -26,7 +26,9 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2020
+  - ct850-2024
   section: assembly
   code: '*'
 authority: 3
@@ -43,7 +45,11 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: pp. 10-13, CT800 STEP ONE to STEP FOUR; the same four steps at pp. 10-13
-    of the CT850 2020 manual, headed CT850 STEP ONE to STEP FOUR
+    of the CT850 2020 manual, headed CT850 STEP ONE to STEP FOUR; and word for word
+    again at pp. 11-14 of the CT800 2024 and CT850 2024 manuals
+    (`spirit-treadmill-ct800-2024-owners-manual`,
+    `spirit-treadmill-ct850-2024-owners-manual`), headed ASSEMBLY - STEP ONE to
+    STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
@@ -51,6 +57,11 @@ source:
 mast tubes, a handle bar frame and interface mounts in three steps; these machines
 have uprights, a console support and a locking plate assembly in four steps, and
 none of the item numbers carry over.
+
+**Four manuals print this chapter, and all four are the same document.** The CT800
+2020, CT850 2020, CT800 2024 and CT850 2024 assembly chapters are word for word
+identical - every step, every item number and all four hardware tables - and only the
+model name in the page headings differs.
 
 **The CT800 2020 and CT850 2020 assembly chapters are the same document.** Every
 word of the four steps and of all four hardware tables is identical; only the model
@@ -117,3 +128,18 @@ Three cables reach the console on this machine - two handpulse wires and one
 computer cable. The CT800ENT connects five.
 
 Next: [powering the treadmill on for the first time](../../shared/assembly/spirit-ct800-assembly-power-on.md).
+
+## The 2024 redesign leaves this build alone
+
+Spirit reissued the CT800 and CT850 in September 2024 and roughly half of each book is
+new text, but **not this chapter**. The four steps above are reprinted word for word,
+the four hardware tables row for row, and both counts that do not close - four sets a
+side against a table of ten, and one console-cover screw against a table of two -
+survive unchanged. See
+[the hardware kit card](../../shared/assembly/spirit-ct800-assembly-hardware-kit-four-step.md).
+
+Two things around it did change. The **pre-assembly page** is now the four-item list
+that tells you to inspect for shipping damage, where the 2020 books printed the
+two-item list that cuts along the dotted line - see
+[the pre-assembly card](../../shared/assembly/ct900-pre-assembly.md). And the
+hardware table is now printed **below** each step rather than above it.

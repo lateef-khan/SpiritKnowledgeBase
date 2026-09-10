@@ -28,7 +28,8 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-2024-maintenance-deck-life-20000-kilometres
 see_also:
 - spirit-2026t-maintenance-deck-takes-no-lubricant
 - spirit-2026t-maintenance-belt-and-deck-cleaning

@@ -22,21 +22,34 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2025
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
+  - cu800-2024
   - xe100-2007
   - xe150-2005
   - xe195-2019
@@ -174,3 +187,8 @@ No Spirit elliptical has a Chester Treadmill Test, so none uses the RPE=18+ and 
 sentences with "easier" and "harder": XE195 2019 (printed page 27), XG400 2019 (page 29), XE295 2019
 (page 30), XE395 2018 and XE895 2018 (page 31) and XE795 2018 (page 33). None of them has a Chester
 Treadmill Test, so none uses the RPE=18+ and RPE=14 thresholds.
+
+**Thirteen of the fourteen 2024 New Black Unit manuals print this same page word for word**, from
+the treadmills through to the rower, under the heading "HEART RATE - PERCEIVED EXERTION". **The
+CSC900 stairclimber is the exception** - it prints no RPE page, no heart rate training page and no
+chest strap page; see `csc900-2024-programs-no-heart-rate-training-page`.

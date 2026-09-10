@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: 'bike'
-  model: 'cr800ent-2023'
+  model: '*'
   applies_to:
   - cr800ent-2023
+  - cr800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -76,3 +77,12 @@ name the seat carriage - item 4 in the steps - which arrives on the main frame. 
 labelled photograph on the next page names eight visible parts and is not a carton
 list; see
 [that card](cr800ent-2023-assembly-parts-diagram-labels.md).
+
+## The 2024 printing lists the same twelve lines
+
+The **CR800ENT 2024** carton panel is unchanged - the same twelve lines in the same
+order, Handlebar and Front Handlebar still spelled as one word, and still no seat back
+cover, front stabilizer cover or rear stabilizer cover.
+
+**The panel did not change even though the build did.** The 2024 step four no longer
+connects the HDMI Connecting Wire (No.186); nothing on this panel ever mentioned it.

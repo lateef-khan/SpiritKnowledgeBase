@@ -24,7 +24,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
+  - cr800-2024
+  - cr800ent-2024
+  - crs800s-2024
+  - cs800-2024
+  - csc900-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - xbr55-2023
   - xbr95-2023
@@ -150,3 +163,14 @@ declaration, word for word.
 **The XBR25-2023 manual has no compliance page at all** and claims no certification anywhere
 (`xt-2015-safety-no-compliance-page`). It is the only one of the four 2023 XB books without it, so do
 not read UL or FCC part 15 onto an XBR25-2023 from its siblings.
+
+## Thirteen of the fourteen 2024 New Black Units print this page unchanged
+
+`WARNINGS, COMPLIANCE AND NOTICES`, printed page 4 of each book, is **byte for byte identical in the
+native text layer of all thirteen** - the four 2024 treadmills, the three ellipticals, the three
+bikes, the two steppers and the stairclimber. Same three standards, same Part 15 declaration, same
+Class B notice, same 20 cm RF separation distance. None of them prints a Bluetooth version number.
+
+**The CRW800-2024 rower has no such page.** Its printed page 4 is its safety list, and the whole
+44-page book contains no `FCC`, no `UL`, no `Part 15` and no `FTMS`
+(`crw800-2024-safety-no-compliance-page`). Do not answer a rower owner from this card.

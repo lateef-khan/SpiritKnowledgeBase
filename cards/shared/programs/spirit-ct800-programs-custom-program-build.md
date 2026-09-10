@@ -27,8 +27,10 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -74,3 +76,6 @@ sentence to step 3. Their step 1 names a **Program** button.
 
 **The 2018 CT850 builds into one of two user memories, U1 or U2, and is a different procedure** -
 see `ct850-2018-programs-custom-program-u1-u2`.
+
+**The 2024 CT800 and CT850 owner's manuals print these same seven steps word for word** (both
+printed page 26).

@@ -28,11 +28,15 @@ facets:
   applies_to:
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -46,7 +50,11 @@ source:
   ref: spirit-treadmill-ct800-2016-owners-manual
   locator: p. 8, PARTS INCLUDED; the same panel at p. 8 of the 2020 manual, p. 8 of
     the CT800ENT manual, and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and
-    the CT850ENT manual
+    the CT850ENT manual; and p. 8 of each of the four 2024 manuals
+    (`spirit-treadmill-ct800-2024-owners-manual`,
+    `spirit-treadmill-ct850-2024-owners-manual`,
+    `spirit-treadmill-ct800ent-2024-owners-manual`,
+    `spirit-treadmill-ct850ent-2024-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
@@ -79,3 +87,10 @@ claimed for that machine.
 None of the panels gives item numbers. The item numbers appear only in the assembly
 steps, the hardware tables and - on the machines that have one - the parts list at
 the back. The **CT850 2018 manual has no parts list**.
+
+## The 2024 redesign prints the same eight lines
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** cartons
+list the same eight lines in the same order, and **no lubricant**. Half of each of
+those books is new text, and this panel is not part of it: it is unchanged from the
+2020 and 2022 printings, line for line.

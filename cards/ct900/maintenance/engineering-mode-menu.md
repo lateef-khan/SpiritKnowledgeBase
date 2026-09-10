@@ -27,7 +27,9 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2020
+  - ct850-2024
   - ct900
   section: console
   code: '*'
@@ -114,3 +116,17 @@ KEY TEST, DISPLAY TEST, FUNCTION and SERVICE - it has no Security or Child Lock 
 ODOMETER RESET, OTA AUTO and a SERVICE menu for USB and over-the-air software updates that nothing
 here describes: `ctsbs900-maintenance-mode-key-and-display-test`,
 `ctsbs900-maintenance-mode-function-settings`. Nothing on this card is claimed for that machine.
+
+**The 2024 CT800 and CT850 owner's manuals print items 1 to 5 word for word on their p. 36**,
+including the five Functions settings, the **30 minute** sleep figure, the Start + Stop + Enter hold
+of about 5 seconds with the safety button inserted, and the Security entry printed twice with the
+**Incline UP** unlock sequence - so this card covers those two machines. Like the 2020 manuals they
+have no Units setting and no Grade Return under those names; GS Mode is the grade return.
+
+**They print the menu on the same page as the calibration procedure**, under the shared heading
+CALIBRATION PROCEDURE & ENGINEERING MODE MENU, with ENGINEERING MODE MENU as a sub-heading below the
+eight calibration steps.
+
+**The 2024 ENT treadmills have no key gesture at all** - their maintenance mode is opened by pressing
+**Hello Guest** ten times on the touchscreen and holds five groups, not five numbered items:
+`cu800ent-2024-console-maintenance-mode-and-engineering-menu`.

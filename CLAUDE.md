@@ -247,6 +247,38 @@ scan is upside down throughout, and an early-exit scorer took the 0° reading an
 produced digits that three warranty cards then repeated. Score all four
 rotations and keep the best.
 
+## A page can carry text that is not printed on it
+
+The opposite of a flattened image, and more dangerous. `pdftotext` returns words
+that **no reader will ever see on the page**: an invisible layer left behind by
+the OEM's authoring file, sitting under or over the artwork.
+
+On 2026-09-10 all fourteen 2024 Spirit manuals were found to carry a hidden
+foreign-language OEM block across their maintenance pages — metric figures
+(3-5 kph, 8 mm, a 56x224 cm running surface) and a **complete copy of the previous
+generation's seven-task care schedule with its interval marks**, none of it
+printed. An agent that trusted `text.md` would have carded the wrong schedule,
+the wrong running-surface size and the wrong tracking speed for the whole family,
+and every figure would have looked well sourced.
+
+The tell is a figure in the wrong unit system, a stale table that reads like an
+earlier edition, or text whose subject does not match the machine.
+
+**Where the printed page is the fact, read the render, not the extraction:**
+
+```bash
+pdftoppm -r 300 -png -f N -l N FILE.pdf /tmp/pg
+tesseract /tmp/pg-*.png stdout --psm 4        # what a reader actually sees
+pdftotext -f N -l N -layout FILE.pdf -        # what the file also contains
+```
+
+Anything in the second output and not the first is **ghost text**. Do not card
+it, and say on the card that you read the page rather than the extraction.
+
+This is why `text.md` is for reading and the PDF is for deciding. It now carries
+three kinds of text: the native layer, the `=== OCR SUPPLEMENT ===` blocks this
+repository appends, and — on some sources — a ghost layer that was never on paper.
+
 ## Prove an absence twice before you card it
 
 "The manual prints no X" is a real answer here and many cards give it. That makes a

@@ -28,19 +28,25 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - cs800-2024
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   - cu900ent
@@ -102,3 +108,24 @@ machines.
 
 **The 2022, 2023 and 2024 touchscreen bikes print a shorter Quick Start** with no dot matrix at all:
 `spirit-ent-bike-console-quick-start-touchscreen`.
+
+**Six of the 2024 New Black Units owner's manuals print this section too**, so this card covers a
+stepper and a semi-recumbent stepper as well as ellipticals and bikes: CE800-2024 p. 15, CE850-2024
+p. 17, CR800-2024 p. 15, CU800-2024 p. 15, CRS800S-2024 p. 16 and CS800-2024 p. 16. All six print
+the 24 columns of one minute each and the wrap-around at the 24th.
+
+**They split the same way the earlier manuals do.** Five of them - CE800-2024, CR800-2024, CU800-2024,
+CRS800S-2024 and CS800-2024 - name the keys **Level Up and Down** and light **just the bottom row**
+at first. The **CE850-2024** names them **Up and Down** and prints the track clause: the matrix shows
+"a ¼ mile (0.4km) track display or just the bottom row lit at first, depending on how the display
+button has been set".
+
+**The CSC900-2024 stair climber prints a shortened version** on its p. 15 and is deliberately not on
+this card. It drops the "after the console powers up" opening, names the keys **level Up + and
+Down -**, calls the window a plain **dot matrix display**, and replaces the harder-to-pedal sentence
+with the opposite mechanism: the StairClimber "will get harder as the stairs begin to rotate more
+easily as the rows increase, thus increasing your steps per minute". Quoting this card at a CSC900
+owner would describe the wrong machine.
+
+**The CRW800-2024 rower has no Quick Start section at all.** Its console is an LCD with a Mode key
+and eleven workout modes: `crw800-2024-console-button-functions`.

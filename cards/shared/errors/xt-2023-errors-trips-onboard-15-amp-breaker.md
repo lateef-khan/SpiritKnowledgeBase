@@ -26,7 +26,9 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2018
+  - ct850-2024
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -116,3 +118,10 @@ check and the "if it is on its original side" qualifier.
 For the XT685ENT that agrees with its base XT685-2023 manual. **For the XT485ENT it does
 not**: the base XT485-2023 manual stops at the friction line. The rule stated above - that of
 the 2023 manuals only the XT685 prints it - does not hold once the ENT documents are counted.
+
+**The CT800 2024 and CT850 2024 owner's manuals print this row with both steps** - the friction
+line and the amp-draw and deck-wear check, the `if it is on its original side` qualifier included -
+and send the reader to their **Machine Care** chapter rather than to *Maintenance & Care*.
+
+**The two ENT treadmills of the same 2024 family print 20 amp in this row, not 15**, so do not
+carry this card to a CT800ENT 2024 or CT850ENT 2024: `ct900ent-trips-20-amp-circuit`.

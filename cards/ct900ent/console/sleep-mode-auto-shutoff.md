@@ -21,16 +21,22 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900ent-2021
+  - crs800s-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct850-2018
   - ct900ent
   - cu800-2021
+  - cu800-2024
   - cu900ent
   section: console
   code: '*'
@@ -137,3 +143,38 @@ circuitry" rather than "power down most everything".
 manual's Engineering Mode screen has a **SLEEP MODE** switch, off in the screenshot, with the same
 **30 minutes** beside it: `cu900ent-engineering-mode-settings`. **That is the only figure in the
 range that two separate documents agree on.**
+
+**Five of the 2024 New Black Units owner's manuals print these three paragraphs word for word** -
+CE800-2024 p. 16 under TO TURN BIKE OFF, CE850-2024 p. 18 under TO TURN ELLIPTICAL OFF, CR800-2024
+and CU800-2024 p. 16 under TO TURN BIKE OFF, and CS800-2024 p. 17 under TO TURN STEPPER OFF - with
+**30 minutes** and with "safety button" for the safety key, so this card covers those machines.
+
+**The CE800-2024 heads its own section TO TURN BIKE OFF and says "the bike will power down"**, on an
+elliptical. It is a copy-and-paste from a bike manual; the machine is an elliptical throughout the
+rest of the book. Read "bike" as "elliptical" there.
+
+**"Safety button" on any of these five is a copy-and-paste from a treadmill manual**, as it is on the
+CE850-2020 and CR800-2021. None of the five has a safety key or tether.
+
+**The CRS800S-2024 prints a rewritten version** on its p. 17, under TO TURN STEPPER OFF, and it is on
+this card for the 30 minutes only:
+
+- It keeps the first two sentences, reordered - *"This function is called sleep mode. The display will
+  automatically turn off (go to sleep) after 30 minutes of inactivity."*
+- It says **"the treadmill will power down most everything"** on a semi-recumbent stepper - a second
+  copy-and-paste, from a treadmill manual this time.
+- **It drops the TV-current sentence and the "you may also remove the safety button" sentence
+  entirely**, and ends instead: *"The default setting for sleep mode is ON, follow the instructions
+  in the Engineering section to turn it off."* Do not quote "it is perfectly fine to leave the main
+  power switch on" for a CRS800S; that manual does not print it.
+
+**The CRS800S-2024 and CS800-2024 are the only two machines in this range whose menu states the sleep
+default.** Both print **Sleep mode (Default On)**:
+`spirit-stepper-console-maintenance-menu-sleep-default-on`. The CE800-2024, CR800-2024 and
+CU800-2024 menus carry no sleep entry and no figure at all, so 30 minutes is printed in only one
+place in those three books.
+
+**The CT800-2024 and CT850-2024 treadmills have no TO TURN TREADMILL OFF section**, exactly as the
+CT800-2020 has none. Their engineering menu is the only place either prints a sleep figure, and it
+says 30 minutes (`ct900-engineering-mode-menu`). **The CSC900-2024 and CRW800-2024 print no
+inactivity timeout anywhere.**

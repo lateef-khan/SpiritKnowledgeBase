@@ -24,10 +24,12 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   section: programs

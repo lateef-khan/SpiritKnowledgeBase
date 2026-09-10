@@ -23,14 +23,20 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ce800ent-2024
+  - cr800ent-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - cu800ent-2024
   - cvc800
   - xbr25-2023
@@ -169,3 +175,10 @@ no cord rule at all.
 
 **Their own earlier printings do not print it**, and neither does any XBR95 manual - the XBR95 is
 self-powered and has no power cord (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**Six of the fourteen 2024 New Black Units print it** - the four 2024 treadmills, the CE800ENT-2024
+and the CR800ENT-2024, on their ELECTRICAL SAFETY page, printed page 6. The two non-ENT treadmills
+open their page with it, where the four ENT machines put the RCD/GFCI sentence first
+(`spirit-never-use-a-gfci-wall-outlet`). All six name `the elevation mechanism and transport wheels`,
+including the CE800ENT elliptical and the CR800ENT recumbent bike, neither of which has an elevation
+mechanism; the sentence is carried over from the treadmill book unchanged.

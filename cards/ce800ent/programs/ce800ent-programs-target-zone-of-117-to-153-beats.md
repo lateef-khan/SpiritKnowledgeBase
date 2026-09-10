@@ -20,9 +20,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
   section: programs
   code: '*'
 authority: 3
@@ -65,3 +66,7 @@ programs the machine will automatically adjust **resistance** to maintain the de
 
 **Four different figure pairs appear across the ten Spirit commercial elliptical owner's manuals** -
 see the not-to-be-confused-with links.
+
+**The 2024 CE800ENT prints this same page and the same 117-to-153 example** (printed page 46).
+**Its LED stablemates the 2024 CE800 and CE850 do not**: they print 65% and 80% and reach 225
+beats - see `ce900-2025-programs-target-zone-of-117-to-225-beats`.

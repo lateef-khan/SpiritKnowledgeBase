@@ -1,0 +1,50 @@
+---
+id: crw800-2024-programs-game-workout
+title: The Game workout, a five minute scrolling game where your height on screen is your stroke speed
+kind: fact
+question: What is the Game workout on the Spirit crw800-2024 rower?
+asked_as:
+- what is the game mode on the rower
+- how does the rowing game work
+- how long is the game workout
+- why is my dot moving up and down
+keywords:
+- game workout
+- five minutes
+- scrolling
+- user position
+- stroke speed
+- three dots
+- count down
+- rower
+facets:
+  brand:
+  - spirit
+  product_line: rower
+  model: crw800-2024
+  applies_to:
+  - crw800-2024
+  section: programs
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- crw800-2024-programs-eleven-workout-modes-in-mode-button-order
+source:
+  ref: spirit-rower-crw800-2024-owners-manual
+  locator: printed page 23
+  extracted_at: '2026-09-10'
+---
+
+Choose Game workout mode with the **MODE** button, then press **Start/Stop** to begin.
+
+- **Three dots at the left side represent the user position**, and the image **shifts one profile
+  left per second** and continues to scroll.
+- **The position of the user will not shift** horizontally. **The faster the user strokes, the
+  higher the user's position.** When there is no stroke, the position **goes down to the lowest**.
+  The height of the user's position is equivalent to the speed the user strokes.
+- **The time for the game workout starts counting down from 5 minutes and ends when time is up.**
+
+**The Game duration is fixed at 5 minutes**; unlike every other timed mode on this console it takes
+no user setting. The manual states no score, no obstacle and no win condition - the scrolling
+profile and the height of your marker are all it describes.

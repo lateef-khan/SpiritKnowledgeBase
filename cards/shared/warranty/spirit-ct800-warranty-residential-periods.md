@@ -37,6 +37,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-treadmill-warranty-coverage-periods
 - spirit-ct800-warranty-commercial-periods
 - xt-2023-warranty-residential-coverage-periods
 - xt185-2015-residential-warranty-periods

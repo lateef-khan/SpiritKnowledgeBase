@@ -30,11 +30,14 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -109,7 +112,13 @@ source:
     absent from applies_to - xbr95-2023-maintenance-no-noise-or-levelling-section. Every
     residential maintenance page was checked against a 300 dpi render (native 356 /
     rendered 354 on the 2016 and 2021 XBR95; 269 / 270 on both ENTs; 185 / 183 on all
-    four 2023 books), so nothing on them is imaged.'
+    four 2023 books), so nothing on them is imaged. Three 2024 New Black Units bike
+    manuals print the same three figures under MACHINE CARE - CONTINUED and were added
+    in wave 15: spirit-bike-cr800-2024-owners-manual and spirit-bike-cu800-2024-owners-manual
+    printed p. 36 (PDF p. 38) and spirit-bike-cr800ent-2024-owners-manual printed p. 49
+    (PDF p. 51). All three pages were read from a 300 dpi render with tesseract --psm 4
+    rather than from the text layer, because those PDFs carry a second, invisible text
+    layer whose figures differ from the printed page.'
   extracted_at: '2026-09-09'
 ---
 
@@ -206,3 +215,13 @@ and the pedals tighten in opposite directions. See `cu900ent-noise-and-feet-feel
 `cu900ent-shaking` and `cu900ent-check-pedals`. **None of the twelve owner's manuals prints the
 wear-parts warning** either (`cu900ent-wear-parts-inspection`) — checked for "susceptible",
 "damage and wear" and "PU wheel" in all thirteen; the only PU wheel hits are parts-list rows.
+
+## The three 2024 New Black Units bikes print it too
+
+The **CR800 2024**, **CR800ENT 2024** and **CU800 2024** carry the block word for word, in the
+"It is important to note that" wording, under **MACHINE CARE - CONTINUED** beside the four-step
+post-workout routine (`spirit-2026t-maintenance-post-workout-machine-care`) and the eleven-row
+schedule table (`spirit-bike-maintenance-machine-care-schedule`). **No figure changes** - 90%,
+2 pads and 14 mm on all three, and the crank arm nut is literal on all three.
+
+That takes the group of bike manuals carrying the schedule table from three to six.

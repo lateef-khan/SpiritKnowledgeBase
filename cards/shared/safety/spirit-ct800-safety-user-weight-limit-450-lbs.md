@@ -25,26 +25,39 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900ent
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -191,3 +204,31 @@ upright is given a different limit.
 
 **The 2012 CU800 manual is the exception and prints no limit at all** - see
 `xt-2015-safety-no-user-weight-limit-printed`. Do not carry 450 lbs back to it.
+
+## Thirteen of the fourteen 2024 New Black Units print the same 450 lb figure
+
+Spirit reissued its whole commercial range in September and October 2024. Thirteen of the fourteen
+manuals print 450 lb, in four wordings that mean the same thing:
+
+| Manuals | Printed as |
+|---|---|
+| CT800-2024, CT850-2024, CE800-2024, CR800-2024, CU800-2024 | `User Weight Limit: 450 lb.` |
+| CE850-2024, CRS800S-2024, CRW800-2024 | `User Weight Limit: 450 lb` |
+| CT800ENT-2024, CT850ENT-2024, CS800-2024 | `Recommended User Weight Limit: 450 lb` |
+| CE800ENT-2024, CR800ENT-2024 | `Weight Limit: 450 lb` |
+
+The figure is 450 on all thirteen and none of them says what happens above it. As on every earlier
+generation, the limit is printed **in one place only** - the last item of the safety instructions
+list - and none of these manuals carries a specification table with a user capacity.
+
+**Two machines are new to this card and are not treadmills, ellipticals or bikes.** The CRS800S-2024
+semi-recumbent stepper and CS800-2024 stepper are climbers, and the CRW800-2024 is a rower; all
+three print the same 450 lb in the same place. This card now spans five product lines, which is why
+its `product_line` is the wildcard.
+
+**The fourteenth machine prints 400 lb.** The CSC900-2024 stairclimber is `User Weight Limit: 400
+lb.`, and `400 lbs. / 180 kg` again on its electrical page
+(`csc900-2024-safety-user-weight-limit-400-lb`). Never quote 450 lb for a CSC900.
+
+**The CRW800-2024 rower is not the CRW800H2O water rower.** They are different machines with
+different manuals; nothing here may be quoted for the water rower.

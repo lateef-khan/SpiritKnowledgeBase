@@ -28,6 +28,7 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   section: safety
   code: '*'
 authority: 3
@@ -127,3 +128,21 @@ and 2023 machines only.
 The 2013 manual is an image-only scan read by OCR, and its running headers come out as
 `CE8O0G Elliptical Trainer` and similar. The list items above are legible; anything in that manual
 that is not is not quoted here.
+
+## The CE800-2024 prints the same list, numbered
+
+The 2024 New Black Units CE800 owner's manual, printed page 5, prints the same items in the same
+order as the 2021 and 2023 books, numbered 1 to 14 instead of bulleted. Nothing is added and nothing
+is dropped. Four presentational things differ:
+
+| | 2021 and 2023 | 2024 |
+|---|---|---|
+| Opening | `WARNING` then the list | `When using an electrical appliance, basic precautions should always be followed` above the DANGER line, then `WARNING - To reduce the risk of burns, fire electric shock, or injury to persons:` |
+| `Read all instructions before using this appliance` | a bullet of the list | printed above the DANGER line **and** repeated as item 1 |
+| The weight limit | `Maximum User Weight: 450 lb`, mid-list | `User Weight Limit: 450 lb.`, item 14, at the end |
+| Closing | `SAVE THESE INSTRUCTIONS - THINK SAFETY!` | the boxed weight-and-power note printed on all fourteen 2024 manuals |
+
+The `metal capabilities` slip for *mental* survives into the 2024 book. The figure is 450 lb in all
+three (`spirit-ct800-safety-user-weight-limit-450-lbs`), and the 2024 list still names no outlet,
+no circuit rating and no extension cord, because the CE800-2024 is still self-powered
+(`spirit-ce-safety-generator-produces-ac-power`).

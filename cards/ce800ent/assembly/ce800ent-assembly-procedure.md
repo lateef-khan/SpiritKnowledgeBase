@@ -24,9 +24,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -128,3 +129,15 @@ console mast and the swing arm. Two of its figures do not agree with this manual
 see [the console card](console-replacement.md) and
 [the swing arm card](swing-arm-replacement.md). The console mast figures do
 agree: four M8x25mm bolts, the flat washer on the last one.
+
+## The 2024 redesign reprints this build
+
+The **CE800ENT 2024** manual prints these four steps word for word and its four
+hardware tables row for row. The rail support assembly is still item **No.3** and the
+carton panel still promises a **Center Aluminum Rail** the build never fits.
+
+**No cable was added or dropped.** Step three still threads the Computer Cable
+(No.152), the CSAFE Connecting Wire (No.150) and the Communication Cable (No.149), and
+the word HDMI appears nowhere in either printing. One machine in the same 2024
+redesign did lose a cable - see
+[the CR800ENT card](../../cr800ent-2024/assembly/cr800ent-2024-assembly-hdmi-wire-dropped.md).

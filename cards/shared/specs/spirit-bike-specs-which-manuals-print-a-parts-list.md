@@ -1,6 +1,6 @@
 ---
 id: spirit-bike-specs-which-manuals-print-a-parts-list
-title: Eight of the thirteen commercial bike manuals print an exploded view and parts
+title: Eleven of the sixteen commercial bike manuals print an exploded view and parts
   list, and five print none
 kind: fact
 question: Does the owner's manual for a Spirit commercial upright or recumbent bike
@@ -27,12 +27,15 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -51,15 +54,18 @@ see_also:
 - spirit-bike-specs-generator-brake-or-induction-brake
 - spirit-cr800-specs-parts-list-2021-vs-2023
 - cu900ent-outlines-part-names
+- cr800-2024-specs-parts-list
+- cr800ent-2024-specs-parts-list
+- cu800-2024-specs-parts-list
 source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: 'Table of Contents p. 1 (40 EXPLODED VIEW, 41 PARTS LIST); each of the
-    other twelve manuals was checked at its own Table of Contents and at the pages
+    other fifteen manuals was checked at its own Table of Contents and at the pages
     named in the table below'
   extracted_at: '2026-09-09'
 ---
 
-**Eight of the thirteen print both an exploded view and a numbered parts list.
+**Eleven of the sixteen print both an exploded view and a numbered parts list.
 Five print neither.**
 
 | Manual | Exploded view | Parts list | Header printed above the list |
@@ -72,6 +78,9 @@ Five print neither.**
 | CU800ENT-2024 | p. 52 | p. 53 | none - just `PARTS LIST` |
 | CR900-2025 | p. 36 | p. 37 | none - just `PARTS LIST` |
 | CU900-2025 | p. 35 | p. 36 | none - just `PARTS LIST` |
+| CR800-2024 | p. 39 | pp. 40-42 | none - just `PARTS LIST` |
+| CU800-2024 | p. 39 | pp. 40-41 | none - just `PARTS LIST` |
+| CR800ENT-2024 | p. 52 | pp. 53-55 | none - `PARTS LIST`, then `PARTS LIST - CONTINUED` |
 | **CR900-2018** | **none** | **none** | - |
 | **CR900ENT-2021** | **none** | **none** | - |
 | **CU800-2012** | **none** | **none** | - |
@@ -88,7 +97,7 @@ numbered parts list.
 
 ## The document code above the list is not the model number
 
-Five of the eight print a header line above the first row, and three of those
+Five of the eleven print a header line above the first row, and three of those
 carry a second, factory-side code the Spirit model name never uses:
 
 - `CR800-XR880-SB023-01 Part List_SPIRIT` above the CR800-2021 and CR800-2023
@@ -104,8 +113,11 @@ of them is a part number to quote to a customer.** The CR800ENT-2023 and
 CU800ENT-2022 lists also print a trailing **200710** after their last row; it is
 not an item.
 
-The three newest books - CU800ENT-2024, CR900-2025 and CU900-2025 - dropped the
-code line and print only `PARTS LIST`.
+The six newest books - CU800ENT-2024, CR900-2025, CU900-2025, CR800-2024,
+CU800-2024 and CR800ENT-2024 - dropped the code line and print only `PARTS LIST`.
+**The CR800ENT-2024 heads its continuation pages `PARTS LIST - CONTINUED`**,
+which none of the LED books does; that wording is a reliable tell that you are
+holding an entertainment-console book of the 2024 range.
 
 ## Do not read one bike's list for another
 
@@ -118,8 +130,27 @@ seat track, eight seat track wheels and a seat back frame with no upright
 equivalent.
 
 **Item numbers are not stable across books either.** The Induction Brake is item
-**055** in the CR800ENT-2023 list and item **20** in both CU800ENT lists; see
+**055** in the CR800ENT-2023 list, item **55** in the CR800ENT-2024 list and item
+**20** in both CU800ENT lists; see
 `spirit-bike-specs-generator-brake-or-induction-brake`.
+
+## The 2024 reissue changed how the CR800ENT numbers its parts
+
+**The CR800ENT-2023 list padded its low numbers to three digits** - `010`, `011`,
+... `019`, with console sub-items `19-01` to `19-17`. **The CR800ENT-2024 list
+prints them plain** - `10`, `11`, ... `19`, sub-items `19-1` to `19-17` - and
+splits item 9 into `9L` and `9R`. A search for "item 055" or "item 019" against
+the 2024 book finds nothing, and **50 of the 152 rows in the 2023 list have no
+same-spelling counterpart in the 2024 one** even where the part is identical. See
+`cr800ent-2024-specs-parts-list`.
+
+## Item 159 swapped names between the CR800 and the CR800ENT
+
+In the 2023 books, item 159 is an **Electronic Module** in the CR800 list and an
+**On/Off Switch Bracket** in the CR800ENT list. **In the 2024 books the two names
+trade places**: item 159 is an On/Off Switch Bracket in the CR800-2024 list and
+an Electronic Module in the CR800ENT-2024 list. Quote item 159 only from the book
+for the machine in hand, and say which book it came from.
 
 ## The two CR800 printings are the same list with five changes
 

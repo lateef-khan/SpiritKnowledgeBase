@@ -33,7 +33,9 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ct800-2020-specs-parts-list
+- ct800-2024-specs-parts-list
 - ct800ent-2022-specs-parts-list
+- ct800ent-2024-specs-parts-list
 - xt-2015-specs-no-parts-list
 - spirit-2026t-specs-no-parts-list
 see_also:
@@ -94,6 +96,11 @@ list, and say the owner's manual does not print them.
 - **A console overview illustration** labelled with part *names* - console mast,
   motor cover, running belt/deck, side rails - not with item numbers.
 
-**The later two generations of the same machine do carry a full list**, one each
-and not interchangeable with one another either. See
-`ct800-2020-specs-parts-list` and `ct800ent-2022-specs-parts-list`.
+**The four later printings of the same machine do carry a full list**, one each
+and not interchangeable with one another. See `ct800-2020-specs-parts-list`,
+`ct800ent-2022-specs-parts-list`, `ct800-2024-specs-parts-list` and
+`ct800ent-2024-specs-parts-list`. The 2024 pair is the New Black Units reissue:
+its CT800 list carries the same 132 item numbers as the 2020 list with four rows
+altered, and its CT800ENT list drops item 118 from the 2022 list and swaps four
+cable names. **A number that checks out against one of the four is not thereby
+right for another.**

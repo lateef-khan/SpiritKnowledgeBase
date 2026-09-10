@@ -2,8 +2,9 @@
 id: spirit-wireless-chest-belt-no-pulse
 title: The wireless chest belt shows no pulse
 kind: troubleshooting
-question: Why is the wireless chest belt not reading on a Spirit CE800ENT, CE900-2025,
-  CR900-2025, CT850, CU800ENT-2024, CU900-2025, CU900ENT or CVC800?
+question: Why is the wireless chest belt not reading on a Spirit commercial treadmill,
+  elliptical, bike, stepper or climber - CE800, CE800ENT, CE850, CE900, CR800, CR800ENT, CR900,
+  CRS800S, CS800, CT850, CU800, CU800ENT, CU900, CU900ENT or CVC800?
 asked_as:
 - chest strap not reading on my spirit machine
 - wireless heart rate not working
@@ -23,11 +24,21 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
+  - ce850-2024
   - ce900-2025
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - crs800s-2024
+  - cs800-2024
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - cu900ent
@@ -77,3 +88,23 @@ The CRW800H2O rower answers this question differently again - it asks for a 5.0 
 correctly, and names no battery: `crw800h2o-console-shows-no-pulse-data`.
 
 A jumpy rather than absent reading is `spirit-erratic-pulse-display`.
+
+**Ten of the fourteen 2024 New Black manuals print this row with the same three causes and the
+same three fixes**, CR2032 battery and three-foot range included.
+
+Which of the ten also print the `Chest belt too close` second row: the CE850 2024, CRS800S 2024,
+CS800 2024, CT800ENT 2024 and CT850ENT 2024 do; the CE800 2024, CE800ENT 2024, CR800 2024,
+CR800ENT 2024 and CU800 2024 do not.
+
+**On the CR800 2024 and the CU800 2024 this row's label has slipped a line.** Both books print
+`(No pulse displayed on monitor)` alone against these three chest-belt causes and put
+`Wireless lost its function.` against the *next* row down, which is the no-resistance row. The
+rendered page was checked: it is how the manuals are printed, not an extraction fault. See
+`ce800ent-no-resistance`.
+
+The CRW800 2024 rower prints the same three causes in different words, and adds a fourth row of
+its own about short range: `crw800-2024-errors-wireless-heartbeat-reception-too-short`.
+
+**The CSC900 2024 stairclimber prints no chest belt row at all**, although its console chapter
+says the machine takes a Bluetooth telemetric strap. Do not quote this card's CR2032 and three-foot
+figures at a CSC900 owner as if their manual printed them.

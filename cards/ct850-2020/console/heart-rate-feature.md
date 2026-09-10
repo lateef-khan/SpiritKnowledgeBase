@@ -26,9 +26,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -73,3 +75,15 @@ instructions at `ctsbs900-heart-rate-chest-strap-pairing`.
 
 **The CT850ENT-2022 is described differently** - "Polar and Bluetooth compatible", with no coded
 transmissions - and is held at `ct800ent-2022-console-heart-rate-feature`.
+
+**The 2024 CT800 and CT850 owner's manuals print this paragraph word for word on their p. 18**, under
+HEART RATE WINDOW, naming Polar compatible transmitters "including coded transmissions", so this card
+covers those two machines. Only the name in the last sentence changes - "The CT800" and "The CT850
+will also pick up wireless heart rate transmitters that are Polar compatible, including coded
+transmissions."
+
+**Those two manuals name no Bluetooth strap for this window either**, even though both describe a
+Bluetooth transceiver for the Spirit+ app on their p. 20
+(`xt-2023-console-spirit-plus-app-pairing`). The app radio and the pulse window are separate
+features. **The 2024 ENT treadmills are the ones described as Polar *and Bluetooth* compatible**:
+`ct800ent-2022-console-heart-rate-feature`.

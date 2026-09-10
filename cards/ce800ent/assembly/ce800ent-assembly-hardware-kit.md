@@ -25,9 +25,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -117,3 +118,9 @@ before quoting a size.
 Screws (No.97), which this panel and the parts list both call **M5 x 12mm**. The
 service manual's console replacement says **4 bolts M5 x 10mm**. Item 131 in this
 manual is the M5 x 10mm screw, and it is used on the footplates, not the console.
+
+## The 2024 redesign reprints all four tables
+
+The **CE800ENT 2024** manual prints these four tables row for row - the same item
+numbers, the same descriptions and the same quantities. The counts that do not close
+in the older book do not close in this one either.

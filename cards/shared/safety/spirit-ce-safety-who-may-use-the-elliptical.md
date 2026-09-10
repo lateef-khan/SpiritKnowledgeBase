@@ -27,19 +27,29 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -256,3 +266,26 @@ all.** The age rule is on the SAFETY WARNING sticker instead, whose last bullet 
 `Risk of personal injury - Keep children under the age of 13 away from machine`
 (`spirit-xb-2023-safety-warning-sticker-text`). It is the same figure, in a different place - a
 reader who stops at the safety list of a 2023 XB manual will find no age at all.
+
+## Ten of the fourteen 2024 New Black Units print both bullets, and four do not
+
+The CE800-2024, CE850-2024, CE800ENT-2024, CR800-2024, CR800ENT-2024, CU800-2024, CRS800S-2024,
+CS800-2024, CRW800-2024 and CSC900-2024 owner's manuals all print both sentences as the last two
+items of their safety instructions list, printed page 5 (printed page 4 on the rower). The rule is
+unchanged: under 13 keep away, reduced capability not intended unless supervised or instructed.
+
+Six of the ten print `metal capabilities` for *mental* - the CE800, CE850, CE800ENT, CR800ENT and,
+in the bike wording, the CU800ENT-2024. The steppers, the rower and the stairclimber spell it
+`mental`. Nothing about the rule changes.
+
+**Four 2024 machines are missing one bullet or both, and must not be answered from this card.**
+
+| Machine | What it prints |
+|---|---|
+| CT800ENT-2024, CT850ENT-2024 | the reduced-capability sentence only, as item 15, with `(including children)` added. **No age rule anywhere in the book** (`spirit-2024-safety-instructions-list-treadmill-ent`) |
+| CT800-2024, CT850-2024 | item 3 stops at `or lack of experience and knowledge` - **the supervised-or-instructed exception is cut** - and there is **no age rule anywhere in the book** (`spirit-2024-safety-instructions-list-treadmill`) |
+
+The 2012 to 2020 CT800 and CT850 manuals did print the age rule
+(`spirit-ct800-safety-instructions-list`). The four 2024 treadmill manuals dropped it. Do not carry
+`keep children under the age of 13 away` onto a 2024 treadmill from an older book, and do not offer
+a 2024 CT800 or CT850 owner the supervised-use exception their manual does not print.

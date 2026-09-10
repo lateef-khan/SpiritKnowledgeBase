@@ -26,9 +26,11 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
   section: programs
   code: '*'
@@ -91,3 +93,9 @@ list also adds the Fitness Tests.
 **The 2018 CT850 is a different lineup and is not covered by this card.** It has Calorie and Strength
 where this one has HIIT, and one Gerkin fitness test where this one has seven - see
 `ct850-2018-programs-twelve-program-lineup`.
+
+**The 2024 CT800 and CT850 owner's manuals print this same list word for word** (both printed page
+22), with the same "twelve preset programs" count, the same eleven printed entries and the same
+no-warm-up list. **The 2024 ENT touchscreens print a different menu** - one Heart Rate entry rather
+than two, eleven entries in all, reached from **All Programs** rather than Exercise Programs - see
+`ct800ent-2024-programs-all-programs-menu-of-eleven-entries`.

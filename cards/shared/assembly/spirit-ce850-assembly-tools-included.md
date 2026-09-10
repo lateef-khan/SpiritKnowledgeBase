@@ -28,6 +28,7 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: assembly
   code: '*'
 authority: 3
@@ -96,3 +97,14 @@ in the box, where this one calls for 200 and 201, which are not. See
 **No other Spirit elliptical carton is this one.** The CE800 carton holds six tools,
 the CE800ENT five, the CE900 five and the CES880 four, and no two lists overlap
 completely. Do not carry this panel across.
+
+## The 2024 redesign prints the same four
+
+The **CE850 2024** manual lists the same four tools on its PARTS INCLUDED page, in the
+same order: 13/14mm Wrench, 12/14mm Wrench, Phillips Screwdriver, 8mm L Allen Wrench.
+The build still names six by item number, and **items 200 and 201 are still on no
+panel**.
+
+The 8mm L Allen wrench is item 193 and it is what STEP ZERO uses to release the
+shipping bracket - the one job on this machine that has to be done before step one.
+See [the step-zero card](spirit-2024-assembly-step-zero-shipping-bracket.md).

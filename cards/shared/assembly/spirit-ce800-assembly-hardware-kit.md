@@ -29,6 +29,7 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -115,3 +116,14 @@ arms, with the 2 M10 nylon nuts, item 118.
 Item **78**, the M5x12mm Phillips head screw, is the workhorse: the parts list totals
 **25** of them on the 2021 printing and **29** on the 2023, the four extra being the
 water bottle holder. Item **113**, the 3.5x12mm sheet metal screw, totals 18 on both.
+
+## The 2024 redesign reprints all four tables
+
+The **CE800 2024** manual prints these four tables row for row - the same item
+numbers, the same descriptions and the same quantities, including the four M5x12mm
+screws of the water bottle holder in the step three table. It is a 2023-style table,
+not a 2021 one.
+
+**The M10 shoulder bolt is still printed at two lengths.** The 2024 step three table
+gives item 119 as **M10 x 28mm** and its parts list gives the same item as **M10 x
+38mm**, exactly as the 2023 book does. The redesign did not settle it.

@@ -24,7 +24,19 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
+  - crs800s-2024
+  - cs800-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - xbr55-2023
   - xbr95-2023
@@ -75,3 +87,12 @@ not 13.1, for the same Spirit+ app. One decimal place apart, and it is the manua
 `spirit-ent-bike-console-spirit-plus-app-from-the-top-right-icon`.
 
 **The XBR25-2023 states no requirement at all** because it has no app section.
+
+**All twelve 2024 New Black Units owner's manuals print the same closing note**, spelled "IOS 13.1 or
+Android 8.0", so this card now covers them: CT800-2024, CT850-2024, CRS800S-2024 and CS800-2024
+p. 20, CE800-2024, CR800-2024 and CU800-2024 p. 19, CE850-2024 p. 21, CT800ENT-2024 and CT850ENT-2024
+p. 20, CE800ENT-2024 and CR800ENT-2024 p. 18. The four ENT books capitalise it "the Spirit + App"
+where the eight LED books write "the spirit + App"; the two version numbers are identical.
+
+**The CSC900-2024 and CRW800-2024 state no requirement at all** because neither has an app section:
+`spirit-2024-console-no-app-on-the-climber-and-rower`.

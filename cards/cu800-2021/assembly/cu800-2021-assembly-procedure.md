@@ -2,7 +2,8 @@
 id: cu800-2021-assembly-procedure
 title: Four-step upright build with a seven-bolt console mast and a sliding seat mount
 kind: procedure
-question: How do I assemble a Spirit cu800-2021 upright bike?
+question: How do I assemble a Spirit CU800 upright bike, on the 2021 (cu800-2021)
+  or 2024 (cu800-2024) printing?
 asked_as:
 - how do i put together the spirit cu800
 - assembly instructions for the cu800 upright bike
@@ -22,9 +23,10 @@ facets:
   brand:
   - spirit
   product_line: 'bike'
-  model: 'cu800-2021'
+  model: '*'
   applies_to:
   - cu800-2021
+  - cu800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -40,7 +42,9 @@ see_also:
 - spirit-ct800-assembly-unpacking
 source:
   ref: spirit-bike-cu800-2021-owners-manual
-  locator: pp. 8-11, CU800 STEP ONE to STEP FOUR
+  locator: pp. 8-11, CU800 STEP ONE to STEP FOUR; the same four steps word for word
+    at pp. 10-13 of the CU800 2024 manual (`spirit-bike-cu800-2024-owners-manual`),
+    headed ASSEMBLY - STEP ONE to STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
@@ -101,3 +105,15 @@ slide that step 4 fits. See
 
 The build ends here. There is no first-power-on step: these bikes are
 generator-powered and the console starts when you pedal.
+
+## The 2024 redesign reprints this build
+
+The **CU800 2024** manual prints these four steps word for word and its four hardware
+tables row for row. **"6 Fast Washers" is still there** in step two, and step four
+still fits the seat that the carton panel never lists.
+
+Around the build, two things changed and neither touches the steps: the pre-assembly
+page is now the four-item list that tells you to inspect for shipping damage, and each
+hardware table is printed below its step rather than beside it. Its carton panel and
+its tools panel are unchanged - the same eleven part lines and the same 13/15mm,
+12/14mm and Phillips.

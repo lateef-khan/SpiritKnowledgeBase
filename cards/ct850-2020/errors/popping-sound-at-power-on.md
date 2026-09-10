@@ -2,8 +2,8 @@
 id: ct850-2020-popping-sound-at-power-on
 title: A popping sound when the power is switched on
 kind: troubleshooting
-question: Why does a Spirit CT850-2020 treadmill make a popping sound when I turn
-  it on?
+question: Why does a Spirit CT800ENT-2024, CT850-2020 or CT850ENT-2024 treadmill
+  make a popping sound when I turn it on?
 asked_as:
 - popping noise when i switch my spirit treadmill on
 - loud pop from the treadmill at power up
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -44,3 +46,10 @@ source:
 The earlier CT850 2016 manual prints the same row with **200-240V** instead of 120V:
 `ct850-2016-popping-sound-at-power-on`. Check the machine's own rating plate before acting on
 either figure.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+The **120V** figure is unchanged, so the two 2024 ENT treadmills agree with the CT850 2020
+service manual rather than with the CT850 2016 one.

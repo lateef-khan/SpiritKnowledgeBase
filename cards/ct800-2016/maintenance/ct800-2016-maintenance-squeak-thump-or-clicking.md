@@ -3,8 +3,8 @@ id: ct800-2016-maintenance-squeak-thump-or-clicking
 title: A squeak, thump or click traced to loose hardware, the crank arm nut or an unlevel
   rear stabiliser
 kind: troubleshooting
-question: What makes a Spirit treadmill or elliptical squeak, thump or click, and
-  what do I do after each workout?
+question: What makes a Spirit treadmill, elliptical, stepper or rower squeak, thump or
+  click, and what do I do after each workout?
 asked_as:
 - my treadmill squeaks when i walk on it
 - there is a thumping or clicking noise
@@ -29,12 +29,22 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
   - ct800-2016
+  - ct800-2024
+  - ct800ent-2024
   - ct850-2018
+  - ct850-2024
+  - ct850ent-2024
   - xe795-2018
   - xe795-2021
   - xe895-2018
@@ -42,6 +52,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- csc900-2024-maintenance-one-reason-and-owner-responsibility
 - ct800-2020-maintenance-after-each-workout-checks
 - ct900-post-workout-care-and-hardware-check
 - ctsbs900-post-workout-cleaning
@@ -59,7 +70,7 @@ see_also:
 - ct800-2016-assembly-levelling-pads
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text'
+  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text. Ten of the fourteen 2024 New Black Units manuals print the same block word for word under MACHINE CARE - CONTINUED, added in wave 15: ct800-2024 and ct850-2024 printed p. 40, ct800ent-2024 and ct850ent-2024 printed p. 56, ce800-2024 printed p. 36, ce850-2024 printed p. 37, ce800ent-2024 printed p. 49, crs800s-2024 printed p. 34, cs800-2024 printed p. 35 and crw800-2024 printed p. 30. Each of those pages was read from a 300 dpi render with tesseract --psm 4, not from the text layer, because every one of these PDFs carries a second, invisible text layer whose wording differs'
   extracted_at: '2026-09-09'
 ---
 
@@ -139,3 +150,33 @@ dirty" to the 90% sentence, and replaces the crank arm nut with rail cleaning an
 the bottom of the machine and no crank arm nut -
 `spirit-ce900-maintenance-squeak-thump-or-clicking`. The **CES880 2025** prints no noise or
 levelling section at all. Do not read the two rear-stabiliser pads onto any of those four.
+
+## Ten of the 2024 New Black Units print it, and three of them are new machine types
+
+Spirit's 2024 commercial reissue carries this block unchanged - **90%, 2 pads, 14 mm** - on the
+**CT800 2024**, **CT850 2024**, **CT800ENT 2024**, **CT850ENT 2024**, **CE800 2024**,
+**CE850 2024**, **CE800ENT 2024**, **CRS800S 2024**, **CS800 2024** and **CRW800 2024**. The
+wording is the CE800ENT/CE900 variant, "It is important to note that", not "I cannot stress this
+point enough".
+
+**These ten books do not carry the miscount.** They still say "one of two reasons", but they print
+**two** numbered items and fold the levelling check into the second, so the count is right. The
+three remedies are unchanged; only the numbering is.
+
+**On the stepper and the rower the crank arm nut is a carry-over, as it is on the treadmills.**
+Neither a CS800 stepper, a CRS800S semi-recumbent stepper nor a CRW800 rower has a crank arm; the
+phrase appears nowhere else in any of their three manuals. Quote the loose-hardware and levelling
+checks for those machines and stop there.
+
+**The CRW800 rower is not the CRW800H2O water rower**, and nothing here was taken from the water
+rower's book.
+
+**The three 2024 bikes are answered elsewhere.** The CR800 2024, CR800ENT 2024 and CU800 2024 print
+the identical block, and Spirit bike questions are answered from `cu900ent-general-maintenance`,
+where the crank arm nut is literal.
+
+**The CSC900 2024 stairclimber is the one machine of the fourteen that prints something else.** Its
+Machine Care page names only **one** reason, drops the 90% figure, the crank arm nut, the pad count
+and the wrench size, and adds a preventive-maintenance and owner-responsibility paragraph instead -
+`csc900-2024-maintenance-one-reason-and-owner-responsibility`. Do not read 90%, 2 pads or 14 mm
+onto a CSC900.

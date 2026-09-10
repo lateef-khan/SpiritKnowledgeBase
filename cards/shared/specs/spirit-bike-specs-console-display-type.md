@@ -29,12 +29,15 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -52,6 +55,7 @@ see_also:
 - cu900ent-console-layout
 - spirit-ce-console-blue-led-console-face
 - spirit-ce-console-led-console-face
+- spirit-climber-rower-2024-specs-console-display-type
 source:
   ref: spirit-bike-cr900-2025-owners-manual
   locator: 'p. 18 Console Screen - Overview; the same callout page is CU900-2025 p.
@@ -59,11 +63,12 @@ source:
     CR900ENT-2021 PDF page 15 (OCR supplement), CU900ENT-2021 PDF page 13 (OCR supplement),
     CU800-2012 PDF page 15 of scan 1 and PDF page 17 of scan 2 (OCR supplements,
     which agree), CR800-2021 and CU800-2021
-    p. 12, CR800ENT-2023 and CU800ENT-2022 p. 13, CU800ENT-2024 p. 8'
+    p. 12, CR800ENT-2023 and CU800ENT-2022 p. 13, CU800ENT-2024 p. 8, CR800-2024 and
+    CU800-2024 printed p. 20 (PDF p. 22), CR800ENT-2024 printed p. 28 (PDF p. 30)'
   extracted_at: '2026-09-09'
 ---
 
-Four different consoles sit across the thirteen commercial bikes, and only two of
+Four different consoles sit across the sixteen commercial bikes, and only two of
 them state a screen size.
 
 | Machines | What the manual calls the display |
@@ -72,10 +77,10 @@ them state a screen size.
 | CR900-2025, CU900-2025 | **Premium ultra-bright white LED display** |
 | CR900-2018, CU900-2018 | **Premium, ultra-bright blue LED display** |
 | CU800-2012 | **Large Blue-LED Matrix Window** plus a **20-Character Message Center** |
-| CR800-2021, CR800-2023, CU800-2021 | LED Data Display Windows plus a Dot Matrix Message Center - **no colour and no size given** |
-| CR800ENT-2023, CU800ENT-2022, CU800ENT-2024 | "Touchscreen" - **no size given anywhere in the book** |
+| CR800-2021, CR800-2023, CU800-2021, **CR800-2024**, **CU800-2024** | LED Data Display Windows plus a Dot Matrix Message Center - **no colour and no size given** |
+| CR800ENT-2023, CU800ENT-2022, CU800ENT-2024, **CR800ENT-2024** | "Touchscreen" - **no size given anywhere in the book** |
 
-**10.1 inches is the only screen dimension any of the thirteen manuals prints,
+**10.1 inches is the only screen dimension any of the sixteen manuals prints,
 and it belongs to the CR900ENT and the CU900ENT only.** Do not quote it for a
 CR800ENT, a CU800ENT, or any LED machine.
 
@@ -113,7 +118,22 @@ accessory tray. The CR800ENT-2023 and CU800ENT-2022 console page labels a
 Touchscreen, an adjustable fan angle, a tablet-friendly reading rack, a USB
 charging port and Start, Stop and Level controls - **but never a size**.
 
-## What none of the thirteen owner's manuals gives
+## The 2024 reissue changed nothing here
+
+The CR800-2024, CU800-2024 and CR800ENT-2024 books are the New Black Units
+reissue, and each keeps its predecessor's display wording exactly. The two LED
+books still label only "LED Data Display Windows" and a "Dot Matrix Message
+Center" with no colour and no size, and the CR800ENT-2024 still says only
+"Touchscreen". **A search of all three books, native text and the OCR of every
+page, returns no inch measurement that is not a thread callout.**
+
+One slip is worth knowing about: the CR800-2024 troubleshooting table reads "LED
+displays not bright, incomplete or imperfect. 1. **LCD** displays are broken." The
+book uses both words for one screen; so does the CRW800-2024 rower - see
+`spirit-climber-rower-2024-specs-console-display-type`. It is a house habit, not
+a description of two different panels.
+
+## What none of the sixteen owner's manuals gives
 
 **No Spirit commercial bike owner's manual states a screen resolution, a
 brightness figure, or the operating system the console runs on.** Where an ENT

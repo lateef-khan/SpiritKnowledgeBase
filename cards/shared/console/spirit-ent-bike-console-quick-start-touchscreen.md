@@ -20,10 +20,12 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
+  product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cu800ent-2022
   - cu800ent-2024
   section: console
@@ -58,3 +60,15 @@ even the CR900ENT and CU900ENT manuals print a further paragraph about the botto
 matrix lighting, 24 columns of one minute each, and a wrap-around at the 24th:
 `spirit-ce-console-quick-start-time-counts-up`. None of that is printed for the CU800ENT or the
 CR800ENT, and their consoles have no matrix of lights.
+
+**The CE800ENT-2024 and CR800ENT-2024 owner's manuals print this paragraph word for word on their
+p. 15**, including the "Power Input Located as shown above" line beside the drawing, so this card
+covers an elliptical as well as bikes and its product line is no longer bike-only. Both also print
+the same **FUNCTIONS OF THIS ELLIPTICAL / RECUMBENT BIKE** paragraph on their p. 14 - the touchscreen
+operates all functions, and the lower control panel carries **Start**, **Stop** and **Level**.
+
+**Still no dot matrix behaviour, no column count, no resistance level count and no wake-the-display
+step** in either book.
+
+**The two 2024 ENT treadmills have a different Quick Start** - a belt that starts at 0.5 mph and
+Speed ▲/▼ keys rather than a Level key: `ct800ent-2022-console-quick-start`.

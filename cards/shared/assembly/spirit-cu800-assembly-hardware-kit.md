@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   section: assembly
@@ -100,3 +101,10 @@ parts already fitted.
 The CU800 2012 manual draws its hardware instead of tabulating it and its step 1 is a
 different fastener in a different count. See
 [that card](../../cu800-2012/assembly/cu800-2012-assembly-hardware-kit.md).
+
+## The 2024 redesign reprints all four tables
+
+The **CU800 2024** manual prints these four tables row for row. It prints the **2021**
+descriptions in step three - item 72 as **5/16"X18"** and item 103 as **5/16"** - not
+the CU800ENT ones, and item 72 in step two is the correct **ø8 x ø19 x 1.5T** rather
+than the CU800ENT misprint.

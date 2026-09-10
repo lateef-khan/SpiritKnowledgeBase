@@ -25,6 +25,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - cu800ent-2024
   - xbr25-2023
   - xbr55-2023
@@ -149,3 +155,16 @@ different statement. Quote the figure from the machine's own manual in both dire
 no environment limits at all** - no temperature, no humidity and no rain or moisture sentence
 anywhere. Its safety list says only `Do not use outdoors`
 (`ab950-2024-safety-instructions-list`). That is an absence; do not fill it from this card.
+
+## Six of the fourteen 2024 New Black Units print the same 40 degrees C figure
+
+The four 2024 treadmills (CT800, CT850, CT800ENT, CT850ENT) and two of the touchscreen machines
+(CE800ENT-2024, CR800ENT-2024) print this paragraph word for word on their ELECTRICAL SAFETY page,
+printed page 6. One figure, `40 degrees C`, no minimum and no Fahrenheit conversion.
+
+**The other eight 2024 manuals print the Fahrenheit range instead** - `The operating temperature
+specification is 40 to 120 degrees Fahrenheit, and humidity is 95% non-condensing`
+(`ct900ent-operating-environment-voltage`). The split runs through the middle of the range: a
+CE800ENT is 40 degrees C and a CE800 is 40 to 120 degrees Fahrenheit, in books issued three weeks
+apart. **Give the figure the machine's own manual prints** and do not convert one into the other -
+40 degrees C is about 104 F, not 120 F, and the manuals never say whether they mean the same limit.

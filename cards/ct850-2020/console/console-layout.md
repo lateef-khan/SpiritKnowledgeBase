@@ -25,8 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: console
   code: '*'
 authority: 3
@@ -94,3 +96,11 @@ there are.** The service-manual drawing above numbers the speed ladder 1 to 12. 
 CT850-2020 owner's manuals both write, in their quick start text, "Direct Access Speed Buttons 1
 through 15": `spirit-ct850-console-quick-start-speed-keys-1-to-15`. Read the ladder on the machine
 in front of you before quoting a number.
+
+**The 2024 CT800 and CT850 owner's manuals print the same thirteen call-outs on their p. 21**, in the
+same words including "for buttons, phone, or MP3 player", so this card covers those two machines. That
+page is a flattened image in both books and the labels were read from the OCR supplement in
+`text.md`. **Their LED rows are labelled differently from the CT850-2020 drawing** - the top row reads
+**DISTANCE, CALORIES, PULSE, TIME ELAPSED** as before, but the second reads **SPEED, WATTS, METs, TIME
+REMAINING** where the older drawing reads WATTS, PACE, METS, TIME REMAINING. The **TRACK / SPEED /
+INCLINE** indicator LEDs beside the dot matrix are the same.

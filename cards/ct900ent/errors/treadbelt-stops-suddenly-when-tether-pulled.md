@@ -25,10 +25,12 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
   - ct900ent
   - xt185-2015
@@ -126,3 +128,8 @@ troubleshooting tables (CT900 printed page 40, CTSBS900 printed page 45) have no
 is on its original side" qualifier included, and sends the reader to its own General
 Maintenance section on cleaning the deck. That puts the 2010 XT685 with the 2015 revision
 rather than with the briefer 2023 XT185, XT285, XT385 and XT485 manuals.
+
+**The CT800 2024 and CT850 2024 owner's manuals print this row word for word**, the deck-wear check
+and the `if it is on its original side` qualifier included. They point the reader at their
+**Machine Care** chapter, which is what the 2024 books call the chapter the older manuals call
+*General Maintenance*.

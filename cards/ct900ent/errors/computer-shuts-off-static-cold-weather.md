@@ -25,7 +25,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900ent
   - xt185-2015
   - xt185-2023
@@ -79,3 +83,7 @@ the cause and the remedy are unchanged on that model across 2010, 2015 and 2023.
 **The XT485ENT and XT685ENT owner's manuals print this row word for word** and send the
 reader to their own Grounding Instructions in the safety pages at the front, exactly as the
 ten XT manuals do.
+
+**All four 2024 New Black treadmills print this row word for word** - the CT800 2024 and CT850 2024
+on printed page 41, the CT800ENT 2024 and CT850ENT 2024 on printed page 59 - and each sends the
+reader to its own Grounding Instructions in the safety pages at the front of the book.

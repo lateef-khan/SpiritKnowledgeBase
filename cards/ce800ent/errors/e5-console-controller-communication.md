@@ -2,7 +2,8 @@
 id: ce800ent-e5-console-controller-communication
 title: 'E5: poor communication between console and lower controller'
 kind: troubleshooting
-question: What does E5 mean on a Spirit CE800ENT elliptical or CU800ENT-2024 bike?
+question: What does E5 mean on a Spirit CE800ENT or CE800ENT-2024 elliptical or a
+  CR800ENT-2024 or CU800ENT-2024 bike?
 asked_as:
 - what does e5 mean on my spirit elliptical
 - elliptical showing e5
@@ -24,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce800ent-2024
+  - cr800ent-2024
   - cu800ent-2024
   section: errors
   code: e5
@@ -81,3 +84,9 @@ console and controller and prints a three-row parts table of its own:
 
 Sole uses the code E5 for the same kind of fault on its treadmills, but on a different controller
 and with different wording - see the Sole cards linked below before carrying an answer across.
+
+**The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print the same definition
+sentence word for word**, and like the CU800ENT 2024 they print it and stop - no parts table, no
+repair. It is the only code either book carries. Both ERROR CODES pages are flat pictures apart
+from the code letter itself; the definition was read from the rendered page (CE800ENT 2024 printed
+page 51, CR800ENT 2024 printed page 51).

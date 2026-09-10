@@ -27,7 +27,9 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr800-2024
   - cr900-2025
+  - cu800-2024
   - cu900-2025
   section: safety
   code: '*'
@@ -100,3 +102,27 @@ voltage, no amperage, no extension-cord rule and no grounding page in either man
 **The Proposition 65 warning moved to a sticker.** These two manuals print no Toluene and
 Acrylamide text and no `www.P65Warnings.ca.gov`; instead a PRODUCT LABELS page describes the
 sticker on the machine (`spirit-bike-2024-2025-safety-product-labels`).
+
+## The 2024 CR800 and CU800 print the same eleven items with a DANGER paragraph above them
+
+The CR800-2024 and CU800-2024 owner's manuals, printed page 5, print items 1 to 11 word for word as
+the CR900-2025 and CU900-2025 books do, in the same order, ending at `User Weight Limit: 450 lb.`
+and the same boxed weight-and-power note. The CR800 and CU800 pages are byte for byte identical to
+each other in their native text layer apart from the machine name.
+
+**The 2024 books carry two sentences the 2025 books do not:**
+
+> When using an **electrical** appliance, basic precautions should always be followed, including the
+> following: Read all instructions before using this appliance.
+
+> **DANGER - To reduce the risk of electric shock:** Always unplug this appliance from the
+> electrical outlet immediately after using and before cleaning.
+
+The 2025 books open `When using an appliance` with no `electrical`, and print no DANGER line.
+
+**Their WARNING heading is wider too.** 2024: `WARNING - To reduce the risk of burns, fire electric
+shock, or injury to persons:`. 2025: `WARNING - To reduce the risk of injury to persons:`.
+
+**The unplug instruction has nothing to unplug.** All four bikes are self-powered by a built-in
+generator and have no mains cord (`spirit-bike-safety-no-mains-outlet-needed`). The 2024 books print
+the DANGER line anyway and do not reconcile it; the 2025 books dropped it.

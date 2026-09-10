@@ -2,7 +2,7 @@
 id: ct850-2020-inverter-error-code-list
 title: Every error code the display can show
 kind: spec
-question: What error codes can a Spirit CT850-2020 treadmill display and what does
+question: What error codes can a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill display and what does
   each one mean?
 asked_as:
 - list of error codes for my spirit treadmill
@@ -21,9 +21,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
   - ct850-2020
+  - ct850-2024
+  - ct850ent-2024
   section: errors
   code: '*'
 authority: 3
@@ -99,3 +101,16 @@ Three things to know before using this table.
 
 The earlier CT850 2016 manual has no code table at all; it names two messages only, on
 `ct850-2016-error-code-items-list`.
+
+**The CT850 2024 and CT850ENT 2024 owner's manuals print this whole table word for word**, every
+cause and every solution alike, in the ERROR CODES table on printed page 42 of the CT850 2024 manual and
+printed pages 60 and 61 of the CT850ENT 2024 manual. Both of those pages are flat pictures with
+no text layer, and both were read from the rendered page. The 2024 books changed the machine
+around this table but not the table: the whole twenty-three-code list is unchanged from the
+2020 service manual.
+
+**The CT850ENT 2024 manual prints two further rows under the same heading that are not codes.**
+`Replace Safety Key` and `SAFETY LOCK` are console messages with their own causes and remedies, and
+they sit below E3 in that book's table. They are on
+`spirit-2024-errors-replace-safety-key-message` and `spirit-2024-errors-safety-lock-child-mode`. The
+CT850 2024 manual prints the twenty-three codes and stops.

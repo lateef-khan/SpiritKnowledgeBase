@@ -23,6 +23,8 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
+  - ct850-2024
   - ct900
   section: console
   code: '*'
@@ -77,3 +79,13 @@ size step, no maximum elevation step, and no automatic belt run at the end; it f
 FINISHED and CONSOLE RESET. Its maximum speed is also a range, 10.0-15.6 mph / 16.0-25.0 kph, not
 the single 12.0 above. Do not carry any value on this card across to that machine:
 `ctsbs900-factory-mode-min-max-speed`.
+
+**The 2024 CT800 and CT850 owner's manuals print these eight steps word for word on their p. 36**,
+under CALIBRATION PROCEDURE & ENGINEERING MODE MENU - the same Start and Speed Up gesture, the same
+mix of "safety key" in step 1 and "safety button" in step 2, wheel size **2.98**, minimum **0.5**,
+maximum **12.0** and maximum elevation **15** - so this card covers those two machines. The two 2024
+books print the identical page; measured on native PDF text their calibration sections match each
+other 100% word for word.
+
+**The 2024 ENT treadmills calibrate from the touchscreen instead**, with defaults printed as a range
+rather than as steps: `ct800ent-2024-console-calibration-defaults-0-5-to-12-0-mph`.

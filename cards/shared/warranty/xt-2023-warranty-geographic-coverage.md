@@ -2,8 +2,8 @@
 id: xt-2023-warranty-geographic-coverage
 title: Where in the world the warranty is honoured
 kind: policy
-question: Is a Spirit treadmill, elliptical or bike under warranty outside
-  the 48 contiguous states?
+question: Is a Spirit treadmill, elliptical, bike, stepper, stair climber or rower under
+  warranty outside the 48 contiguous states?
 asked_as:
 - is my treadmill under warranty in canada
 - does the warranty cover hawaii
@@ -31,10 +31,13 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -42,23 +45,34 @@ facets:
   - cic850-2022
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900
   - ct900ent
   - ctsbs900
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - cu900-2018
@@ -272,3 +286,11 @@ The outside-the-US sentence takes three slots. It is item **10** in the six CR80
 **All fourteen name Spirit Fitness, Inc. as the warrantor** in the note - *All warranties are made by Spirit Fitness, Inc.* - not Spirit Manufacturing and not the bare Spirit Fitness the CT800 2012 uses.
 
 The lists these sentences sit in are `spirit-xb-warranty-exclusions` and `spirit-xb-2023-warranty-exclusions`.
+
+## The fourteen Spirit machines reissued in autumn 2024 print both sentences, in the 2023 pattern
+
+The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800 bikes, the CRS800S, CS800 and CSC900 climbers and the CRW800 rower all print exclusion **9** - *Warranties outside of the United States may vary. Please contact your local dealer for details.* - on a nine-item list, and the 48-states note **twice**: "does not **include** Alaska or Hawaii" under the exclusions and "does not **apply to** Alaska or Hawaii" under the service steps. That is the 2023 and 2026 pattern, not the once-only pattern their own predecessors used.
+
+**The warrantor named in the note changed back.** All fourteen read "All warranties are made by **Spirit Fitness, Inc.**" - the XT wording. The CT800 2016 and 2020, the CT800ENT 2022 and all four earlier CT850 manuals read *Spirit Manufacturing, Inc.* in the same sentence. So a customer holding a 2022 CT850ENT and a 2024 CT850ENT is looking at two different named warrantors for the same machine name, and neither manual says which entity honours a claim on the other's terms.
+
+**Nothing else moves.** Alaska and Hawaii are outside the covered area on all fourteen, no separate Alaska or Hawaii terms are stated, and no shipping surcharge for them is named.

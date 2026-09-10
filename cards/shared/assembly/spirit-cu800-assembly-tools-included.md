@@ -26,6 +26,7 @@ facets:
   applies_to:
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu800ent-2024
   - xbu55-2019
@@ -112,3 +113,9 @@ with a curved washer, and its steps run in a different order. See
 [its hardware](spirit-xbu55-assembly-hardware-kit.md).
 
 **A 14mm is in these cartons too**, in the 12/14mm.
+
+## The 2024 redesign prints the same three
+
+The **CU800 2024** carton lists the same three - 13/15mm wrench, 12/14mm wrench,
+Phillips screwdriver - and still no Allen key. Its step two and step four still name
+"the Wrench (No.100)" by item number rather than by size.

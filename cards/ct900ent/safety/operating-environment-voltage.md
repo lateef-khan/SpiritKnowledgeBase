@@ -26,18 +26,25 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
+  - csc900-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -49,6 +56,7 @@ facets:
   - ct900ent
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   - cu900-2018
   - cu900-2025
@@ -321,3 +329,27 @@ XBU55-2023 give `40 degrees C` on their ELECTRICAL SAFETY page - one Celsius max
 Fahrenheit range (`xt-2023-safety-operating-environment-limits`) - and the XBR95-2023 has no
 electrical page and prints no environment limits at all. Quoting 40 to 120 F for a 2023 XB bike, or
 40 degrees C for one of the ten above, would be wrong in both directions.
+
+## Eight of the fourteen 2024 New Black Units print the temperature paragraph, and only three print both
+
+The CE800-2024, CE850-2024, CR800-2024, CU800-2024, CRS800S-2024, CS800-2024, CSC900-2024 and
+CRW800-2024 owner's manuals all print the same sentence on their electrical page, printed page 6
+(printed page 5 on the rower, printed page 7 on the stairclimber):
+
+> The operating temperature specification is 40 to 120 degrees Fahrenheit, and humidity is 95%
+> non-condensing (no water drops forming on surfaces).
+
+**Only three of the eight also print the supply-voltage paragraph** - the CE850-2024, CRS800S-2024
+and CS800-2024, which plug into a wall socket. **The other five print no voltage statement at all**,
+and for them the answer to a voltage question is that the manual gives none:
+
+| Machine | Why no voltage paragraph |
+|---|---|
+| CE800-2024, CR800-2024, CU800-2024 | self-powered by a built-in generator, no mains supply (`spirit-bike-safety-no-mains-outlet-needed`, `spirit-ce-safety-generator-produces-ac-power`) |
+| CRW800-2024 | the console runs on two C batteries (`crw800-2024-safety-console-runs-on-two-c-batteries`) |
+| CSC900-2024 | factory-wired for 120 VAC or 230 VAC nominal input, stated on its safety page instead (`csc900-2024-safety-outlet-120-or-230-volt`) |
+
+**The other six 2024 manuals print a different temperature figure.** The four 2024 treadmills, the
+CE800ENT-2024 and the CR800ENT-2024 print `The temperature specification is 40 degrees C, and
+humidity is 95%, non-condensing` (`xt-2023-safety-operating-environment-limits`). Never convert one
+statement into the other; give the figure from the machine's own manual.

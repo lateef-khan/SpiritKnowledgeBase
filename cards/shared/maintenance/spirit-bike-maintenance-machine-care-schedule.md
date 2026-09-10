@@ -26,13 +26,17 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   section: maintenance
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- crw800-2024-maintenance-machine-care-schedule
 - ce900-2025-maintenance-machine-care-schedule
 - ces880-2025-maintenance-machine-care-schedule
 - ct900-maintenance-schedule
@@ -48,7 +52,13 @@ source:
     eleven rows with the same marks are spirit-bike-cu900-2025-owners-manual printed
     p. 31 (text.md lines 1019-1036) and spirit-bike-cu800ent-2024-owners-manual printed
     p. 48 (text.md lines 1270-1287) - all three compared word for word with difflib
-    at 1.00, the only difference being RECUMBENT or UPRIGHT in the warning line'
+    at 1.00, the only difference being RECUMBENT or UPRIGHT in the warning line. Three 2024 New Black Units
+    bike manuals print the same eleven rows with the same marks, added in wave 15:
+    spirit-bike-cr800-2024-owners-manual and spirit-bike-cu800-2024-owners-manual printed p. 35
+    (PDF p. 37) and spirit-bike-cr800ent-2024-owners-manual printed p. 48 (PDF p. 50). On all
+    three the table is a flattened image - the native text layer yields only the heading and the
+    unplug line - so each page was rendered at 300 dpi and the cells were placed by their OCR
+    word boxes against the header x-positions, row by row'
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +110,24 @@ CU900ENT 2021 give the post-workout wipe-down and the noise checks only
 
 The same three manuals also carry the four-step post-workout routine that goes with this table —
 `spirit-2026t-maintenance-post-workout-machine-care`.
+
+## Six bike manuals now, not three
+
+The **CR800 2024**, **CU800 2024** and **CR800ENT 2024** of the New Black Units reissue print this
+table with **the same eleven rows in the same order and the same marks in the same columns**,
+checked cell by cell from a 300 dpi render. The unplug line reads *UNPLUG RECUMBENT BIKE* on the
+CR800 and CR800ENT and *UNPLUG UPRIGHT BIKE* on the CU800.
+
+**On these three the unplug line is literal.** Unlike the CR900 2025 and CU900 2025, they are mains
+machines, so there is a cord to pull.
+
+**The table itself is printed as a picture in all three 2024 manuals.** `pdftotext` returns the
+heading and the unplug line and nothing else from those pages, so a text-only reading of the manual
+reports no schedule at all. The rows above come from the render.
+
+## Ten bike manuals still print no schedule
+
+The three 2024 books join the 2025 CR900, the 2025 CU900 and the 2024 CU800ENT. The CR800
+2021/2023, CR800ENT 2023, CR900 2018, CR900ENT 2021, CU800 2012/2021, CU800ENT 2022, CU900 2018 and
+CU900ENT 2021 still give the post-workout wipe-down and the noise checks only, and **there is no
+interval to quote for those ten machines.**

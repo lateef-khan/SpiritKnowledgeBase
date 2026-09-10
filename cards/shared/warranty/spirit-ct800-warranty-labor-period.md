@@ -2,9 +2,9 @@
 id: spirit-ct800-warranty-labor-period
 title: Labor is covered for 2 years, dated from the bill of sale or the serial number
 kind: policy
-question: How long is labor covered on a Spirit CT800 or CT850 treadmill, a Spirit
-  CE800, CE800ENT or CE850 elliptical, or a Spirit CR800, CU800, CU800ENT or CR800ENT
-  bike, and what date is it counted from?
+question: How long is labor covered on a Spirit CT800 or CT850 treadmill, a Spirit CE800,
+  CE800ENT or CE850 elliptical, a Spirit CR800, CU800, CU800ENT or CR800ENT bike, or a
+  Spirit CRS800S or CS800 stepper or CRW800 rower, and what date is it counted from?
 asked_as:
 - how long is labor covered on our ct800
 - does the warranty pay the repair man
@@ -28,23 +28,32 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - crs800s-2024
+  - crw800-2024
+  - cs800-2024
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu800ent-2022
   section: warranty
   code: '*'
@@ -110,3 +119,15 @@ The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and t
 **The two ENT bikes cover console labor separately and for one year only** - a seventh column their tables print and this one does not (`ct800ent-2022-warranty-console-periods`).
 
 **Do not answer a 900-series bike from this card.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT warrant labor for **3 Years** (`spirit-bike-900-warranty-commercial-periods`), and the CR900 2025, CU900 2025 and CU800ENT 2024 tables are different again.
+
+## Nine of the fourteen machines reissued in autumn 2024 keep the two-year figure
+
+The **CT800** and **CT850** treadmills, the **CE800** and **CE850** ellipticals, the **CR800** and **CU800** bikes, the **CRS800S** and **CS800** steppers and the **CRW800** rower all read **Labor 2 Years** in both rows of their tables - the commercial one and the residential one - and all nine print the same SERVICE paragraph dating it from the bill of sale or, failing that, eighteen months from the serial number. The figure survived the redesign that changed almost everything else on the page: the frame dropped from Lifetime to 10 Years and the brake column disappeared, and labor stayed at two years.
+
+**All nine print "2 Years" plural**, not the "2 Year" singular six of the older treadmill manuals use.
+
+**The paragraph still does not agree with the table.** Twelve months from the bill of sale, or eighteen from factory shipping, against a Labor column reading two years - and none of the nine says which governs. Quote both.
+
+**Five of the fourteen do not belong on this card.** The **CT800ENT**, **CT850ENT**, **CE800ENT** and **CR800ENT** print **no general Labor column at all** - only a Console Labor column of 1 Year - so their manuals state no labor period for the machine (`spirit-2024-treadmill-ent-warranty-coverage-periods`, `cu800ent-2024-warranty-coverage-periods`). The **CSC900** merges parts and labor into one column at **3 Years** (`spirit-2024-stair-climber-warranty-coverage-periods`). Do not carry two years onto any of the five.
+
+The tables for the nine are `spirit-2024-treadmill-warranty-coverage-periods` and `spirit-2024-warranty-coverage-periods-parts-labor`.

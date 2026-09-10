@@ -26,10 +26,12 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
   - xt685-2010
   section: errors
@@ -100,3 +102,11 @@ manual devotes printed pages 44-48 to ERROR CODES, three of them headed *ERROR C
 MOTOR DRIVE INVERTER*; the CTSBS900 owner's manual prints a seventeen-row inverter table on
 printed pages 46-48 (`ctsbs900-le1-inverter-low-voltage` and its siblings). Neither family
 uses `LS`-style codes.
+
+**The CT800 2024 and CT850 2024 owner's manuals print both branches word for word**, `LS` included,
+on printed page 41. `LS` is still the only code either of those two books prints in its diagnosis
+table - the CT800 2024's separate ERROR CODES page carries E1 to E7 and the CT850 2024's carries the
+twenty-three-code inverter table, and neither of those tables mentions `LS`.
+
+**The two ENT treadmills of the same 2024 family answer this row differently**, with no code at
+all: `Reset power. If still no good contact service.` See `ct900ent-motor-unresponsive-after-start`.

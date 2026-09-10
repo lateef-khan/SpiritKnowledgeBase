@@ -24,8 +24,10 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2025
   - cu800-2021
+  - cu800-2024
   - cu900-2025
   section: programs
   code: '*'
@@ -59,3 +61,6 @@ no profile strip and no Strength program; searching either whole manual for "str
 
 **The CR900 2018 and CU900 2018 count four and describe four.** Their chapter is otherwise the same
 text. See `spirit-bike-programs-four-presets-hill-fat-burn-cardio-and-interval`.
+
+**The 2024 CR800 and CU800 print the same sentence and the same four descriptions** (printed page
+23), with Strength again named only in the strip of profile pictures.

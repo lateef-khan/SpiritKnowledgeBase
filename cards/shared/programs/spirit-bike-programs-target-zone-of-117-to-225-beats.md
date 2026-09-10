@@ -23,7 +23,9 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr800-2024
   - cr900-2025
+  - cu800-2024
   - cu900-2025
   section: programs
   code: '*'
@@ -66,3 +68,8 @@ carries it.
 **Three other figure pairs appear across the thirteen commercial bike manuals.** The CU800 2012
 prints 60%/80% and 108 to 144; the CR800 2021, CR800 2023 and CU800 2021 print 60%/85% and 108 to
 153; the three 800ENT bikes print 65%/85% and 117 to 153. Four manuals have no such page.
+
+**The 2024 CR800 and CU800 owner's manuals print the same error** (both printed page 32): the same
+65% and 80% pair, the same `180 X .80 = 225`, and the same closing sentence that the zone is 117 to
+225 beats per minute. The 2024 CR800ENT prints 65% and 85% and reaches 153 - see
+`spirit-bike-programs-target-zone-of-117-to-153-beats`.

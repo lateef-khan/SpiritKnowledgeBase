@@ -2,7 +2,7 @@
 id: cu800ent-2024-console-workout-views
 title: The three workout views - Stats, Charts and Track - and customising what Stats shows
 kind: fact
-question: How do I change what the screen shows during a workout on a Spirit cu800ent-2024 bike?
+question: How do I change what the screen shows during a workout on a Spirit 2024 ENT touchscreen machine?
 asked_as:
 - how do i change the bike screen during my workout
 - how do i see the virtual track on the bike
@@ -21,9 +21,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -67,3 +71,18 @@ names onto another machine.**
 
 **No muscle activation profile is described for this console**, where the 2022 and 2023 Simple view
 shows one.
+
+**The four 2024 ENT machines print this section word for word too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: CT800ENT-2024 and CT850ENT-2024 p. 25, CE800ENT-2024 and CR800ENT-2024 p. 23, under
+**Workout Mode**.
+
+**On the two ENT treadmills the side panels control two things, not one.** Their Workout Mode
+paragraph reads *"Use panels on the left and right sides of the screen to control **incline and
+speed**, accordingly"* and *"While in the Media section, please use physical keys to control **speed
+and incline**"*, where the bikes and the elliptical say **level**. Everything else - the three views,
+the customisable Stats parameters, the Media caveat - is word for word.

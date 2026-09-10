@@ -30,8 +30,10 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   - mt200-2010
   - mt200-2022
   section: programs
@@ -132,3 +134,7 @@ printed page.
 `ct900-gerkin-protocol`. **The CT850ENT prints its chart as a picture** - see
 `ct800ent-2022-programs-gerkin-test-chart-is-a-picture`. Do not read a stage value for one CT850
 printing off another.
+
+**The 2024 CT800 and CT850 owner's manuals print this same chart, value for value** (both printed
+page 27), with stage 2.1 at 1:15. **The 2024 ENT touchscreens print the other chart**, whose stage
+2.1 begins at 1:00 - see `ct800ent-2024-programs-gerkin-chart-in-kph-and-mph`.

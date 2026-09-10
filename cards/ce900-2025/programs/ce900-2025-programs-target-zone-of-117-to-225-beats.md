@@ -20,8 +20,10 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce900-2025
+  model: '*'
   applies_to:
+  - ce800-2024
+  - ce850-2024
   - ce900-2025
   section: programs
   code: '*'
@@ -63,3 +65,9 @@ all print **144** and a 108-to-144 zone.
 If you enter your age during programming the console performs the calculation automatically. The
 page closes by saying that with all Heart Rate programs you may use the heart rate monitor feature
 without using the Heart Rate program.
+
+**The 2024 CE800 and CE850 owner's manuals print the same error** (CE800 printed page 32; CE850
+printed page 34): the same 65% and 80% pair, the same `180 X .80 = 225`, and the same closing
+sentence that the zone is 117 to 225 beats per minute. 80% of 180 is **144**. The 2024 CE800ENT
+in the same range prints 65% and 85% and reaches 153 - see
+`ce800ent-programs-target-zone-of-117-to-153-beats`.

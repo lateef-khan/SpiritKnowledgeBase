@@ -25,7 +25,19 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
+  - ce800ent-2024
+  - ce850-2024
   - ces880-2025
+  - cr800-2024
+  - cr800ent-2024
+  - crs800s-2024
+  - cs800-2024
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
+  - cu800-2024
   - cu800ent-2024
   - xbr55-2023
   - xbr95-2023
@@ -140,3 +152,32 @@ automatically with no "END & SAVE WORKOUT" step - see
 **No earlier Spirit residential bike runs Spirit+, but four run its predecessor.** The XBR55 and
 XBU55 of 2019 and 2021 describe the older **Spirit Fit App**, a different app with different sync
 steps and an older minimum OS: `xt-2015-console-spirit-fit-app-pairing`.
+
+**All twelve 2024 New Black Units owner's manuals print this section**, so this card now covers a
+whole commercial range. They divide into two printings, and the split is not by product line.
+
+**The eight LED-console machines print the five steps and the closing cloud sentences word for word,
+exactly as the 2023 XT treadmills do** - CT800-2024 and CT850-2024 p. 20, CE800-2024 p. 19,
+CE850-2024 p. 21, CR800-2024 p. 19, CU800-2024 p. 19, CRS800S-2024 p. 20 and CS800-2024 p. 20. Same
+four cloud sites - **Apple Health, Google Fit, MapMyFitness or Fitbit** - and the same warning that
+you must download the matching fitness app for its icon to be active. Their **ABOUT YOUR MACHINE**
+page, one page earlier, repeats that Spirit+ unlocks tracking workouts and sharing data via **Google
+Fit and Apple Fitness**.
+
+**The four ENT touchscreens print the CU800ENT-2024 version** - CT800ENT-2024 and CT850ENT-2024
+p. 20, CE800ENT-2024 and CR800ENT-2024 p. 18. Measured on native PDF text those four sections match
+the CU800ENT-2024's **99.6% to 100%** word for word. Two things differ from the LED printing, and
+both are in the words a customer would quote back:
+
+- the cloud list reads **Apple Health, Google Health Connect, MapMyFitness or Fitbit** - Google Fit
+  renamed;
+- **step 5 stops at "END & SAVE WORKOUT"**. The two sentences about being prompted to sync with each
+  cloud site, and about having to download the matching fitness app, are **not printed** in any ENT
+  book. Do not tell an ENT owner to expect that prompt.
+
+The ENT books also write "search for your **SPIRIT** equipment" where the LED books write "your
+Spirit + equipment", and their ABOUT YOUR MACHINE page names **Google Health Connect and Apple
+Health**.
+
+**The CSC900-2024 stair climber and the CRW800-2024 rower have no app section at all**, and this card
+must not be quoted for either: `spirit-2024-console-no-app-on-the-climber-and-rower`.

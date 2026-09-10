@@ -2,7 +2,7 @@
 id: ct850-2020-e-07h-console-to-controller-communication-delay
 title: 'E-07H: console to controller communication delay'
 kind: troubleshooting
-question: What does E-07H mean on a Spirit CT850-2020 treadmill?
+question: What does E-07H mean on a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill?
 asked_as:
 - what does e-07h mean on my treadmill
 - treadmill showing e-07h
@@ -20,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
   - ct850-2020
+  - ct850-2024
+  - ct850ent-2024
   section: errors
   code: e-07h
 authority: 3
@@ -47,3 +49,10 @@ source:
 | Solution, word for word | Check all the wires from the controller board to the console. |
 
 The whole printed table is on the card `ct850-2020-inverter-error-code-list`. The only tool section 8-2 asks for is a **multi-meter**.
+
+**The CT850 2024 and CT850ENT 2024 owner's manuals print this row word for word**, cause
+and solution alike, in the ERROR CODES table on printed page 42 of the CT850 2024 manual and
+printed pages 60 and 61 of the CT850ENT 2024 manual. Both of those pages are flat pictures with
+no text layer, and both were read from the rendered page. The 2024 books changed the machine
+around this table but not the table: the whole twenty-three-code list is unchanged from the
+2020 service manual.

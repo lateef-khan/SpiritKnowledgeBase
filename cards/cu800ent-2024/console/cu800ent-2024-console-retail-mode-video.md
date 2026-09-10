@@ -2,7 +2,7 @@
 id: cu800ent-2024-console-retail-mode-video
 title: Loading your own Retail Mode video from a USB stick
 kind: procedure
-question: How do I put my own video on the screen of a Spirit cu800ent-2024 bike when it is idle?
+question: How do I put my own video on the screen of a Spirit 2024 ENT touchscreen machine when it is idle?
 asked_as:
 - how do i put my own video on the bike screen
 - what is retail mode on the spirit bike
@@ -19,9 +19,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu800ent-2024
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce800ent-2024
+  - cr800ent-2024
+  - ct800ent-2024
+  - ct850ent-2024
   - cu800ent-2024
   section: console
   code: '*'
@@ -46,3 +50,14 @@ Reach maintenance mode by pressing **Hello Guest ten times**:
 **That is everything the manual says.** It gives **no file format, no resolution, no size limit, no
 folder name on the stick, and no length limit**, and it never says what puts the console into Retail
 Mode in the first place or how to take it out again. Do not invent a specification for a customer.
+
+**The four 2024 ENT machines print this section word for word too**, so this card covers a treadmill
+and an elliptical as well as bikes and its product line is no longer bike-only. Measured on native
+PDF text, the whole TOUCHSCREEN OPERATION chapter of the CT800ENT-2024, CT850ENT-2024, CE800ENT-2024
+and CR800ENT-2024 matches the CU800ENT-2024's **97.8% to 99.5%** word for word; every difference is a
+page number or the machine's own name.
+
+Locators: CT800ENT-2024 and CT850ENT-2024 p. 21, CE800ENT-2024 and CR800ENT-2024 p. 19, under
+**TOUCHSCREEN OPERATION / Maintenance Mode**. Word for word on all five, and just as silent: no file
+format, no resolution, no size limit, no folder name, no length limit, and nothing about what puts
+the console into Retail Mode or takes it out again.

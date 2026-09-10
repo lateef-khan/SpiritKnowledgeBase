@@ -3,7 +3,8 @@ id: spirit-ct800-assembly-hardware-kit-four-step
 title: Hardware for the four-step assembly, ten 3/8 inch by 3 inch upright bolts
 kind: fact
 question: What fasteners does each step of the four-step Spirit CT800, CT800ENT,
-  CT850 and CT850ENT assembly use, and how many of each?
+  CT850 and CT850ENT assembly use, and how many of each, on the 2020, 2022 and 2024
+  printings?
 asked_as:
 - what bolts come with my treadmill
 - how many washers should be in the bag
@@ -27,9 +28,13 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -44,11 +49,16 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: pp. 10-13, the HARDWARE FOR STEP tables; the same four tables at pp. 10-13
-    of the CT800ENT manual, of the CT850 2020 manual and of the CT850ENT manual
+    of the CT800ENT manual, of the CT850 2020 manual and of the CT850ENT manual; and at
+    pp. 11-14 of each of the four 2024 manuals
+    (`spirit-treadmill-ct800-2024-owners-manual`,
+    `spirit-treadmill-ct850-2024-owners-manual`,
+    `spirit-treadmill-ct800ent-2024-owners-manual`,
+    `spirit-treadmill-ct850ent-2024-owners-manual`)
   extracted_at: '2026-09-09'
 ---
 
-**All four manuals list the same items in the same quantities in all four tables.**
+**All eight manuals list the same items in the same quantities in all four tables.**
 The CT850 2020 tables are the CT800 2020 tables word for word, and the CT850ENT
 tables are the CT800ENT tables word for word. Two descriptions differ between the LED
 and touchscreen books, and they are called out below.
@@ -119,3 +129,27 @@ These are the manuals' own numbers, reproduced as printed:
 
 Where the LED and ENT books disagree, the ENT figure is the one that matches the
 table. No manual acknowledges the gap.
+
+## The 2024 redesign reprints all four tables unchanged
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** manuals
+print these four tables row for row - same item numbers, same descriptions, same
+quantities. Every peculiarity above survives the redesign intact:
+
+- Item **120** is still **Ø8 x 1.5T** in the two LED books and **5/16" x 1.5T** in the
+  two ENT books.
+- Item **153** in the step 4 table is still printed **Flash Washer** in the two ENT
+  books and Flat Washer everywhere else.
+- Step one still says **four sets a side** in the LED books and **five** in the ENT
+  books, against a table of ten in all four.
+- Step four still says **1** Phillips head screw in the LED books and **2** in the ENT
+  books, against a table of two in all four.
+
+So all three counts that did not close in 2020 and 2022 still do not close in 2024,
+and the LED and ENT books still disagree in the same two places. Where they disagree,
+the ENT figure is still the one that matches the table.
+
+**The tables moved but did not change.** In the 2020 and 2022 books each table is
+printed above its step; in the 2024 books each is printed below. The rows are also
+sorted by item number in the ENT books and by order of use in the LED books, as
+before. Nothing about which fastener goes where is affected.

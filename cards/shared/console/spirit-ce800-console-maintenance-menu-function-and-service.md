@@ -27,9 +27,12 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cu800-2021
+  - cu800-2024
   section: console
   code: '*'
 authority: 3
@@ -92,3 +95,20 @@ Security keypad lock and a 20-minute sleep:
 have the same nine-item menu as the 2025 pair**, under a page headed **MAINTENANCE MODE MENU** rather
 than ENGINEERING MODE MENU - which is why the word "engineering" appears nowhere in either document.
 Nothing on this card may be quoted for those two machines either.
+
+**The CE800-2024, CR800-2024 and CU800-2024 owner's manuals print the same five items in the same
+order, word for word** - CE800-2024 p. 34, CR800-2024 p. 34 and CU800-2024 p. 34 - so this card
+covers those three machines. Same Function list of four (Units, Pause mode, Odometer Reset, Beep
+sound), same Service list of three (PWM test, Csafe test, Sensor test), same Exit.
+
+**They split over the pedal instruction the same way their predecessors do.** The **CE800-2024** says
+*"pedal the elliptical and press and hold down the Start, Stop and Enter keys"* and that the Dot
+Matrix Message Center displays **Maintenance Mode**. The **CR800-2024** and **CU800-2024** open with
+the maintenance/diagnostic-software sentence, go straight to holding the three buttons, and say the
+Message Center displays **Engineering Mode Menu**. All three head the page ENGINEERING MODE MENU.
+
+**The 2024 CE850, CRS800S and CS800 have the longer menu**, with a Sleep mode entry and a CAB or
+CSAFE protocol choice: `spirit-ce850-console-maintenance-menu-cab-or-csafe` and
+`spirit-stepper-console-maintenance-menu-sleep-default-on`. **The 2024 CT800 and CT850 treadmills
+have a different menu again**, five numbered items with a Child Lock:
+`ct900-engineering-mode-menu`.

@@ -28,10 +28,13 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -60,6 +63,9 @@ see_also:
 - ces880-2025-assembly-hardware-sections
 - ce800ent-assembly-hardware-kit
 - spirit-ce-assembly-water-bottle-holder
+- ce800-2024-specs-parts-list
+- ce850-2024-specs-parts-list
+- ce800ent-2024-specs-parts-list
 source:
   ref: spirit-elliptical-ce800ent-owners-manual
   locator: contents p. 3 and pp. 46-48; and the equivalent pages of the other nine
@@ -76,9 +82,24 @@ source:
 | ce850-2016 | **none** | **none** |
 | ce850-2020 | printed p. 45 | printed pp. 46-47 |
 | ce850-2022 | printed p. 46 | printed pp. 47-49 |
+| ce850-2024 | printed p. 40 | printed pp. 41-43 |
+| ce800-2024 | printed p. 39 | printed pp. 40-41 |
+| ce800ent-2024 | printed p. 52 | printed pp. 53-54 |
 | ce900-2021 | **none** | **none** |
 | ce900-2025 | printed p. 34 | printed pp. 35-36 |
 | ces880-2025 | printed pp. 57-58, in two drawings | **none** |
+
+**The three 2024 New Black Units books all print both**, and each list has been
+transcribed in full - see `ce800-2024-specs-parts-list`,
+`ce850-2024-specs-parts-list` and `ce800ent-2024-specs-parts-list`. **The
+CE800ENT-2024 heads its second parts page `PARTS LIST - CONTINUED`**, which none
+of the LED books does.
+
+Each 2024 list is close to its predecessor's but not identical - the CE800 gained
+a row and lost a washer quantity, the CE850 changed two quantities and a wrench,
+and the CE800ENT changed two cable lengths. **All three renamed the water bottle
+holder the drink bottle holder.** Check which printing you are holding before
+quoting a quantity.
 
 ## The eleven residential XE manuals
 
@@ -131,7 +152,7 @@ in the PDF.** Machine-read text off those pages returns callout numbers floating
 line art and is not reliable: the same page has produced "448", "V37", "422" and "011"
 for numbers that are certainly three digits or fewer. **Read a callout off the drawing
 itself, or take the number from the parts list where there is one.** The numbered lists
-in the six manuals that have them are ordinary text and are trustworthy.
+in the nine commercial manuals that have them are ordinary text and are trustworthy.
 
 ## Two drawing dates are printed on the drawings
 

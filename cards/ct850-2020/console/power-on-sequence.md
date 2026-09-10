@@ -26,9 +26,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - xt185-2015
   - xt285-2015
   - xt685-2010
@@ -88,3 +90,14 @@ manual
 says the power switch is at the front of the treadmill **below the motor cover** and that the
 **safety key** must be installed, and it adds that the software version **scrolls across the Message
 Center** rather than simply being displayed.
+
+**The 2024 CT800 and CT850 owner's manuals print this same sequence on their p. 15**, under the
+heading **SETTING UP YOUR TREADMILL / Plugging in & Starting Operation** rather than POWER, in the
+same order and with the same odometer explanation and the same "safety button" wording, so this card
+covers those two machines. They add one line beside the drawing - **"Power Input Located as shown
+above"** - and they send the reader to the maintenance chapter to change miles to kilometres, as the
+earlier manuals do.
+
+**The 2024 CT800ENT and CT850ENT print a touchscreen sequence instead**, on their p. 15: a brief
+loading screen and then the Home Screen, with no odometer readings and no software version. Nothing
+here is claimed for those two machines.

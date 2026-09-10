@@ -21,6 +21,8 @@ facets:
   applies_to:
   - 40t-2026
   - ct800ent-2022
+  - ct800ent-2024
+  - ct850ent-2024
   - ct900ent
   section: errors
   code: '*'
@@ -47,3 +49,10 @@ condition. So does the **CT800ENT 2022** owner's manual.
 The 2012, 2016 and 2020 CT800 manuals print the identical cause and remedy against a **15
 amp** circuit (`xt-2023-errors-trips-onboard-15-amp-breaker`). The rating is the only thing
 that changed.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row** with the friction cause, the
+deck-cleaning remedy and the deck-wear check, the `if it is on its original side` qualifier
+included, on printed page 59.
+
+**Their non-ENT siblings in the same 2024 family print 15 amp in this row**, not 20:
+`xt-2023-errors-trips-onboard-15-amp-breaker`.

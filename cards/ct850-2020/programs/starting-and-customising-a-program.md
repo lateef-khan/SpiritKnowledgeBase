@@ -25,8 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   section: programs
   code: '*'
 authority: 3
@@ -78,3 +80,8 @@ the same document revised, and this page did not change between them.
 
 **The 2018 CT850 is not covered by this card.** Its version names no Program button and excludes the
 Calorie program from the press-Start-early shortcut - see `ct850-2018-programs-preset-setup-steps`.
+
+**The 2024 CT800 and CT850 owner's manuals print these same seven steps word for word** (both
+printed page 22), including the Program button, the 20 minute default, the Kcal readout sentence
+and the same no-warm-up list. Like the 2020 CT800 they do not print the closing sentence about age
+feeding the heart rate bar graph.

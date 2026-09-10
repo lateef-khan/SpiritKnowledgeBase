@@ -28,7 +28,9 @@ facets:
   applies_to:
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -81,3 +83,12 @@ item tells you to adjust them. The CE850 and CE900 panels do list six.
 The **tools** are printed in a second panel on the same page and are on their own
 card - see [tools included](spirit-ce800-assembly-tools-included.md). The **2013
 CE800 manual prints no parts panel at all**; it has only the tools drawing.
+
+## The 2024 redesign prints the same twelve lines
+
+The **CE800 2024** and **CE800ENT 2024** cartons list the same twelve lines in the same
+order, the water bottle holder included. The CE800ENT 2024 panel still prints
+"2 Swing arms" in lower case where the CE800 prints "2 Swing Arms", exactly as the
+older touchscreen book did, and is otherwise identical.
+
+Half of each of those two books is new text; this panel is not part of it.

@@ -36,6 +36,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-warranty-coverage-periods-parts-labor
 - spirit-bike-warranty-commercial-periods
 - spirit-bike-900-warranty-commercial-periods
 - spirit-bike-2024-warranty-coverage-periods

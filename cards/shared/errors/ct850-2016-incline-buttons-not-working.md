@@ -2,8 +2,8 @@
 id: ct850-2016-incline-buttons-not-working
 title: The incline adjustment buttons do not work
 kind: troubleshooting
-question: Why do the incline buttons not work on a Spirit CT850 treadmill, 2016 or
-  2020?
+question: Why do the incline buttons not work on a Spirit CT800ENT-2024, CT850 or
+  CT850ENT-2024 treadmill?
 asked_as:
 - incline up button does nothing on my spirit treadmill
 - cant change incline on the treadmill
@@ -22,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -58,3 +60,9 @@ The manuals fold three conditions into one block of causes, and print it identic
 This row is about the *buttons*. If the incline moves but the number is wrong, see
 `ct850-2016-incline-position-does-not-match-console`; if the console prints a message, see
 `ct850-2016-incline-err-shown-in-incline-window`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+All three conditions and all six reasons are unchanged, the repeated sentences included.

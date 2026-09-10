@@ -37,6 +37,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-2024-warranty-use-environment
 - spirit-2026t-warranty-use-environment
 - xt-2015-warranty-use-environment
 - xt-2023-warranty-use-environment

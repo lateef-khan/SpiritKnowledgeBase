@@ -24,11 +24,15 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: console
   code: '*'
 authority: 3
@@ -77,3 +81,13 @@ say the display shows incline as percent of grade, so do not quote that third bu
 **The CT850-2018 prints all three bullets and a fourth route to the value**: pressing the Incline
 button and typing the desired incline on the numeric buttonpad, then Enter. Typing a speed the same
 way is `ct850-2018-console-quick-start-numeric-buttonpad`.
+
+**The 2024 CT800 and CT850 owner's manuals print all three bullets on their p. 17**, and both give
+the rapid incline keys as **1 through 15**, "on left hand side of console (incline)" - the same
+figure the CT800-2020 and CT850 manuals print.
+
+**The 2024 CT800ENT and CT850ENT print only the first two bullets**, on their p. 17, exactly as the
+2022 ENT manuals do: *"Incline may be adjusted anytime after the belt starts moving. Press and hold
+the adjust Incline Up/Down buttons to achieve desired level of incline."* Neither says the display
+shows incline as percent of grade, and neither prints any rapid incline key, so do not quote the
+third bullet or a key number for those two machines.

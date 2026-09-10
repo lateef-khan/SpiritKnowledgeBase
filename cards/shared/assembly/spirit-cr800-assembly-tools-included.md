@@ -27,7 +27,9 @@ facets:
   applies_to:
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr800ent-2023
+  - cr800ent-2024
   - xbr25-2019
   - xbr25-2023
   - xbr95-2016
@@ -111,3 +113,14 @@ shipped.
 
 **A 14mm is in these cartons too**, in both wrenches, so the wrench the levelling
 sentence asks for is in the box.
+
+## The 2024 redesign prints the same three
+
+The **CR800 2024** and **CR800ENT 2024** cartons list the same three - 14/15mm wrench,
+12/14mm wrench, Phillips screwdriver - and still no Allen key. The **12/14mm will open
+to 14**, which is the size the same books' maintenance chapter calls for to adjust the
+levellers.
+
+**The upright CU800 2024 carton still reads 13/15mm**, one character apart, exactly as
+the older upright cartons do. See
+[the upright tools card](spirit-cu800-assembly-tools-included.md).

@@ -27,10 +27,14 @@ facets:
   model: '*'
   applies_to:
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: programs
   code: '*'
 authority: 3
@@ -81,3 +85,10 @@ original manual before quoting one.
 
 **The 2018 CT850 offers only five tests and has no PEB and no Coast Guard** - see
 `ct800-2016-programs-fitness-test-menu-five-tests`.
+
+**All four 2024 treadmill manuals offer the same seven tests.** The CT800 and CT850 print them on
+the Fit-Test button (printed page 27) in the order Gerkin, Army, Navy, Air Force, Marines, PEB,
+Coast Guard, under a sentence that miscounts them as "the 5 different tests". The CT800ENT and
+CT850ENT list them from the Programs Menu screen (printed page 42) as Coast Guard, Navy, Air Force,
+Army, Gerkin, Marine Corps and Physical Efficiency Battery (PEB). **The ENT tables carry different
+values from the button consoles** - see `ct800ent-2024-programs-military-test-times`.

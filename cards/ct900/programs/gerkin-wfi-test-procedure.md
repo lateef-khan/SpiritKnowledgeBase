@@ -24,9 +24,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - ct850-2024
   - ct900
   section: programs
   code: '*'
@@ -79,3 +81,8 @@ Window**; the 2016 and 2020 manuals show them in the **Dot Matrix Message Center
 
 **The CT850ENT scopes the during-and-after halves to the Gerkin test only** - see
 `ct800ent-2022-programs-fitness-test-before-during-after`.
+
+**The 2024 CT800 and CT850 owner's manuals print this same guidance word for word** (both printed
+page 29), including the three minute warm-up **at 3 MPH** and the list of data shown during the
+test. **The 2024 ENT touchscreens warm up at 1.5 MPH / 2.4 KPH instead** - see
+`ct800ent-2024-programs-gerkin-warm-up-at-one-point-five-mph`.

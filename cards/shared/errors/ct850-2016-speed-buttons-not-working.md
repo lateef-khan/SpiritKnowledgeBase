@@ -2,7 +2,8 @@
 id: ct850-2016-speed-buttons-not-working
 title: The speed adjustment buttons do not work
 kind: troubleshooting
-question: Why do the speed buttons not work on a Spirit CT850 treadmill, 2016 or 2020?
+question: Why do the speed buttons not work on a Spirit CT800ENT-2024, CT850 or
+  CT850ENT-2024 treadmill?
 asked_as:
 - speed up button does nothing on my spirit treadmill
 - cant change speed on the treadmill
@@ -21,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -54,3 +57,10 @@ The manuals fold three conditions into one block of causes, and print it identic
 
 The last three reasons are the same sentence printed three times; the manual gives no way to tell
 them apart. The incline buttons have their own row: `ct850-2016-incline-buttons-not-working`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+All three conditions and all six reasons are unchanged, the sentence repeated three times
+included.

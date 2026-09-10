@@ -2,8 +2,8 @@
 id: ct850-2016-incline-position-does-not-match-console
 title: The incline position does not match what the console shows
 kind: troubleshooting
-question: Why does the incline position not match the display on a Spirit CT850 treadmill,
-  2016 or 2020?
+question: Why does the incline position not match the display on a Spirit CT800ENT-2024, CT850
+  or CT850ENT-2024 treadmill?
 asked_as:
 - incline number is wrong on my spirit treadmill
 - deck angle does not match the console
@@ -22,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -51,3 +53,9 @@ is a different row: see `ct850-2016-incline-err-shown-in-incline-window`.
 The 2016 manual carries a second row of the same shape for speed - `The speed of the belt doesn't
 match console display` - that the 2020 manual does not print. It is on
 `ct850-2016-speed-does-not-match-console-display`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+Neither 2024 book prints the speed version of this row.

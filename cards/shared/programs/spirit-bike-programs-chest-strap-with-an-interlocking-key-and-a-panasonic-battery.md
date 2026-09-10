@@ -25,7 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ab950-2024
+  - cr800-2024
+  - cr800ent-2024
   - cr900-2025
+  - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - xbr25-2019

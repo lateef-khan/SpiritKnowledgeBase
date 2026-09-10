@@ -27,7 +27,8 @@ facets:
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-2024-maintenance-treadmill-wear-parts-two-lists
 see_also:
 - cu900ent-general-maintenance
 - ct900-sanitizing-equipment

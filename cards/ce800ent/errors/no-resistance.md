@@ -2,7 +2,8 @@
 id: ce800ent-no-resistance
 title: The machine gives no resistance, and the control board is the first part to replace
 kind: troubleshooting
-question: Why is there no resistance on a Spirit CE800ENT elliptical or CU800ENT-2024 bike?
+question: Why is there no resistance on a Spirit CE800-2024, CE800ENT or CE800ENT-2024
+  elliptical or a CR800-2024, CR800ENT-2024, CU800-2024 or CU800ENT-2024 bike?
 asked_as:
 - no resistance on my spirit elliptical
 - pedals feel loose with no load
@@ -23,7 +24,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2024
   - ce800ent
+  - ce800ent-2024
+  - cr800-2024
+  - cr800ent-2024
+  - cu800-2024
   - cu800ent-2024
   section: errors
   code: no-code
@@ -59,3 +65,15 @@ tension-motor tests written for the CVC800 climber do not apply here.
 **The CES880 2025 elliptical answers the same symptom with a different list** - resistor, then
 controller, then console: `ces880-2025-errors-no-resistance`. Do not carry one part order to the
 other machine.
+
+**Five of the 2024 New Black machines print these three causes and three fixes word for word** -
+the CE800 2024 and CE800ENT 2024 ellipticals, the CR800 2024 and CR800ENT 2024 recumbent bikes and
+the CU800 2024 upright bike.
+
+**On the CR800 2024 and the CU800 2024 the row is printed under the wrong condition.** Both of
+those manuals label it `Wireless lost its function.` - the label belonging to the chest-belt row
+above it - and neither prints the words `No resistance` anywhere in the table. The CE800 2024
+elliptical, whose table is otherwise identical, labels the same three causes `No resistance`. The
+rendered page was checked on the CR800 2024 to be sure this is the printed page and not an
+extraction fault. Answer a CR800 2024 or CU800 2024 caller who has no resistance from this row
+anyway, and do not look for a `No resistance` heading in their book.

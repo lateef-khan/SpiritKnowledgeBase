@@ -21,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: 'bike'
-  model: 'cu800-2021'
+  model: '*'
   applies_to:
   - cu800-2021
+  - cu800-2024
   section: assembly
   code: '*'
 authority: 3
@@ -73,3 +74,10 @@ fits the Front Stabilizer Cover or the Rear Stabilizer Cover: no step mentions e
 
 The panel calls item 116 a **Drink Bottle Holder**; step 4 calls the same item the
 Beverage Holder.
+
+## The 2024 printing lists the same eleven lines
+
+The **CU800 2024** carton panel is unchanged - the same eleven lines in the same order,
+both stabilizer covers included. **It still does not list the seat**, although step four
+fits the Seat (No.19) onto the Seat Mount Slide (No.7), and it still does not list the
+seat mount slide either.

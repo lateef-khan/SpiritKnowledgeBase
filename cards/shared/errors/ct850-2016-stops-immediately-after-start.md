@@ -2,8 +2,8 @@
 id: ct850-2016-stops-immediately-after-start
 title: The treadmill stops immediately after START is pressed
 kind: troubleshooting
-question: Why does a Spirit CT850 treadmill, 2016 or 2020, stop the moment START is
-  pressed?
+question: Why does a Spirit CT800ENT-2024, CT850 or CT850ENT-2024 treadmill stop the
+  moment START is pressed?
 asked_as:
 - treadmill stops as soon as i press start
 - belt stops immediately after starting
@@ -22,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-code
 authority: 3
@@ -60,3 +62,10 @@ condemned, the second does not. Try the power cycle first.
 
 A treadmill that never starts at all is a different row: see
 `ct850-2016-does-not-start-when-start-pressed` and `ct850-2020-does-not-start-when-start-pressed`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+**Both 2024 books print the condition twice as well**, with the same two different answers in the
+same order, so the contradiction described above has now survived three generations of the manual.

@@ -20,7 +20,9 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct800ent-2024
   - ct850ent-2022
+  - ct850ent-2024
   - ct900ent
   section: programs
   code: '*'

@@ -28,6 +28,7 @@ facets:
   - ce800-2023
   - ce850-2020
   - ce850-2022
+  - ce850-2024
   section: programs
   code: '*'
 authority: 3
@@ -73,3 +74,8 @@ period, and the work intensity of the levels.
 **This is the 2-minute cool-down version.** The CE900 2021 and CE900 2025 print the identical
 program with a **3-minute** cool-down; the CES880 2025 prints a **20-second** default Sprint time.
 The CE800 2013 and CE850 2016 have no HIIT program at all.
+
+**The 2024 CE850 prints all nine steps** (printed page 28), including the 3-minute warm-up at
+resistance level 5, the 90 pedal rpm target speed LED and the 2-minute cool-down. **The 2024 CE800,
+CR800 and CU800 stop at step 6** and print none of it - see
+`spirit-2024-programs-hiit-procedure-stops-at-step-six`.

@@ -23,7 +23,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct800-2024
   - ct800ent-2022
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - ct900ent
   - xt685-2010
   section: errors
@@ -64,3 +68,9 @@ answer by the machine's generation and never carry either remedy across 2010.
 The 2010 XT685 is the first XT machine on this card, and the statement on
 `xt-2023-errors-house-breaker-trips` that no XT manual mentions a breaker type holds for the
 2015 and 2023 revisions only.
+
+**All four 2024 New Black treadmills print this row**, and the two halves of the family word it
+differently. The CT800 2024 and CT850 2024 say `Need to replace the breaker with a "High In-rush
+current" type breaker` and add `See "Electrical Safety" section for more details`. The CT800ENT
+2024 and CT850ENT 2024 say `Need to replace the **house** breaker with a "High inrush current" type
+breaker` and give no pointer. Same remedy; only the ENT books name whose breaker it is.

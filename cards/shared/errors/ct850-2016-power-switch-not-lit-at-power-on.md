@@ -2,8 +2,8 @@
 id: ct850-2016-power-switch-not-lit-at-power-on
 title: The on and off switch does not light when power is turned on
 kind: troubleshooting
-question: Why does the power switch not light up on a Spirit CT850 treadmill, 2016
-  or 2020?
+question: Why does the power switch not light up on a Spirit CT800ENT-2024, CT850
+  or CT850ENT-2024 treadmill?
 asked_as:
 - power switch not lighting up on my treadmill
 - spirit treadmill has no power at all
@@ -23,8 +23,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2024
   section: errors
   code: no-power
 authority: 3
@@ -55,3 +57,9 @@ Nine causes, in the order the manual lists them. The 2016 and 2020 manuals print
 | ON/OFF switch is broken | Replace AC switch |
 
 A popping sound at power on is a different row, and the two manuals print **different supply voltages** for it: see `ct850-2016-popping-sound-at-power-on` and `ct850-2020-popping-sound-at-power-on`.
+
+**The CT800ENT 2024 and CT850ENT 2024 owner's manuals print this row word for word** in the
+Condition/Reason/Solve matrix on printed pages 57 to 59. Both of those pages are flat pictures
+with no text layer and were read from the rendered page.
+
+All nine causes and all nine fixes are unchanged, in the same order.

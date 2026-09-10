@@ -3,7 +3,9 @@ id: ct800ent-2022-assembly-procedure
 title: Four-step assembly with four cables threaded up the right upright, including
   Ethernet and C-safe
 kind: procedure
-question: How do I assemble a Spirit CT800ENT or CT850ENT treadmill from the carton?
+question: How do I assemble a Spirit CT800ENT or CT850ENT treadmill from the carton,
+  on the 2022 (ct800ent-2022, ct850ent-2022) or 2024 (ct800ent-2024, ct850ent-2024)
+  printing?
 asked_as:
 - how do i put my treadmill together
 - what order do i assemble the treadmill in
@@ -26,7 +28,9 @@ facets:
   model: '*'
   applies_to:
   - ct800ent-2022
+  - ct800ent-2024
   - ct850ent-2022
+  - ct850ent-2024
   section: assembly
   code: '*'
 authority: 3
@@ -43,7 +47,11 @@ see_also:
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
   locator: pp. 10-13, CT800ENT STEP ONE to STEP FOUR; the same four steps at pp. 10-13
-    of the CT850ENT manual, headed CT850ENT STEP ONE to STEP FOUR
+    of the CT850ENT manual, headed CT850ENT STEP ONE to STEP FOUR; and word for word
+    again at pp. 11-14 of the CT800ENT 2024 and CT850ENT 2024 manuals
+    (`spirit-treadmill-ct800ent-2024-owners-manual`,
+    `spirit-treadmill-ct850ent-2024-owners-manual`), headed ASSEMBLY - STEP ONE to
+    STEP FOUR
   extracted_at: '2026-09-09'
 ---
 
@@ -131,3 +139,23 @@ This manual also drops the "Gather Hardware for Step n" opening item that the ot
 one prints at the head of every step, so its item numbers all sit one lower.
 
 Next: [powering the treadmill on for the first time](ct800ent-2022-assembly-power-on.md).
+
+## The 2024 redesign leaves this build alone
+
+Spirit reissued the CT800ENT and CT850ENT in October 2024 and only about 41% of each
+book's text survives from the 2022 printing - the lowest figure in the whole redesign -
+but **the assembly chapter is not part of what changed**. The four steps above are
+reprinted word for word on both 2024 manuals, including the five cables of step two
+and the five connections of step four, and the four hardware tables are reprinted row
+for row.
+
+**No cable was added or dropped on these two.** That is worth saying because one
+machine in the same redesign did lose one: the CR800ENT 2024 no longer connects the
+HDMI Connecting Wire (No.186) its 2023 build called for. The word HDMI does not appear
+anywhere in the CT800ENT 2024 or CT850ENT 2024 manuals - but it did not appear in the
+2022 ones either, so nothing changed here. See
+[the CR800ENT card](../../cr800ent-2024/assembly/cr800ent-2024-assembly-hdmi-wire-dropped.md).
+
+The pre-assembly page around it did change, from the two-item unpacking list to the
+four-item one - see
+[the pre-assembly card](../../shared/assembly/ct900-pre-assembly.md).

@@ -28,14 +28,17 @@ facets:
   - ce800-2013
   - ce800-2021
   - ce800-2023
+  - ce800-2024
   - ce900-2021
   - ce900-2025
   - cr800-2021
   - cr800-2023
+  - cr800-2024
   - cr900-2018
   - cr900-2025
   - cu800-2012
   - cu800-2021
+  - cu800-2024
   - cu900-2018
   - cu900-2025
   - xe795-2018
@@ -164,3 +167,20 @@ CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 all plug into a wall socket, have
 carry mains-appliance rules instead - disconnect before cleaning or removing a cover
 (`spirit-disconnect-from-the-outlet-before-cleaning-or-service`). Do not give a self-powered bike's
 warning for an ENT bike, or the reverse.
+
+## The 2024 CE800, CR800 and CU800 print the same WARNING
+
+The CE800-2024, CR800-2024 and CU800-2024 owner's manuals open their
+`ELECTRICAL SAFETY & IMPORTANT OPERATION INSTRUCTIONS` page, printed page 6, with the same sentence:
+
+> Be aware that the generator is producing A.C. power while the [machine] is being used. Do not
+> service the [machine] while the generator is spinning; serious electric shock could occur.
+
+Nothing about the hazard changes across the redesign - still no wait time, still no discharge
+figure, still no mains plug anywhere in the book
+(`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The other eleven 2024 machines print no such warning.** The CE850, the two steppers, the four
+treadmills and the three touchscreen ENT machines plug into a wall socket; the CSC900 is
+factory-wired to a mains circuit; and the CRW800 rower runs its console on two C batteries and has
+neither a generator nor a supply (`crw800-2024-safety-console-runs-on-two-c-batteries`).

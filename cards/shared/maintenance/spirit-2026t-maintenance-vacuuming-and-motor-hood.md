@@ -27,6 +27,10 @@ facets:
   applies_to:
   - 40t-2026
   - 70t-2026
+  - ct800-2024
+  - ct800ent-2024
+  - ct850-2024
+  - ct850ent-2024
   - mt200-2010
   - mt200-2022
   section: maintenance
@@ -39,8 +43,11 @@ see_also:
 - spirit-2026t-maintenance-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 43 "General cleaning"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual);
-    MT200 2010 p. 37 and MT200 2022 p. 59, "General cleaning"
+  locator: 'p. 43 "General cleaning"; same text on 7.0T p. 41 (spirit-treadmill-70t-2026-owners-manual);
+    MT200 2010 p. 37 and MT200 2022 p. 59, "General cleaning". The four 2024 New Black Units treadmill
+    manuals print it under POST WORKOUT - MACHINE CARE, added in wave 15 - ct800-2024 and ct850-2024
+    printed p. 37 (PDF p. 39), ct800ent-2024 and ct850ent-2024 printed p. 53 (PDF p. 55), each read
+    from a 300 dpi render because these PDFs carry a second, invisible text layer'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +83,14 @@ yearly motor-cover removal. See `80t-2026-maintenance-cleaning-schedule`.
 The MT200 2010 and MT200 2022 manuals print this paragraph with the same two intervals and the
 same **UNPLUG POWER CORD BEFORE THIS TASK**. Neither carries a maintenance schedule table, so
 unlike the 4.0T there is no second figure to disagree with.
+
+## The four 2024 New Black Units treadmills print it, without carpet fibres
+
+The **CT800 2024**, **CT850 2024**, **CT800ENT 2024** and **CT850ENT 2024** carry this paragraph
+word for word - the monthly vacuum underneath, the annual motor-hood vacuum, the unplug
+instruction and the trained-service-personnel warning printed beside it. Like the MT200 manuals
+they name only **dirt, dust and pet hair**; **carpet fibers** is absent, and none of the four calls
+the hood black.
+
+Their schedule table agrees with the monthly figure and adds a **weekly** motor-cover clean on top
+of it - `ct900-maintenance-schedule`.
