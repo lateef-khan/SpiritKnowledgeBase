@@ -238,6 +238,50 @@ def test_lint_fails_and_names_the_check(repo):
     assert "unknown-source" in result.output
 
 
+OPTIONAL_KB_YAML = KB_YAML.replace(
+    """  applies_to:
+    index: keyword
+    array: true""",
+    """  applies_to:
+    index: keyword
+    array: true
+  model_number:
+    index: keyword
+    optional: true""",
+)
+
+
+def test_facet_gaps_names_the_machines_still_missing_the_facet(repo):
+    (repo / "kb.yaml").write_text(OPTIONAL_KB_YAML)
+    result = run(repo, "facet-gaps")
+    assert result.exit_code == 0
+    assert "f63: 1 cards without model_number" in result.output
+    assert "1 machines without model_number, 0 with it" in result.output
+
+
+def test_facet_gaps_ignores_a_card_naming_several_machines(repo):
+    (repo / "kb.yaml").write_text(OPTIONAL_KB_YAML)
+    (repo / "cards" / "card-a.md").write_text(
+        CARD.replace("  applies_to: [f63]", "  applies_to: [f63, f65]")
+    )
+    result = run(repo, "facet-gaps")
+    assert result.exit_code == 0
+    assert "0 machines without model_number, 0 with it" in result.output
+
+
+def test_facet_gaps_reports_one_machine_given_two_different_numbers(repo):
+    (repo / "kb.yaml").write_text(OPTIONAL_KB_YAML)
+    (repo / "cards" / "card-a.md").write_text(
+        CARD.replace("  applies_to: [f63]", "  applies_to: [f63]\n  model_number: '563822'")
+    )
+    (repo / "cards" / "card-b.md").write_text(
+        CARD.replace("id: card-a", "id: card-b")
+        .replace("  applies_to: [f63]", "  applies_to: [f63]\n  model_number: '563826'")
+    )
+    result = run(repo, "facet-gaps")
+    assert "f63: DISAGREES - model_number is ['563822', '563826']" in result.output
+
+
 def test_vocab_prints_facets_and_card_ids(repo):
     result = run(repo, "vocab")
     assert result.exit_code == 0
