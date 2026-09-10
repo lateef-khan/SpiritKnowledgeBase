@@ -24,6 +24,9 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ab900-2018
+  - ab950-2024
+  - cb900-2013
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -34,6 +37,8 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -58,6 +63,7 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - jb950-2022
   - xe100-2007
   - xe150-2005
   - xe195-2021
@@ -72,6 +78,8 @@ facets:
   - xe795-2021
   - xe795-2023
   - xg400-2021
+  - xic600-2018
+  - xic600-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -99,32 +107,33 @@ see_also:
 - spirit-ct800-warranty-labor-period
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 'WARRANTY - RESIDENTIAL, opening paragraph, p. 40. The same sentence opens the
-    warranty section of all eleven XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385 p. 53,
-    xt485 p. 53, xt685 p. 52; 2015 - xt185 text.md line 750, xt285 line 964, xt385 line 1016,
-    xt485 line 1153, xt685 line 1142. XT485ENT p. 55 (text.md lines 1085-1089); XT685ENT p. 53
-    (text.md lines 1571-1575). XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual
-    text.md lines 1506-1510). CT800 2012 p. 25 (text.md lines 1093-1097), CT800 2016 p. 41
-    (lines 1058-1063), CT800 2020 p. 45 (lines 1152-1157), CT800ENT 2022 p. 53 (lines
-    1203-1208). CT850 2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual text.md lines
-    1148-1154), CT850 2018 p. 45 (lines 1141-1147), CT850 2020 p. 45 (lines 1147-1153), CT850ENT
-    2022 p. 53 (lines 1208-1214). CT900 p. 52 (spirit-treadmill-ct900-owners-manual text.md
-    lines 1471-1477), CT900ENT p. 50 (spirit-treadmill-ct900ent-owners-manual text.md lines
-    1124-1130), CTSBS900 p. 54 (spirit-treadmill-ctsbs900-owners-manual text.md lines
-    1669-1675). All ten Spirit elliptical owner''s manuals open with the same sentence:
-    ce800-2013 p. 27 (spirit-elliptical-ce800-2013-owners-manual text.md lines 1063-1069),
-    ce800-2021 p. 36 (spirit-elliptical-ce800-2021-owners-manual text.md lines 930-935),
-    ce800-2023 p. 37 (spirit-elliptical-ce800-2023-owners-manual text.md lines 952-957),
-    ce800ent p. 40 (spirit-elliptical-ce800ent-owners-manual text.md lines 910-916), ce850-2016
-    p. 34 (spirit-elliptical-ce850-2016-owners-manual text.md lines 812-817), ce850-2020 p. 41
+  locator: >-
+    WARRANTY - RESIDENTIAL, opening paragraph, p. 40. The same sentence opens the warranty
+    section of all eleven XT manuals: 2023 - xt185 p. 40, xt285 p. 48, xt385 p. 53, xt485 p.
+    53, xt685 p. 52; 2015 - xt185 text.md line 750, xt285 line 964, xt385 line 1016, xt485 line
+    1153, xt685 line 1142. XT485ENT p. 55 (text.md lines 1085-1089); XT685ENT p. 53 (text.md
+    lines 1571-1575). XT685 2010 p. 37 (spirit-treadmill-xt685-2010-owners-manual text.md lines
+    1506-1510). CT800 2012 p. 25 (text.md lines 1093-1097), CT800 2016 p. 41 (lines 1058-1063),
+    CT800 2020 p. 45 (lines 1152-1157), CT800ENT 2022 p. 53 (lines 1203-1208). CT850 2016 p. 45
+    (spirit-treadmill-ct850-2016-owners-manual text.md lines 1148-1154), CT850 2018 p. 45
+    (lines 1141-1147), CT850 2020 p. 45 (lines 1147-1153), CT850ENT 2022 p. 53 (lines
+    1208-1214). CT900 p. 52 (spirit-treadmill-ct900-owners-manual text.md lines 1471-1477),
+    CT900ENT p. 50 (spirit-treadmill-ct900ent-owners-manual text.md lines 1124-1130), CTSBS900
+    p. 54 (spirit-treadmill-ctsbs900-owners-manual text.md lines 1669-1675). All ten Spirit
+    elliptical owner's manuals open with the same sentence: ce800-2013 p. 27
+    (spirit-elliptical-ce800-2013-owners-manual text.md lines 1063-1069), ce800-2021 p. 36
+    (spirit-elliptical-ce800-2021-owners-manual text.md lines 930-935), ce800-2023 p. 37
+    (spirit-elliptical-ce800-2023-owners-manual text.md lines 952-957), ce800ent p. 40
+    (spirit-elliptical-ce800ent-owners-manual text.md lines 910-916), ce850-2016 p. 34
+    (spirit-elliptical-ce850-2016-owners-manual text.md lines 812-817), ce850-2020 p. 41
     (spirit-elliptical-ce850-2020-owners-manual text.md lines 1006-1012), ce850-2022 p. 42
     (spirit-elliptical-ce850-2022-owners-manual text.md lines 1012-1018), ce900-2021 p. 26
     (spirit-elliptical-ce900-2021-owners-manual text.md lines 613-619), ce900-2025 p. 36
     (spirit-elliptical-ce900-2025-owners-manual text.md lines 1084-1090), ces880-2025 p. 58
-    (spirit-elliptical-ces880-2025-owners-manual text.md lines 1966-1972).
-    The same sentence opens the warranty section of the eleven Spirit XE and XG residential
-    owner''s manuals: spirit-elliptical-xe150-xe350-xe550-owners-manual p. 34 (text.md lines
-    1104-1108), spirit-elliptical-xe100-xe200-xe300-owners-manual p. 44 (lines 1644-1648),
+    (spirit-elliptical-ces880-2025-owners-manual text.md lines 1966-1972). The same sentence
+    opens the warranty section of the eleven Spirit XE and XG residential owner's manuals:
+    spirit-elliptical-xe150-xe350-xe550-owners-manual p. 34 (text.md lines 1104-1108),
+    spirit-elliptical-xe100-xe200-xe300-owners-manual p. 44 (lines 1644-1648),
     spirit-elliptical-xe395-2010-owners-manual p. 29 (lines 1033-1038),
     spirit-elliptical-xe795-2021-february-owners-manual p. 38 (lines 922-926),
     spirit-elliptical-xe395ent-2021-owners-manual p. 48 (lines 915-919),
@@ -133,7 +142,17 @@ source:
     spirit-elliptical-xg400-2021-owners-manual p. 36 (lines 865-869),
     spirit-elliptical-xe795-2021-november-owners-manual p. 39 (lines 942-946),
     spirit-elliptical-xe395-2023-owners-manual Warranty section (lines 1443-1448),
-    spirit-elliptical-xe795-2023-owners-manual Warranty section (lines 1319-1324)'
+    spirit-elliptical-xe795-2023-owners-manual Warranty section (lines 1319-1324) All eight
+    Spirit indoor cycle and air bike manuals open with the same sentence:
+    spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 400-401),
+    spirit-bike-xic600-2018-owners-manual p. 26 (text.md lines 862-863),
+    spirit-bike-ab900-2018-owners-manual p. 45 (text.md lines 1257-1258),
+    spirit-bike-cic800-2021-owners-manual p. 20 (text.md lines 427-428),
+    spirit-bike-xic600-2021-owners-manual p. 26 (text.md lines 881-882),
+    spirit-bike-cic850-2022-owners-manual p. 36 (text.md lines 778-779),
+    spirit-bike-jb950-2022-owners-manual p. 71 (text.md lines 1779-1780),
+    spirit-bike-ab950-2024-owners-manual p. 33 (text.md lines 1054-1055). Back-cover revision
+    stamps read from the last page of each PDF
   extracted_at: '2026-09-09'
 ---
 
@@ -228,3 +247,30 @@ Date of retail sale by receipt, or eighteen months from the original factory shi
 **The four 900-series manuals warrant "this fitness bike" rather than its parts**, and drop the word *retail*. Neither change moves the clock: both alternatives are stated in the same sentence on all thirteen.
 
 **A printed effective date is not the model year.** The CU900 2018 manual is a 2018 book whose warranty page was replaced and now reads *effective November 19, 2021*; the CR900 2018 manual still carries terms *effective January 1, 2017* although its file was re-exported in 2021. Read the effective date off the manual in hand and do not infer it from the machine's year - `spirit-bike-900-warranty-commercial-periods`.
+
+## All eight Spirit indoor cycle and air bike manuals open with the same sentence, in four wordings
+
+**The clock is unchanged in all eight**: the date of retail sale as determined by sale receipt, or eighteen (18) months from the original factory shipping date when there is no receipt. What moves is the noun and the warrantor:
+
+| Manual | Opening clause | Effective date |
+|---|---|---|
+| CB900 2013 | Spirit Fitness warrants all its **Indoor Cycle** parts | January 1, 2012 |
+| XIC600 2018 | **Spirit Fitness, Inc. (Spirit Fitness)** warrants all its Indoor Cycle parts | August 22, 2018 |
+| AB900 2018 | Spirit Fitness warrants all its **fitness bike** parts | October 1, 2018 |
+| CIC800 2021 | Spirit Fitness warrants all its Indoor Cycle parts | September 24, 2021 |
+| XIC600 2021 | Spirit Fitness, Inc. (Spirit Fitness) warrants all its Indoor Cycle parts | November 30, 2021 |
+| CIC850 2022 | Spirit Fitness warrants all its Indoor Cycle parts | November 8, 2021 |
+| JB950 2022 | Spirit Fitness warrants **the Johnny G Spirit Bike** | November 19, 2021 |
+| AB950 2024 | Spirit Fitness warrants all its **Air Bike** parts | April 23, 2024 |
+
+**The JB950 is the odd one.** Like the CE900 2021, it warrants **the machine** rather than "all its ... parts", and the rest of its paragraph is unchanged - new or remanufactured parts at Spirit Fitness's option, administered directly to a **consumer** where there is no dealer. All eight say "directly to a consumer"; none of the eight says "to a facility".
+
+**The AB900 calls the machine a fitness bike, not an air bike**, throughout its warranty section - on a manual headed *AB900 AIR BIKE WARRANTY*. The AB950 says Air Bike. Neither manual explains the change.
+
+**On three of the eight the effective date is older than the book.** The CIC850 2022 warranty is effective **November 8, 2021** against a back-cover *Revision 5: 05.05.2022*, and the JB950 warranty is effective **November 19, 2021** against *Revision: 04.21.2022*. On both, the back cover's copyright line **also** reads (c) 2021, so the warranty page was not re-dated when the book was reprinted - the reverse of the CU900, where the warranty page was replaced and the rest of the book was not. The **CB900** warranty is effective **January 1, 2012** on a book stamped (c) 2013 and *Rev. 2*.
+
+**On the AB950 the warranty page is the newer half.** Its registration page stamps *Version: 1.0, Revision: 04.19.2024* and its internal file stamp reads AB950_950744_OM_20240419, four days before the April 23, 2024 warranty.
+
+**On the two XIC600 manuals the two dates agree to the day** - back-cover stamps of 08.22.2018 and 11.30.2021 against warranties effective August 22, 2018 and November 30, 2021.
+
+**What follows the sentence is four different tables**, none of them the CR800 or CR900 table. Read the periods from `spirit-indoor-cycle-warranty-three-row-periods`, `spirit-indoor-cycle-warranty-residential-only-periods`, `spirit-air-bike-warranty-periods` or `spirit-jb950-warranty-commercial-only-periods`, never from each other.

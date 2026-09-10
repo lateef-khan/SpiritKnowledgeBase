@@ -57,9 +57,21 @@ CI runs `kb lint`. Six things stay green that should not:
   `...-maintenance-calibration-basic` on a card whose facet says
   `section: console` passes silently and misleads every later reader. Fix the id
   while the card is still unmerged; after it syncs, the id is frozen.
-- **A move that breaks a relative link.** Other cards may point at a card by
-  relative path. Moving it into `cards/shared/` leaves those links dangling in a
-  way lint does not report. Grep for links to a card before moving it.
+- **A broken relative link.** Two ways it happens. Moving a card into
+  `cards/shared/` leaves every link that pointed at its old path dangling — so
+  grep for links to a card before moving it. More common: writing a link as a
+  bare filename, `[that card](other-card.md)`, when the target lives in a
+  different folder. It resolves against the *linking* card's directory, so it
+  only works between siblings. On 2026-09-09 one wave shipped 27 such links.
+  Check every link in the cards you touched actually resolves:
+
+  ```bash
+  git status --porcelain -uall | awk '$2 ~ /^cards\/.*\.md$/ {print $2}' | while read f; do
+    grep -oE '\]\(([^)]+\.md)\)' "$f" | sed 's/](//;s/)//' | while read l; do
+      [ -f "$(dirname "$f")/$l" ] || echo "BROKEN $f -> $l"
+    done
+  done
+  ```
 - **Two cards sharing one title.** Lint checks that an `id` is unique. It never
   looks at `title`. As of 2026-09-09 the repository holds **625 duplicate-title
   groups covering 2065 cards** — one title is used by 29 of them. Some are
@@ -182,16 +194,36 @@ bullet — above a seven-row Condition/Reason/Solve table that was a flat image;
 the render gave 375 words. Two agents found pages of this shape in the same
 wave, one of them under a heading the word count had already passed as healthy.
 
-So compare the render against the extraction, rather than trusting a threshold:
+**Comparing word counts is not enough either.** A ratio or a minimum gain will
+still throw away the pages that matter most. On 2026-09-09 three agents each
+found a page a count-based sweep had passed:
+
+| page | native words | why a count missed it |
+|---|---|---|
+| CIC800 p. 26 | 112 | the render is only 1.6x bigger, under a 2x rule |
+| JB950 p. 32  | 8   | the render gains about ten words, under a "+25" rule |
+| CIC850 p. 8  | 3   | a thirteen-callout parts diagram is barely any words |
+
+Console face drawings, part-name callouts and diagram labels are **few words but
+important words**, and they are almost always drawn rather than set as text.
+
+So ask what the render knows that the text layer does not — count the *new
+words*, not the total:
 
 ```bash
 for p in $(seq 1 $n); do
-  nat=$(pdftotext -f $p -l $p -layout FILE.pdf - | wc -w)
+  pdftotext -f $p -l $p -layout FILE.pdf /tmp/nat.txt
   pdftoppm -r 300 -png -f $p -l $p FILE.pdf /tmp/pg
-  ocr=$(tesseract /tmp/pg-*.png stdout --psm 4 2>/dev/null | wc -w)
-  [ "$ocr" -gt $(( nat * 2 )) ] && echo "page $p: native $nat, render $ocr"
+  tesseract /tmp/pg-*.png /tmp/ocr --psm 4 2>/dev/null
+  words() { tr -cs '[:alnum:]' '\n' < "$1" | tr 'A-Z' 'a-z' | sort -u; }
+  gained=$(comm -13 <(words /tmp/nat.txt) <(words /tmp/ocr.txt) | wc -l)
+  [ "$gained" -ge 5 ] && echo "page $p: $gained words the text layer does not have"
 done
 ```
+
+Five new words is a low bar and it will report some OCR noise. That is the right
+trade: a false positive costs one glance, and a missed callout page costs a card
+that says a machine has no console.
 
 Rendering every page is slow, so reserve the full sweep for the pages a section
 actually rests on — and always run it before carding an **absence**. Half the

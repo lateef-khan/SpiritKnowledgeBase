@@ -2,9 +2,10 @@
 id: xt-2023-warranty-owner-costs
 title: What the owner pays even when the repair is under warranty
 kind: policy
-question: Does the owner of a Spirit XT, CT800 or CT850 treadmill, of a Spirit CE800,
-  CE800ENT or CE850 elliptical, or of a Spirit CR800, CU800, CU800ENT or CR800ENT bike,
-  pay anything for a warranty repair?
+question: >-
+  Does the owner of a Spirit XT, CT800 or CT850 treadmill, of a Spirit CE800, CE800ENT or
+  CE850 elliptical, or of a Spirit CR800, CU800, CU800ENT, CR800ENT, CB900, XIC600, CIC800,
+  CIC850, AB900 or JB950 bike, pay anything for a warranty repair?
 asked_as:
 - do i have to pay for a warranty service call
 - is the service call free under warranty
@@ -25,6 +26,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ab900-2018
+  - cb900-2013
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -32,6 +35,8 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2022
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -46,6 +51,7 @@ facets:
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
+  - jb950-2022
   - xe195-2021
   - xe295-2021
   - xe395-2010
@@ -54,6 +60,8 @@ facets:
   - xe795-2021
   - xe795-2023
   - xg400-2021
+  - xic600-2018
+  - xic600-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -79,22 +87,23 @@ see_also:
 - spirit-xe-2005-warranty-service-and-transport-costs
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 'SERVICE step 4, p. 42; RESPONSIBILITIES OF THE CONSUMER item 3, p. 40; EXCLUSIONS
-    item 2, p. 41. All three are in all five 2023 XT manuals: xt185 pp. 40-42, xt285 pp. 48-50,
-    xt385 pp. 53-55, xt485 pp. 53-55, xt685 pp. 52-54. All three are word for word the same in
-    the five 2015 XT manuals, where the accessibility item is numbered 4 rather than 3: xt185
+  locator: >-
+    SERVICE step 4, p. 42; RESPONSIBILITIES OF THE CONSUMER item 3, p. 40; EXCLUSIONS item 2,
+    p. 41. All three are in all five 2023 XT manuals: xt185 pp. 40-42, xt285 pp. 48-50, xt385
+    pp. 53-55, xt485 pp. 53-55, xt685 pp. 52-54. All three are word for word the same in the
+    five 2015 XT manuals, where the accessibility item is numbered 4 rather than 3: xt185
     text.md lines 765-766, 775-778 and 799-803. XT685 2010 p. 37
     (spirit-treadmill-xt685-2010-owners-manual text.md lines 1535-1536, 1552-1554 and
     1590-1595), where the accessibility item is numbered 5. XT485ENT pp. 55-56 (accessibility
     item 4 at line 1100, exclusion 2 at line 1109, SERVICE step 4 at lines 1133-1137). XT685ENT
     pp. 53-55. CT800 2012 p. 25 (accessibility item 5 at lines 1109-1110, exclusion 2 at lines
     1119-1121, SERVICE step 4 at lines 1142-1146), CT800 2016 pp. 41-43, CT800 2020 pp. 45-47,
-    CT800ENT 2022 pp. 53-55. The same three passages are in all four CT850 owner''s manuals:
+    CT800ENT 2022 pp. 53-55. The same three passages are in all four CT850 owner's manuals:
     CT850 2016 pp. 45-47 (spirit-treadmill-ct850-2016-owners-manual text.md lines 1167,
     1183-1186, 1215-1219), CT850 2018 pp. 45-47 (lines 1159-1160, 1178-1181, 1208-1212), CT850
-    2020 pp. 45-47 (lines 1166, 1182-1185, 1214-1218), CT850ENT 2022 pp. 53-55 (lines 1226-1227,
-    1243-1246, 1272-1276). All five charges are printed in seven Spirit elliptical owner''s
-    manuals, in SERVICE step 4 and exclusion 2: ce800-2013 p. 27
+    2020 pp. 45-47 (lines 1166, 1182-1185, 1214-1218), CT850ENT 2022 pp. 53-55 (lines
+    1226-1227, 1243-1246, 1272-1276). All five charges are printed in seven Spirit elliptical
+    owner's manuals, in SERVICE step 4 and exclusion 2: ce800-2013 p. 27
     (spirit-elliptical-ce800-2013-owners-manual text.md lines 1119 and 1140-1145), ce800-2021
     pp. 37-38 (spirit-elliptical-ce800-2021-owners-manual text.md lines 965-968 and 994-999),
     ce800-2023 pp. 38-39 (spirit-elliptical-ce800-2023-owners-manual text.md lines 987-990 and
@@ -102,20 +111,27 @@ source:
     and 973-978), ce850-2016 pp. 35 (spirit-elliptical-ce850-2016-owners-manual text.md lines
     839-841 and 862-868), ce850-2020 pp. 42-43 (spirit-elliptical-ce850-2020-owners-manual
     text.md lines 1043-1046 and 1074-1079), ce850-2022 pp. 43-44
-    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1049-1052 and 1080-1085)
-    Eight Spirit XE and XG residential owners manuals charge the same five. Responsibilities
+    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1049-1052 and 1080-1085) Eight
+    Spirit XE and XG residential owners manuals charge the same five. Responsibilities
     accessibility item, EXCLUSIONS item 2 and SERVICE step 4 respectively: xe395-2010 p. 29
     (spirit-elliptical-xe395-2010-owners-manual text.md lines 1051, 1061, 1083),
     xe795-2021-february pp. 38-39 (spirit-elliptical-xe795-2021-february-owners-manual text.md
-    lines 937, 947, 970), xe395ent-2021 p. 48
-    (spirit-elliptical-xe395ent-2021-owners-manual text.md lines 931, 941, 964), xe195-2021
-    pp. 33-34 (spirit-elliptical-xe195-2021-owners-manual text.md lines 745, 755, 779),
-    xe295-2021 p. 37 (spirit-elliptical-xe295-2021-owners-manual text.md lines 862, 872,
-    894), xg400-2021 p. 36 (spirit-elliptical-xg400-2021-owners-manual text.md lines 881,
-    891, 913), xe795-2021-november p. 39
-    (spirit-elliptical-xe795-2021-november-owners-manual text.md lines 961, 971, 993),
-    xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines 1462, 1480, 1514),
-    xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines 1344, 1359, 1393)'
+    lines 937, 947, 970), xe395ent-2021 p. 48 (spirit-elliptical-xe395ent-2021-owners-manual
+    text.md lines 931, 941, 964), xe195-2021 pp. 33-34
+    (spirit-elliptical-xe195-2021-owners-manual text.md lines 745, 755, 779), xe295-2021 p. 37
+    (spirit-elliptical-xe295-2021-owners-manual text.md lines 862, 872, 894), xg400-2021 p. 36
+    (spirit-elliptical-xg400-2021-owners-manual text.md lines 881, 891, 913),
+    xe795-2021-november p. 39 (spirit-elliptical-xe795-2021-november-owners-manual text.md
+    lines 961, 971, 993), xe395-2023 (spirit-elliptical-xe395-2023-owners-manual text.md lines
+    1462, 1480, 1514), xe795-2023 (spirit-elliptical-xe795-2023-owners-manual text.md lines
+    1344, 1359, 1393) Service steps 4 and 5 and the responsibilities list in seven Spirit
+    indoor cycle and air bike manuals. Accessibility item: spirit-bike-cb900-2013-owners-manual
+    text.md line 417 (list heading line 412); spirit-bike-xic600-2018-owners-manual line 877
+    (heading line 871); spirit-bike-ab900-2018-owners-manual line 1275 (heading line 1269);
+    spirit-bike-cic800-2021-owners-manual line 445 (heading line 441);
+    spirit-bike-xic600-2021-owners-manual line 896 (heading line 889);
+    spirit-bike-cic850-2022-owners-manual line 795 (heading line 791);
+    spirit-bike-jb950-2022-owners-manual line 1794 (heading line 1790)
   extracted_at: '2026-09-09'
 ---
 
@@ -154,3 +170,21 @@ Their accessibility duty sits at a different number in each generation: item **5
 The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and the CR800ENT 2023 print service steps 4 and 5 word for word as the CT800 and CT850 manuals do: freight to and from the service centre, shipping and handling on warranty replacement parts, a trip charge for in-home service, an **additional** trip charge beyond 100 miles from the nearest service centre, and adequate packaging plus the freight-damage claim on the owner.
 
 **The other seven bikes do not say this.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT stop step 4 at "All repairs must be preauthorized by Spirit Fitness" and state **no** freight, shipping or trip charge at all - do not quote a trip charge to those owners from this card. The CR900 2025, CU900 2025 and CU800ENT 2024 carry the freight and shipping sentences but no trip charge (`spirit-2026t-warranty-owner-costs`).
+
+## Seven Spirit indoor cycles and air bikes put the same costs on the owner
+
+The CB900 2013, both XIC600 printings, the AB900 2018, the CIC800 2021, the CIC850 2022 and the JB950 2022 print service steps 4 and 5 word for word: freight to and from the service centre, shipping and handling on warranty replacement parts, a trip charge for in-home service, an **additional** trip charge beyond 100 miles from the nearest service centre, and adequate packaging plus the freight-damage claim on the owner. Their exclusion 2 refuses service call reimbursement to the consumer as well.
+
+**Their accessibility duty sits at a different number in each book**, and the words never change:
+
+| Manual | Responsibilities list | Accessibility item |
+|---|---|---|
+| CB900 2013 | NORMAL RESPONSIBILITIES OF THE CONSUMER, four numbered items | item **3** |
+| XIC600 2018, XIC600 2021 | NORMAL RESPONSIBILITIES OF THE CONSUMER, six numbered items | item **4** |
+| AB900 2018 | NORMAL RESPONSIBILITIES OF THE CONSUMER, six **unnumbered bullets** | bullet **4** |
+| CIC800 2021, CIC850 2022 | NORMAL RESPONSIBILITIES OF THE CONSUMER, five numbered items | item **3** |
+| JB950 2022 | NORMAL RESPONSIBILITIES OF THE **OWNER**, five unnumbered bullets | bullet **3** |
+
+**Only the AB900 puts the electrical supply on the owner** of these seven - blown fuses, loose connections and defects in house or facility wiring - as its third bullet. The other six drop that item, and the two CIC manuals and the CB900 drop the proper-installation item as well.
+
+**The AB950 2024 does not belong on this card.** Its step 4 stops at shipping and handling on replacement parts and names **no** trip charge and **no** 100-mile surcharge (`spirit-2026t-warranty-owner-costs`). Quoting a trip charge to an AB950 owner would invent a cost their manual does not impose - and it is the newest of the eight, so it is the one most likely to be in a customer's hands.

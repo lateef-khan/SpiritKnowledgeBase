@@ -32,6 +32,8 @@ authority: 3
 not_to_be_confused_with:
 - spirit-bike-assembly-pedal-torque-300-in-lb
 - spirit-bike-assembly-pedal-tighten-as-much-as-possible
+- spirit-airbike-jb950-assembly-pedals-no-reverse-thread-warning
+- spirit-cycle-assembly-pedal-reverse-thread-no-torque-figure
 see_also:
 - cr800ent-2023-assembly-procedure
 - spirit-cu800ent-assembly-procedure

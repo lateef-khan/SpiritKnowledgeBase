@@ -43,6 +43,11 @@ authority: 3
 not_to_be_confused_with:
 - cu800-2012-maintenance-squeak-rear-rails-and-four-levelers
 - cu900ent-belt-slips-or-falls-off
+- spirit-indoor-cycle-maintenance-schedule-wd40-and-weekly-brake-pad
+- cic800-2021-maintenance-belt-tension-quarter-inch-crank-play
+- cic850-2022-maintenance-belt-tension-behind-the-top-and-right-guards
+- spirit-indoor-cycle-maintenance-console-two-aaa-batteries
+- spirit-bike-console-air-bike-four-aa-batteries
 see_also:
 - cu900ent-general-maintenance
 - spirit-bike-maintenance-machine-care-schedule
@@ -90,3 +95,22 @@ the levelling in `cu900ent-general-maintenance`, plus, on three of them, the ins
 The same service manual is also the only Spirit bike document that lists wear parts (belt, PU
 wheel, bearing, idler) — `cu900ent-wear-parts-inspection`. **None of these twelve owner's manuals
 prints that warning**, so they name no wear part and no wear limit.
+
+## This card stops at the twelve machines named above
+
+**It does not cover the Spirit indoor cycles, air bikes or the Johnny G Spirit Bike**, and all three
+of its statements are false for some of them:
+
+- **Lubricant.** Both XIC600 printings name **WD-40** for the flywheel and **3-IN-ONE or 10W oil**
+  for the leather brake pad, and forbid silicone —
+  `spirit-indoor-cycle-maintenance-schedule-wd40-and-weekly-brake-pad`.
+- **Drive belt.** The CIC800 2021 and CIC850 2022 each print a full belt tension adjustment, and
+  they are two different procedures —
+  `cic800-2021-maintenance-belt-tension-quarter-inch-crank-play`,
+  `cic850-2022-maintenance-belt-tension-behind-the-top-and-right-guards`.
+- **Battery.** The XIC600 and CIC850 consoles take **2 AAA**
+  (`spirit-indoor-cycle-maintenance-console-two-aaa-batteries`) and the AB900 and AB950 consoles take **4 AA**
+  (`spirit-bike-console-air-bike-four-aa-batteries`).
+
+Only the CB900 2013, CIC800 2021 and JB950 2022 have no battery, and for reasons of their own —
+`spirit-bike-maintenance-no-battery-on-three-cycles`.

@@ -44,6 +44,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-cycle-specs-no-specification-table
 - spirit-ce-specs-no-specification-table
 - spirit-xe-specs-no-specification-table
 - spirit-ct800-specs-no-specification-table

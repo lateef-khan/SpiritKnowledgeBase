@@ -38,7 +38,8 @@ facets:
   section: specs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-cycle-specs-resistance-systems
 see_also:
 - spirit-bike-specs-no-specification-table
 - spirit-bike-specs-which-manuals-print-a-parts-list

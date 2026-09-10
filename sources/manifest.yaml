@@ -1094,6 +1094,47 @@
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
   ingested_at: '2026-09-03'
+- id: spirit-bike-ab900-2018-owners-manual
+  title: 2018 Spirit AB900 air bike owner's manual, Revision 12.13.2018, warranty
+    effective October 1, 2018 (the 2015 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/AB900/2015/AB900
+    Air Bike US OM_122018.pdf
+  sha256: cbdb1166d9af1afd893e6c20045fb508f01d493985b393d08808330d68584129
+  ingested_at: '2026-09-09'
+- id: spirit-bike-ab950-2024-owners-manual
+  title: 2024 Spirit AB950 air bike owner's manual, (c) 2024, warranty effective April
+    23, 2024
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/AB950/2024/AB950_950744_OM_20240429.pdf
+  sha256: 53833661104e04c304aeb823d96258a1a1e4c3730f9b0d73dd21714a6219c64a
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cb900-2013-owners-manual
+  title: 2013 Spirit CB900 indoor cycle owner's manual. Back cover (c) 2013; warranty
+    effective January 1, 2012. 18 pages, the shortest bike manual in the corpus.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/SpiritFitness_OM_CB900-1.pdf
+  sha256: 2e29c3a6f29acf6d095f1b94dd61e4ae9667181adc51a923a8592736e2fb1ce2
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cic800-2021-owners-manual
+  title: 2021 Spirit CIC800 fitness bike owner's manual, Revision 11.08.2021, warranty
+    effective September 24, 2021 (the 2015 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CIC800/2015/CIC800_800390_OM_20211108.pdf
+  sha256: b128f83740f55ba480d72d80da34331e0b6fee521d5d6598b98e6fc4cd57468e
+  ingested_at: '2026-09-09'
+- id: spirit-bike-cic850-2022-owners-manual
+  title: 2022 Spirit CIC850 indoor cycle owner's manual, Revision 05.05.2022, warranty
+    effective November 8, 2021. A second export of the same document sits at bike
+    backup/CIC850_20220505.pdf; the two match 98.3% at word level with the same revision
+    stamp, so there is only one CIC850 manual. Note the part number on the cover is
+    800390, the CIC800's part number.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CIC850/2021/CIC850_800390
+    _OM_20220801.pdf
+  sha256: 7a23aaf0a230d2e61bd9ccfa27373752b1719f7d4f0900844bc8fbf4b427d063
+  ingested_at: '2026-09-09'
 - id: spirit-bike-cr800-2021-owners-manual
   title: 2021 Spirit CR800 recumbent bike owner's manual, warranty effective November
     8, 2021
@@ -1201,6 +1242,29 @@
   origin_uri: file://CU900ENT Service Manual.pdf
   sha256: c52aa2dc7041c7e4a5a67ad1d9bc12154e6092d99f75d4169c49edf0fb8d62da
   ingested_at: '2026-09-08'
+- id: spirit-bike-jb950-2022-owners-manual
+  title: 2022 Spirit JB950 Johnny G Spirit Bike owner's manual, Revision 04.21.2022,
+    warranty effective November 19, 2021 (the 2015 folder is wrong). 76 pages, the
+    longest bike manual in the corpus.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/JB950/2015/JB950_950348_OM_20220421.pdf
+  sha256: d5c082d4910e905fd74ef6c9c44035f16e382337fe2a0d6f4fb43bac9559101c
+  ingested_at: '2026-09-09'
+- id: spirit-bike-xic600-2018-owners-manual
+  title: 2018 Spirit XIC600 indoor cycle owner's manual, warranty effective August
+    22, 2018. No back-cover revision stamp. Exists only in the Bikes/bike backup folder.
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/bike
+    backup/XIC600/XIC600_OM_20180822.pdf
+  sha256: 5d7f4ccc969265d2805b84b9deb4e01bbd16ae2e43a297da7481e59382566b47
+  ingested_at: '2026-09-09'
+- id: spirit-bike-xic600-2021-owners-manual
+  title: 2021 Spirit XIC600 indoor cycle owner's manual, Revision 11.30.2021, warranty
+    effective November 30, 2021 (the 2015 folder is wrong)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XIC600/2015/XIC600_600377_OM_20211130.pdf
+  sha256: a47bc251ba445b4ca621d638d1eca8391fd896bf68751ebcccbb9f3c87e97f00
+  ingested_at: '2026-09-09'
 - id: spirit-climber-cvc800-service-manual
   title: Spirit CVC800 vertical climber service manual
   kind: markdown

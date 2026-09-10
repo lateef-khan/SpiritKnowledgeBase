@@ -25,6 +25,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ab900-2018
+  - ab950-2024
   - ce800-2021
   - ce800-2023
   - ce800ent
@@ -33,6 +35,8 @@ facets:
   - ce900-2021
   - ce900-2025
   - ces880-2025
+  - cic800-2021
+  - cic850-2022
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -57,11 +61,13 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - jb950-2022
   - xe195-2021
   - xe295-2021
   - xe795-2021
   - xe795-2023
   - xg400-2021
+  - xic600-2021
   section: warranty
   code: '*'
 authority: 3
@@ -84,32 +90,33 @@ see_also:
 - spirit-xe795-warranty-light-commercial-periods
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'Footnote to the Commercial Warranty table and EXCLUSIONS item 8. Both are printed in
-    all three 2026 manuals: 4.0T pp. 51-52, 7.0T pp. 50-51, 8.0T pp. 68-69. CT800: the exclusion
-    in all four manuals - 2012 p. 25 (text.md line 1132), 2016 p. 42 (line 1107), 2020 p. 46
-    (line 1201), CT800ENT 2022 p. 54 (line 1250) - and the table footnote in two, 2020 p. 45
-    (line 1162) and CT800ENT 2022 p. 53 (line 1212). CT850: the exclusion in all four owner''s
-    manuals - ct850-2016 p. 46 (spirit-treadmill-ct850-2016-owners-manual text.md line 1198),
+  locator: >-
+    Footnote to the Commercial Warranty table and EXCLUSIONS item 8. Both are printed in all
+    three 2026 manuals: 4.0T pp. 51-52, 7.0T pp. 50-51, 8.0T pp. 68-69. CT800: the exclusion in
+    all four manuals - 2012 p. 25 (text.md line 1132), 2016 p. 42 (line 1107), 2020 p. 46 (line
+    1201), CT800ENT 2022 p. 54 (line 1250) - and the table footnote in two, 2020 p. 45 (line
+    1162) and CT800ENT 2022 p. 53 (line 1212). CT850: the exclusion in all four owner's manuals
+    - ct850-2016 p. 46 (spirit-treadmill-ct850-2016-owners-manual text.md line 1198),
     ct850-2018 p. 46 (line 1191), ct850-2020 p. 46 (line 1197), ct850ent-2022 p. 54 (line 1256)
     - and the table footnote in three, ct850-2016 p. 45 (line 1159), ct850-2020 p. 45 (line
     1158) and ct850ent-2022 p. 53 (line 1218). All three CT900-family manuals print both halves
     - table footnote and exclusion: spirit-treadmill-ct900-owners-manual pp. 52 and 53 (text.md
     lines 1486 and 1520), spirit-treadmill-ct900ent-owners-manual pp. 50 and 51 (lines 1135 and
-    1171), spirit-treadmill-ctsbs900-owners-manual pp. 54 and 55 (lines 1687 and 1720). Eight of
-    the ten Spirit elliptical owner''s manuals print both halves - table footnote and exclusion
-    item: ce800-2021 pp. 36 and 38 (spirit-elliptical-ce800-2021-owners-manual text.md lines 940
-    and 979), ce800-2023 pp. 37 and 39 (spirit-elliptical-ce800-2023-owners-manual text.md lines
-    962 and 1001), ce800ent pp. 40 and 41 (spirit-elliptical-ce800ent-owners-manual text.md
-    lines 921 and 957), ce850-2020 pp. 41 and 43 (spirit-elliptical-ce850-2020-owners-manual
-    text.md lines 1017 and 1057), ce850-2022 pp. 42 and 44
-    (spirit-elliptical-ce850-2022-owners-manual text.md lines 1023 and 1063), ce900-2021 pp. 26
-    and 27 (spirit-elliptical-ce900-2021-owners-manual text.md lines 623 and 661), ce900-2025
-    pp. 36 and 37 (spirit-elliptical-ce900-2025-owners-manual text.md lines 1098 and 1132),
-    ces880-2025 pp. 58 and 59 (spirit-elliptical-ces880-2025-owners-manual text.md lines 1981
-    and 2015). The ce800-2013 and ce850-2016 manuals print neither half anywhere in the
-    document
-    Five of the eleven Spirit XE and XG residential owners manuals print the footnote under the
-    warranty table and none of the eleven prints a numbered prisons item: xe195-2021 p. 33
+    1171), spirit-treadmill-ctsbs900-owners-manual pp. 54 and 55 (lines 1687 and 1720). Eight
+    of the ten Spirit elliptical owner's manuals print both halves - table footnote and
+    exclusion item: ce800-2021 pp. 36 and 38 (spirit-elliptical-ce800-2021-owners-manual
+    text.md lines 940 and 979), ce800-2023 pp. 37 and 39
+    (spirit-elliptical-ce800-2023-owners-manual text.md lines 962 and 1001), ce800ent pp. 40
+    and 41 (spirit-elliptical-ce800ent-owners-manual text.md lines 921 and 957), ce850-2020 pp.
+    41 and 43 (spirit-elliptical-ce850-2020-owners-manual text.md lines 1017 and 1057),
+    ce850-2022 pp. 42 and 44 (spirit-elliptical-ce850-2022-owners-manual text.md lines 1023 and
+    1063), ce900-2021 pp. 26 and 27 (spirit-elliptical-ce900-2021-owners-manual text.md lines
+    623 and 661), ce900-2025 pp. 36 and 37 (spirit-elliptical-ce900-2025-owners-manual text.md
+    lines 1098 and 1132), ces880-2025 pp. 58 and 59
+    (spirit-elliptical-ces880-2025-owners-manual text.md lines 1981 and 2015). The ce800-2013
+    and ce850-2016 manuals print neither half anywhere in the document Five of the eleven
+    Spirit XE and XG residential owners manuals print the footnote under the warranty table and
+    none of the eleven prints a numbered prisons item: xe195-2021 p. 33
     (spirit-elliptical-xe195-2021-owners-manual text.md line 736), xe295-2021 p. 37
     (spirit-elliptical-xe295-2021-owners-manual text.md line 854), xg400-2021 p. 36
     (spirit-elliptical-xg400-2021-owners-manual text.md line 873), xe795-2021-november p. 39
@@ -119,7 +126,16 @@ source:
     spirit-elliptical-xe395ent-2021-owners-manual, spirit-elliptical-xe395-2023-owners-manual,
     spirit-elliptical-xe395-2010-owners-manual,
     spirit-elliptical-xe100-xe200-xe300-owners-manual or
-    spirit-elliptical-xe150-xe350-xe550-owners-manual'
+    spirit-elliptical-xe150-xe350-xe550-owners-manual Six of the eight Spirit indoor cycle and
+    air bike manuals carry it. Footnote under the warranty table only:
+    spirit-bike-xic600-2021-owners-manual p. 26 (text.md line 888),
+    spirit-bike-jb950-2022-owners-manual p. 71 (text.md line 1788). Numbered exclusion only:
+    spirit-bike-ab900-2018-owners-manual p. 46 item 8 (text.md line 1302). Both halves:
+    spirit-bike-cic800-2021-owners-manual pp. 20 and 21 (text.md lines 440 and 474),
+    spirit-bike-cic850-2022-owners-manual pp. 36 and 37 (text.md lines 790 and 825),
+    spirit-bike-ab950-2024-owners-manual pp. 33 and 34 (text.md lines 1061 and 1104). The words
+    prison and correctional appear nowhere in spirit-bike-cb900-2013-owners-manual or
+    spirit-bike-xic600-2018-owners-manual
   extracted_at: '2026-09-09'
 ---
 
@@ -190,3 +206,25 @@ Five of the eleven print it - the **XE195**, **XE295**, **XG400**, the **Novembe
 **The CU800 2012 prints no footnote at all.** Neither of its two scans carries one under the table. It excludes prisons only through the numbered list, at item **9**: *Product used in prisons and correctional facilities*. The answer for a CU800 2012 is the same; the sentence a customer is shown must come from the exclusion list, not from a footnote that manual does not print.
 
 The list item sits at three different numbers across the thirteen - item **9** in the six CR800, CU800 and 800ENT 2022/2023 manuals, item **8** in the CR900 2018, CU900 2018, CR900ENT and CU900ENT, and item **8** in the CU800ENT 2024, CR900 2025 and CU900 2025.
+
+## The eight Spirit indoor cycles and air bikes: six exclude prisons, two say nothing at all
+
+**The CB900 2013 and the XIC600 2018 state this exclusion nowhere.** The words *prison* and *correctional* appear at no point in either document - no footnote under the warranty table, no numbered item in the exclusion list. **Do not quote it to the owner of one.**
+
+The other six carry it, and **three of the six print only one of the two halves**:
+
+| Manual | Footnote under the table | Exclusion item |
+|---|---|---|
+| CB900 2013 | **none** | **none** |
+| XIC600 2018 | **none** | **none** |
+| AB900 2018 | **none** | item **8** of eight - *Product used in prisons and correctional facilities* |
+| XIC600 2021 | yes, with a leading asterisk | **none** - its item 8 is a use-environment limit instead |
+| JB950 2022 | yes, with a leading asterisk | **none** - its list runs to seven items and has no prisons item |
+| CIC800 2021, CIC850 2022 | yes, with a leading asterisk | item **8** of nine |
+| AB950 2024 | yes, with a leading asterisk | item **8** of nine |
+
+**The AB900 is the mirror image of the XIC600 2021 and the JB950.** It prints the numbered exclusion and no footnote; they print the footnote and no numbered exclusion. A customer reading only the warranty table of an AB900, or only the exclusion list of an XIC600 2021 or a JB950, is not shown the rule at all. Quote whichever half that manual prints.
+
+**On this range the prisons clause is often the only environment restriction there is.** The AB900, the AB950 and the JB950 exclusion lists carry no dues-paying item and no residential-setting item, so prisons is the whole of the environment answer on those three. The XIC600 2021 is the opposite: its item 8 bars everything but a home or a non-dues-paying facility used five hours a day or less. The whole picture is `spirit-indoor-cycle-air-bike-warranty-use-environment`.
+
+**The clause enters this range in October 2018.** The XIC600 manual effective **August 22, 2018** does not carry it; the AB900 manual effective **October 1, 2018** does. So it is not simply a 2021 addition - and the two XIC600 printings, three years apart, are the clean before-and-after pair (`spirit-indoor-cycle-warranty-residential-only-periods`).

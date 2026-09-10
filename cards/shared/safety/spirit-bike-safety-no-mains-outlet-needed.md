@@ -39,6 +39,7 @@ facets:
   code: '*'
 authority: 3
 not_to_be_confused_with:
+- spirit-indoor-cycle-safety-no-mains-outlet-or-voltage
 - spirit-ce850-safety-outlet-and-circuit-requirement
 - spirit-ct800-safety-outlet-120-volt-15-amp
 - spirit-xe-safety-no-outlet-figure-printed
@@ -95,3 +96,8 @@ CR800-2021, CR800-2023, CU800-2021, CR900-2025, CU900-2025 - list a `Generator/B
 list a `Power Cord` and no generator part at all. And the `IMPORTANT ELECTRICAL INSTRUCTIONS` page
 tells the same story - every manual on this card opens it with the spinning-generator shock
 warning, and no ENT manual prints that warning anywhere.
+
+**The indoor cycles, air bikes and the Johnny G also need no outlet, and this card is not their
+answer.** None of them has a generator - the word appears in none of those eight manuals - and the
+CB900 and CIC800 have no console to power at all. See
+`spirit-indoor-cycle-safety-no-mains-outlet-or-voltage`, which gives the battery type for each.
