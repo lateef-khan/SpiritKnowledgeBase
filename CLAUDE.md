@@ -279,6 +279,24 @@ This is why `text.md` is for reading and the PDF is for deciding. It now carries
 three kinds of text: the native layer, the `=== OCR SUPPLEMENT ===` blocks this
 repository appends, and — on some sources — a ghost layer that was never on paper.
 
+## A folder name is not a brand
+
+The download folders are sorted by brand, and they are wrong in both directions.
+
+On 2026-09-10 the **Xterra** service folder was found to hold service manuals for
+a dozen **Spirit** medical machines, identified by SKU: 4.0T (740885), 7.0T
+(770885), 8.0T (780885), 7.0S, 7.5S, 8.5UE and more. Two are byte-for-byte the
+Spirit-folder twin; the 4.0T is a **newer revision the Spirit folder does not
+have**. The same day the **Spirit** service folder was found to hold **Xterra**
+machines: ERG160, ERG180, SB600, AIR650.
+
+Xterra itself is a separate range, not rebadged Spirit. Owner's manual against
+owner's manual, the best match found was TR300/XT385 at **47.9%**; a re-export of
+one document measures 95-100% here. The overlap is Dyaco boilerplate.
+
+Take the brand from the document - the cover, the SKU, the model name - and
+never from the folder it was filed in.
+
 ## Prove an absence twice before you card it
 
 "The manual prints no X" is a real answer here and many cards give it. That makes a
