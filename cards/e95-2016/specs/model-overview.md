@@ -41,7 +41,7 @@ source:
 
 The manual's cover code is **SE595-YE021**. Section 1 is titled "SE595-YE021 Outlines" and the table of contents calls it the "SE595 Elliptical". The circuit diagram page is also headed SE595-YE021.
 
-This is the Sole E95 of model year 2016. The Spirit database holds two rows named "SOLE E95 2016". The model number is on the E95 model card, `e95-model-numbers`.
+This is the Sole E95 of model year 2016. The Spirit database holds two rows named "SOLE E95 2016", and which is this machine's has not been settled: its model number is not confirmed, see the E95 model card, `e95-model-numbers`.
 
 The machine has a console with a **10.1" TFT display**, a main controller (DC power supply, incline driver and tension motor driver), a **tension motor** that changes brake resistance, and a **115 volt AC incline motor**.
 

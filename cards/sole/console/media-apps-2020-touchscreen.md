@@ -44,7 +44,7 @@ source:
 
 This affects the **first generation 2020 touchscreen** machines, which run Android 6. There is no fix on our side.
 
-The machines are the 2019 F85, the ST90 that is called both 2020 and 2021, and the TT8 that is called both 2019 and 2020. Their model numbers are on the F85, ST90 and TT8 model cards.
+The machines are the 2019 F85, the ST90 that is called both 2020 and 2021, and the TT8 that is called both 2019 and 2020. The F85 2019 and TT8 2019 numbers are on the F85 and TT8 model cards (`f85-model-numbers`, `tt8-model-numbers`); the ST90 2020/2021 and TT8 2020 numbers are not confirmed, see `st90-model-numbers` and `tt8-model-numbers`.
 
 - **Netflix**: in August 2025 Netflix dropped support for Android 6 devices. Replacing the console does not help, because newer touchscreen consoles are not compatible with the older machines. Netflix blocks screen sharing for copyright reasons, so there is no workaround.
 - **YouTube**: in early 2025 Google dropped YouTube support on Android 6. Google Chrome was added as a workaround, and later stopped working too. The only workaround is to screen share with the Sole Mirroring App or Apple AirPlay.
