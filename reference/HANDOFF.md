@@ -42,21 +42,52 @@ Check it yourself:
 
 Folder: `/mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals`
 
-Surveyed, clustered, **not ingested**. Byte-identical copies and 95%+ re-exports
-are collapsed to 103. `reference/service-manuals-identified.tsv` names the
-machine each document belongs to, with the evidence — read its `verdict` column.
+Surveyed, clustered and **identified — not ingested**. Byte-identical copies
+and 95%+ re-exports are collapsed to 103. `reference/service-manuals-identified.tsv`
+names the machine each document belongs to, with the sentence that decided it.
+Read its `verdict` and `confidence` columns before anything else.
 
-It brings machines the repository has never seen: a **1000 series** (CT1000,
-CR1000, CU1000, CE1000), **SB600**, **XT175/275/375/475/675** (one manual for
-five machines, an older generation than the XT185 family), **CTSB900**,
-**CE900ENT**. Each needs a new model id in `kb.yaml`, its year proven from the
-document, not the filename.
+| verdict | documents |
+|---|---|
+| `existing` — belongs to a model id already in `kb.yaml` | 69 |
+| `already-ingested` — a re-export of a source already in the repository | 11 |
+| `new-machine` | 13 |
+| `multi-machine` — one manual covering several machines | 3 |
+| `not-a-manual` | 7 |
 
-It also holds documents that are **not machine manuals**: a commercial warranty
-sheet, a power-requirements sheet, three `ENT Support` tips (Bluetooth pairing,
-internet, screen mirroring — these belong with the ENT console cards), an E27
-troubleshooting note for the 7.0T, an AB900/AIR650 discrepancy note, and an
-i-Strength maintenance manual.
+So **85 documents to ingest**, of which **34 rows are marked `unsure`** — mostly
+2016-code manuals mapped to the earliest pre-2023 id, and "2020 ver." ENT manuals
+mapped to the 2022/2023 ENT ids. Re-check those against the owner's manual
+already carded for that id before ingesting.
+
+**New machines, cover-proven:** the **1000 series** — `ct1000-2023`,
+`cr1000-2023`, `cu1000-2023`, `ce1000-2023` (certain); `ce900ent-2021`;
+`cr800-2011` (the XR898); `crw800-2016`; `cs800-2016`. **Multi-machine:** one
+2008 dealer manual for `xbr25-2008` + `xbr55-2008`; one for
+`xt175/275/375/475/675-2008`, an older generation than the XT185 family; and the
+XE100–XE500 manual adds `xe400-2007` and `xe500-2007` to the three that exist.
+Years marked unsure come from PDF creation dates or the SKU table, not a
+printed stamp — prove them before declaring the id.
+
+**Three the folder got wrong.** `XS895 (XE895-SE022 2016)` is an *elliptical*
+manual, 98% identical to the CE850 one, and belongs to `xe895-2018`. `DYACO 7.0T
+(MT8000-ST021-02)` shares its parts list with the **MT200** owner's manuals and
+only 3% with the 7.0T — it is `mt200-2022`, not `70t-2026`. `XIC600 (SB700,
+SB702)` is a 2009 Dyaco SB700 manual and belongs to Sole `sb700-2011`.
+
+**Five files in this folder are Xterra**, a brand `kb.yaml` does not yet declare:
+SB600, ERG160, ERG180, ERG800W, and ERG-750W. Hold them for 3b.
+
+**Two filename SKUs disagree with the repository**: XBU55 service `553123`
+against the carded `552123`; XBR55 service `551123` against the owner's-manual
+filename `551223`. Resolve from the database before trusting either.
+
+The seven that are **not machine manuals**, each still worth a card or two: an
+AB900/AIR650 discrepancy sheet; a scanned CIC850 pairing tip; an E-50H service
+bulletin for the CT800 800840; an E27 email for the 7.0T model 770844; a
+commercial cardio warranty sheet (Rev 03.07.2019); a power-requirements sheet
+(Rev 03.06.2019); and the MT200 error-code list. The three `ENT Support` tips
+are already ingested as text sources.
 
 **Run it as sub-waves by product line**, not as one wave of 103: treadmills 27,
 bikes 32, ellipticals 17, rowers 10, climbers/steppers 10, odds 7.
@@ -88,8 +119,8 @@ service manuals for a dozen **Spirit medical** machines by SKU (4.0T 740885,
 8.5R). The 7.0T is 99.8% and the 7.5S 96.9% identical to their Spirit-folder
 twins; the **4.0T is 87.7% — a newer revision (`ST8700A-ST026-01`) the Spirit
 folder does not have.** Meanwhile the Spirit service folder holds Xterra
-machines: ERG160, ERG180, SB600, AIR650. **Take the brand from the document,
-never from the folder.**
+machines: SB600, ERG160, ERG180, ERG800W, ERG-750W, and an AIR650 note. **Take
+the brand from the document, never from the folder.**
 
 Also: `Rowers/ERG750/ERG750W_OM_20251112.pdf` in the Spirit owner's folder is an
 XTERRA rower, held back from the Spirit waves for this reason.
@@ -108,9 +139,11 @@ generations. Do not guess them.
 This is the method that has held for eighteen waves. It is in the memory notes
 too, but it is repeated here so a fresh session does not have to rediscover it.
 
-1. **Survey and cluster before ingesting.** Hash every PDF (`sha256`) and check
-   `sources/manifest.yaml`; then cluster the rest on **native PDF text** at 95%
-   or higher. Different machines share one template at 92-94%, so use a
+1. **Survey and cluster before ingesting.** Check `sources/manifest.yaml` for
+   what is already in — but its `sha256` is **inconsistent**: 240 entries hash
+   the PDF, 116 hash the source's own `text.md`, 9 neither. Hash both, and fall
+   back to filename plus 95%+ text overlap. Then cluster the rest on **native
+   PDF text** at 95% or higher. Different machines share one template at 92-94%, so use a
    model-name guard: two files whose names differ never merge. Keep the fullest
    file per document.
 2. **Prove every model id from the document.** Back cover revision stamp, native
@@ -164,6 +197,9 @@ Kept short. Each one is now a rule in `CLAUDE.md` or in this file.
   "emergency dismount" printed where the layer says "emergency escape".
 - **A shifted font encoding that looks like real text** (`&RXQWHU3ODFDUG`) —
   a new failure mode alongside flattened images and ghost layers.
+- **Dyaco service manuals carry no Spirit back-cover stamp** and almost never a
+  printed date. Their year comes from the cover — "(2020)", "(2023)" — the
+  factory-code suffix (an `A` suffix means 2023), the SKU, or the SKU table.
 - **The SKU database is `CustService` on the Spirit Server for every brand.**
   An earlier note pointed Sole lookups at Azure; that was wrong and cost a
   round trip.
