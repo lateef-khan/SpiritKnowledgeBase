@@ -7,6 +7,8 @@ from kb.config import KbConfig
 
 BATCH_SIZE = 100
 API_KEY_VARIABLE = "OPENAI_API_KEY"
+# text-embedding-3-small refuses a single input over this many tokens.
+MAX_INPUT_TOKENS = 8192
 
 
 class EmbedError(Exception):
@@ -50,6 +52,17 @@ class OpenAIEmbedder:
                     )
                 vectors.append(vector)
         return vectors
+
+
+def count_tokens(text: str, model: str) -> int:
+    """Count tokens the way the embedding model will.
+
+    tiktoken fetches the model's token table on first use and caches it, so a
+    fresh machine needs the network once.
+    """
+    import tiktoken
+
+    return len(tiktoken.encoding_for_model(model).encode(text))
 
 
 def build_embedder(config: KbConfig) -> OpenAIEmbedder:

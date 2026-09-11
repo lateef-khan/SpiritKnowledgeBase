@@ -275,6 +275,15 @@ kb vocab
 Fix every lint problem it reports, then run it again. Do not open a PR while it
 fails.
 
+**`too-long`** means the card's title, question, asked_as, keywords and body
+together exceed the 8192 tokens the embedding model accepts, so `kb sync` would
+fail after merge. A shared card gets there by accretion: each wave appends a
+per-manual section restating the rule. Fix it by compacting, not splitting by
+document — turn the per-book prose into one table (book, wording, figure,
+pointer card) and keep every quote, figure, card pointer and absence. On
+2026-09-11 that took the grounding card from 8734 tokens to 5779 with nothing
+lost. When you extend a card, add a table row, not a section.
+
 `kb vocab`'s `undeclared_facet_values` block lists every facet value your cards
 use that `kb.yaml` does not declare. Paste it into the PR body verbatim — it is
 the only mechanical record of what you invented, and a human decides whether to
