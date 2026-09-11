@@ -3,8 +3,9 @@ id: ce900-2025-console-engineering-mode-unit-type
 title: The nine-item engineering menu that ends in a Unit Type setting for Bike or
   Elliptical
 kind: procedure
-question: How do I get into engineering mode on a Spirit ce900-2025 elliptical or
-  a Spirit cr900-2018, cu900-2018, cr900-2025 or cu900-2025 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit ce900-2021 or ce900-2025
+  elliptical or a Spirit cr900-2018, cu900-2018, cr900-2025 or cu900-2025 bike, and
+  what is in it?
 asked_as:
 - how do i get into engineering mode on the ce900
 - how do i switch the elliptical console to metric
@@ -27,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce900-2021
   - ce900-2025
   - cr900-2018
   - cr900-2025
@@ -45,7 +47,8 @@ source:
   locator: p. 29, ENGINEERING MODE MENU. CR900-2018 service manual (SR8800-SB008)
     MAINTENANCE MODE MENU, PDF p. 30 (printed 30), text.md lines 435-449; CU900-2018
     service manual (SU8800-SB008) PDF p. 31 (printed 31), lines 497-519, word for
-    word
+    word; CE900 (SE8800-SE026) service manual MAINTENANCE MODE MENU, PDF p. 31 (printed
+    31), text.md lines 511-525
   extracted_at: '2026-09-09'
 ---
 
@@ -121,3 +124,5 @@ same machine differ in that word and in nothing else.
 **Their Part Replacement Guide also carries an empty console section.** Its "4. Electronic Console"
 heading has "4-1 Basic Functions - Refer to the product manual for the function introduction section"
 and "4-2 Maintenance Mode" with nothing under it - the menu is printed only on the page cited above.
+
+**The CE900-2021's own service manual prints this menu**, on the page after General Maintenance and headed MAINTENANCE MODE MENU: pedal the elliptical, hold Start, Stop and Enter for about 5 seconds until the Message Center displays Maintenance Mode, then the same nine items in the same order - Key Test, Display Test, the **20-minute** Sleep Mode, Odometer Reset, Units, Speaker, Brake Test, Sensor Test and Unit Type (Bike or Elliptical). So this card now covers the **ce900-2021** as well; the absence recorded above is the 2021 owner's manual's alone, and that book stays the one CE900 document with no menu. **That service manual's Part Replacement Guide carries an empty console section too** - "4. Console Settings, 4.1 Basic Functions, 4.2 Engineering Model" with nothing under any of the three headings, exactly as the 2018 bike books do.

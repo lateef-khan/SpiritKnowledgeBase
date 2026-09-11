@@ -3,8 +3,9 @@ id: spirit-lcd-displays-dim-or-incomplete
 title: The display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
 question: Why are display segments missing on a Spirit CT800-2016 or CT850-2016 treadmill,
-  an XT 2015 or 2023 treadmill, a CR800, CU800 or residential XB bike, CRS800S-2024
-  stepper or CVC800 climber?
+  an XT 2015 or 2023 treadmill, a CE850-2016, XE895-2016, XE195-2016, XE295-2016,
+  XE395-2016, XE395ENT-2021, XE795-2016, XE795-2023 or XG400-2016 elliptical, a CR800,
+  CU800 or residential XB bike, CRS800S-2024 stepper or CVC800 climber?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -23,6 +24,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce850-2016
   - cr800-2021
   - cr800-2024
   - crs800s-2024
@@ -38,6 +40,14 @@ facets:
   - xbr95-2016
   - xbu55-2016
   - xbu55ent-2021
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
+  - xe395ent-2021
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
+  - xg400-2016
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -83,7 +93,20 @@ source:
     (cu800-2021) service manual 7-5 Troubleshooting procedure matrix, PDF p. 27 (printed
     26), text.md lines 420-451; CR800 2020-book (cr800-2021) service manual 7-5 Troubleshooting
     procedure matrix, PDF p. 27 (printed 26), text.md lines 398-429; CU800 2012 (XU878)
-    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573'
+    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573;
+    CE850 2016 (XE898-SE011) service manual 8-7 Troubleshooting procedure matrix,
+    PDF p. 56-57, text.md lines 973-1029; XE895 2016 (XE895-SE022) service manual
+    8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029; XE195
+    2016 (XE509S-SE021-01) service manual Troubleshooting procedure matrix, PDF p.
+    42, text.md lines 652-685; XE295 2016 (XE519S-SE020-01) service manual Troubleshooting
+    procedure matrix, PDF p. 42, text.md lines 653-686; XE395 2016 (XE539S-SE019-01)
+    service manual Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 966-1027;
+    XE395ENT 2021 (XE539S-SE025-01) service manual Troubleshooting procedure matrix,
+    PDF p. 46-47, text.md lines 656-709; XE795 2016 (XE815-SE024-01) service manual
+    Troubleshooting procedure matrix, PDF p. 44, text.md lines 639-671; XE795 2023
+    (XE815A-SE048) service manual 8.4 Troubleshooting procedure matrix, PDF p. 18,
+    text.md lines 322-352; XG400 2016 (SE551-SE023-01) service manual Troubleshooting
+    procedure matrix, PDF p. 40, text.md lines 595-628'
   extracted_at: '2026-09-08'
 ---
 
@@ -116,3 +139,5 @@ The CE800 2024 and CE850 2024 ellipticals and the CS800 2024 stepper print the L
 **Ten more service manuals print this one-line row word for word** - `LCD displays not bright, incomplete, or imperfect / LCD displays are broken / Replace with new console` - the 2015 and 2023 XT185 to XT685 and the CT800 2016. The LED and TFT versions are on `ct850-2020-led-displays-dim-or-incomplete` and `cu900ent-tft-displays-not-bright`.
 
 **Nine bike service manuals print this one-line row.** The XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021 and XBU55ENT 2021 print it word for word about an LCD. The CU800 2020-book (`cu800-2021`), the CR800 2020-book (`cr800-2021`) and the CU800 2012 print it the way the 2024 bikes do - `LED displays not bright, incomplete or imperfect` as the condition, `LCD displays are broken` as the reason, `Replace with new console` as the fix - so the noun mix described above is a decade old, not a 2024 slip.
+
+**Nine elliptical service manuals print this one-line row word for word about an LCD** - `LCD displays not bright, incomplete or imperfect / LCD displays are broken / Replace with new console`: the CE850 2016 and its residential twin the XE895 2016, the XE195, XE295, XE395, XE795 and XG400 2016, the XE395ENT 2021 (whose console is a TFT touch panel, but whose matrix keeps the LCD wording) and the XE795 2023. The CE800 2016, CE800 (2020), CE850 (2020) and CE900 print the LED wording (`ct850-2020-led-displays-dim-or-incomplete`); the CE900ENT and CE1000ENT 2023 the TFT wording (`cu900ent-tft-displays-not-bright`).

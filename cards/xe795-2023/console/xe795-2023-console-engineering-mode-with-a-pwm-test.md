@@ -1,8 +1,10 @@
 ---
 id: xe795-2023-console-engineering-mode-with-a-pwm-test
-title: The engineering menu with a fifteen-minute Sleep Mode and a PWM test of the brake resistance
+title: The engineering menu with a fifteen-minute Sleep Mode and a PWM test of the
+  brake resistance
 kind: procedure
-question: How do I get into engineering mode on a Spirit xe795-2023 elliptical and what is in it?
+question: How do I get into engineering mode on a Spirit xe795-2023 elliptical and
+  what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i test the brake on my elliptical
@@ -31,11 +33,13 @@ facets:
   model_number:
   - '795023'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xe795-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-as-the-service-manual-prints-it
 see_also:
 - xe795-2021-console-engineering-mode-with-a-da-test
 - xe395-2023-console-engineering-mode-with-a-child-lock
 - spirit-xe795-console-power-up-by-pedalling
+- xe795-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-as-the-service-manual-prints-it
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
   locator: p. 37, ENGINEERING MODE MENU
@@ -72,3 +76,5 @@ Test**; the description - "tests the brake resistance" - is identical. See
 `xe795-2021-console-engineering-mode-with-a-da-test`.
 
 **Fifteen minutes, not twenty.** Both 2023 machines print 15 where every earlier XE printed 20.
+
+**The service manual for this machine prints the menu without the Sleep Mode.** Its 8.3 Maintenance Menu (PDF p. 17) lists A. Key Test, B. Display Test, C. Functions and E. Exit, with Functions running ODO Reset, Units, Pause Mode, Beep and PWM test - five entries, no sleep, no item D (`xe795-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-as-the-service-manual-prints-it`). Neither document mentions the other.

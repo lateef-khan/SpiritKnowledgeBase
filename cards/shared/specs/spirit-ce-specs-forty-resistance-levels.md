@@ -72,7 +72,11 @@ source:
     p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p. 13, CU900-2025 p. 14,
     CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans; and
     on the 2024 New Black Units reissue CE800-2024, CR800-2024 and CU800-2024, each
-    printed p. 15 (PDF p. 17)'
+    printed p. 15 (PDF p. 17). Service manuals: CE800-2021 PDF p. 14 (text.md lines
+    230-260), CE900-2021 PDF p. 14 (208-242) and XE795-2023 PDF p. 7 (112-151) reprint
+    the paragraph; the CE800-2016 (PDF p. 15, 264-294) and XE795-2016 (PDF p. 18,
+    284-314) service manuals print a Function page with LEVEL preset value 0 to 20
+    instead, and are not on this card'
   extracted_at: '2026-09-09'
 ---
 
@@ -133,6 +137,22 @@ XE395s, top out at 20 - see `spirit-ce850-specs-twenty-resistance-levels`. The p
 otherwise word for word the same, so a search on the wording will return both.
 **The XE395 and the XE795 sit in the same residential range and differ by half the
 scale**, so confirm which model is in front of you.
+
+## What the service manuals print
+
+The CE800-2021, CE900-2021 and XE795-2023 service manuals reprint the 40-level
+paragraph - the CE800 and CE900 books with the clean bands of ten and "10 rows of
+lights", the XE795-2023 book with the same botched band list as its owner's manual.
+
+**The two 2016-generation service manuals print 20, not 40.** The CE800-2016 book
+(cover code XE890B-AE10M) and the XE795-2016 book (XE815-SE024) have no level
+paragraph; their console Function pages read *LEVEL - Display the ... position from 0
+to 20. LEVEL preset value is 0 to 20* - the same boilerplate page as the 20-level XE
+books, the CE800's even saying "incline position" on a machine with no incline. No
+owner's manual for a 2016 CE800 or XE795 is in the repository to settle it, so neither
+`ce800-2016` nor `xe795-2016` is on this card or on the 20-level card; quote their
+service manuals' 0-20 with that caveat, and do not carry the 2018-2023 XE795's 40 back
+onto the 2016 machine on the strength of the model name.
 
 **The CE800ENT is not covered by this card.** Neither of its owner's manuals -
 the earlier printing or the October 2024 one - ever states a level count, and its

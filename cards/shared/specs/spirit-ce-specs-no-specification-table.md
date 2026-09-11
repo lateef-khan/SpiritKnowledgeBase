@@ -1,7 +1,7 @@
 ---
 id: spirit-ce-specs-no-specification-table
-title: No specification table in thirteen commercial elliptical owner's manuals, and
-  the figures printed instead
+title: No specification table in thirteen commercial elliptical owner's manuals or
+  seven service manuals, and the figures printed instead
 kind: fact
 question: Where are the dimensions, machine weight, stride length, flywheel weight
   and power rating for a Spirit commercial elliptical trainer?
@@ -27,7 +27,9 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - ce1000ent-2023
   - ce800-2013
+  - ce800-2016
   - ce800-2021
   - ce800-2023
   - ce800-2024
@@ -39,6 +41,7 @@ facets:
   - ce850-2024
   - ce900-2021
   - ce900-2025
+  - ce900ent
   - ces880-2025
   section: specs
   code: '*'
@@ -56,12 +59,27 @@ see_also:
 - ce800ent-outlines-part-names
 - spirit-ce-2024-specs-brake-and-resistance-unit
 - ce800-2024-specs-parts-list
+- spirit-elliptical-specs-console-display-type-by-service-manual
+- spirit-ce850-specs-tension-motor-working-voltage-dc-4-0-to-6-0-v
+- spirit-ce850-xe895-specs-stride-motor-115-v-ac-four-wires-and-position-sensor
+- ce1000ent-2023-specs-power-adapter-100-w-24-v-5-a
+- ce900ent-specs-ac-adapter-fsp100-rtaan2-24-v-4-17-a
+- spirit-elliptical-specs-drive-belt-tension-figure-by-service-manual
+- spirit-elliptical-specs-motor-controller-fuse-5-a
+- spirit-elliptical-specs-parts-which-service-manuals-print-a-parts-list
+- ce1000ent-2023-specs-outline-numbered-part-names
+- spirit-ce900-specs-outline-part-names
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: 'Table of Contents p. 1 and whole document; the same absence was checked
     in all thirteen manuals - CE800-2013, CE800-2023, CE800-2024, CE800ENT, CE800ENT-2024,
     CE850-2016, CE850-2020, CE850-2022, CE850-2024, CE900-2021, CE900-2025 and CES880-2025,
-    each at its own Table of Contents and throughout'
+    each at its own Table of Contents and throughout. Service manuals, checked
+    2026-09-11 in the text layer and OCR supplements of all seven: CE800-2016,
+    CE800-2021, CE850-2016, CE850-2020, CE900-2021, CE900ENT and CE1000ENT-2023 - no
+    contents entry and no page for specifications or dimensions; the only pound
+    figures are the 550-600 lb bolt torques of the assembly chapters and the 150 lb
+    default user weight of the CE850-2016 console pages'
   extracted_at: '2026-09-09'
 ---
 
@@ -103,6 +121,28 @@ manual states, and it is not an answer for a home machine.
 | Power supply | built-in generator on seven machines; a nominal 110-volt / 5 amp dedicated circuit on five; **120-volt / 15 amp on the CE800ENT-2024 alone** | safety |
 | Certifications | **CE900-2025 only** - FCC part 15 and UL | safety |
 | Exploded view and parts list | ten books; **none in CE800-2013, CE850-2016 or CE900-2021** | assembly and specs |
+
+## The seven service manuals print no specification table either
+
+The CE800-2016, CE800-2021, CE850-2016, CE850-2020, CE900-2021, CE900ENT and
+CE1000ENT-2023 service manuals were checked the same way (the CE800ENT's is on
+`ce800ent-outlines-part-names`). **None has a Specifications chapter; none prints a
+dimension, a machine weight, a user weight limit or a flywheel weight.** Their
+Outlines chapters are part-name drawings without measurements
+(`ce1000ent-2023-specs-outline-numbered-part-names`, `spirit-ce900-specs-outline-part-names`).
+
+What the service manuals do print, and where it lives:
+
+| Figure | Where it is printed | Card |
+|---|---|---|
+| Console display type and size | LED on the CE800s, CE850-2020 and CE900-2021; LCD on the CE850-2016; 10.1" TFT on the CE900ENT; 15.6" TFT on the CE1000ENT | `spirit-elliptical-specs-console-display-type-by-service-manual` |
+| Power supply | generator on the CE800s and CE900-2021 (no figure printed); mains inlet with a 5 A or 10 A fuse on the CE850s; adapter FSP100-RTAAN2, 24 V / 4.17 A on the CE900ENT; 100 W adapter, 24 V / 5 A on the CE1000ENT | `ce900ent-specs-ac-adapter-fsp100-rtaan2-24-v-4-17-a`, `ce1000ent-2023-specs-power-adapter-100-w-24-v-5-a`, `spirit-elliptical-specs-motor-controller-fuse-5-a` |
+| Tension motor working voltage | DC 4.0-6.0 V, CE850 books only | `spirit-ce850-specs-tension-motor-working-voltage-dc-4-0-to-6-0-v` |
+| Stride motor | 115 V AC (or 220 V in the 2020 book), four wires and a 3-pin sensor | `spirit-ce850-xe895-specs-stride-motor-115-v-ac-four-wires-and-position-sensor` |
+| Stride length | 18 to 24 in 0.5 steps on the CE850-2016 Function page | `spirit-ce850-specs-stride-length-18-to-24-inches` |
+| Belt tension | 190 Hz (CE800-2016, CE850-2016), 185-210 (CE800-2021), 280-310 N (CE900, CE900ENT, CE1000ENT), none (CE850-2020) | `spirit-elliptical-specs-drive-belt-tension-figure-by-service-manual` |
+| Resistance levels | 40 in the CE800-2021 and CE900-2021 books, 20 in the CE850s; the CE800-2016 prints a 0-20 Function page and the ENT books none | the two level cards above |
+| Parts lists | none in any of the seven; the CE900 books print a 33-row component-description list | `spirit-elliptical-specs-parts-which-service-manuals-print-a-parts-list` |
 
 ## Two traps inside the CE800 name
 

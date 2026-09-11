@@ -1,8 +1,10 @@
 ---
 id: xe795-2023-console-direct-resistance-buttons
-title: Direct buttons jump straight to a resistance level, and there is no incline to set
+title: Direct buttons jump straight to a resistance level, and there is no incline
+  to set
 kind: fact
-question: How do I jump straight to a resistance level on a Spirit XE795-2023 elliptical or a 2023 XB bike?
+question: How do I jump straight to a resistance level on a Spirit XE795-2023 elliptical
+  or a 2023 XB bike?
 asked_as:
 - how do i change the resistance quickly on my elliptical
 - does my elliptical have an incline
@@ -34,9 +36,15 @@ see_also:
 - xe395-2023-console-direct-resistance-and-incline-buttons
 - xe795-2023-console-overview-and-workout-mode-call-outs
 - spirit-xe795-console-quick-start-with-forty-resistance-levels
+- xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
-  locator: p. 23, FEATURES - CONTINUED / Direct Resistance Buttons; console drawing p. 19; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, all FEATURES - CONTINUED / Direct Resistance Buttons
+  locator: p. 23, FEATURES - CONTINUED / Direct Resistance Buttons; console drawing
+    p. 19; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, all
+    FEATURES - CONTINUED / Direct Resistance Buttons; XE795-2023 (XE815A-SE048) service
+    manual 4.2 Basic Function, Direct Resistance Buttons, PDF p. 8 (printed 8), text.md
+    lines 174-177, and the console drawing on PDF p. 6, read from the OCR supplement
+    for page 6 and a 100 dpi render
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +81,5 @@ one 2023 console feature it shares in full with its three stablemates.
 
 **No 2016-2021 residential bike has them.** The XBR25, XBR55, XBU55 and XBR95 of those printings set
 resistance by holding **Level Up/Down**, and their console drawings label no direct level buttons.
+
+**The service manual's console drawing answers the question the owner's manual leaves open.** Its direct level buttons are marked **2, 6, 10, 14, 18, 22, 26, 30, 34, 40** under a LEVEL label - ten keys, one for every fourth level of the forty - beside the FAN, LEVEL -, START, STOP, LEVEL +, ENTER and PROGRAM keys. Its paragraph is the owner's manual's word for word except that it says "the Recumbent Elliptical will automatically adjust"; the book was assembled from a bike's (`xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual`).

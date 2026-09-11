@@ -30,13 +30,17 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ce-programs-custom-twenty-four-segments
 see_also:
+- ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys
+- ce800-2016-programs-ten-numbered-program-keys-with-fitness-test-and-constant-power
 - xe550-2005-programs-heart-rate-auto-pilot
 - spirit-ce-programs-custom-twenty-four-segments
 - ce800ent-programs-custom-twenty-segments-on-screen
 - spirit-ce-programs-manual-mode
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
-  locator: 'CE850 2016 printed p. 26-27; CE800 2013 p. 19'
+  locator: 'CE850 2016 printed p. 26-27; CE800 2013 p. 19. CE850 2016 service manual, Function Button Locations
+    drawing, PDF p. 20, text.md lines 392-413, and Quick Start spec 4.2, p. 16, line 303; CE800 2016 service manual
+    END MODE 6.2.2, PDF p. 14, lines 246-247'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +80,11 @@ defines it on printed page 33: at any time, during any program, pressing Auto-pi
 console to heart rate control and holds your heart rate at the level it was at - see
 `xe550-2005-programs-heart-rate-auto-pilot`. **That is the XE550's behaviour, not a statement about
 the CE800 or CE850**, whose own manuals never say how their version works.
+
+**The 2016 service manuals add two things the owner's manuals do not.** The CE850 2016 service
+manual's console drawing labels **two** Custom keys - key 7 CUSTOM 1 and key 8 CUSTOM 2 - and its Quick
+Start spec names "CUSTOM1, CUSTOM 2", where step 1 above says "the Custom key". Neither book says how
+the second differs from the first; see `ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys`. The CE800 2016 service manual (a different
+machine, not on this card) prints the save-on-finish half of this feature as a message: "PROGRAM END
+PRESS START TO REPEAT OR STOP TO END OR USER KEY TO SAVE", with the USER key saving "in CUSTOM USER";
+its face has one key, labelled CUSTOM, and it prints no segment count - see `ce800-2016-programs-ten-numbered-program-keys-with-fitness-test-and-constant-power`.

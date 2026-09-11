@@ -5,8 +5,9 @@ kind: procedure
 question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit
   CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT
   treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential
-  machine, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, or
-  a Spirit CVC800 climber, if there is no grounded outlet?
+  machine, a 2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a
+  Spirit XE795-2023 elliptical, a Spirit XBR or XBU residential bike of the 2016 or
+  2023 generation, or a Spirit CS800, CVC800, XS895 or 8.5S-Fit climber, and how?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -52,10 +53,17 @@ facets:
   - xbr95-2023
   - xbu55-2016
   - xbu55-2023
+  - xe195-2016
+  - xe295-2016
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395ent-2021
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2021
   - xs895-2018
   - xs895-2021
@@ -84,6 +92,7 @@ see_also:
 - xt-2015-safety-instructions-list
 - spirit-2026t-safety-outlet-and-circuit-requirement
 - spirit-xe-safety-outlet-115-volt-15-amp
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the
@@ -108,7 +117,21 @@ source:
     7.1-7.3, PDF p. 11 (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030)
     service manual: section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203.
     XBR95-2023 (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed
-    13 of 28); text.md lines 191-223.'
+    13 of 28); text.md lines 191-223. Nine Spirit elliptical service manuals print
+    the paragraph under 7.3: CE850-2016 (XE898-SE011) service manual: 7 Product Safety
+    Instructions, PDF p. 37 (printed 37); text.md lines 606-635. CE850 (2020) service
+    manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md lines 505-533.
+    XE195-2016 (XE509S-SE021-01) service manual: 7 Product Safety Instructions, PDF
+    p. 32 (printed 32); text.md lines 464-492. XE295-2016 (XE519S-SE020-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 472-498.
+    XE395-2016 (XE539S-SE019-01) service manual: 7 Product Safety Instructions, PDF
+    p. 38 (printed 38); text.md lines 601-627. XE795-2016 (XE815-SE024-01) service
+    manual: 7 Product Safety Instructions, PDF p. 35 (printed 35); text.md lines 477-505.
+    XE795-2023 (XE815A-SE048) service manual: 7 Product Safety Instructions, PDF p.
+    14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
+    (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
+    30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -275,3 +298,19 @@ chapter does.
 grounding page at all (`spirit-xb-2023-safety-grounding-instructions-not-printed`) - so an XBR55 or
 XBU55 owner has this procedure only from the service manual. The two XBR95 books print it on a
 self-powered machine with no plug to adapt (`spirit-bike-safety-no-mains-outlet-needed`).
+
+## Nine Spirit elliptical service manuals print the paragraph
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals print it word for word** under 7.3, with the
+plug and adapter drawing beside it - the 2016 and 2020 books spelling the tab `earlug` and the 2023
+book `earplugs`. The same three conditions apply: temporary use only, the tab connected to a permanent
+ground, and the adapter held in place by a metal screw. All nine also print the safety bullet `Do not
+attempt to disable the grounded plug by using improper adapters`, so they forbid and permit an
+adapter in two places exactly as the CT850 chapter does.
+
+**That overturns the statement above for four of them.** The XE195, XE295 and XE795 owner's manuals
+mention no adapter; the XE195-2016, XE295-2016, XE795-2016 and XE795-2023 service manuals print the
+permission in full. The XG400-2016 service manual prints it too, two printings before the
+XG400-2021 owner's manual gained the page. The two XE795 books print it on a self-powered machine
+with no plug to adapt (`xe795-2023-safety-outlet-220-volt-15-amp`).

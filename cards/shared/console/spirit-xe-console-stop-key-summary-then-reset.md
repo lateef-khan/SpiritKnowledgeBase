@@ -70,7 +70,9 @@ source:
     16, XBR55/XBU55 2019 and 2021 p. 18, all Basic Information; XBR25 2023 p. 19,
     XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES. XBR55-2023 service manual
     BASIC INFORMATION, PDF pp. 5-6 (printed 5-6), text.md lines 88-99; XBU55-2023
-    PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96
+    PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96; XE795-2023 (XE815A-SE048)
+    service manual 4.1 Basic Operation, Basic Information, PDF p. 7 (printed 7), text.md
+    lines 122-127
   extracted_at: '2026-09-09'
 ---
 
@@ -128,3 +130,5 @@ resets, and during data entry the key steps back a screen.
 **The three 2023 bike service manuals print the Stop paragraph word for word**, including the third press
 or three-second hold that resets and the Workout Summary of Total time, Avg. Speed, Avg. Watts and
 Avg. HR.
+
+**The XE795-2023 service manual prints the Stop key paragraph without the reset.** Its Basic Information row has the five-minute pause, Start to resume, and Stop twice ending on the Workout Summary (Total time, Avg. Speed, Avg. Power, Avg. HR, total Laps) - and stops there, with no three-second hold, no third press and no Previous Screen function. The owner's manual for the same machine prints all four jobs.

@@ -2,7 +2,7 @@
 id: xe795-2021-programs-seven-presets-including-calories-and-fusion
 title: Seven preset profiles, adding Calories and Fusion to the usual five, on a console the callout says has ten programs
 kind: fact
-question: How many programs does a Spirit XE795 elliptical have, in the 2018 or the 2021 printing, and what are they?
+question: How many programs does a Spirit XE795 elliptical have, in the 2016, 2018 or 2021 printing, and what are they?
 asked_as:
 - how many programs does my elliptical have
 - what is the fusion program on the xe795
@@ -25,6 +25,7 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe795-2016
   - xe795-2018
   - xe795-2021
   section: programs
@@ -37,9 +38,12 @@ see_also:
 - spirit-ce-programs-fat-burn-profile
 - xe795-2021-programs-calories-program-counts-down-to-a-calorie-goal
 - spirit-xe-programs-fusion-alternates-cardio-intervals-with-dumbbell-work
+- spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: 'XE795 2021 printed p. 28-30, feature callout p. 16; XE795 2018 p. 28-30, feature callout p. 15'
+  locator: 'XE795 2021 printed p. 28-30, feature callout p. 16; XE795 2018 p. 28-30, feature callout p. 15. XE795 2016
+    service manual (XE815-SE024), Function Button Locations drawing, PDF p. 20, text.md lines 332-357 (key labels
+    read from a 400 dpi render), and Quick Start spec 4.2, p. 16, line 249'
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +78,14 @@ callout page 15). It carries the same self-contradicting opening - "has **seven*
 ... These **five** programs have factory preset work level profiles" - the same "Ten innovative
 programs" callout over a key row of twelve, and the same Calories description copied from Fat Burn.
 The XE795 is the only Spirit residential elliptical of either year with these two extra presets.
+
+**The XE795 2016 service manual draws the seven preset keys, but on a strip of ten, not twelve.**
+Its Function Button Locations drawing reads MANUAL, HILL, FAT BURN, CARDIO, STRENGTH, INTERVAL,
+CALORIES, FUSION, then one key labelled **USER 1-2** and one labelled **HR 1-2** - the two User
+programs share a key and the two heart rate programs share a key, where the 2018 and 2021 owner's
+manuals draw USER 1, USER 2, HR 1 and HR 2 separately. Its Quick Start spec names the lineup
+"MANUAL, PROGRAM, USER1~2, HRC1~2". The caption beside the drawing, "(Manual, Hill, Fat Burn,
+Strength, Interval, Calories, Fusion, 2 User, 2HR)", leaves Cardio out - see
+`spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons`. The service
+manual prints no preset count, no "Ten innovative programs" callout and no descriptions; Calories
+and Fusion are key labels there and nothing more.

@@ -3,8 +3,10 @@ id: spirit-never-use-a-gfci-wall-outlet
 title: Never use a GFCI wall outlet with this machine
 kind: policy
 question: Can a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010
-  treadmill, a 2026 Spirit 4.0T treadmill, a Spirit XBR or XBU residential bike of
-  the 2016 or 2023 generation, or a Spirit CVC800 climber be plugged into a GFCI outlet?
+  treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 commercial elliptical, a
+  2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023
+  elliptical, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation,
+  or a Spirit CVC800 climber be plugged into a GFCI outlet?
 asked_as:
 - can i plug the treadmill into a gfci outlet
 - why does the gfci keep tripping with my machine
@@ -26,6 +28,8 @@ facets:
   applies_to:
   - 40t-2026
   - ce800ent-2024
+  - ce850-2016
+  - ce850-2020
   - cr800ent-2024
   - ct800-2012
   - ct800-2016
@@ -46,6 +50,13 @@ facets:
   - xbr95-2023
   - xbu55-2016
   - xbu55-2023
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
+  - xg400-2016
   - xt685-2010
   section: safety
   code: '*'
@@ -60,6 +71,8 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
 - spirit-bike-safety-no-mains-outlet-needed
+- xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-ce-safety-no-mains-outlet-needed
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
@@ -82,7 +95,22 @@ source:
     (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual:
     section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023
     (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28);
-    text.md lines 191-223.'
+    text.md lines 191-223. Nine Spirit elliptical service manuals print the prohibition
+    as the first bullet of 7.2 Important Electrical Instructions: CE850-2016 (XE898-SE011)
+    service manual: 7 Product Safety Instructions, PDF p. 37 (printed 37); text.md
+    lines 606-635. CE850 (2020) service manual: 7 Product Safety Instructions, PDF
+    p. 30 (printed 30); text.md lines 505-533. XE195-2016 (XE509S-SE021-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 464-492.
+    XE295-2016 (XE519S-SE020-01) service manual: 7 Product Safety Instructions, PDF
+    p. 32 (printed 32); text.md lines 472-498. XE395-2016 (XE539S-SE019-01) service
+    manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md lines 601-627.
+    XE795-2016 (XE815-SE024-01) service manual: 7 Product Safety Instructions, PDF
+    p. 35 (printed 35); text.md lines 477-505. XE795-2023 (XE815A-SE048) service manual:
+    7 Product Safety Instructions, PDF p. 14 (printed 14); text.md lines 227-262,
+    OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
+    Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
+    (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
+    38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -190,3 +218,25 @@ it on a self-powered machine that never sees a wall outlet
 XBU55-2023 owners hold a book that says avoid AFCI/GFCI breakers if possible and names breakers
 that passed testing (`xt-2023-safety-afci-gfci-nuisance-tripping`), and a service manual that says
 never. Say both, and which book each comes from.
+
+## Nine Spirit elliptical service manuals print the prohibition
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals print it word for word** as the first bullet
+of 7.2 Important Electrical Instructions:
+
+> Never use a ground fault circuit interrupt (GFCI) wall outlet with this elliptical. As with any
+> appliance with a large motor, the GFCI will trip often.
+
+**Only the CE850, XE895 and XE395 books describe a machine with a mains motor at all** - a 115-volt
+or 120-volt AC stride or incline motor; the XE195, XE295 and XG400 set their resistance with a DC
+tension motor and take their power through a DC plug on the chain cover, and the two XE795 books print the sentence on a self-powered
+machine that never sees a wall outlet (`xe795-2023-safety-outlet-220-volt-15-amp`). The reason is
+treadmill boilerplate; the instruction itself is printed for all nine.
+
+**The owner's manuals of these machines do not print it.** The three CE850 owner's manuals and the
+2018-2021 XE owner's manuals have no GFCI sentence, and the XE395-2023 book gives the opposite
+advice - avoid AFCI/GFCI breakers if possible, with a list of breakers that passed testing
+(`xt-2023-safety-afci-gfci-nuisance-tripping`). Say both, and which book each comes from. The
+CE800, CE900, CE900ENT, CE1000ENT and XE395ENT service manuals print no GFCI sentence
+(`spirit-ce-safety-no-mains-outlet-needed`).

@@ -1,8 +1,10 @@
 ---
 id: spirit-xe795-console-quick-start-with-forty-resistance-levels
-title: Quick Start counts the time up from zero, with forty resistance levels and a banding the manual contradicts
+title: Quick Start counts the time up from zero, with forty resistance levels and
+  a banding the manual contradicts
 kind: procedure
-question: How do I start a workout without programming anything on a Spirit XE795 elliptical or XBR95 bike?
+question: How do I start a workout without programming anything on a Spirit XE795
+  elliptical or XBR95 bike?
 asked_as:
 - how do i just start pedalling on my xe795
 - how many resistance levels does the xe795 have
@@ -41,7 +43,11 @@ see_also:
 - spirit-xe795-console-power-up-by-pedalling
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 19 Quick Start (the February 19 2021 printing carries the same paragraph); XE795 2023 p. 17 QUICK START; XBR95 2016 and 2018 p. 16, XBR95 2021 p. 17, all Quick Start; XBR95 2023 p. 15, QUICK START
+  locator: XE795 2021 p. 19 Quick Start (the February 19 2021 printing carries the
+    same paragraph); XE795 2023 p. 17 QUICK START; XBR95 2016 and 2018 p. 16, XBR95
+    2021 p. 17, all Quick Start; XBR95 2023 p. 15, QUICK START; XE795-2023 (XE815A-SE048)
+    service manual 4.1 Basic Operation, Quick Start, PDF p. 7 (printed 7), text.md
+    lines 114-121
   extracted_at: '2026-09-09'
 ---
 
@@ -94,3 +100,5 @@ count the Time up from zero and light only the bottom row of the dot matrix at f
 
 **The XBR95 is the only forty-level Spirit residential bike.** The XBR25, XBR55, XBU55 and both ENT
 bikes have 20: `spirit-xe-console-quick-start-with-twenty-resistance-levels`.
+
+**The XE795-2023 service manual prints the Quick Start paragraph with the forty levels banded 1-10, 11-20, 21-30 and 31-40** - "the first 10 levels", "Levels 11-20", "Levels 21-30", "Levels 31-40" - a clean banding that does not repeat the owner's manuals' error. Start Workout on the screen or the START key begins it, and the Level Up/Down keys set the workload.

@@ -2,7 +2,7 @@
 id: ce800ent-cross-bar-replacement
 title: Cross bar and round disk replacement
 kind: procedure
-question: How do I replace the cross bar on a Spirit CE800ENT elliptical?
+question: How do I replace the cross bar on a Spirit CE800 or CE800ENT elliptical?
 asked_as:
 - cross bar replacement on my spirit elliptical
 - how do i remove the round disk on the ce800ent
@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +34,7 @@ see_also:
 - ce800ent-idler-wheel-assembly-replacement
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-6 Cross Bar Replacement, pp. 47-48 (printed 47-48)
+  locator: 'ce800ent: Section 8-6 Cross Bar Replacement, pp. 47-48 (printed 47-48) | ce800-2021: 10-6 Cross Bar Replacement, PDF pp. 46-47; text.md lines 631-651'
   extracted_at: '2026-09-08'
 ---
 
@@ -56,3 +55,5 @@ source:
 The woodruff key note in step 5 is the only orientation the manual calls out in this section: the
 **round head points at the axle**.
 
+**The CE800 (2020) book prints this word for word as 10-6.** The 2017 CE800 (XE890B) book holds the cross bar with a
+`5/16" x 10mm` button head socket bolt and a `1.0T` washer instead of this hex head bolt; it has its own card.

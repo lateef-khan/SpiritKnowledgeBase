@@ -2,7 +2,9 @@
 id: spirit-ce-safety-generator-produces-ac-power
 title: The generator makes AC power while you pedal, so never service a spinning machine
 kind: policy
-question: Is a Spirit CE800 or CE900 elliptical trainer, a Spirit XE795 residential elliptical, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike, live while it is being pedalled?
+question: Is a Spirit CE800 or CE900 elliptical trainer, a Spirit XE795 residential
+  elliptical, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike,
+  live while it is being pedalled?
 asked_as:
 - is the elliptical live while someone is pedalling
 - can i work on the elliptical while the flywheel is turning
@@ -58,18 +60,26 @@ see_also:
 - spirit-bike-safety-no-mains-outlet-needed
 - spirit-bike-safety-instructions-list
 - spirit-bike-2025-safety-instructions-list
+- spirit-ce-safety-no-mains-outlet-needed
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints the same WARNING
-    on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the CE900 2021 manual on
-    page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY page, page 6. Both XE795 2021
-    printings print it on their Important Electrical Instructions page, page 5 - February 19
-    2021 and November 30 2021 Eight Spirit commercial bike owner's manuals print the same
-    WARNING at the head of their electrical page - CR900-2018 and CU900-2018 printed page 3,
-    CR800-2021, CR800-2023 and CU800-2021 printed page 4, CR900-2025 and CU900-2025 on their
-    ELECTRICAL SAFETY & IMPORTANT OPERATION INSTRUCTIONS page, printed page 5, and
-    CU800-2012 on its Important Electrical Instructions page, printed page 3, in both of the
-    scans its source concatenates
+  locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints
+    the same WARNING on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the
+    CE900 2021 manual on page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY
+    page, page 6. Both XE795 2021 printings print it on their Important Electrical
+    Instructions page, page 5 - February 19 2021 and November 30 2021 Eight Spirit
+    commercial bike owner's manuals print the same WARNING at the head of their electrical
+    page - CR900-2018 and CU900-2018 printed page 3, CR800-2021, CR800-2023 and CU800-2021
+    printed page 4, CR900-2025 and CU900-2025 on their ELECTRICAL SAFETY & IMPORTANT
+    OPERATION INSTRUCTIONS page, printed page 5, and CU800-2012 on its Important Electrical
+    Instructions page, printed page 3, in both of the scans its source concatenates.
+    The CE800 (2020) and CE900 (SE8800-SE026) service manuals print no generator warning;
+    their no-outlet sentence is CE800 (2020) 4-2-1 POWER, PDF p. 14 (printed 13),
+    text.md lines 231-236, and CE900 Operation / POWER, PDF p. 14 (printed 14), lines
+    209-214. The XE795-2016 (XE815-SE024-01) and XE795-2023 (XE815A-SE048) service
+    manuals print no generator warning either; their safety chapters are PDF p. 35,
+    lines 477-505, and PDF p. 14, lines 227-262.
   extracted_at: '2026-09-09'
 ---
 
@@ -184,3 +194,15 @@ figure, still no mains plug anywhere in the book
 treadmills and the three touchscreen ENT machines plug into a wall socket; the CSC900 is
 factory-wired to a mains circuit; and the CRW800 rower runs its console on two C batteries and has
 neither a generator nor a supply (`crw800-2024-safety-console-runs-on-two-c-batteries`).
+
+## The service manuals print no such warning
+
+**None of the sixteen Spirit elliptical service manuals prints the spinning-generator WARNING.** The
+CE800 (2020) and CE900 (SE8800-SE026) books say only that the machine `has a built-in generator for
+power and do[es] not need to be plugged into an AC outlet`
+(`spirit-ce-safety-no-mains-outlet-needed`); the CE800-2016 book names a `generator power supply` and
+nothing more. The XE795-2016 and XE795-2023 service manuals go the other way: they print the whole
+plug-in safety chapter - disconnect from the outlet, a 115-volt or 220-volt outlet, GFCI, breaker,
+grounding page - on a machine with no cord (`xe795-2023-safety-outlet-220-volt-15-amp`). So the
+service books give a technician no wait time and no warning at all; the owner's-manual sentence above
+is the only printed statement that a coasting generator is live.

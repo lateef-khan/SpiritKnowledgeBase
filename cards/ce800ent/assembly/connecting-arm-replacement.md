@@ -2,7 +2,7 @@
 id: ce800ent-connecting-arm-replacement
 title: Connecting arm replacement
 kind: procedure
-question: How do I replace the connecting arm and slide wheel on a Spirit CE800ENT
+question: How do I replace the connecting arm and slide wheel on a Spirit CE800 or CE800ENT elliptical?
   elliptical?
 asked_as:
 - connecting arm replacement on my spirit elliptical
@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -38,7 +37,7 @@ see_also:
 - e25-2016-connecting-arm-replacement
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-3 Connecting Arm Replacement, pp. 39-42 (printed 39-42)
+  locator: 'ce800ent: Section 8-3 Connecting Arm Replacement, pp. 39-42 (printed 39-42) | ce800-2021: 10-3 Connecting Arm Replacement, PDF pp. 38-41; text.md lines 542-584'
   extracted_at: '2026-09-08'
 ---
 
@@ -73,3 +72,6 @@ out and the wheel is loose on the axle.
 dropped decimal point for `1.5T`. The step above quotes the manual exactly. Measure the washer you
 took off before you order one.
 
+**The CE800 (2020) book prints this word for word as 10-3, `15T` included**, and there "follow the step of 10-2" is a
+correct reference. **The 2017 CE800 (XE890B) book differs** on two figures - it prints the step-4 washer as
+`5/16" x 23 x 1.5T` and refits the wheel with a wave washer on each side (two, not three) - so it has its own card.

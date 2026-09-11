@@ -36,7 +36,7 @@ not_to_be_confused_with:
 - spirit-cr800ent-cu800ent-specs-parts-electronic-parts-named
 see_also:
 - spirit-residential-bike-specs-gear-motor-or-generator-brake
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-xbr55ent-2021-service-manual
   locator: 'XBR55ENT (XR329-SB013-01): Upper Controllers PDF pp. 5-6 (printed 5-6),

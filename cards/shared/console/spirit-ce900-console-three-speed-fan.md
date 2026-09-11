@@ -41,7 +41,8 @@ source:
   ref: spirit-elliptical-ce900-2021-owners-manual
   locator: CE900 2021 p. 17 NUMBER KEY PAD; CE900 2025 p. 16 FEATURES. CR900-2018
     service manual NUMBER KEY PAD, PDF p. 14 (printed 14), text.md lines 193-194;
-    CU900-2018 service manual PDF p. 15 (printed 15), lines 257-258
+    CU900-2018 service manual PDF p. 15 (printed 15), lines 257-258; CE900 (SE8800-SE026)
+    service manual NUMBER KEY PAD, PDF p. 15 (printed 15), text.md lines 266-267
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +75,5 @@ with no speeds described; the CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 hav
 with an **adjustable fan angle** and no switch is described at all.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same three-speed fan on the key at the upper right, cycling off after the third setting; their Display Board tables also define a four-pin J12 FAN connector.
+
+**The CE900 (SE8800-SE026) service manual prints this paragraph in its Product Operation chapter**, word for word - the key on the upper right, three speeds, off after the third.

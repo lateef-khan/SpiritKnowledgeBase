@@ -2,7 +2,10 @@
 id: xt-2015-safety-extension-cord-14-awg-or-better
 title: Extension cord must be 14AWG or better with only one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015 or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, on a Spirit CE850 or CE800ENT elliptical, on a Spirit XE395-2010 or XE795-2021 residential elliptical, or on a Spirit CU800ENT or CR800ENT commercial bike?
+question: Can I use an extension cord on a Spirit XT185-2015, XT285-2015, XT485-2015
+  or XT685-2015 treadmill, on a Spirit XT485ENT treadmill, on a Spirit CE850 or CE800ENT
+  elliptical, on a Spirit XE395-2010 or XE795-2021 residential elliptical, or on a
+  Spirit CU800ENT or CR800ENT commercial bike?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for my treadmill
@@ -72,15 +75,21 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: page 4, Important Safety Instructions; the XT285 and XT485 manuals print the same line
-    on page 4, the XT685 manual on page 5. The XT485ENT owner's manual prints the same line
-    on its IMPORTANT SAFETY INSTRUCTIONS page, page 5 The four mains-powered Spirit
-    elliptical owner's manuals print the same sentence in the WARNING header of their
-    IMPORTANT SAFETY INSTRUCTIONS page - CE850 2016 page 5, CE850 2020 page 6, CE850 2022
-    page 6, CE800ENT page 4 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print
-    the same capitalised line in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS
-    page, printed page 4, and the CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page,
-    printed page 5 The two Spirit XRW600 rower owner's manuals print the same capitalised sentence under the outlet WARNING on their printed page 5
+  locator: 'page 4, Important Safety Instructions; the XT285 and XT485 manuals print
+    the same line on page 4, the XT685 manual on page 5. The XT485ENT owner''s manual
+    prints the same line on its IMPORTANT SAFETY INSTRUCTIONS page, page 5 The four
+    mains-powered Spirit elliptical owner''s manuals print the same sentence in the
+    WARNING header of their IMPORTANT SAFETY INSTRUCTIONS page - CE850 2016 page 5,
+    CE850 2020 page 6, CE850 2022 page 6, CE800ENT page 4 The CU800ENT-2022 and CR800ENT-2023
+    bike owner''s manuals print the same capitalised line in the WARNING header of
+    their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the CU800ENT-2024
+    manual on its SAFETY INSTRUCTIONS page, printed page 5 The two Spirit XRW600 rower
+    owner''s manuals print the same capitalised sentence under the outlet WARNING
+    on their printed page 5. The CE850-2016 (XE898-SE011) and CE850 (2020) service
+    manuals print 16 AWG instead: CE850-2016 (XE898-SE011) service manual: 7 Product
+    Safety Instructions, PDF p. 37 (printed 37); text.md lines 606-635. CE850 (2020)
+    service manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md
+    lines 505-533.'
   extracted_at: '2026-09-09'
 ---
 
@@ -207,3 +216,12 @@ WARNING on their Important Safety Instructions page:
 The February 2019 and November 2021 printings are identical in this sentence. **No other Spirit
 rower prints an extension-cord rule at all** - the CRW800 air rowers and the two water rowers are
 battery powered and have nothing to plug in.
+
+## The CE850 service manuals say 16 AWG
+
+**The CE850-2016 and CE850 (2020) service manuals print `Do not use an extension cord unless it is a
+16 AWG or better with only one outlet on the end`** in their own safety chapter
+(`spirit-extension-cord-16-awg-or-better`), so both CE850 machines have an owner's manual that says
+14AWG and a service manual that says 16 AWG, and neither book mentions the other. The XE795-2016 and
+XE895-2016 service manuals - earlier SKUs of the XE795 and XE895 on this card - print 16 AWG too.
+Quote the gauge with the book it comes from.

@@ -2,7 +2,8 @@
 id: xe795-2023-console-usb-charging-needs-forty-rpm
 title: USB charging needs at least 40 RPM, because the generator makes the power
 kind: fact
-question: Why does the USB port stop charging on a Spirit XE795-2023 elliptical or XBR95-2023 bike?
+question: Why does the USB port stop charging on a Spirit XE795-2023 elliptical or
+  XBR95-2023 bike?
 asked_as:
 - my phone stops charging on the elliptical
 - usb port not working on my elliptical
@@ -27,14 +28,17 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual
 see_also:
 - spirit-xe-console-usb-port-charges-a-device-but-saves-no-data
 - spirit-xe795-console-power-up-by-pedalling
 - xt-2023-console-usb-charging-port
+- xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
-  locator: p. 23, FEATURES - CONTINUED, the fourth USB note; XBR95 2023 p. 21, the fourth bullet under Charge Portable Devices with USB port
+  locator: p. 23, FEATURES - CONTINUED, the fourth USB note; XBR95 2023 p. 21, the
+    fourth bullet under Charge Portable Devices with USB port
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +69,5 @@ print the same three bullets with no RPM condition. The **XBR25-2023 has no USB 
 
 **40 RPM is the only figure either manual gives.** Neither says what the port does between zero and
 40 RPM beyond not generating enough power.
+
+**The XE795-2023 service manual's operation chapter describes no USB port.** It draws and describes a **wireless charger** on the console instead, with no RPM condition, while its own display-board wiring page labels connector J4 USB CHARGE (`xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual`); the two documents for the same machine disagree about what the charging feature is, and neither mentions the other.

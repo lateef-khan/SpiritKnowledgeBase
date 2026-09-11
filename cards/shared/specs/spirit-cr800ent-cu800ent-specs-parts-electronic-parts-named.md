@@ -36,7 +36,7 @@ not_to_be_confused_with:
 see_also:
 - spirit-bike-specs-generator-brake-or-induction-brake
 - spirit-ct-ent-specs-electronic-parts-and-outline
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-cr800ent-2023-service-manual
   locator: 'CR800ENT: Upper Controllers PDF p. 7 (printed 7), text.md lines 89-108;

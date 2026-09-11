@@ -60,13 +60,23 @@ see_also:
 - xe395-2010-errors-incline-ramp-error-recalibrate
 - xe395-2018-errors-incline-calibration-three-key-hold
 - xe895-2018-errors-stride-calibration-three-key-hold
+- xe395ent-2021-errors-e2-tension-motor-does-not-move
+- xe395ent-2021-errors-e3-incline-vr-out-of-range-or-not-read
+- xe795-2023-errors-eeprom-err-replace-display-board
+- spirit-elliptical-errors-eeprom-err-replace-upper-controller
+- spirit-elliptical-2016-errors-dashes-tension-motor-does-not-move
+- spirit-xe-2007-errors-no-power-to-the-console-adapter-9-or-12-vdc-then-harness-pins-1-and-3
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
   locator: 'Absence, checked over the full text and table of contents of all seventeen
     Spirit residential elliptical owner''s manuals: XE150/XE350/XE550, XE100/XE200/XE300,
     XE395 2010, XE395 2018, XE795 2018, XE895 2018, XE195 2019, XE295 2019, XG400
     2019, XE795 2021 February, XE395ENT 2021, XE195 2021, XE295 2021, XG400 2021,
-    XE795 2021 November, XE395 2023, XE795 2023'
+    XE795 2021 November, XE395 2023, XE795 2023; Qualified on 2026-09-11 against the
+    residential elliptical service manuals: XE100-XE500 2007 dealer manual Troubleshooting
+    Guide, PDF p. 3-4, text.md lines 51-135; XE395ENT 2021 (XE539S-SE025-01) service
+    manual Error code items, PDF p. 26, text.md lines 307-331; XE795 2023 (XE815A-SE048)
+    service manual Error Code List, PDF p. 15, text.md lines 268-282'
   extracted_at: '2026-09-09'
 ---
 
@@ -125,3 +135,5 @@ What these manuals do print in place of a troubleshooting chapter:
 The XE395ENT is the only one of the twenty with a networked console, and its manual states only
 that without WiFi the cloud, apps and casting will not work. It prints no error screen and no
 recovery step for that either.
+
+**This card is about the owner's manuals. The service manuals for the same machines do print codes and troubleshooting tables**, and three of them share a model id with an owner's manual listed above. The XE395ENT 2021 service manual prints `E2` (tension motor) and `E3` (incline VR) with full troubleshooting and a nine-step motor test (`xe395ent-2021-errors-e2-tension-motor-does-not-move`, `xe395ent-2021-errors-e3-incline-vr-out-of-range-or-not-read`). The XE795 2023 service manual prints `EEPROM ERR` with a display-board fix (`xe795-2023-errors-eeprom-err-replace-display-board`). The XE100-XE500 2007 dealer manual prints no code but a nine-row troubleshooting guide with meter tests (`spirit-xe-2007-errors-no-power-to-the-console-adapter-9-or-12-vdc-then-harness-pins-1-and-3`, `spirit-xe-2007-errors-no-resistance-change-5k-ohm-potentiometer-then-gear-motor-4-to-6-volts`). The 2016 residential service manuals - `xe195-2016`, `xe295-2016`, `xe395-2016`, `xe795-2016`, `xg400-2016`, `xe895-2016`, separate ids from the 2018-2021 owner's manuals above - print `EEPROM ERR`, `--` and, on the XE395, `Err` (`spirit-elliptical-errors-eeprom-err-replace-upper-controller`, `spirit-elliptical-2016-errors-dashes-tension-motor-does-not-move`, `xe395-2016-errors-err-incline-vr-out-of-range-or-not-read`). A caller who reports one of those codes is reading the screen, not the owner's manual; answer from the service-manual card.

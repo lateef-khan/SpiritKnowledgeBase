@@ -37,7 +37,7 @@ not_to_be_confused_with:
 - spirit-xbr55-xbu55-2023-specs-parts-electronic-parts-named
 see_also:
 - spirit-residential-bike-specs-gear-motor-or-generator-brake
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-xbr95-2023-service-manual
   locator: 2. Electronic Parts, PDF p. 5 (printed 5 of 28), text.md lines 67-79 -
@@ -66,6 +66,6 @@ on `spirit-residential-bike-specs-gear-motor-or-generator-brake`.
 
 **This book prints no tool list.** The 2023 XBR55 and XBU55 books print "Tools Required - A multi-meter"
 above their error codes; the XBR95 page goes straight from its one error code to the circuit diagram
-(`spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter`).
+(`spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`).
 
 Nothing on the page is a part number or a rating.

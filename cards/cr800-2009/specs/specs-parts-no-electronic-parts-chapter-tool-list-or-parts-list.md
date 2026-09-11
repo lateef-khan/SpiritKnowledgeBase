@@ -37,7 +37,7 @@ not_to_be_confused_with:
 - spirit-cr800-cu800-2020-specs-parts-electronic-parts-named
 see_also:
 - cr800-model-numbers
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 - spirit-bike-specs-parts-which-service-manuals-print-a-parts-list
 - spirit-bike-specs-generator-brake-or-induction-brake
 source:

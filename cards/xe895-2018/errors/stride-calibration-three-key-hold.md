@@ -37,10 +37,14 @@ not_to_be_confused_with:
 see_also:
 - spirit-xe-errors-no-error-codes-printed
 - xe395-2018-errors-incline-calibration-three-key-hold
+- spirit-ce850-2016-errors-stride-err-stride-window-e3
 source:
   ref: spirit-elliptical-xe895-2018-owners-manual
-  locator: 'Stride Calibration, printed page 36 (PDF page 36), the paragraph printed
-    below the Engineering Mode Menu'
+  locator: Stride Calibration, printed page 36 (PDF page 36), the paragraph printed
+    below the Engineering Mode Menu; XE895 2016 (XE895-SE022) service manual CALIBRATION
+    PROCEDURE, Stride Calibration paragraph, PDF p. 55, text.md lines 922-957; CE850
+    2016 (XE898-SE011) service manual 8.5 CALIBRATION PROCEDURE, Stride Calibration
+    paragraph, PDF p. 54, text.md lines 920-957
   extracted_at: '2026-09-10'
 ---
 
@@ -77,3 +81,5 @@ same wave.
 
 The machine still prints **no error code and no troubleshooting chapter** - see
 `spirit-xe-errors-no-error-codes-printed`. The word `error` does not appear in this manual once.
+
+**The XE895 2016 service manual (XE895-SE022) prints a different hold for the same subsystem** - *Press the Stride key and the Start key at the same time. Hold them down for 5 seconds and the Stride calibration will start and run automatically* - two keys, Stride and Start, with no Stop and no Level. The CE850 2016 book, of which the XE895 2016 is the residential printing, says the same; the CE850 (2020) writes it *STRIDE up key and the START key*. So the three-key hold on this card is the 2018 owner's manual's, and the two-key hold is the 2016 service manuals' (`xe895-2016` is a separate id from `xe895-2018`). Those books also print the message the calibration answers, `STRIDE ERR` with `E3` in the stride window: `spirit-ce850-2016-errors-stride-err-stride-window-e3`.

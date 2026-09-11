@@ -39,7 +39,7 @@ see_also:
 - cu1000ent-2023-specs-parts-electronic-parts-named
 - xbr95-2016-specs-parts-electronic-parts-named
 - spirit-cr900-specs-parts-component-callout-numbers
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: p. 8 (printed 8) Upper Controllers; p. 9 (printed 9) Lower Controller and

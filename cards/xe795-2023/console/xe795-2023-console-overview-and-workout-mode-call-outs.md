@@ -1,8 +1,10 @@
 ---
 id: xe795-2023-console-overview-and-workout-mode-call-outs
-title: What is on the console face and what every reading on the workout screen is called, with speed in place of incline
+title: What is on the console face and what every reading on the workout screen is
+  called, with speed in place of incline
 kind: fact
-question: What is on the console and the workout screen of a Spirit XE795-2023 elliptical or an XBR55, XBR95 or XBU55 2023 bike?
+question: What is on the console and the workout screen of a Spirit XE795-2023 elliptical
+  or an XBR55, XBR95 or XBU55 2023 bike?
 asked_as:
 - what are the buttons on my elliptical console
 - what do the numbers on my elliptical screen mean
@@ -39,9 +41,14 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 - spirit-residential-bike-console-face-without-usb-or-bluetooth
 - spirit-residential-bike-console-readings-and-resistance-profile-graph
+- xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual
 source:
   ref: spirit-elliptical-xe795-2023-owners-manual
-  locator: p. 19 CONSOLE SCREEN - OVERVIEW and p. 20 CONSOLE SCREEN - WORKOUT MODE; XBR95 2023 pp. 17-18, XBR55 2023 and XBU55 2023 pp. 18-19, CONSOLE SCREEN - OVERVIEW and CONSOLE SCREEN - WORKOUT MODE
+  locator: p. 19 CONSOLE SCREEN - OVERVIEW and p. 20 CONSOLE SCREEN - WORKOUT MODE;
+    XBR95 2023 pp. 17-18, XBR55 2023 and XBU55 2023 pp. 18-19, CONSOLE SCREEN - OVERVIEW
+    and CONSOLE SCREEN - WORKOUT MODE; XE795-2023 (XE815A-SE048) service manual 4.
+    Product Operation console drawing, PDF p. 6 (printed 6), text.md lines 106-110
+    with the OCR supplement for that page
   extracted_at: '2026-09-09'
 ---
 
@@ -89,3 +96,5 @@ console can show:
 **The XBR25-2023 is deliberately not on this card.** Its overview drawing labels four things, not
 five, and its workout screen carries none of the USB or Bluetooth icons and no Maximum Heart Rate
 Percentage: `spirit-residential-bike-console-face-without-usb-or-bluetooth`.
+
+**The XE795-2023 service manual's drawing labels four things and one of them is not on this list**: "7.5" LCD Panel", "Wireless Charger", "FAN Button" and "Control Buttons". Where the owner's manual labels **USB Charging**, the service manual labels a **Wireless Charger** and describes one in its text (`xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual`). Its screen artwork also shows the workout-mode readings - calories, heart rate, distance, level, RPM, laps, speed and a profile - as this card lists them.

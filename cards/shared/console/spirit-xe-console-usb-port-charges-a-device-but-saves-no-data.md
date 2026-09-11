@@ -1,6 +1,7 @@
 ---
 id: spirit-xe-console-usb-port-charges-a-device-but-saves-no-data
-title: The console USB port gives 5 Vdc at 1.0 amp for charging only and cannot save workout data
+title: The console USB port gives 5 Vdc at 1.0 amp for charging only and cannot save
+  workout data
 kind: fact
 question: Can I save my workout to the USB port on a Spirit XE elliptical?
 asked_as:
@@ -37,9 +38,13 @@ see_also:
 - xt-2023-console-spirit-plus-app-pairing
 - xe395ent-2021-console-profiles-and-the-spirit-app-link
 - xt-2023-console-usb-charging-port
+- xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: XE395ENT p. 21 CHARGE PORTABLE DEVICES WITH USB PORT; XE395 2023 p. 24 and XE795 2023 p. 23, FEATURES - CONTINUED
+  locator: XE395ENT p. 21 CHARGE PORTABLE DEVICES WITH USB PORT; XE395 2023 p. 24
+    and XE795 2023 p. 23, FEATURES - CONTINUED; XE395ENT-2021 (XE539S-SE025-01) service
+    manual, CHARGE PORTABLE DEVICES WITH USB PORT, PDF p. 13 (printed 13), text.md
+    lines 174-181, word for word
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +80,5 @@ WiFi against a profile (`xe395ent-2021-console-profiles-and-the-spirit-app-link`
 XBR95-2023 and XBU55-2023, and the XBR55ENT-2021 and XBU55ENT-2021. **That card and this one state
 the same figures** - 5 Vdc, 1.0 amp, USB 2.0, charging only. **The XBR25 of either printing has no USB
 port.**
+
+**The XE395ENT-2021 service manual prints the paragraph and its three notes word for word** - cable not included, 5 Vdc / 1.0 amp to USB 2.0, charging only - so the two documents for that machine agree. **The XE795-2023 service manual does not**: it describes a wireless charger in place of this port (`xe795-2023-console-wireless-charger-in-the-service-manual-usb-port-in-the-owners-manual`).

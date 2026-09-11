@@ -53,7 +53,15 @@ source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: 'page 5, Important Safety Instructions. The XBR95-2016 (XR829-SB012-01)
     service manual prints 16 AWG instead: section 7, PDF p. 35 (printed 35), text.md
-    lines 461-462.'
+    lines 461-462. The XE195-2016, XE295-2016, XE395-2016 and XG400-2016 service manuals
+    print 16 AWG instead, and the XE395ENT-2021 service manual prints no extension-cord
+    rule: XE195-2016 (XE509S-SE021-01) service manual: 7 Product Safety Instructions,
+    PDF p. 32 (printed 32); text.md lines 464-492. XE295-2016 (XE519S-SE020-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 472-498.
+    XE395-2016 (XE539S-SE019-01) service manual: 7 Product Safety Instructions, PDF
+    p. 38 (printed 38); text.md lines 601-627. XG400-2016 (SE551-SE023-01) service
+    manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436.
+    XE395ENT-2021 (XE539S-SE025-01) service manual: whole book, text.md lines 1-1886.'
   extracted_at: '2026-09-09'
 ---
 
@@ -127,3 +135,12 @@ XBR95-2016 has an owner's manual that says 18AWG and a service manual that says 
 book mentions the other. Treat the 18AWG as suspect for the reason given above, quote the gauge with
 the book it comes from, and remember the machine is self-powered and has no cord to extend
 (`spirit-bike-safety-no-mains-outlet-needed`).
+
+## The 2016 elliptical service manuals say 16 AWG
+
+**The XE195-2016, XE295-2016, XE395-2016 and XG400-2016 service manuals print `Do not use an extension
+cord unless it is a 16 AWG or better with only one outlet on the end`** in their safety chapter
+(`spirit-extension-cord-16-awg-or-better`). They are the service-manual SKUs that precede the
+2018-2021 owner's-manual machines on this card, and no book mentions the other; quote the gauge with
+the book it comes from. **The XE395ENT-2021 service manual prints no extension-cord rule and no
+safety chapter at all**, so for that machine the 18AWG above is the only figure on file.

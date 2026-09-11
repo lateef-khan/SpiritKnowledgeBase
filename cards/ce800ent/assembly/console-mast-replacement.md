@@ -2,7 +2,7 @@
 id: ce800ent-console-mast-replacement
 title: Console mast and hand pulse replacement
 kind: procedure
-question: How do I replace the console mast or the hand pulse assembly on a Spirit
+question: How do I replace the console mast or the hand pulse assembly on a Spirit CE800 or CE800ENT elliptical?
   CE800ENT elliptical?
 asked_as:
 - how do i take the console mast off my spirit elliptical
@@ -22,13 +22,13 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2016
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +37,7 @@ see_also:
 - ce800ent-bluetooth-chest-strap-no-heart-rate
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-4 Console Mast Replacement, pp. 43-44 (printed 43-44)
+  locator: 'ce800ent: Section 8-4 Console Mast Replacement, pp. 43-44 (printed 43-44) | ce800-2021: 10-4 Console Mast Replacement, PDF pp. 42-43; text.md lines 584-611 | ce800-2016: 9-4 Console Mast Replacement, PDF pp. 53-55; lines 800-829'
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +61,8 @@ assembly.
 **There are four `M8*25mm` bolts, not three.** Step 3 loosens three and then removes "the last bolt",
 and only that fourth bolt carries the flat washer. Put the washer back on the same bolt.
 
+**The CE800 (2020) book prints this word for word as 10-4.** The 2017 CE800 (XE890B) book, section 9-4, prints the
+same five steps and the same hardware (**4 x Ø3.5 x 12L sheet metal screws**, **3 + 1 M8 x 1.25 x 25L hex socket cap
+screws**, the **5/16" x 23 x 1.5T flat washer** on the last one, **2 x ψ3x20mm tapping screws** at the handpulse)
+and adds one instruction: **loosen the three cap screws about 15 mm** before removing the last one. Its step 1
+reads "Refer to step 11.2" - that book has no chapter 11; it means its own 9-2.

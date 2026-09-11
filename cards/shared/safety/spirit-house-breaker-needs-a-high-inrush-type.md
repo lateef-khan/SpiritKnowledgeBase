@@ -5,9 +5,11 @@ title: A house breaker that trips needs a high inrush type, and is not a warrant
 kind: policy
 question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT,
   CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill,
-  a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400
-  residential machine, a Spirit XBR or XBU residential bike, a Spirit CU800ENT-2022
-  or CR800ENT-2023 bike, or a Spirit CVC800 climber?
+  a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395, XE395ENT, XE795,
+  XG400 or XE895 residential machine of the 2016, 2018, 2019, 2021 or 2023 generation,
+  a Spirit XBR or XBU residential bike, a Spirit CU800ENT-2022 or CR800ENT-2023 bike,
+  a Spirit CVC800 climber, a Spirit XS895 stepper, a Spirit XRW600 rower or a Spirit
+  CS800 or CRS800S stepper?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -62,13 +64,20 @@ facets:
   - xbu55-2021
   - xbu55-2023
   - xbu55ent-2021
+  - xe195-2016
   - xe195-2019
   - xe195-2021
+  - xe295-2016
   - xe295-2019
   - xe295-2021
+  - xe395-2016
   - xe395-2018
   - xe395ent-2021
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   - xrw600-2019
@@ -94,6 +103,8 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
+- spirit-ct800-safety-outlet-120-volt-15-amp
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
@@ -120,7 +131,23 @@ source:
     (XR329A-SB030) service manual: section 7.1-7.3, PDF p. 11 (printed 11 of 30);
     text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual: section 7.1-7.3,
     PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023 (XR829A-SB032)
-    service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223.'
+    service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223.
+    Nine Spirit elliptical service manuals print the paragraph in 7.2 Important Electrical
+    Instructions, ending at `part # QO120HM.` with no breaker-rating sentence: CE850-2016
+    (XE898-SE011) service manual: 7 Product Safety Instructions, PDF p. 37 (printed
+    37); text.md lines 606-635. CE850 (2020) service manual: 7 Product Safety Instructions,
+    PDF p. 30 (printed 30); text.md lines 505-533. XE195-2016 (XE509S-SE021-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 464-492.
+    XE295-2016 (XE519S-SE020-01) service manual: 7 Product Safety Instructions, PDF
+    p. 32 (printed 32); text.md lines 472-498. XE395-2016 (XE539S-SE019-01) service
+    manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md lines 601-627.
+    XE795-2016 (XE815-SE024-01) service manual: 7 Product Safety Instructions, PDF
+    p. 35 (printed 35); text.md lines 477-505. XE795-2023 (XE815A-SE048) service manual:
+    7 Product Safety Instructions, PDF p. 14 (printed 14); text.md lines 227-262,
+    OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
+    Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
+    (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
+    38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -329,3 +356,22 @@ XBR95-2023 owner's manuals print no breaker paragraph, and the XBR55-2023 and XB
 manuals replaced it with the AFCI/GFCI text - their service manuals print this paragraph regardless.
 Quote from the book the customer is holding. For the two XBR95, say as well that the machine is
 self-powered and never loads a house breaker (`spirit-bike-safety-no-mains-outlet-needed`).
+
+## Nine Spirit elliptical service manuals print the paragraph
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals print it word for word** in 7.2 Important
+Electrical Instructions, with `elliptical` for `treadmill`, both part numbers - **Grainger # 1D237**
+and www.squared.com **# QO120HM** - and `we as a manufacture`. **None of the nine closes with a
+dedicated-breaker sentence**: the paragraph ends at `part # QO120HM.`, so no breaker rating comes from
+these books, and the CE850 owner's manuals' `dedicated 5 amp circuit breaker` line is not in the
+CE850 service manuals. Their outlet figure is the safety bullet - 115 volt, 15 amp in the two CE850
+books and the XE795-2016 and XE895-2016 (`spirit-xe-safety-outlet-115-volt-15-amp`), 120 volt, 15 amp
+in the XE195, XE295, XE395 and XG400 2016 books (`spirit-ct800-safety-outlet-120-volt-15-amp`), and
+220 volt, 15 amp in the XE795-2023 book (`xe795-2023-safety-outlet-220-volt-15-amp`).
+
+**That overturns two statements above for the machines that have these books.** The XE795 owner's
+manuals print no breaker paragraph, and the CE850 owner's manuals close theirs with 5 amp - their
+service manuals print the paragraph with no rating at all. Quote from the book the customer is
+holding. For the two XE795, say as well that the machine is self-powered and never loads a house
+breaker (`spirit-ce-safety-generator-produces-ac-power`).

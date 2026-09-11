@@ -2,8 +2,8 @@
 id: ct900-quarter-mile-track-display
 title: 1/4 mile track display and lap counter
 kind: fact
-question: What does the 1/4 mile track display and lap counter show on a Spirit CT800 or CT900
-  treadmill, or a CE800 or CE850 elliptical?
+question: What does the 1/4 mile track display and lap counter show on a Spirit CT800
+  or CT900 treadmill, or a CE800 or CE850 elliptical?
 asked_as:
 - what is the circle around the dot matrix window
 - how does the lap counter work
@@ -49,7 +49,8 @@ see_also:
 - spirit-ce-console-led-console-face
 source:
   ref: ct900-om
-  locator: p. 18
+  locator: p. 18; CE800 (2020) service manual 4-2-4 1/4 MILE TRACK, PDF p. 15 (printed
+    14), text.md lines 267-270
   extracted_at: '2026-08-24'
 ---
 
@@ -108,3 +109,5 @@ CRS800S-2021 printed p. 20 and CS800-2021 printed p. 19, headed 1/4 MILE TRACK. 
 
 **Neither 2021 console drawing labels the ring**, so a caller looking for it on the diagram will not
 find it named.
+
+**The CE800 (2020) service manual prints this paragraph word for word** in its Product Operation chapter - the 0.4 km track around the dot matrix window, the flashing dot, and the lap counter in the centre.

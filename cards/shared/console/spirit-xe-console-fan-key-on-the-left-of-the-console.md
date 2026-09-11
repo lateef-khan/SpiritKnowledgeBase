@@ -71,7 +71,9 @@ source:
     p. 21, all FEATURES / Built-in Fan. XBR55-2023 service manual BUILT-IN FAN, PDF
     p. 6 (printed 6), text.md lines 115-116; XBU55-2023 PDF p. 6, lines 112-113; XBR95-2023
     PDF p. 7, lines 120-121; the 2023 console drawings on the same pages label a "Fan
-    On/Off Button"
+    On/Off Button"; XE795-2023 (XE815A-SE048) service manual 4.2 Basic Function, Built-in
+    Fan, PDF p. 8 (printed 8), text.md lines 178-179, and the console drawing on PDF
+    p. 6 labelled FAN Button
   extracted_at: '2026-09-09'
 ---
 
@@ -123,3 +125,5 @@ way to switch it off**.
 key **Fan On/Off Button** beside the 7.5" LCD Display. The 2016 service manuals of the XBR25, XBR55,
 XBU55 and XBR95 call it the Fan Key, "Cooling fan switch on or off"
 (`spirit-xbr-2016-console-face-7-5-inch-lcd-with-6-10-or-11-program-buttons`).
+
+**The XE795-2023 service manual prints the sentence word for word** - "press the button on the left side of the console" - and its console drawing labels that key **FAN Button** at the left end of the key row.

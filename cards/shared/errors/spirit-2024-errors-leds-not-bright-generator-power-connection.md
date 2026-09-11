@@ -3,8 +3,9 @@ id: spirit-2024-errors-leds-not-bright-generator-power-connection
 title: The display light is dim or incomplete, on the row that sends you to the generator
   rather than the wall
 kind: troubleshooting
-question: Why is the display dim or partly lit on a Spirit CE800-2024 elliptical or
-  a CR800-2021, CR800-2024, CU800-2012, CU800-2021 or CU800-2024 bike?
+question: Why is the display dim or partly lit on a Spirit CE800-2016, CE800-2021
+  or CE800-2024 elliptical or a CR800-2021, CR800-2024, CU800-2012, CU800-2021 or
+  CU800-2024 bike?
 asked_as:
 - spirit elliptical screen is dim
 - bike console backlight is faint
@@ -24,6 +25,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
   - cr800-2021
   - cr800-2024
@@ -51,7 +54,10 @@ source:
     (cu800-2021) service manual 7-5 Troubleshooting procedure matrix, PDF p. 27 (printed
     26), text.md lines 420-451; CR800 2020-book (cr800-2021) service manual 7-5 Troubleshooting
     procedure matrix, PDF p. 27 (printed 26), text.md lines 398-429; CU800 2012 (XU878)
-    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573
+    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573;
+    CE800 2016 (XE890B-AE10M) service manual Troubleshooting procedure matrix, PDF
+    p. 32, text.md lines 546-578; CE800 (2020) book (ce800-2021) service manual 7-5
+    Troubleshooting procedure matrix, PDF p. 3 (printed 2), text.md lines 39-64
   extracted_at: '2026-09-10'
 ---
 
@@ -83,3 +89,5 @@ Dead segments rather than a dim light are the next row down. The CE800 2024 prin
 (`spirit-lcd-displays-dim-or-incomplete`).
 
 **Three earlier bike service manuals print this row word for word** - the CU800 2020-book (`cu800-2021`), the CR800 2020-book (`cr800-2021`) and the CU800 2012 (XU878): `LEDs not bright, incomplete or imperfect`, `Generator Power to console too low`, `Check generator power connection`, `Replace controller`, and no voltage on any of them. All three are generator-powered bikes with no cord to the console.
+
+**Two earlier elliptical service manuals print this row word for word** - the CE800 2016 (titled XE890B-AE10M) and the CE800 (2020) book (`ce800-2021`): `LEDs not bright, incomplete or imperfect`, `Generator Power to console too low`, `Check generator power connection`, `Replace controller`, and no voltage on either. Both are generator-powered ellipticals with no cord to the console, so this row is the CE800's answer across three generations.

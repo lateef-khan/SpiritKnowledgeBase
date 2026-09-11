@@ -27,11 +27,18 @@ facets:
   applies_to:
   - 40t-2026
   - ab900-2018
+  - ce1000ent-2023
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
   - ce800ent
   - ce800ent-2024
+  - ce850-2016
+  - ce850-2020
   - ce850-2024
+  - ce900-2021
   - ce900-2025
+  - ce900ent
   - cr800-2021
   - cr800-2024
   - cr800ent-2023
@@ -67,6 +74,13 @@ facets:
   - xbr95-2016
   - xbu55-2016
   - xbu55ent-2021
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
+  - xe395ent-2021
+  - xe795-2016
+  - xe895-2016
+  - xg400-2016
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -133,7 +147,25 @@ source:
     p. 27, text.md lines 418-452; CR800ENT 2020-ver book (cr800ent-2023) service manual
     7-3 Troubleshooting procedure matrix, PDF p. 27, text.md lines 425-459; AB900
     2018 service manual Troubleshooting Quick Lookup Table, PDF p. 31, text.md lines
-    545-571'
+    545-571; CE1000ENT 2023 service manual 10.1 Troubleshooting procedure matrix,
+    PDF p. 3, text.md lines 71-96; CE800 (2020) book (ce800-2021) service manual 7-5
+    Troubleshooting procedure matrix, PDF p. 3 (printed 2), text.md lines 39-64; CE800
+    2016 (XE890B-AE10M) service manual Troubleshooting procedure matrix, PDF p. 32,
+    text.md lines 546-578; CE850 2016 (XE898-SE011) service manual 8-7 Troubleshooting
+    procedure matrix, PDF p. 56-57, text.md lines 973-1029; CE850 (2020) service manual
+    8-7 Troubleshooting procedure matrix, PDF p. 49-50, text.md lines 852-909; CE900
+    (SE8800-SE026, ce900-2021) service manual Troubleshooting procedure matrix, PDF
+    p. 32, text.md lines 530-562; CE900ENT service manual Troubleshooting procedure
+    matrix, PDF p. 40, text.md lines 712-744; XE195 2016 (XE509S-SE021-01) service
+    manual Troubleshooting procedure matrix, PDF p. 42, text.md lines 652-685; XE295
+    2016 (XE519S-SE020-01) service manual Troubleshooting procedure matrix, PDF p.
+    42, text.md lines 653-686; XE395 2016 (XE539S-SE019-01) service manual Troubleshooting
+    procedure matrix, PDF p. 57-58, text.md lines 966-1027; XE395ENT 2021 (XE539S-SE025-01)
+    service manual Troubleshooting procedure matrix, PDF p. 46-47, text.md lines 656-709;
+    XE795 2016 (XE815-SE024-01) service manual Troubleshooting procedure matrix, PDF
+    p. 44, text.md lines 639-671; XG400 2016 (SE551-SE023-01) service manual Troubleshooting
+    procedure matrix, PDF p. 40, text.md lines 595-628; XE895 2016 (XE895-SE022) service
+    manual 8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029'
   extracted_at: '2026-09-08'
 ---
 
@@ -187,3 +219,5 @@ figures at a CSC900 owner as if their manual printed them.
 **Sixteen treadmill service manuals print this row with the same three causes, the CR2032 battery and the three-foot range, and every one of them also prints the `Chest belt too close to the treadmill / Weak battery` second row** - the 2015 and 2023 XT185 to XT685, the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT, CT1000ENT 2023 and 4.0T.
 
 **Fifteen bike service manuals print this row with the same three causes, the CR2032 battery and the three-foot range.** Which of them also print the `Chest belt too close` second row: the XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, CU900 2018, CR900 2018, CR900ENT 2021 and CU1000ENT 2023 do; the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver do not. **On the CU800 2020-book and the CR800 2020-book the label has slipped a line exactly as it has on the CR800 2024 and CU800 2024** - `(No pulse displayed on monitor)` stands alone against these three causes and `Wireless lost its function.` is printed against the no-resistance row below (`ce800ent-no-resistance`) - so the slip is inherited from the 2020 books. The three 2023 residential books (XBR55, XBR95, XBU55 2023) print no chest-belt row at all. **The AB900 2018 air bike prints both rows in its own words**: `Wireless heartbeat has no effect` with the same three causes, `Keep the chest strap within 3 feet of the console` and the CR2032, then `Wireless heartbeat reception is too short (must be very close to the console)` / *The battery is low* / *replace the new lithium battery type CR2032*. **The JB950 2022 Johnny G bike answers a strap the console cannot find with two causes and a rechargeable-or-replaceable battery**: `jb950-2022-errors-cant-find-the-chest-strap-worn-or-battery`.
+
+**Fourteen elliptical service manuals print this row with the same three causes, the CR2032 battery and the three-foot range.** Which of them also print the `Chest belt too close to the [machine] / Weak battery / Replace with new lithium battery with type CR2032` second row: the CE850 2016, CE850 (2020), XE895 2016, CE900 (SE8800), CE900ENT, CE1000ENT 2023, XE195, XE295, XE395, XE795 and XG400 2016 and the XE395ENT 2021 do; the CE800 2016 and CE800 (2020) do not. **The XE795 2023 prints no chest-belt row at all** - its matrix ends at the hand pulse row - although its console chapter says the machine reads a heart rate transmitter strap.

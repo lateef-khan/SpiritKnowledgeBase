@@ -80,7 +80,10 @@ source:
     p. 14 (printed 13), text.md lines 224-227; CU800 (2020) service manual PDF p.
     14 (printed 13), lines 244-247. CR900-2018 service manual C-SAFE FEATURE, PDF
     p. 13 (printed 13), text.md lines 142-145; CU900-2018 service manual PDF p. 14
-    (printed 14), lines 206-209
+    (printed 14), lines 206-209; CE800 (2020) service manual 4-2-7 CSAFE FEATURE,
+    PDF p. 15 (printed 14), text.md lines 285-289; CE850 (2020) service manual C-SAFE
+    FEATURE, PDF p. 16 (printed 16), lines 340-343; CE900 (SE8800-SE026) service manual
+    C-SAFE FEATURE, PDF p. 14 (printed 14), lines 217-220
   extracted_at: '2026-09-08'
 ---
 
@@ -173,3 +176,5 @@ CT800-2020 is held on this card on the strength of both its owner's and its serv
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same POWER and COMM ports in the same words; their Display Board Wire Connections page also names a CSAFE BOARD among the console boards.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same POWER and COMM ports; their Display Board wire connection tables also define a five-pin J1 CSAFE connector (RX, TX, CSAFE-POWER, N/A, GND), held with the specs cards.
+
+**Three elliptical service manuals print the two-port paragraph in their Product Operation chapters** - the CE800 (2020), the CE850 (2020) and the CE900 (SE8800-SE026) - word for word: the POWER port for a remote-controlled audio-visual system, the COMM port for fitness software applications, and nothing more.

@@ -3,8 +3,8 @@ id: spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
 title: The engineering menu whose Functions list ends with a Motor Test and a Safety
   item
 kind: procedure
-question: How do I get into engineering mode on a Spirit XE elliptical or XBR25, XBR55
-  or XBU55 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit XE, XG or CE850-2016 elliptical
+  or XBR25, XBR55 or XBU55 bike, and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i switch my elliptical to metric
@@ -27,17 +27,23 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce850-2016
   - xbr25-2019
   - xbr55-2019
   - xbr55-2021
   - xbu55-2019
   - xbu55-2021
+  - xe195-2016
   - xe195-2019
   - xe195-2021
+  - xe295-2016
   - xe295-2019
   - xe295-2021
+  - xe395-2016
   - xe395-2018
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   - xs895-2018
@@ -47,6 +53,7 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
+- ce850-2016-console-engineering-mode-security-lock
 see_also:
 - xe795-2021-console-engineering-mode-with-a-da-test
 - spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
@@ -55,12 +62,21 @@ see_also:
 - xe395-2023-console-engineering-mode-with-a-child-lock
 - spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
 - spirit-xb55ent-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep
+- spirit-xe-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset
+- spirit-ce850-2016-console-software-modes-idle-20-minute-sleep-child-lock-pause-end-reset
+- ce850-2016-console-engineering-mode-security-lock
+- xe395-2016-console-incline-calibration-stop-level-and-start-held-five-seconds
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36;
+  locator: 'XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36;
     XE895 2018 p. 35; XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under
     Engineering Mode Menu; XBR25 2019 p. 28, XBR55 2019 and 2021 p. 33, XBU55 2019
-    and 2021 p. 33, all Engineering Mode Menu
+    and 2021 p. 33, all Engineering Mode Menu; 2016 service manuals, all under MAINTENANCE
+    MENU IN CONSOLE SOFTWARE: XE195-2016 (XE509S-SE021-01) PDF p. 41 (printed 41),
+    text.md lines 627-647; XE295-2016 (XE519S-SE020-01) PDF p. 41, lines 628-648;
+    XE395-2016 (XE539S-SE019-01) PDF p. 55, lines 924-945; XG400-2016 (SE551-SE023-01)
+    PDF p. 39, lines 569-590; CE850-2016 (XE898-SE011) PDF p. 54, lines 931-952; XE895-2016
+    (XE895-SE022) PDF p. 55, lines 931-952'
   extracted_at: '2026-09-09'
 ---
 
@@ -157,3 +173,7 @@ Motor Test "runs the resistance motor up and down in a continuous loop" showing 
 the position sensor reading, and the XBR25-2016 adds a Unit Type name and an eighth "Bike/Bike" line.
 **The XBR55-2016 service manual prints no menu page at all.** Those books are different SKUs from the
 2019 machines on this card: `spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety`.
+
+**Six 2016 service manuals print this menu word for word**, so this card now covers the 2016 SKUs as well: the XE195-2016, XE295-2016, XE395-2016, XG400-2016 and XE895-2016, and the **CE850-2016**, whose XE898-SE011 book is the XE895's with the commercial name. Same three-key hold for about 5 seconds, the Message Window reading **"Engineering Mode"**, the same four top-level items lettered a to d, and the same seven Functions entries with Display Mode **turned off** to power down after **20 minutes**. Two things they add: the **Level ▲/▼ keys** navigate the menu, and the **Motor Test is described** - "Press Enter to run the resistance motor up and down in a continuous loop. Display shows level setting and position sensor reading. Press Stop to end test". Safety still has no description.
+
+**Their software-spec chapters print a different sleep figure** - 30 minutes on the XE195, XE295, XE395 and XG400 (`spirit-xe-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset`), 20 on the CE850 and XE895 (`spirit-ce850-2016-console-software-modes-idle-20-minute-sleep-child-lock-pause-end-reset`). **The CE850-2016 owner's manual prints a different menu for the same machine** - a 30-minute sleep and a D/A test in place of the Motor Test and Safety (`ce850-2016-console-engineering-mode-security-lock`); neither document mentions the other. The XE395-2016 book adds an incline calibration keystroke above the menu (`xe395-2016-console-incline-calibration-stop-level-and-start-held-five-seconds`), and the XE795-2016 book prints the DA Test menu instead (`xe795-2021-console-engineering-mode-with-a-da-test`).

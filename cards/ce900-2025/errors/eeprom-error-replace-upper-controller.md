@@ -3,9 +3,9 @@ id: ce900-2025-errors-eeprom-error-replace-upper-controller
 title: EEPROM ERROR blanks every window and stops all output, and the fix is a new
   upper controller
 kind: troubleshooting
-question: What does EEPROM ERROR mean on a Spirit CE800-2024, CE850-2024 or CE900-2025
-  elliptical or a CR800-2021, CR800-2024, CR900-2025, CU800-2012, CU800-2021, CU800-2024
-  or CU900-2025 bike?
+question: What does EEPROM ERROR mean on a Spirit CE800-2016, CE800-2021, CE800-2024,
+  CE850-2020, CE850-2024 or CE900-2025 elliptical or a CR800-2021, CR800-2024, CR900-2025,
+  CU800-2012, CU800-2021, CU800-2024 or CU900-2025 bike?
 asked_as:
 - what does eeprom error mean on my spirit elliptical
 - elliptical console showing eeprom error
@@ -24,7 +24,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
+  - ce850-2020
   - ce850-2024
   - ce900-2025
   - cr800-2021
@@ -45,6 +48,8 @@ see_also:
 - ces880-2025-errors-eeprom-error-replace-display-board
 - cu900ent-eeprom-err
 - spirit-bike-errors-eeprom-err-replace-upper-controller
+- spirit-elliptical-errors-eeprom-err-replace-upper-controller
+- spirit-ce850-2016-errors-e1-eeprom-failure-replace-upper-controller
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
   locator: 'ERROR CODES: CE900 2025 printed page 33; CR900 2025 printed page 35; CU900
@@ -53,7 +58,12 @@ source:
     357-388; CR800 2020-book (cr800-2021) service manual 7-1 Error Codes and 7-3 Error
     Message: EEPROM ERROR, PDF p. 24-25 (printed 23-24), text.md lines 335-366; CU800
     2012 (XU878) service manual Error code items and Error Message: EEPROM ERROR,
-    PDF p. 32, text.md lines 494-513'
+    PDF p. 32, text.md lines 494-513; CE800 2016 (XE890B-AE10M) service manual Error
+    code items and Error Message: EEPROM ERROR, PDF p. 29, text.md lines 499-518;
+    CE800 (2020) book (ce800-2021) service manual 7-1 Error Codes and 7-3 Error Message:
+    EEPROM ERROR, PDF p. 25-26 (printed 24-25), text.md lines 348-380; CE850 (2020)
+    service manual Error code items and 8-1 Error Message: EEPROM ERROR, PDF p. 32-33,
+    text.md lines 546-577'
   extracted_at: '2026-09-09'
 ---
 
@@ -98,3 +108,5 @@ the other six do not - `ERR` for a tension motor failure and `---` for a stride 
 CU800 2024 the EEPROM row is still the whole table.
 
 **Three bike service manuals print this same page** - the `Error Code | CAUSE` table with its single `EEPROM | EEPROM failure` row, the same three-line definition and *Replace upper controller*: the CU800 2020-book (`cu800-2021`) at 7-3, the CR800 2020-book (`cr800-2021`) at 7-3, and the CU800 2012 (XU878) book, which heads its one-row table `Error code items` and prints the message as `EEPROM ERROR` throughout. All three name a multi-meter as the only tool and never use it for this message. The `EEPROM ERR` spelling on the 2016 residential and 2018 commercial LCD/LED books gets the same upper-controller fix on `spirit-bike-errors-eeprom-err-replace-upper-controller`.
+
+**Three elliptical service manuals print the same message with the same one-line fix, *Replace upper controller*.** The CE800 2016 book (titled XE890B-AE10M) and the CE800 (2020) book (`ce800-2021`) print the `MW window` wording of this card - *displayed in the MW window "EEPROM ERROR" ... all the windows are OFF, all outputs are STOP* - under an `Error code items` / `Error Code | CAUSE` table whose only row is `EEPROM ERROR | EEPROM failure`, with a multi-meter as the only tool. The CE850 (2020) book prints the other Dyaco wording, *All screens are off, and outputs are stop when EEPROM damaged or malfunction. Display message will show "EEPROM ERROR"*, and on that machine the table carries two more rows, `ERR` for the tension motor and `---` for the stride motor - the same three rows as the CE850 2024 above (`ce850-2024-errors-err-tension-motor-failure`, `ce850-2024-errors-stride-window-dashes-stride-motor-failure`). The CE850 2016 book that preceded it calls the same fault `E1` (`spirit-ce850-2016-errors-e1-eeprom-failure-replace-upper-controller`), and the residential XE 2016 books and the CE900 (SE8800) book spell it `EEPROM ERR` (`spirit-elliptical-errors-eeprom-err-replace-upper-controller`).

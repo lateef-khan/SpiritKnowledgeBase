@@ -61,7 +61,9 @@ see_also:
 - ce800ent-programs-touchscreen-program-menu
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: 'CE800 2021 printed p. 18; CE800 2023 p. 19; CE850 2020 p. 24; CE850 2022 p. 25; CE900 2021 p. 18; CE900 2025 p. 19; CES880 2025 p. 40; CE800 2013 p. 16; CE850 2016 p. 21-22'
+  locator: 'CE800 2021 printed p. 18; CE800 2023 p. 19; CE850 2020 p. 24; CE850 2022 p. 25; CE900 2021 p. 18;
+    CE900 2025 p. 19; CES880 2025 p. 40; CE800 2013 p. 16; CE850 2016 p. 21-22. CE900 2021 service manual,
+    MANUAL, PDF p. 16 (printed 16), text.md lines 290-303'
   extracted_at: '2026-09-09'
 ---
 
@@ -132,3 +134,10 @@ user program by pressing a **User** key" ending. Two small differences:
 *The XE195 2019 prints that save-as-custom ending even though it has no User key and its manual has
 no Custom User Defined Programs section at all - the same mismatch its 2021 printing carries. See
 `xe195-2021-programs-four-presets-and-six-programs`.*
+
+**The CE900 2021 service manual prints these seven steps word for word** (PDF p. 16) under the heading
+MANUAL, with the dedicated Manual key and the numeric key pad, and the same closing offer of Start to
+repeat or Stop to exit. It is the only elliptical service manual in the 2026-09-11 wave that prints a
+Manual procedure; the CE800 (2020) and CE850 (2020) service manuals stop at Quick Start, and the eight
+2016 service manuals say only that pressing Start from idle enters Manual mode with the preset age and
+weight and the resistance starting at 1.

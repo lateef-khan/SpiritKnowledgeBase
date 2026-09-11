@@ -1,6 +1,7 @@
 ---
 id: xe395ent-2021-console-power-up-and-quick-start
-title: The console powers up with the cord, and a workout starts from Start Workout on the screen or the START key
+title: The console powers up with the cord, and a workout starts from Start Workout
+  on the screen or the START key
 kind: procedure
 question: How do I turn on and start a workout on a Spirit xe395ent-2021 elliptical?
 asked_as:
@@ -35,9 +36,12 @@ see_also:
 - xe395ent-2021-console-workout-views-goal-profile-and-track
 - spirit-xe-console-quick-start-with-twenty-resistance-levels
 - xe395ent-2021-console-panel-call-outs-and-the-audio-jack
+- xe395ent-2021-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: p. 19, POWER / QUICK START / BASIC INFORMATION
+  locator: p. 19, POWER / QUICK START / BASIC INFORMATION; XE395ENT-2021 (XE539S-SE025-01)
+    service manual, POWER, QUICK START and BASIC INFORMATION, PDF p. 12 (printed 12),
+    text.md lines 137-157, word for word
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +68,5 @@ and do not carry it onto this one.
 
 **During a workout, Stop is also on screen** - the bottom right corner pauses or finishes the
 workout: `xe395ent-2021-console-workout-views-goal-profile-and-track`.
+
+**The service manual for this machine prints the same three paragraphs word for word** - the cord powers the console up, Start Workout on the screen or the START key begins Quick Start, twenty levels banded 1-5, 6-10, 11-15 and 16-20, and Stop once for a five-minute pause or twice for the Workout Summary. It stops where the owner's manual stops: no three-second hold, no third press and no reset are printed in either document. Its engineering menu, which the owner's manual lacks, is `xe395ent-2021-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep`.

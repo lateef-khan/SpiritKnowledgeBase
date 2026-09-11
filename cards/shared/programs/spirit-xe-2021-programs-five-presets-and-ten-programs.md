@@ -2,7 +2,7 @@
 id: spirit-xe-2021-programs-five-presets-and-ten-programs
 title: Five preset profiles and ten programs in all, counting two User programs and two heart rate programs
 kind: fact
-question: How many programs does a Spirit XE295 or XG400 have and what are they?
+question: How many programs does a Spirit XE295, XE395, XE895 or XG400 elliptical have and what are they?
 asked_as:
 - how many programs does my elliptical have
 - what programs come on the xe295
@@ -25,10 +25,14 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe295-2016
   - xe295-2019
   - xe295-2021
+  - xe395-2016
   - xe395-2018
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   section: programs
@@ -42,9 +46,15 @@ see_also:
 - xe795-2021-programs-seven-presets-including-calories-and-fusion
 - spirit-xe-2021-programs-custom-user-programs-cap-the-name-at-seven-characters
 - spirit-xe-programs-heart-rate-programs-hold-you-within-three-to-five-beats
+- spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons
+- ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
-  locator: XE295 printed p. 17 (feature callout), p. 18 (heart rate bar graph) and p. 24; XG400 p. 18, p. 19 and p. 22
+  locator: 'XE295 printed p. 17 (feature callout), p. 18 (heart rate bar graph) and p. 24; XG400 p. 18, p. 19 and
+    p. 22. 2016 service manuals, Function Button Locations drawing (key labels read from a render) and Quick Start
+    spec 4.2: XE295 2016 SM (XE519S-SE020) PDF p. 20, text.md lines 332-356, and p. 16, line 252; XE395 2016 SM
+    (XE539S-SE019) p. 20, lines 381-402, and p. 16, line 291; XE895 2016 SM (XE895-SE022) p. 20, lines 386-409,
+    and p. 16, line 302; XG400 2016 SM (SE551-SE023) p. 18, lines 273-297, and p. 14, line 190'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +91,19 @@ instead and prints a stride profile for every preset. Neither adds a program.
 *The XE395 2018 console drawing does label a **CARDIO** key. The XE395 2010 drawing left it out - see
 `xe395-2010-programs-console-diagram-omits-cardio-from-the-program-buttons`, which stays a
 2010-only card.*
+
+**The four 2016 service manuals draw the same ten keys** on their Function Button Locations page -
+MANUAL, HILL, FAT BURN, CARDIO, STRENGTH, INTERVAL, USER-1, USER-2, HR-1, HR-2, left to right on one
+strip - and their Quick Start spec names the lineup as "MANUAL, PROGRAM, USER1~2, HRC1~2" (the XE895
+book writes "USER1, USER2, HRC1, HRC2"). That is all four books say about programs: no preset count,
+no "Ten innovative programs" callout, no descriptions, no percentages, no segment counts. The counts
+and profiles above rest on the owner's manuals; what the 2016 books add is the key strip itself.
+
+**Two of the four caption that strip without Cardio.** The XE395 and XE895 2016 books print
+"(Manual, Hill, Fat Burn, Strength, Interval, 2 User, 2HR)" beside a drawing that labels CARDIO; the
+XE295 and XG400 captions name all ten. See
+`spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons`.
+
+*The XE895 2016 service manual is the CE850 2016 service manual with the residential name; the
+CE850's face has CUSTOM 1 and CUSTOM 2 where the XE895's has USER-1 and USER-2 - see
+`ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys`.*

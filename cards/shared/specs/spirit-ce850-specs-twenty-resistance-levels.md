@@ -34,15 +34,20 @@ facets:
   - crs800s-2024
   - cs800-2021
   - cs800-2024
+  - xe195-2016
   - xe195-2019
   - xe195-2021
+  - xe295-2016
   - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   - xs895-2018
@@ -62,6 +67,9 @@ see_also:
 - spirit-climber-specs-no-specification-table
 - spirit-xe-specs-no-specification-table
 - xe395-2010-specs-incline-forty-levels-in-half-steps
+- spirit-xe-2016-console-data-ranges-level-0-to-20-and-pulse-40-to-220
+- xe195-2016-console-data-ranges-level-1-to-20-and-pulse-40-to-220
+- spirit-ce850-2016-console-data-ranges-stride-18-to-24-and-level-1-to-20
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
   locator: 'p. 20, Console Operation, the paragraph beginning "There are 20 levels
@@ -72,7 +80,12 @@ source:
     and on the 2024 New Black Units machines CE850-2024 printed p. 17 (PDF p. 19), CRS800S-2024
     printed p. 16 (PDF p. 18) and CS800-2024 printed p. 16 (PDF p. 18); and on the
     2018-2021 climbers XS895-2018 printed p. 17, XS895-2021 printed p. 17, CRS800S-2021
-    printed p. 17 and CS800-2021 printed p. 17'
+    printed p. 17 and CS800-2021 printed p. 17. Service manuals: the CE850-2020 (PDF p.
+    15, text.md lines 285-317) and XE395ENT-2021 (PDF p. 12, lines 137-168) reprint the
+    "There are 20 levels of resistance" paragraph; the CE850-2016 (PDF p. 18, lines
+    339-374), XE895-2016 (p. 18, 333-368), XE195-2016 (p. 18, 280-309), XE295-2016 (p.
+    18, 285-314), XE395-2016 (p. 18, 328-363) and XG400-2016 (p. 16, 226-255) print a
+    Function page with LEVEL preset value 1 to 20 or 0 to 20'
   extracted_at: '2026-09-09'
 ---
 
@@ -154,6 +167,20 @@ console family.
 XE100/XE200/XE300 and XE150/XE350/XE550 manuals never say how many levels their
 consoles have; their program pages give only a per-program maximum work level such
 as Hill = 7. Do not answer those machines with 20.
+
+## What the service manuals print
+
+The CE850-2020 and XE395ENT-2021 service manuals reprint the owner's-manual
+paragraph, 20 levels in four bands. The 2016 service manuals print a **Function
+page** instead of the paragraph: *LEVEL - Display the level position from 0 to 20.
+LEVEL preset value is 1 to 20* on the CE850-2016, XE895-2016, XE195-2016, XE295-2016
+and XG400-2016, and *LEVEL preset value is 0 to 20* on the XE395-2016. The display
+range starts at 0 on every book and the preset range at 1 on all but the XE395, so
+**twenty working levels either way**, with 0 the resting display. The console cards
+hold those pages (`spirit-xe-2016-console-data-ranges-level-0-to-20-and-pulse-40-to-220`,
+`xe195-2016-console-data-ranges-level-1-to-20-and-pulse-40-to-220`,
+`spirit-ce850-2016-console-data-ranges-stride-18-to-24-and-level-1-to-20`). No
+service manual prints a level-to-voltage or level-to-watts table either.
 
 **These are console levels, not a physical resistance rating.** No Spirit
 elliptical manual, commercial or residential, states resistance in watts, newtons

@@ -1,9 +1,10 @@
 ---
 id: spirit-ce900-console-message-window-scan
-title: The Scan button swaps Watts, Time Elapsed, Calories and Distance for METs, Time Remaining, Calories/Hour
-  and Strides
+title: The Scan button swaps Watts, Time Elapsed, Calories and Distance for METs,
+  Time Remaining, Calories/Hour and Strides
 kind: fact
-question: What does the message window on a Spirit CE900 elliptical show, and how do I see the other readings?
+question: What does the message window on a Spirit CE900 elliptical show, and how
+  do I see the other readings?
 asked_as:
 - how do i see my total strides on the elliptical
 - how do i change what the ce900 display shows
@@ -38,7 +39,9 @@ see_also:
 - ce900-2025-console-screen-overview
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: CE900 2021 pp. 14-15 BASIC INFORMATION; CE900 2025 p. 17 FEATURES - Basic Information
+  locator: CE900 2021 pp. 14-15 BASIC INFORMATION; CE900 2025 p. 17 FEATURES - Basic
+    Information; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF pp. 14-15
+    (printed 14-15), text.md lines 235-243
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,5 @@ Both CE900 manuals print this word for word.
 **This is not the CE800 or CE850 set.** Those consoles start on Distance, Calories, Pulse and Time
 Elapsed and scan to Speed, Watts, METs and Time Remaining:
 `spirit-ce-console-led-data-windows-scan`.
+
+**The CE900 (SE8800-SE026) service manual prints this passage in its Product Operation chapter**, word for word: the Strides Per Minute window, the Level window, the Scan button on the left of the Message Window, the same two sets and the four-second scan.

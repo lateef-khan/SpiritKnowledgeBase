@@ -2,7 +2,8 @@
 id: cu900ent-eah-ucb-does-not-match-lcb-device
 title: 'EAH: upper board does not match the lower board'
 kind: troubleshooting
-question: What does error code EAH mean on a Spirit CU900ENT bike or CT900ENT treadmill?
+question: What does error code EAH mean on a Spirit CU900ENT or CR900ENT-2021 bike,
+  CT900ENT treadmill or CE900ENT elliptical?
 asked_as:
 - what does eah mean on my spirit bike
 - bike console showing eah
@@ -22,6 +23,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce900ent
   - cr900ent-2021
   - ct900ent
   - cu900ent
@@ -39,7 +41,8 @@ source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Error Code Messages table, page 22; CT900ENT service manual Error Code
     Messages, PDF p. 19, text.md lines 256-288; CR900ENT 2021 service manual Error
-    Code Messages table, PDF p. 21, text.md lines 222-239 (the EAH row)
+    Code Messages table, PDF p. 21, text.md lines 222-239 (the EAH row); CE900ENT
+    service manual Error Code Messages table, PDF p. 22, text.md lines 301-318
   extracted_at: '2026-09-08'
 ---
 
@@ -60,3 +63,5 @@ The whole printed table, and what the two families of code mean, is on `cu900ent
 **The CT900ENT treadmill service manual prints this row word for word** - same code, same description, same remark - in an Error Code Messages table that also carries sixteen inverter codes the bike does not have (`ct900ent-errors-error-code-messages-list`).
 
 **The CR900ENT 2021 recumbent service manual prints this row word for word** - same code, same description, same remark - in the same eight-row `Error Code Messages` table, followed by the same one-row `EEPROM ERR` table and the same multi-meter. Nothing in the recumbent book adds a cause or a fix.
+
+**The CE900ENT elliptical service manual prints this row word for word** - same code, same description, same remark - in the same eight-row `Error Code Messages` table (the `42H Bike board no-response` row keeps the word *Bike* on the elliptical), followed by the same one-row `EEPROM ERR` table and the same multi-meter. Nothing in the elliptical book adds a cause or a fix, and its `5. Troubleshooting (Electronic)` heading has nothing printed under it.

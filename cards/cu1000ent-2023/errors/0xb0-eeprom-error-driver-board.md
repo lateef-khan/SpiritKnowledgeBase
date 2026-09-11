@@ -2,7 +2,8 @@
 id: cu1000ent-2023-errors-0xb0-eeprom-error-driver-board
 title: '0xB0: EEPROM Error, raised by the driver board'
 kind: troubleshooting
-question: What does error code 0xB0 mean on a Spirit cu1000ent-2023 upright bike?
+question: What does error code 0xB0 mean on a Spirit cu1000ent-2023 upright bike or
+  ce1000ent-2023 elliptical?
 asked_as:
 - what does 0xb0 mean on my spirit bike
 - cu1000 console showing 0xb0
@@ -20,14 +21,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu1000ent-2023
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce1000ent-2023
   - cu1000ent-2023
   section: errors
   code: '0xb0'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - cu1000ent-2023-errors-0xb1-resist-error-driver-board
@@ -42,7 +42,9 @@ see_also:
 source:
   ref: spirit-bike-cu1000ent-2023-service-manual
   locator: CU1000ENT 2023 service manual 7.1 Error Code List, 7.2 Error code items
-    and 7.3 Tools Required, PDF p. 12, text.md lines 229-259
+    and 7.3 Tools Required, PDF p. 12, text.md lines 229-259; CE1000ENT 2023 service
+    manual 7.1 Error Code List, 7.2 Error code items and 7.3 Tools Required, PDF p.
+    12, text.md lines 260-290
   extracted_at: '2026-09-11'
 ---
 
@@ -57,3 +59,5 @@ source:
 All four codes carry the same remark, `By Driver Board Error` - the lower board raised them, not the console. The whole table, and the separate one-row `EEPROM ERR` message beneath it, is on `cu1000ent-2023-errors-error-code-list-four-driver-board-codes`. Codes the console has logged are read back under Service > Error Code Log in engineering mode: `cu900ent-error-code-log`.
 
 **These are not the CU900ENT / CR900ENT codes** (`40H` to `50H`, `EAH`, `ECH`, `EDH`, on `cu900ent-error-code-messages-list`) and not the CT1000ENT treadmill's `0x01` to `0x44` list, even though the treadmill list is written in the same `0x` form (`ct1000ent-2023-errors-error-code-list-25-hex-codes`). A `0xB0` to `0xB3` reading belongs to this bike's driver board only.
+
+**The CE1000ENT 2023 elliptical service manual (SE8880-SB028) prints this row word for word** - `0xB0 | EEPROM Error, By Driver Board Error` - in the same four-row `7.1 Error Code List`, over the same one-row `EEPROM ERR` table and the same multi-meter, and with no cause and no fix. Its engineering mode is entered with ten presses on `Welcome`, as on the bike, and its Service table carries the same `Error Code Log` row (`cu900ent-error-code-log`).

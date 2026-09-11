@@ -54,7 +54,9 @@ source:
     On. CR800 (2020) service manual 4-2-1 POWER, PDF p. 13 (printed 12), text.md lines
     176-181; CU800 (2020) service manual PDF p. 13 (printed 12), lines 195-201. CR900-2018
     service manual POWER, PDF p. 13 (printed 13), text.md lines 132-138; CU900-2018
-    service manual PDF p. 14 (printed 14), lines 196-202
+    service manual PDF p. 14 (printed 14), lines 196-202; CE800 (2020) service manual
+    4-2-1 POWER, PDF p. 14 (printed 13), text.md lines 231-236; CE900 (SE8800-SE026)
+    service manual POWER, PDF p. 14 (printed 14), lines 209-214
   extracted_at: '2026-09-09'
 ---
 
@@ -104,3 +106,5 @@ a software version and an odometer reading before the start-up display:
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both print the paragraph word for word, and both open "CR800 Recumbent trainers have a built-in generator" - the CU800 (2020) service manual included, which was made from the recumbent's book.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same self-test and start-up message; these two books say "Spirit Fitness commercial fitness bikes" where the owner's manuals name the machine.
+
+**The CE800 (2020) and CE900 (SE8800-SE026) service manuals print this passage in their Product Operation chapters** - "CE800 elliptical trainers have a built-in generator" and "Spirit Fitness commercial elliptical trainers have a built-in generator" - with the same self-test, the dark display for a few seconds and the scrolling start-up message.

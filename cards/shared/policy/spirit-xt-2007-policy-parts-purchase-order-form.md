@@ -4,8 +4,8 @@ title: The parts purchase order form, F.O.B. Jonesboro, where a serial number un
   a part marks it for warranty evaluation
 kind: policy
 question: What goes on the Spirit parts purchase order form for a Spirit XT175, XT275,
-  XT375, XT475 or XT675 treadmill or XBR25 or XBR55 recumbent bike of the 2007 model
-  year, and what do the ordering rules on it say?
+  XT375, XT475 or XT675 treadmill, XBR25 or XBR55 recumbent bike, or XE100, XE200, XE300,
+  XE400 or XE500 elliptical of the 2007 model year, and what do the ordering rules on it say?
 asked_as:
 - how do i fill in the spirit parts order form
 - what happens if i order a part without a serial number
@@ -30,6 +30,11 @@ facets:
   applies_to:
   - xbr25-2007
   - xbr55-2007
+  - xe100-2007
+  - xe200-2007
+  - xe300-2007
+  - xe400-2007
+  - xe500-2007
   - xt175-2007
   - xt275-2007
   - xt375-2007
@@ -49,11 +54,17 @@ see_also:
 - xt675-2007-specs-parts-list
 - xbr25-2007-specs-parts-list
 - xbr55-2007-specs-parts-list
+- xe100-2007-specs-parts-list
+- xe200-2007-specs-parts-list
+- xe300-2007-specs-parts-list
+- xe400-2007-specs-parts-list
+- xe500-2007-specs-parts-list
 source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
   locator: PARTS PURCHASE ORDER, PDF p. 14 (printed 14), text.md lines 530-569 and
     OCR supplement lines 1577-1620; the same form in spirit-bike-xbr25-xbr55-2007-service-manual PDF p. 10 (printed 10),
-    text.md lines 311-353 and OCR supplement lines 788-828
+    text.md lines 311-353 and OCR supplement lines 788-828; the same form in spirit-elliptical-xe100-xe200-xe300-xe400-xe500-2007-service-manual
+    PDF p. 13 (printed 13), text.md lines 419-461 and OCR supplement lines 1571-1614
   extracted_at: '2026-09-11'
 ---
 
@@ -65,4 +76,4 @@ source:
 
 **Shipping.** All orders go by ground delivery unless otherwise indicated, and the buyer pays all expedited charges. The Special Instructions box offers **2nd Day Air**, **Next Day Air** and **Saturday Delivery**, each with a line to initial - and an expedited request that is not initialled ships by ground.
 
-The part numbers to write on the lines are the six-digit Spirit numbers in the same book's five parts lists (`xt175-2007-specs-parts-list` and its siblings). The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints the identical form on its page 10, and its own two lists supply the numbers (`xbr25-2007-specs-parts-list`, `xbr55-2007-specs-parts-list`). What happens to the part after it arrives - free under warranty against the serial number, 30-day terms otherwise, and which parts must come back - is on `spirit-xt-2007-warranty-parts-returns-and-30-day-billing`.
+The part numbers to write on the lines are the six-digit Spirit numbers in the same book's five parts lists (`xt175-2007-specs-parts-list` and its siblings). The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints the identical form on its page 10, and its own two lists supply the numbers (`xbr25-2007-specs-parts-list`, `xbr55-2007-specs-parts-list`); the 2008 dealer manual for the XE100-XE500 ellipticals prints it on its page 13, and its five lists supply theirs (`xe100-2007-specs-parts-list` to `xe500-2007-specs-parts-list`). What happens to the part after it arrives - free under warranty against the serial number, 30-day terms otherwise, and which parts must come back - is on `spirit-xt-2007-warranty-parts-returns-and-30-day-billing`.

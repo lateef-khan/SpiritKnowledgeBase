@@ -40,7 +40,9 @@ see_also:
 - ce800ent-programs-touchscreen-program-menu
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: 'CE800 2021 printed p. 23; CE800 2023 p. 24; CE900 2021 p. 24; CE900 2025 p. 23; CES880 2025 p. 45; CE800 2013 p. 25; CE800ENT p. 28'
+  locator: 'CE800 2021 printed p. 23; CE800 2023 p. 24; CE900 2021 p. 24; CE900 2025 p. 23; CES880 2025 p. 45;
+    CE800 2013 p. 25; CE800ENT p. 28. CE900 2021 service manual, CONSTANT WATT PROGRAM, PDF p. 17 (printed 17),
+    text.md lines 309-324'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +69,11 @@ Constant Power or Watts.
 **The 2024 CE800 prints these same nine steps** (printed page 25). **The 2024 CE850 has no Constant
 Power program at all** - it is the only machine in the 2024 range whose LED console drops it, and a
 loose search of that book for "watt" and "constant power" returns nothing in the programs chapter.
+
+**The CE900 2021 service manual prints these nine steps word for word** (PDF p. 17) under the heading
+CONSTANT WATT PROGRAM, with the Watt key at step 1, the Target Watt Level at step 5 and the Scan key at
+step 8. It is the only program that book describes besides Manual. **The CE800 2016 service manual's
+console drawing has a CONSTANT POWER key at position 0**, though that book's caption and its Quick
+Start spec both leave the program out - see
+`ce800-2016-programs-ten-numbered-program-keys-with-fitness-test-and-constant-power`; the program
+itself is not described there.

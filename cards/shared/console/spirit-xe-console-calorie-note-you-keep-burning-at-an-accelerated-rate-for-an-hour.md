@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-calorie-note-you-keep-burning-at-an-accelerated-rate-for-an-hour
-title: The calorie readout is a comparison guide only, and the manual claims you keep burning at an accelerated rate for at least an hour
+title: The calorie readout is a comparison guide only, and the manual claims you keep
+  burning at an accelerated rate for at least an hour
 kind: fact
-question: How accurate is the calorie count on a Spirit XE elliptical or XB residential bike?
+question: How accurate is the calorie count on a Spirit XE elliptical or XB residential
+  bike?
 asked_as:
 - are the calories on my elliptical accurate
 - why does my elliptical calorie count differ from my watch
@@ -65,7 +67,14 @@ see_also:
 - ct900ent-personal-data-age-weight-calorie-note
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: XE395 2010 p. 18; XE195 p. 20; XE295 p. 21; XG400 p. 20; XE395ENT p. 20; XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 of the XE100/XE200/XE300 manual, all under the CALORIE NOTE; all fourteen Spirit residential bike manuals print it - XBR95 2016/2018/2021 p. 18, XBR25 2019 p. 18, XBR55/XBU55 2019 and 2021 p. 20, XBR55ENT/XBU55ENT p. 17, XBR25 2023 p. 21, XBR95 2023 p. 26, XBR55/XBU55 2023 p. 27
+  locator: XE395 2010 p. 18; XE195 p. 20; XE295 p. 21; XG400 p. 20; XE395ENT p. 20;
+    XE395 2023 p. 25; XE795 2023 p. 24; XE100/XE200 p. 24 of the XE100/XE200/XE300
+    manual, all under the CALORIE NOTE; all fourteen Spirit residential bike manuals
+    print it - XBR95 2016/2018/2021 p. 18, XBR25 2019 p. 18, XBR55/XBU55 2019 and
+    2021 p. 20, XBR55ENT/XBU55ENT p. 17, XBR25 2023 p. 21, XBR95 2023 p. 26, XBR55/XBU55
+    2023 p. 27; XE795-2023 (XE815A-SE048) service manual 4.1 Basic Operation, CALORIES
+    NOTE, PDF p. 7 (printed 7), text.md lines 134-139; XE395ENT-2021 (XE539S-SE025-01)
+    service manual CALORIE NOTE, PDF p. 13 (printed 13), lines 168-171
   extracted_at: '2026-09-09'
 ---
 
@@ -134,3 +143,5 @@ whoever uses the machine next:
 XS895-2021, p. 19, under PROGRAMMING THE CONSOLE - so this card now covers a stepper as well,
 including the claim that you keep burning at an accelerated rate for **at least an hour** after
 finishing.
+
+**The XE795-2023 and XE395ENT-2021 service manuals print the note word for word**, accelerated rate for at least an hour included.

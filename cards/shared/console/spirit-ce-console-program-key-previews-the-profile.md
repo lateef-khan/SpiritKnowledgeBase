@@ -90,7 +90,11 @@ source:
     (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), text.md
     lines 210-211; CU800 (2020) service manual PDF p. 14 (printed 13), lines 230-231.
     CR900-2018 service manual BASIC INFORMATION, PDF p. 14 (printed 14), text.md lines
-    186-188; CU900-2018 service manual PDF p. 15 (printed 15), lines 250-252
+    186-188; CU900-2018 service manual PDF p. 15 (printed 15), lines 250-252; CE800
+    (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), text.md
+    lines 264-265; CE850 (2020) service manual BASIC INFORMATION, PDF p. 16 (printed
+    16), lines 319-320; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF
+    p. 15 (printed 15), lines 259-261
   extracted_at: '2026-09-09'
 ---
 
@@ -164,3 +168,5 @@ enter the data set-up mode.
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same two sentences on the Program button preview and Enter.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same preview by pressing each program key, then Enter.
+
+**Three elliptical service manuals print the preview sentence in their Product Operation chapters** - the CE800 (2020) and CE850 (2020) with one **Program button** that previews each program, the CE900 (SE8800-SE026) with **one key per program** and Enter to select - word for word with the owner's manuals.

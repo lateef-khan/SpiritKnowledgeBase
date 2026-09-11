@@ -3,9 +3,10 @@ id: ce800ent-no-resistance
 title: The machine gives no resistance, and the control board is the first part to
   replace
 kind: troubleshooting
-question: Why is there no resistance on a Spirit CE800-2024, CE800ENT or CE800ENT-2024
-  elliptical or a CR800-2021, CR800-2024, CR800ENT-2023, CR800ENT-2024, CU800-2012,
-  CU800-2021, CU800-2024, CU800ENT-2022 or CU800ENT-2024 bike?
+question: Why is there no resistance on a Spirit CE800-2016, CE800-2021, CE800-2024,
+  CE800ENT or CE800ENT-2024 elliptical or a CR800-2021, CR800-2024, CR800ENT-2023,
+  CR800ENT-2024, CU800-2012, CU800-2021, CU800-2024, CU800ENT-2022 or CU800ENT-2024
+  bike?
 asked_as:
 - no resistance on my spirit elliptical
 - pedals feel loose with no load
@@ -26,6 +27,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
   - ce800ent
   - ce800ent-2024
@@ -48,6 +51,8 @@ see_also:
 - ces880-2025-errors-no-resistance
 - cu800-2012-errors-no-resistance-check-the-brake-coil-harness
 - spirit-xbr-2007-errors-no-resistance-change-dc-voltage-at-the-controller
+- spirit-xe-errors-no-resistance-check-console-then-replace-the-gear-motor-cable
+- xe795-2016-errors-resistance-does-not-change-driver-board-cn2-and-8-pin-cable
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: CE800ENT service manual section 7-3 Troubleshooting procedure matrix, page
@@ -59,7 +64,10 @@ source:
     service manual 7-5 Troubleshooting procedure matrix, PDF p. 27 (printed 26), text.md
     lines 420-451; CR800 2020-book (cr800-2021) service manual 7-5 Troubleshooting
     procedure matrix, PDF p. 27 (printed 26), text.md lines 398-429; CU800 2012 (XU878)
-    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573
+    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573;
+    CE800 2016 (XE890B-AE10M) service manual Troubleshooting procedure matrix, PDF
+    p. 32, text.md lines 546-578; CE800 (2020) book (ce800-2021) service manual 7-5
+    Troubleshooting procedure matrix, PDF p. 3 (printed 2), text.md lines 39-64
   extracted_at: '2026-09-08'
 ---
 
@@ -95,3 +103,5 @@ extraction fault. Answer a CR800 2024 or CU800 2024 caller who has no resistance
 anyway, and do not look for a `No resistance` heading in their book.
 
 **Five more bike service manuals print this row.** The CU800ENT "2020 ver." (`cu800ent-2022`) and CR800ENT "2020 Ver." (`cr800ent-2023`) books print it word for word under `No resistance`. The CU800 2020-book (`cu800-2021`) and the CR800 2020-book (`cr800-2021`) print the three causes and three fixes under the slipped label `Wireless lost its function.` - the same defect the 2024 CR800 and CU800 carry, so it is inherited from these two. **The CU800 2012 (XU878) book prints the row under `No resistance` with only the first two causes and the first two fixes** - control board / replace control board, resistance-voltage wire shedding / re-install wire - and no `Driver IC broken` line at all; its Q&A chapter adds a brake-coil harness check instead (`cu800-2012-errors-no-resistance-check-the-brake-coil-harness`). The XBR25/XBR55 2007 dealer manual answers the same symptom with a DC-voltage test at the controller: `spirit-xbr-2007-errors-no-resistance-change-dc-voltage-at-the-controller`.
+
+**Two earlier CE800 elliptical service manuals print this row under `No resistance`.** The CE800 (2020) book (`ce800-2021`) prints all three causes and all three fixes word for word. **The CE800 2016 book (titled XE890B-AE10M) prints only the first two** - control board / replace control board, generator brake resistance voltage wire shedding / re-install wire - and no `Driver IC broken` line, exactly as the CU800 2012 bike does. The XE 2016 residential ellipticals answer the same symptom with a console check and then a new gear-motor cable (`spirit-xe-errors-no-resistance-check-console-then-replace-the-gear-motor-cable`), and the XE795 2016 with the driver board's CN2 output (`xe795-2016-errors-resistance-does-not-change-driver-board-cn2-and-8-pin-cable`).

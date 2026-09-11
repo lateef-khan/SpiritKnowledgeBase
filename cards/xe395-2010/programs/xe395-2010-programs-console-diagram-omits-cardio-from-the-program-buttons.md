@@ -32,6 +32,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons
 - xe395-2010-programs-incline-profiles
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 - spirit-ce-programs-five-preset-work-level-profiles
@@ -57,3 +58,6 @@ those five.
 **A third count appears in the same book.** Its heart rate page says the monitor may be used "during
 manual mode or during any of the **nine** different programs" - boilerplate every Spirit residential
 XE manual carries regardless of how many programs the machine actually has.
+
+**The same caption survives in five 2016 service manuals** - CE850, XE895, XE195, XE395 and XE795 -
+each beside a drawing that labels a CARDIO key. See `spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons`.

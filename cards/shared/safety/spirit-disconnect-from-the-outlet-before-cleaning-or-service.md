@@ -4,9 +4,9 @@ title: Disconnect from the electrical outlet before cleaning or service work
 kind: policy
 question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 2026
   Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a
-  Spirit XE residential elliptical of the 2010 or 2021 generation, a Spirit XBR or
-  XBU residential bike of the 2016, 2019, 2021 or 2023 generation, or a Spirit CVC800
-  climber, before servicing it?
+  Spirit CE850 commercial elliptical, a Spirit XE residential elliptical of the 2010,
+  2016, 2021 or 2023 generation, a Spirit XBR or XBU residential bike of the 2016,
+  2019, 2021 or 2023 generation, or a Spirit CVC800 climber, before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -29,6 +29,8 @@ facets:
   - 40t-2026
   - 70t-2026
   - 80t-2026
+  - ce850-2016
+  - ce850-2020
   - cr800ent-2023
   - ct800ent-2022
   - ct850-2016
@@ -56,16 +58,23 @@ facets:
   - xbu55-2021
   - xbu55-2023
   - xbu55ent-2021
+  - xe195-2016
   - xe195-2019
   - xe195-2021
+  - xe295-2016
   - xe295-2019
   - xe295-2021
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395ent-2021
+  - xe795-2016
   - xe795-2018
   - xe795-2021
+  - xe795-2023
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   section: safety
@@ -82,6 +91,9 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 - spirit-bike-safety-no-mains-outlet-needed
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
+- spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse
+- xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-ce-safety-no-mains-outlet-needed
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
@@ -104,7 +116,21 @@ source:
     (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual:
     section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023
     (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28);
-    text.md lines 191-223.'
+    text.md lines 191-223. Nine Spirit elliptical service manuals print the sentence
+    as the first bullet of section 7: CE850-2016 (XE898-SE011) service manual: 7 Product
+    Safety Instructions, PDF p. 37 (printed 37); text.md lines 606-635. CE850 (2020)
+    service manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md
+    lines 505-533. XE195-2016 (XE509S-SE021-01) service manual: 7 Product Safety Instructions,
+    PDF p. 32 (printed 32); text.md lines 464-492. XE295-2016 (XE519S-SE020-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 472-498.
+    XE395-2016 (XE539S-SE019-01) service manual: 7 Product Safety Instructions, PDF
+    p. 38 (printed 38); text.md lines 601-627. XE795-2016 (XE815-SE024-01) service
+    manual: 7 Product Safety Instructions, PDF p. 35 (printed 35); text.md lines 477-505.
+    XE795-2023 (XE815A-SE048) service manual: 7 Product Safety Instructions, PDF p.
+    14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
+    (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
+    30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -291,3 +317,31 @@ file.
 (`spirit-bike-safety-no-mains-outlet-needed`); the sentence is the treadmill chapter's, carried
 across with the rest of section 7. The other five do plug in. None of the seven states a capacitor
 discharge time or a lock-out procedure.
+
+## Nine Spirit elliptical service manuals print this card's sentence
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals open section 7 with it**, word for word with
+`elliptical` (the two CE850 books and the XE895 spell it `Ellipitcal`):
+
+> To reduce the risk of electric shock disconnect your elliptical from the electrical outlet prior to
+> cleaning and/or service work.
+
+Cleaning as well as service, and the action is to disconnect from the outlet. So for these nine SKUs
+the before-service half of the rule is printed after all - in the service manual. The owner's
+manuals of the CE850 print only the appliance-list DANGER (`spirit-ce850-safety-instructions-list`),
+and the 2018/2019/2021 owner's manuals of the XE range print only the unplug-after-use form (the
+section above); the 2016 books are the service-manual SKUs that precede them and have no owner's
+manual on file. **The statement above that neither XE795 prints this sentence is true of the
+owner's manuals alone**: the XE795-2016 and XE795-2023 service manuals print it, on a self-powered
+machine with no plug to pull (`xe795-2023-safety-outlet-220-volt-15-amp`).
+
+**One page in five of these books goes further**: the fuse-replacement page says `Turn the power
+switch off and unplug the elliptical` - switch and plug, in that order
+(`spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse`). None of the nine states
+a capacitor discharge time or a lock-out procedure.
+
+**The other seven elliptical service manuals print no such sentence.** The CE800 (2020), CE800-2016
+and CE900 books are for self-powered machines (`spirit-ce-safety-no-mains-outlet-needed`); the
+CE900ENT, CE1000ENT-2023 and XE395ENT-2021 books plug in and print no safety chapter at all; the 2007
+XE100-XE500 dealer manual has none either.

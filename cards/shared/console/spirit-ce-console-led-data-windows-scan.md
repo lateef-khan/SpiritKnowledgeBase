@@ -52,7 +52,9 @@ source:
   locator: CE800 2021 p. 15 BASIC INFORMATION; CE800 2023 p. 16; CE850 2020 p. 21;
     CE850 2022 p. 22; CES880 2025 p. 33 FEATURES. CR800 (2020) service manual 4-2-3
     BASIC INFORMATION, PDF p. 13 (printed 12), text.md lines 195-202; CU800 (2020)
-    service manual PDF p. 13 (printed 12), lines 215-222
+    service manual PDF p. 13 (printed 12), lines 215-222; CE800 (2020) service manual
+    4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), text.md lines 249-256; CE850
+    (2020) service manual BASIC INFORMATION, PDF p. 15 (printed 15), lines 303-310
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +102,5 @@ windows with twelve data points and no scan key at all**:
 `csc900-2024-console-four-display-windows`.
 
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same two sets of four readings, same four-second scan.
+
+**The CE800 (2020) and CE850 (2020) service manuals print this passage in their Product Operation chapters**, word for word with the owner's manuals - the CE800 (2020) naming an **RPM** window and the CE850 (2020) a **Stride** window for pedal speed, and both printing the same two sets and the four-second scan.

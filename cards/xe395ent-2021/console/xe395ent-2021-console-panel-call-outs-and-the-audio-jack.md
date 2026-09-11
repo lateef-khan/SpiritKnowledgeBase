@@ -43,7 +43,9 @@ source:
   locator: p. 18, XE395ENT CONSOLE OPERATION drawing; XBR55ENT and XBU55ENT p. 15,
     CONSOLE OPERATION. XBR55ENT-2021 service manual Display Windows, PDF p. 11 (printed
     11), text.md lines 101-127 with the OCR supplement for that page; XBU55ENT-2021
-    service manual PDF p. 11, lines 98-124
+    service manual PDF p. 11, lines 98-124; XE395ENT-2021 (XE539S-SE025-01) service
+    manual Display Windows, PDF p. 11 (printed 11), text.md lines 111-136 with the
+    OCR supplement for that page, and a 100 dpi render
   extracted_at: '2026-09-09'
 ---
 
@@ -90,3 +92,5 @@ the XE395ENT.
 **The two bike service manuals draw the console with four call-outs** - TFT LCD TOUCH PANEL & PROGRAM
 MENU, COOLING FAN, START, STOP, LEVEL CONTROLS and USB CHARGER - and their screen artwork reads
 "HELLO, GUEST" over a START WORKOUT button. Neither names the audio jack on that drawing.
+
+**The XE395ENT's own service manual draws the console with the bike books' four call-outs** - TFT LCD TOUCH PANEL & PROGRAM MENU, COOLING FAN, START, STOP, LEVEL CONTROLS and USB CHARGER - over the same "HELLO, GUEST" screen. Its render shows the key row as a USB socket, FAN, START, LEVEL - and +, STOP, and a key marked with a music note at the right; the audio jack, the speakers, the reading rack and the cargo compartment are not labelled on that drawing. The USB port the owner's manual describes in text is therefore drawn in the service manual.

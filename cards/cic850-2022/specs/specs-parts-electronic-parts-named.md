@@ -35,7 +35,7 @@ not_to_be_confused_with:
 see_also:
 - spirit-cic850-specs-dt3268f-console-part-number
 - spirit-cycle-specs-resistance-systems
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-cic850-2022-service-manual
   locator: 2-1 Upper Controllers PDF p. 7 (printed 6), text.md lines 115-125; 2-2

@@ -1,8 +1,10 @@
 ---
 id: spirit-ce850-console-power-up-self-test
-title: The power-up self-test shows the software version, then the miles and hours, for a few seconds
+title: The power-up self-test shows the software version, then the miles and hours,
+  for a few seconds
 kind: fact
-question: What does the console show at power-up on a Spirit CE850 elliptical or a Spirit CU800-2012 bike?
+question: What does the console show at power-up on a Spirit CE850 elliptical or a
+  Spirit CU800-2012 bike?
 asked_as:
 - what is ver 1.0 on the elliptical display
 - how do i see total miles on my elliptical
@@ -36,7 +38,8 @@ see_also:
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: CE850 2020 p. 20 POWER; CE850 2022 p. 21 POWER
+  locator: CE850 2020 p. 20 POWER; CE850 2022 p. 21 POWER; CE850 (2020) service manual
+    POWER, PDF p. 15 (printed 15), text.md lines 286-289
   extracted_at: '2026-09-09'
 ---
 
@@ -80,3 +83,5 @@ only that much and no self-test detail.
 
 **Both scans of the CU800-2012 manual print this page**, and they agree on VER 1.0 and on the ODO
 line.
+
+**The CE850 (2020) service manual prints the POWER paragraph in a shorter form**: the internal self-test, the odometer "displayed for only a few seconds", then the startup display scrolling the program profiles and the start-up message - with no mention of all the lights turning on and no VER 1.0 line. It, too, says nothing about how the console gets its power.

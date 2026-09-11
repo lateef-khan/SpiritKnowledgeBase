@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-pulse-grips-are-locked-out-during-heart-rate-programs
-title: The grip sensors need both hands and are not usable while a heart rate program is running
+title: The grip sensors need both hands and are not usable while a heart rate program
+  is running
 kind: fact
-question: Why do the pulse grips stop working during a heart rate program on a Spirit XE elliptical or XB bike?
+question: Why do the pulse grips stop working during a heart rate program on a Spirit
+  XE elliptical or XB bike?
 asked_as:
 - my elliptical stops reading my pulse in the heart rate program
 - do i need to hold both handles for the heart rate
@@ -50,7 +52,12 @@ see_also:
 - spirit-xe795-console-dot-matrix-is-twenty-columns-of-boxes-ten-high
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 17 Pulse Grip Feature (same in the February 19 2021 printing); XE395 2023 p. 24; XE795 2023 p. 23, both under FEATURES - CONTINUED; XBR95 2016, 2018 and 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 16, all Pulse Grip Feature; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55/XBU55 2023 p. 22, all FEATURES - CONTINUED
+  locator: XE795 2021 p. 17 Pulse Grip Feature (same in the February 19 2021 printing);
+    XE395 2023 p. 24; XE795 2023 p. 23, both under FEATURES - CONTINUED; XBR95 2016,
+    2018 and 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 16, all
+    Pulse Grip Feature; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55/XBU55 2023 p. 22,
+    all FEATURES - CONTINUED; XE795-2023 (XE815A-SE048) service manual 4.2 Basic Function,
+    Pulse Grip Feature, PDF p. 8 (printed 8), text.md lines 170-173
   extracted_at: '2026-09-09'
 ---
 
@@ -106,3 +113,5 @@ touchscreen Settings menu instead.
 XS895-2021, p. 16, Pulse Grip Feature. Both stainless steel sensors on the **stationary grips**, or
 the heart rate transmitter chest strap, and **you may not use the Pulse Grip feature while in Heart
 Rate Programs**.
+
+**The XE795-2023 service manual prints this paragraph word for word** in its Basic Function table - both stainless steel sensors "on the front cross bar" or the chest strap, and no Grip Pulse in Heart Rate Programs.
