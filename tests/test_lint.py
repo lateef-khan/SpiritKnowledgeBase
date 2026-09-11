@@ -2,6 +2,7 @@ from dataclasses import replace
 
 from kb.card import CardLoadFailure, parse_card
 from kb.config import FacetSpec, KbConfig
+from kb.ids import retrieval_text
 from kb.lint import lint_cards
 from pathlib import Path
 
@@ -627,3 +628,24 @@ def test_the_wildcard_is_not_a_vocabulary_value():
     )
     assert "facet-folds-to-empty" not in slugs(errors)
     assert "facet-fold-collision" not in slugs(errors)
+
+
+def count_words(text: str, model: str) -> int:
+    return len(text.split())
+
+
+def test_retrieval_text_over_the_embedding_limit_is_reported():
+    """text-embedding-3-small refuses an input over 8192 tokens; sync fails after merge."""
+    errors = lint_cards(
+        [make(body="word " * 8300)], CONFIG, {"src-1"}, count_tokens=count_words
+    )
+    assert "too-long" in slugs(errors)
+    assert "8192" in [e for e in errors if e.check == "too-long"][0].message
+
+
+def test_retrieval_text_at_the_embedding_limit_passes():
+    head_words = count_words(retrieval_text(make(body="x")), "") - 1
+    errors = lint_cards(
+        [make(body="word " * (8192 - head_words))], CONFIG, {"src-1"}, count_tokens=count_words
+    )
+    assert "too-long" not in slugs(errors)

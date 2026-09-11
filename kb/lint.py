@@ -3,11 +3,13 @@ from __future__ import annotations
 import re
 import unicodedata
 from collections import Counter
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass
 
 from kb.card import FACET_SENTINEL, SENTINEL_EXEMPT_FACETS, Card, CardLoadFailure
 from kb.config import KbConfig
+from kb.embed import MAX_INPUT_TOKENS, count_tokens as count_embedding_tokens
+from kb.ids import retrieval_text
 
 ASKED_AS_RANGE = (2, 4)
 KEYWORDS_RANGE = (4, 10)
@@ -400,11 +402,33 @@ def _fold_errors(cards: list[Card], config: KbConfig) -> list[LintError]:
     return errors
 
 
+def _length_errors(
+    card: Card, config: KbConfig, count_tokens: Callable[[str, str], int]
+) -> list[LintError]:
+    text = retrieval_text(card)
+    # A token is at least one byte, so a text under the limit in bytes fits
+    # without tokenising it. That keeps the tokeniser off small cards and tests.
+    if len(text.encode("utf-8")) <= MAX_INPUT_TOKENS:
+        return []
+    tokens = count_tokens(text, config.embedding_model)
+    if tokens <= MAX_INPUT_TOKENS:
+        return []
+    return [
+        LintError(
+            card.path,
+            "too-long",
+            f"retrieval text is {tokens} tokens; the embedding model accepts at most "
+            f"{MAX_INPUT_TOKENS}. Trim the body, or move a distinct fact to its own card",
+        )
+    ]
+
+
 def lint_cards(
     cards: list[Card],
     config: KbConfig,
     source_refs: set[str],
     failures: Sequence[CardLoadFailure] = (),
+    count_tokens: Callable[[str, str], int] = count_embedding_tokens,
 ) -> list[LintError]:
     errors = [LintError(f.path, "unparseable", f.message) for f in failures]
     known_ids = {card.id for card in cards}
@@ -469,6 +493,7 @@ def lint_cards(
 
         if not card.body.strip():
             errors.append(LintError(card.path, "empty-body", "card body is empty"))
+        errors.extend(_length_errors(card, config, count_tokens))
 
         codes = {match.lower() for match in CODE_PATTERN.findall(card.title)}
         if len(codes) > 1:

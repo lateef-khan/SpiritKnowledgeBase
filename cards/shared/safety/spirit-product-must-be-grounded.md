@@ -229,7 +229,9 @@ source:
 - **Grounding is mandatory**, not advisory.
 - The risk named for getting the grounding conductor wrong is **electric shock**.
 - **If the plug does not fit, change the outlet, not the plug.** A qualified electrician does that.
-- The circuit named here is a **nominal 120-volt** one, in all three manuals.
+- The `nominal 120-volt circuit` sentence is the CT850 2016 and 2020 service manuals' and the
+  CVC800 service manual's. **The closing sentence is the one thing that changes from book to book** - see the
+  table below - and several books print no circuit sentence at all.
 
 The illustration on the same page labels a **Grounded Outlet**, a **Grounding Pin** on the cord, a
 **Grounded Outlet Box**, an **Adapter**, its **Tab of Grounding Screw**, and the **Metal Screw**
@@ -239,455 +241,162 @@ receptacle.
 **The chapter forbids and permits an adapter in two different places.** The safety instructions say
 `Do not attempt to disable the grounded plug by using improper adapters`, while these grounding
 instructions allow one specific temporary grounding adapter. Both sentences are printed; the
-adapter half is `spirit-temporary-adapter-for-a-two-pole-receptacle`.
+adapter half is `spirit-temporary-adapter-for-a-two-pole-receptacle`. Which books print that
+adapter paragraph, and which do not, is in the table.
 
-All three manuals print these paragraphs. The CVC800 says `climber` for `treadmill`, and the CT850
-2016 prints `earlug` where the other two print `earplug`.
+## The same two paragraphs, in every book that prints them
 
-**The five 2023 XT owner's manuals print both paragraphs in the same words**, with `unit` in
-place of `treadmill` in the first sentence, and with one figure changed.
+The rule never changes from book to book; only the product word in the first sentence, the closing
+circuit sentence, the adapter paragraph and the spelling of the adapter tab do.
 
-**The XT manuals say 110 volt, not 120.**
+**The product word.** `treadmill` in the CT850 service manuals, every CT800, CT850, XT685-2010,
+XT485-2013 and CT850-2013 owner's manual; `climber` in the CVC800 and CRS800S-2021 service manuals;
+`elliptical` in the CE850 and XE895-2018 owner's manuals and the elliptical service manuals - and
+in the CRW800-2016 rower service manual; `elliptical` or `equipment` in the XE395-2010, XE395ENT-2021
+and XG400-2021 books; `unit` in the five 2023 XT owner's manuals and the XT685ENT; `Bike` in the
+bike service manuals and in the CS800-2016 stepper service manual (a bike's paragraph in a stepper
+book); `Rower` in the XRW600 service manual. **The five 2015 XT manuals, the XT485ENT and the XE395-2018 print a
+stray word** - `If the your equipment should malfunction or breakdown` - and print it that way in
+every copy.
 
-> This product is for use on a nominal 110-volt circuit, and has a grounding plug that looks
-> like the plug illustrated below.
-
-So the "nominal 120-volt" sentence above is the CT850 and CVC800 figure. The XT185-2023,
-XT285-2023, XT385-2023, XT485-2023 and XT685-2023 manuals print **110-volt** in the same
-place, and print no other mains figure anywhere on that page. Quote the figure from the
-machine's own manual; these manuals never reconcile the two.
-
-The XT manuals also carry the grounding rule a second time, as item 12 of their safety
-instructions - "Connect this appliance to a properly grounded outlet only. See Grounding
-Instructions" (`xt-2023-safety-instructions-list`).
-
-**The five 2015 XT owner's manuals print both paragraphs in the same words**, with `equipment`
-where the 2023 XT manuals print `unit` and the CT850 and CVC800 manuals print `treadmill` or
-`climber`: `If the your equipment should malfunction or breakdown`. The stray `the` is printed
-that way in all five 2015 manuals.
-
-**Their circuit sentence carries more than the 2023 one, and the five do not agree with each
-other.** The XT185-2015, XT285-2015 and XT385-2015 manuals print:
-
-> This product is for use on a nominal 110-volt/15 amp dedicated circuit, and has a grounding
-> plug that looks like the plug illustrated below.
-
-The XT485-2015 and XT685-2015 manuals print the same sentence with the amp figure removed -
-`a nominal 110-volt dedicated circuit`. The voltage is 110 in all five, matching the 2023 manuals;
-the amp figure and the word `dedicated` are 2015 additions the 2023 manuals dropped. All five 2015
-safety pages separately require a 15-amp outlet, so 15 amp is the figure for all five machines:
-`xt-2015-safety-outlet-and-circuit-requirement`.
-
-The 2015 manuals also carry the grounding rule a second time, as a bullet of their safety
-instructions - `Connect this appliance to a properly grounded outlet only`
-(`xt-2015-safety-instructions-list`). Unlike the 2023 list, that bullet has no
-`See Grounding Instructions` cross-reference.
-
-**The three 2026 Spirit treadmill owner's manuals - 4.0T, 7.0T and 8.0T - print both paragraphs
-in the same words**, each naming its own machine: `In the unlikely event that the 4.0T's
+**The newer opening.** The 2026 4.0T, 7.0T and 8.0T, the 2025 4.0T and 7.0T, the two MT200 books,
+the 8.5UE, the 7.0S, 7.5S, 8.5S and 8.5S-Fit steppers, and the 7.0R, 7.0U, 8.0U and 8.5R medical
+bikes (with the Dyaco MED 7.0R of 2021) open instead `In the unlikely event that the 4.0T's
 electrical system should malfunction or breakdown grounding provides a path of the least
-resistance for electric current`. The rule is unchanged: grounding is mandatory, the plug must
-not be modified, and a qualified electrician installs the right outlet if the plug does not fit.
+resistance for electric current`, each naming its own machine (the MT200 says `the treadmill's`).
+The rule is unchanged.
 
-**These three manuals print no voltage on the grounding page.** They stop after
-`in accordance with all local codes and ordinances`, and print neither the
-`nominal 120-volt circuit` sentence of the CT850 and CVC800 manuals nor the `nominal 110-volt`
-sentence of the XT manuals. The mains figure for these machines is printed on their Electrical
-Safety page instead, as **120 volts, 60 Hz, dedicated 20-amp circuit, NEMA 5-20P**:
-`spirit-2026t-safety-outlet-and-circuit-requirement`. Quote it from there, not from the 110 vs
-120 disagreement above.
+**The adapter tab.** `earlug` in the CT850-2016 service manual, the XT685-2010 book, the 2016 bike
+service manuals, the 2016 and 2020 elliptical service manuals and the CS800-2016 and CRW800-2016
+service manuals; `earplug` in the CT850-2020 and CVC800 service manuals, the 2023 bike service
+manuals, the CRS800S-2021 and the two 4.0T service manuals; `earplugs` in the XE795-2023 service
+manual; `ear-lug` in all four CT850 owner's manuals, the XT485-2013 and the CT850-2013.
 
-**They print no temporary-adapter paragraph at all.** Do not offer
-`spirit-temporary-adapter-for-a-two-pole-receptacle` for a 2026 machine: that permission is not
-in its manual. What these three do print, as item 20 of the 4.0T list and item 3 of the 7.0T and
-8.0T lists, is the flat rule -
+## The closing circuit sentence, book by book
 
-> To avoid risk of electric shock, this equipment must only be connected to a supply main with
-> protective earth.
+Quote the figure from the machine's own book. **Nothing in any of these manuals reconciles one
+figure with another**, and the safety page of the same book often names a different one - the
+last column is the card that holds the safety-page figure.
 
-and, in the same lists, `Do not attempt to disable the grounded plug by using improper adapters,
-or in any way modify the cord set`.
+| Books | Grounding-page circuit sentence | Adapter paragraph | Safety-page figure |
+|---|---|---|---|
+| CT850-2016 svc, CT850-2020 svc, CVC800 svc | `a nominal 120-volt circuit` | yes | - |
+| 4.0T svc (ST8700-ST017 and ST8700A-ST026-01) | `a nominal 120-volt circuit` - section 7.3 word for word with the CT850-2016 svc; its outlet sentence asks `a 120-volt, 20-amp grounded outlet` and 14 AWG cord | yes | `ct850-2020-extension-cord-14-awg-or-better`; the owner's manual says NEMA 5-20P and 1 mm² instead (`spirit-2026t-safety-outlet-and-circuit-requirement`, `40t-2026-safety-extension-cord-1-mm2-or-better`) |
+| XT185, XT285, XT385, XT485, XT685 - 2023 | `a nominal 110-volt circuit`; no other mains figure anywhere on the page | - | - |
+| XT185, XT285, XT385 - 2015 | `a nominal 110-volt/15 amp dedicated circuit` | - | 15-amp outlet on all five 2015 safety pages: `xt-2015-safety-outlet-and-circuit-requirement` |
+| XT485, XT685 - 2015 | `a nominal 110-volt dedicated circuit` - amp figure removed | - | same card; 15 amp is still the figure |
+| XT685ENT | `a nominal 110-volt circuit` (reads like the 2023 books) | yes | no amp figure anywhere in the book |
+| XT485ENT | `a nominal 110-volt dedicated circuit` (reads like the 2015 books) | yes | `xt-2015-safety-outlet-and-circuit-requirement` |
+| XT685-2010 | `a nominal 110-volt circuit` - the shortest in the XT family | yes | **no amp figure anywhere in the manual**: no outlet WARNING header, and its circuit-breaker paragraph lacks the `dedicated 15 amp circuit breaker` sentence the CT800 books close with (`spirit-house-breaker-needs-a-high-inrush-type`) |
+| XT485-2013 (Australian) | `a nominal 230-volt circuit` - the only XT owner's manual with 230 on this page. **The `230` is set in blue where every other figure on the page is black**, as the CT900 service manual's red 220 is: an edited number, quote it with its page. The plug drawing is still a North American two-blade-and-pin one | yes | 230-volt, 10-amp: `spirit-treadmill-safety-outlet-220-volt-10-amp` |
+| 4.0T, 7.0T, 8.0T - 2026; 4.0T, 7.0T - 2025 | **none** - the page stops after `in accordance with all local codes and ordinances` | **no** | 120 volts, 60 Hz, dedicated 20-amp circuit, NEMA 5-20P: `spirit-2026t-safety-outlet-and-circuit-requirement` |
+| MT200-2010, MT200-2022 | **none** - stops after `have a proper outlet installed by a qualified electrician` | **no** | 115 volts AC, 60 Hz, 20 amp: `spirit-mt200-safety-outlet-and-circuit-requirement` |
+| CT800-2012, CT800-2016 | `a nominal 110-volt/15 amp dedicated circuit` | yes | `spirit-ct800-safety-outlet-110-volt-15-amp` |
+| CT800-2020 | `a nominal 120-volt/15 amp dedicated circuit` | **no** - replaced by `If a properly grounded outlet not available,please contact a qualified electrician to have one properly installed`, missing space as printed | `spirit-ct800-safety-outlet-120-volt-15-amp` |
+| CT800ENT-2022 | `a nominal 120-volt/15 amp dedicated circuit` | yes | `spirit-ct800-safety-outlet-120-volt-15-amp` |
+| CT850-2016, CT850-2020, CT850ENT-2022 | `a nominal 120-volt/20 amp dedicated circuit` | yes | `spirit-ct850-outlet-and-circuit-requirement` |
+| CT850-2018 | `a nominal 110-volt/15 amp dedicated circuit` - the CT800 family's figure on a machine whose 2016 and 2020 books ask 120 volt at 20 amp | yes | `spirit-ct800-safety-outlet-110-volt-15-amp` |
+| CT850-2013 | `a 120-volt/20 amp dedicated circuit` - the 2016 and 2020 sentence without `nominal`; the drawing's grounded outlet is a 20-amp T-slot receptacle. A scan with no text layer: read from a render | yes | `spirit-ct850-outlet-and-circuit-requirement`; the 2018 book's 110-volt/15 amp is not in this one |
+| CE850-2016, CE850-2020, CE850-2022 owner's | `a nominal 110-volt/5 amp dedicated circuit` - a figure no Spirit treadmill prints | yes; their safety list forbids nothing about adapters | agrees: `spirit-ce850-safety-outlet-and-circuit-requirement` |
+| CE850-2016 svc (XE898-SE011), XE795-2016 svc, XE895-2016 svc | `a nominal 115-volt circuit` | yes | 115-volt, 15-amp bullet: `spirit-xe-safety-outlet-115-volt-15-amp` |
+| CE850 (2020) svc | `a nominal 115-volt circuit (or 220-volt circuit)` | yes | same card |
+| XE195, XE295, XE395, XG400 - 2016 svc | `a nominal 120-volt circuit` | yes | 120-volt, 15-amp bullet: `spirit-ct800-safety-outlet-120-volt-15-amp` |
+| XE795-2023 svc | `a nominal 120-volt circuit` | yes | 220-volt, 15-amp bullet on the same page: `xe795-2023-safety-outlet-220-volt-15-amp` |
+| XE395-2010 | `a nominal 110-volt circuit` - no amp figure, the XT685-2010 wording | yes | - |
+| XE395ENT-2021, XG400-2021 | `a nominal 110-volt/15 amp dedicated circuit` | yes | their safety pages say **115 volt** two pages earlier: `spirit-xe-safety-outlet-115-volt-15-amp` |
+| XE395-2018 (p. 7), XE895-2018 (p. 6) | `a nominal 110-volt/15 amp dedicated circuit` | yes | `spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp` |
+| XBR25, XBR55, XBU55, XBR95 - 2016 svc | `a nominal 115-volt circuit` | yes | 115-volt, 15-amp bullet - **the one residential family whose two sentences agree**: `spirit-xe-safety-outlet-115-volt-15-amp` |
+| XBR55, XBU55, XBR95 - 2023 svc | `a nominal 120-volt circuit` | yes | 220-volt, 15-amp bullet on the same page, reconciled nowhere: `spirit-xb-2023-safety-outlet-220-volt-15-amp` |
+| CRW800-2016 svc (CW800-YR001), CRS800S-2021 svc | `a nominal 120-volt circuit` | yes | 120-volt, 15-amp: `spirit-ct800-safety-outlet-120-volt-15-amp` |
+| CS800-2016 svc (XS200-SS003) | `a nominal 120-volt (230-volt) circuit` | yes | 120-volt, 15-amp (230-volt, 10-amp): same card |
+| XRW600-2019 svc (DW400-YR002) | **none** - runs from `qualified electrician.` straight to `A temporary adapter`; no safety block anywhere in chapter 7 | yes | its 110-volt, 15-amp figure is the owner's manual's alone: `spirit-xe-safety-outlet-110-volt-15-amp` |
+| 8.5UE | **none** - the sentence simply stops | drawing only, see below | 100 to 240 volt AC, 50/60 Hz, 15 amp: `85ue-2025-safety-outlet-100-to-240-volt-50-60-hz-15-amp` |
+| 7.0R, 7.0U, 8.0U, 8.5R - 2025; Dyaco MED 7.0R 2021 | **none** | drawing only in the 2025 books, text alone in 2021 | 90 to 240 volt on the 7.0R and 7.0U (`spirit-med-bike-safety-outlet-90-to-240-volt-15-amp`), 100 to 240 volt on the 8.0U and 8.5R (`spirit-med-bike-safety-outlet-100-to-240-volt-15-amp`) |
+| CS800-2021 (p. 6), CS800-2024 (p. 7) | 110 volt/5 amp | - | `spirit-climber-safety-outlet-110-volt-5-amp` |
+| XS895-2018, XS895-2021 (p. 6); 7.0S, 7.5S, 8.5S, 8.5S-Fit (p. 7) | the same instruction; the circuit sentence is not recorded here | - | - |
+| CT800-2024, CT850-2024, CT800ENT-2024, CT850ENT-2024 (`GROUNDING INSTRUCTIONS & LOCATION REQUIREMENTS`, p. 7); CE850-2024 (`GROUNDING AND IMPORTANT OPERATION INSTRUCTIONS`); CS800-2024 (`GROUNDING & IMPORTANT OPERATION INSTRUCTIONS`, p. 7) | the same rule in the same words | - | - |
 
-**The two ENT owner's manuals print both paragraphs.** The XT685ENT manual reads like the base 2023
-manuals - `If the unit should malfunction or breakdown` - and prints `a nominal 110-volt circuit`
-with no amp figure. The XT485ENT manual reads like the 2015 manuals, stray word and all -
-`If the your equipment should malfunction or breakdown` - and prints `a nominal 110-volt dedicated
-circuit`. Its own safety page still requires a 15-amp outlet
-(`xt-2015-safety-outlet-and-circuit-requirement`). Both carry the temporary-adapter paragraph
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`).
+**Where the owner's and service manuals of one machine disagree, quote the figure with the book it
+comes from.** The CE850 owner's books say 110 volt at 5 amp, its service manuals 115 volt and no
+amperage. The XE395-2018 and XG400-2021 owner's books say 110-volt/15 amp, the 2016 service manuals
+120 volt. The CRS800S-2021 service manual says 120 volt where the owner's book says 110
+(`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). The CS800-2016 service manual says 120 volt
+with a 230-volt bracket where the 2021 and 2024 owner's books say 110 volt/5 amp. The 4.0T owner's
+manual prints no voltage and no adapter paragraph; its service manuals print both.
 
-**The two Spirit MT200 owner's manuals print both paragraphs in the 2026 machines' wording**, with
-`treadmill's` where the 4.0T manual names itself:
+## Books that print the grounding drawing but no permission to use an adapter
 
-> This product must be grounded. In the unlikely event that the treadmill's electrical system
-> should malfunction or breakdown grounding provides a path of least resistance for electric
-> current, reducing the risk of electric shock.
+The 8.5UE and the 2025 medical bikes (7.0R, 7.0U, 8.0U, 8.5R) print the two-pole-receptacle
+drawing under the text - the 8.5UE's labels a `Grounded Outlet`, a `Grounded Pin`, a `Grounded
+Outlet Pin`, an `Adapter`, a `Metal Screw` and a `Tab of Grounding Screw` - while the text says only
+`Do not modify the plug provided with the product if it will not fit the outlet; have a proper
+outlet installed by a qualified electrician`. **No adapter procedure and no permission is printed,
+so do not read one out of the drawing** (`spirit-temporary-adapter-for-a-two-pole-receptacle`). The
+8.5UE page was read from a 300 dpi render of printed page 7; the Dyaco MED 7.0R of 2021 prints the
+text alone.
 
-**Like the 2026 manuals they print no voltage on the grounding page**, stopping after
-`have a proper outlet installed by a qualified electrician`, and **they print no
-temporary-adapter paragraph at all** - do not offer
-`spirit-temporary-adapter-for-a-two-pole-receptacle` for an MT200. Their mains figure is on the
-safety instructions page instead, as **115 volts AC, 60 Hz, 20 amp**:
-`spirit-mt200-safety-outlet-and-circuit-requirement`.
-
-Their safety instructions also carry the 2026 machines' flat rule -
+**Do not offer the adapter to a 2026 treadmill, a 2025 4.0T or 7.0T, an MT200, a CT800-2020 or a
+CU800ENT-2024** - the permission is not in their books. What the 2026 and MT200 books print
+instead, as item 20 of the 4.0T list and item 3 of the 7.0T and 8.0T lists, is the flat rule
 `To avoid risk of electric shock, this equipment must only be connected to a supply main with
-protective earth` - alongside `Do not attempt to disable the grounded plug by using improper
-adapters, or in any way modify the cord set`.
-
-**All four Spirit CT800 owner's manuals print both paragraphs in the CT850's wording**, with
-`treadmill`. Grounding is mandatory, the risk named is electric shock, the plug must not be
-modified, and a qualified electrician installs the right outlet if the plug does not fit.
-
-**The four do not agree on the voltage, and they split by generation.**
-
-| Manual | Grounding page circuit sentence |
-|---|---|
-| CT800 2012 | `a nominal 110-volt/15 amp dedicated circuit` |
-| CT800 2016 | `a nominal 110-volt/15 amp dedicated circuit` |
-| CT800 2020 | `a nominal 120-volt/15 amp dedicated circuit` |
-| CT800ENT-2022 | `a nominal 120-volt/15 amp dedicated circuit` |
-
-So the 110 of the XT manuals and the 120 of the CT850 and CVC800 manuals are **both** printed
-inside this one family. Nothing in any CT800 manual reconciles them; quote the figure from the
-machine's own manual. The amp figure is 15 in all four, and both halves have their own cards:
-`spirit-ct800-safety-outlet-110-volt-15-amp` and `spirit-ct800-safety-outlet-120-volt-15-amp`.
-
-**Three of the four carry the temporary-adapter paragraph; the 2020 manual does not.** The CT800
-2020 grounding page replaces it with `If a properly grounded outlet not available,please contact a
-qualified electrician to have one properly installed` - the missing space is printed that way. Do
-not offer `spirit-temporary-adapter-for-a-two-pole-receptacle` for a CT800-2020.
-
-The 2012, 2016 and 2020 manuals also carry the grounding rule a second time, as a bullet of their
-safety instructions - `Connect this appliance to a properly grounded outlet only. See Grounding
-Instructions` (`spirit-ct800-safety-instructions-list`). The ENT-2022 manual carries instead
-`Do not modify the plug provided with the product if it will not fit the outlet` and, in capitals,
-`DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
-CORD SET` (`ct800ent-2022-safety-instructions-list`) - the same both-ways treatment of adapters the
-CT850 chapter has.
-
-**All four Spirit CT850 owner's manuals print both paragraphs in the same words**, with
-`treadmill`. Grounding is mandatory, the risk named is electric shock, the plug must not be
-modified, and a qualified electrician installs the right outlet if the plug does not fit. All four
-spell the adapter tab `ear-lug`, with a hyphen.
-
-**Their circuit sentence does not agree across the family.**
-
-| Manual | Grounding page circuit sentence |
-|---|---|
-| CT850 2016 | `a nominal 120-volt/20 amp dedicated circuit` |
-| CT850 2018 | `a nominal 110-volt/15 amp dedicated circuit` |
-| CT850 2020 | `a nominal 120-volt/20 amp dedicated circuit` |
-| CT850ENT-2022 | `a nominal 120-volt/20 amp dedicated circuit` |
-
-The 2018 manual prints the CT800 family's figure for a machine whose 2016 and 2020 manuals ask for
-120 volt at 20 amp. Nothing in any of the four reconciles them; quote the figure from the machine's
-own manual - `spirit-ct850-outlet-and-circuit-requirement` for the 2016, 2020 and ENT-2022 machines
-and `spirit-ct800-safety-outlet-110-volt-15-amp` for the 2018.
-
-**All four carry the temporary-adapter paragraph**
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`), and the 2016, 2018 and 2020 manuals also
-carry the grounding rule a second time, as a bullet of their safety instructions -
-`Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
-(`spirit-ct800-safety-instructions-list`). The CT850ENT-2022 manual carries instead
-`Do not modify the plug provided with the product if it will not fit the outlet` and, in capitals,
-`DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
-CORD SET` (`ct800ent-2022-safety-instructions-list`).
-
-Both manuals also carry the grounding rule a second time, as item 12 of their appliance safety
-list - `Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
-(`spirit-ct800-safety-instructions-list`).
-
-## The XT685-2010 manual prints both paragraphs and names no amp figure
-
-**It prints them in the CT800 and CT850 wording, with `treadmill`** - not the `equipment` of the
-2015 XT manuals or the `unit` of the 2023 ones. Grounding is mandatory, the risk named is electric
-shock, the plug must not be modified, and a qualified electrician installs the right outlet if the
-plug does not fit. It carries the temporary-adapter paragraph too
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`), spelling the tab `earlug` as the CT850 2016
-manual does.
-
-**Its circuit sentence is the shortest in the XT family:**
-
-> This product is for use on a nominal 110-volt circuit, and has a grounding plug that looks like
-> the plug illustrated below.
-
-**No amp figure appears anywhere in that manual.** Its safety instructions page carries no outlet
-WARNING header, and its circuit-breaker paragraph ends without the `dedicated 15 amp circuit
-breaker` sentence the CT800 manuals close with
-(`spirit-house-breaker-needs-a-high-inrush-type`). So there is no 15-amp figure to quote for an
-XT685-2010 - the same position the XT685ENT manual is in, and the opposite of the five 2015 XT
-manuals, whose own safety pages do require a 15-amp outlet
-(`xt-2015-safety-outlet-and-circuit-requirement`). The voltage is 110, as in every other XT manual.
-
-It also carries the grounding rule a second time, as item 12 of its appliance safety list -
-`Connect this appliance to a properly grounded outlet only. See Grounding Instructions`
-(`spirit-ct800-safety-instructions-list`).
-
-## The three Spirit CE850 elliptical owner's manuals print both paragraphs
-
-**Word for word**, with `elliptical` in place of `treadmill` in the first sentence, on the GROUNDING
-INSTRUCTIONS page of the 2016, 2020 and 2022 manuals. Grounding is mandatory, the risk named is
-electric shock, and if the plug does not fit it is the outlet a qualified electrician changes, not
-the plug.
-
-**Their circuit sentence carries a figure no Spirit treadmill prints.**
-
-> This product is for use on a nominal 110-volt/5 amp dedicated circuit, and has a grounding plug
-> that looks like the plug illustrated below.
-
-**110 volt at 5 amp**, not the CT850's 120-volt sentence above and not the XT manuals' 110 volt. All
-three CE850 manuals agree with each other and with the 110-volt, 5-amp outlet their safety page
-requires (`spirit-ce850-safety-outlet-and-circuit-requirement`). Quote the figure from the machine's
-own manual; nothing in these manuals reconciles it with the treadmill figures.
-
-Their illustration labels the same parts - a Grounded Outlet, a Grounding Pin, an Adapter and the
-Metal Screw - and they too permit one temporary grounding adapter on the same page
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`), while their safety list forbids nothing
-about adapters at all.
-
-**The CE800ENT owner's manual has no grounding page.** It prints the 110-volt, 5-amp outlet
-requirement in its safety instructions and the circuit-breaker paragraph on its electrical page, and
-then stops; there is no grounding paragraph, no DANGER about the grounding conductor and no plug
-illustration in that manual (`spirit-ce850-safety-instructions-list`). Do not quote this page for a
-CE800ENT.
-
-**The other six Spirit ellipticals have no mains plug at all.** The CE800, CE900 and CES880 run off
-a built-in generator, so nothing on this card applies to them
-(`spirit-ce-safety-generator-produces-ac-power`).
-
-## Three residential Spirit ellipticals print the same grounding page
-
-**The XE395-2010, XE395ENT-2021 and XG400-2021 owner's manuals print the whole chapter word for
-word**, with `elliptical` or `equipment` where the treadmill manuals write `treadmill` - the product
-must be grounded, the equipment-grounding plug must go into an outlet installed and grounded to
-local codes and ordinances, the DANGER about an improperly connected grounding conductor, and the
-instruction not to modify the plug but to have a proper outlet installed by a qualified electrician.
-
-**The nominal circuit each names differs**, and the amp figure is not always there:
-
-| Manual | Grounding-page sentence |
-|---|---|
-| XE395-2010 | `a nominal 110-volt circuit` - **no amp figure**, the XT685-2010 wording |
-| XE395ENT-2021, XG400-2021 | `a nominal 110-volt/15 amp dedicated circuit` |
-
-**The XE395ENT and XG400 safety pages say 115 volt for the same circuit**, two pages earlier, and
-neither manual reconciles the two figures (`spirit-xe-safety-outlet-115-volt-15-amp`).
-
-**The other eleven residential XE manuals have no grounding page.** The XE195 and XE295 manuals'
-only grounding sentence is the safety-list bullet `Connect this appliance to a properly grounded
-outlet only`; the XE100/XE200/XE300, XE150/XE350/XE550, both XE795 printings and the two 2023 books
-print nothing at all about grounding. That is an absence - do not read this chapter across to them.
-
-## The CU800ENT-2024 bike states the rule in two sentences and has no grounding page
-
-> DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE
-> CORD SET. A serious shock or fire hazard may result along with computer malfunctions.
-
-together with the outlet requirement in the sentence above it - a **120-volt AC, 15-Amp grounded
-outlet** with only the bike on the circuit (`spirit-ct800-safety-outlet-120-volt-15-amp`).
-
-**That is all it prints.** This manual has no Grounding Instructions section, no plug illustration,
-no adapter drawing and no nominal-circuit sentence. So the mandatory grounding, the do-not-modify
-rule and the shock hazard are all stated - but **do not quote the adapter procedure or the plug
-diagram above for this bike**; they come from the treadmill and elliptical manuals and are not in
-this book.
-
-**Two more residential ellipticals print the full paragraph.** The **XE395-2018** book prints it on
-its page 7 and the **XE895-2018** book on its page 6, each with the plug and adapter illustrations
-and the nominal-circuit sentence beside it - `nominal 110-volt/15 amp dedicated circuit` in both
-(`spirit-xe-safety-outlet-115-volt-15-amp`, `spirit-xe-safety-outlet-110-volt-15-amp`). The
-XE395-2018 writes `If the your equipment should malfunction` where the XE895-2018 writes `If the
-elliptical should malfunction`; nothing else differs and no figure changes.
-
-**The XG400 had no grounding page in 2019 and gained one in 2021.** The XG400-2019 book's electrical
-chapter ends at the circuit-breaker paragraph, so this paragraph is absent from it; the XG400-2021
-book prints it. The XE195 and XE295 books have no grounding page in either generation.
-
-**The other twelve Spirit commercial bike manuals print no grounding rule at all.** The two other
-mains-powered ENT bikes, CU800ENT-2022 and CR800ENT-2023, ask only for a grounded outlet and never
-mention the plug; the eight self-powered bikes have no plug and the CR900ENT-2021 and CU900ENT print
-no electrical figures of any kind.
-
-**Six of the fourteen 2024 New Black Units print the grounding page.** The CT800-2024, CT850-2024,
-CT800ENT-2024 and CT850ENT-2024 carry `GROUNDING INSTRUCTIONS & LOCATION REQUIREMENTS` on their
-printed page 7, the CE850-2024 carries `GROUNDING AND IMPORTANT OPERATION INSTRUCTIONS` and the
-CS800-2024 `GROUNDING & IMPORTANT OPERATION INSTRUCTIONS`, both also on printed page 7. All six
-print this rule in the same words. **The other eight 2024 manuals have no grounding page at all** -
-CE800, CE800ENT, CR800, CR800ENT, CU800, CRS800S, CSC900 and CRW800. The CSC900 states the rule as
-item 4 of its safety list instead and forbids any adapter
-(`csc900-2024-safety-outlet-120-or-230-volt`).
-
-**Seven more Spirit climbers print this instruction.** The CS800-2021 stepper on its printed page 6,
-the XS895 incline stepper on printed page 6 of both the 2018 and 2021 books, and the 7.0S, 7.5S,
-8.5S and 8.5S-Fit steppers on their printed page 7. The four stepper books open it as
-`In the unlikely event that the 8.5S's electrical system should malfunction or breakdown` where the
-older books say `If the ... should malfunction or breakdown`; the instruction is the same.
-
-**The stair climbers print no grounding page at all.** The CSC900 books of 2019, 2021 and 2024 and
-the CSC880-2025 carry the grounding sentences only as items of their safety list, and those items
-forbid an adapter outright (`csc900-2024-safety-outlet-120-or-230-volt`,
-`spirit-climber-safety-outlet-120-vac-only`). Neither CRS800S printing has a grounding page either.
-
-
-## The Spirit 8.5UE upper body ergometer prints the same page
-
-**Its GROUNDING INSTRUCTIONS page, printed page 7, carries both paragraphs**, with `the 8.5UE`
-in place of `the treadmill` and one added clause - `In the unlikely event that the 8.5UE's
-electrical system should malfunction or breakdown`. Grounding is mandatory, the risk named is
-electric shock, and if the plug does not fit the outlet a qualified electrician changes the outlet.
-
-**It names no nominal voltage in that paragraph.** Where the treadmill and CE850 books close with
-`This product is for use on a nominal 120-volt circuit`, the 8.5UE sentence simply stops. Its supply
-figure is on the safety page instead - 100 to 240 volt AC, 50/60 Hz, on a 15-amp circuit
-(`85ue-2025-safety-outlet-100-to-240-volt-50-60-hz-15-amp`) - and its safety list adds
-`this equipment must only be connected to a supply main with protective earth`.
-
-**Its illustration shows a temporary adapter that its text never mentions.** The boxed drawing on
-the same page labels a `Grounded Outlet`, a `Grounded Pin`, a `Grounded Outlet Pin`, an `Adapter`, a
-`Metal Screw` and a `Tab of Grounding Screw` - the two-pole-receptacle adapter picture - while the
-text above it says only `Do not modify the plug provided with the product if it will not fit the
-outlet; have a proper outlet installed by a qualified electrician`. **The manual prints no adapter
-procedure and no permission to use one**, so do not read one out of the drawing
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`). Read from a 300 dpi render of printed page 7.
-
-## Seven Spirit residential bike service manuals print both paragraphs
-
-**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
-manuals print the whole section as 7.3 Important Grounding Instructions**, with `If the Bike should
-malfunction or breakdown` - grounding is mandatory, the risk named is electric shock, the plug must
-not be modified, a qualified electrician installs the right outlet, and the plug drawing and the
-temporary-adapter paragraph follow (`spirit-temporary-adapter-for-a-two-pole-receptacle`). The 2016
-books spell the tab `earlug`, the 2023 books `earplug`.
-
-**Their circuit sentence splits by generation, and names no amp figure in either.**
-
-| Service manual | Grounding-page sentence | Safety bullet on the same page |
-|---|---|---|
-| XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016 | `a nominal 115-volt circuit` | 115-volt, 15-amp outlet (`spirit-xe-safety-outlet-115-volt-15-amp`) |
-| XBR55-2023, XBU55-2023, XBR95-2023 | `a nominal 120-volt circuit` | 220-volt, 15-amp outlet (`spirit-xb-2023-safety-outlet-220-volt-15-amp`) |
-
-The 2016 books are the one Spirit residential family whose two voltage sentences agree; the 2023
-books put 220 and 120 on one page and reconcile nothing.
-
-**This is the section the 2023 owner's manuals point at and never print.** Item 12 of the XBR55-2023
-and XBU55-2023 owner's lists says `See Grounding Instructions`; the owner's book has none, the
-service manual has this (`spirit-xb-2023-safety-grounding-instructions-not-printed`). The two XBR95
-books print it on a self-powered machine with no plug (`spirit-bike-safety-no-mains-outlet-needed`).
-
-## Nine Spirit elliptical service manuals print both paragraphs
-
-**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
-XE795-2023, XG400-2016 and XE895-2016 service manuals print the whole section as 7.3 Important
-Grounding Instructions**, with `If the elliptical should malfunction or breakdown` - grounding is
-mandatory, the risk named is electric shock, the plug must not be modified, a qualified electrician
-installs the right outlet, and the plug drawing and the temporary-adapter paragraph follow
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`). The 2016 and 2020 books spell the tab
-`earlug`, the 2023 book `earplugs`.
-
-**Their circuit sentence names three different nominal voltages, and no amp figure in any of them.**
-
-| Service manual | Grounding-page sentence | Safety bullet on the same page |
-|---|---|---|
-| CE850-2016, XE795-2016, XE895-2016 | `a nominal 115-volt circuit` | 115-volt, 15-amp outlet (`spirit-xe-safety-outlet-115-volt-15-amp`) |
-| CE850 (2020) | `a nominal 115-volt circuit (or 220-volt circuit)` | 115-volt, 15-amp outlet (same card) |
-| XE195-2016, XE295-2016, XE395-2016, XG400-2016 | `a nominal 120-volt circuit` | 120-volt, 15-amp outlet (`spirit-ct800-safety-outlet-120-volt-15-amp`) |
-| XE795-2023 | `a nominal 120-volt circuit` | 220-volt, 15-amp outlet (`xe795-2023-safety-outlet-220-volt-15-amp`) |
-
-**That contradicts the owner's-manual figures above for the machines that have both books.** The
-three CE850 owner's manuals say `a nominal 110-volt/5 amp dedicated circuit`; the CE850-2016 and
-CE850 (2020) service manuals say 115 volt and no amperage. The XE395-2018 and XG400-2021 owner's
-manuals say `110-volt/15 amp`; the 2016 service manuals for the XE395 and XG400 say 120 volt. And
-**the statement above that the XE195, XE295 and XE795 books have no grounding page is true of the
-owner's manuals alone** - their 2016 service manuals, and the XE795-2023 service manual, print the
-whole page. Quote the figure with the book it comes from; nothing reconciles them.
-
-**Two of the nine print the page on a machine with no plug.** The XE795-2016 and XE795-2023 are
-generator-powered (`spirit-ce-safety-generator-produces-ac-power`); the section is the treadmill
-chapter carried across with the rest of chapter 7. **The XE395ENT-2021 service manual prints no
-grounding page** and no safety chapter at all; that machine's grounding text is its owner's manual's
-alone. The XE395-2016 and XE395ENT-2021 books do add one grounding sentence of their own, in the
-incline-motor replacement: `Be sure that the grounding wire of the incline motor is firmly secured
-on the frame tube of the Rear Frame.`
-
-## Two rower and two stepper service manuals print both paragraphs
-
-**The CRW800-2016 (CW800-YR001), XRW600-2019 (DW400-YR002), CRS800S-2021 and CS800-2016 (XS200-SS003) service manuals
-print the whole section** - grounding is mandatory, the risk named is electric shock, the plug must not be modified, a
-qualified electrician installs the right outlet, and the plug drawing follows with the adapter paragraph
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`). The CRW800 book says `If the elliptical should malfunction`,
-the XRW600 book `If the Rower`, the CRS800S book `If the climber`, and the CS800-2016 book `If the bike should
-malfunction or breakdown` - a bike's paragraph in a stepper manual.
-
-**Their circuit sentence differs, and one book has none.**
-
-| Service manual | Grounding-page circuit sentence | Safety bullet in the same chapter |
-|---|---|---|
-| CRW800-2016 | `a nominal 120-volt circuit` | 120-volt, 15-amp outlet (`spirit-ct800-safety-outlet-120-volt-15-amp`) |
-| CRS800S-2021 | `a nominal 120-volt circuit` | 120 Volt, 15-amp outlet (same card) |
-| CS800-2016 | `a nominal 120-volt (230-volt) circuit` | 120-volt, 15-amp (230-volt, 10-amp) outlet (same card) |
-| XRW600-2019 | **no circuit sentence** - the paragraph runs from `qualified electrician.` straight to `A temporary adapter` | **no safety block at all** |
-
-So the XRW600 service manual names no voltage anywhere in its chapter 7; that machine's 110-volt, 15-amp figure is its
-owner's manual's alone (`spirit-xe-safety-outlet-110-volt-15-amp`). The CS800-2016 and CRW800-2016 books spell the
-adapter tab `earlug`, the CRS800S book `earplug`.
-
-**That corrects two statements above.** *Neither CRS800S printing has a grounding page* is true of the two owner's
-manuals; the CRS800S-2021 **service** manual prints one, at 120 volts where the owner's book says 110
-(`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). And the CS800 stepper's grounding page is not only the 2021 and
-2024 owner's-manual page at 110 volt/5 amp (`spirit-climber-safety-outlet-110-volt-5-amp`): the 2016 machine's service
-manual prints it at 120 volts with a 230-volt bracket.
-
-## Five Spirit Medical bikes print the 8.5UE page
-
-**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals, and the Dyaco MED 7.0R of 2021, carry both
-paragraphs on a GROUNDING INSTRUCTIONS page**, each naming its own machine - `In the unlikely event
-that the 7.0R's electrical system should malfunction or breakdown`. Grounding is mandatory, the risk
-named is electric shock, and if the plug does not fit the outlet a qualified electrician changes
-the outlet.
-
-**None of the five names a nominal voltage on that page**, and none prints a temporary-adapter
-paragraph. The 2025 books print the two-pole-adapter drawing under the text, as the 8.5UE does, with
-no permission in words; the 2021 book prints the text alone. Their supply figures are on their
-safety pages instead - 90 to 240 volt on the 7.0R and 7.0U
-(`spirit-med-bike-safety-outlet-90-to-240-volt-15-amp`), 100 to 240 volt on the 8.0U and 8.5R
-(`spirit-med-bike-safety-outlet-100-to-240-volt-15-amp`) - and the 8.0U alone adds the flat rule
-`this equipment must only be connected to a supply main with protective earth`. The self-powered
-4.0R and 4.0U have no grounding page and no plug (`spirit-bike-safety-no-mains-outlet-needed`).
-
-## The 2025 4.0T and 7.0T owner's manuals print the 2026 page unchanged
-
-Both paragraphs, each naming its own machine, no voltage on the grounding page and no
-temporary-adapter paragraph - exactly as the 2026 books above.
-
-## The 4.0T service manuals print the CT850 chapter, voltage and adapter included
-
-**Both 4.0T service manuals - ST8700-ST017 and the ST8700A-ST026-01 revision - print section 7.3
-word for word with the CT850 2016 service manual**: `This product is for use on a nominal 120-volt
-circuit`, the plug drawing, and the temporary-adapter paragraph
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`), spelling the tab `earplug`. So the statement
-above that the 4.0T prints no voltage on its grounding page and no adapter paragraph is true of the
-owner's manual alone; the service manual prints both. Its outlet sentence asks for `a 120-volt,
-20-amp grounded outlet` and its cord for 14 AWG (`ct850-2020-extension-cord-14-awg-or-better`),
-where the owner's manual says NEMA 5-20P and 1 mm²
-(`spirit-2026t-safety-outlet-and-circuit-requirement`, `40t-2026-safety-extension-cord-1-mm2-or-better`).
-
-## The Australian XT485-2013 owner's manual names a nominal 230-volt circuit
-
-**It prints both paragraphs in the CT850 wording, with `treadmill`**, and closes `This product is for
-use on a nominal 230-volt circuit, and has a grounding plug that looks like the plug illustrated
-below` - the only XT owner's manual that prints 230 volts on this page, matching the 230-volt,
-10-amp outlet of its safety list (`spirit-treadmill-safety-outlet-220-volt-10-amp`). **The `230`
-is set in blue where every other figure on the page is black** - it reads as an edited number, as
-the CT900 service manual's red 220 does - so quote it with the page it is on. The
-temporary-adapter paragraph and a North American two-blade-and-pin plug drawing follow, tab spelled `ear-lug`
-(`spirit-temporary-adapter-for-a-two-pole-receptacle`), and its safety list adds `See Grounding
-Instructions` after the capitalised adapter rule.
-
-## The CT850-2013 owner's manual prints the 2016 and 2020 figure
-
-**Both paragraphs, with `treadmill`, and `This product is for use on a 120-volt/20 amp dedicated
-circuit`** - the CT850 2016 and 2020 sentence without `nominal` - followed by the temporary-adapter
-paragraph (`ear-lug`) and a drawing whose grounded outlet is a 20-amp T-slot receptacle. The 2018
-book's 110-volt/15 amp figure is not in this one (`spirit-ct850-outlet-and-circuit-requirement`).
-Read from a render; the book is a scan with no text layer.
+protective earth`, with `Do not attempt to disable the grounded plug by using improper adapters, or
+in any way modify the cord set`. The 8.5UE and the 8.0U alone among the medical books add the
+protective-earth sentence to their safety lists.
+
+## The rule is stated a second time in the safety list
+
+- `Connect this appliance to a properly grounded outlet only. See Grounding Instructions` - item 12
+  of the five 2023 XT books and the XT685ENT (`xt-2023-safety-instructions-list`); a bullet of the
+  CT800 2012, 2016 and 2020 and CT850 2016, 2018 and 2020 books, and item 12 of the XT685-2010
+  (`spirit-ct800-safety-instructions-list`). The XT485-2013 adds `See Grounding Instructions`
+  after its capitalised adapter rule.
+- The same bullet **without** the cross-reference - the five 2015 XT books and the XT485ENT
+  (`xt-2015-safety-instructions-list`), and the XE195 and XE295 owner's books, where it is the only
+  grounding sentence printed.
+- `Do not modify the plug provided with the product if it will not fit the outlet` and, in
+  capitals, `DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY
+  MODIFY THE CORD SET` - the CT800ENT-2022 and CT850ENT-2022 books
+  (`ct800ent-2022-safety-instructions-list`), the same both-ways treatment of adapters the CT850
+  chapter has.
+
+## Books that print no grounding page
+
+Do not read this chapter across to them; each is an absence.
+
+- **CU800ENT-2024.** Its SAFETY INSTRUCTIONS page prints, in capitals, `DO NOT ATTEMPT TO DISABLE
+  THE GROUNDED PLUG BY USING IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE CORD SET. A serious shock
+  or fire hazard may result along with computer malfunctions.` under a **120-volt AC, 15-Amp
+  grounded outlet** requirement with only the bike on the circuit
+  (`spirit-ct800-safety-outlet-120-volt-15-amp`). The mandatory grounding, the do-not-modify rule
+  and the shock hazard are all stated - but there is no Grounding Instructions section, no plug
+  illustration, no adapter drawing and no circuit sentence. Do not quote them for this bike.
+- **The other twelve commercial bike manuals.** CU800ENT-2022 and CR800ENT-2023 ask only for a
+  grounded outlet and never mention the plug; the eight self-powered bikes have no plug; the
+  CR900ENT-2021 and CU900ENT print no electrical figures of any kind. The self-powered 4.0R and 4.0U
+  have no page and no plug (`spirit-bike-safety-no-mains-outlet-needed`) - and the two XBR95
+  service manuals print the page on a self-powered machine with no plug.
+- **CE800ENT.** It prints the 110-volt, 5-amp outlet requirement in its safety instructions and
+  the circuit-breaker paragraph on its electrical page, then stops: no grounding paragraph, no
+  DANGER, no plug illustration (`spirit-ce850-safety-instructions-list`). The other six Spirit
+  ellipticals - CE800, CE900, CES880 - run off a built-in generator and have no mains plug
+  (`spirit-ce-safety-generator-produces-ac-power`); the XE795-2016 and XE795-2023 service manuals
+  print the page on such a machine only because chapter 7 was carried across whole.
+- **The other residential XE owner's books.** XE195 and XE295 have the safety bullet alone; the
+  XE100/XE200/XE300, XE150/XE350/XE550, both XE795 printings and the two 2023 books print nothing
+  about grounding. The XG400-2019 has no page (its electrical chapter ends at the circuit-breaker
+  paragraph); the XG400-2021 gained one. The XE195, XE295 and XE795 **service** manuals of 2016,
+  and the XE795-2023 service manual, do print the page. The XE395ENT-2021 service manual prints no
+  grounding page and no safety chapter at all; that machine's grounding text is its owner's
+  manual's alone. The XE395-2016 and XE395ENT-2021 service manuals add one grounding sentence of
+  their own, in the incline-motor replacement: `Be sure that the grounding wire of the incline
+  motor is firmly secured on the frame tube of the Rear Frame.`
+- **The XBR55-2023 and XBU55-2023 owner's books** say `See Grounding Instructions` in item 12 and
+  print none; the service manual has this section
+  (`spirit-xb-2023-safety-grounding-instructions-not-printed`).
+- **Eight of the fourteen 2024 New Black Units** - CE800, CE800ENT, CR800, CR800ENT, CU800, CRS800S,
+  CSC900 and CRW800. The CSC900 states the rule as item 4 of its safety list instead and forbids any
+  adapter (`csc900-2024-safety-outlet-120-or-230-volt`).
+- **The stair climbers** - CSC900 of 2019, 2021 and 2024, and CSC880-2025 - carry the grounding
+  sentences only as safety-list items that forbid an adapter outright
+  (`csc900-2024-safety-outlet-120-or-230-volt`, `spirit-climber-safety-outlet-120-vac-only`).
+  Neither CRS800S owner's printing has a page; the CRS800S-2021 service manual does.
