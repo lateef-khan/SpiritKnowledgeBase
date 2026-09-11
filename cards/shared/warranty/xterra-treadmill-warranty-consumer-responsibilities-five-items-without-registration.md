@@ -4,7 +4,8 @@ title: What the owner has to do for the warranty to apply - five items, and regi
   is not one of them
 kind: policy
 question: What are the consumer responsibilities under the warranty on the Xterra
-  TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 and WS300 treadmills?
+  TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 and WS300 treadmills and the FB180,
+  SB240 and SB600 bikes?
 asked_as:
 - what do i have to do to keep my xterra warranty
 - responsibilities of the consumer
@@ -23,9 +24,12 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - fb180-2025
+  - sb240-2023
+  - sb600-2023
   - tr65-2023
   - tr75-2024
   - tr75h-2025
@@ -45,6 +49,7 @@ see_also:
 - xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline
 - xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day
 - xt-2023-warranty-consumer-responsibilities
+- fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'RESPONSIBILITIES OF THE CONSUMER, items 1-5, first warranty page: TR65
@@ -57,7 +62,10 @@ source:
     (trx1400-2023) pp. 36-38 (printed 35-37), effective March 08, 2023, text.md lines
     1192-1285; WS200 (ws200-2023) pp. 32-34 (printed 31-33), effective August 07 2023,
     text.md lines 936-1029; WS300 (ws300-2023) pp. 32-34 (printed 31-33), effective
-    August 07 2023, text.md lines 889-982'
+    August 07 2023, text.md lines 889-982. FB180 (fb180-2025) PDF pp. 18-19 (printed
+    17-18), lines 529-590, effective June 01, 2025; SB240 (sb240-2023) PDF pp. 38-40
+    (printed 37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023)
+    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -69,9 +77,8 @@ source:
 4. Damages to the treadmill finish during shipping, installation or following installation.
 5. Routine maintenance of this unit as specified in this manual.
 
-**Eight books print this list**: TR65, TR75, TR75H, TR85, TR95H, TRX1400, WS200, WS300. The two hiker books say *Hiker Treadmill* for *treadmill*; nothing else changes. It is word for word the Spirit XT 2023 list (`xt-2023-warranty-consumer-responsibilities`).
+**Eight treadmill books print this list**: TR65, TR75, TR75H, TR85, TR95H, TRX1400, WS200, WS300. The two hiker books say *Hiker Treadmill* for *treadmill*; nothing else changes. **The three Online-Support bike books print it too** - the FB180 (*Folding Bike*), SB240 and SB600 (*Recumbent Bike*) - under the same *WARRANTY - RESIDENTIAL* heading. It is word for word the Spirit XT 2023 list (`xt-2023-warranty-consumer-responsibilities`).
 
-**Registering is not on this list, and no 10-day deadline is printed anywhere in these eight books.** The older Xterra books make the registration card item 1 and exclude unregistered products outright (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`); these books instead print a QR code and a Support-tab URL and reserve the right to ask for proof of purchase (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`). The lead sentence says *consumer/facility* and *ordinary household use*, while exclusion 8 two pages on admits a non-dues paying facility at 5 hours a day or less (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day`).
+**Registering is not on this list, and no 10-day deadline is printed anywhere in these eight books.** The older Xterra books, treadmill and bike alike, make the registration card item 1 and exclude unregistered products outright (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`); these books instead print a QR code and a Support-tab URL and reserve the right to ask for proof of purchase (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`). The lead sentence says *consumer/facility* and *ordinary household use*, while exclusion 8 two pages on admits a non-dues paying facility at 5 hours a day or less (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day`).
 
-The nine exclusions that complete the terms are `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`.
-
+The nine exclusions that complete the terms are `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance` - for the FB180, whose item 8 admits no facility, `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`.

@@ -24,9 +24,19 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air650-2021
+  - fs30-2018
+  - fs58e-2013
+  - fs59e-2014
+  - rsx1500-2021
+  - sb240-2023
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr300-2021
   - tr64-2024
   - tr65-2023
@@ -58,7 +68,7 @@ source:
     TRX3500 p. 18, lines 612-654; TRX4500 p. 20, lines 720-762; TRX1400 p. 25, lines
     728-763; TR65 p. 30, lines 1024-1058; TR75 p. 33, lines 953-988; TR85 p. 33, lines
     952-987; TR95H p. 41, lines 1470-1505; TR75H p. 36, lines 1300-1334; WS200 p.
-    25, lines 645-680; WS300 p. 25, lines 646-681
+    25, lines 645-680; WS300 p. 25, lines 646-681 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11) - SB500 OM "Heart Rate" p. 19 (printed 17), lines 651-696 (2014 printing p. 19, OCR supplement from line 747); SB4.5r OM (scan) p. 20, supplement from line 778; SB4500 p. 23, lines 775-818; SB240 "Heart Rate Exertion" p. 33, lines 1006-1041; SB600 p. 36, lines 870-904; AIR650 p. 18, lines 555-600; FS3.0 p. 16, lines 554-599; FS5.8e (scan) p. 23, supplement from line 961; FS5.9e (scan) p. 23, supplement from line 981; RSX1500 p. 25, lines 717-759 (2017 printing p. 23, supplement from line 903)
   extracted_at: '2026-09-11'
 ---
 
@@ -102,3 +112,18 @@ The TRX5500 prints this page with **65% and 85%** (117 to 153 beats) instead; se
 `not_to_be_confused_with`. The TR95H's own heart rate programs use heart rate reserve and
 226 minus age for women, on a different page; see `see_also`.
 
+**The same page on the bikes, ellipticals and climber.** Ten bike, elliptical and climber books print it with the same
+formula, zone and 108-to-144 example: SB500 (both printings), SB4.5r, SB4500, SB240, SB600,
+AIR650, FS3.0, FS5.8e, FS5.9e and RSX1500 (both printings).
+
+| Wording | Books |
+|---|---|
+| "60% of your MHR is the zone that burns fat, while 80% is for strengthening" | SB500, SB4.5r, SB4500, AIR650, FS3.0, FS5.8e, RSX1500 |
+| "60% ... is the recommended for burning fat while 80% is recommended" and "can be achieved by training at 80% or 60%" | SB240, SB600 |
+| "60% ... is recommended for burning fat, while training at 80%" | FS5.9e |
+| "With this XTERRA Fitness unit you may use the heart rate monitor feature without using the Heart Rate program ... the machine will automatically adjust **speed or incline**" - treadmill wording left on a bike, which adjusts resistance | SB600 |
+
+None of the ten carries the "Spirit Fitness" leftover. The SB150, SB250, EU150, FS150,
+SB2.5r, FS1.5, FS2.5, FS3.5 and the twelve basic consoles print no heart rate exertion page;
+the ones with heart rate control programs state their targets as a percentage of 220 minus
+age on the program page instead.

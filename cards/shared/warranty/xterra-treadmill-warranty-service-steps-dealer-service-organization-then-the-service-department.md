@@ -3,8 +3,8 @@ id: xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the
 title: The order of steps for getting warranty service, and the return authorization
   rule
 kind: procedure
-question: How do I get warranty service on an Xterra treadmill, and can I ship it
-  back to the factory?
+question: How do I get warranty service on an Xterra treadmill, bike, elliptical or
+  seated stepper, and can I ship it back to the factory?
 asked_as:
 - how do i get warranty service on my xterra
 - who do i call for xterra warranty repair
@@ -24,9 +24,36 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air350-2019
+  - air650-2021
+  - eu100-2018
+  - eu150-2024
+  - fb150-2021
+  - fb160-2019
+  - fb350-2021
+  - fb360-2019
+  - fs15-2019
+  - fs150-2016
+  - fs25-2020
+  - fs30-2018
+  - fs35-2020
+  - fs59e-2014
+  - mb500-2014
+  - mb550-2018
+  - mbx2500-2018
+  - rsx1500-2021
+  - sb120-2022
+  - sb150-2018
+  - sb240-2023
+  - sb250-2024
+  - sb25r-2020
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -44,6 +71,7 @@ facets:
   - trx3500-2024
   - trx4500-2024
   - trx5500-2024
+  - ub120-2023
   - ws200-2023
   - ws300-2023
   section: warranty
@@ -56,6 +84,11 @@ see_also:
 - xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping
 - xt-2023-warranty-service-steps
 - mt200-2022-warranty-service-steps
+- xterra-warranty-support-contacts-which-phone-number-each-bike-elliptical-and-climber-book-prints
+- xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed
+- xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping
+- fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts
+- fs58e-2013-warranty-page-not-in-the-scanned-manual
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'SERVICE, steps 1-6, on the warranty page of every book: TR150 (tr150-2021)
@@ -80,7 +113,40 @@ source:
     (printed 39), effective March 20, 2024, text.md lines 1272-1341; WS200 (ws200-2023)
     pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines 936-1029; WS300
     (ws300-2023) pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines
-    889-982'
+    889-982. AIR350 (air350-2019) PDF p. 19 (printed 16), lines 390-461, effective
+    June 13, 2019; AIR650 (air650-2021) PDF p. 21 (printed 18), lines 694-765, effective
+    December 12, 2020; FB150 (fb150-2021) PDF p. 15 (printed 13), lines 396-467, effective
+    August 27, 2021; FB350 (fb350-2021) PDF p. 17 (printed 15), lines 461-532, effective
+    August 27, 2021; FB160 (fb160-2019) PDF p. 18 (printed 15), lines 626-697, effective
+    September 19, 2019; FB360 (fb360-2019) PDF p. 23 (printed 20), lines 784-855,
+    effective September 13, 2019; MB500 (mb500-2014) PDF p. 10 (scan of printed 16-17),
+    OCR lines 497-600, effective August 1, 2014; MB550 (mb550-2018) PDF p. 19 (printed
+    17), lines 664-735, effective August 21, 2018; MBX2500 (mbx2500-2018) PDF p. 18
+    (printed 16), lines 515-586, effective August 21, 2018; SB120 (sb120-2022) PDF
+    p. 23 (printed 21), lines 813-884, effective July 19, 2022; SB150 (sb150-2018)
+    PDF p. 26 (printed 24), lines 798-866, effective August 21, 2018; SB240 (sb240-2023)
+    PDF pp. 38-40 (printed 37-39), lines 1166-1258, effective August 01, 2023; SB250
+    (sb250-2024) PDF p. 27 (printed 25), lines 893-961, effective June 21, 2019; SB2.5r
+    (sb25r-2020) PDF p. 19 (printed 17), lines 638-706, effective July 06, 2020; SB4500
+    (sb4500-2021) PDF p. 26 (printed 24), lines 890-960, effective August 10, 2021;
+    SB4.5r (sb45r-2013) PDF p. 23 (scan of printed 21), OCR lines 931-1029, effective
+    August 1, 2012; SB500 (sb500-2020) PDF p. 23 (printed 21), lines 827-897, effective
+    July 06, 2020; SB600 (sb600-2023) PDF pp. 41-43 (printed 40-42), lines 1051-1144,
+    effective August 01, 2023; UB120 (ub120-2023) PDF p. 22 (printed 19), lines 626-697,
+    effective December 06, 2023; RSX1500 (rsx1500-2021) PDF p. 28 (printed 25), lines
+    838-909, effective August 21, 2018; EU100 (eu100-2018) PDF p. 19 (printed 16),
+    lines 528-596, effective August 21, 2018; EU150 (eu150-2024) PDF p. 27 (printed
+    24), lines 736-804, effective April 26, 2024; FS150 (fs150-2016) PDF p. 26 (scan
+    of printed 24), OCR lines 1090-1181, effective June 6, 2016; FS1.5 (fs15-2019)
+    PDF p. 19 (printed 17), lines 622-690, effective February 15, 2019; FS2.5 (fs25-2020)
+    PDF p. 19 (printed 17), lines 681-749, effective July 06, 2020; FS3.0 (fs30-2018)
+    PDF p. 19 (printed 17), lines 665-733, effective August 21, 2018; FS3.5 (fs35-2020)
+    PDF p. 19 (printed 17), lines 673-741, effective July 06, 2020; FS5.9e (fs59e-2014)
+    PDF p. 27 (scan of printed 25), OCR lines 1235-1333, effective August 1, 2012;
+    SB500 2014 printing: registration PDF p. 3, OCR lines 31-74; warranty PDF p. 23
+    (scan of printed 21), OCR lines 965-1065, effective August 1, 2014; RSX1500 2017
+    printing: registration PDF p. 3, OCR lines 58-105; warranty PDF p. 26 (scan of
+    printed 24), OCR lines 1047-1145, effective December 20, 2017'
   extracted_at: '2026-09-11'
 ---
 
@@ -88,12 +154,11 @@ source:
 
 1. Contact your selling authorized XTERRA Fitness dealer. **OR**
 2. Contact your local authorized XTERRA Fitness service organization.
-3. If there is a question as to where to obtain service, contact our service department at **(870) 336-4286** - *in the eleven older-layout and 2024 TRX books* - or at **(870) 935-1107** - *in the eight Online-Support books* (`xterra-treadmill-warranty-support-contacts-three-phone-numbers-email-and-addresses`).
+3. If there is a question as to where to obtain service, contact our service department at **(870) 336-4286** - *in the eleven older-layout and 2024 TRX treadmill books and the SB2.5r, SB4500, SB4.5r, SB500, RSX1500, FS1.5, FS2.5, FS3.0, FS3.5 and FS5.9e* - or at **(870) 935-1107** - *in the eight Online-Support treadmill books and the SB240 and SB600* - or at **(870) 333-5500** - *in the FB150, FB350, FB160, FB360, SB150, SB250, EU100, EU150 and FS150* - or at **(800) 258-8511** - *in the AIR350, AIR650, MB500, MB550, MBX2500, SB120 and UB120* (`xterra-treadmill-warranty-support-contacts-three-phone-numbers-email-and-addresses`, `xterra-warranty-support-contacts-which-phone-number-each-bike-elliptical-and-climber-book-prints`).
 4. XTERRA Fitness' obligation under this warranty is limited to **repairing or replacing, at XTERRA Fitness' option**, the product through one of our authorized service centers. **All repairs must be preauthorized by XTERRA Fitness.** Freight to and from a service center, shipping and handling on replacement parts, and a trip charge for in-home service are the customer's, with an extra trip charge beyond 100 miles (`xterra-treadmill-warranty-owner-pays-freight-parts-shipping-and-trip-charges`).
 5. The owner is responsible for adequate packaging upon return to XTERRA Fitness. XTERRA Fitness is not responsible for damages in shipping. Make all freight damage claims with the appropriate freight carrier. **DO NOT SHIP ANY UNIT TO OUR FACTORY WITHOUT A RETURN AUTHORIZATION NUMBER. All units arriving without a return authorization number will be refused.**
 6. For any further information, or to contact our service department by mail, send your correspondence to: **XTERRA Fitness, Inc., P.O. Box 2037, Jonesboro, AR 72402-2037** (the TR150 and TR200 print *XTERRA*; the TRX1000 and TR260 *XTERRA Fitness*).
 
-**All nineteen books print these steps** - in the older and 2024 TRX layouts as items 1-6 under SERVICE on the single warranty page, in the Online-Support layout as items 1-5 on the third warranty page with the address as a separate paragraph. The remedy is stated twice: the opening paragraph promises *new or remanufactured parts, at XTERRA Fitness's option, and technical support to our independent dealers and servicing organizations*, administered directly to a consumer only where there is no dealer or service organization.
+**All nineteen treadmill books print these steps** - in the older and 2024 TRX layouts as items 1-6 under SERVICE on the single warranty page, in the Online-Support layout as items 1-5 on the third warranty page with the address as a separate paragraph. **Twenty-eight bike, elliptical and seated-stepper books print them too**, with two departures. Ten of them - the SB150, SB250, SB2.5r, EU100, EU150, FS150, FS1.5, FS2.5, FS3.0 and FS3.5 - run step 5's packaging and return-authorization text straight on from step 4 and drop the trip-charge sentences, so their list is five steps with the address as step 5 (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`). And the FB160 and FB360 open the paragraph with *three (3) months* where every other book says twelve and eighteen (`xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping`). **The FB180 prints no SERVICE section at all** - no steps, no return-authorization rule, no service-department number (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`); the FS5.8e scan has no warranty page (`fs58e-2013-warranty-page-not-in-the-scanned-manual`). The remedy is stated twice: the opening paragraph promises *new or remanufactured parts, at XTERRA Fitness's option, and technical support to our independent dealers and servicing organizations*, administered directly to a consumer only where there is no dealer or service organization.
 
 The steps are the Spirit ones with the brand changed (`xt-2023-warranty-service-steps`); the sentence before them about the twelve- and eighteen-month periods is `xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping`.
-

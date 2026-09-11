@@ -1,26 +1,22 @@
-# Section brief — `errors` (Xterra treadmill wave X1)
+# Section brief — `errors` (Xterra wave X2: bikes, ellipticals, climber)
 
-Read `$S/briefs-x1/COMMON.md` first. Your section facet is `section: errors`.
+Read `$S/briefs-x2/COMMON.md` first. Your section facet is `section: errors`.
 
-Yours: the service manuals' **error-code chapters** (Dyaco chapter 8: E0, E1, E2,
-E4, ER, and any other code — one card per code per family, with the cause table
-and the "solution follow chart" steps as a numbered procedure; the RPM/speed
-sensor check procedure belongs with E1), **Controller Indicator LED Debugging**
-(6.6) and LED meanings, troubleshooting matrices split by **subsystem** (no
-power, motor does not run, incline does not move, console blank, belt stops,
-noise), and the owner's manuals' **Troubleshooting** pages and Q&A tables
-(condition / reason / solution rows whose remedy is a part swap, a wiring check
-or a reset). The TR150 MCB photo (`xterra-treadmill-tr150-2021-mcb-wiring-photo`,
-authority 2) corroborates "no power / motor does not run" checks — cite it in
-the locator, do not build a card on it alone.
+Yours: the owner's manuals' **Troubleshooting** pages and Q&A tables (rows
+whose remedy is a part swap, a wiring or battery check, or a reset), error
+codes printed anywhere (E1 / E2 / ERR on the Dyaco consoles — one card per code
+per family, `code` lowercase), the SB600 service manual's error and check pages,
+the FB160 and SB120 service documents (they are short fault / fix sheets — read
+every line), and the **AIR650 service facts from the AB900 service manual**
+(`spirit-bike-ab900-2018-service-manual`): its error-code chapter, LED debugging
+and troubleshooting matrix, written as Xterra cards for `air650-2021` with the
+`cards/ab900-2018/errors/` twin in `see_also`, omitting Bluetooth items.
 
-**Not yours:** a Q&A row whose remedy is a *care procedure* (lubricate, tension,
-track the belt, clean) → maintenance — say in your report which rows you left.
-Menus and calibration → console. "Prepare tools" → parts. Circuit diagrams and
-LED *locations* → specs. Indicator lights as console features → console; their
-*fault* meanings are yours.
+**Not yours:** a Q&A row whose remedy is a *care procedure* (tighten, lubricate,
+adjust the belt or brake, level the machine) → maintenance — say in your report
+which rows you left. Menus → console. Circuit diagrams → specs.
 
-`code` lowercase (`e0`, `e1`, `er`). Spirit and Sole twins exist for the Dyaco
-pages (`E1` on a Spirit CT800 is a different fault table) — link with
-`not_to_be_confused_with`, never add a brand. Prove every absence twice: the
-JKEXER books (TR75H, TR95H) may print no codes at all — check the supplements.
+Spirit and Sole twins exist for most Dyaco fault tables — link with
+`not_to_be_confused_with` where the code letters match but the meaning differs,
+never add a brand. Prove every absence twice: several of these small books print
+no error codes at all.

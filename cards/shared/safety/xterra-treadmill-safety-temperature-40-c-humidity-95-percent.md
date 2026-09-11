@@ -3,8 +3,8 @@ id: xterra-treadmill-safety-temperature-40-c-humidity-95-percent
 title: Rated for 40 degrees C and 95 percent non-condensing humidity, never outdoors
   or near a pool
 kind: spec
-question: What temperature and humidity is an Xterra treadmill rated for, and can
-  it go in a garage, outdoors or by a pool?
+question: What temperature and humidity is an Xterra treadmill or SB240 or SB600 recumbent
+  bike rated for, and can it go in a garage, outdoors or by a pool?
 asked_as:
 - can i put the xterra treadmill in the garage
 - can the treadmill get wet
@@ -24,9 +24,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - sb240-2023
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -49,12 +51,14 @@ facets:
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xterra-safety-temperature-40-to-120-f-humidity-95-percent
 see_also:
 - xterra-treadmill-safety-electrical-information-page
 - xterra-treadmill-safety-instructions-list-older-layout
 - ct900ent-operating-environment-voltage
 - f80-2026-operating-temperature-and-humidity
+- xterra-sb-safety-electrical-safety-page
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the NEVER expose paragraph of the electrical page: TR150 OM PDF p. 6 (lines
@@ -65,12 +69,14 @@ source:
     TR95H OM PDF p. 7 (lines 161-198); TRX1000 OM PDF p. 5 (lines 158-205); TRX1400
     OM PDF p. 7 (lines 162-199); TRX2500 OM PDF p. 5 (lines 131-177); TRX3500 OM PDF
     p. 5 (lines 130-175); TRX4500 OM PDF p. 5 (lines 131-178); TRX5500 OM PDF p. 5
-    (lines 137-185); WS200 OM PDF p. 7 (lines 163-200); WS300 OM PDF p. 7 (lines 164-201)'
+    (lines 137-185); WS200 OM PDF p. 7 (lines 163-200); WS300 OM PDF p. 7 (lines 164-201);
+    the same sentence, with unit for treadmill, on the two new-layout recumbent bikes:
+    SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239)'
   extracted_at: '2026-09-11'
 ---
 
-**Every Xterra treadmill owner's manual prints the same environment limit, in one sentence on the
-electrical page.**
+**Every Xterra treadmill owner's manual, and the two new-layout recumbent bike books (SB240, SB600),
+print the same environment limit, in one sentence on the electrical page.**
 
 > NEVER expose this treadmill to rain or moisture. This product is NOT designed for use outdoors, near
 > a pool or spa, or in any other high humidity environment. The temperature specification is 40
@@ -89,4 +95,9 @@ TRX5500 note to let a machine warm to room temperature before plugging it in
 
 The Spirit CT900ENT and Sole F80-2026 print the same figures for their own machines
 (`ct900ent-operating-environment-voltage`, `f80-2026-operating-temperature-and-humidity`).
+
+The six older plug-in bikes, ellipticals and the seated stepper give a different figure - 40 to 120
+degrees Fahrenheit, the only Xterra rating with a minimum
+(`xterra-safety-temperature-40-to-120-f-humidity-95-percent`); the other twenty-two non-treadmill books
+give no rating at all.
 

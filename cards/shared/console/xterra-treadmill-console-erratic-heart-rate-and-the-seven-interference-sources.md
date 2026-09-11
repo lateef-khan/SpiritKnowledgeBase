@@ -2,7 +2,8 @@
 id: xterra-treadmill-console-erratic-heart-rate-and-the-seven-interference-sources
 title: Wild or random heart-rate numbers, and the seven interference sources
 kind: troubleshooting
-question: Why does the heart rate reading jump around on my Xterra treadmill?
+question: Why does the heart rate reading jump around on my Xterra treadmill, bike,
+  elliptical or air bike?
 asked_as:
 - heart rate numbers are all over the place
 - chest strap reading is random
@@ -20,9 +21,17 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air650-2021
+  - fs25-2020
+  - fs35-2020
+  - fs59e-2014
+  - sb25r-2020
+  - sb4500-2021
+  - sb500-2020
+  - sb600-2023
   - tr66-2021
   - trx4500-2024
   - trx5500-2024
@@ -36,7 +45,12 @@ see_also:
 source:
   ref: xterra-treadmill-trx4500-2024-owners-manual
   locator: Erratic Operation, PDF p. 18 (printed 16), text.md lines 700-715; TR6.6
-    OM p. 24 lines 972-987; TRX5500 OM p. 27 lines 815-830
+    OM p. 24 lines 972-987; TRX5500 OM p. 27 lines 815-830; AIR650 OM, PDF p. 20,
+    text.md lines 675-690; SB2.5r OM, PDF p. 17, text.md lines 570-585; FS2.5 OM,
+    PDF p. 17, text.md lines 613-628; FS3.5 OM, PDF p. 17, text.md lines 605-620;
+    SB500 OM, PDF p. 21, text.md lines 769-783; SB4500 OM, PDF p. 25, text.md lines
+    869-884; SB600 OM, PDF p. 35, text.md lines 841-864; FS5.9e OM (OCR), PDF p. 25,
+    text.md lines 1141-1165
   extracted_at: '2026-09-11'
 ---
 
@@ -55,4 +69,6 @@ Areas to look for interference that may cause an erratic heart rate:
 If problems continue, contact XTERRA Fitness (the TR6.6 book's sentence reads "contact your us").
 
 This is a console reading problem, not an error code; none of the three books prints a code for it. The wearing instructions the page follows are on [the strap card](xterra-treadmill-console-wearing-the-chest-strap-and-its-2500-hour-battery.md). Spirit treadmills print the same list ([Spirit twin](../../ctsbs900/console/heart-rate-chest-strap-troubleshooting.md)).
+
+**The bikes, ellipticals and air bike print the same seven-item list.** The AIR650, SB2.5r, FS2.5, FS3.5 and SB600 books keep the treadmill sentence - "Do not use this treadmill for Heart Rate programs" - on machines that have no belt; the SB500, SB4500 and FS5.9e say "this product". The SB500, SB4500 and FS5.9e call the pickup "the receiver" where the others say "the antenna". The closing line is "contact your us" (SB2.5r, FS2.5, FS3.5, SB500, FS5.9e), "contact our service department" (SB4500) or "contact XTERRA Fitness" (AIR650, SB600). The FS5.8e scan ends before this page, so it is not listed; the SB240 prints no such page.
 

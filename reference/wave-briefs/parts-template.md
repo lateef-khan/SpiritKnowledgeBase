@@ -1,27 +1,27 @@
-# Section brief — `parts` (Xterra treadmill wave X1) — files under `section: specs`, plus **warranty**
+# Section brief — `parts` (Xterra wave X2: bikes, ellipticals, climber) — files under `section: specs`, plus **warranty**
 
-Read `$S/briefs-x1/COMMON.md` first. Your cards carry `section: specs` with ids
+Read `$S/briefs-x2/COMMON.md` first. Your cards carry `section: specs` with ids
 `<model>-specs-parts-…` / `xterra-<family>-specs-parts-…`, and `section: warranty`
 with ids `…-warranty-…`.
 
-Yours, parts: the owner's manuals' **Exploded View Diagram** and parts lists
-(item / name / qty — rebuild the table exactly; a diagram with no list is a
-finding), the service manuals' chapter 2 **Electronic Parts** (2.1 upper
-controllers, 2.2 lower controller and driver — part names and numbers), "Prepare
-tools" lists, part numbers anywhere in the books. The three per-line Spirit
-tool-list cards were merged into one `product_line: '*'` card
-(`spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`) — the
-Xterra equivalent is its own Xterra card linked with `see_also`; never extend
-that one.
+Yours, parts: every owner's manual's **exploded view and parts list** (item /
+name / qty exact — most of these books print one; the scans' lists are OCR, read
+the render), the SB600 service manual's parts pages, the AB900 service manual's
+electronic-parts list and tool list as Xterra cards for `air650-2021` (link the
+ab900 twins; note the two covers that differ per the AIR650 note), part numbers
+anywhere.
 
-Yours, warranty: **every warranty page** in the wave — the 2021/2024-batch books'
-XTERRA Inc. / XTERRA Fitness warranty (periods per component, the 18-months-from-
-manufacture rule, exclusions, commercial-use clause, how to obtain service), the
-new-layout books' Warranty pages, **Product Registration** and **Online Support**
-pages (phone numbers — (870) 336-4286 and 1-800-258-8511 both appear, and that
-difference is a finding — email, registration URL; repo ruling: `warranty`),
-the service manuals' warranty statements if any. A different effective date is a
-locator line; a different term or period is a new card with the term in the
-title. `applies_to` lists the Xterra ids that print the page — never `'*'`.
+Yours, warranty: **every warranty page** (periods per component — frame,
+parts, labor, wear items — the 18-months-from-manufacture rule, exclusions,
+commercial-use clause, how to obtain service, the 48-states clause), and every
+**Product Registration / Online Support** page. **Extend the X1 warranty cards**
+where the term and wording are the same (set `product_line: '*'`; the 48-states
+clause, registration, contacts, "not transferable", service steps are likely
+identical) — a different period or a bike-specific wear-item list is a new card
+with the term in the title. Two printings of one book (SB500 2014 / 2020,
+RSX1500 2017 / 2021) with different effective dates are one card with both dates
+in the locator and body. `applies_to` lists the Xterra ids that print the page
+— never `'*'`.
 
-Not yours: wiring → specs; safety labels → safety; assembly hardware kit → assembly.
+Not yours: wiring → specs; safety labels → safety; assembly hardware kit →
+assembly.

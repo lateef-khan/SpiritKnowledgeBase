@@ -1,25 +1,23 @@
-# Section brief — `console` (Xterra treadmill wave X1)
+# Section brief — `console` (Xterra wave X2: bikes, ellipticals, climber)
 
-Read `$S/briefs-x1/COMMON.md` first. Your section facet is `section: console`.
+Read `$S/briefs-x2/COMMON.md` first. Your section facet is `section: console`.
 
-Yours: the owner's manuals' console chapters — About Your Machine, Console
-Screen Overview (display windows, what each shows), Console Features (keys one by
-one, speed/incline keys, quick keys, fan, USB charging ports and their 5 V / 1 A
-rating, tablet holder, Bluetooth / app pairing, audio), Quick Start, the safety
-key's **console behaviour** (what the display shows without it, sleep, reset),
-heart rate reading (hand pulse grips, chest strap pairing — "Wearing the Chest
-Strap"), units, **engineering / maintenance / calibration mode** from both book
-types (the Dyaco SMs' chapter 4 Product Operation: key combinations, menu items,
-speed and incline calibration, odometer reset — item by item), sleep and
-power-save behaviour.
+Yours: every owner's manual's console chapter — display windows and what they
+show, keys one by one, quick start, resistance keys and levels as a console
+function, the recumbents' and uprights' program/level/enter cycle, battery /
+adapter power-up and auto-off, units, heart rate reading (grips, chest strap
+pairing), Bluetooth / app pairing pages, the new-layout books' Console Screen
+Overview and Console Features, the SB600 service manual's console tests and any
+engineering / calibration mode, the climber's console, the MB500/MB550/MBX2500
+cycle computers (the MB500 scan's console page is OCR — read the render), and
+the **app Q&A** (`xterra-app-qa-2018`: one card per question, `product_line:
+'*'`, `applies_to` = every Xterra id whose book mentions the app or Bluetooth).
 
-Not yours: error codes, troubleshooting matrices, Q&A → errors; workout programs
-and heart-rate programs → programs; PCB, connector and LED definitions → specs;
-console replacement → assembly; the safety key as a safety device → safety.
+Not yours: error codes, matrices, Q&A → errors; workout programs and
+heart-rate programs → programs; PCB / connector definitions → specs; console
+replacement → assembly.
 
-**Erratic heart-rate reading is yours** (console), not programs and not errors —
-the last wave carded it twice. The WS200/WS300 have an LED screen and a
-tablet holder; the TR95H/TR75H have the newest console. Consoles differ a lot
-between families: expect per-family cards (`xterra-trx-console-…`,
-`xterra-ws-console-…`) and a few per-machine ones; figures (top speed, incline
-levels, program count) that differ go in the title.
+Erratic heart-rate reading is yours. Consoles repeat across books (the same
+Dyaco console on SB25r/SB500, FS2.5/FS3.5, FB150/FB350): one card per fact with
+`applies_to` listing every book that prints it; figures that differ (level
+count, max resistance) go in the title.
