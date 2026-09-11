@@ -1,8 +1,11 @@
 ---
 id: spirit-xe-2005-2007-safety-instructions-list
-title: The safety instructions list that names no outlet, no extension cord and no age
+title: The safety instructions list that names no outlet, no extension cord and no
+  age
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit XE100, XE150, XE200, XE300, XE350 or XE550 residential elliptical (xe100-2007, xe150-2005, xe200-2007, xe300-2007, xe350-2005 or xe550-2005)?
+question: What does the Important Safety Instructions page say for a Spirit XE100,
+  XE150, XE200, XE300, XE350 or XE550 residential elliptical (xe100-2007, xe150-2005,
+  xe200-2007, xe300-2007, xe350-2005 or xe550-2005)?
 asked_as:
 - what are the safety rules for my xe elliptical
 - what does the manual say i must not do on the elliptical
@@ -54,9 +57,12 @@ see_also:
 - spirit-ce-safety-no-placement-or-clearance-requirement
 source:
   ref: spirit-elliptical-xe150-xe350-xe550-owners-manual
-  locator: Important Safety Instructions, page 3, and Important Electrical Information
-    and Important Operation Instructions, page 4. The XE100/XE200/XE300 owner's manual
-    prints all three on the same pages, 3 and 4
+  locator: 'Important Safety Instructions, page 3, and Important Electrical Information
+    and Important Operation Instructions, page 4. The XE100/XE200/XE300 owner''s manual
+    prints all three on the same pages, 3 and 4. The 2007 Spirit Manufacturing dealer
+    service manual for the XE100, XE200, XE300, XE400 and XE500 prints no safety instructions
+    at all: whole book, 38 pages, text.md lines 1-2878; its power statements are the
+    Troubleshooting Guide, PDF p. 3, line 54, and Procedure 1, PDF p. 5, lines 137-147.'
   extracted_at: '2026-09-09'
 ---
 
@@ -144,3 +150,13 @@ has per-model content elsewhere - a separate Assembly Pack Check List per model 
 `XE100 ONLY` and `XE200 ONLY` in the 2007 manual, three separate console sections and parts marked
 `XE150, XE350 only` and `XE550 only` in the 2005 manual. The safety chapter above is the part that
 is genuinely common to all six.
+
+## The dealer service manual for these machines prints no safety page
+
+**The 2007 dealer service manual covering the XE100, XE200 and XE300 - and the XE400 and XE500, which
+have no owner's manual - has no safety instructions, no warning list, no electrical page and no
+grounding page.** Its contents are a troubleshooting guide, nine repair procedures, the warranty
+pages and five parts lists; the word *safety* appears once, as the engineering-mode item `Safety
+On/Off (XE300 calls it "Inc Max")`. What it does say about power - a plug-in adapter labelled 9 or
+12 V DC for the XE100-XE300 and a power cord with a ground wire for the XE400 and XE500 - is in
+`spirit-xe-safety-no-outlet-figure-printed`. Nothing on this card can be quoted for an XE400 or XE500.

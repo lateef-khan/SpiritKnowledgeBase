@@ -57,6 +57,9 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- xe100-2007-specs-parts-list
+- xe200-2007-specs-parts-list
+- xe300-2007-specs-parts-list
 - spirit-ce800-assembly-hardware-kit
 - spirit-ce850-assembly-hardware-kit
 - spirit-ce900-assembly-hardware-kit
@@ -106,7 +109,7 @@ quoting a quantity.
 | Manual | Exploded view | Numbered parts list |
 |---|---|---|
 | xe150-2005, xe350-2005, xe550-2005 | three named drawings, pp. 8-14 | **none** |
-| xe100-2007, xe200-2007, xe300-2007 | three drawings, pp. 12, 13 and 20 | **none** |
+| xe100-2007, xe200-2007, xe300-2007 | three drawings, pp. 12, 13 and 20 | **none** in the owner's manual; the 2008 dealer service manual prints a full list for each - `xe100-2007-specs-parts-list`, `xe200-2007-specs-parts-list`, `xe300-2007-specs-parts-list` |
 | xe395-2010 | four unheaded drawings facing the four steps | **none** |
 | xe795-2021 (both printings) | **none** | **none** |
 | xe395ent-2021 | printed p. 50 | printed pp. 51-55 |

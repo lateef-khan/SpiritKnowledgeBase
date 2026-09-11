@@ -26,11 +26,18 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ce1000ent-2023
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
   - ce800ent
   - ce800ent-2024
+  - ce850-2016
+  - ce850-2020
   - ce850-2024
+  - ce900-2021
   - ce900-2025
+  - ce900ent
   - cr800-2021
   - cr800-2024
   - cr800ent-2023
@@ -67,6 +74,14 @@ facets:
   - xbu55-2016
   - xbu55-2023
   - xbu55ent-2021
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
+  - xe395ent-2021
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
+  - xg400-2016
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -135,7 +150,27 @@ source:
     procedure matrix, PDF p. 35, text.md lines 541-573; CU800ENT 2020-ver book (cu800ent-2022)
     service manual 7-3 Troubleshooting procedure matrix, PDF p. 27, text.md lines
     418-452; CR800ENT 2020-ver book (cr800ent-2023) service manual 7-3 Troubleshooting
-    procedure matrix, PDF p. 27, text.md lines 425-459'
+    procedure matrix, PDF p. 27, text.md lines 425-459; CE1000ENT 2023 service manual
+    10.1 Troubleshooting procedure matrix, PDF p. 3, text.md lines 71-96; CE800 (2020)
+    book (ce800-2021) service manual 7-5 Troubleshooting procedure matrix, PDF p.
+    3 (printed 2), text.md lines 39-64; CE800 2016 (XE890B-AE10M) service manual Troubleshooting
+    procedure matrix, PDF p. 32, text.md lines 546-578; CE850 2016 (XE898-SE011) service
+    manual 8-7 Troubleshooting procedure matrix, PDF p. 56-57, text.md lines 973-1029;
+    CE850 (2020) service manual 8-7 Troubleshooting procedure matrix, PDF p. 49-50,
+    text.md lines 852-909; CE900 (SE8800-SE026, ce900-2021) service manual Troubleshooting
+    procedure matrix, PDF p. 32, text.md lines 530-562; CE900ENT service manual Troubleshooting
+    procedure matrix, PDF p. 40, text.md lines 712-744; XE195 2016 (XE509S-SE021-01)
+    service manual Troubleshooting procedure matrix, PDF p. 42, text.md lines 652-685;
+    XE295 2016 (XE519S-SE020-01) service manual Troubleshooting procedure matrix,
+    PDF p. 42, text.md lines 653-686; XE395 2016 (XE539S-SE019-01) service manual
+    Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 966-1027; XE395ENT
+    2021 (XE539S-SE025-01) service manual Troubleshooting procedure matrix, PDF p.
+    46-47, text.md lines 656-709; XE795 2016 (XE815-SE024-01) service manual Troubleshooting
+    procedure matrix, PDF p. 44, text.md lines 639-671; XE795 2023 (XE815A-SE048)
+    service manual 8.4 Troubleshooting procedure matrix, PDF p. 18, text.md lines
+    322-352; XG400 2016 (SE551-SE023-01) service manual Troubleshooting procedure
+    matrix, PDF p. 40, text.md lines 595-628; XE895 2016 (XE895-SE022) service manual
+    8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029'
   extracted_at: '2026-09-08'
 ---
 
@@ -175,3 +210,5 @@ either.
 **Sixteen treadmill service manuals print this row with the same four causes and the same four fixes** - the 2015 and 2023 XT185 to XT685, the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT, CT1000ENT 2023 and 4.0T.
 
 **Eighteen bike service manuals print this row with the same four causes and the same four fixes** - the XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, XBR55 2023, XBR95 2023 and XBU55 2023 residential bikes, the CU900 2018, CR900 2018, CR900ENT 2021 and CU1000ENT 2023, and the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver books. The JB950 2022 and AB900 2018 print no hand pulse row; neither has handgrip sensors. The same books' Q&A chapters answer the same symptom as a wiring check that ends in a continuity test: `spirit-bike-errors-no-pulse-displayed-check-hand-pulse-wiring-then-continuity`.
+
+**Fifteen elliptical service manuals print this row with the same four causes and the same four fixes** - the CE800 2016, CE800 (2020), CE850 2016, CE850 (2020), CE900 (SE8800), CE900ENT and CE1000ENT 2023, and the XE195, XE295, XE395, XE795, XE895 and XG400 2016, the XE395ENT 2021 and the XE795 2023. On the XE795 2023 it is the last row of a four-row matrix that prints no chest-belt row after it.

@@ -1,6 +1,7 @@
 ---
 id: ce850-2016-console-stride-calibration
-title: Stride calibration is started by holding Start and Level Up together for five seconds
+title: Stride calibration is started by holding Start and Level Up together for five
+  seconds
 kind: procedure
 question: How do I calibrate the stride on a Spirit ce850-2016 elliptical?
 asked_as:
@@ -30,9 +31,11 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - xe895-2018-errors-stride-calibration-three-key-hold
+- spirit-ce850-console-stride-calibration-stride-up-and-start-held-five-seconds
 see_also:
 - ce850-2016-console-engineering-mode-security-lock
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
+- spirit-ce850-console-stride-calibration-stride-up-and-start-held-five-seconds
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
   locator: p. 34 (printed 33), Engineering Mode, Stride Calibration
@@ -59,3 +62,5 @@ rather than a calibration: `spirit-ce850-console-maintenance-menu-cab-or-csafe`.
 stride calibration from **Start, Level up and Stop held together for 5 seconds**, with no Enter -
 see `xe895-2018-errors-stride-calibration-three-key-hold`. Quote the combination that belongs to
 the machine in front of you.
+
+**The service manual for this machine names different keys.** The XE898-SE011 book's CALIBRATION PROCEDURE (PDF p. 54) holds **the Stride key and the Start key** for 5 seconds and the calibration runs automatically - no Level Up and no Enter (`spirit-ce850-console-stride-calibration-stride-up-and-start-held-five-seconds`). The two documents for the same machine disagree and neither mentions the other; try the other combination if the first does nothing.

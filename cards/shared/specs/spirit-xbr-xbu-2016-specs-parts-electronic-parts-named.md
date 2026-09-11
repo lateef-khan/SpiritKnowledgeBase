@@ -36,7 +36,7 @@ not_to_be_confused_with:
 - spirit-xbr55ent-xbu55ent-specs-parts-electronic-parts-named
 see_also:
 - spirit-residential-bike-specs-gear-motor-or-generator-brake
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-xbr55-2016-service-manual
   locator: 'XBR55 (XR329-SB011-01): Upper Controllers PDF p. 8 (printed 8), text.md

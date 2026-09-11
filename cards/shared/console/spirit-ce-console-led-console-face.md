@@ -43,12 +43,15 @@ see_also:
 - spirit-ce-console-led-data-windows-scan
 - ce900-2025-console-screen-overview
 - spirit-ce-console-blue-led-console-face
+- ce850-2020-console-stride-length-18-to-24-inches-buttons-on-the-left-swing-arm
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: CE800 2021 p. 13; CE800 2023 p. 14; CE850 2020 p. 19; CE850 2022 p. 20;
     CES880 2025 p. 31 CONSOLE SCREEN - OVERVIEW. CR800 (2020) service manual 4-1 Display
     Windows, PDF p. 12 (printed 11), text.md lines 152-175; CU800 (2020) service manual
-    PDF p. 12 (printed 11), lines 172-195
+    PDF p. 12 (printed 11), lines 172-195; CE800 (2020) service manual 4-1 Display
+    Windows, PDF p. 13 (printed 12), text.md lines 196-228; CE850 (2020) service manual
+    Display Windows, PDF p. 14 (printed 14), lines 249-283
   extracted_at: '2026-09-09'
 ---
 
@@ -106,3 +109,5 @@ the same split their text prints
 (`ct900-quarter-mile-track-display`), and neither labels a safety tether socket or a heart rate grip.
 
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Their call-out list is SCAN BUTTON FOR LED WINDOW, LED DATA DISPLAY WINDOWS, Dot-Matrix MESSAGE CENTER, SCAN BUTTON FOR Dot-Matrix, UP DOWN PROGRAM CONTROL, FAN COOLING FAN SWITCH (printed "COOLONG"), START STOP LEVEL CONTROLS and USB CHARGER - the same face, with the fan switch named.
+
+**The CE800 (2020) and CE850 (2020) service manuals print this face in their Product Operation chapters**, with the same eight call-outs and one addition each. The CE800 (2020) names the fan switch ("COOLONG FAN SWITCH" beside COOLING FAN, as the bike books do). The CE850 (2020) labels its LED windows "LED Data Display Windows or Message center", its matrix "Matrix Display for laps and profile", and adds a ninth call-out the owner's manuals never print: **Control center toggles (Thumb switch)** - the stride and level switches on the swing arm (`ce850-2020-console-stride-length-18-to-24-inches-buttons-on-the-left-swing-arm`).

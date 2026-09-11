@@ -36,7 +36,7 @@ not_to_be_confused_with:
 - cu900ent-electronic-parts-locations
 see_also:
 - cu1000ent-model-numbers
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-cu1000ent-2023-service-manual
   locator: 2.1 Console, PDF p. 5 (printed 5), text.md lines 93-111; 2.2 Controller

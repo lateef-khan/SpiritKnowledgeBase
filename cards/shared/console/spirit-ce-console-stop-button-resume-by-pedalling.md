@@ -48,7 +48,8 @@ source:
   locator: CE900 2021 p. 16; CE900 2025 p. 17; CE850 2016 pp. 18-19; CE800 2013 pp.
     17-18 (printed 14-15). CR900-2018 service manual BASIC INFORMATION, PDF p. 14
     (printed 14), text.md lines 179-184; CU900-2018 service manual PDF p. 15 (printed
-    15), lines 243-248
+    15), lines 243-248; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF
+    p. 15 (printed 15), text.md lines 253-258
   extracted_at: '2026-09-09'
 ---
 
@@ -83,3 +84,5 @@ the Start key and print no memory-hold sentence, exactly as the CE800-2021 and C
 `spirit-ce-console-stop-button-press-once-twice-hold`.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same five-minute pause with the memory kept while the display is dark, and the same resume by Start or by pedalling.
+
+**The CE900 (SE8800-SE026) service manual prints this passage in its Product Operation chapter.** Same five-minute pause with the memory kept while the display is dark, and the same resume by Start or by pedalling.

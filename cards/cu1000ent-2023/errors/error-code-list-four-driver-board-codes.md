@@ -3,8 +3,8 @@ id: cu1000ent-2023-errors-error-code-list-four-driver-board-codes
 title: 'Every error code the console can show: four driver-board hex codes and the
   EEPROM ERR message'
 kind: spec
-question: What error codes can a Spirit cu1000ent-2023 upright bike display and what
-  does each one mean?
+question: What error codes can a Spirit cu1000ent-2023 upright bike or ce1000ent-2023
+  elliptical display and what does each one mean?
 asked_as:
 - list of error codes for the cu1000 bike
 - what do the 0xb codes mean on a spirit ent bike
@@ -22,14 +22,13 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu1000ent-2023
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ce1000ent-2023
   - cu1000ent-2023
   section: errors
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - cu900ent-error-code-messages-list
@@ -45,7 +44,9 @@ see_also:
 source:
   ref: spirit-bike-cu1000ent-2023-service-manual
   locator: CU1000ENT 2023 service manual 7.1 Error Code List, 7.2 Error code items
-    and 7.3 Tools Required, PDF p. 12, text.md lines 229-259
+    and 7.3 Tools Required, PDF p. 12, text.md lines 229-259; CE1000ENT 2023 service
+    manual 7.1 Error Code List, 7.2 Error code items and 7.3 Tools Required, PDF p.
+    12, text.md lines 260-290
   extracted_at: '2026-09-11'
 ---
 
@@ -75,3 +76,5 @@ Three things to know before using the table.
 - **This is a different family from the other ENT bikes.** The CU900ENT and CR900ENT print `40H`-`50H` MCU-board codes and `EAH`/`ECH`/`EDH` GUI codes (`cu900ent-error-code-messages-list`); the CU800ENT and CR800ENT print one code, `E5` (`ce800ent-e5-console-controller-communication`). The CT1000ENT treadmill also writes its codes as `0x` values, but its list runs `0x01` to `0x44` and none of them is `0xB0`-`0xB3` (`ct1000ent-2023-errors-error-code-list-25-hex-codes`).
 
 Logged codes are read back, and cleared with ten presses, under Service > Error Code Log: `cu900ent-error-code-log`.
+
+**The CE1000ENT 2023 elliptical service manual prints both tables word for word** - the four `0xB0` to `0xB3` driver-board rows, the one-row `EEPROM ERR` message and the multi-meter - so this list answers for the elliptical as well as the upright. Nothing in the elliptical book adds a cause or a fix, and its `13. Troubleshooting` chapter is belt tension and noise, not codes.

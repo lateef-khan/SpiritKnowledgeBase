@@ -4,8 +4,10 @@ title: Route the power cord away from every moving part
 kind: policy
 question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800
   or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill,
-  a Spirit XE395-2023 elliptical, a Spirit XBR or XBU residential bike of the 2016
-  or 2023 generation, or a Spirit CVC800 climber?
+  a Spirit CE850 commercial elliptical, a Spirit XE395-2023 elliptical, a 2016 Spirit
+  XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023 elliptical,
+  a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, or a Spirit
+  CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -27,6 +29,8 @@ facets:
   applies_to:
   - 40t-2026
   - ce800ent-2024
+  - ce850-2016
+  - ce850-2020
   - cr800ent-2024
   - ct800-2012
   - ct800-2016
@@ -50,7 +54,14 @@ facets:
   - xbr95-2023
   - xbu55-2016
   - xbu55-2023
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
   - xe395-2023
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
+  - xg400-2016
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -75,6 +86,7 @@ see_also:
 - spirit-2026t-safety-power-cord-condition-and-routing
 - spirit-xe-safety-no-outlet-figure-printed
 - spirit-bike-ent-safety-instructions-list
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
@@ -99,7 +111,21 @@ source:
     (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual:
     section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023
     (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28);
-    text.md lines 191-223.'
+    text.md lines 191-223. Nine Spirit elliptical service manuals print the sentence
+    inside the GFCI bullet of 7.2: CE850-2016 (XE898-SE011) service manual: 7 Product
+    Safety Instructions, PDF p. 37 (printed 37); text.md lines 606-635. CE850 (2020)
+    service manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md
+    lines 505-533. XE195-2016 (XE509S-SE021-01) service manual: 7 Product Safety Instructions,
+    PDF p. 32 (printed 32); text.md lines 464-492. XE295-2016 (XE519S-SE020-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 472-498.
+    XE395-2016 (XE539S-SE019-01) service manual: 7 Product Safety Instructions, PDF
+    p. 38 (printed 38); text.md lines 601-627. XE795-2016 (XE815-SE024-01) service
+    manual: 7 Product Safety Instructions, PDF p. 35 (printed 35); text.md lines 477-505.
+    XE795-2023 (XE815A-SE048) service manual: 7 Product Safety Instructions, PDF p.
+    14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
+    (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
+    30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -216,3 +242,19 @@ not. The transport wheels and the crank and pedals are the moving parts that app
 books print it on a self-powered machine with no cord to route
 (`spirit-bike-safety-no-mains-outlet-needed`), and the four 2016 books are the service-manual SKUs
 that precede the 2019 owner's-manual machines, whose books print no cord-routing rule.
+
+## Nine Spirit elliptical service manuals print the treadmill sentence
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals print it inside the GFCI bullet**, where the
+CT850 service manuals had it:
+
+> Route the power cord away from any moving part of the elliptical including the elevation mechanism
+> and transport wheels.
+
+**`The elevation mechanism` fits only some of them.** The CE850, XE395 and XG400 books describe a
+machine with a stride or incline motor; the XE195, XE295 and XE895 have none, and the two XE795 books
+print it on a self-powered machine with no cord to route
+(`xe795-2023-safety-outlet-220-volt-15-amp`). The transport wheels and the pedal arms are the moving
+parts that apply to all nine. The XE395-2023 owner's manual trimmed the sentence to `including the
+transport wheels` (the section above); none of these service manuals did.

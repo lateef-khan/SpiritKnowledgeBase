@@ -57,13 +57,17 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys
+- ce800-2016-programs-ten-numbered-program-keys-with-fitness-test-and-constant-power
 - spirit-ce-programs-target-zone-of-108-to-153-beats
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 - ce800ent-programs-heart-rate-holds-within-five-beats
 - spirit-ce-programs-erratic-heart-rate-interference
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: 'CE800 2021 printed p. 31; CE800 2023 p. 32; CE850 2020 p. 36; CE850 2022 p. 37; CES880 2025 p. 52; CE900 2021 p. 23; CE900 2025 p. 24; CE800 2013 p. 25; CE850 2016 p. 32-33'
+  locator: 'CE800 2021 printed p. 31; CE800 2023 p. 32; CE850 2020 p. 36; CE850 2022 p. 37; CES880 2025 p. 52;
+    CE900 2021 p. 23; CE900 2025 p. 24; CE800 2013 p. 25; CE850 2016 p. 32-33. CE850 2016 service manual, Function
+    Button Locations drawing, PDF p. 20, text.md lines 392-413, and Quick Start spec 4.2, p. 16, line 303'
   extracted_at: '2026-09-09'
 ---
 
@@ -128,3 +132,11 @@ as its 2021 printing does - see
 All six close the training-zone page with the same sentence the 2021 printings carry: you may use the
 heart rate monitor feature without running a Heart Rate program, during manual mode or during any of
 the programs, and **the Heart Rate program automatically controls resistance at the pedals**.
+
+**The "single HR key" statement for the CE850 2016 rests on its owner's manual's procedure text
+alone, and the 2016 service manual contradicts it.** That book's console drawing labels key 9 **HR 1**
+and key 0 **HR 2**, and its Quick Start spec names "HRC1, HRC2" - two heart rate programs, as on the
+XE895 that shares the same console. The owner's manual's own console drawing labels no key
+names. Neither book says what the two keys target. See
+`ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys`. The CE800 2016 service manual's drawing, by contrast, shows one HR key beside a Constant
+Power key, which agrees with the CE800 2013 owner's manual above - see `ce800-2016-programs-ten-numbered-program-keys-with-fitness-test-and-constant-power`.

@@ -1,8 +1,10 @@
 ---
 id: ce850-2016-console-engineering-mode-security-lock
-title: The engineering menu whose Functions list holds a 30-minute sleep and a keypad Security lock
+title: The engineering menu whose Functions list holds a 30-minute sleep and a keypad
+  Security lock
 kind: procedure
-question: How do I get into engineering mode on a Spirit ce850-2016 elliptical, and what is in it?
+question: How do I get into engineering mode on a Spirit ce850-2016 elliptical, and
+  what is in it?
 asked_as:
 - how do i lock the keypad on my elliptical
 - how do i get into engineering mode on the elliptical
@@ -33,10 +35,13 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ce800-2013-console-engineering-mode-elliptical-or-bike
+- spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
 see_also:
 - ce800-2013-console-engineering-mode-elliptical-or-bike
 - ce850-2016-console-stride-calibration
 - ce850-2016-console-power-up-from-the-ac-cord
+- spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
+- spirit-ce850-2016-console-software-modes-idle-20-minute-sleep-child-lock-pause-end-reset
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
   locator: p. 34 (printed 33), Engineering Mode
@@ -72,3 +77,5 @@ nothing else in the manual describes it. Do not guess what it does.
 
 Stride calibration is entered a different way and is a separate card:
 `ce850-2016-console-stride-calibration`.
+
+**The service manual for this machine prints a different menu.** The XE898-SE011 book's MAINTENANCE MENU IN CONSOLE SOFTWARE (PDF p. 54) lists a. Key Test, b. LCD Test, c. Functions and d. Security, and its Functions run Display Mode (turn **off** to power down after **20 minutes**), Pause Mode, ODO Reset, Unit, Beep, a described **Motor Test** and Safety - the 2016 XE menu, with no D/A test and no 30 minutes (`spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item`). Its software-spec chapter also sleeps after 20 minutes (`spirit-ce850-2016-console-software-modes-idle-20-minute-sleep-child-lock-pause-end-reset`). Neither document mentions the other; read the console.

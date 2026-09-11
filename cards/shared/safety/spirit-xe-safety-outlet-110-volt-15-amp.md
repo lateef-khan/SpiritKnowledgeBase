@@ -57,6 +57,7 @@ see_also:
 - xe395-2010-safety-instructions-list
 - spirit-xe795-2021-safety-instructions-list
 - spirit-ce-safety-no-placement-or-clearance-requirement
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 2, and GROUNDING INSTRUCTIONS, page
@@ -68,7 +69,12 @@ source:
     no outlet figure; its matrix row `Check AC power is 110-120V` is PDF p. 33 (printed
     33), text.md line 415, and its POWER sentence PDF p. 12 (printed 12), lines 124-125.
     The XBU55-2016 (XU319-SB011-01) and XBR25-2016 (XR327-SB005-01) service manuals
-    print 115-volt instead: section 7, PDF p. 31 of each, lines 424-453 and 424-452.'
+    print 115-volt instead: section 7, PDF p. 31 of each, lines 424-453 and 424-452.
+    The XE795-2016 (XE815-SE024-01) and XE895-2016 (XE895-SE022) service manuals print
+    115 volt instead: XE795-2016 (XE815-SE024-01) service manual: 7 Product Safety
+    Instructions, PDF p. 35 (printed 35); text.md lines 477-505. XE895-2016 (XE895-SE022)
+    service manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md
+    lines 607-635.'
   extracted_at: '2026-09-09'
 ---
 
@@ -220,3 +226,12 @@ up`; the 110 volt for that machine comes from its owner's manual alone.
 and again as `a nominal 115-volt circuit` on the grounding paragraph
 (`spirit-xe-safety-outlet-115-volt-15-amp`). The XBU55-2016 (XU319-SB011-01) and XBR25-2016
 (XR327-SB005-01) are different SKUs from the 2019 machines on this card; quote each from its own book.
+
+## What the service manuals add for the ellipticals
+
+**The XE795-2016 and XE895-2016 service manuals print 115 volt, not 110** - in the safety bullet and
+again as `a nominal 115-volt circuit` on the grounding page
+(`spirit-xe-safety-outlet-115-volt-15-amp`). They are earlier SKUs than the 2018 and 2021 machines on
+this card; quote each from its own book. **The XE795-2023 service manual prints 220 volt, 15 amp**
+with a nominal 120-volt grounding sentence (`xe795-2023-safety-outlet-220-volt-15-amp`). All three
+print their page on a self-powered machine with no plug, exactly as the XE795 owner's manuals do.

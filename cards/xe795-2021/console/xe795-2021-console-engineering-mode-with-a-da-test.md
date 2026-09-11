@@ -30,6 +30,7 @@ facets:
   - xbr95-2016
   - xbr95-2018
   - xbr95-2021
+  - xe795-2016
   - xe795-2018
   - xe795-2021
   section: console
@@ -42,12 +43,17 @@ see_also:
 - spirit-xe795-console-power-up-by-pedalling
 - spirit-xbr-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset
 - spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
+- spirit-xe-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset
+- spirit-xe-2016-console-data-ranges-level-0-to-20-and-pulse-40-to-220
+- xe795-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-as-the-service-manual-prints-it
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: p. 38, Engineering Mode Menu (the February 19 2021 printing prints the
     same list on its p. 37; the August 22 2018 printing prints it on its p. 37); XBR95
     2016, 2018 and 2021 p. 35, Engineering Mode Menu. XBR95-2016 service manual MAINTENANCE
-    MENU IN CONSOLE SOFTWARE, PDF p. 43 (printed 43), text.md lines 592-615
+    MENU IN CONSOLE SOFTWARE, PDF p. 43 (printed 43), text.md lines 592-615; XE795-2016
+    (XE815-SE024-01) service manual MAINTENANCE MENU IN CONSOLE SOFTWARE, PDF p. 43
+    (printed 43), text.md lines 616-633
   extracted_at: '2026-09-09'
 ---
 
@@ -112,3 +118,5 @@ with each other about the polarity of the same setting, and nothing resolves it.
 reads "Engineering Mode", it navigates with the Level ▲/▼ keys, and its other five Functions items,
 including the DA Test that "tests the brake resistance", are word for word. Its software-spec chapter
 says the same console sleeps after **30** minutes: `spirit-xbr-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset`.
+
+**The XE795-2016 service manual prints this menu word for word with the XBR95-2016's** - numbered 1 to 4 with Functions I to VI, Display Mode "turn on" to power down after 20 minutes, Units "sets the display to readout in English or Metric display measurements", and **VI. DA Test (Tests the brake resistance)** - so this card now covers the 2016 SKU too. Its software-spec chapter says the same console sleeps after **30** minutes (`spirit-xe-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset`), and its function table counts twenty levels where every XE795 owner's manual counts forty (`spirit-xe-2016-console-data-ranges-level-0-to-20-and-pulse-40-to-220`).

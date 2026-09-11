@@ -3,8 +3,8 @@ id: ct850-2020-led-displays-dim-or-incomplete
 title: The LED display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
 question: Why are display segments missing on a Spirit CT800-2020, CT850-2020 or 4.0T
-  treadmill, a CE800-2024, CE850-2024 or CE900-2025 elliptical, a CR900, CU900 or
-  JB950 bike, or a CS800-2024 stepper?
+  treadmill, a CE800-2016, CE800-2021, CE800-2024, CE850-2020, CE850-2024, CE900-2021
+  or CE900-2025 elliptical, a CR900, CU900 or JB950 bike, or a CS800-2024 stepper?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -24,8 +24,12 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ce800-2016
+  - ce800-2021
   - ce800-2024
+  - ce850-2020
   - ce850-2024
+  - ce900-2021
   - ce900-2025
   - cr900-2018
   - cr900-2025
@@ -57,7 +61,12 @@ source:
     procedure matrix, PDF p. 32, text.md lines 521-552; CR900 2018 service manual
     Troubleshooting procedure matrix, PDF p. 31, text.md lines 455-486; JB950 2022
     service manual 5.4 Troubleshooting procedure matrix, PDF p. 45, text.md lines
-    839-868
+    839-868; CE800 2016 (XE890B-AE10M) service manual Troubleshooting procedure matrix,
+    PDF p. 32, text.md lines 546-578; CE800 (2020) book (ce800-2021) service manual
+    7-5 Troubleshooting procedure matrix, PDF p. 3 (printed 2), text.md lines 39-64;
+    CE850 (2020) service manual 8-7 Troubleshooting procedure matrix, PDF p. 49-50,
+    text.md lines 852-909; CE900 (SE8800-SE026, ce900-2021) service manual Troubleshooting
+    procedure matrix, PDF p. 32, text.md lines 530-562
   extracted_at: '2026-09-08'
 ---
 
@@ -92,3 +101,5 @@ version: `cu900ent-tft-displays-not-bright`.
 **The CT800 2020 and 4.0T treadmill service manuals print this row word for word** - `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`.
 
 **The CU900 2018 and CR900 2018 service manuals print this row word for word**, and **the JB950 2022 Johnny G bike prints it with the condition shortened** to `LED displays incomplete or imperfect` - same reason, same one-line fix, a new console. The row above it on the JB950 is its own: `jb950-2022-errors-leds-not-bright-enough-30-v-at-30-rpm`.
+
+**Four elliptical service manuals print this row word for word** - `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`: the CE800 2016 (titled XE890B-AE10M), the CE800 (2020) book (`ce800-2021`), the CE850 (2020) and the CE900 (SE8800-SE026, `ce900-2021`). None of the four mixes the nouns the way the CR800 and CU800 bikes do.

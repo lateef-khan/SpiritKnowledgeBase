@@ -1,8 +1,10 @@
 ---
 id: xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
-title: The maintenance menu that can switch the incline feature off, plus a separate ramp calibration keystroke
+title: The maintenance menu that can switch the incline feature off, plus a separate
+  ramp calibration keystroke
 kind: procedure
-question: How do I get into the maintenance menu on a Spirit xe395-2010 elliptical and what is in it?
+question: How do I get into the maintenance menu on a Spirit xe395-2010 elliptical
+  and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i recalibrate the ramp on my elliptical
@@ -36,6 +38,7 @@ see_also:
 - spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
 - spirit-xe-console-stand-by-after-twenty-minutes-without-input
 - xe395-2010-console-message-center-scan-shows-altitude
+- spirit-xe400-xe500-2007-console-incline-calibration-start-and-level-up-held-five-seconds
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: p. 28, MAINTENANCE MENU IN CONSOLE SOFTWARE
@@ -79,3 +82,5 @@ keystroke both need the powered ramp no other residential XE elliptical of this 
 
 **The 2007 XE100, XE200 and XE300 menu is the closest relative** and has neither:
 `spirit-xe-console-maintenance-menu-with-a-motor-test-and-security`.
+
+**The XE400 and XE500 of 2007 print the same calibration keystroke word for word** in their dealer service manual - Start and level Up for 5 seconds, Calibration, Enter, automatic, restarts (`spirit-xe400-xe500-2007-console-incline-calibration-start-and-level-up-held-five-seconds`).

@@ -65,7 +65,7 @@ see_also:
 - spirit-cr900-specs-parts-component-callout-numbers
 - cu900ent-component-callout-numbers
 - jb950-2022-specs-parts-drive-system-callouts
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 - cr800-2024-specs-parts-list
 - spirit-cr800-specs-parts-list-2021-vs-2023
 source:
@@ -112,4 +112,4 @@ figures rather than item numbers, so the question does not arise for them.
 **A callout number is never a Spirit part number.** The 2008 dealer lists print both columns side by side
 - item 55 is the Induction Brake, part 002104 - and every other book prints only the first.
 
-The service manuals' one tool, a multi-meter, is on `spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter`.
+The service manuals' one tool, a multi-meter, is on `spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`.

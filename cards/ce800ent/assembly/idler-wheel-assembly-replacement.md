@@ -2,7 +2,7 @@
 id: ce800ent-idler-wheel-assembly-replacement
 title: Idler wheel assembly replacement
 kind: procedure
-question: How do I replace the idler wheel assembly on a Spirit CE800ENT elliptical?
+question: How do I replace the idler wheel assembly on a Spirit CE800 or CE800ENT elliptical?
 asked_as:
 - idler wheel replacement on my spirit elliptical
 - belt tensioner wheel on the ce800ent
@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with:
 - cu900ent-drive-system-replacement
@@ -40,7 +39,7 @@ see_also:
 - cc81-2020-drive-belt-tension
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-7 Idler Wheel Assembly replacement, p. 49 (printed 49)
+  locator: 'ce800ent: Section 8-7 Idler Wheel Assembly replacement, p. 49 (printed 49) | ce800-2021: 10-7 Idler Wheel Assembly replacement, PDF p. 48; text.md lines 651-666'
   extracted_at: '2026-09-08'
 ---
 
@@ -63,3 +62,6 @@ This manual prints `185Khz~210Khz`. The Spirit CVC800 climber prints the same ki
 **190Hz+/-10Hz** and the Sole CC81-2020 climber prints **190 Hz ± 10**. Read the CE800ENT figure as
 **185-210 Hz**, quoted above exactly as printed.
 
+**The CE800 (2020) book prints this word for word as 10-7, `185Khz~210Khz` included.** The 2017 CE800 (XE890B)
+book and every XE-series book use a hook-screw idler set to **190 Hz (+/- 10)** with `M8x20` screws; that is a
+separate card.

@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
-title: Holding Start, Stop and Enter for five seconds opens a menu whose Functions list holds a Motor test and a Security lock
+title: Holding Start, Stop and Enter for five seconds opens a menu whose Functions
+  list holds a Motor test and a Security lock
 kind: procedure
-question: How do I get into the maintenance menu on a Spirit XE elliptical and what is in it?
+question: How do I get into the maintenance menu on a Spirit XE elliptical and what
+  is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i switch my elliptical to metric
@@ -31,11 +33,13 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xe-2007-console-engineering-mode-with-a-safety-item-and-a-factory-set-that-resets-user-programs
 see_also:
 - xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
 - spirit-xe-console-stand-by-after-twenty-minutes-without-input
 - spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
+- spirit-xe-2007-console-engineering-mode-with-a-safety-item-and-a-factory-set-that-resets-user-programs
 source:
   ref: spirit-elliptical-xe100-xe200-xe300-owners-manual
   locator: p. 43, "Maintenance Menu in console software:"
@@ -76,3 +80,5 @@ notes the menu "may be called Engineering mode, depending on version".
 **The XE395-2010 menu looks the same but is not.** It adds an **Incline On/Off** switch, a **Safety**
 item and a separate **Calibration** keystroke, and orders Functions differently:
 `xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration`.
+
+**The 2007 dealer service manual for these three machines, and the XE400 and XE500, prints this menu with a Safety item and a described Factory Set.** Its Procedure 7 holds Start, Enter and Stop "until display beeps", adds **Safety On/Off** ("XE300 calls it 'Inc Max'") to the Functions list, and says Factory Set "will reset saved user programs" - and prints no minutes for the sleep (`spirit-xe-2007-console-engineering-mode-with-a-safety-item-and-a-factory-set-that-resets-user-programs`).

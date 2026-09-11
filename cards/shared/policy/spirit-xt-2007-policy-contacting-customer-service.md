@@ -4,8 +4,8 @@ title: Fax parts orders to 870-930-9013 and call 800-258-4555 for technical serv
   with the technicians named by extension
 kind: policy
 question: How does a dealer reach Spirit customer service and place a parts order
-  for a Spirit XT175, XT275, XT375, XT475 or XT675 treadmill or XBR25 or XBR55 recumbent
-  bike of the 2007 model year?
+  for a Spirit XT175, XT275, XT375, XT475 or XT675 treadmill, XBR25 or XBR55 recumbent
+  bike, or XE100, XE200, XE300, XE400 or XE500 elliptical of the 2007 model year?
 asked_as:
 - what is the spirit parts order fax number
 - spirit customer service phone number for dealers
@@ -30,6 +30,11 @@ facets:
   applies_to:
   - xbr25-2007
   - xbr55-2007
+  - xe100-2007
+  - xe200-2007
+  - xe300-2007
+  - xe400-2007
+  - xe500-2007
   - xt175-2007
   - xt275-2007
   - xt375-2007
@@ -48,7 +53,9 @@ source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
   locator: CONTACTING CUSTOMER SERVICE, PDF p. 11 (printed 11), text.md lines 392-427;
     the same page in spirit-bike-xbr25-xbr55-2007-service-manual, CONTACTING CUSTOMER SERVICE,
-    PDF p. 7 (printed 7), text.md lines 189-228, with two more extensions
+    PDF p. 7 (printed 7), text.md lines 189-228, with two more extensions; and the same page
+    in spirit-elliptical-xe100-xe200-xe300-xe400-xe500-2007-service-manual, CONTACTING CUSTOMER SERVICE,
+    PDF p. 10 (printed 10), text.md lines 300-337, with the treadmill book's six extensions
   extracted_at: '2026-09-11'
 ---
 
@@ -78,6 +85,6 @@ If the technician chosen is unavailable, leave one detailed message and stop: do
 
 **Calling from a customer's home.** Dial 0 for the operator, say you are a dealer at a customer's location, and the first available technician takes the call.
 
-**The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints the same page word for word - still saying the technicians "assist in the repair of treadmills" - and adds two extensions the treadmill book does not have, Lonnie Haygood at 636 and Corey Lemieux at 637.** Six names or eight, the two telephone numbers and the fax-only rule are the same.
+**The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints the same page word for word - still saying the technicians "assist in the repair of treadmills" - and adds two extensions the treadmill book does not have, Lonnie Haygood at 636 and Corey Lemieux at 637.** Six names or eight, the two telephone numbers and the fax-only rule are the same. **The 2008 dealer manual for the XE100, XE200, XE300, XE400 and XE500 ellipticals prints the page a third time**, word for word, with the treadmill book's six extensions and neither of the bike book's two - and still says the technicians "assist in the repair of treadmills".
 
 These are the numbers a 2008 dealer manual prints; the later owner's manuals send consumers to their dealer and to Spirit Fitness (`xt-2023-warranty-service-steps`), and no other card in this knowledge base carries a named-extension list. The dealer's own obligations - to set up, diagnose and service what it sells - are stated on the same page (`spirit-xt-2007-policy-dealer-responsible-for-setup-and-service`).

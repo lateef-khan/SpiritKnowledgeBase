@@ -52,19 +52,25 @@ see_also:
 - spirit-ce-safety-generator-produces-ac-power
 - spirit-bike-ent-safety-instructions-list
 - spirit-bike-safety-no-mains-outlet-needed
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph
+  locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph
     on page 8; the CE850 2022 manual prints both on pages 6 and 8, the CE850 2016
     manual on pages 5 and 6, and the CE800ENT manual on pages 4 and 5. The 110-volt/5
     amp dedicated-circuit sentence is on the GROUNDING INSTRUCTIONS page of the three
     CE850 manuals - 2016 page 6, 2020 page 8, 2022 page 8 The CU800ENT-2022 and CR800ENT-2023
-    bike owner's manuals print the same WARNING header on their IMPORTANT SAFETY INSTRUCTIONS
-    page, printed page 4, and the same breaker sentence at the end of the circuit-breaker
-    paragraph on their printed page 5. The CU800ENT (2020 ver.) and CR800ENT (2020
-    Ver.) service manuals print no safety chapter; their troubleshooting matrix row
-    `Check the power has 120VAC` is PDF p. 27 (printed 27) of each, text.md lines
-    421-423 and 428-430.
+    bike owner''s manuals print the same WARNING header on their IMPORTANT SAFETY
+    INSTRUCTIONS page, printed page 4, and the same breaker sentence at the end of
+    the circuit-breaker paragraph on their printed page 5. The CU800ENT (2020 ver.)
+    and CR800ENT (2020 Ver.) service manuals print no safety chapter; their troubleshooting
+    matrix row `Check the power has 120VAC` is PDF p. 27 (printed 27) of each, text.md
+    lines 421-423 and 428-430. The CE850-2016 (XE898-SE011) and CE850 (2020) service
+    manuals print 115-volt, 15-amp instead: CE850-2016 (XE898-SE011) service manual:
+    7 Product Safety Instructions, PDF p. 37 (printed 37); text.md lines 606-635.
+    CE850 (2020) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
+    30); text.md lines 505-533.'
   extracted_at: '2026-09-09'
 ---
 
@@ -164,3 +170,16 @@ has 120VAC`. **120 volt in the service book, 110 volt in the owner's book**, and
 the two; the 5 amp figure appears only in the owner's manual. Quote both with the book each comes
 from. (The 120-volt, 15-amp figure of the CU800ENT-2024 is a third book's statement,
 `spirit-ct800-safety-outlet-120-volt-15-amp`.)
+
+## The two CE850 service manuals say 115 volt, 15 amp
+
+**The CE850-2016 (XE898-SE011) and CE850 (2020) service manuals print a different requirement for the
+same two machines**: `install the Ellipitcal on a flat level surface with access to a 115-volt,
+15-amp grounded outlet with only the Ellipitcal plugged into the circuit`, and on their grounding page
+`a nominal 115-volt circuit` - the 2020 book adding `(or 220-volt circuit)` - with no amp figure and
+no breaker sentence (`spirit-xe-safety-outlet-115-volt-15-amp`). **110 volt, 5 amp in the owner's
+book; 115 volt, 15 amp in the service book**, and neither mentions the other. Their troubleshooting
+matrix adds `Check AC power is 110-120V`, and their fuse pages caption the controller fuse `5A`
+(2016) and `10A` (2020) (`spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse`).
+Quote each figure with the book it comes from. The CE850-2022 and CE850-2024 have no service manual
+on file, so for those two the owner's figure above stands alone.

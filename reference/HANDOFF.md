@@ -1,7 +1,7 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after the treadmill
-and bike sub-waves of 3a merged. Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after the treadmill,
+bike and elliptical sub-waves of 3a merged. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -13,10 +13,10 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **7,080** |
+| cards | **7,353** |
 | `kb lint` | 0 problems |
-| declared model ids | **298** (182 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 417 |
+| declared model ids | **309** (193 Spirit, 116 Sole) — every one has at least one card |
+| sources ingested | 433 |
 | machines carrying `model_number` | **215** of 243 with single-machine cards |
 
 Check it yourself:
@@ -130,6 +130,17 @@ filename's 553123 is in no row. The SB700 book in the XIC600 folder is Sole and
 was ingested as `sole-bike-sb700-2011-service-manual`. Expect the ellipticals to
 follow the same 2016-SKU rule: XE195 195015, XE295 295015, XE395 395015, XE795
 795015, XG400 400415 all exist and no 2018/2019 rows do.
+
+**Ellipticals: done** (PR #56, 2026-09-11) — 16 sources (one of them the
+"XE895-SE022" book the Climbers Steppers folder held under XS895), 265 new
+cards, 140 extended. Eleven new ids: `ce1000ent-2023` (210054), `ce900ent`
+(900050, no year — no stamp, no owner's manual, like `cu900ent`), `xe400-2007`
+/ `xe500-2007`, and by the 2016-SKU rule `ce800-2016` (800045, the "XE890B"
+book), `xe195-2016`, `xe295-2016`, `xe395-2016`, `xe795-2016`, `xg400-2016`,
+`xe895-2016`. The three per-line "the only tool is a multi-meter" cards were
+one fact and are now one card with `product_line: '*'` — when a fact is the
+same Dyaco page across product lines and carries no line-specific figure, make
+it one card, not one per line.
 
 Two things the wave learned about the method: tesseract cannot read a
 photographed page (the E-50H bulletin got 8–19 words a page and was typed by

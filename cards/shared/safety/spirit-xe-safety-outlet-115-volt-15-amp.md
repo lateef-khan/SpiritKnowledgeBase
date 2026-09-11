@@ -5,8 +5,9 @@ title: The outlet is 115 volt, 15 amp on a dedicated 15 amp breaker, and the gro
 kind: policy
 question: What outlet and circuit does a Spirit XE195, XE295, XE395 or XG400 elliptical
   (xe195-2019, xe195-2021, xe295-2019, xe295-2021, xe395-2018, xe395ent-2021, xg400-2019
-  or xg400-2021), or a 2016 Spirit XBR25, XBR55, XBU55 or XBR95 residential bike,
-  need?
+  or xg400-2021), a Spirit CE850-2016 or CE850-2020 commercial elliptical, a 2016
+  Spirit XE795 or XE895 elliptical, or a 2016 Spirit XBR25, XBR55, XBU55 or XBR95
+  residential bike, need?
 asked_as:
 - what outlet does the xe295 need
 - how many amps does the elliptical draw
@@ -29,6 +30,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce850-2016
+  - ce850-2020
   - xbr25-2016
   - xbr55-2016
   - xbr55-2019
@@ -44,6 +47,8 @@ facets:
   - xe295-2021
   - xe395-2018
   - xe395ent-2021
+  - xe795-2016
+  - xe895-2016
   - xg400-2019
   - xg400-2021
   section: safety
@@ -68,6 +73,8 @@ see_also:
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
 - spirit-extension-cord-16-awg-or-better
 - spirit-never-use-a-gfci-wall-outlet
+- spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
   locator: 'Important Safety Instructions, page 5, and the Circuit Breakers paragraph
@@ -87,7 +94,19 @@ source:
     457-483. The matrix row `Check AC power is 110-120V` is XBR25-2016 PDF p. 41,
     line 613; XBR55-2016 PDF p. 42, line 608; XBU55-2016 PDF p. 41, line 612; XBR55ENT-2021
     (XR329-SB013-01) service manual PDF p. 33 (printed 33), line 419, whose POWER
-    sentence is PDF p. 12, lines 127-128.'
+    sentence is PDF p. 12, lines 127-128. Four Spirit elliptical service manuals print
+    the 115-volt, 15-amp bullet in 7.1 and `a nominal 115-volt circuit` in 7.3: CE850-2016
+    (XE898-SE011) service manual: 7 Product Safety Instructions, PDF p. 37 (printed
+    37); text.md lines 606-635. CE850 (2020) service manual: 7 Product Safety Instructions,
+    PDF p. 30 (printed 30); text.md lines 505-533. XE795-2016 (XE815-SE024-01) service
+    manual: 7 Product Safety Instructions, PDF p. 35 (printed 35); text.md lines 477-505.
+    XE895-2016 (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p.
+    38 (printed 38); text.md lines 607-635. The CE850 (2020) stride-motor sentence
+    `115 volt (or 220 volt)` is PDF p. 12, line 226, and its two driver-board drawings,
+    one captioned 110 V and one 220 V, are PDF pp. 24-25, OCR supplement lines 1262-1308.
+    The matrix row `Check AC power is 110-120V` is CE850-2016 PDF p. 56, line 977;
+    CE850 (2020) PDF p. 49, line 856; XE895-2016 PDF p. 57, line 977; the XE795-2016
+    matrix prints no voltage, PDF p. 44, lines 641-643.'
   extracted_at: '2026-09-09'
 ---
 
@@ -231,3 +250,39 @@ Their circuit-breaker paragraph ends at `part # QO120HM` with no dedicated-break
 statements are the matrix row `Check AC power is 110-120V` and the product-operation sentence `When
 the power cord is connected to the fitness bike, the console will automatically power up`; the 115
 volt for that machine comes from its owner's manual alone.
+
+## Four Spirit elliptical service manuals print 115 volt, 15 amp - and their grounding page says 115 too
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE795-2016 (XE815-SE024-01) and XE895-2016
+(XE895-SE022) service manuals print the WARNING with `Ellipitcal` or `Elliptical`** - `install the
+Ellipitcal on a flat level surface with access to a 115-volt, 15-amp grounded outlet with only the
+Ellipitcal plugged into the circuit` - **and their grounding paragraph names `a nominal 115-volt
+circuit`**, with no amp figure. Their circuit-breaker paragraph ends at `part # QO120HM` with no
+dedicated-breaker sentence (`spirit-house-breaker-needs-a-high-inrush-type`), and their extension cord
+is 16 AWG (`spirit-extension-cord-16-awg-or-better`).
+
+- **The two CE850 service manuals contradict the CE850 owner's manuals.** The owner's books ask for a
+  110-volt, 5-amp outlet on a dedicated 5 amp breaker and a `nominal 110-volt/5 amp dedicated circuit`
+  (`spirit-ce850-safety-outlet-and-circuit-requirement`); the service books ask for **115 volt at 15
+  amp** and name no breaker. Same machines, same years, three times the current. Neither book
+  mentions the other; quote the figure with the book it comes from.
+- **The CE850 (2020) service manual adds a 220-volt option.** Its grounding sentence reads `a nominal
+  115-volt circuit (or 220-volt circuit)`, its stride motor is `a 115 volt (or 220 volt) AC motor`, and
+  its wiring chapter draws two driver boards, one captioned 110 V and one 220 V. The safety bullet
+  itself stays at 115-volt, 15-amp. The CE850-2016 book prints no 220-volt option anywhere.
+- **The XE795-2016 service manual prints the page on a self-powered machine.** Its parts
+  photographs label a `HYBRID GENERATOR`, its Electrical Configurations page names a `GENERATOR
+  BRAKE` with a `DC 0.4~14V` work voltage, and its driver board is wired `GENERATOR INPUT` and
+  `GENERATOR BRAKE OUTPUT`; outside chapter 7 the words *cord*, *plug* and *adapter* do not appear
+  in the book. The sentence is the treadmill chapter carried across
+  (`spirit-ce-safety-generator-produces-ac-power`), as the XE795-2023 service manual does with a
+  220-volt figure (`xe795-2023-safety-outlet-220-volt-15-amp`).
+- **The XE895-2016 service manual says 115 where the XE895-2018 owner's manual says 110**
+  (`spirit-xe-safety-outlet-110-volt-15-amp`). Different SKUs; quote each from its own book. The two
+  CE850 books and the XE895 book also print, in their troubleshooting matrix, `Check AC power is
+  110-120V` - a range, not a third figure.
+
+**The 2016 service manuals for the XE195, XE295, XE395 and XG400 do not print this figure.** They
+ask for 120 volt at 15 amp and name a nominal 120-volt circuit
+(`spirit-ct800-safety-outlet-120-volt-15-amp`), where the same machines' 2018-2021 owner's manuals say
+115 on the safety page and 110 on the grounding page.

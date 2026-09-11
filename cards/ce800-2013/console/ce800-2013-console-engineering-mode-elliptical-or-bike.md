@@ -35,11 +35,13 @@ authority: 3
 not_to_be_confused_with:
 - ce850-2016-console-engineering-mode-security-lock
 - cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
+- ce800-2016-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
 see_also:
 - ce850-2016-console-engineering-mode-security-lock
 - ce900-2025-console-engineering-mode-unit-type
 - ce800-2013-console-power-up-odometer
 - cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
+- ce800-2016-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
 source:
   ref: spirit-elliptical-ce800-2013-owners-manual
   locator: p. 28 (printed 26), Engineering Mode Menu. Source is OCR of an image-only
@@ -102,3 +104,5 @@ list runs Key Test, Display Test, Functions, Security; its Sleep Mode says **30 
 then Enter; and its Functions order is Sleep, Pause, ODO Reset, Units, Beep, DA Test, Elliptical/Bike.
 The same seven settings, two timeouts and two unlock gestures, and nothing resolves them:
 `cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock`.
+
+**The 2016 CE800's service manual prints the XU878 menu, not this one.** The XE890B-AE10M book for the ce800-2016 lists Key Test, Display Test, Functions and Security, a **30-minute** sleep, a Security unlock by holding **Start and Enter for 3 seconds**, and Functions in the order Sleep, Pause, ODO Reset, Units, Beep, DA Test, Elliptical/Bike (`ce800-2016-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock`) - the same seven settings as this card's, with the same two timeouts and two unlock gestures the CU800-2012's two documents disagree over. That machine is a different SKU from the CE800-2013 and is not on this card.

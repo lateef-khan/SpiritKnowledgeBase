@@ -2,7 +2,7 @@
 id: xe195-2021-programs-four-presets-and-six-programs
 title: Four preset profiles and six programs in all, with no Strength program and no custom program
 kind: fact
-question: How many programs does a Spirit XE195 elliptical have, in the 2019 or the 2021 printing, and what are they?
+question: How many programs does a Spirit XE195 elliptical have, in the 2016, 2019 or 2021 printing, and what are they?
 asked_as:
 - how many programs does my elliptical have
 - is there a strength program on the xe195
@@ -24,6 +24,7 @@ facets:
   product_line: elliptical
   model: '*'
   applies_to:
+  - xe195-2016
   - xe195-2019
   - xe195-2021
   section: programs
@@ -35,9 +36,13 @@ see_also:
 - spirit-xe-2021-programs-five-presets-and-ten-programs
 - spirit-ce-programs-hill-profile
 - xe195-2021-programs-single-heart-rate-key-defaults-to-sixty-percent
+- spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: 'XE195 2021 printed p. 16 (feature callout), p. 23 (preset programs) and p. 29 (heart rate); XE195 2019 p. 17, p. 23 and p. 25'
+  locator: 'XE195 2021 printed p. 16 (feature callout), p. 23 (preset programs) and p. 29 (heart rate); XE195 2019
+    p. 17, p. 23 and p. 25. XE195 2016 service manual (XE509S-SE021), Function Button Locations drawing, PDF p. 20,
+    text.md lines 327-348 (key labels read from a render; the OCR supplement at lines 1357-1371 also reads them),
+    and Quick Start spec 4.2, p. 16, line 251'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +72,12 @@ programs". The machine has six.*
 rate page 25). Its key row is the same six - MANUAL, CARDIO, HILL, FATBURN, INTERVAL, HR - its preset
 page opens "the elliptical has **four** different programs", and it carries the same stale "any of
 the **nine** different programs" sentence.
+
+**The XE195 2016 service manual draws the same six keys** - MANUAL, CARDIO, HILL, FAT BURN, INTERVAL,
+HR - on its Function Button Locations page, and its Quick Start spec names the lineup as "MANUAL,
+PROGRAM, HRC": one heart rate program, as on the later printings. **Its caption beside the drawing
+reads "(Manual, Hill, Fat Burn, Interval, HR)"**, five names for six keys, with Cardio left out
+- see `spirit-2016-programs-service-manual-captions-leave-cardio-off-the-program-buttons`. The
+service manual prints no preset count, no descriptions and no percentage; the counts above rest on
+the 2019 and 2021 owner's manuals. It also prints no User key and no save-as-custom sentence, which
+is consistent with the machine and not with the owner's manual's Manual step 8.

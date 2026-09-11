@@ -37,10 +37,13 @@ see_also:
 - spirit-xe-warranty-use-environment
 - spirit-xe-warranty-geographic-fifty-states
 - xt-2023-warranty-start-date
+- spirit-xt-2007-warranty-five-years-or-eighteen-months-from-shipping
 source:
   ref: spirit-elliptical-xe100-xe200-xe300-owners-manual
   locator: Manufacturer's Limited Warranty, ELLIPTICAL WARRANTY table, XE100/XE200
-    column, p. 44 (text.md lines 1649-1653)
+    column, p. 44 (text.md lines 1649-1653); the same four figures in the XE100 - XE200 column of
+    the 2008 dealer manual spirit-elliptical-xe100-xe200-xe300-xe400-xe500-2007-service-manual, XE ELLIPTICAL
+    WARRANTY, PDF p. 11 (printed 11), text.md lines 350-354
   extracted_at: '2026-09-09'
 ---
 
@@ -54,6 +57,8 @@ source:
 | Brake | Lifetime |
 
 Printed above it: **Effective October 15, 2007**.
+
+**The 2008 dealer service manual prints the same four figures** in its XE100 - XE200 column - Frame Lifetime, Brake Lifetime, **All Parts 5 years**, Labor 1 year - calling the row *All Parts* rather than *All Other Components*, in that order, and printing no effective date. Its base term, five years from retail sale or eighteen months from factory shipping, is on `spirit-xt-2007-warranty-five-years-or-eighteen-months-from-shipping`.
 
 **The XE300 is not on this card.** Its column of the same table reads *All Other Components* **10 Years** - double - with Labor, Frame and Brake unchanged. A shared card would state the wrong number for it: `xe300-2007-warranty-periods-ten-year-components`.
 

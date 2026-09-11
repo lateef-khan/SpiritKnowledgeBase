@@ -4,11 +4,12 @@ title: No user weight limit is printed in these manuals
 kind: fact
 question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015,
   XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit
-  CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012,
-  CR800-2009 or CU1000ENT-2023 bike, of a Spirit XBR25, XBR55 or XBU55 bike of the
-  2007, 2016 or 2019 generation, of a Spirit XBR95 residential bike, or of a Spirit
-  XE100, XE150, XE195-2019, XE200, XE295-2019, XE300, XE350, XE395-2010, XE395-2018,
-  XE395ENT, XE550, XE795-2018, XE895-2018 or XG400-2019 residential elliptical?
+  CT800-2012 treadmill, of a Spirit CE800-2016, CE850-2016, CE900ENT or CE1000ENT-2023
+  elliptical, of a Spirit CU800-2012, CR800-2009 or CU1000ENT-2023 bike, of a Spirit
+  XBR25, XBR55 or XBU55 bike of the 2007, 2016 or 2019 generation, of a Spirit XBR95
+  residential bike, or of a Spirit XE100, XE150, XE195, XE200, XE295, XE300, XE350,
+  XE395, XE395ENT, XE400, XE500, XE550, XE795, XE895 or XG400 residential elliptical
+  of the 2005, 2007, 2010, 2016, 2018 or 2019 generation?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -29,7 +30,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce1000ent-2023
+  - ce800-2016
   - ce850-2016
+  - ce900ent
   - cr800-2009
   - ct800-2012
   - cu1000ent-2023
@@ -49,17 +53,25 @@ facets:
   - xbu55-2021
   - xe100-2007
   - xe150-2005
+  - xe195-2016
   - xe195-2019
   - xe200-2007
+  - xe295-2016
   - xe295-2019
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395ent-2021
+  - xe400-2007
+  - xe500-2007
   - xe550-2005
+  - xe795-2016
   - xe795-2018
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xrw600-2019
   - xt185-2015
@@ -88,6 +100,9 @@ see_also:
 - cr800-2009-safety-no-safety-instructions-printed
 - cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter
 - spirit-bike-safety-user-weight-limit-350-lb
+- spirit-ce-safety-no-mains-outlet-needed
+- ce1000ent-2023-safety-mains-powered-through-a-100-w-adapter
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: 'whole manual; the safety instructions page is page 5 (page 4 in the XT185,
@@ -108,7 +123,18 @@ source:
     (XR327-SB005-01), 72 pages, lines 1-1646; XBR55-2016 (XR329-SB011-01), 76 pages,
     lines 1-1670; XBU55-2016 (XU319-SB011-01), 61 pages, lines 1-1475; CU1000ENT (SU8880-SB028),
     35 pages, lines 1-1089. The CU800 (XU878-AB04M) and XBR95-2016 (XR829-SB012-01)
-    service manuals print none either, lines 1-1135 and 1-1631.'
+    service manuals print none either, lines 1-1135 and 1-1631. Eleven Spirit ellipticals
+    whose only book is a service manual print none (text.md line ranges cover the
+    native text and the OCR supplements): CE800-2016 (XE890B-AE10M), 65 pages, lines
+    1-1309; CE900ENT, 72 pages, lines 1-2221; CE1000ENT (SE8880-SB028), 34 pages,
+    lines 1-1106; XE195-2016 (XE509S-SE021-01), 75 pages, lines 1-1677; XE295-2016
+    (XE519S-SE020-01), 78 pages, lines 1-1714; XE395-2016 (XE539S-SE019-01), 98 pages,
+    lines 1-2302; XE795-2016 (XE815-SE024-01), 71 pages, lines 1-1487; XG400-2016
+    (SE551-SE023-01), 52 pages, lines 1-1345; XE895-2016 (XE895-SE022), 105 pages,
+    lines 1-2814; XE400 and XE500 in the 2007 dealer manual, 38 pages, lines 1-2878.
+    The CE850-2016 (XE898-SE011), XE395ENT-2021 (XE539S-SE025-01) and XE100/XE200/XE300
+    2007 dealer service manuals, whose owner''s manuals are already on this card,
+    print none either, lines 1-2774, 1-1886 and 1-2878.'
   extracted_at: '2026-09-09'
 ---
 
@@ -298,3 +324,27 @@ and the CU1000ENT is a new machine; nothing in any of their books says a later f
 (`spirit-xbr-2007-safety-mains-power-through-an-ac-adapter`,
 `cr800-2009-safety-no-safety-instructions-printed`,
 `cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter`).
+
+## Eleven Spirit ellipticals whose only manual on file is a service book, and it prints none
+
+**CE800-2016** (the XE890B-AE10M book), **CE900ENT**, **CE1000ENT-2023** (SE8880-SB028),
+**XE195-2016, XE295-2016, XE395-2016, XE795-2016, XG400-2016 and XE895-2016** (the XE509S-SE021-01,
+XE519S-SE020-01, XE539S-SE019-01, XE815-SE024-01, SE551-SE023-01 and XE895-SE022 books) and **XE400-2007
+and XE500-2007** (the 2007 dealer manual) have no owner's manual in this repository, and their service
+manuals state no user weight limit anywhere. The words *kg*, *capacity* and *weight limit* do not
+appear in them; *lb* and *lbs* appear only in bolt-torque figures such as `500~600Lbs` and `550lb`;
+*weight* appears only as the console age-and-weight entry and as `depending on the weight of the
+user` in the belt-slip Q&A. Checked in the text layer, with letter-spacing allowed, and in the 300 dpi
+renders the OCR supplements were made from. The CE850-2016, XE395ENT-2021 and XE100/XE200/XE300 2007
+service manuals, whose owner's manuals are already on this card, print none either; and the service
+manuals of the CE800 (2020), CE850 (2020), CE900 (SE8800-SE026) and XE795-2023, whose owner's manuals
+print 450 lbs or 400 lbs, are silent too - the owner's figure stands for those four.
+
+**Do not fill these in from a neighbour.** The 2018-2019 owner's manuals of the same XE machines print
+none; the 2021 XE195 prints 350 lb, the 2021 XE295, XE795 and XG400 print a recommended 400 lb, the
+2023 XE395 and XE795 print 400 lbs, and the CE800, CE850-2020 and CE900 owner's manuals print 450
+lbs. The 2016 books are earlier SKUs, the XE400 and XE500 are a different generation, and the CE900ENT
+and CE1000ENT are new machines; nothing in any of their books says a later figure applies
+(`spirit-ce-safety-no-mains-outlet-needed`,
+`ce1000ent-2023-safety-mains-powered-through-a-100-w-adapter`,
+`xe795-2023-safety-outlet-220-volt-15-amp`).

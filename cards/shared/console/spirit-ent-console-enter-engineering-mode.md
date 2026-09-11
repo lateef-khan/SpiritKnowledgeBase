@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - ce800ent
+  - ce900ent
   - cr800ent-2023
   - cr900ent-2021
   - ct800ent-2022
@@ -45,6 +46,8 @@ see_also:
 - spirit-ct800ent-console-engineering-mode-seven-submenus
 - ct900ent-settings-menu-access
 - spirit-ent-bike-console-engineering-mode-six-submenus
+- ce900ent-console-engineering-mode-seven-settings-entries-machine-information-first
+- ce1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: CE800ENT section 7-4 Engineering Mode Instructions, Home, p. 28 (printed
@@ -55,7 +58,10 @@ source:
     for Engineering Mode, PDF p. 25 (printed 25), lines 347-353. CR900ENT-2021 service
     manual, Setting and Operation for Engineering Mode, PDF p. 24 (printed 24), text.md
     lines 263-267, and CR800ENT-2023 / CU800ENT-2022 service manuals section 7-4,
-    Home, PDF p. 28, lines 459-462 / 452-455
+    Home, PDF p. 28, lines 459-462 / 452-455; CE900ENT service manual, Setting and
+    Operation for Engineering Mode, 1. Operation for entering engineering mode, PDF
+    p. 25 (printed 25), text.md lines 345-346, and the updating page, PDF p. 30, lines
+    468-470
   extracted_at: '2026-09-08'
 ---
 
@@ -109,3 +115,5 @@ Home icon at the top of the main page center 10 times to enter a total of 6 sub-
 setting page"* and land on the elliptical's six (`spirit-ent-bike-console-engineering-mode-six-submenus`).
 **The CU1000ENT-2023 is deliberately left off**, like the CT1000ENT: its button is "Welcome"
 (`cu1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).
+
+**The CE900ENT elliptical's service manual prints the CU900ENT sentence** - *"Press 'Home' button 10 consecutive repetitions to enter engineering mode"* - and lands on the same seven-entry Settings list (`ce900ent-console-engineering-mode-seven-settings-entries-machine-information-first`), so this card now covers that elliptical as well. The **CE1000ENT-2023** is left off for the same reason as the CT1000ENT and CU1000ENT: its button is "Welcome" (`ce1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).

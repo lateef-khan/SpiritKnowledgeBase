@@ -1,8 +1,10 @@
 ---
 id: ce850-2024-errors-stride-err-position-sensor-wrong
-title: STRIDE ERR and a stride window full of dashes come from a wrong position sensor value
+title: STRIDE ERR and a stride window full of dashes come from a wrong position sensor
+  value
 kind: troubleshooting
-question: What do I do when a Spirit CE850-2024 elliptical shows STRIDE ERR?
+question: What do I do when a Spirit CE850-2020 or CE850-2024 elliptical shows STRIDE
+  ERR?
 asked_as:
 - elliptical says stride err
 - stride length wont change on my spirit elliptical
@@ -20,25 +22,29 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce850-2024
+  model: '*'
   applies_to:
+  - ce850-2020
   - ce850-2024
   section: errors
   code: stride-err
-  model_number:
-  - '850025'
 authority: 3
 not_to_be_confused_with:
 - ce850-2024-errors-stride-window-dashes-stride-motor-failure
 - ct850-2016-incline-err-shown-in-incline-window
+- spirit-ce850-2016-errors-stride-err-stride-window-e3
 see_also:
 - ce850-2024-errors-stride-window-dashes-stride-motor-failure
 - ce850-2024-errors-stride-adjustment-buttons-not-working
 - ct850-2016-incline-err-shown-in-incline-window
+- spirit-ce850-2016-errors-stride-err-stride-window-e3
+- spirit-ce850-2016-errors-stride-motor-and-position-sensor-test-115-vac
 source:
   ref: spirit-elliptical-ce850-2024-owners-manual
-  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 38. That
-    page is a flat picture with no text layer and was read from the rendered page.
+  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 38.
+    That page is a flat picture with no text layer and was read from the rendered
+    page; CE850 (2020) service manual 8-7 Troubleshooting procedure matrix, the stride
+    rows, PDF p. 49, text.md lines 852-890
   extracted_at: '2026-09-10'
 ---
 
@@ -65,3 +71,5 @@ ENT treadmills print the same pair of rows about incline
 (`ct850-2016-incline-position-does-not-match-console`,
 `ct850-2016-incline-err-shown-in-incline-window`), with the same reason and the same two-step
 remedy. Different axis, different machine; do not carry an incline part number here.
+
+**The CE850 (2020) service manual prints both rows word for word** - the same `- - -`, the same wrong-position-sensor reason and the same power cycle then calibration - and, unlike the owner's manual, goes on to print the full `- - -` chapter and the nine-step motor test (`ce850-2024-errors-stride-window-dashes-stride-motor-failure`, `spirit-ce850-2016-errors-stride-motor-and-position-sensor-test-115-vac`). Its stride calibration is a five-second hold on the STRIDE up key and START. The CE850 2016 prints the same pair of rows with `E3` in the window (`spirit-ce850-2016-errors-stride-err-stride-window-e3`).

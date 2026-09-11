@@ -30,11 +30,14 @@ authority: 3
 not_to_be_confused_with:
 - spirit-ce-programs-five-preset-work-level-profiles
 see_also:
+- ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys
 - spirit-ce-programs-five-preset-work-level-profiles
 - spirit-ce-programs-preset-setup-steps
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: 'CE850 2020 printed p. 25; CE850 2022 p. 26; CE850 2016 p. 23'
+  locator: 'CE850 2020 printed p. 25; CE850 2022 p. 26; CE850 2016 p. 23. CE850 2016 service manual, Function
+    Button Locations drawing, PDF p. 20, text.md lines 392-413; CE850 (2020) service manual Product Operation,
+    PDF p. 15-16, lines 285-349'
   extracted_at: '2026-09-09'
 ---
 
@@ -52,3 +55,9 @@ Interval - with Strength and HIIT appearing only as captions on the strip of pro
 
 The CE800, CE900 and CES880 manuals say **five**, not seven - see
 `spirit-ce-programs-five-preset-work-level-profiles`.
+
+**The 2016 service manual's console drawing shows five preset keys** - HILL, FAT BURN, CARDIO,
+STRENGTH and INTERVAL - beside Manual, two Custom keys and two HR keys, ten in all
+(`ce850-2016-programs-ten-numbered-program-keys-with-two-custom-and-two-heart-rate-keys`). It prints no program count of its own. The CE850 (2020) service manual prints Quick
+Start and the age-and-weight paragraph and no preset list at all. Neither service manual settles
+"seven".

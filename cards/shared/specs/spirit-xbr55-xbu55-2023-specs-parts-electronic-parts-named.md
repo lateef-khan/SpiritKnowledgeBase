@@ -33,7 +33,7 @@ not_to_be_confused_with:
 - xbr95-2023-specs-parts-electronic-parts-named
 see_also:
 - spirit-residential-bike-specs-gear-motor-or-generator-brake
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-xbr55-2023-service-manual
   locator: 'XBR55 (XR329A-SB030): 2. Electronic Parts, PDF p. 4 (printed 4 of 30),

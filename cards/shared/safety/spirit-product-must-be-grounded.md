@@ -6,8 +6,10 @@ question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010
   2015 or 2023 Spirit XT treadmill, a Spirit XT485ENT or XT685ENT treadmill, a 2026
   Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a
   Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine,
-  a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, a Spirit CU800ENT-2024
-  upright bike, or a Spirit CVC800 climber be grounded?
+  a 2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023
+  elliptical, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation,
+  a Spirit CU800ENT-2024 bike, a Spirit CS800 stepper, a Spirit XS895 incline stepper,
+  a Spirit CVC800 climber or a Spirit 7.0S, 7.5S, 8.5S, 8.5S-Fit or 8.5UE be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -64,10 +66,17 @@ facets:
   - xbr95-2023
   - xbu55-2016
   - xbu55-2023
+  - xe195-2016
+  - xe295-2016
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395ent-2021
+  - xe795-2016
+  - xe795-2023
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2021
   - xs895-2018
   - xs895-2021
@@ -108,6 +117,7 @@ see_also:
 - spirit-ct800-safety-outlet-120-volt-15-amp
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
 - spirit-xb-2023-safety-grounding-instructions-not-printed
+- xe795-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the
@@ -140,7 +150,22 @@ source:
     manual: section 7.1-7.3, PDF p. 11 (printed 11 of 30); text.md lines 174-206.
     XBU55-2023 (XU319A-SB030) service manual: section 7.1-7.3, PDF p. 11 (printed
     11 of 26); text.md lines 171-203. XBR95-2023 (XR829A-SB032) service manual: section
-    7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223.'
+    7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223. Nine Spirit elliptical
+    service manuals print the section as 7.3 Important Grounding Instructions: CE850-2016
+    (XE898-SE011) service manual: 7 Product Safety Instructions, PDF p. 37 (printed
+    37); text.md lines 606-635. CE850 (2020) service manual: 7 Product Safety Instructions,
+    PDF p. 30 (printed 30); text.md lines 505-533. XE195-2016 (XE509S-SE021-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 464-492.
+    XE295-2016 (XE519S-SE020-01) service manual: 7 Product Safety Instructions, PDF
+    p. 32 (printed 32); text.md lines 472-498. XE395-2016 (XE539S-SE019-01) service
+    manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md lines 601-627.
+    XE795-2016 (XE815-SE024-01) service manual: 7 Product Safety Instructions, PDF
+    p. 35 (printed 35); text.md lines 477-505. XE795-2023 (XE815A-SE048) service manual:
+    7 Product Safety Instructions, PDF p. 14 (printed 14); text.md lines 227-262,
+    OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
+    Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
+    (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
+    38); text.md lines 607-635.'
   extracted_at: '2026-09-08'
 ---
 
@@ -504,3 +529,38 @@ books put 220 and 120 on one page and reconcile nothing.
 and XBU55-2023 owner's lists says `See Grounding Instructions`; the owner's book has none, the
 service manual has this (`spirit-xb-2023-safety-grounding-instructions-not-printed`). The two XBR95
 books print it on a self-powered machine with no plug (`spirit-bike-safety-no-mains-outlet-needed`).
+
+## Nine Spirit elliptical service manuals print both paragraphs
+
+**The CE850-2016 (XE898-SE011), CE850 (2020), XE195-2016, XE295-2016, XE395-2016, XE795-2016,
+XE795-2023, XG400-2016 and XE895-2016 service manuals print the whole section as 7.3 Important
+Grounding Instructions**, with `If the elliptical should malfunction or breakdown` - grounding is
+mandatory, the risk named is electric shock, the plug must not be modified, a qualified electrician
+installs the right outlet, and the plug drawing and the temporary-adapter paragraph follow
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`). The 2016 and 2020 books spell the tab
+`earlug`, the 2023 book `earplugs`.
+
+**Their circuit sentence names three different nominal voltages, and no amp figure in any of them.**
+
+| Service manual | Grounding-page sentence | Safety bullet on the same page |
+|---|---|---|
+| CE850-2016, XE795-2016, XE895-2016 | `a nominal 115-volt circuit` | 115-volt, 15-amp outlet (`spirit-xe-safety-outlet-115-volt-15-amp`) |
+| CE850 (2020) | `a nominal 115-volt circuit (or 220-volt circuit)` | 115-volt, 15-amp outlet (same card) |
+| XE195-2016, XE295-2016, XE395-2016, XG400-2016 | `a nominal 120-volt circuit` | 120-volt, 15-amp outlet (`spirit-ct800-safety-outlet-120-volt-15-amp`) |
+| XE795-2023 | `a nominal 120-volt circuit` | 220-volt, 15-amp outlet (`xe795-2023-safety-outlet-220-volt-15-amp`) |
+
+**That contradicts the owner's-manual figures above for the machines that have both books.** The
+three CE850 owner's manuals say `a nominal 110-volt/5 amp dedicated circuit`; the CE850-2016 and
+CE850 (2020) service manuals say 115 volt and no amperage. The XE395-2018 and XG400-2021 owner's
+manuals say `110-volt/15 amp`; the 2016 service manuals for the XE395 and XG400 say 120 volt. And
+**the statement above that the XE195, XE295 and XE795 books have no grounding page is true of the
+owner's manuals alone** - their 2016 service manuals, and the XE795-2023 service manual, print the
+whole page. Quote the figure with the book it comes from; nothing reconciles them.
+
+**Two of the nine print the page on a machine with no plug.** The XE795-2016 and XE795-2023 are
+generator-powered (`spirit-ce-safety-generator-produces-ac-power`); the section is the treadmill
+chapter carried across with the rest of chapter 7. **The XE395ENT-2021 service manual prints no
+grounding page** and no safety chapter at all; that machine's grounding text is its owner's manual's
+alone. The XE395-2016 and XE395ENT-2021 books do add one grounding sentence of their own, in the
+incline-motor replacement: `Be sure that the grounding wire of the incline motor is firmly secured
+on the frame tube of the Rear Frame.`

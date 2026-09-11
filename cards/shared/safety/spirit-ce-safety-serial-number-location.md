@@ -2,10 +2,10 @@
 id: spirit-ce-safety-serial-number-location
 title: Where the serial number is, and the manuals that only leave a blank
 kind: fact
-question: Where is the serial number on a Spirit CE800, CE800ENT, CE850 or CE900-2021
-  elliptical, on a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021
-  generation, or on a Spirit commercial CR800, CR900, CR900ENT, CU800, CU900 or CU1000ENT
-  upright or recumbent bike?
+question: Where is the serial number on a Spirit CE800, CE800ENT, CE850, CE900-2021,
+  CE900ENT or CE1000ENT elliptical, on a Spirit XE residential elliptical of the 2005,
+  2007, 2010 or 2021 generation, or on a Spirit commercial CR800, CR900, CR900ENT,
+  CU800, CU900 or CU1000ENT upright or recumbent bike?
 asked_as:
 - where is the serial number on my elliptical
 - i cant find the serial number on the machine
@@ -28,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce1000ent-2023
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -36,6 +37,7 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce900-2021
+  - ce900ent
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -87,6 +89,8 @@ see_also:
 - spirit-bike-safety-instructions-list
 - cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter
 - spirit-cr900-safety-console-warning-decal-under-13
+- spirit-ce-safety-no-mains-outlet-needed
+- ce1000ent-2023-safety-mains-powered-through-a-100-w-adapter
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
   locator: 'RECORD YOUR SERIAL NUMBER, page 5. The other seven manuals print the same
@@ -106,7 +110,14 @@ source:
     PDF p. 41 (printed 41), line 666; CU1000ENT (SU8880-SB028) service manual Serial
     Number & code Location, PDF pp. 18-19 (printed 18-19), line 370. All four pages
     are photographs with no text layer beyond the heading; read from 150 and 400 dpi
-    renders.'
+    renders. Three elliptical service manuals photograph the sticker: CE900 (SE8800-SE026)
+    service manual 1. Serial Number Location, PDF p. 33 (printed 33), text.md line
+    562; CE900ENT service manual 1. Serial Number Location, PDF p. 42 (printed 42),
+    line 750; CE1000ENT (SE8880-SB028) service manual Serial Number Location, heading
+    PDF p. 19 (printed 19), line 402, photographs PDF p. 20 (printed 20), line 407.
+    All three pages are photographs with no text layer beyond the heading; read from
+    150 dpi renders. The 2007 XE100-XE500 dealer manual asks for the serial number
+    when calling, PDF p. 10, line 316, and names no location.'
   extracted_at: '2026-09-09'
 ---
 
@@ -275,3 +286,28 @@ back of the console beside its port cover. That is the same MAC/model/date label
 service manual photographs. The manual prints no words about either label and no serial number
 format, so tell a CU1000ENT owner to read the label on the side shroud and confirm with Spirit which
 line is the serial.
+
+## Three elliptical service manuals photograph the sticker the owner's manuals leave blank
+
+**The CE900 (SE8800-SE026), CE900ENT and CE1000ENT (SE8880-SB028) service manuals each carry a page
+headed `1. Serial Number Location` (`Serial Number Location` in the CE1000ENT book) with two
+photographs and no words.** All three print the same two photographs, and the rating plate in them
+reads `Model: CE900`. Read from the renders:
+
+- **The serial sticker is on the top face of the front stabilizer tube, at one end, hard against the
+  front shroud** - a white barcode label with `SPIRIT` printed on it, directly below the black
+  `SPIRIT ... MADE IN TAIWAN` rating plate on the shroud. The second photograph shows the same end of
+  the stabilizer from the front, the sticker beside the shroud foot. That is the front stabilizer,
+  the part the CE900-2025 owner's manual names in words (`ce900-2025-safety-product-labels`) and the
+  CE900-2021 owner's manual calls `the front of the elliptical trainer` - but here it is a photograph,
+  not a sentence, so say the service manual *shows* it there.
+- **The CE900ENT and CE1000ENT pages are the CE900 photographs reused.** The plate in the picture
+  says CE900, not CE900ENT or CE1000; the books give no CE900ENT- or CE1000ENT-specific photograph,
+  no words and no serial-number format. Tell an owner of either to look at the front stabilizer
+  beside the front shroud and confirm the line with Spirit. The CU1000ENT bike book, by contrast,
+  photographs a MAC/model/date QR label with no legible serial line (the section above).
+
+**The other thirteen elliptical service manuals print no serial-number page at all** - CE800-2016,
+CE800 (2020), CE850-2016, CE850 (2020), XE195/XE295/XE395/XE795/XG400/XE895 2016, XE395ENT-2021,
+XE795-2023 - and the 2007 XE100-XE500 dealer manual says only `You must have the serial number of
+the machine when you call`.

@@ -3,8 +3,9 @@ id: ce900-2025-errors-leds-not-bright-incomplete-or-imperfect
 title: The display light is dim or incomplete, and these manuals name no supply voltage
   to check
 kind: troubleshooting
-question: Why is the display dim or partly lit on a Spirit CE900-2025 elliptical or
-  a CR900-2025, CU900-2025, CR900-2018, CU900-2018 or XBR95-2016 bike?
+question: Why is the display dim or partly lit on a Spirit CE900-2021, CE900-2025,
+  XE795-2016 or XE795-2023 elliptical or a CR900-2025, CU900-2025, CR900-2018, CU900-2018
+  or XBR95-2016 bike?
 asked_as:
 - elliptical screen is dim
 - display half lit on my spirit elliptical
@@ -24,12 +25,15 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - ce900-2021
   - ce900-2025
   - cr900-2018
   - cr900-2025
   - cu900-2018
   - cu900-2025
   - xbr95-2016
+  - xe795-2016
+  - xe795-2023
   section: errors
   code: no-code
 authority: 3
@@ -49,7 +53,12 @@ source:
     below was read from the rendered page; CU900 2018 service manual Troubleshooting
     procedure matrix, PDF p. 32, text.md lines 521-552; CR900 2018 service manual
     Troubleshooting procedure matrix, PDF p. 31, text.md lines 455-486; XBR95 2016
-    service manual Troubleshooting procedure matrix, PDF p. 44, text.md lines 615-646
+    service manual Troubleshooting procedure matrix, PDF p. 44, text.md lines 615-646;
+    CE900 (SE8800-SE026, ce900-2021) service manual Troubleshooting procedure matrix,
+    PDF p. 32, text.md lines 530-562; XE795 2016 (XE815-SE024-01) service manual Troubleshooting
+    procedure matrix, PDF p. 44, text.md lines 639-671; XE795 2023 (XE815A-SE048)
+    service manual 8.4 Troubleshooting procedure matrix, PDF p. 18, text.md lines
+    322-352
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +86,5 @@ Dead segments rather than a dim light are the next row down:
 `ct850-2020-led-displays-dim-or-incomplete`.
 
 **The CU900 2018 and CR900 2018 service manuals print this row word for word** - `LEDs not bright, incomplete or imperfect`, the two causes, `Check power to console` and `Replace lower controller`, no voltage. **The XBR95 2016 residential recumbent prints the same two causes and the same two fixes about an LCD** (`LCDs not bright, incomplete or imperfect` / `Replace with new LCD or console`), and, alone among the 2016 residential books, prints no `110-120V` check - its sisters do (`spirit-lcd-dim-or-incomplete`). The noun changed; the fix did not, so it belongs here.
+
+**Three elliptical service manuals print this row with no voltage.** The CE900 (SE8800-SE026, `ce900-2021`) prints it word for word about LEDs - `LEDs not bright, incomplete or imperfect`, `Check power to console`, `Replace lower controller`. The XE795 2016 and XE795 2023 print the same two causes and the same two fixes about an LCD (`LCDs not bright, incomplete or imperfect` / `Replace with new LCD or console`) and, like the XBR95 2016, no `110-120V` line - the other XE 2016 books print one (`spirit-lcd-dim-or-incomplete`). All three are generator-powered and have no cord to the console, which is presumably why the wall voltage is absent; none of them says so.

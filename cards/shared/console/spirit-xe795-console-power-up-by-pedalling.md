@@ -48,7 +48,9 @@ source:
     paragraph); XE795 2023 p. 15 Powering On; XBR95 2016, 2018 and 2021 p. 14 POWER;
     XBR95 2023 p. 13 Powering On. XBR95-2016 service manual Electrical Configurations,
     PDF p. 11 (printed 11), text.md lines 154-173; XBR95-2023 service manual Electrical
-    Configurations, PDF p. 6 (printed 6), text.md lines 79-89
+    Configurations, PDF p. 6 (printed 6), text.md lines 79-89; XE795-2023 (XE815A-SE048)
+    service manual 4.1 Basic Operation, Power, PDF p. 7 (printed 7), text.md line
+    113
   extracted_at: '2026-09-09'
 ---
 
@@ -114,3 +116,5 @@ cord-powered. The commercial CR and CU bikes are generator machines but print a 
 names a Brake Controller ("the DC power supply for console") and a Generator Brake, and says the main
 controller includes "power supply (generator power)"; its Product Operation chapter prints no Power Up
 paragraph at all, where the XBR55-2023 and XBU55-2023 books print the mains power-up self-test.
+
+**The XE795-2023 service manual prints one sentence for power** - "The console will automatically power up when the user is pedaling to generate the power" - and no self-test, no software version and no stand-by. Its electrical chapter names a generator power supply and a generator brake, as the XBR95 books do.

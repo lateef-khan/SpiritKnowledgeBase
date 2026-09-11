@@ -37,7 +37,7 @@ see_also:
 - ab900-2018-specs-parts-air650-discrepancy
 - ab900-2018-assembly-tools-needed
 - spirit-cycle-specs-resistance-systems
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-ab900-2018-service-manual
   locator: 2. Electronic Parts, PDF p. 7 (printed 7), text.md lines 74-83, under the

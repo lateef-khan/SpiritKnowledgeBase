@@ -53,7 +53,9 @@ source:
     Pad; CE850 2016 p. 19; CE800 2013 p. 18 (printed 15); XE100/XE200 p. 23 and XE300
     p. 35 of the XE100/XE200/XE300 manual; XE350/XE550 p. 22 of the XE150/XE350/XE550
     manual. CR900-2018 service manual NUMBER KEY PAD, PDF p. 14 (printed 14), text.md
-    lines 191-192; CU900-2018 service manual PDF p. 15 (printed 15), lines 255-256
+    lines 191-192; CU900-2018 service manual PDF p. 15 (printed 15), lines 255-256;
+    CE900 (SE8800-SE026) service manual NUMBER KEY PAD, PDF p. 15 (printed 15), text.md
+    lines 264-265
   extracted_at: '2026-09-09'
 ---
 
@@ -119,3 +121,5 @@ even though the two books are otherwise near-identical here. Do not promise a ke
 semi-recumbent stepper of that year.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same one-sentence description of the number keys.
+
+**The CE900 (SE8800-SE026) service manual prints the NUMBER KEY PAD paragraph in its Product Operation chapter**, word for word with the CE900 owner's manuals, and its console drawing shows the digits 1 to 9, 0, CLEAR and ENTER as a separate pad between the RPM and LEVEL windows.

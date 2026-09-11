@@ -1,7 +1,7 @@
 ---
 id: spirit-xe-specs-no-specification-table
-title: No specification table in seventeen residential owner's manuals, and the
-  figures printed instead
+title: No specification table in seventeen residential owner's manuals or nine
+  service manuals, and the figures printed instead
 kind: fact
 question: Where are the dimensions, machine weight, stride length, flywheel weight
   and power rating for a Spirit residential XE or XG home elliptical?
@@ -29,22 +29,30 @@ facets:
   applies_to:
   - xe100-2007
   - xe150-2005
+  - xe195-2016
   - xe195-2019
   - xe195-2021
   - xe200-2007
+  - xe295-2016
   - xe295-2019
   - xe295-2021
   - xe300-2007
   - xe350-2005
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395-2023
   - xe395ent-2021
+  - xe400-2007
+  - xe500-2007
   - xe550-2005
+  - xe795-2016
   - xe795-2018
   - xe795-2021
   - xe795-2023
+  - xe895-2016
   - xe895-2018
+  - xg400-2016
   - xg400-2019
   - xg400-2021
   section: specs
@@ -61,6 +69,15 @@ see_also:
 - spirit-ce-specs-forty-resistance-levels
 - spirit-xe-specs-which-machines-have-a-power-incline
 - xe395-2010-specs-incline-forty-levels-in-half-steps
+- spirit-elliptical-specs-console-display-type-by-service-manual
+- spirit-xe-2016-specs-tension-motor-working-voltage-dc-4-5-to-7-5-v
+- xe795-2016-specs-hybrid-generator-brake-working-voltage-dc-0-4-to-14-v
+- spirit-xe395-specs-incline-motor-120-or-115-v-ac-four-wires-and-position-sensor
+- spirit-elliptical-specs-drive-belt-tension-figure-by-service-manual
+- spirit-xe-2007-specs-electrical-configuration-adapter-or-mains-incline-transformer
+- spirit-elliptical-specs-parts-which-service-manuals-print-a-parts-list
+- xe195-2016-specs-outline-part-names
+- xe795-2023-specs-outline-numbered-part-names
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: 'Table of Contents p. 1 and whole document; the same absence was checked
@@ -68,7 +85,12 @@ source:
     XE395ENT-2021, XE195-2021, XE295-2021, XG400-2021, XE795-2021 February, XE795-2021
     November, XE395-2023 and XE795-2023, and the six later-found printings XE395-2018,
     XE795-2018, XE895-2018, XE195-2019, XE295-2019 and XG400-2019, each at its own
-    Table of Contents and throughout'
+    Table of Contents and throughout. Service manuals, checked 2026-09-11 in the text
+    layer and OCR supplements of all nine: XE195-2016, XE295-2016, XE395-2016,
+    XE395ENT-2021, XE795-2016, XE795-2023, XE895-2016, XG400-2016 and the XE100-XE500
+    2007 dealer manual - no contents entry and no page for specifications or dimensions;
+    the only pound figures are the 550-600 lb bolt torques of the assembly chapters
+    and the 150 lb default user weight of the console pages'
   extracted_at: '2026-09-09'
 ---
 
@@ -118,6 +140,29 @@ maximum wattage.
 | Certifications | **the two 2023 books only** - FCC part 15, UL, Bluetooth (with FTMS). Neither FCC nor UL occurs in any of the six 2018-2019 printings | safety |
 | Foot pedal angle positions | XE100/XE200/XE300 and the XE350/XE550; **the XE150 has no adjustable foot pedal**, and none of the six 2018-2019 printings describes a pedal angle either | maintenance |
 | Exploded view and parts list | the XE395ENT-2021, XE395-2023 and XE795-2023 books only. **None of the six 2018-2019 printings has either**; they print a carton PARTS INCLUDED checklist, a labelled parts diagram and per-step hardware tables, and nothing that maps an item number to an orderable part | assembly |
+
+## The nine service manuals print no specification table either
+
+The XE195, XE295, XE395, XE395ENT, XE795 (2016 and 2023), XE895 and XG400 service
+manuals and the 2007 XE100-XE500 dealer manual were checked the same way. **None has a
+Specifications chapter; none prints a dimension, a machine weight, a user weight limit
+or a flywheel weight.** The word *specification* does not occur in any of the nine, and
+the only pound figures are bolt torques and the console's 150 lb default. Their
+Outlines chapters are part-name drawings without measurements
+(`xe195-2016-specs-outline-part-names`, `xe795-2023-specs-outline-numbered-part-names`).
+
+What the service manuals do print, and where it lives:
+
+| Figure | Where it is printed | Card |
+|---|---|---|
+| Console display type and size | 7.5" LCD in the six 2016 books, LCD touch panel on the XE795-2023, TFT touch panel on the XE395ENT | `spirit-elliptical-specs-console-display-type-by-service-manual` |
+| Tension motor working voltage | DC 4.5-7.5 V in every gear-motor book | `spirit-xe-2016-specs-tension-motor-working-voltage-dc-4-5-to-7-5-v` |
+| Generator brake working voltage | DC 0.4-14 V, XE795-2016 only | `xe795-2016-specs-hybrid-generator-brake-working-voltage-dc-0-4-to-14-v` |
+| Incline motor supply and wires | 120 V AC (XE395-2016) or 115 V AC (XE395ENT), red up / black down / white common / green ground | `spirit-xe395-specs-incline-motor-120-or-115-v-ac-four-wires-and-position-sensor` |
+| Belt tension | 190 Hz plus or minus 10 in seven books; two belts at 540 and 1000 N on the XG400 | `spirit-elliptical-specs-drive-belt-tension-figure-by-service-manual` |
+| Supply | adapter on the XE100-XE300, power cord and incline transformer on the XE400/XE500 (2007 book); adapter on the 2016 XE195/XE295/XG400; mains inlet on the XE395s and XE895; generator on the XE795s | `spirit-xe-2007-specs-electrical-configuration-adapter-or-mains-incline-transformer` and the block-diagram cards |
+| Resistance levels | a Function page with LEVEL 0-20 or 1-20 in the 2016 books, 40 in the XE795-2023 | the two level cards above |
+| Parts lists | the 2007 dealer manual only | `spirit-elliptical-specs-parts-which-service-manuals-print-a-parts-list` |
 
 ## The XE895-2018 is the one book that says *stride*, and it still gives no length
 

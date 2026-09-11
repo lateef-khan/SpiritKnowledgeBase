@@ -3,8 +3,8 @@ id: xe395-2018-errors-incline-calibration-three-key-hold
 title: Incline calibration, held on Start, Level Up and Stop, on the model with a
   powered incline rail
 kind: troubleshooting
-question: What do I do when there is a problem with the incline on a Spirit xe395-2018
-  elliptical?
+question: What do I do when there is a problem with the incline on a Spirit xe395-2016
+  or xe395-2018 elliptical?
 asked_as:
 - the incline on my spirit elliptical is not working right
 - how do i calibrate the incline on a spirit xe395
@@ -25,8 +25,9 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: xe395-2018
+  model: '*'
   applies_to:
+  - xe395-2016
   - xe395-2018
   section: errors
   code: no-code
@@ -38,10 +39,13 @@ not_to_be_confused_with:
 see_also:
 - spirit-xe-errors-no-error-codes-printed
 - xe895-2018-errors-stride-calibration-three-key-hold
+- xe395-2016-errors-incline-err-incline-window-err
+- xe395-2016-errors-incline-motor-and-position-sensor-test-120-vac-15-max
 source:
   ref: spirit-elliptical-xe395-2018-owners-manual
-  locator: 'Incline Calibration, printed page 37 (PDF page 37), the paragraph printed
-    below the Engineering Mode Menu'
+  locator: Incline Calibration, printed page 37 (PDF page 37), the paragraph printed
+    below the Engineering Mode Menu; XE395 2016 (XE539S-SE019-01) service manual CALIBRATION
+    PROCEDURE, Incline Calibration paragraph, PDF p. 55, text.md lines 915-950
   extracted_at: '2026-09-10'
 ---
 
@@ -78,3 +82,5 @@ The machine still prints **no error code and no troubleshooting chapter** - see
 `spirit-xe-errors-no-error-codes-printed`. The word `error` does not appear in this manual once.
 A Spirit treadmill `INCLINE ERR` is a different fault on a different platform with its own causes
 and its own test - see `ct850-2016-incline-err-during-incline-action`.
+
+**The XE395 2016 service manual (XE539S-SE019-01) prints the same paragraph** - *If there is a problem with the incline, try running the calibration. Press the Stop key, Level key and the Start key at the same time. Hold them down for 5 seconds and the Incline calibration will start and run automatically. If the problem persists contact service department.* The three keys are the same; the service manual writes them Stop, Level, Start and says *Level key* where the owner's manual says *Level up key*. Unlike the owner's manual, that book does print the message the calibration answers - `INCLINE ERR` with `Err` in the incline window - and the meter test behind it: `xe395-2016-errors-incline-err-incline-window-err`, `xe395-2016-errors-incline-motor-and-position-sensor-test-120-vac-15-max`.

@@ -1,6 +1,7 @@
 ---
 id: ce900-2021-console-screen-overview
-title: The console overview drawing that names an ultra-bright blue LED display and no tablet rack
+title: The console overview drawing that names an ultra-bright blue LED display, with
+  a tablet rack call-out only in the service manual
 kind: fact
 question: What does the console overview drawing name on a Spirit ce900-2021 elliptical?
 asked_as:
@@ -32,10 +33,13 @@ see_also:
 - ce900-2025-console-screen-overview
 - spirit-ce900-console-message-window-scan
 - spirit-ce900-console-three-speed-fan
+- spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: p. 12, CE900 CONSOLE OPERATION (PDF page 14). This page has no text layer in the PDF; read
-    from the OCR supplement at the end of text.md
+  locator: p. 12, CE900 CONSOLE OPERATION (PDF page 14). This page has no text layer
+    in the PDF; read from the OCR supplement at the end of text.md; CE900 (SE8800-SE026)
+    service manual section 4 Product Operation, Display Windows, PDF p. 13 (printed
+    13), text.md lines 202-206, the drawing read from a 100 dpi render
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +67,5 @@ nothing about a maintenance menu can be quoted for this machine.
 
 **This page had no text layer in the PDF and was recovered by OCR at 300 dpi.** The five call-outs
 and the warning above are legible. Nothing else on the page is.
+
+**The service manual for this machine draws the console with a sixth call-out the owner's manual lacks: "Tablet friendly reading rack holder".** Its Display Windows page prints the same drawing with all five call-outs above - Integrated adjustable fan, Premium ultra-bright blue LED display, LED heart rate graph, Easy to read lap counter, Large LED matrix window - plus the rack, pointing at the ledge under the SPIRIT badge; the ENTER, START and STOP keys, the - and + keys and the nine program keys are readable on it. So the 2021 machine does have the rack the 2025 drawing names; only the 2021 owner's manual leaves it unlabelled. The bikes' 2018 service manuals draw the same six (`spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack`).

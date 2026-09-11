@@ -71,7 +71,10 @@ source:
     (printed 12), text.md lines 183-193; CU800 (2020) service manual PDF p. 13 (printed
     12), lines 203-213. CR900-2018 service manual QUICK START, PDF p. 13 (printed
     13), text.md lines 148-157; CU900-2018 service manual PDF p. 14 (printed 14),
-    lines 212-221
+    lines 212-221; CE800 (2020) service manual 4-2-2 QUICK START, PDF p. 14 (printed
+    13), text.md lines 238-247; CE850 (2020) service manual QUICK START, PDF p. 15
+    (printed 15), lines 291-301; CE900 (SE8800-SE026) service manual QUICK START,
+    PDF p. 14 (printed 14), lines 223-232
   extracted_at: '2026-09-09'
 ---
 
@@ -154,3 +157,5 @@ difficult" - the CE wording, not the residential machines' "extremely hard".
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both print the paragraph word for word, including the 24 columns, the wrap-around and the forty levels in ten rows.
 
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same 24 columns, wrap-around and forty levels in ten rows.
+
+**Three elliptical service manuals print this passage in their Product Operation chapters.** The CE800 (2020) and CE900 (SE8800-SE026) books print the forty-levels version with the Dot Matrix Message Center or dot matrix starting on the bottom row; the CE850 (2020) book prints the twenty-levels version with the quarter-mile-track clause, the Up and Down keys, and the 24 columns and wrap-around, word for word with the owner's manuals.

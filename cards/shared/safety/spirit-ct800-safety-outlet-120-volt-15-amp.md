@@ -2,7 +2,9 @@
 id: spirit-ct800-safety-outlet-120-volt-15-amp
 title: The outlet is a nominal 120-volt, 15-amp dedicated circuit
 kind: policy
-question: What outlet and circuit does a Spirit CT800 treadmill of the 2020 or ENT-2022 generation, or a Spirit CU800ENT-2024 upright bike, need?
+question: What outlet and circuit does a Spirit CT800 treadmill of the 2020 or ENT-2022
+  generation, a Spirit CU800ENT-2024 upright bike, or a 2016 Spirit XE195, XE295,
+  XE395 or XG400 elliptical need?
 asked_as:
 - what outlet does the ct800 need
 - does the treadmill need its own circuit
@@ -30,6 +32,10 @@ facets:
   - ct800ent-2024
   - ct850ent-2024
   - cu800ent-2024
+  - xe195-2016
+  - xe295-2016
+  - xe395-2016
+  - xg400-2016
   section: safety
   code: '*'
 authority: 3
@@ -46,12 +52,30 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 - spirit-ce850-safety-outlet-and-circuit-requirement
 - spirit-bike-safety-no-mains-outlet-needed
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-treadmill-safety-outlet-220-volt-10-amp
+- spirit-extension-cord-16-awg-or-better
+- spirit-temporary-adapter-for-a-two-pole-receptacle
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
-  locator: Important Electrical Instructions page 6 and Grounding Instructions page 6; the
-    CT800ENT-2022 owner's manual prints its figure on IMPORTANT SAFETY INSTRUCTIONS page 4
-    and on GROUNDING INSTRUCTIONS page 6 The CU800ENT-2024 bike owner's manual prints its
-    figure in the WARNING header of its SAFETY INSTRUCTIONS page, printed page 5
+  locator: 'Important Electrical Instructions page 6 and Grounding Instructions page
+    6; the CT800ENT-2022 owner''s manual prints its figure on IMPORTANT SAFETY INSTRUCTIONS
+    page 4 and on GROUNDING INSTRUCTIONS page 6 The CU800ENT-2024 bike owner''s manual
+    prints its figure in the WARNING header of its SAFETY INSTRUCTIONS page, printed
+    page 5. Four Spirit elliptical service manuals print the 120-volt, 15-amp bullet
+    in 7.1 and `a nominal 120-volt circuit` in 7.3: XE195-2016 (XE509S-SE021-01) service
+    manual: 7 Product Safety Instructions, PDF p. 32 (printed 32); text.md lines 464-492.
+    XE295-2016 (XE519S-SE020-01) service manual: 7 Product Safety Instructions, PDF
+    p. 32 (printed 32); text.md lines 472-498. XE395-2016 (XE539S-SE019-01) service
+    manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md lines 601-627.
+    XG400-2016 (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF
+    p. 30 (printed 30); text.md lines 410-436. The XE195-2016 bullet adds `(for 220-volt
+    is 10-amp)`, line 466-467, and its matrix row reads `Check AC power is 110-120V.
+    (or 220-230V)`, PDF p. 42, line 656; the XE295-2016, XE395-2016 and XG400-2016
+    matrix rows read `Check AC power is 110-120V`, PDF p. 42 line 657, PDF p. 57 line
+    970 and PDF p. 40 line 599. The XE395-2016 LED table `Check the supply voltage
+    is 110-120V` is PDF p. 34, line 531, and its incline motor `This is a 120 volt
+    AC motor` PDF p. 12, line 224.'
   extracted_at: '2026-09-09'
 ---
 
@@ -154,3 +178,42 @@ grounding page names a nominal 110-volt circuit with no amperage anywhere in the
 `120 volt AC (NEMA 5-20P electrical cord) 20 amp grounded outlet`
 (`spirit-ct850-outlet-and-circuit-requirement`). The CT850ENT-2024 that replaces it asks for 15 amps
 and names no NEMA type. That is a real change between the two books; quote the machine's own manual.
+
+## Four Spirit elliptical service manuals ask for the same 120-volt, 15-amp outlet
+
+**The XE195-2016 (XE509S-SE021-01), XE295-2016 (XE519S-SE020-01), XE395-2016 (XE539S-SE019-01) and
+XG400-2016 (SE551-SE023-01) service manuals print it in the second bullet of 7.1 Important Safety
+Instructions**:
+
+> To reduce the risk of burns, fire, electric shock, or injury to persons, install the elliptical on a
+> flat level surface with access to a 120-volt, 15-amp grounded outlet with only the elliptical
+> plugged into the circuit.
+
+and their grounding page says `This product is for use on a nominal 120-volt circuit` - **120 volt in
+both places, and no amp figure on the grounding page**. None of the four prints a dedicated-breaker
+sentence; their circuit-breaker paragraph ends at `part # QO120HM`
+(`spirit-house-breaker-needs-a-high-inrush-type`). Their extension cord is 16 AWG
+(`spirit-extension-cord-16-awg-or-better`) and they print the temporary-adapter paragraph
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`).
+
+- **The XE195-2016 book brackets a 230-volt build**: its bullet reads `120-volt, 15-amp (for 220-volt
+  is 10-amp)grounded outlet`, and its matrix row `Check AC power is 110-120V. (or 220-230V)`. That
+  is the treadmill service manuals' 220-volt, 10-amp figure
+  (`spirit-treadmill-safety-outlet-220-volt-10-amp`) printed as an aside; the other three books have
+  no bracket.
+- **These are 120-volt books for machines whose owner's manuals say 115 and 110.** The 2018-2021
+  owner's manuals of the XE195, XE295, XE395, XE395ENT and XG400 ask for 115 volt on the safety page,
+  and the XE395-2018 and XG400-2021 grounding pages say 110
+  (`spirit-xe-safety-outlet-115-volt-15-amp`). The 2016 books are the service-manual SKUs that precede
+  them. Quote the figure with the book it comes from; nothing reconciles 120 with 115 or 110, and the
+  matrix rows treat 110-120 as one acceptable range.
+- **The XE395-2016 is the one of the four with a mains motor**: its incline motor is `a 120 volt AC
+  motor`, and its controller LED table says a dark POWER LED means `Check the supply voltage is
+  110-120V`, a blown fuse or a bad transformer. The XE195, XE295 and XG400 set resistance with a DC
+  tension motor and take their power through a DC plug on the chain cover from a `power adaptor`
+  their console-problem pages tell the technician to check first.
+
+**The XE395ENT-2021 service manual prints no outlet figure at all.** It has no safety chapter; its only
+supply statements are `When the power cord is connected to the elliptical, the console will
+automatically power up`, an incline motor described as `a 115 volt AC motor`, and the matrix row
+`Check AC power is 110-120V`. Its 115 volt comes from its owner's manual alone.

@@ -2,7 +2,7 @@
 id: ce800ent-rear-rail-assembly-replacement
 title: Rear rail assembly replacement
 kind: procedure
-question: How do I replace the rear rail assembly on a Spirit CE800ENT elliptical?
+question: How do I replace the rear rail assembly on a Spirit CE800 or CE800ENT elliptical?
 asked_as:
 - rear rail replacement on my spirit elliptical
 - how do i take the rail support off the ce800ent
@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,7 @@ see_also:
 - ce800ent-connecting-arm-replacement
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-9 Rear Rail Assembly replacement, pp. 51-52 (printed 51-52)
+  locator: 'ce800ent: Section 8-9 Rear Rail Assembly replacement, pp. 51-52 (printed 51-52) | ce800-2021: 10-9 Rear Rail Assembly replacement, PDF pp. 50-51; text.md lines 680-703'
   extracted_at: '2026-09-08'
 ---
 
@@ -55,3 +54,6 @@ L-Allen wrench step 1 needs - only step 3 names 6mm. Bag the hardware as it come
 Step 3 is the only place in this manual that names a **curve washer**. It is a different part from
 the flat and spring washers in step 1; keep the three kinds apart.
 
+**The CE800 (2020) book prints this word for word as 10-9, sizes still absent.** The 2017 CE800 (XE890B) book's rear
+frame procedure prints the bolt sizes (`3/8" x UNC16` button head and flat head socket bolts) but names flat
+washers only - no spring or curve washer - so it has its own card.

@@ -19,16 +19,19 @@ facets:
   product_line: elliptical
   model:
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395-2023
   applies_to:
   - xe395-2010
+  - xe395-2016
   - xe395-2018
   - xe395-2023
   section: specs
   code: '*'
   model_number:
   - '395010'
+  - '395015'
   - '395023'
   lookup: model-numbers
 authority: 3
@@ -36,13 +39,14 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows xe395-2010 to xe395-2023; no row for xe395-2018
-  extracted_at: '2026-09-10'
+  locator: rows xe395-2010, xe395-2016, xe395-2023; no row for xe395-2018
+  extracted_at: '2026-09-11'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
 | 2010 | 395010 | xe395-2010 |
+| 2016 | 395015 | xe395-2016 |
 | 2018 | not confirmed | xe395-2018 |
 | 2023 | 395023 | xe395-2023 |
 

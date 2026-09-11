@@ -1,8 +1,10 @@
 ---
 id: spirit-xe795-console-dot-matrix-is-twenty-columns-of-boxes-ten-high
-title: The dot matrix is twenty columns of boxes ten high, one column per workout segment, showing effort not a value
+title: The dot matrix is twenty columns of boxes ten high, one column per workout
+  segment, showing effort not a value
 kind: fact
-question: What do the blocks in the middle of the display mean on a Spirit XE795 elliptical or XB bike?
+question: What do the blocks in the middle of the display mean on a Spirit XE795 elliptical
+  or XB bike?
 asked_as:
 - what are the squares on my elliptical display
 - what do the blocks on the elliptical screen mean
@@ -53,7 +55,12 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 16 Dot Matrix Center Display (same in the February 19 2021 printing); XE795 2023 p. 22 FEATURES; XBR95 2016, 2018 and 2021 p. 14, XBR25/XBR55/XBU55 2019 and 2021 p. 15, all Dot Matrix Center Display; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES
+  locator: XE795 2021 p. 16 Dot Matrix Center Display (same in the February 19 2021
+    printing); XE795 2023 p. 22 FEATURES; XBR95 2016, 2018 and 2021 p. 14, XBR25/XBR55/XBU55
+    2019 and 2021 p. 15, all Dot Matrix Center Display; XBR25 2023 p. 19, XBR95 2023
+    p. 20, XBR55/XBU55 2023 p. 21, all FEATURES; XE795-2023 (XE815A-SE048) service
+    manual 4.2 Basic Function, Dot Matrix Center Display, PDF p. 8 (printed 8), text.md
+    lines 161-164
   extracted_at: '2026-09-09'
 ---
 
@@ -111,3 +118,5 @@ Twenty columns of boxes ten high, an approximate level of effort rather than a v
 "The Lap track will move in a counterclockwise direction."
 
 **The XS895 has 20 resistance levels**, like the XE895 and unlike the XE795 and XBR95.
+
+**The XE795-2023 service manual prints this paragraph word for word** in its Basic Function table.

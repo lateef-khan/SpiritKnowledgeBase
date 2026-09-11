@@ -2,7 +2,7 @@
 id: ce800ent-swing-arm-replacement
 title: Swing arm replacement
 kind: procedure
-question: How do I remove the swing arm on a Spirit CE800ENT elliptical?
+question: How do I remove the swing arm on a Spirit CE800 or CE800ENT elliptical?
 asked_as:
 - how do i take the swing arm off my spirit elliptical
 - ce800ent handlebar arm removal
@@ -21,13 +21,13 @@ facets:
   brand:
   - spirit
   product_line: elliptical
-  model: ce800ent
+  model: '*'
   applies_to:
+  - ce800-2016
+  - ce800-2021
   - ce800ent
   section: assembly
   code: '*'
-  model_number:
-  - '800054'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +36,7 @@ see_also:
 - ce800ent-chain-cover-replacement
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: Section 8-2 Swing Arm Replacement, pp. 37-38 (printed 37-38)
+  locator: 'ce800ent: Section 8-2 Swing Arm Replacement, pp. 37-38 (printed 37-38) | ce800-2021: 10-2 Swing Arm Replacement, PDF pp. 36-37; text.md lines 519-542 | ce800-2016: 9-2 Swing Arm Replacement, PDF pp. 44-47; lines 725-753'
   extracted_at: '2026-09-08'
 ---
 
@@ -58,3 +58,12 @@ does not say so, and it names no torque.
 Two later procedures tell you to come back here, and both misprint the reference as **"10-2"**.
 There is no section 10 in this manual - they mean this section, 8-2.
 
+**The CE800 (2020) book prints this word for word as 10-2** - so its later sections' "follow the step of 10-2"
+are correct there, and the CE800ENT copied the reference without renumbering.
+
+**The 2017 CE800 (XE890B) book, section 9-2, is the same four steps with the sizes the later books leave out:** step
+1 names the covers "front and back"; step 3 removes **swing arm joint cover A (left and right)** with a **Phillips
+head screw M5x15mm** and a **sheet metal screw 3.5x12**; step 4 uses a **17 m/m combination wrench and 12 mm
+hex-key** on the **M10 x P1.5 x 8T nut** and **M10 x 1.5 (38L) bolt** that fix the swing arm to the rod end
+bearing. Its 14 mm bolt and washer are the same `3/8"x15mm` and `3/8"x30x2.0T`. It also stops without a
+reassembly line.

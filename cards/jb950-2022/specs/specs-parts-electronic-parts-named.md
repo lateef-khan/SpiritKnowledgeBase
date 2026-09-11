@@ -40,7 +40,7 @@ see_also:
 - jb950-2022-specs-parts-drive-system-callouts
 - jb950-2022-maintenance-tool-list-seven-tools
 - spirit-cycle-specs-resistance-systems
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-jb950-2022-service-manual
   locator: 2.1 Upper Controllers PDF p. 22 (printed 22), text.md lines 300-321; 2.2

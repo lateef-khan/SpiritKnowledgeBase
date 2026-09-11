@@ -1,8 +1,10 @@
 ---
 id: spirit-ce850-console-maintenance-menu-cab-or-csafe
-title: The maintenance menu whose Function list adds Sleep mode and a CAB or CSAFE protocol choice
+title: The maintenance menu whose Function list adds Sleep mode and a CAB or CSAFE
+  protocol choice
 kind: procedure
-question: How do I get into maintenance mode on a Spirit CE850 elliptical, and what is in it?
+question: How do I get into maintenance mode on a Spirit CE850 elliptical, and what
+  is in it?
 asked_as:
 - how do i get into engineering mode on the ce850
 - how do i switch the elliptical console to metric
@@ -37,9 +39,12 @@ see_also:
 - spirit-ce800-console-maintenance-menu-function-and-service
 - ct900ent-sleep-mode-auto-shutoff
 - spirit-ce850-console-power-up-self-test
+- spirit-ce850-console-stride-calibration-stride-up-and-start-held-five-seconds
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: CE850 2020 p. 41 ENGINEERING MODE; CE850 2022 p. 42
+  locator: CE850 2020 p. 41 ENGINEERING MODE; CE850 2022 p. 42; CE850 (2020) service
+    manual section 8.5 CALIBRATION PROCEDURE, MAINTENANCE MENU IN CONSOLE SOFTWARE,
+    PDF p. 47 (printed 47), text.md lines 809-830
   extracted_at: '2026-09-09'
 ---
 
@@ -88,3 +93,5 @@ list.** Theirs has no **Stride test**, and their Sleep mode entry prints a defau
 **Sleep mode (Default On)** - which this card's machines do not:
 `spirit-stepper-console-maintenance-menu-sleep-default-on`. Do not carry the Stride test onto a
 stepper; it has no adjustable stride.
+
+**The CE850 (2020) service manual prints this menu with two differences from the owner's manuals.** Its Function list has **no Sleep mode entry** - Unit, Pause Mode, ODO Reset, Beep, then **Use CSAFE protocol (Reservation)** and **Use CAB protocol (Reservation)** - and its Service list is Motor Test, Stride Test, Sensor Test, CSAFE Test, headed "Factory test". It holds Start, Stop and Enter for about 5 seconds until the Message Window reads "Engineering Mode", navigates with the Level ▲/▼ keys, and ends in e. Exit. Nothing in it explains what a reserved protocol entry does when selected, or why the owner's manual has a Sleep mode the service manual does not. The stride calibration on the same page is `spirit-ce850-console-stride-calibration-stride-up-and-start-held-five-seconds`.

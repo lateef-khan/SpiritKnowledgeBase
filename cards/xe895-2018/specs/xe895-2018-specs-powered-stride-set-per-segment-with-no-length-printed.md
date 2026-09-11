@@ -38,6 +38,8 @@ not_to_be_confused_with:
 see_also:
 - spirit-xe-specs-no-specification-table
 - spirit-xe-specs-which-machines-have-a-power-incline
+- spirit-ce850-xe895-specs-stride-motor-115-v-ac-four-wires-and-position-sensor
+- spirit-ce850-xe895-specs-outline-part-names
 source:
   ref: spirit-elliptical-xe895-2018-owners-manual
   locator: 'p. 14 assembly wiring (RESISTANCE/STRIDE); p. 26 Custom User Defined
@@ -77,6 +79,15 @@ the adjustment mechanism:
 There is no specification table in this book to supply any of it - see
 `spirit-xe-specs-no-specification-table`. Get a stride length from Spirit Fitness
 or the product spec sheet and say the owner's manual does not print one.
+
+**A different XE895 book does print a length, for a different year.** The
+XE895-2016 *service* manual (drawing code XE895-SE022) is the CE850-2016 commercial
+book reissued under the XE895 name: its Function page prints a stride of 18 to 24 in
+0.5 steps and its wiring chapter a 115 V AC stride motor. Those figures sit on
+`spirit-ce850-specs-stride-length-18-to-24-inches` and
+`spirit-ce850-xe895-specs-stride-motor-115-v-ac-four-wires-and-position-sensor` under
+the id `xe895-2016`, and no document ties them to the 2018 home machine described
+here - whose console has no stride key and whose manual states no length.
 
 ## Do not answer this with the CE850's 18 to 24 inches
 

@@ -48,7 +48,8 @@ source:
   locator: CE800 2021 p. 36 ENGINEERING MODE MENU; CE800 2023 p. 37. CR800 (2020)
     service manual section 7-4 MAINTENANCE MENU IN CONSOLE SOFTWARE, PDF p. 26 (printed
     25), text.md lines 366-398; CU800 (2020) service manual PDF p. 26 (printed 25),
-    lines 388-420, word for word
+    lines 388-420, word for word; CE800 (2020) service manual section 7-4 MAINTENANCE
+    MENU IN CONSOLE SOFTWARE, PDF p. 27 (printed 26), text.md lines 380-400
   extracted_at: '2026-09-09'
 ---
 
@@ -139,3 +140,5 @@ selected. The Service tests are the same three in a different order.
 Recumbent trainers have a built-in generator" and "The CR800 will also pick up wireless heart rate
 transmitters" - the upright's service manual was made from the recumbent's without changing the
 name, and its wording does not match the CU800-2021 owner's manual, which is worded for an upright.
+
+**The CE800 (2020) service manual for the ce800-2021 prints the CR800 (2020) list word for word** - "Engineering Mode" on the Message Window, Level ▲/▼ navigation, Functions I to VI with **V. Use CSAFE protocol (Reserved)** and **VI. Use CAB protocol (Reserved)**, Service with PWM Test, Sensor Test and CSAFE Test - and letters its Exit **D**, the same letter as Service. Its Product Operation chapter is worded for the elliptical ("CE800 elliptical trainers have a built-in generator") and tells you to pedal, unlike the two bike books.

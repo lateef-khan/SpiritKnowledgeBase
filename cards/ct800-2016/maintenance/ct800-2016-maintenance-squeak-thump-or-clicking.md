@@ -29,6 +29,7 @@ facets:
   applies_to:
   - 70s-2025
   - 75s-2025
+  - ce1000ent-2023
   - ce800-2021
   - ce800-2023
   - ce800-2024
@@ -38,6 +39,8 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - ce900-2021
+  - ce900ent
   - crs800s-2024
   - crw800-2024
   - cs800-2021
@@ -85,9 +88,13 @@ see_also:
 - ct800-2016-assembly-levelling-pads
 - spirit-rower-maintenance-no-lubricant-named-anywhere
 - spirit-xe-maintenance-no-sanitizing-section
+- spirit-ce900-maintenance-wear-parts-four-items-belt-pu-wheel-bearing-idler
+- spirit-ce900-maintenance-belt-slips-or-falls-off-pressure-roller-280-to-310-n
+- spirit-ce900-maintenance-noise-and-feet-feeling-graininess-normal-fish-eye-bearing-lubrication
+- spirit-ce900-maintenance-shaking-loose-handle-screw
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text. Ten of the fourteen 2024 New Black Units manuals print the same block word for word under MACHINE CARE - CONTINUED, added in wave 15: ct800-2024 and ct850-2024 printed p. 40, ct800ent-2024 and ct850ent-2024 printed p. 56, ce800-2024 printed p. 36, ce850-2024 printed p. 37, ce800ent-2024 printed p. 49, crs800s-2024 printed p. 34, cs800-2024 printed p. 35 and crw800-2024 printed p. 30. Each of those pages was read from a 300 dpi render with tesseract --psm 4, not from the text layer, because every one of these PDFs carries a second, invisible text layer whose wording differs. Six Spirit climber and stepper owner''s manuals were added in wave 16, all measured from the PDF page rather than from text.md and compared with difflib at word level: spirit-climber-cs800-2021-owners-manual printed p. 34 (PDF p. 37) and spirit-climber-cvc800-2021-owners-manual printed p. 24 (PDF p. 27) are identical to each other at **1.000**; spirit-climber-70s-2025-owners-manual printed p. 37 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 39 (PDF p. 42), under MACHINE CARE, are identical to each other at **1.000** and to the CS800 2021 block at **1.000**; spirit-climber-xs895-2018-owners-manual and spirit-climber-xs895-2021-owners-manual, both printed p. 33 (PDF p. 34), are identical to each other at **1.000** and match the CS800 2021 block at **0.935**, the difference being only the lead-in wording and where the list breaks. The 7.0S, 7.5S and 8.5S pages were checked against a 300 dpi render because these 2025 books come from the same authoring chain as the 2024 range; the rendered page and the extraction agree. Two Spirit XRW600 air-rower owner''s manuals were added in wave 17, both printed p. 37 (PDF p. 37, no offset): spirit-rower-xrw600-2019-owners-manual and spirit-rower-xrw600-2021-owners-manual. The two blocks are identical to each other at difflib word level **0.987** (151 words each, the difference being only where pdftotext hyphenates), and each matches the CT800 2016 block at **0.954** and **0.947**. Both pages were read from a 300 dpi render with tesseract --psm 4 as well as from the text layer (native 151 / rendered 149 on the 2019, native 270 / rendered 271 on the 2021, whose page also carries the sanitizing block), so neither hides imaged text. The XRW600 wording says "one of **three** reasons" and numbers the three remedies I/II/III, giving the crank arm nut its own item; no figure changes'
+  locator: 'p. 40 GENERAL MAINTENANCE; the same numbered list is CT850 2018 p. 43. Word for word, checked with difflib, in six Spirit commercial elliptical owner''s manuals: spirit-elliptical-ce800-2021-owners-manual, spirit-elliptical-ce800-2023-owners-manual, spirit-elliptical-ce800ent-owners-manual, spirit-elliptical-ce850-2016-owners-manual, spirit-elliptical-ce850-2020-owners-manual and spirit-elliptical-ce850-2022-owners-manual, each under GENERAL MAINTENANCE. Also, word for word at 0.98 with only the list markers differing, in both 2021 printings of the residential XE795 owner''s manual, spirit-elliptical-xe795-2021-february-owners-manual p. 36 and spirit-elliptical-xe795-2021-november-owners-manual p. 36. Two 2018 printings carry the same block at difflib word-level **1.000** against the February 2021 XE795 text - spirit-elliptical-xe795-2018-owners-manual printed p. 37 and spirit-elliptical-xe895-2018-owners-manual printed p. 35, which are also identical to each other at 1.000. Both pages were rendered at 300 dpi and read with tesseract --psm 4 (native 355 and 353 words against 354 and 352 rendered), so neither hides imaged text. Ten of the fourteen 2024 New Black Units manuals print the same block word for word under MACHINE CARE - CONTINUED, added in wave 15: ct800-2024 and ct850-2024 printed p. 40, ct800ent-2024 and ct850ent-2024 printed p. 56, ce800-2024 printed p. 36, ce850-2024 printed p. 37, ce800ent-2024 printed p. 49, crs800s-2024 printed p. 34, cs800-2024 printed p. 35 and crw800-2024 printed p. 30. Each of those pages was read from a 300 dpi render with tesseract --psm 4, not from the text layer, because every one of these PDFs carries a second, invisible text layer whose wording differs. Six Spirit climber and stepper owner''s manuals were added in wave 16, all measured from the PDF page rather than from text.md and compared with difflib at word level: spirit-climber-cs800-2021-owners-manual printed p. 34 (PDF p. 37) and spirit-climber-cvc800-2021-owners-manual printed p. 24 (PDF p. 27) are identical to each other at **1.000**; spirit-climber-70s-2025-owners-manual printed p. 37 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 39 (PDF p. 42), under MACHINE CARE, are identical to each other at **1.000** and to the CS800 2021 block at **1.000**; spirit-climber-xs895-2018-owners-manual and spirit-climber-xs895-2021-owners-manual, both printed p. 33 (PDF p. 34), are identical to each other at **1.000** and match the CS800 2021 block at **0.935**, the difference being only the lead-in wording and where the list breaks. The 7.0S, 7.5S and 8.5S pages were checked against a 300 dpi render because these 2025 books come from the same authoring chain as the 2024 range; the rendered page and the extraction agree. Two Spirit XRW600 air-rower owner''s manuals were added in wave 17, both printed p. 37 (PDF p. 37, no offset): spirit-rower-xrw600-2019-owners-manual and spirit-rower-xrw600-2021-owners-manual. The two blocks are identical to each other at difflib word level **0.987** (151 words each, the difference being only where pdftotext hyphenates), and each matches the CT800 2016 block at **0.954** and **0.947**. Both pages were read from a 300 dpi render with tesseract --psm 4 as well as from the text layer (native 151 / rendered 149 on the 2019, native 270 / rendered 271 on the 2021, whose page also carries the sanitizing block), so neither hides imaged text. The XRW600 wording says "one of **three** reasons" and numbers the three remedies I/II/III, giving the crank arm nut its own item; no figure changes. Three Spirit commercial elliptical service manuals print the same block, in the "I cannot stress this point enough" numbered wording, under GENERAL MAINTENANCE and were added on 2026-09-11: spirit-elliptical-ce900-2021-service-manual PDF p. 31 (printed 31), text.md lines 488-500; spirit-elliptical-ce900ent-service-manual p. 39 (688-700); spirit-elliptical-ce1000ent-2023-service-manual under the heading 10. GENERAL MAINTENANCE, PDF p. 18 (printed 18), lines 348-357. The three blocks are identical to each other and to the CU900ENT service-manual block; 90%, 2 pads and 14mm on all three, crank arm nut on all three'
   extracted_at: '2026-09-09'
 ---
 
@@ -163,10 +170,30 @@ post-workout routine that has no noise check
 
 The **2013 CE800** gives **4** leveling pads under the **rear rails**, adds "or the rear rails being
 dirty" to the 90% sentence, and replaces the crank arm nut with rail cleaning and a lubricant -
-`ce800-2013-maintenance-squeak-thump-or-clicking`. The **CE900 2021 and 2025** give **6** pads on
-the bottom of the machine and no crank arm nut -
-`spirit-ce900-maintenance-squeak-thump-or-clicking`. The **CES880 2025** prints no noise or
-levelling section at all. Do not read the two rear-stabiliser pads onto any of those four.
+`ce800-2013-maintenance-squeak-thump-or-clicking`. The **CE900 2021 and 2025 owner's manuals** give
+**6** pads on the bottom of the machine and no crank arm nut -
+`spirit-ce900-maintenance-squeak-thump-or-clicking` - but the CE900 2021 **service** manual prints
+this card's list, 2 pads and crank arm nut included; see the next section. The **CES880 2025**
+prints no noise or levelling section at all. Do not read the two rear-stabiliser pads onto the 2013
+CE800, the CES880, or a CE900 you are reading from its owner's manual.
+
+## Three commercial elliptical service manuals print it too
+
+The **CE900 2021**, **CE900ENT** and **CE1000ENT 2023** service manuals carry the block word for
+word under GENERAL MAINTENANCE, in the numbered "I cannot stress this point enough" wording -
+**90%, 2 pads on the bottom of the rear stabilizer, 14 mm**, and the crank arm nut, which is
+literal on these machines. Each follows it with the four-item wear-parts WARNING that no CE900
+owner's manual prints (`spirit-ce900-maintenance-wear-parts-four-items-belt-pu-wheel-bearing-idler`),
+and each adds a mechanical troubleshooting chapter - a belt slipping or falling off, noise and a
+grainy feel underfoot, shaking - carded from the CE900 family's service manuals.
+
+**For the CE900 2021 that is a contradiction between its two books.** Its owner's manual says six
+leveling pads on the bottom of the machine and never mentions a crank arm nut; its service manual
+says two pads under the rear stabilizer and does. The same service manual's leveling-foot
+replacement procedure then speaks of "the four feet". Neither book explains the other. Level
+whatever feet the machine in front of you has, and retighten the crank arm nut if it is loose - it
+cannot hurt a CE900 to check it. The CE900ENT and CE1000ENT have no owner's manual in the
+repository; the service manual's two pads are their only statement.
 
 ## Ten of the 2024 New Black Units print it, and three of them are new machine types
 

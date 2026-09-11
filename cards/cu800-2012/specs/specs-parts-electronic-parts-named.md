@@ -37,7 +37,7 @@ not_to_be_confused_with:
 see_also:
 - cu800-model-numbers
 - spirit-bike-specs-generator-brake-or-induction-brake
-- spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 source:
   ref: spirit-bike-cu800-2012-service-manual
   locator: Upper Controllers PDF p. 8 (printed 8), text.md lines 122-143; Lower Controller
@@ -63,5 +63,5 @@ which an induction brake is on `spirit-bike-specs-generator-brake-or-induction-b
 all functions of the Elliptical ... the elliptical functions" - on an upright-bike page; the text is carried
 over from an elliptical book and the chapter-2 pages are the bike's own.
 
-**This book prints no tool list**, unlike the 2020 CU800 book (`spirit-bike-specs-parts-service-manual-tool-list-is-one-multimeter`).
+**This book prints no tool list**, unlike the 2020 CU800 book (`spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`).
 No part number or rating is printed on either page.

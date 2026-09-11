@@ -10,6 +10,16 @@ asked_as:
 - incline error on the console of my xe395
 - how do i recalibrate the incline on a spirit elliptical
 - ramp will not move and the console complains
+keywords:
+- incline error
+- ramp error
+- recalibrate
+- calibration
+- start key
+- resistance level up
+- five seconds
+- message center
+- maintenance menu
 facets:
   brand:
   - spirit
@@ -26,24 +36,19 @@ not_to_be_confused_with:
 - ct850-2016-incline-err-during-incline-action
 - ct850-2020-incline-err
 - xe395-2018-errors-incline-calibration-three-key-hold
-keywords:
-- incline error
-- ramp error
-- recalibrate
-- calibration
-- start key
-- resistance level up
-- five seconds
-- message center
-- maintenance menu
 see_also:
 - ct850-2016-incline-calibration-fails-checks
 - spirit-xe-errors-no-error-codes-printed
 - xe895-2018-errors-stride-calibration-three-key-hold
+- xe395-2016-errors-incline-err-incline-window-err
+- xe395ent-2021-errors-incline-err-incline-window-e3
+- spirit-xe-2007-errors-incline-does-not-work-check-the-incline-wires-and-controller
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: 'Maintenance Menu in Console Software, item g (Calibration), printed page
-    28'
+  locator: Maintenance Menu in Console Software, item g (Calibration), printed page
+    28; Qualified on 2026-09-11 against the XE100-XE500 2007 dealer manual PROCEDURE
+    8, PDF p. 8, text.md lines 284-292, and the XE395 2016 and XE395ENT 2021 service
+    manuals
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +83,5 @@ an owner of one of those machines.
 **A Spirit treadmill `INCLINE ERR` is a different fault on a different platform** with its own
 causes and its own test procedure - see `ct850-2016-incline-err-during-incline-action` and
 `ct850-2020-incline-err`. Do not carry a treadmill remedy across to this elliptical.
+
+**The residential service manuals do print the message.** The XE395 2016 service manual's matrix reads `INCLINE ERR, INCLINE window displays "Err"` and the XE395ENT 2021's `INCLINE ERR, INCLINE window displays "E3"`, each with a power cycle then a calibration (`xe395-2016-errors-incline-err-incline-window-err`, `xe395ent-2021-errors-incline-err-incline-window-e3`); the "no residential manual states one" above is true of the owner's manuals only. **The XE100-XE500 2007 dealer manual prints this card's two-key hold word for word as its Procedure 8**, for the XE400 and XE500 - *press and hold the START and level UP keys for 5 seconds, the message window will show "Calibration", press ENTER, the calibration is automatic and the system restarts* - so the hold belongs to that generation of console as well as to this one (`spirit-xe-2007-errors-incline-does-not-work-check-the-incline-wires-and-controller`).

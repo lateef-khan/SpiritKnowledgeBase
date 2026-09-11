@@ -18,16 +18,19 @@ facets:
   - spirit
   product_line: elliptical
   model:
+  - xe795-2016
   - xe795-2018
   - xe795-2021
   - xe795-2023
   applies_to:
+  - xe795-2016
   - xe795-2018
   - xe795-2021
   - xe795-2023
   section: specs
   code: '*'
   model_number:
+  - '795015'
   - '795023'
   lookup: model-numbers
 authority: 3
@@ -35,12 +38,13 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: row xe795-2023; no row for xe795-2018, xe795-2021
-  extracted_at: '2026-09-10'
+  locator: rows xe795-2016, xe795-2023; no row for xe795-2018, xe795-2021
+  extracted_at: '2026-09-11'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2016 | 795015 | xe795-2016 |
 | 2018 | not confirmed | xe795-2018 |
 | 2021 | not confirmed | xe795-2021 |
 | 2023 | 795023 | xe795-2023 |

@@ -61,7 +61,10 @@ source:
     CES880 2025 p. 33; XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300
     manual; XE350/XE550 p. 22 of the XE150/XE350/XE550 manual. CR800 (2020) service
     manual 4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), text.md lines 205-209;
-    CU800 (2020) service manual PDF p. 14 (printed 13), lines 225-229
+    CU800 (2020) service manual PDF p. 14 (printed 13), lines 225-229; CE800 (2020)
+    service manual 4-2-3 BASIC INFORMATION, PDF pp. 14-15 (printed 13-14), text.md
+    lines 257-263; CE850 (2020) service manual BASIC INFORMATION, PDF pp. 15-16 (printed
+    15-16), lines 312-317
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +148,5 @@ resistance level one: `csc900-2024-console-start-stop-pause-thirty-seconds`. Do 
 behaviour at a CS800 or CRS800S of any year.
 
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same five-minute pause, same two presses to end, same three-second reset and Previous Screen function.
+
+**The CE800 (2020) and CE850 (2020) service manuals print this paragraph in their Product Operation chapters** - the five-minute pause, the second press back to the start-up screen, the three-second Reset and the Previous Screen function - and, like the owner's manuals, name only the Start key to resume. The CE800 (2020) book writes "will be paused"; nothing about the behaviour differs.
