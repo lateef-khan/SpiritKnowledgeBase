@@ -1,8 +1,8 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after all four
-sub-waves of 3a merged; 3a is done except the twelve Spirit medical books the Xterra
-folder holds (see 3a-bis). Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11 (evening)** after all four
+sub-waves of 3a **and the 3a-bis medical / owner's-manual-gaps wave** merged. **3a is
+done. 3b (Xterra) is surveyed and planned, not started.** Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -14,11 +14,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **7,628** |
+| cards | **8,030** |
 | `kb lint` | 0 problems |
-| declared model ids | **312** (196 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 451 |
-| machines carrying `model_number` | **230** of 258 with single-machine cards |
+| declared model ids | **325** (209 Spirit, 116 Sole) — every one has at least one card |
+| sources ingested | 479 |
+| machines carrying `model_number` | **240** of 270 with single-machine cards |
 
 Check it yourself:
 
@@ -168,8 +168,16 @@ XT485.pdf` (dbo.MODEL "XT485-2013"), two Lexmark scans of the 2013 CT850
 scan), `bike backup/XBR95/XBR95_NewStyle_OM_2024_0715.pdf` (©2023), three
 strength files (one with a shifted font encoding), `Treadmills/70T/740881 -
 70T.pdf` (©2024, 32% of the 2026 book — an earlier 7.0T), and 2025 printings
-of the 4.0T / 7.0T / CR900 / CU900 books at ~90%. The plan is in the session
-scratchpad as `plan-medical-and-om-gaps.md`; run it as one wave before 3b.
+of the 4.0T / 7.0T / CR900 / CU900 books at ~90%. **Done** (PR #58, 2026-09-11): 28 sources, 395 new cards, 535 extended. Thirteen
+new ids: `40r-2025`, `40u-2025`, `70r-2025`, `70u-2025`, `80u-2025`, `85r-2025`
+(the 2025 medical bikes, SKUs on their service-manual covers; 784145 for the 8.5R
+is in no `dbo.MODEL` row), `40r-pt` / `40u-pt` (the undated Dyaco "PT" consumer
+books — not therapy editions), `70r-2021` (the Dyaco "MED" book, Rev 1.2.1
+2021-10-14), `40t-2025` (740881 — the two 2025 4.0T printings, one misnamed
+"740881 - 70T.pdf") and `70t-2025` (770881), `xt485-2013` (485812), `ct850-2013`
+(850813; the scanned 2013 book, all OCR). The 7.0T-770885 export's 23 cards list
+`70t-2026`. The 85UE keeps `product_line: ergometer`. Not ingested, with reasons in
+the commit: XBR95/CR900/CU900 2024 re-exports, CSD-LPSR 2024, a third CU800-2012 scan.
 
 Two things the wave learned about the method: tesseract cannot read a
 photographed page (the E-50H bulletin got 8–19 words a page and was typed by
@@ -323,3 +331,61 @@ in `reference/`.
   has a corrected title and body but a stale id, which cannot change.
 - `xe150-2005` is carded as Spirit; the database brands it XTERRA. Left as is;
   revisit when the Xterra brand exists.
+
+---
+
+## 8. Where to pick up (written at the pause, 2026-09-11 evening)
+
+Everything Spirit and Sole on disk is ingested and carded except what section 3c
+lists. **Next is 3b, Xterra.** The survey is done and committed:
+
+- `reference/xterra-survey/plan-xterra.md` — three waves (X1 treadmills, X2 bikes /
+  ellipticals / climber / app QA, X3 rowers / strength), with a proposed id and
+  the date evidence for every manual.
+- `reference/xterra-survey/xterra-manuals-dates-and-skus.tsv` — per PDF: model,
+  revision stamp, © year, warranty-effective date, matching `dbo.MODEL` rows.
+- `reference/xterra-survey/xterra-manuals-survey.tsv` — pages, creation date,
+  word count, cover text. Eight owner's manuals have **no text layer** (MB500,
+  SB45r, SB500_150314, RSX1500_115518, FS150, FS5.8e, FS59e, ERG400): sweep them
+  with `--force-ocr`, score all four rotations, date them from the table.
+- `reference/wave-briefs/` — the brief set the last wave ran (COMMON + eight
+  sections) as templates, plus the three scripts every wave used: `sweep.py`
+  (render-vs-extraction OCR, `OMP_THREAD_LIMIT=1`, PIL rotation), `pages.py`
+  (a form-feed page printer that dodges the rtk hook), `reconcile.py`
+  (post-wave checks). Copy them into the session scratchpad; the briefs name
+  `$S` paths.
+
+Before the first Xterra wave: add `xterra` to `kb.yaml` `facets.brand.values`
+and a `models: xterra:` list; `xe150-2005` (section 7) can then move brands.
+Every Xterra card is `brand: [xterra]`; never extend a Spirit or Sole card with
+an Xterra id (the Dyaco boilerplate is the same text — write the Xterra card and
+`see_also`). The `dbo.MODEL` dump is one `scp`'d `.ps1` away (memory note
+`spirit-sku-lookup-custservice`); it has 59 XTERRA rows.
+
+Then 3c (the 30 machines without a `model_number`; `kb facet-gaps`).
+
+**How a wave ran today, in one paragraph.** Branch from `main`. Write a
+`wave-*.tsv` (`relative path <TAB> source id <TAB> title <TAB> model ids`),
+`kb ingest` each row, prepend the source header comment, run `sweep.py` over
+the wave in the background (4 manuals × 4 threads, single-threaded tesseract),
+check `grep '^=== OCR SUPPLEMENT' | sort | uniq -d` on every source, declare
+the ids in `kb.yaml`, add `reference/model-numbers.csv` rows and the same rows
+to `sources/custservice-model-numbers/text.md` (refresh its manifest sha256),
+write or rebuild the family product cards (`<family>-model-numbers`, list-valued
+`model`, `lookup: model-numbers`), lint, **commit the ingest on its own**. Write
+COMMON + eight section briefs, launch eight agents at once with only the brief
+paths, wait. Snapshot `cards/` to the scratchpad. Run `reconcile.py`, strip
+`model_number` from widened cards and add it to new one-machine cards, look for
+the same fact carded by two sections (belt slip, erratic heart rate, tool lists —
+merge into the section the repo already uses and re-point references), commit,
+update this file, push, `gh pr create --body-file`, wait for the `lint` check,
+`gh pr merge --squash --delete-branch`, pull `main`.
+
+**Open questions for a human**, all recorded on the cards and in the PR bodies
+#54–#58: which book support should quote where owner's and service manuals
+disagree on volts / amps / gauge / GFCI; the CT900 and XS895 warranty terms
+(sheet vs manual); the CU800-2012 adapter-vs-generator and JB950 generator-vs-
+battery power source; the FTP credentials on `ct900ent-console-ftp-settings-error-log-upload`;
+whether the 2019 sheet cards should reach post-2019 ids; the 7.0R "set Unit Type
+to upright" and the CSD-CPSP 679 lb / 598 lb placards.
+
