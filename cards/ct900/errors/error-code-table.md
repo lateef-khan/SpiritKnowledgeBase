@@ -34,9 +34,14 @@ not_to_be_confused_with:
 - 70t-2026-errors-error-code-table
 see_also:
 - ct900-electrical-power-requirements
+- ct900-errors-incline-e33-no-vr-change-during-incline-action
 source:
   ref: spirit-treadmill-ct900-owners-manual
-  locator: printed pages 42-49, ERROR CODES and ERROR CODES - AC MOTOR DRIVE INVERTER
+  locator: printed pages 42-49, ERROR CODES and ERROR CODES - AC MOTOR DRIVE INVERTER;
+    CT900 service manual Error code items, PDF p. 29-30, text.md lines 366-426; CT900
+    service manual AC MOTOR DRIVER INVERTER VFD-TM Error and Warning Codes, List of
+    Error Codes, PDF p. 40-43, text.md lines 579-841; CT900 service manual List of
+    Warning Codes, PDF p. 44-45, text.md lines 841-947
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +73,5 @@ firmly attested than the rest, and check a service manual before quoting them.
 
 The manual also defers twice, at `E31` and `E32`, to the **VFD-TM Error and Warning
 codes** table of the AC motor drive inverter, which it does not reproduce.
+
+**The service manual prints all three families and, unlike the owner's manual, the VFD-TM fault table itself** - thirty-one faults numbered 1 to 32 with 15 missing, each with the inverter keypad's mnemonic, a description and corrective actions; every `E` card now carries its row under *Service manual remedy*. It also prints `E34 CONSOLE EEPROM ERROR - Replace the console`, so the two codes recorded above as unconfirmed are confirmed for E34 and, for `oSL`, confirmed as warning #12 with two corrective actions. The service manual's `E33` gets two full sections of its own (`ct900-e33-incline-err`, `ct900-errors-incline-e33-no-vr-change-during-incline-action`).

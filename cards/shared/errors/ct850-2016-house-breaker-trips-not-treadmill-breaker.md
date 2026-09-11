@@ -38,12 +38,13 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
     56-57 of the CT850 2016 service manual; the same row is section 8-6 TROUBLESHOOTING,
-    page 46 of the CT850 2020 service manual; all four CT850 owner's manuals print the
-    same row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2016 manual
-    (text.md lines 1090-1091) and of the 2020 manual (text.md lines 1089-1090), SERVICE
-    CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md lines
-    1054-1055) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
-    (text.md lines 1188-1189)
+    page 46 of the CT850 2020 service manual; all four CT850 owner's manuals print
+    the same row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2016
+    manual (text.md lines 1090-1091) and of the 2020 manual (text.md lines 1089-1090),
+    SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md
+    lines 1054-1055) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
+    (text.md lines 1188-1189); CT850ENT 2022 service manual 8-7 Troubleshooting, PDF
+    p. 40, text.md lines 810-838
   extracted_at: '2026-09-08'
 ---
 
@@ -71,3 +72,5 @@ The CT800, CT800ENT, CT900ENT and 4.0T manuals print the identical row, carded s
 A breaker **on the treadmill** tripping is a different row, and the two manuals print different
 current ratings for it: `ct850-2016-trips-onboard-10-amp-circuit` and
 `ct850-2020-trips-onboard-20-amp-circuit`.
+
+**The CT850ENT 2022 service manual prints the row word for word** in its 8-7 Troubleshooting table, worded `Circuit breaker trips, but not the treadmill circuit breaker` with the same high-inrush answer.

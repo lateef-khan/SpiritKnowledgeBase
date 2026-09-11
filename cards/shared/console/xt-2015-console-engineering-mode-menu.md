@@ -2,7 +2,8 @@
 id: xt-2015-console-engineering-mode-menu
 title: Entering engineering mode and what the top level menu holds
 kind: procedure
-question: How do I get into engineering mode on a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: How do I get into engineering mode on a Spirit XT185-2015, XT285-2015, XT385-2015,
+  XT485-2015 or XT685-2015 treadmill?
 asked_as:
 - how do i get into the service menu on my treadmill
 - how do i change my treadmill from miles to km
@@ -45,8 +46,11 @@ see_also:
 - xt-2015-console-calibration-fast-plus
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: Engineering Mode Menu, p. 30; the XT285-2015 (p. 38), XT385-2015 (pp. 39-40),
-    XT485-2015 (pp. 43-44) and XT685-2015 (p. 45) manuals print the same section
+  locator: 'Engineering Mode Menu, p. 30; the XT285-2015 (p. 38), XT385-2015 (pp.
+    39-40), XT485-2015 (pp. 43-44) and XT685-2015 (p. 45) manuals print the same section.
+    Service manuals, MAINTENANCE MENU: XT485-2015 PDF p. 60 (printed 60), text.md
+    lines 920-941; XT385-2015 PDF p. 59, lines 909-933; XT285-2015 PDF p. 60 (printed
+    54), lines 1170-1189; XT185-2015 PDF p. 59 (printed 54), lines 1100-1119'
   extracted_at: '2026-09-09'
 ---
 
@@ -83,3 +87,18 @@ key version if it does not open.
 **Calibration is not in this menu.** It has its own entry sequence, headed "Factory settings" - see
 `xt-2023-console-calibration-basic` for the XT185 and XT285 and
 `xt-2015-console-calibration-fast-plus` for the XT385, XT485 and XT685.
+
+**All four 2015 service manuals in the repository (XT185, XT285, XT385, XT485) print this menu under
+the heading MAINTENANCE MENU** with the same Start, Stop and Enter hold, and they say what the screen
+reads: the XT385 and XT485 books say the display shows **"Engineering mode"**, the XT185 and XT285
+books **"ENGINEERING MODE MENU PRESS ENTER"**, and all four add *"(it may say maintenance menu,
+depending on version)"*. All four list A Key Test, B Display Test, C Functions, D Security, E Exit,
+scroll with the Speed ▲/▼ keys and return with Stop. **All four print the unlock as Start and Enter
+held for 3 seconds** - see `xt-2015-console-keypad-lock-security`.
+
+The safety-key way in is printed in the service manuals' E0 error note - *"press STOP & START & ENTER
+keys, and at the same time insert the safety key. The display into ENGINEERING MODE"* - which settles
+that both gestures are in print for every 2015 machine. The XT285-2015 service manual also walks the
+lube reset through this menu: Start, Stop and Enter with the safety key inserted, Enter, Speed ▲ to
+Functions, Enter, Speed ▲ to Maintenance, Enter resets the lube message, Stop exits.
+

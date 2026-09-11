@@ -1,9 +1,10 @@
 ---
 id: spirit-2024-errors-seven-code-table-with-no-hyphen
-title: Every error code these treadmills can show, a seven-row table numbered without a hyphen
+title: Every error code these treadmills can show, a seven-row table numbered without
+  a hyphen
 kind: spec
-question: What error codes can a Spirit CT800-2024 or CT800ENT-2024 treadmill display
-  and what does each one mean?
+question: What error codes can a Spirit CT800-2020, CT800-2024, CT800ENT-2022 or CT800ENT-2024
+  treadmill display and what does each one mean?
 asked_as:
 - list of error codes for my spirit treadmill
 - what do the e codes mean on a ct800
@@ -23,8 +24,11 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
   - ct800-2024
+  - ct800ent-2022
   - ct800ent-2024
+  - ct850-2020
   section: errors
   code: '*'
 authority: 3
@@ -47,8 +51,11 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2024-owners-manual
   locator: ERROR CODES, printed page 42 of the CT800 2024 owner's manual and printed
-    page 60 of the CT800ENT 2024 owner's manual. Both pages are flat pictures with no
-    text layer and were read from the rendered page.
+    page 60 of the CT800ENT 2024 owner's manual. Both pages are flat pictures with
+    no text layer and were read from the rendered page; CT800 2020 service manual
+    8-1 Error Codes, PDF p. 35 (printed 34), text.md lines 467-474; CT800ENT 2022
+    service manual 8-1 Error code items, PDF p. 31, text.md lines 574-599; spirit-treadmill-ct800-2020-e50h-service-bulletin,
+    TRANSCRIPT, PDF PAGE 1 (DC list headed "ERROR MESSAGE of New CT800&CT850(2020)")
   extracted_at: '2026-09-10'
 ---
 
@@ -95,3 +102,7 @@ Three things to know before using either table.
 codes** - twenty-three of them, written `E-01H` through `E-52H` plus a bare `E3`
 (`ct850-2020-inverter-error-code-list`). Only `E3` exists in both, and it means the incline motor in
 both, with a different remedy in each. Never answer a CT850 from this table or a CT800 from that one.
+
+**Both tables were printed in the service manuals two years earlier, word for word.** The CT800 2020 service manual's 8-1 Error Codes table is the CT800 2024 table above, cause and solution alike; the CT800ENT 2022 service manual's 8-1 Error code items table is the CT800ENT 2024 table, and it already carries the `Replace Safety Key` and `SAFETY LOCK` rows. So the two meanings of `E1` are two generations old, not a 2024 change.
+
+**A Spirit service bulletin adds a third, shorter wording.** The photographed card in `spirit-treadmill-ct800-2020-e50h-service-bulletin`, headed *ERROR MESSAGE of New CT800&CT850(2020) - For D/C Motor Controlling System*, lists: E1 No out put from motor; E2 Overloading protection; E3 Incline Error; E4 Abnormal voltage input to motor or wrong wiring between motor/control board; E5 Communication error between console/control board; E6 Control board malfunction; E7 Abnormal voltage input to control board from house power. The same card's second half is the CT850's `E-xxH` list. Its heading is the only document that puts this DC list on a CT850 2020; that machine's own service manual prints the inverter list and nothing else.

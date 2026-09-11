@@ -2,8 +2,8 @@
 id: ct900-calibration-procedure
 title: Calibration procedure - wheel size, min/max speed, max elevation
 kind: procedure
-question: How do I calibrate wheel size, min/max speed and max elevation on a Spirit CT800-2020
-  or CT900 treadmill?
+question: How do I calibrate wheel size, min/max speed and max elevation on a Spirit
+  CT800-2020 or CT900 treadmill?
 asked_as:
 - how do i calibrate the treadmill
 - how do i reset the treadmill to factory settings
@@ -41,9 +41,12 @@ see_also:
 - ct900-engineering-mode-menu
 - ct900-incline-position-mismatch-e33
 - ct850-2020-factory-setting-ranges
+- ct900-console-factory-and-acceleration-settings-accel-decel-0-02
 source:
   ref: ct900-om
-  locator: p. 34
+  locator: p. 34. CT900 service manual section 4 (no calibration in its console chapter)
+    and Factory and Acceleration Settings PDF p. 37 lines 519-537; CT800-2020 service
+    manual section 8-4 PDF p. 44 (printed 43), lines 603-631
   extracted_at: '2026-08-24'
 ---
 
@@ -89,3 +92,12 @@ other 100% word for word.
 
 **The 2024 ENT treadmills calibrate from the touchscreen instead**, with defaults printed as a range
 rather than as steps: `ct800ent-2024-console-calibration-defaults-0-5-to-12-0-mph`.
+
+**The adjustable ranges are printed after all - in the service manuals.** The CT800-2020 service
+manual prints the same table as the CT850-2020's: wheel size 2.98 adjustable 1.50 to 3.50, minimum
+0.5 adjustable 0.3 to 0.5, maximum 12.0 adjustable 10.0 to 12, elevation 15 adjustable 10 to 15
+(`ct850-2020-factory-setting-ranges`, which now covers the CT800-2020). The CT900 service manual
+prints a different factory-settings routine with no wheel size step, a minimum of 0.3 to 0.7 and
+acceleration and deceleration times of 0:02
+(`ct900-console-factory-and-acceleration-settings-accel-decel-0-02`).
+

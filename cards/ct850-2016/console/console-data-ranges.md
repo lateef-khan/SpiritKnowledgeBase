@@ -22,22 +22,24 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: console
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2016-run-mode-buttons
 - ct850-2016-calibration-procedure-metric-or-english
 - ct850-2016-console-layout
+- ct800-2016-console-calibration-in-kph-with-potentiometer-readings-235-to-22
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 4 Operation, Function, pp. 15-16 (printed 14-15)
+  locator: Section 4 Operation, Function, pp. 15-16 (printed 14-15). CT800-2016 service
+    manual section 4 Operation, Function, PDF pp. 15-16 (printed 14-15), text.md lines
+    207-244
   extracted_at: '2026-09-08'
 ---
 
@@ -62,3 +64,12 @@ it is the value the calibration procedure sets - and treat the 12 as unreliable.
 
 The speed row is printed as "Display the current speed in Kilometer mile per hour", which is
 damaged text; the working range it quotes is in mph.
+
+**The CT800-2016 service manual prints this same table**, so this card covers that machine, with one
+row written in both units: its SPEED work range is **0.8~20.0 kph (0.5~12 mph)** and its FAST/SLOW
+step **0.1 kph (mph)**, where the CT850-2016 book prints the mile figures only. Every other row -
+incline 0 to 15 in steps of 1, LAPS 0 to 99, DISTANCE 0.00 to 99.9, CALORIES 0.0 to 999, PULSE 50 to
+200 - is identical, and the CT800-2016 RUN MODE table carries the same "maximum incline position is
+12" contradiction. Its own calibration routine sets 0.8 and 20.0 kph
+(`ct800-2016-console-calibration-in-kph-with-potentiometer-readings-235-to-22`).
+

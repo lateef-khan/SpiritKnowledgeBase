@@ -40,6 +40,7 @@ not_to_be_confused_with:
 see_also:
 - xt485ent-2023-assembly-procedure
 - xt485ent-2023-assembly-power-on
+- spirit-xt-2015-assembly-folding-unfolding-and-transport
 source:
   ref: spirit-treadmill-xt485ent-2023-owners-manual
   locator: whole manual; the assembly chapter ends at p. 16 and CONSOLE OPERATION
@@ -67,7 +68,13 @@ item 57, Transportation Wheel (A), and two of item 58, Transportation Wheel (B).
 The hardware for a folding deck is all listed; the instructions for using it are
 not printed.
 
-Absence is the answer here, not a gap to fill from a sibling machine. **Do not
+**The XT485ENT service manual does print a folding and unfolding page** - its
+chapter 9, "Treadmill Folding/Unfolding and Transport" - and it is on
+[the service-manual folding card](../../shared/assembly/spirit-xt-2015-assembly-folding-unfolding-and-transport.md).
+That page has no transport paragraph and nothing on levelling or storage, so for
+those the silence stands. The owner's manual remains silent on all of it.
+
+Otherwise absence is the answer here, not a gap to fill from a sibling machine. **Do not
 answer these questions from the XT485-2023 card.** That manual does document an
 M14 levelling wrench, a fold-and-roll procedure and a Velcro strap warning, and
 it is a different generation of machine with different hardware - this one's

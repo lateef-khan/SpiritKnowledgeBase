@@ -1,6 +1,7 @@
 ---
 id: spirit-mt200-errors-error-code-table
-title: The 40 error messages, with the incline and decline faults numbered rather than named
+title: The 40 error messages, with the incline and decline faults numbered rather
+  than named
 kind: fact
 question: What is the full list of error codes a Spirit MT200 treadmill can display?
 asked_as:
@@ -41,7 +42,12 @@ see_also:
 - 70t-2026-errors-e1-over-current
 source:
   ref: spirit-treadmill-mt200-2010-owners-manual
-  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md lines 1496-1541; the same table is "Error codes, messages and solution/cause" on printed pages 65-66 of the 2022 manual, text.md lines 2453-2522'
+  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md lines
+    1496-1541; the same table is "Error codes, messages and solution/cause" on printed
+    pages 65-66 of the 2022 manual, text.md lines 2453-2522; 7.0T (MT200 2022) service
+    manual 4.2.3 Error Codes: Messages, Cause and Solution, PDF p. 12-17, text.md
+    lines 208-385; spirit-treadmill-mt200-error-codes-list, Error Codes List MT200
+    - English, text.md lines 3-165 (a one-page 2024 leaflet)'
   extracted_at: '2026-09-09'
 ---
 
@@ -114,3 +120,7 @@ and `ER2 Decline Err`, each marked "(Shows in Grade window)"
 (`70t-2026-errors-error-code-table`). The MT200 numbers those two faults E41 and E42 and
 prints no window note. Every other Spirit treadmill in this repository uses a different
 family again - a CT900 E3 is IGBT Over Temp, where an MT200 E3 is Over V Decel.
+
+**The 7.0T service manual prints the same forty codes with a description and numbered steps for each**, under 4.2.3 *Error Codes: Messages, Cause and Solution*; every code card now carries its row under *Service manual remedy*. It skips E39 and E40 exactly as the owner's manuals do.
+
+**The 2024 MT200 error-codes leaflet prints the same forty codes with one line each** - and three of its names differ from the manuals': `E24 RS-485 Error` (manuals: PU Comm), `E38 External Brake` (manuals: Ext BB) and **`E42 Bad communication Error`** with a cable-inverter-console remedy, where every manual says `E42 Decline Err` (`spirit-mt200-errors-e42-decline-err`).

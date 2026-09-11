@@ -33,7 +33,9 @@ see_also:
 - ct900-toh-motor-over-heating-warning
 source:
   ref: ct900-om
-  locator: p. 45
+  locator: p. 45; CT900 service manual 8. Error code items, PDF p. 29-30, text.md
+    lines 366-426; CT900 service manual AC MOTOR DRIVER INVERTER VFD-TM Error and
+    Warning Codes, List of Error Codes, PDF p. 40-43, text.md lines 579-841
   extracted_at: '2026-08-24'
 ---
 
@@ -44,3 +46,14 @@ source:
 **Solution** (as printed): same generic pointer to the inverter driver's warning-code table.
 
 See [toH - Motor over-heating warning](toh-motor-over-heating-warning.md) for the inverter's own code with a stated corrective action (verify if the motor is overheated; verify the wiring of the motor's temperature protection switch).
+
+**Service manual remedy.** The CT900 service manual prints the VFD-TM table the owner's manual only points at - *AC MOTOR DRIVER INVERTER, VFD-TM Error and Warning Codes' Descriptions, List of Error Codes* - and its **Error Code # 32** is this code. The inverter's own keypad (KPC-CC01) displays it as `toH - Motor over heat`. The table says to press RESET to clear an error code.
+
+Error description, word for word: *Motor overheating protection*
+
+Corrective actions, in the order printed:
+
+1. Verify if the motor's temperature is too high.
+2. Verify if the motor's overheating protection switch is properly wired.
+
+The `Pr` references are the drive's own parameter numbers, which only a technician at the inverter keypad can change; for a customer the actionable steps are the wiring, load, ventilation and supply checks. The Error Code # column runs 1 to 32 with 15 missing, matching the console's `E` numbering.

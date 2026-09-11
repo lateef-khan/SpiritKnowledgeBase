@@ -2,8 +2,8 @@
 id: ct850-2016-ac-power-switch-replacement
 title: Replacing the AC power switch and the overload protective device
 kind: procedure
-question: How do I replace the AC power switch on a Spirit CT850 treadmill, 2016 or
-  2020?
+question: How do I replace the AC power switch on a Spirit CT850, CT800, CT800ENT,
+  CT850ENT or 4.0T treadmill?
 asked_as:
 - how do i change the on off switch on a spirit treadmill
 - spirit treadmill power switch replacement
@@ -23,8 +23,12 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
+  - ct850ent-2022
   section: assembly
   code: '*'
 authority: 3
@@ -37,7 +41,11 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 12.4 AC Power Switch Replacement of the CT850 2016 manual, p. 69
     (printed 68), where the table of contents calls it 10.4; the same words are section
-    11-4 of the CT850 2020 manual, p. 62 (printed 61)
+    11-4 of the CT850 2020 manual, p. 62 (printed 61); the same paragraph is section
+    11-4 "Step 1" of the CT800 2020 service manual, PDF p. 61 (printed 60), text.md
+    lines 875-883; section 9-4 of the CT800ENT (PDF p. 56, lines 967-982) and CT850ENT
+    (PDF p. 57, lines 986-1001) "2020 ver." service manuals; and section 9.4, numbered
+    "1.", of the 4.0T 2026 service manual, PDF p. 45 (printed 56), lines 762-771
   extracted_at: '2026-09-08'
 ---
 
@@ -56,3 +64,8 @@ device, and it does not say to unplug the machine first - do that anyway.
 The manual calls the second part the **overload protective device**. The troubleshooting checklist
 separately names a **circuit breaker on the front grill** that you push in until it locks when the
 display is dead. Neither manual says whether those two names are the same part.
+
+**Six books now print this paragraph word for word**: the two CT850 books above, the CT800 2020 (11-4), the
+CT800ENT and CT850ENT (9-4), and the 4.0T 2026 medical treadmill (9.4). Seven tapping screws, one overload
+protective device, no torque, in every one of them. This card covers all six machines.
+

@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
-  model_number:
-  - '850840'
 authority: 3
 not_to_be_confused_with:
 - ctsbs900-factory-mode-min-max-speed
@@ -38,9 +37,12 @@ see_also:
 - ct850-2016-calibration-procedure-metric-or-english
 - ct850-2016-calibration-procedure-english-only
 - ctsbs900-factory-mode-min-max-speed
+- ct900-calibration-procedure
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-5 Factory and Acceleration Settings, p. 45 (printed 44)
+  locator: Section 8-5 Factory and Acceleration Settings, p. 45 (printed 44). CT800-2020
+    service manual section 8-4 Factory and Acceleration Settings, PDF p. 44 (printed
+    43), text.md lines 603-631
   extracted_at: '2026-09-08'
 ---
 
@@ -68,3 +70,9 @@ calibration procedure on p. 38 says minimum speed **0.3** and maximum speed **15
 (`ct850-2020-console-calibration-minimum-speed-0-3`); 15.0 is above the 10.0 to 12 range printed
 above, and 0.3 is the bottom of the min-speed range rather than the 0.5 default. The two documents
 describe the same machine. Both figures are reproduced as printed.
+
+**The CT800-2020 service manual prints this table word for word** under the heading 8-4 Factory and
+Acceleration Settings, so this card covers that machine too; the two service manuals' section 4 and
+section 8 pages match line for line apart from the model name. The CT800-2020 owner's-manual
+calibration sets 0.5 and 12.0 (`ct900-calibration-procedure`), inside these ranges.
+

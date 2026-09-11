@@ -30,7 +30,8 @@ see_also:
 - ct900-e26-encoder-err
 source:
   ref: ct900-om
-  locator: p. 48
+  locator: p. 48; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -41,3 +42,5 @@ source:
 2. Verify the wiring of PG card.
 3. Verify if the motor's speed is over the PG terminal's detection range.
 4. Verify the setting of Pr02-31 ~Pr02-39.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

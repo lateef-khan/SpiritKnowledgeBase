@@ -38,7 +38,8 @@ see_also:
 - 70t-2026-console-factory-settings
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 44, MACHINE CARE - CONTINUED - Calibration
+  locator: p. 44, MACHINE CARE - CONTINUED - Calibration. MT200-2022 service manual
+    section 4.2.1 d.vii.4.b Calibration, PDF p. 10 (printed 10), text.md lines 158-172
   extracted_at: '2026-09-09'
 ---
 
@@ -60,3 +61,11 @@ step of the Factory settings sequence; see `70t-2026-console-factory-settings`.
 
 **Both MT200 manuals print this routine word for word**, including the `TGT 65`
 target - the 2010 manual on its p. 40, the 2022 manual on its p. 63.
+
+**The MT200-2022 service manual prints the same routine with two lines the owner's manual leaves out**:
+at step 2, "AD is the measured digital value from the step sensor. TGT is the target digital value
+that the sensor should be at. **Adjust the magnet until the AD = TGT value**" - so the beeps guide a
+physical magnet adjustment, not a key press - and a verification step after step 8: *"Go to step
+sensor test. Make sure there are only two dots on the display without anyone stepping on the deck. If
+not, redo the calibration."*
+

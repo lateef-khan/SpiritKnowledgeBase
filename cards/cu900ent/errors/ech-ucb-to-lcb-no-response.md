@@ -2,7 +2,7 @@
 id: cu900ent-ech-ucb-to-lcb-no-response
 title: 'ECH: upper board gets no response from the lower board'
 kind: troubleshooting
-question: What does error code ECH mean on a Spirit CU900ENT bike?
+question: What does error code ECH mean on a Spirit CU900ENT bike or CT900ENT treadmill?
 asked_as:
 - what does ech mean on my spirit bike
 - bike console showing ech
@@ -19,9 +19,10 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu900ent
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ct900ent
   - cu900ent
   section: errors
   code: ech
@@ -32,9 +33,11 @@ see_also:
 - cu900ent-edh-lcb-unknown-device
 - cu900ent-error-code-messages-list
 - cu900ent-error-code-log
+- ct900ent-errors-error-code-messages-list
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Error Code Messages table, page 22
+  locator: Error Code Messages table, page 22; CT900ENT service manual Error Code
+    Messages, PDF p. 19, text.md lines 256-288
   extracted_at: '2026-09-08'
 ---
 
@@ -51,3 +54,5 @@ them is a solution column; the only tool the manual names anywhere in the error 
 multi-meter. Anything beyond the description above would be invention.
 
 The whole printed table, and what the two families of code mean, is on `cu900ent-error-code-messages-list`.
+
+**The CT900ENT treadmill service manual prints this row word for word** - same code, same description, same remark - in an Error Code Messages table that also carries sixteen inverter codes the bike does not have (`ct900ent-errors-error-code-messages-list`).

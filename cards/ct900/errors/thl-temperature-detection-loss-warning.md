@@ -30,10 +30,13 @@ see_also:
 - ct900-toh-motor-over-heating-warning
 source:
   ref: ct900-om
-  locator: p. 48
+  locator: p. 48; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
 **This is tHL (warning #20, the temperature *sensing cable* has lost connection), not toH (warning #17, the motor is actually overheating) - different faults.** Press RESET to clear any Warning Code.
 
 **Corrective action**: Verify the wiring of the motor's temperature detection cable (J14).
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

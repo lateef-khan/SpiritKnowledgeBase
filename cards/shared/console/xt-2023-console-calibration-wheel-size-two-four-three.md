@@ -33,10 +33,13 @@ not_to_be_confused_with:
 see_also:
 - xt-2023-maintenance-adjusting-the-speed-sensor
 - xt-2023-console-engineering-mode-menu
+- spirit-xt-2023-console-data-ranges-20-kmh-incline-15
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: page 46, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration Procedure
-    (XT485 p. 46)
+  locator: 'page 46, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration
+    Procedure (XT485 p. 46). Service manuals: XT485-2023 section 8.10 Calibration
+    Procedure, PDF p. 35 (printed 35), text.md lines 606-617; XT385-2023 section 8.10,
+    same page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -52,3 +55,11 @@ source:
 8. **Press Start to begin calibration.** The process is automatic; **the speed will start up without warning, so do not stand on the belt.**
 
 If the calibration does not pass, check the speed sensor alignment: `xt-2023-maintenance-adjusting-the-speed-sensor`.
+
+**The service manuals print the same eight steps with the metric figures written out**: step 2 holds
+"Start and Fast +" (the owner's manual says Speed +; same key), step 4 sets the maximum to **20.0
+kmph (IMPERIAL set 12.0MPH)**, step 5 the minimum to **1.0 kmph (IMPERIAL set 0.5MPH)**, and step 6
+is "Make sure the wheel size diameter is 2.43". The service-manual grade-return step prints no EU
+sentence. The same figures appear as the console's work range in
+`spirit-xt-2023-console-data-ranges-20-kmh-incline-15`.
+

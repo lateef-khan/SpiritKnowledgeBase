@@ -1,8 +1,9 @@
 ---
 id: spirit-2024-errors-e1-no-speed-sensor-signal
-title: E1 means the console receives no signal from the speed sensor, and the sensor is a replaceable part
+title: E1 means the console receives no signal from the speed sensor, and the sensor
+  is a replaceable part
 kind: troubleshooting
-question: What does E1 mean on a Spirit CT800-2024 treadmill?
+question: What does E1 mean on a Spirit CT800-2020 or CT800-2024 treadmill?
 asked_as:
 - what does e1 mean on my spirit treadmill
 - treadmill showing e1
@@ -20,13 +21,13 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2024
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct800-2024
+  - ct850-2020
   section: errors
   code: e1
-  model_number:
-  - '800825'
 authority: 3
 not_to_be_confused_with:
 - spirit-2024-errors-e1-drive-motor-no-output-signal
@@ -40,8 +41,11 @@ see_also:
 - ct850-2016-motor-not-responsive-after-start
 source:
   ref: spirit-treadmill-ct800-2024-owners-manual
-  locator: ERROR CODES, printed page 42 of the CT800 2024 owner's manual. That page is a
-    flat picture with no text layer and was read from the rendered page.
+  locator: ERROR CODES, printed page 42 of the CT800 2024 owner's manual. That page
+    is a flat picture with no text layer and was read from the rendered page; CT800
+    2020 service manual 8-1 Error Codes, PDF p. 35 (printed 34), text.md lines 467-474;
+    spirit-treadmill-ct800-2020-e50h-service-bulletin, TRANSCRIPT, PDF PAGE 1 (DC
+    list headed "ERROR MESSAGE of New CT800&CT850(2020)")
   extracted_at: '2026-09-10'
 ---
 
@@ -71,3 +75,7 @@ Look-alike codes on other machines: `E1` on a Spirit CT900 is an inverter over-c
 (`xt-2023-errors-e1-motor-not-responsive`), `E1` on the Spirit CRW800 2024 rower is a console EEPROM
 failure (`crw800-2024-errors-e1-console-eeprom-failure`), and Sole's F85 uses `E1` for no RPM signal
 (`f85-2019-e1-no-rpm-signal`).
+
+**The CT800 2020 service manual prints this row word for word** in its 8-1 Error Codes table - the speed-sensor cause and the three-step solution ending in a new sensor - so the 2024 owner's manual inherited it unchanged.
+
+**A Spirit service bulletin on the CT800 #800840 (`spirit-treadmill-ct800-2020-e50h-service-bulletin`) photographs an error card headed *ERROR MESSAGE of New CT800&CT850(2020)* that lists this code under *For D/C Motor Controlling System*.** Its wording is shorter than either manual's: *E1: No out put from motor.*. On the strength of that heading the card carries both the CT800 2020 and the CT850 2020; note that the CT850 2020 service manual itself prints only the twenty-three `E-xxH` inverter codes and no DC-controller list (`ct850-2020-inverter-error-code-list`), so for the CT850 2020 this code rests on the bulletin's heading alone.

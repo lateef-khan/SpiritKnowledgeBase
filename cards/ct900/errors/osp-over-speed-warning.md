@@ -31,7 +31,8 @@ see_also:
 - ct900-osl-over-slip-warning
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -40,3 +41,5 @@ source:
 **Corrective actions**:
 1. Verify if the frequency command is bigger than the maximum of main communication frequency.
 2. Verify the settings of Pr03-12 and Pr03-14.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

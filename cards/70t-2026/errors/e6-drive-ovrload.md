@@ -2,7 +2,8 @@
 id: 70t-2026-errors-e6-drive-ovrload
 title: 'E6 Drive Ovrload: deck lube, brake locked, bad drive or motor'
 kind: troubleshooting
-question: What does error code E6 (Drive Ovrload) mean on a Spirit treadmill, and what does the manual say to check?
+question: What does error code E6 (Drive Ovrload) mean on a Spirit treadmill, and
+  what does the manual say to check?
 asked_as:
 - what does e6 mean on my treadmill
 - treadmill display says e6
@@ -41,7 +42,14 @@ see_also:
 - spirit-mt200-errors-error-code-table
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 'Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md column 1 of 5, lines 1490-1494; the same row is printed word for word in both MT200 owner''s manuals - "Error Codes, Messages and Solution/Cause", printed page 41 of the 2010 manual (text.md lines 1496-1541), and "Error codes, messages and solution/cause", printed pages 65-66 of the 2022 manual (text.md lines 2453-2522)'
+  locator: 'Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md
+    column 1 of 5, lines 1490-1494; the same row is printed word for word in both
+    MT200 owner''s manuals - "Error Codes, Messages and Solution/Cause", printed page
+    41 of the 2010 manual (text.md lines 1496-1541), and "Error codes, messages and
+    solution/cause", printed pages 65-66 of the 2022 manual (text.md lines 2453-2522);
+    7.0T (MT200 2022) service manual 4.2.3 Error Codes: Messages, Cause and Solution,
+    PDF p. 12-17, text.md lines 208-385; spirit-treadmill-mt200-error-codes-list,
+    Error Codes List MT200 - English, text.md lines 3-165 (a one-page 2024 leaflet)'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +80,12 @@ incline codes, `E41 Incline Err` and `E42 Decline Err`
 (`spirit-mt200-errors-e41-incline-err`, `spirit-mt200-errors-e42-decline-err`), which the
 7.0T instead prints unnumbered as `ERR` and `ER2`. Those four are separate cards because
 they are separate identifiers.
+
+**Service manual remedy.** The 7.0T (MT8000-ST021-02) service manual, section 4.2.3 *Error Codes: Messages, Cause and Solution*, prints this code as **E6 Drive Overload: The Inverter detects excessive output current.** and gives, in order:
+
+1) Check the deck/belt for high friction or worn out.
+2) Check that the Brake is released when Motor is moving.
+3) Replace Inverter.
+4) Replace Motor.
+
+**The 2024 MT200 error-codes leaflet (`spirit-treadmill-mt200-error-codes-list`) prints it as `E6 Drive Overload` with one line: *Check the running deck and running belt lubrication, motor brake, inverter, and drive motor.*** The leaflet is titled for the MT200 with no year and is carried for both MT200 revisions; it is a summary of the list above in fewer words, and where it names parts it names the same ones.

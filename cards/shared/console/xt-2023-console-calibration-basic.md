@@ -37,8 +37,11 @@ see_also:
 - xt-2023-console-engineering-mode-menu
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 34, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration Procedure
-    (XT285 p. 42)
+  locator: 'page 34, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration
+    Procedure (XT285 p. 42). Service manuals: XT185-2023 section 8.10, PDF p. 34 (printed
+    34), text.md lines 671-680; XT285-2023 8.10, PDF p. 35, lines 673-682; XT185-2015
+    8.10 CALIBRATION PROCEDURE, PDF p. 59 (printed 54), lines 1088-1097; XT285-2015
+    8.9 CALIBRATION PROCEDURE, PDF p. 60 (printed 54), lines 1158-1167'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +65,11 @@ printed differently in them:
 The **XT385-2015, XT485-2015 and XT685-2015 routine uses a different key** - Start and **Fast +** -
 and is a separate card: `xt-2015-console-calibration-fast-plus`. **No 2015 XT manual has a wheel
 size step at all**, so neither 2.43 nor 3.01 belongs on any 2015 machine.
+
+**All four service manuals print these same five steps, and they settle the key the 2015 owner's
+manuals left illegible: it is "Start and Speed ▲"** - the Speed up key. Every one of the four books
+(XT185-2015, XT285-2015, XT185-2023, XT285-2023) prints step 2 as *"Press and hold down the Start
+and Speed ▲ buttons and at the same time replace the Safety Key"*, names the incline ▲/▼ key in step
+3, and prints the EU sentence in the grade-return step. Nothing in them adds a speed or wheel size
+step, so the absence above is confirmed by four more documents.
+

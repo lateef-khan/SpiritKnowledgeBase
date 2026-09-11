@@ -2,9 +2,10 @@
 id: spirit-erratic-pulse-display
 title: The pulse reading jumps around
 kind: troubleshooting
-question: Why is the heart rate reading erratic on a Spirit commercial treadmill, elliptical,
-  bike, stepper or climber - CE800, CE800ENT, CE850, CE900, CR800, CR800ENT, CR900, CRS800S,
-  CS800, CT850, CU800, CU800ENT, CU900, CU900ENT or CVC800?
+question: Why is the heart rate reading erratic on a Spirit commercial treadmill,
+  elliptical, bike, stepper or climber - CE800, CE800ENT, CE850, CE900, CR800, CR800ENT,
+  CR900, CRS800S, CS800, CT800, CT800ENT, CT850, CT850ENT, CT900ENT, CT1000ENT, CU800,
+  CU800ENT, CU900, CU900ENT, CVC800, XT or 4.0T?
 asked_as:
 - heart rate jumping around on my spirit machine
 - pulse reading is all over the place
@@ -24,6 +25,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2026
   - ce800-2024
   - ce800ent
   - ce800ent-2024
@@ -34,15 +36,30 @@ facets:
   - cr900-2025
   - crs800s-2024
   - cs800-2024
+  - ct1000ent-2023
+  - ct800-2016
+  - ct800-2020
+  - ct800ent-2022
   - ct800ent-2024
   - ct850-2016
   - ct850-2020
+  - ct850ent-2022
   - ct850ent-2024
+  - ct900ent
   - cu800-2024
   - cu800ent-2024
   - cu900-2025
   - cu900ent
   - cvc800
+  - xt185-2015
+  - xt185-2023
+  - xt285-2015
+  - xt285-2023
+  - xt385-2015
+  - xt385-2023
+  - xt485-2015
+  - xt485-2023
+  - xt685-2023
   section: errors
   code: no-code
 authority: 3
@@ -56,8 +73,28 @@ source:
   locator: 'Troubleshooting procedure matrix: CE800ENT section 7-3 page 27; CT850
     2016 section 8.3 pages 49-52; CT850 2020 section 8-7 pages 47-51; CU900ENT page
     39; CVC800 section 8-5 page 34; CE900 2025 owner''s manual printed page 32; CR900
-    2025 owner''s manual printed page 34; CU900 2025 owner''s manual printed page 33;
-    CU800ENT 2024 owner''s manual printed page 50'
+    2025 owner''s manual printed page 34; CU900 2025 owner''s manual printed page
+    33; CU800ENT 2024 owner''s manual printed page 50; XT185 2015 service manual Troubleshooting
+    procedure matrix, PDF p. 60-62 (printed 55-57), text.md lines 1119-1221; XT285
+    2015 service manual Troubleshooting procedure matrix, PDF p. 61-63 (printed 55-57),
+    text.md lines 1189-1291; XT385 2015 service manual Troubleshooting procedure matrix,
+    PDF p. 60-62, text.md lines 933-1039; XT485 2015 service manual Troubleshooting
+    procedure matrix, PDF p. 61-63, text.md lines 941-1047; XT185 2023 service manual
+    Troubleshooting procedure matrix, PDF p. 35-37, text.md lines 705-825; XT285 2023
+    service manual Troubleshooting procedure matrix, PDF p. 36-38, text.md lines 707-827;
+    XT385 2023 service manual Troubleshooting procedure matrix, PDF p. 36-38, text.md
+    lines 631-743; XT485 2023 service manual Troubleshooting procedure matrix, PDF
+    p. 36-38, text.md lines 636-748; XT685 2023 service manual Troubleshooting procedure
+    matrix, PDF p. 34-36, text.md lines 670-794; CT800 2016 service manual 8.4 Troubleshooting
+    procedure matrix, PDF p. 56-59 (printed 55-58), text.md lines 1076-1215; CT800
+    2020 service manual 8-6 Troubleshooting procedure matrix, PDF p. 46-50 (printed
+    45-49), text.md lines 660-797; CT800ENT 2022 service manual 8-6 Troubleshooting
+    procedure matrix, PDF p. 36-38, text.md lines 685-791; CT850ENT 2022 service manual
+    8-6 Troubleshooting procedure matrix, PDF p. 37-39, text.md lines 704-810; CT900ENT
+    service manual Troubleshooting procedure matrix, PDF p. 45-48, text.md lines 691-842;
+    4.0T 2026 service manual Condition / Reason / Solve matrix, PDF p. 36-38 (printed
+    47-49), text.md lines 566-689; CT1000ENT 2023 service manual 6.4 Troubleshooting
+    procedure Matrix, PDF p. 19-21, text.md lines 428-549'
   extracted_at: '2026-09-08'
 ---
 
@@ -106,3 +143,5 @@ answers the same symptom in its own wording, on
 - its troubleshooting table has one heart rate row and that row is about the hand pulse wire
 (`csc900-2024-errors-heartbeat-not-sensed`), even though the console chapter of the same book says
 the machine takes a Bluetooth chest strap.
+
+**Sixteen treadmill service manuals print this row with the same three causes and the same three fixes** - the 2015 and 2023 XT185 to XT685, the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT, CT1000ENT 2023 and 4.0T. All sixteen say `treadmill` in both columns.

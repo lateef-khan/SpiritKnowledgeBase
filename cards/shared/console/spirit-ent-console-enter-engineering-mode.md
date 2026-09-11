@@ -2,8 +2,8 @@
 id: spirit-ent-console-enter-engineering-mode
 title: Entering engineering mode by pressing Home ten times
 kind: procedure
-question: How do I enter engineering mode on a Spirit CE800ENT elliptical, CU900ENT bike
-  or CT800ENT-2022 or CT850ENT-2022 treadmill?
+question: How do I enter engineering mode on a Spirit CE800ENT elliptical, CU900ENT
+  bike or CT800ENT-2022 or CT850ENT-2022 treadmill?
 asked_as:
 - how do i get into the service menu on my spirit machine
 - engineering mode on a spirit touchscreen console
@@ -27,21 +27,28 @@ facets:
   - cr900ent-2021
   - ct800ent-2022
   - ct850ent-2022
+  - ct900ent
   - cu900ent
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups
 see_also:
 - ce800ent-engineering-mode-menu
 - cu900ent-engineering-mode-menu
 - ce800ent-error-code-log
 - cu900ent-error-code-log
+- spirit-ct800ent-console-engineering-mode-seven-submenus
+- ct900ent-settings-menu-access
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: CE800ENT section 7-4 Engineering Mode Instructions, Home, p. 28 (printed
     28); CU900ENT Setting and Operation for Engineering Mode, p. 25 (printed 25) and
-    p. 30 (printed 30, read from raw/page-30.png)
+    p. 30 (printed 30, read from raw/page-30.png). CT800ENT-2022 service manual section
+    8-8, Home, PDF p. 40 (printed 40), text.md lines 819-828; CT850ENT-2022 service
+    manual PDF p. 41, lines 838-847; CT900ENT service manual, Setting and Operation
+    for Engineering Mode, PDF p. 25 (printed 25), lines 347-353
   extracted_at: '2026-09-08'
 ---
 
@@ -78,3 +85,13 @@ are the ENT treadmills in this repository whose console the note's screenshots m
 Screen with Entertainment, Program and Internet tabs, and the ten-press gesture their own manual
 already documents. The CT900ENT, XT485ENT-2023 and XT685ENT-2023 have different home screens and are
 deliberately left off.
+
+**Three treadmill service manuals now print the gesture themselves.** The CT800ENT-2022 and
+CT850ENT-2022 service manuals say *"Click on the Home icon at the top of the main page center 10
+times to enter a total of 7 sub-menu modes on the setting page"*
+(`spirit-ct800ent-console-engineering-mode-seven-submenus`); the CT900ENT service manual says
+*"Press 'Home' button 10 consecutive repetitions to enter engineering mode"* and lands on the
+seven-entry Settings list its owner's manual names (`ct900ent-settings-menu-access`), so this card
+now covers the CT900ENT as well. **The CT1000ENT-2023 is deliberately left off**: its button is
+"Welcome", not Home (`ct1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).
+

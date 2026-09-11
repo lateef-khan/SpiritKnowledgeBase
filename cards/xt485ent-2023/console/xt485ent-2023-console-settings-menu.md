@@ -37,9 +37,11 @@ not_to_be_confused_with:
 see_also:
 - xt485ent-2023-console-wifi-first-time-setup
 - xt-2023-console-bluetooth-speaker
+- xt485ent-2023-console-calibration-behind-the-software-version-and-password-20160620
 source:
   ref: spirit-treadmill-xt485ent-2023-owners-manual
-  locator: p. 23, SETTINGS
+  locator: p. 23, SETTINGS. Service manual section 8.10 CALIBRATION PROCEDURE, PDF
+    pp. 55-56 (printed 55-56), text.md lines 828-856
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +60,12 @@ that name.
 
 **This is not an engineering or service menu.** It holds no speed limits, no
 calibration and no diagnostics; the manual describes none for this machine.
+
+**The service manual shows a Settings screen with seven items and a calibration page hidden behind
+one of them.** Its screenshot lists **Display, WiFi, Bluetooth, Software, Date Time, Child Lock,
+Units** - two more than the five above, including a Child Lock the owner's manual says the machine
+does not have. And the Software item is the door to calibration: tap the version line five times,
+enter the password 20160620, and a CONTROLLER page with wheel diameter, torque, PWM and speed limits
+opens (`xt485ent-2023-console-calibration-behind-the-software-version-and-password-20160620`). So
+"it holds no calibration" is true of what the owner's manual prints, not of the console.
+

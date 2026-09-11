@@ -27,7 +27,8 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: ct900-om
-  locator: p. 46
+  locator: p. 46; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -37,3 +38,5 @@ This is the inverter's AuE warning code (warning #8). Press RESET to clear any W
 1. Verify motor's wiring.
 2. Verify if the motor fits specifications of the motor drive.
 3. Verify motor's parameter settings.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

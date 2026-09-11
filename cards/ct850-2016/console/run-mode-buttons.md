@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: console
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +36,9 @@ see_also:
 - ct850-2016-calibration-procedure-metric-or-english
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 4, Function Button In Main Mode, RUN MODE, p. 19 (printed 18)
+  locator: Section 4, Function Button In Main Mode, RUN MODE, p. 19 (printed 18).
+    CT800-2016 service manual section 4, RUN MODE, PDF p. 19 (printed 18), text.md
+    lines 321-354
   extracted_at: '2026-09-08'
 ---
 
@@ -71,3 +72,9 @@ procedure sets maximum elevation to 15. The 12 here does not agree with the rest
 
 The FAST and SLOW step is printed as "0.1kph(0.1mph)" - the same number for both units, which cannot
 be true of both. The Function table gives the step as 0.1 mph.
+
+**The CT800-2016 service manual prints this same table**, so this card covers that machine, with the
+rapid keys given values: **"SPEED RAPID button: Speed will set to 2,4,6m quickly. INCLINE RAPID
+button: Incline will set to 2,4,6 position quickly."** Its DISPLAY key cycle is the same five lines,
+and it carries the same "maximum incline position is 12" against a Function table that says 15.
+

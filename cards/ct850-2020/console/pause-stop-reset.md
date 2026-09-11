@@ -42,7 +42,8 @@ see_also:
 - ct850-2020-safety-tether-cord
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-5 PAUSE/STOP/RESET, p. 14 (printed 13)
+  locator: Section 4-1-5 PAUSE/STOP/RESET, p. 14 (printed 13). CT800-2020 service
+    manual section 4-1-5 PAUSE/STOP/RESET, PDF p. 14 (printed 13), text.md lines 196-206
   extracted_at: '2026-09-08'
 ---
 
@@ -74,3 +75,8 @@ seconds"; it is the same figure.
 
 **The 2024 CT800 and CT850 owner's manuals print all six behaviours word for word on their p. 17**,
 under PAUSE / STOP / RESET, so this card covers those two machines.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-5 PAUSE/STOP/RESET); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

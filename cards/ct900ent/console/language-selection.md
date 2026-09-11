@@ -2,7 +2,8 @@
 id: ct900ent-language-selection
 title: Choosing one of the 12 display languages from the Home screen
 kind: procedure
-question: How do I change the display language on a Spirit CT900ENT treadmill or a CR900ENT or CU900ENT bike?
+question: How do I change the display language on a Spirit CT900ENT treadmill or a
+  CR900ENT or CU900ENT bike?
 asked_as:
 - how do i change the language
 - how do i switch to spanish
@@ -35,7 +36,8 @@ see_also:
 - ct900ent-maintenance-menu-overview
 source:
   ref: ct900ent-om
-  locator: p. 22
+  locator: p. 22. CT900ENT service manual, Maintenance / Default Language Setup, PDF
+    p. 30 (printed 30), text.md lines 453-460
   extracted_at: '2026-08-24'
 ---
 
@@ -58,3 +60,8 @@ Japanese, Francais, Italiano, Traditional Chinese, Simplified Chinese, Portugues
 and Norsk. It also makes clear that this choice is temporary - the console returns to the default
 language set in the Maintenance menu once the user finishes:
 `cu900ent-maintenance-menu` and `ct900ent-maintenance-menu-overview`.
+
+**The CT900ENT service manual confirms twelve** - "To set default language for the first page window.
+There are 12 languages in the menu" - under Default Language Setup; its screenshot shows Português,
+Nederlands and Norsk among them but the page is an image and the full list was not recovered from it.
+

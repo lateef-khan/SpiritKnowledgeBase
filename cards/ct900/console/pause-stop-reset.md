@@ -35,7 +35,8 @@ see_also:
 - ct900-safety-tether-cord-and-key
 source:
   ref: ct900-om
-  locator: p. 17
+  locator: p. 17. CT900 service manual section 4 Product Operation, PAUSE/STOP/RESET,
+    PDF p. 15 (printed 15), text.md lines 194-203
   extracted_at: '2026-08-24'
 ---
 
@@ -49,3 +50,6 @@ When the treadmill is running, the pause feature may be utilized by pressing the
 - When you are setting data, such as age and time, for a program, pressing the **Stop** button will allow you to go back one step for each button press.
 
 Pulling the magnetic safety tether will also stop the belt - see [safety tether cord and safety key](../safety/safety-tether-cord-and-key.md) for that separate mechanism.
+
+**The CT900 service manual prints this section word for word** in its chapter 4 (PAUSE/STOP/RESET).
+

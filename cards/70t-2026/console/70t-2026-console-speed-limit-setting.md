@@ -35,7 +35,8 @@ see_also:
 - 70t-2026-console-factory-settings
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 44, MACHINE CARE - CONTINUED - Speed limit setting
+  locator: p. 44, MACHINE CARE - CONTINUED - Speed limit setting. MT200-2022 service
+    manual section 4.2.1 f, PDF p. 11 (printed 11), text.md lines 178-181
   extracted_at: '2026-09-09'
 ---
 
@@ -54,3 +55,8 @@ with the minimum speed and the reverse maximum; see
 
 **Both MT200 manuals print the same default, the same 0.1 mph steps and the same
 3.0 mph floor** - the 2010 manual on its p. 40, the 2022 manual on its p. 63.
+
+**The MT200-2022 service manual prints the same figures** and heads the item "Forward Speed limit
+setting (Go to Factory settings if reverse speed change is required)" - the reverse maximum is only
+in `70t-2026-console-factory-settings`.
+

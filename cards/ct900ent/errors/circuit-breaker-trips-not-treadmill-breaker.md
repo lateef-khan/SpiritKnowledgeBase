@@ -2,7 +2,8 @@
 id: ct900ent-circuit-breaker-trips-not-treadmill-breaker
 title: Circuit breaker trips, but not the treadmill circuit breaker
 kind: troubleshooting
-question: Why does the house breaker trip on a Spirit treadmill when the machine's own breaker does not?
+question: Why does the house breaker trip on a Spirit CT800, CT800ENT, CT850, CT900ENT,
+  4.0T or XT treadmill when the machine's own breaker does not?
 asked_as:
 - my house breaker keeps tripping when i use the treadmill
 - why does the wall breaker trip but not the treadmill breaker
@@ -29,6 +30,10 @@ facets:
   - ct850-2024
   - ct850ent-2024
   - ct900ent
+  - xt285-2015
+  - xt385-2015
+  - xt485-2015
+  - xt485ent-2023
   - xt685-2010
   section: errors
   code: '*'
@@ -39,7 +44,26 @@ see_also:
 - ct900ent-electrical-requirements-gfci-breakers
 source:
   ref: ct900ent-om
-  locator: p. 48; the 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45; all four CT800 owner's manuals print the same row - Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md lines 1029-1030), printed page 38 of the 2016 manual (text.md lines 994-995), TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md lines 1093-1094) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual (text.md lines 1182-1183). The XT685 2010 owner's manual prints the same row in Service Checklist - Diagnosis Guide on printed page 31 (PDF page 35, text.md lines 1432-1434).
+  locator: p. 48; the 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING
+    table on printed page 45; all four CT800 owner's manuals print the same row -
+    Service Checklist - Diagnosis Guide on printed page 23 of the 2012 manual (text.md
+    lines 1029-1030), printed page 38 of the 2016 manual (text.md lines 994-995),
+    TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 42 of the 2020 manual (text.md
+    lines 1093-1094) and TROUBLESHOOTING on printed page 52 of the CT800ENT 2022 manual
+    (text.md lines 1182-1183). The XT685 2010 owner's manual prints the same row in
+    Service Checklist - Diagnosis Guide on printed page 31 (PDF page 35, text.md lines
+    1432-1434); service manuals - XT285 2015 service manual 10-2 Service Troubleshooting
+    Checklist, PDF p. 70-71 (printed 64-65), text.md lines 1433-1503; XT385 2015 service
+    manual 10.2 Service Troubleshooting Checklist, PDF p. 69-70, text.md lines 1158-1222;
+    XT485 2015 service manual 10.2 Service Troubleshooting Checklist, PDF p. 70-71,
+    text.md lines 1166-1230; XT485ENT 2023 service manual 10.2 Service Troubleshooting
+    Checklist, PDF p. 64-65, text.md lines 981-1045; CT800 2016 service manual 9.1
+    Service Troubleshooting Checklist, PDF p. 61-62 (printed 60-61), text.md lines
+    1222-1273; CT800 2020 service manual 8-5 TROUBLESHOOTING, PDF p. 45 (printed 44),
+    text.md lines 631-660; CT800ENT 2022 service manual 8-7 Troubleshooting, PDF p.
+    39, text.md lines 791-819; CT900ENT service manual Service Troubleshooting Checklist
+    (first printing), PDF p. 50-51, text.md lines 848-900; 4.0T 2026 service manual
+    TROUBLESHOOTING, PDF p. 35 (printed 46), text.md lines 523-566
   extracted_at: '2026-08-24'
 ---
 
@@ -74,3 +98,5 @@ differently. The CT800 2024 and CT850 2024 say `Need to replace the breaker with
 current" type breaker` and add `See "Electrical Safety" section for more details`. The CT800ENT
 2024 and CT850ENT 2024 say `Need to replace the **house** breaker with a "High inrush current" type
 breaker` and give no pointer. Same remedy; only the ENT books name whose breaker it is.
+
+**The XT service manuals give the high-inrush answer, not the owner's-manual one.** The 2015 XT285, XT385 and XT485 and the XT485ENT service checklists print `Need to replace the house breaker with a "High inrush current" type breaker (see section 7.2 for Important Electrical Instructions)`, and their section 7.2 names the Grainger 1D237 and Square D QO120HM examples. The owner's manuals of the same four machines say only to check that the treadmill is the only appliance on the circuit (`xt-2023-errors-house-breaker-trips`). So for those machines the service document and the owner's document give different remedies for one symptom; the service document's is the one that names a part. The CT800 2016, CT800 2020, CT800ENT 2022, CT900ENT and 4.0T service manuals print the same high-inrush row as their owner's manuals.

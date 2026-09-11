@@ -1,10 +1,10 @@
 ---
 id: ct850-2020-only-reaches-7-mph
-title: The belt only reaches about 7 mph while the display shows more, on the row that
-  demands a minimum of 100 volt AC
+title: The belt only reaches about 7 mph while the display shows more, on the row
+  that demands a minimum of 100 volt AC
 kind: troubleshooting
-question: Why does a Spirit CT800ENT-2024, CT850-2020 or CT850ENT-2024 treadmill only reach
-  about 7 mph?
+question: Why does a Spirit CT800 2020, CT800ENT, CT850 2020, CT850ENT, 4.0T or 2024
+  ENT treadmill only reach about 7 mph?
 asked_as:
 - treadmill will not go faster than 7 mph
 - belt slower than the speed on the display
@@ -23,8 +23,12 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - ct800-2020
+  - ct800ent-2022
   - ct800ent-2024
   - ct850-2020
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: no-code
@@ -35,9 +39,15 @@ not_to_be_confused_with:
 see_also:
 - ct850-2016-only-reaches-7-mph
 - ct800-2020-errors-speed-caps-at-7-mph
+- ct800-2016-errors-only-reaches-7-mph-120-volt-60-hz
+- ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-6 TROUBLESHOOTING, page 46 (printed 45)
+  locator: Section 8-6 TROUBLESHOOTING, page 46 (printed 45); CT800 2020 service manual
+    8-5 TROUBLESHOOTING, PDF p. 45 (printed 44), text.md lines 631-660; CT800ENT 2022
+    service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT850ENT
+    2022 service manual 8-7 Troubleshooting, PDF p. 40, text.md lines 810-838; 4.0T
+    2026 service manual TROUBLESHOOTING, PDF p. 35 (printed 46), text.md lines 523-566
   extracted_at: '2026-09-08'
 ---
 
@@ -74,3 +84,5 @@ model year.
 **The predecessors of the two ENT machines used 12 mph in this row**, not 7
 (`ct800ent-2022-errors-speed-caps-at-12-mph`). The 2024 books dropped the threshold back to 7 mph
 and say nothing about why.
+
+**Four more service manuals print this row word for word** - `7mph /10 kph`, 16-gauge minimum, `A minimum of 100 volt AC current is required` - the CT800 2020, CT800ENT 2022, CT850ENT 2022 and 4.0T. Each contradicts its own owner's manual: the CT800 2020 owner's manual demands 120 volt (`ct800-2020-errors-speed-caps-at-7-mph`), the CT800ENT 2022 and CT850ENT 2022 owner's manuals put the threshold at 12 mph (`ct800ent-2022-errors-speed-caps-at-12-mph`), and the 4.0T owner's manual prints no voltage at all (`40t-2026-errors-speed-caps-at-7-mph`). The CT800 2016 service manual prints 120 volt AC at 60 Hz (`ct800-2016-errors-only-reaches-7-mph-120-volt-60-hz`) and the CT900ENT 110 volt with a 14 gauge cord (`ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt`).

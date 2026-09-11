@@ -1,8 +1,10 @@
 ---
 id: ct850-2016-motor-replacement
-title: Replacing the drive motor and setting the drive belt tension
+title: Replacing the drive motor and setting the belt to 70-75 lbs, with the cap and
+  cover screw counts
 kind: procedure
-question: How do I replace the drive motor on a Spirit CT850-2016 treadmill?
+question: How do I replace the drive motor on a Spirit CT850 2016 or 4.0T (40t-2026)
+  treadmill?
 asked_as:
 - how do i change the drive motor on a spirit treadmill
 - what tension should the motor belt be on a spirit commercial treadmill
@@ -20,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - 40t-2026
   - ct850-2016
   section: assembly
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-motor-replacement
@@ -35,7 +36,10 @@ see_also:
 - ct850-2016-front-rear-roller-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 10.3 Motor Replacement, pp. 66-68 (printed 65-67)
+  locator: Section 10.3 Motor Replacement, pp. 66-68 (printed 65-67); the same six
+    steps with the same counts and the same 70~75 Lbs are section 9.3 of the 4.0T
+    2026 service manual (ST8700-ST017-01), PDF pp. 42-44 (printed 53-55), text.md
+    lines 724-762
   extracted_at: '2026-09-08'
 ---
 
@@ -68,3 +72,7 @@ screw counts for the caps and the top cover. See `ct850-2020-motor-replacement`.
 
 The roller procedure sends you back here for the belt tension. It cites "step 12.3 (5)", which does
 not exist in this manual - the belt tension step is step 5 above, printed under heading 10.3.
+
+**The 4.0T 2026 service manual prints these six steps as its section 9.3**, numbered 1 to 6, with the same 4
+Phillips head screws, 6 tapping screws, 4 bolts, M8 Allen wrench and 70~75 Lbs, calling the 14mm tool an
+"open end wrench" as the 2020 book does. Same figures, same order, so this card covers that machine too.

@@ -2,7 +2,8 @@
 id: ct850-2016-low-speed-solution-flow-chart
 title: Working through the LOW SPEED fault step by step
 kind: procedure
-question: How do I diagnose a LOW SPEED message on a Spirit CT850-2016 treadmill?
+question: How do I diagnose a LOW SPEED message on a Spirit CT800-2016 or CT850-2016
+  treadmill?
 asked_as:
 - how to fix low speed on my spirit treadmill
 - step by step for ls1 low speed
@@ -20,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: errors
   code: low-speed
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +37,8 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 8.1, LOW SPEED solution follow chart, page 32 (printed 31). This
     page is a flattened image; it was read from raw/page-32.png, not from the OCR
-    text
+    text; CT800 2016 service manual LOW SPEED solution follow chart, a flat picture
+    read from the render, PDF p. 35 (printed 34), text.md lines 595-602
   extracted_at: '2026-09-08'
 ---
 
@@ -68,3 +69,5 @@ Two defects in the printed chart, stated so nobody reads past them:
   and it still fails, the cable itself is bad.
 
 What the message means is on `ct850-2016-low-speed-error-message`.
+
+**The CT800 2016 service manual prints the identical chart**, both defects included - the two branches labelled YES out of the POWER-and-PWM diamond, and the cable diamond that sends YES to *Replace cable*. It was read from the rendered page.

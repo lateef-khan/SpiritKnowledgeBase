@@ -32,7 +32,8 @@ see_also:
 - ct900-inc2-up-down-loss
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -41,3 +42,5 @@ source:
 **Corrective actions**:
 1. Verify the wiring between the up-down motor and the motor drive.
 2. Verify the settings of Pr02-20 ~Pr02-30.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

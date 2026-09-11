@@ -31,7 +31,8 @@ see_also:
 - ct900-incline-position-mismatch-e33
 source:
   ref: ct900-om
-  locator: p. 17
+  locator: p. 17. CT900 service manual section 4 Product Operation, INCLINE, PDF p.
+    15 (printed 15), text.md lines 204-208
   extracted_at: '2026-08-24'
 ---
 
@@ -40,3 +41,6 @@ source:
 - The display will indicate incline numbers as percent of grade (the same as grade of a road) as adjustments are made.
 
 If the incline position doesn't match what's on the console, or the console shows an INCLINE ERR / E33, see [incline position mismatch (E33)](../maintenance/incline-position-mismatch-e33.md) and [error E33 INCLINE ERR](../errors/e33-incline-err.md).
+
+**The CT900 service manual prints this section word for word** in its chapter 4 (INCLINE).
+

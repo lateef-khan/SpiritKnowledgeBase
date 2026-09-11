@@ -2,8 +2,9 @@
 id: spirit-lcd-displays-dim-or-incomplete
 title: The display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
-question: Why are display segments missing on a Spirit CT850-2016 treadmill, CR800-2024 or
-  CU800-2024 bike, CRS800S-2024 stepper or CVC800 climber?
+question: Why are display segments missing on a Spirit CT800-2016 or CT850-2016 treadmill,
+  an XT 2015 or 2023 treadmill, a CR800-2024 or CU800-2024 bike, CRS800S-2024 stepper
+  or CVC800 climber?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -24,9 +25,19 @@ facets:
   applies_to:
   - cr800-2024
   - crs800s-2024
+  - ct800-2016
   - ct850-2016
   - cu800-2024
   - cvc800
+  - xt185-2015
+  - xt185-2023
+  - xt285-2015
+  - xt285-2023
+  - xt385-2015
+  - xt385-2023
+  - xt485-2015
+  - xt485-2023
+  - xt685-2023
   section: errors
   code: no-code
 authority: 3
@@ -40,7 +51,19 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Troubleshooting procedure matrix: CT850 2016 section 8.3 page 50; CVC800
-    section 8-5 page 34'
+    section 8-5 page 34; XT185 2015 service manual Troubleshooting procedure matrix,
+    PDF p. 60-62 (printed 55-57), text.md lines 1119-1221; XT285 2015 service manual
+    Troubleshooting procedure matrix, PDF p. 61-63 (printed 55-57), text.md lines
+    1189-1291; XT385 2015 service manual Troubleshooting procedure matrix, PDF p.
+    60-62, text.md lines 933-1039; XT485 2015 service manual Troubleshooting procedure
+    matrix, PDF p. 61-63, text.md lines 941-1047; XT185 2023 service manual Troubleshooting
+    procedure matrix, PDF p. 35-37, text.md lines 705-825; XT285 2023 service manual
+    Troubleshooting procedure matrix, PDF p. 36-38, text.md lines 707-827; XT385 2023
+    service manual Troubleshooting procedure matrix, PDF p. 36-38, text.md lines 631-743;
+    XT485 2023 service manual Troubleshooting procedure matrix, PDF p. 36-38, text.md
+    lines 636-748; XT685 2023 service manual Troubleshooting procedure matrix, PDF
+    p. 34-36, text.md lines 670-794; CT800 2016 service manual 8.4 Troubleshooting
+    procedure matrix, PDF p. 56-59 (printed 55-58), text.md lines 1076-1215'
   extracted_at: '2026-09-08'
 ---
 
@@ -69,3 +92,5 @@ on one page; nothing turns on which is used.
 
 The CE800 2024 and CE850 2024 ellipticals and the CS800 2024 stepper print the LED wording instead:
 `ct850-2020-led-displays-dim-or-incomplete`.
+
+**Ten more service manuals print this one-line row word for word** - `LCD displays not bright, incomplete, or imperfect / LCD displays are broken / Replace with new console` - the 2015 and 2023 XT185 to XT685 and the CT800 2016. The LED and TFT versions are on `ct850-2020-led-displays-dim-or-incomplete` and `cu900ent-tft-displays-not-bright`.

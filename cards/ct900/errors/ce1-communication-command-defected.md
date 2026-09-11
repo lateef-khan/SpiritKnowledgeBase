@@ -34,7 +34,8 @@ see_also:
 - ct900-e27-comm-code-err
 source:
   ref: ct900-om
-  locator: p. 46
+  locator: p. 46; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -44,3 +45,5 @@ source:
 1. Verify if the function codes of the ModBus fit the specifications of the motor drive.
 2. Verify the communication cable and the communication quality.
 3. Clear the fault and then press RESET button.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

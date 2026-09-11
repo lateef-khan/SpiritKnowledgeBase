@@ -34,7 +34,14 @@ see_also:
 - ct900ent-circuit-breaker-trips-not-treadmill-breaker
 source:
   ref: ct900ent-om
-  locator: p. 48; the 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 45; the CT800ENT 2022 owner's manual prints the same row in its TROUBLESHOOTING table on printed page 52 (text.md lines 1191-1192).
+  locator: p. 48; the 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING
+    table on printed page 45; the CT800ENT 2022 owner's manual prints the same row
+    in its TROUBLESHOOTING table on printed page 52 (text.md lines 1191-1192); CT800ENT
+    2022 service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT900ENT
+    service manual Service Troubleshooting Checklist (first printing), PDF p. 50-51,
+    text.md lines 848-900; 4.0T 2026 service manual TROUBLESHOOTING, PDF p. 35 (printed
+    46), text.md lines 523-566; the CT900ENT service manual prints the row a second
+    time on PDF p. 58 against a 15 amp circuit
   extracted_at: '2026-08-24'
 ---
 
@@ -56,3 +63,5 @@ included, on printed page 59.
 
 **Their non-ENT siblings in the same 2024 family print 15 amp in this row**, not 20:
 `xt-2023-errors-trips-onboard-15-amp-breaker`.
+
+**Three service manuals print the 20 amp row**: the CT800ENT 2022 and 4.0T with the deck-cleaning remedy and the deck-flip check, and the CT900ENT with the words `High belt/deck friction.` alone. **The CT900ENT service manual then prints its checklist a second time and rates the circuit 15 amp there** (`ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt` describes that second copy); the 20 amp figure is the one that agrees with the book's safety page.

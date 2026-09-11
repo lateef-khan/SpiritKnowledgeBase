@@ -2,7 +2,7 @@
 id: ct850-2020-does-not-start-when-start-pressed
 title: The treadmill does not start when START is pressed
 kind: troubleshooting
-question: Why does a Spirit CT800ENT-2024, CT850-2020 or CT850ENT-2024 treadmill
+question: Why does a Spirit CT800 2020, CT800ENT, CT850 2020, CT850ENT or 4.0T treadmill
   not start when I press START?
 asked_as:
 - treadmill does nothing when i press start
@@ -22,8 +22,12 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - ct800-2020
+  - ct800ent-2022
   - ct800ent-2024
   - ct850-2020
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: no-code
@@ -35,7 +39,13 @@ see_also:
 - ct850-2016-stops-immediately-after-start
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-7 Troubleshooting procedure matrix, pages 47-51 (printed 46-50)
+  locator: Section 8-7 Troubleshooting procedure matrix, pages 47-51 (printed 46-50);
+    CT800 2020 service manual 8-6 Troubleshooting procedure matrix, PDF p. 46-50 (printed
+    45-49), text.md lines 660-797; CT800ENT 2022 service manual 8-6 Troubleshooting
+    procedure matrix, PDF p. 36-38, text.md lines 685-791; CT850ENT 2022 service manual
+    8-6 Troubleshooting procedure matrix, PDF p. 37-39, text.md lines 704-810; 4.0T
+    2026 service manual Condition / Reason / Solve matrix, PDF p. 36-38 (printed 47-49),
+    text.md lines 566-689
   extracted_at: '2026-09-08'
 ---
 
@@ -60,3 +70,5 @@ with no text layer and were read from the rendered page.
 One word changed with the console: where the CT850 2020 says
 `Treadmill controller shut down and **LED** would be ON`, both 2024 ENT books say
 `... and **TFT** would be ON`. Same condition, named for the screen the 2024 machine actually has.
+
+**Four more service manuals print this row with the plain `Motor wire`**: the CT800 2020 and 4.0T word for word, and the CT800ENT 2022 and CT850ENT 2022 with `TFT` in place of `LED` in the third cause - so that wording predates the 2024 books.

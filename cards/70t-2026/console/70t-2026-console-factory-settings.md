@@ -1,8 +1,9 @@
 ---
 id: 70t-2026-console-factory-settings
-title: "Factory settings: the Start + Speed Fast sequence and every default it sets"
+title: 'Factory settings: the Start + Speed Fast sequence and every default it sets'
 kind: procedure
-question: How do I open the factory settings and calibrate the grade on a Spirit 7.0T or MT200 treadmill?
+question: How do I open the factory settings and calibrate the grade on a Spirit 7.0T
+  or MT200 treadmill?
 asked_as:
 - how do i get into factory settings
 - how do i calibrate the incline
@@ -40,7 +41,9 @@ see_also:
 - spirit-2026t-console-belt-acceleration-time
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 45, MACHINE CARE - CONTINUED - Factory and Acceleration Settings
+  locator: p. 45, MACHINE CARE - CONTINUED - Factory and Acceleration Settings. MT200-2022
+    service manual section 4.2.2 Factory and Acceleration Settings, PDF pp. 11-12
+    (printed 11-12), text.md lines 184-210
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +75,8 @@ default is 5; see `70t-2026-console-data-windows`.
 same defaults and ranges** - the 2010 manual on its p. 40, the 2022 manual on its
 p. 64. The same disagreement over the decline figure is printed in both MT200
 manuals too.
+
+**The MT200-2022 service manual prints the same entry sequence, the same eight prompts and the same
+defaults and ranges** as the two owner's manuals, including the "Passed" message after a successful
+grade calibration.
+

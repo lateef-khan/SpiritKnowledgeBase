@@ -1,9 +1,9 @@
 ---
 id: ct850-2020-display-board-connector-locations
-title: Display board connectors and what plugs into each
+title: Display board connectors and what plugs into each, on the AB0054 board with STD and RM6T3 sockets
 kind: spec
-question: Which connector on the CT850-2020 display board takes which cable, and how
-  many pins does it have?
+question: Which connector on the Spirit CT850-2020 or CT800-2020 display board takes
+  which cable, and how many pins does it have?
 asked_as:
 - what plugs into jk9 on the 2020 ct850
 - where is the c-safe connector on the display board
@@ -24,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: specs
   code: '*'
-  model_number:
-  - '850840'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -38,7 +37,9 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: p. 21 (printed 20) and p. 22 (printed 21), '6-1-2 PCB BOARD BOTTOM'; the
-    board top is p. 20 (printed 19)
+    board top is p. 20 (printed 19). The CT800-2020 service manual prints the same
+    two pages with the same connector labels at PDF pp. 21-22 (printed 20-21), text.md
+    lines 296-318, board top at PDF p. 20
   extracted_at: '2026-09-08'
 ---
 
@@ -65,7 +66,9 @@ Along the bottom edge, left to right:
 On the right-hand edge: **U4** takes the **BLE receiver (6 pins)** and **JK2** takes
 **C-SAFE (5 pins)**.
 
-The YT057 and YT058 tags mark which driver variant a connector is fitted for.
+The YT057 and YT058 tags mark which driver variant a connector is fitted for: the CT800-2020
+(circuit diagram YT57, a DC driver board) uses the 6-pin STD socket JK11, the CT850-2020
+(YT58, an inverter) the ESP and RM6T3 sockets JK10 and JK9. Both books print the same board.
 The board top (p. 20) carries the display only: a dot-matrix panel, a row of 14-segment
 characters and two three-digit seven-segment groups.
 

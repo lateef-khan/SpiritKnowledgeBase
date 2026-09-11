@@ -2,8 +2,8 @@
 id: ct850-2020-display-board-connector-pinouts
 title: Display board connector pin definitions
 kind: spec
-question: What are the display board connector pin definitions on a Spirit CT850-2020
-  treadmill?
+question: What are the display board (or console transfer board) connector pin definitions
+  on a Spirit CT850-2020, CT800-2020, CT800ENT or CT850ENT treadmill?
 asked_as:
 - ct850 2020 pin define table
 - what are the pins on the c-safe connector
@@ -24,21 +24,28 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2020
+  - ct850ent-2022
   section: specs
   code: '*'
-  model_number:
-  - '850840'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2020-display-board-connector-locations
+- ct800ent-2022-specs-console-transfer-and-power-bridge-boards
+- ct850ent-2022-specs-console-transfer-and-power-bridge-boards
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: p. 30 (printed 29) and p. 31 (printed 30), section 6-1-6 'PCB BOARD PIN
-    DEFINE'
+    DEFINE'. The CT800-2020 service manual prints the same section, word for word with
+    the same JK numbers, at PDF pp. 30-31 (printed 29-30), text.md lines 380-417. The
+    CT800ENT-2022 (PDF pp. 25-26, lines 449-511) and CT850ENT-2022 (PDF pp. 25-26, lines
+    438-500) print the same eleven tables headed 'The console back cover transfer PCB
+    board pin define', without JK numbers
   extracted_at: '2026-09-08'
 ---
 
@@ -63,3 +70,11 @@ Three defects in the printed tables, left as found:
 - **JK9** is headed "RM6T3" here but the board drawings on pp. 22 and 26 label the same cable
   **RM6Y3**. The 2016 CT850's inverter is an RM6T3, so RM6T3 is the likelier spelling.
 - **JK14** is tabled with four pins; the board drawing calls the fan plug 2 pins.
+
+**Four books, one set of tables.** The CT800-2020 book prints these eleven tables unchanged, JK
+numbers included, and tags JK9 / JK10 "for CT850(2020)" and JK11 "for CT800(2020)". The two ENT
+books print the same tables for the **console back cover transfer board**, with no JK numbers,
+and tag them by driver variant instead: the CT800ENT says RM6T3 main and ESP are "for ST8600-YT058"
+and STD main "for ST8600-YT057"; the CT850ENT says RM6T3 and ESP are for "ST8600-YT058, YT060" and
+STD main for "ST8600-YT057, YT059". YT057 / YT059 are the DC-drive CT800 sheets, YT058 / YT060 the
+inverter CT850 sheets. The JK8 "P1 P2 P2" defect is printed in all four.

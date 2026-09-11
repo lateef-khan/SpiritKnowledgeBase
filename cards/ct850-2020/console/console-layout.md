@@ -44,7 +44,8 @@ source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4 Product Operation, Display Windows, p. 12 (printed 11). This
     page is a flattened image and was read from raw/page-12.png, not from the OCR
-    text
+    text. CT800-2020 service manual section 4 Product Operation, console drawing,
+    PDF p. 12 (printed 11), text.md lines 155-156, OCR supplement
   extracted_at: '2026-09-08'
 ---
 
@@ -104,3 +105,8 @@ page is a flattened image in both books and the labels were read from the OCR su
 **DISTANCE, CALORIES, PULSE, TIME ELAPSED** as before, but the second reads **SPEED, WATTS, METs, TIME
 REMAINING** where the older drawing reads WATTS, PACE, METS, TIME REMAINING. The **TRACK / SPEED /
 INCLINE** indicator LEDs beside the dot matrix are the same.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4 Product Operation, console drawing); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

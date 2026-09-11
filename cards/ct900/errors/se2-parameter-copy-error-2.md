@@ -29,7 +29,8 @@ see_also:
 - ct900-se1-parameter-copy-error-1
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -39,3 +40,5 @@ source:
 1. Verify the communication cable and the communication quality.
 2. A write error occurred on Internal IC.
 3. Verify the wiring between the control board and the electric board inside the motor drive.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

@@ -2,8 +2,8 @@
 id: spirit-lcd-dim-or-incomplete
 title: The display backlight is dim, incomplete or imperfect
 kind: troubleshooting
-question: Why is the display dim or incomplete on a Spirit CT850-2016 treadmill, CE850-2024
-  elliptical, CRS800S-2024 stepper or CVC800 climber?
+question: Why is the display dim or incomplete on a Spirit CT800-2016 or CT850-2016
+  treadmill, CE850-2024 elliptical, CRS800S-2024 stepper or CVC800 climber?
 asked_as:
 - treadmill screen is dim
 - display half lit on my spirit machine
@@ -25,6 +25,7 @@ facets:
   applies_to:
   - ce850-2024
   - crs800s-2024
+  - ct800-2016
   - ct850-2016
   - cvc800
   section: errors
@@ -41,7 +42,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Troubleshooting procedure matrix: CT850 2016 section 8.3 page 50; CVC800
-    section 8-5 page 34'
+    section 8-5 page 34; CT800 2016 service manual 8.4 Troubleshooting procedure matrix,
+    PDF p. 56-59 (printed 55-58), text.md lines 1076-1215'
   extracted_at: '2026-09-08'
 ---
 
@@ -80,3 +82,5 @@ CE800 2024, CR800 2024 and CU800 2024 send the reader to the generator rather th
 `220-240V or 110-120V` (`cs800-2024-errors-lcd-not-bright-220-240-or-110-120-volt`); the CRW800
 2024 rower asks for `AC100 ~ 240V` in and `DC12V` out
 (`crw800-2024-errors-lcd-display-does-not-shine`).
+
+**The CT800 2016 service manual prints this row word for word**, `LCDs not bright, incomplete or imperfect`, the same two causes and `Check AC power is 110-120V`. The XT service manuals print the row without a voltage (`spirit-xt-errors-lcd-not-bright-connector-then-power`) or with 110V or 230V (`spirit-xt-2015-errors-lcd-not-bright-110-v-or-230-v`).

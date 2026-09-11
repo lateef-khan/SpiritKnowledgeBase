@@ -2,7 +2,8 @@
 id: ct850-2016-trips-onboard-10-amp-circuit
 title: The treadmill trips its own onboard 10 amp circuit
 kind: troubleshooting
-question: Why does a Spirit CT850-2016 treadmill trip its onboard 10 amp circuit?
+question: Why does a Spirit CT850-2016 or XT485ENT treadmill trip its onboard 10 amp
+  circuit?
 asked_as:
 - treadmill keeps tripping its own breaker
 - onboard breaker pops on my spirit treadmill
@@ -19,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
   - ct850-2016
+  - xt485ent-2023
   section: errors
   code: no-code
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-trips-onboard-20-amp-circuit
@@ -36,7 +36,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
-    56-57 (printed 55-56)
+    56-57 (printed 55-56); XT485ENT 2023 service manual 10.2 Service Troubleshooting
+    Checklist, PDF p. 64-65, text.md lines 981-1045
   extracted_at: '2026-09-08'
 ---
 
@@ -58,3 +59,5 @@ the row for the very same machine against a **20 amp** circuit, with the longer 
 If the *house* breaker trips and this one does not, that is a different row:
 `ct850-2016-house-breaker-trips-not-treadmill-breaker`. The deck and belt work that reduces the
 friction this row blames is on `ct850-2016-running-deck-belt-and-cushion-replacement`.
+
+**The XT485ENT service manual prints this row against a 10 amp circuit too** - `High belt/deck friction. See General Maintenance section on Belt/Deck Lubrication.` - where the XT485ENT *owner's* manual prints 15 amp with the deck-cleaning and amp-draw answer (`xt-2023-errors-trips-onboard-15-amp-breaker`). Same machine, two ratings, nothing reconciling them.

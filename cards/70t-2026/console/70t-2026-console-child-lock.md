@@ -33,7 +33,8 @@ see_also:
 - 70t-2026-console-maintenance-mode-menu
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 44, MACHINE CARE - CONTINUED - Security
+  locator: p. 44, MACHINE CARE - CONTINUED - Security. MT200-2022 service manual section
+    4.2.1 g Security, PDF p. 11 (printed 11), text.md lines 182-183
   extracted_at: '2026-09-09'
 ---
 
@@ -50,3 +51,6 @@ this setting.
 
 **Both MT200 manuals print the same Security item and the same unlock sequence** -
 the 2010 manual on its p. 40, the 2022 manual on its p. 63.
+
+**The MT200-2022 service manual prints the same Security item and the same Start and Enter unlock.**
+

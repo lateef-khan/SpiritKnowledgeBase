@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   section: console
   code: '*'
-  model_number:
-  - '850840'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -39,7 +38,8 @@ see_also:
 - ct850-2020-console-calibration-minimum-speed-0-3
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-5 Factory and Acceleration Settings, p. 45 (printed 44)
+  locator: Section 8-5 Factory and Acceleration Settings, p. 45 (printed 44). CT800-2020
+    service manual section 8-4, PDF p. 44 (printed 43), text.md lines 603-631
   extracted_at: '2026-09-08'
 ---
 
@@ -63,3 +63,7 @@ The console then walks through these prompts. Press **Enter** after each one.
 
 The manual gives no separate speed calibration step - the maximum and minimum speed values above are
 the whole of it - and it does not say what to do if the calibration fails.
+
+**The CT800-2020 service manual prints these same prompts word for word**, so this card covers that
+machine too.
+

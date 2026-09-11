@@ -2,7 +2,8 @@
 id: xt-2015-console-engineering-functions-beep
 title: The engineering mode Functions settings that end in a Beep entry
 kind: fact
-question: What settings are in the Functions menu of engineering mode on a Spirit XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What settings are in the Functions menu of engineering mode on a Spirit
+  XT385-2015, XT485-2015 or XT685-2015 treadmill?
 asked_as:
 - how do i stop my treadmill beeping every time i press a key
 - how do i switch the display from miles to kilometres
@@ -40,8 +41,11 @@ see_also:
 - xt-2015-console-turning-the-treadmill-off
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: Engineering Mode Menu, item 3 Functions, p. 40; the XT485-2015 manual prints
-    the same list on its p. 44 and the XT685-2015 manual on its p. 45
+  locator: 'Engineering Mode Menu, item 3 Functions, p. 40; the XT485-2015 manual
+    prints the same list on its p. 44 and the XT685-2015 manual on its p. 45. Service
+    manuals, MAINTENANCE MENU, C. Functions: XT485-2015 PDF p. 60 (printed 60), text.md
+    lines 927-934; XT385-2015 PDF p. 59, lines 916-923; E0 notes XT485-2015 PDF p.
+    38 lines 568-578, XT385-2015 PDF p. 38 lines 567-577'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +76,18 @@ direction for the XT685 without testing the machine.
 **The XT185-2015 and XT285-2015 print a different list** - the fifth entry is called **Key Tone**,
 and their Maintenance entry resets the lube message *and* the odometer readings. See
 `xt-2015-console-engineering-functions-key-tone`.
+
+**The XT385-2015 and XT485-2015 service manuals print a different fifth entry and a fuller third.**
+Their Functions list: I **Display Mode - Turn off to have the console power down automatically after
+30 minutes of inactivity** (the same sense as these two owner's manuals); II Pause Mode; III
+**Maintenance - Reset lube message and odometer readings**; IV Units; V **Key Tone** - "Will turn
+on/off beeping noise that is made when keys are pressed". So the service manuals call the beep switch
+Key Tone, exactly as the XT185 and XT285 books do, and say Maintenance resets the odometer as well as
+the lube message. No XT685-2015 service manual is in the repository, so the XT685's opposite Display
+Mode sense stands unresolved.
+
+**What Display Mode also does, from the service manuals' E0 note:** *"When choose off, this is mean
+display off after removed safety key. When choose on which is display on and appear E0 after removed
+safety key."* With Display Mode OFF the console blanks when the safety key is pulled; with it ON the
+display stays lit and shows E0.
+

@@ -29,7 +29,8 @@ see_also:
 - ct900-e22-low-current
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -38,3 +39,5 @@ source:
 **Corrective actions**:
 1. Verify the wiring between the motor and the motor drive.
 2. Verify the settings of Pr04-18 ~Pr04-20.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

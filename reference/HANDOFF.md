@@ -1,6 +1,7 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after the treadmill
+sub-wave of 3a merged. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -12,11 +13,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **6,294** |
+| cards | **6,773** |
 | `kb lint` | 0 problems |
-| declared model ids | **285** (169 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 365 |
-| machines carrying `model_number` | **197** of 222 with single-machine cards |
+| declared model ids | **291** (175 Spirit, 116 Sole) — every one has at least one card |
+| sources ingested | 391 |
+| machines carrying `model_number` | **207** of 232 with single-machine cards |
 
 Check it yourself:
 
@@ -91,6 +92,35 @@ are already ingested as text sources.
 
 **Run it as sub-waves by product line**, not as one wave of 103: treadmills 27,
 bikes 32, ellipticals 17, rowers 10, climbers/steppers 10, odds 7.
+
+**Treadmills: done** (PR #54, 2026-09-11) — 24 sources plus the E-50H bulletin
+that was filed under Bikes; 346 new cards, 282 extended. Decisions it settled,
+all recorded in the TSV's `evidence` column:
+
+- The 1000 series is **ENT**: `dbo.MODEL` has only `CT1000ENT` 210854,
+  `CE1000ENT` 210054, `CR1000ENT` 210154, `CU1000ENT` 210354, and every cover
+  reads "ENT". Ids are `ct1000ent-2023`, `ce1000ent-2023`, `cr1000ent-2023`,
+  `cu1000ent-2023` — not `ct1000-2023`.
+- The XT175/275/375/475/675 dealer manual is **`-2007`**, not 2008: all five
+  rows carry `FP_DATE` 8/20/2007, the batch date shared by every Sole "2007" row
+  and by XE100–XE500, already carded as `-2007`. Expect the same for the XBR25 /
+  XBR55 dealer manual (251117 / 551117, same date) in the bikes wave.
+- The "2020 ver." ENT service manuals map to the `-2022` ENT ids (their
+  engineering-mode chapters match the 2022 owner's-manual cards). `dbo.MODEL`
+  also lists "CT800ENT 2020" 800850 and "CT850ENT 2020" 850851 with no manual.
+- The Dyaco 7.0T (MT8000-ST021-02) book is `mt200-2022`; `dbo.MODEL` lists
+  770884 "MT8000" and 770881 "7.0T" apart from the MT200 pair — a 3c question.
+- The CT900 "Error Codes & Troubleshooting Guide" is a strict subset of the
+  full CT900 manual and was not ingested.
+- `Mannual Service v1.0 (magnetic) 900660.pdf` in the Bikes folder is a
+  **CSC900 climber** manual and 900660 **is** a `dbo.MODEL` row (the TSV said it
+  was not); run it with the climbers, not the bikes.
+
+Two things the wave learned about the method: tesseract cannot read a
+photographed page (the E-50H bulletin got 8–19 words a page and was typed by
+eye from the render instead), and a killed sweep's `xargs` children keep
+running and append a second copy of every supplement — kill by PID and
+re-check `sort | uniq -d` on the supplement headers before committing.
 
 **Service manuals overlap owner's manuals.** A section agent must grep existing
 `applies_to` before writing, or it restates cards that exist. What a service

@@ -41,10 +41,11 @@ see_also:
 - xt-2015-assembly-procedure-xt185-xt285
 - xt-2015-assembly-procedure-xt385-xt485
 - xt685-2015-assembly-procedure
+- spirit-xt-2015-assembly-folding-unfolding-and-transport
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: whole manual; the assembly section ends at the last numbered step and
-    the console section begins
+  locator: whole manual; the assembly section ends at the last numbered step and the
+    console section begins
   extracted_at: '2026-09-09'
 ---
 
@@ -60,8 +61,16 @@ page. So the manuals say nothing about:
   away from moving parts including the elevation mechanism and transport wheels.
 - **Storage.**
 
-Absence is the answer here, not a gap to fill from somewhere else. **Do not
-answer these questions from the 2023 XT cards.** Those manuals do document a
+**The service manuals for four of these machines do print a folding, unfolding
+and transport page** - chapter 9 of the XT185, XT285, XT385 and XT485 2015 service
+manuals - and it is on
+[the service-manual folding card](spirit-xt-2015-assembly-folding-unfolding-and-transport.md).
+The owner's manuals remain silent, and no XT685 2015 service manual is in the
+repository, so for that machine the silence stands. Levelling and storage are
+not in the service manuals either.
+
+Otherwise absence is the answer here, not a gap to fill from somewhere else. **Do
+not answer these questions from the 2023 XT cards.** Those manuals do document a
 levelling foot adjusted with an M14 wrench, a fold-and-roll procedure, a Velcro
 shipping strap and a lift-at-the-rear-roller method for the XT685 - none of which
 is printed for a 2015 machine, and the 2015 hardware is not the same hardware.

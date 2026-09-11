@@ -2,8 +2,8 @@
 id: ct850-2016-low-speed-check-rpm-sensor
 title: Checking the RPM speed sensor after a LOW SPEED message
 kind: procedure
-question: How do I check the speed sensor after a LOW SPEED message on a Spirit CT850-2016
-  treadmill?
+question: How do I check the speed sensor after a LOW SPEED message on a Spirit CT800-2016
+  or CT850-2016 treadmill?
 asked_as:
 - how to check the speed sensor on a spirit treadmill
 - rpm sensor gap on a treadmill
@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: errors
   code: low-speed
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -40,7 +39,9 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 8.1, LOW SPEED solution follow chart - check RPM sensor device
     procedure, page 33 (printed 32), and Checking the speed sensor, page 34 (printed
-    33). Page 33 is a flattened image and was read from raw/page-33.png
+    33). Page 33 is a flattened image and was read from raw/page-33.png; CT800 2016
+    service manual LOW SPEED solution follow chart - check RPM sensor device procedure,
+    and Checking the speed sensor, PDF p. 36-37 (printed 35-36), text.md lines 602-634
   extracted_at: '2026-09-08'
 ---
 
@@ -74,3 +75,5 @@ The 3 mm figure is the one printed in the flow chart and repeated in the trouble
 When the flow chart reaches `Replace the sensor with cable`, the removal procedure is on
 `ct850-2016-speed-sensor-replacement`. The magnet this sensor reads sits on the face of the front
 roller pulley, so a roller change disturbs it: `ct850-2016-front-rear-roller-replacement`.
+
+**The CT800 2016 service manual prints the same sensor chart and the same three-step access text**, reed switch device included.

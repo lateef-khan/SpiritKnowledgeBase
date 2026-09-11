@@ -1,6 +1,7 @@
 ---
 id: spirit-ct800-console-calibration-with-grade-return
-title: Calibrating with Start and Fast +, through wheel size 2.98 and a grade return step
+title: Calibrating with Start and Fast +, through wheel size 2.98 and a grade return
+  step
 kind: procedure
 question: How do I calibrate a Spirit CT800 treadmill?
 asked_as:
@@ -41,10 +42,14 @@ not_to_be_confused_with:
 see_also:
 - spirit-ct800-console-engineering-mode-menu-with-units
 - ct850-2020-factory-setting-ranges
+- ct800-2016-console-calibration-in-kph-with-potentiometer-readings-235-to-22
+- ct800-2016-console-calibration-procedure-1-wheel-2-92-to-2-98
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: Calibration Procedure, p. 24; the CT800 2016 owner's manual prints the same
-    nine steps on its p. 36
+  locator: 'Calibration Procedure, p. 24; the CT800 2016 owner''s manual prints the
+    same nine steps on its p. 36. CT800-2016 service manual: section 8.3 PDF p. 51
+    (printed 50), text.md lines 950-981; PROCEDURE 1 PDF p. 65 (printed 64), lines
+    1357-1372'
   extracted_at: '2026-09-09'
 ---
 
@@ -91,3 +96,12 @@ has no key gesture at all.
 
 **The XT685 2010 routine is these nine steps with a different wheel size - 3.01, not 2.98** - and is
 kept apart for that reason: `xt685-2010-console-calibration-wheel-size-3-01`.
+
+**The CT800-2016 service manual prints two other calibration routines for the same machine, and
+neither has the Grade return step.** Its section 8.3 sets **0.8 and 20.0 kph** with wheel size 2.98
+and says what the incline window should read while the incline calibrates
+(`ct800-2016-console-calibration-in-kph-with-potentiometer-readings-235-to-22`); its repair
+procedure 1 sets 0.5 and 12.0 with a wheel size of **2.92~2.98**
+(`ct800-2016-console-calibration-procedure-1-wheel-2-92-to-2-98`). Three routines for one machine;
+read all three before you commit a value.
+

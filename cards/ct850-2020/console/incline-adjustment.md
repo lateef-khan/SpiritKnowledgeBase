@@ -43,7 +43,8 @@ see_also:
 - ct850-2020-e3-incline-motor-cannot-work
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-6 INCLINE, p. 14 (printed 13)
+  locator: Section 4-1-6 INCLINE, p. 14 (printed 13). CT800-2020 service manual section
+    4-1-6 INCLINE, PDF p. 14 (printed 13), text.md lines 207-212
   extracted_at: '2026-09-08'
 ---
 
@@ -91,3 +92,8 @@ figure the CT800-2020 and CT850 manuals print.
 the adjust Incline Up/Down buttons to achieve desired level of incline."* Neither says the display
 shows incline as percent of grade, and neither prints any rapid incline key, so do not quote the
 third bullet or a key number for those two machines.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-6 INCLINE); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

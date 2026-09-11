@@ -2,7 +2,8 @@
 id: ct850-2020-incline-err
 title: 'INCLINE ERR: the incline reading does not change while the incline runs'
 kind: troubleshooting
-question: What does INCLINE ERR mean on a Spirit CT850-2020 treadmill?
+question: What does INCLINE ERR mean on a Spirit CT800 2020, CT800ENT, CT850 2020,
+  CT850ENT or 4.0T treadmill?
 asked_as:
 - incline err on my spirit treadmill
 - treadmill display says incline error
@@ -20,13 +21,15 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2020
+  model: '*'
   applies_to:
+  - 40t-2026
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2020
+  - ct850ent-2022
   section: errors
   code: incline-err
-  model_number:
-  - '850840'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-e3-incline-motor-cannot-work
@@ -37,10 +40,17 @@ see_also:
 - ct850-2016-incline-err-during-incline-action
 - ct850-2020-inverter-error-code-list
 - ct850-2020-incline-motor-replacement
+- 40t-2026-errors-eeprom-err-hold-stop-then-start-stop-fan
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: 'Section 8-4 Error Message: INCLINE ERR, pages 42-44 (printed 41-43). Pages
-    42 and 43 are flattened images and were read from raw/page-42.png and raw/page-43.png'
+    42 and 43 are flattened images and were read from raw/page-42.png and raw/page-43.png;
+    CT800 2020 service manual 8-4 Error Message: INCLINE ERR; page 41 is a picture
+    read from the render, PDF p. 40-42 (printed 39-41), text.md lines 533-580; CT800ENT
+    2022 service manual 8-4 Error Message: Incline Err, PDF p. 34, text.md lines 644-679;
+    CT850ENT 2022 service manual 8-4 Error Message: Incline Err, PDF p. 35, text.md
+    lines 663-698; 4.0T 2026 service manual Error Message: INCLINE ERR, PDF p. 29-31,
+    text.md lines 412-472'
   extracted_at: '2026-09-08'
 ---
 
@@ -82,3 +92,5 @@ definitions under the single name `INCLINE ERR`.
 The last part in the troubleshooting table is the incline motor, checked for a seizure, cracked
 gears and a broken circuit; its replacement procedure is on
 `ct850-2020-incline-motor-replacement`.
+
+**Four more service manuals print this section word for word**: the CT800 2020, CT800ENT 2022, CT850ENT 2022 and 4.0T - the definition, the cause, the same four-row relay table, and on the CT800 2020 and the 4.0T the same action flow chart whose end box reads `SHOW INCLINE E33 MESSAGE`. The two ENT books print the table beside a smaller configuration drawing and no flow chart. So the pasted `E33` box is in three books now and is Dyaco's template, not a CT850 slip. The 4.0T's own code table has one row, `EEPROM ERR` (`40t-2026-errors-eeprom-err-hold-stop-then-start-stop-fan`), so INCLINE ERR is a message on that machine too, not a code.

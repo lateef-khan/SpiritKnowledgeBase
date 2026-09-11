@@ -2,7 +2,8 @@
 id: ct850-2016-incline-err-vr-out-of-range
 title: INCLINE ERR raised because the incline VR voltage is out of range
 kind: troubleshooting
-question: What does INCLINE ERR mean at power on on a Spirit CT850-2016 treadmill?
+question: What does INCLINE ERR mean at power on on a Spirit CT800-2016 or CT850-2016
+  treadmill?
 asked_as:
 - incline err on my spirit treadmill at startup
 - what is incline err
@@ -20,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: errors
   code: incline-err
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2016-incline-err-during-incline-action
@@ -35,10 +35,13 @@ see_also:
 - ct850-2016-incline-err-test-procedure
 - ct850-2020-e3-incline-motor-cannot-work
 - ct850-2016-error-code-items-list
+- ct800-2016-errors-incline-err-test-procedure-110-vac-pins-10-to-12
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Error Message: INCLINE ERR, pages 36-38 (printed 35-37). Page 36 is a
-    flattened image and was read from raw/page-36.png'
+    flattened image and was read from raw/page-36.png; CT800 2016 service manual 8.2
+    Error Message: INCLINE ERR; pages 40 and 41 are pictures with a heading only,
+    PDF p. 39-42 (printed 38-41), text.md lines 681-729'
   extracted_at: '2026-09-08'
 ---
 
@@ -70,3 +73,5 @@ the driver board, which carries it to the display board on the 12-pin cable. The
 
 The CT850 2020 manual gives this same definition a code of its own, `E3`: see
 `ct850-2020-e3-incline-motor-cannot-work`.
+
+**The CT800 2016 service manual prints this first definition, its cause and its four-row table word for word**, 12-pin cable and incline board included, and adds one line between them: *The console show Err. Definition: INCLINE problem, DM show "ERR", engineering mode error.* Its test procedure for the same fault carries different figures from the CT850's (`ct800-2016-errors-incline-err-test-procedure-110-vac-pins-10-to-12`).

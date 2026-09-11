@@ -37,12 +37,13 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
     56-57 of the CT850 2016 service manual; the same row is section 8-6 TROUBLESHOOTING,
-    page 46 of the CT850 2020 service manual; all four CT850 owner's manuals print the
-    same row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2016 manual
-    (text.md lines 1115-1117) and of the 2020 manual (text.md lines 1114-1116), SERVICE
-    CHECKLIST - DIAGNOSIS GUIDE on printed page 42 of the 2018 manual (text.md lines
-    1078-1079) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
-    (text.md lines 1200-1201)
+    page 46 of the CT850 2020 service manual; all four CT850 owner's manuals print
+    the same row - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2016
+    manual (text.md lines 1115-1117) and of the 2020 manual (text.md lines 1114-1116),
+    SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 42 of the 2018 manual (text.md
+    lines 1078-1079) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
+    (text.md lines 1200-1201); CT850ENT 2022 service manual 8-7 Troubleshooting, PDF
+    p. 40, text.md lines 810-838
   extracted_at: '2026-09-08'
 ---
 
@@ -58,3 +59,5 @@ The grounding instructions themselves are in the product safety section of each 
 
 The CT800, CT800ENT, CT900ENT, 4.0T and XT manuals print the identical row, carded separately
 as `ct900ent-computer-shuts-off-static-cold-weather`.
+
+**The CT850ENT 2022 service manual prints this row word for word** in its 8-7 Troubleshooting table.

@@ -34,7 +34,8 @@ see_also:
 - ct900-pause-stop-reset
 source:
   ref: ct900-om
-  locator: p. 16
+  locator: p. 16. CT900 service manual section 4 Product Operation, QUICK START, PDF
+    p. 15 (printed 15), text.md lines 187-193
   extracted_at: '2026-08-24'
 ---
 
@@ -43,3 +44,6 @@ source:
 3. To stop the treadbelt, press and release the **Stop** button.
 
 For what happens when you press Stop once vs. twice vs. hold it, see [Pause / Stop / Reset](pause-stop-reset.md).
+
+**The CT900 service manual prints this section word for word** in its chapter 4 (QUICK START).
+

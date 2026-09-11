@@ -34,7 +34,8 @@ see_also:
 - 40t-2026-console-screen-layout
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 19, BASIC INFORMATION
+  locator: p. 19, BASIC INFORMATION. 4.0T service manual section 4 Product Operation,
+    Basic information (Profile key), PDF p. 14 (printed 14), text.md lines 190-193
   extracted_at: '2026-09-09'
 ---
 
@@ -48,3 +49,6 @@ most programs.
 
 The text readouts are changed by the Display key instead; see
 `40t-2026-console-display-key-and-scan`.
+
+**The 4.0T service manual prints this section word for word** in its chapter 4.
+

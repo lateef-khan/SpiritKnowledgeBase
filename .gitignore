@@ -8,3 +8,4 @@ sources/**/raw/
 .env
 .serena
 docs
+.claude/settings.local.json

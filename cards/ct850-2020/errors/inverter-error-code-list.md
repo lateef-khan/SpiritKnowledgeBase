@@ -2,8 +2,8 @@
 id: ct850-2020-inverter-error-code-list
 title: Every error code the display can show
 kind: spec
-question: What error codes can a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill display and what does
-  each one mean?
+question: What error codes can a Spirit CT800-2020, CT850-2020, CT850-2024, CT850ENT-2022
+  or CT850ENT-2024 treadmill display and what does each one mean?
 asked_as:
 - list of error codes for my spirit treadmill
 - what do the e codes mean on a ct850
@@ -23,8 +23,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   - ct850-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: '*'
@@ -56,9 +58,13 @@ see_also:
 - ct850-2020-e3-incline-motor-cannot-work
 - ct850-2020-incline-err
 - ct850-2016-error-code-items-list
+- spirit-ct-2020-errors-e-08h-ground-failed
+- spirit-2024-errors-seven-code-table-with-no-hyphen
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-1 Error Codes, pages 36-37 (printed 35-36)
+  locator: Section 8-1 Error Codes, pages 36-37 (printed 35-36); CT850ENT 2022 service
+    manual 8-1 Error code items, PDF p. 31-32, text.md lines 563-618; spirit-treadmill-ct800-2020-e50h-service-bulletin,
+    TRANSCRIPT, PDF PAGE 2 (AC list, "For A/C Transforming System")
   extracted_at: '2026-09-08'
 ---
 
@@ -114,3 +120,7 @@ around this table but not the table: the whole twenty-three-code list is unchang
 they sit below E3 in that book's table. They are on
 `spirit-2024-errors-replace-safety-key-message` and `spirit-2024-errors-safety-lock-child-mode`. The
 CT850 2024 manual prints the twenty-three codes and stops.
+
+**The CT850ENT 2022 service manual prints the whole twenty-three-code table word for word**, and already adds the `Replace Safety Key` and `SAFETY LOCK` rows beneath it - so the CT850ENT 2024 table is the 2022 service manual's, unchanged.
+
+**A Spirit service bulletin prints the list a second way, and adds a code the manuals do not have.** The photographed card in `spirit-treadmill-ct800-2020-e50h-service-bulletin`, headed *ERROR MESSAGE of New CT800&CT850(2020) - For A/C Transforming System*, gives each code a one-line label - most carrying the inverter's own mnemonic, `(OC)`, `(OE)`, `(PFC)`, `(GF)`, `(OH)`, `(OL)`, `(OL1)`, `(OLO)`, `(PrEr)`, `(drvF)`, `(LP)`, `(HP)`, `(HT)` - and one solution for all of them: *check the wiring first before replace a new transformer*. It lists **E-08H (GF) Ground failed**, which no CT850 manual prints (`spirit-ct-2020-errors-e-08h-ground-failed`), and it labels **E-07H** *(PFC) Transformer abnormal* where the manual says a communication delay. The card's heading is the only document that puts this inverter list on a CT800 2020, whose own service manual prints the seven DC codes (`spirit-2024-errors-seven-code-table-with-no-hyphen`).

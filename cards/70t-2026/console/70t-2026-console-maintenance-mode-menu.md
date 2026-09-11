@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-console-maintenance-mode-menu
-title: "Maintenance mode: the Start + Stop + Enter hold and what the Functions menu changes"
+title: 'Maintenance mode: the Start + Stop + Enter hold and what the Functions menu
+  changes'
 kind: procedure
-question: How do I get into maintenance mode on a Spirit 7.0T or MT200 treadmill and what is in it?
+question: How do I get into maintenance mode on a Spirit 7.0T or MT200 treadmill and
+  what is in it?
 asked_as:
 - how do i get into service mode on my treadmill
 - how do i stop the console going to sleep
@@ -38,9 +40,13 @@ see_also:
 - 70t-2026-console-service-mode-tests
 - 70t-2026-console-stop-reset-key
 - spirit-2026t-console-auto-power-down
+- spirit-2026t-console-belt-acceleration-time
+- 70t-2026-console-child-lock
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 43, MACHINE CARE - CONTINUED - Maintenance Mode
+  locator: p. 43, MACHINE CARE - CONTINUED - Maintenance Mode. MT200-2022 (7.0T MT8000-ST021-02)
+    service manual section 4.2.1 Maintenance Mode, PDF p. 8 (printed 8), text.md lines
+    103-120
   extracted_at: '2026-09-09'
 ---
 
@@ -80,3 +86,14 @@ seconds**, which the 7.0T manual does not state.
 depending on version"**, so the name on the screen is a software version difference
 and not a different menu. Every item listed above is printed identically in both
 MT200 manuals.
+
+**The MT200-2022 service manual prints the same menu with more on the Key Test**: hold Start, Stop and
+Enter until the display shows **"ENGINEERING MODE" ("it may say maintenance mode, depending on
+version")**, Enter opens the selected test, Stop returns. In Key Test the display shows "Press all
+keys"; **each key press produces a beep and a number on the display; a key with no beep and no number
+has malfunctioned**; when every key has been pressed the display shows "Passed". Display test lights
+all LEDs sequentially. Its Functions list is the seven above, with Pause "lasts 30 minutes then the
+console returns to the idle mode", plus an Acceleration Key Lock, a Forward Speed limit and a
+Security entry after Service Mode (`spirit-2026t-console-belt-acceleration-time`,
+`70t-2026-console-speed-limit-setting`, `70t-2026-console-child-lock`).
+

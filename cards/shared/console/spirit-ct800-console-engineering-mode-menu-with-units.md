@@ -2,7 +2,8 @@
 id: spirit-ct800-console-engineering-mode-menu-with-units
 title: The engineering mode menu whose Functions list holds Units and Grade Return
 kind: procedure
-question: How do I get into engineering mode on a Spirit CT800 treadmill and what is in it?
+question: How do I get into engineering mode on a Spirit CT800 treadmill and what
+  is in it?
 asked_as:
 - how do i get into the service menu on my treadmill
 - how do i switch the treadmill from miles to kilometres
@@ -39,10 +40,13 @@ not_to_be_confused_with:
 see_also:
 - spirit-ct800-console-calibration-with-grade-return
 - ct900ent-sleep-mode-auto-shutoff
+- ct800-2016-console-maintenance-menu-and-engineering-mode-as-the-service-manual-prints-them
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: Engineering Mode Menu, p. 24; the CT800 2016 owner's manual prints the same
-    menu on its p. 37
+  locator: 'Engineering Mode Menu, p. 24; the CT800 2016 owner''s manual prints the
+    same menu on its p. 37. CT800-2016 service manual: Maintenance menu PDF p. 52
+    (printed 51), text.md lines 981-1004; Engineering Mode PDF p. 69 (printed 68),
+    lines 1488-1530'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +91,10 @@ reproduced as printed.
 
 **Calibration is not in this menu.** It has its own entry gesture and its own "Factory settings"
 prompt: `spirit-ct800-console-calibration-with-grade-return`.
+
+**The CT800-2016 service manual prints this menu twice more, and neither copy matches this one.** Its
+"Maintenance menu" lists Key Test, Display test, Functions and Security with **Start and Enter held
+together** as the unlock, and its repair-procedure "Engineering Mode" adds a Calibration sub-menu, a
+separate Lube Message Reset and a "CONSOLE LOCKED" prompt; neither prints the 20-minute sleep figure.
+Both are on `ct800-2016-console-maintenance-menu-and-engineering-mode-as-the-service-manual-prints-them`.
+

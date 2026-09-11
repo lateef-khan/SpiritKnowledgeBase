@@ -2,7 +2,8 @@
 id: ct900-c-safe-port
 title: C-Safe port - connecting a remote audio-visual system
 kind: fact
-question: What is the C-Safe port on a Spirit CT900 treadmill, CE900 elliptical or 2025 CR900 or CU900 bike, and what can I connect to it?
+question: What is the C-Safe port on a Spirit CT900 treadmill, CE900 elliptical or
+  2025 CR900 or CU900 bike, and what can I connect to it?
 asked_as:
 - what is the c-safe port for
 - can i connect a tv to my treadmill
@@ -34,7 +35,8 @@ see_also:
 - ce900-2025-console-screen-overview
 source:
   ref: ct900-om
-  locator: p. 17
+  locator: p. 17. CT900 service manual section 4 Product Operation, C-SAFE FEATURE,
+    PDF p. 14 (printed 14), text.md lines 178-186
   extracted_at: '2026-08-24'
 ---
 
@@ -55,3 +57,6 @@ no longer treadmill-and-elliptical only. **The word COMM appears nowhere in eith
 **Their own 2018 printings did name a COMM port.** The CR900-2018 and CU900-2018 manuals print the
 two-port version on `ct850-2020-c-safe-ports`. The sentence was dropped for 2025; the 2018 wording
 must not be quoted for a 2025 machine, or the 2025 wording for a 2018 one.
+
+**The CT900 service manual prints this section word for word** in its chapter 4 (C-SAFE FEATURE).
+

@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-203 machines.
+209 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -86,6 +86,7 @@ any number here.
 | css-srow | 677694 | db-names-the-machine |
 | css-text | 683984 | db-names-the-machine |
 | css-trot | 687684 | db-names-the-machine |
+| ct1000ent-2023 | 210854 | only-candidate |
 | ct800-2016 | 800845 | year-in-name |
 | ct800-2020 | 800840 | own-manual-text |
 | ct800-2024 | 800825 | own-manual-text |
@@ -206,13 +207,18 @@ any number here.
 | xrw600-2019 | 600976 | only-candidate |
 | xrw600-2021 | 600976 | only-candidate |
 | xs895-2018 | 895677 | only-candidate |
+| xt175-2007 | 175807 | only-candidate |
 | xt185-2015 | 185815 | own-filename |
 | xt185-2023 | 185823 | own-manual-text |
+| xt275-2007 | 275807 | only-candidate |
 | xt285-2015 | 285815 | own-filename |
 | xt285-2023 | 285823 | own-manual-text |
+| xt375-2007 | 375807 | only-candidate |
 | xt385-2015 | 385815 | own-filename |
 | xt385-2023 | 385823 | own-manual-text |
+| xt475-2007 | 475807 | only-candidate |
 | xt485ent-2023 | 485850 | own-filename |
+| xt675-2007 | 675807 | only-candidate |
 | xt685-2015 | 685815 | own-filename |
 | xt685-2023 | 685823 | own-manual-text |
 | xt685ent-2023 | 685523 | own-manual-text |

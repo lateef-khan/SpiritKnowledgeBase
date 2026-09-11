@@ -42,6 +42,8 @@ not_to_be_confused_with:
 - spirit-ct800-specs-no-specification-table
 see_also:
 - ct850-2016-console-calibration-minimum-speed-0-5
+- ct850ent-2022-specs-circuit-diagram
+- spirit-ct800ent-console-engineering-mode-speed-and-incline-defaults-wheel-2-98
 - ct850-2016-specs-parts-list
 - ct850-2018-specs-no-parts-list
 - ct850-2020-console-calibration-minimum-speed-0-3
@@ -53,7 +55,9 @@ source:
   ref: spirit-treadmill-ct850-2016-owners-manual
   locator: Table of Contents p. 1 and whole document; the same absence holds in the
     CT850-2018, CT850-2020, CT850ENT-2022, CT850-2024 and CT850ENT-2024 owner's manuals,
-    each checked from its own Table of Contents p. 1
+    each checked from its own Table of Contents p. 1. Service-manual figures - CT850ENT-2022
+    service manual p. 57, text.md lines 987-989 (belt tension) and p. 43, lines 862-870
+    (engineering-mode speed and incline defaults)
   extracted_at: '2026-09-09'
 ---
 
@@ -92,9 +96,10 @@ trained service person."
 
 **Do not answer a tread-belt question from `spirit-ct850-drive-belt-tension`.** That
 card's **70 to 75 lbs on a gauge** is a *drive* belt figure - the belt between the
-motor and the front roller - and it comes from the CT850 **service** manuals, which
-exist only for the 2016 and 2020 machines. No owner's manual prints it, and no source
-states any belt tension figure for the `ct850-2018` or the `ct850ent-2022`.
+motor and the front roller - and it comes from the CT850 **service** manuals: the
+2016 and 2020 books, and the **CT850ENT-2022 service manual**, which prints the same
+step and the same figure. No owner's manual prints it, and no source states any belt
+tension figure for the `ct850-2018`, which has no service manual.
 
 **The only speed and elevation bounds in these books are calibration setpoints, not
 ratings.** They are values a technician types into the console during calibration,
@@ -109,7 +114,8 @@ card per book, starting at
 
 **What the setpoints do not do is settle the rating, because they contradict the
 service manuals.** The CT850 service manuals give a working range of 0.5 to 12 mph
-and a MAX SPEED adjustable only between 10.0 and 12.0 - see
+and a MAX SPEED adjustable only between 10.0 and 12.0, and the CT850ENT-2022 service
+manual prints 0.5 to 12.0 mph and incline 15 as its engineering-mode defaults - see
 `spirit-ct850-speed-and-incline-range` - while the 2016 and 2020 owner's manuals, for
 those same two machines, have the technician set 15.0. Neither book calls its figure
 a rating. Read the console's own MAX SPEED setting on the machine in front of you
