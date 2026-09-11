@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-220 machines.
+231 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -31,6 +31,8 @@ any number here.
 | cb900-2013 | 900111 | only-candidate |
 | cc81-2020 | 581519 | own-manual-text |
 | cc81-2026 | 581526 | card-confirmed |
+| ce1000ent-2023 | 210054 | only-candidate |
+| ce800-2016 | 800045 | year-in-name |
 | ce800-2024 | 800025 | own-manual-text |
 | ce800ent | 800054 | own-manual-text |
 | ce800ent-2024 | 800065 | own-manual-text |
@@ -38,6 +40,7 @@ any number here.
 | ce850-2020 | 850040 | year-in-name |
 | ce850-2024 | 850025 | own-manual-text |
 | ce900-2025 | 900025 | own-manual-text |
+| ce900ent | 900050 | only-candidate |
 | ces880-2025 | 880025 | own-manual-text |
 | cic800-2021 | 800390 | own-filename |
 | cr800-2009 | 800149 800143 | year-in-name |
@@ -206,13 +209,21 @@ any number here.
 | xbu55-2023 | 552123 | own-manual-text |
 | xe100-2007 | 100007 | only-candidate |
 | xe150-2005 | 150005 | only-candidate |
+| xe195-2016 | 195015 | year-in-name |
 | xe200-2007 | 200007 | only-candidate |
+| xe295-2016 | 295015 | year-in-name |
 | xe300-2007 | 300007 | only-candidate |
 | xe350-2005 | 350005 | only-candidate |
 | xe395-2010 | 395010 | fp-date |
+| xe395-2016 | 395015 | year-in-name |
 | xe395-2023 | 395023 | own-manual-text |
+| xe400-2007 | 400007 | fp-date |
+| xe500-2007 | 500007 | fp-date |
 | xe550-2005 | 550005 | only-candidate |
+| xe795-2016 | 795015 | year-in-name |
 | xe795-2023 | 795023 | own-manual-text |
+| xe895-2016 | 895015 | fp-date |
+| xg400-2016 | 400415 | year-in-name |
 | xic600-2018 | 600377 | only-candidate |
 | xic600-2021 | 600377 | own-filename |
 | xrw600-2019 | 600976 | only-candidate |

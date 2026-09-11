@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 5bfcff8983890c36120b61f05e80e14e0922d14e9e76e7f4db6b2a075b0765f0
+  sha256: b72eee93895e480c642f95eab7c04245e1d26056265402a50316057ed2ae9434
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -1757,6 +1757,14 @@
     Steppers/XS895/XS895_20210219.pdf
   sha256: d172ca6bff81c50cb7799a83da103d9291721a6e47202b985b2682a1d7bd63e6
   ingested_at: '2026-09-10'
+- id: spirit-elliptical-ce1000ent-2023-service-manual
+  title: Spirit CE1000ENT elliptical service manual (CE1000(2023) SE8880-SB028 ENT
+    Elliptical)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE1000-2023
+    SE8880-SB028 service manual.pdf
+  sha256: b2d7959de21258af506cb2e82f189e5fca8f43d3195cffce62d1331413986891
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce800-2013-owners-manual
   title: Spirit CE800 Elliptical Trainer Owner's Manual (part 800843, revision CE800_20130605)
     - OCR
@@ -1764,12 +1772,27 @@
   origin_uri: file://Treadmills/CT800/CE800_OM_800843.pdf
   sha256: d1d2e06ac1def5b31ec9b0d21424462362a639973dab1963640e8ea90387707d
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800-2016-service-manual
+  title: Spirit CE800 2016 elliptical service manual, titled "XE890B-AE10M" (September
+    2017 PDF; dbo.MODEL "Spirit CE800 2016" 800045)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE850/CE800
+    (XE890B-AE10M-02) - Service Manual.pdf
+  sha256: 017c88773bd20511839862ad6a7cddbe39828b5849ade0f7b5d5ab9632cb23af
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce800-2021-owners-manual
   title: Spirit CE800 Elliptical Trainer Owner's Manual (effective November 8, 2021)
   kind: text
   origin_uri: file://Ellipticals/CE800/CE800_20211108.pdf
   sha256: 14a94ec747941ac2f2a43a6364c8d0a0406d223103538e0ad8ad738ab7575c50
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce800-2021-service-manual
+  title: Spirit CE800 2020-version elliptical service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE800/CE800
+    Service Manual.pdf
+  sha256: 0641d333c215dcea15e4c9864cd8ea4395f112a873e0f09b2917af5f6b3ecbfa
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce800-2023-owners-manual
   title: Spirit CE800 Elliptical Trainer Owner's Manual (part 800042, effective June
     8, 2023)
@@ -1813,12 +1836,26 @@
   origin_uri: file://Ellipticals/CE850/2016/CE850_OM_20160203.pdf
   sha256: ba3fb4fe72257836f928e2225e6d8ddeb2f3c6e4334046b32131617c18e05a14
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce850-2016-service-manual
+  title: Spirit CE850 2016 elliptical service manual (XE898-SE011)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE850/CE850,
+    2016 (XE898-SE011) Service  Manual.pdf
+  sha256: 1daa6931d9d152ae8053949a223d83bbf28de4064b4d5b097205c8b95fcdde74
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce850-2020-owners-manual
   title: Spirit CE850 Elliptical Trainer Owner's Manual (2020 model, revision 2021-11-08)
   kind: text
   origin_uri: file://Ellipticals/CE850/2020/CE850_OwnersManual_2020_20211108.pdf
   sha256: 0aafc6b5e5bc23784ac762852a9c0faee0580a471f7c30d9a3f8be2ad44da825
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce850-2020-service-manual
+  title: Spirit CE850 2020 elliptical service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE850/CE850
+    Service Manual.pdf
+  sha256: f7869fef4175741a2672cb23f2eb7fb65cf54d8015a2f4f9afcf484723a7abbd
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce850-2022-owners-manual
   title: Spirit CE850 Elliptical Trainer Owner's Manual (effective July 6, 2022)
   kind: text
@@ -1839,6 +1876,13 @@
   origin_uri: file://Ellipticals/CE900/CE900_20211108.pdf
   sha256: 64764ac2edd346d31f488e023205582b28cbe8b107ab498630d8e0978e7ed56a
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce900-2021-service-manual
+  title: Spirit CE900 elliptical service manual (SE8800-SE026, April 2018 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE900/CE900
+    (SE8800-SE026) Service Manual.pdf
+  sha256: 2bc84e20f45b4b5b7611c98e541655c2f80033ca871f7b9466977f0a90f55ca4
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce900-2025-owners-manual
   title: Spirit CE900 Elliptical Trainer Owner's Manual (part 900025, revision 2025-06-12).
     New Black Units/CE900_OwnersManual_900025_20241001.pdf is the same document at
@@ -1847,6 +1891,13 @@
   origin_uri: file://Ellipticals/CE900/CE900_OwnersManual_900025_20250612.pdf
   sha256: c2dd854d9272e7039d8b38ec0f8b7a6a6f898a5501a6a3557f9135cd63e652a7
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-ce900ent-service-manual
+  title: Spirit CE900ENT elliptical service manual (November 2021 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/CE900ENT/CE900ENT
+    Service Manual.pdf
+  sha256: 9f5eebd03883a98ada8110c427e5fff554831d7650b0f5cab3e1071d3131fadb
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ces880-2025-owners-manual
   title: Spirit CES880 Elliptical Trainer Owner's Manual (revision 2025-06-12)
   kind: text
@@ -1860,6 +1911,13 @@
   origin_uri: file://Ellipticals/XE150/XE100_200_300_OwnersManual_007.pdf
   sha256: 3f966d91be9e1642e858bc4bd7ee7d1f5089039fc4ba618f60bc81cfe5b4b6fc
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe100-xe200-xe300-xe400-xe500-2007-service-manual
+  title: Spirit XE100 / XE200 / XE300 / XE400 / XE500 elliptical dealer service manual
+    (2007 model year, PDF July 2008)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE100-200-300-400-500/XE100-200-300-400-500.pdf
+  sha256: 5b1a51c17b5580732ee31ddf10d21fda71906f3fdd6190f0afe6b070d14e8059
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe150-xe350-xe550-owners-manual
   title: Spirit XE150 / XE350 / XE550 Elliptical Owner's Manual (effective October
     15, 2005)
@@ -1867,6 +1925,14 @@
   origin_uri: file://Ellipticals/XE150/XE150_350_550_OwnersManual_005.pdf
   sha256: b17eb2fa3c50cbd9d36528d25b6a0130b07fcf77afacd00c2b19d489cb5e7fb6
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe195-2016-service-manual
+  title: Spirit XE195 2016 elliptical service manual (XE509S-SE021-01, April 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE195/XE195,
+    2016 (XE509S-SE021) Service manual.pdf
+  sha256: a17cf3bd99f71a0143d6f9fc0af8c948f8a6f7294dc2c1f1812dd25a08bf3db5
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe195-2019-owners-manual
   title: 2019 Spirit XE195 elliptical owner's manual, Revision 02.04.2019. Exists
     only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xe195-2021,
@@ -1882,6 +1948,14 @@
   origin_uri: file://Ellipticals/XE195/XE195_20211130.pdf
   sha256: 3ef1c3db1d71734aa27c372fec680e66376db5fa3223f0b1efea69227e6962d3
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe295-2016-service-manual
+  title: Spirit XE295 2016 elliptical service manual (XE519S-SE020-01, August 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE295/XE295
+    (XE519S-SE020 2016) Service Manual.pdf
+  sha256: 2798600aeeac5672599fc1df5bd6d658d6a9d875f316c1ea884e58b1197eb8ea
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe295-2019-owners-manual
   title: 2019 Spirit XE295 elliptical owner's manual, Revision 02.04.2019. Exists
     only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xe295-2021,
@@ -1904,6 +1978,14 @@
   origin_uri: file://Ellipticals/XE395/2011/SpiritFitness_OM_XE395_2011.pdf
   sha256: 6fde29c0837e22b4a6db9e85a83df5703b0286e92e735738a7b7663f80f83574
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395-2016-service-manual
+  title: Spirit XE395 2016 elliptical service manual (XE539S-SE019-01, August 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE395/XE395,
+    2016 (XE539S-SE019) Service Manual.pdf
+  sha256: b708ffdfb9c2c4d5a4696fd61bcb9e51d089c0cc1d33d97004858f7e48a6a122
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe395-2018-owners-manual
   title: 2018 Spirit XE395 elliptical owner's manual, Revision 08.22.2018. Exists
     only in Bikes/bike backup/Spirit Ellipticals; sits between xe395-2010 (62.0%)
@@ -1927,6 +2009,21 @@
   origin_uri: file://Ellipticals/XE395ENT/XE395ENT_20210225.pdf
   sha256: 7414d5c9670d56942b6ba6c2f6073be0dba02c3c5eb60df869fb93a0d768d379
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe395ent-2021-service-manual
+  title: Spirit XE395ENT elliptical service manual (XE539S-SE025-01, 2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE395ENT/XE395ENT_XE539S-SE025-01
+    Service Manual 2021.pdf
+  sha256: 6b28dc79a2b6876382832b5a7336022d59f8b5813a9caa3036c500b956e83965
+  ingested_at: '2026-09-11'
+- id: spirit-elliptical-xe795-2016-service-manual
+  title: Spirit XE795 2016 elliptical service manual (XE815-SE024-01, August 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE795/XE795
+    2016 (XE815-SE024) Service Manual.pdf
+  sha256: 9e5a717eb6e31ea83d0cda51b55c86e81c40a39e1a7e380fe58831487c9c24f9
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe795-2018-owners-manual
   title: 2018 Spirit XE795 elliptical owner's manual, warranty effective August 22,
     2018. Exists only in Bikes/bike backup/Spirit Ellipticals; the closest pair in
@@ -1955,6 +2052,21 @@
   origin_uri: file://Ellipticals/XE795/XE795_795023_OM_20240715.pdf
   sha256: a52f7d4ab1bc6d9a69937ed818406d177d8bf88ef74e6f2f91e4525a67a6fddb
   ingested_at: '2026-09-09'
+- id: spirit-elliptical-xe795-2023-service-manual
+  title: Spirit XE795 2023 elliptical service manual (795023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XE795/XE795
+    (795023) Service Manual.pdf
+  sha256: 9deb44c471a34db551acad8b2e4dd42589d6f680d90afc715336515e58f0b188
+  ingested_at: '2026-09-11'
+- id: spirit-elliptical-xe895-2016-service-manual
+  title: Spirit XE895 2016 elliptical service manual, titled "XE895-SE022" (July 2017
+    PDF; the CE850 2016 book with the residential name)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/XS895/XS895 (XE895-SE022 2016) Service manual.pdf
+  sha256: 210f4faa2030d26e2f710d9852ea12bf59638afff11f6c17f5342b04592d27fa
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xe895-2018-owners-manual
   title: 2018 Spirit XE895 elliptical owner's manual, warranty effective August 22,
     2018. A MACHINE WITH NO CARDS AT ALL - the only XE895 manual anywhere on disk,
@@ -1965,6 +2077,14 @@
     backup/Spirit Ellipticals/XE895/XE895_OM_20180822.pdf
   sha256: 7274a626a028971fb28da7312adb1f751e556433dd7b1bfacff42571d61c6c7c
   ingested_at: '2026-09-10'
+- id: spirit-elliptical-xg400-2016-service-manual
+  title: Spirit XG400 2016 elliptical service manual (SE551-SE023-01, August 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Ellipticals/XG400/XG400,
+    2016 (SE551-SE023) Service Manual.pdf
+  sha256: aaad95fe1861caa0c49eddbdd7e1b77357ae378d1773cb379b14513b3aadb05c
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-xg400-2019-owners-manual
   title: 2019 Spirit XG400 E-Glide Trainer owner's manual, Revision 02.04.2019. Exists
     only in Bikes/bike backup/Spirit Ellipticals; an earlier printing than xg400-2021,
@@ -2045,7 +2165,7 @@
   title: Spirit commercial model numbers from the CustService MODEL table
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 5bfcff8983890c36120b61f05e80e14e0922d14e9e76e7f4db6b2a075b0765f0
+  sha256: b72eee93895e480c642f95eab7c04245e1d26056265402a50316057ed2ae9434
   ingested_at: '2026-09-08'
 - id: spirit-rower-crw800-2021-owners-manual
   title: 2021 Spirit CRW800 rower owner's manual, (c) 2021, warranty effective October
