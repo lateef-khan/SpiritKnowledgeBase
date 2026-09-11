@@ -2,8 +2,8 @@
 id: ct850-2016-part-replacement-procedure-list
 title: Which parts the service manual gives a replacement procedure for
 kind: fact
-question: Which parts does the Spirit CT850 service manual give a replacement procedure
-  for, 2016 or 2020?
+question: Which parts does the Spirit CT850 or CT800 service manual give a replacement
+  procedure for, 2016, 2020 or ENT?
 asked_as:
 - what can i replace on a spirit treadmill using the service manual
 - does the spirit service manual cover the speed sensor
@@ -23,8 +23,11 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
+  - ct850ent-2022
   section: assembly
   code: '*'
 authority: 3
@@ -44,11 +47,16 @@ see_also:
 - ct850-2020-front-rear-roller-replacement
 - ct850-2020-incline-motor-replacement
 - ct850-2020-exploded-view-drawing
+- 40t-2026-assembly-part-replacement-procedure-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Table of contents and chapter 10 of the CT850 2016 manual, p. 3 (printed
     2) and pp. 63-76 (printed 62-75); table of contents and chapters 10 and 11 of
-    the CT850 2020 manual, p. 3 (printed 2) and pp. 54-67 (printed 53-66)
+    the CT850 2020 manual, p. 3 (printed 2) and pp. 54-67 (printed 53-66); table of
+    contents and chapter 11 of the CT800 2020 manual, PDF p. 3 (printed 2) and pp.
+    55-66 (printed 54-65), text.md lines 41-63 and 811-944; table of contents and
+    chapter 9 of the CT800ENT (PDF p. 3 and pp. 53-59, lines 38-59 and 930-1046) and
+    CT850ENT (PDF p. 3 and pp. 54-60, lines 949-1065) "2020 ver." manuals
   extracted_at: '2026-09-08'
 ---
 
@@ -96,3 +104,16 @@ so each machine has its own card for them. Do not read a figure from one manual 
 machine.
 
 Neither manual prints a torque value for anything, and neither prints a tool list for this chapter.
+
+**CT800 2020, CT800ENT and CT850ENT.** Three more books carry the CT850 2020 chapter. The CT800 2020 book's
+chapter 11, "Part Replacement Guide", is the CT850 2020 chapter **word for word** (11-1 to 11-7; 638 words,
+one folio apart). The CT800ENT and CT850ENT books - each titled a "2020 ver." - print the same seven
+procedures as chapter 9, "Disassembling and Assembling", numbered 9-1 to 9-7, with the motor headed "Drive
+Motor replacement" and the roller procedure still sending you to "step 11.3 (5)", a section neither ENT book
+has. So every 2020-chapter fact on the CT850 2020 cards covers those three machines as well, and the ENT
+books share the CT850 2020 book's gaps: **no speed sensor procedure**. Neither ENT book has an exploded view
+either; the CT800 2020 does (chapter 10, drawing ST8600-YT057, no parts list).
+
+The 4.0T 2026 medical treadmill prints a nine-procedure version of the 2016 chapter with a rear incline
+motor; that list is on its own card.
+

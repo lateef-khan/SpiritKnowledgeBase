@@ -35,12 +35,16 @@ not_to_be_confused_with:
 - xt-2023-specs-no-specification-table
 see_also:
 - 40t-2026-specs-drive-motor-rating
+- 40t-2026-specs-electrical-part-descriptions
+- 40t-2026-specs-circuit-diagram
+- 40t-2026-console-factory-settings-min-0-3-to-0-7-max-down-to-10-0
+- spirit-ct850-drive-belt-tension
 - 40t-2026-specs-parts-list
 - spirit-2026t-specs-no-parts-list
 - spirit-2026t-safety-intended-conditions-of-use
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: Table of Contents p. 1 and whole document; Electrical Safety p. 6; Safety Instructions item 30; Exploded View Diagram p. 48; Parts List pp. 49-50
+  locator: Table of Contents p. 1 and whole document; Electrical Safety p. 6; Safety Instructions item 30; Exploded View Diagram p. 48; Parts List pp. 49-50. Service-manual figures - 40T-2026 service manual p. 55, text.md lines 750-751 (belt tension); pp. 9-10, lines 89-139 (incline motor voltage); p. 34 (circuit diagram); p. 31, lines 454-470 (factory settings)
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +78,12 @@ say the manual does not state them.
 - A **full parts list and exploded view diagram** - see
   `40t-2026-specs-parts-list`. The 7.0T and 8.0T print the diagram with no list
   beside it.
+
+**The service manual adds four things and still no specification table.** It sets the
+**drive belt at 70 to 75 lbs on a belt tension gauge** (`spirit-ct850-drive-belt-tension`),
+gives the **incline motor as a 120 volt AC motor** with no drive-motor voltage
+(`40t-2026-specs-electrical-part-descriptions`), names the **KSP485 AC motor, RM6T6-1003
+inverter and RFMB 20A breaker** on its circuit diagram (`40t-2026-specs-circuit-diagram`), and
+prints the speed bounds only as factory settings - minimum 0.5 (0.3 to 0.7), maximum 12.0
+(adjustable down to 10.0) - which are console settings, not a rated range. It prints no
+dimension, weight, deck size or horsepower either.

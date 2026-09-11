@@ -30,7 +30,8 @@ see_also:
 - ct900-e4-motor-overload
 source:
   ref: ct900-om
-  locator: p. 46
+  locator: p. 46; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -40,3 +41,5 @@ source:
 1. Reduce the motor load.
 2. Adjust the over-torque detection setting to an appropriate setting (Pr04-15 ~Pr04-17).
 3. Clear the fault and then press RESET button.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

@@ -2,7 +2,8 @@
 id: ct800ent-2022-console-language-selection
 title: Choosing one of the 13 display languages by tapping it
 kind: procedure
-question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, a CE800ENT elliptical, or a CU800ENT-2022 or CR800ENT-2023 bike?
+question: How do I change the display language on a Spirit CT800ENT-2022 or CT850ENT-2022
+  treadmill, a CE800ENT elliptical, or a CU800ENT-2022 or CR800ENT-2023 bike?
 asked_as:
 - how do i change the language on the treadmill
 - how do i switch the treadmill to spanish
@@ -37,9 +38,13 @@ see_also:
 - ce800ent-console-layout
 - ct800ent-2022-console-screen-mirroring-ios
 - ct800ent-2022-console-screen-mirroring-android
+- spirit-ct800ent-console-maintenance-menu-language-wifi-ethernet-bluetooth
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: TOUCHSCREEN OPERATION / LANGUAGE, p. 19
+  locator: TOUCHSCREEN OPERATION / LANGUAGE, p. 19. CT800ENT-2022 service manual,
+    Maintenance - Default language Setup, PDF p. 47 (printed 47), text.md lines 888-895
+    (a flat image, rendered and read); CT850ENT-2022 service manual PDF p. 48, lines
+    907-914
   extracted_at: '2026-09-09'
 ---
 
@@ -80,3 +85,10 @@ See `cu800ent-2024-console-status-bar-and-tabs`.
 
 **The CR900ENT-2021 and CU900ENT bikes offer 12, not 13**, and return to a default language when the
 user finishes: `ct900ent-language-selection`.
+
+**The service manuals name the thirteen.** The Default language Setup screen in the CT800ENT-2022 and
+CT850ENT-2022 service manuals lists **English, Deutsch, Français, 繁體中文, Português, 한국어, Россия,
+Español, 日本語, Italiano, 简体中文, Nederlands, Norsk** - thirteen, matching this count - and describes
+it as choosing "a language as the starting language", which is a default the console returns to:
+`spirit-ct800ent-console-maintenance-menu-language-wifi-ethernet-bluetooth`.
+

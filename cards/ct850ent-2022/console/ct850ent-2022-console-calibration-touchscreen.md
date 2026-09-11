@@ -41,9 +41,11 @@ see_also:
 - ct800ent-2022-console-home-screen
 - ct800ent-2022-console-layout
 - ct850-2020-factory-setting-ranges
+- spirit-ct800ent-console-engineering-mode-speed-and-incline-defaults-wheel-2-98
 source:
   ref: spirit-treadmill-ct850ent-2022-owners-manual
-  locator: CALIBRATION PROCEDURE, p. 46
+  locator: CALIBRATION PROCEDURE, p. 46. CT850ENT-2022 service manual section 8-8
+    Engineering Mode, PDF p. 43 (printed 43), text.md lines 862-872
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +77,11 @@ calibration procedure at all**, so nothing here is claimed for that machine. The
 use a Start and Speed Up gesture and different figures:
 `ct850-2020-console-calibration-minimum-speed-0-3` and
 `ct850-2016-console-calibration-minimum-speed-0-5`.
+
+**The CT850ENT-2022 service manual prints different speeds for the same screen.** Its Engineering Mode
+page says the default speed is **Minimum 0.5 (mi/hr) - Maximum 12.0 (mi/hr)**, the default incline 15
+level and the wheel size 2.98, with an Incline AD Value group and a calibration button
+(`spirit-ct800ent-console-engineering-mode-speed-and-incline-defaults-wheel-2-98`). This owner's
+manual says 0.3 and 15.0. Both are reproduced as printed; read the console's own screen before you
+overwrite a value.
+

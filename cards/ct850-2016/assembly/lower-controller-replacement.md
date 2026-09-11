@@ -1,8 +1,10 @@
 ---
 id: ct850-2016-lower-controller-replacement
-title: Replacing the lower controller
+title: Replacing the lower controller under four base-cap screws and six top-cover
+  tapping screws
 kind: procedure
-question: How do I replace the lower controller on a Spirit CT850-2016 treadmill?
+question: How do I replace the lower controller on a Spirit CT850 2016 or 4.0T (40t-2026)
+  treadmill?
 asked_as:
 - how do i change the lower controller on a spirit treadmill
 - replace the motor control board on a spirit commercial treadmill
@@ -20,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - 40t-2026
   - ct850-2016
   section: assembly
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-lower-controller-replacement
@@ -35,7 +36,9 @@ see_also:
 - ct850-2016-motor-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 10.1 Lower Controller Replacement, p. 64 (printed 63)
+  locator: Section 10.1 Lower Controller Replacement, p. 64 (printed 63); the same
+    three steps with the same counts are section 9.1 of the 4.0T 2026 service manual
+    (ST8700-ST017-01), PDF p. 40 (printed 51), text.md lines 696-710
   extracted_at: '2026-09-08'
 ---
 
@@ -51,3 +54,7 @@ the Motor Base Cap (L) and (R), then remove the Motor Top Cover". Do not carry t
 a 2020 machine; that version is on `ct850-2020-lower-controller-replacement`.
 
 The manual gives no torque figure for any of these screws.
+
+**The 4.0T 2026 service manual prints these three steps and both screw counts word for word as its section
+9.1**, so this card covers that machine too. It is the medical-treadmill book, not a CT850 book, and it does
+not repeat the 2020 wording.

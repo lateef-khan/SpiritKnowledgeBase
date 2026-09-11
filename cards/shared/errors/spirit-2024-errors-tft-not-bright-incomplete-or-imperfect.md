@@ -1,9 +1,10 @@
 ---
 id: spirit-2024-errors-tft-not-bright-incomplete-or-imperfect
-title: The touch screen light is dim or incomplete, on the row that asks for 120V at the console
+title: The touch screen light is dim or incomplete, on the row that asks for 120V
+  at the console
 kind: troubleshooting
-question: Why is the touch screen dim or partly lit on a Spirit CT800ENT-2024 or
-  CT850ENT-2024 treadmill?
+question: Why is the touch screen dim or partly lit on a Spirit CT800ENT or CT850ENT
+  treadmill, 2022 or 2024?
 asked_as:
 - treadmill touchscreen is dim
 - spirit treadmill screen half lit
@@ -23,7 +24,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2022
   - ct800ent-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: no-code
@@ -37,11 +40,14 @@ not_to_be_confused_with:
 see_also:
 - cu900ent-tft-displays-not-bright
 - ce800ent-tft-touch-panel-not-bright
+- ct900ent-errors-tft-not-bright-110-120-v
 source:
   ref: spirit-treadmill-ct800ent-2024-owners-manual
-  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 57 of both
-    books. That page is a flat picture with no text layer in either file and was read
-    from the rendered page.
+  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 57 of
+    both books. That page is a flat picture with no text layer in either file and
+    was read from the rendered page; CT800ENT 2022 service manual 8-6 Troubleshooting
+    procedure matrix, PDF p. 36-38, text.md lines 685-791; CT850ENT 2022 service manual
+    8-6 Troubleshooting procedure matrix, PDF p. 37-39, text.md lines 704-810
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +68,5 @@ the CE800ENT and the 2024 ENT bikes and ellipticals for `120VAC` but starting at
 
 Dead segments rather than a dim backlight are the next row down:
 `cu900ent-tft-displays-not-bright`.
+
+**The CT800ENT 2022 and CT850ENT 2022 service manuals print this row word for word**, `TFT not bright, incomplete or imperfect`, the same two causes and `Check AC power is 120V`. The CT900ENT service manual prints the TFT row against **110-120V** instead (`ct900ent-errors-tft-not-bright-110-120-v`).

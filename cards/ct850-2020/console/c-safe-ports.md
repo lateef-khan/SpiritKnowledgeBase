@@ -2,7 +2,8 @@
 id: ct850-2020-c-safe-ports
 title: The C-SAFE feature and the POWER and COMM ports
 kind: fact
-question: What are the C-SAFE ports on a Spirit treadmill, elliptical or bike console for?
+question: What are the C-SAFE ports on a Spirit treadmill, elliptical or bike console
+  for?
 asked_as:
 - what is the c-safe port for
 - can i power a tv from the treadmill console
@@ -73,7 +74,9 @@ see_also:
 - ces880-2025-console-maintenance-menu-power-on-entry
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-2 C-SAFE FEATURE, p. 13 (printed 12); 4.0T owner's manual p. 16
+  locator: Section 4-1-2 C-SAFE FEATURE, p. 13 (printed 12); 4.0T owner's manual p.
+    16. CT800-2020 service manual section 4-1-2 C-SAFE FEATURE, PDF p. 13 (printed
+    12), text.md lines 167-172
   extracted_at: '2026-09-08'
 ---
 
@@ -158,3 +161,8 @@ not print it.** The words C-SAFE, CSAFE, POWER port and COMM port appear nowhere
 CRS800S-2021 printed p. 18 and CS800-2021 printed p. 17, both headed **C-SAFE FEATURE** and both
 placed between POWER and QUICK START in the console chapter. Same two ports, same two uses, same
 absence of a pinout or a cable part number.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-2 C-SAFE FEATURE); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

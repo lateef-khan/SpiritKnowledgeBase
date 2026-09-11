@@ -2,7 +2,8 @@
 id: ct850-2020-e-52h-incline-motor-fails-during-calibration
 title: 'E-52H: incline motor fails during calibration'
 kind: troubleshooting
-question: What does E-52H mean on a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill?
+question: What does E-52H mean on a Spirit CT800-2020, CT850-2020, CT850-2024, CT850ENT-2022
+  or CT850ENT-2024 treadmill?
 asked_as:
 - what does e-52h mean on my treadmill
 - treadmill showing e-52h
@@ -21,8 +22,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   - ct850-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: e-52h
@@ -35,7 +38,9 @@ see_also:
 - ct850-2020-inverter-error-code-list
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-1 Error Codes, pages 36-37 (printed 35-36)
+  locator: Section 8-1 Error Codes, pages 36-37 (printed 35-36); CT850ENT 2022 service
+    manual 8-1 Error code items, PDF p. 31-32, text.md lines 563-618; spirit-treadmill-ct800-2020-e50h-service-bulletin,
+    TRANSCRIPT, PDF PAGE 5 (remedy card)
   extracted_at: '2026-09-08'
 ---
 
@@ -57,3 +62,7 @@ printed pages 60 and 61 of the CT850ENT 2024 manual. Both of those pages are fla
 no text layer, and both were read from the rendered page. The 2024 books changed the machine
 around this table but not the table: the whole twenty-three-code list is unchanged from the
 2020 service manual.
+
+**The CT850ENT 2022 service manual prints this row word for word** in its 8-1 table.
+
+**The service bulletin's remedy card (`spirit-treadmill-ct800-2020-e50h-service-bulletin`) gives E-52H four steps where the manual gives three**: *E-52H: Incline error during calibration. a). Checking Incline VR wiring. b). Checking Incline motor wiring. c). Checking if the spiral stuck. d. Replacing a new transformer.* "Spiral" is the incline motor's screw; "transformer" the drive board. The manual's *Recalibration again* first step is not on the bulletin, and the bulletin's last step - a new drive board - is not in the manual. The card is headed for the New CT800&CT850(2020), which is why the CT800 2020 is on it; that machine's service manual prints no E-52H.

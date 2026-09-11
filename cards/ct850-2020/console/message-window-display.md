@@ -34,7 +34,9 @@ see_also:
 - ct850-2020-dot-matrix-message-center
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-11 MESSAGE WINDOW DISPLAY, p. 15 (printed 14)
+  locator: Section 4-1-11 MESSAGE WINDOW DISPLAY, p. 15 (printed 14). CT800-2020 service
+    manual section 4-1-11 MESSAGE WINDOW DISPLAY, PDF p. 15 (printed 14), text.md
+    lines 243-250
   extracted_at: '2026-09-08'
 ---
 
@@ -59,3 +61,8 @@ dots.
 **The 2024 CT800 and CT850 owner's manuals print these two sentences word for word on their p. 18**,
 inside the FEATURES / Dot Matrix Message Center bullet rather than under a heading of their own, so
 this card covers those two machines. On those consoles it is the same panel as the dots.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-11 MESSAGE WINDOW DISPLAY); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

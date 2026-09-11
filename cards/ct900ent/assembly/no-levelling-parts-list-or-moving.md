@@ -39,11 +39,12 @@ see_also:
 - ct900-full-parts-list-and-exploded-view
 - ct900-parts-included-and-tools
 - ct900ent-starting-the-treadmill-home-screen
+- spirit-ct900-assembly-transportation-instructions
 source:
   ref: spirit-treadmill-ct900ent-owners-manual
   locator: pp. 7-12, the whole CT900ENT assembly chapter, and the table of contents
-    on p. 1, which runs from GENERAL MAINTENANCE (p. 48) straight to the warranty (p.
-    49)
+    on p. 1, which runs from GENERAL MAINTENANCE (p. 48) straight to the warranty
+    (p. 49)
   extracted_at: '2026-09-09'
 ---
 
@@ -62,7 +63,13 @@ then it goes to console operation. It does not contain, anywhere in its 53 pages
 - **A "parts of your treadmill" labelled diagram.** Its equivalent page labels console
   features, not machine parts.
 
-Absence is the answer here, not a gap to fill from a sibling machine.
+**The CT900ENT service manual does print one instruction for moving it**: lift the treadmill
+at the rear roller area by the two side end caps and roll it away, on
+[the transportation card](../../shared/assembly/spirit-ct900-assembly-transportation-instructions.md).
+That book also holds a nine-procedure part replacement guide, but still no parts list and no exploded view,
+and nothing on levelling.
+
+Otherwise absence is the answer here, not a gap to fill from a sibling machine.
 
 **The CT900 item numbers are almost certainly the same** - the two manuals print the
 same four steps with the same items 63, 65, 68, 69, 74, 75, 79 and 83 - but the

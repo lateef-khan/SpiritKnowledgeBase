@@ -32,7 +32,8 @@ see_also:
 - ct900-e16-eeprom-rd-err
 source:
   ref: ct900-om
-  locator: p. 45
+  locator: p. 45; CT900 service manual Error code items, last row, PDF p. 30, text.md
+    lines 401-426
   extracted_at: '2026-08-24'
 ---
 
@@ -43,3 +44,5 @@ source:
 **Solution**: Replace the console.
 
 This is one of the few E-codes in this manual with an actual stated description and fix, rather than a generic pointer to the inverter driver's own table.
+
+**The CT900 service manual prints this row**, which the owner's manual did not: `E34 CONSOLE EEPROM ERROR - The console EEPROM error - Replace the console`. That settles the doubt recorded on `ct900-error-code-table` about where E34 came from.

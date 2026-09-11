@@ -2,8 +2,8 @@
 id: ct900-engineering-mode-menu
 title: Engineering Mode Menu - diagnostic and service settings
 kind: procedure
-question: How do I open Engineering Mode on a Spirit CT800-2020 or CT900 treadmill and what
-  settings does it hold?
+question: How do I open Engineering Mode on a Spirit CT800-2020 or CT900 treadmill
+  and what settings does it hold?
 asked_as:
 - how do i enter engineering mode
 - how do i lock the keypad
@@ -45,9 +45,12 @@ not_to_be_confused_with:
 see_also:
 - ct900-calibration-procedure
 - ct900-pause-stop-reset
+- ct900-console-factory-and-acceleration-settings-accel-decel-0-02
+- 40t-2026-console-maintenance-mode-as-the-service-manual-prints-it
 source:
   ref: ct900-om
-  locator: p. 34-35
+  locator: p. 34-35. CT900 service manual, Maintenance Mode, PDF p. 38 (printed 38),
+    text.md lines 537-573
   extracted_at: '2026-08-24'
 ---
 
@@ -130,3 +133,11 @@ eight calibration steps.
 **The 2024 ENT treadmills have no key gesture at all** - their maintenance mode is opened by pressing
 **Hello Guest** ten times on the touchscreen and holds five groups, not five numbered items:
 `cu800ent-2024-console-maintenance-mode-and-engineering-menu`.
+
+**The CT900 service manual prints the Maintenance Mode sub-menu above word for word on its p. 38**,
+as running text, with the same KEY TEST, DISPLAY TEST, SLEEP MODE 30 minutes, ODOMETER in hours,
+UNITS, SPEAKER, INCLINE RETURN and SERVICE MODE entries. **The CT800-2020 service manual prints no
+engineering or maintenance menu at all**; its only console setting is the factory-settings table
+(`ct850-2020-factory-setting-ranges`). The 4.0T service manual prints this same CT900-style menu
+with a Confirm key (`40t-2026-console-maintenance-mode-as-the-service-manual-prints-it`).
+

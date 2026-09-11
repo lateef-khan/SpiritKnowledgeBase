@@ -43,7 +43,9 @@ see_also:
 - spirit-erratic-pulse-display
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-9 HEART RATE FEATURE, p. 15 (printed 14)
+  locator: Section 4-1-9 HEART RATE FEATURE, p. 15 (printed 14). CT800-2020 service
+    manual section 4-1-9 HEART RATE FEATURE, PDF p. 15 (printed 14), text.md lines
+    231-237
   extracted_at: '2026-09-08'
 ---
 
@@ -87,3 +89,8 @@ Bluetooth transceiver for the Spirit+ app on their p. 20
 (`xt-2023-console-spirit-plus-app-pairing`). The app radio and the pulse window are separate
 features. **The 2024 ENT treadmills are the ones described as Polar *and Bluetooth* compatible**:
 `ct800ent-2022-console-heart-rate-feature`.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-9 HEART RATE FEATURE); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

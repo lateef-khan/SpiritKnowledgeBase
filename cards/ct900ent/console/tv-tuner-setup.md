@@ -2,7 +2,8 @@
 id: ct900ent-tv-tuner-setup
 title: TV tuner setup - scanning channels (Settings menu)
 kind: procedure
-question: How do I scan TV channels on a Spirit CT900ENT treadmill or a CR900ENT or CU900ENT bike?
+question: How do I scan TV channels on a Spirit CT900ENT treadmill or a CR900ENT or
+  CU900ENT bike?
 asked_as:
 - how do i scan for tv channels
 - how do i set up cable tv
@@ -37,7 +38,8 @@ see_also:
 - ct900ent-settings-menu-access
 source:
   ref: ct900ent-om
-  locator: p. 17
+  locator: p. 17. CT900ENT service manual, TV Setup, PDF pp. 42-43 (printed 42-43),
+    text.md lines 661-676
   extracted_at: '2026-08-24'
 ---
 
@@ -57,3 +59,11 @@ treadmill-only.
 Air/Cable step at all: `cu900ent-tv-setup`. **The two documents disagree about what the first
 highlighted OSD item is, and neither mentions the other.** Both end at **Update Channel List**, and
 both warn that **OSD Command is for engineering use only**.
+
+**The CT900ENT service manual prints the CU900ENT service manual's version of this scan, not the
+owner's manual's**: select the player source (TV / HDMI), hit OSD Menu and select **AUTO / DTV / ATV
+Tuner**, hit OSD Enter, select the country with the arrow keys, hit OSD Enter again and wait for the
+channel search to end; an Update Channel List button refreshes the list, HDMI is chosen directly, and
+one button "is for software R&D engineer only". So the treadmill's two documents disagree with each
+other in exactly the way the bike's do.
+

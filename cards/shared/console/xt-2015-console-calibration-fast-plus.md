@@ -40,8 +40,10 @@ see_also:
 - xt-2015-console-engineering-mode-menu
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: Calibration Procedure, p. 39; the XT485-2015 manual prints the same five
-    steps on its p. 43 and the XT685-2015 manual on its p. 43
+  locator: 'Calibration Procedure, p. 39; the XT485-2015 manual prints the same five
+    steps on its p. 43 and the XT685-2015 manual on its p. 43. Service manuals: XT485-2015
+    section 8.10 CALIBRATION PROCEDURE, PDF p. 60 (printed 60), text.md lines 911-918;
+    XT385-2015 section 8.10, PDF p. 59 (printed 59), lines 900-907'
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +72,11 @@ XT285-2015 manuals add *"For sale in Europe, EU standards require this to be off
 
 If the calibration does not pass, the manuals send you to the speed sensor alignment check, which is
 in the maintenance chapter, not here.
+
+**The XT385-2015 and XT485-2015 service manuals print the same five steps and name the key both
+ways: "the START and FAST (Speed ▲) buttons".** Two differences from the owner's manuals: the
+service manuals set the units with the **UP/DOWN (▲/▼)** key rather than "up or down", and **their
+grade-return step does print the EU sentence** - *"For sale in Europe, EU standards require this to be
+off"* - which the three 2015 owner's manuals leave out. No XT685-2015 service manual is in the
+repository. Neither service manual adds a wheel size, speed or elevation step.
+

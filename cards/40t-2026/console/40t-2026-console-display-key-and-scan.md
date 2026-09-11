@@ -36,7 +36,8 @@ see_also:
 - 40t-2026-console-profile-key-dot-matrix
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 19, BASIC INFORMATION
+  locator: p. 19, BASIC INFORMATION. 4.0T service manual section 4 Product Operation,
+    Basic information (Display key), PDF p. 14 (printed 14), text.md lines 184-188
   extracted_at: '2026-09-09'
 ---
 
@@ -51,3 +52,6 @@ The **Display key is at the bottom left of the lower keypad.**
 
 The Display key changes the *text* readouts. The graphic display is changed by the
 Profile key instead; see `40t-2026-console-profile-key-dot-matrix`.
+
+**The 4.0T service manual prints this section word for word** in its chapter 4.
+

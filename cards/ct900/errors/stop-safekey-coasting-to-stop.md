@@ -30,7 +30,8 @@ see_also:
 - ct900-e21-safety-key
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -39,3 +40,5 @@ This is the inverter's warning #18, displayed literally as the word **Stop** on 
 **Description**: SafeKey is coasting to stop.
 
 **Corrective action**: Unable to send the RUN command while the SafeKey is coasting to stop. (In other words, this is expected/normal behavior right after the safety key is pulled, not a hardware fault - see [safety tether cord and safety key](../safety/safety-tether-cord-and-key.md).)
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

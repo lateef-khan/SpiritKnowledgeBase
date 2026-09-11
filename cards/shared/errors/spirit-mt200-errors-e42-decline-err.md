@@ -2,7 +2,8 @@
 id: spirit-mt200-errors-e42-decline-err
 title: 'E42 Decline Err: the decline fault code, with no cause printed'
 kind: troubleshooting
-question: What does error code E42 (Decline Err) mean on a Spirit MT200 treadmill, and what does the manual say to check?
+question: What does error code E42 (Decline Err) mean on a Spirit MT200 treadmill,
+  and what does the manual say to check?
 asked_as:
 - what does e42 mean on my treadmill
 - treadmill display says e42
@@ -36,9 +37,15 @@ not_to_be_confused_with:
 - ct900-e2-over-voltage
 see_also:
 - spirit-mt200-errors-error-code-table
+- mt200-2022-errors-incline-motor-does-not-move-potentiometer-and-drive-leds
+- 70t-2026-errors-er2-decline-err
 source:
   ref: spirit-treadmill-mt200-2010-owners-manual
-  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md line 1539; the same row is printed page 66 of the 2022 manual, text.md line 2500'
+  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md line
+    1539; the same row is printed page 66 of the 2022 manual, text.md line 2500; 7.0T
+    (MT200 2022) service manual 4.2.3 Error Codes: Messages, Cause and Solution, PDF
+    p. 12-17, text.md lines 208-385; spirit-treadmill-mt200-error-codes-list, Error
+    Codes List MT200 - English, text.md lines 3-165 (a one-page 2024 leaflet)'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +70,13 @@ so the manual gives the decline direction its own code rather than folding it in
 **The same fault is not numbered on every Spirit treadmill.** The 7.0T 2026 prints this
 fault as `ER2` rather than `E42`, and adds a note the MT200 does not - that it shows in the
 Grade window (`70t-2026-errors-er2-decline-err`).
+
+**Service manual remedy.** The 7.0T (MT8000-ST021-02) service manual, section 4.2.3 *Error Codes: Messages, Cause and Solution*, prints this code as **E42 Decline Err: Rear incline motor error.** and gives, in order:
+
+1) Check rear incline motor wiring.
+2) Re-calibrate incline motors (refer to Maintenance Mode section above).
+3) See troubleshooting section for more detailed help.
+
+**The 2024 MT200 error-codes leaflet (`spirit-treadmill-mt200-error-codes-list`) prints it as `E42 Bad communication Error` with one line: *Replace the main computer cable, and then replace the inverter, at last replace the console.*** The leaflet is titled for the MT200 with no year and is carried for both MT200 revisions; it is a summary of the list above in fewer words, and where it names parts it names the same ones.
+
+**The leaflet calls this code something else.** It prints `E42 Bad communication Error - Replace the main computer cable, and then replace the inverter, at last replace the console`, where the service manual and both owner's manuals print `E42 Decline Err`, the rear incline motor. Nothing reconciles them; the manuals agree with each other and the leaflet stands alone, so quote the leaflet's answer only to a caller whose leaflet says it. The service manual is titled 7.0T and numbers this code E42 as the MT200 owner's manuals do; the 7.0T 2026 owner's manual alone prints the same fault unnumbered as `ER2` (`70t-2026-errors-er2-decline-err`).

@@ -1,8 +1,9 @@
 ---
 id: spirit-2024-errors-e1-drive-motor-no-output-signal
-title: E1 means the drive motor sent no output signal during the workout, and only the motor wiring is checked
+title: E1 means the drive motor sent no output signal during the workout, and only
+  the motor wiring is checked
 kind: troubleshooting
-question: What does E1 mean on a Spirit CT800ENT-2024 treadmill?
+question: What does E1 mean on a Spirit CT800ENT-2022 or CT800ENT-2024 treadmill?
 asked_as:
 - what does e1 mean on my spirit treadmill touchscreen
 - treadmill showing e1 mid workout
@@ -20,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800ent-2024
+  model: '*'
   applies_to:
+  - ct800ent-2022
   - ct800ent-2024
   section: errors
   code: e1
-  model_number:
-  - '800865'
 authority: 3
 not_to_be_confused_with:
 - spirit-2024-errors-e1-no-speed-sensor-signal
@@ -37,10 +37,12 @@ not_to_be_confused_with:
 see_also:
 - spirit-2024-errors-seven-code-table-with-no-hyphen
 - ct900ent-motor-unresponsive-after-start
+- spirit-ct-ent-errors-error-code-log-diagnostics-screen
 source:
   ref: spirit-treadmill-ct800ent-2024-owners-manual
-  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 owner's manual. That page
-    is a flat picture with no text layer and was read from the rendered page.
+  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 owner's manual. That
+    page is a flat picture with no text layer and was read from the rendered page;
+    CT800ENT 2022 service manual 8-1 Error code items, PDF p. 31, text.md lines 574-599
   extracted_at: '2026-09-10'
 ---
 
@@ -63,3 +65,5 @@ a speed sensor on the strength of this code.
 The same manual's TROUBLESHOOTING table answers `Motor is not responsive after pressing start` with
 no code at all - `Reset power. If still no good contact service.`
 (`ct900ent-motor-unresponsive-after-start`).
+
+**The CT800ENT 2022 service manual prints this row word for word** in its 8-1 Error code items table, so the drive-motor wording is the ENT console's from the start. The same book's engineering-mode Diagnostics screen logs the code as `E1 No motor output signal.` (`spirit-ct-ent-errors-error-code-log-diagnostics-screen`).

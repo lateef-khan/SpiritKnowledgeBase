@@ -34,9 +34,12 @@ not_to_be_confused_with:
 see_also:
 - xt-2023-maintenance-adjusting-the-speed-sensor
 - xt-2023-console-engineering-mode-menu
+- xt685-2023-console-data-ranges-12-mph-20-kph-spec
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
-  locator: page 45, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration Procedure
+  locator: page 45, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration Procedure.
+    Service manual section 8.10 Calibration Procedure, PDF p. 34 (printed 34), text.md
+    lines 670-681
   extracted_at: '2026-09-09'
 ---
 
@@ -52,3 +55,11 @@ source:
 8. **Press Start to begin calibration.** The process is automatic; **the speed will start up without warning, so do not stand on the belt.**
 
 If the calibration does not pass, check the speed sensor alignment: `xt-2023-maintenance-adjusting-the-speed-sensor`.
+
+**The service manual prints the same eight steps with the metric figures written out**: step 2 holds
+"Start and Fast +", step 4 sets the maximum to **20.0 kmph (IMPERIAL set 12.0MPH)**, step 5 the
+minimum to **1.0 kmph (IMPERIAL set 0.5MPH)**, and step 6 is "Make sure the wheel size diameter is
+3.01". Its grade-return step prints no EU sentence. **That service manual has no Maintenance Menu or
+engineering-mode section at all** - see `xt-2023-console-engineering-mode-menu` - so the calibration
+routine is the only console setting it prints.
+

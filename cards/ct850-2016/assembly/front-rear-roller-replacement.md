@@ -1,6 +1,7 @@
 ---
 id: ct850-2016-front-rear-roller-replacement
-title: Replacing the front and rear rollers
+title: Replacing the front and rear rollers, with the cap and cover screw counts and
+  a dead cross-reference
 kind: procedure
 question: How do I replace the front or rear roller on a Spirit CT850-2016 treadmill?
 asked_as:

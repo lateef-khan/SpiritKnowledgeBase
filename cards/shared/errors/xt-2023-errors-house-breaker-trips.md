@@ -2,7 +2,8 @@
 id: xt-2023-errors-house-breaker-trips
 title: The house breaker trips but the treadmill breaker does not
 kind: troubleshooting
-question: Why does the house breaker trip but not the treadmill's own breaker, on a Spirit XT treadmill of 2015 or 2023?
+question: Why does the house breaker trip but not the treadmill's own breaker, on
+  a Spirit XT treadmill of 2015 or 2023?
 asked_as:
 - house breaker trips when i use the treadmill
 - wall breaker pops but treadmill breaker is fine
@@ -45,9 +46,17 @@ see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - xt-2023-errors-trips-onboard-15-amp-breaker
 - xt-2015-safety-outlet-and-circuit-requirement
+- ct900ent-circuit-breaker-trips-not-treadmill-breaker
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the XT685; the identical row is in the Service Checklist Diagnosis Guide on page 31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45 of the XT485 and page 46 of the XT685; both ENT manuals print the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
+  locator: page 43, TROUBLESHOOTING - Service Checklist Diagnosis Guide; the same
+    row is page 51 of the XT285, page 56 of the XT385 and XT485, and page 55 of the
+    XT685; the identical row is in the Service Checklist Diagnosis Guide on page 31
+    of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page 45
+    of the XT485 and page 46 of the XT685; both ENT manuals print the same table -
+    Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT owner's manual
+    (its table of contents lists TROUBLESHOOTING as page 55), text.md lines 1040-1082,
+    and on printed page 56 of the XT685ENT owner's manual, text.md lines 1664-1695
   extracted_at: '2026-09-09'
 ---
 
@@ -85,3 +94,5 @@ about the treadmill being the only appliance on the circuit
 (`ct900ent-circuit-breaker-trips-not-treadmill-breaker`). The claim above that no XT manual
 names a breaker type is true of the 2015 and 2023 revisions and of both ENT manuals; it is
 not true of the 2010 document. Answer by generation.
+
+**The service manuals of four of these machines answer this row differently.** The 2015 XT285, XT385 and XT485 and the XT485ENT service checklists say the house breaker must be replaced with a "High inrush current" type and point at their section 7.2, which names example part numbers (`ct900ent-circuit-breaker-trips-not-treadmill-breaker`). The claim above that no XT manual names a breaker type holds for the owner's manuals only.

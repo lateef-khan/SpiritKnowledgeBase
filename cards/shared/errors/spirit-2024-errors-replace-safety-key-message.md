@@ -2,8 +2,8 @@
 id: spirit-2024-errors-replace-safety-key-message
 title: Replace Safety Key on the display means the safety key is not fitted
 kind: troubleshooting
-question: What does the message Replace Safety Key mean on a Spirit CT800ENT-2024 or
-  CT850ENT-2024 treadmill?
+question: What does the message Replace Safety Key mean on a Spirit CT800ENT or CT850ENT
+  treadmill, 2022 or 2024?
 asked_as:
 - my treadmill says replace safety key
 - console keeps asking for the safety key
@@ -22,7 +22,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2022
   - ct800ent-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: safety-key
@@ -36,9 +38,11 @@ see_also:
 - ct850-2016-does-not-stop-after-safety-key-removed
 source:
   ref: spirit-treadmill-ct800ent-2024-owners-manual
-  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 manual and printed page 61
-    of the CT850ENT 2024 manual. Both pages are flat pictures with no text layer and
-    were read from the rendered page.
+  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 manual and printed page
+    61 of the CT850ENT 2024 manual. Both pages are flat pictures with no text layer
+    and were read from the rendered page; CT800ENT 2022 service manual 8-1 Error code
+    items, PDF p. 31, text.md lines 574-599; CT850ENT 2022 service manual 8-1 Error
+    code items, PDF p. 31-32, text.md lines 563-618
   extracted_at: '2026-09-10'
 ---
 
@@ -61,3 +65,5 @@ missing key: `spirit-2024-errors-safety-lock-child-mode`.
 carries a separate emergency-stop code `E-25H` for the safety key wiring
 (`ct850-2020-e-25h-emergency-stop-warning`). They are not the same thing: `E-25H` is raised by the
 inverter, this message by the console.
+
+**The CT800ENT 2022 and CT850ENT 2022 service manuals print this row word for word** at the foot of their 8-1 tables - under the seven DC codes on the CT800ENT, under the twenty-three inverter codes on the CT850ENT.

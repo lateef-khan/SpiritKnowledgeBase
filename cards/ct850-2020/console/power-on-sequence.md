@@ -2,8 +2,8 @@
 id: ct850-2020-power-on-sequence
 title: What the console shows when you power it on
 kind: fact
-question: What happens when I turn on a Spirit CT800, CT850-2020, XT185-2015, XT285-2015 or
-  XT685-2010 treadmill?
+question: What happens when I turn on a Spirit CT800, CT850-2020, XT185-2015, XT285-2015
+  or XT685-2010 treadmill?
 asked_as:
 - what do the numbers mean when i switch the treadmill on
 - treadmill shows hours and miles at startup
@@ -45,7 +45,8 @@ see_also:
 - ct800ent-2022-console-home-screen
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-1 POWER, p. 13 (printed 12)
+  locator: Section 4-1-1 POWER, p. 13 (printed 12). CT800-2020 service manual section
+    4-1-1 POWER, PDF p. 13 (printed 12), text.md lines 158-166
   extracted_at: '2026-09-08'
 ---
 
@@ -101,3 +102,8 @@ earlier manuals do.
 **The 2024 CT800ENT and CT850ENT print a touchscreen sequence instead**, on their p. 15: a brief
 loading screen and then the Home Screen, with no odometer readings and no software version. Nothing
 here is claimed for those two machines.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-1 POWER); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+

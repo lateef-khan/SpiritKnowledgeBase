@@ -2,8 +2,8 @@
 id: ct850-2016-low-speed-troubleshooting-form
 title: The four causes listed for a LOW SPEED message
 kind: troubleshooting
-question: What are the listed causes of a LOW SPEED message on a Spirit CT850-2016
-  treadmill?
+question: What are the listed causes of a LOW SPEED message on a Spirit CT800-2016
+  or CT850-2016 treadmill?
 asked_as:
 - what causes low speed on a spirit treadmill
 - ls1 low speed possible causes
@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: errors
   code: low-speed
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +36,9 @@ see_also:
 - ct850-2016-speed-sensor-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 8.1, LOW SPEED issue troubleshooting form, page 35 (printed 34)
+  locator: Section 8.1, LOW SPEED issue troubleshooting form, page 35 (printed 34);
+    CT800 2016 service manual LOW SPEED issue troubleshooting form, PDF p. 38 (printed
+    37), text.md lines 634-681
   extracted_at: '2026-09-08'
 ---
 
@@ -55,3 +56,5 @@ The **8 second** timeout and the **3 mm** magnet gap are the only two numbers th
 this fault.
 
 The `Change the sensor or cables` step is on `ct850-2016-speed-sensor-replacement`.
+
+**The CT800 2016 service manual prints the same four-row form word for word**, 8 seconds and 3 mm included.

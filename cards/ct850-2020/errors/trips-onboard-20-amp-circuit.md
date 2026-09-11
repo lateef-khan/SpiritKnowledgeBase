@@ -2,7 +2,8 @@
 id: ct850-2020-trips-onboard-20-amp-circuit
 title: The treadmill trips its own onboard 20 amp circuit
 kind: troubleshooting
-question: Why does a Spirit CT850 or CT850ENT treadmill trip its onboard 20 amp circuit?
+question: Why does a Spirit CT800 2020, CT850 or CT850ENT treadmill trip its onboard
+  20 amp circuit?
 asked_as:
 - treadmill keeps tripping its own breaker
 - onboard breaker pops on my spirit treadmill
@@ -22,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2016
   - ct850-2020
   - ct850ent-2022
@@ -39,11 +41,13 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 8-6 TROUBLESHOOTING, page 46 (printed 45) of the CT850 2020 service
-    manual; three of the four CT850 owner's manuals print the same row against the same
-    20 amp rating - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the 2016
-    manual (text.md lines 1109-1113) and of the 2020 manual (text.md lines 1108-1112),
+    manual; three of the four CT850 owner's manuals print the same row against the
+    same 20 amp rating - TROUBLESHOOTING - DIAGNOSIS GUIDE on printed page 43 of the
+    2016 manual (text.md lines 1109-1113) and of the 2020 manual (text.md lines 1108-1112),
     and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual (text.md lines
-    1197-1198)
+    1197-1198); CT800 2020 service manual 8-5 TROUBLESHOOTING, PDF p. 45 (printed
+    44), text.md lines 631-660; CT850ENT 2022 service manual 8-7 Troubleshooting,
+    PDF p. 40, text.md lines 810-838
   extracted_at: '2026-09-08'
 ---
 
@@ -74,3 +78,5 @@ The CT800ENT, CT900ENT and 4.0T manuals print the 20 amp row too, carded separat
 If the *house* breaker trips and this one does not, that is a different row:
 `ct850-2016-house-breaker-trips-not-treadmill-breaker`. The deck cleaning, deck wear check and deck
 flip this row asks for are on `ct850-2016-running-deck-belt-and-cushion-replacement`.
+
+**The CT800 2020 and CT850ENT 2022 service manuals print this row word for word**, 20 amp rating, deck-cleaning remedy and deck-flip check included. The CT800 2020 *owner's* manual prints 15 amp for the same machine (`xt-2023-errors-trips-onboard-15-amp-breaker`).

@@ -2,8 +2,8 @@
 id: ct850-2016-error-code-items-list
 title: The two error messages the console can show
 kind: spec
-question: What error messages can a Spirit CT850-2016 treadmill display and what does
-  each one mean?
+question: What error messages can a Spirit CT800-2016 or CT850-2016 treadmill display
+  and what does each one mean?
 asked_as:
 - list of error messages for my spirit treadmill
 - what errors can the ct850 show
@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: errors
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,9 +34,11 @@ see_also:
 - ct850-2016-incline-err-vr-out-of-range
 - ct850-2016-incline-err-during-incline-action
 - ct850-2020-inverter-error-code-list
+- ct800-2016-errors-incline-err-during-incline-action
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Error code items table, page 29 (printed 28)
+  locator: Error code items table, page 29 (printed 28); CT800 2016 service manual
+    Error code items table, PDF p. 31 (printed 30), text.md lines 539-565
   extracted_at: '2026-09-08'
 ---
 
@@ -60,3 +61,5 @@ Two warnings about this table.
 
 The later CT850 2020 manual replaces this two-message list with a twenty-three row inverter code
 table: see `ct850-2020-inverter-error-code-list`.
+
+**The CT800 2016 service manual prints the same two-row table word for word** and, like the CT850 2016, has no numbered code table. It prints the low speed message under two names rather than three - `LOW SPEED` in the table and `LS1/LOW SPEED` in section 8.1 and the matrix - and its checklist uses the bare `LS`. It defines `INCLINE ERR` twice as the CT850 2016 does, though its second definition and its test procedures carry different figures (`ct800-2016-errors-incline-err-during-incline-action`, `ct800-2016-errors-incline-err-test-procedure-110-vac-pins-10-to-12`).

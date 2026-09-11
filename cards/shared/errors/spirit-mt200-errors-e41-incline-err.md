@@ -2,7 +2,8 @@
 id: spirit-mt200-errors-e41-incline-err
 title: 'E41 Incline Err: the incline fault code, with no cause printed'
 kind: troubleshooting
-question: What does error code E41 (Incline Err) mean on a Spirit MT200 treadmill, and what does the manual say to check?
+question: What does error code E41 (Incline Err) mean on a Spirit MT200 treadmill,
+  and what does the manual say to check?
 asked_as:
 - what does e41 mean on my treadmill
 - treadmill display says e41
@@ -38,9 +39,15 @@ not_to_be_confused_with:
 - ct850-2016-incline-err-shown-in-incline-window
 see_also:
 - spirit-mt200-errors-error-code-table
+- mt200-2022-errors-incline-motor-does-not-move-potentiometer-and-drive-leds
+- 70t-2026-errors-err-incline-err
 source:
   ref: spirit-treadmill-mt200-2010-owners-manual
-  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md line 1538; the same row is printed page 66 of the 2022 manual, text.md line 2498'
+  locator: '"Error Codes, Messages and Solution/Cause", printed page 41, text.md line
+    1538; the same row is printed page 66 of the 2022 manual, text.md line 2498; 7.0T
+    (MT200 2022) service manual 4.2.3 Error Codes: Messages, Cause and Solution, PDF
+    p. 12-17, text.md lines 208-385; spirit-treadmill-mt200-error-codes-list, Error
+    Codes List MT200 - English, text.md lines 3-165 (a one-page 2024 leaflet)'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +74,15 @@ and E42. Nothing in either manual says what E39 or E40 would be, or whether they
 fault as `ERR` rather than `E41`, and adds a note the MT200 does not - that it shows in the
 Grade window (`70t-2026-errors-err-incline-err`). The two manuals otherwise share the whole
 E1-E38 table word for word, so E41 and ERR are the point where they part.
+
+**Service manual remedy.** The 7.0T (MT8000-ST021-02) service manual, section 4.2.3 *Error Codes: Messages, Cause and Solution*, prints this code as **E41 Incline Err: Front incline motor error.** and gives, in order:
+
+1) Check front incline motor wiring.
+2) Re-calibrate incline motors (refer to Maintenance Mode section above).
+3) Relay stuck. Check the incline LEDs on control board. Use something to tap the relay of the incline motor on the Inverter.
+4) Position sensor error
+5) See troubleshooting section for more detailed help.
+
+**The 2024 MT200 error-codes leaflet (`spirit-treadmill-mt200-error-codes-list`) prints it as `E41 Incline Error` with one line: *Check incline motor.*** The leaflet is titled for the MT200 with no year and is carried for both MT200 revisions; it is a summary of the list above in fewer words, and where it names parts it names the same ones.
+
+The troubleshooting section the fifth step points at is on `mt200-2022-errors-incline-motor-does-not-move-potentiometer-and-drive-leds`. The service manual is titled 7.0T and numbers this code E41 as the MT200 owner's manuals do; the 7.0T 2026 owner's manual alone prints the same fault unnumbered as `ERR` (`70t-2026-errors-err-incline-err`).

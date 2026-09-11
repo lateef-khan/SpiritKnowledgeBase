@@ -32,6 +32,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2016-part-replacement-procedure-list
+- ct800-2020-specs-parts-exploded-view-st8600-yt057
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 10 Exploded View, p. 55 (printed 54). Page 55 is a flattened image

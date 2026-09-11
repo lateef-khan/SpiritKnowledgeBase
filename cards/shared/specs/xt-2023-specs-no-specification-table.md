@@ -1,6 +1,6 @@
 ---
 id: xt-2023-specs-no-specification-table
-title: Specifications the owner's manuals do not print
+title: Specifications the owner's manuals do not print, and the two the service manuals add
 kind: fact
 question: Where are the motor rating, deck size, dimensions and unit weight for a Spirit
   XT185, XT285, XT385, XT485, XT685, XT485ENT or XT685ENT treadmill of the 2010, 2015
@@ -43,8 +43,14 @@ facets:
   section: specs
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-ct850-drive-belt-tension
 see_also:
+- spirit-ct850-drive-belt-tension
+- spirit-xt-specs-electrical-part-descriptions
+- spirit-xt-2015-specs-electrical-part-descriptions-0-to-180-volt
+- spirit-xt-ent-specs-electrical-part-descriptions
+- spirit-xt-specs-circuit-diagram-codes-and-contents
 - xt185-2023-user-weight-limit
 - xt285-2023-user-weight-limit
 - xt385-2023-user-weight-limit
@@ -66,7 +72,11 @@ source:
     manuals (XT185/XT285/XT385/XT485/XT685-2015, Table of Contents p. 2 or 3 and whole
     document), in the two ENT-console manuals (XT485ENT Table of Contents p. 2
     and whole document, XT685ENT Table of Contents p. 2 and whole document), and in
-    the XT685-2010 manual (Table of Contents p. 3 and whole document)
+    the XT685-2010 manual (Table of Contents p. 3 and whole document). Service-manual
+    figures - the 70-75 lbs step in every XT 2015, 2023 and ENT service manual, located
+    book by book on spirit-ct850-drive-belt-tension; the Function work-range tables at
+    XT185-2015 service manual p. 16, XT385-2015 p. 16, XT185-2023 p. 8, XT385-2023 p. 7,
+    XT685-2023 p. 7, XT485ENT p. 14, XT685ENT p. 7
   extracted_at: '2026-09-09'
 ---
 
@@ -159,7 +169,19 @@ list**, so do not read one against the other.
   section - "Incline values are absolute and vary from 0 to 15" - which is a
   program limit, not a machine specification, and should be quoted as such.
 
-**Belt tension is a procedure in every one of these manuals, never a figure.**
-None of the twelve gives a tension in turns from a datum, in newtons, or as a
-deflection - only "turn the bolts 1/4 turn each and inspect by walking on the
-belt". There is no belt tension figure to quote for any XT.
+**Tread-belt tension is a procedure in every one of these owner's manuals, never a
+figure.** None of the thirteen gives a tension in turns from a datum, in newtons, or
+as a deflection - only "turn the bolts 1/4 turn each and inspect by walking on the
+belt". There is still no tread-belt tension figure to quote for any XT.
+
+**The service manuals add two things the owner's manuals lack.** Every XT service
+manual of 2015, 2023 and the two ENT books sets the **drive belt** - the belt under
+the motor cover - at **70 to 75 lbs on a belt tension gauge**, in its
+motor-replacement step; that figure is on `spirit-ct850-drive-belt-tension`, which
+names each XT service manual. And each service manual prints a Function table with
+a **WORK range** for speed and incline stated as a machine limit - 0.5 to 12 mph
+and 0 to 15 on most, 0.5 to 10 mph on the XT185-2023, 0 to 12 on the XT285-2023 -
+which the console cards for each generation hold. Where a service manual's work
+range disagrees with the owner's-manual console maximum, the two range cards linked
+above say so. The service manuals still print no motor horsepower, deck size,
+dimension or weight; their electrical chapters give the motors' voltages only.

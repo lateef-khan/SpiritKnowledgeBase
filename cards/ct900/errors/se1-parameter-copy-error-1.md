@@ -29,10 +29,13 @@ see_also:
 - ct900-se2-parameter-copy-error-2
 source:
   ref: ct900-om
-  locator: p. 47
+  locator: p. 47; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
 **This is SE1 (warning #9, parameter copy error 1), not SE2 (warning #10, parameter copy error 2), which has additional listed causes.** Press RESET to clear any Warning Code.
 
 **Corrective action**: Verify the communication cable and the communication quality.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

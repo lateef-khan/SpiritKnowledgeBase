@@ -1,8 +1,9 @@
 ---
 id: spirit-2026t-console-belt-acceleration-time
-title: "How long the belt takes to change 1 mph: 3 seconds by default, 1 to 60 adjustable"
+title: 'How long the belt takes to change 1 mph: 3 seconds by default, 1 to 60 adjustable'
 kind: fact
-question: How do I change how quickly the belt speeds up on a Spirit 7.0T or 8.0T treadmill?
+question: How do I change how quickly the belt speeds up on a Spirit 7.0T or 8.0T
+  treadmill?
 asked_as:
 - the belt changes speed too fast for my patient
 - how do i slow down the acceleration
@@ -37,7 +38,9 @@ see_also:
 - 70t-2026-console-maintenance-mode-menu
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 7.0T p. 24 FEATURES - Acceleration - Deceleration; 8.0T p. 11 UNIQUE USES
+  locator: 7.0T p. 24 FEATURES - Acceleration - Deceleration; 8.0T p. 11 UNIQUE USES.
+    MT200-2022 service manual section 4.2.1 e Acceleration Key Lock, PDF pp. 10-11
+    (printed 10-11), text.md lines 174-177, and 4.2.2 v-vi, PDF p. 11, lines 196-201
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +68,8 @@ range** - the 2010 manual on its p. 15, the 2022 manual on its p. 25. Each point
 its own menu for disabling the function: **the 2010 manual says Engineering mode
 (its p. 39), the 2022 manual says Maintenance mode (its p. 58)**. It is the same
 menu under two names; see `70t-2026-console-maintenance-mode-menu`.
+
+**The MT200-2022 service manual prints the same Acceleration Key Lock** - MW "ACCEL KEY", Enter shows
+"ACCEL LOCKED" (the default), an up or down key shows "ACCEL UNLOCKED" - and the same 0:03 seconds per
+1 mph/kph with a range of 0:01 to 1:00 minute, for both acceleration and deceleration.
+

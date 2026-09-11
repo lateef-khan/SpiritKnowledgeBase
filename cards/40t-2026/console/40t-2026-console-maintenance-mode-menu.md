@@ -1,8 +1,9 @@
 ---
 id: 40t-2026-console-maintenance-mode-menu
-title: "Maintenance mode: the Start + Stop + Confirm hold and every item in the menu"
+title: 'Maintenance mode: the Start + Stop + Confirm hold and every item in the menu'
 kind: procedure
-question: How do I get into maintenance mode on a Spirit 40t-2026 treadmill and what is in it?
+question: How do I get into maintenance mode on a Spirit 40t-2026 treadmill and what
+  is in it?
 asked_as:
 - how do i get into service mode on my treadmill
 - how do i change my treadmill to metric
@@ -37,9 +38,12 @@ see_also:
 - ct850-2020-c-safe-ports
 - 40t-2026-console-pause-mode-setting
 - 70t-2026-console-maintenance-mode-menu
+- 40t-2026-console-maintenance-mode-as-the-service-manual-prints-it
+- 40t-2026-console-factory-settings-min-0-3-to-0-7-max-down-to-10-0
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 47, MAINTENANCE MODE - Console Software
+  locator: p. 47, MAINTENANCE MODE - Console Software. 4.0T service manual, Maintenance
+    Mode, PDF p. 33 (printed 33), text.md lines 482-517
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +73,10 @@ The console has built-in maintenance/diagnostic software.
 and holds different items, including a Service Mode with motor tests and a
 calibration routine; see `70t-2026-console-maintenance-mode-menu`. The 8.0T manual
 prints no maintenance or service mode at all.
+
+**The 4.0T service manual prints a different menu behind the same three keys**: ENGINEERING MODE MENU
+with a 30-minute Sleep Mode, an odometer in hours, an Incline Return setting and a Service Mode with
+A1 / A2 incline readings and an AMPS readout, and no Pause mode, LED brightness, ANT ID or Update
+Code. It is held on `40t-2026-console-maintenance-mode-as-the-service-manual-prints-it`; the two
+documents describe the same machine and do not mention each other.
+

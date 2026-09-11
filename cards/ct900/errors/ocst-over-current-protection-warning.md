@@ -31,10 +31,13 @@ see_also:
 - ct900-e12-over-current
 source:
   ref: ct900-om
-  locator: p. 48
+  locator: p. 48; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
 **This is the inverter's ocSt warning code (warning #19), not the console's [E1](e1-over-current.md) or [E12](e12-over-current.md) OVER CURRENT error codes** - same general concept, different code namespace; ocSt has a stated fix while E1/E12 do not. Press RESET to clear any Warning Code.
 
 **Corrective action**: Verify if the motor is overload.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

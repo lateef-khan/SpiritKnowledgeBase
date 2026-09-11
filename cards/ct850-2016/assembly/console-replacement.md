@@ -1,6 +1,6 @@
 ---
 id: ct850-2016-console-replacement
-title: Replacing the console
+title: 'Replacing the console: six button head socket bolts off the console support'
 kind: procedure
 question: How do I replace the console on a Spirit CT850-2016 treadmill?
 asked_as:

@@ -1,9 +1,10 @@
 ---
 id: spirit-2024-errors-safety-lock-child-mode
-title: SAFETY LOCK on the display means the child safety mode is on, and one held key clears it
+title: SAFETY LOCK on the display means the child safety mode is on, and one held
+  key clears it
 kind: troubleshooting
-question: What does the message SAFETY LOCK mean on a Spirit CT800ENT-2024 or
-  CT850ENT-2024 treadmill?
+question: What does the message SAFETY LOCK mean on a Spirit CT800ENT or CT850ENT
+  treadmill, 2022 or 2024?
 asked_as:
 - my treadmill says safety lock
 - how do i turn off child lock on my spirit treadmill
@@ -22,7 +23,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800ent-2022
   - ct800ent-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: safety-lock
@@ -33,9 +36,11 @@ see_also:
 - spirit-2024-errors-replace-safety-key-message
 source:
   ref: spirit-treadmill-ct800ent-2024-owners-manual
-  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 manual and printed page 61
-    of the CT850ENT 2024 manual. Both pages are flat pictures with no text layer and
-    were read from the rendered page.
+  locator: ERROR CODES, printed page 60 of the CT800ENT 2024 manual and printed page
+    61 of the CT850ENT 2024 manual. Both pages are flat pictures with no text layer
+    and were read from the rendered page; CT800ENT 2022 service manual 8-1 Error code
+    items, PDF p. 31, text.md lines 574-599; CT850ENT 2022 service manual 8-1 Error
+    code items, PDF p. 31-32, text.md lines 563-618
   extracted_at: '2026-09-10'
 ---
 
@@ -59,3 +64,5 @@ about it.
 
 The other message in the same table is `Replace Safety Key`, which is a missing tether key and a
 different fault: `spirit-2024-errors-replace-safety-key-message`.
+
+**The CT800ENT 2022 and CT850ENT 2022 service manuals print this row with the arrow as a real glyph**: `Press and hold Incline▲ key to relieve this mode.` That settles which key the 2024 books mean by `Incline&` and `Incline A` - it is the incline **up** key. The CT850ENT 2022 writes the cause `Children Safety mode is on`, the CT800ENT 2022 `Children's Safety mode is on`.

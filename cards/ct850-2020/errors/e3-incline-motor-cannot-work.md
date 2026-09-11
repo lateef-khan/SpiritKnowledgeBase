@@ -2,7 +2,8 @@
 id: ct850-2020-e3-incline-motor-cannot-work
 title: 'E3: the incline motor cannot work normally'
 kind: troubleshooting
-question: What does E3 mean on a Spirit CT850-2020, CT850-2024 or CT850ENT-2024 treadmill?
+question: What does E3 mean on a Spirit CT800-2020, CT850-2020, CT850-2024, CT850ENT-2022
+  or CT850ENT-2024 treadmill?
 asked_as:
 - what does e3 mean on my spirit treadmill
 - treadmill showing e3
@@ -22,8 +23,10 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct800-2020
   - ct850-2020
   - ct850-2024
+  - ct850ent-2022
   - ct850ent-2024
   section: errors
   code: e3
@@ -38,11 +41,15 @@ see_also:
 - ct850-2016-incline-err-vr-out-of-range
 - ct850-2020-incline-err
 - ct850-2020-incline-motor-replacement
+- ct800-2020-errors-e3-incline-vr-out-of-range-printed-with-the-incline-err-table
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: 'Section 8-1 Error Codes, pages 36-37 (printed 35-36); section 8-3 Error
     Message: E3, pages 39-41 (printed 38-40). Page 39 is a flattened image and was
-    read from raw/page-39.png'
+    read from raw/page-39.png; CT850ENT 2022 service manual 8-1 Error code items,
+    PDF p. 31-32, text.md lines 563-618; CT850ENT 2022 service manual 8-3 Error Message:
+    E3, PDF p. 34, text.md lines 634-663; spirit-treadmill-ct800-2020-e50h-service-bulletin,
+    TRANSCRIPT, PDF PAGE 5 (remedy card)'
   extracted_at: '2026-09-08'
 ---
 
@@ -94,3 +101,7 @@ printed pages 60 and 61 of the CT850ENT 2024 manual. Both of those pages are fla
 no text layer, and both were read from the rendered page. The 2024 books changed the machine
 around this table but not the table: the whole twenty-three-code list is unchanged from the
 2020 service manual.
+
+**The CT850ENT 2022 service manual prints both the 8-1 row and the 8-3 section word for word** - the same definition, the same cause and the same four-row Incline VR / Display board / Console cable / Incline table - so the 2024 books inherited them from there.
+
+**The service bulletin's remedy card (`spirit-treadmill-ct800-2020-e50h-service-bulletin`) answers E3 with the E-52H steps**: *E3: Incline error. a). Checking Incline VR wiring. b). Checking Incline motor wiring. c). Checking if the spiral stuck. d). Replacing a new transformer.* The card is headed for the New CT800&CT850(2020), which is why the CT800 2020 is on it; the CT800 2020 service manual's own E3 is on `ct800-2020-errors-e3-incline-vr-out-of-range-printed-with-the-incline-err-table`, and its 8-1 row on `spirit-2024-errors-e3-incline-motor-wires-then-calibration`.

@@ -1,7 +1,7 @@
 ---
 id: spirit-ct900-specs-no-specification-table
-title: Three owner's manuals with no specification table, and the only motor rating
-  among them is 3.0HP AC
+title: Three owner's manuals with no specification table; the service manuals add a drive-belt
+  figure for each machine, and the only motor rating is 3.0HP AC
 kind: fact
 question: Where are the motor rating, running deck size, dimensions and unit weight
   for a Spirit CT900, CT900ENT or CTSBS900 commercial treadmill?
@@ -39,6 +39,10 @@ not_to_be_confused_with:
 - 40t-2026-specs-no-specification-table
 see_also:
 - spirit-2026t-specs-drive-motor-rating
+- spirit-ct900-specs-drive-belt-tension-120-to-130-hz
+- ctsbs900-specs-belt-sag-260-to-265-mm
+- ctsbs900-specs-no-wiring-diagram-in-the-service-manual
+- spirit-ct900-specs-driver-board-is-a-delta-inverter
 - ctsbs900-electrical-requirements
 - ct900-full-parts-list-and-exploded-view
 - ct900ent-specs-no-parts-list
@@ -48,7 +52,9 @@ source:
   ref: spirit-treadmill-ct900-owners-manual
   locator: Table of Contents p. 1 and whole document; the same absence holds in the
     CT900ENT owner's manual (Table of Contents p. 2) and the CTSBS900 owner's manual
-    (Table of Contents p. 1)
+    (Table of Contents p. 1). Service-manual figures - CT900 service manual p. 67, text.md
+    lines 1444-1446; CT900ENT service manual p. 69, lines 1229-1230; CTSBS900 service manual
+    p. 20, lines 263-264
   extracted_at: '2026-09-09'
 ---
 
@@ -94,11 +100,21 @@ or a number of turns from a datum:
   rotate both sides **1/4 turn** clockwise to tighten
   (`ctsbs900-adjusting-belt-tightness`).
 
-For the drive belt under the motor cover all three say only that tightening it
-"should be done by a trained service person". **Do not answer any of these from
-`spirit-ct850-drive-belt-tension`** - its 70 to 75 lbs on a gauge is a CT850
-*service*-manual figure for the *drive* belt on a different machine, and no book
-here states it.
+For the drive belt under the motor cover all three owner's manuals say only that
+tightening it "should be done by a trained service person". **The service manuals
+do print the drive-belt figure, and each machine has a different one**: the CT900
+and CT900ENT service manuals set it at **120 to 130 Hz** on a sonic tension meter
+(`spirit-ct900-specs-drive-belt-tension-120-to-130-hz`), and the CTSBS900 service
+manual sets its slat belt by a **260 to 265 mm vertical gap** measured at the belt
+centre (`ctsbs900-specs-belt-sag-260-to-265-mm`). **Do not answer any of these from
+`spirit-ct850-drive-belt-tension`** - its 70 to 75 lbs on a gauge is the CT800 /
+CT850 / XT figure for a different belt on different machines, and no CT900 or
+CTSBS900 book states it.
+
+The CT900 and CT900ENT service manuals also print an incline-motor voltage (220
+volts in the CT900 book, 120 in the CT900ENT book) and caption the inverter
+VFD015TM12A, but still no drive-motor horsepower; the CTSBS900 service manual is
+a parts-replacing guide with no electrical section at all.
 
 ## The running-surface figure in the CT900 PDF is not the CT900's
 

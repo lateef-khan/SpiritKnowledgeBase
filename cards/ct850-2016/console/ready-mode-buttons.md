@@ -22,22 +22,24 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2016
+  model: '*'
   applies_to:
+  - ct800-2016
   - ct850-2016
   section: console
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - ct850-2016-run-mode-buttons
 - ct850-2016-window-display-modes
 - ct850-2016-program-parameter-entry
+- spirit-ct800-console-quick-start-speed-keys-2-to-6
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 4, Function Button In Main Mode, READY MODE, p. 18 (printed 17)
+  locator: Section 4, Function Button In Main Mode, READY MODE, p. 18 (printed 17).
+    CT800-2016 service manual section 4, Function Button In Main Mode, READY MODE,
+    PDF p. 18 (printed 17), text.md lines 288-321
   extracted_at: '2026-09-08'
 ---
 
@@ -57,3 +59,12 @@ source:
 
 The manual also says of ENTER: press it to enter parameter setting and to confirm each setting;
 press START to finish the setting; and pressing ENTER changes the DISPLAY MODE readout.
+
+**The CT800-2016 service manual prints this same table**, so this card covers that machine, with the
+rapid keys spelled out where the CT850-2016 book says only "preset buttons": **SPEED RAPID - 5 preset
+buttons for rapid speed: (3, 6, 9 km) (2, 4, 6 m); INCLINE RAPID - 5 preset buttons for rapid
+incline: 2, 4, 6.** Its console drawing labels them "Level quick keys (2/4/6m)" and "Incline quick
+keys 2/4/6". **That is five keys carrying three values each**, which the book does not explain; the
+CT800 2012 and 2016 owner's manuals say the rapid speed keys are numbered **2 through 6**
+(`spirit-ct800-console-quick-start-speed-keys-2-to-6`). Read the keys on the console in front of you.
+

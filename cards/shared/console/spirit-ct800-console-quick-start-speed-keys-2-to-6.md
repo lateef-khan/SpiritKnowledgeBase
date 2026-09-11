@@ -38,10 +38,13 @@ see_also:
 - ct850-2020-pause-stop-reset
 - ct850-2020-incline-adjustment
 - spirit-ct800-console-layout-blue-led-matrix-window
+- ct850-2016-ready-mode-buttons
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: Operation of Your Console / Quick Start Operation, p. 11; the CT800 2016
-    owner's manual prints the same four bullets on its p. 16
+    owner's manual prints the same four bullets on its p. 16. CT800-2016 service manual
+    section 4 key tables, PDF pp. 18-19 (printed 17-18), text.md lines 298-300 and
+    328-330
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,9 @@ that manual replaces the word throughout, including where it means the safety ke
 says what speed each of the five rapid keys selects.
 
 What the second and third press of Stop do is a separate behaviour: `ct850-2020-pause-stop-reset`.
+
+**The CT800-2016 service manual numbers the rapid keys differently.** Its key tables print "SPEED
+RAPID button: 5 preset buttons for rapid speed: (3,6,9km)(2,4,6m)" and "Speed will set to 2,4,6m
+quickly", and its console drawing labels them "Level quick keys (2/4/6m)". Five keys, three values;
+this owner's manual says 2 through 6. Both are reproduced as printed (`ct850-2016-ready-mode-buttons`).
+

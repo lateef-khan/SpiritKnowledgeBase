@@ -3,7 +3,7 @@ id: ct850-2016-running-deck-belt-and-cushion-replacement
 title: Replacing the running deck, running belt and cushions
 kind: procedure
 question: How do I replace the running deck, running belt or cushions on a Spirit
-  CT850 treadmill, 2016 or 2020?
+  CT850, CT800, CT800ENT, CT850ENT or 4.0T treadmill?
 asked_as:
 - how do i change the running belt on a spirit treadmill
 - replace the deck on a spirit commercial treadmill
@@ -23,8 +23,12 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
+  - ct800-2020
+  - ct800ent-2022
   - ct850-2016
   - ct850-2020
+  - ct850ent-2022
   section: assembly
   code: '*'
 authority: 3
@@ -36,7 +40,12 @@ source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 12.6 Running Deck/ Belt & Cushion Replacement of the CT850 2016
     manual, pp. 72-73 (printed 71-72), where the table of contents calls it 10.6;
-    the same steps are section 11-6 of the CT850 2020 manual, pp. 65-66 (printed 64-65)
+    the same steps are section 11-6 of the CT850 2020 manual, pp. 65-66 (printed 64-65);
+    the same four steps are section 11-6 of the CT800 2020 service manual, PDF pp.
+    64-65 (printed 63-64), text.md lines 905-930; section 9-6 of the CT800ENT (PDF
+    p. 58, lines 1003-1027) and CT850ENT (PDF p. 59, lines 1022-1046) "2020 ver."
+    service manuals; and section 9.6 of the 4.0T 2026 service manual, PDF pp. 48-49
+    (printed 59-60), lines 801-827
   extracted_at: '2026-09-08'
 ---
 
@@ -64,3 +73,10 @@ printed twice. The order above is the printed order.
 
 Neither manual's deck procedure says to re-tension or centre the running belt afterwards. The roller
 procedure, which this one sends you through first, does.
+
+**Six books now print these four steps with the same counts**: the two CT850 books above, the CT800 2020
+(11-6), the CT800ENT and CT850ENT (9-6), and the 4.0T 2026 (9.6). Eight socket head cap bolts, eight flat
+head countersink bolts, six cushion bolts and one deck cross brace in all of them, on an M6 L-shape Allen
+wrench. The 4.0T's step 1 sends you to "step 9.5", which is its roller procedure - correct, where the CT850
+2016's "12.7" is not.
+

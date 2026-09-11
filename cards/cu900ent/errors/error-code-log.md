@@ -2,7 +2,8 @@
 id: cu900ent-error-code-log
 title: Reading and clearing the error code log
 kind: procedure
-question: Where do I find the logged error codes on a Spirit CU900ENT bike?
+question: Where do I find the logged error codes on a Spirit CU900ENT bike or a CT900ENT
+  or CT1000ENT treadmill?
 asked_as:
 - where is the error log on my spirit bike
 - how to clear the error log on the console
@@ -18,9 +19,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: bike
-  model: cu900ent
+  product_line: '*'
+  model: '*'
   applies_to:
+  - ct1000ent-2023
+  - ct900ent
   - cu900ent
   section: errors
   code: '*'
@@ -30,10 +33,15 @@ see_also:
 - cu900ent-error-code-messages-list
 - cu900ent-eah-ucb-does-not-match-lcb-device
 - ce800ent-error-code-log
+- ct900ent-errors-error-code-messages-list
+- ct1000ent-2023-errors-error-code-list-25-hex-codes
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Diagnostics, page 27. This page is a flattened image and was read from
-    raw/page-27.png, not from the OCR text
+    raw/page-27.png, not from the OCR text; CT900ENT service manual Error Code Log
+    under Setting and Operation for Engineering Mode, PDF p. 29, text.md lines 443-453;
+    CT1000ENT 2023 service manual Service table, Error Code Log row, PDF p. 19, text.md
+    lines 428-473
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +69,5 @@ entry in the Settings list.
 
 The CE800ENT elliptical has the same console family and the same Diagnostics screen, but its manual
 does not print the ten-press clearing instruction: `ce800ent-error-code-log`.
+
+**The CT900ENT and CT1000ENT 2023 treadmill service manuals print the same two sentences** - *Diagnose and save malfunction error messages for technician to inspect the machine and troubleshooting. Press "Error Code Log" button 10 consecutive repetitions to clear the error message.* The CT1000ENT prints them in its engineering-mode Service table; the CT900ENT on a page of its own. Neither prints a worked example, so the `0x` log format above is the bike's page. The codes those logs hold are the treadmill lists on `ct900ent-errors-error-code-messages-list` and `ct1000ent-2023-errors-error-code-list-25-hex-codes`, both of which also write their codes as hex.

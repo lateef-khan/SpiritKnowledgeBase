@@ -34,7 +34,8 @@ see_also:
 - ct900-e31-comm-timeout
 source:
   ref: ct900-om
-  locator: p. 46
+  locator: p. 46; CT900 service manual List of Warning Codes, PDF p. 44-45, text.md
+    lines 841-947
   extracted_at: '2026-08-24'
 ---
 
@@ -43,3 +44,5 @@ source:
 **Corrective actions**:
 1. Verify the communication cable and the communication quality.
 2. Clear the fault and then press RESET button.
+
+**The CT900 service manual prints this warning row word for word** in its *List of Warning Codes*, corrective actions included.

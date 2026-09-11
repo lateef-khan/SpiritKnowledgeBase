@@ -1,6 +1,7 @@
 ---
 id: 40t-2026-console-stop-key-functions
-title: What one, two and a three-second press of Stop each do, and the five-minute pause
+title: What one, two and a three-second press of Stop each do, and the five-minute
+  pause
 kind: fact
 question: What does the Stop key do on a Spirit 40t-2026 treadmill console?
 asked_as:
@@ -35,7 +36,8 @@ see_also:
 - 40t-2026-console-quick-start
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 19, BASIC INFORMATION
+  locator: p. 19, BASIC INFORMATION. 4.0T service manual section 4 Product Operation,
+    Basic information (Stop key), PDF p. 14-15 (printed 14-15), text.md lines 202-209
   extracted_at: '2026-09-09'
 ---
 
@@ -51,3 +53,6 @@ The Stop key has four functions.
 **The five-minute limit is a setting, not a fixed figure.** Maintenance mode's
 Pause mode item turns it off so the console pauses indefinitely; see
 `40t-2026-console-pause-mode-setting`.
+
+**The 4.0T service manual prints this section word for word** in its chapter 4.
+

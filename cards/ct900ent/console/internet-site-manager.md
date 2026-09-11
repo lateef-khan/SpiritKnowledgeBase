@@ -2,7 +2,8 @@
 id: ct900ent-internet-site-manager
 title: Adding or removing internet sites (Internet Manager)
 kind: procedure
-question: How do I add or remove internet sites on a Spirit CT900ENT treadmill or a CR900ENT or CU900ENT bike?
+question: How do I add or remove internet sites on a Spirit CT900ENT treadmill or
+  a CR900ENT or CU900ENT bike?
 asked_as:
 - how do i add a website to the treadmill
 - how do i remove a website icon
@@ -34,7 +35,8 @@ see_also:
 - ct900ent-maintenance-menu-overview
 source:
   ref: ct900ent-om
-  locator: p. 19
+  locator: p. 19. CT900ENT service manual, Internet Manager, PDF pp. 36-37 (printed
+    36-37), text.md lines 535-573
   extracted_at: '2026-08-24'
 ---
 
@@ -55,3 +57,10 @@ Internet Manager button **10 consecutive times** to reach an add-a-website mode,
 supplied from a **`Dyaco`** folder on a USB stick: `cu900ent-internet-manager-add-website`. **The two
 documents disagree and neither mentions the other.** The owner's manual route is the on-screen one;
 the service manual route is the one that installs a custom icon.
+
+**The CT900ENT service manual prints the CU900ENT service manual's route for this screen too**: six
+preset web pages, a two-second press on a button (its example is YouTube) to delete one, and to add
+one, an icon image in a `Dyaco` folder on a USB stick, the new website address (its example is
+flipboard.com) and file name (flipboard), then **press Internet Manager ten consecutive times** and
+hit OK. The treadmill's two documents therefore disagree the way the bike's do.
+

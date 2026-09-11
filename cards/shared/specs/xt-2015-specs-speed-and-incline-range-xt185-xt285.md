@@ -40,12 +40,15 @@ not_to_be_confused_with:
 see_also:
 - xt-2023-specs-no-specification-table
 - xt-2015-specs-no-parts-list
+- spirit-xt-2015-console-data-ranges-16-kmh-incline-steps-of-1
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: CONSOLE OPERATION / Select Speed & Incline Buttons, p. 17; the XT285-2015
     manual prints the same figures in the same paragraph on its p. 17; the XT685-2010
     manual prints them under Quick Speed & Incline Buttons on its p. 16 (printed p.
-    12)
+    12). The XT185-2015 service manual's Function table, p. 16 (printed 15), text.md
+    lines 199-250, and the XT285-2015 service manual's, pp. 17-18, lines 238-289, give
+    the contradicting work range
   extracted_at: '2026-09-09'
 ---
 
@@ -91,6 +94,14 @@ which is the question a user asks; quote it as that, and say the book's own
 calibration page carries a different pair of numbers rather than treating either
 as the machine's rating.
 
-This is the only place any of the three manuals states a console entry maximum.
-None of them contains a specification table, so there is no motor rating, deck
-size, dimension or unit weight to go with it.
+This is the only place any of the three owner's manuals states a console entry
+maximum. None of them contains a specification table, so there is no motor rating,
+deck size, dimension or unit weight to go with it.
+
+**The XT185-2015 and XT285-2015 service manuals contradict this figure.** Their
+Function tables give a speed WORK range of **1.0 to 16.0 km/h or 0.5 to 12 mph** and
+an incline WORK range of **0 to 15 in steps of 1** - not 9.9 mph and level 9.5 in
+half steps. Neither book mentions the other's figures. The service-manual table is
+held by `spirit-xt-2015-console-data-ranges-16-kmh-incline-steps-of-1`; quote the
+owner's-manual figure as what the keypad accepts and the service-manual figure as
+the work range, and say the two books disagree.

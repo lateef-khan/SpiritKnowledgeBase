@@ -39,7 +39,8 @@ see_also:
 - ct850-2020-console-layout
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-4 QUICK START, p. 14 (printed 13)
+  locator: Section 4-1-4 QUICK START, p. 14 (printed 13). CT800-2020 service manual
+    section 4-1-4 QUICK START, PDF p. 14 (printed 13), text.md lines 187-195
   extracted_at: '2026-09-08'
 ---
 
@@ -72,3 +73,8 @@ front of you.
 including the twelve Direct Access Speed Buttons and the 0.5 mph start, so this card covers those two
 machines. The two 2024 books are the same document: their QUICK START, CONSOLE SCREEN - OVERVIEW and
 CALIBRATION pages match each other **100%** word for word, measured on native PDF text.
+
+**The CT800-2020 service manual prints this section word for word** (its section 4-1-4 QUICK START); the two
+2020 service manuals' operation chapters match line for line apart from the model name, so the
+CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
