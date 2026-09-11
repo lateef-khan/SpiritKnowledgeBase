@@ -1,14 +1,14 @@
-# Common brief — Spirit medical range and owner's-manual gaps wave (2026-09-11)
+# Common brief — Xterra treadmill wave X1 (2026-09-11)
 
-You are one of eight agents. Each agent owns **one section** across **all 28
+You are one of eight agents. Each agent owns **one section** across **all 30
 sources** in this wave. Sections are disjoint, so you never collide with another
 agent. You write cards; you never commit. The orchestrator reconciles and commits.
 
 Repository: `/mnt/HDD/Projects/SpiritKnowledgeBase` (branch
-`feat/kb-spirit-medical-and-om-gaps`, already checked out — do not switch
-branches). Scratchpad: `/tmp/claude-1000/-mnt-HDD-Projects-SpiritKnowledgeBase/0a783e4d-cf1c-441c-980f-25b3f9be5062/scratchpad`
-(call it `$S`). **Namespace every scratch file you create under `$S/med/<your-section>/`** (earlier waves used `$S/<section>/`, `$S/bikes/`, `$S/ell/`, `$S/rc/`; leave those alone)
-— the scratchpad is shared by all eight agents.
+`feat/kb-xterra-treadmills`, already checked out — do not switch branches).
+Scratchpad: `/tmp/claude-1000/-mnt-HDD-Projects-SpiritKnowledgeBase/e835e5c4-bdf0-4d59-988b-1d30984c2ffd/scratchpad`
+(call it `$S`). **Namespace every scratch file you create under `$S/x1/<your-section>/`**
+— the scratchpad is shared by all eight agents. `$S/pages.py` is the page printer.
 
 Read, in this order, before writing anything:
 
@@ -20,67 +20,91 @@ Read, in this order, before writing anything:
 3. Your section brief (the file you were given).
 4. Every source in this wave that has content for your section (§ "Sources").
 
+## This is a NEW BRAND
+
+**Xterra** is a brand `kb.yaml` declares as of this branch, with 19 treadmill
+ids. **No Xterra card exists yet** except the 19 product cards
+(`cards/shared/specs/<family>-model-numbers.md`, which you never edit). Every card
+you write is `brand: [xterra]`, `product_line: treadmill`.
+
+Xterra is a separate range, not rebadged Spirit — owner's manual against owner's
+manual the best Spirit match is 48%. But the safety, electrical, grounding,
+maintenance and warranty pages are **Dyaco boilerplate**, and most of those
+sentences already exist as Spirit or Sole cards. That does **not** make them
+extendable: **a card carries exactly one brand.** You write the Xterra card and
+point at the twin with `see_also` (same figures) or `not_to_be_confused_with`
+(figures differ). Never add `xterra` to a Spirit or Sole card, never edit one.
+
+Because nothing exists yet, "extend" in this wave means **extend the card you or
+your own run wrote a minute ago**: the organising rule is one card per *fact*, so
+a sentence printed in nineteen owner's manuals is **one** card whose `applies_to`
+lists every machine that prints it — never nineteen cards. Where a figure differs
+(user weight 250 vs 300 vs 350 lb, speed 0.5–10 vs 0.5–12 mph) it is one card per
+value, with the value in the title.
+
 ## Sources in this wave
 
-All under `sources/<id>/text.md`. The 28 ids, with the **`product_line` each card
-from that source must carry**. OM = owner's manual, SM = service manual.
+All under `sources/<id>/text.md`. OM = owner's manual, SM = service manual.
+A source is evidence **only** for the model id(s) on its line.
 
 ```
-spirit-bike-40r-2025-owners-manual                 OM  40r-2025   bike      (Spirit Medical 4.0R, Rev 10.03.25)
-spirit-bike-40r-2025-service-manual                SM  40r-2025   bike      (FR800-SB022-03)
-spirit-bike-40r-pt-owners-manual                   OM  40r-pt     bike      (Dyaco "PT" 4.0 R user manual, UNDATED, 2016 PDF; brand spirit - the Spirit Medical 4.0R sold under the Dyaco cover)
-spirit-bike-40u-2025-owners-manual                 OM  40u-2025   bike      (Rev 10.03.25)
-spirit-bike-40u-2025-service-manual                SM  40u-2025   bike      (FU800-SB022-03)
-spirit-bike-40u-pt-owners-manual                   OM  40u-pt     bike      (Dyaco "PT" 4.0 U, UNDATED)
-spirit-bike-70r-2025-owners-manual                 OM  70r-2025   bike      (Rev 12.23.25)
-spirit-bike-70r-2025-service-manual                SM  70r-2025   bike      (MR490-SB018-03)
-spirit-bike-70r-2021-owners-manual                 OM  70r-2021   bike      (Dyaco "MED" 7.0R rehabilitation bike, Rev. 1.2.1 2021/10/14, CE MDD, 90 pages)
-spirit-bike-70u-2025-owners-manual                 OM  70u-2025   bike      (Rev 12.09.2025)
-spirit-bike-70u-2025-service-manual                SM  70u-2025   bike      (MU470-SB018)
-spirit-bike-80u-2025-owners-manual                 OM  80u-2025   bike      (Rev 12.03.25)
-spirit-bike-80u-2025-service-manual                SM  80u-2025   bike      (MU2000-SB036-01)
-spirit-bike-85r-2025-owners-manual                 OM  85r-2025   bike      (Rev 12.15.25; filed under Treadmills)
-spirit-bike-85r-2025-service-manual                SM  85r-2025   bike      (MR2000-SB036-01)
-spirit-bike-85ue-2025-service-manual               SM  85ue-2025  bike      (MZ2000-SB036-01; the 8.5UE owner's manual is carded: cards/85ue-2025/)
-spirit-stepper-70s-2025-service-manual             SM  70s-2025   climber   (RS9500-SS021-02; owner's manual carded: cards/70s-2025/)
-spirit-stepper-75s-2025-service-manual             SM  75s-2025   climber   (RS9600-SS021-03; 97% the RS9600-SS021-01 book carded on 2026-09-11 as 7-5s-med - extend those cards where the page is unchanged)
-spirit-treadmill-40t-2025-owners-manual            OM  40t-2025   treadmill (Rev 02.04.25, (c)2024, warranty eff. Oct 31 2024; 90% the 2026 book carded as 40t-2026)
-spirit-treadmill-40t-2025-owners-manual-may-2025-printing   OM  40t-2025  treadmill (Rev 05.19.25; 99.9% the February printing - one document, cite both)
-spirit-treadmill-40t-2026-service-manual-st8700a   SM  40t-2026   treadmill (ST8700A-ST026-01; 88% the ST8700-ST017 book carded as 40t-2026 - extend where unchanged, new cards where the A revision differs)
-spirit-treadmill-70t-2025-owners-manual            OM  70t-2025   treadmill (Rev 01.10.25, (c)2024, warranty eff. Oct 23 2024; 91% the 2026 book carded as 70t-2026)
-spirit-treadmill-70t-2026-service-manual           SM  70t-2026   treadmill (the DYACO MT8000 book re-exported with 770885 on the cover; its 23 cards already list 70t-2026 - add only what this export prints differently)
-spirit-treadmill-80t-2026-service-manual           SM  80t-2026   treadmill (MT2000-ST022/027-01; owner's manual carded: cards/80t-2026/)
-spirit-treadmill-ct850-2013-owners-manual          OM  ct850-2013 treadmill (a scanned 2013 book, ALL OCR, stamp CT850_20131015, warranty eff. Nov 1 2013; NEW machine; the CT850-2016/2018 owner's-manual cards exist)
-spirit-treadmill-xt485-2013-owners-manual          OM  xt485-2013 treadmill (485812, SPT0033, 2014 PDF; NEW machine; the XT485-2015 cards exist)
-spirit-strength-css-delt-owners-manual-2026        OM  css-delt   strength  (2026 revision, 87% the carded 2025 book; its text layer is a SHIFTED FONT - read the OCR supplements only)
-spirit-strength-csd-cpsp-owners-manual-2025-update OM  csd-cpsp   strength  (May 2025 update, 53% the carded 2024 book)
+xterra-treadmill-tr150-2021-owners-manual        OM  tr150-2021    24 pp, Rev 04.13.2021, eff. Mar 13 2021, 2021 batch
+xterra-treadmill-tr200-2021-owners-manual        OM  tr200-2021    24 pp, Rev 04.13.2021, eff. Mar 13 2021, 2021 batch
+xterra-treadmill-tr300-2021-owners-manual        OM  tr300-2021    26 pp, ©2021, eff. Mar 13 2021, 2021 batch
+xterra-treadmill-tr66-2021-owners-manual         OM  tr66-2021     32 pp, ©2021, eff. Mar 13 2021, 2021 batch; the book calls the machine "TR6.6"
+xterra-treadmill-trx1000-2021-owners-manual      OM  trx1000-2021  20 pp, Rev 3.0, eff. Mar 13 2021, 2021 batch
+xterra-treadmill-tr260-2022-owners-manual        OM  tr260-2022    28 pp, Rev 4.0, ©2022, eff. Aug 24 2022
+xterra-treadmill-trx1400-2023-owners-manual      OM  trx1400-2023  44 pp, Rev 05.09.23, eff. Mar 8 2023; file named TR1400, the book says TRX1400 / T3-NT053-01
+xterra-treadmill-tr65-2023-owners-manual         OM  tr65-2023     48 pp, Rev 09.28.23, cover prints SKU 165873
+xterra-treadmill-ws200-2023-owners-manual        OM  ws200-2023    39 pp, Rev 10.09.23, cover prints SKU 120082; a folding walking treadmill
+xterra-treadmill-ws300-2023-owners-manual        OM  ws300-2023    39 pp, Rev 10.09.23, cover prints SKU 130082; a folding walking treadmill
+xterra-treadmill-tr95h-2024-owners-manual        OM  tr95h-2024    54 pp, Rev 01.19.24, ©2023, eff. Jan 3 2024, cover prints SKU 195813
+xterra-treadmill-trx5500-2024-owners-manual      OM  trx5500-2024  44 pp, ©2024, eff. Mar 20 2024, cover prints SKU 155810 and code GT90D-NT041-01
+xterra-treadmill-tr64-2024-owners-manual         OM  tr64-2024     28 pp, ©2024, eff. Jun 7 2024, 2024 batch; the book calls the machine "TR6.4"
+xterra-treadmill-tr75-2024-owners-manual         OM  tr75-2024     48 pp, Rev 06.07.24, cover prints SKU 175873, 2024 batch
+xterra-treadmill-tr85-2024-owners-manual         OM  tr85-2024     48 pp, Rev 06.07.24, cover prints SKU 185873, 2024 batch
+xterra-treadmill-trx2500-2024-owners-manual      OM  trx2500-2024  24 pp, ©2024, eff. Jun 7 2024, 2024 batch
+xterra-treadmill-trx3500-2024-owners-manual      OM  trx3500-2024  28 pp, ©2024, eff. Jun 7 2024, 2024 batch
+xterra-treadmill-trx4500-2024-owners-manual      OM  trx4500-2024  28 pp, ©2024, eff. Jun 7 2024, 2024 batch
+xterra-treadmill-tr75h-2025-owners-manual        OM  tr75h-2025    52 pp, Rev 08.19.25, eff. May 29 2025, cover prints SKU 175825; JKEXER 330
+
+xterra-treadmill-tr150-2021-service-manual             SM  tr150-2021               50 pp, Dyaco GT65-NT014 (2019 PDF); same E0/E1/E2 codes as the OM
+xterra-treadmill-tr260-2022-service-manual             SM  tr260-2022               64 pp, Dyaco GT75A-NT050 (2022)
+xterra-treadmill-trx1400-2023-service-manual           SM  trx1400-2023             89 pp, Dyaco T3-NT053-01 (2023)
+xterra-treadmill-trx2500-2024-service-manual           SM  trx2500-2024             86 pp, Dyaco GT90B-NT022 (2018 PDF; the only TRX2500 SKU, 125817, dates from 2017 - one machine)
+xterra-treadmill-trx3500-trx4500-2024-service-manual   SM  trx3500-2024 trx4500-2024  94 pp, Dyaco GT90C-NT023 (TRX3500) + GT90D-NT024 (TRX4500) in one book; a page that names only one code is evidence for that machine only
+xterra-treadmill-trx5500-2024-service-manual           SM  trx5500-2024             85 pp, Dyaco GT90D-NT041 (2021 PDF)
+xterra-treadmill-tr95h-2024-service-manual             SM  tr95h-2024               17 pp, JKEXER 337, Sept 2024 - assembly sequence, precautions, a short parts/wiring set
+xterra-treadmill-tr75h-2025-service-manual             SM  tr75h-2025               17 pp, V1.0 Jan 2026 - same shape as the TR95H book
+
+xterra-treadmill-ws200-ws300-upright-wire-video        video  ws200-2023 ws300-2023  86 s, described frame by frame; corroboration only (authority 2)
+xterra-treadmill-tr95h-2024-belt-tracking-video        video  tr95h-2024             42 s, described frame by frame; corroboration only (authority 2)
+xterra-treadmill-tr150-2021-mcb-wiring-photo           photo  tr150-2021             annotated MCB photo; label text is verbatim (authority 2)
 ```
 
-A source is evidence **only** for the model id(s) on its line. The 2025 medical
-books (4.0R/4.0U/7.0R/7.0U/8.0U/8.5R) are the machines' **first cards ever** —
-expect most of your work here to be new cards; their service manuals share the
-Dyaco template with the bikes carded on 2026-09-11 (`cards/cu1000ent-2023/`,
-`cards/shared/*/spirit-cu800-*`, `spirit-cr900-*`), so search on the fact, and
-write a bike card that links to the twin rather than extending across lines
-where the product line differs. The 40t-2025 / 70t-2025 books are the
-**previous model year** of the 2026 machines: where the 2026 owner's-manual
-card states the same fact, extend it with the 2025 id; where the 2025 book
-differs (warranty date, a figure), that is its own card.
+Three book families, which matters for "same fact, many machines":
 
-The Dyaco PT / MED books (40r-pt, 40u-pt, 70r-2021) are patient-therapy
-editions: CE MDD class, Type B applied parts, contraindications, therapist
-instructions. Card them under `safety` (medical warnings), `console`, `programs`
-(therapy programs), `specs` and `warranty` as the sections rule; keep the
-Dyaco wording, say the book is the Dyaco edition, and never merge a PT figure
-into a 2025 Spirit card without the page saying the same.
+- **2021 batch** (TR150, TR200, TR300, TR6.6, TRX1000) and **2024 batch** (TR6.4,
+  TR75, TR85, TRX2500/3500/4500): the older XTERRA layout, "Congratulations On
+  Your New Treadmill", Q&A-style troubleshooting, warranty on the last pages.
+- **New layout** (TRX1400, TR65, TR75, TR75H, TR85, TR95H, WS200, WS300,
+  TRX5500): "Online Support" cover, Product Labels page, Pack List, Console Screen
+  Overview, Exploded View Diagram, FCC Warning.
+- **Dyaco SMs**: Outlines, Electronic Parts, Electrical Configuration, Product
+  Operation, Block Diagrams, Wiring and PCB, Safety, Error Messages (E0/E1/E2/E4/ER…
+  per code), Folding, General Maintenance, Disassembly. Most pages are pictures:
+  read the **OCR supplements**. **JKEXER SMs** (TR75H, TR95H) are 17 pages of
+  assembly sequence, precautions and a few checks.
 
 Ids: `<model-id>-<section>-<slug>` for one machine; for several,
-`spirit-<family>-<section>-<slug>` (e.g. `spirit-med-bike-safety-…`). Files:
-`cards/<model-id>/<section>/…` or `cards/shared/<section>/<full id>.md`.
+`xterra-<family>-<section>-<slug>` where family is `tr`, `trx`, `ws`, or
+`treadmill` when it spans families (e.g. `xterra-treadmill-safety-user-weight-limit-300-lb`,
+`xterra-trx-errors-e1-no-rpm-signal`). Files: `cards/<model-id>/<section>/…` or
+`cards/shared/<section>/<full id>.md`.
 
-The book's page numbers and the PDF page numbers usually agree; cite as
-`p. 43 (printed 42)` when they differ. Every locator must give the PDF page
-**and** the `text.md` line range.
+The book's page numbers and the PDF page numbers usually differ by one or two in
+the new-layout books (a cover and a blank page); cite as `p. 21 (printed 20)`.
+Every locator must give the PDF page **and** the `text.md` line range.
 
 ## How to read a source (the rtk hook will bite you otherwise)
 
@@ -96,56 +120,44 @@ or reformats their output**. Do not read sources with them. Use:
 - Never bare `diff`. Use `git diff --no-index` or python `difflib`.
 
 Read every source that has content for your section **in full** before you write.
-That is the rule and there is no shortcut.
+That is the rule and there is no shortcut. Nineteen owner's manuals is a lot of
+reading; read the 2021-batch books and the new-layout books once each *carefully*,
+then check the siblings page by page for the figure that differs.
 
 `text.md` holds three kinds of text: the native layer, `=== OCR SUPPLEMENT, PDF PAGE n ===`
 blocks (what a 300 dpi render shows that the text layer does not — tables, callouts,
-diagram labels), and possibly **ghost text** the OEM left in the file that is not
-printed on the page (metric figures in a US book, a stale schedule, a foreign-language
-block). Where a figure matters and looks off, look at the page:
-`pdftoppm -r 150 -png -f N -l N "<pdf>" $S/<section>/pg` then `Read` the PNG. The PDF
+diagram labels, the whole of most SM pages), and possibly **ghost text** the OEM left in
+the file that is not printed on the page (a foreign-language block, metric figures in a
+US book, a stale schedule). Where a figure matters and looks off, look at the page:
+`pdftoppm -r 150 -png -f N -l N "<pdf>" $S/x1/<section>/pg` then `Read` the PNG. The PDF
 path is in the header comment of each `text.md` and in `sources/manifest.yaml`.
 
 ## Before you write: search, then sort every fact into one of four outcomes
 
-The knowledge base is keyed to the **fact**, not the document. 6,421 cards exist;
-every one of these machines already has owner's-manual cards, and the 2025 medical bikes have none yet. Search **on the thing itself**
-(`E3`, `speed sensor`, `torque boost`, `lower controller`), never on the model id.
+8,049 cards exist. Search **on the thing itself** (`E1`, `speed sensor`, `GFCI`,
+`silicone`, `safety key`), never on the model id.
 
 ```bash
 rtk proxy grep -rn '^title:' cards/ --include='*.md' | grep -i '<distinctive word>'
 rtk proxy grep -rli '<the code or component>' cards/
-rtk proxy grep -rl '<model-id>' cards/ | xargs grep -l '^  section: <your-section>$'
 ```
 
 Then each fact is one of:
 
-1. **No card holds it** → write a new card.
-2. **A Spirit card holds the same fact** (same figure, same steps) → **extend it**:
-   add the machine(s) to `applies_to` (sorted), set `model: '*'`, add this source
-   to `source.locator` (keep `source.ref` as it is; enumerate the extra sources in
-   the locator), and add a body sentence if the wording of this book adds
-   anything. Never change its `id`. You may only edit an existing card whose
-   `section` facet is **your** section.
-3. **A Sole card holds the same fact** (much of this is Dyaco boilerplate already
-   filed for Sole F/TT machines) → write a **Spirit** card, link with `see_also`
-   (same figures) or `not_to_be_confused_with` (figures differ), and list the Sole
-   card in your report as a cross-brand twin. **Never add a brand to a card.**
+1. **No card holds it** → write a new Xterra card.
+2. **A Spirit or Sole card holds the same fact** (the Dyaco boilerplate) → write the
+   **Xterra** card anyway, link with `see_also` (same figures) or
+   `not_to_be_confused_with` (figures differ), and list the twin in your report.
+   **Never add a brand to a card. Never edit a Spirit or Sole card.**
+3. **An Xterra card from your own run holds it** → extend it: add the machine(s)
+   to `applies_to` (sorted), `model: '*'`, add the book to `source.locator`.
 4. **A card holds a fact that only looks the same** (different figure, order, part
    number, rating) → its own card, linked with `see_also`; put the difference in
    the first line of both bodies.
 
-**Existing cards can be wrong, not just incomplete.** Owner's-manual cards were
-written without these books. Verify every machine already listed on a card you
-extend; if the service manual for a listed machine prints a different figure,
-that is a finding: write it in the report and put it in the card body in words.
-Owner's-manual **absence** cards ("no parts list", "no specification table", "no
-LED-debugging card exists for any Spirit machine") are scoped to the owner's
-manual — if the service manual supplies the thing, write the card, and edit the
-absence card **only if it is your section**, otherwise report it.
-
 **A differing revision date is a locator line; a differing value is a new card.**
-Do not make four near-identical cards out of one table printed under four dates.
+Do not make nineteen near-identical cards out of one table printed under
+nineteen effective dates.
 
 ## Card rules (overrides to kb-extract.md)
 
@@ -154,51 +166,52 @@ Do not make four near-identical cards out of one table printed under four dates.
 - **Run no writing git command.** `git status`, `git diff`, `git ls-files`,
   `git show` are fine. `git add`, `commit`, `checkout`, `switch`, `stash`,
   `restore`, `clean`, `rm` are forbidden.
-- **Never edit `kb.yaml`, `sources/`, `reference/`, or a card outside your section.**
+- **Never edit `kb.yaml`, `sources/`, `reference/`, a product card, or a card
+  outside your section.**
 - **Filenames.** A one-machine card lives at
   `cards/<model-id>/<section>/<id-with-the-model-prefix-stripped>.md`. A
   multi-machine card lives at `cards/shared/<section>/<FULL id>.md` — **keep the
   prefix**; `cards/shared/<section>/` is one flat namespace and stripping the
   prefix has overwritten Sole cards before. Before writing any path, check it is
-  not in `git ls-files cards/` unless you are deliberately extending that card.
-  After every generation run: `rtk proxy git status --porcelain cards/ | grep -v '^??'`
-  — every ` M` line must be a card you meant to extend; anything else is a bug in
-  your run. Recover with `git show HEAD:<path> > <path>`.
+  not in `git ls-files cards/`. After every generation run:
+  `rtk proxy git status --porcelain cards/ | grep -v '^??'` — every line is a bug
+  in your run (nothing pre-existing may change in this wave). Recover with
+  `git show HEAD:<path> > <path>`.
 - **Never delete a directory you do not exclusively own.** Regenerate by deleting
   only `cards/<model-id>/<your-section>/<your-file>.md` and your own named files
   in `cards/shared/<your-section>/`. Never `rm -rf cards/<model-id>` and never a
   shared section folder wholesale.
 - **`id`**: `<model-id>-<section>-<slug>` for one machine; for several,
-  `spirit-<family>-<section>-<slug>` (e.g. `spirit-med-bike-errors-eeprom-err`,
-  `spirit-40t-console-engineering-mode`). Lowercase, hyphens. The id must agree
+  `xterra-<family>-<section>-<slug>`. Lowercase, hyphens. The id must agree
   with the `section` facet. It never changes after merge.
 - **`title`** names the fact, never a model id. `shared-lookalike` lint rejects a
-  title matching `\b[a-z]{1,2}\d{1,3}\b`, which catches `ct850`, `xt485`, `e3`
-  written as a word — write "error E3" as `E3` in caps, it passes; never put
-  `XT485` in a title. When two cards hold the same kind of fact with different
-  values, put the value in the title ("…trips its onboard 20 amp circuit").
+  title matching `\b[a-z]{1,2}\d{1,3}\b` **twice** — `tr150`, `ws200`, `e1` all
+  match, so never put a model name in a title; write "error E1" as `E1` in caps
+  and nothing else identifier-shaped. When two cards hold the same kind of fact
+  with different values, put the value in the title ("The user weight limit is 300 lb").
 - **`question`** must name the machine: the model id for a one-machine card
-  ("…on a Spirit xt485-2023 treadmill?" — the id spelled literally), or the brand
-  and family for a several-machine card ("…on a Spirit XT 2023 treadmill?").
-- **`facets`**: every key filled. `brand: [spirit]` only. `product_line`: **the value on the source's line** (bike, treadmill, climber, strength).
+  ("…on an Xterra tr150-2021 treadmill?" — the id spelled literally), or the
+  brand and family for a several-machine card ("…on an Xterra TRX treadmill?").
+- **`facets`**: every key filled. `brand: [xterra]` only. `product_line: treadmill`.
   `model`: the id, or `'*'` when `applies_to` lists two or more. `applies_to`:
-  sorted list of the real ids — never `'*'` in this wave. `section`: yours.
-  `code`: the error code for an error-code card, **lowercase** (`e1`, `40h`,
-  `eeprom-err`; the `facet-fold-collision` rule requires it), else `'*'`. **Omit `model_number` and `lookup`** — the product cards
-  carry them.
+  sorted list of the real ids — **never `'*'` in this wave**, even for a policy
+  page: list the Xterra ids that print it (a `'*'` would be served to Sole and
+  Spirit customers, and nothing filters a brand back out). `section`: yours.
+  `code`: the error code for an error-code card, **lowercase** (`e0`, `e1`, `er`),
+  else `'*'`. **Omit `model_number` and `lookup`** — the product cards carry them.
 - **`kind`**: one of `fact, procedure, troubleshooting, policy, spec, definition`.
-- **`authority`**: 3 for every source in this wave.
+- **`authority`**: 3 for a manual; 2 for the two videos and the photo.
 - **`source.ref`** is one source id; a card built from several books cites one
   representative ref and enumerates the rest in `locator`. `extracted_at: '2026-09-11'`.
 - **`see_also` / `not_to_be_confused_with`** may name only ids that exist now
   (`rtk proxy .venv/bin/kb vocab` lists them) or ids you wrote in this run. The
   `dangling-link` check covers both fields. Cross-links to cards another agent is
   writing go in your report under "intended links", not in the card.
-- **Look-alike codes**: `E3`, `E03`, `E-03H`, `E30` are four faults. One card per
-  code, neighbours in `not_to_be_confused_with`, and the first body line says
-  which this is. Spirit families in this wave do not agree with each other: the
-  the MT8000 inverter list on the 7.0T/8.0T books, the CT850-2013 owner's codes, the medical
-  bikes' own lists - read each book; the 2025 medical bikes have no cards to collide with. **Never carry a code between families.**
+- **Look-alike codes**: `E0`, `E1`, `E2`, `E4`, `ER` are separate faults; the Dyaco
+  SMs and the OM Q&A tables may explain the same code differently — one card per
+  code per family, neighbours in `not_to_be_confused_with`, first body line says
+  which this is. **Spirit and Sole carry the same code letters with different
+  meanings** — link with `not_to_be_confused_with`, never merge.
 - **Rebuild tables** as Markdown tables. Keep every number, unit, part number,
   wire colour, pin number and step order exact. Drop running headers and folios.
 - **Absence is a finding**, and it must be proved twice before it is carded: a
@@ -216,31 +229,24 @@ Do not make four near-identical cards out of one table printed under four dates.
 import sys; sys.path.insert(0, '/mnt/HDD/Projects/SpiritKnowledgeBase')
 from kb.card import Card, render_card
 c = Card(
-    id='70r-2025-errors-e2-no-tension-motor-signal', title='...', kind='troubleshooting',
+    id='xterra-trx-errors-e1-no-rpm-signal', title='...', kind='troubleshooting',
     question='...', asked_as=('...','...'), keywords=('...','...','...','...'),
-    facets={'brand': ['spirit'], 'product_line': 'bike', 'model': '70r-2025',
-            'applies_to': ['70r-2025'], 'section': 'errors', 'code': 'e2'},
+    facets={'brand': ['xterra'], 'product_line': 'treadmill', 'model': '*',
+            'applies_to': ['trx2500-2024','trx3500-2024'], 'section': 'errors', 'code': 'e1'},
     authority=3, not_to_be_confused_with=(), see_also=(),
-    source_ref='spirit-bike-70r-2025-service-manual',
-    source_locator='8.2 Error Message: E2, PDF p. 31; text.md lines 602-631',
+    source_ref='xterra-treadmill-trx2500-2024-service-manual',
+    source_locator='8.2 Error Message: E1, PDF p. 34; text.md lines 602-631; also trx3500-trx4500 SM p. 40',
     source_extracted_at='2026-09-11', body='...', path='')
 open(path, 'w').write(render_card(c))
 ```
 
-Run it with `rtk proxy .venv/bin/python $S/<section>/gen.py`. Make the generator
-**refuse** any target path that is in `git ls-files cards/` unless that id is in
-your explicit "extend" list.
-
-To extend an existing card, edit the file in place (the `Edit` tool is fine):
-`applies_to` gains the ids, `model` becomes `'*'`, `source.locator` gains the new
-book's page and lines, and the body gains a sentence only if this book adds one.
-Do not move the file, even if it now covers several machines — other cards link
-to it by relative path.
+Run it with `rtk proxy .venv/bin/python $S/x1/<section>/gen.py`. Make the generator
+**refuse** any target path that is in `git ls-files cards/`.
 
 ## Check yourself
 
 `rtk proxy .venv/bin/kb lint` is read-only and safe any time. Fix every problem in
-a card you wrote or edited; leave the rest. Then check your relative links resolve:
+a card you wrote; leave the rest. Then check your relative links resolve:
 
 ```bash
 rtk proxy git status --porcelain -uall cards/ | awk '{print $2}' | while read f; do
@@ -250,17 +256,18 @@ rtk proxy git status --porcelain -uall cards/ | awk '{print $2}' | while read f;
 
 And that no title you wrote is already in use:
 `rtk proxy grep -rh '^title:' cards/ --include='*.md' | sort | uniq -d`.
+A title already used by a Spirit or Sole card **is** a collision — reword yours
+(say "Xterra" nowhere in the title; change the phrasing instead).
 
 ## Report
 
-Write `$S/reports-med/<section>.md` (create `$S/reports-med/` if needed), **at most 60
-lines**, with these headings: Cards written (count, and the list of ids);
-Cards extended (id → ids added, and the source page); Existing cards found wrong
-(id, what the book says instead); Cross-brand twins (Spirit id ↔ Sole id);
-Intended links to other sections' cards; Boundary calls (facts you left to a
-neighbouring section, and which); Absences proved; Contradictions and damaged
-text; Brief defects (anything in this brief or your section brief that was
-wrong — every wave so far the brief has been wrong somewhere).
+Write `$S/reports-x1/<section>.md`, **at most 60 lines**, with these headings:
+Cards written (count, and the list of ids); Cross-brand twins (Xterra id ↔ Spirit
+or Sole id, and whether the figure matches); Intended links to other sections'
+cards; Boundary calls (facts you left to a neighbouring section, and which);
+Absences proved; Contradictions and damaged text; Brief defects (anything in this
+brief or your section brief that was wrong — every wave so far the brief has been
+wrong somewhere).
 
 Your final message to the orchestrator is **at most 25 lines**: counts, the
 report path, and anything that needs a human decision. Do not paste cards.

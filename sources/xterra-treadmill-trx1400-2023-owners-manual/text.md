@@ -1619,24 +1619,24 @@ www.instagram.com/XterraFitness
 
 
 === OCR SUPPLEMENT, PDF PAGE 19 ===
-<!-- render-vs-extraction: 29 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-SL
+<!-- render-vs-extraction: 29 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+CONSOLE SCREEN - OVERVIEW
 
-uojing
-WeIZ0ld
-JBP|OH
-suo}}ng suo}}ng AJOSSIDIV
+LCD Window
 
-paads yoaI1q DUI|DU| JIG
+DIRECT INCLINE DIRECT SPEED
+PROGRAMS PROGRAMS
+SPEED DINCLINE MSPEED — CUINCLINE
 
-ANIONIC] © Ga3dS im ANTONI] «= a3adsm
-SWVYSOud SWVuSOUd
-G34adS 15341 INNDNI L3G
+De ee
 
-MOPUIM G91
+Direct Incline Direct Speed
+Accessory Buttons Buttons
+Holder
+Program
+Button
 
-M&dlAd3AO - NS38OS FTIOSNOD
-
+18
 
 === OCR SUPPLEMENT, PDF PAGE 25 ===
 <!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

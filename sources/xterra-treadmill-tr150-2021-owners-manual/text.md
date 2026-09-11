@@ -817,15 +817,16 @@ Grounding Pin Grounded Outlet Box
 
 
 === OCR SUPPLEMENT, PDF PAGE 8 ===
-<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-(od 1) (od)
+<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+TRI50 ASSEMBLY PACK CHECKLIST
 
-Key Neyes “Or# JUBDLQN’] “GOLF
-(sodg) Jayse\, PPAIND = (sodz 1) yJog JeYD0S peay UoYyNg (sodg)Jaysen ye/4
-1G’ l x €COD x BO “88# uic/bL * OL/G “L8# W/LUG | x 8LO x SO “6L#
+i \ il \\ Nil
 
-LSIDIDAHSD HWOIVd ATAWASSV OSIYL
+#79. O8 x O18 x 1.5m/m #87. 5/16" x 1/2" #88. O8 x O23 x 1.5T
+Flat Washer(6pcs) Button Head Socket Bolt (12pcs) Curved Washer (6pcs)
+#105. Lubricant #40. Safety Key
 
+(1pc) (1pc)
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
 <!-- render-vs-extraction: 8 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

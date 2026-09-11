@@ -1302,7 +1302,7 @@ exercise program.
 
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
-<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-Jenue| SJ8UMQ 7QHL ‘pardasay sIUBly Iv yeOZO WOO SSSUUEISTX WAM
+<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3000 Nestle Road Jonesboro, AR 72401 - Phone:870-336-4286 - Fax:870-935-7611
 
-LLOZ-GE6-0Z8:X84 - 9Ber-9EEOZ8:8U0"Ud - LOVeZ HV ‘O4OqsauoP peoy 8)AS8N QOOE
+www.xterrafitness.com ©2024 All Rights Reserved. TR6.4 Owner's Manual

@@ -1787,35 +1787,40 @@ www.instagram.com/XterraFitness
 
 
 === OCR SUPPLEMENT, PDF PAGE 19 ===
-<!-- render-vs-extraction: 36 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-SL
+<!-- render-vs-extraction: 36 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+CONSOLE SCREEN - OVERVIEW
 
-suo}3ng suojjng
-peeds pailq DUIJIU] PIJIG
-Aay|
-uoj}4Nng Ayaes
-WelZ01d
+LCD Window
 
-J2P|OH
-AJOSS9DNV
+Fl TNE S &
 
-ANITONI
+24 PROGRAMS
 
-74: im is
-SS ST
-214 - o10avO
+Pecan mendes Pr
 
-14 - HIONSLS
+HILL - Pid
 
-i SLIANITSNOAjHOoO dx
+FATBURN ~P9 XPLORE/YOUR LIMITS =
+== 7 mind
 
-SS AN 1 ia \4
-aS
+‘STRENGTH ~ P17
 
-MOPUIM GD]
+CARDIO - P12
 
-M&dlAd3AO - NS38OS FTIOSNOD
+BSS] = ==
 
+INCLINE
+
+Program
+Safety Button
+Key
+Direct Incline Direct Speed
+Buttons Buttons
+
+Accessory
+Holder
+
+18
 
 === OCR SUPPLEMENT, PDF PAGE 22 ===
 <!-- render-vs-extraction: 5 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2064,51 +2069,51 @@ SWVdD0dUd LAS3Aud
 
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
-<!-- render-vs-extraction: 113 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-isz gel €/z¢
+<!-- render-vs-extraction: 113 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PRESET PROGRAMS
 
-SNIMONI
-= cana ete Stet Te = mara te sane]
+TIME
+PH 1/2 |3 |4 |5 |6 |7 |8 |9 |10 ] 44 (42) 13 | 414 | 15 | 16 | 17 | 18 | 19 | 20
+Pi | SPEEDO | 1.2/1.8/18|25/3.1|18/25/)3.4/3.1 18/25/3.1/25/25|25/12)18/18 3.14/18
+p2 | SPEED |1.2/25/25|31|3.7|25/3.7)3.7|/37 25/31/3.7/25/25/25/12/12/31 25/12
+P3 | SPEED | 1.2/2.5| 2.6|37|3.7|25/43/43/43/)25/43/)43/25/25/25/12/25/3.1/18/12
+pP4 | SPEED | 1.8/3.1) 3.1/37/43/43/3.1/43/43/)50/50/3.1/56/31/3.1/3.7/37]/25/25/18
+P5 | SPEED | 1.2/25/| 25|31|3.7|43/)43/)3.1/37 > 43/50/)50/31/25)18/18/3.7)31/25/12
+P6 | SPEED | 1.2/25/25|25|31/37|/50/)50/37 43/50/50/37/25/25/12/31/25/18/12
+P7 | SPEED | 1.2/18/18|18/25|/31/18/)25/31 18/25/3.1/18/18/)18/3.7/3.7/31 18/18
+Ps | SPEED 1.2/1.8) 1.8/)3.7/)4.3/)43/25/),37/)43 25/37/)43/)25'>25/)25/)12)18/25 25/12
+Po | SPEEO | 1.2/25/25|43/43/25/43/)50/25 50/56/56/25/25/25/31/32.7/18/18/12
+P10 | SPEED | 1.2|25/3.1/37/43/31/25/3.7/50/)50/37/3.7/31/25|25/12/25|/25 18/18
+bs SPEED | 12/3.1/50/62/43/43/62/62/43/)43]/62/62/31/31/56/56/31/31 25/18
+weune| 4/5/3/2/6]/6/2/)/2/2/)/2/2)4/]/5)/6]/3]/2/)5]/5)/) 2] 0
+p12 SPEED | 18/25/56/56/3.1/56/3.1/5.0/3.1/56/43/31/31/43/56/56/31/43 >37|18
+INCLINE}; 1/2/;3/]/2/]3/5!]5/]o0]0,2]/3)5/7;)3/3/]5/)6/]5 31]3
+p13 SPEED | 18|3.7/43/3.1/56/56/43/3.1/3.1/43/56/23.1/50/31/56/3.1/56/56 25/18
+incune| 3|/3/5/]/6/5/3/3/7/5/)/3]/2/)0/]/0/)/5/5/3]}2/]/3/)2)]1
+a SPEED | 12|1.2/25/3.1/3.7/31/25/)18/12/)06/12/18/)25/3.1/3.7/3.1/25|18/12|06
+iwcuinE| 4 | 4/4/4/3/3/6/)/6/6 >7/7/)8/8/9/9/6/6/5 > 4/4
+pis SPEED | 12/25) 37/50/3.7/37/25/)25/12>12/12/)25/37|/50/37/37/25|25 (12/12
+iwctinE| 3 | 3/3/4/4/5/5/)5/4/)4/4/)4/5/)/5/3/3/3/]2/2/2
+P16 SPEED 12/25) 25/25/3.1/3.7|50/)50/3.7 /43/)50/)50/3.7/)25)25/12/)341/25/)18/12
+incuine| 5 | 5/5 |6/6/6/4/4/6/>6/5/)/5/686/)/8]}9/]/9|}9/7/4/1
+S17 SPEED | 12| 1.2) 3.7/37|)50/62/3.7/3.7/12)12)12)12)37/37|50/62)37/37 12/12
+INCLINE; 4/5 /5/5 /6/6/]6/]7 {8 > 9|a9@)9/10/10/ 10/10/10} 8 6 | 3
+pts SPEED |12/18/25/31/12/18/25/)31/18/)12/12/18/)25/31/)12/18/)25/31/>18/12
+iweuine| 4 | 4/4/4/3/3/6/)/6/6 > 7/7/8/8/\/9/9/6/6]/5 > 3/2
+pio SPEED | 12|25/3.7/12/25/3.7/12)25/3.7/)12]12/25/37/12|25/3.7|/12]25/)37|12
+INCLINE | 3 5 5 5 4 4 4 3 3 3 3 4 4 4 3 3 3 4 3 2
+p20 SPEED |06/18/25/31/3.7/31/25/)18/12)/06/06/18/25/31/37/31)25|18/)12/06
+incune| 3 | 3/3/4/4/5/5/)5/4/)4/4/)4/5)5/3/3/3/]2/2/2
+_ SPEED | 12/3.1/50/62/43/43/62/62/43/)43/62/62/31/31/56/56/31/31 25/18
+INCLINE} 1 | 7}/2]/2/2/3/3/)/3]/2,>2/1/)2/2/)%4/14/3/)3/]2,/>2/2
+SPEED |12/25/25/31/3.7/25/3.7/37/37 >25/31/3.7/25|/25|/25|/12/12/31/25|/12
+Pazcune|1|2|2|2l2l|s3{3l2|2|2|2)2|sai3l3l|4l|4{32]|2
+SPEED | 12/25/25/37/3.7/25/43/)43/43)25/43/)43/)25/25|)25/12)25]341 18/12
+Pas/cune|2|}3|3|2]/2|3\1313|/212l|2\|2|}4lalalelels 2/2
+po4 SPEED | 18/31/31/37/43/43/31/43/43/)50/50/31/56/31/31/37|/37|25 25|18
+INCLINE} 2} 3/3 ]2/]2/3/3/)3])2/)/2/2/)2/4/)4/4/6/6/]3 )2/2
 
-| + | S3NMONI
-
-ra cana ars Sstestee cars ac ao car mare a Qa33dS
-SNIMONI
-Ze #t) 90 fei] ee Z2e€/ be 90) G3adS
-
-4 on cars cans cage = = Le = caEaEE Ear o33dS
-SNITIDNI
-
-> eri ve a Tee wc ator > 7 > eta stetel Ste Qaa¢ds
-rs | + | BNnonr
-
-. eet S44 m = L = + o33dS
-
-. oS OS  OS|/2E|/bE|GZ| SZ Q33dS
-
-SNITONI
-
-Sees teenie taite
-
-Mslelslelelslslelele
-[me
-Z cal er 9s aa33dS
-art casas]
-
-oo se a ce rerer. ee os Old
-itez ea] ‘et etter] stfzetee] srfaeteny 4
-
-fet feccre [ce delerferer[relsefer[re|oz|ex[re|seter fer fer]
-rev[er sel refer [se[ee|ce[os osler|ceos[os| ce] re[se[se[se[er] exams [aa
-jz |sz velzeler|er|sz|reloslosler|ze|veler|ey|ee| ve|sz|sz|z1| aaaus | sa
-jer [sz isz[relrelvelrelos|velosloslerler|velevler|zelvelveler| aaaas| va |
-
-fze|ozirelzelze|sz|sz
-ve | el
-6L
-
-SWVdD0dUd LAS3Aud
-
+27
 
 === OCR SUPPLEMENT, PDF PAGE 30 ===
 <!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

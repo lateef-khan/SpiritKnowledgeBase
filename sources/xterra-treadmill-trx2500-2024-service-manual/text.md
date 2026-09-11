@@ -1590,30 +1590,32 @@ smopulM Aejdsig
 
 
 === OCR SUPPLEMENT, PDF PAGE 17 ===
-<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 91
+<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Function Button Locations
 
-Koy
+Incline Speed
+Shortcut keys Ng Shortcut keys
+Speaker Ais y A XTeErrA y
 
-Key dois’g UeIS
+INCLINE TRX2S500 SPEED
+10
 
-wes6O1g
+Speaker
 
-(-) NMOd
-(+) dn
-OUI|OU]
+5
 
-SAD DINO
+QUICK KEYS
 
-re) || or
+Incline
+UP (+)
 
-a33dsS oosexXaL ANITONI
+Program
+key
 
-= . Shay INDUOYS sttT- Six shey ynoWoYysS Jayeads
-peeds SUI|OU|
+Start &Stop
+key
 
-SUuo!]}e907] UO}INg UO!}OUN
-
+16 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 20 ===
 <!-- render-vs-extraction: 6 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1623,33 +1625,30 @@ swelsbeig YIO/g WU) [[lupeaLL 'S
 
 
 === OCR SUPPLEMENT, PDF PAGE 21 ===
-<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 0z
+<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Treadmill Configuration
 
-YOSNAS
-Wad
+| —= cee
+RECEIVER
+COOLING DISPLAY BOARD
+SAFETY KEY
 
-HOLLINS
-UWAMOd
+HR SPEAKER
+HANDLEBAR LR
+AMPLIFIER
+LINE IN
 
-| >
-ES — auvod wAAd ANAWUNS
-ANMIONI
+==>
+INCLINE
+CURRENT DRIVER BOARD MOTOR
+BRAKER
+| POWER
+Ea eR: | SWITCH | |
 
-NEANID
+RPM
+SENSOR
 
-WAIANIdINY
-
-wi WVETIGNVE
-WANVAdS dH
-AGN ALAAVS
-—» we
-duvod AV 1dStd PNF1IOOD
-UIA OA
-YH SSA TAUIM |
-
-uoleANHYUOD |jlwpess
-
+20 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 22 ===
 <!-- render-vs-extraction: 7 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1667,55 +1666,47 @@ SUOI}]}B907] JUBUOdWIOD dd pieog Aejdsig 1°9
 
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
-<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 6z
+<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PCB Board Bottom
 
-pin
+Sr Poneto fF aoe eee 4
 
-Or 2 OORaee @eekeaevaeen
+Britto
 
-1S Tt
-ces. A
+= =
+ee » [ats
+ae. vate
+~pey en = - rr
+=j= i= i=} (=) |=) |?
 
-woyog pieog god
-
+23 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 26 ===
-<!-- render-vs-extraction: 46 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP aI1AIaG 4
+<!-- render-vs-extraction: 46 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6.3 Driver Board Wire Connections
 
-QUI] Wa}SAs Uleyy =
-. a °G3uy
+Rectification.
+MOTOR.
 
-- “dn
-“A “ANITONI
+; (RED WIRE).
+230VAC IN. M+ -
+a 7 he ‘ Wet elt = ee | (BLACK WIRE).
+INCLINE:
 
-5
--—
+COM- ~ ~
+WHITE- a Ee
 
-ins
+INCLINE. = - My TORQUE. es
+DOWN. [eau Relaye a4 sisi
+BLACK. - Speed. } = *
 
-"YOSNAS G0s3ad$
+1 Relay. 2, _f- . Suge ee
+INCLINE. ra). ey SPEEDD SENSOR.
+RED. , wa
 
-“Aelay
+Main system line.
 
-speeds > "MOV1d
-7 Be noe -euyjou| ie “ANINONI
-"SMA ANITONI Be stag
-8-2 fel “ALIHM
-_ See "WOO
-~—s
-: | a ‘ANTTONI
-°(SYMIM MOVTE) | Base me A a 7’, = 5. Cine
-"YOLOW a | ae 8 ee an
-* +A *NI OVAOET
-“(SYIM Gay) °
-“YOLOW
-
-PUOHEOIPJOSY
-
-SUO]IDOUUND DIA PALO JSALG €°9
-
+25 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 27 ===
 <!-- render-vs-extraction: 14 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2531,36 +2522,22 @@ pue buljquiassesig ‘[]
 
 
 === OCR SUPPLEMENT, PDF PAGE 71 ===
-<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS OL
+<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+11-1 Lower Controller Replacement
 
-lai
+Remove motor cover
+Disconnect all lower controller wirings
+Use Phillips head Screwdriver to remove, replace with new lower controller and reconnect all wirings.
 
-—————
-
-a
-
-“SBULIM || JOBUUODSI PUL J9]]O1JUOD JOMO] MOU YIM 9de|ddJ ‘BAOWA O} JBALPMIJOS Peay Sdij|lyd 9sN
-SHULIM J9[]04]UOD JOMO| [|e JOOUUODSIG
-J8A09 JOJOW SAOWSY
-
-JU9WaDe|daY J9{]O1]UOD JOMOT [-LL
-
+70 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 83 ===
-<!-- render-vs-extraction: 23 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS z8
+<!-- render-vs-extraction: 23 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+11-9 Incline Motor Replacement
 
-fP
-aa
-L-
+1. First adjust treadmill to folded position, then proceed with old incline motor replacement.
 
-e.
-
-"JUDWIOP|d9J JOJOW SUI|OU! PJO YIM P88d0Jd UBY} ‘UOIISOd Papo} O} ||lwUpes.] Snipe IsuI4 “4
-
-JUBWIDDL|day JOJO GuI|OU] 6-11
-
+82 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 85 ===
 <!-- render-vs-extraction: 8 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

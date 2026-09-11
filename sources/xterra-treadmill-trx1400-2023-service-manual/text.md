@@ -1603,20 +1603,21 @@ Vodsalx
 
 
 === OCR SUPPLEMENT, PDF PAGE 4 ===
-<!-- render-vs-extraction: 33 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG b
+<!-- render-vs-extraction: 33 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+12.2 Console Replacement
 
-JUNWIDe|dayY 10}OW] QUI[DU] 8"ZL
+12.3 Motor Replacement
 
-yuawadR|day uolUsNy » eg /y9eq HBuluuny Z'z1
-jUsWadR| day Ja]OY Je9Y /JUOI4 OZ).
-jUBWIaDe|daYy YOMS 19MOd OV S*ZI
-yuswadR|day sayeOI1g P'ZL
+12.4 Breaker Replacement
 
-yUsWade|day JOJOW €'Z1
+12.5 AC Power Switch Replacement
 
-yusWadR|day ajOSuoy ZZ}
+12.6 Front/ Rear Roller Replacement
 
+12.7 Running Deck/ Belt & Cushion Replacement
+12.8 Incline Motor Replacement
+
+4 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 5 ===
 <!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1666,30 +1667,30 @@ E =
 
 
 === OCR SUPPLEMENT, PDF PAGE 7 ===
-<!-- render-vs-extraction: 9 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG L
+<!-- render-vs-extraction: 9 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Console Assembly ~ Speed/Hand
 
-x9|dwoy asind
-PueH/Sul|ou|
+Pulse Complex
 
-x9|dwoy asind
+Sa
 
-pueH/peeds ;
+Incline/Hand
+Pulse Complex
 
+7 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 8 ===
-<!-- render-vs-extraction: 11 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG 8
+<!-- render-vs-extraction: 11 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+vm)
 
-pleog
-J9||O4JUOD JOJO/\|
+Drive Motor
 
-JOO) SUI}OU]
+Motor Controller
+Board
 
-JOJO) SAUG
+Incline Motor
 
-ct
-
+8 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 10 ===
 <!-- render-vs-extraction: 10 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1707,13 +1708,12 @@ $19]|01]U04 1addp
 
 
 === OCR SUPPLEMENT, PDF PAGE 11 ===
-<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG a
+<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+2.2. Lower Controller and Driver
 
-BOY 49]]01]U05D JOMO7
+Ne Lower Controller Area _/
 
-ADALIG PUB JB][O1}UOD ABMO’'T “2°?
-
+I Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 16 ===
 <!-- render-vs-extraction: 7 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1745,34 +1745,34 @@ sweibeig YIO/g Hup [flwpeatL EL "Ss
 
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
-<!-- render-vs-extraction: 34 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jonuvyy 291A4a¢ zz
+<!-- render-vs-extraction: 34 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Treadmill Configuration
 
-HOLIMS
-WaAMOd
+KEY =» WIRELESS HR
+RECEIVER
+COOLING DISPLAY BOARD
+SAFETY KEY
 
-Las a =)
+HR | SPEAKER
+HANDLEBAR LR
 
-(= waNVvua
-YOLOW — Cuvod w4Alda eee
-ANTIONI
+AMPLIFIER
+LINE IN
+BULETOOTH
 
-wae ——
+=) MOTOR
+INCLINE
+CURRENT DRIVER BOARD MOTOR
+BRAKER
+K VR SET
 
-} uoousrna |
-= NIANIT
-MAINTAIN
+POWER Fi 7
+BOWER ==> SWITCH
 
-wd UVAATONVH
-UANVAdS 4H
+RPM
+SENSOR
 
-Aa ALS = =
-aGuvod AV 1dSid ONFIOOD
-UWIAIAU
-WH SSA TAUIM me ie
-
-uoleInHyUoy |jlwpess |
-
+22 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 26 ===
 <!-- render-vs-extraction: 5 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1801,12 +1801,11 @@ receiver
 
 
 === OCR SUPPLEMENT, PDF PAGE 27 ===
-<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG SZ
+<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6.2 Display Board PCB Component Locations
+PCB Board Top
 
-do] pieog god
-SUOI}E907] JUBUOdWIOD g4dd pieog Aejdsig 79
-
+25 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
 <!-- render-vs-extraction: 14 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1861,29 +1860,17 @@ connected
 
 
 === OCR SUPPLEMENT, PDF PAGE 30 ===
-<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jOnUuDPY AI1ALIG 8Z
+<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6.4 Driver Board PCB Component Locations
 
+ber =
 =
 
-ms
+a
+fb TEST t
+ie
 
-BAS J. Mss ee
-p39. Te]
-
-= ,° 2... @ Oo Rat
-ta - = 4 ; ee Ng ee :
-37) a ee
-3) ne
-
-i a a
-
-1$31
-“1H
-;
-
-suoi}eo0'7 jusuOodw04y Od pieog J9ALGg 79
-
+28 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 31 ===
 <!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

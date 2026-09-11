@@ -986,12 +986,11 @@ BOWER ==> SWITCH
 
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
-<!-- render-vs-extraction: 11 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JOnUDPW 4I1AsaG SZ
+<!-- render-vs-extraction: 11 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6.2 Display Board PCB Component Locations
+PCB Board Top
 
-do] pieog god
-SuOI}e907] JUBUOdWIOD g4dd pieog Aejdsig z'9
-
+25 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 25 ===
 <!-- render-vs-extraction: 8 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

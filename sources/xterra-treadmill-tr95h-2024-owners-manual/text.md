@@ -2160,59 +2160,47 @@ a a :
 
 
 === OCR SUPPLEMENT, PDF PAGE 11 ===
-<!-- render-vs-extraction: 66 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-OL
+<!-- render-vs-extraction: 66 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PARTS INCLUDED
 
-, | WWOLXPameig ET VY WW GG X SIN 10d CL
+No Description Qty No Description Qty
 
-| gjqeD JaMmod MA 9 WLU OG X SW HO LL
-Z JOAUG M80S LZ Z WW GP X SIV 10g OL
-| WW OGXO9NI0OlL | OZ L JOAOD Ye 8
+1 Main Frame 1 13 Bolt M8 x 15 mm 8
 
-L WW GE XGNIOOL | 6) L Jeqs|pueH Ye] Z
+2 Front Post 1 || 14 M8 Nylon Nut 10
 
-‘A 9}eld SL L Jeqa|pueH }YyBIry 9
-Z jeoeds L\ | 18S \seq G
-9 uc b X wE/G MBIDG OL L xog a6eJo}s 174
+3 Computer Set 1 15 | M8Washerx24 24
 
-yZ| vex Jeusen gS GI | 8S Jayndwoy ¢
+4 Storage Box 1 |/16 Screw 5/32"x 1/2" | 8
+5 Desk Set 1 || 17 Spacer 2
+6 Right Handlebar 1 || 18 Plate 2
 
-OL INN UOIAN BIN vl L }SOq JUOJY C
+7 Left Handlebar 1 19 | Tool M5x 35mm 1
 
-Q | wwsgLxegnilog ¢L L ewes Ule/\| L
+8 Back Cover 1 20 | Tool M6 x50 mm 1
+10 BoltM8x 45mm 2 #21 Screw Driver 2
+11 Bolt M8 x 50 mm 6 || 22 Power Cable 1
 
-No uoljdiiosaq ON AID uoldi9saq ON
+12 Bolt M8 x 55 mm 4 | 23 Screw@4x10mm_ 1
 
-GAGNTONISLYUVd
-
+10
 
 === OCR SUPPLEMENT, PDF PAGE 20 ===
-<!-- render-vs-extraction: 41 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-6L
+<!-- render-vs-extraction: 41 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+CONSOLE SCREEN - OVERVIEW
 
-suojing suo}Ng aul |u|
-paeds SPOW spow uo}4Ng
-Bujuuny Buqui[ uMopjooD
+LCD Window
 
-oo e
+Direct Incline . HR Training
+Buttons Programs
 
-SESSE5=7= =SSS= =SESSS==
-3 = : —— =
-= * ==-= ==
-ES a
-. i ad mg } — ("3
-- “fh ther 60 «Se
-r “Ss igi
-SWeIZOId EHH oc eeu be suo}ng
+on
 
-sululesd] YH
+Cooldown — Climbing Running
+Button Mode Mode Speed
+Incline Buttons Buttons
 
-wee} ee ~ \4
-
-BUIJOU] PBIG
-MOPUIM GD]
-MaIAYAAO - NA538DS FTOSNOD
-
+19
 
 === OCR SUPPLEMENT, PDF PAGE 25 ===
 <!-- render-vs-extraction: 7 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

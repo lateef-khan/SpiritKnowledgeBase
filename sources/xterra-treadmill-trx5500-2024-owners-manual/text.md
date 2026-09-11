@@ -2046,251 +2046,211 @@ cE
 
 
 === OCR SUPPLEMENT, PDF PAGE 36 ===
-<!-- render-vs-extraction: 110 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-ry]
-=
-NIRPNIN NINN RPNNININIRERINYN >
-NJ) =) =) =), = SS eS lle
-yim} ofa} a) 4) 4) 4] 4) 6) 6) 6/6) 6) 6) 6) FS) OlN al ufalwln{alo) © SPN, Aa B/W) Ni ale
-=|/O/0O;/N/ OA) Ul a) WIN] OPN A] UU) wl) nN) = 3
-tom
-i)
-=
-eaala sogsa oe Ss Yesgoaqqe Pes FF PS PVZF FS Ca Zz F/s/9
-S/S|</S/o/Ol<)/Ss\/ a) al S/SPEl s/s) sislale2/S/ sl slZlSl=e Sis)/ zl sis} e ei ia si] Sia
-oO wa s/s/2lol ala Al/e/P2/ S/S) /G/ ae) F/3/5/ 5) a) ol a| Ss al Ble/alels| s| 3/5/44
-3/3 ~ o|<|] 9 =x|o;/o|/o0]o =) =| = = = | 0 © iw)
-Ol >| 5) 0/9] = >| OO} wm] 0) =| =) =/ =| 0 m/ S| 5 BD Pla|n =—(/o}] c| ® au
-S/S 2) 3/3), 3/2) 0/2) 2) Ee] 0 a|o|o|o|s)/2/8/8\S| ZF) 2 sl =\=&) =| 2) oO) S/S) wo a3] 8
-313i alr irialslolZlelalasl =i slolalslSlal= Ol a\= S)5} ula} Ss) al 2 w
-Fla) 9/9) 2/A) FPS] Tt) S/S) 5) €/ 2] 2/4) 7/8] 2) 2] Ss] 9 2) 2) e|e)/2/S/s] 2/4) 2] 3
-=. 1A io =.
-Pl 2 BiB SCS SS) jzye s/s a$|F /s|si7 | 8] | 3/8 3) )F/a| || 8
-= — = ev) —_e
-a\2|~|e)/ a) Ss) |2) =e) 3] | 2 AlalayelZya) fs 9 S ° 9
-o|ol|a o|0 al wn|o <|Y2|o > + s
-T/D a|/a| o> Dials oalatl<|/2lale Cc
-f£/C} /s|sl/sd Slele =13} 8) 6|~ a
-wl) =| =] + gy) = =| <
-OommO) ala a| 2| o ~_
-=\|= wo) o = a
-a af = ot
-oO] oO | oO >
-ele oy
-comme) oO
-rome}
-OommO)
-a| >
-Q
-Con
-<<
-zo}
-—} of ao} =| a] al a] of} a] a} ot} mol} a) a} a] a} of a} a} o) o} a] of} a) Bo} 6] Uf} A} a] LU} 6) L] L] 2] 8
-c
+<!-- render-vs-extraction: 110 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PARTS LIST
 
+PartNumber | Part Description Qty per unit
+1 Main Frame 1
+2 Frame Base 1
+3 Incline Bracket 1
+4 Right Upright 1
+5 Left Upright 1
+6 Console Support 1
+7 Outer Slide 1
+8 Inner Slide 1
+9 Handrail Support 1
+10 Incline Motor 1
+11 Drive Belt 1
+12 Motor Bracket 1
+13 Drive Motor 1
+14 Running Belt 1
+15 Running Deck 1
+16 Front Roller W/Pulley 1
+17 Rear Roller 1
+18 Deck Cross Brace 2
+21 Console Assembly 1
+21-01 Console Top Cover 1
+21-02 Console Outer Cover 1
+21-03 Console Inner Cover 1
+21-05 Square Magnet Stop Plate 2
+21-06 Drink Bottle Holder 2
+21-07 Wind Duct 1
+21-08 USB charging module 1
+21-12 Safety Switch Module W/ Cable 1
+21-13 Console Display Board 1
+21-14 Key Board (L) 1
+21-15 Speaker Grill Anchor 6
+21-16 250m/m_Speaker W/Cable 1
+21-17 500m/m_Speaker W/Cable 1
+21-19 Key Board (R) 1
+21-20 1000m/m_Handpulse Wire (Upper) 1
+21-21 1000m/m_Handpulse Wire (Upper) 1
+
+TRX5500 Treadmill 34
 
 === OCR SUPPLEMENT, PDF PAGE 37 ===
-<!-- render-vs-extraction: 179 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-w 9
-=
-NINININI NI NIN) NN) PINT N) NN] &
-wmflulol ol) ol) |p) ele) Be BB) Bl Ww) wl wl) Ww) wl wl win) NIN INI NIN) SB) eS) ee) a) a S/S) 3/2
-BPW NSO), O OPN A) MW) Bl WO) O/ OPN UN) AO) OO), OIN| AD MW) wWlwlwl wl wl wl wl ni Mini nin] &
-Nala) BIN) =) Oo], a) a) al w) ny] 3
-+ io”
-©
-=
-=—-| = =) Ww] Ww) DTM] WwW] VMN nym | am) a4 a z/n mm; BB] Mm] w] zw] mom Wl Wl Wl hy] Mm) |
-S/R SlSl Sf Si Sle SpsssS FSS SCT AP ZS SAlS SS sis si sy SSpaalzsieys
-SISi2/S S/S es 2/2 S/S] S/SISIS/ SS) Slals| Si @sSrelsl2is/slsia}e Ns c|5
-2/9S)/o/3)/3/3/a)/ Six} a) 2/2) o QT olSP eS SlGlEl/ So lal sl 2) 3/2) Sey] *%| xX) si xfs
-3/;3/;/5=) 5) 5), 3/8 sla@la|/2/P/P®)/ 3 aol/ol/@) al @o/Syei sistas Sl al Sis] e@lanrci ala an;a|\o
-SS) 5) O)3)3)/3)/alna)/ 4 4 O|plwmiS/s}/o}8)/ >) >) F/ 3/3) S51 3/5/35) 2/8) ol] n)/ Sl) 3/3/q/2
-3/3/00 re) aA1o/4) Mol s]a]3 3/5 xr o) S 5 3/3/35 ir
-rir yt Sl | 2s s/o ele +16 a|a| 2} 2} | ali 3/2|° 3/5/9/8
-IlSlOlOlOAl S| Slal 282i ae] al sg] ala! vis 5s/5|/3/53 O| =} pm] =z S/3/S/5 2/9
-MO! Q| Pl olojlo */E10/4 @ > | =. a/al;rt] tia Oo} =/2)/ a) S5/=/2)/3/3/,/0 als
-olo!|o|/s/s35/5 ae) OVO! = ola wlwmlo Ss Oo =| oD} oO rity 3
-3/3)/=/3/3/5 V|/PFIlolo/sec S/= vl Vialalse an| >| Oo, aolo|lnin|2|> —
-®2|a|a/|a a|e|2=!<si|<s]3 cl cle] sia O/S/< = >| 2] a °
-TIGTITlalala J A} @)@O);= =| 0 anlar] Oo] oO] s o| 2] o %)/FP)a|a/ 2] o =]
-cic fo ll ton ton < a>;\ yx] st] 5 zs; a o;}ojal|oa es et Alg|oloal] tla
-a | a S/s/5 SClsSlrF] Ss o|¢c Ayo Gy 2) a ao\/alrt|a|s
-m | a) 2)C} 5 a|= ‘atne) =| 5 =
-1D =S\|s\s ~ m 3/3 c = Pl +] OD) Oo] &] ot
-—/ =| = jo) O > Silprldgi ait
-o|& mail| aim ro! TY a a) 4 V/V! TD
-—)| = Oo} O/] oO al Pane mn
-o| oO ~ Q|e a >laluwni ni aia
-—| = alale Po x = | O;S|AlAalals
-Cc WD) 2s og TIO] RI R ia)
-=|5 Aalal= = oD Ke) O}a|\/alz|s
-a/3| |Z|e\s a) .
-oO) = a
-— Mm
-Q
-or
-<
-xe)
-c
+<!-- render-vs-extraction: 179 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Part Number Part Description Qty per unit
 
+21-22 Sound Board 1
+21-23 2.3 x 6m/m_Sheet Metal Screw 12
+21-24 3 x 10m/m_Sheet Metal Screw 19
+21-25/74 3.5 x 12m/m_Sheet Metal Screw 51
+21-26 3.5 x 50m/m_Sheet Metal Screw 4
+21-30 @22.2_Console Bracket Anchor 4
+21-31 @32_Console Bracket Anchor 2
+21-32 Fan Assembly 1
+21-34 Receiver, HR 1
+21-35 300m/m_Receiver Connecting Cable 1
+21-36 Speaker Grill Anchor 2
+21-37 400m/m_Console Ground Wire 1
+23 End Cap 4
+25 Motor Top Cover 1
+26 Adjustment Base (L) 1
+27 Adjustment Base (R) 1
+28 Speed/Hand Pulse Complex 1
+29 Incline/Hand Pulse Complex 1
+30 Breaker 1
+31 AC Electronic Module 1
+32 Transportation Wheel 4
+35 Cushion 6
+37 1435m/m_Aluminum Foot Rail 2
+38 Frame Base Cover (L) 1
+39 Frame Base Cover (R) 1
+40 Motor Cover Anchor(D) 5
+43 Square End Cap 2
+44 Square Safety Key 1
+45 Power Socket 1
+46 3/8" x 7T_Nut 3
+47 Sensor Rack 1
+48 Power Cord 1
+49 300m/m_Connecting Wire (White) 1
+50 300m/m_Connecting Wire (Black) 1
+51 100m/m_Connecting Wire (Black) 1
+52 Motor Controller 1
+53 1200m/m_Computer Cable (Upper) 1
+54 1250m/m_Computer Cable (Middle) 1
+
+35 TRX5500 Treadmill
 
 === OCR SUPPLEMENT, PDF PAGE 38 ===
-<!-- render-vs-extraction: 161 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-wo
-N} a! I] nm
+<!-- render-vs-extraction: 161 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Part Number Part Description Qty per unit
 
-SP NM? Mm] CO) NMI]_NM] Gl LA] MY] CO] SB] RPO NY) NY] HMI RP REN) mM, BP RPM mM) Am] BL RPM] APM] AH] a
+55 1200m/m_Computer Cable (Lower) 1
+56 1000m/m_Sensor W/Cable 1
+58 1/2" x 1"_Hex Head Bolt 2
+59 3/8" x UNC16 x 3-1/4"_Hex Head Bolt 1
+60 @5/16" x 19 x 1.5T_Curved Washer 2
+61 3/8" x 1-1/2"_Hex Head Bolt 1
+62 3/8" x 3/4"_Hex Head Bolt 4
+63 M8 x 60m/m_Hex Head Bolt 1
+64 M8 x P1.25 x 12m/m_Hex Head Bolt 2
+65 5/16" x 2-3/4"_Button Head Socket Bolt 2
+66 3/8" x UNC16 x 1-3/4"_Hex Head Bolt 1
+67 5/16" x 1-1/2"_Flat Head Socket Bolt 4
+68 M10 x 25m/m_Socket Head Cap Bolt 2
+69 M8 x 80m/m_Socket Head Cap Bolt 2
+70 M8 x 25m/m_Flat Head Countersink Bolt 4
+71 Motor Bottom Cover 1
+72 5/16" x 1/2"_Button Head Socket Bolt 2
+73 5 x 16m/m_Tapping Screw 5
+75 1/2" x 8T_Nylon Nut 2
+76 3/8" x 7T_Nylon Nut 2
+77 5/16" x 7T_Nylon Nut 5
+78 M8 x 7T_Nylon Nut 1
+79 @10 x 2.0T_Split Washer 4
+80 @8 x 1.5T_Split Washer 8
+81 ®5 x 1.5T_Split Washer 5
+82 @3/8" x O19 x 1.5T_Flat Washer 6
+83 ©3/8" x @25 x 2.0T_Flat Washer 4
+84/100 @5/16" x @18 x 1.5T_Flat Washer 13
+85 Nylon Washer (B) 2
+86 Nylon Washer (A) 2
+87 O25 x @20 x @16 x @5 x 4.5H x 1.1T_Concave Washer 8
+88 M5_Star Washer 5
+89 O5 x 32m/m_Tapping Screw 2
+90 13m/m_Wrench 1
+91 4 x 12m/m_Sheet Metal Screw 12
+92 Belt Guide 2
+93 @5 x 16m/m_Tapping Screw 38
+94 O10 x @25 x 0.8T_Nylon Washer 2
 
-f°.) o
-w/o] ©] ©! wo! |] -/] 0) w/o) 2] mw] awolalolwiniNiN NIN NIN Nl alalalalalalalalalalulululu|2
-BPWIN) 3) S/O, @)/N/ AU) SPWIN)/ 3) Oo) 0 @)/N/ A) UM Win) a) Oo) oO) ON alu) a) WN) s/o) 0) wo alae
-S z
-©
-Q\s/ 2] Sl =| a) ZR) ZZ alslalals)/alzielef/s|4}elel/zfslefelel els zfe/e}s/e|/sls/si}a
-=| m2) x) YP a anyris|<| a] w/w 0] =| &] S| oN] x] Sl] &] | S| S| S] S| &) |] Sl al 4) aly] S/S} 2
-Six) FI SP3ixii | eVs+olol/s x| x] ce a} =| =| Llal es SO) al =1a =| = =| = +
-x a > wn} x| 5] 5 02} 92 x |X} lx | x =| 0) X) Xx =| x | “=| X| X| x] x x} x} Sls
-=|¢/S/ 3/4) ¢ aly] 5) PI] “Sx Dix] =] nm] oe] X| x x ron OY 3/;3/9
-QQ) al) =] 3 N22) Q|\s X| Xl influ) 8} 4 ~| Plu} do] ny Cc =| do] wW| = Cc; =} S| S|]
-NS) 3/2) 5 |'<] 3 Niaola| Xl ala) alaloll| Ni] ios] <=) els wl} sl N 3| 5/4] x =| 3/ >] a
-wl} oe} 3) s/s S) a) a S| Shoal Al Zio) S)S) FS) 81a] S) S13) 5) 4) of &) 2) 8) Ss] 2] 4] x) F273
-x12) [ef SF) 8) </2) 2) ely) Leis) ol SlZ/ Ef S]alo] 8) 2/2) S/N) a) 8) x] ZF) zl) x al gi eles
-ola'| |@|S)a}2|=/S)al x} N} a) F] F)S/3)5)8)8/8) 2) a) 2 e) Go) a] X|'o/ S| Z| &) FZ) =] x) z/ BB) oe
-Tie} ol lo] t] ale] 2] |; =| S/ 2/2) 5 G|atlo|]a2| 2 a>ilvrle!|3 Olul wl] o|]o;|s|] 3s
-oS as ao) x in} S) Al a} a) S| 4/2/5/o}</ S/S) 8/8) a) 8] Ss) Xx) a] 2) 4) 2) 8) 2) s
-zZz/ = = = Slr tr ef} ala} st} EP Sys 3/O/L\)a|x <| ¢ Xiao} rit}; rz eo a
-<|Z) |z| |2| |8 C22) Zz E/T) 7)S) 2] 7) 8) 2/8) e| 8/8) 2) 8/8) 8) oO) 8) ge) S| 8
-S a x S)2/2) 8) 8) a a|o a| zz © || r/aiola/Sjijye a
-Shy] (2) fol |x| | jefe] 8|8/2 )8) |2)3] z/8}'s|z| Fe) S/S) 2/2) =| 8/8
-=| 5 o| 13a ES =|=|= z/e! |e] 2) 8] 4) 2) 8) 4/8) 4/8/38) a| =
-x wn =
-2/2) }@) |*) |= a) S| S 8} [sll ol ZlZ]e/8/7| || s/z e
-> = Slala a +lolala|@|o|] 2 ao | © O
-o) x ~ io} Tloalala nl] @
-= e;*| > 2 a} @| ° om anos =
-_ * a 210] pl @ a| 2 D o
-o A] TT) S| FF] Ol ol se oO
-| = ow F710 +
-5 o =
-> fom al
-io)
-fa’)
-<
-ay)
-=
-wn
->
-i)
-=
-Q
-ot
-<
-a]
-—_— —_— @
-
+TRX5500 Treadmill 36
 
 === OCR SUPPLEMENT, PDF PAGE 39 ===
-<!-- render-vs-extraction: 121 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-o
-~
-AAA ululululanulan [a/b al aLWININ| NIN) =ls=/=/ 3/4) 2) o/s; ol|Sslo s/ol/o 8 Si Sis gic
-Nj]/ Ow) OI NI A) UW WIN |] Ww) ||) Oo) Oo] ON A) oo BB) WN) |) oO) oO) OPN) A) | BW N 3
-ion
-i)
-=
->) TIAL MAL CI ol w/ all alm A&A wm) =| =| a w| om nm i a)
-eS eS SSS) Si<felis) Sis} x| S| §) S/F Si slsloy S/S) Fl) a] a) F|F/S)E| S| F/Sl el a|s/L/ 2
-SS) Bs) B) S| A) *lo) 2 |S) Bl aly} e)x|S) x} o/s} S/S} e| x} S]}al2)s}a)e)Sl}|y}a) al alx|s)4
-2/3) 5/2) S5/q/8 3/6 1/5) 4| PS) ahs) x} Si x] 3/3) S) sl =| S) se) sl] Sle] Sl 8 Flxlala|al2|9
-elo/=>|y/=|S S|] /3/4)/ 213) sc 1 Sslala =] =) Oo] a] als 5 3/2?)/2 o| 2|o
-m/Z/2)-(2/S)F) [72/8 lj s| al 35/3) 2/0) 2) S/F) 7/8) Se] 2) 2/8) 8) 2/8/38) 4) 28/8) 8/2) 18
-< |\Olo@m o| =: In, DIZ S] PF lS] Ss) 2] Ss) Bellu) Al el sl slayalstiala >1S/8/ Al Als =,
-P7\5| jale SR 16) [Sie |FISF aS Sse zle/slF Sis] jsfaeiejel2] |s
-n fa) @ =: > oy =| © <|< </| oO ~ a < ts
-olz x m|X |O U| B)S)/ Big} S/o; s/t] ao] 3/4/45) 5] a/6 ®|2\o|a/a} 2 °
-3) a > =| 2 1% ais =| 2) =) Sl aloa|2z G)@) 5) O;/@)5)| 9 S oi)
-oO o| = ol/|clo|sa o!lo =o elo fet ITirlye x
-| Oo a a & = Sl\a/2zlaelalz/a 7|o0|a/2|o
-at Ss m I) o| o| a|// 2) oa 2 @ o/o|
-= oO at =I rtlo!|=|la = 7/4 ted) =
-a m| O WI! A) S| Bl ola O1aQ)] > ox
-Ta) @m Om; 2 — Alo|w|D i n =
-a Nn ef) YP Aele R Zia} oO} Yiol/o& im)
-= Oo fon omen o|s < a fe)
-o a como) o 0) o|2 c
-= a n n| oO ao) =| = =
-ral a|al|l®? = = S 3
-= x S| x|2|2 es) - at
-= =| x v,
-w om 5
-o 2 ~
-+
-Q
-ot
-<
-x)
-i=
+<!-- render-vs-extraction: 121 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Part Number Part Description Qty per unit
 
+95 Cylinder 1
+96 M8 x 50m/m_Flat Head Countersink Bolt 4
+97 Handlebar Cover (Top) 2
+98 Handlebar Cover Outer (L) 1
+99 5/16"x 3/4"_Hex Head Bolt 8
+102 M5_Allen Wrench Head Screw Wrench 1
+103 M6_L Allen Wrench 1
+104 Lubricant 1
+105 Adjustment Foot Pad 2
+106 Handlebar Cover Inner (L) 1
+107 Front Inner Handlebar Cover (L) 1
+108 Handlebar Cover Outer(R) 1
+109 Handlebar Cover Inner (R) 1
+110 Front Inner Handlebar Cover (R) 1
+111 3.5 x 16m/m_Tapping Screw 7
+112 Wire Tie Mount 5
+113 Top Motor Cover Plate 1
+114 1000m/m_Speed Cable (Upper) 1
+115 1000m/m_Incline Cable (Upper) 1
+125 5/16" x 3/4"_Button Head Socket Bolt 8
+126 M5 x 15m/m_Phillips Head Screw 6
+127 M10 x 8T_Nylon Nut 2
+128 M5 x 10m/m_Phillips Head Screw 5
+130 Wire Clamp 1
+140 4 x 25m/m_Sheet Metal Screw 2
+141 Foot Rail Back Plate 2
+143 Chest Strap 1
+151 400m/m_Audio Cable 1
+152 Controller Back Plate 1
+153 3 x 8m/m_Sheet Metal Screw 6
+155 Link 1
+156 Link Shaft 1
+157 Shaft Bushing 2
+158 Fastening Bracket 2
+159 Clevis Pin 1
+160 Fastening Bushing 1
+161 Dual Torsion-Spring 1
+162 Release Lever 1
+
+37 TRX5500 Treadmill
 
 === OCR SUPPLEMENT, PDF PAGE 40 ===
-<!-- render-vs-extraction: 82 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-o
-o
-—_ | = =)2]/2] 7,237) 3) 37) 37) 327) 232) 2327) 3) 3) 232/)2/23/=3)| 2
-© | 6 SIINEIN NU NDE NEE NED NEN A ATA ALA A Oe
-COIN OPOPN PA) WW) WIN) A OO) S/N) A) Biwi Ss
-(om
-@o
-=
-A)o} =/ 8) 8) Zz) =z) 4) Zz] =z) 4) 9) 9)2
-B/G) BA A) Bw) aS) awe) N) =| 8
-3) Siu) x] xX) x) x) Px] x} 2) ule) 4
-S/oOlG]/ Ql Alniulx!l rl =lal gl olY
-3/3) =) 3) 23)/ul7 Oo} 0/2] m|sa/ 0
-|} wl al} w)o lo} S$} 3] 3/2) =] 0/14
-OlolSlxixilLe| 4 2) S)/s|/o0/ oa}; s]s
-s(efalA)APzZ)S)/ Oss] ) 2 als
-O)a)sye oO; slr II o|a| =
-5/2)a/ Sait) 2)2)a/2) | 2 5/e
-rom s{| / a z|x*/ a) s|/ 4/5
-7m] cy};s)/ == Dlo
-= a| FI NISIS O13
-= +} Ss 3), ala are 2)
-0) o|o
-° =| 2 >/ x} =x 5|5
-a | & 3)a/|o
-n | |ol]o WN) =r
->| 2 wm}a;la som ike)
-om Cc a./ a
-ad el Yn 3/5
-re} al] a oO
-o| zr! x7 Oo
-o| Oo
-P|
-x=
-oO
-o
-on
-W
-(e)
-a
-ar
-0)
-or
-oO
-oO
-fon)
-0
--
-<
-3
-<c
-=]
+<!-- render-vs-extraction: 82 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Part Number | Part Description Qty per unit
 
+163 @1.8_ChenChin Torsion-Spring 1
+164 @2_Steel Cable Tension Spring 1
+165 Steel Cable 1
+166 M3 x 10m/m_Phillips Head Screw 1
+167 M5 x 20m/m_Phillips Head Screw 1
+168 5/16" x UNC18 x 42m/m_Button Head Socket Bolt 1
+169 M5 x 5T_Nylon Nut 1
+170 M3 x 2.5T_Nut 1
+171 @5 x ©10 x 1T_Flat Washer 2
+172 O5 x O13 x 1.0T_Flat Washer 1
+173 M3_Split Washer 1
+175 Cushion Spacer 4
+176 400m/m_Ground Wire 1
+177 Filter 1
+178 200m/m_Connecting Wire (White) 1
+179 200m/m_Connecting Wire (Black) 1
+186 @40 x 3T_Nylon Washer 2
+187 @1/2” x 2.0T_ Split Washer 2
+188 @10 x 1.5T_Split Washer 2
+
+TRX5500 Treadmill 38
 
 === OCR SUPPLEMENT, PDF PAGE 44 ===
-<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-Jenue|| SJaUMQ OOGGXHL ‘parvasay siybiy |ly 7ZOZO WOO'SSSUTJEISX WAM
+<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3000 Nestle Road Jonesboro, AR 72401 - Phone:870-336-4286 - Fax:870-935-7611
 
-LLOZ-GE6-0Z8:X84 - 9Ber-9EEO0Z8:8U0"Ud - LOVeZ HV ‘O4Oqsauor peoy 8)1S8N QOOE
+www.xterrafitness.com ©2024 All Rights Reserved. TRX5500 Owner’s Manual

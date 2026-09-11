@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: a978f40ddfb144b64b5302081954caed8db00e3659c55540a4add60f5649d97e
+  sha256: c738663a1da96adf30ab1e90b52e8fcef9420375a491cce7074025d5cf5c241e
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -3282,13 +3282,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR200_OM_20210413.pdf
   sha256: e3be6aaf8b8e0d800914a37628987c776356790ac8abe6e95645697518c1203a
   ingested_at: '2026-09-11'
-- id: xterra-treadmill-tr260-2022-owners-manual
-  title: Xterra TR260 treadmill owner's manual (2022)
+- id: xterra-treadmill-tr260-2023-owners-manual
+  title: Xterra TR260 treadmill owner's manual (2023)
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR260_OM_20231208.pdf
   sha256: 1dacd307af8542f0d487600e99bbec2f418d39dee3832e54d752b0d717f5deb7
   ingested_at: '2026-09-11'
-- id: xterra-treadmill-tr260-2022-service-manual
+- id: xterra-treadmill-tr260-2023-service-manual
   title: Xterra TR260 treadmill service manual (GT75A-NT050)
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR260_GT75A-NT050_Service

@@ -2105,14 +2105,8 @@ er a (BOM Part No.45)
 
 
 === OCR SUPPLEMENT, PDF PAGE 16 ===
-<!-- render-vs-extraction: 19 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-GL
-
-*{]NOHJOM ajqeAolua INOA V1e4S “Ul
-pa3snid si ajqed samod au} pue payrejze S! Ady Ajoses ayzounsayew “L
-
-AAS dalsS - AIA2WASSV
-
+<!-- render-vs-extraction: 19 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+ASSEMBLY - STEP FIVE
 
 === OCR SUPPLEMENT, PDF PAGE 21 ===
 <!-- render-vs-extraction: 52 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

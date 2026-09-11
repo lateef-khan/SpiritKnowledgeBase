@@ -1,24 +1,28 @@
-# Section brief — `assembly` (medical range + owner's-manual gaps)
+# Section brief — `assembly` (Xterra treadmill wave X1)
 
-Read `$S/briefs-med/COMMON.md` first. Your section facet is `section: assembly`.
+Read `$S/briefs-x1/COMMON.md` first. Your section facet is `section: assembly`.
 
-Yours: the owner's manuals' **assembly steps** (hardware kits, tools, step by
-step, levelling, moving, power-on as the last step, the PT/MED books' therapist
-set-up steps), and the service manuals' **part replacement / disassembly**
-procedures (console, mast, seat and slide, swivel seat and arm rests on the
-recumbents, pedals and cranks, shrouds, flywheel and belt, generator or brake,
-motor and deck on the treadmills, incline motor, step arms on the steppers).
-One card per procedure or per assembly step, fasteners and figures exact.
+Yours: the owner's manuals' **Pack List / Parts Included / hardware kit** (one
+card per book family where the kit differs — bolt sizes, Allen keys, quantities
+exact), **Assembly** step by step (one card per step or per numbered procedure
+that only makes sense together), Setting Up Your Unit, levelling, the WS200/WS300
+upright-crossbar lift and handlebar-stopper rotation, first power-on as the last
+assembly step (plug in, power switch, safety key); the service manuals' chapter
+11 **Disassembling and Assembling of Parts** (console, uprights, motor cover,
+drive motor, motor control board, incline motor, running belt and deck, rollers,
+side rails — one card per procedure, fasteners exact) and the JKEXER books'
+**Assembling sequence** (1-1 front post … etc.). The WS200/WS300 upright-wire
+video (`xterra-treadmill-ws200-ws300-upright-wire-video`, authority 2) is
+corroboration for a cable-routing card if the manual describes the step; if no
+manual does, write the card from the video alone at authority 2 and say so.
 
-Not yours: belt tension and lubrication as care → maintenance; wiring and
-connector definitions → specs; exploded views and parts lists → parts; codes →
-errors; menus → console.
+Not yours: belt tension / tracking / lubrication as care → maintenance; wiring
+and connector definitions → specs; exploded views and parts lists → parts;
+codes → errors; console keys → console; folding/unfolding/transport → maintenance
+(repo ruling: 10 of 11 such cards).
 
-The 4.0T ST8700A book is 88% the ST8700-ST017 book (`cards/40t-2026/assembly/`,
-`cards/shared/assembly/*40t*`): diff each procedure and extend where unchanged;
-the A-revision differences are new cards. The 7.0T-770885 export's cards
-already list `70t-2026` — only what it prints differently is new. The 7.5S -03
-book against the 7-5s-med cards from the -01 book: same rule. The medical
-bike SMs share the Dyaco template with `cards/cu1000ent-2023/assembly/` and
-`spirit-cr900-assembly-*` — a procedure that is word for word the same on a
-2025 medical bike and a commercial bike is one card (same product line): extend.
+Nineteen books, three layouts: the 2021/2024-batch books share one assembly
+sequence per family (TR150/TR200/TR300 are close siblings; TRX2500/3500/4500 are
+close siblings) — one card per step with `applies_to` listing the books whose
+step and hardware are the same; a book whose bolt count or size differs gets its
+own card with the figure in the title.

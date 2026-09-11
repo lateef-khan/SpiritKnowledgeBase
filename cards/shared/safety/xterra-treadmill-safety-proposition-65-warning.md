@@ -1,0 +1,101 @@
+---
+id: xterra-treadmill-safety-proposition-65-warning
+title: The Proposition 65 warning naming Toluene and Acrylamide, printed in the book
+  or on a sticker
+kind: policy
+question: What is the California Proposition 65 warning on an Xterra treadmill, and
+  where is the sticker?
+asked_as:
+- what is the prop 65 warning on my treadmill
+- does the xterra treadmill cause cancer
+- toluene and acrylamide warning
+- where is the p65 sticker
+keywords:
+- proposition 65
+- prop 65
+- california
+- toluene
+- acrylamide
+- cancer
+- reproductive harm
+- sticker
+- p65warnings
+- chemicals
+facets:
+  brand:
+  - xterra
+  product_line: treadmill
+  model: '*'
+  applies_to:
+  - tr150-2021
+  - tr200-2021
+  - tr260-2023
+  - tr300-2021
+  - tr64-2024
+  - tr65-2023
+  - tr66-2021
+  - tr75-2024
+  - tr75h-2025
+  - tr85-2024
+  - tr95h-2024
+  - trx1000-2021
+  - trx1400-2023
+  - trx2500-2024
+  - trx3500-2024
+  - trx4500-2024
+  - trx5500-2024
+  - ws200-2023
+  - ws300-2023
+  section: safety
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- xterra-treadmill-safety-product-labels-page
+- xterra-treadmill-safety-serial-number-on-the-rear-of-the-motor-cover
+- xterra-tr-safety-serial-number-on-the-frame-near-the-power-switch
+- xt-2015-safety-proposition-65-warning
+- xt-2023-safety-proposition-65-sticker
+source:
+  ref: xterra-treadmill-tr150-2021-owners-manual
+  locator: 'the WARNING on the safety page (older and 2024 TRX books) or the PROPOSITION
+    65 WARNING sticker on the Product Labels page (new layout): TR150 OM PDF p. 5
+    (lines 102-164); TR200 OM PDF p. 5 (lines 108-170); TR260 OM PDF p. 4 (lines 98-158);
+    TR300 OM PDF p. 4 (lines 88-145); TR6.4 OM PDF p. 4 (lines 81-139); TR65 OM PDF
+    p. 5 (lines 88-125); TR6.6 OM PDF p. 4 (lines 83-140); TR75 OM PDF p. 5 (lines
+    89-126); TR75H OM PDF p. 5 (lines 95-132); TR85 OM PDF p. 5 (lines 89-126); TR95H
+    OM PDF p. 5 (lines 88-125); TRX1000 OM PDF p. 4 (lines 98-158); TRX1400 OM PDF
+    p. 5 (lines 89-126); TRX2500 OM PDF p. 4 (lines 75-131); TRX3500 OM PDF p. 4 (lines
+    74-130); TRX4500 OM PDF p. 4 (lines 75-131); TRX5500 OM PDF p. 4 (lines 81-137);
+    WS200 OM PDF p. 5 (lines 91-128); WS300 OM PDF p. 5 (lines 91-128)'
+  extracted_at: '2026-09-11'
+---
+
+**Every Xterra treadmill manual carries the warning; the books differ in where.**
+
+The seven older-layout books and the four 2024 TRX books print it on the safety page, under a
+triangle:
+
+> WARNING: This product can expose you to chemicals including Toluene and Acrylamide which are known to
+> the State of California to cause cancer and birth defects or other reproductive harm. For more
+> information go to www.P65Warnings.ca.gov
+
+The eight new-layout books instead show the sticker on the Product Labels page and say where it is:
+
+> PROPOSITION 65 WARNING - This sticker will be found on the rear of the motor cover. The State of
+> California requires us to inform you that this unit was manufactured using chemicals that could
+> cause harm with improper use.
+
+The sticker itself reads `WARNING: Cancer and Reproductive Harm - www.P65Warnings.ca.gov` and names no
+chemical; only the older wording names Toluene and Acrylamide.
+
+| Books | Where | Names the chemicals |
+|---|---|---|
+| TR150, TR200, TR300, TR6.6, TRX1000, TR260, TR6.4, TRX2500, TRX3500, TRX4500, TRX5500 | text on the safety page | yes - Toluene and Acrylamide |
+| TRX1400, TR65, TR75, TR85, WS200, WS300 | sticker on the rear of the motor cover | no |
+| TR95H, TR75H | sticker on the frame near the power switch | no |
+
+The warning is a California labelling requirement about materials used in manufacture; the manuals
+give no handling instruction beyond the URL. The Spirit XT books print both forms for their own
+machines (`xt-2015-safety-proposition-65-warning`, `xt-2023-safety-proposition-65-sticker`).
+

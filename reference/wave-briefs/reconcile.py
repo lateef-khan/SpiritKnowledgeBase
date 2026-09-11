@@ -95,7 +95,8 @@ for f in sorted(touched):
     if len(ap) == 1 and parts[1] != ap[0] and parts[1] != 'shared':
         warn('folder-model', f'{f}: one-machine card for {ap[0]} not under cards/{ap[0]}/')
     # stray model_number / lookup on non-product cards
-    if 'model_number' in fa and fa.get('lookup') != 'model-numbers':
+    # one-machine cards carry model_number; a card naming several machines must not
+    if 'model_number' in fa and fa.get('lookup') != 'model-numbers' and len(ap) != 1:
         warn('stray-model-number', cid)
     # links resolve
     for l in re.findall(r'\]\(([^)]+\.md)\)', body):
@@ -109,7 +110,7 @@ for f in sorted(touched):
         warn('extracted-at', f'{cid}: {fm.get("source", {}).get("extracted_at")}')
     # question names a model or the brand
     q = fm.get('question', '')
-    if not (any(m in q for m in ap) or 'spirit' in q.lower()):
+    if not (any(m in q for m in ap) or 'spirit' in q.lower() or 'xterra' in q.lower()):
         warn('question-model', f'{cid}: {q[:70]}')
     # title with a model id token
     if re.search(r'\b[a-z]{1,2}\d{1,3}\b', fm.get('title', '')):

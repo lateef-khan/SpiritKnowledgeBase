@@ -975,44 +975,56 @@ Incline
 
 
 === OCR SUPPLEMENT, PDF PAGE 16 ===
-<!-- render-vs-extraction: 148 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-vl Hupesd] OOSexdL
+<!-- render-vs-extraction: 148 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Preset Program Profiles
 
-OE Od Nd
-Pe far fan for|or| svar sr [ez[x|ox] 2] 52 sc [s2|s|s>| oe] se] sr] sv| sv] || se| ve] x2] sel sz [ar [om
-eff onl fatofe fa Lo fe fmf Lofn fu lofo ea Lofe feof feo Lo fa
+Program Profile Detail Chart
 
-[ele |
-fofotetelelelelelafalalalaloala] sfo}e{e}slo}oleleleletele} lola
-sr |sv|se[ve[se|se[ve[se] e] ele] el] ele] e[sz|sz|ez|sc|sz]ez|sc|or]or[s+| or] or[o+| ov] + [ove]
-fe{s{efololelzts{e{rfe]s|e}olo]ole|sfe]s[e|s{elolafe}«[s]e]s lo
-[+ [se|se| + [se] sz|ss|se|se] + | + [sel sz] + [sel sz] + |se[se] + | i [se] sz] s [se] sz] + [se] sz] 4 [rvs]
+hon 1/2/3/])4/])5]6)77]8 49 | 10] 11712)13] 14] 15 | 16] 17] 184] 19 | 20] 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30
+P44 1415]25| 3 |35] 3 |}25/)/145] 1 4 41 ]15]25] 3 |35] 3 |25);15] 1 4 4415/25] 3 135] 3 |25]15] 14 4
+P-2 4116715 /15])15)/25)/25)/265]/25/25)/25)/25)/265)/25)/25)/25)/25)/25)/265)/25)25)/25)/26)265)25] 1 4 | 4 4
+P-3 1/7265/35) 5 |35/35/25/)2.6] 1 1 1125/35] 5 |35/35]25)/25] 1 1 1425/35] 5 135/35]25]25] 1 4
+P-4 113.61/35/35])35/35/35/35]25|/25)25)/25)/25/25)/25] 3 3 3 3 373 3 /15715)15/15)15715/15] 1
+P5 15/25/35) 516 § |35]25] 1 4 1125135] 5]6 6 135)25] 1 41 1125/35) 5176 5 13.5] 2 4 4
+P-& 16/35 /35/35/36/35/35)/35/45/465/45/45/45]/45/45 1351/95/35 )/35)/95/35/35)/165])16)15/)/15);16 |15)16)16
+P-7 2.5] 1 135/35] 5 6 /35)35] 1 1 4 11/35/35] 5 6 [35/35] 1 4 4 1 /35])3.57 5 6 | 36735] 1 4
+P-8 2.5) 3 3 3 1/35]/35/35] 5 5 5 3 3 3 /35/35/35/55/551/55) 3] 3 3 3 1/55)/55/55/35]/35] 3 3
+P-9 34715] 2)3 ]1 1/15/25] 3 |15] 1 1715) 2]3]1 415) 2]3 115] 1 1115/25) 3 )]1/15)25] 3 [15] 1
+P-10 35]/25]/35| 1 [25/35] 1 725/35] 1 4 ]25)/35] 1 |25)/35] 1 )25/35] 1 4 )25/35] 1725/35] 1 [25/35] 1
+P-11 351/3.5/45/45]45] 5 5 5 65 |S55/55)/55/55]5.5] 5 5 5 65 |55]/55)5.5] 5 5 65 |55/55/55] 5 5 5
+P-12 45}15]/25] 3 |36] 3 |25],15] 1 1 1415725] 3 [35] 3 [25/15] 1 a 1415/25) 3 135) 3 |25]15] 1 4
+P-13 5 125135/] 5 1251/35|25/)/25] 1 1 1125135] 5 |35]35]/25)25] 1 4 1125/35] 5 135/35)25])25] 1 4
+P-14 §5)565155|/ 5] 5 6/515 145/45/45/45/35/35/35/35] 3] 3 ] 3 3725]/25/25]25] 1 4 4 4 a 4
 
-fefe[ele(s[efefefefefefe[ele[efelfe[elefefefefe(e[efefe [elec [ne
+spd]/1.56/25/365/265] 3 |35/36] 3 [25] 1 4 1 )/15/35/45]/35/35] 3 125] 1735] 3 |16/35/25/15/36]/25)/25] 1
 
-[r[stots(+fefols|+[elr[elol[s[+felols|+[e[r[sfols[+[elo]s] [elm
+Pas inc | 3 4 5 6 3 4 5 6 5 4 3 4 5 6 3 4 5 6 3 4 3 4 5 6 3 4 5 6 5 4
 
-[+ [se[se[se[or|se]re]os] ¢ [ve] s [se] ¢ [oe[se[ov]oe]or] + [+ [+ [se] ¢ [oe[se] e [oe] se] se [51 [mse
+spd] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 373 3 3 313 3 3 3 3 3
+sia inc | 2 4 6 8 |10]10) 10] 8 6 4 2 4 6 8 |10]10] 10] 8 6 4 2 4 6 8 | 10/10] 10] 8 6 4
+spd] 3 3415/15/15 )/55/)55)56155/45)45/45/35/35/55/55)5.5],55] 3 3 3 145/45145/45/35/3.6 135/35] 3.5
+oer inc |] 3 va 7 9 1]10] 9 7 va 3 3 3 7 7 91,10] 9 717 3 373 7 ft 9)]10/] 9 7 # 3 3
+spd] 1 1135/35) 5 | 6 |35)3.6] 1 { 4 1135/35] 5 |] 6 [3.5/3.5] 14 4 4 11/35/35] 5 | 6 |36]35] 1 4
+Ps inc} 715 173/)5/)/974)27)74 416) 8410) 10] 1 27/3 /4)/5/61/7]8;9]2 ] 1 2]1 271 1/270
+spd} 1715/25/35] 11/15/25] 3 |15] 1 1715/25] 3] 1 415)25] 3 115] 1 1115/25) 3 ]1/15)25)] 3 [15] 1
+a inc] 3] 1 2/3 1/4);4/]/3]72];,1]0 41 1/273]/4]4]3]2 4% Oo]; 1 4 2;,3/;4/4 737211 0
+spd] 1/25/35) 1 725)/35|] 1 |25]35]) 1 4 |]25])/35] 1 |25)/35] 1 )25/35] 1 4 725/35/15]25/35] 1 |25)35] 1
 
-Pedi { itso [s [selse/se]se] ec] [ec] [selse]oe|selsr|sr[sr/er] s [s/s] s]s|ss]ss]s3] re |
-[+ | 1 [scl sz[se|se] s [se]sz] i [+ [+ |sz[sz[se|se] [selec] + [i [is [se] sz[sel sz] s [sel ee]s | ere |
-fe [is [erfoe]e [ve] e [oefon] [i |: [oufoe] e [ve] e [ozo]. [i [1 [or[oe[e [oe] ec [oe]or[or] ae |
-[3] 2] 2 |es[ee[ss] | | 2 [ee|ee]ss] [9 | 5] 2 |es|s/se[eo]o9] o | 2 [5 [2 [or]sr|sr] else] wa |
-| + |selse] + [se[se] + [se/se] + |: [se[se] + [vel se] + [oelse] + [i [se] se] [se]se] [se] se|se] ove |
-[+ [svfe lector] s Je |ozjor]s |e [of e[ ets] s fel clos [sv] e ez] fel clots] co
-fee [selse|ss[so]os] fe] e]e|ss[ss[os|se|seloe] e[e]e[s[s]s[selselsele[e]e [sz] ee |
-[+ | + |seloe]o |e frefor| + [+] +] + Ieee] o[s |veloe] + [+] [i [oelselo[s |oelse] s [oz] es |
-eee fo fo fo fo fon Pe efoto fa fay fav bef foo fo fo foe foe Peers | oe
-Ped se|si] se
+p20 inc | 1 3 5 7 9 1]10/] 9 7 5 3 4 3 5 71,9 1/10/9]7 5 3 4 3 5 71,9 ]10] 9 a 5 3
 
-apou
-Zz 6b] 3b] 2+] 9b] Sb] pb] eb] a OL
-Sul}
+spd] 1/15/15 /15/15/15/15/15]/25)/25/265)/25/265]25]/26] 3 3 3 3 373 3 /356/35/35/35/356/35/45]4.5
 
-WeYD jle19q aIO1g WesbOld
+= inc | 0 3 3 3 3 3 3 3 6 6 6 6 6 6 6 |10]10]10]10] 10] 10]10] 3 37,3 3 3 3 0 0
 
-SO|Old weibold }eSsald
+spd] 1725/25/25 /25/25/25/25/35/35/3.5/35/35]/3.5/3.5] 5 5 5 5 5 5 § 3 3 3 3 3 3 115)1.5
 
+— inc] 9 | 9 9 9 9 9 9 9 9g 9 9 9 9 9/9 9 9|9 9 9]9 9g 9 9/9 9 9 9g 9 9
+
+spd] 1 4/25)/25/25/25/25/25/25/35/35/35/35/35]/35/3.5] 5 5 5 § 5 5 6 |35/36/3.5/35/35/35] 3 3
+Pas inc} 10] 10}10] 10 ]10]10}] 10) 10110] 10]10)]10]10]10]10)10]10})10]10] 10) 10]10 |) 10}10] 10] 10] 10]10] 10] 10
+spd} 1.5)25)/25)25)/25)/25)/25/25)/45/45/45/45/45/45/45)/75/75)/75)/75)/75)/75)75)15)15)15)/15)15]15)15] 1
+— inc} OF 9TS<l]9XIT9T9}9ITO9T 9ST R9ITRSTXxTo9TR9TsxsT9T OTs 1a9TR9Ts |} 9991 9T9T ST 9TO
+TRX2500 Treadmill 14
 
 === OCR SUPPLEMENT, PDF PAGE 17 ===
 <!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1081,7 +1093,7 @@ before participating in any exercise program.
 
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
-<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-Jenue| SJaUMO OOGEXYL ‘Paruasay saybiy |v 72Z0cO WOOd'SSSUCUS8IX MMM
+<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3000 Nestle Road Jonesboro, AR 72401 - Phone:870-336-4286 - Fax:870-935-7611
 
-LLOZLGEG-OZ8:x84 - 98er-9EE-0Z28:8U0"d - LOVEZ HV ‘OJOqsauoP peoY a)3SaN| OOOE
+www.xterrafitness.com ©2024 All Rights Reserved. TRX2500 Owner’s Manual

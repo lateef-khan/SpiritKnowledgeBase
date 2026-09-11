@@ -1218,7 +1218,7 @@ o
 
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
-<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-Jenue|| SJaUMO OOGEXYL ‘Panuasay sauybly |v 2Z0cO WOOd'SSSUCUS8IX MMM
+<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3000 Nestle Road Jonesboro, AR 72401 - Phone:870-336-4286 - Fax:870-935-7611
 
-LLOZLGEG-OZ8:x84 - 98er-9EE-0Z28:8U0"d - LOVEZ HV ‘OJOqsauoP peoY a)3SaN| OOOE
+www.xterrafitness.com ©2024 All Rights Reserved. TRX3500 Owner’s Manual

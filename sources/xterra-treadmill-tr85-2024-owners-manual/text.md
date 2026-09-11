@@ -1708,37 +1708,38 @@ www.instagram.com/XterraFitness
 
 
 === OCR SUPPLEMENT, PDF PAGE 21 ===
-<!-- render-vs-extraction: 38 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-Od
+<!-- render-vs-extraction: 38 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+CONSOLE SCREEN - OVERVIEW
 
-suoqing
+LCD Window
 
-is)
-suojing > auljauy WDaI1q
+PROGRAMS PROGRAMS
+HY ro
 
-JapjoH peseds paiig uoung Ayaes
+xX PLORE/YOUR LIMITS
 
-AJOSS9DNV 301g
-Wwesigo
+S custom 2x
 
-WVd5SOud
-/a3LN3
+888 _—«§888
 
-ANITONI
+INCLINE
 
-8888 888 8888
+ENTER/
+PROGRAM
 
-SBRN0TV9 “FONVISIO IWLL OWL SE
+Program
 
-Maik 3 S.LININ HNOA|SHOId~xX
-noisns ape
+Button
+Safety Direct Speed Holder
 
-SWVY90Nd SWVUI0Ud
+Key Buttons
 
-MOPUIM GD]
+Accessory
 
-M&dlAd3AO - NS38OS FTIOSNOD
+Direct Incline
+Buttons
 
+20
 
 === OCR SUPPLEMENT, PDF PAGE 22 ===
 <!-- render-vs-extraction: 5 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

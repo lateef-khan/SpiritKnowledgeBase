@@ -1351,39 +1351,41 @@ uo!1};e19d09 JINPOAd LVOLN -GO6LD ‘V
 
 
 === OCR SUPPLEMENT, PDF PAGE 14 ===
-<!-- render-vs-extraction: 26 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-cl
+<!-- render-vs-extraction: 26 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+4-1 Display Windows
 
-wy OO
+Hello, Guest!
 
-mus
-rr
+Providing your age and weight will help
+calculate More accurate results
 
-ee
+Choose Program
 
-swejbojg pares
+Saved Programs
 
-wejbojg asoouD
+=,
 
-SINS3s BJesnIoe BOW |ayejna/e9
-jeu jim W5leam pue abe nod BulpiAdsg
+> |
+Se
 
-i}S8NQ ‘O}|3H
+1200 AM
 
-SMOPUI\ Aeldsiq T-r
-
+13
 
 === OCR SUPPLEMENT, PDF PAGE 18 ===
-<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-OOSSXY._L
+<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+4-4 Function Button Locations
 
-“orl
+~~ XTECCAR
+FITNESS
 
-SSS3N113 yyw
-HIIS1 xX as
+11.40.
 
-SUO!I}JEIOT] UOWNG UO!OUN P-L
+ontatelalateletens
 
+TRX5500
+
+17
 
 === OCR SUPPLEMENT, PDF PAGE 21 ===
 <!-- render-vs-extraction: 9 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1457,24 +1459,18 @@ rsa
 
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
-<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-LC
+<!-- render-vs-extraction: 22 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6-3 Driver Board LED Indicator Locations
 
-. x
+LED :
 
-S =5
-=a Oe CELE CEs
+Power directive LED.
+When treadmill power,
+LED will be blazed.
 
-Sebviccouc - A
+Up 2 mnesecages
 
-“pezelq aq |IM QJ]
-IMO ||!lWpess} UBU/\
-
-"G47 eAloe4Ip JeMOd
-- G41
-
-SUOI!}JEIO] JOJEIIPU] G34] P4lOg JVALIG €-9
-
+2/
 
 === OCR SUPPLEMENT, PDF PAGE 33 ===
 <!-- render-vs-extraction: 14 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1971,24 +1967,23 @@ Dyaco International Inc. 61
 
 
 === OCR SUPPLEMENT, PDF PAGE 63 ===
-<!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-c9 “OU |OUD|OWWUSJU] OODAG
+<!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Step 5: Enter password “20160620”.
+Step 6: Touch “CONFIRM” button to enter Device info page.
 
-© ‘ EZLé
+Please enter admin password
 
-7 WW u q A a X Z +
+20160620
 
-| » f— YY 6B jy p se
+CANCEL C ¢ .) M
 
-d O \ n A 1 J s) M b
+q Ww c r t y u | \ O p
+a S d f g h j k |
+» Z X c V b n m a
 
-TASNVO
+2123 <1]
 
-pJOMSSEd UILUpe Ja}Ua asea|d
-
-‘aged OJul BdIAaQ Ja}Ua 0} U0IING , INYIANOD,, YONOL :9 dais
-‘O7909TOZ,, Psomssed Ja}UJ :¢ dais
-
+Dyaco International Inc. 62
 
 === OCR SUPPLEMENT, PDF PAGE 64 ===
 <!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2008,30 +2003,28 @@ SYSTEM SETTINGS RESTORE FACTORY OPEN LOG
 
 
 === OCR SUPPLEMENT, PDF PAGE 65 ===
-<!-- render-vs-extraction: 62 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-19
+<!-- render-vs-extraction: 62 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Step 8: Two kinds of Calibration Procedures can be processed.
+a) Do not check “Start calibrating speed?” just touch CHECK SPEED button.
 
-Asojoe+ 18S8Y WOU eins épeeds Buneiqiyes wes “A
+= Guest => 11:02 AM
 
-% SL udu O'SL udu G"O
+DEVICE INFO CONTROLLER FREQUENCY
 
-3NITONI XV @ — aaads xvw ra a33dS NIW
+UNITS @iaai
 
-0 0 s9 it)
+WHEEL DIAMETER TORQUE VALUE & PWM START R PWM SEGMENTATION @
 
-NJ MJ MJ VJ
-@ NOILVIN3W93S WMd LuVLS WMd ¢? aNTWA andYOL @ = 4313WvIO 133HM
+60 65 0 0
 
-Tele SiINf)
+MIN SPEED Ri MAX SPEED Rd MAX INCLINE
 
-ADNINOAYA YaTIOULNOD OANI SDIAAG
+0.5 mph 12.0 mph 15 %
 
-WY ZO:LL = yong SS
-= -
+»’. Start calibrating speed? ROM Reset Facto
+. g sp ry
 
-"uoy3Ng G3A3dS NOIHD Yano} Asnf_,,gpaads Buljyeiqujeo Wes, YOY oUoQ (e
-*‘passa00jd aq ued SdINp|I0Ig UO!}JEIqI|eD JO SPUIy OM] 7g dais
-
+64
 
 === OCR SUPPLEMENT, PDF PAGE 66 ===
 <!-- render-vs-extraction: 15 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2053,33 +2046,30 @@ Speed is calibrating,please wait... — Relpot
 
 
 === OCR SUPPLEMENT, PDF PAGE 67 ===
-<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-99
+<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+b) Check “Start calibrating speed?” then touch CHECK SPEED button.
 
-Asoyoe 18894 WOU
+DEVICE INFO CONTROLLER FREQUENCY
 
-NJ
-@ NOILVIN3W93S WMd
+UNITS @iaai
 
-WY ZO:LL = ysang
+WHEEL DIAMETER TORQUE VALUE & PWM START
 
-% SL udu O'SL udu G"O
+60 65 0
 
-3NITONI XV @ — aaads xvw ra a33dS NIW
+MIN SPEED Ri MAX SPEED Rd MAX INCLINE
 
-0 s9 it)
+0.5 mph 12.0 mph 15 %
 
-LuVLS WMd ra aNTWA andYOL ra 4aLaWVId 133HM
+Start calibrating speed? HER gPEED
 
-Tele SiINf)
+11:02 AM
 
-ADNINOAYA YaTIOULNOD OANI SDIAAG
+PWM SEGMENTATION oo
 
-e
-sd
+ROM Reset Factory
 
-"uoqNg GI3dS NOIHD YyINo} vay} ,épaeds Suljesqijes yers, y94D (q
-
+66
 
 === OCR SUPPLEMENT, PDF PAGE 68 ===
 <!-- render-vs-extraction: 14 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2147,27 +2137,17 @@ Dyaco International Inc. 5
 
 
 === OCR SUPPLEMENT, PDF PAGE 84 ===
-<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-€8 "DU JOUOILOUIdJU] OODA
-| S6T |
-ct =
+<!-- render-vs-extraction: 32 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+ee
 
-—-
+9-9 Incline Motor replacement
 
-Lome
+Step 1: Take off Motor cover then folding treadmill.
 
-| aT,
+Step 2: Unplug Incline motor wires and unmount Incline motor from treadmill.
 
-|
-Fa
+Ain
 
-ar
+195
 
-o
-a
-
-"||! peas} WOIJ JOJO DUI;DU] JUNOWUN pUe SadIM JOJOW |Ul|IU| Bn|duA :7 dais
-
-*|[!WW peas} SUIP|O} UBY} JAAOD JOJO] JJO aye] :T days
-
-jyUaWade|das JOJO|A] PUIJIU] 6-6
+Dyaco International Inc. 33

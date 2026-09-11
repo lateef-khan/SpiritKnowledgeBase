@@ -793,41 +793,37 @@ FITNESS   © 2021 All Rights Reserved.
 
 
 === OCR SUPPLEMENT, PDF PAGE 8 ===
-<!-- render-vs-extraction: 77 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-(2d}) JeAUg MBS
-(2dz) PES SdiilUd F YUAN
-Ped }004 JOqqny “PLL# Udi SW UOREUIGQWOD POL#
-(od1) (044) ee an
-Kay Qares “ore JUBIUGN] “SOL# YOUSIN W/LUG}/E) “COL#
+<!-- render-vs-extraction: 77 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+TR200 ASSEMBLY PACK CHECKLIST
 
-2 )
+f ‘“ | f \
+f \ { \
+j | |
+\ | \ /
+\ } ‘ /
 
-(sodz)
-mais peay sdijiug (sodz) sayse na yds (sodz) Og eYyD0g pea} je}4
-W/WUQZ = SW ELLE 1S | * 8@ "86# aC/b-L * .OLIS “968
+\ / ‘ J
+N. ad
 
-Ny Mii
-MN HANIA Wah HG NHN
-Wy il! AU VVVAAAA
+#79. @8 x O18 x 1.5m/m #94. 5/16" x UNC18 = 1/2” #95. OB x @23 x 1.5T
+Flat Washer(4pcs) Button Head Socket Bolt (6pcs) Curved Washer (4pcs)
 
-(sodp) sayse/y parung (sodg) Jog J8y90g pea} uoyNg (sodp)saysen JE[4
-1S | x €7@ = 80 “S6# -Z/L * SLONN * .9L/S “P6# w/Wg"| x 81D x 8O “6l#
+YAY MNNNNNAAAN NANA
+HANAN AMUN MAA WW
 
->in
+#96. 5/16" « 1-1/2" #98. @8 « 1.5T #113. M5 = 20m/m
+Flat Head Socket Bolt (2pcs) Split Washer (2pcs) Phillips Head Screw
+(2pcs)
 
-f ~ f ‘,
-
-/ \ / \
-, \ | |
-| | | j
-\ } \ }
-
-‘ J
-
-\. 7 } \ - f/f
-
-LSIDIDAHS WIVd AITAWASSV OOTHL
-
+| NN }
+| nd
+| ¢
+WL
+#103. 13/15m/m_Wrench #105. Lubricant #40. Safety Key
+(2pc) ~ (1pc) (1pc)
+#104. Combination M5 Allen #114. Rubber Foot Pad
+Wrench & Phillips Head (2pc)
+Screw Driver (1pc)
 
 === OCR SUPPLEMENT, PDF PAGE 10 ===
 <!-- render-vs-extraction: 8 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -922,7 +918,9 @@ eur
 
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
-<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-IZOZ'EI FO ‘OIsAayY . \ 4
-‘Ppaasasoy sIysry IV 1Z0Z © SSANLIJ [LL] ] ] —j | >» <
-jenuepy Sj2BUMO OOTYL a
+<!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+XZ
+© 2021 All Rights Reserved
+y MT ED PF Frees :
+
+Revision: 04.13.2021

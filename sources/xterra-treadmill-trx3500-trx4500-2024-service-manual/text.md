@@ -1438,38 +1438,40 @@ swelsbeig YIO/g WU) [[lupeaLL 'S
 
 
 === OCR SUPPLEMENT, PDF PAGE 23 ===
-<!-- render-vs-extraction: 33 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS zz
+<!-- render-vs-extraction: 33 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Treadmill Configuration
 
-YOSNAS
-Wad
+| —= reed
+RECEIVER
+COMING DISPLAY BOARD
+SAFETY KEY
 
-HOLIMS
-i ou Co wAMou
+HR
+HANDLEBAR
 
-ATS UA
+AMPLIFIER
+LINE IN
+BLUETOOTH |
 
-ES — quvod waArd coi malin
-ANFIONI
+==>
 
-HLOOLAN1a
+INCLINE
 
-Ww WVAETIONVE
-WANVAS aH
+CURRENT : DRIVER BOARD MOTOR
+BRAKER
 
-NEANID
+K VR SET
 
-MAA TAI
+SPEAKER
+uk
 
-NVA
+Sa | POWER - :
+wes =a SWITCH
 
-PNPLOOD
+RPM
+SENSOR
 
-USaAIOAA
-WH SSA THUMM |
-
-uoleANHYUOD |jlwpess
-
+22 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 24 ===
 <!-- render-vs-extraction: 7 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1510,64 +1512,62 @@ JONUDP AI1A1aS oz
 
 
 === OCR SUPPLEMENT, PDF PAGE 27 ===
-<!-- render-vs-extraction: 40 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 97
+<!-- render-vs-extraction: 40 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PCB Board Bottom for GT90C-NT023 (TX3500)
 
-Sues eeeereseesreeeereoeeee%seven
+tw rie viewer TUL, O4! at WA we ole ( ee * be ee
+. ,
 
-Part Number . AO01010421
+ALAR I
 
-Description : INC -AO464A0
-ProgrammingNumber:NT023 A0464 $102
-_70623.mot
+AO4E4_VIG 20170609
 
-Speed _12KM
-SU UE
-04170623A011
+o8 (aman)
 
-TELLLLALLLLAA SA
-VebebbLab eee
+TA CEEeeeadeceeenierett
+DAPAAREDLIAEDDH
 
-Cea
+LLovedgogo/ tivo
+UU a
+WHZL | peads
+wow E7900"
+COLS P9POY EZOLNVequnnGuRuW eboig
 
-6O90210Z ON bP+O¥
+OVPSPOV: INI § Uoldyaseq
+T2POLOLOOY | 4equinny Wed
 
-4 no ho fe #
+Seb heeeeehoeseseeee te eeeeaeaeeaaeeeneennen
 
-(OOSEXL) EZOLN-O06LD 10} WONOg pieog god
-
+26 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 28 ===
-<!-- render-vs-extraction: 49 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-LZ
-JONUDP AI1A1aS
+<!-- render-vs-extraction: 49 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+PCB Board Bottom for GT90D-NT024 (TX4500)
 
-prbacs Li. caw
-vy Pils
-a)
+TF oe Wes
+SOELFICCIC HES OO CAk eRe eee ne nent? yee
+Vile, ‘ ‘
 
-‘eeveeveevrereeeeeeee
+®
 
-SZ0VEZ9OL I bo
-ST TE MU
-WHEE + powds
+mee receererety ~~ -
+Part Number A001010422
+Description » INC ~A0465A0
 
-mM 77907
-OLS S90 Pzo1N SAE Sry id
+ProgrammingNu mber. NTO24 AO4ES $107
+70622.mot
 
-OWS9PO¥- SAI: YORduzsa¢
-ZPOLOLOOY : saquunny ueg
+Speed: 12K™M
 
-eerie
-ETT
+TTT
+041706234025
 
-ca G
+‘ee ere h ee eaeeeaee ae
+Pigt
+kh hi ee ob
 
-' Dee)
-GON a4 4 es Pe 2 eRe Sobel se sale ere
-
-(OOSVXL) PZOLN-GO6L5D 10} Wonog pieog god
-
+Service Manual
+27
 
 === OCR SUPPLEMENT, PDF PAGE 29 ===
 <!-- render-vs-extraction: 37 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1809,36 +1809,36 @@ JONUDP AI1A1aS OP
 
 
 === OCR SUPPLEMENT, PDF PAGE 45 ===
-<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS ve
+<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+8.2 Error Message : E1
 
-YOSNAS —a >
-Wat
+@ Definition : Only happen calibration, Display board CPU did not receive the RPM signal.
 
-TVNDIS a ant
+@ Configuration :
 
-auvod YaATIG SS YAMOd OV
-YO.LOW {
+CONSOLE
+DISPLAY BOARD
 
-HOVLIOA
+MOTOR SPEED
 
-Sad YOLOW
+RPM SENSOR .
+SIGNAL 5Pin
 
-|
+SIGNAL
 
-TYNOIS TVNOIS
-OaaAdS YOLOW YOSNAS Wd
+MOTOR
+VOLTAGE
 
-duvod AV TdSId
+2 PIN > MOTOR
 
-HTOSNOD
+AC POWER » DRIVER BOARD
 
-: UONeINSIUOD «=@
+=< SIGNAL
 
-‘[PUSIS dy OU} SAI990I JOU PIP MdOD pseog Avydsiq ‘uoneiqyes uaddey AjUO : uOnIUEq @
+= RPM
+; SENSOR
 
-La : obessoy 10119 29
-
+44 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 46 ===
 <!-- render-vs-extraction: 11 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2278,14 +2278,13 @@ board
 
 
 === OCR SUPPLEMENT, PDF PAGE 63 ===
-<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AIIAIAS z9
+<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+8.9 Circuit diagram
 
-WVYSVIC LINDYIS TIWAVSeL
-A0ZL €ZOLN-D06LS
+GT90C-NT023 120V
+TREADMILL CIRCUIT DIAGRAM
 
-weibeIp HNIDIID 68
-
+62 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 64 ===
 <!-- render-vs-extraction: 26 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2558,34 +2557,17 @@ pue buljquiassesig ‘[|
 
 
 === OCR SUPPLEMENT, PDF PAGE 79 ===
-<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JOnNUDY a1A1aG 8)
+<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+11-1 Lower Controller Replacement
 
-or ‘T
-eh
+Remove motor cover
+Disconnect all lower controller wirings
+Use Phillips head Screwdriver to remove, replace with new lower controller and reconnect all wirings.
 
-yr on / rh
-a —— us
+ies |
+S1
 
-——=—<—<—<—— it
-cee TS; Ne
-a:
-
-2 Fim
-
-a \\ ar
-
-ab
-
-Ay)
-oe
-
-‘SBULIM |]@ JOBUUODAI PUL J9]|/01]U0D JAMO} MAU UYIM Bde|daJ ‘BAOWASI 0} JOALIPMEIDS Peay Sdijliyg asp
-SBULIM 19}|0JU0D JAMO] |] JOOUUODSIG
-JOAOD JO}OW SAOWAY
-
-JUdWaDe|day 19]/01}U0D JOMOJ |=}
-
+78 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 80 ===
 <!-- render-vs-extraction: 16 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2660,20 +2642,18 @@ reverse order of disassembly.
 
 
 === OCR SUPPLEMENT, PDF PAGE 86 ===
-<!-- render-vs-extraction: 20 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 6g
+<!-- render-vs-extraction: 20 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+6 Use 14mm open end wrench to adjust belt tension using tension measuring device. Adjust to white LBS area
 
-Beale Sg] a1luM O}sNipy ~“sdIAep Hulinseaw UOlsuUs} Bulsn UOISUd} }}9q JSsNipe Oo} YOUaIM pus Usdo WP] esp
-
+85 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 87 ===
-<!-- render-vs-extraction: 39 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS 98
+<!-- render-vs-extraction: 39 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+11-7 Running Deck/ Belt & Cushion Replacement(Please take the cylinder before replacement)
+1. After running board has been folded, use M5 Allen wrench and 12m/m wrench to remove securing screws on cylinder
+and remove the cylinder.
 
-“JQpUI|AD BY} SAOWA pue
-JOpUI|AD UO SM2INS HULINDSS SAOW A O} YOUSIM W/Z] PUB YOUSIM Udy SG) aSN ‘papjo} useq sey pueog Buluuns Joyy “1
-(juaWade|daJ a1OJaq JapUlj|AD ay} aye} oSea]g)jUBWBDe|day UOIYSND yg Yeg /yIeq BuluuNnY ss J- | |
-
+86 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 88 ===
 <!-- render-vs-extraction: 23 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2708,28 +2688,21 @@ After replacement, a test to check if the sensor registers the magnet is require
 
 
 === OCR SUPPLEMENT, PDF PAGE 91 ===
-<!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-[ORUDIY FOTATIS x
+<!-- render-vs-extraction: 27 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+11-9 Incline Motor Replacement
 
-| 3
-| Le ae | i :
+1. First adjust treadmill to folded position, then proceed with old incline motor replacement.
 
-Te
+aes |
 
-7 iS
+SL / /
+—
 
-/ pt
+——= oy
 
-} i a.
-i} f ex
-If
+. SE ~
 
-C4
-
-"JUBSW9DE}d9J JOJOLU SUIJOU! PIO UJIM pead0I1d UdU} ‘UOIISOd papjo} O} |JlUPes} ysNipe ysul4 “1
-
-yUsWaDe/day JOJO] GUIJDU] = G-L |
-
+90 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 92 ===
 <!-- render-vs-extraction: 13 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -2749,20 +2722,10 @@ d
 
 
 === OCR SUPPLEMENT, PDF PAGE 93 ===
-<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-JONUDP AI1A1aS
-76
+<!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3. Use14 wrench to assemble new incline motor.
 
-<=
-o= C
-
-=
-
-"JOJOLW SU!
-|JOUl
-JOU MOU sjqWuesse 0} YOUSIM PF]
-esp “€
-
+92 Service Manual
 
 === OCR SUPPLEMENT, PDF PAGE 94 ===
 <!-- render-vs-extraction: 12 words the text layer does not have; tesseract --psm 4 at 300 dpi -->

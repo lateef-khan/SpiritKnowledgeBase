@@ -1481,33 +1481,26 @@ TR6.6 Treadmill 4
 
 
 === OCR SUPPLEMENT, PDF PAGE 16 ===
-<!-- render-vs-extraction: 28 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-vl !}WUpesd] 9°9d1L
+<!-- render-vs-extraction: 28 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+Preset Program Profiles
 
-yson - Asyyunoy X
+Ascent - Work Ascent - Incline
 
-YyJOM - 8W913X
+Glute Blast - Work Glute Blast - Incline
 
-||
+EE SSas
 
-| |
+Adventure - Work Adventure - Incline
 
-| |
+Xtreme - Work Xtreme - Incline
 
-| | || = | | |
+Interval - Work Interval - Incline
 
-| | | | | ot | | he tT |
+X Country - Work X Country - Incline
 
-ptt | ET
-YOM - a1N}UsAPY
+os ss See
 
-Pree PPP Freer
-YJOM - }SB1g ANID
-
-SUl|OU] - JUBDSY YOM - JUBDSY
-
-SO|Old Weibold }eSsald
-
+TR6.6 Treadmill 14
 
 === OCR SUPPLEMENT, PDF PAGE 23 ===
 <!-- render-vs-extraction: 21 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
@@ -1566,7 +1559,7 @@ sult your physician before participating in any exercise program.
 
 
 === OCR SUPPLEMENT, PDF PAGE 32 ===
-<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-jenuey| Su8uMQ OOH] ‘paduasay sIUBH IV LeZOZO WOO SSSUUEISTX WAM
+<!-- render-vs-extraction: 24 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+3000 Nestle Road Jonesboro, AR 72401 - Phone:870-336-4286 - Fax:870-935-7611
 
-LLOZ-GE6-0Z8:X84 - 9Ber-9EEOZ8:8U0"Ud - LOVeZ HV ‘O4OqsauoP peoy 8)AS8N QOOE
+www.xterrafitness.com ©2021 All Rights Reserved. TR6.6 Owner's Manual

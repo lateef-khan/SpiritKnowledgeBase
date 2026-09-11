@@ -1255,26 +1255,28 @@ www.instagram.com/XterraFitness
 
 
 === OCR SUPPLEMENT, PDF PAGE 19 ===
-<!-- render-vs-extraction: 29 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
-SL
+<!-- render-vs-extraction: 29 words the text layer does not have; tesseract --psm 4 at 300 dpi; re-OCR at 0 degrees after the first pass scored a wrong rotation -->
+CONSOLE SCREEN - OVERVIEW
 
-suo}4ng
-poeeds
-pel
+Start / Pause
+Button
 
-u033Ng dos
-Jaya
-asessoy
-SUO}}Ng BUIJDU|
+CAL HEART RATE DISTANCE STEPS SPEED INCLINE TIME m@m
 
-suojng
-yong
+Incline Buttons
+Message
 
-poeds
-k Gm SWIL SNITONI qg3adS Sd3lS JONVLSIC ava LYV3aH Wo
-asned / eS
-MalAd3sAO - NA38 DS FIOSNOD
+Center
 
+Stop Button Speed
+
+Buttons
+
+Direct
+Speed
+Buttons
+
+18
 
 === OCR SUPPLEMENT, PDF PAGE 20 ===
 <!-- render-vs-extraction: 10 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
