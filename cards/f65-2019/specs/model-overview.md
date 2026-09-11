@@ -14,7 +14,6 @@ keywords:
 - service manual
 - '2019'
 - sku
-- '565818'
 - treadmill
 - factory code
 facets:
@@ -34,13 +33,14 @@ see_also:
 - f65-2016-drive-motor-spec
 - f65-2016-incline-motor-spec
 - f65-2016-console-data-ranges
+- f65-model-numbers
 source:
   ref: sole-tm-f65-2019-service-manual
   locator: Cover page, table of contents and section 1
   extracted_at: '2026-09-04'
 ---
 
-The cover reads **ST158-YT044 Treadmill Service Manual**, and the section headings inside say ST158. This is the Sole F65 of model year 2019; the Spirit database SKU is **565818**, which is also the number in the source PDF's own file name.
+The cover reads **ST158-YT044 Treadmill Service Manual**, and the section headings inside say ST158. This is the Sole F65 of model year 2019. The model number is on the F65 model card, `f65-model-numbers`.
 
 The 2016 manual for the same machine is ST155. ST155 and ST158 are different factory codes, so check which one you are holding before you quote a screw count or a troubleshooting table from it.
 

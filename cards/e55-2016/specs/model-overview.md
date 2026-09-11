@@ -16,7 +16,6 @@ keywords:
 - '2016'
 - elliptical
 - sku
-- '555016'
 facets:
   brand:
   - sole
@@ -34,6 +33,7 @@ see_also:
 - e25-2016-tension-motor-spec
 - e55-2016-incline-motor-spec
 - e25-2016-console-data-ranges
+- e55-model-numbers
 source:
   ref: sole-elliptical-e55-2016-service-manual
   locator: Cover and section 1, pages 1-6
@@ -42,7 +42,7 @@ source:
 
 The manual's cover code is **SE585S-SE018**. Section 1 is titled "SE585S-SE018 Outlines" and the table of contents calls it the "SE585S Elliptical". The circuit diagram page is also headed SE585S-SE018.
 
-This is the Sole E55 of model year 2016. The Spirit database SKU taken for it is **555016**.
+This is the Sole E55 of model year 2016. The model number is on the E55 model card, `e55-model-numbers`.
 
 The machine has a console with a **9" LCD display**, a main controller (DC power supply, incline driver and tension motor driver), a **tension motor** that changes brake resistance, and a **115 volt AC incline motor**.
 

@@ -33,6 +33,7 @@ see_also:
 - f80-2023-electrical-parts-overview
 - f80-2023-drive-motor-spec
 - f80-2023-incline-motor-spec
+- f89-model-numbers
 source:
   ref: sole-tm-f89-2023-service-manual
   locator: Cover, page 1; Section 6.1 Display Board wire Connections, page 25
@@ -48,4 +49,4 @@ The machine has a console, a main controller carrying the DC power supply, the i
 driver, a DC drive motor and an AC incline motor. It also has a **rear incline motor** on its own rear incline control board, which is what gives this machine decline.
 
 **The manual never prints a six digit SKU.** It identifies the machine only by the name on the cover and the
-factory code above.
+factory code above. The model number is on the F89 model card, `f89-model-numbers`.

@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - sr500-2016-tension-motor-spec
 - sr500-2016-console-data-ranges
+- sr500-model-numbers
 source:
   ref: sole-rower-sr500-2016-service-manual
   locator: Cover and section 1, CW800A-YR001 Outlines
@@ -41,7 +42,7 @@ source:
 
 The factory code on the cover and on every section heading is **CW800A-YR001**. This is the Sole SR500 rower of model year 2016.
 
-**No Spirit database SKU has been matched to this manual.** The rower rows in that database are 500911 "SR500", 500918 "SR500 2019" and 555922 "SOLE SR550 2023"; there is no 2016 SR500 row. Do not quote a six digit model number for this machine.
+The model number is on the SR500 model card, `sr500-model-numbers`.
 
 Section 1 names the outer parts: Console Assembly, Console Holder Assembly, Chain Cover (L) and (R), Nylon Net, Handle, Controller Assembly, Connecting Cover, Latch, Hook, Seat, Seat Attaching Board, Aluminum Track, Pedal, Front Stabilizer, Rear Stabilizer, Adjustment Foot Pad, End Cover, Flywheel & Fan, and Flywheel Pulley with Latch and Spring Latch.
 

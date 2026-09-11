@@ -16,7 +16,6 @@ keywords:
 - '2023'
 - elliptical
 - sku
-- '525022'
 facets:
   brand:
   - sole
@@ -33,6 +32,7 @@ not_to_be_confused_with: []
 see_also:
 - e25-2023-incline-motor-spec
 - e25-2023-gear-motor-spec
+- e25-model-numbers
 source:
   ref: sole-elliptical-e25-2023-service-manual
   locator: Cover and section 3, pages 1 and 5
@@ -41,7 +41,7 @@ source:
 
 The cover reads **E25(2023)**, **SE668S-SE038**, "Elliptical Trainer". That factory code is the manual's own name for the machine.
 
-This is the Sole E25 of model year 2023. The Spirit database SKU is **525022**.
+This is the Sole E25 of model year 2023. The model number is on the E25 model card, `e25-model-numbers`.
 
 What the manual says the machine is made of:
 

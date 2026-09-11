@@ -16,7 +16,6 @@ keywords:
 - '2023'
 - elliptical
 - sku
-- '595022'
 facets:
   brand:
   - sole
@@ -33,6 +32,7 @@ not_to_be_confused_with: []
 see_also:
 - e35-2023-incline-motor-spec
 - e95-2023-gear-motor-spec
+- e95-model-numbers
 source:
   ref: sole-elliptical-e95-2023-service-manual
   locator: Cover and section 3, pages 1 and 6
@@ -41,7 +41,7 @@ source:
 
 The cover reads **E95(2023)**, **SE698-SE040**, "ENT Elliptical Trainer". That factory code is the manual's own name for the machine. **ENT** is how the cover marks the entertainment console model.
 
-This is the Sole E95 of model year 2023. The Spirit database SKU is **595022**.
+This is the Sole E95 of model year 2023. The model number is on the E95 model card, `e95-model-numbers`.
 
 What the manual says the machine is made of:
 

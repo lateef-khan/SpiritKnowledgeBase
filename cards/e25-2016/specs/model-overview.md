@@ -16,7 +16,6 @@ keywords:
 - '2016'
 - elliptical
 - sku
-- '525116'
 facets:
   brand:
   - sole
@@ -34,6 +33,7 @@ see_also:
 - e25-2016-tension-motor-spec
 - e25-2016-incline-motor-spec
 - e25-2016-console-data-ranges
+- e25-model-numbers
 source:
   ref: sole-elliptical-e25-2016-service-manual
   locator: Cover and section 1, pages 1-6
@@ -42,7 +42,7 @@ source:
 
 The manual's cover code is **SE565S-SE016**. Section 1 is titled "SE565S-SE016 Outlines" and the table of contents calls it the "SE565S Elliptical". The circuit diagram page is also headed SE565S-SE016, so the code is consistent throughout.
 
-This is the Sole E25 of model year 2016. The Spirit database SKU taken for it is **525116**, named "SOLE E25 2016".
+This is the Sole E25 of model year 2016. The model number is on the E25 model card, `e25-model-numbers`.
 
 The machine has a console with a **6.5" LCD display**, a main controller (DC power supply, incline driver and tension motor driver), a **tension motor** that changes brake resistance, and a **115 volt AC incline motor**.
 

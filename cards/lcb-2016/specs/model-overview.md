@@ -1,8 +1,8 @@
 ---
 id: lcb-2016-model-overview
-title: "What this upright bike is: model number, factory code and drive system"
+title: "What this upright bike is: factory code and drive system"
 kind: spec
-question: "What is the LCB-2016 (511116), and what console and resistance does it use?"
+question: "What is the LCB-2016, and what console and resistance does it use?"
 asked_as:
 - "what is the sku for the lcb 2016"
 - "what console does the lcb 2016 use"
@@ -31,6 +31,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sole-bike-service-manual-model-numbers
+- lcb-model-numbers
 source:
   ref: sole-bike-lcb-2016-service-manual
   locator: "Cover page, Section 2 Electronic Parts and Section 3 Electrical Configurations"
@@ -39,13 +40,12 @@ source:
 
 | Field | Value |
 |---|---|
-| Sole model number (SKU) | **511116** |
 | Code on the service manual cover | SU610B-YB012 |
 | Console | 10.1 inch TFT console with a speaker and a cooling fan. |
 | Resistance | EMS brake, DC 0 to 21 V, 40 resistance levels. |
 | Family | Light commercial upright bike, drive belt with a J-bolt tensioned idle arm. |
 
-The model number 511116 is read from the year pattern in the database, not from a year in the row name.
+The model number is read from the year pattern in the database, not from a year in the row name.
 
 
-The model number comes from the Spirit database `Models` table, not from the service manual. The manual prints only the factory code.
+The manual prints only the factory code. The model number is on the LCB model card, `lcb-model-numbers`.

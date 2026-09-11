@@ -14,7 +14,6 @@ keywords:
 - service manual
 - '2016'
 - sku
-- '580816'
 - treadmill
 - factory code
 facets:
@@ -34,13 +33,14 @@ see_also:
 - f80-2016-drive-motor-spec
 - f80-2016-incline-motor-spec
 - f80-2016-console-data-ranges
+- f80-model-numbers
 source:
   ref: sole-tm-f80-2016-service-manual
   locator: Cover page, table of contents and section 1
   extracted_at: '2026-09-04'
 ---
 
-The cover reads **ST525 Treadmill Service Manual**, and the section headings inside say ST525. This is the Sole F80 of model year 2016; the Spirit database SKU is **580816**.
+The cover reads **ST525 Treadmill Service Manual**, and the section headings inside say ST525. This is the Sole F80 of model year 2016. The model number is on the F80 model card, `f80-model-numbers`.
 
 The source PDF is named "F80 2016 (ST525-YT019) Service Manual.pdf", so the full factory code is **ST525-YT019**. The cover page itself prints only ST525.
 

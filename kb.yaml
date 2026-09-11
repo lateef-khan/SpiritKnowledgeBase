@@ -29,6 +29,10 @@ facets:
     index: keyword
     array: true
     optional: true
+  lookup:
+    index: keyword
+    optional: true
+    values: [model-numbers]
 
 models:
   spirit:

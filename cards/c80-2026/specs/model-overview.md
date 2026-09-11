@@ -36,6 +36,7 @@ see_also:
 - c80-2026-part-names
 - c80-2026-console-batteries
 - c80-2026-parts-list
+- c80-model-numbers
 source:
   ref: sole-c80-2026-service-manual
   locator: Cover page 1, General Information page 3, Revision History page 17
@@ -54,6 +55,6 @@ What it does have:
 - A **speed sensor** reading a magnet on the front roller, wired to the console by three connecting lines - 650mm upper, 1950mm middle, 250mm lower.
 - A flywheel, flywheel pulley, drive belt, belt idler pulley, front and rear rollers, 60 pedal slats on a crawler-type track, limit wheels and a PJ turntable.
 
-The Sole model number for this machine is **580996**, which the Spirit customer-service database names "C80" and describes as "SOLE, C80 Curved Treadmill". **The manual itself never prints it**, and it identifies the machine only as C80 and by the factory code TK700-SK001.
+**The manual never prints a model number**; it identifies the machine only as C80 and by the factory code TK700-SK001. The model number is on the C80 model card, `c80-model-numbers`.
 
 The manual is at **Version 1.0, initial release 2026/6/10**, and runs to 17 pages.

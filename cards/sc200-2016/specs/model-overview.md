@@ -34,6 +34,7 @@ see_also:
 - sc200-2016-tension-motor-spec
 - sc200-2016-electrical-power-requirements
 - sc200-2016-console-data-ranges
+- sc200-model-numbers
 source:
   ref: sole-elliptical-sc200-2016-service-manual
   locator: Cover, section 1 and section 3, pages 1-11

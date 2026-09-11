@@ -14,7 +14,6 @@ keywords:
 - service manual
 - '2019'
 - sku
-- '580818'
 - treadmill
 - factory code
 facets:
@@ -34,13 +33,14 @@ see_also:
 - f80-2019-drive-motor-spec
 - f65-2016-incline-motor-spec
 - f80-2019-console-data-ranges
+- f80-model-numbers
 source:
   ref: sole-tm-f80-2019-service-manual
   locator: Cover page, table of contents and section 1
   extracted_at: '2026-09-04'
 ---
 
-The cover reads **ST528-YT033 Treadmill Service Manual**, and the section headings inside say ST528. This is the Sole F80 of model year 2019; the Spirit database SKU is **580818**, which is also the number in the source PDF's own file name.
+The cover reads **ST528-YT033 Treadmill Service Manual**, and the section headings inside say ST528. This is the Sole F80 of model year 2019. The model number is on the F80 model card, `f80-model-numbers`.
 
 The 2016 manual for the same machine is ST525. Two sections that carry text in the ST525 manual are **pictures only** in this one: 6.7 Controller Indicator LED debugging and 8.10 Troubleshooting procedure matrix. If you need either of those tables, they are not in this manual.
 
