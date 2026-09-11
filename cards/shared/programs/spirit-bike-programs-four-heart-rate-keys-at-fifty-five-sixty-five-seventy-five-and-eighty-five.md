@@ -39,7 +39,7 @@ see_also:
 - spirit-xe-2023-programs-four-heart-rate-targets
 source:
   ref: spirit-bike-xbr55-2023-owners-manual
-  locator: 'XBR95 2023 printed p. 33; XBR55 2023 p. 34; XBU55 2023 p. 34'
+  locator: 'XBR95 2023 printed p. 33; XBR55 2023 p. 34; XBU55 2023 p. 34; service manuals: XBR55 2023 (XR329A-SB030) console drawing caption PDF p. 5, text.md lines 85-93 (read from the render); XBU55 2023 p. 5, lines 82-96; XBR95 2023 p. 6, lines 92-105'
   extracted_at: '2026-09-10'
 ---
 **Four heart rate programs, named by the percentage of maximum heart rate they target: HR1 55%, HR2
@@ -63,6 +63,13 @@ the heart rate transmitter strap for these programs**; it is not included.
 recommends 60% and 80% and works its example at 108 to 144 beats - see
 `cu800-2012-programs-target-zone-of-108-to-144-beats`. The manuals never reconcile the two, and the KB
 does not harmonise them.
+
+**The three 2023 service manuals caption the console drawing "2 HR".** The XBR55 2023, XBU55 2023
+and XBR95 2023 service manuals print "Program Button (Manual, Hill, Fat burn, Strength, Interval, 2
+Users, and 2 HR)" under a drawing that shows one PROGRAM key - an older key-strip caption carried
+over. It contradicts the four HR programs above; no service manual prints any heart rate percentage,
+so the owner's manual is the statement to quote - see
+`spirit-bike-programs-six-presets-adding-hiit-and-fusion`.
 
 **The XBR25 2023, printed in the same style and the same year, has no heart rate program at all** -
 see `spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`. The earlier

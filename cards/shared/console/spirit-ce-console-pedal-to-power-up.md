@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-pedal-to-power-up
-title: Pedal to power the console up - there is no AC outlet and the display stays dark for a few seconds
+title: Pedal to power the console up - there is no AC outlet and the display stays
+  dark for a few seconds
 kind: procedure
-question: How do I turn on a Spirit commercial elliptical or bike whose console has no power cord?
+question: How do I turn on a Spirit commercial elliptical or bike whose console has
+  no power cord?
 asked_as:
 - how do i turn on my spirit elliptical
 - my elliptical console will not light up
@@ -47,8 +49,12 @@ see_also:
 - spirit-ce-console-quick-start-time-counts-up
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 14 POWER; CE800 2023 p. 15; CE900 2021 p. 13; CE900 2025 p. 14 Powering On &
-    Starting Operation; CES880 2025 p. 27 Plugging in and Powering On
+  locator: CE800 2021 p. 14 POWER; CE800 2023 p. 15; CE900 2021 p. 13; CE900 2025
+    p. 14 Powering On & Starting Operation; CES880 2025 p. 27 Plugging in and Powering
+    On. CR800 (2020) service manual 4-2-1 POWER, PDF p. 13 (printed 12), text.md lines
+    176-181; CU800 (2020) service manual PDF p. 13 (printed 12), lines 195-201. CR900-2018
+    service manual POWER, PDF p. 13 (printed 13), text.md lines 132-138; CU900-2018
+    service manual PDF p. 14 (printed 14), lines 196-202
   extracted_at: '2026-09-09'
 ---
 
@@ -94,3 +100,7 @@ and none of them mentions a generator. See `cu900ent-home-screen` and
 **The CU800-2012 is a generator bike but its power-up sequence is longer**, with all the lights on,
 a software version and an odometer reading before the start-up display:
 `spirit-ce850-console-power-up-self-test`.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both print the paragraph word for word, and both open "CR800 Recumbent trainers have a built-in generator" - the CU800 (2020) service manual included, which was made from the recumbent's book.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same self-test and start-up message; these two books say "Spirit Fitness commercial fitness bikes" where the owner's manuals name the machine.

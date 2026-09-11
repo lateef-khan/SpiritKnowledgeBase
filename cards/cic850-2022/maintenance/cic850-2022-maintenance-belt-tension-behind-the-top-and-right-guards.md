@@ -36,11 +36,18 @@ not_to_be_confused_with:
 see_also:
 - cu900ent-general-maintenance
 - cic850-2022-maintenance-sensor-board-battery-behind-left-chain-guard
+- cic850-2022-maintenance-brake-block-gap-1-5-mm
 source:
   ref: spirit-bike-cic850-2022-owners-manual
   locator: 'BELT TENSION ADJUSTMENT / ADJUST THE BELT TENSION, printed p. 21 (PDF
     p. 21). Page checked against a 300 dpi render (242 native / 247 rendered), so
-    nothing on it is imaged; the part numbers below are native text, not OCR.'
+    nothing on it is imaged; the part numbers below are native text, not OCR. The
+    service manual prints the same six steps and the same NOTE word for word as 9-1
+    Slippage of Belt troubleshooting / BELT TENSION ADJUSTMENT: spirit-bike-cic850-2022-service-manual
+    PDF p. 24 (printed 23), text.md lines 338-363, with the intro sentences and the
+    NOTE recovered by the page''s OCR supplement at lines 761-797 (added 2026-09-11).
+    The 115-120 Hz new-belt figure is that book''s 10-3 Belt replacement step 4, PDF
+    p. 31 (printed 30), lines 467-469.'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,6 +73,16 @@ alignment with the frame.
 
 **The manual prints no figure for this job.** There is no crank-play limit that tells you to start,
 no target slack, and no tension force. Step 5 is the only test: does the belt run smoothly.
+
+## The service manual repeats the procedure and adds one figure elsewhere
+
+The CIC850 **service manual** prints these six steps and the NOTE word for word as its 9-1
+"Slippage of Belt troubleshooting" — the same guards, the same screws 55 and 17, the same
+ride-and-repeat test, and still **no figure on the adjustment page**. The only tension number in
+that book is in its belt *replacement* step: a new belt is put on the small pulley and idler arm,
+then the front pulley, and set to **115–120 Hz** — an install figure with no gauge named, printed
+for a new belt, not for the adjustment above. The same book's noise page sets the magnetic brake
+blocks 1.5 mm off the flywheel (`cic850-2022-maintenance-brake-block-gap-1-5-mm`).
 
 ## The CIC800 job is a different procedure
 

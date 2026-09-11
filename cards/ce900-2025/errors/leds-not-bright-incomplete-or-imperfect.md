@@ -3,8 +3,8 @@ id: ce900-2025-errors-leds-not-bright-incomplete-or-imperfect
 title: The display light is dim or incomplete, and these manuals name no supply voltage
   to check
 kind: troubleshooting
-question: Why is the display dim or incomplete on a Spirit CE900-2025 elliptical or a
-  CR900-2025 or CU900-2025 bike?
+question: Why is the display dim or partly lit on a Spirit CE900-2025 elliptical or
+  a CR900-2025, CU900-2025, CR900-2018, CU900-2018 or XBR95-2016 bike?
 asked_as:
 - elliptical screen is dim
 - display half lit on my spirit elliptical
@@ -25,8 +25,11 @@ facets:
   model: '*'
   applies_to:
   - ce900-2025
+  - cr900-2018
   - cr900-2025
+  - cu900-2018
   - cu900-2025
+  - xbr95-2016
   section: errors
   code: no-code
 authority: 3
@@ -41,9 +44,12 @@ see_also:
 - ce800ent-tft-touch-panel-not-bright
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
-  locator: 'CE900 2025 TROUBLESHOOTING printed page 32; CR900 2025 printed page 34;
+  locator: CE900 2025 TROUBLESHOOTING printed page 32; CR900 2025 printed page 34;
     CU900 2025 printed page 33. Every one of those pages is a picture, so the table
-    below was read from the rendered page.'
+    below was read from the rendered page; CU900 2018 service manual Troubleshooting
+    procedure matrix, PDF p. 32, text.md lines 521-552; CR900 2018 service manual
+    Troubleshooting procedure matrix, PDF p. 31, text.md lines 455-486; XBR95 2016
+    service manual Troubleshooting procedure matrix, PDF p. 44, text.md lines 615-646
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +75,5 @@ instead, because that machine powers its console from a generator:
 
 Dead segments rather than a dim light are the next row down:
 `ct850-2020-led-displays-dim-or-incomplete`.
+
+**The CU900 2018 and CR900 2018 service manuals print this row word for word** - `LEDs not bright, incomplete or imperfect`, the two causes, `Check power to console` and `Replace lower controller`, no voltage. **The XBR95 2016 residential recumbent prints the same two causes and the same two fixes about an LCD** (`LCDs not bright, incomplete or imperfect` / `Replace with new LCD or console`), and, alone among the 2016 residential books, prints no `110-120V` check - its sisters do (`spirit-lcd-dim-or-incomplete`). The noun changed; the fix did not, so it belongs here.

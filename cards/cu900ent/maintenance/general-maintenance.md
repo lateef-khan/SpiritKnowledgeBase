@@ -36,6 +36,7 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - cu1000ent-2023
   - cu800-2021
   - cu800-2024
   - cu800ent-2022
@@ -79,6 +80,9 @@ see_also:
 - spirit-xe-maintenance-no-sanitizing-section
 - xbr95-2023-maintenance-no-noise-or-levelling-section
 - spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows
+- spirit-cr900-cu900-maintenance-wear-parts-five-items
+- spirit-cr900-maintenance-weekly-pedal-check
+- spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: 'GENERAL MAINTENANCE, p. 38 (printed 38). The same three figures - 90%,
@@ -118,7 +122,15 @@ source:
     printed p. 36 (PDF p. 38) and spirit-bike-cr800ent-2024-owners-manual printed p. 49
     (PDF p. 51). All three pages were read from a 300 dpi render with tesseract --psm 4
     rather than from the text layer, because those PDFs carry a second, invisible text
-    layer whose figures differ from the printed page.'
+    layer whose figures differ from the printed page. Four Spirit bike service manuals
+    print the same block under GENERAL MAINTENANCE and were added on 2026-09-11:
+    spirit-bike-cr900-2018-service-manual PDF p. 30 (printed 30), text.md lines 413-423;
+    spirit-bike-cu900-2018-service-manual PDF p. 31 (printed 31), lines 479-489;
+    spirit-bike-cr900ent-2021-service-manual PDF p. 38 (printed 38), lines 604-614; and
+    spirit-bike-cu1000ent-2023-service-manual, a machine no owner''s manual covers, under
+    the heading 10. GENERAL MAINTENANCE, PDF p. 17 (printed 17), lines 316-325. The four
+    blocks match each other at difflib word level 0.968 to 1.000; the only differences
+    are the heading number and the wear list under the WARNING that follows.'
   extracted_at: '2026-09-09'
 ---
 
@@ -215,6 +227,21 @@ and the pedals tighten in opposite directions. See `cu900ent-noise-and-feet-feel
 `cu900ent-shaking` and `cu900ent-check-pedals`. **None of the twelve owner's manuals prints the
 wear-parts warning** either (`cu900ent-wear-parts-inspection`) — checked for "susceptible",
 "damage and wear" and "PU wheel" in all thirteen; the only PU wheel hits are parts-list rows.
+
+## Four service manuals print the same list
+
+The **CR900 2018**, **CU900 2018**, **CR900ENT 2021** and **CU1000ENT 2023** service manuals print
+the block above word for word, as the numbered "I cannot stress this point enough" list, under
+GENERAL MAINTENANCE — **90%, 2 pads, 14 mm** on all four, and the crank arm nut on all four. The
+CU1000ENT is the one machine of the four with no owner's manual in the repository; this is its only
+statement of the list. Each of the four follows the list with the wear-parts WARNING that the
+owner's manuals omit — five items on the CR900 and CU900
+(`spirit-cr900-cu900-maintenance-wear-parts-five-items`), four on the CR900ENT and CU1000ENT
+(`cu900ent-wear-parts-inspection`) — and each has a preventative-maintenance chapter that goes
+further than this list; all but the CU1000ENT add a mechanical troubleshooting chapter too. The
+CR900 and CR900ENT check the pedals weekly (`spirit-cr900-maintenance-weekly-pedal-check`) and
+settle a shaking seat by taking the play out of its wheels
+(`spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers`).
 
 ## The three 2024 New Black Units bikes print it too
 

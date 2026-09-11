@@ -2,7 +2,7 @@
 id: cu900ent-console-replacement
 title: Console replacement
 kind: procedure
-question: How do I replace the console on a Spirit CU900ENT bike?
+question: How do I replace the console on a Spirit CU900 or CU900ENT upright bike?
 asked_as:
 - take the console off my spirit cu900 bike
 - replace the display on the cu900ent
@@ -19,8 +19,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -34,7 +35,8 @@ see_also:
 - cu900ent-eeprom-err
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.1 Console Replacement, pp. 45-46 (printed 45-46)
+  locator: 'cu900ent: Section 8, 6.1 Console Replacement, pp. 45-46 (printed 45-46)
+    | cu900-2018: 6.1 Console Replacement, PDF pp. 38-39; text.md lines 630-655'
   extracted_at: '2026-09-08'
 ---
 
@@ -54,3 +56,4 @@ procedure in this manual's Part Replacement Guide except the M8 cap in 6.2 and t
 
 The chin cover comes off first, and 6.2 sends you back here for it.
 
+**The CU900 (2018) service manual prints this section word for word** (two chin-cover screws, four behind the console, the wire connector), so this card covers both the CU900 and the CU900ENT. The CU1000ENT book prints **four** chin-cover screws and no second set; that machine has its own console card.

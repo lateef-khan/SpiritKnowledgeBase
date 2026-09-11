@@ -34,9 +34,12 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-jb950-errors-limit-sensor-test-after-motor-error
+- jb950-2022-errors-error-message-table-four-messages
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: MAINTENANCE MODE, UPDATE SOFTWARE, PDF page 57
+  locator: MAINTENANCE MODE, UPDATE SOFTWARE, PDF page 57; JB950 2022 service manual
+    5.3 MAINTENANCE MENU, UPDATE SOFTWARE, PDF p. 39, text.md lines 606-646; JB950
+    2022 service manual 6.1 Console software update, PDF p. 47, text.md lines 874-895
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,5 @@ anywhere - `spirit-commercial-bike-errors-no-error-codes-printed`.
 
 The update procedure itself, and the rest of Maintenance Mode, is carded under
 `section: console`.
+
+**The service manual prints the same three strings** - *Console shows SEARCH UPDATE. If successful, displays UPDATE DONE. If unsuccessful, displays UPDATE FAIL, check USB for proper insertion and attempt again* - and its own update chapter adds the mechanics: the .zip holds **two** update files, both go in the root of an otherwise empty USB disk, `BOOTLOADER` is switched to `ON` under UPDATE SOFTWARE, and the console is reset with `PLAY` and `+`, after which it shows `SEARCH UPDATE` and then `UPDATE DONE`. The same book says the GFIT (heart-rate) module must be updated *before* the console and cannot be rolled back. **The service manual also corrects the "no error code" line above**: the JB950 console prints four worded error messages, listed on `jb950-2022-errors-error-message-table-four-messages`.

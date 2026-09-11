@@ -103,7 +103,9 @@ and CR800ENT 2023 print the interlocking **button** version with a bare CR2032 a
 strap sentence - see `spirit-bike-programs-wearing-the-chest-strap`.
 
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT have no chest strap chapter at all.** **Neither
-does the AB900 2018 air bike**, though its console still reads a strap - see
+does the AB900 2018 air bike owner's manual**, though its console still reads a strap; the AB900
+2018 **service** manual prints the older page with an interlocking button, a Panasonic CR2032 and no
+supply statement - see `cu800-2012-programs-chest-strap-fitting-with-no-supply-statement` and
 `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
 
 **Thirteen residential XBR and XBU manuals print this page word for word** - the interlocking

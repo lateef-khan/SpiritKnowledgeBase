@@ -1,24 +1,26 @@
 ---
 id: jb950-2022-console-demo-mode
-title: 'Demo Mode, which loops three messages and needs a mains cord that plugs into the electrical board'
+title: Demo Mode, which loops three messages and needs a mains cord that plugs into
+  the electrical board
 kind: procedure
-question: 'How do I put a Spirit jb950-2022 Johnny G Spirit Bike into demo mode for a showroom?'
+question: How do I put a Spirit jb950-2022 Johnny G Spirit Bike into demo mode for
+  a showroom?
 asked_as:
-- 'how do i run my johnny g bike on the shop floor'
-- 'demo mode on the jb950'
-- 'can i keep the display on without pedalling'
-- 'trade show mode on the johnny g spirit bike'
+- how do i run my johnny g bike on the shop floor
+- demo mode on the jb950
+- can i keep the display on without pedalling
+- trade show mode on the johnny g spirit bike
 keywords:
-- 'demo mode'
-- 'trade show'
-- 'showroom'
-- 'plug-in cord'
-- 'electrical board'
-- 'electricity'
-- 'johnny g method'
-- 'ride of truth'
-- 'enjoy the ride'
-- 'loop'
+- demo mode
+- trade show
+- showroom
+- plug-in cord
+- electrical board
+- electricity
+- johnny g method
+- ride of truth
+- enjoy the ride
+- loop
 facets:
   brand:
   - spirit
@@ -37,7 +39,8 @@ see_also:
 - jb950-2022-console-maintenance-mode-entry-and-menu
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 60 DEMO MODE
+  locator: JB950-2022 printed p. 60 DEMO MODE. JB950 service manual 5.3 DEMO MODE,
+    PDF p. 43 (printed 43), text.md lines 797-813
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +67,5 @@ Spirit for it rather than improvising a connection to the electrical board.
 
 **The three looping messages are the same ones the console shows on waking**, minus the WARM UP
 prompt - so a bike showing them over and over on the shop floor is in Demo Mode, not stuck.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same three looping messages and the same need for a plug-in adapter to the electrical board.

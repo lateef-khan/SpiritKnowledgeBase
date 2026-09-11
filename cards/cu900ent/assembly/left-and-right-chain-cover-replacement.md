@@ -2,7 +2,8 @@
 id: cu900ent-left-and-right-chain-cover-replacement
 title: Left and right chain cover replacement
 kind: procedure
-question: How do I replace the left or right chain cover on a Spirit CU900ENT bike?
+question: How do I replace the left or right chain cover on a Spirit CU900, CU900ENT
+  or CU1000ENT upright bike?
 asked_as:
 - chain cover replacement on my spirit cu900 bike
 - how many screws hold the cu900ent chain cover
@@ -20,8 +21,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -34,8 +37,10 @@ see_also:
 - cu900ent-belt-slips-or-falls-off
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.5 Left and Right Chain Cover Replacement, pp. 50-51 (printed
-    50-51)
+  locator: 'cu900ent: Section 8, 6.5 Left and Right Chain Cover Replacement, pp. 50-51
+    (printed 50-51) | cu900-2018: 6.5 Left and Right Chain Cover Replacement, PDF
+    pp. 43-44; text.md lines 708-735 | cu1000ent-2023: 12.16 Left and Right Chain
+    Cover Replacement, PDF pp. 23-25; text.md lines 493-524'
   extracted_at: '2026-09-08'
 ---
 
@@ -59,3 +64,4 @@ you can remove right chain cover. **(Please refer to 6.3 for removing crank.)**
 
 If the belt slips or comes off, section 7.1.1 sends the technician to 6.5 and 6.7.1.
 
+**Three books, one procedure.** The CU900 (2018) manual prints this as 6.5 and the CU1000ENT (2023) manual as 12.16 with the same counts (3 seat-riser screws; 7 self-tapping plus 3 on the left; 3 on the right); the CU1000ENT sends you to 12.14 for the crank where this one says 6.3.

@@ -2,7 +2,8 @@
 id: cu900ent-tft-not-bright
 title: The display is not bright, incomplete or imperfect
 kind: troubleshooting
-question: Why is the display dim or incomplete on a Spirit CU900ENT bike?
+question: Why is the display dim or incomplete on a Spirit CU900ENT, CR900ENT-2021
+  or CU1000ENT-2023 bike?
 asked_as:
 - spirit bike screen is dim
 - bike console screen half lit
@@ -20,8 +21,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
+  - cu1000ent-2023
   - cu900ent
   section: errors
   code: no-code
@@ -35,7 +38,10 @@ see_also:
 - ce800ent-tft-touch-panel-not-bright
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Troubleshooting procedure matrix, page 39
+  locator: Troubleshooting procedure matrix, page 39; CR900ENT 2021 service manual
+    Troubleshooting procedure matrix, PDF p. 39, text.md lines 628-660; CU1000ENT
+    2023 service manual 10.1 Troubleshooting procedure Matrix, PDF p. 18, text.md
+    lines 328-373
   extracted_at: '2026-09-08'
 ---
 
@@ -50,3 +56,5 @@ too low.
 
 Dead segments rather than a dim backlight are the next row down:
 `cu900ent-tft-displays-not-bright`.
+
+**The CR900ENT 2021 and CU1000ENT 2023 service manuals print this row word for word** - `TFT not bright, incomplete or imperfect`, the same two causes, `Check power to console` then `Replace lower controller`, and no voltage figure on either.

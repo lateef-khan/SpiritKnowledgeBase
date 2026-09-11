@@ -94,3 +94,11 @@ comparing an older XBR95 manual with this one is not looking at two different ma
 squeaking XBR95 2023 should still be checked for loose assembly hardware and a loose crank arm
 nut, and it still has levelling feet. Quote `cu900ent-general-maintenance` as Spirit's procedure
 for the line, and say plainly that this machine's own book does not print it.
+
+## The service manual fills part of the gap
+
+The XBR95 2023 **service manual** (XR829A-SB032) prints no general-maintenance list and no
+leveller count either, but its Q&A chapter does carry a noise answer — loose seat-wheel adjustment
+plate, worn pedals, a loose crank arm — and a belt-slip adjustment at the J-bolt nyloc nut
+(`spirit-xbr-maintenance-belt-slip-nyloc-nut-88-450-newtons`). Those are technician procedures;
+the owner's manual still says nothing.

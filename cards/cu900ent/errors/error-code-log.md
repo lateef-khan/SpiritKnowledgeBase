@@ -22,8 +22,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - cr900ent-2021
   - ct1000ent-2023
   - ct900ent
+  - cu1000ent-2023
   - cu900ent
   section: errors
   code: '*'
@@ -35,13 +37,17 @@ see_also:
 - ce800ent-error-code-log
 - ct900ent-errors-error-code-messages-list
 - ct1000ent-2023-errors-error-code-list-25-hex-codes
+- cu1000ent-2023-errors-error-code-list-four-driver-board-codes
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Diagnostics, page 27. This page is a flattened image and was read from
     raw/page-27.png, not from the OCR text; CT900ENT service manual Error Code Log
     under Setting and Operation for Engineering Mode, PDF p. 29, text.md lines 443-453;
     CT1000ENT 2023 service manual Service table, Error Code Log row, PDF p. 19, text.md
-    lines 428-473
+    lines 428-473; CR900ENT 2021 service manual Diagnostics / Error Code Log, the
+    screen read from the render, PDF p. 26-27, text.md lines 330-362; CU1000ENT 2023
+    service manual Service table, Error Code Log row, a picture read from the render,
+    PDF p. 16, text.md lines 287-296
   extracted_at: '2026-09-08'
 ---
 
@@ -71,3 +77,5 @@ The CE800ENT elliptical has the same console family and the same Diagnostics scr
 does not print the ten-press clearing instruction: `ce800ent-error-code-log`.
 
 **The CT900ENT and CT1000ENT 2023 treadmill service manuals print the same two sentences** - *Diagnose and save malfunction error messages for technician to inspect the machine and troubleshooting. Press "Error Code Log" button 10 consecutive repetitions to clear the error message.* The CT1000ENT prints them in its engineering-mode Service table; the CT900ENT on a page of its own. Neither prints a worked example, so the `0x` log format above is the bike's page. The codes those logs hold are the treadmill lists on `ct900ent-errors-error-code-messages-list` and `ct1000ent-2023-errors-error-code-list-25-hex-codes`, both of which also write their codes as hex.
+
+**The CR900ENT 2021 recumbent service manual prints the same Diagnostics page** - the two sentences above and the same `Error Code Log` screen, reached the same way, ten presses on `Home`. **The CU1000ENT 2023 upright prints the two sentences in its engineering-mode Service table**, beside the key, NFC, communication, brake and sensor tests, and its engineering mode is entered with ten presses on `Welcome` rather than `Home`. The codes the CU1000ENT's log can hold are its own driver-board list, `0xB0` to `0xB3` (`cu1000ent-2023-errors-error-code-list-four-driver-board-codes`), which the console already writes in `0x` form.

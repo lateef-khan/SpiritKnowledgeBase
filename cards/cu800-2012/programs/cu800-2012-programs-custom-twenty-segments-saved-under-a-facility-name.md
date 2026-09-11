@@ -37,7 +37,7 @@ see_also:
 - spirit-bike-programs-preset-setup-steps
 source:
   ref: spirit-bike-cu800-2012-owners-manual
-  locator: 'CU800 2012 printed p. 19 (scan 1 PDF p. 21, scan 2 PDF p. 21)'
+  locator: 'CU800 2012 printed p. 19 (scan 1 PDF p. 21, scan 2 PDF p. 21); CU800 2012 service manual (XU878-AB04M) END MODE 6.2.2, PDF p. 15, text.md lines 229-230'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,7 +66,10 @@ The Custom Program builds and saves a workout, and can be **personalised with yo
 
 **Any preset workout can be saved as a custom program**, but the manual names two different keys for
 it. The Manual program's step 8 says to press the **Custom** key; the HRC program's step 10 says to
-press a **User** key. Both scans print it that way.
+press a **User** key. Both scans print it that way. **The service manual sides with the User key**:
+its END MODE page says the message window shows "PROGRAM END PRESS START TO REPEAT OR STOP TO END OR
+**USER KEY TO SAVE**", and that the USER key saves the parameters "in CUSTOM USER" - so the slot the
+User key writes to is the Custom program.
 
 **The manual calls the same feature three names** - "Custom", "Custom User Defined Programs" and
 "User 1 / User 2" - without saying whether there are one or two storage slots or how a User key maps

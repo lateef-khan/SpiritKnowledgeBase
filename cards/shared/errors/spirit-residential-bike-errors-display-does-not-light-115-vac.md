@@ -40,11 +40,12 @@ not_to_be_confused_with:
 see_also:
 - spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows
 - spirit-commercial-bike-errors-no-error-codes-printed
+- spirit-bike-errors-display-wont-come-on-check-computer-cable-then-meter
 source:
   ref: spirit-bike-xbu55-2023-owners-manual
-  locator: 'TROUBLESHOOTING, first row of the Problem / Solution-Cause table. XBU55
+  locator: TROUBLESHOOTING, first row of the Problem / Solution-Cause table. XBU55
     2023 p. 44 (PDF page 46); XBR25 2023 p. 37 (PDF page 39); XBR55 2023 p. 45 (PDF
-    page 47)'
+    page 47); the 2026-09-11 service-manual wave (see the closing paragraph)
   extracted_at: '2026-09-10'
 ---
 
@@ -79,3 +80,5 @@ though its sister XBR55 2023 is.
 This is a Spirit card. A Sole bike or treadmill with a dead console is a different fault list
 with different figures - see `sole-no-display` and `f65-2016-display-does-not-light`, and do not
 serve either of those to a Spirit owner.
+
+**The service manuals of these bikes answer a dead display in more steps** - reseat the computer cable at the console, then meter the output at each contact: `spirit-bike-errors-display-wont-come-on-check-computer-cable-then-meter`, which covers the XBR25 2016, XBR55 2016, XBR95 2016, XBR55ENT 2021, XBR55 2023 and XBR95 2023 books among others. That card still prints no voltage; the 115 VAC above is the owner's manuals' only figure.

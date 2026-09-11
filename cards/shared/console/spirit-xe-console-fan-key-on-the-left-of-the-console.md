@@ -1,6 +1,7 @@
 ---
 id: spirit-xe-console-fan-key-on-the-left-of-the-console
-title: The console fan is switched on by pressing the key on the left side of the console
+title: The console fan is switched on by pressing the key on the left side of the
+  console
 kind: fact
 question: Where is the fan button on a Spirit XE elliptical or XB bike console?
 asked_as:
@@ -59,9 +60,18 @@ not_to_be_confused_with:
 see_also:
 - spirit-xe-console-fan-switch-on-the-right-of-the-console-case
 - xe395ent-2021-console-homescreen-icon-bar-and-six-tabs
+- spirit-xbr-2016-console-face-7-5-inch-lcd-with-6-10-or-11-program-buttons
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES / Built-in Fan
+  locator: XE195 2021 p. 20; XE295 2021 p. 21; XG400 2021 p. 20; XE795 2021 p. 20;
+    XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 22; XE795
+    2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p.
+    20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021
+    p. 19, all Program Keys; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023
+    p. 21, all FEATURES / Built-in Fan. XBR55-2023 service manual BUILT-IN FAN, PDF
+    p. 6 (printed 6), text.md lines 115-116; XBU55-2023 PDF p. 6, lines 112-113; XBR95-2023
+    PDF p. 7, lines 120-121; the 2023 console drawings on the same pages label a "Fan
+    On/Off Button"
   extracted_at: '2026-09-09'
 ---
 
@@ -108,3 +118,8 @@ on the left side of the console."
 **Its console drawing labels the fan a Swivel Fan** and shows a **FAN** key at the left end of the
 bottom key row, which is the key the sentence means. The manual gives **no speed, no default and no
 way to switch it off**.
+
+**All three 2023 service manuals print the sentence word for word**, and their console drawing labels the
+key **Fan On/Off Button** beside the 7.5" LCD Display. The 2016 service manuals of the XBR25, XBR55,
+XBU55 and XBR95 call it the Fan Key, "Cooling fan switch on or off"
+(`spirit-xbr-2016-console-face-7-5-inch-lcd-with-6-10-or-11-program-buttons`).

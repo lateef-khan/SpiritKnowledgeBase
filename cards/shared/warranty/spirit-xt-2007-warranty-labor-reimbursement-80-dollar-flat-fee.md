@@ -4,7 +4,8 @@ title: Spirit pays the dealer a one-time flat completion fee of $80 per warranty
   occurrence
 kind: policy
 question: What does Spirit pay a dealer for warranty labour on a Spirit XT175, XT275,
-  XT375, XT475 or XT675 treadmill of the 2007 model year, and how is it claimed?
+  XT375, XT475 or XT675 treadmill or XBR25 or XBR55 recumbent bike of the 2007 model
+  year, and how is it claimed?
 asked_as:
 - how much does spirit pay for warranty labor
 - how do i claim labor credit from spirit
@@ -23,9 +24,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2007
+  - xbr55-2007
   - xt175-2007
   - xt275-2007
   - xt375-2007
@@ -44,7 +47,9 @@ see_also:
 - spirit-xt-2007-policy-contacting-customer-service
 source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
-  locator: WARRANTY POLICY, PDF p. 13 (printed 13), text.md lines 471-529
+  locator: WARRANTY POLICY, PDF p. 13 (printed 13), text.md lines 471-529; the same three passages,
+    word for word, in spirit-bike-xbr25-xbr55-2007-service-manual WARRANTY POLICY, PDF p. 9 (printed 9),
+    text.md lines 268-272, 283-296
   extracted_at: '2026-09-11'
 ---
 
@@ -66,4 +71,4 @@ source:
 
 Which parts must come back, and the 30-day billing that applies when they do not, is on `spirit-xt-2007-warranty-parts-returns-and-30-day-billing`; the eight kinds of repair that carry no credit at all are on `spirit-xt-2007-warranty-what-the-dealer-policy-does-not-cover`. A dealer who hands service to a third party still owes Spirit's policy and is billed for anything above the $80 (`spirit-xt-2007-policy-dealer-responsible-for-setup-and-service`).
 
-The consumer side of the same year's labour cover - one year - is in the per-model tables (`xt175-2007-warranty-home-periods` and its siblings); this page is what Spirit pays the dealer for delivering it.
+The consumer side of the same year's labour cover - one year on the treadmills and the XBR25, **two years on the XBR55** - is in the per-model tables (`xt175-2007-warranty-home-periods`, `xbr55-2007-warranty-home-periods` and their siblings); this page is what Spirit pays the dealer for delivering it, and the 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints it word for word, with the same $80.

@@ -2,7 +2,7 @@
 id: cu900ent-internet-manager-add-website
 title: Adding and deleting web pages on the console
 kind: procedure
-question: How do I add a website to a Spirit CU900ENT bike console?
+question: How do I add a website to a Spirit CU900ENT or CR900ENT bike console?
 asked_as:
 - how do i add a web page to the bike console
 - how do i delete youtube from the console
@@ -20,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -37,7 +38,9 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Software update pages and Instruction for adding new webs, pp. 31-32 (printed
-    31-32)
+    31-32). The CR900ENT-2021 service manual, Internet Manager pages, PDF pp. 31-32
+    (printed 31-32), text.md lines 427-465, prints the same page word for word. Same
+    six preset pages, same two-second delete, same Dyaco folder and ten presses.
   extracted_at: '2026-09-08'
 ---
 
@@ -69,4 +72,5 @@ presses:** `ct900ent-internet-site-manager`.
 **Neither document mentions the other.** The service manual route above is the one that installs a
 custom icon file; the owner's manual route is the one that works from the screen alone.
 
-**Nothing on this card is corroborated for the CR900ENT-2021.**
+**The CR900ENT-2021 service manual prints these two pages word for word** (its PDF pp. 31-32), so this
+card covers that machine too; its owner's manual describes only the on-screen route.

@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-safety-outlet-110-volt-15-amp
-title: The residential elliptical outlet is 110 volt, 15 amp, with nothing else on the circuit
+title: The residential elliptical outlet is 110 volt, 15 amp, with nothing else on
+  the circuit
 kind: policy
-question: What outlet and circuit does a Spirit XE395-2010, XE795-2018, XE795-2021 or XE895-2018 residential elliptical need?
+question: What outlet and circuit does a Spirit XE395-2010, XE795-2018, XE795-2021
+  or XE895-2018 residential elliptical need?
 asked_as:
 - what outlet does the xe395 need
 - how many amps does the elliptical draw
@@ -57,10 +59,16 @@ see_also:
 - spirit-ce-safety-no-placement-or-clearance-requirement
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 2, and GROUNDING INSTRUCTIONS, page 3.
-    All three XE795 printings print the safety-page WARNING on their page 4 - August 22
-    2018, February 19 2021 and November 30 2021. The XE895-2018 prints it on its page 4
-    and its Grounding Instructions on its page 6 The two Spirit XRW600 rower owner's manuals print the same WARNING on their printed page 5 - the February 2019 and the November 2021 printings
+  locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 2, and GROUNDING INSTRUCTIONS, page
+    3. All three XE795 printings print the safety-page WARNING on their page 4 - August
+    22 2018, February 19 2021 and November 30 2021. The XE895-2018 prints it on its
+    page 4 and its Grounding Instructions on its page 6 The two Spirit XRW600 rower
+    owner''s manuals print the same WARNING on their printed page 5 - the February
+    2019 and the November 2021 printings. The XBU55ENT-2021 service manual prints
+    no outlet figure; its matrix row `Check AC power is 110-120V` is PDF p. 33 (printed
+    33), text.md line 415, and its POWER sentence PDF p. 12 (printed 12), lines 124-125.
+    The XBU55-2016 (XU319-SB011-01) and XBR25-2016 (XR327-SB005-01) service manuals
+    print 115-volt instead: section 7, PDF p. 31 of each, lines 424-453 and 424-452.'
   extracted_at: '2026-09-09'
 ---
 
@@ -200,3 +208,15 @@ their consoles on batteries and print no supply at all
 run on 4 AA cells and print no electrical page whatsoever
 (`spirit-water-rower-safety-four-aa-batteries-and-no-electrical-page`). Never carry 110 volt onto
 one of those four.
+
+## What the service manuals add for the bikes
+
+**The XBU55ENT-2021 service manual prints no safety chapter and no outlet figure.** Its only supply
+statements are a troubleshooting row, `Check AC power is 110-120V`, and the product-operation
+sentence `When the power cord is connected to the fitness bike, the console will automatically power
+up`; the 110 volt for that machine comes from its owner's manual alone.
+
+**The 2016 service manuals for the XBU55 and XBR25 print 115 volt, not 110** - in the safety bullet
+and again as `a nominal 115-volt circuit` on the grounding paragraph
+(`spirit-xe-safety-outlet-115-volt-15-amp`). The XBU55-2016 (XU319-SB011-01) and XBR25-2016
+(XR327-SB005-01) are different SKUs from the 2019 machines on this card; quote each from its own book.

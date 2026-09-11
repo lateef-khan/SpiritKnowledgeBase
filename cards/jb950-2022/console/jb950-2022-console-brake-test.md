@@ -1,24 +1,26 @@
 ---
 id: jb950-2022-console-brake-test
-title: 'The Brake Test that runs the resistance motor from L-1 to L-20 and back, and the manual motor test behind it'
+title: The Brake Test that runs the resistance motor from L-1 to L-20 and back, and
+  the manual motor test behind it
 kind: procedure
-question: 'How do I test the magnetic resistance system on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I test the magnetic resistance system on a Spirit jb950-2022 Johnny
+  G Spirit Bike?
 asked_as:
-- 'how do i test the resistance on my johnny g bike'
-- 'the levels on my jb950 do not change'
-- 'motor test on the johnny g spirit bike'
-- 'brake test on my spin bike console'
+- how do i test the resistance on my johnny g bike
+- the levels on my jb950 do not change
+- motor test on the johnny g spirit bike
+- brake test on my spin bike console
 keywords:
-- 'brake test'
-- 'motor test auto'
-- 'motor test manual'
-- 'level to 20'
-- 'l-1'
-- 'l-20'
-- 'encoder'
-- 'limit sensor'
-- 'home'
-- 'active range'
+- brake test
+- motor test auto
+- motor test manual
+- level to 20
+- l-1
+- l-20
+- encoder
+- limit sensor
+- home
+- active range
 facets:
   brand:
   - spirit
@@ -38,7 +40,8 @@ see_also:
 - jb950-2022-console-reset
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 55 BRAKE TEST and MOTOR TEST MANUAL
+  locator: JB950-2022 printed p. 55 BRAKE TEST and MOTOR TEST MANUAL. JB950 service
+    manual 5.3 BRAKE TEST, PDF p. 41 (printed 41), text.md lines 700-724
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +81,12 @@ manual restricts it to occasions when a motor error has occurred -
 
 **Neither Brake Test nor Limit Sensor calibrates anything.** Calibration is a separate menu entry the
 manual tells you not to enter - `jb950-2022-console-calibration-do-not-enter`.
+
+**The service manual describes Motor Test Manual and Limit Sensor in more detail.** In Motor Test Manual,
+**use + and - to set a target, press Play to move the brake to the target position, and press again to
+return to zero**; **hold Play and + to reset the console and leave the test**. The ENCODER field is the
+target encoder count "and is an important tool to know whether the encoder is functioning properly";
+the lower display is the **Encoder Set Value** - where the brake should move to - while the encoder is
+where it actually reaches. In Limit Sensor, + and - move the brake, the top left shows the home
+sensor, the top right the end limit sensor, the bottom the encoder counts; **hold Play to end**. The
+1 / 2 / 3 readings are the same.

@@ -76,7 +76,11 @@ source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-2 C-SAFE FEATURE, p. 13 (printed 12); 4.0T owner's manual p.
     16. CT800-2020 service manual section 4-1-2 C-SAFE FEATURE, PDF p. 13 (printed
-    12), text.md lines 167-172
+    12), text.md lines 167-172. CR800 (2020) service manual 4-2-6 CSAFE FEATURE, PDF
+    p. 14 (printed 13), text.md lines 224-227; CU800 (2020) service manual PDF p.
+    14 (printed 13), lines 244-247. CR900-2018 service manual C-SAFE FEATURE, PDF
+    p. 13 (printed 13), text.md lines 142-145; CU900-2018 service manual PDF p. 14
+    (printed 14), lines 206-209
   extracted_at: '2026-09-08'
 ---
 
@@ -166,3 +170,6 @@ absence of a pinout or a cable part number.
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
 
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same POWER and COMM ports in the same words; their Display Board Wire Connections page also names a CSAFE BOARD among the console boards.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same POWER and COMM ports; their Display Board wire connection tables also define a five-pin J1 CSAFE connector (RX, TX, CSAFE-POWER, N/A, GND), held with the specs cards.

@@ -1,7 +1,7 @@
 ---
 id: spirit-ent-bike-console-layout-touchscreen
-title: The touchscreen console face with an adjustable fan angle, a USB charging port and Start, Stop
-  and Level keys
+title: The touchscreen console face with an adjustable fan angle, a USB charging port
+  and Start, Stop and Level keys
 kind: fact
 question: What is on the console of a Spirit CU800ENT or CR800ENT bike?
 asked_as:
@@ -40,12 +40,18 @@ see_also:
 - ct800ent-2022-console-home-screen
 - spirit-ent-bike-console-quick-start-touchscreen
 - spirit-ent-bike-console-entertainment-tv-mode
+- spirit-ent-bike-console-earphone-jack-output-only-volume-on-the-speaker-icon
+- spirit-ent-bike-console-usb-charging-port-5v-1a-charging-only
 source:
   ref: spirit-bike-cu800ent-2022-owners-manual
-  locator: CU800ENT-2022 p. 14 call-out drawing and p. 16 FUNCTIONS OF THIS UPRIGHT BIKE; CR800ENT-2023
-    p. 14 and p. 16; CU800ENT-2024 p. 11 PARTS OF YOUR UPRIGHT BIKE, p. 28 CONSOLE SCREEN - OVERVIEW
-    and p. 14 FUNCTIONS OF THIS UPRIGHT BIKE. All three call-out pages are flattened images and were
-    read from the OCR supplement in text.md
+  locator: CU800ENT-2022 p. 14 call-out drawing and p. 16 FUNCTIONS OF THIS UPRIGHT
+    BIKE; CR800ENT-2023 p. 14 and p. 16; CU800ENT-2024 p. 11 PARTS OF YOUR UPRIGHT
+    BIKE, p. 28 CONSOLE SCREEN - OVERVIEW and p. 14 FUNCTIONS OF THIS UPRIGHT BIKE.
+    All three call-out pages are flattened images and were read from the OCR supplement
+    in text.md. CR800ENT-2023 service manual Display Windows, PDF p. 12 (printed 12),
+    text.md lines 158-183 and the OCR supplement for that page; Upper Controllers,
+    PDF p. 7, lines 89-109. CU800ENT-2022 service manual PDF p. 12, lines 151-176,
+    and PDF p. 7, lines 82-102, word for word
   extracted_at: '2026-09-09'
 ---
 
@@ -104,3 +110,13 @@ Level on the lower portion of the console.
 **The two 2024 ENT treadmills are drawn with ten call-outs, not five**: they add a cellphone ledge, a
 small storage tray, a water bottle holder and cargo compartment, a safety key and contact heart rate
 grips (`ct800ent-2022-console-layout`).
+
+**The service manuals draw the same five things and name two more.** Their Display Windows page
+labels a **Bluetooth Heart rate Icon** on the screen, the **TFT LCD Touch Panel & Program Menu**, the
+**Adjustable fan angle**, the **USB Charging port** and the **Start, Stop and LEVEL Control Keys**
+(printed "Stars"); the screen artwork shows the Home, Exercise Programs and Internet tiles over "To
+begin workout press START on the keypad below". Their Upper Controllers photograph then labels a
+**Thumb Switch** and an **Earphone Port** beside the Display and the Cooling Fan - the jack the
+owner's manuals never mention (`spirit-ent-bike-console-earphone-jack-output-only-volume-on-the-speaker-icon`)
+- and the CHARGING FUNCTION page rates the USB port
+(`spirit-ent-bike-console-usb-charging-port-5v-1a-charging-only`).

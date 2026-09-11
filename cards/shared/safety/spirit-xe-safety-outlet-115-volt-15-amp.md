@@ -1,8 +1,12 @@
 ---
 id: spirit-xe-safety-outlet-115-volt-15-amp
-title: The outlet is 115 volt, 15 amp on a dedicated 15 amp breaker, and the grounding page says 110
+title: The outlet is 115 volt, 15 amp on a dedicated 15 amp breaker, and the grounding
+  page says 110
 kind: policy
-question: What outlet and circuit does a Spirit XE195, XE295, XE395 or XG400 elliptical need (xe195-2019, xe195-2021, xe295-2019, xe295-2021, xe395-2018, xe395ent-2021, xg400-2019 or xg400-2021)?
+question: What outlet and circuit does a Spirit XE195, XE295, XE395 or XG400 elliptical
+  (xe195-2019, xe195-2021, xe295-2019, xe295-2021, xe395-2018, xe395ent-2021, xg400-2019
+  or xg400-2021), or a 2016 Spirit XBR25, XBR55, XBU55 or XBR95 residential bike,
+  need?
 asked_as:
 - what outlet does the xe295 need
 - how many amps does the elliptical draw
@@ -25,12 +29,15 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2016
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
   - xbr55ent-2021
   - xbr95-2016
   - xbr95-2018
   - xbr95-2021
+  - xbu55-2016
   - xe195-2019
   - xe195-2021
   - xe295-2019
@@ -58,16 +65,29 @@ see_also:
 - xt385-2015-safety-extension-cord-18-awg-or-better
 - spirit-xe-2021-safety-instructions-list
 - spirit-ce-safety-no-placement-or-clearance-requirement
+- spirit-xb-2023-safety-outlet-220-volt-15-amp
+- spirit-extension-cord-16-awg-or-better
+- spirit-never-use-a-gfci-wall-outlet
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
-  locator: Important Safety Instructions, page 5, and the Circuit Breakers paragraph
-    on page 7. The XE195 manual prints both on pages 5 and 7, the XG400 manual on pages
-    5 and 6-7, and the XE395ENT manual on pages 6 and 8. The nominal 110-volt/15 amp
-    sentence is on the Grounding Instructions page of the XG400 manual, page 7, and of
-    the XE395ENT manual, page 8. The XE395-2018, XE195-2019, XE295-2019 and XG400-2019
-    printings print the WARNING on their page 5 and the circuit-breaker paragraph on
-    their page 7; the XE395-2018 grounding page, carrying the nominal 110-volt/15 amp
-    sentence, is its page 7
+  locator: 'Important Safety Instructions, page 5, and the Circuit Breakers paragraph
+    on page 7. The XE195 manual prints both on pages 5 and 7, the XG400 manual on
+    pages 5 and 6-7, and the XE395ENT manual on pages 6 and 8. The nominal 110-volt/15
+    amp sentence is on the Grounding Instructions page of the XG400 manual, page 7,
+    and of the XE395ENT manual, page 8. The XE395-2018, XE195-2019, XE295-2019 and
+    XG400-2019 printings print the WARNING on their page 5 and the circuit-breaker
+    paragraph on their page 7; the XE395-2018 grounding page, carrying the nominal
+    110-volt/15 amp sentence, is its page 7. Four Spirit residential bike service
+    manuals print the 115-volt, 15-amp bullet in 7.1 and `a nominal 115-volt circuit`
+    in 7.3: XBR25-2016 (XR327-SB005-01) service manual: section 7 Product Safety Instructions,
+    PDF p. 31 (printed 31); text.md lines 424-452. XBR55-2016 (XR329-SB011-01) service
+    manual: section 7, PDF p. 33 (printed 33); text.md lines 448-474. XBU55-2016 (XU319-SB011-01)
+    service manual: section 7, PDF p. 31 (printed 31); text.md lines 424-453. XBR95-2016
+    (XR829-SB012-01) service manual: section 7, PDF p. 35 (printed 35); text.md lines
+    457-483. The matrix row `Check AC power is 110-120V` is XBR25-2016 PDF p. 41,
+    line 613; XBR55-2016 PDF p. 42, line 608; XBU55-2016 PDF p. 41, line 612; XBR55ENT-2021
+    (XR329-SB013-01) service manual PDF p. 33 (printed 33), line 419, whose POWER
+    sentence is PDF p. 12, lines 127-128.'
   extracted_at: '2026-09-09'
 ---
 
@@ -188,3 +208,26 @@ product family. Quote the machine's own manual.
 **The four 2023 XB manuals print no voltage and no amperage at all.** Their ELECTRICAL SAFETY page
 gives the ten percent variation rule and the AFCI/GFCI paragraph and names no circuit
 (`spirit-xe-safety-no-outlet-figure-printed` covers the same absence for the XE machines).
+
+## Four Spirit residential bike service manuals print 115 volt, 15 amp - and their grounding page says 115 too
+
+**The XBR25-2016 (XR327-SB005-01), XBR55-2016 (XR329-SB011-01), XBU55-2016 (XU319-SB011-01) and
+XBR95-2016 (XR829-SB012-01) service manuals print the WARNING with `Bike`** - `install the Bike on a
+flat level surface with access to a 115-volt, 15-amp grounded outlet with only the Bike plugged into
+the circuit` - **and their grounding paragraph names `a nominal 115-volt circuit`**, not the 110 of
+the title above. These four are the one Spirit residential family whose two voltage sentences agree.
+Their circuit-breaker paragraph ends at `part # QO120HM` with no dedicated-breaker sentence
+(`spirit-house-breaker-needs-a-high-inrush-type`), and their extension cord is 16 AWG
+(`spirit-extension-cord-16-awg-or-better`), not the 18AWG or 14AWG of the owner's manuals.
+
+- **The XBR25-2016 and XBU55-2016 are 115-volt where their 2019 owner's-manual successors are
+  110-volt** (`spirit-xe-safety-outlet-110-volt-15-amp`). Different SKUs; quote each from its own
+  book. The three 2016 XBR25/XBR55/XBU55 books also print, in their troubleshooting matrix, `Check
+  AC power is 110-120V` - a range, not a third figure.
+- **The XBR95-2016 service manual prints the page on a self-powered machine**, exactly as its
+  owner's manual does (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The XBR55ENT-2021 service manual prints no safety chapter and no outlet figure.** Its only supply
+statements are the matrix row `Check AC power is 110-120V` and the product-operation sentence `When
+the power cord is connected to the fitness bike, the console will automatically power up`; the 115
+volt for that machine comes from its owner's manual alone.

@@ -2,8 +2,8 @@
 id: cu900ent-lift-arm-group-replacement
 title: Lift arm group and seat riser replacement
 kind: procedure
-question: How do I replace the lift arm group or the seat riser on a Spirit CU900ENT
-  bike?
+question: How do I replace the lift arm group or the seat riser on a Spirit CU900,
+  CU900ENT or CU1000ENT upright bike?
 asked_as:
 - seat riser replacement on my spirit cu900 bike
 - lift arm on the cu900ent
@@ -22,8 +22,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -34,7 +36,10 @@ see_also:
 - cu900ent-down-control-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.9 Lift Arm Group Replacement, pp. 57-60 (printed 57-60)
+  locator: 'cu900ent: Section 8, 6.9 Lift Arm Group Replacement, pp. 57-60 (printed
+    57-60) | cu900-2018: 6.9 Lift Arm Group Replacement, PDF pp. 51-54; text.md lines
+    841-903 | cu1000ent-2023: 12.20 Lift Arm Group Replacement, PDF pp. 29-33; text.md
+    lines 630-707'
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +66,4 @@ apart.
 
 No screw sizes are printed. The only count is the **two screws** on the handle in 6.9.3.
 
+**Three books, one procedure.** The CU900 (2018) manual prints this as 6.9 - including the "6.1.15" figure slip - and the CU1000ENT (2023) manual as 12.20 with figures 12.44 to 12.58 and no such slip. The steps, the "highest" setting first, and the two handle screws are the same in all three.

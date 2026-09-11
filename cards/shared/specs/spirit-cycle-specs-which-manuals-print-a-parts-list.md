@@ -46,6 +46,8 @@ see_also:
 - spirit-cycle-specs-no-specification-table
 - spirit-cycle-specs-resistance-systems
 - spirit-cic850-specs-dt3268f-console-part-number
+- jb950-2022-specs-parts-drive-system-callouts
+- spirit-bike-specs-parts-which-service-manuals-print-a-parts-list
 source:
   ref: spirit-bike-cic850-2022-owners-manual
   locator: 'CIC850-2022 Table of Contents printed p. 3 (39 EXPLODED DRAWING, 40 PARTS
@@ -73,7 +75,10 @@ For the five with none, the book runs out at the warranty, the manufacturer
 address page and NOTES pages. **The only part numbers those five give are the
 step-by-step hardware callouts inside the assembly chapter**, which cover
 fasteners and tools and nothing else. The AB900-2018 and the JB950-2022 both end
-that way despite being 52 and 76 pages long.
+that way despite being 52 and 76 pages long. Their service manuals do not fill the gap: the JB950 service
+book draws its drive system with fifteen numbered names and no part numbers
+(`jb950-2022-specs-parts-drive-system-callouts`), and the AB900 and CIC850 service books print no list at
+all (`spirit-bike-specs-parts-which-service-manuals-print-a-parts-list`).
 
 ## Do not settle this from the table of contents
 

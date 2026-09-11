@@ -40,7 +40,11 @@ source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Maintenance screen and Default Language Setup, p. 28 (printed 28). This
     page is a flattened image and was read from raw/page-28.png, not from the OCR
-    text
+    text. The CR900ENT-2021 service manual, Maintenance screen and Default Language
+    Setup, PDF p. 27 (printed 27), text.md lines 355-357 and the OCR supplement for
+    PDF page 27, prints the same page word for word. It prints the same six buttons
+    and "12 languages", and its rendered language grid shows Español, Italiano, Português,
+    Nederlands and Norsk among them.
   extracted_at: '2026-09-08'
 ---
 
@@ -87,3 +91,5 @@ is `cu900ent-tv-switching-box-selection`.
 **The twelve-language list above is from the service manual only.** Neither owner's manual names the
 languages; both say only that Default Language Setup sets the language shown when the console is
 turned on, and that the console returns to it once the user finishes.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. It prints the same six buttons and "12 languages", and its rendered language grid shows Español, Italiano, Português, Nederlands and Norsk among them.

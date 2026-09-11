@@ -21,6 +21,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - cr900ent-2021
   - ct900ent
   - cu900ent
   section: errors
@@ -38,7 +39,8 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Error Code Messages table, page 22; CT900ENT service manual Error Code
-    Messages, PDF p. 19, text.md lines 256-288
+    Messages, PDF p. 19, text.md lines 256-288; CR900ENT 2021 service manual Error
+    Code Messages table, PDF p. 21, text.md lines 222-239 (the 41H row)
   extracted_at: '2026-09-08'
 ---
 
@@ -57,3 +59,5 @@ multi-meter. Anything beyond the description above would be invention.
 The whole printed table, and what the two families of code mean, is on `cu900ent-error-code-messages-list`.
 
 **The CT900ENT treadmill service manual prints this row word for word** - same code, same description, same remark - in an Error Code Messages table that also carries sixteen inverter codes the bike does not have (`ct900ent-errors-error-code-messages-list`).
+
+**The CR900ENT 2021 recumbent service manual prints this row word for word** - same code, same description, same remark - in the same eight-row `Error Code Messages` table, followed by the same one-row `EEPROM ERR` table and the same multi-meter. Nothing in the recumbent book adds a cause or a fix.

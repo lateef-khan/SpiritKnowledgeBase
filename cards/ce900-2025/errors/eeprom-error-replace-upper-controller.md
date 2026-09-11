@@ -4,7 +4,8 @@ title: EEPROM ERROR blanks every window and stops all output, and the fix is a n
   upper controller
 kind: troubleshooting
 question: What does EEPROM ERROR mean on a Spirit CE800-2024, CE850-2024 or CE900-2025
-  elliptical or a CR800-2024, CR900-2025, CU800-2024 or CU900-2025 bike?
+  elliptical or a CR800-2021, CR800-2024, CR900-2025, CU800-2012, CU800-2021, CU800-2024
+  or CU900-2025 bike?
 asked_as:
 - what does eeprom error mean on my spirit elliptical
 - elliptical console showing eeprom error
@@ -26,8 +27,11 @@ facets:
   - ce800-2024
   - ce850-2024
   - ce900-2025
+  - cr800-2021
   - cr800-2024
   - cr900-2025
+  - cu800-2012
+  - cu800-2021
   - cu800-2024
   - cu900-2025
   section: errors
@@ -40,10 +44,16 @@ not_to_be_confused_with:
 see_also:
 - ces880-2025-errors-eeprom-error-replace-display-board
 - cu900ent-eeprom-err
+- spirit-bike-errors-eeprom-err-replace-upper-controller
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
   locator: 'ERROR CODES: CE900 2025 printed page 33; CR900 2025 printed page 35; CU900
-    2025 printed page 34'
+    2025 printed page 34; CU800 2020-book (cu800-2021) service manual 7-1 Error Codes
+    and 7-3 Error Message: EEPROM ERROR, PDF p. 24-25 (printed 23-24), text.md lines
+    357-388; CR800 2020-book (cr800-2021) service manual 7-1 Error Codes and 7-3 Error
+    Message: EEPROM ERROR, PDF p. 24-25 (printed 23-24), text.md lines 335-366; CU800
+    2012 (XU878) service manual Error code items and Error Message: EEPROM ERROR,
+    PDF p. 32, text.md lines 494-513'
   extracted_at: '2026-09-09'
 ---
 
@@ -86,3 +96,5 @@ the other six do not - `ERR` for a tension motor failure and `---` for a stride 
 `ce850-2024-errors-err-tension-motor-failure` and
 `ce850-2024-errors-stride-window-dashes-stride-motor-failure`. On the CE800 2024, CR800 2024 and
 CU800 2024 the EEPROM row is still the whole table.
+
+**Three bike service manuals print this same page** - the `Error Code | CAUSE` table with its single `EEPROM | EEPROM failure` row, the same three-line definition and *Replace upper controller*: the CU800 2020-book (`cu800-2021`) at 7-3, the CR800 2020-book (`cr800-2021`) at 7-3, and the CU800 2012 (XU878) book, which heads its one-row table `Error code items` and prints the message as `EEPROM ERROR` throughout. All three name a multi-meter as the only tool and never use it for this message. The `EEPROM ERR` spelling on the 2016 residential and 2018 commercial LCD/LED books gets the same upper-controller fix on `spirit-bike-errors-eeprom-err-replace-upper-controller`.

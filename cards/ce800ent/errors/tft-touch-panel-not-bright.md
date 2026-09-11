@@ -3,7 +3,7 @@ id: ce800ent-tft-touch-panel-not-bright
 title: The touch panel is not bright, incomplete or imperfect
 kind: troubleshooting
 question: Why is the touch screen dim or incomplete on a Spirit CE800ENT or CE800ENT-2024
-  elliptical or a CR800ENT-2024 or CU800ENT-2024 bike?
+  elliptical or a CR800ENT-2023, CR800ENT-2024, CU800ENT-2022 or CU800ENT-2024 bike?
 asked_as:
 - elliptical touch screen is dim
 - spirit elliptical screen half lit
@@ -26,7 +26,9 @@ facets:
   applies_to:
   - ce800ent
   - ce800ent-2024
+  - cr800ent-2023
   - cr800ent-2024
+  - cu800ent-2022
   - cu800ent-2024
   section: errors
   code: no-code
@@ -40,9 +42,12 @@ see_also:
 - ct850-2020-led-displays-dim-or-incomplete
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: 'CE800ENT service manual section 7-3 Troubleshooting procedure matrix, page
-    27; CU800ENT 2024 owner''s manual TROUBLESHOOTING, printed page 50 (that page is
-    a flat picture and was read from the rendered page)'
+  locator: CE800ENT service manual section 7-3 Troubleshooting procedure matrix, page
+    27; CU800ENT 2024 owner's manual TROUBLESHOOTING, printed page 50 (that page is
+    a flat picture and was read from the rendered page); CU800ENT 2020-ver book (cu800ent-2022)
+    service manual 7-3 Troubleshooting procedure matrix, PDF p. 27, text.md lines
+    418-452; CR800ENT 2020-ver book (cr800ent-2023) service manual 7-3 Troubleshooting
+    procedure matrix, PDF p. 27, text.md lines 425-459
   extracted_at: '2026-09-08'
 ---
 
@@ -69,3 +74,5 @@ causes and no voltage figure: `ce900-2025-errors-leds-not-bright-incomplete-or-i
 
 **The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print this row word for word**,
 the 120VAC included. Neither has a second row for dead segments either.
+
+**The CU800ENT "2020 ver." service manual (`cu800ent-2022`) and the CR800ENT "2020 Ver." service manual (`cr800ent-2023`) print this row word for word, the `120VAC` included**, and like the other books of this console family print no second row for dead segments.

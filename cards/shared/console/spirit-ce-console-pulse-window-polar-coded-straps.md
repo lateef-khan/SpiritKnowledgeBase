@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-pulse-window-polar-coded-straps
-title: The pulse window needs both steel grips, and the console also reads Polar coded chest straps
+title: The pulse window needs both steel grips, and the console also reads Polar coded
+  chest straps
 kind: fact
-question: Why is my heart rate not showing on a Spirit CE800, CE850 or CES880 elliptical, or a Spirit CR800 or CU800-2021 bike?
+question: Why is my heart rate not showing on a Spirit CE800, CE850 or CES880 elliptical,
+  or a Spirit CR800 or CU800-2021 bike?
 asked_as:
 - why does my elliptical not show my heart rate
 - do i have to hold both handles for pulse on the elliptical
@@ -51,8 +53,10 @@ see_also:
 - xt-2023-console-spirit-plus-app-pairing
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 16 HEART RATE WINDOW; CE800 2023 p. 17; CE850 2020 p. 22; CE850 2022 p. 23; CES880
-    2025 p. 33 Heart Rate Monitoring
+  locator: CE800 2021 p. 16 HEART RATE WINDOW; CE800 2023 p. 17; CE850 2020 p. 22;
+    CE850 2022 p. 23; CES880 2025 p. 33 Heart Rate Monitoring. CR800 (2020) service
+    manual 4-2-5 HEART RATE WINDOW, PDF p. 14 (printed 13), text.md lines 218-222;
+    CU800 (2020) service manual PDF p. 14 (printed 13), lines 238-242
   extracted_at: '2026-09-09'
 ---
 
@@ -124,3 +128,5 @@ fact is `spirit-ce-programs-chest-strap-sold-separately`. Neither statement ment
 chapter never mentions:
 `spirit-cr800-cu800-console-bluetooth-module-with-no-procedure`. **The CRS800S-2021 parts list has
 no such item.**
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both name "The CR800" as the machine that picks up Polar coded transmissions - the CU800 (2020) book too, which was made from the recumbent's.

@@ -2,7 +2,7 @@
 id: cu900ent-engineering-mode-settings
 title: Wheel size, beep, sleep and units
 kind: fact
-question: How do I switch a Spirit CU900ENT bike between miles and kilometres?
+question: How do I switch a Spirit CU900ENT or CR900ENT bike between miles and kilometres?
 asked_as:
 - how do i change the bike console to miles
 - how do i stop the bike console going to sleep
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -35,7 +36,11 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Engineering Mode screen, p. 26 (printed 26). This page is a flattened image
-    and was read from raw/page-26.png, not from the OCR text
+    and was read from raw/page-26.png, not from the OCR text. The CR900ENT-2021 service
+    manual, Engineering Mode screen, PDF p. 25 (printed 25), text.md lines 318-327
+    and the OCR supplement for PDF page 25, prints the same page word for word. Its
+    screenshot shows the same WHEEL SIZE, BEEP MODE ON, SLEEP MODE OFF and UNITS KM,
+    and the same 30-minute sleep sentence.
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +66,5 @@ calibration value; on this bike it is inert.
 
 The elliptical in the same console family has Units, Beep, Sleep and **Pause Mode**, and no wheel
 size.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Its screenshot shows the same WHEEL SIZE, BEEP MODE ON, SLEEP MODE OFF and UNITS KM, and the same 30-minute sleep sentence.

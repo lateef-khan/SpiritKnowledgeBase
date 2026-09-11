@@ -1,8 +1,10 @@
 ---
 id: spirit-ce900-console-three-speed-fan
-title: The three-speed console fan and the button on the upper right that cycles it off again
+title: The three-speed console fan and the button on the upper right that cycles it
+  off again
 kind: fact
-question: How do I turn the console fan on a Spirit CE900 elliptical or a Spirit CR900 or CU900 bike up or off?
+question: How do I turn the console fan on a Spirit CE900 elliptical or a Spirit CR900
+  or CU900 bike up or off?
 asked_as:
 - how do i turn on the fan on my elliptical
 - how do i make the elliptical fan blow harder
@@ -37,7 +39,9 @@ see_also:
 - ce900-2025-console-screen-overview
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: CE900 2021 p. 17 NUMBER KEY PAD; CE900 2025 p. 16 FEATURES
+  locator: CE900 2021 p. 17 NUMBER KEY PAD; CE900 2025 p. 16 FEATURES. CR900-2018
+    service manual NUMBER KEY PAD, PDF p. 14 (printed 14), text.md lines 193-194;
+    CU900-2018 service manual PDF p. 15 (printed 15), lines 257-258
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +72,5 @@ CR800-2023 and CU800-2021 label a **Fan** on the console drawing and never say h
 The CR900ENT-2021 and CU900ENT have a **Fan** button in the row of physical keys under the screen
 with no speeds described; the CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 have a fixed grille
 with an **adjustable fan angle** and no switch is described at all.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same three-speed fan on the key at the upper right, cycling off after the third setting; their Display Board tables also define a four-pin J12 FAN connector.

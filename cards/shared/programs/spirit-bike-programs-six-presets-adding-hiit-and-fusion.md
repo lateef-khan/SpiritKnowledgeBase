@@ -39,7 +39,7 @@ see_also:
 - spirit-bike-programs-interval-profile
 source:
   ref: spirit-bike-xbr55-2023-owners-manual
-  locator: 'XBR25 2023 printed p. 23-24; XBR95 2023 p. 28-29; XBR55/XBU55 2023 p. 29-30 (PROGRAMS - PRESET)'
+  locator: 'XBR25 2023 printed p. 23-24; XBR95 2023 p. 28-29; XBR55/XBU55 2023 p. 29-30 (PROGRAMS - PRESET); service manuals: XBR55 2023 (XR329A-SB030) Product Operation console drawing PDF p. 5, text.md lines 85-93 (caption read from the render), and PROGRAM KEYS p. 6, lines 99-100; XBU55 2023 (XU319A-SB030) p. 5, lines 82-96, and p. 6, lines 96-97; XBR95 2023 (XR829A-SB032) p. 6, lines 92-105'
   extracted_at: '2026-09-10'
 ---
 The four 2023 residential bike manuals - XBR25, XBR55, XBU55 and XBR95 - all say the bike "has
@@ -55,6 +55,16 @@ heart rate programs**; the XBR25 2023 does not
 
 **Every program is reached through one PROGRAM key** rather than a key per program: press PROGRAM
 until the one you want is shown, then Enter. The level keys are labelled **+** and **-**.
+
+**The three 2023 service manuals print a stale caption under the console drawing.** The XBR55
+2023, XBU55 2023 and XBR95 2023 service manuals each open Product Operation with a drawing of the
+console whose single PROGRAM key is captioned "Program Button (Manual, Hill, Fat burn, Strength,
+Interval, 2 Users, and 2 HR)" - an older key-strip caption, with Interval where HIIT now is, no
+Fusion, no Cardio, "2 Users" and "2 HR". The drawing itself shows one PROGRAM key, an ENTER key and a direct LEVEL
+row, and the same page's PROGRAM KEYS paragraph says the Program Key previews each program. **The
+caption contradicts the owner's manual's six presets and four heart rate programs and is carried
+over from an older key strip; the owner's manual is the list to quote.** None of the three service
+manuals prints a program description.
 
 **HIIT here is the old Interval program renamed.** Its paragraph is the Interval paragraph word for
 word, and it takes the ordinary preset setup - it does not ask for sprint or rest lengths - see

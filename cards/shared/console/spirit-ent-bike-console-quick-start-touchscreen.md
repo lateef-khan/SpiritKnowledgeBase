@@ -1,9 +1,10 @@
 ---
 id: spirit-ent-bike-console-quick-start-touchscreen
-title: Quick Start on the touchscreen bikes, where the level is set on screen or on the lower control
-  panel
+title: Quick Start on the touchscreen bikes, where the level is set on screen or on
+  the lower control panel
 kind: procedure
-question: How do I start a workout without programming anything on a Spirit CU800ENT or CR800ENT bike?
+question: How do I start a workout without programming anything on a Spirit CU800ENT
+  or CR800ENT bike?
 asked_as:
 - how do i just start pedalling on the spirit ent bike
 - how do i change the resistance on the bike touchscreen
@@ -39,7 +40,10 @@ see_also:
 - ct800ent-2022-console-quick-start
 source:
   ref: spirit-bike-cu800ent-2022-owners-manual
-  locator: CU800ENT-2022 p. 16 QUICK START; CR800ENT-2023 p. 16; CU800ENT-2024 p. 14
+  locator: CU800ENT-2022 p. 16 QUICK START; CR800ENT-2023 p. 16; CU800ENT-2024 p.
+    14. CR800ENT-2023 service manual section 4 Product Operation, QUICK START, PDF
+    p. 13 (printed 13), text.md lines 190-193; CU800ENT-2022 service manual PDF p.
+    13, lines 183-186, word for word
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +76,6 @@ step** in either book.
 
 **The two 2024 ENT treadmills have a different Quick Start** - a belt that starts at 0.5 mph and
 Speed ▲/▼ keys rather than a Level key: `ct800ent-2022-console-quick-start`.
+
+**Both service manuals print the Quick Start paragraph word for word**, under the same FUNCTIONS OF THIS
+UPRIGHT BIKE heading - the recumbent's book included.

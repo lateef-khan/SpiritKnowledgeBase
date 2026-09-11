@@ -2,8 +2,8 @@
 id: spirit-extension-cord-16-awg-or-better
 title: Extension cord must be 16 AWG or better with one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit CT850-2016 treadmill or a Spirit
-  CVC800 climber?
+question: Can I use an extension cord on a Spirit CT850-2016 treadmill, a Spirit CVC800
+  climber, or a Spirit XBR or XBU residential bike of the 2016 or 2023 generation?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension cord for a spirit machine
@@ -25,6 +25,13 @@ facets:
   applies_to:
   - ct850-2016
   - cvc800
+  - xbr25-2016
+  - xbr55-2016
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2023
+  - xbu55-2016
+  - xbu55-2023
   section: safety
   code: '*'
 authority: 3
@@ -32,14 +39,29 @@ not_to_be_confused_with:
 - ct850-2020-extension-cord-14-awg-or-better
 - 40t-2026-safety-extension-cord-1-mm2-or-better
 - spirit-2026t-safety-extension-cord-12-awg-or-larger
+- xt-2015-safety-extension-cord-14-awg-or-better
+- xt385-2015-safety-extension-cord-18-awg-or-better
 see_also:
 - ct850-2016-only-reaches-7-mph
 - spirit-product-must-be-grounded
+- spirit-xb-2023-safety-outlet-220-volt-15-amp
+- spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-bike-safety-no-mains-outlet-needed
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
-    sentence with 'climber' is Important Safety Instructions, p. 25 (printed 25),
-    of the CVC800 manual
+  locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
+    sentence with ''climber'' is Important Safety Instructions, p. 25 (printed 25),
+    of the CVC800 manual. Seven Spirit residential bike service manuals print the
+    sentence in 7.1 Important Safety Instructions: XBR25-2016 (XR327-SB005-01) service
+    manual: section 7 Product Safety Instructions, PDF p. 31 (printed 31); text.md
+    lines 424-452. XBR55-2016 (XR329-SB011-01) service manual: section 7, PDF p. 33
+    (printed 33); text.md lines 448-474. XBU55-2016 (XU319-SB011-01) service manual:
+    section 7, PDF p. 31 (printed 31); text.md lines 424-453. XBR95-2016 (XR829-SB012-01)
+    service manual: section 7, PDF p. 35 (printed 35); text.md lines 457-483. XBR55-2023
+    (XR329A-SB030) service manual: section 7.1-7.3, PDF p. 11 (printed 11 of 30);
+    text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual: section 7.1-7.3,
+    PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023 (XR829A-SB032)
+    service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223.'
   extracted_at: '2026-09-08'
 ---
 
@@ -62,3 +84,17 @@ source:
 
 The grounding chapter states the same no-modification rule at greater length:
 `spirit-product-must-be-grounded`.
+
+## Seven Spirit residential bike service manuals print 16 AWG
+
+**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
+manuals print both sentences word for word**, with `Bike`: 16 AWG minimum, one outlet on the end,
+never defeat the grounded plug.
+
+**The owner's manuals of the same range print other gauges or none.** The XBR95-2016 owner's manual
+says 18AWG in the same position (`xt385-2015-safety-extension-cord-18-awg-or-better`); the 2023 XB
+owner's manuals print no extension-cord rule at all; the 2019 and 2021 XBR25, XBR55 and XBU55
+owner's manuals say 14AWG (`xt-2015-safety-extension-cord-14-awg-or-better`), and the 2016 books are
+the service-manual SKUs that precede them. Nothing reconciles 16 with 18 or 14; quote the gauge from
+the book in the customer's hand. The two XBR95 books print it on a self-powered machine with no cord
+to extend (`spirit-bike-safety-no-mains-outlet-needed`).

@@ -2,7 +2,7 @@
 id: cu900ent-date-and-time-setup
 title: Setting the date, time and region
 kind: procedure
-question: How do I set the clock on a Spirit CU900ENT bike console?
+question: How do I set the clock on a Spirit CU900ENT or CR900ENT bike console?
 asked_as:
 - how do i set the time on the bike console
 - the console clock is wrong
@@ -19,8 +19,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -32,7 +33,10 @@ see_also:
 - cu900ent-maintenance-menu
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Under Connection Type, p. 34 (printed 34)
+  locator: Under Connection Type, p. 34 (printed 34). The CR900ENT-2021 service manual,
+    Ethernet Configuration and Date&Time, PDF pp. 33-34 (printed 33-34), text.md lines
+    489-500, prints the same page word for word. It prints the same five steps, including
+    "Etherner Configuration" and "resume the treadmill power".
   extracted_at: '2026-09-08'
 ---
 
@@ -47,3 +51,5 @@ Step 4 needs a working network connection, so set Wi-Fi or Ethernet up first.
 
 The manual writes step 5 as "Please resume the treadmill power when complete" in the bike manual;
 the same page block is reused across the range.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. It prints the same five steps, including "Etherner Configuration" and "resume the treadmill power".

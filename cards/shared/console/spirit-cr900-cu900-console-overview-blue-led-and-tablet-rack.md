@@ -1,8 +1,10 @@
 ---
 id: spirit-cr900-cu900-console-overview-blue-led-and-tablet-rack
-title: The console overview drawing that names an ultra-bright blue LED display and a tablet rack
+title: The console overview drawing that names an ultra-bright blue LED display and
+  a tablet rack
 kind: fact
-question: What does the console overview drawing name on a 2018 Spirit CR900 or CU900 bike?
+question: What does the console overview drawing name on a 2018 Spirit CR900 or CU900
+  bike?
 asked_as:
 - what is on the cr900 bike console
 - does the spirit bike have a tablet holder
@@ -38,8 +40,11 @@ see_also:
 - spirit-ce-console-led-console-face
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: CR900-2018 p. 13 and CU900-2018 p. 11, the CONSOLE OPERATION call-out page. Both pages are
-    flattened images with no text layer and were read from the OCR supplement in text.md
+  locator: CR900-2018 p. 13 and CU900-2018 p. 11, the CONSOLE OPERATION call-out page.
+    Both pages are flattened images with no text layer and were read from the OCR
+    supplement in text.md. CR900-2018 service manual Display Windows, PDF p. 12 (printed
+    12), read from the OCR supplement for that page; CU900-2018 service manual PDF
+    p. 13 (printed 13), read from the OCR supplement
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +74,5 @@ not in the manuals.
 
 The drawing also carries the bilingual **keep children under 13 away** warning decal and the Spirit
 logo. The decal is a safety label, not a console feature.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same drawing and the same call-outs - integrated adjustable fan, premium ultra-bright blue LED display, LED heart rate and lap counter graph, large LED matrix window, tablet friendly reading rack holder - with the ENTER, START and STOP keys readable below.

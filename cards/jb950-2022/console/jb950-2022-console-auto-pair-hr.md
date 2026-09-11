@@ -1,23 +1,25 @@
 ---
 id: jb950-2022-console-auto-pair-hr
-title: 'Turning heart rate pairing during Warm Up on or off for a facility, which defaults to off'
+title: Turning heart rate pairing during Warm Up on or off for a facility, which defaults
+  to off
 kind: procedure
-question: 'How do I stop the console asking every rider to pair a heart rate strap on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I stop the console asking every rider to pair a heart rate strap
+  on a Spirit jb950-2022 Johnny G Spirit Bike?
 asked_as:
-- 'how do i skip the heart rate pairing on my johnny g bike'
-- 'the jb950 keeps asking me to pair a strap'
-- 'auto pair hr on the johnny g spirit bike'
-- 'turn off heart rate prompts for my class'
+- how do i skip the heart rate pairing on my johnny g bike
+- the jb950 keeps asking me to pair a strap
+- auto pair hr on the johnny g spirit bike
+- turn off heart rate prompts for my class
 keywords:
-- 'auto pair hr'
-- 'auto detect hr'
-- 'warm up mode'
-- 'default off'
-- 'pair hr device'
-- 'programs mode'
-- 'facility'
-- 'class'
-- 'maintenance mode'
+- auto pair hr
+- auto detect hr
+- warm up mode
+- default off
+- pair hr device
+- programs mode
+- facility
+- class
+- maintenance mode
 facets:
   brand:
   - spirit
@@ -37,7 +39,9 @@ see_also:
 - jb950-2022-console-hr-zone-led
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 59 AUTO PAIR HR; contents list on printed p. 51 names it Auto Detect HR
+  locator: JB950-2022 printed p. 59 AUTO PAIR HR; contents list on printed p. 51 names
+    it Auto Detect HR. JB950 service manual 5.3 AUTO DETECT HR, PDF p. 43 (printed
+    43), text.md lines 785-791
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +69,5 @@ where the rider pairs.
 
 **Either way, a strap can only be paired during Warm Up Mode.** A rider who puts one on later needs a
 console reset - `jb950-2022-console-pair-heart-rate-strap`.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** The service manual calls it AUTO DETECT HR on its own page as well as in the menu list, and describes it as turning the auto-searching chest strap function on or off.

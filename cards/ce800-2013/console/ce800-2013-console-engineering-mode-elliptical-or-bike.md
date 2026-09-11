@@ -1,8 +1,10 @@
 ---
 id: ce800-2013-console-engineering-mode-elliptical-or-bike
-title: The engineering menu whose Functions list holds a 20-minute sleep and an Elliptical or Bike setting
+title: The engineering menu whose Functions list holds a 20-minute sleep and an Elliptical
+  or Bike setting
 kind: procedure
-question: How do I get into engineering mode on a Spirit ce800-2013 elliptical or a Spirit cu800-2012 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit ce800-2013 elliptical or
+  a Spirit cu800-2012 bike, and what is in it?
 asked_as:
 - how do i get into engineering mode on my old spirit elliptical
 - how do i lock the keypad on the elliptical
@@ -32,13 +34,16 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - ce850-2016-console-engineering-mode-security-lock
+- cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
 see_also:
 - ce850-2016-console-engineering-mode-security-lock
 - ce900-2025-console-engineering-mode-unit-type
 - ce800-2013-console-power-up-odometer
+- cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock
 source:
   ref: spirit-elliptical-ce800-2013-owners-manual
-  locator: p. 28 (printed 26), Engineering Mode Menu. Source is OCR of an image-only scan
+  locator: p. 28 (printed 26), Engineering Mode Menu. Source is OCR of an image-only
+    scan
   extracted_at: '2026-09-09'
 ---
 
@@ -90,3 +95,10 @@ software calculations; the manual does not say what goes wrong if it is set to E
 **The later CR800 and CU800-2021 bikes have a different menu** - Key Test, Display Test, Function,
 Service, Exit, with a PWM test and a Csafe test and no Security or sleep entry:
 `spirit-ce800-console-maintenance-menu-function-and-service`.
+
+**The XU878 service manual for the CU800-2012 prints a different menu for the same machine.** Its
+list runs Key Test, Display Test, Functions, Security; its Sleep Mode says **30 minutes**, not 20, and
+"turn off" to power down; its Security unlock is **Start and Enter held for 3 seconds**, not Level Up
+then Enter; and its Functions order is Sleep, Pause, ODO Reset, Units, Beep, DA Test, Elliptical/Bike.
+The same seven settings, two timeouts and two unlock gestures, and nothing resolves them:
+`cu800-2012-console-maintenance-menu-30-minute-sleep-and-start-enter-three-second-unlock`.

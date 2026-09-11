@@ -33,8 +33,10 @@ see_also:
 - spirit-ce-console-blue-led-console-face
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
-  locator: CE850 2016 p. 19; CE800 2013 p. 18 (printed 15). The CE800-2013 text is OCR of an image-only
-    scan
+  locator: CE850 2016 p. 19; CE800 2013 p. 18 (printed 15). The CE800-2013 text is
+    OCR of an image-only scan. CU800-2012 (XU878) service manual, Function Button
+    Locations PDF p. 18 (printed 18), text.md lines 305-307, and Function Button In
+    Main Mode PDF pp. 19-20, lines 329-368
   extracted_at: '2026-09-09'
 ---
 
@@ -55,3 +57,7 @@ labels **Fan to keep you cool** at the top of the console face but does not mark
 
 **The later CR900 and CU900 bikes have a three-speed fan on the upper right**, which is a different
 key in a different place: `spirit-ce900-console-three-speed-fan`.
+
+**The XU878 service manual for the CU800-2012 calls it the Fan Key - "Cooling fan switch on or off"** -
+and its Ready Mode and Run Mode tables both say only "FAN button: It can to control ON/OFF for the
+fan". No speed, no timer.

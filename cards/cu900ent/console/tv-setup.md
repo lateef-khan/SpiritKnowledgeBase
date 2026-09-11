@@ -2,7 +2,7 @@
 id: cu900ent-tv-setup
 title: TV Setup - tuner source, channel scan and HDMI
 kind: procedure
-question: How do I scan for TV channels on a Spirit CU900ENT bike?
+question: How do I scan for TV channels on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - how do i tune the tv on the bike console
 - how do i switch the console to hdmi
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -39,7 +40,10 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: TV Setup, p. 36 (printed 36). This page is a flattened image and was read
-    from raw/page-36.png, not from the OCR text
+    from raw/page-36.png, not from the OCR text. The CR900ENT-2021 service manual,
+    TV Setup, PDF pp. 35-36 (printed 35-36), text.md lines 545-573 and the OCR supplement
+    for PDF page 36, prints the same page word for word. Same AUTO/DTV/ATV tuner,
+    country selection, Update Channel List and "software R&D engineer only" button.
   extracted_at: '2026-09-08'
 ---
 
@@ -73,5 +77,6 @@ below OSD Exit. There is no **AUTO / DTV / ATV Tuner** step and no country selec
 Command is for engineering use only**. Which menu a given console shows is not recorded anywhere;
 read the screen in front of you.
 
-**Nothing on this card is corroborated for the CR900ENT-2021**, whose owner's manual carries only the
-Air/Cable route.
+**The CR900ENT-2021 service manual prints this page word for word** (its PDF pp. 35-36), so this card
+covers that machine too; its owner's manual carries only the Air/Cable route, and the two still do
+not agree with each other.

@@ -1,24 +1,25 @@
 ---
 id: cic850-2022-console-quick-start-and-mode-key
-title: 'Waking the console with the Page key, and what the Mode key then selects'
+title: Waking the console with the Page key, and what the Mode key then selects
 kind: procedure
-question: 'How do I turn on the console and start riding on a Spirit cic850-2022 indoor cycle?'
+question: How do I turn on the console and start riding on a Spirit cic850-2022 indoor
+  cycle?
 asked_as:
-- 'how do i wake up my cic850 display'
-- 'the screen on my indoor cycle is blank'
-- 'how do i start riding on the spirit indoor cycle'
-- 'how do i change what the bottom of the bike display shows'
+- how do i wake up my cic850 display
+- the screen on my indoor cycle is blank
+- how do i start riding on the spirit indoor cycle
+- how do i change what the bottom of the bike display shows
 keywords:
-- 'quick start'
-- 'power saving mode'
-- 'page key'
-- 'mode key'
-- 'wake'
-- 'blank display'
-- 'time'
-- 'dist'
-- 'kcal'
-- 'active state'
+- quick start
+- power saving mode
+- page key
+- mode key
+- wake
+- blank display
+- time
+- dist
+- kcal
+- active state
 facets:
   brand:
   - spirit
@@ -36,7 +37,9 @@ see_also:
 - cic850-2022-console-reset-measured-values
 source:
   ref: spirit-bike-cic850-2022-owners-manual
-  locator: CIC850-2022 printed p. 26 QUICK START and MODE SELECT; troubleshooting on printed p. 35
+  locator: CIC850-2022 printed p. 26 QUICK START and MODE SELECT; troubleshooting
+    on printed p. 35. CIC850 service manual 4-2 Operation, QUICK START and Mode Select,
+    PDF p. 13 (printed 12), text.md lines 187-202
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +61,6 @@ manual send you to the batteries.
 
 **This is not the XIC600's gesture.** That indoor cycle has no Page key; you wake it by holding
 either of its two Easy-Touch keys.
+
+**The service manual prints the same Quick Start and Mode Select lines**, with a Power Saving Mode
+screenshot beside a Quick Start Mode screenshot.

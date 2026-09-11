@@ -2,7 +2,8 @@
 id: cu900ent-armrest-group-replacement
 title: Armrest group replacement
 kind: procedure
-question: How do I replace the armrest group on a Spirit CU900ENT bike?
+question: How do I replace the armrest group on a Spirit CU900 or CU900ENT upright
+  bike?
 asked_as:
 - armrest replacement on my spirit cu900 bike
 - handlebar group on the cu900ent
@@ -19,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -31,7 +33,8 @@ see_also:
 - cu900ent-shaking
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.2 Armrest Group Replacement, p. 47 (printed 47)
+  locator: 'cu900ent: Section 8, 6.2 Armrest Group Replacement, p. 47 (printed 47)
+    | cu900-2018: 6.2 Armrest Group Replacement, PDF p. 40; text.md lines 656-672'
   extracted_at: '2026-09-08'
 ---
 
@@ -49,3 +52,4 @@ The chin cover from the console procedure (6.1.1) has to come off first.
 If the front armrest moves during use, section 7.3.1 sends the technician back to this procedure to
 lock the screw.
 
+**The CU900 (2018) service manual prints this section word for word**, M8 cap and warning included, so this card covers both the CU900 and the CU900ENT. The CU1000ENT book removes a socket head cap bolt with split and flat washers instead, and has its own armrest card.

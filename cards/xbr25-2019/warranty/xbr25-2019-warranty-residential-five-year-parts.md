@@ -32,6 +32,7 @@ not_to_be_confused_with:
 - spirit-xb-warranty-light-commercial-periods
 - xe195-2021-warranty-residential-periods-five-year-parts
 see_also:
+- xbr25-2007-warranty-home-periods
 - spirit-xb-warranty-use-environment
 - spirit-xb-warranty-exclusions
 - xt-2023-warranty-start-date
@@ -54,7 +55,7 @@ source:
 
 **That is the whole table.** One row, and it is the Residential one: there is no Light Commercial row, no console column and no wear-items column.
 
-**Parts is 5 Years, and it is the only Spirit XB bike manual that says so.** Every other printing of every other XB machine - and the XBR25's own 2023 manual - reads **10 Years** in this column (`spirit-xb-warranty-residential-periods`). Quoting ten years to the owner of this book promises five years the manual does not give.
+**Parts is 5 Years, and it is the only Spirit XB bike owner's manual that says so.** (The 2008 dealer service manual for the earlier XBR25 prints the same four figures - frame weldments and brake lifetime, all other components 5 years, labor 1 year - so the five-year line has a precedent on the XBR25 that no owner's manual shows: `xbr25-2007-warranty-home-periods`.) Every other printing of every other XB machine - and the XBR25's own 2023 manual - reads **10 Years** in this column (`spirit-xb-warranty-residential-periods`). Quoting ten years to the owner of this book promises five years the manual does not give.
 
 **The manual prints "5Years" with no space**, exactly as it prints the neighbouring "1 Year" with one. The figure was confirmed on a 300 dpi render of the page, not only in the extracted text.
 

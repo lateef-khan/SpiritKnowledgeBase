@@ -37,10 +37,15 @@ not_to_be_confused_with: []
 see_also:
 - spirit-jb950-errors-update-fail-or-search-update
 - spirit-commercial-bike-errors-no-error-codes-printed
+- jb950-2022-errors-motor-error-brake-does-not-reach-home
+- jb950-2022-errors-encoder-error-pedal-then-check-wires
 source:
   ref: spirit-bike-jb950-2022-owners-manual
   locator: MAINTENANCE MODE, LIMIT SENSOR, PDF page 56. MOTOR TEST MANUAL and the
-    encoder/limit sensor readings are on PDF page 55
+    encoder/limit sensor readings are on PDF page 55; JB950 2022 service manual 5.3
+    MAINTENANCE MENU, BRAKE TEST with MOTOR TEST MANUAL and LIMIT SENSOR, PDF p. 41,
+    text.md lines 691-737; JB950 2022 service manual 5.1 Error Messages, the MOTOR
+    ERROR row, PDF p. 37, text.md lines 564-593
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +75,5 @@ reporting a "motor error" on this bike is describing a symptom, not quoting a co
 
 Brake Test, Motor Test Auto and the rest of Maintenance Mode are console settings rather than
 fault work and are carded under `section: console`.
+
+**The service manual does print a message for this, and it is the words `MOTOR ERROR`.** Its error table defines it as *ENCODER is read, but motor does not reach home position* and gives three steps - cables, then the brake assembly whose position flag may have struck or overrun the home sensor, then the limit sensor board and controller: `jb950-2022-errors-motor-error-brake-does-not-reach-home`. So a caller who says "motor error" on a JB950 may be reading it off the screen after all; the absence above is the owner's manual's. The service manual's `LIMIT SENSOR` screen is worded differently from the owner's manual's - *use + and - to move the brake; top left shows the home position sensor, top right the end limit sensor, bottom the encoder counts; hold PLAY to end* - and it prints no 15-minute wait and no `S1`/`S2` labels. The `1` = HOME, `2` = ACTIVE RANGE, `3` = END reading is the same in both.

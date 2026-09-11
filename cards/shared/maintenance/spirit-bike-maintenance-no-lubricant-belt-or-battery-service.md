@@ -67,6 +67,11 @@ see_also:
 - cu900ent-wear-parts-inspection
 - spirit-2026t-maintenance-post-workout-machine-care
 - xbr95-2023-maintenance-no-noise-or-levelling-section
+- spirit-cr900-maintenance-belt-slip-jam-nut-220-to-240-newtons
+- cr800-2021-maintenance-belt-slip-180-to-205-hz
+- cu800-2021-maintenance-belt-slip-right-shroud-180-to-205-hz
+- spirit-xbr-maintenance-belt-slip-nyloc-nut-88-450-newtons
+- spirit-recumbent-maintenance-belt-slip-nyloc-nut-88-180-hz
 source:
   ref: spirit-bike-cu900-2025-owners-manual
   locator: Absence established across all twelve manuals listed in applies_to. Searched
@@ -148,6 +153,26 @@ residential bike.
 The same service manual is also the only Spirit bike document that lists wear parts (belt, PU
 wheel, bearing, idler) — `cu900ent-wear-parts-inspection`. **None of these twelve owner's manuals
 prints that warning**, so they name no wear part and no wear limit.
+
+## The service manuals do print the belt work the owner's manuals leave out
+
+This card is about the owner's manuals. The Spirit bike **service manuals**, carded on 2026-09-11,
+give a belt-slip adjustment for most of these machines, and the figures differ by family — read
+the one for the machine, never a neighbour's:
+
+| Machines | Setting | Card |
+|---|---|---|
+| CR900 2018, CR900ENT 2021 | 220–240 N at the J-bolt jam nut | `spirit-cr900-maintenance-belt-slip-jam-nut-220-to-240-newtons` |
+| CU900 2018, CU900ENT | 180–210 N | `cu900ent-belt-slips-or-falls-off` |
+| CR800 2021 | 180–205 Hz, misprinted 180~20HZ | `cr800-2021-maintenance-belt-slip-180-to-205-hz` |
+| CU800 2021 | 180–205 Hz from the right side | `cu800-2021-maintenance-belt-slip-right-shroud-180-to-205-hz` |
+| XBR25 2016, XBR55 2016, XBR55ENT, XBR55 2023, XBR95 2023 | 450 N (540 N new) | `spirit-xbr-maintenance-belt-slip-nyloc-nut-88-450-newtons` |
+| XBR95 2016 | 180 ±10 Hz | `spirit-recumbent-maintenance-belt-slip-nyloc-nut-88-180-hz` |
+
+The CR800ENT 2023, CU800ENT 2022, XBU55 2023 and XBU55ENT service manuals print no slip
+procedure; the first three carry a tension figure only inside their belt replacement steps. Every
+one of those procedures is a technician job behind the shrouds; none of them adds a lubricant, and
+none changes what the owner's manuals say.
 
 ## This card stops at the twelve machines named above
 

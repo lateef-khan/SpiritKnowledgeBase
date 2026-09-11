@@ -3,7 +3,8 @@ id: spirit-lcd-dim-or-incomplete
 title: The display backlight is dim, incomplete or imperfect
 kind: troubleshooting
 question: Why is the display dim or incomplete on a Spirit CT800-2016 or CT850-2016
-  treadmill, CE850-2024 elliptical, CRS800S-2024 stepper or CVC800 climber?
+  treadmill, CE850-2024 elliptical, CRS800S-2024 stepper, CVC800 climber, or an XBR25-2016,
+  XBR55-2016, XBU55-2016, XBR55ENT-2021 or XBU55ENT-2021 bike?
 asked_as:
 - treadmill screen is dim
 - display half lit on my spirit machine
@@ -28,6 +29,11 @@ facets:
   - ct800-2016
   - ct850-2016
   - cvc800
+  - xbr25-2016
+  - xbr55-2016
+  - xbr55ent-2021
+  - xbu55-2016
+  - xbu55ent-2021
   section: errors
   code: no-code
 authority: 3
@@ -39,11 +45,19 @@ see_also:
 - ct850-2020-led-dim-or-incomplete
 - ce800ent-tft-touch-panel-not-bright
 - cu900ent-tft-not-bright
+- spirit-xb-2023-errors-lcd-not-bright-replace-generator-controller
+- xbu55-2023-errors-lcd-not-bright-check-power-to-console
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Troubleshooting procedure matrix: CT850 2016 section 8.3 page 50; CVC800
     section 8-5 page 34; CT800 2016 service manual 8.4 Troubleshooting procedure matrix,
-    PDF p. 56-59 (printed 55-58), text.md lines 1076-1215'
+    PDF p. 56-59 (printed 55-58), text.md lines 1076-1215; XBR25 2016 service manual
+    Troubleshooting procedure matrix, PDF p. 41, text.md lines 609-641; XBR55 2016
+    service manual Troubleshooting procedure matrix, PDF p. 42, text.md lines 604-636;
+    XBU55 2016 service manual Troubleshooting procedure matrix, PDF p. 41, text.md
+    lines 608-640; XBR55ENT 2021 service manual Troubleshooting procedure matrix,
+    PDF p. 33, text.md lines 416-445; XBU55ENT 2021 service manual Troubleshooting
+    procedure matrix, PDF p. 33, text.md lines 412-442'
   extracted_at: '2026-09-08'
 ---
 
@@ -84,3 +98,5 @@ CE800 2024, CR800 2024 and CU800 2024 send the reader to the generator rather th
 (`crw800-2024-errors-lcd-display-does-not-shine`).
 
 **The CT800 2016 service manual prints this row word for word**, `LCDs not bright, incomplete or imperfect`, the same two causes and `Check AC power is 110-120V`. The XT service manuals print the row without a voltage (`spirit-xt-errors-lcd-not-bright-connector-then-power`) or with 110V or 230V (`spirit-xt-2015-errors-lcd-not-bright-110-v-or-230-v`).
+
+**Five residential bike service manuals print this row word for word, `110-120V` included** - the XBR25 2016, XBR55 2016 and XBU55 2016, and the XBR55ENT 2021 and XBU55ENT 2021, whose matrices keep the LCD wording even though those two consoles are TFT touch panels. The XBR95 2016 of the same generation drops the voltage and is on `ce900-2025-errors-leds-not-bright-incomplete-or-imperfect`; the 2023 residential books replace the lower controller with a *generator controller* (`spirit-xb-2023-errors-lcd-not-bright-replace-generator-controller`) or stop before it (`xbu55-2023-errors-lcd-not-bright-check-power-to-console`).

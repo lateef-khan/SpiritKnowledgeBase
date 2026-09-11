@@ -39,7 +39,8 @@ see_also:
 source:
   ref: spirit-bike-cic850-2022-owners-manual
   locator: PAIRING THE CONSOLE AND TRANSMITTER, PDF pages 17 and 29 (the manual prints
-    the block twice)
+    the block twice); CIC850 pairing tip the scanned support tip "New SB700/900 Console
+    | CIC X50", Pairing block (OCR only, authority 2), PDF p. 1, text.md lines 1-3
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +64,5 @@ named `MODE` or `SET` key - `spirit-xic600-errors-id-er-sync-timeout`.
 **It is also not a Sole `Err`.** Sole treadmills and bikes use `Err` for an incline fault, for a
 failed start and for a missing pulse input. Those are different machines with different fixes
 and must not be served for this bike.
+
+**A one-page support tip filed with the CIC850 adds two causes the manual does not print.** Its pairing block ends: *Start pedaling until you see ERR or 0. If you see ERR, the pairing failed. The battery may need to be changed in the transmitter, or the speed sensor is not aligned properly. If you see 0, pairing was successful.* So before repeating the pair stage, check the **transmitter battery** and the **speed sensor alignment** against the magnet. The tip is a scan with no text layer, read by OCR, and it reaches pairing by a `MODE`/`PAGE` key sequence (its own heading names the SB700/900 and "CIC X50" consoles) rather than the manual's `MODE` and `SET` hold - the key sequence is a console fact; only the meaning of `ERR` and `0` is carried here.

@@ -2,8 +2,8 @@
 id: xt-2023-console-usb-charging-port
 title: What the console USB port can and cannot do
 kind: spec
-question: Can I charge my phone from the console USB port on a Spirit XT285, XT385, XT485 or XT685
-  2023 treadmill, or a CES880 elliptical?
+question: Can I charge my phone from the console USB port on a Spirit XT285, XT385,
+  XT485 or XT685 2023 treadmill, or a CES880 elliptical?
 asked_as:
 - can i charge my phone on my treadmill
 - what kind of usb port is on the treadmill
@@ -49,7 +49,11 @@ see_also:
 - xe795-2023-console-usb-charging-needs-forty-rpm
 source:
   ref: spirit-treadmill-xt285-2023-owners-manual
-  locator: page 25, FEATURES - CONTINUED / Charge Portable Devices with USB port; XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, FEATURES - CONTINUED; XBR55ENT and XBU55ENT p. 18, CHARGE PORTABLE DEVICES WITH USB PORT
+  locator: page 25, FEATURES - CONTINUED / Charge Portable Devices with USB port;
+    XBR95 2023 p. 21, XBR55 2023 and XBU55 2023 p. 22, FEATURES - CONTINUED; XBR55ENT
+    and XBU55ENT p. 18, CHARGE PORTABLE DEVICES WITH USB PORT. XBR55ENT-2021 service
+    manual CHARGE PORTABLE DEVICES WITH USB PORT, PDF p. 13 (printed 13), text.md
+    lines 158-166; XBU55ENT-2021 service manual PDF p. 13, lines 155-163
   extracted_at: '2026-09-09'
 ---
 
@@ -103,3 +107,6 @@ stablemates' drawings do.
 **The same fact is also held by `spirit-xe-console-usb-port-charges-a-device-but-saves-no-data`**,
 which carries the XE395-2023, XE795-2023 and XE395ENT. The two cards state identical figures; they
 were written from different manuals and neither is wrong.
+
+**The XBR55ENT-2021 and XBU55ENT-2021 service manuals print the same two steps and the same 5Vdc / 1.0
+amp, USB 2.0, charging-only note**, word for word with their owner's manuals.

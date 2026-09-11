@@ -1,24 +1,26 @@
 ---
 id: spirit-bike-console-air-bike-odometer
-title: 'Reading the odometer, and the H sign and dropped decimals that appear past 1:59:59 and 99.99'
+title: Reading the odometer, and the H sign and dropped decimals that appear past
+  1:59:59 and 99.99
 kind: procedure
-question: 'How do I read the odometer on a Spirit air bike, and what does the H sign mean?'
+question: How do I read the odometer on a Spirit air bike, and what does the H sign
+  mean?
 asked_as:
-- 'how many miles are on my air bike'
-- 'where is the odometer on the fan bike console'
-- 'what does h mean on my air bike display'
-- 'why did the decimals disappear on my air bike distance'
+- how many miles are on my air bike
+- where is the odometer on the fan bike console
+- what does h mean on my air bike display
+- why did the decimals disappear on my air bike distance
 keywords:
-- 'odometer'
-- 'odo'
-- 'engineering mode'
-- 'h sign'
+- odometer
+- odo
+- engineering mode
+- h sign
 - '1:59:59'
 - '99.99'
-- 'decimals'
-- 'km'
-- 'ml'
-- 'total distance'
+- decimals
+- km
+- ml
+- total distance
 facets:
   brand:
   - spirit
@@ -37,7 +39,9 @@ see_also:
 - spirit-bike-console-air-bike-four-aa-batteries
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed p. 30 ODO; AB900-2018 printed p. 40 ODO - identical
+  locator: AB950-2024 printed p. 30 ODO; AB900-2018 printed p. 40 ODO - identical.
+    AB900-2018 (AU800/AU800A) service manual, Engineering mode C, odo display, PDF
+    pp. 29-30 (printed 29-30), text.md lines 508-518
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +67,8 @@ deliberately from the menu.
 
 **There is no hours counter.** These consoles record distance only; the JB950's odometer, by
 contrast, tracks hours of use.
+
+**The service manual names the windows.** In the odo display "the large eight window screen display
+odo", the **time window shows the cumulative workout time** and the **distance window the cumulative
+workout distance** - so there is an hours figure here after all, in the time window, with the H unit
+appearing past 1:59:59. The 99.99 rule is the same.

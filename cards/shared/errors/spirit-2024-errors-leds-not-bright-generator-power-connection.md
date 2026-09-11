@@ -1,9 +1,10 @@
 ---
 id: spirit-2024-errors-leds-not-bright-generator-power-connection
-title: The display light is dim or incomplete, on the row that sends you to the generator rather than the wall
+title: The display light is dim or incomplete, on the row that sends you to the generator
+  rather than the wall
 kind: troubleshooting
-question: Why is the display dim or partly lit on a Spirit CE800-2024 elliptical or a
-  CR800-2024 or CU800-2024 bike?
+question: Why is the display dim or partly lit on a Spirit CE800-2024 elliptical or
+  a CR800-2021, CR800-2024, CU800-2012, CU800-2021 or CU800-2024 bike?
 asked_as:
 - spirit elliptical screen is dim
 - bike console backlight is faint
@@ -24,7 +25,10 @@ facets:
   model: '*'
   applies_to:
   - ce800-2024
+  - cr800-2021
   - cr800-2024
+  - cu800-2012
+  - cu800-2021
   - cu800-2024
   section: errors
   code: no-code
@@ -41,9 +45,13 @@ see_also:
 - ct850-2020-led-displays-dim-or-incomplete
 source:
   ref: spirit-elliptical-ce800-2024-owners-manual
-  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 37 of the
-    CE800 2024, CR800 2024 and CU800 2024 owner's manuals. All three pages are flat
-    pictures with no text layer and were read from the rendered page.
+  locator: TROUBLESHOOTING, Condition / Reason / Solve matrix on printed page 37 of
+    the CE800 2024, CR800 2024 and CU800 2024 owner's manuals. All three pages are
+    flat pictures with no text layer and were read from the rendered page; CU800 2020-book
+    (cu800-2021) service manual 7-5 Troubleshooting procedure matrix, PDF p. 27 (printed
+    26), text.md lines 420-451; CR800 2020-book (cr800-2021) service manual 7-5 Troubleshooting
+    procedure matrix, PDF p. 27 (printed 26), text.md lines 398-429; CU800 2012 (XU878)
+    service manual Troubleshooting procedure matrix, PDF p. 35, text.md lines 541-573
   extracted_at: '2026-09-10'
 ---
 
@@ -73,3 +81,5 @@ like these three.
 Dead segments rather than a dim light are the next row down. The CE800 2024 prints it about an LED
 (`ct850-2020-led-displays-dim-or-incomplete`); the CR800 2024 and CU800 2024 print it about an LCD
 (`spirit-lcd-displays-dim-or-incomplete`).
+
+**Three earlier bike service manuals print this row word for word** - the CU800 2020-book (`cu800-2021`), the CR800 2020-book (`cr800-2021`) and the CU800 2012 (XU878): `LEDs not bright, incomplete or imperfect`, `Generator Power to console too low`, `Check generator power connection`, `Replace controller`, and no voltage on any of them. All three are generator-powered bikes with no cord to the console.

@@ -1,8 +1,12 @@
 ---
 id: spirit-2026t-safety-heart-rate-readings-are-not-medical
-title: The pulse sensors are not medical devices and the heart rate readings may be inaccurate
+title: The pulse sensors are not medical devices and the heart rate readings may be
+  inaccurate
 kind: policy
-question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill, on a Spirit MT200 rehabilitation treadmill, on a Spirit CE800, CE800ENT, CE850, CE900 or CES880 elliptical, on a Spirit XE residential elliptical, or on a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
+question: How accurate is the heart rate reading on a 2026 Spirit 4.0T or 8.0T treadmill,
+  on a Spirit MT200 rehabilitation treadmill, on a Spirit CE800, CE800ENT, CE850,
+  CE900 or CES880 elliptical, on a Spirit XE residential elliptical, or on a Spirit
+  commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - is the heart rate on the treadmill accurate
 - why is my pulse reading wrong on the treadmill
@@ -101,21 +105,26 @@ see_also:
 - spirit-bike-2025-safety-instructions-list
 - cu800-2012-safety-instructions-list
 - spirit-bike-programs-erratic-heart-rate-interference
+- spirit-cr900-safety-console-warning-decal-under-13
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner's manual states it as item
-    13 of its page 4 and again on its APPLICATION SPECIFICATION page, page 9. The two Spirit
-    MT200 rehabilitation treadmill owner's manuals print it on their safety instructions
-    page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual All ten Spirit
-    elliptical owner's manuals print the disclaimer in their safety instructions - CE800
-    2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT pages 4-5,
-    CE850 2016 page 5, CE850 2020 pages 6-7, CE850 2022 pages 6-7, CE900 2021 page 3, CE900
-    2025 page 5 item 7, CES880 2025 page 4 item 10 All thirteen Spirit commercial bike
-    owner's manuals print the disclaimer in their safety list - CU800-2012 printed page 2,
-    CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and CU900ENT-2021 printed page
-    3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, CU800ENT-2022 and CR800ENT-2023
-    printed pages 4 to 5, CU800ENT-2024 printed page 5, and CR900-2025 and CU900-2025 as
-    item 7 of their printed page 4
+  locator: 'SAFETY INSTRUCTIONS items 16 and 17, page 4; the 8.0T owner''s manual
+    states it as item 13 of its page 4 and again on its APPLICATION SPECIFICATION
+    page, page 9. The two Spirit MT200 rehabilitation treadmill owner''s manuals print
+    it on their safety instructions page, page 4 of the 2010 manual and pages 5 to
+    7 of the 2022 manual All ten Spirit elliptical owner''s manuals print the disclaimer
+    in their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021 page
+    4, CE800 2023 page 4, CE800ENT pages 4-5, CE850 2016 page 5, CE850 2020 pages
+    6-7, CE850 2022 pages 6-7, CE900 2021 page 3, CE900 2025 page 5 item 7, CES880
+    2025 page 4 item 10 All thirteen Spirit commercial bike owner''s manuals print
+    the disclaimer in their safety list - CU800-2012 printed page 2, CR900-2018 and
+    CU900-2018 printed page 3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021,
+    CR800-2023 and CU800-2021 printed page 4, CU800ENT-2022 and CR800ENT-2023 printed
+    pages 4 to 5, CU800ENT-2024 printed page 5, and CR900-2025 and CU900-2025 as item
+    7 of their printed page 4. The CR800 (2020) and CU800 (2020) service manuals show
+    the short warning printed on the console face: 4-1 Display Windows, PDF p. 12
+    (printed 11) of each, text.md lines 152-173 and 172-193, with OCR supplement lines
+    1118-1152 and 882-916; read from a 600 dpi render.'
   extracted_at: '2026-09-09'
 ---
 
@@ -280,3 +289,19 @@ a chest strap is more accurate.**
 **The 2023 books also carry it on the safety warning sticker**, in a third and blunter form -
 `Heart Rate monitoring systems can be inaccurate; use them for reference only`
 (`spirit-xb-2023-safety-warning-sticker-text`).
+
+## The CR800 and CU800 consoles carry the short warning on their face
+
+**The CR800 (2020) and CU800 (2020) service manuals' console drawings print it under the dot-matrix
+window, beside the PROGRAM key, in English and French**:
+
+> WARNING! Heart rate monitoring systems may be inaccurate. If you feel faint stop exercising
+> immediately.
+
+> AVERTISSEMENT! Le système de lecture de la fréquence cardiaque peut être inexact. Si vous vous
+> sentez faible, arrêtez immédiatement de faire de l'exercice.
+
+That is the console overlay, read from a 600 dpi render of a page whose text layer carries only the
+callout labels; the manuals never mention the print in words. The CR900 and CU900 consoles carry the
+under-13 warning in the same style instead
+(`spirit-cr900-safety-console-warning-decal-under-13`).

@@ -1,23 +1,25 @@
 ---
 id: spirit-bike-console-air-bike-workout-summary-and-reset
-title: 'The three-figure workout summary, and the Stop-for-two-seconds reset that keeps the units setting'
+title: The three-figure workout summary, and the Stop-for-two-seconds reset that keeps
+  the units setting
 kind: procedure
-question: 'What does the workout summary show, and how do I reset the console on a Spirit air bike?'
+question: What does the workout summary show, and how do I reset the console on a
+  Spirit air bike?
 asked_as:
-- 'what does my air bike show at the end of a workout'
-- 'how do i reset my air bike console'
-- 'clear the settings on my fan bike display'
-- 'does the air bike save my last workout'
+- what does my air bike show at the end of a workout
+- how do i reset my air bike console
+- clear the settings on my fan bike display
+- does the air bike save my last workout
 keywords:
-- 'workout summary'
-- 'total time'
-- 'total distance'
-- 'total watts'
-- 'reset process'
-- 'stop button'
-- '2 seconds'
-- 'saved settings'
-- 'units survive'
+- workout summary
+- total time
+- total distance
+- total watts
+- reset process
+- stop button
+- 2 seconds
+- saved settings
+- units survive
 facets:
   brand:
   - spirit
@@ -36,7 +38,10 @@ see_also:
 - spirit-bike-console-air-bike-metric-imperial
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed p. 19 WORKOUT SUMMARY and RESET PROCESS; AB900-2018 printed p. 35 - identical
+  locator: AB950-2024 printed p. 19 WORKOUT SUMMARY and RESET PROCESS; AB900-2018
+    printed p. 35 - identical. AB900-2018 (AU800/AU800A) service manual, Reset Process
+    and Workout Summary, PDF p. 14 (printed 14), text.md lines 189-195, and Reset
+    Mode, PDF p. 30 (printed 30), lines 532-535
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +68,8 @@ begin "after the console has been reset" - a mode you have run before reuses the
 entered unless you have reset since.
 
 **Stop has two jobs.** A short press ends a mode; a two-second hold is this reset.
+
+**The service manual says what the reset looks like.** Hold Stop for 2 seconds in any mode: the LCD
+flashes once over 2 seconds, the buzzer rings for 2 seconds, and the console returns to the standby
+screen with "all settings clear reply to default values". Its engineering-mode page repeats that the
+setting value and the ODO survive this reset and only a battery pull clears them.

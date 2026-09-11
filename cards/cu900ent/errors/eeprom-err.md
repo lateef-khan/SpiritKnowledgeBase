@@ -2,7 +2,8 @@
 id: cu900ent-eeprom-err
 title: 'EEPROM ERR: EEPROM failure'
 kind: troubleshooting
-question: What does EEPROM ERR mean on a Spirit CU900ENT bike?
+question: What does EEPROM ERR mean on a Spirit CU900ENT, CR900ENT-2021 or CU1000ENT-2023
+  bike?
 asked_as:
 - what does eeprom err mean on my spirit bike
 - bike console showing eeprom error
@@ -19,8 +20,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
+  - cu1000ent-2023
   - cu900ent
   section: errors
   code: eeprom-err
@@ -33,9 +36,13 @@ see_also:
 - lcb-2023-eeprom-error
 - sole-bike-eeprom-error
 - cvc800-e-1-ram-error
+- cu1000ent-2023-errors-0xb0-eeprom-error-driver-board
+- spirit-bike-errors-eeprom-err-replace-upper-controller
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Error code items table, page 23
+  locator: Error code items table, page 23; CR900ENT 2021 service manual Error code
+    items table, PDF p. 22, text.md lines 239-262; CU1000ENT 2023 service manual 7.2
+    Error code items table, PDF p. 12, text.md lines 229-259
   extracted_at: '2026-09-08'
 ---
 
@@ -51,3 +58,5 @@ the previous page, and no hexadecimal code is given for it.
 Sole prints the same message on its own bikes and ellipticals and does give a fix there; those cards
 are linked below and describe different machines. The CVC800 climber calls the same kind of failure
 `E-1` and answers it by replacing the display board.
+
+**The CR900ENT 2021 and CU1000ENT 2023 service manuals print the same one-row table and, like this book, no cause and no fix.** The CR900ENT sets it under the same eight-row hex table as the CU900ENT (`cu900ent-error-code-messages-list`). The CU1000ENT sets it under a different four-row list whose first entry, `0xB0 EEPROM Error, By Driver Board Error`, is a *driver-board* EEPROM fault with its own hex code - `cu1000ent-2023-errors-0xb0-eeprom-error-driver-board` - so on that machine `EEPROM ERR` and `0xB0` are two different entries on two different tables. The 2016 residential and 2018 commercial LCD/LED books that print a fix for `EEPROM ERR` name the upper controller: `spirit-bike-errors-eeprom-err-replace-upper-controller`.

@@ -7,6 +7,7 @@ asked_as:
 - what programs does the cr900 bike have
 - how many workouts are on the cu900 console
 - list of programs on the bike
+- what programs did the 2016 xbr25 have
 keywords:
 - program list
 - program lineup
@@ -17,6 +18,7 @@ keywords:
 - fit test
 - heart rate
 - watt
+- key strip
 facets:
   brand:
   - spirit
@@ -25,6 +27,7 @@ facets:
   applies_to:
   - cr900-2018
   - cu900-2018
+  - xbr25-2016
   - xbr25-2019
   section: programs
   code: '*'
@@ -37,7 +40,7 @@ see_also:
 - spirit-bike-programs-preset-setup-steps
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: 'CR900 2018 printed p. 19 (button strip on p. 12, PDF p. 14); CU900 2018 p. 18; XBR25 2019 printed p. 20'
+  locator: 'CR900 2018 printed p. 19 (button strip on p. 12, PDF p. 14); CU900 2018 p. 18; XBR25 2019 printed p. 20; XBR25 2016 service manual (XR327-SB005-01) Function Button Locations PDF p. 19, text.md lines 298-317 (key legend read from the 300 dpi render), and 4.2, p. 15, lines 213-217'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,6 +69,20 @@ reliably readable.
 Cardio and Interval**. Its console badge reads "**Six** innovative programs offer a variety of
 work-outs", and six is right once Manual and the single HR key are added to the four presets: the key
 strip reads MANUAL, CARDIO, HILL, FATBURN, INTERVAL, HR.
+
+**The XBR25 2016 carries the same six keys, on the evidence of its service manual alone.** The
+XR327-SB005-01 service manual captions its Function Button Locations page "PROGRAM BUTTONS (Manual,
+Cardio, Hill, Fat Burn, Interval, HR)" and the rendered legend reads MANUAL, CARDIO, HILL, FAT BURN,
+INTERVAL, HR - four presets, Manual and one HR key, the same six as the XBR25 2019. **That book
+describes none of them**: no profile and no heart rate percentage is printed, and its only other
+program text is the note that the program is chosen with the MANUAL, PROGRAM or HRC key and started
+with Start on preset values (`spirit-bike-programs-entering-a-program-and-default-settings`). The
+four profile descriptions and the single HR key's 60% default on the linked cards are the 2019
+owner's manual's statements and are not claimed for the 2016 machine.
+
+**The CR900 2018 and CU900 2018 service manuals print no preset list at all.** Their operation
+chapters describe only Manual and the Constant Watt program and say "press each program key to
+preview", so the four presets above rest on the owner's manuals alone for those two.
 
 **It has no Strength program and no User program**, which is what separates it from the XBR55 and
 XBU55 of the same year - see

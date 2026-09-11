@@ -7,6 +7,7 @@ asked_as:
 - what programs does the xbr55 have
 - list the workouts on my spirit upright bike
 - how many programs are on the xbu55 console
+- what programs did the 2016 xbr55 come with
 keywords:
 - program list
 - program lineup
@@ -16,14 +17,18 @@ keywords:
 - user program
 - heart rate program
 - five programs
+- key strip
+- service manual
 facets:
   brand:
   - spirit
   product_line: bike
   model: '*'
   applies_to:
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
+  - xbu55-2016
   - xbu55-2019
   - xbu55-2021
   section: programs
@@ -39,7 +44,7 @@ see_also:
 - spirit-bike-programs-two-heart-rate-keys-fixed-at-sixty-and-eighty-percent
 source:
   ref: spirit-bike-xbr55-2019-owners-manual
-  locator: 'XBR55 2019/2021 printed p. 22-23; XBU55 2019/2021 p. 22-23 (Preset Programs); key strip on the CONSOLE OPERATION page, printed p. 14 (XBR55) and p. 13 (XBU55), read by OCR'
+  locator: 'XBR55 2019/2021 printed p. 22-23; XBU55 2019/2021 p. 22-23 (Preset Programs); key strip on the CONSOLE OPERATION page, printed p. 14 (XBR55) and p. 13 (XBU55), read by OCR; XBR55 2016 service manual (XR329-SB011-01) Function Button Locations PDF p. 21, text.md lines 315-341, and 4.2, p. 16-17, lines 226-233; XBU55 2016 service manual (XU319-SB011-01) Function Button Locations p. 19, lines 290-316, and 4.2, p. 15, lines 207-212 - key legends read from the 300 dpi render'
   extracted_at: '2026-09-10'
 ---
 The XBR55 2019, XBR55 2021, XBU55 2019 and XBU55 2021 manuals say the bike has **five different
@@ -52,6 +57,20 @@ programs** with factory preset work level profiles, and **describe all five**:
 console badge claims. The key strip is printed as a flat image; OCR of it on the
 XBR55 2019 console page reads MANUAL, HILL, FATBURN, CARDIO, STRENGTH, INTERVAL, USER, USER-2 and two
 HR keys, which is the same ten.
+
+**The 2016 machines carry the same ten keys, on the evidence of their service manuals alone.** The
+XBR55 2016 (XR329-SB011-01) and XBU55 2016 (XU319-SB011-01) service manuals caption their Function
+Button Locations page "PROGRAM BUTTONS (Manual, Hill, Fat Burn, Cardio, Strength, Interval, User1~2,
+HR1~2)", and the rendered key legend reads MANUAL, HILL, FAT BURN, CARDIO, STRENGTH, INTERVAL, USER-1,
+USER-2 and two HR keys - the same five presets, the same two User keys and the same two HR keys as
+the 2019 and 2021 books. **Those two service manuals describe none of the programs**: no profile,
+no heart rate percentage and no User-program segment count is printed in either, and their only
+other program text is the operation-chapter note that the program is chosen with the MANUAL,
+PROGRAM or HRC key and started with Start on preset values
+(`spirit-bike-programs-entering-a-program-and-default-settings`). So for the XBR55 2016 and XBU55
+2016 this card vouches for the list of ten; the profile descriptions, the 60%/80% heart rate keys
+and the twenty-segment User program on the linked cards are the 2019 and 2021 owner's manuals'
+statements and are not claimed for the 2016 machines.
 
 **Count five described, not four.** The commercial CR800 and CU800 books count five and print only
 four descriptions, which is a different fact about a different console - see

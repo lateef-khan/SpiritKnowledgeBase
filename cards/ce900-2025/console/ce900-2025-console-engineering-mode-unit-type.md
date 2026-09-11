@@ -1,8 +1,10 @@
 ---
 id: ce900-2025-console-engineering-mode-unit-type
-title: The nine-item engineering menu that ends in a Unit Type setting for Bike or Elliptical
+title: The nine-item engineering menu that ends in a Unit Type setting for Bike or
+  Elliptical
 kind: procedure
-question: How do I get into engineering mode on a Spirit ce900-2025 elliptical or a Spirit cr900-2018, cu900-2018, cr900-2025 or cu900-2025 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit ce900-2025 elliptical or
+  a Spirit cr900-2018, cu900-2018, cr900-2025 or cu900-2025 bike, and what is in it?
 asked_as:
 - how do i get into engineering mode on the ce900
 - how do i switch the elliptical console to metric
@@ -40,7 +42,10 @@ see_also:
 - ce900-2025-console-screen-overview
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
-  locator: p. 29, ENGINEERING MODE MENU
+  locator: p. 29, ENGINEERING MODE MENU. CR900-2018 service manual (SR8800-SB008)
+    MAINTENANCE MODE MENU, PDF p. 30 (printed 30), text.md lines 435-449; CU900-2018
+    service manual (SU8800-SB008) PDF p. 31 (printed 31), lines 497-519, word for
+    word
   extracted_at: '2026-09-09'
 ---
 
@@ -103,3 +108,16 @@ sub-menus, a Csafe test and a Pause mode:
 **All four bike manuals print it under a different heading than the elliptical does.** The 2018
 manuals head the page **MAINTENANCE MODE MENU**; the 2025 manuals and the CE900-2025 head it
 **ENGINEERING MODE MENU**. All six say the screen itself reads **Maintenance Mode**.
+
+**Both 2018 service manuals print the nine items word for word**, under MAINTENANCE MODE MENU on the page
+after General Maintenance: pedal the bike, hold Start, Stop and Enter for about 5 seconds until the
+Message Center displays Maintenance Mode, then Key Test, Display Test, the 20-minute Sleep Mode,
+Odometer Reset, Units, Speaker, Brake Test, Sensor Test and Unit Type (Bike or Elliptical).
+
+**The CR900-2018 service manual says Key Test.** Its owner's manual is the one book in this family
+that writes "Button Test"; the service manual uses "keys" throughout, so the two documents for the
+same machine differ in that word and in nothing else.
+
+**Their Part Replacement Guide also carries an empty console section.** Its "4. Electronic Console"
+heading has "4-1 Basic Functions - Refer to the product manual for the function introduction section"
+and "4-2 Maintenance Mode" with nothing under it - the menu is printed only on the page cited above.

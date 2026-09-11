@@ -1,9 +1,10 @@
 ---
 id: spirit-ce-console-led-data-windows-scan
-title: The Scan button swaps Distance, Calories, Pulse and Time Elapsed for Speed, Watts, METs and Time
-  Remaining
+title: The Scan button swaps Distance, Calories, Pulse and Time Elapsed for Speed,
+  Watts, METs and Time Remaining
 kind: fact
-question: What do the LED data windows on a Spirit elliptical or bike show, and how do I see the other readings?
+question: What do the LED data windows on a Spirit elliptical or bike show, and how
+  do I see the other readings?
 asked_as:
 - how do i see watts on my elliptical
 - how do i change what the elliptical display shows
@@ -48,8 +49,10 @@ see_also:
 - spirit-ce-console-display-button-four-window-sets
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 15 BASIC INFORMATION; CE800 2023 p. 16; CE850 2020 p. 21; CE850 2022 p. 22; CES880
-    2025 p. 33 FEATURES
+  locator: CE800 2021 p. 15 BASIC INFORMATION; CE800 2023 p. 16; CE850 2020 p. 21;
+    CE850 2022 p. 22; CES880 2025 p. 33 FEATURES. CR800 (2020) service manual 4-2-3
+    BASIC INFORMATION, PDF p. 13 (printed 12), text.md lines 195-202; CU800 (2020)
+    service manual PDF p. 13 (printed 12), lines 215-222
   extracted_at: '2026-09-09'
 ---
 
@@ -95,3 +98,5 @@ Distance**, Watts, METs, Time Remaining, and their pedal-speed window is **Strid
 `spirit-stepper-console-led-data-windows-steps-and-vertical-distance`. **The CSC900-2024 has four
 windows with twelve data points and no scan key at all**:
 `csc900-2024-console-four-display-windows`.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same two sets of four readings, same four-second scan.

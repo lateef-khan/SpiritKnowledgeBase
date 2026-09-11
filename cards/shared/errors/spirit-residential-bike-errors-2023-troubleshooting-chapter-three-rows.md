@@ -40,10 +40,13 @@ see_also:
 - spirit-commercial-bike-errors-no-error-codes-printed
 - spirit-ce-errors-erratic-heart-rate-interference
 - spirit-xe-errors-no-error-codes-printed
+- spirit-xb-2023-errors-eeprom-err-replace-display-board
+- spirit-xb-errors-e2-motor-does-not-move-on-level-key
 source:
   ref: spirit-bike-xbu55-2023-owners-manual
-  locator: 'TROUBLESHOOTING, the whole chapter. XBU55 2023 p. 44 (PDF page 46); XBR25
-    2023 p. 37 (PDF page 39); XBR55 2023 p. 45 (PDF page 47)'
+  locator: TROUBLESHOOTING, the whole chapter. XBU55 2023 p. 44 (PDF page 46); XBR25
+    2023 p. 37 (PDF page 39); XBR55 2023 p. 45 (PDF page 47); the 2026-09-11 service-manual
+    wave (see the closing paragraph)
   extracted_at: '2026-09-10'
 ---
 
@@ -89,3 +92,5 @@ XBR25 2023, which has no chest-strap chapter at all.
 Spirit codes are never Sole codes. A caller reading a code off a screen has a machine whose code
 did not come from any of these three books; establish what the machine actually is before
 answering.
+
+**The 2023 service manuals do print codes.** The XBR55 2023 and XBU55 2023 service manuals list `E1` (EEPROM failure, shown on the display as `EEPROM ERR`) and `E2` (gear motor); the XBR95 2023 lists `EEPROM ERR` alone. See `spirit-xb-2023-errors-eeprom-err-replace-display-board` and `spirit-xb-errors-e2-motor-does-not-move-on-level-key`. The absence above is the owner's manuals' only.

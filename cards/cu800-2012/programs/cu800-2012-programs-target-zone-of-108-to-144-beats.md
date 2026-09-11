@@ -23,6 +23,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - ab900-2018
   - ab950-2024
   - cu800-2012
   - xbr25-2019
@@ -51,7 +52,7 @@ see_also:
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 source:
   ref: spirit-bike-cu800-2012-owners-manual
-  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024 printed p. 22 (HEART RATE EXERTION); XBR95 2016/2018/2021 printed p. 29; XBR25 2019 p. 22; XBR55 2019/2021 p. 26; XBU55 2019/2021 p. 26; XBR55ENT/XBU55ENT 2021 p. 38; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25'
+  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024 printed p. 22 (HEART RATE EXERTION); XBR95 2016/2018/2021 printed p. 29; XBR25 2019 p. 22; XBR55 2019/2021 p. 26; XBU55 2019/2021 p. 26; XBR55ENT/XBU55ENT 2021 p. 38; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25; AB900 2018 service manual (AU800/AU800A) HEART RATE, PDF p. 18, text.md lines 290-325'
   extracted_at: '2026-09-09'
 ---
 
@@ -85,8 +86,15 @@ calculation automatically" (the AB950 only asks for age in Target Heart Rate Mod
 **nine different programs**" - the AB950 has no manual mode and eight console modes, not nine. See
 `spirit-bike-programs-heart-rate-monitor-without-a-heart-rate-program`.
 
-**The AB900 2018 air bike manual prints no such page at all** - see
-`spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+**The AB900 2018 air bike owner's manual prints no such page, but its service manual does.** The
+AU800/AU800A service manual's HEART RATE page (PDF p. 18) prints every figure above identically - 220
+minus age, a 50% to 90% zone, 60% for fat and 80% for the cardiovascular system, 108 to 144 for a
+forty year old - and closes with the same "training between 60% and 80% of your MHR" sentence. Its
+Target Heart Rate Training Chart is a flat image there too. Of the two carried-over sentences the
+AB950 prints, the service manual keeps one and drops one: it does say "if you enter your age during
+programming the console will perform this calculation automatically" (the AB900 asks for age only
+in Target Heart Rate Mode, which targets 65% to 85%), and it never says "nine different programs" -
+see `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
 
 **Three other figure pairs appear across the thirteen commercial bike manuals**, and the KB keeps
 them apart rather than harmonising them. The CR800 2021, CR800 2023 and CU800 2021 print 60%/85% and

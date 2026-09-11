@@ -41,7 +41,7 @@ see_also:
 - spirit-ce-programs-constant-power-watt
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 25-26 (scan 1 PDF p. 27-28); CR900 2018 p. 27; CU900 2018 p. 26; CR800 2021 p. 23; CU800 2021 p. 22; CR800 2023 p. 23; CR900 2025 p. 25; CU900 2025 p. 24'
+  locator: 'CU800 2012 printed p. 25-26 (scan 1 PDF p. 27-28); CR900 2018 p. 27; CU900 2018 p. 26; CR800 2021 p. 23; CU800 2021 p. 22; CR800 2023 p. 23; CR900 2025 p. 25; CU900 2025 p. 24; service manuals: CR900 2018 (SR8800-SB008) CONSTANT WATT PROGRAM PDF p. 16, text.md lines 236-252; CU900 2018 p. 17, lines 298-314'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,6 +58,11 @@ your pedal speed changes**, so the power output stays where you set it.
    directly.
 8. The Scan button beside the data window scrolls through the readouts.
 9. When the program ends, Start begins the same program again and Stop exits it.
+
+**The CR900 2018 and CU900 2018 service manuals print the same nine steps** under the same
+"Constant Watt Program" heading, with the Watt key, and their step 8 calls it "the Constant Power
+program" in passing - the two names are one program. They are the only service manuals in the KB
+that print it.
 
 **The button is named differently on different machines.** The CU800 2012, CR800 2021, CR800 2023
 and CU800 2021 call it **Constant Power**; the CR900 2018, CU900 2018, CR900 2025 and CU900 2025

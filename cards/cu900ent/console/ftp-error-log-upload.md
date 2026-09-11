@@ -2,7 +2,7 @@
 id: cu900ent-ftp-error-log-upload
 title: FTP settings and uploading the error log
 kind: procedure
-question: How do I set up error log upload on a Spirit CU900ENT bike?
+question: How do I set up error log upload on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - how do i send the error log from the console
 - what is the ftp setting on the spirit console
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -35,7 +36,11 @@ see_also:
 - cu900ent-wifi-ethernet-setup
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Maintenance / FTP Settings, p. 35 (printed 35)
+  locator: Maintenance / FTP Settings, p. 35 (printed 35). The CR900ENT-2021 service
+    manual, FTP Settings, PDF pp. 34-35 (printed 34-35), text.md lines 513-541, prints
+    the same page word for word. It prints the same IP address, port, account, password
+    (again as "PASSEORD"), the same CR800-ENT example serial and the same green-or-red
+    upload test.
   extracted_at: '2026-09-08'
 ---
 
@@ -62,3 +67,5 @@ The password field is printed **`PASSEORD`** in the source. The example serial n
 not a CU900ENT; the page block is reused across the range.
 
 This uploads the same log that Diagnostics displays on the console.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. It prints the same IP address, port, account, password (again as "PASSEORD"), the same CR800-ENT example serial and the same green-or-red upload test.

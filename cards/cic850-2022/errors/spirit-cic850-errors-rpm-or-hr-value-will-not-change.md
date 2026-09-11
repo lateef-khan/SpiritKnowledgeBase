@@ -35,7 +35,9 @@ see_also:
 - sole-spinner-rpm-or-hr-does-not-change
 source:
   ref: spirit-bike-cic850-2022-owners-manual
-  locator: TROUBLESHOOTING, RPM or HR does not change, PDF page 35
+  locator: TROUBLESHOOTING, RPM or HR does not change, PDF page 35; CIC850 2022 service
+    manual 6. Troubleshooting page, the same five entries as the owner's manual, PDF
+    p. 20 (printed 19), text.md lines 288-313
   extracted_at: '2026-09-09'
 ---
 
@@ -54,3 +56,5 @@ console".
 
 The Sole SB700-2020 and SB900-2020 service manuals print the same entry, filed there under
 `section: console`: `sole-spinner-rpm-or-hr-does-not-change`. Different brand, separate card.
+
+**The CIC850 2022 service manual reprints this entry word for word** on its own `Troubleshooting` page, and adds a `Common problems` chapter behind it with a five-check blank-display page (`cic850-2022-errors-display-blank-or-no-speed-five-checks`) and a noise page (`cic850-2022-errors-noise-brake-block-gap-1-5-mm-or-worn-pedals`).

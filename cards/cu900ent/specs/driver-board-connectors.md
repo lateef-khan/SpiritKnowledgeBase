@@ -2,8 +2,8 @@
 id: cu900ent-driver-board-connectors
 title: Driver board connectors and the board's markings
 kind: spec
-question: Which connector on the cu900ent driver board takes which cable, and what
-  is the board marked?
+question: Which connector on the Spirit CU900ENT or CR900ENT driver board takes which cable,
+  and what is the board marked?
 asked_as:
 - what plugs into the cu900 driver board
 - where does the brake wire go on the bike board
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: specs
   code: '*'
@@ -34,11 +35,10 @@ see_also:
 - cu900ent-circuit-diagram
 - cu900ent-ac-adapter-rating
 - cu900ent-electronic-parts-locations
+- spirit-cr900-cu900-2018-specs-driver-board-blcb002a-connections
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: p. 19 (printed 19) and p. 20 (printed 20), section 6 'Driver Board PCB
-    Component Locations' / 'Driver Board function'; connector numbers from the circuit
-    diagram on p. 24 (printed 24)
+  locator: "p. 19 (printed 19) and p. 20 (printed 20), section 6 'Driver Board PCB Component Locations' / 'Driver Board function'; connector numbers from the circuit diagram on p. 24 (printed 24). CR900ENT-2021 (spirit-bike-cr900ent-2021-service-manual): 'Driver Board PCB Component Locations' PDF p. 18 and 'Driver Board function' PDF p. 19 (printed 18-19), text.md lines 191-215 (OCR supplement lines 1459-1470), the same photographs; connector numbers on its circuit diagram, PDF p. 23"
   extracted_at: '2026-09-08'
 ---
 
@@ -59,3 +59,8 @@ Call-outs on p. 20, and the connector numbers the circuit diagram gives for the 
 
 **CN6** is on the board and is left unwired on the circuit diagram. Other silkscreen visible on
 the photo: CN7, CN8, FAN1, and a USB socket.
+
+**The CR900ENT book prints the same two pages** - the same board photograph with the same five
+call-outs (RPM SENSOR INPUT, CONSOLE POWER OUTPUT, BRAKE FLIWHEEL OUTPUT, DC 24V INPUT, SYSTEM
+WIRE) and the same CN numbers on its circuit diagram. The 2018 CR900/CU900 used a different
+board, the BLCB002A (`spirit-cr900-cu900-2018-specs-driver-board-blcb002a-connections`).

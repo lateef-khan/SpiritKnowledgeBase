@@ -51,6 +51,9 @@ see_also:
 - spirit-residential-bike-specs-no-specification-table
 - spirit-residential-bike-specs-gear-motor-or-generator-brake
 - spirit-residential-bike-specs-owners-manual-part-numbers
+- spirit-bike-specs-parts-which-service-manuals-print-a-parts-list
+- xbr25-2007-specs-parts-list
+- xbr55-2007-specs-parts-list
 source:
   ref: spirit-bike-xbr55-2023-owners-manual
   locator: 'Table of Contents printed p. 1 (Exploded View Diagram 37, Parts List 38)
@@ -88,7 +91,11 @@ part.
 For the eight with none, the table of contents ends at the warranty and a search of
 the whole document returns no `Main Frame ... 1` row and no item-number column.
 **The only part numbers those eight give are the hardware callouts inside the
-assembly chapter**, which cover fasteners for assembly and nothing else.
+assembly chapter**, which cover fasteners for assembly and nothing else. Their service manuals add
+nothing: none of the 2016, 2021 ENT or 2023 XBR/XBU service books prints a parts list either
+(`spirit-bike-specs-parts-which-service-manuals-print-a-parts-list`). The one residential bike book that
+prints exploded views with Spirit part numbers is the 2008 dealer manual for the earlier XBR25 and XBR55
+(`xbr25-2007-specs-parts-list`, `xbr55-2007-specs-parts-list`), and those numbers belong to those machines.
 
 ## The running count across the whole Spirit bike range
 

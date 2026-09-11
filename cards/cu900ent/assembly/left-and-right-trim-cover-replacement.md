@@ -2,7 +2,8 @@
 id: cu900ent-left-and-right-trim-cover-replacement
 title: Left and right trim cover replacement
 kind: procedure
-question: How do I replace the left or right trim cover on a Spirit CU900ENT bike?
+question: How do I replace the left or right trim cover on a Spirit CU900, CU900ENT
+  or CU1000ENT upright bike?
 asked_as:
 - side cover replacement on my spirit cu900 bike
 - trim cover screws on the cu900ent
@@ -19,8 +20,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -32,7 +35,10 @@ see_also:
 - cu900ent-drive-system-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.4 Left and Right Trim Cover Replacement, p. 49 (printed 49)
+  locator: 'cu900ent: Section 8, 6.4 Left and Right Trim Cover Replacement, p. 49
+    (printed 49) | cu900-2018: 6.4 Left and Right Trim Cover Replacement, PDF p. 42;
+    text.md lines 694-707 | cu1000ent-2023: 12.15 Left and Right Trim Cover Replacement,
+    PDF p. 23; text.md lines 481-492'
   extracted_at: '2026-09-08'
 ---
 
@@ -48,3 +54,4 @@ total.
 
 The drive system procedure (6.7.1) sends the technician here before the belt can be reached.
 
+**Three books, one procedure.** The CU900 (2018) manual prints this as 6.4 and the CU1000ENT (2023) manual as 12.15, word for word: four self-tapping screws, left-hand cover named, no refit step.

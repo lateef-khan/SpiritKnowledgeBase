@@ -1,8 +1,10 @@
 ---
 id: xe395-2023-console-engineering-mode-with-a-child-lock
-title: The engineering menu with a fifteen-minute Sleep Mode, a Motor test and a Child Lock
+title: The engineering menu with a fifteen-minute Sleep Mode, a Motor test and a Child
+  Lock
 kind: procedure
-question: How do I get into engineering mode on a Spirit XE395-2023 elliptical or a 2023 XB bike, and what is in it?
+question: How do I get into engineering mode on a Spirit XE395-2023 elliptical or
+  a 2023 XB bike, and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i switch my elliptical to metric
@@ -33,14 +35,19 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xbr95-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-and-no-child-lock
 see_also:
 - xe795-2023-console-engineering-mode-with-a-pwm-test
 - xe395-2023-console-child-lock-key-and-how-to-unlock-it
 - spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
+- xbr95-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-and-no-child-lock
 source:
   ref: spirit-elliptical-xe395-2023-owners-manual
-  locator: p. 38, ENGINEERING MODE MENU; XBR25 2023 p. 29, XBR95 2023 p. 35, XBR55 2023 and XBU55 2023 p. 36, all ENGINEERING MODE MENU
+  locator: p. 38, ENGINEERING MODE MENU; XBR25 2023 p. 29, XBR95 2023 p. 35, XBR55
+    2023 and XBU55 2023 p. 36, all ENGINEERING MODE MENU. XBR55-2023 service manual
+    8.3 Maintenance Menu, PDF p. 15 (printed 15), text.md lines 294-323; XBU55-2023
+    service manual 8.4 Maintenance Menu, PDF p. 15 (printed 15), lines 293-322
   extracted_at: '2026-09-09'
 ---
 
@@ -89,8 +96,9 @@ numbers.
 
 **The XBR25-2023 names a key its console does not have.** Its item 3 reads "Press Enter to access
 settings and **Speed** + or- arrow to scroll" in the manual of a bike with no speed control; the other
-three bikes and the XE395-2023 print "+ or - arrow". It is a leftover from the treadmill wording, not
-a different keystroke.
+three bikes' owner's manuals and the XE395-2023 print "+ or - arrow". It is a leftover from the
+treadmill wording, not a different keystroke - and the XBR55-2023 and XBU55-2023 **service** manuals
+print the Speed wording too.
 
 **The XBR95-2023 has a Motor test where its own earlier printings had a DA Test.** The 2016, 2018 and
 2021 XBR95 books test the brake resistance instead:
@@ -99,3 +107,14 @@ XBR95's four printings, and it arrives in 2023 rather than between 2016 and 2021
 
 **Fifteen minutes on the bikes too.** Every 2019 and 2021 bike that prints a timeout prints 20
 minutes; all four 2023 bikes print 15.
+
+**The XBR55-2023 and XBU55-2023 service manuals print this menu word for word** - the same five items,
+the same six Functions settings in the bikes' order, the fifteen-minute Sleep Mode, the Motor test
+and the Child Lock - headed Maintenance Menu, with the Message Window reading "Engineering Mode" and
+the Level +/- keys navigating.
+
+**The XBR95-2023 service manual does not.** Its Maintenance Menu has no Sleep Mode, no Motor test and
+no Child Lock; its Functions list ends in a PWM test of the brake resistance and its top level goes
+Key Test, Display Test, Functions, Exit. The owner's manual and the service manual for that one
+machine disagree, and neither mentions the other:
+`xbr95-2023-console-maintenance-menu-pwm-test-with-no-sleep-mode-and-no-child-lock`.

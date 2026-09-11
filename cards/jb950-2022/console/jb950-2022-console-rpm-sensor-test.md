@@ -1,22 +1,23 @@
 ---
 id: jb950-2022-console-rpm-sensor-test
-title: 'The RPM Sensor test that shows the reed switch as ON when closed and OFF when open'
+title: The RPM Sensor test that shows the reed switch as ON when closed and OFF when
+  open
 kind: procedure
-question: 'How do I test the RPM sensor on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I test the RPM sensor on a Spirit jb950-2022 Johnny G Spirit Bike?
 asked_as:
-- 'my johnny g bike shows no rpm'
-- 'cadence not reading on the jb950'
-- 'reed switch test on the johnny g spirit bike'
-- 'rpm sensor test on my spin bike'
+- my johnny g bike shows no rpm
+- cadence not reading on the jb950
+- reed switch test on the johnny g spirit bike
+- rpm sensor test on my spin bike
 keywords:
-- 'rpm sensor'
-- 'reed switch'
-- 'reed on rpm'
-- 'pedal rpm'
-- 'cadence'
-- 'no reading'
-- 'maintenance mode'
-- 'sensitive setting'
+- rpm sensor
+- reed switch
+- reed on rpm
+- pedal rpm
+- cadence
+- no reading
+- maintenance mode
+- sensitive setting
 facets:
   brand:
   - spirit
@@ -35,7 +36,8 @@ see_also:
 - jb950-2022-console-limit-sensor-test
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 56 RPM SENSOR TEST
+  locator: JB950-2022 printed p. 56 RPM SENSOR TEST. JB950 service manual 5.3 RPM
+    SENSOR TEST, PDF pp. 41-42 (printed 41-42), text.md lines 731-739
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +61,5 @@ the same fault as a dead console - the console will still light up while the RPM
 
 **There is no calibration here.** This entry reports what the sensor is doing; nothing in it adjusts
 a wheel size, a magnet gap or a pulse count.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same REED ON RPM display, ON when the reed switch is closed and OFF when open.

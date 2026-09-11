@@ -2,7 +2,8 @@
 id: cu900ent-check-pedals
 title: Preventative maintenance check on the pedals
 kind: procedure
-question: How do I check and tighten the pedals on a Spirit cu900ent bike?
+question: How do I check and tighten the pedals on a Spirit CU900 2018, CU900ENT or CU1000ENT
+  upright bike?
 asked_as:
 - how do i tighten a loose pedal on the bike
 - which way does the left pedal tighten
@@ -18,20 +19,26 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-cr900-maintenance-weekly-pedal-check
 see_also:
 - cu900ent-general-maintenance
 - cu900ent-noise-and-feet-feeling
 - cu900ent-check-console-mast
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 3.1 Check for Pedals, p. 43 (printed 43), figures 3.1.1 and 3.1.2
+  locator: 'Section 3.1 Check for Pedals, p. 43 (printed 43), figures 3.1.1 and 3.1.2.
+    The same sentence, word for word: spirit-bike-cu900-2018-service-manual 3.1 Check for
+    Pedals, PDF p. 36 (printed 36), text.md lines 595-597; spirit-bike-cu1000ent-2023-service-manual
+    11.11 Check for Pedals, PDF p. 19 (printed 19), lines 375-378. Both added 2026-09-11.'
   extracted_at: '2026-09-08'
 ---
 
@@ -47,3 +54,11 @@ A loose pedal is one of the two causes this manual gives for a squeak, thump, cl
 feeling — see `cu900ent-general-maintenance`. It is also the first thing to check for a bad
 "feet feeling" while pedalling; if the pedal is tight and the feeling persists, check the crank —
 see `cu900ent-noise-and-feet-feeling`.
+
+## Three uprights say "regularly"; the two recumbents say "every week"
+
+The **CU900 2018** and **CU1000ENT 2023** service manuals print this check word for word —
+"regularly", left counterclockwise, right clockwise — as sections 3.1 and 11.11. The **CR900 2018**
+and **CR900ENT 2021** books print the same two directions but name an interval: check the pedals
+**every week** (`spirit-cr900-maintenance-weekly-pedal-check`). Quote the interval from the book
+for the machine; this card's three uprights have none.

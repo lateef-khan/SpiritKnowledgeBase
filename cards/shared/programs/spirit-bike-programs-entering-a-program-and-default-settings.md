@@ -33,8 +33,10 @@ facets:
   - cu900-2018
   - cu900-2025
   - cu900ent
+  - xbr25-2016
   - xbr25-2019
   - xbr25-2023
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
   - xbr55-2023
@@ -42,6 +44,7 @@ facets:
   - xbr95-2018
   - xbr95-2021
   - xbr95-2023
+  - xbu55-2016
   - xbu55-2019
   - xbu55-2021
   - xbu55-2023
@@ -55,7 +58,7 @@ see_also:
 - spirit-ce-programs-entering-a-program-and-default-settings
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16; CR800 2021 p. 18; CU800 2021 p. 17; CR800 2023 p. 18; CR900ENT 2021 p. 29; CU900ENT p. 26; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018/2021 printed p. 18; XBR25 2019 p. 17; XBR55 2019/2021 p. 19; XBU55 2019/2021 p. 19; XBR25 2023 p. 21; XBR95 2023 p. 26; XBR55/XBU55 2023 p. 27'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16; CR800 2021 p. 18; CU800 2021 p. 17; CR800 2023 p. 18; CR900ENT 2021 p. 29; CU900ENT p. 26; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018/2021 printed p. 18; XBR25 2019 p. 17; XBR55 2019/2021 p. 19; XBU55 2019/2021 p. 19; XBR25 2023 p. 21; XBR95 2023 p. 26; XBR55/XBU55 2023 p. 27; service manuals: CR900 2018 (SR8800-SB008) ENTERING A PROGRAM & CHANGING SETTINGS PDF p. 15, text.md lines 213-217; CU900 2018 p. 16, lines 277-281; CU800 2012 (XU878-AB04M) EXERCISE MODE 3.2, p. 14, lines 209-213; XBR25 2016 (XR327-SB005-01) 4.2, p. 15, lines 213-217; XBR55 2016 (XR329-SB011-01) 4.2, p. 16-17, lines 226-233; XBU55 2016 (XU319-SB011-01) 4.2, p. 15, lines 207-212; XBR95 2016 (XR829-SB012-01) 4.2, p. 16, lines 230-234'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,6 +67,16 @@ When you enter a program you have the option of entering your own personal setti
 takes you directly to the start of your workout, using the default or previously saved settings.
 
 To change the personal settings instead, follow the instructions in the message window.
+
+**Five service manuals state the same rule in the engineer's words**, and they are the only
+program-setup text those books print. The CU800 2012 (XU878), XBR25 2016, XBR55 2016, XBU55 2016 and
+XBR95 2016 service manuals say, under EXERCISE MODE (QUICK START): "You could chose the program by
+pressing the key ... And then, press START key to start the workout. All parameter will be the
+preset value." The 2016 books name the key groups as MANUAL, PROGRAM and HRC; the XU878 book names
+MANUAL, PROGRAM, CUSTOM, FIT-TEST, HRC1 and Constant power. Their Ready Mode page adds that
+**Enter** is what opens parameter setting. For the three 2016 machines - XBR25 2016, XBR55 2016 and
+XBU55 2016 - this service-manual sentence is the only printed evidence, as no owner's manual for
+them is in the KB.
 
 **The CR900ENT and CU900ENT add a range for each field**, because the touchscreen shows one - see
 `spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-max-level-five`.

@@ -2,7 +2,8 @@
 id: cu900ent-front-and-rear-trim-cover-replacement
 title: Front and rear trim cover replacement
 kind: procedure
-question: How do I replace the front or rear trim cover on a Spirit CU900ENT bike?
+question: How do I replace the front or rear trim cover on a Spirit CU900, CU900ENT
+  or CU1000ENT upright bike?
 asked_as:
 - front cover replacement on my spirit cu900 bike
 - rear trim cover on the cu900ent
@@ -18,8 +19,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -31,7 +34,10 @@ see_also:
 - cu900ent-rear-horizontal-tube-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.6 Front and Rear Trim Cover Replacement, p. 52 (printed 52)
+  locator: 'cu900ent: Section 8, 6.6 Front and Rear Trim Cover Replacement, p. 52
+    (printed 52) | cu900-2018: 6.6 Front and Rear Trim Cover Replacement, PDF p. 45;
+    text.md lines 736-751 | cu1000ent-2023: 12.17 Front and Rear Trim Cover Replacement,
+    PDF pp. 25-26; text.md lines 525-540'
   extracted_at: '2026-09-08'
 ---
 
@@ -47,3 +53,4 @@ no screw size.
 **These are the front and rear covers, not the left and right ones.** The left and right trim covers
 are 6.4 and use four self-tapping screws.
 
+**Three books, one procedure.** The CU900 (2018) manual prints this as 6.6 and the CU1000ENT (2023) manual as 12.17; the same two screws and the same untranslated refit sentence ("Before and after the decoration cover please refer to 12.29" in the CU1000ENT).

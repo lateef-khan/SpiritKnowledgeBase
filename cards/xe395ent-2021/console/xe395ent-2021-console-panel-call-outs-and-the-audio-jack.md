@@ -1,8 +1,10 @@
 ---
 id: xe395ent-2021-console-panel-call-outs-and-the-audio-jack
-title: 'The console panel: touchscreen, reading rack, speakers, swivel fan, cargo compartment and a 3.5 mm input-only jack'
+title: 'The console panel: touchscreen, reading rack, speakers, swivel fan, cargo
+  compartment and a 3.5 mm input-only jack'
 kind: fact
-question: What is on the console of a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
+question: What is on the console of a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT
+  bike?
 asked_as:
 - what is on my xe395ent console
 - can i plug headphones into my elliptical
@@ -38,7 +40,10 @@ see_also:
 - spirit-xe-console-speakers-take-an-audio-cable-and-have-no-volume-control
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
-  locator: p. 18, XE395ENT CONSOLE OPERATION drawing; XBR55ENT and XBU55ENT p. 15, CONSOLE OPERATION
+  locator: p. 18, XE395ENT CONSOLE OPERATION drawing; XBR55ENT and XBU55ENT p. 15,
+    CONSOLE OPERATION. XBR55ENT-2021 service manual Display Windows, PDF p. 11 (printed
+    11), text.md lines 101-127 with the OCR supplement for that page; XBU55ENT-2021
+    service manual PDF p. 11, lines 98-124
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +86,7 @@ CU800ENT-2024 drawings name five things - a touchscreen, a tablet rack, an adjus
 cargo compartment: `spirit-ent-bike-console-layout-touchscreen`. **The two residential ENT bikes do
 have a USB port**, described in their text on p. 18, but their drawing does not mark it, exactly as on
 the XE395ENT.
+
+**The two bike service manuals draw the console with four call-outs** - TFT LCD TOUCH PANEL & PROGRAM
+MENU, COOLING FAN, START, STOP, LEVEL CONTROLS and USB CHARGER - and their screen artwork reads
+"HELLO, GUEST" over a START WORKOUT button. Neither names the audio jack on that drawing.

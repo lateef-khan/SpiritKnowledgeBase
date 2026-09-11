@@ -4,7 +4,8 @@ title: All parts warranted 5 years from retail sale or 18 months from factory sh
   whichever comes first, with longer periods per component
 kind: policy
 question: How long is the base parts warranty on a Spirit XT175, XT275, XT375, XT475
-  or XT675 treadmill of the 2007 model year, and when does it start?
+  or XT675 treadmill or XBR25 or XBR55 recumbent bike of the 2007 model year, and when
+  does it start?
 asked_as:
 - how long is the warranty on my spirit treadmill
 - when does the spirit warranty start
@@ -23,9 +24,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2007
+  - xbr55-2007
   - xt175-2007
   - xt275-2007
   - xt375-2007
@@ -42,12 +45,16 @@ see_also:
 - xt275-2007-warranty-home-periods
 - spirit-xt-2007-warranty-home-periods-xt375-xt475-xt675
 - xt675-2007-warranty-commercial-periods
+- xbr25-2007-warranty-home-periods
+- xbr55-2007-warranty-home-periods
 - spirit-xt-2007-warranty-labor-reimbursement-80-dollar-flat-fee
 - xt-2023-warranty-labor-period
 source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
   locator: TREADMILL WARRANTY, PDF p. 12 (printed 12), text.md lines 428-470; CONTACTING
-    CUSTOMER SERVICE, PDF p. 11 (printed 11), text.md lines 393-397
+    CUSTOMER SERVICE, PDF p. 11 (printed 11), text.md lines 393-397; the same paragraph headed BIKE
+    WARRANTY in spirit-bike-xbr25-xbr55-2007-service-manual PDF p. 8 (printed 8), text.md lines 229-240, and
+    the "All warranties are valid" sentence on its PDF p. 7, line 194
   extracted_at: '2026-09-11'
 ---
 
@@ -65,5 +72,9 @@ source:
 | XT275 | `xt275-2007-warranty-home-periods` |
 | XT375, XT475, XT675 at home | `spirit-xt-2007-warranty-home-periods-xt375-xt475-xt675` |
 | XT675 in commercial use | `xt675-2007-warranty-commercial-periods` |
+| XBR25 recumbent bike at home | `xbr25-2007-warranty-home-periods` |
+| XBR55 recumbent bike at home | `xbr55-2007-warranty-home-periods` |
+
+**The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints the same paragraph** under the heading BIKE WARRANTY, warranting "all its bike parts" for the same 5 years or 18 months and saying "this warranty" where the treadmill page says "these warranties". Its table of contents lists the page as "Treadmill Warranty" - a line copied from the treadmill book - and its table has a single "Home use" column for each bike, with no commercial column at all.
 
 This is a dealer document: it prints no consumer exclusion list, no registration card and no transfer rule. The dealer-facing policy - what is not covered, what Spirit pays for labour and how parts come back - is on `spirit-xt-2007-warranty-what-the-dealer-policy-does-not-cover`, `spirit-xt-2007-warranty-labor-reimbursement-80-dollar-flat-fee` and `spirit-xt-2007-warranty-parts-returns-and-30-day-billing`.

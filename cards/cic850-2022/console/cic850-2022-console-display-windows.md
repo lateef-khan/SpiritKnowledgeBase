@@ -1,24 +1,25 @@
 ---
 id: cic850-2022-console-display-windows
-title: 'What the display windows measure, and the three-second rule that switches them to averages'
+title: What the display windows measure, and the three-second rule that switches them
+  to averages
 kind: fact
-question: 'What do the numbers on the console mean on a Spirit cic850-2022 indoor cycle?'
+question: What do the numbers on the console mean on a Spirit cic850-2022 indoor cycle?
 asked_as:
-- 'what does kcal mean on my indoor cycle display'
-- 'why does my spin bike show an average instead of my speed'
-- 'is the distance on the indoor cycle real miles'
-- 'why did the time stop on my bike console'
+- what does kcal mean on my indoor cycle display
+- why does my spin bike show an average instead of my speed
+- is the distance on the indoor cycle real miles
+- why did the time stop on my bike console
 keywords:
-- 'time'
-- 'cadence'
-- 'speed'
-- 'distance'
-- 'kcal'
-- 'calories'
-- 'heart rate'
-- 'average'
-- 'bar graph'
-- 'three seconds'
+- time
+- cadence
+- speed
+- distance
+- kcal
+- calories
+- heart rate
+- average
+- bar graph
+- three seconds
 facets:
   brand:
   - spirit
@@ -35,7 +36,9 @@ see_also:
 - cic850-2022-console-measuring-ranges-and-ble40
 source:
   ref: spirit-bike-cic850-2022-owners-manual
-  locator: CIC850-2022 printed p. 25 TIME, CADENCE & SPEED, DISTANCE, KCAL, HEART RATE
+  locator: CIC850-2022 printed p. 25 TIME, CADENCE & SPEED, DISTANCE, KCAL, HEART
+    RATE. CIC850 service manual 4-1 Display Windows, PDF p. 12 (printed 11), text.md
+    lines 168-187, and 4-3 Functions, PDF p. 14 (printed 13), lines 202-233
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +66,6 @@ number is seeing the average, not a fault.
 **Calories need a heart rate.** The manual says the calculation uses instantaneous heart rate, so
 without a chest belt paired the figure rests on age and weight alone. The personal data setting is
 what supplies those; see `cic850-2022-console-personal-data-half-pound-steps`.
+
+**The service manual prints the Functions page word for word**, and its Display Windows drawing names
+WATTS, RPM, SPEED, HEART RATE, BPM, TIME, DISTANCE, KCAL and a **LOW BATTERY** indicator.

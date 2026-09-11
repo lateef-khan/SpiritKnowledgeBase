@@ -2,7 +2,8 @@
 id: spirit-ce-console-program-key-previews-the-profile
 title: Pressing a program key previews its profile before you commit to it
 kind: fact
-question: How do I look at a program's shape before starting it on a Spirit elliptical or bike?
+question: How do I look at a program's shape before starting it on a Spirit elliptical
+  or bike?
 asked_as:
 - how do i see what a program looks like before i start
 - how do i pick a program on the elliptical
@@ -80,7 +81,16 @@ see_also:
 - spirit-ce-console-quick-start-time-counts-up
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22; CE900 2021 p. 16; CE900 2025 p. 17; CES880 2025 p. 33; CE850 2016 p. 19; CE800 2013 p. 18 (printed 15); XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300 manual; XE350/XE550 p. 22 of the XE150/XE350/XE550 manual; XE395 2010 p. 18; XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys
+  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22;
+    CE900 2021 p. 16; CE900 2025 p. 17; CES880 2025 p. 33; CE850 2016 p. 19; CE800
+    2013 p. 18 (printed 15); XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300
+    manual; XE350/XE550 p. 22 of the XE150/XE350/XE550 manual; XE395 2010 p. 18; XE195
+    p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XBR95 2016, 2018 and 2021 p.
+    18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys. CR800
+    (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), text.md
+    lines 210-211; CU800 (2020) service manual PDF p. 14 (printed 13), lines 230-231.
+    CR900-2018 service manual BASIC INFORMATION, PDF p. 14 (printed 14), text.md lines
+    186-188; CU900-2018 service manual PDF p. 15 (printed 15), lines 250-252
   extracted_at: '2026-09-09'
 ---
 
@@ -110,8 +120,7 @@ it selects a program by highlighting an icon with Up/Down and pressing **Mode**
 (`xe150-2005-console-mode-key-and-the-icon-row`). The **XE395-2023** and **XE795-2023** print a
 shortened version with **one Program Key** and **no Enter step**: "The Program Key is used to preview
 each program. When you first turn the console on you may press the program key to preview what the
-program profile looks like." That is a different keypad and a different instruction; see
-`spirit-xe-console-a-single-program-key-with-no-enter-step`.
+program profile looks like." That is a different keypad and a different instruction, and no card holds it yet.
 
 **Eight Spirit commercial *bike* owner's manuals print this paragraph too**, so this card covers
 bikes as well as ellipticals and its product line is no longer elliptical-only. **The bikes split
@@ -151,3 +160,7 @@ others write "Program key"; nothing else differs.
 CRS800S-2021 printed p. 19 and CS800-2021 printed p. 18, as the closing paragraph of BASIC
 INFORMATION. Press a program key in idle to preview the profile, then **Enter** to select it and
 enter the data set-up mode.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same two sentences on the Program button preview and Enter.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same preview by pressing each program key, then Enter.

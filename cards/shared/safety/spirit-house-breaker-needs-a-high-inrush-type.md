@@ -3,7 +3,11 @@ id: spirit-house-breaker-needs-a-high-inrush-type
 title: A house breaker that trips needs a high inrush type, and is not a warranty
   defect
 kind: policy
-question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400 residential machine, a Spirit CU800ENT-2022 or CR800ENT-2023 bike, or a Spirit CVC800 climber?
+question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT850ENT,
+  CT800 or CT800ENT treadmill, a Spirit XT685-2010 treadmill, a 2026 Spirit 4.0T treadmill,
+  a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395ENT or XG400
+  residential machine, a Spirit XBR or XBU residential bike, a Spirit CU800ENT-2022
+  or CR800ENT-2023 bike, or a Spirit CVC800 climber?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -44,12 +48,19 @@ facets:
   - ct850ent-2022
   - cu800ent-2022
   - cvc800
+  - xbr25-2016
   - xbr25-2019
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
+  - xbr55-2023
   - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2023
+  - xbu55-2016
   - xbu55-2019
   - xbu55-2021
+  - xbu55-2023
   - xbu55ent-2021
   - xe195-2019
   - xe195-2021
@@ -82,20 +93,34 @@ see_also:
 - spirit-xe-2021-safety-instructions-list
 - spirit-bike-ent-safety-instructions-list
 - xt-2023-safety-afci-gfci-nuisance-tripping
+- spirit-xb-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27 (printed 26); the
-    same paragraph is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25) of
-    the CVC800 manual, and the Circuit Breakers bullet of the ELECTRICAL SAFETY page, p. 6,
-    of the 2026 4.0T owner's manual and the Circuit Breakers paragraph of the four CT800
-    owner's manuals - 2012 page 3, 2016 pages 4-5, 2020 pages 5-6, ENT-2022 page 5, and of
-    the four CT850 owner's manuals - 2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6,
-    ENT-2022 page 5. The XT685 2010 owner's manual prints the paragraph on its Important
-    Electrical Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit
-    elliptical owner's manuals print the paragraph on their electrical page - CE850 2016
-    page 6, CE850 2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5 The CU800ENT-2022 and
-    CR800ENT-2023 bike owner's manuals print the same paragraph on their printed page 5,
-    ending with the dedicated 5 amp breaker sentence The two Spirit XRW600 rower owner's manuals print the whole paragraph on their Important Electrical Instructions page, printed page 6
+  locator: 'Section 7.2 Important Electrical Instructions, Circuit Breakers, p. 27
+    (printed 26); the same paragraph is p. 33 (printed 32) of the CT850 2020 manual
+    and p. 25 (printed 25) of the CVC800 manual, and the Circuit Breakers bullet of
+    the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner''s manual and the Circuit
+    Breakers paragraph of the four CT800 owner''s manuals - 2012 page 3, 2016 pages
+    4-5, 2020 pages 5-6, ENT-2022 page 5, and of the four CT850 owner''s manuals -
+    2016 pages 5-6, 2018 pages 4-5, 2020 pages 5-6, ENT-2022 page 5. The XT685 2010
+    owner''s manual prints the paragraph on its Important Electrical Instructions
+    page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner''s
+    manuals print the paragraph on their electrical page - CE850 2016 page 6, CE850
+    2020 pages 7-8, CE850 2022 page 7, CE800ENT page 5 The CU800ENT-2022 and CR800ENT-2023
+    bike owner''s manuals print the same paragraph on their printed page 5, ending
+    with the dedicated 5 amp breaker sentence The two Spirit XRW600 rower owner''s
+    manuals print the whole paragraph on their Important Electrical Instructions page,
+    printed page 6. Seven Spirit residential bike service manuals print the paragraph
+    in 7.2 Important Electrical Instructions: XBR25-2016 (XR327-SB005-01) service
+    manual: section 7 Product Safety Instructions, PDF p. 31 (printed 31); text.md
+    lines 424-452. XBR55-2016 (XR329-SB011-01) service manual: section 7, PDF p. 33
+    (printed 33); text.md lines 448-474. XBU55-2016 (XU319-SB011-01) service manual:
+    section 7, PDF p. 31 (printed 31); text.md lines 424-453. XBR95-2016 (XR829-SB012-01)
+    service manual: section 7, PDF p. 35 (printed 35); text.md lines 457-483. XBR55-2023
+    (XR329A-SB030) service manual: section 7.1-7.3, PDF p. 11 (printed 11 of 30);
+    text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual: section 7.1-7.3,
+    PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023 (XR829A-SB032)
+    service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28); text.md lines 191-223.'
   extracted_at: '2026-09-08'
 ---
 
@@ -288,3 +313,19 @@ November 2021 printings agree word for word.
 
 **No other Spirit rower prints it.** The CRW800 air rowers and the CRW900 and CRW800H2O water rowers
 are battery powered and carry no breaker paragraph at all.
+
+## Seven Spirit residential bike service manuals print the paragraph
+
+**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
+manuals print it word for word** in 7.2 Important Electrical Instructions, with `Bike` for
+`treadmill`, both part numbers - **Grainger # 1D237** and www.squared.com **# QO120HM** - and `we as
+a manufacture`. **None of the seven closes with a dedicated-breaker sentence**: the paragraph ends at
+`part # QO120HM.`, so no breaker rating comes from these books. Their outlet figure is the safety
+bullet - 115 volt, 15 amp in the four 2016 books (`spirit-xe-safety-outlet-115-volt-15-amp`), 220
+volt, 15 amp in the three 2023 books (`spirit-xb-2023-safety-outlet-220-volt-15-amp`).
+
+**That overturns two statements above for the machines that have these books.** The XBR95-2016 and
+XBR95-2023 owner's manuals print no breaker paragraph, and the XBR55-2023 and XBU55-2023 owner's
+manuals replaced it with the AFCI/GFCI text - their service manuals print this paragraph regardless.
+Quote from the book the customer is holding. For the two XBR95, say as well that the machine is
+self-powered and never loads a house breaker (`spirit-bike-safety-no-mains-outlet-needed`).

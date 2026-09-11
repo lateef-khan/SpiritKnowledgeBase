@@ -1,22 +1,22 @@
 ---
 id: jb950-2022-console-key-test
-title: 'The Key Test that checks all five buttons and displays TEST PASSED'
+title: The Key Test that checks all five buttons and displays TEST PASSED
 kind: procedure
-question: 'How do I test the buttons on a Spirit jb950-2022 Johnny G Spirit Bike console?'
+question: How do I test the buttons on a Spirit jb950-2022 Johnny G Spirit Bike console?
 asked_as:
-- 'one of the buttons on my johnny g bike does not work'
-- 'how do i test the keys on the jb950'
-- 'the handlebar button on my spin bike is dead'
-- 'key test on the johnny g spirit bike'
+- one of the buttons on my johnny g bike does not work
+- how do i test the keys on the jb950
+- the handlebar button on my spin bike is dead
+- key test on the johnny g spirit bike
 keywords:
-- 'key test'
-- 'press all keys'
-- 'test passed'
-- 'five buttons'
-- 'forward control pad'
-- 'handlebar ends'
-- 'play key'
-- 'maintenance mode'
+- key test
+- press all keys
+- test passed
+- five buttons
+- forward control pad
+- handlebar ends
+- play key
+- maintenance mode
 facets:
   brand:
   - spirit
@@ -36,7 +36,8 @@ see_also:
 - jb950-2022-console-display-test
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 53 KEY TEST
+  locator: JB950-2022 printed p. 53 KEY TEST. JB950 service manual 5.3 KEY TEST, PDF
+    p. 40 (printed 40), text.md lines 657-667
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +63,5 @@ without letting go of the bars.
 **The manual gives no failure message.** It prints `TEST PASSED` and nothing else, so a test that
 does not pass simply never reaches it - which key is at fault is worked out by watching which press
 the console did not register.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same five keys on the Forward Control Panel and the handlebar ends, same TEST PASSED.

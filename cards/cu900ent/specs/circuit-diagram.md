@@ -1,8 +1,8 @@
 ---
 id: cu900ent-circuit-diagram
-title: Upright bike circuit diagram
+title: Circuit diagram with a combo board, an 8-pin computer cable, a 3-pin power cable and a 24 V adapter into a DC jack
 kind: spec
-question: What does the circuit diagram of a Spirit cu900ent upright bike show?
+question: What does the circuit diagram of a Spirit CU900ENT upright or CR900ENT recumbent bike show?
 asked_as:
 - wiring diagram for the cu900 bike
 - cu900ent schematic
@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: specs
   code: '*'
@@ -36,8 +37,7 @@ see_also:
 - cu900ent-io-board-connections
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: p. 24 (printed 24), full-page drawing titled '(CU900-ENT) UPRIGHT CIRCUIT
-    DIAGRAM'
+  locator: "p. 24 (printed 24), full-page drawing titled '(CU900-ENT) UPRIGHT CIRCUIT DIAGRAM'. CR900ENT-2021 (spirit-bike-cr900ent-2021-service-manual): PDF p. 23 (printed 23), text.md line 262 (the page is a flattened drawing), '(CR900-ENT) RECUMBENT BIKE CIRCUIT DIAGRAM', read from a 110 dpi render (OCR supplement lines 1519-1560, upside down)"
   extracted_at: '2026-09-08'
 ---
 
@@ -56,3 +56,7 @@ feeds CN2. CN6 is drawn but nothing is wired to it.
 DC jack.
 
 **Flywheel** - drawn with its brake at the edge, wired back to the 2-pin red brake lead.
+
+**The CR900ENT book prints the same drawing under the heading "(CR900-ENT) RECUMBENT BIKE
+CIRCUIT DIAGRAM"** - same combo board, cables, board number, connector numbers, adapter and
+flywheel, line for line; only the title and the console picture change.

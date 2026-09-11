@@ -2,8 +2,8 @@
 id: cu900ent-noise-and-feet-feeling
 title: Noise, and a bad feeling underfoot while pedalling
 kind: troubleshooting
-question: Why does a Spirit cu900ent bike make a noise or feel wrong underfoot while
-  pedalling?
+question: Why does a Spirit CU900 2018 or CU900ENT upright bike make a noise or feel wrong
+  underfoot while pedalling?
 asked_as:
 - noise when i pedal backwards on the bike
 - the pedals feel wrong when i ride
@@ -19,20 +19,24 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu900-2018
   - cu900ent
   section: maintenance
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-cr900-maintenance-clicking-at-the-pedals
 see_also:
 - cu900ent-check-pedals
 - cu900ent-general-maintenance
 - cu900ent-shaking
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 7.2 Noise and Feet Feeling, p. 66 (printed 66)
+  locator: 'Section 7.2 Noise and Feet Feeling, p. 66 (printed 66). Word for word in
+    spirit-bike-cu900-2018-service-manual 7.2 Noise and Feet Feeling, PDF p. 60 (printed
+    60), text.md lines 967-973 (added 2026-09-11).'
   extracted_at: '2026-09-08'
 ---
 
@@ -52,3 +56,8 @@ pedals (`cu900ent-general-maintenance`).
 
 A machine that **shakes** rather than feeling rough is a separate section — see
 `cu900ent-shaking`.
+
+The **CU900 2018** service manual prints both answers word for word. The recumbent CR900 and
+CR900ENT books answer a click at the pedals with a different four-item list — pedals, crank arm
+bolts, axle play, bearing nuts — and say nothing about a flywheel sound
+(`spirit-cr900-maintenance-clicking-at-the-pedals`).

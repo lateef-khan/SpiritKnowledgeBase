@@ -1,23 +1,23 @@
 ---
 id: spirit-bike-console-air-bike-four-aa-batteries
-title: 'The console runs on four AA batteries, which are not supplied'
+title: The console runs on four AA batteries, which are not supplied
 kind: fact
-question: 'What batteries does the console take on a Spirit air bike?'
+question: What batteries does the console take on a Spirit air bike?
 asked_as:
-- 'what batteries does my air bike console need'
-- 'does the air bike plug into the wall'
-- 'my air bike display is dead'
-- 'where is the battery compartment on the air bike console'
+- what batteries does my air bike console need
+- does the air bike plug into the wall
+- my air bike display is dead
+- where is the battery compartment on the air bike console
 keywords:
-- 'aa'
-- 'batteries'
-- 'not included'
-- 'battery compartment'
-- 'back of the console'
-- 'no mains'
-- 'power'
-- 'dead display'
-- 'factory settings'
+- aa
+- batteries
+- not included
+- battery compartment
+- back of the console
+- no mains
+- power
+- dead display
+- factory settings
 facets:
   brand:
   - spirit
@@ -35,7 +35,10 @@ see_also:
 - spirit-bike-console-air-bike-odometer
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed p. 19 BATTERY INSTALLATION; AB900-2018 printed p. 34 - identical
+  locator: AB950-2024 printed p. 19 BATTERY INSTALLATION; AB900-2018 printed p. 34
+    - identical. AB900-2018 (AU800/AU800A) service manual, CONSOLE SETUP Battery Installation,
+    PDF p. 13 (printed 13), text.md lines 160-161, and the block diagram CONSOLE POWER
+    AA * 4 PCS Batteries, PDF p. 23, lines 412-413
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +59,7 @@ settings but keeps the units choice, and the console does not erase the setting 
 value under that reset. See `spirit-bike-console-air-bike-workout-summary-and-reset`.
 
 **Neither manual gives a battery life figure**, a low-battery indicator, or a replacement interval.
+
+**The service manual's block diagram draws the power as "AA * 4 PCS Batteries"** feeding the console,
+with the RPM sensor, the Polar wireless heart-rate receiver and the Bluetooth module as the only other
+electrical parts. Its troubleshooting table's check for a dim LCD is "whether the battery is 1.5V/each".

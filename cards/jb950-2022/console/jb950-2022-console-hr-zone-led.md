@@ -1,23 +1,25 @@
 ---
 id: jb950-2022-console-hr-zone-led
-title: 'Turning the coloured heart rate LED off without losing heart rate tracking, a setting that defaults to on'
+title: Turning the coloured heart rate LED off without losing heart rate tracking,
+  a setting that defaults to on
 kind: procedure
-question: 'How do I turn off the coloured heart rate light on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I turn off the coloured heart rate light on a Spirit jb950-2022 Johnny
+  G Spirit Bike?
 asked_as:
-- 'how do i turn off the coloured light on my johnny g bike'
-- 'the led on my jb950 distracts my class'
-- 'hr zone light on the johnny g spirit bike'
-- 'disable the heart rate colours on the spin bike'
+- how do i turn off the coloured light on my johnny g bike
+- the led on my jb950 distracts my class
+- hr zone light on the johnny g spirit bike
+- disable the heart rate colours on the spin bike
 keywords:
-- 'hr zone'
-- 'led'
-- 'colour light'
-- 'distraction'
-- 'default on'
-- 'tracking'
-- 'class structure'
-- 'maintenance mode'
-- 'right side'
+- hr zone
+- led
+- colour light
+- distraction
+- default on
+- tracking
+- class structure
+- maintenance mode
+- right side
 facets:
   brand:
   - spirit
@@ -37,7 +39,8 @@ see_also:
 - jb950-2022-console-display-test
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 59 HR ZONE
+  locator: JB950-2022 printed p. 59 HR ZONE. JB950 service manual 5.3 HR ZONE, PDF
+    p. 43 (printed 43), text.md lines 792-796
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +68,5 @@ about a prompt, and their defaults are opposite - do not read one for the other.
 **A light that never changes colour may be a display fault rather than this setting.** The Display
 Test cycles the HR Zone and Power Zone LEDs through their colours without needing a strap:
 `jb950-2022-console-display-test`.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same HR ZONE ON display, switched with the Play key.

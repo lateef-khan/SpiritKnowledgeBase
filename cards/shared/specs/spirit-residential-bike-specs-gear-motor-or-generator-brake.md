@@ -49,6 +49,9 @@ not_to_be_confused_with:
 - spirit-cycle-specs-resistance-systems
 see_also:
 - spirit-residential-bike-specs-which-manuals-print-a-parts-list
+- spirit-xb-specs-gear-motor-working-voltage-dc-4-5-to-7-5-v
+- xbr95-2016-specs-hybrid-generator-brake-working-voltage-dc-0-4-to-14-v
+- xbr95-2023-specs-generator-controller-cs52005-33-connections
 - spirit-residential-bike-specs-no-specification-table
 - spirit-residential-bike-specs-forty-resistance-levels
 - spirit-residential-bike-specs-twenty-resistance-levels
@@ -112,9 +115,22 @@ The manuals never state a resistance rating in watts, newtons or kilograms.
 Resistance is given only as a count of console levels - **40 on the XBR95 and 20 on
 everything else**. See `spirit-residential-bike-specs-no-specification-table`.
 
+The **service** manuals do print one electrical figure for the unit: the gear motor's
+working voltage, DC 4.5 to 7.5 V, on every gear-motor book from 2016 to 2023
+(`spirit-xb-specs-gear-motor-working-voltage-dc-4-5-to-7-5-v`), and, in the 2016 XBR95
+book only, DC 0.4 to 14 V across the generator brake
+(`xbr95-2016-specs-hybrid-generator-brake-working-voltage-dc-0-4-to-14-v`).
+
 ## Do not carry a commercial bike's brake part across
 
 The Spirit commercial CR and CU bikes use a **Generator/Brake** unit or an
 **Induction Brake with an EMS Controller**, with their own item numbers. Neither
 name appears in any residential list, and no residential machine has an EMS
 Controller. See `spirit-bike-specs-generator-brake-or-induction-brake`.
+
+**The XBR95 service manuals do borrow the commercial names for the residential unit**:
+the 2023 book's skeleton drawing labels it *Induction Brake* and the 2016 book's
+electrical page calls it a *Hybrid Generator Brake*. Both mean the XBR95's own
+generator/brake on its CS52005-33 or 031101B controller
+(`xbr95-2023-specs-generator-controller-cs52005-33-connections`), not the commercial
+part, and neither book names an EMS Controller.

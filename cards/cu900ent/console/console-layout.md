@@ -37,7 +37,11 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Section 4 Product Operation, Display Windows, p. 13 (printed 13). The page
-    carries no extractable text and was read from raw/page-13.png
+    carries no extractable text and was read from raw/page-13.png. The CR900ENT-2021
+    service manual, Display Windows, PDF p. 12 (printed 12), text.md lines 124-131,
+    and Function Locations, PDF p. 13, lines 131-137, prints the same page word for
+    word. Its Display Windows page carries the same single call-out, 10.1" TFT Display,
+    and its Function Locations page is the same connector photograph.
   extracted_at: '2026-09-08'
 ---
 
@@ -79,3 +83,5 @@ the fan, the reading rack or the accessory tray.
 
 **Nothing anywhere gives a fan speed for this console.** The Fan button is described only as on or
 off.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Its Display Windows page carries the same single call-out, 10.1" TFT Display, and its Function Locations page is the same connector photograph.

@@ -22,6 +22,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - ab900-2018
   - ab950-2024
   - cr800-2021
   - cr800-2023
@@ -59,7 +60,7 @@ see_also:
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT 2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21; XBR95 2016/2018/2021 printed p. 33; XBR25 2019 p. 26; XBR55 2019/2021 p. 31; XBU55 2019/2021 p. 31; XBR55ENT/XBU55ENT 2021 p. 42; XBR95 2023 p. 23; XBR55/XBU55 2023 p. 24'
+  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT 2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21; XBR95 2016/2018/2021 printed p. 33; XBR25 2019 p. 26; XBR55 2019/2021 p. 31; XBU55 2019/2021 p. 31; XBR55ENT/XBU55ENT 2021 p. 42; XBR95 2023 p. 23; XBR55/XBU55 2023 p. 24; AB900 2018 service manual (AU800/AU800A) Erratic Operation, PDF p. 21, text.md lines 387-406'
   extracted_at: '2026-09-09'
 ---
 
@@ -106,7 +107,14 @@ being displayed." Its grounding item is absent, so on that machine the list star
 ovens.
 
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no such warning page.** **Nor does the
-AB900 2018 air bike** - see `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+AB900 2018 air bike owner's manual - but its service manual does**, on PDF p. 21, read from the
+rendered page: "Do not use this **Air bike** for heart rate **modes**" (modes, not programs - the
+air bike has no programs), then the seven-item list starting at microwave ovens with no grounding
+item, a **Perimeter fence**, "the **Fitness** logo" rather than the Spirit Fitness logo, and the
+closing line **"please contact us"**. Its numbering slips: the pet fence is printed on the same line
+as the security systems as a second "4.", so the same seven sources the AB950 lists are numbered 1,
+2, 3, 4, 4, 5 and 6, with "contact us" as 7. See
+`spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
 
 **Thirteen residential XBR and XBU manuals print this page**, and they split over item 1 the same way
 the commercial books do.

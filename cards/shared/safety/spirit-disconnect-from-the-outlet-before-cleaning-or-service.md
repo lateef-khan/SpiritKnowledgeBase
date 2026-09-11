@@ -2,7 +2,11 @@
 id: spirit-disconnect-from-the-outlet-before-cleaning-or-service
 title: Disconnect from the electrical outlet before cleaning or service work
 kind: policy
-question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit XE residential elliptical of the 2010 or 2021 generation, or a Spirit CVC800 climber, before servicing it?
+question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 2026
+  Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a
+  Spirit XE residential elliptical of the 2010 or 2021 generation, a Spirit XBR or
+  XBU residential bike of the 2016, 2019, 2021 or 2023 generation, or a Spirit CVC800
+  climber, before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -35,8 +39,10 @@ facets:
   - cvc800
   - mt200-2010
   - mt200-2022
+  - xbr25-2016
   - xbr25-2019
   - xbr25-2023
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
   - xbr55-2023
@@ -44,6 +50,8 @@ facets:
   - xbr95-2016
   - xbr95-2018
   - xbr95-2021
+  - xbr95-2023
+  - xbu55-2016
   - xbu55-2019
   - xbu55-2021
   - xbu55-2023
@@ -73,17 +81,30 @@ see_also:
 - spirit-xe-2021-safety-instructions-list
 - spirit-bike-ent-safety-instructions-list
 - spirit-bike-safety-no-mains-outlet-needed
+- spirit-xb-2023-safety-outlet-220-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same sentence is p.
-    33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25) of the CVC800 manual,
-    and the opening WARNING of the SAFETY INSTRUCTIONS page, p. 4, of the 2026 4.0T, 7.0T
-    and 8.0T owner's manuals. Both Spirit MT200 owner's manuals print it as the DANGER line
-    of their safety instructions page, 2010 page 4 and 2022 page 5 The CT800ENT-2022 and
-    CT850ENT-2022 owner's manuals print it as the DANGER line of their IMPORTANT SAFETY
-    INSTRUCTIONS page, page 4 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print
-    the same DANGER at the head of their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4,
-    and the CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page, printed page 5
+  locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
+    sentence is p. 33 (printed 32) of the CT850 2020 manual and p. 25 (printed 25)
+    of the CVC800 manual, and the opening WARNING of the SAFETY INSTRUCTIONS page,
+    p. 4, of the 2026 4.0T, 7.0T and 8.0T owner''s manuals. Both Spirit MT200 owner''s
+    manuals print it as the DANGER line of their safety instructions page, 2010 page
+    4 and 2022 page 5 The CT800ENT-2022 and CT850ENT-2022 owner''s manuals print it
+    as the DANGER line of their IMPORTANT SAFETY INSTRUCTIONS page, page 4 The CU800ENT-2022
+    and CR800ENT-2023 bike owner''s manuals print the same DANGER at the head of their
+    IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the CU800ENT-2024 manual
+    on its SAFETY INSTRUCTIONS page, printed page 5. Seven Spirit residential bike
+    service manuals print the sentence as the first bullet of section 7: XBR25-2016
+    (XR327-SB005-01) service manual: section 7 Product Safety Instructions, PDF p.
+    31 (printed 31); text.md lines 424-452. XBR55-2016 (XR329-SB011-01) service manual:
+    section 7, PDF p. 33 (printed 33); text.md lines 448-474. XBU55-2016 (XU319-SB011-01)
+    service manual: section 7, PDF p. 31 (printed 31); text.md lines 424-453. XBR95-2016
+    (XR829-SB012-01) service manual: section 7, PDF p. 35 (printed 35); text.md lines
+    457-483. XBR55-2023 (XR329A-SB030) service manual: section 7.1-7.3, PDF p. 11
+    (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual:
+    section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023
+    (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28);
+    text.md lines 191-223.'
   extracted_at: '2026-09-08'
 ---
 
@@ -250,3 +271,23 @@ boilerplate carried over from the mains-powered books.
 safety list has no cord, plug or outlet item of any kind
 (`ab950-2024-safety-instructions-list`). That is an absence, and a consistent one: it is the one XB
 manual whose safety page was rewritten for a machine with no mains supply.
+
+## Seven Spirit residential bike service manuals print this card's sentence
+
+**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
+manuals open section 7 with it**, word for word with `Bike`:
+
+> To reduce the risk of electric shock disconnect your Bike from the electrical outlet prior to
+> cleaning and/or service work.
+
+So for these seven SKUs the before-service half of the rule is printed after all - in the service
+manual. The owner's manuals of the same range print only the unplug-after-use form (the section
+above), and the statement there that none of the thirteen prints a separate before-service sentence
+is true of the owner's manuals alone. The XBR25-2016, XBR55-2016 and XBU55-2016 are the
+service-manual SKUs that precede the 2019 owner's-manual machines and have no owner's manual on
+file.
+
+**The two XBR95 books print it on a machine with no plug.** Both are self-powered
+(`spirit-bike-safety-no-mains-outlet-needed`); the sentence is the treadmill chapter's, carried
+across with the rest of section 7. The other five do plug in. None of the seven states a capacitor
+discharge time or a lock-out procedure.

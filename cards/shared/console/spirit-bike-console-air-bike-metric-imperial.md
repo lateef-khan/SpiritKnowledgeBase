@@ -1,24 +1,25 @@
 ---
 id: spirit-bike-console-air-bike-metric-imperial
-title: 'Switching a fan bike between miles and kilometres with Start and Enter, and the two places the manual prints it'
+title: Switching a fan bike between miles and kilometres with Start and Enter, and
+  the two places the manual prints it
 kind: procedure
-question: 'How do I switch a Spirit air bike console between miles and kilometres?'
+question: How do I switch a Spirit air bike console between miles and kilometres?
 asked_as:
-- 'how do i change my air bike to miles'
-- 'switch the fan bike display to km'
-- 'my air bike is showing the wrong units'
-- 'change distance units on the spirit air bike'
+- how do i change my air bike to miles
+- switch the fan bike display to km
+- my air bike is showing the wrong units
+- change distance units on the spirit air bike
 keywords:
-- 'metric'
-- 'imperial'
-- 'km'
-- 'miles'
-- 'units'
-- 'setup mode'
-- 'start and enter'
-- 'ready mode'
-- 'engineering mode'
-- 'distance banner'
+- metric
+- imperial
+- km
+- miles
+- units
+- setup mode
+- start and enter
+- ready mode
+- engineering mode
+- distance banner
 facets:
   brand:
   - spirit
@@ -37,7 +38,11 @@ see_also:
 - spirit-bike-console-air-bike-display-panels
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed p. 19 SETTING METRIC & IMPERIAL UNITS and p. 30 ENGINEERING MODE Metric/Imperial; AB900-2018 printed p. 34 and p. 39 - identical
+  locator: AB950-2024 printed p. 19 SETTING METRIC & IMPERIAL UNITS and p. 30 ENGINEERING
+    MODE Metric/Imperial; AB900-2018 printed p. 34 and p. 39 - identical. AB900-2018
+    (AU800/AU800A) service manual, Setting Metric & Imperial Units - Setup Mode, PDF
+    p. 13 (printed 13), text.md lines 164-167, and Engineering mode A, PDF p. 29,
+    lines 490-498
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +71,7 @@ page is the shortcut description, the engineering page is the full walk-through.
 **except the metric or imperial units setting**. Only removing the batteries clears it.
 
 **It changes speed and distance together**, and both are labelled from it throughout the display.
+
+**The service manual prints both forms as well** - the Start-and-Enter shortcut in Ready Mode until KM or
+M flashes, and the engineering-mode walk-through under "A, metric/imperial system switching" - and
+says the factory sets the distance units in miles.

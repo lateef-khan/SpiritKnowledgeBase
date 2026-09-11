@@ -1,8 +1,10 @@
 ---
 id: xt385-2015-safety-extension-cord-18-awg-or-better
-title: The extension cord gauge printed as 18AWG, thinner than the 14AWG its siblings allow
+title: The extension cord gauge printed as 18AWG, thinner than the 14AWG its siblings
+  allow
 kind: policy
-question: Can I use an extension cord on a Spirit XT385-2015 treadmill, or on a Spirit XE195, XE295, XE395ENT or XG400 machine of the 2021 generation?
+question: Can I use an extension cord on a Spirit XT385-2015 treadmill, or on a Spirit
+  XE195, XE295, XE395ENT or XG400 machine of the 2021 generation?
 asked_as:
 - what gauge extension cord for the xt385
 - can i run my treadmill off an extension lead
@@ -49,7 +51,9 @@ see_also:
 - spirit-xe-2021-safety-instructions-list
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: page 5, Important Safety Instructions
+  locator: 'page 5, Important Safety Instructions. The XBR95-2016 (XR829-SB012-01)
+    service manual prints 16 AWG instead: section 7, PDF p. 35 (printed 35), text.md
+    lines 461-462.'
   extracted_at: '2026-09-09'
 ---
 
@@ -114,3 +118,12 @@ gauges.
 bike runs on a built-in generator and does not need to be plugged into an AC outlet
 (`spirit-bike-safety-no-mains-outlet-needed`). This line is printed regardless; it is not evidence
 that the machine plugs in.
+
+## The XBR95-2016 service manual says 16 AWG
+
+**In the same sentence, in its own safety chapter**: `Do not use an extension cord unless it is a 16 AWG
+or better with only one outlet on the end` (`spirit-extension-cord-16-awg-or-better`). So the
+XBR95-2016 has an owner's manual that says 18AWG and a service manual that says 16 AWG, and neither
+book mentions the other. Treat the 18AWG as suspect for the reason given above, quote the gauge with
+the book it comes from, and remember the machine is self-powered and has no cord to extend
+(`spirit-bike-safety-no-mains-outlet-needed`).
