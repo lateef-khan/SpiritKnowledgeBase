@@ -3,8 +3,9 @@ id: spirit-ct800-safety-outlet-120-volt-15-amp
 title: The outlet is a nominal 120-volt, 15-amp dedicated circuit
 kind: policy
 question: What outlet and circuit does a Spirit CT800 treadmill of the 2020 or ENT-2022
-  generation, a Spirit CU800ENT-2024 upright bike, or a 2016 Spirit XE195, XE295,
-  XE395 or XG400 elliptical need?
+  generation, a Spirit CU800ENT-2024 upright bike, a 2016 Spirit XE195, XE295, XE395
+  or XG400 elliptical, a Spirit CRW800-2016 rower, or a Spirit CRS800S-2021 or CS800-2016
+  stepper need?
 asked_as:
 - what outlet does the ct800 need
 - does the treadmill need its own circuit
@@ -27,6 +28,9 @@ facets:
   applies_to:
   - ce800ent-2024
   - cr800ent-2024
+  - crs800s-2021
+  - crw800-2016
+  - cs800-2016
   - ct800-2020
   - ct800ent-2022
   - ct800ent-2024
@@ -43,6 +47,8 @@ not_to_be_confused_with:
 - spirit-ct800-safety-outlet-110-volt-15-amp
 - spirit-ct850-outlet-and-circuit-requirement
 - cvc800-outlet-and-circuit-requirement
+- spirit-2024-safety-outlet-110-volt-15-amp-stepper
+- spirit-climber-safety-outlet-110-volt-5-amp
 see_also:
 - spirit-product-must-be-grounded
 - spirit-house-breaker-needs-a-high-inrush-type
@@ -56,6 +62,8 @@ see_also:
 - spirit-treadmill-safety-outlet-220-volt-10-amp
 - spirit-extension-cord-16-awg-or-better
 - spirit-temporary-adapter-for-a-two-pole-receptacle
+- spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating
+- crw800-2024-safety-console-runs-on-two-c-batteries
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: 'Important Electrical Instructions page 6 and Grounding Instructions page
@@ -75,7 +83,20 @@ source:
     matrix rows read `Check AC power is 110-120V`, PDF p. 42 line 657, PDF p. 57 line
     970 and PDF p. 40 line 599. The XE395-2016 LED table `Check the supply voltage
     is 110-120V` is PDF p. 34, line 531, and its incline motor `This is a 120 volt
-    AC motor` PDF p. 12, line 224.'
+    AC motor` PDF p. 12, line 224. Three more Dyaco service manuals print the 120-volt,
+    15-amp bullet in 7.1 and `a nominal 120-volt circuit` in 7.3: CRW800-2016 (CW800-YR001)
+    service manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md
+    lines 371-398, in spirit-rower-crw800-2016-service-manual. The CRW800-2016 power
+    adapter and DC jack are 8.6 Console problem, PDF p. 39, lines 523-526, and its
+    tension motor `DC 4.5~7.5V` PDF p. 9, lines 71-92. CRS800S-2021 (2020 ver.) service
+    manual: 7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md
+    lines 296-336, in spirit-stepper-crs800s-2021-service-manual. Its `DC Power cord`
+    sentence is 4-3 Operation, PDF p. 12, and `DC power supply for console` PDF p.
+    9. CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30),
+    text.md lines 418-447, in spirit-stepper-cs800-2016-service-manual. Its matrix
+    row `Check AC power is 110-120V` is 10.1 Console Problem, PDF p. 41, lines 602-634.
+    All four pages were also read from 110 dpi renders; the XRW600 page prints the
+    word Rower highlighted in yellow where the CRW800 page prints elliptical.'
   extracted_at: '2026-09-09'
 ---
 
@@ -217,3 +238,38 @@ sentence; their circuit-breaker paragraph ends at `part # QO120HM`
 supply statements are `When the power cord is connected to the elliptical, the console will
 automatically power up`, an incline motor described as `a 115 volt AC motor`, and the matrix row
 `Check AC power is 110-120V`. Its 115 volt comes from its owner's manual alone.
+
+## A rower and two stepper service manuals ask for the same 120-volt, 15-amp outlet
+
+**The CRW800-2016 (CW800-YR001), CRS800S-2021 and CS800-2016 (XS200-SS003) service manuals print it in 7.1 Important
+Safety Instructions**, and their grounding page says `a nominal 120-volt circuit` with no amp figure:
+
+| Service manual | Safety bullet | Grounding page |
+|---|---|---|
+| CRW800-2016 | `install the elliptical on a flat level surface with access to a 120-volt, 15-amp grounded outlet with only the elliptical plugged into the circuit` | `a nominal 120-volt circuit` |
+| CRS800S-2021 | `install the climber ... with access to a 120 Volt, 15-amp grounded outlet with only the climber plugged into the circuit` | `a nominal 120-volt circuit` |
+| CS800-2016 | `install the climber ... with access to a 120-volt, 15-amp (230-volt, 10-amp)grounded outlet with only the climber plugged into the circuit` | `a nominal 120-volt (230-volt) circuit` |
+
+None of the three prints a dedicated-breaker sentence. The CRW800 and CRS800S books print the 16 AWG extension cord and
+the GFCI and high-inrush paragraphs; the CS800-2016 book prints the cover-removal, voltage-variation and moisture block
+instead and no breaker paragraph at all.
+
+- **The CS800-2016 book brackets a 230-volt build**, as the XE195-2016 book does: `(230-volt, 10-amp)` on the safety page,
+  `(230-volt)` on the grounding page, and its console-problem matrix reads `Check AC power is 110-120V`. That is the
+  treadmill service manuals' 220-volt, 10-amp figure printed as an aside (`spirit-treadmill-safety-outlet-220-volt-10-amp`).
+- **These figures contradict the owner's manuals of the same names.** The CRS800S-2021 owner's manual says **110** volt,
+  15 amp, with a 5-amp breaker sentence (`spirit-2024-safety-outlet-110-volt-15-amp-stepper`); the CS800-2021 owner's
+  manual, a later machine, says 110 volt at **5 amps** (`spirit-climber-safety-outlet-110-volt-5-amp`); the CRW800-2021
+  and CRW800-2024 owner's manuals describe a battery rower with no outlet at all
+  (`crw800-2024-safety-console-runs-on-two-c-batteries`). Quote the figure with the book and the year it comes from.
+- **The CRW800-2016 plugs in through an adapter.** Its console-problem page says to check `the power adapter` and that
+  `the adapter is correctly inserted into the DC jack`, its resistance comes from a `DC 4.5~7.5V` tension motor, and a
+  DC power cord runs to the gear motor. The 120-volt, 15-amp outlet is what that adapter plugs into. The CRS800S-2021
+  book likewise says `When the DC Power cord is connected to the equipment, the console will automatically power up`.
+- **The 2019 Spirit Fitness power sheet agrees with these three books**: it lists CRW800, CS800 and CRS800S at 120V/15AMP
+  with a NEMA 5-15P plug, and then allows up to four such machines on one 15 amp circuit where these bullets say only
+  the machine (`spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating`).
+
+**The XRW600-2019 (DW400-YR002) service manual prints no outlet figure.** Its chapter 7 omits the safety block and the
+grounding page's circuit sentence; the XRW600's 110-volt, 15-amp figure is its owner's manual's
+(`spirit-xe-safety-outlet-110-volt-15-amp`).

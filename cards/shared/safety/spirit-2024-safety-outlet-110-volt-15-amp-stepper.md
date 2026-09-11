@@ -1,9 +1,10 @@
 ---
 id: spirit-2024-safety-outlet-110-volt-15-amp-stepper
-title: The outlet is 110-volt, 15-amp but the breaker sentence on the next page asks for 5 amps
+title: The outlet is 110-volt, 15-amp but the breaker sentence on the next page asks
+  for 5 amps
 kind: spec
-question: What outlet and circuit does a Spirit CRS800S semi-recumbent stepper or CS800-2024
-  stepper need?
+question: What outlet and circuit does a Spirit CRS800S semi-recumbent stepper or
+  CS800-2024 stepper need?
 asked_as:
 - what outlet does the stepper need
 - what amp breaker for the crs800s or cs800
@@ -45,12 +46,18 @@ see_also:
 - spirit-product-must-be-grounded
 - spirit-2024-safety-grounding-page-says-110-volt
 - xt-2015-safety-extension-cord-14-awg-or-better
+- spirit-ct800-safety-outlet-120-volt-15-amp
+- spirit-temporary-adapter-for-a-two-pole-receptacle
+- spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
-  locator: SAFETY INSTRUCTIONS WARNING header, printed page 5 (PDF page 7), and the circuit-breaker
-    paragraph closing ELECTRICAL SAFETY on printed page 6 (PDF page 8). The CS800-2024 owner's
-    manual prints the same two sentences on its printed pages 5 and 6, and adds a GROUNDING
-    page on its printed page 7
+  locator: 'SAFETY INSTRUCTIONS WARNING header, printed page 5 (PDF page 7), and the
+    circuit-breaker paragraph closing ELECTRICAL SAFETY on printed page 6 (PDF page
+    8). The CS800-2024 owner''s manual prints the same two sentences on its printed
+    pages 5 and 6, and adds a GROUNDING page on its printed page 7. CRS800S-2021 (2020
+    ver.) service manual: 7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25),
+    text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual. Read from
+    a 100 dpi render as well as the text layer.'
   extracted_at: '2026-09-10'
 ---
 
@@ -107,3 +114,20 @@ input; the manual prints no DC voltage figure.
 (`spirit-ce850-safety-outlet-and-circuit-requirement`). The steppers changed the header figure to 15
 and left the breaker sentence at 5. Never quote 5 amps as a stepper's outlet rating or 15 amps as a
 CE850's.
+
+## The CRS800S-2021 service manual says 120 volts, and prints the grounding page the owner's manual lacks
+
+**The CRS800S (2020 ver.) service manual's chapter 7 asks for `a 120 Volt, 15-amp grounded outlet with only the climber
+plugged into the circuit`, and its grounding page says `a nominal 120-volt circuit`.** The owner's manual of the same
+machine says 110. Neither book mentions the other; the amperage is 15 in both, and the service manual prints no 5-amp
+breaker sentence at all - its circuit-breaker paragraph ends at `part # QO120HM.`
+
+| CRS800S-2021 book | Outlet | Breaker sentence | Grounding page |
+|---|---|---|---|
+| Owner's manual | 110 V, 15 amp | 5 amp | none |
+| Service manual | **120 V**, 15 amp | none | `a nominal 120-volt circuit`, with the adapter paragraph |
+
+So *neither CRS800S printing has a grounding page at all* is true of the two **owner's** manuals only. The service
+manual's page is on `spirit-product-must-be-grounded` and `spirit-temporary-adapter-for-a-two-pole-receptacle`, and its
+120-volt figure on `spirit-ct800-safety-outlet-120-volt-15-amp`. The 2019 Spirit Fitness power sheet also puts the CRS800S
+at 120V/15AMP (`spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating`).

@@ -4,8 +4,8 @@ title: 'Replacing the commercial recumbent front shrouds: three self-tapping scr
   off the left mast cover, crank arms off, nine screws on the left cover and four
   on the right'
 kind: procedure
-question: How do I replace the front shrouds or the mast covers on a Spirit CR900
-  or CR900ENT recumbent bike?
+question: How do I replace the front shrouds or the mast covers on a Spirit CR900,
+  CR900ENT or CR1000ENT recumbent bike?
 asked_as:
 - front cover screws spirit cr900
 - mast cover removal cr900ent
@@ -24,6 +24,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -38,7 +39,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.5 Front Shroud Replacement, PDF pp. 43-45; text.md lines
     694-732 | cr900ent-2021: 6.5 Front Shroud Replacement, PDF pp. 51-53; text.md
-    lines 869-907'
+    lines 869-907 | cr1000ent-2023: 12.15 Front Shroud Replacement, PDF pp. 24-25;
+    text.md lines 509-564'
   extracted_at: '2026-09-11'
 ---
 
@@ -53,3 +55,5 @@ source:
 Counts only - 3, 9 and 4 - and no screw sizes are printed. The three mast-cover screws are on the left cover; the right mast cover comes free once those are out. The crank arms have to come off before the left front cover (and its 60 N-m bolt goes back after).
 
 The drive-system procedure (6.6) and the belt-slipping answer (7.1) both start by sending you here.
+
+**The CR1000ENT book prints the same 3, 9 and 4 as 12.15** (figures 12.25 to 12.30), including "first remove the crank arms (see procedure 12.14)" before the left front cover.

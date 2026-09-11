@@ -71,7 +71,8 @@ source:
     (2016-2021 books) or FEATURES (2023 books). XBR55ENT-2021 service manual BASIC
     INFORMATION, PDF p. 12 (printed 12), text.md lines 137-141; XBU55ENT-2021 service
     manual PDF p. 12, lines 134-138; XBR55-2023 service manual PDF pp. 5-6, lines
-    88-99; XBU55-2023 PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96
+    88-99; XBU55-2023 PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96.
+    XS895 (XS300B-YS006) service manual 4-2-8 Basic Information, PDF p. 13 (printed 12), text.md lines 216-219
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +146,6 @@ middle fields differ.
 **Total time, Avg. Speed, Avg. Power, Avg. HR, total Laps** after two presses of Stop, and print no
 third press and no reset; the XBR55-2023, XBU55-2023 and XBR95-2023 books list Total time, Avg. Speed,
 Avg. Watts and Avg. HR, then a third press or a three-second hold to reset.
+
+**The XS895 (XS300B-YS006) service manual lists the same five fields the XS895 owner's manuals
+do** - Total time, Avg. fpm, total floors, Avg. HR, total Laps - after two presses of Stop.

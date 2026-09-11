@@ -1,10 +1,10 @@
 ---
 id: csc900-2024-assembly-step-one-bolt-length-contradiction
-title: The decorative ring bolt is called M8x65 by the step and M6x65 by its own
-  hardware table
+title: The decorative ring bolt is called M8x65 by the step and M6x65 by its own hardware
+  table
 kind: fact
-question: Is the long bolt in step one of the Spirit CSC900 (csc900-2019, csc900-2021 or csc900-2024) stairclimber
-  build an M8 or an M6?
+question: Is the long bolt in step one of the Spirit CSC900 (csc900-2019, csc900-2021
+  or csc900-2024) stairclimber build an M8 or an M6?
 asked_as:
 - is the csc900 bolt m6 or m8
 - the manual says two different bolt sizes
@@ -36,10 +36,13 @@ see_also:
 - csc900-2024-assembly-hardware-kit
 - csc900-2024-assembly-procedure
 - csc900-2024-assembly-tools-included
+- spirit-csc900-assembly-service-manual-installation-mast-handrails-steps-and-console
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: p. 11, ASSEMBLY - STEP ONE item 2, its drawing call-out and its
-    Hardware for Step 1 table
+  locator: 'p. 11, ASSEMBLY - STEP ONE item 2, its drawing call-out and its Hardware
+    for Step 1 table | spirit-climber-csc900-2019-service-manual: 5. Installation,
+    (2) Installation steps, PDF p. 6; text.md lines 165-209 | spirit-climber-csc900-2024-service-manual:
+    5. Installation, PDF p. 7; text.md lines 133-177'
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +94,7 @@ before ordering one for a 2019 machine.
 
 The 2024 book also adds the five-connector wire diagram under step four. Neither the
 2019 nor the 2021 printing has it; their step four ends at item 3.
+
+## Both service manuals say M8 too
+
+The CSC900 service manual (V1.0, alternator drive) and the CSC900 2022 service manual (magnetic system) print the console-mast step with the same two call-outs, **M8*20/φ8 flat washer** and **M8*65/φ8 flat washer**, and no M6 anywhere in the installation. That is four printings for M8 x 65 against one table row for M6.

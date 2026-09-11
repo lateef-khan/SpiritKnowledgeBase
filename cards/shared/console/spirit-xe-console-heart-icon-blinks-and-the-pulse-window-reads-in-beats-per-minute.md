@@ -63,7 +63,8 @@ see_also:
 - xe150-2005-console-heart-rate-transmitter-is-an-option-not-an-inclusion
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual; XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 18; XE395 2023 p. 23; XE795 2023 p. 22; XE100/XE200 p. 23 of the XE100/XE200/XE300 manual; XE395 2018 p. 22; XE795 2018 p. 20; XE895 2018 p. 22; XE195 2019 p. 20; XE295 2019 p. 21; XG400 2019 p. 20; XBR95 2016, 2018 and 2021 p. 18, XBR25 2019 p. 17, XBR55/XBU55 2019 and 2021 p. 19, all Program Keys; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES.
+    XS895 (XS300B-YS006) service manual 4-2-9 Program Keys, PDF p. 13 (printed 12), text.md lines 229-231
   extracted_at: '2026-09-09'
 ---
 
@@ -110,3 +111,7 @@ XS895-2021, p. 18, in the Program Keys section rather than under a heading of it
 hand pulse sensors on the stationary handle bars, or wearing the heart rate transmitter, starts the
 **Heart Icon blinking** (this may take a few seconds), and the **Pulse Display Window** reads in beats
 per minute.
+
+**The XS895 (XS300B-YS006) service manual prints the sentence word for word** in its Program Keys
+section - hand pulse sensors on the stationary handle bars or the transmitter, the Heart Icon
+blinking after a few seconds, the Pulse Display Window in beats per minute.

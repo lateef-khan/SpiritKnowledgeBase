@@ -38,13 +38,16 @@ see_also:
 - csc900-2024-assembly-procedure
 - csc900-2024-assembly-hardware-kit
 - csc900-2024-assembly-tools-included
+- spirit-csc900-assembly-service-manual-installation-mast-handrails-steps-and-console
 source:
   ref: spirit-climber-csc900-2019-owners-manual
-  locator: printed p. 12 (PDF p. 14), CSC900 STEP FOUR, its Hardware For Step 4 table,
-    its step text item 3 and its drawing call-outs; compared against the same page of
-    the 2021 printing (`spirit-climber-csc900-2021-owners-manual`) and printed p. 14
-    (PDF p. 16) of the 2024 printing (`spirit-climber-csc900-2024-owners-manual`).
-    Both pages read from a 300 dpi render as well as from the text layer
+  locator: 'printed p. 12 (PDF p. 14), CSC900 STEP FOUR, its Hardware For Step 4 table,
+    its step text item 3 and its drawing call-outs; compared against the same page
+    of the 2021 printing (`spirit-climber-csc900-2021-owners-manual`) and printed
+    p. 14 (PDF p. 16) of the 2024 printing (`spirit-climber-csc900-2024-owners-manual`).
+    Both pages read from a 300 dpi render as well as from the text layer | spirit-climber-csc900-2019-service-manual:
+    5. Installation, handrail cover, PDF p. 8; text.md lines 243-289 | spirit-climber-csc900-2024-service-manual:
+    5. Installation, handrail cover, PDF p. 9; text.md lines 214-261'
   extracted_at: '2026-09-10'
 ---
 
@@ -86,3 +89,7 @@ the one it forgot to erase.
 Anyone answering from the converted text of a 2019 or 2021 CSC900 will report a
 contradiction between the drawing and the table that a person holding the manual cannot
 see. Read the render before carding a drawing call-out on these three books.
+
+## The service manuals print M4*25 for every year
+
+Both CSC900 service manuals - the V1.0 alternator book and the 2022 magnetic-system book - label the two handrail-cover screws **ST4.2*16** and **M4*25** on their photographs (native text, and visible on a render of either page), even though the 2022 book post-dates the owner's manuals that moved to M4 x 30L, and even though no owner's manual prints ST4.2 x 16 as its own answer. The two service manuals share one installation chapter word for word - the same factory photographs - so this is one set of call-outs carried forward, not evidence that the later machines went back to a 25 mm screw.

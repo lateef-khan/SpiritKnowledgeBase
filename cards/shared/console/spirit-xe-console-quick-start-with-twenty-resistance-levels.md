@@ -67,7 +67,8 @@ source:
     Operation, QUICK START, PDF p. 6 (printed 6), text.md lines 125-135; XBU55-2023
     service manual PDF p. 6, lines 122-132; XBR55ENT-2021 service manual QUICK START,
     PDF p. 12 (printed 12), lines 130-136; XBU55ENT-2021 service manual PDF p. 12,
-    lines 127-133
+    lines 127-133.
+    XS895 (XS300B-YS006) service manual 4-2-7 Quick Start, PDF p. 13 (printed 12), text.md lines 202-209
   extracted_at: '2026-09-09'
 ---
 
@@ -148,3 +149,7 @@ version word for word, with the twenty levels banded five at a time. The XBR55EN
 books print the touchscreen version - "press START WORKOUT on the screen, or press the Start key" - with
 the same twenty levels and bands. **The XBR95-2023 service manual prints no Quick Start paragraph at
 all**; its Product Operation chapter goes from Basic Information to the Pulse Grip Feature.
+
+**The XS895 (XS300B-YS006) service manual prints the Quick Start paragraph word for word** - Start
+after power-up, time counting up, the workload on the **Level +/-** buttons, the bottom row lit
+first, "the Incline Stepper will get harder to pedal", and the twenty levels in the same four bands.

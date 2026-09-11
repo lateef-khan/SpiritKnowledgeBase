@@ -35,6 +35,8 @@ not_to_be_confused_with:
 - spirit-ce900-maintenance-track-and-wheel-cleaning
 - ce800-2013-maintenance-rear-rail-cleaning-and-lubrication
 see_also:
+- 7-5s-med-maintenance-aluminium-sliding-rail-cleaned-regularly-to-avoid-pu-wheel-loss
+- crs800s-2021-maintenance-swivel-seat-unstable-seat-wheel-adjustment-plate-11-mm-and-13-mm-wrenches
 - crs800s-2024-maintenance-machine-care-schedule
 - crs800s-2021-maintenance-four-pads-front-and-back
 - ct800-2016-maintenance-squeak-thump-or-clicking
@@ -86,6 +88,11 @@ procedure. Only the CRS800S does, and its **2021** manual prints it word for wor
 steps, same four corners, same rag around the mast tube, same rag and alcohol. **The procedure did
 not change between 2021 and 2024**, which is worth saying because the noise-and-levelling text on
 the facing page did (`crs800s-2021-maintenance-four-pads-front-and-back`).
+
+**The 7.5S service manual is the one service book that prints a rail line** — one sentence, no interval, no
+cleaner: `7-5s-med-maintenance-aluminium-sliding-rail-cleaned-regularly-to-avoid-pu-wheel-loss`. The CRS800S
+service manual prints no rail cleaning; its seat instruction is the wheel-plate adjustment
+(`crs800s-2021-maintenance-swivel-seat-unstable-seat-wheel-adjustment-plate-11-mm-and-13-mm-wrenches`).
 
 ## It is not the elliptical rail procedure
 

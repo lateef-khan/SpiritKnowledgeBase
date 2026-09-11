@@ -1,7 +1,7 @@
 ---
 id: spirit-climber-safety-outlet-100-to-240-volt-15-amp
-title: An outlet anywhere from 100 to 240 volts AC at 50/60 Hz on a 15-amp circuit, with nothing
-  else on it
+title: An outlet anywhere from 100 to 240 volts AC at 50/60 Hz on a 15-amp circuit,
+  with nothing else on it
 kind: spec
 question: What outlet and circuit does a Spirit 7.0S, 7.5S or 8.5S stepper or an MS300
   rehabilitation recumbent stepper need?
@@ -48,11 +48,19 @@ see_also:
 - spirit-climber-safety-instructions-list-twenty-four-items
 - ms300-2021-safety-packaging-symbols-and-template-defects
 - spirit-product-must-be-grounded
+- spirit-climber-safety-product-labels-stepper
+- spirit-climber-85s-specs-mains-power-supply
+- spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating
 source:
   ref: spirit-climber-85s-2025-owners-manual
-  locator: SAFETY INSTRUCTIONS item 2, printed page 4 (PDF page 6). The 7.0S and 7.5S print
-    it as item 2 of their printed page 4, and the MS300 as the second Warning bullet of its
-    Important safety instructions, printed page 5
+  locator: 'SAFETY INSTRUCTIONS item 2, printed page 4 (PDF page 6). The 7.0S and
+    7.5S print it as item 2 of their printed page 4, and the MS300 as the second Warning
+    bullet of its Important safety instructions, printed page 5. 7.5S (RS9600-SS021)
+    service manual: 5.2.3 Troubleshooting, No power, PDF p. 13 (printed 13), text.md
+    lines 125-140, in spirit-stepper-7-5s-med-service-manual. 8.5S (MS2000-SB036-01)
+    service manual: 5-1 No power, PDF p. 16 (printed 16), lines 216-234 and OCR supplement
+    lines 809-840 (the figure captions are images), and the rating label photographed
+    on PDF p. 4, in spirit-stepper-85s-2025-service-manual.'
   extracted_at: '2026-09-10'
 ---
 
@@ -95,3 +103,22 @@ The manual never reconciles the two (`ms300-2021-safety-packaging-symbols-and-te
 **The 8.5S-Fit is not one of these machines.** Its item 2 asks for a **120 Volt AC, 15-amp** outlet
 and its grounding page names a nominal 120-volt circuit
 (`spirit-climber-safety-outlet-120-volt-15-amp-fit`).
+
+## The service manuals print no requirement, and two figures of their own
+
+**Neither the 7.5S (RS9600-SS021) nor the 8.5S (MS2000-SB036-01) service manual prints an outlet requirement, a safety
+list or a grounding page.** What each prints is a no-power test:
+
+- **7.5S**: `Make sure the A.C. outlet has power (90~240VAC) and the line cord is plugged in securely to the AC adapter`,
+  then `Make sure there is 12V DC at the DC plug of the adaptor and plug into the DC jack of the stepper`. **90, not
+  100**, at the bottom of the range - a test threshold, not the requirement on this card - and the machine takes its
+  power through an external **12 V DC adaptor**, which the owner's manual does not say.
+- **8.5S**: measure the AC input at `CN1` of the power supply module, `110 VAC or 220 VAC depending on the mains voltage`
+  in the figure captions, and check the power switch and the fuse. Its rating label, photographed on the serial-number
+  page, reads `~100-240V, 50/60Hz, 1.76-0.71A` beside a `Replacement Fuse: 5A, 250V` label
+  (`spirit-climber-safety-product-labels-stepper`, `spirit-climber-85s-specs-mains-power-supply`). The 8.5S has an IEC
+  inlet and a rocker switch on its rear panel, not an adaptor.
+
+The 15 amp circuit and the "only appliance" rule remain the owner's manuals' alone. The 2019 Spirit Fitness power sheet
+says all medical equipment requires power and puts the MS300 at 120V/15AMP; it predates the 7.5S and 8.5S
+(`spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating`).

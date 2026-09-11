@@ -6,7 +6,8 @@ question: Can a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a Spirit XT
   treadmill, a 2026 Spirit 4.0T treadmill, a Spirit CE850 commercial elliptical, a
   2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023
   elliptical, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation,
-  or a Spirit CVC800 climber be plugged into a GFCI outlet?
+  a Spirit CVC800 climber, a Spirit CRW800-2016 or XRW600-2019 rower, or a Spirit
+  CRS800S-2021 stepper be plugged into a GFCI outlet?
 asked_as:
 - can i plug the treadmill into a gfci outlet
 - why does the gfci keep tripping with my machine
@@ -31,6 +32,8 @@ facets:
   - ce850-2016
   - ce850-2020
   - cr800ent-2024
+  - crs800s-2021
+  - crw800-2016
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -57,6 +60,7 @@ facets:
   - xe795-2023
   - xe895-2016
   - xg400-2016
+  - xrw600-2019
   - xt685-2010
   section: safety
   code: '*'
@@ -110,7 +114,16 @@ source:
     OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
     Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
     (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
-    38); text.md lines 607-635.'
+    38); text.md lines 607-635. Three more Dyaco service manuals print it as the first
+    bullet of 7.2 Important Electrical Instructions: CRW800-2016 (CW800-YR001) service
+    manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 371-398,
+    in spirit-rower-crw800-2016-service-manual. XRW600-2019 (DW400-YR002) service
+    manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 369-389
+    and OCR supplement lines 1229-1264, in spirit-rower-xrw600-2019-service-manual.
+    CRS800S-2021 (2020 ver.) service manual: 7 Product Safety Instructions, PDF pp.
+    24-25 (printed 24-25), text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual.
+    All four pages were also read from 110 dpi renders; the XRW600 page prints the
+    word Rower highlighted in yellow where the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -240,3 +253,19 @@ advice - avoid AFCI/GFCI breakers if possible, with a list of breakers that pass
 (`xt-2023-safety-afci-gfci-nuisance-tripping`). Say both, and which book each comes from. The
 CE800, CE900, CE900ENT, CE1000ENT and XE395ENT service manuals print no GFCI sentence
 (`spirit-ce-safety-no-mains-outlet-needed`).
+
+## Two rower and one stepper service manual print the prohibition
+
+**The CRW800-2016 (CW800-YR001) and XRW600-2019 (DW400-YR002) rower service manuals and the CRS800S-2021 stepper service
+manual print it word for word** as the first bullet of 7.2, each naming its machine: `this elliptical` in the CRW800
+book (an elliptical page in a rower manual), `this Rower` in the XRW600 book, `this climber` in the CRS800S book. Same
+rule, same reason, no exception and no alternative rating.
+
+**None of the three has a large motor.** The two rowers set their resistance with a small DC tension motor - the
+CRW800-2016 book gives its work voltage as `DC 4.5~7.5V` - and the recumbent stepper with a tension motor driven at
+`+4~5VDC`; the reason is treadmill boilerplate, as it is for the bikes and ellipticals above. The instruction itself is
+printed for all three.
+
+**The CS800-2016 (XS200-SS003) service manual prints no GFCI sentence.** Its 7-2 is the cover-removal, voltage-variation
+and moisture block instead (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`,
+`xt-2023-safety-supply-voltage-variation`), and the CS800-2021 and XS895 service manuals have no safety chapter at all.

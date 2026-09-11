@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-errors-resistance-box-cable-jam-over-8-kg
-title: Pulling the steel cable harder than 8 kg before the resistance box and track are assembled jams the cable inside the box
+title: Pulling the steel cable harder than 8 kg before the resistance box and track
+  are assembled jams the cable inside the box
 kind: troubleshooting
-question: What jams the steel cable inside the resistance box on a Spirit strength machine, and what does the manual say to do about it?
+question: What jams the steel cable inside the resistance box on a Spirit strength
+  machine, and what does the manual say to do about it?
 asked_as:
 - my cable is jammed inside the resistance box
 - pulled the cable too hard during assembly and now it is stuck
@@ -28,12 +30,19 @@ facets:
   section: errors
   code: no-code
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-errors-no-troubleshooting-page-printed
 - spirit-strength-errors-no-mechanical-fault-remedy
+- spirit-istrength-errors-fault-code-checklist-twelve-bit-flag-codes
 source:
   ref: spirit-strength-csi-cpsp-owners-manual
-  locator: 'ASSEMBLY - STEP TWO note, PDF page 14 of both the CSI-CPSP and the CSI-LROW owner''s manual. Read from a 300 dpi tesseract --psm 4 render of the printed page as well as the text layer, because that page''s text layer carries a duplicate stale copy of the same note that is not printed.'
+  locator: ASSEMBLY - STEP TWO note, PDF page 14 of both the CSI-CPSP and the CSI-LROW
+    owner's manual. Read from a 300 dpi tesseract --psm 4 render of the printed page
+    as well as the text layer, because that page's text layer carries a duplicate
+    stale copy of the same note that is not printed; i-Strength Digital Resistance
+    Module maintenance manual, Chapter 7. Troubleshooting Checklist, PDF p. 26, text.md
+    lines 661-711
   extracted_at: '2026-09-10'
 ---
 
@@ -83,3 +92,5 @@ render of the page, not from the extraction.
 
 Both CSI machines - the CSI-CPSP chest press and the CSI-LROW low row - carry this note word for
 word on the same page.
+
+**The resistance box has a maintenance manual of its own, and it prints a fault list** - twelve hex codes for the module's servo drive, none of them about a jammed cable (`spirit-istrength-errors-fault-code-checklist-twelve-bit-flag-codes`). Its disassembly chapter is the nearest thing to the "after-sales guidance" this note refers to: it takes the rear cover, the bottom plate, the motor module and the reel and rope out in that order, and warns that the special nut and the rope baffle rod must be screwed fully home on reassembly.

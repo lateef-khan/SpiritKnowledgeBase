@@ -38,7 +38,10 @@ see_also:
 - 85s-fit-2026-programs-ten-programs-on-the-touchscreen
 source:
   ref: spirit-climber-85s-2025-owners-manual
-  locator: 8.5S printed p. 43, "Program setup - Facility"; 8.5S-Fit printed p. 38, "Custom"
+  locator: '8.5S printed p. 43, "Program setup - Facility"; 8.5S-Fit printed p. 38, "Custom".
+    8.5S service manual, MS2000-SB036-01 (spirit-stepper-85s-2025-service-manual): 4.2.1
+    Maintenance Mode Menu Structure, PDF p. 8, text.md line 135, and 4.2.2.4 Lock Facility
+    Program, PDF p. 11, line 187 (extracted 2026-09-11)'
   extracted_at: '2026-09-10'
 ---
 
@@ -59,6 +62,15 @@ program allows you to further personalize it by adding your facility name."*
 
 **This book never says how many segments the profile holds**, and never says how long the facility
 name may be. Neither figure should be carried across from another machine.
+
+**A technician can lock the Facility program against editing.** The 8.5S service manual lists
+**Lock Facility Program: ON/OFF Setting** as the last item of the hidden Maintenance Mode menu and
+describes it as: *"When set to ON, the speed and incline profiles of the Facility program cannot be
+modified."* So if a customer's saved Facility profile will not accept changes, the lock may be on.
+The owner's manual never mentions it. The wording is the app's, not the stepper's - this recumbent
+stepper has no speed or incline, only a Level or Power workload; the same console app serves six
+machine types (treadmill, upright bike, recumbent bike, recumbent stepper, UBE, rehab UBE), which is
+where "speed and incline" comes from. How Maintenance Mode is entered belongs to the console cards.
 
 ## 8.5S-Fit - the Custom program
 

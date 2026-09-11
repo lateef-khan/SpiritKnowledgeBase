@@ -51,7 +51,8 @@ source:
     Windows, PDF p. 12 (printed 11), text.md lines 152-175; CU800 (2020) service manual
     PDF p. 12 (printed 11), lines 172-195; CE800 (2020) service manual 4-1 Display
     Windows, PDF p. 13 (printed 12), text.md lines 196-228; CE850 (2020) service manual
-    Display Windows, PDF p. 14 (printed 14), lines 249-283
+    Display Windows, PDF p. 14 (printed 14), lines 249-283.
+    CS800 (2020) service manual 4-1 Display Windows, PDF p. 13 (printed 12), text.md lines 193-224; CRS800S (2020 ver.) service manual Display Windows, PDF p. 11 (printed 11), lines 124-133, and Function Button Locations, PDF p. 14 (printed 14), lines 208-222
   extracted_at: '2026-09-09'
 ---
 
@@ -111,3 +112,11 @@ the same split their text prints
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Their call-out list is SCAN BUTTON FOR LED WINDOW, LED DATA DISPLAY WINDOWS, Dot-Matrix MESSAGE CENTER, SCAN BUTTON FOR Dot-Matrix, UP DOWN PROGRAM CONTROL, FAN COOLING FAN SWITCH (printed "COOLONG"), START STOP LEVEL CONTROLS and USB CHARGER - the same face, with the fan switch named.
 
 **The CE800 (2020) and CE850 (2020) service manuals print this face in their Product Operation chapters**, with the same eight call-outs and one addition each. The CE800 (2020) names the fan switch ("COOLONG FAN SWITCH" beside COOLING FAN, as the bike books do). The CE850 (2020) labels its LED windows "LED Data Display Windows or Message center", its matrix "Matrix Display for laps and profile", and adds a ninth call-out the owner's manuals never print: **Control center toggles (Thumb switch)** - the stride and level switches on the swing arm (`ce850-2020-console-stride-length-18-to-24-inches-buttons-on-the-left-swing-arm`).
+
+**The CS800 (2020) service manual labels the same face with nine call-outs** on its Display Windows
+page (one of them misprinted "COOLONG FAN"): LED DATA DISPLAY WINDOWS, SCAN BUTTON FOR LED WINDOW, Dot-Matrix MESSAGE CENTER, SCAN BUTTON FOR
+Dot-Matrix, UP DOWN PROGRAM CONTROL, COOLING FAN, COOLING FAN SWITCH, USB CHARGER, and START STOP LEVEL
+CONTROLS - the owner's-manual eight with the fan and its switch split and the Start, Stop and Level
+keys named. **The CRS800S (2020 ver.) service manual labels less**: its Display Windows page carries
+the single call-out "LED Display", and its Function Button Locations page names a **Program Key**, a
+**Fan Switch** and the **Control Keys**. Neither book adds a port the owner's manuals do not show.

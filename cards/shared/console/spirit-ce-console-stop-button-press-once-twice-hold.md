@@ -64,7 +64,8 @@ source:
     CU800 (2020) service manual PDF p. 14 (printed 13), lines 225-229; CE800 (2020)
     service manual 4-2-3 BASIC INFORMATION, PDF pp. 14-15 (printed 13-14), text.md
     lines 257-263; CE850 (2020) service manual BASIC INFORMATION, PDF pp. 15-16 (printed
-    15-16), lines 312-317
+    15-16), lines 312-317.
+    CRS800S (2020 ver.) service manual BASIC INFORMATION, PDF p. 13 (printed 13), text.md lines 174-178; CS800 (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), lines 256-260
   extracted_at: '2026-09-09'
 ---
 
@@ -150,3 +151,10 @@ behaviour at a CS800 or CRS800S of any year.
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same five-minute pause, same two presses to end, same three-second reset and Previous Screen function.
 
 **The CE800 (2020) and CE850 (2020) service manuals print this paragraph in their Product Operation chapters** - the five-minute pause, the second press back to the start-up screen, the three-second Reset and the Previous Screen function - and, like the owner's manuals, name only the Start key to resume. The CE800 (2020) book writes "will be paused"; nothing about the behaviour differs.
+
+**The CRS800S (2020 ver.) and CS800 (2020) stepper service manuals print the Stop paragraph word
+for word** - one press pauses for 5 minutes, Start resumes, two presses end the program and return
+to the start-up screen, a three-second hold performs a complete Reset, and during data entry Stop is
+a Previous Screen key. The CS800-2016's XS200-SS003 book is the one stepper document with a different
+Stop: its spec drops to idle after five minutes of pause and resets on a three-second hold from idle
+(`cs800-2016-console-software-modes-idle-30-minute-sleep-child-lock-quick-start-pause-end-reset`).

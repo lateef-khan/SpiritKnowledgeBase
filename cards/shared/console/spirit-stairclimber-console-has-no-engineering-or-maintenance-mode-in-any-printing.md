@@ -41,7 +41,8 @@ see_also:
 - csc880-2025-console-white-led-face-with-a-fan-target-and-user-prog-key-row
 source:
   ref: spirit-climber-csc900-2019-owners-manual
-  locator: CSC900-2019, CSC900-2021, CSC900-2024 and CSC880-2025 owners manuals; searched in full, native text and OCR supplements together
+  locator: CSC900-2019, CSC900-2021, CSC900-2024 and CSC880-2025 owners manuals; searched in full, native text and OCR supplements together.
+    Absence in the three service manuals too - CSC900 (V1.0, 2020MAR16) 21 pages, CSC900 2022 (Magnetic system) 14 pages, CSC880 (Magnetic) 14 pages - searched on 2026-09-11 for engineer, maintenance mode, service mode, key test, display test, odometer, sleep, metric, units and the 1-2-3 sequence, loosely and letter-spaced, native text and OCR supplements together; no page of any of them names a mode
   extracted_at: '2026-09-10'
 ---
 
@@ -67,3 +68,12 @@ to a stair climber**; there is nothing behind it.
 
 **These manuals also print no error codes and no sleep timeout.** A technician who needs a
 diagnostic on one of these machines has nothing in the owner's manual to reach for.
+
+**The service manuals have none either.** The CSC900 (V1.0) book, the magnetic-system CSC900 2022 book
+and the CSC880 book were searched the same way - loose words, letter-spaced words, native text and
+the OCR supplements of their picture pages - and none prints an engineering or maintenance mode, a
+key test, a display test, an odometer, a sleep timeout or a units setting. What they add about the
+console is a description - "it can display fitness data, time, speed, distance, energy consumed,
+fitness program", and the user "can control the machine operation, stop, speed increase or decrease
+through the button operation" - and, in the 2020 book, a heading naming the part the **AI3 console**.
+So for a Spirit stair climber there is no diagnostic menu in any document of either kind.

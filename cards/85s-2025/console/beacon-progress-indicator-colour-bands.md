@@ -37,7 +37,8 @@ see_also:
 - 85s-2025-console-settings-and-the-four-workout-views
 source:
   ref: spirit-climber-85s-2025-owners-manual
-  locator: printed p. 29, CONSOLE OPERATION - CONTINUED, item 1
+  locator: printed p. 29, CONSOLE OPERATION - CONTINUED, item 1.
+    8.5S-785545 (MS2000-SB036-01) service manual 4.2.1 Maintenance Mode Menu Structure, Beacon Test, PDF p. 8, text.md lines 125-130, and 4.2.2.3.6, PDF p. 11, line 184
   extracted_at: '2026-09-10'
 ---
 
@@ -68,3 +69,8 @@ other manual prints a colour band table for effort.
 
 **Note printed beside it:** *"There is a thin protective sheet of clear plastic on the overlay of the
 console that should be removed before use."*
+
+**The service manual tests it colour by colour.** Maintenance Mode's Service tab has a **Beacon Test**
+that "switches the beacon light bar colors to verify functionality" through the same five - White,
+Blue, Green, Yellow, Red - and the book calls the part the **beacon light bar**
+(`85s-2025-console-service-tab-machine-type-loopback-nfc-keypad-beacon-and-crank-calibration`).

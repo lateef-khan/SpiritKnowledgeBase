@@ -3,7 +3,7 @@ id: cu1000ent-2023-console-15-6-inch-tft-with-nfc-login-and-shortcut-keys
 title: The console is a 15.6-inch TFT display with an NFC log-in pad and shortcut
   keys
 kind: fact
-question: What is on the console of a Spirit cu1000ent-2023 bike?
+question: What is on the console of a Spirit CU1000ENT or CR1000ENT 2023 bike?
 asked_as:
 - how big is the screen on the cu1000 bike
 - what is the nfc pad on the cu1000ent console for
@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu1000ent-2023
+  model: '*'
   applies_to:
+  - cr1000ent-2023
   - cu1000ent-2023
   section: console
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -39,7 +38,9 @@ source:
   ref: spirit-bike-cu1000ent-2023-service-manual
   locator: Section 2.1 Console, PDF p. 5 (printed 5); text.md lines 93-112, and section
     4.1 Window Display, PDF p. 8 (printed 8); lines 148-165. Both pages are photographs
-    whose only text is the call-outs
+    whose only text is the call-outs. CR1000(2023) SR8880-SB028 service manual section
+    2.1 Console, PDF p. 5 (printed 5), text.md lines 109-127, and 4.1 Window Display,
+    PDF p. 8 (printed 8), lines 162-174, the same two photographs with the same call-outs
   extracted_at: '2026-09-11'
 ---
 
@@ -60,3 +61,11 @@ keys.
 
 **Nothing in this book describes how the NFC log-in works**, what card or phone it reads, or what a
 user sees after logging in. The owner's manual for this machine is not in the repository.
+
+**The CR1000ENT-2023 recumbent bike's service manual (SR8880-SB028) prints the same two pages**, so
+this card covers that machine too: the Console page with **DISPLAY** and **NFC log in & Shortcut
+key**, and a Window Display page whose one call-out is **15.6" TFT Display** over a Function
+Locations picture with no readable labels. Its engineering-mode screenshot adds what the console
+face does not: the Welcome page carries **Login with QR**, **Login with NFC** and **Go to Workouts**
+buttons (`cu1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`). Its owner's
+manual is not in the repository either.

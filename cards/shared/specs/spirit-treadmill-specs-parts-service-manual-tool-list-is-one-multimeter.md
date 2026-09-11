@@ -1,8 +1,8 @@
 ---
 id: spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
-title: The only tool the service manuals list for troubleshooting is a multi-meter
+title: The only tool the Dyaco-format service manuals list for troubleshooting is a multi-meter
 kind: fact
-question: What tools do the Spirit treadmill, bike and elliptical service manuals list for troubleshooting, and does any of them print a longer tool list?
+question: What tools do the Spirit treadmill, bike, elliptical, rower and stepper service manuals list for troubleshooting, and does any of them print a longer tool list?
 asked_as:
 - what tools do i need to troubleshoot a spirit treadmill
 - does the spirit service manual have a tool list
@@ -31,9 +31,14 @@ facets:
   - ce850-2020
   - ce900-2021
   - ce900ent
+  - cr1000ent-2023
   - cr800-2021
   - cr900-2018
   - cr900ent-2021
+  - crw800-2016
+  - crw800-2021
+  - cs800-2016
+  - cs800-2021
   - ct1000ent-2023
   - ct800-2016
   - ct800-2020
@@ -62,6 +67,9 @@ facets:
   - xe795-2023
   - xe895-2016
   - xg400-2016
+  - xrw600-2019
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -85,6 +93,9 @@ see_also:
 - cr800-2009-specs-parts-no-electronic-parts-chapter-tool-list-or-parts-list
 - xe100-2007-specs-parts-list
 - xe400-2007-specs-parts-list
+- spirit-climber-specs-parts-service-manual-tool-list-six-tools
+- 85s-2025-specs-parts-required-maintenance-tools-eighteen
+- 7-5s-med-specs-parts-list
 source:
   ref: spirit-treadmill-ct800-2020-service-manual
   locator: 'Representative: 8-2 Prepare tools, PDF p. 37 (printed 36), text.md lines
@@ -108,11 +119,11 @@ source:
     PDF p. 20 (printed 20), lines 320-341; spirit-treadmill-xt485ent-2023-service-manual
     PDF p. 33 (printed 33), lines 449-473; spirit-treadmill-xt685-2023-service-manual
     PDF p. 19 (printed 19), lines 353-376; spirit-treadmill-xt685ent-2023-service-manual
-    PDF p. 19 (printed 19), lines 315-336'
+    PDF p. 19 (printed 19), lines 315-336. Rowers and steppers, the same one-line list: spirit-rower-crw800-2021-service-manual 7-2 Prepare tools PDF p. 32 (printed 31), lines 426-437; spirit-rower-crw800-2016-service-manual Preparation Tool PDF p. 31, lines 399-415; spirit-rower-xrw600-2019-service-manual Preparation Tool PDF p. 31, lines 390-406; spirit-rower-cr1000ent-2023-service-manual 7.3 Tools Required PDF p. 12, lines 239-269; spirit-stepper-cs800-2016-service-manual Prepare PDF p. 32, lines 454-475; spirit-stepper-cs800-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 373-389; spirit-stepper-xs895-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 360-377. Searched for a tool list and found none: spirit-stepper-crs800s-2021-service-manual (42 pp.), spirit-rower-crw900-2021-service-manual (19 pp.), spirit-stepper-7-5s-med-service-manual (56 pp.), spirit-strength-i-strength-resistance-module-maintenance-manual (27 pp.)'
   extracted_at: '2026-09-11'
 ---
 
-**Forty-nine Spirit service manuals - twenty-one treadmill, fourteen bike, fourteen elliptical - name exactly one tool, and it is the same one: a multi-meter.** Each book prints it once, at the head of its error-message chapter, and prints no other tool list anywhere - no wrench sizes, no torque tool, no crank puller, no tension gauge, though the replacement chapters call for them. The wording moves between three layouts and the fact does not. The tables below are per product line; each row is that book's own page.
+**Fifty-seven Spirit service manuals - twenty-one treadmill, fifteen bike, fourteen elliptical, three rower, four stepper - name exactly one tool, and it is the same one: a multi-meter.** Each book prints it once, at the head of its error-message chapter, and prints no other tool list anywhere - no wrench sizes, no torque tool, no crank puller, no tension gauge, though the replacement chapters call for them. The wording moves between three layouts and the fact does not. The tables below are per product line; each row is that book's own page.
 
 ## Treadmills
 
@@ -248,3 +259,41 @@ belong with the error code or the motor they test.
 the service manuals do not repeat them. The treadmill and bike service manuals say the same one thing
 (`spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`,
 `spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`).
+
+## Rowers and steppers
+
+**Three rower and four stepper service manuals - the CR1000ENT recumbent bike filed with the
+rowers makes an eighth - name exactly one tool, and it is the same one: a multi-meter.** Each
+prints it once, at the head of its error-message chapter, in one of the three layouts above:
+
+| Machine | How the page puts it | Page |
+|---|---|---|
+| cr1000ent-2023 | 7.3 Tools Required: A multi-meter. | PDF p. 12 (printed 12), lines 239-269 |
+| crw800-2016 (CW800-YR001) | Preparation Tool: Picture / Name of Tool / Multifunctional Meter, under the error-code table | PDF p. 31, lines 399-415 |
+| crw800-2021 (CRW800 (2020)) | 7-2 Prepare tools: a photograph captioned Multi-meter | PDF p. 32 (printed 31), lines 426-437 |
+| xrw600-2019 (DW400-YR002) | Preparation Tool: Picture / Name of Tool / Multifunctional Meter, under the error-code table | PDF p. 31, lines 390-406 |
+| cs800-2016 (XS200-SS003) | Prepare: Picture / Tool name / Multi-meter, under the error-code table | PDF p. 32, lines 454-475 |
+| cs800-2021 (CS800 (2020)) | 7-2 Prepare tools: Multi-meter, under the error-code table | PDF p. 26 (printed 25), lines 373-389 |
+| xs895-2018 and xs895-2021 (XS300B-YS006) | 7-2 Prepare tools: Multi-meter, under the error-code table | PDF p. 26 (printed 25), lines 360-377 |
+
+The two 2017 rower books write it *Multifunctional Meter*; it is the same hand-held digital
+meter the others photograph, and the pages that follow set it to 12 V DC on the gear-motor
+wire. None of the eight adds a second row.
+
+**Four books in this group print no tool list at all**, checked in the native text and every
+OCR supplement:
+
+| Book | What it prints instead |
+|---|---|
+| CRS800S 2020 ver. | nothing - "Put multi-meter to the 20VDC setting" inside the tension-motor test, and "Adjustment tool: Phillips Head Screw Driver, 11mm open-end wrench, 13mm open-end wrench" inside the swivel-seat procedure |
+| CRW900 water rower | nothing - nineteen pages of speed-sensor, handle-belt and lubrication guidance with no tool named as a list |
+| 7.5S (RS9600-SS021-01) | nothing as a list - the seven tools packed with the machine are rows 208-214 and 242 of its parts list (`7-5s-med-specs-parts-list`) |
+| i-Strength Digital Resistance Module | nothing as a list - a Phillips screwdriver, 6 mm and 4 mm hex wrenches and circlip pliers are named inside its disassembly steps |
+
+**Four books in the same folders print a longer list, and they are not Dyaco-format books.**
+The CSC880 and both CSC900 stair climber manuals open with six captioned photographs -
+screwdriver, socket head wrench, Clyburn spanner, pliers, multi-meter, electric soldering iron
+(`spirit-climber-specs-parts-service-manual-tool-list-six-tools`) - and the 8.5S medical stepper
+manual prints an eighteen-row *List of Required Maintenance Tools*
+(`85s-2025-specs-parts-required-maintenance-tools-eighteen`). Those are the only Spirit service
+manuals in this knowledge base that name more than one tool.

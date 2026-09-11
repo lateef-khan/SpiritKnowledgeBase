@@ -8,8 +8,9 @@ question: How must a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2010
   Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine,
   a 2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023
   elliptical, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation,
-  a Spirit CU800ENT-2024 bike, a Spirit CS800 stepper, a Spirit XS895 incline stepper,
-  a Spirit CVC800 climber or a Spirit 7.0S, 7.5S, 8.5S, 8.5S-Fit or 8.5UE be grounded?
+  a Spirit CU800ENT-2024 bike, a Spirit CS800 or CRS800S stepper, a Spirit CRW800-2016
+  or XRW600 rower, a Spirit XS895 incline stepper, a Spirit CVC800 climber or a Spirit
+  7.0S, 7.5S, 8.5S, 8.5S-Fit or 8.5UE be grounded?
 asked_as:
 - does the machine need a grounded outlet
 - can i cut the ground pin off the plug
@@ -41,6 +42,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - crs800s-2021
+  - crw800-2016
+  - cs800-2016
   - cs800-2021
   - cs800-2024
   - ct800-2012
@@ -78,6 +82,7 @@ facets:
   - xe895-2018
   - xg400-2016
   - xg400-2021
+  - xrw600-2019
   - xs895-2018
   - xs895-2021
   - xt185-2015
@@ -165,7 +170,18 @@ source:
     OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
     Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
     (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
-    38); text.md lines 607-635.'
+    38); text.md lines 607-635. Four more Dyaco service manuals print both paragraphs
+    as Important Grounding Instructions: CRW800-2016 (CW800-YR001) service manual:
+    7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 371-398,
+    in spirit-rower-crw800-2016-service-manual. XRW600-2019 (DW400-YR002) service
+    manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 369-389
+    and OCR supplement lines 1229-1264, in spirit-rower-xrw600-2019-service-manual.
+    CRS800S-2021 (2020 ver.) service manual: 7 Product Safety Instructions, PDF pp.
+    24-25 (printed 24-25), text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual.
+    CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md
+    lines 418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were
+    also read from 110 dpi renders; the XRW600 page prints the word Rower highlighted
+    in yellow where the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -564,3 +580,31 @@ grounding page** and no safety chapter at all; that machine's grounding text is 
 alone. The XE395-2016 and XE395ENT-2021 books do add one grounding sentence of their own, in the
 incline-motor replacement: `Be sure that the grounding wire of the incline motor is firmly secured
 on the frame tube of the Rear Frame.`
+
+## Two rower and two stepper service manuals print both paragraphs
+
+**The CRW800-2016 (CW800-YR001), XRW600-2019 (DW400-YR002), CRS800S-2021 and CS800-2016 (XS200-SS003) service manuals
+print the whole section** - grounding is mandatory, the risk named is electric shock, the plug must not be modified, a
+qualified electrician installs the right outlet, and the plug drawing follows with the adapter paragraph
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`). The CRW800 book says `If the elliptical should malfunction`,
+the XRW600 book `If the Rower`, the CRS800S book `If the climber`, and the CS800-2016 book `If the bike should
+malfunction or breakdown` - a bike's paragraph in a stepper manual.
+
+**Their circuit sentence differs, and one book has none.**
+
+| Service manual | Grounding-page circuit sentence | Safety bullet in the same chapter |
+|---|---|---|
+| CRW800-2016 | `a nominal 120-volt circuit` | 120-volt, 15-amp outlet (`spirit-ct800-safety-outlet-120-volt-15-amp`) |
+| CRS800S-2021 | `a nominal 120-volt circuit` | 120 Volt, 15-amp outlet (same card) |
+| CS800-2016 | `a nominal 120-volt (230-volt) circuit` | 120-volt, 15-amp (230-volt, 10-amp) outlet (same card) |
+| XRW600-2019 | **no circuit sentence** - the paragraph runs from `qualified electrician.` straight to `A temporary adapter` | **no safety block at all** |
+
+So the XRW600 service manual names no voltage anywhere in its chapter 7; that machine's 110-volt, 15-amp figure is its
+owner's manual's alone (`spirit-xe-safety-outlet-110-volt-15-amp`). The CS800-2016 and CRW800-2016 books spell the
+adapter tab `earlug`, the CRS800S book `earplug`.
+
+**That corrects two statements above.** *Neither CRS800S printing has a grounding page* is true of the two owner's
+manuals; the CRS800S-2021 **service** manual prints one, at 120 volts where the owner's book says 110
+(`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). And the CS800 stepper's grounding page is not only the 2021 and
+2024 owner's-manual page at 110 volt/5 amp (`spirit-climber-safety-outlet-110-volt-5-amp`): the 2016 machine's service
+manual prints it at 120 volts with a 230-volt bracket.

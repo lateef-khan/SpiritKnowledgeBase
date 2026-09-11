@@ -40,7 +40,8 @@ see_also:
 - spirit-stepper-2021-console-power-up-one-runs-on-a-dc-cord-and-counts-ksteps
 source:
   ref: spirit-climber-cs800-2021-owners-manual
-  locator: CS800-2021 printed p. 36, ENGINEERING MODE; the CRS800S-2021 owners manual prints the same menu on its printed p. 36 under ENGINEERING MODE MENU
+  locator: CS800-2021 printed p. 36, ENGINEERING MODE; the CRS800S-2021 owners manual prints the same menu on its printed p. 36 under ENGINEERING MODE MENU.
+    CRS800S (2020 ver.) service manual 8-6 MAINTENANCE MODE, PDF p. 34 (printed 34), text.md lines 486-504; CS800 (2020) service manual 7-6 MAINTENANCE MENU IN CONSOLE SOFTWARE, PDF p. 32 (printed 31), lines 503-520
   extracted_at: '2026-09-10'
 ---
 
@@ -83,3 +84,15 @@ boilerplate, not a different machine. The CS800's version of the paragraph says 
 
 **There is no Stride test**, because neither machine has an adjustable stride, and neither book
 prints the entry.
+
+**Both service manuals print this menu, with three differences of wording and none of substance.**
+The CRS800S (2020 ver.) book prints it as a Menu / Sub Menu / Description table under 8-6
+MAINTENANCE MODE; the CS800 (2020) book as a numbered list under 7-6 MAINTENANCE MENU IN CONSOLE
+SOFTWARE. Same three-key hold for about 5 seconds, same "Maintenance Mode" on the Message Center,
+same Key Test, Display Test, Function (Units, Pause mode "have five minutes", Odometer Reset, Sleep
+mode, Beep sound, CAB Protocol or CSAFE Protocol), Service (Motor test, Csafe test, Sensor test) and
+Exit. **Neither service manual prints a sleep default** - both carry the bare entry, so the
+"(Default Off)" is the CRS800S-2021 owner's manual's alone. **The CS800 book says "pedal the
+elliptical"** where its owner's manual says "pedal the stepper" - boilerplate, not a different
+machine. The CS800-2016's XS200-SS003 book prints a different menu altogether
+(`cs800-2016-console-engineering-mode-with-a-30-minute-sleep-a-da-test-and-a-safety-item`).

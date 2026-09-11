@@ -35,6 +35,7 @@ authority: 3
 not_to_be_confused_with:
 - crs800s-2024-maintenance-step-rail-and-carriage-cleaning
 see_also:
+- crw900-2021-maintenance-aerosol-super-grease-on-the-strap-pulley-shaft
 - spirit-water-rower-maintenance-weekly-rails-and-hundred-hour-belt-check
 - crw900-2021-maintenance-frame-bolt-retightening-interval
 - spirit-rower-maintenance-no-lubricant-named-anywhere
@@ -63,7 +64,9 @@ reader who turns to GENERAL MAINTENANCE will never find them.**
 > both wheels and track.
 
 **A soft dry cloth — nothing wet, and no lubricant.** This manual names no lubricant of any kind for
-the rollers, the track or anywhere else (`spirit-rower-maintenance-no-lubricant-named-anywhere`).
+the rollers, the track or anywhere else (`spirit-rower-maintenance-no-lubricant-named-anywhere`). The service
+manual does name one — an aerosol grease — but for the strap pulley shaft under the frame plug, not for the seat
+(`crw900-2021-maintenance-aerosol-super-grease-on-the-strap-pulley-shaft`).
 
 ## How this fits the maintenance table
 

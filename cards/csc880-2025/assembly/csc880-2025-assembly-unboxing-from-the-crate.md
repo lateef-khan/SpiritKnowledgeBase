@@ -37,9 +37,13 @@ see_also:
 - csc880-2025-assembly-procedure
 - csc880-2025-assembly-parts-and-hardware-pack
 - csc880-2025-assembly-parts-diagram-and-oem-label
+- csc880-2025-assembly-service-manual-installation-columns-handrails-and-console
 source:
   ref: spirit-climber-csc880-2025-owners-manual
-  locator: printed p. 9 (PDF p. 11), UNBOXING INSTRUCTIONS, five captioned pictures
+  locator: 'printed p. 9 (PDF p. 11), UNBOXING INSTRUCTIONS, five captioned pictures
+    | spirit-climber-csc880-2025-service-manual: 6. Unboxing & Installation, PDF p.
+    9; text.md lines 129-135 and the OCR supplement for page 9 (the captions are drawn,
+    not native text)'
   extracted_at: '2026-09-10'
 ---
 
@@ -77,3 +81,7 @@ offers.
 It appears in step 3 of this page and nowhere else in the manual - not in PARTS
 INCLUDED, not in the hardware pack, and in no assembly step. Nothing tells you to keep
 it.
+
+## The service manual prints the same sequence, one step shorter
+
+The CSC880 service manual's "Unboxing & Installation" page carries four captioned pictures - **open the wooden box; remove the left and right handrails; remove the console and packing connector; remove the column** - and stops there, without the lift off the pallet. It then goes straight into its own installation sequence (columns, handrails, console), which is carded separately.

@@ -5,7 +5,7 @@ title: 'Replacing the commercial recumbent rear and bottom covers: four bottom-c
   a washer inside the frame and two at the bottom on the right'
 kind: procedure
 question: How do I replace the rear covers, bottom covers or rear stabilizer covers
-  on a Spirit CR900 or CR900ENT recumbent bike?
+  on a Spirit CR900, CR900ENT or CR1000ENT recumbent bike?
 asked_as:
 - rear cover screws spirit cr900
 - bottom cover removal cr900ent
@@ -24,6 +24,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -38,7 +39,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.7 Rear Cover/Bottom Cover Replacement, PDF pp. 49-51; text.md
     lines 798-841 | cr900ent-2021: 6.7 Rear Cover/Bottom Cover Replacement, PDF pp.
-    57-59; text.md lines 973-1016'
+    57-59; text.md lines 973-1016 | cr1000ent-2023: 12.17 Rear Cover/Bottom Cover
+    Replacement, PDF pp. 28-29; text.md lines 621-674'
   extracted_at: '2026-09-11'
 ---
 
@@ -53,3 +55,5 @@ source:
 No refit step and no screw sizes are printed. "4 screws of the left and right bottom covers" does not say whether that is per side or in total; the same is true of the four stabilizer-cover screws.
 
 The lower controller sits behind these covers (6.8 sends you here first), and so does the sliding seat assembly's cable routing.
+
+**The CR1000ENT book prints the same four steps and counts as 12.17** (figures 12.41 to 12.48) and the same "refer to 12.41~12.44" for refitting.

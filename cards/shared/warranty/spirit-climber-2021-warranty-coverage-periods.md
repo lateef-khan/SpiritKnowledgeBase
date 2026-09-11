@@ -42,11 +42,12 @@ see_also:
 - spirit-climber-warranty-use-environment
 - spirit-ce850-warranty-exclusions
 - spirit-ct800-warranty-consumer-responsibilities
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-climber-cs800-2021-owners-manual
   locator: 'Warranty table on the first warranty page: CS800 printed p. 36 (text.md
     lines 1291-1293), CVC800 printed p. 26 (text.md lines 1043-1045), CRS800S printed
-    p. 36 (text.md lines 1349-1351)'
+    p. 36 (text.md lines 1349-1351) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CRS800S and CS800 (named without years) under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Parts 5 Years, Labor 2 Years, with no Brake column.'
   extracted_at: '2026-09-10'
 ---
 
@@ -68,3 +69,9 @@ source:
 **This is not the 2024 table.** The CRS800S and CS800 were reissued in September 2024 with a table whose frame drops from Lifetime to **10 Years** and which adds a wear-items column: `spirit-2024-warranty-coverage-periods-parts-labor`. A customer with a 2021 machine has a lifetime frame; one with a 2024 machine does not.
 
 **The CVC800 owner's manual has no year in its model id**, and the figures above are the owner's manual's. The CVC800 service manual carded separately does not restate them.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the commercial row's frame, parts and labor for the CRS800S and the
+CS800** - Lifetime, 5 Years, 2 Years - under COMMERCIAL (NON-DUES PAYING FACILITIES), and
+**omits the Brake column**. It does not name the CVC800. The sheet names both steppers without
+a year; the CS800 then on sale was the XS200-SS003 machine of the 2016 service manual. See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

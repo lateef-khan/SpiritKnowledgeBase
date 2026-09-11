@@ -39,7 +39,8 @@ see_also:
 - 85s-2025-console-login-by-qr-code-nfc-or-pin
 source:
   ref: spirit-climber-85s-2025-owners-manual
-  locator: printed p. 26 and p. 33-35, QUICK START and CONSOLE SCREEN - FUNCTIONS, VIEWING MODES and PAUSE. Those pages are flattened images and the labels were read from the OCR supplements in text.md
+  locator: printed p. 26 and p. 33-35, QUICK START and CONSOLE SCREEN - FUNCTIONS, VIEWING MODES and PAUSE. Those pages are flattened images and the labels were read from the OCR supplements in text.md.
+    8.5S-785545 (MS2000-SB036-01) service manual, the Settings screenshot under Console APP Update Options, PDF p. 10, read from the OCR supplement lines 708-734
   extracted_at: '2026-09-10'
 ---
 
@@ -82,3 +83,12 @@ pause and touch start to resume) and ENTER to confirm each setting.**
 vertical and horizontal adjustment. **The 8.5S-Fit's is 15.6" and its screens are laid out
 differently** - do not answer one from the other
 (`85s-fit-2026-console-workout-views-and-finishing-with-two-stop-presses`).
+
+**The service manual's Settings screenshot lists more than the owner's manual's sentence.** Its
+panel reads **Progress Beacon, Acceleration & Deceleration, Language, Time & Date, WiFi, Standby,
+Pause Mode, Account, Units (Metric / Imperial)** and **Software**, the last opening the Android,
+Firmware, LCB and Console App versions with their update buttons
+(`85s-2025-console-firmware-lcb-and-console-app-update-from-a-usb-root-or-over-wifi`). Acceleration
+& Deceleration and Account are named nowhere in the owner's manual. The troubleshooting menu is a
+separate Maintenance Mode behind the status bar
+(`85s-2025-console-maintenance-mode-on-the-wifi-icon-once-and-the-clock-six-times`).

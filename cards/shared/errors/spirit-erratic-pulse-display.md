@@ -39,6 +39,7 @@ facets:
   - ce900-2021
   - ce900-2025
   - ce900ent
+  - cr1000ent-2023
   - cr800-2021
   - cr800-2024
   - cr800ent-2023
@@ -46,7 +47,10 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2016
+  - cs800-2021
   - cs800-2024
   - ct1000ent-2023
   - ct800-2016
@@ -85,6 +89,8 @@ facets:
   - xe795-2023
   - xe895-2016
   - xg400-2016
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -174,7 +180,14 @@ source:
     matrix, PDF p. 18, text.md lines 322-352; XG400 2016 (SE551-SE023-01) service
     manual Troubleshooting procedure matrix, PDF p. 40, text.md lines 595-628; XE895
     2016 (XE895-SE022) service manual 8-7 Troubleshooting procedure matrix, PDF p.
-    57-58, text.md lines 973-1029'
+    57-58, text.md lines 973-1029; CR1000ENT 2023 service manual (SR8880-SB028) 10.1
+    Troubleshooting procedure Matrix, PDF p. 18, text.md lines 345-374; CRS800S 2020
+    ver. service manual 8-5 Troubleshooting procedure matrix, PDF p. 33 (printed 32),
+    text.md lines 463-480; CS800 (2020) service manual 7-7 Troubleshooting procedure
+    matrix, PDF p. 33 (printed 32), text.md lines 526-549; CS800 2016 (XS200-SS003)
+    service manual Troubleshooting procedure matrix, PDF p. 41, text.md lines 602-634;
+    XS895 (XS300B-YS006) service manual 7-8 Troubleshooting procedure matrix, PDF
+    p. 36-37 (printed 35-36), text.md lines 550-602'
   extracted_at: '2026-09-08'
 ---
 
@@ -229,3 +242,7 @@ the machine takes a Bluetooth chest strap.
 **Eighteen bike service manuals print this row with the same three causes and the same three fixes.** Which noun each uses: the nine residential books (XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, XBR55 2023, XBR95 2023, XBU55 2023) say `Bike`; the CU900 2018 and CR900 2018 say `Bike`; the CR900ENT 2021 and CU1000ENT 2023 say `product`; and the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver books all carry the copy-and-paste defect - `treadmill` in the reason column, `bike` in the solve column - which dates that defect to the 2012 XU878 book at the latest. **The AB900 2018 air bike prints the same three causes and three fixes in its own words** (`The heartbeat display value is incorrect` / *may be received another heart rate strap signal; other electric field noise interference; the wireless heartbeat receiver is damaged* / *check no other strap around the machine; try changing the machine direction or position; replace the new wireless heartbeat receiver*). **The JB950 2022 Johnny G bike answers the same condition with different causes** - the wrong sensor, a low sensor battery, the receiver - on `jb950-2022-errors-erratic-pulse-wrong-sensor-or-low-battery`.
 
 **Fifteen elliptical service manuals print this row with the same three causes and the same three fixes.** The noun each uses: the CE850 2016, CE850 (2020) and XE895 2016 say `Ellipitcal` in the reason column (spelled that way in the source) and `elliptical` in the solve column; the XE195, XE295, XE395, XE795 and XG400 2016, the XE395ENT 2021 and the XE795 2023 say `elliptical` or `Elliptical`; the CE900 (SE8800) says `Elliptical`; the CE900ENT and CE1000ENT 2023 say `product`. **The CE800 2016 and the CE800 (2020) carry the copy-and-paste defect** - `treadmill` in the reason column and `bike` in the solve column - on an elliptical, so that defect is at least a decade old. The XE100-XE500 2007 dealer manual prints no matrix and no pulse row at all.
+
+**The CR1000ENT 2023 recumbent service manual prints this row word for word**, saying `product` in both columns as the CU1000ENT 2023 does.
+
+**Four stepper service manuals print this row with the same three causes and the same three fixes.** The noun each uses: the CRS800S 2020-version says `climber`; the CS800 (2020) and the XS895 (`XS300B-YS006`) say `Stepper`; **the CS800 2016 (`XS200-SS003`) says `bike` in both columns** - a stepper book carrying the bike template's noun, the same inherited copy-and-paste defect as the `treadmill`/`bike` mix on the ellipticals and bikes above.

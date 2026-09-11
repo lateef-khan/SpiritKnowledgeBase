@@ -43,7 +43,10 @@ source:
     from the text layer: on the 2019 page the lower half is blank white, and on the 2021 page
     the space is taken by the sanitizing bullets. The following PDF page is the warranty in
     both books, so nothing follows the promise. Searched both sources for "quarterly",
-    "biannual", "PERIOD", "schedule" and "chart": no hits'
+    "biannual", "PERIOD", "schedule" and "chart": no hits. The 2019 service manual was searched on 2026-09-11:
+    spirit-climber-csc900-2019-service-manual, 21 pages, every page rendered by the ingest sweep, for lubric, grease,
+    oil, chain, sprocket, schedule, weekly and monthly - hits only at p. 2 (Maintenance Cautions, lines 10-16), p. 10
+    (chain wheel as a noise source) and p. 12 (lubricant on the pedal shaft in a removal step, lines 449-450)'
   extracted_at: '2026-09-10'
 ---
 
@@ -68,6 +71,15 @@ The claim is an absence, so it was checked three ways rather than by reading the
    continue overleaf.
 3. Both sources were searched for **quarterly**, **biannual**, **PERIOD**, **schedule** and
    **chart**. No hits in either.
+
+## The 2019 service manual prints none either
+
+The CSC900 service manual V1.0 - the alternator-drive book - has no maintenance chapter at all. Its *Maintenance
+Cautions* are three lines about switching the power off, using original parts and cleaning debris off a part
+before it is refitted, and the rest of the book is unboxing, installation, a twelve-row fault table and replacement
+steps. The only lubricant in it is dripped onto the pedal shaft to get a pedal off (p. 12, a replacement step), and
+"chain wheel" appears once, as a possible noise source in the fault table. **Nothing in either book lubricates the
+step chain or its sprockets, or sets an interval for anything.**
 
 ## The schedule arrives in 2024
 

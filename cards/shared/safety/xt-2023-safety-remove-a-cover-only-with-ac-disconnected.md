@@ -2,7 +2,10 @@
 id: xt-2023-safety-remove-a-cover-only-with-ac-disconnected
 title: Disconnecting AC power before a cover comes off
 kind: policy
-question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit CE850 or CE800ENT elliptical, or a Spirit XE residential elliptical, before removing a cover?
+question: Do I have to unplug a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285,
+  XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, a 2026
+  Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit CE850 or CE800ENT elliptical, a Spirit
+  XE residential elliptical, or a Spirit CS800-2016 stepper, before removing a cover?
 asked_as:
 - can i take the motor cover off with it plugged in
 - do i unplug the treadmill before opening it
@@ -34,6 +37,7 @@ facets:
   - cr800ent-2023
   - cr800ent-2024
   - crs800s-2024
+  - cs800-2016
   - cs800-2024
   - ct800-2012
   - ct800-2016
@@ -98,21 +102,25 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
-    on page 7. The five 2015 XT owner's manuals print it on their Important Electrical
-    Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 4.0T, 7.0T
-    and 8.0T owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two
-    Spirit MT200 owner's manuals print it on their Important Electrical Information page,
-    2010 page 5 and 2022 page 8 The four CT800 owner's manuals print it on their Important
-    Electrical Instructions page - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5,
-    and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5,
-    ENT-2022 page 5. The XT685 2010 owner's manual prints it on its Important Electrical
-    Instructions page, PDF page 7 (printed 3) The four mains-powered Spirit elliptical
-    owner's manuals print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS
-    page - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5 The
-    CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the same WARNING at the head
-    of their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 5, and the CU800ENT-2024
-    manual on its ELECTRICAL SAFETY page, printed page 6
+  locator: 'page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print
+    the same page on page 7. The five 2015 XT owner''s manuals print it on their Important
+    Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The
+    2026 4.0T, 7.0T and 8.0T owner''s manuals print it on their ELECTRICAL SAFETY
+    page, page 6. The two Spirit MT200 owner''s manuals print it on their Important
+    Electrical Information page, 2010 page 5 and 2022 page 8 The four CT800 owner''s
+    manuals print it on their Important Electrical Instructions page - 2012 page 3,
+    2016 page 4, 2020 page 5, ENT-2022 page 5, and the four CT850 owner''s manuals
+    on theirs - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685
+    2010 owner''s manual prints it on its Important Electrical Instructions page,
+    PDF page 7 (printed 3) The four mains-powered Spirit elliptical owner''s manuals
+    print it as the first WARNING of their IMPORTANT ELECTRICAL INSTRUCTIONS page
+    - CE850 2016 page 6, CE850 2020 page 7, CE850 2022 page 7, CE800ENT page 5 The
+    CU800ENT-2022 and CR800ENT-2023 bike owner''s manuals print the same WARNING at
+    the head of their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 5, and
+    the CU800ENT-2024 manual on its ELECTRICAL SAFETY page, printed page 6. CS800-2016
+    (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md lines
+    418-447, in spirit-stepper-cs800-2016-service-manual. The sentence opens its 7-2
+    Important Electrical Instructions.'
   extracted_at: '2026-09-09'
 ---
 
@@ -269,3 +277,9 @@ the two 2024 steppers. **The self-powered CE800-2024, CR800-2024 and CU800-2024 
 rule for the same job**: do not service the machine while the generator is spinning
 (`spirit-ce-safety-generator-produces-ac-power`). The CSC900-2024 and the CRW800-2024 rower print
 neither.
+
+**The CS800-2016 (XS200-SS003) stepper service manual prints the sentence word for word** as the first line of its 7-2
+Important Electrical Instructions, under a `WARNING!` heading: `NEVER remove any cover without first disconnecting AC
+power.` It is the one service manual of the 2026-09-11 rower, climber and stepper wave that carries this rule; the
+CRW800-2016, XRW600-2019 and CRS800S-2021 books print the GFCI and circuit-breaker paragraphs in that position instead,
+and the CS800-2021 and XS895 books have no safety chapter. No exception, no waiting time and no discharge figure.

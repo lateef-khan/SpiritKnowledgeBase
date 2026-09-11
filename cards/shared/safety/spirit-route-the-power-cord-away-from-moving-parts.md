@@ -6,8 +6,8 @@ question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT8
   or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill,
   a Spirit CE850 commercial elliptical, a Spirit XE395-2023 elliptical, a 2016 Spirit
   XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a Spirit XE795-2023 elliptical,
-  a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, or a Spirit
-  CVC800 climber?
+  a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, a Spirit CVC800
+  climber, a Spirit CRW800-2016 or XRW600 rower, or a Spirit CRS800S-2021 stepper?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -32,6 +32,8 @@ facets:
   - ce850-2016
   - ce850-2020
   - cr800ent-2024
+  - crs800s-2021
+  - crw800-2016
   - ct800-2012
   - ct800-2016
   - ct800-2020
@@ -62,6 +64,7 @@ facets:
   - xe795-2023
   - xe895-2016
   - xg400-2016
+  - xrw600-2019
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -125,7 +128,17 @@ source:
     14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
     (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
     30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
-    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635. Three more
+    Dyaco service manuals print the sentence as the second half of the GFCI bullet
+    in 7.2: CRW800-2016 (CW800-YR001) service manual: 7 Product Safety Instructions,
+    PDF p. 29 (printed 29), text.md lines 371-398, in spirit-rower-crw800-2016-service-manual.
+    XRW600-2019 (DW400-YR002) service manual: 7 Product Safety Instructions, PDF p.
+    29 (printed 29), text.md lines 369-389 and OCR supplement lines 1229-1264, in
+    spirit-rower-xrw600-2019-service-manual. CRS800S-2021 (2020 ver.) service manual:
+    7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md lines 296-336,
+    in spirit-stepper-crs800s-2021-service-manual. All four pages were also read from
+    110 dpi renders; the XRW600 page prints the word Rower highlighted in yellow where
+    the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -258,3 +271,15 @@ print it on a self-powered machine with no cord to route
 (`xe795-2023-safety-outlet-220-volt-15-amp`). The transport wheels and the pedal arms are the moving
 parts that apply to all nine. The XE395-2023 owner's manual trimmed the sentence to `including the
 transport wheels` (the section above); none of these service manuals did.
+
+## Two rower and one stepper service manual print the treadmill sentence
+
+**The CRW800-2016 (CW800-YR001) and XRW600-2019 (DW400-YR002) rower service manuals and the CRS800S-2021 stepper service
+manual print it inside the GFCI bullet**, where the CT850 service manuals had it, with `elliptical`, `Rower` and
+`climber`:
+
+> Route the power cord away from any moving part of the Rower including the elevation mechanism and transport wheels..
+
+**None of the three has an elevation mechanism.** The rowers' moving parts are the seat on its rail, the folding rail
+and the flywheel; the recumbent stepper's are its pedal arms and swivel seat. The transport wheels are named and do
+apply. The double full stop is printed. The CS800-2016 (XS200-SS003) service manual prints no cord-routing sentence.

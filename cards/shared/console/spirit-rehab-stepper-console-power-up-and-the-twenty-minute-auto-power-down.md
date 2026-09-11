@@ -41,7 +41,8 @@ see_also:
 - spirit-rehab-stepper-console-set-up-key-position-by-height-and-the-track-or-step-graph
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 21, Power on; the 7.0S-2025 prints the same passage on its printed p. 23, POWER ON & CONSOLE OPERATION and the 7.5S-2025 on its printed p. 25
+  locator: MS300-2021 printed p. 21, Power on; the 7.0S-2025 prints the same passage on its printed p. 23, POWER ON & CONSOLE OPERATION and the 7.5S-2025 on its printed p. 25.
+    7.5S (RS9600-SS021-01) service manual 5.2.1 Maintenance menu, Functions / Sleep, PDF p. 11, text.md lines 100-101, which prints a different figure
   extracted_at: '2026-09-10'
 ---
 
@@ -70,3 +71,10 @@ to leave the main power switch on in sleep mode.
 
 **Neither the count nor the wording changed between 2021 and 2025.** The MS300-2021 paragraph and the
 7.0S and 7.5S paragraphs of 2025 are the same text with the machine's name substituted.
+
+**The 7.5S service manual prints thirty, not twenty.** Its maintenance-menu Sleep entry reads *"When
+set to 'on' the console will go to sleep after 30 minutes of inactivity"*
+(`spirit-rehab-stepper-console-maintenance-menu-with-a-five-window-sensor-test`), against the 20
+minutes every owner's manual on this card prints for the automatic power-down. The service manual
+has no power-on paragraph of its own - its Basic Functions section says "Refer to the user manual" -
+so the two figures never meet in one document. Quote the document in front of you.

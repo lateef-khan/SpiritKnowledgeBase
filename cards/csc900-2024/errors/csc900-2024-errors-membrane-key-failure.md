@@ -37,11 +37,17 @@ see_also:
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: 'CSC900 2024: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table
-    on printed page 35; that page is a flat picture with no text layer and was read from
-    the rendered page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
-    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 8 on printed
-    page 34 (PDF page 36), read from the native text layer and confirmed against a 400
-    dpi render.'
+    on printed page 35; that page is a flat picture with no text layer and was read
+    from the rendered page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s
+    manual, spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED
+    row 8 on printed page 34 (PDF page 36), read from the native text layer and confirmed
+    against a 400 dpi render; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 6, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row 8, PDF p. 8 - the page
+    is a flat picture (text.md lines 123-128 hold only the heading; OCR supplement
+    lines 428-505) and was read from a 200 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -75,3 +81,7 @@ If the screen is dark as well, that is the power row instead - and the two machi
 **different voltages** for it, so use the caller's own book:
 `csc900-2024-errors-console-does-not-light-up-after-power-on` for the CSC900 2024,
 `csc880-2025-errors-console-does-not-light-up-24v-and-12v-checks` for the CSC880 2025.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 6 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.
+
+**The CSC880 service manual prints this row word for word**, as row 8 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row (this is the CSC880 half of the card).

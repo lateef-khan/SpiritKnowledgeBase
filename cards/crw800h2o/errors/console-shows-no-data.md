@@ -39,13 +39,16 @@ see_also:
 - crw800h2o-console-shows-no-pulse-data
 - spirit-water-rower-errors-inconsistent-split-time-and-stroke-rate
 - spirit-rower-errors-no-error-codes-printed
+- crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets
 source:
   ref: spirit-rower-crw800h2o-service-manual
-  locator: 'CRW800H2O service manual, Section 2 Q&A, Console Error, page 21; and the
+  locator: CRW800H2O service manual, Section 2 Q&A, Console Error, page 21; and the
     TROUBLESHOOTING table row "The console screen illuminates, but does not register
-    when rowing" in the CRW800H2O 2021 owner''s manual printed page 34 and the CRW900
-    2021 owner''s manual printed page 53, both read from a 300 dpi render as well as
-    the text layer.'
+    when rowing" in the CRW800H2O 2021 owner's manual printed page 34 and the CRW900
+    2021 owner's manual printed page 53, both read from a 300 dpi render as well as
+    the text layer; CRW900 service manual 1.3 Trouble with console, "The console screen
+    illuminates, but does not register when rowing", PDF p. 14, text.md lines 95-101,
+    and 1.1 Speed Sensor Troubleshooting, PDF p. 4-5, text.md lines 31-49
   extracted_at: '2026-09-08'
 ---
 
@@ -84,3 +87,5 @@ to check, and **neither water rower prints an error code anywhere**
 (`spirit-rower-errors-no-error-codes-printed`).
 
 The service manual covers the CRW800H2O only; the CRW900 contributes the owner's manual row.
+
+**For the CRW900 the sensor gap does have a figure - in the service manual.** Its *Trouble with console* page repeats the owner's-manual row word for word (loose or failed connection; sensor gap too wide; check the computer lead, check the sensor gap), and its speed sensor page gives the checks in order: the gap between sensor and magnetic ring **2-3mm**, all **six** magnets present and flush, and the sensor head not receded more than a few millimetres into its hole (`crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets`). That figure is printed for the CRW900 only; the CRW800H2O service manual has no speed sensor page.

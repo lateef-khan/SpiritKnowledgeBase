@@ -38,12 +38,14 @@ see_also:
 - crw800h2o-console-shows-no-display
 - spirit-water-rower-errors-tank-water-turns-cloudy
 - spirit-rower-errors-no-error-codes-printed
+- crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets
 source:
   ref: spirit-rower-crw900-2021-owners-manual
   locator: 'TROUBLESHOOTING table, the "Inconsistent readings" row: CRW900 2021 owner''s
     manual printed page 53 (PDF page 53); CRW800H2O 2021 owner''s manual printed page
     34 (PDF page 34). Both pages were read from a 300 dpi render as well as the text
-    layer, and the two agree.'
+    layer, and the two agree; CRW900 service manual 1.1 Speed Sensor Troubleshooting,
+    PDF p. 4-5, text.md lines 31-49'
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +71,5 @@ no test to tell them apart.
 **This is a reading that is present but wrong.** A console that is lit and shows nothing at all is
 a different row of the same table, and the sensor gap appears there too as `Sensor gap too wide` -
 see `crw800h2o-console-shows-no-data`.
+
+**The CRW900 service manual does print a gap figure: 2-3 mm between the sensor and the magnetic ring**, with two further checks the owner's manual lacks - all six magnets present and flush, and the sensor head not receded into its housing (`crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets`). The back-cover gauge remains the owner's-manual method; the millimetre figure is the service manual's, and it is printed for the CRW900 only. The CRW800H2O service manual has no speed sensor page and no figure.

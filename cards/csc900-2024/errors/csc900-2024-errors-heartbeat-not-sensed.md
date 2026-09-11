@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-heartbeat-not-sensed
-title: The grips read no heartbeat, and the hand pulse wire is tested for DC volts at the seat
+title: The grips read no heartbeat, and the hand pulse wire is tested for DC volts
+  at the seat
 kind: troubleshooting
 question: Why does a Spirit CSC900-2024 stairclimber not read my heart rate from the
   grips?
@@ -36,9 +37,12 @@ see_also:
 - spirit-hand-pulse-not-working
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed page
-    35. That page is a flat picture with no text layer and was read from the rendered
-    page at 500 dpi.
+  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed
+    page 35. That page is a flat picture with no text layer and was read from the
+    rendered page at 500 dpi; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 9, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -65,3 +69,5 @@ reading has nothing in this manual to work from, and the row above answers only 
 comparable rows for the rest of the range are `spirit-wireless-chest-belt-no-pulse` and
 `spirit-erratic-pulse-display`; neither was written for this machine and neither should be quoted as
 if it were.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 9 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.

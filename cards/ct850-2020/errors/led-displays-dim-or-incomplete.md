@@ -33,6 +33,8 @@ facets:
   - ce900-2025
   - cr900-2018
   - cr900-2025
+  - cs800-2016
+  - cs800-2021
   - cs800-2024
   - ct800-2020
   - ct850-2020
@@ -66,7 +68,10 @@ source:
     7-5 Troubleshooting procedure matrix, PDF p. 3 (printed 2), text.md lines 39-64;
     CE850 (2020) service manual 8-7 Troubleshooting procedure matrix, PDF p. 49-50,
     text.md lines 852-909; CE900 (SE8800-SE026, ce900-2021) service manual Troubleshooting
-    procedure matrix, PDF p. 32, text.md lines 530-562
+    procedure matrix, PDF p. 32, text.md lines 530-562; CS800 (2020) service manual
+    7-7 Troubleshooting procedure matrix, second row, PDF p. 33 (printed 32), text.md
+    line 533; CS800 2016 (XS200-SS003) service manual Troubleshooting procedure matrix,
+    second row, PDF p. 41, text.md line 606
   extracted_at: '2026-09-08'
 ---
 
@@ -103,3 +108,5 @@ version: `cu900ent-tft-displays-not-bright`.
 **The CU900 2018 and CR900 2018 service manuals print this row word for word**, and **the JB950 2022 Johnny G bike prints it with the condition shortened** to `LED displays incomplete or imperfect` - same reason, same one-line fix, a new console. The row above it on the JB950 is its own: `jb950-2022-errors-leds-not-bright-enough-30-v-at-30-rpm`.
 
 **Four elliptical service manuals print this row word for word** - `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`: the CE800 2016 (titled XE890B-AE10M), the CE800 (2020) book (`ce800-2021`), the CE850 (2020) and the CE900 (SE8800-SE026, `ce900-2021`). None of the four mixes the nouns the way the CR800 and CU800 bikes do.
+
+**Both CS800 service manuals print this one-line row about LEDs** - the CS800 (2020) as `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`, the CS800 2016 (`XS200-SS003`) as `LED displays not bright, incomplete or imperfect / LED broken / Replace with new console`.

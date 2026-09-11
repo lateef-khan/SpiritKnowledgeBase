@@ -1,7 +1,7 @@
 ---
 id: spirit-climber-specs-no-specification-table
 title: No specification table in eleven stepper, stair climber and vertical climber
-  owner's manuals, and the figures printed instead
+  owner's manuals or seven of their service manuals, and the figures printed instead
 kind: fact
 question: Where are the dimensions, machine weight, shipping weight, flywheel weight
   and step height for a Spirit stepper, stair climber or vertical climber?
@@ -29,6 +29,7 @@ facets:
   applies_to:
   - crs800s-2021
   - crs800s-2024
+  - cs800-2016
   - cs800-2021
   - cs800-2024
   - csc880-2025
@@ -55,11 +56,13 @@ see_also:
 - cs800-2024-specs-parts-list
 source:
   ref: spirit-climber-cs800-2024-owners-manual
-  locator: Table of Contents printed p. 1 and whole document; the same absence was
-    re-checked in the CRS800S-2024 and CSC900-2024 owner's manuals, and then in eight
-    more - XS895-2018, XS895-2021, CSC900-2019, CSC900-2021, CRS800S-2021, CS800-2021,
-    CVC800-2021 and CSC880-2025 - each at its own Table of Contents and throughout,
-    including every OCR supplement in the ingested text
+  locator: "Table of Contents printed p. 1 and whole document; the same absence was re-checked in
+    the CRS800S-2024 and CSC900-2024 owner's manuals, and then in eight more - XS895-2018,
+    XS895-2021, CSC900-2019, CSC900-2021, CRS800S-2021, CS800-2021, CVC800-2021 and
+    CSC880-2025 - each at its own Table of Contents and throughout, including every OCR
+    supplement in the ingested text. Service manuals: CRS800S, CS800 2016 (XS200-SS003),
+    CS800(2020), XS895 (XS300B-YS006), CSC880, CSC900 V1.0 and CSC900 2022, whole documents
+    with their OCR supplements; loose-word greps for specif, dimension, weight, kg and lb"
   extracted_at: '2026-09-10'
 ---
 
@@ -142,3 +145,17 @@ of 2025 their weight limit is the lowest in the family, theirs are the only book
 with a clearance dimension, the only ones with no stated circuit rating, and the
 only ones with no usable parts list. **The CSC880-2025 drops the limit again, to
 330 lb** - 120 lb below the CS800's. Read a stair climber from its own book.
+
+## The service manuals print none either
+
+Seven service manuals for these machines are in the repository - CRS800S, CS800 (2016, book
+XS200-SS003, the `cs800-2016`), CS800 (2020), XS895, CSC880, CSC900 V1.0 and CSC900 2022 - and
+**none prints a specification table, a dimension or a machine weight**. *Weight* occurs in them
+only as the console's age-and-weight prompt and a belt-slip cause; *specification* only in
+"make sure the product type and specification match" and the 2016 CS800's operating-temperature
+line. What they add instead is electrical: belt-tension figures, motor voltages, board sockets
+and pin definitions - see `spirit-climber-specs-drive-belt-tension-figure-by-service-manual`,
+`spirit-crs800s-cs800-2021-specs-electrical-configuration-ecb-brake-with-no-voltage-printed` and
+`spirit-csc880-csc900-2024-specs-wire-diagram-2022-magnetic-system`. The 7.5S and 8.5S
+rehabilitation steppers' service manuals are likewise table-free, but those machines' owner's
+manuals do print a specification page.

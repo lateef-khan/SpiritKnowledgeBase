@@ -7,7 +7,8 @@ question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a S
   treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential
   machine, a 2016 Spirit XE195, XE295, XE395, XE795, XG400 or XE895 elliptical, a
   Spirit XE795-2023 elliptical, a Spirit XBR or XBU residential bike of the 2016 or
-  2023 generation, or a Spirit CS800, CVC800, XS895 or 8.5S-Fit climber, and how?
+  2023 generation, a Spirit CS800, CRS800S, CVC800, XS895 or 8.5S-Fit climber, or
+  a Spirit CRW800-2016 or XRW600 rower, and how?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -32,6 +33,9 @@ facets:
   - ce850-2020
   - ce850-2022
   - ce850-2024
+  - crs800s-2021
+  - crw800-2016
+  - cs800-2016
   - cs800-2021
   - cs800-2024
   - ct800-2012
@@ -65,6 +69,7 @@ facets:
   - xe895-2018
   - xg400-2016
   - xg400-2021
+  - xrw600-2019
   - xs895-2018
   - xs895-2021
   - xt185-2015
@@ -131,7 +136,19 @@ source:
     14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
     (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
     30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
-    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635. Four more
+    Dyaco service manuals print the paragraph under Important Grounding Instructions
+    with the plug and adapter drawing: CRW800-2016 (CW800-YR001) service manual: 7
+    Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 371-398, in
+    spirit-rower-crw800-2016-service-manual. XRW600-2019 (DW400-YR002) service manual:
+    7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 369-389 and
+    OCR supplement lines 1229-1264, in spirit-rower-xrw600-2019-service-manual. CRS800S-2021
+    (2020 ver.) service manual: 7 Product Safety Instructions, PDF pp. 24-25 (printed
+    24-25), text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual.
+    CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md
+    lines 418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were
+    also read from 110 dpi renders; the XRW600 page prints the word Rower highlighted
+    in yellow where the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -314,3 +331,20 @@ mention no adapter; the XE195-2016, XE295-2016, XE795-2016 and XE795-2023 servic
 permission in full. The XG400-2016 service manual prints it too, two printings before the
 XG400-2021 owner's manual gained the page. The two XE795 books print it on a self-powered machine
 with no plug to adapt (`xe795-2023-safety-outlet-220-volt-15-amp`).
+
+## Two rower and two stepper service manuals print the paragraph
+
+**The CRW800-2016 (CW800-YR001), XRW600-2019 (DW400-YR002), CRS800S-2021 and CS800-2016 (XS200-SS003) service manuals
+print it word for word** with the plug and adapter drawing beside it - the CRW800, XRW600 and CS800 books spelling the
+tab `earlug`, the CRS800S book `earplug`. The same three conditions apply: temporary use only, the tab connected to a
+permanent ground, and the adapter held in place by a metal screw.
+
+**Two of the four also forbid an adapter, and two do not.** The CRW800-2016 and CRS800S-2021 books print the safety
+bullet `Do not attempt to disable the grounded plug by using improper adapters`, so they forbid and permit in two places
+as the CT850 chapter does. The XRW600 book has no safety block, and the CS800-2016 book's 7-1 has no adapter sentence,
+so in those two the permission stands alone.
+
+**That overturns the statement above for the CRS800S**: its owner's manuals have no grounding page and no adapter
+permission (`spirit-2024-safety-outlet-110-volt-15-amp-stepper`); its 2021 service manual prints the permission in full.
+The CRW800-2021 and CRW800-2024 owner's manuals describe a battery-powered rower with no plug to adapt
+(`crw800-2024-safety-console-runs-on-two-c-batteries`); the 2016 service manual is for the earlier, adapter-fed machine.

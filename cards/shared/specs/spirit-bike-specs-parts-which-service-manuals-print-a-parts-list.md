@@ -29,6 +29,7 @@ facets:
   applies_to:
   - ab900-2018
   - cic850-2022
+  - cr1000ent-2023
   - cr800-2009
   - cr800-2021
   - cr800ent-2023
@@ -70,15 +71,15 @@ see_also:
 - spirit-cr800-specs-parts-list-2021-vs-2023
 source:
   ref: spirit-bike-xbr25-xbr55-2007-service-manual
-  locator: XBR25 Part List PDF pp. 13-15, text.md lines 425-573, and XBR55 Part List
+  locator: 'XBR25 Part List PDF pp. 13-15, text.md lines 425-573, and XBR55 Part List
     PDF pp. 17-20, lines 580-747; each of the other twenty-three books was searched
     in its native text and OCR supplements for "part list", "parts list", "exploded",
-    "part no", "P#", "item" and six-digit numbers, and read through to its last page
+    "part no", "P#", "item" and six-digit numbers, and read through to its last page. CR1000ENT (spirit-rower-cr1000ent-2023-service-manual): 1. Outlines PDF p. 4, text.md lines 103-109 with the table read from a 300 dpi render (OCR supplement lines 1021-1076); the book was read to its last page, PDF p. 41, and searched the same way'
   extracted_at: '2026-09-11'
 ---
 
-**Twenty-four Spirit bike service manuals were read to their last page. One prints a parts list with Spirit
-part numbers: the 2008 Spirit Manufacturing dealer manual for the XBR25 and XBR55.** Four more print a
+**Twenty-five Spirit bike service manuals were read to their last page. One prints a parts list with Spirit
+part numbers: the 2008 Spirit Manufacturing dealer manual for the XBR25 and XBR55.** Five more print a
 table of callout names with no numbers to order, and nineteen print nothing that resembles a parts list.
 
 | Book | Exploded view | Parts list | Card |
@@ -88,6 +89,7 @@ table of callout names with no numbers to order, and nineteen print nothing that
 | CU900 (SU8800) 2018 | a drawing of the covers only | a 20-row Component Description table, identical to the CU900ENT one, no part numbers | `cu900ent-component-callout-numbers` |
 | JB950 2022 | a captioned drive-system drawing | fifteen numbered names under the drawing, no part numbers | `jb950-2022-specs-parts-drive-system-callouts` |
 | CU1000ENT 2023 | a numbered drawing of the covers on its Outlines page | a 20-row Item / description table beside it (screen covers, keyboard, chin covers, side cases, electronic module, pedal, release lever), no part numbers |  |
+| CR1000ENT 2023 (filed under Rowers) | a numbered drawing of the covers on its Outlines page | a 27-row Item / description table beside it (screen covers, keyboard cover, console chin and mast covers, shrouds, beam cover, stabilizer covers, seat back cover, drink bottle holders, handpulse assemblies, pedal, release lever, AC switch cover), no part numbers |  |
 | CR800 (2020), CU800 (2020), CR800ENT, CU800ENT | none | none |  |
 | CU800 (XU878) 2012, CR800 (XR898) 2009 | none | none | `cr800-2009-specs-parts-no-electronic-parts-chapter-tool-list-or-parts-list` |
 | XBR25, XBR55, XBR95, XBU55 2016 | none | none |  |

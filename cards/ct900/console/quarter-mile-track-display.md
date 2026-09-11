@@ -50,7 +50,8 @@ see_also:
 source:
   ref: ct900-om
   locator: p. 18; CE800 (2020) service manual 4-2-4 1/4 MILE TRACK, PDF p. 15 (printed
-    14), text.md lines 267-270
+    14), text.md lines 267-270.
+    CRS800S (2020 ver.) service manual 1/4 MILE TRACK, PDF p. 13 (printed 13), text.md lines 183-185; CS800 (2020) service manual 4-2-4 1/4 MILE TRACK, PDF p. 15 (printed 14), lines 264-267
   extracted_at: '2026-08-24'
 ---
 
@@ -111,3 +112,7 @@ CRS800S-2021 printed p. 20 and CS800-2021 printed p. 19, headed 1/4 MILE TRACK. 
 find it named.
 
 **The CE800 (2020) service manual prints this paragraph word for word** in its Product Operation chapter - the 0.4 km track around the dot matrix window, the flashing dot, and the lap counter in the centre.
+
+**The CRS800S (2020 ver.) and CS800 (2020) stepper service manuals print this paragraph word for
+word** in their Product Operation chapters - the 0.4 km track around the dot matrix window, the
+flashing dot, and the lap counter in the centre.

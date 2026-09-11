@@ -2,7 +2,10 @@
 id: xt-2023-safety-supply-voltage-variation
 title: Supply voltage that varies by ten percent or more
 kind: policy
-question: What happens if the supply voltage to a 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), to a 2026 Spirit 7.0T or 8.0T treadmill, or to a Spirit XE residential elliptical, is low or varies?
+question: What happens if the supply voltage to a 2015 or 2023 Spirit XT treadmill
+  (XT185, XT285, XT385, XT485, XT685), to a 2026 Spirit 7.0T or 8.0T treadmill, to
+  a Spirit XE residential elliptical, or to a Spirit CS800-2016 stepper, is low or
+  varies?
 asked_as:
 - my treadmill acts weird when the voltage drops
 - does low voltage damage the treadmill
@@ -30,6 +33,7 @@ facets:
   - cr800ent-2023
   - cr800ent-2024
   - crs800s-2024
+  - cs800-2016
   - cs800-2024
   - ct800-2024
   - ct800ent-2024
@@ -86,14 +90,17 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page
-    on page 7. The five 2015 XT owner's manuals print it on their Important Electrical
-    Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The 2026 7.0T and 8.0T
-    owner's manuals print it on their ELECTRICAL SAFETY page, page 6. The two Spirit MT200
-    owner's manuals print it on their Important Electrical Information page, 2010 page 5 and
-    2022 page 8 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the same
-    sentences on their IMPORTANT ELECTRICAL INSTRUCTIONS block, printed page 5, and the
-    CU800ENT-2024 manual on its ELECTRICAL SAFETY page, printed page 6
+  locator: 'page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print
+    the same page on page 7. The five 2015 XT owner''s manuals print it on their Important
+    Electrical Instructions page (XT185/XT285/XT485 page 5, XT385/XT685 page 6). The
+    2026 7.0T and 8.0T owner''s manuals print it on their ELECTRICAL SAFETY page,
+    page 6. The two Spirit MT200 owner''s manuals print it on their Important Electrical
+    Information page, 2010 page 5 and 2022 page 8 The CU800ENT-2022 and CR800ENT-2023
+    bike owner''s manuals print the same sentences on their IMPORTANT ELECTRICAL INSTRUCTIONS
+    block, printed page 5, and the CU800ENT-2024 manual on its ELECTRICAL SAFETY page,
+    printed page 6. CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30
+    (printed 30), text.md lines 418-447, in spirit-stepper-cs800-2016-service-manual.
+    The paragraph follows the cover-removal sentence in 7-2.'
   extracted_at: '2026-09-09'
 ---
 
@@ -228,3 +235,9 @@ the two 2024 steppers. **The other five print no voltage statement at all**: the
 CE800-2024, CR800-2024 and CU800-2024, the battery-powered CRW800-2024 rower, and the CSC900-2024,
 which states its supply on its safety page instead
 (`csc900-2024-safety-outlet-120-or-230-volt`, `ct900ent-operating-environment-voltage`).
+
+**The CS800-2016 (XS200-SS003) stepper service manual prints the paragraph word for word**, with `your fitness climber`
+where the XT books say `your unit`: ten percent or more, performance affected, not covered under warranty, and the power
+company or a licensed electrician to test. The nominal circuit that book names is `120-volt (230-volt)`
+(`spirit-ct800-safety-outlet-120-volt-15-amp`), not the 110 volt of the XT manuals. It is the only service manual of the
+2026-09-11 rower, climber and stepper wave that prints this paragraph.

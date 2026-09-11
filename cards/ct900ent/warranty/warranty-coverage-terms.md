@@ -37,11 +37,12 @@ see_also:
 - ct900ent-facility-responsibilities
 - ct900ent-exclusions
 - ct900ent-obtaining-service
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: ct900ent-om
   locator: 'p. 50. The same table and the prisons footnote are printed in the CT900ENT
     owner''s manual PDF, spirit-treadmill-ct900ent-owners-manual text.md lines 1124-1135,
-    p. 50. All four figures verified unchanged against that PDF on 2026-09-09'
+    p. 50. All four figures verified unchanged against that PDF on 2026-09-09. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the same four figures for the CT900ENT under COMMERCIAL (ALL FACILITIES).'
   extracted_at: '2026-08-24'
 ---
 
@@ -63,3 +64,9 @@ The PDF prints the Parts figure as "3 **Year**", singular, in a row that reads "
 **This is not the CT900 table and not the CTSBS900 one.** The CT900 prints three rows with a Deck and a Wear Items column and a frame period of 10 Years, not Lifetime; the CTSBS900 prints one Commercial (Dues Paying Facilities) row with Frame 10 Years and Motor 5 Years. No figure in this table appears in either of theirs.
 
 **Prisons and correctional facilities are excluded from warranty coverage.**
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the same four figures for the CT900ENT** - Frame Lifetime, Motor 10
+Years, Parts 3 Years, Labor 3 Years - and puts them under a heading the manual does not use,
+**COMMERCIAL (ALL FACILITIES)**, which on the sheet includes a dues-paying gym. The sheet
+carries the same prisons exclusion and defers to the manual for everything else:
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms`.

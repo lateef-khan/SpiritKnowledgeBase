@@ -49,7 +49,10 @@ source:
     MACHINE CARE - CONTINUED - SCHEDULE, printed p. 32 (PDF p. 34); there the table is native
     text, and it was checked cell by cell against a 200 dpi render of the page, which agrees.
     The two tables match at difflib word level 0.997 - nine rows, five intervals, the same
-    marks, and the same unplug line'
+    marks, and the same unplug line. The two service manuals were searched on 2026-09-11 for lubric, grease, oil,
+    chain, sprocket, schedule, weekly and monthly: spirit-climber-csc900-2024-service-manual (14 pages) and
+    spirit-climber-csc880-2025-service-manual (14 pages), every page rendered by the ingest sweep; the only hits are
+    the three Maintenance Cautions lines (p. 3 in each) and "drive chain" in the part descriptions'
   extracted_at: '2026-09-10'
 ---
 
@@ -92,7 +95,10 @@ Switch row blank. See `cs800-2024-maintenance-machine-care-schedule` and
 - **No USB Port row**.
 - **Nothing for the staircase drive.** The Steps row covers cleaning and inspecting the steps
   themselves; the chain, belt or drive that rotates them is not a row and has no interval in this
-  manual.
+  manual. **The two service manuals do not fill the gap**: the CSC900 2022 (magnetic-system) book and the
+  CSC880 book have no maintenance chapter, no lubrication step and no interval; their *Maintenance Cautions*
+  pages are three lines about switching off, using original parts and cleaning debris off a part before it is
+  refitted.
 
 ## The CSC880 2025 prints the same nine rows
 

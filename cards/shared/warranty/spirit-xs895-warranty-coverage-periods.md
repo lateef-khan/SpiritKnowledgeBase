@@ -40,10 +40,11 @@ see_also:
 - spirit-climber-warranty-use-environment
 - spirit-ce850-warranty-exclusions
 - xt-2023-warranty-owner-costs
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-climber-xs895-2018-owners-manual
   locator: 'Incline Stepper Warranty table, printed p. 36 of both manuals: xs895-2018
-    text.md lines 1232-1234, xs895-2021 text.md lines 1165-1167'
+    text.md lines 1232-1234, xs895-2021 text.md lines 1165-1167. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the XS895 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame 5 Years, Parts 3 Years, Labor 1 Year - a frame period the manuals do not print.'
   extracted_at: '2026-09-10'
 ---
 
@@ -57,6 +58,17 @@ source:
 **The brake is the row that matters.** At home it is covered for the life of the machine; in a facility, for five years. No other column changes that steeply between rows.
 
 **Labor is 1 Year in both rows.** This is not the two years the CRS800S, CS800 and CVC800 give (`spirit-climber-2021-warranty-coverage-periods`) and not the three the CSC900 gives (`spirit-csc900-warranty-commercial-periods`). Do not carry a labor figure between Spirit climbers.
+
+## The 2019 warranty sheet gives the frame five years, not lifetime
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, warrants the XS895 frame for 5 Years** in its non-dues-paying tier, with
+Parts 3 Years and Labor 1 Year and no brake column. **Both XS895 manuals, before and after that
+date, warrant the frame for Lifetime in the same row.** Parts and labor agree; the frame does
+not, and neither document mentions the other. It is one of two frame periods on the sheet that
+a machine's own manual contradicts - the other is the CT900's. The sheet also puts no five-hour note against the XS895,
+though it prints one against the XT685, XE795 and XBR95 and the XS895 manuals carry the same
+five-hour label. Quote the document the customer holds and say the other exists:
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.
 
 **The row label is a condition, not a description.** *Light Commercial* here means five hours of use or less per day in a facility that charges no dues. A gym that charges dues has no row of periods at all, and exclusion 8 bars any environment outside those two: `spirit-climber-warranty-use-environment`.
 

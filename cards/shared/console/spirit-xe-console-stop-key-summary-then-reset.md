@@ -72,7 +72,8 @@ source:
     BASIC INFORMATION, PDF pp. 5-6 (printed 5-6), text.md lines 88-99; XBU55-2023
     PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96; XE795-2023 (XE815A-SE048)
     service manual 4.1 Basic Operation, Basic Information, PDF p. 7 (printed 7), text.md
-    lines 122-127
+    lines 122-127.
+    XS895 (XS300B-YS006) service manual 4-2-8 Basic Information, PDF p. 13 (printed 12), text.md lines 216-220
   extracted_at: '2026-09-09'
 ---
 
@@ -132,3 +133,8 @@ or three-second hold that resets and the Workout Summary of Total time, Avg. Spe
 Avg. HR.
 
 **The XE795-2023 service manual prints the Stop key paragraph without the reset.** Its Basic Information row has the five-minute pause, Start to resume, and Stop twice ending on the Workout Summary (Total time, Avg. Speed, Avg. Power, Avg. HR, total Laps) - and stops there, with no three-second hold, no third press and no Previous Screen function. The owner's manual for the same machine prints all four jobs.
+
+**The XS895 (XS300B-YS006) service manual prints all four Stop jobs word for word** - the
+five-minute pause with Start to resume, two presses ending on the Workout Summary (Total time, Avg.
+fpm, total floors, Avg. HR, total Laps), a third press or a three-second hold for a complete Reset,
+and previous screen or segment during data entry.

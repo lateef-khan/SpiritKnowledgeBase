@@ -34,13 +34,21 @@ not_to_be_confused_with:
 - spirit-xe-2021-programs-five-presets-and-ten-programs
 - spirit-stepper-programs-five-programs-claimed-and-which-are-described
 - cvc800-program-buttons
+- spirit-stepper-programs-hiit-on-the-stepper
 see_also:
 - xs895-programs-heart-rate-keys-of-sixty-and-eighty-percent
 - xs895-programs-what-each-preset-profile-does-including-the-incline
 - xs895-programs-user-programs-set-twenty-resistance-then-twenty-stride-levels
 source:
   ref: spirit-climber-xs895-2018-owners-manual
-  locator: XS895 2018 printed pp. 19-27; XS895 2021 pp. 19-27
+  locator: 'XS895 2018 printed pp. 19-27; XS895 2021 pp. 19-27. XS895 service manual, the
+    XS300B-YS006 book (spirit-stepper-xs895-2021-service-manual): 4-3 Function Button
+    Locations, PDF p. 15 (printed 14), text.md lines 258-279 and the OCR supplement at
+    lines 1179-1193, the key legend read from a 110 dpi render of the console picture;
+    4-2-9 Program Keys, PDF pp. 13-14 (printed 12-13), lines 222-228; 4-2-11 Heart Rate
+    % Profile, PDF p. 14, lines 246-250. Engineering-mode video
+    (spirit-stepper-xs895-engineering-mode-odo-reset-video), the key row read from the
+    frames, text.md lines 9-10 (both extracted 2026-09-11)'
   extracted_at: '2026-09-10'
 ---
 
@@ -61,6 +69,19 @@ counted separately, as that sentence does. Both are recorded as printed.
 Program keys **preview** a profile: pressing a key from the start-up display draws that program's
 profile so you can look at it; pressing **Enter** afterwards actually selects the program and enters
 data-setting mode.
+
+**The service manual's key callout says HIIT where every key legend says INTERVAL.** The XS895
+service manual (the XS300B-YS006 book, one book for both printings) captions its Function Button
+Locations picture *"PROGRAM BUTTONS (Manual, Hill, Fat Burn, Cardio, Strength, HIIT, 2User, 2HR)"*
+- ten keys, the same count as this card. But the key row printed on the console in that same
+picture reads **MANUAL, HILL, FAT BURN, CARDIO, STRENGTH, INTERVAL, USER 1, USER 2, HR 1, HR 2**,
+the owner's manuals call the sixth preset Interval, and the console filmed in the engineering-mode
+video carries a key labelled INTERVAL between STRENGTH and USER 1. The callout is the only place
+the word HIIT appears for this machine; treat the sixth key as **Interval**. The CS800's HIIT is a
+different program on a different console - see `spirit-stepper-programs-hiit-on-the-stepper`. The
+service manual repeats the "any of the 10 programs" sentence on its Heart Rate % Profile page and
+the preview-then-Enter paragraph under Program Keys, word for word with the owner's manuals, and
+prints nothing else about any program.
 
 **The 2018 and 2021 printings are the same book here.** Compared as 8-word phrase shingles over the
 programs chapter they share **91.6%**, and the only substantive difference is that the 2021 printing

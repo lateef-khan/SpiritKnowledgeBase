@@ -42,12 +42,13 @@ see_also:
 - ms300-2021-warranty-period-twenty-four-months
 - ms300-2021-warranty-service-contacts
 - spirit-climber-warranty-effective-dates
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: spirit-climber-ms300-2021-owners-manual
   locator: 'Product warranty page, printed p. 66 (PDF p. 67, text.md lines 3252-3276).
     The page was rendered at 300 dpi and read with tesseract --psm 4: the native extraction
     of this book drops whole bullet lines and interleaves stray digits from a hidden
-    text layer'
+    text layer. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the MS300 beside the MS350, MR100 and MU100 under COMMERCIAL/MEDICAL (ALL FACILITIES) as Frame Lifetime, EMS Brake 5 Years, Parts 3 years, Labor 3 Years, with no wear-items column.'
   extracted_at: '2026-09-10'
 ---
 
@@ -76,3 +77,9 @@ source:
 **Spirit Fitness decides the remedy.** The paragraph gives Spirit Fitness "sole and absolute discretion" over both whether a part is new or remanufactured and how much labor is "deemed necessary". No other manual in this range uses that phrase.
 
 **This manual prints no warranty effective date** - the page is headed simply *Product warranty*, with no *Effective* line, no copyright year and no revision stamp anywhere in the document: `spirit-climber-warranty-effective-dates`.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the same four figures for the MS300 - and for three medical machines
+this knowledge base has no manual for, the MS350, MR100 and MU100** - under a heading
+COMMERCIAL/MEDICAL (ALL FACILITIES), with the EMS Brake column and no Wear Items column. The
+sheet names the MS300 without a year, two years before this manual's printing. See
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms`.

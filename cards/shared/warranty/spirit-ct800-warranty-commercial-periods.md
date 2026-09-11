@@ -50,6 +50,7 @@ see_also:
 - spirit-ct800-warranty-use-environment
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-start-date
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: 'Manufacturer''s Limited Warranty table, p. 25, text.md lines 1098-1099.
@@ -58,7 +59,7 @@ source:
     2022 p. 53 (lines 1209-1210). They are printed again, unchanged, in all four CT850
     owner''s manuals: ct850-2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual text.md
     line 1156), ct850-2018 p. 45 (line 1149), ct850-2020 p. 45 (line 1155), ct850ent-2022
-    p. 53 (line 1216)'
+    p. 53 (line 1216) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CT850ENT, CT850 and CT800 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Motor 5 Years, Parts 5 Years, Labor 2 Years.'
   extracted_at: '2026-09-09'
 ---
 
@@ -90,3 +91,10 @@ source:
 These are **not** the other Spirit commercial figures. The CT900 warrants the frame 10 Years, the motor 5 and the deck 3, and adds a Wear Items column; the CT900ENT warrants the frame Lifetime, the drive motor 10 Years and parts 3 Years; the 2026 4.0T, 7.0T and 8.0T print Parts 5 Years and Labor 1 Year and no frame or motor column at all. None of those tables is this one.
 
 Two things the table does not tell you on its own. When the clock starts is in the paragraph above it (`xt-2023-warranty-start-date`), and the two-year labor figure is dated separately in the SERVICE paragraph two pages later (`spirit-ct800-warranty-labor-period`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these same four figures for the CT850ENT, CT850 and CT800**, named
+without years, on its page headed COMMERCIAL (NON-DUES PAYING FACILITIES) - the sheet's own
+confirmation of the facility reading above - with the column headed *Motor* rather than
+*Motor/Deck* and a four-asterisk note on the CT850ENT for its console periods
+(`ct800ent-2022-warranty-console-periods`). See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

@@ -39,7 +39,8 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-climber-xs895-2018-owners-manual
-  locator: XS895-2018 printed p. 35, the paragraph printed below the Engineering Mode Menu; the XS895-2021 manual prints the same passage on its printed p. 35
+  locator: XS895-2018 printed p. 35, the paragraph printed below the Engineering Mode Menu; the XS895-2021 manual prints the same passage on its printed p. 35.
+    Absence in the XS895 (XS300B-YS006) service manual, searched in full for bluetooth, BT, app and 'display key', native text and OCR supplements; the only hits are the troubleshooting matrix's 'Calibrate the console' (PDF p. 36, lines 558-560)
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +70,9 @@ procedure (`xt-2015-console-spirit-fit-app-pairing`).
 **This is not the CVC800's Bluetooth setting.** That vertical climber holds **Enter for 2 seconds**
 in idle mode and chooses between **APP** and **BLECHESTSTRAP** - a different gesture, a different
 menu and a different machine (`cvc800-bluetooth-app-or-chest-strap`).
+
+**The XS895 (XS300B-YS006) service manual never mentions Bluetooth.** Its engineering-mode page
+ends at Security with no toggle beneath it, its block diagram and display-board wiring pages draw a
+WIRELESS HR receiver, a KEY board, an AMPLIFIER and a FAN but no Bluetooth module, and the words
+bluetooth, BT and app occur nowhere in it. The owner's manuals' Enter-and-Display toggle is
+therefore printed in the owner's manuals alone, and the service manual gives no DISPLAY key either.

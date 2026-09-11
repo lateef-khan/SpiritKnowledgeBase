@@ -25,6 +25,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - xrw600-2019
@@ -41,7 +42,12 @@ see_also:
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: 'CRW800 2024 printed pp. 19-20; CRW800 2021 printed pp. 18-20 (PDF pp. 20-22);
-    XRW600 2019 and 2021 printed pp. 20-23'
+    XRW600 2019 and 2021 printed pp. 20-23. Service manuals (extracted 2026-09-11):
+    CRW800 2021 service manual (spirit-rower-crw800-2021-service-manual) items 3-5,
+    PDF pp. 18-19 (printed 17-18), text.md lines 228-260; CRW800 2016 service manual,
+    CW800-YR001 (spirit-rower-crw800-2016-service-manual), PDF pp. 17-18, lines 211-248;
+    XRW600 2019 service manual, DW400-YR002 (spirit-rower-xrw600-2019-service-manual),
+    PDF pp. 17-18, lines 224-261'
   extracted_at: '2026-09-10'
 ---
 
@@ -57,6 +63,13 @@ sounds with a long beep. If paddling continues, the count-down repeats.**
 
 *The Target Time paragraph opens "The default **distance** is 1:00" - the word distance where time
 is meant. **All four books carry the same slip.** Recorded as printed.*
+
+**The three service manuals - CRW800 2021, CRW800 2016 (CW800-YR001) and XRW600 2019 (DW400-YR002) -
+print the same three modes with the same defaults, increments and maximum, and carry the same
+"default distance is 1:00" slip.** The 2016 CRW800 has no owner's manual in this repository; its
+service manual is what places it on this card. One more slip they share: the Calories paragraph
+ends *"If paddling continues, the **time** count-down repeats"* where the calorie count-down is
+meant.
 
 Under all three modes, **pressing Up or Down adjusts the resistance level**, and the centre of the
 LCD scans every 5 seconds between the stroke-speed wave and the 500M/TIME split - see

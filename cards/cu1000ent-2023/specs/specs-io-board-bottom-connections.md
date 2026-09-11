@@ -3,8 +3,8 @@ id: cu1000ent-2023-specs-io-board-bottom-connections
 title: 'Nine sockets on the console I/O board: USB, ground, console power, internet,
   4-pin C-safe, HDMI, TV, 20-pin keyboard and 8-pin system cable'
 kind: spec
-question: What plugs into the console I/O board on a Spirit cu1000ent-2023 upright
-  bike?
+question: What plugs into the console I/O board on a Spirit CU1000ENT upright or CR1000ENT
+  recumbent 2023 bike?
 asked_as:
 - what cables go into the back of the cu1000 console
 - cu1000ent i/o board connections
@@ -25,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu1000ent-2023
+  model: '*'
   applies_to:
+  - cr1000ent-2023
   - cu1000ent-2023
   section: specs
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - cu900ent-io-board-connections
@@ -40,7 +39,10 @@ see_also:
 - cu1000ent-2023-specs-circuit-diagram
 source:
   ref: spirit-bike-cu1000ent-2023-service-manual
-  locator: Section 6.1 I/O Board Bottom, PDF p. 10 (printed 10), text.md lines 171-202
+  locator: "Section 6.1 I/O Board Bottom, PDF p. 10 (printed 10), text.md lines 171-202.
+    CR1000(2023) SR8880-SB028 service manual (spirit-rower-cr1000ent-2023-service-manual):
+    section 6.1, PDF p. 10 (printed 10), lines 181-217, the same photograph with the same
+    nine call-outs"
   extracted_at: '2026-09-11'
 ---
 
@@ -61,4 +63,9 @@ socket is called out as **4 pins** here, and the two hand-pulse wires of the CU9
 by a single **20-pin keyboard** connector - on this bike the hand-pulse leads plug into the keypad,
 not the console (the keyboard replacement procedure disconnects "20pin and Handpulse Wire on the
 keyboard"). The 8-pin system cable is the same count on both.
+
+**The CR1000ENT-2023 recumbent's service manual photographs the same console underside with the
+same nine call-outs**, 4-pin C-safe and 20-pin keyboard included, so this card covers that
+machine too. On the recumbent the hand-pulse grips are on the seat arms and reach the keypad's
+20-pin connector through their own cable assemblies.
 

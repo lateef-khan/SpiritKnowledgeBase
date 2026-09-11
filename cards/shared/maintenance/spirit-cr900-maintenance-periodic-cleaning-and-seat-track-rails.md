@@ -3,8 +3,8 @@ id: spirit-cr900-maintenance-periodic-cleaning-and-seat-track-rails
 title: Periodic cleaning with a damp cloth and mild detergent, and rubbing alcohol
   on the aluminium seat-track rails
 kind: procedure
-question: How do I clean a Spirit CR900 2018 or CR900ENT recumbent bike, and what
-  keeps the seat sliding smoothly?
+question: How do I clean a Spirit CR900 2018, CR900ENT or CR1000ENT recumbent bike, and
+  what keeps the seat sliding smoothly?
 asked_as:
 - what can i clean my cr900 with
 - seat is sticking on the rails of my recumbent bike
@@ -27,6 +27,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: maintenance
@@ -46,7 +47,9 @@ source:
     1.3, PDF p. 44 (printed 44), lines 725-730 (difflib 1.000). The CU900 2018, CU900ENT
     and CU1000ENT 2023 books have no 1.3: their preventative-maintenance chapters
     stop at the console mast (CU900 2018 PDF pp. 36-37, CU1000ENT 2023 PDF pp. 19-20,
-    checked in full).'
+    checked in full). spirit-rower-cr1000ent-2023-service-manual prints only the rail sentence, as
+    11.13 Periodically Clean Iron Board, PDF p. 20 (printed 20), lines 404-406, figures 11.15 and 11.16; its
+    chapter 11 was read in full for the cloth, detergent and alcohol sentences and does not print them (added 2026-09-11).'
   extracted_at: '2026-09-11'
 ---
 
@@ -71,6 +74,11 @@ CE900 elliptical adds a non-metallic scraper for stubborn build-up
 (`spirit-ce900-maintenance-track-and-wheel-cleaning`), and the 2012 CU800 owner's manual, carried
 over from an elliptical, adds a thin coat of lubricant
 (`cu800-2012-maintenance-squeak-rear-rails-and-four-levelers`).
+
+**The CR1000ENT 2023 prints only the rail sentence.** Its 11.13, headed *Periodically Clean Iron Board* (a
+translation slip for the aluminium rail), says "regular cleaning of aluminum seat track rails for continued smooth
+seat operation and life of wheels" (figures 11.15, 11.16) and nothing else: no damp cloth, no mild detergent, no
+abrasives warning and no rubbing alcohol. Quote the rail cleaning for it and not the cleaning agents.
 
 A seat that shakes rather than sticks is a wheel-play adjustment —
 `spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers`.

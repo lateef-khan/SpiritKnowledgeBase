@@ -2,8 +2,8 @@
 id: cu1000ent-2023-errors-0xb3-cmd-error-driver-board
 title: '0xB3: CMD Error, raised by the driver board'
 kind: troubleshooting
-question: What does error code 0xB3 mean on a Spirit cu1000ent-2023 upright bike or
-  ce1000ent-2023 elliptical?
+question: What does error code 0xB3 mean on a Spirit cu1000ent-2023 upright bike,
+  cr1000ent-2023 recumbent bike or ce1000ent-2023 elliptical?
 asked_as:
 - what does 0xb3 mean on my spirit bike
 - cu1000 console showing 0xb3
@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - ce1000ent-2023
+  - cr1000ent-2023
   - cu1000ent-2023
   section: errors
   code: '0xb3'
@@ -44,7 +45,9 @@ source:
   locator: CU1000ENT 2023 service manual 7.1 Error Code List, 7.2 Error code items
     and 7.3 Tools Required, PDF p. 12, text.md lines 229-259; CE1000ENT 2023 service
     manual 7.1 Error Code List, 7.2 Error code items and 7.3 Tools Required, PDF p.
-    12, text.md lines 260-290
+    12, text.md lines 260-290; CR1000ENT 2023 service manual (SR8880-SB028) 7.1 Error
+    Code List, 7.2 Error code items and 7.3 Tools Required, PDF p. 12, text.md lines
+    239-263
   extracted_at: '2026-09-11'
 ---
 
@@ -61,3 +64,5 @@ All four codes carry the same remark, `By Driver Board Error` - the lower board 
 **These are not the CU900ENT / CR900ENT codes** (`40H` to `50H`, `EAH`, `ECH`, `EDH`, on `cu900ent-error-code-messages-list`) and not the CT1000ENT treadmill's `0x01` to `0x44` list, even though the treadmill list is written in the same `0x` form (`ct1000ent-2023-errors-error-code-list-25-hex-codes`). A `0xB0` to `0xB3` reading belongs to this bike's driver board only.
 
 **The CE1000ENT 2023 elliptical service manual (SE8880-SB028) prints this row word for word** - `0xB3 | CMD Error, By Driver Board Error` - in the same four-row `7.1 Error Code List`, over the same one-row `EEPROM ERR` table and the same multi-meter, and with no cause and no fix. Its engineering mode is entered with ten presses on `Welcome`, as on the bike, and its Service table carries the same `Error Code Log` row (`cu900ent-error-code-log`).
+
+**The CR1000ENT 2023 recumbent service manual (SR8880-SB028) prints this row word for word** - `0xB3 | CMD Error, By Driver Board Error` - in the same four-row `7.1 Error Code List`, over the same one-row `EEPROM ERR` table and the same multi-meter, with no cause and no fix. It is the CU1000ENT book with a recumbent frame: the same `Welcome` ten times into engineering mode and the same Service table with its `Error Code Log` row (`cu900ent-error-code-log`).

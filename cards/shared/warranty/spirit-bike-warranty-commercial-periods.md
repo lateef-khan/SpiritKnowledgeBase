@@ -50,6 +50,7 @@ see_also:
 - spirit-ct800-warranty-labor-period
 - spirit-ct800-warranty-exclusions
 - xt-2023-warranty-start-date
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: 'Warranty table, Commercial row, p. 37 (text.md line 921). The same four
@@ -59,7 +60,7 @@ source:
     p. 36 (spirit-bike-cu800-2021-owners-manual text.md line 894), cu800ent-2022 p.
     41 (spirit-bike-cu800ent-2022-owners-manual text.md line 1041), cr800-2023 p. 37
     (spirit-bike-cr800-2023-owners-manual text.md line 942), cr800ent-2023 p. 41 (spirit-bike-cr800ent-2023-owners-manual
-    text.md line 1061)'
+    text.md line 1061) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CR800ENT and CU800ENT with an EMS Brake column and the CR800 and CU800 with a Generator column, all Frame Lifetime, 5 Years, Parts 5 Years, Labor 2 Years, under COMMERCIAL (NON-DUES PAYING FACILITIES).'
   extracted_at: '2026-09-09'
 ---
 
@@ -97,3 +98,10 @@ source:
 **Do not answer this from a Spirit treadmill or elliptical card.** The CT800 and CT850 tables read the same four figures but their second column is *Motor/Deck* (`spirit-ct800-warranty-commercial-periods`), and the CE800, CE800ENT and CE850 tables read the same four with an *Electronics* or *Brake* column (`spirit-ce-warranty-commercial-periods`). Those are different machines whose figures happen to agree.
 
 The home row of the same table is `spirit-bike-warranty-residential-periods`. When the clock starts is in the paragraph above the table (`xt-2023-warranty-start-date`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these same four figures for the CR800ENT, CU800ENT, CR800 and CU800**,
+named without years, under COMMERCIAL (NON-DUES PAYING FACILITIES) - which is the sheet's own
+confirmation that these machines, unlike the 900-series bikes on its first page, are not
+covered in a dues-paying gym. It heads the column *EMS Brake* for the ENT pair and *Generator*
+for the other, where the manuals say *EMS BRAKE*, *BRAKE* and *Electronics*. See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

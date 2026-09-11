@@ -59,7 +59,8 @@ source:
     CU800 (2020) service manual PDF p. 14 (printed 13), lines 238-242; CE800 (2020)
     service manual 4-2-5 HEART RATE WINDOW, PDF p. 15 (printed 14), text.md lines
     272-276; CE850 (2020) service manual HEART RATE WINDOW, PDF p. 16 (printed 16),
-    lines 329-331
+    lines 329-331.
+    CRS800S (2020 ver.) service manual HEART RATE WINDOW, PDF p. 13 (printed 13), text.md lines 187-190; CS800 (2020) service manual 4-2-5 HEART RATE WINDOW, PDF p. 15 (printed 14), lines 269-273
   extracted_at: '2026-09-09'
 ---
 
@@ -135,3 +136,10 @@ no such item.**
 **The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both name "The CR800" as the machine that picks up Polar coded transmissions - the CU800 (2020) book too, which was made from the recumbent's.
 
 **The CE800 (2020) service manual prints the paragraph with the Polar sentence** - "The CE800 will also pick up wireless heart rate transmitters that are Polar compatible, including coded transmissions". **The CE850 (2020) service manual prints it without that sentence**: both steel sensors, pulse shown whenever a Grip Pulse signal is received, and nothing about a wireless transmitter at all, though its wiring pages connect a WIRELESS HR receiver to the display board. The owner's manual for the same machine prints the Polar claim; the service manual neither confirms nor denies it.
+
+**The CRS800S (2020 ver.) and CS800 (2020) stepper service manuals print the paragraph word for
+word**, Polar claim included: both left and right stainless steel sensors, pulse shown whenever a
+Grip Pulse signal is received, Grip Pulse usable in Heart Rate Control, and "will also pick up
+wireless heart rate transmitters that are Polar compatible, including coded transmissions". The
+CRS800S book's wiring pages connect a WIRELESS HR receiver and a CONTACT HR handlebar to the display
+board, held with the specs cards.

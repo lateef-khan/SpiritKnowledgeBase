@@ -1,8 +1,10 @@
 ---
 id: csc900-2024-errors-brake-does-not-turn-on
-title: The brake does not turn on and the machine will not run, and the test is 24 volts and a click
+title: The brake does not turn on and the machine will not run, and the test is 24
+  volts and a click
 kind: troubleshooting
-question: Why will a Spirit stair climber not run after pressing START, with the brake still on?
+question: Why will a Spirit stair climber not run after pressing START, with the brake
+  still on?
 asked_as:
 - my stairclimber wont move when i press start
 - csc900 brake wont engage
@@ -38,11 +40,17 @@ see_also:
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: 'CSC900 2024: TROUBLESHOOTING, Problem / Reason / Method table on printed
-    page 34; that page is a flat picture with no text layer and was read from the rendered
-    page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
-    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 7 on printed
-    page 34 (PDF page 36), read from the native text layer and confirmed against a 400
-    dpi render.'
+    page 34; that page is a flat picture with no text layer and was read from the
+    rendered page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
+    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 7 on
+    printed page 34 (PDF page 36), read from the native text layer and confirmed against
+    a 400 dpi render; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 2, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row 7, PDF p. 8 - the page
+    is a flat picture (text.md lines 123-128 hold only the heading; OCR supplement
+    lines 428-505) and was read from a 200 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -80,3 +88,7 @@ applies it - and gives the same two tests:
 
 Same figure, same pass condition, same order. The only difference is the name: the CSC900 book calls
 it "the brake is no power or failure", the CSC880 book calls it a power-off brake.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 2 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.
+
+**The CSC880 service manual prints this row word for word**, as row 7 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row (this is the CSC880 half of the card).

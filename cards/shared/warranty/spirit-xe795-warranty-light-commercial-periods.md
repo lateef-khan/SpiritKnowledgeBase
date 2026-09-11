@@ -42,6 +42,7 @@ see_also:
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-labor-period
 - spirit-ce850-warranty-exclusions
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
   locator: 'Elliptical Trainer Warranty table, Light Commercial row and footnote, p.
@@ -50,7 +51,7 @@ source:
     Warranty section, Light Commercial Warranty table and footnote (lines 1333-1336).
     The same five figures with the same parenthetical row label and no footnote are
     in spirit-elliptical-xe795-2018-owners-manual p. 38 (text.md line 1257) and spirit-elliptical-xe895-2018-owners-manual
-    p. 36 (text.md line 1349)'
+    p. 36 (text.md line 1349) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the XE795 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Generator 5 Years, Parts 3 Years, Labor 1 year, marked "** X Series warranty covers up to 5 hours use or less in a non-dues paying facility".'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +88,8 @@ August 22, 2018 for the XE795 2018 and the XE895 2018, February 19, 2021 and Nov
 **These are not the Spirit commercial elliptical figures.** A CE800, CE800ENT or CE850 commercial row reads Frame Lifetime, Brake or Electronics 5 Years, Parts **5 Years** and Labor **2 Years** (`spirit-ce-warranty-commercial-periods`). Two of those four differ from this table.
 
 The home row of the same table is `spirit-xe-warranty-residential-periods-ten-year-parts`, and the one-year labor figure is dated separately in the SERVICE paragraph (`xt-2023-warranty-labor-period`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these same four figures for the XE795**, heads the brake column
+*Generator*, and restates the five-hour envelope as a footnote - "X Series warranty covers up to
+5 hours use or less in a non-dues paying facility" - against it and the XBR95 and XT685. The
+sheet does not name the XE895. See `spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

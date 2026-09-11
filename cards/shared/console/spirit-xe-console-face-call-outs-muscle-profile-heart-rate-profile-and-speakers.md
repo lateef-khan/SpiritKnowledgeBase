@@ -53,7 +53,7 @@ source:
   ref: spirit-elliptical-xe895-2018-owners-manual
   locator: 'p. 17, the XE895 CONSOLE OPERATION drawing. The same eight labels are printed
     on: XE795-2018 p. 15; XE395-2018 p. 18; XE295-2019 p. 17; XG400-2019 p. 16; XE795-2021
-    p. 15 (February printing); XE295-2021 p. 17; XG400-2021 p. 16'
+    p. 15 (February printing); XE295-2021 p. 17; XG400-2021 p. 16. XS895 (XS300B-YS006) service manual 4-1 Display Windows, PDF p. 11 (printed 10), text.md lines 153-157 and 4-3 Function Button Locations, PDF p. 15 (printed 14), lines 258-279, both photographs with a few call-outs'
   extracted_at: '2026-09-10'
 ---
 
@@ -122,3 +122,11 @@ no speed window.
 **There is no DISPLAY key anywhere on this drawing**, which matters because the same manual's
 Bluetooth instruction tells you to press one:
 `xs895-console-bluetooth-on-off-on-a-key-the-drawing-never-shows`.
+
+**The XS895 (XS300B-YS006) service manual draws the face twice with fewer labels.** Its Display
+Windows page carries one call-out, **7.5" LCD Display**, over a photograph whose window legends read
+CALORIES, TIME and VERTICAL; its Function Button Locations page names the **PROGRAM BUTTONS (Manual,
+Hill, Fat Burn, Cardio, Strength, HIIT, 2User, 2HR)**, the **Control Keys** and the **FAN KEY**. That
+is the only size printed for this screen, and the only place the program keys are listed by name -
+the console in the XS895 video reads INTERVAL, USER 1, USER 2 and HR 1 on those same keys
+(`spirit-xs895-console-engineering-mode-on-video-odo-reset-confirms-with-rst-and-an-exit-item-the-book-omits`).

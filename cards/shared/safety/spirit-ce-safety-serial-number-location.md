@@ -5,7 +5,7 @@ kind: fact
 question: Where is the serial number on a Spirit CE800, CE800ENT, CE850, CE900-2021,
   CE900ENT or CE1000ENT elliptical, on a Spirit XE residential elliptical of the 2005,
   2007, 2010 or 2021 generation, or on a Spirit commercial CR800, CR900, CR900ENT,
-  CU800, CU900 or CU1000ENT upright or recumbent bike?
+  CU800, CU900, CU1000ENT or CR1000ENT upright or recumbent bike?
 asked_as:
 - where is the serial number on my elliptical
 - i cant find the serial number on the machine
@@ -38,6 +38,7 @@ facets:
   - ce850-2022
   - ce900-2021
   - ce900ent
+  - cr1000ent-2023
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -117,7 +118,12 @@ source:
     PDF p. 19 (printed 19), line 402, photographs PDF p. 20 (printed 20), line 407.
     All three pages are photographs with no text layer beyond the heading; read from
     150 dpi renders. The 2007 XE100-XE500 dealer manual asks for the serial number
-    when calling, PDF p. 10, line 316, and names no location.'
+    when calling, PDF p. 10, line 316, and names no location. CR1000ENT (SR8880-SB028)
+    service manual: `Serial Number & code Location` heading at the foot of PDF p.
+    18 (printed 18), text.md line 382, photographs PDF p. 19 (printed 19), lines 383-393
+    and OCR supplement lines 1336-1352, in spirit-rower-cr1000ent-2023-service-manual.
+    Read from 80 and 400 dpi renders; the rating plate in the second photograph was
+    rotated and enlarged to read.'
   extracted_at: '2026-09-09'
 ---
 
@@ -311,3 +317,19 @@ reads `Model: CE900`. Read from the renders:
 CE800 (2020), CE850-2016, CE850 (2020), XE195/XE295/XE395/XE795/XG400/XE895 2016, XE395ENT-2021,
 XE795-2023 - and the 2007 XE100-XE500 dealer manual says only `You must have the serial number of
 the machine when you call`.
+
+## The CR1000ENT service manual reprints the CR900 photographs
+
+**The CR1000ENT (SR8880-SB028) service manual's `Serial Number & code Location` page carries the two CR900 photographs
+described above, not the CU1000ENT's QR label.** The first shows the white `SERIAL NUMBER` barcode sticker, with
+`SPIRIT (870) 935-1107` printed under the bars, on the top face of the silver front stabilizer tube at one end, hard
+against the shroud, with a `MADE IN TAIWAN / U.S. Pat. See www.spiritfitness.com/legal` plate on the shroud above it.
+The second shows the console mast from behind, a black rating plate on it reading `SPIRIT / Recumbent Bike / Model:
+CR900 / Rating: Self-generator, 250W / Date code: 2016. 4Q / Studio Use / Usage en Atelier`, a TÜV Rheinland mark and
+`Made in Taiwan / Fabriqué à Taïwan`, with the serial sticker visible at the far end of the stabilizer below.
+
+- **The plate says CR900 and self-generator, on a book for a mains-powered bike with a 100 W adapter**
+  (`cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter`). The photographs are reused, as the CE900ENT and
+  CE1000ENT books reuse the CE900's; the book gives no CR1000ENT-specific label, no words and no serial-number format.
+- **Tell a CR1000ENT owner to look on the top of the front stabilizer beside the shroud** and confirm the line with
+  Spirit. Do not send them to the side-shroud QR label the CU1000ENT book photographs; that picture is not in this book.

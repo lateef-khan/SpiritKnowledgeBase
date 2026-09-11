@@ -52,7 +52,8 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 17 Speakers (same in the February 19 2021 printing); XE295 p. 17 and XG400 p. 16 console drawings, "Integrated Speakers for MP3 Player"; audio cable listed in each hardware pack; XBR95 2016, 2018 and 2021 p. 15, XBR55/XBU55 2019 and 2021 p. 16, all Speakers
+  locator: XE795 2021 p. 17 Speakers (same in the February 19 2021 printing); XE295 p. 17 and XG400 p. 16 console drawings, "Integrated Speakers for MP3 Player"; audio cable listed in each hardware pack; XBR95 2016, 2018 and 2021 p. 15, XBR55/XBU55 2019 and 2021 p. 16, all Speakers.
+    XS895 (XS300B-YS006) service manual 4-2-6 Speakers, PDF p. 13 (printed 12), text.md lines 198-200
   extracted_at: '2026-09-09'
 ---
 
@@ -109,3 +110,8 @@ input jack, **no volume control on the console**, and the volume must be set on 
 
 **Its console drawing labels them Integrated Speakers for MP3 Player** and puts a **cargo
 compartment for keys, phone, or MP3 player** directly below them.
+
+**The XS895 (XS300B-YS006) service manual spells it out in the same three sentences** - built-in
+speakers, an audio input jack, no volume control on the console, volume set on the audio source -
+and prints an Amplifier Board wiring page with two 2-pin speaker connectors and an AUDIO IN, held
+with the specs cards.

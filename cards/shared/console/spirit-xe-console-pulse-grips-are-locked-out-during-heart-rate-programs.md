@@ -57,7 +57,8 @@ source:
     2018 and 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 16, all
     Pulse Grip Feature; XBR25 2023 p. 20, XBR95 2023 p. 21, XBR55/XBU55 2023 p. 22,
     all FEATURES - CONTINUED; XE795-2023 (XE815A-SE048) service manual 4.2 Basic Function,
-    Pulse Grip Feature, PDF p. 8 (printed 8), text.md lines 170-173
+    Pulse Grip Feature, PDF p. 8 (printed 8), text.md lines 170-173.
+    XS895 (XS300B-YS006) service manual 4-2-4 Pulse Grip Feature, PDF p. 12 (printed 11), text.md lines 185-189
   extracted_at: '2026-09-09'
 ---
 
@@ -115,3 +116,7 @@ the heart rate transmitter chest strap, and **you may not use the Pulse Grip fea
 Rate Programs**.
 
 **The XE795-2023 service manual prints this paragraph word for word** in its Basic Function table - both stainless steel sensors "on the front cross bar" or the chest strap, and no Grip Pulse in Heart Rate Programs.
+
+**The XS895 (XS300B-YS006) service manual prints the paragraph word for word** - both stainless
+steel sensors on the stationary grips or the chest strap, pulse shown whenever the upper display
+receives a signal, and no Pulse Grip while in Heart Rate Programs.

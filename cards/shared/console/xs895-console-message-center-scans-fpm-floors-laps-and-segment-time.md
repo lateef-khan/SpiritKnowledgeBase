@@ -37,7 +37,8 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 source:
   ref: spirit-climber-xs895-2018-owners-manual
-  locator: XS895-2018 printed p. 17, Basic Information; the XS895-2021 manual prints the same passage on its printed p. 17
+  locator: XS895-2018 printed p. 17, Basic Information; the XS895-2021 manual prints the same passage on its printed p. 17.
+    XS895 (XS300B-YS006) service manual 4-2-8 Basic Information, PDF p. 13 (printed 12), text.md lines 211-215
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +63,7 @@ no speed and no watts anywhere in its console chapter.
 
 **The manual never defines a floor** - no step count, no height, no unit - and gives no range for
 either reading.
+
+**The XS895 (XS300B-YS006) service manual prints the scan word for word** - the Program name first,
+then FPM (floors per minute) for four seconds, FLOORS, Laps completed, Segment time, SCAN, and Enter
+to return to the beginning.

@@ -83,7 +83,8 @@ source:
     (printed 14), lines 206-209; CE800 (2020) service manual 4-2-7 CSAFE FEATURE,
     PDF p. 15 (printed 14), text.md lines 285-289; CE850 (2020) service manual C-SAFE
     FEATURE, PDF p. 16 (printed 16), lines 340-343; CE900 (SE8800-SE026) service manual
-    C-SAFE FEATURE, PDF p. 14 (printed 14), lines 217-220
+    C-SAFE FEATURE, PDF p. 14 (printed 14), lines 217-220.
+    CRS800S (2020 ver.) service manual C-SAFE FEATURE, PDF p. 12 (printed 12), text.md lines 145-147; CS800 (2020) service manual 4-2-7 CSAFE FEATURE, PDF p. 15 (printed 14), lines 282-285
   extracted_at: '2026-09-08'
 ---
 
@@ -178,3 +179,10 @@ CT800-2020 is held on this card on the strength of both its owner's and its serv
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same POWER and COMM ports; their Display Board wire connection tables also define a five-pin J1 CSAFE connector (RX, TX, CSAFE-POWER, N/A, GND), held with the specs cards.
 
 **Three elliptical service manuals print the two-port paragraph in their Product Operation chapters** - the CE800 (2020), the CE850 (2020) and the CE900 (SE8800-SE026) - word for word: the POWER port for a remote-controlled audio-visual system, the COMM port for fitness software applications, and nothing more.
+
+**The two 2020-series stepper service manuals print the paragraph too** - the CRS800S (2020 ver.)
+under **C-SAFE FEATURE** between POWER and QUICK START, and the CS800 (2020) under **4-2-7 CSAFE
+FEATURE** after PROGRAMMABLE FEATURES - both with the POWER port for a remote-controlled audio-visual
+system and the COMM port for fitness software applications, in exactly the words above. The CRS800S
+book's block diagram also draws a C-SAFE&POWER connector on the display board, held with the specs
+cards.

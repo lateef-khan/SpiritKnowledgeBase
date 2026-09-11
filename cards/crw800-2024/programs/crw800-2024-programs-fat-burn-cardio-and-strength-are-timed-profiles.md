@@ -24,6 +24,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - xrw600-2019
@@ -40,7 +41,12 @@ see_also:
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: 'CRW800 2024 printed pp. 22-23; CRW800 2021 printed pp. 24-26 (PDF pp. 26-28);
-    XRW600 2019 and 2021 printed pp. 27-29'
+    XRW600 2019 and 2021 printed pp. 27-29. Service manuals (extracted 2026-09-11):
+    CRW800 2021 service manual (spirit-rower-crw800-2021-service-manual) items 9-11,
+    PDF pp. 21-22 (printed 20-21), text.md lines 305-333; CRW800 2016 service manual,
+    CW800-YR001 (spirit-rower-crw800-2016-service-manual), PDF pp. 20-21, lines 296-329;
+    XRW600 2019 service manual, DW400-YR002 (spirit-rower-xrw600-2019-service-manual),
+    PDF pp. 20-21, lines 309-342'
   extracted_at: '2026-09-10'
 ---
 
@@ -67,3 +73,9 @@ three programs: the Strength paragraph omits the sentence "Under the workout
 mode, pressing Up or Down button adjusts the resistance level" that Fat Burn and Cardio both print,
 and puts the time count-down sentence in its place. Whether resistance can be adjusted during
 Strength is not stated.*
+
+**The three service manuals - CRW800 2021, CRW800 2016 (CW800-YR001) and XRW600 2019 (DW400-YR002) -
+print the same three pages to the figure**, 5-minute steps to 99:00 and a profile picture only, and
+every one of them repeats the Strength omission: four steps instead of five, no Up/Down sentence.
+The service books describe the profiles no better than the owner's manuals do. The 2016 CRW800 has
+no owner's manual in this repository; its service manual is what places it on this card.

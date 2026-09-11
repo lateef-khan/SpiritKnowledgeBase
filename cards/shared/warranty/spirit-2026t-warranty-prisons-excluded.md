@@ -32,19 +32,23 @@ facets:
   - 85ue-2025
   - ab900-2018
   - ab950-2024
+  - ce800-2016
   - ce800-2021
   - ce800-2023
   - ce800-2024
   - ce800ent
   - ce800ent-2024
+  - ce850-2016
   - ce850-2020
   - ce850-2022
   - ce850-2024
   - ce900-2021
   - ce900-2025
+  - ce900ent
   - ces880-2025
   - cic800-2021
   - cic850-2022
+  - cr800-2009
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -55,10 +59,12 @@ facets:
   - cr900ent-2021
   - crs800s-2021
   - crs800s-2024
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - crw800h2o
   - crw900-2021
+  - cs800-2016
   - cs800-2021
   - cs800-2024
   - csc880-2025
@@ -127,20 +133,25 @@ facets:
   - cvc800
   - jb950-2022
   - ms300-2021
+  - mt200-2010
   - st800dr3
   - st800fi
   - st800ft
   - xbr55ent-2021
+  - xbr95-2018
   - xbr95-2023
   - xbu55-2023
   - xbu55ent-2021
   - xe195-2021
   - xe295-2021
+  - xe795-2018
   - xe795-2021
   - xe795-2023
   - xg400-2021
   - xic600-2021
   - xrw600-2021
+  - xs895-2018
+  - xt685-2015
   section: warranty
   code: '*'
 authority: 3
@@ -169,6 +180,7 @@ see_also:
 - spirit-strength-warranty-use-environment
 - spirit-strength-warranty-exclusions-eight-items
 - spirit-strength-st800fi-warranty-lifetime-at-home-ten-years-in-a-facility
+- spirit-commercial-warranty-sheet-2019-footnotes
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: >-
@@ -241,7 +253,8 @@ source:
     spirit-rower-xrw600-2019-owners-manual; that absence was checked with a loose,
     spacing-tolerant search of the whole document and with 300 dpi renders of both its
     warranty pages, PDF pp. 38 and 39, the second read with tesseract --psm 4. All five
-    warranty tables were read from 300 dpi renders as well as from the extraction
+    warranty tables were read from 300 dpi renders as well as from the extraction.
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints footnote *, "Products used in prisons and correctional facilities are excluded from warranty coverage.", marked against every table heading on both pages, PDF pp. 1-2.
   extracted_at: '2026-09-10'
 ---
 
@@ -272,6 +285,17 @@ The footnote under the warranty table - the second half of the fact on the 2026 
 **Their exclusion lists are not one list, so do not read the rest of the section across.** The CT900 and the CTSBS900 share a nine-item list word for word (`ct900-warranty-exclusions`, `ctsbs900-warranty-exclusions`). The CT900ENT list runs to **eight** items, words item 2 differently, excludes an unregistered product outright, and prints its outside-the-US sentence unnumbered below the list (`ct900ent-exclusions`).
 
 **On these three the prisons exclusion is not the whole of the use-environment answer, and it differs by machine.** The CT900 covers a dues-paying gym on its own row of periods, the CTSBS900 covers only a dues-paying facility, and the CT900ENT prints one unqualified Commercial row narrowed by its exclusion 2: `ct900-warranty-use-environment`, `ctsbs900-warranty-use-environment`, `ct900ent-warranty-use-environment`.
+
+## The March 2019 commercial warranty sheet excludes prisons for every machine it names
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints "Products used in prisons and correctional facilities are excluded
+from warranty coverage" once, as a footnote marked against every table heading on both of its
+pages** - thirty-two machines named without years, from the CT900ENT to the XS895. That reaches
+machines whose own manuals of the time say nothing about prisons: the XE795 2018, the XBR95
+2018, both XS895 printings, the CE850 2016 and the MT200 2010 among them. So for a machine sold
+on that sheet the exclusion is stated in writing even where the book in the carton is silent;
+say which document states it. The sheet's other footnotes are
+`spirit-commercial-warranty-sheet-2019-footnotes`.
 
 ## Spirit ellipticals: eight of ten exclude prisons, and two say nothing at all
 

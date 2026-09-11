@@ -1,8 +1,9 @@
 ---
 id: crs800s-2024-errors-ram-error-replace-the-display-board
-title: RAM ERROR means the display board memory is defective, and the only remedy is a new display board
+title: RAM ERROR means the display board memory is defective, and the only remedy
+  is a new display board
 kind: troubleshooting
-question: What does RAM ERROR mean on a Spirit CRS800S-2024 semi-recumbent stepper?
+question: What does RAM ERROR mean on a Spirit CRS800S semi-recumbent stepper?
 asked_as:
 - my spirit stepper says ram error
 - what does ram error mean on the console
@@ -20,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: crs800s-2024
+  model: '*'
   applies_to:
+  - crs800s-2021
   - crs800s-2024
   section: errors
   code: ram-error
-  model_number:
-  - '800525'
 authority: 3
 not_to_be_confused_with:
 - cvc800-e-1-ram-error
@@ -38,8 +38,10 @@ see_also:
 - cs800-2024-errors-eeprom-error-replace-the-console
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
-  locator: ERROR CODES, printed page 36. That page is a flat picture with no text layer
-    and was read from the rendered page.
+  locator: 'ERROR CODES, printed page 36. That page is a flat picture with no text
+    layer and was read from the rendered page; CRS800S 2020 ver. service manual 8-1
+    Error Message: EERPOM ERROR (heading printed that way), PDF p. 27 (printed 26),
+    text.md lines 343-348 - the same four lines word for word'
   extracted_at: '2026-09-10'
 ---
 
@@ -67,3 +69,5 @@ print one.
 
 The other message this manual carries is `MOTOR ERROR`, and it is the one that has no remedy at all:
 `crs800s-2024-errors-motor-error-tension-motor-signal-wrong`.
+
+**The CRS800S 2020-version service manual prints the same four lines word for word** - `RAM ERROR:` / *EEPROM IC of Display board is defective or operates abnormal.* / `Troubleshooting:` / *Please replace the display board.* - under a section heading that reads `8-1 Error Message: EERPOM ERROR`, spelled that way. So the heading calls it an EEPROM error, the body a RAM error, and the definition blames the EEPROM IC: three names on one page, one part to replace. The 2020-book CRS800S (`crs800s-2021`) and the 2024 CRS800S print the same message.

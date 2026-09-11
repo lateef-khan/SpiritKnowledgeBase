@@ -43,6 +43,8 @@ see_also:
 - spirit-indoor-cycle-air-bike-warranty-use-environment
 - xt-2023-warranty-start-date
 - xt-2023-warranty-labor-period
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-bike-cic800-2021-owners-manual
   locator: >-
@@ -51,6 +53,7 @@ source:
     439, prisons footnote line 440. The same twelve figures in the other two:
     spirit-bike-cb900-2013-owners-manual p. 13 (text.md lines 406-409, footnote line 410);
     spirit-bike-cic850-2022-owners-manual p. 36 (text.md lines 784-787, footnotes lines 789-790)
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49 and PDF p. 2, text.md lines 49-97, prints the CIC800 twice: Frame 10 Years, Parts / Console 3 Years, Labor 1 Year, Wear Items 1 Year under COMMERCIAL (ALL FACILITIES), and Frame 15 Years, Parts 3 Years, Labor 1 Year, Wear Items 1 Year under COMMERCIAL (NON-DUES PAYING FACILITIES).
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +90,13 @@ source:
 **Do not answer a Sole indoor cycle from this card.** The Sole SB700, SB900 and SB1200 tables are a different brand's terms entirely (`sole-bike-indoor-cycle-warranty-periods`).
 
 When the clock starts is in the paragraph above the table (`xt-2023-warranty-start-date`). Which facility each row means, and where the manuals contradict themselves, is `spirit-indoor-cycle-air-bike-warranty-use-environment`.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the CIC800's two commercial rows on two different pages** - Frame 10
+Years, Parts / Console 3 Years, Labor 1 Year and Wear Items 1 Year under COMMERCIAL (ALL
+FACILITIES), and Frame 15 Years, Parts 3 Years, Labor 1 Year, Wear Items 1 Year under COMMERCIAL
+(NON-DUES PAYING FACILITIES). The figures are this table's; the sheet is the only Spirit
+document that puts a machine in both tiers, and it labels the 10-year page's parts column
+*Parts / Console* although the CIC800 manual warrants no console period. Its wear-items
+definition is not the manual's (`spirit-indoor-cycle-warranty-wear-items`). See
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms` and
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

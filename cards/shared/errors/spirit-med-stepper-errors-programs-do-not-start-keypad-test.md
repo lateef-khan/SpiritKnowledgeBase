@@ -41,11 +41,12 @@ see_also:
 - csc900-2024-errors-membrane-key-failure
 source:
   ref: spirit-climber-70s-2025-owners-manual
-  locator: 'Troubleshooting, "Console programs do not start", printed page 40 (PDF page
-    42) of the 7.0S 2025 manual; the same text on printed page 42 (PDF page 44) of the
-    7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021 manual, where
-    the second bullet is missing from the text layer and was recovered from a 300 dpi
-    render.'
+  locator: Troubleshooting, "Console programs do not start", printed page 40 (PDF
+    page 42) of the 7.0S 2025 manual; the same text on printed page 42 (PDF page 44)
+    of the 7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021 manual,
+    where the second bullet is missing from the text layer and was recovered from
+    a 300 dpi render; 7.5S (RS9600-SS021) service manual 5.2.3, "Console programs
+    do not start", PDF p. 15, text.md lines 147-149
   extracted_at: '2026-09-10'
 ---
 
@@ -73,3 +74,5 @@ extraction of that page is quoting a broken sentence.
 
 The stair climbers answer the same symptom differently - a membrane keypad and its cable, with no
 test mode at all (`csc900-2024-errors-membrane-key-failure`).
+
+**The 7.5S service manual prints the row in one line and names the part:** *Perform the Key Test in Maintenance mode. Replace the keypad (or whole console) if the Key Test didn't pass or can't enter Maintenance mode.* The owner's manuals stop at "the keypad has malfunctioned"; the service manual says to replace it, or the whole console.

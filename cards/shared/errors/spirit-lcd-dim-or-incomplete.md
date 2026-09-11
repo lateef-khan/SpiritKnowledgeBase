@@ -29,7 +29,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - ce850-2024
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2016
   - ct800-2016
   - ct850-2016
   - cvc800
@@ -78,7 +80,10 @@ source:
     Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 966-1027; XE395ENT
     2021 (XE539S-SE025-01) service manual Troubleshooting procedure matrix, PDF p.
     46-47, text.md lines 656-709; XG400 2016 (SE551-SE023-01) service manual Troubleshooting
-    procedure matrix, PDF p. 40, text.md lines 595-628'
+    procedure matrix, PDF p. 40, text.md lines 595-628; CRS800S 2020 ver. service
+    manual 8-5 Troubleshooting procedure matrix, first row, PDF p. 33 (printed 32),
+    text.md lines 465-469; CS800 2016 (XS200-SS003) service manual Troubleshooting
+    procedure matrix, first row, PDF p. 41, text.md lines 602-605'
   extracted_at: '2026-09-08'
 ---
 
@@ -123,3 +128,5 @@ CE800 2024, CR800 2024 and CU800 2024 send the reader to the generator rather th
 **Five residential bike service manuals print this row word for word, `110-120V` included** - the XBR25 2016, XBR55 2016 and XBU55 2016, and the XBR55ENT 2021 and XBU55ENT 2021, whose matrices keep the LCD wording even though those two consoles are TFT touch panels. The XBR95 2016 of the same generation drops the voltage and is on `ce900-2025-errors-leds-not-bright-incomplete-or-imperfect`; the 2023 residential books replace the lower controller with a *generator controller* (`spirit-xb-2023-errors-lcd-not-bright-replace-generator-controller`) or stop before it (`xbu55-2023-errors-lcd-not-bright-check-power-to-console`).
 
 **Eight elliptical service manuals print this row with the same two causes, the same four-step fix and `Check AC power is 110-120V`** - the CE850 2016 (XE898-SE011) and its residential twin the XE895 2016, the XE195, XE295, XE395 and XG400 2016, and the XE395ENT 2021, all about an LCD, and the CE850 (2020), which like the CE850 2024 says `LED not bright` and `Replace with new LED or console` around the same 110-120V figure. **The XE195 2016 alone adds a second figure**: its row reads `Check AC power is 110-120V. (or 220-230V)`, the only elliptical book of the eight to name the export voltage. The XE795 2016, XE795 2023 and CE900 drop the voltage (`ce900-2025-errors-leds-not-bright-incomplete-or-imperfect`); the CE800 2016 and CE800 (2020) send the reader to the generator (`spirit-2024-errors-leds-not-bright-generator-power-connection`); the CE900ENT and CE1000ENT 2023 print the TFT version (`cu900ent-tft-not-bright`).
+
+**The CRS800S 2020-version service manual prints this row word for word** - `LCDs not bright, incomplete or imperfect`, `LCD light is broken`, `Check AC power is 110~120V`, the same four steps - as its 2024 owner's manual does. **The CS800 2016 (`XS200-SS003`) service manual prints it with the nouns mixed:** `LEDs not bright, incomplete or imperfect`, `LED broken`, `Replace with new LCD or console`, `Check AC power is 110-120V`. Same figure, same four steps; a single-band stepper where the 2020-book and 2024 CS800 print two bands (`cs800-2024-errors-lcd-not-bright-220-240-or-110-120-volt`).

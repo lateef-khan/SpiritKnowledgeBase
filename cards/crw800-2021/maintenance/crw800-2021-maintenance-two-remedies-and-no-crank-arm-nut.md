@@ -37,6 +37,8 @@ not_to_be_confused_with:
 - spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads
 - crs800s-2021-maintenance-four-pads-front-and-back
 see_also:
+- spirit-crw800-maintenance-noise-screw-kits-foot-pads-seat-knob-thread-slide-fan-flywheel
+- spirit-crw800-maintenance-slide-not-smooth-clean-track-and-pulleys-loosen-three-nyloc-nuts
 - crw800-2024-maintenance-battery-changing-instructions
 - ct900-sanitizing-equipment
 - spirit-rower-maintenance-no-lubricant-named-anywhere
@@ -90,6 +92,9 @@ and their machine does not have one.
 **BATTERY CHANGING INSTRUCTIONS** is printed p. 35, and the wireless handle has to be re-coded
 afterwards or its Up and Down buttons do nothing
 (`crw800-2024-maintenance-battery-changing-instructions`).
+
+**The service manual answers noise differently** — a five-part list with part numbers, from loose screw kits to
+the fan and flywheel (`spirit-crw800-maintenance-noise-screw-kits-foot-pads-seat-knob-thread-slide-fan-flywheel`) — and adds a seat that will not slide (`spirit-crw800-maintenance-slide-not-smooth-clean-track-and-pulleys-loosen-three-nyloc-nuts`).
 
 **There is no schedule table in this book.** No daily/weekly/monthly grid, no item list, no
 intervals of any kind — the whole maintenance chapter is the two pages above. Its 2024 successor

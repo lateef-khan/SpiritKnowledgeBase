@@ -2,9 +2,9 @@
 id: cu900ent-tft-displays-not-bright
 title: The display segments themselves are not bright, incomplete or imperfect
 kind: troubleshooting
-question: Why are display segments missing on a Spirit CU900ENT, CR900ENT-2021 or
-  CU1000ENT-2023 bike, a CT800ENT, CT850ENT, CT900ENT or CT1000ENT treadmill, or a
-  CE900ENT or CE1000ENT-2023 elliptical?
+question: Why are display segments missing on a Spirit CU900ENT, CR900ENT-2021 , CU1000ENT-2023
+  or CR1000ENT-2023 bike, a CT800ENT, CT850ENT, CT900ENT or CT1000ENT treadmill, or
+  a CE900ENT or CE1000ENT-2023 elliptical?
 asked_as:
 - part of my spirit bike screen is blank
 - missing display area on the bike console
@@ -25,6 +25,7 @@ facets:
   applies_to:
   - ce1000ent-2023
   - ce900ent
+  - cr1000ent-2023
   - cr900ent-2021
   - ct1000ent-2023
   - ct800ent-2022
@@ -55,7 +56,9 @@ source:
     2023 service manual 10.1 Troubleshooting procedure Matrix, PDF p. 18, text.md
     lines 328-373; CE900ENT service manual Troubleshooting procedure matrix, PDF p.
     40, text.md lines 712-744; CE1000ENT 2023 service manual 10.1 Troubleshooting
-    procedure matrix, PDF p. 3, text.md lines 71-96
+    procedure matrix, PDF p. 3, text.md lines 71-96; CR1000ENT 2023 service manual
+    (SR8880-SB028) 10.1 Troubleshooting procedure Matrix, PDF p. 18, text.md lines
+    345-374
   extracted_at: '2026-09-08'
 ---
 
@@ -87,3 +90,5 @@ all** (`ce800ent-tft-touch-panel-not-bright`).
 **The CR900ENT 2021 and CU1000ENT 2023 service manuals print this row word for word** - `TFT displays not bright, incomplete or imperfect`, `TFT displays are broken`, `Replace with new console`.
 
 **The CE900ENT and CE1000ENT 2023 elliptical service manuals print this row word for word** - `TFT displays not bright, incomplete or imperfect`, `TFT displays are broken`, `Replace with new console`.
+
+**The CR1000ENT 2023 recumbent service manual prints this row word for word** - `TFT displays not bright, incomplete or imperfect`, `TFT displays are broken`, `Replace with new console`.
