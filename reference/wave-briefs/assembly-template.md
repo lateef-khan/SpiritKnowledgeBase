@@ -9,7 +9,7 @@ step** (stabilisers, seat post and seat, handlebar, pedals — left pedal is
 left-hand thread, say so wherever the book does — console and cables, the
 folding bikes' unfold-and-lock, the recumbents' seat rail and back rest, the
 ellipticals' arms, pedal tubes and rear stabiliser, the climber's handrails),
-levelling, moving, first power-on / battery fitting as the last step, the SB600
+levelling, first power-on / battery fitting as the last step, the SB600
 service manual's **assembling sequence** and its part-replacement pages (console,
 crank and pedal, flywheel and belt, seat slide, brake / magnetic resistance
 motor), the FB160 and SB120 service documents' replacement steps, and the AIR650
@@ -18,7 +18,7 @@ cards.
 
 Not yours: belt or brake adjustment as care → maintenance; wiring → specs;
 exploded views and parts lists → parts; codes → errors; console keys → console;
-folding for storage and transport → maintenance.
+folding for storage, **moving** and transport → maintenance (repo ruling; X2 wrote four moving duplicates that had to be deleted).
 
 The 2018 batch (MB550, MBX2500, SB150, EU100, FS3.0) and the 2020/2021 batches
 share step layouts: one card per step with `applies_to` listing the books whose

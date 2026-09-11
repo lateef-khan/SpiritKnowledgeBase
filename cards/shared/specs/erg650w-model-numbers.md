@@ -41,4 +41,4 @@ source:
 |---|---|---|
 | 2021 | 165918 | erg650w-2021 |
 
-The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`) and, where the owner's manual prints one on its cover, from the manual itself; a row reading *not confirmed* has no settled number yet. The table's only ERG650W row is "Xterra ERG650W (NS)" 165918 (no date). The owner's manual is stamped VER5_20210118 (its warranty page reads effective March 4, 2020) and prints no number.
+The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`) and, where the owner's manual prints one on its cover, from the manual itself; a row reading *not confirmed* has no settled number yet. The table's only ERG650W row is "Xterra ERG650W (NS)" 165918 (no date). The owner's manual is stamped VER5_20210118 (its warranty page reads effective March 4, 2020) and prints no number. The ERG650W's hardware kit and assembly steps are item for item the Spirit CRW800 H2O's; the two are sold under different brands and carded separately.

@@ -3,8 +3,8 @@ id: xterra-treadmill-safety-use-during-an-electrical-storm
 title: Never use the treadmill during an electrical storm, and the books that add
   unplug it
 kind: policy
-question: Can an Xterra treadmill, bike, elliptical or seated stepper be used during
-  a thunderstorm or electrical storm?
+question: Can an Xterra treadmill, bike, elliptical, seated stepper or rower be used
+  during a thunderstorm or electrical storm?
 asked_as:
 - can i use the treadmill in a thunderstorm
 - should i unplug the treadmill during a storm
@@ -24,6 +24,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg800w-2023
   - fs58e-2013
   - fs59e-2014
   - rsx1500-2021
@@ -64,6 +65,9 @@ see_also:
 - xterra-safety-electrical-and-operation-instructions-40-to-120-f
 - xterra-sb-safety-electrical-safety-page
 - xterra-safety-distractions-while-exercising
+- erg800w-2023-safety-electrical-safety-page
+- xterra-rower-safety-battery-console-no-power-adapter
+- xterra-erg-safety-external-power-supply-and-power-jack
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'IMPORTANT OPERATION INSTRUCTIONS: TR150 OM PDF p. 7 (lines 209-244); TR200
@@ -82,7 +86,8 @@ source:
     134-172); 2017 printing PDF p. 5 (OCR supplement from line 180); SB4500 OM PDF
     p. 5 (printed 3; lines 134-163); SB4.5r OM PDF p. 5 (printed 3; OCR supplement
     from line 163); SB500 OM PDF p. 5 (printed 3; lines 123-169); 2014 printing PDF
-    p. 5 (OCR supplement from line 152)'
+    p. 5 (OCR supplement from line 152); the same rule on the water rower: ERG800W
+    OM PDF p. 9 (printed 8; lines 232-269)'
   extracted_at: '2026-09-11'
 ---
 
@@ -119,4 +124,11 @@ say nothing about storms.
 |---|---|
 | SB500 (both printings), SB4.5r, SB4500, RSX1500 (both printings), FS5.8e, FS5.9e | `NEVER use your [fitness bike / Seated Stepper / elliptical] during an electrical storm. Surges may occur in your household power supply that could damage [machine] components.` - the older wording, no unplug sentence (`xterra-safety-electrical-and-operation-instructions-40-to-120-f`) |
 | SB240, SB600 | the new-layout wording with `Unplug the unit during an electrical storm as a precaution.` (`xterra-sb-safety-electrical-safety-page`) |
+
+**Rowers.** One of the eleven rower books prints the rule - the ERG800W, in the new-layout wording
+with the unplug sentence, on its Electrical Safety page (`erg800w-2023-safety-electrical-safety-page`).
+The other ten say nothing about storms: eight are battery consoles with no electrical page
+(`xterra-rower-safety-battery-console-no-power-adapter`), and the two other plug-in rowers, the ERG400
+and ERG700, print only the Power paragraph (`xterra-erg-safety-external-power-supply-and-power-jack`).
+The four strength books have no electrical part.
 

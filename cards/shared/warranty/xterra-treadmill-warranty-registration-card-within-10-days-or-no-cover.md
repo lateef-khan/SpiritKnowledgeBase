@@ -5,7 +5,8 @@ title: Registering within ten days by card, or online, or the product is exclude
 kind: policy
 question: Do I have to register an Xterra TR150, TR200, TR300, TR6.6, TRX1000, TR260,
   TR6.4, TRX2500, TRX3500, TRX4500 or TRX5500 treadmill, or an older-layout Xterra
-  bike, elliptical or seated stepper, for the warranty, and how?
+  bike, elliptical, seated stepper, rower or strength product, for the warranty, and
+  how?
 asked_as:
 - do i have to register my xterra treadmill
 - how do i register the warranty
@@ -28,8 +29,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -86,6 +99,8 @@ see_also:
 - xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item
 - sb45r-2013-warranty-exclusions-eight-items-no-residential-setting-item
 - fs58e-2013-warranty-page-not-in-the-scanned-manual
+- xterra-strength-warranty-consumer-responsibilities-four-items-no-power-supply-item
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'REGISTER YOUR PURCHASE on the registration page; responsibility 1 and
@@ -166,7 +181,32 @@ source:
     August 1, 2014; RSX1500 2017 printing: registration PDF p. 3, OCR lines 58-105;
     warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145, effective December
     20, 2017; SB120 service document PDF p. 1, lines 1-32; FB160 service document
-    PDF p. 1, lines 1-22'
+    PDF p. 1, lines 1-22; ERG160 (erg160-2020) registration PDF p. 3 (printed 1),
+    lines 38-79; ERG220 (erg220-2023) registration PDF p. 4 (printed 1), lines 50-96;
+    ERG400 (erg400-2015) registration PDF p. 3 (scan of printed 4), OCR lines 53-93;
+    ERG500 (erg500-2018) registration PDF p. 3 (printed 1), lines 48-75; ERG550W (erg550w-2023)
+    registration PDF p. 3 (printed 1), lines 46-72; ERG600W (erg600w-2021) registration
+    PDF p. 3 (printed 1), lines 49-75; ERG650W (erg650w-2021) registration PDF p.
+    4 (printed 1), lines 49-75; ERG700 (erg700-2022) registration PDF p. 4 (printed
+    1), lines 51-88 (ATTENTION box on the contents page, PDF p. 3, lines 11-51); ADB12.5PR
+    (adb125pr-2022) registration PDF p. 3 (printed 1), lines 30-66 (ATTENTION box
+    on the contents page, PDF p. 2, lines 6-30); ADB25 (adb25-2022) registration PDF
+    p. 3 (printed 1), lines 30-66 (ATTENTION box PDF p. 2, lines 6-30); ADB55 (adb55-2022)
+    registration PDF p. 3 (printed 1), lines 30-66 (ATTENTION box PDF p. 2, lines
+    6-30); DBSTAND (dbstand-2022) registration PDF p. 3 (printed 1), lines 30-66 (ATTENTION
+    box PDF p. 2, lines 8-30); ERG160 (erg160-2020) PDF p. 23 (printed 21), lines
+    803-874, effective January 06, 2020; ERG220 (erg220-2023) PDF p. 22 (printed 19),
+    lines 652-723, effective March 15th, 2023; ERG400 (erg400-2015) PDF p. 14 (scan
+    of printed 15), OCR lines 405-495, effective August 1, 2012; ERG500 (erg500-2018)
+    PDF p. 20 (printed 18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023)
+    PDF p. 25 (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022; ADB12.5PR (adb125pr-2022)
+    PDF p. 8 (printed 6), lines 201-272, effective June 16, 2022; ADB25 (adb25-2022)
+    PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022; ADB55 (adb55-2022)
+    PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022; DBSTAND (dbstand-2022)
+    PDF p. 11 (printed 9), lines 246-317, effective June 16, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -218,6 +258,15 @@ The TRX1000 and TR260 give the owner only the mailed card; the TRX5500 sends the
 | EU150 (eu150-2024) | p. 4 | www.xterrafitness.com/warranty; item 1 adds http://www.xterrafitness.com/warrantyreg.html |
 | FS5.8e (fs58e-2013) | p. 3 | www.xterrafitness.com/warrantyreg.html; **no warranty page in the scan**, so the ten-day item and exclusion 7 are unconfirmed for it |
 
-**The eight Online-Support treadmill books, and the FB180, SB240 and SB600, do not impose this deadline.** They print a QR code and a Support-tab address and never make registration a duty (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`). Do not tell a TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200, WS300, FB180, SB240 or SB600 owner they had ten days.
+**Which online address the rower and strength books print** - the same three passages, with the rower books' customer-service number being (870) 333-5500 in most of them (`xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints`):
+
+| Book | Registration page | Online registration address printed |
+|---|---|---|
+| ERG160 (erg160-2020), ERG220 (erg220-2023), ERG500 (erg500-2018), ERG600W (erg600w-2021), ERG650W (erg650w-2021) | p. 3 / p. 4 / p. 3 / p. 3 / p. 4 | www.xterrafitness.com/warrantyreg.html; item 1 says *the XTERRA Fitness website* |
+| ERG400 (erg400-2015) | p. 3 (scan of printed 4) | www.xterrafitness.com/warrantyreg.html; item 1 adds http://www.xterrafitness.com/warrantyreg.html |
+| ERG550W (erg550w-2023), ERG700 (erg700-2022) | p. 3 / p. 4 | www.xterrafitness.com/warranty; item 1 says *the XTERRA Fitness website* |
+| ADB12.5PR (adb125pr-2022), ADB25 (adb25-2022), ADB55 (adb55-2022), DBSTAND (dbstand-2022) | p. 3 | www.xterrafitness.com/warranty; item 1 says *the XTERRA Fitness website* - **and no card is mentioned anywhere in the four strength books**: their registration page says only *Please complete your registration today* and *Go to www.xterrafitness.com/warranty to register online*, and their item 1 reads *the warranty registration must be completed within 10 days*, not *the warranty registration card* (`xterra-strength-warranty-consumer-responsibilities-four-items-no-power-supply-item`). Register online. |
+
+**The eight Online-Support treadmill books, and the FB180, SB240 and SB600, do not impose this deadline** - nor do the ERG180, ERG750W and ERG800W rowers. They print a QR code and a Support-tab address and never make registration a duty (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`). Do not tell a TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200, WS300, FB180, SB240, SB600, ERG180, ERG750W or ERG800W owner they had ten days.
 
 The same ten-day rule in the same words is on the Spirit CT800 (`spirit-ct800-warranty-registration`) and the 2015 XT (`xt-2015-warranty-registration`) pages, and on the Sole 2026 pages (`f65-2026-warranty-registration-requirement`).

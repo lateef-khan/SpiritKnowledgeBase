@@ -25,6 +25,8 @@ facets:
   model: '*'
   applies_to:
   - air650-2021
+  - erg180-2023
+  - erg800w-2023
   - fs59e-2014
   - sb600-2023
   - tr65-2023
@@ -50,7 +52,8 @@ source:
     OM p. 24 lines 612-642; TR85 OM p. 32 lines 919-950; TR95H OM p. 40 lines 1437-1467;
     TR75H OM p. 42 lines 1267-1297; AIR650 OM, PDF p. 20, text.md lines 644-672; SB600
     OM, PDF p. 34, text.md lines 806-815; FS5.9e OM (OCR), PDF p. 25, text.md lines
-    1109-1139
+    1109-1139; ERG180 OM, PDF p. 27 (printed 26), text.md lines 796-826; ERG800W OM,
+    PDF p. 51 (printed 50), text.md lines 1650-1680
   extracted_at: '2026-09-11'
 ---
 
@@ -68,4 +71,6 @@ Note: the transmitter activates automatically when it detects heart activity and
 The three books that print this page without the CR2032 line and without "not included" are on [the other strap card](xterra-treadmill-console-wearing-the-chest-strap-and-its-2500-hour-battery.md).
 
 **Three more books name the CR2032.** The AIR650 page is headed "Wearing the Chest Strap (Chest Strap Not Included)" and uses "locking parts"; the SB600 page is the new-layout "HEART RATE CHEST STRAP* (NOT INCLUDED)" with the interlocking key; the FS5.9e page is headed plainly "Wearing The Chest Strap" with the interlocking button and **does not say whether a strap is included** - its heart-rate programs only say "or use the telemetric heart rate strap". On the AIR650 the strap is the only heart-rate source and must be the 5 kHz type ([card](../../air650-2021/console/heart-rate-from-a-wireless-chest-strap-with-no-bluetooth-and-no-grips.md)); on the SB600 the console also takes Bluetooth apps ([card](../../sb600-2023/console/kinomap-and-ftms-apps-take-over-and-blank-the-console.md)).
+
+**Two rowers print the same new-layout page, word for word, with the CR2032 and "not included".** The ERG180 magnetic rower's console reads pulse only from this strap ([ERG180 card](../../erg180-2023/console/mode-and-set-keys-with-scan-every-6-seconds-and-pulse-60-to-240.md)); the ERG800W water rower takes either a 5.3 kHz belt or a Bluetooth belt ([ERG800W card](../../erg800w-2023/console/heart-rate-from-a-5-3-khz-or-bluetooth-chest-belt-not-included.md)). Neither rower has hand-pulse grips. The ERG700's older strap page has no battery type and is on [the other strap card](xterra-treadmill-console-wearing-the-chest-strap-and-its-2500-hour-battery.md).
 

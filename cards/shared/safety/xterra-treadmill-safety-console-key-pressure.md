@@ -3,7 +3,7 @@ id: xterra-treadmill-safety-console-key-pressure
 title: The console keys need only light finger pressure
 kind: fact
 question: How hard should the console keys be pressed on an Xterra 2024 TRX or new-layout
-  treadmill, or an SB240 or SB600 recumbent bike?
+  treadmill, an SB240 or SB600 recumbent bike, or the ERG800W rower?
 asked_as:
 - do i have to press the console buttons hard
 - console keys not responding to a light touch
@@ -22,6 +22,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr65-2023
@@ -46,6 +47,7 @@ see_also:
 - xt-2023-safety-console-key-pressure
 - f65-2026-console-key-pressure
 - xterra-sb-safety-electrical-safety-page
+- erg800w-2023-safety-electrical-safety-page
 source:
   ref: xterra-treadmill-trx2500-2024-owners-manual
   locator: 'the last operation bullet on the electrical page: TRX2500 OM PDF p. 6
@@ -55,7 +57,8 @@ source:
     p. 7 (lines 162-199); TR95H OM PDF p. 7 (lines 161-198); TRX1400 OM PDF p. 7 (lines
     162-199); WS200 OM PDF p. 7 (lines 163-200); WS300 OM PDF p. 7 (lines 164-201);
     the same sentence on the Electrical Safety page of the two new-layout recumbent
-    bikes: SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239)'
+    bikes: SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239); the
+    same sentence on the water rower: ERG800W OM PDF p. 9 (printed 8; lines 232-269)'
   extracted_at: '2026-09-11'
 ---
 
@@ -73,3 +76,8 @@ technique to adopt - and a key that seems slow to act is usually the ramp delay
 
 The Spirit XT-2023 and Sole F65-2026 print the same sentence for their own machines
 (`xt-2023-safety-console-key-pressure`, `f65-2026-console-key-pressure`).
+
+**The ERG800W water rower** closes its Electrical Safety page with the same sentence
+(`erg800w-2023-safety-electrical-safety-page`); the other ten rower books and the strength books do
+not print it.
+

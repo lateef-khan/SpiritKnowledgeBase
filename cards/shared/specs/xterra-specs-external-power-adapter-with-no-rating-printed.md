@@ -4,7 +4,8 @@ title: An external power adapter with no voltage or current rating printed, plug
   into a jack near the front stabilizer
 kind: fact
 question: What power supply does an Xterra SB recumbent or upright bike, FS or EU
-  elliptical, or RSX seated stepper use, and what is the adapter rated?
+  elliptical, RSX seated stepper, or ERG400 or ERG800W rower use, and what is the
+  adapter rated?
 asked_as:
 - what adapter does my xterra bike use
 - xterra elliptical power supply voltage
@@ -26,6 +27,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg400-2015
+  - erg800w-2023
   - eu150-2024
   - fs15-2019
   - fs150-2016
@@ -51,6 +54,8 @@ see_also:
 - xterra-specs-resistance-set-from-the-console-by-a-gear-motor-on-a-magnetic-brake
 - sb600-2023-specs-console-wiring-8-pin-ribbon-cable-2-pin-hand-grip-connectors-and-sensor-wires
 - sb1200-2023-power-supply
+- erg700-2022-specs-power-adapter-ac-100-to-240-v-in-dc-12-v-out-feeding-the-console-and-tension-motor
+- erg800w-2023-specs-console-wiring-a-2-pin-dc-power-cable-and-a-4-pin-sensor-cable-through-the-console-tube
 source:
   ref: xterra-bike-sb150-2018-owners-manual
   locator: 'SB150 OM ''Power'', PDF p. 3 (printed 1), text.md lines 73-84, and step
@@ -71,7 +76,16 @@ source:
     82 p. 10 line 301. RSX1500 ''Plug-In'' label p. 5 line 146 (2017 printing p. 5
     the same). A grep of all sixteen books for V, VDC, mA, A and W beside a number
     finds only the FS3.0''s 9 V 1000 mA line, the SB4500''s watt display range and
-    the chest-strap cell'
+    the chest-strap cell. ERG400 OM (scan, xterra-rower-erg400-2015-owners-manual)
+    ''Power'', PDF p. 3 (printed 4), OCR lines 53-93 (''This product uses an external
+    power supply. The power supply must be plugged into the power jack, located on
+    the front of the unit near the stabilizer tube''). ERG800W OM (xterra-rower-erg800w-2023-owners-manual)
+    ''Adaptor'' and ''Adapter'' in Parts Included, PDF p. 12 (printed 11), lines 362-399,
+    and ''How to Use the Adaptor - Plug the adaptor (K) like the below graphic'',
+    PDF p. 26 (printed 25), lines 767-793; ERG800W service manual parts K ADAPTOR,
+    N2 DC LINE 620mm, A20 DC POWER SUPPLY COVER, PDF pp. 6-8, lines 60-198. Greps
+    of both rower books for V, VDC, mA, A and W beside a number find only the ERG800W''s
+    data-table watt range'
   extracted_at: '2026-09-11'
 ---
 
@@ -96,4 +110,14 @@ The adapter feeds the console and the gear motor that sets the resistance
 other fourteen machines need no adapter. Outlet, grounding and surge rules are on the safety section's electrical
 cards. The Sole SB1200 prints its supply as DC 12 V (`sb1200-2023-power-supply`); that figure is not evidence for
 any Xterra machine.
+
+**Two rowers carry the same gap:**
+
+| Machine | What the book says |
+|---|---|
+| ERG400 | the same "Power" paragraph as the SB150 group, jack "located on the front of the unit near the stabilizer tube"; the console's sixteen levels are set with UP/DOWN (`xterra-specs-resistance-has-16-levels`) |
+| ERG800W | "Adaptor" and "Adapter" both appear in the carton list; "Plug the adaptor (K) like the below graphic" is the whole instruction. The service manual runs its 620 mm DC line up the console tube on a 2-pin plug (`erg800w-2023-specs-console-wiring-a-2-pin-dc-power-cable-and-a-4-pin-sensor-cable-through-the-console-tube`) |
+
+The third adapter-fed Xterra rower, the ERG700, does print a rating - AC 100 to 240 V in, DC 12 V out, on its
+troubleshooting page (`erg700-2022-specs-power-adapter-ac-100-to-240-v-in-dc-12-v-out-feeding-the-console-and-tension-motor`).
 

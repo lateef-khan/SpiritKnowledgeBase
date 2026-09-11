@@ -1,10 +1,9 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11 (late night)** after the
-second Xterra wave (X2) merged. **3a is done. 3b is two waves of three in: X1
-treadmills and X2 bikes / ellipticals / climber / app Q&A merged; X3 (rowers /
-strength) surveyed and its wave table written, not ingested.** Read section 8 first.
-Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-12** after the third and
+last Xterra wave (X3) merged. **3a and 3b are done. Every Spirit, Sole and Xterra
+manual on disk is ingested and carded.** What is left is 3c (section 3c) and the
+open questions in section 3b. Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -16,11 +15,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **9,041** |
+| cards | **9,405** |
 | `kb lint` | 0 problems |
-| declared model ids | **374** (209 Spirit, 116 Sole, 49 Xterra) — every one has at least one card |
-| sources ingested | 546 |
-| machines carrying `model_number` | **284** of 319 with single-machine cards |
+| declared model ids | **389** (209 Spirit, 116 Sole, 64 Xterra) — every one has at least one card |
+| sources ingested | 567 |
+| machines carrying `model_number` | **294** of 334 with single-machine cards |
 
 Check it yourself:
 
@@ -319,6 +318,33 @@ cards, sanitizing). Decisions it settled:
   restricted to the wave's own cards after it cleaned two Spirit and Sole
   see_also lists it had no business touching).
 
+**X3 rowers and strength: done** (PR #62, 2026-09-12) — 11 rower owner's
+manuals (one scan), six rower service manuals (four filed in the Spirit
+folders: ERG160, ERG180, ERG-750W, ERG800W_R80), the ERG750W owner's manual
+from the Spirit owner's folder, and the four dumbbell books; 15 ids, 15 product
+cards, **349 new cards** (assembly 152, console 39, specs 37, safety 36,
+programs 34, errors 25, maintenance 17, warranty 9) and **53 X1/X2 cards
+extended** (24 warranty, 9 safety, 5 console, 5 errors, 5 maintenance, 3 specs,
+2 programs). Decisions:
+
+- Stamps moved three plan years: `erg220-2023` (VER3_20230313 under (c)2019),
+  `erg400-2015` (ERG400_20150205 on the scan), `erg700-2022` (VER6_20220131
+  under (c)2020). The "ER800W" file is the **ERG800W** (the book says so; SKU
+  180913 printed) and the ERG800W_R80 service manual joins it. `erg550w-2023`
+  and the four dumbbells have no `dbo.MODEL` row.
+- Two Dyaco twins across brands, linked not merged: the ERG650W's kit and
+  build are the Spirit CRW800 H2O's; the ERG700's console pages are the Spirit
+  CRW800 / XRW600 and Sole SR500 pages. Noted on the product cards.
+- Only the ERG700 prints error codes (E1 RAM, E2 cable) — the reverse of the
+  Xterra bikes' E1/E2, said on the first line of each card.
+- Rulings on the cards: ERG600W SM 5 mm gap vs a "25MM" photo callout (5 mm);
+  ERG650W race "L1-L5" vs its own 15-level table (15); ERG650W manual-mode
+  pulse 30-240 (copied from the ERG600W) vs 90-200 (90-200); ERG180 "lift the
+  front" (a bike sentence) vs a drawing lifting the rear (rear); ERG750W
+  (870) 335-5500 vs the sticker's 333-5500 (sticker); ERG-750W SM pages
+  headed "Model R48" treated as the ERG750W.
+- Tank capacity tables are `specs`; one maintenance duplicate deleted.
+
 ### 3c. Left over from the model-number work
 
 25 machines have no `model_number`. `reference/model-numbers-open.csv` lists
@@ -431,38 +457,33 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written at the pause, 2026-09-11 late night)
+## 8. Where to pick up (written 2026-09-12)
 
-Everything Spirit and Sole on disk is ingested and carded except what section 3c
-lists, and Xterra waves X1 and X2 are merged. **Next is X3** — rowers and
-strength, 21 sources, 15 ids — and its wave table is already written at the
-session scratchpad's `x3/wave-x3.tsv` (copy below if the scratchpad is gone):
+**Every manual on disk is carded.** Spirit (3a), Sole, and Xterra (3b: X1
+treadmills, X2 bikes / ellipticals / climber / app Q&A, X3 rowers / strength)
+are merged. Three Xterra ids have cards but no `model_number`, and 40 machines
+overall (`kb facet-gaps`) — that is **3c**, and it needs the database or a
+person, not another wave: `reference/model-numbers-open.csv` lists each with
+its candidates. Do not guess them.
 
-```
-erg800w-2023   ER800W_OM_20231018 (the book says ERG800W; Rev 10/18/23; SKU 180913 printed) + ERG800W_R80 SM V1.0 (Spirit folder)
-erg160-2020    ERG160_OM (VER2_20200429) + ERG160 SM V1.0 (Spirit folder); table 116919
-erg180-2023    ERG180_OM_20230801 (two byte-identical copies; Rev 08/01/23; prints 118092, no table row) + ERG180 SM V1.0
-erg220-2023    ERG220_OM (VER3_20230313 under (c)2019 - the stamp wins); table "ERG220W (NS)" 122998
-erg400-2015    ERG400_OM_140914 scan (stamp ERG400_20150205, warranty Aug 1 2012); table 140914 FP 8/18/2014
-erg500-2018    ERG500_OM (VER5_20180821); table 150916
-erg550w-2023   ERG550W_OM (VER3_20230101) + ERG550W SM 2022-11-24; no table row
-erg600w-2021   ERG600W_OM (VER7_20210511) + ERG600W SM; table "ERG600 (NS)" 160918
-erg650w-2021   ERG650W_OM (VER5_20210118, warranty Mar 4 2020); table 165918
-erg700-2022    ERG700_OM (VER6_20220131 under (c)2020); table 170918 FP 2/1/2018
-erg750w-2025   ERG750W_OM_20251112 (Spirit owner's folder; Rev 11.12.2025; prints 175926) + ERG-750W SM (Spirit folder); table 175926
-adb125pr-2022, adb25-2022, adb55-2022, dbstand-2022   the four dumbbell books (stamps *_20220913); no table rows
-```
+Small things a later session could pick up:
 
-`Xterra Service Manuals/CSS-BCUR/` and `.../Ellipticals/` are empty folders.
-`product_line` is `rower` for the ERGs and `strength` for the dumbbells.
+- The **FS5.8e** owner's-manual scan is truncated at printed p. 22 (no
+  maintenance, warranty or chest-strap pages); a complete copy would add a few
+  cards to `fs58e-2013`.
+- `sb150-2018` faces two `dbo.MODEL` rows with the same name (115314 / 115316).
+- `xe150-2005` stays Spirit though the database brands it XTERRA (section 7).
+- The X2 wave's AIR650 rests on the Spirit AB900 service manual by way of a
+  two-page note; if a real AIR650 service manual turns up, its cards are the
+  ones under `cards/air650-2021/` with `spirit-bike-ab900-2018-service-manual`
+  in their locators.
 
-`reference/wave-briefs/` holds the **X2 brief set** (COMMON + eight sections,
-with the "extend same-brand cards across lines" and "rule on contradictions"
-sections) and the scripts: `sweep.py` (dictionary rotation scorer), `pages.py`,
+`reference/wave-briefs/` holds the **X2 brief set** (the most general: a brand
+with existing cards, extension across product lines, the "rule on
+contradictions" section, the filename rule with model *and* section stripped)
+and the scripts: `sweep.py` (dictionary rotation scorer), `pages.py`,
 `reconcile.py`, `fix_rotation.py`, `model_numbers_pass.py`, `dedupe.py`. Copy
 them into the session scratchpad; the briefs name `$S` paths.
-
-Then 3c (the 35 machines without a `model_number`; `kb facet-gaps`).
 
 **How a wave ran today, in one paragraph.** Branch from `main`. Write a
 `wave-*.tsv` (`relative path <TAB> source id <TAB> title <TAB> model ids`),

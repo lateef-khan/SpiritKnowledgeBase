@@ -3,8 +3,8 @@ id: xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory
 title: When the warranty clock starts, and the 18-month fallback when there is no
   receipt
 kind: policy
-question: When does the warranty start on an Xterra treadmill, bike, elliptical or
-  seated stepper, and what happens if I have no sales receipt?
+question: When does the warranty start on an Xterra treadmill, bike, elliptical, seated
+  stepper, rower or strength product, and what happens if I have no sales receipt?
 asked_as:
 - when does my xterra warranty start
 - lost my receipt is the treadmill still under warranty
@@ -27,8 +27,23 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -105,6 +120,12 @@ see_also:
 - xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping
 - fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts
 - fs58e-2013-warranty-page-not-in-the-scanned-manual
+- xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days
+- erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'Opening paragraph and SERVICE paragraph of every warranty page: TR150
@@ -164,7 +185,23 @@ source:
     31-74; warranty PDF p. 23 (scan of printed 21), OCR lines 965-1065, effective
     August 1, 2014; RSX1500 2017 printing: registration PDF p. 3, OCR lines 58-105;
     warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145, effective December
-    20, 2017'
+    20, 2017; ERG160 (erg160-2020) PDF p. 23 (printed 21), lines 803-874, effective
+    January 06, 2020; ERG180 (erg180-2023) PDF pp. 33-35 (printed 32-34), lines 950-1044,
+    effective August 01, 2023; ERG220 (erg220-2023) PDF p. 22 (printed 19), lines
+    652-723, effective March 15th, 2023; ERG400 (erg400-2015) PDF p. 14 (scan of printed
+    15), OCR lines 405-495, effective August 1, 2012; ERG500 (erg500-2018) PDF p.
+    20 (printed 18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023)
+    PDF p. 25 (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022; ERG750W (erg750w-2025)
+    PDF pp. 24-25 (printed 23-24), lines 790-850, effective November 12, 2025; ERG800W
+    (erg800w-2023) PDF pp. 57-59 (printed 56-58), lines 1928-2021, effective September
+    26, 2023; ADB12.5PR (adb125pr-2022) PDF p. 8 (printed 6), lines 201-272, effective
+    June 16, 2022; ADB25 (adb25-2022) PDF p. 8 (printed 6), lines 188-259, effective
+    June 16, 2022; ADB55 (adb55-2022) PDF p. 8 (printed 6), lines 188-259, effective
+    June 16, 2022; DBSTAND (dbstand-2022) PDF p. 11 (printed 9), lines 246-317, effective
+    June 16, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -232,3 +269,22 @@ source:
 | FS3.5 (fs35-2020) | July 06, 2020 | PDF p. 19 (printed 17) |
 | FS5.9e (fs59e-2014) | August 1, 2012 | PDF p. 27 (scan of printed 25) |
 
+**The fifteen rower and strength books open the same way** - *from the date of retail sale, as determined by a sales receipt or in the absence of a sales receipt, eighteen (18) months from the original factory shipping date* - with *Rower*, *Water Rowing Machine*, *adjustable dumbbell* or *Dumbbell Stand* as the noun. Their SERVICE sentence says *establishes the warranty period* in the eight older-layout rower books and the four strength books, *establishes the labor warranty period* in the ERG180 and ERG800W; **the ERG750W prints no SERVICE paragraph at all** (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`). Neither sentence matches their tables either: `xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days`, `erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year`, `xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column`, `erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none`, `erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column`, `xterra-bike-warranty-periods-frame-1-year-parts-90-days-labor-none`, `xterra-warranty-periods-frame-1-year-parts-1-year-labor-none`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`, `sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`. Two rower pages carry a date older than the book's own stamp - the ERG400 (stamped 2015, effective August 1, 2012) and the ERG650W (stamped January 2021, effective March 04, 2020) - the stamp names the book, the date names the terms.
+
+| Rower and strength book | Effective date | Warranty page |
+|---|---|---|
+| ERG160 (erg160-2020) | January 06, 2020 | PDF p. 23 (printed 21) |
+| ERG180 (erg180-2023) | August 01, 2023 | PDF pp. 33-35 (printed 32-34) |
+| ERG220 (erg220-2023) | March 15th, 2023 | PDF p. 22 (printed 19) |
+| ERG400 (erg400-2015) | August 1, 2012 | PDF p. 14 (scan of printed 15) |
+| ERG500 (erg500-2018) | August 21, 2018 | PDF p. 20 (printed 18) |
+| ERG550W (erg550w-2023) | January 1, 2023 | PDF p. 25 (printed 23) |
+| ERG600W (erg600w-2021) | May 11, 2021 | PDF p. 24 (printed 22) |
+| ERG650W (erg650w-2021) | March 04, 2020 | PDF p. 21 (printed 18) |
+| ERG700 (erg700-2022) | January 31, 2022 | PDF p. 27 (printed 24) |
+| ERG750W (erg750w-2025) | November 12, 2025 | PDF pp. 24-25 (printed 23-24) |
+| ERG800W (erg800w-2023) | September 26, 2023 | PDF pp. 57-59 (printed 56-58) |
+| ADB12.5PR (adb125pr-2022) | June 16, 2022 | PDF p. 8 (printed 6) |
+| ADB25 (adb25-2022) | June 16, 2022 | PDF p. 8 (printed 6) |
+| ADB55 (adb55-2022) | June 16, 2022 | PDF p. 8 (printed 6) |
+| DBSTAND (dbstand-2022) | June 16, 2022 | PDF p. 11 (printed 9) |

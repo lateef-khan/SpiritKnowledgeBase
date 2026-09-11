@@ -69,6 +69,7 @@ see_also:
 - fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts
 - fs58e-2013-warranty-page-not-in-the-scanned-manual
 - ms300-2021-warranty-service-contacts
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
 source:
   ref: xterra-bike-sb600-2023-owners-manual
   locator: 'Registration pages: AIR350 (air350-2019) registration PDF p. 4 (printed
@@ -184,7 +185,7 @@ source:
 - **(870) 333-5500** - the same roles in the FB, SB150, SB250, EU and FS150 books, and their back covers. Not printed in any treadmill book.
 - **(800) 258-8511** / **1-800-258-8511** - the service department in step 3 of the AIR, MB, SB120 and UB120 books; *questions about the warranty* and *technical service* on the AIR650 and MB registration pages; customer care on the cover and back cover of the three Online-Support books (FB180, SB240, SB600).
 - **(870) 935-1107** - the service department in step 3 of the SB240 and SB600 only; the number the Spirit manuals print for Spirit's service department, as in the Online-Support treadmill books.
-- **(870) 335-5500** - printed once, on the FB180 registration page. Its own label page prints 333-5500 a page later and no other Xterra book prints 335-5500; **treat it as a misprint of 333-5500** (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`).
+- **(870) 335-5500** - printed once, on the FB180 registration page. Its own label page prints 333-5500 a page later, and the only other Xterra book that prints 335-5500 is the ERG750W water rower, the same way (`xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints`); **treat it as a misprint of 333-5500** (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`).
 
 **Email, fax, street and postal addresses.** *questions@xterrafitness.com* appears only on the Online-Support covers (FB180, SB240, SB600). Every back cover in the wave prints **3000 Nestle Road, Jonesboro, AR 72401** and **Fax 870-935-7611** - the FS150 and FS5.8e files end without one, and the SB4.5r scan crops its back cover to *AR 72401 Phone:870-336-42*; the MB500, MB550, SB500 and FS5.9e back covers give the website as **www.xterrafitnessstore.com**, the rest **www.xterrafitness.com**. Every warranty page closes with the postal address for the service department, **XTERRA Fitness, Inc., P.O. Box 2037, Jonesboro, AR 72402-2037** - the FB180, which prints no SERVICE steps, is the one book without it, and the FS5.8e's warranty page is not in the scan (`fs58e-2013-warranty-page-not-in-the-scanned-manual`).
 

@@ -3,8 +3,8 @@ id: xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the
 title: The order of steps for getting warranty service, and the return authorization
   rule
 kind: procedure
-question: How do I get warranty service on an Xterra treadmill, bike, elliptical or
-  seated stepper, and can I ship it back to the factory?
+question: How do I get warranty service on an Xterra treadmill, bike, elliptical,
+  seated stepper, rower or strength product, and can I ship it back to the factory?
 asked_as:
 - how do i get warranty service on my xterra
 - who do i call for xterra warranty repair
@@ -27,8 +27,22 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -89,6 +103,7 @@ see_also:
 - xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping
 - fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts
 - fs58e-2013-warranty-page-not-in-the-scanned-manual
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'SERVICE, steps 1-6, on the warranty page of every book: TR150 (tr150-2021)
@@ -146,7 +161,23 @@ source:
     SB500 2014 printing: registration PDF p. 3, OCR lines 31-74; warranty PDF p. 23
     (scan of printed 21), OCR lines 965-1065, effective August 1, 2014; RSX1500 2017
     printing: registration PDF p. 3, OCR lines 58-105; warranty PDF p. 26 (scan of
-    printed 24), OCR lines 1047-1145, effective December 20, 2017'
+    printed 24), OCR lines 1047-1145, effective December 20, 2017; ERG160 (erg160-2020)
+    PDF p. 23 (printed 21), lines 803-874, effective January 06, 2020; ERG180 (erg180-2023)
+    PDF pp. 33-35 (printed 32-34), lines 950-1044, effective August 01, 2023; ERG220
+    (erg220-2023) PDF p. 22 (printed 19), lines 652-723, effective March 15th, 2023;
+    ERG400 (erg400-2015) PDF p. 14 (scan of printed 15), OCR lines 405-495, effective
+    August 1, 2012; ERG500 (erg500-2018) PDF p. 20 (printed 18), lines 542-613, effective
+    August 21, 2018; ERG550W (erg550w-2023) PDF p. 25 (printed 23), lines 846-917,
+    effective January 1, 2023; ERG600W (erg600w-2021) PDF p. 24 (printed 22), lines
+    683-754, effective May 11, 2021; ERG650W (erg650w-2021) PDF p. 21 (printed 18),
+    lines 575-646, effective March 04, 2020; ERG700 (erg700-2022) PDF p. 27 (printed
+    24), lines 856-927, effective January 31, 2022; ERG800W (erg800w-2023) PDF pp.
+    57-59 (printed 56-58), lines 1928-2021, effective September 26, 2023; ADB12.5PR
+    (adb125pr-2022) PDF p. 8 (printed 6), lines 201-272, effective June 16, 2022;
+    ADB25 (adb25-2022) PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022;
+    ADB55 (adb55-2022) PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022;
+    DBSTAND (dbstand-2022) PDF p. 11 (printed 9), lines 246-317, effective June 16,
+    2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -162,3 +193,5 @@ source:
 **All nineteen treadmill books print these steps** - in the older and 2024 TRX layouts as items 1-6 under SERVICE on the single warranty page, in the Online-Support layout as items 1-5 on the third warranty page with the address as a separate paragraph. **Twenty-eight bike, elliptical and seated-stepper books print them too**, with two departures. Ten of them - the SB150, SB250, SB2.5r, EU100, EU150, FS150, FS1.5, FS2.5, FS3.0 and FS3.5 - run step 5's packaging and return-authorization text straight on from step 4 and drop the trip-charge sentences, so their list is five steps with the address as step 5 (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`). And the FB160 and FB360 open the paragraph with *three (3) months* where every other book says twelve and eighteen (`xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping`). **The FB180 prints no SERVICE section at all** - no steps, no return-authorization rule, no service-department number (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`); the FS5.8e scan has no warranty page (`fs58e-2013-warranty-page-not-in-the-scanned-manual`). The remedy is stated twice: the opening paragraph promises *new or remanufactured parts, at XTERRA Fitness's option, and technical support to our independent dealers and servicing organizations*, administered directly to a consumer only where there is no dealer or service organization.
 
 The steps are the Spirit ones with the brand changed (`xt-2023-warranty-service-steps`); the sentence before them about the twelve- and eighteen-month periods is `xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping`.
+
+**Fourteen rower and strength books print the steps too.** Step 3's number is **(870) 333-5500** in the ERG160, ERG220, ERG500, ERG550W, ERG600W, ERG650W and ERG700; **(870) 336-4286** in the ERG400 and the four strength books; **(870) 935-1107** in the ERG180 and ERG800W (`xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints`). The ERG400 runs step 5's packaging and return-authorization text straight on from step 4 and drops the trip charge, so its list is five steps with the address as step 5 (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`); the ERG180 and ERG800W print items 1-5 with the address as a paragraph, as the Online-Support treadmills do. **The ERG750W prints no SERVICE section at all** - no steps, no return-authorization rule, no service-department number (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`).

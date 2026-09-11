@@ -4,8 +4,8 @@ title: Residential use, or a non-dues paying facility running the machine 5 hour
   a day or less
 kind: policy
 question: Can an Xterra TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 or WS300 treadmill,
-  or an SB240 or SB600 bike, be used in a facility or light commercial setting and
-  keep its warranty?
+  an SB240 or SB600 bike, or an ERG180 or ERG800W rower, be used in a facility or
+  light commercial setting and keep its warranty?
 asked_as:
 - can i use my xterra treadmill in a gym
 - light commercial use warranty
@@ -28,6 +28,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg180-2023
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr65-2023
@@ -50,6 +52,8 @@ see_also:
 - xt-2023-warranty-use-environment
 - sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column
 - sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'Responsibilities lead sentence (first warranty page) and exclusions 2
@@ -64,7 +68,10 @@ source:
     August 07 2023, text.md lines 936-1029; WS300 (ws300-2023) pp. 32-34 (printed
     31-33), effective August 07 2023, text.md lines 889-982. SB240 (sb240-2023) PDF
     pp. 38-40 (printed 37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023)
-    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
+    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023; ERG180
+    (erg180-2023) PDF pp. 33-35 (printed 32-34), lines 950-1044, effective August
+    01, 2023; ERG800W (erg800w-2023) PDF pp. 57-59 (printed 56-58), lines 1928-2021,
+    effective September 26, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -77,3 +84,5 @@ Exclusion 8, on the second: the warranty does not cover *Product use in any envi
 So the covered envelope is a home, **or** a facility that charges no dues and runs the machine **five hours a day or less**. A dues-paying gym is outside it. No light-commercial table with shorter periods is printed; the one table is headed *Home Use Limited Warranty* and its *Residential* row applies (`tr65-2023-warranty-periods-frame-motor-lifetime-parts-and-labor-1-year`, `xterra-tr-warranty-periods-frame-motor-lifetime-parts-2-years-labor-1-year`, `xterra-tr-warranty-periods-frame-lifetime-parts-2-years-labor-1-year-no-motor-column`, `xterra-treadmill-warranty-periods-frame-lifetime-parts-and-labor-90-days-no-motor-column`). No contents-page ATTENTION box appears in these eight treadmill books, nor in the SB240 and SB600, which print the same two sentences with *Recumbent Bike* for *treadmill* (`sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`). The FB180, in the same layout, does **not** admit a facility - its exclusion 8 stops at *residential setting* (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`).
 
 **The eleven older-layout Xterra books admit no facility at all** - residential only, any other application voids the warranty in its entirety (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`). This wording is the Spirit XT 2023 wording (`xt-2023-warranty-use-environment`).
+
+**The ERG180 and ERG800W rowers print the same two sentences**, with *Rower* and *Water Rowing Machine* for *treadmill*, and no ATTENTION box (`erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column`, `xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column`). The ERG750W, in the same layout, does **not** admit a facility - its exclusion 8 stops at *residential setting* (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`).

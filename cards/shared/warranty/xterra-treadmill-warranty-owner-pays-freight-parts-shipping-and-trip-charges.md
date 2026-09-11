@@ -4,7 +4,8 @@ title: What the owner pays during a warranty repair - freight, parts shipping, a
   a trip charge that doubles beyond 100 miles
 kind: policy
 question: What costs do I have to pay for warranty service on an Xterra treadmill,
-  bike, elliptical or seated stepper - shipping, parts, or a technician visit?
+  bike, elliptical, seated stepper, rower or strength product - shipping, parts, or
+  a technician visit?
 asked_as:
 - do i pay shipping for warranty parts on my xterra
 - is there a trip charge for in home warranty service
@@ -27,8 +28,21 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg800w-2023
   - fb150-2021
   - fb160-2019
   - fb350-2021
@@ -125,7 +139,21 @@ source:
     PDF p. 3, OCR lines 31-74; warranty PDF p. 23 (scan of printed 21), OCR lines
     965-1065, effective August 1, 2014; RSX1500 2017 printing: registration PDF p.
     3, OCR lines 58-105; warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145,
-    effective December 20, 2017'
+    effective December 20, 2017; ERG160 (erg160-2020) PDF p. 23 (printed 21), lines
+    803-874, effective January 06, 2020; ERG180 (erg180-2023) PDF pp. 33-35 (printed
+    32-34), lines 950-1044, effective August 01, 2023; ERG220 (erg220-2023) PDF p.
+    22 (printed 19), lines 652-723, effective March 15th, 2023; ERG500 (erg500-2018)
+    PDF p. 20 (printed 18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023)
+    PDF p. 25 (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022; ERG800W (erg800w-2023)
+    PDF pp. 57-59 (printed 56-58), lines 1928-2021, effective September 26, 2023;
+    ADB12.5PR (adb125pr-2022) PDF p. 8 (printed 6), lines 201-272, effective June
+    16, 2022; ADB25 (adb25-2022) PDF p. 8 (printed 6), lines 188-259, effective June
+    16, 2022; ADB55 (adb55-2022) PDF p. 8 (printed 6), lines 188-259, effective June
+    16, 2022; DBSTAND (dbstand-2022) PDF p. 11 (printed 9), lines 246-317, effective
+    June 16, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -139,3 +167,5 @@ Warranty step 4 puts four costs on the customer even while the machine is under 
 The sentence before them sets the frame: XTERRA Fitness' obligation is *limited to repairing or replacing, at XTERRA Fitness' option, the product through one of our authorized service centers*, and **all repairs must be preauthorized**. No figure is printed for the trip charge or the shipping; the books state only who pays.
 
 **The same paragraph is in all nineteen Xterra treadmill books**, in the older, 2024 TRX and Online-Support layouts alike, **and in eighteen bike, elliptical and seated-stepper books** (AIR350, AIR650, FB150, FB350, FB160, FB360, MB500, MB550, MBX2500, SB120, SB240, SB4500, SB4.5r, SB500, SB600, UB120, RSX1500, FS5.9e, both printings of the SB500 and RSX1500). **Ten bike and elliptical books print a shorter step 4 that stops after shipping and handling and names no trip charge** - the SB150, SB250, SB2.5r, EU100, EU150, FS150, FS1.5, FS2.5, FS3.0 and FS3.5 (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`) - and the FB180 prints no service steps at all (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`). It is the Spirit paragraph with the brand changed (`xt-2023-warranty-owner-costs`, `spirit-2026t-warranty-owner-costs`). Two neighbouring costs sit on other cards: making the treadmill accessible for servicing is consumer responsibility 3 or 4 (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`, `xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`), and packaging for a return is step 5 of `xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the-service-department`, which also carries the return-authorization rule.
+
+**Thirteen rower and strength books print the same paragraph** - ERG160, ERG180, ERG220, ERG500, ERG550W, ERG600W, ERG650W, ERG700, ERG800W, ADB12.5PR, ADB25, ADB55 and DBSTAND. The ERG400 prints the shortened step 4 with no trip charge (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`) and the ERG750W no service steps at all (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`).

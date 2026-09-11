@@ -3,8 +3,9 @@ id: xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voi
 title: Residential use only - any other application voids the warranty in its entirety
 kind: policy
 question: Can an Xterra TR150, TR200, TR300, TR6.6, TRX1000, TR260, TR6.4, TRX2500,
-  TRX3500, TRX4500 or TRX5500 treadmill, or an older-layout Xterra bike, elliptical
-  or seated stepper, be used in a gym, office or rental and keep its warranty?
+  TRX3500, TRX4500 or TRX5500 treadmill, or an older-layout Xterra bike, elliptical,
+  seated stepper, rower or strength product, be used in a gym, office or rental and
+  keep its warranty?
 asked_as:
 - can i use my xterra treadmill in a gym
 - is the warranty valid for commercial use
@@ -27,8 +28,21 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -84,6 +98,8 @@ see_also:
 - fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
 - xterra-fb-warranty-front-page-90-day-statement-not-transferable-and-no-commercial-use
 - fs58e-2013-warranty-page-not-in-the-scanned-manual
+- erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'ATTENTION box on the contents page (TR150 p. 3 lines 16-54; TR200 p. 3
@@ -160,7 +176,34 @@ source:
     PDF p. 3 (scan of printed 1), OCR lines 43-90; FS5.9e (fs59e-2014) registration
     PDF p. 3 (scan of printed 1), OCR lines 43-84; FB180 (fb180-2025) registration
     PDF p. 4 (printed 3), lines 51-86, and the 90-day statement PDF p. 7 (printed
-    6), lines 148-180'
+    6), lines 148-180; ERG160 (erg160-2020) PDF p. 23 (printed 21), lines 803-874,
+    effective January 06, 2020; ERG220 (erg220-2023) PDF p. 22 (printed 19), lines
+    652-723, effective March 15th, 2023; ERG400 (erg400-2015) PDF p. 14 (scan of printed
+    15), OCR lines 405-495, effective August 1, 2012; ERG500 (erg500-2018) PDF p.
+    20 (printed 18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023)
+    PDF p. 25 (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022; ADB12.5PR (adb125pr-2022)
+    PDF p. 8 (printed 6), lines 201-272, effective June 16, 2022; ADB25 (adb25-2022)
+    PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022; ADB55 (adb55-2022)
+    PDF p. 8 (printed 6), lines 188-259, effective June 16, 2022; DBSTAND (dbstand-2022)
+    PDF p. 11 (printed 9), lines 246-317, effective June 16, 2022; ERG750W (erg750w-2025)
+    PDF pp. 24-25 (printed 23-24), lines 790-850, effective November 12, 2025; ATTENTION
+    boxes: ERG160 (erg160-2020) registration PDF p. 3 (printed 1), lines 38-79; ERG220
+    (erg220-2023) registration PDF p. 4 (printed 1), lines 50-96; ERG400 (erg400-2015)
+    registration PDF p. 3 (scan of printed 4), OCR lines 53-93; ERG500 (erg500-2018)
+    registration PDF p. 3 (printed 1), lines 48-75; ERG550W (erg550w-2023) registration
+    PDF p. 3 (printed 1), lines 46-72; ERG600W (erg600w-2021) registration PDF p.
+    3 (printed 1), lines 49-75; ERG650W (erg650w-2021) registration PDF p. 4 (printed
+    1), lines 49-75; ERG700 (erg700-2022) registration PDF p. 4 (printed 1), lines
+    51-88 (ATTENTION box on the contents page, PDF p. 3, lines 11-51); ADB12.5PR (adb125pr-2022)
+    registration PDF p. 3 (printed 1), lines 30-66 (ATTENTION box on the contents
+    page, PDF p. 2, lines 6-30); ADB25 (adb25-2022) registration PDF p. 3 (printed
+    1), lines 30-66 (ATTENTION box PDF p. 2, lines 6-30); ADB55 (adb55-2022) registration
+    PDF p. 3 (printed 1), lines 30-66 (ATTENTION box PDF p. 2, lines 6-30); DBSTAND
+    (dbstand-2022) registration PDF p. 3 (printed 1), lines 30-66 (ATTENTION box PDF
+    p. 2, lines 8-30)'
   extracted_at: '2026-09-11'
 ---
 
@@ -173,3 +216,5 @@ source:
 No light-commercial table, no hours-per-day allowance and no facility of any kind is admitted; the only warranty table printed is headed *Home Use Limited Warranty* (`xterra-treadmill-warranty-periods-frame-lifetime-motor-1-year-parts-and-labor-90-days`, `xterra-treadmill-warranty-periods-frame-motor-lifetime-deck-parts-labor-1-year`, `xterra-treadmill-warranty-periods-frame-motor-lifetime-deck-5-years-parts-2-years-labor-1-year`, `tr64-2024-warranty-periods-frame-motor-lifetime-deck-3-years-parts-and-labor-1-year`, `trx3500-2024-warranty-periods-frame-motor-lifetime-deck-2-years-parts-2-years-labor-1-year`).
 
 **The eight Online-Support Xterra treadmill books, and the SB240 and SB600, are wider**: their exclusion 8 admits a *non-dues paying facility with 5 hours use or less per day* and their exclusion 2 speaks of *household or light commercial use* (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day`). A TR65 in a small non-dues facility is inside its warranty; a TR6.4 in the same room is not.
+
+**The rower and strength books.** Seven older-layout rower books and the four strength books print the ATTENTION box - on the registration page in the ERG220, ERG500, ERG550W, ERG600W and ERG650W, on the contents page in the ERG400, ERG700 and the four strength books (which write *WARRANTED FOR THIS APPLICATION*) - with *ROWER*, *Fitness rower*, *ADJUSTABLE DUMBBELL* or *DUMBBELL STAND* as the noun; all twelve print the lead sentence and the residential-setting exclusion (item 8, or 7 in the eight-item ERG400 list). **The ERG160 prints no ATTENTION box at all** - checked in the text layer, with a spacing-tolerant search for *RESIDENTIAL*, and in an OCR of renders of its contents and registration pages - so only its lead sentence and exclusion 8 carry the rule. **The ERG750W**, in the Online-Support layout, prints no box either; its exclusion 8 stops at *residential setting* like the FB180's (`fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`) while its item 2 speaks of *light commercial use*, and this card follows item 8. The ERG220's front-page one-year statement adds *commercial or other income producing purposes* in its own words (`erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table`). The ERG180 and ERG800W admit a non-dues facility (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day`).

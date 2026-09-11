@@ -4,7 +4,7 @@ title: The Proposition 65 warning naming Toluene and Acrylamide, printed in the 
   or on a sticker
 kind: policy
 question: What is the California Proposition 65 warning on an Xterra treadmill, bike,
-  elliptical or seated stepper, and where is the sticker?
+  elliptical, seated stepper, rower or dumbbell, and where is the sticker?
 asked_as:
 - what is the prop 65 warning on my treadmill
 - does the xterra treadmill cause cancer
@@ -27,8 +27,22 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -84,6 +98,9 @@ see_also:
 - xterra-safety-no-proposition-65-warning-printed
 - xterra-bike-safety-product-labels-page
 - sole-bike-prop-65-warning
+- xterra-rower-safety-product-labels-page
+- xterra-erg-safety-warning-sticker-with-the-yellow-belt-mark
+- xterra-strength-safety-instructions-list-20-items
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the WARNING on the safety page (older and 2024 TRX books) or the PROPOSITION
@@ -114,7 +131,19 @@ source:
     FB180 OM PDF p. 5 (printed 4; lines 85-111; sticker text from the OCR supplement
     at line 651); SB240 OM PDF p. 5 (printed 4; lines 91-126; sticker text from the
     OCR supplement at line 1361); SB600 OM PDF p. 5 (printed 4; lines 90-126; sticker
-    text from the OCR supplement at line 1234)'
+    text from the OCR supplement at line 1234); rowers - the WARNING on the safety
+    page: ERG160 OM PDF p. 4 (printed 2; lines 79-118); ERG220 OM PDF p. 5 (printed
+    2; lines 96-149); ERG500 OM PDF p. 4 (printed 2; lines 75-129); ERG550W OM PDF
+    p. 4 (printed 2; lines 72-127); ERG600W OM PDF p. 4 (printed 2; lines 75-129);
+    ERG650W OM PDF p. 5 (printed 2; lines 75-129); ERG700 OM PDF p. 5 (printed 2;
+    lines 88-142); the label on the ERG220 drawing: ERG220 OM PDF p. 6 (printed 3;
+    lines 149-203; OCR supplement at line 736); the sticker on the Product Labels
+    page: ERG180 OM PDF p. 5 (printed 4; lines 90-126; OCR supplement at line 1113);
+    ERG750W OM PDF p. 5 (printed 4; lines 90-116; OCR supplement at line 918); ERG800W
+    OM PDF p. 5 (printed 4; lines 88-121; OCR supplement at line 2103); strength -
+    the WARNING on the safety page: ADB12.5PR OM PDF p. 4 (printed 2; lines 66-118);
+    ADB25 OM PDF p. 4 (printed 2; lines 66-118); ADB55 OM PDF p. 4 (printed 2; lines
+    66-118); DBSTAND OM PDF p. 4 (printed 2; lines 66-118)'
   extracted_at: '2026-09-11'
 ---
 
@@ -159,4 +188,15 @@ the warning; five pre-2018 books do not (`xterra-safety-no-proposition-65-warnin
 | MB500, SB4.5r, FS150, FS5.8e, FS5.9e | **none** - and none in the 2014 SB500 printing or the 2017 RSX1500 printing either | - |
 
 The Sole bikes print the same warning for their own machines (`sole-bike-prop-65-warning`).
+
+**Rowers and strength.** Fourteen of the fifteen rower and strength books carry the warning; the 2015
+ERG400 scan does not (`xterra-safety-no-proposition-65-warning-printed`).
+
+| Books | Where | Names the chemicals |
+|---|---|---|
+| ERG160, ERG220, ERG500, ERG550W, ERG600W, ERG650W, ERG700 | text on the safety page, under a triangle | yes - Toluene and Acrylamide |
+| ADB12.5PR, ADB25, ADB55, DBSTAND | text on the safety page, after the twenty-item list (`xterra-strength-safety-instructions-list-20-items`) | yes |
+| ERG220 | also drawn as a `WARNING: Cancer and Reproductive Harm` label on the front upright, on the Before You Begin page | the label, no |
+| ERG180 | sticker `on the center frame, near the pedals` (`xterra-rower-safety-product-labels-page`) | no |
+| ERG750W, ERG800W | sticker `on the rear stabilizer` | no |
 

@@ -3,7 +3,7 @@ id: xterra-warranty-periods-frame-1-year-parts-1-year-labor-none
 title: Home-use warranty - frame 1 year, parts 1 year, no labor cover
 kind: policy
 question: How long is the warranty on an Xterra AIR350 air bike, SB150 or SB250 recumbent
-  bike, EU100 or EU150 hybrid elliptical, or FS150 elliptical?
+  bike, EU100 or EU150 hybrid elliptical, FS150 elliptical or ERG220 rower?
 asked_as:
 - how long is the warranty on my xterra elliptical
 - air350 warranty one year
@@ -27,6 +27,7 @@ facets:
   model: '*'
   applies_to:
   - air350-2019
+  - erg220-2023
   - eu100-2018
   - eu150-2024
   - fs150-2016
@@ -44,6 +45,11 @@ not_to_be_confused_with:
 - fs59e-2014-warranty-periods-frame-and-brake-lifetime-parts-7-years-labor-1-year
 - sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year
 - sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column
+- xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days
+- erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
 see_also:
 - xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping
 - xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item
@@ -53,6 +59,8 @@ see_also:
 - xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover
 - spirit-air-bike-warranty-periods
 - spirit-ce-warranty-residential-periods
+- erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
 source:
   ref: xterra-elliptical-eu150-2024-owners-manual
   locator: AIR350 (air350-2019) PDF p. 19 (printed 16), lines 390-461, effective June
@@ -61,7 +69,8 @@ source:
     June 21, 2019; EU100 (eu100-2018) PDF p. 19 (printed 16), lines 528-596, effective
     August 21, 2018; EU150 (eu150-2024) PDF p. 27 (printed 24), lines 736-804, effective
     April 26, 2024; FS150 (fs150-2016) PDF p. 26 (scan of printed 24), OCR lines 1090-1181,
-    effective June 6, 2016
+    effective June 6, 2016; ERG220 (erg220-2023) PDF p. 22 (printed 19), lines 652-723,
+    effective March 15th, 2023
   extracted_at: '2026-09-11'
 ---
 
@@ -83,5 +92,8 @@ source:
 | EU100 (eu100-2018) | August 21, 2018 | PDF p. 19 (printed 16) |
 | EU150 (eu150-2024) | April 26, 2024 | PDF p. 27 (printed 24) |
 | FS150 (fs150-2016) | June 6, 2016 | PDF p. 26 (scan of printed 24) |
+| ERG220 (erg220-2023) | March 15th, 2023 | PDF p. 22 (printed 19) |
 
 **Which other pages go with this table.** The SB150, SB250, EU100, EU150 and FS150 print the eight-item exclusion list without a service-call item (`xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item`) and a step 4 that names no trip charge (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`); the AIR350 prints the nine-item list and the full step 4 (`xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`, `xterra-treadmill-warranty-owner-pays-freight-parts-shipping-and-trip-charges`). All six require the registration card within ten days (`xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover`). Same-brand tables with other figures: `xterra-bike-warranty-periods-frame-1-year-parts-90-days-labor-none`, `xterra-bike-warranty-periods-frame-lifetime-parts-1-year-labor-1-year`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`, `xterra-warranty-periods-frame-and-brake-lifetime-parts-3-years-labor-1-year`, `sb45r-2013-warranty-periods-frame-and-brake-lifetime-parts-5-years-labor-1-year`, `fs59e-2014-warranty-periods-frame-and-brake-lifetime-parts-7-years-labor-1-year`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`, `sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`.
+
+**The ERG220 folding rower prints the same row** - *Frame 1 Year / Parts 1 Year / Labor None*, *Effective March 15th, 2023*, with the nine-item exclusion list, the full step 4 with a trip charge and the registration card within ten days, like the AIR350. Its registration page also carries a *Manufacture's One-Year Limited Warranty* paragraph, which for once agrees with the table (`erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table`). The other rower tables are `xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days`, `erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year`, `xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column`, `erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none`, `erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column`, `xterra-bike-warranty-periods-frame-1-year-parts-90-days-labor-none`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`, `sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`.

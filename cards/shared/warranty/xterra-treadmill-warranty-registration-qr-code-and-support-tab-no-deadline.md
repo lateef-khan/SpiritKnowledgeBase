@@ -4,8 +4,8 @@ title: Registering by QR code or under the Support tab, with no deadline and no 
   exclusion
 kind: policy
 question: How do I register an Xterra TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200
-  or WS300 treadmill or an FB180, SB240 or SB600 bike, and is registration required
-  for the warranty?
+  or WS300 treadmill, an FB180, SB240 or SB600 bike, or an ERG180, ERG750W or ERG800W
+  rower, and is registration required for the warranty?
 asked_as:
 - how do i register my xterra treadmill
 - scan the qr code to register
@@ -28,6 +28,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg180-2023
+  - erg750w-2025
+  - erg800w-2023
   - fb180-2025
   - sb240-2023
   - sb600-2023
@@ -53,6 +56,10 @@ see_also:
 - xt-2023-warranty-registration
 - xterra-warranty-support-contacts-which-phone-number-each-bike-elliptical-and-climber-book-prints
 - fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'Online Support and Warranty Registration panels, PDF p. 1; PRODUCT REGISTRATION,
@@ -79,7 +86,12 @@ source:
     lines 90-126; covers PDF p. 1; exclusion 6: FB180 (fb180-2025) PDF pp. 18-19 (printed
     17-18), lines 529-590, effective June 01, 2025; SB240 (sb240-2023) PDF pp. 38-40
     (printed 37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023)
-    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
+    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023; ERG180
+    (erg180-2023) registration PDF p. 4 (printed 3), lines 56-90, and the Product
+    Labels page PDF p. 5 (printed 4), lines 90-126; ERG750W (erg750w-2025) registration
+    PDF p. 4 (printed 3), lines 55-90, and the Product Labels page PDF p. 5 (printed
+    4), lines 90-116; ERG800W (erg800w-2023) registration PDF p. 4 (printed 3), lines
+    54-88, and the Product Labels page PDF p. 5 (printed 4), lines 88-121'
   extracted_at: '2026-09-11'
 ---
 
@@ -92,10 +104,12 @@ The Product Registration page asks the owner to record the **Serial Number**, th
 
 ## Is registration required?
 
-**These eight treadmill books never say it is, and neither do the FB180, SB240 and SB600.** Registration is not one of the five Responsibilities of the Consumer (`xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`), no 10-day deadline is printed anywhere in the warranty section, and there is no exclusion for an unregistered product. What is printed is exclusion 6: *XTERRA Fitness reserves the right to request proof of purchase if no warranty record exists for the product* (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`). An unregistered machine is therefore not declared void; the owner is exposed to being asked for a receipt - which is why the SERVICE paragraph says to keep the bill of sale, and why the clock falls back to eighteen months from factory shipping without one (`xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping`).
+**These eight treadmill books never say it is, and neither do the FB180, SB240 and SB600, nor the ERG180, ERG750W and ERG800W rowers.** Registration is not one of the five Responsibilities of the Consumer (`xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`), no 10-day deadline is printed anywhere in the warranty section, and there is no exclusion for an unregistered product. What is printed is exclusion 6: *XTERRA Fitness reserves the right to request proof of purchase if no warranty record exists for the product* (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`). An unregistered machine is therefore not declared void; the owner is exposed to being asked for a receipt - which is why the SERVICE paragraph says to keep the bill of sale, and why the clock falls back to eighteen months from factory shipping without one (`xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping`).
 
 **The eleven older-layout Xterra treadmill books and the twenty-six older-layout bike, elliptical and stepper books say the opposite**: a registration card back within ten days, and an unregistered product excluded outright (`xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover`). The book, not the brand, decides.
 
 This is word for word the Spirit XT 2023 registration page with the brand changed (`xt-2023-warranty-registration`).
 
 **Version and revision stamps on the registration page** - the page footer dates each book: TR65 Version 4.0 / 09/28/23; TR75 1.1 / 06/07/24; TR85 1.1 / 06/07/24; TR75H 1.0 / 08/19/25; TR95H 3.0 / 01/19/24; TRX1400 1.0 / 05/09/23; WS200 2.0 / 10/09/23; WS300 2.0 / 10/09/23; SB240 1.0 / 08/16/23; SB600 2.0 / 08/01/23; FB180 1.0 / 04.09.2025.
+
+**The three Online-Support rower books print the same two pages.** The ERG180's serial-number sticker is *on the center frame, near the pedals*, with (870) 333-5500 on both pages; the ERG750W's *on the frame*, with **(870) 335-5500** [sic] on the registration page and (870) 333-5500 on the label page - the FB180 pair again, so 333-5500 is the number; the ERG800W's *on the frame behind the water tank*, with (870) 336-4286 on both (`xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints`). All three print the cover's *Online Support* panel and *Warranty Registration* QR code. Version and revision on their registration pages: ERG180 1.0 / 08/01/23; ERG750W 1.0 / 11.12.2025 (its cover stamp reads 20250409); ERG800W 2.0 / 10/18/23.

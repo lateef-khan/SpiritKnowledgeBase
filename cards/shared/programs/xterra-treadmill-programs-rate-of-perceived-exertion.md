@@ -27,6 +27,9 @@ facets:
   model: '*'
   applies_to:
   - air650-2021
+  - erg180-2023
+  - erg700-2022
+  - erg800w-2023
   - fs30-2018
   - fs58e-2013
   - fs59e-2014
@@ -67,7 +70,17 @@ source:
     TRX5500 p. 29, lines 882-926; TRX1400 p. 26, lines 763-795; TR65 p. 31, lines
     1058-1090; TR75 p. 34, lines 988-1020; TR85 p. 34, lines 987-1019; TR95H p. 42,
     lines 1505-1539; TR75H p. 37, lines 1334-1368; WS200 p. 26, lines 680-712; WS300
-    p. 26, lines 681-713 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11) - SB500 OM "Rate of Perceived Exertion" p. 20 (printed 18), lines 696-740 (2014 printing p. 20, OCR supplement from line 803); SB4.5r OM (scan) p. 21, supplement from line 838; SB4500 p. 24, lines 818-862; SB240 "Heart Rate - Perceived Exertion" p. 34, lines 1041-1070; SB600 p. 37, lines 904-933; AIR650 p. 19, lines 600-644; FS3.0 p. 17, lines 599-643; FS5.8e (scan) p. 24, supplement from line 1017; FS5.9e (scan) p. 24, supplement from line 1051; RSX1500 p. 26, lines 759-803 (2017 printing p. 24, supplement from line 953)
+    p. 26, lines 681-713 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11) - SB500 OM "Rate
+    of Perceived Exertion" p. 20 (printed 18), lines 696-740 (2014 printing p. 20,
+    OCR supplement from line 803); SB4.5r OM (scan) p. 21, supplement from line 838;
+    SB4500 p. 24, lines 818-862; SB240 "Heart Rate - Perceived Exertion" p. 34, lines
+    1041-1070; SB600 p. 37, lines 904-933; AIR650 p. 19, lines 600-644; FS3.0 p. 17,
+    lines 599-643; FS5.8e (scan) p. 24, supplement from line 1017; FS5.9e (scan) p.
+    24, supplement from line 1051; RSX1500 p. 26, lines 759-803 (2017 printing p.
+    24, supplement from line 953) ROWERS (2026-09-11) - ERG800W OM "Heart Rate - Perceived
+    Exertion" PDF p. 54 (printed 53), lines 1749-1778; ERG180 OM p. 30 (29), lines
+    895-924; ERG700 OM "Rate of Perceived Exertion" p. 23 (20), lines 680-736 (OCR
+    supplement from line 1328)
   extracted_at: '2026-09-11'
 ---
 
@@ -110,3 +123,11 @@ SB4500, SB240, SB600, AIR650, FS3.0, FS5.8e, FS5.9e and RSX1500 (both printings)
 scale and the add-a-zero rule word for word (the SB4.5r's "also know as the Borg scale" is
 its only slip). The SB150, SB250, EU150, FS150, SB2.5r, FS1.5, FS2.5, FS3.5 and the twelve
 basic consoles print no perceived exertion page.
+
+**The same page on the rowers.** The ERG800W and ERG180 print the scale and the add-a-zero rule word
+for word with the new-layout treadmill books; the ERG700 prints it in the older single-column layout
+with the SB4.5r's "also know as the Borg scale" slip and the "your pace will feel easier ... harder"
+wording. The ERG160, ERG220, ERG400, ERG500, ERG550W, ERG600W, ERG650W and ERG750W books print no
+perceived exertion page (grep for *exertion* and *Borg* finds nothing), and the four adjustable
+dumbbell and stand books do not either.
+

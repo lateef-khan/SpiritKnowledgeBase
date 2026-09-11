@@ -4,7 +4,8 @@ title: What the warranty does not cover - nine items, with a non-dues facility a
   and no registration exclusion
 kind: policy
 question: What is not covered by the warranty on the Xterra TR65, TR75, TR85, TR75H,
-  TR95H, TRX1400, WS200 and WS300 treadmills and the SB240 and SB600 bikes?
+  TR95H, TRX1400, WS200 and WS300 treadmills, the SB240 and SB600 bikes, and the ERG180
+  and ERG800W rowers?
 asked_as:
 - what does the xterra warranty not cover
 - warranty exclusions
@@ -27,6 +28,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg180-2023
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr65-2023
@@ -51,6 +54,8 @@ see_also:
 - xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day
 - xterra-treadmill-warranty-48-contiguous-states-not-alaska-or-hawaii
 - xt-2023-warranty-exclusions
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'What is not covered? EXCLUSIONS, items 1-9, second warranty page: TR65
@@ -65,7 +70,10 @@ source:
     text.md lines 936-1029; WS300 (ws300-2023) pp. 32-34 (printed 31-33), effective
     August 07 2023, text.md lines 889-982. SB240 (sb240-2023) PDF pp. 38-40 (printed
     37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023) PDF pp.
-    41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
+    41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023; ERG180 (erg180-2023)
+    PDF pp. 33-35 (printed 32-34), lines 950-1044, effective August 01, 2023; ERG800W
+    (erg800w-2023) PDF pp. 57-59 (printed 56-58), lines 1928-2021, effective September
+    26, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -86,3 +94,5 @@ source:
 **Three things this list does not say that the older Xterra lists do.** There is no display-model or floor-model exclusion; there is no exclusion for a product with no registration on file - item 6 only reserves the right to ask for proof of purchase (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`); and item 8 admits a facility that charges no dues and runs the machine five hours a day or less, where the older books allow a residential setting only (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day` against `xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`). Item 9 is new too, and sits beside the 48-states sentence printed at the foot of the same page (`xterra-treadmill-warranty-48-contiguous-states-not-alaska-or-hawaii`).
 
 Item 5 is the transfer rule (`xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away`). The five consumer duties on the page before are `xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`.
+
+**Two rower books print these nine items too**: the ERG180 (*Rower* in item 2; PDF p. 34, printed 33) and the ERG800W (*Water Rowing Machine*; PDF p. 58, printed 57). The ERG750W, laid out the same way, stops item 8 at *residential setting* like the FB180 (`fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`). The ERG800W's electrical page adds that a ten-percent voltage swing is not covered (`xterra-warranty-what-the-electrical-and-console-pages-say-is-not-covered`).

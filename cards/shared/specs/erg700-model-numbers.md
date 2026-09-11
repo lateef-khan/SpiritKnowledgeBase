@@ -41,4 +41,4 @@ source:
 |---|---|---|
 | 2022 | 170918 | erg700-2022 |
 
-The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`) and, where the owner's manual prints one on its cover, from the manual itself; a row reading *not confirmed* has no settled number yet. The table's only ERG700 row is "Xterra ERG700" 170918 (first production 1 February 2018). The owner's manual is stamped VER6_20220131 under a (c)2020 line - the stamp names it 2022 - and prints no number.
+The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`) and, where the owner's manual prints one on its cover, from the manual itself; a row reading *not confirmed* has no settled number yet. The table's only ERG700 row is "Xterra ERG700" 170918 (first production 1 February 2018). The owner's manual is stamped VER6_20220131 under a (c)2020 line - the stamp names it 2022 - and prints no number. The ERG700's console pages are word for word the Spirit CRW800 / XRW600 and Sole SR500 pages; the machines are carded separately, one brand per card.

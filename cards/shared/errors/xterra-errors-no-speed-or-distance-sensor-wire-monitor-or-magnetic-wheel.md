@@ -38,6 +38,7 @@ see_also:
 - xterra-errors-no-tension-computer-wires-not-connected-properly
 - sb600-2023-errors-no-speed-reading-cables-behind-the-chain-covers-then-a-test-magnet
 - air650-2021-errors-no-speed-on-the-display-sensor-within-3-mm-of-its-magnet
+- xterra-rower-errors-no-count-or-distance-sensor-wire-then-monitor
 source:
   ref: xterra-bike-sb150-2018-owners-manual
   locator: SB150 OM Trouble Shooting, PDF p. 24 (printed 22); text.md lines 711-777;
@@ -59,3 +60,4 @@ wheel last. "Magnetic wheel" is the flywheel-side magnet assembly the sensor cou
 
 **Three books print this table word for word** - the SB150 and SB250 recumbent bikes and the FS150 elliptical share one console and one Trouble Shooting page. The EU150 hybrid, which runs the same console family, prints no troubleshooting page at all, and the SB240 book prints only the three error-code definitions (`xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal`).
 
+The Xterra rowers print this row as *No count or distance* with the same first three causes; only the magnetic ERG220 adds the magnetic wheel: `xterra-rower-errors-no-count-or-distance-sensor-wire-then-monitor`.

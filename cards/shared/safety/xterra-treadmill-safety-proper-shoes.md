@@ -2,8 +2,8 @@
 id: xterra-treadmill-safety-proper-shoes
 title: Quality athletic shoes, never heels, dress shoes, sandals or bare feet
 kind: policy
-question: What shoes should I wear on an Xterra treadmill, bike, elliptical or seated
-  stepper, and can I use it barefoot?
+question: What shoes should I wear on an Xterra treadmill, bike, elliptical, seated
+  stepper, rower or with the dumbbells, and can I use it barefoot?
 asked_as:
 - can i walk barefoot on the treadmill
 - what shoes for the treadmill
@@ -23,6 +23,21 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -73,6 +88,8 @@ see_also:
 - xterra-treadmill-safety-instructions-list-older-layout
 - xterra-treadmill-safety-instructions-list-21-items
 - f83-2026-proper-footwear
+- xterra-strength-safety-instructions-list-20-items
+- erg800w-2023-safety-tighten-the-pedal-straps-before-rowing
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the Wear proper shoes bullet or item 20/21 of the safety page: TR150 OM
@@ -99,7 +116,17 @@ source:
     4 (printed 2; lines 91-143); SB2.5r OM PDF p. 4 (printed 2; lines 88-141); SB4500
     OM PDF p. 4 (printed 2; lines 82-134); SB4.5r OM PDF p. 4 (printed 2; OCR supplement
     from line 89); SB500 OM PDF p. 4 (printed 2; lines 71-123); 2014 printing PDF
-    p. 4 (OCR supplement from line 75); SB600 OM PDF p. 7 (printed 6; lines 166-202)'
+    p. 4 (OCR supplement from line 75); SB600 OM PDF p. 7 (printed 6; lines 166-202);
+    the same bullet or item 8/15/20 on the rowers and strength: ERG160 OM PDF p. 4
+    (printed 2; lines 79-118); ERG180 OM PDF p. 7 (printed 6; lines 165-208); ERG220
+    OM PDF p. 5 (printed 2; lines 96-149); ERG400 OM PDF p. 5 (printed 5; OCR supplement
+    from line 122); ERG500 OM PDF p. 4 (printed 2; lines 75-129); ERG550W OM PDF p.
+    4 (printed 2; lines 72-127); ERG600W OM PDF p. 4 (printed 2; lines 75-129); ERG650W
+    OM PDF p. 5 (printed 2; lines 75-129); ERG700 OM PDF p. 5 (printed 2; lines 88-142);
+    ERG750W OM PDF p. 6 (printed 5; lines 116-152); ERG800W OM PDF p. 7 (printed 6;
+    lines 161-197); ADB12.5PR OM PDF p. 4 (printed 2; lines 66-118); ADB25 OM PDF
+    p. 4 (printed 2; lines 66-118); ADB55 OM PDF p. 4 (printed 2; lines 66-118); DBSTAND
+    OM PDF p. 4 (printed 2; lines 66-118)'
   extracted_at: '2026-09-11'
 ---
 
@@ -127,4 +154,11 @@ bullet on twenty of them, item 15 of the FB180 list, item 20 of the SB240 and SB
 books with the indoor-cycle list - AIR350, AIR650, MB500, MB550, MBX2500, SB120, UB120 - print no
 footwear rule at all; their only foot instruction is `use of foot positioning system of pedals` and
 the pedal-strap fitting steps.
+
+**Rowers and strength.** All eleven rower books and all four strength books print the same bullet,
+in the same words - a Fitness Equipment bullet on the nine older-layout rower books, item 15 of the
+ERG750W list, item 20 of the ERG800W list, and item 8 of the twenty-item dumbbell and stand list
+(`xterra-strength-safety-instructions-list-20-items`). It is the only footwear rule any of the fifteen
+gives; the rower books add the pedal-strap fitting steps and the ERG800W says to row with the straps
+tight (`erg800w-2023-safety-tighten-the-pedal-straps-before-rowing`).
 

@@ -2,8 +2,9 @@
 id: xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away
 title: Whether the warranty follows a second-hand machine - it does not
 kind: policy
-question: Does the Xterra warranty on a treadmill, bike, elliptical or seated stepper
-  transfer to a second owner if the machine is sold or given away?
+question: Does the Xterra warranty on a treadmill, bike, elliptical, seated stepper,
+  rower or strength product transfer to a second owner if the machine is sold or given
+  away?
 asked_as:
 - is the xterra warranty transferable
 - i bought a used xterra treadmill is it under warranty
@@ -26,8 +27,23 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -90,6 +106,7 @@ see_also:
 - fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
 - xterra-fb-warranty-front-page-90-day-statement-not-transferable-and-no-commercial-use
 - xterra-fb-warranty-front-page-one-year-statement-against-a-90-day-parts-table
+- erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'Exclusions 4 and 5 on every warranty page: TR150 (tr150-2021) p. 22 (printed
@@ -148,7 +165,24 @@ source:
     SB500 2014 printing: registration PDF p. 3, OCR lines 31-74; warranty PDF p. 23
     (scan of printed 21), OCR lines 965-1065, effective August 1, 2014; RSX1500 2017
     printing: registration PDF p. 3, OCR lines 58-105; warranty PDF p. 26 (scan of
-    printed 24), OCR lines 1047-1145, effective December 20, 2017'
+    printed 24), OCR lines 1047-1145, effective December 20, 2017; ERG160 (erg160-2020)
+    PDF p. 23 (printed 21), lines 803-874, effective January 06, 2020; ERG180 (erg180-2023)
+    PDF pp. 33-35 (printed 32-34), lines 950-1044, effective August 01, 2023; ERG220
+    (erg220-2023) PDF p. 22 (printed 19), lines 652-723, effective March 15th, 2023;
+    ERG400 (erg400-2015) PDF p. 14 (scan of printed 15), OCR lines 405-495, effective
+    August 1, 2012; ERG500 (erg500-2018) PDF p. 20 (printed 18), lines 542-613, effective
+    August 21, 2018; ERG550W (erg550w-2023) PDF p. 25 (printed 23), lines 846-917,
+    effective January 1, 2023; ERG600W (erg600w-2021) PDF p. 24 (printed 22), lines
+    683-754, effective May 11, 2021; ERG650W (erg650w-2021) PDF p. 21 (printed 18),
+    lines 575-646, effective March 04, 2020; ERG700 (erg700-2022) PDF p. 27 (printed
+    24), lines 856-927, effective January 31, 2022; ERG750W (erg750w-2025) PDF pp.
+    24-25 (printed 23-24), lines 790-850, effective November 12, 2025; ERG800W (erg800w-2023)
+    PDF pp. 57-59 (printed 56-58), lines 1928-2021, effective September 26, 2023;
+    ADB12.5PR (adb125pr-2022) PDF p. 8 (printed 6), lines 201-272, effective June
+    16, 2022; ADB25 (adb25-2022) PDF p. 8 (printed 6), lines 188-259, effective June
+    16, 2022; ADB55 (adb55-2022) PDF p. 8 (printed 6), lines 188-259, effective June
+    16, 2022; DBSTAND (dbstand-2022) PDF p. 11 (printed 9), lines 246-317, effective
+    June 16, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -161,3 +195,5 @@ Four routes out of the original buyer's hands are named and all four end the cov
 The eleven older-layout books also tie the warranty to a registration on file for the original purchaser (`xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover`); the Online-Support books do not, but their exclusion 5 is the same (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`). The wording is the Spirit and Sole wording (`xt-2023-warranty-transfer`, `f65-2026-warranty-transfer`).
 
 The full exclusion lists are `xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`, `xterra-trx-warranty-exclusions-nine-items-floor-models-corrosion-and-discoloration` and `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`.
+
+**The fifteen rower and strength books print it too** - as exclusion 5 in fourteen of them and as exclusion 4 in the eight-item ERG400 list. The ERG220 says it a second time on its registration page, *not transferable and is extended only to the original owner* (`erg220-2023-warranty-front-page-one-year-statement-that-agrees-with-the-one-year-parts-table`).
