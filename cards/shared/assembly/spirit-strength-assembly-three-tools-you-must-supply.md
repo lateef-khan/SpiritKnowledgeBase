@@ -1,13 +1,12 @@
 ---
 id: spirit-strength-assembly-three-tools-you-must-supply
-title: >-
-  No tools in the carton - prepare an Allen wrench set, a Phillips screwdriver and
-  C-ring pliers
+title: No tools in the carton - prepare an Allen wrench set, a Phillips screwdriver
+  and C-ring pliers
 kind: fact
-question: >-
-  What tools do I need to assemble a Spirit commercial strength machine, and are any in
-  the box? Covers every Spirit CSS selectorized station plus the CSD leg extension/leg
-  curl, lat pulldown/seated row and pec fly/rear delt and the CSF functional trainer.
+question: What tools do I need to assemble a Spirit commercial strength machine, and
+  are any in the box? Covers every Spirit CSS selectorized station plus the CSD leg
+  extension/leg curl, lat pulldown/seated row and pec fly/rear delt and the CSF functional
+  trainer.
 asked_as:
 - what tools do i need to build this machine
 - are the tools in the box
@@ -29,6 +28,7 @@ facets:
   product_line: strength
   model: '*'
   applies_to:
+  - csd-cpsp
   - csd-lelc
   - csd-lpsr
   - csd-pfrd
@@ -63,14 +63,16 @@ see_also:
 - spirit-st800-assembly-four-tools-you-must-supply
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP, the NOTE
-    beside "Unpacking &Parts"; word for word on all nineteen CSS manuals and on the CSD
-    leg extension/leg curl, lat pulldown/seated row and pec fly/rear delt manuals and
-    the CSF functional trainer, each on PDF p. 10 or 11 - confirmed against a 300 dpi
-    render of that page on the leg extension, seated leg curl, lat pulldown, lat
-    pulldown/seated row, pec fly/rear delt, leg extension/leg curl and functional
-    trainer books
+  locator: 'printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP,
+    the NOTE beside "Unpacking &Parts"; word for word on all nineteen CSS manuals
+    and on the CSD leg extension/leg curl, lat pulldown/seated row and pec fly/rear
+    delt manuals and the CSF functional trainer, each on PDF p. 10 or 11 - confirmed
+    against a 300 dpi render of that page on the leg extension, seated leg curl, lat
+    pulldown, lat pulldown/seated row, pec fly/rear delt, leg extension/leg curl and
+    functional trainer books | csd-cpsp May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
+    ASSEMBLY & SETUP, the NOTE, PDF p. 11 (printed 10); text.md lines 236-241 | css-delt
+    2026 revision (spirit-strength-css-delt-owners-manual-2026): ASSEMBLY & SETUP,
+    the NOTE, PDF p. 11 (printed 10); text.md OCR supplement at 1391-1396'
   extracted_at: '2026-09-10'
 ---
 
@@ -108,3 +110,9 @@ operative one and bring your own tools, because nothing in either parts list is 
 The **lat pulldown** manual prints **"Please prepare Allen wrwrench set"**. The typo is
 on the printed page, not an extraction artefact; the render of its PDF p. 11 shows it
 too. It means Allen wrench set.
+
+## The chest press / shoulder press changed sides in May 2025
+
+**The CSD-CPSP's May 2025 update prints this NOTE** - "are NOT included within the packaging. Please prepare Allen wrench set, Phillips screw driver, and c ring pliers for installation" - where **its February 2024 printing says the tools are included**. Both printings keep "Remove the tools first" in the unpacking list. A CSD-CPSP is on this card for the 2025 book and on the tools-in-the-carton card for the 2024 book; the two printings contradict each other and nothing in either parts list is a tool.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

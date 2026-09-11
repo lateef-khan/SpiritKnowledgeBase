@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +35,10 @@ see_also:
 - ct900ent-pre-assembly-unpacking-tools-parts
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 10, PRE-ASSEMBLY - Parts Included
+  locator: 'p. 10, PRE-ASSEMBLY - Parts Included | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    PRE-ASSEMBLY - Parts Included, PDF p. 12 (printed 10); text.md lines 305-327;
+    the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    prints the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -57,3 +59,5 @@ are.
 
 The 7.0T prints a different kind of panel - photographs of the fasteners bagged
 per step - and the 8.0T prints no carton list at all.
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

@@ -2,8 +2,8 @@
 id: cu900ent-noise-and-feet-feeling
 title: Noise, and a bad feeling underfoot while pedalling
 kind: troubleshooting
-question: Why does a Spirit CU900 2018 or CU900ENT upright bike make a noise or feel wrong
-  underfoot while pedalling?
+question: Why does a Spirit CU900 2018, CU900ENT, or 2025 medical 7.0R, 7.0U, 8.0U
+  or 8.5R bike make a noise or feel wrong underfoot while pedalling?
 asked_as:
 - noise when i pedal backwards on the bike
 - the pedals feel wrong when i ride
@@ -21,6 +21,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 70r-2025
+  - 70u-2025
+  - 80u-2025
+  - 85r-2025
   - cu900-2018
   - cu900ent
   section: maintenance
@@ -36,7 +40,7 @@ source:
   ref: spirit-bike-cu900ent-service-manual
   locator: 'Section 7.2 Noise and Feet Feeling, p. 66 (printed 66). Word for word in
     spirit-bike-cu900-2018-service-manual 7.2 Noise and Feet Feeling, PDF p. 60 (printed
-    60), text.md lines 967-973 (added 2026-09-11).'
+    60), text.md lines 967-973 (added 2026-09-11). Four 2025 Spirit medical bikes were added on 2026-09-11: spirit-bike-70r-2025-service-manual 7.2 Noise/Feet Feeling, PDF p. 36 (no folios), a flattened page read from its OCR supplement, text.md lines 828-830; spirit-bike-70u-2025-service-manual 7.2, PDF p. 34, lines 512-515; spirit-bike-80u-2025-service-manual 7.2 Noise/Foot Feeling, items 7.2.1-7.2.2, PDF p. 42 (folio 42/51), lines 672-674; spirit-bike-85r-2025-service-manual 7.2, PDF p. 37 (folio 37/45), lines 442-444.'
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +65,22 @@ The **CU900 2018** service manual prints both answers word for word. The recumbe
 CR900ENT books answer a click at the pedals with a different four-item list — pedals, crank arm
 bolts, axle play, bearing nuts — and say nothing about a flywheel sound
 (`spirit-cr900-maintenance-clicking-at-the-pedals`).
+
+## Four 2025 medical bikes print it, two of them without the flywheel sentence
+
+| Book | Flywheel sound in reverse is normal | Feeling underfoot |
+|---|---|---|
+| 7.0R 2025 (MR490-SB018-03) | not printed | "refer to step 3.1 to lock the pedal. If the phenomenon of foot still exists, please refer to step 6.2 to check whether the crank loose" |
+| 7.0U 2025 (MU470-SB018-02) | not printed | the same, with 6.3 for the crank |
+| 8.0U 2025 (MU2000-SB036-01) | 7.2.1, printed | 7.2.2: "refer to 3.1 to tighten Crank Arms and Pedals" |
+| 8.5R 2025 (MR2000-SB036-01) | 7.2.1, printed | 7.2.2: "refer to 6.3 to tighten Crank Arms and Pedals" |
+
+The order is the same on all four - pedal first, crank second - and the pedal directions they send you to are
+right clockwise, left counter-clockwise (`spirit-med-bike-maintenance-preventative-check-pedals-handlebar-and-seat-cushion`
+for the 7.0R and 7.0U, `cu900ent-check-pedals` for the 8.0U and 8.5R). **On the 7.0R and 7.0U do not tell a
+customer the reverse-pedalling sound is documented as normal; their books do not say it.** The 8.5UE ergometer
+says chain *and* flywheel, in *both* directions
+(`85ue-2025-maintenance-chain-and-flywheel-noise-in-both-directions-is-normal`).
+
+The 7.0R and 7.0U owner's manuals answer a *click* with three checks of their own
+(`spirit-med-bike-maintenance-clicking-when-pedaling-pedal-knob-and-leveling-feet`).

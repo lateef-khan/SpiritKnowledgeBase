@@ -27,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -43,7 +44,10 @@ source:
   locator: p. 43, MACHINE CARE - CONTINUED - Service Mode. MT200-2022 service manual
     section 4.2.1 d.vii Service Mode, PDF pp. 8-10 (printed 8-10), text.md lines 121-173;
     the 2025 E27 support email (spirit-treadmill-mt200-e27-encoder-error-email), pages
-    2-3
+    2-3. 7.0T 2025 owner's manual PDF p. 45 (printed 43), text.md lines 1386-1421.
+    The 770885 re-export of the same MT8000 book (spirit-treadmill-70t-2026-service-manual,
+    MT8000-ST024-01 on the file, ST021-01 on its cover) prints this section at the
+    same PDF page and text.md lines; only its cover and component call-outs differ.
   extracted_at: '2026-09-09'
 ---
 
@@ -109,4 +113,6 @@ should measure a **stable DC 12 to 19 V at least** - a range that brackets the m
 
 For the Step Sensors test the manual adds pictures captioned "Step on left", "No Step", "Step on
 right"; the calibration that follows is `70t-2026-console-step-sensor-calibration`.
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
 

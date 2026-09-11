@@ -76,10 +76,10 @@ see_also:
 - spirit-strength-warranty-service-steps
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: NORMAL RESPONSIBILITIES OF THE FACILITY on the warranty page of all thirty-nine manuals. spirit-strength-csd-acbe-owners-manual
+  locator: 'NORMAL RESPONSIBILITIES OF THE FACILITY on the warranty page of all thirty-nine manuals. spirit-strength-csd-acbe-owners-manual
     PDF p. 28 (printed 27); the identical list in spirit-strength-st800fi-owners-manual PDF p. 20 (printed
     18). Read from each PDF native text layer; spirit-strength-css-srow-owners-manual PDF p. 23 is a flat
-    image and was read from a 300 dpi tesseract --psm 4 render.
+    image and was read from a 300 dpi tesseract --psm 4 render. Later printings checked on 2026-09-11 and found unchanged: spirit-strength-css-delt-owners-manual-2026 (the 2026 revision of the CSS-DELT book) prints the same three warranty pages, WARRANTY - COMMERCIAL effective July 02, 2024 and two WARRANTY - CONTINUED pages, PDF pp. 27-29 (text.md lines 781-876); spirit-strength-csd-cpsp-owners-manual-2025-update (the May 2025 update of the CSD-CPSP book) prints the same three warranty pages, effective February 21, 2024, PDF pp. 29-31 (flat images; OCR supplements in text.md).'
   extracted_at: '2026-09-10'
 ---
 

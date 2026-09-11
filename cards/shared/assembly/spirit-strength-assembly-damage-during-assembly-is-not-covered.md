@@ -1,13 +1,11 @@
 ---
 id: spirit-strength-assembly-damage-during-assembly-is-not-covered
-title: >-
-  Damage done while building the machine is not covered, and it must never be laid on
-  its side
+title: Damage done while building the machine is not covered, and it must never be
+  laid on its side
 kind: policy
-question: >-
-  Is damage caused while assembling a Spirit commercial strength machine covered by the
-  warranty, and how should the machine be stood while it is built? Covers every Spirit
-  CSS, CSD, CSF and CSI strength machine.
+question: Is damage caused while assembling a Spirit commercial strength machine covered
+  by the warranty, and how should the machine be stood while it is built? Covers every
+  Spirit CSS, CSD, CSF and CSI strength machine.
 asked_as:
 - is assembly damage covered by warranty
 - can i lay the machine on its side to build it
@@ -67,15 +65,19 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-hardware-split-into-four-steps
 - spirit-st800-assembly-partially-thread-every-bolt-first
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP, the CAUTION
-    paragraph; word for word on all nineteen CSS, all nine CSD, all six CSF and both CSI
-    manuals
+  locator: 'printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP,
+    the CAUTION paragraph; word for word on all nineteen CSS, all nine CSD, all six
+    CSF and both CSI manuals | csd-cpsp May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
+    ASSEMBLY & SETUP, the CAUTION paragraph, PDF p. 11 (printed 10); text.md lines
+    251-256 - the same words as the 2024 printing | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY & SETUP, the CAUTION paragraph, PDF p. 11 (printed 10); text.md OCR supplement
+    at 1403-1408'
   extracted_at: '2026-09-10'
 ---
 
@@ -103,3 +105,7 @@ about threading every bolt before tightening any - see
 [that card](spirit-st800-assembly-partially-thread-every-bolt-first.md).
 
 The warranty exclusions themselves are a warranty question and live on their own cards.
+
+The **CSD-CPSP's May 2025 update** (4601US, 20250521) prints this exactly as its February 2024 printing does.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

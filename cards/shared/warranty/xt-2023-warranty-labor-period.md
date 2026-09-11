@@ -24,9 +24,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -38,6 +46,7 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - ct850-2013
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
@@ -110,6 +119,7 @@ see_also:
 - xe195-2021-warranty-residential-periods-five-year-parts
 - spirit-xe795-warranty-light-commercial-periods
 - spirit-xe-2005-warranty-two-year-base-period
+- spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: >-
@@ -162,6 +172,7 @@ source:
     line 1457, spirit-bike-xbr55-2023-owners-manual line 1990,
     spirit-bike-xbr95-2023-owners-manual line 1930, spirit-bike-xbu55-2023-owners-manual line
     1763
+    Labor 1 Year in the one-row Commercial table, and the SERVICE paragraph dating it twelve months from the bill of sale or eighteen from factory shipping, in the six 2025 Spirit medical bike manuals: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); and in the 2025 4.0T and 7.0T printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651). The CT850 2013 book prints Labor 2 Years in both rows with the same twelve-or-eighteen-month SERVICE sentence, the contradiction the CT800 card describes: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -220,3 +231,5 @@ Twelve (12) months from the date on the bill of sale, or eighteen (18) months fr
 **The dating sentence is word for word the one quoted above** in every one of the fourteen, under a SERVICE heading on the last warranty page. Here it does not contradict the table, because the Labor column already reads one year.
 
 The tables themselves are `spirit-xb-warranty-residential-periods`, `spirit-xb-warranty-light-commercial-periods` and - for the single manual whose parts period is halved - `xbr25-2019-warranty-residential-five-year-parts`. **The two ENT bikes add a Console column at 2 Years**, which is not a labor figure and must not be read as one (`spirit-xt-ent-warranty-console-screen-period`).
+
+**The six 2025 Spirit medical bikes** - 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R - and the 2025 printings of the 4.0T and 7.0T print Labor **1 Year** in their single Commercial row and the same SERVICE sentence (`spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year`). **The CT850 2013 is not a one-year machine**: its table reads Labor 2 Years in both rows under the same twelve-or-eighteen-month sentence - `spirit-ct800-warranty-labor-period`.

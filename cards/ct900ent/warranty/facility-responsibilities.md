@@ -2,8 +2,8 @@
 id: ct900ent-facility-responsibilities
 title: Normal responsibilities of the facility (warranty)
 kind: policy
-question: What is a facility responsible for under the Spirit CT900ENT, 4.0T, 7.0T
-  or 8.0T warranty?
+question: What is a facility responsible for under the Spirit CT900ENT, or the 2025 or 2026
+  4.0T, 7.0T or 8.0T warranty?
 asked_as:
 - what am i responsible for under the warranty
 - what do i need to do to keep my warranty valid
@@ -19,7 +19,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct900ent
@@ -40,7 +42,7 @@ source:
   locator: 'p. 50. The same seven items, word for word and in the same order, are printed
     under RESPONSIBILITIES OF THE FACILITY in the three 2026 manuals: 4.0T p. 51, 7.0T
     p. 50, 8.0T p. 68. The same seven items are printed in the CT900ENT owner''s manual
-    PDF, spirit-treadmill-ct900ent-owners-manual text.md lines 1137-1148, p. 50'
+    PDF, spirit-treadmill-ct900ent-owners-manual text.md lines 1137-1148, p. 50 The same seven items under RESPONSIBILITIES OF THE FACILITY in the 2025 printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651) (4.0T PDF p. 52, 7.0T PDF p. 55).'
   extracted_at: '2026-08-24'
 ---
 
@@ -59,3 +61,5 @@ The facility is responsible for the items listed below:
 **Two other Spirit commercial manuals print a shorter registration duty.** The CT900 and the CTSBS900 open the same list with "The warranty registration **must be completed online**" and impose no day count. The ten-day card deadline in item 1 above belongs to the CT900ENT and the three 2026 machines only - see `spirit-2026t-warranty-registration`.
 
 **Do not confuse this with the XT list.** The residential XT manuals head their version RESPONSIBILITIES OF THE CONSUMER, run to five items, open with "the warranty applies only to products in ordinary household use", and carry no grounded-power-supply item at all: `xt-2023-warranty-consumer-responsibilities`.
+
+**The 2025 printings of the 4.0T and 7.0T print the same seven items** in the same order, with the lead sentence numbered 1 and the duties 2 to 8 exactly as the 2026 books print them.

@@ -25,14 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: specs
   code: '*'
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with:
 - mt200-2022-specs-parts-list
@@ -41,12 +39,13 @@ see_also:
 - mt200-2022-specs-parts-list
 - mt200-2010-specs-parts-list
 - spirit-mt200-assembly-no-folding-or-moving
+- 70t-2025-specs-parts-list
 source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 7. MT7000 Exploded View Drawing and Parts List, PDF p. 43 (printed 43),
     a flat drawing; MT7000 Parts List, PDF pp. 44-51 (printed 44-51); text.md lines
     807-1032; items 60, 297 and the end of the list at 304 confirmed on 100 dpi renders
-    of pp. 46, 50 and 51
+    of pp. 46, 50 and 51 The February 2026 export of the same book, titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, prints the same 198 rows on PDF pp. 44-51 (text.md lines 841-1060) - parsed and compared row by row, no row differs - but heads the drawing and the list MT8000 (PDF p. 43, line 835, and p. 44, line 841) and stamps the drawing MT8000-ST024(110V) 2025/11/13 (read from a 100 dpi render).
   extracted_at: '2026-09-11'
 ---
 
@@ -269,3 +268,7 @@ source:
 | 302 | Ø 16 × Ø 35 × 1T_Flat Washer | 2 |
 | 303 | 300m/m_Connecting Wire (White) | 1 |
 | 304 | 300m/m_Connecting Wire (Black) | 1 |
+
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.
+
+**The February 2026 export heads the same list MT8000, not MT7000.** Its drawing carries the stamp `MT8000-ST024(110V) 2025/11/13` and draws the same three tools; every one of the 198 rows is unchanged. The 2025 printing of the 7.0T owner's manual prints a fourth list for this frame, with console sub-parts and no cooling-fan rows (`70t-2025-specs-parts-list`).

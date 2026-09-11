@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +36,9 @@ see_also:
 - 80t-2026-programs-coast-guard-test
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 33, Coast Guard
+  locator: 'page 33, Coast Guard; 4.0T 2025 (February printing): PDF p. 34 (printed
+    32); text.md lines 898-941; 4.0T 2025 (May printing): PDF p. 34 (printed 32);
+    text.md lines 898-941'
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +74,5 @@ is faster than the "Very Poor" row in every column; the male 30-39 "Fair" range 
 (20:17-22:52). Several cells also differ by seconds from the same chart in the CT900 manual, which
 prints male 30-39 Fair as 11:55-12:58, male 50-59 Poor as 15:07-16:58 and female 60+ Very Poor as
 >22:52.*
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

@@ -24,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-assembly-procedure
@@ -43,7 +42,9 @@ see_also:
 - spirit-2026t-assembly-levelling-glides
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: pp. 15-18, ASSEMBLY - STEP ONE to STEP FOUR
+  locator: 'pp. 15-18, ASSEMBLY - STEP ONE to STEP FOUR | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    ASSEMBLY - STEP ONE to STEP FOUR, PDF pp. 17-20 (printed 15-18); text.md lines
+    437-595'
   extracted_at: '2026-09-09'
 ---
 
@@ -105,3 +106,5 @@ source:
 
 Next: [plugging in and the input module](70t-2026-assembly-plugging-in.md), then
 [levelling the machine](../../shared/assembly/spirit-2026t-assembly-levelling-glides.md).
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints the same four steps with **one difference in step three**: its eight 3/8" x 3/4" bolts are item **153** and their 3/8" flat washers item **59**, where the 2026 book numbers them 154 and 155. The sizes and counts are the same; only the drawing numbers changed. Everything else in the four steps is word for word.

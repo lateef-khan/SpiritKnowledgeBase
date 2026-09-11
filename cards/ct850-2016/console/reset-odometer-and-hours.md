@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   section: console
@@ -34,7 +35,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: Section 8.2, Resetting cumulated distance and time (DIAGNOSTICS PROCESS),
-    p. 47 (printed 46)
+    p. 47 (printed 46). CT850 2013 OM Resetting Cumulated Distance/Time, PDF p. 29
+    (printed 25), OCR supplement lines 1204-1213
   extracted_at: '2026-09-08'
 ---
 
@@ -59,3 +61,6 @@ Message Window, so this card covers that machine. It prints step 2 without the t
 
 **The 2016 and 2020 CT850 owner's manuals print no diagnostics screen.** They reset the odometer
 only through the engineering mode Maintenance item.
+
+**The CT850 2013 owner's manual prints these three steps on its printed p. 25**, under RESETTING CUMULATED DISTANCE/TIME, with the same 0 + Enter entry, the same 7-8-9-7 clear sequence and the same statement of where total time, total mileage and the software version show, so this card covers that machine. It writes "safety key", and prints step 2 without the typo.
+

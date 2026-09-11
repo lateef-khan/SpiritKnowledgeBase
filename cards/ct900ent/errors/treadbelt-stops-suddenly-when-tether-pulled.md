@@ -27,6 +27,7 @@ facets:
   - ct800-2020
   - ct800-2024
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -39,6 +40,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -81,7 +83,13 @@ source:
     text.md lines 1413-1418); service manuals - CT800 2016 service manual 9.1 Service
     Troubleshooting Checklist, PDF p. 62 (printed 61), text.md lines 1258-1273; CT900ENT
     service manual Service Troubleshooting Checklist, first printing, PDF p. 51, text.md
-    lines 879-900
+    lines 879-900; CT850 2013 owner's manual (spirit-treadmill-ct850-2013-owners-manual,
+    stamp CT850_20131015) troubleshooting table, PDF p. 28 (printed 24); the book
+    is a scan with no text layer, read from the OCR supplement for page 28, text.md
+    lines 1100-1160, the "Tread-belt stops quickly/suddenly when tether cord is pulled"
+    row; XT485 2013 owner's manual (spirit-treadmill-xt485-2013-owners-manual, 485812)
+    SERVICE CHECKLIST - DIAGNOSIS GUIDE, PDF p. 33 (printed 32), text.md lines 1286-1346,
+    the same row
   extracted_at: '2026-08-24'
 ---
 
@@ -153,3 +161,6 @@ and the `if it is on its original side` qualifier included. They point the reade
 *General Maintenance*.
 
 **Two service manuals print this row, and both give the short answer.** The CT800 2016 and the CT900ENT service checklists print `Tread-belt stops quickly/suddenly when tether cord is pulled - High belt/deck friction.` and nothing more, the same short form the CT850 2016 service manual uses. No other service manual in this wave prints the row at all.
+
+**The CT850 2013 owner's manual prints the long answer** - friction, the General Maintenance section on cleaning the deck, the deck-wear check and the *if it is on its original side* qualifier - word for word. **The XT485 2013 owner's manual prints the short one**: *High belt/deck friction. See General Maintenance section on lubrication* - and it is the only manual on this card that sends the reader to lubrication rather than deck cleaning (added 2026-09-11).
+

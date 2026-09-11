@@ -2,7 +2,8 @@
 id: xt-2015-console-speakers-and-audio-jack
 title: The built in speakers, the audio input jack and where the volume is set
 kind: fact
-question: How do I play music through a Spirit XT385-2015, XT485-2015 or XT685-2015 treadmill, and where is the volume control?
+question: How do I play music through a Spirit XT385-2015, XT485-2015 or XT685-2015
+  treadmill, and where is the volume control?
 asked_as:
 - how do i play music on my treadmill
 - where is the volume control on my treadmill
@@ -25,6 +26,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -39,7 +41,8 @@ see_also:
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: CONSOLE / Speakers, p. 22; the XT485-2015 and XT685-2015 manuals print
-    the same three sentences on their p. 21
+    the same three sentences on their p. 21. XT485 2013 OM SPEAKERS, PDF p. 18 (printed
+    17), text.md lines 575-578
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,6 @@ speakers and no audio jack.
 **The XT685 2010 owner's manual prints the same three sentences on its p. 20**, so this card covers
 that machine. It places the jack explicitly - **on the right side of the console** - which the 2015
 manuals do not, and it names the audio source as a CD player, MP3 or computer.
+
+**The XT485 2013 owner's manual prints the same three sentences on its printed p. 17**, so this card covers that machine. Like the 2010 XT685 book it places the jack **on the right side of the console** and names the source as a CD player, MP3 or computer; its console drawing labels a SPEAKER at each top corner (`xt485-2013-console-layout-eleven-labels-with-a-data-display-a-message-center-and-a-safety-key`).
+

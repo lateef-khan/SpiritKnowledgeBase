@@ -39,11 +39,18 @@ see_also:
 - 85s-2025-errors-console-shows-the-fault-and-a-suggested-fix
 - 80t-2026-errors-console-shows-message-with-solution
 - spirit-rower-errors-no-error-codes-printed
+- 85ue-2025-errors-no-power-wake-then-cn1-d5-24-vdc-then-12-vdc
+- 85ue-2025-errors-uart-communication-error-cables-then-software-version-v255a255
+- 85ue-2025-errors-no-revolutions-d13-then-hall-sensor-078-to-chain-wheel-208-at-2-to-3-mm
+- 85ue-2025-errors-incorrect-symmetry-value-crank-calibration-then-magnet-90-degrees-to-the-hall-sensor
+- spirit-med-bike-errors-touchscreen-console-shows-the-message-and-the-fix
 source:
   ref: spirit-ergometer-85ue-2025-owners-manual
   locator: POWER ON & CONSOLE OPERATION, the NOTE box, printed page 23 (PDF page 25).
     The page was read from a 300 dpi render as well as the text layer, and the two
-    agree.
+    agree; the absence is the owner's manual's only; the 8.5UE (MZ2000-SB036-01) service
+    manual prints four electronic troubleshooting procedures at PDF p. 20-28 (added
+    2026-09-11)
   extracted_at: '2026-09-10'
 ---
 
@@ -78,3 +85,6 @@ Management data-transfer software logs `Machine not connected.` and `Machine doe
 its System Message pane. The manual shows those lines only inside a screenshot of the software, with
 no explanation and no remedy, so they are not a fault list either - but a technician who sees them
 is looking at the PC, not at the ergometer.
+
+**The service manual prints four procedures for the faults the screen cannot explain** - no power (`85ue-2025-errors-no-power-wake-then-cn1-d5-24-vdc-then-12-vdc`), `UART Communication Error`, the one message it spells out (`85ue-2025-errors-uart-communication-error-cables-then-software-version-v255a255`), no revolutions (`85ue-2025-errors-no-revolutions-d13-then-hall-sensor-078-to-chain-wheel-208-at-2-to-3-mm`) and an incorrect symmetry value (`85ue-2025-errors-incorrect-symmetry-value-crank-calibration-then-magnet-90-degrees-to-the-hall-sensor`). The absence above is about the owner's manual only (added 2026-09-11).
+

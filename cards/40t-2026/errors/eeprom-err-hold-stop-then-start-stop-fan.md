@@ -42,7 +42,11 @@ see_also:
 source:
   ref: spirit-treadmill-40t-2026-service-manual
   locator: '4.0T 2026 service manual Error code items, PDF p. 28, text.md lines 394-412;
-    4.0T 2026 service manual Error Message: EEPROM ERR, PDF p. 32, text.md lines 472-482'
+    4.0T 2026 service manual Error Message: EEPROM ERR, PDF p. 32, text.md lines 472-482;
+    the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Error code items at PDF p. 29, text.md lines 425-443;
+    Error Message: EEPROM ERR at PDF p. 33, text.md lines 502-512'
   extracted_at: '2026-09-11'
 ---
 

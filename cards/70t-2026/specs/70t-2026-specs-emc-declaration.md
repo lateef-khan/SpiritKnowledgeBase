@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-specs-emc-declaration
-title: The electromagnetic compatibility declaration, and the recommended RF separation distances
+title: The electromagnetic compatibility declaration, and the recommended RF separation
+  distances
 kind: spec
-question: What are the EMC test levels and the recommended RF separation distances for a Spirit 70t-2026, mt200-2010 or mt200-2022 rehabilitation treadmill?
+question: What are the EMC test levels and the recommended RF separation distances
+  for a Spirit 70t-2026, 70t-2025, mt200-2010 or mt200-2022 rehabilitation treadmill?
 asked_as:
 - how far should a phone be from the treadmill
 - is this treadmill emc tested
@@ -25,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -39,7 +42,12 @@ see_also:
 - mt200-2022-specs-certifications-and-classification
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SPECIFICATIONS - CONTINUED p. 48 of the 2026 7.0T manual; the same four tables are printed as text in both MT200 manuals - "Guidance and manufacturer's declaration - electromagnetic compatibility", printed pages 43-44 of the 2010 manual and 68-70 of the 2022 manual
+  locator: 'SPECIFICATIONS - CONTINUED p. 48 of the 2026 7.0T manual; the same four
+    tables are printed as text in both MT200 manuals - "Guidance and manufacturer''s
+    declaration - electromagnetic compatibility", printed pages 43-44 of the 2010
+    manual and 68-70 of the 2022 manual. 7.0T-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SPECIFICATIONS - CONTINUED, PDF p. 50 (printed 48), text.md lines 1524-1544, a
+    flat image checked on a render - the same four tables'
   extracted_at: '2026-09-09'
 ---
 
@@ -110,3 +118,6 @@ Everything above it is common to all three. The wording of the Note above is the
 **The 8.0T manual prints no EMC declaration at all** - its Specifications -
 Continued page is the battery page instead. Do not answer an 8.0T EMC question
 from this table.
+
+The 2025 7.0T owner's manual prints the same page, likewise as one flat image with only the Note bullets in its text layer.
+

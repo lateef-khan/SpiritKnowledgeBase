@@ -22,14 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: assembly
   code: '*'
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -40,7 +38,7 @@ source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 6.7.1 Running Deck and 6.7.2 (Cushion A&B), in 6.7 Replacement Procedures
     for Running Deck/ Cushions / Rear Roller/ Running Belt/ Front Roller, PDF pp.
-    31-32 (printed 31-32); text.md lines 590-627
+    31-32 (printed 31-32); text.md lines 590-627 The February 2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, and prints this page unchanged.
   extracted_at: '2026-09-11'
 ---
 
@@ -58,3 +56,4 @@ with the correct part.
 Six cushions in all, in two grades; the book gives no part numbers here - the exploded parts list holds
 them. No screw size or torque is printed.
 
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.

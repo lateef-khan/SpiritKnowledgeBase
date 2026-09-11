@@ -29,6 +29,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -57,7 +58,7 @@ source:
     (spirit-treadmill-ct850-2016-owners-manual text.md lines 1156, 1162, 1185-1187,
     1197), ct850-2018 pp. 45-46 (lines 1149, 1154, 1178-1180, 1190), ct850-2020 pp.
     45-46 (lines 1155, 1161, 1184-1186, 1196), ct850ent-2022 pp. 53-54 (lines 1216,
-    1221, 1243-1245, 1255)'
+    1221, 1243-1245, 1255) Exclusions 2 and 8 and the "consumer or non-dues paying facility" lead sentence in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +77,5 @@ So the covered envelope is a home, **or** a facility that charges no dues. Priso
 **The manuals cap nothing by hours.** No CT800 or CT850 manual states an hours-per-day limit, and none defines "light commercial". Do not import the XT limit - "any environment other than a residential setting or non-dues paying facility with **5 hours use or less per day**" is XT wording and is not printed in any CT800 or CT850 manual (`xt-2023-warranty-use-environment`). Do not import the 2026 position either: the 4.0T, 7.0T and 8.0T never mention dues-paying facilities at all (`spirit-2026t-warranty-use-environment`).
 
 Which figures apply to which use is `spirit-ct800-warranty-commercial-periods` and `spirit-ct800-warranty-residential-periods`; the full exclusion list is `spirit-ct800-warranty-exclusions`.
+
+**The CT850 2013 book is the same**: a plain Commercial row label, exclusion 2 refusing service-call reimbursement for equipment "not in non-dues paying facility or household use", and exclusion 8 barring a dues-paying facility outright.

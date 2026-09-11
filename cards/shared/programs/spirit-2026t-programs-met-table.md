@@ -25,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 80t-2026
   section: programs
@@ -36,7 +37,9 @@ see_also:
 - 80t-2026-programs-mets-target
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'page 35, METs Program (8.0T manual: pages 41-42, METs Target)'
+  locator: 'page 35, METs Program (8.0T manual: pages 41-42, METs Target); 4.0T 2025
+    (February printing): PDF p. 36 (printed 34); text.md lines 963-1011; 4.0T 2025
+    (May printing): PDF p. 36 (printed 34); text.md lines 963-1011'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +84,5 @@ rest.**
 
 Both manuals print this table with the same values. Which program uses it depends on the machine: the
 4.0T has a METs program on a METs key, the 8.0T a METs Target program on the touch screen.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

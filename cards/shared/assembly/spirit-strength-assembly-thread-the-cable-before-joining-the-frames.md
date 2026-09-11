@@ -1,13 +1,11 @@
 ---
 id: spirit-strength-assembly-thread-the-cable-before-joining-the-frames
-title: >-
-  Thread the power line through the frame before the door frame is bolted on, or the
-  machine has to be taken apart again
+title: Thread the power line through the frame before the door frame is bolted on,
+  or the machine has to be taken apart again
 kind: procedure
-question: >-
-  Where does the wiring go on step 1 of a Spirit commercial strength machine, and what
-  happens if I bolt the door frame on first? Covers the Spirit CSS selectorized range and
-  four CSD dual stations.
+question: Where does the wiring go on step 1 of a Spirit commercial strength machine,
+  and what happens if I bolt the door frame on first? Covers the Spirit CSS selectorized
+  range and four CSD dual stations.
 asked_as:
 - i forgot to run the wire before bolting the frame
 - where does the wire go on step one
@@ -55,19 +53,20 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-the-weight-tower-bolts-arrive-fitted
 - spirit-strength-assembly-take-the-pulley-off-to-route-the-cable
 - spirit-strength-assembly-cable-routing-diagram-names-two-wires
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 12 (PDF p. 13) of the CSS Abdominal manual, ASSEMBLY - STEP 1, Note 2;
-    word for word on eighteen CSS manuals and, worded with "Cable" and "Main Frame", on
-    the CSD ab/back extension, lat pulldown/seated row and pec fly/rear delt manuals;
-    worded as "Prior to connecting frame, route the Cable as shown" on the CSD leg
-    extension/leg curl manual - the CSD wording confirmed against a 300 dpi render of
-    PDF p. 13
+  locator: 'printed p. 12 (PDF p. 13) of the CSS Abdominal manual, ASSEMBLY - STEP
+    1, Note 2; word for word on eighteen CSS manuals and, worded with "Cable" and
+    "Main Frame", on the CSD ab/back extension, lat pulldown/seated row and pec fly/rear
+    delt manuals; worded as "Prior to connecting frame, route the Cable as shown"
+    on the CSD leg extension/leg curl manual - the CSD wording confirmed against a
+    300 dpi render of PDF p. 13 | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY - STEP 1, Note 2, PDF p. 13 (printed 12); text.md OCR supplement at 1478-1482'
   extracted_at: '2026-09-10'
 ---
 
@@ -98,3 +97,5 @@ a 300 dpi render of the page, not from the extraction.
 The same step 1 carries two more notes on most of these machines - see
 [the pre-installed tower bolts card](spirit-strength-assembly-the-weight-tower-bolts-arrive-fitted.md)
 and [the pulley card](spirit-strength-assembly-take-the-pulley-off-to-route-the-cable.md).
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

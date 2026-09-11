@@ -1,11 +1,10 @@
 ---
 id: spirit-ce-specs-forty-resistance-levels
-title: 40 levels of resistance, with two different band descriptions printed for
-  them
+title: 40 levels of resistance, with two different band descriptions printed for them
 kind: spec
 question: How many resistance levels does a Spirit CE800, CE900 or CES880 commercial
-  elliptical, a Spirit XE795 home elliptical, or a Spirit CR800, CR900, CU800 or
-  CU900 commercial bike have?
+  elliptical, a Spirit XE795 home elliptical, a Spirit CR800, CR900, CU800 or CU900
+  commercial bike, or a Spirit Medical 4.0R or 4.0U bike have?
 asked_as:
 - how many resistance levels on this elliptical
 - what is the highest level on the spirit elliptical
@@ -27,6 +26,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -66,17 +69,21 @@ source:
   locator: 'p. 15, Console Operation, the paragraph beginning "There are 40 levels
     of resistance"; the same paragraph is CE800-2023 p. 16, CE900-2021 p. 14, CE900-2025
     p. 15, CES880-2025 p. 29 and CE800-2013 PDF page 16, on the residential machines
-    XE795-2018 p. 19, XE795-2021 February p. 19, XE795-2021 November p. 19 and
-    XE795-2023 p. 17, and
-    on the commercial bikes CR800-2021 p. 15, CR800-2023 p. 15, CR900-2018 p. 14, CR900-2025
-    p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p. 13, CU900-2025 p. 14,
-    CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of its two OCR scans; and
-    on the 2024 New Black Units reissue CE800-2024, CR800-2024 and CU800-2024, each
-    printed p. 15 (PDF p. 17). Service manuals: CE800-2021 PDF p. 14 (text.md lines
-    230-260), CE900-2021 PDF p. 14 (208-242) and XE795-2023 PDF p. 7 (112-151) reprint
-    the paragraph; the CE800-2016 (PDF p. 15, 264-294) and XE795-2016 (PDF p. 18,
-    284-314) service manuals print a Function page with LEVEL preset value 0 to 20
-    instead, and are not on this card'
+    XE795-2018 p. 19, XE795-2021 February p. 19, XE795-2021 November p. 19 and XE795-2023
+    p. 17, and on the commercial bikes CR800-2021 p. 15, CR800-2023 p. 15, CR900-2018
+    p. 14, CR900-2025 p. 15, CR900ENT-2021 p. 24, CU800-2021 p. 14, CU900-2018 p.
+    13, CU900-2025 p. 14, CU900ENT-2021 p. 22 and CU800-2012 PDF pages 16 and 18 of
+    its two OCR scans; and on the 2024 New Black Units reissue CE800-2024, CR800-2024
+    and CU800-2024, each printed p. 15 (PDF p. 17). Service manuals: CE800-2021 PDF
+    p. 14 (text.md lines 230-260), CE900-2021 PDF p. 14 (208-242) and XE795-2023 PDF
+    p. 7 (112-151) reprint the paragraph; the CE800-2016 (PDF p. 15, 264-294) and
+    XE795-2016 (PDF p. 18, 284-314) service manuals print a Function page with LEVEL
+    preset value 0 to 20 instead, and are not on this card. Spirit Medical 4.0R-2025
+    (spirit-bike-40r-2025-owners-manual): Quick Start, PDF p. 16 (printed 14), text.md
+    lines 431-456; 4.0U-2025 (spirit-bike-40u-2025-owners-manual): PDF p. 16, lines
+    387-412; the Dyaco PT 4.0 R (spirit-bike-40r-pt-owners-manual): PDF p. 33, lines
+    941-946; PT 4.0 U (spirit-bike-40u-pt-owners-manual): PDF p. 31, lines 909-914;
+    and both 2025 service manuals'' Quick start pages'
   extracted_at: '2026-09-09'
 ---
 
@@ -186,3 +193,13 @@ sentinel. Its `applies_to` still names every machine individually, so it cannot 
 served for a treadmill, a rower or a climber. The count is genuinely the same fact
 on the elliptical and on the bike: the same paragraph, the same bands, the same
 console family.
+
+## The four medical 4.0 bike books print the commercial paragraph with one word changed
+
+The Spirit Medical **4.0R-2025 and 4.0U-2025** owner's manuals, their two service manuals, and the
+undated Dyaco "PT" editions of the same two bikes all print "There are 40 levels of resistance
+available for plenty of variety" with the four clean bands of ten - and end the last band "good for
+short interval peaks and **higher performance training**" where the commercial books say *elite
+athletic training*. The count and the bands are the same; only that phrase differs. These are
+generator bikes like the CR800 and CU800, and their books print no watts figure for any level.
+

@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-assembly-parts-diagram-labels
@@ -40,7 +39,8 @@ see_also:
 - 70t-2026-assembly-lift-bar
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 13, PARTS OF YOUR TREADMILL
+  locator: 'p. 13, PARTS OF YOUR TREADMILL | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    PARTS OF YOUR TREADMILL, PDF p. 15 (printed 13); text.md lines 384-421'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +63,5 @@ placement and its D is the water bottle holder. The 8.0T runs A to Q.
 
 There is no water bottle holder on this diagram. The 8.0T diagram has one; this
 machine's does not.
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints this page word for word; its assembly chapter is 98.2% the 2026 chapter at word level, the difference being two item numbers in step three.

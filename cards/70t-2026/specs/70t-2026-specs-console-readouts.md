@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-specs-console-readouts
-title: The eleven readouts the specification page lists, ending in left and right step length and symmetry index
+title: The eleven readouts the specification page lists, ending in left and right
+  step length and symmetry index
 kind: spec
-question: Which readouts does the specification page list for a Spirit 70t-2026 treadmill?
+question: Which readouts does the specification page list for a Spirit 70t-2026 or
+  70t-2025 treadmill?
 asked_as:
 - what does the display show on this treadmill
 - does it show mets
@@ -23,20 +25,21 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: specs
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - 70t-2026-specs-speed-and-incline-range
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SPECIFICATIONS p. 47, Readouts block
+  locator: 'SPECIFICATIONS p. 47, Readouts block. 7.0T-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SPECIFICATIONS Readouts block, PDF p. 49 (printed 47), read from a render; the
+    same eleven'
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +56,6 @@ the manual covers it.
 machine out** - they are what the Symmetry program measures. The 8.0T's
 specification page carries no Readouts line at all, so this list must not be
 quoted for it.
+
+The 2025 7.0T owner's manual lists the same eleven readouts in the same order.
+

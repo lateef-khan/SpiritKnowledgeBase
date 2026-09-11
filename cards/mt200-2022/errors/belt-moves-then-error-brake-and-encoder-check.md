@@ -24,14 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: errors
   code: no-code
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -42,7 +40,13 @@ see_also:
 source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 7.0T (MT200 2022) service manual 5. Troubleshooting and Problem solving,
-    item 3 Belt moves then error occurs, PDF p. 20-21, text.md lines 407-433
+    item 3 Belt moves then error occurs, PDF p. 20-21, text.md lines 407-433 The February
+    2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual,
+    and prints this page unchanged; the 7.0T-770885 export of the same book (spirit-treadmill-70t-2026-service-manual,
+    "MT8000-ST021-01" on its cover, February 2026) prints this page identically at
+    the same PDF page, text.md lines 28 higher from line 52 on (99.7% at word level;
+    only the cover, the component-description callouts and the parts-list heading
+    differ)
   extracted_at: '2026-09-11'
 ---
 
@@ -52,3 +56,5 @@ Section 5, item 3 of the 7.0T service manual:
 2. **Check the encoder board on the motor.** Its red and green LEDs should blink when the motor's flywheel is turned.
 
 The maintenance-mode brake test itself says the brake coil is energised when the brake is *off* and there should be 18 Vdc at the two brake wires - one volt from the figure here, and both from the same book; either is the neighbourhood to expect. The codes this symptom raises are the over-current and over-torque ones, whose remedies all say *check that the brake is released when the motor is moving* (`70t-2026-errors-e1-over-current`, `70t-2026-errors-e8-over-torque`), and E27 for the encoder (`70t-2026-errors-e27-pg-error`). Spirit's service email on E27 gives the field version of this check (`mt200-2022-errors-e27-encoder-email-encoder-then-inverter-then-motor`).
+
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.

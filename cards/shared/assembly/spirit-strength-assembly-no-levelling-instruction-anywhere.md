@@ -1,12 +1,10 @@
 ---
 id: spirit-strength-assembly-no-levelling-instruction-anywhere
-title: >-
-  No Spirit strength manual has a levelling instruction - the only requirement is a
-  solid, level floor
+title: No Spirit strength manual has a levelling instruction - the only requirement
+  is a solid, level floor
 kind: fact
-question: >-
-  How do I level a Spirit commercial strength machine that rocks? Covers every Spirit CSS,
-  CSD, CSF, CSI and ST800 strength machine.
+question: How do I level a Spirit commercial strength machine that rocks? Covers every
+  Spirit CSS, CSD, CSF, CSI and ST800 strength machine.
 asked_as:
 - how do i level my strength machine
 - the machine rocks on the floor
@@ -78,11 +76,15 @@ see_also:
 - spirit-st800-assembly-anchoring-and-shimming-with-flat-washers
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    the absence holds across all thirty-nine sources; the "solid level surface"
+  locator: 'the absence holds across all thirty-nine sources; the "solid level surface"
     requirement is at printed p. 6 (PDF p. 7) of the CSS Abdominal manual, FACILITY
-    SAFETY, and word for word in the facility safety section of every other manual in
-    the range
+    SAFETY, and word for word in the facility safety section of every other manual
+    in the range | csd-cpsp May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
+    whole book; the "solid level surface" sentence is the safety page, PDF p. 9 (OCR
+    supplement at line 715), PDF pp. 1-35; text.md lines 1-352 - the same words as
+    the 2024 printing | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    whole book; the "solid level surface" sentence is the safety page, PDF p. 9, PDF
+    pp. 1-31; text.md OCR supplement at 1235-1290'
   extracted_at: '2026-09-10'
 ---
 
@@ -116,3 +118,7 @@ Searched all thirty-nine texts for *level*, *leveler*, *leveller*, *levelling*, 
 frame component in a parts list, and one - the functional trainer - carries the ST800
 shimming note. Every other occurrence of the word *level* in the corpus is either "a solid
 level surface" or a resistance level on the i-Strength console.
+
+The **CSD-CPSP's May 2025 update** (4601US, 20250521) prints this exactly as its February 2024 printing does.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

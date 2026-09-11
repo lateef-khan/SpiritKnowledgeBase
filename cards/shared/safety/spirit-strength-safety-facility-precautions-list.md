@@ -2,7 +2,8 @@
 id: spirit-strength-safety-facility-precautions-list
 title: The nine things a facility must do to keep a weight machine in service
 kind: fact
-question: What does Spirit require a gym or facility to do to keep its strength equipment safe?
+question: What does Spirit require a gym or facility to do to keep its strength equipment
+  safe?
 asked_as:
 - what does the gym have to do to maintain the machine
 - facility safety rules for weight equipment
@@ -72,7 +73,12 @@ see_also:
 - spirit-strength-safety-no-anchoring-rule-in-the-cs-manuals
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: FACILITY SAFETY PRECAUTIONS, printed page 6 (PDF page 7) of all thirty-six CSS, CSD, CSF and CSI manuals
+  locator: 'FACILITY SAFETY PRECAUTIONS, printed page 6 (PDF page 7) of all thirty-six
+    CSS, CSD, CSF and CSI manuals. CSD-CPSP May 2025 update: FACILITY SAFETY PRECAUTIONS,
+    PDF p. 7 (printed 6), in spirit-strength-csd-cpsp-owners-manual-2025-update (text.md
+    lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision: the same
+    page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308, OCR
+    supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -104,3 +110,5 @@ may be used**, which is the same rule the safeguards page repeats for cables and
 
 The ST800 manuals print a shorter version of this page, and the ST800DR3's adds a floor-anchoring
 bullet that no other Spirit strength manual carries.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

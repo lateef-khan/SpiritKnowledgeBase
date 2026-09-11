@@ -29,8 +29,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
   - 80t-2026
+  - 85r-2025
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -90,6 +99,7 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xt485-2013
   section: safety
   code: '*'
 authority: 3
@@ -124,7 +134,20 @@ source:
     7 of their printed page 4. The CR800 (2020) and CU800 (2020) service manuals show
     the short warning printed on the console face: 4-1 Display Windows, PDF p. 12
     (printed 11) of each, text.md lines 152-173 and 172-193, with OCR supplement lines
-    1118-1152 and 882-916; read from a 600 dpi render.'
+    1118-1152 and 882-916; read from a 600 dpi render. Spirit Medical 4.0R (2025):
+    item 9, PDF p. 6, text.md lines 110-147, in spirit-bike-40r-2025-owners-manual;
+    4.0U: item 9, PDF p. 6, lines 114-148, in spirit-bike-40u-2025-owners-manual;
+    Dyaco PT 4.0 R / 4.0 U: Warning bullet, PDF p. 4, in spirit-bike-40r-pt-owners-manual
+    and spirit-bike-40u-pt-owners-manual; 7.0R: item 8, PDF p. 6, lines 108-143, in
+    spirit-bike-70r-2025-owners-manual; 7.0U: item 12, PDF p. 6, lines 112-151, in
+    spirit-bike-70u-2025-owners-manual; 8.5R: item 8, PDF p. 6, lines 108-142, in
+    spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: Warning bullet, PDF p. 6,
+    lines 117-161, in spirit-bike-70r-2021-owners-manual. The 2025 4.0T owner''s manual
+    (revision 02.04.25, version 2.1) prints the same page: item 16, PDF p. 6, lines
+    110-149 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013: bullet, PDF p. 4 (printed
+    3), lines 76-131, in spirit-treadmill-xt485-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -305,3 +328,17 @@ That is the console overlay, read from a 600 dpi render of a page whose text lay
 callout labels; the manuals never mention the print in words. The CR900 and CU900 consoles carry the
 under-13 warning in the same style instead
 (`spirit-cr900-safety-console-warning-decal-under-13`).
+
+## Nine Spirit Medical bike books print the disclaimer, and the 8.0U prints a different one
+
+**The 4.0R, 4.0U, 7.0R, 7.0U and 8.5R owner's manuals, the Dyaco PT 4.0 R and 4.0 U and the Dyaco MED
+7.0R all print the sentence** - `The hand pulse sensors are not medical devices` on the self-powered
+bikes, `The pulse sensors are not medical devices` on the plug-in ones - beside the over-exercise
+item. **The 8.0U does not.** Its list has the over-exercise item and no pulse-sensor item; what it
+says instead is on its application page: `The heart rate readings are not for medical purpose but
+for information purposes only used for physical evaluation and physical planning purposes`
+(`spirit-med-bike-safety-intended-patient-population-and-medical-purpose`). Do not quote this
+card's sentence as the 8.0U manual's.
+
+**The 2025 printing of the 4.0T manual prints item 16 unchanged**, and the Australian XT485-2013
+prints the plug-in bikes' form with `exercise aids`.

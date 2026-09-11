@@ -1,6 +1,7 @@
 ---
 id: spirit-bike-programs-erratic-heart-rate-interference
-title: Wild or random pulse numbers mean interference, and the manual lists eight sources to check
+title: Wild or random pulse numbers mean interference, and the manual lists eight
+  sources to check
 kind: troubleshooting
 question: Why does my Spirit bike or air bike show wild or random heart rate numbers?
 asked_as:
@@ -22,6 +23,12 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
+  - 70u-2025
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cr800-2021
@@ -58,9 +65,22 @@ see_also:
 - spirit-ce-programs-erratic-heart-rate-interference
 - spirit-bike-safety-no-mains-outlet-needed
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
+- spirit-med-bike-console-chest-strap-5-khz-2500-hours-and-a-cr2032
+- spirit-med-bike-console-wearing-the-chest-strap-with-its-two-black-square-electrodes
+- ctsbs900-heart-rate-chest-strap-troubleshooting
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT 2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900 2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21; XBR95 2016/2018/2021 printed p. 33; XBR25 2019 p. 26; XBR55 2019/2021 p. 31; XBU55 2019/2021 p. 31; XBR55ENT/XBU55ENT 2021 p. 42; XBR95 2023 p. 23; XBR55/XBU55 2023 p. 24; AB900 2018 service manual (AU800/AU800A) Erratic Operation, PDF p. 21, text.md lines 387-406'
+  locator: 'CR800 2021 printed p. 34; CU800 2021 p. 33; CR800 2023 p. 34; CU800ENT
+    2022 p. 38; CR800ENT 2023 p. 38; CU800ENT 2024 p. 44; CR900 2025 p. 28; CU900
+    2025 p. 27; CU800 2012 scan 1 PDF p. 26; AB950 2024 p. 21; XBR95 2016/2018/2021
+    printed p. 33; XBR25 2019 p. 26; XBR55 2019/2021 p. 31; XBU55 2019/2021 p. 31;
+    XBR55ENT/XBU55ENT 2021 p. 42; XBR95 2023 p. 23; XBR55/XBU55 2023 p. 24; AB900
+    2018 service manual (AU800/AU800A) Erratic Operation, PDF p. 21, text.md lines
+    387-406; 4.0R 2025: PDF p. 31 (printed 29); text.md lines 851-878; 4.0U 2025:
+    PDF p. 31 (printed 29); text.md lines 805-832; 7.0R 2025: PDF p. 44 (printed 42);
+    text.md lines 1199-1226; 7.0U 2025: PDF p. 42 (printed 40); text.md lines 1156-1183;
+    8.0U 2025: PDF p. 54 (printed 52); text.md lines 1374-1401; 8.5R 2025: PDF p.
+    59 (printed 57); text.md lines 1540-1567'
   extracted_at: '2026-09-09'
 ---
 
@@ -134,3 +154,12 @@ Upright Bike - unlike the CU800 2012, which calls itself an elliptical trainer.
 
 **The XBR25 2023 prints no such page.** Its manual has no chest strap chapter and no heart rate
 program - see `spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.
+
+**The six 2025 Spirit medical bike books print the eight-item list with the grounding item first**,
+worded for the machine - "Recumbent Bikes is not properly grounded" on the 4.0R, 7.0R and 8.5R,
+"Upright Bikes is not properly grounded" on the 4.0U, 7.0U and 8.0U - with a Perimeter fence, the
+Spirit Fitness logo, three feet, and "contact your dealer". Their caution reads "Do not use this 4.0R
+for Heart Rate Control", naming the model. **On the 4.0R and 4.0U the grounding item cannot be acted
+on**: both are generator-powered with no mains plug. The three Dyaco editions of the same bikes
+print the seven-item, one-metre list instead -
+`spirit-med-bike-programs-erratic-heart-rate-seven-sources-and-a-one-metre-rule`.

@@ -23,8 +23,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2010
+  model: '*'
   applies_to:
+  - xt485-2013
   - xt685-2010
   section: console
   code: '*'
@@ -39,7 +40,8 @@ see_also:
 - xt-2015-specs-speed-and-incline-range-xt185-xt285
 source:
   ref: spirit-treadmill-xt685-2010-owners-manual
-  locator: Quick Speed & Incline Buttons, p. 16
+  locator: Quick Speed & Incline Buttons, p. 16. XT485 2013 OM QUICK SPEED & INCLINE
+    BUTTONS, PDF p. 14 (printed 13), text.md lines 405-419
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +75,6 @@ word for word.
 
 **Quick Start names these keys too**, as the alternative to holding Speed or Incline down - see
 `xt-2015-console-quick-start`.
+
+**The XT485 2013 owner's manual prints this paragraph and the same four examples on its printed p. 13**, with the keys labelled QUICK KEYS on its console drawing, so this card covers that machine - with one wording change: it says "select either **1 or 2 digits**" where the 2010 XT685 says 2 digits, so 8 and Enter is offered as well as 8, 0 and Enter. **The ceiling it prints in the same paragraph is 9.9 mph or kmph and 9.5% incline** - "The maximum value you may input for speed is 9.9 mph or kmph and incline 9.5%" - which is the same sentence the 2010 book holds at `xt-2015-specs-speed-and-incline-range-xt185-xt285`; the calibration routine of the same 2013 book sets a maximum of 12.0 mph / 18.0 kmph, and nothing in it says how a speed above 9.9 is reached.
+

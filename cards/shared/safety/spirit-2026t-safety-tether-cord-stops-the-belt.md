@@ -1,8 +1,10 @@
 ---
 id: spirit-2026t-safety-tether-cord-stops-the-belt
-title: The magnetic safety tether cord should be used at all times and stops the belt when pulled
+title: The magnetic safety tether cord should be used at all times and stops the belt
+  when pulled
 kind: policy
-question: What is the safety tether cord on a 2026 Spirit 7.0T or 8.0T treadmill, or on a Spirit MT200 rehabilitation treadmill, for?
+question: What is the safety tether cord on a 2026 Spirit 7.0T or 8.0T treadmill,
+  or on a Spirit MT200 rehabilitation treadmill, for?
 asked_as:
 - what is the cord that clips to my clothes for
 - how does the emergency stop cord work
@@ -24,6 +26,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -40,7 +43,12 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 21, page 5; the 8.0T owner's manual prints the same words as item 21 of its page 5. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
+  locator: 'SAFETY INSTRUCTIONS item 21, page 5; the 8.0T owner''s manual prints the
+    same words as item 21 of its page 5. The two Spirit MT200 rehabilitation treadmill
+    owner''s manuals print it on their safety instructions page, page 4 of the 2010
+    manual and pages 5 to 7 of the 2022 manual. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: SAFETY INSTRUCTIONS item 21, PDF
+    p. 7 (printed 5), lines 144-164 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -79,3 +87,5 @@ key and safety tether cord are one part on this machine.
 without the magnet or how to fasten the clip to clothing. The one-to-two-step coast and the
 clip instructions quoted for the CT850, CT900 and XT machines
 (`xt-2015-safety-tether-cord`) are not figures an MT200 manual states.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

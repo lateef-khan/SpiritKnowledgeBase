@@ -1,8 +1,10 @@
 ---
 id: spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down
-title: The self-test shows the software version and total hours, and the console powers itself down after twenty minutes
+title: The self-test shows the software version and total hours, and the console powers
+  itself down after twenty minutes
 kind: fact
-question: What happens when a Spirit rehabilitation recumbent stepper console is switched on, and why does it go blank?
+question: What happens when a Spirit rehabilitation recumbent stepper console is switched
+  on, and why does it go blank?
 asked_as:
 - my rehab stepper console goes blank on its own
 - how long before the spirit stepper console turns off
@@ -41,8 +43,13 @@ see_also:
 - spirit-rehab-stepper-console-set-up-key-position-by-height-and-the-track-or-step-graph
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 21, Power on; the 7.0S-2025 prints the same passage on its printed p. 23, POWER ON & CONSOLE OPERATION and the 7.5S-2025 on its printed p. 25.
-    7.5S (RS9600-SS021-01) service manual 5.2.1 Maintenance menu, Functions / Sleep, PDF p. 11, text.md lines 100-101, which prints a different figure
+  locator: MS300-2021 printed p. 21, Power on; the 7.0S-2025 prints the same passage
+    on its printed p. 23, POWER ON & CONSOLE OPERATION and the 7.5S-2025 on its printed
+    p. 25. 7.5S (RS9600-SS021-01) service manual 5.2.1 Maintenance menu, Functions
+    / Sleep, PDF p. 11, text.md lines 100-101, which prints a different figure. 7.0S
+    (RS9500-SS021-02) service manual Functions / Sleep, PDF p. 11, text.md lines 116-117;
+    7.5S (RS9600-SS021-03) service manual PDF p. 11, lines 100-101 - both print the
+    30-minute figure the -01 book prints
   extracted_at: '2026-09-10'
 ---
 
@@ -78,3 +85,6 @@ set to 'on' the console will go to sleep after 30 minutes of inactivity"*
 minutes every owner's manual on this card prints for the automatic power-down. The service manual
 has no power-on paragraph of its own - its Basic Functions section says "Refer to the user manual" -
 so the two figures never meet in one document. Quote the document in front of you.
+
+**The 2025 service manuals for both machines - RS9500-SS021-02 for the 7.0S and RS9600-SS021-03 for the 7.5S - print the same Sleep entry with 30 minutes**, so the 20-versus-30 disagreement between the owner's manuals and the service manuals holds for every book in the family.
+

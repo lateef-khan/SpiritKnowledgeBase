@@ -29,6 +29,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2013
   - ct850-2018
   - ct900
   section: maintenance
@@ -48,7 +49,7 @@ see_also:
 - 40t-2026-maintenance-deck-life-and-flipping
 source:
   ref: ct900-om
-  locator: 'CT900 owner''s manual p. 36; the same two paragraphs are CT800 2012 p. 21, CT800 2016 p. 33 and CT850 2018 p. 37; the CT900 page is spirit-treadmill-ct900-owners-manual p. 36'
+  locator: 'CT900 owner''s manual p. 36; the same two paragraphs are CT800 2012 p. 21, CT800 2016 p. 33 and CT850 2018 p. 37; the CT900 page is spirit-treadmill-ct900-owners-manual p. 36 The 2013 CT850 was added on 2026-09-11: spirit-treadmill-ct850-2013-owners-manual, a Lexmark scan with no text layer, General Maintenance "Belt/Deck", PDF p. 26 (printed 22), OCR supplement text.md lines 1024-1035, confirmed on a 120 dpi render - hard waxed deck, once a month, nylon scrub brush, 20,000 miles on each side, no lubricant or wax.'
   extracted_at: '2026-08-24'
 ---
 
@@ -74,7 +75,10 @@ Read the deck description off the customer's own manual rather than inferring it
 ## The CT900 PDF prints a second, contradicting figure on the same page
 
 Page 36 of `spirit-treadmill-ct900-owners-manual` carries a duplicated *GENERAL MAINTENANCE* block
-laid over the manual's own column. That block describes a **"low-friction bed"** rather than a hard
+in its text layer - on the 2025 and 2026 4.0T, 7.0T and 8.0T books, whose text layers carry the identical
+block, 300 dpi renders made on 2026-09-11 show none of it printed, and a render of the CT900 page itself
+(PDF p. 38, printed 36) shows only the two hard-wax paragraphs - so read "carries" as an invisible layer
+rather than as something laid over the printed column. That block describes a **"low-friction bed"** rather than a hard
 waxed deck, gives the deck life as **"20,000 kilometers on each side"**, and prints a running
 surface of **56x224cm** - none of which is CT900 content. The 2026 4.0T, 7.0T and 8.0T manuals carry
 the identical block (`40t-2026-maintenance-deck-life-and-flipping` records it there).
@@ -99,3 +103,11 @@ The **CT800 2016** and **CT850 2018** cartons are the only two Spirit CT800/CT85
 Both manuals still say, on this page, not to apply any lubricant or wax to the deck surface, and
 neither names a target for the tube anywhere else. **Do not read the tube as permission to lubricate
 the deck.**
+
+## The 2013 CT850 prints it too - the first CT850 book, and a hard wax deck
+
+The **CT850 2013** (stamped CT850_20131015, effective November 1, 2013) prints both paragraphs word for word:
+the hard waxed deck, the monthly damp-cloth and nylon-brush routine, **20,000 miles on each side**, flip when
+worn, and "do not apply any type of lubricant or wax to the surface". So the CT850 line opens on the hard wax
+deck in 2013, moves to the proprietary 4,000-hour deck in 2016, and returns to hard wax in 2018 - three
+printings, two decks. Read the deck off the customer's own manual.

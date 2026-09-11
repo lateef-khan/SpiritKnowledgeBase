@@ -24,6 +24,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -40,7 +41,7 @@ see_also:
 - xt-2023-programs-select-and-start-xt385-xt485-xt685
 source:
   ref: ct900ent-om
-  locator: p. 34
+  locator: 'p. 34; XT485 2013: PDF p. 25 (printed 24); text.md lines 906-957'
   extracted_at: '2026-08-24'
 ---
 
@@ -57,3 +58,5 @@ On the CT900ENT, the full segment-by-segment speed and incline values are in [Pr
 The XT485ENT owner's manual prints the same description on page 39. It writes "gradual
 progression of **resistance**", as the 2015 XT manuals do, and "sustained **for** 25% of
 workout duration", as the XT manuals do.
+
+**The 2013 XT485 owner's manual prints this description word for word** under a **Resistance** heading, writing "gradual progression of speed" and "sustained for 25% of workout duration", and spelling glutes "gluts".

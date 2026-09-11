@@ -3,8 +3,8 @@ id: spirit-xr-recumbent-assembly-drive-pulley-axle-replacement
 title: 'Replacing the recumbent drive pulley and its axle with an 11 mm wrench: a
   20 mm C-ring, four 1/4 x 3/4 bolts, eight washers and four 1/4 x 8T nuts'
 kind: procedure
-question: How do I replace the drive pulley axle or the drive pulley on a Spirit XBR
-  recumbent bike or a 2009 CR800?
+question: How do I replace the drive pulley or the crank axle on a Spirit CR800 2009,
+  XBR or Spirit Medical 4.0R recumbent bike?
 asked_as:
 - drive pulley replacement spirit xbr55
 - crank axle c ring xbr95
@@ -25,6 +25,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
   - cr800-2009
   - xbr25-2016
   - xbr55-2016
@@ -52,7 +53,8 @@ source:
     Drive Pulley, PDF p. 54; text.md lines 779-798 | xbr55-2023: 9.7 Replacing the
     Drive Pulley Axle and Drive Pulley, PDF p. 21; text.md lines 447-457 | xbr95-2023:
     9.6 Replacing the Drive Pulley Axle and Drive Pulley, PDF p. 18; text.md lines
-    369-380'
+    369-380 | 40r-2025 (spirit-bike-40r-2025-service-manual): 9-6 Drive Pulley Axle
+    and Drive Pulley Replacement, PDF p. 42; text.md lines 537-558'
   extracted_at: '2026-09-11'
 ---
 
@@ -66,3 +68,5 @@ source:
 **Nut (90) is 1/4" x 8T here and 1/4" x 5T in the 2020 CR800 and CR800ENT books and the 2008 dealer parts list.** Same part number, same four bolts and eight washers; the printed nut thickness differs. The 2020 CR800 version is the linked card.
 
 Eight washers for four bolts: one under the head and one under the nut. After the pulley goes back the belt tension has to be set again; the figure depends on which machine (180 +/- 10 Hz on the induction-brake XBR95 and XR898, 450 N on the gear-motor XBR55) and is on the belt cards, not here.
+
+**The Spirit Medical 4.0R (FR800-SB022-03 book) is the eighth book to print this procedure**: C-ring pliers on the Ø20 C-ring, an 11 mm wrench, 4 pcs of 1/4" x 3/4" hex head bolts, 8 pcs of 1/4" x 13 x 1T flat washers and **4 pcs of 1/4" x 8T nuts** - the XR898 / XBR thickness, not the 2020 CR800's 5T. Its parts list carries the nut as item 90, 1/4" x 8T nyloc nut (4), and its belt goes back to 180 +/- 10 Hz.

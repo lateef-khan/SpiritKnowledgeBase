@@ -2,7 +2,8 @@
 id: xt-2015-console-quick-start
 title: Starting a workout with Quick Start
 kind: procedure
-question: How do I start a workout on a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: How do I start a workout on a Spirit XT185-2015, XT285-2015, XT385-2015,
+  XT485-2015 or XT685-2015 treadmill?
 asked_as:
 - how do i start my spirit treadmill
 - how do i get the belt moving
@@ -28,6 +29,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -45,7 +47,9 @@ source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: CONSOLE OPERATION / Quick Start, Manual Operation, p. 18; the XT285-2015
     manual prints the same on its p. 18, and the XT385-2015 (p. 22), XT485-2015 (p.
-    21) and XT685-2015 (p. 21) manuals print the variant noted below
+    21) and XT685-2015 (p. 21) manuals print the variant noted below. XT485 2013 OM
+    (SPT0033 ver. C) QUICK-START/MANUAL OPERATION, PDF p. 17 (printed 16), text.md
+    lines 498-508
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +86,6 @@ Speed + / - or Fast/Slow keys (console or hand rail) to the desired speed"*, a t
 sentence described above. And the key it names for typing a value is the **Quick Speed** or **Quick
 Incline** key, not the Select key - see
 `xt685-2010-console-quick-speed-and-incline-keys`.
+
+**The XT485 2013 owner's manual prints the same five steps on its printed p. 16**, so this card covers that machine. It is the Australian edition, so step 2 starts the belt "at .5 mph (**1 kmph**)"; step 3 is the XT385/XT485/XT685 "slow the tread-belt ... hold the '-' key" variant; and the key it names for typing a value is the **quick speed key** or **Quick Incline key**, "then 0 through 9", as the 2010 XT685 book does (`xt685-2010-console-quick-speed-and-incline-keys`).
+

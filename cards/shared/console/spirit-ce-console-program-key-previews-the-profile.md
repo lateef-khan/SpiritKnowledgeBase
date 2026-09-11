@@ -23,6 +23,13 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -94,8 +101,14 @@ source:
     (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), text.md
     lines 264-265; CE850 (2020) service manual BASIC INFORMATION, PDF p. 16 (printed
     16), lines 319-320; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF
-    p. 15 (printed 15), lines 259-261.
-    CRS800S (2020 ver.) service manual BASIC INFORMATION, PDF p. 13 (printed 13), text.md lines 180-181; CS800 (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), lines 261-262
+    p. 15 (printed 15), lines 259-261. CRS800S (2020 ver.) service manual BASIC INFORMATION,
+    PDF p. 13 (printed 13), text.md lines 180-181; CS800 (2020) service manual 4-2-3
+    BASIC INFORMATION, PDF p. 15 (printed 14), lines 261-262. 4.0R-2025 OM BASIC INFORMATION,
+    PDF p. 18 (printed 16), text.md lines 490-495; 4.0U-2025 OM PDF p. 18, lines 447-453;
+    4.0R SM PDF p. 17, lines 187-189; Dyaco PT 4.0 R PDF p. 35, lines 995-1000; PT
+    4.0 U PDF p. 33. 7.0R-2025 OM BASIC INFORMATION, PDF p. 29 (printed 27), lines
+    788-791; 7.0U-2025 OM PDF p. 27, lines 750-753; Dyaco MED 7.0R (2021) PDF p. 43,
+    lines 1377-1380
   extracted_at: '2026-09-09'
 ---
 
@@ -176,3 +189,6 @@ enter the data set-up mode.
 for word** - "The Program Key is used to preview each program", one Program button stepping through
 the profiles, Enter to select and enter data set-up - and the CRS800S book's Function Button
 Locations page labels that single **Program Key** on the console.
+
+**Seven Spirit Medical bike books print the paragraph too, one key per program.** The 2025 4.0R and 4.0U, their Dyaco PT editions and both 4.0 service manuals say "press the corresponding program key and then press the **confirm** key to select the program and enter into the data-setup mode" - Confirm is that console's Enter (`spirit-med-40-bike-console-face-two-row-message-window-rpm-and-level-windows-and-five-program-keys`). The 2025 7.0R and 7.0U and the Dyaco MED 7.0R say "press the corresponding program key and then press the **Enter** key", and add that the same keys type numbers during data entry (`spirit-med-70-bike-console-stop-reset-key-and-the-program-keys-as-a-number-pad`).
+

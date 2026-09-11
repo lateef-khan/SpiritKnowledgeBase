@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +34,9 @@ see_also:
 - 40t-2026-programs-gerkin-chart
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 31, WFI - Program Speed and Incline Chart
+  locator: 'page 31, WFI - Program Speed and Incline Chart; 4.0T 2025 (February printing):
+    PDF p. 32 (printed 30); text.md lines 835-867; 4.0T 2025 (May printing): PDF p.
+    32 (printed 30); text.md lines 835-867'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +66,5 @@ therefore contradicts itself about what the WFI test runs; both are recorded as 
 | 15:01 - 16:00 | 7.5 mph (12.0 km/hr) | 12 |
 | 16:01 - 17:00 | 7.5 mph (12.0 km/hr) | 14 |
 | 17:01 - 18:00 | 8.0 mph (12.8 km/hr) | 14 |
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

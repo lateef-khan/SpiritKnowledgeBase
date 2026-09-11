@@ -17,6 +17,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 80t-2026
   - ct800-2016
@@ -36,7 +37,9 @@ see_also:
 - ct900-navy-prt-fitness-test
 source:
   ref: ct900-om
-  locator: p. 24
+  locator: 'p. 24; 4.0T 2025 (February printing): PDF p. 32 (printed 30); text.md
+    lines 835-867; 4.0T 2025 (May printing): PDF p. 32 (printed 30); text.md lines
+    835-867'
   extracted_at: '2026-08-24'
 ---
 
@@ -67,3 +70,5 @@ so no values are recorded for that machine and none may be carried across from h
 offers the Army test and calls it a timed 2 mile run with the speed controlled manually, but prints
 its table as a picture**, so no values are recorded for that machine and none may be carried across
 from here.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

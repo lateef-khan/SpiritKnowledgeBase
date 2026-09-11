@@ -25,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct800-2012
@@ -49,7 +50,8 @@ see_also:
 - ct900-vo2max-score-interpretation
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: 'page 46, Programs Preset - Gerkin (7.0T manual: page 30, Vo2 Test)'
+  locator: 'page 46, Programs Preset - Gerkin (7.0T manual: page 30, Vo2 Test); 7.0T
+    2025: PDF p. 32 (printed 30); text.md lines 929-969'
   extracted_at: '2026-09-09'
 ---
 
@@ -138,3 +140,5 @@ printing off another.
 **The 2024 CT800 and CT850 owner's manuals print this same chart, value for value** (both printed
 page 27), with stage 2.1 at 1:15. **The 2024 ENT touchscreens print the other chart**, whose stage
 2.1 begins at 1:00 - see `ct800ent-2024-programs-gerkin-chart-in-kph-and-mph`.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

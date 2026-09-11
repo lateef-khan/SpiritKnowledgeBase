@@ -2,7 +2,8 @@
 id: 40t-2026-programs-interval
 title: The Interval program that depletes and replenishes oxygen
 kind: fact
-question: What does the Interval program do on a Spirit treadmill or elliptical that describes it as depleting and replenishing oxygen?
+question: What does the Interval program do on a Spirit treadmill or elliptical that
+  describes it as depleting and replenishing oxygen?
 asked_as:
 - what is the interval program
 - which program is high intensity
@@ -22,6 +23,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - xe100-2007
   - xe200-2007
@@ -39,7 +41,9 @@ see_also:
 - 70t-2026-programs-preset-speed-incline-chart
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 23, Programs Preset - Interval
+  locator: 'page 23, Programs Preset - Interval; 4.0T 2025 (February printing): PDF
+    p. 25 (printed 23); text.md lines 635-660; 4.0T 2025 (May printing): PDF p. 25
+    (printed 23); text.md lines 635-660'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +72,5 @@ Those five manuals print a profile picture only and give no numeric segment valu
 **Do not confuse this with the Interval description the later ellipticals print.** The XE395 2010
 and every XE from 2021 on print the longer "Fast Twitch muscle fibers" wording, which is
 `spirit-ce-programs-interval-profile`. The XE150 console has no program named Interval at all.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

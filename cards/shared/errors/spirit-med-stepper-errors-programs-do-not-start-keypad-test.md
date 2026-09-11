@@ -46,7 +46,11 @@ source:
     of the 7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021 manual,
     where the second bullet is missing from the text layer and was recovered from
     a 300 dpi render; 7.5S (RS9600-SS021) service manual 5.2.3, "Console programs
-    do not start", PDF p. 15, text.md lines 147-149
+    do not start", PDF p. 15, text.md lines 147-149; 7.0S (RS9500-SS021-02) service
+    manual 5.2.3 "Console programs do not start", PDF p. 15, text.md lines 165-173;
+    7.5S (RS9600-SS021-03) service manual 5.2.3 "Console programs do not start", PDF
+    p. 15, text.md lines 148-156 - the 7.5S RS9600-SS021-01 page unchanged in both
+    (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-10'
 ---
 

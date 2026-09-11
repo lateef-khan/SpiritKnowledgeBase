@@ -36,6 +36,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -75,7 +76,7 @@ source:
     ten items are printed again, word for word, in three Spirit elliptical owner''s manuals:
     ce800-2021 pp. 37-38 (spirit-elliptical-ce800-2021-owners-manual text.md lines 958-981),
     ce800-2023 pp. 38-39 (spirit-elliptical-ce800-2023-owners-manual text.md lines 980-1003),
-    ce800ent p. 41 (spirit-elliptical-ce800ent-owners-manual text.md lines 936-959)'
+    ce800ent p. 41 (spirit-elliptical-ce800ent-owners-manual text.md lines 936-959) The same ten items in the CT850 2013 book, with "All warranties are made by Spirit Fitness" under the list: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -130,3 +131,5 @@ The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and t
 **Two of the six omit the prisons footnote but keep the prisons exclusion.** Item 9 - *Product used in prisons and correctional facilities* - is on all six lists. The footnote under the warranty table is not: the CU800 2012 prints no footnote at all (`spirit-2026t-warranty-prisons-excluded`).
 
 **This is not the list the other seven bikes print.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT run to **eight** numbered items with no dues-paying exclusion anywhere (`ce900-2021-warranty-exclusions`), and the CR900 2025, CU900 2025 and CU800ENT 2024 run to **nine** and drop the outright exclusion of an unregistered machine (`spirit-ce-2025-warranty-exclusions`).
+
+**The CT850 2013 book prints the same ten items**, dues-paying facility at 8 and prisons at 9, and its note under the list reads "All warranties are made by Spirit Fitness", as the CT800 2012 does. Its scan numbers items 8, 9 and 10 twice ("8. 8. Product used in a dues paying facility") - a typesetting slip on the page, not a different list.

@@ -29,6 +29,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -45,11 +46,16 @@ see_also:
 - f65-2016-belt-tension-adjustment
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 2023 manuals, page 32, MAINTENANCE & CARE - Belt Adjustments, Tread-belt
+  locator: '2023 manuals, page 32, MAINTENANCE & CARE - Belt Adjustments, Tread-belt
     Tension Adjustment (XT285 p. 40, XT385 p. 44, XT485 p. 44, XT685 p. 43); 2015
     manuals, Belt Adjustments - Tread-belt Tension Adjustment (XT185 p. 26, XT285
-    p. 34, XT385 p. 36, XT485 p. 41, XT685 p. 41); XT485ENT pp. 51-52; XT685ENT p. 46;
-    XT685 2010 printed p. 28 (spirit-treadmill-xt685-2010-owners-manual PDF p. 32)
+    p. 34, XT385 p. 36, XT485 p. 41, XT685 p. 41); XT485ENT pp. 51-52; XT685ENT p.
+    46; XT685 2010 printed p. 28 (spirit-treadmill-xt685-2010-owners-manual PDF p.
+    32) The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    BELT ADJUSTMENTS - Tread-belt Tension Adjustment, PDF p. 30 (printed 29), text.md
+    lines 1170-1200 - 6 mm Allen wrench, 1/4 turn each, both sides evenly, DO NOT
+    OVERTIGHTEN, the drive belt under the motor cover; the balanced-bolts caution
+    ends at "instead of running in the middle of the deck", as the XT685 2010 does.'
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +79,8 @@ All thirteen manuals - the **XT685 2010**, the five 2015, the five 2023, the XT4
 **The XT685 2010 manual stops one sentence earlier.** It does not print "the belt shifts from the higher tension end to the other"; it ends the balanced-bolts caution at "instead of running in the middle of the deck". Its Assembly Tools page names the wrench only as the **M6 Allen Wrench, item 107**, and gives it no other name.
 
 The Sole procedure in `f65-2016-belt-tension-adjustment` reaches the same bolts through a hole in the end cap; the XT manuals do not describe an end cap hole and do not give a wrench size for the Sole machines.
+
+**The XT485 2013 prints the same procedure** - the **6 mm** wrench, **1/4 turn each**, both sides evenly and the
+over-tightening and drive-belt warnings - and, like the XT685 2010, stops the balanced-bolts caution at
+"instead of running in the middle of the deck" without the "higher tension end" sentence. Its Tools Included
+list is not itemised for the wrench.

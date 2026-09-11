@@ -1,8 +1,10 @@
 ---
 id: spirit-bike-programs-fitness-test-workload-charts
-title: The fitness test workload charts start at 300 kgm/min for men and 150 kgm/min for women
+title: The fitness test workload charts start at 300 kgm/min for men and 150 kgm/min
+  for women
 kind: spec
-question: What are the workload stages of the fitness test on a Spirit commercial bike?
+question: What are the workload stages of the fitness test on a Spirit commercial
+  bike?
 asked_as:
 - what resistance does the fitness test use on the bike
 - what is the kgm chart for the vo2 test
@@ -23,6 +25,13 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -44,7 +53,15 @@ see_also:
 - spirit-ce-programs-fitness-test-workload-charts-are-pictures
 source:
   ref: spirit-bike-cu800ent-2024-owners-manual
-  locator: 'CU800ENT 2024 printed p. 41 (OCR supplement, PDF p. 43); CU800ENT 2022 p. 32 (PDF p. 34); CU800 2012 p. 20 (scan 1 PDF p. 22, scan 2 PDF p. 22)'
+  locator: 'CU800ENT 2024 printed p. 41 (OCR supplement, PDF p. 43); CU800ENT 2022
+    p. 32 (PDF p. 34); CU800 2012 p. 20 (scan 1 PDF p. 22, scan 2 PDF p. 22); 4.0R
+    2025: PDF p. 25 (printed 23); text.md lines 682-709; 4.0U 2025: PDF p. 25 (printed
+    23); text.md lines 639-666; PT 4.0 R: PDF pp. 41-42 (printed 41-42); text.md lines
+    1206-1291; PT 4.0 U: PDF pp. 39-40 (printed 39-40); text.md lines 1174-1259; 7.0R
+    2025: PDF p. 35 (printed 33); text.md lines 967-994; 7.0U 2025: PDF p. 33 (printed
+    31); text.md lines 930-957; MED 7.0R 2021: PDF pp. 49-50 (printed 49-50); text.md
+    lines 1564-1655; the 2025 books print the charts as pictures, read from a 150
+    dpi render of 4.0R PDF p. 25 and the OCR supplements'
   extracted_at: '2026-09-09'
 ---
 
@@ -84,3 +101,12 @@ the male chart to OCR. The CU800ENT 2022 recovers the male 1st stage (300) and o
 the two chart headings with the charts themselves as flat pictures, so no values are recoverable.
 
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no workload chart at all.**
+
+**Seven Spirit medical bike books print both charts value for value as above, including 117 watts
+and 700 kgm/min in the fourth stage.** The Dyaco PT 4.0 R and 4.0 U editions and the MED 7.0R 2021
+edition print them as native text, wattage above each kgm figure - 50 W for 300, 150/125/100 W for
+900/750/600, 225 down to 125 W across the third stage; 25 W for 150, 125/100/75/50 W for the second,
+150/125/100/75 W for the third, 175/150/117/100 W for the fourth. The 4.0R, 4.0U, 7.0R and 7.0U 2025
+books print the same charts as pictures. **The 8.0U and 8.5R touchscreen bikes print 125 watts and
+750 kgm/min where these print 117 and 700**, so their chart is a separate card:
+`spirit-med-touchscreen-bike-programs-ymca-workload-chart-whose-fourth-stage-runs-1050-900-750-600`.

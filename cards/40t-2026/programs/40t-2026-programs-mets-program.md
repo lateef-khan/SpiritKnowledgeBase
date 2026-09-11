@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,9 @@ see_also:
 - 80t-2026-programs-mets-target
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 35, METs Program
+  locator: 'page 35, METs Program; 4.0T 2025 (February printing): PDF p. 36 (printed
+    34); text.md lines 963-1011; 4.0T 2025 (May printing): PDF p. 36 (printed 34);
+    text.md lines 963-1011'
   extracted_at: '2026-09-09'
 ---
 
@@ -47,3 +48,5 @@ source:
 
 For what a MET is and the MET value of everyday activities, see the MET table card. The 8.0T has a
 comparable program called METs Target, which is set up on a touch screen instead.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

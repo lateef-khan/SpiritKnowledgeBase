@@ -2,7 +2,10 @@
 id: ct900ent-operating-environment-voltage
 title: Operating environment - temperature, humidity, moisture, and voltage
 kind: spec
-question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850 or XT685-2010 treadmill, a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, a Spirit XE residential machine, or a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike, need?
+question: What temperature, humidity and voltage does a Spirit CT900ENT, CT800, CT850
+  or XT685-2010 treadmill, a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, a
+  Spirit XE residential machine, or a Spirit commercial CR800, CR900, CU800 or CU900
+  upright or recumbent bike, need?
 asked_as:
 - can i use this treadmill outside
 - what temperature range is safe
@@ -50,6 +53,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -89,6 +93,7 @@ facets:
   - xg400-2021
   - xrw600-2019
   - xrw600-2021
+  - xt485-2013
   - xt685-2010
   section: safety
   code: '*'
@@ -111,21 +116,28 @@ see_also:
 - xt-2023-safety-supply-voltage-variation
 source:
   ref: ct900ent-om
-  locator: >-
-    p. 4 The four CT800 owner's manuals print the same two paragraphs on their Important
-    Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020 page 5, ENT-2022 page 5,
-    and the four CT850 owner's manuals on theirs - 2016 page 5, 2018 page 4, 2020 page 5,
-    ENT-2022 page 5. The XT685 2010 owner's manual prints the same two paragraphs on its
-    Important Electrical Instructions page, PDF page 7 (printed 3). Every figure on this card
-    was re-checked against the shipping PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT
-    ELECTRICAL INSTRUCTIONS, page 4, and matches. The nine Spirit elliptical owner's manuals
-    that carry the paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed
-    3), CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850 2020
-    page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6 Twelve of the thirteen
-    Spirit commercial bike owner's manuals print the temperature paragraph on their electrical
-    page - CR900-2018, CU900-2018, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021,
-    CR800-2023 and CU800-2021 printed pages 4 to 5, CU800ENT-2022 and CR800ENT-2023 printed page
-    5, CR900-2025 and CU900-2025 printed page 5, and CU800-2012 printed page 3 in both scans The XRW600-2019 and XRW600-2021 rower owner's manuals print both paragraphs on their Important Electrical Instructions page, printed page 6, and the CRW800-2021 prints the temperature sentences only, on its printed page 4
+  locator: 'p. 4 The four CT800 owner''s manuals print the same two paragraphs on
+    their Important Electrical Instructions page - 2012 page 3, 2016 pages 4-5, 2020
+    page 5, ENT-2022 page 5, and the four CT850 owner''s manuals on theirs - 2016
+    page 5, 2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner''s manual
+    prints the same two paragraphs on its Important Electrical Instructions page,
+    PDF page 7 (printed 3). Every figure on this card was re-checked against the shipping
+    PDF spirit-treadmill-ct900ent-owners-manual, IMPORTANT ELECTRICAL INSTRUCTIONS,
+    page 4, and matches. The nine Spirit elliptical owner''s manuals that carry the
+    paragraph print it on their electrical page - CE800 2013 PDF page 5 (printed 3),
+    CE800 2021 page 5, CE800 2023 page 5, CE800ENT page 5, CE850 2016 page 6, CE850
+    2020 page 7, CE850 2022 page 7, CE900 2021 pages 3-4, CE900 2025 page 6 Twelve
+    of the thirteen Spirit commercial bike owner''s manuals print the temperature
+    paragraph on their electrical page - CR900-2018, CU900-2018, CR900ENT-2021 and
+    CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed pages
+    4 to 5, CU800ENT-2022 and CR800ENT-2023 printed page 5, CR900-2025 and CU900-2025
+    printed page 5, and CU800-2012 printed page 3 in both scans The XRW600-2019 and
+    XRW600-2021 rower owner''s manuals print both paragraphs on their Important Electrical
+    Instructions page, printed page 6, and the CRW800-2021 prints the temperature
+    sentences only, on its printed page 4. XT485-2013 (Australian edition): IMPORTANT
+    ELECTRICAL INSTRUCTIONS, PDF p. 5 (printed 4), text.md lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Electrical Instructions, PDF p. 7 (printed 3), OCR supplement
+    at lines 130-185, read against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-08-24'
 ---
 
@@ -378,3 +390,12 @@ book is carried above; the two water rowers print **no electrical page at all** 
 temperature, humidity or voltage anywhere
 (`spirit-water-rower-safety-four-aa-batteries-and-no-electrical-page`). Do not read 40 to 120
 Fahrenheit onto a water rower.
+
+## Two 2013 owner's manuals print both paragraphs with the CT figures
+
+**The CT850-2013** prints `40 to 120 degrees Fahrenheit` and `95% non-condensing` and the ten percent
+paragraph word for word with the 2016 book, one Fahrenheit range and no Celsius conversion. **The
+Australian XT485-2013** - a 230-volt machine - prints the same two paragraphs in the same words,
+which makes it the one XT owner's manual that gives the Fahrenheit range rather than the XT family's
+single `40 degrees C` (`xt-2023-safety-operating-environment-limits`). Do not answer an xt485-2013
+from the XT card.

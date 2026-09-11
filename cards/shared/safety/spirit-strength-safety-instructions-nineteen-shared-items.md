@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-instructions-nineteen-shared-items
-title: The nineteen safety instructions every selectorized and dual-station manual prints above its weight line
+title: The nineteen safety instructions every selectorized and dual-station manual
+  prints above its weight line
 kind: fact
 question: What are the numbered safety instructions in a Spirit strength owner’s manual?
 asked_as:
@@ -74,7 +75,12 @@ see_also:
 - spirit-strength-safety-st800-safety-instruction-bullets
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: SAFETY INSTRUCTIONS, printed page 5 (PDF page 6) of all thirty-six CSS, CSD, CSF and CSI manuals
+  locator: 'SAFETY INSTRUCTIONS, printed page 5 (PDF page 6) of all thirty-six CSS,
+    CSD, CSF and CSI manuals. CSD-CPSP May 2025 update: SAFETY INSTRUCTIONS, PDF p.
+    6 (printed 5), in spirit-strength-csd-cpsp-owners-manual-2025-update (text.md
+    lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision: the same
+    page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308, OCR
+    supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -130,3 +136,5 @@ flattened image and `pdftotext` returns nothing from it. The page was rendered a
 those items; they match the rest of the family.
 
 The three ST800 manuals print a different, unnumbered list.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

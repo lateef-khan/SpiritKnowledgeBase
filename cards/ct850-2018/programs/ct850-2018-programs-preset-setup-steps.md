@@ -3,8 +3,8 @@ id: ct850-2018-programs-preset-setup-steps
 title: Setting up a preset program, which you may start early on every program except
   Calorie
 kind: procedure
-question: How do I select a workout program and enter my personal data on a ct850-2018
-  treadmill?
+question: How do I select a workout program and enter my personal data on a Spirit
+  ct850-2013 or ct850-2018 treadmill?
 asked_as:
 - how do i pick a program on the treadmill
 - how do i enter my age and weight before a workout
@@ -25,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: programs
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-starting-and-customising-a-program
@@ -42,7 +41,8 @@ see_also:
 - ct850-2018-programs-custom-program-u1-u2
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: printed page 20, Programmable Features
+  locator: 'printed page 20, Programmable Features; CT850 2013: PDF p. 17 (printed
+    13), OCR supplement lines 485-530'
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +73,5 @@ every value you enter; see `ct850-2018-programs-calorie-program-setup`.
 CT850 generation of 2016 and 2020 names a Program button in the same step and does not print the
 Calorie exception, because it has no Calorie program - see
 `ct850-2020-starting-and-customising-a-program`.
+
+**The 2013 CT850 owner's manual - a scan with no text layer, read from the 300 dpi OCR and checked against the render - prints this page word for word**: the 20 minute default, age in the Incline window, bodyweight in the Distance window, the top speed, the Calorie exception, the three minute warm-up and the same six programs without one. Its step 6 reads "press the Start key to begin your workout, or the Step button to return to the previous screen" - the OCR's rendering of Stop.

@@ -58,3 +58,9 @@ So there are two triggers: the **hour counter** in the console, and your own **t
 **90 hours here is not the same figure as the 2023 manuals' 90.** The XT 2023 manuals say every **90 days, after 90 hours of use, or earlier if the deck is dry or dirty**, and give a second, contradictory figure of 2 to 3 months in an illustration caption. The 2015 manuals give **no day count and no caption**. See `xt-2023-maintenance-deck-lubrication-interval` and `xt-2023-maintenance-lubrication-illustration-note`.
 
 **The XT685 2015 is not on this card** and takes no lubricant at all; see `xt685-2023-belt-deck-general-maintenance`.
+
+## The same model said 180 hours two years earlier
+
+The **XT485 2013** owner's manual (485812) puts the interval at **every 180 hours**, with a console reminder at
+180 hours and no hand check - `xt-2015-maintenance-lubrication-interval-180-hours`. The 90-hour figure on this
+card belongs to the 2015 XT385 and XT485 and the XT485ENT; establish the year before quoting either.

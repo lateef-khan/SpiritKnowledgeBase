@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-inspect-cables-and-guards-before-every-use
-title: Inspect the frame, the cables and the guards before every use, and stop if anything is worn or missing
+title: Inspect the frame, the cables and the guards before every use, and stop if
+  anything is worn or missing
 kind: procedure
 question: What should be checked on a Spirit strength machine before it is used?
 asked_as:
@@ -74,7 +75,14 @@ see_also:
 - spirit-strength-safety-safeguards-page-usage-and-inspection
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: SAFETY INSTRUCTIONS items 8-11 and FACILITY SAFETY PRECAUTIONS, printed pages 5 and 6, plus SAFEGUARDS Inspection, printed page 9; ST800 manuals, IMPORTANT SAFETY INSTRUCTIONS and FACILITY SAFETY PRECAUTIONS, printed pages 4 and 5
+  locator: 'SAFETY INSTRUCTIONS items 8-11 and FACILITY SAFETY PRECAUTIONS, printed
+    pages 5 and 6, plus SAFEGUARDS Inspection, printed page 9; ST800 manuals, IMPORTANT
+    SAFETY INSTRUCTIONS and FACILITY SAFETY PRECAUTIONS, printed pages 4 and 5. CSD-CPSP
+    May 2025 update: SAFETY INSTRUCTIONS items 8-11, PDF p. 6; FACILITY SAFETY PRECAUTIONS,
+    PDF p. 7; SAFEGUARDS Inspection, PDF p. 10, in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -104,3 +112,5 @@ at which it looks unsafe.
 
 A machine that fails the check comes out of service until it is repaired; the facility page gives no
 other option. Report the fault to floor staff rather than freeing a jam yourself.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

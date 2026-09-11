@@ -25,14 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: maintenance
   code: '*'
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-maintenance-treadbelt-tension-adjustment
@@ -43,7 +41,7 @@ see_also:
 source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 6.7 Replacement Procedures, step 6.7.5 Adjusting the rollers and belt tracking,
-    Figures 6.7.12-6.7.14, PDF p. 34 (printed 34); text.md lines 652-666
+    Figures 6.7.12-6.7.14, PDF p. 34 (printed 34); text.md lines 652-666 The February 2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, and prints this page unchanged.
   extracted_at: '2026-09-11'
 ---
 
@@ -62,3 +60,4 @@ source:
 
 The monthly alignment check (`mt200-2022-maintenance-belt-alignment-forward-and-reverse`) turns the bolt on the side the belt drifts to, a quarter turn at a time. This procedure adds the front-roller alignment (the gap test), the hand-under-belt tension feel and the foot-stop slip test, because after roller work the front roller's position is no longer known. Neither service-manual procedure names a wrench size; the owner's manual says 10 mm.
 
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.

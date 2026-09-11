@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -46,7 +47,13 @@ source:
     solution/cause", printed pages 65-66 of the 2022 manual (text.md lines 2453-2522);
     7.0T (MT200 2022) service manual 4.2.3 Error Codes: Messages, Cause and Solution,
     PDF p. 12-17, text.md lines 208-385; spirit-treadmill-mt200-error-codes-list,
-    Error Codes List MT200 - English, text.md lines 3-165 (a one-page 2024 leaflet)'
+    Error Codes List MT200 - English, text.md lines 3-165 (a one-page 2024 leaflet);
+    7.0T 2025 owner''s manual (Rev 01.10.25, spirit-treadmill-70t-2025-owners-manual)
+    prints the same table word for word, ERROR MESSAGE & TROUBLESHOOTING, PDF p. 48
+    (printed 46), text.md lines 1478-1513 (compared with difflib on 2026-09-11); the
+    7.0T-770885 export of that service manual (spirit-treadmill-70t-2026-service-manual,
+    February 2026, 99.7% the same text) prints 4.2.3 identically at PDF p. 12-17,
+    text.md lines 236-413'
   extracted_at: '2026-09-09'
 ---
 

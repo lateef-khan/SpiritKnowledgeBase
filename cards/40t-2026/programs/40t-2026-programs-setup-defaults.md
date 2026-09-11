@@ -21,20 +21,22 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - spirit-2026t-programs-setup-uses-set-up-menu-data
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 20, Programs Setup
+  locator: 'page 20, Programs Setup; 4.0T 2025 (February printing): PDF p. 22 (printed
+    20); text.md lines 556-591; 4.0T 2025 (May printing): PDF p. 22 (printed 20);
+    text.md lines 556-591; 4.0T ST8700A service manual: PDF p. 15 (printed 15); text.md
+    lines 224-259'
   extracted_at: '2026-09-09'
 ---
 
@@ -51,3 +53,5 @@ the option of modifying the settings.
 
 The 7.0T and 8.0T manuals answer this question differently: on those machines the console takes the
 data from the Set Up menu instead of a default or pre-saved value.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited. The 4.0T ST8700A service manual repeats the paragraph in its operation chapter.

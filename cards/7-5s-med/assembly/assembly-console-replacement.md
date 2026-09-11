@@ -3,7 +3,8 @@ id: 7-5s-med-assembly-console-replacement
 title: 'Replacing the recumbent stepper console: four screws from the bottom of the
   console, then the cable connector'
 kind: procedure
-question: How do I replace the console on a Spirit 7-5s-med (7.5S) recumbent stepper?
+question: How do I replace the console on a Spirit 7.5S (2021 or 2025 book) or 7.0S
+  2025 rehabilitation recumbent stepper?
 asked_as:
 - console replacement 7.5s stepper
 - take the display off my spirit medical stepper
@@ -19,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -32,7 +35,9 @@ see_also:
 - 7-5s-med-assembly-console-mast-cover-top-cover-and-shroud-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.1 Console Replacement, PDF p. 21; text.md lines 213-227
+  locator: '6.1 Console Replacement, PDF p. 21; text.md lines 213-227 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.1 Console Replacement, PDF p. 21; text.md lines 231-244 | 75s-2025 (spirit-stepper-75s-2025-service-manual):
+    6.1 Console Replacement, PDF p. 21; text.md lines 214-227'
   extracted_at: '2026-09-11'
 ---
 
@@ -44,3 +49,4 @@ watch" in the book's wording) and remove the **cable connector** to remove the e
 No screw size and no connector count are printed. The 8.5S removes a rear tube cover (two screws) before its four
 console screws; this book has no cover step.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included. Neither adds a screw size.

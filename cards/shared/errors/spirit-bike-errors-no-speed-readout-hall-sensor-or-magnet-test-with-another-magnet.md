@@ -3,8 +3,8 @@ id: spirit-bike-errors-no-speed-readout-hall-sensor-or-magnet-test-with-another-
 title: 'No speed readout: the sensor cable connection, then the hall or reed sensor
   or its magnet, tested by holding another magnet to it'
 kind: troubleshooting
-question: Why does the display show no speed or RPM on a Spirit XBR, XBU, CR800 or
-  CU800 bike, and how does the service manual test the speed sensor?
+question: Why does the display show no speed or RPM on a Spirit XBR, XBU, CR800, CU800
+  or 4.0U bike, and how does the service manual test the speed sensor?
 asked_as:
 - spirit bike shows no speed while pedalling
 - rpm stays at zero on my recumbent
@@ -26,6 +26,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40u-2025
   - cr800-2009
   - cr800-2021
   - cu800-2021
@@ -61,7 +62,9 @@ source:
     manual 9-11, the first "No heart rate is displayed" entry, which is the speed
     entry, PDF p. 56, text.md lines 856-883; CU800 2020-book (cu800-2021) service
     manual 9-1, "No heart rate is displayed" steps 1-2, which are the speed entry,
-    PDF p. 31, text.md lines 464-485
+    PDF p. 31, text.md lines 464-485; 4.0U (FU800-SB022-03) service manual 10. Q&A,
+    Console and Error Messages Problem, PDF p. 47 (printed 44), text.md lines 633-662,
+    "Display won't show RPM"
   extracted_at: '2026-09-11'
 ---
 
@@ -81,3 +84,6 @@ The upright books (XBU55 2016, CU800 2020-book) open **Chain Cover (36)** instea
 **The same fault on the AB900 air bike carries a figure the others do not**: a sensor-to-magnet gap of less than 3 mm (`ab900-2018-errors-no-speed-reading-magnet-gap-under-3-mm`). The CU900 and CU1000ENT parts chapters set their reed switch **1 mm** from the magnet on reassembly; that is a replacement figure, not a Q&A one, and it is not printed in any of the ten books here.
 
 The battery-powered indoor cycles answer the same symptom differently again - batteries, transmitter and its position: `cic850-2022-errors-display-blank-or-no-speed-five-checks`.
+
+**The 4.0U 2025 medical upright prints the same two moves under its own heading, `Display won't show RPM`**: remove the Chain Cover (L) and recheck the *9 PIN Hall Sensor cable* is installed correctly; if that does not fix it, *it should be the sensor or magnet problem, so try to replace these parts*. **It does not print the other-magnet test** (added 2026-09-11).
+

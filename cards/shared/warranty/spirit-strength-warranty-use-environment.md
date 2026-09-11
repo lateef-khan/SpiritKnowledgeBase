@@ -79,10 +79,10 @@ see_also:
 - spirit-2026t-warranty-prisons-excluded
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: EXCLUSIONS item 2 on the WARRANTY - CONTINUED page of all thirty-nine manuals, and the table
+  locator: 'EXCLUSIONS item 2 on the WARRANTY - CONTINUED page of all thirty-nine manuals, and the table
     row labels on the preceding page. spirit-strength-csd-acbe-owners-manual PDF p. 29 (printed 28) for
     the exclusion, p. 28 for the row label; spirit-strength-st800fi-owners-manual PDF pp. 20-21 for the
-    two-row table and the same exclusion.
+    two-row table and the same exclusion. Later printings checked on 2026-09-11 and found unchanged: spirit-strength-css-delt-owners-manual-2026 (the 2026 revision of the CSS-DELT book) prints the same three warranty pages, WARRANTY - COMMERCIAL effective July 02, 2024 and two WARRANTY - CONTINUED pages, PDF pp. 27-29 (text.md lines 781-876); spirit-strength-csd-cpsp-owners-manual-2025-update (the May 2025 update of the CSD-CPSP book) prints the same three warranty pages, effective February 21, 2024, PDF pp. 29-31 (flat images; OCR supplements in text.md).'
   extracted_at: '2026-09-10'
 ---
 

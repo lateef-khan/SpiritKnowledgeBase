@@ -26,6 +26,7 @@ facets:
   applies_to:
   - xt185-2015
   - xt285-2015
+  - xt485-2013
   - xt685-2010
   section: maintenance
   code: '*'
@@ -39,9 +40,15 @@ see_also:
 - xt-2015-maintenance-approved-lubricant
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: p. 28, Belt/Deck Lubrication Procedure (XT285 p. 36); XT685 2010 printed
+  locator: 'p. 28, Belt/Deck Lubrication Procedure (XT285 p. 36); XT685 2010 printed
     p. 30 and the maintenance record chart inside the front cover (spirit-treadmill-xt685-2010-owners-manual
-    PDF pp. 34 and 4)
+    PDF pp. 34 and 4) The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    BELT/DECK LUBRICATION PROCEDURE, PDF p. 32 (printed 31), text.md lines 1250-1252
+    - "The belt & deck come pre-lubricated and subsequent lubrication should be performed
+    every 180 hours of use. The console has a built in lubrication reminder indicator
+    that lights every 180 hours of use." Nothing on the page about an every-other-month
+    hand check or "if you notice that the deck is dry"; the whole book was searched
+    for "other month" and "dry": no hits.'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +69,13 @@ So there are two triggers: the **hour counter** in the console, and your own **t
 **Nothing else in the two 2015 manuals states a lubrication interval.** Unlike the 2023 manuals, there is no illustration caption giving a second, shorter figure, so there is no contradiction to reconcile here; compare `xt-2023-maintenance-lubrication-illustration-note`.
 
 **The XT685 2015 is not on this card** and takes no lubricant at all; see `xt685-2023-belt-deck-general-maintenance`. **Its predecessor the XT685 2010 is on this card and does.** The same model name answers oppositely in the two years, so ask which manual the customer has.
+
+## The 2013 XT485 says 180 hours, with the hour counter only
+
+The **XT485 2013** prints two of this card's five sentences: **the belt and deck come pre-lubricated**, and
+**subsequent lubrication every 180 hours of use**, with **a console reminder indicator that lights every 180
+hours**. It does **not** print the every-other-month hand check or "if you notice that the deck is dry" - the
+counter is its only trigger. **The 2015 XT485 is not on this card**: the same model name changed to **90 hours**
+two years later (`xt-2015-maintenance-lubrication-interval-90-hours`), so ask which manual the customer has. Its
+procedure is not the 2015 one either
+(`xt485-2013-maintenance-deck-lubrication-whole-tube-or-most-of-it-with-the-belt-loosened-5-to-10-turns`).

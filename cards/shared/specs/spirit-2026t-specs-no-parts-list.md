@@ -34,9 +34,11 @@ not_to_be_confused_with:
 see_also:
 - xt-2015-specs-no-parts-list
 - 40t-2026-specs-no-specification-table
+- 70t-2025-specs-parts-list
+- 80t-2026-specs-parts-required-maintenance-tools-seventeen
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: EXPLODED VIEW DIAGRAM p. 49 of the 2026 7.0T manual (Warranty follows on p. 50); EXPLODED VIEW DIAGRAM pp. 67-68 of the 2026 8.0T manual (Warranty follows on p. 69)
+  locator: 'EXPLODED VIEW DIAGRAM p. 49 of the 2026 7.0T manual (Warranty follows on p. 50); EXPLODED VIEW DIAGRAM pp. 67-68 of the 2026 8.0T manual (Warranty follows on p. 69) The 2025 printing of the 7.0T owner''s manual does print a list: spirit-treadmill-70t-2025-owners-manual PARTS LIST printed pp. 50-52 (PDF pp. 52-54). The 8.0T service manual, spirit-treadmill-80t-2026-service-manual, prints no exploded view and no parts list either (contents PDF p. 2, text.md lines 6-33; 59 pages searched).'
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +55,5 @@ manual, and say the owner's manual does not contain one.
 **Do not resolve them from the 4.0T list either.** The 2026 4.0T manual does
 print a full parts list, but it is that machine's own numbering for a different
 frame; see `40t-2026-specs-parts-list`.
+
+**The 2025 printing of the 7.0T manual is the exception**: Rev 01.10.25 prints a 193-row list against its drawing, and the 2026 printing dropped it (`70t-2025-specs-parts-list`). **The 8.0T service manual does not fill the gap** - it prints no drawing and no list, only a seventeen-row tool list (`80t-2026-specs-parts-required-maintenance-tools-seventeen`).

@@ -41,8 +41,10 @@ see_also:
 - 40t-2026-specs-drive-motor-rating
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF pp. 9-10 (printed 9-10), section 3 Electrical Configurations, text.md
-    lines 89-139
+  locator: 'PDF pp. 9-10 (printed 9-10), section 3 Electrical Configurations, text.md
+    lines 89-139. ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    section 3 Electrical Configurations, PDF pp. 9-10, text.md lines 85-131, word
+    for word the same'
   extracted_at: '2026-09-11'
 ---
 
@@ -62,3 +64,6 @@ source:
 The chapter is the CT850-2020 text reused, down to the "DC control Board" phrase on an inverter machine.
 It says nothing about the parts this machine adds: the **rear incline motor** and the **rear incline
 interface board** with its relay, which the driver-board pages and the circuit diagram show.
+
+The ST8700A-ST026-01 revision of the same book (spirit-treadmill-40t-2026-service-manual-st8700a) prints this page unchanged; only the product photographs in chapter 2 were replaced by the black Spirit-branded machine.
+

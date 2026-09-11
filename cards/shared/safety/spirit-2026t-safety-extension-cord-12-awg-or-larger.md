@@ -2,7 +2,8 @@
 id: spirit-2026t-safety-extension-cord-12-awg-or-larger
 title: An extension cord must be 12 AWG or larger with only one outlet on the end
 kind: policy
-question: Can I use an extension cord with a 2026 Spirit 7.0T or 8.0T treadmill, or with a Spirit MT200 rehabilitation treadmill?
+question: Can I use an extension cord with a 2026 Spirit 7.0T or 8.0T treadmill, or
+  with a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension lead for this treadmill
@@ -24,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -43,7 +45,12 @@ see_also:
 - spirit-mt200-safety-outlet-and-circuit-requirement
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 2, page 4; the 8.0T owner's manual prints the same sentence as item 2 of its page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
+  locator: 'SAFETY INSTRUCTIONS item 2, page 4; the 8.0T owner''s manual prints the
+    same sentence as item 2 of its page 4. The two Spirit MT200 rehabilitation treadmill
+    owner''s manuals print it on their safety instructions page, page 4 of the 2010
+    manual and pages 5 to 7 of the 2022 manual. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: SAFETY INSTRUCTIONS item 2, PDF p.
+    6 (printed 4), lines 109-144 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +94,5 @@ the safe reading** for an MT200 too.
 
 **The circuit the MT200 needs is not the 2026 machines' circuit** - it is 115 volt AC, 60 Hz,
 20 amp: `spirit-mt200-safety-outlet-and-circuit-requirement`.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

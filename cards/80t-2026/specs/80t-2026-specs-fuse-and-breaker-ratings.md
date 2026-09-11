@@ -1,8 +1,10 @@
 ---
 id: 80t-2026-specs-fuse-and-breaker-ratings
-title: The circuit breaker is rated AC 250 V 10 A and the inverter fuse 125 Vac 1 A
+title: The circuit breaker is rated AC 250 V 10 A and the inverter fuse 125 Vac 1
+  A
 kind: spec
-question: What are the circuit breaker and inverter fuse ratings on a Spirit 80t-2026 treadmill?
+question: What are the circuit breaker and inverter fuse ratings on a Spirit 80t-2026
+  treadmill, and on the 2025 7.0T that prints the same block?
 asked_as:
 - what fuse does this treadmill take
 - what size breaker is on the treadmill
@@ -23,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 80t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 80t-2026
   section: specs
   code: '*'
-  model_number:
-  - '780885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +38,10 @@ see_also:
 - spirit-2026t-specs-drive-motor-rating
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: SPECIFICATIONS p. 65, Fuse rating and Fuse on inverter blocks
+  locator: 'SPECIFICATIONS p. 65, Fuse rating and Fuse on inverter blocks. 7.0T-2025
+    (spirit-treadmill-70t-2025-owners-manual, Rev. 01.10.25): SPECIFICATIONS Fuse
+    rating and Fuse on Inverter blocks, PDF p. 49 (printed 47), read from a 170 dpi
+    render of a flattened page - the same two tables figure for figure'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,4 +68,7 @@ numbers.
 | Size | 2.65 x 7.1 mm |
 
 The manual gives no part number for either, and no replacement procedure on this
-page. The 7.0T and 4.0T manuals print no fuse or breaker rating at all.
+page. **The 2025 7.0T owner's manual (Revision 01.10.25) prints both blocks, figure for figure, on
+its own specification page** - the same AC 250 V 10 A thermal breaker and the same 125 Vac 1 A
+inverter fuse - beside a Power line reading 220~240 Volts A.C., 10 Amps, 50 Hz. The 2026 7.0T
+manual dropped both blocks, and the 4.0T manuals print no fuse or breaker rating at all.

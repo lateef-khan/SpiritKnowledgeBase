@@ -1,12 +1,10 @@
 ---
 id: spirit-strength-assembly-the-shroud-hardware-panel
-title: >-
-  The shroud panel is the same eight rows on every weight-stack machine: four covers,
-  four fixed plates, eight countersunk screws and two socket bolts
+title: 'The shroud panel is the same eight rows on every weight-stack machine: four
+  covers, four fixed plates, eight countersunk screws and two socket bolts'
 kind: spec
-question: >-
-  What hardware fixes the weight-stack shrouds on a Spirit commercial strength machine?
-  Covers every Spirit CSS selectorized station and every CSD dual station.
+question: What hardware fixes the weight-stack shrouds on a Spirit commercial strength
+  machine? Covers every Spirit CSS selectorized station and every CSD dual station.
 asked_as:
 - what screws hold the weight stack covers on
 - shroud hardware list
@@ -60,17 +58,22 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-connect-the-battery-before-the-shrouds-go-on
 - spirit-strength-assembly-guide-rod-and-selector-pin-hardware
 - csf-funt-assembly-two-towers-and-a-tapping-screw-shroud
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 17 (PDF p. 18) of the CSS Abdominal manual, ASSEMBLY - STEP 6; the same
-    eight rows with the same specifications and quantities in all nineteen CSS manuals
-    and all nine CSD manuals, read from the PDF text layer of each and cross-checked
-    against the OCR supplement in each source's text.md
+  locator: 'printed p. 17 (PDF p. 18) of the CSS Abdominal manual, ASSEMBLY - STEP
+    6; the same eight rows with the same specifications and quantities in all nineteen
+    CSS manuals and all nine CSD manuals, read from the PDF text layer of each and
+    cross-checked against the OCR supplement in each source''s text.md | csd-cpsp:
+    PDF p. 21 (printed 20) of both the February 2024 book (spirit-strength-csd-cpsp-owners-manual,
+    text.md lines 709-733) and the May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update,
+    lines 311-325) | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY - STEP 7, PDF p. 20 (printed 19); text.md read from a 110 dpi render;
+    the OCR supplement at 1624-1652 is noise'
   extracted_at: '2026-09-10'
 ---
 
@@ -109,3 +112,9 @@ twenty Φ15xΦ5.3x1.2 big washers, and it has two front shields rather than one.
 
 The order the covers go on, and the wiring you must connect first, are on
 [the shroud order card](spirit-strength-assembly-connect-the-battery-before-the-shrouds-go-on.md).
+
+## The chest press / shoulder press prints ten rows, not eight
+
+**The CSD-CPSP's step 9 table carries two rows this card does not**: **6, Fixed bushing, 12** and **16, Countersunk head hexagon socket screw, M6*16, 12** - in both its February 2024 printing and its May 2025 update, read from the native text of both. The other eight rows are as above. So "identical on all twenty-eight" does not hold for the CSD-CPSP; check its own table before ordering shroud hardware for it.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

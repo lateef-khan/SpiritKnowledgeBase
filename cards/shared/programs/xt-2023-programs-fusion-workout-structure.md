@@ -24,6 +24,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -39,7 +40,8 @@ see_also:
 - xt-2023-programs-fusion-strength-exercises
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: page 37, Programs - Program Example
+  locator: 'page 37, Programs - Program Example; XT485 2013: PDF p. 21 (printed 20);
+    text.md lines 708-761'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +66,5 @@ Note that in this worked example the interval and recovery times are the reverse
 The 2015 XT485 and XT685 owner's manuals print this worked example word for word, so nothing about how a Fusion session runs changed between the 2015 and 2023 consoles. Only the way you reach the program changed - a dedicated Fusion key in 2015, the PROGRAM key in 2023.
 
 The **2010 XT685** manual prints the same worked example word for word too (printed page 19), so this has not changed since 2010 either. Its Message Center line reads "STRENGTH INTERVAL BEGIN DUMBBELL ROW" without the interval number; that manual was recovered by OCR and drops single characters elsewhere, so the missing **1** is not recorded as a difference.
+
+**The 2013 XT485 owner's manual prints this worked example word for word**, including "STRENGTH INTERVAL 1 BEGIN DUMBBELL ROW" with the interval number.

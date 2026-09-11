@@ -19,13 +19,16 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct800-2012
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -43,7 +46,12 @@ see_also:
 - spirit-2026t-console-chest-strap-wearing
 source:
   ref: ctsbs900-om
-  locator: p. 36; 4.0T p. 38, 7.0T p. 38 and 8.0T p. 60 CHEST STRAP WARNING
+  locator: p. 36; 4.0T p. 38, 7.0T p. 38 and 8.0T p. 60 CHEST STRAP WARNING. 4.0T
+    2025 owner's manual (spirit-treadmill-40t-2025-owners-manual, Revision 02.04.25)
+    PDF p. 39 (printed 37), text.md lines 1065-1092; the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing,
+    Revision 05.19.25) is the same document at the same page and lines. 7.0T 2025
+    owner's manual PDF p. 40 (printed 38), text.md lines 1140-1167. CT850 2013 OM
+    Erratic Operation, PDF p. 24 (printed 20), OCR supplement lines 915-940
   extracted_at: '2026-08-24'
 ---
 
@@ -86,3 +94,6 @@ continue to experience problems contact your dealer". Two differences:
   a printed cause for those three.
 - **Item 5 is worded two ways here too.** The CT850-2018 manual prints "Perimeter fence for a pet";
   the 2016, 2020 and ENT manuals print "Electric fence for a pet". Same item.
+
+**The 2025 printings of the 4.0T and 7.0T owner's manuals print the eight-item list word for word** on their p. 39 and p. 40, so this card covers the 40t-2025 and 70t-2025. **The CT850 2013 owner's manual prints a seven-item version** on its printed p. 20: it has no "not properly grounded" item, keeps the Spirit Fitness logo by name and ends at another transmitter within 3'; its caution reads "Do not use this treadmill for Heart Rate programs". The medical bikes print the eight items with "bike" in the first (`spirit-bike-programs-erratic-heart-rate-interference`).
+

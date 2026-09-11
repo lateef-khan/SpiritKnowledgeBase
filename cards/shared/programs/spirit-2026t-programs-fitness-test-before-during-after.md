@@ -24,7 +24,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -41,7 +43,9 @@ see_also:
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
   locator: 'page 45, Before/During/After the Gerkin/WFI test (4.0T: page 28; 7.0T:
-    page 31)'
+    page 31); 4.0T 2025 (February printing): PDF p. 29 (printed 27); text.md lines
+    764-795; 4.0T 2025 (May printing): PDF p. 29 (printed 27); text.md lines 764-795;
+    7.0T 2025: PDF p. 33 (printed 31); text.md lines 969-1004'
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +81,5 @@ manual on printed page 20, the 2022-generation manual on printed pages 32-33. Li
 they omit the hand-grip bullet, and like the 7.0T they say only "you may wear a heart rate
 chest strap transmitter" - **neither MT200 manual names a Polar T31 or T34.** Everything else,
 including the 3 minute warm-up at 3 mph (4.8 kph), is printed as above.
+
+**The 4.0T 2025 (both printings) and 7.0T 2025 owner's manuals print their respective pages word for word** as the 2026 books do.

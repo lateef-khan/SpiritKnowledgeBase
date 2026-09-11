@@ -26,6 +26,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
+  - 70u-2025
   - cic800-2021
   - cic850-2022
   - cr1000ent-2023
@@ -84,6 +88,8 @@ see_also:
 - spirit-cr900-cu900-maintenance-wear-parts-five-items
 - spirit-cr900-maintenance-weekly-pedal-check
 - spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers
+- spirit-med-bike-maintenance-rust-wipe-monthly-pedal-check-and-half-inch-wrench
+- spirit-med-bike-maintenance-clicking-when-pedaling-pedal-knob-and-leveling-feet
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: 'GENERAL MAINTENANCE, p. 38 (printed 38). The same three figures - 90%,
@@ -134,7 +140,7 @@ source:
     are the heading number and the wear list under the WARNING that follows. The CR1000ENT 2023 recumbent
     bike service manual (spirit-rower-cr1000ent-2023-service-manual, filed under Rowers) prints the identical
     block under 10. GENERAL MAINTENANCE, PDF p. 17 (printed 17), text.md lines 326-336 - the same 90%,
-    2 pads, 14mm and crank arm nut; added 2026-09-11.'
+    2 pads, 14mm and crank arm nut; added 2026-09-11. Four 2025 Spirit medical bikes were added on 2026-09-11. The two service manuals print the numbered "I cannot stress this point enough" list with "the crank arm nut and/or the pedals": spirit-bike-40r-2025-service-manual 8-2 GENERAL MAINTENANCE, PDF p. 30 (printed 30), text.md lines 336-345, and spirit-bike-40u-2025-service-manual 8-2 General Maintenance, PDF p. 30 (printed 27), lines 367-376. The two owner''s manuals print the "It is important to note that" prose under MACHINE CARE - Post-Workout Machine Care: spirit-bike-70r-2025-owners-manual PDF p. 46 (printed 44), lines 1263-1278, and spirit-bike-70u-2025-owners-manual PDF p. 44 (printed 42), lines 1220-1235; both pages checked against their 300 dpi OCR supplements, which agree. 90%, 2 pads and 14mm on all four.'
   extracted_at: '2026-09-09'
 ---
 
@@ -257,3 +263,21 @@ schedule table (`spirit-bike-maintenance-machine-care-schedule`). **No figure ch
 2 pads and 14 mm on all three, and the crank arm nut is literal on all three.
 
 That takes the group of bike manuals carrying the schedule table from three to six.
+
+## Four 2025 medical bikes print it, and the 4.0 owner's manuals print something else
+
+The **7.0R 2025** and **7.0U 2025** owner's manuals carry the block in the "It is important to note that" prose,
+with the crank arm nut and the two rear pads and the 14 mm wrench, beside the six-item wear WARNING and the
+sanitizing bullets; the **4.0R 2025** and **4.0U 2025** *service* manuals carry it as the numbered "I cannot stress
+this point enough" list with "the crank arm nut **and/or the pedals**". **No figure changes** on any of the four.
+
+**The 4.0R and 4.0U owner's manuals do not print this page.** Their care page says "after each **use** to prevent
+**rust**", adds a **monthly** pedal check, and gives the leveler wrench as **½" (14mm)** - a figure this block
+never prints and which is not 14 mm - so the same two machines carry two different pages in their two books:
+`spirit-med-bike-maintenance-rust-wipe-monthly-pedal-check-and-half-inch-wrench`. Quote the owner's manual to an
+owner and this block to a technician, and say the two differ.
+
+**All four 2025 books level the bike with a ½" wrench in their setup chapter** ("Leveling the 4.0R", p. 13; "Leveling
+the 7.0R", p. 21) and with 14 mm on this page. The 7.0R and 7.0U owner's manuals answer a click at the pedals on
+their troubleshooting page with three checks of their own
+(`spirit-med-bike-maintenance-clicking-when-pedaling-pedal-knob-and-leveling-feet`).

@@ -38,14 +38,15 @@ see_also:
 - ct850-2020-front-rear-roller-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 12.6 Running Deck/ Belt & Cushion Replacement of the CT850 2016
+  locator: 'Section 12.6 Running Deck/ Belt & Cushion Replacement of the CT850 2016
     manual, pp. 72-73 (printed 71-72), where the table of contents calls it 10.6;
     the same steps are section 11-6 of the CT850 2020 manual, pp. 65-66 (printed 64-65);
     the same four steps are section 11-6 of the CT800 2020 service manual, PDF pp.
     64-65 (printed 63-64), text.md lines 905-930; section 9-6 of the CT800ENT (PDF
     p. 58, lines 1003-1027) and CT850ENT (PDF p. 59, lines 1022-1046) "2020 ver."
     service manuals; and section 9.6 of the 4.0T 2026 service manual, PDF pp. 48-49
-    (printed 59-60), lines 801-827
+    (printed 59-60), lines 801-827 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.6 Running Deck/ Belt & Cushion Replacement, PDF pp. 49-50; text.md lines 871-898'
   extracted_at: '2026-09-08'
 ---
 
@@ -80,3 +81,4 @@ head countersink bolts, six cushion bolts and one deck cross brace in all of the
 wrench. The 4.0T's step 1 sends you to "step 9.5", which is its roller procedure - correct, where the CT850
 2016's "12.7" is not.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

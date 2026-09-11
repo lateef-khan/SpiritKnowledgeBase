@@ -2,7 +2,9 @@
 id: xt-2015-safety-no-compliance-page
 title: No compliance, FCC or certification page is printed in these manuals
 kind: fact
-question: What standards is a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill certified to, a Spirit XT485ENT treadmill, or a Spirit CE800, CE800ENT, CE850, CE900-2021 or CES880 elliptical?
+question: What standards is a Spirit XT185-2015, XT285-2015, XT385-2015, XT485-2015
+  or XT685-2015 treadmill certified to, a Spirit XT485ENT treadmill, or a Spirit CE800,
+  CE800ENT, CE850, CE900-2021 or CES880 elliptical?
 asked_as:
 - is this treadmill fcc approved
 - is the machine ul listed
@@ -66,6 +68,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2015
@@ -85,15 +88,18 @@ see_also:
 - xt-2023-safety-compliance-certifications
 source:
   ref: spirit-treadmill-xt285-2015-owners-manual
-  locator: whole manual; the table of contents runs Important Safety, Electrical, Grounding and
-    Operation Instructions then Product Registration, with no compliance page, and the same
-    is true of the XT185, XT385, XT485 and XT685 manuals. The XT485ENT owner's manual
-    likewise has no compliance page, its table of contents running Product Registration then
-    the four Important Instructions pages then assembly Nine of the ten Spirit elliptical
-    owner's manuals have no compliance page either - CE800 2013, CE800 2021, CE800 2023,
-    CE800ENT, CE850 2016, CE850 2020, CE850 2022, CE900 2021 and CES880 2025 Twelve of the
-    thirteen Spirit commercial bike owner's manuals have no compliance page either - the
-    words FCC, part 15, UL, FTMS and 20 cm appear in none of them
+  locator: 'whole manual; the table of contents runs Important Safety, Electrical,
+    Grounding and Operation Instructions then Product Registration, with no compliance
+    page, and the same is true of the XT185, XT385, XT485 and XT685 manuals. The XT485ENT
+    owner''s manual likewise has no compliance page, its table of contents running
+    Product Registration then the four Important Instructions pages then assembly
+    Nine of the ten Spirit elliptical owner''s manuals have no compliance page either
+    - CE800 2013, CE800 2021, CE800 2023, CE800ENT, CE850 2016, CE850 2020, CE850
+    2022, CE900 2021 and CES880 2025 Twelve of the thirteen Spirit commercial bike
+    owner''s manuals have no compliance page either - the words FCC, part 15, UL,
+    FTMS and 20 cm appear in none of them. XT485-2013: absence checked across the
+    whole text layer and OCR supplements of spirit-treadmill-xt485-2013-owners-manual
+    (no FCC, compliance or notices page)'
   extracted_at: '2026-09-09'
 ---
 
@@ -204,3 +210,7 @@ XBR95-2023 - each print a WARNINGS, COMPLIANCE AND NOTICES page before the safet
 INSTRUCTIONS, and a loose search of the whole book returns **no** occurrence of FCC, Part 15,
 Class B, certification, RF exposure, compliance or even Bluetooth. That is an absence in a manual
 whose siblings print the page, not a gap in the extraction.
+
+**The Australian XT485-2013 owner's manual has no compliance or notices page either** - the words
+`FCC` and `compliance` do not occur in it, and its contents page lists none. Same absence, one
+generation earlier and a different market.

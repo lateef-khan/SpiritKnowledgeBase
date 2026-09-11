@@ -25,9 +25,16 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce800ent
   - ce800ent-2024
   - ce850-2016
@@ -45,6 +52,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -79,6 +87,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -120,7 +129,21 @@ source:
     the CU800ENT-2024 manual on its ELECTRICAL SAFETY page, printed page 6. CS800-2016
     (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md lines
     418-447, in spirit-stepper-cs800-2016-service-manual. The sentence opens its 7-2
-    Important Electrical Instructions.'
+    Important Electrical Instructions. Spirit Medical 7.0R (2025): ELECTRICAL SAFETY,
+    PDF p. 8 (printed 6), text.md lines 171-203, in spirit-bike-70r-2025-owners-manual;
+    7.0U: PDF p. 8, lines 177-208, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF
+    p. 8, lines 183-204, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p. 8, lines
+    177-198, in spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: PDF p. 15, lines
+    486-517, in spirit-bike-70r-2021-owners-manual. The 2025 4.0T owner''s manual
+    (revision 02.04.25, version 2.1) prints the same page: ELECTRICAL SAFETY, PDF
+    p. 8 (printed 6), lines 182-213 in spirit-treadmill-40t-2025-owners-manual; the
+    May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: ELECTRICAL SAFETY, PDF p. 8, lines
+    164-195 in spirit-treadmill-70t-2025-owners-manual. XT485-2013: IMPORTANT ELECTRICAL
+    INSTRUCTIONS, PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Electrical Instructions, PDF p. 7 (printed 3), OCR supplement
+    at lines 130-185, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -283,3 +306,9 @@ Important Electrical Instructions, under a `WARNING!` heading: `NEVER remove any
 power.` It is the one service manual of the 2026-09-11 rower, climber and stepper wave that carries this rule; the
 CRW800-2016, XRW600-2019 and CRS800S-2021 books print the GFCI and circuit-breaker paragraphs in that position instead,
 and the CS800-2021 and XS895 books have no safety chapter. No exception, no waiting time and no discharge figure.
+
+**The four plug-in Spirit Medical bikes and the Dyaco MED 7.0R open their electrical page with the
+sentence** (`spirit-med-bike-safety-operating-environment-iec-60601`); the self-powered 4.0R and 4.0U
+have no cover rule and no mains supply. **The 2025 printings of the 4.0T and 7.0T manuals print it
+unchanged**, and the two 2013 books - the Australian XT485-2013 and the CT850-2013 - print it as
+`NEVER remove any cover without first disconnecting AC power` on their electrical pages.

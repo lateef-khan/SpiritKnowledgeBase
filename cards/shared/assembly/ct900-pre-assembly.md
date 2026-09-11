@@ -3,14 +3,13 @@ id: ct900-pre-assembly
 title: Pre-assembly steps before starting
 kind: procedure
 question: What do I need to do before I start assembling a Spirit CT900, CTSBS900,
-  40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or
-  XT685ENT treadmill, a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT,
-  XE795, XE895 or XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike, or a
-  Spirit XBR25 2023, XBR55 2023, XBR95 2023 or XBU55 2023 residential bike, or any of
-  the thirteen Spirit machines of the 2024 commercial redesign - the CT800, CT850,
-  CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800ENT ellipticals, the
-  CR800, CR800ENT and CU800 bikes, the CRS800S and CS800 steppers and the CRW800
-  rower?
+  40t-2026, 70t-2026, 80t-2026, XT185, XT285, XT385, XT485, XT485ENT, XT685 or XT685ENT
+  treadmill, a Spirit CE850, CE900, XE195, XE295, XE395, XE395ENT, XE795, XE895 or
+  XG400 elliptical, or a Spirit CR900, CU900 or CU800ENT bike, or a Spirit XBR25 2023,
+  XBR55 2023, XBR95 2023 or XBU55 2023 residential bike, or any of the thirteen Spirit
+  machines of the 2024 commercial redesign - the CT800, CT850, CT800ENT and CT850ENT
+  treadmills, the CE800, CE850 and CE800ENT ellipticals, the CR800, CR800ENT and CU800
+  bikes, the CRS800S and CS800 steppers and the CRW800 rower?
 asked_as:
 - how do i start assembling the treadmill
 - unboxing instructions
@@ -26,9 +25,15 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce800-2024
   - ce800ent-2024
   - ce850-2016
@@ -114,33 +119,36 @@ see_also:
 - spirit-xe-assembly-unpacking-2005-2007
 source:
   ref: spirit-treadmill-ct900-owners-manual
-  locator: p. 10, PRE-ASSEMBLY; the same four items at p. 11 of the CTSBS900 manual
+  locator: 'p. 10, PRE-ASSEMBLY; the same four items at p. 11 of the CTSBS900 manual
     (`spirit-treadmill-ctsbs900-owners-manual`), which adds a fifth; the same four
-    items at p. 9 of the CE900 2025 elliptical manual
-    (`spirit-elliptical-ce900-2025-owners-manual`), and the three-item form at p. 9
-    of the CE850 2020 and 2022 manuals (`spirit-elliptical-ce850-2020-owners-manual`,
+    items at p. 9 of the CE900 2025 elliptical manual (`spirit-elliptical-ce900-2025-owners-manual`),
+    and the three-item form at p. 9 of the CE850 2020 and 2022 manuals (`spirit-elliptical-ce850-2020-owners-manual`,
     `spirit-elliptical-ce850-2022-owners-manual`) and p. 7 of the CE850 2016 manual
-    (`spirit-elliptical-ce850-2016-owners-manual`); the four-item form again at p. 9
-    of the XE395 2023 manual (`spirit-elliptical-xe395-2023-owners-manual`) and p. 8
-    of the XE795 2023 manual (`spirit-elliptical-xe795-2023-owners-manual`), and the
-    three-item form at p. 9 of the XE195, XE295 and XG400 2021 manuals
-    (`spirit-elliptical-xe195-2021-owners-manual`,
-    `spirit-elliptical-xe295-2021-owners-manual`,
-    `spirit-elliptical-xg400-2021-owners-manual`), p. 7 of both XE795 2021 printings
-    (`spirit-elliptical-xe795-2021-february-owners-manual`,
+    (`spirit-elliptical-ce850-2016-owners-manual`); the four-item form again at p.
+    9 of the XE395 2023 manual (`spirit-elliptical-xe395-2023-owners-manual`) and
+    p. 8 of the XE795 2023 manual (`spirit-elliptical-xe795-2023-owners-manual`),
+    and the three-item form at p. 9 of the XE195, XE295 and XG400 2021 manuals (`spirit-elliptical-xe195-2021-owners-manual`,
+    `spirit-elliptical-xe295-2021-owners-manual`, `spirit-elliptical-xg400-2021-owners-manual`),
+    p. 7 of both XE795 2021 printings (`spirit-elliptical-xe795-2021-february-owners-manual`,
     `spirit-elliptical-xe795-2021-november-owners-manual`) and p. 10 of the XE395ENT
     manual (`spirit-elliptical-xe395ent-2021-owners-manual`); and the three-item form
     again at p. 9 of the XE395 2018, XE195 2019, XE295 2019 and XG400 2019 manuals
-    (`spirit-elliptical-xe395-2018-owners-manual`,
-    `spirit-elliptical-xe195-2019-owners-manual`,
-    `spirit-elliptical-xe295-2019-owners-manual`,
-    `spirit-elliptical-xg400-2019-owners-manual`), p. 7 of the XE795 2018 manual
-    (`spirit-elliptical-xe795-2018-owners-manual`) and p. 8 of the XE895 2018 manual
-    (`spirit-elliptical-xe895-2018-owners-manual`); and the four-item form again at
-    p. 8 of the XBR95 2023 manual (`spirit-bike-xbr95-2023-owners-manual`) and p. 9
-    of the XBR25 2023, XBR55 2023 and XBU55 2023 manuals
-    (`spirit-bike-xbr25-2023-owners-manual`, `spirit-bike-xbr55-2023-owners-manual`,
-    `spirit-bike-xbu55-2023-owners-manual`), all four headed PRE-ASSEMBLY
+    (`spirit-elliptical-xe395-2018-owners-manual`, `spirit-elliptical-xe195-2019-owners-manual`,
+    `spirit-elliptical-xe295-2019-owners-manual`, `spirit-elliptical-xg400-2019-owners-manual`),
+    p. 7 of the XE795 2018 manual (`spirit-elliptical-xe795-2018-owners-manual`) and
+    p. 8 of the XE895 2018 manual (`spirit-elliptical-xe895-2018-owners-manual`);
+    and the four-item form again at p. 8 of the XBR95 2023 manual (`spirit-bike-xbr95-2023-owners-manual`)
+    and p. 9 of the XBR25 2023, XBR55 2023 and XBU55 2023 manuals (`spirit-bike-xbr25-2023-owners-manual`,
+    `spirit-bike-xbr55-2023-owners-manual`, `spirit-bike-xbu55-2023-owners-manual`),
+    all four headed PRE-ASSEMBLY | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 12 (printed 10); text.md lines 305-327, the three-item form,
+    and the same in the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    | 70t-2025 (spirit-treadmill-70t-2025-owners-manual): PRE-ASSEMBLY, PDF p. 16
+    (printed 14); text.md lines 421-437, four items | 70r-2025 (spirit-bike-70r-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 17 (printed 15); text.md lines 481-497 | 70u-2025 (spirit-bike-70u-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 16 (printed 14); lines 437-453 | 80u-2025 (spirit-bike-80u-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 15 (printed 13); lines 380-396 | 85r-2025 (spirit-bike-85r-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 16 (printed 14); lines 408-424'
   extracted_at: '2026-09-09'
 ---
 
@@ -268,3 +276,7 @@ manual mentions it here. See
 
 Every one of the thirteen builds differently after this point. Take the rest of the
 build from the card for the machine in front of you.
+
+## The 2025 medical books print these words too
+
+The **2025 printings of the 4.0T and 7.0T** owner's manuals print their pre-assembly page exactly as the 2026 printings do - the 4.0T in the three-item form, the 7.0T in the four-item form. The four **2025 Spirit Medical bikes** - the **7.0R**, **7.0U**, **8.0U** and **8.5R** - print the four-item form word for word under PRE-ASSEMBLY. The 4.0R and 4.0U medical bikes, and their Dyaco PT editions, print the older two-item CT800 wording instead; see that card.

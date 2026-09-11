@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: console
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct850-console-quick-start-speed-keys-1-to-15
@@ -38,9 +37,11 @@ see_also:
 - ct850-2020-pause-stop-reset
 - ct850-2020-incline-adjustment
 - ct850-2018-console-layout-red-led-matrix-window
+- ct850-2013-console-calibration-with-a-20-kph-12-5-mph-maximum-and-an-incline-steps-prompt
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: CT850 CONSOLE OPERATION / QUICK START, p. 16
+  locator: CT850 CONSOLE OPERATION / QUICK START, p. 16. CT850 2013 OM Quick Start
+    Operation, PDF p. 15 (printed 11), OCR supplement lines 379-391
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +66,6 @@ maximum speed to **12.0**: `spirit-ct800-console-calibration-with-grade-return`.
 Incline is entered the same way, by pressing the Incline button and typing the value:
 `ct850-2020-incline-adjustment`. What the second and third press of Stop do is a separate
 behaviour: `ct850-2020-pause-stop-reset`.
+
+**The CT850 2013 owner's manual prints the same four bullets on its printed p. 11**, so this card covers that machine: wake with any key, Start at **0.5 mph**, Fast/Slow keys or the **Speed button and the numeric keypad** then Enter, Slow held to slow, Stop to stop. It says "keys" and "numeric keypad" where the 2018 book says "buttons" and "buttonpad"; its console drawing shows the 0-9 keypad the 2018 book only names. Its calibration routine sets the maximum to **12.5 mph**, not 12.0 (`ct850-2013-console-calibration-with-a-20-kph-12-5-mph-maximum-and-an-incline-steps-prompt`).
+

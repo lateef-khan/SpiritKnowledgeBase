@@ -40,8 +40,11 @@ see_also:
 - 40t-2026-specs-rear-incline-interface-board-and-inverter-connectors
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF p. 17 (printed 17) 'Treadmill Configuration', section 5, text.md lines
-    248-253, OCR supplement lines 1082-1103; read from the render
+  locator: 'PDF p. 17 (printed 17) ''Treadmill Configuration'', section 5, text.md
+    lines 248-253, OCR supplement lines 1082-1103; read from the render. ST8700A-ST026-01
+    revision (spirit-treadmill-40t-2026-service-manual-st8700a): Treadmill Configuration,
+    PDF p. 18 (printed 17), text.md lines 273-284 (OCR supplement lines 1108-1122),
+    the same drawing'
   extracted_at: '2026-09-11'
 ---
 
@@ -58,3 +61,6 @@ Two things differ from the CT850-2020 drawing this one was copied from: the rece
 *Bluetooth*, and there is **no RPM SENSOR box** beside the motor. The drawing does not show the rear
 incline motor, the rear incline interface board or the relay; those are on the driver-board pages and
 the circuit diagram.
+
+The ST8700A-ST026-01 revision of the same book (spirit-treadmill-40t-2026-service-manual-st8700a) prints this page unchanged; only the product photographs in chapter 2 were replaced by the black Spirit-branded machine.
+

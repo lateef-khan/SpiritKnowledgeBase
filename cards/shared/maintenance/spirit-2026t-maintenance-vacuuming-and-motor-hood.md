@@ -25,7 +25,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - ct800-2024
   - ct800ent-2024
@@ -47,7 +49,7 @@ source:
     MT200 2010 p. 37 and MT200 2022 p. 59, "General cleaning". The four 2024 New Black Units treadmill
     manuals print it under POST WORKOUT - MACHINE CARE, added in wave 15 - ct800-2024 and ct850-2024
     printed p. 37 (PDF p. 39), ct800ent-2024 and ct850ent-2024 printed p. 53 (PDF p. 55), each read
-    from a 300 dpi render because these PDFs carry a second, invisible text layer'
+    from a 300 dpi render because these PDFs carry a second, invisible text layer The 2025 printings were added on 2026-09-11: spirit-treadmill-40t-2025-owners-manual "General cleaning", PDF p. 44 (printed 42), text.md lines 1230-1246 (right column), read from a 300 dpi render (dirt, dust, carpet fibers and pet hair; the black motor hood; once a year), and its May 2025 printing at the same page; spirit-treadmill-70t-2025-owners-manual PDF p. 43 (printed 41), lines 1252-1260, read from a render - "dirt, dust, and carpet fibers", no pet hair, the motor hood not called black, once a year.'
   extracted_at: '2026-09-09'
 ---
 
@@ -94,3 +96,11 @@ the hood black.
 
 Their schedule table agrees with the monthly figure and adds a **weekly** motor-cover clean on top
 of it - `ct900-maintenance-schedule`.
+
+## The 2025 4.0T and 7.0T say the same, with the 7.0T's shorter list
+
+The **4.0T 2025** prints the paragraph as its 2026 successor does - dirt, dust, carpet fibers *and pet hair*, the
+*black* motor hood, monthly underneath and once a year inside - and its schedule table carries the same
+semi-annual contradiction (`40t-2026-maintenance-schedule`). The **7.0T 2025** prints it as the 7.0T 2026 does:
+**"Dirt, dust, and carpet fibers"** with no pet hair, "the motor hood" with no colour, and the same two intervals
+- and, like its successor, no schedule table to disagree with.

@@ -25,7 +25,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct800-2024
@@ -52,7 +54,7 @@ source:
     spirit-treadmill-ct800-2024-owners-manual and spirit-treadmill-ct850-2024-owners-manual printed
     p. 37 (PDF p. 39), spirit-treadmill-ct800ent-2024-owners-manual and
     spirit-treadmill-ct850ent-2024-owners-manual printed p. 53 (PDF p. 55); all four pages read from
-    a 300 dpi render with tesseract --psm 4, because these PDFs carry a second, invisible text layer'
+    a 300 dpi render with tesseract --psm 4, because these PDFs carry a second, invisible text layer The 2025 printings of the 4.0T and 7.0T books were added on 2026-09-11: spirit-treadmill-40t-2025-owners-manual "Belt and deck", PDF p. 44 (printed 42), text.md lines 1230-1296 (left column) - read from a 300 dpi render of the page, because the text layer interleaves an invisible block - and its May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing, the same page and lines (identical at difflib 1.000); spirit-treadmill-70t-2025-owners-manual PDF p. 43 (printed 41), lines 1236-1251, likewise read from a render. Same words, same "once a month", same "water only". On 2026-09-11 the "GENERAL MAINTENANCE" block that the text layer of the 4.0T, 7.0T and 8.0T books carries over this page was checked against 300 dpi renders of the 4.0T 2025 (PDF p. 44), 4.0T 2026 (PDF p. 45), 7.0T 2025 (PDF p. 43), 7.0T 2026 (PDF p. 43) and 8.0T 2026 (PDF p. 65) pages: none of its words - 20,000 kilometers, 56x224cm, the wear list, Belt Dust, the lubricant sentence - is printed on any of the five. It is an invisible text layer, not an overlay.'
   extracted_at: '2026-09-09'
 ---
 
@@ -97,3 +99,17 @@ Like the 4.0T and 7.0T they give **no soap ratio**.
 
 Their deck-life figure is **not** the 2026 one: these four say 20,000 *kilometres* a side, and that
 is a separate card - `spirit-2024-maintenance-deck-life-20000-kilometres`.
+
+## The 2025 4.0T and 7.0T print it, and the "GENERAL MAINTENANCE" block is not printed at all
+
+The **4.0T 2025** (February and May printings, one document) and **7.0T 2025** carry this paragraph word for word
+with their 2026 successors - the same **once a month**, **water only**, nylon scrub brush and no soap ratio.
+
+**A correction to the way earlier cards describe these pages.** The 4.0T, 7.0T and 8.0T text layers carry a
+second "GENERAL MAINTENANCE" block - a low-friction *bed*, **20,000 kilometers**, a **56x224cm** running surface,
+a *Belt Dust* paragraph, the lubricant sentence and a wear list. Renders of all five pages (4.0T 2025 and 2026,
+7.0T 2025 and 2026, 8.0T 2026) show **none of it printed**. It is the same invisible OEM layer CLAUDE.md
+records on the 2024 books, not a block "over the manual's own column". Nothing on this card came from it; the
+cards that quoted it as printed are corrected where they say so
+(`40t-2026-maintenance-deck-life-and-flipping`, `spirit-2026t-maintenance-deck-takes-no-lubricant`,
+`40t-2026-maintenance-belt-dust`).

@@ -5,7 +5,7 @@ title: 'Replacing the recumbent stepper front connecting cable: write down the s
   tension'
 kind: procedure
 question: How do I replace the front connecting cable (front steel cable) on a Spirit
-  7.5S or 8.5S recumbent stepper, and what tension does it take?
+  7.0S, 7.5S or 8.5S recumbent stepper, and what tension does it take?
 asked_as:
 - front cable replacement 7.5s stepper
 - steel cable tension 8.5s
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: assembly
   code: '*'
@@ -41,7 +43,10 @@ source:
   ref: spirit-stepper-7-5s-med-service-manual
   locator: '7-5s-med: 6.5.1-6.5.2 Front Connecting Cable, PDF p. 26; text.md lines
     279-299 | 85s-2025 (spirit-stepper-85s-2025-service-manual): 6-5 Steel Cable Replacement,
-    steps 1 and 3, PDF p. 28; text.md lines 381-397'
+    steps 1 and 3, PDF p. 28; text.md lines 381-397 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.5.1-6.5.2 Front Connecting Cable, PDF p. 26; text.md lines 297-316 | 75s-2025
+    (spirit-stepper-75s-2025-service-manual): 6.5.1-6.5.2 Front Connecting Cable,
+    PDF p. 26; text.md lines 280-299'
   extracted_at: '2026-09-11'
 ---
 
@@ -64,3 +69,4 @@ printed.** Nothing is missing from the procedure itself.
 Neither book says how the tension is measured. The rear cable is a different job with a winding pattern and its
 own card.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print the 7.5S wording word for word**, 40 to 50 lb included.

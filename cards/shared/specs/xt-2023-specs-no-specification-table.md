@@ -1,10 +1,11 @@
 ---
 id: xt-2023-specs-no-specification-table
-title: Specifications the owner's manuals do not print, and the two the service manuals add
+title: Specifications the owner's manuals do not print, and the two the service manuals
+  add
 kind: fact
-question: Where are the motor rating, deck size, dimensions and unit weight for a Spirit
-  XT185, XT285, XT385, XT485, XT685, XT485ENT or XT685ENT treadmill of the 2010, 2015
-  or 2023 generation?
+question: Where are the motor rating, deck size, dimensions and unit weight for a
+  Spirit XT185, XT285, XT385, XT485, XT685, XT485ENT or XT685ENT treadmill of the
+  2010, 2015 or 2023 generation?
 asked_as:
 - what size motor does this treadmill have
 - how big is the running deck
@@ -33,6 +34,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -67,16 +69,19 @@ see_also:
 - xt-2015-specs-speed-and-incline-range-xt485-xt685
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: Table of Contents p. 2 and whole document; the same absence holds in the
-    XT285-2023, XT385-2023, XT485-2023 and XT685-2023 manuals, in the five 2015
-    manuals (XT185/XT285/XT385/XT485/XT685-2015, Table of Contents p. 2 or 3 and whole
-    document), in the two ENT-console manuals (XT485ENT Table of Contents p. 2
-    and whole document, XT685ENT Table of Contents p. 2 and whole document), and in
-    the XT685-2010 manual (Table of Contents p. 3 and whole document). Service-manual
-    figures - the 70-75 lbs step in every XT 2015, 2023 and ENT service manual, located
-    book by book on spirit-ct850-drive-belt-tension; the Function work-range tables at
-    XT185-2015 service manual p. 16, XT385-2015 p. 16, XT185-2023 p. 8, XT385-2023 p. 7,
-    XT685-2023 p. 7, XT485ENT p. 14, XT685ENT p. 7
+  locator: 'Table of Contents p. 2 and whole document; the same absence holds in the
+    XT285-2023, XT385-2023, XT485-2023 and XT685-2023 manuals, in the five 2015 manuals
+    (XT185/XT285/XT385/XT485/XT685-2015, Table of Contents p. 2 or 3 and whole document),
+    in the two ENT-console manuals (XT485ENT Table of Contents p. 2 and whole document,
+    XT685ENT Table of Contents p. 2 and whole document), and in the XT685-2010 manual
+    (Table of Contents p. 3 and whole document). Service-manual figures - the 70-75
+    lbs step in every XT 2015, 2023 and ENT service manual, located book by book on
+    spirit-ct850-drive-belt-tension; the Function work-range tables at XT185-2015
+    service manual p. 16, XT385-2015 p. 16, XT185-2023 p. 8, XT385-2023 p. 7, XT685-2023
+    p. 7, XT485ENT p. 14, XT685ENT p. 7. XT485-2013 (spirit-treadmill-xt485-2013-owners-manual):
+    TABLE OF CONTENTS PDF p. 2 and whole document - Features 13, Exploded View Diagram/Parts
+    List 34, Warranty 39, no Specifications entry; grep for dimension, specification,
+    HP, lbs, kg and weight limit finds only the operating-temperature line'
   extracted_at: '2026-09-09'
 ---
 
@@ -185,3 +190,12 @@ which the console cards for each generation hold. Where a service manual's work
 range disagrees with the owner's-manual console maximum, the two range cards linked
 above say so. The service manuals still print no motor horsepower, deck size,
 dimension or weight; their electrical chapters give the motors' voltages only.
+
+**The XT485-2013 book (485812, a March 2014 PDF) sits with the 2010 book.** No specification page,
+no motor rating, no deck size, no dimension, no unit weight and **no user weight limit anywhere**; a
+console entry maximum of **9.9 mph or kmph and incline 9.5%** in its Quick Speed & Incline Buttons
+paragraph (`xt-2015-specs-speed-and-incline-range-xt185-xt285`, which names it); **a full parts list
+with an exploded view**, which its 2015 successor dropped; and a calibration page with figures like
+the 2010 book's - wheel size 3.01, minimum speed 0.5 mph / 1.0 kmph, maximum 12.0 mph / 18.0 kmph,
+maximum elevation 15, and a Grade return setting - technician settings, not a rated range.
+

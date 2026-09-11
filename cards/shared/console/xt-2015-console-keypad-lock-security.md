@@ -27,6 +27,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -37,6 +38,7 @@ not_to_be_confused_with:
 - xt-2023-console-child-lock
 see_also:
 - xt-2015-console-engineering-mode-menu
+- xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
   locator: 'Engineering Mode Menu, item 4 Security, p. 30; the XT285-2015 (p. 38),
@@ -44,7 +46,8 @@ source:
     same item with the wording differences noted below. Service manuals, MAINTENANCE
     MENU, D. Security: XT485-2015 PDF p. 60 (printed 60), text.md lines 936-938; XT385-2015
     PDF p. 59, lines 925-927; XT285-2015 PDF p. 60 (printed 54), lines 1185-1187;
-    XT185-2015 PDF p. 59 (printed 54), lines 1115-1117'
+    XT185-2015 PDF p. 59 (printed 54), lines 1115-1117. XT485 2013 OM MAINTENANCE
+    MENU item D Security, PDF p. 34 (printed 33), text.md lines 1391-1392'
   extracted_at: '2026-09-09'
 ---
 
@@ -79,4 +82,6 @@ the child lock is enabled, the console will not allow the keypad to operate unle
 hold the **Start and Enter buttons for 3 seconds** to unlock the console."* So Start and Enter for 3
 seconds is in print for every 2015 XT in the repository; only the XT685-2015 still has no document
 that says so.
+
+**The XT485 2013 owner's manual prints Security as item D of its maintenance menu** - "Allows you to lock the keypad so the treadmill cannot be used. Press Enter to change setting (also called child lock)" - and, like the XT385/XT485/XT685-2015 books, **says nothing about how to unlock it**; so this card covers that machine. The menu it sits in is `xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions`.
 

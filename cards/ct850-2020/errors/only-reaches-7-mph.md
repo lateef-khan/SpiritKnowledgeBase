@@ -43,11 +43,15 @@ see_also:
 - ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-6 TROUBLESHOOTING, page 46 (printed 45); CT800 2020 service manual
-    8-5 TROUBLESHOOTING, PDF p. 45 (printed 44), text.md lines 631-660; CT800ENT 2022
-    service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT850ENT
+  locator: 'Section 8-6 TROUBLESHOOTING, page 46 (printed 45); CT800 2020 service
+    manual 8-5 TROUBLESHOOTING, PDF p. 45 (printed 44), text.md lines 631-660; CT800ENT
+    2022 service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT850ENT
     2022 service manual 8-7 Troubleshooting, PDF p. 40, text.md lines 810-838; 4.0T
-    2026 service manual TROUBLESHOOTING, PDF p. 35 (printed 46), text.md lines 523-566
+    2026 service manual TROUBLESHOOTING, PDF p. 35 (printed 46), text.md lines 523-566;
+    the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): TROUBLESHOOTING at PDF p. 36 (printed 46), text.md
+    lines 592-635'
   extracted_at: '2026-09-08'
 ---
 

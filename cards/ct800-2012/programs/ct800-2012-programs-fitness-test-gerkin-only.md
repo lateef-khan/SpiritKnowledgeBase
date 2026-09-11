@@ -2,7 +2,8 @@
 id: ct800-2012-programs-fitness-test-gerkin-only
 title: The Fit-Test button offers only the Gerkin test and asks for age then weight
 kind: procedure
-question: What fitness test does a ct800-2012 treadmill have and how do I start it?
+question: What fitness test does a Spirit ct800-2012 or ct850-2013 treadmill have
+  and how do I start it?
 asked_as:
 - what fitness tests can this treadmill run
 - does it have an army fitness test
@@ -20,9 +21,10 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct800-2012
+  model: '*'
   applies_to:
   - ct800-2012
+  - ct850-2013
   section: programs
   code: '*'
 authority: 3
@@ -35,7 +37,8 @@ see_also:
 - ct900-gerkin-wfi-test-procedure
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: printed pages 13 and 15-16, Fitness Test / Fitness Test Programming
+  locator: 'printed pages 13 and 15-16, Fitness Test / Fitness Test Programming; CT850
+    2013: PDF pp. 20-21 (printed 16-17), OCR supplement lines 624-758'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +59,5 @@ Force, Marines, PEB or Coast Guard test - those arrive on later CT800 generation
 **This console does not ask for gender.** The 2016 and 2020 consoles ask for weight, then age, then
 gender - a different order and a third value - see
 `spirit-ct800-programs-fitness-test-entry-weight-age-gender`.
+
+**The 2013 CT850 owner's manual is the same case**: one fitness test, Gerkin, reached from the Fit-Test button, asking Age (Incline window) then Weight (Distance window) then Start, with no gender prompt and no military tests anywhere in the book - a loose search for Army, Navy, Marines, Air Force, Coast Guard, PEB and WFI returns nothing.

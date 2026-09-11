@@ -1,10 +1,10 @@
 ---
 id: spirit-ct850-specs-no-specification-table
-title: Six owner's manuals with no specification table, no motor rating and no tread-belt
+title: Seven owner's manuals with no specification table, no motor rating and no tread-belt
   tension figure
 kind: fact
 question: Where are the motor rating, running deck size, dimensions, unit weight and
-  belt tension figure for a Spirit CT850 or CT850ENT commercial treadmill?
+  belt tension for a Spirit CT850 or CT850ENT treadmill, 2013 to 2024?
 asked_as:
 - what size motor is in this treadmill
 - how much does the ct850 weigh
@@ -27,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -53,11 +54,15 @@ see_also:
 - ct850ent-2024-specs-parts-list
 source:
   ref: spirit-treadmill-ct850-2016-owners-manual
-  locator: Table of Contents p. 1 and whole document; the same absence holds in the
-    CT850-2018, CT850-2020, CT850ENT-2022, CT850-2024 and CT850ENT-2024 owner's manuals,
+  locator: 'Table of Contents p. 1 and whole document; the same absence holds in the
+    CT850-2018, CT850-2020, CT850ENT-2022, CT850-2024 and CT850ENT-2024 owner''s manuals,
     each checked from its own Table of Contents p. 1. Service-manual figures - CT850ENT-2022
     service manual p. 57, text.md lines 987-989 (belt tension) and p. 43, lines 862-870
-    (engineering-mode speed and incline defaults)
+    (engineering-mode speed and incline defaults). CT850-2013 (spirit-treadmill-ct850-2013-owners-manual,
+    a scan with no text layer, all OCR): the whole book, text.md lines 1-1390 - no
+    contents page survives the scan; grep for dimension, specification, HP, lbs and
+    kg finds only the operating-temperature line and warranty boilerplate; Calibration
+    Procedure lines 1163-1185'
   extracted_at: '2026-09-09'
 ---
 
@@ -155,3 +160,12 @@ before the deck is flipped is printed in the belt/deck section and is a `mainten
 fact. Three of those five differ between the books - the circuit rating, the
 minimum clearance and the deck life - so read each from the book for the machine in
 hand rather than from a sister model.
+
+**The 2013 book, the oldest of the family, is no different.** It is a Lexmark scan with no text layer
+- every word of it is OCR - and the OCR of all 47 pages holds no specification table, no motor
+rating, no deck size, no dimension, no weight and **no user weight limit either**: the only
+weight-shaped figures in it are the fitness-test charts. Its Calibration Procedure sets a wheel size
+of 2.98, a maximum speed of **20.0 kph or 12.5 mph**, a minimum of 0.8 kph or 0.5 mph and a maximum
+elevation of 15 - a third set of setpoints for the family, between the 2016-2020 books' 15.0 and the
+2024 book's 12.0 - and, as on every other CT850, those are technician settings, not a rated range.
+

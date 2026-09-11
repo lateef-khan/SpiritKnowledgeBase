@@ -27,6 +27,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ce800ent-2024
   - ce850-2016
@@ -61,11 +62,13 @@ facets:
   - xe895-2016
   - xg400-2016
   - xrw600-2019
+  - xt485-2013
   - xt685-2010
   section: safety
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- ct850-2013-safety-gfci-or-rcd-may-trip-often-not-forbidden
 see_also:
 - spirit-house-breaker-needs-a-high-inrush-type
 - spirit-ct850-outlet-and-circuit-requirement
@@ -123,7 +126,15 @@ source:
     CRS800S-2021 (2020 ver.) service manual: 7 Product Safety Instructions, PDF pp.
     24-25 (printed 24-25), text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual.
     All four pages were also read from 110 dpi renders; the XRW600 page prints the
-    word Rower highlighted in yellow where the CRW800 page prints elliptical.'
+    word Rower highlighted in yellow where the CRW800 page prints elliptical. The
+    2025 4.0T owner''s manual (revision 02.04.25, version 2.1) prints the same page:
+    ELECTRICAL SAFETY, PDF p. 8 (printed 6), lines 182-213 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013: IMPORTANT ELECTRICAL INSTRUCTIONS,
+    PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    4.0T service manuals: 7.2 Important Electrical Instructions, PDF p. 27, lines
+    384-418, in spirit-treadmill-40t-2026-service-manual-st8700a, and PDF p. 26, lines
+    353-387, in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -269,3 +280,17 @@ printed for all three.
 **The CS800-2016 (XS200-SS003) service manual prints no GFCI sentence.** Its 7-2 is the cover-removal, voltage-variation
 and moisture block instead (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`,
 `xt-2023-safety-supply-voltage-variation`), and the CS800-2021 and XS895 service manuals have no safety chapter at all.
+
+**The 2025 printing of the 4.0T manual prints the RCD/GFCI prohibition unchanged**, and both 4.0T
+service manuals (ST8700-ST017 and ST8700A-ST026-01) print the CT850 chapter's `NEVER use a ground
+fault circuit interrupt (GFCI) wall outlet with this treadmill` in their section 7.2.
+
+**The Australian XT485-2013 owner's manual prints the ban word for word** in the CT800 2012 wording,
+on its Important Electrical Instructions page - the second XT owner's manual, after the XT685-2010,
+that forbids the outlet rather than warning about it.
+
+**The CT850-2013 owner's manual does not forbid it.** Its sentence is `Use of a GFCI ... or RCD ...
+wall outlet with this treadmill, as with any appliance with a large motor, may result in tripping
+the circuit breaker often` - a warning, not a ban, and a third position in the range
+(`ct850-2013-safety-gfci-or-rcd-may-trip-often-not-forbidden`). Do not quote this card's sentence
+to a customer holding the 2013 CT850 book.

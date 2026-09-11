@@ -2,7 +2,8 @@
 id: xt-2023-console-pause-stop-reset
 title: Pausing, ending and resetting a workout with the Stop key
 kind: procedure
-question: What does pressing Stop do on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
+question: What does pressing Stop do on a Spirit XT185, XT285, XT385, XT485 or XT685
+  treadmill, 2015 or 2023?
 asked_as:
 - how do i pause my treadmill
 - what happens if i press stop twice
@@ -30,6 +31,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -44,7 +46,8 @@ see_also:
 - xt-2023-console-child-lock
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 21, FEATURES / Pause / Stop / Preset
+  locator: page 21, FEATURES / Pause / Stop / Preset. XT485 2013 OM PAUSE/STOP/RESET
+    FEATURE, PDF p. 17 (printed 16), text.md lines 511-521
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +68,6 @@ call it the **red** Stop key; the other three simply call it the Stop key.
 
 **The XT685 2010 owner's manual prints the same behaviour on its p. 19**, under PAUSE/STOP/PRESET,
 calling it the **red** Stop key, so this card covers that machine.
+
+**The XT485 2013 owner's manual prints the same behaviour on its printed p. 16**, calling it the **red** Stop key, with the 5-minute pause, the second-press summary, the third-press return to idle and the 3-second reset, so this card covers that machine. Its maintenance menu is where the 5 minutes becomes indefinite (`xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions`).
+

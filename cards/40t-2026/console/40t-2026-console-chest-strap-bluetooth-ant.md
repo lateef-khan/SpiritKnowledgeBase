@@ -35,7 +35,9 @@ see_also:
 - 40t-2026-console-heart-rate-sources
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 37, USING A HEART RATE TRANSMITTER
+  locator: p. 37, USING A HEART RATE TRANSMITTER. The 2025 printings (spirit-treadmill-40t-2025-owners-manual
+    and spirit-treadmill-40t-2025-owners-manual-may-2025-printing) print a different
+    sentence on their PDF p. 38 (printed 36), text.md lines 1031-1065
   extracted_at: '2026-09-09'
 ---
 
@@ -47,3 +49,6 @@ source:
 manuals print **5kHz** in the same sentence, which is a different radio entirely;
 see `spirit-2026t-console-chest-strap-5khz`. Check the manual for the machine in
 front of you before recommending a strap.
+
+**The 2025 printings of this same manual say something else.** Their USING A HEART RATE TRANSMITTER page reads "Most transmitters that operate at **5kHz frequency** will also work" - the analogue Polar band, not Bluetooth or ANT+. The 2026 book changed that one clause and nothing else on the page. Which strap a 4.0T reads therefore depends on the printing the owner holds; the 5 kHz statement is held with the 7.0T and 8.0T at `spirit-2026t-console-chest-strap-5khz`, which now lists the 40t-2025.
+

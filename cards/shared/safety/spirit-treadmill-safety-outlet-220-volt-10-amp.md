@@ -33,6 +33,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -75,7 +76,9 @@ source:
     (printed 31); text.md lines 411-442. XT685ENT-2023 service manual: section 7,
     PDF p. 18 (printed 18); text.md lines 272-315. The CEGS note is PDF p. 4 (printed
     4) of the XT185-2015 and XT285-2015 books, lines 59-62, and PDF p. 3 (printed
-    3) of the XT185-2023 book, lines 59-62.'
+    3) of the XT185-2023 book, lines 59-62. XT485-2013 (Australian edition): IMPORTANT
+    SAFETY INSTRUCTIONS, WARNING header, PDF p. 4 (printed 3), text.md lines 76-131,
+    and GROUNDING INSTRUCTIONS, PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual'
   extracted_at: '2026-09-11'
 ---
 
@@ -134,3 +137,18 @@ a 220-volt, 10-amp outlet, the F60-2020 for 230-volt, 10-amp, and the F63-2026 f
 `f60-2020-power-outlet-requirements`, `f63-2026-power-outlet-requirements`). Those are Sole
 machines with their own cards; this card is the Spirit one.
 
+## One XT owner's manual does print the figure: the Australian XT485-2013
+
+**The statement above that the XT owner's manuals never print a 220-volt or 230-volt figure is true
+of the North American books.** The 2013 XT485 owner's manual is an Australian edition (its dealer
+letter is signed BOYLES FITNESS Equipment Pty Ltd.) and its safety page asks, as the installer's
+requirement:
+
+> install the treadmill on a flat level surface with access to a 230-volt, 10-amp grounded outlet
+> with only the treadmill plugged into the circuit.
+
+Its grounding page says `This product is for use on a nominal 230-volt circuit`
+(`spirit-product-must-be-grounded`), and its cord rule is metric - `1m㎡ OR BETTER, WITH ONLY ONE
+OUTLET ON THE END` (`40t-2026-safety-extension-cord-1-mm2-or-better`). No 110-volt or 120-volt figure
+appears anywhere in the book. 230 and 220 name the same build, as the table above shows; 10 amp is
+the figure in both spellings (`xt485-2013-safety-instructions-list`).

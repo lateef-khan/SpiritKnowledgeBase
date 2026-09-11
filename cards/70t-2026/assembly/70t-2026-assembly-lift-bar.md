@@ -2,8 +2,8 @@
 id: 70t-2026-assembly-lift-bar
 title: What the lift bar is for and how to take it off for patient access
 kind: procedure
-question: What is the lift bar on a Spirit rehabilitation treadmill and how do I
-  remove it?
+question: What is the lift bar on a Spirit rehabilitation treadmill and how do I remove
+  it?
 asked_as:
 - what is the bar across the handrails for
 - how do i take the lift bar off
@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -35,8 +36,9 @@ see_also:
 - 70t-2026-assembly-parts-diagram-labels
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19, SETTING UP YOUR TREADMILL - Lift Bar; MT200 2010 owner's manual
-    p. 11 and MT200 2022 owner's manual p. 20, Lift bar
+  locator: 'p. 19, SETTING UP YOUR TREADMILL - Lift Bar; MT200 2010 owner''s manual
+    p. 11 and MT200 2022 owner''s manual p. 20, Lift bar | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SETTING UP YOUR TREADMILL - Lift Bar, PDF p. 21 (printed 19); text.md lines 595-633'
   extracted_at: '2026-09-09'
 ---
 
@@ -55,3 +57,5 @@ parts under two names.
 
 The 8.0T has no lift bar. Its handrails are raised and lowered by hand on
 quick-release levers.
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints this page word for word; its assembly chapter is 98.2% the 2026 chapter at word level, the difference being two item numbers in step three.

@@ -2,7 +2,7 @@
 id: spirit-2026t-warranty-belt-adjustment-damage
 title: Belt damage caused by a bad tracking or tension adjustment
 kind: policy
-question: Is running-belt damage from a bad adjustment covered on a Spirit 2026 4.0T,
+question: Is running-belt damage from a bad adjustment covered on a Spirit 2025 or 2026 4.0T,
   7.0T, 8.0T, CT800, CT850 or CT900 treadmill?
 asked_as:
 - i overtightened the belt is it covered
@@ -24,13 +24,16 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct800-2012
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -59,7 +62,7 @@ source:
     p. 33 (spirit-treadmill-xt685-2010-owners-manual text.md lines 1311-1313). The CT900
     prints it beside the same procedure:
     spirit-treadmill-ct900-owners-manual text.md lines 1210-1212, MACHINE CARE
-    - CONTINUED, p. 37'
+    - CONTINUED, p. 37 The same Attention box beside the tracking procedure in the 2025 printings: spirit-treadmill-40t-2025-owners-manual printed p. 43 (PDF p. 45, text.md line 1330; the May printing likewise) and spirit-treadmill-70t-2025-owners-manual printed p. 42 (PDF p. 44, line 1237). The CT850 2013 book prints it beside SETTING TREAD-BELT TRACKING, printed p. 23 (PDF p. 27, OCR text.md lines 1094-1095): "Damage to the running belt resulting from improper tracking / tension adjustments is not covered under the Spirit Fitness warranty."'
   extracted_at: '2026-09-09'
 ---
 
@@ -104,3 +107,5 @@ exclusion is the general "improper maintenance" of item 3
 **One Spirit XT manual prints the box, and the later XT manuals dropped it.** The **2010 XT685** carries it under an ATTENTION heading of its own, beside its treadbelt tracking procedure, in the CT800 wording - "not covered under the **Spirit Fitness** warranty" - together with the same "Proper belt tracking is an owner responsibility common with all treadmills" sentence. **No 2015 or 2023 XT manual prints it**, and neither does the XT485ENT or the XT685ENT: the phrase "improper tracking" appears nowhere in any of them. So an XT685 owner's entitlement here depends on which manual came with the machine, and for every XT except the 2010 XT685 the only relevant exclusion is the general "improper maintenance" of item 3 (`xt-2015-warranty-exclusions`, `xt-2023-warranty-exclusions`).
 
 **A Sole manual states the same rule about a Sole machine.** That is a different machine's fact, not this one - see `f50-2026-belt-damage-from-adjustment-not-covered`.
+
+**The 2025 printings of the 4.0T and 7.0T and the CT850 2013 book print the same box.** The 4.0T 2025 prints it in capitals in the text layer, as the 2026 book does; the CT850 2013 prints it in an ATTENTION box in the same words as the later CT850 books.

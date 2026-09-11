@@ -56,7 +56,7 @@ source:
     each PDF''s own text layer with the tick column resolved by character position against the
     header row. Printed page is PDF page minus one throughout. PDF pages: csd-acbe 25,
     csd-bcte 22, csd-cpsp 26, csd-itot 21, csd-lelc 25, csd-lpce 25, csd-lpsr 22, csd-pfrd 24,
-    csd-puda 21. The CSD-ACBE page was also read from a 300 dpi render, which agrees row for row'
+    csd-puda 21. The CSD-ACBE page was also read from a 300 dpi render, which agrees row for row The May 2025 update of the CSD-CPSP book, spirit-strength-csd-cpsp-owners-manual-2025-update (4601US, 2025 0521), prints the same fifteen rows with the same ticks at PDF p. 26 (printed 25), read from a 110 dpi render of the page on 2026-09-11, which agrees cell for cell with the table above.'
   extracted_at: '2026-09-10'
 ---
 
@@ -105,3 +105,6 @@ without a pulley row.
 
 The twenty-two single-station machines carry **neither** row:
 `spirit-strength-maintenance-schedule-thirteen-actions-daily-to-bi-monthly`.
+
+**The May 2025 update of the CSD-CPSP manual prints this table unchanged** - fifteen rows, the same ticks,
+including the bi-monthly internal tower and the monthly add-on track. The model id is the same `csd-cpsp`.

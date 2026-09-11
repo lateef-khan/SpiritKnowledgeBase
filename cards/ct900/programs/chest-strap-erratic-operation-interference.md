@@ -22,6 +22,7 @@ facets:
   applies_to:
   - ct800-2024
   - ct800ent-2024
+  - ct850-2013
   - ct850-2024
   - ct850ent-2024
   - ct900
@@ -29,6 +30,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -44,7 +46,8 @@ see_also:
 - ct900-grounding-instructions
 source:
   ref: ct900-om
-  locator: p. 31
+  locator: 'p. 31; CT850 2013: PDF p. 24 (printed 20), OCR supplement lines 878-944;
+    XT485 2013: PDF p. 28 (printed 27); text.md lines 1056-1112'
   extracted_at: '2026-08-24'
 ---
 
@@ -70,3 +73,8 @@ The Troubleshooting table has a matching entry for this exact symptom ("Erratic 
 
 **All four 2024 treadmill manuals print this same warning and the same eight interference sources**
 word for word (CT800 and CT850 printed page 33; CT800ENT and CT850ENT printed page 49).
+
+**The 2013 CT850 owner's manual prints the seven-item list** - no grounding item, beginning at
+microwave ovens, three feet, closing "contact your dealer". **The 2013 XT485 owner's manual prints the
+eight-item list** with the grounding item first, worded "Treadmill not properly grounded - Proper
+grounding is a must!", and also closes "contact your dealer".

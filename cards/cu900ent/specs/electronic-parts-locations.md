@@ -2,8 +2,8 @@
 id: cu900ent-electronic-parts-locations
 title: Where the named electronic parts sit on the bike
 kind: fact
-question: Which electronic parts do the Spirit CU900ENT, CU900 (2018), CR900 (2018) and
-  CR900ENT service manuals name, and where are they?
+question: Which electronic parts do the Spirit CU900ENT, CU900 (2018), CR900 (2018), CR900ENT
+  and 2025 medical 4.0R and 4.0U service manuals name, and where are they?
 asked_as:
 - what electronic parts are in the cu900 bike
 - where is the speed sensor on the cu900ent
@@ -25,6 +25,8 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
   - cr900-2018
   - cr900ent-2021
   - cu900-2018
@@ -40,13 +42,15 @@ see_also:
 - xbr95-2016-specs-parts-electronic-parts-named
 - spirit-cr900-specs-parts-component-callout-numbers
 - spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
+- spirit-40r-specs-parts-list-items-1-to-191
+- spirit-40u-specs-parts-list-items-1-to-150
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: p. 8 (printed 8) Upper Controllers; p. 9 (printed 9) Lower Controller and
+  locator: 'p. 8 (printed 8) Upper Controllers; p. 9 (printed 9) Lower Controller and
     Driver, section 2. The same five names in spirit-bike-cu900-2018-service-manual PDF p. 8
     (printed 8), text.md lines 124-136, and PDF p. 9, lines 137-157; spirit-bike-cr900-2018-service-manual
     PDF p. 7, lines 64-76, and PDF p. 8, lines 77-93; spirit-bike-cr900ent-2021-service-manual PDF p. 7,
-    lines 64-78, and PDF p. 8, lines 79-92; the three chapter-2 spreads were compared on renders
+    lines 64-78, and PDF p. 8, lines 79-92; the three chapter-2 spreads were compared on renders The same five names under the same two headings in the two 2025 medical bike service manuals, chapter 3 Electronic Parts: spirit-bike-40r-2025-service-manual 3-1 Upper Controllers PDF p. 10 (text.md lines 86-92) and 3-2 Lower Controller and Driver PDF p. 11 (lines 92-98), both flat images read from 90 dpi renders (Cooling FAN, DISPLAY; DRIVE BOARD, SPEED SENSOR, HYBRID GENERATOR); spirit-bike-40u-2025-service-manual 3-1 PDF p. 10 (lines 84-98) and 3-2 PDF p. 11 (lines 98-104) (Cooling FAN, DISPLAY; Driver board, SPEED SENSOR, HYBRID GENERATOR).'
   extracted_at: '2026-09-08'
 ---
 
@@ -68,3 +72,5 @@ same five on its recumbent with a touchscreen in the DISPLAY photograph and a di
 photograph. None of the four prints a part number or a rating on these pages. The CU1000ENT drops the fan
 and adds an NFC key (`cu1000ent-2023-specs-parts-electronic-parts-named`); the residential XBR95 of 2016
 names the same generator and driver board plus a speaker (`xbr95-2016-specs-parts-electronic-parts-named`).
+
+**The 2025 medical 4.0R (FR800-SB022-03) and 4.0U (FU800-SB022-03) service manuals name exactly these five parts** under *3-1 Upper Controllers* (Cooling FAN, DISPLAY - a photograph of the medical console with its dot-matrix window and coloured keys) and *3-2 Lower Controller and Driver* (SPEED SENSOR, HYBRID GENERATOR, and the red driver board captioned DRIVE BOARD on the recumbent and Driver board on the upright). The recumbent page draws the 4.0R with its seat and rail, the upright page the 4.0U; the three lower-part photographs are the same ones. Neither page prints a part number. Their parts lists call the same three parts `Induction Brake`, `Generator/Brake Controller` and `Sensor W/Cable` (`spirit-40r-specs-parts-list-items-1-to-191`, `spirit-40u-specs-parts-list-items-1-to-150`).

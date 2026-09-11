@@ -2,8 +2,8 @@
 id: 70t-2026-programs-preset-program-list
 title: The two preset exercise programs and why the profile picture never changes
 kind: fact
-question: Which preset programs does a Spirit 70t-2026 or MT200 rehabilitation
-  treadmill have?
+question: Which preset programs does a Spirit 70t-2026 or MT200 rehabilitation treadmill
+  have?
 asked_as:
 - what programs are on this treadmill
 - how many preset workouts are there
@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -35,7 +36,8 @@ see_also:
 - 70t-2026-programs-preset-setup-steps
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: page 27, Preset Programs
+  locator: 'page 27, Preset Programs; 7.0T 2025: PDF p. 29 (printed 27); text.md lines
+    830-856'
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +61,5 @@ Both MT200 owner's manuals print the same two presets and the same paragraph abo
 picture - the 2010-generation manual on printed page 16, the 2022-generation manual on printed
 pages 27-28. **Their printed segment values are not the same as the 7.0T's**: see
 `spirit-mt200-programs-preset-speed-incline-chart`.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

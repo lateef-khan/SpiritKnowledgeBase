@@ -1,7 +1,7 @@
 ---
 id: spirit-climber-specs-parts-which-service-manuals-print-a-parts-list
-title: One of the nine stepper and climber service manuals prints a parts list, and
-  it is the 7.5S medical stepper book
+title: Three of the eleven stepper and climber service manuals print a parts list, all
+  of them medical recumbent stepper books carrying the 2021 lists
 kind: fact
 question: Does the service manual for a Spirit stepper, stair climber or medical recumbent
   stepper have an exploded view and a parts list?
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   - crs800s-2021
   - cs800-2016
@@ -49,6 +51,7 @@ see_also:
 - spirit-rower-specs-parts-which-service-manuals-print-a-parts-list
 - spirit-bike-specs-parts-which-service-manuals-print-a-parts-list
 - spirit-climber-specs-parts-electronic-parts-named
+- spirit-med-stepper-70s-specs-parts-list-items-1-to-263
 source:
   ref: spirit-stepper-7-5s-med-service-manual
   locator: 'Exploded view drawing PDF p. 46 (text.md line 605) and "7.5 S parts list"
@@ -58,18 +61,21 @@ source:
     (73 pp.), CS800 (2020) (57 pp.), XS300B-YS006 (62 pp.), CSC880 (15 pp.), CSC900
     V1.0 (22 pp.), CSC900 2022 (15 pp.), 8.5S MS2000-SB036-01 (43 pp., Component Description
     PDF p. 5 lines 40-77 and the wiring diagram PDF p. 12 line 188 with OCR supplement
-    lines 739-785)'
+    lines 739-785) The two 2025 revisions: spirit-stepper-70s-2025-service-manual (RS9500-SS021-02) "Exploded view drawing" PDF p. 47 and "7.0 S parts list" PDF pp. 48-55 (text.md lines 630-902); spirit-stepper-75s-2025-service-manual (RS9600-SS021-03) PDF p. 47 and pp. 48-55 (lines 618-880).'
   extracted_at: '2026-09-11'
 ---
 
-**Nine Spirit stepper and climber service manuals were read to their last page. One prints an
-exploded view and a parts list: the 7.5S medical stepper book.** One prints a numbered
+**Eleven Spirit stepper and climber service manuals were read to their last page. Three print an
+exploded view and a parts list: the 7.5S medical stepper book of 2021 and the 2025 revisions of the
+7.0S and 7.5S books.** One prints a numbered
 component key and a wiring diagram with part numbers; seven print nothing that resembles
 either.
 
 | Book | Exploded view | Parts list | Card |
 |---|---|---|---|
 | 7.5S (RS9600-SS021-01) | yes - one drawing dated 2018.11.29, PDF p. 46 | **yes - 257 rows, items 1-263**, PDF pp. 47-54 | `7-5s-med-specs-parts-list` |
+| 7.5S (RS9600-SS021-03, 2025) | yes - a new drawing stamped 20251208 whose balloons run past 330, PDF p. 47 | **the same 257 rows, items 1-263**, PDF pp. 48-55 - it does not reach the new drawing's numbers | `7-5s-med-specs-parts-list` |
+| 7.0S (RS9500-SS021-02, 2025) | yes - a drawing stamped 20251210 whose balloons run past 330, PDF p. 47 | **yes - 259 rows, items 1-263**, the 2021 MED 7.0S list, PDF pp. 48-55 | `spirit-med-stepper-70s-specs-parts-list-items-1-to-263` |
 | 8.5S (MS2000-SB036-01) | none | none - but a 19-row Component Description key (Console Assembly to Seat Front Rear Adjusting) on PDF p. 5, and a wiring diagram that numbers every electrical part and cable `#085` to `#106` and `#181` | the outline key and the wiring diagram are on this book's specs cards |
 | CRS800S 2020 ver. | none | none | |
 | CS800 2016 (XS200-SS003) | none | none | |
@@ -102,3 +108,4 @@ exploded view carries balloons in the 500s and does not use these numbers.
 nine books print are the two optical-sensor board numbers in the 7.5S list, CS63008-00 and
 CS63008-10.
 
+**The two 2025 service manuals print 2021 lists under 2025 drawings.** The RS9500-SS021-02 (7.0S) and RS9600-SS021-03 (7.5S) books both carry a freshly stamped exploded view with balloons above 330 and a list that stops at item 263 - the lists of the 2021 MED owner's manuals. A number above 263 on either drawing is decoded only by the 2025 owner's manuals' 337-row lists (`spirit-climber-specs-which-manuals-print-a-parts-list`).

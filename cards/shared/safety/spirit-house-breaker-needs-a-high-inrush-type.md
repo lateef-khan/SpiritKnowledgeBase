@@ -29,6 +29,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ce800ent
   - ce850-2016
@@ -45,6 +46,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -85,6 +87,7 @@ facets:
   - xrw600-2021
   - xs895-2018
   - xs895-2021
+  - xt485-2013
   - xt685-2010
   section: safety
   code: '*'
@@ -158,7 +161,17 @@ source:
     7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md lines 296-336,
     in spirit-stepper-crs800s-2021-service-manual. All four pages were also read from
     110 dpi renders; the XRW600 page prints the word Rower highlighted in yellow where
-    the CRW800 page prints elliptical.'
+    the CRW800 page prints elliptical. The 2025 4.0T owner''s manual (revision 02.04.25,
+    version 2.1) prints the same page: ELECTRICAL SAFETY, PDF p. 8 (printed 6), lines
+    182-213 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013: IMPORTANT ELECTRICAL INSTRUCTIONS,
+    PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Electrical Instructions, PDF p. 7 (printed 3), OCR supplement
+    at lines 130-185, read against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual.
+    4.0T service manuals: 7.2 Important Electrical Instructions, PDF p. 27, lines
+    384-418, in spirit-treadmill-40t-2026-service-manual-st8700a, and PDF p. 26, lines
+    353-387, in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -402,3 +415,20 @@ manuals do not print. Quote the rating with the book it comes from; the service 
 
 **The CS800-2016 (XS200-SS003) service manual prints no circuit-breaker paragraph** - its electrical section is the
 cover-removal and voltage-variation block - and the CS800-2021 and XS895 service manuals have no safety chapter.
+
+## The 4.0T service manuals print the part numbers the 4.0T owner's manual does not
+
+**Both 4.0T service manuals - ST8700-ST017 and the ST8700A-ST026-01 revision - print the CT850
+paragraph in full**, with `Examples:Grainger part # 1D237, or available online at www.squared.com
+part # QO120HM`. So the statement above that the 4.0T names no part numbers is true of its owner's
+manual alone; the 2025 printing of that owner's manual prints the same numberless paragraph as the
+2026 one.
+
+## Two 2013 owner's manuals print the paragraph, one with the examples and one without
+
+**The Australian XT485-2013** prints it with both part numbers - Grainger # 1D237 and www.squared.com
+# QO120HM - and no dedicated-amp sentence, on a 230-volt machine. **The CT850-2013** prints it without
+the examples, ending `This part is available through most electrical supply stores. The electrical
+outlet used should have a dedicated 20 amp circuit breaker` - the CT850 2016 and 2020 closing
+sentence, without the Grainger and QO120HM lines those two books carry
+(`spirit-ct850-outlet-and-circuit-requirement`).

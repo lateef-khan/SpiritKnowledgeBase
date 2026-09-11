@@ -22,6 +22,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   section: maintenance
@@ -34,8 +35,10 @@ see_also:
 - ct900-black-particles-under-treadmill-normal
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: p. 35, GENERAL MAINTENANCE - Belt/Deck, last two sentences (XT485 p. 40);
-    XT485ENT p. 51
+  locator: 'p. 35, GENERAL MAINTENANCE - Belt/Deck, last two sentences (XT485 p. 40);
+    XT485ENT p. 51 The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    PDF p. 30 (printed 29), text.md lines 1161-1163 - the same two sentences under
+    a second "BELT/DECK" heading, with the same missing antecedent for "This".'
   extracted_at: '2026-09-09'
 ---
 
@@ -48,3 +51,7 @@ The manual says it **occurs during normal break-in or until the belt stabilizes*
 **Of the 2015 manuals only the XT385 and XT485 carry this note**, and the **XT485ENT** manual carries it too, in the same words and with the same missing antecedent. The XT685 2015 manual prints the same Belt/Deck paragraph without these two sentences, and the XT185 2015 and XT285 2015 manuals have no Belt/Deck paragraph at all. No XT 2023 manual carries it.
 
 **This is belt dust, not the drive-belt particles that collect underneath.** The Spirit CT850 and CT900 manuals treat those separately, as a drive belt breaking in, with vacuuming as the answer - see `ct850-black-particles-under-treadmill` and `ct900-black-particles-under-treadmill-normal`. **No XT 2015 manual mentions the drive belt as a source of particles.**
+
+**The XT485 2013 prints the same two sentences**, under a second *BELT/DECK* heading directly below the first,
+with the same missing antecedent - so the damage is older than the 2015 books and was carried forward from
+this one.

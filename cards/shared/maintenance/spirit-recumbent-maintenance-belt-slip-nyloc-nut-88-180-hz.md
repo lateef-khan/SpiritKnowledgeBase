@@ -3,8 +3,9 @@ id: spirit-recumbent-maintenance-belt-slip-nyloc-nut-88-180-hz
 title: Tightening a slipping drive belt at the J-bolt nyloc nut until the acoustic
   gauge reads 180 ±10 Hz
 kind: procedure
-question: How do I re-tension the drive belt when it slips on a Spirit recumbent bike
-  whose service manual reads the belt at 180 ±10 Hz, the 2009 CR800 and the 2016 XBR95?
+question: How do I re-tension the drive belt when it slips on a Spirit bike whose
+  service manual reads the belt at 180 ±10 Hz - the 2009 CR800, the 2016 XBR95, and
+  the 2025 medical 4.0R and 4.0U?
 asked_as:
 - belt slipping on my xbr95
 - how do i tighten the belt on the old cr800 recumbent
@@ -27,6 +28,8 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
   - cr800-2009
   - xbr95-2016
   section: maintenance
@@ -48,7 +51,7 @@ source:
     9-17 Slippage and Drive Belt falling off, PDF p. 74 (printed 74), lines 1107-1117.
     The install figure: CR800 2009 procedure 5 The Belt and Idler Wheel Assembly step
     5, PDF p. 8, lines 201-219; XBR95 2016 9-5 step 4 and Remark 1, PDF p. 53 (printed
-    53), lines 762-773.'
+    53), lines 762-773. Two 2025 Spirit medical bikes were added on 2026-09-11. spirit-bike-40u-2025-service-manual prints the Q&A, "Q: Belt Slippage", PDF p. 47 (printed 44), text.md lines 654-657, pointing at "procedures 8-7" - a section the book does not have; the belt procedure is 9-7 - and the figure in 9-7 step 4, PDF p. 43 (printed 40), lines 581-591: "Use belt tension gauge to make sure the frequency within the range of 180± 10HZ". spirit-bike-40r-2025-service-manual has no Q&A chapter at all (its chapters end at the parts list; "Q:" occurs nowhere in the book) and prints the figure only in 9-5 step 4, PDF p. 41 (printed 41), lines 527-531: "Use Acoustic tension gauge to make sure the reading is in the range 180±10HZ". Both books use a 13 mm wrench on the M8 × 7T nut of the J-bolt; parts 87 (J bolt), 88 (nut), 10 (idler wheel assembly), 54 (drive belt) and 20 (drive pulley) carry the same numbers in both 4.0 parts lists.'
   extracted_at: '2026-09-11'
 ---
 
@@ -82,3 +85,25 @@ notch against the side it falls off, replace the drive pulley (20), the idler wh
 or the induction brake (55), and finally the whole unit if the frame is deformed — is a diagnosis
 and belongs with the Q&A cards.
 
+## The 2025 medical 4.0R and 4.0U: the same nut, the same 180 ±10 Hz, and a pointer to a section that does not exist
+
+The **4.0U 2025** service manual answers "Q: Belt Slippage" with two lines: *if the belt slips, follow procedures
+8-7 and tighten the M8 × 7T nut on the J-bolt; if the belt falls off, follow procedure 8-7 to resume the belt.*
+**There is no 8-7 in the book** - chapter 8 is the error page, the general-maintenance block and the
+troubleshooting matrix. The belt procedure is **9-7**, and its step 4 gives the figure: hook the J-bolt on the
+frame, turn the M8 × 7T nut with the **13 mm wrench** until the belt is at acceptable tension, then **"use belt
+tension gauge to make sure the frequency within the range of 180 ± 10 HZ"**, and turn the drive pulley to see the
+belt sits centred. The same parts numbers as the 2009 CR800 - J-bolt 87, nut 88, idler wheel assembly 10, belt
+54, drive pulley 20.
+
+The **4.0R 2025** service manual prints **no Q&A at all** - its chapters run from outlines to the parts list, and
+the only belt figure is the install step 9-5 step 4, "**180 ±10 HZ**" on an acoustic tension gauge, worded as the
+2009 CR800's is. So on the 4.0R this card's slip remedy is inferred from the install step; the book itself never
+says "if the belt slips". Neither 4.0 book prints a new-belt figure, a newton figure or an interval, and the
+4.0R and 4.0U owner's manuals print no belt adjustment of any kind
+(`spirit-med-bike-maintenance-rust-wipe-monthly-pedal-check-and-half-inch-wrench`).
+
+**The 7.0R and 7.0U of the same year are a different idler and different figures** - 220-240 N and 260-280 N at
+eye-bolt nuts (`70r-2025-maintenance-belt-slip-eye-bolt-nuts-220-to-240-newtons`,
+`70u-2025-maintenance-belt-slip-eye-bolt-nuts-260-to-280-newtons`); the 8.0U and 8.5R print no figure
+(`spirit-med-bike-maintenance-belt-slip-tighten-the-idler-nuts-no-tension-figure-printed`).

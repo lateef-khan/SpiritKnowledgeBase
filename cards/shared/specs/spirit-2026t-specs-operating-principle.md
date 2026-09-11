@@ -2,7 +2,8 @@
 id: spirit-2026t-specs-operating-principle
 title: How a speed or incline key press reaches the drive motor and the incline motor
 kind: definition
-question: How does a Spirit 7.0T, 8.0T or MT200 rehabilitation treadmill turn a key press into belt speed or incline?
+question: How does a Spirit 7.0T (2025 or 2026), 8.0T or MT200 rehabilitation treadmill
+  turn a key press into belt speed or incline?
 asked_as:
 - how does this treadmill actually work
 - what does the inverter do on a treadmill
@@ -25,6 +26,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -38,7 +40,11 @@ see_also:
 - spirit-2026t-safety-who-may-install-and-operate
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: OPERATING PRINCIPLE p. 10 of the 2026 7.0T manual; the identical paragraph on p. 10 of the 2026 8.0T manual; Operating Principle p. 6 of the MT200 2010 manual and Operating principle p. 13 of the MT200 2022 manual
+  locator: 'OPERATING PRINCIPLE p. 10 of the 2026 7.0T manual; the identical paragraph
+    on p. 10 of the 2026 8.0T manual; Operating Principle p. 6 of the MT200 2010 manual
+    and Operating principle p. 13 of the MT200 2022 manual. 7.0T-2025 (spirit-treadmill-70t-2025-owners-manual):
+    OPERATING PRINCIPLE, PDF p. 12 (printed 10), text.md lines 280-288, word for word
+    the 2026 paragraph'
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +77,6 @@ motor item 279, the drive motor belt item 16 ("Drive Motor Belt, Poly-V"), the
 front roller item 10, and the front and rear incline motors items 280 and 281.
 The MT200 has two incline motors, front and rear, because it declines as well as
 inclines.
+
+The 2025 7.0T owner's manual prints the paragraph unchanged, "inverter" and "pulleys" spelled correctly.
+

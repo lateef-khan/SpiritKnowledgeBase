@@ -41,9 +41,11 @@ see_also:
 - 40t-2026-assembly-rear-incline-motor-replacement
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF p. 23 (printed 23) 'DRIVER BOARD PCB Component Locations', text.md
+  locator: 'PDF p. 23 (printed 23) ''DRIVER BOARD PCB Component Locations'', text.md
     lines 315-346, OCR supplement lines 1147-1180; PDF p. 24, the inverter, lines
-    335-346; board markings read from the renders
+    335-346; board markings read from the renders. ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    DRIVER BOARD PCB Component Locations, PDF pp. 24-25 (printed 23-24), text.md lines
+    346-377, the same two photographs'
   extracted_at: '2026-09-11'
 ---
 
@@ -63,3 +65,6 @@ The circuit diagram gives the interface board's plugs as J1, J4 (12-pin, 1200 mm
 / J7 (fan) and a "6PIN-2PIN 300mm" link to the inverter's CN3 / CN2, and the inverter's as CN4 (VR) and
 CN5 (incline motor). The CT850-2020's Rhymebus inverter has the same left-edge call-outs and no
 interface board.
+
+The ST8700A-ST026-01 revision of the same book (spirit-treadmill-40t-2026-service-manual-st8700a) prints this page unchanged; only the product photographs in chapter 2 were replaced by the black Spirit-branded machine.
+

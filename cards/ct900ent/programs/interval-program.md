@@ -31,6 +31,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -43,7 +44,7 @@ see_also:
 - ct900ent-preset-speed-incline-chart
 source:
   ref: ct900ent-om
-  locator: p. 35
+  locator: 'p. 35; XT485 2013: PDF p. 25 (printed 24); text.md lines 906-957'
   extracted_at: '2026-08-24'
 ---
 
@@ -71,3 +72,5 @@ paragraph only** (printed page 23) and add the same sentence the 2020 CT800 manu
 cardiovascular system gets programmed to use oxygen more efficiently"; **they print no Incline
 paragraph for Interval**, so the 25%/65% figures do not come from those two manuals. **The 2018
 CT850 manual prints no description of this program at all.**
+
+**The 2013 XT485 owner's manual prints this description word for word** under the name Interval and a **Resistance** heading, with the 25% and 65% elevation figures, the extra "spike similar to the speed profile" sentence and - like the 2010 XT685 - "Your cardiovascular system gets programmed to use oxygen more efficiently".

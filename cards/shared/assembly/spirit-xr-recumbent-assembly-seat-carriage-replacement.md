@@ -4,8 +4,8 @@ title: 'Replacing the recumbent seat carriage from the rear shrouds: four wheel-
   nyloc nuts with knurled washers, the M5 x 45 lever bolt, and the front-left counterclockwise,
   front-right clockwise wheel setting with 1/4 x 16 washers under the sleeves'
 kind: procedure
-question: How do I replace the seat carriage or reset its wheels on a Spirit XBR recumbent
-  bike or a 2009 CR800?
+question: How do I replace the seat carriage or adjust its wheels on a Spirit CR800
+  2009, XBR or Spirit Medical 4.0R recumbent bike?
 asked_as:
 - seat carriage replacement spirit xbr55
 - seat rocks side to side xbr95 wheel adjustment
@@ -27,6 +27,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
   - cr800-2009
   - xbr25-2016
   - xbr55-2016
@@ -53,7 +54,9 @@ source:
     Seat Carriage, PDF pp. 57-61; text.md lines 801-878 | xbr95-2016: 9-14 Sear Carriage
     and Parts, PDF pp. 66-69; text.md lines 968-1035 | xbr55-2023: 9.14 Replacing
     Seat Carriage and Accessory, PDF p. 26; text.md lines 551-587 | xbr95-2023: 9.14
-    Replacing Seat Carriage and Accessory, PDF p. 24; text.md lines 484-520'
+    Replacing Seat Carriage and Accessory, PDF p. 24; text.md lines 484-520 | 40r-2025
+    (spirit-bike-40r-2025-service-manual): 9-10 Sear Carriage and Parts Replacement,
+    PDF pp. 48-50; text.md lines 631-673'
   extracted_at: '2026-09-11'
 ---
 
@@ -76,3 +79,5 @@ source:
 - The 2009 XR898 book lists the four 1/4" x 16 x 1.0T flat washers only at refit (step 10); the XBR books list them in step 3 as well.
 
 **The 2020 CR800 and CR800ENT version** starts from the aluminium axle end cap (135) instead of the rear shrouds and uses Ø7 x Ø15 x 1.5T washers (162) instead of 1/4" x 16 x 1.0T; it is the linked card. The wheel-setting rule in step 9 is what the 2008 XBR dealer manual prints as its "tighten seat carriage" procedure.
+
+**The Spirit Medical 4.0R (FR800-SB022-03 book) prints steps 1 to 7 of this procedure** - rear shrouds first, the two M6 x 15 screws on the seat stop axles, the four M6 x 10L flat Phillips screws with **4 pcs of 1/4" x 16 x 1.0T flat washers** and four sleeves (the XBR form of step 3), the 13 mm wrench on the four M8 x 7T nyloc nuts and knurled lock washers, the M4 Allen wrench and 10 mm wrench on the M5 x 45 mm bolt, the two M5 x 25 mm flat head socket screws and the lever anchor, the M5 Allen wrench and 11 mm wrench on the M6 x 38 mm latch bolt, and the top-to-bottom refit order of the lever bolt through the latch, the spring, the Ø15 x 6 x 4T nylon washer, the lever and the Ø3/16" x 10 x 1T flat washer, tightened with the M5 x 5T nyloc nut. **It stops there: the wheel-setting steps 8 to 10 (front left counterclockwise, front right clockwise) are not printed in that book**, whose troubleshooting chapter has no seat-sway answer either. Its step 4 prints "M5 x 5T flat washer and M6 nyloc nut" where the other books print the M5 x 5T nyloc nut (173) - a slip; the parts list carries item 173 as the M5 x 5T nyloc nut. The book heads the section "Sear Carriage", as the XBR95 2016 book does.

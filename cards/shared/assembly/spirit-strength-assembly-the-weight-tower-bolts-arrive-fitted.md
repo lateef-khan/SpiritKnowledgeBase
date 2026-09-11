@@ -1,13 +1,11 @@
 ---
 id: spirit-strength-assembly-the-weight-tower-bolts-arrive-fitted
-title: >-
-  Three fasteners at the foot of the weight tower arrive already fitted and have to come
-  out before the frame goes on
+title: Three fasteners at the foot of the weight tower arrive already fitted and have
+  to come out before the frame goes on
 kind: procedure
-question: >-
-  Why are there already bolts in the bottom of the weight tower on a Spirit commercial
-  strength machine, and do I take them out? Covers the Spirit CSS selectorized range and
-  three CSD dual stations.
+question: Why are there already bolts in the bottom of the weight tower on a Spirit
+  commercial strength machine, and do I take them out? Covers the Spirit CSS selectorized
+  range and three CSD dual stations.
 asked_as:
 - there are already bolts in the tower
 - do i remove the pre installed screws
@@ -52,18 +50,19 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-thread-the-cable-before-joining-the-frames
 - spirit-strength-assembly-take-the-pulley-off-to-route-the-cable
 - spirit-strength-assembly-fastener-counts-that-do-not-balance
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 12 (PDF p. 13) of the CSS Abdominal manual, ASSEMBLY - STEP 1, Note 1;
-    word for word on seventeen further CSS manuals and on the CSD lat pulldown/seated
+  locator: 'printed p. 12 (PDF p. 13) of the CSS Abdominal manual, ASSEMBLY - STEP
+    1, Note 1; word for word on seventeen further CSS manuals and on the CSD lat pulldown/seated
     row and pec fly/rear delt manuals, and reworded on the CSD leg extension/leg curl
-    manual - the lat pulldown and leg extension/leg curl wordings confirmed against a
-    300 dpi render of PDF p. 13
+    manual - the lat pulldown and leg extension/leg curl wordings confirmed against
+    a 300 dpi render of PDF p. 13 | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY - STEP 1, Note 1, PDF p. 13 (printed 12); text.md OCR supplement at 1470-1476'
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +90,5 @@ on the abdominal, the back extension, the lat row and the seated leg press. Two 
 print a count that does not balance at all - see
 [the mismatched counts card](spirit-strength-assembly-fastener-counts-that-do-not-balance.md).
 Take the figure from your own step table, never from another machine's.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

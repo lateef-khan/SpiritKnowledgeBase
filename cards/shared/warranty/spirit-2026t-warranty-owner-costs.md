@@ -4,7 +4,7 @@ title: What the owner pays for a warranty repair - freight and shipping, no trip
 kind: policy
 question: >-
   Does the owner of a Spirit machine bought under the 2024 terms pay anything for a warranty
-  repair? Covers the 2026 4.0T, 7.0T, 8.0T, the CT900, CTSBS900, CT800, CT850, CT800ENT and
+  repair? Covers the 2025 and 2026 4.0T, 7.0T, 8.0T, the 2025 medical bikes 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R, the CT900, CTSBS900, CT800, CT850, CT800ENT and
   CT850ENT treadmills, the CE900, CES880, CE800, CE850 and CE800ENT ellipticals, the CR900,
   CU900, CU800ENT, CR800, CU800, CR800ENT and AB950 bikes, the CRS800S, CS800, CSC900 and CSC880
   climbers, the 7.0S, 7.5S, 8.5S and 8.5S-Fit steppers, the MS300 rehabilitation stepper,
@@ -29,11 +29,19 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 75s-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - ab950-2024
@@ -88,6 +96,7 @@ source:
     (text.md lines 1127-1136); RESPONSIBILITIES OF THE FACILITY, printed p. 33 (lines
     1068-1078, accessibility at line 1076, grounded supply at line 1074); exclusion 2, printed
     p. 34 (line 1093)
+    SERVICE step 4 and the facility-responsibilities accessibility item, word for word, in the six 2025 Spirit medical bike manuals: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); and in the 2025 4.0T and 7.0T printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651).
   extracted_at: '2026-09-09'
 ---
 
@@ -157,3 +166,5 @@ Its Service list carries the same freight and shipping-and-handling sentences an
 ## The CSC900 2019 and 2021 belong on neither card
 
 **Their SERVICE step 4 ends at "All repairs must be preauthorized by Spirit Fitness"** and prints neither the freight sentence nor the shipping-and-handling one - the same gap the CT900ENT and the CE900 2021 have. Two of the four charges above are simply not stated in a CSC900 owner's manual, so quoting them would invent a cost the source does not impose. What those two books do state is step 5's packaging duty and exclusion 2 (`spirit-csc900-warranty-exclusions`, `spirit-climber-returns-authorization-required`).
+
+**The six 2025 Spirit medical bikes** - 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R - and the 2025 printings of the 4.0T and 7.0T print step 4 unchanged: freight to and from a service center, and shipping and handling on replacement parts, with no trip charge (`spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year`).

@@ -40,7 +40,9 @@ source:
     lines 111-134, label read from a 400 dpi render (the OCR supplement for the page
     reads only WARNING! HAZARDOUS VOLTAGE!). The 4.0T service manual: DRIVER BOARD
     PCB Component Locations photograph, PDF p. 23 (printed 23), lines 315-345, silkscreen
-    read from a 100 dpi render'
+    read from a 100 dpi render. The ST8700A-ST026-01 revision of the 4.0T service
+    manual prints the same DRIVER BOARD PCB Component Locations photograph on PDF
+    p. 24 (printed 24), lines 346-352, silkscreen read from a 100 dpi render, in spirit-treadmill-40t-2026-service-manual-st8700a'
   extracted_at: '2026-09-11'
 ---
 
@@ -65,3 +67,6 @@ disconnect from the outlet before service work
 a cover without first disconnecting AC power
 (`xt-2023-safety-remove-a-cover-only-with-ac-disconnected`).
 
+**The ST8700A-ST026-01 revision of the 4.0T service manual prints the same driver-board photograph**
+on its page 24, with the same `HIGH VOLTAGE DANGER!` silkscreen beside the relay. Nothing on the label
+changed between the two revisions.

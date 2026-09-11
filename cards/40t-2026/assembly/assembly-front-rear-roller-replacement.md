@@ -41,8 +41,9 @@ see_also:
 - 40t-2026-assembly-part-replacement-procedure-list
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Section 9.5 Front/ Rear Roller Replacement, PDF pp. 46-47 (printed 57-58);
-    text.md lines 771-801
+  locator: 'Section 9.5 Front/ Rear Roller Replacement, PDF pp. 46-47 (printed 57-58);
+    text.md lines 771-801 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.5 Front/ Rear Roller Replacement, PDF pp. 47-48; text.md lines 840-870'
   extracted_at: '2026-09-11'
 ---
 
@@ -70,3 +71,4 @@ Two defects in the printing, quoted as they stand:
 
 The manual prints no torque figure and no part number for either roller.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

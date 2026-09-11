@@ -1,8 +1,9 @@
 ---
 id: css-delt-programs-workout-placard
-title: The workout placard titled Deltoid Trainer, part number #311008391
+title: The workout placard titled Deltoid Trainer, part number
 kind: fact
-question: What exercise does the Spirit CSS-DELT print on its workout placard, and what is the placard part number?
+question: What exercise does the Spirit CSS-DELT print on its workout placard, and
+  what is the placard part number?
 asked_as:
 - what exercise is the deltoid trainer machine for
 - what does the css-delt sticker say
@@ -34,7 +35,11 @@ see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard
 source:
   ref: spirit-strength-css-delt-owners-manual
-  locator: The START WORKOUT page, printed page 20 (PDF page 21). Read from a 300 dpi render of the PDF page, because the placard is a flat image; the part number line is native text.
+  locator: 'The START WORKOUT page, printed page 20 (PDF page 21). Read from a 300
+    dpi render of the PDF page, because the placard is a flat image; the part number
+    line is native text.; CSS-DELT 2026: PDF p. 21 (printed 20); text.md lines 659-670
+    and OCR supplement lines 1654-1676; the part number line is native text, the placard
+    read from a 110 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -52,3 +57,5 @@ Panel labels, as printed: **LATERAL RISE**, **CLIP CHEST**.
 position in prose, no range of motion, no rep or set count and no warm-up. See
 `spirit-strength-programs-exercise-instruction-is-the-machine-placard` for what
 that means across the range.
+
+**The 2026 revision (SP-4312, 20260821) prints the same DELTOID TRAINER placard and the same part number #311008391** on its START WORKOUT page, printed page 20.

@@ -3,8 +3,8 @@ id: spirit-med-stepper-errors-left-right-step-graph-incorrect-step-sensor-5-volt
 title: 'A wrong left or right step graph is worked through the step sensor board:
   5 volts on its cable, the Sensor Test counters at about 17, and a 7 to 9 mm gap'
 kind: troubleshooting
-question: What do I check when the left/right step graph reads wrong on a Spirit 7.5S
-  or 8.5S recumbent stepper?
+question: What do I check when the left/right step graph reads wrong on a Spirit 7.0S,
+  7.5S or 8.5S recumbent stepper?
 asked_as:
 - stepper step graph is wrong on one side
 - left right bars dont match on my spirit stepper
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: errors
   code: no-code
@@ -43,7 +45,11 @@ source:
   locator: 7.5S (RS9600-SS021) service manual 5.2.3 Troubleshooting and Problem Solving,
     "Left/Right Step Graph Incorrect", PDF p. 17; text.md lines 166-184. 8.5S (MS2000-SB036-01)
     service manual 5-3 No revolutions, "Left/Right Step Graph Incorrect", PDF p. 20;
-    text.md lines 281-300 - the same six steps word for word
+    text.md lines 281-300 - the same six steps word for word; 7.0S (RS9500-SS021-02)
+    service manual 5.2.3 "Left/Right Step Graph Incorrect", PDF p. 17-18, text.md
+    lines 184-209; 7.5S (RS9600-SS021-03) service manual 5.2.3, PDF p. 17-18, text.md
+    lines 167-192 - both the same six steps word for word (compared with difflib on
+    2026-09-11)
   extracted_at: '2026-09-11'
 ---
 
@@ -63,3 +69,6 @@ source:
 **On the 8.5S these words do not match its console.** The 8.5S book prints the six steps unchanged, but its own Maintenance Mode (a touchscreen menu entered by tapping the Wi-Fi icon and the clock) has no *Sensor Test* item and no SPM, CALORIES, TIME or STEPS windows - it has *Crank Sensors*, which displays rotational speed. The 5 V measurement and the 7 to 9 mm gap still stand for the 8.5S (its own 7-4 page repeats the gap, `spirit-med-stepper-errors-optical-sensor-board-gap-7-to-9-mm-abnormal-spm-or-no-response`); the window names are a leftover from the 7.5S book and should be read as *the sensor readout in Maintenance Mode*.
 
 A stepper that registers nothing at all is the RPM sensor rather than the step sensor - `spirit-med-stepper-errors-no-data-when-pedaled-sensor-test` on the 7.5S, `85s-2025-errors-no-data-when-pedaled-angle-sensor-5-volts-and-3-mm-magnet-gap` on the 8.5S.
+
+The 7.0S 2025 (RS9500-SS021-02) and 7.5S 2025 (RS9600-SS021-03) service manuals print the six steps unchanged (added 2026-09-11).
+

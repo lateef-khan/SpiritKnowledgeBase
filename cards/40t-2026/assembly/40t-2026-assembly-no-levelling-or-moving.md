@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-assembly-levelling-glides
@@ -39,7 +38,10 @@ see_also:
 - 40t-2026-assembly-procedure
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 16, SETTING UP YOUR TREADMILL - the whole section
+  locator: 'p. 16, SETTING UP YOUR TREADMILL - the whole section | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    SETTING UP YOUR TREADMILL, the whole section, PDF p. 18 (printed 16); text.md
+    lines 468-501; the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    prints the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,3 +65,5 @@ The manual does say, in its belt-tracking section, that a treadmill's
 performance depends on the frame running on a reasonably level surface and that
 constant belt adjustment may be needed if the frame is not level. That is a
 statement about the floor, not an instruction to adjust anything on the machine.
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

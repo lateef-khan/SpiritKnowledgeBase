@@ -2,7 +2,8 @@
 id: 70t-2026-console-program-keys-number-pad
 title: The program keys double as a number pad during data entry
 kind: fact
-question: How do I type a number instead of holding the arrows on a Spirit 7.0T or MT200 treadmill?
+question: How do I type a number instead of holding the arrows on a Spirit 7.0T or
+  MT200 treadmill?
 asked_as:
 - how do i type in my age quickly
 - is there a number pad on the console
@@ -21,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -33,7 +35,8 @@ see_also:
 - 70t-2026-console-stop-reset-key
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 23, BASIC INFORMATION - Function keys
+  locator: p. 23, BASIC INFORMATION - Function keys. 7.0T 2025 owner's manual PDF
+    p. 25 (printed 23), text.md lines 686-728
   extracted_at: '2026-09-09'
 ---
 
@@ -48,3 +51,6 @@ enter key.
 
 **Both MT200 manuals print this word for word** - the 2010 manual on its p. 14, the
 2022 manual on its p. 24.
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
+

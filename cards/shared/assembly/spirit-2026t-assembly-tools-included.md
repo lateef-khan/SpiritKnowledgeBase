@@ -23,7 +23,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -40,9 +42,13 @@ see_also:
 - ct900-pre-assembly
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 10 PRE-ASSEMBLY - Tools; 7.0T owner's manual p. 12 PARTS INCLUDED
-    - Tools; MT200 2022 owner's manual p. 45 Tools, and MT200 2010 owner's manual
-    pp. 33-34 parts list
+  locator: 'p. 10 PRE-ASSEMBLY - Tools; 7.0T owner''s manual p. 12 PARTS INCLUDED
+    - Tools; MT200 2022 owner''s manual p. 45 Tools, and MT200 2010 owner''s manual
+    pp. 33-34 parts list | 40t-2025 (spirit-treadmill-40t-2025-owners-manual): PRE-ASSEMBLY
+    - Tools, PDF p. 12 (printed 10); text.md lines 305-327, and the same in the May
+    2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing) | 70t-2025
+    (spirit-treadmill-70t-2025-owners-manual): PARTS INCLUDED - Tools, PDF p. 14 (printed
+    12); text.md lines 340-384'
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +84,5 @@ at all.
 calls for a Phillips Screwdriver (216), an Allen Wrench (219) of unstated size
 and a 3mm Allen Wrench (220) - a different set, and the manual never says they
 are supplied.
+
+The **2025 printings** of the 4.0T and 7.0T owner's manuals list the same three tools on the same pages, word for word.

@@ -2,8 +2,8 @@
 id: 70t-2026-programs-deck-lift
 title: The deck-lift program and its thirty levels from 5.25 to 12.5 inches
 kind: procedure
-question: What does the deck-lift program do on a Spirit 70t-2026 or MT200
-  rehabilitation treadmill, and how high does it go?
+question: What does the deck-lift program do on a Spirit 70t-2026 or MT200 rehabilitation
+  treadmill, and how high does it go?
 asked_as:
 - how do i raise the deck
 - how high does the deck lift go
@@ -25,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -36,7 +37,9 @@ see_also:
 - 80t-2026-programs-lift
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: page 25, Features - Deck-lift program
+  locator: 'page 25, Features - Deck-lift program; 7.0T 2025: PDF p. 27 (printed 25);
+    text.md lines 763-795; the un-weighting paragraph at 7.0T 2025: PDF p. 26 (printed
+    24); text.md lines 728-763'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +67,10 @@ the 2010-generation manual on printed page 15, the 2022-generation manual on pri
 The 2010 manual adds that the Deck-Lift program is also used with the **Spirit basic
 un-weighting system**; the 2022 manual drops the word "Spirit" and calls it the basic
 un-weighting system.
+
+**The 7.0T 2025 owner's manual prints the five steps and the heights above word for word, and keeps a
+paragraph the 2026 book dropped**: under "Deck Lift Program" on its Features page it says the program
+"is also used with the basic un-weighting system. Raise the deck and connect the patients
+un-weighting harness to the un-weighting system. The up and down keys can be used to raise or lower
+the deck for un-weighing the patient" - the MT200 sentence, minus the word Spirit. The 2026 book
+prints no un-weighting sentence at all.

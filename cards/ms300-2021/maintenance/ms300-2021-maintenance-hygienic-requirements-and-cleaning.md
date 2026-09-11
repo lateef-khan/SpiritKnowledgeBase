@@ -39,6 +39,8 @@ not_to_be_confused_with:
 see_also:
 - ms300-2021-maintenance-rust-pedals-and-half-inch-wrench
 - ct900-sanitizing-equipment
+- spirit-med-bike-maintenance-no-restriction-on-hygienic-requirements
+- spirit-med-bike-maintenance-dyaco-editions-print-no-sanitizing-or-disinfection
 source:
   ref: spirit-climber-ms300-2021-owners-manual
   locator: '"Intended conditions of use", "Environment including hygienic requirements",
@@ -98,3 +100,8 @@ requirements`** line and the same damp-cloth sentence, and then stop. A loose se
 for `sanitiz`, `isopropyl` and `disinfect` returns **zero hits of each**. So on those two machines
 the damp cloth is the whole of the printed cleaning, without even the 75% isopropyl bullets this
 book carries. Say so plainly rather than importing the bullets from here.
+
+**The medical bikes print the same line.** The 2025 7.0R, 7.0U, 8.0U and 8.5R and the Dyaco MED 7.0R 2021 state
+"no particular restriction on hygienic requirements" in their application specification, each paired with a
+different cleaning chapter (`spirit-med-bike-maintenance-no-restriction-on-hygienic-requirements`); the Dyaco PT
+4.0R and 4.0U print no sanitizing at all (`spirit-med-bike-maintenance-dyaco-editions-print-no-sanitizing-or-disinfection`).

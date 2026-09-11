@@ -59,7 +59,10 @@ source:
     against a 300 dpi render of the 7.0S page; CS800 (2020) service manual 7-1 Error
     Codes and 7-3 Error Message EEPROM ERROR, PDF p. 26-27 (printed 25-26), text.md
     lines 373-398 - the CS800 2024 definition word for word; 7.5S (RS9600-SS021) service
-    manual 5.2.2 Error messages, PDF p. 13, text.md lines 125-128'
+    manual 5.2.2 Error messages, PDF p. 13, text.md lines 125-128; 7.0S (RS9500-SS021-02)
+    service manual 5.2.2 Error messages, PDF p. 13, text.md lines 143-158; 7.5S (RS9600-SS021-03)
+    service manual 5.2.2 Error messages, PDF p. 13, text.md lines 126-141 - the 7.5S
+    RS9600-SS021-01 page unchanged in both (compared with difflib on 2026-09-11)'
   extracted_at: '2026-09-10'
 ---
 

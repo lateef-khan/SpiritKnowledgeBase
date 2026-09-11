@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-weight-selector-pin-rules
-title: Push the selector pin all the way in, never leave the stack pinned high, and add no loose plates
+title: Push the selector pin all the way in, never leave the stack pinned high, and
+  add no loose plates
 kind: fact
 question: What are the rules about the weight selector pin on Spirit strength equipment?
 asked_as:
@@ -72,7 +73,13 @@ see_also:
 - spirit-strength-safety-st800-safety-instruction-bullets
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: SAFETY INSTRUCTIONS items 12, 14 and 16, printed page 5 (PDF page 6) of the CSS, CSD, CSF and CSI manuals; IMPORTANT SAFETY INSTRUCTIONS bullets, printed page 4 (PDF page 6) of the ST800FT manual
+  locator: 'SAFETY INSTRUCTIONS items 12, 14 and 16, printed page 5 (PDF page 6) of
+    the CSS, CSD, CSF and CSI manuals; IMPORTANT SAFETY INSTRUCTIONS bullets, printed
+    page 4 (PDF page 6) of the ST800FT manual. CSD-CPSP May 2025 update: SAFETY INSTRUCTIONS
+    items 12, 14 and 16, PDF p. 6 (printed 5), in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -106,3 +113,5 @@ decal.
 
 The ST800FI flat/incline bench and the ST800DR3 dumbbell rack have no weight stack and print none of
 these three rules.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

@@ -79,7 +79,7 @@ source:
     300 dpi render instead: css-latp p. 21, css-lext p. 26 and css-srow p. 20 print the whole
     page as a flat image, and css-slgc p. 26 has native row labels but draws its ticks as
     vector marks that pdftotext does not return. All four renders agree with the nineteen
-    native tables row for row'
+    native tables row for row The August 2026 revision of the CSS-DELT book, spirit-strength-css-delt-owners-manual-2026 (SP-4312, 20260821), prints the same thirteen rows with the same ticks at PDF p. 24 (printed 23); its text layer is a shifted font, so the table was read from a 110 dpi render of the page on 2026-09-11 and agrees cell for cell with the table above.'
   extracted_at: '2026-09-10'
 ---
 
@@ -159,3 +159,7 @@ Do not read this table onto any of them.
 
 Every strength card in this repository that predates this wave is a Sole SRVO card. Nothing here
 was taken from one, and none of them covers a Spirit machine.
+
+**The August 2026 revision of the CSS-DELT manual prints this table unchanged** - the same thirteen actions, the
+same ticks, read from a render because that book's text layer is unreadable. The model id is the same
+`css-delt`; nothing on this card changes for it.

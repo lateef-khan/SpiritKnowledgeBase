@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-safety-no-anchoring-rule-in-the-cs-manuals
-title: None of the thirty-six CSS, CSD, CSF and CSI manuals asks for the machine to be anchored to the floor
+title: None of the thirty-six CSS, CSD, CSF and CSI manuals asks for the machine to
+  be anchored to the floor
 kind: fact
-question: Do Spirit CSS, CSD, CSF or CSI strength machines have to be bolted to the floor?
+question: Do Spirit CSS, CSD, CSF or CSI strength machines have to be bolted to the
+  floor?
 asked_as:
 - do i need to bolt the weight machine to the floor
 - does the strength machine need anchoring
@@ -71,7 +73,12 @@ see_also:
 - spirit-strength-safety-facility-precautions-list
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: Absence established by searching the text layer of all thirty-six manuals and by reading printed pages 5-9 of representative CSS, CSD, CSF and CSI books as 300 dpi renders
+  locator: 'Absence established by searching the text layer of all thirty-six manuals
+    and by reading printed pages 5-9 of representative CSS, CSD, CSF and CSI books
+    as 300 dpi renders. CSD-CPSP May 2025 update and CSS-DELT 2026 revision: the word
+    anchor does not occur in the text layer or OCR supplements of spirit-strength-csd-cpsp-owners-manual-2025-update
+    or spirit-strength-css-delt-owners-manual-2026, and their printed pages 4-9 were
+    read as renders'
   extracted_at: '2026-09-10'
 ---
 
@@ -97,3 +104,7 @@ complying with it.
 rack must be anchored through the holes provided, and the ST800FT functional trainer has a whole
 SECURING EQUIPMENT page with a pull-out force figure. Do not read either across to a CSS, CSD, CSF or
 CSI machine.
+
+**The two newer printings - the CSD-CPSP May 2025 update and the CSS-DELT 2026 revision - add no
+anchoring rule either.** The word `anchor` does not occur in either book, in the text layer or the
+OCR supplements, and their safety pages are the 2024 pages word for word.

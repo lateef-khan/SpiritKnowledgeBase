@@ -1,12 +1,10 @@
 ---
 id: spirit-strength-assembly-cable-routing-diagram-names-two-wires
-title: >-
-  The cable routing diagram names only two wires - a dry reed pipe connection wire and a
-  power line
+title: The cable routing diagram names only two wires - a dry reed pipe connection
+  wire and a power line
 kind: spec
-question: >-
-  What does the cable routing diagram show on a Spirit commercial strength machine? Covers
-  every Spirit CSS selectorized station and every CSD dual station.
+question: What does the cable routing diagram show on a Spirit commercial strength
+  machine? Covers every Spirit CSS selectorized station and every CSD dual station.
 asked_as:
 - what wires are in the cable routing diagram
 - what is the dry reed pipe connection wire
@@ -59,16 +57,21 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-thread-the-cable-before-joining-the-frames
 - spirit-strength-assembly-the-magnet-side-of-the-upper-pulley-faces-the-sensor
 - spirit-strength-assembly-no-cable-routing-diagram-on-the-functional-range
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 20 (PDF p. 21) of the CSS Abdominal manual, CABLE ROUTING DIAGRAM; the
-    same two-row legend on all nineteen CSS manuals and all nine CSD manuals, on the
-    page the table of contents names in every one of them
+  locator: 'printed p. 20 (PDF p. 21) of the CSS Abdominal manual, CABLE ROUTING DIAGRAM;
+    the same two-row legend on all nineteen CSS manuals and all nine CSD manuals,
+    on the page the table of contents names in every one of them | csd-cpsp May 2025
+    update (spirit-strength-csd-cpsp-owners-manual-2025-update): CABLE ROUTING DIAGRAM,
+    the two-row legend, PDF pp. 22-23 (printed 21-22), OCR supplements at lines 1047-1066;
+    text.md lines 341 - the same words as the 2024 printing | css-delt 2026 revision
+    (spirit-strength-css-delt-owners-manual-2026): CABLE ROUTING DIAGRAM, the two-row
+    legend, PDF p. 23 (printed 22); text.md OCR supplement at 1681-1685'
   extracted_at: '2026-09-10'
 ---
 
@@ -95,3 +98,7 @@ the machine has to come apart - see
 
 The six CSF units and both i-Strength machines have no cable routing diagram. See
 [that card](spirit-strength-assembly-no-cable-routing-diagram-on-the-functional-range.md).
+
+The **CSD-CPSP's May 2025 update** (4601US, 20250521) prints this exactly as its February 2024 printing does.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

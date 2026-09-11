@@ -23,11 +23,13 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800-2012
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -49,7 +51,7 @@ see_also:
 - spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
-  locator: 'p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 22, 2016 p. 35, 2020 p. 40 and CT800ENT 2022 p. 50; all four Spirit CT850 owner''s manuals print it too - 2016 p. 40, 2018 p. 39, 2020 p. 40 and CT850ENT 2022 p. 51; the CT900ENT page is spirit-treadmill-ct900ent-owners-manual p. 47'
+  locator: 'p. 47; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 22, 2016 p. 35, 2020 p. 40 and CT800ENT 2022 p. 50; all four Spirit CT850 owner''s manuals print it too - 2016 p. 40, 2018 p. 39, 2020 p. 40 and CT850ENT 2022 p. 51; the CT900ENT page is spirit-treadmill-ct900ent-owners-manual p. 47 Two machines were added on 2026-09-11. spirit-treadmill-40t-2025-owners-manual "Treadbelt tracking adjustment" / "To set treadbelt tracking", PDF p. 45 (printed 43), text.md lines 1330-1446 with the page''s OCR supplement - 8mm Allen wrench, left side bolt, 3 mph (5 km/hr), 1/4 turn clockwise or counter-clockwise; and its May 2025 printing at the same page. spirit-treadmill-ct850-2013-owners-manual "Treadbelt Tracking Adjustment - SETTING TREAD-BELT TRACKING", PDF p. 27 (printed 23), OCR supplement text.md lines 1065-1096, with the ATTENTION warranty line: 8mm Allen wrench, left side bolt, 3 mph, 1/4 turn, no metric equivalent.'
   extracted_at: '2026-08-24'
 ---
 
@@ -112,3 +114,10 @@ Other Spirit treadmills use different figures for the same job and must not be a
 card: the 2026 7.0T and 8.0T say **2 to 3 mph** with a 10mm and an 8mm wrench respectively
 (`70t-2026-maintenance-treadbelt-tracking-adjustment`,
 `80t-2026-maintenance-treadbelt-tracking-adjustment`).
+
+## The 2025 4.0T and the 2013 CT850
+
+The **4.0T 2025** (both printings) prints the procedure word for word with the 2026 book, **3 mph (5 km/hr)**
+included. The **CT850 2013** prints the CT800/CT850 wording - 8mm Allen wrench, left side bolt, **3 mph** with
+no metric equivalent, 1/4 turns, and the ATTENTION line that damage from improper tracking or tension
+adjustments is not covered under the Spirit Fitness warranty - read from a render of the scanned page.

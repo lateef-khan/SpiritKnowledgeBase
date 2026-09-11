@@ -3,8 +3,9 @@ id: spirit-bike-safety-operation-instructions
 title: The bike operation instructions about resistance delay, distractions and console
   key pressure
 kind: policy
-question: What operation instructions does the owner's manual print on the safety pages
-  of a Spirit commercial upright or recumbent bike, or of a Spirit XIC600 indoor cycle?
+question: What operation instructions does the owner's manual print on the safety
+  pages of a Spirit commercial upright or recumbent bike, or of a Spirit XIC600 indoor
+  cycle?
 asked_as:
 - why does the resistance take a while to change on the bike
 - can i read or watch tv while riding the bike
@@ -27,6 +28,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - cr800-2021
   - cr800-2023
   - cr800ent-2023
@@ -63,6 +68,7 @@ not_to_be_confused_with:
 - xt-2023-safety-speed-and-incline-response-delay
 - xt-2023-safety-distractions-while-walking
 - xt-2023-safety-console-key-pressure
+- spirit-med-bike-safety-operation-instructions-warnings
 see_also:
 - spirit-bike-safety-instructions-list
 - spirit-bike-ent-safety-instructions-list
@@ -70,15 +76,21 @@ see_also:
 - xt-2015-safety-proposition-65-warning
 - spirit-xic600-safety-instructions-list
 - spirit-indoor-cycle-safety-fixed-gear-dismount
+- spirit-med-bike-safety-instructions-list-seventeen-items
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: IMPORTANT OPERATION INSTRUCTIONS, printed page 4. The CU900-2018, CR900ENT-2021
+  locator: 'IMPORTANT OPERATION INSTRUCTIONS, printed page 4. The CU900-2018, CR900ENT-2021
     and CU900ENT-2021 manuals print it on their printed page 4, the CR800-2021, CR800-2023
     and CU800-2021 manuals on their printed page 5, the CU800ENT-2022 and CR800ENT-2023
     manuals on their printed pages 5 to 6, the CU800ENT-2024 manual on its ELECTRICAL
     SAFETY page, printed page 6, the CR900-2025 and CU900-2025 manuals on their ELECTRICAL
     SAFETY & IMPORTANT OPERATION INSTRUCTIONS page, printed page 5, and the CU800-2012
-    manual on its Important Operation Instructions page, printed page 4
+    manual on its Important Operation Instructions page, printed page 4. Spirit Medical
+    4.0R (2025): ELECTRICAL SAFETY & OPERATION INSTRUCTIONS, right column, PDF p.
+    8 (printed 6), text.md lines 182-209, in spirit-bike-40r-2025-owners-manual; 4.0U:
+    PDF p. 8, lines 159-186, in spirit-bike-40u-2025-owners-manual. Dyaco PT 4.0 R:
+    Important operation instructions, PDF p. 19, lines 570-595, in spirit-bike-40r-pt-owners-manual;
+    PT 4.0 U: PDF p. 19, lines 571-596, in spirit-bike-40u-pt-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -172,3 +184,22 @@ instructions page (`spirit-bike-safety-no-mains-outlet-needed`).
 
 **The electrical-storm rule sits in this same block in the books that print it**, and seven of the
 fourteen XB manuals do not (`xt-2023-safety-use-during-an-electrical-storm`).
+
+## The Spirit Medical 4.0R and 4.0U print six bullets, and two of them are the console-key rule
+
+**The 2025 owner's manuals of the self-powered medical bikes, and their Dyaco PT editions, print the
+four rules above** - `product` where the commercial books say `fitness bike`, and `console` where
+they say `computer console` - **and add two**:
+
+> Always hold on to a handle bar while making control changes.
+
+> Do not use excessive pressure on console control keys. They are precision set to function
+> properly with little finger pressure. If you feel the buttons are not functioning properly with
+> normal pressure contact your dealer.
+
+So the console-key rule is printed twice on one page, once short and once with the CU800-2012's
+`contact your dealer` ending, and the handlebar rule is the one sentence no commercial bike list
+has. The PT editions print the six bullets in five languages. No rule changes.
+
+**The plug-in medical bikes print none of these.** The 7.0R, 7.0U, 8.0U and 8.5R operation page is
+the medical-clearance WARNING box instead (`spirit-med-bike-safety-operation-instructions-warnings`).

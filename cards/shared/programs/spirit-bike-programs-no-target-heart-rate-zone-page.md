@@ -1,8 +1,10 @@
 ---
 id: spirit-bike-programs-no-target-heart-rate-zone-page
-title: Four commercial bike manuals print no maximum heart rate formula and no training zone page
+title: Nine Spirit bike manuals print no maximum heart rate formula and no training
+  zone page
 kind: fact
-question: Where is the target heart rate zone chart in the Spirit CR900 2018, CU900 2018, CR900ENT or CU900ENT bike manual?
+question: Which Spirit commercial and medical bike manuals have no target heart rate
+  zone chart, and where do I look instead?
 asked_as:
 - the bike manual has no heart rate zone chart
 - where is the 220 minus age formula in the cr900 manual
@@ -21,6 +23,11 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
+  - 80u-2025
+  - 85r-2025
   - cr900-2018
   - cr900ent-2021
   - cu900-2018
@@ -35,7 +42,11 @@ see_also:
 - cu800-2012-programs-target-zone-of-108-to-144-beats
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: 'CR900 2018 whole manual; CU900 2018 whole manual; CR900ENT 2021 whole manual; CU900ENT whole manual; service manuals CR900 2018 (SR8800-SB008), CU900 2018 and CR900ENT 2021, whole books, searched the same three ways'
+  locator: CR900 2018 whole manual; CU900 2018 whole manual; CR900ENT 2021 whole manual;
+    CU900ENT whole manual; service manuals CR900 2018 (SR8800-SB008), CU900 2018 and
+    CR900ENT 2021, whole books, searched the same three ways; the 7.0R 2025, 7.0U
+    2025, MED 7.0R 2021, 8.0U 2025 and 8.5R 2025 owner's manuals, whole books, searched
+    the same ways
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +79,12 @@ Take it from a manual that does print the formula: 220 minus your age.
 **What to answer instead.** For the training zone figures, see the four zone cards; each one names
 the machines whose manual prints it. Do not read a figure from another bike's manual onto these four
 machines.
+
+**Five Spirit medical bike manuals join the list - the 7.0R and 7.0U 2025 books, the Dyaco MED 7.0R
+2021 edition, and the 8.0U and 8.5R 2025 touchscreen books.** Each whole book was searched for `220`,
+a spacing-tolerant `MHR` and "maximum heart rate", "zone", "Borg" and "perceived". The 7.0 books hit
+only a part number (bolt 220) and the console sentence that the bar graph "represents the percentage
+of maximum heart rate"; the 8.0U and 8.5R hit only their Heart Rate Target formula, "MHR = (220 -
+age) x 65%", and a CR1220 battery type. None prints a worked example, a training chart or an RPE
+scale. The 4.0R and 4.0U medical bikes, by contrast, print the full 60% / 80% page
+(`cu800-2012-programs-target-zone-of-108-to-144-beats`).

@@ -4,7 +4,7 @@ title: The order of steps for getting warranty service
 kind: procedure
 question: >-
   How do I get warranty service on a Spirit XT, CT800 or CT850 treadmill, on a Spirit
-  elliptical trainer, or on a Spirit bike - upright, recumbent, indoor cycle or air bike?
+  elliptical trainer, or on a Spirit bike - upright, recumbent, medical, indoor cycle or air bike?
 asked_as:
 - how do i get my treadmill fixed under warranty
 - who do i call for a warranty repair
@@ -24,6 +24,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
+  - 70u-2025
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -60,6 +66,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -163,6 +170,7 @@ source:
     spirit-bike-xbr25-2023-owners-manual line 1456, spirit-bike-xbr55-2023-owners-manual line
     1989, spirit-bike-xbr95-2023-owners-manual line 1929, spirit-bike-xbu55-2023-owners-manual
     line 1762
+    The same five numbered steps and the (870) 935-1107 number, with the P.O. Box 2037 address printed after them, in the six 2025 Spirit medical bike manuals, SERVICE, WARRANTY - CONTINUED: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026). The CT850 2013 book prints the steps with the trip charge in step 4 and the address as a numbered step 6: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -328,3 +336,5 @@ What else moves is the layout, the return address and the contact pair:
 **The mailing address is unnumbered on all fourteen.** The list stops at five and *For any further information, or to contact our service department by mail, send your correspondence to:* runs below it, with SPIRIT FITNESS, INC. as **Spirit Fitness, Inc.**, P.O. Box 2037, Jonesboro, AR 72402-2037. All fourteen print *Responsibilities of the Owner* above SERVICE on a page headed WARRANTY - CONTINUED, as the 2023 books do.
 
 **The back cover is the same on all fourteen**: 3000 Nestle Road, Jonesboro, AR 72401, Phone **800-258-8511**, Fax **870-935-7611**, with **questions@spiritfitness.com** and **1-800-258-8511** in the customer-support block. Neither is step 3's number, which is (870) 935-1107 on every one.
+
+**The six 2025 Spirit medical bikes** - 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R - print the same five steps and the same number, and no trip charge in step 4 (`spirit-2026t-warranty-owner-costs`). **The CT850 2013** prints the CT800-family version - the trip charge and the 100-mile second charge in step 4 (`xt-2023-warranty-owner-costs`), and the Jonesboro address as a numbered step 6.

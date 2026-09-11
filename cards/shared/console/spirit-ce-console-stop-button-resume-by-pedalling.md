@@ -27,6 +27,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ce800-2013
   - ce850-2016
   - ce900-2021
@@ -49,7 +53,11 @@ source:
     17-18 (printed 14-15). CR900-2018 service manual BASIC INFORMATION, PDF p. 14
     (printed 14), text.md lines 179-184; CU900-2018 service manual PDF p. 15 (printed
     15), lines 243-248; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF
-    p. 15 (printed 15), text.md lines 253-258
+    p. 15 (printed 15), text.md lines 253-258. 4.0R-2025 OM BASIC INFORMATION, PDF
+    p. 18 (printed 16), text.md lines 482-488 and 506-511; 4.0U-2025 OM PDF p. 18,
+    lines 439-445 and 464-470; 4.0R SM 4-3, PDF p. 17, lines 180-185; 4.0U SM PDF
+    p. 17, lines 190-195; Dyaco PT 4.0 R PDF p. 34, lines 978-989; PT 4.0 U PDF p.
+    32
   extracted_at: '2026-09-09'
 ---
 
@@ -86,3 +94,6 @@ the Start key and print no memory-hold sentence, exactly as the CE800-2021 and C
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same five-minute pause with the memory kept while the display is dark, and the same resume by Start or by pedalling.
 
 **The CE900 (SE8800-SE026) service manual prints this passage in its Product Operation chapter.** Same five-minute pause with the memory kept while the display is dark, and the same resume by Start or by pedalling.
+
+**The 2025 Spirit Medical 4.0R and 4.0U, their Dyaco PT editions and both service manuals print these four jobs too, with "or start pedaling"**, so this card covers those four bikes. Two differences: the second press "will end and **a summary of information of the exercise session will be displayed**, and then the console will return to the start up screen" - the summary is named here where the elliptical books say only start-up screen - and **they print no memory-hold parenthesis**: nothing says what happens to the readings when pedalling stops and the generator-powered display goes dark. The five-minute pause is a setting on these consoles, Pause mode in the maintenance menu (`spirit-med-40-bike-console-maintenance-mode-with-an-ant-id-a-bootloader-switch-and-a-model-setting`). The 7.0 series prints the same four jobs with no pause length at all (`spirit-med-70-bike-console-stop-reset-key-and-the-program-keys-as-a-number-pad`).
+

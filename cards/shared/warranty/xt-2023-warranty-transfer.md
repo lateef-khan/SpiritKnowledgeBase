@@ -22,9 +22,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -61,6 +69,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -204,6 +213,7 @@ source:
     line 1439, spirit-bike-xbr55-2023-owners-manual line 1972,
     spirit-bike-xbr95-2023-owners-manual line 1912, spirit-bike-xbu55-2023-owners-manual line
     1743
+    Exclusions 4 and 5, word for word, in the six 2025 Spirit medical bike manuals: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); in the 2025 4.0T and 7.0T printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651); and in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -260,3 +270,5 @@ The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800EN
 None of the fourteen names a reinstatement route, a transfer fee or a procedure for a second owner. Their list is `spirit-ce-2025-warranty-exclusions`.
 
 **The transfer rule survives on the six manuals whose exclusion 2 is broken.** The CT800ENT, CT850ENT, CE800ENT, CR800ENT, CRS800S and CS800 lose the tail of item 2 to a printing defect, but items 4 and 5 are complete and legible on all six.
+
+**The six 2025 Spirit medical bikes, the 2025 4.0T and 7.0T printings and the CT850 2013** all print items 4 and 5 unchanged - altered serial numbers, and products sold, transferred, bartered or given to a third party.

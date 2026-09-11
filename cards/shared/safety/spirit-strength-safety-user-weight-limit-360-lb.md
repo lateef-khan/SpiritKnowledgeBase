@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-user-weight-limit-360-lb
-title: The selectorized and dual-station weight limit of 360 lb / 163 kg, printed on twenty-eight machines
+title: The selectorized and dual-station weight limit of 360 lb / 163 kg, printed
+  on twenty-eight machines
 kind: spec
 question: What is the user weight limit of a Spirit CSS or CSD strength machine?
 asked_as:
@@ -67,7 +68,13 @@ see_also:
 - spirit-strength-safety-serial-decal-metric-figure-180-kg-disagrees
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: SAFETY INSTRUCTIONS item 20, printed page 5 (PDF page 6), and SAFEGUARDS Proper Usage, printed page 9 (PDF page 10), of all nineteen CSS and all nine CSD manuals
+  locator: 'SAFETY INSTRUCTIONS item 20, printed page 5 (PDF page 6), and SAFEGUARDS
+    Proper Usage, printed page 9 (PDF page 10), of all nineteen CSS and all nine CSD
+    manuals. CSD-CPSP May 2025 update: SAFETY INSTRUCTIONS item 20, PDF p. 6, and
+    SAFEGUARDS Proper Usage, PDF p. 10, in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -93,3 +100,5 @@ older CSD books and on CSS-SCPR the decal reads `MAX USER WEIGHT: 180 KG / 360 L
 
 The manuals do not say what happens above 360 lb, and there is no separate stack or load limit on
 these twenty-eight machines: the weight stack figure is a specification, not a safety limit.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

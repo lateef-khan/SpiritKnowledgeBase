@@ -1,8 +1,11 @@
 ---
 id: spirit-strength-errors-no-mechanical-fault-remedy
-title: No strength manual prints a remedy for a sticking stack, a frayed cable, a noisy pulley or a pin that will not seat
+title: No strength manual prints a remedy for a sticking stack, a frayed cable, a
+  noisy pulley or a pin that will not seat
 kind: fact
-question: What does a Spirit strength owner's manual say to do about a sticking weight stack, a frayed or slipping cable, a noisy pulley or a selector pin that will not seat?
+question: What does a Spirit strength owner's manual say to do about a sticking weight
+  stack, a frayed or slipping cable, a noisy pulley or a selector pin that will not
+  seat?
 asked_as:
 - my weight stack is sticking what do i do
 - cable is fraying on my spirit weight machine
@@ -74,7 +77,13 @@ see_also:
 - spirit-strength-errors-resistance-box-cable-jam-over-8-kg
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'Absence, checked across all 39 Spirit strength owner''s manuals: the full text of each, the one-page TROUBLESHOOTING Diagnosis Guide on the 28 that print one, and the maintenance and safety pages of all 39. The CSS-SROW manual has no text layer on any page and was read from a 300 dpi tesseract --psm 4 render.'
+  locator: 'Absence, checked across all 39 Spirit strength owner''s manuals: the full
+    text of each, the one-page TROUBLESHOOTING Diagnosis Guide on the 28 that print
+    one, and the maintenance and safety pages of all 39. The CSS-SROW manual has no
+    text layer on any page and was read from a 300 dpi tesseract --psm 4 render; the
+    CSS-DELT 2026 revision and the CSD-CPSP May 2025 update were checked the same
+    way on 2026-09-11 (full text, the OCR supplement of every page, and the TROUBLESHOOTING
+    page) and print nothing more'
   extracted_at: '2026-09-10'
 ---
 

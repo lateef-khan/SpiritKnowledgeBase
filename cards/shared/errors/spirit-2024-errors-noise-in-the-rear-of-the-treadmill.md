@@ -49,7 +49,7 @@ see_also:
 - spirit-2024-errors-noise-under-the-motor-cover
 source:
   ref: spirit-treadmill-ct800ent-2024-owners-manual
-  locator: TROUBLESHOOTING - CONTINUED, Condition / Reason / Solve matrix on printed
+  locator: 'TROUBLESHOOTING - CONTINUED, Condition / Reason / Solve matrix on printed
     pages 58 and 59 of both books. Those pages are flat pictures with no text layer
     in either file and were read from the rendered page; XT185 2015 service manual
     Troubleshooting procedure matrix, PDF p. 60-62 (printed 55-57), text.md lines
@@ -72,7 +72,10 @@ source:
     PDF p. 45-48, text.md lines 691-842; 4.0T 2026 service manual Condition / Reason
     / Solve matrix, PDF p. 36-38 (printed 47-49), text.md lines 566-689; CT1000ENT
     2023 service manual 6.4 Troubleshooting procedure Matrix, PDF p. 19-21, text.md
-    lines 428-549
+    lines 428-549; the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Condition / Reason / Solve matrix at PDF p. 37-39
+    (printed 47-49), text.md lines 635-758'
   extracted_at: '2026-09-10'
 ---
 

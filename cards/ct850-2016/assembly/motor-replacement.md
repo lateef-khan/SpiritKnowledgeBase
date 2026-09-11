@@ -36,10 +36,11 @@ see_also:
 - ct850-2016-front-rear-roller-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 10.3 Motor Replacement, pp. 66-68 (printed 65-67); the same six
+  locator: 'Section 10.3 Motor Replacement, pp. 66-68 (printed 65-67); the same six
     steps with the same counts and the same 70~75 Lbs are section 9.3 of the 4.0T
     2026 service manual (ST8700-ST017-01), PDF pp. 42-44 (printed 53-55), text.md
-    lines 724-762
+    lines 724-762 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.3 Motor Replacement, PDF pp. 43-45; text.md lines 793-830'
   extracted_at: '2026-09-08'
 ---
 
@@ -76,3 +77,5 @@ not exist in this manual - the belt tension step is step 5 above, printed under 
 **The 4.0T 2026 service manual prints these six steps as its section 9.3**, numbered 1 to 6, with the same 4
 Phillips head screws, 6 tapping screws, 4 bolts, M8 Allen wrench and 70~75 Lbs, calling the 14mm tool an
 "open end wrench" as the 2020 book does. Same figures, same order, so this card covers that machine too.
+
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

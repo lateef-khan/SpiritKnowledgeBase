@@ -4,7 +4,7 @@ title: Ten numbered components on the rehabilitation stepper, console to arm res
   with two shrouds and an oval end cap on the stabilizer tube
 kind: fact
 question: What are the ten numbered components on the outline drawing of the Spirit
-  7-5s-med recumbent stepper service manual?
+  7-5s-med or 7.5S 2025 recumbent stepper service manual?
 asked_as:
 - what are the covers called on the 7.5s
 - 7.5s component description numbers
@@ -25,9 +25,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 75s-2025
   section: specs
   code: '*'
 authority: 3
@@ -36,10 +37,14 @@ not_to_be_confused_with:
 see_also:
 - 7-5s-med-specs-wiring-diagram-j13-14-pin-with-wire-colours-and-sensor-cables
 - 7-5s-med-specs-parts-list
+- 70s-2025-specs-component-description-twelve-numbered-parts
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 2. Component Description, PDF p. 4 (printed 4), text.md lines 40-40 (a
-    flattened page; the table read from the OCR supplement 883-906 and a 110 dpi render)
+  locator: '2. Component Description, PDF p. 4 (printed 4), text.md lines 40-40 (a
+    flattened page; the table read from the OCR supplement 883-906 and a 110 dpi render).
+    7.5S-2025 (spirit-stepper-75s-2025-service-manual, RS9600-SS021-03): 2. Component
+    Description, PDF p. 4, text.md line 41, read from the OCR supplement lines 906-931
+    and a 110 dpi render - the same ten items'
   extracted_at: '2026-09-11'
 ---
 
@@ -61,4 +66,8 @@ item 7, behind which sit the DC power cable connector, the sensor boards and the
 **No part numbers or quantities here**; the book's parts list is a separate chapter
 (`7-5s-med-specs-parts-list`). The 8.5S book numbers nineteen components on a different machine
 (`85s-2025-specs-component-description-nineteen-numbered-parts`).
+
+**The 2025 printing of the same book (RS9600-SS021-03) repeats the page unchanged.** The 7.0S's
+book on the same platform numbers twelve parts, adding a bottom step cover and two rear shrouds and
+dropping the arm rest (`70s-2025-specs-component-description-twelve-numbered-parts`).
 

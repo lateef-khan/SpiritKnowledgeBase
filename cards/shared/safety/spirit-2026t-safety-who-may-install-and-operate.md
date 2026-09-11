@@ -2,7 +2,8 @@
 id: spirit-2026t-safety-who-may-install-and-operate
 title: Who may install the treadmill and who may operate it
 kind: policy
-question: Who is qualified to install and to operate a 2026 Spirit 7.0T or 8.0T rehabilitation treadmill, or a Spirit MT200 rehabilitation treadmill?
+question: Who is qualified to install and to operate a 2026 Spirit 7.0T or 8.0T rehabilitation
+  treadmill, or a Spirit MT200 rehabilitation treadmill?
 asked_as:
 - who is allowed to assemble this treadmill
 - can i install the treadmill myself
@@ -24,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -36,9 +38,17 @@ see_also:
 - spirit-2026t-safety-servicing-only-by-trained-personnel
 - spirit-2026t-safety-intended-patient-population
 - spirit-2026t-safety-instructions-list
+- spirit-med-bike-safety-who-may-install-and-operate
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 17, page 4, and OPERATING PRINCIPLE, INTENDED INSTALLER, page 10; the 8.0T owner's manual prints item 17 on its page 5 and both INTENDED OPERATOR and INTENDED INSTALLER on its page 10. Both Spirit MT200 owner's manuals print the installation instruction on their safety instructions page and the qualification blocks under Intended User Profile, 2010 pages 4 and 7, 2022 pages 6 and 15
+  locator: 'SAFETY INSTRUCTIONS item 17, page 4, and OPERATING PRINCIPLE, INTENDED
+    INSTALLER, page 10; the 8.0T owner''s manual prints item 17 on its page 5 and
+    both INTENDED OPERATOR and INTENDED INSTALLER on its page 10. Both Spirit MT200
+    owner''s manuals print the installation instruction on their safety instructions
+    page and the qualification blocks under Intended User Profile, 2010 pages 4 and
+    7, 2022 pages 6 and 15. The 2025 7.0T owner''s manual (revision 01.10.25, version
+    2.0) prints the same page: OPERATING PRINCIPLE, INTENDED OPERATOR and INTENDED
+    INSTALLER, PDF p. 12 (printed 10), lines 280-315 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +110,13 @@ OPERATOR block reads:
 The 8.0T's operator block asks only for a medical professional or medical occupation with a
 physical therapist licence and for the manual to be read; the 7.0T prints no operator block at
 all. The MT200 manuals are the strictest of the four on this question.
+
+## The 2025 printing of the 7.0T manual prints a fuller operator profile
+
+**The January 2025 book (revision 01.10.25) prints the operator profile in seven lines** - no
+restriction on age, gender, height, weight, ability and culture; education university or above; read
+the manual; training from the manufacturer; experience in physical therapy; a major in physical
+therapy; the physical therapist license - and the installer profile in seven, where the 2026 book
+prints the shortened forms. The requirements that matter, a physical therapist license for the
+operator and electro-mechanical training for the installer, are in both printings. The same seven
+lines are printed for the 7.0R and 7.0U bikes (`spirit-med-bike-safety-who-may-install-and-operate`).

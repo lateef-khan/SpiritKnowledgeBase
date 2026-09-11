@@ -2,7 +2,8 @@
 id: spirit-bike-assembly-pedal-torque-300-in-lb
 title: Tighten the pedals to 300 inch-pounds, and the left pedal turns the other way
 kind: procedure
-question: How tight do the pedals go on a Spirit CR900, CR900ENT, CU900 or CU900ENT bike, and which way does the left one turn?
+question: How tight do the pedals go on a Spirit CR900, CR900ENT, CU900, CU900ENT,
+  or Spirit Medical 8.0U or 8.5R bike, and which way does the left one turn?
 asked_as:
 - how tight should the pedals be on my spirit bike
 - which way does the left bike pedal screw in
@@ -21,9 +22,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: 'bike'
+  product_line: bike
   model: '*'
   applies_to:
+  - 80u-2025
+  - 85r-2025
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
@@ -46,12 +49,14 @@ see_also:
 - cu900ent-pedal-and-crank-arm-replacement
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: p. 10, CR900 STEP FOUR item 1; the same sentence at p. 9 of the CU900 2018
-    and CU900ENT manuals (`spirit-bike-cu900-2018-owners-manual`,
-    `spirit-bike-cu900ent-2021-owners-manual`), p. 11 of the CR900ENT manual
-    (`spirit-bike-cr900ent-2021-owners-manual`), p. 13 of the CR900 2025 manual
-    (`spirit-bike-cr900-2025-owners-manual`) and p. 12 of the CU900 2025 manual
-    (`spirit-bike-cu900-2025-owners-manual`)
+  locator: 'p. 10, CR900 STEP FOUR item 1; the same sentence at p. 9 of the CU900
+    2018 and CU900ENT manuals (`spirit-bike-cu900-2018-owners-manual`, `spirit-bike-cu900ent-2021-owners-manual`),
+    p. 11 of the CR900ENT manual (`spirit-bike-cr900ent-2021-owners-manual`), p. 13
+    of the CR900 2025 manual (`spirit-bike-cr900-2025-owners-manual`) and p. 12 of
+    the CU900 2025 manual (`spirit-bike-cu900-2025-owners-manual`) | 80u-2025 (spirit-bike-80u-2025-owners-manual):
+    ASSEMBLY - STEP TWO items 1-4, PDF p. 17 (printed 15); text.md lines 432-441 |
+    85r-2025 (spirit-bike-85r-2025-owners-manual): ASSEMBLY - STEP FOUR items 1-4,
+    PDF p. 20 (printed 18); lines 525-537'
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +83,7 @@ and [the touchscreen card](spirit-bike-ent-assembly-pedal-no-thread-warning.md).
 Their assembly chapters otherwise overlap at only **35 to 43%** at word level - every
 item number, every hardware table and every step differs. This sentence is word for
 word the same on both.
+
+## The Spirit Medical 8.0U and 8.5R print the same figure
+
+Both 2025 medical books print **"Recommend force: 300 in-lb (34 Nm)"** in their pedal step, after "make sure to tighten the pedals as much as you possibly can" - the only place in either book a torque appears - plus the reverse-thread sentence, the "L" and "R" stamps, and the thumping note. Both name the tool: the **open wrench (161 on the 8.0U, 154 on the 8.5R)**. The 8.0U fits Pedals (12-L, 12-R), the 8.5R Pedals (7-L, 7-R). The service manuals of both machines print a second torque, **60 N-m on the crank nut**, which is a different fastener and its own card. The 4.0R, 4.0U, 7.0R and 7.0U of the same range print no pedal figure at all.

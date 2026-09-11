@@ -28,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2026
   - 85s-fit-2026
   - ce850-2016
   - ce850-2020
@@ -43,6 +44,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -78,6 +80,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -148,7 +151,12 @@ source:
     CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md
     lines 418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were
     also read from 110 dpi renders; the XRW600 page prints the word Rower highlighted
-    in yellow where the CRW800 page prints elliptical.'
+    in yellow where the CRW800 page prints elliptical. 4.0T service manuals: 7.3 Important
+    Grounding Instructions, PDF p. 27, lines 384-418, in spirit-treadmill-40t-2026-service-manual-st8700a,
+    and PDF p. 26, lines 353-387, in spirit-treadmill-40t-2026-service-manual. XT485-2013:
+    GROUNDING INSTRUCTIONS, PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Grounding Instructions, PDF p. 7 (printed 3), OCR supplement at lines
+    130-185, read against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -348,3 +356,18 @@ so in those two the permission stands alone.
 permission (`spirit-2024-safety-outlet-110-volt-15-amp-stepper`); its 2021 service manual prints the permission in full.
 The CRW800-2021 and CRW800-2024 owner's manuals describe a battery-powered rower with no plug to adapt
 (`crw800-2024-safety-console-runs-on-two-c-batteries`); the 2016 service manual is for the earlier, adapter-fed machine.
+
+## The 4.0T service manuals print the paragraph the 4.0T owner's manual does not
+
+**Both 4.0T service manuals - ST8700-ST017 and the ST8700A-ST026-01 revision - print it word for
+word with the CT850 2016 service manual**, spelling the tab `earplug`, on the same page as the
+`nominal 120-volt circuit` sentence. The 4.0T owner's manual prints no adapter permission (the
+statement above), so for that machine the permission exists in the service manual alone; its
+safety list still forbids improper adapters (`spirit-product-must-be-grounded`).
+
+## Two 2013 owner's manuals print it
+
+**The Australian XT485-2013** prints the paragraph, `ear-lug`, under a `nominal 230-volt circuit`
+sentence, with the North American plug and adapter drawing; **the CT850-2013** prints it, `ear-lug`,
+under `a 120-volt/20 amp dedicated circuit`, with a 20-amp T-slot receptacle in the drawing. Both
+lists also forbid improper adapters, as the CT850 chapter does.

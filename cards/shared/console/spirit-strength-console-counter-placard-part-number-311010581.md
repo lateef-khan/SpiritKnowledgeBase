@@ -2,28 +2,30 @@
 id: spirit-strength-console-counter-placard-part-number-311010581
 title: 'The placard beside the rep and time counter is part number #311010581'
 kind: spec
-question: 'What is the part number of the counter placard on a Spirit selectorized or dual-station strength machine?'
+question: What is the part number of the counter placard on a Spirit selectorized
+  or dual-station strength machine?
 asked_as:
-- 'part number for the counter label on my weight machine'
-- '311010581 what is that'
-- 'i need a new sticker for the rep counter'
-- 'what is the placard number next to the rep counter'
+- part number for the counter label on my weight machine
+- 311010581 what is that
+- i need a new sticker for the rep counter
+- what is the placard number next to the rep counter
 keywords:
-- 'counter placard'
-- 'placard part number'
+- counter placard
+- placard part number
 - '311010581'
-- 'label'
-- 'sticker'
-- 'decal'
-- 'rep counter'
-- 'time counter'
-- 'replacement label'
+- label
+- sticker
+- decal
+- rep counter
+- time counter
+- replacement label
 facets:
   brand:
   - spirit
   product_line: strength
   model: '*'
   applies_to:
+  - csd-cpsp
   - csd-lelc
   - csd-lpsr
   - csd-pfrd
@@ -57,7 +59,13 @@ see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'REPETITION AND TIME COUNTER page, final line under the drawing: ''Counter Placard part number #311010581''. Printed pp. 17-23 depending on the book. Read from the PDF text layer on 19 books, from a 300 dpi tesseract --psm 4 render on CSS-SROW (no text layer) and on CSS-SLGC (the text layer returns the line under a shifted font encoding, ''&RXQWHU3ODFDUG...'').'
+  locator: 'REPETITION AND TIME COUNTER page, final line under the drawing: ''Counter
+    Placard part number #311010581''. Printed pp. 17-23 depending on the book. Read
+    from the PDF text layer on 19 books, from a 300 dpi tesseract --psm 4 render on
+    CSS-SROW (no text layer) and on CSS-SLGC (the text layer returns the line under
+    a shifted font encoding, ''&RXQWHU3ODFDUG...''). CSS-DELT 2026 revision PDF p.
+    22 (printed 21), text.md line 693 (OCR supplement); CSD-CPSP May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update)
+    PDF p. 25 (printed 24), line 375'
   extracted_at: '2026-09-10'
 ---
 
@@ -85,3 +93,6 @@ machines that their manual gives the number; it does not.
 **One manual prints the wrong number.** The CSS-LATR book prints `#311008418` where the others print
 `#311010581` - and `#311008418` is that machine's own *workout* placard number, printed a page
 earlier. See `css-latr-console-counter-placard-repeats-the-exercise-placard-number`.
+
+**The May 2025 update of the CSD-CPSP owner's manual prints the placard line**, "Counter Placard part number #311010581", under its counter drawing - the February 2024 CSD-CPSP book does not - so this card now covers the CSD-CPSP. The 2026 CSS-DELT revision prints it as before.
+

@@ -26,6 +26,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ce800-2021
   - ce800-2023
   - ce900-2021
@@ -47,6 +51,7 @@ see_also:
 - ce850-2016-console-power-up-from-the-ac-cord
 - ce800-2013-console-power-up-odometer
 - spirit-ce-console-quick-start-time-counts-up
+- spirit-med-40-bike-console-face-two-row-message-window-rpm-and-level-windows-and-five-program-keys
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: CE800 2021 p. 14 POWER; CE800 2023 p. 15; CE900 2021 p. 13; CE900 2025
@@ -56,7 +61,11 @@ source:
     service manual POWER, PDF p. 13 (printed 13), text.md lines 132-138; CU900-2018
     service manual PDF p. 14 (printed 14), lines 196-202; CE800 (2020) service manual
     4-2-1 POWER, PDF p. 14 (printed 13), text.md lines 231-236; CE900 (SE8800-SE026)
-    service manual POWER, PDF p. 14 (printed 14), lines 209-214
+    service manual POWER, PDF p. 14 (printed 14), lines 209-214. 4.0R-2025 OM SETTING
+    UP YOUR RECUMBENT BIKE / Power On, PDF p. 15 (printed 13), text.md lines 405-412;
+    4.0U-2025 OM PDF p. 15, lines 357-363; 4.0R SM (FR800-SB022-03) 4-1 Power on,
+    PDF p. 16, lines 140-145; 4.0U SM PDF p. 16, lines 147-152; Dyaco PT 4.0 R "Power
+    on", PDF p. 32, lines 913-920; PT 4.0 U PDF p. 30, lines 881-888
   extracted_at: '2026-09-09'
 ---
 
@@ -108,3 +117,6 @@ a software version and an odometer reading before the start-up display:
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same self-test and start-up message; these two books say "Spirit Fitness commercial fitness bikes" where the owner's manuals name the machine.
 
 **The CE800 (2020) and CE900 (SE8800-SE026) service manuals print this passage in their Product Operation chapters** - "CE800 elliptical trainers have a built-in generator" and "Spirit Fitness commercial elliptical trainers have a built-in generator" - with the same self-test, the dark display for a few seconds and the scrolling start-up message.
+
+**The 2025 Spirit Medical 4.0R and 4.0U, their Dyaco PT editions and both service manuals print the generator paragraph too**, so this card covers those four bikes: "The 4.0R has a built-in generator for power and does not need to be plugged into an AC outlet. To power up the bike simply start to pedal, the console will turn on automatically. The console will go to the start up display, also known as Idle mode. The message window will be scrolling the start up message." **They print no self-test sentence and no warning that the display may stay dark for a few seconds** - the paragraph goes straight from pedalling to Idle mode. The 4.0U service manual prints "The 4.0 R has a built-in generator" in the upright's own book, a copy of the recumbent page. **The 7.0 and 8.0 series medical bikes are mains powered** and do not belong here (`spirit-med-70-bike-console-power-on-self-test-odometer-and-a-twenty-minute-power-down`).
+

@@ -42,7 +42,9 @@ see_also:
 source:
   ref: spirit-treadmill-40t-2026-service-manual
   locator: Section 8, Factory and Acceleration Settings, PDF p. 31 (printed 31); text.md
-    lines 455-472
+    lines 455-472. 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    the later revision of the ST8700-ST017 book) Factory and Acceleration Settings,
+    PDF p. 32 (printed 32), text.md lines 463-502
   extracted_at: '2026-09-11'
 ---
 
@@ -70,4 +72,6 @@ speed, acceleration per 1 mph and separate max incline and max decline prompts
 console - "USE INCLINE KEYS then MW displays: A1 xxxxx A2 xxxxx" - see
 `40t-2026-console-maintenance-mode-as-the-service-manual-prints-it`. The manual does not say what
 values they should reach.
+
+**The ST8700A-ST026-01 revision prints these settings unchanged on its p. 32** - the same gesture, the same minimum and maximum ranges and the same acceleration items; only the step numbering is spaced differently.
 

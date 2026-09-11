@@ -2,7 +2,8 @@
 id: ct850-2020-extension-cord-14-awg-or-better
 title: Extension cord must be 14 AWG or better with one outlet on the end
 kind: policy
-question: Can I use an extension cord on a Spirit CT850-2020, CT850ENT-2022 or CT800ENT-2022 treadmill?
+question: Can I use an extension cord on a Spirit CT850-2020, CT850ENT-2022 or CT800ENT-2022
+  treadmill?
 asked_as:
 - what gauge extension cord for the 2020 treadmill
 - can i run the treadmill off an extension lead
@@ -22,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2026
   - ct800ent-2022
   - ct850-2020
   - ct850ent-2022
@@ -30,13 +32,18 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - spirit-extension-cord-16-awg-or-better
+- 40t-2026-safety-extension-cord-1-mm2-or-better
 see_also:
 - ct850-2020-only-reaches-7-mph
 - spirit-product-must-be-grounded
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Important Safety Instructions, section 7 Product Safety Instructions, p.
-    33 (printed 32) The CT800ENT-2022 and CT850ENT-2022 owner's manuals print both sentences in capitals in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS page, page 4
+  locator: 'Important Safety Instructions, section 7 Product Safety Instructions,
+    p. 33 (printed 32) The CT800ENT-2022 and CT850ENT-2022 owner''s manuals print
+    both sentences in capitals in the WARNING header of their IMPORTANT SAFETY INSTRUCTIONS
+    page, page 4. 4.0T service manuals: 7.1 Important Safety Instructions, PDF p.
+    27, lines 384-418, in spirit-treadmill-40t-2026-service-manual-st8700a, and PDF
+    p. 26, lines 353-387, in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -89,3 +96,12 @@ do not quote it as the owner's manual's, and do not quote it for a CT850-2016 or
 pages. Their only mention of one is the same troubleshooting line, which asks for a lead
 `as short as possible and heavy duty 16 gauge minimum` - a different sentence for a different
 purpose. Do not quote 14 AWG for those three.
+
+## The 4.0T service manuals print 14 AWG, and the 4.0T owner's manual prints 1 mm²
+
+**Both 4.0T service manuals - ST8700-ST017 and the ST8700A-ST026-01 revision - print the sentence
+word for word**, `Do not use an extension cord unless it is a 14 AWG or better with only one outlet
+on the end`, in a chapter 7 that is the CT850 2016 service manual's page with a 120-volt, 20-amp
+outlet. **The 4.0T owner's manuals of 2025 and 2026 print `1 mm2 OR BETTER`** instead
+(`40t-2026-safety-extension-cord-1-mm2-or-better`) - about 17 AWG, a lighter cord than this card's.
+Nothing reconciles the two; quote the gauge from the book in the customer's hand.

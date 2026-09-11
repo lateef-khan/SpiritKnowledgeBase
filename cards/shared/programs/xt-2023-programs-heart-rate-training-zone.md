@@ -2,8 +2,8 @@
 id: xt-2023-programs-heart-rate-training-zone
 title: Maximum heart rate and the sixty to eighty percent training zone
 kind: fact
-question: How do I work out my maximum heart rate and training zone on a Spirit
-  treadmill that recommends sixty and eighty percent?
+question: How do I work out my maximum heart rate and training zone on a Spirit treadmill
+  that recommends sixty and eighty percent?
 asked_as:
 - how do i work out my max heart rate
 - what heart rate should i train at to burn fat
@@ -24,13 +24,16 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800-2012
   - ct800-2016
+  - ct850-2013
   - ct850-2018
   - xt285-2015
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -51,7 +54,10 @@ see_also:
 - xt-2023-programs-heart-rate-program-xt385-xt485-xt685
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: page 30, Heart Rate Exertion
+  locator: 'page 30, Heart Rate Exertion; 4.0T 2025 (February printing): PDF p. 41
+    (printed 39); text.md lines 1123-1158; 4.0T 2025 (May printing): PDF p. 41 (printed
+    39); text.md lines 1123-1158; CT850 2013: PDF p. 22 (printed 18), OCR supplement
+    lines 759-823; XT485 2013: PDF p. 26 (printed 25); text.md lines 957-1010'
   extracted_at: '2026-09-09'
 ---
 
@@ -107,3 +113,12 @@ ends the closing paragraph with "The Heart Rate program automatically controls r
 pedals"** - the bike-manual boilerplate, on a treadmill. It also says the heart rate monitor feature
 may be used during manual mode or during any of the nine different programs. **The 2016, 2020 and
 CT850ENT manuals print 65% and 85% instead - see `ct900-heart-rate-exertion-target-zones`.**
+
+**The 4.0T 2025 owner's manual prints this page as the 2026 book does**, in both printings, with the
+speed-or-incline sentence. **The 2013 CT850 owner's manual prints the same 60% / 80% guidance and the
+same 108-to-144 example** (a scan, read from OCR and the render) and, like the 2018 CT850, ends with
+"The Heart Rate program automatically controls resistance at the pedals" - the bike sentence - and
+"any of the nine different programs". **The 2013 XT485 owner's manual prints the same figures and
+example** and ends its paragraph "The Heart Rate program automatically controls incline", the
+treadmill sentence; it too counts nine programs, a count that agrees with neither its own program
+list nor its console page.

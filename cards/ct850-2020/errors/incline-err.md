@@ -50,7 +50,10 @@ source:
     2022 service manual 8-4 Error Message: Incline Err, PDF p. 34, text.md lines 644-679;
     CT850ENT 2022 service manual 8-4 Error Message: Incline Err, PDF p. 35, text.md
     lines 663-698; 4.0T 2026 service manual Error Message: INCLINE ERR, PDF p. 29-31,
-    text.md lines 412-472'
+    text.md lines 412-472; the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Error Message: INCLINE ERR at PDF p. 30-32, text.md
+    lines 443-502'
   extracted_at: '2026-09-08'
 ---
 

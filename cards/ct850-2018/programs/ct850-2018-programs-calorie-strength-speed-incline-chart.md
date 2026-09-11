@@ -3,7 +3,7 @@ id: ct850-2018-programs-calorie-strength-speed-incline-chart
 title: Preset speed and incline values for the Calorie and Strength profiles
 kind: fact
 question: What speed and incline values do the Calorie and Strength programs use on
-  a ct850-2018 treadmill?
+  a Spirit ct850-2013 or ct850-2018 treadmill?
 asked_as:
 - what is the profile of the strength program
 - what does the calorie program do to the incline
@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: programs
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-programs-preset-speed-incline-chart
@@ -40,7 +39,9 @@ see_also:
 - ct850-2018-programs-calorie-program-setup
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: printed page 21, Preset Programs Speed/Incline Settings, rows P5 and P6
+  locator: 'printed page 21, Preset Programs Speed/Incline Settings, rows P5 and P6;
+    CT850 2013: PDF p. 18 (printed 14), OCR supplement lines 531-575; the chart is
+    a picture, read from a 300 dpi render of PDF p. 18'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +77,5 @@ Strength is for, the way the 2016 and 2020 manuals describe Hill, Fat Burn, Card
 Other Spirit consoles print such descriptions under the same two names
 (`ct900ent-calorie-program`, `ct900ent-strength-program`) but those are different machines with
 different segment values; do not carry their profiles across.
+
+**The 2013 CT850 owner's manual prints the same six-row chart**, and its P5 = CALORIE and P6 = STRENGTH rows hold exactly the thirty values above, read cell by cell from the render; the OCR sweep recovered only three numbers of the whole table.

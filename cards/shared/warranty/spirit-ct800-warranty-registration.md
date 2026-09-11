@@ -36,6 +36,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -73,7 +74,7 @@ source:
     (spirit-elliptical-ce800-2021-owners-manual text.md lines 53-55, 944-945, 974-975),
     ce800-2023 pp. 3, 37, 38 (spirit-elliptical-ce800-2023-owners-manual text.md lines 54-56,
     966-967, 996-997), ce800ent pp. 3, 40, 41 (spirit-elliptical-ce800ent-owners-manual text.md
-    lines 55-58, 924-925, 952-953)'
+    lines 55-58, 924-925, 952-953) The CT850 2013 book: Register Your Purchase on printed p. 1 (PDF p. 5, OCR text.md lines 73-76) sends the owner to the residential warranty registration page under the Support tab, as the CT800 2012 does; responsibilities item 1 and exclusion 6 on the warranty page: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -94,6 +95,7 @@ The front-matter page says the same thing twice over:
 | Manual | Page the manual sends you to |
 |---|---|
 | CT800 2012 | https://www.spiritfitness.com/residentialwarrantyregistration.html |
+| CT850 2013 | the residential warranty registration page under the Support tab (the scan's OCR reads the URL with commas for full stops, so it is not quoted as a literal) |
 | CT800 2016 | http://www.spiritfitness.com/commercialwarrantyregistration.html |
 | CT800 2020 | http://www.spiritfitness.com/warranty |
 | CT800ENT 2022 | http://www.spiritfitness.com/warranty |
@@ -135,3 +137,5 @@ The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and t
 None of the six prints a QR code, a registration phone number or an email address on that page. All six head it REGISTER YOUR PURCHASE with a RECORD YOUR SERIAL NUMBER box.
 
 **The other seven bikes state the rule differently.** The CR900 2018, CU900 2018, CR900ENT and CU900ENT keep the 10-day card deadline and exclusion 6 but send the owner to two different addresses; the CR900 2025, CU900 2025 and CU800ENT 2024 print a QR code, require online registration with no day count, and drop the outright exclusion. All seven are at `spirit-ce-warranty-registration`.
+
+**The CT850 2013 book says the same three things** - the self-addressed card "must be completed in full and returned to Spirit Fitness", the ten-day deadline at responsibilities item 1, and the outright exclusion at item 6 - and, like the CT800 2012, sends a commercial treadmill's owner to the **residential** registration page.

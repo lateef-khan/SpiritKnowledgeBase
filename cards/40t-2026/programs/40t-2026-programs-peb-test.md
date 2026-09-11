@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,9 @@ see_also:
 - ct900-law-enforcement-peb-fitness-test
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 32, PEB
+  locator: 'page 32, PEB; 4.0T 2025 (February printing): PDF p. 33 (printed 31); text.md
+    lines 867-898; 4.0T 2025 (May printing): PDF p. 33 (printed 31); text.md lines
+    867-898'
   extracted_at: '2026-09-09'
 ---
 
@@ -47,3 +48,5 @@ https://www.fletc.gov/peb-scores-age-and-gender
 The 8.0T, CT900, CT900ENT and CTSBS900 manuals do print a PEB table by age and gender - see
 `ct900-law-enforcement-peb-fitness-test`. Those figures are not reproduced here because this manual does
 not state them for this machine.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

@@ -58,3 +58,13 @@ missing second reason: retighten or readjust the tread-belt tension and tracking
 machine is level — `80t-2026-maintenance-squeak-thump-or-clicking`. The 7.0T is levelled the same
 way, with a 1/2" wrench on the leveling glides under the rear incline unit (7.0T p. 19, "Leveling
 the 7.0T"). Do not quote the 8.0T's wording as the 7.0T's; check the belt and the levellers anyway.
+
+## The previous printing of the same book prints the missing second reason
+
+The **7.0T 2025** owner's manual (Rev 01.10.25) prints reason 2 in full - "The crank arm nut needs to be
+retightened. If squeaks or other noises persist, check that the unit is properly leveled. There are 2 leveling
+pads on the bottom of the rear stabilizer, use a 14mm wrench (or adjustable wrench) to adjust the levelers" -
+the bike carry-over the rest of the range carries. It is carded with them at
+`ct800-2016-maintenance-squeak-thump-or-clicking`. The 2026 reprint dropped it and left the "one of two reasons"
+lead-in behind. The 2025 book also levels the machine with a ½" wrench in its setup chapter, so it carries the
+same ½"-against-14 mm disagreement as the 7.0S and 7.5S.

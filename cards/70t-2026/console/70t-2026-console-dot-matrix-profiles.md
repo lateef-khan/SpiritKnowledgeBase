@@ -1,6 +1,6 @@
 ---
 id: 70t-2026-console-dot-matrix-profiles
-title: "The dot matrix: three profiles and 24 columns of one minute each"
+title: 'The dot matrix: three profiles and 24 columns of one minute each'
 kind: fact
 question: What does the dot matrix display show on a Spirit 7.0T or MT200 treadmill?
 asked_as:
@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -35,7 +36,8 @@ see_also:
 - spirit-2026t-console-quick-start-zero-speed
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: pp. 20 and 23, QUICK START and BASIC INFORMATION
+  locator: pp. 20 and 23, QUICK START and BASIC INFORMATION. 7.0T 2025 owner's manual
+    PDF pp. 22 and 25 (printed 20 and 23), text.md lines 633-654 and 686-728
   extracted_at: '2026-09-09'
 ---
 
@@ -54,3 +56,6 @@ around and restarts at the first column.**
 
 **Both MT200 manuals print this word for word** - the 2010 manual on its p. 13, the
 2022 manual on its pp. 22-23.
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
+

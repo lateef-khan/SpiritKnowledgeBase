@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-safety-prop-65-cancer-and-reproductive-harm
-title: The Proposition 65 sticker reads "Cancer and Reproductive Harm" and is fitted to US machines only
+title: The Proposition 65 sticker reads "Cancer and Reproductive Harm" and is fitted
+  to US machines only
 kind: policy
-question: What does the California Proposition 65 warning on a Spirit strength machine say?
+question: What does the California Proposition 65 warning on a Spirit strength machine
+  say?
 asked_as:
 - what is the prop 65 sticker on the machine
 - california warning label on the gym equipment
@@ -71,7 +73,12 @@ see_also:
 - spirit-strength-safety-st800-prop-65-toluene-and-acrylamide
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: California Prop 65 Warning Decal on PRODUCT LABELS, printed page 4 (PDF page 5) of all thirty-six CSS, CSD, CSF and CSI manuals
+  locator: 'California Prop 65 Warning Decal on PRODUCT LABELS, printed page 4 (PDF
+    page 5) of all thirty-six CSS, CSD, CSF and CSI manuals. CSD-CPSP May 2025 update:
+    California Prop 65 Warning Decal on PRODUCT LABELS, PDF p. 5 (printed 4), in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -89,3 +96,5 @@ it and is not faulty for lacking it.
 
 The three ST800 products carry a **longer and different** Proposition 65 warning that does name
 chemicals - see the card for those.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

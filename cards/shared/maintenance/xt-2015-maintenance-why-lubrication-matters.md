@@ -25,6 +25,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2010
@@ -39,9 +40,12 @@ see_also:
 - xt-2023-maintenance-deck-lubrication-interval
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: p. 28, Belt/Deck Lubrication Procedure (XT285 p. 36, XT385 p. 37, XT485
+  locator: 'p. 28, Belt/Deck Lubrication Procedure (XT285 p. 36, XT385 p. 37, XT485
     p. 42); XT485ENT p. 53; XT685 2010 printed p. 30 (spirit-treadmill-xt685-2010-owners-manual
-    PDF p. 34)
+    PDF p. 34) The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    BELT/DECK LUBRICATION PROCEDURE, third paragraph, PDF p. 32 (printed 31), text.md
+    lines 1246-1250, word for word - "Failure to lubricate the deck at regular intervals
+    may void the warranty."'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +60,7 @@ All four 2015 manuals that carry a lubrication section, **the XT485ENT manual an
 **This does not apply to the XT685 2015**, which takes no lubricant at all; see `xt685-2023-belt-deck-general-maintenance`. It does apply to the **XT685 2010**, which is the generation before it and is lubricated.
 
 The 2023 manuals say the same thing with one word changed - "failure to **clean and** lubricate the deck at regular intervals may void the warranty" - and attach it to a different interval; see `xt-2023-maintenance-deck-lubrication-interval`.
+
+**The XT485 2013 prints this paragraph word for word**, attached to a **180-hour** interval
+(`xt-2015-maintenance-lubrication-interval-180-hours`); the 2015 XT485 kept the paragraph and halved the interval
+to 90 hours.

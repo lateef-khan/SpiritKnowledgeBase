@@ -5,8 +5,8 @@ kind: procedure
 question: How do I unpack a Spirit CT800, CT800ENT, CT850, CT850ENT or XT685-2010
   treadmill, a Spirit CE800, CE800ENT, CE900 or XE395 elliptical, or a Spirit CR800,
   CR800ENT, CR900, CR900ENT, CU800, CU800ENT, CU900 or CU900ENT bike, or a Spirit
-  XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, and get the
-  hardware ready for assembly?
+  XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, and get the hardware
+  ready for assembly?
 asked_as:
 - how do i get the treadmill out of the box
 - how do i unbox my treadmill
@@ -27,6 +27,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -41,6 +45,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -89,32 +94,34 @@ see_also:
 - xe395-2010-assembly-procedure
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
+  locator: 'p. 8, CT800 PRE-ASSEMBLY - UNPACKING; the same words at p. 5 of the 2012
     manual under Pre-Assembly, p. 8 of the 2020 manual, p. 8 of the CT800ENT manual,
     and p. 8 of each of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual;
     also spirit-treadmill-xt685-2010-owners-manual PDF p. 9, headed Pre-Assembly;
     and word for word on five ellipticals - p. 7 of the CE800 2021 and 2023 manuals
-    (`spirit-elliptical-ce800-2021-owners-manual`,
-    `spirit-elliptical-ce800-2023-owners-manual`), p. 7 of the CE800ENT manual
-    (`spirit-elliptical-ce800ent-owners-manual`), p. 6 of the CE900 2021 manual
-    (`spirit-elliptical-ce900-2021-owners-manual`) and PDF p. 7 of the CE800 2013
-    manual (`spirit-elliptical-ce800-2013-owners-manual`, headed Pre-Assembly); and
-    p. 4 of the XE395 2010 manual
-    (`spirit-elliptical-xe395-2010-owners-manual`, headed XE395 ASSEMBLY
-    INSTRUCTIONS / PRE-ASSEMBLY); and word for word on ten Spirit commercial bikes -
-    p. 5 of the CR900 2018, CU900 2018 and CU900ENT manuals, p. 6 of the CR900ENT
-    manual and p. 7 of the CR800 2021, CR800 2023, CR800ENT, CU800 2021 and CU800ENT
-    2022 manuals, and PDF p. 7 (printed 5) of the CU800 2012 manual, headed
-    Pre-Assembly; and word for word on ten Spirit residential bikes - p. 6 of the
-    XBR95 2016, 2018 and 2021 manuals (`spirit-bike-xbr95-2016-owners-manual`,
+    (`spirit-elliptical-ce800-2021-owners-manual`, `spirit-elliptical-ce800-2023-owners-manual`),
+    p. 7 of the CE800ENT manual (`spirit-elliptical-ce800ent-owners-manual`), p. 6
+    of the CE900 2021 manual (`spirit-elliptical-ce900-2021-owners-manual`) and PDF
+    p. 7 of the CE800 2013 manual (`spirit-elliptical-ce800-2013-owners-manual`, headed
+    Pre-Assembly); and p. 4 of the XE395 2010 manual (`spirit-elliptical-xe395-2010-owners-manual`,
+    headed XE395 ASSEMBLY INSTRUCTIONS / PRE-ASSEMBLY); and word for word on ten Spirit
+    commercial bikes - p. 5 of the CR900 2018, CU900 2018 and CU900ENT manuals, p.
+    6 of the CR900ENT manual and p. 7 of the CR800 2021, CR800 2023, CR800ENT, CU800
+    2021 and CU800ENT 2022 manuals, and PDF p. 7 (printed 5) of the CU800 2012 manual,
+    headed Pre-Assembly; and word for word on ten Spirit residential bikes - p. 6
+    of the XBR95 2016, 2018 and 2021 manuals (`spirit-bike-xbr95-2016-owners-manual`,
     `spirit-bike-xbr95-2018-owners-manual`, `spirit-bike-xbr95-2021-owners-manual`),
-    p. 7 of the XBR25 2019, XBR55 2019 and 2021 and XBU55 2019 and 2021 manuals
-    (`spirit-bike-xbr25-2019-owners-manual`, `spirit-bike-xbr55-2019-owners-manual`,
-    `spirit-bike-xbr55-2021-owners-manual`, `spirit-bike-xbu55-2019-owners-manual`,
-    `spirit-bike-xbu55-2021-owners-manual`) and p. 8 of the XBR55ENT and XBU55ENT
-    manuals (`spirit-bike-xbr55ent-2021-owners-manual`,
+    p. 7 of the XBR25 2019, XBR55 2019 and 2021 and XBU55 2019 and 2021 manuals (`spirit-bike-xbr25-2019-owners-manual`,
+    `spirit-bike-xbr55-2019-owners-manual`, `spirit-bike-xbr55-2021-owners-manual`,
+    `spirit-bike-xbu55-2019-owners-manual`, `spirit-bike-xbu55-2021-owners-manual`)
+    and p. 8 of the XBR55ENT and XBU55ENT manuals (`spirit-bike-xbr55ent-2021-owners-manual`,
     `spirit-bike-xbu55ent-2021-owners-manual`), in each case headed with the machine
-    name followed by PRE ASSEMBLY / UNPACKING
+    name followed by PRE ASSEMBLY / UNPACKING | ct850-2013 (spirit-treadmill-ct850-2013-owners-manual):
+    Pre-Assembly, PDF p. 9 (printed 5); OCR at text.md lines 230-236 | 40r-2025 (spirit-bike-40r-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 10 (printed 8); text.md lines 246-278 | 40r-pt (spirit-bike-40r-pt-owners-manual):
+    Assembly instructions - Unpacking, PDF p. 25; lines 727-737 | 40u-2025 (spirit-bike-40u-2025-owners-manual):
+    PRE-ASSEMBLY, PDF p. 10 (printed 8); lines 218-247 | 40u-pt (spirit-bike-40u-pt-owners-manual):
+    Assembly instructions - Unpacking, PDF p. 25; lines 728-738'
   extracted_at: '2026-09-09'
 ---
 
@@ -225,3 +232,9 @@ These ten cartons hold three different tool sets and two different hardware kits
 See [the recumbent build](spirit-xbr-assembly-procedure.md),
 [the upright build](spirit-xbu55-assembly-procedure.md) and
 [the XBR25 build](../../xbr25-2019/assembly/xbr25-2019-assembly-procedure.md).
+
+## The 2013 CT850 and the Spirit Medical 4.0 bikes print the two items too
+
+**The CT850 2013 manual** (a scanned book, read by OCR and checked on the render) prints the two items exactly as the CT800 2012 manual does - **without the "separated into four steps" sentence** - and then prints **three** assembly steps. Its pre-assembly page holds the unpacking items and the tools panel and no carton list.
+
+**The Spirit Medical 4.0R and 4.0U** (2025 books) and their **Dyaco PT editions** (40r-pt, 40u-pt) print the two items with the "separated into four steps" sentence, and each builds in four steps. The 2025 books head the page PRE-ASSEMBLY and print the tools and carton list beside it; the PT books head it "Assembly instructions - Unpacking" with "Tools included" and "Parts included" below. The other 2025 medical bikes (7.0R, 7.0U, 8.0U, 8.5R) print the four-item CT900 form instead.

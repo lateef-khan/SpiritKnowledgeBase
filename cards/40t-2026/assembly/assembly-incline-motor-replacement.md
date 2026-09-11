@@ -40,8 +40,9 @@ see_also:
 - 40t-2026-assembly-part-replacement-procedure-list
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Section 9.8 Incline Motor Replacement, PDF pp. 51-52 (printed 62-63); text.md
-    lines 836-855
+  locator: 'Section 9.8 Incline Motor Replacement, PDF pp. 51-52 (printed 62-63);
+    text.md lines 836-855 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.8 Incline Motor Replacement, PDF pp. 52-53; text.md lines 908-926'
   extracted_at: '2026-09-11'
 ---
 
@@ -60,3 +61,4 @@ figure and 235mm is theirs**. Do not carry either number across.
 The manual gives the 257mm as a bare figure. It does not say between which two points the distance is
 measured, and it does not say which way to turn the barrel to reach it.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

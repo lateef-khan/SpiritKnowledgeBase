@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2022
   section: console
@@ -30,10 +31,12 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - 80t-2026-console-data-transfer-usb
-see_also: []
+see_also:
+- spirit-med-70-bike-console-usb-data-transfer-to-a-csv-file-with-the-windows-data-transfer-program
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: printed page 32, DATA TRANSFER SOFTWARE INSTRUCTIONS
+  locator: printed page 32, DATA TRANSFER SOFTWARE INSTRUCTIONS. 7.0T 2025 owner's
+    manual PDF pp. 36-38 (printed 34-36), text.md lines 1044-1106
   extracted_at: '2026-09-09'
 ---
 
@@ -68,3 +71,6 @@ USB ports on the back*. It also prints two steps the 7.0T manual leaves out:
 
 **The 2010 MT200 manual has no data transfer section at all** and never mentions a
 USB port, so that machine is not on this card.
+
+**The 2025 printing of the 7.0T owner's manual prints the same three pages**, so this card covers the 70t-2025 - with one damaged line: its first bullet reads "Works with newer **7.0T, 7.0T, 7.0T, 7.0T and 7.0T** consoles with USB ports on the back", a find-and-replace that overwrote the 7.0S, 7.5S, 7.0U and 7.0R the 2026 book and the medical bike books list (`spirit-med-70-bike-console-usb-data-transfer-to-a-csv-file-with-the-windows-data-transfer-program`).
+

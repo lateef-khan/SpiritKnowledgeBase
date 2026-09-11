@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800-2016
   - ct800-2020
@@ -36,6 +37,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -53,30 +55,41 @@ see_also:
 - xt-2023-maintenance-treadbelt-tracking
 source:
   ref: ct900ent-om
-  locator: p. 48; the same row is TROUBLESHOOTING - Service Checklist Diagnosis Guide
+  locator: 'p. 48; the same row is TROUBLESHOOTING - Service Checklist Diagnosis Guide
     on page 43 of the XT185 2023 manual, page 51 of the XT285, page 56 of the XT385
     and XT485 and page 55 of the XT685; and Service Checklist Diagnosis Guide on page
     31 of the XT185 2015 manual, page 39 of the XT285, page 41 of the XT385, page
-    45 of the XT485 and page 46 of the XT685 The 4.0T 2026 owner's manual prints the
-    same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals print
-    the same table - Service Checklist Diagnosis Guide on printed page 54 of the XT485ENT
-    owner's manual (its table of contents lists TROUBLESHOOTING as page 55), text.md
-    lines 1040-1082, and on printed page 56 of the XT685ENT owner's manual, text.md
-    lines 1664-1695; the same row is Service Checklist - Diagnosis Guide on printed
-    page 31 of the XT685 2010 owner's manual (PDF page 35, text.md lines 1388-1395);
-    XT285 2015 service manual 10-2 Service Troubleshooting Checklist, PDF p. 70-71
-    (printed 64-65), text.md lines 1433-1503; XT385 2015 service manual 10.2 Service
-    Troubleshooting Checklist, PDF p. 69-70, text.md lines 1158-1222; XT485 2015 service
-    manual 10.2 Service Troubleshooting Checklist, PDF p. 70-71, text.md lines 1166-1230;
-    XT485ENT 2023 service manual 10.2 Service Troubleshooting Checklist, PDF p. 64-65,
-    text.md lines 981-1045; CT800 2016 service manual 9.1 Service Troubleshooting
-    Checklist, PDF p. 61-62 (printed 60-61), text.md lines 1222-1273; CT800 2020 service
-    manual 8-5 TROUBLESHOOTING, PDF p. 45 (printed 44), text.md lines 631-660; CT800ENT
-    2022 service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT850ENT
-    2022 service manual 8-7 Troubleshooting, PDF p. 40, text.md lines 810-838; CT900ENT
-    service manual Service Troubleshooting Checklist (first printing), PDF p. 50-51,
-    text.md lines 848-900; 4.0T 2026 service manual TROUBLESHOOTING, PDF p. 35 (printed
-    46), text.md lines 523-566
+    45 of the XT485 and page 46 of the XT685 The 4.0T 2026 owner''s manual prints
+    the same row in its TROUBLESHOOTING table on printed page 45.; both ENT manuals
+    print the same table - Service Checklist Diagnosis Guide on printed page 54 of
+    the XT485ENT owner''s manual (its table of contents lists TROUBLESHOOTING as page
+    55), text.md lines 1040-1082, and on printed page 56 of the XT685ENT owner''s
+    manual, text.md lines 1664-1695; the same row is Service Checklist - Diagnosis
+    Guide on printed page 31 of the XT685 2010 owner''s manual (PDF page 35, text.md
+    lines 1388-1395); XT285 2015 service manual 10-2 Service Troubleshooting Checklist,
+    PDF p. 70-71 (printed 64-65), text.md lines 1433-1503; XT385 2015 service manual
+    10.2 Service Troubleshooting Checklist, PDF p. 69-70, text.md lines 1158-1222;
+    XT485 2015 service manual 10.2 Service Troubleshooting Checklist, PDF p. 70-71,
+    text.md lines 1166-1230; XT485ENT 2023 service manual 10.2 Service Troubleshooting
+    Checklist, PDF p. 64-65, text.md lines 981-1045; CT800 2016 service manual 9.1
+    Service Troubleshooting Checklist, PDF p. 61-62 (printed 60-61), text.md lines
+    1222-1273; CT800 2020 service manual 8-5 TROUBLESHOOTING, PDF p. 45 (printed 44),
+    text.md lines 631-660; CT800ENT 2022 service manual 8-7 Troubleshooting, PDF p.
+    39, text.md lines 791-819; CT850ENT 2022 service manual 8-7 Troubleshooting, PDF
+    p. 40, text.md lines 810-838; CT900ENT service manual Service Troubleshooting
+    Checklist (first printing), PDF p. 50-51, text.md lines 848-900; 4.0T 2026 service
+    manual TROUBLESHOOTING, PDF p. 35 (printed 46), text.md lines 523-566; 4.0T 2025
+    owner''s manual (Rev 02.04.25, spirit-treadmill-40t-2025-owners-manual) prints
+    the same row word for word, TROUBLESHOOTING, PDF p. 46 (printed 44), text.md lines
+    1446-1482; the May 2025 printing (Rev 05.19.25, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    the same at PDF p. 46, lines 1446-1482 (compared with difflib on 2026-09-11);
+    the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): TROUBLESHOOTING at PDF p. 36 (printed 46), text.md
+    lines 592-635; XT485 2013 owner''s manual (spirit-treadmill-xt485-2013-owners-manual,
+    485812) SERVICE CHECKLIST - DIAGNOSIS GUIDE, PDF p. 33 (printed 32), text.md lines
+    1286-1346, the "Tread-belt does not stay centered / Treadmill belt hesitates when
+    walked/run on" rows'
   extracted_at: '2026-08-24'
 ---
 
@@ -110,3 +123,8 @@ causes for each half - uneven belt tension for the tracking, insufficient lubric
 tension for the hesitation. See `spirit-2024-errors-tread-belt-does-not-run-in-center`.
 
 **The service manuals print the same two rows in their checklists** - the 2015 XT285, XT385 and XT485, the XT485ENT, the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT and 4.0T - and the 2015 XT books and the XT485ENT add a second cause to the hesitation: *Motor drive belt may be loose*. The CT800 2020, CT800ENT 2022, CT850ENT 2022 and 4.0T word the first condition `Running belt does not stay centered`.
+
+The 4.0T 2025 owner's manual (February and May 2025 printings) prints this row word for word, so it holds for the previous model year too (added 2026-09-11).
+
+**The XT485 2013 owner's manual (the 230 V export edition) prints the row word for word** and sends the reader to the *General Maintenance* section on Tread-belt Tension, as the 2015 manuals do (added 2026-09-11).
+

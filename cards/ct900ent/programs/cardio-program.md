@@ -28,6 +28,7 @@ facets:
   - ct850ent-2022
   - ct850ent-2024
   - ct900ent
+  - xt485-2013
   - xt685-2010
   section: programs
   code: '*'
@@ -38,7 +39,7 @@ see_also:
 - ct900ent-preset-speed-incline-chart
 source:
   ref: ct900ent-om
-  locator: p. 34
+  locator: 'p. 34; XT485 2013: PDF p. 24 (printed 23); text.md lines 860-906'
   extracted_at: '2026-08-24'
 ---
 
@@ -60,3 +61,5 @@ segments 4, 9 and 14 as the maximum elevation points. **The 2016 and 2020 CT850 
 print the Speed paragraph only** (printed page 22) and write "near maximum resistance level"; **they
 print no Incline paragraph for Cardio**, so the segment 4/9/14 figures do not come from those two
 manuals. **The 2018 CT850 manual prints no description of this program at all.**
+
+**The 2013 XT485 owner's manual prints this description word for word** under a **Resistance** heading, **including segments 4, 9 and 14 as the maximum elevation points** and "near maximum speed level" - so the 2013 XT485 sits with the 2010 XT685 on this card, not with the 2015 XT485, which prints segment 15.

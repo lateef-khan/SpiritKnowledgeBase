@@ -2,7 +2,9 @@
 id: xt-2015-safety-product-labels-and-serial-number
 title: The stickers on the machine, and where the manual says the serial number is
 kind: fact
-question: Where is the serial number and the warning sticker on a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or on a Spirit XT485ENT treadmill?
+question: Where is the serial number and the warning sticker on a Spirit XT685-2010,
+  XT185-2015, XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill, or on a
+  Spirit XT485ENT treadmill?
 asked_as:
 - where is the serial number on my treadmill
 - i need the serial number to register the warranty
@@ -37,6 +39,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2010
@@ -54,9 +57,14 @@ see_also:
 - xt-2023-warranty-registration
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: page 8, Record Your Serial Number / Serial Number Location; the XT285 and
-    XT485 manuals print the same page on page 8, the XT385 and XT685 manuals on page
-    9. The XT485ENT owner's manual prints its Record Your Serial Number panel on page 4 The XT685 2010 owner's manual prints its Record Your Serial Number panel on PDF page 5
+  locator: 'page 8, Record Your Serial Number / Serial Number Location; the XT285
+    and XT485 manuals print the same page on page 8, the XT385 and XT685 manuals on
+    page 9. The XT485ENT owner''s manual prints its Record Your Serial Number panel
+    on page 4 The XT685 2010 owner''s manual prints its Record Your Serial Number
+    panel on PDF page 5. XT485-2013: absence checked across the whole text layer and
+    OCR supplements of spirit-treadmill-xt485-2013-owners-manual; the dealer letter
+    with the Name of Dealer and Purchase Date lines is PDF p. 3 (printed 2), lines
+    45-76'
   extracted_at: '2026-09-09'
 ---
 
@@ -152,3 +160,11 @@ warning rather than as a label; the XBR95-2016 prints none at all
 that names the front stabilizer tube and the face of the upright each sticker is on
 (`spirit-bike-2024-2025-safety-product-labels`). Those are 2023 statements; these ten manuals never
 confirm them.
+
+## The Australian XT485-2013 prints no serial number panel at all
+
+**The 2013 book prints less than the 2015 ones.** Its dealer letter has lines for the name of the
+dealer and the purchase date and nothing for a serial number; the words `serial`, `sticker` and
+`Proposition` do not occur anywhere in it, and it has no PRODUCT LABELS page and no Serial Number
+Location drawing. Have the customer read the number off the machine
+(`xt485-2013-safety-instructions-list`).

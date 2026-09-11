@@ -1,6 +1,7 @@
 ---
 id: 85ue-2025-safety-who-may-not-use-the-ergometer
-title: The conditions that rule a patient out, and the patient population the ergometer is for
+title: The conditions that rule a patient out, and the patient population the ergometer
+  is for
 kind: policy
 question: Who may and may not use a Spirit 8.5UE upper body ergometer (85ue-2025)?
 asked_as:
@@ -38,6 +39,9 @@ see_also:
 - 85ue-2025-safety-user-weight-limit-440-lbs
 - 85ue-2025-safety-instructions-list
 - 85ue-2025-safety-operation-instructions-warnings
+- spirit-2026t-safety-rehabilitation-contraindications
+- spirit-rehab-stepper-safety-contraindications-osteoporosis-fractures-and-acute-conditions
+- spirit-med-bike-safety-contraindications-osteoporosis-fractures-and-acute-conditions
 source:
   ref: spirit-ergometer-85ue-2025-owners-manual
   locator: IMPORTANT OPERATION INSTRUCTIONS, printed page 8 (PDF page 10), and APPLICATION
@@ -45,7 +49,7 @@ source:
   extracted_at: '2026-09-10'
 ---
 
-**This machine has printed contraindications. No other Spirit product does.**
+**This machine has printed contraindications - the same sentence its Dyaco MED siblings carry.**
 
 > 8.5UE should not be used for patients with severe osteoporosis, non-union fractures, debilitating
 > dizziness, or poor safety awareness/cognition. Do not use for patients weighing greater than
@@ -101,3 +105,12 @@ use by persons with reduced physical, sensory or mental capabilities` appears in
 elliptical manuals (`spirit-ce-safety-who-may-use-the-elliptical`) and **not in this book** - which
 is consistent, since reduced capability is what this machine is bought for. Its own list above is
 the exclusion.
+
+**The 8.5UE is not alone.** This card's first line once read that no other Spirit product prints
+contraindications; that was wrong when written. The 7.0T and 8.0T treadmills and the MT200
+(`spirit-2026t-safety-rehabilitation-contraindications`), the 7.0S, 7.5S and 8.5S steppers
+(`spirit-rehab-stepper-safety-contraindications-osteoporosis-fractures-and-acute-conditions`) and the
+7.0R, 7.0U, 8.0U and 8.5R bikes
+(`spirit-med-bike-safety-contraindications-osteoporosis-fractures-and-acute-conditions`) print the
+same sentence, each with 440 lb as the bariatric figure. What is the 8.5UE's own is the
+wheelchair-access paragraph above.

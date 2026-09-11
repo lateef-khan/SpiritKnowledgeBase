@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-safety-supervised-access-controlled-area
-title: Strength equipment belongs in a supervised, access-controlled area, and how much control is the owner’s decision
+title: Strength equipment belongs in a supervised, access-controlled area, and how
+  much control is the owner’s decision
 kind: policy
-question: Does Spirit strength equipment have to be supervised, and who decides who may use it?
+question: Does Spirit strength equipment have to be supervised, and who decides who
+  may use it?
 asked_as:
 - does the gym have to supervise the weight machines
 - can i leave the strength equipment unattended
@@ -75,7 +77,13 @@ see_also:
 - spirit-strength-safety-csi-name-plate-decal
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: SAFETY GUIDELINES AND PRACTICE, printed page 8 (PDF page 9) of every CSS, CSD, CSF and CSI manual; SAFETY GUIDELINES AND PRACTICES, printed page 5 (PDF page 7) of ST800FI and ST800DR3 and printed page 6 (PDF page 8) of ST800FT
+  locator: 'SAFETY GUIDELINES AND PRACTICE, printed page 8 (PDF page 9) of every CSS,
+    CSD, CSF and CSI manual; SAFETY GUIDELINES AND PRACTICES, printed page 5 (PDF
+    page 7) of ST800FI and ST800DR3 and printed page 6 (PDF page 8) of ST800FT. CSD-CPSP
+    May 2025 update: SAFETY GUIDELINES AND PRACTICE, PDF p. 9 (printed 8), in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -109,3 +117,5 @@ figure on that perimeter; the three ST800 books do not.
 
 The CSI name plate decal carries a shorter form of the same rule as printed text on the machine:
 *WARNING - Use the stationary training equipment in a supervised environment.*
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

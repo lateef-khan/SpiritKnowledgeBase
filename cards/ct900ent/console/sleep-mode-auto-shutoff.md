@@ -2,7 +2,9 @@
 id: ct900ent-sleep-mode-auto-shutoff
 title: Sleep mode and turning the treadmill off
 kind: fact
-question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or CT900ENT treadmill, a CE850 elliptical, or a CR800, CU800-2021, CR900ENT or CU900ENT bike off?
+question: How does sleep mode work and how do I turn a Spirit CT800, CT850-2018 or
+  CT900ENT treadmill, a CE850 elliptical, or a CR800, CU800-2021, CR900ENT or CU900ENT
+  bike off?
 asked_as:
 - why did the screen turn off by itself
 - how do i turn off the treadmill
@@ -35,6 +37,7 @@ facets:
   - cs800-2024
   - ct800-2012
   - ct800-2016
+  - ct850-2013
   - ct850-2018
   - ct900ent
   - cu800-2021
@@ -50,10 +53,13 @@ see_also:
 - spirit-ct800-console-engineering-mode-menu-with-units
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
 - ce850-2016-console-engineering-mode-security-lock
+- ct850-2013-console-engineering-mode-with-speed-and-enter-a-20-minute-sleep-and-grade-return
 source:
   ref: ct900ent-om
-  locator: p. 29.
-    CRS800S (2020 ver.) service manual TO TURN STEPPER OFF, PDF p. 13 (printed 13), text.md lines 192-196; CS800 (2020) service manual 4-2-8 TO TURN STEPPER OFF, PDF p. 16 (printed 15), lines 288-294
+  locator: p. 29. CRS800S (2020 ver.) service manual TO TURN STEPPER OFF, PDF p. 13
+    (printed 13), text.md lines 192-196; CS800 (2020) service manual 4-2-8 TO TURN
+    STEPPER OFF, PDF p. 16 (printed 15), lines 288-294. CT850 2013 OM TO TURN TREADMILL
+    OFF, PDF p. 16 (printed 12), OCR supplement lines 472-480
   extracted_at: '2026-08-24'
 ---
 
@@ -201,3 +207,6 @@ the instructions on page 35" of that machine's owner's manual is the owner's man
 (`spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page`).
 **The CS800 (2020) service manual prints the same three paragraphs word for word** under 4-2-8 TO
 TURN STEPPER OFF, with "the stepper will power down".
+
+**The CT850 2013 owner's manual prints these three paragraphs word for word on its printed p. 12**, with **30 minutes** and with "safety key", so this card covers that machine. **It contradicts itself the same way the CT800 and CT850-2018 books do**: its engineering mode Functions menu prints **20 minutes** for the Sleep Mode setting (`ct850-2013-console-engineering-mode-with-speed-and-enter-a-20-minute-sleep-and-grade-return`). Nothing resolves it; both figures are reproduced as printed.
+

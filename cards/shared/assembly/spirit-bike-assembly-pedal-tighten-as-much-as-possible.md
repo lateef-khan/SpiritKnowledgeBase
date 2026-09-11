@@ -2,7 +2,9 @@
 id: spirit-bike-assembly-pedal-tighten-as-much-as-possible
 title: No pedal torque figure printed, only tighten as much as you possibly can
 kind: procedure
-question: How tight do the pedals go on a Spirit CR800, CU800 or CU800 2012 bike, or on a Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike, and which way does the left one turn?
+question: How tight do the pedals go on a Spirit CR800, CU800 or CU800 2012 bike,
+  or on a Spirit XBR25, XBR55, XBR55ENT, XBR95, XBU55 or XBU55ENT residential bike,
+  and which way does the left one turn?
 asked_as:
 - how tight should the pedals be on my spirit cr800
 - which way does the left bike pedal screw in
@@ -21,9 +23,16 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: 'bike'
+  product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
   - cr800-2021
   - cr800-2023
   - cu800-2012
@@ -63,23 +72,31 @@ see_also:
 - spirit-bike-ent-assembly-pedal-no-thread-warning
 source:
   ref: spirit-bike-cu800-2021-owners-manual
-  locator: p. 11, CU800 STEP FOUR item 3; the same instruction at p. 11 of the CR800 2021
-    and CR800 2023 manuals (`spirit-bike-cr800-2021-owners-manual`,
-    `spirit-bike-cr800-2023-owners-manual`, STEP FOUR item 3) and at PDF p. 12
-    (printed 10) of the CU800 2012 manual (`spirit-bike-cu800-2012-owners-manual`,
+  locator: 'p. 11, CU800 STEP FOUR item 3; the same instruction at p. 11 of the CR800
+    2021 and CR800 2023 manuals (`spirit-bike-cr800-2021-owners-manual`, `spirit-bike-cr800-2023-owners-manual`,
+    STEP FOUR item 3) and at PDF p. 12 (printed 10) of the CU800 2012 manual (`spirit-bike-cu800-2012-owners-manual`,
     STEP 4 item 3), repeated at PDF p. 14 in the second scan bound into the same file;
-    and in STEP FOUR of all fourteen Spirit residential XB bike manuals - p. 12 of the
-    XBR95 2016, 2018 and 2021 manuals, p. 13 of the XBR25 2019, XBR55 2019 and 2021 and
-    XBU55 2019 and 2021 manuals, p. 14 of the XBR55ENT and XBU55ENT manuals, and in
-    ASSEMBLY - STEP FOUR at p. 12 of the XBR25 2023 and XBR95 2023 manuals and p. 13 of
-    the XBR55 2023 and XBU55 2023 manuals
-    (`spirit-bike-xbr25-2019-owners-manual`, `spirit-bike-xbr25-2023-owners-manual`,
-    `spirit-bike-xbr55-2019-owners-manual`, `spirit-bike-xbr55-2021-owners-manual`,
-    `spirit-bike-xbr55-2023-owners-manual`, `spirit-bike-xbr55ent-2021-owners-manual`,
-    `spirit-bike-xbr95-2016-owners-manual`, `spirit-bike-xbr95-2018-owners-manual`,
-    `spirit-bike-xbr95-2021-owners-manual`, `spirit-bike-xbr95-2023-owners-manual`,
-    `spirit-bike-xbu55-2019-owners-manual`, `spirit-bike-xbu55-2021-owners-manual`,
-    `spirit-bike-xbu55-2023-owners-manual`, `spirit-bike-xbu55ent-2021-owners-manual`)
+    and in STEP FOUR of all fourteen Spirit residential XB bike manuals - p. 12 of
+    the XBR95 2016, 2018 and 2021 manuals, p. 13 of the XBR25 2019, XBR55 2019 and
+    2021 and XBU55 2019 and 2021 manuals, p. 14 of the XBR55ENT and XBU55ENT manuals,
+    and in ASSEMBLY - STEP FOUR at p. 12 of the XBR25 2023 and XBR95 2023 manuals
+    and p. 13 of the XBR55 2023 and XBU55 2023 manuals (`spirit-bike-xbr25-2019-owners-manual`,
+    `spirit-bike-xbr25-2023-owners-manual`, `spirit-bike-xbr55-2019-owners-manual`,
+    `spirit-bike-xbr55-2021-owners-manual`, `spirit-bike-xbr55-2023-owners-manual`,
+    `spirit-bike-xbr55ent-2021-owners-manual`, `spirit-bike-xbr95-2016-owners-manual`,
+    `spirit-bike-xbr95-2018-owners-manual`, `spirit-bike-xbr95-2021-owners-manual`,
+    `spirit-bike-xbr95-2023-owners-manual`, `spirit-bike-xbu55-2019-owners-manual`,
+    `spirit-bike-xbu55-2021-owners-manual`, `spirit-bike-xbu55-2023-owners-manual`,
+    `spirit-bike-xbu55ent-2021-owners-manual`) | 40r-2025 (spirit-bike-40r-2025-owners-manual):
+    ASSEMBLY - STEP FOUR items 4-5, PDF p. 14 (printed 12); text.md lines 377-386
+    | 40r-pt (spirit-bike-40r-pt-owners-manual): Step 4, PDF p. 30; lines 849-857
+    | 40u-2025 (spirit-bike-40u-2025-owners-manual): ASSEMBLY - STEP FOUR item 5,
+    PDF p. 14 (printed 12); lines 336-340 | 40u-pt (spirit-bike-40u-pt-owners-manual):
+    Step 4, PDF p. 29; lines 830-833 | 70r-2025 (spirit-bike-70r-2025-owners-manual):
+    ASSEMBLY - STEP FIVE item 4, PDF p. 22 (printed 20); text.md lines 601-611 | 70r-2021
+    (spirit-bike-70r-2021-owners-manual): Step 5, PDF p. 73; lines 2311-2319 | 70u-2025
+    (spirit-bike-70u-2025-owners-manual): ASSEMBLY - STEP FOUR item 3, PDF p. 20 (printed
+    18); lines 560-570'
   extracted_at: '2026-09-09'
 ---
 
@@ -151,3 +168,9 @@ either way.
 The **XBR55ENT** and **XBU55ENT** carry it in full, unlike the commercial CR800ENT and
 CU800ENT books. Do not read the touchscreen absence card as covering every ENT machine;
 see [that card](spirit-bike-ent-assembly-pedal-no-thread-warning.md).
+
+## The Spirit Medical 4.0R and 4.0U, and their Dyaco PT editions, print no figure either
+
+**The 4.0R** (2025 book and PT edition alike) prints the full form: the reverse thread, the **"L" and "R" stamped into the end of the threaded post**, "tighten the pedals as much as you possibly can", and the re-tightening sentence - "a clicking noise, or thumping, sound during pedaling is usually caused by the pedals being too loose". **The 4.0U** (both editions) prints only the reverse thread and "tighten the pedals as much as possible" - no stamp, no thumping sentence. No torque figure in any of the four books; the 4.0R fits Pedals (116 L, 116 R) into Crank Arms (51L, 51R), the 4.0U Pedals (45 L, 45 R) into Crank Arms (16 L, 16 R) - the CR800 and CU800 numbers.
+
+**The Spirit Medical 7.0R (2025 and the 2021 Dyaco MED edition) and 7.0U print the full form too**: the reverse thread, the "L" and "R" stamps, "tighten the pedals as much as you possibly can", and the thumping sentence - and no torque figure. The 7.0R fits Pedals (116-L, 116-R; the 2021 book: 116 and 117), the 7.0U Pedals (138-L, 138-R). The 8.0U and 8.5R of the same medical range print 300 in-lb (34 Nm); that is the linked card.

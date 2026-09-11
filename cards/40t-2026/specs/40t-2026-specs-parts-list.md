@@ -36,9 +36,10 @@ not_to_be_confused_with:
 see_also:
 - 40t-2026-specs-no-specification-table
 - spirit-2026t-specs-no-parts-list
+- 40t-2025-specs-parts-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: Exploded View Diagram p. 48; Parts List pp. 49-50
+  locator: 'Exploded View Diagram p. 48; Parts List pp. 49-50 The ST8700A revision of the service manual, spirit-treadmill-40t-2026-service-manual-st8700a, prints no exploded view and no parts list (contents PDF p. 2, text.md lines 11-35, ending at 9.9 Rear Incline Motor Replacement; the whole 56 pages searched for "part list", "exploded", "Main Frame" and item-number columns).'
   extracted_at: '2026-09-09'
 ---
 
@@ -212,3 +213,5 @@ manual at all; it is not a missing page.
 Items 3 and 4 are both printed as "Console Support", and items 43 and 57 are both
 printed as "Incline Motor", each with a quantity of 1. That is what the page
 says.
+
+**The 2025 printings of this manual print a shorter list** - 144 rows to item 180, without items 181 to 186, a 5 × 20 mm tapping screw at item 67 and no "(Alloy Steel)" at item 127 (`40t-2025-specs-parts-list`). Quote the year with the number. Neither revision of the 4.0T service manual prints a list of its own.

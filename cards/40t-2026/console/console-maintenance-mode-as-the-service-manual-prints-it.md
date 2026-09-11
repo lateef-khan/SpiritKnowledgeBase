@@ -42,9 +42,13 @@ see_also:
 - 40t-2026-console-factory-settings-min-0-3-to-0-7-max-down-to-10-0
 - 40t-2026-console-pause-mode-setting
 - 70t-2026-console-service-mode-tests
+- 40t-2026-console-reverse-mode-from-zero-speed-with-a-3-mph-ceiling
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Section 8, Maintenance Mode, PDF p. 33 (printed 33); text.md lines 482-517
+  locator: Section 8, Maintenance Mode, PDF p. 33 (printed 33); text.md lines 482-517.
+    4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    the later revision of the ST8700-ST017 book) Maintenance Mode, PDF p. 34 (printed
+    34), text.md lines 512-547
   extracted_at: '2026-09-11'
 ---
 
@@ -83,4 +87,6 @@ procedure and is held with the error cards.
 
 The A1 / A2 readings are what the factory-settings calibration displays too:
 `40t-2026-console-factory-settings-min-0-3-to-0-7-max-down-to-10-0`.
+
+**The ST8700A-ST026-01 revision of this service manual prints the page unchanged** - same ENGINEERING MODE MENU prompt, same items, same 30-minute sleep - one page later, on its p. 34. Its only console additions are a REVERS Keys label on the console drawing and a REVERSE MODE page (`40t-2026-console-reverse-mode-from-zero-speed-with-a-3-mph-ceiling`).
 

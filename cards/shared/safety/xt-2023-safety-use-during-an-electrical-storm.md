@@ -2,7 +2,9 @@
 id: xt-2023-safety-use-during-an-electrical-storm
 title: Using the treadmill during an electrical storm
 kind: policy
-question: Can I use a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800-2012 treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, or a Spirit XE residential elliptical, during a thunderstorm?
+question: Can I use a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385,
+  XT485, XT685), a Spirit CT800-2012 treadmill, a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill,
+  or a Spirit XE residential elliptical, during a thunderstorm?
 asked_as:
 - can i run on the treadmill during a storm
 - should i unplug the treadmill in a thunderstorm
@@ -22,11 +24,19 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ct800-2012
   - ct800-2024
+  - ct850-2013
   - ct850-2024
   - mt200-2010
   - mt200-2022
@@ -59,6 +69,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -77,7 +88,30 @@ see_also:
 - spirit-xe-2005-2007-safety-instructions-list
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T, 7.0T and 8.0T owner's manuals print it as the first WARNING of their OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner's manuals print it as the first bullet of their Important Operation Instructions page, 2010 page 5 and 2022 page 10 The CT800 2012 owner's manual prints all three sentences on its Important Operation Instructions page, page 4. The XT685 2010 owner's manual prints it on its Important Operation Instructions page, PDF page 8 (printed 4)
+  locator: 'page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print
+    the same page on page 7. The five 2015 XT owner''s manuals print it on their Important
+    Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The
+    2026 4.0T, 7.0T and 8.0T owner''s manuals print it as the first WARNING of their
+    OPERATION INSTRUCTIONS page, page 8. The two Spirit MT200 owner''s manuals print
+    it as the first bullet of their Important Operation Instructions page, 2010 page
+    5 and 2022 page 10 The CT800 2012 owner''s manual prints all three sentences on
+    its Important Operation Instructions page, page 4. The XT685 2010 owner''s manual
+    prints it on its Important Operation Instructions page, PDF page 8 (printed 4).
+    Spirit Medical 7.0R (2025): OPERATION INSTRUCTIONS, first WARNING bullet, PDF
+    p. 10 (printed 8), text.md lines 226-259, in spirit-bike-70r-2025-owners-manual;
+    7.0U: PDF p. 10, lines 231-264, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF
+    p. 10, lines 227-260, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p. 10,
+    lines 221-254, in spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: Important
+    operation instructions, PDF p. 25, lines 755-784, in spirit-bike-70r-2021-owners-manual.
+    The 2025 4.0T owner''s manual (revision 02.04.25, version 2.1) prints the same
+    page: OPERATION INSTRUCTIONS, PDF p. 10 (printed 8), lines 236-271 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: OPERATION INSTRUCTIONS, PDF p. 10,
+    lines 218-247 in spirit-treadmill-70t-2025-owners-manual. XT485-2013: IMPORTANT
+    OPERATION INSTRUCTIONS, PDF p. 6 (printed 5), lines 176-215, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Operation Instructions, PDF p. 8 (printed 4), OCR supplement
+    at lines 186-226, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -203,3 +237,19 @@ ELECTRICAL SAFETY page, printed page 6. They are the only two of the fourteen 20
 that print it: the four other mains-powered machines of the range - CT800ENT-2024, CT850ENT-2024,
 CE800ENT-2024 and CR800ENT-2024 - carry the AFCI/GFCI paragraph without this sentence, and the
 remaining eight print no storm warning at all.
+
+## The plug-in Spirit Medical bikes print two of the three sentences, with `facility`
+
+**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals, and the Dyaco MED 7.0R, open their operation
+WARNING box with** `Never use your 7.0R during an electrical storm. Surges may occur in your facility
+power supply that could damage the 7.0R's components` - the 2026 treadmills' two sentences, with
+`facility` for `household`, and **no `unplug as a precaution` sentence**
+(`spirit-med-bike-safety-operation-instructions-warnings`). The self-powered 4.0R and 4.0U print no
+storm rule at all.
+
+**The 2025 printings of the 4.0T and 7.0T manuals print their 2026 sentences unchanged.**
+
+**Two 2013 owner's manuals print all three sentences.** The Australian XT485-2013 prints the 2015 XT
+wording with `household power supply` and `Unplug the treadmill during an electrical storm as a
+precaution`; the CT850-2013 prints `your facility/ household power supply` and the same unplug
+sentence.

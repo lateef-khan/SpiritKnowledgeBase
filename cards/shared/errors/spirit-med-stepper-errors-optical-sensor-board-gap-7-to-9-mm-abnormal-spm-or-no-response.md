@@ -3,7 +3,7 @@ id: spirit-med-stepper-errors-optical-sensor-board-gap-7-to-9-mm-abnormal-spm-or
 title: An abnormal SPM reading or an optical sensor board that does not respond is
   its cable and a 7 to 9 mm gap to the barcode sticker on the cable wheel
 kind: troubleshooting
-question: What is the optical sensor board gap on a Spirit 7.5S or 8.5S recumbent
+question: What is the optical sensor board gap on a Spirit 7.0S, 7.5S or 8.5S recumbent
   stepper when the steps per minute read wrong or the sensor does not respond?
 asked_as:
 - stepper spm reading is wrong
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: errors
   code: no-code
@@ -43,7 +45,10 @@ source:
     Reading (7.3.1 and 7.3.2), PDF p. 45; text.md lines 586-604. 8.5S (MS2000-SB036-01)
     service manual 7. Troubleshooting, 7-4 Optical Sensor Board No Respond, PDF p.
     42; text.md lines 591-600, and 6-8 step 1 which repeats the 7-9 mm figure (PDF
-    p. 35, lines 494-499)
+    p. 35, lines 494-499); 7.0S (RS9500-SS021-02) service manual 7.4 Abnormal SPM
+    Reading, PDF p. 46, text.md lines 611-630; 7.5S (RS9600-SS021-03) service manual
+    7.3 Abnormal SPM Reading, PDF p. 46, text.md lines 599-618 - the same two checks
+    and figures
   extracted_at: '2026-09-11'
 ---
 
@@ -63,3 +68,6 @@ Both books end their mechanical troubleshooting chapter with the same sensor and
 **Cable first, gap second, and the gap is set by slotted screws.** Neither page prints a voltage; the electrical checks for the same board (5 V on pins 1 and 3, the Sensor Test counters) are the step-graph procedure earlier in both books (`spirit-med-stepper-errors-left-right-step-graph-incorrect-step-sensor-5-volts-and-7-to-9-mm`).
 
 **The 7.5S contents page promises a section this chapter does not print.** It lists *7.3 Sway of Swivel Seat* and *7.4 Abnormal SPM Reading*; the body has no swivel-seat section and numbers Abnormal SPM Reading as 7.3. The swivel seat is covered by the CRS800S book instead, under maintenance.
+
+**The 7.0S 2025 and 7.5S 2025 service manuals print the same two checks and the same 7-9 mm and 1-2 mm figures** (7.4 on the 7.0S, 7.3 on the 7.5S; added 2026-09-11).
+

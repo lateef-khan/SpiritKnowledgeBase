@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-assembly-hardware-kit
@@ -40,7 +39,10 @@ see_also:
 - spirit-2026t-assembly-tools-included
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: pp. 11-15, the "Hardware for Step" tables
+  locator: 'pp. 11-15, the "Hardware for Step" tables | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    the Hardware for Step tables, PDF pp. 13-17 (printed 11-15); text.md lines 327-468;
+    the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    prints the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -105,3 +107,5 @@ place the difference appears: 116 is black, 136 is silver.
   not say which is right. Both are reproduced above as printed.
 - **Item 137 is a bolt on this machine**, M8 x 35mm. On the 7.0T the number 137
   is the 5mm Allen wrench. The number alone does not identify the part.
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

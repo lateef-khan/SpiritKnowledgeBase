@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-assembly-plugging-in
@@ -40,7 +39,10 @@ see_also:
 - xt-2023-assembly-power-on-self-test
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 16, SETTING UP YOUR TREADMILL - Power On
+  locator: 'p. 16, SETTING UP YOUR TREADMILL - Power On | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    SETTING UP YOUR TREADMILL - Power On, PDF p. 18 (printed 16); text.md lines 468-501;
+    the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    prints the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +64,5 @@ around ten seconds to come up. Neither sequence is printed for this machine.
 
 The 7.0T and 8.0T describe their power-up differently again, as an input module
 with its own circuit breaker.
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

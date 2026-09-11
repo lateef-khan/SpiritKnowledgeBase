@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-errors-rep-counter-and-timer-does-not-turn-on
-title: The rep counter and timer does not turn on when weight is lifted, and the four checks that follow
+title: The rep counter and timer does not turn on when weight is lifted, and the four
+  checks that follow
 kind: troubleshooting
-question: What does a Spirit strength owner's manual say to do when the rep counter and timer will not turn on as the weight is lifted?
+question: What does a Spirit strength owner's manual say to do when the rep counter
+  and timer will not turn on as the weight is lifted?
 asked_as:
 - my rep counter wont turn on when i lift the weight
 - the counter on my weight machine is dead
@@ -64,7 +66,14 @@ see_also:
 - spirit-strength-csd-warranty-periods-with-counter-timer
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'TROUBLESHOOTING page, row 1 of 2, printed page 26-33 depending on the book (PDF page 26-32); verbatim on all 28 CSS and CSD manuals. Read from the PDF text layer on 27 of them and from a 300 dpi tesseract --psm 4 render on CSS-SROW, whose PDF carries no text layer on any page.'
+  locator: TROUBLESHOOTING page, row 1 of 2, printed page 26-33 depending on the book
+    (PDF page 26-32); verbatim on all 28 CSS and CSD manuals. Read from the PDF text
+    layer on 27 of them and from a 300 dpi tesseract --psm 4 render on CSS-SROW, whose
+    PDF carries no text layer on any page; CSS-DELT 2026 revision (spirit-strength-css-delt-owners-manual-2026)
+    prints the same two rows, TROUBLESHOOTING, PDF p. 30 (printed 29), text.md lines
+    876-897; CSD-CPSP May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update)
+    the same at PDF p. 32 (printed 31), read from the OCR supplement for page 32 because
+    that page has no text layer (both checked 2026-09-11)
   extracted_at: '2026-09-10'
 ---
 

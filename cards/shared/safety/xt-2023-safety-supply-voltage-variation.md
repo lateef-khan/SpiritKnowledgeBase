@@ -26,8 +26,14 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce800ent-2024
   - ce850-2024
   - cr800ent-2023
@@ -100,7 +106,14 @@ source:
     block, printed page 5, and the CU800ENT-2024 manual on its ELECTRICAL SAFETY page,
     printed page 6. CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30
     (printed 30), text.md lines 418-447, in spirit-stepper-cs800-2016-service-manual.
-    The paragraph follows the cover-removal sentence in 7-2.'
+    The paragraph follows the cover-removal sentence in 7-2. Spirit Medical 7.0R (2025):
+    ELECTRICAL SAFETY, PDF p. 8 (printed 6), text.md lines 171-203, in spirit-bike-70r-2025-owners-manual;
+    7.0U: PDF p. 8, lines 177-208, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF
+    p. 8, lines 183-204, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p. 8, lines
+    177-198, in spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: Important electrical
+    information, PDF p. 15, lines 486-517, in spirit-bike-70r-2021-owners-manual.
+    The 2025 7.0T owner''s manual (revision 01.10.25, version 2.0) prints the same
+    page: ELECTRICAL SAFETY, PDF p. 8, lines 164-195 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -241,3 +254,16 @@ where the XT books say `your unit`: ten percent or more, performance affected, n
 company or a licensed electrician to test. The nominal circuit that book names is `120-volt (230-volt)`
 (`spirit-ct800-safety-outlet-120-volt-15-amp`), not the 110 volt of the XT manuals. It is the only service manual of the
 2026-09-11 rower, climber and stepper wave that prints this paragraph.
+
+## The plug-in Spirit Medical bikes print the rule with their supply range in brackets
+
+**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals, and the Dyaco MED 7.0R, print it as** `If voltage
+varies by 10% or more outside the specified range (90 to 240V), the performance of your 7.0R may be
+affected. Such conditions are not covered under your warranty` - `(100 to 240V)` on the 8.0U and 8.5R
+- ahead of the IEC 60601 climatic block (`spirit-med-bike-safety-outlet-90-to-240-volt-15-amp`,
+`spirit-med-bike-safety-outlet-100-to-240-volt-15-amp`). The self-powered 4.0R and 4.0U print no
+voltage paragraph.
+
+**The 2025 printing of the 7.0T manual prints the bracket too** - `(100 to 240V)`, on a treadmill
+whose own page says 120 volts, 60 Hz - and the 2026 printing removed it
+(`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`).

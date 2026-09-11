@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 3e3c97e6f61957a62c76200c5e6383ad3fa57d1792b3fae6e1910e019688af16
+  sha256: 4a237d8efc5768ad0dd52e41d886d84a7e61a49958d9f5e0ccf723c3a0833a94
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -1109,6 +1109,116 @@
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
   ingested_at: '2026-09-03'
+- id: spirit-bike-40r-2025-owners-manual
+  title: 2025 Spirit Medical 4.0R recumbent bike owner's manual (740145, Revision
+    10.03.25, warranty effective October 3, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/4.0R/2026/40R_OwnersManual_740145_20251003.pdf
+  sha256: c6b1f5276f5e4fb0fe85b12d0952de9e1127c3764b4a1a5050d83f2657ed95df
+  ingested_at: '2026-09-11'
+- id: spirit-bike-40r-2025-service-manual
+  title: Spirit Medical 4.0R recumbent bike service manual (740145, FR800-SB022-03,
+    February 2026 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/4.0R-740145_FR800-SB022-03_Service
+    Manual.pdf
+  sha256: 37f6431d1eeb5340011da13206954606f09b10f964e851d80431417b6fa1033d
+  ingested_at: '2026-09-11'
+- id: spirit-bike-40r-pt-owners-manual
+  title: Dyaco "PT" 4.0 R recumbent bike user manual, undated (February 2016 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/4.0R/4.0R_OM.PDF
+  sha256: c749a341cbf6d77e5e3851d7c55e9e4c8811e9de785861a587a190ffe2bd4714
+  ingested_at: '2026-09-11'
+- id: spirit-bike-40u-2025-owners-manual
+  title: 2025 Spirit Medical 4.0U upright bike owner's manual (740245, Revision 10.03.25,
+    warranty effective October 3, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/4.0U/2026/40U_OwnersManual_740245_20251003.pdf
+  sha256: d6d045c56e9cadf88a55dc4c44d091a4268b453eb11585202dd6100589653b5e
+  ingested_at: '2026-09-11'
+- id: spirit-bike-40u-2025-service-manual
+  title: Spirit Medical 4.0U upright bike service manual (740245, FU800-SB022-03)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/4.0U-740245_FU800-SB022-03_Service
+    Manual.pdf
+  sha256: 655f1a57eea210c7956407cd28d5915724459a37413426e4fab6df3390da25f4
+  ingested_at: '2026-09-11'
+- id: spirit-bike-40u-pt-owners-manual
+  title: Dyaco "PT" 4.0 U upright bike user manual, undated (February 2016 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/4.0U/4.0U_OM.PDF
+  sha256: b2e9d48ef7ce391bd009e8bb32e1ed5de16b73a2fcea02677a8a1b5506d8c0ee
+  ingested_at: '2026-09-11'
+- id: spirit-bike-70r-2021-owners-manual
+  title: Dyaco "MED" 7.0R rehabilitation bike user manual, Rev. 1.2.1 of October 14,
+    2021 (CE MDD)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/70R/7.0R_OM.PDF
+  sha256: f0b3d16854923fbf9648c636b7a37af7122639f17c16d75ef057fdefe1c9059f
+  ingested_at: '2026-09-11'
+- id: spirit-bike-70r-2025-owners-manual
+  title: 2025 Spirit Medical 7.0R recumbent bike owner's manual (770145, Revision
+    12.23.25, (c) 2024, warranty effective December 23, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/70R/2026/70R_770145_OwnersManual_20251223.pdf
+  sha256: 2322913a849886b536edf1fce563d9f141e038ba8763b04293795d29d498f4df
+  ingested_at: '2026-09-11'
+- id: spirit-bike-70r-2025-service-manual
+  title: Spirit Medical 7.0R recumbent bike service manual (770145, MR490-SB018-03)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/7.0R-770145_MR490-SB018-03_Service_Manual.pdf
+  sha256: 07adbafb314ab0fda3120aa300f525d410e68bae106fbae432ae4f4888bb00c2
+  ingested_at: '2026-09-11'
+- id: spirit-bike-70u-2025-owners-manual
+  title: 2025 Spirit Medical 7.0U upright bike owner's manual (770245, Revision 12.09.2025,
+    (c) 2024, warranty effective December 9, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/70U/2026/70U_770245_OwnersManual_20251209.pdf
+  sha256: eb8aab0d904a69a67c041e0b3ef22e850a94de935e508fcbc7b73cbb93dc8f9e
+  ingested_at: '2026-09-11'
+- id: spirit-bike-70u-2025-service-manual
+  title: Spirit Medical 7.0U upright bike service manual (770245, MU470-SB018-01 on
+    the cover)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/7.0U-770245_MU470-SB018-02_Service_Manual.pdf
+  sha256: a312dce841164d47bda6b1b09b97a64da09172dd9854fb4296c5c877572b37e6
+  ingested_at: '2026-09-11'
+- id: spirit-bike-80u-2025-owners-manual
+  title: 2025 Spirit Medical 8.0U upright bike owner's manual (Revision 12.03.25,
+    warranty effective December 3, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/8.0U/80U_OwnersManual_20251203.pdf
+  sha256: 86337eb128f940f5106bcb035d4336c4aceaf205d8c55018d299b3785827ecbc
+  ingested_at: '2026-09-11'
+- id: spirit-bike-80u-2025-service-manual
+  title: Spirit Medical 8.0U upright bike service manual (780245, MU2000-SB036-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/8.0U-780245_MU2000-SB036-01_Service
+    Manual.pdf
+  sha256: b377f5614e826d54158a00237ca9a1ba1aa845b0af61a2d10db6c00d129977a1
+  ingested_at: '2026-09-11'
+- id: spirit-bike-85r-2025-owners-manual
+  title: 2025 Spirit Medical 8.5R recumbent bike owner's manual (Revision 12.15.25,
+    warranty effective December 15, 2025; filed under Treadmills)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.5R/85R_OwnersManual_20251125.pdf
+  sha256: 423117625e8d4ae1fc9767206057b00c18e1d34c577674eda91d33666e8075b2
+  ingested_at: '2026-09-11'
+- id: spirit-bike-85r-2025-service-manual
+  title: Spirit Medical 8.5R recumbent bike service manual (784145, MR2000-SB036-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/8.5R-784145
+    _MR2000-SB036-01_Service Manual.pdf
+  sha256: 802288fadacaf5a87a7bfbe1994154c0ff8d7f2559a84dd8ad50dd1377ba1f1d
+  ingested_at: '2026-09-11'
+- id: spirit-bike-85ue-2025-service-manual
+  title: Spirit Medical 8.5UE bike service manual (785045, MZ2000-SB036-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/8.5UE-785045
+    _MZ2000-SB036-01_Service Manual.pdf
+  sha256: a6766f97b852b3c5ba70f6cbb9f986ec297c120df744d9ff16d93508f6517228
+  ingested_at: '2026-09-11'
 - id: spirit-bike-ab900-2018-owners-manual
   title: 2018 Spirit AB900 air bike owner's manual, Revision 12.13.2018, warranty
     effective October 1, 2018 (the 2015 folder is wrong)
@@ -2202,7 +2312,7 @@
   title: Spirit commercial model numbers from the CustService MODEL table
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 3e3c97e6f61957a62c76200c5e6383ad3fa57d1792b3fae6e1910e019688af16
+  sha256: 4a237d8efc5768ad0dd52e41d886d84a7e61a49958d9f5e0ccf723c3a0833a94
   ingested_at: '2026-09-08'
 - id: spirit-rower-cr1000ent-2023-service-manual
   title: Spirit CR1000ENT recumbent bike service manual (CR1000(2023) SR8880-SB028
@@ -2300,6 +2410,19 @@
     Steppers/75S/DYACO 7.5S (RS9600-SS021) Service Manual.pdf
   sha256: efc44636857169620a4371f3dce06fdb74a4736fc77b024ef4adbb2fc6f05e73
   ingested_at: '2026-09-11'
+- id: spirit-stepper-70s-2025-service-manual
+  title: Spirit Medical 7.0S recumbent stepper service manual (770545, RS9500-SS021-02)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/7.0S-770545_RS9500-SS021-02_Service_Manual.pdf
+  sha256: 6620cfca72a76a00dd7afa8651e6856ffe2bb4d532bd5dc4cc2c35204171c1a3
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-75s-2025-service-manual
+  title: Spirit Medical 7.5S recumbent stepper service manual (775545, RS9600-SS021-03;
+    97% the RS9600-SS021-01 book carded as 7-5s-med)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/MEDICAL/7.5S-775545_RS9600-SS021-03_Service_Manual.pdf
+  sha256: afb879467feb80a9f08a847d196035f7c415ee3401a33a49cfc3b2e7bbdd8373
+  ingested_at: '2026-09-11'
 - id: spirit-stepper-85s-2025-service-manual
   title: Spirit Medical 8.5S recumbent stepper service manual (785545, MS2000-SB036-01)
   kind: pdf
@@ -2365,6 +2488,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-CPSP/CSD-CPSP_627773_OM_20240325.pdf
   sha256: 4a5c1acd5ac761755412e1cbac34364f35f91f8a3d29b90282f40bd5fcace706
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-cpsp-owners-manual-2025-update
+  title: Spirit CSD-CPSP chest/shoulder press owner's manual, May 2025 update
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-CPSP/4601US,
+    CSD-CPSP, ChestShoulderPress_OM - Update - 2025 0521.pdf
+  sha256: d23656a3396fdbb558117a3416a71d6826e869757f35e5b6fa7cfa1cfb6ed2fb
+  ingested_at: '2026-09-11'
 - id: spirit-strength-csd-itot-owners-manual
   title: Spirit CSD-ITOT inner / outer thigh strength machine owner's manual, warranty
     effective february 22, 2024
@@ -2495,6 +2625,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-DELT/SP-4312, DeltoidTrainer_DELT_OM - 2025 0610.pdf
   sha256: 8d8f12ae56641a917f7cf6375b61896ebba3ef6512844f648d975d8440b1be3e
   ingested_at: '2026-09-10'
+- id: spirit-strength-css-delt-owners-manual-2026
+  title: Spirit CSS-DELT deltoid trainer owner's manual, 2026 revision (shifted font
+    encoding in the text layer; read the OCR)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-DELT/SP-4312,
+    DeltoidTrainer_DELT_OM - 20260821.pdf
+  sha256: 287064f7fd0c3129744089fe93affbec40561f19c623235a542ef83595221872
+  ingested_at: '2026-09-11'
 - id: spirit-strength-css-glut-owners-manual
   title: Spirit CSS-GLUT glute strength machine owner's manual, warranty effective
     july 02, 2024
@@ -2641,6 +2779,21 @@
     (2).pdf
   sha256: a09a0a80b6b8ee266a928591dba21e607ab467b72db001513370a6741eca6745
   ingested_at: '2026-09-10'
+- id: spirit-treadmill-40t-2025-owners-manual
+  title: 2025 Spirit Medical 4.0T treadmill owner's manual (Revision 02.04.25, (c)
+    2024, warranty effective October 31, 2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/4.0T/40T_OwnersManual_20250110.pdf
+  sha256: 8e09b3f6f5feeaf7889043651a0a9010e69ac282caba67d2ddc7ac934a298833
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-40t-2025-owners-manual-may-2025-printing
+  title: 2025 Spirit Medical 4.0T treadmill owner's manual, May 2025 printing (Revision
+    05.19.25; the file is misnamed "740881 - 70T")
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/70T/740881
+    - 70T.pdf
+  sha256: 06f8160be313bcaa6de7ac2847712ebcb61da9a0aecd8f4e3d9f8977810d292d
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-40t-2026-owners-manual
   title: 2026 Spirit 4.0T treadmill owner's manual
   kind: pdf
@@ -2654,18 +2807,48 @@
     (CT4000)  Service Manual - 740885 4.0T.pdf
   sha256: 4023e398666d3ec1f1c42c775a59672c4a3ebe700ea5c9de9f7cf03a28941b72
   ingested_at: '2026-09-11'
+- id: spirit-treadmill-40t-2026-service-manual-st8700a
+  title: Spirit Medical 4.0T treadmill service manual, ST8700A revision (740885; 88%
+    the ST8700-ST017 book already carded)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/MEDICAL/4.0T-740885_ST8700A-ST026-01_Service
+    Manual.pdf
+  sha256: 0b38b465ff5d0c381da9fdc8cbd7afbe099c8013a6c5e6e7699f3c7cbf7e2c8a
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-70t-2025-owners-manual
+  title: 2025 Spirit Medical 7.0T treadmill owner's manual (Revision 01.10.25, (c)
+    2024, warranty effective October 23, 2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/70T/7.0T_OM_20250110.PDF
+  sha256: a8df9cd9736e740d54f744c0134dcce4623c71880a7f22fbba2bca66341f27f2
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-70t-2026-owners-manual
   title: 2026 Spirit 7.0T treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/70T/70T_OwnersManual_770885_20251118.pdf
   sha256: 548fdb19105cab4b39ba7d5f0f7335c79d052e00f8b8dc20383d54d17f15f30f
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-70t-2026-service-manual
+  title: Spirit Medical 7.0T treadmill service manual (770885, February 2026 export
+    of the MT8000-ST021 book carded as mt200-2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/MEDICAL/7.0T-770885_MT8000-ST024-01_Service_Manual.pdf
+  sha256: 0a4aab46d091627bc3a843dcf1d110d6c6c734273de526ee152cff3ea5b3d523
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-80t-2026-owners-manual
   title: 2026 Spirit 8.0T treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
   sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-80t-2026-service-manual
+  title: Spirit Medical 8.0T treadmill service manual (780885, MT2000-ST022-01 on
+    the cover)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/MEDICAL/8.0T-780885_MT2000-ST027-01_Service
+    Manual.pdf
+  sha256: 9224f263d53ca4a7522c87dc448af0174579b8b6b5c6d528887f13beaec291cf
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct1000ent-2023-service-manual
   title: Spirit CT1000ENT treadmill service manual (CT1000(2023) ST8880-ST018 ENT
     Treadmill)
@@ -2754,6 +2937,15 @@
     Units/CT800ENT_OwnersManual_800865_20241004.pdf
   sha256: ae89d2fe5c1260b74337507a2f2a715026e31a9f94a49a6c15800ddda20d74ce
   ingested_at: '2026-09-10'
+- id: spirit-treadmill-ct850-2013-owners-manual
+  title: 2013 Spirit CT850 treadmill owner's manual (internal stamp CT850_20131015,
+    warranty effective November 1, 2013; a Lexmark scan with no text layer, all OCR;
+    the sibling scan CT850_OM_ 850813.pdf is the same book at 94%)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850/2012/CT850
+    2012 OM 850812.pdf
+  sha256: c185f8ed8c996381c49cd892bfad5a77ab6fcbb761572ef62465d26a4eeccebf
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct850-2016-owners-manual
   title: 2016 Spirit CT850 treadmill owner's manual (rev. 03/2022)
   kind: pdf
@@ -2972,6 +3164,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT385/XT385
     (385823) Service Manual.pdf
   sha256: 67ed3161f0aebafadc68a8f1f50b17a648db614cda405abc2999735bcf4faa9a
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-xt485-2013-owners-manual
+  title: Spirit XT485 2013 treadmill owner's manual (485812, SPT0033; March 2014 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485/2013/485812
+    XT485.pdf
+  sha256: 68c604efb92b52b5b5c1a5905603dae02f15ab6a2e9849e44cbc6d4f7f8628a9
   ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt485-2015-owners-manual
   title: 2015 Spirit XT485 treadmill owner's manual

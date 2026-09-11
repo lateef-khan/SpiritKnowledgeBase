@@ -29,6 +29,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -51,6 +52,7 @@ see_also:
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-start-date
 - spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
+- ct850-2013-specs-no-parts-list
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: 'Manufacturer''s Limited Warranty table, p. 25, text.md lines 1098-1099.
@@ -59,7 +61,7 @@ source:
     2022 p. 53 (lines 1209-1210). They are printed again, unchanged, in all four CT850
     owner''s manuals: ct850-2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual text.md
     line 1156), ct850-2018 p. 45 (line 1149), ct850-2020 p. 45 (line 1155), ct850ent-2022
-    p. 53 (line 1216) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CT850ENT, CT850 and CT800 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Motor 5 Years, Parts 5 Years, Labor 2 Years.'
+    p. 53 (line 1216) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CT850ENT, CT850 and CT800 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Motor 5 Years, Parts 5 Years, Labor 2 Years. The same four figures in the CT850 2013 book, whose section is headed "Treadmill Warranty - Effective November 1, 2013" rather than Manufacturer''s Limited Warranty: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -79,6 +81,7 @@ source:
 | CT850 2018 | Commercial | December 23, 2015 |
 | CT850 2020 | Commercial (Non-Dues Paying Facilities) | August 10, 2023 |
 | CT850ENT 2022 | Commercial (Non-Dues Paying Facilities) | July 03, 2024 |
+| CT850 2013 | Commercial | November 1, 2013 |
 
 **The effective date does not track the model year.** The CT850 2016 manual prints a warranty effective **November 12, 2021** and the CT850 2018 manual one effective **December 23, 2015** - the older manual carrying the later terms. The date is the date the warranty was written, not the year of the machine, so it is no guide to which manual is newer.
 
@@ -98,3 +101,5 @@ confirmation of the facility reading above - with the column headed *Motor* rath
 *Motor/Deck* and a four-asterisk note on the CT850ENT for its console periods
 (`ct800ent-2022-warranty-console-periods`). See
 `spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.
+
+**The CT850 2013 book prints the same row** - Frame Lifetime, Motor/Deck 5 Years, Parts 5 Years, Labor 2 Years - under a section headed *Treadmill Warranty - Effective November 1, 2013*, with the plain row label Commercial, no prisons footnote under the table, and Labor printed "2 Years". It is the earliest of the nine.

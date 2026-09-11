@@ -2,7 +2,8 @@
 id: spirit-strength-safety-serial-decal-metric-figure-180-kg-disagrees
 title: The decal that says 180 kg where the manual says 163 kg, on eight machines
 kind: fact
-question: Why does the label on my Spirit strength machine say 180 kg when the manual says 163 kg?
+question: Why does the label on my Spirit strength machine say 180 kg when the manual
+  says 163 kg?
 asked_as:
 - the sticker and the manual give different weight limits
 - label says 180 kg manual says 163 kg
@@ -43,7 +44,11 @@ see_also:
 - spirit-strength-safety-product-labels-three-decals
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: Serial Number Decal on PRODUCT LABELS, printed page 4 (PDF page 5), read from 400-500 dpi renders, against SAFETY INSTRUCTIONS item 20 on printed page 5
+  locator: 'Serial Number Decal on PRODUCT LABELS, printed page 4 (PDF page 5), read
+    from 400-500 dpi renders, against SAFETY INSTRUCTIONS item 20 on printed page
+    5. CSD-CPSP May 2025 update: Serial Number Decal on PRODUCT LABELS, PDF p. 5 (printed
+    4), text.md lines 61-146 and OCR supplement at line 581, read from a 250 dpi render,
+    in spirit-strength-csd-cpsp-owners-manual-2025-update'
   extracted_at: '2026-09-10'
 ---
 
@@ -67,3 +72,13 @@ decal and have no such disagreement. Neither do the other eighteen CSS machines.
 The same 180 kg appears legitimately elsewhere in the range and does not indicate an error there:
 the four CSF benches pair it with **396 lb**, which is the correct conversion, and CSF-FUNT pairs it
 with 400 lb.
+
+## The May 2025 CSD-CPSP update corrects the decal to 163 kg
+
+**The CSD-CPSP owner's manual reissued as a May 2025 update (version 5.0, revision 01/23/2025) prints
+the serial number decal as `MAX USER WEIGHT: 163kg / 360lb`** - read from a 250 dpi render of its
+printed page 4 - where the February 2024 book printed 180 KG / 360 LBS. Its safety instructions
+item 20 and its safeguards page still say 360 lb / 163 kg, so in that printing the decal and the
+text agree. **The disagreement above is the 2024 book's**, and it stands for the other seven
+machines until their manuals are reissued. Ask which printing the customer holds before saying the
+decal is wrong.

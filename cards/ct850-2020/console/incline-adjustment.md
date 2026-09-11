@@ -27,6 +27,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -44,7 +45,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-6 INCLINE, p. 14 (printed 13). CT800-2020 service manual section
-    4-1-6 INCLINE, PDF p. 14 (printed 13), text.md lines 207-212
+    4-1-6 INCLINE, PDF p. 14 (printed 13), text.md lines 207-212. CT850 2013 OM Incline,
+    PDF p. 15 (printed 11), OCR supplement lines 412-421
   extracted_at: '2026-09-08'
 ---
 
@@ -96,4 +98,6 @@ third bullet or a key number for those two machines.
 **The CT800-2020 service manual prints this section word for word** (its section 4-1-6 INCLINE); the two
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
+**The CT850 2013 owner's manual prints all three bullets and the numeric-keypad route on its printed p. 11**, as the 2018 book does - "Press and hold the adjust Up / Down keys ... or by pressing the Incline button and typing the desired incline on the numeric keypad. Once setting desired is selected, press Enter" - with no rapid incline ladder, so this card covers that machine; its calibration sets the maximum elevation to 15 (`ct850-2013-console-calibration-with-a-20-kph-12-5-mph-maximum-and-an-incline-steps-prompt`).
 

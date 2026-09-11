@@ -22,6 +22,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -36,7 +37,8 @@ source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-11 MESSAGE WINDOW DISPLAY, p. 15 (printed 14). CT800-2020 service
     manual section 4-1-11 MESSAGE WINDOW DISPLAY, PDF p. 15 (printed 14), text.md
-    lines 243-250
+    lines 243-250. CT850 2013 OM Message Window Display, PDF p. 16 (printed 12), OCR
+    supplement lines 467-470
   extracted_at: '2026-09-08'
 ---
 
@@ -65,4 +67,6 @@ this card covers those two machines. On those consoles it is the same panel as t
 **The CT800-2020 service manual prints this section word for word** (its section 4-1-11 MESSAGE WINDOW DISPLAY); the two
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
+**The CT850 2013 owner's manual prints these two sentences word for word on its printed p. 12**, under its own MESSAGE WINDOW DISPLAY heading, so this card covers that machine. On that console it is the separate 20-character Message Center, as on the 2018.
 

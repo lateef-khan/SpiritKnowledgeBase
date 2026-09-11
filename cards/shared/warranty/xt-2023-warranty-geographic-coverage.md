@@ -22,9 +22,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -66,6 +74,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -212,6 +221,7 @@ source:
     1980, spirit-bike-xbr95-2023-owners-manual line 1920, spirit-bike-xbu55-2023-owners-manual
     line 1753.
     The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints footnote *, "Warranty applies to 48 contiguous states.", marked against every table heading on both pages.
+    Exclusion 9 and the 48-contiguous-states note, printed twice, in the six 2025 Spirit medical bike manuals: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); in the 2025 4.0T and 7.0T printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651); and as exclusion 10 with the same note in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -312,3 +322,5 @@ The CT800, CT850, CT800ENT and CT850ENT treadmills, the CE800, CE850 and CE800EN
 **The warrantor named in the note changed back.** All fourteen read "All warranties are made by **Spirit Fitness, Inc.**" - the XT wording. The CT800 2016 and 2020, the CT800ENT 2022 and all four earlier CT850 manuals read *Spirit Manufacturing, Inc.* in the same sentence. So a customer holding a 2022 CT850ENT and a 2024 CT850ENT is looking at two different named warrantors for the same machine name, and neither manual says which entity honours a claim on the other's terms.
 
 **Nothing else moves.** Alaska and Hawaii are outside the covered area on all fourteen, no separate Alaska or Hawaii terms are stated, and no shipping surcharge for them is named.
+
+**The six 2025 Spirit medical bikes and the 2025 4.0T and 7.0T printings** print exclusion 9 and the 48-states note exactly as the 2026 treadmills do; the **CT850 2013** prints the same sentence as exclusion 10 of its ten-item list, with the note "This warranty applies only in the 48 contiguous United States. NOTE: This does not apply to Alaska or Hawaii."

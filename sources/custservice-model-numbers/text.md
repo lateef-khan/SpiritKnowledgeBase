@@ -9,15 +9,23 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-236 machines.
+246 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
+| 40r-2025 | 740145 | own-manual-text |
+| 40t-2025 | 740881 | own-filename |
 | 40t-2026 | 740885 | own-manual-text |
+| 40u-2025 | 740245 | own-manual-text |
+| 70r-2025 | 770145 | own-manual-text |
 | 70s-2025 | 770545 | own-manual-text |
+| 70t-2025 | 770881 | sibling-pairing |
 | 70t-2026 | 770885 | own-manual-text |
+| 70u-2025 | 770245 | own-manual-text |
 | 75s-2025 | 775545 | own-manual-text |
 | 80t-2026 | 780885 | own-manual-text |
+| 80u-2025 | 780245 | own-manual-text |
+| 85r-2025 | 784145 | own-manual-text |
 | 85s-2025 | 785545 | own-manual-text |
 | 85ue-2025 | 785045 | own-manual-text |
 | ab900-2018 | 900748 | fp-date |
@@ -100,6 +108,7 @@ any number here.
 | ct800-2024 | 800825 | own-manual-text |
 | ct800ent-2022 | 800852 | own-manual-text |
 | ct800ent-2024 | 800865 | own-manual-text |
+| ct850-2013 | 850813 | own-filename |
 | ct850-2016 | 850845 | own-manual-text |
 | ct850-2018 | 850845 | own-filename |
 | ct850-2020 | 850840 | own-manual-text |
@@ -244,6 +253,7 @@ any number here.
 | xt385-2015 | 385815 | own-filename |
 | xt385-2023 | 385823 | own-manual-text |
 | xt475-2007 | 475807 | only-candidate |
+| xt485-2013 | 485812 | own-filename |
 | xt485ent-2023 | 485850 | own-filename |
 | xt675-2007 | 675807 | only-candidate |
 | xt685-2015 | 685815 | own-filename |

@@ -2,8 +2,8 @@
 id: 7-5s-med-maintenance-aluminium-sliding-rail-cleaned-regularly-to-avoid-pu-wheel-loss
 title: Regular cleaning of the aluminium sliding rail surface to avoid PU wheel loss
 kind: procedure
-question: How do I look after the aluminium seat rail on a Spirit 7-5s-med recumbent
-  stepper?
+question: How do I look after the aluminium seat rail on a Spirit 7.0S or 7.5S medical
+  recumbent stepper?
 asked_as:
 - how do i clean the seat rail on the 7.5s
 - seat wheels wearing out on the rehab stepper
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -44,7 +46,7 @@ source:
     is parts-list item 101, PDF p. 50, line 723. The 8.5S service manual (spirit-stepper-85s-2025-service-manual)
     has no rail item: its preventative chapter is 3-1 and 3-2 only (PDF p. 6, lines
     77-92), and rail, track and PU return no maintenance hit in its text.md or OCR
-    supplements.'
+    supplements. Two 2025 Spirit stepper service manuals were added on 2026-09-11: spirit-stepper-70s-2025-service-manual 3.3 Check for Aluminum Track, PDF p. 8 (no folios), text.md lines 73-80, the same sentence with two figures (3.3.1 and 3.3.2); spirit-stepper-75s-2025-service-manual 3.3, PDF p. 8, lines 59-66, figure 3.3.1. Neither names a cleaner, an interval or a lubricant; both were searched for lubric, grease and oil.'
   extracted_at: '2026-09-11'
 ---
 
@@ -68,3 +70,9 @@ rubbing alcohol (`spirit-cr900-maintenance-periodic-cleaning-and-seat-track-rail
 rag and alcohol behind the mast covers (`crs800s-2024-maintenance-step-rail-and-carriage-cleaning`). Those are
 their books' instructions, not this one's.
 
+## The 2025 7.0S and 7.5S service manuals print the same sentence
+
+The **7.0S 2025** and **7.5S 2025** books print 3.3 word for word - "regular cleaning of the surface of the
+aluminum sliding rail can avoid PU wheel loss" - the 7.0S with two figures, the 7.5S with one, and nothing else
+for the rail: no cleaner, no interval, no lubricant. The 2025 7.0R recumbent bike prints it too
+(`70r-2025-maintenance-aluminium-track-cleaned-regularly-to-avoid-pu-wheel-loss`).

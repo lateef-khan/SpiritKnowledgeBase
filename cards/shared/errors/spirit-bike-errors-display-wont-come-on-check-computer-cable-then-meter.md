@@ -4,7 +4,7 @@ title: 'The display won''t come on: check the console-to-computer-cable connecti
   then meter the output voltage at each contact'
 kind: troubleshooting
 question: What does the service manual say to check when the display will not come
-  on at all on a Spirit XBR, XBU, CR800 or CU800 bike?
+  on at all on a Spirit XBR, XBU, CR800, CU800 or 4.0U bike?
 asked_as:
 - spirit bike display wont come on
 - recumbent console shows nothing at all
@@ -26,6 +26,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40u-2025
   - cr800-2009
   - cr800-2021
   - cu800-2021
@@ -65,7 +66,9 @@ source:
     p. 31, text.md lines 442-489; XBU55 2016 service manual 9-11 Console and Error
     Messages, no display, PDF p. 56, text.md lines 856-883; CU800 2020-book (cu800-2021)
     service manual 9-1 Console and Error Messages, When there is no display, PDF p.
-    31, text.md lines 464-485
+    31, text.md lines 464-485; 4.0U (FU800-SB022-03) service manual 10. Q&A, Console
+    and Error Messages Problem, PDF p. 47 (printed 44), text.md lines 633-662, "Display
+    won't come on"
   extracted_at: '2026-09-11'
 ---
 
@@ -89,3 +92,6 @@ So: reseat the computer cable at the console first; if that is not it, the book 
 Two books of the same shape answer differently and have their own cards: the CU800 2012 (XU878) checks the power adaptor and its DC connector before the harnesses and never meters (`cu800-2012-errors-no-display-check-the-power-adaptor-dc-connector-and-harnesses`); the AB900 air bike ends at its four batteries (`ab900-2018-errors-console-without-display-check-the-four-batteries`). The CU900 2018, CR900 2018, CR900ENT, CU1000ENT, CU800ENT and CR800ENT books print no Q&A for a dead display at all.
 
 A customer-facing answer for the residential bikes is the owner's-manual row that ends at a 115 VAC outlet: `spirit-residential-bike-errors-display-does-not-light-115-vac`. A display that is lit but dim is a matrix row, not this one (`spirit-lcd-dim-or-incomplete`).
+
+**The 4.0U 2025 medical upright prints the upright wording** - *make sure the console and 9 PIN computer Cables are connected properly; if all are connected properly, take measurements of power outputs to find out the problem* - with no figure to meter against (added 2026-09-11). The 4.0R recumbent of the same range has no Q&A chapter.
+

@@ -26,6 +26,8 @@ facets:
   model: '*'
   applies_to:
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - 85ue-2025
@@ -48,7 +50,7 @@ source:
     8.5S page was also read from a 200 dpi render, which agrees with the text layer.
     spirit-ergometer-85ue-2025-owners-manual prints the same seven steps at printed p. 52 (PDF
     p. 54), under the same heading, matching the 8.5S block at difflib word level 0.997; that page
-    was read from a 300 dpi render with tesseract --psm 4 (native 489 words, rendered 485)'
+    was read from a 300 dpi render with tesseract --psm 4 (native 489 words, rendered 485) Two 2025 Spirit medical bikes were added on 2026-09-11: spirit-bike-80u-2025-owners-manual "Sanitizing Your Spirit Fitness Equipment", MACHINE CARE, right-hand column, PDF p. 55 (printed 53), text.md lines 1403-1435, and spirit-bike-85r-2025-owners-manual PDF p. 60 (printed 58), lines 1569-1601 - the same seven steps word for word, compared with difflib at word level; neither page carries an OCR supplement and both are 300-word native text pages.'
   extracted_at: '2026-09-09'
 ---
 
@@ -111,3 +113,17 @@ front handlebar, saddle, console display and buttons, main body cover, adjustmen
 **The 8.5UE carries the same alcohol contradiction**, on printed p. 54 —
 `80t-2026-maintenance-cleaning-cautions`.
 
+## The 8.0U and 8.5R bikes print it too, word for word
+
+The **8.0U 2025** upright and **8.5R 2025** recumbent carry the seven steps under the same heading, beside the
+noise text (`spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads`) and a page before the same
+period table and the same warning list. Every figure is unchanged - **20 ml**, **70% or greater**, **15 minutes**,
+**3 to 5 minutes**, **30 seconds** - and so is the list of most-touched points, *manual mechanical brake lever,
+front handlebar, saddle, console display and buttons, main body cover, adjustment levers*, which on a bike is
+literal. **Both carry the same alcohol contradiction** on their warning page
+(`80t-2026-maintenance-cleaning-cautions`), and both state in their intended-use chapter that there is *no
+particular restriction on hygienic requirements*
+(`spirit-med-bike-maintenance-no-restriction-on-hygienic-requirements`).
+
+**The 2025 7.0R, 7.0U, 4.0R and 4.0U print the 75% bullets instead** (`ct900-sanitizing-equipment`), and the Dyaco
+PT and MED editions print nothing (`spirit-med-bike-maintenance-dyaco-editions-print-no-sanitizing-or-disinfection`).

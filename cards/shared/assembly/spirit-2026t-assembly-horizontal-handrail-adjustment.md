@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -39,9 +40,11 @@ see_also:
 - spirit-2026t-assembly-rear-step
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19 SETTING UP YOUR TREADMILL - Adjusting the Horizontal Handrail Position;
-    80T owner's manual p. 21; MT200 2010 owner's manual p. 10 and MT200 2022 owner's
-    manual p. 20, Adjusting the hand rail horizontal position
+  locator: 'p. 19 SETTING UP YOUR TREADMILL - Adjusting the Horizontal Handrail Position;
+    80T owner''s manual p. 21; MT200 2010 owner''s manual p. 10 and MT200 2022 owner''s
+    manual p. 20, Adjusting the hand rail horizontal position | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SETTING UP YOUR TREADMILL - Adjusting the Horizontal Handrail Position, PDF p.
+    21 (printed 19); text.md lines 595-633'
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +62,5 @@ is the one thing the 7.0T and the 8.0T share here** - their vertical handrail
 adjustments are different mechanisms and have a card each. The MT200 of both
 years uses the 7.0T's knob-and-pin vertical adjustment. The 4.0T has fixed
 handrails and no adjustment of either kind.
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints this page word for word; its assembly chapter is 98.2% the 2026 chapter at word level, the difference being two item numbers in step three.

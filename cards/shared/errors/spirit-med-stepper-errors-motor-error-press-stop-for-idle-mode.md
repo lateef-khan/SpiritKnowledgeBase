@@ -52,7 +52,11 @@ source:
     MS300 2021 manual. Read from the native text layer of all three and confirmed
     against a 300 dpi render of the 7.0S page; 7.5S (RS9600-SS021) service manual
     5.2.2 Error messages, PDF p. 13, text.md lines 125-128, and 5.2.3 "Motor Error",
-    PDF p. 18-19, text.md lines 189-201
+    PDF p. 18-19, text.md lines 189-201; 7.0S (RS9500-SS021-02) service manual 5.2.2
+    Error messages, PDF p. 13, text.md lines 143-158, and "Motor Error", PDF p. 18-19,
+    lines 199-220; 7.5S (RS9600-SS021-03) service manual 5.2.2 Error messages, PDF
+    p. 13, text.md lines 126-141, and "Motor Error", PDF p. 18-19, lines 182-203 -
+    the 7.5S RS9600-SS021-01 page unchanged in both (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-10'
 ---
 

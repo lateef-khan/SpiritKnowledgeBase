@@ -2,7 +2,8 @@
 id: ct850-2018-programs-twelve-program-lineup
 title: The twelve-program lineup that has Calorie and Strength but no HIIT
 kind: fact
-question: Which workout programs does a ct850-2018 treadmill console offer?
+question: Which workout programs does a Spirit ct850-2013 or ct850-2018 treadmill
+  console offer?
 asked_as:
 - what programs are on my spirit treadmill
 - does this treadmill have hiit
@@ -23,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: programs
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - ct850-2020-preset-program-list
@@ -40,7 +40,8 @@ see_also:
 - ct850-2018-programs-calorie-program-setup
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: printed page 20, Programmable Features
+  locator: 'printed page 20, Programmable Features; CT850 2013: PDF p. 17 (printed
+    13), OCR supplement lines 485-530'
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +75,5 @@ machines off the other.
 
 For the segment values of the Calorie and Strength profiles, see
 `ct850-2018-programs-calorie-strength-speed-incline-chart`.
+
+**The 2013 CT850 owner's manual - a scan with no text layer, read from the 300 dpi OCR and checked against the render - prints this page word for word**, the same twelve-that-count-to-thirteen list, with the Fitness Test described as Gerkin-protocol based - and on this book that is true: it has no Army, Navy, Air Force, Marines, PEB, Coast Guard or WFI test anywhere (`ct800-2012-programs-fitness-test-gerkin-only`).

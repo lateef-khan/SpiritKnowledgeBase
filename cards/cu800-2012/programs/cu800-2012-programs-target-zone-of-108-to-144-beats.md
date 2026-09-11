@@ -1,6 +1,7 @@
 ---
 id: cu800-2012-programs-target-zone-of-108-to-144-beats
-title: The bike training zone at 60% and 80% of maximum is 108 to 144 beats for a forty year old
+title: The bike training zone at 60% and 80% of maximum is 108 to 144 beats for a
+  forty year old
 kind: fact
 question: How do I work out my target heart rate zone on a Spirit bike or air bike?
 asked_as:
@@ -23,6 +24,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ab900-2018
   - ab950-2024
   - cu800-2012
@@ -52,7 +57,14 @@ see_also:
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 source:
   ref: spirit-bike-cu800-2012-owners-manual
-  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024 printed p. 22 (HEART RATE EXERTION); XBR95 2016/2018/2021 printed p. 29; XBR25 2019 p. 22; XBR55 2019/2021 p. 26; XBU55 2019/2021 p. 26; XBR55ENT/XBU55ENT 2021 p. 38; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25; AB900 2018 service manual (AU800/AU800A) HEART RATE, PDF p. 18, text.md lines 290-325'
+  locator: 'CU800 2012 printed p. 22 (scan 1 PDF p. 24, scan 2 PDF p. 24); AB950 2024
+    printed p. 22 (HEART RATE EXERTION); XBR95 2016/2018/2021 printed p. 29; XBR25
+    2019 p. 22; XBR55 2019/2021 p. 26; XBU55 2019/2021 p. 26; XBR55ENT/XBU55ENT 2021
+    p. 38; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25; AB900 2018 service manual (AU800/AU800A)
+    HEART RATE, PDF p. 18, text.md lines 290-325; 4.0R 2025: PDF p. 33 (printed 31);
+    text.md lines 909-944; 4.0U 2025: PDF p. 33 (printed 31); text.md lines 863-898;
+    PT 4.0 R: PDF pp. 47-48 (printed 47-48); text.md lines 1464-1533; PT 4.0 U: PDF
+    pp. 45-46 (printed 45-46); text.md lines 1432-1501'
   extracted_at: '2026-09-09'
 ---
 
@@ -119,3 +131,10 @@ actually target.
 rate" and for the loose word "zone" returns nothing, and its Programs chapter runs from Programs
 Intro straight to Maintenance - see
 `spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.
+
+**The 4.0R and 4.0U medical bikes print this same 60% / 80% guidance and the same 108-to-144
+example** in their 2025 books, headed "Heart Rate Exertion", and in their Dyaco PT 4.0 R and 4.0 U
+editions, headed "Heart rate program". The 2025 books phrase it "60% of your MHR is the recommended
+for burning fat while 80% is recommended for strengthening the cardio vascular system"; the Dyaco
+editions say "the zone that burns fat" and "for strengthening". All four print the Target Heart Rate
+Training Chart as a picture with age 20 to 65 along the bottom.

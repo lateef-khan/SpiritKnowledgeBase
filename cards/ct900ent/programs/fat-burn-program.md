@@ -33,6 +33,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -49,7 +50,7 @@ see_also:
 - xt-2023-programs-select-and-start-xt185-xt285
 source:
   ref: ct900ent-om
-  locator: p. 33
+  locator: 'p. 33; XT485 2013: PDF p. 24 (printed 23); text.md lines 860-906'
   extracted_at: '2026-08-24'
 ---
 
@@ -80,3 +81,5 @@ the 90%-of-duration elevation figure does not come from that machine's manual.
 (printed page 22) and write "maximum resistance level"; **they print no Incline paragraph for Fat
 Burn**, so the 90%-of-duration elevation figure does not come from those two manuals. **The 2018
 CT850 manual prints no description of this program at all.**
+
+**The 2013 XT485 owner's manual prints this description word for word** under a **Resistance** heading and writes "maximum **speed** level", as the 2010 XT685 does and the 2015 XT books do not.

@@ -22,11 +22,19 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 75s-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - 85ue-2025
@@ -113,6 +121,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -181,6 +190,7 @@ see_also:
 - spirit-strength-warranty-exclusions-eight-items
 - spirit-strength-st800fi-warranty-lifetime-at-home-ten-years-in-a-facility
 - spirit-commercial-warranty-sheet-2019-footnotes
+- spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: >-
@@ -255,6 +265,7 @@ source:
     warranty pages, PDF pp. 38 and 39, the second read with tesseract --psm 4. All five
     warranty tables were read from 300 dpi renders as well as from the extraction.
     The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints footnote *, "Products used in prisons and correctional facilities are excluded from warranty coverage.", marked against every table heading on both pages, PDF pp. 1-2.
+    The six 2025 Spirit medical bike manuals print the asterisked footnote above their one-row Commercial table and prisons again at exclusion 8: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026). The 2025 printings of the 4.0T and 7.0T print both, unchanged from the 2026 books: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651). The CT850 2013 book prints prisons as exclusion 9 of its ten-item list and no footnote: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -459,3 +470,5 @@ That is the nine CSD dual stations, the nineteen CSS single stations, the six CS
 The thirty-six CSD, CSS, CSF and CSI books print the exclusion **once only**, in the list. A buyer of one of those who reads only the warranty table is not shown it - which is the same trap the CT800 2012, CT800 2016 and CT850 2018 manuals set.
 
 **On a strength machine the prisons line is close to the whole of the use-environment answer.** These manuals never mention a dues-paying gym in either direction; the only other environment wording is exclusion 2, which limits reimbursement to a non-dues-paying facility or household use. See `spirit-strength-warranty-use-environment` and `spirit-strength-warranty-exclusions-eight-items`.
+
+**The six 2025 Spirit medical bikes** - 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R - print the footnote above their Commercial table and the exclusion at item 8, exactly as the 2026 treadmills do (`spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year`). The 2025 printings of the 4.0T and 7.0T carry the 2026 wording. The **CT850 2013** book has the ten-item list with prisons at item 9 and no footnote, like the later CT850 books.

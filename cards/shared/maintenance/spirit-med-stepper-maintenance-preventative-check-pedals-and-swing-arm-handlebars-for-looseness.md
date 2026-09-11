@@ -4,7 +4,7 @@ title: 'The preventative check: pedals and swing-arm handlebars looked at for lo
   with no interval printed'
 kind: procedure
 question: What preventative maintenance does the service manual give for a Spirit
-  7.5S or 8.5S medical recumbent stepper?
+  7.0S, 7.5S or 8.5S medical recumbent stepper?
 asked_as:
 - what do i check on the 7.5s stepper
 - preventative maintenance on the spirit 8.5s
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: maintenance
   code: '*'
@@ -42,12 +44,16 @@ see_also:
 - spirit-85s-maintenance-machine-care-schedule
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 3. Preventative Maintenance, 3.1 Check for Pedal and 3.2 Check for Swing
+  locator: '3. Preventative Maintenance, 3.1 Check for Pedal and 3.2 Check for Swing
     Arm, PDF p. 7 (the book prints no folios), text.md lines 40-57, figures 3.1.1,
     3.2.1 and 3.2.2. spirit-stepper-85s-2025-service-manual 3. Preventative Maintenance,
     3-1 Check the Pedal and 3-2 Check the Handlebar, PDF p. 6 (no folios), lines 77-92,
     figures 3.1.1 and 3.2.1. Neither chapter names an interval; both were searched
-    for weekly, monthly, daily and regular.
+    for weekly, monthly, daily and regular. Two 2025 Spirit stepper service manuals
+    were added on 2026-09-11 and print 3.1 and 3.2 word for word with the 7.5S -01
+    book: spirit-stepper-70s-2025-service-manual PDF p. 7 (no folios), text.md lines
+    55-73, figures 3.1.1, 3.2.1 and 3.2.2; spirit-stepper-75s-2025-service-manual
+    PDF p. 7, lines 41-59, the same figures. Neither names an interval.'
   extracted_at: '2026-09-11'
 ---
 
@@ -72,3 +78,11 @@ the crank arm and pedals **weekly / daily** and checks the handlebar arm and foo
 telescopic tube (`spirit-med-stepper-maintenance-swing-arm-sway-tighten-the-screw-then-lock-the-quick-release`). The pedal screw on the 7.5S is reached with a short screwdriver from underneath (6.3); on
 the 8.5S it loosens counter-clockwise (6-3) - both assembly cards.
 
+## The 2025 7.0S and 7.5S service manuals print the 7.5S column word for word
+
+The **7.0S 2025** (RS9500-SS021-02) and **7.5S 2025** (RS9600-SS021-03) books carry 3.1 "check whether the pedal is
+loose, if it is loose, you need to lock the screw" and 3.2 "check whether the armrests are loose or not. If it is
+loose, tighten the screws (Same on both sides)" exactly as the 7.5S -01 book does, with the rail item after them.
+No interval on either. Their owner's manuals put the pedal check at **monthly**
+(`ms300-2021-maintenance-rust-pedals-and-half-inch-wrench` for the 7.0S,
+`7-5s-med-maintenance-monthly-wear-check-on-grips-cushions-and-pedals` for the 7.5S).
