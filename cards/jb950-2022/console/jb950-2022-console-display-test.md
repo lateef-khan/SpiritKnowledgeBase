@@ -1,23 +1,24 @@
 ---
 id: jb950-2022-console-display-test
-title: 'The Display Test that lights all 23 LED panels and cycles them through 1-9 and A-Z'
+title: The Display Test that lights all 23 LED panels and cycles them through 1-9
+  and A-Z
 kind: procedure
-question: 'How do I test the display on a Spirit jb950-2022 Johnny G Spirit Bike console?'
+question: How do I test the display on a Spirit jb950-2022 Johnny G Spirit Bike console?
 asked_as:
-- 'part of my johnny g bike display is missing'
-- 'how do i test the screen on the jb950'
-- 'dead segment on my spin bike console'
-- 'display test on the johnny g spirit bike'
+- part of my johnny g bike display is missing
+- how do i test the screen on the jb950
+- dead segment on my spin bike console
+- display test on the johnny g spirit bike
 keywords:
-- 'display test'
-- '23 led panels'
-- 'segments'
-- '1-9'
-- 'a-z'
-- 'hr zone'
-- 'power zone'
-- 'colour cycle'
-- 'maintenance mode'
+- display test
+- 23 led panels
+- segments
+- 1-9
+- a-z
+- hr zone
+- power zone
+- colour cycle
+- maintenance mode
 facets:
   brand:
   - spirit
@@ -37,7 +38,8 @@ see_also:
 - jb950-2022-console-led-brightness
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 53 DISPLAY TEST
+  locator: JB950-2022 printed p. 53 DISPLAY TEST. JB950 service manual 5.3 DISPLAY
+    TEST, PDF p. 40 (printed 40), text.md lines 668-678
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +63,5 @@ light never changes can be checked here without a heart rate strap or an FTP fig
 
 **The manual gives no pass or fail message for this test.** Unlike the Key Test it prints no
 `TEST PASSED`; you watch the panels.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same 23 LED modules, same 1-9 and A-Z cycle and colour cycling of the HR ZONE and POWER ZONE LEDs.

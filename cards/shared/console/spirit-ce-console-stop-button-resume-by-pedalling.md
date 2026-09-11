@@ -1,9 +1,10 @@
 ---
 id: spirit-ce-console-stop-button-resume-by-pedalling
-title: Pause can also be resumed by pedalling, and the workout survives five minutes with the display
-  off
+title: Pause can also be resumed by pedalling, and the workout survives five minutes
+  with the display off
 kind: fact
-question: What happens when I press Stop, or just stop pedalling, on a Spirit CE800, CE850 or CE900 elliptical or a Spirit CR900, CU900 or CU800-2012 bike?
+question: What happens when I press Stop, or just stop pedalling, on a Spirit CE800,
+  CE850 or CE900 elliptical or a Spirit CR900, CU900 or CU800-2012 bike?
 asked_as:
 - what happens if i stop pedalling on my elliptical
 - my elliptical screen went blank mid workout did i lose my data
@@ -44,7 +45,10 @@ see_also:
 - spirit-ce-console-pedal-to-power-up
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: CE900 2021 p. 16; CE900 2025 p. 17; CE850 2016 pp. 18-19; CE800 2013 pp. 17-18 (printed 14-15)
+  locator: CE900 2021 p. 16; CE900 2025 p. 17; CE850 2016 pp. 18-19; CE800 2013 pp.
+    17-18 (printed 14-15). CR900-2018 service manual BASIC INFORMATION, PDF p. 14
+    (printed 14), text.md lines 179-184; CU900-2018 service manual PDF p. 15 (printed
+    15), lines 243-248
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +81,5 @@ CU900 manuals call it the **Stop key** or the **Stop button**. Same key, same fo
 **Do not tell a CR800 or CU800-2021 owner to pedal to resume.** Those three bike manuals name only
 the Start key and print no memory-hold sentence, exactly as the CE800-2021 and CE800-2023 do:
 `spirit-ce-console-stop-button-press-once-twice-hold`.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same five-minute pause with the memory kept while the display is dark, and the same resume by Start or by pedalling.

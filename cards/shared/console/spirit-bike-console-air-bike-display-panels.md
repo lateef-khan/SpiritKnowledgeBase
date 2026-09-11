@@ -1,24 +1,25 @@
 ---
 id: spirit-bike-console-air-bike-display-panels
-title: 'What the four display panels show on a fan bike, including watts, RPM and the two Max HR banners'
+title: What the four display panels show on a fan bike, including watts, RPM and the
+  two Max HR banners
 kind: fact
-question: 'What do the numbers and banners on the console mean on a Spirit air bike?'
+question: What do the numbers and banners on the console mean on a Spirit air bike?
 asked_as:
-- 'what does watts mean on my air bike display'
-- 'what are the arrows on my air bike heart rate panel'
-- 'why does my air bike show three dashes for heart rate'
-- 'what is the 88/88 on the air bike screen'
+- what does watts mean on my air bike display
+- what are the arrows on my air bike heart rate panel
+- why does my air bike show three dashes for heart rate
+- what is the 88/88 on the air bike screen
 keywords:
-- 'interval display'
-- 'target display'
-- 'watts'
-- 'speed'
-- 'rpm'
-- 'heart rate display'
-- 'bpm'
-- '65% max hr'
-- '85% max hr'
-- 'target heart rate achieved'
+- interval display
+- target display
+- watts
+- speed
+- rpm
+- heart rate display
+- bpm
+- 65% max hr
+- 85% max hr
+- target heart rate achieved
 facets:
   brand:
   - spirit
@@ -36,7 +37,10 @@ see_also:
 - spirit-bike-console-air-bike-metric-imperial
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed pp. 16-19 and p. 30; AB900-2018 printed pp. 30-35 and pp. 39-40 - the two console chapters are word for word the same
+  locator: AB950-2024 printed pp. 16-19 and p. 30; AB900-2018 printed pp. 30-35 and
+    pp. 39-40 - the two console chapters are word for word the same. AB900-2018 (AU800/AU800A)
+    service manual, Function Description, PDF pp. 12-13 (printed 12-13), text.md lines
+    110-157
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +74,5 @@ and two Max HR banners without ever saying what feeds them or that a strap must 
 
 **Speed and distance follow one setting.** The units choice is made once and applies to both; see
 `spirit-bike-console-air-bike-metric-imperial`.
+
+**The service manual prints the four panel descriptions word for word**, headed Function Description.

@@ -26,14 +26,19 @@ facets:
   model: '*'
   applies_to:
   - 40t-2026
+  - ab900-2018
   - ce800-2024
   - ce800ent
   - ce800ent-2024
   - ce850-2024
   - ce900-2025
+  - cr800-2021
   - cr800-2024
+  - cr800ent-2023
   - cr800ent-2024
+  - cr900-2018
   - cr900-2025
+  - cr900ent-2021
   - crs800s-2024
   - cs800-2024
   - ct1000ent-2023
@@ -46,11 +51,25 @@ facets:
   - ct850ent-2022
   - ct850ent-2024
   - ct900ent
+  - cu1000ent-2023
+  - cu800-2012
+  - cu800-2021
   - cu800-2024
+  - cu800ent-2022
   - cu800ent-2024
+  - cu900-2018
   - cu900-2025
   - cu900ent
   - cvc800
+  - xbr25-2016
+  - xbr55-2016
+  - xbr55-2023
+  - xbr55ent-2021
+  - xbr95-2016
+  - xbr95-2023
+  - xbu55-2016
+  - xbu55-2023
+  - xbu55ent-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -68,6 +87,7 @@ see_also:
 - spirit-wireless-chest-belt-no-pulse
 - spirit-hand-pulse-not-working
 - spirit-ce-errors-erratic-heart-rate-interference
+- jb950-2022-errors-erratic-pulse-wrong-sensor-or-low-battery
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: 'Troubleshooting procedure matrix: CE800ENT section 7-3 page 27; CT850
@@ -94,7 +114,31 @@ source:
     service manual Troubleshooting procedure matrix, PDF p. 45-48, text.md lines 691-842;
     4.0T 2026 service manual Condition / Reason / Solve matrix, PDF p. 36-38 (printed
     47-49), text.md lines 566-689; CT1000ENT 2023 service manual 6.4 Troubleshooting
-    procedure Matrix, PDF p. 19-21, text.md lines 428-549'
+    procedure Matrix, PDF p. 19-21, text.md lines 428-549; XBR25 2016 service manual
+    Troubleshooting procedure matrix, PDF p. 41, text.md lines 609-641; XBR55 2016
+    service manual Troubleshooting procedure matrix, PDF p. 42, text.md lines 604-636;
+    XBU55 2016 service manual Troubleshooting procedure matrix, PDF p. 41, text.md
+    lines 608-640; XBR95 2016 service manual Troubleshooting procedure matrix, PDF
+    p. 44, text.md lines 615-646; XBR55ENT 2021 service manual Troubleshooting procedure
+    matrix, PDF p. 33, text.md lines 416-445; XBU55ENT 2021 service manual Troubleshooting
+    procedure matrix, PDF p. 33, text.md lines 412-442; XBR55 2023 service manual
+    8.4 Troubleshooting procedure Matrix, PDF p. 16, text.md lines 323-343; XBR95
+    2023 service manual 8.4 Troubleshooting procedure Matrix, PDF p. 15, text.md lines
+    252-293; XBU55 2023 service manual 8.5 Troubleshooting procedure Matrix, PDF p.
+    16, text.md lines 322-341; CU900 2018 service manual Troubleshooting procedure
+    matrix, PDF p. 32, text.md lines 521-552; CR900 2018 service manual Troubleshooting
+    procedure matrix, PDF p. 31, text.md lines 455-486; CR900ENT 2021 service manual
+    Troubleshooting procedure matrix, PDF p. 39, text.md lines 628-660; CU1000ENT
+    2023 service manual 10.1 Troubleshooting procedure Matrix, PDF p. 18, text.md
+    lines 328-373; CU800 2020-book (cu800-2021) service manual 7-5 Troubleshooting
+    procedure matrix, PDF p. 27 (printed 26), text.md lines 420-451; CR800 2020-book
+    (cr800-2021) service manual 7-5 Troubleshooting procedure matrix, PDF p. 27 (printed
+    26), text.md lines 398-429; CU800 2012 (XU878) service manual Troubleshooting
+    procedure matrix, PDF p. 35, text.md lines 541-573; CU800ENT 2020-ver book (cu800ent-2022)
+    service manual 7-3 Troubleshooting procedure matrix, PDF p. 27, text.md lines
+    418-452; CR800ENT 2020-ver book (cr800ent-2023) service manual 7-3 Troubleshooting
+    procedure matrix, PDF p. 27, text.md lines 425-459; AB900 2018 service manual
+    Troubleshooting Quick Lookup Table, PDF p. 31, text.md lines 545-571'
   extracted_at: '2026-09-08'
 ---
 
@@ -145,3 +189,5 @@ answers the same symptom in its own wording, on
 the machine takes a Bluetooth chest strap.
 
 **Sixteen treadmill service manuals print this row with the same three causes and the same three fixes** - the 2015 and 2023 XT185 to XT685, the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT, CT1000ENT 2023 and 4.0T. All sixteen say `treadmill` in both columns.
+
+**Eighteen bike service manuals print this row with the same three causes and the same three fixes.** Which noun each uses: the nine residential books (XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, XBR55 2023, XBR95 2023, XBU55 2023) say `Bike`; the CU900 2018 and CR900 2018 say `Bike`; the CR900ENT 2021 and CU1000ENT 2023 say `product`; and the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver books all carry the copy-and-paste defect - `treadmill` in the reason column, `bike` in the solve column - which dates that defect to the 2012 XU878 book at the latest. **The AB900 2018 air bike prints the same three causes and three fixes in its own words** (`The heartbeat display value is incorrect` / *may be received another heart rate strap signal; other electric field noise interference; the wireless heartbeat receiver is damaged* / *check no other strap around the machine; try changing the machine direction or position; replace the new wireless heartbeat receiver*). **The JB950 2022 Johnny G bike answers the same condition with different causes** - the wrong sensor, a low sensor battery, the receiver - on `jb950-2022-errors-erratic-pulse-wrong-sensor-or-low-battery`.

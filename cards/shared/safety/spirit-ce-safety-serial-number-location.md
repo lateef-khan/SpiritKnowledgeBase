@@ -2,7 +2,10 @@
 id: spirit-ce-safety-serial-number-location
 title: Where the serial number is, and the manuals that only leave a blank
 kind: fact
-question: Where is the serial number on a Spirit CE800, CE800ENT, CE850 or CE900-2021 elliptical, on a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021 generation, or on a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
+question: Where is the serial number on a Spirit CE800, CE800ENT, CE850 or CE900-2021
+  elliptical, on a Spirit XE residential elliptical of the 2005, 2007, 2010 or 2021
+  generation, or on a Spirit commercial CR800, CR900, CR900ENT, CU800, CU900 or CU1000ENT
+  upright or recumbent bike?
 asked_as:
 - where is the serial number on my elliptical
 - i cant find the serial number on the machine
@@ -39,6 +42,7 @@ facets:
   - cr900-2018
   - cr900ent-2021
   - crw800-2021
+  - cu1000ent-2023
   - cu800-2012
   - cu800-2021
   - cu800ent-2022
@@ -81,15 +85,28 @@ see_also:
 - spirit-xe-2023-safety-product-labels
 - spirit-bike-2024-2025-safety-product-labels
 - spirit-bike-safety-instructions-list
+- cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter
+- spirit-cr900-safety-console-warning-decal-under-13
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: RECORD YOUR SERIAL NUMBER, page 5. The other seven manuals print the same heading with
-    no location - CE800 2013 PDF page 3 (printed 4), CE800 2021 page 3, CE800 2023 page 3,
-    CE800ENT page 6, CE850 2016 page 7, CE850 2020 page 5, CE850 2022 page 5 Ten Spirit
-    commercial bike owner's manuals print a RECORD YOUR SERIAL NUMBER block - CR900-2018 and
-    CU900-2018 on their printed page 4, CR900ENT-2021 and CU900ENT-2021 on printed pages 5
-    and 4, CR800-2021, CR800-2023, CU800-2021, CU800ENT-2022 and CR800ENT-2023 on their
-    printed page 3, and CU800-2012 on its printed page 4 The XRW600-2019, XRW600-2021 and CRW800-2021 rower owner's manuals each print a RECORD YOUR SERIAL NUMBER block with no location - XRW600 printed page 7, CRW800-2021 printed page 3; the two XRW600 books add an illustration captioned Serial Number Location on the same page
+  locator: 'RECORD YOUR SERIAL NUMBER, page 5. The other seven manuals print the same
+    heading with no location - CE800 2013 PDF page 3 (printed 4), CE800 2021 page
+    3, CE800 2023 page 3, CE800ENT page 6, CE850 2016 page 7, CE850 2020 page 5, CE850
+    2022 page 5 Ten Spirit commercial bike owner''s manuals print a RECORD YOUR SERIAL
+    NUMBER block - CR900-2018 and CU900-2018 on their printed page 4, CR900ENT-2021
+    and CU900ENT-2021 on printed pages 5 and 4, CR800-2021, CR800-2023, CU800-2021,
+    CU800ENT-2022 and CR800ENT-2023 on their printed page 3, and CU800-2012 on its
+    printed page 4 The XRW600-2019, XRW600-2021 and CRW800-2021 rower owner''s manuals
+    each print a RECORD YOUR SERIAL NUMBER block with no location - XRW600 printed
+    page 7, CRW800-2021 printed page 3; the two XRW600 books add an illustration captioned
+    Serial Number Location on the same page. Four bike service manuals photograph
+    the sticker: CR900 (SR8800-SB008) service manual 1. Serial Number Location, PDF
+    p. 33 (printed 33), text.md line 492; CU900 service manual 1. Serial Number Location,
+    PDF p. 34 (printed 34), line 558; CR900ENT service manual 1. Serial Number Location,
+    PDF p. 41 (printed 41), line 666; CU1000ENT (SU8880-SB028) service manual Serial
+    Number & code Location, PDF pp. 18-19 (printed 18-19), line 370. All four pages
+    are photographs with no text layer beyond the heading; read from 150 and 400 dpi
+    renders.'
   extracted_at: '2026-09-09'
 ---
 
@@ -234,3 +251,27 @@ answers for the three above:
 |---|---|
 | CRW900-2021, CRW800H2O | on the centre floor tube behind the crank (`spirit-water-rower-safety-serial-number-on-the-centre-floor-tube`) |
 | 8.5UE | on the front stabilizer (`85ue-2025-safety-product-labels-and-proposition-65`) |
+
+## Four bike service manuals photograph the sticker the owner's manuals leave blank
+
+**The CR900, CU900 and CR900ENT service manuals each carry a page headed `1. Serial Number Location`
+with two photographs and no words.** The CR900ENT page reprints the CR900 photographs. Read from the
+renders:
+
+- **The serial sticker is on the top face of the front stabilizer tube, at one end, hard against the
+  front shroud and above the leveling foot** - a white barcode label with `SPIRIT` printed on it. The
+  second photograph shows the front stabilizer from the front with the sticker at its end and the
+  `MADE IN TAIWAN` plate on the shroud foot above it. That is the front stabilizer, the part the 2024
+  and 2025 books name in words - but on these three machines it is a photograph, not a sentence, so
+  say the service manual *shows* it there.
+- **The CU900 photograph puts it in the same place**, on the top of the front stabilizer at one end,
+  beside the front shroud.
+
+**The CU1000ENT service manual's `Serial Number & code Location` photographs show a different kind
+of label.** One is a white QR-code label low on the side shroud, just above the front stabilizer and
+its transport wheel, whose printed lines are a MAC address, a MODEL line beginning `CU1000` and a
+production date `202303` - **no legible serial-number line**; the other is a small QR label on the
+back of the console beside its port cover. That is the same MAC/model/date label the CT1000ENT
+service manual photographs. The manual prints no words about either label and no serial number
+format, so tell a CU1000ENT owner to read the label on the side shroud and confirm with Spirit which
+line is the serial.

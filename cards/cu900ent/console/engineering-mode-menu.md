@@ -2,7 +2,7 @@
 id: cu900ent-engineering-mode-menu
 title: The seven Settings entries in engineering mode
 kind: fact
-question: What is in engineering mode on a Spirit CU900ENT bike?
+question: What is in engineering mode on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - what is in the service menu on my spirit bike
 - list of settings on the bike console
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -43,7 +44,11 @@ source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Setting and Operation for Engineering Mode, p. 25 (printed 25) and the
     Settings screenshots on pp. 26-28 (printed 26-28), read from raw/page-26.png,
-    raw/page-27.png and raw/page-28.png
+    raw/page-27.png and raw/page-28.png. The CR900ENT-2021 service manual, Setting
+    and Operation for Engineering Mode, PDF p. 24 (printed 24), text.md lines 263-290,
+    with the seven-entry Settings list in the screenshots on PDF pp. 24-27, prints
+    the same page word for word. The entry sentence, the Machine Information priority
+    and the seven Settings entries are word for word.
   extracted_at: '2026-09-08'
 ---
 
@@ -68,3 +73,5 @@ order:
 The elliptical in the same console family has **six** entries, not seven: it has an A/V Source Setup
 entry, and neither TV Setup nor BT Setup appears at the top level. The elliptical does have a
 Bluetooth control - a `BT Setup` button one level down, inside its Maintenance menu.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. The entry sentence, the Machine Information priority and the seven Settings entries are word for word.

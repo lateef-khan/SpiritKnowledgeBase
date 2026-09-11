@@ -2,9 +2,9 @@
 id: spirit-bike-safety-no-mains-outlet-needed
 title: The bike has a built-in generator and needs no mains outlet at all
 kind: fact
-question: What outlet, voltage and amperage does a self-powered Spirit commercial upright
-  or recumbent bike need (cu800-2012, cr900-2018, cu900-2018, cr800-2021, cu800-2021,
-  cr800-2023, cr900-2025 or cu900-2025)?
+question: What outlet, voltage and amperage does a self-powered Spirit commercial
+  upright or recumbent bike need (cu800-2012, cr900-2018, cu900-2018, cr800-2021,
+  cu800-2021, cr800-2023, cr900-2025 or cu900-2025)?
 asked_as:
 - does this bike need to be plugged in
 - what outlet does the exercise bike need
@@ -55,13 +55,24 @@ see_also:
 - spirit-bike-safety-instructions-list
 - spirit-bike-2025-safety-instructions-list
 - cu800-2012-safety-instructions-list
+- spirit-xb-2023-safety-outlet-220-volt-15-amp
+- spirit-xe-safety-outlet-115-volt-15-amp
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: POWER, printed page 11. The CU900-2018 manual prints it on its printed page
-    11, the CU800-2012 manual under Power Up on its printed page 13, the CR800-2021
+  locator: 'POWER, printed page 11. The CU900-2018 manual prints it on its printed
+    page 11, the CU800-2012 manual under Power Up on its printed page 13, the CR800-2021
     and CR800-2023 manuals under POWER on their printed page 13, the CU800-2021 manual
     on its printed page 13, and the CR900-2025 and CU900-2025 manuals under Powering
-    On on their SETTING UP page
+    On on their SETTING UP page. Service manuals: CR800 (2020) 4-2-1 POWER, PDF p.
+    13 (printed 12), text.md lines 176-181; CU800 (2020) 4-2-1 POWER, PDF p. 13 (printed
+    12), lines 196-201; CR900 (SR8800-SB008) Operation/POWER, PDF p. 13 (printed 13),
+    lines 132-138, and the Stop-key paragraph PDF p. 14, lines 179-184; CU900 Operation/POWER,
+    PDF p. 14 (printed 14), lines 196-202, and the Stop-key paragraph PDF p. 15, lines
+    243-248; CU800 (XU878-AB04M) 8-9 Console and Error Messages, PDF p. 47 (printed
+    47), lines 742-747, and 8-5 Chain Covers step 2, PDF p. 41 (printed 41), lines
+    657-659; XBR95-2016 (XR829-SB012-01) section 7, PDF p. 35, lines 457-483; XBR95-2023
+    (XR829A-SB032) section 7, PDF p. 13, lines 191-223, and Electrical Configurations,
+    PDF p. 6, lines 79-87.'
   extracted_at: '2026-09-09'
 ---
 
@@ -168,3 +179,39 @@ books print it. The manuals do not reconcile it.
 (`spirit-ce-safety-generator-produces-ac-power`). **The CRW800-2024 rower is not**: its console runs
 on two C batteries and there is no generator
 (`crw800-2024-safety-console-runs-on-two-c-batteries`).
+
+## The service manuals say the same, with three complications
+
+**The CR800 (2020), CU800 (2020), CR900 and CU900 service manuals print the owner's-manual POWER
+paragraph word for word** - `have a built-in generator for power and do not need to be plugged into an
+AC outlet. To power up ... simply start to pedal` - and none of the four has a safety chapter, an
+outlet figure, a breaker paragraph or a grounding page. The CU800 (2020) book prints the CR800's
+sentence unchanged - `CR800 Recumbent trainers have a built-in generator` - inside a CU800 upright
+book. The CR800 and CU800 books describe the main controller as the `generator power supply` for the
+console; the CR900 and CU900 books call it `the DC power supply for console` and photograph a
+`HYBRID GENERATOR` beside the driver board.
+
+**The CR900 and CU900 books hint at an AC supply the owner's manuals never mention.** Their Stop-key
+paragraph reads `when you stop pedaling without AC power the display will turn off but the memory
+will be saved for 5 minutes just like the pause mode`, and the CR800 (2020) front-shroud
+procedure fits an `On/Off Switch (159)` between the two shrouds (the CU800 (2020) book has no such
+step). Neither book names an
+adapter, a jack or a voltage, so there is no figure to quote; say only that the service manuals
+mention running with and without AC power.
+
+**The 2012 CU800's service manual contradicts this card for that machine.** The XU878-AB04M book's
+Q&A for a blank display says `Make sure power adaptor has been plug in and DC connector is connected
+properly to the unit`, and its chain-cover procedure secures an `AC cables assembly` to the right
+chain cover with two M3x10 screws - while the same book's electrical-configuration page calls the
+main controller a `generator power supply`. The 2012 owner's manual prints the generator sentence and
+nothing about an adapter. Both are printed. The service manual is the only Spirit document that says
+the CU800-2012 has a power adaptor, and it gives no voltage for it.
+
+**The two XBR95 service manuals print the full plug-in safety chapter.** The XBR95-2016 book's
+section 7 asks for `a 115-volt, 15-amp grounded outlet` (`spirit-xe-safety-outlet-115-volt-15-amp`),
+and the XBR95-2023 book's asks for `a 220-volt, 15-amp grounded outlet` on a page that then names
+`a nominal 120-volt circuit` (`spirit-xb-2023-safety-outlet-220-volt-15-amp`) - each with the 16 AWG
+cord, GFCI, high-inrush breaker and grounding paragraphs beside it - on a machine whose own
+Electrical Configurations page says `power supply (generator power)`. So the XBR95-2023, whose
+owner's manual was rewritten to drop every outlet sentence, gets them all back in its service
+manual. The answer does not change: no outlet needed, and the book prints one anyway.

@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-quick-start-time-counts-up
-title: Quick Start counts the time up from zero and lets you set the resistance by hand
+title: Quick Start counts the time up from zero and lets you set the resistance by
+  hand
 kind: procedure
-question: How do I start a workout without programming anything on a Spirit elliptical or bike?
+question: How do I start a workout without programming anything on a Spirit elliptical
+  or bike?
 asked_as:
 - how do i just start pedalling on the elliptical
 - how do i start my elliptical without a program
@@ -63,8 +65,13 @@ see_also:
 - ce800ent-quick-start
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 15; CE800 2023 p. 16; CE800 2013 p. 16 (printed 14); CE850 2016 p. 17; CE850
-    2020 p. 20; CE850 2022 p. 21; CE900 2021 p. 14; CE900 2025 p. 15; CES880 2025 p. 29
+  locator: CE800 2021 p. 15; CE800 2023 p. 16; CE800 2013 p. 16 (printed 14); CE850
+    2016 p. 17; CE850 2020 p. 20; CE850 2022 p. 21; CE900 2021 p. 14; CE900 2025 p.
+    15; CES880 2025 p. 29. CR800 (2020) service manual 4-2-2 QUICK START, PDF p. 13
+    (printed 12), text.md lines 183-193; CU800 (2020) service manual PDF p. 13 (printed
+    12), lines 203-213. CR900-2018 service manual QUICK START, PDF p. 13 (printed
+    13), text.md lines 148-157; CU900-2018 service manual PDF p. 14 (printed 14),
+    lines 212-221
   extracted_at: '2026-09-09'
 ---
 
@@ -143,3 +150,7 @@ display wraps around and starts at the first column again.
 
 **Twenty resistance levels, banded 1-5, 6-10, 11-15 and 16-20**, with 16-20 called "extremely
 difficult" - the CE wording, not the residential machines' "extremely hard".
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Both print the paragraph word for word, including the 24 columns, the wrap-around and the forty levels in ten rows.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same 24 columns, wrap-around and forty levels in ten rows.

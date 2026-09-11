@@ -1,6 +1,7 @@
 ---
 id: spirit-xe-console-stop-key-summary-then-reset
-title: Stop once pauses for five minutes, twice ends on a Workout Summary and a third press or three seconds resets
+title: Stop once pauses for five minutes, twice ends on a Workout Summary and a third
+  press or three seconds resets
 kind: fact
 question: What happens when I press Stop on a Spirit XE elliptical or XB bike?
 asked_as:
@@ -62,7 +63,14 @@ see_also:
 - xe395ent-2021-console-power-up-and-quick-start
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20; XE395 2010 p. 17; XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 21; XE795 2018 p. 19; XE895 2018 p. 21; XE195 2019 p. 19; XE295 2019 p. 20; XG400 2019 p. 19, all under Basic Information; XBR95 2016, 2018 and 2021 p. 17, XBR25 2019 p. 16, XBR55/XBU55 2019 and 2021 p. 18, all Basic Information; XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES
+  locator: XE195 2021 p. 19; XE295 2021 p. 20; XG400 2021 p. 19; XE795 2021 p. 20;
+    XE395 2010 p. 17; XE395 2023 p. 23; XE795 2023 p. 22; XE395 2018 p. 21; XE795
+    2018 p. 19; XE895 2018 p. 21; XE195 2019 p. 19; XE295 2019 p. 20; XG400 2019 p.
+    19, all under Basic Information; XBR95 2016, 2018 and 2021 p. 17, XBR25 2019 p.
+    16, XBR55/XBU55 2019 and 2021 p. 18, all Basic Information; XBR25 2023 p. 19,
+    XBR95 2023 p. 20, XBR55/XBU55 2023 p. 21, all FEATURES. XBR55-2023 service manual
+    BASIC INFORMATION, PDF pp. 5-6 (printed 5-6), text.md lines 88-99; XBU55-2023
+    PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96
   extracted_at: '2026-09-09'
 ---
 
@@ -116,3 +124,7 @@ resets, and during data entry the key steps back a screen.
 
 **What its summary lists is not what the ellipticals list**; see
 `spirit-xe-console-what-the-workout-summary-lists`.
+
+**The three 2023 bike service manuals print the Stop paragraph word for word**, including the third press
+or three-second hold that resets and the Workout Summary of Total time, Avg. Speed, Avg. Watts and
+Avg. HR.

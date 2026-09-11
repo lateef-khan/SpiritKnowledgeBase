@@ -3,7 +3,7 @@ id: ce800ent-e5-console-controller-communication
 title: 'E5: poor communication between console and lower controller'
 kind: troubleshooting
 question: What does E5 mean on a Spirit CE800ENT or CE800ENT-2024 elliptical or a
-  CR800ENT-2024 or CU800ENT-2024 bike?
+  CR800ENT-2023, CR800ENT-2024, CU800ENT-2022 or CU800ENT-2024 bike?
 asked_as:
 - what does e5 mean on my spirit elliptical
 - elliptical showing e5
@@ -26,7 +26,9 @@ facets:
   applies_to:
   - ce800ent
   - ce800ent-2024
+  - cr800ent-2023
   - cr800ent-2024
+  - cu800ent-2022
   - cu800ent-2024
   section: errors
   code: e5
@@ -43,8 +45,11 @@ see_also:
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: 'CE800ENT service manual section 7-1 Error Message: E5, page 25; CU800ENT
-    2024 owner''s manual ERROR CODES, printed page 51 (that page is a flat picture and
-    was read from the rendered page)'
+    2024 owner''s manual ERROR CODES, printed page 51 (that page is a flat picture
+    and was read from the rendered page); CU800ENT 2020-ver book (cu800ent-2022) service
+    manual 7-1 Error Message: E5, PDF p. 25, text.md lines 384-412; CR800ENT 2020-ver
+    book (cr800ent-2023) service manual 7-1 Error Message: E5, PDF p. 25, text.md
+    lines 391-419'
   extracted_at: '2026-09-08'
 ---
 
@@ -90,3 +95,5 @@ sentence word for word**, and like the CU800ENT 2024 they print it and stop - no
 repair. It is the only code either book carries. Both ERROR CODES pages are flat pictures apart
 from the code letter itself; the definition was read from the rendered page (CE800ENT 2024 printed
 page 51, CR800ENT 2024 printed page 51).
+
+**The CU800ENT "2020 ver." service manual (`cu800ent-2022`) and the CR800ENT "2020 Ver." service manual (`cr800ent-2023`) print the whole section as the CE800ENT service manual does** - the same definition sentence *and* the same four-row parts table, misprinted first row included (`Replace main control wire` against `Lower controller board`). So on those two bikes the parts table is in their own book, unlike the 2024 owner's manuals. E5 is the only message either service manual carries; neither prints `EEPROM ERR` or a code table.

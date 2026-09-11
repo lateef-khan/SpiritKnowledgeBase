@@ -2,7 +2,13 @@
 id: xt-2015-safety-no-user-weight-limit-printed
 title: No user weight limit is printed in these manuals
 kind: fact
-question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015, XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012 upright bike, or of a Spirit XE100, XE150, XE195-2019, XE200, XE295-2019, XE300, XE350, XE395-2010, XE395-2018, XE395ENT, XE550, XE795-2018, XE895-2018 or XG400-2019 residential elliptical?
+question: What is the user weight limit of a Spirit XT685-2010, XT185-2015, XT285-2015,
+  XT385-2015 or XT485-2015 treadmill, of a Spirit XT485ENT treadmill, of a Spirit
+  CT800-2012 treadmill, of a Spirit CE850-2016 elliptical, of a Spirit CU800-2012,
+  CR800-2009 or CU1000ENT-2023 bike, of a Spirit XBR25, XBR55 or XBU55 bike of the
+  2007, 2016 or 2019 generation, of a Spirit XBR95 residential bike, or of a Spirit
+  XE100, XE150, XE195-2019, XE200, XE295-2019, XE300, XE350, XE395-2010, XE395-2018,
+  XE395ENT, XE550, XE795-2018, XE895-2018 or XG400-2019 residential elliptical?
 asked_as:
 - what is the weight limit on this treadmill
 - how much can this treadmill hold
@@ -24,14 +30,21 @@ facets:
   model: '*'
   applies_to:
   - ce850-2016
+  - cr800-2009
   - ct800-2012
+  - cu1000ent-2023
   - cu800-2012
+  - xbr25-2007
+  - xbr25-2016
   - xbr25-2019
+  - xbr55-2007
+  - xbr55-2016
   - xbr55-2019
   - xbr55-2021
   - xbr95-2016
   - xbr95-2018
   - xbr95-2021
+  - xbu55-2016
   - xbu55-2019
   - xbu55-2021
   - xe100-2007
@@ -71,18 +84,31 @@ see_also:
 - ces880-2025-safety-user-weight-limit-400-lbs
 - cu800-2012-safety-instructions-list
 - spirit-ct800-safety-user-weight-limit-450-lbs
+- spirit-xbr-2007-safety-mains-power-through-an-ac-adapter
+- cr800-2009-safety-no-safety-instructions-printed
+- cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter
+- spirit-bike-safety-user-weight-limit-350-lb
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: whole manual; the safety instructions page is page 5 (page 4 in the XT185, XT285 and
-    XT485 manuals) and prints no weight item. The XT485ENT owner's manual prints no weight
-    item on its safety instructions page, page 5, and carries no specification table The
-    CT800 2012 owner's manual prints no weight item on its Important Safety Instructions
-    page, page 2, and carries no specification table The XT685 2010 owner's manual prints no
-    weight item on its Important Safety Instructions page, PDF page 6 (printed 2), and
-    carries no specification table The Spirit CE850-2016 elliptical owner's manual has no
-    weight item on its Important Safety Instructions page, pages 5-6 The CU800 2012 owner's
-    manual prints no weight item on its Important Safety Instructions page, printed page 2,
-    in either of the two scans the source concatenates, and carries no specification table The XRW600-2019 rower owner's manual prints no weight item on its Important Safety Instructions page, printed page 5, and carries no specification table
+  locator: 'whole manual; the safety instructions page is page 5 (page 4 in the XT185,
+    XT285 and XT485 manuals) and prints no weight item. The XT485ENT owner''s manual
+    prints no weight item on its safety instructions page, page 5, and carries no
+    specification table The CT800 2012 owner''s manual prints no weight item on its
+    Important Safety Instructions page, page 2, and carries no specification table
+    The XT685 2010 owner''s manual prints no weight item on its Important Safety Instructions
+    page, PDF page 6 (printed 2), and carries no specification table The Spirit CE850-2016
+    elliptical owner''s manual has no weight item on its Important Safety Instructions
+    page, pages 5-6 The CU800 2012 owner''s manual prints no weight item on its Important
+    Safety Instructions page, printed page 2, in either of the two scans the source
+    concatenates, and carries no specification table The XRW600-2019 rower owner''s
+    manual prints no weight item on its Important Safety Instructions page, printed
+    page 5, and carries no specification table. Seven Spirit bikes whose only book
+    is a service manual print none: XBR25/XBR55 2007 dealer manual, 20 pages, text.md
+    lines 1-1068; CR800 (XR898) service manual, 18 pages, lines 1-687; XBR25-2016
+    (XR327-SB005-01), 72 pages, lines 1-1646; XBR55-2016 (XR329-SB011-01), 76 pages,
+    lines 1-1670; XBU55-2016 (XU319-SB011-01), 61 pages, lines 1-1475; CU1000ENT (SU8880-SB028),
+    35 pages, lines 1-1089. The CU800 (XU878-AB04M) and XBR95-2016 (XR829-SB012-01)
+    service manuals print none either, lines 1-1135 and 1-1631.'
   extracted_at: '2026-09-09'
 ---
 
@@ -252,3 +278,23 @@ page 6. Nothing else on the safety pages differs.
 So an owner reading the February 2019 book will find no limit in it while the November 2021 book for
 the same machine name states one. **Say the 2019 manual does not print one**, and give 350 lb only
 with the printing it comes from.
+
+## Seven Spirit bikes whose only manual on file is a service book, and it prints none
+
+**XBR25-2007 and XBR55-2007** (the 2008 dealer manual), **CR800-2009** (the XR898 book),
+**XBR25-2016, XBR55-2016 and XBU55-2016** (the XR327-SB005-01, XR329-SB011-01 and XU319-SB011-01
+books) and **CU1000ENT-2023** (SU8880-SB028) have no owner's manual in this repository, and their
+service manuals state no user weight limit anywhere. The words *lb*, *lbs*, *kg*, *capacity* and
+*weight limit* do not appear in them, and belt tensions are given in Newtons; *weight* appears
+only as the console body-weight entry and, in the 2016 books' belt-slip Q&A, as `depending on the
+weight of the user`. Checked in the text layer, with letter-spacing allowed, and in the 300 dpi
+renders the OCR supplements were made from. The CU800-2012 and XBR95-2016 service manuals, whose
+owner's manuals are already on this card, print none either.
+
+**Do not fill these in from a neighbour.** The 2019 XBR25/XBR55/XBU55 owner's manuals print none; the
+2021 ENT and all 2023 XB books print 350 lb (`spirit-bike-safety-user-weight-limit-350-lb`); the
+2021 CR800 prints 450 lb. The 2007 and 2016 books are earlier SKUs, the XR898 is a different design,
+and the CU1000ENT is a new machine; nothing in any of their books says a later figure applies
+(`spirit-xbr-2007-safety-mains-power-through-an-ac-adapter`,
+`cr800-2009-safety-no-safety-instructions-printed`,
+`cu1000ent-2023-safety-mains-powered-through-a-100-w-adapter`).

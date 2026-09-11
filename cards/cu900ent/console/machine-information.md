@@ -2,7 +2,7 @@
 id: cu900ent-machine-information
 title: Machine Information - machine type, GS mode, child lock, odometer and versions
 kind: fact
-question: How do I set the machine type on a Spirit CU900ENT bike?
+question: How do I set the machine type on a Spirit CU900ENT or CR900ENT bike?
 asked_as:
 - how do i set the machine type on the bike console
 - how do i clear the total distance on the bike
@@ -22,8 +22,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -38,7 +39,11 @@ source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Setting and Operation for Engineering Mode, p. 25 (printed 25) and p. 26
     (printed 26). Page 26 is a flattened image and was read from raw/page-26.png,
-    not from the OCR text
+    not from the OCR text. The CR900ENT-2021 service manual, Machine Information,
+    PDF pp. 24-25 (printed 24-25), text.md lines 272-316 and the OCR supplement for
+    PDF page 25, prints the same page word for word. Same three machine types, same
+    GS MODE, child lock and DISTANCE/HOUR reset, and the same demonstration values
+    (SW VERSION V12 12/09/2015, OS VERSION ...1505271750).
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +66,5 @@ The `JNI VERSION` field is a Java native-interface version; the OCR of this page
 
 Two different things are both unlocked by holding UP for 3 seconds: the child lock here, and the
 distance lock under Security.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Same three machine types, same GS MODE, child lock and DISTANCE/HOUR reset, and the same demonstration values (SW VERSION V12 12/09/2015, OS VERSION ...1505271750).

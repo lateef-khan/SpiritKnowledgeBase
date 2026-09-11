@@ -38,7 +38,11 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Maintenance / WiFi/Ethernet Setup, p. 33 (printed 33, flattened image read
-    from raw/page-33.png) and p. 34 (printed 34)
+    from raw/page-33.png) and p. 34 (printed 34). The CR900ENT-2021 service manual,
+    WiFi/Ethernet Setup, PDF pp. 32-33 (printed 32-33), text.md lines 467-490 and
+    the OCR supplement for PDF page 33, prints the same page word for word. Same WiFi
+    and Ethernet buttons, same DHCP or Static IP choice and the same demonstration
+    addresses (192.168.192.28, MAC 00:18:70:91:48:7F).
   extracted_at: '2026-09-08'
 ---
 
@@ -81,3 +85,5 @@ Static IP to enter manually."*
 CU900ENT service manual only.** Neither owner's manual prints an IP address, a netmask, a gateway, a
 DNS field or a MAC address, and neither mentions pressing "Etherner Configuration" ten times. Nothing
 in the CR900ENT documentation contradicts them, but nothing corroborates them either.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Same WiFi and Ethernet buttons, same DHCP or Static IP choice and the same demonstration addresses (192.168.192.28, MAC 00:18:70:91:48:7F).

@@ -35,7 +35,7 @@ see_also:
 - cu800-2012-programs-target-zone-of-108-to-144-beats
 source:
   ref: spirit-bike-cr900-2018-owners-manual
-  locator: 'CR900 2018 whole manual; CU900 2018 whole manual; CR900ENT 2021 whole manual; CU900ENT whole manual'
+  locator: 'CR900 2018 whole manual; CU900 2018 whole manual; CR900ENT 2021 whole manual; CU900ENT whole manual; service manuals CR900 2018 (SR8800-SB008), CU900 2018 and CR900ENT 2021, whole books, searched the same three ways'
   extracted_at: '2026-09-09'
 ---
 
@@ -49,6 +49,14 @@ hits are the CR900 2018 and CU900 2018 sentence that the console bar graph "repr
 percentage of your maximum heart rate you are currently achieving", and the CR900ENT and CU900ENT
 fitness test sentence about 85% of the projected maximum heart rate. Neither is a training-zone
 page.
+
+**Their service manuals do not supply the page either.** The CR900 2018, CU900 2018 and CR900ENT
+2021 service manuals were searched the same three ways: `220` hits only the belt tension figure
+(220 to 240 Newtons), "maximum heart rate" only the bar-graph sentence the CR900 and CU900 books
+repeat from the owner's manual, and "zone" only the CR900ENT engineering menu's "Select time zone".
+No RPE page and no chest strap page is in any of the three. This is unlike the AB900 2018, whose
+service manual does print the pages its owner's manual lacks
+(`spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`).
 
 **These four also print no rate of perceived exertion page** - see
 `spirit-bike-programs-rate-of-perceived-exertion`.

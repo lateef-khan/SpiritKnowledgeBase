@@ -1,6 +1,7 @@
 ---
 id: spirit-commercial-bike-errors-no-error-codes-printed
-title: Twenty-six bike owner's manuals print no error code and no troubleshooting table
+title: Twenty-six bike owner's manuals print no error code and no troubleshooting
+  table
 kind: fact
 question: Does a Spirit bike owner's manual - upright, recumbent, indoor cycle or
   air bike - list any error codes or a troubleshooting section?
@@ -71,6 +72,9 @@ see_also:
 - spirit-xe-errors-no-error-codes-printed
 - spirit-residential-bike-errors-2023-troubleshooting-chapter-three-rows
 - spirit-residential-bike-errors-display-does-not-light-115-vac
+- spirit-bike-errors-eeprom-err-replace-upper-controller
+- jb950-2022-errors-error-message-table-four-messages
+- spirit-bike-errors-display-wont-come-on-check-computer-cable-then-meter
 source:
   ref: spirit-bike-cu800-2021-owners-manual
   locator: 'Absence, checked over the full text, the page-by-page text layer and the
@@ -81,7 +85,8 @@ source:
     XB manuals - XBR95 2016, XBR95 2018, XBR25 2019, XBR55 2019, XBU55 2019, XBR55
     2021, XBU55 2021, XBR95 2021, XBR55ENT 2021, XBU55ENT 2021, XBR95 2023 - each
     checked over its full text, its table of contents, and a 300 dpi render of every
-    page compared against the text layer'
+    page compared against the text layer; the 2026-09-11 service-manual wave (see
+    the body paragraph headed "The service manuals are a different matter")'
   extracted_at: '2026-09-09'
 ---
 
@@ -247,3 +252,12 @@ above. No hidden fault table exists in any of the eleven.
 
 The Spirit residential ellipticals have the same gap, described at
 `spirit-xe-errors-no-error-codes-printed`.
+
+**The service manuals are a different matter.** This card is about the *owner's* manuals. On 2026-09-11 the service manuals of most of the machines above were carded, and they print what the owner's manuals do not:
+
+- **`EEPROM ERR`, replace the upper controller** - CU900 2018, CR900 2018, XBR95 2016: `spirit-bike-errors-eeprom-err-replace-upper-controller`. **`EEPROM ERROR`, replace the upper controller** - CU800 2012, CU800 2021, CR800 2021: `ce900-2025-errors-eeprom-error-replace-upper-controller`. **`EEPROM ERR` with no fix** - CR900ENT 2021: `cu900ent-eeprom-err`.
+- **The `40H`-`50H` / `EAH` / `ECH` / `EDH` list** on the CR900ENT 2021 as well as the CU900ENT: `cu900ent-error-code-messages-list`. **`E5`** on the CU800ENT 2022 and CR800ENT 2023: `ce800ent-e5-console-controller-communication`. **`E2`** on the XBR55ENT 2021 and XBU55ENT 2021: `spirit-xb-errors-e2-motor-does-not-move-on-level-key`.
+- **Four worded messages on the JB950 2022** - `USING DEFAULT SETUP`, `HR SENSOR ERROR`, `MOTOR ERROR`, `ENCODER ERROR`: `jb950-2022-errors-error-message-table-four-messages`.
+- **A Condition / Reason / Solve matrix in every one of those service manuals** (`spirit-erratic-pulse-display`, `spirit-hand-pulse-not-working`, `spirit-wireless-chest-belt-no-pulse` and the display rows they link to), a four-row lookup table on the AB900 2018 (`ab900-2018-errors-lcd-does-not-shine-check-1-5-v-batteries`), and Q&A chapters on the XBR, XBU, CR800 and CU800 books (`spirit-bike-errors-display-wont-come-on-check-computer-cable-then-meter` and its neighbours).
+
+**Still true of the service manuals**: the AB900 2018 prints no code, the CR800 2009 (XR898) and XBR25/XBR55 2007 books print no code, and the XBR95 2023 owner's manual has no troubleshooting page while its service manual has a three-row matrix and a Q&A.

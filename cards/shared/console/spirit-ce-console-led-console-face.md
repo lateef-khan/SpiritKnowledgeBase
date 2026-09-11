@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-led-console-face
-title: The console face with two Scan buttons, a dot matrix message centre and a USB charger
+title: The console face with two Scan buttons, a dot matrix message centre and a USB
+  charger
 kind: fact
-question: What is on the console of a Spirit commercial elliptical or bike with LED data windows?
+question: What is on the console of a Spirit commercial elliptical or bike with LED
+  data windows?
 asked_as:
 - what are the buttons on my spirit elliptical console
 - where is the usb port on the elliptical console
@@ -43,8 +45,10 @@ see_also:
 - spirit-ce-console-blue-led-console-face
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 13; CE800 2023 p. 14; CE850 2020 p. 19; CE850 2022 p. 20; CES880 2025 p. 31 CONSOLE
-    SCREEN - OVERVIEW
+  locator: CE800 2021 p. 13; CE800 2023 p. 14; CE850 2020 p. 19; CE850 2022 p. 20;
+    CES880 2025 p. 31 CONSOLE SCREEN - OVERVIEW. CR800 (2020) service manual 4-1 Display
+    Windows, PDF p. 12 (printed 11), text.md lines 152-175; CU800 (2020) service manual
+    PDF p. 12 (printed 11), lines 172-195
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +104,5 @@ the same split their text prints
 
 **Neither 2021 drawing labels a quarter-mile track ring**, though both manuals describe one in text
 (`ct900-quarter-mile-track-display`), and neither labels a safety tether socket or a heart rate grip.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Their call-out list is SCAN BUTTON FOR LED WINDOW, LED DATA DISPLAY WINDOWS, Dot-Matrix MESSAGE CENTER, SCAN BUTTON FOR Dot-Matrix, UP DOWN PROGRAM CONTROL, FAN COOLING FAN SWITCH (printed "COOLONG"), START STOP LEVEL CONTROLS and USB CHARGER - the same face, with the fan switch named.

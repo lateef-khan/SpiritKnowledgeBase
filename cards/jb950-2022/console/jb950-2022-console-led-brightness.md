@@ -1,24 +1,25 @@
 ---
 id: jb950-2022-console-led-brightness
-title: 'Three display brightness levels, with 2 as the factory default'
+title: Three display brightness levels, with 2 as the factory default
 kind: procedure
-question: 'How do I change the display brightness on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I change the display brightness on a Spirit jb950-2022 Johnny G Spirit
+  Bike?
 asked_as:
-- 'my johnny g bike display is too dim'
-- 'how do i make the jb950 screen brighter'
-- 'brightness setting on the johnny g spirit bike'
-- 'dim the console in a dark studio'
+- my johnny g bike display is too dim
+- how do i make the jb950 screen brighter
+- brightness setting on the johnny g spirit bike
+- dim the console in a dark studio
 keywords:
-- 'led brightness'
-- 'brightness'
-- 'dim'
-- 'bright'
-- 'level 1'
-- 'level 2'
-- 'level 3'
-- 'default'
-- 'maintenance mode'
-- 'studio lighting'
+- led brightness
+- brightness
+- dim
+- bright
+- level 1
+- level 2
+- level 3
+- default
+- maintenance mode
+- studio lighting
 facets:
   brand:
   - spirit
@@ -37,7 +38,8 @@ see_also:
 - jb950-2022-console-maintenance-mode-entry-and-menu
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed pp. 57-58 LED BRIGHTNESS
+  locator: JB950-2022 printed pp. 57-58 LED BRIGHTNESS. JB950 service manual 5.3 LED
+    BRIGHTNESS, PDF p. 42 (printed 42), text.md lines 760-766
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +61,5 @@ each console, pedalling each bike above 30 RPM to wake it first.
 **A display that is dim on one bike and bright on the next is this setting, not a fault.** Check it
 before suspecting the LED panels - and if whole characters are missing rather than merely faint, run
 the Display Test instead (`jb950-2022-console-display-test`).
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same default of 2 and same three levels; the troubleshooting matrix's first cause for dim LEDs is this setting.

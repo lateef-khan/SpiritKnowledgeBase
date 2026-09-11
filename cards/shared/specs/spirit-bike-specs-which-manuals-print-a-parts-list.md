@@ -57,6 +57,8 @@ see_also:
 - cr800-2024-specs-parts-list
 - cr800ent-2024-specs-parts-list
 - cu800-2024-specs-parts-list
+- spirit-cr900-specs-parts-component-callout-numbers
+- spirit-bike-specs-parts-which-service-manuals-print-a-parts-list
 source:
   ref: spirit-bike-cr800-2021-owners-manual
   locator: 'Table of Contents p. 1 (40 EXPLODED VIEW, 41 PARTS LIST); each of the
@@ -93,7 +95,11 @@ head bolt* row and no item-number column. **The only part numbers those five giv
 are the step-by-step hardware callouts inside the assembly chapter**, which cover
 fasteners for assembly and nothing else. For a CU900ENT the service manual fills
 part of the gap - see `cu900ent-outlines-part-names` - but it too carries no
-numbered parts list.
+numbered parts list. The service manuals for the CR900-2018, CR900ENT-2021 and CU900-2018 do the
+same: a numbered table of cover names with no part numbers
+(`spirit-cr900-specs-parts-component-callout-numbers`, `cu900ent-component-callout-numbers`), and no
+other bike service manual prints even that
+(`spirit-bike-specs-parts-which-service-manuals-print-a-parts-list`).
 
 ## The document code above the list is not the model number
 

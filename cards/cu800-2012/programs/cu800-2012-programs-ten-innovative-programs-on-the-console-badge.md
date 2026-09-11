@@ -16,7 +16,8 @@ keywords:
 - constant power
 - fit test
 - custom
-- number key pad
+- service manual
+- key strip
 facets:
   brand:
   - spirit
@@ -36,7 +37,7 @@ see_also:
 - cu800-2012-programs-custom-twenty-segments-saved-under-a-facility-name
 source:
   ref: spirit-bike-cu800-2012-owners-manual
-  locator: 'CU800 2012 printed p. 15 (scan 1 PDF p. 15), p. 17-19 (PDF p. 19-21), p. 20 (PDF p. 22), p. 25 (PDF p. 27)'
+  locator: 'CU800 2012 printed p. 15 (scan 1 PDF p. 15), p. 17-19 (PDF p. 19-21), p. 20 (PDF p. 22), p. 25 (PDF p. 27); CU800 2012 service manual (XU878-AB04M) Function Button Locations PDF p. 18, text.md lines 299-328 (read from the render); EXERCISE MODE 3.2, p. 14, lines 209-213; READY MODE DISPLAY KEY, p. 19, lines 337-338'
   extracted_at: '2026-09-09'
 ---
 
@@ -47,6 +48,16 @@ The book then describes **five presets** - **Hill, Fat Burn, Cardio, Strength an
 four more programs with their own keys: **Manual**, **Custom**, **Fit-Test** and **HRC** (heart rate
 control), plus **Constant Power**. That is nine named programs; the manual never lists the tenth,
 and Quick Start from the Start key is not counted as a program anywhere in the book.
+
+**The service manual names all ten.** The XU878-AB04M service manual's Function Button Locations
+page captions the key row **"PROGRAM BUTTONS (Manual, Hill, Fat Burn, Cardio, Strength, Interval,
+Custom, Fit-Test, HR, Constant power)"** - exactly ten names, which is the badge's count. The ten
+only add up when **Constant Power** is counted as a program in its own right, which the owner's
+manual describes but never lists as one; the service manual's key strip does. The same book's operation
+page groups the keys differently - "MANUAL, PROGRAM, CUSTOM, FIT-TEST, HRC1, Constant power", where
+PROGRAM stands for the five presets and **HRC1** is the single heart rate key - and its Display Key
+note numbers the profile programs **P0 to P5** alongside CUSTOM and FIT-TEST. It prints no program
+descriptions.
 
 **This machine has a Strength program and no HIIT.** HIIT appears nowhere in either scan of the
 manual. Strength is described in full - see `spirit-bike-programs-strength-profile`.

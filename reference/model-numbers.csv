@@ -26,6 +26,7 @@ ce850-2024,850025,own-manual-text
 ce900-2025,900025,own-manual-text
 ces880-2025,880025,own-manual-text
 cic800-2021,800390,own-filename
+cr800-2009,800149 800143,year-in-name
 cr800-2024,800125,own-manual-text
 cr800ent-2023,800150,own-manual-text
 cr800ent-2024,800165,own-manual-text
@@ -86,6 +87,7 @@ ct850ent-2022,850852,own-manual-text
 ct850ent-2024,850865,own-manual-text
 ct900,900825,own-manual-text
 ctsbs900,900885,own-manual-text
+cu1000ent-2023,210354,only-candidate
 cu800-2012,800343,own-manual-text
 cu800-2021,800340,own-filename
 cu800-2024,800325,own-manual-text
@@ -176,8 +178,17 @@ tt8-2016-ac,588816,year-in-name
 tt8-2019,588818,year-in-name
 tt8-2019-ac,588818,year-in-name
 tt8-2023,588822,own-filename
+xbr25-2007,251117,fp-date
+xbr25-2016,251115,year-in-name
 xbr25-2023,251123,own-manual-text
+xbr55-2007,551117,fp-date
+xbr55-2016,551115,year-in-name
+xbr55-2019,551118,year-in-name
+xbr55-2023,551123 551223,own-filename
+xbr95-2016,951115,year-in-name
 xbr95-2023,951123,own-manual-text
+xbu55-2016,551215,year-in-name
+xbu55-2019,551218,year-in-name
 xbu55-2023,552123,own-manual-text
 xe100-2007,100007,only-candidate
 xe150-2005,150005,only-candidate

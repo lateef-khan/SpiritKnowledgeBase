@@ -33,7 +33,7 @@ see_also:
 - spirit-bike-programs-air-bike-eight-console-modes-and-no-workout-profiles
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 37; AB950 2024 printed p. 24'
+  locator: 'AB900 2018 printed p. 37; AB950 2024 printed p. 24; AB900 2018 service manual (AU800/AU800A) INTERVAL CUSTOM MODE, PDF p. 16, text.md lines 227-237'
   extracted_at: '2026-09-09'
 ---
 
@@ -53,5 +53,6 @@ total number of intervals.**
    **Stop** at any time also ends it. The workout summary is shown either way.
 
 **Neither manual prints the allowed range** for the number of intervals or for the segment times, and
-neither says whether the setup survives a power cycle. The setup step is worded "after the console
+neither says whether the setup survives a power cycle. The AB900 2018 service manual repeats the
+owner's manual's page word for word and adds no range either. The setup step is worded "after the console
 has been reset", which is the only hint: it implies the last values are kept until then.

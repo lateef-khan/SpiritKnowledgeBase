@@ -40,9 +40,10 @@ see_also:
 - jb950-2022-programs-lap-program
 - jb950-2022-console-pair-heart-rate-strap
 - jb950-2022-programs-user-function-runs-three-programs-at-once
+- jb950-2022-programs-miles-for-lives-program-named-only-in-the-service-manual
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: 'JB950 2022 printed p. 36 (PROGRAMS)'
+  locator: 'JB950 2022 printed p. 36 (PROGRAMS); JB950 service manual 5.3 Maintenance Mode, UNITS, PDF p. 41, text.md lines 696-702'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,6 +63,11 @@ manual describes what it does.
 
 **Pairing a strap starts the HR Zone program automatically.** Once a heart rate strap is paired, the
 HR Zone program begins and the **HR LED light in the lower right of the console illuminates**.
+
+**The service manual names a fifth program the menu does not show.** Its Maintenance Mode UNITS
+entry says that "for the MILES FOR LIVES program, distance goal and SPD AVG and SPD PEAK in Workout
+Results will only display in ENGLISH". Nothing else in either book mentions it - see
+`jb950-2022-programs-miles-for-lives-program-named-only-in-the-service-manual`.
 
 **Two more modes are not in this menu**, because they are not optional: **Warm Up Mode**, which is
 where the console wakes up, and **Manual Mode**, which is what Warm Up becomes when you press Play.

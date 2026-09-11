@@ -1,8 +1,10 @@
 ---
 id: spirit-ce800-console-maintenance-menu-function-and-service
-title: The Start, Stop and Enter menu whose Function list holds Units, Pause mode, Odometer Reset and Beep sound
+title: The Start, Stop and Enter menu whose Function list holds Units, Pause mode,
+  Odometer Reset and Beep sound
 kind: procedure
-question: How do I get into maintenance mode on a Spirit CE800 elliptical or a Spirit CR800 or CU800-2021 bike, and what is in it?
+question: How do I get into maintenance mode on a Spirit CE800 elliptical or a Spirit
+  CR800 or CU800-2021 bike, and what is in it?
 asked_as:
 - how do i get into engineering mode on the elliptical
 - how do i switch the elliptical to metric
@@ -43,7 +45,10 @@ see_also:
 - spirit-ce-console-stop-button-press-once-twice-hold
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 36 ENGINEERING MODE MENU; CE800 2023 p. 37
+  locator: CE800 2021 p. 36 ENGINEERING MODE MENU; CE800 2023 p. 37. CR800 (2020)
+    service manual section 7-4 MAINTENANCE MENU IN CONSOLE SOFTWARE, PDF p. 26 (printed
+    25), text.md lines 366-398; CU800 (2020) service manual PDF p. 26 (printed 25),
+    lines 388-420, word for word
   extracted_at: '2026-09-09'
 ---
 
@@ -67,8 +72,9 @@ The Dot Matrix Message Center displays **Maintenance Mode**. Press **Enter** to 
 
 Both printings list these items in this order, word for word.
 
-**There is no Sleep mode entry and no protocol choice in this menu.** The CE850-2020 and CE850-2022
-menus add both, plus a Motor test and a Stride test:
+**There is no Sleep mode entry in this menu, and the owner's manuals print no protocol choice** - but
+the two bike service manuals do, as reserved entries; see the end of this card. The CE850-2020 and
+CE850-2022 menus add a sleep entry and a live protocol choice, plus a Motor test and a Stride test:
 `spirit-ce850-console-maintenance-menu-cab-or-csafe`. Do not read one machine's menu onto the other.
 
 **The CR800-2021, CR800-2023 and CU800-2021 bike owner's manuals print the same five items in the
@@ -112,3 +118,24 @@ CSAFE protocol choice: `spirit-ce850-console-maintenance-menu-cab-or-csafe` and
 `spirit-stepper-console-maintenance-menu-sleep-default-on`. **The 2024 CT800 and CT850 treadmills
 have a different menu again**, five numbered items with a Child Lock:
 `ct900-engineering-mode-menu`.
+
+**The CR800 (2020) and CU800 (2020) service manuals print the same menu with two extra entries.** Their
+section 7-4 opens with the maintenance/diagnostic-software sentence, holds Start, Stop and Enter for
+about 5 seconds until the Message Window displays **"Engineering Mode"** (not "Engineering Mode
+Menu"), and navigates with the **Level ▲/▼** keys. Its list, word for word:
+
+- **A. Key Test** - test all the keys
+- **B. Display Test** - "Automatically tests all LED's"
+- **C. Functions** - Unit (ENGLISH or METRIC), Pause Mode (5 minutes on, indefinite off), Odometer
+  Reset, Beep Mode, **V. Use CSAFE protocol (Reserved)**, **VI. Use CAB protocol (Reserved)**
+- **D. Service - Factory testing** - PWM Test, Sensor Test, CSAFE Test
+- **D. Exit - Exit to idle mode** (lettered D a second time)
+
+**The two protocol entries are the finding.** The owner's manuals list four Function settings; the
+service manuals list six, the last two marked Reserved. Nothing says what a Reserved entry does when
+selected. The Service tests are the same three in a different order.
+
+**The CU800 (2020) book is the CR800 (2020) book.** Its Product Operation chapter says "CR800
+Recumbent trainers have a built-in generator" and "The CR800 will also pick up wireless heart rate
+transmitters" - the upright's service manual was made from the recumbent's without changing the
+name, and its wording does not match the CU800-2021 owner's manual, which is worded for an upright.

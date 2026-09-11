@@ -2,7 +2,8 @@
 id: cu900ent-down-control-replacement
 title: Down control panel replacement
 kind: procedure
-question: How do I replace the down control on a Spirit CU900ENT bike?
+question: How do I replace the down control (lower control panel) on a Spirit CU900,
+  CU900ENT or CU1000ENT upright bike?
 asked_as:
 - lower control board on my spirit cu900 bike
 - control panel replacement on the cu900ent
@@ -19,8 +20,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -32,7 +35,9 @@ see_also:
 - cu900ent-lift-arm-group-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.10 Down Control Replacement, p. 61 (printed 61)
+  locator: 'cu900ent: Section 8, 6.10 Down Control Replacement, p. 61 (printed 61)
+    | cu900-2018: 6.10 Down Control Replacement, PDF p. 55; text.md lines 904-917
+    | cu1000ent-2023: 12.21 Down Control Replacement, PDF p. 33; text.md lines 708-721'
   extracted_at: '2026-09-08'
 ---
 
@@ -46,3 +51,4 @@ That is the whole printed procedure - **one step, and no reassembly step**.
 No screw size, no torque, and no wiring detail is printed. The console's own error codes are covered
 by the error cards, not here.
 
+**Three books, one step.** The CU900 (2018) manual prints this as 6.10 and the CU1000ENT (2023) manual as 12.21, word for word: four screws, release the power, no refit step.

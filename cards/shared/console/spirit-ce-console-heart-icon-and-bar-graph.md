@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-heart-icon-and-bar-graph
-title: The blinking heart icon and the bar graph that shows percent of maximum heart rate
+title: The blinking heart icon and the bar graph that shows percent of maximum heart
+  rate
 kind: fact
-question: What is the blinking heart and the bar of lights on a Spirit CE800, CE850 or CE900 elliptical, or a Spirit CR900, CU900 or CU800-2012 bike?
+question: What is the blinking heart and the bar of lights on a Spirit CE800, CE850
+  or CE900 elliptical, or a Spirit CR900, CU900 or CU800-2012 bike?
 asked_as:
 - what is the flashing heart on my elliptical display
 - what is the bar of lights next to the heart on the elliptical
@@ -43,7 +45,10 @@ see_also:
 - spirit-ce-console-display-button-four-window-sets
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: CE900 2021 p. 15; CE900 2025 p. 17; CE850 2016 p. 18; CE800 2013 p. 17 (printed 14)
+  locator: CE900 2021 p. 15; CE900 2025 p. 17; CE850 2016 p. 18; CE800 2013 p. 17
+    (printed 14). CR900-2018 service manual BASIC INFORMATION, PDF p. 14 (printed
+    14), text.md lines 172-176; CU900-2018 service manual PDF p. 15 (printed 15),
+    lines 236-240
   extracted_at: '2026-09-09'
 ---
 
@@ -84,3 +89,5 @@ window**.
 **The CR800-2021, CR800-2023 and CU800-2021 bikes have no bar graph** - they print a plain pulse
 window instead, exactly as their CE800 stablemates do:
 `spirit-ce-console-pulse-window-polar-coded-straps`.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same blinking heart icon, same bar graph of percent of maximum and the same note that age must be entered.

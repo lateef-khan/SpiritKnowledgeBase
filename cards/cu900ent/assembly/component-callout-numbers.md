@@ -2,7 +2,7 @@
 id: cu900ent-component-callout-numbers
 title: Component call-out numbers and part names
 kind: fact
-question: What are the numbered parts on the Spirit CU900ENT bike exploded view?
+question: What are the numbered parts on the Spirit CU900 or CU900ENT bike exploded view?
 asked_as:
 - what is part number 15 on my spirit cu900 bike
 - cu900ent parts diagram names
@@ -21,20 +21,22 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-cr900-specs-parts-component-callout-numbers
 - cu900ent-console-replacement
 - cu900ent-left-and-right-trim-cover-replacement
 - cu900ent-foot-pad-and-moving-wheel-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8 Disassembling and Assembling, 2. Component Description, p. 42
+  locator: Section 8 Disassembling and Assembling, 2. Component Description, p. 42; the CU900 (SU8800-SB008) 2018 service manual prints the identical 20-row list, PDF p. 35, text.md lines 564-592
     (printed 42)
   extracted_at: '2026-09-08'
 ---
@@ -73,3 +75,4 @@ numbers to order against, and it prints no exploded view for the drive system or
 
 `Sider Case (R)` in row 7 is printed that way; row 6 prints `Side Case (L)`.
 
+The CU900 (SU8800-SB008) 2018 service manual prints the same twenty callouts, so this list serves the CU900 and the CU900ENT alike; the recumbent CR900 / CR900ENT list is `spirit-cr900-specs-parts-component-callout-numbers`.

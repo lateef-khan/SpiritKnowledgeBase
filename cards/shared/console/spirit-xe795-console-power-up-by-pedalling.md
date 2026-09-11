@@ -1,8 +1,10 @@
 ---
 id: spirit-xe795-console-power-up-by-pedalling
-title: The console runs off a built-in generator, so you pedal to power it up and it blanks when the flywheel stops
+title: The console runs off a built-in generator, so you pedal to power it up and
+  it blanks when the flywheel stops
 kind: procedure
-question: How do I turn on a Spirit XE795 elliptical or XBR95 bike that has no power cord?
+question: How do I turn on a Spirit XE795 elliptical or XBR95 bike that has no power
+  cord?
 asked_as:
 - how do i turn on my xe795 elliptical
 - my elliptical console will not light up
@@ -42,7 +44,11 @@ see_also:
 - spirit-xe-console-power-up-shows-odo-miles-and-hours
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: XE795 2021 p. 16 POWER (the February 19 2021 printing carries the same paragraph); XE795 2023 p. 15 Powering On; XBR95 2016, 2018 and 2021 p. 14 POWER; XBR95 2023 p. 13 Powering On
+  locator: XE795 2021 p. 16 POWER (the February 19 2021 printing carries the same
+    paragraph); XE795 2023 p. 15 Powering On; XBR95 2016, 2018 and 2021 p. 14 POWER;
+    XBR95 2023 p. 13 Powering On. XBR95-2016 service manual Electrical Configurations,
+    PDF p. 11 (printed 11), text.md lines 154-173; XBR95-2023 service manual Electrical
+    Configurations, PDF p. 6 (printed 6), text.md lines 79-89
   extracted_at: '2026-09-09'
 ---
 
@@ -103,3 +109,8 @@ distance and time windows
 **No other Spirit residential bike works this way.** The XBR25, XBR55, XBU55 and both ENT bikes are
 cord-powered. The commercial CR and CU bikes are generator machines but print a different paragraph:
 `spirit-ce-console-pedal-to-power-up`.
+
+**Both XBR95 service manuals describe the generator.** The 2023 book's Electrical Configurations page
+names a Brake Controller ("the DC power supply for console") and a Generator Brake, and says the main
+controller includes "power supply (generator power)"; its Product Operation chapter prints no Power Up
+paragraph at all, where the XBR55-2023 and XBU55-2023 books print the mains power-up self-test.

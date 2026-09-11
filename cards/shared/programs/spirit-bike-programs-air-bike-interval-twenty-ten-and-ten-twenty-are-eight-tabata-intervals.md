@@ -38,7 +38,7 @@ see_also:
 - spirit-bike-console-air-bike-display-panels
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 32 and p. 36; AB950 2024 printed p. 18 and p. 24'
+  locator: 'AB900 2018 printed p. 32 and p. 36; AB950 2024 printed p. 18 and p. 24; AB900 2018 service manual (AU800/AU800A) INTERVAL 20/10 & 10/20 MODE, PDF p. 15, text.md lines 207-221, and Interval Display Panel, p. 12, lines 115-122'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,6 +58,17 @@ manuals name the training method **Tabata® or High Intensity Interval Training 
 **REST** period, and counts the intervals off against the total - see
 `spirit-bike-console-air-bike-display-panels`.
 
-**Neither manual prints which of the two numbers is work and which is rest.** They give the names
-"Interval 20/10" and "Interval 10/20" and describe both together in one paragraph. Do not tell an
-owner that 20/10 means twenty seconds of work and ten of rest - the manuals do not say so.
+**Neither owner's manual prints which of the two numbers is work and which is rest.** They give the
+names "Interval 20/10" and "Interval 10/20" and describe both together in one paragraph.
+
+**The AB900 2018 service manual does print it**, in a two-column table under the same paragraph:
+
+| | 20/10 | 10/20 |
+|---|---|---|
+| Amount of intervals | 8 | 8 |
+| Work interval length | **20 sec** | **10 sec** |
+| Rest interval length | **10 sec** | **20 sec** |
+
+So the first number is the **work** length and the second the **rest** length, in seconds. The table
+is the service manual's; cite it as such, because an owner reading the owner's manual will not find
+it there.

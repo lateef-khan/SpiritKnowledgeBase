@@ -21,6 +21,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - sb700-2011
   - sb700-2019
   - sb700-2020
   - sb900-2020
@@ -32,10 +33,15 @@ see_also:
 - sole-spinner-noises
 source:
   ref: sole-bike-sb700-2020-service-manual
-  locator: "Section 4.3 Sliding Seat Mount or Handlebar Loose Problem (same answer in the SB700 2019, SB700 2020 and SB900 2020 manuals)"
+  locator: 'Section 4.3 Sliding Seat Mount or Handlebar Loose Problem (same answer in the
+    SB700 2019, SB700 2020 and SB900 2020 manuals). The October 2009 SB700 book prints
+    the same one-line answer as II. Q&A Problem 3 Sliding Seat Mount or Handlebar Loose:
+    sole-bike-sb700-2011-service-manual PDF p. 14, text.md lines 346-352 (added 2026-09-11).'
   extracted_at: '2026-09-03'
 ---
 
 Tighten the **8 x 40 m/m quick release lever (19)**.
+
+The 2009 SB700 book (`sb700-2011`) gives the identical answer and names the same lever (19).
 
 The SB900 2020 manual prints the same answer, and names the same 8 x 40 m/m quick release lever (19). That bike uses a Seat/Handlebar Adjustment Locking Lever instead of the SB700 quick release, so check the lever your bike actually has.

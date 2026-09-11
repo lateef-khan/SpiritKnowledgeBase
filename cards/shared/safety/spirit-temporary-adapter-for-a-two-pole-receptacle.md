@@ -2,7 +2,11 @@
 id: spirit-temporary-adapter-for-a-two-pole-receptacle
 title: Using a temporary adapter in a two-pole receptacle
 kind: procedure
-question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential machine, or a Spirit CVC800 climber, if there is no grounded outlet?
+question: Can I use an adapter plug on a Spirit CT850 or CT850ENT treadmill, a Spirit
+  CT800-2012, CT800-2016 or CT800ENT-2022 treadmill, a 2010, 2015 or 2023 Spirit XT
+  treadmill, a Spirit CE850 elliptical, a Spirit XE395-2010, XE395ENT or XG400 residential
+  machine, a Spirit XBR or XBU residential bike of the 2016 or 2023 generation, or
+  a Spirit CVC800 climber, if there is no grounded outlet?
 asked_as:
 - can i use a cheater plug on the treadmill
 - no grounded outlet what do i do
@@ -41,6 +45,13 @@ facets:
   - ct850ent-2022
   - ct850ent-2024
   - cvc800
+  - xbr25-2016
+  - xbr55-2016
+  - xbr55-2023
+  - xbr95-2016
+  - xbr95-2023
+  - xbu55-2016
+  - xbu55-2023
   - xe395-2010
   - xe395-2018
   - xe395ent-2021
@@ -75,12 +86,29 @@ see_also:
 - spirit-xe-safety-outlet-115-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the same
-    paragraph is p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed 26)
-    of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the five
-    2023 XT owner's manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8), and the Important
-    Grounding Instructions page of the five 2015 XT owner's manuals (XT185/XT285/XT485
-    p. 6, XT385/XT685 p. 7) The CT800 2012 owner's manual prints the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022 manual on page 6 The four CT850 owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6 The XT685 2010 owner's manual prints it on its Grounding Instructions page, PDF page 7 (printed 3) The three Spirit CE850 elliptical owner's manuals print it on their GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8
+  locator: 'Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the
+    same paragraph is p. 34 (printed 33) of the CT850 2020 manual, p. 26 (printed
+    26) of the CVC800 manual, and the GROUNDING & LOCATION REQUIREMENTS page of the
+    five 2023 XT owner''s manuals (XT185 p. 7, XT285/XT385/XT485/XT685 p. 8), and
+    the Important Grounding Instructions page of the five 2015 XT owner''s manuals
+    (XT185/XT285/XT485 p. 6, XT385/XT685 p. 7) The CT800 2012 owner''s manual prints
+    the same paragraph on page 3, the CT800 2016 manual on page 5 and the CT800ENT-2022
+    manual on page 6 The four CT850 owner''s manuals print it on their GROUNDING INSTRUCTIONS
+    page - 2016 pages 6-7, 2018 page 5, 2020 pages 6-7, ENT-2022 page 6 The XT685
+    2010 owner''s manual prints it on its Grounding Instructions page, PDF page 7
+    (printed 3) The three Spirit CE850 elliptical owner''s manuals print it on their
+    GROUNDING INSTRUCTIONS page - 2016 pages 6-7, 2020 page 8, 2022 page 8. Seven
+    Spirit residential bike service manuals print the paragraph in 7.3 Important Grounding
+    Instructions: XBR25-2016 (XR327-SB005-01) service manual: section 7 Product Safety
+    Instructions, PDF p. 31 (printed 31); text.md lines 424-452. XBR55-2016 (XR329-SB011-01)
+    service manual: section 7, PDF p. 33 (printed 33); text.md lines 448-474. XBU55-2016
+    (XU319-SB011-01) service manual: section 7, PDF p. 31 (printed 31); text.md lines
+    424-453. XBR95-2016 (XR829-SB012-01) service manual: section 7, PDF p. 35 (printed
+    35); text.md lines 457-483. XBR55-2023 (XR329A-SB030) service manual: section
+    7.1-7.3, PDF p. 11 (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030)
+    service manual: section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203.
+    XBR95-2023 (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed
+    13 of 28); text.md lines 191-223.'
   extracted_at: '2026-09-08'
 ---
 
@@ -232,3 +260,18 @@ the adapter, its tab and its grounding screw sits below with no text explaining 
 procedure into those three books; and note that the 8.5S-Fit, which does print it, forbids an
 adapter in item 2 of its own safety list two pages earlier
 (`spirit-climber-safety-outlet-120-volt-15-amp-fit`).
+
+## Seven Spirit residential bike service manuals print the paragraph
+
+**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
+manuals print it word for word** under 7.3, with the plug and adapter drawing beside it - the 2016
+books spelling the tab `earlug` and the 2023 books `earplug`. The same three conditions apply:
+temporary use only, the tab connected to a permanent ground, and the adapter held in place by a
+metal screw. All seven also print the safety bullet `Do not attempt to disable the grounded plug by
+using improper adapters`, so they forbid and permit an adapter in two places exactly as the CT850
+chapter does.
+
+**The owner's manuals of these machines print no adapter permission** - the 2023 books have no
+grounding page at all (`spirit-xb-2023-safety-grounding-instructions-not-printed`) - so an XBR55 or
+XBU55 owner has this procedure only from the service manual. The two XBR95 books print it on a
+self-powered machine with no plug to adapt (`spirit-bike-safety-no-mains-outlet-needed`).

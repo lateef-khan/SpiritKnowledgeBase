@@ -55,7 +55,7 @@ see_also:
 - spirit-bike-programs-forty-levels-of-resistance-shown-as-ten-rows
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018 printed p. 19, XBR95 2021 p. 20; XBR25 2019 p. 19; XBR55 2019/2021 p. 21; XBU55 2019 p. 20, XBU55 2021 p. 21; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018 printed p. 19, XBR95 2021 p. 20; XBR25 2019 p. 19; XBR55 2019/2021 p. 21; XBU55 2019 p. 20, XBU55 2021 p. 21; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28; service manuals: CR900 2018 (SR8800-SB008) MANUAL PDF p. 15-16, text.md lines 220-234; CU900 2018 p. 16, lines 283-296'
   extracted_at: '2026-09-09'
 ---
 
@@ -70,6 +70,10 @@ In Manual you control the workload, not the computer.
 6. The program **automatically starts you at level one**. That is the easiest level and the manual
    advises staying there a while to warm up. Up increases the workload, Down decreases it.
 7. When the program ends, Start begins the same program again and Stop exits it.
+
+**The CR900 2018 and CU900 2018 service manuals print the same seven steps**, Time first, then
+Age and Weight, confirming the order below for those two machines. No other service manual in the
+KB prints a Manual procedure.
 
 **Four of the eight ask in a different order.** The CU800 2012, CR800 2021, CR800 2023 and CU800
 2021 ask **Age, then Weight, then Time**; the CR900 2018, CU900 2018, CR900 2025 and CU900 2025 ask

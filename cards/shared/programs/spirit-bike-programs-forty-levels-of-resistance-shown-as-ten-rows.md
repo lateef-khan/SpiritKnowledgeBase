@@ -43,7 +43,7 @@ see_also:
 - spirit-bike-programs-preset-setup-steps
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 16); CR900 2018 p. 14; CU900 2018 p. 13; CR800 2021 p. 15; CU800 2021 p. 14; CR800 2023 p. 15; CR900ENT 2021 p. 24; CU900ENT p. 23; CR900 2025 p. 15; CU900 2025 p. 14'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 16); CR900 2018 p. 14; CU900 2018 p. 13; CR800 2021 p. 15; CU800 2021 p. 14; CR800 2023 p. 15; CR900ENT 2021 p. 24; CU900ENT p. 23; CR900 2025 p. 15; CU900 2025 p. 14; service manuals: CR900 2018 (SR8800-SB008) QUICK START PDF p. 13, text.md lines 148-157; CU900 2018 p. 14, lines 212-221; CR800 (2020) 4-2-2 PDF p. 13 (printed 12), lines 183-193; CU800 (2020) p. 13 (printed 12), lines 203-213'
   extracted_at: '2026-09-09'
 ---
 
@@ -57,6 +57,11 @@ There are **40 levels of resistance**, displayed as **10 rows of lights**. The m
 
 The dot matrix has **24 columns** of lights and each column represents **1 minute**; at the end of
 the 24th column the display wraps around and starts at the first column again.
+
+**The four commercial service manuals print the same paragraph, figures unchanged.** The CR900 2018
+and CU900 2018 service manuals repeat it in the console chapter; the CR800 "(2020)" and CU800
+"(2020)" service manuals print it as section 4-2-2 QUICK START, with one carry-over: "The
+**elliptical trainer** will get harder to pedal as the rows increase." Both are bikes.
 
 **The three 800ENT bikes never print a level count.** Searching the CU800ENT 2022, CR800ENT 2023 and
 CU800ENT 2024 manuals for a levels figure, and for the loose word "levels" and "range", returns only

@@ -2,7 +2,7 @@
 id: cu900ent-security-distance-lock
 title: Locking the machine after a set distance
 kind: procedure
-question: How do I lock a Spirit CU900ENT bike after a set distance?
+question: How do I lock a Spirit CU900ENT or CR900ENT bike after a set distance?
 asked_as:
 - how do i lock the bike console
 - bike console is locked and wants a password
@@ -20,8 +20,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -36,7 +37,9 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Security screen, p. 27 (printed 27). This page is a flattened image and
-    was read from raw/page-27.png, not from the OCR text
+    was read from raw/page-27.png, not from the OCR text. The CR900ENT-2021 service
+    manual, Security screen, PDF p. 26 (printed 26), text.md lines 330-342, prints
+    the same page word for word. Same lock, same 100 to 9999 Miles, same 2222.
   extracted_at: '2026-09-08'
 ---
 
@@ -57,3 +60,5 @@ console family sets the same lock in **kilometres** and prints no range at all. 
 
 The child lock under Machine Information is a different lock with the same three-second UP-key
 release.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Same lock, same 100 to 9999 Miles, same 2222.

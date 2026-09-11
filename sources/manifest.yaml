@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 7843a274d0dbca68bf22e51937fc484deaf20abbb61c9f711b6bb9025a2f4c71
+  sha256: 5bfcff8983890c36120b61f05e80e14e0922d14e9e76e7f4db6b2a075b0765f0
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -197,6 +197,14 @@
   origin_uri: file://SOLE SB700 2011 2016 Owners Manual (570110, 570116).pdf
   sha256: 36aeb74eba634a035abe7a0ea9fb549256d914606268a57afd1ce41bd84723c9
   ingested_at: '2026-09-08'
+- id: sole-bike-sb700-2011-service-manual
+  title: Sole SB700 indoor cycle service manual (Dyaco, October 2009 PDF; filed under
+    XIC600 in the Spirit folder)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XIC600
+    (SB700, SB702 )Service Manual.pdf
+  sha256: e8ecfa7e388438df624ee517b5dfc6411f851bc4345df2f0055c495f2f27998f
+  ingested_at: '2026-09-11'
 - id: sole-bike-sb700-2019-owners-manual
   title: Sole SB700 2019 owner's manual (570119)
   kind: markdown
@@ -1109,6 +1117,21 @@
     Air Bike US OM_122018.pdf
   sha256: cbdb1166d9af1afd893e6c20045fb508f01d493985b393d08808330d68584129
   ingested_at: '2026-09-09'
+- id: spirit-bike-ab900-2018-service-manual
+  title: Spirit AB900 air bike service manual (AU800/AU800A, 2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/AB900/2018/AB900
+    2018 (AU800_AU800A) Service Manual.pdf
+  sha256: 7cc9ba63c8640b78194ce6708a59d7c7e883b5aed98d418f3bdec96224295df8
+  ingested_at: '2026-09-11'
+- id: spirit-bike-ab900-air650-discrepancy-sheet
+  title: 'Discrepancy sheet: Spirit AB900 versus Xterra AIR650 (Bluetooth, wind cover,
+    arm cover)'
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/AB900/Discrepancy
+    Between AB900 and AIR650.pdf
+  sha256: 46b5502cdf6246617fad687359702668fd331f30423516b3d4b82e3d41828bb5
+  ingested_at: '2026-09-11'
 - id: spirit-bike-ab950-2024-owners-manual
   title: 2024 Spirit AB950 air bike owner's manual, (c) 2024, warranty effective April
     23, 2024
@@ -1142,6 +1165,28 @@
     _OM_20220801.pdf
   sha256: 7a23aaf0a230d2e61bd9ccfa27373752b1719f7d4f0900844bc8fbf4b427d063
   ingested_at: '2026-09-09'
+- id: spirit-bike-cic850-2022-service-manual
+  title: Spirit CIC850 indoor cycle service manual (December 2021 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CIC850/2020/CIC850
+    Service Manual.pdf
+  sha256: 65ad7903c41fa71f5d9c337871fa8b9ca857d6d40940319ada9ffe04de7eb973
+  ingested_at: '2026-09-11'
+- id: spirit-bike-cic850-pairing-process-tip
+  title: Spirit CIC850 console pairing process, scanned support tip
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CIC850
+    Pairing Process.pdf
+  sha256: 60277bfc621a7a2c99ac186839926f0e9aa33c9687e072ba3561f6ff5ff4082b
+  ingested_at: '2026-09-11'
+- id: spirit-bike-cr800-2009-service-manual
+  title: Spirit CR800 recumbent bike service manual, titled "XR898 Service Manual"
+    (January 2011 PDF; dbo.MODEL "CR800 2009" 800149 / 800143)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CR800/2014/CR800
+    (XR898) Service Manual 1000104-OK.pdf
+  sha256: 1a95560295aa402da76729dcf01941fe4f7a691d50116d857df1c50b49cf7eb7
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cr800-2021-owners-manual
   title: 2021 Spirit CR800 recumbent bike owner's manual, warranty effective November
     8, 2021
@@ -1150,6 +1195,13 @@
     backup/CR800/CR800_20211108.pdf
   sha256: 4b7b87685c7253a17e12e4489dcdda5c0d191a7e921beabe234d6c1b35840290
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr800-2021-service-manual
+  title: Spirit CR800 2020 recumbent bike service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CR800/2020/CR800
+    Service Manual.pdf
+  sha256: 5807a891447d4f8e2de7940846c2258a1c1bb28fafd99e61abef1242edf34c10
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cr800-2023-owners-manual
   title: 2023 Spirit CR800 recumbent bike owner's manual, warranty effective June
     21, 2023 (the 2020 folder is wrong)
@@ -1172,6 +1224,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR800/2020/CR800ENT_800150_OM_20230706.pdf
   sha256: ae23204e3d2ce138dbc01f0dade0143d06bd77a66075a4ff83e7a3bd68a81342
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr800ent-2023-service-manual
+  title: Spirit CR800ENT recumbent bike service manual, titled "CR800 ENT 2020 Ver."
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CR800ENT/2020/CR800ENT
+    Service Manual.pdf
+  sha256: 4a99e7a4f54d76ad8d163f8302e37c14bd7003b99cc58d712871cbdbc0822e0b
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cr800ent-2024-owners-manual
   title: 2024 Spirit CR800ENT recumbent bike owner's manual, warranty effective October
     8, 2024. 42.6% against the 2023 CR800ENT manual.
@@ -1189,6 +1248,13 @@
     backup/CR900/CR900_20211108.pdf
   sha256: b8b195eba30e55a4751b9342c1170de9f20ce2b27a54cfb8244959756c946abc
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr900-2018-service-manual
+  title: Spirit CR900 recumbent bike service manual (SR8800-SB008, July 2018 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CR900/2014/CR900
+    (SR8800-SB008)_Service Manual.pdf
+  sha256: a5032a34e7bec17fe608eed3ca268913e7dff7bc14a8f5105c96520bf5e6fea2
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cr900-2025-owners-manual
   title: 2025 Spirit CR900 recumbent bike owner's manual, Version 3.0 Revision 06.12.25,
     warranty effective October 1, 2024. New Black Units/CR900_OwnersManual_900125_20241001.pdf
@@ -1205,6 +1271,21 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CR900ENT/2015/CR900ENT_900015_OM_20211108.pdf
   sha256: d4f661e5a444569196e9c923fee0e1df5c6a3a220413d7d8cd254f8bf72ef079
   ingested_at: '2026-09-09'
+- id: spirit-bike-cr900ent-2021-service-manual
+  title: Spirit CR900ENT recumbent bike service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CR900ENT/2016/CR900ENT
+    Service Manual.pdf
+  sha256: c0985731e8fea5af793be2d8864e8893208943a8314a1df804873086772ae332
+  ingested_at: '2026-09-11'
+- id: spirit-bike-cu1000ent-2023-service-manual
+  title: Spirit CU1000ENT upright bike service manual (CU1000(2023) SU8880-SB028 ENT
+    Upright Bike)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CU1000-2023
+    SU8880-SB028 service manual.pdf
+  sha256: 8184c4ec569b88b343c051a953ead240a0978ef24a47d1f4a7cdb23da4fa442f
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cu800-2012-owners-manual
   title: '2012 Spirit CU800 upright bike owner''s manual. Warranty effective March
     1, 2012; internal stamp CU800_20130729. The PDF has no text layer at all, so this
@@ -1218,6 +1299,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2023/CU800_OM_)800343.pdf
   sha256: 0da5bcfada9ab4d76cc3683e1a0ec186769f360380151a26a86760347610b9b2
   ingested_at: '2026-09-09'
+- id: spirit-bike-cu800-2012-service-manual
+  title: Spirit CU800 upright bike service manual, titled "XU878-AB04M"
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CU800/CU800
+    (XU878-AB04M) - Service Manual.pdf
+  sha256: 0339565befe90960d37ea7f53aabb06afe1b63e850e149b2e96be270839c2d48
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cu800-2021-owners-manual
   title: 2021 Spirit CU800 upright bike owner's manual, warranty effective November
     12, 2021 (the 2023 folder is wrong)
@@ -1225,6 +1313,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800/2023/CU800_800340_OM_20211112.pdf
   sha256: ee27d355b319de055355356c3894e861c77c2503f633be305868fc3afa5cab65
   ingested_at: '2026-09-09'
+- id: spirit-bike-cu800-2021-service-manual
+  title: Spirit CU800 2020 upright bike service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CU800/2020/CU800
+    Service Manual.pdf
+  sha256: 7c2437a41e20386b6e4833dade4c613eb2558a99f34e1538fc089f6279f0f017
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cu800-2024-owners-manual
   title: 2024 Spirit CU800 upright bike owner's manual, warranty effective September
     17, 2024. 48.0% against the 2021 CU800 manual.
@@ -1240,6 +1335,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU800ENT/2021/CU800ENT_800350_OM_20220208.pdf
   sha256: 6d33cd73d0f25ef66c4f23cc40164e254b4acb935668998900e266e980021e1a
   ingested_at: '2026-09-09'
+- id: spirit-bike-cu800ent-2022-service-manual
+  title: Spirit CU800ENT upright bike service manual, titled "CU800 ENT 2020 ver."
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CU800ENT/2020/CU800ENT
+    Service Manual.pdf
+  sha256: 60476946cf75383bb2a0cfcb78cb83e8000ae89617edff82a7aecba5d3dd6623
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cu800ent-2024-owners-manual
   title: 2024 Spirit CU800ENT upright bike owner's manual, Version 1.0 Revision 10.25.24,
     warranty effective October 8, 2024. A byte-different but textually IDENTICAL export
@@ -1257,6 +1359,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/CU900/2016/CU900_900346_OM_20211119.pdf
   sha256: c91a5084e043cacf064d55e4ddd3fe1fef06b1fc93ea78e999330957c7bf0150
   ingested_at: '2026-09-09'
+- id: spirit-bike-cu900-2018-service-manual
+  title: Spirit CU900 upright bike service manual (SU8800-SB008, November 2021 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/CU900/2016/CU900
+    Service Manual.pdf
+  sha256: 4eede49fa8f5a7711a1e925d25be8fe08d02cb062cd3b1d2a394948b41aac364
+  ingested_at: '2026-09-11'
 - id: spirit-bike-cu900-2025-owners-manual
   title: 2025 Spirit CU900 upright bike owner's manual, Version 3.0 Revision 06.12.25,
     warranty effective October 1, 2024. New Black Units/CU900_OwnersManual_900325_20241001.pdf
@@ -1287,6 +1396,21 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/JB950/2015/JB950_950348_OM_20220421.pdf
   sha256: d5c082d4910e905fd74ef6c9c44035f16e382337fe2a0d6f4fb43bac9559101c
   ingested_at: '2026-09-09'
+- id: spirit-bike-jb950-2022-service-manual
+  title: Spirit JB950 Johnny G indoor bike service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/JB950
+    (Johnny G Bike)Service Manual for SPIRIT.pdf
+  sha256: 2002ccae175a3517c81d91275295f496b53e8699665ec24f37b6a10133d80222
+  ingested_at: '2026-09-11'
+- id: spirit-bike-xbr25-2016-service-manual
+  title: Spirit XBR25 2016 recumbent bike service manual (XR327-SB005-01, October
+    2017 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR25
+    (XR327-SB005 2016) Service Manual.pdf
+  sha256: b6857877a863136f0aa69412f5805fd4ecbb82b1bd8f37175cdc3cbb5be70cc0
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbr25-2019-owners-manual
   title: 2019 Spirit XBR25 recumbent bike owner's manual, Revision 02.04.2019, warranty
     effective February 4, 2019 (the 2015 folder is wrong)
@@ -1301,6 +1425,22 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR25/2023/XBR25_251123_OM_20240418.pdf
   sha256: 85fbfac3fc721edf977554eb1be9fa90b7643a4d6e01abc56f6dc843d70175c5
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbr25-xbr55-2007-service-manual
+  title: Spirit XBR25 / XBR55 recumbent bike dealer service manual (2007 model year,
+    PDF November 2008)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR25
+    XBR55 service manual.pdf
+  sha256: 44fc7f2fb789b54b53ca90ab85513c565810bf8eb2eb81f48b5f565d3bae4ff9
+  ingested_at: '2026-09-11'
+- id: spirit-bike-xbr55-2016-service-manual
+  title: Spirit XBR55 2016 recumbent bike service manual (XR329-SB011-01, September
+    2022 export of a 2017 book)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR55
+    (XR329-SB011 2016) Service Manual.pdf
+  sha256: 254141d141377714c337cf5a7bda17b757c62fa6d0422ea1ca41cf5e048a85b8
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbr55-2019-owners-manual
   title: 2019 Spirit XBR55 recumbent bike owner's manual, warranty effective February
     4, 2019. Exists only in Bikes/bike backup.
@@ -1324,6 +1464,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR55/2023/XBR55_551223_OM_20240715.pdf
   sha256: 33b3f9db9056a3778a552ddc19e4d4ef4d7b9495c755f5e2cf3704309c746240
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55-2023-service-manual
+  title: Spirit XBR55 2023 recumbent bike service manual (XR329A-SB030)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR55/2023/XBR55
+    (551123) Service Manual.pdf
+  sha256: 34f10715082bc3daa0ac260955fc443736ce0eae792d2c247d6a0c853e84a3d7
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbr55ent-2021-owners-manual
   title: 2021 Spirit XBR55ENT recumbent bike owner's manual, warranty effective November
     30, 2021 (the 2023 folder is wrong)
@@ -1332,6 +1479,13 @@
     _OM_20211130.pdf
   sha256: f19f8fca408bddf20cbd2d2f137bce64953e35056856d7cedc816240521c99a4
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbr55ent-2021-service-manual
+  title: Spirit XBR55ENT recumbent bike service manual (XR329-SB013-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR55_ENT_XR329-SB013-01
+    Service Manual.pdf
+  sha256: a541052a5720767f07080ead9345d042c4f4f2c9a4a7415e516f357ada04bd32
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbr95-2016-owners-manual
   title: 2016 Spirit XBR95 recumbent bike owner's manual, Revision 01.26.2016, warranty
     effective January 25, 2016
@@ -1340,6 +1494,14 @@
     backup/spiritfitness_om_xbr95_2016.pdf
   sha256: 4c7a17d9c29d9bbd43a46beb71958cd994b50d4a1a58aa6199739b412e9e7767
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2016-service-manual
+  title: Spirit XBR95 2016 recumbent bike service manual (XR829-SB012-01, October
+    2017 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR95
+    (XR829-SB012 2016) Service Manual -En.pdf
+  sha256: 4a0d91f12d83a0eb6d5d8b334da987e40b51e643f03e16e64280965c6c27dac1
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbr95-2018-owners-manual
   title: 2018 Spirit XBR95 recumbent bike owner's manual, Revision 08.22.2018, warranty
     effective August 22, 2018
@@ -1363,6 +1525,21 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBR95/2023/XBR95_951123_OM_20240715.pdf
   sha256: 2ba87d1a7e9e3a18b3281cf160ad379fcbb5c87fc746303bef2f5d7fd5f5f692
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbr95-2023-service-manual
+  title: Spirit XBR95 2023 recumbent bike service manual (XR829A-SB032)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBR95/2023/XBR95
+    (951123) Service Manual.pdf
+  sha256: 25c07220b0aa2d179a643c30cfe5803229749628a08f696089af3b003280e3f1
+  ingested_at: '2026-09-11'
+- id: spirit-bike-xbu55-2016-service-manual
+  title: Spirit XBU55 2016 upright bike service manual (XU319-SB011-01, October 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBU55
+    (XU319-SB011 2016) Service Manual.pdf
+  sha256: a104892ffe0eefa60ea22a4db4775ce74d92ae06d041f3b6a8f64b6a2b55841d
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbu55-2019-owners-manual
   title: 2019 Spirit XBU55 upright bike owner's manual, warranty effective February
     4, 2019. Exists only in Bikes/bike backup.
@@ -1385,6 +1562,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBU55/2023/XBU55_552123_OM_20240412.pdf
   sha256: 6aebdeeb45becb4d57edd09ec548309fa43590cb1158783cb8cbb39d568403ca
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55-2023-service-manual
+  title: Spirit XBU55 2023 upright bike service manual (XU319A-SB030; the filename's
+    553123 is in no dbo.MODEL row, the carded SKU is 552123)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBU55/XBU55
+    (553123) Service Manual.pdf
+  sha256: 258373fa2a3c2565ade7aba130b311a84a47645283902bd0bcbbefffb6dbbda9
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xbu55ent-2021-owners-manual
   title: 2021 Spirit XBU55ENT upright bike owner's manual, warranty effective November
     30, 2021 (the 2023 folder is wrong). Note its part number 551150 is the XBR55ENT's
@@ -1393,6 +1578,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Bikes/XBU55ENT/2023/XBU55ENT_551150_OM_20211130.pdf
   sha256: 16efdfb9ff6be45388669e00ce681ab6d7df259348883c253889c18e27a29f46
   ingested_at: '2026-09-10'
+- id: spirit-bike-xbu55ent-2021-service-manual
+  title: Spirit XBU55ENT upright bike service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/XBU55ENT/2020/XBU55ENT
+    Service Manual.pdf
+  sha256: a928c7c5893ea12f98b3a5b27a9f28282c4e52b916ba6d2f93386ecb7f3ef8de
+  ingested_at: '2026-09-11'
 - id: spirit-bike-xic600-2018-owners-manual
   title: 2018 Spirit XIC600 indoor cycle owner's manual, warranty effective August
     22, 2018. No back-cover revision stamp. Exists only in the Bikes/bike backup folder.
@@ -1853,7 +2045,7 @@
   title: Spirit commercial model numbers from the CustService MODEL table
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: c6482d0204653f2a17c6ac550b2e9754c7581b813b3f334c866852f93e09e2d1
+  sha256: 5bfcff8983890c36120b61f05e80e14e0922d14e9e76e7f4db6b2a075b0765f0
   ingested_at: '2026-09-08'
 - id: spirit-rower-crw800-2021-owners-manual
   title: 2021 Spirit CRW800 rower owner's manual, (c) 2021, warranty effective October

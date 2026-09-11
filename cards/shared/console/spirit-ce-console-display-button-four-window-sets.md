@@ -1,8 +1,10 @@
 ---
 id: spirit-ce-console-display-button-four-window-sets
-title: The Display button cycles four sets of readings and switches the profile for a quarter mile track
+title: The Display button cycles four sets of readings and switches the profile for
+  a quarter mile track
 kind: fact
-question: How do I change what the message window shows on an older Spirit commercial elliptical or bike?
+question: How do I change what the message window shows on an older Spirit commercial
+  elliptical or bike?
 asked_as:
 - how do i see watts on my old spirit elliptical
 - how do i get the track display on the elliptical
@@ -36,10 +38,12 @@ see_also:
 - spirit-ce-console-blue-led-console-face
 - spirit-ce-console-led-data-windows-scan
 - spirit-ce-console-heart-icon-and-bar-graph
+- cu800-2012-console-keys-in-ready-and-run-mode-and-the-display-key-data-scan
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
-  locator: CE850 2016 p. 18 Basic Information; CE800 2013 pp. 16-17 (printed 14) Basic Information. The
-    CE800-2013 text is OCR of an image-only scan
+  locator: CE850 2016 p. 18 Basic Information; CE800 2013 pp. 16-17 (printed 14) Basic
+    Information. The CE800-2013 text is OCR of an image-only scan. CU800-2012 (XU878)
+    service manual, RUN MODE DISPLAY KEY, PDF p. 20 (printed 20), text.md lines 346-368
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +85,9 @@ Kcal, Speed in RPM and MPH, Work Level and Watts, then METs.
 **The later CR800, CU800, CR900 and CU900 bike consoles replaced this button with a Scan button** and
 a fixed pair of data sets: `spirit-ce-console-led-data-windows-scan` and
 `spirit-cr900-cu900-console-message-window-scan`.
+
+**The XU878 service manual for the CU800-2012 describes the Display key as a message-window scan.** Its
+Run Mode table says a press shows "DATA SCAN" for two seconds and then cycles every four seconds
+through speed in MPH, speed in RPM, level and max level, watts and segment time
+(`cu800-2012-console-keys-in-ready-and-run-mode-and-the-display-key-data-scan`). That is the message
+window; this card is the data windows, and the two do not contradict.

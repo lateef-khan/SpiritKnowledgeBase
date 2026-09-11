@@ -1,8 +1,10 @@
 ---
 id: spirit-cr800-cu800-console-quarter-mile-track
-title: The quarter-mile track ring around the dot matrix and the lap counter in its middle
+title: The quarter-mile track ring around the dot matrix and the lap counter in its
+  middle
 kind: fact
-question: What is the ring of lights around the dot matrix window on a Spirit CR800 or CU800-2021 bike?
+question: What is the ring of lights around the dot matrix window on a Spirit CR800
+  or CU800-2021 bike?
 asked_as:
 - what is the ring of lights on my spirit bike display
 - what is the flashing dot on the bike console
@@ -39,7 +41,9 @@ see_also:
 - spirit-ce-console-quick-start-time-counts-up
 source:
   ref: spirit-bike-cu800-2021-owners-manual
-  locator: CU800-2021 p. 15 1/4 MILE TRACK; CR800-2021 p. 15; CR800-2023 p. 15
+  locator: CU800-2021 p. 15 1/4 MILE TRACK; CR800-2021 p. 15; CR800-2023 p. 15. CR800
+    (2020) service manual 4-2-4 1/4 MILE TRACK, PDF p. 14 (printed 13), text.md lines
+    213-216; CU800 (2020) service manual PDF p. 14 (printed 13), lines 233-236
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +73,5 @@ p. 16**, so this card covers those machines.
 CT850-2024, CE800-2024, CE850-2024, CRS800S-2024 and CS800-2024. The two cards carry the same two
 sentences for different machines; it is a pre-existing split of one paragraph, not a difference of
 fact.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same 0.4 km track around the dot matrix, same flashing dot and centre lap counter.

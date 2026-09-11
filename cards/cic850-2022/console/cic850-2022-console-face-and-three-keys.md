@@ -1,24 +1,25 @@
 ---
 id: cic850-2022-console-face-and-three-keys
-title: 'The console face: nine labelled windows and just three keys - Mode, a smartphone button and Page/Record'
+title: 'The console face: nine labelled windows and just three keys - Mode, a smartphone
+  button and Page/Record'
 kind: fact
-question: 'What is on the console of a Spirit cic850-2022 indoor cycle?'
+question: What is on the console of a Spirit cic850-2022 indoor cycle?
 asked_as:
-- 'what are the buttons on my cic850 console'
-- 'what does the phone button on my indoor cycle do'
-- 'what do the numbers on the spin bike display mean'
-- 'how many buttons does the cic850 display have'
+- what are the buttons on my cic850 console
+- what does the phone button on my indoor cycle do
+- what do the numbers on the spin bike display mean
+- how many buttons does the cic850 display have
 keywords:
-- 'console layout'
-- 'dt-3268f'
-- 'mode key'
-- 'page key'
-- 'record'
-- 'smartphone button'
-- 'watts'
-- 'rpm'
-- 'speed'
-- 'bpm'
+- console layout
+- dt-3268f
+- mode key
+- page key
+- record
+- smartphone button
+- watts
+- rpm
+- speed
+- bpm
 facets:
   brand:
   - spirit
@@ -36,7 +37,9 @@ see_also:
 - cic850-2022-console-display-windows
 source:
   ref: spirit-bike-cic850-2022-owners-manual
-  locator: CIC850-2022 printed p. 24 (PDF 24), console overview drawing read from a 200 dpi render; part table on printed p. 14
+  locator: CIC850-2022 printed p. 24 (PDF 24), console overview drawing read from
+    a 200 dpi render; part table on printed p. 14. CIC850 service manual 4-3 Function
+    Button Locations, PDF p. 15 (printed 14), text.md lines 233-245
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +68,6 @@ repeatedly instruct you to press a **SET** key. There is no SET key on this cons
 `cic850-2022-console-set-key-not-on-the-console`.
 
 **The console runs on batteries and has no mains lead**, so there is no power switch either.
+
+**The service manual's button page names the same three keys** - MODE, SMARTPHONE BUTTON and
+PAGE/RECORD - and nothing else.

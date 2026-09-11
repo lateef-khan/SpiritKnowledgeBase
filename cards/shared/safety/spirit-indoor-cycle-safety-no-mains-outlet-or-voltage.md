@@ -49,12 +49,22 @@ see_also:
 - spirit-cic-safety-instructions-list
 - spirit-xic600-safety-instructions-list
 - ab950-2024-safety-instructions-list
+- jb950-2022-console-power-and-wake-sequence
+- jb950-2022-console-demo-mode
 source:
   ref: spirit-bike-cic800-2021-owners-manual
-  locator: Established by absence across all eight manuals - the words outlet, amp,
+  locator: 'Established by absence across all eight manuals - the words outlet, amp,
     power cord and extension cord appear in none of them, and the only occurrences
     of volt are battery voltage and the only occurrences of ground are the floor and
-    the warranty conditions boilerplate
+    the warranty conditions boilerplate. Service manuals: AB900 (AU800/AU800A) CONSOLE
+    SETUP/Battery Installation, PDF p. 13 (printed 13), text.md line 161, and the
+    block diagram `CONSOLE POWER AA * 4 PCS Batteries`, PDF p. 23, lines 412-413;
+    CIC850 block diagram `LR03`, PDF p. 17 (printed 17), line 276, its OCR supplement
+    for p. 18 (`LRO3 BATTERY`), and 9-3 Display Blank, PDF p. 26, line 388; JB950
+    5.3 MAINTENANCE MENU, PDF p. 39 (printed 39), lines 610-613 and 633, the lower
+    control board `External Power 9 V DC` / J5 `POWER 9 VIN`, PDF pp. 31-32, lines
+    440-441 and 482-483, DEMO MODE, PDF p. 43, lines 801-803, and 1. Generator Replacement
+    / 3 Electrical Configurations, PDF pp. 5 and 25, lines 50 and 350-351.'
   extracted_at: '2026-09-09'
 ---
 
@@ -104,3 +114,23 @@ console that does not exist.
 
 The battery types above are given so the outlet answer is complete. For fitting, replacing and
 low-battery behaviour, see the assembly and console cards for each machine.
+
+## The service manuals agree, and the JB950's names a generator and a 9 V adapter
+
+- **AB900**: `The console operates on 4*AA batteries (not included)`, and the block diagram labels
+  the console power `AA * 4 PCS Batteries`. No outlet, no adapter, no generator.
+- **CIC850**: the block diagram shows an `LR03` (AAA) cell feeding the console and the speed
+  transmitter, and the display-blank check is `Check the battery of console and transmitter`. No
+  outlet, no adapter, no generator.
+- **JB950**: the service manual says what the owner's manual does not - **the bike has a generator**.
+  Its parts-replacement chapter opens with `1. Generator Replacement`, its electrical configuration
+  says the lower controller `consists of the generator interface and switching power supply for the
+  console and brake motor control circuitry`, and the lower board has a `GENERATOR POWER IN`
+  connector. So the sentence above that none of the eight has a generator holds for the owner's
+  manuals, not for this book. It is still self-powered - `PEDALING ABOVE 30 RPM IS ALL THAT IS NEEDED
+  TO ILLUMINATE CONSOLE` - and still takes no outlet to ride. What the service manual adds is the
+  adapter the owner's Demo Mode note hints at: `OR USE OPTIONAL 9V POWER ADAPTER TO POWER CONSOLE
+  WITHOUT PEDALING. (Adapter available as a service part through your Spirit distributor)`, with a
+  `POWER 9 VIN` socket on the lower control board labelled `External Power 9 V DC`. **9 V DC is the
+  adapter's output; the book gives no outlet, mains voltage or current for it**, and no adapter is
+  supplied with the bike.

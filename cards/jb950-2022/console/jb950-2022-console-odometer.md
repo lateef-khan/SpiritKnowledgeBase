@@ -1,23 +1,25 @@
 ---
 id: jb950-2022-console-odometer
-title: 'The odometer counts hours of use, not distance, and is reset by holding the Play key'
+title: The odometer counts hours of use, not distance, and is reset by holding the
+  Play key
 kind: procedure
-question: 'How do I read and reset the odometer on a Spirit jb950-2022 Johnny G Spirit Bike?'
+question: How do I read and reset the odometer on a Spirit jb950-2022 Johnny G Spirit
+  Bike?
 asked_as:
-- 'how many hours are on my johnny g bike'
-- 'where is the odometer on the jb950'
-- 'how do i reset the hours on my spin bike'
-- 'how much has this studio bike been used'
+- how many hours are on my johnny g bike
+- where is the odometer on the jb950
+- how do i reset the hours on my spin bike
+- how much has this studio bike been used
 keywords:
-- 'odometer'
-- 'odometer hrs'
-- 'hours'
-- 'hold play to reset'
-- 'usage'
-- 'studio'
-- 'rotation'
-- 'routine maintenance'
-- 'maintenance mode'
+- odometer
+- odometer hrs
+- hours
+- hold play to reset
+- usage
+- studio
+- rotation
+- routine maintenance
+- maintenance mode
 facets:
   brand:
   - spirit
@@ -36,7 +38,8 @@ see_also:
 - jb950-2022-console-maintenance-mode-entry-and-menu
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 54 ODOMETER
+  locator: JB950-2022 printed p. 54 ODOMETER. JB950 service manual 5.3 ODOMETER, PDF
+    pp. 40-41 (printed 40-41), text.md lines 679-693
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,5 @@ the counter; nothing asks you whether you meant it. Read the figure before you t
 
 **This is not the air bikes' odometer**, which counts distance and cannot be zeroed from the menu at
 all. Two different Spirit bike consoles, two different meanings for the same word.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same ODOMETER HRS display and HOLD PLAY TO RESET, with the note that the hours help even out usage across a studio.

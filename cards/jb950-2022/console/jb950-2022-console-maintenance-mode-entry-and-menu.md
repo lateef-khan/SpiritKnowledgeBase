@@ -1,24 +1,26 @@
 ---
 id: jb950-2022-console-maintenance-mode-entry-and-menu
-title: 'Entering maintenance mode by holding plus, minus and Play together, and the sixteen settings it offers'
+title: Entering maintenance mode by holding plus, minus and Play together, and the
+  sixteen settings it offers
 kind: procedure
-question: 'How do I get into maintenance mode on a Spirit jb950-2022 Johnny G Spirit Bike, and what is in it?'
+question: How do I get into maintenance mode on a Spirit jb950-2022 Johnny G Spirit
+  Bike, and what is in it?
 asked_as:
-- 'how do i get into the service menu on my johnny g bike'
-- 'maintenance mode on the jb950'
-- 'what settings can i change on the johnny g spirit bike'
-- 'hidden menu on my spin bike console'
+- how do i get into the service menu on my johnny g bike
+- maintenance mode on the jb950
+- what settings can i change on the johnny g spirit bike
+- hidden menu on my spin bike console
 keywords:
-- 'maintenance mode'
-- 'service menu'
-- 'engineering mode'
-- 'forward control pad'
-- '3 seconds'
-- 'key test'
-- 'scroll'
-- 'exit'
-- 'sixteen settings'
-- '30 rpm'
+- maintenance mode
+- service menu
+- engineering mode
+- forward control pad
+- 3 seconds
+- key test
+- scroll
+- exit
+- sixteen settings
+- 30 rpm
 facets:
   brand:
   - spirit
@@ -38,9 +40,13 @@ see_also:
 - jb950-2022-console-reset
 - jb950-2022-console-power-and-wake-sequence
 - jb950-2022-console-key-test
+- jb950-2022-console-calibration-offset-number-from-the-mounting-bracket
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed pp. 51-52 MAINTENANCE MODE and ENTERING MAINTENANCE MODE; EXIT on printed p. 61
+  locator: JB950-2022 printed pp. 51-52 MAINTENANCE MODE and ENTERING MAINTENANCE
+    MODE; EXIT on printed p. 61. JB950 service manual 5.3 MAINTENANCE MENU IN CONSOLE
+    SOFTWARE, Maintenance Mode, ENTERING MAINTENANCE MODE and MAINTENANCE MODE NAVIGATION,
+    PDF pp. 39-40 (printed 39-40), text.md lines 606-660
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +93,18 @@ Sensor. See `jb950-2022-console-brake-test`.
 **This is the largest console menu of any Spirit bike in this repository**, at fifteen printed pages.
 It is not the ENT touchscreen menu, which opens on ten presses of the Home icon, and not the air
 bikes' three-entry engineering mode, which opens on Start and Enter.
+
+**The service manual lists thirteen entries, not sixteen.** Its Maintenance Mode menu runs Key Test,
+Display Test, Odometer, Units, Brake Test, RPM Sensor, Update Software, LED Brightness, **Bike ID**,
+Auto Detect HR, HR Zone, Demo Mode, Calibration - with **no FTP Test 5 Min, no Software Version and
+no Exit**, and the ninth entry named Bike ID where the owner's manual says ANT+ ID Setup
+(`jb950-2022-console-ant-id-setup`). The same three-key hold, the same Play-then-plus navigation and
+the same Play-and-plus reset are printed.
+
+**Two things the service manual adds.** The console can be powered without pedalling by an **optional
+9 V power adapter**, "available as a service part through your Spirit distributor"
+(`jb950-2022-console-power-and-wake-sequence`). And if the console displays **CONSOLE RESET** instead
+of MAINTENANCE MODE, the three keys were not all held together or not long enough - try again.
+
+**The service manual also prints the Calibration procedure the owner's manual withholds**:
+`jb950-2022-console-calibration-offset-number-from-the-mounting-bracket`.

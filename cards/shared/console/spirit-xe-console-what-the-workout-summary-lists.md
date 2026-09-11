@@ -2,7 +2,8 @@
 id: spirit-xe-console-what-the-workout-summary-lists
 title: What the Workout Summary shows when a workout ends, machine by machine
 kind: fact
-question: What are the numbers a Spirit XE elliptical or XB bike shows at the end of a workout?
+question: What are the numbers a Spirit XE elliptical or XB bike shows at the end
+  of a workout?
 asked_as:
 - what does my elliptical show when the workout ends
 - what is the summary screen on the elliptical
@@ -64,7 +65,13 @@ see_also:
 - spirit-xe-console-message-center-scan-shows-laps-segment-time-and-max-level
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
-  locator: XE395 2010 p. 17; XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p. 20; XE395ENT p. 19; XE395 2023 p. 23; XE795 2023 p. 22, all under Basic Information; every Spirit residential bike manual prints its summary inside Basic Information (2016-2021 books) or FEATURES (2023 books)
+  locator: XE395 2010 p. 17; XE195 p. 19; XE295 p. 20; XG400 p. 19; XE795 2021 p.
+    20; XE395ENT p. 19; XE395 2023 p. 23; XE795 2023 p. 22, all under Basic Information;
+    every Spirit residential bike manual prints its summary inside Basic Information
+    (2016-2021 books) or FEATURES (2023 books). XBR55ENT-2021 service manual BASIC
+    INFORMATION, PDF p. 12 (printed 12), text.md lines 137-141; XBU55ENT-2021 service
+    manual PDF p. 12, lines 134-138; XBR55-2023 service manual PDF pp. 5-6, lines
+    88-99; XBU55-2023 PDF p. 5, lines 77-88; XBR95-2023 PDF p. 6, lines 89-96
   extracted_at: '2026-09-09'
 ---
 
@@ -133,3 +140,8 @@ or a watt figure from a summary on this machine; neither is in it.
 
 **Total time, Avg. HR and total Laps are in the same places as everywhere else**, so only the two
 middle fields differ.
+
+**The bike service manuals print the same summaries.** The XBR55ENT-2021 and XBU55ENT-2021 books list
+**Total time, Avg. Speed, Avg. Power, Avg. HR, total Laps** after two presses of Stop, and print no
+third press and no reset; the XBR55-2023, XBU55-2023 and XBR95-2023 books list Total time, Avg. Speed,
+Avg. Watts and Avg. HR, then a third press or a three-second hold to reset.

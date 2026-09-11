@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
-title: The engineering menu whose Functions list ends with a Motor Test and a Safety item
+title: The engineering menu whose Functions list ends with a Motor Test and a Safety
+  item
 kind: procedure
-question: How do I get into engineering mode on a Spirit XE elliptical or XBR25, XBR55 or XBU55 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit XE elliptical or XBR25, XBR55
+  or XBU55 bike, and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i switch my elliptical to metric
@@ -43,16 +45,22 @@ facets:
   section: console
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
 see_also:
 - xe795-2021-console-engineering-mode-with-a-da-test
 - spirit-xe-console-maintenance-menu-with-a-motor-test-and-security
 - xe395-2010-console-engineering-mode-with-an-incline-switch-and-calibration
 - xe395-2018-errors-incline-calibration-three-key-hold
 - xe395-2023-console-engineering-mode-with-a-child-lock
+- spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
+- spirit-xb55ent-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36; XE895 2018 p. 35; XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under Engineering Mode Menu; XBR25 2019 p. 28, XBR55 2019 and 2021 p. 33, XBU55 2019 and 2021 p. 33, all Engineering Mode Menu
+  locator: XE195 2021 p. 32; XE295 2021 p. 36; XG400 2021 p. 35; XE395 2018 p. 36;
+    XE895 2018 p. 35; XE195 2019 p. 31; XE295 2019 p. 35; XG400 2019 p. 34, all under
+    Engineering Mode Menu; XBR25 2019 p. 28, XBR55 2019 and 2021 p. 33, XBU55 2019
+    and 2021 p. 33, all Engineering Mode Menu
   extracted_at: '2026-09-09'
 ---
 
@@ -120,8 +128,9 @@ Functions with a **DA Test** instead, and have neither Motor Test nor Safety:
 Sleep Mode, a described Motor test, a Child Lock and an Exit:
 `xe395-2023-console-engineering-mode-with-a-child-lock`.
 
-**Neither ENT bike has an engineering menu.** Their touchscreen Settings menu holds units, brightness,
-child lock and a software update, and no key test, odometer reset or diagnostics of any kind.
+**Neither ENT bike's owner's manual has an engineering menu.** Their touchscreen Settings menu holds
+units, brightness, child lock and a software update. Their service manuals open an Engineer Mode on
+ten presses of the word Settings: `spirit-xb55ent-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep`.
 
 **The Spirit XS895 incline stepper prints this menu word for word** - XS895-2018 p. 34 and
 XS895-2021 p. 34, Engineering Mode Menu - so this card now covers a stepper as well. Same three-key
@@ -140,3 +149,11 @@ in the same block:
   other machine on this platform with a powered incline;
 - a **Bluetooth on/off** toggle on a key its own console drawing never shows:
   `xs895-console-bluetooth-on-off-on-a-key-the-drawing-never-shows`.
+
+**The 2016 service manuals of the XBR25 and XBU55 print this menu with three differences**, and are the
+only Spirit residential-bike documents that describe the Motor Test. Their sleep entry says **turn on**
+to power down after 20 minutes (the XBR25-2016 calls it Sleep Mode, the XBU55-2016 Display Mode), their
+Motor Test "runs the resistance motor up and down in a continuous loop" showing the level setting and
+the position sensor reading, and the XBR25-2016 adds a Unit Type name and an eighth "Bike/Bike" line.
+**The XBR55-2016 service manual prints no menu page at all.** Those books are different SKUs from the
+2019 machines on this card: `spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety`.

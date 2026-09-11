@@ -1,6 +1,7 @@
 ---
 id: spirit-residential-bike-console-readings-and-resistance-profile-graph
-title: What the bike console can display - RPM, laps, segment time and a resistance profile graph
+title: What the bike console can display - RPM, laps, segment time and a resistance
+  profile graph
 kind: fact
 question: What readings does a Spirit bike console show while a workout is running?
 asked_as:
@@ -39,8 +40,10 @@ see_also:
 - spirit-residential-bike-console-face-without-usb-or-bluetooth
 source:
   ref: spirit-bike-xbr55-2023-owners-manual
-  locator: XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55 2023 and XBU55 2023 p. 21, all FEATURES /
-    Console
+  locator: XBR25 2023 p. 19, XBR95 2023 p. 20, XBR55 2023 and XBU55 2023 p. 21, all
+    FEATURES / Console. XBR55-2023 service manual CONSOLE, PDF p. 6 (printed 6), text.md
+    lines 106-109; XBU55-2023 PDF p. 6, lines 102-105; XBR95-2023 PDF p. 7, lines
+    112-115
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +72,8 @@ gets from one reading to the next:
 
 **Watts is not on this list**, although the Workout Summary on the same page still reports **Avg.
 Watts**.
+
+**All three 2023 service manuals print the CONSOLE paragraph word for word**, and their console drawing
+calls the screen a **7.5" LCD Display** - a size the owner's manuals never give - with the Control
+Buttons, a Fan On/Off Button and, on the XBR55 and XBU55 drawings, a Program Button row of Manual,
+Hill, Fat burn, Strength, Interval, 2 Users and 2 HR.

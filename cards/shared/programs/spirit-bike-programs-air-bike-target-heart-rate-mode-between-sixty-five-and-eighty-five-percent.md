@@ -40,7 +40,7 @@ see_also:
 - spirit-bike-programs-air-bike-eight-console-modes-and-no-workout-profiles
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 33 and p. 38; AB950 2024 printed p. 18 and p. 25'
+  locator: 'AB900 2018 printed p. 33 and p. 38; AB950 2024 printed p. 18 and p. 25; AB900 2018 service manual (AU800/AU800A) TARGET HEART RATE MODE, PDF p. 17, text.md lines 260-273, and Heart Rate Display Panel, p. 13, lines 147-156'
   extracted_at: '2026-09-09'
 ---
 
@@ -70,6 +70,10 @@ adjust, so this mode is a coach, not a controller - see
 **These figures are the air bikes' own.** Do not read 60%/80%, 60%/85% or 65%/80% from an upright or
 recumbent bike card onto these two machines.
 
-**Age is the only thing the mode asks for**, and neither manual prints the formula it uses to turn
-age into a maximum heart rate. The AB950's Heart Rate Exertion page prints **220 minus your age**
-elsewhere in the book; the AB900 prints no formula anywhere.
+**Age is the only thing the mode asks for**, and neither owner's manual prints the formula it uses
+to turn age into a maximum heart rate on this page. The AB950's Heart Rate Exertion page prints
+**220 minus your age** elsewhere in the book; the AB900 owner's manual prints no formula anywhere,
+but the AB900 2018 **service** manual prints the same 220-minus-age page - see
+`cu800-2012-programs-target-zone-of-108-to-144-beats`. The service manual's own wording of this mode
+is the same as the owner's manual's, with the flashing banner telling the user to "work more harder"
+below 65% and "work less harder" above 85%, and it says the mode "will end by user stop manually".

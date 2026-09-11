@@ -33,7 +33,7 @@ see_also:
 - spirit-bike-console-air-bike-workout-summary-and-reset
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 36; AB950 2024 printed p. 24'
+  locator: 'AB900 2018 printed p. 36; AB950 2024 printed p. 24; AB900 2018 service manual (AU800/AU800A) CONSOLE OPERATON, QUICK START, PDF p. 15, text.md lines 201-205'
   extracted_at: '2026-09-09'
 ---
 

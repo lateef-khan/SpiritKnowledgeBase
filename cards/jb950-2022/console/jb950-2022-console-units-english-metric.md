@@ -1,24 +1,26 @@
 ---
 id: jb950-2022-console-units-english-metric
-title: 'The units setting defaults to English, and average and peak speed only ever display in MPH'
+title: The units setting defaults to English, and average and peak speed only ever
+  display in MPH
 kind: procedure
-question: 'How do I switch a Spirit jb950-2022 Johnny G Spirit Bike console between miles and kilometres?'
+question: How do I switch a Spirit jb950-2022 Johnny G Spirit Bike console between
+  miles and kilometres?
 asked_as:
-- 'how do i change my johnny g bike to km'
-- 'switch the jb950 to metric'
-- 'my spin bike shows miles i want kilometres'
-- 'units setting on the johnny g spirit bike'
+- how do i change my johnny g bike to km
+- switch the jb950 to metric
+- my spin bike shows miles i want kilometres
+- units setting on the johnny g spirit bike
 keywords:
-- 'units'
-- 'english'
-- 'metric'
-- 'imperial'
-- 'mph'
-- 'km'
-- 'distance'
-- 'spd avg'
-- 'spd peak'
-- 'maintenance mode'
+- units
+- english
+- metric
+- imperial
+- mph
+- km
+- distance
+- spd avg
+- spd peak
+- maintenance mode
 facets:
   brand:
   - spirit
@@ -36,7 +38,8 @@ see_also:
 - jb950-2022-console-maintenance-mode-entry-and-menu
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: JB950-2022 printed p. 54 UNITS
+  locator: JB950-2022 printed p. 54 UNITS. JB950 service manual 5.3 UNITS, PDF p.
+    41 (printed 41), text.md lines 694-700
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,5 @@ and no confirmation - one press flips it.
 **Nothing else in the manual switches units.** There is no rider-facing units control on the Home
 screen, so this maintenance entry is the only route, and reaching it means pedalling above 30 RPM
 while holding three keys.
+
+**The JB950 service manual prints this entry in its Maintenance Mode chapter.** Same ENGLISH default, and the same note that the MILES FOR LIVES program, distance goal, SPD AVG and SPD PEAK display only in ENGLISH.

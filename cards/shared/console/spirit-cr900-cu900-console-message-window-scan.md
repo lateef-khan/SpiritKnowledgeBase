@@ -1,10 +1,10 @@
 ---
 id: spirit-cr900-cu900-console-message-window-scan
-title: The Scan button swaps Watts, Time Elapsed, Calories and Distance for METs, Time Remaining, Calories/Hour
-  and Speed
+title: The Scan button swaps Watts, Time Elapsed, Calories and Distance for METs,
+  Time Remaining, Calories/Hour and Speed
 kind: fact
-question: What does the message window on a Spirit CR900 or CU900 bike show, and how do I see the other
-  readings?
+question: What does the message window on a Spirit CR900 or CU900 bike show, and how
+  do I see the other readings?
 asked_as:
 - how do i see watts on my spirit bike
 - how do i change what the bike display shows
@@ -44,8 +44,10 @@ see_also:
 - ce900-2025-console-screen-overview
 source:
   ref: spirit-bike-cu900-2018-owners-manual
-  locator: CU900-2018 p. 13 BASIC INFORMATION; CR900-2018 p. 14; CU900-2025 p. 16 FEATURES - Basic
-    Information; CR900-2025 p. 16
+  locator: CU900-2018 p. 13 BASIC INFORMATION; CR900-2018 p. 14; CU900-2025 p. 16
+    FEATURES - Basic Information; CR900-2025 p. 16. CR900-2018 service manual BASIC
+    INFORMATION, PDF pp. 13-14 (printed 13-14), text.md lines 160-170; CU900-2018
+    service manual PDF pp. 14-15 (printed 14-15), lines 224-234
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +77,5 @@ Remaining: `spirit-ce-console-led-data-windows-scan`.
 **One Scan button, not two.** The CR800 and CU800 consoles have a Scan button for the LED windows
 and a second one for the dot matrix; these four have a single Scan button beside the Message Window
 and nothing that switches what the dot matrix shows.
+
+**The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same two sets of four readings - Watts, Time Elapsed, Calories, Distance, then METs, Time Remaining, Calories/Hour, Speed - and the same four-second scan.

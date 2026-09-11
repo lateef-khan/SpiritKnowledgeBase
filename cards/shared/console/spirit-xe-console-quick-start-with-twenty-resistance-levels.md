@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-quick-start-with-twenty-resistance-levels
-title: Quick Start counts the time up from zero, with twenty resistance levels banded five at a time
+title: Quick Start counts the time up from zero, with twenty resistance levels banded
+  five at a time
 kind: procedure
-question: How do I start a workout without programming anything on a Spirit XE elliptical or XB bike with twenty levels?
+question: How do I start a workout without programming anything on a Spirit XE elliptical
+  or XB bike with twenty levels?
 asked_as:
 - how do i just start pedalling on my elliptical
 - how do i start the elliptical without picking a program
@@ -58,7 +60,14 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 18; XE295 p. 19; XG400 p. 18; XE395 2010 p. 17; XE395 2023 p. 18, all under QUICK START; XBR25 2019 p. 16, XBR55 2019 and 2021 p. 18, XBU55 2019 and 2021 p. 16, XBR55ENT/XBU55ENT p. 16, all Quick Start; XBR25 2023 p. 15, XBR55/XBU55 2023 p. 16, QUICK START
+  locator: XE195 p. 18; XE295 p. 19; XG400 p. 18; XE395 2010 p. 17; XE395 2023 p.
+    18, all under QUICK START; XBR25 2019 p. 16, XBR55 2019 and 2021 p. 18, XBU55
+    2019 and 2021 p. 16, XBR55ENT/XBU55ENT p. 16, all Quick Start; XBR25 2023 p. 15,
+    XBR55/XBU55 2023 p. 16, QUICK START. XBR55-2023 service manual section 4 Product
+    Operation, QUICK START, PDF p. 6 (printed 6), text.md lines 125-135; XBU55-2023
+    service manual PDF p. 6, lines 122-132; XBR55ENT-2021 service manual QUICK START,
+    PDF p. 12 (printed 12), lines 130-136; XBU55ENT-2021 service manual PDF p. 12,
+    lines 127-133
   extracted_at: '2026-09-09'
 ---
 
@@ -133,3 +142,9 @@ increase."
 **The XS895 raises the incline as well as the resistance during a preset program**, and its preset
 setup asks for an **Incline on/off** choice that no machine on this card has. That is a programs
 question, not a Quick Start one - Quick Start itself adjusts the workload only.
+
+**Four bike service manuals print this paragraph too.** The XBR55-2023 and XBU55-2023 books print the LED
+version word for word, with the twenty levels banded five at a time. The XBR55ENT-2021 and XBU55ENT-2021
+books print the touchscreen version - "press START WORKOUT on the screen, or press the Start key" - with
+the same twenty levels and bands. **The XBR95-2023 service manual prints no Quick Start paragraph at
+all**; its Product Operation chapter goes from Basic Information to the Pulse Grip Feature.

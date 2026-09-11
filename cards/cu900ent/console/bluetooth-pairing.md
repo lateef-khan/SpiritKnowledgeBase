@@ -2,7 +2,7 @@
 id: cu900ent-bluetooth-pairing
 title: Pairing a phone or tablet over Bluetooth
 kind: procedure
-question: How do I pair a phone to a Spirit CU900ENT bike over Bluetooth?
+question: How do I pair a phone to a Spirit CU900ENT or CR900ENT bike over Bluetooth?
 asked_as:
 - how do i pair my phone to the spirit bike
 - bike console will not connect over bluetooth
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: console
   code: '*'
@@ -35,7 +36,10 @@ see_also:
 - ct900ent-bluetooth-pairing
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: BT Setup, p. 37 (printed 37)
+  locator: BT Setup, p. 37 (printed 37). The CR900ENT-2021 service manual, BT Setup,
+    PDF p. 37 (printed 37), text.md lines 575-604, prints the same page word for word.
+    The seven buttons, the "ENT console" pairing procedure and the headphone volume
+    control are word for word.
   extracted_at: '2026-09-08'
 ---
 
@@ -71,5 +75,5 @@ headphone port on the ENT console**: `ct900ent-bluetooth-pairing`.
 manual's own volume control on this screen is labelled headphone volume. Neither document says
 whether the console pairs for heart rate as well.
 
-**Nothing on this card is corroborated for the CR900ENT-2021**, whose owner's manual never opens
-engineering mode.
+**The CR900ENT-2021 service manual prints this page word for word** (its PDF p. 37), so this card
+covers that machine too; its owner's manual never opens engineering mode.

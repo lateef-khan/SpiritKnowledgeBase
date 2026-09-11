@@ -1,8 +1,10 @@
 ---
 id: xe795-2021-console-engineering-mode-with-a-da-test
-title: The engineering menu whose Functions list ends with a DA Test that tests the brake resistance
+title: The engineering menu whose Functions list ends with a DA Test that tests the
+  brake resistance
 kind: procedure
-question: How do I get into engineering mode on a Spirit XE795 elliptical or XBR95 bike, and what is in it?
+question: How do I get into engineering mode on a Spirit XE795 elliptical or XBR95
+  bike, and what is in it?
 asked_as:
 - how do i get into the service menu on my elliptical
 - how do i test the brake on my elliptical
@@ -38,9 +40,14 @@ see_also:
 - spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
 - xe795-2023-console-engineering-mode-with-a-pwm-test
 - spirit-xe795-console-power-up-by-pedalling
+- spirit-xbr-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset
+- spirit-xbr-2016-console-maintenance-menu-20-minute-sleep-described-motor-test-and-safety
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: p. 38, Engineering Mode Menu (the February 19 2021 printing prints the same list on its p. 37; the August 22 2018 printing prints it on its p. 37); XBR95 2016, 2018 and 2021 p. 35, Engineering Mode Menu
+  locator: p. 38, Engineering Mode Menu (the February 19 2021 printing prints the
+    same list on its p. 37; the August 22 2018 printing prints it on its p. 37); XBR95
+    2016, 2018 and 2021 p. 35, Engineering Mode Menu. XBR95-2016 service manual MAINTENANCE
+    MENU IN CONSOLE SOFTWARE, PDF p. 43 (printed 43), text.md lines 592-615
   extracted_at: '2026-09-09'
 ---
 
@@ -98,3 +105,10 @@ and no motor to run.
 **The XBR95-2023 dropped it.** Its menu is the newer shape - Display Test, a fifteen-minute Sleep
 Mode, a **Motor test** that continually runs the tensioning gear motor, a Child Lock and an Exit:
 `xe395-2023-console-engineering-mode-with-a-child-lock`.
+
+**The XBR95-2016 service manual prints this menu with Display Mode "turned on" to power down** - the
+XE795 wording, not the XBR95 owner's-manual wording. So for the XBR95-2016 the two documents disagree
+with each other about the polarity of the same setting, and nothing resolves it. Its Message Window
+reads "Engineering Mode", it navigates with the Level ▲/▼ keys, and its other five Functions items,
+including the DA Test that "tests the brake resistance", are word for word. Its software-spec chapter
+says the same console sleeps after **30** minutes: `spirit-xbr-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset`.

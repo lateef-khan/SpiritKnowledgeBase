@@ -37,9 +37,11 @@ see_also:
 - jb950-2022-programs-hr-zone-five-zones-and-led-colours
 - jb950-2022-programs-power-zone-five-ftp-zones-and-led-colours
 - jb950-2022-programs-lap-program
+- jb950-2022-console-units-english-metric
+- jb950-2022-programs-miles-for-lives-program-named-only-in-the-service-manual
 source:
   ref: spirit-bike-jb950-2022-owners-manual
-  locator: 'JB950 2022 printed p. 41-43 (END WORKOUT, WORKOUT RESULTS)'
+  locator: 'JB950 2022 printed p. 41-43 (END WORKOUT, WORKOUT RESULTS); p. 54 (UNITS caveat); JB950 service manual 5.3 Maintenance Mode, UNITS, PDF p. 41, text.md lines 696-702'
   extracted_at: '2026-09-09'
 ---
 
@@ -59,6 +61,14 @@ RIDE or USER** displays. Choose **END RIDE**, press **Play**, then toggle **NO**
 - **HR PEAK**
 - **RPM AVG**
 - **RPM PEAK**
+
+**SPEED AVG and SPEED PEAK are not really "in miles or km".** The Workout Results page says so,
+but the owner's manual's UNITS setting page says "SPD AVG and SPD PEAK in workout results will only
+display MPH", and the service manual's UNITS page says the same - "SPD AVG and SPD PEAK in Workout
+Results will only display in ENGLISH" - and adds that the Miles for Lives distance goal is imperial
+only as well. A console set to metric therefore still reports these two speeds in miles per hour;
+see `jb950-2022-console-units-english-metric` and
+`jb950-2022-programs-miles-for-lives-program-named-only-in-the-service-manual`.
 
 **Pressing + or - scrolls through the summary screens. If you press nothing, they scroll themselves
 every 5 seconds.** Pressing **Play** resets the display and reverts to Warm Up Mode.

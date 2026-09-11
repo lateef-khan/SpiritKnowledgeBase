@@ -21,6 +21,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - ab900-2018
   - ab950-2024
   - cr800-2021
   - cr800-2023
@@ -54,7 +55,7 @@ see_also:
 - ct900-rate-of-perceived-exertion-rpe
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29; AB950 2024 p. 23; XBR95 2016/2018/2021 printed p. 31; XBR25 2019 p. 24; XBR55 2019/2021 p. 28; XBU55 2019/2021 p. 28; XBR55ENT/XBU55ENT 2021 p. 40; XBR95 2023 p. 25; XBR55/XBU55 2023 p. 26'
+  locator: 'CU800 2012 printed p. 23 (scan 1 PDF p. 25); CR800 2021 p. 32; CU800 2021 p. 31; CR800 2023 p. 32; CU800ENT 2022 p. 35; CR800ENT 2023 p. 35; CU800ENT 2024 p. 46; CR900 2025 p. 30; CU900 2025 p. 29; AB950 2024 p. 23; XBR95 2016/2018/2021 printed p. 31; XBR25 2019 p. 24; XBR55 2019/2021 p. 28; XBU55 2019/2021 p. 28; XBR55ENT/XBU55ENT 2021 p. 40; XBR95 2023 p. 25; XBR55/XBU55 2023 p. 26; AB900 2018 service manual (AU800/AU800A) Rate of Perceived Exertion, PDF p. 19, text.md lines 325-360'
   extracted_at: '2026-09-09'
 ---
 
@@ -83,8 +84,15 @@ last ate all contribute to the intensity at which you should work out.
 same 6-to-20 table and the same add-a-zero rule.
 
 **The CR900 2018, CU900 2018, CR900ENT and CU900ENT print no RPE page.** Searching all four whole
-manuals for "Borg" and for "perceived" returns nothing. **Nor does the AB900 2018 air bike** - see
-`spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+manuals for "Borg" and for "perceived" returns nothing. **Nor does the AB900 2018 air bike owner's
+manual - but its service manual does**, on PDF p. 19, with the same introduction and the same
+add-a-zero rule - see `spirit-bike-programs-air-bike-2018-prints-no-heart-rate-training-page`.
+
+**The AB900 2018 service manual misprints two rows of the table.** Read from the rendered page, not
+just the extraction, its scale runs `11 airly light` and then `15 Hard Hard +` straight to `17 Very
+hard`: the initial letter of *Fairly* is dropped and rows 15 and 16 are run together with the 16
+missing. The table above is the correct scale; the service manual's page is the only printing of it
+in this family with the defect.
 
 **Thirteen residential XBR and XBU bike manuals print this page**, with the same 6-to-20 Borg table
 and the same add-a-zero rule: XBR95 2016, 2018, 2021 and 2023; XBR25 2019; XBR55 2019, 2021 and 2023;

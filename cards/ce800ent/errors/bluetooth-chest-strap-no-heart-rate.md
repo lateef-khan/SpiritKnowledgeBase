@@ -2,8 +2,9 @@
 id: ce800ent-bluetooth-chest-strap-no-heart-rate
 title: The Bluetooth chest strap shows no heart rate
 kind: troubleshooting
-question: Why does the Bluetooth chest strap show no heart rate on a Spirit CE800ENT or
-  CE800ENT-2024 elliptical or a CR800ENT-2024 or CU800ENT-2024 bike?
+question: Why does the Bluetooth chest strap show no heart rate on a Spirit CE800ENT
+  or CE800ENT-2024 elliptical or a CR800ENT-2023, CR800ENT-2024, CU800ENT-2022 or
+  CU800ENT-2024 bike?
 asked_as:
 - bluetooth chest strap not pairing with my spirit elliptical
 - no heart rate from my bluetooth belt
@@ -26,7 +27,9 @@ facets:
   applies_to:
   - ce800ent
   - ce800ent-2024
+  - cr800ent-2023
   - cr800ent-2024
+  - cu800ent-2022
   - cu800ent-2024
   section: errors
   code: no-code
@@ -38,9 +41,12 @@ see_also:
 - spirit-ce-errors-erratic-heart-rate-interference
 source:
   ref: spirit-elliptical-ce800ent-service-manual
-  locator: 'CE800ENT service manual section 7-3 Troubleshooting procedure matrix, page
-    27; CU800ENT 2024 owner''s manual TROUBLESHOOTING, printed page 50 (that page is
-    a flat picture and was read from the rendered page)'
+  locator: CE800ENT service manual section 7-3 Troubleshooting procedure matrix, page
+    27; CU800ENT 2024 owner's manual TROUBLESHOOTING, printed page 50 (that page is
+    a flat picture and was read from the rendered page); CU800ENT 2020-ver book (cu800ent-2022)
+    service manual 7-3 Troubleshooting procedure matrix, PDF p. 27, text.md lines
+    418-452; CR800ENT 2020-ver book (cr800ent-2023) service manual 7-3 Troubleshooting
+    procedure matrix, PDF p. 27, text.md lines 425-459
   extracted_at: '2026-09-08'
 ---
 
@@ -71,3 +77,5 @@ this strap's battery.
 **The CE800ENT 2024 elliptical and the CR800ENT 2024 recumbent bike print this row word for word.**
 Both also print the analogue `Wireless lost its function` row above it and, like the CE800ENT and
 CU800ENT 2024, neither prints the `Chest belt too close` row.
+
+**The CU800ENT "2020 ver." service manual (`cu800ent-2022`) and the CR800ENT "2020 Ver." service manual (`cr800ent-2023`) print this row word for word**, the analogue `Wireless lost its function` row above it included, and neither prints the `Chest belt too close` row.

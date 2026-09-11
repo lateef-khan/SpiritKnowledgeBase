@@ -36,7 +36,7 @@ see_also:
 - spirit-bike-console-air-bike-display-panels
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 32 and p. 37; AB950 2024 printed p. 18 and p. 25'
+  locator: 'AB900 2018 printed p. 32 and p. 37; AB950 2024 printed p. 18 and p. 25; AB900 2018 service manual (AU800/AU800A) TARGET TIME, DISTANCE, CALORIES MODE, PDF p. 16, text.md lines 240-254, and Target Display Panel, p. 12, lines 125-131'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,4 +60,6 @@ be customized**.
 DISTANCE and CALORIES "begin calculating", while the display-panel page in the same book says both
 **count down**. Both sentences are printed in both manuals. Treat the count-down wording as what the
 panel actually shows, since it is the one describing the panel - see
-`spirit-bike-console-air-bike-display-panels`.
+`spirit-bike-console-air-bike-display-panels`. The AB900 2018 service manual keeps the panel page's
+count-down wording and, on its Target mode page, says only that for Target Distance and Target
+Calories "its mode will be shown" - it never says "begin calculating".

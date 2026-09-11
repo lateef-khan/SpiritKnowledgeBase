@@ -2,7 +2,10 @@
 id: spirit-route-the-power-cord-away-from-moving-parts
 title: Route the power cord away from every moving part
 kind: policy
-question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800 or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill, a Spirit XE395-2023 elliptical, or a Spirit CVC800 climber?
+question: Where should the power cord be routed on a Spirit CT850, CT850ENT, CT800
+  or CT800ENT treadmill, a 2015 or 2023 Spirit XT treadmill, a 2026 Spirit 4.0T treadmill,
+  a Spirit XE395-2023 elliptical, a Spirit XBR or XBU residential bike of the 2016
+  or 2023 generation, or a Spirit CVC800 climber?
 asked_as:
 - where do i run the power cable on the treadmill
 - can the power lead touch the incline mechanism
@@ -39,8 +42,13 @@ facets:
   - ct850ent-2024
   - cu800ent-2024
   - cvc800
+  - xbr25-2016
   - xbr25-2023
+  - xbr55-2016
   - xbr55-2023
+  - xbr95-2016
+  - xbr95-2023
+  - xbu55-2016
   - xbu55-2023
   - xe395-2023
   - xt185-2015
@@ -69,18 +77,29 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the same sentence is
-    p. 33 (printed 32) of the CT850 2020 manual, p. 25 (printed 25) of the CVC800 manual,
-    and the ELECTRICAL SAFETY page of the five 2023 XT owner's manuals (XT185 p. 6,
-    XT285/XT385/XT485/XT685 p. 7), and the Important Electrical Instructions page of the
-    five 2015 XT owner's manuals (XT185/XT285/XT485 p. 5, XT385/XT685 p. 6), and the
-    ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner's manual and the Important
-    Electrical Instructions page of the four CT800 owner's manuals - 2012 page 3, 2016 page
-    4, 2020 page 5, ENT-2022 page 5, and of the four CT850 owner's manuals - 2016 page 5,
-    2018 page 4, 2020 page 5, ENT-2022 page 5. The XT685 2010 owner's manual prints it on
-    its Important Electrical Instructions page, PDF page 7 (printed 3) The CU800ENT-2024
-    bike owner's manual prints the same sentence on its ELECTRICAL SAFETY page, printed page
-    6
+  locator: 'Section 7.2 Important Electrical Instructions, p. 27 (printed 26); the
+    same sentence is p. 33 (printed 32) of the CT850 2020 manual, p. 25 (printed 25)
+    of the CVC800 manual, and the ELECTRICAL SAFETY page of the five 2023 XT owner''s
+    manuals (XT185 p. 6, XT285/XT385/XT485/XT685 p. 7), and the Important Electrical
+    Instructions page of the five 2015 XT owner''s manuals (XT185/XT285/XT485 p. 5,
+    XT385/XT685 p. 6), and the ELECTRICAL SAFETY page, p. 6, of the 2026 4.0T owner''s
+    manual and the Important Electrical Instructions page of the four CT800 owner''s
+    manuals - 2012 page 3, 2016 page 4, 2020 page 5, ENT-2022 page 5, and of the four
+    CT850 owner''s manuals - 2016 page 5, 2018 page 4, 2020 page 5, ENT-2022 page
+    5. The XT685 2010 owner''s manual prints it on its Important Electrical Instructions
+    page, PDF page 7 (printed 3) The CU800ENT-2024 bike owner''s manual prints the
+    same sentence on its ELECTRICAL SAFETY page, printed page 6. Seven Spirit residential
+    bike service manuals print the sentence as the second half of the GFCI bullet
+    in 7.2: XBR25-2016 (XR327-SB005-01) service manual: section 7 Product Safety Instructions,
+    PDF p. 31 (printed 31); text.md lines 424-452. XBR55-2016 (XR329-SB011-01) service
+    manual: section 7, PDF p. 33 (printed 33); text.md lines 448-474. XBU55-2016 (XU319-SB011-01)
+    service manual: section 7, PDF p. 31 (printed 31); text.md lines 424-453. XBR95-2016
+    (XR829-SB012-01) service manual: section 7, PDF p. 35 (printed 35); text.md lines
+    457-483. XBR55-2023 (XR329A-SB030) service manual: section 7.1-7.3, PDF p. 11
+    (printed 11 of 30); text.md lines 174-206. XBU55-2023 (XU319A-SB030) service manual:
+    section 7.1-7.3, PDF p. 11 (printed 11 of 26); text.md lines 171-203. XBR95-2023
+    (XR829A-SB032) service manual: section 7.1-7.3, PDF p. 13 (printed 13 of 28);
+    text.md lines 191-223.'
   extracted_at: '2026-09-08'
 ---
 
@@ -182,3 +201,18 @@ open their page with it, where the four ENT machines put the RCD/GFCI sentence f
 (`spirit-never-use-a-gfci-wall-outlet`). All six name `the elevation mechanism and transport wheels`,
 including the CE800ENT elliptical and the CR800ENT recumbent bike, neither of which has an elevation
 mechanism; the sentence is carried over from the treadmill book unchanged.
+
+## Seven Spirit residential bike service manuals print the treadmill sentence
+
+**The XBR25-2016, XBR55-2016, XBU55-2016, XBR95-2016, XBR55-2023, XBU55-2023 and XBR95-2023 service
+manuals print it inside the GFCI bullet**, where the CT850 service manuals had it:
+
+> Route the power cord away from any moving part of the Bike including the elevation mechanism and
+> transport wheels.
+
+**`The elevation mechanism` is kept on a machine that has none.** The 2023 owner's manuals of the
+XBR55 and XBU55 trimmed the sentence to `including the transport wheels`; their service manuals did
+not. The transport wheels and the crank and pedals are the moving parts that apply. The two XBR95
+books print it on a self-powered machine with no cord to route
+(`spirit-bike-safety-no-mains-outlet-needed`), and the four 2016 books are the service-manual SKUs
+that precede the 2019 owner's-manual machines, whose books print no cord-routing rule.

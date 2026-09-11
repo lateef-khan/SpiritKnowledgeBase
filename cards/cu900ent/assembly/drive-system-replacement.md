@@ -2,8 +2,8 @@
 id: cu900ent-drive-system-replacement
 title: Drive system replacement
 kind: procedure
-question: How do I replace the belt, idler, flywheel or reed switch on a Spirit CU900ENT
-  bike?
+question: How do I replace the belt, idler, flywheel or reed switch on a Spirit CU900,
+  CU900ENT or CU1000ENT upright bike?
 asked_as:
 - drive belt replacement on my spirit cu900 bike
 - flywheel replacement on the cu900ent
@@ -24,8 +24,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -40,7 +42,10 @@ see_also:
 - cu900ent-belt-slips-or-falls-off
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.7 Drive System Replacement, pp. 53-55 (printed 53-55)
+  locator: 'cu900ent: Section 8, 6.7 Drive System Replacement, pp. 53-55 (printed
+    53-55) | cu900-2018: 6.7 Drive System Replacement, PDF pp. 46-49; text.md lines
+    752-816 | cu1000ent-2023: 12.18 Drive System Replacement, PDF pp. 26-28; text.md
+    lines 541-598'
   extracted_at: '2026-09-08'
 ---
 
@@ -76,3 +81,4 @@ alike and are not the same measurement.
 
 The idler is installed **counterclockwise to the end of the lock**.
 
+**Three books, one procedure and the same two figures.** The CU900 (2018) manual prints this as 6.7 and the CU1000ENT (2023) manual as 12.18: belt tension **180 to 210 N**, reed switch to magnet **1 mm**, idler counterclockwise to the end of the lock, keyed five-way turntable. The recumbent CR900 and CR900ENT print **220 to 240 N** and **2 mm** for what looks like the same drive; do not use those here.

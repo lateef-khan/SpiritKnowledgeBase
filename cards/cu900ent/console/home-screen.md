@@ -36,7 +36,11 @@ see_also:
 source:
   ref: spirit-bike-cu900ent-service-manual
   locator: Software update pages, Home screenshot, p. 30 (printed 30). This page is
-    a flattened image and was read from raw/page-30.png, not from the OCR text
+    a flattened image and was read from raw/page-30.png, not from the OCR text. The
+    CR900ENT-2021 service manual, Home screenshots, PDF p. 24 and PDF p. 29 (printed
+    24, 29), read from the OCR supplements for those pages, prints the same page word
+    for word. Its screenshots show the same four tiles - TV, Language, Exercise Programs,
+    Internet - over the same "press the START key on the keypad below" line.
   extracted_at: '2026-09-08'
 ---
 
@@ -77,3 +81,5 @@ They give no list of names; see the programs section for what is on record.
 The same page in the CT900ENT treadmill owner's manual is
 `ct900ent-starting-the-treadmill-home-screen`, which names the same four tiles and a different set of
 quick operating buttons.
+
+**The CR900ENT-2021 service manual is this book with the model name changed.** Its engineering-mode chapter runs one PDF page earlier than the CU900ENT's and prints the page this card rests on word for word, so the card covers both machines. Its screenshots show the same four tiles - TV, Language, Exercise Programs, Internet - over the same "press the START key on the keypad below" line.

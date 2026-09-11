@@ -1,8 +1,10 @@
 ---
 id: spirit-xe-console-power-up-self-test-with-the-totals-in-the-data-windows
-title: The self-test prints the software version in the Message Center and the totals in the distance and time windows
+title: The self-test prints the software version in the Message Center and the totals
+  in the distance and time windows
 kind: fact
-question: What does a Spirit XE elliptical or XB bike console show at power-up before the start-up screen?
+question: What does a Spirit XE elliptical or XB bike console show at power-up before
+  the start-up screen?
 asked_as:
 - what is ver 1.0 on my elliptical display
 - my elliptical shows numbers then changes screen
@@ -53,7 +55,12 @@ see_also:
 - spirit-xe-console-power-up-shows-odo-miles-and-hours
 source:
   ref: spirit-elliptical-xe195-2021-owners-manual
-  locator: XE195 p. 18 POWER; XE295 p. 19 POWER; XG400 p. 18 POWER; XE395 2010 p. 16 POWER UP; XE395 2023 p. 15 Plugging in and Powering On; XBR25 2019 p. 15, XBR55 2019 and 2021 p. 15, XBU55 2019 and 2021 p. 15, all POWER; XBR25 2023 p. 13, XBR55 2023 p. 14, XBU55 2023 p. 14, XBR95 2023 p. 13, all Setting Up Your Bike
+  locator: XE195 p. 18 POWER; XE295 p. 19 POWER; XG400 p. 18 POWER; XE395 2010 p.
+    16 POWER UP; XE395 2023 p. 15 Plugging in and Powering On; XBR25 2019 p. 15, XBR55
+    2019 and 2021 p. 15, XBU55 2019 and 2021 p. 15, all POWER; XBR25 2023 p. 13, XBR55
+    2023 p. 14, XBU55 2023 p. 14, XBR95 2023 p. 13, all Setting Up Your Bike. XBR55-2023
+    service manual POWER UP, PDF p. 6 (printed 6), text.md lines 117-124; XBU55-2023
+    service manual PDF p. 6, lines 114-121
   extracted_at: '2026-09-09'
 ---
 
@@ -111,3 +118,8 @@ identical to its cord-powered stablemates.
 **The 2016, 2018 and 2021 XBR95 printings are the exception in the bike line.** They print an `ODO
 123 MI 123 HRS` odometer line instead of the distance and time windows:
 `spirit-xe-console-power-up-shows-odo-miles-and-hours`.
+
+**The XBR55-2023 and XBU55-2023 service manuals print the Power Up paragraph word for word** - the console
+powers up when the cord is connected, all lights on during the self-test, VER 1.0 in the Message Center,
+miles in the distance window and total hours in the time window. **The XBR95-2023 service manual prints
+no Power Up paragraph**; that bike is generator powered (`spirit-xe795-console-power-up-by-pedalling`).

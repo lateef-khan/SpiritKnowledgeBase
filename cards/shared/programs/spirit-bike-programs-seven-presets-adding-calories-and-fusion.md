@@ -39,7 +39,7 @@ see_also:
 - xe795-2021-programs-seven-presets-including-calories-and-fusion
 source:
   ref: spirit-bike-xbr95-2016-owners-manual
-  locator: 'XBR95 2016/2018 printed p. 24-25, XBR95 2021 p. 24-25 (Preset Programs)'
+  locator: 'XBR95 2016/2018 printed p. 24-25, XBR95 2021 p. 24-25 (Preset Programs); XBR95 2016 service manual (XR829-SB012-01) Function Button Locations PDF p. 20, text.md lines 315-338, key legend read from the 300 dpi render'
   extracted_at: '2026-09-10'
 ---
 The XBR95 2016, 2018 and 2021 manuals say the Semi-Recumbent Bike has **seven different programs**
@@ -52,6 +52,13 @@ counted: the seven above, **Manual**, **User 1** and **User 2**, and **HR1** and
 beside the keypad still reads "Ten innovative programs offer a variety of work-outs", and the key
 legend pairs them - USER1-2 and HR1-2 are one key each on the drawing - which is how ten keys carry
 twelve programs. See `spirit-residential-bike-console-face-ten-programs` for the console face itself.
+
+**The XBR95 2016 service manual's key drawing agrees; its caption does not.** The rendered legend
+under the keys on its Function Button Locations page reads MANUAL, HILL, FAT BURN, **CARDIO**,
+STRENGTH, INTERVAL, CALORIES, FUSION, USER 1-2, HR 1-2 - the twelve programs on ten keys above. The
+printed caption beside it, "PROGRAM BUTTONS (Manual, Hill, Fat Burn, Strength, Interval, Calories,
+Fusion, 2 User, 2HR)", **omits Cardio**. The drawing and the owner's manual agree with each other;
+the caption is short one name. That book prints no program descriptions.
 
 **Calories and Fusion each have their own setup procedure** rather than the ordinary preset flow -
 see `spirit-bike-programs-calories-program-counts-a-calorie-goal-down-to-zero` and

@@ -2,7 +2,8 @@
 id: ct800ent-2022-console-heart-rate-feature
 title: Reading heart rate from the grips or a Polar or Bluetooth transmitter
 kind: fact
-question: How does heart rate work on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, or a CU800ENT or CR800ENT bike?
+question: How does heart rate work on a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill,
+  or a CU800ENT or CR800ENT bike?
 asked_as:
 - why is my heart rate not showing on the treadmill
 - does it work with a bluetooth chest strap
@@ -41,9 +42,12 @@ see_also:
 - ctsbs900-heart-rate-chest-strap-pairing
 - ctsbs900-heart-rate-chest-strap-troubleshooting
 - ct800ent-2022-console-layout
+- spirit-ent-bike-console-maintenance-menu-seven-buttons-language-wifi-ethernet-bt-updates
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
-  locator: CT800ENT CONSOLE OPERATION / HEART RATE FEATURE, p. 18
+  locator: CT800ENT CONSOLE OPERATION / HEART RATE FEATURE, p. 18. CR800ENT-2023 service
+    manual section 4 Product Operation, HEART RATE FEATURE, PDF p. 13 (printed 13),
+    text.md lines 195-198; CU800ENT-2022 service manual PDF p. 13, lines 188-191
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +104,9 @@ procedure here or a list of supported straps.
 **The eight LED machines of the same 2024 range claim less** - Polar compatible "including coded
 transmissions" and no Bluetooth strap:
 `spirit-ce-console-pulse-window-polar-coded-straps` and `ct850-2020-heart-rate-feature`.
+
+**The two ENT bike service manuals print the paragraph word for word too**, and both name "The
+CU800ENT" in the last bullet - the CR800ENT book was made from the upright's and the name was not
+changed. Their troubleshooting matrix is the only place in either book that says how a Bluetooth
+strap pairs: turn Bluetooth on in the console's BT Setup and tap the strap's name
+(`spirit-ent-bike-console-maintenance-menu-seven-buttons-language-wifi-ethernet-bt-updates`).

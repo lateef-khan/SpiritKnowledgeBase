@@ -1,24 +1,25 @@
 ---
 id: spirit-bike-console-air-bike-face-and-buttons
-title: 'The air bike console face: an interval panel, a data panel, a heart rate panel, quick mode buttons and a control keypad'
+title: 'The air bike console face: an interval panel, a data panel, a heart rate panel,
+  quick mode buttons and a control keypad'
 kind: fact
-question: 'What is on the console of a Spirit air bike?'
+question: What is on the console of a Spirit air bike?
 asked_as:
-- 'what are the buttons on my air bike console'
-- 'what does the enter button do on the assault style bike'
-- 'what is on the screen of my spirit air bike'
-- 'where is the bluetooth button on the air bike'
+- what are the buttons on my air bike console
+- what does the enter button do on the assault style bike
+- what is on the screen of my spirit air bike
+- where is the bluetooth button on the air bike
 keywords:
-- 'console layout'
-- 'interval display panel'
-- 'quick mode buttons'
-- 'control keypad'
-- 'bluetooth button'
-- 'start'
-- 'stop'
-- 'enter'
-- 'arrow buttons'
-- 'air bike'
+- console layout
+- interval display panel
+- quick mode buttons
+- control keypad
+- bluetooth button
+- start
+- stop
+- enter
+- arrow buttons
+- air bike
 facets:
   brand:
   - spirit
@@ -37,7 +38,10 @@ see_also:
 - spirit-bike-console-air-bike-sleep-ready-pause
 source:
   ref: spirit-bike-ab950-2024-owners-manual
-  locator: AB950-2024 printed pp. 16-19 and p. 30; AB900-2018 printed pp. 30-35 and pp. 39-40 - the two console chapters are word for word the same
+  locator: AB950-2024 printed pp. 16-19 and p. 30; AB900-2018 printed pp. 30-35 and
+    pp. 39-40 - the two console chapters are word for word the same. AB900-2018 (AU800/AU800A)
+    service manual, Display Windows, PDF p. 11 (printed 11), text.md lines 102-110
+    and the OCR supplement for that page
   extracted_at: '2026-09-09'
 ---
 
@@ -88,3 +92,10 @@ machines - resistance comes from how hard you pedal and push, so nothing on the 
 
 **The AB950 also names an `A. LCD Screen` and a `D. Console`** as separate items in its parts
 diagram: the screen is the display, the console is the housing it sits in.
+
+**The service manual's console drawing carries call-outs the owner's manual's does not.** It labels the
+**Interval Display Panel**, the **Time, Distance, Calories, Watts, Speed, RPM Display Panel**, the
+**Heart Rate Display Panel**, the **Quick Mode Keys** (two columns, TARGET TIME / DISTANCE / CALORIES /
+HR KEY and INTERVAL 20-10 / 10-20 / CUSTOM / BLUETOOTH), the **Bluetooth Key** and the **Control
+Keypad** - the same six areas, named on the picture - and prints "Bluetooth function: Only the model
+of Bluetooth device configuration" beneath it.

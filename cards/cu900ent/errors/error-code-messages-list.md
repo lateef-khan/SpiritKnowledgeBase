@@ -2,8 +2,8 @@
 id: cu900ent-error-code-messages-list
 title: Every error code the console can show
 kind: spec
-question: What error codes can a Spirit CU900ENT bike display and what does each one
-  mean?
+question: What error codes can a Spirit CU900ENT or CR900ENT-2021 bike display and
+  what does each one mean?
 asked_as:
 - list of error codes for my spirit bike
 - what do the codes mean on a cu900
@@ -21,8 +21,9 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cr900ent-2021
   - cu900ent
   section: errors
   code: '*'
@@ -41,9 +42,13 @@ see_also:
 - cu900ent-error-code-log
 - sole-lwr-not-match
 - lcb-2023-lwr-not-match
+- cu1000ent-2023-errors-error-code-list-four-driver-board-codes
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Error Code Messages table, page 22; Error code items table, page 23
+  locator: Error Code Messages table, page 22; Error code items table, page 23; CR900ENT
+    2021 service manual Error Code Messages table, PDF p. 21, text.md lines 222-239;
+    CR900ENT 2021 service manual Error code items table, PDF p. 22, text.md lines
+    239-262
   extracted_at: '2026-09-08'
 ---
 
@@ -88,3 +93,5 @@ Four things worth knowing before using this table.
 
 Sole uses the message `LWR NOT MATCH` for the same upper-to-lower board mismatch on its own
 machines; those cards are linked below and describe different machines.
+
+**The CR900ENT 2021 recumbent service manual prints both tables word for word** - the eight hex codes with the same descriptions and remarks (`Un-know mode`, `Is Not Math` misprints included) and the one-row `EEPROM ERR` table - so this list answers for the recumbent as well as the upright. The CU1000ENT 2023 upright does **not** share it: its table is four driver-board codes, `0xB0` to `0xB3`, on `cu1000ent-2023-errors-error-code-list-four-driver-board-codes`.

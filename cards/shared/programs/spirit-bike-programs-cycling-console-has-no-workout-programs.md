@@ -40,7 +40,7 @@ see_also:
 - sole-bike-spin-console-has-no-workout-programs
 source:
   ref: spirit-bike-xic600-2021-owners-manual
-  locator: 'XIC600 2021 printed p. 19-23 (CONSOLE SPECIFICATION, XIC600 FEATURES); XIC600 2018 p. 19-23; CIC850 2022 printed p. 23-29 (CIC850 CONSOLE OPERATION)'
+  locator: 'XIC600 2021 printed p. 19-23 (CONSOLE SPECIFICATION, XIC600 FEATURES); XIC600 2018 p. 19-23; CIC850 2022 printed p. 23-29 (CIC850 CONSOLE OPERATION); CIC850 2022 service manual Product Operation PDF p. 12-15, text.md lines 168-245'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,6 +66,12 @@ one in the CIC850, and every one of them is that boilerplate.
 | Heart rate alarm | Yes | **No** |
 | Personal data | Gender, weight unit, bodyweight | Gender, weight unit, weight |
 | App pairing | **None** | Bluetooth (BLE 4.0), including Zwift |
+
+**The CIC850 2022 service manual's console chapter says the same.** Its four Product Operation
+pages show the display windows (Watts, RPM, Speed, Heart Rate BPM, Time, Distance, Kcal), Quick
+Start from Power Saving Mode with the Page key, the MODE key cycling TIME, DIST and KCAL, and the
+readouts; a loose search of the whole book for `program` returns nothing, and the heart rate
+heading again reads "apply to HR featured models only". It repeats the KCAL sentence about age too.
 
 **Resistance is set by hand at the knob on the machine.** Nothing on the console changes it for you,
 so a heart-rate-controlled or profile-driven workout is not possible on these bikes, and there are no

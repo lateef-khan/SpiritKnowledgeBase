@@ -4,7 +4,8 @@ title: The dealer must assemble, set up, diagnose and service every Spirit produ
   it sells, wherever the product is
 kind: policy
 question: Who is responsible for assembling, setting up and servicing a Spirit XT175,
-  XT275, XT375, XT475 or XT675 treadmill of the 2007 model year sold by a dealer?
+  XT275, XT375, XT475 or XT675 treadmill or XBR25 or XBR55 recumbent bike of the 2007
+  model year sold by a dealer?
 asked_as:
 - who sets up a spirit treadmill the dealer or spirit
 - can a dealer use a third party service company
@@ -23,9 +24,11 @@ keywords:
 facets:
   brand:
   - spirit
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - xbr25-2007
+  - xbr55-2007
   - xt175-2007
   - xt275-2007
   - xt375-2007
@@ -43,7 +46,8 @@ source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
   locator: CONTACTING CUSTOMER SERVICE, PDF p. 11 (printed 11), text.md lines 393-397;
     WARRANTY POLICY, For Dealers That Wish To Use Third Party Service, PDF p. 13 (printed
-    13), text.md lines 517-524
+    13), text.md lines 517-524; the same two passages, word for word, in spirit-bike-xbr25-xbr55-2007-service-manual
+    PDF p. 7, lines 190-193, and PDF p. 9, lines 298-305
   extracted_at: '2026-09-11'
 ---
 
@@ -57,4 +61,4 @@ source:
 
 Spirit will in certain circumstances work directly with an independent service company, but will not pay for any service that deviates from its dealer policy, and any deviation must be approved in advance, in writing.
 
-What the flat fee is and how it is claimed is on `spirit-xt-2007-warranty-labor-reimbursement-80-dollar-flat-fee`; how to reach the technicians is on `spirit-xt-2007-policy-contacting-customer-service`. The only case in which Spirit deals with the consumer itself is when there is no dealer or service organisation at all (`spirit-xt-2007-warranty-five-years-or-eighteen-months-from-shipping`).
+What the flat fee is and how it is claimed is on `spirit-xt-2007-warranty-labor-reimbursement-80-dollar-flat-fee`; how to reach the technicians is on `spirit-xt-2007-policy-contacting-customer-service`. The 2008 dealer manual for the XBR25 and XBR55 recumbent bikes prints both passages word for word, so the rule is the same for a dealer-sold bike. The only case in which Spirit deals with the consumer itself is when there is no dealer or service organisation at all (`spirit-xt-2007-warranty-five-years-or-eighteen-months-from-shipping`).

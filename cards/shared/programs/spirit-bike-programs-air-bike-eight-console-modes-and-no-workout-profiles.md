@@ -41,7 +41,7 @@ see_also:
 - spirit-bike-programs-air-bike-target-heart-rate-mode-between-sixty-five-and-eighty-five-percent
 source:
   ref: spirit-bike-ab900-2018-owners-manual
-  locator: 'AB900 2018 printed p. 30 and p. 36-38; AB950 2024 printed p. 16 and p. 24-25'
+  locator: 'AB900 2018 printed p. 30 and p. 36-38; AB950 2024 printed p. 16 and p. 24-25; AB900 2018 service manual (AU800/AU800A) Display Windows console face, PDF p. 11 (text.md lines 102-110, read from the render), and the mode pages 15-17, lines 201-273'
   extracted_at: '2026-09-09'
 ---
 
@@ -63,7 +63,13 @@ eight modes, seven of which have their own **Quick Mode button** on the console 
 The rest of the keypad is **Bluetooth**, **▲/▼**, **Enter**, **Start** and **Stop**. The Quick Mode
 buttons go into their mode immediately - there is no program menu to scroll.
 
-**Both manuals describe these eight modes in the same words**, sentence for sentence. Every sentence
+**The AB900 2018 service manual carries the same eight modes and the same console face**: its
+Display Windows drawing labels the seven Quick Mode Keys - TARGET TIME, TARGET DISTANCE, TARGET
+CALORIES and TARGET HR KEY down the left, INTERVAL 20-10, INTERVAL 10-20 and INTERVAL CUSTOM down the
+right - plus the BLUETOOTH key and a Control Keypad of ▲/UP, DOWN/▼, START, STOP and ENTER, and its
+Console Operation pages describe Quick Start and the seven keyed modes and nothing else.
+
+**Both owner's manuals describe these eight modes in the same words**, sentence for sentence. Every sentence
 of the AB900's program pages was matched against the AB950's; the only differences found are three
 wording changes, none of which changes a figure or a step:
 

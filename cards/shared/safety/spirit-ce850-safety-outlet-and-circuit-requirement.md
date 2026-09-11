@@ -2,7 +2,8 @@
 id: spirit-ce850-safety-outlet-and-circuit-requirement
 title: The outlet is a nominal 110-volt, 5-amp dedicated circuit
 kind: spec
-question: What outlet and circuit does a Spirit CE850 or CE800ENT elliptical, or a Spirit CU800ENT-2022 or CR800ENT-2023 commercial bike, need?
+question: What outlet and circuit does a Spirit CE850 or CE800ENT elliptical, or a
+  Spirit CU800ENT-2022 or CR800ENT-2023 commercial bike, need?
 asked_as:
 - what outlet does the elliptical need
 - how many amps does the elliptical draw
@@ -53,14 +54,17 @@ see_also:
 - spirit-bike-safety-no-mains-outlet-needed
 source:
   ref: spirit-elliptical-ce850-2020-owners-manual
-  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph on page 8; the
-    CE850 2022 manual prints both on pages 6 and 8, the CE850 2016 manual on pages 5 and 6,
-    and the CE800ENT manual on pages 4 and 5. The 110-volt/5 amp dedicated-circuit sentence
-    is on the GROUNDING INSTRUCTIONS page of the three CE850 manuals - 2016 page 6, 2020
-    page 8, 2022 page 8 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the
-    same WARNING header on their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the
-    same breaker sentence at the end of the circuit-breaker paragraph on their printed page
-    5
+  locator: IMPORTANT SAFETY INSTRUCTIONS, page 6, and the circuit-breaker paragraph
+    on page 8; the CE850 2022 manual prints both on pages 6 and 8, the CE850 2016
+    manual on pages 5 and 6, and the CE800ENT manual on pages 4 and 5. The 110-volt/5
+    amp dedicated-circuit sentence is on the GROUNDING INSTRUCTIONS page of the three
+    CE850 manuals - 2016 page 6, 2020 page 8, 2022 page 8 The CU800ENT-2022 and CR800ENT-2023
+    bike owner's manuals print the same WARNING header on their IMPORTANT SAFETY INSTRUCTIONS
+    page, printed page 4, and the same breaker sentence at the end of the circuit-breaker
+    paragraph on their printed page 5. The CU800ENT (2020 ver.) and CR800ENT (2020
+    Ver.) service manuals print no safety chapter; their troubleshooting matrix row
+    `Check the power has 120VAC` is PDF p. 27 (printed 27) of each, text.md lines
+    421-423 and 428-430.
   extracted_at: '2026-09-09'
 ---
 
@@ -150,3 +154,13 @@ figure onto a CE850 or a CE850 figure onto a stepper.
 **The 2024 CE800ENT and CR800ENT moved to 120-volt, 15-amp.** The CE800ENT and CU800ENT/CR800ENT
 books that preceded them are on this card at 110-volt, 5-amp; their 2024 replacements are not
 (`spirit-ct800-safety-outlet-120-volt-15-amp`).
+
+## The two bikes' service manuals say 120 VAC
+
+**The CU800ENT (2020 ver.) and CR800ENT (2020 Ver.) service manuals print no safety chapter and no
+outlet requirement.** Their one supply figure is a troubleshooting row: for a touch panel that is not
+bright, `Power cord isn't plugged into outlet` - `Check power cord to line equipment. Check the power
+has 120VAC`. **120 volt in the service book, 110 volt in the owner's book**, and neither reconciles
+the two; the 5 amp figure appears only in the owner's manual. Quote both with the book each comes
+from. (The 120-volt, 15-amp figure of the CU800ENT-2024 is a third book's statement,
+`spirit-ct800-safety-outlet-120-volt-15-amp`.)

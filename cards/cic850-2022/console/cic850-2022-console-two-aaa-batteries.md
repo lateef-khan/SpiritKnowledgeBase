@@ -1,23 +1,25 @@
 ---
 id: cic850-2022-console-two-aaa-batteries
-title: 'Two AAA cells behind the console, and a separate cell on the sensor board under the chain guard'
+title: Two AAA cells behind the console, and a separate cell on the sensor board under
+  the chain guard
 kind: procedure
-question: 'What batteries does a Spirit cic850-2022 indoor cycle take, and how do I change them?'
+question: What batteries does a Spirit cic850-2022 indoor cycle take, and how do I
+  change them?
 asked_as:
-- 'what batteries does my cic850 console use'
-- 'how do i change the battery in the spin bike display'
-- 'low battery showing on my indoor cycle console'
-- 'where is the sensor battery on the spirit indoor cycle'
+- what batteries does my cic850 console use
+- how do i change the battery in the spin bike display
+- low battery showing on my indoor cycle console
+- where is the sensor battery on the spirit indoor cycle
 keywords:
-- 'aaa'
-- 'battery'
-- 'console battery'
-- 'low battery'
-- 'battery cover'
-- 'sensor board'
-- 'chain guard'
-- 'transmitter'
-- 'replace'
+- aaa
+- battery
+- console battery
+- low battery
+- battery cover
+- sensor board
+- chain guard
+- transmitter
+- replace
 facets:
   brand:
   - spirit
@@ -34,7 +36,10 @@ see_also:
 - cic850-2022-console-face-and-three-keys
 source:
   ref: spirit-bike-cic850-2022-owners-manual
-  locator: CIC850-2022 printed p. 14 STEP FIVE console battery, p. 17 STEP EIGHT sensor board battery, p. 35 CONSOLE BATTERY INSTALLATION
+  locator: CIC850-2022 printed p. 14 STEP FIVE console battery, p. 17 STEP EIGHT sensor
+    board battery, p. 35 CONSOLE BATTERY INSTALLATION. CIC850 service manual 5 Unit
+    Block Diagrams, PDF p. 18 (printed 17), text.md lines 276-282 and the OCR supplement
+    for that page
   extracted_at: '2026-09-09'
 ---
 
@@ -60,3 +65,7 @@ gives no interval. Do not tell a customer it is AAA - that figure is only ever g
 same page, directly under the battery step, headed with the note that all transmitters are paired
 before shipping and these steps are only needed where the devices have been unpaired. See
 `cic850-2022-console-pairing-the-speed-transmitter`.
+
+**The service manual's block diagram gives the transmitter cell a size.** It draws a SPEED SENSOR into a
+SPEED TRANSMITTER powered by an **LR03 battery** - an AAA cell - talking to the CONSOLE. So the cell
+on the sensor board is the same size as the two behind the console.

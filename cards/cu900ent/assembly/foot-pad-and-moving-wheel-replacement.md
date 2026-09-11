@@ -2,8 +2,8 @@
 id: cu900ent-foot-pad-and-moving-wheel-replacement
 title: Foot pad and moving wheel replacement
 kind: procedure
-question: How do I replace the moving wheel or level the foot pads on a Spirit CU900ENT
-  bike?
+question: How do I replace the moving wheel or level the foot pads on a Spirit CU900,
+  CU900ENT or CU1000ENT upright bike?
 asked_as:
 - transport wheel replacement on my spirit cu900 bike
 - my cu900ent bike rocks on the floor
@@ -23,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -36,7 +38,10 @@ see_also:
 - cu900ent-shaking
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.12 Foot Pad/Moving Wheel Replacement, pp. 63-64 (printed 63-64)
+  locator: 'cu900ent: Section 8, 6.12 Foot Pad/Moving Wheel Replacement, pp. 63-64
+    (printed 63-64) | cu900-2018: 6.12 Foot Pad/Moving Wheel Replacement, PDF pp.
+    57-58; text.md lines 931-955 | cu1000ent-2023: 12.23 Foot Pad/Moving Wheel Replacement,
+    PDF pp. 34-35; text.md lines 734-758'
   extracted_at: '2026-09-08'
 ---
 
@@ -51,3 +56,4 @@ sits flat.
 
 No screw size is printed. 6.12.1 is one step and there is no reassembly step.
 
+**Three books, one procedure.** The CU900 (2018) manual prints this as 6.12 and the CU1000ENT (2023) manual as 12.23, word for word: screw and cap off the wheel, then level on the four feet.

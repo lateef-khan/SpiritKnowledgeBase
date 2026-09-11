@@ -1,8 +1,10 @@
 ---
 id: xe395ent-2021-console-settings-menu-and-its-eight-items
-title: The eight items in the touchscreen Settings menu, including Child Lock, Units and Display Mode
+title: The eight items in the touchscreen Settings menu, including Child Lock, Units
+  and Display Mode
 kind: fact
-question: What is in the Settings menu on a Spirit XE395ENT elliptical or XBR55ENT or XBU55ENT bike?
+question: What is in the Settings menu on a Spirit XE395ENT elliptical or XBR55ENT
+  or XBU55ENT bike?
 asked_as:
 - how do i change the time on my elliptical
 - how do i update the software on the console
@@ -37,6 +39,9 @@ see_also:
 - xe395ent-2021-console-panel-call-outs-and-the-audio-jack
 - xe395ent-2021-console-profiles-and-the-spirit-app-link
 - xt485ent-2023-console-wifi-first-time-setup
+- spirit-xb55ent-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep
+- spirit-xb55ent-console-engineer-mode-service-tests-key-motor-incline-sensor
+- spirit-xb55ent-console-engineer-mode-factory-setting-machine-type-blename-and-an-incline-calibration
 source:
   ref: spirit-elliptical-xe395ent-2021-owners-manual
   locator: p. 22, SETTINGS; XBR55ENT and XBU55ENT p. 19, SETTINGS
@@ -82,6 +87,10 @@ receiver and no Pulse Grip Feature paragraph, so the strap comes in here, alongs
 speakers. Their own 3.5 mm jack is an input only:
 `xe395ent-2021-console-panel-call-outs-and-the-audio-jack`.
 
-**Neither ENT bike has an engineering menu either.** No key test, no display test, no odometer reset
-and no calibration is described anywhere in either book - unlike every LED-console residential bike,
-which reaches one by holding Start, Stop and Enter for five seconds.
+**Neither ENT bike's owner's manual describes an engineering menu.** No key test, no display test, no
+odometer reset and no calibration is described anywhere in either owner's book. **Their service
+manuals do print one** - an Engineer Mode opened by clicking the word Settings ten times on this
+page, with a Function page, a Service page of tests and a Factory Setting page:
+`spirit-xb55ent-console-engineer-mode-ten-presses-on-settings-function-page-30-minute-sleep`,
+`spirit-xb55ent-console-engineer-mode-service-tests-key-motor-incline-sensor` and
+`spirit-xb55ent-console-engineer-mode-factory-setting-machine-type-blename-and-an-incline-calibration`.

@@ -1,7 +1,7 @@
 # Handoff — where the knowledge base stands and how to continue
 
 **Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after the treadmill
-sub-wave of 3a merged. Nothing is ingested but uncarded.
+and bike sub-waves of 3a merged. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -13,11 +13,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **6,773** |
+| cards | **7,080** |
 | `kb lint` | 0 problems |
-| declared model ids | **291** (175 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 391 |
-| machines carrying `model_number` | **207** of 232 with single-machine cards |
+| declared model ids | **298** (182 Spirit, 116 Sole) — every one has at least one card |
+| sources ingested | 417 |
+| machines carrying `model_number` | **215** of 243 with single-machine cards |
 
 Check it yourself:
 
@@ -116,11 +116,30 @@ all recorded in the TSV's `evidence` column:
   **CSC900 climber** manual and 900660 **is** a `dbo.MODEL` row (the TSV said it
   was not); run it with the climbers, not the bikes.
 
+**Bikes: done** (PR #55, 2026-09-11) — 26 sources, 305 new cards, 226 extended.
+Seven new ids: `cu1000ent-2023`, `cr800-2009` (the XR898 book, January 2011,
+can only be the "CR800 2009" rows 800149/800143), `xbr25-2007` / `xbr55-2007`
+(the 2007 batch date), and `xbr25-2016` / `xbr55-2016` / `xbu55-2016`: **the
+2016-coded Dyaco books (2017 PDFs) predate the 2019 SKUs' first production**
+(Jul/Oct 2018), so they belong to the explicit "2016" rows, not to the 2019
+owner's-manual ids. Where the table has no later row (XBR25) the 2019 manual is
+probably a reprint for the 2016 SKU; both ids stand and the product card says so.
+The table also settled `xbr55-2019` 551118, `xbu55-2019` 551218, `xbr95-2016`
+951115 and `xbr55-2023` 551123/551223 (a colour pair). The XBU55 service
+filename's 553123 is in no row. The SB700 book in the XIC600 folder is Sole and
+was ingested as `sole-bike-sb700-2011-service-manual`. Expect the ellipticals to
+follow the same 2016-SKU rule: XE195 195015, XE295 295015, XE395 395015, XE795
+795015, XG400 400415 all exist and no 2018/2019 rows do.
+
 Two things the wave learned about the method: tesseract cannot read a
 photographed page (the E-50H bulletin got 8–19 words a page and was typed by
 eye from the render instead), and a killed sweep's `xargs` children keep
 running and append a second copy of every supplement — kill by PID and
 re-check `sort | uniq -d` on the supplement headers before committing.
+The bikes wave added a third: two section agents will card the same Q&A row
+when the brief gives it to both (belt slip went to errors *and* maintenance);
+say in the errors brief that a row whose remedy is a care procedure belongs to
+maintenance, and check for pairs at reconciliation.
 
 **Service manuals overlap owner's manuals.** A section agent must grep existing
 `applies_to` before writing, or it restates cards that exist. What a service

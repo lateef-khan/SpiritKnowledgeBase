@@ -2,7 +2,7 @@
 id: sb700-2019-flywheel-and-axle-replacement
 title: "Replacing the flywheel and flywheel axle"
 kind: procedure
-question: "How do I replace the flywheel or flywheel axle on a Sole SB700-2019?"
+question: "How do I replace the flywheel or flywheel axle on a Sole SB700 indoor cycle (2009 or 2019 service manual)?"
 asked_as:
 - "replace the flywheel on my sb700"
 - "change the flywheel bearing on the 2019 spin bike"
@@ -20,13 +20,12 @@ facets:
   brand:
   - sole
   product_line: bike
-  model: sb700-2019
+  model: '*'
   applies_to:
+  - sb700-2011
   - sb700-2019
   section: assembly
   code: '*'
-  model_number:
-  - '570119'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,7 @@ see_also:
 - sb700-2019-belt-slips-or-falls-off
 source:
   ref: sole-bike-sb700-2019-service-manual
-  locator: "Section 3.3 Flywheel and Flywheel Axle Replacement"
+  locator: "sb700-2019: Section 3.3 Flywheel and Flywheel Axle Replacement | sb700-2011: I. 3 Flywheel and Flywheel Axle, PDF pp. 6-7; text.md lines 112-178"
   extracted_at: '2026-09-03'
 ---
 
@@ -49,3 +48,5 @@ source:
 9. Move the **idler axle (74)** downward by turning the **1/4" x 3"L hex head bolt (69) counterclockwise**, and tighten the **belt (40)** until belt tension reads **700 to 750 Newton**.
 
 **Note:** the bearing housing (32) and the **6004 bearing (66)** are glued together in production. If the bearing needs replacing, replace the whole set.
+
+**The 2009 SB700 book (the sb700-2011 machine) prints these nine steps and the bearing note word for word**, including the **700 to 750 newton** belt figure and the glued 6004 bearing (66). Its step 3 names the tool as the combination M5 Allen wrench and Phillips head screwdriver (86).

@@ -2,7 +2,8 @@
 id: cu900ent-pedal-and-crank-arm-replacement
 title: Pedal and crank arm replacement
 kind: procedure
-question: How do I replace a pedal or a crank arm on a Spirit CU900ENT bike?
+question: How do I replace a pedal or a crank arm on a Spirit CU900, CU900ENT or CU1000ENT
+  upright bike?
 asked_as:
 - pedal replacement on my spirit cu900 bike
 - which way do the pedals unscrew on the cu900ent
@@ -22,8 +23,10 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu900ent
+  model: '*'
   applies_to:
+  - cu1000ent-2023
+  - cu900-2018
   - cu900ent
   section: assembly
   code: '*'
@@ -37,7 +40,10 @@ see_also:
 - b94-2016-crank-arm-and-pedal-replacement
 source:
   ref: spirit-bike-cu900ent-service-manual
-  locator: Section 8, 6.3 Pedal/Crank Arm Replacement, p. 48 (printed 48)
+  locator: 'cu900ent: Section 8, 6.3 Pedal/Crank Arm Replacement, p. 48 (printed 48)
+    | cu900-2018: 6.3 Pedal/Crank Arm Replacement, PDF p. 41; text.md lines 673-693
+    | cu1000ent-2023: 12.14 Pedal/Crank Arm Replacement, PDF pp. 22-23; text.md lines
+    456-480'
   extracted_at: '2026-09-08'
 ---
 
@@ -59,3 +65,4 @@ the same.)**
 
 A **crank puller** is needed for 6.3.3. The manual does not name a size.
 
+**Three books, one procedure.** The CU900 (2018) service manual prints this as 6.3 and the CU1000ENT (2023) manual as 12.14, both word for word - pedal directions, the puller, and the same 60 N-m crank screw figure, which is also the only torque printed in each of those books.

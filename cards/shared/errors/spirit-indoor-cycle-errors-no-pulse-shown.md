@@ -36,8 +36,10 @@ see_also:
 - sole-spinner-no-heart-rate-chest-strap-consoles
 source:
   ref: spirit-bike-xic600-2021-owners-manual
-  locator: 'TROUBLESHOOTING, No Heart Rate signal displayed. XIC600 2021 and XIC600
-    2018 PDF page 24; CIC850 2022 PDF page 35'
+  locator: TROUBLESHOOTING, No Heart Rate signal displayed. XIC600 2021 and XIC600
+    2018 PDF page 24; CIC850 2022 PDF page 35; CIC850 2022 service manual 6. Troubleshooting
+    page, the same five entries as the owner's manual, PDF p. 20 (printed 19), text.md
+    lines 288-313
   extracted_at: '2026-09-09'
 ---
 
@@ -54,3 +56,5 @@ different entry with a different fix - `spirit-indoor-cycle-errors-pulse-cuts-ou
 
 The Sole SB700 and SB900 indoor cycles print the same entry:
 `sole-spinner-no-heart-rate-chest-strap-consoles`. Different brand, separate card.
+
+**The CIC850 2022 service manual reprints this entry word for word** on its own `Troubleshooting` page, and adds a `Common problems` chapter behind it with a five-check blank-display page (`cic850-2022-errors-display-blank-or-no-speed-five-checks`) and a noise page (`cic850-2022-errors-noise-brake-block-gap-1-5-mm-or-worn-pedals`).

@@ -1,6 +1,7 @@
 ---
 id: spirit-ce-console-stop-button-press-once-twice-hold
-title: Stop once pauses for five minutes, twice ends the program and three seconds resets the console
+title: Stop once pauses for five minutes, twice ends the program and three seconds
+  resets the console
 kind: fact
 question: What happens when I press Stop on a Spirit elliptical or bike?
 asked_as:
@@ -56,9 +57,11 @@ see_also:
 - spirit-ce850-console-maintenance-menu-cab-or-csafe
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22; CES880 2025 p. 33;
-    XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300 manual; XE350/XE550 p. 22 of the
-    XE150/XE350/XE550 manual
+  locator: CE800 2021 p. 16; CE800 2023 p. 17; CE850 2020 p. 21; CE850 2022 p. 22;
+    CES880 2025 p. 33; XE100/XE200 p. 23 and XE300 p. 35 of the XE100/XE200/XE300
+    manual; XE350/XE550 p. 22 of the XE150/XE350/XE550 manual. CR800 (2020) service
+    manual 4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), text.md lines 205-209;
+    CU800 (2020) service manual PDF p. 14 (printed 13), lines 225-229
   extracted_at: '2026-09-09'
 ---
 
@@ -140,3 +143,5 @@ pauses for **five minutes**, twice ends the program and returns the console to t
 **Five minutes, not thirty seconds.** The Spirit stair climbers pause for 30 seconds and restart at
 resistance level one: `csc900-2024-console-start-stop-pause-thirty-seconds`. Do not quote that
 behaviour at a CS800 or CRS800S of any year.
+
+**The CR800 (2020) and CU800 (2020) service manuals print this passage in their Product Operation chapter.** Same five-minute pause, same two presses to end, same three-second reset and Previous Screen function.
