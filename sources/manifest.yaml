@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 4a237d8efc5768ad0dd52e41d886d84a7e61a49958d9f5e0ccf723c3a0833a94
+  sha256: c738663a1da96adf30ab1e90b52e8fcef9420375a491cce7074025d5cf5c241e
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -3255,3 +3255,197 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XTH/XTHRails_OM_2023.pdf
   sha256: f28d10edd82f3e4e9ef7b1545d46f3466e3fd0326f7fd87876dc6b77727525ec
   ingested_at: '2026-09-09'
+- id: xterra-treadmill-tr150-2021-mcb-wiring-photo
+  title: 'Xterra TR150 / T500 motor control board: what plugs where - annotated photo,
+    November 2019'
+  kind: markdown
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR150
+    T500 MCB wiring.jpg
+  sha256: 546d09b2a9b7e6562203205bae86d717294bb0fd9d93b2439556e98e30df8afb
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr150-2021-owners-manual
+  title: Xterra TR150 treadmill owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR150_OM_20210413.pdf
+  sha256: 4f6a0ca0935fafffd072d5e4a65acc69135cdc6282e90c6831d1c2dd98e513c1
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr150-2021-service-manual
+  title: Xterra TR150 treadmill service manual (GT65-NT014)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR150
+    (GT65 - NT014) Service Manual.pdf
+  sha256: 5adc629b2969ec846c330d45c8d20f18a38c848436a190b9c95f41cdbf006cd2
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr200-2021-owners-manual
+  title: Xterra TR200 treadmill owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR200_OM_20210413.pdf
+  sha256: e3be6aaf8b8e0d800914a37628987c776356790ac8abe6e95645697518c1203a
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr260-2023-owners-manual
+  title: Xterra TR260 treadmill owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR260_OM_20231208.pdf
+  sha256: 1dacd307af8542f0d487600e99bbec2f418d39dee3832e54d752b0d717f5deb7
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr260-2023-service-manual
+  title: Xterra TR260 treadmill service manual (GT75A-NT050)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR260_GT75A-NT050_Service
+    manual.pdf
+  sha256: 6ec16d73c5bca9c74a20fd956de7b98e448a41b929098777f5b4f6586288ff02
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr300-2021-owners-manual
+  title: Xterra TR300 treadmill owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR300_OM_20210413.pdf
+  sha256: edf96281e3ed2058763e3ab4fcb1e7ce777c14f2038d829fbc513249eb235dbe
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr64-2024-owners-manual
+  title: Xterra TR6.4 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR64_OM_20240607.pdf
+  sha256: c549a694ceaf11dc63498dc22e94d39d6ecf911ac88dc6b9a6d9bdaa8575aaf9
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr65-2023-owners-manual
+  title: Xterra TR65 treadmill owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR65_OM_20230928.pdf
+  sha256: 42ab8e824d9234b515ec3d0548eeb6b67d4acd71cd7c2dd5effd177cf30a663b
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr66-2021-owners-manual
+  title: Xterra TR6.6 treadmill owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR66_OM_20210413.pdf
+  sha256: dafd76f8c8dbe237ce9f1120f0723ee7559103c02ce48a453b875c1a0ed9bff0
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr75-2024-owners-manual
+  title: Xterra TR75 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR75_OM_20240607.pdf
+  sha256: 4e8540bb6dffa5859f96890d3aba5047ccebd68d3b857feaf363787a85ae2ea8
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr75h-2025-owners-manual
+  title: Xterra TR75H treadmill owner's manual (2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR75H_OwnersManual_20250522.pdf
+  sha256: 7f9f368b767a29a890a6bee8d0cac3a7122959769fb190817453d37e7749ffef
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr75h-2025-service-manual
+  title: Xterra TR75H treadmill service manual (V1.0, January 2026)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/XTERRA
+    TR75H service manual_V1.0_20260127.pdf
+  sha256: 30a22e976ca19ff75aaf718392e64e1467fb1e1dff5c252db8112b0704128e98
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr85-2024-owners-manual
+  title: Xterra TR85 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR85_OM_20240607.pdf
+  sha256: ae57e2ae35be017049a35e040799d1e746b63a2e9b82af06568e416b3e2c13b6
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr95h-2024-belt-tracking-video
+  title: 'Xterra TR95H treadmill: tracking the running belt - 42-second video, described
+    frame by frame'
+  kind: markdown
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR95H
+    Track the belt demo.mp4
+  sha256: eb94ee9ba698ed113b98e03675df600c2dd206770083fd7a22cceb1aa50a11ee
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr95h-2024-owners-manual
+  title: Xterra TR95H treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR95H_OM_20240103.pdf
+  sha256: 3c08e137e8c99ace726f49b8793d827f2e5f6abbd55dd6cc10732f5ad31f6b38
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-tr95h-2024-service-manual
+  title: Xterra TR95H treadmill service manual (JKEXER 337, September 2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TR95H
+    (JKEXER 337) service manual 09082024.pdf
+  sha256: 2e5cbfab5b36bab482765e9f52252f6417aa997bc1688d7003ec29abbd83e932
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx1000-2021-owners-manual
+  title: Xterra TRX1000 treadmill owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TRX1000_OM_20210413.pdf
+  sha256: d7570bf09d753e62e6f91451d8daf68f5ae091eea8e8c9926cdfc67190f4448f
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx1400-2023-owners-manual
+  title: Xterra TRX1400 treadmill owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TR1400_OM_20230509.pdf
+  sha256: 8c9cfb7499f2928b10751653096ff894cc85d9a4458ade8cf6f1bb80b8853b51
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx1400-2023-service-manual
+  title: Xterra TRX1400 treadmill service manual (T3-NT053-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TRX1400
+    (T3-NT053-01)  Service Manual.pdf
+  sha256: 624dfcda326f39d0d5d491e215cc9d2730da21fcfc92fcad0740c0cf8421a5eb
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx2500-2024-owners-manual
+  title: Xterra TRX2500 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TRX2500_OM_20240607.pdf
+  sha256: f20eb94e8972b309f0760da806028a84e8fab115dbdaff25bb479d6c45287272
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx2500-2024-service-manual
+  title: Xterra TRX2500 treadmill service manual (GT90B-NT022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TRX2500
+    (GT90B-NT022) service manual.pdf
+  sha256: 29be7aed1bb4e599c689a9196c5dc301484d3439336751a2e0350f31fdd8fb78
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx3500-2024-owners-manual
+  title: Xterra TRX3500 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TRX3500_OM_20240607.pdf
+  sha256: e8bfb457377552e8fd774964e6d63426740467ca121e4e28aa428e4a4647814c
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx3500-trx4500-2024-service-manual
+  title: Xterra TRX3500 and TRX4500 treadmill service manual (GT90C-NT023 / GT90D-NT024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/TRX3500
+    4500 (GT90CD - NT023 NT024) Service Manual.pdf
+  sha256: 02ae1cd63f034fb623e37940e722e34c8d082440c8044794b20c26ab2afb0561
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx4500-2024-owners-manual
+  title: Xterra TRX4500 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TRX4500_OM_20240607.pdf
+  sha256: ea5d6f3a8dcbd76f387ac4ef86ff2674e97c54f7e6ff20580fc63198bf682906
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx5500-2024-owners-manual
+  title: Xterra TRX5500 treadmill owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/TRX5500_OM_20240320.pdf
+  sha256: ded18f5118dd5da8419e60c2f84e540b0d3a756527e13f937481603f4dfc40ef
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-trx5500-2024-service-manual
+  title: Xterra TRX5500 treadmill service manual (GT90D-NT041)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/GT90D-NT041_TRX5500_Service
+    Manual.pdf
+  sha256: 94d57e5b0892af7fb38955e6275044b6684cbcd47a407e2036fc5ca4a0627c6c
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-ws200-2023-owners-manual
+  title: Xterra WS200 walking treadmill owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/WS200_OM_20230808.pdf
+  sha256: 8bb6f5666f34430cbe4fb6e150985dfdb3fcdd875d2d77d9a0a1ddc6326e56a8
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-ws200-ws300-upright-wire-video
+  title: 'Xterra WS200 / WS300 walking treadmill: routing and connecting the upright
+    wire - 86-second video, described frame by frame'
+  kind: markdown
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Treadmills/How
+    to assemble the wire WS200-300.mp4
+  sha256: 8589c907a1ca97c0f8253feb0d2df86015ad9e11ed42242ed7deb207c3a6db8c
+  ingested_at: '2026-09-11'
+- id: xterra-treadmill-ws300-2023-owners-manual
+  title: Xterra WS300 walking treadmill owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Treadmills/WS300_OM_20230808.pdf
+  sha256: 0abf8b217c30f8f1f556cdd13577118c735057a1e7328b5bde1e6e5eed367db6
+  ingested_at: '2026-09-11'

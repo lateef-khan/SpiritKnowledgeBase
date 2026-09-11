@@ -1,21 +1,26 @@
-# Section brief — `errors` (medical range + owner's-manual gaps)
+# Section brief — `errors` (Xterra treadmill wave X1)
 
-Read `$S/briefs-med/COMMON.md` first. Your section facet is `section: errors`.
+Read `$S/briefs-x1/COMMON.md` first. Your section facet is `section: errors`.
 
-Yours: the service manuals' error-code pages (one card per code per family;
-the 7.0T/8.0T MT8000/MT2000 inverter lists, the medical bikes' lists, the
-4.0T ST8700A list against the ST017 cards), troubleshooting matrices split by
-subsystem, LED debugging, Q&A / Common Problems whose remedy is a part swap or
-a wiring check; the owner's manuals' troubleshooting pages and error-code
-lists (the 2025 medical bikes: new; 40t/70t-2025: extend the 2026 cards where
-the same; CT850-2013 and XT485-2013: extend the later cards only where the
-same code and remedy are printed, else 2013 cards).
+Yours: the service manuals' **error-code chapters** (Dyaco chapter 8: E0, E1, E2,
+E4, ER, and any other code — one card per code per family, with the cause table
+and the "solution follow chart" steps as a numbered procedure; the RPM/speed
+sensor check procedure belongs with E1), **Controller Indicator LED Debugging**
+(6.6) and LED meanings, troubleshooting matrices split by **subsystem** (no
+power, motor does not run, incline does not move, console blank, belt stops,
+noise), and the owner's manuals' **Troubleshooting** pages and Q&A tables
+(condition / reason / solution rows whose remedy is a part swap, a wiring check
+or a reset). The TR150 MCB photo (`xterra-treadmill-tr150-2021-mcb-wiring-photo`,
+authority 2) corroborates "no power / motor does not run" checks — cite it in
+the locator, do not build a card on it alone.
 
-**Not yours:** a Q&A row whose remedy is a *care procedure* → maintenance.
-Menus → console. "Prepare tools" → parts. Circuit diagrams → specs.
+**Not yours:** a Q&A row whose remedy is a *care procedure* (lubricate, tension,
+track the belt, clean) → maintenance — say in your report which rows you left.
+Menus and calibration → console. "Prepare tools" → parts. Circuit diagrams and
+LED *locations* → specs. Indicator lights as console features → console; their
+*fault* meanings are yours.
 
-The 7.0T-770885 export's error pages are the DYACO MT8000 pages already on
-`cards/mt200-2022/errors/` and the `70t-2026-errors-e*` cards; add only what
-the export prints differently. `code` lowercase. Sole twins exist for the
-Dyaco pages (F/E/SB machines) — never add a Spirit id to one. Prove every
-absence twice.
+`code` lowercase (`e0`, `e1`, `er`). Spirit and Sole twins exist for the Dyaco
+pages (`E1` on a Spirit CT800 is a different fault table) — link with
+`not_to_be_confused_with`, never add a brand. Prove every absence twice: the
+JKEXER books (TR75H, TR95H) may print no codes at all — check the supplements.

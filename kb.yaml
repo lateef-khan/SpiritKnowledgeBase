@@ -10,7 +10,7 @@ facets:
   brand:
     index: keyword
     array: true
-    values: [sole, spirit]
+    values: [sole, spirit, xterra]
   product_line:
     index: keyword
     values: [treadmill, bike, elliptical, rower, climber, strength, ergometer, "*"]
@@ -362,6 +362,26 @@ models:
     - tt8-2020
     - tt8-2023
     - tt9
+  xterra:
+    - tr150-2021
+    - tr200-2021
+    - tr260-2023
+    - tr300-2021
+    - tr64-2024
+    - tr65-2023
+    - tr66-2021
+    - tr75-2024
+    - tr75h-2025
+    - tr85-2024
+    - tr95h-2024
+    - trx1000-2021
+    - trx1400-2023
+    - trx2500-2024
+    - trx3500-2024
+    - trx4500-2024
+    - trx5500-2024
+    - ws200-2023
+    - ws300-2023
 
 payload_indexes:
   text:

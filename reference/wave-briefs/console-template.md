@@ -1,21 +1,25 @@
-# Section brief — `console` (medical range + owner's-manual gaps)
+# Section brief — `console` (Xterra treadmill wave X1)
 
-Read `$S/briefs-med/COMMON.md` first. Your section facet is `section: console`.
+Read `$S/briefs-x1/COMMON.md` first. Your section facet is `section: console`.
 
-Yours: the owner's manuals' console chapters (display windows, keys, quick
-start, heart rate reading, C-SAFE, Bluetooth / app, the medical consoles'
-therapist screens, RPE, step-through and swivel-seat controls as console
-features), engineering / maintenance menus item by item from both book types,
-calibration, sleep, units, software update; the PT/MED editions' console
-pages in Dyaco wording. The CT850-2013 and XT485-2013 console chapters
-(engineering mode, calibration — the later generations' cards exist: extend
-only where the 2013 book prints the same keys and values, else a 2013 card
-with the value in the title).
+Yours: the owner's manuals' console chapters — About Your Machine, Console
+Screen Overview (display windows, what each shows), Console Features (keys one by
+one, speed/incline keys, quick keys, fan, USB charging ports and their 5 V / 1 A
+rating, tablet holder, Bluetooth / app pairing, audio), Quick Start, the safety
+key's **console behaviour** (what the display shows without it, sleep, reset),
+heart rate reading (hand pulse grips, chest strap pairing — "Wearing the Chest
+Strap"), units, **engineering / maintenance / calibration mode** from both book
+types (the Dyaco SMs' chapter 4 Product Operation: key combinations, menu items,
+speed and incline calibration, odometer reset — item by item), sleep and
+power-save behaviour.
 
-Not yours: error codes, matrices, Q&A → errors; programs → programs; PCB and
-connector definitions → specs; console replacement → assembly.
+Not yours: error codes, troubleshooting matrices, Q&A → errors; workout programs
+and heart-rate programs → programs; PCB, connector and LED definitions → specs;
+console replacement → assembly; the safety key as a safety device → safety.
 
-A menu item that reads the same as a treadmill or elliptical one is a **new
-card** for this product line linked with `see_also`; one that reads the same as
-another Spirit *bike* card (`cards/shared/console/spirit-cu800-*`, `cu1000ent-*`)
-is an extension. Figures that differ are findings.
+**Erratic heart-rate reading is yours** (console), not programs and not errors —
+the last wave carded it twice. The WS200/WS300 have an LED screen and a
+tablet holder; the TR95H/TR75H have the newest console. Consoles differ a lot
+between families: expect per-family cards (`xterra-trx-console-…`,
+`xterra-ws-console-…`) and a few per-machine ones; figures (top speed, incline
+levels, program count) that differ go in the title.

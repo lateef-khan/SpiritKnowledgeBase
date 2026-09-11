@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-246 machines.
+261 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -203,11 +203,26 @@ any number here.
 | st800fi | 808039 | db-names-the-machine |
 | st800ft | 808019 | db-names-the-machine |
 | st90-2023 | 590822 | own-filename |
+| tr150-2021 | 450887 | only-candidate |
+| tr300-2021 | 138015 | only-candidate |
+| tr65-2023 | 165873 | own-manual-text |
+| tr75-2024 | 175873 | own-manual-text |
+| tr75h-2025 | 175825 | own-manual-text |
+| tr85-2024 | 185873 | own-manual-text |
+| tr95h-2024 | 195813 | own-manual-text |
+| trx1000-2021 | 100819 | only-candidate |
+| trx1400-2023 | 140082 | only-candidate |
+| trx2500-2024 | 125817 | only-candidate |
+| trx3500-2024 | 135817 | only-candidate |
+| trx4500-2024 | 145817 | only-candidate |
+| trx5500-2024 | 155810 | own-manual-text |
 | tt8-2016 | 588816 | year-in-name |
 | tt8-2016-ac | 588816 | year-in-name |
 | tt8-2019 | 588818 | year-in-name |
 | tt8-2019-ac | 588818 | year-in-name |
 | tt8-2023 | 588822 | own-filename |
+| ws200-2023 | 120082 | own-manual-text |
+| ws300-2023 | 130082 | own-manual-text |
 | xbr25-2007 | 251117 | fp-date |
 | xbr25-2016 | 251115 | year-in-name |
 | xbr25-2023 | 251123 | own-manual-text |
@@ -266,7 +281,7 @@ From `reference/model-numbers-open.csv`: the machine ids the knowledge base decl
 whose SKU has not been settled. A candidate list, where one exists, is in that file;
 none of it is confirmed.
 
-30 machines.
+34 machines.
 
 | machine | product | year |
 |---|---|---|
@@ -290,6 +305,10 @@ none of it is confirmed.
 | srvo | srvo | — |
 | st90 | st90 | — |
 | st90-2021 | st90 | 2021 |
+| tr200-2021 | tr200 | 2021 |
+| tr260-2023 | tr260 | 2023 |
+| tr64-2024 | tr64 | 2024 |
+| tr66-2021 | tr66 | 2021 |
 | xbr25-2019 | xbr25 | 2019 |
 | xe195-2021 | xe195 | 2021 |
 | xe295-2021 | xe295 | 2021 |

@@ -1,8 +1,9 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11 (evening)** after all four
-sub-waves of 3a **and the 3a-bis medical / owner's-manual-gaps wave** merged. **3a is
-done. 3b (Xterra) is surveyed and planned, not started.** Read section 8 first. Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11 (night)** after the first
+Xterra wave (X1, treadmills) merged. **3a is done. 3b is one wave of three in: X1
+treadmills merged, X2 (bikes / ellipticals / climber / app QA) and X3 (rowers /
+strength) surveyed, not started.** Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -14,11 +15,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **8,030** |
+| cards | **8,578** |
 | `kb lint` | 0 problems |
-| declared model ids | **325** (209 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 479 |
-| machines carrying `model_number` | **240** of 270 with single-machine cards |
+| declared model ids | **344** (209 Spirit, 116 Sole, 19 Xterra) — every one has at least one card |
+| sources ingested | 509 |
+| machines carrying `model_number` | **255** of 289 with single-machine cards |
 
 Check it yourself:
 
@@ -222,6 +223,62 @@ the brand from the document, never from the folder.**
 Also: `Rowers/ERG750/ERG750W_OM_20251112.pdf` in the Spirit owner's folder is an
 XTERRA rower, held back from the Spirit waves for this reason.
 
+**X1 treadmills: done** (PR #60, 2026-09-11) — 19 owner's manuals, 8 service
+manuals, two videos and one annotated photo (each described frame by frame as a
+text source, authority 2); the `xterra` brand and 19 ids added to `kb.yaml`; 19
+product cards and **529 new cards** (console 105, errors 104, assembly 78,
+programs 67, specs 59, maintenance 46, safety 44, warranty 26); nothing
+extended — no Xterra card existed, and no Spirit or Sole card was touched.
+Decisions it settled:
+
+- **Ids follow the owner's manual's revision stamp**, and a service manual whose
+  factory code or error table matches the owner's book joins that id — the
+  2018/2019 Dyaco books (GT90B-NT022, GT90C/D-NT023/024, GT65-NT014) sit under
+  `trx2500-2024`, `trx3500-2024`, `trx4500-2024`, `tr150-2021`, because
+  `dbo.MODEL` holds exactly one SKU per name (125817 from June 2017, and so
+  on) and the 2024 owner's books are a batch re-issue dated 7 June 2024. The
+  TRX5500 owner's book prints `GT90D-NT041-01`, the service manual is
+  `GT90D-NT041`. `TR1400_OM_*.pdf` is the **TRX1400** (the book says so, with
+  `T3-NT053-01`).
+- **The survey missed a stamp.** `TR260_OM_20231208.pdf` prints *Revision 4.0:
+  12.08.2023* on page 3 under a ©2022 / August 2022 warranty; the survey TSV
+  recorded only "4.0". The id is `tr260-2023`, renamed mid-wave (grep the
+  stamp with the date, not just the word).
+- **Seven owner's books print their SKU on the cover** in the file stamp
+  (`TR65_OwnersManual_165873_20230928`, TR75 175873, TR75H 175825, TR85
+  185873, TR95H 195813, WS200 120082, WS300 130082, TRX5500 155810); the
+  first search missed them because `_` is a word character. WS200/WS300 have
+  no `dbo.MODEL` row at all. Open: TR200 (two rows), TR260 (no row), TR6.4
+  and TR6.6 (only 2013/2014 rows). The table brands most Xterra rows SPIRIT;
+  the query in `reference/xterra-survey/` context matched on the MODEL name.
+- `xe150-2005` stays Spirit: its manual is the Spirit XE150/XE350/XE550 book
+  and 54 cards share it with the two XE siblings. The database's XTERRA brand
+  on 150005 is noted here and nowhere else.
+- One-machine filenames strip **both** the model id and the section
+  (`cards/tr65-2023/programs/user-programs-of-twenty-segments.md`), the repo
+  majority (1,227 to 953); the agents had left `programs-` on and 211 files
+  were renamed with their links rewritten.
+
+What the wave learned about the method: **the sweep's rotation scorer was
+wrong** — common words plus 0.1 × token count let a garbage rotation of a
+label-only landscape page win, and most Dyaco service-manual picture pages
+came out upside down; three agents read the renders instead. `sweep.py` now
+scores by dictionary hits and `fix_rotation.py` re-scores existing
+supplements. The Xterra books print three service numbers ((870) 336-4286,
+(870) 935-1107, 1-800-258-8511 — the last is Spirit's) and the TRX1400 book
+says "Spirit Fitness warranty"; carded as printed. The TR6.6, TRX4500 and
+TRX5500 books print a bike-template "external power supply" paragraph.
+
+**Open questions for a human from X1**, all on the cards and in PR #60:
+TRX4500 max incline 15 (owner's) vs 12 (the shared service manual); the TRX
+owner's E6 "power" vs service E6 "controller" / E7 "power"; every warranty
+page's SERVICE paragraph (12 months) contradicting its own table (90 days /
+1 year); the SM "never use a GFCI" vs OM "avoid if possible" and SM 230 V /
+10 A / 16 AWG vs OM 120 V / 15 A / 14 AWG; TR95H and TR75H levelling feet
+turning opposite ways; TR260 step 5 "4 bolts" vs a pack list of 6; the TR260
+5-pin cable pin-out printed two ways; the TR75H console-features page being a
+copy of the TR95H's and contradicting its own program pages.
+
 ### 3c. Left over from the model-number work
 
 25 machines have no `model_number`. `reference/model-numbers-open.csv` lists
@@ -334,35 +391,32 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written at the pause, 2026-09-11 evening)
+## 8. Where to pick up (written at the pause, 2026-09-11 night)
 
 Everything Spirit and Sole on disk is ingested and carded except what section 3c
-lists. **Next is 3b, Xterra.** The survey is done and committed:
+lists, and Xterra wave X1 (treadmills) is merged. **Next is X2**, then X3, from
+`reference/xterra-survey/plan-xterra.md`:
 
-- `reference/xterra-survey/plan-xterra.md` — three waves (X1 treadmills, X2 bikes /
-  ellipticals / climber / app QA, X3 rowers / strength), with a proposed id and
-  the date evidence for every manual.
-- `reference/xterra-survey/xterra-manuals-dates-and-skus.tsv` — per PDF: model,
-  revision stamp, © year, warranty-effective date, matching `dbo.MODEL` rows.
-- `reference/xterra-survey/xterra-manuals-survey.tsv` — pages, creation date,
-  word count, cover text. Eight owner's manuals have **no text layer** (MB500,
-  SB45r, SB500_150314, RSX1500_115518, FS150, FS5.8e, FS59e, ERG400): sweep them
-  with `--force-ocr`, score all four rotations, date them from the table.
-- `reference/wave-briefs/` — the brief set the last wave ran (COMMON + eight
-  sections) as templates, plus the three scripts every wave used: `sweep.py`
-  (render-vs-extraction OCR, `OMP_THREAD_LIMIT=1`, PIL rotation), `pages.py`
-  (a form-feed page printer that dodges the rtk hook), `reconcile.py`
-  (post-wave checks). Copy them into the session scratchpad; the briefs name
-  `$S` paths.
+- **X2** — bikes (21 OMs + 4 short SMs), ellipticals (9 OMs), the RSX1500 climber
+  (2 OMs), and `XTERRA APP QA EN.pdf`. Eight of these owner's manuals have **no
+  text layer** (MB500, SB45r, SB500_150314, RSX1500_115518, FS150, FS5.8e, FS59e;
+  ERG400 is X3): sweep them with `--force-ocr`, score all four rotations with the
+  dictionary scorer, and date them from the table. Ids and evidence are proposed
+  per manual in the plan; **grep every revision stamp with its date** before
+  trusting the plan's year (see the TR260 lesson above).
+- **X3** — rowers (11 OMs + 2 SMs + 4 Spirit-folder ERG SMs + the ERG750W OM from
+  the Spirit owner's folder) and the four dumbbell books.
+- The `dbo.MODEL` dump for Xterra is `scp`'d in one query (memory note
+  `spirit-sku-lookup-custservice`); match on the MODEL name as well as the Brand
+  column — 83 of the 142 Xterra-named rows are branded SPIRIT.
 
-Before the first Xterra wave: add `xterra` to `kb.yaml` `facets.brand.values`
-and a `models: xterra:` list; `xe150-2005` (section 7) can then move brands.
-Every Xterra card is `brand: [xterra]`; never extend a Spirit or Sole card with
-an Xterra id (the Dyaco boilerplate is the same text — write the Xterra card and
-`see_also`). The `dbo.MODEL` dump is one `scp`'d `.ps1` away (memory note
-`spirit-sku-lookup-custservice`); it has 59 XTERRA rows.
+`reference/wave-briefs/` now holds the **X1 brief set** (COMMON + eight
+sections, already written for a new brand and for "no card exists yet") and
+the scripts: `sweep.py` (dictionary rotation scorer), `pages.py`,
+`reconcile.py` (accepts xterra), `fix_rotation.py`, `model_numbers_pass.py`.
+Copy them into the session scratchpad; the briefs name `$S` paths.
 
-Then 3c (the 30 machines without a `model_number`; `kb facet-gaps`).
+Then 3c (the 34 machines without a `model_number`; `kb facet-gaps`).
 
 **How a wave ran today, in one paragraph.** Branch from `main`. Write a
 `wave-*.tsv` (`relative path <TAB> source id <TAB> title <TAB> model ids`),
