@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: c738663a1da96adf30ab1e90b52e8fcef9420375a491cce7074025d5cf5c241e
+  sha256: edaa5bc276bded2a5f7bc450864f1416975befeaa25913afd52b376f62161694
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -3255,6 +3255,236 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XTH/XTHRails_OM_2023.pdf
   sha256: f28d10edd82f3e4e9ef7b1545d46f3466e3fd0326f7fd87876dc6b77727525ec
   ingested_at: '2026-09-09'
+- id: xterra-app-qa-2018
+  title: Xterra Fitness app questions and answers (October 2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/XTERRA
+    APP QA EN.pdf
+  sha256: 3d6a0f171371f5bd8be88497ca233de077fcd72dab29eaa476878f3f68f7030f
+  ingested_at: '2026-09-11'
+- id: xterra-bike-air350-2019-owners-manual
+  title: Xterra AIR350 air bike owner's manual (2019)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/AIR350_OM.pdf
+  sha256: 19ff20f3d71380174569a3d22d1ff125ad742335e166c10476a51f4cd01c3917
+  ingested_at: '2026-09-11'
+- id: xterra-bike-air650-2021-owners-manual
+  title: Xterra AIR650 air bike owner's manual (Revision 01.25.2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/AIR650_OM_20201211.pdf
+  sha256: dad08a81ef0bb23e0f77bacf95ccac375c37b9e53567df49be3a33203797eb8d
+  ingested_at: '2026-09-11'
+- id: xterra-bike-air650-2021-service-note
+  title: 'Xterra AIR650 service note: use the Spirit AB900 service manual, with the
+    two differences (scanned)'
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/AIR650
+    _165710_ SM.pdf
+  sha256: 2b0a800d2d88d162a3f3d223b291054b3f6719160f2cb1cb6124d9cc725f7d7d
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb150-2021-owners-manual
+  title: Xterra FB150 folding bike owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/FB150_OM_20210827.pdf
+  sha256: a38cdf8bd9bc72b3af94d3c45d566a3910173183e879c4cd28042220e210e3f2
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb160-2019-owners-manual
+  title: Xterra FB160 folding bike owner's manual (2019)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/FB160_OM_20210506.pdf
+  sha256: 3c7f436e0bb0fa7d965ec190fa55d28f24f67984b9b9c9c350db0b9939043bc0
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb160-2019-service-document
+  title: Xterra FB160 folding bike service document (November 2019)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Bikes/FB160
+    Service Document.pdf
+  sha256: fc4b24e8dd9c831b2a9efe26ec13d543427a64cddfbc2e0df0c7386c3a18b078
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb180-2025-owners-manual
+  title: Xterra FB180 folding bike owner's manual (Revision 04.09.2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/FB180_OwnersManual_20250409.pdf
+  sha256: b5964d077d7d47d4afe34ee73d049ff06a63ca38c17a2b5afe547f359c79d653
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb350-2021-owners-manual
+  title: Xterra FB350 folding bike owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/FB350_OM_20210827.pdf
+  sha256: a4218eb7666548ea6f6e2ea7ca4382bd4f569f1a59a81525d8a02ac73d440841
+  ingested_at: '2026-09-11'
+- id: xterra-bike-fb360-2019-owners-manual
+  title: Xterra FB360 folding bike owner's manual (2019)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/FB360_OM_20210506.pdf
+  sha256: 1f228924409db7e1fe933db5c71c3d8b4622c8f9233e99a3083ae01d10de7a11
+  ingested_at: '2026-09-11'
+- id: xterra-bike-mb500-2014-owners-manual
+  title: Xterra MB500 indoor cycle owner's manual (2014, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/MB500_M_141314.pdf
+  sha256: 85a9eab3f6a173a03231a1df0e9dead588def13efc5be27e460539eeb2b0f85e
+  ingested_at: '2026-09-11'
+- id: xterra-bike-mb550-2018-owners-manual
+  title: Xterra MB550 indoor cycle owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/MB550_OM_20180821.pdf
+  sha256: f781ec3b903fc141dea2747a91d3912ad1a63a6f76f981c42f4044116cd6df60
+  ingested_at: '2026-09-11'
+- id: xterra-bike-mbx2500-2018-owners-manual
+  title: Xterra MBX2500 indoor cycle owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/MBX2500_OM_20180821.pdf
+  sha256: 9d1fde51fa4d361be6e8f493cba0e6932c248a931d25bc4652bfbeaeb6944614
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb120-2022-owners-manual
+  title: Xterra SB120 recumbent bike owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB120_OM_20220721.pdf
+  sha256: e73dfb6dded0d9ad31da66ba946eb2c2d7d1fd21dd4bbf760ca2376e1b3deb19
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb120-2022-service-document
+  title: Xterra SB120 recumbent bike service document (December 2019)
+  kind: pdf
+  origin_uri: 'file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Climber
+    Steppers/SB120 #120319 Service Doc.pdf'
+  sha256: 634640e90b9e01338629658551ee3dfb28c10b0bb659d4260937905b7cd8fc22
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb150-2018-owners-manual
+  title: Xterra SB150 recumbent bike owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB150_OM_20180821.pdf
+  sha256: d12b8d5660aacf97169fcb15722e16f4f1805869920ff240b5edcfd55717bf6c
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb240-2023-owners-manual
+  title: Xterra SB240 recumbent bike owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB240_OM_20230809.pdf
+  sha256: 1b3cdd62942ec01bd2add93db2df76bd5172a6fe0bd0bf3a30a551de6b69baf4
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb250-2024-owners-manual
+  title: Xterra SB250 recumbent bike owner's manual (VER9, April 2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB250_OM_20240418.pdf
+  sha256: 53650b98ae54e51c8f9b8d4577e13550efa3cd967828453e8072eb5d0e3c16b0
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb25r-2020-owners-manual
+  title: Xterra SB2.5r recumbent bike owner's manual (2020)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB25r_OM_20200706.pdf
+  sha256: c621dae2fcb3f8e82eeab3801f163a7e86cec6f15887620fd9ccfec58c3a1897
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb4500-2021-owners-manual
+  title: Xterra SB4500 recumbent bike owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB4500_OM_20210810.pdf
+  sha256: 5317b9efb299a0ad248e0060d636629fab3f6d85e996bef0bb64d705c9fb7a8e
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb45r-2013-owners-manual
+  title: Xterra SB4.5r recumbent bike owner's manual (2013, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB45r_OM_145111.pdf
+  sha256: bf25815abf9e70f5e14445cee3559e770c90f8eda6086256584b1992ff1b7eb8
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb500-2020-owners-manual
+  title: Xterra SB500 recumbent bike owner's manual (2020)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB500_OM_20200706.pdf
+  sha256: 2ce438f8c4402467d9b3bd6fe1dea789b2cb3d0c5c9461006867af7940f92956
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb500-2020-owners-manual-2014-printing
+  title: Xterra SB500 recumbent bike owner's manual (2014 printing, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB500_OM_150314.pdf
+  sha256: 55a82c3f472aee5c89dbe4903c72601eb338ae5704f72e08ac8aba77f72b5572
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb600-2023-owners-manual
+  title: Xterra SB600 recumbent bike owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/SB600_OM_20230801.pdf
+  sha256: c3c59a0d8c3bbf4f6a88ed0caab05f189b438a667800c59a718052ed257b1c96
+  ingested_at: '2026-09-11'
+- id: xterra-bike-sb600-2023-service-manual
+  title: Xterra SB600 recumbent bike service manual (V1.0, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/SB600/SB600__service
+    manual_V1.0.pdf
+  sha256: 149a19468a3dc82ec7bd445b122f494932e29b9eac91daa8330c35edc1558e31
+  ingested_at: '2026-09-11'
+- id: xterra-bike-ub120-2023-owners-manual
+  title: Xterra UB120 upright bike owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Bikes/UB120_OM_20231206.pdf
+  sha256: dbbbbb8b96110f1059dd0da36560312f61e53774ccb66c48d13e96edae8d5933
+  ingested_at: '2026-09-11'
+- id: xterra-climber-rsx1500-2021-owners-manual
+  title: Xterra RSX1500 climber owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Climbers
+    Steppers/RSX1500_OM_20210712.pdf
+  sha256: 2964c1d1bfec12fccfa31f0a76e71511845a88047a23d6f339762d5a896c3d85
+  ingested_at: '2026-09-11'
+- id: xterra-climber-rsx1500-2021-owners-manual-2017-printing
+  title: Xterra RSX1500 climber owner's manual (2017 printing, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Climbers
+    Steppers/RSX1500_OM_115518.pdf
+  sha256: f15e480aabb56fa83721737f1f38bdd18b0a34de0779d73b9353781efa92cd67
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-eu100-2018-owners-manual
+  title: Xterra EU100 elliptical owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/EU100_OM_20180821.pdf
+  sha256: d3875bcc9c7bd9449f9d6af366eb9aff6197acccac404feb9b9c8e497e562a14
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-eu150-2024-owners-manual
+  title: Xterra EU150 elliptical owner's manual (2024)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/EU150_OM_20240426.pdf
+  sha256: bea962e8a2e303da4771055e5bf0673912c86428c6364896c79bacd3406e3318
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs15-2019-owners-manual
+  title: Xterra FS1.5 elliptical owner's manual (2019)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS15_OM_20190215.pdf
+  sha256: d90fe194dda58ca015cb2b7d57fe97a3f2fa75c6ca8f00ddd5b42e3382ded5d8
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs150-2016-owners-manual
+  title: Xterra FS150 elliptical owner's manual (2016, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS150_OM_115016.pdf
+  sha256: 6f3c48161898016353cbadfbd79f4584ab1d6456b92be92ae34beefc98de0d8f
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs25-2020-owners-manual
+  title: Xterra FS2.5 elliptical owner's manual (2020)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS25_OM_20200706.pdf
+  sha256: 21952b33ddd0a1f5bc873b1b515c34809391ac364eda4ed783678de074bb32a4
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs30-2018-owners-manual
+  title: Xterra FS3.0 elliptical owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS30_OM_20180821.pdf
+  sha256: d5516f798b76ae30965eb63d5c575f5e4570e7851930182c2754f74a97472408
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs35-2020-owners-manual
+  title: Xterra FS3.5 elliptical owner's manual (2020)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS35_OM_20200706.pdf
+  sha256: cc5b85d8fb7e5543af1743e62865b1f2bf5aec940baf2ba73d1b9243f2b46a27
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs58e-2013-owners-manual
+  title: Xterra FS5.8e elliptical owner's manual (2013, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS5.8e_OM_1558012.pdf
+  sha256: 1c5c9de213850eea1d68cd2e1f9c6e7b2868aba2a415c2d858eeb50393acb2d1
+  ingested_at: '2026-09-11'
+- id: xterra-elliptical-fs59e-2014-owners-manual
+  title: Xterra FS5.9e elliptical owner's manual (2014, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS59e_OM_159003.pdf
+  sha256: 470416d42762babb101ecb1962c5b4d20703390a2ff8bf4c57bc338e1f950024
+  ingested_at: '2026-09-11'
 - id: xterra-treadmill-tr150-2021-mcb-wiring-photo
   title: 'Xterra TR150 / T500 motor control board: what plugs where - annotated photo,
     November 2019'

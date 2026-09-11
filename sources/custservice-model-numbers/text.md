@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-261 machines.
+290 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -30,6 +30,8 @@ any number here.
 | 85ue-2025 | 785045 | own-manual-text |
 | ab900-2018 | 900748 | fp-date |
 | ab950-2024 | 950744 | own-manual-text |
+| air350-2019 | 135719 | only-candidate |
+| air650-2021 | 165718 | only-candidate |
 | b74-2015 | 574115 | own-filename |
 | b94-2011 | 594110 | own-filename |
 | b94-2016 | 594116 | card-confirmed |
@@ -143,6 +145,8 @@ any number here.
 | e98-2016 | 598016 | card-confirmed |
 | e98-2019 | 598018 | card-confirmed |
 | e98-2023 | 598022 | card-confirmed |
+| eu100-2018 | 110026 | only-candidate |
+| eu150-2024 | 115024 | own-manual-text |
 | f50-2026 | 550826 | own-filename |
 | f60-2016 | 560816 | own-filename |
 | f60-2020 | 560820 | own-filename |
@@ -165,6 +169,18 @@ any number here.
 | f85-2023 | 585822 | own-filename |
 | f85-2026 | 585286 | own-filename |
 | f89-2023 | 589853 | user-confirmed |
+| fb150-2021 | 115416 | only-candidate |
+| fb160-2019 | 116419 | own-manual-text |
+| fb180-2025 | 118425 | own-manual-text |
+| fb350-2021 | 135416 | only-candidate |
+| fb360-2019 | 136419 | only-candidate |
+| fs15-2019 | 115012 | only-candidate |
+| fs150-2016 | 115016 | own-filename |
+| fs25-2020 | 125012 | only-candidate |
+| fs30-2018 | 130003 | only-candidate |
+| fs35-2020 | 135014 | only-candidate |
+| fs58e-2013 | 158012 | year-in-name |
+| fs59e-2014 | 159003 | own-filename |
 | jb950-2022 | 950348 | own-filename |
 | lcb-2011 | 511110 | own-filename |
 | lcb-2013 | 511112 | own-filename |
@@ -177,6 +193,9 @@ any number here.
 | lcr-2019 | 522118 | own-filename |
 | lcr-2023 | 522122 | card-confirmed |
 | lcr-2026 | 522126 | own-filename |
+| mb500-2014 | 141314 | own-filename |
+| mb550-2018 | 155316 | only-candidate |
+| mbx2500-2018 | 125317 | only-candidate |
 | ms300-2021 | 730030 730037 | colour-pair |
 | mt200-2010 | 720080 720087 | colour-pair |
 | mt200-2022 | 720080 720087 | colour-pair |
@@ -186,9 +205,18 @@ any number here.
 | r92-2019 | 592118 | own-filename |
 | r92-2023 | 592122 | card-confirmed |
 | r92-2026 | 592126 | own-filename |
+| rsx1500-2021 | 115518 | own-filename |
 | s77-2016 | 577816 | year-in-name |
 | s77-2019 | 577818 | year-in-name |
+| sb120-2022 | 120319 | own-filename |
 | sb1200-2023 | 512322 | card-confirmed |
+| sb240-2023 | 124013 | own-manual-text |
+| sb250-2024 | 125313 | own-manual-text |
+| sb25r-2020 | 125112 | only-candidate |
+| sb4500-2021 | 145510 | only-candidate |
+| sb45r-2013 | 145111 | own-filename |
+| sb500-2020 | 150314 | own-filename |
+| sb600-2023 | 160113 | own-manual-text |
 | sb700-2019 | 570119 | card-confirmed |
 | sb700-2020 | 570120 | card-confirmed |
 | sb700-2021 | 570121 | own-filename |
@@ -221,6 +249,7 @@ any number here.
 | tt8-2019 | 588818 | year-in-name |
 | tt8-2019-ac | 588818 | year-in-name |
 | tt8-2023 | 588822 | own-filename |
+| ub120-2023 | 120219 | only-candidate |
 | ws200-2023 | 120082 | own-manual-text |
 | ws300-2023 | 130082 | own-manual-text |
 | xbr25-2007 | 251117 | fp-date |
@@ -281,7 +310,7 @@ From `reference/model-numbers-open.csv`: the machine ids the knowledge base decl
 whose SKU has not been settled. A candidate list, where one exists, is in that file;
 none of it is confirmed.
 
-34 machines.
+35 machines.
 
 | machine | product | year |
 |---|---|---|
@@ -302,6 +331,7 @@ none of it is confirmed.
 | e95-2016 | e95 | 2016 |
 | f63 | f63 | — |
 | f85-2021 | f85 | 2021 |
+| sb150-2018 | sb150 | 2018 |
 | srvo | srvo | — |
 | st90 | st90 | — |
 | st90-2021 | st90 | 2021 |
