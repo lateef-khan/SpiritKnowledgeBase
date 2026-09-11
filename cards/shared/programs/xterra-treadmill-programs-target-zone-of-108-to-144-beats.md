@@ -28,6 +28,9 @@ facets:
   model: '*'
   applies_to:
   - air650-2021
+  - erg180-2023
+  - erg700-2022
+  - erg800w-2023
   - fs30-2018
   - fs58e-2013
   - fs59e-2014
@@ -68,7 +71,17 @@ source:
     TRX3500 p. 18, lines 612-654; TRX4500 p. 20, lines 720-762; TRX1400 p. 25, lines
     728-763; TR65 p. 30, lines 1024-1058; TR75 p. 33, lines 953-988; TR85 p. 33, lines
     952-987; TR95H p. 41, lines 1470-1505; TR75H p. 36, lines 1300-1334; WS200 p.
-    25, lines 645-680; WS300 p. 25, lines 646-681 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11) - SB500 OM "Heart Rate" p. 19 (printed 17), lines 651-696 (2014 printing p. 19, OCR supplement from line 747); SB4.5r OM (scan) p. 20, supplement from line 778; SB4500 p. 23, lines 775-818; SB240 "Heart Rate Exertion" p. 33, lines 1006-1041; SB600 p. 36, lines 870-904; AIR650 p. 18, lines 555-600; FS3.0 p. 16, lines 554-599; FS5.8e (scan) p. 23, supplement from line 961; FS5.9e (scan) p. 23, supplement from line 981; RSX1500 p. 25, lines 717-759 (2017 printing p. 23, supplement from line 903)
+    25, lines 645-680; WS300 p. 25, lines 646-681 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11)
+    - SB500 OM "Heart Rate" p. 19 (printed 17), lines 651-696 (2014 printing p. 19,
+    OCR supplement from line 747); SB4.5r OM (scan) p. 20, supplement from line 778;
+    SB4500 p. 23, lines 775-818; SB240 "Heart Rate Exertion" p. 33, lines 1006-1041;
+    SB600 p. 36, lines 870-904; AIR650 p. 18, lines 555-600; FS3.0 p. 16, lines 554-599;
+    FS5.8e (scan) p. 23, supplement from line 961; FS5.9e (scan) p. 23, supplement
+    from line 981; RSX1500 p. 25, lines 717-759 (2017 printing p. 23, supplement from
+    line 903) ROWERS (2026-09-11) - ERG800W OM "Heart Rate Exertion" PDF p. 53 (printed
+    52), lines 1714-1749 (OCR supplement from line 2961); ERG180 OM p. 29 (28), lines
+    860-895 (supplement from line 1343); ERG700 OM "Heart Rate Monitoring (chest strap
+    not included)" p. 22 (19), lines 642-680 (supplement from line 1284)
   extracted_at: '2026-09-11'
 ---
 
@@ -127,3 +140,18 @@ None of the ten carries the "Spirit Fitness" leftover. The SB150, SB250, EU150, 
 SB2.5r, FS1.5, FS2.5, FS3.5 and the twelve basic consoles print no heart rate exertion page;
 the ones with heart rate control programs state their targets as a percentage of 220 minus
 age on the program page instead.
+
+**The same page on the rowers.** Three rower books print the formula, the 50-to-90 zone and the
+108-to-144 example:
+
+| Book | Wording |
+|---|---|
+| ERG800W, ERG180 | the SB600 wording - "60% ... is the recommended for burning fat while 80% is recommended", "can be achieved by training at 80% or 60%", the "With this XTERRA Fitness unit ... automatically adjust **speed or incline**" treadmill leftover, and "If you enter your age during programming the console will perform this calculation automatically. Entering your age is used for the Heart Rate programs" - although neither console ever asks for an age: the ERG800W's Target HR program is set in beats and the ERG180 has no heart rate program |
+| ERG700 | headed "Heart Rate Monitoring (chest strap not included)"; the same formula and example, without the enter-your-age and XTERRA-Fitness-unit paragraphs |
+
+The ERG160, ERG220, ERG400, ERG500, ERG550W, ERG600W, ERG650W and ERG750W books print no heart rate
+exertion page at all (grep for *220*, *exertion* and *Borg* finds nothing but readout ranges); the
+ERG650W, ERG550W, ERG600W and ERG500 state their pulse targets in beats on the program or functions
+page instead. No rower book in this range describes a console that changes the resistance to hold
+a heart rate, so the "speed or incline" sentence describes none of them.
+

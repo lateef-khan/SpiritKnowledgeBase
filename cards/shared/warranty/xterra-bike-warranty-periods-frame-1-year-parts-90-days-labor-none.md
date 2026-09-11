@@ -3,7 +3,7 @@ id: xterra-bike-warranty-periods-frame-1-year-parts-90-days-labor-none
 title: Home-use warranty - frame 1 year, parts 90 days, no labor cover
 kind: policy
 question: How long is the warranty on an Xterra FB150, FB350, FB160, FB360, FB180
-  folding bike, SB120 recumbent bike or UB120 upright bike?
+  folding bike, SB120 recumbent bike, UB120 upright bike or ERG160 rower?
 asked_as:
 - how long is the warranty on my xterra folding bike
 - xterra bike warranty 90 days
@@ -23,9 +23,10 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: bike
+  product_line: '*'
   model: '*'
   applies_to:
+  - erg160-2020
   - fb150-2021
   - fb160-2019
   - fb180-2025
@@ -47,6 +48,11 @@ not_to_be_confused_with:
 - sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column
 - xterra-treadmill-warranty-periods-frame-lifetime-motor-1-year-parts-and-labor-90-days
 - xterra-treadmill-warranty-periods-frame-lifetime-parts-and-labor-90-days-no-motor-column
+- xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days
+- erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
 see_also:
 - xterra-treadmill-warranty-start-date-sales-receipt-or-18-months-from-factory-shipping
 - xterra-fb-warranty-start-date-bill-of-sale-or-3-months-from-factory-shipping
@@ -57,6 +63,8 @@ see_also:
 - xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products
 - fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
 - spirit-bike-warranty-residential-periods
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints
 source:
   ref: xterra-bike-fb150-2021-owners-manual
   locator: FB150 (fb150-2021) PDF p. 15 (printed 13), lines 396-467, effective August
@@ -67,7 +75,8 @@ source:
     lines 529-590, effective June 01, 2025; SB120 (sb120-2022) PDF p. 23 (printed
     21), lines 813-884, effective July 19, 2022; UB120 (ub120-2023) PDF p. 22 (printed
     19), lines 626-697, effective December 06, 2023; SB120 service document PDF p.
-    1, lines 1-32; FB160 service document PDF p. 1, lines 1-22
+    1, lines 1-32; FB160 service document PDF p. 1, lines 1-22; ERG160 (erg160-2020)
+    PDF p. 23 (printed 21), lines 803-874, effective January 06, 2020
   extracted_at: '2026-09-11'
 ---
 
@@ -92,5 +101,8 @@ source:
 | FB180 (fb180-2025) | June 01, 2025 | PDF pp. 18-19 (printed 17-18) |
 | SB120 (sb120-2022) | July 19, 2022 | PDF p. 23 (printed 21) |
 | UB120 (ub120-2023) | December 06, 2023 | PDF p. 22 (printed 19) |
+| ERG160 (erg160-2020) | January 06, 2020 | PDF p. 23 (printed 21) |
 
 The SB120 and UB120 print the older-layout consumer duties and exclusions (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`); the FB180 prints the Online-Support layout (`xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`, `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`). The other Xterra bike, elliptical and climber tables are `xterra-warranty-periods-frame-1-year-parts-1-year-labor-none`, `xterra-bike-warranty-periods-frame-lifetime-parts-1-year-labor-1-year`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`, `xterra-warranty-periods-frame-and-brake-lifetime-parts-3-years-labor-1-year`, `sb45r-2013-warranty-periods-frame-and-brake-lifetime-parts-5-years-labor-1-year`, `fs59e-2014-warranty-periods-frame-and-brake-lifetime-parts-7-years-labor-1-year`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year` and `sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`.
+
+**The ERG160 magnetic rower prints the same row** - *Frame 1 Year / Parts 90 Days / Labor None*, *Effective January 06, 2020 - ROWER LIMITED WARRANTY*, in the older layout: registration card within ten days, nine exclusions, six service steps at (870) 333-5500 (`xterra-warranty-support-contacts-which-phone-number-each-rower-and-strength-book-prints`). Its 2023 sibling, the ERG180, prints the same two figures with **no labor column at all** (`erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column`); the other rower tables are `xterra-rower-warranty-periods-frame-5-years-parts-2-years-labor-90-days`, `erg700-2022-warranty-periods-frame-lifetime-parts-5-years-labor-1-year`, `xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column`, `erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none`, `erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column`, `xterra-warranty-periods-frame-1-year-parts-1-year-labor-none`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`, `sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`.

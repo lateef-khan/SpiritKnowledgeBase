@@ -168,7 +168,8 @@ blocks (what a 300 dpi render shows that the text layer does not — tables, cal
 diagram labels, the whole of most SM pages), and possibly **ghost text** the OEM left in
 the file that is not printed on the page (a foreign-language block, metric figures in a
 US book, a stale schedule). Where a figure matters and looks off, look at the page:
-`pdftoppm -r 150 -png -f N -l N "<pdf>" $S/x2/<section>/pg` then `Read` the PNG. The PDF
+`pdftoppm -r 150 -png -f N -l N "<pdf>" $S/x2/<section>/pg` then `Read` the PNG
+(PIL is in the system `python3`, not in `.venv`; use `python3` for image work). The PDF
 path is in the header comment of each `text.md` and in `sources/manifest.yaml`.
 
 ## Before you write: search, then sort every fact into one of four outcomes
@@ -211,7 +212,8 @@ nineteen effective dates.
 - **Never edit `kb.yaml`, `sources/`, `reference/`, a product card, or a card
   outside your section.**
 - **Filenames.** A one-machine card lives at
-  `cards/<model-id>/<section>/<id-with-the-model-prefix-stripped>.md`. A
+  `cards/<model-id>/<section>/<id-with-the-model-id-AND-the-section-stripped>.md`
+  (`tr65-2023-programs-user-programs` → `cards/tr65-2023/programs/user-programs.md`). A
   multi-machine card lives at `cards/shared/<section>/<FULL id>.md` — **keep the
   prefix**; `cards/shared/<section>/` is one flat namespace and stripping the
   prefix has overwritten Sole cards before. Before writing any path, check it is

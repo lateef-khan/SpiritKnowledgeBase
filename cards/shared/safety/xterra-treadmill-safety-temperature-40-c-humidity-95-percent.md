@@ -3,8 +3,8 @@ id: xterra-treadmill-safety-temperature-40-c-humidity-95-percent
 title: Rated for 40 degrees C and 95 percent non-condensing humidity, never outdoors
   or near a pool
 kind: spec
-question: What temperature and humidity is an Xterra treadmill or SB240 or SB600 recumbent
-  bike rated for, and can it go in a garage, outdoors or by a pool?
+question: What temperature and humidity is an Xterra treadmill, SB240 or SB600 recumbent
+  bike or ERG800W rower rated for, and can it go in a garage, outdoors or by a pool?
 asked_as:
 - can i put the xterra treadmill in the garage
 - can the treadmill get wet
@@ -27,6 +27,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr150-2021
@@ -59,6 +60,7 @@ see_also:
 - ct900ent-operating-environment-voltage
 - f80-2026-operating-temperature-and-humidity
 - xterra-sb-safety-electrical-safety-page
+- erg800w-2023-safety-electrical-safety-page
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the NEVER expose paragraph of the electrical page: TR150 OM PDF p. 6 (lines
@@ -71,7 +73,8 @@ source:
     p. 5 (lines 130-175); TRX4500 OM PDF p. 5 (lines 131-178); TRX5500 OM PDF p. 5
     (lines 137-185); WS200 OM PDF p. 7 (lines 163-200); WS300 OM PDF p. 7 (lines 164-201);
     the same sentence, with unit for treadmill, on the two new-layout recumbent bikes:
-    SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239)'
+    SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239); the same
+    sentence on the water rower: ERG800W OM PDF p. 9 (printed 8; lines 232-269)'
   extracted_at: '2026-09-11'
 ---
 
@@ -100,4 +103,9 @@ The six older plug-in bikes, ellipticals and the seated stepper give a different
 degrees Fahrenheit, the only Xterra rating with a minimum
 (`xterra-safety-temperature-40-to-120-f-humidity-95-percent`); the other twenty-two non-treadmill books
 give no rating at all.
+
+**Rowers.** The ERG800W water rower prints the same sentence on its Electrical Safety page
+(`erg800w-2023-safety-electrical-safety-page`) - 40 degrees C, 95% non-condensing, never outdoors or
+by a pool - on a machine whose resistance is an open tank of water. The other ten rower books and the
+four strength books print no rating at all.
 

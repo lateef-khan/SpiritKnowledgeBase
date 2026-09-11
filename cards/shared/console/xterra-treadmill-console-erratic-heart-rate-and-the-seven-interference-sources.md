@@ -25,6 +25,9 @@ facets:
   model: '*'
   applies_to:
   - air650-2021
+  - erg180-2023
+  - erg700-2022
+  - erg800w-2023
   - fs25-2020
   - fs35-2020
   - fs59e-2014
@@ -50,7 +53,9 @@ source:
     PDF p. 17, text.md lines 613-628; FS3.5 OM, PDF p. 17, text.md lines 605-620;
     SB500 OM, PDF p. 21, text.md lines 769-783; SB4500 OM, PDF p. 25, text.md lines
     869-884; SB600 OM, PDF p. 35, text.md lines 841-864; FS5.9e OM (OCR), PDF p. 25,
-    text.md lines 1141-1165
+    text.md lines 1141-1165; ERG180 OM, PDF p. 28 (printed 27), text.md lines 829-854;
+    ERG700 OM, PDF p. 24 (printed 21), text.md lines 736-750; ERG800W OM, PDF p. 52
+    (printed 51), text.md lines 1683-1708
   extracted_at: '2026-09-11'
 ---
 
@@ -71,4 +76,6 @@ If problems continue, contact XTERRA Fitness (the TR6.6 book's sentence reads "c
 This is a console reading problem, not an error code; none of the three books prints a code for it. The wearing instructions the page follows are on [the strap card](xterra-treadmill-console-wearing-the-chest-strap-and-its-2500-hour-battery.md). Spirit treadmills print the same list ([Spirit twin](../../ctsbs900/console/heart-rate-chest-strap-troubleshooting.md)).
 
 **The bikes, ellipticals and air bike print the same seven-item list.** The AIR650, SB2.5r, FS2.5, FS3.5 and SB600 books keep the treadmill sentence - "Do not use this treadmill for Heart Rate programs" - on machines that have no belt; the SB500, SB4500 and FS5.9e say "this product". The SB500, SB4500 and FS5.9e call the pickup "the receiver" where the others say "the antenna". The closing line is "contact your us" (SB2.5r, FS2.5, FS3.5, SB500, FS5.9e), "contact our service department" (SB4500) or "contact XTERRA Fitness" (AIR650, SB600). The FS5.8e scan ends before this page, so it is not listed; the SB240 prints no such page.
+
+**Three rowers print the same seven-item list.** The ERG180 says "this rower" and "contact XTERRA Fitness"; the ERG800W keeps "this treadmill" and "contact XTERRA Fitness"; the ERG700 says "this Rower", "contact your dealer", and - alone in the range - item 5 orients the transmitter "so the **Spirit Fitness** logo is right side up", a Dyaco boilerplate slip in an Xterra book. On all three the strap is the only heart-rate source ([ERG180](../../erg180-2023/console/mode-and-set-keys-with-scan-every-6-seconds-and-pulse-60-to-240.md), [ERG700](../../erg700-2022/console/window-ranges-with-watts-to-2000-as-a-decimal-and-level-1-to-16-in-dots.md), [ERG800W](../../erg800w-2023/console/heart-rate-from-a-5-3-khz-or-bluetooth-chest-belt-not-included.md)). The ERG700's troubleshooting table adds its own heart-rate rows - another strap nearby, field noise, a damaged receiver, a strap out of range or worn badly, a low CR2032 - which are errors cards. The ERG500, ERG550W, ERG600W and ERG650W take a strap but print no interference list.
 

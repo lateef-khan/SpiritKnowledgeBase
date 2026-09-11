@@ -2,8 +2,8 @@
 id: xterra-treadmill-safety-avoid-afci-gfci-breakers-tested-brands
 title: Avoid AFCI and GFCI breakers if possible, and the three breaker brands tested
 kind: troubleshooting
-question: Can an Xterra treadmill or new-layout recumbent bike be plugged into an
-  AFCI or GFCI outlet or breaker, and why does the breaker keep tripping?
+question: Can an Xterra treadmill, new-layout recumbent bike or ERG800W rower be plugged
+  into an AFCI or GFCI outlet or breaker, and why does the breaker keep tripping?
 asked_as:
 - my gfci keeps tripping with the treadmill
 - can i plug the xterra treadmill into a gfci outlet
@@ -26,6 +26,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr150-2021
@@ -60,6 +61,8 @@ see_also:
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - f85-2026-afci-gfci-breakers
 - xterra-sb-safety-electrical-safety-page
+- erg800w-2023-safety-electrical-safety-page
+- xterra-erg-safety-external-power-supply-and-power-jack
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the Circuit breakers paragraph of IMPORTANT ELECTRICAL INFORMATION / ELECTRICAL
@@ -73,7 +76,8 @@ source:
     (lines 131-178); TRX5500 OM PDF p. 5 (lines 137-185); WS200 OM PDF p. 7 (lines
     163-200); WS300 OM PDF p. 7 (lines 164-201); the same paragraph on the Electrical
     Safety page of the two new-layout recumbent bikes: SB240 OM PDF p. 8 (lines 201-238);
-    SB600 OM PDF p. 8 (lines 202-239)'
+    SB600 OM PDF p. 8 (lines 202-239); the same paragraph on the water rower: ERG800W
+    OM PDF p. 9 (printed 8; lines 232-269)'
   extracted_at: '2026-09-11'
 ---
 
@@ -117,4 +121,10 @@ page, with *unit* for *treadmill* (`xterra-sb-safety-electrical-safety-page`). I
 treadmill drive motor; the bikes run from a plug-in adapter and their only motor is the resistance
 stepper, so the tested-brand list is the treadmill's, not a bike test. No other Xterra bike,
 elliptical or stepper book mentions AFCI or GFCI.
+
+**The ERG800W water rower prints the paragraph word for word** on its Electrical Safety page
+(`erg800w-2023-safety-electrical-safety-page`), *unit* for *treadmill*. It runs from a plug-in adaptor
+with no printed rating and has no motor at all (`xterra-erg-safety-external-power-supply-and-power-jack`),
+so the inrush-current explanation and the tested-brand list are the treadmill's. No other rower or
+strength book mentions AFCI or GFCI.
 

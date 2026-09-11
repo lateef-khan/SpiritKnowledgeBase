@@ -4,7 +4,8 @@ title: Five pre-2018 manuals that print no Proposition 65 warning, and two older
   that lack it
 kind: fact
 question: Is there a Proposition 65 warning in the manual for an Xterra MB500 indoor
-  cycle, SB4.5r recumbent bike, FS150, FS5.8e or FS5.9e elliptical?
+  cycle, SB4.5r recumbent bike, FS150, FS5.8e or FS5.9e elliptical, or the ERG400
+  rower?
 asked_as:
 - prop 65 warning mb500
 - does the sb4.5r manual have the california warning
@@ -27,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg400-2015
   - fs150-2016
   - fs58e-2013
   - fs59e-2014
@@ -41,6 +43,7 @@ see_also:
 - xterra-mb-safety-instructions-list-11-items-no-freewheel
 - xterra-safety-instructions-list-13-item-plug-in-list
 - xt-2015-safety-proposition-65-warning
+- xterra-erg-safety-instructions-list-13-item-plug-in-list
 source:
   ref: xterra-bike-sb45r-2013-owners-manual
   locator: 'the safety page of each, where the later books print it: FS150 OM PDF
@@ -50,7 +53,8 @@ source:
     59; render read); SB4.5r OM PDF p. 4 (printed 2; OCR supplement from line 89);
     also the SB500 2014 printing PDF p. 4 (OCR supplement from line 75) and the RSX1500
     2017 printing PDF p. 4 (OCR supplement from line 106); whole book of each searched
-    for P65, Toluene and Proposition'
+    for P65, Toluene and Proposition; ERG400 OM PDF p. 5 (printed 5; scan, OCR supplement
+    from line 122); whole scan searched'
   extracted_at: '2026-09-11'
 ---
 
@@ -80,3 +84,11 @@ model difference: the same MB500 list with the warning added is the 2018 MB550 p
 
 The Spirit XT-2015 books print the warning in the older wording for their own machines
 (`xt-2015-safety-proposition-65-warning`).
+
+**A sixth book, from the rower wave**: the ERG400 rower scan, stamped `ERG400_20150205` with a
+warranty page effective August 1, 2012, prints the thirteen-item plug-in list and seven Fitness
+Equipment bullets with no warning between them (`xterra-erg-safety-instructions-list-13-item-plug-in-list`)
+- the same 2013-2016 shape as the five above. Checked from the OCR supplements of all fourteen pages
+and the safety page render; no `P65`, `Toluene`, `Proposition` or `California`. The 2023 ERG220,
+which prints the same list, carries the warning (`xterra-treadmill-safety-proposition-65-warning`).
+

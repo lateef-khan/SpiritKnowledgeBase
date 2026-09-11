@@ -25,6 +25,8 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg180-2023
+  - erg800w-2023
   - sb240-2023
   - sb600-2023
   - tr65-2023
@@ -52,7 +54,10 @@ source:
     Your Machine p. 18 lines 449-556; TRX1400 OM p. 21 lines 620-655; TR65 OM p. 22
     lines 588-623; WS200 OM p. 23 lines 571-606; WS300 OM p. 23 lines 571-606; TR85
     OM p. 22 lines 587-622; TRX5500 OM p. 33 lines 1047-1071; SB240 OM, PDF p. 21,
-    text.md lines 658-693; SB600 OM, PDF p. 21, text.md lines 492-527
+    text.md lines 658-693; SB600 OM, PDF p. 21, text.md lines 492-527;
+    ERG180 OM Using the XTERRA+ App, PDF p. 21 (printed 20), text.md lines 606-643;
+    About Your Machine, PDF p. 20, text.md lines 551-600; ERG800W OM, PDF p. 33 (printed 32),
+    text.md lines 1052-1089; About Your Machine, PDF p. 32, text.md lines 996-1046
   extracted_at: '2026-09-11'
 ---
 
@@ -69,4 +74,6 @@ Your device needs at least **iOS 13.1 or Android 8.0**.
 The TRX5500 book prints the older "Xterra App" text (three display screens, data saved to a built-in calendar, search icon top left, click Connect) but with these same iOS 13.1 / Android 8.0 minimums and no named cloud sites; its touchscreen also links a profile to an XTERRA app account by QR code ([profile card](../../trx5500-2024/console/touchscreen-setup-wifi-guest-and-nine-profiles.md)). The TR65, TR75 and TR85 pages end with a BLE 5.0 chest-strap note ([strap card](xterra-tr-console-bluetooth-chest-strap-ble-5-0-sold-separately.md)). The WS200 and WS300 also pair directly with Zwift or Kinomap by FTMS ([FTMS card](xterra-ws-console-heart-rate-grips-anti-fall-and-bluetooth-ftms.md)).
 
 **The SB240 and SB600 recumbent bikes print the same page** - the five steps, the Bluetooth icon lighting on the console, END & SAVE WORKOUT, Strava / MapMyFitness / Fitbit, and iOS 13.1 / Android 8.0. Their About Your Machine page (the SB600's still says "treadmill") names Google Fit and Apple Fitness for sharing and shows iHealth, Google Fit and Garmin Connect for export and import. The SB240 also takes Bluetooth chest straps and FTMS apps but not 5 kHz straps ([card](../../sb240-2023/console/bluetooth-chest-straps-and-ftms-apps-but-not-5-khz-straps.md)); on the SB600 a connected app takes over the display ([card](../../sb600-2023/console/kinomap-and-ftms-apps-take-over-and-blank-the-console.md)). The 2018 app Q&A sheet, written for the older Xterra App, starts at [the compatibility card](xterra-console-app-compatibility-ios-7-android-4-3-with-ble.md).
+
+**Two rowers print the same page** - the five steps, the Bluetooth icon lighting on the console, END & SAVE WORKOUT, Strava / MapMyFitness / Fitbit, and iOS 13.1 / Android 8.0 - and the same About Your Machine panel ("your new XTERRA Fitness rower has Bluetooth connectivity", Google Fit and Apple Fitness, the iHealth / Google Fit / Garmin Connect export graphic). The ERG180 magnetic rower also prints the Kinomap steps ([Kinomap card](xterra-rower-console-kinomap-pairing-and-the-console-goes-blank-while-an-app-is-connected.md)); the ERG800W water rower's second page pairs by the Bluetooth name on the back of its console ([ERG800W card](../../erg800w-2023/console/app-connection-by-the-bluetooth-name-printed-on-the-back-of-the-console.md)). The ERG750W names a different app, XF Connect, with no pairing page ([ERG750W card](../../erg750w-2025/console/xf-connect-app-named-with-a-qr-code-but-no-pairing-steps.md)); the other seven rower books print no app at all ([absence card](xterra-rower-console-no-bluetooth-or-app-page-in-seven-books.md)).
 

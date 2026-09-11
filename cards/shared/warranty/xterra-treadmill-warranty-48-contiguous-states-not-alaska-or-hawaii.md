@@ -3,8 +3,9 @@ id: xterra-treadmill-warranty-48-contiguous-states-not-alaska-or-hawaii
 title: The warranty applies only in the 48 contiguous United States, not Alaska or
   Hawaii
 kind: policy
-question: Is the Xterra warranty on a treadmill, bike, elliptical or seated stepper
-  valid in Alaska, Hawaii, Canada or outside the United States?
+question: Is the Xterra warranty on a treadmill, bike, elliptical, seated stepper,
+  rower or strength product valid in Alaska, Hawaii, Canada or outside the United
+  States?
 asked_as:
 - is my xterra warranty valid in hawaii
 - does the warranty cover alaska
@@ -26,8 +27,23 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - adb125pr-2022
+  - adb25-2022
+  - adb55-2022
   - air350-2019
   - air650-2021
+  - dbstand-2022
+  - erg160-2020
+  - erg180-2023
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
+  - erg750w-2025
+  - erg800w-2023
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -147,7 +163,23 @@ source:
     31-74; warranty PDF p. 23 (scan of printed 21), OCR lines 965-1065, effective
     August 1, 2014; RSX1500 2017 printing: registration PDF p. 3, OCR lines 58-105;
     warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145, effective December
-    20, 2017'
+    20, 2017; ERG160 (erg160-2020) PDF p. 23 (printed 21), lines 803-874, effective
+    January 06, 2020; ERG180 (erg180-2023) PDF pp. 33-35 (printed 32-34), lines 950-1044,
+    effective August 01, 2023; ERG220 (erg220-2023) PDF p. 22 (printed 19), lines
+    652-723, effective March 15th, 2023; ERG400 (erg400-2015) PDF p. 14 (scan of printed
+    15), OCR lines 405-495, effective August 1, 2012; ERG500 (erg500-2018) PDF p.
+    20 (printed 18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023)
+    PDF p. 25 (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022; ERG750W (erg750w-2025)
+    PDF pp. 24-25 (printed 23-24), lines 790-850, effective November 12, 2025; ERG800W
+    (erg800w-2023) PDF pp. 57-59 (printed 56-58), lines 1928-2021, effective September
+    26, 2023; ADB12.5PR (adb125pr-2022) PDF p. 8 (printed 6), lines 201-272, effective
+    June 16, 2022; ADB25 (adb25-2022) PDF p. 8 (printed 6), lines 188-259, effective
+    June 16, 2022; ADB55 (adb55-2022) PDF p. 8 (printed 6), lines 188-259, effective
+    June 16, 2022; DBSTAND (dbstand-2022) PDF p. 11 (printed 9), lines 246-317, effective
+    June 16, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -156,3 +188,5 @@ Every Xterra warranty page - the nineteen treadmill books and the twenty-nine bi
 **The eight Online-Support treadmill books, and the FB180, SB240 and SB600, add exclusion 9**: *Warranties outside of the United States may vary. Please contact your local dealer for details* (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`) - so a machine sold abroad has whatever terms its local dealer gives, not this page. The Online-Support books print the closing sentence twice, at the foot of both the second and the third warranty page - the SB240 and SB600 with *include* on the second and *apply* on the third; the FB180, which has no third page, once. The eleven older-layout treadmill books and the twenty-six older-layout bike, elliptical and stepper books say nothing about other countries beyond the 48-states line. The FS5.8e scan has no warranty page (`fs58e-2013-warranty-page-not-in-the-scanned-manual`).
 
 Neither Canada nor any other country is named. The Sole 2026 pages say *outside of North America* where these say *outside of the United States* (`f65-2026-warranty-geographic-coverage`); the Spirit XT pages match these word for word (`xt-2023-warranty-geographic-coverage`).
+
+**The fifteen rower and strength books end the same way.** The ERG160, ERG220, ERG500, ERG550W, ERG600W, ERG650W and ERG700 write *does not include Alaska or Hawaii*; the ERG400 and the four strength books *does not apply*; the ERG180 and ERG800W print the sentence on both their second and third warranty pages (*include*, then *apply*) and the ERG750W once (*include*). The three Online-Support rower books - ERG180, ERG750W, ERG800W - add exclusion 9 about warranties outside the United States (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`, `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`).

@@ -4,8 +4,8 @@ title: What the warranty does not cover - eight items, with no service-call reim
   item
 kind: policy
 question: What is not covered by the warranty on an Xterra SB150, SB250 or SB2.5r
-  recumbent bike, EU100 or EU150 hybrid elliptical, or FS150, FS1.5, FS2.5, FS3.0
-  or FS3.5 elliptical?
+  recumbent bike, EU100 or EU150 hybrid elliptical, FS150, FS1.5, FS2.5, FS3.0 or
+  FS3.5 elliptical, or ERG400 rower?
 asked_as:
 - what does the xterra elliptical warranty not cover
 - sb150 warranty exclusions
@@ -28,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg400-2015
   - eu100-2018
   - eu150-2024
   - fs15-2019
@@ -68,7 +69,8 @@ source:
     effective February 15, 2019; FS2.5 (fs25-2020) PDF p. 19 (printed 17), lines 681-749,
     effective July 06, 2020; FS3.0 (fs30-2018) PDF p. 19 (printed 17), lines 665-733,
     effective August 21, 2018; FS3.5 (fs35-2020) PDF p. 19 (printed 17), lines 673-741,
-    effective July 06, 2020
+    effective July 06, 2020; ERG400 (erg400-2015) PDF p. 14 (scan of printed 15),
+    OCR lines 405-495, effective August 1, 2012
   extracted_at: '2026-09-11'
 ---
 
@@ -88,3 +90,5 @@ source:
 **What is missing is the service-call item.** The nine-item Xterra list (`xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`) has, as item 2, *Service call reimbursement to the consumer. Service call reimbursement to the dealer that does not involve malfunction or defects in workmanship or material, for units that are beyond the warranty period ...*. These ten books drop it, and the same ten shorten SERVICE step 4 so that no trip charge is named (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`). Nothing in them says a service call is reimbursed; the tables print *Labor None* or no labor column at all (`xterra-warranty-periods-frame-1-year-parts-1-year-labor-none`, `xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`), so the practical effect is the same - the customer pays for the visit.
 
 Item 4 is the transfer rule (`xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away`), item 6 the teeth behind the ten-day registration card (`xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover`), item 7 the use rule (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`). The five consumer duties above the list are `xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`. The SB4.5r prints a different eight - it keeps the service-call item and drops the residential-setting one (`sb45r-2013-warranty-exclusions-eight-items-no-residential-setting-item`).
+
+**The ERG400 rower prints the same eight items**, with *rower* for the machine noun and in the order above, on a scanned page effective August 1, 2012 - the oldest Xterra page in this knowledge base to carry the list (read from the OCR and a 110 dpi render). Like the ten it prints the shortened step 4 with no trip charge (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`) and a two-column table with no labor (`xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`); the other rower books print the nine-item lists.

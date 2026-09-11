@@ -35,6 +35,7 @@ not_to_be_confused_with: []
 see_also:
 - air650-2021-errors-noises-pedals-crank-or-chain-tension
 - xterra-errors-no-speed-or-distance-sensor-wire-monitor-or-magnetic-wheel
+- erg220-2023-errors-grinding-noise-idler-pulley-or-flywheel
 source:
   ref: xterra-bike-sb150-2018-owners-manual
   locator: SB150 OM Trouble Shooting, PDF p. 24 (printed 22); text.md lines 711-777;
@@ -57,3 +58,4 @@ question. An air bike's noises are a different list (pedals, crank, chain tensio
 
 **Three books print this table word for word** - the SB150 and SB250 recumbent bikes and the FS150 elliptical share one console and one Trouble Shooting page. The EU150 hybrid, which runs the same console family, prints no troubleshooting page at all, and the SB240 book prints only the three error-code definitions (`xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal`).
 
+The ERG220 rower prints this row without the crank bearing - a rower has no crank - leaving the idler pulley and flywheel: `erg220-2023-errors-grinding-noise-idler-pulley-or-flywheel`.

@@ -4,8 +4,8 @@ title: What the owner pays during a warranty repair - freight and parts shipping
   with no trip charge printed
 kind: policy
 question: What costs do I have to pay for warranty service on an Xterra SB150, SB250
-  or SB2.5r recumbent bike, EU100 or EU150 hybrid elliptical, or FS150, FS1.5, FS2.5,
-  FS3.0 or FS3.5 elliptical?
+  or SB2.5r recumbent bike, EU100 or EU150 hybrid elliptical, FS150, FS1.5, FS2.5,
+  FS3.0 or FS3.5 elliptical, or ERG400 rower?
 asked_as:
 - do i pay shipping for warranty parts on my xterra elliptical
 - is there a trip charge for the fs2.5
@@ -28,6 +28,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg400-2015
   - eu100-2018
   - eu150-2024
   - fs15-2019
@@ -62,7 +63,8 @@ source:
     effective February 15, 2019; FS2.5 (fs25-2020) PDF p. 19 (printed 17), lines 681-749,
     effective July 06, 2020; FS3.0 (fs30-2018) PDF p. 19 (printed 17), lines 665-733,
     effective August 21, 2018; FS3.5 (fs35-2020) PDF p. 19 (printed 17), lines 673-741,
-    effective July 06, 2020
+    effective July 06, 2020; ERG400 (erg400-2015) PDF p. 14 (scan of printed 15),
+    OCR lines 405-495, effective August 1, 2012
   extracted_at: '2026-09-11'
 ---
 
@@ -76,3 +78,5 @@ The sentence before them sets the frame: XTERRA Fitness's obligation is *limited
 **No trip charge is printed.** The other Xterra books add *For in-home service, the customer will be responsible for a trip charge. There will be an additional trip charge if the customer is located over 100 miles from the nearest service center* (`xterra-treadmill-warranty-owner-pays-freight-parts-shipping-and-trip-charges`); these ten do not. The same ten drop the service-call reimbursement item from their exclusions (`xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item`). None of that makes in-home labor free: their tables print *Labor None* (`xterra-warranty-periods-frame-1-year-parts-1-year-labor-none`) or no labor column at all (`xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`), so no technician visit is covered and the question of a trip charge on a covered visit does not arise. What the customer gets under warranty is the part, shipped at the customer's expense.
 
 **Ten books print this shortened step 4**: SB150, SB250, SB2.5r, EU100, EU150, FS150, FS1.5, FS2.5, FS3.0, FS3.5. Making the machine accessible for servicing stays consumer responsibility 4 (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`).
+
+**The ERG400 rower prints this shortened step 4 too** - the 2015 scan, effective August 1, 2012, service department (870) 336-4286 - five steps with the address as step 5, and the same eight-item exclusion list with no service-call item (`xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item`). Its table is two columns, frame and parts, with no labor (`xterra-warranty-periods-frame-5-years-parts-1-year-no-labor-column`).

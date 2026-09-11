@@ -4,8 +4,8 @@ title: What the owner has to do for the warranty to apply - five items, and regi
   is not one of them
 kind: policy
 question: What are the consumer responsibilities under the warranty on the Xterra
-  TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 and WS300 treadmills and the FB180,
-  SB240 and SB600 bikes?
+  TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 and WS300 treadmills, the FB180,
+  SB240 and SB600 bikes, and the ERG180, ERG750W and ERG800W rowers?
 asked_as:
 - what do i have to do to keep my xterra warranty
 - responsibilities of the consumer
@@ -27,6 +27,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - erg180-2023
+  - erg750w-2025
+  - erg800w-2023
   - fb180-2025
   - sb240-2023
   - sb600-2023
@@ -50,6 +53,9 @@ see_also:
 - xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day
 - xt-2023-warranty-consumer-responsibilities
 - fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
+- erg180-2023-warranty-periods-frame-1-year-parts-90-days-no-labor-column
+- erg750w-2025-warranty-periods-frame-5-years-parts-2-years-labor-none
+- xterra-ergw-warranty-periods-frame-3-years-parts-1-year-no-labor-column
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'RESPONSIBILITIES OF THE CONSUMER, items 1-5, first warranty page: TR65
@@ -65,7 +71,11 @@ source:
     August 07 2023, text.md lines 889-982. FB180 (fb180-2025) PDF pp. 18-19 (printed
     17-18), lines 529-590, effective June 01, 2025; SB240 (sb240-2023) PDF pp. 38-40
     (printed 37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023)
-    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
+    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023; ERG180
+    (erg180-2023) PDF pp. 33-35 (printed 32-34), lines 950-1044, effective August
+    01, 2023; ERG750W (erg750w-2025) PDF pp. 24-25 (printed 23-24), lines 790-850,
+    effective November 12, 2025; ERG800W (erg800w-2023) PDF pp. 57-59 (printed 56-58),
+    lines 1928-2021, effective September 26, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -82,3 +92,5 @@ source:
 **Registering is not on this list, and no 10-day deadline is printed anywhere in these eight books.** The older Xterra books, treadmill and bike alike, make the registration card item 1 and exclude unregistered products outright (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`); these books instead print a QR code and a Support-tab URL and reserve the right to ask for proof of purchase (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`). The lead sentence says *consumer/facility* and *ordinary household use*, while exclusion 8 two pages on admits a non-dues paying facility at 5 hours a day or less (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day`).
 
 The nine exclusions that complete the terms are `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance` - for the FB180, whose item 8 admits no facility, `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`.
+
+**Three rower books print it too**, under the same *WARRANTY - RESIDENTIAL* heading: the ERG180 (*Rower*), and the ERG750W and ERG800W (*Water Rowing Machine*). The nine exclusions that follow are `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance` for the ERG180 and ERG800W and `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items` for the ERG750W, whose warranty stops there with no SERVICE page (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`).

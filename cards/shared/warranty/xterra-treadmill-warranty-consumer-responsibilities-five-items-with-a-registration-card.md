@@ -5,7 +5,7 @@ title: What the owner has to do for the warranty to apply - five items, starting
 kind: policy
 question: What are the consumer responsibilities under the warranty on the Xterra
   TR150, TR200, TR300, TR6.6, TRX1000, TR260 and TR6.4 treadmills and the older-layout
-  Xterra bike, elliptical and seated-stepper books?
+  Xterra bike, elliptical, seated-stepper and rower books?
 asked_as:
 - what do i have to do to keep my xterra warranty
 - owner responsibilities warranty
@@ -30,6 +30,14 @@ facets:
   applies_to:
   - air350-2019
   - air650-2021
+  - erg160-2020
+  - erg220-2023
+  - erg400-2015
+  - erg500-2018
+  - erg550w-2023
+  - erg600w-2021
+  - erg650w-2021
+  - erg700-2022
   - eu100-2018
   - eu150-2024
   - fb150-2021
@@ -68,6 +76,7 @@ not_to_be_confused_with:
 - xterra-trx-warranty-consumer-responsibilities-seven-items
 - xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration
 - f65-2026-warranty-consumer-responsibilities
+- xterra-strength-warranty-consumer-responsibilities-four-items-no-power-supply-item
 see_also:
 - xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products
 - xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover
@@ -77,6 +86,7 @@ see_also:
 - xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item
 - sb45r-2013-warranty-exclusions-eight-items-no-residential-setting-item
 - xterra-warranty-what-the-electrical-and-console-pages-say-is-not-covered
+- xterra-strength-warranty-consumer-responsibilities-four-items-no-power-supply-item
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'NORMAL RESPONSIBILITIES OF THE CONSUMER, items 1-5, on the warranty page:
@@ -119,7 +129,15 @@ source:
     31-74; warranty PDF p. 23 (scan of printed 21), OCR lines 965-1065, effective
     August 1, 2014; RSX1500 2017 printing: registration PDF p. 3, OCR lines 58-105;
     warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145, effective December
-    20, 2017'
+    20, 2017; ERG160 (erg160-2020) PDF p. 23 (printed 21), lines 803-874, effective
+    January 06, 2020; ERG220 (erg220-2023) PDF p. 22 (printed 19), lines 652-723,
+    effective March 15th, 2023; ERG400 (erg400-2015) PDF p. 14 (scan of printed 15),
+    OCR lines 405-495, effective August 1, 2012; ERG500 (erg500-2018) PDF p. 20 (printed
+    18), lines 542-613, effective August 21, 2018; ERG550W (erg550w-2023) PDF p. 25
+    (printed 23), lines 846-917, effective January 1, 2023; ERG600W (erg600w-2021)
+    PDF p. 24 (printed 22), lines 683-754, effective May 11, 2021; ERG650W (erg650w-2021)
+    PDF p. 21 (printed 18), lines 575-646, effective March 04, 2020; ERG700 (erg700-2022)
+    PDF p. 27 (printed 24), lines 856-927, effective January 31, 2022'
   extracted_at: '2026-09-11'
 ---
 
@@ -136,3 +154,5 @@ source:
 **Two other lists exist in the Xterra range.** The 2024 TRX2500/3500/4500/5500 books print seven items, adding proper installation to local electric codes, a *grounded* power supply and routine maintenance (`xterra-trx-warranty-consumer-responsibilities-seven-items`). The eight Online-Support treadmill books and the FB180, SB240 and SB600 print five items with **no registration item at all** (`xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`). Item 2's *including maintenance* is what the maintenance chapter leans on when it says failure to lubricate may void the warranty (`xterra-treadmill-warranty-what-the-maintenance-and-electrical-pages-say-is-not-covered`).
 
 The other half of what governs the cover is the nine exclusions printed under this list (`xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`).
+
+**Eight rower books print this five-item list too** - ERG160, ERG220, ERG400, ERG500, ERG550W, ERG600W, ERG650W, ERG700 - with *Rower* (the ERG400: *rower*) for *treadmill*. Item 1's online address: `http://www.xterrafitness.com/warrantyreg.html` in the ERG400; *or register online at the XTERRA Fitness website* in the other seven. **The four strength books print a four-item list** that drops the power-supply item and mentions no card (`xterra-strength-warranty-consumer-responsibilities-four-items-no-power-supply-item`).

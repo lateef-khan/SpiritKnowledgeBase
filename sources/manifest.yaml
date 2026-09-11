@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: edaa5bc276bded2a5f7bc450864f1416975befeaa25913afd52b376f62161694
+  sha256: 769fe528a427a7deb6876e6983934269b1d255e85d063e34579eed67125afd69
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -3484,6 +3484,138 @@
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Ellipticals/FS59e_OM_159003.pdf
   sha256: 470416d42762babb101ecb1962c5b4d20703390a2ff8bf4c57bc338e1f950024
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg160-2020-owners-manual
+  title: Xterra ERG160 rower owner's manual (2020)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG160_OM_20200429.pdf
+  sha256: 5080f425ccc38d88cf5f54b787d3d9a64b710235296ac1eadbdf9b74f7cfb204
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg160-2020-service-manual
+  title: Xterra ERG160 rower service manual (V1.0, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/ERG160/ERG160__service
+    manual_V1.0.pdf
+  sha256: de2037df9448104e92d297f31d64d65333a70bcedfe9c1059e5acfa6548b8b03
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg180-2023-owners-manual
+  title: Xterra ERG180 rower owner's manual (Revision 08/01/23)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG180_OM_20230801.pdf
+  sha256: ef23557a4ee3a423c87788c069b90698c3027f3f204e0c19446200c9d99da30d
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg180-2023-service-manual
+  title: Xterra ERG180 rower service manual (V1.0, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/ERG180/ERG180__service
+    manual_V1.0.pdf
+  sha256: f13f66dcddfae54813bb3a8bc052868f526f36a1266234cab4550c8f98435e9a
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg220-2023-owners-manual
+  title: Xterra ERG220 rower owner's manual (VER3, March 2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG220_OM_20230313.pdf
+  sha256: 50d52bfe9fdf34825a86b465e0ad31a01da019b5b67a8b3acbe48b5099ae7f9a
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg400-2015-owners-manual
+  title: Xterra ERG400 rower owner's manual (2015, scanned)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG400_OM_140914.pdf
+  sha256: dc5f234c55df7cbf80acab0f45bf6e21e7df1f1506e3f8671ad196a02dc71f68
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg500-2018-owners-manual
+  title: Xterra ERG500 rower owner's manual (2018)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG500_OM_20180821.pdf
+  sha256: 3b99b148f56745a3cade566353d5fc4ef51c2196521fd7d543d80c1a3e7d69ff
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg550w-2023-owners-manual
+  title: Xterra ERG550W water rower owner's manual (2023)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG550W_OM_20230101.pdf
+  sha256: 4568194a97e3e3762913938c9b8f710d0f77ccc6386ef8b17b0e7160be0cc5e3
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg550w-2023-service-manual
+  title: Xterra ERG550W water rower service manual (November 2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Rowers/ERG550W_ServiceManual20221124.pdf
+  sha256: 95c282afba0c5e1a98ba107b816ac51ebbac31c50aa291907f599075c514a1e4
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg600w-2021-owners-manual
+  title: Xterra ERG600W water rower owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG600W_OM_20210511.pdf
+  sha256: 41fe1f2a901ccd19494939eb534fe1c57d5eef57ed85902febc98baf068fbc9c
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg600w-2021-service-manual
+  title: Xterra ERG600W water rower service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Service Manuals/Rowers/ERG600W
+    Service Manual.pdf
+  sha256: f0115f99631ede1fbbf3e62f6e804f3df90073ad65f7f8b817c98d4fe1fe9947
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg650w-2021-owners-manual
+  title: Xterra ERG650W water rower owner's manual (2021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG650W_OM_20210118.pdf
+  sha256: 2e180c52595900fc9a8753a63c50137662f0e04d4d4d26fefdb2a4339c2084b7
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg700-2022-owners-manual
+  title: Xterra ERG700 rower owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ERG700_OM_20220131.pdf
+  sha256: 972a3e65670add99fa8f3b95d20f26378c384b1242d8f22c42334f296ad470a5
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg750w-2025-owners-manual
+  title: Xterra ERG750W water rower owner's manual (Revision 11.12.2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/ERG750/ERG750W_OM_20251112.pdf
+  sha256: 033759a174d7de8aa70cec9f96b3c52fda599b53866f6cae958e9af856ab51f8
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg750w-2025-service-manual
+  title: Xterra ERG-750W water rower service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/ERG750/ERG-750W
+    Service Manual.pdf
+  sha256: 7d927d637208e31217a81d3169c631b1604bfbbfc930ef51de16fb85c36d0564
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg800w-2023-owners-manual
+  title: Xterra ERG800W water rower owner's manual (Revision 10/18/23; file named
+    ER800W)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Rowers/ER800W_OM_20231018.pdf
+  sha256: 79e46105b86c53c547c4c7627835fdf264daf982ffdc2bb30216235df68809d4
+  ingested_at: '2026-09-11'
+- id: xterra-rower-erg800w-2023-service-manual
+  title: Xterra ERG800W (R80) water rower service manual (V1.0, 2025)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/ERG800W/ERG800W_R80_service
+    manual_V1.0.pdf
+  sha256: 69c18f3ceaa8f84c9f66dd051e60973f0ad421e802713e25f1308578091031b3
+  ingested_at: '2026-09-11'
+- id: xterra-strength-adb125pr-2022-owners-manual
+  title: Xterra ADB12.5PR adjustable dumbbell owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Strength/ADB12.5PR_OM_20220913.pdf
+  sha256: c51fa71fe81606d0c21a3a088c686707e20c5be0b295cbae822648dd688c590e
+  ingested_at: '2026-09-11'
+- id: xterra-strength-adb25-2022-owners-manual
+  title: Xterra ADB25 adjustable dumbbell owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Strength/ADB25_OM_20220913.pdf
+  sha256: da12f7ee8715c025eab97469d950cc0ed8b8d2236aa203162b82d28b4c2001be
+  ingested_at: '2026-09-11'
+- id: xterra-strength-adb55-2022-owners-manual
+  title: Xterra ADB55 adjustable dumbbell owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Strength/ADB55_OM_20220913.pdf
+  sha256: bfe26fc8a27ec7990bbc97ec2bb04ea4073b18752a1fefbb9b86a2077952cecf
+  ingested_at: '2026-09-11'
+- id: xterra-strength-dbstand-2022-owners-manual
+  title: Xterra dumbbell stand owner's manual (2022)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Xterra Owners Manuals/Strength/DBSTAND_OM_20220913.pdf
+  sha256: 3f36c77d094b1b8fba225d806a75cb9c4c28a9c2b0223320cb25f809d73bdd8b
   ingested_at: '2026-09-11'
 - id: xterra-treadmill-tr150-2021-mcb-wiring-photo
   title: 'Xterra TR150 / T500 motor control board: what plugs where - annotated photo,

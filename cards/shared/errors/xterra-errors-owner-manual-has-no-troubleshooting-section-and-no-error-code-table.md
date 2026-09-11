@@ -56,6 +56,7 @@ see_also:
 - xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal
 - xterra-tr-errors-owner-manual-prints-no-error-codes
 - trx5500-2024-errors-owner-manual-prints-no-troubleshooting-section
+- xterra-errors-rower-and-strength-books-print-no-error-codes-except-one-rower
 source:
   ref: xterra-elliptical-eu150-2024-owners-manual
   locator: 'Table of contents of each book (EU150 OM PDF p. 3, lines 14-55; EU100
@@ -96,3 +97,4 @@ contents list at printed 20-21 are not in the file, so nothing can be said about
 The books that **do** print a troubleshooting page are the AIR350, SB120 and UB120 (one row), the MB500,
 MB550 and MBX2500 (No Display / Cadence), and the SB150, SB250, FS150 and SB240 (the E1-E3 family).
 
+The rowers and the adjustable dumbbells have their own inventory of this kind; among them only the ERG700 prints a code: `xterra-errors-rower-and-strength-books-print-no-error-codes-except-one-rower`.

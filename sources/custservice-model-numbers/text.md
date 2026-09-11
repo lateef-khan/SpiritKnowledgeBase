@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-290 machines.
+300 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -145,6 +145,16 @@ any number here.
 | e98-2016 | 598016 | card-confirmed |
 | e98-2019 | 598018 | card-confirmed |
 | e98-2023 | 598022 | card-confirmed |
+| erg160-2020 | 116919 | only-candidate |
+| erg180-2023 | 118092 | own-manual-text |
+| erg220-2023 | 122998 | only-candidate |
+| erg400-2015 | 140914 | own-filename |
+| erg500-2018 | 150916 | only-candidate |
+| erg600w-2021 | 160918 | only-candidate |
+| erg650w-2021 | 165918 | only-candidate |
+| erg700-2022 | 170918 | only-candidate |
+| erg750w-2025 | 175926 | own-manual-text |
+| erg800w-2023 | 180913 | own-manual-text |
 | eu100-2018 | 110026 | only-candidate |
 | eu150-2024 | 115024 | own-manual-text |
 | f50-2026 | 550826 | own-filename |
@@ -310,12 +320,15 @@ From `reference/model-numbers-open.csv`: the machine ids the knowledge base decl
 whose SKU has not been settled. A candidate list, where one exists, is in that file;
 none of it is confirmed.
 
-35 machines.
+40 machines.
 
 | machine | product | year |
 |---|---|---|
 | 7-5s-med | 7-5s-med | — |
 | 85s-fit-2026 | 85s-fit | 2026 |
+| adb125pr-2022 | adb125pr | 2022 |
+| adb25-2022 | adb25 | 2022 |
+| adb55-2022 | adb55 | 2022 |
 | ce800-2013 | ce800 | 2013 |
 | ce800-2021 | ce800 | 2021 |
 | ce800-2023 | ce800 | 2023 |
@@ -328,7 +341,9 @@ none of it is confirmed.
 | ct800-2012 | ct800 | 2012 |
 | ct900ent | ct900ent | — |
 | cu900ent | cu900ent | — |
+| dbstand-2022 | dbstand | 2022 |
 | e95-2016 | e95 | 2016 |
+| erg550w-2023 | erg550w | 2023 |
 | f63 | f63 | — |
 | f85-2021 | f85 | 2021 |
 | sb150-2018 | sb150 | 2018 |

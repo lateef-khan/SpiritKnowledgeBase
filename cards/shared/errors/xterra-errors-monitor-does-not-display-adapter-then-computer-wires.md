@@ -37,6 +37,7 @@ see_also:
 - xterra-errors-no-speed-or-distance-sensor-wire-monitor-or-magnetic-wheel
 - xterra-errors-no-tension-computer-wires-not-connected-properly
 - xterra-errors-e2-computer-cannot-interface-with-the-eeprom-ic-chip
+- xterra-rower-errors-monitor-does-not-display-install-batteries-then-computer-wires
 source:
   ref: xterra-bike-sb150-2018-owners-manual
   locator: SB150 OM Trouble Shooting, PDF p. 24 (printed 22); text.md lines 711-777;
@@ -58,3 +59,4 @@ consoles.
 
 **Three books print this table word for word** - the SB150 and SB250 recumbent bikes and the FS150 elliptical share one console and one Trouble Shooting page. The EU150 hybrid, which runs the same console family, prints no troubleshooting page at all, and the SB240 book prints only the three error-code definitions (`xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal`).
 
+The Xterra rowers print a near-twin of this row that starts with the batteries instead of an adapter, because their consoles run on two AA cells: `xterra-rower-errors-monitor-does-not-display-install-batteries-then-computer-wires`.

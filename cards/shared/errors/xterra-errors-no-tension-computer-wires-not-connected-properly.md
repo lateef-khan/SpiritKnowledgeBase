@@ -36,6 +36,8 @@ see_also:
 - xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal
 - xterra-errors-e3-gear-motor-did-not-leave-zero-within-4-seconds-of-start
 - xterra-errors-monitor-does-not-display-adapter-then-computer-wires
+- erg220-2023-errors-no-tension-computer-wires-then-tension-knob
+- erg500-2018-errors-no-tension-air-damper-needs-adjustment
 source:
   ref: xterra-bike-sb150-2018-owners-manual
   locator: SB150 OM Trouble Shooting, PDF p. 24 (printed 22); text.md lines 711-777;
@@ -57,3 +59,4 @@ are where "replace gear motor" appears.
 
 **Three books print this table word for word** - the SB150 and SB250 recumbent bikes and the FS150 elliptical share one console and one Trouble Shooting page. The EU150 hybrid, which runs the same console family, prints no troubleshooting page at all, and the SB240 book prints only the three error-code definitions (`xterra-errors-e1-monitor-cannot-read-the-gear-motor-signal`).
 
+The rowers' versions of this row differ: the magnetic ERG220 adds a tension knob to the wiring check (`erg220-2023-errors-no-tension-computer-wires-then-tension-knob`) and the ERG500 air rower has only its damper lever (`erg500-2018-errors-no-tension-air-damper-needs-adjustment`).
