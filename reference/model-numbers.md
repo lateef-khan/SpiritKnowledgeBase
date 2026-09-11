@@ -17,6 +17,13 @@ number came from instead.
 - `reference/model-numbers.csv` — the mapping, one row per machine, with the evidence.
 - `reference/model-numbers-open.csv` — machines with no number yet, and their candidates.
 
+The numbers a reader is meant to see live on one product card per family,
+`cards/shared/specs/<family>-model-numbers.md`, whose body is a Year / Model
+number / Tag table. Those cards, and only those, carry the facet
+`lookup: model-numbers`; it is the facet SpiritAI filters on for a SKU question,
+so the answer does not depend on rank. `model-numbers` is its only legal value,
+declared in `kb.yaml`.
+
 ## The one table
 
 Every brand lives in `dbo.MODEL` in the `CustService` database on the Spirit

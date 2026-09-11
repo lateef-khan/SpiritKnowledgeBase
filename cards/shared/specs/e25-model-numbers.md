@@ -34,6 +34,7 @@ facets:
   - '525018'
   - '525022'
   - '525206'
+  lookup: model-numbers
 authority: 3
 not_to_be_confused_with: []
 see_also:

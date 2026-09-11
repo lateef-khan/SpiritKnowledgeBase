@@ -28,6 +28,7 @@ facets:
   model_number:
   - '720080'
   - '720087'
+  lookup: model-numbers
 authority: 3
 not_to_be_confused_with: []
 see_also: []
