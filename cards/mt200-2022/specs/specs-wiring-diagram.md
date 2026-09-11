@@ -25,14 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: specs
   code: '*'
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with:
 - ct800-2016-specs-console-12-pin-cable-pinout
@@ -50,7 +48,7 @@ source:
     a low-resolution raster on which the two smallest tables are only partly legible.
     Test values: troubleshooting steps 1.4-1.5 (PDF p. 18, lines 390-402), 2.2 (p.
     19, line 409), 3.1 (p. 20, lines 421-422), 4.1-4.2 (p. 21, lines 434-442), 5.1
-    (p. 22, lines 456-458); brake 18vdc, maintenance mode p. 8, lines 144-145'
+    (p. 22, lines 456-458); brake 18vdc, maintenance mode p. 8, lines 144-145 The February 2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, and prints this page unchanged.'
   extracted_at: '2026-09-11'
 ---
 
@@ -102,3 +100,5 @@ black).
 
 The brake figure is printed two ways in one book, 18 and 19 volts, both "when the brake is off". The
 motor-casing-to-chassis 1.5 megohm check and the belt tension are in the drive-motor replacement card.
+
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.

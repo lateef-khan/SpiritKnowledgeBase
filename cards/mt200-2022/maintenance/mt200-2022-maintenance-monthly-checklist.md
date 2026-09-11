@@ -25,14 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: mt200-2022
+  model: '*'
   applies_to:
+  - 70t-2026
   - mt200-2022
   section: maintenance
   code: '*'
-  model_number:
-  - '720080'
-  - '720087'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-maintenance-schedule
@@ -47,7 +45,7 @@ source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 3. Maintenance, 3.1-3.2, PDF p. 5 (printed 5); text.md lines 53-61. The
     motor current test it refers to is 4.2.1 Service Mode, Drive Motor, PDF p. 9,
-    lines 131-141. The book is titled 7.0T (MT8000-ST021-02), Ver 1.3
+    lines 131-141. The book is titled 7.0T (MT8000-ST021-02), Ver 1.3 The February 2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, and prints this page unchanged.
   extracted_at: '2026-09-11'
 ---
 
@@ -77,3 +75,4 @@ Item 3 vacuums inside the motor cover **monthly**. The 7.0T and MT200 owner's ma
 
 Item 5 is the only lubrication on the list, and it is the incline motor's lead screw, "as needed", with no product named. The owner's manuals say the hard wax deck takes no lubricant or wax (`spirit-2026t-maintenance-deck-takes-no-lubricant`); nothing in the service manual contradicts that.
 
+**This book is also the 7.0T 770885's service manual.** Spirit's February 2026 export of it is titled *7.0T-770885 (MT8000-ST021-01)* and is 99.7% the same text (the parts-list header reads MT8000 where the 2021 export reads MT7000), so the 2026 7.0T (`70t-2026`) is listed here alongside the MT200.
