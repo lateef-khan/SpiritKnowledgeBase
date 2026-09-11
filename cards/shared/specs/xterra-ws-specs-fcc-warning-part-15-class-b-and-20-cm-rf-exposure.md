@@ -36,6 +36,8 @@ not_to_be_confused_with: []
 see_also:
 - xt-2023-safety-fcc-class-b-interference
 - ctsbs900-warnings-compliance-fcc
+- sb240-2023-specs-fcc-notice-class-c-digital-device-with-bluetooth-ftms-and-20-cm-rf-exposure
+- sb600-2023-specs-fcc-notice-class-b-digital-device-ul-and-bluetooth-ftms-and-20-cm-rf-exposure
 source:
   ref: xterra-treadmill-ws300-2023-owners-manual
   locator: 'WS300 OM ''FCC WARNING'', PDF p. 37 (printed 36), lines 994-1024; the
@@ -73,4 +75,8 @@ operating and installation" - the sentence ends there on the page.
 **No other Xterra treadmill book in this wave prints an FCC page** - not the new-layout TRX1400, TR65, TR75, TR85,
 TR95H, TR75H and TRX5500 books, and not the 2021 and 2024 batch books. The Spirit 2023 XT books print the same Class B
 notice and the same four remedies without the Grantee note or the 20 cm line
-(`xt-2023-safety-fcc-class-b-interference`).
+(`xt-2023-safety-fcc-class-b-interference`). Among the Xterra bikes, only the SB240 and SB600 recumbents print a
+compliance page; theirs lists the certifications (FCC part 15, Bluetooth with FTMS, and UL on the SB600), prints
+condition (2) as "must not accept" and, on the SB240, "Class C", and has no Grantee note
+(`sb240-2023-specs-fcc-notice-class-c-digital-device-with-bluetooth-ftms-and-20-cm-rf-exposure`,
+`sb600-2023-specs-fcc-notice-class-b-digital-device-ul-and-bluetooth-ftms-and-20-cm-rf-exposure`).

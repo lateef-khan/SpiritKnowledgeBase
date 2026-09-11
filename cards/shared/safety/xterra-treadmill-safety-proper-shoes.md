@@ -2,7 +2,8 @@
 id: xterra-treadmill-safety-proper-shoes
 title: Quality athletic shoes, never heels, dress shoes, sandals or bare feet
 kind: policy
-question: What shoes should I wear on an Xterra treadmill, and can I use it barefoot?
+question: What shoes should I wear on an Xterra treadmill, bike, elliptical or seated
+  stepper, and can I use it barefoot?
 asked_as:
 - can i walk barefoot on the treadmill
 - what shoes for the treadmill
@@ -19,9 +20,32 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - eu100-2018
+  - eu150-2024
+  - fb150-2021
+  - fb160-2019
+  - fb180-2025
+  - fb350-2021
+  - fb360-2019
+  - fs15-2019
+  - fs150-2016
+  - fs25-2020
+  - fs30-2018
+  - fs35-2020
+  - fs58e-2013
+  - fs59e-2014
+  - rsx1500-2021
+  - sb150-2018
+  - sb240-2023
+  - sb250-2024
+  - sb25r-2020
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -60,7 +84,22 @@ source:
     TRX1400 OM PDF p. 6 (lines 126-162); TRX2500 OM PDF p. 4 (lines 75-131); TRX3500
     OM PDF p. 4 (lines 74-130); TRX4500 OM PDF p. 4 (lines 75-131); TRX5500 OM PDF
     p. 4 (lines 81-137); WS200 OM PDF p. 6 (lines 128-163); WS300 OM PDF p. 6 (lines
-    128-164)'
+    128-164); the same bullet or item 15/20 on the bikes, ellipticals and stepper:
+    EU100 OM PDF p. 5 (printed 2; lines 71-125); EU150 OM PDF p. 5 (printed 2; lines
+    92-144); FB150 OM PDF p. 4 (printed 2; lines 90-142); FB160 OM PDF p. 5 (printed
+    2; lines 94-146); FB180 OM PDF p. 6 (printed 5; lines 112-148); FB350 OM PDF p.
+    4 (printed 2; lines 90-142); FB360 OM PDF p. 5 (printed 2; lines 93-147); FS1.5
+    OM PDF p. 4 (printed 2; lines 88-140); FS150 OM PDF p. 4 (printed 2; OCR supplement
+    from line 91); FS2.5 OM PDF p. 4 (printed 2; lines 86-139); FS3.0 OM PDF p. 4
+    (printed 2; lines 90-142); FS3.5 OM PDF p. 4 (printed 2; lines 84-136); FS5.8e
+    OM PDF p. 4 (printed 2; OCR supplement from line 91); FS5.9e OM PDF p. 4 (printed
+    2; OCR supplement from line 85); RSX1500 OM PDF p. 5 (printed 2; lines 81-134);
+    2017 printing PDF p. 4 (OCR supplement from line 106); SB150 OM PDF p. 4 (printed
+    2; lines 90-142); SB240 OM PDF p. 7 (printed 6; lines 165-201); SB250 OM PDF p.
+    4 (printed 2; lines 91-143); SB2.5r OM PDF p. 4 (printed 2; lines 88-141); SB4500
+    OM PDF p. 4 (printed 2; lines 82-134); SB4.5r OM PDF p. 4 (printed 2; OCR supplement
+    from line 89); SB500 OM PDF p. 4 (printed 2; lines 71-123); 2014 printing PDF
+    p. 4 (OCR supplement from line 75); SB600 OM PDF p. 7 (printed 6; lines 166-202)'
   extracted_at: '2026-09-11'
 ---
 
@@ -81,4 +120,11 @@ manuals give no other clothing rule beyond the sticker's `Keep body, clothing, a
 accessories clear of moving parts` on the new-layout machines.
 
 The Sole F83-2026 prints the same bullet for its own machine (`f83-2026-proper-footwear`).
+
+**Bikes, ellipticals and the seated stepper.** The same bullet, in the same words, is on twenty-three
+of the thirty non-treadmill books - every one with the appliance-style list (a Fitness Equipment
+bullet on twenty of them, item 15 of the FB180 list, item 20 of the SB240 and SB600 list). The seven
+books with the indoor-cycle list - AIR350, AIR650, MB500, MB550, MBX2500, SB120, UB120 - print no
+footwear rule at all; their only foot instruction is `use of foot positioning system of pedals` and
+the pedal-strap fitting steps.
 

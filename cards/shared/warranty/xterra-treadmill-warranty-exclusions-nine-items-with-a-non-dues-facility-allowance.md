@@ -4,7 +4,7 @@ title: What the warranty does not cover - nine items, with a non-dues facility a
   and no registration exclusion
 kind: policy
 question: What is not covered by the warranty on the Xterra TR65, TR75, TR85, TR75H,
-  TR95H, TRX1400, WS200 and WS300 treadmills?
+  TR95H, TRX1400, WS200 and WS300 treadmills and the SB240 and SB600 bikes?
 asked_as:
 - what does the xterra warranty not cover
 - warranty exclusions
@@ -24,9 +24,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - sb240-2023
+  - sb600-2023
   - tr65-2023
   - tr75-2024
   - tr75h-2025
@@ -41,6 +43,7 @@ authority: 3
 not_to_be_confused_with:
 - xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products
 - xterra-trx-warranty-exclusions-nine-items-floor-models-corrosion-and-discoloration
+- fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
 see_also:
 - xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration
 - xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away
@@ -60,7 +63,9 @@ source:
     (trx1400-2023) pp. 36-38 (printed 35-37), effective March 08, 2023, text.md lines
     1192-1285; WS200 (ws200-2023) pp. 32-34 (printed 31-33), effective August 07 2023,
     text.md lines 936-1029; WS300 (ws300-2023) pp. 32-34 (printed 31-33), effective
-    August 07 2023, text.md lines 889-982'
+    August 07 2023, text.md lines 889-982. SB240 (sb240-2023) PDF pp. 38-40 (printed
+    37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023) PDF pp.
+    41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -76,9 +81,8 @@ source:
 8. Product use in any environment other than a residential setting **or non-dues paying facility with 5 hours use or less per day**.
 9. Warranties outside of the United States may vary. Please contact your local dealer for details.
 
-**Eight books print these nine items**: TR65, TR75, TR75H, TR85, TR95H, TRX1400, WS200, WS300; the hiker books say *Hiker Treadmill* in item 2. It is word for word the Spirit XT 2023 list (`xt-2023-warranty-exclusions`).
+**Eight treadmill books print these nine items**: TR65, TR75, TR75H, TR85, TR95H, TRX1400, WS200, WS300; the hiker books say *Hiker Treadmill* in item 2. **The SB240 and SB600 recumbent bikes print them too**, with *Recumbent Bike* in item 2. The FB180, laid out the same way, stops item 8 at *residential setting* and admits no facility - its own card is `fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items`. It is word for word the Spirit XT 2023 list (`xt-2023-warranty-exclusions`).
 
 **Three things this list does not say that the older Xterra lists do.** There is no display-model or floor-model exclusion; there is no exclusion for a product with no registration on file - item 6 only reserves the right to ask for proof of purchase (`xterra-treadmill-warranty-registration-qr-code-and-support-tab-no-deadline`); and item 8 admits a facility that charges no dues and runs the machine five hours a day or less, where the older books allow a residential setting only (`xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5-hours-a-day` against `xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`). Item 9 is new too, and sits beside the 48-states sentence printed at the foot of the same page (`xterra-treadmill-warranty-48-contiguous-states-not-alaska-or-hawaii`).
 
 Item 5 is the transfer rule (`xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away`). The five consumer duties on the page before are `xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`.
-

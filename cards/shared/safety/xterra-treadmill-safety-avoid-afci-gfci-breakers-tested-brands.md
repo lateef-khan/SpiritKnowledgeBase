@@ -2,8 +2,8 @@
 id: xterra-treadmill-safety-avoid-afci-gfci-breakers-tested-brands
 title: Avoid AFCI and GFCI breakers if possible, and the three breaker brands tested
 kind: troubleshooting
-question: Can an Xterra treadmill be plugged into an AFCI or GFCI outlet or breaker,
-  and why does the breaker keep tripping?
+question: Can an Xterra treadmill or new-layout recumbent bike be plugged into an
+  AFCI or GFCI outlet or breaker, and why does the breaker keep tripping?
 asked_as:
 - my gfci keeps tripping with the treadmill
 - can i plug the xterra treadmill into a gfci outlet
@@ -23,9 +23,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - sb240-2023
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -57,6 +59,7 @@ see_also:
 - xterra-treadmill-safety-house-breaker-trips-replace-with-high-inrush-type
 - xt-2023-safety-afci-gfci-nuisance-tripping
 - f85-2026-afci-gfci-breakers
+- xterra-sb-safety-electrical-safety-page
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'the Circuit breakers paragraph of IMPORTANT ELECTRICAL INFORMATION / ELECTRICAL
@@ -68,7 +71,9 @@ source:
     PDF p. 5 (lines 158-205); TRX1400 OM PDF p. 7 (lines 162-199); TRX2500 OM PDF
     p. 5 (lines 131-177); TRX3500 OM PDF p. 5 (lines 130-175); TRX4500 OM PDF p. 5
     (lines 131-178); TRX5500 OM PDF p. 5 (lines 137-185); WS200 OM PDF p. 7 (lines
-    163-200); WS300 OM PDF p. 7 (lines 164-201)'
+    163-200); WS300 OM PDF p. 7 (lines 164-201); the same paragraph on the Electrical
+    Safety page of the two new-layout recumbent bikes: SB240 OM PDF p. 8 (lines 201-238);
+    SB600 OM PDF p. 8 (lines 202-239)'
   extracted_at: '2026-09-11'
 ---
 
@@ -106,4 +111,10 @@ later and softer rule; say both exist.
 The Spirit XT-2023 and Sole F85-2026 manuals print this paragraph for their own machines
 (`xt-2023-safety-afci-gfci-nuisance-tripping`, `f85-2026-afci-gfci-breakers`); the Spirit CT800 books
 print the absolute ban instead (`spirit-never-use-a-gfci-wall-outlet`).
+
+**The SB240 and SB600 recumbent bikes print the paragraph word for word** on their Electrical Safety
+page, with *unit* for *treadmill* (`xterra-sb-safety-electrical-safety-page`). It was written for a
+treadmill drive motor; the bikes run from a plug-in adapter and their only motor is the resistance
+stepper, so the tested-brand list is the treadmill's, not a bike test. No other Xterra bike,
+elliptical or stepper book mentions AFCI or GFCI.
 

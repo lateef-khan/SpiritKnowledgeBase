@@ -1,10 +1,10 @@
 ---
 id: xterra-treadmill-safety-pulse-sensors-are-not-medical-devices
-title: Pulse sensors are exercise aids, not medical devices, and four books never
+title: Pulse sensors are exercise aids, not medical devices, and which books never
   say so
 kind: policy
-question: How accurate are the hand pulse sensors on an Xterra treadmill, and can
-  the heart rate reading be used medically?
+question: How accurate are the hand pulse sensors on an Xterra treadmill, bike, elliptical
+  or seated stepper, and can the heart rate reading be used medically?
 asked_as:
 - are the heart rate grips accurate
 - can i trust the pulse reading on the treadmill
@@ -21,9 +21,32 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - eu100-2018
+  - eu150-2024
+  - fb150-2021
+  - fb160-2019
+  - fb180-2025
+  - fb350-2021
+  - fb360-2019
+  - fs15-2019
+  - fs150-2016
+  - fs25-2020
+  - fs30-2018
+  - fs35-2020
+  - fs58e-2013
+  - fs59e-2014
+  - rsx1500-2021
+  - sb150-2018
+  - sb240-2023
+  - sb250-2024
+  - sb25r-2020
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr300-2021
   - tr64-2024
   - tr65-2023
@@ -48,6 +71,8 @@ see_also:
 - xterra-treadmill-safety-who-may-use-the-treadmill
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
 - e35-2026-pulse-sensor-accuracy-disclaimer
+- xterra-sb-safety-warning-sticker-on-the-upright
+- xterra-safety-instructions-list-13-item-plug-in-list
 source:
   ref: xterra-treadmill-tr300-2021-owners-manual
   locator: 'the pulse sensors bullet or item 18 of the safety page: TR300 OM PDF p.
@@ -57,7 +82,22 @@ source:
     125-161); TRX1400 OM PDF p. 6 (lines 126-162); TRX2500 OM PDF p. 4 (lines 75-131);
     TRX3500 OM PDF p. 4 (lines 74-130); TRX4500 OM PDF p. 4 (lines 75-131); TRX5500
     OM PDF p. 4 (lines 81-137); WS200 OM PDF p. 6 (lines 128-163); WS300 OM PDF p.
-    6 (lines 128-164)'
+    6 (lines 128-164); the same bullet or item 13/18 on the bikes, ellipticals and
+    stepper: EU100 OM PDF p. 5 (printed 2; lines 71-125); EU150 OM PDF p. 5 (printed
+    2; lines 92-144); FB150 OM PDF p. 4 (printed 2; lines 90-142); FB160 OM PDF p.
+    5 (printed 2; lines 94-146); FB180 OM PDF p. 6 (printed 5; lines 112-148); FB350
+    OM PDF p. 4 (printed 2; lines 90-142); FB360 OM PDF p. 5 (printed 2; lines 93-147);
+    FS1.5 OM PDF p. 4 (printed 2; lines 88-140); FS150 OM PDF p. 4 (printed 2; OCR
+    supplement from line 91); FS2.5 OM PDF p. 4 (printed 2; lines 86-139); FS3.0 OM
+    PDF p. 4 (printed 2; lines 90-142); FS3.5 OM PDF p. 4 (printed 2; lines 84-136);
+    FS5.8e OM PDF p. 4 (printed 2; OCR supplement from line 91); FS5.9e OM PDF p.
+    4 (printed 2; OCR supplement from line 85); RSX1500 OM PDF p. 5 (printed 2; lines
+    81-134); 2017 printing PDF p. 4 (OCR supplement from line 106); SB150 OM PDF p.
+    4 (printed 2; lines 90-142); SB240 OM PDF p. 7 (printed 6; lines 165-201); SB250
+    OM PDF p. 4 (printed 2; lines 91-143); SB2.5r OM PDF p. 4 (printed 2; lines 88-141);
+    SB4500 OM PDF p. 4 (printed 2; lines 82-134); SB4.5r OM PDF p. 4 (printed 2; OCR
+    supplement from line 89); SB500 OM PDF p. 4 (printed 2; lines 71-123); 2014 printing
+    PDF p. 4 (OCR supplement from line 75); SB600 OM PDF p. 7 (printed 6; lines 166-202)'
   extracted_at: '2026-09-11'
 ---
 
@@ -83,4 +123,18 @@ cards; this is the safety rule that the number is a trend, not a diagnosis.
 
 The Spirit 2026 treadmill and Sole E35 print the same sentence for their own machines
 (`spirit-2026t-safety-heart-rate-readings-are-not-medical`, `e35-2026-pulse-sensor-accuracy-disclaimer`).
+
+**Bikes, ellipticals and the seated stepper.** Twenty-three of the thirty non-treadmill books print
+the same sentence word for word - every book with the appliance-style list: as a Fitness Equipment
+bullet on the FB150, FB350, FB160, FB360, EU100, EU150, SB150, SB250, SB2.5r, SB4500, SB500, SB4.5r,
+RSX1500, FS1.5, FS2.5, FS3.0, FS3.5, FS150, FS5.8e and FS5.9e; as item 13 of the FB180 list; as item 18
+of the SB240 and SB600 list (`xterra-safety-instructions-list-8-item-appliance-list`,
+`xterra-safety-instructions-list-13-item-plug-in-list`, `fb180-2025-safety-instructions-list-16-items`,
+`xterra-sb-safety-instructions-list-21-items`). The SB240 and SB600 sticker adds `Heart Rate monitoring
+systems can be inaccurate; use them for reference only` (`xterra-sb-safety-warning-sticker-on-the-upright`).
+
+**The seven books with the indoor-cycle list print no such sentence** - AIR350, AIR650, MB500, MB550,
+MBX2500, SB120 and UB120. The SB120 and UB120, which do have hand pulse grips, say on the console page
+only that `The measurement value shouldn't be regarded as the basis of medical treatment`; the FB150,
+FB350 and FB180 console pages say the same thing a second time. Those are console cards.
 

@@ -2,8 +2,8 @@
 id: xterra-treadmill-warranty-not-transferable-sold-bartered-or-given-away
 title: Whether the warranty follows a second-hand machine - it does not
 kind: policy
-question: Does the Xterra treadmill warranty transfer to a second owner if the machine
-  is sold or given away?
+question: Does the Xterra warranty on a treadmill, bike, elliptical or seated stepper
+  transfer to a second owner if the machine is sold or given away?
 asked_as:
 - is the xterra warranty transferable
 - i bought a used xterra treadmill is it under warranty
@@ -23,9 +23,37 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air350-2019
+  - air650-2021
+  - eu100-2018
+  - eu150-2024
+  - fb150-2021
+  - fb160-2019
+  - fb180-2025
+  - fb350-2021
+  - fb360-2019
+  - fs15-2019
+  - fs150-2016
+  - fs25-2020
+  - fs30-2018
+  - fs35-2020
+  - fs59e-2014
+  - mb500-2014
+  - mb550-2018
+  - mbx2500-2018
+  - rsx1500-2021
+  - sb120-2022
+  - sb150-2018
+  - sb240-2023
+  - sb250-2024
+  - sb25r-2020
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -43,6 +71,7 @@ facets:
   - trx3500-2024
   - trx4500-2024
   - trx5500-2024
+  - ub120-2023
   - ws200-2023
   - ws300-2023
   section: warranty
@@ -56,6 +85,11 @@ see_also:
 - xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover
 - xt-2023-warranty-transfer
 - f65-2026-warranty-transfer
+- xterra-warranty-exclusions-eight-items-no-service-call-reimbursement-item
+- sb45r-2013-warranty-exclusions-eight-items-no-residential-setting-item
+- fb180-2025-warranty-exclusions-nine-items-residential-only-with-proof-of-purchase-and-outside-us-items
+- xterra-fb-warranty-front-page-90-day-statement-not-transferable-and-no-commercial-use
+- xterra-fb-warranty-front-page-one-year-statement-against-a-90-day-parts-table
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'Exclusions 4 and 5 on every warranty page: TR150 (tr150-2021) p. 22 (printed
@@ -80,17 +114,50 @@ source:
     (printed 39), effective March 20, 2024, text.md lines 1272-1341; WS200 (ws200-2023)
     pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines 936-1029; WS300
     (ws300-2023) pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines
-    889-982'
+    889-982. AIR350 (air350-2019) PDF p. 19 (printed 16), lines 390-461, effective
+    June 13, 2019; AIR650 (air650-2021) PDF p. 21 (printed 18), lines 694-765, effective
+    December 12, 2020; FB150 (fb150-2021) PDF p. 15 (printed 13), lines 396-467, effective
+    August 27, 2021; FB350 (fb350-2021) PDF p. 17 (printed 15), lines 461-532, effective
+    August 27, 2021; FB160 (fb160-2019) PDF p. 18 (printed 15), lines 626-697, effective
+    September 19, 2019; FB360 (fb360-2019) PDF p. 23 (printed 20), lines 784-855,
+    effective September 13, 2019; FB180 (fb180-2025) PDF pp. 18-19 (printed 17-18),
+    lines 529-590, effective June 01, 2025; MB500 (mb500-2014) PDF p. 10 (scan of
+    printed 16-17), OCR lines 497-600, effective August 1, 2014; MB550 (mb550-2018)
+    PDF p. 19 (printed 17), lines 664-735, effective August 21, 2018; MBX2500 (mbx2500-2018)
+    PDF p. 18 (printed 16), lines 515-586, effective August 21, 2018; SB120 (sb120-2022)
+    PDF p. 23 (printed 21), lines 813-884, effective July 19, 2022; SB150 (sb150-2018)
+    PDF p. 26 (printed 24), lines 798-866, effective August 21, 2018; SB240 (sb240-2023)
+    PDF pp. 38-40 (printed 37-39), lines 1166-1258, effective August 01, 2023; SB250
+    (sb250-2024) PDF p. 27 (printed 25), lines 893-961, effective June 21, 2019; SB2.5r
+    (sb25r-2020) PDF p. 19 (printed 17), lines 638-706, effective July 06, 2020; SB4500
+    (sb4500-2021) PDF p. 26 (printed 24), lines 890-960, effective August 10, 2021;
+    SB4.5r (sb45r-2013) PDF p. 23 (scan of printed 21), OCR lines 931-1029, effective
+    August 1, 2012; SB500 (sb500-2020) PDF p. 23 (printed 21), lines 827-897, effective
+    July 06, 2020; SB600 (sb600-2023) PDF pp. 41-43 (printed 40-42), lines 1051-1144,
+    effective August 01, 2023; UB120 (ub120-2023) PDF p. 22 (printed 19), lines 626-697,
+    effective December 06, 2023; RSX1500 (rsx1500-2021) PDF p. 28 (printed 25), lines
+    838-909, effective August 21, 2018; EU100 (eu100-2018) PDF p. 19 (printed 16),
+    lines 528-596, effective August 21, 2018; EU150 (eu150-2024) PDF p. 27 (printed
+    24), lines 736-804, effective April 26, 2024; FS150 (fs150-2016) PDF p. 26 (scan
+    of printed 24), OCR lines 1090-1181, effective June 6, 2016; FS1.5 (fs15-2019)
+    PDF p. 19 (printed 17), lines 622-690, effective February 15, 2019; FS2.5 (fs25-2020)
+    PDF p. 19 (printed 17), lines 681-749, effective July 06, 2020; FS3.0 (fs30-2018)
+    PDF p. 19 (printed 17), lines 665-733, effective August 21, 2018; FS3.5 (fs35-2020)
+    PDF p. 19 (printed 17), lines 673-741, effective July 06, 2020; FS5.9e (fs59e-2014)
+    PDF p. 27 (scan of printed 25), OCR lines 1235-1333, effective August 1, 2012;
+    SB500 2014 printing: registration PDF p. 3, OCR lines 31-74; warranty PDF p. 23
+    (scan of printed 21), OCR lines 965-1065, effective August 1, 2014; RSX1500 2017
+    printing: registration PDF p. 3, OCR lines 58-105; warranty PDF p. 26 (scan of
+    printed 24), OCR lines 1047-1145, effective December 20, 2017'
   extracted_at: '2026-09-11'
 ---
 
-**No.** Exclusion 5, printed in all nineteen Xterra treadmill books, puts outside the warranty:
+**No.** Exclusion 5 (item 4 in the ten eight-item bike and elliptical books), printed in all nineteen Xterra treadmill books and in all twenty-nine bike, elliptical and seated-stepper books that have a warranty page, puts outside the warranty:
 
 > Products that have been: sold, transferred, bartered, or given to a third party.
 
-Four routes out of the original buyer's hands are named and all four end the cover. The books state no way to reinstate it, name no transfer fee, and describe no procedure for a second owner. Exclusion 4 sits beside it: *products with original serial numbers that have been removed or altered* are excluded too, so a machine sold on with its serial sticker peeled off is outside the warranty on both counts.
+Four routes out of the original buyer's hands are named and all four end the cover. The books state no way to reinstate it, name no transfer fee, and describe no procedure for a second owner. The five folding-bike books say it a second time, in plain words, on their front pages: *This warranty is not transferable and is extended only to the original owner* (`xterra-fb-warranty-front-page-90-day-statement-not-transferable-and-no-commercial-use`, `xterra-fb-warranty-front-page-one-year-statement-against-a-90-day-parts-table`). The FS5.8e scan has no warranty page (`fs58e-2013-warranty-page-not-in-the-scanned-manual`). Exclusion 4 sits beside it: *products with original serial numbers that have been removed or altered* are excluded too, so a machine sold on with its serial sticker peeled off is outside the warranty on both counts.
 
 The eleven older-layout books also tie the warranty to a registration on file for the original purchaser (`xterra-treadmill-warranty-registration-card-within-10-days-or-no-cover`); the Online-Support books do not, but their exclusion 5 is the same (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`). The wording is the Spirit and Sole wording (`xt-2023-warranty-transfer`, `f65-2026-warranty-transfer`).
 
 The full exclusion lists are `xterra-treadmill-warranty-exclusions-nine-items-store-display-and-unregistered-products`, `xterra-trx-warranty-exclusions-nine-items-floor-models-corrosion-and-discoloration` and `xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`.
-

@@ -2,8 +2,8 @@
 id: xterra-treadmill-console-wearing-the-chest-strap-and-its-2500-hour-battery
 title: Wearing the chest strap, with a transmitter battery of 2500 hours
 kind: procedure
-question: How do I wear the heart-rate chest strap on an Xterra TR6.6, TRX4500 or
-  TRX5500 treadmill?
+question: How do I wear the heart-rate chest strap on an Xterra treadmill, bike or
+  elliptical whose book gives no battery type?
 asked_as:
 - how do i put on the chest strap
 - does the strap work over a shirt
@@ -21,9 +21,13 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - fs25-2020
+  - fs35-2020
+  - sb25r-2020
+  - sb500-2020
   - tr66-2021
   - trx4500-2024
   - trx5500-2024
@@ -35,10 +39,13 @@ see_also:
 - xterra-treadmill-console-chest-strap-not-included-with-a-cr2032-battery
 - xterra-treadmill-console-erratic-heart-rate-and-the-seven-interference-sources
 - tr66-2021-console-pulse-grips-or-the-included-telemetric-chest-strap
+- xterra-console-heart-icon-blinks-when-the-grips-or-strap-are-read
 source:
   ref: xterra-treadmill-trx4500-2024-owners-manual
   locator: Wearing the Chest Strap, PDF p. 18 (printed 16), text.md lines 670-697;
-    TR6.6 OM p. 24 lines 943-967; TRX5500 OM p. 27 lines 785-812
+    TR6.6 OM p. 24 lines 943-967; TRX5500 OM p. 27 lines 785-812; SB2.5r OM, PDF p.
+    17, text.md lines 538-567; FS2.5 OM, PDF p. 17, text.md lines 580-610; FS3.5 OM,
+    PDF p. 17, text.md lines 572-602; SB500 OM, PDF p. 21, text.md lines 740-764
   extracted_at: '2026-09-11'
 ---
 
@@ -52,4 +59,6 @@ source:
 Note: the transmitter activates when it detects heart activity and deactivates when it receives none. It is water resistant, but moisture can create false signals, so dry it after use to prolong battery life (estimated **2500 hours**). None of these three books names the battery type.
 
 **Whether a strap is in the box.** The TR6.6 book calls it "the included telemetric chest strap"; the TRX4500 and TRX5500 books say neither way. The 2023-2025 books that say "not included" and name a CR2032 are on [the other strap card](xterra-treadmill-console-chest-strap-not-included-with-a-cr2032-battery.md). What interferes with the reading is on [the erratic card](xterra-treadmill-console-erratic-heart-rate-and-the-seven-interference-sources.md).
+
+**Four bike and elliptical books print the same page with 2500 hours and no battery type.** The SB2.5r introduces it with "buy an optional heart rate strap that transmits your pulse wirelessly to the console" and calls the strap the more accurate of the two sources (grips or strap); the FS2.5 and FS3.5 head it "Wearing The Chest Strap * Sold Separately"; the SB500 says neither way, and its console page says the heart icon blinks with the grips "or by wearing the chest strap" ([heart icon card](xterra-console-heart-icon-blinks-when-the-grips-or-strap-are-read.md)). The SB4500 prints the wearing steps under "(Sold Separately)" but drops the battery-life sentence altogether ([card](../../sb4500-2021/console/bluetooth-4-0-ftms-always-on-for-apps-and-bluetooth-heart-rate-monitors.md)).
 

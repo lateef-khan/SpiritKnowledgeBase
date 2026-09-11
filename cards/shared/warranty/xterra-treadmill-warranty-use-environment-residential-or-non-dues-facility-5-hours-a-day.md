@@ -3,8 +3,9 @@ id: xterra-treadmill-warranty-use-environment-residential-or-non-dues-facility-5
 title: Residential use, or a non-dues paying facility running the machine 5 hours
   a day or less
 kind: policy
-question: Can an Xterra TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 or WS300 treadmill
-  be used in a facility or light commercial setting and keep its warranty?
+question: Can an Xterra TR65, TR75, TR85, TR75H, TR95H, TRX1400, WS200 or WS300 treadmill,
+  or an SB240 or SB600 bike, be used in a facility or light commercial setting and
+  keep its warranty?
 asked_as:
 - can i use my xterra treadmill in a gym
 - light commercial use warranty
@@ -24,9 +25,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - sb240-2023
+  - sb600-2023
   - tr65-2023
   - tr75-2024
   - tr75h-2025
@@ -45,6 +48,8 @@ see_also:
 - xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration
 - xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance
 - xt-2023-warranty-use-environment
+- sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column
+- sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year
 source:
   ref: xterra-treadmill-tr65-2023-owners-manual
   locator: 'Responsibilities lead sentence (first warranty page) and exclusions 2
@@ -57,7 +62,9 @@ source:
     1828-1920; TRX1400 (trx1400-2023) pp. 36-38 (printed 35-37), effective March 08,
     2023, text.md lines 1192-1285; WS200 (ws200-2023) pp. 32-34 (printed 31-33), effective
     August 07 2023, text.md lines 936-1029; WS300 (ws300-2023) pp. 32-34 (printed
-    31-33), effective August 07 2023, text.md lines 889-982'
+    31-33), effective August 07 2023, text.md lines 889-982. SB240 (sb240-2023) PDF
+    pp. 38-40 (printed 37-39), lines 1166-1258, effective August 01, 2023; SB600 (sb600-2023)
+    PDF pp. 41-43 (printed 40-42), lines 1051-1144, effective August 01, 2023'
   extracted_at: '2026-09-11'
 ---
 
@@ -67,7 +74,6 @@ The responsibilities lead sentence, on the first warranty page: *This warranty a
 
 Exclusion 8, on the second: the warranty does not cover *Product use in any environment other than a residential setting **or non-dues paying facility with 5 hours use or less per day*** (`xterra-treadmill-warranty-exclusions-nine-items-with-a-non-dues-facility-allowance`). Exclusion 2 points the same way, refusing service-call reimbursement for a treadmill *not in ordinary household or light commercial use*.
 
-So the covered envelope is a home, **or** a facility that charges no dues and runs the machine **five hours a day or less**. A dues-paying gym is outside it. No light-commercial table with shorter periods is printed; the one table is headed *Home Use Limited Warranty* and its *Residential* row applies (`tr65-2023-warranty-periods-frame-motor-lifetime-parts-and-labor-1-year`, `xterra-tr-warranty-periods-frame-motor-lifetime-parts-2-years-labor-1-year`, `xterra-tr-warranty-periods-frame-lifetime-parts-2-years-labor-1-year-no-motor-column`, `xterra-treadmill-warranty-periods-frame-lifetime-parts-and-labor-90-days-no-motor-column`). No contents-page ATTENTION box appears in these eight books.
+So the covered envelope is a home, **or** a facility that charges no dues and runs the machine **five hours a day or less**. A dues-paying gym is outside it. No light-commercial table with shorter periods is printed; the one table is headed *Home Use Limited Warranty* and its *Residential* row applies (`tr65-2023-warranty-periods-frame-motor-lifetime-parts-and-labor-1-year`, `xterra-tr-warranty-periods-frame-motor-lifetime-parts-2-years-labor-1-year`, `xterra-tr-warranty-periods-frame-lifetime-parts-2-years-labor-1-year-no-motor-column`, `xterra-treadmill-warranty-periods-frame-lifetime-parts-and-labor-90-days-no-motor-column`). No contents-page ATTENTION box appears in these eight treadmill books, nor in the SB240 and SB600, which print the same two sentences with *Recumbent Bike* for *treadmill* (`sb240-2023-warranty-periods-parts-1-year-only-no-frame-or-labor-column`, `sb600-2023-warranty-periods-frame-lifetime-parts-2-years-labor-1-year`). The FB180, in the same layout, does **not** admit a facility - its exclusion 8 stops at *residential setting* (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`).
 
 **The eleven older-layout Xterra books admit no facility at all** - residential only, any other application voids the warranty in its entirety (`xterra-treadmill-warranty-use-environment-residential-only-any-other-use-voids-it`). This wording is the Spirit XT 2023 wording (`xt-2023-warranty-use-environment`).
-

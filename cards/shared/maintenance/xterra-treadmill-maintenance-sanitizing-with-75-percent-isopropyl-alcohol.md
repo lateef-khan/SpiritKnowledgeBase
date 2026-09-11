@@ -3,7 +3,7 @@ id: xterra-treadmill-maintenance-sanitizing-with-75-percent-isopropyl-alcohol
 title: Sanitizing hard plastics with a 75% isopropyl alcohol spray and a dry cloth,
   and conditioning soft surfaces afterwards
 kind: procedure
-question: How do I sanitize or disinfect an Xterra treadmill?
+question: How do I sanitize or disinfect an Xterra treadmill or recumbent bike?
 asked_as:
 - how to disinfect my xterra treadmill
 - what can i spray on the treadmill to sanitize
@@ -22,9 +22,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - sb240-2023
+  - sb600-2023
   - tr65-2023
   - tr75-2024
   - tr75h-2025
@@ -44,7 +46,8 @@ source:
   ref: xterra-treadmill-trx1400-2023-owners-manual
   locator: TRX1400 OM PDF p. 27 (text.md lines 795-825); TR65 OM p. 32 (1090-1123);
     TR75 OM p. 35 (1020-1052); TR85 OM p. 35 (1019-1052); WS200 OM p. 27 (712-741);
-    WS300 OM p. 27 (713-742); TR95H OM p. 43 (1539-1568); TR75H OM p. 38 (1368-1397)
+    WS300 OM p. 27 (713-742); TR95H OM p. 43 (1539-1568); TR75H OM p. 38 (1368-1397);
+    SB240 OM p. 35 (printed 34; 1070-1090); SB600 OM p. 39 (printed 38; 954-974)
   extracted_at: '2026-09-11'
 ---
 
@@ -54,5 +57,5 @@ source:
 - **For upholstered or soft-plastic surfaces, use a conditioner after sanitizing.** Follow the instructions provided by the conditioner manufacturer.
 - Alternatively, make your own spray by mixing the proper ratio of isopropyl alcohol and distilled water to reach a 75% solution.
 
-The Xterra books stop there. The Spirit version of this page adds a support-site link and a wear-parts warning that these books do not print; that is `ct900-sanitizing-equipment`, another brand. The older-layout Xterra books say only "use water only - no cleaners or abrasives" on the deck (`xterra-treadmill-maintenance-wipe-under-the-belt-edge-every-other-month`) and have no sanitizing instructions.
+The SB240 and SB600 recumbent bikes print the same three bullets word for word (compared with difflib against the TRX1400 page: the only differences on the page are in the post-workout column). The Xterra books stop there. The Spirit version of this page adds a support-site link and a wear-parts warning that these books do not print; that is `ct900-sanitizing-equipment`, another brand. The older-layout Xterra books say only "use water only - no cleaners or abrasives" on the deck (`xterra-treadmill-maintenance-wipe-under-the-belt-edge-every-other-month`) and have no sanitizing instructions.
 

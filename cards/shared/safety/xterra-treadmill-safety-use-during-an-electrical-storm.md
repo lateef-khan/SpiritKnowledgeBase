@@ -3,7 +3,8 @@ id: xterra-treadmill-safety-use-during-an-electrical-storm
 title: Never use the treadmill during an electrical storm, and the books that add
   unplug it
 kind: policy
-question: Can an Xterra treadmill be used during a thunderstorm or electrical storm?
+question: Can an Xterra treadmill, bike, elliptical or seated stepper be used during
+  a thunderstorm or electrical storm?
 asked_as:
 - can i use the treadmill in a thunderstorm
 - should i unplug the treadmill during a storm
@@ -20,9 +21,17 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - fs58e-2013
+  - fs59e-2014
+  - rsx1500-2021
+  - sb240-2023
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -52,6 +61,9 @@ see_also:
 - xterra-treadmill-safety-speed-and-incline-changes-are-gradual
 - xt-2023-safety-use-during-an-electrical-storm
 - f65-2026-use-during-electrical-storm
+- xterra-safety-electrical-and-operation-instructions-40-to-120-f
+- xterra-sb-safety-electrical-safety-page
+- xterra-safety-distractions-while-exercising
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'IMPORTANT OPERATION INSTRUCTIONS: TR150 OM PDF p. 7 (lines 209-244); TR200
@@ -63,11 +75,18 @@ source:
     OM PDF p. 7 (lines 161-198); TR75 OM PDF p. 7 (lines 162-199); TR75H OM PDF p.
     7 (lines 171-208); TR85 OM PDF p. 7 (lines 162-199); TR95H OM PDF p. 7 (lines
     161-198); TRX1400 OM PDF p. 7 (lines 162-199); WS200 OM PDF p. 7 (lines 163-200);
-    WS300 OM PDF p. 7 (lines 164-201)'
+    WS300 OM PDF p. 7 (lines 164-201); the same rule on the bikes, ellipticals and
+    stepper: SB240 OM PDF p. 8 (lines 201-238); SB600 OM PDF p. 8 (lines 202-239);
+    FS5.8e OM PDF p. 5 (printed 3; OCR supplement from line 167); FS5.9e OM PDF p.
+    5 (printed 3; OCR supplement from line 157); RSX1500 OM PDF p. 6 (printed 3; lines
+    134-172); 2017 printing PDF p. 5 (OCR supplement from line 180); SB4500 OM PDF
+    p. 5 (printed 3; lines 134-163); SB4.5r OM PDF p. 5 (printed 3; OCR supplement
+    from line 163); SB500 OM PDF p. 5 (printed 3; lines 123-169); 2014 printing PDF
+    p. 5 (OCR supplement from line 152)'
   extracted_at: '2026-09-11'
 ---
 
-**All nineteen manuals print the rule; twelve of them add a second sentence.**
+**All nineteen treadmill manuals print the rule, and eight bike, elliptical and stepper books; fourteen of the twenty-seven add a second sentence.**
 
 The seven older-layout books (TR150, TR200, TR300, TR6.6, TRX1000, TR260, TR6.4), under IMPORTANT
 OPERATION INSTRUCTIONS:
@@ -91,4 +110,13 @@ not a warranty matter either (`xterra-treadmill-safety-electrical-information-pa
 
 The Spirit XT-2023 and Sole F65-2026 books print the same sentence for their own machines
 (`xt-2023-safety-use-during-an-electrical-storm`, `f65-2026-use-during-electrical-storm`).
+
+**Bikes, ellipticals and the seated stepper.** Eight of the thirty non-treadmill books print the rule;
+the twenty-two others (every battery-console machine and every plug-in book with a Power paragraph)
+say nothing about storms.
+
+| Books | Wording |
+|---|---|
+| SB500 (both printings), SB4.5r, SB4500, RSX1500 (both printings), FS5.8e, FS5.9e | `NEVER use your [fitness bike / Seated Stepper / elliptical] during an electrical storm. Surges may occur in your household power supply that could damage [machine] components.` - the older wording, no unplug sentence (`xterra-safety-electrical-and-operation-instructions-40-to-120-f`) |
+| SB240, SB600 | the new-layout wording with `Unplug the unit during an electrical storm as a precaution.` (`xterra-sb-safety-electrical-safety-page`) |
 

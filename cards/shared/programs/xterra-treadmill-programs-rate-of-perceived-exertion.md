@@ -23,9 +23,19 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air650-2021
+  - fs30-2018
+  - fs58e-2013
+  - fs59e-2014
+  - rsx1500-2021
+  - sb240-2023
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr300-2021
   - tr64-2024
   - tr65-2023
@@ -57,7 +67,7 @@ source:
     TRX5500 p. 29, lines 882-926; TRX1400 p. 26, lines 763-795; TR65 p. 31, lines
     1058-1090; TR75 p. 34, lines 988-1020; TR85 p. 34, lines 987-1019; TR95H p. 42,
     lines 1505-1539; TR75H p. 37, lines 1334-1368; WS200 p. 26, lines 680-712; WS300
-    p. 26, lines 681-713
+    p. 26, lines 681-713 BIKES, ELLIPTICALS AND CLIMBER (2026-09-11) - SB500 OM "Rate of Perceived Exertion" p. 20 (printed 18), lines 696-740 (2014 printing p. 20, OCR supplement from line 803); SB4.5r OM (scan) p. 21, supplement from line 838; SB4500 p. 24, lines 818-862; SB240 "Heart Rate - Perceived Exertion" p. 34, lines 1041-1070; SB600 p. 37, lines 904-933; AIR650 p. 19, lines 600-644; FS3.0 p. 17, lines 599-643; FS5.8e (scan) p. 24, supplement from line 1017; FS5.9e (scan) p. 24, supplement from line 1051; RSX1500 p. 26, lines 759-803 (2017 printing p. 24, supplement from line 953)
   extracted_at: '2026-09-11'
 ---
 
@@ -95,3 +105,8 @@ pace feels harder, so you train at the proper level for that day.
 Printed identically in fifteen Xterra treadmill books; the TR150, TR200, TR260 and TRX1000
 books do not carry it.
 
+**The same page on the bikes, ellipticals and climber.** The SB500 (both printings), SB4.5r,
+SB4500, SB240, SB600, AIR650, FS3.0, FS5.8e, FS5.9e and RSX1500 (both printings) print the
+scale and the add-a-zero rule word for word (the SB4.5r's "also know as the Borg scale" is
+its only slip). The SB150, SB250, EU150, FS150, SB2.5r, FS1.5, FS2.5, FS3.5 and the twelve
+basic consoles print no perceived exertion page.

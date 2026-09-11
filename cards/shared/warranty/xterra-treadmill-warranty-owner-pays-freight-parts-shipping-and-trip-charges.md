@@ -3,8 +3,8 @@ id: xterra-treadmill-warranty-owner-pays-freight-parts-shipping-and-trip-charges
 title: What the owner pays during a warranty repair - freight, parts shipping, and
   a trip charge that doubles beyond 100 miles
 kind: policy
-question: What costs do I have to pay for warranty service on an Xterra treadmill
-  - shipping, parts, or a technician visit?
+question: What costs do I have to pay for warranty service on an Xterra treadmill,
+  bike, elliptical or seated stepper - shipping, parts, or a technician visit?
 asked_as:
 - do i pay shipping for warranty parts on my xterra
 - is there a trip charge for in home warranty service
@@ -24,9 +24,26 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - air350-2019
+  - air650-2021
+  - fb150-2021
+  - fb160-2019
+  - fb350-2021
+  - fb360-2019
+  - fs59e-2014
+  - mb500-2014
+  - mb550-2018
+  - mbx2500-2018
+  - rsx1500-2021
+  - sb120-2022
+  - sb240-2023
+  - sb4500-2021
+  - sb45r-2013
+  - sb500-2020
+  - sb600-2023
   - tr150-2021
   - tr200-2021
   - tr260-2023
@@ -44,12 +61,14 @@ facets:
   - trx3500-2024
   - trx4500-2024
   - trx5500-2024
+  - ub120-2023
   - ws200-2023
   - ws300-2023
   section: warranty
   code: '*'
 authority: 3
-not_to_be_confused_with: []
+not_to_be_confused_with:
+- xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed
 see_also:
 - xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the-service-department
 - xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card
@@ -57,6 +76,8 @@ see_also:
 - xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration
 - xt-2023-warranty-owner-costs
 - spirit-2026t-warranty-owner-costs
+- xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed
+- fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts
 source:
   ref: xterra-treadmill-tr150-2021-owners-manual
   locator: 'SERVICE step 4 on every warranty page: TR150 (tr150-2021) p. 22 (printed
@@ -81,7 +102,30 @@ source:
     (printed 39), effective March 20, 2024, text.md lines 1272-1341; WS200 (ws200-2023)
     pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines 936-1029; WS300
     (ws300-2023) pp. 32-34 (printed 31-33), effective August 07 2023, text.md lines
-    889-982'
+    889-982. AIR350 (air350-2019) PDF p. 19 (printed 16), lines 390-461, effective
+    June 13, 2019; AIR650 (air650-2021) PDF p. 21 (printed 18), lines 694-765, effective
+    December 12, 2020; FB150 (fb150-2021) PDF p. 15 (printed 13), lines 396-467, effective
+    August 27, 2021; FB350 (fb350-2021) PDF p. 17 (printed 15), lines 461-532, effective
+    August 27, 2021; FB160 (fb160-2019) PDF p. 18 (printed 15), lines 626-697, effective
+    September 19, 2019; FB360 (fb360-2019) PDF p. 23 (printed 20), lines 784-855,
+    effective September 13, 2019; MB500 (mb500-2014) PDF p. 10 (scan of printed 16-17),
+    OCR lines 497-600, effective August 1, 2014; MB550 (mb550-2018) PDF p. 19 (printed
+    17), lines 664-735, effective August 21, 2018; MBX2500 (mbx2500-2018) PDF p. 18
+    (printed 16), lines 515-586, effective August 21, 2018; SB120 (sb120-2022) PDF
+    p. 23 (printed 21), lines 813-884, effective July 19, 2022; SB240 (sb240-2023)
+    PDF pp. 38-40 (printed 37-39), lines 1166-1258, effective August 01, 2023; SB4500
+    (sb4500-2021) PDF p. 26 (printed 24), lines 890-960, effective August 10, 2021;
+    SB4.5r (sb45r-2013) PDF p. 23 (scan of printed 21), OCR lines 931-1029, effective
+    August 1, 2012; SB500 (sb500-2020) PDF p. 23 (printed 21), lines 827-897, effective
+    July 06, 2020; SB600 (sb600-2023) PDF pp. 41-43 (printed 40-42), lines 1051-1144,
+    effective August 01, 2023; UB120 (ub120-2023) PDF p. 22 (printed 19), lines 626-697,
+    effective December 06, 2023; RSX1500 (rsx1500-2021) PDF p. 28 (printed 25), lines
+    838-909, effective August 21, 2018; FS5.9e (fs59e-2014) PDF p. 27 (scan of printed
+    25), OCR lines 1235-1333, effective August 1, 2012; SB500 2014 printing: registration
+    PDF p. 3, OCR lines 31-74; warranty PDF p. 23 (scan of printed 21), OCR lines
+    965-1065, effective August 1, 2014; RSX1500 2017 printing: registration PDF p.
+    3, OCR lines 58-105; warranty PDF p. 26 (scan of printed 24), OCR lines 1047-1145,
+    effective December 20, 2017'
   extracted_at: '2026-09-11'
 ---
 
@@ -94,5 +138,4 @@ Warranty step 4 puts four costs on the customer even while the machine is under 
 
 The sentence before them sets the frame: XTERRA Fitness' obligation is *limited to repairing or replacing, at XTERRA Fitness' option, the product through one of our authorized service centers*, and **all repairs must be preauthorized**. No figure is printed for the trip charge or the shipping; the books state only who pays.
 
-**The same paragraph is in all nineteen Xterra treadmill books**, in the older, 2024 TRX and Online-Support layouts alike, and it is the Spirit paragraph with the brand changed (`xt-2023-warranty-owner-costs`, `spirit-2026t-warranty-owner-costs`). Two neighbouring costs sit on other cards: making the treadmill accessible for servicing is consumer responsibility 3 or 4 (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`, `xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`), and packaging for a return is step 5 of `xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the-service-department`, which also carries the return-authorization rule.
-
+**The same paragraph is in all nineteen Xterra treadmill books**, in the older, 2024 TRX and Online-Support layouts alike, **and in eighteen bike, elliptical and seated-stepper books** (AIR350, AIR650, FB150, FB350, FB160, FB360, MB500, MB550, MBX2500, SB120, SB240, SB4500, SB4.5r, SB500, SB600, UB120, RSX1500, FS5.9e, both printings of the SB500 and RSX1500). **Ten bike and elliptical books print a shorter step 4 that stops after shipping and handling and names no trip charge** - the SB150, SB250, SB2.5r, EU100, EU150, FS150, FS1.5, FS2.5, FS3.0 and FS3.5 (`xterra-warranty-owner-pays-freight-and-parts-shipping-no-trip-charge-printed`) - and the FB180 prints no service steps at all (`fb180-2025-warranty-service-steps-not-printed-use-the-cover-contacts`). It is the Spirit paragraph with the brand changed (`xt-2023-warranty-owner-costs`, `spirit-2026t-warranty-owner-costs`). Two neighbouring costs sit on other cards: making the treadmill accessible for servicing is consumer responsibility 3 or 4 (`xterra-treadmill-warranty-consumer-responsibilities-five-items-with-a-registration-card`, `xterra-trx-warranty-consumer-responsibilities-seven-items`, `xterra-treadmill-warranty-consumer-responsibilities-five-items-without-registration`), and packaging for a return is step 5 of `xterra-treadmill-warranty-service-steps-dealer-service-organization-then-the-service-department`, which also carries the return-authorization rule.

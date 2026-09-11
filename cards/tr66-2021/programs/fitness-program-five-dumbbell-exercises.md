@@ -23,9 +23,11 @@ keywords:
 facets:
   brand:
   - xterra
-  product_line: treadmill
-  model: tr66-2021
+  product_line: '*'
+  model: '*'
   applies_to:
+  - fs58e-2013
+  - fs59e-2014
   - tr66-2021
   section: programs
   code: '*'
@@ -37,7 +39,7 @@ see_also:
 source:
   ref: xterra-treadmill-tr66-2021-owners-manual
   locator: TR6.6 OM "Fitness Program - Strength Exercises", PDF p. 20-21 (printed
-    18-19), text.md lines 721-815
+    18-19), text.md lines 721-815 ELLIPTICALS (2026-09-11) - FS5.8e OM (scan) "Fitness Program - Strength Exercises", PDF p. 20-21 (printed 18-19), OCR supplements from text.md lines 781 and 835; FS5.9e OM (scan) p. 20-21 (18-19), supplements from lines 801 and 855
   extracted_at: '2026-09-11'
 ---
 
@@ -85,3 +87,6 @@ hand position emphasises the chest and shoulders; a narrower one the triceps.
 
 Spirit's Fusion program uses the same five exercises; see `see_also`.
 
+**The same two pages on the FS5.8e and FS5.9e ellipticals**, exercise for exercise and step for
+step; their Fitness program (level 5 top resistance, 10-12 repetitions in a 0:30 interval,
+a low-resistance cool down) is on `xterra-fs-programs-fitness-program-alternates-elliptical-cardio-with-dumbbell-strength-intervals`.
