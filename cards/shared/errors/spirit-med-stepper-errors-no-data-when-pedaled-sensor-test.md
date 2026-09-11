@@ -36,17 +36,21 @@ authority: 3
 not_to_be_confused_with:
 - spirit-med-stepper-errors-symmetry-or-watt-reading-wrong
 - csc900-2024-errors-speed-abnormal-then-data-resets
+- 85s-2025-errors-no-data-when-pedaled-angle-sensor-5-volts-and-3-mm-magnet-gap
 see_also:
 - spirit-med-stepper-errors-symmetry-or-watt-reading-wrong
 - spirit-med-stepper-errors-no-power-outlet-and-dc-wire
 - spirit-med-stepper-errors-one-pedal-has-no-resistance-drive-cable
+- spirit-med-stepper-errors-left-right-step-graph-incorrect-step-sensor-5-volts-and-7-to-9-mm
+- 85s-2025-errors-no-data-when-pedaled-angle-sensor-5-volts-and-3-mm-magnet-gap
 source:
   ref: spirit-climber-70s-2025-owners-manual
-  locator: 'Troubleshooting, "Program starts but no data registers", printed page 40
+  locator: Troubleshooting, "Program starts but no data registers", printed page 40
     (PDF page 42) of the 7.0S 2025 manual; the same text on printed page 42 (PDF page
-    44) of the 7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021 manual.
-    Read from the native text layer and confirmed against a 300 dpi render of the 7.0S
-    page.'
+    44) of the 7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021
+    manual. Read from the native text layer and confirmed against a 300 dpi render
+    of the 7.0S page; 7.5S (RS9600-SS021) service manual 5.2.3, "Program Starts But
+    No Watts Value When Stepper is Pedaled", PDF p. 15-16, text.md lines 152-165
   extracted_at: '2026-09-10'
 ---
 
@@ -77,3 +81,18 @@ the watts look wrong, go to `spirit-med-stepper-errors-symmetry-or-watt-reading-
 
 The stair climbers read their speed from a light sensor and a grating instead, and their answer is
 not this one (`csc900-2024-errors-speed-abnormal-then-data-resets`).
+
+## The 7.5S service manual prints the procedure behind the owner's-manual row, for the RPM sensor
+
+Its heading is *Program Starts But No Watts Value When Stepper is Pedaled*, and it is the speed sensor - not the step sensor - that it works through:
+
+> i. Make sure all the cables in the back of console were plugged in properly.
+> ii. Open the left shroud and make sure the cable is connected to the RPM sensor board properly.
+> iii. Run the Sensor Test in Maintenance mode.
+> iv. The **PULSE window should show ON** when the bolt is aligned to the sensor and RPM should show when the stepper is pedaled. Go to the next step if PULSE window didn't switch to ON when the bolt is aligned to the sensor.
+> v. Adjust the position of the sensor to align the sensor to the bolt. Make sure the surface of the sensor is parallel to the bolt and has a **1~2mm gap** between sensor and bolt. If the problem persists, go to next step.
+> vi. Measure between **pin 1 and pin 3** of the cable that connects to the RPM sensor board for **5V DC**. If there is no 5V DC, check the connection of the cable or replace the cable. Replace the sensor board if there is 5V DC.
+
+**The RPM sensor watches the four bolt heads on the flywheel**, one pass per bolt, and the PULSE window of the Sensor Test flips ON as each bolt passes. Gap first (1 to 2 mm, sensor face parallel to the bolt), then 5 V on pins 1 and 3, then the board.
+
+**The step sensor is the other half of "both sensors"** in the owner's-manual row, and its procedure - a 7 to 9 mm gap and the counters at about 17 - is the step-graph card (`spirit-med-stepper-errors-left-right-step-graph-incorrect-step-sensor-5-volts-and-7-to-9-mm`). **The 8.5S has no RPM sensor of this kind**; its speed comes from an angle sensor and a magnet on the brake shaft with a 3 mm gap (`85s-2025-errors-no-data-when-pedaled-angle-sensor-5-volts-and-3-mm-magnet-gap`).

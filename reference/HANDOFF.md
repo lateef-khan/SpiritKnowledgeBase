@@ -1,7 +1,8 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after the treadmill,
-bike and elliptical sub-waves of 3a merged. Nothing is ingested but uncarded.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-11** after all four
+sub-waves of 3a merged; 3a is done except the twelve Spirit medical books the Xterra
+folder holds (see 3a-bis). Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -13,11 +14,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **7,353** |
+| cards | **7,628** |
 | `kb lint` | 0 problems |
-| declared model ids | **309** (193 Spirit, 116 Sole) — every one has at least one card |
-| sources ingested | 433 |
-| machines carrying `model_number` | **215** of 243 with single-machine cards |
+| declared model ids | **312** (196 Spirit, 116 Sole) — every one has at least one card |
+| sources ingested | 451 |
+| machines carrying `model_number` | **230** of 258 with single-machine cards |
 
 Check it yourself:
 
@@ -141,6 +142,34 @@ book), `xe195-2016`, `xe295-2016`, `xe395-2016`, `xe795-2016`, `xg400-2016`,
 one fact and are now one card with `product_line: '*'` — when a fact is the
 same Dyaco page across product lines and carries no line-specific figure, make
 it one card, not one per line.
+
+**Rowers, climbers/steppers, medical, strength, sheets: done** (PR #57,
+2026-09-11) — 18 sources, 274 new cards, 214 extended. Three new ids:
+`cr1000ent-2023` (a bike filed under Rowers), `crw800-2016` (800945) and
+`cs800-2016` (800645). The XS895 "enter EM and reset ODO" video was described
+frame by frame (no ffmpeg on PATH; `.venv` has `imageio_ffmpeg`) and cited as
+corroboration only. The two 2019 sheets are `product_line: '*'` cards whose
+`applies_to` holds the ids current in March 2019; MS350/MR100/MU100 have no ids.
+
+### 3a-bis. Spirit medical books in the Xterra folder, and owner's manuals the
+### handoff wrongly called done
+
+`Xterra Service Manuals/Bikes/MEDICAL/` and `Treadmills/MEDICAL/` hold twelve
+February-2026 exports with the SKU on the cover: 4.0R 740145, 4.0U 740245,
+7.0R 770145, 7.0S 770545, 7.0U 770245, 7.5S 775545, 8.0U 780245, 8.5R 784145,
+8.5UE 785045, 4.0T 740885 (ST8700A-ST026-01, a newer revision), 7.0T 770885
+(99.7% the DYACO MT8000 book carded as `mt200-2022` — so those cards must gain
+`70t-2026`), 8.0T 780885. **The six medical bikes have no id and no card**, yet
+their owner's manuals sit in `Spirit Owners Manuals/Bikes/4.0R`, `4.0U`, `70R`,
+`70U`, `8.0U` and `Treadmills/8.5R` — nine PDFs the manifest never saw. A hash
+check of the whole owner's folder (2026-09-11) also found: `XT485/2013/485812
+XT485.pdf` (dbo.MODEL "XT485-2013"), two Lexmark scans of the 2013 CT850
+(850812 / 850813, no text layer), `CU800/2015/CU800_OM_800312.pdf` (secured
+scan), `bike backup/XBR95/XBR95_NewStyle_OM_2024_0715.pdf` (©2023), three
+strength files (one with a shifted font encoding), `Treadmills/70T/740881 -
+70T.pdf` (©2024, 32% of the 2026 book — an earlier 7.0T), and 2025 printings
+of the 4.0T / 7.0T / CR900 / CU900 books at ~90%. The plan is in the session
+scratchpad as `plan-medical-and-om-gaps.md`; run it as one wave before 3b.
 
 Two things the wave learned about the method: tesseract cannot read a
 photographed page (the E-50H bulletin got 8–19 words a page and was typed by

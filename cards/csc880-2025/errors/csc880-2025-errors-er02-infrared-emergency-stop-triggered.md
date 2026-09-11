@@ -43,7 +43,10 @@ source:
   ref: spirit-climber-csc880-2025-owners-manual
   locator: TROUBLESHOOTING, row 2 of the No./Problem/Causes/Solution table, printed
     page 33 (PDF page 35), read from the native text layer and confirmed against a
-    400 dpi render
+    400 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting, "CSC880
+    electrical malfunction Troubleshooting" table row 2, PDF p. 8 - the page is a
+    flat picture (text.md lines 123-128 hold only the heading; OCR supplement lines
+    428-505) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -70,3 +73,5 @@ it does not say to investigate what interrupted it.
 (`csc900-2024-errors-er07-emergency-stop-switch-failure`). A machine stuck in stop mode showing the
 word `Safe` instead of a code is a third thing:
 `csc880-2025-errors-safe-in-the-display-emergency-stop-wiring`.
+
+**The CSC880 service manual prints this row word for word**, as row 2 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row.

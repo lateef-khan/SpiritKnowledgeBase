@@ -1,9 +1,10 @@
 ---
 id: crw800-2024-safety-console-runs-on-two-c-batteries
-title: The console runs on two C batteries, and the manual names no outlet, voltage or amperage
+title: The console runs on two C batteries, and the manual names no outlet, voltage
+  or amperage
 kind: fact
-question: What outlet, voltage and amperage does a Spirit CRW800 rower need, and how is its
-  console powered?
+question: What outlet, voltage and amperage does a Spirit CRW800 rower need, and how
+  is its console powered?
 asked_as:
 - does the crw800 rower need to be plugged in
 - what batteries does the rower console take
@@ -40,10 +41,20 @@ see_also:
 - crw800-2024-safety-instructions-list
 - crw800-2024-safety-no-compliance-page
 - ct900ent-operating-environment-voltage
+- spirit-ct800-safety-outlet-120-volt-15-amp
+- spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: 'BATTERY INSTALLATION, under Powering On & Starting Operation; and ELECTRICAL SAFETY &
-    IMPORTANT OPERATION INSTRUCTIONS, printed page 5 (PDF page 7), which names no supply at all'
+  locator: 'BATTERY INSTALLATION, under Powering On & Starting Operation; and ELECTRICAL
+    SAFETY & IMPORTANT OPERATION INSTRUCTIONS, printed page 5 (PDF page 7), which
+    names no supply at all. CRW800 (800940) service manual for the crw800-2021, in
+    spirit-rower-crw800-2021-service-manual: no safety chapter (contents PDF pp. 2-3,
+    text.md lines 10-62); 11-10 Batteries replacement, PDF p. 60 (printed 59), lines
+    917-924; 6-1-4 Generator controller connector, PDF p. 29 (printed 28), lines 385-405.
+    CRW800-2016 (CW800-YR001) service manual, in spirit-rower-crw800-2016-service-manual:
+    7 Product Safety Instructions, PDF p. 29, lines 371-398; 8.6 Console problem (power
+    adapter and DC jack), PDF p. 39, lines 523-526. Power requirements sheet, ROWER
+    row, PDF p. 2, line 72, in spirit-commercial-power-requirements-sheet-2019.'
   extracted_at: '2026-09-10'
 ---
 
@@ -92,3 +103,20 @@ water rower or an AA for a CRW800.
 list `1 Power Cord` among the parts (`spirit-xe-safety-outlet-110-volt-15-amp`). The XRW600 and the
 CRW800 are both air rowers and are powered completely differently; read the figure off the book for
 the machine in front of you.
+
+## The 2021 service manual agrees, and the 2016 CRW800 was a plug-in machine
+
+**The CRW800 (800940) service manual for the CRW800-2021 has no Product Safety Instructions chapter and no outlet,
+voltage or amperage anywhere.** Its contents run Outlines, Electronic Parts, Electrical Configurations, Product
+Operation, Unit Block Diagrams, Basic Connections and Wiring, Error Messages, Circuit diagram, Exploded View, Part
+Replacement and Troubleshooting. What it does describe is the supply this card gives: a battery cover with one screw on
+the back of the console (`11-10 Batteries replacement`), and, in addition, a generator with its own controller
+connector and a generator-motor replacement procedure. So the 2021 machine is battery **and** generator; the owner's
+manual names only the batteries.
+
+**The CRW800-2016 (CW800-YR001) service manual describes a different rower under the same name.** Its console is fed by
+a `power adapter` plugged into a `DC jack`, a DC power cord runs to a gear motor, and its chapter 7 asks for a
+`120-volt, 15-amp grounded outlet` with the machine alone on the circuit
+(`spirit-ct800-safety-outlet-120-volt-15-amp`). The 2019 Spirit Fitness power sheet lists the CRW800 in its 120V/15AMP
+column with a NEMA 5-15P plug (`spirit-commercial-safety-non-treadmill-120-volt-15-amp-or-self-generating`) - that is the
+2016 machine. **Ask the year before answering a CRW800 owner about power**: 2016 plugs in, 2021 and 2024 do not.

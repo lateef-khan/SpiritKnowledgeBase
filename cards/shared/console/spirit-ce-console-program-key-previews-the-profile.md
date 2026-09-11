@@ -94,7 +94,8 @@ source:
     (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), text.md
     lines 264-265; CE850 (2020) service manual BASIC INFORMATION, PDF p. 16 (printed
     16), lines 319-320; CE900 (SE8800-SE026) service manual BASIC INFORMATION, PDF
-    p. 15 (printed 15), lines 259-261
+    p. 15 (printed 15), lines 259-261.
+    CRS800S (2020 ver.) service manual BASIC INFORMATION, PDF p. 13 (printed 13), text.md lines 180-181; CS800 (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 15 (printed 14), lines 261-262
   extracted_at: '2026-09-09'
 ---
 
@@ -170,3 +171,8 @@ enter the data set-up mode.
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same preview by pressing each program key, then Enter.
 
 **Three elliptical service manuals print the preview sentence in their Product Operation chapters** - the CE800 (2020) and CE850 (2020) with one **Program button** that previews each program, the CE900 (SE8800-SE026) with **one key per program** and Enter to select - word for word with the owner's manuals.
+
+**The CRS800S (2020 ver.) and CS800 (2020) stepper service manuals print the preview sentence word
+for word** - "The Program Key is used to preview each program", one Program button stepping through
+the profiles, Enter to select and enter data set-up - and the CRS800S book's Function Button
+Locations page labels that single **Program Key** on the console.

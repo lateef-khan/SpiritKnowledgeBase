@@ -38,6 +38,7 @@ not_to_be_confused_with:
 see_also:
 - spirit-indoor-cycle-air-bike-warranty-use-environment
 - spirit-air-bike-warranty-periods
+- spirit-commercial-warranty-sheet-2019-footnotes
 source:
   ref: spirit-bike-cic800-2021-owners-manual
   locator: >-
@@ -45,6 +46,7 @@ source:
     spirit-bike-cic800-2021-owners-manual text.md line 439. The other two:
     spirit-bike-cb900-2013-owners-manual p. 13 (text.md line 410);
     spirit-bike-cic850-2022-owners-manual p. 36 (column heading line 784, footnote line 789)
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints a third definition against the CIC800: "*** Wear Items are grips, seats and pedal straps.".
   extracted_at: '2026-09-09'
 ---
 
@@ -63,6 +65,15 @@ source:
 **The CIC850 puts the console in this column.** Its heading reads *Console & Wear Items* where the other two read *Wear Items*, so on that machine the console carries the same **1 Year** as the grips. The footnote itself never mentions the console - only the heading does. The CB900 and CIC800 warrant no console period anywhere (`spirit-indoor-cycle-warranty-three-row-periods`).
 
 **A shorter period than the parts warranty, on parts a rider touches every session.** Parts are 3 Years on all three machines; the grips, end caps and straps are 1 Year. That is the practical answer to "are the grips covered" a year and a day after purchase: no.
+
+## The 2019 warranty sheet prints a fourth list
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, footnotes the CIC800's Wear Items row with "grips, seats and pedal
+straps".** Grips are on every list; **the seat is a wear item on the sheet and on none of the
+three manuals**, and the end caps that all three manuals name are not on the sheet. "Pedal
+straps" is the sheet's phrase for the CIC pair's toe cage straps. It is the shortest of the
+four lists and, like the CB900's, it is stated flatly with no *such as*. Quote the document
+the customer holds: `spirit-commercial-warranty-sheet-2019-footnotes`.
 
 ## The other five bikes of this range print no wear-items column at all
 

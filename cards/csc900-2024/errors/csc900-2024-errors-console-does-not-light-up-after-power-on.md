@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-console-does-not-light-up-after-power-on
-title: The console does not light after power on, and four measurements take you from the adapter to the console
+title: The console does not light after power on, and four measurements take you from
+  the adapter to the console
 kind: troubleshooting
 question: Why will the console not light up on a Spirit CSC900-2024 stairclimber?
 asked_as:
@@ -37,9 +38,12 @@ see_also:
 - ces880-2025-errors-lcd-screen-does-not-display-anything
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed page
-    35. That page is a flat picture with no text layer and was read from the rendered
-    page at 500 dpi.
+  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed
+    page 35. That page is a flat picture with no text layer and was read from the
+    rendered page at 500 dpi; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 7, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -58,3 +62,5 @@ is why every figure in this row is 24 V and none of them is a mains voltage. Do 
 
 If the screen lights but a button does not work, that is the key row:
 `csc900-2024-errors-membrane-key-failure`.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 7 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.

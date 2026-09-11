@@ -58,6 +58,8 @@ see_also:
 - csc880-2025-specs-exploded-view-with-no-parts-list
 - spirit-rower-specs-which-manuals-print-a-parts-list
 - 85ue-2025-specs-exploded-view-with-no-parts-list
+- spirit-climber-specs-parts-which-service-manuals-print-a-parts-list
+- 7-5s-med-specs-parts-list
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: Table of Contents printed p. 1, which runs Machine Care 32, Troubleshooting
@@ -171,3 +173,10 @@ different platform again. Their item numbers overlap heavily and mean different
 parts, so a number read from the wrong book is almost certainly the wrong part.
 **No list in this table answers for a CSC900 or a CSC880**, whose stairs, chain
 and generator brake appear in none of them.
+
+## The service manuals, counted separately
+
+Nine stepper and climber **service** manuals were read the same way; one prints a list - the
+7.5S book, whose 257-row list is the same list as the 7.5S owner's manual's and is carded from
+the service-manual copy because every page of it has a text layer (`7-5s-med-specs-parts-list`).
+The count of the service manuals is `spirit-climber-specs-parts-which-service-manuals-print-a-parts-list`.

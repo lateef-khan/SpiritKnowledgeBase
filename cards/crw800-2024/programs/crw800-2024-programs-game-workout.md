@@ -23,6 +23,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   section: programs
@@ -34,7 +35,11 @@ see_also:
 - crw800-2024-programs-eleven-workout-modes-in-mode-button-order
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: 'CRW800 2024 printed p. 23; CRW800 2021 printed p. 27 (PDF p. 29)'
+  locator: 'CRW800 2024 printed p. 23; CRW800 2021 printed p. 27 (PDF p. 29). Service
+    manuals (extracted 2026-09-11): CRW800 2021 service manual
+    (spirit-rower-crw800-2021-service-manual) item 12, PDF p. 22 (printed 21), text.md
+    lines 338-343; CRW800 2016 service manual, CW800-YR001
+    (spirit-rower-crw800-2016-service-manual), PDF p. 21, lines 336-341'
   extracted_at: '2026-09-10'
 ---
 
@@ -54,3 +59,9 @@ scrolling profile and the height of your marker are all they describe.
 **The XRW600 books add a sentence these two do not print**, giving the game a goal and an obstacle
 field - see `spirit-xrw600-programs-game-workout-with-an-obstacle-field`. Do not read that goal back
 onto a CRW800.
+
+**Both CRW800 service manuals print the same four points and nothing more.** The CRW800 2021
+service manual and the 2016 CRW800 service manual (the CW800-YR001 book, the only book in this
+repository for that machine) describe the Game in the four sentences above - no goal, no obstacle,
+no score. The 2021 service manual heads Strength and Game both *"(Fig. 11-1)"*, reusing one figure
+number; the 2016 book numbers them 10-1 and 11-1.

@@ -39,13 +39,14 @@ see_also:
 - xt-2015-warranty-use-environment
 - xt-2023-warranty-exclusions
 - xt-2015-warranty-exclusions
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-treadmill-xt685-2023-owners-manual
   locator: 'WARRANTY - RESIDENTIAL, Light Commercial Warranty table and its footnote,
     p. 52; spirit-treadmill-xt685-2023-owners-manual text.md lines 1773-1776. The same
     row and footnote are in spirit-treadmill-xt685-2015-owners-manual text.md lines
     1147-1150, and in spirit-treadmill-xt685ent-2023-owners-manual p. 53 (text.md lines
-    1583-1586), which adds a sixth column'
+    1583-1586), which adds a sixth column. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the XT685 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Motor 5 Years, Parts 3 Years, Labor 1 Year, with no Deck column, marked "** X Series warranty covers up to 5 hours use or less in a non-dues paying facility".'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +77,9 @@ The consumer-responsibilities paragraph in this manual is worded to match: the w
 **The 2010 and 2015 manuals define light commercial use and the 2023 manual does not.** Their row label spells it out - 5 hours use or less in a non-dues paying facility - which is exactly the envelope exclusion 8 allows, so on the 2010 and 2015 XT685 the table and the exclusion agree. The 2023 manual drops that parenthetical, defines light commercial nowhere, and leaves exclusion 8 to sit awkwardly beside a table it never reconciles with. Do not read the 2015 definition into a 2023 machine as though the manual stated it. See `xt-2023-warranty-use-environment` and `xt-2015-warranty-use-environment`.
 
 These are not the Spirit CT900 commercial figures either. CT900 prints a 10 Year frame and a 3 Year labor period; this table does not.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints four of these five figures for the XT685** - Frame Lifetime, Motor 5
+Years, Parts 3 Years, Labor 1 Year - and **omits the Deck column** the manuals print at 3 Years.
+Its footnote restates the row label of the 2010 and 2015 manuals: "X Series warranty covers up
+to 5 hours use or less in a non-dues paying facility". See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

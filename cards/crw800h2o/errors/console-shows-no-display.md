@@ -37,10 +37,13 @@ see_also:
 - spirit-rower-errors-no-error-codes-printed
 source:
   ref: spirit-rower-crw800h2o-service-manual
-  locator: 'CRW800H2O service manual, Section 2 Q&A, Console Error, page 21; and the
+  locator: CRW800H2O service manual, Section 2 Q&A, Console Error, page 21; and the
     TROUBLESHOOTING table row "The console does not illuminate after battery installation"
-    in the CRW800H2O 2021 owner''s manual printed page 34 and the CRW900 2021 owner''s
-    manual printed page 53, both read from a 300 dpi render as well as the text layer.'
+    in the CRW800H2O 2021 owner's manual printed page 34 and the CRW900 2021 owner's
+    manual printed page 53, both read from a 300 dpi render as well as the text layer;
+    CRW900 service manual 1.3 Trouble with console, "The console does not illuminate
+    after battery installation", PDF p. 14, text.md lines 84-92 - the owner's-manual
+    row word for word
   extracted_at: '2026-09-08'
 ---
 
@@ -76,3 +79,5 @@ says "Install supplied **2** AA batteries [15]" while its console chapter and it
 say **4**. Fit four.
 
 The service manual covers the CRW800H2O only; the CRW900 contributes the owner's manual row.
+
+**The CRW900 service manual repeats the owner's-manual row word for word** - batteries installed incorrectly or needing replacement, check the position, reinstall or replace, rotate the cells slightly, then the service centre - so for the CRW900 the two books agree and neither adds a measurement.

@@ -39,12 +39,13 @@ see_also:
 - spirit-climber-specs-which-manuals-print-a-parts-list
 - spirit-climber-specs-no-specification-table
 - spirit-climber-2024-specs-resistance-system
+- spirit-climber-specs-parts-which-service-manuals-print-a-parts-list
 source:
   ref: spirit-climber-csc880-2025-owners-manual
-  locator: EXPLODED VIEW, printed pp. 35-37 (PDF pp. 37-39); Table of Contents printed
+  locator: 'EXPLODED VIEW, printed pp. 35-37 (PDF pp. 37-39); Table of Contents printed
     p. 1, which runs Machine Care 31, Troubleshooting 33, Exploded View 35, Warranty
     38; the cover, PDF p. 1. Each exploded-view page was rendered at 300 dpi and read
-    with `tesseract --psm 4` as well as extracted
+    with `tesseract --psm 4` as well as extracted. The CSC880 service manual (spirit-climber-csc880-2025-service-manual), 15 pages, read to its last page and searched for "exploded", "part list", "parts list" and "item": its only part naming is the four-part Structure page, PDF p. 4, text.md lines 68-102'
   extracted_at: '2026-09-10'
 ---
 
@@ -97,3 +98,12 @@ The 8.5S-2025 and 8.5S-FIT-2026 also print an exploded view with no list, and
 their drawings carry dates rather than Chinese title blocks. See
 `spirit-climber-specs-which-manuals-print-a-parts-list` for the whole picture.
 The CSC900 of 2019, 2021 and 2024 prints neither a drawing nor a list.
+
+## The service manual does not supply the list either
+
+The CSC880 service manual (Magnetic), fifteen pages, prints **no exploded view and no parts
+list**. Its "3. Structure" page names four parts - Console, Handrail, Step, Main Frame - with a
+sentence on each, and its replacement chapter names the seven cables on the controller by
+function (DC 24V power, brake, proximity switch, communication, infrared emergency stop, light
+sensor, motor) and nothing by number. So the hierarchical balloons on the owner's manual's
+drawing stay undecoded in both books: `spirit-climber-specs-parts-which-service-manuals-print-a-parts-list`.

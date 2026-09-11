@@ -37,12 +37,13 @@ see_also:
 - ct900-warranty-exclusions
 - ct900-warranty-service-claims-process
 - ct900-warranty-use-environment
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: ct900-om
   locator: 'p. 52. The same table, footnotes and facility list are printed in the CT900
     owner''s manual PDF, spirit-treadmill-ct900-owners-manual text.md lines 1471-1498,
     p. 52. All six figures in all three rows verified unchanged against that PDF on
-    2026-09-09'
+    2026-09-09. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints a different CT900 row - Frame Lifetime, Motor 10 Years, Parts 3 Years, Labor 3 Years - under COMMERCIAL (ALL FACILITIES).'
   extracted_at: '2026-08-24'
 ---
 
@@ -77,5 +78,17 @@ Spirit Fitness Inc. warrants all its home use Treadmill parts for a period of ti
 **Three rows, three environments - and this is the only Spirit treadmill in this knowledge base whose table covers a dues-paying gym.** Dues-paying and non-dues-paying differ only in Deck and Parts, 3 Years against 5. Which row applies where, and the two sentences elsewhere in the section that contradict it, are in [warranty use environment](warranty-use-environment.md).
 
 **Do not answer a CT900ENT or CTSBS900 question from this table.** The CT900ENT prints one unqualified Commercial row - Frame Lifetime, Drive Motor 10 Years, Parts 3 Years, Labor 3 Years - with no deck, wear-items or residential row (`ct900ent-warranty-coverage-terms`). The CTSBS900 prints one Commercial (Dues Paying Facilities) row with no deck column and no residential row (`ctsbs900-warranty-coverage-commercial`). Neither is this table.
+
+## The 2019 warranty sheet gives the CT900 a different table
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, warrants the CT900 with the CT900ENT's figures - Frame Lifetime, Motor 10
+Years, Parts 3 Years, Labor 3 Years - in one row headed COMMERCIAL (ALL FACILITIES), with no
+Deck column and no Wear Items column.** That is not this manual's table: here the frame is 10
+Years in either commercial row, the motor 5 Years, and wear items 6 months. Nothing in either
+document mentions the other. The sheet is Revision 03.07.2019 and this manual is effective
+October 01, 2024; a CT900 buyer in 2019 was shown the sheet's terms and one after October 2024
+this manual's, and which applied in between is not on file. Quote the document the customer
+holds, and say the other exists:
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms`.
 
 What isn't covered by this warranty is detailed separately in [warranty exclusions](warranty-exclusions.md).

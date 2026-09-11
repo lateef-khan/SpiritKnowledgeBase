@@ -39,7 +39,8 @@ see_also:
 - csc900-2024-console-four-display-windows
 source:
   ref: spirit-climber-csc900-2019-owners-manual
-  locator: printed p. 15, BASIC INFORMATION
+  locator: printed p. 15, BASIC INFORMATION.
+    CSC900 (V1.0) service manual 3. Product details, PDF p. 2, text.md lines 48-54
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +63,8 @@ books keep it (`csc900-2024-console-heart-rate-bluetooth-and-contact`). **Do not
 owner that their machine will pick up a strap.**
 
 **The manual prints no bpm range** and no troubleshooting for a pulse that will not read.
+
+**The CSC900 (V1.0) service manual says the same, in two lines.** Its Product details page describes
+the handrails as *"designed with the heartbeat, emergency stop switch and other operating
+components"* - a heartbeat pick-up in the handrail, and nothing about a chest strap, Bluetooth or
+a receiver anywhere in the book.

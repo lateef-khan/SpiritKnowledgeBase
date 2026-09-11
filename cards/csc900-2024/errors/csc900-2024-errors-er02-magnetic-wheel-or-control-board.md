@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-er02-magnetic-wheel-or-control-board
-title: ER02 after pressing START is the magnet wheel wiring or a short-circuited MOS on the control board
+title: ER02 after pressing START is the magnet wheel wiring or a short-circuited MOS
+  on the control board
 kind: troubleshooting
 question: What does ER02 mean on a Spirit CSC900-2024 stairclimber?
 asked_as:
@@ -39,8 +40,11 @@ see_also:
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: TROUBLESHOOTING, Problem / Reason / Method table on printed page 34. That
-    page is a flat picture with no text layer and was read from the rendered page at 500
-    dpi.
+    page is a flat picture with no text layer and was read from the rendered page
+    at 500 dpi; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 3, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -62,3 +66,5 @@ costs nothing and the board is the whole controller.
 
 This machine's codes are not shared with any other Spirit product. The whole set is on
 `csc900-2024-errors-error-code-table`.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 3 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.

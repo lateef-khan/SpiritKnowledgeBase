@@ -5,7 +5,7 @@ title: 'Replacing the commercial recumbent drive system: idler spring off the J-
   bearing cartridge with Loctite, reed switch 2 mm and offset from the magnet'
 kind: procedure
 question: How do I replace the drive belt, idler, brake, bearing cartridge or reed
-  switch on a Spirit CR900 or CR900ENT recumbent bike?
+  switch on a Spirit CR900, CR900ENT or CR1000ENT recumbent bike?
 asked_as:
 - belt tension spirit cr900
 - reed switch gap cr900ent double speed reading
@@ -28,6 +28,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -44,7 +45,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.6 Drive System Replacement, PDF pp. 46-49; text.md lines
     734-796 | cr900ent-2021: 6.6 Drive System Replacement, PDF pp. 54-57; text.md
-    lines 909-971'
+    lines 909-971 | cr1000ent-2023: 12.16 Drive System Replacement, PDF pp. 25-28;
+    text.md lines 539-651; figure 12.40 checked on a render'
   extracted_at: '2026-09-11'
 ---
 
@@ -65,3 +67,5 @@ source:
 **Figure 6.6.10 is a placeholder.** Both books print "Insert picture of reed switch alignment" where the drawing should be. The offset rule above is the only description of the alignment.
 
 The belt-slipping answer in the troubleshooting chapter repeats the figure: loosen the bottom jam nut on the J-bolt, back it off a few turns, tighten the top nut to increase spring tension until the slipping stops, set 220 to 240 N (50 to 55 lbs), then re-tighten the jam nut. That adjustment belongs to the maintenance section; the replacement is here.
+
+**The CR1000ENT book prints the same figures as 12.16** - J-bolt and tension spring, Poly-V belt at 220 to 240 N (50 to 55 lbs) kept in the middle of the pulley, three idler screws with the bracket fully clockwise, four brake screws, the keyed bearing cartridge with Loctite, and the reed switch gap "about 2 mm" - **but it omits the offset rule and the double-speed warning**, and its figure 12.40 is a real photograph of the switch on the frame, not the placeholder the CR900 books print. Set the offset as above anyway; nothing in the CR1000ENT book contradicts it.

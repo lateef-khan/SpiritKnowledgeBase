@@ -8,8 +8,8 @@ question: Is a tripping supply breaker a warranty defect on a Spirit CT850, CT85
   a Spirit CE850 or CE800ENT elliptical, a Spirit XE195, XE295, XE395, XE395ENT, XE795,
   XG400 or XE895 residential machine of the 2016, 2018, 2019, 2021 or 2023 generation,
   a Spirit XBR or XBU residential bike, a Spirit CU800ENT-2022 or CR800ENT-2023 bike,
-  a Spirit CVC800 climber, a Spirit XS895 stepper, a Spirit XRW600 rower or a Spirit
-  CS800 or CRS800S stepper?
+  a Spirit CVC800 climber, a Spirit XS895 stepper, a Spirit XRW600 or CRW800-2016
+  rower, or a Spirit CS800 or CRS800S stepper?
 asked_as:
 - my house breaker trips when i use the machine
 - is a tripping breaker covered by warranty
@@ -38,6 +38,7 @@ facets:
   - cr800ent-2023
   - crs800s-2021
   - crs800s-2024
+  - crw800-2016
   - cs800-2021
   - cs800-2024
   - ct800-2012
@@ -147,7 +148,17 @@ source:
     OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01) service manual: 7 Product
     Safety Instructions, PDF p. 30 (printed 30); text.md lines 410-436. XE895-2016
     (XE895-SE022) service manual: 7 Product Safety Instructions, PDF p. 38 (printed
-    38); text.md lines 607-635.'
+    38); text.md lines 607-635. Three more Dyaco service manuals print the paragraph
+    in 7.2 Important Electrical Instructions, ending at `part # QO120HM.` with no
+    breaker-rating sentence: CRW800-2016 (CW800-YR001) service manual: 7 Product Safety
+    Instructions, PDF p. 29 (printed 29), text.md lines 371-398, in spirit-rower-crw800-2016-service-manual.
+    XRW600-2019 (DW400-YR002) service manual: 7 Product Safety Instructions, PDF p.
+    29 (printed 29), text.md lines 369-389 and OCR supplement lines 1229-1264, in
+    spirit-rower-xrw600-2019-service-manual. CRS800S-2021 (2020 ver.) service manual:
+    7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md lines 296-336,
+    in spirit-stepper-crs800s-2021-service-manual. All four pages were also read from
+    110 dpi renders; the XRW600 page prints the word Rower highlighted in yellow where
+    the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -375,3 +386,19 @@ manuals print no breaker paragraph, and the CE850 owner's manuals close theirs w
 service manuals print the paragraph with no rating at all. Quote from the book the customer is
 holding. For the two XE795, say as well that the machine is self-powered and never loads a house
 breaker (`spirit-ce-safety-generator-produces-ac-power`).
+
+## Two rower and one stepper service manual print the paragraph
+
+**The CRW800-2016 (CW800-YR001) and XRW600-2019 (DW400-YR002) rower service manuals and the CRS800S-2021 stepper service
+manual print it word for word** in 7.2, with `elliptical`, `Rower` and `climber` respectively, both part numbers -
+**Grainger # 1D237** and www.squared.com **# QO120HM** - and `we as a manufacture`. **None of the three closes with a
+dedicated-breaker sentence**: each ends at `part # QO120HM.`
+
+**That overturns two statements above.** *No other Spirit rower prints it* is true of the owner's manuals only: the
+CRW800-2016 service manual prints it in full, for a rower fed through a power adapter, which is a different machine
+from the battery-powered CRW800-2021 and 2024 (`crw800-2024-safety-console-runs-on-two-c-batteries`). And the XRW600
+and CRS800S **owner's** manuals close the paragraph with a breaker rating - 15 amp and 5 amp - that their service
+manuals do not print. Quote the rating with the book it comes from; the service manuals give none.
+
+**The CS800-2016 (XS200-SS003) service manual prints no circuit-breaker paragraph** - its electrical section is the
+cover-removal and voltage-variation block - and the CS800-2021 and XS895 service manuals have no safety chapter.

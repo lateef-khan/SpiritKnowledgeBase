@@ -60,7 +60,8 @@ source:
     2019 and 2021 p. 15, all Dot Matrix Center Display; XBR25 2023 p. 19, XBR95 2023
     p. 20, XBR55/XBU55 2023 p. 21, all FEATURES; XE795-2023 (XE815A-SE048) service
     manual 4.2 Basic Function, Dot Matrix Center Display, PDF p. 8 (printed 8), text.md
-    lines 161-164
+    lines 161-164.
+    XS895 (XS300B-YS006) service manual 4-2-2 Dot Matrix Center Display, PDF p. 12 (printed 11), text.md lines 174-178
   extracted_at: '2026-09-09'
 ---
 
@@ -120,3 +121,7 @@ Twenty columns of boxes ten high, an approximate level of effort rather than a v
 **The XS895 has 20 resistance levels**, like the XE895 and unlike the XE795 and XBR95.
 
 **The XE795-2023 service manual prints this paragraph word for word** in its Basic Function table.
+
+**The XS895 (XS300B-YS006) service manual prints the paragraph word for word** in its Product
+Operation chapter - twenty columns of boxes ten high, an approximate level of effort, the profile
+picture in Manual, and the lap track moving counterclockwise as the closing line.

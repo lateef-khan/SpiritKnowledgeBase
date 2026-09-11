@@ -42,6 +42,7 @@ see_also:
 - spirit-bike-warranty-assembly-damage-excluded
 - xt-2023-warranty-start-date
 - spirit-ce-warranty-registration
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: spirit-bike-ab950-2024-owners-manual
   locator: >-
@@ -49,7 +50,8 @@ source:
     spirit-bike-ab950-2024-owners-manual text.md lines 1063-1065, prisons footnote line 1061.
     The same eight figures on spirit-bike-ab900-2018-owners-manual p. 45 (text.md lines
     1264-1266). AB950 page-2 version stamp at text.md lines 82-83; AB900 back cover read from
-    the last PDF page
+    the last PDF page.
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the AB900 under COMMERCIAL (ALL FACILITIES) as Frame 5 Years, Parts / Console 2 Years, Labor 1 Year.
   extracted_at: '2026-09-09'
 ---
 
@@ -76,6 +78,11 @@ source:
 **The AB950 warranty page is four days newer than the book around it.** Its PRODUCT REGISTRATION page stamps *Version: 1.0, Revision: 04.19.2024* and its internal file stamp reads `AB950_950744_OM_20240419`, while the warranty is effective **April 23, 2024**. The warranty page was dated after the rest of the book was laid out - the reverse of the CIC850 and JB950, where the warranty page is the older half (`spirit-jb950-warranty-commercial-only-periods`).
 
 **A fan-resistance machine still gets a parts and labor warranty.** Neither manual carves out the fan, the belt or the flywheel, and neither prints a wear-items column that would name them.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the AB900 with these figures** - Frame 5 Years, a single *Parts /
+Console* line at 2 Years, Labor 1 Year - and puts it under **COMMERCIAL (ALL FACILITIES)**,
+beside the CIC800, which on the sheet means a dues-paying gym is covered. The sheet prints no
+residential row for anything; see `spirit-commercial-warranty-sheet-2019-all-facilities-terms`.
 
 ## These are not the other Spirit bike figures
 

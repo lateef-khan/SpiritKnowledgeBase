@@ -39,7 +39,8 @@ see_also:
 - spirit-xe-console-heart-rate-bar-graph-in-amber-green-and-red
 source:
   ref: spirit-climber-xs895-2018-owners-manual
-  locator: XS895-2018 printed p. 18-19, Muscle Activation Figure; the XS895-2021 manual prints the same passage on its printed p. 18-19
+  locator: XS895-2018 printed p. 18-19, Muscle Activation Figure; the XS895-2021 manual prints the same passage on its printed p. 18-19.
+    XS895 (XS300B-YS006) service manual 4-2-10 Muscle Activation Figure, PDF p. 14 (printed 13), text.md lines 234-244
   extracted_at: '2026-09-10'
 ---
 
@@ -73,3 +74,9 @@ at this machine.**
 **The paragraph calls the machine an elliptical trainer**, in a book whose every other page calls it
 an Incline Stepper. It is boilerplate carried over from the elliptical manual, in both the 2018 and
 the 2021 printing, not a different machine.
+
+**The XS895 (XS300B-YS006) service manual prints the paragraph word for word** - the figure at the
+top of the console, the upper-body LEDs when the hands are on the swing arms or off the pulse grips,
+green, amber and red for three degrees, Levels 0-7.5 and 8-20 Incline with the same muscle groups -
+and it too calls the machine "the Stepper trainer" in one sentence and does not mention pedal
+direction.

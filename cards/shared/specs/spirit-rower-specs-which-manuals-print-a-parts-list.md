@@ -48,6 +48,8 @@ see_also:
 - spirit-crw800-specs-no-specification-table
 - spirit-xrw600-specs-resistance-mechanism-never-named
 - 85ue-2025-specs-exploded-view-with-no-parts-list
+- spirit-rower-specs-parts-which-service-manuals-print-a-parts-list
+- spirit-crw800-specs-parts-drive-belt-6pj-787l-and-bearing-6201-uou
 source:
   ref: spirit-rower-crw800-2021-owners-manual
   locator: 'CRW800-2021 Table of Contents printed p. 1, exploded view printed p. 40
@@ -156,3 +158,11 @@ because `product_line` is a single value and a card cannot span two:
 - **3 of 8** indoor cycles and air bikes - `spirit-cycle-specs-which-manuals-print-a-parts-list`.
 - The **8.5UE upper body ergometer** prints two exploded-view drawings and **no
   list at all** - `85ue-2025-specs-exploded-view-with-no-parts-list`.
+
+## The service manuals, counted separately
+
+Four rower **service** manuals were read the same way and none prints a list. The CRW800
+(2020) service manual prints the `CW800B` exploded view - the same drawing, balloons 1 to 139 -
+with no list beside it, so the owner's manual's list above is what decodes it; the CRW800 2016,
+XRW600 and CRW900 service manuals print neither. See
+`spirit-rower-specs-parts-which-service-manuals-print-a-parts-list`.

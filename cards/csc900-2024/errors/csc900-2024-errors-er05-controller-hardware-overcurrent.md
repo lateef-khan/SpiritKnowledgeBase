@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-er05-controller-hardware-overcurrent
-title: ER05 is a controller hardware over-current, and the burnt motor is checked first
+title: ER05 is a controller hardware over-current, and the burnt motor is checked
+  first
 kind: troubleshooting
 question: What does ER05 mean on a Spirit CSC900-2024 stairclimber?
 asked_as:
@@ -37,9 +38,12 @@ see_also:
 - csc900-2024-errors-error-code-table
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed page
-    35. That page is a flat picture with no text layer and was read from the rendered
-    page at 500 dpi.
+  locator: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table on printed
+    page 35. That page is a flat picture with no text layer and was read from the
+    rendered page at 500 dpi; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 10, PDF p. 10 - the page is a flat
+    picture (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536)
+    and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -57,3 +61,5 @@ reported by the controller is usually the load, not the board.
 No measurement, no threshold and no part number is printed for either check.
 
 The whole set of this machine's codes is on `csc900-2024-errors-error-code-table`.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 10 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.

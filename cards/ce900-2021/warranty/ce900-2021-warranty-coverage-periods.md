@@ -40,10 +40,11 @@ see_also:
 - ce900-2021-warranty-exclusions
 - ce900-2021-warranty-facility-responsibilities
 - xt-2023-warranty-start-date
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: spirit-elliptical-ce900-2021-owners-manual
-  locator: ELLIPTICAL TRAINER WARRANTY EFFECTIVE NOVEMBER 08, 2021, p. 26 (text.md
-    lines 613-623)
+  locator: 'ELLIPTICAL TRAINER WARRANTY EFFECTIVE NOVEMBER 08, 2021, p. 26 (text.md
+    lines 613-623) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the same four figures for the CE900 (named without a year) under COMMERCIAL (ALL FACILITIES), with a Generator column.'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +67,9 @@ Under the table:
 **Which facility this row covers is not settled by the row label.** The label says Commercial with no qualification, but exclusion 2 refuses reimbursement for equipment "not in non-dues paying facility or household use" - and the exclusion list carries **no** dues-paying exclusion. See `spirit-ce-warranty-use-environment` and `ce900-2021-warranty-exclusions`.
 
 The opening paragraph warrants "this elliptical trainer" rather than "all its elliptical trainer parts" and dates the periods from the date of sale, or eighteen months from factory shipping when there is no receipt - `xt-2023-warranty-start-date`.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the same four figures for the CE900** - Frame Lifetime, Generator 5
+Years, Parts 3 Years, Labor 3 Years - under **COMMERCIAL (ALL FACILITIES)**, the tier that on the
+sheet includes a dues-paying gym, two and a half years before this manual's effective date and
+with the CE900ENT beside it under an EMS Brake column. The sheet names the CE900 without a
+year; see `spirit-commercial-warranty-sheet-2019-all-facilities-terms`.

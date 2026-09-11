@@ -1,7 +1,7 @@
 ---
 id: csc880-2025-errors-no-pulse-data-pulse-cable-insulation
-title: No pulse data during use is the pulse cable, squeezed or pinched until the insulation
-  breaks
+title: No pulse data during use is the pulse cable, squeezed or pinched until the
+  insulation breaks
 kind: troubleshooting
 question: Why does the console of a Spirit CSC880-2025 stair climber show no pulse
   data while the machine is in use?
@@ -42,9 +42,12 @@ see_also:
 - csc880-2025-errors-safe-in-the-display-emergency-stop-wiring
 source:
   ref: spirit-climber-csc880-2025-owners-manual
-  locator: TROUBLESHOOTING - CONTINUED, row 10 of the No./Problem/Causes/Solution table,
-    printed page 34 (PDF page 36), read from the native text layer and confirmed against
-    a 400 dpi render
+  locator: TROUBLESHOOTING - CONTINUED, row 10 of the No./Problem/Causes/Solution
+    table, printed page 34 (PDF page 36), read from the native text layer and confirmed
+    against a 400 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row 10, PDF p. 8 - the page
+    is a flat picture (text.md lines 123-128 hold only the heading; OCR supplement
+    lines 428-505) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -74,3 +77,5 @@ fault on this machine share a wiring mistake.
 
 **The manual prints no chest strap row.** A caller whose telemetric strap is not reading has nothing
 in this table to work from.
+
+**The CSC880 service manual prints this row word for word**, as row 10 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row.

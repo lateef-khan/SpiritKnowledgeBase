@@ -3,8 +3,8 @@ id: cu1000ent-2023-errors-error-code-list-four-driver-board-codes
 title: 'Every error code the console can show: four driver-board hex codes and the
   EEPROM ERR message'
 kind: spec
-question: What error codes can a Spirit cu1000ent-2023 upright bike or ce1000ent-2023
-  elliptical display and what does each one mean?
+question: What error codes can a Spirit cu1000ent-2023 upright bike, cr1000ent-2023
+  recumbent bike or ce1000ent-2023 elliptical display and what does each one mean?
 asked_as:
 - list of error codes for the cu1000 bike
 - what do the 0xb codes mean on a spirit ent bike
@@ -26,6 +26,7 @@ facets:
   model: '*'
   applies_to:
   - ce1000ent-2023
+  - cr1000ent-2023
   - cu1000ent-2023
   section: errors
   code: '*'
@@ -46,7 +47,9 @@ source:
   locator: CU1000ENT 2023 service manual 7.1 Error Code List, 7.2 Error code items
     and 7.3 Tools Required, PDF p. 12, text.md lines 229-259; CE1000ENT 2023 service
     manual 7.1 Error Code List, 7.2 Error code items and 7.3 Tools Required, PDF p.
-    12, text.md lines 260-290
+    12, text.md lines 260-290; CR1000ENT 2023 service manual (SR8880-SB028) 7.1 Error
+    Code List, 7.2 Error code items and 7.3 Tools Required, PDF p. 12, text.md lines
+    239-263
   extracted_at: '2026-09-11'
 ---
 
@@ -78,3 +81,5 @@ Three things to know before using the table.
 Logged codes are read back, and cleared with ten presses, under Service > Error Code Log: `cu900ent-error-code-log`.
 
 **The CE1000ENT 2023 elliptical service manual prints both tables word for word** - the four `0xB0` to `0xB3` driver-board rows, the one-row `EEPROM ERR` message and the multi-meter - so this list answers for the elliptical as well as the upright. Nothing in the elliptical book adds a cause or a fix, and its `13. Troubleshooting` chapter is belt tension and noise, not codes.
+
+**The CR1000ENT 2023 recumbent service manual (SR8880-SB028) prints both tables word for word** - the four `0xB0` to `0xB3` driver-board rows, the one-row `EEPROM ERR` message and the multi-meter - so this list answers for the recumbent as well. Its `13. Trouble Shooting` chapter is belt slip, pedal noise and a shaking seat or handlebar, not codes.

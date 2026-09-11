@@ -26,6 +26,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - xrw600-2019
@@ -43,7 +44,11 @@ source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: CRW800-2024 printed p. 14, FEATURES / WINDOW FUNCTIONS. The CRW800-2021 prints the same
     list on its printed pp. 13-14 and the XRW600-2019 and XRW600-2021 on their printed pp. 15-16,
-    under the heading "Window Functions". Every range is identical across the four
+    under the heading "Window Functions". Every range is identical across the four.
+    CRW800 (2020) service manual 4-1 Function Description, PDF pp. 13-14 (printed 12-13),
+    text.md lines 111-153; CRW800-2016 (CW800-YR001) service manual section 4 Function
+    Description, PDF p. 12, lines 94-126; XRW600-2019 (DW400-YR002) service manual PDF
+    p. 12, lines 107-139
   extracted_at: '2026-09-10'
 ---
 
@@ -90,3 +95,10 @@ the estimate behind the number is the same on both.
 **A wording difference with no figure behind it:** the CRW800 books say the calorie window shows
 *"the value of calorie dissipated"*, the XRW600 books *"the value of calories burned"*. Same window,
 same range.
+
+**Three service manuals print the same table with the same seven ranges**, so this card now covers
+the **CRW800-2016** (CW800-YR001) as well: its book, the XRW600-2019 (DW400-YR002) book and the
+CRW800 (2020) book all give 00:00-99:59, 0-9999 then 1X.XX, 40-220 bpm, 0-999, 0-2000 with the
+thousands point, and level 1-16. **The dots sentence is not in all three**: the CRW800-2016 and
+XRW600 service manuals print "Level 1 and 2 would light the first dot", and the CRW800 (2020) service
+manual drops that line and keeps the 1-16 range. All three write "calorie dissipated".

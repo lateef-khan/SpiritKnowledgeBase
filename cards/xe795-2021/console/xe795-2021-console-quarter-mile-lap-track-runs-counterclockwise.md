@@ -46,7 +46,8 @@ see_also:
 - spirit-xe-console-what-the-workout-summary-lists
 source:
   ref: spirit-elliptical-xe795-2021-november-owners-manual
-  locator: p. 17, 1/4 Mile Track (same in the February 19 2021 printing; the XE795 August 22 2018 printing prints it on its p. 16 and the XE895 August 22 2018 manual on its p. 19); XBR95 2016 and 2018 p. 14, XBR95 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 15, all 1/4 Mile Track
+  locator: p. 17, 1/4 Mile Track (same in the February 19 2021 printing; the XE795 August 22 2018 printing prints it on its p. 16 and the XE895 August 22 2018 manual on its p. 19); XBR95 2016 and 2018 p. 14, XBR95 2021 p. 15, XBR55 2019 and 2021 p. 16, XBU55 2019 and 2021 p. 15, all 1/4 Mile Track.
+    XS895 (XS300B-YS006) service manual 4-2-3 1/4 Mile Track, PDF p. 12 (printed 11), text.md lines 180-183
   extracted_at: '2026-09-09'
 ---
 
@@ -101,3 +102,8 @@ its Dot Matrix Center Display paragraph, not part of the track paragraph.
 
 **Total Laps is one of the five fields on its Workout Summary**, and Laps completed is one of the
 readings its Message Center scans.
+
+**The XS895 (XS300B-YS006) service manual prints the track paragraph word for word** - one lap
+around the dot matrix, the flashing segment, 0.4 k in metric, the restart, and the lap counter in
+the message window - with the counterclockwise sentence closing its Dot Matrix paragraph, exactly as
+the XS895 owner's manuals split it.

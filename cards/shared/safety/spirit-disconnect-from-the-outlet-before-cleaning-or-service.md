@@ -6,7 +6,8 @@ question: Do I have to unplug a Spirit CT850, CT850ENT or CT800ENT treadmill, a 
   Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a
   Spirit CE850 commercial elliptical, a Spirit XE residential elliptical of the 2010,
   2016, 2021 or 2023 generation, a Spirit XBR or XBU residential bike of the 2016,
-  2019, 2021 or 2023 generation, or a Spirit CVC800 climber, before servicing it?
+  2019, 2021 or 2023 generation, a Spirit CVC800 climber, a Spirit CRW800-2016 rower,
+  or a Spirit CRS800S-2021 or CS800-2016 stepper, before servicing it?
 asked_as:
 - do i unplug the treadmill before working on it
 - is it safe to service the machine with the power on
@@ -32,6 +33,9 @@ facets:
   - ce850-2016
   - ce850-2020
   - cr800ent-2023
+  - crs800s-2021
+  - crw800-2016
+  - cs800-2016
   - ct800ent-2022
   - ct850-2016
   - ct850-2020
@@ -94,6 +98,9 @@ see_also:
 - spirit-elliptical-safety-power-off-and-unplug-before-touching-the-fuse
 - xe795-2023-safety-outlet-220-volt-15-amp
 - spirit-ce-safety-no-mains-outlet-needed
+- spirit-rower-xrw600-safety-instructions-list
+- spirit-climber-safety-turn-the-power-off-before-replacing-any-part
+- spirit-strength-safety-i-strength-module-electric-shock-warnings-and-cable-order
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
@@ -130,7 +137,16 @@ source:
     14 (printed 14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016
     (SE551-SE023-01) service manual: 7 Product Safety Instructions, PDF p. 30 (printed
     30); text.md lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product
-    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635.'
+    Safety Instructions, PDF p. 38 (printed 38); text.md lines 607-635. Three more
+    Dyaco service manuals print it as the first bullet of section 7: CRW800-2016 (CW800-YR001)
+    service manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md
+    lines 371-398, in spirit-rower-crw800-2016-service-manual. CRS800S-2021 (2020
+    ver.) service manual: 7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25),
+    text.md lines 296-336, in spirit-stepper-crs800s-2021-service-manual. CS800-2016
+    (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md lines
+    418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were also
+    read from 110 dpi renders; the XRW600 page prints the word Rower highlighted in
+    yellow where the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -345,3 +361,26 @@ a capacitor discharge time or a lock-out procedure.
 and CE900 books are for self-powered machines (`spirit-ce-safety-no-mains-outlet-needed`); the
 CE900ENT, CE1000ENT-2023 and XE395ENT-2021 books plug in and print no safety chapter at all; the 2007
 XE100-XE500 dealer manual has none either.
+
+## Three rower and stepper service manuals open chapter 7 with this sentence
+
+**The CRW800-2016 (CW800-YR001) rower, the CRS800S-2021 and the CS800-2016 (XS200-SS003) stepper service manuals print
+it as the first bullet of their Product Safety Instructions.** Cleaning as well as service, disconnect from the outlet,
+no capacitor discharge time and no lock-out procedure in any of the three. Each book names a different machine:
+
+| Service manual | Printed as |
+|---|---|
+| CRW800-2016 | `disconnect your elliptical from the electrical outlet` - the whole chapter is an elliptical book's page in a rower manual, elevation mechanism and all |
+| CRS800S-2021 | `disconnects your climber from the electrical outlet` |
+| CS800-2016 | `DANGER - To reduce the risk of electric shock disconnect your SOLE climber from the electrical outlet` - the one Spirit service manual that names the other brand on this page, under a `WARNING - Read all instructions before using this appliance` line |
+
+**The XRW600-2019 (DW400-YR002) service manual does not print it.** Its chapter 7 is the CRW800-2016 page with the
+Important Safety Instructions block cut off - it begins at Important Electrical Instructions - so neither this
+sentence, nor the outlet bullet, nor the extension-cord rule is in that book. Its owner's manuals print the
+unplug-after-use form instead (`spirit-rower-xrw600-safety-instructions-list`).
+
+**The other twelve books of the same wave print no such sentence at all.** The CRW800-2021, CRW900-2021, CS800-2021,
+XS895, CR1000ENT, 7.5S and 8.5S service manuals have no safety chapter; the three stair-climber books say `turn off
+the power when replacing any parts` instead (`spirit-climber-safety-turn-the-power-off-before-replacing-any-part`);
+the i-Strength module manual has its own cable-order table
+(`spirit-strength-safety-i-strength-module-electric-shock-warnings-and-cable-order`).

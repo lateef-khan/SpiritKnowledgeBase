@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-er07-emergency-stop-switch-failure
-title: ER07 is the emergency stop switch, its wiring, or a wire sequence plugged in the wrong order
+title: ER07 is the emergency stop switch, its wiring, or a wire sequence plugged in
+  the wrong order
 kind: troubleshooting
 question: What does ER07 mean on a Spirit stair climber?
 asked_as:
@@ -39,6 +40,7 @@ see_also:
 - csc880-2025-errors-error-code-table
 - csc880-2025-errors-er02-infrared-emergency-stop-triggered
 - csc880-2025-errors-safe-in-the-display-emergency-stop-wiring
+- csc900-2019-errors-er07-safety-switch-connector
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: 'CSC900 2024: TROUBLESHOOTING - CONTINUED, Problem / Reason / Method table
@@ -46,7 +48,13 @@ source:
     from the rendered page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s
     manual, spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING row 5 on printed
     page 33 (PDF page 35), read from the native text layer and confirmed against a
-    400 dpi render.'
+    400 dpi render; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 8, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row 5, PDF p. 8 - the page
+    is a flat picture (text.md lines 123-128 hold only the heading; OCR supplement
+    lines 428-505) and was read from a 200 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +99,9 @@ state in which it sits in stop mode showing the word `Safe` because the stop swi
 handle pulse line have been swapped
 (`csc880-2025-errors-safe-in-the-display-emergency-stop-wiring`). The CSC900 2024 book prints
 neither of those.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 8 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.
+
+The alternator-drive CSC900 (the `V1.0` service manual) prints the same code for the same fault in its own words: `csc900-2019-errors-er07-safety-switch-connector`.
+
+**The CSC880 service manual prints this row word for word**, as row 5 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row (this is the CSC880 half of the card).

@@ -3,8 +3,8 @@ id: spirit-cr900-maintenance-clicking-at-the-pedals
 title: 'A clicking sound or loose feeling at the pedals: pedals, crank arm bolts,
   axle play, bearing nuts'
 kind: troubleshooting
-question: What do I check when a Spirit CR900 2018 or CR900ENT recumbent bike clicks
-  or feels loose at the pedals?
+question: What do I check when a Spirit CR900 2018, CR900ENT or CR1000ENT recumbent bike
+  clicks or feels loose at the pedals?
 asked_as:
 - clicking noise when i pedal my cr900
 - something feels loose at the pedals on the recumbent
@@ -24,6 +24,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: maintenance
@@ -39,7 +40,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 7.2 Noise and/or rough feeling at the pedals, item 7-2-2, PDF p. 64 (printed
     64); text.md lines 1060-1064. Word for word in spirit-bike-cr900ent-2021-service-manual
-    7.2, PDF p. 72 (printed 72), lines 1235-1239.
+    7.2, PDF p. 72 (printed 72), lines 1235-1239, and in spirit-rower-cr1000ent-2023-service-manual 13.2
+    Noise and/or rough feeling at the pedals, PDF p. 39 (printed 39), lines 915-918 (added 2026-09-11).
   extracted_at: '2026-09-11'
 ---
 
@@ -61,6 +63,9 @@ loosened with a spanner wrench in the drive-system replacement — both assembly
 rule for any squeak, thump or click — loose assembly hardware, then the crank arm nut and pedals,
 then the levellers — is `cu900ent-general-maintenance`.
 
-The section is numbered 7-2-2 with no 7-2-1 in either book. Handlebars, seat or whole-machine
+The **CR1000ENT 2023** prints the same four checks as its 13.2, without the 7-2-2 numbering; its crank arm bolt
+is also tightened to 60 N·m (12.14).
+
+The section is numbered 7-2-2 with no 7-2-1 in either CR900 book. Handlebars, seat or whole-machine
 shaking is the next section, `spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers`.
 

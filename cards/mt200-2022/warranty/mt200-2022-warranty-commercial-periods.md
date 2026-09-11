@@ -41,10 +41,11 @@ see_also:
 - mt200-2022-warranty-start-date
 - mt200-2022-warranty-service-clock
 - mt200-2022-warranty-exclusions
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: spirit-treadmill-mt200-2022-owners-manual
-  locator: Product warranty, warranty table and its two footnotes, p. 73; text.md lines
-    2754-2764
+  locator: 'Product warranty, warranty table and its two footnotes, p. 73; text.md lines
+    2754-2764. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the MT200 under COMMERCIAL/MEDICAL (ALL FACILITIES) with these four figures and no wear-items column.'
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +70,9 @@ Two footnotes are printed under it:
 **It is close to, but not, the CT900ENT table.** The CT900ENT prints Frame Lifetime, Drive Motor 10 Years, Parts 3 Years and Labor 3 Years - the same four figures - but has no wear items row and no wear items definition, and it carries an effective date of November 19, 2021 that this manual does not print. A CT900ENT answer would leave a wear part uncovered by six months without saying so. Keep them apart: `ct900ent-warranty-coverage-terms`.
 
 **This manual states no hours-per-day limit.** The 2010 MT200 restricts cover to clinical use up to 5 hours per day; no equivalent sentence is printed anywhere here, and none should be quoted for this machine.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these four figures for the MT200 three years before this manual** -
+Frame Lifetime, Motor 10 Years, Parts 3 Years, Labor 3 Years - under COMMERCIAL/MEDICAL (ALL
+FACILITIES), without the Wear Items column. The 2010 manual's table is the one the sheet does
+not print (`mt200-2010-warranty-coverage-periods`). See
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms`.

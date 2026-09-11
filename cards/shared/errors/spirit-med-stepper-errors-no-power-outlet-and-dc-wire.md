@@ -37,15 +37,19 @@ not_to_be_confused_with:
 - csc880-2025-errors-console-does-not-light-up-24v-and-12v-checks
 - csc900-2024-errors-console-does-not-light-up-after-power-on
 - cs800-2024-errors-lcd-not-bright-220-240-or-110-120-volt
+- 85s-2025-errors-no-power-console-does-not-light-24-vdc-then-12-vdc
 see_also:
 - spirit-med-stepper-errors-programs-do-not-start-keypad-test
 - spirit-med-stepper-errors-no-data-when-pedaled-sensor-test
+- 85s-2025-errors-no-power-console-does-not-light-24-vdc-then-12-vdc
 source:
   ref: spirit-climber-70s-2025-owners-manual
-  locator: 'Troubleshooting, "No power", printed page 40 (PDF page 42) of the 7.0S 2025
-    manual; the same text on printed page 42 (PDF page 44) of the 7.5S 2025 manual and
-    printed page 59 (PDF page 59) of the MS300 2021 manual. Read from the native text
-    layer of all three and confirmed against a 300 dpi render of the 7.0S page.'
+  locator: Troubleshooting, "No power", printed page 40 (PDF page 42) of the 7.0S
+    2025 manual; the same text on printed page 42 (PDF page 44) of the 7.5S 2025 manual
+    and printed page 59 (PDF page 59) of the MS300 2021 manual. Read from the native
+    text layer of all three and confirmed against a 300 dpi render of the 7.0S page;
+    7.5S (RS9600-SS021) service manual 5.2.3 Troubleshooting and Problem Solving,
+    "No power", PDF p. 13-14, text.md lines 132-146
   extracted_at: '2026-09-10'
 ---
 
@@ -75,3 +79,16 @@ stepper.
 
 If the console lights but nothing starts, that is the keypad row:
 `spirit-med-stepper-errors-programs-do-not-start-keypad-test`.
+
+## The 7.5S service manual prints the same row with the voltage the owner's manuals leave out
+
+Four steps instead of three, and the DC side gets its figure:
+
+> i. Make sure the A.C. outlet has power (90~240VAC) and the line cord is plugged in securely to the AC adapter.
+> ii. Make sure there is **12V DC at the DC plug of the adaptor** and plug into the DC jack of the stepper. Replace the adaptor if there is no 12V at the DC plug of the adaptor. Go to next step if there is 12V but still no power to the console.
+> iii. Open the left shroud and check the connector of the DC power cable. Go to next step if there is still no power to the console.
+> iv. Measure between **pin 10 and pin 11 of the 14 pin cable** that connects to the console for 12V DC. **Replace the console if 12V DC is measured. Replace the cable if there is no 12V DC.**
+
+**So the chain is 12 V at the adapter plug, then 12 V at pins 10 and 11 of the console's 14-pin cable**, and the last measurement decides between the cable and the console. The wiring diagram in the same book rates the supply as a switching power supply, 90 to 260 VAC in, 12 VDC out at **1.6 A** - which does not agree with the 2.74 A Sinpro unit the owner's-manual specification page names (above). Both figures are printed; the 12 V is what the troubleshooting measures, and the current rating is a specs matter. This is the 7.5S book; the figures are printed for that machine, and the owner's manuals of the 7.0S, 7.5S and MS300 share only the three unmeasured steps above.
+
+**The 8.5S is a different supply altogether** - mains into an internal power supply module, 24 V to the lower board, 12 V to the console - with its own procedure (`85s-2025-errors-no-power-console-does-not-light-24-vdc-then-12-vdc`).

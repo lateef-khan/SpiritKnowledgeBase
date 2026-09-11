@@ -2,8 +2,8 @@
 id: csc900-2024-errors-error-code-table
 title: Every error code this stairclimber can show, five codes written with two digits
 kind: spec
-question: What error codes can a Spirit CSC900-2024 stairclimber display and what does
-  each one mean?
+question: What error codes can a Spirit CSC900-2024 stairclimber display and what
+  does each one mean?
 asked_as:
 - list of error codes for my spirit stairclimber
 - what do the er codes mean on a csc900
@@ -35,6 +35,7 @@ not_to_be_confused_with:
 - csc880-2025-errors-er04-overcurrent-magnetic-wheel-short
 - spirit-2024-errors-seven-code-table-with-no-hyphen
 - ct850-2020-inverter-error-code-list
+- csc900-2019-errors-error-code-table
 see_also:
 - csc900-2024-errors-er02-magnetic-wheel-or-control-board
 - csc900-2024-errors-er05-controller-hardware-overcurrent
@@ -50,7 +51,10 @@ source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: TROUBLESHOOTING and TROUBLESHOOTING - CONTINUED, Problem / Reason / Method
     tables on printed pages 34 and 35. Both pages are flat pictures with no text layer
-    and were read from the rendered page at 500 dpi.
+    and were read from the rendered page at 500 dpi; CSC900 2022 (Magnetic system)
+    service manual, 6. Troubleshooting, Item / Problem / Reason / Method table row
+    rows 1-10, PDF p. 10 - the page is a flat picture (text.md lines 261-266 hold
+    only the heading; OCR supplement lines 464-536) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -98,3 +102,7 @@ there. **Establish the model before you read a code back.** The CSC880 set is at
 `E-01H`-`E-52H`, the 2024 bikes and ellipticals use `EEPROM ERROR` and `E5`, the 2024 steppers use
 `RAM ERROR`, `MOTOR ERROR`, `EEPROM ERROR` and `Err`, and the 2024 rower uses `E1` and `E2`. Never
 answer a CSC900 caller from one of those.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints the same ten rows on one page** - page 10, under *6. Troubleshooting* - with the same five codes in the same rows. It adds no code and no row. The codes were checked against a render at 200 dpi: the digit after `ER` is a narrow zero, the same width as the `2` beside it, not a capital O.
+
+**The alternator-drive CSC900 has a different code set.** Its `V1.0` service manual (March 2020 PDF) prints `ER07`, `ER11`, `ER12` and `ER22`, agrees with this table on the first three and has no `ER02` or `ER05`; its `ER22` is a runaway speed from the alternator or brake resistor, which this machine cannot show. See `csc900-2019-errors-error-code-table` before reading a code back to a CSC900 owner whose machine is the older build.

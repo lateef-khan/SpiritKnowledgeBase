@@ -29,6 +29,7 @@ facets:
   - cr800-2023
   - cr800-2024
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
   - cs800-2021
   - cs800-2024
@@ -51,7 +52,8 @@ see_also:
 - ce850-2016-console-engineering-mode-security-lock
 source:
   ref: ct900ent-om
-  locator: p. 29
+  locator: p. 29.
+    CRS800S (2020 ver.) service manual TO TURN STEPPER OFF, PDF p. 13 (printed 13), text.md lines 192-196; CS800 (2020) service manual 4-2-8 TO TURN STEPPER OFF, PDF p. 16 (printed 15), lines 288-294
   extracted_at: '2026-08-24'
 ---
 
@@ -189,3 +191,13 @@ it is fine to leave the main power switch on.
 **Its sibling the CRS800S-2021 does, and says the default is Off** - which is the opposite of what
 the 2024 books say. See
 `spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page`.
+
+**The CRS800S (2020 ver.) service manual prints the full three paragraphs**, so this card now covers
+the **CRS800S-2021** as well - **30 minutes**, "the treadmill will power down most everything" on a
+semi-recumbent stepper, the TV-current sentence, "perfectly fine to leave the main power switch on",
+and "remove the safety button or turn off the main power switch to power down the stepper". It
+prints **no default and no page cross-reference**; the "default setting for sleep mode is OFF, follow
+the instructions on page 35" of that machine's owner's manual is the owner's manual's alone
+(`spirit-stepper-console-maintenance-menu-sleep-mode-default-off-and-a-cross-reference-to-the-wrong-page`).
+**The CS800 (2020) service manual prints the same three paragraphs word for word** under 4-2-8 TO
+TURN STEPPER OFF, with "the stepper will power down".

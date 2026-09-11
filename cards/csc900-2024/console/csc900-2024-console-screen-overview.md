@@ -43,7 +43,8 @@ see_also:
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: p. 19, CONSOLE SCREEN - OVERVIEW. The page is a flattened image and the call-outs were read
-    from the OCR supplement in text.md
+    from the OCR supplement in text.md.
+    CSC900 (V1.0) service manual 3. Product details, PDF p. 2, text.md lines 48-50, and the AI3 console internal circuit page, PDF p. 20, line 645; CSC900 2022 (Magnetic system) service manual 3. Product details, PDF p. 4, lines 65-68
   extracted_at: '2026-09-10'
 ---
 
@@ -93,3 +94,10 @@ key legends, not call-outs; the call-out list is still the five above.
 **The CSC880-2025 is a different face and must not be answered from this card.** Its display is
 **White**, not Blue, and its drawing carries a labelled key row this one has not:
 `csc880-2025-console-white-led-face-with-a-fan-target-and-user-prog-key-row`.
+
+**The two CSC900 service manuals draw no console face.** The CSC900 (V1.0) book describes the console
+in one sentence - it displays "fitness data, time, speed, distance, energy consumed, fitness
+program" and the user controls the machine "through the electronic table" - and heads its circuit
+photograph **AI3 console internal circuit**, the only name either book gives the part; the magnetic
+CSC900 2022 book calls it the "electronic meter" and adds that the buttons control "operation, stop,
+speed increase or decrease". Neither names a key, a window or a call-out.

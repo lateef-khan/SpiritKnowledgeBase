@@ -61,7 +61,8 @@ source:
     Home, PDF p. 28, lines 459-462 / 452-455; CE900ENT service manual, Setting and
     Operation for Engineering Mode, 1. Operation for entering engineering mode, PDF
     p. 25 (printed 25), text.md lines 345-346, and the updating page, PDF p. 30, lines
-    468-470
+    468-470. CR1000(2023) SR8880-SB028 service manual 8.1, PDF p. 14 (printed 14), text.md
+    lines 276-277, names Welcome, not Home, and is deliberately not on this card
   extracted_at: '2026-09-08'
 ---
 
@@ -117,3 +118,5 @@ setting page"* and land on the elliptical's six (`spirit-ent-bike-console-engine
 (`cu1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).
 
 **The CE900ENT elliptical's service manual prints the CU900ENT sentence** - *"Press 'Home' button 10 consecutive repetitions to enter engineering mode"* - and lands on the same seven-entry Settings list (`ce900ent-console-engineering-mode-seven-settings-entries-machine-information-first`), so this card now covers that elliptical as well. The **CE1000ENT-2023** is left off for the same reason as the CT1000ENT and CU1000ENT: its button is "Welcome" (`ce1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).
+
+**The CR1000ENT-2023 recumbent bike is left off for the same reason.** Its SR8880-SB028 service manual says *"Press 'Welcome' button 10 consecutive repetitions to enter engineering mode"* and lands on the CU1000ENT's four-group Maintenance Mode (`cu1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups`).

@@ -48,7 +48,9 @@ source:
     layer with the tick column resolved by character position against the header row, and the
     CSI-CPSP page also read from a 300 dpi render, which agrees row for row including the
     Bi-Annually header. The CSI books are the only two of the thirty-nine with a MAINTENANCE page
-    this far into the book; both have exactly one'
+    this far into the book; both have exactly one. The module manual was searched on 2026-09-11:
+    spirit-strength-i-strength-resistance-module-maintenance-manual, 26 pages, every page rendered by the ingest
+    sweep, for lubric, grease, oil, clean, schedule, monthly, weekly, interval, inspect, wipe and dust - zero hits'
   extracted_at: '2026-09-10'
 ---
 
@@ -108,3 +110,10 @@ same fifteen as the CSD table. No lubricant, cleaner or torque figure is named h
 **These are the newest and longest books in the range** — 56 and 48 pages against about 30 for the
 rest, with a warranty effective January 1, 2026 — and their maintenance page is still one page.
 Nothing in the extra thirty pages is about maintenance; they are the i-Strength training modes.
+
+## The Digital Resistance Module's own maintenance manual adds nothing
+
+The i-Strength *Digital Resistance Module Maintenance Manual* - the module the CSI owner's manuals list as part
+72 - is a disassembly, wiring, specification and fault-code book despite its title: no schedule, no cleaning step,
+no lubricant and no interval anywhere in its 26 pages. The only time figure in it is the controller's rated
+*Service Life 5000 hours*, a specification. This table remains the only maintenance guidance for a CSI machine.

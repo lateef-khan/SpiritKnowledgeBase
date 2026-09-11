@@ -5,7 +5,7 @@ title: 'Replacing the commercial recumbent sliding seat assembly: cable ties, ei
   keyed lift arm and eight rail screws set front-to-back'
 kind: procedure
 question: How do I replace the sliding seat assembly, seat carriage, seat rails or
-  the seat release cable on a Spirit CR900 or CR900ENT recumbent bike?
+  the seat release cable on a Spirit CR900, CR900ENT or CR1000ENT recumbent bike?
 asked_as:
 - seat carriage replacement spirit cr900
 - seat release cable cr900ent
@@ -28,6 +28,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -43,7 +44,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.9 Sliding Seat Assembly Replacement, PDF pp. 53-60; text.md
     lines 857-999 | cr900ent-2021: 6.9 Sliding Seat Assembly Replacement, PDF pp.
-    61-68; text.md lines 1032-1174'
+    61-68; text.md lines 1032-1174 | cr1000ent-2023: 12.19 Sliding Seat Assembly Replacement,
+    PDF pp. 30-36; text.md lines 674-862'
   extracted_at: '2026-09-11'
 ---
 
@@ -73,3 +75,5 @@ Fifteen numbered sub-steps in both books, printed identically. Removal is 6.9.1 
 **Author's notes left in the print:** 6.9.2's heading ends "(New Picture..too many hands)" and 6.9.8 refers to "6-9-8" for its own removal. The figures skip 6.9.11 (6.9.10 is followed by 6.9.12). No screw sizes are printed anywhere in the fifteen steps.
 
 If the seat shakes in use, the troubleshooting chapter (7-3-2) says to check the wheels are tight and, to take up play between wheels and track, loosen the bottom wheels and lift on the wrench while re-tightening, then the top wheels the same way with the carriage lifted - the same wheel-and-track adjustment, without a torque figure.
+
+**The CR1000ENT book prints the same fifteen sub-steps as 12.19 and adds a PU wheel step** between the carriage and the seat lock: "PU wheel replacement and installation - refer to figure 12.62, use a **6 mm tool** inserted into the PU wheel to replace it, then ensure the PU wheel is locked." Its troubleshooting chapter points at the same figure ("refer to 12.58 to re-adjust the location of the PU wheels") when a large gap between the wheels and the track makes the seat shake. It drops both author's notes.

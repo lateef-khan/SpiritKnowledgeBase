@@ -3,8 +3,8 @@ id: spirit-cr900-maintenance-weekly-pedal-check
 title: 'Checking the pedals are tight every week: the left pedal tightens counter-clockwise,
   the right clockwise'
 kind: procedure
-question: How often should the pedals be checked for tightness on a Spirit CR900 2018
-  or CR900ENT recumbent bike, and which way do they tighten?
+question: How often should the pedals be checked for tightness on a Spirit CR900 2018,
+  CR900ENT or CR1000ENT recumbent bike, and which way do they tighten?
 asked_as:
 - how often do i check the pedals on the cr900
 - which way does the left pedal tighten on the recumbent
@@ -25,6 +25,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: maintenance
@@ -42,7 +43,8 @@ source:
   locator: 3. Preventative Maintenance, 1.1 Check Pedals are tight, PDF p. 35 (printed
     35), figures 3.1.1 and 3.1.2; text.md lines 532-534. Word for word in spirit-bike-cr900ent-2021-service-manual
     1.1, PDF p. 43 (printed 43), lines 707-709 (difflib 1.000 over the preventative-maintenance
-    chapter).
+    chapter). Word for word again in spirit-rower-cr1000ent-2023-service-manual 11.11 Check for
+    Pedals, PDF pp. 19-20 (printed 19-20), lines 385-387 and 393, figures 11.11 and 11.12 (added 2026-09-11).
   extracted_at: '2026-09-11'
 ---
 
@@ -66,4 +68,7 @@ also closes the book's list of parts most susceptible to wear
 
 Removal is the reverse: the pedal/crank replacement step takes the right pedal off
 counter-clockwise and the left pedal off clockwise with a 15 mm open-end wrench.
+
+The **CR1000ENT 2023** recumbent - its service manual is filed under Rowers - prints the same weekly check
+and the same two directions as its 11.11, and the same removal as its 12.14.
 

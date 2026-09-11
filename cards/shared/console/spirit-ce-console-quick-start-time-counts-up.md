@@ -74,7 +74,8 @@ source:
     lines 212-221; CE800 (2020) service manual 4-2-2 QUICK START, PDF p. 14 (printed
     13), text.md lines 238-247; CE850 (2020) service manual QUICK START, PDF p. 15
     (printed 15), lines 291-301; CE900 (SE8800-SE026) service manual QUICK START,
-    PDF p. 14 (printed 14), lines 223-232
+    PDF p. 14 (printed 14), lines 223-232.
+    CRS800S (2020 ver.) service manual QUICK START, PDF p. 12 (printed 12), text.md lines 149-158; CS800 (2020) service manual 4-2-2 QUICK START, PDF p. 14 (printed 13), lines 235-244
   extracted_at: '2026-09-09'
 ---
 
@@ -159,3 +160,10 @@ difficult" - the CE wording, not the residential machines' "extremely hard".
 **The CR900-2018 and CU900-2018 service manuals print this passage in their Product Operation chapter.** Same 24 columns, wrap-around and forty levels in ten rows.
 
 **Three elliptical service manuals print this passage in their Product Operation chapters.** The CE800 (2020) and CE900 (SE8800-SE026) books print the forty-levels version with the Dot Matrix Message Center or dot matrix starting on the bottom row; the CE850 (2020) book prints the twenty-levels version with the quarter-mile-track clause, the Up and Down keys, and the 24 columns and wrap-around, word for word with the owner's manuals.
+
+**Both 2020-series stepper service manuals print the twenty-levels version word for word** - the
+CRS800S (2020 ver.) and the CS800 (2020): press Start after power-up, Time counts up from zero, the
+workload is adjusted with the **Level Up and Down** buttons, the Dot Matrix Message Center (the CS800
+book says "dot matrix display") lights its bottom row first, 24 columns of one minute each with the
+wrap-around, and the twenty levels banded 1-5, 6-10, 11-15 and 16-20. The CRS800S book says "the
+Semi-Recumbent Stepper will get harder to pedal", the CS800 book "the Stepper".

@@ -46,6 +46,7 @@ see_also:
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-labor-period
 - spirit-xb-warranty-exclusions
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-bike-xbr95-2018-owners-manual
   locator: >-
@@ -61,7 +62,8 @@ source:
     whole document, and a 300 dpi render of the warranty-table page of xbr25-2019 (PDF p.
     31), xbr55-2019 (p. 36), xbr55-2021 (p. 36), xbr25-2023 (p. 36) and xbr55-2023 (p. 44)
     read with tesseract --psm 4, whose word counts matched the native extraction to within
-    two words
+    two words.
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the XBR95 under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Generator 5 Years, Parts 3 Years, Labor 1 Year, marked "** X Series warranty covers up to 5 hours use or less in a non-dues paying facility".
   extracted_at: '2026-09-10'
 ---
 
@@ -92,6 +94,12 @@ source:
 - **Position.** The XBR95 2016, 2018 and 2021 manuals print this row **above** the Residential one; the XBU55 2019 and 2021 manuals print it **below**. Read the row label, not the position.
 - **Its own table.** The two 2023 manuals lift it out of the shared table and print it as a **second table headed *Light Commercial Warranty\**** under one headed *Home Use Limited Warranty*. Same four figures.
 - **The definition.** None of the seven defines *light commercial* in the row label. The XE795 elliptical's older manuals spell it out as "(5 Hours use or less in a non-dues paying facility)"; **no XB bike manual does**. On the four 2023 books the envelope is set only by exclusion 8 - "a residential setting or non-dues paying facility with 5 hours use or less per day" - and on the five older ones exclusion 7 contradicts the row outright.
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these same four figures for the XBR95** with the brake column headed
+*Generator*, and supplies the definition no XB manual prints: its footnote reads "X Series
+warranty covers up to 5 hours use or less in a non-dues paying facility". **The sheet does not
+name the XBU55**, so the definition reaches it only by inference. See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.
 
 ## Prisons
 

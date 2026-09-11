@@ -42,7 +42,9 @@ source:
   ref: spirit-rower-xrw600-2021-owners-manual
   locator: XRW600-2021 printed p. 14 (PDF p. 14), XRW600 CONSOLE OPERATION. The XRW600-2019 prints the
     same drawing on the same page. The page is a flattened image and the key strip was read from a
-    300 dpi render, not from the text extraction
+    300 dpi render, not from the text extraction.
+    XRW600-2019 (DW400-YR002) service manual Display Windows, PDF p. 11, text.md lines 106-107,
+    call-outs in the OCR supplement lines 839-858, read from a 110 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -79,3 +81,9 @@ manual names no power source for the console (`xrw600-console-no-power-source-is
 
 **The 2019 and 2021 printings draw the same console.** Their whole console chapters agree sentence
 for sentence - 47 sentences of five words or more, all 47 shared.
+
+**The XRW600-2019 service manual prints the same drawing on its Display Windows page** - Large
+Blue-LED Matrix Window, Built-in Heart Rate Receiver, Easy-Touch Control Buttons, the ten-programs
+caption, the five keys and the same worked example - in greyscale, so it confirms everything here
+except the key colours. The CRW800-2016 service manual draws the same console under the same
+Blue-LED label (`crw800-2024-console-screen-overview`).

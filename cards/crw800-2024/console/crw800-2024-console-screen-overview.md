@@ -24,6 +24,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   section: console
@@ -41,7 +42,11 @@ source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: CRW800-2024 printed p. 16 (PDF p. 18), CONSOLE SCREEN - OVERVIEW. The CRW800-2021 prints
     the same drawing on its printed p. 12 (PDF p. 14) above the POWER paragraph. Both pages are
-    flattened images; the key strip on each was read from a 300 dpi render, not from the OCR supplement
+    flattened images; the key strip on each was read from a 300 dpi render, not from the OCR supplement.
+    CRW800 (2020) service manual, the console drawing on PDF p. 8 (printed 7) and again on PDF p. 12
+    (printed 11), text.md lines 76-77 and 110-111, call-outs in the OCR supplement lines 1150-1181;
+    CRW800-2016 (CW800-YR001) service manual Electronic Parts drawing, PDF p. 7, line 70, call-outs in
+    the supplement lines 891-901; both read from 110 dpi renders
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +96,11 @@ carries no page heading; the 2024 book gave the page one, **CONSOLE SCREEN - OVE
 this console. The console section says it runs on **two C batteries**, while the troubleshooting table
 on p. 32 names an **AC 100-240 V input with a DC12V output**; the manual contradicts itself and this
 drawing settles nothing (`crw800-2024-console-two-c-batteries`).
+
+**The service manuals draw this console too, and the CRW800-2016 book draws the same one**, so this
+card now covers the **CRW800-2016** (CW800-YR001). The 2016 book's Electronic Parts page and the CRW800
+(2020) book's pages 7 and 11 print the drawing with the lit worked example - 36, 4:02, 1317, 135,
+64, 460, level 4 - the same five keys and the same four call-outs. **The matrix call-out changes
+wording between them**: the 2016 book prints **Large Blue-LED Matrix Window**, as the XRW600 books do
+(`xrw600-console-screen-overview`); the 2020 book prints **Large LCD Matrix Window**, with a visible
+gap where "Blue-" was removed. Both are greyscale renders, so neither settles the key colours.

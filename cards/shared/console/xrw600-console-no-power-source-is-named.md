@@ -40,7 +40,9 @@ source:
   ref: spirit-rower-xrw600-2021-owners-manual
   locator: Absence. XRW600-2021 and XRW600-2019, whole document. Neither table of contents lists a
     battery or power section; the console chapter runs printed pp. 14-18 with no BATTERY INSTALLATION
-    heading, and the four assembly steps on printed pp. 10-13 connect no console wire
+    heading, and the four assembly steps on printed pp. 10-13 connect no console wire.
+    XRW600-2019 (DW400-YR002) service manual 8.6 Console problem, PDF p. 39, text.md lines
+    508-511, and 8.5, PDF p. 38, lines 478-485, which do name the supply
   extracted_at: '2026-09-10'
 ---
 
@@ -70,8 +72,15 @@ and **does** print a battery section - **two C cells, compartment on the back of
 **four AA** instead (`spirit-water-rower-console-four-aa-batteries`). **Three Spirit rowers, three
 different answers, and for this one the manual gives none.**
 
-**What to tell a caller with a dead XRW600 display:** the manual does not name the power source, so
-check the back of the console for a compartment on the machine in front of you rather than quoting a
-cell size. **Neither of these manuals has a troubleshooting section either** - the table of contents
+**The service manual answers what the owner's manuals do not.** The XRW600-2019 (DW400-YR002)
+service manual powers the console from a **12 V DC power adapter through a DC jack** - *"check the
+adapter is correctly inserted into the DC jack"*, *"AC power input is AC100 ~ 240V and the output is
+DC12V"* - and names no battery for the console at all
+(`spirit-rower-console-powered-by-a-12v-dc-adapter-through-a-dc-jack`). The absence on this card is
+the owner's manuals' alone.
+
+**What to tell a caller with a dead XRW600 display:** the owner's manual does not name the power
+source; the service manual says an adapter, so check the adapter and its DC jack first, then the
+back of the console on the machine in front of you rather than quoting a cell size. **Neither of these manuals has a troubleshooting section either** - the table of contents
 runs Safety, Electrical, Operation, Registration, Assembly, Console Operation, Programmable Features,
 Heart Rate Transmitter, General Maintenance, Warranty, and stops.

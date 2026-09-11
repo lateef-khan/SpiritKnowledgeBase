@@ -1,6 +1,7 @@
 ---
 id: csc900-2024-errors-speed-abnormal-then-data-resets
-title: The light sensor is why the speed window reads wrong or blank and the machine gives up after three seconds
+title: The light sensor is why the speed window reads wrong or blank and the machine
+  gives up after three seconds
 kind: troubleshooting
 question: Why does a Spirit stair climber show a wrong or missing speed and then reset
   the display three seconds later?
@@ -38,11 +39,17 @@ see_also:
 source:
   ref: spirit-climber-csc900-2024-owners-manual
   locator: 'CSC900 2024: TROUBLESHOOTING, Problem / Reason / Method table on printed
-    page 34; that page is a flat picture with no text layer and was read from the rendered
-    page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
-    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 6 on printed
-    page 34 (PDF page 36), read from the native text layer and confirmed against a 400
-    dpi render.'
+    page 34; that page is a flat picture with no text layer and was read from the
+    rendered page at 500 dpi. Extended 2026-09-10 with the CSC880 2025 owner''s manual,
+    spirit-climber-csc880-2025-owners-manual, TROUBLESHOOTING - CONTINUED row 6 on
+    printed page 34 (PDF page 36), read from the native text layer and confirmed against
+    a 400 dpi render; CSC900 2022 (Magnetic system) service manual, 6. Troubleshooting,
+    Item / Problem / Reason / Method table row 1, PDF p. 10 - the page is a flat picture
+    (text.md lines 261-266 hold only the heading; OCR supplement lines 464-536) and
+    was read from a 200 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row 6, PDF p. 8 - the page
+    is a flat picture (text.md lines 123-128 hold only the heading; OCR supplement
+    lines 428-505) and was read from a 200 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -81,3 +88,7 @@ like a failed sensor. Put someone on the machine before condemning the part.
 
 The CSC880 book calls the slotted part a **light grid**; the CSC900 book calls it a **grating**. It
 is one part.
+
+**The CSC900 2022 service manual (the magnetic-system book) prints this row word for word**, as row 1 of the ten-row Troubleshooting table on its page 10. The owner's manual and the service manual print the same table; the service manual adds nothing to this row.
+
+**The CSC880 service manual prints this row word for word**, as row 6 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row (this is the CSC880 half of the card).

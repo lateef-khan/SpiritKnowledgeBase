@@ -39,7 +39,10 @@ see_also:
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: CRW800-2024 printed p. 14, FEATURES / BATTERY INSTALLATION. The CRW800-2021 prints the
-    same two sentences on its printed p. 13 (PDF p. 15), spelling the word "compartement"
+    same two sentences on its printed p. 13 (PDF p. 15), spelling the word "compartement".
+    CRW800 (2020) service manual 11-10 Batteries replacement, PDF p. 60 (printed 59), text.md lines
+    917-918; 7-6 Console (Electronic Desk) problem, PDF p. 38 (printed 37), lines 566-569; 7-5
+    Troubleshooting Quick Lookup Table, PDF p. 37 (printed 36), lines 538-541
   extracted_at: '2026-09-10'
 ---
 
@@ -70,6 +73,16 @@ compartments (`spirit-bike-console-xic600-two-aaa-batteries-each`). Do not carry
 2021 book spells it *"battery compartement"*. **That typo is the only textual change in the whole
 console chapter between the two printings** - everything else, down to the eleven-mode order and the
 270-second sleep, is word for word.
+
+**The CRW800 (2020) service manual agrees that the console holds batteries, and adds a generator.**
+Its battery replacement step is *"Use a screwdriver to remove a screw of battery cover on the back of
+console then replace batteries"* - no cell size, no count. Its console-problem page says a dark
+screen means *"check the generator power is the normal power supply"* and the generator controller's
+output, and its lookup table's first two remedies for a dark LCD are **check the battery** and
+**check the generator**. **The 12 V adapter text of the owner's manual is gone from this book**:
+the word adapter appears nowhere in it. So on the 2021 machine the console runs on its batteries
+with a generator in the drive, and the AC100-240V / DC12V line in the owner's manual is the older
+adapter machine's text (`spirit-rower-console-powered-by-a-12v-dc-adapter-through-a-dc-jack`).
 
 **The XRW600 is not covered here and takes nothing from this card.** Its manual has no BATTERY
 INSTALLATION section at all and names no power source for its console

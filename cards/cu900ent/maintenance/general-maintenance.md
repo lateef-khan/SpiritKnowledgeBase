@@ -28,6 +28,7 @@ facets:
   applies_to:
   - cic800-2021
   - cic850-2022
+  - cr1000ent-2023
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -130,7 +131,10 @@ source:
     spirit-bike-cu1000ent-2023-service-manual, a machine no owner''s manual covers, under
     the heading 10. GENERAL MAINTENANCE, PDF p. 17 (printed 17), lines 316-325. The four
     blocks match each other at difflib word level 0.968 to 1.000; the only differences
-    are the heading number and the wear list under the WARNING that follows.'
+    are the heading number and the wear list under the WARNING that follows. The CR1000ENT 2023 recumbent
+    bike service manual (spirit-rower-cr1000ent-2023-service-manual, filed under Rowers) prints the identical
+    block under 10. GENERAL MAINTENANCE, PDF p. 17 (printed 17), text.md lines 326-336 - the same 90%,
+    2 pads, 14mm and crank arm nut; added 2026-09-11.'
   extracted_at: '2026-09-09'
 ---
 
@@ -228,18 +232,19 @@ and the pedals tighten in opposite directions. See `cu900ent-noise-and-feet-feel
 wear-parts warning** either (`cu900ent-wear-parts-inspection`) — checked for "susceptible",
 "damage and wear" and "PU wheel" in all thirteen; the only PU wheel hits are parts-list rows.
 
-## Four service manuals print the same list
+## Five service manuals print the same list
 
-The **CR900 2018**, **CU900 2018**, **CR900ENT 2021** and **CU1000ENT 2023** service manuals print
-the block above word for word, as the numbered "I cannot stress this point enough" list, under
-GENERAL MAINTENANCE — **90%, 2 pads, 14 mm** on all four, and the crank arm nut on all four. The
-CU1000ENT is the one machine of the four with no owner's manual in the repository; this is its only
-statement of the list. Each of the four follows the list with the wear-parts WARNING that the
+The **CR900 2018**, **CU900 2018**, **CR900ENT 2021**, **CU1000ENT 2023** and **CR1000ENT 2023** service
+manuals print the block above word for word, as the numbered "I cannot stress this point enough" list, under
+GENERAL MAINTENANCE — **90%, 2 pads, 14 mm** on all five, and the crank arm nut on all five. The
+CU1000ENT and the CR1000ENT are the two machines of the five with no owner's manual in the repository;
+this is their only statement of the list. Each of the five follows the list with the wear-parts WARNING that the
 owner's manuals omit — five items on the CR900 and CU900
-(`spirit-cr900-cu900-maintenance-wear-parts-five-items`), four on the CR900ENT and CU1000ENT
+(`spirit-cr900-cu900-maintenance-wear-parts-five-items`), four on the CR900ENT, CU1000ENT and CR1000ENT
 (`cu900ent-wear-parts-inspection`) — and each has a preventative-maintenance chapter that goes
-further than this list; all but the CU1000ENT add a mechanical troubleshooting chapter too. The
-CR900 and CR900ENT check the pedals weekly (`spirit-cr900-maintenance-weekly-pedal-check`) and
+further than this list; all but the CU1000ENT add a mechanical troubleshooting chapter too, the
+CR1000ENT's being the CR900's three sections renumbered 13.1-13.3. The
+CR900, CR900ENT and CR1000ENT check the pedals weekly (`spirit-cr900-maintenance-weekly-pedal-check`) and
 settle a shaking seat by taking the play out of its wheels
 (`spirit-cr900-maintenance-shaking-handlebars-seat-wheels-levellers`).
 

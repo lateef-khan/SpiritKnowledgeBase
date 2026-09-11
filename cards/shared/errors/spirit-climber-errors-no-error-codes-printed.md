@@ -3,8 +3,8 @@ id: spirit-climber-errors-no-error-codes-printed
 title: Nine climber and stepper owner's manuals print no error code, no fault table
   and no troubleshooting chapter
 kind: fact
-question: Does a Spirit climber, stepper or stair climber owner's manual list any error
-  codes or a troubleshooting section?
+question: Does a Spirit climber, stepper or stair climber owner's manual list any
+  error codes or a troubleshooting section?
 asked_as:
 - what does the error code on my spirit stepper mean
 - list of error codes for a spirit stair climber
@@ -61,14 +61,21 @@ see_also:
 - spirit-xe-errors-no-error-codes-printed
 - spirit-commercial-bike-errors-no-error-codes-printed
 - spirit-stairclimber-console-has-no-engineering-or-maintenance-mode-in-any-printing
+- csc900-2019-errors-error-code-table
+- spirit-xs895-errors-error-code-table-three-codes
+- cs800-2016-errors-e1-eeprom-failure-replace-the-upper-controller
+- 85s-2025-errors-uart-communication-error-cables-103-and-104-then-software-version
 source:
   ref: spirit-climber-cvc800-2021-owners-manual
   locator: 'Absence, checked over the full text, the table of contents and the page-by-page
     text layer of nine Spirit climber and stepper owner''s manuals, 414 pages in total:
     XS895 2018, XS895 2021, CSC900 2019, CSC900 2021, CRS800S 2021, CS800 2021, CVC800
-    2021, 8.5S 2025 and 8.5S-FIT 2026. Every page carrying a raster image over 0.9 megapixels,
-    and every page under 60 native words, was rendered at 200-300 dpi and read with
-    tesseract --psm 6.'
+    2021, 8.5S 2025 and 8.5S-FIT 2026. Every page carrying a raster image over 0.9
+    megapixels, and every page under 60 native words, was rendered at 200-300 dpi
+    and read with tesseract --psm 6; Service manuals checked 2026-09-11: CSC900 V1.0
+    (alternator) PDF p. 9-10; CRS800S 2020 ver. PDF p. 27-33; CS800 (2020) PDF p.
+    26-33; CS800 2016 (XS200-SS003) PDF p. 32-41; XS895 (XS300B-YS006) PDF p. 26-37;
+    8.5S (MS2000-SB036-01) PDF p. 16-21'
   extracted_at: '2026-09-10'
 ---
 
@@ -162,3 +169,18 @@ fixes, and Sole codes are a different brand entirely.
 The Spirit residential ellipticals and the Spirit bikes have the same gap, at
 `spirit-xe-errors-no-error-codes-printed` and
 `spirit-commercial-bike-errors-no-error-codes-printed`.
+
+## Read this first: the service manuals for six of these machines do print codes or a troubleshooting chapter
+
+**This card is about the owner's manuals.** The service manuals say more:
+
+| Machine | Service manual | What it prints |
+|---|---|---|
+| CSC900 2019 | `V1.0` (alternator drive, March 2020 PDF) | `ER07`, `ER11`, `ER12`, `ER22` on a twelve-row matrix, plus four component tests (`csc900-2019-errors-error-code-table`) |
+| CRS800S 2021 | 2020 ver. | `RAM ERROR` (replace the display board) and `Err` / `MOTOR ERROR` with a voltage test (`crs800s-2024-errors-ram-error-replace-the-display-board`, `crs800s-2024-errors-motor-error-tension-motor-signal-wrong`) |
+| CS800 2021 | CS800 (2020) | `EEPROM ERROR` and `Err` with a voltage test (`cs800-2024-errors-eeprom-error-replace-the-console`, `cs800-2024-errors-err-in-the-level-window-tension-motor-feedback`) |
+| CS800 2016 | `XS200-SS003` | `E1` and `E2`, written with a hyphen in one place (`cs800-2016-errors-e1-eeprom-failure-replace-the-upper-controller`) |
+| XS895 2018 / 2021 | `XS300B-YS006` | `E1`, `E2` and `E3` / `STEP ERROR` (`spirit-xs895-errors-error-code-table-three-codes`) |
+| 8.5S 2025 | `MS2000-SB036-01` | no code table, but a `UART Communication Error` message, an Error Log in Maintenance Mode and three electronic procedures (`85s-2025-errors-uart-communication-error-cables-103-and-104-then-software-version`) |
+
+**So a code reported by a caller with one of these machines may well be in their service manual**, even though it is not in the book they own. The CVC800 paragraph above is the same shape. The CSC900 2021 and the 8.5S-FIT 2026 have no service manual in the repository; for them the absence stands.

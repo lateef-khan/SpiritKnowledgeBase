@@ -39,6 +39,7 @@ facets:
   - ce900-2021
   - ce900-2025
   - ce900ent
+  - cr1000ent-2023
   - cr800-2021
   - cr800-2024
   - cr800ent-2023
@@ -46,7 +47,10 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - crs800s-2021
   - crs800s-2024
+  - cs800-2016
+  - cs800-2021
   - cs800-2024
   - ct1000ent-2023
   - ct800-2016
@@ -81,6 +85,8 @@ facets:
   - xe795-2016
   - xe895-2016
   - xg400-2016
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -165,7 +171,15 @@ source:
     XE795 2016 (XE815-SE024-01) service manual Troubleshooting procedure matrix, PDF
     p. 44, text.md lines 639-671; XG400 2016 (SE551-SE023-01) service manual Troubleshooting
     procedure matrix, PDF p. 40, text.md lines 595-628; XE895 2016 (XE895-SE022) service
-    manual 8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029'
+    manual 8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029;
+    CR1000ENT 2023 service manual (SR8880-SB028) 10.1 Troubleshooting procedure Matrix,
+    PDF p. 18, text.md lines 345-374; CRS800S 2020 ver. service manual 8-5 Troubleshooting
+    procedure matrix, PDF p. 33 (printed 32), text.md lines 463-480; CS800 (2020)
+    service manual 7-7 Troubleshooting procedure matrix, PDF p. 33 (printed 32), text.md
+    lines 526-549; CS800 2016 (XS200-SS003) service manual Troubleshooting procedure
+    matrix, PDF p. 41, text.md lines 602-634; XS895 (XS300B-YS006) service manual
+    7-8 Troubleshooting procedure matrix, PDF p. 36-37 (printed 35-36), text.md lines
+    550-602'
   extracted_at: '2026-09-08'
 ---
 
@@ -221,3 +235,7 @@ figures at a CSC900 owner as if their manual printed them.
 **Fifteen bike service manuals print this row with the same three causes, the CR2032 battery and the three-foot range.** Which of them also print the `Chest belt too close` second row: the XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, CU900 2018, CR900 2018, CR900ENT 2021 and CU1000ENT 2023 do; the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver do not. **On the CU800 2020-book and the CR800 2020-book the label has slipped a line exactly as it has on the CR800 2024 and CU800 2024** - `(No pulse displayed on monitor)` stands alone against these three causes and `Wireless lost its function.` is printed against the no-resistance row below (`ce800ent-no-resistance`) - so the slip is inherited from the 2020 books. The three 2023 residential books (XBR55, XBR95, XBU55 2023) print no chest-belt row at all. **The AB900 2018 air bike prints both rows in its own words**: `Wireless heartbeat has no effect` with the same three causes, `Keep the chest strap within 3 feet of the console` and the CR2032, then `Wireless heartbeat reception is too short (must be very close to the console)` / *The battery is low* / *replace the new lithium battery type CR2032*. **The JB950 2022 Johnny G bike answers a strap the console cannot find with two causes and a rechargeable-or-replaceable battery**: `jb950-2022-errors-cant-find-the-chest-strap-worn-or-battery`.
 
 **Fourteen elliptical service manuals print this row with the same three causes, the CR2032 battery and the three-foot range.** Which of them also print the `Chest belt too close to the [machine] / Weak battery / Replace with new lithium battery with type CR2032` second row: the CE850 2016, CE850 (2020), XE895 2016, CE900 (SE8800), CE900ENT, CE1000ENT 2023, XE195, XE295, XE395, XE795 and XG400 2016 and the XE395ENT 2021 do; the CE800 2016 and CE800 (2020) do not. **The XE795 2023 prints no chest-belt row at all** - its matrix ends at the hand pulse row - although its console chapter says the machine reads a heart rate transmitter strap.
+
+**The CR1000ENT 2023 recumbent service manual prints this row word for word** - the three causes, `within 3 feet` and the CR2032 - and prints the `Chest belt too close to the product / Weak battery` second row after it, as the CU1000ENT 2023 does.
+
+**Four stepper service manuals print this row with the same three causes, the CR2032 battery and the three-foot range, and every one of them also prints the `Chest belt too close` second row** - the CRS800S 2020-version (`too close to the climber`), the CS800 (2020) and the XS895 (`XS300B-YS006`) (`too close to the Stepper`), and the CS800 2016 (`XS200-SS003`) (`too close to the climber`).

@@ -52,7 +52,8 @@ see_also:
 - spirit-xe-console-face-call-outs-muscle-profile-heart-rate-profile-and-speakers
 source:
   ref: spirit-elliptical-xe295-2021-owners-manual
-  locator: XE395 2018 p. 19; XE795 2018 p. 18; XE895 2018 p. 20; XE295 2019 p. 18; XG400 2019 p. 17; XE295 p. 18; XG400 p. 17; XE795 2021 p. 18, all under Heart Rate % Profile; XBR95 2016, 2018 and 2021 p. 13, XBR55 2019 and 2021 p. 17, XBU55 2019 and 2021 p. 18, all Heart Rate % Profile
+  locator: XE395 2018 p. 19; XE795 2018 p. 18; XE895 2018 p. 20; XE295 2019 p. 18; XG400 2019 p. 17; XE295 p. 18; XG400 p. 17; XE795 2021 p. 18, all under Heart Rate % Profile; XBR95 2016, 2018 and 2021 p. 13, XBR55 2019 and 2021 p. 17, XBU55 2019 and 2021 p. 18, all Heart Rate % Profile.
+    XS895 (XS300B-YS006) service manual 4-2-11 Heart Rate % Profile, PDF p. 14 (printed 13), text.md lines 246-253
   extracted_at: '2026-09-09'
 ---
 
@@ -109,3 +110,7 @@ heart rate calculated from the age entered during programming.
 **The printed scale on the console drawing is marked 90%, 80%, 70%, 60% and 50%** - five labelled
 rungs, read from a 300 dpi render of p. 14. The text's bands and the drawing's rungs do not line up
 exactly, and the manual never reconciles them.
+
+**The XS895 (XS300B-YS006) service manual prints the paragraph word for word** - the bar graph right
+of the LCD, the age entered in any of the 10 programs, and 50-60 % amber, 65-80 % amber and green,
+85-90 % or more amber, green and red.

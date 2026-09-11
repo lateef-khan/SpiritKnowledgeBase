@@ -3,7 +3,8 @@ id: spirit-cr900-assembly-console-replacement
 title: 'Replacing the commercial recumbent console: four screws off the rear console
   cover, then four more behind the console and the wire connectors'
 kind: procedure
-question: How do I replace the console on a Spirit CR900 or CR900ENT recumbent bike?
+question: How do I replace the console on a Spirit CR900, CR900ENT or CR1000ENT recumbent
+  bike?
 asked_as:
 - console replacement spirit cr900
 - rear console cover screws cr900ent
@@ -21,6 +22,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -30,10 +32,12 @@ not_to_be_confused_with: []
 see_also:
 - spirit-cr900-assembly-front-handlebar-replacement
 - cu900ent-console-replacement
+- cu1000ent-2023-assembly-console-replacement
 source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.1 Console Replacement, PDF pp. 37-38; text.md lines 576-596
-    | cr900ent-2021: 6.1 Console Replacement, PDF pp. 45-46; text.md lines 751-771'
+    | cr900ent-2021: 6.1 Console Replacement, PDF pp. 45-46; text.md lines 751-771
+    | cr1000ent-2023: 12.11 Console Replacement, PDF pp. 20-21; text.md lines 393-452'
   extracted_at: '2026-09-11'
 ---
 
@@ -46,3 +50,5 @@ source:
 **No screw sizes and no connector count are printed** - only "four" and "four". The photographs on the page carry the rest. The CR900 (2018) and CR900ENT books print this identically.
 
 The front handlebar procedure (6.2) starts by sending you back to 6.1.1 for the rear console cover, so this cover is the first thing off for either job.
+
+**The CR1000ENT book (2023) prints the same two-by-four procedure as 12.11**, with the rear console cover called the "chin cover": remove the four screws of the chin cover (figures 12.11, 12.12), then the four screws from the rear of the console and the wire connector (figures 12.13, 12.14). Its 15.6 inch touchscreen console has no keyboard procedure of its own, unlike the CU1000ENT upright.

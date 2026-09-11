@@ -26,6 +26,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - xrw600-2019
@@ -45,7 +46,10 @@ see_also:
 source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: CRW800-2024 printed pp. 14-15, FEATURES / 500M/TIME. The CRW800-2021 prints it on its
-    printed p. 14 and the XRW600-2019 and XRW600-2021 on their printed p. 17, all word for word
+    printed p. 14 and the XRW600-2019 and XRW600-2021 on their printed p. 17, all word for word.
+    CRW800 (2020) service manual 4-1 Function Description, 500M/TIME, PDF p. 14 (printed 13),
+    text.md lines 154-161; CRW800-2016 (CW800-YR001) service manual item 8.500M/TIME, PDF pp.
+    12-13, lines 127-140; XRW600-2019 (DW400-YR002) service manual PDF pp. 12-13, lines 140-153
   extracted_at: '2026-09-10'
 ---
 
@@ -82,3 +86,8 @@ the CRW800 books write `Scan` and `Mode`.
 a dedicated **Up/Down Scan** button steps a whole row of four readings and dwells four seconds on
 each set (`spirit-ce-console-led-data-windows-scan`). Here there is no Scan key, only the Mode key,
 and the dwell is **five** seconds.
+
+**Three service manuals print this section word for word**, so this card now covers the
+**CRW800-2016** (CW800-YR001) as well - the same four modes, the same five-second cycle and the same
+Mode-key rotation. The 2016 and XRW600 service books draw the three states as a line, **SCAN
+Function → Wave Pattern → 500M/TIME**; none of the three defines the reading either.

@@ -74,7 +74,8 @@ source:
     2021 p. 20, XBR55ENT/XBU55ENT p. 17, XBR25 2023 p. 21, XBR95 2023 p. 26, XBR55/XBU55
     2023 p. 27; XE795-2023 (XE815A-SE048) service manual 4.1 Basic Operation, CALORIES
     NOTE, PDF p. 7 (printed 7), text.md lines 134-139; XE395ENT-2021 (XE539S-SE025-01)
-    service manual CALORIE NOTE, PDF p. 13 (printed 13), lines 168-171
+    service manual CALORIE NOTE, PDF p. 13 (printed 13), lines 168-171.
+    XS895 (XS300B-YS006) service manual 4-2-5 Calorie Display, PDF p. 12 (printed 11), text.md lines 191-196, which prints a shorter note
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +146,8 @@ including the claim that you keep burning at an accelerated rate for **at least 
 finishing.
 
 **The XE795-2023 and XE395ENT-2021 service manuals print the note word for word**, accelerated rate for at least an hour included.
+
+**The XS895 (XS300B-YS006) service manual prints a two-sentence version and stops**: the calorie
+display "is only a rough guide used for comparison of different exercise sessions, and is not to be
+used for medical purposes". No clinical-setting sentence and no accelerated-rate-for-an-hour claim;
+those are the owner's manual's.

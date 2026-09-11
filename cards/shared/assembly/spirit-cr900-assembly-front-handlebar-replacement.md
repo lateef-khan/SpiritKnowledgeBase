@@ -3,8 +3,8 @@ id: spirit-cr900-assembly-front-handlebar-replacement
 title: 'Replacing the commercial recumbent front handlebar: rear console cover off,
   then the M8 socket screws'
 kind: procedure
-question: How do I replace the front handlebar on a Spirit CR900 or CR900ENT recumbent
-  bike?
+question: How do I replace the front handlebar on a Spirit CR900, CR900ENT or CR1000ENT
+  recumbent bike?
 asked_as:
 - front handlebar loose spirit cr900 replace
 - handle bar socket screws cr900ent
@@ -22,6 +22,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -36,7 +37,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.2 Front Handlebar Replacement, PDF p. 38; text.md lines
     598-612 | cr900ent-2021: 6.2 Front Handlebar Replacement, PDF p. 46; text.md lines
-    773-787'
+    773-787 | cr1000ent-2023: 12.12 Front Handlebar Replacement, PDF p. 21; text.md
+    lines 426-452'
   extracted_at: '2026-09-11'
 ---
 
@@ -47,3 +49,5 @@ source:
 **M8 is the only fastener size printed in this section, and no count is given.** The photographs show where they are.
 
 If the front handlebars shake during pedalling or feel loose, the troubleshooting chapter (7-3-1) says to check the bolts securing the handlebar to the mast and the mast bolts at the main frame - the same M8 socket screws and the mast bolts the preventative-maintenance page tells you to check after taking the covers off (that page refers to 6-5-1 and 6-2 for cover removal).
+
+**The CR1000ENT book prints the same step as 12.12**: refer to figure 12.11 for the chin cover, then remove the M8 socket screws and the armrest (figure 12.15). Same M8, same missing count.

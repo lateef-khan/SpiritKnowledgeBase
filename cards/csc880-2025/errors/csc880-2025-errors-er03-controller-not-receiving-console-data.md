@@ -42,7 +42,10 @@ source:
   ref: spirit-climber-csc880-2025-owners-manual
   locator: TROUBLESHOOTING, row 3 of the No./Problem/Causes/Solution table, printed
     page 33 (PDF page 35), read from the native text layer and confirmed against a
-    400 dpi render
+    400 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting, "CSC880
+    electrical malfunction Troubleshooting" table row 3, PDF p. 8 - the page is a
+    flat picture (text.md lines 123-128 hold only the heading; OCR supplement lines
+    428-505) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -71,3 +74,5 @@ the manual gives it no part number and no location.
 (`csc900-2024-errors-er11-controller-not-receiving-console-data`), and that book adds that the
 machine will not start at all. `ER03` does not exist on the CSC900 2024. The full renumbering is on
 `csc880-2025-errors-error-code-table`.
+
+**The CSC880 service manual prints this row word for word**, as row 3 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row.

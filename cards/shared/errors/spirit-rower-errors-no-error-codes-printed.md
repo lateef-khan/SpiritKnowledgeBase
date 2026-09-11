@@ -46,11 +46,15 @@ see_also:
 - crw800h2o-console-shows-no-display
 - spirit-commercial-bike-errors-no-error-codes-printed
 - spirit-climber-errors-no-error-codes-printed
+- crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets
 source:
   ref: spirit-rower-crw800-2021-owners-manual
   locator: 'Contents pages and whole-document search of five owner''s manuals: CRW800
     2021 (48 pages), CRW900 2021 (68), CRW800H2O 2021 (40), XRW600 2019 (40), XRW600
-    2021 (40). Every page under 25 native words was rendered at 300 dpi and read.'
+    2021 (40). Every page under 25 native words was rendered at 300 dpi and read;
+    Service manuals checked 2026-09-11: CRW800 2021 (800940) 7-1 Error Codes, PDF
+    p. 31; CRW800 2016 (CW800-YR001) 8. Error Messages, PDF p. 31; XRW600 (DW400-YR002)
+    8. Error Messages, PDF p. 31; CRW900 1. Troubleshooting, PDF p. 3-15'
   extracted_at: '2026-09-10'
 ---
 
@@ -91,3 +95,9 @@ owner's manual is not the only document for that machine.
 
 The same absence holds across the Spirit bikes (`spirit-commercial-bike-errors-no-error-codes-printed`)
 and the climbers and steppers (`spirit-climber-errors-no-error-codes-printed`).
+
+## Read this first: the service manuals do print codes
+
+**This card is about the owner's manuals.** The service manuals for three of these five machines print `E1` and `E2` with a symptom and a remedy - the CRW800 2021 (`800940`), the CRW800 2016 (`CW800-YR001`) and the XRW600 (`DW400-YR002`) all carry `E1` (console EEPROM failure, shown as `RAM ERROR`, replace the console) and `E2` (cable tension communication error, shown as `MOTOR ERROR`, with a voltage test) - `crw800-2024-errors-e1-console-eeprom-failure`, `crw800-2024-errors-e2-cable-tension-communication-error`. So the trap described above cuts the other way as well: **the CRW800 2021 owner's manual is silent, but the CRW800 2021 service manual prints exactly the two codes the 2024 owner's manual prints.** A 2021 owner reporting `E1` or `E2` has a documented code.
+
+The CRW900's service manual prints no code either, but it does add a speed sensor procedure with a gap figure the owner's manual lacks (`crw900-2021-errors-speed-sensor-gap-2-to-3-mm-and-six-magnets`) and the same console Q&A as the owner's manual.

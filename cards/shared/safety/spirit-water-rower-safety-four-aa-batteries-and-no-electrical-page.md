@@ -1,9 +1,10 @@
 ---
 id: spirit-water-rower-safety-four-aa-batteries-and-no-electrical-page
-title: The console runs on four AA batteries and the manual prints no electrical page at all
+title: The console runs on four AA batteries and the manual prints no electrical page
+  at all
 kind: fact
-question: What outlet, voltage, amperage and operating temperature does a Spirit CRW900 or
-  CRW800H2O water rower need, and how is its console powered?
+question: What outlet, voltage, amperage and operating temperature does a Spirit CRW900
+  or CRW800H2O water rower need, and how is its console powered?
 asked_as:
 - does the water rower need to be plugged in
 - what batteries does the crw900 console take
@@ -42,10 +43,13 @@ see_also:
 - spirit-product-must-be-grounded
 source:
   ref: spirit-rower-crw800h2o-2021-owners-manual
-  locator: 'BATTERY INSTALLATION, printed page 32; and the whole safety chapter, printed pages 7
-    to 10, which names no supply. The CRW900-2021 owner''s manual prints the same BATTERY
-    INSTALLATION paragraph and the same safety chapter on its printed pages 5 and 15 to 17, in
-    spirit-rower-crw900-2021-owners-manual'
+  locator: 'BATTERY INSTALLATION, printed page 32; and the whole safety chapter, printed
+    pages 7 to 10, which names no supply. The CRW900-2021 owner''s manual prints the
+    same BATTERY INSTALLATION paragraph and the same safety chapter on its printed
+    pages 5 and 15 to 17, in spirit-rower-crw900-2021-owners-manual. CRW900 service
+    manual (486 native words, mostly drawings), in spirit-rower-crw900-2021-service-manual:
+    no safety chapter and no electrical page; the battery Q&A is PDF p. 14 (printed
+    14), text.md lines 82-112.'
   extracted_at: '2026-09-10'
 ---
 
@@ -109,3 +113,8 @@ front of you:
 **And the 8.5UE ergometer is mains again**, at 100 to 240 volt AC on a 15-amp circuit
 (`85ue-2025-safety-outlet-100-to-240-volt-50-60-hz-15-amp`). Never quote an AA cell for a CRW800 or
 a C cell for a CRW900.
+
+**The CRW900-2021 service manual prints no safety chapter and no electrical page either.** It is a 486-word book of
+exploded views and part-replacement drawings; the only supply words in it are a Q&A entry for a console that does not
+illuminate after battery installation, which says to check the batteries are installed the right way round or replace
+them. No outlet, no voltage, no amperage and no temperature figure, as in the owner's manual.

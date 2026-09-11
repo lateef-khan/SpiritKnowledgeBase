@@ -4,8 +4,9 @@ title: Extension cord must be 16 AWG or better with one outlet on the end
 kind: policy
 question: Can I use an extension cord on a Spirit CT850-2016 treadmill, a Spirit CVC800
   climber, a Spirit CE850 commercial elliptical, a 2016 Spirit XE195, XE295, XE395,
-  XE795, XG400 or XE895 elliptical, a Spirit XE795-2023 elliptical, or a Spirit XBR
-  or XBU residential bike of the 2016 or 2023 generation?
+  XE795, XG400 or XE895 elliptical, a Spirit XE795-2023 elliptical, a Spirit XBR or
+  XBU residential bike of the 2016 or 2023 generation, a Spirit CRW800-2016 rower,
+  or a Spirit CRS800S-2021 stepper?
 asked_as:
 - can i use an extension cord with the treadmill
 - what gauge extension cord for a spirit machine
@@ -27,6 +28,8 @@ facets:
   applies_to:
   - ce850-2016
   - ce850-2020
+  - crs800s-2021
+  - crw800-2016
   - ct850-2016
   - cvc800
   - xbr25-2016
@@ -59,6 +62,7 @@ see_also:
 - spirit-xe-safety-outlet-115-volt-15-amp
 - spirit-bike-safety-no-mains-outlet-needed
 - xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-2024-safety-outlet-110-volt-15-amp-stepper
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
@@ -88,7 +92,14 @@ source:
     14); text.md lines 227-262, OCR supplement lines 911-963. XG400-2016 (SE551-SE023-01)
     service manual: 7 Product Safety Instructions, PDF p. 30 (printed 30); text.md
     lines 410-436. XE895-2016 (XE895-SE022) service manual: 7 Product Safety Instructions,
-    PDF p. 38 (printed 38); text.md lines 607-635.'
+    PDF p. 38 (printed 38); text.md lines 607-635. Two more Dyaco service manuals
+    print both sentences as the third bullet of 7.1: CRW800-2016 (CW800-YR001) service
+    manual: 7 Product Safety Instructions, PDF p. 29 (printed 29), text.md lines 371-398,
+    in spirit-rower-crw800-2016-service-manual. CRS800S-2021 (2020 ver.) service manual:
+    7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md lines 296-336,
+    in spirit-stepper-crs800s-2021-service-manual. All four pages were also read from
+    110 dpi renders; the XRW600 page prints the word Rower highlighted in yellow where
+    the CRW800 page prints elliptical.'
   extracted_at: '2026-09-08'
 ---
 
@@ -139,3 +150,18 @@ XE895 owner's manuals say 14AWG; the XE795-2023 owner's manual prints no extensi
 Nothing reconciles 16 with 18 or 14; quote the gauge from the book in the customer's hand. The two
 XE795 books print it on a self-powered machine with no cord to extend
 (`xe795-2023-safety-outlet-220-volt-15-amp`).
+
+## A rower and a stepper service manual print 16 AWG
+
+**The CRW800-2016 (CW800-YR001) rower and CRS800S-2021 stepper service manuals print both sentences word for word** -
+16 AWG minimum, one outlet on the end, never defeat the grounded plug - the rower book with `elliptical` (its chapter 7
+is an elliptical page) and the stepper book with `climber`.
+
+**Their owner's manuals say 14AWG or nothing.** The CRS800S-2021 owner's manual asks for 14AWG
+(`xt-2015-safety-extension-cord-14-awg-or-better`, `spirit-2024-safety-outlet-110-volt-15-amp-stepper`); the CRW800-2021
+and CRW800-2024 owner's manuals describe a battery-powered rower with no cord to extend, which is a different machine
+from the 2016 adapter-fed one. Quote the gauge from the book in the customer's hand.
+
+**Two sibling service manuals print no extension-cord rule.** The XRW600-2019 (DW400-YR002) book omits the whole
+Important Safety Instructions block, and the CS800-2016 (XS200-SS003) book's 7-1 has three lines - read all
+instructions, disconnect before service, the outlet - and no cord sentence.

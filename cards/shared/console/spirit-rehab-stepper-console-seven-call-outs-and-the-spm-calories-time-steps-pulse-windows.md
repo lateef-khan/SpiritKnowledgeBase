@@ -42,7 +42,8 @@ see_also:
 - spirit-rehab-stepper-console-stop-reset-key-and-the-program-keys-as-a-number-pad
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 21; the 7.0S-2025 prints the same passage on its printed p. 22 and the 7.5S-2025 on its printed p. 24. All three pages are flattened images and the call-outs were read from the OCR supplements in text.md and confirmed against a 300 dpi render
+  locator: MS300-2021 printed p. 21; the 7.0S-2025 prints the same passage on its printed p. 22 and the 7.5S-2025 on its printed p. 24. All three pages are flattened images and the call-outs were read from the OCR supplements in text.md and confirmed against a 300 dpi render.
+    7.5S (RS9600-SS021-01) service manual 5.1 PRODUCT OPERATION, Display Windows, PDF pp. 9-10, text.md lines 75-80, the LCD Layout drawing read from the OCR supplement lines 959-981
   extracted_at: '2026-09-10'
 ---
 
@@ -79,3 +80,9 @@ do not.
 **Do not answer this from a CS800 or CRS800S console card.** Those machines have two Scan buttons, a
 USB Charger, a Fan and a quarter-mile track ring, and none of those is on this drawing
 (`spirit-ce-console-led-console-face`). **This console has no fan and no scan key.**
+
+**The 7.5S service manual gives the screen a size the owner's manuals do not: a 7.5" LCD Display.**
+Its Display Windows page carries that one call-out over a photograph of the console, the next page
+is headed **LCD Layout** and shows the same SPM, CALORIES, TIME, STEPS and PULSE windows over the
+message line, and both say "For detailed console operation refer to the Owner's Manual". It numbers
+no parts.

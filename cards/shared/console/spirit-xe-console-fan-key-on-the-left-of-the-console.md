@@ -73,7 +73,8 @@ source:
     PDF p. 7, lines 120-121; the 2023 console drawings on the same pages label a "Fan
     On/Off Button"; XE795-2023 (XE815A-SE048) service manual 4.2 Basic Function, Built-in
     Fan, PDF p. 8 (printed 8), text.md lines 178-179, and the console drawing on PDF
-    p. 6 labelled FAN Button
+    p. 6 labelled FAN Button.
+    XS895 (XS300B-YS006) service manual 4-2-9 Program Keys, PDF p. 13 (printed 12), text.md lines 232 and 4-3 Function Button Locations, PDF p. 15 (printed 14), lines 258-279
   extracted_at: '2026-09-09'
 ---
 
@@ -127,3 +128,7 @@ XBU55 and XBR95 call it the Fan Key, "Cooling fan switch on or off"
 (`spirit-xbr-2016-console-face-7-5-inch-lcd-with-6-10-or-11-program-buttons`).
 
 **The XE795-2023 service manual prints the sentence word for word** - "press the button on the left side of the console" - and its console drawing labels that key **FAN Button** at the left end of the key row.
+
+**The XS895 (XS300B-YS006) service manual prints the sentence word for word** - "press the key on the
+left side of the console" - and its Function Button Locations page labels a **FAN KEY, Cooling fan
+switch on or off**.

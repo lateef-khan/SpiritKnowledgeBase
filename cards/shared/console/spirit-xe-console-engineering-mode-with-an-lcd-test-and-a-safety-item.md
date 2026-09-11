@@ -76,7 +76,7 @@ source:
     text.md lines 627-647; XE295-2016 (XE519S-SE020-01) PDF p. 41, lines 628-648;
     XE395-2016 (XE539S-SE019-01) PDF p. 55, lines 924-945; XG400-2016 (SE551-SE023-01)
     PDF p. 39, lines 569-590; CE850-2016 (XE898-SE011) PDF p. 54, lines 931-952; XE895-2016
-    (XE895-SE022) PDF p. 55, lines 931-952'
+    (XE895-SE022) PDF p. 55, lines 931-952. XS895 (XS300B-YS006) service manual 7-7 Engineering Mode Menu, PDF p. 35 (printed 34), text.md lines 529-544; corroborated on screen by the video source spirit-stepper-xs895-engineering-mode-odo-reset-video, text.md lines 1-36'
   extracted_at: '2026-09-09'
 ---
 
@@ -177,3 +177,14 @@ the position sensor reading, and the XBR25-2016 adds a Unit Type name and an eig
 **Six 2016 service manuals print this menu word for word**, so this card now covers the 2016 SKUs as well: the XE195-2016, XE295-2016, XE395-2016, XG400-2016 and XE895-2016, and the **CE850-2016**, whose XE898-SE011 book is the XE895's with the commercial name. Same three-key hold for about 5 seconds, the Message Window reading **"Engineering Mode"**, the same four top-level items lettered a to d, and the same seven Functions entries with Display Mode **turned off** to power down after **20 minutes**. Two things they add: the **Level ▲/▼ keys** navigate the menu, and the **Motor Test is described** - "Press Enter to run the resistance motor up and down in a continuous loop. Display shows level setting and position sensor reading. Press Stop to end test". Safety still has no description.
 
 **Their software-spec chapters print a different sleep figure** - 30 minutes on the XE195, XE295, XE395 and XG400 (`spirit-xe-2016-console-software-modes-idle-30-minute-sleep-child-lock-pause-end-reset`), 20 on the CE850 and XE895 (`spirit-ce850-2016-console-software-modes-idle-20-minute-sleep-child-lock-pause-end-reset`). **The CE850-2016 owner's manual prints a different menu for the same machine** - a 30-minute sleep and a D/A test in place of the Motor Test and Safety (`ce850-2016-console-engineering-mode-security-lock`); neither document mentions the other. The XE395-2016 book adds an incline calibration keystroke above the menu (`xe395-2016-console-incline-calibration-stop-level-and-start-held-five-seconds`), and the XE795-2016 book prints the DA Test menu instead (`xe795-2021-console-engineering-mode-with-a-da-test`).
+
+**The XS895 (XS300B-YS006) service manual prints this menu word for word** under 7-7 Engineering
+Mode Menu - the three-key hold for about 5 seconds, "Engineering Mode Menu" on the message center,
+Key Test, LCD Test, Functions with the Up arrow to scroll, Display Mode turned off to power down
+after 20 minutes, and Security at top level. **It prints neither of the two extra keystrokes the
+owner's manuals add below the menu** - no incline calibration and no Bluetooth toggle - although its
+troubleshooting matrix twice says "Calibrate the console" for an incline that does not match, with no
+keys given. **A 37-second video of the XS895 console** shows the menu on screen - LCD TEST, an EXIT
+item no book prints, DISPLAY MODE, ODO RESET confirming with RST, FUNCTIONS - and is carded at
+authority 2 as corroboration
+(`spirit-xs895-console-engineering-mode-on-video-odo-reset-confirms-with-rst-and-an-exit-item-the-book-omits`).

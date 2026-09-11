@@ -46,6 +46,8 @@ not_to_be_confused_with:
 - crw800-2024-specs-resistance-system
 - spirit-climber-specs-rehabilitation-stepper-brake-magnets-on-a-disc
 see_also:
+- spirit-csc880-csc900-2024-specs-wire-diagram-2022-magnetic-system
+- csc900-2019-specs-power-flow-diagrams-alternator-brake-and-power-resistor
 - spirit-climber-specs-no-specification-table
 - crs800s-2024-specs-parts-list
 - cs800-2024-specs-parts-list
@@ -53,15 +55,20 @@ see_also:
 - spirit-climber-specs-which-manuals-print-a-parts-list
 source:
   ref: spirit-climber-crs800s-2024-owners-manual
-  locator: Parts List printed pp. 38-41 (PDF pp. 40-43), items 32, 38, 115, 121, 125
-    and 247; the same item numbers on the CRS800S-2021 Parts List printed pp. 41-44
-    (PDF pp. 41-44); CS800-2024 Parts List printed pp. 39-40 and CS800-2021 Parts List
-    printed pp. 41-42 (PDF pp. 43-44), items 26, 27, 32, 33, 36, 37, 124 and 126; CVC800-2021
-    Parts List printed pp. 31-32 (PDF pp. 33-34), items 34, 35, 42, 45 and 46; CSC900-2024
-    Troubleshooting printed p. 34 (PDF p. 36, read from the OCR supplement of a flat-image
-    page); the warranty component tables of CSC900-2019 printed p. 30, CSC900-2021
-    printed p. 34, CSC900-2024 printed p. 36 and CSC880-2025 printed p. 38, and the
-    CSC880-2025 Troubleshooting table printed p. 33
+  locator: "Parts List printed pp. 38-41 (PDF pp. 40-43), items 32, 38, 115, 121, 125 and 247; the
+    same item numbers on the CRS800S-2021 Parts List printed pp. 41-44 (PDF pp. 41-44);
+    CS800-2024 Parts List printed pp. 39-40 and CS800-2021 Parts List printed pp. 41-42 (PDF
+    pp. 43-44), items 26, 27, 32, 33, 36, 37, 124 and 126; CVC800-2021 Parts List printed
+    pp. 31-32 (PDF pp. 33-34), items 34, 35, 42, 45 and 46; CSC900-2024 Troubleshooting
+    printed p. 34 (PDF p. 36, read from the OCR supplement of a flat-image page); the
+    warranty component tables of CSC900-2019 printed p. 30, CSC900-2021 printed p. 34,
+    CSC900-2024 printed p. 36 and CSC880-2025 printed p. 38, and the CSC880-2025
+    Troubleshooting table printed p. 33. Service manuals: CSC880 (spirit-climber-
+    csc880-2025-service-manual) cover PDF p. 1 '(Magnetic)' and Working Principle PDF p. 5;
+    CSC900 2022 (spirit-climber-csc900-2024-service-manual) cover '(Magnetic system)' and
+    Component Theory PDF p. 4; CSC900 V1.0 (spirit-climber-csc900-2019-service-manual) Power
+    Flow-1 and -2, PDF pp. 3-4; CRS800S and CS800(2020) Electrical Configurations, PDF pp. 9
+    and 11"
   extracted_at: '2026-09-10'
 ---
 
@@ -157,3 +164,24 @@ bikes and the induction-braked ENT bikes are different units in different
 machines - see `spirit-bike-specs-generator-brake-or-induction-brake` - and the
 gear-motor bikes on `spirit-residential-bike-specs-gear-motor-or-generator-brake`
 are residential.
+
+## What the service manuals add
+
+The owner's manuals never say *magnetic*; **the service manuals do, and they split the stair
+climbers into two generations**:
+
+- **CSC900-2019 is an alternator drive.** Its V1.0 service manual draws the stepping motion
+  turning an **alternator** through a transmission belt, a **speed reducer with a power-off brake**
+  on the same shaft, and a **power resistor** (about 0.5 ohm) that the controller switches across the
+  alternator to load it - the braking is the generator's load, which is why the warranty table
+  says *generator brake* (`csc900-2019-specs-power-flow-diagrams-alternator-brake-and-power-resistor`).
+- **CSC900-2024 and CSC880-2025 are a magnetic system.** Both service manuals say so on their
+  covers ("Magnetic" / "Magnetic system") and draw a **magnetic flywheel** with a **brake**, a
+  **36-hole light-sensor grating** for speed, a **24 V adapter** and a controller that feeds the
+  console 12 V (`spirit-csc880-csc900-2024-specs-wire-diagram-2022-magnetic-system`). The
+  "generator brake" of the 2024 owner's-manual warranty table is a carried-over term; the 2022
+  machine's own book names no alternator.
+- **The CRS800S and CS800 (2020) service manuals call the gear-motor brake an "ECB BRAKE"** and
+  print no working voltage for it; the 2016 CS800 book prints DC 4-6 V for the same kind of motor
+  (`spirit-crs800s-cs800-2021-specs-electrical-configuration-ecb-brake-with-no-voltage-printed`,
+  `cs800-2016-specs-electrical-configuration-tension-motor-dc-4-to-6-v`).

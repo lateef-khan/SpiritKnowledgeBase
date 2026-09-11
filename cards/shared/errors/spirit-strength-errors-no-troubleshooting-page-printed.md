@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-errors-no-troubleshooting-page-printed
-title: Eleven strength owner's manuals print no troubleshooting page, while the other twenty-eight print one that is two rows long
+title: Eleven strength owner's manuals print no troubleshooting page, while the other
+  twenty-eight print one that is two rows long
 kind: fact
-question: Does a Spirit strength owner's manual have a troubleshooting section or a list of error codes?
+question: Does a Spirit strength owner's manual have a troubleshooting section or
+  a list of error codes?
 asked_as:
 - where is the troubleshooting section in my spirit strength manual
 - list of error codes for a spirit weight machine
@@ -51,9 +53,16 @@ see_also:
 - spirit-commercial-bike-errors-no-error-codes-printed
 - spirit-climber-errors-no-error-codes-printed
 - spirit-rower-errors-no-error-codes-printed
+- spirit-istrength-errors-fault-code-checklist-twelve-bit-flag-codes
 source:
   ref: spirit-strength-csf-aabb-owners-manual
-  locator: 'Absence, checked across all 39 Spirit strength owner''s manuals. For the eleven named here (327 pages) the check was: a whole-word count of error, fault and troubleshoot over the full text; the contents page of each; and a 300 dpi tesseract --psm 4 render of the last seven pages of every one of the eleven, compared word for word against the same pages'' text layer.'
+  locator: 'Absence, checked across all 39 Spirit strength owner''s manuals. For the
+    eleven named here (327 pages) the check was: a whole-word count of error, fault
+    and troubleshoot over the full text; the contents page of each; and a 300 dpi
+    tesseract --psm 4 render of the last seven pages of every one of the eleven, compared
+    word for word against the same pages'' text layer; i-Strength Digital Resistance
+    Module maintenance manual, Chapter 7. Troubleshooting Checklist, PDF p. 26, text.md
+    lines 661-711'
   extracted_at: '2026-09-10'
 ---
 
@@ -134,3 +143,7 @@ retrieval time, so do not serve one to a Spirit strength caller.
 The Spirit ellipticals, bikes, climbers and rowers have the same gap, at
 `spirit-xe-errors-no-error-codes-printed`, `spirit-commercial-bike-errors-no-error-codes-printed`,
 `spirit-climber-errors-no-error-codes-printed` and `spirit-rower-errors-no-error-codes-printed`.
+
+## Read this first if the machine is a CSI-CPSP or CSI-LROW
+
+**The two CSI owner's manuals print no code, but the maintenance manual for their Digital Resistance Module - the motorised resistance box the owner's manuals list as part 72 - prints twelve.** They are hexadecimal bit-flag codes, `0x40` to `0x40000000`, for the module's servo drive: power module faults, over- and under-voltage, three encoder faults, a current-sampling error, motor phase wiring, braking overload and motor overload, each with a cause and an action. The table and the twelve cards are at `spirit-istrength-errors-fault-code-checklist-twelve-bit-flag-codes`. The absence above still holds for every other strength machine, and for the two CSI owner's manuals themselves.

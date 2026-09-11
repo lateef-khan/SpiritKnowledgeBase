@@ -1,7 +1,7 @@
 ---
 id: spirit-crw800-specs-no-specification-table
-title: Not one of the six rower manuals prints a specification table, and none of them
-  states a dimension in any unit
+title: Not one of the six rower owner's manuals or four rower service manuals prints a
+  specification table, and none of them states a dimension in any unit
 kind: fact
 question: Where are the dimensions, machine weight, shipping weight, flywheel weight
   and rail length for a Spirit rower?
@@ -27,6 +27,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - crw800h2o
@@ -50,10 +51,14 @@ see_also:
 - crw800h2o-specs-six-water-fill-levels
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: Table of Contents printed p. 1 and whole document, including every OCR supplement
-    in the ingested text; console ranges printed p. 14 (PDF p. 16). The same check
-    was run over the whole of the CRW800-2021, CRW900-2021, CRW800H2O-2021, XRW600-2019
-    and XRW600-2021 manuals, native text layer and OCR supplement together
+  locator: "Table of Contents printed p. 1 and whole document, including every OCR supplement in the
+    ingested text; console ranges printed p. 14 (PDF p. 16). The same check was run over the
+    whole of the CRW800-2021, CRW900-2021, CRW800H2O-2021, XRW600-2019 and XRW600-2021
+    manuals, native text layer and OCR supplement together. Service manuals: the CRW800
+    (2020) book 800940, CW800-YR001 (CRW800-2016), DW400-YR002 (XRW600-2019) and the CRW900
+    book, whole documents with their OCR supplements; loose-word greps for specif,
+    dimension, weight, kg and lb, of which the only hits are belt-tension pounds and a
+    warranty sentence"
   extracted_at: '2026-09-10'
 ---
 
@@ -160,3 +165,15 @@ only as a thing to measure when the console is dim, not as a supply
 specification, and the electrical safety page of this book states no voltage and
 no circuit rating at all - unlike the CS800 and CRS800S books, which ask for a
 110-volt, 15-amp outlet with a dedicated 5-amp breaker.
+
+## The service manuals do not print one either
+
+The four rower service manuals in the repository - the CRW800 (2020) book, the CW800-YR001 book
+for the `crw800-2016`, the DW400-YR002 book for the `xrw600-2019` and the CRW900 book - contain
+**no specification table, no dimension in any unit and no machine weight**. The word *weight*
+does not occur in any of them; *lb* occurs only as the drive-belt tension ("70~80BLS") in the
+two CRW800 books and the XRW600 book. What they add instead is electrical: motor working
+voltages, a generator controller, an adapter rating and pin definitions - see
+`crw800-2021-specs-electrical-configuration-tension-motor-dc-4-0-to-6-0-v`,
+`spirit-crw800-2016-xrw600-specs-power-adapter-12-v-1-5-a-through-a-dc-jack` and
+`crw900-2021-specs-service-manual-prints-no-wiring-diagram-outline-or-block-diagram`.

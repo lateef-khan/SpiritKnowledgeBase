@@ -58,6 +58,7 @@ see_also:
 - spirit-xe795-2021-safety-instructions-list
 - spirit-ce-safety-no-placement-or-clearance-requirement
 - xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-never-use-a-gfci-wall-outlet
 source:
   ref: spirit-elliptical-xe395-2010-owners-manual
   locator: 'IMPORTANT SAFETY INSTRUCTIONS, page 2, and GROUNDING INSTRUCTIONS, page
@@ -74,7 +75,10 @@ source:
     115 volt instead: XE795-2016 (XE815-SE024-01) service manual: 7 Product Safety
     Instructions, PDF p. 35 (printed 35); text.md lines 477-505. XE895-2016 (XE895-SE022)
     service manual: 7 Product Safety Instructions, PDF p. 38 (printed 38); text.md
-    lines 607-635.'
+    lines 607-635. XRW600-2019 (DW400-YR002) service manual: 7 Product Safety Instructions,
+    PDF p. 29 (printed 29), text.md lines 369-389 and OCR supplement lines 1229-1264,
+    in spirit-rower-xrw600-2019-service-manual. That page prints no outlet figure
+    at all.'
   extracted_at: '2026-09-09'
 ---
 
@@ -235,3 +239,10 @@ again as `a nominal 115-volt circuit` on the grounding page
 this card; quote each from its own book. **The XE795-2023 service manual prints 220 volt, 15 amp**
 with a nominal 120-volt grounding sentence (`xe795-2023-safety-outlet-220-volt-15-amp`). All three
 print their page on a self-powered machine with no plug, exactly as the XE795 owner's manuals do.
+
+**The XRW600-2019 (DW400-YR002) service manual prints no outlet figure.** Its chapter 7 is the CRW800-2016 book's page
+with the Important Safety Instructions block removed and `Rower` pasted over `elliptical`: it carries the GFCI
+prohibition, the high-inrush breaker paragraph and the grounding page, but the grounding page's `This product is for
+use on a nominal ... circuit` sentence is cut as well. So no voltage and no amperage appear anywhere in that book, and
+the XRW600's 110-volt, 15-amp figure above is the owner's manuals' alone (`spirit-product-must-be-grounded`,
+`spirit-never-use-a-gfci-wall-outlet`).

@@ -29,6 +29,7 @@ facets:
   - ab950-2024
   - cb900-2013
   - ce800-2013
+  - ce800-2016
   - ce800-2021
   - ce800-2023
   - ce800-2024
@@ -40,9 +41,11 @@ facets:
   - ce850-2024
   - ce900-2021
   - ce900-2025
+  - ce900ent
   - ces880-2025
   - cic800-2021
   - cic850-2022
+  - cr800-2009
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -52,7 +55,9 @@ facets:
   - cr900-2025
   - cr900ent-2021
   - crs800s-2024
+  - crw800-2016
   - crw800-2024
+  - cs800-2016
   - cs800-2024
   - csc900-2024
   - ct800-2012
@@ -79,6 +84,7 @@ facets:
   - cu900-2025
   - cu900ent
   - jb950-2022
+  - mt200-2010
   - xbr25-2019
   - xbr25-2023
   - xbr55-2019
@@ -108,6 +114,7 @@ facets:
   - xg400-2021
   - xic600-2018
   - xic600-2021
+  - xs895-2018
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -135,6 +142,7 @@ see_also:
 - spirit-xe-warranty-geographic-fifty-states
 - spirit-xe-warranty-exclusions-residential-setting-only
 - spirit-xe-2023-warranty-exclusions
+- spirit-commercial-warranty-sheet-2019-footnotes
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
   locator: >-
@@ -202,7 +210,8 @@ source:
     line 1703, spirit-bike-xbu55ent-2021-owners-manual line 1606,
     spirit-bike-xbr25-2023-owners-manual line 1447, spirit-bike-xbr55-2023-owners-manual line
     1980, spirit-bike-xbr95-2023-owners-manual line 1920, spirit-bike-xbu55-2023-owners-manual
-    line 1753
+    line 1753.
+    The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints footnote *, "Warranty applies to 48 contiguous states.", marked against every table heading on both pages.
   extracted_at: '2026-09-10'
 ---
 
@@ -233,6 +242,15 @@ Alaska and Hawaii are named as outside the 48 contiguous states. The manuals sta
 **The elliptical manuals name three different warrantors.** The CE800 2013 reads "All warranties are made by **Spirit Fitness**"; the CE850 2016, the CE900 2025 and the CES880 read **Spirit Fitness, Inc.**; the CE800 2021 and 2023, the CE800ENT, the CE850 2020 and 2022 and the CE900 2021 read **Spirit Manufacturing, Inc.** None says which entity honours a claim on a machine sold under an earlier manual.
 
 **The CT900, CT900ENT and CTSBS900 print both sentences too, and split between the two patterns.** The **CT900** (exclusion 9 p. 53, note p. 53 and again p. 54) and the **CTSBS900** (exclusion 9 p. 55, note p. 55 and again p. 56) follow the 2023 pattern exactly - twice, "does not **include**" first and "does not **apply to**" second - and both name the warrantor **Spirit Fitness, Inc.** The **CT900ENT** follows the 2015 pattern: the note appears **once**, at the foot of the SERVICE page (p. 52), reads "does not **apply to**", and names **Spirit Manufacturing, Inc.** Its outside-the-US sentence is also the only one on this card that is **unnumbered** - printed below item 8 rather than as an item of the list, because that list runs to eight items and not nine. The sentences themselves do not change on any of the three. The Sole manuals do **not**: Sole's wording is "outside of North America", and the 2026 Sole treadmill manuals limit cover to the Continental United States in different words. That is a different fact about different machines.
+
+## The March 2019 commercial warranty sheet says 48 states for every machine it names
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, opens its first footnote with "Warranty applies to 48 contiguous states"**,
+marked against every table on both pages - thirty-two commercial and medical machines named
+without years, including the MS350, MR100 and MU100 that have no manual on file. It does not
+name Alaska or Hawaii, does not say what applies outside the United States, and sends the
+reader to the owner's manuals for "complete warranty details". Its other footnotes are
+`spirit-commercial-warranty-sheet-2019-footnotes`.
 
 ## Thirteen Spirit XE and XG residential manuals print both sentences, and two of them say North America
 

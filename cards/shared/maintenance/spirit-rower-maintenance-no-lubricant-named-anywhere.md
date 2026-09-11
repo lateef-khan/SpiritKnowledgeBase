@@ -1,6 +1,7 @@
 ---
 id: spirit-rower-maintenance-no-lubricant-named-anywhere
-title: No Spirit rower manual prints a lubrication step or names a lubricant
+title: No Spirit rower owner's manual prints a lubrication step or names a lubricant; two service
+  manuals do
 kind: fact
 question: Does a Spirit rower need lubricating, and what lubricant do the owner's manuals
   specify?
@@ -39,6 +40,8 @@ not_to_be_confused_with:
 - spirit-bike-maintenance-no-lubricant-belt-or-battery-service
 - spirit-2026t-maintenance-deck-takes-no-lubricant
 see_also:
+- crw900-2021-maintenance-aerosol-super-grease-on-the-strap-pulley-shaft
+- spirit-crw800-maintenance-noise-screw-kits-foot-pads-seat-knob-thread-slide-fan-flywheel
 - spirit-water-rower-maintenance-weekly-rails-and-hundred-hour-belt-check
 - crw900-2021-maintenance-seat-roller-and-track-cleaning
 - crw800-2024-maintenance-machine-care-schedule
@@ -57,7 +60,11 @@ source:
     and not an instruction. All 44 pages of the 2024 CRW800 PDF (spirit-rower-crw800-2024-owners-manual)
     were checked the same way and return zero, as does its text.md. The maintenance pages of all six were additionally read from
     300 dpi renders with tesseract --psm 4, so no lubrication step is hiding as a flattened image.
-    All 64 pages of spirit-ergometer-85ue-2025-owners-manual return zero for the same words'
+    All 64 pages of spirit-ergometer-85ue-2025-owners-manual return zero for the same words. The service manuals
+    were searched the same way on 2026-09-11 and two of them do name one: spirit-rower-crw900-2021-service-manual
+    2.1 Lubrication Grease, PDF p. 17, lines 136-147; spirit-rower-crw800-2021-service-manual 12-4 Noise item 3,
+    PDF p. 67, line 1035, and spirit-rower-crw800-2016-service-manual 9-13 Noise item 3, PDF p. 70, lines 822-823;
+    spirit-rower-xrw600-2019-service-manual returns zero'
   extracted_at: '2026-09-10'
 ---
 
@@ -80,6 +87,15 @@ The CRW900 is explicit about the material to use on the moving parts a customer 
 **clean the wheels and tracks weekly with a soft *dry* cloth**
 (`crw900-2021-maintenance-seat-roller-and-track-cleaning`). Its only oil-like instruction is
 cosmetic — furniture polish on the wood frame.
+
+## The service manuals are different books
+
+Two Spirit rower **service** manuals do name a lubricant, and neither is for the rollers or the track. The
+**CRW900 service manual** sprays "any kind of lubrication grease, such as super grease" onto the strap pulley
+shaft through the frame plug (`crw900-2021-maintenance-aerosol-super-grease-on-the-strap-pulley-shaft`). The **CRW800 2016 and 2021 service manuals** answer a noise at the seat
+up/down adjustment knob with "some lubrication on the position of screw" — the knob's thread, lubricant unnamed
+(`spirit-crw800-maintenance-noise-screw-kits-foot-pads-seat-knob-thread-slide-fan-flywheel`); the XRW600 service manual's noise list has no such item. Everything else in those books is clean,
+tighten, level or replace. This card's absence is the owner's-manual absence, and it stands.
 
 ## What a rower does have that wears
 

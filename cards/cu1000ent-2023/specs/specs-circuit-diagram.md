@@ -4,7 +4,8 @@ title: 'Circuit diagram titled 230V: adapter into a DC jack, 6-pin main control 
   a TFT power lead, a communication transfer board and 4-pin and 3-pin XHP hand-pulse
   plugs'
 kind: spec
-question: What does the circuit diagram of a Spirit cu1000ent-2023 upright bike show?
+question: What does the circuit diagram of a Spirit CU1000ENT upright or CR1000ENT recumbent 2023
+  bike show?
 asked_as:
 - cu1000ent wiring diagram
 - cu1000 schematic 230v
@@ -13,8 +14,8 @@ asked_as:
 keywords:
 - circuit diagram
 - wiring diagram
-- schematic
 - su8880-sb028
+- sr8880-sb028
 - 230v
 - dc jack
 - 6-pin main control wires
@@ -25,13 +26,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu1000ent-2023
+  model: '*'
   applies_to:
+  - cr1000ent-2023
   - cu1000ent-2023
   section: specs
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - cu900ent-circuit-diagram
@@ -41,9 +41,11 @@ see_also:
 - cu1000ent-2023-specs-unit-block-diagram
 source:
   ref: spirit-bike-cu1000ent-2023-service-manual
-  locator: Section 7.4 Circuit Diagram, PDF p. 13 (printed 13), text.md lines 259-264;
-    the drawing is a flattened image read from a 300 dpi render (OCR supplement lines
-    898-946)
+  locator: "Section 7.4 Circuit Diagram, PDF p. 13 (printed 13), text.md lines 259-264; the drawing
+    is a flattened image read from a 300 dpi render (OCR supplement lines 898-946).
+    CR1000(2023) SR8880-SB028 service manual (spirit-rower-cr1000ent-2023-service-manual):
+    section 7.4, PDF p. 13 (printed 13), lines 269-274, read from a 400 dpi render (OCR
+    supplement 1172-1204)"
   extracted_at: '2026-09-11'
 ---
 
@@ -65,4 +67,16 @@ with **NFC, START, STOP and LEVEL - / +**. Two hand-grip pulse plugs are labelle
 **3-PIN XHP**, captioned *Holding heartbeat*.
 
 **Spelling to search for:** the console-side C-SAFE socket is printed **C-SAVE** on this drawing.
+
+## The CR1000ENT recumbent's sheet
+
+The CR1000ENT-2023 service manual prints the same drawing headed **SR8880-SB028 230V Recumbent
+Bike CIRCUIT DIAGRAM** - same adapter, DC jack, 6-pin main control wires, TFT power lead, M+ and
+JK leads, communication transfer board and C-SAVE spelling - so this card covers that machine
+too. **One part differs: the hand-pulse leads.** Where the upright draws a 4-pin XHP and a 3-pin
+XHP plug, the recumbent draws one **4-PIN XHP** splitting into two leads, each through a
+**3-PIN** plug (labelled SMR/SMP, barely legible) to a **Headphone holder** socket, a **Headphone
+head** plug and a coiled cord ending at a grip captioned *Holding heartbeat* - the recumbent's
+grips sit on the seat arms and unplug like a headphone. Those grips are items 23 and 24,
+*Handpulse W/Cable Assembly*, on its outline (`cr1000ent-2023-specs-outline-numbered-part-names`).
 

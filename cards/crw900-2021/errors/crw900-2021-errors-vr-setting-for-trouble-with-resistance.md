@@ -38,8 +38,10 @@ see_also:
 source:
   ref: spirit-rower-crw900-2021-owners-manual
   locator: TROUBLESHOOTING CONTINUED, the "Trouble with resistance" row, printed page
-    54 (PDF page 54). The page was read from a 300 dpi render as well as the text layer,
-    and the two agree.
+    54 (PDF page 54). The page was read from a 300 dpi render as well as the text
+    layer, and the two agree; CRW900 service manual 1.3 Trouble with console, "Trouble
+    with resistance", PDF p. 14-15, text.md lines 105-124 - the same six steps word
+    for word
   extracted_at: '2026-09-10'
 ---
 
@@ -71,3 +73,5 @@ level number that does not match the knob is the symptom to expect.
 
 **The CRW800H2O has no VR setting.** Its level is entered by hand with the LEVEL button from L1 to
 L6 to match the water level, and its troubleshooting table prints no resistance row at all.
+
+**The CRW900 service manual prints the same six steps word for word** under *1.3 Trouble with console*, so the routine is in both books for this machine.

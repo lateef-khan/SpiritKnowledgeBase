@@ -41,6 +41,7 @@ not_to_be_confused_with:
 see_also:
 - spirit-ct800-warranty-labor-period
 - spirit-ct800-warranty-use-environment
+- spirit-commercial-warranty-sheet-2019-footnotes
 source:
   ref: spirit-treadmill-ct800ent-2022-owners-manual
   locator: 'Warranty table, CONSOLE PARTS and CONSOLE LABOR columns, CT800ENT 2022 p. 53
@@ -48,7 +49,7 @@ source:
     CT850ENT 2022 manual, p. 53 (spirit-treadmill-ct850ent-2022-owners-manual text.md lines
     1215-1217). The same two columns with the same two figures are printed in the Spirit
     CE800ENT elliptical owner''s manual, p. 40 (spirit-elliptical-ce800ent-owners-manual text.md
-    lines 917-919)'
+    lines 917-919) The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the footnote "**** Consoles are covered for 3 years parts and 1 year labor." against the CT850ENT, CE800ENT, CR800ENT and CU800ENT.'
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +79,9 @@ The manual never defines what "Console Parts" covers - whether the whole console
 The CU800ENT 2022 and the CR800ENT 2023 warranty tables carry **CONSOLE PARTS 3 Years** and **CONSOLE LABOR 1 Year** in both the commercial and the residential row, the same figures in the same two columns as the CT800ENT, CT850ENT and CE800ENT. The four columns to their left are on `spirit-bike-warranty-commercial-periods` and `spirit-bike-warranty-residential-periods`.
 
 **These are not the CU800ENT 2024 figures.** That manual replaces the pair with a column headed **Console Parts, Labor** at 2 Years and a second headed **Console Labor** at 1 Year - three years of console parts is not on its table at all (`cu800ent-2024-warranty-coverage-periods`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, states the same two periods as a footnote** - "Consoles are covered for 3
+years parts and 1 year labor" - marked against the CT850ENT, CE800ENT, CR800ENT and CU800ENT
+and against no other machine, three years before the CT800ENT manual. The four 900-series ENT
+machines on the sheet's first page carry no such note. See
+`spirit-commercial-warranty-sheet-2019-footnotes`.

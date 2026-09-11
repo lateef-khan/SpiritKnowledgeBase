@@ -38,7 +38,8 @@ see_also:
 - spirit-stepper-console-led-data-windows-steps-and-vertical-distance
 source:
   ref: spirit-climber-cs800-2021-owners-manual
-  locator: CS800-2021 printed p. 17, POWER; the CRS800S-2021 owners manual prints the same paragraph on its printed p. 18
+  locator: CS800-2021 printed p. 17, POWER; the CRS800S-2021 owners manual prints the same paragraph on its printed p. 18.
+    CRS800S (2020 ver.) service manual Operation / POWER, PDF p. 12 (printed 12), text.md lines 137-143; CS800 (2020) service manual 4-2-1 POWER, PDF p. 14 (printed 13), lines 227-233
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +70,13 @@ means the two odometers are not read the same way.
 the next two pages. It is a misprint in that book, not a different part.
 
 **Neither console has a power switch in this instruction.** Neither paragraph mentions one.
+
+**The service manuals swap the two words the owner's manuals split on.** The CS800 (2020) service
+manual says *"When the **AC power cord** is connected to the Stepper"* and then *"the total hours of
+use and total **ksteps**"*; the CRS800S (2020 ver.) service manual says *"When the **DC Power cord** is
+connected to the equipment"* and *"total hours of use and total **steps**"*. So the cord word follows
+the machine - AC on the CS800, DC on the CRS800S, in both documents of each - but **ksteps and steps
+do not**: each machine's owner's manual prints one and its service manual the other. Treat the step
+total's unit as unsettled for both machines rather than a difference between them. The CS800 book
+also writes "Message Center" where the owner's manual writes "Dot Matrix Message Center", and both
+service manuals spell "LED Data Display Window" correctly.

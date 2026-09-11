@@ -29,6 +29,8 @@ facets:
   - crw800-2021
   section: warranty
   code: '*'
+  model_number:
+  - '800940'
 authority: 3
 not_to_be_confused_with:
 - xrw600-2019-warranty-lifetime-frame-and-brake-ten-year-parts
@@ -40,11 +42,12 @@ see_also:
 - spirit-rower-warranty-exclusions-nine-items
 - spirit-ct800-warranty-labor-period
 - spirit-2026t-warranty-prisons-excluded
+- spirit-commercial-warranty-sheet-2019-non-dues-paying-terms
 source:
   ref: spirit-rower-crw800-2021-owners-manual
-  locator: ROWER WARRANTY - EFFECTIVE OCTOBER 08, 2021, printed p. 37 (PDF p. 39),
+  locator: 'ROWER WARRANTY - EFFECTIVE OCTOBER 08, 2021, printed p. 37 (PDF p. 39),
     the two-row table and its asterisked footnote. Read from a 300 dpi render of PDF
-    p. 39 as well as from text.md lines 1230-1234.
+    p. 39 as well as from text.md lines 1230-1234. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 2, text.md lines 49-97, prints the CRW800 (named without a year) under COMMERCIAL (NON-DUES PAYING FACILITIES) as Frame Lifetime, Parts 5 Years, Labor 2 Years, with no Brake column.'
   extracted_at: '2026-09-10'
 ---
 
@@ -66,3 +69,9 @@ with the footnote *\*Prisons and correctional facilities are excluded from warra
 **Do not answer a 2024 CRW800 from this card.** The CRW800 reissued in autumn 2024 is the same nameplate on a redesigned warranty page - the frame drops from Lifetime and the brake column disappears - and its figures are `spirit-2024-warranty-coverage-periods-parts-labor`. This card is the October 2021 predecessor.
 
 **Do not answer a water rower from it either.** The CRW800H2O shares the CRW800 name and almost nothing else on this page: it prints no brake column and its warranty section matches this one at only 86.5% at word level (`crw800h2o-warranty-coverage-periods`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints the commercial row's frame, parts and labor for the CRW800** - Lifetime,
+5 Years, 2 Years - under COMMERCIAL (NON-DUES PAYING FACILITIES), and **omits the Brake column**.
+The sheet names the CRW800 without a year, two and a half years before this manual; the CRW800
+then on sale was the machine of the CW800-YR001 service manual. See
+`spirit-commercial-warranty-sheet-2019-non-dues-paying-terms`.

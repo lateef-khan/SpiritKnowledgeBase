@@ -42,7 +42,10 @@ source:
   ref: spirit-climber-csc880-2025-owners-manual
   locator: TROUBLESHOOTING, row 1 of the No./Problem/Causes/Solution table, printed
     page 33 (PDF page 35), read from the native text layer and confirmed against a
-    400 dpi render
+    400 dpi render; CSC880 service manual (Magnetic), 5. Troubleshooting, "CSC880
+    electrical malfunction Troubleshooting" table row 1, PDF p. 8 - the page is a
+    flat picture (text.md lines 123-128 hold only the heading; OCR supplement lines
+    428-505) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -72,3 +75,5 @@ machine starts but cannot brake. `ER01` does not exist on the CSC900 2024 at all
 
 The mirror-image fault - the controller not hearing the console - is `ER03` on this machine:
 `csc880-2025-errors-er03-controller-not-receiving-console-data`.
+
+**The CSC880 service manual prints this row word for word**, as row 1 of the eleven-row table on its page 8. Owner's manual and service manual carry the same table; the service manual adds nothing to this row - except that its copy spells `wiring harness` correctly in both places where the owner's manual prints `wiring hardness`.

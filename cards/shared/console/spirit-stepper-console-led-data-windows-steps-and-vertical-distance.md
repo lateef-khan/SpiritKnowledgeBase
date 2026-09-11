@@ -45,7 +45,8 @@ see_also:
 source:
   ref: spirit-climber-cs800-2024-owners-manual
   locator: CS800-2024 p. 18 FEATURES / Basic Information; the CRS800S-2024 owner's manual prints the
-    same section on its p. 18
+    same section on its p. 18.
+    CRS800S (2020 ver.) service manual BASIC INFORMATION, PDF pp. 12-13 (printed 12-13), text.md lines 160-172; CS800 (2020) service manual 4-2-3 BASIC INFORMATION, PDF p. 14 (printed 13), lines 246-253
   extracted_at: '2026-09-10'
 ---
 
@@ -94,3 +95,9 @@ with the CRS800S book, not with the model year.
 **Only the 2024 books say the windows open on Steps "initially".** Both wordings mean the same thing;
 the 2021 books say the window "will initially be displaying" and the 2024 books say the same. Nothing
 here changed.
+
+**The service manuals print the same paragraph and keep the same split.** The CRS800S (2020 ver.)
+book's second set is **Distance, Watts, METs and Time Remaining** on an "Up/Down Scan key"; the CS800
+(2020) book's is **Vertical Distance, Watts, METs and Time Remaining** on "the Scan key (△▽)". Both
+open on Steps, Calories, Pulse and Time Elapsed, both dwell four seconds in Scan mode, and both name a
+Strides Per Minute window and a Level window.

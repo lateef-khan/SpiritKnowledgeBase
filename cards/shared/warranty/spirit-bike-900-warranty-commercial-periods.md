@@ -46,6 +46,7 @@ see_also:
 - ce900-2021-warranty-facility-responsibilities
 - xt-2023-warranty-labor-period
 - xt-2023-warranty-start-date
+- spirit-commercial-warranty-sheet-2019-all-facilities-terms
 source:
   ref: spirit-bike-cr900-2018-owners-manual
   locator: 'Warranty table, the single Commercial row, p. 30 (text.md line 742). The
@@ -53,7 +54,7 @@ source:
     text.md line 716), cr900ent-2021 p. 36 (spirit-bike-cr900ent-2021-owners-manual
     text.md line 767), cu900ent p. 33 (spirit-bike-cu900ent-2021-owners-manual text.md
     line 757). Revision stamps on the back cover: cr900-2018 text.md line 831, cu900-2018
-    text.md line 814'
+    text.md line 814. The Spirit Cardio Warranty sheet, Revision 03.07.2019 (spirit-commercial-cardio-warranty-sheet-2019), PDF p. 1, text.md lines 1-49, prints the same four figures for the CR900, CU900, CR900ENT and CU900ENT under COMMERCIAL (ALL FACILITIES), the ENT pair with an EMS Brake column and the other pair with a Generator column.'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +88,10 @@ source:
 **The CE900 2021 elliptical prints these four figures too, and it is a different machine.** Frame Lifetime, Generator Brake 5 Years, Parts 3 Year, Labor 3 Years, one Commercial row and no residential row - the same shape and the same numbers (`ce900-2021-warranty-coverage-periods`). Answer a bike from this card and an elliptical from that one.
 
 **These are not the 2024-terms figures.** The CR900 2025 and CU900 2025 replace this single row with three, cut the frame to 10 Years in a dues-paying gym and add a Wear Items column (`spirit-bike-2024-warranty-coverage-periods`).
+
+**Spirit's Cardio Warranty sheet, Revision 03.07.2019, prints these same four figures for all four machines**, and settles the
+facility question the manuals leave open: it lists the CR900, CU900, CR900ENT and CU900ENT
+under **COMMERCIAL (ALL FACILITIES)**, a tier that on the sheet includes a dues-paying gym, and
+the CR800 and CU800 under a separate non-dues-paying tier. The sheet heads the column *EMS
+Brake* for the ENT pair and *Generator* for the other, as the manuals do. See
+`spirit-commercial-warranty-sheet-2019-all-facilities-terms`.

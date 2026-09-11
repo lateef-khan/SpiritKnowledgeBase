@@ -51,12 +51,16 @@ see_also:
 - csc900-2024-errors-speed-abnormal-then-data-resets
 - csc900-2024-errors-brake-does-not-turn-on
 - csc900-2024-errors-membrane-key-failure
+- csc880-2025-errors-console-light-colours-green-running-blue-standby-red-stop-or-error
 source:
   ref: spirit-climber-csc880-2025-owners-manual
   locator: TROUBLESHOOTING and TROUBLESHOOTING - CONTINUED, the No./Problem/Causes/Solution
     table on printed pages 33 and 34 (PDF pages 35 and 36). Both pages carry a real
     text layer; the codes were read from the native extraction and confirmed against
-    a 400 dpi render of both pages.
+    a 400 dpi render of both pages; CSC880 service manual (Magnetic), 5. Troubleshooting,
+    "CSC880 electrical malfunction Troubleshooting" table row rows 1-11, PDF p. 8
+    - the page is a flat picture (text.md lines 123-128 hold only the heading; OCR
+    supplement lines 428-505) and was read from a 200 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -104,3 +108,5 @@ print.
 
 **This manual prints no `RAM ERROR`, no `EEPROM ERROR` and no `Err`** - the messages the Spirit
 steppers of the same generation use. It is a different console.
+
+**The CSC880 service manual prints the same eleven rows on one page** - page 8, headed *CSC880 electrical malfunction Troubleshooting* - with the same five codes and the same `Safe` row. It adds no code. The same book's page 6 explains the console and handrail light colours - green running, blue standby, red for a stop, an emergency stop or a code - which the owner's manual does not (`csc880-2025-errors-console-light-colours-green-running-blue-standby-red-stop-or-error`).

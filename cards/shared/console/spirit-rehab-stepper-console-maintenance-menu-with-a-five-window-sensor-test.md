@@ -42,7 +42,8 @@ see_also:
 - spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 57-58, Maintenance menu in console software; the 7.0S-2025 prints the same menu on its printed p. 39 and the 7.5S-2025 on its printed p. 41, both under MACHINE CARE / Console Software
+  locator: MS300-2021 printed p. 57-58, Maintenance menu in console software; the 7.0S-2025 prints the same menu on its printed p. 39 and the 7.5S-2025 on its printed p. 41, both under MACHINE CARE / Console Software.
+    7.5S (RS9600-SS021-01) service manual 5.2.1 Maintenance menu in console software, PDF pp. 11-12, text.md lines 83-124 (no printed folios)
   extracted_at: '2026-09-10'
 ---
 
@@ -97,3 +98,30 @@ printed in the console chapter and never connected to this entry
 **The troubleshooting chapters of all five books send technicians here** - "Perform Keypad test in
 Maintenance mode", "Perform the Sensor tests in Maintenance mode" - and call the Key Test a
 **Keypad test**, which is not what this menu calls it.
+
+**The 7.5S service manual (RS9600-SS021-01) prints this menu with the figures the owner's manuals
+leave out**, and its message window reads **"Engineering mode"**, as the MED 7.5S owner's manual does.
+Same three-key hold for about 5 seconds, same four groups. What it adds:
+
+- **Key Test** - each key press beeps and shows a number on the display; a key with no beep and no
+  number has malfunctioned; when all keys have been pressed the display shows **"Passed"** and the
+  test ends by itself.
+- **Sleep** - off means the console power is always on; **on means the console sleeps after 30
+  minutes of inactivity**.
+- **Pause** - **on means the pause lasts 30 minutes**, then the console returns to idle; off means it
+  pauses indefinitely.
+- **Motor test** - runs the resistance motor **1 to 20 and then 20 to 1**; the **level shows in the
+  SPM window** and the motor position sensor value in the **STEPS window**.
+- **Sensor Test** - the book names the two sensors: a **Step Sensor** on the front left side pulley
+  (two optical sensors reading a silver-and-black encoder wheel) and an **RPM Sensor** (an optical
+  sensor that senses the **four bolt heads on the flywheel**). Sensor #1 shows in SPM and #2 in
+  CALORIES as 1 or 0; the TIME and STEPS windows are the left and right step position counters and
+  **should go from about 0 to about 17** over a full step; the RPM sensor shows ON/OFF in PULSE and the
+  **actual flywheel RPM in the message window**.
+
+**Thirty minutes here, twenty in the owner's manuals.** The five owner's manuals put the automatic
+power-down at **20 minutes** and never tie it to this entry
+(`spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down`); the service manual
+puts the Sleep entry at **30**. Nothing reconciles them; both are reproduced as printed. The
+service manual also prints the two error messages under the menu - EEPROM Error ("the only error
+message") and Motor Error - which are held with the error cards.

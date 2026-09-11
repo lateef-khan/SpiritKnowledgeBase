@@ -37,7 +37,8 @@ see_also:
 - spirit-xe-console-engineering-mode-with-an-lcd-test-and-a-safety-item
 source:
   ref: spirit-climber-xs895-2018-owners-manual
-  locator: XS895-2018 printed p. 15, POWER; the XS895-2021 manual prints the same passage on its printed p. 15
+  locator: XS895-2018 printed p. 15, POWER; the XS895-2021 manual prints the same passage on its printed p. 15.
+    XS895 (XS300B-YS006) service manual 4-2-1 POWER, PDF p. 12 (printed 11), text.md lines 164-172
   extracted_at: '2026-09-10'
 ---
 
@@ -66,3 +67,9 @@ Units setting in engineering mode changes it.
 **Both printings say this word for word.** The XS895-2018 and XS895-2021 console chapters match at
 **99.3%** at word level, measured on the native PDF text of printed pages 14-20; the only differences
 are missing spaces after full stops in the 2021 typesetting and where the page folios fall.
+
+**The XS895 (XS300B-YS006) service manual prints this paragraph word for word with one addition**:
+*"These models are connected directly to **120-volt, 15-amp or 220-volt, 10-amp**"* - a second supply
+the owner's manuals never mention - with the same power switch "on the left side near the middle",
+the same self-test, VER 1.0, the altimeter in the VERTICAL window and the total hours in the Time
+window.

@@ -37,7 +37,8 @@ see_also:
 - 85s-2025-console-settings-and-the-four-workout-views
 source:
   ref: spirit-climber-85s-2025-owners-manual
-  locator: printed p. 30-31, WIFI & ORGANIZATION ACCOUNTS and ORGANIZATION ACCOUNT
+  locator: printed p. 30-31, WIFI & ORGANIZATION ACCOUNTS and ORGANIZATION ACCOUNT.
+    8.5S-785545 (MS2000-SB036-01) service manual 4.2.2.3.3 NFC Sensor Test, PDF p. 11, text.md lines 180-181, which places the reader at the other corner
   extracted_at: '2026-09-10'
 ---
 
@@ -69,3 +70,10 @@ in the pin code bullet - no download link, no platform, no account instructions.
 
 **Losing the Wi-Fi drops the user to guest.** The manual says so once, in the User log in panel, and
 nowhere says what happens to a session recorded offline.
+
+**The service manual puts the NFC reader at the bottom-right corner.** Its NFC Sensor Test says
+*"Place the NFC tag near the bottom-right corner of the console. Each detection cycle takes three
+seconds"*
+(`85s-2025-console-service-tab-machine-type-loopback-nfc-keypad-beacon-and-crank-calibration`),
+where this owner's manual says bottom left. Nothing reconciles the two; the symbol on the console
+in front of you settles it.

@@ -3,8 +3,8 @@ id: cu1000ent-2023-console-maintenance-mode-welcome-ten-times-four-groups
 title: Maintenance Mode opens on ten presses of Welcome and holds About This Machine,
   Preferences, Machine Setup and Service, with a 15-minute sleep
 kind: procedure
-question: How do I get into maintenance mode on a Spirit cu1000ent-2023 bike and what
-  is in it?
+question: How do I get into maintenance mode on a Spirit CU1000ENT or CR1000ENT 2023 bike
+  and what is in it?
 asked_as:
 - how do i get into the service menu on the cu1000 touchscreen
 - how do i stop the cu1000ent going to sleep
@@ -25,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu1000ent-2023
+  model: '*'
   applies_to:
+  - cr1000ent-2023
   - cu1000ent-2023
   section: console
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - spirit-ent-console-enter-engineering-mode
@@ -49,7 +48,10 @@ source:
   locator: Section 8 Setting and Operation for Engineering Mode, 8.1-8.3, PDF pp.
     14-15 (printed 14-15); text.md lines 265-287. Page 15 is a flattened image whose
     table was read from the OCR supplement for PDF page 15, text.md lines 981-1032,
-    and the Service rows from the supplement for page 16, lines 1037-1055
+    and the Service rows from the supplement for page 16, lines 1037-1055. CR1000(2023)
+    SR8880-SB028 service manual section 8, PDF pp. 14-15 (printed 14-15), text.md lines
+    275-296; its page 15 table read from the OCR supplement lines 1242-1293 and from a
+    110 dpi render, its page 14 screenshots from a render
   extracted_at: '2026-09-11'
 ---
 
@@ -91,4 +93,20 @@ Hello-Guest consoles say 15 (`cu800ent-2024-console-maintenance-mode-and-enginee
 the Home icon (`spirit-ent-console-enter-engineering-mode`); the 2024 ENT machines on ten presses
 of Hello Guest. The word on this console's screen is Welcome.
 
-The owner's manual for this machine is not in the repository; nothing here is corroborated by it.
+**The CR1000ENT-2023 recumbent bike's service manual (SR8880-SB028) prints this chapter word for
+word**, so this card covers that machine too - the same ten presses of "Welcome", the same
+"three modes" sentence, and a Machine Information table whose Preferences and Machine Setup rows
+match the ones above. Two things differ, both read from the page rather than the text layer:
+
+- **Its table has no Club Information row.** Machine Setup runs Language, Date & Time, Units,
+  Video, Protocol, WiFi, Software, Firmware and App Manager - nine rows where the CU1000ENT book
+  prints ten. The screenshot on its p. 14 still shows **Club Information** at the top of the Machine
+  Setup column, with **TV Settings** greyed out beneath Video and a **Usage Restrictions** entry
+  under Preferences, so the entry is on the console and only the table dropped it.
+- **Its screenshot shows Type set to Recumbent Bike** - the arrow points at that value - over a
+  Model line reading **CT1000**, a Total Distance of 304.98 mi and a Total Time of 79.5 hours. The
+  Model string is the screen the screenshot was taken on, not the machine; the Type is what the
+  "must match the actual machine" sentence is about.
+
+**Fifteen minutes on both bikes**, and neither owner's manual is in the repository; nothing here is
+corroborated by one.

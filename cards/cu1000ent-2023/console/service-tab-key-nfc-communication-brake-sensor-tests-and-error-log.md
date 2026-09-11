@@ -3,8 +3,8 @@ id: cu1000ent-2023-console-service-tab-key-nfc-communication-brake-sensor-tests-
 title: 'The Service tab: a Key Test, an NFC Test, a Communication Test, a Brake Test,
   Sensor Tests and an Error Code Log cleared by ten presses'
 kind: procedure
-question: What tests does the Service tab hold on a Spirit cu1000ent-2023 bike, and
-  how do I clear the error log?
+question: What tests does the Service tab hold on a Spirit CU1000ENT or CR1000ENT 2023 bike,
+  and how do I clear the error log?
 asked_as:
 - how do i test the buttons on the cu1000 console
 - how do i test the brake on the cu1000ent
@@ -25,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu1000ent-2023
+  model: '*'
   applies_to:
+  - cr1000ent-2023
   - cu1000ent-2023
   section: console
   code: '*'
-  model_number:
-  - '210354'
 authority: 3
 not_to_be_confused_with:
 - ct1000ent-2023-console-incline-only-calibration-and-service-tests
@@ -42,7 +41,9 @@ source:
   ref: spirit-bike-cu1000ent-2023-service-manual
   locator: Section 8 Setting and Operation for Engineering Mode, Service, PDF p. 16
     (printed 16); the page is a flattened image read from the OCR supplement for PDF
-    page 16, text.md lines 1037-1055
+    page 16, text.md lines 1037-1055. CR1000(2023) SR8880-SB028 service manual, Service
+    Introduction, PDF p. 16 (printed 16), text.md line 297; the page is a flattened image
+    read from the OCR supplement lines 1298-1317
   extracted_at: '2026-09-11'
 ---
 
@@ -72,4 +73,9 @@ readings, pass values or steps for any of them.
 **The Error Code Log is the console's fault history** and its entries are held with the error cards;
 this card records only how to reach and clear it.
 
-The owner's manual for this machine is not in the repository; nothing here is corroborated by it.
+**The CR1000ENT-2023 recumbent bike's service manual (SR8880-SB028) prints the same six rows word
+for word** - Key Test with its pasted "to start calibration", NFC Test, Communication Test, Brake
+Test, Sensor Tests and the Error Code Log cleared by ten presses - so this card covers that machine
+too, and it too has no calibration and no Drive Motor Test. Its p. 14 screenshot lists the six under
+a Service heading in the same order. Neither bike's owner's manual is in the repository; nothing
+here is corroborated by one.

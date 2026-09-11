@@ -1,8 +1,9 @@
 ---
 id: crw800-2024-errors-heartbeat-value-incorrect
-title: The heartbeat value reads wrong, and the three causes are another strap, electric field noise or the receiver
+title: The heartbeat value reads wrong, and the three causes are another strap, electric
+  field noise or the receiver
 kind: troubleshooting
-question: Why is the heart rate reading wrong on a Spirit CRW800-2024 rower?
+question: Why is the heart rate reading wrong on a Spirit CRW800 or XRW600 rower?
 asked_as:
 - heart rate jumping around on my rowing machine
 - wrong pulse reading on my spirit rower
@@ -20,13 +21,14 @@ facets:
   brand:
   - spirit
   product_line: rower
-  model: crw800-2024
+  model: '*'
   applies_to:
+  - crw800-2016
+  - crw800-2021
   - crw800-2024
+  - xrw600-2019
   section: errors
   code: no-code
-  model_number:
-  - '800925'
 authority: 3
 not_to_be_confused_with:
 - spirit-erratic-pulse-display
@@ -34,11 +36,16 @@ see_also:
 - spirit-erratic-pulse-display
 - crw800-2024-errors-wireless-heartbeat-has-no-effect
 - crw800-2024-errors-rf-handheld-board-problem
+- sr500-2016-heart-rate-value-incorrect
 source:
   ref: spirit-rower-crw800-2024-owners-manual
-  locator: TROUBLESHOOTING, Happening / Caused / Processing Step table on printed page
-    32. That page is a flat picture with no text layer and was read from the rendered
-    page.
+  locator: TROUBLESHOOTING, Happening / Caused / Processing Step table on printed
+    page 32. That page is a flat picture with no text layer and was read from the
+    rendered page; CRW800 2016 (CW800-YR001) service manual 8.5 Troubleshooting Quick
+    Lookup Table, PDF p. 38-39, text.md lines 487-519; XRW600 (DW400-YR002) service
+    manual 8.5 Troubleshooting Quick Lookup Table, PDF p. 38-39, text.md lines 478-505;
+    CRW800 2021 (800940) service manual 7-5 Troubleshooting Quick Lookup Table, PDF
+    p. 37 (printed 36), text.md lines 536-561
   extracted_at: '2026-09-10'
 ---
 
@@ -64,3 +71,5 @@ caller, its answer is still correct.**
 **This rower's manual prints no hand pulse row at all** - it covers the wireless strap only. Two of
 its rows have no `Happening` text against them and describe hardware instead:
 `crw800-2024-errors-rf-handheld-board-problem` and `crw800-2024-errors-light-sensor-problem`.
+
+**The three rower service manuals - CRW800 2016 (`CW800-YR001`), CRW800 2021 (`800940`) and XRW600 (`DW400-YR002`) - print this row word for word**, so the wording that made this card an outlier among the 2024 owner's manuals is simply the Dyaco rower template, unchanged since 2016. Sole's SR500 2016 prints it too (`sr500-2016-heart-rate-value-incorrect`).

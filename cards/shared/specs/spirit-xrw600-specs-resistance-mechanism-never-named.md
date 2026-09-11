@@ -1,7 +1,7 @@
 ---
 id: spirit-xrw600-specs-resistance-mechanism-never-named
-title: The manual never says whether the resistance is air, magnetic or anything else,
-  on either printing
+title: The owner's manual never says whether the resistance is air, magnetic or anything
+  else, on either printing; the service manual names a fan, flywheel and gear motor
 kind: fact
 question: What kind of resistance does a Spirit XRW600 rower use - air, magnetic or
   water?
@@ -37,19 +37,23 @@ not_to_be_confused_with:
 - crw800h2o-specs-six-water-fill-levels
 - crw900-2021-specs-ten-level-tank-adjuster
 see_also:
+- xrw600-2019-specs-service-manual-names-a-fan-flywheel-and-gear-motor
 - crw800-2024-specs-level-range-1-to-16
 - spirit-rower-specs-which-manuals-print-a-parts-list
 - spirit-crw800-specs-no-specification-table
 - xrw600-console-no-power-source-is-named
 source:
   ref: spirit-rower-xrw600-2021-owners-manual
-  locator: Absence. XRW600-2021 and XRW600-2019, whole document - native text layer
-    of every one of the 40 pages plus the 18 and 17 OCR-supplemented pages in the ingested
-    text
+  locator: "Absence. XRW600-2021 and XRW600-2019, whole document - native text layer of every one of
+    the 40 pages plus the 18 and 17 OCR-supplemented pages in the ingested text. The service
+    manual (spirit-rower-xrw600-2019-service-manual, DW400-YR002) is the exception -
+    Outlines drawing 2 'Flywheel & Fan', PDF p. 5, lines 65-81; 9-5 Fan & Flywheel, PDF pp.
+    53-54, lines 626-646; 9-6 Gear Motor & Steel Cable, PDF pp. 55-56, lines 646-663"
   extracted_at: '2026-09-10'
 ---
 
-**Neither XRW600 manual names the resistance mechanism.** A search of both whole
+**Neither XRW600 owner's manual names the resistance mechanism.** (The 2019 service manual does -
+see the last section of this card.) A search of both whole
 documents - the native text layer and every OCR-supplemented page - returns **not
 one occurrence** of *fan*, *flywheel*, *magnet*, *magnetic*, *impeller*, *air
 resistance* or *damper*. The single hit for *belt* in either book is the **chest
@@ -104,3 +108,13 @@ Fitness rather than inferring it from a sibling model. The XRW600's warranty pag
 does carry a **brake** column in the 2019 printing and drops it in 2021, which
 tells you a brake exists and nothing about what kind - see
 `xrw600-2019-warranty-lifetime-frame-and-brake-ten-year-parts`.
+
+## The service manual settles it: a fan, a flywheel and a gear motor
+
+The XRW600's **service manual** (DW400-YR002, the 2019 machine) is not silent. Its outline drawing
+labels a **Flywheel & Fan** and a **Nylon Net** over it, and its replacement chapters take out the
+"Flywheel(23) & Fan(22)" and the "Gear Motor(35)" with its "Steel Cable(66)". So the XRW600 is an
+air rower whose brake is set by a motor, like the CRW800 - see
+`xrw600-2019-specs-service-manual-names-a-fan-flywheel-and-gear-motor`. Everything above about
+the owner's manuals stands: a caller reading their own book will not find the word, and the
+service manual still never says *air* or prints a flywheel weight or drag figure.

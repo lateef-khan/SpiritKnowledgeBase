@@ -40,7 +40,8 @@ see_also:
 - ctsbs900-heart-rate-chest-strap-pairing
 source:
   ref: spirit-climber-csc900-2024-owners-manual
-  locator: p. 18, FEATURES / Basic Information, Heart Rate number display
+  locator: p. 18, FEATURES / Basic Information, Heart Rate number display.
+    CSC900 2022 (Magnetic system) service manual 3. Product details, PDF p. 4, text.md lines 69-70; CSC880 service manual 3. Structure, PDF p. 4, lines 90-91
   extracted_at: '2026-09-10'
 ---
 
@@ -84,3 +85,10 @@ printings declare no such thing anywhere.
 **The CSC900-2019 is the printing to keep off this card.** It describes a **built-in heart rate
 monitoring system** with contact sensors only and no Bluetooth at all:
 `csc900-2019-console-heart-rate-is-contact-only-with-no-bluetooth-strap`.
+
+**Both magnetic-system service manuals describe the contact half only.** The CSC900 2022 book and the
+CSC880 book each say the handrail *"has a design hand grip heartbeat, emergency stop switch and other
+operating parts"*, and neither mentions Bluetooth, a chest strap or the closest-sensor detection;
+that is the owner's manuals' claim alone. The CSC880 book's console-installation page labels a
+**Handle Pulse cable** and left and right **handle cables (red and white)** into the console, held
+with the specs cards.

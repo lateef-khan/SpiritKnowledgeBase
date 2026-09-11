@@ -38,6 +38,7 @@ facets:
   - ce900-2021
   - ce900-2025
   - ce900ent
+  - cr1000ent-2023
   - cr800-2021
   - cr800-2024
   - cr800ent-2023
@@ -45,6 +46,8 @@ facets:
   - cr900-2018
   - cr900-2025
   - cr900ent-2021
+  - cs800-2016
+  - cs800-2021
   - cs800-2024
   - ct1000ent-2023
   - ct800-2016
@@ -82,6 +85,8 @@ facets:
   - xe795-2023
   - xe895-2016
   - xg400-2016
+  - xs895-2018
+  - xs895-2021
   - xt185-2015
   - xt185-2023
   - xt285-2015
@@ -170,7 +175,15 @@ source:
     service manual 8.4 Troubleshooting procedure matrix, PDF p. 18, text.md lines
     322-352; XG400 2016 (SE551-SE023-01) service manual Troubleshooting procedure
     matrix, PDF p. 40, text.md lines 595-628; XE895 2016 (XE895-SE022) service manual
-    8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029'
+    8-7 Troubleshooting procedure matrix, PDF p. 57-58, text.md lines 973-1029; CR1000ENT
+    2023 service manual (SR8880-SB028) 10.1 Troubleshooting procedure Matrix, PDF
+    p. 18, text.md lines 345-374; CRS800S 2020 ver. service manual 8-5 Troubleshooting
+    procedure matrix, PDF p. 33 (printed 32), text.md lines 463-480; CS800 (2020)
+    service manual 7-7 Troubleshooting procedure matrix, PDF p. 33 (printed 32), text.md
+    lines 526-549; CS800 2016 (XS200-SS003) service manual Troubleshooting procedure
+    matrix, PDF p. 41, text.md lines 602-634; XS895 (XS300B-YS006) service manual
+    7-8 Troubleshooting procedure matrix, PDF p. 36-37 (printed 35-36), text.md lines
+    550-602'
   extracted_at: '2026-09-08'
 ---
 
@@ -212,3 +225,7 @@ either.
 **Eighteen bike service manuals print this row with the same four causes and the same four fixes** - the XBR25 2016, XBR55 2016, XBU55 2016, XBR95 2016, XBR55ENT 2021, XBU55ENT 2021, XBR55 2023, XBR95 2023 and XBU55 2023 residential bikes, the CU900 2018, CR900 2018, CR900ENT 2021 and CU1000ENT 2023, and the CU800 2020-book, CR800 2020-book, CU800 2012, CU800ENT 2020-ver and CR800ENT 2020-ver books. The JB950 2022 and AB900 2018 print no hand pulse row; neither has handgrip sensors. The same books' Q&A chapters answer the same symptom as a wiring check that ends in a continuity test: `spirit-bike-errors-no-pulse-displayed-check-hand-pulse-wiring-then-continuity`.
 
 **Fifteen elliptical service manuals print this row with the same four causes and the same four fixes** - the CE800 2016, CE800 (2020), CE850 2016, CE850 (2020), CE900 (SE8800), CE900ENT and CE1000ENT 2023, and the XE195, XE295, XE395, XE795, XE895 and XG400 2016, the XE395ENT 2021 and the XE795 2023. On the XE795 2023 it is the last row of a four-row matrix that prints no chest-belt row after it.
+
+**The CR1000ENT 2023 recumbent service manual prints this row word for word**, with the same four causes and four fixes.
+
+**Three stepper service manuals print this row with the same four causes and the same four fixes** - the CS800 (2020), the CS800 2016 (`XS200-SS003`) and the XS895 (`XS300B-YS006`). **The CRS800S 2020-version service manual does not print it**, exactly as its 2024 owner's manual does not: its matrix goes from the erratic pulse row to the chest belt rows.

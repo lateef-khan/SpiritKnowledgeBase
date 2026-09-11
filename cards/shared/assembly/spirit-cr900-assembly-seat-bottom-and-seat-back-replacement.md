@@ -4,8 +4,8 @@ title: 'Replacing the commercial recumbent seat bottom and seat back: four screw
   under the cushion, two on the retaining strap, the cover unsnapped by hand, four
   behind the back'
 kind: procedure
-question: How do I replace the seat cushion or the seat back on a Spirit CR900 or
-  CR900ENT recumbent bike?
+question: How do I replace the seat cushion or the seat back on a Spirit CR900, CR900ENT
+  or CR1000ENT recumbent bike?
 asked_as:
 - seat cushion screws spirit cr900
 - seat back cover unsnap cr900ent
@@ -24,6 +24,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
   section: assembly
@@ -39,7 +40,8 @@ source:
   ref: spirit-bike-cr900-2018-service-manual
   locator: 'cr900-2018: 6.10 Seat Bottom / Seat Back Replacement, PDF pp. 60-61; text.md
     lines 1000-1027 | cr900ent-2021: 6.10 Seat Bottom / Seat Back Replacement, PDF
-    pp. 68-69; text.md lines 1175-1202'
+    pp. 68-69; text.md lines 1175-1202 | cr1000ent-2023: 12.20 Remove Seat Bottom
+    and Seat Back, PDF pp. 36-37; text.md lines 832-885'
   extracted_at: '2026-09-11'
 ---
 
@@ -52,3 +54,5 @@ source:
 No refit step and no screw sizes are printed. The seat back cover is a snap fit - no fasteners beyond the two on the strap.
 
 The owner's-manual assembly step for these machines names the four bottom-cushion bolts (the linked seat-cushion-bolt card); this service page prints only the count.
+
+**The CR1000ENT book prints the same three steps and counts as 12.20** (figures 12.81 to 12.85): four screws under the cushion, two on the retaining strap, the cover un-snapped, four on the rear of the seat back.

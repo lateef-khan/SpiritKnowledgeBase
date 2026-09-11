@@ -26,6 +26,7 @@ facets:
   product_line: rower
   model: '*'
   applies_to:
+  - crw800-2016
   - crw800-2021
   - crw800-2024
   - xrw600-2019
@@ -45,7 +46,10 @@ source:
   ref: spirit-rower-crw800-2024-owners-manual
   locator: CRW800-2024 printed p. 15, FEATURES - CONTINUED / BUTTON FUNCTION. The CRW800-2021
     prints the same section word for word on its printed p. 15 (PDF p. 17), and the XRW600-2019
-    and XRW600-2021 print it on their printed pp. 17-18 under the heading "Key button Function"
+    and XRW600-2021 print it on their printed pp. 17-18 under the heading "Key button Function".
+    CRW800 (2020) service manual 4-2 Key button Function, PDF pp. 15-16 (printed 14-15), text.md
+    lines 167-203; CRW800-2016 (CW800-YR001) service manual III. Key button Function, PDF pp.
+    13-14, lines 145-177; XRW600-2019 (DW400-YR002) service manual PDF pp. 13-14, lines 158-190
   extracted_at: '2026-09-10'
 ---
 
@@ -89,4 +93,14 @@ MODE BUTTON**, the XRW600 books print **Key button Function / Mode Key**.
 - *"Any valid key button pressed will generate a beep sound."*
 - *"When in power off mode, pressing any key button turns on the console."*
 
-**Only the XRW600 manual states them**, so quote them for that machine and not for the CRW800.
+**Only the XRW600 owner's manual states them** - but the CRW800's service manuals do, see below.
+
+**Three service manuals print this key table word for word**, so this card now covers the
+**CRW800-2016** (CW800-YR001) as well: the same five keys, the same eleven-mode order, the same
+three-second Reset hold. **All three print the two "All Keys" bullets** - any valid key beeps, and
+in power-off mode any key turns the console on - including both CRW800 service manuals, the 2016
+and the 2020. So the beep and the wake-on-any-key hold for the CRW800 too; it was only the CRW800
+owner's manuals that left them out. The 2020 book heads the section 4-2 Key button Function / MODE
+Key, the 2016 and XRW600 books III. Key button Function / MODE Key, as the XRW600 owner's manuals
+do. The engineering menu these keys also open is a separate card
+(`spirit-rower-console-engineering-mode-up-and-down-three-seconds-fun-menu`).
