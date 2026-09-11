@@ -27,6 +27,8 @@ facets:
   model: '*'
   applies_to:
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - 85ue-2025
@@ -49,7 +51,7 @@ source:
     p. 55) and the Warning list at printed p. 54 (PDF p. 56); its cleaning instructions match the
     8.5S block at difflib word level **1.000** (124 words) and its warning list at 0.974, where
     every flagged word is a line break. Both pages were read from a 300 dpi render with tesseract
-    --psm 4 (native 281 / rendered 288 and native 205 / rendered 199)'
+    --psm 4 (native 281 / rendered 288 and native 205 / rendered 199) Two 2025 Spirit medical bikes were added on 2026-09-11: spirit-bike-80u-2025-owners-manual prints the Cleaning Instructions at PDF p. 56 (printed 54), text.md lines 1438-1444, and the Warning list at PDF p. 57 (printed 55), lines 1476-1497; spirit-bike-85r-2025-owners-manual at PDF p. 61 (printed 59), lines 1604-1610, and PDF p. 62 (printed 60), lines 1642-1663. Both blocks match the 8.5S text word for word (difflib 1.000 on the instructions); the 8.0U page 56 OCR supplement agrees with its text layer.'
   extracted_at: '2026-09-09'
 ---
 
@@ -118,3 +120,13 @@ On the 8.5UE step 3's "textured **pedals**" is a carry-over: it has no pedals. I
 table names the part correctly, **Foot Rest Plate cleaning**, and asks for the same 10:1 water to
 soap and the same nylon scrub brush (`85ue-2025-maintenance-machine-care-schedule`).
 
+## The 8.0U and 8.5R bikes print both blocks and the same contradiction
+
+The **8.0U 2025** and **8.5R 2025** carry the three cleaning instructions and the nine warnings word for word.
+Their disinfection steps, on the page before, ask for **70% or greater isopropyl alcohol**; their warning list
+says cleaning agents and disinfectants **containing alcohol are not permitted**. Two pages apart, unreconciled,
+exactly as on the 8.5S. On these two machines step 3's "textured **pedals**" is literal, and it is their period
+table that carries the mismatched **tread belt cleaning** task
+(`spirit-med-bike-maintenance-machine-care-schedule-after-each-use-to-quarterly`). The "General cleaning"
+paragraph printed beside the warning list - the sweat-path wipe after each activity, water only on the
+handlebar and cushion - is `spirit-med-maintenance-general-cleaning-after-each-activity-water-only-on-touch-points`.

@@ -5,7 +5,7 @@ title: Wiring diagram with the console's 14-pin J13 defined by colour, from brow
   plugs
 kind: spec
 question: What are the pins and wire colours of the console connector and the sensor
-  and motor cables on a Spirit 7-5s-med recumbent stepper?
+  and motor cables on a Spirit 7-5s-med, 7.0S or 7.5S 2025 recumbent stepper?
 asked_as:
 - 7.5s wiring diagram
 - j13 pinout on the 7.5s console
@@ -26,9 +26,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: specs
   code: '*'
 authority: 3
@@ -38,13 +40,20 @@ see_also:
 - 7-5s-med-specs-service-manual-switching-power-supply-12-vdc-1-6-a
 - 7-5s-med-specs-component-description-ten-numbered-parts
 - spirit-climber-specs-parts-electronic-parts-named
+- 70s-2025-specs-component-description-twelve-numbered-parts
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 8. Wiring Diagram, '7.5S Wiring Diagram', PDF p. 55 (printed 55), text.md
+  locator: '8. Wiring Diagram, ''7.5S Wiring Diagram'', PDF p. 55 (printed 55), text.md
     line 873; the page is one 1350 x 873 pixel embedded image (pdfimages) whose pin
     tables the OCR supplement (1212-1247) cannot read, so every table was read from
     crops of the embedded image; cross-checked against the pin numbers quoted in 5.2.3
-    Troubleshooting, PDF pp. 13-19, lines 125-201
+    Troubleshooting, PDF pp. 13-19, lines 125-201. 7.0S-2025 (spirit-stepper-70s-2025-service-manual):
+    8. Wiring Diagram, "MS7000 Wiring Diagram", PDF p. 56, text.md line 902 (OCR supplement
+    lines 1273-1333); 5.2.3 Troubleshooting pin numbers, PDF pp. 14-19, lines 150-219.
+    7.5S-2025 (spirit-stepper-75s-2025-service-manual, RS9600-SS021-03): "7.5S Wiring
+    Diagram", PDF p. 56, line 887 (OCR 889-930); troubleshooting PDF pp. 13-19, lines
+    126-203. Both read from 110 dpi renders and compared table by table with the -01
+    sheet'
   extracted_at: '2026-09-11'
 ---
 
@@ -88,4 +97,12 @@ The power block is drawn as a **Switching Power Supply, 90 ~ 260 VAC input, 12 V
 - a figure that disagrees with the owner's manual
 (`7-5s-med-specs-service-manual-switching-power-supply-12-vdc-1-6-a`). The two red sensor boards
 are photographed in chapter 2 (`spirit-climber-specs-parts-electronic-parts-named`).
+
+**Two later books print the same sheet.** The 7.0S-770545 service manual (RS9500-SS021-02) titles it
+**MS7000 Wiring Diagram** - the platform name - and the 2025 7.5S-775545 book (RS9600-SS021-03) pastes
+a *7.5S Wiring Diagram* title box over the same picture. The J13 table, the four branch tables, the
+90-260 VAC 12 VDC 1.6 A supply block and the cut-off brake-motor table are identical in all three,
+and both books quote the same pin numbers in their troubleshooting chapters (pins 10 and 11 for
+12 V, 1 and 2 for the 2-3 ohm motor armature, 3 and 5 for the 5k ohm position sensor, 1 and 3 of the
+sensor cables for 5 V).
 

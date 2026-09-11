@@ -3,7 +3,7 @@ id: ct850-2016-motor-not-responsive-after-start
 title: The motor does not respond after START is pressed and the display shows LS
 kind: troubleshooting
 question: What does it mean when the motor does not respond after START on a Spirit
-  CT800, CT800ENT, CT850, CT900ENT or 2010 XT685 treadmill?
+  CT800, CT800ENT, CT850, CT900ENT, 2010 XT685 or 2013 XT485 treadmill?
 asked_as:
 - motor not responding after i press start
 - belt moves then stops and shows ls
@@ -28,12 +28,14 @@ facets:
   - ct800-2020
   - ct800-2024
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
   - ct850-2024
   - ct850ent-2022
   - ct900ent
+  - xt485-2013
   - xt685-2010
   section: errors
   code: low-speed
@@ -67,7 +69,13 @@ source:
     Service Troubleshooting Checklist (first printing), PDF p. 50-51, text.md lines
     848-900; the CT900ENT service manual prints the checklist a second time on PDF
     p. 58-59 with the row worded "LS/LOW SPEED" and the pointer "See section 8.1 on
-    Error Message: LS/LOW SPEED"'
+    Error Message: LS/LOW SPEED"; CT850 2013 owner''s manual (spirit-treadmill-ct850-2013-owners-manual,
+    stamp CT850_20131015) troubleshooting table, PDF p. 28 (printed 24); the book
+    is a scan with no text layer, read from the OCR supplement for page 28, text.md
+    lines 1100-1160, the "Motor is not responsive after pressing start" row; XT485
+    2013 owner''s manual (spirit-treadmill-xt485-2013-owners-manual, 485812) SERVICE
+    CHECKLIST - DIAGNOSIS GUIDE, PDF p. 33 (printed 32), text.md lines 1286-1346,
+    the same row'
   extracted_at: '2026-09-08'
 ---
 
@@ -131,3 +139,8 @@ twenty-three-code inverter table, and neither of those tables mentions `LS`.
 all: `Reset power. If still no good contact service.` See `ct900ent-motor-unresponsive-after-start`.
 
 **The CT800 2016 service manual prints this row word for word**, `LS` and the two branches, and sends the reader to *the procedure on next page* for the calibration. **The CT900ENT service manual prints it twice** - once with `LS` and once, in a second copy of the checklist at the end of the book, with `LS/LOW SPEED` and a pointer to a section 8.1 that does not exist in that book (its error chapter is chapter 6). Both copies say run calibration if the belt moved, contact service if it never did. That contradicts the CT900ENT *owner's* manual, which answers the same row with `Reset power. If still no good contact service.` (`ct900ent-motor-unresponsive-after-start`); nothing reconciles the two for that machine. The CT900ENT's own error table has no LS code either - the message the console will show is one of its hex codes (`ct900ent-errors-error-code-messages-list`).
+
+**The CT850 2013 owner's manual prints the same two branches with the code written out as the words `Low Speed`** rather than `LS` - *if the belt moves, but stops after a short time and the display shows "Low Speed", run calibration; if you press Start and the belt never moves, then the display shows Low Speed, contact service* (added 2026-09-11).
+
+**The XT485 changed code between 2013 and 2015, exactly as the XT685 did.** The XT485 **2013** owner's manual (the 230 V export edition) prints this row with `LS`, word for word as the CT850 manuals do; the XT485 2015 and 2023 manuals print `E1` instead. Answer a 2013 XT485 owner with `LS` (added 2026-09-11).
+

@@ -1,24 +1,26 @@
 ---
 id: spirit-strength-console-rep-and-time-counter-two-windows-two-resets
-title: 'The battery counter shows repetitions in one window and workout time in the other, each with its own RESET'
+title: The battery counter shows repetitions in one window and workout time in the
+  other, each with its own RESET
 kind: fact
-question: 'What does the console on a Spirit selectorized or dual-station strength machine show, and what are its buttons?'
+question: What does the console on a Spirit selectorized or dual-station strength
+  machine show, and what are its buttons?
 asked_as:
-- 'what does the little screen on my weight machine show'
-- 'does the spirit weight machine count my reps'
-- 'how do i reset the rep counter on the weight machine'
-- 'what are the two buttons on the counter'
+- what does the little screen on my weight machine show
+- does the spirit weight machine count my reps
+- how do i reset the rep counter on the weight machine
+- what are the two buttons on the counter
 keywords:
-- 'rep counter'
-- 'repetition counter'
-- 'time counter'
-- 'timer'
-- 'reset button'
-- 'console'
-- 'display'
-- 'rep and time counter'
-- 'selectorized'
-- 'weight machine counter'
+- rep counter
+- repetition counter
+- time counter
+- timer
+- reset button
+- console
+- display
+- rep and time counter
+- selectorized
+- weight machine counter
 facets:
   brand:
   - spirit
@@ -67,7 +69,14 @@ see_also:
 - spirit-strength-console-nine-machines-with-no-counter-console-or-display
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'REPETITION AND TIME COUNTER page, printed pp. 17-24 depending on the book (CSS-ABDO printed p. 19, PDF p. 20). Word for word on all 28 CSS and CSD manuals; read from the PDF text layer on 27 and from a 300 dpi tesseract --psm 4 render on CSS-SROW, whose PDF has no text layer.'
+  locator: REPETITION AND TIME COUNTER page, printed pp. 17-24 depending on the book
+    (CSS-ABDO printed p. 19, PDF p. 20). Word for word on all 28 CSS and CSD manuals;
+    read from the PDF text layer on 27 and from a 300 dpi tesseract --psm 4 render
+    on CSS-SROW, whose PDF has no text layer. CSS-DELT 2026 revision (spirit-strength-css-delt-owners-manual-2026)
+    REPETITION AND TIME COUNTER, PDF p. 22 (printed 21), text.md lines 670-696, read
+    from the OCR supplement because the text layer is a shifted font; CSD-CPSP May
+    2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update) PDF p. 25 (printed
+    24), lines 352-379, checked against a 100 dpi render
   extracted_at: '2026-09-10'
 ---
 
@@ -111,3 +120,6 @@ counter-timer line at all.
 A Sole SRVO also carries a control panel on a strength machine, and it is nothing like this: it sets
 resistance electronically, runs training modes and pairs with a phone app. This counter does two
 things, counts and times, and controls nothing.
+
+**The 2026 revision of the CSS-DELT book and the May 2025 update of the CSD-CPSP book print the page unchanged** - the same two windows, the same two RESET buttons, the same two-line table.
+

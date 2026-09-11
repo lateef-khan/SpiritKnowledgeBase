@@ -31,8 +31,14 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70u-2025
   - 75s-2025
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - ab900-2018
@@ -95,6 +101,7 @@ see_also:
 - spirit-ce-2025-warranty-exclusions
 - spirit-ce-2025-warranty-facility-responsibilities
 - xt-2023-warranty-start-date
+- spirit-med-bike-dyaco-edition-warranty-the-book-prints-no-warranty-page
 source:
   ref: spirit-elliptical-ce850-2016-owners-manual
   locator: >-
@@ -119,6 +126,7 @@ source:
     55-57, 792, 821); spirit-bike-jb950-2022-owners-manual pp. 17 and 71-72 (lines 466-473,
     list at 1790-1796 with no registration item, exclusion 6 line 1819);
     spirit-bike-ab950-2024-owners-manual pp. 2 and 33-34 (lines 57-83, 1070, 1102)
+    The six 2025 Spirit medical bike manuals: PRODUCT REGISTRATION with the QR code and "spiritfitness.com/warranty under the Support tab" on printed p. 2 (PDF p. 4) of each, the serial-number sticker location on printed p. 3 (PDF p. 5), responsibilities item 2 (the ten-day card or online) and exclusion 6 (proof of purchase only) on their warranty pages: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026).
   extracted_at: '2026-09-09'
 ---
 
@@ -275,3 +283,7 @@ The number under the barcode is what the registration form wants, and the same P
 **The 8.5S-Fit registration page names the wrong company.** Its introduction opens "**Dyaco** provides simple, reliable products..." where its three siblings open "**Spirit by Dyaco**" and the machine's warranty two pages from the back is administered by *Spirit Fitness, Inc.* It is a printing slip on one page, not a different manufacturer's warranty. Register an 8.5S-Fit as a Spirit machine.
 
 **Failing to register is an exclusion on eight of the thirteen and not on five.** The XS895, CSC900, CRS800S, CS800, CVC800 and MS300 lists exclude a product with no registration on file outright; the CSC880 and the four steppers dropped that sentence and reserve only the right to ask for proof of purchase (`spirit-ce-2025-warranty-exclusions`).
+
+## The six 2025 Spirit medical bikes register the way the 2025 steppers do
+
+**The 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R** print a PRODUCT REGISTRATION page with a **QR code** and the line "You can also go to spiritfitness.com/warranty under the Support tab to register online", a serial-number sticker "on the frame" (4.0R, 4.0U, 7.0R, 7.0U) or "on the front stabilizer" (8.0U, 8.5R) to record for registration, the **ten-day registration card or online** duty as responsibilities item 2, and at exclusion 6 only the reserved right to ask for proof of purchase - an unregistered medical bike is not excluded outright. Their Dyaco PT and MED editions print no registration page at all (`spirit-med-bike-dyaco-edition-warranty-the-book-prints-no-warranty-page`).

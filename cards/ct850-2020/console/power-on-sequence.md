@@ -27,12 +27,14 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
   - ct850-2024
   - xt185-2015
   - xt285-2015
+  - xt485-2013
   - xt685-2010
   section: console
   code: '*'
@@ -46,7 +48,9 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-1 POWER, p. 13 (printed 12). CT800-2020 service manual section
-    4-1-1 POWER, PDF p. 13 (printed 12), text.md lines 158-166
+    4-1-1 POWER, PDF p. 13 (printed 12), text.md lines 158-166. CT850 2013 OM Power
+    Up, PDF p. 14 (printed 10), OCR supplement lines 350-362. XT485 2013 OM GETTING
+    STARTED, PDF p. 16 (printed 15), text.md lines 479-489
   extracted_at: '2026-09-08'
 ---
 
@@ -106,4 +110,8 @@ here is claimed for those two machines.
 **The CT800-2020 service manual prints this section word for word** (its section 4-1-1 POWER); the two
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
+**The CT850 2013 owner's manual prints this same sequence under "Power Up" on its printed p. 10**, in the same order and with the same odometer explanation, saying **motor cover** and **safety key** and sending the reader to maintenance to change the readings to kilometres, so this card covers that machine.
+
+**The XT485 2013 owner's manual prints it too, on its printed p. 15 under "Getting Started"**, with motor cover and safety key, and - like the 2010 XT685 - says the software version shows as "a message in the message center"; so this card covers that machine, and the note above about the 2015 XT385/XT485/XT685 books having no power-up section does not extend to the 2013 XT485.
 

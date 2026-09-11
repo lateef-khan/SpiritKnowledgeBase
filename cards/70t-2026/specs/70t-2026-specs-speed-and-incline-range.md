@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-specs-speed-and-incline-range
-title: Speed runs 0 to 10.0 mph forward and 0 to 3.0 mph reverse, with 0 to 15 % front and 0 to 10 % rear grade
+title: Speed runs 0 to 10.0 mph forward and 0 to 3.0 mph reverse, with 0 to 15 % front
+  and 0 to 10 % rear grade
 kind: spec
-question: What are the speed range and the incline range of a Spirit 70t-2026, mt200-2010 or mt200-2022 rehabilitation treadmill?
+question: What are the speed range and the incline range of a Spirit 70t-2026, 70t-2025,
+  mt200-2010 or mt200-2022 rehabilitation treadmill?
 asked_as:
 - how fast does this treadmill go
 - does it run backwards
@@ -25,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -40,7 +43,14 @@ see_also:
 - spirit-mt200-specs-console-readouts
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SPECIFICATIONS p. 47; the disagreeing figures are on Other Features of the 7.0T p. 11 and Factory and Acceleration Settings p. 45. Both MT200 owner's manuals print the identical block - Specifications p. 42 of the 2010 manual with Other features of the MT200 p. 8 and Factory and Acceleration Settings p. 40, and the specification page p. 67 of the 2022 manual with Other features of the MT200 p. 17 and Factory and acceleration settings p. 64
+  locator: 'SPECIFICATIONS p. 47; the disagreeing figures are on Other Features of
+    the 7.0T p. 11 and Factory and Acceleration Settings p. 45. Both MT200 owner''s
+    manuals print the identical block - Specifications p. 42 of the 2010 manual with
+    Other features of the MT200 p. 8 and Factory and Acceleration Settings p. 40,
+    and the specification page p. 67 of the 2022 manual with Other features of the
+    MT200 p. 17 and Factory and acceleration settings p. 64. 7.0T-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SPECIFICATIONS PDF p. 49 (printed 47), the same four rows read from a render;
+    Other Features PDF p. 13; Factory and Acceleration Settings PDF p. 47'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +97,7 @@ them.**
 
 **Do not carry these to the 8.0T.** That machine runs to 22 km/h (13.6 mph)
 forward with a 0 to 25% front grade.
+
+**The 2025 7.0T owner's manual prints the same specification rows** - 0.0 to 10.0 mph forward, 0.0 to
+3.0 mph reverse, 0 to 15 % front and 0 to 10 % rear grade - and the same two other pages.
+

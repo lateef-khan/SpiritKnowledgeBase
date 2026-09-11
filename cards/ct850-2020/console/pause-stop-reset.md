@@ -27,6 +27,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -43,7 +44,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-5 PAUSE/STOP/RESET, p. 14 (printed 13). CT800-2020 service
-    manual section 4-1-5 PAUSE/STOP/RESET, PDF p. 14 (printed 13), text.md lines 196-206
+    manual section 4-1-5 PAUSE/STOP/RESET, PDF p. 14 (printed 13), text.md lines 196-206.
+    CT850 2013 OM Pause/Stop/Reset, PDF p. 15 (printed 11), OCR supplement lines 393-410
   extracted_at: '2026-09-08'
 ---
 
@@ -79,4 +81,6 @@ under PAUSE / STOP / RESET, so this card covers those two machines.
 **The CT800-2020 service manual prints this section word for word** (its section 4-1-5 PAUSE/STOP/RESET); the two
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
+**The CT850 2013 owner's manual prints all six behaviours on its printed p. 11**, under PAUSE/STOP/RESET, with "more than three seconds" for the hold, so this card covers that machine.
 

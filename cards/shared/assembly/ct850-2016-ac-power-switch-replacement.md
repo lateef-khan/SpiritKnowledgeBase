@@ -39,13 +39,15 @@ see_also:
 - ct850-2020-trips-onboard-20-amp-circuit
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 12.4 AC Power Switch Replacement of the CT850 2016 manual, p. 69
-    (printed 68), where the table of contents calls it 10.4; the same words are section
-    11-4 of the CT850 2020 manual, p. 62 (printed 61); the same paragraph is section
-    11-4 "Step 1" of the CT800 2020 service manual, PDF p. 61 (printed 60), text.md
-    lines 875-883; section 9-4 of the CT800ENT (PDF p. 56, lines 967-982) and CT850ENT
-    (PDF p. 57, lines 986-1001) "2020 ver." service manuals; and section 9.4, numbered
-    "1.", of the 4.0T 2026 service manual, PDF p. 45 (printed 56), lines 762-771
+  locator: 'Section 12.4 AC Power Switch Replacement of the CT850 2016 manual, p.
+    69 (printed 68), where the table of contents calls it 10.4; the same words are
+    section 11-4 of the CT850 2020 manual, p. 62 (printed 61); the same paragraph
+    is section 11-4 "Step 1" of the CT800 2020 service manual, PDF p. 61 (printed
+    60), text.md lines 875-883; section 9-4 of the CT800ENT (PDF p. 56, lines 967-982)
+    and CT850ENT (PDF p. 57, lines 986-1001) "2020 ver." service manuals; and section
+    9.4, numbered "1.", of the 4.0T 2026 service manual, PDF p. 45 (printed 56), lines
+    762-771 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.4 AC Power Switch Replacement, PDF p. 46; text.md lines 831-839'
   extracted_at: '2026-09-08'
 ---
 
@@ -69,3 +71,4 @@ display is dead. Neither manual says whether those two names are the same part.
 CT800ENT and CT850ENT (9-4), and the 4.0T 2026 medical treadmill (9.4). Seven tapping screws, one overload
 protective device, no torque, in every one of them. This card covers all six machines.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

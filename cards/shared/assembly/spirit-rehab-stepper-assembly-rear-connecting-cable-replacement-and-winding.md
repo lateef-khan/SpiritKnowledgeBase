@@ -5,7 +5,7 @@ title: 'Replacing the recumbent stepper rear connecting cable: wound right to le
   9 to 10 cm from the screw'
 kind: procedure
 question: How do I replace and wind the rear connecting cable (lower steel cable)
-  on a Spirit 7.5S or 8.5S recumbent stepper?
+  on a Spirit 7.0S, 7.5S or 8.5S recumbent stepper?
 asked_as:
 - rear cable winding 7.5s stepper
 - how many turns on the 8.5s cable pulley
@@ -29,6 +29,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: assembly
   code: '*'
@@ -44,7 +46,10 @@ source:
   ref: spirit-stepper-7-5s-med-service-manual
   locator: '7-5s-med: 6.5.3-6.5.4 Rear Connecting Cable, PDF pp. 27-29; text.md lines
     299-342 | 85s-2025 (spirit-stepper-85s-2025-service-manual): 6-5 Steel Cable Replacement,
-    step 3 and STEP 1 to STEP 4, PDF pp. 29-32; text.md lines 397-459'
+    step 3 and STEP 1 to STEP 4, PDF pp. 29-32; text.md lines 397-459 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.5.3-6.5.4 Rear Connecting Cable, PDF pp. 27-29; text.md lines 317-359 | 75s-2025
+    (spirit-stepper-75s-2025-service-manual): 6.5.3-6.5.4 Rear Connecting Cable, PDF
+    pp. 27-29; text.md lines 300-342'
   extracted_at: '2026-09-11'
 ---
 
@@ -78,3 +83,4 @@ the spring hook, adjust the slide wheel tension, centre-to-bolt distance **9 to 
 
 Neither book gives a tension figure for the rear cable; only the front cable has one (40 to 50 lb).
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print the 7.5S wording word for word** - right to left, first groove seated, three turns, 9 to 10 cm.

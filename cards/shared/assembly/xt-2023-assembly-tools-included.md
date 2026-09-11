@@ -29,6 +29,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -50,9 +51,10 @@ see_also:
 - xt685-2015-assembly-hardware-kit
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: p. 8, PARTS INCLUDED - TOOLS INCLUDED; XT485ENT owner's manual p. 9 and
-    XT685ENT owner's manual p. 9; also spirit-treadmill-xt685-2010-owners-manual
-    PDF p. 9, headed Assembly Tools
+  locator: 'p. 8, PARTS INCLUDED - TOOLS INCLUDED; XT485ENT owner''s manual p. 9 and
+    XT685ENT owner''s manual p. 9; also spirit-treadmill-xt685-2010-owners-manual
+    PDF p. 9, headed Assembly Tools | xt485-2013 (spirit-treadmill-xt485-2013-owners-manual):
+    ASSEMBLY TOOLS panel, PDF p. 7 (printed 6); text.md lines 241-247'
   extracted_at: '2026-09-09'
 ---
 
@@ -118,3 +120,7 @@ The XT185-2023 and XT285-2023 panels also number the supplied lubricant as
 item 58. The other 2023 manuals list "1 Lubricant" in the carton but print no
 item number for it, and none of the 2015 manuals numbers it. The XT685-2015
 carton list does not name a lubricant at all.
+
+## The XT485 2013 panel is the 2015 panel with two extra items, like the XT685 2010
+
+**The XT485 2013 manual** prints the same three tools with the **XT385/XT485 item numbers - #131 Combination M5 Allen Wrench & Phillips Head Screw Driver, #148 Phillips Head Screw Driver, #132 M6 Allen Wrench** - under the heading ASSEMBLY TOOLS, and adds **#30 Deck/Belt Lubricant** and **#75 Safety Key**, neither of them a tool, exactly as the XT685 2010 panel does with its #18 and #63. Its steps use 131, 132 and 148 consistently. It prints no separate PARTS INCLUDED panel, so this panel is the only place the book names anything that comes in the box.

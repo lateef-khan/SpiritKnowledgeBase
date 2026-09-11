@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,9 @@ see_also:
 - 40t-2026-programs-preset-setup-steps
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 23, Programs Preset - Hill
+  locator: 'page 23, Programs Preset - Hill; 4.0T 2025 (February printing): PDF p.
+    25 (printed 23); text.md lines 635-660; 4.0T 2025 (May printing): PDF p. 25 (printed
+    23); text.md lines 635-660'
   extracted_at: '2026-09-09'
 ---
 
@@ -43,3 +44,5 @@ during the program.**
 
 The manual prints a profile picture only. It gives **no numeric speed or grade values** for the
 individual segments of this program, so none are recorded here.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

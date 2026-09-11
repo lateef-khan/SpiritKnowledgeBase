@@ -36,9 +36,11 @@ see_also:
 - ct850-2016-motor-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 10.1 Lower Controller Replacement, p. 64 (printed 63); the same
+  locator: 'Section 10.1 Lower Controller Replacement, p. 64 (printed 63); the same
     three steps with the same counts are section 9.1 of the 4.0T 2026 service manual
-    (ST8700-ST017-01), PDF p. 40 (printed 51), text.md lines 696-710
+    (ST8700-ST017-01), PDF p. 40 (printed 51), text.md lines 696-710 | 40t-2026 ST8700A
+    revision (spirit-treadmill-40t-2026-service-manual-st8700a): 9.1 Lower Controller
+    Replacement, PDF p. 41; text.md lines 765-778'
   extracted_at: '2026-09-08'
 ---
 
@@ -58,3 +60,5 @@ The manual gives no torque figure for any of these screws.
 **The 4.0T 2026 service manual prints these three steps and both screw counts word for word as its section
 9.1**, so this card covers that machine too. It is the medical-treadmill book, not a CT850 book, and it does
 not repeat the 2020 wording.
+
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-assembly-procedure
@@ -41,7 +40,10 @@ see_also:
 - 40t-2026-assembly-power-on
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: pp. 11-15, ASSEMBLY - STEP ONE to STEP FIVE
+  locator: 'pp. 11-15, ASSEMBLY - STEP ONE to STEP FIVE | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    ASSEMBLY - STEP ONE to STEP FIVE, PDF pp. 13-17 (printed 11-15); text.md lines
+    327-468; the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    prints the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -122,3 +124,5 @@ that tells them apart**: 116 is black and goes into the frame and the console
 back cover, 136 is silver and goes into the handrails.
 
 Next: [powering the treadmill on for the first time](40t-2026-assembly-power-on.md).
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

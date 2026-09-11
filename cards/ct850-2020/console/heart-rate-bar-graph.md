@@ -22,6 +22,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2013
   - ct850-2018
   - ct850-2020
   section: console
@@ -33,7 +34,8 @@ see_also:
 - ct850-2020-starting-and-customising-a-program
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-10 HEART RATE BAR GRAPH, p. 15 (printed 14)
+  locator: Section 4-1-10 HEART RATE BAR GRAPH, p. 15 (printed 14). CT850 2013 OM
+    Heart Rate Bar Graph, PDF p. 16 (printed 12), OCR supplement lines 460-465
   extracted_at: '2026-09-08'
 ---
 
@@ -56,3 +58,6 @@ graph **Heart Rate % Profile** on its console drawing, so this card covers that 
 
 **The CT850-2016 and CT850-2020 owner's manuals have no heart rate bar graph section**, and their
 console drawing does not label one. Nothing here is claimed for those two.
+
+**The CT850 2013 owner's manual prints this paragraph word for word on its printed p. 12**, and labels the graph **Heart Rate % Profile** on its console drawing, so this card covers that machine.
+

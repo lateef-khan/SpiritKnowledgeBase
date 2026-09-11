@@ -71,7 +71,7 @@ see_also:
 - spirit-strength-specs-only-component-dimensions-are-the-pulley-and-two-bumpers
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'Absence. Contents page and the "EXPLODED VIEW DIAGRAM" pages of all 36 CSS, CSD, CSF and CSI manuals, rendered at 300 dpi and read with tesseract --psm 4 alongside the text layer; ST800FI PDF page 12, ST800DR3 PDF page 11 and ST800FT PDF pages 14-15 for the three that do have one.'
+  locator: 'Absence. Contents page and the "EXPLODED VIEW DIAGRAM" pages of all 36 CSS, CSD, CSF and CSI manuals, rendered at 300 dpi and read with tesseract --psm 4 alongside the text layer; ST800FI PDF page 12, ST800DR3 PDF page 11 and ST800FT PDF pages 14-15 for the three that do have one. Later printings checked on 2026-09-11: spirit-strength-css-delt-owners-manual-2026 EXPLODED VIEW DIAGRAM PDF pp. 25-26 (text.md lines 748-781, the balloon 210 and a drawing; the warranty follows on p. 27) and spirit-strength-csd-cpsp-owners-manual-2025-update EXPLODED VIEW DIAGRAM PDF pp. 27-28 (lines 379-453; the warranty follows on p. 29) - a drawing with no key in both, unchanged.'
   extracted_at: '2026-09-10'
 ---
 

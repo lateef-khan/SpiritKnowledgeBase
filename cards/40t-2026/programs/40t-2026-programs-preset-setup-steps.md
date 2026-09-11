@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +34,9 @@ see_also:
 - 40t-2026-programs-setup-defaults
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 24, Programs Preset - Programming Preset Programs
+  locator: 'page 24, Programs Preset - Programming Preset Programs; 4.0T 2025 (February
+    printing): PDF p. 26 (printed 24); text.md lines 660-692; 4.0T 2025 (May printing):
+    PDF p. 26 (printed 24); text.md lines 660-692'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +57,5 @@ make a change, the Message Window shows the current column and the program maxim
 Press **Display** during the program to scroll through the data. When the program ends the Message
 Window shows a **summary of your workout** for a short time, then the console returns to the start-up
 display.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

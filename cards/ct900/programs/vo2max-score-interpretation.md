@@ -17,6 +17,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
+  - 40t-2026
+  - 70t-2025
+  - 70t-2026
   - 80t-2026
   - ce800-2013
   - ce800-2021
@@ -30,6 +34,7 @@ facets:
   - ct800-2020
   - ct800-2024
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -49,7 +54,12 @@ see_also:
 - spirit-ce-programs-fitness-test-workload-charts-are-pictures
 source:
   ref: ct900-om
-  locator: p. 28
+  locator: 'p. 28; 4.0T 2025 (February printing): PDF p. 30 (printed 28); text.md
+    lines 795-801; 4.0T 2025 (May printing): PDF p. 30 (printed 28); text.md lines
+    795-801; 7.0T 2025: PDF p. 34 (printed 32); text.md lines 1004-1010; CT850 2013:
+    PDF p. 21 (printed 17), OCR supplement lines 686-758; 4.0T 2026 PDF p. 31 (printed
+    29) and 7.0T 2026 PDF p. 34 (printed 32); all four 4.0T/7.0T pages are pictures,
+    read from renders'
   extracted_at: '2026-08-24'
 ---
 
@@ -79,7 +89,7 @@ source:
 
 These charts are used to interpret the score from the [Gerkin protocol](gerkin-protocol.md) or [WFI test](wfi-protocol.md).
 
-The 2026 Spirit 8.0T owner's manual prints both charts again, value for value, headed "Gerkin chart for males and very fit females" and "Gerkin chart for females and de-conditioned males" (page 47). The 4.0T and 7.0T manuals leave the equivalent page blank in the extracted text, so no score chart is recorded for those two machines.
+The 2026 Spirit 8.0T owner's manual prints both charts again, value for value, headed "Gerkin chart for males and very fit females" and "Gerkin chart for females and de-conditioned males" (page 47). The 4.0T and 7.0T manuals print the same charts as pictures - see below.
 
 **Both MT200 owner's manuals print both charts again, value for value** - the 2010-generation
 manual on printed page 21, the 2022-generation manual on printed page 33 - headed "VO2max Chart
@@ -115,3 +125,10 @@ so only that row's leading symbol is OCR damage; the numbers themselves are legi
 manuals print the same ones.
 
 The CE850 2016, CE900 2021 and CE900 2025 owner's manuals have no fitness test at all.
+
+**The 4.0T and 7.0T pages are pictures, not blanks.** The 4.0T 2025 (both printings), 7.0T 2025,
+4.0T 2026 and 7.0T 2026 owner's manuals all print both charts, value for value as above, under
+"What the score means" on a "VO2 - continued" page whose text layer holds only the heading. The OCR
+supplement for those pages in `text.md` is upside-down garbage from a mis-scored rotation; the
+rendered pages are upright and legible, and were read on 2026-09-11. **The 2013 CT850 owner's manual
+prints both charts too**, side by side under "What Your Score Means", every figure the same.

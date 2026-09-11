@@ -89,3 +89,12 @@ The one task with a stated interval elsewhere is belt and deck cleaning, which e
 manuals puts at **once a month** in its own Belt/Deck text: `ct900-belt-deck-cleaning` for the
 CT800 2012 and 2016 and the CT850 2018, `spirit-ct800-maintenance-belt-deck-cleaning-4000-hours`
 for the CT800 2020, the CT850 2016 and 2020, and both ENT 2022 machines.
+
+## The 2013 CT850 scan shows the marks the later books lost
+
+The **CT850 2013** owner's manual - a scan with no text layer at all - prints the same seven tasks, and a render
+of its page shows the dots plainly: wipe down daily, clean under the belt monthly, check tension and tracking
+weekly, clean under the motor cover semi-annually, check hardware monthly, inspect deck wear and the drive belt
+semi-annually. Those intervals are identical to the 2026 4.0T's, so the 2013 book is carded there
+(`40t-2026-maintenance-schedule`). It is evidence of what the 2013 book prints, not of what the five books on
+this card print; their marks remain unread.

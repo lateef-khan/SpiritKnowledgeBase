@@ -2,8 +2,8 @@
 id: ct900-gerkin-wfi-test-procedure
 title: Gerkin/WFI test procedure - before, during, after
 kind: procedure
-question: What should I do before, during and after a fitness test on a Spirit
-  treadmill with a dot matrix message window?
+question: What should I do before, during and after a fitness test on a Spirit treadmill
+  with a dot matrix message window?
 asked_as:
 - how do i prepare for the gerkin test
 - what happens during the fireman fitness test
@@ -25,6 +25,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -39,7 +40,7 @@ see_also:
 - ct900-wfi-protocol
 source:
   ref: ct900-om
-  locator: p. 27
+  locator: 'p. 27; CT850 2013: PDF p. 21 (printed 17), OCR supplement lines 686-758'
   extracted_at: '2026-08-24'
 ---
 
@@ -86,3 +87,5 @@ Window**; the 2016 and 2020 manuals show them in the **Dot Matrix Message Center
 page 29), including the three minute warm-up **at 3 MPH** and the list of data shown during the
 test. **The 2024 ENT touchscreens warm up at 1.5 MPH / 2.4 KPH instead** - see
 `ct800ent-2024-programs-gerkin-warm-up-at-one-point-five-mph`.
+
+**The 2013 CT850 owner's manual prints this guidance word for word** - including "Hold the hand grips gently, do not tense up" and the 3 MPH warm-up - with the target and actual heart rate in the **Message Window**. It has no WFI test, so for it this is the Gerkin procedure only.

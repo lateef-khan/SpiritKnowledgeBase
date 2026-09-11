@@ -2,7 +2,8 @@
 id: ct900-gerkin-protocol
 title: Gerkin protocol (fireman's sub-max VO2 test) - stage chart
 kind: fact
-question: What is the Gerkin protocol on a Spirit treadmill whose second stage starts at one minute, and what are its stages?
+question: What is the Gerkin protocol on a Spirit treadmill whose second stage starts
+  at one minute, and what are its stages?
 asked_as:
 - what is the gerkin test
 - fireman vo2 test
@@ -20,6 +21,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   - ct900
   section: programs
@@ -34,7 +36,8 @@ see_also:
 - ct900-fitness-test-overview
 source:
   ref: ct900-om
-  locator: p. 26
+  locator: 'p. 26; CT850 2013: PDF p. 20 (printed 16), OCR supplement lines 624-685;
+    the chart was checked against a 150 dpi render of PDF p. 20'
   extracted_at: '2026-08-24'
 ---
 
@@ -101,3 +104,5 @@ other Spirit chart does. **That machine has no WFI test**, so on it this is the 
 **The 2016 and 2020 CT850 manuals print the other chart, the one whose stage 2.1 begins at 1:15** -
 see `spirit-2026t-programs-gerkin-chart`. The two are not interchangeable, and the difference is
 inside one model line: read the chart in the manual for the year of the machine in front of you.
+
+**The 2013 CT850 owner's manual prints this same chart, value for value** - stage 2.1 at 1:00, the quarter-stage-early speed steps, 7.4 at 8% - under the heading "Fitness Test". It has no WFI test, so on it this is the Gerkin chart only, and its Fit-Test button offers no other protocol.

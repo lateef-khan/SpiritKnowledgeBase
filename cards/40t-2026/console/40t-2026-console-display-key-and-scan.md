@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: console
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-console-profile-key-dot-matrix
@@ -37,7 +36,12 @@ see_also:
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: p. 19, BASIC INFORMATION. 4.0T service manual section 4 Product Operation,
-    Basic information (Display key), PDF p. 14 (printed 14), text.md lines 184-188
+    Basic information (Display key), PDF p. 14 (printed 14), text.md lines 184-188.
+    4.0T 2025 owner's manual (spirit-treadmill-40t-2025-owners-manual, Revision 02.04.25)
+    PDF p. 21 (printed 19), text.md lines 521-556; the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing,
+    Revision 05.19.25) is the same document at the same page and lines. 4.0T ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a, the later revision
+    of the ST8700-ST017 book) Basic information (Display key), PDF p. 14, lines 197-204
   extracted_at: '2026-09-09'
 ---
 
@@ -54,4 +58,6 @@ The Display key changes the *text* readouts. The graphic display is changed by t
 Profile key instead; see `40t-2026-console-profile-key-dot-matrix`.
 
 **The 4.0T service manual prints this section word for word** in its chapter 4.
+
+**The 2025 printings of the 4.0T owner's manual - February (Revision 02.04.25) and May (Revision 05.19.25), one document twice - print this section word for word on the same page**, so this card covers the 40t-2025 as well. The ST8700A service manual prints the paragraph on its p. 14, where the ST017 book prints it on p. 14 too.
 

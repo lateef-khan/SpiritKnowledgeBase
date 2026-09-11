@@ -1,8 +1,10 @@
 ---
 id: spirit-2026t-safety-secure-the-tether-cord-after-use
-title: Removing or storing the tether cord after use so nobody else can start the treadmill
+title: Removing or storing the tether cord after use so nobody else can start the
+  treadmill
 kind: policy
-question: How do I stop someone else starting a 2026 Spirit 4.0T or 8.0T treadmill, or a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, after I have finished?
+question: How do I stop someone else starting a 2026 Spirit 4.0T or 8.0T treadmill,
+  or a Spirit CT800ENT-2022 or CT850ENT-2022 treadmill, after I have finished?
 asked_as:
 - how do i stop my kids starting the treadmill
 - where should i keep the safety key
@@ -24,6 +26,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 80t-2026
   - ct800ent-2022
@@ -40,7 +43,13 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 28, page 5; the 8.0T owner's manual states its version as item 22 of its page 5 The CT800ENT-2022 and CT850ENT-2022 owner's manuals print the same bullet on their IMPORTANT SAFETY INSTRUCTIONS page, page 5
+  locator: 'SAFETY INSTRUCTIONS item 28, page 5; the 8.0T owner''s manual states its
+    version as item 22 of its page 5 The CT800ENT-2022 and CT850ENT-2022 owner''s
+    manuals print the same bullet on their IMPORTANT SAFETY INSTRUCTIONS page, page
+    5. The 2025 4.0T owner''s manual (revision 02.04.25, version 2.1) prints the same
+    page: SAFETY INSTRUCTIONS item 28, PDF p. 7 (printed 5), lines 149-182 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -95,3 +104,5 @@ for the cord to be removed after use.
 carry only the tether-cord section's sentence about unauthorized use and never ask for the cord to
 be removed after use. Do not tell a CT800-2012, CT800-2016 or CT800-2020 owner that their manual
 asks for this.
+
+**The 2025 printing of the 4.0T manual prints this page word for word**, so it holds for the 40t-2025 as well. The February 2025 book (revision 02.04.25) and its May 2025 reprint (revision 05.19.25) differ only in the version and revision line; both were compared with the 2026 book page by page and no rule or figure on the safety, electrical, grounding or operation pages changed.

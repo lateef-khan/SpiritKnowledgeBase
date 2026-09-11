@@ -35,6 +35,7 @@ not_to_be_confused_with: []
 see_also:
 - spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads
 - spirit-85s-maintenance-machine-care-schedule
+- spirit-med-bike-maintenance-care-page-names-dyaco-machines
 source:
   ref: spirit-climber-85s-2025-owners-manual
   locator: 'MACHINE CARE, "Post-Workout Machine Care", first sentence, printed p. 56 (PDF
@@ -61,8 +62,9 @@ Two things are wrong with it:
   range; the name was not swapped out for Spirit on this page.
 - **Four of the five models listed are not this machine.** Only the 8.5S (or 8.5S-FIT) is the one
   the book is about. The **8.0T** is a Spirit treadmill and has its own manual in this repository;
-  the **8.0U**, **8.5R** and **8.5UE** are not carded here at all, and none of the four is mentioned
-  anywhere else in either 8.5S book.
+  the **8.0U** upright bike, **8.5R** recumbent bike and **8.5UE** upper body ergometer are Spirit medical
+  machines with their own manuals and cards (since 2026-09-11 for the two bikes), and none of the four is
+  mentioned anywhere else in either 8.5S book.
 
 The advice that follows the sentence **is** for this machine and is safe to use —
 `spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads`. Read past the list.
@@ -76,3 +78,6 @@ onto a stepper: the rest of the page gives the stepper's own pad count, wrench s
 The same authoring chain leaves other traces in this chapter — a *saddle* and a *seat back* in the
 cleaning lists, and a **tread belt cleaning** row in the quarterly column of a machine with no tread
 belt (`spirit-85s-maintenance-machine-care-schedule`).
+
+The 8.0U and 8.5R print the same sentence with their own lists
+(`spirit-med-bike-maintenance-care-page-names-dyaco-machines`).

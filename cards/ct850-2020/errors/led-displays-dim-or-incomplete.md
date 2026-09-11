@@ -4,7 +4,8 @@ title: The LED display segments themselves are dim, incomplete or imperfect
 kind: troubleshooting
 question: Why are display segments missing on a Spirit CT800-2020, CT850-2020 or 4.0T
   treadmill, a CE800-2016, CE800-2021, CE800-2024, CE850-2020, CE850-2024, CE900-2021
-  or CE900-2025 elliptical, a CR900, CU900 or JB950 bike, or a CS800-2024 stepper?
+  or CE900-2025 elliptical, a CR900, CU900, JB950, 4.0R or 4.0U bike, or a CS800-2024
+  stepper?
 asked_as:
 - missing numbers on my spirit machine display
 - part of the screen is blank
@@ -23,7 +24,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
   - 40t-2026
+  - 40u-2025
   - ce800-2016
   - ce800-2021
   - ce800-2024
@@ -52,10 +55,11 @@ see_also:
 - spirit-lcd-displays-dim-or-incomplete
 - ce900-2025-errors-leds-not-bright-incomplete-or-imperfect
 - jb950-2022-errors-leds-not-bright-enough-30-v-at-30-rpm
+- spirit-med-bike-errors-leds-not-bright-check-power-to-console-then-lower-controller
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: CT850 2020 service manual section 8-7 Troubleshooting procedure matrix,
-    pages 47-51 (printed 46-50); CE900 2025 owner's manual TROUBLESHOOTING printed
+  locator: 'CT850 2020 service manual section 8-7 Troubleshooting procedure matrix,
+    pages 47-51 (printed 46-50); CE900 2025 owner''s manual TROUBLESHOOTING printed
     page 32; CR900 2025 printed page 34; CU900 2025 printed page 33; CT800 2020 service
     manual 8-6 Troubleshooting procedure matrix, PDF p. 46-50 (printed 45-49), text.md
     lines 660-797; 4.0T 2026 service manual Condition / Reason / Solve matrix, PDF
@@ -71,7 +75,13 @@ source:
     procedure matrix, PDF p. 32, text.md lines 530-562; CS800 (2020) service manual
     7-7 Troubleshooting procedure matrix, second row, PDF p. 33 (printed 32), text.md
     line 533; CS800 2016 (XS200-SS003) service manual Troubleshooting procedure matrix,
-    second row, PDF p. 41, text.md line 606
+    second row, PDF p. 41, text.md line 606; 4.0R (FR800-SB022-03) service manual
+    8-4 Troubleshooting procedure matrix, PDF p. 31, text.md lines 388-418; 4.0U (FU800-SB022-03)
+    service manual 8-4 Troubleshooting Procedure Matrix, PDF p. 31, text.md lines
+    409-438; the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Condition / Reason / Solve matrix at PDF p. 37-39
+    (printed 47-49), text.md lines 635-758'
   extracted_at: '2026-09-08'
 ---
 
@@ -110,3 +120,6 @@ version: `cu900ent-tft-displays-not-bright`.
 **Four elliptical service manuals print this row word for word** - `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`: the CE800 2016 (titled XE890B-AE10M), the CE800 (2020) book (`ce800-2021`), the CE850 (2020) and the CE900 (SE8800-SE026, `ce900-2021`). None of the four mixes the nouns the way the CR800 and CU800 bikes do.
 
 **Both CS800 service manuals print this one-line row about LEDs** - the CS800 (2020) as `LED displays not bright, incomplete or imperfect / LED displays are broken / Replace with new console`, the CS800 2016 (`XS200-SS003`) as `LED displays not bright, incomplete or imperfect / LED broken / Replace with new console`.
+
+**The 4.0R and 4.0U 2025 medical bikes print this row word for word** in their FR800/FU800 service manuals (added 2026-09-11). Their row above it - the dim light - names the lower controller and no voltage: `spirit-med-bike-errors-leds-not-bright-check-power-to-console-then-lower-controller`.
+

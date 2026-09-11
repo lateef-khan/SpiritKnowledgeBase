@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +34,9 @@ see_also:
 - 40t-2026-programs-hr-auto-pilot
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 25, Custom Program
+  locator: 'page 25, Custom Program; 4.0T 2025 (February printing): PDF p. 27 (printed
+    25); text.md lines 692-726; 4.0T 2025 (May printing): PDF p. 27 (printed 25);
+    text.md lines 692-726'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,3 +61,5 @@ facility name.
 
 During the Custom program you can scroll the data with the **Display** key, and you can switch to
 **Heart Rate Auto-Pilot** mode.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

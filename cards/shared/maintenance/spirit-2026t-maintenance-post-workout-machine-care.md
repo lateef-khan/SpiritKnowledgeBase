@@ -25,9 +25,15 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 75s-2025
   - ab950-2024
   - ce800-2024
@@ -75,7 +81,7 @@ see_also:
 - spirit-xe-maintenance-no-sanitizing-section
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED. spirit-bike-ab950-2024-owners-manual prints the same four steps word for word under MAINTENANCE & CARE at printed p. 27 (PDF p. 29), checked against a 300 dpi render of that page (329 native / 320 rendered); it is the only one of the eight Spirit indoor cycle, air bike and Johnny G manuals that carries them. All fourteen 2024 New Black Units owner''s manuals print the same four steps word for word, each under MACHINE CARE - CONTINUED except csc900-2024, which prints them under MACHINE CARE: ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58), ce800-2024 printed p. 36 (PDF p. 38), ce850-2024 printed p. 37 (PDF p. 39), ce800ent-2024 printed p. 49 (PDF p. 51), cr800-2024 and cu800-2024 printed p. 36 (PDF p. 38), cr800ent-2024 printed p. 49 (PDF p. 51), crs800s-2024 printed p. 34 (PDF p. 36), cs800-2024 printed p. 35 (PDF p. 37), csc900-2024 printed p. 32 (PDF p. 34) and crw800-2024 printed p. 30 (PDF p. 32). Every one of those pages was rendered at 300 dpi and read with tesseract --psm 4 rather than taken from the text layer, because these PDFs carry a second, invisible text layer. Three more Spirit stepper and stair climber manuals print the same four steps word for word and were added in wave 16, each read from its own PDF page: spirit-climber-70s-2025-owners-manual printed p. 38 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 40 (PDF p. 42), both under MACHINE CARE with the heading printed twice on the page, and spirit-climber-csc880-2025-owners-manual printed p. 31 (PDF p. 33) under MACHINE CARE. The 8.5S 2025 and 8.5S-FIT 2026 steppers and the MS300 2021 rehabilitation stepper were checked for "microfiber", "cupholder" and "Store your machine" and print none of it; they are deliberately absent from applies_to'
+  locator: 'p. 42 "Post-Workout Machine Care"; the same four steps are on 7.0T p. 40 (spirit-treadmill-70t-2026-owners-manual), on CE900 2025 p. 31 (spirit-elliptical-ce900-2025-owners-manual, MACHINE CARE - CONTINUED) and on CES880 2025 p. 54 (spirit-elliptical-ces880-2025-owners-manual, MAINTENANCE & CARE) - all four checked word for word. The same four steps, again word for word, are the residential spirit-elliptical-xe395-2023-owners-manual MAINTENANCE & CARE p. 37 (text.md lines 1259-1268) and spirit-elliptical-xe795-2023-owners-manual MAINTENANCE & CARE p. 36 (text.md lines 1167-1176). Three Spirit commercial bike owner''s manuals print the same four steps, again word for word: spirit-bike-cr900-2025-owners-manual p. 33 (text.md lines 1089-1098), spirit-bike-cu900-2025-owners-manual p. 32 (text.md lines 1062-1071) and spirit-bike-cu800ent-2024-owners-manual p. 49 (text.md lines 1313-1322), each under MACHINE CARE - CONTINUED. spirit-bike-ab950-2024-owners-manual prints the same four steps word for word under MAINTENANCE & CARE at printed p. 27 (PDF p. 29), checked against a 300 dpi render of that page (329 native / 320 rendered); it is the only one of the eight Spirit indoor cycle, air bike and Johnny G manuals that carries them. All fourteen 2024 New Black Units owner''s manuals print the same four steps word for word, each under MACHINE CARE - CONTINUED except csc900-2024, which prints them under MACHINE CARE: ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58), ce800-2024 printed p. 36 (PDF p. 38), ce850-2024 printed p. 37 (PDF p. 39), ce800ent-2024 printed p. 49 (PDF p. 51), cr800-2024 and cu800-2024 printed p. 36 (PDF p. 38), cr800ent-2024 printed p. 49 (PDF p. 51), crs800s-2024 printed p. 34 (PDF p. 36), cs800-2024 printed p. 35 (PDF p. 37), csc900-2024 printed p. 32 (PDF p. 34) and crw800-2024 printed p. 30 (PDF p. 32). Every one of those pages was rendered at 300 dpi and read with tesseract --psm 4 rather than taken from the text layer, because these PDFs carry a second, invisible text layer. Three more Spirit stepper and stair climber manuals print the same four steps word for word and were added in wave 16, each read from its own PDF page: spirit-climber-70s-2025-owners-manual printed p. 38 (PDF p. 40) and spirit-climber-75s-2025-owners-manual printed p. 40 (PDF p. 42), both under MACHINE CARE with the heading printed twice on the page, and spirit-climber-csc880-2025-owners-manual printed p. 31 (PDF p. 33) under MACHINE CARE. The 8.5S 2025 and 8.5S-FIT 2026 steppers and the MS300 2021 rehabilitation stepper were checked for "microfiber", "cupholder" and "Store your machine" and print none of it; they are deliberately absent from applies_to Six 2025 Spirit machines were added on 2026-09-11, each read from its text layer and checked against the page''s 300 dpi OCR supplement: spirit-bike-40r-2025-owners-manual MACHINE CARE, right-hand "Post-Workout Machine Care", PDF p. 35 (printed 33), text.md lines 986-994; spirit-bike-40u-2025-owners-manual PDF p. 35 (printed 33), lines 940-948; spirit-bike-70r-2025-owners-manual PDF p. 46 (printed 44), lines 1283-1291; spirit-bike-70u-2025-owners-manual PDF p. 44 (printed 42), lines 1240-1248; spirit-treadmill-70t-2025-owners-manual PDF p. 42 (printed 40), lines 1223-1231; spirit-treadmill-40t-2025-owners-manual PDF p. 43 (printed 41), lines 1200-1208, and its May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing, the same page and lines (the two printings are identical on pages 43-47 at difflib 1.000). The 8.0U and 8.5R 2025 bikes, the Dyaco PT 4.0R/4.0U and MED 7.0R editions were checked for "microfiber", "cupholder" and "Store your machine" and print none of it.'
   extracted_at: '2026-09-09'
 ---
 
@@ -178,3 +184,22 @@ replace the whole routine with a period table and a cleaning-and-disinfection ch
 `80t-2026-maintenance-disinfection-procedure`); the MS300 prints a four-bullet maintenance page of
 its own (`ms300-2021-maintenance-rust-pedals-and-half-inch-wrench`). All three were searched for
 "microfiber", "cupholder" and "Store your machine" and return nothing.
+
+## Six 2025 Spirit medical machines print it, and five do not
+
+The **4.0T 2025** and **7.0T 2025** treadmills - the model year before the 2026 books this card was written
+from - print the four steps word for word on the same page as their 2026 successors, the 4.0T beside the
+sanitizing bullets and the 7.0T under a second "Post-Workout Machine Care" heading beneath its noise text. The
+**4.0R**, **4.0U**, **7.0R** and **7.0U** 2025 medical bikes print them too: the 4.0R and 4.0U in the right-hand
+column of their care page beside the rust-and-monthly-pedal list
+(`spirit-med-bike-maintenance-rust-wipe-monthly-pedal-check-and-half-inch-wrench`), the 7.0R and 7.0U beneath the
+commercial noise block (`cu900ent-general-maintenance`) with the heading printed twice, as on the 7.0T.
+
+**Step 1 is empty on all six.** None has a storage chapter or folds.
+
+**The 8.0U and 8.5R 2025 bikes print none of it** - their care chapter is the Dyaco clinical set: a period table,
+a disinfection routine and a warning list (`spirit-med-bike-maintenance-machine-care-schedule-after-each-use-to-quarterly`),
+plus a one-paragraph wipe-down of their own
+(`spirit-med-maintenance-general-cleaning-after-each-activity-water-only-on-touch-points`). **The Dyaco PT 4.0R,
+PT 4.0U and MED 7.0R editions print none of it either**
+(`spirit-med-bike-maintenance-dyaco-editions-print-no-sanitizing-or-disinfection`).

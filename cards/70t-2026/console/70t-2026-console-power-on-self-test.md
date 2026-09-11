@@ -1,6 +1,7 @@
 ---
 id: 70t-2026-console-power-on-self-test
-title: "Powering on: the self-test shows the software version, the odometer and the hours used"
+title: 'Powering on: the self-test shows the software version, the odometer and the
+  hours used'
 kind: fact
 question: What does the console show when you switch on a Spirit 7.0T or MT200 treadmill?
 asked_as:
@@ -24,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -38,7 +40,8 @@ see_also:
 - 70t-2026-console-maintenance-mode-menu
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 22, POWER ON & CONSOLE OPERATION
+  locator: p. 22, POWER ON & CONSOLE OPERATION. 7.0T 2025 owner's manual PDF p. 24
+    (printed 22), text.md lines 660-686
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,6 @@ The odometer can be zeroed from maintenance mode; see
 p. 12, the 2022 manual on its p. 21. **The 2010 manual adds one sentence the other
 two drop**: in Idle Mode *the dot matrix display scrolls through the different
 program profiles* as well as the message window scrolling the start up message.
+
+**The 2025 printing of the 7.0T owner's manual prints the same self-test, odometer and 30-minute power-down on its p. 24**, so this card covers the 70t-2025 - with one broken cross-reference: it sends the reader to "see Maintenance section on **page 74**" to disable the power-down, in a 59-page book whose maintenance menu is on printed p. 43; the 2026 book says page 43.
+

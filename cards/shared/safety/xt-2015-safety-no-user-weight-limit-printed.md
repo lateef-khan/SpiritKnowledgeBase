@@ -36,6 +36,7 @@ facets:
   - ce900ent
   - cr800-2009
   - ct800-2012
+  - ct850-2013
   - cu1000ent-2023
   - cu800-2012
   - xbr25-2007
@@ -77,6 +78,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2010
@@ -134,7 +136,10 @@ source:
     lines 1-2814; XE400 and XE500 in the 2007 dealer manual, 38 pages, lines 1-2878.
     The CE850-2016 (XE898-SE011), XE395ENT-2021 (XE539S-SE025-01) and XE100/XE200/XE300
     2007 dealer service manuals, whose owner''s manuals are already on this card,
-    print none either, lines 1-2774, 1-1886 and 1-2878.'
+    print none either, lines 1-2774, 1-1886 and 1-2878. XT485-2013: absence checked
+    across the whole text layer and OCR supplements of spirit-treadmill-xt485-2013-owners-manual
+    (no lbs, user weight or maximum user); CT850-2013: the same check across the OCR
+    supplements of spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -348,3 +353,12 @@ and CE1000ENT are new machines; nothing in any of their books says a later figur
 (`spirit-ce-safety-no-mains-outlet-needed`,
 `ce1000ent-2023-safety-mains-powered-through-a-100-w-adapter`,
 `xe795-2023-safety-outlet-220-volt-15-amp`).
+
+## Two 2013 owner's manuals print no weight figure either
+
+**The Australian XT485-2013** prints a merged safety list with no weight item and no weight figure
+anywhere else in the book (`xt485-2013-safety-instructions-list`); **the CT850-2013** prints the
+thirteen-item appliance list without the `Maximum User Weight: 450 lbs` item the 2016 and later
+CT850 books add (`spirit-ct800-safety-instructions-list`). Both were searched for `lbs`, `weight
+limit` and `maximum user` in the text and the OCR supplements. That is an absence for each, not a
+figure to fill from a later book.

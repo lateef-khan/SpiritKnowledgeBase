@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-programs-gerkin-chart
@@ -40,7 +39,9 @@ see_also:
 - ct900-gerkin-protocol
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 30, Gerkin
+  locator: 'page 30, Gerkin; 4.0T 2025 (February printing): PDF p. 31 (printed 29);
+    text.md lines 801-835; 4.0T 2025 (May printing): PDF p. 31 (printed 29); text.md
+    lines 801-835'
   extracted_at: '2026-09-09'
 ---
 
@@ -99,3 +100,5 @@ time it takes to reach 85% determines the test score (VO2max).
 *Stage 1 is printed as running "0 to 1:00" and stage 2.1 is printed at "1:00", so the two overlap as
 printed. The CT900 manual prints the same 1:00 value; it differs from this chart only at stage 7.4,
 where the CT900 prints 8% grade and this manual prints 6%.*
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

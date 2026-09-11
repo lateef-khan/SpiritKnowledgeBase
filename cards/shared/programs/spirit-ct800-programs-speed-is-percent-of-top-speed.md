@@ -30,6 +30,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -47,7 +48,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: 'printed page 21, Preset Programs Speed/Incline Settings (2012: page 13;
-    2016: page 20; CT800ENT: page 26)'
+    2016: page 20; CT800ENT: page 26); CT850 2013: PDF p. 18 (printed 14), OCR supplement
+    lines 531-575'
   extracted_at: '2026-09-09'
 ---
 
@@ -75,3 +77,5 @@ segment values are recorded for that machine.
 
 **All four 2024 treadmill manuals print this same paragraph word for word**, including the 10 mph
 worked example (CT800 and CT850 printed page 23; CT800ENT and CT850ENT printed page 34).
+
+**The 2013 CT850 owner's manual prints the same explanatory paragraph** - P1 Hill's first setting of 20 means 20% of the top speed, 2 mph at a top speed of 10, and segment 12's 100 means 10 mph.

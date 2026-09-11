@@ -21,13 +21,13 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - xt485-2013
   section: safety
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-safety-extension-cord-12-awg-or-larger
@@ -40,7 +40,16 @@ see_also:
 - spirit-product-must-be-grounded
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 3, page 4
+  locator: 'SAFETY INSTRUCTIONS item 3, page 4. The 2025 4.0T owner''s manual (revision
+    02.04.25, version 2.1) prints the same page: SAFETY INSTRUCTIONS item 3, PDF p.
+    6 (printed 4), lines 110-149 in spirit-treadmill-40t-2025-owners-manual; the May
+    2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013 (Australian edition): IMPORTANT
+    SAFETY INSTRUCTIONS, capitalised cord line, PDF p. 4 (printed 3), lines 76-131,
+    in spirit-treadmill-xt485-2013-owners-manual. 4.0T service manuals, which say
+    14 AWG instead: 7.1 Important Safety Instructions, PDF p. 27, lines 384-418, in
+    spirit-treadmill-40t-2026-service-manual-st8700a, and PDF p. 26, lines 353-387,
+    in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +83,15 @@ these; quote the figure from the machine's own manual and do not carry the 12 aw
 
 **The 4.0T manual asks for a dedicated 20-amp circuit** for the machine whatever cord is used:
 `spirit-2026t-safety-outlet-and-circuit-requirement`.
+
+**The 2025 printing of the 4.0T manual prints this page word for word**, so it holds for the 40t-2025 as well. The February 2025 book (revision 02.04.25) and its May 2025 reprint (revision 05.19.25) differ only in the version and revision line; both were compared with the 2026 book page by page and no rule or figure on the safety, electrical, grounding or operation pages changed.
+
+**The Australian XT485-2013 owner's manual prints the same rule a decade earlier**, in capitals -
+`DO NOT USE AN EXTENSION CORD UNLESS IT IS A 1m㎡ OR BETTER, WITH ONLY ONE OUTLET ON THE END` - on a
+230-volt, 10-amp machine (`xt485-2013-safety-instructions-list`). Same gauge, same one-outlet rule.
+
+**The 4.0T service manuals say 14 AWG.** Both the ST8700-ST017 book and its ST8700A-ST026-01 revision
+print the CT850 chapter's `Do not use an extension cord unless it is a 14 AWG or better with only one
+outlet on the end` (`ct850-2020-extension-cord-14-awg-or-better`). 1 mm² is roughly 17 AWG, so the
+service manual asks for a heavier cord than the owner's manual; neither book mentions the other.
+Quote the gauge from the book in the customer's hand and say the other figure exists.

@@ -3,8 +3,8 @@ id: 7-5s-med-assembly-console-mast-cover-top-cover-and-shroud-replacement
 title: 'Replacing the recumbent stepper covers: console off, four mast screws, four
   latches on the top cover, and the DC power connector unplugged inside the left shroud'
 kind: procedure
-question: How do I remove the console mast cover, the top cover or the left and right
-  shrouds on a Spirit 7-5s-med (7.5S) recumbent stepper?
+question: How do I replace the console mast cover, the top cover or the shrouds on
+  a Spirit 7.5S (2021 or 2025 book) or 7.0S 2025 rehabilitation recumbent stepper?
 asked_as:
 - shroud removal 7.5s stepper
 - top cover latches spirit medical stepper
@@ -23,9 +23,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -36,8 +38,11 @@ see_also:
 - 7-5s-med-assembly-magnet-bracket-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.4 Console Mast Cover/ Top Cover/ Shroud Replacement, PDF pp. 24-25; text.md
-    lines 250-279
+  locator: '6.4 Console Mast Cover/ Top Cover/ Shroud Replacement, PDF pp. 24-25;
+    text.md lines 250-279 | 70s-2025 (spirit-stepper-70s-2025-service-manual): 6.4
+    Console Mast Cover/ Top Cover/ Shroud Replacement, PDF pp. 24-25; text.md lines
+    268-296 | 75s-2025 (spirit-stepper-75s-2025-service-manual): 6.4 Console Mast
+    Cover/ Top Cover/ Shroud Replacement, PDF pp. 24-25; text.md lines 251-279'
   extracted_at: '2026-09-11'
 ---
 
@@ -58,3 +63,4 @@ The top cover is held by latches, not screws. No screw sizes or shroud screw cou
 troubleshooting step in the same book that says "open the left shroud" - the DC power connector, the RPM sensor
 board, the step sensor board, the motor cable - means step 6.4.3.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included. Four mast screws, four top-cover latches and the DC connector inside the left shroud in all three books.

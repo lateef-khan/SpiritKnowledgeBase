@@ -27,6 +27,13 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -63,6 +70,7 @@ see_also:
 - spirit-ce850-specs-twenty-resistance-levels
 - spirit-ce-console-stop-button-press-once-twice-hold
 - ce800ent-quick-start
+- spirit-med-70-bike-console-display-key-cycles-a-profile-a-power-graph-and-a-track
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
   locator: CE800 2021 p. 15; CE800 2023 p. 16; CE800 2013 p. 16 (printed 14); CE850
@@ -74,8 +82,14 @@ source:
     lines 212-221; CE800 (2020) service manual 4-2-2 QUICK START, PDF p. 14 (printed
     13), text.md lines 238-247; CE850 (2020) service manual QUICK START, PDF p. 15
     (printed 15), lines 291-301; CE900 (SE8800-SE026) service manual QUICK START,
-    PDF p. 14 (printed 14), lines 223-232.
-    CRS800S (2020 ver.) service manual QUICK START, PDF p. 12 (printed 12), text.md lines 149-158; CS800 (2020) service manual 4-2-2 QUICK START, PDF p. 14 (printed 13), lines 235-244
+    PDF p. 14 (printed 14), lines 223-232. CRS800S (2020 ver.) service manual QUICK
+    START, PDF p. 12 (printed 12), text.md lines 149-158; CS800 (2020) service manual
+    4-2-2 QUICK START, PDF p. 14 (printed 13), lines 235-244. 4.0R-2025 OM QUICK START,
+    PDF p. 16 (printed 14), text.md lines 431-456; 4.0U-2025 OM PDF p. 16, lines 387-412;
+    4.0R SM 4-2, PDF p. 16, lines 153-162; 4.0U SM PDF p. 16, lines 158-165; Dyaco
+    PT 4.0 R PDF p. 33, lines 934-949; PT 4.0 U PDF p. 31. 7.0R-2025 OM QUICK START,
+    PDF p. 25 (printed 23), lines 678-703; 7.0U-2025 OM PDF p. 23, lines 638-663;
+    Dyaco MED 7.0R (2021) PDF p. 42, lines 1316-1330
   extracted_at: '2026-09-09'
 ---
 
@@ -167,3 +181,11 @@ workload is adjusted with the **Level Up and Down** buttons, the Dot Matrix Mess
 book says "dot matrix display") lights its bottom row first, 24 columns of one minute each with the
 wrap-around, and the twenty levels banded 1-5, 6-10, 11-15 and 16-20. The CRS800S book says "the
 Semi-Recumbent Stepper will get harder to pedal", the CS800 book "the Stepper".
+
+**Seven Spirit Medical bike books print Quick Start too, in two shapes.**
+
+- **4.0R-2025, 4.0U-2025, their Dyaco PT editions and both 4.0 service manuals**: Start, time counts up from zero, workload by the **Plus and Minus** keys, more rows light as it rises - **and no 24-column sentence at all**. Instead the section ends with the level bands: "There are **40 levels** of resistance available for plenty of variety. The first 10 levels are very easy workloads, and the changes between levels are set to a good progression for de-conditioned users. Levels 10-20 are more challenging but the increases from one level to the next remain small. Levels 20-30 start getting tough as the levels jump more dramatically. Levels 30-40 are extremely hard and are good for short interval peaks and higher performance training."
+- **7.0R-2025, 7.0U-2025 and the Dyaco MED 7.0R**: Start, time counts up, workload by the **Up or Down** key, "the dot matrix will display a workload level at the lowest resistance", then the same **24 columns of one minute** that wrap at the 24th - plus "**There are 50 levels of resistance displayed in 10 rows of LED lights.** The amount of workload for each level can be modified in the Set up menu" (`spirit-med-70-bike-console-watts-per-row-10-to-100-and-a-level-scale-of-5-10-or-15-watts`).
+
+The 8-series touchscreen bikes have a one-paragraph Quick Start of their own (`spirit-med-80-bike-console-quick-start-after-login-by-slider-or-up-and-down-keys`).
+

@@ -1,12 +1,10 @@
 ---
 id: spirit-strength-assembly-guide-rod-and-selector-pin-hardware
-title: >-
-  Two guide rods, four rubber bumpers in two sizes, four rod end covers, one selector
-  pin and one magnet pulley
+title: Two guide rods, four rubber bumpers in two sizes, four rod end covers, one
+  selector pin and one magnet pulley
 kind: spec
-question: >-
-  What parts make up the guide rod and selector assembly on a Spirit commercial strength
-  machine? Covers the Spirit CSS selectorized range and five CSD dual stations.
+question: What parts make up the guide rod and selector assembly on a Spirit commercial
+  strength machine? Covers the Spirit CSS selectorized range and five CSD dual stations.
 asked_as:
 - what parts hold the weight stack rods
 - how many rubber bumpers are in the weight stack
@@ -50,18 +48,20 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-weight-stack-fitting-order
 - spirit-strength-assembly-the-magnet-side-of-the-upper-pulley-faces-the-sensor
 - spirit-strength-assembly-fastener-counts-that-do-not-balance
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 16 (PDF p. 17) of the CSS Abdominal manual, ASSEMBLY - STEP 5; the same
-    rows with the same specifications and quantities read from the PDF text layer of
-    eighteen further manuals, and the two anomalies confirmed against a 300 dpi render
-    of PDF p. 17 of the Shoulder Press manual and PDF p. 18 of the Squat/Standing Calf
-    manual
+  locator: 'printed p. 16 (PDF p. 17) of the CSS Abdominal manual, ASSEMBLY - STEP
+    5; the same rows with the same specifications and quantities read from the PDF
+    text layer of eighteen further manuals, and the two anomalies confirmed against
+    a 300 dpi render of PDF p. 17 of the Shoulder Press manual and PDF p. 18 of the
+    Squat/Standing Calf manual | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY - STEP 6, PDF p. 18 (printed 17); text.md OCR supplement at 1566-1597,
+    checked on a 110 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -95,3 +95,5 @@ Both figures are on the printed page, not extraction damage. See
 
 Its step 1 panel lists **Pulley Set 114x25.8**, not the Φ89x32 that the rest of the range
 carries. Do not order a Φ89 pulley against that machine on the strength of this card.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

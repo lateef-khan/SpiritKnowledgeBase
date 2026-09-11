@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -36,7 +37,8 @@ see_also:
 - 80t-2026-programs-facility-program
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: pages 28-29, Facility Program / Designing and Saving a New Program
+  locator: 'pages 28-29, Facility Program / Designing and Saving a New Program; 7.0T
+    2025: PDF pp. 30-31 (printed 28-29); text.md lines 856-929'
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +73,5 @@ Both MT200 owner's manuals print the same procedure, the same `Name - A` prompt 
 twenty-four segments - the 2010-generation manual on printed pages 17-18, the 2022-generation
 manual on printed pages 29-30. On the MT200 a saved program is run from the **facility** key,
 not from a `user` key; see `spirit-mt200-programs-running-a-saved-program`.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

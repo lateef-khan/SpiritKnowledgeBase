@@ -2,7 +2,8 @@
 id: spirit-2026t-safety-over-exercise-can-cause-injury-or-death
 title: Over-exercising can cause serious injury or death, so stop if you feel faint
 kind: policy
-question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual, or a Spirit MT200 rehabilitation treadmill manual, say about exercising too hard?
+question: What does a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill manual, or a Spirit
+  MT200 rehabilitation treadmill manual, say about exercising too hard?
 asked_as:
 - what if i feel dizzy on the treadmill
 - can you overdo it on a treadmill
@@ -24,7 +25,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -39,7 +42,17 @@ see_also:
 - spirit-2026t-safety-heart-rate-readings-are-not-medical
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 17 and 27, page 4 and page 5; the 7.0T owner's manual prints it as item 13 of its page 4 and the 8.0T as item 13 of its page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
+  locator: 'SAFETY INSTRUCTIONS items 17 and 27, page 4 and page 5; the 7.0T owner''s
+    manual prints it as item 13 of its page 4 and the 8.0T as item 13 of its page
+    4. The two Spirit MT200 rehabilitation treadmill owner''s manuals print it on
+    their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of
+    the 2022 manual. The 2025 4.0T owner''s manual (revision 02.04.25, version 2.1)
+    prints the same page: SAFETY INSTRUCTIONS item 17, PDF p. 6 (printed 4), lines
+    110-149 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: SAFETY INSTRUCTIONS item 13, PDF
+    p. 6 (printed 4), lines 109-144 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -77,3 +90,7 @@ The 2022 manual prints the same three sentences without the `WARNING:` prefix. T
 same - **stop immediately**, on the trigger of feeling faint - and both MT200 manuals give the
 longer symptom list for the operator to watch for on their Important Operation Instructions page
 (`spirit-2026t-safety-medical-clearance-and-exertion`).
+
+**The 2025 printing of the 4.0T manual prints this page word for word**, so it holds for the 40t-2025 as well. The February 2025 book (revision 02.04.25) and its May 2025 reprint (revision 05.19.25) differ only in the version and revision line; both were compared with the 2026 book page by page and no rule or figure on the safety, electrical, grounding or operation pages changed.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

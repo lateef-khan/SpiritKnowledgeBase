@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-safety-serial-decal-fields-en-957-class-s-studio
-title: "What the serial number decal says: EN 957-1/2, Class S Studio, and the max user weight"
+title: 'What the serial number decal says: EN 957-1/2, Class S Studio, and the max
+  user weight'
 kind: fact
-question: What is printed on the serial number decal of a Spirit CSS, CSD or CSF strength machine?
+question: What is printed on the serial number decal of a Spirit CSS, CSD or CSF strength
+  machine?
 asked_as:
 - where is the serial number on the weight machine
 - what does the silver label on the machine mean
@@ -69,7 +71,12 @@ see_also:
 - spirit-strength-safety-csi-name-plate-decal
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: Serial Number Decal on PRODUCT LABELS, printed page 4 (PDF page 5), read from 300-500 dpi renders of the CSS-SCPR, CSD-ACBE, CSF-AABB, CSF-BEXT, CSF-HRAC, CSF-LEGP and CSF-UPRB manuals
+  locator: 'Serial Number Decal on PRODUCT LABELS, printed page 4 (PDF page 5), read
+    from 300-500 dpi renders of the CSS-SCPR, CSD-ACBE, CSF-AABB, CSF-BEXT, CSF-HRAC,
+    CSF-LEGP and CSF-UPRB manuals. CSD-CPSP May 2025 update: Serial Number Decal on
+    PRODUCT LABELS, PDF p. 5 (printed 4), text.md lines 61-146, read from a 250 dpi
+    render, in spirit-strength-csd-cpsp-owners-manual-2025-update. CSS-DELT 2026 revision:
+    PDF p. 5, lines 85-131, read from a 250 dpi render, in spirit-strength-css-delt-owners-manual-2026'
   extracted_at: '2026-09-10'
 ---
 
@@ -108,3 +115,9 @@ read like `SP-42181906001` or `1234 5678 9876` — those are placeholders.
 
 The two CSI machines use a different label entirely and carry no EN 957 or Class S Studio line in
 this form.
+
+**The CSD-CPSP May 2025 update and the CSS-DELT 2026 revision print the decal with the same fields**
+- `MODEL NUMBER`, `PRODUCT`, `COMPILES WITH EN 957-1/2`, `CLASS: S STUDIO`, `MAX USER WEIGHT: 163kg /
+360lb`, `SERIAL NUMBER:`, `MADE IN CHINA`, the CE mark and the read-the-manual symbol - read from
+renders of both pages. The CSD-CPSP decal's weight line is now 163 kg
+(`spirit-strength-safety-serial-decal-metric-figure-180-kg-disagrees`).

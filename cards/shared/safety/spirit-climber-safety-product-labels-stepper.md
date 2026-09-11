@@ -52,7 +52,11 @@ source:
     3), text.md lines 39-40, a photograph read from a 90 dpi render, in spirit-stepper-7-5s-med-service-manual.
     8.5S (MS2000-SB036-01) service manual: 1. Serial Number Location, PDF p. 4 (printed
     4), lines 39-40 and OCR supplement lines 616-638, two photographs read from 90
-    and 300 dpi renders, in spirit-stepper-85s-2025-service-manual.'
+    and 300 dpi renders, in spirit-stepper-85s-2025-service-manual. 7.0S (RS9500-SS021-02)
+    service manual: 1. Serial Number Location, PDF p. 3 (printed 3), text.md lines
+    40-41, a photograph read from 100 and 300 dpi renders, in spirit-stepper-70s-2025-service-manual.
+    7.5S (RS9600-SS021-03) service manual: 1. Serial Number Location, PDF p. 3, lines
+    40-41 and OCR supplement at line 896, in spirit-stepper-75s-2025-service-manual'
   extracted_at: '2026-09-10'
 ---
 
@@ -115,3 +119,20 @@ at the limit of legibility and is quoted only where it was clear.
 words *patient*, *contraindication*, *warning* and *caution* appear in neither book, in the text layer, with
 letter-spacing allowed, or in the OCR supplements; the photograph above is the only safety-related content either one
 has.
+
+## The 7.0S and the 2025 7.5S service manuals print the same photograph, and it is the 7.5S
+
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals each open with the
+photograph described above** - the machine from the front, the barcode sticker boxed in red on the
+top of the grey front stabilizer at its left end. Two things a 300 dpi render adds:
+
+- **The label beside the serial sticker is the Proposition 65 label** - `WARNING: Cancer and
+  Reproductive Harm - www.P65Warnings.ca.gov` on a black strip - on the stabilizer, not on the side
+  of the console upright where the 7.0S and 7.5S owner's manuals say it is. Both are printed;
+  nothing reconciles them.
+- **The rating label on the shroud in the 7.0S book reads `dyaco 7.5S`.** The 7.0S service manual
+  reuses the 7.5S photograph; it is not a photograph of a 7.0S. The location it shows is the level
+  bar the 7.0S owner's manual names, so the answer does not change.
+
+Neither book prints a safety chapter, a safety list, a Proposition 65 text or a patient-safety
+page; the photograph is the only safety-related content either has.

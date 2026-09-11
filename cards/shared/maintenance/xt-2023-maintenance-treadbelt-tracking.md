@@ -29,6 +29,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -45,11 +46,15 @@ see_also:
 - f65-2016-belt-tracking-adjustment
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: 2023 manuals, page 31, MAINTENANCE & CARE - Treadbelt Tracking Adjustment
+  locator: '2023 manuals, page 31, MAINTENANCE & CARE - Treadbelt Tracking Adjustment
     / SETTING TREAD-BELT TRACKING (XT285 p. 39, XT385 p. 43, XT485 p. 43, XT685 p.
     42); 2015 manuals, Setting Tread-Belt Tracking (XT185 p. 27, XT285 p. 35, XT385
     p. 37, XT485 p. 42, XT685 p. 42); XT485ENT p. 52; XT685ENT p. 45; XT685 2010 printed
-    p. 29 (spirit-treadmill-xt685-2010-owners-manual PDF p. 33)
+    p. 29 (spirit-treadmill-xt685-2010-owners-manual PDF p. 33) The 2013 XT485 was
+    added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual TREADBELT TRACKING
+    ADJUSTMENT - SETTING TREAD-BELT TRACKING, PDF p. 31 (printed 30), text.md lines
+    1202-1235, with the ATTENTION warranty line - 6 mm Allen wrench, left side bolt,
+    3 mph (5 kmph), 1/4 turn clockwise or counter-clockwise.'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +77,7 @@ All thirteen manuals print the same steps, the same **left side bolt**, the same
 **Only the XT685 2010 manual states how often to inspect tracking.** Its maintenance record chart says **inspect belt tracking monthly** and adjust if necessary (`xt685-2010-maintenance-record-chart`). None of the other twelve manuals gives an inspection interval for this job, so do not carry the monthly figure onto them.
 
 The Sole procedure in `f65-2016-belt-tracking-adjustment` is not the same fact: it calls for a 10 mm Allen wrench and a speed of 3 to 5 kph.
+
+**The XT485 2013 prints the same steps** - 6 mm wrench, left side bolt, **3 mph (5 kmph)** with the metric
+equivalent in brackets as the 2015 XT385/XT485/XT685 books have it, 1/4 turns - and the same ATTENTION line. No
+inspection interval is given for tracking.

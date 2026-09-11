@@ -25,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -40,8 +41,19 @@ see_also:
 - spirit-2026t-warranty-belt-adjustment-damage
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 41 "Tread-belt tension adjustment"; MT200 2010 p. 37 "BELT ADJUSTMENTS"
-    and MT200 2022 pp. 59-60 "Belt adjustments - Tread-belt tension adjustment"
+  locator: 'p. 41 "Tread-belt tension adjustment"; MT200 2010 p. 37 "BELT ADJUSTMENTS"
+    and MT200 2022 pp. 59-60 "Belt adjustments - Tread-belt tension adjustment" The
+    2025 printing was added on 2026-09-11: spirit-treadmill-70t-2025-owners-manual
+    "Belt adjustments - Tread-belt tension adjustment", PDF p. 43 (printed 41), text.md
+    lines 1234-1363 (the text layer interleaves an invisible block), read from a 300
+    dpi render of the page - 10mm allen wrench, 1/4 to 1/2 turn, the end-cap note,
+    do not overtighten, the motor drive belt. On 2026-09-11 the "GENERAL MAINTENANCE"
+    block that the text layer of the 4.0T, 7.0T and 8.0T books carries over this page
+    was checked against 300 dpi renders of the 4.0T 2025 (PDF p. 44), 4.0T 2026 (PDF
+    p. 45), 7.0T 2025 (PDF p. 43), 7.0T 2026 (PDF p. 43) and 8.0T 2026 (PDF p. 65)
+    pages: none of its words - 20,000 kilometers, 56x224cm, the wear list, Belt Dust,
+    the lubricant sentence - is printed on any of the five. It is an invisible text
+    layer, not an overlay.'
   extracted_at: '2026-09-09'
 ---
 
@@ -75,8 +87,15 @@ end cap"* note, the same **do not overtighten** warning and the same loose-motor
 caveat. **Neither MT200 manual carries the duplicated block described next** — that damage is in
 the 7.0T manual only.
 
-## A second block on the same page prints different figures
+## The text layer carries a second block with different figures, and it is not printed
 
-Page 41 carries a duplicated "GENERAL MAINTENANCE" block over the manual's own column. That block
-says "in increments of 1/4 turn each" and names no wrench. The figures above are the ones in the
-7.0T's own text.
+The PDF's text layer holds a "GENERAL MAINTENANCE" block on this page that says "in increments of 1/4 turn
+each" and names no wrench. A 300 dpi render of the page - the 2025 and the 2026 printing alike, checked on
+2026-09-11 - shows none of that block printed. It is an invisible OEM text layer, not something a customer can
+read; the figures above are the only ones on the page.
+
+## The 2025 7.0T prints the same procedure
+
+The **7.0T 2025** (Rev 01.10.25) prints the steps word for word with the 2026 book - the **10mm** wrench, **1/4 to
+1/2 turn**, the end-cap note, the overtightening warning and the loose-motor-belt caveat - and the same
+"Attention" line that damage from improper tracking or tension adjustments is not covered under the warranty.

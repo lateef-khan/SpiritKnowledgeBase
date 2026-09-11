@@ -18,6 +18,7 @@ facets:
   model: '*'
   applies_to:
   - ct900ent
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2010
@@ -32,7 +33,7 @@ see_also:
 - ct900ent-personal-data-age-weight-calorie-note
 source:
   ref: ct900ent-om
-  locator: p. 42
+  locator: 'p. 42; XT485 2013: PDF p. 25 (printed 24); text.md lines 906-957'
   extracted_at: '2026-08-24'
 ---
 
@@ -50,3 +51,5 @@ same manual also prints a **FAT BURN** program (page 37) describing the same pro
 in "resistance level" for "speed level", "user input level" for "user input value", and "deck
 elevation" for "treadmill elevation". The two programs are listed separately and the manual gives no
 way to tell their profiles apart. Both are recorded as printed.
+
+**The 2013 XT485 owner's manual prints this description word for word** under the name **Calories** with the word "quick", as the 2015 XT485 and 2010 XT685 do. For its setup steps and defaults see `xt485-2013-programs-calorie-program-with-a-70-body-weight-default`.

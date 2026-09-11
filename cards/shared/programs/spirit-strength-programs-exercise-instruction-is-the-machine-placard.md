@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-programs-exercise-instruction-is-the-machine-placard
-title: The only exercise instruction is a picture of the placard on the machine, with no written steps
+title: The only exercise instruction is a picture of the placard on the machine, with
+  no written steps
 kind: fact
 question: Where does a Spirit strength manual explain how to perform the exercise?
 asked_as:
@@ -65,10 +66,12 @@ see_also:
 - spirit-strength-programs-resistance-training-benefits-and-tips
 source:
   ref: spirit-strength-css-bcur-owners-manual
-  locator: The single START WORKOUT page in each of these 31 manuals - for example spirit-strength-css-bcur-owners-manual
-    printed page 20 (PDF page 21) and spirit-strength-csd-acbe-owners-manual printed page 22 (PDF page
-    23). Every one of the 31 pages was read from a 300 dpi tesseract --psm 4 render, because the placard
-    is a flat image on all of them.
+  locator: 'The single START WORKOUT page in each of these 31 manuals - for example
+    spirit-strength-css-bcur-owners-manual printed page 20 (PDF page 21) and spirit-strength-csd-acbe-owners-manual
+    printed page 22 (PDF page 23). Every one of the 31 pages was read from a 300 dpi
+    tesseract --psm 4 render, because the placard is a flat image on all of them.;
+    CSS-DELT 2026: PDF p. 21 (printed 20); text.md lines 659-670; CSD-CPSP May 2025
+    update: PDF p. 24 (printed 23); text.md lines 341-352'
   extracted_at: '2026-09-10'
 ---
 
@@ -107,3 +110,5 @@ The three CSF machines that have no such page at all are a separate finding - se
 `spirit-strength-programs-no-exercise-instruction-at-all`. The two CSI machines put
 this material on the console instead - see
 `spirit-strength-programs-how-to-use-lives-on-the-console`.
+
+**Two later printings change nothing here**: the 2026 CSS-DELT revision and the May 2025 CSD-CPSP update each still answer with the one START WORKOUT picture and no prose. The CSD-CPSP update does now print a placard part number, #311010451, where the earlier CSD-CPSP book printed none - so that machine moves from the eight pages without a number to the pages with one.

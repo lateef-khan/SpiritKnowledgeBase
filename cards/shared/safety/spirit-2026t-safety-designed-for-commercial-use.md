@@ -1,8 +1,10 @@
 ---
 id: spirit-2026t-safety-designed-for-commercial-use
-title: The treadmill is designed for commercial, rehabilitation and sports medicine use
+title: The treadmill is designed for commercial, rehabilitation and sports medicine
+  use
 kind: fact
-question: Is a 2026 Spirit 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation treadmill, a home machine or a commercial one?
+question: Is a 2026 Spirit 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation
+  treadmill, a home machine or a commercial one?
 asked_as:
 - is this treadmill made for a gym
 - can this treadmill be used in a clinic
@@ -25,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -39,7 +42,14 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 11 and 12, page 4, and OPERATING THE 7.0T, page 11; the 8.0T owner's manual prints items 11 and 12 on its page 4 and the same intended-use paragraph as the opening of its APPLICATION SPECIFICATION page, page 9. The two Spirit MT200 rehabilitation treadmill owner's manuals print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of the 2022 manual
+  locator: 'SAFETY INSTRUCTIONS items 11 and 12, page 4, and OPERATING THE 7.0T, page
+    11; the 8.0T owner''s manual prints items 11 and 12 on its page 4 and the same
+    intended-use paragraph as the opening of its APPLICATION SPECIFICATION page, page
+    9. The two Spirit MT200 rehabilitation treadmill owner''s manuals print it on
+    their safety instructions page, page 4 of the 2010 manual and pages 5 to 7 of
+    the 2022 manual. The 2025 7.0T owner''s manual (revision 01.10.25, version 2.0)
+    prints the same page: SAFETY INSTRUCTIONS item 11, PDF p. 6 (printed 4), lines
+    109-144 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -86,3 +96,5 @@ academic research. The 2010 manual's title page reads `MT200 Rehabilitation Trea
 Spirit Medical Systems Group; the 2022 manual's cover carries only the ReCare name and Spirit
 Fitness branding, and its opening paragraph calls the machine a `physical rehabilitation
 treadmill`. The design intent stated on the safety page is identical in both.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

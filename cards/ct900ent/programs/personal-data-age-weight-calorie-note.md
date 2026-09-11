@@ -20,6 +20,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct900ent
   - xt185-2015
@@ -28,6 +29,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -44,7 +46,10 @@ see_also:
 - xt-2023-programs-entering-a-program
 source:
   ref: ct900ent-om
-  locator: p. 30
+  locator: 'p. 30; 4.0T 2025 (February printing): PDF p. 23 (printed 21); text.md
+    lines 591-622; 4.0T 2025 (May printing): PDF p. 23 (printed 21); text.md lines
+    591-622; 4.0T ST8700A service manual: PDF p. 15 (printed 15); text.md lines 224-259;
+    XT485 2013: PDF pp. 19-21 (printed 18-20); text.md lines 601-761'
   extracted_at: '2026-08-24'
 ---
 
@@ -72,3 +77,10 @@ calorie count - but it never gathers those two statements into a paragraph of th
 All five **2015** XT owner's manuals print this same "Programming The Console" paragraph and the same calorie note. **The 2015 XT185 prints it too, saying age is "necessary during the Heart Rate programs", even though that machine has no Heart Rate program** - see `xt185-2015-program-list`.
 
 The 2026 Spirit 4.0T owner's manual prints this same "Programmable Features" paragraph and the same calorie note (page 21), including both of the sentences listed above as CT900ENT-only. **The 7.0T and 8.0T do not ask for age and weight inside a program at all**: they take patient data - age, gender, weight and height - from a Set Up menu on the console instead.
+
+**The 4.0T 2025 owner's manual prints the same "Programmable Features" paragraph and the same
+calorie note as the 2026 book** in both its printings, and the 4.0T ST8700A service manual repeats it.
+**The 2013 XT485 owner's manual does what the 2010 XT685 does**: no paragraph of its own, but the
+calorie note repeated inside the preset, User, Calorie and Fusion setup steps wherever body weight is
+asked for, with the same sentence that entering the correct age affects the heart rate bar graph and
+the Heart Rate programs.

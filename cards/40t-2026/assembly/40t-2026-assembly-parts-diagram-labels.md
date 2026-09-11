@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-assembly-parts-diagram-labels
@@ -39,7 +38,10 @@ see_also:
 - ct900-treadmill-parts-diagram-labels
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: p. 9, PARTS OF YOUR TREADMILL
+  locator: 'p. 9, PARTS OF YOUR TREADMILL | 40t-2025 (spirit-treadmill-40t-2025-owners-manual):
+    PARTS OF YOUR TREADMILL, PDF p. 11 (printed 9); text.md lines 271-305; the May
+    2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing) prints
+    the same page at the same PDF page and lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +61,5 @@ source:
 **These letters are this machine's letters only.** The 7.0T and the 8.0T print
 their own diagrams with different parts against the same letters - on the 7.0T,
 for example, C is the Safety Key and D is the adjustable handrails.
+
+The **2025 printings** of this book - Revision 02.04.25 (`spirit-treadmill-40t-2025-owners-manual`) and Revision 05.19.25 (`spirit-treadmill-40t-2025-owners-manual-may-2025-printing`, the file misnamed "740881 - 70T") - print this page word for word; their assembly chapters are 99.6% the 2026 chapter at word level and the two 2025 printings are identical to each other.

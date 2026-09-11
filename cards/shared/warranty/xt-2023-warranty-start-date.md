@@ -22,9 +22,17 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ab900-2018
   - ab950-2024
   - cb900-2013
@@ -61,6 +69,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -206,6 +215,7 @@ source:
     line 1395, spirit-bike-xbr55-2023-owners-manual line 1928,
     spirit-bike-xbr95-2023-owners-manual line 1865, spirit-bike-xbu55-2023-owners-manual line
     1697
+    The same opening sentence, "from the date of retail sale, as determined by sale receipt, or in the absence of a sales receipt eighteen (18) months from the original factory shipping date", opens the six 2025 Spirit medical bike warranties, warranting "all its Recumbent Bike parts" or "all its Upright Bike parts": spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); the 2025 4.0T and 7.0T printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651); and, reading "from the date of sale, as determined by sale receipt", the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -365,3 +375,5 @@ Only the machine's name changes - *Treadmill*, *Elliptical*, *Recumbent Bike*, *
 **The effective date on the line above the sentence is not the manual's revision stamp**, and on five of the fourteen the two disagree: `spirit-2024-warranty-effective-dates`.
 
 **What follows the sentence is five different tables, not one.** Read the periods from `spirit-2024-treadmill-warranty-coverage-periods`, `spirit-2024-treadmill-ent-warranty-coverage-periods`, `spirit-2024-warranty-coverage-periods-parts-labor`, `cu800ent-2024-warranty-coverage-periods` or `spirit-2024-stair-climber-warranty-coverage-periods` - never from a sibling machine's card.
+
+**The 2025 Spirit medical bikes and the 2025 4.0T and 7.0T printings open with the same sentence**, the bikes warranting "all its Recumbent Bike parts" or "all its Upright Bike parts" (`spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year`). The CT850 2013 book says "from the date of sale" where the later books say "retail sale"; the eighteen-month fallback is the same.

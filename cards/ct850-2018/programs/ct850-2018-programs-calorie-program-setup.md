@@ -3,7 +3,8 @@ id: ct850-2018-programs-calorie-program-setup
 title: The Calorie program, where you set a calorie target and the console calculates
   the time
 kind: procedure
-question: How do I set up the Calorie program on a ct850-2018 treadmill?
+question: How do I set up the Calorie program on a Spirit ct850-2013 or ct850-2018
+  treadmill?
 asked_as:
 - how do i set a calorie goal on the treadmill
 - how do i make the treadmill burn a set number of calories
@@ -23,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: programs
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - xt-2015-programs-calorie-program-setup-xt485-xt685
@@ -40,7 +40,8 @@ see_also:
 - ct850-2018-programs-twelve-program-lineup
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: printed page 22, Calorie Program
+  locator: 'printed page 22, Calorie Program; CT850 2013: PDF p. 18 (printed 14),
+    OCR supplement lines 531-575'
   extracted_at: '2026-09-09'
 ---
 
@@ -76,3 +77,5 @@ Calorie program has its own defaults and its own warm-up, see
 
 For what the program actually does to speed and incline, see
 `ct850-2018-programs-calorie-strength-speed-incline-chart`.
+
+**The 2013 CT850 owner's manual - a scan with no text layer, read from the 300 dpi OCR and checked against the render - prints this page word for word**, all seven steps and the same three blinks of the Incline window.

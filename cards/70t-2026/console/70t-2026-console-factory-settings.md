@@ -26,6 +26,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -43,7 +44,10 @@ source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: p. 45, MACHINE CARE - CONTINUED - Factory and Acceleration Settings. MT200-2022
     service manual section 4.2.2 Factory and Acceleration Settings, PDF pp. 11-12
-    (printed 11-12), text.md lines 184-210
+    (printed 11-12), text.md lines 184-210. 7.0T 2025 owner's manual PDF p. 47 (printed
+    45), text.md lines 1447-1478. The 770885 re-export of the same MT8000 book (spirit-treadmill-70t-2026-service-manual,
+    MT8000-ST024-01 on the file, ST021-01 on its cover) prints this section at the
+    same PDF page and text.md lines; only its cover and component call-outs differ.
   extracted_at: '2026-09-09'
 ---
 
@@ -79,4 +83,6 @@ manuals too.
 **The MT200-2022 service manual prints the same entry sequence, the same eight prompts and the same
 defaults and ranges** as the two owner's manuals, including the "Passed" message after a successful
 grade calibration.
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
 

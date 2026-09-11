@@ -17,6 +17,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 80t-2026
   - ct800-2016
@@ -36,7 +37,9 @@ see_also:
 - ct900-army-pft-fitness-test
 source:
   ref: ct900-om
-  locator: p. 24
+  locator: 'p. 24; 4.0T 2025 (February printing): PDF p. 33 (printed 31); text.md
+    lines 867-898; 4.0T 2025 (May printing): PDF p. 33 (printed 31); text.md lines
+    867-898'
   extracted_at: '2026-08-24'
 ---
 
@@ -62,3 +65,5 @@ a picture**, so no values are recorded for that machine.
 2020 printed page 28, 2018 printed page 26). **The CT850ENT manual offers the test under the name
 Marine Corps and calls it a timed 3 mile run, but prints its table as a picture**, so no values are
 recorded for that machine.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

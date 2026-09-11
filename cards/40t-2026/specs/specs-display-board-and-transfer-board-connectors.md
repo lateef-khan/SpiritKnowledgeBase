@@ -41,10 +41,11 @@ see_also:
 - 40t-2026-specs-circuit-diagram
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF p. 20 (printed 20) 'PCB Board Bottom', text.md lines 268-296; PDF p.
-    21 'The console back cover transfer PCB board, Front of the board', lines 297-306;
-    PDF p. 22 'Behind the board', lines 307-314; OCR supplement lines 1104-1146; board
-    marking and J numbers read from the renders
+  locator: 'PDF p. 20 (printed 20) ''PCB Board Bottom'', text.md lines 268-296; PDF
+    p. 21 ''The console back cover transfer PCB board, Front of the board'', lines
+    297-306; PDF p. 22 ''Behind the board'', lines 307-314; OCR supplement lines 1104-1146;
+    board marking and J numbers read from the renders. ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    PDF pp. 21-23 (printed 20-22), text.md lines 299-345, the same three photographs'
   extracted_at: '2026-09-11'
 ---
 
@@ -69,3 +70,6 @@ carry no printed call-outs; the connector names below are the board's own silksc
 
 The CT900's transfer board (CS26002-1) uses different J numbers for the same jobs; do not read one board's
 J number against the other.
+
+The ST8700A-ST026-01 revision of the same book (spirit-treadmill-40t-2026-service-manual-st8700a) prints this page unchanged; only the product photographs in chapter 2 were replaced by the black Spirit-branded machine.
+

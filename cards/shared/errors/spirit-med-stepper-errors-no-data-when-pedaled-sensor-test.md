@@ -50,7 +50,12 @@ source:
     44) of the 7.5S 2025 manual and printed page 60 (PDF page 60) of the MS300 2021
     manual. Read from the native text layer and confirmed against a 300 dpi render
     of the 7.0S page; 7.5S (RS9600-SS021) service manual 5.2.3, "Program Starts But
-    No Watts Value When Stepper is Pedaled", PDF p. 15-16, text.md lines 152-165
+    No Watts Value When Stepper is Pedaled", PDF p. 15-16, text.md lines 152-165;
+    7.0S (RS9500-SS021-02) service manual 5.2.3 "Program Starts But No Watts Value
+    When Stepper is Pedaled", PDF p. 15-16, text.md lines 165-184; 7.5S (RS9600-SS021-03)
+    service manual 5.2.3 "Program Starts But No Watts Value When Stepper is Pedaled",
+    PDF p. 15-16, text.md lines 148-167 - the 7.5S RS9600-SS021-01 page unchanged
+    in both (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-10'
 ---
 

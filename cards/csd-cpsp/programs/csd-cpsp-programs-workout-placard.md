@@ -1,8 +1,10 @@
 ---
 id: csd-cpsp-programs-workout-placard
-title: The workout placard titled Chest / Shoulder Press, printed with no part number
+title: 'The workout placard titled Chest / Shoulder Press, whose part number #311010451
+  appears only in the May 2025 printing'
 kind: fact
-question: What exercise does the Spirit CSD-CPSP print on its workout placard, and what is the placard part number?
+question: What exercise does the Spirit CSD-CPSP print on its workout placard, and
+  what is the placard part number?
 asked_as:
 - what exercise is the chest and shoulder press machine for
 - what does the csd-cpsp sticker say
@@ -34,7 +36,11 @@ see_also:
 - spirit-strength-programs-exercise-instruction-is-the-machine-placard
 source:
   ref: spirit-strength-csd-cpsp-owners-manual
-  locator: The START WORKOUT page, printed page 23 (PDF page 24). Read from a 300 dpi render of the PDF page, because the placard is a flat image - the text layer of that page returns only the words START WORKOUT.
+  locator: 'The START WORKOUT page, printed page 23 (PDF page 24). Read from a 300
+    dpi render of the PDF page, because the placard is a flat image - the text layer
+    of that page returns only the words START WORKOUT.; CSD-CPSP May 2025 update:
+    PDF p. 24 (printed 23); text.md lines 341-352 and OCR supplement lines 1068-1081;
+    the part number line is native text, the placard read from a 110 dpi render'
   extracted_at: '2026-09-10'
 ---
 
@@ -53,3 +59,8 @@ so its absence here is the book's, not the extraction's.
 position in prose, no range of motion, no rep or set count and no warm-up. See
 `spirit-strength-programs-exercise-instruction-is-the-machine-placard` for what
 that means across the range.
+
+**The May 2025 update printing adds the part number the earlier book lacked.** Its START WORKOUT
+page prints "Placard Part number##311010451" - the doubled hash is printed - under the same
+two-panel CHEST / SHOULDER PRESS placard, whose CHEST PRESS panel also carries three numbered
+detail circles beside the START drawing. Everything else on the page is the same picture.

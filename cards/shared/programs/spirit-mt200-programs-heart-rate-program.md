@@ -24,6 +24,8 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
+  - 70t-2026
   - mt200-2010
   - mt200-2022
   section: programs
@@ -37,9 +39,10 @@ see_also:
 - spirit-2026t-programs-setup-uses-set-up-menu-data
 source:
   ref: spirit-treadmill-mt200-2010-owners-manual
-  locator: printed page 24, "Heart Rate Program operation", text.md lines 949-973;
-    the same procedure is on printed pages 42-43 of the 2022 owner's manual, text.md
-    lines 1424-1460
+  locator: 'printed page 24, "Heart Rate Program operation", text.md lines 949-973;
+    the same procedure is on printed pages 42-43 of the 2022 owner''s manual, text.md
+    lines 1424-1460; 7.0T 2025: PDF p. 41 (printed 39); text.md lines 1167-1202; 7.0T
+    2026 PDF p. 41 (printed 39), text.md lines 1158-1193'
   extracted_at: '2026-09-09'
 ---
 
@@ -68,5 +71,10 @@ offer fixed targets such as 55%, 65%, 75% and 85% of maximum heart rate, the MT2
 rate level directly. The age entered in Set Up is what the console's heart rate bar graph is scaled
 against.
 
-Both MT200 owner's manuals print these steps in the same words. The 7.0T owner's manual has no
-heart rate program section at all.
+Both MT200 owner's manuals print these steps in the same words.
+
+**The 7.0T owner's manuals print this page too.** The 7.0T 2025 book (Revision 01.10.25, PDF p. 41,
+printed 39) and the 7.0T 2026 book (PDF p. 41, printed 39) both carry "Heart Rate Program Operation"
+with these nine steps word for word, including the Facility-key save. An earlier version of this
+card said the 7.0T owner's manual had no such section; both books were re-read on 2026-09-11 and it
+is there.

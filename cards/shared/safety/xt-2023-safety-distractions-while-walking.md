@@ -2,7 +2,9 @@
 id: xt-2023-safety-distractions-while-walking
 title: Watching television or reading while walking on the treadmill
 kind: policy
-question: Can I watch television or read while walking on a 2010, 2015 or 2023 Spirit XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850 or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill?
+question: Can I watch television or read while walking on a 2010, 2015 or 2023 Spirit
+  XT treadmill (XT185, XT285, XT385, XT485, XT685), a Spirit CT800, CT800ENT, CT850
+  or CT850ENT treadmill, or a 2026 Spirit 4.0T treadmill?
 asked_as:
 - can i watch tv while on the treadmill
 - is it safe to read on a treadmill
@@ -22,11 +24,13 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800-2012
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -37,6 +41,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -54,7 +59,22 @@ see_also:
 - 80t-2026-safety-getting-on-and-off-the-treadmill
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print the same page on page 7. The five 2015 XT owner's manuals print it on their Important Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The 2026 4.0T owner's manual prints it on its OPERATION INSTRUCTIONS page, page 8 The four CT800 owner's manuals print it on their Important Operation Instructions page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850 owner's manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page 7. The XT685 2010 owner's manual prints it on its Important Operation Instructions page, PDF page 8 (printed 4)
+  locator: 'page 6, ELECTRICAL SAFETY; the XT285, XT385, XT485 and XT685 manuals print
+    the same page on page 7. The five 2015 XT owner''s manuals print it on their Important
+    Operation Instructions page (XT185/XT285/XT485 page 7, XT385/XT685 page 8). The
+    2026 4.0T owner''s manual prints it on its OPERATION INSTRUCTIONS page, page 8
+    The four CT800 owner''s manuals print it on their Important Operation Instructions
+    page - 2012 page 4, 2016 page 6, 2020 page 7, ENT-2022 page 7, and the four CT850
+    owner''s manuals on theirs - 2016 page 7, 2018 page 6, 2020 page 7, ENT-2022 page
+    7. The XT685 2010 owner''s manual prints it on its Important Operation Instructions
+    page, PDF page 8 (printed 4). The 2025 4.0T owner''s manual (revision 02.04.25,
+    version 2.1) prints the same page: OPERATION INSTRUCTIONS, PDF p. 10 (printed
+    8), lines 236-271 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing
+    (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013: IMPORTANT OPERATION INSTRUCTIONS,
+    PDF p. 6 (printed 5), lines 176-215, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Operation Instructions, PDF p. 8 (printed 4), OCR supplement
+    at lines 186-226, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -132,3 +152,7 @@ three machines and do not quote the word to a customer.
 **The Spirit XT685-2010 owner's manual prints the sentence with `walking`**, not the `pedaling`
 misprint the later CT800 and CT850 books carry. It is a request for caution, never a prohibition,
 and it names the same mechanism: a distraction costs you your balance.
+
+**The 2025 printing of the 4.0T manual prints the rule unchanged.** The Australian XT485-2013 and the
+CT850-2013 owner's manuals print it in the 2015 wording - `while walking on your treadmill` - on
+their Important Operation Instructions page.

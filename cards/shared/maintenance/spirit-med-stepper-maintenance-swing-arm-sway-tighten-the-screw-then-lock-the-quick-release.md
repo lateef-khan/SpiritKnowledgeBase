@@ -3,8 +3,8 @@ id: spirit-med-stepper-maintenance-swing-arm-sway-tighten-the-screw-then-lock-th
 title: 'A swing arm that sways: tighten its screw, then make sure the quick-release
   on the telescopic tube is locked'
 kind: troubleshooting
-question: Why does the swing arm or handlebar wobble on a Spirit 7.5S or 8.5S medical
-  stepper, and how do I stop it?
+question: Why does the swing arm or handlebar wobble on a Spirit 7.0S, 7.5S or 8.5S
+  medical stepper, and how do I stop it?
 asked_as:
 - handlebar wobbles on my 8.5s
 - swing arm shakes when i step on the 7.5s
@@ -28,6 +28,8 @@ facets:
   model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   - 85s-2025
   section: maintenance
   code: '*'
@@ -41,11 +43,15 @@ see_also:
 - spirit-85s-maintenance-pedals-and-front-and-rear-stabiliser-pads
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 7. Trouble Shooting, 7.2 Sway of Swing Arm, items 7.2.1 and 7.2.2, PDF
+  locator: '7. Trouble Shooting, 7.2 Sway of Swing Arm, items 7.2.1 and 7.2.2, PDF
     p. 44 (no folios), text.md lines 570-585, figures 7.2.1 and 7.2.2; the quick release
     lever is parts-list item 65, PDF p. 49, line 691. spirit-stepper-85s-2025-service-manual
     7. Troubleshooting, 7-2 Handlebar Wobble, items 1 and 2, PDF p. 40 (no folios),
-    lines 563-577, figures 7.2.1 and 7.2.2.
+    lines 563-577, figures 7.2.1 and 7.2.2. Two 2025 Spirit stepper service manuals
+    were added on 2026-09-11 and print 7.2.1 and 7.2.2 word for word with the 7.5S
+    -01 book: spirit-stepper-70s-2025-service-manual 7.2 Sway of Swing Arm, PDF p.
+    44 (no folios), text.md lines 583-599, figures 7.2.1 and 7.2.2; spirit-stepper-75s-2025-service-manual
+    7.2, PDF p. 45, lines 583-599.'
   extracted_at: '2026-09-11'
 ---
 
@@ -68,3 +74,8 @@ No torque and no wrench size are printed for the screw. Removing the swing arm a
 nuts (`spirit-med-stepper-errors-seat-will-not-lock-thumb-nuts`), and an unstable *swivel* seat on the CRS800S is a
 wheel-plate adjustment (`crs800s-2021-maintenance-swivel-seat-unstable-seat-wheel-adjustment-plate-11-mm-and-13-mm-wrenches`).
 
+## The 2025 7.0S and 7.5S service manuals print the 7.5S column word for word
+
+The **7.0S 2025** and **7.5S 2025** books carry 7.2.1 "lock the screw" and 7.2.2 "check whether the quick release
+telescopic tube adjustment [is] to the locking position" exactly as the 7.5S -01 book does, with the same two
+figures. Nothing is added and no torque appears.

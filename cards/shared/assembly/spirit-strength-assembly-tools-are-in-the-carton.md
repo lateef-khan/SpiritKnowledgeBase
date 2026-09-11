@@ -1,13 +1,12 @@
 ---
 id: spirit-strength-assembly-tools-are-in-the-carton
-title: >-
-  The tools are in the carton and come out of the hardware pack before anything else
+title: The tools are in the carton and come out of the hardware pack before anything
+  else
 kind: fact
-question: >-
-  Are the assembly tools supplied with a Spirit commercial strength machine? Covers the
-  Spirit CSD ab/back, biceps/triceps, chest press/shoulder press, inner thigh/outer thigh,
-  leg press/calf and pull-up/dip stations, the CSF bench range and both CSI i-Strength
-  machines.
+question: Are the assembly tools supplied with a Spirit commercial strength machine?
+  Covers the Spirit CSD ab/back, biceps/triceps, chest press/shoulder press, inner
+  thigh/outer thigh, leg press/calf and pull-up/dip stations, the CSF bench range
+  and both CSI i-Strength machines.
 asked_as:
 - are the tools included with this machine
 - do i need my own tools to assemble it
@@ -51,13 +50,14 @@ see_also:
 - spirit-strength-assembly-hardware-split-into-four-steps
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: >-
-    printed p. 10 (PDF p. 11) of the CSD Ab/Back Extension manual, ASSEMBLY & SETUP;
-    word for word on the CSD biceps/triceps, chest press/shoulder press, inner
-    thigh/outer thigh, leg press/calf and pull-up/dip manuals, on all five CSF bench
-    manuals and on both CSI manuals, where the NOTE adds the professional-tools sentence
-    - confirmed against a 300 dpi render of PDF p. 11 on the CSD ab/back bench, the CSF
-    ab/back bench and the i-Strength chest press
+  locator: printed p. 10 (PDF p. 11) of the CSD Ab/Back Extension manual, ASSEMBLY
+    & SETUP; word for word on the CSD biceps/triceps, chest press/shoulder press,
+    inner thigh/outer thigh, leg press/calf and pull-up/dip manuals, on all five CSF
+    bench manuals and on both CSI manuals, where the NOTE adds the professional-tools
+    sentence - confirmed against a 300 dpi render of PDF p. 11 on the CSD ab/back
+    bench, the CSF ab/back bench and the i-Strength chest press | csd-cpsp February
+    2024 book only; the May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update)
+    reverses it, PDF p. 11 (printed 10), text.md lines 236-241
   extracted_at: '2026-09-10'
 ---
 
@@ -80,3 +80,7 @@ Every CSS selectorized station, three of the CSD dual stations and the CSF funct
 trainer say the tools are **not** in the packaging and name three you must supply. Do not
 carry this card onto them - see
 [the supply-your-own card](spirit-strength-assembly-three-tools-you-must-supply.md).
+
+## The chest press / shoulder press says the opposite from May 2025
+
+**The CSD-CPSP's May 2025 update (4601US, 20250521) replaces this sentence with the NOT-included NOTE** and asks for an Allen wrench set, a Phillips screwdriver and C-ring pliers. The February 2024 printing is the one this card describes. Same machine, two printings, two answers; see the supply-your-own card for the 2025 wording.

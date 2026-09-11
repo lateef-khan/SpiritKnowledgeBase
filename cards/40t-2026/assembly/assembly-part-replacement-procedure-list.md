@@ -44,8 +44,11 @@ see_also:
 - ct850-2016-speed-sensor-replacement
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Table of contents PDF p. 2 (text.md lines 10-34) and chapter 9 "Disassembling
+  locator: 'Table of contents PDF p. 2 (text.md lines 10-34) and chapter 9 "Disassembling
     and assembling of Parts", PDF pp. 39-54 (printed 50-65); text.md lines 689-873
+    | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    table of contents PDF p. 2 (lines 11-35) and chapter 9, PDF pp. 40-55, PDF pp.
+    40-55; text.md lines 758-946'
   extracted_at: '2026-09-11'
 ---
 
@@ -76,3 +79,4 @@ procedure sends you to "step 11.3 (5)" for belt tension, and **there is no secti
 Neither a torque value nor a tool list is printed inside this chapter. The "Prepare tools" page in the
 troubleshooting chapter is a separate list.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

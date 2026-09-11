@@ -4,7 +4,8 @@ title: 'Replacing the recumbent stepper linkages: lower linkage, handle bar link
   and upper linkage each come off on one screw, refitted in the order removed'
 kind: procedure
 question: How do I replace the lower linkage, the handle bar linkage or the upper
-  linkage on a Spirit 7-5s-med (7.5S) recumbent stepper?
+  linkage on a Spirit 7.5S (2021 or 2025 book) or 7.0S 2025 rehabilitation recumbent
+  stepper?
 asked_as:
 - linkage replacement 7.5s stepper
 - arm link rod spirit medical stepper
@@ -21,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -34,8 +37,12 @@ see_also:
 - 85s-2025-assembly-lower-linkage-a-and-b-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.6 Lower Linkage/ Handle Bar Linkage/ Upper Linkage Replacement, PDF pp.
-    30-31; text.md lines 342-371
+  locator: '6.6 Lower Linkage/ Handle Bar Linkage/ Upper Linkage Replacement, PDF
+    pp. 30-31; text.md lines 342-371 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.6 Lower Linkage/ Handle Bar Linkage/ Upper Linkage Replacement, PDF pp. 30-31;
+    text.md lines 360-388 | 75s-2025 (spirit-stepper-75s-2025-service-manual): 6.6
+    Lower Linkage/ Handle Bar Linkage/ Upper Linkage Replacement, PDF pp. 30-31; text.md
+    lines 343-371'
   extracted_at: '2026-09-11'
 ---
 
@@ -56,3 +63,4 @@ lengthens as you go up. No screw sizes are printed. The parts list names **Lower
 Linkage B (2)** and a **Lower Linkage (2)**; the procedure does not say which of them "lower linkage" is. The 8.5S
 book replaces its lower linkage, A and B in a separate procedure.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included.

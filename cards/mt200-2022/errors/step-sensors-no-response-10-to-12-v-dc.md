@@ -36,7 +36,13 @@ see_also:
 source:
   ref: spirit-treadmill-mt200-2022-service-manual
   locator: 7.0T (MT200 2022) service manual 5. Troubleshooting and Problem solving,
-    item 4 Step sensors, PDF p. 22, text.md lines 433-448 The February 2026 export of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual, and prints this page unchanged.
+    item 4 Step sensors, PDF p. 22, text.md lines 433-448 The February 2026 export
+    of the same book is titled 7.0T-770885 (MT8000-ST021-01), spirit-treadmill-70t-2026-service-manual,
+    and prints this page unchanged; the 7.0T-770885 export of the same book (spirit-treadmill-70t-2026-service-manual,
+    "MT8000-ST021-01" on its cover, February 2026) prints this page identically at
+    the same PDF page, text.md lines 28 higher from line 52 on (99.7% at word level;
+    only the cover, the component-description callouts and the parts-list heading
+    differ)
   extracted_at: '2026-09-11'
 ---
 

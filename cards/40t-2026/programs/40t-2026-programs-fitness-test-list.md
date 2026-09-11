@@ -24,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -40,7 +39,9 @@ see_also:
 - ct900-fitness-test-overview
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: pages 27-28, VO2 Test
+  locator: 'pages 27-28, VO2 Test; 4.0T 2025 (February printing): PDF p. 28 (printed
+    26); text.md lines 726-764; 4.0T 2025 (May printing): PDF p. 28 (printed 26);
+    text.md lines 726-764'
   extracted_at: '2026-09-09'
 ---
 
@@ -66,3 +67,5 @@ Both are recorded as printed.*
 
 At the end of the test a VO2 score is displayed. VO2 stands for Volume of Oxygen uptake, a measurement
 of how much oxygen you need to perform a known amount of work.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

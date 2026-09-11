@@ -1,6 +1,7 @@
 ---
 id: spirit-bike-programs-vo2max-score-charts
-title: The VO2max score charts band excellent to very poor by age, with separate tables for the two workload groups
+title: The VO2max score charts band excellent to very poor by age, with separate tables
+  for the two workload groups
 kind: spec
 question: What does my VO2max score mean on a Spirit commercial bike?
 asked_as:
@@ -24,6 +25,15 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70u-2025
+  - 80u-2025
+  - 85r-2025
   - cr800-2021
   - cr800-2023
   - cr900-2018
@@ -40,7 +50,17 @@ see_also:
 - spirit-bike-programs-fitness-test-workload-charts
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CR800 2021 printed p. 27; CU800 2021 p. 26; CR800 2023 p. 27; CR900 2018 p. 25 (OCR supplement, PDF p. 27); CU900 2018 p. 24 (PDF p. 26); CR900 2025 p. 24; CU900 2025 p. 23'
+  locator: 'CR800 2021 printed p. 27; CU800 2021 p. 26; CR800 2023 p. 27; CR900 2018
+    p. 25 (OCR supplement, PDF p. 27); CU900 2018 p. 24 (PDF p. 26); CR900 2025 p.
+    24; CU900 2025 p. 23; 4.0R 2025: PDF p. 27 (printed 25); text.md lines 743-749;
+    4.0U 2025: PDF p. 27 (printed 25); text.md lines 700-706; PT 4.0 R: PDF p. 44
+    (printed 44); text.md lines 1334-1398; PT 4.0 U: PDF p. 42 (printed 42); text.md
+    lines 1302-1366; 7.0R 2025: PDF p. 37 (printed 35); text.md lines 1028-1034; 7.0U
+    2025: PDF p. 35 (printed 33); text.md lines 991-997; MED 7.0R 2021: PDF p. 52
+    (printed 52); text.md lines 1699-1772; 8.0U 2025: PDF p. 45 (printed 43); text.md
+    lines 1194-1204; 8.5R 2025: PDF p. 50 (printed 48); text.md lines 1360-1370; the
+    2025 pages are pictures, read from 150 dpi renders of 4.0R PDF p. 27 and 8.0U
+    PDF p. 45'
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +102,10 @@ the table above.
 a flat picture that OCR did not read. The CU800ENT 2022, CR800ENT 2023, CR900ENT and CU900ENT also
 print the two headings with the tables as pictures. The CU800 2012's score page is an image in both
 scans.
+
+**All nine Spirit medical bike books print both tables value for value as above.** The Dyaco PT 4.0 R
+and 4.0 U editions and the MED 7.0R 2021 edition print them as native text; the 4.0R, 4.0U, 7.0R, 7.0U,
+8.0U and 8.5R 2025 books print them as pictures. **On the 2025 pages the OCR supplement in `text.md`
+is upside-down garbage** - the render sweep scored the wrong rotation - although the printed page is
+upright and every figure on it matches the tables above. The touchscreen books head the page "The
+test score (VO2max) as shown in the chart".

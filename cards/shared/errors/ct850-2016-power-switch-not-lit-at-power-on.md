@@ -49,7 +49,7 @@ see_also:
 - ct850-2020-popping-sound-at-power-on
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 8.3 Troubleshooting procedure matrix, pages 49-52 of the CT850
+  locator: 'Section 8.3 Troubleshooting procedure matrix, pages 49-52 of the CT850
     2016 manual (printed 48-51); the same row is section 8-7, pages 47-51 of the CT850
     2020 manual (printed 46-50); the service manuals of the machines added on 2026-09-11
     print the row word for word - XT185 2023 service manual Troubleshooting procedure
@@ -68,7 +68,11 @@ source:
     lines 685-791; CT850ENT 2022 service manual 8-6 Troubleshooting procedure matrix,
     PDF p. 37-39, text.md lines 704-810; CT900ENT service manual Troubleshooting procedure
     matrix, PDF p. 45-48, text.md lines 691-842; 4.0T 2026 service manual Condition
-    / Reason / Solve matrix, PDF p. 36-38 (printed 47-49), text.md lines 566-689
+    / Reason / Solve matrix, PDF p. 36-38 (printed 47-49), text.md lines 566-689;
+    the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Condition / Reason / Solve matrix at PDF p. 37-39
+    (printed 47-49), text.md lines 635-758'
   extracted_at: '2026-09-08'
 ---
 

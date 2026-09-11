@@ -2,7 +2,8 @@
 id: xt-2015-console-muscle-activation-figure
 title: The anatomical muscle activation figure and what its colours mean
 kind: fact
-question: What is the lit up body figure at the top of the console on a Spirit XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: What is the lit up body figure at the top of the console on a Spirit XT385-2015,
+  XT485-2015 or XT685-2015 treadmill?
 asked_as:
 - what is the little person on my treadmill display
 - why are the leg muscles lighting up red
@@ -26,6 +27,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -39,7 +41,8 @@ see_also:
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
   locator: CONSOLE / Muscle Activation Figure, pp. 19-20; the XT485-2015 and XT685-2015
-    manuals print the same paragraph and bullets on their pp. 18-19
+    manuals print the same paragraph and bullets on their pp. 18-19. XT485 2013 OM
+    MUSCLE ACTIVATION FIGURE, PDF p. 14 (printed 13), text.md lines 421-437
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +67,6 @@ a different reading - see `xt-2015-console-heart-rate-percent-profile`.
 
 **The XT685 2010 owner's manual prints the same paragraph, the same two bullets and the same two
 elevation bands on its p. 16**, so this card covers that machine.
+
+**The XT485 2013 owner's manual prints the same paragraph, the same two bullets and the same two elevation bands on its printed p. 13**, so this card covers that machine; its console drawing labels the figure MUSCLE PROFILE.
+

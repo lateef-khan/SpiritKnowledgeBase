@@ -1,8 +1,10 @@
 ---
 id: spirit-bike-programs-heart-rate-monitor-without-a-heart-rate-program
-title: The pulse readout works in any program, and the manuals disagree on what a heart rate program adjusts
+title: The pulse readout works in any program, and the manuals disagree on what a
+  heart rate program adjusts
 kind: fact
-question: Can I see my heart rate on a Spirit bike or air bike without running a heart rate program?
+question: Can I see my heart rate on a Spirit bike or air bike without running a heart
+  rate program?
 asked_as:
 - can i see my pulse without the heart rate program on the bike
 - does the bike show heart rate in manual mode
@@ -21,6 +23,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ab950-2024
   - cr800-2021
   - cr800-2023
@@ -54,7 +60,18 @@ see_also:
 - spirit-bike-programs-five-presets-of-which-four-are-described
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CR800 2021 printed p. 30; CU800 2021 p. 29; CR800 2023 p. 30; CU800ENT 2022 p. 36; CR800ENT 2023 p. 36; CU800ENT 2024 p. 45; CR900 2025 p. 29; CU900 2025 p. 28; CU800 2012 p. 22 (scan 1 PDF p. 24); AB950 2024 p. 22; XBR95 2016/2018/2021 printed p. 30; XBR25 2019 p. 23; XBR55 2019/2021 p. 27; XBU55 2019/2021 p. 27; XBR55ENT/XBU55ENT 2021 p. 39; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25; service manuals: CR800 (2020) 4-2-5 HEART RATE WINDOW PDF p. 14 (printed 13), text.md lines 218-222; CU800 (2020) p. 14 (printed 13), lines 238-242; CR800ENT 2023 HEART RATE FEATURE p. 13, lines 195-198; CU800ENT 2022 p. 13, lines 188-191; XBR95 2023 (XR829A-SB032) PULSE GRIP FEATURE p. 7, lines 129-132'
+  locator: 'CR800 2021 printed p. 30; CU800 2021 p. 29; CR800 2023 p. 30; CU800ENT
+    2022 p. 36; CR800ENT 2023 p. 36; CU800ENT 2024 p. 45; CR900 2025 p. 29; CU900
+    2025 p. 28; CU800 2012 p. 22 (scan 1 PDF p. 24); AB950 2024 p. 22; XBR95 2016/2018/2021
+    printed p. 30; XBR25 2019 p. 23; XBR55 2019/2021 p. 27; XBU55 2019/2021 p. 27;
+    XBR55ENT/XBU55ENT 2021 p. 39; XBR95 2023 p. 24; XBR55/XBU55 2023 p. 25; service
+    manuals: CR800 (2020) 4-2-5 HEART RATE WINDOW PDF p. 14 (printed 13), text.md
+    lines 218-222; CU800 (2020) p. 14 (printed 13), lines 238-242; CR800ENT 2023 HEART
+    RATE FEATURE p. 13, lines 195-198; CU800ENT 2022 p. 13, lines 188-191; XBR95 2023
+    (XR829A-SB032) PULSE GRIP FEATURE p. 7, lines 129-132; 4.0R 2025: PDF p. 33 (printed
+    31); text.md lines 909-944; 4.0U 2025: PDF p. 33 (printed 31); text.md lines 863-898;
+    PT 4.0 R: PDF p. 48 (printed 48); text.md lines 1496-1533; PT 4.0 U: PDF p. 46
+    (printed 46); text.md lines 1464-1501'
   extracted_at: '2026-09-09'
 ---
 
@@ -116,3 +133,12 @@ also pick up wireless heart rate transmitters" - a carry-over from the recumbent
 
 **The XBR25 2023 prints the grip lockout sentence but has no heart rate program to be locked out
 of** - see `spirit-bike-programs-a-bike-manual-with-a-pulse-readout-but-no-heart-rate-program`.
+
+**The 4.0R and 4.0U medical bikes add two more rows to the table above.** Their 2025 books say "With
+all Spirit Fitness Recumbent Bikes you may use the heart rate monitor feature without using the Heart
+Rate program" - the 4.0U, an upright, says Recumbent too - and close with the treadmill boilerplate
+"the machine will automatically adjust speed or incline". Their Dyaco PT 4.0 R and 4.0 U editions say
+"With all Heart Rate programs you may use the heart rate monitor feature without using the Heart Rate
+program. This function can be used during manual mode or during any other different programs. The
+heart rate program automatically controls resistance at the pedals" - the sentence that fits a bike,
+and no count of programs.

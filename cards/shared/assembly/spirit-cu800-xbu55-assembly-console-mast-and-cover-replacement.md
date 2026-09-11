@@ -4,7 +4,7 @@ title: 'Replacing the upright console mast and its cover: pop the cover off the 
   covers, then seven 5/16 x 5/8 bolts with six flat washers and one curved washer'
 kind: procedure
 question: How do I replace the console mast or the console mast cover on a Spirit
-  CU800, CU800ENT or XBU55 upright bike?
+  CU800, CU800ENT, XBU55 or Spirit Medical 4.0U upright bike?
 asked_as:
 - console mast replacement spirit cu800
 - how many bolts hold the mast on the xbu55
@@ -24,6 +24,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40u-2025
   - cu800-2021
   - cu800ent-2022
   - xbu55-2016
@@ -43,7 +44,9 @@ source:
     40; text.md lines 573-592 | cu800ent-2022: 8-3 Main Frame and Console Mast Cover
     Replacement, PDF p. 38; text.md lines 555-585 | xbu55-2016: 9-3 Main Frame and
     Console Mast Cover, PDF p. 46; text.md lines 687-705 | xbu55-2023: 9.3 Replacing
-    the Console Mast Cover, PDF p. 19; text.md lines 380-398'
+    the Console Mast Cover, PDF p. 19; text.md lines 380-398 | 40u-2025 (spirit-bike-40u-2025-service-manual):
+    9-3 Console Mast and Console Mast Cover Replacement, PDF pp. 36-37 (printed 33-34);
+    text.md lines 486-503'
   extracted_at: '2026-09-11'
 ---
 
@@ -56,3 +59,5 @@ source:
 **The washer dimensions are printed inconsistently for the same part numbers.** Flat washer (72) is 5/16" x 19 mm x 1.5T here and 5/16" x 18 mm x 1.5T in the handlebar procedure of the same CU800 book; the XBU55 books print 18 mm. Washer (99) is printed as a **split washer** in the CU800 removal step, a **curved washer** in its refit step, and a **5/16" x 19 x 1.5T curved washer** in the XBU55 books. The part numbers, counts and wrench are the same in all four books; the mismatched dimensions are printing variance.
 
 **No bolt torque is printed.** The owner's manual assembly card for these machines is separate; this is the service-manual removal.
+
+**The Spirit Medical 4.0U (FU800-SB022-03 book) prints the same seven bolts, six flat washers and one curved washer on a "12 wrench"**, in the XBU55 wording ("slightly press the console mast cover to separate it from left and right chain covers"), with the washer as 5/16" x 18 mm x 1.5T flat and 5/16" x 19 x 1.5T curved in both steps. Its step 1 reads "Take apart the Console and Handle Bar" and its step 3 ends "**and the Handle Bar can be released**" where every other book says the console mast - a slip; the figure and the refit step are the console mast. It prints no part numbers in this chapter.

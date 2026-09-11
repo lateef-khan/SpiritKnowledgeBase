@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 80t-2026
   section: programs
@@ -38,7 +39,9 @@ see_also:
 - ct900-wfi-protocol
 source:
   ref: spirit-treadmill-80t-2026-owners-manual
-  locator: 'page 45, Programs Preset - WFI (4.0T manual: page 31)'
+  locator: 'page 45, Programs Preset - WFI (4.0T manual: page 31); 4.0T 2025 (February
+    printing): PDF p. 32 (printed 30); text.md lines 835-867; 4.0T 2025 (May printing):
+    PDF p. 32 (printed 30); text.md lines 835-867'
   extracted_at: '2026-09-09'
 ---
 
@@ -54,3 +57,5 @@ they differ. The 7.0T has no WFI test at all.
 
 *The 4.0T manual immediately follows this paragraph with an unrelated 18-minute "Program Speed and Incline
 Chart", which contradicts the sentence above - see `40t-2026-programs-wfi-speed-incline-chart`.*
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

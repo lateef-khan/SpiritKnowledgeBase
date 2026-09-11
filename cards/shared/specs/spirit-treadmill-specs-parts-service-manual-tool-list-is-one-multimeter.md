@@ -24,7 +24,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
   - 40t-2026
+  - 40u-2025
   - ce1000ent-2023
   - ce800-2021
   - ce850-2016
@@ -96,6 +98,8 @@ see_also:
 - spirit-climber-specs-parts-service-manual-tool-list-six-tools
 - 85s-2025-specs-parts-required-maintenance-tools-eighteen
 - 7-5s-med-specs-parts-list
+- 80t-2026-specs-parts-required-maintenance-tools-seventeen
+- spirit-med-stepper-70s-specs-parts-list-items-1-to-263
 source:
   ref: spirit-treadmill-ct800-2020-service-manual
   locator: 'Representative: 8-2 Prepare tools, PDF p. 37 (printed 36), text.md lines
@@ -119,11 +123,11 @@ source:
     PDF p. 20 (printed 20), lines 320-341; spirit-treadmill-xt485ent-2023-service-manual
     PDF p. 33 (printed 33), lines 449-473; spirit-treadmill-xt685-2023-service-manual
     PDF p. 19 (printed 19), lines 353-376; spirit-treadmill-xt685ent-2023-service-manual
-    PDF p. 19 (printed 19), lines 315-336. Rowers and steppers, the same one-line list: spirit-rower-crw800-2021-service-manual 7-2 Prepare tools PDF p. 32 (printed 31), lines 426-437; spirit-rower-crw800-2016-service-manual Preparation Tool PDF p. 31, lines 399-415; spirit-rower-xrw600-2019-service-manual Preparation Tool PDF p. 31, lines 390-406; spirit-rower-cr1000ent-2023-service-manual 7.3 Tools Required PDF p. 12, lines 239-269; spirit-stepper-cs800-2016-service-manual Prepare PDF p. 32, lines 454-475; spirit-stepper-cs800-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 373-389; spirit-stepper-xs895-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 360-377. Searched for a tool list and found none: spirit-stepper-crs800s-2021-service-manual (42 pp.), spirit-rower-crw900-2021-service-manual (19 pp.), spirit-stepper-7-5s-med-service-manual (56 pp.), spirit-strength-i-strength-resistance-module-maintenance-manual (27 pp.)'
+    PDF p. 19 (printed 19), lines 315-336. Rowers and steppers, the same one-line list: spirit-rower-crw800-2021-service-manual 7-2 Prepare tools PDF p. 32 (printed 31), lines 426-437; spirit-rower-crw800-2016-service-manual Preparation Tool PDF p. 31, lines 399-415; spirit-rower-xrw600-2019-service-manual Preparation Tool PDF p. 31, lines 390-406; spirit-rower-cr1000ent-2023-service-manual 7.3 Tools Required PDF p. 12, lines 239-269; spirit-stepper-cs800-2016-service-manual Prepare PDF p. 32, lines 454-475; spirit-stepper-cs800-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 373-389; spirit-stepper-xs895-2021-service-manual 7-2 Prepare tools PDF p. 26 (printed 25), lines 360-377. Searched for a tool list and found none: spirit-stepper-crs800s-2021-service-manual (42 pp.), spirit-rower-crw900-2021-service-manual (19 pp.), spirit-stepper-7-5s-med-service-manual (56 pp.), spirit-strength-i-strength-resistance-module-maintenance-manual (27 pp.) The 2025 medical bike books, the same Prepare block under the EEPROM ERR table: spirit-bike-40r-2025-service-manual 8-1 Error code items, PDF p. 28 (printed 28), text.md lines 305-330; spirit-bike-40u-2025-service-manual 8-1, PDF p. 28 (printed 25), lines 337-360. The ST8700A revision of the 4.0T book, spirit-treadmill-40t-2026-service-manual-st8700a, prints the same block on PDF p. 29 (printed 29), lines 425-443. Searched for a tool list and found none, in native text and OCR supplements: spirit-bike-70r-2025-service-manual (46 pp.), spirit-bike-70u-2025-service-manual (43 pp.), spirit-stepper-70s-2025-service-manual (57 pp.), spirit-stepper-75s-2025-service-manual (57 pp.), spirit-treadmill-70t-2026-service-manual (53 pp., the MT8000 export).'
   extracted_at: '2026-09-11'
 ---
 
-**Fifty-seven Spirit service manuals - twenty-one treadmill, fifteen bike, fourteen elliptical, three rower, four stepper - name exactly one tool, and it is the same one: a multi-meter.** Each book prints it once, at the head of its error-message chapter, and prints no other tool list anywhere - no wrench sizes, no torque tool, no crank puller, no tension gauge, though the replacement chapters call for them. The wording moves between three layouts and the fact does not. The tables below are per product line; each row is that book's own page.
+**Fifty-nine Spirit service manuals - twenty-one treadmill, seventeen bike, fourteen elliptical, three rower, four stepper - name exactly one tool, and it is the same one: a multi-meter.** Each book prints it once, at the head of its error-message chapter, and prints no other tool list anywhere - no wrench sizes, no torque tool, no crank puller, no tension gauge, though the replacement chapters call for them. The wording moves between three layouts and the fact does not. The tables below are per product line; each row is that book's own page.
 
 ## Treadmills
 
@@ -163,7 +167,7 @@ The `8-2 Prepare tools` pages and the `Prepare:` blocks set the tool out as a Pi
 
 ## Bikes
 
-**Fourteen Spirit bike service manuals name exactly one tool, and it is the same one: a multi-meter.** Each
+**Sixteen Spirit bike service manuals name exactly one tool, and it is the same one: a multi-meter.** Each
 prints it once, at the head of its error-message chapter, and prints no other tool list anywhere - no wrench
 sizes, no crank puller, no tension gauge, though the replacement steps call for all three. The wording moves
 between three layouts and the fact does not:
@@ -184,13 +188,15 @@ between three layouts and the fact does not:
 | xbu55ent-2021 | Prepare: Picture / Tool name / Multi-meter, under the error-code table | PDF p. 23 (printed 23), lines 243-264 |
 | xbr55-2023 | Tools Required: A multi-meter. | PDF p. 12 (printed 12 of 30), lines 212-228 |
 | xbu55-2023 | Tools Required: A multi-meter. | PDF p. 12 (printed 12 of 26), lines 209-225 |
+| 40r-2025 (FR800-SB022-03, medical) | Prepare: Picture / Tool name / Multi-meter, under the EEPROM ERR table | PDF p. 28 (printed 28), lines 305-330 |
+| 40u-2025 (FU800-SB022-03, medical) | Prepare: Picture / Tool name / Multi-meter, under the EEPROM ERR table | PDF p. 28 (printed 25), lines 337-360 |
 
 The `Prepare:` blocks set the tool out as a Picture column and a Tool name column with a photograph of a
 hand-held digital multi-meter; the `7-2 Prepare tools` pages of the two "(2020)" books are the photograph
 and its caption alone; the `Tools Required` line of the 2023 books is one sentence under the error-code
-table. None of the fourteen adds a second row.
+table. None of the sixteen adds a second row.
 
-**Nine bike books in the same folders print no tool list at all**, and the absence was checked in both the
+**Eleven bike books in the same folders print no tool list at all**, and the absence was checked in both the
 native text and the OCR supplements:
 
 | Book | What it prints instead |
@@ -203,6 +209,7 @@ native text and the OCR supplements:
 | JB950 2022 | nothing - the seven-tool list for this bike is in its owner's manual (`jb950-2022-maintenance-tool-list-seven-tools`) |
 | XBR95 (XR829A) 2023 | nothing - alone among the three 2023 residential books |
 | XBR25 / XBR55 dealer manual 2008 | "Test adapter for DC voltage using volt meter" inside procedure 1, and the four or five wrenches and drivers packed with the bike as rows in its parts lists (`xbr25-2007-specs-parts-list`, `xbr55-2007-specs-parts-list`) |
+| 7.0R (MR490-SB018-03) and 7.0U (MU470-SB018) 2025 medical | nothing - "Use meter to check the sensor" inside the speed-sensor check, 13 mm and 11 mm wrenches inside the crank step, and the packed wrenches and drivers as rows in their parts lists (`70r-2025-specs-parts-list`, `70u-2025-specs-parts-list`) |
 
 **What the multi-meter is for is stated on the pages that follow, not on this one** - DC volts on the gear
 motor wire (+5 to 6 V on Level Up, -5 to 6 V on Level Down) in the tension-motor books, output voltage and
@@ -287,7 +294,8 @@ OCR supplement:
 |---|---|
 | CRS800S 2020 ver. | nothing - "Put multi-meter to the 20VDC setting" inside the tension-motor test, and "Adjustment tool: Phillips Head Screw Driver, 11mm open-end wrench, 13mm open-end wrench" inside the swivel-seat procedure |
 | CRW900 water rower | nothing - nineteen pages of speed-sensor, handle-belt and lubrication guidance with no tool named as a list |
-| 7.5S (RS9600-SS021-01) | nothing as a list - the seven tools packed with the machine are rows 208-214 and 242 of its parts list (`7-5s-med-specs-parts-list`) |
+| 7.5S (RS9600-SS021-01, and the -03 revision of 2025) | nothing as a list - the seven tools packed with the machine are rows 208-214 and 242 of its parts list (`7-5s-med-specs-parts-list`) |
+| 7.0S (RS9500-SS021-02) 2025 | nothing as a list - "Use an ohm meter" inside the cable check, and the seven packed tools as rows 209-214 and 242 of its parts list (`spirit-med-stepper-70s-specs-parts-list-items-1-to-263`) |
 | i-Strength Digital Resistance Module | nothing as a list - a Phillips screwdriver, 6 mm and 4 mm hex wrenches and circlip pliers are named inside its disassembly steps |
 
 **Four books in the same folders print a longer list, and they are not Dyaco-format books.**
@@ -295,5 +303,11 @@ The CSC880 and both CSC900 stair climber manuals open with six captioned photogr
 screwdriver, socket head wrench, Clyburn spanner, pliers, multi-meter, electric soldering iron
 (`spirit-climber-specs-parts-service-manual-tool-list-six-tools`) - and the 8.5S medical stepper
 manual prints an eighteen-row *List of Required Maintenance Tools*
-(`85s-2025-specs-parts-required-maintenance-tools-eighteen`). Those are the only Spirit service
+(`85s-2025-specs-parts-required-maintenance-tools-eighteen`) - **as do the 8.0U, 8.5R and 8.5UE
+books of the same 2025 template, and the 8.0T treadmill book with seventeen rows**
+(`80t-2026-specs-parts-required-maintenance-tools-seventeen`). Those are the only Spirit service
 manuals in this knowledge base that name more than one tool.
+
+## The 2025-2026 medical books
+
+**The 4.0R and 4.0U (FR800 / FU800) medical bike service manuals print the one-multimeter Prepare block** under their EEPROM ERR table, and the ST8700A revision of the 4.0T treadmill book prints it unchanged from the ST8700 book. **The 7.0R, 7.0U, 7.0S and 7.5S (-03) books and the February 2026 MT8000 export of the 7.0T book print no tool list at all**, in either their text or their renders; the 8.0U, 8.5R, 8.5UE and 8.0T books are the eighteen- and seventeen-row lists above.

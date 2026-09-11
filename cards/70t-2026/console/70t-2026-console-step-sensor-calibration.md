@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -39,7 +40,11 @@ see_also:
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: p. 44, MACHINE CARE - CONTINUED - Calibration. MT200-2022 service manual
-    section 4.2.1 d.vii.4.b Calibration, PDF p. 10 (printed 10), text.md lines 158-172
+    section 4.2.1 d.vii.4.b Calibration, PDF p. 10 (printed 10), text.md lines 158-172.
+    7.0T 2025 owner's manual PDF p. 46 (printed 44), text.md lines 1421-1447. The
+    770885 re-export of the same MT8000 book (spirit-treadmill-70t-2026-service-manual,
+    MT8000-ST024-01 on the file, ST021-01 on its cover) prints this section at the
+    same PDF page and text.md lines; only its cover and component call-outs differ.
   extracted_at: '2026-09-09'
 ---
 
@@ -68,4 +73,6 @@ that the sensor should be at. **Adjust the magnet until the AD = TGT value**" - 
 physical magnet adjustment, not a key press - and a verification step after step 8: *"Go to step
 sensor test. Make sure there are only two dots on the display without anyone stepping on the deck. If
 not, redo the calibration."*
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
 

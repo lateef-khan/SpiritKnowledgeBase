@@ -27,6 +27,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ce800ent-2024
   - ce850-2016
@@ -40,6 +41,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -71,6 +73,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -138,7 +141,16 @@ source:
     7 Product Safety Instructions, PDF pp. 24-25 (printed 24-25), text.md lines 296-336,
     in spirit-stepper-crs800s-2021-service-manual. All four pages were also read from
     110 dpi renders; the XRW600 page prints the word Rower highlighted in yellow where
-    the CRW800 page prints elliptical.'
+    the CRW800 page prints elliptical. The 2025 4.0T owner''s manual (revision 02.04.25,
+    version 2.1) prints the same page: ELECTRICAL SAFETY, PDF p. 8 (printed 6), lines
+    182-213 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. XT485-2013: IMPORTANT ELECTRICAL INSTRUCTIONS,
+    PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Important Electrical Instructions, PDF p. 7 (printed 3), OCR supplement
+    at lines 130-185, in spirit-treadmill-ct850-2013-owners-manual. 4.0T service manuals:
+    7.2 Important Electrical Instructions, PDF p. 27, lines 384-418, in spirit-treadmill-40t-2026-service-manual-st8700a,
+    and PDF p. 26, lines 353-387, in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -283,3 +295,10 @@ manual print it inside the GFCI bullet**, where the CT850 service manuals had it
 **None of the three has an elevation mechanism.** The rowers' moving parts are the seat on its rail, the folding rail
 and the flywheel; the recumbent stepper's are its pedal arms and swivel seat. The transport wheels are named and do
 apply. The double full stop is printed. The CS800-2016 (XS200-SS003) service manual prints no cord-routing sentence.
+
+**The 2025 printing of the 4.0T manual prints the sentence unchanged**, and both 4.0T service manuals
+(ST8700-ST017 and ST8700A-ST026-01) print it in the CT850 chapter's words after the GFCI ban. **The
+Australian XT485-2013 and the CT850-2013 owner's manuals print it too**, each after their own GFCI
+sentence - a ban on the XT485-2013 (`spirit-never-use-a-gfci-wall-outlet`), a warning that a GFCI or
+RCD `may result in tripping the circuit breaker often` on the CT850-2013
+(`ct850-2013-safety-gfci-or-rcd-may-trip-often-not-forbidden`).

@@ -48,6 +48,7 @@ facets:
   - ct800-2020
   - ct800-2024
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -94,7 +95,7 @@ source:
     34 and 35 (spirit-elliptical-ce850-2016-owners-manual text.md lines 818-821 and 855-857),
     ce850-2020 pp. 41 and 43 (spirit-elliptical-ce850-2020-owners-manual text.md lines 1013-1015
     and 1066-1068), ce850-2022 pp. 42 and 44 (spirit-elliptical-ce850-2022-owners-manual text.md
-    lines 1019-1021 and 1072-1074)'
+    lines 1019-1021 and 1072-1074) Labor 2 Years in both rows and the same twelve-or-eighteen-month SERVICE sentence in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -143,3 +144,5 @@ The **CRW800** warranty effective October 08, 2021 and the **CRW800H2O** water r
 **The paragraph disagrees with the column on these two the same way it does everywhere else**, and neither manual reconciles it. Quote both.
 
 **Do not carry two years onto the other three rowers or onto the ergometer.** Both XRW600 printings read **Labor 1 Year** in their single residential row. The **CRW900** reads **1 Year** commercially and **2 Years** residentially, so the answer there depends on which row the machine sits in (`crw900-2021-warranty-five-column-periods-tank-and-seals`). The **8.5UE** upper body ergometer reads **1 Year** in its single commercial row (`85ue-2025-warranty-commercial-parts-five-years-labor-one-year`). Four of the seven rower and ergometer manuals in this knowledge base are not two-year machines.
+
+**The CT850 2013 book prints Labor "2 Years" in both rows** and the same SERVICE sentence, so the contradiction between the table and the paragraph is as old as this family of books.

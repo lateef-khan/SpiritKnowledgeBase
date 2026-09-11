@@ -40,11 +40,12 @@ see_also:
 - 85ue-2025-assembly-parts-diagram-labels
 - 85ue-2025-assembly-hardware-by-step
 - 85ue-2025-specs-specification-page
+- 85ue-2025-specs-parts-list
 source:
   ref: spirit-ergometer-85ue-2025-owners-manual
-  locator: EXPLODED VIEW DIAGRAM, printed pp. 57-58 (PDF pp. 59-60), both pages rendered
+  locator: 'EXPLODED VIEW DIAGRAM, printed pp. 57-58 (PDF pp. 59-60), both pages rendered
     at 300 dpi and read with `tesseract --psm 4` because both are flat images; Table
-    of Contents printed p. 1 (PDF p. 3)
+    of Contents printed p. 1 (PDF p. 3) The service manual, spirit-bike-85ue-2025-service-manual, prints the list: "9. 8.5UE Part List" PDF pp. 55-59, five flat-image pages read from 300 dpi renders.'
   extracted_at: '2026-09-10'
 ---
 
@@ -97,3 +98,7 @@ The **8.5S-2025**, the **8.5S-FIT-2026** and the **CSC880-2025** do the same thi
 - see `spirit-climber-specs-which-manuals-print-a-parts-list`. Among the rowers,
 three of six print a usable list and three print nothing at all -
 `spirit-rower-specs-which-manuals-print-a-parts-list`.
+
+## The service manual prints the list
+
+**The MZ2000-SB036-01 service manual prints both drawings again and, after them, a 297-row list that decodes every balloon** - `032` is the steel cable, `074` the 350L power connecting cable, `075` the switching power supply, `539` the steel cable-B, `611` an 8 mm L Allen wrench (`85ue-2025-specs-parts-list`). The owner's manual's `2025/06/11` sheet is the seat drawing the service manual heads `MR2000/MS2000/MZ2000` - shared with the 8.5R and 8.5S. Send a balloon number to that card before sending the customer to Spirit Fitness.

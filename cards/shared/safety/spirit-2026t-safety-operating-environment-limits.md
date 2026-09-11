@@ -1,8 +1,10 @@
 ---
 id: spirit-2026t-safety-operating-environment-limits
-title: The treadmill may be used from 10 to 36 degrees Celsius at 30 to 90 percent humidity
+title: The treadmill may be used from 10 to 36 degrees Celsius at 30 to 90 percent
+  humidity
 kind: spec
-question: Where can a 2026 Spirit 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation treadmill, be kept, and how hot, humid or high may the room be?
+question: Where can a 2026 Spirit 7.0T or 8.0T treadmill, or a Spirit MT200 rehabilitation
+  treadmill, be kept, and how hot, humid or high may the room be?
 asked_as:
 - can i keep this treadmill in the garage
 - how hot or humid can the clinic be
@@ -25,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -41,7 +44,14 @@ see_also:
 - spirit-2026t-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: ELECTRICAL SAFETY, page 6; the 8.0T owner's manual prints the same bullets on its page 6, and both repeat the temperature and humidity figures on their APPLICATION SPECIFICATION page, page 9. Both Spirit MT200 owner's manuals print the same block on their Important Electrical Information page, 2010 page 5 and 2022 page 8, and repeat the temperature and humidity figures on their Application Specification page, 2010 page 6 and 2022 page 12
+  locator: 'ELECTRICAL SAFETY, page 6; the 8.0T owner''s manual prints the same bullets
+    on its page 6, and both repeat the temperature and humidity figures on their APPLICATION
+    SPECIFICATION page, page 9. Both Spirit MT200 owner''s manuals print the same
+    block on their Important Electrical Information page, 2010 page 5 and 2022 page
+    8, and repeat the temperature and humidity figures on their Application Specification
+    page, 2010 page 6 and 2022 page 12. The 2025 7.0T owner''s manual (revision 01.10.25,
+    version 2.0) prints the same page: ELECTRICAL SAFETY, PDF p. 8 (printed 6), lines
+    164-195 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +110,5 @@ The same page also states, in both:
 The 2022 manual writes `The treadmill is not protected` in that last sentence. **No IP rating is
 printed** in either. Both repeat the temperature and humidity figures on their Application
 Specification page as part of the intended conditions of use.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

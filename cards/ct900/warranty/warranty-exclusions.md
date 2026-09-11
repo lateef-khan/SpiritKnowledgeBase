@@ -2,7 +2,7 @@
 id: ct900-warranty-exclusions
 title: Warranty exclusions - what is not covered
 kind: policy
-question: What is not covered by the Spirit CT900, 4.0T, 7.0T or 8.0T warranty?
+question: What is not covered by the Spirit CT900 warranty, or the 2025 or 2026 4.0T, 7.0T or 8.0T warranty?
 asked_as:
 - what voids the warranty
 - is damage from moving the treadmill covered
@@ -19,7 +19,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct900
@@ -48,7 +50,7 @@ source:
     7.0T p. 51, 8.0T p. 69. The same nine items and the same note are printed in the
     CT900 owner''s manual PDF, spirit-treadmill-ct900-owners-manual text.md lines 1504-1526,
     p. 53, and word for word again in spirit-treadmill-ctsbs900-owners-manual text.md
-    lines 1704-1726, p. 55'
+    lines 1704-1726, p. 55 The same nine items in the 2025 printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651) (4.0T PDF p. 53, 7.0T PDF p. 56).'
   extracted_at: '2026-08-24'
 ---
 
@@ -79,3 +81,5 @@ That surviving phrase - *ordinary household or light commercial use* - is reside
 **The residential XT manuals** use slot 8 for a use-environment limit rather than for prisons: `xt-2023-warranty-exclusions`, `xt-2015-warranty-exclusions`.
 
 **Item 2 is residential wording standing inside a commercial warranty on the CT900 as well.** "Ordinary household or light commercial use" reads as a limit on the dues-paying gym that this manual's own warranty table covers on its first row. The manual never reconciles the two - see `ct900-warranty-use-environment`, and `ctsbs900-warranty-use-environment` for the same sentence on a machine whose only row is a dues-paying one.
+
+**The 2025 printings of the 4.0T and 7.0T print the same nine items**, word for word with the 2026 books; only the effective date at the head of the section differs.

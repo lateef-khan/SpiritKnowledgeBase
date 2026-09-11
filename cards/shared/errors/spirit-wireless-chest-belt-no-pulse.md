@@ -5,7 +5,7 @@ kind: troubleshooting
 question: Why is the wireless chest belt not reading on a Spirit commercial treadmill,
   elliptical, bike, stepper or climber - CE800, CE800ENT, CE850, CE900, CR800, CR800ENT,
   CR900, CRS800S, CS800, CT800, CT800ENT, CT850, CT850ENT, CT900ENT, CT1000ENT, CU800,
-  CU800ENT, CU900, CU900ENT, CVC800, XT or 4.0T?
+  CU800ENT, CU900, CU900ENT, CVC800, XT, 4.0T, 4.0R or 4.0U?
 asked_as:
 - chest strap not reading on my spirit machine
 - wireless heart rate not working
@@ -25,7 +25,9 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
   - 40t-2026
+  - 40u-2025
   - ab900-2018
   - ce1000ent-2023
   - ce800-2016
@@ -106,6 +108,7 @@ see_also:
 - ce800ent-bluetooth-chest-strap-no-heart-rate
 - crw800h2o-console-shows-no-pulse-data
 - jb950-2022-errors-cant-find-the-chest-strap-worn-or-battery
+- spirit-med-bike-errors-leds-not-bright-check-power-to-console-then-lower-controller
 source:
   ref: spirit-elliptical-ce800ent-service-manual
   locator: 'Troubleshooting procedure matrix: CE800ENT section 7-3 page 27; CT850
@@ -179,7 +182,13 @@ source:
     lines 526-549; CS800 2016 (XS200-SS003) service manual Troubleshooting procedure
     matrix, PDF p. 41, text.md lines 602-634; XS895 (XS300B-YS006) service manual
     7-8 Troubleshooting procedure matrix, PDF p. 36-37 (printed 35-36), text.md lines
-    550-602'
+    550-602; 4.0R (FR800-SB022-03) service manual 8-4 Troubleshooting procedure matrix,
+    PDF p. 31, text.md lines 388-418; 4.0U (FU800-SB022-03) service manual 8-4 Troubleshooting
+    Procedure Matrix, PDF p. 31, text.md lines 409-438; the 4.0T ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a, 88% the ST017
+    book) prints the same page one page later, word for word (compared with difflib
+    on 2026-09-11): Condition / Reason / Solve matrix at PDF p. 37-39 (printed 47-49),
+    text.md lines 635-758'
   extracted_at: '2026-09-08'
 ---
 
@@ -239,3 +248,6 @@ figures at a CSC900 owner as if their manual printed them.
 **The CR1000ENT 2023 recumbent service manual prints this row word for word** - the three causes, `within 3 feet` and the CR2032 - and prints the `Chest belt too close to the product / Weak battery` second row after it, as the CU1000ENT 2023 does.
 
 **Four stepper service manuals print this row with the same three causes, the CR2032 battery and the three-foot range, and every one of them also prints the `Chest belt too close` second row** - the CRS800S 2020-version (`too close to the climber`), the CS800 (2020) and the XS895 (`XS300B-YS006`) (`too close to the Stepper`), and the CS800 2016 (`XS200-SS003`) (`too close to the climber`).
+
+**The 4.0R and 4.0U 2025 medical bikes print the row too**, the same three causes, `within 3 feet` and `CR2032`, and the second `Chest belt too close to the Bike. Weak battery.` row, in their FR800/FU800 service manuals (added 2026-09-11).
+

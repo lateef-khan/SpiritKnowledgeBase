@@ -4,8 +4,8 @@ title: 'Replacing the recumbent stepper cable guide wheel: sensor bracket off, C
   out, the one-way bearing facing as drawn, and the sensor set 7 to 9 mm from the
   wheel'
 kind: procedure
-question: How do I replace the cable guide wheel (one-way bearing wheel) on a Spirit
-  7-5s-med (7.5S) recumbent stepper?
+question: How do I replace the cable guide wheel, and what is the sensor gap on a
+  Spirit 7.5S (2021 or 2025 book) or 7.0S 2025 rehabilitation recumbent stepper?
 asked_as:
 - cable guide wheel replacement 7.5s
 - one way bearing stepper belt slipping
@@ -24,9 +24,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -37,7 +39,10 @@ see_also:
 - 85s-2025-assembly-steel-cable-slide-wheel-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.8 Cable Guide Wheel Replacement, PDF p. 33; text.md lines 384-403
+  locator: '6.8 Cable Guide Wheel Replacement, PDF p. 33; text.md lines 384-403 |
+    70s-2025 (spirit-stepper-70s-2025-service-manual): 6.8 Cable Guide Wheel Replacement,
+    PDF p. 33; text.md lines 402-420 | 75s-2025 (spirit-stepper-75s-2025-service-manual):
+    6.8 Cable Guide Wheel Replacement, PDF p. 33; text.md lines 385-403'
   extracted_at: '2026-09-11'
 ---
 
@@ -56,3 +61,4 @@ The troubleshooting chapter (7.1.2) sends you here when the belt still slips aft
 broken one-way bearing inside the cable guide wheel is the named cause. The same 7 to 9 mm appears in 7.3.1 as
 the gap between the bar-code sticker and the encoder's optical sensor board.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included. Same one-way bearing note, same 7 to 9 mm.

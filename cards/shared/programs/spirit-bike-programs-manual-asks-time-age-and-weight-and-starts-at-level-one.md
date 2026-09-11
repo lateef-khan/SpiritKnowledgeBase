@@ -1,6 +1,7 @@
 ---
 id: spirit-bike-programs-manual-asks-time-age-and-weight-and-starts-at-level-one
-title: Manual mode on an LED console asks for time, age and weight and always starts at level one
+title: Manual mode on an LED console asks for time, age and weight and always starts
+  at level one
 kind: procedure
 question: How does Manual mode work on a Spirit bike with an LED console?
 asked_as:
@@ -23,6 +24,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -55,7 +60,17 @@ see_also:
 - spirit-bike-programs-forty-levels-of-resistance-shown-as-ten-rows
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018 p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p. 19; CU900 2025 p. 18; XBR95 2016/2018 printed p. 19, XBR95 2021 p. 20; XBR25 2019 p. 19; XBR55 2019/2021 p. 21; XBU55 2019 p. 20, XBU55 2021 p. 21; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28; service manuals: CR900 2018 (SR8800-SB008) MANUAL PDF p. 15-16, text.md lines 220-234; CU900 2018 p. 16, lines 283-296'
+  locator: 'CU800 2012 printed p. 16 (scan 1 PDF p. 18); CR900 2018 p. 18; CU900 2018
+    p. 16-17; CR800 2021 p. 19; CU800 2021 p. 18; CR800 2023 p. 19; CR900 2025 p.
+    19; CU900 2025 p. 18; XBR95 2016/2018 printed p. 19, XBR95 2021 p. 20; XBR25 2019
+    p. 19; XBR55 2019/2021 p. 21; XBU55 2019 p. 20, XBU55 2021 p. 21; XBR25 2023 p.
+    22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28; service manuals: CR900 2018 (SR8800-SB008)
+    MANUAL PDF p. 15-16, text.md lines 220-234; CU900 2018 p. 16, lines 283-296; 4.0R
+    2025: PDF p. 19 (printed 17); text.md lines 515-549; 4.0U 2025: PDF p. 19 (printed
+    17); text.md lines 472-506; PT 4.0 R: PDF p. 36 (printed 36); text.md lines 1030-1075;
+    PT 4.0 U: PDF p. 34 (printed 34); text.md lines 998-1043; 4.0R service manual:
+    PDF pp. 18-19 (printed 18-19); text.md lines 196-260; 4.0U service manual: PDF
+    pp. 18-19 (printed 18-19); text.md lines 215-269'
   extracted_at: '2026-09-09'
 ---
 
@@ -100,3 +115,9 @@ step even though its console has no User key.
 
 **The two ENT touchscreens work differently** - see
 `spirit-bike-programs-manual-on-the-touchscreen-is-user-controlled-resistance`.
+
+**The 4.0R and 4.0U medical bikes print the same procedure** in their 2025 books, their Dyaco PT 4.0 R
+and 4.0 U editions and their service manuals: press the Manual key then **Confirm**, then **Age,
+Weight, Time** with the **Plus and Minus** keys, Start, level one to warm up, the Display key to
+scroll the data, and Start or Stop at the end. They print no save-to-custom step. The 7.0R and 7.0U
+medical bikes ask for time and the auto-brake only, because age and weight live in their Set Up menu.

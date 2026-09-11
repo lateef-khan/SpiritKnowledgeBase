@@ -1,8 +1,10 @@
 ---
 id: 40t-2026-errors-belt-stops-suddenly-when-tether-pulled
-title: 'The belt stops abruptly when the tether cord is pulled: friction, then flip a deck still on its original side'
+title: 'The belt stops abruptly when the tether cord is pulled: friction, then flip
+  a deck still on its original side'
 kind: troubleshooting
-question: Why does the belt on a Spirit 40t-2026 treadmill stop so suddenly when the tether cord is pulled?
+question: Why does the belt on a Spirit 4.0T treadmill stop so suddenly when the tether
+  cord is pulled?
 asked_as:
 - belt slams to a stop when the safety clip comes off
 - treadmill stops way too fast when i pull the key
@@ -20,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: errors
   code: no-code
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-treadbelt-stops-suddenly-when-tether-pulled
@@ -34,7 +35,11 @@ see_also:
 - ct900ent-trips-20-amp-circuit
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'TROUBLESHOOTING table, printed page 45; text.md lines 1485-1487'
+  locator: TROUBLESHOOTING table, printed page 45; text.md lines 1485-1487; 4.0T 2025
+    owner's manual (Rev 02.04.25, spirit-treadmill-40t-2025-owners-manual) prints
+    the same row word for word, TROUBLESHOOTING, PDF p. 46 (printed 44), text.md lines
+    1446-1482; the May 2025 printing (Rev 05.19.25, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    the same at PDF p. 46, lines 1446-1482 (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-09'
 ---
 
@@ -51,3 +56,6 @@ cannot be flipped again, so a worn second side means a new deck, not another fli
 The CT900ENT and XT manuals print this row without the "on its original side" qualifier
 (`ct900ent-treadbelt-stops-suddenly-when-tether-pulled`), so quote this manual's wording
 for this machine.
+
+**The 4.0T 2025 owner's manual - both the February and the May 2025 printings - prints this row word for word**, so it holds for the previous model year too (added 2026-09-11).
+

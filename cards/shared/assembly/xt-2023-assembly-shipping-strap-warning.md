@@ -2,8 +2,8 @@
 id: xt-2023-assembly-shipping-strap-warning
 title: Removing the shipping strap without the deck springing open
 kind: procedure
-question: How do I take the Velcro shipping strap off a Spirit XT185-2023, XT285-2023,
-  XT385-2023 or XT485-2023 treadmill safely?
+question: How do I remove the shipping strap from a Spirit XT folding treadmill (2013
+  or 2023 manual) without the deck springing open?
 asked_as:
 - there is a strap round the bottom of my treadmill
 - how do i unpack a folding treadmill
@@ -26,6 +26,7 @@ facets:
   - xt185-2023
   - xt285-2023
   - xt385-2023
+  - xt485-2013
   - xt485-2023
   section: assembly
   code: '*'
@@ -38,7 +39,9 @@ see_also:
 - xt185-xt285-2023-assembly-procedure
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: p. 11, PRE-ASSEMBLY warning
+  locator: 'p. 11, PRE-ASSEMBLY warning | xt485-2013 (spirit-treadmill-xt485-2013-owners-manual):
+    ASSEMBLY INSTRUCTIONS - "IMPORTANT UNPACKING INSTRUCTIONS", PDF p. 7 (printed
+    6); text.md lines 216-229'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +67,5 @@ warning at all and the machine does not fold.
 
 These four manuals describe a strap only. They never mention a shipping safety
 pin, which the Sole folding treadmills do have - do not go looking for one.
+
+**The XT485 2013 manual prints the same warning, word for word, ten years earlier** - under the heading "!!ATTENTION: IMPORTANT UNPACKING INSTRUCTIONS. PLEASE READ BEFORE UNPACKING YOUR FOLDING TREADMILL!!" at the top of its assembly chapter, once. It then continues into a box-cutter unpacking paragraph and a five-section hardware pack that the 2023 manuals do not print; that is its own card. The 2015 XT manuals, between the two, print no strap warning at all.

@@ -1,8 +1,10 @@
 ---
 id: 40t-2026-errors-speed-caps-at-7-mph
-title: 'The belt reaches only about 7 mph (11 kmph) while the display shows more: supply and extension cords'
+title: 'The belt reaches only about 7 mph (11 kmph) while the display shows more:
+  supply and extension cords'
 kind: troubleshooting
-question: Why does a Spirit 40t-2026 treadmill only reach about 7 mph when the display shows a higher speed?
+question: Why does a Spirit 4.0T treadmill only reach about 7 mph when the display
+  shows a higher speed?
 asked_as:
 - treadmill wont go faster than 7 mph
 - belt is slower than the number on the screen
@@ -20,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: errors
   code: no-code
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - ct900ent-speed-display-mismatch-caps-at-7mph
@@ -36,7 +37,11 @@ see_also:
 - 40t-2026-errors-display-does-not-light
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: 'TROUBLESHOOTING table, printed page 45; text.md lines 1481-1483'
+  locator: TROUBLESHOOTING table, printed page 45; text.md lines 1481-1483; 4.0T 2025
+    owner's manual (Rev 02.04.25, spirit-treadmill-40t-2025-owners-manual) prints
+    the same row word for word, TROUBLESHOOTING, PDF p. 46 (printed 44), text.md lines
+    1446-1482; the May 2025 printing (Rev 05.19.25, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    the same at PDF p. 46, lines 1446-1482 (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-09'
 ---
 
@@ -53,3 +58,6 @@ add "a minimum of 110 volt AC current is required" to the same row
 (`ct900ent-speed-display-mismatch-caps-at-7mph`); this one stops at the extension-cord
 advice. The CT850 manuals print a different gauge again - 12 gauge for 2016, 16 gauge for
 2020 - so the 16-gauge figure is this machine's, not a Spirit-wide one.
+
+**The 4.0T 2025 owner's manual - both the February and the May 2025 printings - prints this row word for word**, so it holds for the previous model year too (added 2026-09-11).
+

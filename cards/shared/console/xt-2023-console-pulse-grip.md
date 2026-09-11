@@ -2,7 +2,8 @@
 id: xt-2023-console-pulse-grip
 title: Reading your heart rate from the hand pulse grips
 kind: fact
-question: How do the hand pulse grips work on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
+question: How do the hand pulse grips work on a Spirit XT185, XT285, XT385, XT485
+  or XT685 treadmill, 2015 or 2023?
 asked_as:
 - how do i get my heart rate on the treadmill
 - why is the pulse not showing on my treadmill
@@ -30,6 +31,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -43,7 +45,8 @@ see_also:
 - xt-2023-console-readouts
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 22, FEATURES - CONTINUED / Pulse Grip Feature
+  locator: page 22, FEATURES - CONTINUED / Pulse Grip Feature. XT485 2013 OM PULSE
+    GRIP FEATURE, PDF p. 18 (printed 17), text.md lines 558-564
   extracted_at: '2026-09-09'
 ---
 
@@ -85,3 +88,6 @@ transmitter chest strap to display your pulse"*, where every other manual in thi
 **The CT800 and CT850 LED manuals say the opposite about Heart Rate Control**, allowing Grip Pulse
 during it - the CT800 2012 manual on its p. 12 and the 2016 and 2020 manuals in the same place:
 `ct850-2020-heart-rate-feature`. Do not read one family's rule onto the other.
+
+**The XT485 2013 owner's manual prints the paragraph on its printed p. 17 with the "or"** the 2015 books use - "You must use both stainless steel sensors on the **front cross bar** or the heart rate transmitter chest strap to display your pulse" - and the same "You may not use the Grip Pulse feature while in Heart Rate Programs", so this card covers that machine. It places the sensors on the front cross bar rather than "stationary grips", prints no heart-icon sentence, and its safety page adds that the pulse sensors "are not medical devices".
+

@@ -1,8 +1,10 @@
 ---
 id: spirit-rehab-stepper-console-maintenance-menu-with-a-five-window-sensor-test
-title: The maintenance menu whose Sensor test reports five separate signals, one in each data window
+title: The maintenance menu whose Sensor test reports five separate signals, one in
+  each data window
 kind: procedure
-question: How do I get into maintenance mode on a Spirit rehabilitation recumbent stepper, and what is in it?
+question: How do I get into maintenance mode on a Spirit rehabilitation recumbent
+  stepper, and what is in it?
 asked_as:
 - how do i get into engineering mode on my rehab stepper
 - how do i switch the rehab stepper to metric
@@ -42,8 +44,14 @@ see_also:
 - spirit-rehab-stepper-console-power-up-and-the-twenty-minute-auto-power-down
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 57-58, Maintenance menu in console software; the 7.0S-2025 prints the same menu on its printed p. 39 and the 7.5S-2025 on its printed p. 41, both under MACHINE CARE / Console Software.
-    7.5S (RS9600-SS021-01) service manual 5.2.1 Maintenance menu in console software, PDF pp. 11-12, text.md lines 83-124 (no printed folios)
+  locator: MS300-2021 printed p. 57-58, Maintenance menu in console software; the
+    7.0S-2025 prints the same menu on its printed p. 39 and the 7.5S-2025 on its printed
+    p. 41, both under MACHINE CARE / Console Software. 7.5S (RS9600-SS021-01) service
+    manual 5.2.1 Maintenance menu in console software, PDF pp. 11-12, text.md lines
+    83-124 (no printed folios). 7.0S (RS9500-SS021-02) service manual, spirit-stepper-70s-2025-service-manual,
+    5.2.1 Maintenance menu in console software, PDF pp. 11-12, text.md lines 98-143;
+    7.5S (RS9600-SS021-03) service manual, spirit-stepper-75s-2025-service-manual,
+    PDF pp. 11-12, lines 82-126 - both word for word the RS9600-SS021-01 page
   extracted_at: '2026-09-10'
 ---
 
@@ -125,3 +133,6 @@ power-down at **20 minutes** and never tie it to this entry
 puts the Sleep entry at **30**. Nothing reconciles them; both are reproduced as printed. The
 service manual also prints the two error messages under the menu - EEPROM Error ("the only error
 message") and Motor Error - which are held with the error cards.
+
+**The 7.0S-770545 (RS9500-SS021-02) and 7.5S-775545 (RS9600-SS021-03) service manuals print this menu word for word** - the same "Engineering mode" prompt, the same 30-minute Sleep and 30-minute Pause figures, the same Motor test and five-window Sensor Test - on their PDF pp. 11-12. The 7.0S book is the RS9600 book with a 7.0S cover: nothing on its console pages changes for the shorter machine.
+

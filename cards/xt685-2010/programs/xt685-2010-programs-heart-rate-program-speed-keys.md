@@ -3,7 +3,8 @@ id: xt685-2010-programs-heart-rate-program-speed-keys
 title: Running a heart rate program from the Speed keys, and saving the finished workout
   as a user program
 kind: procedure
-question: How do I use the HR1 and HR2 heart rate programs on a Spirit xt685-2010 treadmill?
+question: How do I use the HR1 and HR2 heart rate programs on a Spirit xt685-2010
+  treadmill?
 asked_as:
 - how do i use the heart rate program
 - what is hr1 and hr2
@@ -24,8 +25,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2010
+  model: '*'
   applies_to:
+  - xt485-2013
   - xt685-2010
   section: programs
   code: '*'
@@ -39,7 +41,8 @@ see_also:
 - xt-2015-programs-program-list-xt485-xt685
 source:
   ref: spirit-treadmill-xt685-2010-owners-manual
-  locator: printed page 27, Heart Rate Program Operation
+  locator: 'printed page 27, Heart Rate Program Operation; XT485 2013: PDF p. 29 (printed
+    28); text.md lines 1112-1152'
   extracted_at: '2026-09-09'
 ---
 
@@ -79,3 +82,9 @@ value. Follow the prompts in the Message Center to maintain your selected heart 
 You may also use the heart rate readout on its own, outside these programs - see
 `xt-2023-programs-heart-rate-training-zone` for the 220-minus-age formula and the training zone this
 program targets, and `ct900-heart-rate-chest-strap-setup` for fitting the strap.
+
+**The 2013 XT485 owner's manual prints this nine-step procedure word for word** - HR 1-2 key once for
+60% or twice for 80%, the 3-to-5 beat tolerance, the retarget from the **Speed** keys on the console
+or **right handlebar**, Enter to scroll the data, and the step 9 save to a User key. So the XT485
+too changed between generations: Speed keys and a User-key save in 2013, Incline keys and no save
+in 2015 (`xt-2015-programs-heart-rate-program-xt385-xt485-xt685`).

@@ -3,7 +3,7 @@ id: xt-2015-specs-speed-and-incline-range-xt185-xt285
 title: The console accepts up to 9.9 mph and incline level 9.5
 kind: spec
 question: What is the maximum speed and the maximum incline of a Spirit XT185-2015,
-  XT285-2015 or XT685-2010 treadmill?
+  XT285-2015, XT685-2010 or XT485-2013 treadmill?
 asked_as:
 - how fast does this treadmill go
 - what is the top speed on my spirit treadmill
@@ -28,6 +28,7 @@ facets:
   applies_to:
   - xt185-2015
   - xt285-2015
+  - xt485-2013
   - xt685-2010
   section: specs
   code: '*'
@@ -43,12 +44,14 @@ see_also:
 - spirit-xt-2015-console-data-ranges-16-kmh-incline-steps-of-1
 source:
   ref: spirit-treadmill-xt185-2015-owners-manual
-  locator: CONSOLE OPERATION / Select Speed & Incline Buttons, p. 17; the XT285-2015
+  locator: 'CONSOLE OPERATION / Select Speed & Incline Buttons, p. 17; the XT285-2015
     manual prints the same figures in the same paragraph on its p. 17; the XT685-2010
     manual prints them under Quick Speed & Incline Buttons on its p. 16 (printed p.
-    12). The XT185-2015 service manual's Function table, p. 16 (printed 15), text.md
-    lines 199-250, and the XT285-2015 service manual's, pp. 17-18, lines 238-289, give
-    the contradicting work range
+    12). The XT185-2015 service manual''s Function table, p. 16 (printed 15), text.md
+    lines 199-250, and the XT285-2015 service manual''s, pp. 17-18, lines 238-289,
+    give the contradicting work range. XT485-2013 (spirit-treadmill-xt485-2013-owners-manual,
+    485812): FEATURES / Quick Speed & Incline Buttons, PDF p. 14 (printed 13), text.md
+    lines 405-414'
   extracted_at: '2026-09-09'
 ---
 
@@ -105,3 +108,15 @@ half steps. Neither book mentions the other's figures. The service-manual table 
 held by `spirit-xt-2015-console-data-ranges-16-kmh-incline-steps-of-1`; quote the
 owner's-manual figure as what the keypad accepts and the service-manual figure as
 the work range, and say the two books disagree.
+
+**The 2013 XT485 prints the low ceiling too, and prints the incline as a percent.** Its Quick Speed &
+Incline Buttons paragraph reads "The maximum value you may input for speed is 9.9 mph or kmph and
+incline **9.5%**", with the same worked examples (8, 0 = 8.0 mph; 0, 8 = 0.8 mph; 3, 5 = incline
+level 3.5) and no increment sentence. So the XT485 went from 9.9 mph / 9.5 in 2013 to 12.0 mph /
+15.0 % in 2015 (`xt-2015-specs-speed-and-incline-range-xt485-xt685`), as the XT685 did between 2010
+and 2015 - establish the year before answering. Like the XT685-2010, the 2013 book's muscle-activation
+page describes elevation bands up to "5-15% Elevation" that it never reconciles with the 9.5 % entry
+maximum. Its Calibration Procedure, by contrast, sets a wheel size of 3.01, a minimum of 0.5 mph, a
+maximum of **12.0 mph / 18.0 kmph** and a maximum elevation of 15 - technician settings, the same
+as the XT685-2010's, not a rated range.
+

@@ -3,8 +3,8 @@ id: 7-5s-med-errors-hand-pulse-problem-rear-sensor-points-shorted
 title: A hand pulse problem is checked at the console connectors, then at the sensor
   whose two rear points should read shorted, then at the cables
 kind: troubleshooting
-question: What do I check when the hand pulse grips do not read on a Spirit 7-5s-med
-  recumbent stepper?
+question: What do I check when the hand pulse grips do not read on a Spirit 7.0S or
+  7.5S recumbent stepper?
 asked_as:
 - 7.5s hand pulse not reading
 - grip heart rate dead on my spirit rehab stepper
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: errors
   code: no-pulse
 authority: 3
@@ -33,10 +35,13 @@ not_to_be_confused_with:
 see_also:
 - spirit-med-stepper-errors-programs-do-not-start-keypad-test
 - spirit-hand-pulse-not-working
+- spirit-med-bike-errors-hand-pulse-problem-two-points-shorted-then-cables-then-console
 source:
   ref: spirit-stepper-7-5s-med-service-manual
   locator: 5.2.3 Troubleshooting and Problem Solving, "Hand Pulse Problem", PDF p.
-    20; text.md lines 202-212
+    20; text.md lines 202-212; 7.0S (RS9500-SS021-02) service manual 5.2.3 "Hand Pulse
+    Problem", PDF p. 20, text.md lines 220-231; 7.5S (RS9600-SS021-03) service manual
+    5.2.3 "Hand Pulse Problem", PDF p. 20, text.md lines 203-214 - word for word
   extracted_at: '2026-09-11'
 ---
 
@@ -51,3 +56,6 @@ source:
 **"When the console is on the bike" is printed that way.** The procedure was written for a bike console and carried onto the stepper without the noun being changed; it is one of several places this book still reads as a bike book.
 
 **No voltage and no part number is printed**, and the fault ends at a new console. The four-cause hand pulse row the bikes and treadmills print (`spirit-hand-pulse-not-working`) was not written for this machine.
+
+The 7.0S 2025 (RS9500-SS021-02) and 7.5S 2025 (RS9600-SS021-03) service manuals print the three steps unchanged (added 2026-09-11). The 7.0R/7.0U rehabilitation bikes print them with the two contacts called simply *the two points*: `spirit-med-bike-errors-hand-pulse-problem-two-points-shorted-then-cables-then-console`.
+

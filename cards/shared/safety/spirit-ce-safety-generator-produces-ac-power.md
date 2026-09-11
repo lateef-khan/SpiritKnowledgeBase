@@ -27,6 +27,10 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -62,14 +66,15 @@ see_also:
 - spirit-bike-2025-safety-instructions-list
 - spirit-ce-safety-no-mains-outlet-needed
 - xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-med-bike-safety-operating-environment-5-to-48-c
 source:
   ref: spirit-elliptical-ce800-2021-owners-manual
-  locator: IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints
+  locator: 'IMPORTANT ELECTRICAL INSTRUCTIONS, page 5. The CE800 2023 manual prints
     the same WARNING on page 5, the CE800 2013 manual on PDF page 5 (printed 3), the
     CE900 2021 manual on page 3, and the CE900 2025 manual on its ELECTRICAL SAFETY
     page, page 6. Both XE795 2021 printings print it on their Important Electrical
     Instructions page, page 5 - February 19 2021 and November 30 2021 Eight Spirit
-    commercial bike owner's manuals print the same WARNING at the head of their electrical
+    commercial bike owner''s manuals print the same WARNING at the head of their electrical
     page - CR900-2018 and CU900-2018 printed page 3, CR800-2021, CR800-2023 and CU800-2021
     printed page 4, CR900-2025 and CU900-2025 on their ELECTRICAL SAFETY & IMPORTANT
     OPERATION INSTRUCTIONS page, printed page 5, and CU800-2012 on its Important Electrical
@@ -79,7 +84,11 @@ source:
     text.md lines 231-236, and CE900 Operation / POWER, PDF p. 14 (printed 14), lines
     209-214. The XE795-2016 (XE815-SE024-01) and XE795-2023 (XE815A-SE048) service
     manuals print no generator warning either; their safety chapters are PDF p. 35,
-    lines 477-505, and PDF p. 14, lines 227-262.
+    lines 477-505, and PDF p. 14, lines 227-262. Spirit Medical 4.0R (2025): ELECTRICAL
+    SAFETY & OPERATION INSTRUCTIONS, PDF p. 8 (printed 6), text.md lines 182-209,
+    in spirit-bike-40r-2025-owners-manual; 4.0U: PDF p. 8, lines 159-186, in spirit-bike-40u-2025-owners-manual.
+    Dyaco PT 4.0 R: Important electrical information, PDF p. 14, lines 471-488, in
+    spirit-bike-40r-pt-owners-manual; PT 4.0 U: PDF p. 14, lines 472-489, in spirit-bike-40u-pt-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -206,3 +215,11 @@ plug-in safety chapter - disconnect from the outlet, a 115-volt or 220-volt outl
 grounding page - on a machine with no cord (`xe795-2023-safety-outlet-220-volt-15-amp`). So the
 service books give a technician no wait time and no warning at all; the owner's-manual sentence above
 is the only printed statement that a coasting generator is live.
+
+## The Spirit Medical 4.0R and 4.0U print the warning with `bike`
+
+**The 2025 owner's manuals of the two self-powered medical bikes, and their Dyaco PT editions, open
+their electrical page with it** - `Be aware that the generator is producing A.C. power while the bike
+is being used. Do not service the bike while the generator is spinning; serious electric shock could
+occur.` The PT editions repeat it in Arabic, German, French and Dutch. It is the only electrical
+rule those four books print (`spirit-med-bike-safety-operating-environment-5-to-48-c`).

@@ -24,6 +24,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -44,7 +45,8 @@ see_also:
 - ct800ent-2022-console-heart-rate-feature
 source:
   ref: ctsbs900-om
-  locator: p. 35
+  locator: p. 35. CT850 2013 OM Wearing The Chest Strap, PDF p. 24 (printed 20), OCR
+    supplement lines 880-913
   extracted_at: '2026-08-24'
 ---
 
@@ -96,3 +98,6 @@ what each of them prints differently.
 **Do not carry the ANT+ line onto the CT850-2018 or the CT850ENT-2022.** The 2018 manual prints no
 strap-technology line at all and describes Polar compatible transmitters only
 (`ct850-2020-heart-rate-feature`); the ENT manual names Bluetooth and not ANT+.
+
+**The CT850 2013 owner's manual prints the same six steps and the same note on its printed p. 20**, under "Wearing The Chest Strap", so this card covers that machine. Like the 2012 CT800 it says step 1 uses "the locking parts", names the battery **Panasonic CR2032**, gives the 2500-hour life, describes the electrodes as "2 ribbed oval areas", and prints **no sold-separately statement and no Bluetooth or ANT+ line**; its heart rate feature page says the console "will also pick up wireless heart rate transmitters, including coded transmissions" without the word Polar (`ct850-2020-heart-rate-feature`).
+

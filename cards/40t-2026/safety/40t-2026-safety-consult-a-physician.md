@@ -2,7 +2,10 @@
 id: 40t-2026-safety-consult-a-physician
 title: Consult a physician before starting, especially over the age of 35
 kind: policy
-question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the 4.0T), a Spirit CE900 or CES880 elliptical, a Spirit XE residential elliptical of the 2021 or 2023 generation, or a self-powered Spirit commercial CR800, CR900, CU800 or CU900 bike or a CR900ENT or CU900ENT bike?
+question: Do I need to see a doctor before using a Spirit 40T-2026 treadmill (the
+  4.0T), a Spirit CE900 or CES880 elliptical, a Spirit XE residential elliptical of
+  the 2021 or 2023 generation, or a self-powered Spirit commercial CR800, CR900, CU800
+  or CU900 bike or a CR900ENT or CU900ENT bike?
 asked_as:
 - do i need a doctor before using a treadmill
 - is a treadmill safe if i have a heart condition
@@ -22,7 +25,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 40u-pt
   - ce900-2021
   - ce900-2025
   - ces880-2025
@@ -80,13 +88,22 @@ see_also:
 - spirit-bike-ent-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 1, page 4 The Spirit CE900 2021 owner's manual prints the same
-    rule on page 3, the CE900 2025 manual as item 1 of its safety list on page 5, and the
-    CES880 2025 manual as item 8 of its safety list on page 4 Ten Spirit commercial bike
-    owner's manuals print the same rule as the first item of their safety list - CU800-2012
-    printed page 2, CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021 and
-    CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed page 4, and
-    CR900-2025 and CU900-2025 as item 1 of their printed page 4
+  locator: 'SAFETY INSTRUCTIONS item 1, page 4 The Spirit CE900 2021 owner''s manual
+    prints the same rule on page 3, the CE900 2025 manual as item 1 of its safety
+    list on page 5, and the CES880 2025 manual as item 8 of its safety list on page
+    4 Ten Spirit commercial bike owner''s manuals print the same rule as the first
+    item of their safety list - CU800-2012 printed page 2, CR900-2018 and CU900-2018
+    printed page 3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023
+    and CU800-2021 printed page 4, and CR900-2025 and CU900-2025 as item 1 of their
+    printed page 4. Spirit Medical 4.0R (2025): SAFETY INSTRUCTIONS item 1, PDF p.
+    6 (printed 4), text.md lines 110-147, in spirit-bike-40r-2025-owners-manual; 4.0U:
+    item 1, PDF p. 6, lines 114-148, in spirit-bike-40u-2025-owners-manual; Dyaco
+    PT 4.0 R and 4.0 U: first Warning bullet, PDF p. 4, lines 58-60, in spirit-bike-40r-pt-owners-manual
+    and spirit-bike-40u-pt-owners-manual. The 2025 4.0T owner''s manual (revision
+    02.04.25, version 2.1) prints the same page: SAFETY INSTRUCTIONS item 1, PDF p.
+    6 (printed 4), text.md lines 110-149 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -192,3 +209,11 @@ for written clearance or says to repeat the consultation.
 **The four 2023 manuals also print it a second time, on the safety warning sticker**, as
 `Consult your physician before use` with no age attached
 (`spirit-xb-2023-safety-warning-sticker-text`).
+
+**The Spirit Medical 4.0R and 4.0U print the sentence as item 1 of their seventeen-item list**, and
+their Dyaco PT editions as the first Warning bullet, word for word with the 4.0T's - over 35, or
+preexisting health conditions (`spirit-med-bike-safety-instructions-list-seventeen-items`). The
+plug-in 7.0R, 7.0U, 8.0U and 8.5R ask for medical clearance instead, as the 7.0T and 8.0T do
+(`spirit-med-bike-safety-operation-instructions-warnings`).
+
+**The 2025 printing of the 4.0T manual prints this page word for word**, so it holds for the 40t-2025 as well. The February 2025 book (revision 02.04.25) and its May 2025 reprint (revision 05.19.25) differ only in the version and revision line; both were compared with the 2026 book page by page and no rule or figure on the safety, electrical, grounding or operation pages changed.

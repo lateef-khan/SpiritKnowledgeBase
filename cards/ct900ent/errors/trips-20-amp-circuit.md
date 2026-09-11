@@ -19,6 +19,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800ent-2022
   - ct800ent-2024
@@ -34,14 +35,21 @@ see_also:
 - ct900ent-circuit-breaker-trips-not-treadmill-breaker
 source:
   ref: ct900ent-om
-  locator: p. 48; the 4.0T 2026 owner's manual prints the same row in its TROUBLESHOOTING
-    table on printed page 45; the CT800ENT 2022 owner's manual prints the same row
+  locator: 'p. 48; the 4.0T 2026 owner''s manual prints the same row in its TROUBLESHOOTING
+    table on printed page 45; the CT800ENT 2022 owner''s manual prints the same row
     in its TROUBLESHOOTING table on printed page 52 (text.md lines 1191-1192); CT800ENT
     2022 service manual 8-7 Troubleshooting, PDF p. 39, text.md lines 791-819; CT900ENT
     service manual Service Troubleshooting Checklist (first printing), PDF p. 50-51,
     text.md lines 848-900; 4.0T 2026 service manual TROUBLESHOOTING, PDF p. 35 (printed
     46), text.md lines 523-566; the CT900ENT service manual prints the row a second
-    time on PDF p. 58 against a 15 amp circuit
+    time on PDF p. 58 against a 15 amp circuit; 4.0T 2025 owner''s manual (Rev 02.04.25,
+    spirit-treadmill-40t-2025-owners-manual) prints the same row word for word, TROUBLESHOOTING,
+    PDF p. 46 (printed 44), text.md lines 1446-1482; the May 2025 printing (Rev 05.19.25,
+    spirit-treadmill-40t-2025-owners-manual-may-2025-printing) the same at PDF p.
+    46, lines 1446-1482 (compared with difflib on 2026-09-11); the 4.0T ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a, 88% the ST017
+    book) prints the same page one page later, word for word (compared with difflib
+    on 2026-09-11): TROUBLESHOOTING at PDF p. 36 (printed 46), text.md lines 592-635'
   extracted_at: '2026-08-24'
 ---
 
@@ -65,3 +73,5 @@ included, on printed page 59.
 `xt-2023-errors-trips-onboard-15-amp-breaker`.
 
 **Three service manuals print the 20 amp row**: the CT800ENT 2022 and 4.0T with the deck-cleaning remedy and the deck-flip check, and the CT900ENT with the words `High belt/deck friction.` alone. **The CT900ENT service manual then prints its checklist a second time and rates the circuit 15 amp there** (`ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt` describes that second copy); the 20 amp figure is the one that agrees with the book's safety page.
+
+The 4.0T 2025 owner's manual (February and May 2025 printings) prints this row word for word, so it holds for the previous model year too (added 2026-09-11).

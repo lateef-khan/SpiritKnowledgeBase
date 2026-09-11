@@ -1,6 +1,7 @@
 ---
 id: spirit-ct800-console-dot-matrix-display-button
-title: The dot matrix profile window and the Display button that cycles Track, Speed and Incline
+title: The dot matrix profile window and the Display button that cycles Track, Speed
+  and Incline
 kind: fact
 question: What do the dots in the middle of a Spirit CT800 treadmill console mean?
 asked_as:
@@ -25,6 +26,7 @@ facets:
   applies_to:
   - ct800-2012
   - ct800-2016
+  - ct850-2013
   - ct850-2018
   section: console
   code: '*'
@@ -38,7 +40,9 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
   locator: Operation of Your Console / Dot Matrix Center Display, pp. 11-12; the CT800
-    2016 owner's manual prints the same two paragraphs on its p. 17
+    2016 owner's manual prints the same two paragraphs on its p. 17. CT850 2013 OM
+    Dot Matrix Center Display, PDF pp. 15-16 (printed 11-12), OCR supplement lines
+    423-445
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +75,6 @@ same panel as the dots: `ct850-2020-message-window-display`.
 MATRIX CENTER DISPLAY and with the same Display button, so this card covers that machine. It prints
 the message window as a separate section on the next page
 (`ct850-2020-message-window-display`), where the 2012 CT800 manual folds the sentence in here.
+
+**The CT850 2013 owner's manual prints both paragraphs word for word across its printed pp. 11-12**, with the same Display button, the same Track / Speed / Incline LEDs and the same four-second scan, so this card covers that machine. Its message window is the separate 20-character Message Center of the 2018 console (`ct850-2020-message-window-display`).
+

@@ -2,7 +2,7 @@
 id: ct900-warranty-service-claims-process
 title: How to get warranty service - owner responsibilities and contact info
 kind: procedure
-question: How do I get warranty service for a Spirit CT900, 4.0T, 7.0T or 8.0T?
+question: How do I get warranty service for a Spirit CT900, or a 2025 or 2026 4.0T, 7.0T or 8.0T?
 asked_as:
 - how do i get warranty service
 - who do i call for a repair
@@ -19,7 +19,9 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - ct900
@@ -42,7 +44,7 @@ source:
     are printed under WARRANTY - CONTINUED, Responsibilities of the Owner / SERVICE in the
     three 2026 manuals: 4.0T p. 53, 7.0T p. 52, 8.0T p. 70. The same five steps, phone
     number and mailing address are printed in the CT900 owner''s manual PDF, spirit-treadmill-ct900-owners-manual
-    text.md lines 1532-1556, p. 54'
+    text.md lines 1532-1556, p. 54 The same five steps, number and address in the 2025 printings: spirit-treadmill-40t-2025-owners-manual PDF pp. 52-54 (text.md lines 1533-1628; the May 2025 printing spirit-treadmill-40t-2025-owners-manual-may-2025-printing is word for word the same on the same pages) and spirit-treadmill-70t-2025-owners-manual PDF pp. 55-57 (lines 1556-1651) (4.0T PDF p. 54, 7.0T PDF p. 57).'
   extracted_at: '2026-08-24'
 ---
 
@@ -71,3 +73,5 @@ Manufacturer address printed on the manual's back cover: 3000 Nestle Road, Jones
 **Step 4 here is not the XT step 4.** The residential XT manuals continue past shipping and handling to charge the customer a trip charge for in-home service, and an additional one beyond 100 miles from the nearest service center. Neither sentence is in the CT900 or in the three 2026 manuals. What the owner actually pays on these machines is collected in `spirit-2026t-warranty-owner-costs`; the XT version is `xt-2023-warranty-service-steps`.
 
 The paragraph above the steps is what fixes the labor period - twelve months from the bill of sale, or eighteen from factory shipping as read off the serial number. It is stated in two places and the other half is the Labor column of the warranty table: `xt-2023-warranty-labor-period`.
+
+**The 2025 printings of the 4.0T and 7.0T print the same steps**, the same (870) 935-1107 number and the same P.O. Box 2037 address.

@@ -3,8 +3,8 @@ id: cu800-2012-errors-noises-crank-or-pulley-rubbing-the-chain-covers-or-foreign
 title: 'Noises: a crank or the drive pulley rubbing a chain cover, or foreign material
   inside the covers rubbing the brake'
 kind: troubleshooting
-question: Where does a noise come from on a Spirit cu800-2012 upright bike, and what
-  does the service manual say to check?
+question: Where does a noise come from on a Spirit CU800 2012 or 4.0U 2025 upright
+  bike, and what does the service manual say to check?
 asked_as:
 - scraping noise from my 2012 spirit cu800
 - xu878 crank rubbing the chain cover
@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: bike
-  model: cu800-2012
+  model: '*'
   applies_to:
+  - 40u-2025
   - cu800-2012
   section: errors
   code: no-code
-  model_number:
-  - '800343'
 authority: 3
 not_to_be_confused_with:
 - spirit-upright-errors-noises-pedals-crank-then-chain-covers-or-drive-pulley
@@ -37,11 +36,13 @@ see_also:
 - cu800-2012-errors-crank-clicks-or-a-pedal-comes-loose
 - cu800-2012-errors-belt-breaks-or-the-idler-wheel-bearing-fails
 - spirit-upright-errors-noises-pedals-crank-then-chain-covers-or-drive-pulley
+- 40u-2025-errors-belt-drop-idler-wheel-pivot-weld-or-pulley-alignment
 source:
   ref: spirit-bike-cu800-2012-service-manual
   locator: CU800 2012 (XU878) service manual 8-10 Left and Right Chain Covers, PDF
     p. 47, text.md lines 742-765; CU800 2012 (XU878) service manual 8-13 Noises, PDF
-    p. 49, text.md lines 779-802
+    p. 49, text.md lines 779-802; 4.0U (FU800-SB022-03) service manual 10. Q&A, "Noises",
+    PDF p. 48 (printed 45), text.md lines 662-683 - the two 8-13 steps word for word
   extracted_at: '2026-09-11'
 ---
 
@@ -59,3 +60,6 @@ The XU878 book answers noise in two places.
 2. If there is **foreign material in the chain covers rubbing the induction brake**, get rid of it.
 
 **No pedal or crank-tightening step here** - those are section 8-15, `Smoothness` (`cu800-2012-errors-crank-clicks-or-a-pedal-comes-loose`). The CU800 2020-book that replaced this one keeps the cover-rubbing causes and adds worn pedals and a loose crank to the same list (`spirit-upright-errors-noises-pedals-crank-then-chain-covers-or-drive-pulley`); the recumbents of the same years list the seat carriage first (`spirit-recumbent-errors-noises-seat-carriage-pedals-crank-then-inside-the-shrouds`).
+
+**The 4.0U 2025 medical upright prints the two 8-13 steps word for word** in its Q&A chapter and nothing of 8-10 (added 2026-09-11). Its other mechanical Q&A entry is the belt coming off: `40u-2025-errors-belt-drop-idler-wheel-pivot-weld-or-pulley-alignment`.
+

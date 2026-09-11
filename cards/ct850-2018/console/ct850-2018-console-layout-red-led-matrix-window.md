@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: console
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-console-layout-blue-led-matrix-window
@@ -39,7 +38,9 @@ see_also:
 - ct850-2020-heart-rate-bar-graph
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: CT850 CONSOLE OPERATION call-out drawing, p. 14
+  locator: CT850 CONSOLE OPERATION call-out drawing, p. 14. CT850 2013 OM "CT850 Console"
+    call-out drawing, PDF p. 14 (printed 10), OCR supplement lines 338-348, checked
+    against a 110 dpi render
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +71,6 @@ instructions but does not draw it
 
 The ports on the back of the console are not named beyond the C-SAFE pair
 (`ct850-2020-c-safe-ports`).
+
+**The CT850 2013 owner's manual carries the same drawing with the same five labels on its printed p. 10** - Fan to keep you cool, Heart Rate % Profile, Contact Heart Rate Grips, 20-Character Message Center, Large Red-LED Matrix Window - and the same storage label, worded "Convenient water bottle holder and cargo compartment for **keys**, phone, or MP3 player", so this card covers that machine. Its render shows the **0-9 numeric keypad** under the program keys, the Speed and Incline buttons beside it, and Up/Down rockers around a Start key, none of which the labels name. That book says "key" where the 2018 book says "button".
+

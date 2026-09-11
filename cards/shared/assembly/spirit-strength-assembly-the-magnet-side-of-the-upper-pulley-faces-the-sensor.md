@@ -1,13 +1,11 @@
 ---
 id: spirit-strength-assembly-the-magnet-side-of-the-upper-pulley-faces-the-sensor
-title: >-
-  The upper pulley carries magnets, and the magnet side has to face the sensor or the
-  rep counter reads nothing
+title: The upper pulley carries magnets, and the magnet side has to face the sensor
+  or the rep counter reads nothing
 kind: procedure
-question: >-
-  Which way round does the upper pulley go on a Spirit commercial strength machine, and
-  why does the rep counter not count? Covers the Spirit CSS selectorized range and the CSD
-  lat pulldown/seated row and pec fly/rear delt.
+question: Which way round does the upper pulley go on a Spirit commercial strength
+  machine, and why does the rep counter not count? Covers the Spirit CSS selectorized
+  range and the CSD lat pulldown/seated row and pec fly/rear delt.
 asked_as:
 - the rep counter does not count
 - which way round does the top pulley go
@@ -29,6 +27,7 @@ facets:
   product_line: strength
   model: '*'
   applies_to:
+  - csd-cpsp
   - csd-lpsr
   - csd-pfrd
   - css-abdo
@@ -53,16 +52,21 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-weight-stack-fitting-order
 - spirit-strength-assembly-cable-routing-diagram-names-two-wires
 - spirit-strength-assembly-fastener-counts-that-do-not-balance
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 16 (PDF p. 17) of the CSS Abdominal manual, ASSEMBLY - STEP 5, Note 2;
-    word for word on eighteen further CSS manuals and on the CSD lat pulldown/seated row
-    and pec fly/rear delt manuals, the former numbering it (8) against its own table
+  locator: 'printed p. 16 (PDF p. 17) of the CSS Abdominal manual, ASSEMBLY - STEP
+    5, Note 2; word for word on eighteen further CSS manuals and on the CSD lat pulldown/seated
+    row and pec fly/rear delt manuals, the former numbering it (8) against its own
+    table | csd-cpsp May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
+    ASSEMBLY - CONTINUED, note 2, PDF p. 20 (printed 19); text.md lines 283-285 |
+    css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026): ASSEMBLY
+    - STEP 6 - CONTINUED, Note 2, PDF p. 19 (printed 18); text.md OCR supplement at
+    1613-1615'
   extracted_at: '2026-09-10'
 ---
 
@@ -87,3 +91,7 @@ number: only one pulley in the box has magnets in it.
 
 **On the shoulder press the printed quantity for that pulley is 11.** It is one pulley;
 see [the mismatched counts card](spirit-strength-assembly-fastener-counts-that-do-not-balance.md).
+
+The **CSD-CPSP chest press / shoulder press prints this note only in its May 2025 update** (4601US, 20250521); its February 2024 printing has no notes on the weight-stack page at all. Its table numbers the magnet pulley **210, Pulley Set with Magnets, φ89*32**, beside one plain pulley set (13); the 2024 table has two plain pulley sets and no 210.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

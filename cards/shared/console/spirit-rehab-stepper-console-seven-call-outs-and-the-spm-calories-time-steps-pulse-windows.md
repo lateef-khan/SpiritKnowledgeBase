@@ -1,6 +1,7 @@
 ---
 id: spirit-rehab-stepper-console-seven-call-outs-and-the-spm-calories-time-steps-pulse-windows
-title: The console drawing numbers seven parts, and the data windows read SPM, Calories, Time, Steps and Pulse
+title: The console drawing numbers seven parts, and the data windows read SPM, Calories,
+  Time, Steps and Pulse
 kind: fact
 question: What is on the console of a Spirit rehabilitation recumbent stepper?
 asked_as:
@@ -42,8 +43,15 @@ see_also:
 - spirit-rehab-stepper-console-stop-reset-key-and-the-program-keys-as-a-number-pad
 source:
   ref: spirit-climber-ms300-2021-owners-manual
-  locator: MS300-2021 printed p. 21; the 7.0S-2025 prints the same passage on its printed p. 22 and the 7.5S-2025 on its printed p. 24. All three pages are flattened images and the call-outs were read from the OCR supplements in text.md and confirmed against a 300 dpi render.
-    7.5S (RS9600-SS021-01) service manual 5.1 PRODUCT OPERATION, Display Windows, PDF pp. 9-10, text.md lines 75-80, the LCD Layout drawing read from the OCR supplement lines 959-981
+  locator: MS300-2021 printed p. 21; the 7.0S-2025 prints the same passage on its
+    printed p. 22 and the 7.5S-2025 on its printed p. 24. All three pages are flattened
+    images and the call-outs were read from the OCR supplements in text.md and confirmed
+    against a 300 dpi render. 7.5S (RS9600-SS021-01) service manual 5.1 PRODUCT OPERATION,
+    Display Windows, PDF pp. 9-10, text.md lines 75-80, the LCD Layout drawing read
+    from the OCR supplement lines 959-981. 7.0S (RS9500-SS021-02) service manual 5.1
+    PRODUCT OPERATION / Display Windows, PDF pp. 9-10, text.md lines 89-98 (LCD Layout
+    drawing in the OCR supplement); 7.5S (RS9600-SS021-03) service manual PDF pp.
+    9-10, lines 74-82
   extracted_at: '2026-09-10'
 ---
 
@@ -86,3 +94,6 @@ Its Display Windows page carries that one call-out over a photograph of the cons
 is headed **LCD Layout** and shows the same SPM, CALORIES, TIME, STEPS and PULSE windows over the
 message line, and both say "For detailed console operation refer to the Owner's Manual". It numbers
 no parts.
+
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print the same Display Windows page**, labelled "7.5" LCD Display" in both books - the 7.0S book keeps the 7.5S label - with the same LCD Layout drawing on the page after it.
+

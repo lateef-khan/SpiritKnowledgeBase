@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -40,7 +41,8 @@ see_also:
 - xt-2023-programs-fusion-workout-structure
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
-  locator: pages 37-38, Programs - Program Example
+  locator: 'pages 37-38, Programs - Program Example; XT485 2013: PDF pp. 22-23 (printed
+    21-22); text.md lines 761-860'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +83,5 @@ source:
 The console names the first one as "DUMBBELL ROW". The manual prints the remaining four across two columns of one page, so the order of exercises 2-5 above is the order they read down the left column then the right; the manual states only that the five are performed sequentially as listed.
 
 The 2015 XT485 and XT685 owner's manuals print the same five exercises in the same order and the same words, and so does the **2010 XT685** manual (printed pages 20-21).
+
+**The 2013 XT485 owner's manual prints the same five exercises in the same order and the same words.**

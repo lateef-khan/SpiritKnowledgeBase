@@ -5,7 +5,7 @@ title: 'Replacing the recumbent stepper seat-back angle cable: cushion off, cabl
   until the cable comes out'
 kind: procedure
 question: How do I replace the steel cable for the seat back angle adjustment on a
-  Spirit 7-5s-med (7.5S) recumbent stepper?
+  Spirit 7.5S (2021 or 2025 book) or 7.0S 2025 rehabilitation recumbent stepper?
 asked_as:
 - seat back cable replacement 7.5s
 - recline lever cable spirit medical stepper
@@ -22,9 +22,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -35,8 +37,12 @@ see_also:
 - spirit-rehab-stepper-assembly-seat-fore-aft-back-angle-and-a-45-degree-swivel
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.13.1 Replacement of Steel Cable for the Seat Back Angle Adjustment, PDF
-    p. 41; text.md lines 517-537
+  locator: '6.13.1 Replacement of Steel Cable for the Seat Back Angle Adjustment,
+    PDF p. 41; text.md lines 517-537 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.13.1 Replacement of Steel Cable for the Seat Back Angle Adjustment, PDF p. 41;
+    text.md lines 535-549 | 75s-2025 (spirit-stepper-75s-2025-service-manual): 6.13.1
+    Replacement of Steel Cable for the Seat Back Angle Adjustment, PDF p. 41; text.md
+    lines 518-531'
   extracted_at: '2026-09-11'
 ---
 
@@ -50,3 +56,4 @@ the release handle in the direction that lets the cable be taken out, and remove
 The parts list carries **Steel Cable** (item 103) and **Steel Cable, Left (84.5 x 76 cm)** (item 112); the
 procedure does not say which is this one. The fore/aft cable is the next procedure and has its own card.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print a shorter version with two figures and no Velcro strap**: "loosen the adjustment cable screw and remove the cable end", then "adjust the adjustment screw beneath the release handle to the position that allows the cable to be removed, then remove and replace the cable". Neither of the later books mentions the four cushion screws or the Velcro; the 2021 book's four-figure version above is the fuller one. The 7.5S -03 book numbers its figures 6.13.1.1 and 6.13.1.2 in the text and 6.13.1 and 6.13.2 in the captions.

@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2020
   - ct850ent-2022
@@ -43,11 +44,14 @@ see_also:
 - spirit-house-breaker-needs-a-high-inrush-type
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
+  locator: 'Section 7.1 Important Safety Instructions, p. 27 (printed 26); the same
     sentence is on the Important Safety Instructions page, p. 33 (printed 32), of
-    the CT850 2020 manual. The CT850 owner's manuals state the same figure on their electrical
-    and grounding pages - 2016 pages 5-6, 2020 pages 5-6 - and the CT850ENT-2022 owner's manual on
-    its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and its GROUNDING INSTRUCTIONS page, page 6
+    the CT850 2020 manual. The CT850 owner''s manuals state the same figure on their
+    electrical and grounding pages - 2016 pages 5-6, 2020 pages 5-6 - and the CT850ENT-2022
+    owner''s manual on its IMPORTANT SAFETY INSTRUCTIONS page, page 4, and its GROUNDING
+    INSTRUCTIONS page, page 6. CT850-2013: Important Electrical Instructions and Grounding
+    Instructions, PDF p. 7 (printed 3), OCR supplement at lines 130-185, read against
+    a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -115,3 +119,13 @@ the CT800 family's figure and not this one:
 `spirit-ct800-safety-outlet-110-volt-15-amp`. **Nothing in any CT850 manual reconciles the two.**
 Quote the figure from the machine's own manual, and do not fit a CT850-2018 to a 20-amp circuit or
 a CT850-2016, CT850-2020 or CT850ENT-2022 to a 15-amp one on the strength of the other book.
+
+## The CT850-2013 owner's manual prints the same 20 amps, in the same two places
+
+**`The electrical outlet used should have a dedicated 20 amp circuit breaker`** closes its
+circuit-breaker paragraph, and its grounding page reads **`This product is for use on a 120-volt/20
+amp dedicated circuit`** - the 2016 and 2020 sentence without the word `nominal`. Its drawing shows
+a 20-amp T-slot receptacle. Like the 2016 and 2020 owner's manuals it prints no `flat level surface`
+sentence, no `only the treadmill plugged into the circuit`, no NEMA type and **no extension-cord
+gauge anywhere** - the appliance list it prints has no cord line
+(`spirit-ct800-safety-instructions-list`). The 2018 book's 110-volt/15 amp figure is not in it.

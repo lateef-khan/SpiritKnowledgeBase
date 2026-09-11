@@ -2,7 +2,8 @@
 id: spirit-2026t-console-auto-power-down
 title: The console powers itself down after 30 minutes of inactivity
 kind: fact
-question: Why does a Spirit 7.0T, 8.0T or MT200 treadmill console switch itself off, and how do I wake it?
+question: Why does a Spirit 7.0T, 8.0T or MT200 treadmill console switch itself off,
+  and how do I wake it?
 asked_as:
 - my treadmill console goes blank on its own
 - how do i wake the console up
@@ -23,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2022
@@ -36,7 +38,8 @@ see_also:
 - 70t-2026-console-power-on-self-test
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 7.0T p. 22 POWER ON & CONSOLE OPERATION; 8.0T p. 24 POWER ON & CONSOLE OPERATION
+  locator: 7.0T p. 22 POWER ON & CONSOLE OPERATION; 8.0T p. 24 POWER ON & CONSOLE
+    OPERATION. 7.0T 2025 owner's manual PDF p. 24 (printed 22), text.md lines 660-686
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +61,6 @@ the same 30 minutes (p. 22) and is covered here. **The 2010 MT200 manual prints 
 minutes**, so that machine is not on this card - see
 `mt200-2010-console-auto-power-down-twenty-minutes`. Check which manual you have
 before quoting a number.
+
+**The 2025 printing of the 7.0T owner's manual prints the same 30 minutes on its p. 24**, so this card covers the 70t-2025; it points the reader to "page 74" for the Maintenance section that disables it, a page the book does not have.
+

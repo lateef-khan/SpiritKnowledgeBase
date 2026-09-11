@@ -1,6 +1,7 @@
 ---
 id: xt685-2010-console-calibration-wheel-size-3-01
-title: Calibrating with Start and Fast +, through wheel size 3.01 and a grade return step
+title: Calibrating with Start and Fast +, through wheel size 3.01 and a grade return
+  step
 kind: procedure
 question: How do I calibrate a Spirit xt685-2010 treadmill?
 asked_as:
@@ -23,8 +24,9 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: xt685-2010
+  model: '*'
   applies_to:
+  - xt485-2013
   - xt685-2010
   section: console
   code: '*'
@@ -37,9 +39,11 @@ not_to_be_confused_with:
 - xt-2023-console-calibration-wheel-size-two-four-three
 see_also:
 - xt685-2010-console-engineering-mode-menu
+- xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions
 source:
   ref: spirit-treadmill-xt685-2010-owners-manual
-  locator: Calibration Procedure, p. 36
+  locator: Calibration Procedure, p. 36. XT485 2013 OM CALIBRATION PROCEDURE, PDF
+    p. 34 (printed 33), text.md lines 1346-1359
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +78,6 @@ says how a speed above that ceiling is reached. Both figures are reproduced as p
 
 If the calibration does not pass, the manual sends you to the speed sensor alignment check, which it
 prints immediately after these steps.
+
+**The XT485 2013 owner's manual prints these nine steps with the same figures on its printed p. 33** - Start and Fast +, wheel size **3.01**, minimum 0.5, maximum 12.0, maximum elevation 15, Grade return On, Start - so this card covers that machine. Being the Australian edition it prints the speeds with their metric twins, **0.5 mph / 1.0 kmph** and **12.0 mph / 18.0 kmph**, and its Grade return step reads "(This allows the incline to return to zero when Stop is pressed on training)" **without the European note**. The speed sensor alignment follows it on the same page, and its maintenance menu is on the same page too (`xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions`).
+

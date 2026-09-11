@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -36,7 +37,8 @@ see_also:
 - 40t-2026-programs-manual-program
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 'page 26, Programs Setup - Manual (8.0T manual: page 34)'
+  locator: 'page 26, Programs Setup - Manual (8.0T manual: page 34); 7.0T 2025: PDF
+    p. 28 (printed 26); text.md lines 795-830'
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +63,5 @@ The 4.0T's Manual program is set up differently: it asks for age, weight and tim
 **Both MT200 owner's manuals print the 7.0T version of this word for word** - the
 2010-generation manual on printed page 16, the 2022-generation manual on printed page 27.
 On the MT200 you press the **manual** key then the **enter** key, exactly as on the 7.0T.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

@@ -25,6 +25,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   - xt685-2015
@@ -38,8 +39,11 @@ see_also:
 - ct850-2016-tread-belt-and-deck-cleaning
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: p. 36, GENERAL MAINTENANCE - General Cleaning (XT485 p. 41, XT685 p. 41);
-    XT485ENT p. 51
+  locator: 'p. 36, GENERAL MAINTENANCE - General Cleaning (XT485 p. 41, XT685 p. 41);
+    XT485ENT p. 51 The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    GENERAL CLEANING, PDF p. 30 (printed 29), text.md lines 1164-1169 - pet hair,
+    the black motor hood, monthly underneath, once a year inside, UNPLUG POWER CORD
+    BEFORE THIS TASK.'
   extracted_at: '2026-09-09'
 ---
 
@@ -59,3 +63,6 @@ These manuals print no maintenance chart and give no page reference for one. **T
 manual does both**, and puts the motor-hood vacuum at **every other month** rather than once a
 year - so the XT685 2015 on this card is the odd year out within its own model line, not the norm.
 See `xt-2023-maintenance-vacuuming-and-general-cleaning` and `xt685-2010-maintenance-record-chart`.
+
+**The XT485 2013 prints the once-a-year figure too**, with the same pet hair, the same black motor hood and the
+same unplug line, so the yearly interval on the XT485 predates the 2015 book.

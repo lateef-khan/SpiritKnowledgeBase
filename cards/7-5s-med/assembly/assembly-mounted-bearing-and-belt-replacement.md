@@ -4,8 +4,9 @@ title: 'Replacing the recumbent stepper belts and mounted bearings: idler slacke
   on a socket head bolt and a J bolt, the short belt back at 320 N and the long belt
   at 240 N'
 kind: procedure
-question: How do I replace the drive belts or the mounted bearings on a Spirit 7-5s-med
-  (7.5S) recumbent stepper, and what tension do the belts take?
+question: How do I replace the belts or the mounted bearings, and what tension do
+  the belts take on a Spirit 7.5S (2021 or 2025 book) or 7.0S 2025 rehabilitation
+  recumbent stepper?
 asked_as:
 - belt tension 7.5s stepper
 - belt slipping on my spirit 7.5s
@@ -26,9 +27,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -40,7 +43,10 @@ see_also:
 - 85s-2025-assembly-drive-belt-replacement-80-n
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.9 Mounted Bearing/ Belt Replacement, PDF pp. 34-35; text.md lines 403-434
+  locator: '6.9 Mounted Bearing/ Belt Replacement, PDF pp. 34-35; text.md lines 403-434
+    | 70s-2025 (spirit-stepper-70s-2025-service-manual): 6.9 Mounted Bearing/ Belt
+    Replacement, PDF pp. 34-35; text.md lines 421-451 | 75s-2025 (spirit-stepper-75s-2025-service-manual):
+    6.9 Mounted Bearing/ Belt Replacement, PDF pp. 34-35; text.md lines 404-434'
   extracted_at: '2026-09-11'
 ---
 
@@ -65,3 +71,4 @@ The parts list names them **Belt (8PJ), 584 mm** and **Belt (8PJ), 1032 mm** and
 The troubleshooting chapter (7.1.1) sends a slipping belt here to have the screw and nut tightened; if it still
 slips, the cable guide wheel's one-way bearing is suspect. The 8.5S has one drive belt at 80 N.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included. Belt (584L) 320 N and belt (1032L) 240 N in all three, on the same two bolts.

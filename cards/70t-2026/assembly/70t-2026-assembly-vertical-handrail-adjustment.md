@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -38,9 +39,11 @@ see_also:
 - 70t-2026-assembly-procedure
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19, SETTING UP YOUR TREADMILL - Adjusting the Vertical Handrail Position;
-    MT200 2010 owner's manual p. 10 and MT200 2022 owner's manual p. 20, Adjusting
-    the hand rail vertical position
+  locator: 'p. 19, SETTING UP YOUR TREADMILL - Adjusting the Vertical Handrail Position;
+    MT200 2010 owner''s manual p. 10 and MT200 2022 owner''s manual p. 20, Adjusting
+    the hand rail vertical position | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SETTING UP YOUR TREADMILL - Adjusting the Vertical Handrail Position, PDF p. 21
+    (printed 19); text.md lines 595-633'
   extracted_at: '2026-09-09'
 ---
 
@@ -70,3 +73,5 @@ adjusts height with a quick-release lever, has no ratcheting pin and no lift
 bar, and its procedure does not include the lower-past-and-come-back-up move.
 The horizontal adjustment is the same on all of these machines and is held on
 its own card.
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints this page word for word; its assembly chapter is 98.2% the 2026 chapter at word level, the difference being two item numbers in step three.

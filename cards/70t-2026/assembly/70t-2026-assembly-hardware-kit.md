@@ -23,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: assembly
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 40t-2026-assembly-hardware-kit
@@ -39,7 +38,8 @@ see_also:
 - spirit-2026t-assembly-tools-included
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 12, PARTS INCLUDED
+  locator: 'p. 12, PARTS INCLUDED | 70t-2025 (spirit-treadmill-70t-2025-owners-manual):
+    PARTS INCLUDED, PDF p. 14 (printed 12); text.md lines 340-384'
   extracted_at: '2026-09-09'
 ---
 
@@ -99,3 +99,5 @@ numbers**, 153 and 154, and the counts differ - six against eight.
 The handrail hardware does the same job on the 8.0T under three different
 numbers: its 213, 215 and 214 stand where this machine's 154, 155 and 226 do,
 at the same three sizes.
+
+The **2025 printing** (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints the same panel with **step three's eight 3/8" x 3/4" bolts numbered 153 and its eight 3/8" x 25 x 2T washers numbered 59** - the same numbers its steps one and two already use for the same sizes - where the 2026 panel numbers them 154 and 155. Same sizes, same counts, different item numbers; the 2026 book gave the step-three pair new numbers.

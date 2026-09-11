@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   section: console
@@ -34,7 +35,9 @@ see_also:
 - cu900ent-security-distance-lock
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Setting mileage lock, p. 48 (printed 47)
+  locator: Setting mileage lock, p. 48 (printed 47). CT850 2013 OM Setting Mileage
+    Lock, PDF p. 30 (printed 26), OCR supplement lines 1240-1260, checked against
+    a 110 dpi render
   extracted_at: '2026-09-08'
 ---
 
@@ -65,3 +68,6 @@ writes "Lock Setting OK".
 
 **The 2016 and 2020 CT850 owner's manuals print no mileage lock at all**, and neither does the
 ENT-2022. Their only keypad lock is the engineering mode Child Lock.
+
+**The CT850 2013 owner's manual prints these eight steps on its printed p. 26**, under SETTING MILEAGE LOCK, with the same 1-2-3 gesture, the same `PASSWORD = ****` prompt, the same 4-digit code, "MILEAGE = XXX Km" and "LOCK SETTING OK", and the same 1-2-3 unlock, so this card covers that machine. It writes "safety key", and its step 8 is printed "8. 8) To unlock ...", a doubled number on the page.
+

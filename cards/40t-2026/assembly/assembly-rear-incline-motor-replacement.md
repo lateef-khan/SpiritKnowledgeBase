@@ -39,8 +39,9 @@ see_also:
 - 40t-2026-assembly-part-replacement-procedure-list
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Section 9.9 Rear Incline Motor Replacement, PDF pp. 53-54 (printed 64-65);
-    text.md lines 855-873
+  locator: 'Section 9.9 Rear Incline Motor Replacement, PDF pp. 53-54 (printed 64-65);
+    text.md lines 855-873 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.9 Rear Incline Motor Replacement, PDF pp. 54-55; text.md lines 927-944'
   extracted_at: '2026-09-11'
 ---
 
@@ -60,3 +61,4 @@ This is the only Spirit treadmill service manual in the repository with a rear i
 Sole TT8 books print a rear-motor procedure with the same 210mm; the Sole F85 2023 book's rear motor zeroes at
 205mm, which is why it is listed as a look-alike and not a match.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

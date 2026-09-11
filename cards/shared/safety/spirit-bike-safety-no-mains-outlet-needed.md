@@ -27,6 +27,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -50,6 +54,8 @@ not_to_be_confused_with:
 - spirit-ct800-safety-outlet-120-volt-15-amp
 - spirit-xe-safety-no-outlet-figure-printed
 - spirit-ct800-safety-outlet-110-volt-15-amp
+- spirit-med-bike-safety-outlet-90-to-240-volt-15-amp
+- spirit-med-bike-safety-outlet-100-to-240-volt-15-amp
 see_also:
 - spirit-ce-safety-generator-produces-ac-power
 - spirit-bike-safety-instructions-list
@@ -57,6 +63,8 @@ see_also:
 - cu800-2012-safety-instructions-list
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
 - spirit-xe-safety-outlet-115-volt-15-amp
+- spirit-med-bike-safety-instructions-list-seventeen-items
+- spirit-med-bike-safety-operating-environment-5-to-48-c
 source:
   ref: spirit-bike-cr900-2018-owners-manual
   locator: 'POWER, printed page 11. The CU900-2018 manual prints it on its printed
@@ -72,7 +80,11 @@ source:
     47), lines 742-747, and 8-5 Chain Covers step 2, PDF p. 41 (printed 41), lines
     657-659; XBR95-2016 (XR829-SB012-01) section 7, PDF p. 35, lines 457-483; XBR95-2023
     (XR829A-SB032) section 7, PDF p. 13, lines 191-223, and Electrical Configurations,
-    PDF p. 6, lines 79-87.'
+    PDF p. 6, lines 79-87. Spirit Medical 4.0R (2025): Power On, PDF p. 15 (printed
+    13), text.md lines 403-431, in spirit-bike-40r-2025-owners-manual; 4.0U: PDF p.
+    15, lines 355-387, in spirit-bike-40u-2025-owners-manual. Dyaco PT 4.0 R: Power
+    on, PDF p. 32, lines 880-926, in spirit-bike-40r-pt-owners-manual; PT 4.0 U: PDF
+    p. 30, lines 848-894, in spirit-bike-40u-pt-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -215,3 +227,18 @@ cord, GFCI, high-inrush breaker and grounding paragraphs beside it - on a machin
 Electrical Configurations page says `power supply (generator power)`. So the XBR95-2023, whose
 owner's manual was rewritten to drop every outlet sentence, gets them all back in its service
 manual. The answer does not change: no outlet needed, and the book prints one anyway.
+
+## The Spirit Medical 4.0R and 4.0U, and their Dyaco PT editions, are self-powered too
+
+**All four books say it under `Power On`**, naming the machine: `The 4.0R has a built-in generator for
+power and does not need to be plugged into an AC outlet. To power up the bike simply start to pedal,
+the console will turn on automatically.` The Dyaco PT editions print the same sentence as `The 4.0 R`
+and `The 4.0 U`. None of the four prints an outlet, a voltage, an amperage, a breaker rating, an
+extension cord gauge or a grounding page, and their safety lists name none
+(`spirit-med-bike-safety-instructions-list-seventeen-items`); their only electrical rule is the
+spinning-generator shock warning (`spirit-med-bike-safety-operating-environment-5-to-48-c`). No
+unplug DANGER line is printed by any of the four.
+
+**The plug-in medical bikes are the other family.** The 7.0R, 7.0U, 8.0U and 8.5R have a universal
+power supply, a line cord and a 5 amp fuse (`spirit-med-bike-safety-outlet-90-to-240-volt-15-amp`,
+`spirit-med-bike-safety-outlet-100-to-240-volt-15-amp`); nothing on this card applies to them.

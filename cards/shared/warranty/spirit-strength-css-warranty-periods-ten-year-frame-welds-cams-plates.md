@@ -59,11 +59,11 @@ see_also:
 - spirit-strength-warranty-use-environment
 source:
   ref: spirit-strength-css-scpr-owners-manual
-  locator: WARRANTY - COMMERCIAL, the coverage table. spirit-strength-css-scpr-owners-manual PDF p. 25
-    (printed 24) and the same table in the other seventeen CSS books, read from each PDF's native text
+  locator: 'WARRANTY - COMMERCIAL, the coverage table. spirit-strength-css-scpr-owners-manual PDF p. 25
+    (printed 24) and the same table in the other seventeen CSS books, read from each PDF''s native text
     layer. spirit-strength-css-srow-owners-manual prints its whole warranty section as flat images - pdftotext
     returns nothing from PDF pp. 23-25 - so its table was read from a 300 dpi tesseract --psm 4 render
-    of PDF p. 23.
+    of PDF p. 23. Later printing checked on 2026-09-11 and found unchanged: spirit-strength-css-delt-owners-manual-2026 (the 2026 revision of the CSS-DELT book) prints the same three warranty pages, WARRANTY - COMMERCIAL effective July 02, 2024 and two WARRANTY - CONTINUED pages, PDF pp. 27-29 (text.md lines 781-876).'
   extracted_at: '2026-09-10'
 ---
 

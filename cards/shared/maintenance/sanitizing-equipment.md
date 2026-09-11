@@ -33,7 +33,7 @@ see_also:
 - spirit-strength-maintenance-no-cleaning-agent-and-no-storage-section
 source:
   ref: ct900-om
-  locator: 'ct900-om p. 39; the same four bullets and the same WARNING are spirit-treadmill-ct900-owners-manual p. 39 and spirit-treadmill-ctsbs900-owners-manual p. 44; spirit-treadmill-ct900ent-owners-manual p. 49 prints the four bullets without the WARNING. All fourteen 2024 New Black Units owner''s manuals print the same four bullets, checked on a 300 dpi render of each page in wave 15; only the four treadmills attach the WARNING to them - ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58)'
+  locator: 'ct900-om p. 39; the same four bullets and the same WARNING are spirit-treadmill-ct900-owners-manual p. 39 and spirit-treadmill-ctsbs900-owners-manual p. 44; spirit-treadmill-ct900ent-owners-manual p. 49 prints the four bullets without the WARNING. All fourteen 2024 New Black Units owner''s manuals print the same four bullets, checked on a 300 dpi render of each page in wave 15; only the four treadmills attach the WARNING to them - ct800-2024 and ct850-2024 printed p. 40 (PDF p. 42), ct800ent-2024 and ct850ent-2024 printed p. 56 (PDF p. 58) Checked on the 2026-09-11 medical wave: the four bullets are printed word for word on spirit-bike-40r-2025-owners-manual PDF p. 35 (printed 33, lines 998-1013) and spirit-bike-40u-2025-owners-manual PDF p. 35 (lines 952-967) without the WARNING; on spirit-bike-70r-2025-owners-manual PDF p. 46 (printed 44, lines 1263-1291) and spirit-bike-70u-2025-owners-manual PDF p. 44 (printed 42, lines 1220-1248) with the six-item WARNING; on spirit-treadmill-40t-2025-owners-manual PDF p. 43 (printed 41, lines 1211-1225), its May 2025 printing, and spirit-treadmill-70t-2025-owners-manual PDF p. 42 (printed 40, lines 1204-1219) without it. Not printed at all in spirit-bike-80u-2025-owners-manual, spirit-bike-85r-2025-owners-manual, spirit-bike-40r-pt-owners-manual, spirit-bike-40u-pt-owners-manual or spirit-bike-70r-2021-owners-manual.'
   extracted_at: '2026-08-24'
 ---
 
@@ -117,3 +117,17 @@ the only hits are the word "clothing" on their safety pages. See
 `spirit-strength-maintenance-no-cleaning-agent-and-no-storage-section`. This card is still the right
 answer to give those customers - it is Spirit's own guidance and its `applies_to` reaches them - but
 do not tell them it is printed in their manual.
+
+## The 2025 Spirit medical range splits four ways
+
+- **4.0R and 4.0U 2025, 4.0T and 7.0T 2025**: the four bullets, no WARNING.
+- **7.0R and 7.0U 2025**: the four bullets **with** the six-item WARNING - Belt, PU wheel, Bearing, Idler, Shaft,
+  Pedal - the first Spirit bike owner's manuals to print the list; their service manuals print none, and the
+  4.0R/4.0U service manuals print a five-item list (`spirit-cr900-cu900-maintenance-wear-parts-five-items`).
+- **8.0U and 8.5R 2025**: the seven-step **20 ml, 70% or greater** clinical routine instead
+  (`80t-2026-maintenance-disinfection-procedure`), with the alcohol ban two pages later. Do not answer them from
+  these bullets.
+- **The Dyaco PT 4.0R, PT 4.0U and MED 7.0R editions**: nothing - no sanitizing section of any kind
+  (`spirit-med-bike-maintenance-dyaco-editions-print-no-sanitizing-or-disinfection`). Their intended-use chapters
+  and the 2025 7.0R/7.0U/8.0U/8.5R say there is *no particular restriction on hygienic requirements*
+  (`spirit-med-bike-maintenance-no-restriction-on-hygienic-requirements`).

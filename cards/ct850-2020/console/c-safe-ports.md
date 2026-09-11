@@ -23,7 +23,12 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 40u-pt
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -51,6 +56,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -83,8 +89,19 @@ source:
     (printed 14), lines 206-209; CE800 (2020) service manual 4-2-7 CSAFE FEATURE,
     PDF p. 15 (printed 14), text.md lines 285-289; CE850 (2020) service manual C-SAFE
     FEATURE, PDF p. 16 (printed 16), lines 340-343; CE900 (SE8800-SE026) service manual
-    C-SAFE FEATURE, PDF p. 14 (printed 14), lines 217-220.
-    CRS800S (2020 ver.) service manual C-SAFE FEATURE, PDF p. 12 (printed 12), text.md lines 145-147; CS800 (2020) service manual 4-2-7 CSAFE FEATURE, PDF p. 15 (printed 14), lines 282-285
+    C-SAFE FEATURE, PDF p. 14 (printed 14), lines 217-220. CRS800S (2020 ver.) service
+    manual C-SAFE FEATURE, PDF p. 12 (printed 12), text.md lines 145-147; CS800 (2020)
+    service manual 4-2-7 CSAFE FEATURE, PDF p. 15 (printed 14), lines 282-285. 4.0R-2025
+    OM SETTING UP / C-Safe, PDF p. 15 (printed 13), text.md lines 412-417; 4.0U-2025
+    OM PDF p. 15, lines 381-386; 4.0R SM 4-1 CSAFE feature, PDF p. 16, lines 147-151;
+    4.0U SM PDF p. 16, lines 153-156; Dyaco PT 4.0 R PDF p. 33, lines 926-931; PT
+    4.0 U PDF p. 31. 4.0T 2025 owner's manual (spirit-treadmill-40t-2025-owners-manual,
+    Revision 02.04.25) PDF p. 18 (printed 16), text.md lines 468-501; the May 2025
+    printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing, Revision
+    05.19.25) is the same document at the same page and lines. CT850 2013 OM CSAFE
+    Feature, PDF p. 14 (printed 10), OCR supplement lines 364-372; 4.0T ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a, the later revision
+    of the ST8700-ST017 book) CSAFE feature, PDF p. 13, lines 181-188
   extracted_at: '2026-09-08'
 ---
 
@@ -186,3 +203,10 @@ FEATURE** after PROGRAMMABLE FEATURES - both with the POWER port for a remote-co
 system and the COMM port for fitness software applications, in exactly the words above. The CRS800S
 book's block diagram also draws a C-SAFE&POWER connector on the display board, held with the specs
 cards.
+
+**The 2025 Spirit Medical 4.0R and 4.0U, their Dyaco PT editions and both 4.0 service manuals print the two ports in exactly the words above**, under "C-Safe" or "CSAFE feature", so this card covers those four bikes; their maintenance menu carries a CSAFE Test beside them (`spirit-med-40-bike-console-maintenance-mode-with-an-ant-id-a-bootloader-switch-and-a-model-setting`). **The 7.0 and 8.0 series medical bikes never mention C-SAFE.**
+
+**The 2025 printings of the 4.0T owner's manual print the section word for word on their p. 18**, and the ST8700A service manual on its p. 13, so the 40t-2025 is covered too.
+
+**The CT850 2013 owner's manual names the WebRacing system on the COMM port**, exactly as the 2012 CT800 manual does: "The Communication port (COMM) can be used to interact with the Virtual Reality Fitness system by WebRacing LTD. See your Spirit Fitness dealer for more information on how your members can race against a computer controlled figure or real life exercisers." Its console page also photographs the two RJ ports, labelled POWER and COMM, on the back of the console.
+

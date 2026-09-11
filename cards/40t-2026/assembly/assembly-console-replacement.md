@@ -40,8 +40,9 @@ see_also:
 - 40t-2026-assembly-part-replacement-procedure-list
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: Section 9.2 Console Replacement, printed under the heading "10.2", PDF
-    p. 41 (printed 52); text.md lines 710-724
+  locator: 'Section 9.2 Console Replacement, printed under the heading "10.2", PDF
+    p. 41 (printed 52); text.md lines 710-724 | 40t-2026 ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    10.2 Console Replacement, PDF p. 42; text.md lines 779-792'
   extracted_at: '2026-09-11'
 ---
 
@@ -58,3 +59,4 @@ that anyway.
 The heading is misprinted. The chapter runs 9.1, 9.3, 9.4 ... 9.9, and this page is headed **"10.2 Console
 Replacement"**; the table of contents lists it as 9.2. There is no chapter 10 in the book.
 
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

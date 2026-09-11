@@ -1,6 +1,7 @@
 ---
 id: 70t-2026-console-fan-key
-title: The fan is off in Idle mode and toggles with the Set Up / Fan key during a program
+title: The fan is off in Idle mode and toggles with the Set Up / Fan key during a
+  program
 kind: fact
 question: How do I turn the fan on on a Spirit 70t-2026 treadmill?
 asked_as:
@@ -33,7 +34,11 @@ see_also:
 - 70t-2026-console-set-up-menu-patient-data
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 22, POWER ON & CONSOLE OPERATION - Fan
+  locator: 'p. 22, POWER ON & CONSOLE OPERATION - Fan. Absent from the 2025 printing
+    (spirit-treadmill-70t-2025-owners-manual): its POWER ON & CONSOLE OPERATION page,
+    PDF p. 24, lines 660-686, heads the key "Set up" and prints no Fan paragraph;
+    a loose grep for "fan" over the whole book finds only the drive fan belt, the
+    inverter error table and the parts list'
   extracted_at: '2026-09-09'
 ---
 
@@ -45,3 +50,6 @@ source:
 
 So a fan that will not start is usually a machine sitting in Idle mode: start a
 program first.
+
+**The 2025 printing of the 7.0T owner's manual has no fan.** Its console overview labels the key **Set up**, its Set up paragraph gives it one job, and the Fan paragraph above is not printed anywhere in that book - checked by a loose-word search, a spaced search and a render of the page. The fan and the Set Up / Fan key are a 2026 addition, or at least a 2026 description; do not tell a 70t-2025 owner to toggle a fan with Set up.
+

@@ -61,7 +61,7 @@ source:
     of contents lines 11-28. CT1000ENT: 8.3 Preventative Maintenance PDF p. 25, lines
     577-597 (two checks only) and the matrix rows PDF p. 21, lines 526-529. Every
     page of these PDFs that a 300 dpi render knew more about than the text layer was
-    OCR''d in the ingest sweep; none of those supplements holds maintenance text'
+    OCR''d in the ingest sweep; none of those supplements holds maintenance text The ST8700A revision of the 4.0T book, spirit-treadmill-40t-2026-service-manual-st8700a (ST8700A-ST026-01), was checked on 2026-09-11: its table of contents, PDF p. 2, text.md lines 11-35, runs chapters 1-9 with no maintenance chapter; its TROUBLESHOOTING page, PDF p. 36 (printed 46), lines 592-635, and troubleshooting matrix, PDF p. 39 (printed 49), lines 721-758, print the same dangling rows - "See General Maintenance section on Treadbelt Tension", "See General Maintenance section on cleaning the deck", "See treadmill belt adjustment", "See treadmill belt lubrication". Its OCR supplements (18 pages) hold no maintenance text.'
   extracted_at: '2026-09-11'
 ---
 
@@ -75,7 +75,7 @@ Each of these books prints rows such as *"Treadmill belt hesitates when walked/r
 |---|---|
 | CT800 2020, CT850 2020, CT800ENT 2022, CT850ENT 2022 | Chapters run outlines, electronics, wiring, safety, errors, circuit diagram, exploded view or engineering mode, part replacement, Q&A. No maintenance chapter at all. The ENT books' "Maintenance" heading is the engineering-mode menu for language, Wi-Fi, Ethernet and Bluetooth. |
 | CT800 2016 | Chapter 9 "General Maintenance" is a single divider page with nothing under it. The contents page promises "9.1 Tread Belt and Deck"; the page after the divider is the troubleshooting checklist, numbered 9.1 in its turn. The only belt or motor care in the book is Procedures 10-12 (`ct800-2016-maintenance-belt-checking-against-the-belt-guide`). |
-| 4.0T (ST8700) | Chapters 1-9, ending in part replacement. No maintenance chapter. |
+| 4.0T (ST8700-ST017 and the ST8700A-ST026-01 revision) | Chapters 1-9, ending in part replacement. No maintenance chapter in either revision; the A revision prints the same four dangling rows. |
 | CT1000ENT 2023 | "8.3 Preventative Maintenance" is two checks — belt centring and drive-belt slip (`ct1000ent-2023-maintenance-centring-the-belt-through-the-adjustment-base`). No cleaning, no lubrication, no tread-belt tension, no deck life. |
 
 ## Where the procedures are

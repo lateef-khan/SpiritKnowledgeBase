@@ -3,12 +3,13 @@ id: spirit-cu800-assembly-crank-arbor-and-drive-pulley-replacement
 title: 'Replacing the drive pulley on the generator upright: a 20 mm C-ring off the
   crank arbor, then four 1/4 x 3/4 bolts and nyloc nuts with two 11 mm wrenches'
 kind: procedure
-question: How do I replace the drive pulley or the crank arbor on a Spirit CU800 or
-  CU800ENT upright bike?
+question: How do I replace the crank arbor (crank axle) or the drive pulley on a Spirit
+  CU800, CU800ENT or Spirit Medical 4.0U upright bike?
 asked_as:
 - drive pulley replacement spirit cu800
 - c ring on the crank axle cu800ent
 - pulley bolts spirit upright bike
+- drive pulley c ring on the 4.0u
 keywords:
 - drive pulley
 - crank arbor
@@ -24,6 +25,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40u-2025
   - cu800-2021
   - cu800ent-2022
   section: assembly
@@ -40,7 +42,9 @@ source:
   ref: spirit-bike-cu800-2021-service-manual
   locator: 'cu800-2021: 10-10 The Belt and Drive Pulley Replacement, PDF p. 50; text.md
     lines 721-739 | cu800ent-2022: 8-10 The Belt and Drive Pulley replacement, PDF
-    p. 43; text.md lines 690-715'
+    p. 43; text.md lines 690-715 | 40u-2025 (spirit-bike-40u-2025-service-manual):
+    9-9 Crank Axle and Drive Pulley Replacement, PDF p. 45 (printed 42); text.md lines
+    610-625'
   extracted_at: '2026-09-11'
 ---
 
@@ -52,3 +56,5 @@ source:
 The section is headed "The Belt and Drive Pulley Replacement" but the belt removal itself is the previous section (the drive-belt and idle-arm card, with the 180 to 205 Hz figure that has to be set again after the pulley goes back).
 
 **Same procedure, different nut, on the XBU55 books:** the XBU55 upright first releases the bearing housing (1/4" x 8T nyloc nut (130) and an M10 x P1.25 x 15L button head bolt) before the same C-ring and the same four bolts, and its belt figure is 180 +/- 10 Hz. That is the card this one is not to be confused with.
+
+**The Spirit Medical 4.0U (FU800-SB022-03 book) prints these four steps word for word** - C-ring tweezers on the Ø20 C-ring, two 11 mm open-end wrenches, four 1/4" x 3/4" hex head bolts and four 1/4" x 8T nyloc nuts - under the heading "Crank Axle and Drive Pulley Replacement", with no part numbers. Its belt goes back to 180 +/- 10 Hz afterwards, not 180 to 205; that figure is on the 4.0U belt card.

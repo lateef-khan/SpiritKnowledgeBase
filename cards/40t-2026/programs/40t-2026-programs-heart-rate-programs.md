@@ -22,13 +22,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -37,7 +36,9 @@ see_also:
 - 80t-2026-programs-heart-rate-target
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 39, Heart Rate Program Operation
+  locator: 'page 39, Heart Rate Program Operation; 4.0T 2025 (February printing):
+    PDF p. 40 (printed 38); text.md lines 1092-1123; 4.0T 2025 (May printing): PDF
+    p. 40 (printed 38); text.md lines 1092-1123'
   extracted_at: '2026-09-09'
 ---
 
@@ -60,3 +61,5 @@ The manual describes no separate behaviour for the HR interval program beyond it
 
 Entering your correct age matters here: the console works the target out from your age. How the console
 reads your pulse - hand grips, chest strap - is covered in the console section, not here.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

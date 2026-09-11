@@ -54,10 +54,10 @@ see_also:
 - spirit-strength-warranty-use-environment
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: WARRANTY - COMMERCIAL, the coverage table. spirit-strength-csd-acbe-owners-manual PDF p. 28
+  locator: 'WARRANTY - COMMERCIAL, the coverage table. spirit-strength-csd-acbe-owners-manual PDF p. 28
     (printed 27); the same table in csd-bcte p. 25, csd-cpsp p. 29, csd-itot p. 24, csd-lelc p. 28, csd-lpce
     p. 28, csd-lpsr p. 25, csd-pfrd p. 27, csd-puda p. 24, csf-hrac p. 20 and csf-funt p. 20. Read from
-    each PDF's native text layer.
+    each PDF''s native text layer. Later printing checked on 2026-09-11 and found unchanged: spirit-strength-csd-cpsp-owners-manual-2025-update (the May 2025 update of the CSD-CPSP book) prints the same three warranty pages, effective February 21, 2024, PDF pp. 29-31 (flat images; OCR supplements in text.md).'
   extracted_at: '2026-09-10'
 ---
 

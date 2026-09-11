@@ -2,7 +2,8 @@
 id: xt-2015-console-handrail-controls-and-disable-switch
 title: The handrail speed and incline controls and the switch that disables them
 kind: fact
-question: How do I turn off the handrail speed and incline buttons on a Spirit XT285-2015, XT385-2015, XT485-2015 or XT685-2015 treadmill?
+question: How do I turn off the handrail speed and incline buttons on a Spirit XT285-2015,
+  XT385-2015, XT485-2015 or XT685-2015 treadmill?
 asked_as:
 - my treadmill speeds up when i hold the rail
 - how do i lock out the handrail buttons
@@ -26,6 +27,7 @@ facets:
   applies_to:
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt685-2010
   - xt685-2015
@@ -41,7 +43,9 @@ source:
   ref: spirit-treadmill-xt285-2015-owners-manual
   locator: CONSOLE OPERATION / Handrail Adjustments, p. 17 and Handrail Buttons Disable
     Switch, pp. 20-21; the XT385-2015 (pp. 19, 23), XT485-2015 (pp. 18, 22) and XT685-2015
-    (pp. 18, 22) manuals print the same two paragraphs
+    (pp. 18, 22) manuals print the same two paragraphs. XT485 2013 OM Handrail Adjustments,
+    PDF p. 14 (printed 13), text.md lines 397-403, and Handrail Buttons Disable Switch,
+    PDF p. 18 (printed 17), lines 581-585
   extracted_at: '2026-09-09'
 ---
 
@@ -73,3 +77,6 @@ Handrail Adjustments paragraph says the disable button is **on the right side of
 of the console**, and its Handrail Buttons Disable Switch paragraph says the switch is **to the
 right of the Stop button**, where the XT385, XT485 and XT685 of 2015 say to the right of the Enter
 button. All three descriptions are reproduced as printed.
+
+**The XT485 2013 owner's manual prints both paragraphs too**, so this card covers that machine, and it gives the switch the 2010 XT685's pair of locations: "the disable button on the right side of the lower portion of the console" in Handrail Adjustments, and "to the right of the **Stop** button" with its indicator light in Handrail Buttons Disable Switch. Both are reproduced as printed.
+

@@ -21,6 +21,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -34,7 +35,7 @@ see_also:
 - ct900-program-options-overview
 source:
   ref: ct900-om
-  locator: p. 23
+  locator: 'p. 23; CT850 2013: PDF p. 20 (printed 16), OCR supplement lines 624-685'
   extracted_at: '2026-08-24'
 ---
 
@@ -56,3 +57,5 @@ printed page 25 under the combined heading "5K RUN 10K RUN", 2018 printed page 2
 RUN"). All three state the same behaviour for a 10 kilometre goal, which is a separate identifier
 and a separate card - see `ct800-2020-programs-10k-run`. **5K Run has no warm-up on any of the
 three.** The CT850ENT describes its 5K Run differently - see `ct900ent-5k-run-program`.
+
+**The 2013 CT850 owner's manual prints this paragraph word for word** under the combined heading "5K/10K Run", and its program list says 5K Run has no warm-up.

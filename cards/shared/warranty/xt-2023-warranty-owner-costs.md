@@ -47,6 +47,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -172,6 +173,7 @@ source:
     line 1592, spirit-bike-xbr25-2023-owners-manual line 1464,
     spirit-bike-xbr55-2023-owners-manual line 1997, spirit-bike-xbr95-2023-owners-manual line
     1937, spirit-bike-xbu55-2023-owners-manual line 1770
+    SERVICE step 4 with the trip charge and the 100-mile second charge, and consumer responsibility 5, in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).
   extracted_at: '2026-09-10'
 ---
 
@@ -250,3 +252,5 @@ The CB900 2013, both XIC600 printings, the AB900 2018, the CIC800 2021, the CIC8
 **A trip charge for in-home service on a CVC800 or a CS800 is worth pausing over.** Both are commercial machines whose tables print a Residential row, so the sentence is not dead text - a home owner calling one out is charged for the visit.
 
 **The other eight climbers and steppers do not charge it.** The CSC880, the four 2025-and-2026 steppers and the MS300 stop at shipping and handling (`spirit-2026t-warranty-owner-costs`), and the two CSC900 manuals stop one sentence earlier still, at "All repairs must be preauthorized", stating no freight or shipping cost at all. Read the machine's own step 4 rather than the range's.
+
+**The CT850 2013 book prints the same step 4** - freight both ways, shipping and handling on parts, a trip charge for in-home service and a second trip charge past 100 miles - and the same accessibility duty at responsibility 5.

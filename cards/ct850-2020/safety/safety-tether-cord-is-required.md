@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -39,9 +40,11 @@ see_also:
 - ct850-2016-does-not-stop-after-safety-key-removed
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 4-1-3 SAFETY TETHER CORD, p. 13 (printed 12). The four CT850 owner's manuals
-    print the same section headed SAFETY TETHER CORD - 2016 pages 16-17, 2018 page 36, 2020 pages
-    16-17, ENT-2022 page 47
+  locator: 'Section 4-1-3 SAFETY TETHER CORD, p. 13 (printed 12). The four CT850 owner''s
+    manuals print the same section headed SAFETY TETHER CORD - 2016 pages 16-17, 2018
+    page 36, 2020 pages 16-17, ENT-2022 page 47. CT850-2013: Safety Tether Cord under
+    Important Operation Instructions, PDF p. 8 (printed 4), OCR supplement at lines
+    186-226, wording confirmed against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -92,3 +95,13 @@ fact.
 The XT and CT800 machines print these same paragraphs in their own manuals
 (`xt-2015-safety-tether-cord`), and the CT900 in its (`ct900-safety-tether-cord-and-key`). They are
 other machines with their own cards.
+
+## The CT850-2013 owner's manual says `must`, not `should`
+
+**The 2013 book prints the same section on its Important Operation Instructions page with one word
+changed**: `A safety tether cord is provided with this unit. It is a simple magnetic design that
+**must** be used at all times. The treadmill will not function without the magnet engaged.` The
+2016, 2018, 2020 and ENT-2022 books say `should be used at all times`. Every other instruction -
+the magnet on the round metal portion of the console control head, removing it secures the machine
+from unauthorized use, the clip fastened securely, the one to two step coast, the Stop / Pause switch
+in normal operation - is the same. The 2013 book is a scan; the word was read from a render.

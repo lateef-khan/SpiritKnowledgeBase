@@ -35,6 +35,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -81,7 +82,9 @@ source:
     text.md lines 1166-1230; CT800 2016 service manual 9.1 Service Troubleshooting
     Checklist, PDF p. 61-62 (printed 60-61), text.md lines 1222-1273; the CT900ENT
     service manual prints the 15 amp row in the second copy of its checklist on PDF
-    p. 58
+    p. 58; XT485 2013 owner's manual (spirit-treadmill-xt485-2013-owners-manual, 485812)
+    SERVICE CHECKLIST - DIAGNOSIS GUIDE, PDF p. 33 (printed 32), text.md lines 1286-1346,
+    the "Treadmill trips on board 15 amp circuit" row
   extracted_at: '2026-09-09'
 ---
 
@@ -145,3 +148,6 @@ and send the reader to their **Machine Care** chapter rather than to *Maintenanc
 carry this card to a CT800ENT 2024 or CT850ENT 2024: `ct900ent-trips-20-amp-circuit`.
 
 **The service manuals print the row shorter.** The 2015 XT285, XT385 and XT485 and the CT800 2016 service checklists say `High belt/deck friction. See General Maintenance section on Belt/Deck Lubrication.` against the same 15 amp circuit - lubrication rather than deck cleaning, and no amp-draw step. The XT485ENT service manual prints the row against a **10 amp** circuit (`ct850-2016-trips-onboard-10-amp-circuit`), and the 2023 XT service manuals have no checklist.
+
+**The XT485 2013 owner's manual prints the shortest version of all** - *Treadmill trips on board 15 amp circuit: High belt/deck friction. See General Maintenance* - with no amp-draw check and no deck flip, against the same 15 amp rating (added 2026-09-11).
+

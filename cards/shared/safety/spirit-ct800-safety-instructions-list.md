@@ -2,7 +2,8 @@
 id: spirit-ct800-safety-instructions-list
 title: The appliance safety precautions printed before you use the treadmill
 kind: policy
-question: What does the Important Safety Instructions page say for a Spirit CT800 or CT850 treadmill, or for a Spirit XT685-2010 treadmill?
+question: What does the Important Safety Instructions page say for a Spirit CT800
+  or CT850 treadmill, or for a Spirit XT685-2010 treadmill?
 asked_as:
 - what are the safety rules for my treadmill
 - safety instructions page of the ct800 or ct850 manual
@@ -28,6 +29,7 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -48,11 +50,13 @@ see_also:
 - xt-2015-safety-proposition-65-warning
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: Important Safety Instructions, page 2; the CT800 2016 owner's manual prints
-    the same page on pages 3-4 and the CT800 2020 owner's manual on pages 4-5. The CT850
-    owner's manuals print the same page on pages 4-5 (2016), pages 3-4 (2018) and pages 4-5 (2020).
-    The XT685 2010 owner's manual prints the same page as its Important Safety Instructions,
-    PDF page 6 (printed 2)
+  locator: 'Important Safety Instructions, page 2; the CT800 2016 owner''s manual
+    prints the same page on pages 3-4 and the CT800 2020 owner''s manual on pages
+    4-5. The CT850 owner''s manuals print the same page on pages 4-5 (2016), pages
+    3-4 (2018) and pages 4-5 (2020). The XT685 2010 owner''s manual prints the same
+    page as its Important Safety Instructions, PDF page 6 (printed 2). CT850-2013:
+    Important Safety Instructions, PDF p. 6 (printed 2), OCR supplement at lines 82-129,
+    read against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -172,3 +176,17 @@ unplugging is joined by the cover rule on the electrical page
 with two further user rules (`spirit-ct800-safety-who-may-use-the-treadmill`). All three carry the
 California Proposition 65 warning on their Important Operation Instructions page
 (`xt-2015-safety-proposition-65-warning`).
+
+## The CT850-2013 manual prints the thirteen items and none of the four additions
+
+**The 2013 CT850 owner's manual (stamped CT850_20131015, warranty effective November 1, 2013) prints
+this page item for item in the 2012 CT800 manual's form** - the `When using an electrical
+appliance` lead, the DANGER unplug-after-use line, the thirteen WARNING items with `being use`, and
+`SAVE THESE INSTRUCTIONS - THINK SAFETY!`. **Like the CT800-2012 it prints none of the four items the
+2016 and later CT850 books add**: no `Maximum User Weight: 450 lbs`, no reduced-capability clause, no
+`Keep children under the age of 13 away from this machine` and no ASTM clearance figures. Quoting
+450 lbs or 13 years for a CT850-2013 would be an invention
+(`spirit-ct800-safety-user-weight-limit-450-lbs`, `spirit-ct800-safety-who-may-use-the-treadmill`,
+`ct900ent-clearance-requirements`). It also prints no California Proposition 65 warning anywhere,
+and no extension-cord gauge on any page. The book is a scan with no text layer; the page was read
+from a render.

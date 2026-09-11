@@ -2,8 +2,8 @@
 id: 70t-2026-programs-symmetry
 title: The Symmetry program that measures left and right step length
 kind: procedure
-question: What does the Symmetry program do on a Spirit 70t-2026 or MT200
-  rehabilitation treadmill, and how do I start it?
+question: What does the Symmetry program do on a Spirit 70t-2026 or MT200 rehabilitation
+  treadmill, and how do I start it?
 asked_as:
 - what is the symmetry program
 - how do i check a patients gait
@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -35,7 +36,7 @@ see_also:
 - 70t-2026-programs-facility-program
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: page 33, Symmetry
+  locator: 'page 33, Symmetry; 7.0T 2025: PDF p. 35 (printed 33); text.md lines 1010-1044'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +68,5 @@ key.
 Both MT200 owner's manuals print this program in the same words, including the 26 vs. 15 inch
 example and the note about flipping the display - the 2010-generation manual on printed page
 22, the 2022-generation manual on printed pages 34-35.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

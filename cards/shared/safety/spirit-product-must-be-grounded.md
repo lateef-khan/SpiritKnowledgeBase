@@ -30,11 +30,18 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2021
+  - 70r-2025
   - 70s-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 75s-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - 85ue-2025
@@ -53,6 +60,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -91,6 +99,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -123,6 +132,8 @@ see_also:
 - spirit-xb-2023-safety-outlet-220-volt-15-amp
 - spirit-xb-2023-safety-grounding-instructions-not-printed
 - xe795-2023-safety-outlet-220-volt-15-amp
+- spirit-med-bike-safety-outlet-90-to-240-volt-15-amp
+- spirit-med-bike-safety-outlet-100-to-240-volt-15-amp
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
   locator: 'Section 7.3 Important Grounding Instructions, p. 27 (printed 26); the
@@ -181,7 +192,25 @@ source:
     CS800-2016 (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md
     lines 418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were
     also read from 110 dpi renders; the XRW600 page prints the word Rower highlighted
-    in yellow where the CRW800 page prints elliptical.'
+    in yellow where the CRW800 page prints elliptical. Spirit Medical 7.0R (2025):
+    GROUNDING INSTRUCTIONS, PDF p. 9 (printed 7), text.md lines 203-226 and OCR supplement
+    at line 1864, in spirit-bike-70r-2025-owners-manual; 7.0U: PDF p. 9, lines 208-231,
+    OCR at line 1754, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF p. 9, lines
+    204-227, OCR at line 1863, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p.
+    9, lines 198-221, OCR at line 2239, in spirit-bike-85r-2025-owners-manual; Dyaco
+    MED 7.0R: Grounding instructions, PDF p. 16, lines 517-539, in spirit-bike-70r-2021-owners-manual.
+    The 2025 4.0T owner''s manual (revision 02.04.25, version 2.1) prints the same
+    page: GROUNDING INSTRUCTIONS, PDF p. 9 (printed 7), lines 213-236 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: GROUNDING INSTRUCTIONS, PDF p. 9,
+    lines 195-218 in spirit-treadmill-70t-2025-owners-manual. XT485-2013: GROUNDING
+    INSTRUCTIONS, PDF p. 5 (printed 4), lines 131-176, in spirit-treadmill-xt485-2013-owners-manual.
+    CT850-2013: Grounding Instructions, PDF p. 7 (printed 3), OCR supplement at lines
+    130-185, read against a 110 dpi render, in spirit-treadmill-ct850-2013-owners-manual.
+    4.0T service manuals: 7.3 Important Grounding Instructions, PDF p. 27, lines 384-418,
+    in spirit-treadmill-40t-2026-service-manual-st8700a, and PDF p. 26, lines 353-387,
+    in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -608,3 +637,57 @@ manuals; the CRS800S-2021 **service** manual prints one, at 120 volts where the 
 (`spirit-2024-safety-outlet-110-volt-15-amp-stepper`). And the CS800 stepper's grounding page is not only the 2021 and
 2024 owner's-manual page at 110 volt/5 amp (`spirit-climber-safety-outlet-110-volt-5-amp`): the 2016 machine's service
 manual prints it at 120 volts with a 230-volt bracket.
+
+## Five Spirit Medical bikes print the 8.5UE page
+
+**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals, and the Dyaco MED 7.0R of 2021, carry both
+paragraphs on a GROUNDING INSTRUCTIONS page**, each naming its own machine - `In the unlikely event
+that the 7.0R's electrical system should malfunction or breakdown`. Grounding is mandatory, the risk
+named is electric shock, and if the plug does not fit the outlet a qualified electrician changes
+the outlet.
+
+**None of the five names a nominal voltage on that page**, and none prints a temporary-adapter
+paragraph. The 2025 books print the two-pole-adapter drawing under the text, as the 8.5UE does, with
+no permission in words; the 2021 book prints the text alone. Their supply figures are on their
+safety pages instead - 90 to 240 volt on the 7.0R and 7.0U
+(`spirit-med-bike-safety-outlet-90-to-240-volt-15-amp`), 100 to 240 volt on the 8.0U and 8.5R
+(`spirit-med-bike-safety-outlet-100-to-240-volt-15-amp`) - and the 8.0U alone adds the flat rule
+`this equipment must only be connected to a supply main with protective earth`. The self-powered
+4.0R and 4.0U have no grounding page and no plug (`spirit-bike-safety-no-mains-outlet-needed`).
+
+## The 2025 4.0T and 7.0T owner's manuals print the 2026 page unchanged
+
+Both paragraphs, each naming its own machine, no voltage on the grounding page and no
+temporary-adapter paragraph - exactly as the 2026 books above.
+
+## The 4.0T service manuals print the CT850 chapter, voltage and adapter included
+
+**Both 4.0T service manuals - ST8700-ST017 and the ST8700A-ST026-01 revision - print section 7.3
+word for word with the CT850 2016 service manual**: `This product is for use on a nominal 120-volt
+circuit`, the plug drawing, and the temporary-adapter paragraph
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`), spelling the tab `earplug`. So the statement
+above that the 4.0T prints no voltage on its grounding page and no adapter paragraph is true of the
+owner's manual alone; the service manual prints both. Its outlet sentence asks for `a 120-volt,
+20-amp grounded outlet` and its cord for 14 AWG (`ct850-2020-extension-cord-14-awg-or-better`),
+where the owner's manual says NEMA 5-20P and 1 mm²
+(`spirit-2026t-safety-outlet-and-circuit-requirement`, `40t-2026-safety-extension-cord-1-mm2-or-better`).
+
+## The Australian XT485-2013 owner's manual names a nominal 230-volt circuit
+
+**It prints both paragraphs in the CT850 wording, with `treadmill`**, and closes `This product is for
+use on a nominal 230-volt circuit, and has a grounding plug that looks like the plug illustrated
+below` - the only XT owner's manual that prints 230 volts on this page, matching the 230-volt,
+10-amp outlet of its safety list (`spirit-treadmill-safety-outlet-220-volt-10-amp`). **The `230`
+is set in blue where every other figure on the page is black** - it reads as an edited number, as
+the CT900 service manual's red 220 does - so quote it with the page it is on. The
+temporary-adapter paragraph and a North American two-blade-and-pin plug drawing follow, tab spelled `ear-lug`
+(`spirit-temporary-adapter-for-a-two-pole-receptacle`), and its safety list adds `See Grounding
+Instructions` after the capitalised adapter rule.
+
+## The CT850-2013 owner's manual prints the 2016 and 2020 figure
+
+**Both paragraphs, with `treadmill`, and `This product is for use on a 120-volt/20 amp dedicated
+circuit`** - the CT850 2016 and 2020 sentence without `nominal` - followed by the temporary-adapter
+paragraph (`ear-lug`) and a drawing whose grounded outlet is a 20-amp T-slot receptacle. The 2018
+book's 110-volt/15 amp figure is not in this one (`spirit-ct850-outlet-and-circuit-requirement`).
+Read from a render; the book is a scan with no text layer.

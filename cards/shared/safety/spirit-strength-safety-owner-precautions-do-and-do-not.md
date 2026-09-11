@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-owner-precautions-do-and-do-not
-title: The owner’s DO and DO NOT list, and the line that says ignoring it can cause death
+title: The owner’s DO and DO NOT list, and the line that says ignoring it can cause
+  death
 kind: fact
 question: What are the DO and DO NOT precautions in a Spirit strength owner’s manual?
 asked_as:
@@ -71,7 +72,11 @@ see_also:
 - spirit-strength-safety-csi-name-plate-decal
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: PRECAUTIONS, printed page 7 (PDF page 8) of all thirty-six CSS, CSD, CSF and CSI manuals
+  locator: 'PRECAUTIONS, printed page 7 (PDF page 8) of all thirty-six CSS, CSD, CSF
+    and CSI manuals. CSD-CPSP May 2025 update: PRECAUTIONS, PDF p. 8 (printed 7),
+    in spirit-strength-csd-cpsp-owners-manual-2025-update (text.md lines 61-223, OCR
+    supplements from line 534). CSS-DELT 2026 revision: the same page numbers in spirit-strength-css-delt-owners-manual-2026
+    (lines 85-308, OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -113,3 +118,5 @@ for exercise in a commercial or consumer environment*.
 
 Note the second bullet of that box: Spirit describes this equipment as designed for **a commercial
 *or consumer* environment**. The CSI name plate decal contradicts it — see the card on that decal.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

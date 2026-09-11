@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - xe550-2005-programs-heart-rate-auto-pilot
@@ -36,7 +35,9 @@ see_also:
 - 40t-2026-programs-custom-program
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 36, Heart Rate Auto Pilot Mode
+  locator: 'page 36, Heart Rate Auto Pilot Mode; 4.0T 2025 (February printing): PDF
+    p. 37 (printed 35); text.md lines 1011-1031; 4.0T 2025 (May printing): PDF p.
+    37 (printed 35); text.md lines 1011-1031'
   extracted_at: '2026-09-09'
 ---
 
@@ -56,3 +57,8 @@ Auto-pilot works **at any time, during any program**, and its manual states no s
 NO HEART RATE message and no closing workout summary. It is
 `xe550-2005-programs-heart-rate-auto-pilot`, a separate card, and the two must not be answered for
 each other.
+
+**The 4.0T 2025 owner's manual prints this page in both its printings, and the list of fitness
+programs grew between them.** The February 2025 printing (Revision 02.04.25) lists five - "manual /
+hill / plateau / interval / custom" - with no 5K; the May 2025 printing (Revision 05.19.25) lists
+the six above, 5K included, as the 2026 book does. Nothing else on the page changed.

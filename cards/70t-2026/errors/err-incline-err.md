@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: errors
   code: err
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-errors-er2-decline-err
@@ -41,7 +40,10 @@ see_also:
 - 70t-2026-errors-error-code-table
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 'Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md column 5 of 5, lines 1474-1475'
+  locator: Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md
+    column 5 of 5, lines 1474-1475; 7.0T 2025 owner's manual (Rev 01.10.25, spirit-treadmill-70t-2025-owners-manual)
+    prints the same table word for word, ERROR MESSAGE & TROUBLESHOOTING, PDF p. 48
+    (printed 46), text.md lines 1478-1513 (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-09'
 ---
 

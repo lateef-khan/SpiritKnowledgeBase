@@ -2,7 +2,10 @@
 id: spirit-2026t-safety-keep-children-away
 title: Keep children away from the machine because of its pinch points
 kind: policy
-question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, near a Spirit MT200 rehabilitation treadmill, near a Spirit CE800, CE800ENT, CE850 or CE900 elliptical, near a Spirit XE residential elliptical, or near a Spirit commercial CR800, CR900, CU800 or CU900 upright or recumbent bike?
+question: Is it safe to have children near a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill,
+  near a Spirit MT200 rehabilitation treadmill, near a Spirit CE800, CE800ENT, CE850
+  or CE900 elliptical, near a Spirit XE residential elliptical, or near a Spirit commercial
+  CR800, CR900, CU800 or CU900 upright or recumbent bike?
 asked_as:
 - can my kids be near the treadmill
 - is a treadmill dangerous for children
@@ -24,9 +27,20 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40t-2025
   - 40t-2026
+  - 40u-2025
+  - 40u-pt
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -58,6 +72,7 @@ facets:
   - xe350-2005
   - xe395-2010
   - xe550-2005
+  - xt485-2013
   section: safety
   code: '*'
 authority: 3
@@ -71,19 +86,37 @@ see_also:
 - spirit-xe-2005-2007-safety-instructions-list
 - spirit-bike-safety-instructions-list
 - cu800-2012-safety-instructions-list
+- spirit-med-bike-safety-children-aged-8-and-above-if-supervised
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS items 4 and 5, page 4; the 7.0T and 8.0T owner's manuals print it as
-    item 5 of their page 4. The two Spirit MT200 rehabilitation treadmill owner's manuals
-    print it on their safety instructions page, page 4 of the 2010 manual and pages 5 to 7
-    of the 2022 manual Nine Spirit elliptical owner's manuals print the same bullet - CE800
-    2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page 4,
-    CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6, CE900 2021 page 3, CE900 2025
-    page 5 item 2 All thirteen Spirit commercial bike owner's manuals print the same bullet
-    in their safety list - CU800-2012 printed page 2, CR900-2018 and CU900-2018 printed page
-    3, CR900ENT-2021 and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021
-    printed page 4, CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 printed pages 4 to 5, and
-    CR900-2025 and CU900-2025 as item 2 of their printed page 4
+  locator: 'SAFETY INSTRUCTIONS items 4 and 5, page 4; the 7.0T and 8.0T owner''s
+    manuals print it as item 5 of their page 4. The two Spirit MT200 rehabilitation
+    treadmill owner''s manuals print it on their safety instructions page, page 4
+    of the 2010 manual and pages 5 to 7 of the 2022 manual Nine Spirit elliptical
+    owner''s manuals print the same bullet - CE800 2013 PDF page 4 (printed 2), CE800
+    2021 page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020
+    page 6, CE850 2022 page 6, CE900 2021 page 3, CE900 2025 page 5 item 2 All thirteen
+    Spirit commercial bike owner''s manuals print the same bullet in their safety
+    list - CU800-2012 printed page 2, CR900-2018 and CU900-2018 printed page 3, CR900ENT-2021
+    and CU900ENT-2021 printed page 3, CR800-2021, CR800-2023 and CU800-2021 printed
+    page 4, CU800ENT-2022, CR800ENT-2023 and CU800ENT-2024 printed pages 4 to 5, and
+    CR900-2025 and CU900-2025 as item 2 of their printed page 4. Spirit Medical 4.0R
+    (2025): item 2, PDF p. 6, text.md lines 110-147, in spirit-bike-40r-2025-owners-manual;
+    4.0U: item 2, PDF p. 6, lines 114-148, in spirit-bike-40u-2025-owners-manual;
+    Dyaco PT 4.0 R / 4.0 U: second Warning bullet, PDF p. 4, in spirit-bike-40r-pt-owners-manual
+    and spirit-bike-40u-pt-owners-manual; 7.0R: item 4, PDF p. 6, lines 108-143, in
+    spirit-bike-70r-2025-owners-manual; 7.0U: item 4, PDF p. 6, lines 112-151, in
+    spirit-bike-70u-2025-owners-manual; 8.0U: item 5, PDF p. 6, lines 112-148, in
+    spirit-bike-80u-2025-owners-manual; 8.5R: item 4, PDF p. 6, lines 108-142, in
+    spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: Warning bullet, PDF p. 5,
+    lines 80-117, in spirit-bike-70r-2021-owners-manual. The 2025 4.0T owner''s manual
+    (revision 02.04.25, version 2.1) prints the same page: item 4, PDF p. 6, lines
+    110-149 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: item 5, PDF p. 6, lines 109-144 in
+    spirit-treadmill-70t-2025-owners-manual. XT485-2013 (Australian edition): third
+    bullet, PDF p. 4 (printed 3), lines 76-131, in spirit-treadmill-xt485-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -180,3 +213,18 @@ this machine` and the supervised exception for reduced-capability users
 (`spirit-ce-safety-who-may-use-the-elliptical`). **The 2012 CU800 manual prints neither**, so this
 bullet is the whole of what that book says about children
 (`cu800-2012-safety-instructions-list`).
+
+## Ten Spirit Medical bike books print the rule, in both wordings
+
+**The self-powered 4.0R and 4.0U (item 2) and their Dyaco PT editions print the 4.0T form** -
+`Keep children away from the bike. There are obvious pinch points and other caution areas that can
+cause harm` - and qualify it with an age-8 clause and a supervision clause
+(`spirit-med-bike-safety-children-aged-8-and-above-if-supervised`). **The plug-in 7.0R, 7.0U, 8.0U
+and 8.5R, and the Dyaco MED 7.0R of 2021, print the 7.0T form** - `There are moving parts, obvious
+pinch points and other caution areas` - and admit children only at a physical therapist's
+discretion (`spirit-med-bike-safety-intended-patient-population-and-medical-purpose`).
+
+**The 2025 printings of the 4.0T and 7.0T manuals print their 2026 sentences unchanged.**
+
+**The Australian XT485-2013 owner's manual prints the 4.0T form** with `treadmill`, and no age
+figure anywhere (`xt485-2013-safety-who-may-use-the-treadmill`).

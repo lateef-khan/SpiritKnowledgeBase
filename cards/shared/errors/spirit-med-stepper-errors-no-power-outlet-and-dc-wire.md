@@ -49,7 +49,10 @@ source:
     and printed page 59 (PDF page 59) of the MS300 2021 manual. Read from the native
     text layer of all three and confirmed against a 300 dpi render of the 7.0S page;
     7.5S (RS9600-SS021) service manual 5.2.3 Troubleshooting and Problem Solving,
-    "No power", PDF p. 13-14, text.md lines 132-146
+    "No power", PDF p. 13-14, text.md lines 132-146; 7.0S (RS9500-SS021-02) service
+    manual 5.2.3 "No power", PDF p. 13-14, text.md lines 143-165; 7.5S (RS9600-SS021-03)
+    service manual 5.2.3 "No power", PDF p. 13-14, text.md lines 126-148 - the 7.5S
+    RS9600-SS021-01 page unchanged in both (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-10'
 ---
 

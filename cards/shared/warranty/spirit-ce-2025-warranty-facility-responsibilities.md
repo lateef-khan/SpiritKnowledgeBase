@@ -28,8 +28,14 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70u-2025
   - 75s-2025
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - ce800-2024
@@ -65,12 +71,13 @@ see_also:
 - spirit-ce-2025-warranty-coverage-periods
 - spirit-ce-warranty-registration
 - spirit-2026t-warranty-owner-costs
+- spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
   locator: 'RESPONSIBILITIES OF THE FACILITY, p. 36 (text.md lines 1100-1110). The
     same list is printed in the CES880 manual, p. 58 (spirit-elliptical-ces880-2025-owners-manual
     text.md lines 1983-1992), where the numbering is shifted by one and item 1 is worded
-    differently'
+    differently RESPONSIBILITIES OF THE FACILITY in the six 2025 Spirit medical bike manuals: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); the lead sentence is numbered as item 1 and the seven duties run 2 to 8 in all six.'
   extracted_at: '2026-09-09'
 ---
 
@@ -143,3 +150,7 @@ The CR900 2025, the CU900 2025 and the CU800ENT 2024 print items 1 to 7 word for
 This is the same off-by-one the CES880 and the AB950 show. The CSC880, printed the same year, does not have it.
 
 **The CSC880 and the four steppers also disagree about registration itself.** The CSC880 asks for online registration and names **no deadline**; the four steppers restore the ten-day card and offer online as an alternative (`spirit-ce-warranty-registration`).
+
+## The six 2025 Spirit medical bikes print the same seven duties, all with the off-by-one
+
+**The 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R carry the duties word for word**, and every one of the six numbers the lead sentence - "1. The facility is responsible for the items listed below:" - so the duties run **2 to 8**. Item 2 is the registration duty in its ten-day-card-or-online form: "The warranty registration card must be completed and returned to the address listed on the card within 10 days of the original purchase, or completed online". The accessibility duty is therefore item **6** on all six; cite the duty, not the number. Each list is addressed to a facility on a book whose opening paragraph still administers the warranty "directly to a consumer" (`spirit-med-bike-warranty-use-environment`).

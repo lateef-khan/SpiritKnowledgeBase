@@ -22,6 +22,7 @@ facets:
   applies_to:
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -38,7 +39,8 @@ see_also:
 - ct850-2020-preset-program-list
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
-  locator: printed page 25, 5K Run 10K Run
+  locator: 'printed page 25, 5K Run 10K Run; CT850 2013: PDF p. 20 (printed 16), OCR
+    supplement lines 624-685'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +64,5 @@ printed page 25, 2018 printed page 24), under a heading that covers the 5K and t
 
 **The 2024 CT800 and CT850 owner's manuals print this paragraph word for word** (both printed page
 26), under the same heading covering the 5K and the 10K together.
+
+**The 2013 CT850 owner's manual prints this paragraph word for word** under "5K/10K Run", and its program list says 10K Run has no warm-up.

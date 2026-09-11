@@ -1,24 +1,26 @@
 ---
 id: spirit-strength-console-counter-runs-on-two-c-batteries
-title: 'The rep and time counter takes two C batteries, alkaline recommended and not supplied with the machine'
+title: The rep and time counter takes two C batteries, alkaline recommended and not
+  supplied with the machine
 kind: spec
-question: 'What batteries does the rep and time counter on a Spirit selectorized or dual-station strength machine take?'
+question: What batteries does the rep and time counter on a Spirit selectorized or
+  dual-station strength machine take?
 asked_as:
-- 'what batteries does my spirit weight machine counter take'
-- 'does the rep counter come with batteries'
-- 'what size battery for the rep counter'
-- 'my weight machine counter is dead what battery is it'
+- what batteries does my spirit weight machine counter take
+- does the rep counter come with batteries
+- what size battery for the rep counter
+- my weight machine counter is dead what battery is it
 keywords:
-- 'c batteries'
-- 'two c cells'
-- 'alkaline'
-- 'battery size'
-- 'batteries not included'
-- 'rep counter'
-- 'time counter'
-- 'console power'
-- 'lr14'
-- 'no power cord'
+- c batteries
+- two c cells
+- alkaline
+- battery size
+- batteries not included
+- rep counter
+- time counter
+- console power
+- lr14
+- no power cord
 facets:
   brand:
   - spirit
@@ -64,7 +66,11 @@ see_also:
 - spirit-strength-errors-rep-counter-and-timer-does-not-turn-on
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: 'REPETITION AND TIME COUNTER page, closing line: ''This counter is powered by 2 C batteries. (Alkaline Battery Recommended)''. Printed pp. 17-24 depending on the book; word for word on all 28 CSS and CSD manuals.'
+  locator: 'REPETITION AND TIME COUNTER page, closing line: ''This counter is powered
+    by 2 C batteries. (Alkaline Battery Recommended)''. Printed pp. 17-24 depending
+    on the book; word for word on all 28 CSS and CSD manuals. CSS-DELT 2026 revision
+    PDF p. 22 (printed 21), text.md line 690 (OCR supplement); CSD-CPSP May 2025 update
+    PDF p. 25 (printed 24), line 371'
   extracted_at: '2026-09-10'
 ---
 
@@ -90,3 +96,6 @@ warning behaviour. A dead counter is diagnosed by replacing the cells first - se
 
 **Not the CRW800 rower.** That Spirit console also runs on two C cells, in a compartment on the back
 of the console, but it is a different product line with a different console and a different manual.
+
+**The 2026 CSS-DELT revision and the May 2025 CSD-CPSP update print the closing line word for word.**
+

@@ -1,7 +1,7 @@
 ---
 id: spirit-ct800-assembly-no-folding-or-moving
-title: Folding and moving are undocumented, and three of the eight manuals never
-  mention levelling either
+title: Folding and moving are undocumented, and three of the eight manuals never mention
+  levelling either
 kind: fact
 question: How do I fold, move or level a Spirit CT800, CT800ENT, CT850 or CT850ENT
   treadmill?
@@ -29,6 +29,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -50,9 +51,12 @@ see_also:
 - ct850-2018-assembly-procedure
 source:
   ref: spirit-treadmill-ct800-2012-owners-manual
-  locator: whole manual, and the whole of the 2016, 2020 and CT800ENT manuals and of
-    the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual; each assembly chapter
-    ends at its last numbered step and the console chapter follows
+  locator: 'whole manual, and the whole of the 2016, 2020 and CT800ENT manuals and
+    of the CT850 2016, 2018 and 2020 manuals and the CT850ENT manual; each assembly
+    chapter ends at its last numbered step and the console chapter follows | ct850-2013
+    (spirit-treadmill-ct850-2013-owners-manual): whole book (32 PDF pages, all OCR);
+    the assembly chapter ends at STEP 3 on PDF p. 13 and the console chapter follows
+    on p. 14'
   extracted_at: '2026-09-09'
 ---
 
@@ -96,3 +100,7 @@ folding decks that these do not.
 
 The floor-clearance figures that the manuals print are on their safety pages, not in
 the assembly chapter, and belong to the safety cards.
+
+## The CT850 2013 book prints none of it either
+
+**The 2013 CT850 manual** (a scan, read by OCR) has no setting-up chapter, no fold, no transport procedure and **nothing on levelling at all** - not in assembly, not in general maintenance, whose noise remedies it does not print. Transport wheels are named once, in the electrical warning about routing the power cord. Its console page carries the parts of the console, not of the machine, and it has no parts list and no carton list. Absence is the answer for it, as for the CT800 2012.

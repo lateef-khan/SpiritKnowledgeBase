@@ -39,6 +39,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -77,7 +78,7 @@ source:
     elliptical owner''s manuals: ce800-2021 p. 36 (spirit-elliptical-ce800-2021-owners-manual
     text.md lines 942-956), ce800-2023 p. 37 (spirit-elliptical-ce800-2023-owners-manual text.md
     lines 964-978), ce800ent p. 40 (spirit-elliptical-ce800ent-owners-manual text.md lines
-    922-935)'
+    922-935) The same seven items under NORMAL RESPONSIBILITIES OF THE CONSUMER, "The consumer or non-dues paying facility is responsible", in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -137,3 +138,5 @@ The CU800 2012, the CR800 2021 and 2023, the CU800 2021, the CU800ENT 2022 and t
 **None of the three is the same list its 2024 successor prints.** The CRS800S 2024 and CS800 2024 renumber it under a *RESPONSIBILITIES OF THE FACILITY* heading and change item 1 (`spirit-ce-2025-warranty-facility-responsibilities`).
 
 **Four of the thirteen Spirit climbers and steppers print a shorter list and are not on this card.** The two XS895 manuals and the two CSC900 ones run to **six** items, with no grounded-power-supply item at all: the duty to replace blown fuses and repair house or facility wiring, item 4 here, is simply absent, and the remaining items shift up by one. Their list is `spirit-climber-warranty-six-item-responsibilities`. Do not quote item numbers between the two shapes.
+
+**The CT850 2013 book prints the same seven items** under NORMAL RESPONSIBILITIES OF THE CONSUMER, with the ten-day card-or-online duty at item 1 and the grounded-power-supply duty at item 4.

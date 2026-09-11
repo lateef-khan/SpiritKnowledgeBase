@@ -27,6 +27,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2020
   - ct850ent-2022
@@ -47,7 +48,7 @@ see_also:
 - 40t-2026-errors-display-does-not-light
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
+  locator: 'Section 9.2 Service Troubleshooting Checklist - Diagnosis Guide, pages
     56-57 of the CT850 2016 manual; the same row is section 8-6 TROUBLESHOOTING, page
     46 of the CT850 2020 manual; CT800 2016 service manual 9.1 Service Troubleshooting
     Checklist, PDF p. 61-62 (printed 60-61), text.md lines 1222-1273; CT800 2020 service
@@ -56,7 +57,13 @@ source:
     2022 service manual 8-7 Troubleshooting, PDF p. 40, text.md lines 810-838; CT900ENT
     service manual Service Troubleshooting Checklist (first printing), PDF p. 50-51,
     text.md lines 848-900; 4.0T 2026 service manual TROUBLESHOOTING, PDF p. 35 (printed
-    46), text.md lines 523-566
+    46), text.md lines 523-566; the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): TROUBLESHOOTING at PDF p. 36 (printed 46), text.md
+    lines 592-635; CT850 2013 owner''s manual (spirit-treadmill-ct850-2013-owners-manual,
+    stamp CT850_20131015) troubleshooting table, PDF p. 28 (printed 24); the book
+    is a scan with no text layer, read from the OCR supplement for page 28, text.md
+    lines 1100-1160, the "Display does not light" row'
   extracted_at: '2026-09-08'
 ---
 
@@ -68,8 +75,8 @@ Five checks, in the order the manual lists them. The 2016 and 2020 service manua
 4. Breaker panel circuit breaker may be tripped.
 5. Treadmill defect. Contact your dealer.
 
-**The CT850 owner's manuals print the same five checks with a different outlet figure, and
-none of them prints 120 VAC.** The 2016 and 2020 owner's manuals print step 3 as a
+**The 2016, 2018, 2020 and ENT 2022 CT850 owner's manuals print the same five checks with a different outlet figure, and
+none of those four prints 120 VAC.** The 2016 and 2020 owner's manuals print step 3 as a
 **110 - 120 VAC** outlet (`ct800-2020-errors-display-does-not-light`); the 2018 and CT850ENT
 2022 owner's manuals print **115 VAC** (`ct900ent-display-does-not-light`). Three documented
 figures for the same machines, and nothing reconciles them. Steps 1, 2, 4 and 5 are the same
@@ -82,3 +89,6 @@ display once the safety key is inserted (`ct850-2016-no-display-when-safety-key-
 2016 manual, `ct850-2020-no-display-when-safety-key-inserted` for the 2020 manual).
 
 **Six more service manuals print the five checks with the plain 120 VAC outlet**: the CT800 2016, CT800 2020, CT800ENT 2022, CT850ENT 2022, CT900ENT and 4.0T, all ending at *Contact your dealer*. Three of those books' owner's manuals print a different outlet figure for the same machine - 115 VAC for the CT800 2016, CT800ENT 2022 and CT850ENT 2022 (`ct900ent-display-does-not-light`), 110 - 120 VAC for the CT800 2020 (`ct800-2020-errors-display-does-not-light`) and 110 VAC for the 4.0T (`40t-2026-errors-display-does-not-light`). **The CT900ENT service manual prints this checklist twice, and the second printing says 110 VAC** (`ct900ent-errors-only-reaches-7-mph-14-gauge-110-volt` records the rest of that page). The XT service manuals print 220 Vac or 110 VAC in the same row (`spirit-xt-errors-display-does-not-light-220-vac-or-110-vac`, `spirit-xt-2015-errors-display-does-not-light-110-vac-or-220-vac`).
+
+**The CT850 2013 owner's manual is the one owner's manual that prints the plain 120 VAC** - all five checks word for word, step 3 as *firmly pushed into 120 VAC wall outlet*, step 5 as *Contact your Spirit Fitness dealer* (added 2026-09-11; the book is a scan, read from its OCR).
+

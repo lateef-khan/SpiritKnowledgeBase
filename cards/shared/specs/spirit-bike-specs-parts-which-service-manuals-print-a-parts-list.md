@@ -69,12 +69,13 @@ see_also:
 - spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter
 - cr800-2024-specs-parts-list
 - spirit-cr800-specs-parts-list-2021-vs-2023
+- spirit-med-bike-specs-parts-which-manuals-print-a-parts-list
 source:
   ref: spirit-bike-xbr25-xbr55-2007-service-manual
   locator: 'XBR25 Part List PDF pp. 13-15, text.md lines 425-573, and XBR55 Part List
     PDF pp. 17-20, lines 580-747; each of the other twenty-three books was searched
     in its native text and OCR supplements for "part list", "parts list", "exploded",
-    "part no", "P#", "item" and six-digit numbers, and read through to its last page. CR1000ENT (spirit-rower-cr1000ent-2023-service-manual): 1. Outlines PDF p. 4, text.md lines 103-109 with the table read from a 300 dpi render (OCR supplement lines 1021-1076); the book was read to its last page, PDF p. 41, and searched the same way'
+    "part no", "P#", "item" and six-digit numbers, and read through to its last page. CR1000ENT (spirit-rower-cr1000ent-2023-service-manual): 1. Outlines PDF p. 4, text.md lines 103-109 with the table read from a 300 dpi render (OCR supplement lines 1021-1076); the book was read to its last page, PDF p. 41, and searched the same way The seven 2025 medical bike and ergometer service manuals were read the same way and are counted on spirit-med-bike-specs-parts-which-manuals-print-a-parts-list.'
   extracted_at: '2026-09-11'
 ---
 
@@ -115,3 +116,5 @@ figures rather than item numbers, so the question does not arise for them.
 - item 55 is the Induction Brake, part 002104 - and every other book prints only the first.
 
 The service manuals' one tool, a multi-meter, is on `spirit-treadmill-specs-parts-service-manual-tool-list-is-one-multimeter`.
+
+**The 2025 medical bike service manuals are a different case and are counted separately.** All seven - 4.0R, 4.0U, 7.0R, 7.0U, 8.0U, 8.5R and the 8.5UE ergometer - print an exploded view and a list of item numbers, descriptions and quantities, still with no Spirit part number; the 8.0U's list is the 8.5R's and the 7.0R's text layer is the 2021 list (`spirit-med-bike-specs-parts-which-manuals-print-a-parts-list`).

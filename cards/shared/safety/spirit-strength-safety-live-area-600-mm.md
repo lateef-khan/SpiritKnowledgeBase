@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-safety-live-area-600-mm
-title: The live area must be 600 mm (23.62") larger than the training area on every side you step in from
+title: The live area must be 600 mm (23.62") larger than the training area on every
+  side you step in from
 kind: spec
-question: How much floor space does a Spirit CSS or CSD strength machine need around it?
+question: How much floor space does a Spirit CSS or CSD strength machine need around
+  it?
 asked_as:
 - how much room do i need around the weight machine
 - how far apart should the gym machines be
@@ -67,7 +69,13 @@ see_also:
 - spirit-strength-safety-live-area-180-cm
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: Live Area and Training Area, SAFETY GUIDELINES AND PRACTICE, printed page 8 (PDF page 9) of all nineteen CSS and all nine CSD manuals
+  locator: 'Live Area and Training Area, SAFETY GUIDELINES AND PRACTICE, printed page
+    8 (PDF page 9) of all nineteen CSS and all nine CSD manuals. CSD-CPSP May 2025
+    update: SAFETY GUIDELINES AND PRACTICE, Live Area and Training Area, PDF p. 9
+    (printed 8), in spirit-strength-csd-cpsp-owners-manual-2025-update (text.md lines
+    61-223, OCR supplements from line 534). CSS-DELT 2026 revision: the same page
+    numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308, OCR supplements
+    from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -97,3 +105,5 @@ training* — and it puts no number on "adequate".
 
 The CSF and CSI machines use larger perimeters — 130 cm to 180 cm — so never carry 600 mm across to
 one of them. The three ST800 products print no live-area figure at all.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

@@ -1,8 +1,10 @@
 ---
 id: spirit-ct800-safety-serial-number-and-product-labels
-title: The serial number by the power switch, and the product labels these manuals never describe
+title: The serial number by the power switch, and the product labels these manuals
+  never describe
 kind: fact
-question: Where is the serial number on a Spirit CT800 or CT850 treadmill, and what labels are on the machine?
+question: Where is the serial number on a Spirit CT800 or CT850 treadmill, and what
+  labels are on the machine?
 asked_as:
 - where is the serial number on my treadmill
 - i need the serial number to register the warranty
@@ -28,6 +30,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -45,11 +48,13 @@ see_also:
 - spirit-ct800-safety-instructions-list
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: RECORD YOUR SERIAL NUMBER, page 6; the CT800 2020 owner's manual prints
-    the same sentence on page 3, the CT800 2012 owner's manual its Record Your Serial
-    Number panel on page 1, and the CT800ENT-2022 owner's manual its panel on page 3. The CT850
-    2016 and 2020 owner's manuals print the sentence on page 3, the CT850 2018 owner's manual its
-    panel on page 6 and the CT850ENT-2022 owner's manual its panel on page 3
+  locator: 'RECORD YOUR SERIAL NUMBER, page 6; the CT800 2020 owner''s manual prints
+    the same sentence on page 3, the CT800 2012 owner''s manual its Record Your Serial
+    Number panel on page 1, and the CT800ENT-2022 owner''s manual its panel on page
+    3. The CT850 2016 and 2020 owner''s manuals print the sentence on page 3, the
+    CT850 2018 owner''s manual its panel on page 6 and the CT850ENT-2022 owner''s
+    manual its panel on page 3. CT850-2013: Record Your Serial Number panel, PDF p.
+    5 (printed 4), OCR supplement at lines 37-81, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -101,3 +106,11 @@ serial number sticker on the rear of the motor cover
 and two upright stickers (`ct900-product-labels`), and the MT200-2010 on the front of the treadmill
 with no further detail (`mt200-2010-safety-serial-number-location`). Those are other machines'
 statements.
+
+## The CT850-2013 owner's manual gives no location either
+
+**The 2013 CT850 book prints only a `Record Your Serial Number` panel** - `Please record the serial
+number of this fitness product in the space provided below` - with a blank line, beside a `Register
+Your Purchase` panel pointing at the registration card and at spiritfitness.com; it is the 2018
+position, not the 2016 one. It has no product labels page, describes no sticker and prints no
+Proposition 65 wording at all. Have the customer read the number off the machine.

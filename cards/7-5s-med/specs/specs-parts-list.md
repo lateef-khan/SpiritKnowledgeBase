@@ -3,8 +3,8 @@ id: 7-5s-med-specs-parts-list
 title: The 257-row parts list, items 1 to 263, the one that names its two optical
   sensor boards and packs seven tools as items
 kind: spec
-question: What is the full parts list for a Spirit 7-5s-med rehabilitation recumbent
-  stepper, as the service manual prints it?
+question: What is the full parts list for a Spirit 7.5S rehabilitation recumbent stepper
+  (the 7-5s-med and 75s-2025 service manuals), as the service manual prints it?
 asked_as:
 - parts list for the 7.5s stepper
 - what is item 44 on the 7.5s exploded view
@@ -25,9 +25,10 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 75s-2025
   section: specs
   code: '*'
 authority: 3
@@ -40,6 +41,7 @@ see_also:
 - spirit-climber-specs-parts-electronic-parts-named
 - 7-5s-med-specs-dimensions-and-weight
 - crs800s-2024-specs-parts-list
+- spirit-med-stepper-70s-specs-parts-list-items-1-to-263
 source:
   ref: spirit-stepper-7-5s-med-service-manual
   locator: '"7.5 S parts list", PDF pp. 47-54 (text.md lines 606-873), under the "Exploded
@@ -48,7 +50,7 @@ source:
     way, is printed in the 7.5S owner''s manual (spirit-climber-7-5s-med-owners-manual)
     printed pp. 60-67 (PDF pp. 60-67); its native text layer holds 71 of the rows
     and the rest are OCR-supplemented, and every natively legible row agrees with
-    this one'
+    this one The RS9600-SS021-03 revision of the service manual, spirit-stepper-75s-2025-service-manual, prints the same 257 rows, items 1-263, on "7.5 S parts list" PDF pp. 48-55 (text.md lines 619-880), parsed and compared row by row with the -01 book: no row differs. Its "Exploded view drawing" PDF p. 47 (line 618) is a different drawing, stamped RS9600-SS021-03 / 20251208, read from a 200 dpi render.'
   extracted_at: '2026-09-11'
 ---
 
@@ -349,3 +351,6 @@ item number, not the name, when ordering. Item 101 `PU Wheel` is the largest sin
 | 261 | Powder metallurgy Sleeve | 2 |
 | 263 | Ø 3/8" × Ø 20 × 2T_Flat Washer | 2 |
 
+## The 2025 revision of the service manual prints this list under a drawing it does not fit
+
+**The RS9600-SS021-03 book (the 7.5S-2025 service manual) prints these 257 rows unchanged** - not one description or quantity differs from the -01 book - but its exploded view is a new drawing, stamped `RS9600-SS021-03 20251208`, whose balloons run past 300 (330 to 337 are on the page). Those numbers are not in this list. The list that does decode the new drawing is the 337-row one in the 7.5S-2025 **owner's** manual (`spirit-climber-specs-which-manuals-print-a-parts-list`); this list decodes the 2018 drawing the -01 book and the 2021 owner's manual print. The 7.0S-2025 service manual does the same thing with the 7.0S list (`spirit-med-stepper-70s-specs-parts-list-items-1-to-263`).

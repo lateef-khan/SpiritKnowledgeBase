@@ -25,6 +25,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   section: safety
@@ -38,7 +39,10 @@ see_also:
 - spirit-2026t-safety-who-may-install-and-operate
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: APPLICATION SPECIFICATION, INTENDED PATIENT POPULATION, page 9; the 8.0T owner's manual prints the same block on its page 9
+  locator: 'APPLICATION SPECIFICATION, INTENDED PATIENT POPULATION, page 9; the 8.0T
+    owner''s manual prints the same block on its page 9. The 2025 7.0T owner''s manual
+    (revision 01.10.25, version 2.0) prints the same page: APPLICATION SPECIFICATION,
+    PDF p. 11 (printed 9), lines 247-280 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -69,3 +73,9 @@ excludes a list of conditions outright: `spirit-2026t-safety-rehabilitation-cont
 The safety instructions page separately says to keep children away from the machine
 (`spirit-2026t-safety-keep-children-away`), which is the rule when no therapist or parent has
 authorised the child's use.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.
+
+**The contact site is the line that changed.** The January 2025 book prints `Contact site: hands,
+feet, and trunk` - the 8.0T's wording - where the November 2025 book prints `hands and feet`. Every
+other line of the page is the same in both printings.

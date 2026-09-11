@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -40,7 +41,11 @@ source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: 7.0T p. 24 FEATURES - Acceleration - Deceleration; 8.0T p. 11 UNIQUE USES.
     MT200-2022 service manual section 4.2.1 e Acceleration Key Lock, PDF pp. 10-11
-    (printed 10-11), text.md lines 174-177, and 4.2.2 v-vi, PDF p. 11, lines 196-201
+    (printed 10-11), text.md lines 174-177, and 4.2.2 v-vi, PDF p. 11, lines 196-201.
+    7.0T 2025 owner's manual PDF p. 26 (printed 24), text.md lines 728-763. The 770885
+    re-export of the same MT8000 book (spirit-treadmill-70t-2026-service-manual, MT8000-ST024-01
+    on the file, ST021-01 on its cover) prints this section at the same PDF page and
+    text.md lines; only its cover and component call-outs differ.
   extracted_at: '2026-09-09'
 ---
 
@@ -72,4 +77,6 @@ menu under two names; see `70t-2026-console-maintenance-mode-menu`.
 **The MT200-2022 service manual prints the same Acceleration Key Lock** - MW "ACCEL KEY", Enter shows
 "ACCEL LOCKED" (the default), an up or down key shows "ACCEL UNLOCKED" - and the same 0:03 seconds per
 1 mph/kph with a range of 0:01 to 1:00 minute, for both acceleration and deceleration.
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
 

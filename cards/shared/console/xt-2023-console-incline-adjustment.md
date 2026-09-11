@@ -2,7 +2,8 @@
 id: xt-2023-console-incline-adjustment
 title: Adjusting the incline, and why it drops back to zero
 kind: fact
-question: How do I change the incline on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
+question: How do I change the incline on a Spirit XT185, XT285, XT385, XT485 or XT685
+  treadmill, 2015 or 2023?
 asked_as:
 - how do i change the incline on my treadmill
 - why does my treadmill incline go back to flat
@@ -30,6 +31,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -44,7 +46,8 @@ see_also:
 - xt-2023-console-quick-start
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: page 22, FEATURES - CONTINUED / Incline
+  locator: page 22, FEATURES - CONTINUED / Incline. XT485 2013 OM INCLINE FEATURE,
+    PDF p. 17 (printed 16), text.md lines 524-531
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +85,6 @@ and adds the touchscreen and Direct Access routes instead; see
 and the return to zero, so this card covers that machine. Its rapid alternative is the **Quick
 Incline** key followed by 0 through 9 - see
 `xt685-2010-console-quick-speed-and-incline-keys`, not the Select key card.
+
+**The XT485 2013 owner's manual prints all four bullets on its printed p. 16**, so this card covers that machine. Its rapid alternative is the **Quick Incline key, then 0 through 9, "on the left hand side of console"** - the 2010 XT685's key (`xt685-2010-console-quick-speed-and-incline-keys`) - and the console-or-handrail keys, the 0.5 increments and the return to zero are printed the same.
+

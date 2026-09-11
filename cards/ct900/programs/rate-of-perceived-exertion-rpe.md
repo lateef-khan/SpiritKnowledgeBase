@@ -18,6 +18,7 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - 85s-fit-2026
   - ce800-2013
@@ -46,6 +47,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -81,6 +83,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt485ent-2023
@@ -100,7 +103,10 @@ see_also:
 - spirit-ce-programs-target-zone-of-108-to-144-beats
 source:
   ref: ct900-om
-  locator: p. 33
+  locator: 'p. 33; 4.0T 2025 (February printing): PDF p. 42 (printed 40); text.md
+    lines 1158-1197; 4.0T 2025 (May printing): PDF p. 42 (printed 40); text.md lines
+    1158-1197; CT850 2013: PDF p. 23 (printed 19), OCR supplement lines 824-877; XT485
+    2013: PDF p. 27 (printed 26); text.md lines 1010-1056'
   extracted_at: '2026-08-24'
 ---
 
@@ -218,3 +224,4 @@ which, like the 2024 one, print no heart rate chapter of any kind - and the MS30
 8.5S rehabilitation steppers. For the rehabilitation machines see
 `spirit-rehab-stepper-programs-no-maximum-heart-rate-formula-and-no-training-zone-page`.
 
+**The 4.0T 2025 owner's manual (both printings), the 2013 CT850 owner's manual and the 2013 XT485 owner's manual print the same scale and the same add-a-zero rule.**

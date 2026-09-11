@@ -77,10 +77,10 @@ see_also:
 - spirit-strength-csf-funt-light-commercial-warranty
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: The line directly under the WARRANTY heading in each of the 39 strength manuals. Read from
+  locator: 'The line directly under the WARRANTY heading in each of the 39 strength manuals. Read from
     the native PDF text layer of every book and confirmed on a 300 dpi tesseract --psm 4 render for spirit-strength-css-abdo-owners-manual
     PDF p. 25, spirit-strength-csd-itot-owners-manual p. 24, spirit-strength-csi-lrow-owners-manual p.
-    45, spirit-strength-csf-funt-owners-manual p. 20 and spirit-strength-st800dr3-owners-manual p. 20.
+    45, spirit-strength-csf-funt-owners-manual p. 20 and spirit-strength-st800dr3-owners-manual p. 20. Later printings checked on 2026-09-11 and found unchanged: spirit-strength-css-delt-owners-manual-2026 (the 2026 revision of the CSS-DELT book) prints the same three warranty pages, WARRANTY - COMMERCIAL effective July 02, 2024 and two WARRANTY - CONTINUED pages, PDF pp. 27-29 (text.md lines 781-876); spirit-strength-csd-cpsp-owners-manual-2025-update (the May 2025 update of the CSD-CPSP book) prints the same three warranty pages, effective February 21, 2024, PDF pp. 29-31 (flat images; OCR supplements in text.md).'
   extracted_at: '2026-09-10'
 ---
 

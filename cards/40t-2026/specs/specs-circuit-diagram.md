@@ -41,10 +41,12 @@ see_also:
 - 40t-2026-specs-unit-block-diagram
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF p. 34 (printed 34), section 9 Circuit Diagram, drawing titled 'ST8700
-    TREADMILL CIRCUIT DIAGRAM'; text.md lines 517-522, OCR supplement lines 1341-1401
+  locator: 'PDF p. 34 (printed 34), section 9 Circuit Diagram, drawing titled ''ST8700
+    TREADMILL CIRCUIT DIAGRAM''; text.md lines 517-522, OCR supplement lines 1341-1401
     (partly misread); read from the 300 dpi render, which is itself a low-resolution
-    raster
+    raster. ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    Circuit diagram, PDF p. 35 (printed 34), text.md lines 547-591, the same "ST8700
+    TREADMILL CIRCUIT DIAGRAM" sheet in a worse raster (OCR supplement lines 1331-1362)'
   extracted_at: '2026-09-11'
 ---
 
@@ -71,3 +73,8 @@ The sheet is the only place the book names the inverter model, the motor model a
 driver-board pages show the same parts without numbers. The CT850-2020's sheet names the same KSP485
 motor, RM6T6-1003 inverter and RFMB 20A breaker, but with 6-pin console cables and no second incline
 motor.
+
+**The ST8700A revision of the service manual prints the same sheet**, still titled ST8700 with the
+same motor, inverter, breaker and control-board labels; its copy renders worse, with font-substitution
+diamonds over some labels, so read the figures from the ST017 book's copy.
+

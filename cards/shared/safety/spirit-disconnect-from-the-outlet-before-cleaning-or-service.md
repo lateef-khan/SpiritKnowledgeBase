@@ -27,9 +27,16 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce850-2016
   - ce850-2020
   - cr800ent-2023
@@ -81,6 +88,7 @@ facets:
   - xg400-2016
   - xg400-2019
   - xg400-2021
+  - xt485-2013
   section: safety
   code: '*'
 authority: 3
@@ -146,7 +154,22 @@ source:
     (XS200-SS003) service manual: 7-1 to 7-3, PDF p. 30 (printed 30), text.md lines
     418-447, in spirit-stepper-cs800-2016-service-manual. All four pages were also
     read from 110 dpi renders; the XRW600 page prints the word Rower highlighted in
-    yellow where the CRW800 page prints elliptical.'
+    yellow where the CRW800 page prints elliptical. Spirit Medical 7.0R (2025): SAFETY
+    INSTRUCTIONS, WARNING lead, PDF p. 6 (printed 4), text.md lines 108-143, in spirit-bike-70r-2025-owners-manual;
+    7.0U: PDF p. 6, lines 112-151, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF
+    p. 6, lines 112-148, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p. 6, lines
+    108-142, in spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: Danger, PDF p.
+    5, lines 80-117, in spirit-bike-70r-2021-owners-manual. The 2025 4.0T owner''s
+    manual (revision 02.04.25, version 2.1) prints the same page: SAFETY INSTRUCTIONS,
+    WARNING lead, PDF p. 6 (printed 4), lines 110-149 in spirit-treadmill-40t-2025-owners-manual;
+    the May 2025 printing (revision 05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: SAFETY INSTRUCTIONS, WARNING lead,
+    PDF p. 6, lines 109-144 in spirit-treadmill-70t-2025-owners-manual. XT485-2013:
+    DANGER line, PDF p. 4 (printed 3), lines 76-131, in spirit-treadmill-xt485-2013-owners-manual.
+    4.0T service manuals: 7. Product Safety Instructions, first bullet, PDF p. 27,
+    lines 384-418, in spirit-treadmill-40t-2026-service-manual-st8700a, and PDF p.
+    26, lines 353-387, in spirit-treadmill-40t-2026-service-manual'
   extracted_at: '2026-09-08'
 ---
 
@@ -384,3 +407,26 @@ XS895, CR1000ENT, 7.5S and 8.5S service manuals have no safety chapter; the thre
 the power when replacing any parts` instead (`spirit-climber-safety-turn-the-power-off-before-replacing-any-part`);
 the i-Strength module manual has its own cable-order table
 (`spirit-strength-safety-i-strength-module-electric-shock-warnings-and-cable-order`).
+
+## The plug-in Spirit Medical bikes open their safety list with it
+
+**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals print the 2026 treadmills' WARNING lead**, each
+naming its own machine - `WARNING - To reduce the risk of electric shock, disconnect your 7.0R from
+the electrical outlet prior to cleaning and/or service work` - and, as item 17 (7.0R), 9 (7.0U) or
+10 (8.0U, 8.5R), how to disconnect: `To disconnect, turn all controls to the off position then remove
+the plug from the outlet`. The Dyaco MED 7.0R prints the same sentence under a `Danger` heading.
+None states a capacitor discharge time or a lock-out procedure. The self-powered 4.0R and 4.0U have
+nothing to unplug (`spirit-bike-safety-no-mains-outlet-needed`).
+
+**The 2025 printings of the 4.0T and 7.0T manuals print the lead unchanged.**
+
+**The Australian XT485-2013 owner's manual prints this card's sentence under DANGER** - `To reduce the
+risk of electric shock disconnect your treadmill from the electrical outlet prior to cleaning and/or
+service work` - and its disconnect item takes the tether cord off first: `To disconnect, turn all
+controls to the off position, remove tether cord, then remove the plug from the outlet`, the
+CT800ENT-2022 sequence (`xt485-2013-safety-instructions-list`). The CT850-2013 prints only the
+unplug-after-use DANGER line, as the 2016, 2018 and 2020 CT850 books do.
+
+**Both 4.0T service manuals - ST8700-ST017 and ST8700A-ST026-01 - open their chapter 7 with the
+CT850 sentence**, `disconnect your treadmill from the electrical outlet prior to cleaning and/or
+service work`, word for word with each other.

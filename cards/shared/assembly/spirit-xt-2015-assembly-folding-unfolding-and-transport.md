@@ -3,8 +3,8 @@ id: spirit-xt-2015-assembly-folding-unfolding-and-transport
 title: Folding, unfolding and rolling away on the locking telescoping tube and the
   unlocking lever
 kind: procedure
-question: How do I fold, unfold and move a Spirit XT185, XT285, XT385 or XT485 2015
-  treadmill, or an XT485ENT, according to the service manual?
+question: How do I fold, unfold and move a Spirit XT185, XT285, XT385, XT485 2013
+  or 2015, or XT485ENT treadmill?
 asked_as:
 - how do i fold my xt treadmill up
 - how do i get the deck back down on my spirit xt
@@ -28,6 +28,7 @@ facets:
   - xt185-2015
   - xt285-2015
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   section: assembly
@@ -49,7 +50,9 @@ source:
     59), text.md lines 1298-1326; XT185 2015 PDF p. 64 (printed 59), lines 1227-1250;
     XT385 2015 PDF p. 64, lines 1046-1065; XT485 2015 PDF p. 65, lines 1054-1073;
     XT485ENT PDF p. 59, lines 869-888. The XT385 2015, XT485 2015 and XT485ENT pages
-    were also rendered and OCRed to confirm no transport paragraph is printed'
+    were also rendered and OCRed to confirm no transport paragraph is printed | xt485-2013
+    (spirit-treadmill-xt485-2013-owners-manual): FOLDING INSTRUCTIONS and TRANSPORT,
+    PDF p. 13 (printed 12); text.md lines 362-395'
   extracted_at: '2026-09-11'
 ---
 
@@ -85,3 +88,7 @@ on the rendered page. The XT185 book heads its first section "Unfoldong The Trea
 
 The 2023 XT machines release the deck a different way - a foot on the tube at a yellow sticker and a release
 lever - and are on their own card. The Sole F-series books print this same page for the same Dyaco frame.
+
+## The XT485 2013 owner's manual prints the whole page
+
+**The XT485 2013 owner's manual is the one owner's manual on this card that prints it** - under FOLDING INSTRUCTIONS and TRANSPORT, between the assembly steps and the features page, with all three parts: the "do not attempt to move the unit unless it is in the folded and locked position" preamble, the fold and unfold steps word for word (minimum incline, the locking telescoping tube assembly, slight forward pressure at the rear roller area, the unlocking lever, the deck lowering unassisted from about waist high), and the transport paragraph: **four transport wheels that are engaged when the treadmill is folded; after folding simply roll the treadmill away**. Its table of contents lists it as "Transport Instructions 12".

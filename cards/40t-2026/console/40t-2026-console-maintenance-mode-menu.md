@@ -24,13 +24,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: console
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - 70t-2026-console-maintenance-mode-menu
@@ -43,7 +42,12 @@ see_also:
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
   locator: p. 47, MAINTENANCE MODE - Console Software. 4.0T service manual, Maintenance
-    Mode, PDF p. 33 (printed 33), text.md lines 482-517
+    Mode, PDF p. 33 (printed 33), text.md lines 482-517. 4.0T 2025 owner's manual
+    (spirit-treadmill-40t-2025-owners-manual, Revision 02.04.25) PDF p. 48 (printed
+    46), text.md lines 1509-1542; the May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing,
+    Revision 05.19.25) is the same document at the same page and lines. 4.0T ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a, the later revision
+    of the ST8700-ST017 book) Maintenance Mode, PDF p. 34, lines 512-547
   extracted_at: '2026-09-09'
 ---
 
@@ -79,4 +83,6 @@ with a 30-minute Sleep Mode, an odometer in hours, an Incline Return setting and
 A1 / A2 incline readings and an AMPS readout, and no Pause mode, LED brightness, ANT ID or Update
 Code. It is held on `40t-2026-console-maintenance-mode-as-the-service-manual-prints-it`; the two
 documents describe the same machine and do not mention each other.
+
+**The 2025 printings of the 4.0T owner's manual - February (Revision 02.04.25) and May (Revision 05.19.25), one document twice - print this section word for word on the same page**, so this card covers the 40t-2025 as well. The ST8700A service manual prints its ENGINEERING MODE MENU on its p. 34 with the ST017 wording unchanged (`40t-2026-console-maintenance-mode-as-the-service-manual-prints-it`).
 

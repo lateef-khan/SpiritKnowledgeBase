@@ -77,9 +77,9 @@ see_also:
 - spirit-strength-warranty-effective-dates
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: The opening paragraph of the warranty page in all thirty-nine manuals. spirit-strength-csd-acbe-owners-manual
+  locator: 'The opening paragraph of the warranty page in all thirty-nine manuals. spirit-strength-csd-acbe-owners-manual
     PDF p. 28 (printed 27) for the installation wording, spirit-strength-st800fi-owners-manual PDF p.
-    20 (printed 18) for the date of sale wording. Read from each PDF native text layer.
+    20 (printed 18) for the date of sale wording. Read from each PDF native text layer. Later printings checked on 2026-09-11 and found unchanged: spirit-strength-css-delt-owners-manual-2026 (the 2026 revision of the CSS-DELT book) prints the same three warranty pages, WARRANTY - COMMERCIAL effective July 02, 2024 and two WARRANTY - CONTINUED pages, PDF pp. 27-29 (text.md lines 781-876); spirit-strength-csd-cpsp-owners-manual-2025-update (the May 2025 update of the CSD-CPSP book) prints the same three warranty pages, effective February 21, 2024, PDF pp. 29-31 (flat images; OCR supplements in text.md).'
   extracted_at: '2026-09-10'
 ---
 

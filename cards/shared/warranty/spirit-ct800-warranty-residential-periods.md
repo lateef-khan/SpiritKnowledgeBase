@@ -29,6 +29,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800ent-2022
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -55,7 +56,7 @@ source:
     53 (line 1211). They are printed again, unchanged, in all four CT850 owner''s manuals:
     ct850-2016 p. 45 (spirit-treadmill-ct850-2016-owners-manual text.md line 1157),
     ct850-2018 p. 45 (line 1150), ct850-2020 p. 45 (line 1156), ct850ent-2022 p. 53
-    (line 1217)'
+    (line 1217) The same Residential row in the CT850 2013 book: spirit-treadmill-ct850-2013-owners-manual, "Treadmill Warranty - Effective November 1, 2013", printed p. 27 (PDF p. 31, text.md lines 1265-1372 - the whole book is OCR from a scan; the table was verified on a 150 dpi render).'
   extracted_at: '2026-09-09'
 ---
 
@@ -74,3 +75,5 @@ Motor and deck share one column, so no manual states a separate deck period. Six
 **A CT800 or CT850 in a home is the second row of a commercial machine's table, not a separate warranty document.** The same exclusions, responsibilities and service steps govern both rows. The commercial row is `spirit-ct800-warranty-commercial-periods`; which use each row covers is `spirit-ct800-warranty-use-environment`.
 
 When the clock starts is in the paragraph above the table (`xt-2023-warranty-start-date`); the two-year labor figure is dated separately in the SERVICE paragraph (`spirit-ct800-warranty-labor-period`).
+
+**The CT850 2013 book prints the same Residential row** - Lifetime, Lifetime, 10 Years, 2 Years - under the heading *Treadmill Warranty - Effective November 1, 2013*, the earliest effective date of the nine.

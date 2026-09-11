@@ -3,8 +3,8 @@ id: 7-5s-med-maintenance-belt-slip-584-mm-belt-320-n-and-1032-mm-belt-240-n-then
 title: 'Belt slipping: the 584 mm belt tensioned to 320 N and the 1032 mm belt to
   240 N, then the one-way bearing in the cable guide wheel'
 kind: troubleshooting
-question: What do I do when a belt slips on a Spirit 7-5s-med recumbent stepper, and
-  what tension do the two belts take?
+question: What do I do when a belt slips on a Spirit 7.0S or 7.5S medical recumbent
+  stepper, and what tension do the two belts take?
 asked_as:
 - belt slipping on the 7.5s stepper
 - how tight are the belts on the spirit rehab stepper
@@ -25,9 +25,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: maintenance
   code: '*'
 authority: 3
@@ -41,14 +43,19 @@ see_also:
 - 7-5s-med-maintenance-monthly-wear-check-on-grips-cushions-and-pedals
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 7. Trouble Shooting, 7.1 Slip of Belt, items 7.1.1 and 7.1.2, PDF p. 43
+  locator: '7. Trouble Shooting, 7.1 Slip of Belt, items 7.1.1 and 7.1.2, PDF p. 43
     (no folios), text.md lines 556-569, figures 7.1.1 and 7.1.2. The two figures are
     6.9.4 Belt assembly, PDF p. 35, lines 429-431, read on a 200 dpi render as well
     as the text layer (320N and 240N print as the text layer has them); 6.9.1 names
     the socket head cap bolt and J bolt, p. 34, lines 405-407. The cable guide wheel
     replacement is 6.8, PDF p. 33, lines 384-397 (one-way bearing direction figure
     6.8.4; sensor gap 7-9 mm). Belts are parts 37 and 38, one-way bearings part 54,
-    J bolt part 163 (PDF pp. 48 and 51).
+    J bolt part 163 (PDF pp. 48 and 51). Two 2025 Spirit stepper service manuals were
+    added on 2026-09-11 and print 7.1 and 6.9.4 word for word: spirit-stepper-70s-2025-service-manual
+    (RS9500-SS021-02) 7.1 Slip of Belt, PDF p. 43 (no folios), text.md lines 569-583,
+    and 6.9.4 Belt assembly, PDF p. 35, lines 445-448 - 320N for the 584L belt, 240N
+    for the 1032L belt; spirit-stepper-75s-2025-service-manual (RS9600-SS021-03) 7.1,
+    PDF p. 44, lines 569-583, and 6.9.4, PDF p. 35, lines 426-432, the same figures.'
   extracted_at: '2026-09-11'
 ---
 
@@ -77,3 +84,9 @@ and the optical sensor is reset to **7-9 mm** from the wheel, or the step count 
 Nothing else in the book tensions a belt. The front connecting cable is set to 40-50 lb when it is replaced
 (6.5.2), which is a cable, not a belt.
 
+## The 2025 7.0S and 7.5S service manuals print the same two figures
+
+The **7.0S 2025** (RS9500-SS021-02) and **7.5S 2025** (RS9600-SS021-03) books - the -03 book is 97% the -01 book
+this card was written from - print 7.1 Slip of Belt and the 6.9.4 figures word for word: **320 N on the 584 mm
+belt, 240 N on the 1032 mm belt**, the screw and nut of 6.9.1, and the cable guide wheel's one-way bearing as
+the second suspect. Their owner's manuals print no belt figure.

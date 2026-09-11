@@ -41,9 +41,16 @@ see_also:
 - 40t-2026-specs-circuit-diagram
 source:
   ref: spirit-treadmill-40t-2026-service-manual
-  locator: PDF pp. 3-4 Outlines, text.md lines 40-45 (photographs, no call-outs);
+  locator: 'PDF pp. 3-4 Outlines, text.md lines 40-45 (photographs, no call-outs);
     PDF p. 6 (printed 6) 2.1 Upper Controllers, lines 46-51; PDF p. 7 (printed 7)
-    2.2 Lower Controller and Driver, lines 52-62
+    2.2 Lower Controller and Driver, lines 52-62 The ST8700A revision of the same
+    book, spirit-treadmill-40t-2026-service-manual-st8700a, prints the same pages:
+    1. ST8700A-ST017-01 Outline PDF pp. 3-4 (text.md lines 35-42, photographs), Upper
+    Controllers PDF p. 6 (lines 48-64: Cooling Fan, Display, Safety Key) and Lower
+    Controller and Drive PDF p. 7 (lines 64-85: Incline Motor, AC Motor, Filter, Rear
+    Incline Interface Board, Inverter). ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    1. Outline PDF pp. 3-4, lines 35-41; Upper Controllers PDF p. 6, lines 48-63;
+    Lower Controller and Drive PDF p. 7, lines 64-84'
   extracted_at: '2026-09-11'
 ---
 
@@ -58,3 +65,12 @@ the replacement procedure.
 
 The chapter carries no dimension, machine weight, user weight or power rating; the owner's manual's
 absence card lists what that book does and does not give.
+
+**The ST8700A-ST026-01 revision of the service manual names the same eight parts** on the same two pages, headed *Upper Controllers* and *Lower Controller and Drive*; its outline page is headed `ST8700A-ST017-01 Outline`, a leftover of the earlier book's code.
+
+**The ST8700A revision replaces the photographs and keeps the call-outs.** The ST017 book's outline
+and lower-controller pages show a white Philips-branded *ReActiv* treadmill - the same machine sold
+under another name; the ST8700A book shows the black Spirit-branded 4.0T with the same five
+call-outs (Incline Motor, AC Motor, Filter, Rear Incline Interface Board, Inverter) and the same
+three on the console (Cooling Fan, Display, Safety Key).
+

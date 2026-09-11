@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-safety-clearance-around-the-treadmill
-title: Needs two feet at each side, one foot at the front and three and a half feet at the rear
+title: Needs two feet at each side, one foot at the front and three and a half feet
+  at the rear
 kind: spec
-question: How much space does a Spirit 70t-2026 treadmill (the 7.0T), or a Spirit MT200 rehabilitation treadmill, need around it?
+question: How much space does a Spirit 70t-2026 treadmill (the 7.0T), or a Spirit
+  MT200 rehabilitation treadmill, need around it?
 asked_as:
 - how much space do i need around the treadmill
 - how far from the wall should the treadmill be
@@ -25,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -41,7 +44,11 @@ see_also:
 - spirit-mt200-safety-instructions-list
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 14, page 4. The two Spirit MT200 owner's manuals print the same figures as a bullet of their safety instructions page, 2010 page 4 and 2022 page 6
+  locator: 'SAFETY INSTRUCTIONS item 14, page 4. The two Spirit MT200 owner''s manuals
+    print the same figures as a bullet of their safety instructions page, 2010 page
+    4 and 2022 page 6. The 2025 7.0T owner''s manual (revision 01.10.25, version 2.0)
+    prints the same page: SAFETY INSTRUCTIONS item 14, PDF p. 6 (printed 4), lines
+    109-144 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -81,3 +88,5 @@ Two feet each side, one foot at the front, three and a half feet at the rear - t
 not the 8.0T's, and the same reason is given for the side figure. **The MT200 manuals print no
 other clearance figure**, and say nothing about carpet, furniture or keeping children and pets out
 of the area.
+
+**The 2025 printing of the 7.0T manual prints this page word for word**, so it holds for the 70t-2025 as well. The January 2025 book (revision 01.10.25, version 2.0) was compared with the 2026 book page by page; the only safety-page changes between them are the outlet voltage and plug line (`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`), a fuller operator profile, and the contact site on the application page, which the 2025 book gives as `hands, feet, and trunk` where the 2026 book says `hands and feet`.

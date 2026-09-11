@@ -42,13 +42,15 @@ see_also:
 - spirit-xt-2023-assembly-speed-sensor-replacement
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: Section 12.7 Speed Sensor Replacement (including the wire), p. 74 (printed
+  locator: 'Section 12.7 Speed Sensor Replacement (including the wire), p. 74 (printed
     73). The table of contents calls this section 10.7; the same three lines are section
     9.7 of the 4.0T 2026 service manual, PDF p. 50 (printed 61), text.md lines 827-836;
     12.8 of the XT185 2015 service manual, PDF p. 83 (printed 78), lines 1499-1508;
     12-8 of the XT285 2015 (PDF p. 84, printed 78, lines 1653-1668), XT385 2015 (PDF
     p. 83, lines 1374-1389) and XT485 2015 (PDF p. 84, lines 1381-1390) service manuals;
-    and 12.8 of the XT485ENT service manual, PDF p. 78, lines 1187-1202
+    and 12.8 of the XT485ENT service manual, PDF p. 78, lines 1187-1202 | 40t-2026
+    ST8700A revision (spirit-treadmill-40t-2026-service-manual-st8700a): 9.7 Speed
+    Sensor Replacement (including the wire), PDF p. 51; text.md lines 899-907'
   extracted_at: '2026-09-08'
 ---
 
@@ -71,3 +73,5 @@ book prints one, is in the E1 error chapter. Set the gap from the right card aft
 **The CT850 2020, CT800 2020, CT800ENT and CT850ENT manuals have no speed sensor replacement procedure at
 all** - their Part Replacement Guide stops at the incline motor. The XT 2023 books print a one-line version
 without the magnet test, on its own card.
+
+The **ST8700A-ST026-01 revision** of this book (`spirit-treadmill-40t-2026-service-manual-st8700a`, cover "4.0T-740885 (ST8700A-ST017-01)") prints this procedure word for word - its chapter 9 measures 99.8% the ST017 chapter at word level, one space apart.

@@ -27,6 +27,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2010
   - mt200-2022
@@ -46,7 +47,10 @@ source:
   ref: spirit-treadmill-70t-2026-owners-manual
   locator: p. 43, MACHINE CARE - CONTINUED - Maintenance Mode. MT200-2022 (7.0T MT8000-ST021-02)
     service manual section 4.2.1 Maintenance Mode, PDF p. 8 (printed 8), text.md lines
-    103-120
+    103-120. 7.0T 2025 owner's manual PDF p. 45 (printed 43), text.md lines 1386-1421.
+    The 770885 re-export of the same MT8000 book (spirit-treadmill-70t-2026-service-manual,
+    MT8000-ST024-01 on the file, ST021-01 on its cover) prints this section at the
+    same PDF page and text.md lines; only its cover and component call-outs differ.
   extracted_at: '2026-09-09'
 ---
 
@@ -96,4 +100,6 @@ all LEDs sequentially. Its Functions list is the seven above, with Pause "lasts 
 console returns to the idle mode", plus an Acceleration Key Lock, a Forward Speed limit and a
 Security entry after Service Mode (`spirit-2026t-console-belt-acceleration-time`,
 `70t-2026-console-speed-limit-setting`, `70t-2026-console-child-lock`).
+
+**The 2025 printing of the 7.0T owner's manual (Revision 01.10.25, warranty effective October 23, 2024) prints this section word for word on the same page**, so this card covers the 70t-2025 as well.
 

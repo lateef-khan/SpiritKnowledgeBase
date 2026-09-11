@@ -2,8 +2,8 @@
 id: spirit-ct850-drive-belt-tension
 title: Drive belt tension is 70 to 75 lbs in the white range of a belt tension gauge
 kind: spec
-question: What is the drive belt tension on a Spirit CT800, CT850, 4.0T or XT-series treadmill
-  whose service manual sets it with a gauge?
+question: What is the drive belt tension on a Spirit CT800, CT850, 4.0T or XT-series
+  treadmill whose service manual sets it with a gauge?
 asked_as:
 - what tension should the motor belt be on my spirit ct850
 - how tight should the treadmill drive belt be
@@ -63,16 +63,19 @@ see_also:
 - xt-2023-specs-no-specification-table
 source:
   ref: spirit-treadmill-ct850-2016-service-manual
-  locator: 'CT850-2016 p. 68 (printed 67), section 10.3 Motor Replacement; CT850-2020 p. 61
-    (printed 60), section 11-3 step 5. The same step in the CT800-2020 service manual p. 59,
-    text.md lines 863-864; CT800ENT-2022 p. 56, lines 968-970; CT850ENT-2022 p. 57, lines
-    987-989; 40T-2026 p. 55, lines 750-751; XT185-2015 p. 71, lines 1422-1423; XT285-2015
-    pp. 78, 81 and 83, lines 1574, 1616, 1647; XT385-2015 pp. 77, 80, 82, lines 1296, 1338,
-    1368; XT485-2015 lines 1304, 1346, 1375; XT185-2023 p. 40, lines 863-864; XT285-2023 p.
-    42, line 867; XT385-2023 p. 42, line 781; XT485-2023 line 786; XT685-2023 p. 40, line 838;
-    XT485ENT-2023 p. 72, lines 1109-1111 (and the roller steps at 1151, 1180); XT685ENT-2023
-    p. 46, lines 715-716 (letter-spaced in the extraction). Contradicting figure: CT800ENT
-    p. 62, lines 1052-1058, and CT850ENT p. 62, lines 1071-1077'
+  locator: 'CT850-2016 p. 68 (printed 67), section 10.3 Motor Replacement; CT850-2020
+    p. 61 (printed 60), section 11-3 step 5. The same step in the CT800-2020 service
+    manual p. 59, text.md lines 863-864; CT800ENT-2022 p. 56, lines 968-970; CT850ENT-2022
+    p. 57, lines 987-989; 40T-2026 p. 55, lines 750-751; XT185-2015 p. 71, lines 1422-1423;
+    XT285-2015 pp. 78, 81 and 83, lines 1574, 1616, 1647; XT385-2015 pp. 77, 80, 82,
+    lines 1296, 1338, 1368; XT485-2015 lines 1304, 1346, 1375; XT185-2023 p. 40, lines
+    863-864; XT285-2023 p. 42, line 867; XT385-2023 p. 42, line 781; XT485-2023 line
+    786; XT685-2023 p. 40, line 838; XT485ENT-2023 p. 72, lines 1109-1111 (and the
+    roller steps at 1151, 1180); XT685ENT-2023 p. 46, lines 715-716 (letter-spaced
+    in the extraction). Contradicting figure: CT800ENT p. 62, lines 1052-1058, and
+    CT850ENT p. 62, lines 1071-1077. 4.0T ST8700A-ST026-01 revision (spirit-treadmill-40t-2026-service-manual-st8700a):
+    9.3 Motor Replacement step 5, PDF p. 45 (printed 55), text.md lines 819-820, the
+    same 70~75 Lbs'
   extracted_at: '2026-09-11'
 ---
 

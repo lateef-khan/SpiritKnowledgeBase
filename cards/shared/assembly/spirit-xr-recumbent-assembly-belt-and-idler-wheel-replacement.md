@@ -5,7 +5,8 @@ title: 'Replacing the belt and idler wheel assembly on the induction-brake recum
   to 180 plus or minus 10 Hz'
 kind: procedure
 question: How do I replace the drive belt or the idler wheel assembly on a Spirit
-  XBR95 or 2009 CR800 recumbent bike?
+  CR800 2009, XBR95 or Spirit Medical 4.0R recumbent bike, and what belt tension does
+  it take?
 asked_as:
 - belt replacement spirit xbr95
 - belt tension xr898
@@ -26,6 +27,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
   - cr800-2009
   - xbr95-2016
   - xbr95-2023
@@ -46,7 +48,9 @@ source:
   locator: 'cr800-2009: I. 5 The Belt and Idler Wheel Assembly, PDF p. 8; text.md
     lines 178-219 | xbr95-2016: 9-5 The Belt and Idler Wheel Assembly, PDF pp. 52-53;
     text.md lines 748-778 | xbr95-2023: 9.5 Replacing the Drive Belt and Idler Wheel
-    Assembly, PDF p. 18; text.md lines 352-368'
+    Assembly, PDF p. 18; text.md lines 352-368 | 40r-2025 (spirit-bike-40r-2025-service-manual):
+    9-5 The Belt and Idler Wheel Assembly Replacement, PDF pp. 40-41; text.md lines
+    511-535'
   extracted_at: '2026-09-11'
 ---
 
@@ -59,3 +63,5 @@ source:
 5. To refit, secure the idler wheel assembly (10) with the 3 pcs of M6 x 15 screws (98), Ø1/4" spring washers (80) and 1/4" x 13 x 1T flat washers (72) onto the **induction brake (55)** with the Phillips head screwdriver. Return the belt (54) onto the **drive pulley (20)** and the induction brake (55). Turn the drive pulley (20) for smoothness and fit the J-bolt onto the main frame. Use the 13 mm wrench to turn the M8 x 7T nut (88) on the J-bolt until the idler wheel (10) applies sufficient tension to the belt (54). **Use an acoustic tension gauge to make sure the reading is in the range 180 +/- 10 Hz.** Last, turn the drive pulley (20) to make sure the belt (54) sits in the centre and is free from falling off.
 
 **The XBR95 books add a note the 2009 book does not have:** "the new drive belt need adjust to 540N, because drive belt has ductility, after use for a while tension value will be reduced." **That note is in newtons and the step is in hertz**, and the same XBR95 books' belt-slipping answer says to tighten the same nut "until sound wave frequency falls between 450N". Three figures in two units for one belt; the books do not reconcile them. The belt-tension figure card for these machines carries the contradiction; the replacement steps above are what all three books agree on.
+
+**The Spirit Medical 4.0R (FR800-SB022-03 book) prints the 2009 XR898 procedure word for word, 180 +/- 10 Hz included** - "Disassemble Front Shroud", the 13 mm wrench on the M8 x 7T nut, three M6 x 15 screws with Ø1/4" spring washers and 1/4" x 13 x 1T flat washers onto the induction brake, the acoustic tension gauge. It prints no part numbers in the steps and no newton figure anywhere, so the XBR95 540 N note does not apply to it. Its 4.0U upright twin prints the same 180 +/- 10 Hz in the CU800 wording; that is a separate card.

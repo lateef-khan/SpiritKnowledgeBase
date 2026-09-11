@@ -22,6 +22,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -44,7 +45,11 @@ source:
     SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 41 of the 2018 manual (text.md
     lines 1054-1055) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
     (text.md lines 1188-1189); CT850ENT 2022 service manual 8-7 Troubleshooting, PDF
-    p. 40, text.md lines 810-838
+    p. 40, text.md lines 810-838; CT850 2013 owner's manual (spirit-treadmill-ct850-2013-owners-manual,
+    stamp CT850_20131015) troubleshooting table, PDF p. 28 (printed 24); the book
+    is a scan with no text layer, read from the OCR supplement for page 28, text.md
+    lines 1100-1160, the "Circuit breaker trips, but not the treadmill circuit breaker"
+    row
   extracted_at: '2026-09-08'
 ---
 
@@ -74,3 +79,6 @@ current ratings for it: `ct850-2016-trips-onboard-10-amp-circuit` and
 `ct850-2020-trips-onboard-20-amp-circuit`.
 
 **The CT850ENT 2022 service manual prints the row word for word** in its 8-7 Troubleshooting table, worded `Circuit breaker trips, but not the treadmill circuit breaker` with the same high-inrush answer.
+
+**The CT850 2013 owner's manual prints the same answer and then adds a second one no later book keeps**: *Need to replace the breaker with a "High In-rush current" type breaker (see page 3 for details) **or switch to a 20 amp circuit breaker***. So on the 2013 book a 20 amp circuit is offered as the alternative to a high-inrush breaker; the 2016-2022 books drop that clause and print only the breaker type (added 2026-09-11).
+

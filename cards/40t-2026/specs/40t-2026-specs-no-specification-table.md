@@ -1,8 +1,10 @@
 ---
 id: 40t-2026-specs-no-specification-table
-title: The owner's manual prints no specification table, only a motor rating and a parts list
+title: The owner's manual prints no specification table, only a motor rating and a
+  parts list
 kind: fact
-question: Where are the dimensions, product weight, speed range and incline range for a Spirit 40t-2026 treadmill?
+question: Where are the dimensions, weight, deck size, speed range and certifications
+  for a Spirit 40t-2026 or 40t-2025 treadmill?
 asked_as:
 - how big is this treadmill
 - how much does the 4.0t weigh
@@ -23,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: specs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - xt-2023-specs-no-specification-table
@@ -44,7 +45,17 @@ see_also:
 - spirit-2026t-safety-intended-conditions-of-use
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: Table of Contents p. 1 and whole document; Electrical Safety p. 6; Safety Instructions item 30; Exploded View Diagram p. 48; Parts List pp. 49-50. Service-manual figures - 40T-2026 service manual p. 55, text.md lines 750-751 (belt tension); pp. 9-10, lines 89-139 (incline motor voltage); p. 34 (circuit diagram); p. 31, lines 454-470 (factory settings)
+  locator: 'Table of Contents p. 1 and whole document; Electrical Safety p. 6; Safety
+    Instructions item 30; Exploded View Diagram p. 48; Parts List pp. 49-50. Service-manual
+    figures - 40T-2026 service manual p. 55, text.md lines 750-751 (belt tension);
+    pp. 9-10, lines 89-139 (incline motor voltage); p. 34 (circuit diagram); p. 31,
+    lines 454-470 (factory settings). 4.0T-2025 (spirit-treadmill-40t-2025-owners-manual,
+    Rev. 02.04.25, and spirit-treadmill-40t-2025-owners-manual-may-2025-printing,
+    Rev. 05.19.25): Table of Contents PDF p. 3 and whole document - the same absence,
+    checked by grep for dimension, specification, HP, lbs and kg. ST8700A-ST026-01
+    service manual (spirit-treadmill-40t-2026-service-manual-st8700a): belt tension
+    PDF p. 45, lines 819-820; incline motor voltage PDF p. 10, lines 123-130; circuit
+    diagram PDF p. 35'
   extracted_at: '2026-09-09'
 ---
 
@@ -87,3 +98,10 @@ inverter and RFMB 20A breaker** on its circuit diagram (`40t-2026-specs-circuit-
 prints the speed bounds only as factory settings - minimum 0.5 (0.3 to 0.7), maximum 12.0
 (adjustable down to 10.0) - which are console settings, not a rated range. It prints no
 dimension, weight, deck size or horsepower either.
+
+**The 2025 owner's manual - both printings - is the same book on this point.** Its table of contents
+runs Machine Care 41, Troubleshooting 44, Maintenance Schedule 45, Maintenance Mode 46, Exploded View
+47, Parts List 48, Warranty 50; it prints the same 4.0HP AC motor bullet, the same 5 to 48 °C
+operating range and the same 440 lb user weight limit, and nothing else. The ST8700A revision of the
+service manual adds no figure the ST017 book lacks.
+

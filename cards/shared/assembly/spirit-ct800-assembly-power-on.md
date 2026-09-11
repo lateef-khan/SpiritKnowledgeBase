@@ -2,8 +2,8 @@
 id: spirit-ct800-assembly-power-on
 title: Plugging in and switching on at the power switch below the motor hood
 kind: procedure
-question: How do I plug in and switch on a Spirit CT800 or CT850 treadmill for the
-  first time?
+question: How do I plug in and switch on a Spirit CT800, CT850 or XT485 2013 treadmill
+  for the first time?
 asked_as:
 - where is the power switch on my treadmill
 - my treadmill wont turn on
@@ -27,9 +27,11 @@ facets:
   - ct800-2012
   - ct800-2016
   - ct800-2020
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
+  - xt485-2013
   section: assembly
   code: '*'
 authority: 3
@@ -44,9 +46,12 @@ see_also:
 - ct900-plugging-in-and-power-on
 source:
   ref: spirit-treadmill-ct800-2016-owners-manual
-  locator: p. 15, POWER; the same words at p. 10 of the 2012 manual under Power Up,
-    p. 16 of the 2020 manual, p. 16 of the CT850 2016 and 2020 manuals and p. 15 of the
-    CT850 2018 manual, all headed POWER
+  locator: 'p. 15, POWER; the same words at p. 10 of the 2012 manual under Power Up,
+    p. 16 of the 2020 manual, p. 16 of the CT850 2016 and 2020 manuals and p. 15 of
+    the CT850 2018 manual, all headed POWER | ct850-2013 (spirit-treadmill-ct850-2013-owners-manual):
+    Power Up, PDF p. 14 (printed 10); OCR at text.md lines 350-354 | xt485-2013 (spirit-treadmill-xt485-2013-owners-manual):
+    OPERATION OF YOUR CONSOLE - Getting Started, PDF p. 16 (printed 15); text.md lines
+    480-482'
   extracted_at: '2026-09-09'
 ---
 
@@ -82,3 +87,7 @@ on the front grill.
 **The CT800ENT and CT850ENT do not power up like this.** Their manuals give no
 motor-hood location for the switch and show a loading screen and a Home Screen
 rather than an odometer; they have their own card.
+
+## Two 2013 books print the same three sentences
+
+**The CT850 2013 manual** (headed "Power Up", read by OCR from a scan) and **the XT485 2013 manual** (headed "Getting Started") both print: plug into an appropriate wall outlet, turn on the power switch located at the front of the treadmill **below the motor cover**, and ensure the **safety key** is installed as the treadmill will not power on without it. Both then run into the lights-and-odometer sequence and the software version message, which is the console section's card. The XT485 2013 is the one folding residential machine on this card; every other machine here is a CT commercial frame.

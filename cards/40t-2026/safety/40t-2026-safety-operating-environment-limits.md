@@ -1,8 +1,10 @@
 ---
 id: 40t-2026-safety-operating-environment-limits
-title: The treadmill may be used from 5 to 48 degrees Celsius at up to 95 percent humidity
+title: The treadmill may be used from 5 to 48 degrees Celsius at up to 95 percent
+  humidity
 kind: spec
-question: Where can a Spirit 40T-2026 treadmill (the 4.0T) be kept, and how hot or humid may the room be?
+question: Where can a Spirit 40T-2026 treadmill (the 4.0T) be kept, and how hot or
+  humid may the room be?
 asked_as:
 - can i keep my treadmill in the garage
 - is it ok to use a treadmill outside
@@ -23,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: safety
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-safety-operating-environment-limits
@@ -40,7 +41,11 @@ see_also:
 - 40t-2026-safety-instructions-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: ELECTRICAL SAFETY, page 6
+  locator: 'ELECTRICAL SAFETY, page 6. The 2025 4.0T owner''s manual (revision 02.04.25,
+    version 2.1) prints the same page: ELECTRICAL SAFETY, PDF p. 8 (printed 6), lines
+    182-213 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines'
   extracted_at: '2026-09-09'
 ---
 
@@ -72,3 +77,5 @@ onto them.
 
 The manual prints no storage or transport temperature for the 4.0T, and no altitude limit. Its
 safety instructions page states the short form of the rule as item 8, `Do not use outdoors`.
+
+**The 2025 printing of the 4.0T manual prints this page word for word**, so it holds for the 40t-2025 as well. The February 2025 book (revision 02.04.25) and its May 2025 reprint (revision 05.19.25) differ only in the version and revision line; both were compared with the 2026 book page by page and no rule or figure on the safety, electrical, grounding or operation pages changed.

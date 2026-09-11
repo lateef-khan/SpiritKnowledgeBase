@@ -1,6 +1,7 @@
 ---
 id: spirit-bike-programs-preset-setup-steps
-title: A preset asks for age, weight, time and a max level, and Up or Down then shifts the whole profile
+title: A preset asks for age, weight, time and a max level, and Up or Down then shifts
+  the whole profile
 kind: procedure
 question: How do I set up a preset workout program on a Spirit bike with an LED console?
 asked_as:
@@ -23,6 +24,10 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40r-pt
+  - 40u-2025
+  - 40u-pt
   - cr800-2021
   - cr800-2023
   - cr800-2024
@@ -55,7 +60,13 @@ see_also:
 - spirit-bike-programs-touchscreen-setup-defaults-age-thirty-weight-seventy-max-level-five
 source:
   ref: spirit-bike-cr800-2021-owners-manual
-  locator: 'CU800 2012 printed p. 18 (scan 1 PDF p. 20); CR900 2018 p. 20; CU900 2018 p. 19; CR800 2021 p. 21; CU800 2021 p. 20; CR800 2023 p. 21; CR900 2025 p. 20; CU900 2025 p. 19; XBR95 2016/2018/2021 printed p. 26; XBR25 2019 p. 21; XBR55 2019/2021 p. 23; XBU55 2019/2021 p. 23; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55 2023 p. 28'
+  locator: 'CU800 2012 printed p. 18 (scan 1 PDF p. 20); CR900 2018 p. 20; CU900 2018
+    p. 19; CR800 2021 p. 21; CU800 2021 p. 20; CR800 2023 p. 21; CR900 2025 p. 20;
+    CU900 2025 p. 19; XBR95 2016/2018/2021 printed p. 26; XBR25 2019 p. 21; XBR55
+    2019/2021 p. 23; XBU55 2019/2021 p. 23; XBR25 2023 p. 22; XBR95 2023 p. 27; XBR55/XBU55
+    2023 p. 28; 4.0R 2025: PDF p. 23 (printed 21); text.md lines 613-648; 4.0U 2025:
+    PDF p. 23 (printed 21); text.md lines 570-605; PT 4.0 R: PDF p. 37 (printed 37);
+    text.md lines 1075-1120; PT 4.0 U: PDF p. 35 (printed 35); text.md lines 1043-1088'
   extracted_at: '2026-09-09'
 ---
 
@@ -93,3 +104,10 @@ residential book mentions the handlebar keys.
 
 **The 2023 books reach a preset through the PROGRAM key** and use `+` and `-` in place of Up and
 Down. They also drop the sentence about the profile picture not changing.
+
+**The 4.0R and 4.0U medical bikes print these same steps** in their 2025 books and their Dyaco PT 4.0
+R and 4.0 U editions: select the program "by pressing fitness key then press confirm key", then Age,
+Weight, Time and the Max Level "(at the top of the hill)" with the **Plus and Minus** keys, Start, the
+same explanation that Plus or Minus shifts the whole profile while the picture stays put, the
+Display key to scroll, and a summary at the end. Their three presets are Hill, Plateau and Interval
+(`spirit-med-bike-programs-three-presets-hill-plateau-and-interval`).

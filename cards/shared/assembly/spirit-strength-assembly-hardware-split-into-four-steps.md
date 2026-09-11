@@ -1,13 +1,11 @@
 ---
 id: spirit-strength-assembly-hardware-split-into-four-steps
-title: >-
-  The hardware pack is split into four steps, and every bracketed number is an assembly-
-  drawing item number
+title: The hardware pack is split into four steps, and every bracketed number is an
+  assembly- drawing item number
 kind: procedure
-question: >-
-  How do I unpack a Spirit commercial strength machine, and how is the hardware pack
-  organised? Covers every Spirit CSS selectorized station, CSD dual station, CSF
-  functional unit or bench, and the CSI i-Strength machines.
+question: How do I unpack a Spirit commercial strength machine, and how is the hardware
+  pack organised? Covers every Spirit CSS selectorized station, CSD dual station,
+  CSF functional unit or bench, and the CSI i-Strength machines.
 asked_as:
 - how do i unpack my new strength machine
 - what do the numbers in brackets mean in the assembly steps
@@ -68,6 +66,7 @@ facets:
   section: assembly
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-assembly-three-tools-you-must-supply
 - spirit-strength-assembly-tools-are-in-the-carton
@@ -75,11 +74,15 @@ see_also:
 - spirit-strength-assembly-damage-during-assembly-is-not-covered
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: >-
-    printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP, "Unpacking
-    &Parts"; the same page and the same words in all nineteen CSS manuals, all nine CSD
-    manuals, all six CSF manuals and both CSI manuals - PDF p. 11 on every book except
-    the CSF functional trainer, where it is PDF p. 10
+  locator: 'printed p. 10 (PDF p. 11) of the CSS Abdominal manual, ASSEMBLY & SETUP,
+    "Unpacking &Parts"; the same page and the same words in all nineteen CSS manuals,
+    all nine CSD manuals, all six CSF manuals and both CSI manuals - PDF p. 11 on
+    every book except the CSF functional trainer, where it is PDF p. 10 | csd-cpsp
+    May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update): ASSEMBLY
+    & SETUP - Unpacking & Parts item 2, PDF p. 11 (printed 10); text.md lines 232-236
+    - the same words as the 2024 printing | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    ASSEMBLY & SETUP - Unpacking & Parts item 2, PDF p. 11 (printed 10); text.md OCR
+    supplement at 1385-1389'
   extracted_at: '2026-09-10'
 ---
 
@@ -117,3 +120,7 @@ tools are in the carton and to take them out first. The split does not follow th
 product family. See
 [the supply-your-own card](spirit-strength-assembly-three-tools-you-must-supply.md) and
 [the tools-in-the-carton card](spirit-strength-assembly-tools-are-in-the-carton.md).
+
+The **CSD-CPSP's May 2025 update** (4601US, 20250521) prints this exactly as its February 2024 printing does.
+
+The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

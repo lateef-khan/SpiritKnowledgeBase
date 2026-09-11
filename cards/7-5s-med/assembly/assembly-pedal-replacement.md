@@ -3,7 +3,8 @@ id: 7-5s-med-assembly-pedal-replacement
 title: 'Replacing a recumbent stepper pedal: one screw, with a short screwdriver recommended
   for the bottom one'
 kind: procedure
-question: How do I replace a pedal on a Spirit 7-5s-med (7.5S) recumbent stepper?
+question: How do I replace a pedal on a Spirit 7.5S (2021 or 2025 book) or 7.0S 2025
+  rehabilitation recumbent stepper?
 asked_as:
 - pedal replacement 7.5s stepper
 - foot plate screw spirit medical stepper
@@ -19,9 +20,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -31,7 +34,9 @@ see_also:
 - spirit-rehab-stepper-assembly-front-connecting-cable-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.3 Pedal Replacement, PDF p. 23; text.md lines 238-250
+  locator: '6.3 Pedal Replacement, PDF p. 23; text.md lines 238-250 | 70s-2025 (spirit-stepper-70s-2025-service-manual):
+    6.3 Pedal Replacement, PDF p. 23; text.md lines 256-267 | 75s-2025 (spirit-stepper-75s-2025-service-manual):
+    6.3 Pedal Replacement, PDF p. 23; text.md lines 239-250'
   extracted_at: '2026-09-11'
 ---
 
@@ -44,3 +49,4 @@ the tool list of the same book carries a **Short Phillips Head Screw Driver (ite
 No screw size is printed. The preventative-maintenance page says to check weekly whether the pedal is loose and
 lock the screw if it is.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included. Both carry the short-screwdriver recommendation.

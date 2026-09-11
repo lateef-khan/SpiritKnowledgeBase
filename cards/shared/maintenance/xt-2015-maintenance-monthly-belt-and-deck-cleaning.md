@@ -26,6 +26,7 @@ facets:
   model: '*'
   applies_to:
   - xt385-2015
+  - xt485-2013
   - xt485-2015
   - xt485ent-2023
   section: maintenance
@@ -40,8 +41,10 @@ see_also:
 - ct900-belt-deck-cleaning
 source:
   ref: spirit-treadmill-xt385-2015-owners-manual
-  locator: p. 35, GENERAL MAINTENANCE - Belt/Deck (XT485 p. 40); XT485ENT p. 51,
-    GENERAL MAINTENANCE - Belt/Deck
+  locator: 'p. 35, GENERAL MAINTENANCE - Belt/Deck (XT485 p. 40); XT485ENT p. 51,
+    GENERAL MAINTENANCE - Belt/Deck The 2013 XT485 was added on 2026-09-11: spirit-treadmill-xt485-2013-owners-manual
+    GENERAL MAINTENANCE - BELT/DECK, PDF p. 30 (printed 29), text.md lines 1153-1160,
+    word for word; native text, no OCR supplement on the page.'
   extracted_at: '2026-09-09'
 ---
 
@@ -62,3 +65,7 @@ source:
 **The XT685 2015 prints these same three steps**, but its deck is described as **hard waxed** and its manual forbids lubricant entirely, so that machine's card carries them instead: `xt685-2023-belt-deck-general-maintenance`.
 
 The Spirit CT900 manual prints the same wording for a hard waxed, dual-sided deck rated at 20,000 miles per side. **No XT 2015 manual gives any such mileage figure**; see `ct900-belt-deck-cleaning`.
+
+**The XT485 2013 prints this paragraph word for word** - the same damp cloth, the same reach under the belt
+edge, the same once a month, the same nylon scrub brush - two years before the 2015 book. Its deck is
+lubricated on a 180-hour interval, not 90 (`xt-2015-maintenance-lubrication-interval-180-hours`).

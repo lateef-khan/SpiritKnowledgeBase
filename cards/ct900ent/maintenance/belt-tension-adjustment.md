@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   - ct800-2012
   - ct800-2016
@@ -30,6 +31,7 @@ facets:
   - ct800-2024
   - ct800ent-2022
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -52,7 +54,7 @@ see_also:
 - spirit-ct800-assembly-tools-included
 source:
   ref: ct900ent-om
-  locator: 'p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 43-44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 21, 2016 p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner''s manuals print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50; the CT900ENT pages are spirit-treadmill-ct900ent-owners-manual p. 45-46; the four 2024 New Black Units treadmill manuals print it under POST WORKOUT - MACHINE CARE, added in wave 15 - ct800-2024 and ct850-2024 printed p. 37 (PDF p. 39), ct800ent-2024 and ct850ent-2024 printed p. 53 (PDF p. 55), each read from a 300 dpi render because these PDFs carry a second, invisible text layer whose figures differ'
+  locator: 'p. 45-46; the 2026 4.0T prints the same procedure at spirit-treadmill-40t-2026-owners-manual p. 43-44; all four Spirit CT800 owner''s manuals print it too - 2012 p. 21, 2016 p. 34, 2020 p. 39 and CT800ENT 2022 p. 49; all four Spirit CT850 owner''s manuals print it too - 2016 p. 39, 2018 p. 38, 2020 p. 39 and CT850ENT 2022 p. 50; the CT900ENT pages are spirit-treadmill-ct900ent-owners-manual p. 45-46; the four 2024 New Black Units treadmill manuals print it under POST WORKOUT - MACHINE CARE, added in wave 15 - ct800-2024 and ct850-2024 printed p. 37 (PDF p. 39), ct800ent-2024 and ct850ent-2024 printed p. 53 (PDF p. 55), each read from a 300 dpi render because these PDFs carry a second, invisible text layer whose figures differ Two machines were added on 2026-09-11. spirit-treadmill-40t-2025-owners-manual "Tread-belt tension adjustment", PDF pp. 44-45 (printed 42-43), text.md lines 1259-1329 and 1330-1350, read from a 300 dpi render of p. 44 and the OCR supplement of p. 45 because the text layer interleaves an invisible block - 8mm Allen wrench, 1/4 turn, the end-cap note, both sides evenly, do not over tighten, the motor drive belt; and its May 2025 printing at the same pages (identical at difflib 1.000). spirit-treadmill-ct850-2013-owners-manual, an OCR-only scan, "Belt Adjustments - Tread-belt Tension Adjustment", PDF p. 26 (printed 22), OCR supplement text.md lines 1037-1059, confirmed on a 120 dpi render: 8mm Allen wrench, 1/4 turn each, both sides evenly, DO NOT OVERTIGHTEN, the drive belt under the motor cover.'
   extracted_at: '2026-08-24'
 ---
 
@@ -140,3 +142,15 @@ warranty.
 **Read these four pages from a render, not from the text layer.** Every 2024 New Black Units PDF
 carries a second, invisible text layer over the maintenance pages that gives the belt speed as
 3 to 5 kph and adds "in the end caps" and a 56x224 cm running surface. None of that is printed.
+
+## The 2025 4.0T and the 2013 CT850
+
+The **4.0T 2025** (February and May printings) prints the procedure exactly as the 2026 book does - "not critical
+for most users", the 8mm wrench, the bolts "in the end caps" with the small-hole note, **1/4 turn each**, both
+sides evenly, the over-tightening warning and the loose-motor-belt caveat.
+
+The **CT850 2013** - the first CT850 book, stamped CT850_20131015 and effective November 1, 2013 - prints the
+CT800/CT850 wording word for word: the same **8mm Allen wrench** from the parts package, the same rear roller
+and step-rail bolts, the same **1/4 turn each**, and the same drive-belt caveat. Read from a render of the
+scanned page, since the book has no text layer. Like the later CT850 books it says the 8mm wrench "is provided"
+- check the box before quoting a size.

@@ -2,7 +2,8 @@
 id: spirit-2026t-safety-instructions-list
 title: The safety instructions printed for a commercial rehabilitation treadmill
 kind: policy
-question: What safety instructions does the manual print for a 2026 Spirit 7.0T or 8.0T treadmill?
+question: What safety instructions does the manual print for a 2026 Spirit 7.0T or
+  8.0T treadmill?
 asked_as:
 - what are the safety rules for this treadmill
 - safety instructions page of the manual
@@ -25,6 +26,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   section: safety
@@ -43,7 +45,10 @@ see_also:
 - spirit-2026t-safety-designed-for-commercial-use
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS, pages 4 and 5; the 8.0T owner's manual prints its longer list on the same two pages
+  locator: 'SAFETY INSTRUCTIONS, pages 4 and 5; the 8.0T owner''s manual prints its
+    longer list on the same two pages. The 2025 7.0T owner''s manual (revision 01.10.25,
+    version 2.0) prints the same page: SAFETY INSTRUCTIONS, PDF pp. 6-7 (printed 4-5),
+    lines 109-164 in spirit-treadmill-70t-2025-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -123,3 +128,10 @@ Both manuals print the boxed note beside the list:
 **The 4.0T's list is a different list**, thirty items long, with an age-8 clause, a carpet rule, a
 blanket rule and no commercial-use or tether-cord items: `40t-2026-safety-instructions-list`. Do
 not answer one family from the other's list.
+
+## The 2025 printing of the 7.0T manual prints the same 22 items with one figure changed
+
+**Item 2 of the January 2025 book (revision 01.10.25) reads `a 115-volt AC, 60 Hz, 20-amp grounded
+outlet`** where the 2026 book reads 120-volt; every other word of the 22 items, the WARNING lead and
+the boxed note is the same, so the list holds for the 70t-2025 with that one figure
+(`70t-2025-safety-outlet-115-volt-20-amp-and-a-nema-5-15p-line`).

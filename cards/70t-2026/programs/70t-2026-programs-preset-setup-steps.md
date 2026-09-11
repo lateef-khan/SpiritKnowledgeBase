@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - mt200-2022
   section: programs
@@ -36,7 +37,8 @@ see_also:
 - spirit-2026t-programs-setup-uses-set-up-menu-data
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: page 28, Programming Preset Programs
+  locator: 'page 28, Programming Preset Programs; 7.0T 2025: PDF p. 30 (printed 28);
+    text.md lines 856-895'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +60,5 @@ the workout. During the warm-up the clock counts down from 3 minutes.
 same four steps and the same thirty minute default on printed page 28. The earlier
 2010-generation MT200 manual prints the same steps with a **twenty minute** default - a
 different figure, on its own card: `mt200-2010-programs-preset-setup-steps`.
+
+**The 7.0T 2025 owner's manual (Revision 01.10.25) prints this page word for word** as the 2026 book does; only the folio differs.

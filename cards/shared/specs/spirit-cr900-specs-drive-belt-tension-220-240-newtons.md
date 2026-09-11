@@ -3,7 +3,8 @@ id: spirit-cr900-specs-drive-belt-tension-220-240-newtons
 title: Poly-V drive belt tension 220 to 240 newtons, printed as 50 to 55 lbs, on the
   recumbents with a J-bolt idler
 kind: spec
-question: What is the drive belt tension on a Spirit CR900, CR900ENT or CR1000ENT recumbent bike?
+question: What is the drive belt tension on a Spirit CR900, CR900ENT or CR1000ENT
+  recumbent bike, or a Spirit Medical 7.0R recumbent?
 asked_as:
 - how tight should the belt be on the cr900
 - cr900ent belt tension newtons
@@ -26,6 +27,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 70r-2025
   - cr1000ent-2023
   - cr900-2018
   - cr900ent-2021
@@ -34,16 +36,20 @@ facets:
 authority: 3
 not_to_be_confused_with:
 - cu900ent-drive-belt-tension
+- 70u-2025-specs-drive-belt-tension-260-to-280-newtons
 see_also:
 - cu900ent-drive-system-replacement
 - cu900ent-belt-slips-or-falls-off
 source:
   ref: spirit-bike-cr900-2018-service-manual
-  locator: "CR900-2018: section 6.6.2 Remove Belt, PDF p. 46, text.md lines 743-745, and section
-    7.1, PDF p. 63, lines 1050-1054. CR900ENT-2021: section 6.6.2, PDF p. 54, lines 918-920,
-    and section 7.1, PDF p. 71, lines 1225-1229. The same figure in all four places.
-    CR1000ENT-2023 (spirit-rower-cr1000ent-2023-service-manual): section 12.16 Remove Belt,
-    PDF p. 26 (printed 26), text.md lines 564-594, the same bracketed sentence"
+  locator: 'CR900-2018: section 6.6.2 Remove Belt, PDF p. 46, text.md lines 743-745,
+    and section 7.1, PDF p. 63, lines 1050-1054. CR900ENT-2021: section 6.6.2, PDF
+    p. 54, lines 918-920, and section 7.1, PDF p. 71, lines 1225-1229. The same figure
+    in all four places. CR1000ENT-2023 (spirit-rower-cr1000ent-2023-service-manual):
+    section 12.16 Remove Belt, PDF p. 26 (printed 26), text.md lines 564-594, the
+    same bracketed sentence. 7.0R-2025 (spirit-bike-70r-2025-service-manual): 6.10.1.3
+    Eye bolt and tension spring assembly, PDF p. 27, text.md lines 320-322, and 7.1
+    Slip/Shedding of Drive Belt, PDF p. 36 (OCR supplement lines 820-824)'
   extracted_at: '2026-09-11'
 ---
 
@@ -64,4 +70,10 @@ belt tension is set to 220 ~ 240 Newtons (50-55 Lbs.) and keep the belt in the m
 - with the same J-bolt adjustment nut and tension spring, so this card covers that machine too.
 Its book prints the figure once, not twice; the slipping-belt page (13.1) only points back to the
 adjustment.
+
+**The 2025 Spirit Medical 7.0R recumbent prints the same 220 N to 240 N**, without the pounds
+equivalent: "use the nuts of the eye bolts to adjust the belt tension. The belt tension should be in
+220N to 240N", after the idler assembly's eye bolts and tension spring are refitted; its
+slipping-belt remedy sends you back to the same step. Its upright twin, the 7.0U, is set higher, at
+260 to 280 N (`70u-2025-specs-drive-belt-tension-260-to-280-newtons`).
 

@@ -1,6 +1,7 @@
 ---
 id: spirit-strength-safety-product-labels-three-decals
-title: The three stickers on a Spirit strength machine, and why the warning decal cannot be read from the manual
+title: The three stickers on a Spirit strength machine, and why the warning decal
+  cannot be read from the manual
 kind: fact
 question: What warning stickers and labels are on a Spirit strength machine?
 asked_as:
@@ -72,7 +73,12 @@ see_also:
 - spirit-strength-safety-instructions-nineteen-shared-items
 source:
   ref: spirit-strength-csd-acbe-owners-manual
-  locator: PRODUCT LABELS, printed page 4 (PDF page 5) of all thirty-six CSS, CSD, CSF and CSI manuals; decals read from 300-600 dpi renders
+  locator: 'PRODUCT LABELS, printed page 4 (PDF page 5) of all thirty-six CSS, CSD,
+    CSF and CSI manuals; decals read from 300-600 dpi renders. CSD-CPSP May 2025 update:
+    PRODUCT LABELS, PDF p. 5 (printed 4), in spirit-strength-csd-cpsp-owners-manual-2025-update
+    (text.md lines 61-223, OCR supplements from line 534). CSS-DELT 2026 revision:
+    the same page numbers in spirit-strength-css-delt-owners-manual-2026 (lines 85-308,
+    OCR supplements from line 1024)'
   extracted_at: '2026-09-10'
 ---
 
@@ -111,3 +117,5 @@ if damaged, worn or illegible.* Replacements come from the local dealer or distr
 The two CSI machines print **four** labels rather than three — a rating label and a name plate decal
 in place of the single serial number decal. The three ST800 products have no product labels page at
 all.
+
+**The CSD-CPSP May 2025 update (version 5.0, revision 01/23/2025, file dated 2025 0521) and the CSS-DELT 2026 revision (file dated 20260821) print this page in the same words**, so the two newer books add nothing and change nothing here; they are cited so the page can be checked in either printing. The CSS-DELT 2026 text layer is a shifted font on its cover pages; its safety pages were read from the OCR supplements and the render.

@@ -42,14 +42,17 @@ see_also:
 - ct850-2016-power-switch-not-lit-at-power-on
 source:
   ref: spirit-treadmill-ct850-2020-service-manual
-  locator: Section 8-7 Troubleshooting procedure matrix, pages 47-51 (printed 46-50);
+  locator: 'Section 8-7 Troubleshooting procedure matrix, pages 47-51 (printed 46-50);
     CT800 2020 service manual 8-6 Troubleshooting procedure matrix, PDF p. 46-50 (printed
     45-49), text.md lines 660-797; CT800ENT 2022 service manual 8-6 Troubleshooting
     procedure matrix, PDF p. 36-38, text.md lines 685-791; CT850ENT 2022 service manual
     8-6 Troubleshooting procedure matrix, PDF p. 37-39, text.md lines 704-810; CT900ENT
     service manual Troubleshooting procedure matrix, PDF p. 45-48, text.md lines 691-842;
     4.0T 2026 service manual Condition / Reason / Solve matrix, PDF p. 36-38 (printed
-    47-49), text.md lines 566-689
+    47-49), text.md lines 566-689; the 4.0T ST8700A-ST026-01 service manual (spirit-treadmill-40t-2026-service-manual-st8700a,
+    88% the ST017 book) prints the same page one page later, word for word (compared
+    with difflib on 2026-09-11): Condition / Reason / Solve matrix at PDF p. 37-39
+    (printed 47-49), text.md lines 635-758'
   extracted_at: '2026-09-08'
 ---
 

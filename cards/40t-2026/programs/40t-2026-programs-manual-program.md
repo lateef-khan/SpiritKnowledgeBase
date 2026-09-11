@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,9 @@ see_also:
 - spirit-2026t-programs-manual-program-time-only
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 20, Programs Setup - Manual
+  locator: 'page 20, Programs Setup - Manual; 4.0T 2025 (February printing): PDF p.
+    22 (printed 20); text.md lines 556-591; 4.0T 2025 (May printing): PDF p. 22 (printed
+    20); text.md lines 556-591'
   extracted_at: '2026-09-09'
 ---
 
@@ -49,3 +50,5 @@ The Manual program works as the name implies, manually: **you** control the work
 
 During the Manual program you can scroll through the data in the Message Window with the **Display**
 key. When the program ends, press Start to run it again or Stop to exit.
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

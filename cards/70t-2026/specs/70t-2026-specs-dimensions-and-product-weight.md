@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-specs-dimensions-and-product-weight
-title: The treadmill is 94.8 in long, 48.7 in wide and 57.5 in high, and weighs 496 lb
+title: The treadmill is 94.8 in long, 48.7 in wide and 57.5 in high, and weighs 496
+  lb
 kind: spec
-question: What are the assembled dimensions and the product weight of a Spirit 70t-2026 treadmill?
+question: What are the assembled dimensions and the product weight of a Spirit 70t-2026
+  or 70t-2025 treadmill?
 asked_as:
 - how big is this treadmill
 - how much does the 7.0t weigh
@@ -23,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: specs
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 80t-2026-specs-dimensions-and-product-weight
@@ -39,7 +40,9 @@ see_also:
 - spirit-2026t-specs-manufacturer
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SPECIFICATIONS p. 47
+  locator: 'SPECIFICATIONS p. 47. 7.0T-2025 (spirit-treadmill-70t-2025-owners-manual):
+    SPECIFICATIONS, PDF p. 49 (printed 47), the same four rows, read from a 170 dpi
+    render of a flattened page'
   extracted_at: '2026-09-09'
 ---
 
@@ -61,3 +64,7 @@ and the certifications list. Every figure above was read off the rendered page.
 The 8.0T of the same 2026 line is a different and much larger machine - 213.3 cm
 (84") long and 252.5 kgs (556.7 lbs) - and the 4.0T manual prints no dimensions
 at all.
+
+**The 2025 owner's manual (Revision 01.10.25) prints the identical four figures**, inches and pounds
+only, on a specification page that is likewise a flat image.
+

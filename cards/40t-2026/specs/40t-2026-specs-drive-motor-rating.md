@@ -2,7 +2,7 @@
 id: 40t-2026-specs-drive-motor-rating
 title: The drive motor is a 4.0 HP AC motor
 kind: spec
-question: What size drive motor does a Spirit 40t-2026 treadmill have?
+question: What size drive motor does a Spirit 40t-2026 or 40t-2025 treadmill have?
 asked_as:
 - what size motor does this treadmill have
 - how many horsepower is the 4.0t
@@ -21,13 +21,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: specs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - spirit-2026t-specs-drive-motor-rating
@@ -37,7 +36,10 @@ see_also:
 - 40t-2026-specs-parts-list
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: Electrical Safety p. 6, bulleted list at the foot of the page
+  locator: 'Electrical Safety p. 6, bulleted list at the foot of the page. 4.0T-2025
+    February printing (spirit-treadmill-40t-2025-owners-manual): Electrical Safety,
+    PDF p. 8 (printed 6), the same bullet; May 2025 printing (spirit-treadmill-40t-2025-owners-manual-may-2025-printing):
+    PDF p. 8, the same bullet'
   extracted_at: '2026-09-09'
 ---
 
@@ -57,3 +59,8 @@ machines - so never carry the figure between them. See
 The bullet directly below it gives the power requirement: 120 volts, 60 Hz,
 dedicated 20-amp circuit, NEMA 5-20P plug and receptacle type. That is the
 electrical-safety question rather than this one.
+
+**The 2025 owner's manual prints the same bullet, "Motor: 4.0HP AC"**, in both its February
+(Revision 02.04.25) and May (Revision 05.19.25) printings, and like the 2026 book has no
+specification page around it.
+

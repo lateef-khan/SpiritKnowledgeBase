@@ -1,8 +1,10 @@
 ---
 id: spirit-strength-specs-machine-weight-and-overall-dimensions
-title: Assembled machine weight and overall dimensions, machine by machine, from 50 lb to 727 lb
+title: Assembled machine weight and overall dimensions, machine by machine, from 50
+  lb to 727 lb
 kind: spec
-question: How much does a Spirit commercial strength machine weigh and how much floor space does it need?
+question: How much does a Spirit commercial strength machine weigh and how much floor
+  space does it need?
 asked_as:
 - how heavy is the spirit strength machine
 - footprint of spirit commercial weight machine
@@ -62,13 +64,21 @@ facets:
   section: specs
   code: '*'
 authority: 3
+not_to_be_confused_with: []
 see_also:
 - spirit-strength-specs-product-specifications-table-on-page-eleven
 - spirit-strength-specs-pound-and-kilogram-weights-disagree
 - spirit-strength-specs-no-shipping-or-carton-weight-printed
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: '"Product Specifications" box, printed page 11 of each manual (page 10 of CSF-FUNT). Read from each PDF''s own text layer; CSF-FUNT and CSS-SLGC read from a 300 dpi tesseract --psm 4 render because their text layers are empty and font-corrupted respectively.'
+  locator: '"Product Specifications" box, printed page 11 of each manual (page 10
+    of CSF-FUNT). Read from each PDF''s own text layer; CSF-FUNT and CSS-SLGC read
+    from a 300 dpi tesseract --psm 4 render because their text layers are empty and
+    font-corrupted respectively. CSS-DELT 2026 revision (spirit-strength-css-delt-owners-manual-2026):
+    Product Specifications, PDF p. 11 (printed 10), text.md lines 318-321 (this page
+    has a readable text layer; OCR supplement lines 1414-1418 agrees) - the same 501.5lb
+    / 227.5kg and 60" x 28" x 62". CSD-CPSP May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
+    Product Specifications, PDF p. 11 (printed 10), text.md lines 231-235'
   extracted_at: '2026-09-10'
 ---
 
@@ -155,3 +165,13 @@ of the same footprint - see `spirit-strength-specs-i-strength-has-no-weight-stac
 On CSS-ABDO, CSS-BCUR, CSS-BEXT and CSS-TEXT the pound figure and the kilogram figure are not the
 same weight. Do not convert one into the other for those four -
 `spirit-strength-specs-pound-and-kilogram-weights-disagree`.
+
+**Two later printings, one of which changes a figure.** The August 2026 revision of the CSS-DELT book
+prints the DELT row unchanged (501.5 lb / 227.5 kg, 60" x 28" x 62" / 1530 x 710 x 1567 mm). The
+**May 2025 "Update" of the CSD-CPSP book prints a different weight - `Products Weight 679.0lb /
+308.0kg`** against the 2024 book's 598 lbs / 271 kg - with the dimensions set as `53" x 78" x 66"" X
+66" / 1350 x 1984 x 1676mm`, a doubled height and a stray quote mark that the 2024 book did not have.
+The 2025 book adds an incremental weight set to the stack; nothing in it explains an 81 lb heavier
+machine. Quote the figure from the printing that matches the machine's placard and say the two
+disagree.
+

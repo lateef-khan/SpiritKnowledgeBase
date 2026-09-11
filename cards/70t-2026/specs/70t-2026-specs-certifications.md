@@ -1,8 +1,10 @@
 ---
 id: 70t-2026-specs-certifications
-title: Certified to IEC 60601-1, IEC 60601-1-2 and EN ISO 20957:2013, with no EU MDR entry
+title: Certified to IEC 60601-1, IEC 60601-1-2 and EN ISO 20957:2013, with no EU MDR
+  entry
 kind: spec
-question: Which standards is a Spirit 70t-2026 treadmill certified to, and how is it disposed of?
+question: Which standards is a Spirit 70t-2026 or 70t-2025 treadmill certified to,
+  and how is it disposed of?
 asked_as:
 - is this treadmill a medical device
 - what standards is it certified to
@@ -23,13 +25,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: specs
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - 80t-2026-specs-certifications
@@ -38,7 +39,10 @@ see_also:
 - spirit-2026t-specs-manufacturer
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: SPECIFICATIONS p. 47, CERTIFICATIONS block and Disposal block
+  locator: 'SPECIFICATIONS p. 47, CERTIFICATIONS block and Disposal block. 7.0T-2025
+    (spirit-treadmill-70t-2025-owners-manual): SPECIFICATIONS CERTIFICATIONS block,
+    PDF p. 49 (printed 47), text.md lines 1515-1522, native text; the same eight entries
+    and the same Disposal line'
   extracted_at: '2026-09-09'
 ---
 
@@ -64,3 +68,7 @@ amendment years throughout. The two lists are not interchangeable; see
 **Disposal.** "Reference should be made to local regulations concerning the
 disposal of this product at the end of useful life." The manual gives no take-back
 scheme, no WEEE marking and no dismantling instruction.
+
+**The 2025 owner's manual prints the identical block** - the same eight standards, the same
+"ANS/AAMI" and "ISO 14971; 2019" spellings, no EU MDR entry - and the same Disposal sentence.
+

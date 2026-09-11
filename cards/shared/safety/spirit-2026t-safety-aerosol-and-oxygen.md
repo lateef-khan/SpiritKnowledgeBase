@@ -2,7 +2,10 @@
 id: spirit-2026t-safety-aerosol-and-oxygen
 title: Using the machine where aerosols are sprayed or oxygen is in use
 kind: policy
-question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, a Spirit XE residential elliptical, or a Spirit CU800ENT or CR800ENT commercial bike, be used where oxygen is being given or aerosols are sprayed?
+question: Can a 2026 Spirit 4.0T, 7.0T or 8.0T treadmill, a Spirit MT200 rehabilitation
+  treadmill, a Spirit CE800, CE800ENT or CE850 elliptical, a Spirit XE residential
+  elliptical, or a Spirit CU800ENT or CR800ENT commercial bike, be used where oxygen
+  is being given or aerosols are sprayed?
 asked_as:
 - can i use the treadmill near an oxygen tank
 - is hairspray or air freshener a problem near the treadmill
@@ -24,9 +27,16 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
+  - 70r-2021
+  - 70r-2025
+  - 70t-2025
   - 70t-2026
+  - 70u-2025
   - 80t-2026
+  - 80u-2025
+  - 85r-2025
   - ce800-2013
   - ce800-2021
   - ce800-2023
@@ -35,6 +45,7 @@ facets:
   - ce850-2020
   - ce850-2022
   - cr800ent-2023
+  - ct850-2013
   - cu800ent-2022
   - cu800ent-2024
   - mt200-2010
@@ -70,6 +81,7 @@ facets:
   - xe895-2018
   - xg400-2019
   - xg400-2021
+  - xt485-2013
   section: safety
   code: '*'
 authority: 3
@@ -86,17 +98,32 @@ see_also:
 - spirit-xe-2005-2007-safety-instructions-list
 - spirit-xe-2021-safety-instructions-list
 - spirit-bike-ent-safety-instructions-list
+- spirit-med-bike-safety-operating-environment-iec-60601
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner's manuals state the oxygen
-    half as a bullet of their ELECTRICAL SAFETY page, page 6. Both Spirit MT200 owner's
-    manuals state the oxygen half as a bullet of their Important Electrical Information
-    page, 2010 page 5 and 2022 page 8 Seven Spirit elliptical owner's manuals print the rule
-    as a bullet of their safety instructions - CE800 2013 PDF page 4 (printed 2), CE800 2021
-    page 4, CE800 2023 page 4, CE800ENT page 4, CE850 2016 page 5, CE850 2020 page 6, CE850
-    2022 page 6 The CU800ENT-2022 and CR800ENT-2023 bike owner's manuals print the rule as a
-    bullet of their IMPORTANT SAFETY INSTRUCTIONS page, printed page 4, and the
-    CU800ENT-2024 manual on its SAFETY INSTRUCTIONS page, printed page 5
+  locator: 'SAFETY INSTRUCTIONS item 13, page 4; the 7.0T and 8.0T owner''s manuals
+    state the oxygen half as a bullet of their ELECTRICAL SAFETY page, page 6. Both
+    Spirit MT200 owner''s manuals state the oxygen half as a bullet of their Important
+    Electrical Information page, 2010 page 5 and 2022 page 8 Seven Spirit elliptical
+    owner''s manuals print the rule as a bullet of their safety instructions - CE800
+    2013 PDF page 4 (printed 2), CE800 2021 page 4, CE800 2023 page 4, CE800ENT page
+    4, CE850 2016 page 5, CE850 2020 page 6, CE850 2022 page 6 The CU800ENT-2022 and
+    CR800ENT-2023 bike owner''s manuals print the rule as a bullet of their IMPORTANT
+    SAFETY INSTRUCTIONS page, printed page 4, and the CU800ENT-2024 manual on its
+    SAFETY INSTRUCTIONS page, printed page 5. Spirit Medical 7.0R (2025): ELECTRICAL
+    SAFETY, PDF p. 8 (printed 6), text.md lines 171-203, in spirit-bike-70r-2025-owners-manual;
+    7.0U: PDF p. 8, lines 177-208, in spirit-bike-70u-2025-owners-manual; 8.0U: PDF
+    p. 8, lines 183-204, in spirit-bike-80u-2025-owners-manual; 8.5R: PDF p. 8, lines
+    177-198, in spirit-bike-85r-2025-owners-manual; Dyaco MED 7.0R: PDF p. 15, lines
+    486-517, in spirit-bike-70r-2021-owners-manual. The 2025 4.0T owner''s manual
+    (revision 02.04.25, version 2.1) prints the same page: item 13, PDF p. 6, lines
+    110-149 in spirit-treadmill-40t-2025-owners-manual; the May 2025 printing (revision
+    05.19.25, version 2.2, spirit-treadmill-40t-2025-owners-manual-may-2025-printing)
+    is the same document at the same lines. The 2025 7.0T owner''s manual (revision
+    01.10.25, version 2.0) prints the same page: ELECTRICAL SAFETY, PDF p. 8, lines
+    164-195 in spirit-treadmill-70t-2025-owners-manual. XT485-2013: bullet, PDF p.
+    4 (printed 3), lines 76-131, in spirit-treadmill-xt485-2013-owners-manual. CT850-2013:
+    WARNING item 11, PDF p. 6 (printed 2), OCR supplement at lines 82-129, in spirit-treadmill-ct850-2013-owners-manual'
   extracted_at: '2026-09-09'
 ---
 
@@ -219,3 +246,15 @@ mechanism, so do not attach the 4.0T's explanation to a bike.
 goes from `Do not use outdoors` straight to `The appliance is intended for household use`
 (`ab950-2024-safety-instructions-list`), and the words *aerosol*, *spray* and *oxygen* are nowhere
 in the book. That is an absence; its three 2023 siblings print the rule and it does not.
+
+## The plug-in Spirit Medical bikes say it the 7.0T way
+
+**The 7.0R, 7.0U, 8.0U and 8.5R owner's manuals, and the Dyaco MED 7.0R, print the flat
+unsuitability** - `The 7.0R is not suitable for use in an oxygen rich environment` - on their
+electrical page, and no aerosol sentence (`spirit-med-bike-safety-operating-environment-iec-60601`).
+The self-powered 4.0R and 4.0U print neither form.
+
+**The 2025 printings of the 4.0T and 7.0T manuals print their 2026 sentences unchanged.** The
+Australian XT485-2013 prints the 4.0T form with `Sparks from the motor may ignite a highly gaseous
+environment`; the CT850-2013 prints the appliance-list form, `Do not operate where aerosol (spray)
+products are being use or where oxygen is being administered`, with no sparks sentence.

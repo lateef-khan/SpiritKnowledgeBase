@@ -31,6 +31,7 @@ facets:
   - ct800-2020
   - ct800-2024
   - ct800ent-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -50,7 +51,8 @@ see_also:
 source:
   ref: spirit-treadmill-ct800-2020-owners-manual
   locator: 'printed page 21, Preset Programs Speed/Incline Settings (2012: page 13;
-    2016: page 20)'
+    2016: page 20); CT850 2013: PDF p. 18 (printed 14), OCR supplement lines 531-575;
+    the chart is a picture, read from a 300 dpi render of PDF p. 18'
   extracted_at: '2026-09-09'
 ---
 
@@ -109,3 +111,5 @@ graphic**, so no values are recorded for that machine and none may be carried ac
 page 23; CT800ENT and CT850ENT printed page 34). The 2024 ENT manuals label the rows **Hill,
 Fatburn, Cardio and Interval** instead of P1 to P4, and - unlike the 2022 ENT manuals, whose chart
 was a picture - print the chart as live text.
+
+**The 2013 CT850 owner's manual prints the four rows above value for value**, labels the Interval row **P4**, and adds P5 = Calorie and P6 = Strength as the 2018 book does (`ct850-2018-programs-calorie-strength-speed-incline-chart`). Its chart is a picture in a scanned book; the values were read from the render.

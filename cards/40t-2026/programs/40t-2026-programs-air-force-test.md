@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - ct900-air-force-prt-fitness-test
@@ -35,7 +34,9 @@ see_also:
 - ct900-air-force-prt-fitness-test
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 32, Air Force
+  locator: 'page 32, Air Force; 4.0T 2025 (February printing): PDF p. 33 (printed
+    31); text.md lines 867-898; 4.0T 2025 (May printing): PDF p. 33 (printed 31);
+    text.md lines 867-898'
   extracted_at: '2026-09-09'
 ---
 
@@ -58,3 +59,5 @@ For more detailed information, visit: http://bit.ly/SF-AirForce
 *Printed exactly as shown. The second bracket reads "30-30", which cannot be a range, and the table
 skips the 30-39 bracket entirely. The 50-59 female time is 19:43 here and 19:42 in the 8.0T and CT900
 manuals.*
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

@@ -23,6 +23,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -43,7 +44,10 @@ source:
     SERVICE CHECKLIST - DIAGNOSIS GUIDE on printed page 42 of the 2018 manual (text.md
     lines 1078-1079) and TROUBLESHOOTING on printed page 52 of the CT850ENT 2022 manual
     (text.md lines 1200-1201); CT850ENT 2022 service manual 8-7 Troubleshooting, PDF
-    p. 40, text.md lines 810-838
+    p. 40, text.md lines 810-838; CT850 2013 owner's manual (spirit-treadmill-ct850-2013-owners-manual,
+    stamp CT850_20131015) troubleshooting table, PDF p. 28 (printed 24); the book
+    is a scan with no text layer, read from the OCR supplement for page 28, text.md
+    lines 1100-1160, the "Computer shuts off when console is touched" row
   extracted_at: '2026-09-08'
 ---
 
@@ -61,3 +65,6 @@ The CT800, CT800ENT, CT900ENT, 4.0T and XT manuals print the identical row, card
 as `ct900ent-computer-shuts-off-static-cold-weather`.
 
 **The CT850ENT 2022 service manual prints this row word for word** in its 8-7 Troubleshooting table.
+
+**The CT850 2013 owner's manual prints the row word for word** and points at its Grounding Instructions *on page 3* (added 2026-09-11).
+

@@ -3,7 +3,8 @@ id: 7-5s-med-assembly-swing-arm-replacement
 title: 'Replacing a recumbent stepper swing arm: remove the screws shown and refit
   in reverse'
 kind: procedure
-question: How do I replace a swing arm on a Spirit 7-5s-med (7.5S) recumbent stepper?
+question: How do I replace a swing arm on a Spirit 7.5S (2021 or 2025 book) or 7.0S
+  2025 rehabilitation recumbent stepper?
 asked_as:
 - swing arm replacement 7.5s
 - arm handle loose on my spirit 7.5s stepper
@@ -18,9 +19,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: assembly
   code: '*'
 authority: 3
@@ -30,7 +33,10 @@ see_also:
 - 85s-2025-assembly-handlebar-replacement
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 6.2 Swing Arm Replacement, PDF p. 22; text.md lines 227-238
+  locator: '6.2 Swing Arm Replacement, PDF p. 22; text.md lines 227-238 | 70s-2025
+    (spirit-stepper-70s-2025-service-manual): 6.2 Swing Arm Replacement, PDF p. 22;
+    text.md lines 245-255 | 75s-2025 (spirit-stepper-75s-2025-service-manual): 6.2
+    Swing Arm Replacement, PDF p. 22; text.md lines 228-238'
   extracted_at: '2026-09-11'
 ---
 
@@ -46,3 +52,4 @@ If a swing arm shakes while stepping, the troubleshooting chapter (7.2) says to 
 adjustment, not this replacement. The preventative-maintenance page says to check the armrests for looseness on
 both sides.
 
+**The 7.0S (RS9500-SS021-02) and 7.5S (RS9600-SS021-03) service manuals print this procedure word for word**, figure numbers included.

@@ -2,7 +2,8 @@
 id: ct850-2018-programs-custom-program-u1-u2
 title: Building a Custom program into one of the console's two user memories
 kind: procedure
-question: How do I build and save my own workout on a ct850-2018 treadmill?
+question: How do I build and save my own workout on a Spirit ct850-2013 or ct850-2018
+  treadmill?
 asked_as:
 - how do i make my own workout
 - how do i save a custom program
@@ -22,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: ct850-2018
+  model: '*'
   applies_to:
+  - ct850-2013
   - ct850-2018
   section: programs
   code: '*'
-  model_number:
-  - '850845'
 authority: 3
 not_to_be_confused_with:
 - spirit-ct800-programs-custom-program-build
@@ -38,7 +38,8 @@ see_also:
 - ct850-2018-programs-preset-setup-steps
 source:
   ref: spirit-treadmill-ct850-2018-owners-manual
-  locator: printed pages 23-24, Custom Program
+  locator: 'printed pages 23-24, Custom Program; CT850 2013: PDF p. 19 (printed 15),
+    OCR supplement lines 576-623'
   extracted_at: '2026-09-09'
 ---
 
@@ -71,3 +72,5 @@ and never offers a choice - see `spirit-ct800-programs-custom-program-build`.
 **The manual never says how many segments a Custom program holds.** It says only "repeat the above
 process until all segments have been programmed". Do not assume the twenty segments the touchscreen
 consoles use.
+
+**The 2013 CT850 owner's manual - a scan with no text layer, read from the 300 dpi OCR and checked against the render - prints this page word for word**, U1 and U2 included, and like the 2018 book it never says how many segments a Custom program holds.

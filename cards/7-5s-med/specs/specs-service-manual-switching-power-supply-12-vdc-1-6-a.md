@@ -3,8 +3,8 @@ id: 7-5s-med-specs-service-manual-switching-power-supply-12-vdc-1-6-a
 title: The service manual's wiring diagram draws a 90 to 260 VAC switching supply
   putting out 12 VDC at 1.6 A, not the 2.74 A Sinpro adapter of the owner's manual
 kind: spec
-question: What power supply does the Spirit 7-5s-med recumbent stepper service manual
-  specify, and does it match the owner's manual?
+question: What power supply do the Spirit 7-5s-med, 7.0S and 7.5S recumbent stepper
+  service manuals specify, and does it match the owner's manual?
 asked_as:
 - what adapter does the 7.5s service manual show
 - is the 7.5s power supply 1.6 amp or 2.74 amp
@@ -25,9 +25,11 @@ facets:
   brand:
   - spirit
   product_line: climber
-  model: 7-5s-med
+  model: '*'
   applies_to:
   - 7-5s-med
+  - 70s-2025
+  - 75s-2025
   section: specs
   code: '*'
 authority: 3
@@ -40,9 +42,12 @@ see_also:
 - spirit-climber-specs-fuse-rating
 source:
   ref: spirit-stepper-7-5s-med-service-manual
-  locator: 8. Wiring Diagram, the 'Switching Power Supply' block, PDF p. 55 (printed
-    55), text.md line 873 (OCR supplement 1212-1247 reads the block's three lines);
-    5.2.3 Troubleshooting 'No power', PDF pp. 13-14, lines 125-146
+  locator: '8. Wiring Diagram, the ''Switching Power Supply'' block, PDF p. 55 (printed
+    55), text.md line 873 (OCR supplement 1212-1247 reads the block''s three lines);
+    5.2.3 Troubleshooting ''No power'', PDF pp. 13-14, lines 125-146. 7.0S-2025 (spirit-stepper-70s-2025-service-manual):
+    the same block on the MS7000 Wiring Diagram, PDF p. 56 (OCR supplement lines 1318-1320),
+    and 5.2.3 No power, PDF p. 14, lines 150-164. 7.5S-2025 (spirit-stepper-75s-2025-service-manual):
+    PDF p. 56 (OCR 900-902) and PDF pp. 13-14, lines 130-144'
   extracted_at: '2026-09-11'
 ---
 
@@ -72,4 +77,9 @@ manual's generic block does not carry. The service manual is evidence that the m
 The 8.5S is different again - a 24 V Mean Well module inside the machine
 (`85s-2025-specs-power-supply-module-mean-well-rps-120s-24-v`). The 7.5S has no user-replaceable
 fuse (`spirit-climber-specs-fuse-rating`).
+
+**The 7.0S and the 2025 7.5S service manuals print the identical block and the identical No power
+procedure** - 90~240VAC at the outlet, 12V DC at the adaptor's plug, then pins 10 and 11 of the
+14-pin console cable. The 7.0S owner's manual, like the 7.5S's, specifies the 12 V Sinpro adapter;
+order from that, not from the 1.6 A block.
 

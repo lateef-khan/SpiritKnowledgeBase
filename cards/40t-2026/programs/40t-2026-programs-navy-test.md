@@ -20,13 +20,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 40t-2026
+  model: '*'
   applies_to:
+  - 40t-2025
   - 40t-2026
   section: programs
   code: '*'
-  model_number:
-  - '740885'
 authority: 3
 not_to_be_confused_with:
 - ct900-navy-prt-fitness-test
@@ -35,7 +34,9 @@ see_also:
 - ct900-navy-prt-fitness-test
 source:
   ref: spirit-treadmill-40t-2026-owners-manual
-  locator: page 31, Navy
+  locator: 'page 31, Navy; 4.0T 2025 (February printing): PDF p. 32 (printed 30);
+    text.md lines 835-867; 4.0T 2025 (May printing): PDF p. 32 (printed 30); text.md
+    lines 835-867'
   extracted_at: '2026-09-09'
 ---
 
@@ -65,3 +66,5 @@ For more detailed information, visit: http://bit.ly/SF-Navy
 *The printed table repeats the 40-44 row (15:30 / 17:15) a second time at the end of the right-hand
 column; it is listed once here. The 45-49 to 65+ times are each one second faster than the same rows in
 the CT900 manual.*
+
+**The 4.0T 2025 owner's manual (Revision 02.04.25, reprinted as Revision 05.19.25) prints this page word for word**; only the folio differs, and both printings are cited.

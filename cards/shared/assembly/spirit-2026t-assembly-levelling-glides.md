@@ -24,6 +24,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   - 80t-2026
   - mt200-2010
@@ -42,9 +43,10 @@ see_also:
 - ctsbs900-level-adjustment
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: p. 19 SETTING UP YOUR TREADMILL - Leveling; 80T owner's manual p. 21;
-    MT200 2010 owner's manual p. 10 and MT200 2022 owner's manual p. 19, Leveling
-    the MT200
+  locator: 'p. 19 SETTING UP YOUR TREADMILL - Leveling; 80T owner''s manual p. 21;
+    MT200 2010 owner''s manual p. 10 and MT200 2022 owner''s manual p. 19, Leveling
+    the MT200 | 70t-2025 (spirit-treadmill-70t-2025-owners-manual): SETTING UP YOUR
+    TREADMILL - Leveling, PDF p. 21 (printed 19); text.md lines 595-633'
   extracted_at: '2026-09-09'
 ---
 
@@ -67,3 +69,5 @@ the levelling feet and give no sequence, nor the CTSBS900, whose feet are
 loosened and retightened by rotating a collar. **The 4.0T has no levelling
 procedure at all** - it has no rear incline unit and its manual never mentions a
 levelling foot.
+
+The **2025 printing** of this book (Revision 01.10.25, `spirit-treadmill-70t-2025-owners-manual`) prints this page word for word; its assembly chapter is 98.2% the 2026 chapter at word level, the difference being two item numbers in step three.

@@ -3,8 +3,8 @@ id: spirit-bike-errors-no-pulse-displayed-check-hand-pulse-wiring-then-continuit
 title: 'No pulse displayed: the hand pulse wire at the console, the grip sensors to
   their wires, the join behind the rear shroud, then a continuity test'
 kind: troubleshooting
-question: Why do the handgrip sensors show no pulse on a Spirit XBR, XBU, CR800 or
-  CU800 bike, and what does the service manual say to check?
+question: Why do the handgrip sensors show no pulse on a Spirit XBR, XBU, CR800, CU800
+  or 4.0U bike, and what does the service manual say to check?
 asked_as:
 - no pulse showing on my spirit bike grips
 - hand pulse not reading on the recumbent
@@ -26,6 +26,7 @@ facets:
   product_line: bike
   model: '*'
   applies_to:
+  - 40u-2025
   - cr800-2009
   - cr800-2021
   - cu800-2021
@@ -60,7 +61,9 @@ source:
     9-1, No heart rate is displayed, PDF p. 31, text.md lines 442-489; XBU55 2016
     service manual 9-11, the second "No heart rate is displayed" entry, PDF p. 56,
     text.md lines 856-883; CU800 2020-book (cu800-2021) service manual 9-1, "No heart
-    rate is displayed" steps 3-4, PDF p. 31, text.md lines 464-485
+    rate is displayed" steps 3-4, PDF p. 31, text.md lines 464-485; 4.0U (FU800-SB022-03)
+    service manual 10. Q&A, Console and Error Messages Problem, PDF p. 47 (printed
+    44), text.md lines 633-662, "No heart rate is displayed"
   extracted_at: '2026-09-11'
 ---
 
@@ -79,3 +82,6 @@ The upright books are shorter. XBU55 2016: *check if handpulse sensor cable is p
 **Both upright books print this under a heading that also covers speed** - the XBU55 2016 prints `No heart rate is displayed` twice and only the second is pulse; the CU800 2020-book puts speed in steps 1-2 and pulse in steps 3-4 of one entry. See `spirit-bike-errors-no-speed-readout-hall-sensor-or-magnet-test-with-another-magnet`.
 
 Every book closes the console Q&A with the same remark: the console and related parts were factory tested and rarely fail. A pulse that reads but jumps is `spirit-erratic-pulse-display`; a chest belt that reads nothing is `spirit-wireless-chest-belt-no-pulse`.
+
+**The 4.0U 2025 medical upright prints the CU800 upright two steps under a heading of its own**, `No heart rate is displayed` - the hand pulse sensor cable at the console and the hand pulse assemblies to their sensor wires, then *check Hand pulse Assembly, replace the wire cable if necessary* - and the same closing remark that the parts were inspected before shipping (added 2026-09-11).
+

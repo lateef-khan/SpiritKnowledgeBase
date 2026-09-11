@@ -27,6 +27,7 @@ facets:
   - ct800-2016
   - ct800-2020
   - ct800-2024
+  - ct850-2013
   - ct850-2016
   - ct850-2018
   - ct850-2020
@@ -45,7 +46,8 @@ source:
   ref: spirit-treadmill-ct850-2020-service-manual
   locator: Section 4-1-9 HEART RATE FEATURE, p. 15 (printed 14). CT800-2020 service
     manual section 4-1-9 HEART RATE FEATURE, PDF p. 15 (printed 14), text.md lines
-    231-237
+    231-237. CT850 2013 OM Heart Rate Feature, PDF p. 16 (printed 12), OCR supplement
+    lines 452-458
   extracted_at: '2026-09-08'
 ---
 
@@ -93,4 +95,6 @@ features. **The 2024 ENT treadmills are the ones described as Polar *and Bluetoo
 **The CT800-2020 service manual prints this section word for word** (its section 4-1-9 HEART RATE FEATURE); the two
 2020 service manuals' operation chapters match line for line apart from the model name, so the
 CT800-2020 is held on this card on the strength of both its owner's and its service manual.
+
+**The CT850 2013 owner's manual prints this paragraph on its printed p. 12 with one word missing**: "The CT850 will also pick up wireless heart rate transmitters, including coded transmissions" - **no "Polar compatible"**. Both grips, Pulse window in beats per minute, and pulse values "anytime the computer is receiving a pulse grip signal" are the same, so this card covers that machine; it names no Bluetooth strap and gives no pairing procedure, and its chest strap page is held with `ctsbs900-heart-rate-chest-strap-pairing`.
 

@@ -2,7 +2,8 @@
 id: xt-2023-console-readouts
 title: What the console shows while a workout is running
 kind: fact
-question: What does the console display during a workout on a Spirit XT185, XT285, XT385, XT485 or XT685 treadmill, 2015 or 2023?
+question: What does the console display during a workout on a Spirit XT185, XT285,
+  XT385, XT485 or XT685 treadmill, 2015 or 2023?
 asked_as:
 - what do the numbers on my treadmill screen mean
 - where is the pace shown on the display
@@ -31,6 +32,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -44,9 +46,11 @@ see_also:
 - xt-2023-console-status-icons
 - xt-2023-console-dot-matrix
 - xt-2023-console-quarter-mile-track
+- xt485-2013-console-layout-eleven-labels-with-a-data-display-a-message-center-and-a-safety-key
 source:
   ref: spirit-treadmill-xt185-2023-owners-manual
-  locator: pages 20-21, CONSOLE SCREEN - WORKOUT MODE and FEATURES / Console
+  locator: pages 20-21, CONSOLE SCREEN - WORKOUT MODE and FEATURES / Console. XT485
+    2013 OM CONSOLE, PDF p. 15 (printed 14), text.md lines 445-449
   extracted_at: '2026-09-09'
 ---
 
@@ -78,3 +82,6 @@ lights when the Spirit Fit App connects (XT285, XT385, XT485 and XT685 only); se
 the same Speed & Incline profile graph sentence, so this card covers that machine. Like the 2015
 manuals it carries **no screen-label diagram**, so the table above is not claimed for it, and it
 mentions no Bluetooth, no app and no USB port.
+
+**The XT485 2013 owner's manual prints the readout list on its printed p. 14**, in the same order and with the same Speed & Incline profile graph sentence, so this card covers that machine. **Unlike the 2015 and 2010 books it does carry a labelled console drawing** - not the 2023 screen diagram, but eleven call-outs that name a Data Display, a Dot Matrix and a Message Center with what each shows (`xt485-2013-console-layout-eleven-labels-with-a-data-display-a-message-center-and-a-safety-key`).
+

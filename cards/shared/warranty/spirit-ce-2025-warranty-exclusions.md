@@ -28,8 +28,14 @@ facets:
   product_line: '*'
   model: '*'
   applies_to:
+  - 40r-2025
+  - 40u-2025
+  - 70r-2025
   - 70s-2025
+  - 70u-2025
   - 75s-2025
+  - 80u-2025
+  - 85r-2025
   - 85s-2025
   - 85s-fit-2026
   - ce800-2024
@@ -67,11 +73,13 @@ see_also:
 - spirit-ce-warranty-registration
 - spirit-2026t-warranty-prisons-excluded
 - xt-2023-warranty-transfer
+- spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year
+- spirit-med-bike-warranty-use-environment
 source:
   ref: spirit-elliptical-ce900-2025-owners-manual
   locator: 'EXCLUSIONS, p. 37 (text.md lines 1115-1138). All nine items are word for
     word the same in the CES880 manual, p. 59 (spirit-elliptical-ces880-2025-owners-manual
-    text.md lines 1998-2021)'
+    text.md lines 1998-2021) The same nine items in the six 2025 Spirit medical bike manuals, EXCLUSIONS on WARRANTY - CONTINUED: spirit-bike-40r-2025-owners-manual PDF pp. 41-43 (text.md lines 1170-1265), spirit-bike-40u-2025-owners-manual PDF pp. 40-42 (lines 1097-1192), spirit-bike-70r-2025-owners-manual PDF pp. 55-57 (lines 1556-1651), spirit-bike-70u-2025-owners-manual PDF pp. 52-54 (lines 1437-1532), spirit-bike-80u-2025-owners-manual PDF pp. 61-63 (lines 1569-1664), spirit-bike-85r-2025-owners-manual PDF pp. 67-69 (lines 1931-2026); compared at word level with the 4.0T 2026 text, 98.5 to 99.4 % identical, the noun in item 2 reading Recumbent Bike or Upright Bike.'
   extracted_at: '2026-09-09'
 ---
 
@@ -134,3 +142,7 @@ The CR900 2025 and CU900 2025 print this list word for word - the comparison is 
 **Item 6 has dropped the outright exclusion of an unregistered machine here too**, so an unregistered CSC880 or 8.5S is not excluded by this list - only a proof of purchase may be asked for. Its predecessors the CSC900 2019 and 2021 still exclude one outright at their item 6 (`spirit-csc900-warranty-exclusions`).
 
 **Item 8 is prisons on all five**, and on the four steppers it is the second half of a fact whose first half - the asterisked footnote - is printed **above** their warranty table rather than below it (`spirit-2026t-warranty-prisons-excluded`).
+
+## The six 2025 Spirit medical bikes print the same nine items
+
+**The 4.0R, 4.0U, 7.0R, 7.0U, 8.0U and 8.5R carry this list unchanged**, under *What is not covered?* on their WARRANTY - CONTINUED page, with prisons at item 8, the outside-the-United-States sentence at item 9 and only the proof-of-purchase sentence at item 6. Item 2's noun reads **Recumbent Bike** or **Upright Bike** as the machine is, and on the 4.0R, 4.0U, 7.0U and 8.0U the phrase is line-broken as "light commer-cial use" on the printed page. **Item 2 is complete on all six** - it ends "...not in ordinary household or light commercial use" - so none of them shows the "...or units" truncation. Their one-row Commercial table prints no dues-paying row for item 2's "light commercial" clause to argue with (`spirit-med-bike-warranty-use-environment`, `spirit-med-bike-warranty-commercial-parts-five-years-labor-one-year`).

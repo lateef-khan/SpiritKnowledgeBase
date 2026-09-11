@@ -2,7 +2,8 @@
 id: ct900-heart-rate-chest-strap-setup
 title: Heart Rate chest strap - fitting and battery (not included)
 kind: procedure
-question: How do I fit and power the heart rate chest strap on a Spirit treadmill or elliptical?
+question: How do I fit and power the heart rate chest strap on a Spirit treadmill
+  or elliptical?
 asked_as:
 - how do i put on the heart rate chest strap
 - what battery does the chest strap use
@@ -31,6 +32,7 @@ facets:
   - cs800-2024
   - ct800-2024
   - ct800ent-2024
+  - ct850-2013
   - ct850-2024
   - ct850ent-2024
   - ct900
@@ -52,6 +54,7 @@ facets:
   - xt285-2023
   - xt385-2015
   - xt385-2023
+  - xt485-2013
   - xt485-2015
   - xt485-2023
   - xt685-2010
@@ -71,7 +74,8 @@ see_also:
 - spirit-ce-programs-erratic-heart-rate-interference
 source:
   ref: ct900-om
-  locator: p. 30
+  locator: 'p. 30; CT850 2013: PDF p. 24 (printed 20), OCR supplement lines 878-944;
+    XT485 2013: PDF p. 28 (printed 27); text.md lines 1056-1112'
   extracted_at: '2026-08-24'
 ---
 
@@ -148,3 +152,9 @@ hour battery life and the Panasonic CR2032. The four 2024 bikes print the same p
 `spirit-bike-programs-chest-strap-with-an-interlocking-key-and-a-panasonic-battery`. **The CSC900
 stairclimber prints no chest strap page at all** - see
 `csc900-2024-programs-no-heart-rate-training-page`.
+
+**The 2013 CT850 and 2013 XT485 owner's manuals print these same six steps and the same battery
+figures** - the 2 ribbed oval electrodes, 2500 hours and the Panasonic CR2032 - headed "Wearing The
+Chest Strap" (CT850) and "Using Heart Rate Transmitter" (XT485). Like the 2010 XT685 both write step
+1 as "using the locking parts" and add the sentence that wearing clothing over the transmitter/strap
+doesn't affect performance, and neither says the strap is not included.

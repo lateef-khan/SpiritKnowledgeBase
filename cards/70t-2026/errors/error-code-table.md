@@ -1,8 +1,9 @@
 ---
 id: 70t-2026-errors-error-code-table
-title: The 38 numbered error codes plus ERR and ER2, and the causes printed against each
+title: The 38 numbered error codes plus ERR and ER2, and the causes printed against
+  each
 kind: fact
-question: What is the full list of error codes a Spirit 70t-2026 treadmill can display?
+question: What is the full list of error codes a Spirit 7.0T treadmill can display?
 asked_as:
 - list of error codes for my treadmill
 - what are all the e numbers on the display
@@ -22,13 +23,12 @@ facets:
   brand:
   - spirit
   product_line: treadmill
-  model: 70t-2026
+  model: '*'
   applies_to:
+  - 70t-2025
   - 70t-2026
   section: errors
   code: '*'
-  model_number:
-  - '770885'
 authority: 3
 not_to_be_confused_with:
 - ct900-e1-over-current
@@ -43,7 +43,10 @@ see_also:
 - 70t-2026-errors-er2-decline-err
 source:
   ref: spirit-treadmill-70t-2026-owners-manual
-  locator: 'Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md lines 1474-1505'
+  locator: Error Codes table, ERROR MESSAGE & TROUBLESHOOTING, printed page 46; text.md
+    lines 1474-1505; 7.0T 2025 owner's manual (Rev 01.10.25, spirit-treadmill-70t-2025-owners-manual)
+    prints the same table word for word, ERROR MESSAGE & TROUBLESHOOTING, PDF p. 48
+    (printed 46), text.md lines 1478-1513 (compared with difflib on 2026-09-11)
   extracted_at: '2026-09-09'
 ---
 
@@ -127,3 +130,6 @@ the name and the short cause or remedy words above.
 the same names and the same causes, in the same order. They differ only at the tail: the
 MT200 numbers the incline and decline faults `E41` and `E42` where this manual prints `ERR`
 and `ER2`, and it prints no Grade-window note (`spirit-mt200-errors-error-code-table`).
+
+**The 7.0T 2025 owner's manual (Rev 01.10.25) prints the same table word for word**, so the list holds for the previous model year as well (added 2026-09-11).
+
