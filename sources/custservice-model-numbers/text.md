@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-231 machines.
+236 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -43,14 +43,18 @@ any number here.
 | ce900ent | 900050 | only-candidate |
 | ces880-2025 | 880025 | own-manual-text |
 | cic800-2021 | 800390 | own-filename |
+| cr1000ent-2023 | 210154 | only-candidate |
 | cr800-2009 | 800149 800143 | year-in-name |
 | cr800-2024 | 800125 | own-manual-text |
 | cr800ent-2023 | 800150 | own-manual-text |
 | cr800ent-2024 | 800165 | own-manual-text |
 | crs800s-2024 | 800525 | own-manual-text |
+| crw800-2016 | 800945 | year-in-name |
+| crw800-2021 | 800940 | own-filename |
 | crw800-2024 | 800925 | own-manual-text |
 | crw800h2o | 800998 | only-candidate |
 | crw900-2021 | 900948 | only-candidate |
+| cs800-2016 | 800645 | year-in-name |
 | cs800-2024 | 800625 | own-manual-text |
 | csc880-2025 | 880665 | own-manual-text |
 | csc900-2019 | 900669 | own-filename |
@@ -229,6 +233,7 @@ any number here.
 | xrw600-2019 | 600976 | only-candidate |
 | xrw600-2021 | 600976 | only-candidate |
 | xs895-2018 | 895677 | only-candidate |
+| xs895-2021 | 895677 | only-candidate |
 | xt175-2007 | 175807 | only-candidate |
 | xt185-2015 | 185815 | own-filename |
 | xt185-2023 | 185823 | own-manual-text |

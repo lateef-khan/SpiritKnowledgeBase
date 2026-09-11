@@ -29,6 +29,8 @@ facets:
   - crw800-2021
   section: warranty
   code: '*'
+  model_number:
+  - '800940'
 authority: 3
 not_to_be_confused_with:
 - xrw600-2019-warranty-lifetime-frame-and-brake-ten-year-parts

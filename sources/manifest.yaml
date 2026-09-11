@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: b72eee93895e480c642f95eab7c04245e1d26056265402a50316057ed2ae9434
+  sha256: 3e3c97e6f61957a62c76200c5e6383ad3fa57d1792b3fae6e1910e019688af16
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -1692,6 +1692,13 @@
     Steppers/CSC880/CSC880_880665_OM_20251030.pdf
   sha256: 623815745f6b1ba2085b96ccfdfa02622a51cdf11acd1a2142da5b29a40bc092
   ingested_at: '2026-09-10'
+- id: spirit-climber-csc880-2025-service-manual
+  title: Spirit CSC880 stair climber service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CSC800/CSC880 SERVICE MANUAL.pdf
+  sha256: 18772cd116da3f7a3a27c80f1ab62820159b678c50a847d82adda3cc37ae8722
+  ingested_at: '2026-09-11'
 - id: spirit-climber-csc900-2019-owners-manual
   title: 2019 Spirit CSC900 StairClimber owner's manual, Revision 12.01.2019, warranty
     effective December 1, 2019
@@ -1700,6 +1707,14 @@
     Steppers/CSC900/CSC900 900669 Owners Manual.pdf
   sha256: 479099092f0db2abcea4cb08c29069c30003d3b7668bcda5e18b96eb64a65784
   ingested_at: '2026-09-10'
+- id: spirit-climber-csc900-2019-service-manual
+  title: Spirit CSC900 stair climber service manual V1.0 (alternator drive; March
+    2020 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CSC900/CSC900 SERVICE MANUAL-CLIMBMILL(2020MAR16).pdf
+  sha256: b50d1b0c4890c348bf7a9d55f29a83d686ffafad2d0511bf324c42e1d079d046
+  ingested_at: '2026-09-11'
 - id: spirit-climber-csc900-2021-owners-manual
   title: 2021 Spirit CSC900 StairClimber owner's manual, Revision 11.19.2021, warranty
     effective November 19, 2021. 85.9% against the 2019 printing.
@@ -1716,6 +1731,13 @@
     Units/CSC900_OwnersManual_900665_20240925.pdf
   sha256: 1156f153e149c2187680b7c6a2a5f596a8c484e596e3f1866626a3afea647cc0
   ingested_at: '2026-09-10'
+- id: spirit-climber-csc900-2024-service-manual
+  title: Spirit CSC900 2022 stair climber service manual (magnetic system)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CSC900/CSC900 Service Manual 2022.pdf
+  sha256: 5ce8c1833339449c36b6dcd33f30cff31266f353f9d43a8b86b2d640912e3e7b
+  ingested_at: '2026-09-11'
 - id: spirit-climber-cvc800-2021-owners-manual
   title: 2021 Spirit CVC800 Vertical Climber owner's manual, (c) 2021, warranty effective
     November 19, 2021. Cards use the existing model id cvc800, which has no year suffix
@@ -1757,6 +1779,21 @@
     Steppers/XS895/XS895_20210219.pdf
   sha256: d172ca6bff81c50cb7799a83da103d9291721a6e47202b985b2682a1d7bd63e6
   ingested_at: '2026-09-10'
+- id: spirit-commercial-cardio-warranty-sheet-2019
+  title: Spirit Fitness commercial and medical cardio warranty sheet, Revision 03.07.2019
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Miscellaneous/Comm
+    & Med - Cardio Warranty Sheet_032019.pdf
+  sha256: 6743bbcc0414702760e103fe292a3ba3ac95ff76955011e5407ab2ed41367f2d
+  ingested_at: '2026-09-11'
+- id: spirit-commercial-power-requirements-sheet-2019
+  title: Spirit Fitness commercial and medical power requirements sheet, Revision
+    03.06.2019
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Miscellaneous/Comm
+    & Med - Power Requirements Sheet_032019.pdf
+  sha256: 6d7b265540009d7de5e17a8892bf01fd8a18c03ba5b3a6c79823779c75ffb460
+  ingested_at: '2026-09-11'
 - id: spirit-elliptical-ce1000ent-2023-service-manual
   title: Spirit CE1000ENT elliptical service manual (CE1000(2023) SE8880-SB028 ENT
     Elliptical)
@@ -2165,8 +2202,24 @@
   title: Spirit commercial model numbers from the CustService MODEL table
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: b72eee93895e480c642f95eab7c04245e1d26056265402a50316057ed2ae9434
+  sha256: 3e3c97e6f61957a62c76200c5e6383ad3fa57d1792b3fae6e1910e019688af16
   ingested_at: '2026-09-08'
+- id: spirit-rower-cr1000ent-2023-service-manual
+  title: Spirit CR1000ENT recumbent bike service manual (CR1000(2023) SR8880-SB028
+    ENT Recumbent Bike; filed under Rowers)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/CR1000/CR1000-2023
+    SR8880-SB028 service manual.pdf
+  sha256: f2f0132f7111434315fd689d3382751662fefde6137630db26223ff6222314d3
+  ingested_at: '2026-09-11'
+- id: spirit-rower-crw800-2016-service-manual
+  title: Spirit CRW800 2016 rower service manual, titled "CW800-YR001" (October 2017
+    PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/CRW800/CRW800-YR001-01_Service
+    Manual.pdf
+  sha256: 46bbcde8851b3e4209717921175f89f2eac1ff4972b1047176dab65988f57155
+  ingested_at: '2026-09-11'
 - id: spirit-rower-crw800-2021-owners-manual
   title: 2021 Spirit CRW800 rower owner's manual, (c) 2021, warranty effective October
     8, 2021. Predecessor of the carded crw800-2024. Its filename carries a malformed
@@ -2176,6 +2229,13 @@
     202020211008.pdf
   sha256: 81b1f528ea39df390bd48e69aed99d929e746c5b962b7863d6c9f0c4c1dc611b
   ingested_at: '2026-09-10'
+- id: spirit-rower-crw800-2021-service-manual
+  title: Spirit CRW800 rower service manual (800940, the "CRW800 2020" SKU)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/CRW800/CRW800
+    Service Manual 800940.pdf
+  sha256: 6e250c16a74aa504b0c32512673ecdc046a0a8f6ee649c80f91a7e1074fe349c
+  ingested_at: '2026-09-11'
 - id: spirit-rower-crw800-2024-owners-manual
   title: 2024 Spirit CRW800 rower owner's manual, warranty effective September 26,
     2024. Distinct from the carded crw800h2o water rower.
@@ -2205,6 +2265,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/CRW900/CRW900_20211022.pdf
   sha256: 41f100b512b46c56e152a50342aaabb6fa62cb381dcb022d745f4d7b6fb13516
   ingested_at: '2026-09-10'
+- id: spirit-rower-crw900-2021-service-manual
+  title: Spirit CRW900 rower service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/CRW900/CRW900
+    Service Manual.pdf
+  sha256: cb2a826c8c963936f806c8d90ebbb6a251513c735462d36347c1bd38838179d7
+  ingested_at: '2026-09-11'
 - id: spirit-rower-xrw600-2019-owners-manual
   title: 2019 Spirit XRW600 rower owner's manual, (c) 2018, warranty effective February
     4, 2019
@@ -2212,6 +2279,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/XRW600/XRW600_201900204.pdf
   sha256: 9f3f66afc90a5acec3d46c7dcb4e32455f2efc1d5281193b07bcf1862ed3fb74
   ingested_at: '2026-09-10'
+- id: spirit-rower-xrw600-2019-service-manual
+  title: Spirit XRW600 rower service manual (DW400-YR002, June 2019 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Rowers/XRW600/XRW600
+    (DW400-YR002)_Service Manual.pdf
+  sha256: f793c1e5114978f9f05bc6b550d18f09d0e700bda3463a694d375e76360b4446
+  ingested_at: '2026-09-11'
 - id: spirit-rower-xrw600-2021-owners-manual
   title: 2021 Spirit XRW600 rower owner's manual, Revision 11.30.2021, warranty effective
     November 30, 2021. 97.2% against the 2019 printing on native text.
@@ -2219,6 +2293,57 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Rowers/XRW600/XRW600_20211130.pdf
   sha256: acc7c3db987c2351f494cb61cf791dd0e709f2f02babc45a10670ed930d76d94
   ingested_at: '2026-09-10'
+- id: spirit-stepper-7-5s-med-service-manual
+  title: Spirit Medical 7.5S recumbent stepper service manual (Dyaco RS9600-SS021)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/75S/DYACO 7.5S (RS9600-SS021) Service Manual.pdf
+  sha256: efc44636857169620a4371f3dce06fdb74a4736fc77b024ef4adbb2fc6f05e73
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-85s-2025-service-manual
+  title: Spirit Medical 8.5S recumbent stepper service manual (785545, MS2000-SB036-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/MEDICAL/8.5S-785545
+    _MS2000-SB036-01_Service Manual.pdf
+  sha256: 426b04c56beb6aac3e239e6eae8037524169b2ef02c5129820cacd920ddaf798
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-crs800s-2021-service-manual
+  title: Spirit CRS800S recumbent stepper service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CRS800s/CRS800S Service Manual.pdf
+  sha256: 4852ba31428e1e2cfb9cbf159ff9fd29546457ef00a63f13ed1bce077cf003e7
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-cs800-2016-service-manual
+  title: Spirit CS800 2016 stepper service manual, titled "XS200-SS003" (September
+    2017 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CS800/CS800, 2016 (XS200-SS003) Service Manual.pdf
+  sha256: b00cfff3cbbf33cb81b3fb996dfedc5bdc8f209a3fbb8f1a291fde8bd70944fd
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-cs800-2021-service-manual
+  title: Spirit CS800 2020-version stepper service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/CS800/CS800 Service Manual.pdf
+  sha256: 283de4ce55b560d1f79db1d583f43af406241e13fa2f84c4fd8d72d4778df431
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-xs895-2021-service-manual
+  title: Spirit XS895 stepper service manual, titled "XS300B-YS006" (June 2021 PDF)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/XS895/XS895 Service Manual.pdf
+  sha256: bc36590c259dcd5120a13e0072e05d2d073c7609af2028dcd0bf7f905d95d689
+  ingested_at: '2026-09-11'
+- id: spirit-stepper-xs895-engineering-mode-odo-reset-video
+  title: 'Spirit XS895 stepper: entering engineering mode and resetting the odometer
+    - 37-second video, screens described frame by frame'
+  kind: markdown
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Climbers
+    Steppers/XS895/XS895 enter EM and reset ODO.MP4
+  sha256: 8ae4f75ae0376bf0af2735f5fcddc12881074f1f9b059eb3af0a8c2572022903
+  ingested_at: '2026-09-11'
 - id: spirit-strength-csd-acbe-owners-manual
   title: Spirit CSD-ACBE ab crunch / back extension strength machine owner's manual,
     warranty effective february 21, 2024
@@ -2486,6 +2611,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSS-TROT/SP-4304, TorsoRotation_TROT_OM - 2025 0521.pdf
   sha256: 0cafbec26c89c68d62d54acf679f4e713232b0911f16c4caac23ad247f06ac2a
   ingested_at: '2026-09-10'
+- id: spirit-strength-i-strength-resistance-module-maintenance-manual
+  title: Spirit i-Strength Digital Resistance Module maintenance manual (September
+    2025 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Strength/i-Strength
+    Maintenance Manual.pdf
+  sha256: 513068a270897d6a596b047f4c40ac07d67e41e9926c77be245725476bc583ae
+  ingested_at: '2026-09-11'
 - id: spirit-strength-st800dr3-owners-manual
   title: Spirit ST800DR3 dumbbell rack strength machine owner's manual, no warranty
     effective date printed
