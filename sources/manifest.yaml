@@ -2249,6 +2249,14 @@
     800845 Service Manual.pdf
   sha256: 82911040606b278817b223626a92028f85f97a12038f5eba6a13ad6a966a3cce
   ingested_at: '2026-09-11'
+- id: spirit-treadmill-ct800-2020-e50h-service-bulletin
+  title: Spirit CT800 2020 (800840) E-50H error service bulletin, six photographed
+    pages
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Bikes/E50H
+    CT800 2020.pdf
+  sha256: f388ec6f22158f8342fc265ed57092a9db6ef02f7624fd95d8882873bc37dcee
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct800-2020-owners-manual
   title: 2020 Spirit CT800 treadmill owner's manual (rev. 12/2023)
   kind: pdf
