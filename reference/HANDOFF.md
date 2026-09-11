@@ -1,9 +1,10 @@
 # Handoff — where the knowledge base stands and how to continue
 
 **Written:** 2026-09-10, at a clean pause. **Updated 2026-09-12** after the third and
-last Xterra wave (X3) merged. **3a and 3b are done. Every Spirit, Sole and Xterra
-manual on disk is ingested and carded.** What is left is 3c (section 3c) and the
-open questions in section 3b. Read section 8 first. Nothing is ingested but uncarded.
+last Xterra wave (X3) merged, and again the same day after a full hash-and-text check
+of every PDF on disk. **3a (Spirit) and 3b (Xterra) are done. Sole is NOT done:
+93 Sole owner's manuals from 2006-2025 were never ingested** — see section 3d.
+Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
 Read `CLAUDE.md` before touching `cards/`. Then `.claude/commands/kb-extract.md`.
@@ -345,6 +346,34 @@ extended** (24 warranty, 9 safety, 5 console, 5 errors, 5 maintenance, 3 specs,
   headed "Model R48" treated as the ERG750W.
 - Tank capacity tables are `specs`; one maintenance duplicate deleted.
 
+### 3d. Sole owner's manuals 2006-2025 — 93 PDFs never ingested
+
+Found 2026-09-12 by hashing every PDF under `/mnt/HDD/Downloads/` against the
+manifest and text-comparing the rest against the ingested sources of the same
+model. Earlier handoffs said "every Sole manual is done"; only the Sole **bikes**
+(B94/R92, LCB/LCR, SB700, SB900, SB1200, all years) and the **2026** books were.
+The list is `reference/sole-legacy-owners-manuals-not-ingested.tsv` (path, native
+word count). By line: treadmills 48, ellipticals 31, climbers 4, rowers 4, SRVO 2,
+strength 4. Fifty of the 93 have **under 100 native words** — the image-stencil
+PDFs the memory note `kb-image-stencil-pdf-ocr` describes: render at 300 dpi,
+tesseract `--psm 4`, all four rotations, and expect 5-9k words a book.
+
+They are real new work: the F80 2019 book measures 0.00 against the F80 2026 book
+and the 2023 service manual; the E20/E25 2012-2015 book 0.51 against its nearest
+neighbour. Several files bundle years and SKUs in one book
+(`SOLE E35 E95 2012 2013 2014 2015 Owners Manual (535012, … 595015).pdf`), so one
+source will carry several `<model>-<year>` ids — prove each year from the book,
+not the filename (see "A filename year is not evidence" in `CLAUDE.md`), and the
+Sole ids already declared in `kb.yaml` (116) decide which are new.
+
+Also **not** gaps, checked the same day: the Spirit strength 2025 revisions of
+CSD-ACBE, CSD-ITOT, CSD-LELC, CSD-LPCE and CSD-PUDA measure 0.65-0.70 against
+their carded 2024 books — genuine revisions, like the CSD-CPSP 2025 update that
+was ingested at 0.53, and worth one small wave; every other unmatched Spirit file
+is a re-export at 0.95-1.00 (the XBR95 "NewStyle 2024" is the 2023 book at 1.00;
+the CSD-BCUR 2025-06-26 file is the CSS-BCUR 2025-06-17 source at 1.00 — the
+folder names hold non-breaking spaces, so match them with `glob`, not typed paths).
+
 ### 3c. Left over from the model-number work
 
 25 machines have no `model_number`. `reference/model-numbers-open.csv` lists
@@ -457,14 +486,18 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written 2026-09-12)
+## 8. Where to pick up (written 2026-09-12, corrected the same day)
 
-**Every manual on disk is carded.** Spirit (3a), Sole, and Xterra (3b: X1
-treadmills, X2 bikes / ellipticals / climber / app Q&A, X3 rowers / strength)
-are merged. Three Xterra ids have cards but no `model_number`, and 40 machines
-overall (`kb facet-gaps`) — that is **3c**, and it needs the database or a
-person, not another wave: `reference/model-numbers-open.csv` lists each with
-its candidates. Do not guess them.
+Spirit (3a) and Xterra (3b) are merged. **Next is 3d: the 93 Sole owner's
+manuals from 2006-2025** (section 3d, list in
+`reference/sole-legacy-owners-manuals-not-ingested.tsv`). Run it as sub-waves by
+product line — treadmills 48, ellipticals 31, then climbers / rowers / SRVO /
+strength 14 — with the X2 brief set: the Sole 2026 and bike cards exist, so the
+"extend same-brand cards" section applies (`brand: [sole]`), and the Sole 2026
+error-code family rule in the memory note `sole-2026-error-code-family` matters:
+the older books use E1-E8, the 2026 books E01-E06/E22/E31, never one card for
+both. Then the five Spirit strength 2025 revisions (section 3d, last paragraph).
+Then 3c, which needs a person.
 
 Small things a later session could pick up:
 
