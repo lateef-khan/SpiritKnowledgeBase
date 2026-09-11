@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 9bddf2e628415ad7506e3399216222d99f6a6499705683d6d3f5ebcc2904bb51
+  sha256: 7843a274d0dbca68bf22e51937fc484deaf20abbb61c9f711b6bb9025a2f4c71
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -2202,6 +2202,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/4.0T/40T_OwnersManual_740885_20260108.pdf
   sha256: 883d0195d7d95305e7d3b333bc5e91e2f65d05a1735b14b7c62b282d836f6ab9
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-40t-2026-service-manual
+  title: Spirit 4.0T medical treadmill service manual (ST8700-ST017, CT4000, SKU 740885)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/40T/ST8700-ST017
+    (CT4000)  Service Manual - 740885 4.0T.pdf
+  sha256: 4023e398666d3ec1f1c42c775a59672c4a3ebe700ea5c9de9f7cf03a28941b72
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-70t-2026-owners-manual
   title: 2026 Spirit 7.0T treadmill owner's manual
   kind: pdf
@@ -2214,6 +2221,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/8.0T/80T_OwnersManual_20251120.pdf
   sha256: 58a9185a76ef496aa1dab4aa712d54b873e5ddf6140337148daf1ff124a3b0f9
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct1000ent-2023-service-manual
+  title: Spirit CT1000ENT treadmill service manual (CT1000(2023) ST8880-ST018 ENT
+    Treadmill)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT1000/CT1000_
+    ST8880-ST018-01_service manual.pdf
+  sha256: a4b18073f70bd81f34bf7a6dae3492b4d721c5e20b19a9f90eff942dac88a7ae
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct800-2012-owners-manual
   title: 2012 Spirit CT800 treadmill owner's manual
   kind: pdf
@@ -2227,12 +2242,26 @@
     (rev. 082018).pdf
   sha256: 355c9163eb60665134ae5f14223644f1641e4a54a5c69c4c8b616d66d3a19ef8
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2016-service-manual
+  title: Spirit CT800 2016 treadmill service manual (800845)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT800/CT800
+    800845 Service Manual.pdf
+  sha256: 82911040606b278817b223626a92028f85f97a12038f5eba6a13ad6a966a3cce
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct800-2020-owners-manual
   title: 2020 Spirit CT800 treadmill owner's manual (rev. 12/2023)
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800/2020/CT800_800840_OM_20231228.pdf
   sha256: b07899919fdb6087420db58d8b5f15553c3dfaddda949282e6f0fddf3564d6db
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800-2020-service-manual
+  title: Spirit CT800 2020 treadmill service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT800/CT800
+    Service Manual.pdf
+  sha256: 413a5d9c7ada7194f067f8fe49bc7576fd8088cacf18c82a2dd3fc13a365af56
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct800-2024-owners-manual
   title: 2024 Spirit CT800 treadmill owner's manual, warranty effective September
     17, 2024. The New Black Units redesign - only 55.4% of the 2020 CT800 manual's
@@ -2257,6 +2286,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT800ENT/2022/CT800ENT_800852_OM_20240703.pdf
   sha256: 834f439c6317e292cb1740f51e0bdb66f5a7bb2d92ded4ba7b8ab3f55302f508
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct800ent-2022-service-manual
+  title: Spirit CT800ENT treadmill service manual, titled "CT800 ENT 2020 ver."
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT800ENT/CT800ENT
+    Service Manual.pdf
+  sha256: 69cb1b14a1a1d9c3e76b9ab6e4e28514a0c0814b3d537a6218c6ea0c4fe45989
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct800ent-2024-owners-manual
   title: 2024 Spirit CT800ENT treadmill owner's manual, warranty effective October
     7, 2024. 40.9% against the 2022 CT800ENT manual - the largest rewrite in the set.
@@ -2310,6 +2346,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT850ENT/2022/CT850ENT_850852_OM_20240703.pdf
   sha256: 7b9f36a53255aaeb528f23aab66069337587cda92597ac000055887235b629d6
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct850ent-2022-service-manual
+  title: Spirit CT850ENT treadmill service manual, titled "CT850 ENT 2020 ver."
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT850ENT/CT850ENT
+    Service Manual.pdf
+  sha256: a15aa530864a4ce40237febd9d4965f61ba86d035c92b9bdc0dc4c3fc0a3df17
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct850ent-2024-owners-manual
   title: 2024 Spirit CT850ENT treadmill owner's manual, warranty effective October
     7, 2024. 40.6% against the 2022 CT850ENT manual.
@@ -2326,18 +2369,38 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT900/CT900_OwnersManual_900825_20250612.pdf
   sha256: fe617d1fdc672cab9aee0cc481bbee45b58f087620221370f332bccdc493bda2
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct900-service-manual
+  title: Spirit CT900 treadmill service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT900/CT900
+    Service Manual.pdf
+  sha256: c63c546d7ddc8a0b03bfe6c0ef9b12d52916e37d82923f7467d4391e80a9be20
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ct900ent-owners-manual
   title: Spirit CT900ENT treadmill owner's manual (rev. 11/2021)
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CT900ENT/CT900ENT_20211119.pdf
   sha256: 872975f9a93804cd2b76edce4d45ae17340ee00ffd8ce30808bcb5629b7f6905
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ct900ent-service-manual
+  title: Spirit CT900ENT treadmill service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CT900ENT/CT900ENT
+    Service Manual.pdf
+  sha256: 82a552d4cefba95454e8c6de2aa8f41b031e041d93f0e91ca0c7702404193ab2
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-ctsbs900-owners-manual
   title: Spirit CTSBS900 treadmill owner's manual, part 900885 (rev. 10/2025)
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/CTSBS900/CTSBS900_OwnersManual_900885_20251029.pdf
   sha256: 0e351b286f2f8b707a5902c28ed8bb36ff01bc7bdb140ea00873b787eb322a38
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-ctsbs900-service-manual
+  title: Spirit CTSBS900 slat-belt treadmill service manual (PS040081-20-01)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/CTSB900/CTSBS900_PS040081-20-01_SM.pdf
+  sha256: 78267f2cb3cbc5e03134fcc28d20c6098bf1925b8efcb9ae6dc96952339cbd97
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-mt200-2010-owners-manual
   title: MT200 treadmill owner's manual (2010 series, effective July 2013)
   kind: pdf
@@ -2350,60 +2413,152 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/MT200/2022/MT200_OM_420082_20211124.pdf
   sha256: 5a00e8fc43fdb686ed32caf6d27fb9f40d925fc76112063f8c49637289780241
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-mt200-2022-service-manual
+  title: Spirit MT200 treadmill service manual, titled "7.0T (MT8000-ST021-02)" Ver
+    1.3, April 2021
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/70T/DYACO
+    7.0T (MT8000-ST021) Service Manual.pdf
+  sha256: 8f9bcce13a940e8790615bdb74ba5c4836b974c0bbbcff3dcb4542e300e13c2a
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-mt200-e27-encoder-error-email
+  title: Spirit Fitness support email of 12 March 2025 on the E27 encoder error, "7.0T
+    - Model 770844" (MT200/MT8000 inverter family)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/70T/E27
+    Error Troubleshooting on a 7.0T.pdf
+  sha256: b5d4834d5cf93e0daa16d6bdb02b14e54eaee9c81ee30ee21840c27c41b5e905
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-mt200-error-codes-list
+  title: Spirit MT200 error codes list (English), September 2024 leaflet
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/MT200/Error_Codes_MT200_English.pdf
+  sha256: e629f5b00f02cb9b99dd4c8d2fb03c65040e708b6d592c7421a5865e4c81dbfb
+  ingested_at: '2026-09-11'
+- id: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual
+  title: Spirit XT175 / XT275 / XT375 / XT475 / XT675 treadmill dealer service manual
+    (2007 model year, PDF September 2008)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT175/XT175-275-375-475-675.pdf
+  sha256: 228c58cb214d65b495d83af4066856dc51afeaa49e2d22cfdaf8a17dd78faf0c
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt185-2015-owners-manual
   title: 2015 Spirit XT185 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT185/2015/XT185_185815_OM_20210413.pdf
   sha256: 2e149251ad9787a73b83f69970dd8cadc9840912845ceddf62b3a33e3805d5f2
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt185-2015-service-manual
+  title: Spirit XT185 2015 treadmill service manual (185815)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT185/2015/XT185
+    (185815) Service Manual.pdf
+  sha256: d27caaede817432b5c8f8408f43ed282bd0d7ab16c7db90498e0c2f1177c20ac
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt185-2023-owners-manual
   title: 2023 Spirit XT185 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT185/2023/XT185_185823_OM_20231213.pdf
   sha256: 3d498eb14e0d9dfd276a2450740d30ce2809b51916bd4991f34573e355306816
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt185-2023-service-manual
+  title: Spirit XT185 2023 treadmill service manual (185823)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT185/2023/XT185
+    (185823) Service Manual.pdf
+  sha256: ecf4df32f40f6eb01961dc051a7e140793c3c0e8c29ab76862365493fe13bb29
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt285-2015-owners-manual
   title: 2015 Spirit XT285 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT285/2015/XT285_285815_OM_20210413.pdf
   sha256: e28ffa3f5c68903f52597a6ead2f5e8102c131efbd42f13a6537b74da6dcb533
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt285-2015-service-manual
+  title: Spirit XT285 2015 treadmill service manual (285815)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT285/XT285
+    (285815) Service Manual.pdf
+  sha256: f0ecd79e4dac9bcd0cc04e4eabcb2ea026635a59dfdd0b26da6443390859e182
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt285-2023-owners-manual
   title: 2023 Spirit XT285 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT285/2023/XT285_285823_OM_20231213.pdf
   sha256: 83db0a5db41fc75878da41d9eb537346013a068f7e234b296467730563a0c915
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt285-2023-service-manual
+  title: Spirit XT285 2023 treadmill service manual (285823)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT285/XT285
+    (285823) Service Manual.pdf
+  sha256: 0a21f6b12e0de1343355944b36face38ce78ea97b8889bfd83a9fd38cf462ce8
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt385-2015-owners-manual
   title: 2015 Spirit XT385 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT385/2015/XT385_385815_OM_20210413.pdf
   sha256: 30f9d02da512fe29385f1f9ed27f2da299bcddad20081a5b40d868c7c2efe776
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt385-2015-service-manual
+  title: Spirit XT385 2015 treadmill service manual (385815)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT385/XT385
+    (385815) Service Manual.pdf
+  sha256: f8bbcd06d73e9d1426ab97f10413e3f75c4e83e683f9d9cd71e5e7cdda91370b
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt385-2023-owners-manual
   title: 2023 Spirit XT385 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT385/2023/XT385_385823_OM_20231127.pdf
   sha256: d52dd85e347554125b3a11311d32c840a2b981fde73e6fd277c1e14c3ed10124
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt385-2023-service-manual
+  title: Spirit XT385 2023 treadmill service manual (385823)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT385/XT385
+    (385823) Service Manual.pdf
+  sha256: 67ed3161f0aebafadc68a8f1f50b17a648db614cda405abc2999735bcf4faa9a
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt485-2015-owners-manual
   title: 2015 Spirit XT485 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485/2015/XT485_485815_OM_20210413.pdf
   sha256: 067174935897ee630440e7edab18a59039496adfae6478836544a09f6c359767
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt485-2015-service-manual
+  title: Spirit XT485 2015 treadmill service manual (485815)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT485/XT485
+    (485815) Service Manual.pdf
+  sha256: a8a6afe14a0f1d2e4ca6ebb9923cc4a96e01bff4049574c07eebfd97ce028385
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt485-2023-owners-manual
   title: 2023 Spirit XT485 treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485/2023/XT485_485823_OM_20231127.pdf
   sha256: b07060a7ea7a5dd4f654b7e5e30bb6c6f25012f5b4b8839da44accef5baeef2b
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt485-2023-service-manual
+  title: Spirit XT485 2023 treadmill service manual (485823)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT485/XT485
+    (485823) Service Manual.pdf
+  sha256: ea12e76327f18ea43a2ead8d36f51245de9e948e84562be6c4ce942ec9505412
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt485ent-2023-owners-manual
   title: 2023 Spirit XT485ENT treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT485ENT/2023/XT485ENT_485850_OM_20210416.pdf
   sha256: 695d877d60fdb56c51023dc0e65339a02280381b00fb0be9f188f252f675c7ed
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt485ent-2023-service-manual
+  title: Spirit XT485ENT treadmill service manual (November 2021 export)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT485ENT/XT485/XT485ENT
+    Service Manual.pdf
+  sha256: 1a78410fbeac2e9bca6bf592dc1e258986aa189e754ae95a40402bb9dd0c7fb8
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt685-2010-owners-manual
   title: Spirit XT685 Treadmill Owner's Manual (2010, part 652810) - OCR
   kind: text
@@ -2422,12 +2577,26 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT685/2023/XT685_685823_OM_20231127.pdf
   sha256: edd5f8bc96e3e3c371622063fe95a4aa49216ede6176fca2d6ba80c4964a178a
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt685-2023-service-manual
+  title: Spirit XT685 2023 treadmill service manual (685823)
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT685/XT685
+    (685823) Service Manual.pdf
+  sha256: af7e4601daf38f7a952f3921df19a55ca20894731b0d61f0c694ab5a91c0a10f
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xt685ent-2023-owners-manual
   title: 2023 Spirit XT685ENT treadmill owner's manual
   kind: pdf
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Treadmills/XT685ENT/2023/XT685ENT_685523_OM_20240717.pdf
   sha256: 68ce11b0137a5c9a0123fbff429b9b33201bfbb04d6d023a4f8de3fdf5501e9a
   ingested_at: '2026-09-09'
+- id: spirit-treadmill-xt685ent-2023-service-manual
+  title: Spirit XT685ENT treadmill service manual
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Service Manuals/Treadmills/XT685ENT/XT685ENT
+    Service Manual.pdf
+  sha256: a5c276c4dbef846cdc37c5a7029e6e974b76873624c6b3a198f279b9c646b0da
+  ingested_at: '2026-09-11'
 - id: spirit-treadmill-xth-rails-owners-manual
   title: Spirit XTH extended handrails owner's manual
   kind: pdf
