@@ -18,14 +18,20 @@ facets:
   - sole
   product_line: treadmill
   model:
+  - f60-2013
+  - f60-2014
   - f60-2016
   - f60-2020
   applies_to:
+  - f60-2013
+  - f60-2014
   - f60-2016
   - f60-2020
   section: specs
   code: '*'
   model_number:
+  - '560813'
+  - '560814'
   - '560816'
   - '560820'
   lookup: model-numbers
@@ -34,12 +40,14 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: rows f60-2016 to f60-2020
+  locator: rows f60-2013 to f60-2020
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2013 | 560813 | f60-2013 |
+| 2014 | 560814 | f60-2014 |
 | 2016 | 560816 | f60-2016 |
 | 2020 | 560820 | f60-2020 |
 

@@ -18,13 +18,15 @@ facets:
   - sole
   product_line: treadmill
   model:
-  - f83
+  - f83-2006
   - f83-2026
   applies_to:
+  - f83-2006
   - f83-2026
   section: specs
   code: '*'
   model_number:
+  - '583881'
   - '583826'
   lookup: model-numbers
 authority: 3
@@ -32,12 +34,13 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: row f83-2026
+  locator: rows f83-2006 to f83-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 583881 | f83-2006 |
 | 2026 | 583826 | f83-2026 |
 
 The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one.

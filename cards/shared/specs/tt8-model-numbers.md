@@ -18,7 +18,8 @@ facets:
   - sole
   product_line: treadmill
   model:
-  - tt8
+  - tt8-2006
+  - tt8-2013
   - tt8-2016
   - tt8-2016-ac
   - tt8-2019
@@ -26,6 +27,8 @@ facets:
   - tt8-2020
   - tt8-2023
   applies_to:
+  - tt8-2006
+  - tt8-2013
   - tt8-2016
   - tt8-2016-ac
   - tt8-2019
@@ -35,6 +38,8 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '588881'
+  - '588812'
   - '588816'
   - '588818'
   - '588822'
@@ -48,12 +53,14 @@ see_also:
 - sole-start-button-grayed-2023
 source:
   ref: custservice-model-numbers
-  locator: rows tt8-2016 to tt8-2023; no row for tt8-2020
+  locator: rows tt8 to tt8-2023; no row for tt8-2020
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 588881 | tt8-2006 |
+| 2013 | 588812 | tt8-2013 |
 | 2016 | 588816 | tt8-2016 |
 | 2016 | 588816 | tt8-2016-ac |
 | 2019 | 588818 | tt8-2019 |

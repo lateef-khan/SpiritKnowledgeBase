@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 769fe528a427a7deb6876e6983934269b1d255e85d063e34579eed67125afd69
+  sha256: e450e1eee3521348fcc096d7206971ebe95ad5ce1c2ebb0d9ccaf645a6f960ab
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -599,6 +599,18 @@
     INSTALLATION GUIDE (1).pdf
   sha256: 4dc1d5a3f89fd6f3b3ca6c1945af7a2b8a61f9530347689aedee73506232de2e
   ingested_at: '2026-09-03'
+- id: sole-tm-af63-af65-2011-owners-manual
+  title: Sole AF63/AF65 2011 owner's manual (563810, 565810)
+  kind: pdf
+  origin_uri: file://SOLE AF63 AF65 2011 Owners Manual (563810, 565810).pdf
+  sha256: 1e6e2f7cbc0b045000a4a655b913ee1a3950562677ed9a74af5dd82f1cec5c5c
+  ingested_at: '2026-09-12'
+- id: sole-tm-af80-af83-af85-2011-owners-manual
+  title: Sole AF80/AF83/AF85 2011 owner's manual (580810, 583810, 585810)
+  kind: pdf
+  origin_uri: file://SOLE AF80 AF83 AF85 2011 Owners Manual (580810, 583810, 585810).pdf
+  sha256: b651d201423c28abbeed8b53110dc652fb834feb742eb8f42cdd6f884b9f92d9
+  ingested_at: '2026-09-12'
 - id: sole-tm-airplay-or-screen-mirroring-not-working
   title: Airplay or Screen Mirroring Not Working
   kind: markdown
@@ -611,6 +623,18 @@
   origin_uri: file://Apple Watch Connectivity.docx
   sha256: 1ec1b381d21562f676f424b8d7a75cf1f9bfbcb25d9fd7ed32ced5309570ff38
   ingested_at: '2026-09-03'
+- id: sole-tm-as77-2012-owners-manual
+  title: Sole AS77 owner's manual (577810), 2012 revision
+  kind: pdf
+  origin_uri: file://SOLE AS77 2011 Owners Manual (577810).pdf
+  sha256: 07eef78c259ae8d3cc638f16717c754a9ec28c41fc6450d6799f06418338ac2b
+  ingested_at: '2026-09-12'
+- id: sole-tm-att8-2011-owners-manual
+  title: Sole ATT8 2011 owner's manual (588810)
+  kind: pdf
+  origin_uri: file://SOLE ATT8 2011 Owners Manual (588810).pdf
+  sha256: bc8c9d788db78e473e60a3c954b72a43e61c024e3582d12c7d0e7c2d5f67a51b
+  ingested_at: '2026-09-12'
 - id: sole-tm-battery-test-instructions
   title: Battery Test Instructions
   kind: markdown
@@ -731,6 +755,18 @@
   origin_uri: file://F50 (550826) 2026_.pdf
   sha256: ab722095fbbee88ee13ca6eee3e56d961b463f2d6365f19e0204f8467c28d598
   ingested_at: '2026-09-04'
+- id: sole-tm-f60-2012-2014-owners-manual
+  title: Sole F60 2012/2013/2014 owner's manual (560812, 560813, 560814)
+  kind: pdf
+  origin_uri: file://SOLE F60 2012 2013 2014 Owners Manual (560812, 560813, 560814).pdf
+  sha256: 5b24b0c1d2f4fd6bc0ee97a292afc26a3ddefba92c8d9df81ba566ac63948077
+  ingested_at: '2026-09-12'
+- id: sole-tm-f60-2016-owners-manual
+  title: Sole F60 2016 owner's manual (560816)
+  kind: pdf
+  origin_uri: file://SOLE F60 2016 Owners Manual (560816).pdf
+  sha256: 2a02782014d6be95b2d3f8b3f9a7028c94b9f01c6e12c96425e670bdbae72afc
+  ingested_at: '2026-09-12'
 - id: sole-tm-f60-2016-service-manual
   title: Sole F60 2016 service manual (560816)
   kind: pdf
@@ -743,6 +779,12 @@
   origin_uri: file://SOLE F60 2020 Service Manual (560820).pdf
   sha256: cb6a859bba67f7331bd34489270f53db7dc037ad4e0aea7c2880691b27340ac1
   ingested_at: '2026-09-04'
+- id: sole-tm-f63-2013-2015-owners-manual
+  title: Sole F63 2013/2015 owner's manual (563812, 563814)
+  kind: pdf
+  origin_uri: file://SOLE F63 2013 2015 Owners Manual (563812, 563814).pdf
+  sha256: d7855bf9f14839582269b194a7db151cfd26b67c5983522572e2272e5ce653da
+  ingested_at: '2026-09-12'
 - id: sole-tm-f63-2013-563812-parts-diagram
   title: F63-2013, 563812 Parts Diagram
   kind: markdown
@@ -785,6 +827,18 @@
   origin_uri: file://F63 OTA Instructions (Freeze Issue) - EN.pdf
   sha256: 14a0b1cfe46a269e63072370078ff5852caf643ccf4b045f4783157fd3417494
   ingested_at: '2026-09-03'
+- id: sole-tm-f63-uf63-2006-2007-owners-manual
+  title: Sole F63/UF63 2006/2007 owner's manual (563881, 563886)
+  kind: pdf
+  origin_uri: file://SOLE F63 UF63 2006 2007 Owners Manual (563881, 563886).pdf
+  sha256: 42becd0d93e9347b54722d92ed7457e14f53812f185bcbbd7152465456957330
+  ingested_at: '2026-09-12'
+- id: sole-tm-f65-2013-2014-owners-manual
+  title: Sole F65 2013/2014 owner's manual (565812, 565813)
+  kind: pdf
+  origin_uri: file://SOLE F65 2013 2014 Owners Manual (565812, 565813).pdf
+  sha256: c190762d7a9c4657e0302567d22889dd06c579587cd17355270dc863e0434b24
+  ingested_at: '2026-09-12'
 - id: sole-tm-f65-2016-service-manual
   title: Sole F65 2016 service manual (ST155-YT018)
   kind: pdf
@@ -839,6 +893,20 @@
   origin_uri: file://F80 (580286) 2026_.pdf
   sha256: 43d4f8db8b73f249f9152f4e96cb44bed4562cddcbd937cfea5e80b08e05ee3c
   ingested_at: '2026-09-04'
+- id: sole-tm-f80-f85-2013-owners-manual
+  title: Sole F80/F85 2013 owner's manual (580812, 585812)
+  kind: pdf
+  origin_uri: file://SOLE F80 F85 2013 Owners Manual (580812, 585812).pdf
+  sha256: 95d9d359147606a0ef2baba33cca537a7720e54e8fac83e9b82791ca5395f69b
+  ingested_at: '2026-09-12'
+- id: sole-tm-f80-family-2006-2007-owners-manual
+  title: Sole F80/F83/F85/S73/US73/S77/US77 2006/2007 owner's manual (580881, 583881,
+    585881, 573881, 577881, 573886, 577886)
+  kind: pdf
+  origin_uri: file://SOLE F80 F83 F85 S73 US73 S77 US77 2006 2007 Owners Manual (580881,
+    583881, 585881, 573881, 577881, 573886, 577886).pdf
+  sha256: b37a3726d450c775255bc6f4a878ddd2b9fe6d643ba5d43506a2a51813414429
+  ingested_at: '2026-09-12'
 - id: sole-tm-f83-2026-owners-manual
   title: Sole F83 2026 owner's manual (583826)
   kind: pdf
@@ -983,6 +1051,12 @@
   origin_uri: file://Popping_Vibrating Noise Only When Inclining.docx
   sha256: 042a6331bf2cfeef0ca47077e14e0279ce46657dc417814638a6795ef5d2d45c
   ingested_at: '2026-09-03'
+- id: sole-tm-s77-2013-owners-manual
+  title: Sole S77 2013 owner's manual (577812)
+  kind: pdf
+  origin_uri: file://SOLE S77 2013 Owners Manual (577812).pdf
+  sha256: 5b3751f5d1688215257cc034a434ff9057a7559d2771dde0b0af655a501e3f98
+  ingested_at: '2026-09-12'
 - id: sole-tm-s77-2016-service-manual
   title: Sole S77 2016 service manual (ST725-YT020)
   kind: pdf
@@ -1061,6 +1135,12 @@
   origin_uri: file://Treadmill Running Belt Speeding Up or Down on Its Own.docx
   sha256: d2dc8b617b82259741fc3523072296cedef1636f8eb64d7c37b1412f2968e467
   ingested_at: '2026-09-03'
+- id: sole-tm-tt8-2013-owners-manual
+  title: Sole TT8 2013 owner's manual (588812)
+  kind: pdf
+  origin_uri: file://SOLE TT8 2013 Owners Manual (588812).pdf
+  sha256: 2aa402126b322de3e5b586cc9ea1d6df1ce54c0992aed0aa0c975350ba1b373e
+  ingested_at: '2026-09-12'
 - id: sole-tm-tt8-2016-ac-service-manual
   title: Sole TT8 2016 AC service manual (ST925A-YT030)
   kind: pdf
@@ -1091,6 +1171,30 @@
   origin_uri: file://SOLE TT8 2023 Service Manual (588822).pdf
   sha256: 52f45e13193232632779899bec02ceb939394d1792badcbfc844ff9e36fa0263
   ingested_at: '2026-09-04'
+- id: sole-tm-tt8-utt8-2006-2007-owners-manual
+  title: Sole TT8/UTT8 2006/2007 owner's manual (588881, 588886)
+  kind: pdf
+  origin_uri: file://SOLE TT8 UTT8 2006 2007 Owners Manual (588881, 588886).pdf
+  sha256: d1d09ebd9ad8601afe46f5e929bbff5001847d90c56a6aadfddb37dcdd6323e1
+  ingested_at: '2026-09-12'
+- id: sole-tm-tt8c-2011-owners-manual
+  title: Sole TT8C 2011 owner's manual (589810)
+  kind: pdf
+  origin_uri: file://SOLE TT8C 2011 Owners Manual (589810).pdf
+  sha256: 605a9f820a9d0a334f694f687517b96f1b690b26813213d8d8df3bc4d505ee35
+  ingested_at: '2026-09-12'
+- id: sole-tm-tt9-2018-owners-manual
+  title: Sole TT9 owner's manual (599818), 2018 revision
+  kind: pdf
+  origin_uri: file://SOLE TT9 2019 Owners Manual (599818).pdf
+  sha256: b579167ab488372f28994bf666c6933d468911a65e2e34fdf67d33be65b76d75
+  ingested_at: '2026-09-12'
+- id: sole-tm-uf80-uf83-uf85-2007-owners-manual
+  title: Sole UF80/UF83/UF85 2007 owner's manual (580886, 583886, 585886)
+  kind: pdf
+  origin_uri: file://SOLE UF80 UF83 UF85 2007 Owners Manual (580886, 583886, 585886).pdf
+  sha256: b3a52554ddd9b9e53cff02fa7642756558b699cd84d8f9010bd64fe7d0a903ed
+  ingested_at: '2026-09-12'
 - id: sole-tm-various-noises-from-treadmill
   title: Various Noises From Treadmill
   kind: markdown
@@ -1103,12 +1207,61 @@
   origin_uri: file://Velcro Strap & Pin.docx
   sha256: e14a9e8fac8a9571ec8eac2a0ba39818ef38ef0586720b0afd9528d1901f577f
   ingested_at: '2026-09-03'
+- id: sole-tm-vf63-2008-owners-manual
+  title: Sole VF63 2008 owner's manual (563887)
+  kind: pdf
+  origin_uri: file://SOLE VF63 2008 Owners Manual (563887).pdf
+  sha256: cf3a9149ea5d9a31d4de76be2f9f967fb40be2d9b8969519829bf850922182ab
+  ingested_at: '2026-09-12'
+- id: sole-tm-vf80-vf83-vf85-2008-owners-manual
+  title: Sole VF80/VF83/VF85 2008 owner's manual (580887, 583887, 585887)
+  kind: pdf
+  origin_uri: file://SOLE VF80 VF83 VF85 2008 Owners Manual (580887, 583887, 585887).pdf
+  sha256: b3a52554ddd9b9e53cff02fa7642756558b699cd84d8f9010bd64fe7d0a903ed
+  ingested_at: '2026-09-12'
 - id: sole-tm-voltage-test
   title: Voltage Test
   kind: markdown
   origin_uri: file://Voltage Test.docx
   sha256: 600b7bd24c2cdb0eb0e014af868292042360fa70d7e2f69f36fe46b9e44e6f92
   ingested_at: '2026-09-03'
+- id: sole-tm-vs73-vs77-2008-owners-manual
+  title: Sole VS73/VS77 2008 owner's manual (573887, 577887)
+  kind: pdf
+  origin_uri: file://SOLE VS73 VS77 2008 Owners Manual (573887, 577887).pdf
+  sha256: 9ef0a0443c747eae41b5ea7b42fcbee4359a95f67daf65f1c0d32e1206f3054c
+  ingested_at: '2026-09-12'
+- id: sole-tm-vtt8-2008-owners-manual
+  title: Sole VTT8 2008 owner's manual (588887)
+  kind: pdf
+  origin_uri: file://SOLE VTT8 2008 Owners Manual (588887).pdf
+  sha256: 516c5dc507a88f092aca4124585fc428a4fdc9ce393b66d4ea6309e69cc5d5ba
+  ingested_at: '2026-09-12'
+- id: sole-tm-wf63-2009-2010-owners-manual
+  title: Sole WF63 2009/2010 owner's manual (563888)
+  kind: pdf
+  origin_uri: file://SOLE WF63 2009 2010 Owners Manual (563888).pdf
+  sha256: c7952ed640e5b133158b1f29a4acde509cdf44133e2a2a6469228ab879c4c4f7
+  ingested_at: '2026-09-12'
+- id: sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
+  title: Sole WF80/WF83/WF85 2009/2010 owner's manual (580888, 583888, 585888)
+  kind: pdf
+  origin_uri: file://SOLE WF80 WF83 WF85 2009 2010 Owners Manual (580888, 583888,
+    585888).pdf
+  sha256: 863564709c265d01d421647a73a2efb66355cb1777756bdbbd84e8e6850a0f91
+  ingested_at: '2026-09-12'
+- id: sole-tm-ws73-ws77-2009-2010-owners-manual
+  title: Sole WS73/WS77 2009/2010 owner's manual (573888, 577888)
+  kind: pdf
+  origin_uri: file://SOLE WS73 WS77 2009 2010 Owners Manual (573888, 577888).pdf
+  sha256: 13681bc24016e9ea5558b9562ac10bb8f17f5dfb5d2bb9babe956ba5ca5b0361
+  ingested_at: '2026-09-12'
+- id: sole-tm-wtt8-2009-2010-owners-manual
+  title: Sole WTT8 2009/2010 owner's manual (588888)
+  kind: pdf
+  origin_uri: file://SOLE WTT8 2009 2010 Owners Manual (588888).pdf
+  sha256: cd04befc41e8b546fe55ddc417a6b7fc3a00ab571a6e6de6c5cebdc1a5151381
+  ingested_at: '2026-09-12'
 - id: spirit-bike-40r-2025-owners-manual
   title: 2025 Spirit Medical 4.0R recumbent bike owner's manual (740145, Revision
     10.03.25, warranty effective October 3, 2025)
