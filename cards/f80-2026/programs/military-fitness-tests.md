@@ -20,22 +20,22 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f80-2026
+  model: '*'
   applies_to:
   - f80-2026
+  - tt9-2018
   section: programs
   code: '*'
-  model_number:
-  - '580286'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - f80-2026-gerkin-protocol-test
 - f80-2026-fitness-test-preparation
 - f80-2026-distance-run-programs
+- tt9-2018-programs-fitness-test
 source:
   ref: sole-tm-f80-2026-owners-manual
-  locator: page 19, Fitness tests
+  locator: page 19, Fitness tests; same six on the TT9 touchscreen (Fit-Test key, TT9 book PDF pp.28-30)
   extracted_at: '2026-09-04'
 ---
 
@@ -47,3 +47,5 @@ manual does not print the distance for any of them, and does not print scoring t
 
 **These differ from the Gerkin Protocol**, which is automatic - it drives speed and incline itself and needs
 a heart rate monitor.
+
+**The TT9 prints the same six the same way** — timed manual-speed runs with no printed distances or scores ("A timed 1.5 mile run. You control the speed manually."). On the TT9 they sit among **ten** test entries; the other four are Gerkin, WFI, CTT Performance and CTT prediction (see `tt9-2018-programs-fitness-test`).

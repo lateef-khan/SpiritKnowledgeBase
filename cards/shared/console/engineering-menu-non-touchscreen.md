@@ -57,6 +57,7 @@ not_to_be_confused_with: []
 see_also:
 - sole-engineering-menu-touchscreen
 - sole-sleep-mode-non-touchscreen
+- sole-treadmill-console-maintenance-menu-numbered-functions
 source:
   ref: sole-tm-engineering-mode-treadmill
   locator: For All Non-Touchscreen Treadmills
@@ -76,7 +77,7 @@ The usual options:
 - **Display Test** - lights the whole display so dead spots show up.
 - **Functions**
   - **Display Mode** (may be called **Sleep Mode**). If it is called Display Mode, ON keeps the screen awake and OFF lets it sleep after 15 to 30 minutes. If it is called Sleep Mode, it is the other way round: ON lets it sleep, OFF keeps it awake.
-  - **Pause Mode** - ON lets the user pause and resume within 5 minutes without losing their stats. OFF makes the first Stop press end the workout.
+  - **Pause Mode** - ON lets the user pause and resume within 5 minutes without losing their stats. OFF makes the first Stop press end the workout. **Nine 2011–2013 owner's manuals print OFF the other way** — "turn off to have console pause in[ ]definitely" (seven print the spacing "in definitely"; e.g. ATT8-2011, TT8-2013, F63-2013/2015, S77-2013 books). The books describe what the customer sees, so this card follows them for those machines and keeps the technician note's "ends the workout" reading alongside it.
   - **Maintenance** - shows the odometer since the lube message was last reset. Pressing Enter resets the lube message and the odometer.
   - **Units** - ENG for miles, MET for kilometres.
   - **Key Tone** - ON allows beeps, OFF mutes them.

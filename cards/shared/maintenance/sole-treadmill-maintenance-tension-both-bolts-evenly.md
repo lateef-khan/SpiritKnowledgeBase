@@ -1,0 +1,90 @@
+---
+id: sole-treadmill-maintenance-tension-both-bolts-evenly
+title: Tensioning the belt with even quarter-turns on both bolts
+kind: procedure
+question: How do I tighten a slipping running belt on a Sole treadmill?
+asked_as:
+- my treadmill belt is slipping when i step
+- how do i tighten the walking belt on a sole treadmill
+- where are the belt tension bolts on a treadmill
+keywords:
+- belt tension
+- rear roller
+- adjusting bolts
+- end cap
+- quarter turn
+- slipping
+- hesitating
+- overtighten
+- drive belt
+facets:
+  brand:
+  - sole
+  product_line: treadmill
+  model: '*'
+  applies_to:
+  - af63-2011
+  - af65-2011
+  - af80-2011
+  - af83-2011
+  - af85-2011
+  - as77-2012
+  - att8-2011
+  - f60-2013
+  - f60-2014
+  - f60-2016
+  - f63-2013
+  - f63-2015
+  - f65-2013
+  - f65-2014
+  - f80-2013
+  - f85-2013
+  - s77-2013
+  - tt8-2013
+  - tt8c-2011
+  - tt9-2018
+  - wf63-2009
+  - wf63-2010
+  - wf80-2009
+  - wf80-2010
+  - wf83-2009
+  - wf83-2010
+  - wf85-2009
+  - wf85-2010
+  - ws73-2009
+  - ws73-2010
+  - ws77-2009
+  - ws77-2010
+  - wtt8-2009
+  - wtt8-2010
+  section: maintenance
+  code: '*'
+authority: 3
+not_to_be_confused_with: []
+see_also:
+- sole-treadmill-maintenance-tracking-3-mph-left-bolt
+- sole-treadmill-maintenance-tension-right-side-tracking-compensation
+- f60-2016-running-belt-tension-adjustment
+source:
+  ref: sole-tm-f63-2013-2015-owners-manual
+  locator: 'PDF p.26 (lines 961-1009), Tread-belt Tension Adjustment. Same text: sole-tm-af63-af65-2011-owners-manual
+    PDF p.28 (lines 986-1035); sole-tm-f60-2016-owners-manual PDF p.19 (lines 600-646);
+    sole-tm-att8-2011-owners-manual PDF p.29 (lines 1066-1115); sole-tm-tt9-2018-owners-manual
+    PDF p.38 (lines 1094-1141); sole-tm-wf63-2009-2010-owners-manual PDF p.23 (lines
+    732-776); and the same layout in the as77-2012, tt8-2013, tt8c-2011, wf80, ws73,
+    ws77 and wtt8 books (belt-adjustments page).'
+  extracted_at: '2026-09-12'
+---
+
+Belt tension is **not critical for most users**. It matters for joggers and runners, giving a smooth, steady running surface.
+
+Adjustment is made from the **rear roller** with the supplied 6 mm Allen wrench (an M6 L wrench in the F60-2012-2014, F60-2016 and TT9 books; parts-list **99**, **105** and **149** in those books, **132** in the 2011/2013-batch books, unnumbered in the W books). The adjustment bolts are at the **end of the step rails**, reached **through a small hole in the end cap**.
+
+1. Tighten the rear roller **only enough to prevent slippage at the front roller**.
+2. Turn the tread-belt tension adjusting bolts **1/4 turn each**.
+3. Inspect for proper tension by walking on the belt and making sure it is **not slipping or hesitating** with each step.
+4. **Turn the bolts on both sides evenly** when adjusting, or the belt could start tracking to one side instead of running in the middle of the deck.
+
+**DO NOT OVERTIGHTEN.** Over-tightening causes belt damage and premature bearing failure. If you tighten the belt a lot and it still slips, the problem may actually be the **drive belt under the motor cover** that connects the motor to the front roller; it feels similar when loose, and tightening it is a trained service person's job.
+
+The service-manual version of this procedure is shorter and differently worded; see `f60-2016-running-belt-tension-adjustment`. This card follows the owner's manuals.

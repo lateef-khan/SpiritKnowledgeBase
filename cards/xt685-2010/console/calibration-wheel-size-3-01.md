@@ -38,8 +38,9 @@ not_to_be_confused_with:
 - xt-2023-console-calibration-basic
 - xt-2023-console-calibration-wheel-size-two-four-three
 see_also:
-- xt685-2010-console-engineering-mode-menu
+- sole-treadmill-errors-calibration-sensor-alignment
 - xt485-2013-console-maintenance-menu-with-a-motor-test-and-a-grade-return-among-seven-functions
+- xt685-2010-console-engineering-mode-menu
 source:
   ref: spirit-treadmill-xt685-2010-owners-manual
   locator: Calibration Procedure, p. 36. XT485 2013 OM CALIBRATION PROCEDURE, PDF
