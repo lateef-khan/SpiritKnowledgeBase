@@ -21,9 +21,12 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - e95s-2015
+  - e95s-2016
+  - e98-2015
   - f63-2016
   - f65-2016
   - f80-2016

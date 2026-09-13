@@ -21,13 +21,15 @@ facets:
   brand:
   - sole
   product_line: elliptical
-  model: e35-2026
+  model: '*'
   applies_to:
+  - e25-2019
+  - e25-2023
+  - e35-2019
+  - e35-2023
   - e35-2026
   section: assembly
   code: '*'
-  model_number:
-  - '535026'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +38,7 @@ see_also:
 - e35-2026-step-1-incline-rail-and-console-mast
 source:
   ref: sole-elliptical-e35-2026-owners-manual
-  locator: pages 4 and 7, E35 Assembly Instructions - Pre-Assembly
+  locator: pages 4 and 7, E35 Assembly Instructions - Pre-Assembly (2026 book); E35-2023 (p.9), E25-2023 (p.9), E35-2019 and E25-2019 (both p.9) print the same three steps
   extracted_at: '2026-09-04'
 ---
 
@@ -46,6 +48,6 @@ source:
 
 **The numbers in the instructions that are in parenthesis (#) are the item number from the assembly drawing for reference.** They are drawing item numbers, not order codes.
 
-The first assembly page carries a **"Scan Here for Assembly Video" QR code**. The extraction kept the caption but not the code or its address, so the video link is not recoverable from the text.
+In the E35-2026 book, the first assembly page carries a **"Scan Here for Assembly Video" QR code**. The extraction kept the caption but not the code or its address, so the video link is not recoverable from the text.
 
-Damage to the elliptical finish during shipping, installation or following installation is listed as the **consumer's** responsibility under the warranty, which is why the inspection in step 2 matters before you start.
+In the E35-2026 book, damage to the elliptical finish during shipping, installation or following installation is listed as the **consumer's** responsibility under the warranty, which is why the inspection in step 2 matters before you start.

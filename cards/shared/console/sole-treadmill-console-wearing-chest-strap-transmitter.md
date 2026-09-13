@@ -19,9 +19,13 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ae25-2011
+  - ae35-2011
+  - ae55-2011
+  - ae95-2011
   - af63-2011
   - af65-2011
   - af80-2011
@@ -29,6 +33,44 @@ facets:
   - af85-2011
   - as77-2012
   - att8-2011
+  - e20-2013
+  - e20-2014
+  - e20-2015
+  - e25-2007
+  - e25-2013
+  - e25-2014
+  - e25-2015
+  - e25-2016
+  - e25-2019
+  - e25-2023
+  - e35-2007
+  - e35-2013
+  - e35-2014
+  - e35-2015
+  - e35-2016
+  - e35-2019
+  - e35-2023
+  - e55-2006
+  - e55-2014
+  - e55-2016
+  - e55-2019
+  - e75-2007
+  - e95-2007
+  - e95-2013
+  - e95-2014
+  - e95-2015
+  - e95-2016
+  - e95-2019
+  - e95-2023
+  - e95s-2015
+  - e95s-2016
+  - e95s-2019
+  - e95s-2023
+  - e98-2011
+  - e98-2013
+  - e98-2015
+  - e98-2019
+  - e98-2023
   - f60-2013
   - f60-2014
   - f63-2013
@@ -73,12 +115,24 @@ facets:
   - us73-2006
   - us77-2006
   - utt8-2006
+  - ve25-2007
+  - ve35-2007
+  - ve55-2007
+  - ve95-2007
   - vf80-2007
   - vf83-2007
   - vf85-2007
   - vs73-2007
   - vs77-2007
   - vtt8-2007
+  - we25-2009
+  - we25-2010
+  - we35-2009
+  - we35-2010
+  - we55-2009
+  - we55-2010
+  - we95-2009
+  - we95-2010
   - wf63-2009
   - wf63-2010
   - wf80-2009
@@ -113,7 +167,9 @@ source:
     PDF p.21; sole-tm-vs73-vs77-2008-owners-manual PDF p.17; sole-tm-vtt8-2008-owners-manual
     PDF p.17; sole-tm-wf63-2009-2010-owners-manual PDF p.21; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
     PDF p.20; sole-tm-ws73-ws77-2009-2010-owners-manual PDF p.17; sole-tm-wtt8-2009-2010-owners-manual
-    PDF p.17; sole-tm-f63-f65-2016-owners-manual PDF p. 27; sole-tm-tt8-2016-owners-manual PDF p. 28; sole-tm-f63-2023-owners-manual PDF p. 28; sole-tm-f80-2023-owners-manual PDF p. 26; sole-tm-tt8-2023-owners-manual PDF p. 24
+    PDF p.17; sole-tm-f63-f65-2016-owners-manual PDF p. 27; sole-tm-tt8-2016-owners-manual
+    PDF p. 28; sole-tm-f63-2023-owners-manual PDF p. 28; sole-tm-f80-2023-owners-manual
+    PDF p. 26; sole-tm-tt8-2023-owners-manual PDF p. 24
   extracted_at: '2026-09-12'
 ---
 
@@ -127,3 +183,5 @@ The AF63/AF65 book heads this section 'USING HEART RATE TRANSMITTER (F65)'; the 
 The strap is **not included** (TT8-2013, ATT8 and TT8C heads say so; the AF63 book prints the same note for the F63). Not printed for the 2006 F63, the F60-2016 or the TT9.
 
 Steps match everywhere including the second-generation touchscreens (SOLE logo, ribbed ovals, CR2032); the first-generation touchscreens print black square electrodes instead (own card).
+
+Same steps in every wave-B elliptical owner's book except the E20s, which print no strap section at all (own card); the E98 books head it '(SOLD SEPARATELY)' and the E20/E25 2012-2015 book '(E20 Sold Separately)'.

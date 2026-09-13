@@ -2,7 +2,7 @@
 id: e35-2026-electrical-power-requirements
 title: Outlet, extension cord and grounding requirements
 kind: policy
-question: What outlet and grounding does a Sole E35-2026 elliptical need?
+question: What outlet and grounding does a Sole elliptical need?
 asked_as:
 - what outlet does my sole elliptical need
 - can i use an extension cord with my elliptical
@@ -21,13 +21,17 @@ facets:
   brand:
   - sole
   product_line: elliptical
-  model: e35-2026
+  model: '*'
   applies_to:
+  - e25-2016
+  - e25-2019
+  - e25-2023
+  - e35-2016
+  - e35-2019
+  - e35-2023
   - e35-2026
   section: safety
   code: '*'
-  model_number:
-  - '535026'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +40,9 @@ see_also:
 - e35-2026-power-up-and-power-switch
 source:
   ref: sole-elliptical-e35-2026-owners-manual
-  locator: pages 2 and 3, Important Safety Instructions and Grounding Instructions
+  locator: 'pages 2 and 3, Important Safety Instructions and Grounding Instructions. B: the same 115-volt outlet
+    with a nominal 110-volt grounding paragraph (PDF p. 4 safety list, PDF p. 5 grounding) in the
+    E25/E35 2016, 2019 and 2023 books.'
   extracted_at: '2026-09-04'
 ---
 
@@ -49,3 +55,5 @@ source:
 **This manual does not agree with itself about the circuit voltage.** The safety instructions on page 2 say a **115-volt** outlet and the console page says the machine is connected directly to **115 VAC**, but the grounding instructions on page 3 say the product "is for use on a **nominal 110-volt** circuit". Both figures are printed in this same manual. The manual picks no winner and neither does this card.
 
 The manual says nothing about GFCI or AFCI outlets.
+
+The same mismatch is printed in six B books: a **115-volt, 15-amp** outlet with a **14AWG** cord on the safety list (PDF p. 4), and **nominal 110-volt** in the grounding paragraph (PDF p. 5) - verified on the renders of the E25 and E35 2016, 2019 and 2023 books. Those books name no GFCI rule either.

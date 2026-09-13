@@ -19,9 +19,15 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - e25-2019
+  - e35-2019
+  - e55-2019
+  - e95-2019
+  - e95s-2019
+  - e98-2019
   - f63-2019
   - f65-2019
   - f80-2019
@@ -44,4 +50,4 @@ source:
   extracted_at: '2026-09-12'
 ---
 
-Charge a personal device from the on-console **USB Power Port** while the machine is on: connect a compatible cable (not included) and check the device icon. The port gives **up to 5 Vdc / 0.5 amp** under USB 2.0 rules. The charging icon may stay off on power-hungry devices that still charge slowly. **No workout data can be saved through this port; charging only.** The 2016 books print no USB port at all.
+Charge a personal device from the on-console **USB Power Port** while the machine is on: connect a compatible cable (not included) and check the device icon. The port gives **up to 5 Vdc / 0.5 amp** under USB 2.0 rules. The charging icon may stay off on power-hungry devices that still charge slowly. **No workout data can be saved through this port; charging only.** The 2016 books print no USB port at all. The 2016 elliptical books print no USB port either.

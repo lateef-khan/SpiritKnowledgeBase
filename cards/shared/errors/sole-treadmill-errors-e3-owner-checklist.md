@@ -42,6 +42,9 @@ not_to_be_confused_with:
 see_also:
 - f65-2023-e3-incline-vr-voltage
 - sole-dc-controller-error-code-list
+- sole-e95-errors-e-3-incline-motor
+- sole-e95s-errors-e-3-stride-motor
+- sole-e98-errors-e-3-incline-motor
 source:
   ref: sole-tm-f80-2023-owners-manual
   locator: 'ERROR MESSAGES FOR DIGITAL-CONTROL SYSTEM TREADMILLS: sole-tm-f80-2023-owners-manual

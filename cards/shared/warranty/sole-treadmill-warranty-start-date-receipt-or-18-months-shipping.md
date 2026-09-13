@@ -2,7 +2,7 @@
 id: sole-treadmill-warranty-start-date-receipt-or-18-months-shipping
 title: The warranty clock starts at the sale receipt, or 18 months from factory shipping
 kind: policy
-question: When does the warranty start on a Sole treadmill?
+question: When does the warranty start on a Sole machine?
 asked_as:
 - when does my sole warranty start
 - no receipt warranty date sole
@@ -20,9 +20,13 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - ae25-2011
+  - ae35-2011
+  - ae55-2011
+  - ae95-2011
   - af63-2011
   - af65-2011
   - af80-2011
@@ -30,6 +34,46 @@ facets:
   - af85-2011
   - as77-2012
   - att8-2011
+  - e20-2013
+  - e20-2014
+  - e20-2015
+  - e20-2016
+  - e20-2020
+  - e25-2007
+  - e25-2013
+  - e25-2014
+  - e25-2015
+  - e25-2016
+  - e25-2019
+  - e25-2023
+  - e35-2007
+  - e35-2013
+  - e35-2014
+  - e35-2015
+  - e35-2016
+  - e35-2019
+  - e35-2023
+  - e55-2006
+  - e55-2014
+  - e55-2016
+  - e55-2019
+  - e75-2007
+  - e95-2007
+  - e95-2013
+  - e95-2014
+  - e95-2015
+  - e95-2016
+  - e95-2019
+  - e95-2023
+  - e95s-2015
+  - e95s-2016
+  - e95s-2019
+  - e95s-2023
+  - e98-2011
+  - e98-2013
+  - e98-2015
+  - e98-2019
+  - e98-2023
   - f60-2013
   - f60-2014
   - f60-2016
@@ -86,6 +130,10 @@ facets:
   - us73-2006
   - us77-2006
   - utt8-2006
+  - ve25-2007
+  - ve35-2007
+  - ve55-2007
+  - ve95-2007
   - vf63-2007
   - vf80-2007
   - vf83-2007
@@ -93,6 +141,14 @@ facets:
   - vs73-2007
   - vs77-2007
   - vtt8-2007
+  - we25-2009
+  - we25-2010
+  - we35-2009
+  - we35-2010
+  - we55-2009
+  - we55-2010
+  - we95-2009
+  - we95-2010
   - wf63-2009
   - wf63-2010
   - wf80-2009
@@ -112,8 +168,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
-- sole-treadmill-warranty-registration-card-online-10-days
 - f63-2026-warranty-start-date
+- sole-e20-2016-warranty-periods-1-year-frame-90-day-labor
+- sole-elliptical-warranty-registration-card-10-days-serial-record
+- sole-treadmill-warranty-registration-card-online-10-days
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'All 49 books: f63-uf63-2006-2007-owner PDF p. 18 (printed 17), text.md
@@ -123,11 +181,11 @@ source:
     (printed 30), text.md L1250-1319; att8-2011-owners-manual PDF p. 33 (printed 30),
     text.md L1297-1366; f60-2012-2014-owners-man PDF p. 30 (printed 28), text.md L1196-1265;
     f60-2016-owners-manual PDF p. 24 (printed 22), text.md L832-902; tt9-2018-owners-manual
-    PDF p. 42 (printed 40), text.md L1295-1365; f60-2020-owners-manual PDF p. 27, text.md L1473-1573; f63-2025-owners-manual PDF p. 35, text.md L1668-1781; st90-2021-owners-manual PDF p. 29, text.md L1317-1417; tt8-2023-owners-manual PDF p. 30, text.md L1447-1564'
+    PDF p. 42 (printed 40), text.md L1295-1365; f60-2020-owners-manual PDF p. 27, text.md L1473-1573; f63-2025-owners-manual PDF p. 35, text.md L1668-1781; st90-2021-owners-manual PDF p. 29, text.md L1317-1417; tt8-2023-owners-manual PDF p. 30, text.md L1447-1564; e20-e25-2012-2015-owners-manual PDF p. 30, text.md L1104-1106; e25-e55-2007-owners-manual PDF p. 32, text.md L1024-1026; e98-2023-owners-manual PDF p. 30, text.md L1393-1396'
   extracted_at: '2026-09-12'
 ---
 
-**The warranty runs from the date of retail sale, as determined by the sale receipt. In the absence of a receipt: eighteen (18) months from the original factory shipping date.** This sentence is word-for-word in all 49 books, under every effective date from October 15, 2004 to February 1, 2025. The two 2004 F63/TT8 books add "whichever comes first".
+**The warranty runs from the date of retail sale, as determined by the sale receipt. In the absence of a receipt: eighteen (18) months from the original factory shipping date.** This sentence is word-for-word in all 81 books (49 treadmill, 32 elliptical), under every effective date from October 15, 2004 to February 1, 2025. The two 2004 F63/TT8 books add "whichever comes first".
 
 The SERVICE section restates the clock for service visits: **twelve (12) months from the date on the bill of sale, or eighteen (18) months from the date of factory shipping as determined by the serial number**, establishes the period should service be required. (The 2004 books say "the warranty period"; later books say "the labor warranty period".)
 

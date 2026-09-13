@@ -1,6 +1,6 @@
 ---
 id: sole-treadmill-specs-no-exploded-view-or-replacement-parts-list
-title: The owner's manual prints no exploded view or replacement-parts list
+title: The treadmill owner's manual prints no exploded view or replacement-parts list
 kind: spec
 question: Where is the parts list for a Sole treadmill?
 asked_as:
