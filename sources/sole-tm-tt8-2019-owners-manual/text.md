@@ -1,0 +1,1795 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.
+2.             ▲▼
+
+3.
+
+4.
+
+
+
+
+1.
+
+
+
+2.
+
+     
+
+
+
+
+
+         ▲▼
+
+     -4
+
+1.
+
+
+
+
+2.
+
+
+
+
+     ▲
+                          ▲▼
+     ▲▼
+
+
+
+                     ▲▼
+     ▲▼
+
+
+
+
+
+     ▲ ▼        ▲▼
+
+
+
+▲▼         ▲▼
+              ▲
+    ▼
+
+
+
+
+        ▲ ▼
+
+
+
+
+         ▲▼
+
+
+
+
+：
+    ▲▼
+
+         ▲▼
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ▲▼
+
+
+
+
+▲▼
+     ’
+3.
+               ▲
+           ▲
+
+     ▲ ▼
+
+
+
+
+                   ▲▼
+
+
+
+
+F.
+Submit all service requests including serial number, contact information and a brief description of the problem online at
+
+
+=== OCR SUPPLEMENT, PDF PAGE 1 ===
+<!-- render-vs-extraction: 40 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+OWNER’S MANUAL
+
+Please carefully read this entire manual
+FITNESS before operating your new treadmill.
+
+A TTE N TI O . Before returning your Sole product to any retailer, or if you require any assistance with assembly or
+1 technical support please call us first for assistance at 866-697-6531. Thank you for your Sole purchase.
+
+
+=== OCR SUPPLEMENT, PDF PAGE 2 ===
+<!-- render-vs-extraction: 92 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+TABLE OF CONTENTS
+
+Product Registration 1
+Important Safety Instructions 2
+Important Electrical Information 3
+Important Operation Instructions 4
+Assembly instructions 7
+Transport Instructions 11
+Operation of Your New Treadmill 12
+Bluetooth® Connectivity 15
+Programmable Features 17
+General Maintenance 27
+Service Checklist - Diagnosis Guide 29
+Manufacturer’s Limited Warranty 31
+
+WARNING: This product can expose you to chemicals including Toluene and
+Acrylamide which are known to the State of California to cause Cancer and birth defects
+or other reproductive harm. For more information, go to www.P65Warnings.ca.gov
+
+Before returning your Sole product to any retailer, or if you require any
+assistance with assembly or technical support please call us first for
+assistance at 866-697-6531. Thank you for your Sole purchase.
+
+TT8_2019 Ver.D
+
+
+=== OCR SUPPLEMENT, PDF PAGE 3 ===
+<!-- render-vs-extraction: 120 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+SOte—
+
+FITNESS
+
+CONGRATULATIONS ON YOUR NEW TREADMILL AND WELCOME TO THE SOLE FAMILY!
+
+Thank you for your purchase of this quality treadmill from SOLE. Your new treadmill has been manufactured by
+one of the leading fitness manufacturers in the world and is backed by one of the most comprehensive
+warranties available. SOLE will do all we can to make your ownership experience as pleasant as possible for
+many years to come.
+
+If you have any questions about your new product contact SOLE Fitness at 866-780-SOLE (7653). If you have a
+technical problem with your new treadmill contact SOLE technical service at 866-MYSOLE1 (1-866-697-6531).
+
+Please take a moment at this time to record below the name of the dealer, their telephone number, and the
+date of purchase for easy contact in the future. We appreciate your confidence in SOLE and we will always
+remember that you are the reason that we are in business. Please complete and mail your registration card
+today and enjoy your new treadmill.
+
+Yours in Health,
+SOLE Fitness
+
+Name of Dealer
+
+Telephone Number of Dealer
+
+Purchase Date
+
+PRODUCT REGISTRATION
+
+RECORD YOUR SERIAL NUMBER Please record the
+Serial Number of this fitness product in the space
+provided below.
+
+Serial Number
+REGISTER YOUR PURCHASE ns
+The self-addressed product registration card must be completed in full and returned to SOLE.
+You can also go to www.soletreadmills.com under the support tab to register online.
+
+1 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 4 ===
+<!-- render-vs-extraction: 229 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+IMPORTANT SAFETY INSTRUCTIONS
+
+WARNING - Read all instructions before using this appliance.
+
+DANGER - To reduce the risk of electric shock disconnect your SOLE treadmill from the electrical
+outlet prior to cleaning and/or service work.
+
+WARNING - To reduce the risk of burns, fire, electric shock, or injury to persons, install the
+treadmill on a flat level surface with access to a 110-volt, 15-amp grounded outlet with only the
+treadmill plugged into the circuit.
+
+DO NOT USE AN EXTENSION CORD UNLESS IT IS A 14AWG OR BETTER, WITH ONLY ONE
+OUTLET ON THE END: DO NOT ATTEMPT TO DISABLE THE GROUNDED PLUG BY USING
+IMPROPER ADAPTERS, OR IN ANY WAY MODIFY THE CORD SET.
+
+A serious shock or fire hazard may result along with computer malfunctions. See Grounding Instructions, page 3.
+
+™ Do not operate treadmill on deeply padded, plush or shag carpet. Damage to both
+carpet and treadmill may result.
+
+H Donot block the rear of the treadmill. Provide a minimum of 3 1/2 feet clearance
+between the rear of the treadmill and any fixed object.
+
+@ Keep children under the age of 13 away from this machine. There are obvious pinch
+points and other caution areas that can cause harm.
+
+™ Keep hands away from all moving parts.
+
+m@ Never operate the treadmill if it has a damaged cord or plug. If the treadmill is not
+working properly, call your dealer.
+
+™ Keep the cord away from heated surfaces.
+
+™ Do not operate where aerosol spray products are being used or where oxygen is being
+administered. Sparks from the motor may ignite a highly gaseous environment.
+
+mM Never drop or insert any object into any openings.
+
+™ Do not use outdoors.
+
+HM To disconnect, turn all controls to the off position, remove tether cord, then remove the
+plug from the outlet.
+
+™ Donot attempt to use your treadmill for any purpose other than for the purpose it is
+intended.
+
+m The pulse sensors are not medical devices. Various factors, including the user's
+movement, may affect the accuracy of heart rate readings. The pulse sensors are
+intended only as exercise aids in determining heart rate trends in general.
+
+™ Use handrails provided; they are for your safety.
+
+m@ Wear proper shoes. High heels, dress shoes, sandals or bare feet are not suitable for use
+on your treadmill. Quality athletic shoes are recommended to avoid leg fatigue.
+
+@ = This appliance is not intended for use by persons with reduced physical, sensory or
+mental capabilities, or lack of experience and knowledge, unless they have been given
+supervision or instruction concerning use of the appliance by a person responsible for
+their safety.
+
+Remove tether cord after use to prevent unauthorized treadmill operation.
+
+SAVE THESE INSTRUCTIONS - THINK SAFETY!
+
+TT8 TREADMILL 2
+
+
+=== OCR SUPPLEMENT, PDF PAGE 5 ===
+<!-- render-vs-extraction: 248 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+IMPORTANT ELECTRICAL INSTRUCTIONS
+
+WARNING!
+
+Route the power cord away from any moving part of the treadmill including the elevation
+mechanism and transport wheels.
+
+NEVER remove any cover without first disconnecting AC power.
+
+If voltage varies by ten percent (10%) or more, the performance of your treadmill may be
+affected. Such conditions are not covered under your warranty. If you suspect the voltage is
+
+low, contact your local power company or a licensed electrician for proper testing.
+
+NEVER expose this treadmill to rain or moisture. This product is NOT designed for use outdoors,
+near a pool or spa, or in any other high humidity environment. The maximum operating
+temperature specification is 40 degrees C, and humidity is 95% non-condensing (no water drops
+forming on surfaces).
+
+Circuit breakers: Avoid AFCI/GFCI circuit breakers if possible. These breakers may trip
+occasionally during exercise because of the high inrush currents of the treadmill drive electronics
+and motor. This is an issue that affects all treadmill brands.
+
+New laws in your area may require these breakers. If you do have these breakers and outlets in
+your home, and are experiencing nuisance tripping, you should check if there are any other
+devices plugged into the same circuit. Some examples of devices that may also cause tripping
+are fluorescent lights with electronic ballasts, coffee maker, space heater, hair drier. Optimally the
+treadmill should be the only device plugged into the circuit.
+
+Our treadmills have surge suppressors built in to help avoid nuisance tripping. We have tested
+several AFCI/GFCI breakers and outlets with our products. Brands we have tested are: Eaton
+(Cutler Hammer Series), Leviton (Smart lock pro) and Schneider Electric (Canadian home series).
+These breakers do not trip in our testing, when connected to our treadmills, as long as no other
+devices are plugged into the same circuit.
+
+GROUNDING INSTRUCTIONS
+
+This product must be grounded. If the treadmill should malfunction or breakdown, grounding
+provides a path of least resistance for electric current, reducing the risk of electric shock. This
+product is equipped with a cord having an equipment-grounding plug. The plug must be
+plugged into an appropriate outlet that is properly installed and grounded in accordance with all
+local codes and ordinances.
+
+DANGER - Improper connection of the equipment-grounding conductor can result in a risk
+of electric shock. Check with a qualified electrician or serviceman if you are in doubt as to
+whether the product is properly grounded. Do not modify the plug provided with the
+product if it will not fit the outlet; have a proper outlet installed by a qualified electrician.
+This product is for use on a nominal 110-volt circuit, and has a grounding plug that looks like
+the plug illustrated below. A temporary adapter that looks like the adapter illustrated below
+may be used to connect this plug to a 2-pole receptacle as shown below if a properly grounded
+outlet is not available. The temporary adapter should be used only until a properly grounded
+outlet, (shown below) can be installed by a qualified electrician. The green colored rigid ear-
+lug, or the like, extending from the adapter, must be connected to a permanent ground such as
+a properly grounded outlet box cover. Whenever the adapter is used, it must be held in place
+by a metal screw.
+
+3 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 6 ===
+<!-- render-vs-extraction: 215 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+Adapter
+
+8 ™ Tab of
+(0) Metal Screw Grounding
+Screw
+
+Grounding Pin Grounded Outlet Box
+
+IMPORTANT OPERATION INSTRUCTIONS
+
+NEVER operate this treadmill without reading and completely understanding the results of
+any operational change you request from the computer.
+
+™ Understand that changes in speed and grade do not occur immediately. Set your desired
+speed on the computer console and release the adjustment key. The computer will obey the
+command gradually.
+
+mM NEVER use your treadmill during an electrical storm. Surges may occur in your household
+power supply that could damage treadmill components. Unplug the treadmill during an
+electrical storm as a precaution.
+
+™ Use caution while participating in other activities while walking on your treadmill; such as
+watching television, reading, etc. These distractions may cause you to lose balance or stray
+from walking in the center of the belt; which may result in serious injury.
+
+@ NEVER mount or dismount the treadmill while the belt is moving. SOLE treadmills start at a
+very low speed and it is unnecessary to straddle the belt during start up. Simply standing on
+the belt during slow acceleration is proper after you have learned to operate the unit.
+
+@ Always hold on to a handrail or hand bar while making control changes (grade, speed, etc.).
+
+™ Do not use excessive pressure on console control keys. They are precision set to function
+properly with little finger pressure. Pushing harder is not going to make the unit go faster or
+slower. If you feel the buttons are not functioning properly with normal pressure contact
+your SOLE dealer.
+
+IMPORTANT SAFETY INSTRUCTIONS
+
+A safety tether cord is provided with this unit and should be used at all times. It is for your safety
+should you fall or move too far back on the tread-belt. Pulling this safety tether cord will stop
+tread-belt movement.
+
+To Use:
+
+1. Place the safety key into position on the console control head. Your treadmill will not start
+and operate without this. Removing the safety key also secures the treadmill from unau-
+thorized use.
+
+Grounded Outlet
+
+2. Fasten the plastic clip onto your clothing securely to assure good holding power.
+Note: The clip should be attached securely to make certain it does not come off. Be familiar
+with its function and limitations. The treadmill will stop, depending on speed, with a one to two
+step coast anytime the safety key is pulled off the console. Use the red Stop switch in normal
+operation.
+
+3. Ifthe console displays "Safety key removed, machine stopped, click Replace the key to
+Operate", put the Safety key back to continue using the treadmill.
+
+TT8 TREADMILL 4
+
+
+=== OCR SUPPLEMENT, PDF PAGE 7 ===
+<!-- render-vs-extraction: 35 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+TT8 ASSEMBLY PACK CHECKLIST
+HARDWARE STEP 3
+
+O (n(n)
+
+#85.@10 x 2T #99. 5/16” x 3/4” Flat #100.3/8" x 2-1/4” Button
+
+Split Washer (6 pcs) Head Socket Bolt Head Socket Bolt (6 pcs)
+(4 pcs)
+
+©)
+
+#131.@8 x O23 x 1.5T #102. 3/8" x 19x 1.5T
+Curved Washer (4 pcs) Flat Washer (6 pcs)
+
+HARDWARE STEP 5
+
+O (omc
+#85.@10 x 2T #125. 3/8" x 1-3/4” Button
+Split Washer (4 pcs) Head Socket Bolt (4 pcs)
+
+HARDWARE STEP 6
+(auneann
+
+#90. 3.5 x 16mm
+Sheet Metal Screw (4 pcs)
+
+5 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 8 ===
+<!-- render-vs-extraction: 35 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+HARDWARE STEP 7
+
+| ae
+
+#99. 5/16” x 3/4” #63. Safety Key
+Flat Head Socket Bolt (4 pcs)
+
+HARDWARE STEP 8
+
+(mam
+
+#126. M5 x 10mm
+Phillips Head Screw (4 pcs)
+
+HARDWARE STEP 9
+
+(asuennns-
+
+#90. 3.5 x 16mm
+Sheet Metal Screw (4 pcs)
+
+ASSEMBLY TOOLS
+
+#104. L Allen Wrench #105. M6 L Allen Wrench
+
+#188. Phillips Head Screw Driver
+
+TT8 TREADMILL 6
+
+
+=== OCR SUPPLEMENT, PDF PAGE 9 ===
+<!-- render-vs-extraction: 88 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+TT8 ASSEMBLY INSTRUCTIONS
+ASSEMBLY STEP 1
+
+1. Remove the treadmill base frame from the carton and lay it aside
+on firm, level ground.
+
+ASSEMBLY STEP 2
+
+1. Remove(L/R) Flat Head Socket Bolts (113) by L Allen Wrench (105)
+and then remove 2 pcs Fixing Plate Stabilizer (112)
+
+2. Locate the left and right Console Mast Tubes (5 & 4). Slide the
+Handrail Bottom Cover (117) onto the left and right (118) tubes as
+shown in the illustration.
+
+3. Connect the Computer Cable (32) of the Main Frame with the
+Computer Cable (33) at the bottom of the right Console Mast Tube
+(4).
+
+Before attaching the hardware to Step 3, make sure the cables you
+
+just connected don’t get pinched in between the steel tubing. If
+
+they do, this may cause issues that prevent the treadmill from
+operating properly.
+
+7 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 10 ===
+<!-- render-vs-extraction: 120 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+ASSEMBLY STEP 3 ; : HARDWARE STEP 3
+
+#85. ©10 x 2T
+
+Split Washer (6 pcs)
+#99. 5/16” x 3/4" Flat
+Head Socket Bolt
+
+(4 pcs)
+
+#100. 3/8” x 2-1/4"
+Button Head Socket
+Bolt (6 pcs)
+#131. @8 x O23 x 1.5T
+Curved Washer (4 pcs)
+#102. 3/8” x 19x 1.5T
+Flat Washer (6 pcs)
+
+1. Attach the left and right Upright Tubes (5 & 4) to the Main Frame
+(1). Be careful installing the right upright so that the wire harness
+doesn’t get pinched or cut. Only hand-tighten all the bolts in
+this step. The bolts will need to be completely tightened after
+the console is installed. Insert three Split Washers (85), three Flat
+Washers (102), and three Button Head Socket Bolts (100) through
+the brackets (151 & 152) and Console Mast Tubes (5 & 4) and into
+the frame. Partially tighten with the M6 L Allen Wrench (105).
+Attach two Curved Washers (131) and two Flat Head Socket Bolts
+(99) to the front of each Console Mast Tube. Partially tighten with
+the L Allen Wrench (104).
+
+1. Connect the lower Computer Cable (33) to the upper Computer
+Cable (31), the remote Speed Cable (34) to the upper Speed
+Cable (36-46), and the remote Incline Cable (35) to the upper
+Incline Cable (36-47).
+Before attaching the hardware to Step 5, make sure the cables you just connected
+don’t get pinched in between the steel tubing. If they do, this may cause issues that
+prevent the treadmill from operating properly.
+
+TT8 TREADMILL 8
+
+
+=== OCR SUPPLEMENT, PDF PAGE 11 ===
+<!-- render-vs-extraction: 66 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+HARDWARE STEP 5
+
+#85. 010 x 2T
+
+Split Washer (4 pcs)
+#125. 3/8” x 1-3/4"
+
+Button Head Socket
+Bolt (4 pcs)
+
+1. Carefully attach the Console Assembly (36) to the top of the
+upright tubes (5 & 4) with the four Button Head Socket bolts
+(125) and four Split Washers (85). Make sure the cables don’t
+get pinched between the joint or by the bolts. Tighten the bolts
+completely using the M6 Allen Wrench (105).
+
+ASSEMBLY STEP 6 HARDWARE STEP 6
+
+#90. 3.5x 16mm
+Sheet Metal Screw
+(4 pcs)
+
+1. Attach the Left (117) and Right (118) Lower Handlebar Covers to the
+console with four Sheet Metal Screws (90). Tighten with the
+Combination Phillips Head Screw Driver (188).
+
+9 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 12 ===
+<!-- render-vs-extraction: 89 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+HARDWARE STEP 7
+
+#99, 5/16” x 3/4”
+Flat Head Socket Bolt
+(4 pcs)
+
+#63. Safety Key
+
+—
+
+pe
+
+1. Attach the Support tube (3) between the upright tubes (4 & 5)
+with the four Flat Head Socket bolts (99). Tighten the bolts
+completely using the Combination L Allen Wrench (104).
+
+2. Place the Beverage Holder (48) on top of the Support tube (3)
+as shown in the illustration.
+
+3. Place the magnet of the safety key (63) in between the Start
+and Stop buttons (if it isn’t already attached). The treadmill will
+not function without this in place.
+
+4. Check to make sure all bolts and screws are completely
+tightened.
+
+ASSEMBLY STEP 8 HARDWARE STEP 8
+
+126 #126.M5 x 10mm
+
+Phillips Head Screw
+cele (4 pcs)
+
+4
+
+126 g
+
+1. Completely tighten the bolts that secure the Console Mast
+Tubes to the frame with the M6 Allen Wrench (105).
+
+2. Attach the console mast covers (40R & 41L) to each mast (5 & 4)
+with two Phillips Head Screws (126) on each side. Tighten using
+the Combination Phillips Head Screw Driver (188).
+
+TT8 TREADMILL 10
+
+
+=== OCR SUPPLEMENT, PDF PAGE 13 ===
+<!-- render-vs-extraction: 43 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+#90. 3.5x 16mm
+, Sheet Metal Screw
+
+9 ASSEMBLY STEP 9 HARDWARE STEP 8
+
+(4 pcs)
+
+1. Insert Tablet Holder (187) into the Console Assembly (36) and use
+Combination Phillips Head Screw Driver (188) to tighten four of
+Sheet Metal Screw (90).
+
+TRANSPORTATION INSTRUCTIONS
+
+The treadmill is equipped with transport wheels for simply rolling the treadmill away.
+
+11 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 14 ===
+<!-- render-vs-extraction: 107 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+OPERATION OF YOUR TREADMILL
+
+GETTING FAMILIAR WITH THE CONTROL PANEL
+
+VOOO Oc
+
+COOLING FANS
+
+TT8 CONSOLE
+
+SPEAKER
+
+CHARGE PORTABLE
+DEVICES WITH USB PORT
+
+DOT MATRIX DISPLAY
+
+CONTROL KEYS
+HEADPHONE JACK
+
+AUDIO IN JACK (MP3,
+CD, OR SMARTPHONE)
+
+GRADE KEYS
+SPEED KEYS
+
+CONTACT HEART RATE
+SENSORS
+
+GETTING STARTED
+
+TT8 CONSOLE
+Power the treadmill on by plugging it into an appropriate wall outlet, then turn on the power
+
+switch located at the front of the treadmill below the motor hood. Ensure that the Safety Key is
+installed, as the treadmill will not power on without it (See Assembly Step 7 for reference).
+
+When the power is turned on, the boot screen will display Odometer readings for a short time,
+Total time will show how many hours the treadmill has been in use and the total distance will
+show how many miles (or Kilometers if the treadmill is set to metric readings) the treadmill has
+gone. The treadmill will then enter idle mode, which is the starting point for operation.
+
+TT8 TREADMILL 12
+
+
+=== OCR SUPPLEMENT, PDF PAGE 15 ===
+<!-- render-vs-extraction: 129 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+START OPERATION
+
+. Attach the Safety Key to wake display up (if not already on).
+2 Press the Start key to begin belt movement then adjust to the desired speed using the Speed 4/V
+keys (console or handgrip). You may also use the speed keys 2, 3, 4, 5, 7, 9, or 12 to adjust the speed.
+3. To slow tread-belt press and hold the Slow key (console or handgrip) to the desired speed.
+You may also press the speed adjust keys, 2 through 12.
+4. To stop the tread-belt, press the Stop key or pull away the Safety Key.
+
+PAUSE/STOP/ RESET FEATURE
+
+. When the treadmill is running the pause feature may be utilized by pressing the red Stop key
+once. This will slowly decelerate the tread-belt to a stop. The grade will go to zero percent. The
+Time, Distance and Calorie readings will hold while the unit is in the pause mode. After 5
+minutes the display will reset and return to the start up screen.
+
+2. To resume your exercise, when in Pause mode, press the Start key. The speed and grade will
+return to their previous settings.
+
+M Pause is executed when the Stop button is pressed once. If the Stop button is pressed a
+second time, the program will end and a workout summary will be displayed. If the Stop
+button is pressed a third time, the console will return to the idle mode (start up) screen. If
+the Stop button is held down for more than 3 seconds the console will reset.
+
+GRADE FEATURE
+
+The New Grade function of Sole TT8 make user can be stay in decline condition, The Grade level
+from -6 ~ 15, When 1~15 level by red color, -1~-6 level by green color display.
+™ Grade may be adjusted anytime after belt movement.
+M™ Press and hold the Grade 4/¥ keys (console or handgrip) to achieve desired level of effort. You may
+also choose a more rapid increase / decrease by selecting desired key,
+-4,-2, 2,4, 6,9 and 12 on the console (Grade).
+M@ The Grade Window display will indicate grade position as adjustments are made.
+
+13 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 16 ===
+<!-- render-vs-extraction: 151 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+DOT MATRIX CENTER DISPLAY
+
+Eighteen columns of dots, 8 high for the TT8 indicate
+each segment of a workout. The dots are only to show
+an approximate level (speed/Grade) of effort. They do
+not necessarily indicate a specific value - only an
+approximate percent to compare levels of intensity. In
+operation, the speed/grade dot matrix window will
+build a profile “picture” as values are changed during a
+workout.
+
+When the word “Speed” is lit above or below the dot
+matrix it indicates that the Speed profile is being
+displayed and when “Grade” is lit the Grade profile is
+being displayed.
+
+You may switch the speed or Grade dot matrix profile shown by pressing the Enter button. Pressing
+the Enter button a second time will switch it back to the previous profile. Pressing it a third time will
+automatically alternate the Speed and Grade profile views.
+
+MESSAGE DISPLAY
+
+When the display key is pressed, or when a program is ended, additional exercise information is
+displayed. The information includes: LAPS, Verticle (virtual altitude based on Grade setting), METs,
+Segment Time, Max Speed.
+
+CALORIE DISPLAY
+
+Displays the cumulative calories burned at any given time during your workout.
+Note: This is only a rough guide used for comparison of different exercise sessions, which cannot be
+used for medical purposes.
+
+There is an Audio Input Jack (53) on the front of the console and built-in speakers. You may plug
+any low-level audio source signal into this port. Audio sources include MP3, iPod, portable radio,
+CD player or even aTV or computer audio signal. There is an audio patch cable included to and
+also a headphone jack ( 9) for private listening.
+
+TT8 TREADMILL 14
+
+
+=== OCR SUPPLEMENT, PDF PAGE 17 ===
+<!-- render-vs-extraction: 187 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+PULSE FEATURE
+
+The Pulse (Heart Rate) Window will display your current heart rate in beats per minute during
+the workout. You must use both stainless steel sensors on the front cross bar to display your
+pulse or wear the wireless chest strap. The pulse value will display anytime the upper display is
+receiving a pulse signal.
+
+TURNING OFF TREADMILL
+
+1. The display will automatically turn off - go to sleep - after 30 minutes of inactivity when in
+the Pause / Stop mode. Almost all power for the treadmill will be off except for some circuits
+that are needed to detect if any key is pressed, indicating the console should“wake up”.
+When the console is “asleep” the treadmill draws very little power, about as much as your
+television when it is turned off.
+
+2. Removing the safety key is similar to entering “sleep” mode. Turning off the main power
+switch in the front of the treadmill will completely remove any power.
+
+** ATTENTION**
+
+Your new console comes configured in an in-store “display mode” of operation, where the
+console will remain powered on unless the main power switch is turned off. To exit the display
+mode, for normal operation, press and hold the Stop, Enter and Display keys for 5 seconds; the
+display will show: Display mode - On. Use any of the Program, Grade or Speed A keys to
+change the setting to Off then press Enter.
+
+New Sole App to be used in conjunction with select Apple & Android devices!
+
+In order to help you achieve your exercise goals, Sole has added an exciting new feature to this
+product. Your new exercise machine comes equipped with a Bluetooth’ transceiver that will allow
+it to interact with selected phones or tablet computers via the Sole Fitness App.
+
+Just download the free Sole Fitness App from the Apple Store or Google Play, and follow the
+instructions in the App to sync with your exercise machine. This allows you to view current
+workout data in three different Display screens on your device. You can easily switch back and
+forth from the workout display view to internet/social media/email sites via icons on the display
+screen. When your workout is finished, the data is automatically saved to the built-in personal
+calendar for future reference.
+
+15 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 18 ===
+<!-- render-vs-extraction: 168 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+Our new Sole Fitness App also allows you to sync your workout data to one of many fitness cloud
+sites we support: iHealth, MapMyFitness, Record or Fitbit.
+
+Syncing the App with your exercise machine:
+
+After downloading the App, make sure Bluetooth® is enabled on your device, then tap the icon in
+the top left corner to search for Sole equipment.
+
+Select Device
+
+ximum possible User Profiles:6
+
+aaa Me i
+{ Add New User | Create soace lor a new orolile bv selectina the profile vou wish to delete
+
+After the equipment is detected, tap Connect. When the App and equipment are synced, the
+Bluetooth® icon on the equipment’s console will light up. You may now start using your new Sole
+product!
+
+If the treadmill is not connected to the app, the console will display "SYNC" when the workout is
+over. You can then connect using your phone or tablet to store workout data in the App. The
+console can only store the last workout data. When the treadmill returns to IDLE MODE, workout
+data will be erased.
+
+*Note: Your device will need to run on a minimum operating system of iOS 7 or Android 4.4 or
+above for the Sole Fitness App to operate properly.
+
+The exercise equipment’s Bluetooth device (BLE 4.0) can also be connected to the Bluetooth
+wireless heart rate chest strap transmitter (BLE 4.0). The chest strap transmitter can receive signals
+even when the App is already in use. In order to do such a functional switch, you need to use the
+heart rate key on the key board. Take the following steps to achieve this:
+
+1. In idle mode, the heart rate Bluetooth LED on the keypad will not be lit if the Bluetooth
+function is currently connected with the App.
+
+2. Inidle mode, press the heart rate key on the key board. The Bluetooth LED will light on. This
+shows that the Bluetooth function is now switched to connect to the Bluetooth wireless heart
+rate chest strap. You can wear the Bluetooth wireless heart rate chest strap first then
+commence connection. While in connection, the console will show heart rate value via
+Bluetooth.
+
+3. When the workout is over, the console will automatically switch its Bluetooth connection
+back to the previously connected App.
+
+The exercise equipment can also play music wirelessly via Bluetooth. Turn on your mobile phone
+or tablet’s Bluetooth function. Search for the name "Bt-speaker" in your device’s Bluetooth menu.
+Tap to connect. Now your device can transmit music to the exercise equipment.
+
+TT8 TREADMILL 16
+
+
+=== OCR SUPPLEMENT, PDF PAGE 19 ===
+<!-- render-vs-extraction: 154 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+PROGRAMMABLE FEATURES
+
+The TT8 have ten built-in programs: one Manual program, five preset profiles, one Custom, one
+
+Fitness Test, and two Heart Rate programs (HR1 & HR2).
+PRESET PROGRAMS
+Hill
+The Hill program simulates going up and down a hill. The workload will steadily increase and then
+decrease during the program.
+
+TT8 SPEED TT8 GRADE
+
+TTT LJ LT TI
+a eer it
+Fat Burn
+
+The Fat Burn program is designed, as the name implies, to maximize the burning of fat. There are many
+schools of thought on the best way to burn fat but most experts agree that a lower exertion level that
+stays at a steady workload is the best. The absolute best way to burn fat is to keep your heart rate at
+around 60% to 70% of its maximum potential. This program does not use heart rate but simulates a lower,
+steady exertion workout.
+
+TT8 SPEED TT8 GRADE
+
+Cardio
+
+The Cardio program is designed to increase your cardiovascular function and endurance. This is exercise
+for your heart and lungs. It will build up your heart muscle and increase blood flow and lung capacity. This
+is achieved by incorporating a higher level of exertion with slight fluctuations in work.
+
+TT8 SPEED TT8 GRADE
+
+[TTT TTT I | TT TTT TTT
+
+Strength
+
+The Strength program is designed to increase muscular strength in your lower body. This program will
+steadily increase in workload to a high level and forces you to sustain it. This is designed to strengthen and
+tone your legs and glutes (muscles of the butt)
+
+TT8 SPEED TT8 GRADE
+
+|_| [ |
+
+HIIT
+The HIIT program takes you through high levels of intensity followed by periods of low intensity. This
+program increases your endurance by depleting your oxygen level followed by periods of recovery to
+replenish oxygen. Your cardiovascular system gets programmed to use oxygen more efficiently this way.
+This program also forces your body to become more efficient due to spikes in heart rate, between
+recovery periods. This aids in heart rate recovery from intense activities
+TT8 SPEED TT8 GRADE
+
+| |
+
+TTT I
+im
+
+17 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 20 ===
+<!-- render-vs-extraction: 143 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+SELECTING A PROGRAM
+
+1. Press the Program keys to view the programs on the screen, if you would like to perform. The
+display will prompt you through the programming steps or you can just press the Start key to
+begin the program using the preset program values for age, weight and other program specific
+information.
+
+4 vi
+
+rt
+
+2. Inthe setting, the menu will display Age at first item. You may use any of the Grade A/V or
+Speed A/V keys to adjust your age. After adjusting press the Enter key.
+
+Note: You may press Start at any time during the programming to start the program with the
+information you've already input.
+
+3. The Weight Window will now be displaying a value, which is your Body Weight.
+
+Entering the correct body weight will affect the calorie count. Use the Grade A/W keys or the
+
+Speed A/¥ to adjust, then press Enter.
+
+™ Calorie Display Note: No exercise machine can give you an exact calorie count because
+there are too many factors which determine exact calorie burn for a particular person. Even if
+someone is the exact same body weight, age and height, their calorie burn may be very
+different than yours. The Calorie display is to be used as a reference only to monitor
+improvement from workout to workout.
+
+4. The Time Window will now be displaying a value, which is total workout time desired. Use the
+Grade A/V keys or the Speed a/V¥ keys to adjust, and then press Enter. After adjusting, press
+the Enter key.
+
+5. The Speed Window will display the preset top speed of the selected program. Use the Grade
+A/V keys or the Speed 4/V¥ keys to adjust, and then press Enter. Each program has various
+speed changes throughout; this allows you to limit the highest speed the program will reach at
+its peak.
+
+6. Press Start to begin the program. The program will begin with a 3 minute warm-up. If you want
+to bypass this and go directly to the beginning of the program, press Start again.
+
+b(t) M30
+
+tro GO QD
+
+ba | he
+
+TT8 TREADMILL 18
+
+
+=== OCR SUPPLEMENT, PDF PAGE 21 ===
+<!-- render-vs-extraction: 186 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+CUSTOM PROGRAMS
+
+1. Select CUSTOM via the Program keys.
+
+Note that the dot matrix display portion will have a single row of dots at the bottom (Unless
+there is a previously stored program). If there is a program stored under the button that is
+pressed, it will be retrieved. If not, you have the option of programming in your first name. The
+name Message Window will display and flash the letter “A”. To change it, press the any 4 key,
+then “B” will be displayed; if the any V_ key is pressed, the letter “Z” will be displayed. After
+selecting the appropriate letter, press STOP. The letter “A” will again be displayed. Repeat the
+procedure until all letters of your first name are programmed (7 characters maximum). When
+your name is displayed, press Enter and it will be stored under CUSTOM.
+
+2. Next the menu will be display Age window first. Use the Grade a/¥ keys to adjust. Press Enter.
+This is a must to continue even if age is not adjusted.
+
+3. The Weight window will now be display a body Weight value. Enter your body weight and
+press Enter.
+
+4. The Time Window will now be display a Time value. Adjust the Time and press Enter.
+
+5. The first column (segment) will now be blinking. Using the Speed A/¥ or keys, adjust the
+speed level to your desired effort for the first segment then press Enter. The second column will
+now be blinking. Repeat the above process until all segments have been programmed. The first
+column will be blinking again. This is for the grade programming. Repeat the above process to
+
+program all segments for Grade.
+
+Note: While in a User program, ifyou manually change the speed, all segment speeds from there on will also change.
+Examples: If you increase your current speed 1 mph, the remaining segment speeds will increase by 1 mph. If you decrease
+your current speed .5 mph, the remaining segment speeds will decrease by .5 mph, etc.
+
+6. Press the Start button to begin the workout and also save the program to memory.
+7. The profile picture will be re-scaled to fit in the window, but the actual speed and grade settings
+will remain the same as programmed.
+
+Charge Portable Devices with USB port
+
+USB Port Charging function:
+
+Charge your personal device during your workout using
+the fitness equipment’s on-console USB port.
+
+To charge your mobile electronics make sure the fitness
+equipment power is on.
+
+Step 1: Connect your USB charging cable (not included) to
+the USB Power Port and to your device.
+
+Step 2: Check to make sure your device icon indicates it is
+charging.
+
+NOTE :
+* USB charging cable is not included, make sure compatible USB charging cable is being used.
+
+** Your device “charging” icon may or may not indicate it is charging. Depending on the amount of
+current your particular device requires for charging the icon may not be on but your device is still
+charging, but possibly at a lower charge rate.
+
+***The USB port on the console is capable of powering USB devices. It provides up to 5Vdc/0.5 amp of
+
+power and meets USB 2.0 regulations. You will not be able to save your workout data to a USB via this
+port; it is used for charging purposes only.
+
+19 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 22 ===
+<!-- render-vs-extraction: 101 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+FITNESS TEST PROGRAM
+
+The fit test program is designed to determine your estimated VO2 max or how well your body utilizes
+oxygen. The test follows a progression in both speed and elevation and lasts a maximum of 11 minutes.
+If your actual heart rate reaches 85% of projected maximum before the end of the test, the program will
+end and your score will be based on the stage you ended at. The higher your estimated VO2, the more
+fit you are.
+
+Stage Time Speed Grade VO2 Max
+1 0 to 1:00 4.5mph 0% 31.15
+2.1 1:15 4.5mph 2% 32.55
+2.2 1:30 4.5mph 2% 33.6
+2.3 1;45 4.5mph 2% 34.65
+2.4 2;00 4.5mph 2% 35.35
+3.1 2:15 5.0mph 2% 37.45
+3.2 2;30 5.0mph 2% 39.55
+3.3 2;45 5.0mph 2% 41.3
+3.4 3;00 5.0mph 2% 43.4
+4.1 3;15 5.0mph 4% 44.1
+4.2 3;30 5.0mph 4% 45.15
+43 3;45 5.0mph 4% 46.2
+44 4;00 5.0mph 4% 46.5
+5.1 4,15 5.5mph 4% 48.6
+5.2 4;30 5.5mph 4% 50
+5.3 4;45 5.5mph 4% 51.4
+5.4 5;00 5.5mph 4% 52.8
+6.1 5:15 5.5mph 6% 53.9
+6.2 5;30 5.5mph 6% 54.9
+6.3 5;45 5.5mph 6% 56
+6.4 6;00 5.5mph 6% 57
+7.1 6;15 6.0mph 6% 57.7
+7.2 6;30; 6.0mph 6% 58.8
+7.3 6;45 6.0mph 6% 60.2
+7A 7;00 6.0mph 6% 61.2
+8.1 7:15 6.0mph 8% 62.3
+8.2 7;30 6.0mph 8% 63.3
+8.3 7;45 6.0mph 8% 64
+8.4 8;00 6.0mph 8% 65
+9.1 8515 6.5mph 8% 66.5
+9.2 8;30 6.5mph 8% 68.2
+9.3 8;45 6.5mph 8% 69
+9.4 9;00 6.5mph 8% 70.7
+10.1 9515 6.5mph 10% 72.1
+10.2 9;30 6.5mph 10% 73.1
+10.3 9;45 6.5mph 10% 73.8
+10.4 10;00 6.5mph 10% 74.9
+
+TT8 TREADMILL 20
+
+
+=== OCR SUPPLEMENT, PDF PAGE 23 ===
+<!-- render-vs-extraction: 160 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+11.1 10;15 7.0mph 10% 76.3
+
+11.2 10;30 7.0mph 10% 77,7
+11.3 10;45 7.0mph 10% 79.1
+11.4 11;00 7.0mph 10% 80
+
+Fitness Test Programming
+
+1. Press the Fit-test button and press Enter.
+
+2. The Message Window will now be showing a value, indicating your Age. Use the Grade A/V keys to
+adjust, and then press Enter.
+
+3. The Message Window will now be showing a value, indicating your Body Weight. Use the Grade A/V
+keys to adjust, and then press Enter.
+
+4. The Message Window will display PRESS START TO BEGIN OR ENTER TO MODIFY
+
+Before the test
+@ Make sure you are in good health; check with your physician before performing any exercise if you
+are over the age of 35 or persons with pre-existing health conditions.
+@ Make sure you have warmed up and stretched before taking the test.
+@ Do not take in caffeine before the test.
+@ Hold the hand grips gently, do not tense up.
+
+During the test
+
+™ The console must be receiving a steady heart rate for the test to begin. You may use the hand
+
+pulse sensors or wear a heart rate chest strap transmitter.
+
+1. The test starts with a three minute warm-up. Speed will be set at 3 mph, grade at 0%. The
+Message Window will display 3 MINUTE WARM-UP and alternate every 5 seconds with actual
+HR888 & Target Heart Rate. The time window will start at three minutes and count down to zero.
+All other data windows will accrue.
+
+2. The speed and grade will follow the changes shown in the chart to the right.
+
+3. When the user reaches the target the test will continue for 15 seconds. A cool down period will
+start. The grade will be set to 0 percent. The speed will be 3.0 MPH. The cool down time will be
+based on the total time to complete the test. If the test took 5 min. or less, then the cool down is
+1 minute. If the test took between 5 min. to 12 min., the cool down will be 3 minutes. The
+Message Window will display for 5 seconds: 1 (or 3 min) MINCOOL DOWN and alternate every 5
+seconds with YOUR SCORE. The time window will start at 1 (or 3 min) minute and count down to
+zero.
+
+4. The score is taken from the table based on the final stage completed.
+
+After the test
+@ Cool down for about one to three minutes.
+@ Take note of your score because the console will automatically return to the start-up mode after a
+few minutes.
+
+21 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 24 ===
+<!-- render-vs-extraction: 62 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+What your score means:
+
+VO2max Chart for males and very fit females
+
+18-25 years | 26-35 years | 36-45 years | 46-55 years | 56-65 years | 65+ years
+
+old old old old old old
+
+Excellent >60 >56 >51 >45 >41 >37
+Good 52-60 49-56 43-51 39-45 36-41 33-37
+Above 47-51 43-48 39-42 35-38 32-35 29-32
+average
+
+Average 42-46 40-42 35-38 32-35 30-31 26-28
+Below 37-41 35-39 31-34 29-31 26-29 22-25
+average
+
+Poor 30-36 30-34 26-30 25-28 22-25 20-21
+Very poor <30 <30 <26 <25 <22 <20
+
+VO2max Chart for females and de-conditioned males
+
+18-25 years | 26-35 years | 36-45 years | 46-55 years | 56-65 years | 65+ years
+
+old old old old old old
+Excellent 56 52 45 40 37 32
+Good 47-56 45-52 38-45 34-40 32-37 28-32
+Above 42-46 39-44 34-37 31-33 28-31 25-27
+average
+Average 38-41 35-38 31-33 28-30 25-27 22-24
+Below 33-37 31-34 27-30 25-27 22-24 19-22
+average
+Poor 28-32 26-30 22-26 20-24 18-21 17-18
+Very poor <28 <26 <22 <20 <18 <17
+
+TT8 TREADMILL 22
+
+
+=== OCR SUPPLEMENT, PDF PAGE 25 ===
+<!-- render-vs-extraction: 207 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+HEART RATE PROGRAMS
+
+Before we get started, a word about Heart Rate:
+
+The old motto, “no pain, no gain’, is a myth that has been overpowered by the benefits of
+exercising comfortably. A great deal of this success has been promoted by the use of heart rate
+monitors. With the proper use of a heart rate monitor, many people find that their usual choice
+of exercise intensity was either too high or too low and exercise is much more enjoyable by
+maintaining their heart rate in the desired benefit range.
+
+To determine the benefit range in which you wish to train, you must first determine your
+Maximum Heart Rate. This can be accomplished by using the following formula: 220 minus your
+age. This will give you the Maximum Heart Rate (MHR)for someone of your age. To determine
+the effective heart rate range for specific goals you simply calculate a percentage your MHR.
+Your Heart rate training zone is 50% to 90% of your maximum heart rate. 60% of your MHR is the
+zone that burns fat while 80% is for strengthening the cardio vascular system. This 60% to
+
+80% is the zone to stay in for maximum benefit.
+
+190 TARGET HEART RATE
+480 TRAINING CHART
+For someone who is 40 years old their Mn
+. = 170 in,
+target heart rate zone is calculated: 5 "0 bye
+= 160 WR,
+5 te
+. 2 150
+220 - 40 = 180 (maximum heart rate) 2 440
+180 x .6 = 108 beats per minute °
+. 2 130
+(60% of maximum) E20
+180 X .8 = 144 beats per minute 2 aso
+(80% of maximum) 100
+90
+So for a 40 year old the training zone would be 20 25 30 35 40 45 50 55 60 65
+ecooosecce EEE
+1 08 to 1 44 beats per minute. Weight Loss Cardiovascular Age of User
+
+If you enter your age during programming the console will perform this calculation
+automatically. Entering your age is used for the Heart Rate programs. After calculating your MHR
+you can decide upon which goal you would like to pursue.
+
+The two most popular reasons for, or goals, of exercise are cardiovascular fitness (training for the
+heart and lungs) and weight control. The black columns on the chart above represent the MHR
+for a person whose age is listed at the bottom of each column. The training heart rate, for either
+cardiovascular fitness or weight loss, is represented by two different lines that cut diagonally
+through the chart. A definition of the lines’ goal is in the bottom left-hand corner of the chart. If
+your goal is cardiovascular fitness or if it is weight loss, it can be achieved by training at 80% or
+60%, respectively, of your MHR on a schedule approved by your physician. Consult your
+physician before participating in any exercise program.
+
+23 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 26 ===
+<!-- render-vs-extraction: 142 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+RATE OF PERCEIVED EXERTION
+
+Heart rate is important but listening to your body also has a lot of advantages. There are more
+variables involved in how hard you should workout than just heart rate. Your stress level,
+physical health, emotional health, temperature, humidity, the time of day, the last time you ate
+and what you ate, all contribute to the intensity at which you should workout. If you listen to
+your body, it will tell you all of these things.
+
+The rate of perceived exertion (RPE), also know as the Borg scale, was developed by Swedish
+physiologist G.A.V. Borg. This scale rates exercise intensity from 6 to 20 depending upon how
+you feel or the perception of your effort.
+
+The scale is as follows:
+Rating Perception of Effort
+
+6 Minimal
+
+7 Very,very light
+
+8 Very,very light +
+9 Very light
+
+10 Very light +
+
+11 Fairly light
+
+12 Comfortable
+
+13 Somewhat hard
+14 Somewhat hard +
+15 Hard
+
+16 Hard +
+
+17 Very hard
+
+18 Very hard +
+
+19 Very,very hard
+20 Maximal
+
+You can get an approximate heart rate level for each rating by simply adding a zero to each
+rating. For example a rating of 12 will result in an approximate heart rate of 120 beats per
+minute. Your RPE will vary depending up the factors discussed earlier. That is the major benefit
+of this type of training. If your body is strong and rested, you will feel strong and your pace will
+feel easier. When your body is in this condition, you are able to train harder and the RPE will
+support this. If you are feeling tired and sluggish, it is because your body needs a break. In this
+condition, your pace will feel harder. Again, this will show up in your RPE and you will train at
+the proper level for that day.
+
+TT8 TREADMILL 24
+
+
+=== OCR SUPPLEMENT, PDF PAGE 27 ===
+<!-- render-vs-extraction: 264 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+USING HEART RATE TRANSMITTER
+
+How to wear your wireless chest strap transmitter:
+
+1. Attach the transmitter to the elastic strap using the locking parts.
+
+2. Adjust the strap as tightly as possible as long as the strap is not
+too tight to remain comfortable.
+
+3. Position the transmitter with the SOLE logo centered in the middle
+
+of your body facing away from your chest (some people must
+
++
+position the transmitter slightly left of center). Attach the final end
+
+of the elastic strap by inserting the round end and, using the
+locking parts, secure the transmitter and strap around your chest.
+4. Position the transmitter immediately below the pectoral muscles.
+5. Sweat is the best conductor to measure very minute heart beat electrical signals.
+However, plain water can also be used to pre-wet the electrodes (2 ribbed oval areas on
+the reverse side of the belt and both sides of the transmitter). It’s also recommended that
+you wear the transmitter strap a few minutes before your work out. Some users, because
+of body chemistry, have a more difficult time in achieving a strong, steady signal at the
+beginning. After “warming up’, this problem lessens. As noted, wearing clothing over the
+transmitter/strap doesn't affect performance.
+6. Your workout must be within range - distance between transmitter/receiver — to achieve
+a strong steady signal. The length of range may vary somewhat but generally stay close
+enough to the console to maintain good, strong, reliable readings. Wearing the
+transmitter immediately against bare skin assures you of proper operation. If you wish,
+you may wear the transmitter over a shirt. To do so, moisten the areas of the shirt that the
+electrodes will rest upon.
+Note: The transmitter is automatically activated when it detects activity from the user’s heart. Additionally, it
+automatically deactivates when it does not receive any activity. Although the transmitter is water resistant,
+moisture can have the effect of creating false signals, so you should take precautions to completely dry the
+
+transmitter after use to prolong battery life (estimated transmitter battery life is 2500 hours). The replacement
+battery is Panasonic CR2032.
+
+ERRATIC OPERATION
+
+Caution! Do not use this treadmill for Heart Rate unless a steady, solid Actual Heart Rate value is
+being displayed. High, wild, random numbers being displayed indicate a problem.
+
+Areas to look for interference which may cause erratic heart rate:
+
+1. Microwave ovens, TV's, small appliances, etc.
+
+2. Fluorescent lights.
+
+3. Some household security systems.
+
+4. Perimeter fence for a pet.
+
+5. Some people have problems with the transmitter picking up a signal from their skin. If you have problems
+try wearing the transmitter upside down. Normally the transmitter will be oriented so the SOLE logo is right
+side up.
+
+6. The antenna that picks up your heart rate is very sensitive. If there is an outside noise source, turning the
+whole machine 90 degrees may de-tune the interference.
+
+7. Loose treadmill console or bolts in the upright tube.
+
+8. Another Individual wearing a transmitter within 3’ of your machine’s console.
+
+If you continue to experience problems contact your dealer.
+WARNING! - DO NOT USE THE HEART RATE PROGRAM IF YOUR HEART RATE IS NOT REGISTERING
+PROPERLY ON THE TREADMILL’S DISPLAY!
+
+25 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 28 ===
+<!-- render-vs-extraction: 164 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+HEART RATE PROGRAMMING
+CAUTION!
+
+Heart Rate programs are intended for wireless transmitter chest strap. Do not use Pulse Grip
+bar for Heart Rate. You must receive a strong/steady value in the Heart Rate Window (See
+Using Heart Rate Transmitter section for instructions on how to use).
+
+The HR1 program has a default level that is 60% of your projected heart rate maximum. This
+program is geared for individuals with fat loss as a goal. The HR2 program has a default of 80%
+of your projected heart rate maximum. It is geared for individuals with a goal of improving
+cardiovascular & lung function.
+
+1. Select HR1 or HR2 via the Program keys.
+
+2. The Age Window will now be display showing user’s age. Adjust and press Enter or press
+Enter to accept the default value. Adjusting Age will change the Target HR value.
+
+3. The Weight Window will be displaying a value, showing the default user’s bodyweight for
+this program. You may adjust it and press Enter if you want or just press Enter to accept the
+default value.
+
+4. The Time Window will now be displaying a value. Adjust the time and press Enter.
+
+5. Now you are asked to adjust the HR1 or HR2 value. The default is 60% (HR1); (220 - age x .60);
+or 80% (HR2); (220 - age x .80). You may select a higher or lower number also. Adjust the
+number by pressing the Speed A/W keys (console or handrails) and press Enter to continue.
+
+6. Now you are finished editing the settings and can begin your workout by pressing the Start
+key. You can also go back and modify your settings by pressing the Stop key to go back one
+level, or screen.
+
+7. If you want to increase or decrease the speed at any time during the program press the
+Speed 4/V¥ (console or handrail) keys.
+
+8. During the HR program you will be able to show the data in the data window by pressing the
+Display key. When the program ends the data Window will show a summary of your workout.
+The summary will be displayed for a short time then the console will return to the start-up
+display.
+
+9. Press Start to begin program.
+
+The program will now control the treadmill Grade to steadily increase your heart rate to the tar-
+get value. This process is automatic and could take upwards of five minutes, depending on how
+far your HR needs to go and what kind of physical shape you are in. People who are more fit will
+take longer to reach the target. You can make manual adjustments to the speed throughout the
+program.
+
+TT8 TREADMILL 26
+
+
+=== OCR SUPPLEMENT, PDF PAGE 29 ===
+<!-- render-vs-extraction: 233 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+GENERAL MAINTENANCE
+
+BELT & DECK
+
+Your treadmill uses a very high-efficient and proprietary deck combination. Performance is
+maximized when the deck is kept as clean as possible. Use a soft, damp cloth, or paper towel,
+wipe the edge of the belt and the area between the belt edge and the frame. Also, reach as
+far as practical directly under the belt edge. This should be done once a month to extend belt
+and deck life. A mild soap and water solution along with a nylon scrub brush will clean the
+top of the textured belt. Allow drying before using.
+
+If the original side of the deck shows significant wear, it needs to be flipped. Contact your
+service technician for assistance.
+
+Do not apply any type of lubricant or wax to the surface.
+
+BELT DUST
+This occurs during normal break-in or until the belt stabilizes. Sometimes the black dust from
+the belt will appear on the floor behind the treadmill, this is normal.
+
+GENERAL CLEANING (Use the chart on Pg. 5 to record your maintenance)
+
+Dirt, dust, and hair can block air inlets and accumulate on the running belt. Please vacuum
+underneath your treadmill on a monthly basis to prevent excess build-up of dirt that can get
+sucked up and get into the inner workings under the motor cover. Every other month, you
+should remove the motor cover and carefully vacuum out dirt and hair that may accumulate.
+UNPLUG THE POWER CORD BEFORE THIS TASK.
+
+BELT ADJUSTMENTS
+
+Tread-belt Tension Adjustment - Belt tension is not critical for most users. It is very important
+though for joggers and runners in order to provide a smooth, steady running surface. Adjustment
+must be made from the rear roller with the M6 L Allen wrench (105) provided in the parts
+package. The adjustment bolts are located at the end of the step rails as shown in the diagram
+below. Note: Adjustment is through small hole in end cap.
+
+Tighten the rear roller only enough to prevent
+slippage at the front roller. Turn the tread-belt
+tension adjusting bolts 1/4 turn each and inspect
+for proper tension by walking on the belt and
+making sure it is not slipping or hesitating with
+each step. When an adjustment is made to the belt
+tension, you must be sure to turn the bolts on both | —= |@
+sides evenly or the belt could start tracking to one
+side instead of running in the middle of the deck.
+DO NOT OVERTIGHTEN - Over tightening will cause belt damage and premature bearing
+failure. If you tighten the belt a lot and it still slips, the problem could actually be the drive belt
+- located under the motor cover - that connects the motor to the front roller. If that belt is loose
+it feels similar to the walking belt being loose. Tightening the motor belt should be done by a
+trained service person.
+
+Note: Adjustment is through small hole in end cap.
+
+O| —-—.
+
+27 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 30 ===
+<!-- render-vs-extraction: 214 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+TREAD-BELT TRACKING ADJUSTMENT
+
+The treadmill is designed so that the tread-belt remains reasonably centered while in use. It is
+normal for some belts to drift near one side while in use, depending on a user’s gait and if they
+favor one leg. But if during use the belt continues to move toward one side, adjustments are
+necessary.
+
+SETTING TREAD-BELT TRACKING
+
+A 6mm Allen wrench (105) is provided for this
+
+adjustment. Make tracking adjustments on the left
+
+side bolt. Set belt speed at 3 mph. Be aware that a
+
+small adjustment can make a dramatic difference
+
+which may not be apparent right away. If the belt is Wa (O}
+
+too close to the left side, then turn the bolt only a
+1/4 turn to the right (clockwise) and wait a few
+minutes for the belt to adjust itself.
+
+Continue to make 1/4 turns until the belt stabilizes in the center of the running deck.
+
+If the belt is too close to the right side, turn the bolt counter-clockwise. The belt may require
+periodic tracking adjustment depending on use and walking/running characteristics. Some
+users may affect tracking differently. Expect to make adjustments as required to center the
+tread-belt. Adjustments will become less of a maintenance concern as the belt is used. Proper
+belt tracking is an owner responsibility common with all treadmills.
+
+ATTENTION:
+DAMAGE TO THE RUNNING BELT RESULTING FROM IMPROPER TRACKING / TENSION
+ADJUSTMENTS IS NOT COVERED UNDER THE SOLE WARRANTY.
+
+TREADMILL BELT
+
+The walking belt on your new Sole treadmill is made of the highest quality materials designed to
+last even under punishing conditions. When a treadmill belt is brand new, and has been in the
+package for a few months before use, a common occurrence can happen; the area of the belt
+that wraps around the rollers will take on the shape of the roller. Upon starting the treadmill this
+shape in the belt causes a thumping sound each time the belt moves past the rollers. Once the
+treadmill has been used for a few workouts, the belt wears in and the thumping sound goes
+away. This noise is normal on new higher end belts so there is no need to contact service; the
+new belt just requires a wear in period. Thank you for choosing Sole and enjoy your new
+treadmill.
+
+DECK MAINTENANCE
+If either of these two scenarios continues to occur: belt stops very quickly after the safety
+key is dislodged or the 15 amp fuse continues to blow,
+follow this procedure in order:
+1. Clean under the belt as described above under General Maintenance
+2. Check the belt to make sure the tension isn’ t too tight; adjust as necessary
+3. Call your service provider to have the deck flipped if it is on the original side.
+
+TT8 TREADMILL 28
+
+
+=== OCR SUPPLEMENT, PDF PAGE 31 ===
+<!-- render-vs-extraction: 191 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+SERVICE CHECKLIST - DIAGNOSIS GUIDE
+
+Before contacting your dealer for aid, please review the following information. It may save you
+both time and expense. This list includes common problems that may not be covered under the
+treadmill’s warranty.
+
+PROBLEM SOLUTION/CAUSE
+
+Display does not light 1. Tether cord not in position.
+2. Circuit breaker on front grill tripped.
+Push circuit breaker in until it locks.
+3. Plugis disconnected. Make sure plug is firmly
+pushed into AC household wall outlet.
+4. Household circuit breaker may be tripped.
+5. Treadmill defect. Contact your SOLE dealer.
+
+Tread-belt does not stay centered The user may be walking while favoring or putting
+
+Treadmill belt hesitates when more weight on either the left or right foot. If this
+walked/run on walking pattern is natural, track the belt slightly
+
+off-center to the side opposite from the belt
+movement. See General Maintenance section on
+Tread-belt Tension. Adjust as necessary.
+
+Motor is not responsive after 1. If the belt moves, but stops after a short time and
+pressing Start the display shows “E1% run calibration.
+2. If you press Start and the belt never moves, then
+the display shows “E1’, contact service.
+
+Treadmill will only achieve This indicates motor should be receiving power to
+approximately 7 mph but shows operate. Low AC voltage to ‘readmit Do not use an
+
+° . extension cord. If an extension cord is required it
+higher speed on display should be as short as possible and heavy duty 16
+gauge minimum. Low household voltage. Contact an
+electrician or your SOLE dealer. A minimum of 110 volt
+AC current is required.
+
+Tread-belt stops quickly/suddenly High belt/deck friction. See General Maintenance
+when tether cord is pulled section on lubrication.
+
+Treadmill trips on board 15 amp circuit High belt/deck friction. See General Maintenance
+Computer shuts off when console is Treadmill may not be grounded. Static electricity is
+touched (on a cold day) while “crashing” the computer. Refer to Grounding
+walking/running Instructions on page 3.
+
+House circuit breaker trips, but not Check that the treadmill is the only appliance in the
+the treadmill circuit breaker circuit. See “Important Electrical Information” in the
+
+front of this manual for more details.
+
+29 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 32 ===
+<!-- render-vs-extraction: 133 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+CALIBRATION PROCEDURE
+
+1. Remove the Safety Key.
+
+2. Press and hold down the Start and Speed a buttons and replace the Safety Key.
+Continue to hold the Start and Speed & key until the window displays “CALIBRATION MODE”.
+
+3. You will now be able to set the display to show Metric or English settings (Miles vs. Kilome-
+ters). To do this, press the Grade A/W key to show which you want.
+
+4. Grade return — On (This allows the grade to return to zero when Stop is pressed. For sale in
+Europe, EU standards require this to be off).
+
+5. Press Start to begin calibration. The process is automatic; the speed will start up without
+warning, so do not stand on the belt.
+
+MAINTENANCE MENU
+1. Press and hold the Start, Stop and Enter key at the same time and install safety key, until the display
+shows “Engineering Mode’ (it may say maintenance menu, depending on version). Press the Enter key.
+2. You can now scroll through the menu using the Speed 4/W keys. Use the Stop key to return to
+previous menu selection. The menu selections are:
+A. KEY TEST - Will allow you to test all the keys to make sure they are functioning
+B. Display Mode - Turn off to have the console power down automatically after 30 minutes of inactivity
+C. Pause Mode - Turned on to allow 5 minutes of pause, turn off to have console pause in definitely.
+D. LUBE MESSAGE RESET
+E. Key Tone - Will turn on/off beeping noise that is made when keys are pressed.
+F. CHILD LOCK - Allows you to lock the keypad so no unauthorized use of the machine is allowed. When the
+Child lock is enabled, the console will not allow the keypad to operate unless you press and hold the Start
+and Enter buttons for 3 seconds to unlock the console.
+
+TT8 TREADMILL 30
+
+
+=== OCR SUPPLEMENT, PDF PAGE 33 ===
+<!-- render-vs-extraction: 326 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+MANUFACTURER'S LIMITED WARRANTY
+
+TREADMILL WARRANTY
+Effective February 1,
+2019
+
+SOLE warrants all its treadmills’ parts, for a period of time listed below, from the date of retail sale, as determined by sale receipt, or in the absence of a
+receipt eighteen (18) months from the original factory shipping date. SOLE’ s responsibilities include providing new or remanufactured parts, at SOLE’
+s option, and technical support to our independent dealers and servicing organizations. In the absence of a dealer or service organization, these war-
+ranties will be administered by SOLE directly to a consumer. The warranty period applies to the following components:
+
+RESIDENTIAL LIGHT COMMERCIAL (5 Hours or less use per day)
+Frame Lifetime Frame Lifetime
+Drive Motor Lifetime Drive Motor 5 Years
+Parts 5 Years Parts 3 Years
+Labor 2 Year Labor 1 Year
+
+*Cosmetic items including, but not limited to the following: grips, console overlays, and labels/decals.
+
+NORMAL RESPONSIBILITIES OF THE CONSUMER
+
+This warranty applies only to products in ordinary household use, and the consumer is responsible for the items listed below:
+
+1. The warranty registration card must be completed and returned to the address listed on the card within 10 days of the original purchase to
+validate the manufacturer's limited warranty.
+
+2. Proper use of the treadmill in accordance with the instructions provided in this manual, including belt tracking.
+
+3. Proper installation in accordance with instructions provided with the treadmill and with all local electric codes.
+
+4. Proper connection to a grounded power supply of sufficient voltage, replacement of blown fuses, repair of loose connections or defects in house
+wiring.
+
+5. Expenses for making the treadmill accessible for servicing, including any item that was not part of the treadmill at the time it was shipped from
+the factory.
+
+6. Damages to the treadmill finish during shipping, installation or following installation.
+
+7. Routine maintenance of this unit as specified in this manual.
+
+EXCLUSIONS
+
+This warranty does not cover the following:
+
+1. CONSEQUENTIAL, COLLATERAL, OR INCIDENTAL DAMAGES SUCH AS PROPERTY DAMAGE AND INCIDENTAL EXPENSES
+RESULTING FROM ANY BREACH OF THIS WRITTEN OR ANY IMPLIED WARRANTY.
+
+Note: Some states do not allow the exclusion or limitation of incidental or consequential damages, so this limitation or exclusion may not apply to you.
+
+2. Service call reimbursement to the consumer. Service call reimbursement to the dealer that does not involve malfunction or defects in
+workmanship or material, for units that are beyond the warranty period, for units that are beyond the service call reimbursement period, for
+treadmill not requiring component replacement, or treadmill not in ordinary household use.
+
+3. Damages caused by services performed by persons other than authorized SOLE service companies; use of parts other than original SOLE parts;
+or external causes such as corrosion, discoloration of paint or plastic, alterations, modifications, abuse, misuse, accident, improper maintenance,
+inadequate power supply, or acts of God.
+
+4. Products with original serial numbers that have been removed or altered.
+
+5. Products that have been: sold, transferred, bartered, or given to a third party.
+
+6. Products that do not have a warranty registration card on file at SOLE. SOLE reserves the right to request proof of purchase if no warranty record
+exists for the product.
+
+7. THISWARRANTY IS EXPRESSLY IN LIEU OF ALL OTHER WARRANTIES EXPRESSED OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY
+AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+
+8. Product use in any environment other than a residential setting.
+
+9. Warranties outside of North America may vary. Please contact your local dealer for details.
+
+SERVICE
+
+Keep your bill of sale. Twelve (12) months from the date on the bill of sale or eighteen (18) months from the date of factory shipping as determined
+
+by the serial number establishes the labor warranty period should service be required. If service is performed, it is in your best interest to obtain and
+
+keep all receipts. This written warranty gives you specific legal rights. You may also have other rights that vary from state to state. Service under this
+warranty must be obtained by following these steps, in order:
+
+1. Contact your selling authorized SOLE dealer. OR
+
+2. Submit all service requests including serial number, contact information and a brief description of the problem online at
+http://www.soletreadmills.com/serviceparts.html.
+
+3. If you have any questions about your new product or questions about the warranty contact SOLE Fitness at 1-866-780-SOLE (7653). If you have a
+technical problem with your new treadmill contact SOLE technical service at 866-MYSOLE1 (697-6531).
+
+4. — If no local service is available, SOLE will repair or replace the parts, at SOLE's option, within the warranty period at no charge for parts. All
+transportation costs, both to our factory and upon return to the owner, are the responsibility of the owner. The owner is responsible for
+adequate packaging upon return to SOLE. SOLE is not responsible for damages that occur during shipping. Make all freight damage claims with
+the appropriate freight carrier. DO NOT SHIP ANY UNIT TO OUR FACTORY WITHOUT A RETURN AUTHORIZATION NUMBER. All units arriving with-
+out a return authorization number will be refused.
+
+5. For any further information, or to contact our service department by mail, send your correspondence to:
+
+SOLE Fitness
+P.O. Box 2037
+Jonesboro, AR 72402-2037
+
+Product features or specifications as described or illustrated are subject to change without notice. All warranties are made by SOLE.
+
+31 TT8 TREADMILL
+
+
+=== OCR SUPPLEMENT, PDF PAGE 34 ===
+<!-- render-vs-extraction: 31 words the text layer does not have; tesseract --psm 4 at 300 dpi -->
+Before returning your Sole product to any retailer, or if you require any
+assistance with assembly or technical support please call us first for
+assistance at 866-697-6531. Thank you for your Sole purchase.
+
+TT8 TREADMILL 32

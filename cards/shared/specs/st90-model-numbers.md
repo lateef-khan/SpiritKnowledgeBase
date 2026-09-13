@@ -30,6 +30,7 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '590820'
   - '590822'
   lookup: model-numbers
 authority: 3
@@ -40,15 +41,15 @@ see_also:
 - st90-2023-model-number
 source:
   ref: custservice-model-numbers
-  locator: row st90-2023; no row for st90, st90-2020, st90-2021
+  locator: rows st90-2020 to st90-2023 (590820 shared by st90-2020/st90-2021 per 2026-09-08 decision); no row for st90
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
 | — | not confirmed | st90 |
-| 2020 | not confirmed | st90-2020 |
-| 2021 | not confirmed | st90-2021 |
+| 2020 | 590820 | st90-2020 |
+| 2021 | 590820 | st90-2021 |
 | 2023 | 590822 | st90-2023 |
 
 The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one. A row reading *not confirmed* has no settled number yet.
