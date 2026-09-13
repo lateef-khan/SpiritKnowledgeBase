@@ -2,7 +2,7 @@
 id: sr500-2016-workout-mode-list
 title: The workout modes and the order they appear in
 kind: fact
-question: What workout programs does a Sole sr500-2016 rower have?
+question: What workout programs does a Sole rower have?
 asked_as:
 - what programs does my sole rower have
 - list of workouts on an sr500
@@ -21,13 +21,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: '*'
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

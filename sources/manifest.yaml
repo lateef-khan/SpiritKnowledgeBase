@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: 91a0e563d831ed83e67fd09bce5c87225e7f36b094a70715a4f6628dd2203918
+  sha256: 3ddd75199b796b53ca3682655964c74cad1fa0cc13ab7eacc4b615730da3af71
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -301,6 +301,30 @@
   origin_uri: file://C80(2026)_TK700-SK001_SM_US_V1.0.pdf
   sha256: 4efba5ed00bef30aca846efb9038dc67c3f3c26a721603886901c34937018ea9
   ingested_at: '2026-09-04'
+- id: sole-cl-cc81-2019-owners-manual
+  title: Sole CC81 2019 owner's manual (581519)
+  kind: pdf
+  origin_uri: file://SOLE CC81 2019 Owners Manual (581519).pdf
+  sha256: f761db95ff47bfcce13856e31753b3f6ba2e299f23fbab2fdb8c63eea5d473db
+  ingested_at: '2026-09-12'
+- id: sole-cl-sc200-2016-owners-manual
+  title: Sole SC200 2016 owner's manual (520516)
+  kind: pdf
+  origin_uri: file://SOLE SC200 2016 Owners Manual (520516).pdf
+  sha256: 0eab84abce537f20aa76f26063b2903c8a93a2dc23880c605981fbb136223a62
+  ingested_at: '2026-09-12'
+- id: sole-cl-sc200-2017-owners-manual
+  title: Sole SC200 2017 owner's manual (520517)
+  kind: pdf
+  origin_uri: file://SOLE SC200 2017 Owners Manual (520517).pdf
+  sha256: 8c5f20a4c373ca3db2719ebb81847300f5aa6626d0b0ecc6c0f890819a746bf8
+  ingested_at: '2026-09-12'
+- id: sole-cl-sc300-2017-owners-manual
+  title: Sole SC300 2017 owner's manual (530517)
+  kind: pdf
+  origin_uri: file://SOLE SC300 2017 Owners Manual (530517).pdf
+  sha256: 010b5756db5707ae81fcded8a11303faec1bec42da942bcb92e1dc5b4361211a
+  ingested_at: '2026-09-12'
 - id: sole-climber-cc81-2020-service-manual
   title: Sole CC81 2020 climber service manual (XS500-YP002)
   kind: pdf
@@ -324,12 +348,6 @@
   kind: pdf
   origin_uri: file://SOLE AE55 AE95 2011 Owners Manual (555010, 595010).pdf
   sha256: 62578fd8ca8ed076c6ef041116d8cb9b86a4faadd78de5fbb3ab3b96a2292045
-  ingested_at: '2026-09-12'
-- id: sole-el-e98-2011-owners-manual
-  title: Sole E98 2011 owner's manual (598010) — the book names E98 throughout, never AE98
-  kind: pdf
-  origin_uri: file://SOLE AE98 2011 Owners Manual (598010).pdf
-  sha256: a260c27385c126bfa8c19b3932325fdb097edb244cf07fe36886b86ea84e8db7
   ingested_at: '2026-09-12'
 - id: sole-el-e20-2016-owners-manual
   title: Sole E20 2016 owner's manual (520016)
@@ -369,6 +387,13 @@
   origin_uri: file://SOLE E25 2023 Owners Manual (525022).pdf
   sha256: e8e8292a91cb288e37edfeb8b11f375ca722ece568828d566a45d9f8f72b4c36
   ingested_at: '2026-09-12'
+- id: sole-el-e25-e55-2007-owners-manual
+  title: Sole E25/E55 2007 owner's manual (525081, 555081, 555086) — the book names
+    E25/E55 throughout, never UE25/UE55
+  kind: pdf
+  origin_uri: file://SOLE UE25 UE55 E55 2007 Owners Manual (525081, 555081, 555086).pdf
+  sha256: 607de3ee4c0f36de2ff620b2f29e7ea998f08e366531117c9c1085bcb5508e2d
+  ingested_at: '2026-09-12'
 - id: sole-el-e35-2016-owners-manual
   title: Sole E35 2016 owner's manual (535016)
   kind: pdf
@@ -386,6 +411,13 @@
   kind: pdf
   origin_uri: file://SOLE E35 2023 Owners Manual (535022).pdf
   sha256: 1becf012d23c1b564f24f1741008f7ca321883d9f1f96a904b229ed8e84ca5bb
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-e75-e95-2007-owners-manual
+  title: Sole E35/E75/E95 2007 owner's manual (535081, 575081, 595081) — the book
+    names E35/E75/E95 throughout, never UE35/UE75/UE95
+  kind: pdf
+  origin_uri: file://SOLE UE35 UE75 UE95 2007 Owners Manual (535081, 575081, 595081).pdf
+  sha256: 1207f811ef8f1af24fc4f882c415229d4063e0b5eea50ba72a0725f678b39e23
   ingested_at: '2026-09-12'
 - id: sole-el-e35-e95-2012-2015-owners-manual
   title: Sole E35/E95 2012-2015 owner's manual (535012, 535013, 535014, 535015, 595012,
@@ -449,6 +481,13 @@
   origin_uri: file://SOLE E95s 2023 Owners Manual (595622).pdf
   sha256: 6ea7c857f8ecb5e188427d553320a48955e91a491e8194c1b804882dfd36089d
   ingested_at: '2026-09-12'
+- id: sole-el-e98-2011-owners-manual
+  title: Sole E98 2011 owner's manual (598010) — the book names E98 throughout, never
+    AE98
+  kind: pdf
+  origin_uri: file://SOLE AE98 2011 Owners Manual (598010).pdf
+  sha256: a260c27385c126bfa8c19b3932325fdb097edb244cf07fe36886b86ea84e8db7
+  ingested_at: '2026-09-12'
 - id: sole-el-e98-2013-owners-manual
   title: Sole E98 2013 owner's manual (598012)
   kind: pdf
@@ -472,18 +511,6 @@
   kind: pdf
   origin_uri: file://SOLE E98 2023 Owners Manual (598022).pdf
   sha256: 81ce9cd50a73a4b4f6dd2f48766c45160a46ac1c6f629eda68ee3e1c4053f515
-  ingested_at: '2026-09-12'
-- id: sole-el-e25-e55-2007-owners-manual
-  title: Sole E25/E55 2007 owner's manual (525081, 555081, 555086) — the book names E25/E55 throughout, never UE25/UE55
-  kind: pdf
-  origin_uri: file://SOLE UE25 UE55 E55 2007 Owners Manual (525081, 555081, 555086).pdf
-  sha256: 607de3ee4c0f36de2ff620b2f29e7ea998f08e366531117c9c1085bcb5508e2d
-  ingested_at: '2026-09-12'
-- id: sole-el-e35-e75-e95-2007-owners-manual
-  title: Sole E35/E75/E95 2007 owner's manual (535081, 575081, 595081) — the book names E35/E75/E95 throughout, never UE35/UE75/UE95
-  kind: pdf
-  origin_uri: file://SOLE UE35 UE75 UE95 2007 Owners Manual (535081, 575081, 595081).pdf
-  sha256: 1207f811ef8f1af24fc4f882c415229d4063e0b5eea50ba72a0725f678b39e23
   ingested_at: '2026-09-12'
 - id: sole-el-ve25-ve55-2008-owners-manual
   title: Sole VE25/VE55 2008 owner's manual (525087, 555087)
@@ -745,6 +772,30 @@
   origin_uri: file://Rower Resistance Changes by Itself.docx
   sha256: 3f1588d6f90b440ac0218df69d365e1a7ba6e383693240dc7211e3986d83a0f4
   ingested_at: '2026-09-04'
+- id: sole-rw-sr400-owners-manual
+  title: Sole SR400 owner's manual
+  kind: pdf
+  origin_uri: file://SOLE SR400 Owners Manual.pdf
+  sha256: 0c0c7c35afe208bfcc3280c9c5a6826bd552890d9599c7eeb791e51f84366707
+  ingested_at: '2026-09-12'
+- id: sole-rw-sr500-2019-owners-manual
+  title: Sole SR500 2019 owner's manual (500918)
+  kind: pdf
+  origin_uri: file://SOLE SR500 2019 Owners Manual (500918).pdf
+  sha256: 8c1f06c26581bca6cebf2d0b7db0fa97dc93bc57dc5ea290dd6750cf801434b3
+  ingested_at: '2026-09-12'
+- id: sole-rw-sr500-2022-owners-manual
+  title: Sole SR500 2022 owner's manual (500911)
+  kind: pdf
+  origin_uri: file://SOLE SR500 2022 Owners Manual (500911).pdf
+  sha256: 133e44ebc8a6c47cae292ef1869ce06d46e5c7fa90469f7392e66b1b55e02168
+  ingested_at: '2026-09-12'
+- id: sole-rw-sr550-2023-owners-manual
+  title: Sole SR550 2023 owner's manual (555922)
+  kind: pdf
+  origin_uri: file://SOLE SR550 2023 Owners Manual (555922).pdf
+  sha256: a2a44044e9eba9953a41e7755139fd37a1779f9b94d3e5df83f7d65cdb22fdf7
+  ingested_at: '2026-09-12'
 - id: sole-rw-various-noises-on-rowers
   title: Various Noises on Rowers
   kind: markdown
@@ -775,6 +826,18 @@
   origin_uri: file://Cables Not Retracting.docx
   sha256: 9b9d852a1afe67d6d0b4436fa96f43846566f37a13f3e2639909d8bc8be69fac
   ingested_at: '2026-09-03'
+- id: sole-srvo-complete-owners-manual
+  title: Sole SRVO Complete owner's manual (578712)
+  kind: pdf
+  origin_uri: file://SOLE SRVO Complete Owners Manual (578712).pdf
+  sha256: bac0dbd99cec277e59f605c350c98318f84e6259ccffcdeea40753e48e7d8131
+  ingested_at: '2026-09-12'
+- id: sole-srvo-owners-manual
+  title: Sole SRVO owner's manual (578722)
+  kind: pdf
+  origin_uri: file://SOLE SRVO Owners Manual (578722).pdf
+  sha256: 1a0e3b25e821d2fd95a1db9ab373b6faf868b26cae3dba43c803e0c8295e251f
+  ingested_at: '2026-09-12'
 - id: sole-srvo-seminar
   title: SOLE SRVO seminar (USA version)
   kind: pdf
@@ -787,6 +850,30 @@
   origin_uri: file://SOLE SRVO Service Manual (578712, 578722).pdf
   sha256: aab1e3e94bceaaeb6d8b83f9687454b70feb1fa8c96bdff90e89a326db65d31e
   ingested_at: '2026-09-04'
+- id: sole-sw-sw100-2023-owners-manual
+  title: Sole SW100 2023 owner's manual
+  kind: pdf
+  origin_uri: file://SOLE SW100 2023 Owners Manual.pdf
+  sha256: fcfd04060cd14128a40f49e74e45a2657e41aaa2cf4fe8bd2ab0e3052597af80
+  ingested_at: '2026-09-12'
+- id: sole-sw-sw121-2023-owners-manual
+  title: Sole SW121 2023 owner's manual
+  kind: pdf
+  origin_uri: file://SOLE SW121 2023 Owners Manual.pdf
+  sha256: 3e18c6a09804b0de1ffbb4b4116290356e92fb5bffa47fd48e95df17db761b4b
+  ingested_at: '2026-09-12'
+- id: sole-sw-sw155-2023-owners-manual
+  title: Sole SW155 2023 owner's manual
+  kind: pdf
+  origin_uri: file://SOLE SW155 2023 Owners Manual.pdf
+  sha256: a578f0f9f6919f3fe5336db8131a6b7ed5e50409c378422686e5ff51cd1ae034
+  ingested_at: '2026-09-12'
+- id: sole-sw-sw180-2023-owners-manual
+  title: Sole SW180 2023 owner's manual
+  kind: pdf
+  origin_uri: file://SOLE SW180 2023 Owners Manual.pdf
+  sha256: 136f56f27fd0cdaf898a94990f9e1e861d7af2f92991cc3b8252bc98a0231bd0
+  ingested_at: '2026-09-12'
 - id: sole-tm-2026-controller-braking-resistor-install
   title: SOLE 2026 series treadmill new controller and braking resistor installation
     guide

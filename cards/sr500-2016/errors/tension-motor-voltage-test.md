@@ -26,8 +26,6 @@ facets:
   - sr500-2016
   section: errors
   code: e2
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

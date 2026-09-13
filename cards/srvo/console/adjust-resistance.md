@@ -21,9 +21,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: "*"
   applies_to:
   - srvo
+  - srvo-2021
   section: console
   code: '*'
 authority: 3
@@ -46,6 +47,8 @@ source:
 You cannot switch modes or change the weight while resistance is active. That is
 a safety rule, not a fault. Press start/stop to release the resistance first; the
 number starts flashing again.
+
+The SRVO owner book prints the same steps: a flashing number means adjustable, the knob turns right/left to set the weight, start/stop engages it, and no mode or weight change is possible while resistance is active.
 
 In Isokinetic mode (Mode 3) the knob picks slow (0) or fast (1) instead of a
 weight.

@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: safety
   code: '*'
 authority: 3
@@ -47,6 +48,8 @@ Static safety releases the weight to a minimum when the cable is held at the sam
 position for **ten seconds**. The app describes the same feature as dropping
 resistance to minimum and pausing the workout until you are ready to start a new
 set.
+
+The SRVO-2021 owner's book (PDF p. 6, text.md lines 382-384) prints the same feature with figures: holding the cable 10 seconds releases all weight, and the cable retracts on minimum force 5 seconds later, with the hold time adjustable through the SOLE+ app.
 
 **The time and the percentage of weight reduction are adjustable in the app.**
 The app screen also carries a "Retract After" delay and an on/off toggle that the

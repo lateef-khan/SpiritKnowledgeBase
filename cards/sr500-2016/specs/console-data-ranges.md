@@ -27,8 +27,6 @@ facets:
   - sr500-2016
   section: specs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

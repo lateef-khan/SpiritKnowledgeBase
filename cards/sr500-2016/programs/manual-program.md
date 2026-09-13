@@ -2,7 +2,7 @@
 id: sr500-2016-manual-program
 title: Manual program
 kind: procedure
-question: How does the Manual program work on a Sole sr500-2016 rower?
+question: How does the Manual program work on a Sole rower?
 asked_as:
 - how do i just start rowing on my sole rower
 - manual mode on an sr500
@@ -19,13 +19,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: '*'
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

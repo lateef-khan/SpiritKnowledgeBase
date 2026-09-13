@@ -19,9 +19,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: "*"
   applies_to:
   - srvo
+  - srvo-2021
   section: console
   code: '*'
 authority: 3
@@ -45,3 +46,5 @@ The SRVO Strength Trainer can be controlled three ways:
 On every one of them, a **flashing** number on the weight display means the SRVO
 is in an adjustable state. A number that stays lit means resistance is active and
 you cannot change mode or weight.
+
+The SRVO owner book shows the same three: the control panel, the wireless switch, and the SOLE+ app.

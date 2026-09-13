@@ -21,13 +21,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: safety
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -39,5 +38,7 @@ source:
 ---
 
 **WARNING:** This product can expose you to chemicals including **Toluene and Acrylamide**, which are known to the State of California to cause **Cancer and birth defects or other reproductive harm**. For more information, go to www.P65Warnings.ca.gov
+
+The CC81-2019 book (the CC81-2020 machine) prints the same notice on its contents page (PDF p. 2, OCR supplement, text.md lines 303-306).
 
 **How this was read.** The manual draws its body text as outlined glyphs, so `pdftotext` dropped page 2 entirely, so this warning was missing before. This card was read from the rendered page image.

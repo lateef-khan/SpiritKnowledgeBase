@@ -1,6 +1,6 @@
 ---
 id: sole-elliptical-errors-no-error-codes-printed
-title: Forty-nine Sole elliptical models' owner's manuals print no error code
+title: Fifty-two Sole elliptical models' owner's manuals print no error code
 kind: fact
 question: Does the owner's manual list any error codes for a legacy Sole elliptical?
 asked_as:
@@ -57,8 +57,10 @@ facets:
   - e95-2023
   - e95s-2023
   - e98-2011
-  - e98-2013
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   - ve25-2007
   - ve35-2007
   - ve55-2007
@@ -86,7 +88,13 @@ source:
     wave-B books: loose-word search for error, fault, calibration and maintenance
     menu; dashless E3 variants; every supplement page counted against the PDF page
     count (no unsupplemented page); the six E-3 calibration pages read on the PDF
-    render. The 2009-2010 E55/E95 book names an incline/ramp error with no code number.'
+    render. The 2009-2010 E55/E95 book names an incline/ramp error with no code number.
+    Wave C adds the SC200-2016 (fully native 23-page book), SC200-2019 (2017 stencil
+    book, 23 of 24 pages supplemented; page 24 is blank, read on the render) and
+    SC300-2017 (2017 stencil book, 23 of 24 pages supplemented; page 24 is blank,
+    read on the render) owner books: same loose-word plus spacing-tolerant search
+    for E1/E2 finds only the maintenance/diagnostic software menu and one step-height
+    calibration paragraph (SC300), no codes and no troubleshooting chapter.'
   extracted_at: '2026-09-12'
 ---
 
@@ -94,8 +102,8 @@ source:
 
 What each group prints instead:
 
-- Maintenance menu plus an incline-calibration paragraph, no code: AE25/AE35/AE55/AE95-2011, E20/E25-2013/2014/2015, E35/E95-2013/2014/2015, E55-2014, E25/E35/E55-2016, E25/E35/E55-2019, E25-2023, E98-2011, E98-2013, WE25/WE35-2009/2010.
-- Maintenance menu with no calibration paragraph and no codes: E20-2016, E20-2020, VE25/VE55/VE35/VE95-2007.
+- Maintenance menu plus an incline-calibration paragraph, no code: AE25/AE35/AE55/AE95-2011, E20/E25-2013/2014/2015, E35/E95-2013/2014/2015, E55-2014, E25/E35/E55-2016, E25/E35/E55-2019, E25-2023, E98-2011, E98-2013, WE25/WE35-2009/2010, SC300-2017 (its calibration paragraph is step-height, not incline).
+- Maintenance menu with no calibration paragraph and no codes: E20-2016, E20-2020, VE25/VE55/VE35/VE95-2007, SC200-2016, SC200-2019.
 - No maintenance menu at all: E35/E95/E95s/E98-2023, E25-2007, E55-2006, E35/E75/E95-2007.
 - An incline/ramp error with no code number: WE55/WE95-2009/2010 (`sole-elliptical-errors-incline-ramp-error-recalibrate`).
 

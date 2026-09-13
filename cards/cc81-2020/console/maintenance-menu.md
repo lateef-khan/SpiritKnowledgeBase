@@ -33,6 +33,7 @@ not_to_be_confused_with: []
 see_also:
 - cc81-2020-console-modes
 - cc81-2020-console-buttons
+- sole-cc81-power-up-lifetime-totals-ver
 source:
   ref: sole-climber-cc81-2020-service-manual
   locator: "Section 7-6, Maintenance menu in console software"
@@ -43,6 +44,10 @@ source:
 2. Press and hold the **Start, Stop and Enter** keys together.
 3. Keep holding for about **5 seconds**. The Message Center shows **Maintenance Mode**.
 4. Press **Enter** to open the menu.
+
+**The owner's book reads slightly differently.** It says to hold Start, Stop and Enter for about **2 seconds** (not 5), the Message Window shows **"Engineering Mode"**, and its menu has no Security or Service items: after Key Test, Display Test and Functions (ODO Reset, Units, Display Mode, Motor Test, Manual stepping, Pause Mode, Key Tone) it lists only **Factory Set** and **Exit**.
+
+**Ruling.** For entry follow the owner's book: hold the three keys about 2 seconds and look for the "Engineering Mode" prompt. The Service submenu (motor, Csafe and sensor tests) is documented only in the service manual.
 
 **The menu**
 

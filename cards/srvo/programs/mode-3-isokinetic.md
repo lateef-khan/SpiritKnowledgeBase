@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: programs
   code: '*'
 authority: 3

@@ -58,6 +58,9 @@ facets:
   - e98-2013
   - e98-2015
   - e98-2019
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   section: warranty
   code: '*'
 authority: 3
@@ -69,7 +72,10 @@ see_also:
 source:
   ref: sole-el-e20-e25-2012-2015-owners-manual
   locator: e20-e25-2012-2015-owners-manual PDF p. 30, text.md L1129-1149; ae55-ae95-2011-owners-manual
-    PDF p. 28, text.md L1054-1074; e20-2016-owners-manual PDF p. 22, text.md L1007-1042
+    PDF p. 28, text.md L1054-1074; e20-2016-owners-manual PDF p. 22, text.md L1007-1042;
+    sc200-2016-owners-manual PDF p. 19 (printed 19), text.md L772-790; sc200-2017-owners-manual
+    (evidence for the SC200-2019) PDF p. 20 (printed 20), text.md L1058-1087; sc300-2017-owners-manual
+    PDF p. 20 (printed 20), text.md L1124-1153
   extracted_at: '2026-09-12'
 ---
 
@@ -85,4 +91,4 @@ This warranty does not cover:
 8. Use **outside a residential setting**.
 9. Warranties **outside North America** vary — contact the local dealer.
 
-Same nine items, same order, in every book listed. The treadmill twin reads "treadmill" where this card reads "elliptical" and is otherwise the same list: `sole-treadmill-warranty-exclusions-9-item-residential`. The older seven-item list is `sole-elliptical-warranty-exclusions-7-item-2005-2010`.
+Same nine items, same order, in every book listed. The SC200-2016, SC200-2017 and SC300-2017 climber books print the same nine items reading "climber" for "elliptical" — and in item 2 "fitness bike not requiring component replacement, or fitness bike not in ordinary household use" (sic, carded as printed). The treadmill twin reads "treadmill" where this card reads "elliptical" and is otherwise the same list: `sole-treadmill-warranty-exclusions-9-item-residential`. The older seven-item list is `sole-elliptical-warranty-exclusions-7-item-2005-2010`.

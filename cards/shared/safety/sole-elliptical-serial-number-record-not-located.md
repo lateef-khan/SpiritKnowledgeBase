@@ -69,6 +69,9 @@ facets:
   - e98-2015
   - e98-2019
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   - ve25-2007
   - ve35-2007
   - ve55-2007
@@ -94,4 +97,4 @@ source:
 
 Every B book says **RECORD YOUR SERIAL NUMBER** with a blank, asks for the dealer name, phone and purchase date, and wants the registration card completed, mailed or registered online (soleellipticals.com in the stencil books, soletreadmills.com in the natives). Service requests must include the serial number, and an altered or removed serial voids warranty coverage.
 
-None of the 32 books says where the serial number is on the machine - no decal, plate, frame or console location is ever named, in native text or the OCR supplements. Registration and warranty terms themselves belong to the warranty section.
+None of the 35 books says where the serial number is on the machine - no decal, plate, frame or console location is ever named, in native text or the OCR supplements. Registration and warranty terms themselves belong to the warranty section. The three C-wave climber books print the same record blank with dealer and date fields and soletreadmills.com online registration (SC200-2016 text.md lines 113-123; SC200-2017 book lines 190-198; SC300-2017 book lines 219-227); no on-machine location is named on any registration or safety page.

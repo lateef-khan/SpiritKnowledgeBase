@@ -22,9 +22,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: errors
   code: '*'
 authority: 3
@@ -34,7 +35,7 @@ see_also:
 - srvo-parts-replacement-policy
 source:
   ref: sole-srvo-seminar
-  locator: PDF page 46
+  locator: PDF page 46 (same steps in the owner's book, sole-srvo-owners-manual PDF page 11, Diagnosis Guide item 5)
   extracted_at: '2026-09-03'
 ---
 
