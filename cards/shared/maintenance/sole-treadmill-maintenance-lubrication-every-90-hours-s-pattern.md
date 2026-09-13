@@ -30,8 +30,17 @@ facets:
   - f65-2013
   - f65-2014
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   section: maintenance
   code: '*'
 authority: 3
@@ -43,7 +52,7 @@ see_also:
 - sole-treadmill-console-maintenance-menu-display-mode-lube-reset
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
-  locator: 'PDF p.28 (lines 1039-1086), BELT/DECK LUBRICATION. Same text: sole-tm-f60-2012-2014-owners-manual
+  locator: 'PDF p.28 (lines 1039-1086), BELT/DECK LUBRICATION. Same text: sole-tm-f60-2012-2014-owners-manual A2 same-schedule books: sole-tm-f80-2016, sole-tm-f80-2019, sole-tm-f85-2016, sole-tm-f85-2019, sole-tm-f85-2021 (also covering f85-2020, one SKU), sole-tm-s77-2016, sole-tm-s77-2019, sole-tm-td80-2019 (BELT/DECK LUBRICATION, every 90 hours).
     PDF p.27; sole-tm-f60-2016-owners-manual PDF p.21 (lines 677-715); sole-tm-f65-2013-2014-owners-manual
     PDF p.28 (lines 1135-1182); sole-tm-f80-f85-2013-owners-manual PDF p.29 (lines
     1083-1130); sole-tm-s77-2013-owners-manual PDF p.28 (lines 1086-1133).'
@@ -66,3 +75,5 @@ First clean between the belt and deck: with a clean non-fraying rag, t-shirt or 
 The F60-2016 printing of this same procedure names **"FUEL Fitness approved lubricant"** and tells you to contact FUEL Fitness. That is stale sibling-brand boilerplate in an otherwise Sole book (Sole cover, Sole safety pages, Sole warranty); the card follows the book's own Sole identity and the procedure, which matches the other books word for word.
 
 The service manual for the F60-2016 prints a different schedule (half a bottle after 25 hours, then every 50 hours); see `f60-2016-belt-deck-lubrication`. This card follows the owner's manual. The TT9-2018 chart repeats this 90-hour rule but its deck is wax-coated and must not be lubricated; see the wax-deck card.
+
+Two stencil printings of this same 90-hour schedule differ in the details. The **F85-2020/2021 touchscreen** books keep the schedule and the S-pattern steps but print no lube-message reset in the maintenance chapter (no engineering-menu reset; the reset lives in the console menus). The **TD80-2019** printing names **100% silicone treadmill lubricant**, orders tubes from **Dyaco Canada Inc.**, and likewise prints no reset step. This card otherwise follows the books word for word; the 2023 generation adds a 90-day trigger and has its own card.

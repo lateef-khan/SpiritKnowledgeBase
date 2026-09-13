@@ -37,7 +37,7 @@ see_also:
 - sole-sleep-mode-2023-f63-f65
 source:
   ref: sole-tm-f65-2023-service-manual
-  locator: Section 8.11 Maintenance Menu, page 35
+  locator: Section 8.11 Maintenance Menu, page 35; sole-tm-f65-2023-owners-manual PDF p. 32
   extracted_at: '2026-09-04'
 ---
 
@@ -64,3 +64,5 @@ at the same time. Both are printed in the same manual.
 
 **Sleep timing.** The 30 minutes here is the manual's figure. The 2023 touchscreen manuals give 15 minutes for
 their own Sleep Mode, and the company-wide sleep mode cards say 15 to 30 minutes.
+
+Contradiction ruled: the service manual's Functions > Display Mode says 30 minutes, but the owners book's Functions > Sleep Mode says 15 minutes. The card follows the owners book for what the customer sees (consistent with the book's own sleep chapter); both readings stand.

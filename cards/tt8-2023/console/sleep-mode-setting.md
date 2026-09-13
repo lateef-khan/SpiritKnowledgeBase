@@ -34,7 +34,7 @@ see_also:
 - tt8-2023-safety-key-message
 source:
   ref: sole-tm-tt8-2023-service-manual
-  locator: Section 4.5, 3) Sleep Mode, page 15 of 69
+  locator: Section 4.5, 3) Sleep Mode, page 15 of 69; sole-tm-tt8-2023-owners-manual PDF p. 13
   extracted_at: '2026-09-04'
 ---
 
@@ -50,3 +50,5 @@ Sleep Mode changes what removing the SAFETY KEY does. **Default: OFF.**
 
 This is a different setting from **Display Mode** in engineering mode, which controls a **30 minute**
 power-down. Both exist on this machine.
+
+The owners book adds a third choice, RETAIL: the console runs a demo video after 3 minutes of inactivity.

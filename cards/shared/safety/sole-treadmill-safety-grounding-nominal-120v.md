@@ -24,11 +24,22 @@ facets:
   applies_to:
   - f63-2006
   - f80-2006
+  - f80-2023
   - f83-2006
   - f85-2006
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
+  - tt8-2021
+  - tt8-2023
   - uf63-2006
   - uf80-2006
   - uf83-2006
@@ -56,10 +67,12 @@ see_also:
 - f63-2016-grounding-requirements
 source:
   ref: sole-tm-vf63-2008-owners-manual
-  locator: Grounding Instructions, PDF p. 5 (p. 4 in the 2006-family books)
+  locator: Grounding Instructions, PDF p. 5 (p. 4 in the 2006-family books) - A2 same page, Grounding Instructions PDF p. 5, in the eleven 120-volt books.
   extracted_at: '2026-09-12'
 ---
 
 The 2006-family books, the 2007 printings and the WTT8 books print the same grounding page as the rest of the wave except for one figure: **this product is for use on a nominal 120-volt circuit**. Everything else matches word for word - the equipment-grounding plug into a properly installed outlet meeting all local codes, the DANGER paragraph on improper connection, no plug modification, and the temporary adapter to a 2-pole receptacle (green rigid ear lug to a permanent ground such as a grounded outlet-box cover, held by a metal screw, only until a qualified electrician installs a proper outlet).
 
 The 2009-and-later books for most other models name a nominal 110-volt circuit and have their own card.
+
+Ten of the eleven 120-volt A2 machines print the same page with `a nominal 120-volt circuit` word for word; the TD80-2019 book instead reads `for use on a nominal 120 volt/15 amp circuit`. This card follows the ten-book wording and notes the TD80 figure here.

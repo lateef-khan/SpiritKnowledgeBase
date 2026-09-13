@@ -33,18 +33,39 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2023
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2023
   - tt8c-2011
   - uf80-2006
   - uf83-2006
@@ -92,7 +113,7 @@ source:
     PDF p.21; sole-tm-vs73-vs77-2008-owners-manual PDF p.17; sole-tm-vtt8-2008-owners-manual
     PDF p.17; sole-tm-wf63-2009-2010-owners-manual PDF p.21; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
     PDF p.20; sole-tm-ws73-ws77-2009-2010-owners-manual PDF p.17; sole-tm-wtt8-2009-2010-owners-manual
-    PDF p.17
+    PDF p.17; sole-tm-f63-f65-2016-owners-manual PDF p. 27; sole-tm-tt8-2016-owners-manual PDF p. 28; sole-tm-f63-2023-owners-manual PDF p. 28; sole-tm-f80-2023-owners-manual PDF p. 26; sole-tm-tt8-2023-owners-manual PDF p. 24
   extracted_at: '2026-09-12'
 ---
 
@@ -104,3 +125,5 @@ The AF63/AF65 book heads this section 'USING HEART RATE TRANSMITTER (F65)'; the 
 5. **Sweat is the best conductor** for the minute heartbeat signals; plain water also works. Warm up with the transmitter on for a strong steady signal; clothing over it does not matter; stay within range.
 
 The strap is **not included** (TT8-2013, ATT8 and TT8C heads say so; the AF63 book prints the same note for the F63). Not printed for the 2006 F63, the F60-2016 or the TT9.
+
+Steps match everywhere including the second-generation touchscreens (SOLE logo, ribbed ovals, CR2032); the first-generation touchscreens print black square electrodes instead (own card).

@@ -24,6 +24,7 @@ facets:
   applies_to:
   - f85-2016
   - f85-2019
+  - f85-2020
   - f85-2021
   section: maintenance
   code: '*'

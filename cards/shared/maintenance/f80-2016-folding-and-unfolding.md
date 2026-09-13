@@ -24,6 +24,7 @@ facets:
   applies_to:
   - f80-2016
   - f80-2019
+  - f80-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -33,7 +34,7 @@ see_also:
 - f80-2019-running-deck-belt-cushion-replacement
 source:
   ref: sole-tm-f80-2016-service-manual
-  locator: Section 9, Treadmill Folding/Unfolding and Transport
+  locator: 'Section 9, Treadmill Folding/Unfolding and Transport A2 same-text owners books (FOLDING/TRANSPORTATION INSTRUCTIONS): sole-tm-f80-2023.'
   extracted_at: '2026-09-04'
 ---
 

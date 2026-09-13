@@ -36,7 +36,7 @@ see_also:
 source:
   ref: sole-tm-f85-2019-service-manual
   locator: section 4 Function Button Locations and Function Button In Main Mode, printed
-    pages 35 to 37
+    pages 35 to 37; sole-tm-f85-2019-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

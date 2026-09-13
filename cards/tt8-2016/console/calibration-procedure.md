@@ -34,7 +34,7 @@ see_also:
 - tt8-2016-e3-error-code
 source:
   ref: sole-tm-tt8-2016-service-manual
-  locator: Section 8.9 CALIBRATION PROCEDURE, page 61
+  locator: Section 8.9 CALIBRATION PROCEDURE, page 61; sole-tm-tt8-2016-owners-manual PDF p. 34
   extracted_at: '2026-09-04'
 ---
 

@@ -28,8 +28,13 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2023
   - f80-2013
   - f85-2013
   - s77-2013
@@ -44,7 +49,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'HEART RATE PROGRAMMING, PDF p.25 (printed 23); same steps: F65, F60-2012,
-    F80/F85-2013, S77-2013 books'
+    F80/F85-2013, S77-2013 books; A2 stencil same steps: F63/F65-2016, F63/F65-2023, F63-2025 books (Program A/V or +- keys, no incline statement)'
   extracted_at: '2026-09-12'
 ---
 

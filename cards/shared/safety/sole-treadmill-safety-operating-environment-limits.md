@@ -35,21 +35,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -89,7 +118,7 @@ see_also:
 - f63-2026-operating-environment-limits
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
-  locator: Electrical page, PDF p. 5 (p. 6 in the AF63/AF80/AS77/ATT8/TT8C books)
+  locator: Electrical page, PDF p. 5 (p. 6 in the AF63/AF80/AS77/ATT8/TT8C books) - A2 same paragraph, electrical page PDF p. 5, in all 24 books.
   extracted_at: '2026-09-12'
 ---
 
@@ -97,6 +126,8 @@ source:
 
 | Books | Figure |
 |---|---|
+| All 24 A2 stencil books (2016-2025) | The **maximum operating** temperature specification is 40 degrees C, humidity 95% non-condensing (no water drops forming on surfaces). The TD80-2019 book drops the leading `The`. |
+| All 24 A2 stencil books (2016-2025) | The **maximum operating** temperature specification is 40 degrees C, humidity 95% non-condensing (no water drops forming on surfaces). The TD80-2019 book drops the leading `The`. |
 | Most 2009-and-later books (AF, AS77, ATT8, F60, F63-2013, F65, F80-2013, S77, TT8-2013, TT8C, TT9, WF63, WF80, WTT8, UF80) | The temperature specification is **40 degrees C, and humidity is 95% non-condensing** (some add "no water drops forming on surfaces"). |
 | VF63, VF80/VF83/VF85 2007 printings | The **maximum** temperature specification is 40 degrees C, humidity 95% non-condensing. |
 | VS73/VS77, VTT8, WS73/WS77 | The temperature specification is **40 to 120 degrees Fahrenheit, and humidity limit is 95%**, non-condensing. |

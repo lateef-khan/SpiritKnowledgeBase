@@ -34,7 +34,7 @@ see_also:
 - f63-2016-programs
 source:
   ref: sole-tm-f63-2023-service-manual
-  locator: page 9, Button Function in each mode, Ready Mode
+  locator: page 9, Button Function in each mode, Ready Mode; sole-tm-f63-2023-owners-manual PDF p. 18
   extracted_at: '2026-09-04'
 ---
 

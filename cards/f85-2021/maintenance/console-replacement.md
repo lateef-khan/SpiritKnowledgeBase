@@ -28,9 +28,10 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- f85-2021-calibration-procedure
 - f85-2021-console-android-versions
 - f85-2021-lcd-dim-or-incomplete
-- f85-2021-calibration-procedure
+- sole-treadmill-console-maintenance-menu-display-mode-lube-reset
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: section 12-2 Console Replacement, printed pages 91 to 92

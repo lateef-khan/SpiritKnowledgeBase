@@ -27,6 +27,7 @@ facets:
   - f63-2016
   - f63-2019
   - f63-2023
+  - f63-2025
   - f63-2026
   - f65
   - f65-2016
@@ -60,7 +61,7 @@ see_also:
 - sole-treadmill-console-maintenance-menu-numbered-functions
 source:
   ref: sole-tm-engineering-mode-treadmill
-  locator: For All Non-Touchscreen Treadmills
+  locator: For All Non-Touchscreen Treadmills; sole-tm-f63-f65-2016-owners-manual PDF p. 33; sole-tm-f63-2019-owners-manual PDF p. 31; sole-tm-f65-2019-owners-manual PDF p. 31; sole-tm-f80-2016-owners-manual PDF p. 31; sole-tm-f80-2019-owners-manual PDF p. 32; sole-tm-f63-2023-owners-manual PDF p. 34; sole-tm-f65-2023-owners-manual PDF p. 32; sole-tm-f63-2025-owners-manual PDF p. 34
   extracted_at: '2026-09-03'
 ---
 
@@ -83,3 +84,5 @@ The usual options:
   - **Key Tone** - ON allows beeps, OFF mutes them.
   - **Security** (child lock) - ON shows CONSOLE LOCKED on boot or after inactivity. Hold **Start** and **Enter** for a few seconds to unlock.
   - **Exit**
+
+The 2023 LCD books call item C-I Sleep Mode (15 minutes). The F85/S77/TT8 owners books print a flatter six-item menu instead (own cards).

@@ -32,11 +32,24 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   section: programs
   code: '*'
 authority: 3
@@ -49,7 +62,7 @@ source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'SELECTING A PROGRAM, PDF p.20 (printed 18); same steps: F65, F60-2012
     (Speed 5/6 keys), F80/F85-2013, S77-2013, AF63/AF65 (Calorie/Message windows),
-    AF80/AF83/AF85 (Up/Down keys), AS77 books'
+    AF80/AF83/AF85 (Up/Down keys), AS77 books; A2 stencil same steps: F63/F65-2016, F80/F85/S77-2016, F63/F65/F80/F85/S77-2019, F63/F65-2023, F63-2025 books (Program A/V or +- keys, 3-minute warm-up)'
   extracted_at: '2026-09-12'
 ---
 

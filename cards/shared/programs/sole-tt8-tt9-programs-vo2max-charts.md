@@ -26,6 +26,10 @@ facets:
   applies_to:
   - att8-2011
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - tt9-2018
   section: programs
@@ -38,7 +42,7 @@ see_also:
 source:
   ref: sole-tm-tt8-2013-owners-manual
   locator: 'What your score means, PDF p.21 (printed 19); identical charts: ATT8 book
-    PDF p.22, TT8C book PDF p.22, TT9 book PDF p.32'
+    PDF p.22, TT8C book PDF p.22, TT9 book PDF p.32; identical charts: TT8-2016, TT8-2019 stencil books'
   extracted_at: '2026-09-12'
 ---
 

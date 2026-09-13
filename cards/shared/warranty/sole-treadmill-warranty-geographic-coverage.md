@@ -33,18 +33,26 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - st90-2023
   - tt8-2006
   - tt8-2013
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -89,7 +97,7 @@ source:
     L618-685; f80-family-2006-2007-own PDF p. 24 (printed 23), text.md L897-964; uf80-uf83-uf85-2007-owne
     PDF p. 28 (printed 27), text.md L1022-1091; vf63-2008-owners-manual PDF p. 22
     (printed 21), text.md L748-817; wf63-2009-2010-owners-ma PDF p. 28 (printed 27),
-    text.md L968-1038; af63-af65-2011-owners-ma PDF p. 33 (printed 30), text.md L1250-1319;
+    text.md L968-1038; af63-af65-2011-owners-ma PDF p. 33 (printed 30), text.md L1250-1319; f63-2023-owners-manual PDF p. 35, text.md L1688-1800; f63-2025-owners-manual PDF p. 35, text.md L1668-1781;
     tt9-2018-owners-manual PDF p. 42 (printed 40), text.md L1295-1365'
   extracted_at: '2026-09-12'
 ---
@@ -98,7 +106,9 @@ Where the warranty is honoured depends on the book’s era:
 
 | Books | Coverage statement |
 |---|---|
-| 2011–2018 (effective 2008 stale, 2011, 2012, 2016, 2018) | **Warranties outside of North America may vary — contact the local dealer for details.** |
+| 2011–2021 (effective 2008 stale, 2011, 2012, 2016, 2018, 2019, 2020, 2021) | **Warranties outside of North America may vary — contact the local dealer for details.** |
+| 2023 books (effective February 1, 2023 - F63, F65, F80, F85, F89, ST90, TT8) | The same sentence, plus **shipping charges may apply to Alaska and Hawaii customers**. Full item quoted on `sole-treadmill-warranty-exclusions-10-item-rust-climate-2023`. |
+| F63-2025 (effective February 1, 2025) | **Sole USA warranty coverage is limited to the Continental United States; Sole USA does not sell or service equipment in Hawaii, Alaska, or outside of the United States** - the 2026 wording (see `f63-2026-warranty-geographic-coverage`). |
 | F63/UF63, TT8/UTT8 (effective 2004) | **Applies only in the 50 states of the U.S.A. and Canada.** |
 | F80 family (effective 2004), UF80/83/85, VF80/83/85, VS73/77, VTT8 (effective 2007) | **Applies only in the 50 states of the U.S.A.** (no Canada) |
 | VF63-2007, WF63, WF80/83/85, WS73/77, WTT8 (effective 2007/2008) | **No geographic sentence is printed** — proved by full-text search: no states, Canada, or North-America sentence outside the states-rights note |

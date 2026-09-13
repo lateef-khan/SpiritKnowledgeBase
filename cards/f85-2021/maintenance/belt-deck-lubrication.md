@@ -20,8 +20,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f85-2021
+  model: '*'
   applies_to:
+  - f85-2020
   - f85-2021
   section: maintenance
   code: '*'
@@ -29,9 +30,10 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f85-2016-belt-and-deck-cleaning
-- f85-2021-lube-reminder-setup
 - f85-2021-e2-over-current
+- f85-2021-lube-reminder-setup
 - sole-lubricate-running-belt
+- sole-treadmill-console-maintenance-menu-display-mode-lube-reset
 source:
   ref: sole-tm-f85-ent-2021-service-manual
   locator: section 10.1 BELT/DECK LUBRICATION, printed page 84, and section 10.2 diagnosis

@@ -25,6 +25,7 @@ facets:
   - tt8-2019
   - tt8-2019-ac
   - tt8-2020
+  - tt8-2021
   - tt8-2023
   applies_to:
   - tt8-2006
@@ -34,6 +35,7 @@ facets:
   - tt8-2019
   - tt8-2019-ac
   - tt8-2020
+  - tt8-2021
   - tt8-2023
   section: specs
   code: '*'
@@ -42,6 +44,7 @@ facets:
   - '588812'
   - '588816'
   - '588818'
+  - '588851'
   - '588822'
   lookup: model-numbers
 authority: 3
@@ -53,7 +56,7 @@ see_also:
 - sole-start-button-grayed-2023
 source:
   ref: custservice-model-numbers
-  locator: rows tt8 to tt8-2023; no row for tt8-2020
+  locator: rows tt8 to tt8-2023 (588818 shared by tt8-2019/tt8-2020 per 2026-09-03 decision)
   extracted_at: '2026-09-10'
 ---
 
@@ -65,7 +68,8 @@ source:
 | 2016 | 588816 | tt8-2016-ac |
 | 2019 | 588818 | tt8-2019 |
 | 2019 | 588818 | tt8-2019-ac |
-| 2020 | not confirmed | tt8-2020 |
+| 2020 | 588818 | tt8-2020 |
+| 2021 | 588851 | tt8-2021 |
 | 2023 | 588822 | tt8-2023 |
 
 The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one. A row reading *not confirmed* has no settled number yet. A tag ending `-ac` shares its year's number with the plain tag.

@@ -34,7 +34,7 @@ see_also:
 - f60-2020-calibration-procedure
 source:
   ref: sole-tm-f60-2020-service-manual
-  locator: page 16, Function Button in Main Mode, READY MODE
+  locator: page 16, Function Button in Main Mode, READY MODE; sole-tm-f60-2020-owners-manual PDF pp. 14-15
   extracted_at: '2026-09-04'
 ---
 

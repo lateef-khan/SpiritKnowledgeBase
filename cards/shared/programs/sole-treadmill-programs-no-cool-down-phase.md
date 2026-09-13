@@ -29,21 +29,40 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -84,7 +103,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'Full program chapters: F63-2013 book PDF pp.19-25; verified absent in
-    all 25 A1 books except the two test-only cool-downs cited below'
+    all 25 A1 books except the two test-only cool-downs cited below; A2: none of the menu-console, F60-2020 or TD80-2019 programs prints a cool-down phase (touchscreen books do and are excluded)'
   extracted_at: '2026-09-12'
 ---
 

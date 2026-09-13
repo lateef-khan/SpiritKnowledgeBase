@@ -35,7 +35,7 @@ see_also:
 - sole-sleep-mode-touchscreen
 source:
   ref: sole-tm-f80-2023-service-manual
-  locator: Section 4.5 item 3 Sleep Mode, page 14
+  locator: Section 4.5 item 3 Sleep Mode, page 14; sole-tm-f80-2023-owners-manual PDF p. 15; sole-tm-f85-2023-owners-manual PDF p. 15; sole-tm-f89-2023-owners-manual PDF p. 15
   extracted_at: '2026-09-04'
 ---
 
@@ -51,3 +51,5 @@ Sleep Mode is in **Settings**, and **its default is OFF**.
 whose OFF position powers the console down after **30 minutes** of inactivity. The two settings use opposite
 polarity and different timers. The company-wide sleep mode cards give the range "15 to 30 minutes" because of
 this.
+
+The owners books add a third choice, RETAIL: the console runs a demo video after 3 minutes of inactivity.

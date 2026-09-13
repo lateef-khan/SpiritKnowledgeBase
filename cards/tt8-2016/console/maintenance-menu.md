@@ -35,7 +35,7 @@ see_also:
 - tt8-2016-calibration-procedure
 source:
   ref: sole-tm-tt8-2016-service-manual
-  locator: MAINTENANCE MENU, page 61
+  locator: MAINTENANCE MENU, page 61; sole-tm-tt8-2016-owners-manual PDF p. 34
   extracted_at: '2026-09-04'
 ---
 

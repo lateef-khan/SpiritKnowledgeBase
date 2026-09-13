@@ -30,6 +30,7 @@ facets:
   - st90-2021
   - st90-2023
   - tt8-2020
+  - tt8-2021
   - tt8-2023
   section: console
   code: '*'
@@ -39,7 +40,7 @@ see_also:
 - sole-update-software-touchscreen
 source:
   ref: sole-tm-how-to-connect-wifi-touchscreens-only
-  locator: whole document
+  locator: whole document; sole-tm-tt8-2021-owners-manual PDF p. 16; sole-tm-f85-2021-owners-manual PDF p. 17; sole-tm-st90-2021-owners-manual PDF p. 14
   extracted_at: '2026-09-03'
 ---
 
@@ -47,3 +48,5 @@ Either way works:
 
 - Tap the **gear** icon to open Settings, tap **Wifi**, pick your network and enter the password.
 - Or tap the **Wifi** symbol in the top right corner, pick your network and enter the password.
+
+The first-generation owners books confirm the top-right-corner path and add the Back-to-skip choice (no cloud/apps/casting and manual date/time without WiFi).

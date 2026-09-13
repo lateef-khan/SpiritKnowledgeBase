@@ -27,8 +27,16 @@ facets:
   - af85-2011
   - as77-2012
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
   - s77-2013
+  - s77-2016
+  - s77-2019
   section: warranty
   code: '*'
 authority: 3
@@ -41,12 +49,12 @@ source:
   ref: sole-tm-f80-f85-2013-owners-manual
   locator: af80-af83-af85-2011-owne PDF p. 33 (printed 30), text.md L1234-1303; as77-2012-owners-manual
     PDF p. 33 (printed 30), text.md L1171-1240; f80-f85-2013-owners-manu PDF p. 32
-    (printed 30), text.md L1259-1328; s77-2013-owners-manual PDF p. 31 (printed 29),
+    (printed 30), text.md L1259-1328; f80-2016-owners-manual PDF p. 32, text.md L1530-1631; f80-2019-owners-manual PDF p. 33, text.md L1617-1718; f85-2016-owners-manual PDF p. 32, text.md L1446-1547; f85-2019-owners-manual PDF p. 32, text.md L1563-1664; f85-2021-owners-manual PDF p. 34, text.md L1602-1703; s77-2013-owners-manual PDF p. 31 (printed 29),
     text.md L1271-1340
   extracted_at: '2026-09-12'
 ---
 
-**Treadmill warranty, effective August 1, 2012** on the F80-2013, F85-2013 and S77-2013 books, and **effective January 1, 2008** as printed in the AF80/AF83/AF85-2011 and AS77-2012 books.
+**Treadmill warranty, effective August 1, 2012** on the F80-2013, F85-2013 and S77-2013 books; **effective January 1, 2008** as printed in the AF80/AF83/AF85-2011 and AS77-2012 books; **effective February 1, 2016** (F80-2016, F85-2016 and S77-2016 books); **effective February 1, 2019** (F80-2019, F85-2019 and S77-2019 books); and **effective February 1, 2021** (F85-2021 book, covering F85-2020 and F85-2021) — same figures under all dates.
 
 | Component | Period |
 |---|---|

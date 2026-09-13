@@ -31,18 +31,32 @@ facets:
   - att8-2011
   - f60-2013
   - f60-2014
+  - f63-2016
+  - f63-2019
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - tt9-2018
   - uf80-2006
@@ -89,8 +103,10 @@ source:
     PDF p.19; sole-tm-uf80-uf83-uf85-2007-owners-manual PDF p.18; sole-tm-vf80-vf83-vf85-2008-owners-manual
     PDF p.18; sole-tm-vs73-vs77-2008-owners-manual PDF p.14; sole-tm-vtt8-2008-owners-manual
     PDF p.14; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual PDF p.17; sole-tm-ws73-ws77-2009-2010-owners-manual
-    PDF p.14; sole-tm-wtt8-2009-2010-owners-manual PDF p.14
+    PDF p.14; sole-tm-wtt8-2009-2010-owners-manual PDF p.14; sole-tm-f63-f65-2016-owners-manual PDF p. 19; sole-tm-f63-2019-owners-manual PDF p. 18; sole-tm-f65-2019-owners-manual PDF p. 18; sole-tm-f80-2016-owners-manual PDF p. 18; sole-tm-f80-2019-owners-manual PDF p. 18; sole-tm-f85-2016-owners-manual PDF p. 18; sole-tm-f85-2019-owners-manual PDF p. 18; sole-tm-s77-2016-owners-manual PDF p. 18; sole-tm-s77-2019-owners-manual PDF p. 18; sole-tm-tt8-2016-owners-manual PDF p. 18; sole-tm-tt8-2019-owners-manual PDF p. 17
   extracted_at: '2026-09-12'
 ---
 
 The display turns itself off (sleep) after **30 minutes of inactivity** in Pause/Stop mode (TT9 wording: 'when there is no command within 30 minutes', called sleeping mode). Almost all power goes off except the circuits that detect a key press, so the console wakes when any key is pressed; asleep it draws about as much as a television that is turned off. Removing the safety key is similar to sleep; the main power switch at the front removes all power. The 2006 books add a second method (either sleep timeout or key removal); the F63, VF63 and WF63 books sleep after 10 minutes instead.
+
+The A2 LCD books through 2019 print the same 30-minute sleep; the 2023 LCD books sleep after 15 minutes instead.

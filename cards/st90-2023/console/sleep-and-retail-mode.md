@@ -36,7 +36,7 @@ see_also:
 - st90-2023-settings-menu
 source:
   ref: sole-tm-st90-2023-service-manual
-  locator: Sections 8.1.9 Sleep Mode (page 22) and 8.2 Machine Information (page 25)
+  locator: Sections 8.1.9 Sleep Mode (page 22) and 8.2 Machine Information (page 25); sole-tm-st90-2023-owners-manual PDF p. 12
   extracted_at: '2026-09-04'
 ---
 

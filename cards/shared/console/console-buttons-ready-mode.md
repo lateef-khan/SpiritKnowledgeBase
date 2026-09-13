@@ -33,7 +33,7 @@ see_also:
 - f63-2016-programs
 source:
   ref: sole-tm-f63-2016-service-manual
-  locator: page 19, Function Button In Main Mode, READY MODE
+  locator: page 19, Function Button In Main Mode, READY MODE; sole-tm-f63-f65-2016-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

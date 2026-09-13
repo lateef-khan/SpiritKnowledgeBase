@@ -29,7 +29,15 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - s77-2013
+  - td80-2019
   - tt8-2013
   - tt8c-2011
   - uf80-2006
@@ -67,7 +75,9 @@ source:
   locator: 'Under CALIBRATION PROCEDURE: af63/af65-2011, as77-2012, att8-2011, f60-2012/2014,
     f63-2013/2015, s77-2013, tt8-2013, tt8c-2011, wf63-2009/2010, wf80/83/85-2009/2010,
     ws73/77-2009/2010, wtt8-2009/2010, uf80/83/85-2007 (PDF p. 26), vf80/83/85-2008
-    (PDF p. 26), vs73/77-2008 (PDF p. 22), vtt8-2008 (PDF p. 22)'
+    (PDF p. 26), vs73/77-2008 (PDF p. 22), vtt8-2008 (PDF p. 22); A2: f63/f65-2016
+    PDF p. 33; f63-2019 PDF p. 31; f65-2019 PDF p. 31; f63-2023 PDF p. 34; f65-2023
+    PDF p. 32; f63-2025 PDF p. 34; td80-2019 PDF p. 25'
   extracted_at: '2026-09-12'
 ---
 
@@ -78,3 +88,5 @@ That sentence is the whole of this card's fact: the fault (failed calibration) a
 Not every book prints it. The AF80/83/85-2011, F65-2013/2014, F80/F85-2013 and TT9-2018 books go from the calibration procedure straight to the maintenance menu with no sensor sentence (proved by loose-word search for "sensor" plus reading the sections). The 2006-family and VF63-2008 books print no calibration content at all — the word "calibration" appears nowhere in them. The TT9-2018 book additionally prints no calibration procedure for its "run calibration" remedy to point at.
 
 Spirit books print the same pointer sentence for Spirit machines (`xt-2015-errors-calibration-does-not-pass`) — same fact, other brand, so a separate card, linked here.
+
+Seven stencil owner's manuals print this same sentence under CALIBRATION PROCEDURE (locator). The other seventeen A2 books go from calibration to the next section with no sensor sentence (exact-phrase plus loose "sensor align" grep over the full text of all 24 books, 2026-09-12).

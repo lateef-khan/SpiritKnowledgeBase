@@ -32,21 +32,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -89,11 +118,12 @@ source:
   locator: 'TOC, sole-tm-af63-af65-2011-owners-manual PDF p. 3, text.md L7-30 (11
     chapters: registration, safety, electrical, operation, assembly, folding, transport,
     operation, programmable features, maintenance, service checklist, warranty — no
-    parts chapter); whole-document search of all 25 text.md files'
+    parts chapter); f63-2019-owners-manual PDF p. 2, text.md L164-178 (13 chapters,
+    no parts chapter); whole-document search of all 49 text.md files'
   extracted_at: '2026-09-12'
 ---
 
-None of the 25 books prints an **exploded view**, a **parts list**, or an orderable **replacement part number**. Proved three ways: the contents pages list 11 chapters and none is parts-related; a full-text search finds zero hits for "exploded", "parts list" or "part number" (the only "part #" hits are the Grainger 1D237 / Square D QO120HM breaker cross-references in Grounding Instructions, which belong to the electrical pages); and a spacing-tolerant search plus the OCR supplements show nothing hidden — the supplements are covers and assembly drawings.
+None of the 49 books prints an **exploded view**, a **parts list**, or an orderable **replacement part number**. Proved three ways: the contents pages list no parts chapter (11 chapters in the pre-2016 books; 13 in the F63-2019 stencil book — registration, safety, electrical, operation, assembly, folding, transport, operation, Bluetooth, programmable features, maintenance, service checklist, warranty); a full-text search of all 49 text.md files finds zero hits for "exploded", "parts list", "part number" or "replacement part" (the only "part #" hits are the Grainger 1D237 / Square D QO120HM breaker cross-references in Grounding Instructions, which belong to the electrical pages); and the OCR supplements show nothing hidden — the supplements are covers, console-face drawings and assembly diagrams.
 
 What the books do number: the **Assembly Pack Checklist** `#NNN` reference numbers (e.g. #128 speed-nuts clip) and the assembly-step callouts. Those are assembly references, not orderable part numbers, and live with the assembly cards.
 

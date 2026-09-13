@@ -31,21 +31,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -85,7 +114,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: Operation instructions, PDF p. 6 (p. 7 in the AF63/AF80/AS77/ATT8/TT8C
-    books)
+    books) - A2 same rule, operation page PDF p. 6, in all 24 books.
   extracted_at: '2026-09-12'
 ---
 
@@ -98,3 +127,5 @@ source:
 | 2006 families, 2007 printings, WTT8 | No third sentence; the book stops after "components". |
 
 Elemental surge damage is a warranty exclusion; that half belongs to the warranty section.
+
+All 24 A2 books print the NEVER-use rule with `Surges may occur in your household power supply ... Unplug the treadmill during an electrical storm as a precaution`. The TD80-2019 book reads `in your power supply` for `in your household power supply`; the rest matches.

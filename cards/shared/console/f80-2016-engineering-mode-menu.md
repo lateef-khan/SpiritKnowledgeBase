@@ -36,7 +36,7 @@ see_also:
 - f65-2016-calibration-procedure
 source:
   ref: sole-tm-f80-2016-service-manual
-  locator: Section 8.9, MAINTENANCE MENU
+  locator: Section 8.9, MAINTENANCE MENU; sole-tm-f80-2016-owners-manual PDF p. 31
   extracted_at: '2026-09-04'
 ---
 

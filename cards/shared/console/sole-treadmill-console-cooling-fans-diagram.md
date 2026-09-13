@@ -30,14 +30,31 @@ facets:
   - att8-2011
   - f60-2013
   - f60-2014
+  - f60-2020
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   section: console
   code: '*'
@@ -55,8 +72,10 @@ source:
     PDF p.15; sole-tm-f60-2012-2014-owners-manual PDF p.14; sole-tm-f65-2013-2014-owners-manual
     PDF p.15; sole-tm-f80-f85-2013-owners-manual PDF p.15; sole-tm-s77-2013-owners-manual
     PDF p.15; sole-tm-tt8-2013-owners-manual PDF p.14; sole-tm-tt8c-2011-owners-manual
-    PDF p.15
+    PDF p.15; sole-tm-f63-f65-2016-owners-manual PDF p. 15; sole-tm-tt8-2016-owners-manual PDF p. 14; sole-tm-f60-2020-owners-manual PDF p. 13
   extracted_at: '2026-09-12'
 ---
 
 The 'GETTING FAMILIAR WITH THE CONTROL PANEL' console diagram labels **COOLING FANS**, a **FAN POWER SWITCH**, speakers, the Display button, the dot matrix display, control keys, speed/incline quick keys, contact heart rate sensors and (all but the ATT8/TT8C diagrams) an audio-in/headphone jack pair. No operating prose for the fan is printed anywhere in these books – no speeds, no auto behaviour – so only the labelled presence is carded. No console fan is printed in these owner's books for the 2006-2010 machines, the F60-2016 or the TT9. The F60-2016 service manual documents a FAN key that turns the fan on and off.
+
+The A2 diagrams label COOLING FANS with no operating prose either; the F60-2020 owners book documents its FAN button.

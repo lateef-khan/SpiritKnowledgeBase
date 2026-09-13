@@ -29,6 +29,7 @@ facets:
   - st90-2021
   - st90-2023
   - tt8-2020
+  - tt8-2021
   - tt8-2023
   section: console
   code: '*'
@@ -41,7 +42,7 @@ see_also:
 - sole-calibration-touchscreen
 source:
   ref: sole-tm-engineering-mode-treadmill
-  locator: For All Touchscreen Treadmills
+  locator: For All Touchscreen Treadmills; sole-tm-tt8-2021-owners-manual PDF p. 23
   extracted_at: '2026-09-03'
 ---
 
@@ -74,3 +75,5 @@ The usual options:
   - **Cumulative Time/Distance** - use since the lube message was last reset.
   - **Zeroing** - resets the lube counter.
 - **Key Test** - each press beeps and shows the key. You have to press every button to exit.
+
+The TT8-2021 owners book enters with 10 consecutive taps on the Settings icon and prints its own suite contents (own card); the sibling F85/ST90 books print no suite.

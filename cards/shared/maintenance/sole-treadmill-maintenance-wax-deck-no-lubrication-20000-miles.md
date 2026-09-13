@@ -24,6 +24,8 @@ facets:
   applies_to:
   - att8-2011
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
   - tt8c-2011
   - tt9-2018
   section: maintenance
@@ -32,11 +34,10 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - sole-treadmill-maintenance-lubrication-every-90-hours-s-pattern
+- sole-tt8-maintenance-no-lubrication-flip-deck
 source:
   ref: sole-tm-att8-2011-owners-manual
-  locator: 'PDF p.30 (lines 1115-1156), DECK MAINTENANCE. Same text: sole-tm-tt8-2013-owners-manual
-    PDF p.28 (lines 1114-1155); sole-tm-tt8c-2011-owners-manual PDF p.30 (lines 1110-1151);
-    sole-tm-tt9-2018-owners-manual PDF p.40 (lines 1182-1196).'
+  locator: 'PDF p.30 (lines 1115-1156), DECK MAINTENANCE. Same text: sole-tm-tt8-2013-owners-manual PDF p.28 (lines 1114-1155); sole-tm-tt8c-2011-owners-manual PDF p.30 (lines 1110-1151); sole-tm-tt9-2018-owners-manual PDF p.40 (lines 1182-1196). Same deck chapter: sole-tm-tt8-2016-owners-manual PDF p.30 (DECK MAINTENANCE), wax coating up to 20,000 miles read on the render; the book documents both drive versions.'
   extracted_at: '2026-09-12'
 ---
 
@@ -50,4 +51,4 @@ If either of these keeps happening, the wax between belt and deck may be failing
 
 The two warning scenarios are: the belt **stops very quickly after the safety key is dislodged**, or the **15 amp fuse keeps blowing**.
 
-Contradiction ruled: the TT9-2018 book's preventative chart (PDF p.7) still says "Lubricate Deck (Every 90 hours or sooner if dry)", and its transport paragraph (PDF p.16) talks about wheels engaged when folded although the book prints no folding procedure. Both are stale boilerplate carried over from the folding silicon-deck books. The deck chapter above governs: this machine has a wax deck with no lubrication schedule, and the card follows it.
+Contradiction ruled: the TT8-2016 and TT9-2018 books carry stale boilerplate from the folding silicon-deck books. The TT8-2016 chart (PDF p.5) still says `Lubricate Deck (Every 90 hours or sooner if dry)', its service checklist still points friction rows at a lubrication section the book does not print, and its maintenance menu still offers a LUBE MESSAGE RESET. The TT9-2018 chart (PDF p.7) still says the same, and its transport paragraph (PDF p.16) talks about wheels engaged when folded although the book prints no folding procedure. The deck chapter above governs: these machines have wax decks with no lubrication schedule, and the card follows it.

@@ -35,16 +35,35 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   - tt8-2006
   - tt8-2013
   - tt8c-2011
@@ -97,7 +116,7 @@ source:
     PDF p.31 (lines 1110-1168); sole-tm-f60-2016-owners-manual PDF p.22 (lines 715-772);
     sole-tm-tt9-2018-owners-manual PDF p.41 (lines 1196-1254); sole-tm-vs73-vs77-2008-owners-manual
     PDF p.22 (lines 826-875); sole-tm-wtt8-2009-2010-owners-manual PDF p.22 (lines
-    865-918).'
+    865-918). A2 same rows (SERVICE CHECKLIST, friction rows): sole-tm-f63-2019, sole-tm-f63-2023, sole-tm-f63-2025, sole-tm-f63-f65-2016, sole-tm-f65-2019, sole-tm-f65-2023, sole-tm-f80-2016, sole-tm-f80-2019, sole-tm-f80-2023, sole-tm-f85-2016, sole-tm-f85-2019, sole-tm-f85-2021, sole-tm-f85-2023, sole-tm-f89-2023, sole-tm-s77-2016, sole-tm-s77-2019, sole-tm-td80-2019. Not extended to the F60-2020 (chart demands lube but no application procedure is printed), the TT8-2016 wax deck, the TT8-2019+ no-lube decks, or the ST90 slat belt.'
   extracted_at: '2026-09-12'
 ---
 

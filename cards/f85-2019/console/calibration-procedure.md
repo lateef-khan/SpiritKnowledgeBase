@@ -35,7 +35,7 @@ see_also:
 - sole-calibration-button-console
 source:
   ref: sole-tm-f85-2019-service-manual
-  locator: section 8.9 CALIBRATION PROCEDURE, printed page 77
+  locator: section 8.9 CALIBRATION PROCEDURE, printed page 77; sole-tm-f85-2019-owners-manual PDF p. 31
   extracted_at: '2026-09-04'
 ---
 

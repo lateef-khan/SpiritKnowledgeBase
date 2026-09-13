@@ -24,6 +24,7 @@ facets:
   applies_to:
   - f65-2016
   - f65-2019
+  - f65-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -32,7 +33,7 @@ see_also:
 - f65-2016-running-deck-belt-cushion-replacement
 source:
   ref: sole-tm-f65-2016-service-manual
-  locator: Section 9, Treadmill Folding/Unfolding and Transport
+  locator: 'Section 9, Treadmill Folding/Unfolding and Transport A2 same-text owners books (FOLDING/TRANSPORTATION INSTRUCTIONS): sole-tm-f65-2023.'
   extracted_at: '2026-09-04'
 ---
 

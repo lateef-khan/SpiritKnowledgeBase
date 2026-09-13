@@ -34,7 +34,7 @@ see_also:
 - f65-2016-console-modes
 source:
   ref: sole-tm-f80-2019-service-manual
-  locator: Section 4, Function Button in the Main Mode - READY MODE
+  locator: Section 4, Function Button in the Main Mode - READY MODE; sole-tm-f80-2019-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

@@ -25,6 +25,7 @@ facets:
   - f63-2016
   - f63-2019
   - f63-2023
+  - f63-2025
   - f63-2026
   applies_to:
   - f63
@@ -34,6 +35,7 @@ facets:
   - f63-2016
   - f63-2019
   - f63-2023
+  - f63-2025
   - f63-2026
   section: specs
   code: '*'
@@ -44,6 +46,7 @@ facets:
   - '563816'
   - '563818'
   - '563822'
+  - '563825'
   - '563286'
   lookup: model-numbers
 authority: 3
@@ -65,6 +68,7 @@ source:
 | 2016 | 563816 | f63-2016 |
 | 2019 | 563818 | f63-2019 |
 | 2023 | 563822 | f63-2023 |
+| 2025 | 563825 | f63-2025 |
 | 2026 | 563286 | f63-2026 |
 
 The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one. A row reading *not confirmed* has no settled number yet.

@@ -32,25 +32,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
   - f65-2016
   - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
   - f80-2016
   - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -81,7 +106,7 @@ see_also:
 - f80-2016-grounding-requirements
 source:
   ref: sole-tm-f65-2016-service-manual
-  locator: Section 10.2, Service Troubleshooting Checklist
+  locator: Section 10.2, Service Troubleshooting Checklist; A2 owner SERVICE CHECKLIST rows — f60-2020 PDF p. 26; f63/f65-2016 PDF p. 32; f63-2019 PDF p. 30; f65-2019 PDF p. 30; f63-2023 PDF p. 33; f65-2023 PDF p. 31; f63-2025 PDF p. 33; f80-2016 PDF p. 30; f80-2019 PDF p. 31; f80-2023 PDF p. 30; f85-2016 PDF p. 30; f85-2019 PDF p. 30; f85-2021 PDF p. 32; f85-2023 PDF p. 30; f89-2023 PDF p. 31; s77-2016 PDF p. 30; s77-2019 PDF p. 30; st90-2021 PDF p. 26; st90-2023 PDF p. 26; td80-2019 PDF p. 24; tt8-2016 PDF p. 33; tt8-2019 PDF p. 31; tt8-2021 PDF p. 32; tt8-2023 PDF p. 29
   extracted_at: '2026-09-04'
 ---
 
@@ -90,3 +115,5 @@ The treadmill may not be grounded. **Static electricity is "crashing" the comput
 Work through the grounding instructions: the machine must be plugged into a properly installed and grounded outlet, and the equipment-grounding conductor must be connected correctly.
 
 **The older owner's manuals print this same row.** The 2011–2013, 2009/2010, F60-2016 and TT9-2018 books say "Treadmill may not be grounded. Static electricity is 'crashing' the computer. Refer to Grounding Instructions"; the 2006-family and VF63-2008 books say "Treadmill is not grounded" with the same static-crashing remedy. Corroborated in each book's SERVICE CHECKLIST table (e.g. AF63/AF65-2011 PDF p. 31, TT9-2018 PDF p. 41). The UF80/83/85-2007, VF80/83/85-2008, VS73/77-2008 and VTT8-2008 books print no such row.
+
+**All twenty-four stencil owner's manuals print this same row** ("Treadmill may not be grounded. Static electricity is 'crashing' the computer. Refer to Grounding Instructions", locator) — twenty-three point at page 3; the TD80 gives no page number. Render-verified for F60-2020 (PDF p. 26), TD80-2019 (PDF p. 24), ST90-2021 (PDF p. 26) and ST90-2023 (PDF p. 26).

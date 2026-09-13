@@ -33,7 +33,7 @@ see_also:
 - f60-2020-console-buttons-ready-mode
 source:
   ref: sole-tm-f60-2020-service-manual
-  locator: page 54, 8.9 CALIBRATION PROCEDURE
+  locator: page 54, 8.9 CALIBRATION PROCEDURE; sole-tm-f60-2020-owners-manual PDF p. 25, text.md lines 1435-1442
   extracted_at: '2026-09-04'
 ---
 
@@ -45,3 +45,5 @@ source:
    - **incline** - 12
 3. Press the **speed ▲ / ▼** button to change the value. Press **ENTER** to finish.
 4. Press the **START** button. The treadmill calibrates itself and leaves engineering mode when the operation is completed.
+
+The owners book misprints miles as 'milds' and runs the item list inside one parenthesis; values match.

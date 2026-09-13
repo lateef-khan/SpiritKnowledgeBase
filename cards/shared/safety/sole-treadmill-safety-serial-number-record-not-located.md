@@ -31,21 +31,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -84,10 +113,12 @@ see_also:
 - sole-treadmill-safety-general-precautions-list
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
-  locator: Product Registration, PDF p. 3 (p. 1-2 in the 2006-family books)
+  locator: Product Registration, PDF p. 3 (p. 1-2 in the 2006-family books) - A2 same record blank, registration page PDF p. 3, in all 24 books.
   extracted_at: '2026-09-12'
 ---
 
 Every legacy book in this wave says **RECORD YOUR SERIAL NUMBER** and asks the owner to fill in a blank, complete and mail the self-addressed product registration card (or register at www.soletreadmills.com), and to include the serial number with any online service request. An altered or removed serial number voids warranty coverage, and the serial number sets the labor warranty period.
 
 None of the 25 books says where the serial number is on the machine - no decal, plate, frame or console location is ever named, in native text or the OCR supplements. Registration and warranty terms themselves belong to the warranty section.
+
+The same holds for all 24 A2 books: RECORD YOUR SERIAL NUMBER with a blank, online registration, the removed-or-altered exclusion and the labor-period rule - but no on-machine location, in native text or the OCR supplements.

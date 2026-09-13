@@ -19,13 +19,12 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: tt8-2019
+  model: '*'
   applies_to:
   - tt8-2019
+  - tt8-2020
   section: console
   code: '*'
-  model_number:
-  - '588818'
 authority: 3
 not_to_be_confused_with:
 - tt8-2019-ac-calibration-procedure
@@ -34,7 +33,7 @@ see_also:
 - tt8-2019-e3-error-code
 source:
   ref: sole-tm-tt8-2019-service-manual
-  locator: Section 8.10 CALIBRATION PROCEDURE, page 58
+  locator: Section 8.10 CALIBRATION PROCEDURE, page 58; sole-tm-tt8-2019-owners-manual PDF p. 32
   extracted_at: '2026-09-04'
 ---
 

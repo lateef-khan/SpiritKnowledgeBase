@@ -37,7 +37,7 @@ see_also:
 - sole-engineering-menu-non-touchscreen
 source:
   ref: sole-tm-f85-2016-service-manual
-  locator: section 8.9 MAINTENANCE MENU, printed page 60
+  locator: section 8.9 MAINTENANCE MENU, printed page 60; sole-tm-f85-2016-owners-manual PDF p. 31
   extracted_at: '2026-09-04'
 ---
 
@@ -54,3 +54,5 @@ source:
 | F. CHILD LOCK | Locks the keypad against unauthorised use. With the child lock enabled the keypad will not operate until **START and ENTER are held for 3 seconds**. |
 
 **DISPLAY MODE has a second effect, on the safety key.** The E0 page of the same manual describes reaching DISPLAY MODE through a "functions" submenu and using it to decide whether the console shows E0 when the key is pulled. See the display mode card.
+
+The owners book's menu entry fits the safety key while holding the three keys (the lube-reset path does the same).

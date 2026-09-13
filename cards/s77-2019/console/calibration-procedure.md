@@ -36,7 +36,7 @@ see_also:
 - sole-calibration-button-console
 source:
   ref: sole-tm-s77-2019-service-manual
-  locator: Section 8.9 Calibration procedure, page 59
+  locator: Section 8.9 Calibration procedure, page 59; sole-tm-s77-2019-owners-manual PDF p. 31
   extracted_at: '2026-09-04'
 ---
 

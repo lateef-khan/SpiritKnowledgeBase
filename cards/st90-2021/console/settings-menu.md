@@ -19,8 +19,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: console
   code: '*'
@@ -32,7 +33,7 @@ see_also:
 - st90-2021-display-mode-and-sleep
 source:
   ref: sole-tm-st90-2021-service-manual
-  locator: Section 8-1 SETTINGS, page 36
+  locator: Section 8-1 SETTINGS, page 36; sole-tm-st90-2021-owners-manual PDF p. 21
   extracted_at: '2026-09-04'
 ---
 

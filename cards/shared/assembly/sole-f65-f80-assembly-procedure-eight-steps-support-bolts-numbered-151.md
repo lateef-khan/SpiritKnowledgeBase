@@ -3,7 +3,7 @@ id: sole-f65-f80-assembly-procedure-eight-steps-support-bolts-numbered-151
 title: Assembly procedure in eight steps with support bolts numbered 151 and holder
   numbered 150
 kind: procedure
-question: How do I assemble a Sole F65 or F80-series treadmill from 2013?
+question: How do I assemble a Sole F65, F80 or F85-series treadmill from 2013 to 2016?
 asked_as:
 - f65 assembly instructions
 - how to put together sole f80 treadmill
@@ -27,7 +27,9 @@ facets:
   - f65-2013
   - f65-2014
   - f80-2013
+  - f80-2016
   - f85-2013
+  - f85-2016
   section: assembly
   code: '*'
 authority: 3
@@ -37,7 +39,8 @@ see_also:
 source:
   ref: sole-tm-f65-2013-2014-owners-manual
   locator: F65 ASSEMBLY INSTRUCTIONS steps 1-8 (printed pp. 8-11; PDF pp. 10-13; text.md
-    L329-555); identical sequence in the F80 / F85 2013 book (PDF pp. 10-13)
+    L329-555); identical sequence in the F80 / F85 2013 book (PDF pp. 10-13), the F80 2016 book
+    (PDF pp. 10-14; text.md L523-665) and the F85 2016 book (PDF pp. 10-14; text.md L512-649)
   extracted_at: '2026-09-12'
 ---
 
@@ -51,3 +54,5 @@ Eight illustrated assembly steps, identical in the F65 2013 and F80 / F85 2013 b
 6. Fix the handlebar covers over the upright tops with six Sheet Metal Screws (168).
 7. Bolt the support tube (15) between the uprights with four Button Head Socket Bolts (151), set the Beverage Holder (150) on it, place the safety-key magnet (75) between Start and Stop, and check every bolt and screw is tight.
 8. Finish tightening the mast bolts left loose in step 2 and fix the console mast covers (161 & 162) to the frame base with six Tapping Screws (120).
+
+In the 2016 books the lower handlebar covers are 63 & 65 (versus 65L & 67R / 65 & 67R in 2013), the step-2 cables are Lower (51)/Middle (50) and the step-4 cables are Middle (50)/Upper (49) (versus 49/50 and 50/48 in 2013), and the F85-2016 step 1 adds a See Page 10 for Illustration line. Kit, order and all bolt sizes match, so one card holds all printings.

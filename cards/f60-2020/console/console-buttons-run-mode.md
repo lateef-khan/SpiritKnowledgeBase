@@ -34,7 +34,7 @@ see_also:
 - f60-2020-console-display-ranges
 source:
   ref: sole-tm-f60-2020-service-manual
-  locator: page 17, Function Button in Main Mode, RUN MODE
+  locator: page 17, Function Button in Main Mode, RUN MODE; sole-tm-f60-2020-owners-manual PDF pp. 14-15
   extracted_at: '2026-09-04'
 ---
 
@@ -48,3 +48,5 @@ In RUN MODE:
 - **SPEED RAPID** - 10 preset buttons: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
 - **INCLINE RAPID** - 10 preset buttons: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
 - **FAN** - turns the fan on and off.
+
+The owners book adds that STOP enters pause with incline back to its starting position and START resumes all set values.

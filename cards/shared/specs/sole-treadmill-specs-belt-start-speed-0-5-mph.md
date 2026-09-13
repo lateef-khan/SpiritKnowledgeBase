@@ -21,12 +21,18 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - f60-2020
   - f80-2006
   - f83-2006
   - f85-2006
+  - f85-2020
+  - f85-2021
   - s73-2006
   - s77-2006
+  - st90-2020
+  - st90-2021
   - tt8-2006
+  - tt8-2021
   - tt9-2018
   - uf80-2006
   - uf83-2006
@@ -63,8 +69,13 @@ source:
     PDF p. 11; UF80/UF83/UF85-2006 PDF p. 16; VF80/VF83/VF85-2007 PDF p. 16; VS73/VS77-2007
     PDF p. 12; VTT8-2007 PDF p. 13; WF80/WF83/WF85-2009/2010 PDF p. 15; WS73/WS77-2009/2010
     PDF p. 12; WTT8-2009/2010 PDF p. 13; TT9-2018 quick-start PDF p. 18 ("0.8 km/h
-    (0.5 MPH)")'
+    (0.5 MPH)"). Stencil era: F60-2020 START key paragraph and QUICK START (PDF p.
+    15, "start treadmill at 0.5 mph start speed", read on the render); F85-2021 (PDF
+    p. 16), ST90-2021 (PDF p. 13) and TT8-2021 (PDF p. 15) "begin belt movement at
+    0.5 mph" (all read on the render)'
   extracted_at: '2026-09-12'
 ---
 
 **The belt starts at 0.5 mph.** The 2006-2010 books state it in Manual-operation STEP 2 ("Press and release the Start key to begin belt movement at 0.5 mph"; the 2006 books print ".5 mph"), and the TT9-2018 quick-start says the belt runs with "0.8 km/h (0.5 MPH)" on START. The 2011-2015 books state no start speed, only the 0.5 calibration minimum on a separate card. The F63/UF63-2006 book is different (1.0 km) and has its own card.
+
+The stencil-era F60-2020 book states START begins "at 0.5 mph start speed", and the 2021 touchscreen books (F85, ST90, TT8) state "begin belt movement at 0.5 mph" with resume restarting at 0.5. The other stencil-era books state no start speed: the button books say only "begin belt movement", the 2023 TFT books say only "very low speed", and the TD80 states only its 0.5 minimum, like the 2011-2015 books.

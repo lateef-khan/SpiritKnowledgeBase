@@ -9,7 +9,7 @@ Spirit Server (reached over `ssh spirit`), and names the evidence that settled i
 separated by a space. The Azure `spiritwebdbTest` database is not the source of
 any number here.
 
-352 machines.
+360 machines.
 
 | machine | model_number | evidence |
 |---|---|---|
@@ -416,3 +416,11 @@ none of it is confirmed.
 | ws77-2010 | 577888 | year-in-name |
 | wtt8-2009 | 588888 | year-in-name |
 | wtt8-2010 | 588888 | year-in-name |
+| f63-2025 | 563825 | own-filename |
+| td80-2019 | 580918 | year-in-name |
+| tt8-2021 | 588851 | own-filename |
+| tt8-2020 | 588818 | user-confirmed |
+| f85-2020 | 585820 | year-in-name |
+| f85-2021 | 585820 | user-confirmed |
+| st90-2020 | 590820 | user-confirmed |
+| st90-2021 | 590820 | user-confirmed |

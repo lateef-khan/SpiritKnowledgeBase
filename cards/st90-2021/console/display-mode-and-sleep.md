@@ -20,8 +20,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: console
   code: '*'
@@ -34,7 +35,7 @@ see_also:
 source:
   ref: sole-tm-st90-2021-service-manual
   locator: Sections 8-1-9 Display mode (page 43) and 8-2-5 Machine Information (page
-    49)
+    49); sole-tm-st90-2021-owners-manual PDF p. 22
   extracted_at: '2026-09-04'
 ---
 
@@ -48,3 +49,5 @@ Display mode controls two things at once: whether the screen stays lit when the 
 The same setting appears twice, in the settings page and again in the engineering menu's Machine Information page; they are the same switch.
 
 A fast sleep test button sits in the developer options page for a technician who does not want to wait out the timer.
+
+The owners book exits display mode through Settings > Display > sleep mode, matching this card's two-place setting.
