@@ -18,17 +18,25 @@ facets:
   - sole
   product_line: elliptical
   model:
-  - e98
+  - e98-2011
+  - e98-2013
+  - e98-2015
   - e98-2016
   - e98-2019
   - e98-2023
   applies_to:
+  - e98-2011
+  - e98-2013
+  - e98-2015
   - e98-2016
   - e98-2019
   - e98-2023
   section: specs
   code: '*'
   model_number:
+  - '598010'
+  - '598012'
+  - '598015'
   - '598016'
   - '598018'
   - '598022'
@@ -41,12 +49,15 @@ see_also:
 - e98-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e98-2016 to e98-2023
+  locator: rows e98-2011 to e98-2023
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2011 | 598010 | e98-2011 |
+| 2013 | 598012 | e98-2013 |
+| 2015 | 598015 | e98-2015 |
 | 2016 | 598016 | e98-2016 |
 | 2019 | 598018 | e98-2019 |
 | 2023 | 598022 | e98-2023 |

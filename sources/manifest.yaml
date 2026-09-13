@@ -21,7 +21,7 @@
     the Spirit Server
   kind: markdown
   origin_uri: sqlserver://spirit-server/CustService/dbo.MODEL
-  sha256: bbb87e0a0c19ae9f0bb0ce70bf782d54e54a65e2939fbc7b0bbfd9468d5ec4d8
+  sha256: 91a0e563d831ed83e67fd09bce5c87225e7f36b094a70715a4f6628dd2203918
   ingested_at: '2026-09-10'
 - id: sole-bike-b74-r72-2015-owners-manual
   title: Sole B74/R72 2015 owner's manual (574115, 572115)
@@ -313,6 +313,202 @@
   origin_uri: file://CC81 2026 (581526).pdf
   sha256: c9a3499fc0ef4217a12be579b903e9bf8d1ae35e8e1ece145a3d20e49bf99fee
   ingested_at: '2026-09-04'
+- id: sole-el-ae25-ae35-2011-owners-manual
+  title: Sole AE25/AE35 2011 owner's manual (525010, 535010)
+  kind: pdf
+  origin_uri: file://SOLE AE25 AE35 2011 Owners Manual (525010, 535010).pdf
+  sha256: db5d25cc4e39ea73b76e9659027f3f3d9db58b5c5fcefdf7479a6b9f1710224d
+  ingested_at: '2026-09-12'
+- id: sole-el-ae55-ae95-2011-owners-manual
+  title: Sole AE55/AE95 2011 owner's manual (555010, 595010)
+  kind: pdf
+  origin_uri: file://SOLE AE55 AE95 2011 Owners Manual (555010, 595010).pdf
+  sha256: 62578fd8ca8ed076c6ef041116d8cb9b86a4faadd78de5fbb3ab3b96a2292045
+  ingested_at: '2026-09-12'
+- id: sole-el-e98-2011-owners-manual
+  title: Sole E98 2011 owner's manual (598010) — the book names E98 throughout, never AE98
+  kind: pdf
+  origin_uri: file://SOLE AE98 2011 Owners Manual (598010).pdf
+  sha256: a260c27385c126bfa8c19b3932325fdb097edb244cf07fe36886b86ea84e8db7
+  ingested_at: '2026-09-12'
+- id: sole-el-e20-2016-owners-manual
+  title: Sole E20 2016 owner's manual (520016)
+  kind: pdf
+  origin_uri: file://SOLE E20 2016 Owners Manual (520016).pdf
+  sha256: 85a1255fed345085fd31aed1096602f84657f6de28bd879ecd8d1c1f8c407f26
+  ingested_at: '2026-09-12'
+- id: sole-el-e20-2020-owners-manual
+  title: Sole E20 2020 owner's manual (520020)
+  kind: pdf
+  origin_uri: file://SOLE E20 2020 Owners Manual (520020).pdf
+  sha256: 5ce7818ba218158ed42c74b50113ba8d3e94ec284e4fb7f0a523fcc9f9189807
+  ingested_at: '2026-09-12'
+- id: sole-el-e20-e25-2012-2015-owners-manual
+  title: Sole E20/E25 2012-2015 owner's manual (520012, 520013, 520014, 525012, 525013,
+    525113, 525114)
+  kind: pdf
+  origin_uri: file://SOLE E20 E25 2012 2013 2014 2015 Owners Manual (520012, 520013,
+    520014, 525012, 525013, 525113, 525114).pdf
+  sha256: a4e29ba9f88e418f01cfca446870cc211d278fe52ab8abb264f9948b60fe3d70
+  ingested_at: '2026-09-12'
+- id: sole-el-e25-2016-owners-manual
+  title: Sole E25 2016 owner's manual (525016)
+  kind: pdf
+  origin_uri: file://SOLE E25 2016 Owners Manual (525016).pdf
+  sha256: e39d3e5347ae495be822de4197eaef7e0090d1603c99eef0edc3b8ebeabd5ed0
+  ingested_at: '2026-09-12'
+- id: sole-el-e25-2019-owners-manual
+  title: Sole E25 2019 owner's manual (525018)
+  kind: pdf
+  origin_uri: file://SOLE E25 2019 Owners Manual (525018).pdf
+  sha256: 22ca3bd22226ca0b060f4afd968d67569d4efd4660d3b88a058ecea35308f597
+  ingested_at: '2026-09-12'
+- id: sole-el-e25-2023-owners-manual
+  title: Sole E25 2023 owner's manual (525022)
+  kind: pdf
+  origin_uri: file://SOLE E25 2023 Owners Manual (525022).pdf
+  sha256: e8e8292a91cb288e37edfeb8b11f375ca722ece568828d566a45d9f8f72b4c36
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-2016-owners-manual
+  title: Sole E35 2016 owner's manual (535016)
+  kind: pdf
+  origin_uri: file://SOLE E35 2016 Owners Manual (535016).pdf
+  sha256: 60be7effed97a75643982a3263527bd28b78376afa5302a0eb0a5f43eb75db10
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-2019-owners-manual
+  title: Sole E35 2019 owner's manual (535018)
+  kind: pdf
+  origin_uri: file://SOLE E35 2019 Owners Manual (535018).pdf
+  sha256: 60a5e943b13249f6a040ac3dffeb5d7fdc1bef3c2a86144c7495e5b36106747f
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-2023-owners-manual
+  title: Sole E35 2023 owner's manual (535022)
+  kind: pdf
+  origin_uri: file://SOLE E35 2023 Owners Manual (535022).pdf
+  sha256: 1becf012d23c1b564f24f1741008f7ca321883d9f1f96a904b229ed8e84ca5bb
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-e95-2012-2015-owners-manual
+  title: Sole E35/E95 2012-2015 owner's manual (535012, 535013, 535014, 535015, 595012,
+    595013, 595014, 595015)
+  kind: pdf
+  origin_uri: file://SOLE E35 E95 2012 2013 2014 2015 Owners Manual (535012, 535013,
+    535014, 535015, 595012, 595013, 595014, 595015).pdf
+  sha256: c63e15f601adcf53cf01a247eff3b0355fda86c887e7d163922f4e7a23d586e7
+  ingested_at: '2026-09-12'
+- id: sole-el-e55-2013-2014-owners-manual
+  title: Sole E55 2013/2014 owner's manual (555013, 555014)
+  kind: pdf
+  origin_uri: file://SOLE E55 2013 2014 Owners Manual (555013, 555014).pdf
+  sha256: ca99201dc1eb015c74f96905d96d3892cd334df1b1da93e474c2b216b9f645b1
+  ingested_at: '2026-09-12'
+- id: sole-el-e55-2016-owners-manual
+  title: Sole E55 2016 owner's manual (555016)
+  kind: pdf
+  origin_uri: file://SOLE E55 2016 Owners Manual (555016).pdf
+  sha256: 97a923b39311f44dd193aa61f3dc6ba570f69f7b2b363db2089871810a3ccddf
+  ingested_at: '2026-09-12'
+- id: sole-el-e55-2019-owners-manual
+  title: Sole E55 2019 owner's manual (555018)
+  kind: pdf
+  origin_uri: file://SOLE E55 2019 Owners Manual (555018).pdf
+  sha256: 22722bad35c93d27c29143b7aafacfbd590b23fe0321c12152d16cc38ce3c3c3
+  ingested_at: '2026-09-12'
+- id: sole-el-e95-2016-owners-manual
+  title: Sole E95 2016 owner's manual (595016)
+  kind: pdf
+  origin_uri: file://SOLE E95 2016 Owners Manual (595016).pdf
+  sha256: 917d0d0b9380d5675650945af27bcda553cc60447234b7fcd46cc27e5fefc6f6
+  ingested_at: '2026-09-12'
+- id: sole-el-e95-2019-owners-manual
+  title: Sole E95 2019 owner's manual (595018)
+  kind: pdf
+  origin_uri: file://SOLE E95 2019 Owners Manual (595018).pdf
+  sha256: adcba688e8eb52ee9007a62c34498fd86fdb6bf7c70c722e36c49e90324b6b35
+  ingested_at: '2026-09-12'
+- id: sole-el-e95-2023-owners-manual
+  title: Sole E95 2023 owner's manual (595022)
+  kind: pdf
+  origin_uri: file://SOLE E95 2023 Owners Manual (595022).pdf
+  sha256: e13bdedd20d2bd6a1299f08c13057259699a8922aaf7162de62c749098d5f0cf
+  ingested_at: '2026-09-12'
+- id: sole-el-e95s-2015-2016-owners-manual
+  title: Sole E95s 2015/2016 owner's manual (595615, 595616)
+  kind: pdf
+  origin_uri: file://SOLE E95s 2015 2016 Owners Manual (595615, 595616).pdf
+  sha256: dd0f949c63d98e34f4abe85f46d4f147598d067ffd144911b1b352eed6ec8bb3
+  ingested_at: '2026-09-12'
+- id: sole-el-e95s-2019-owners-manual
+  title: Sole E95s 2019 owner's manual (595618)
+  kind: pdf
+  origin_uri: file://SOLE E95s 2019 Owners Manual (595618).pdf
+  sha256: f4512b62f2b58e83af24a25462f4d46b52e624d34be81de6cefabbe1ff240fa4
+  ingested_at: '2026-09-12'
+- id: sole-el-e95s-2023-owners-manual
+  title: Sole E95s 2023 owner's manual (595622)
+  kind: pdf
+  origin_uri: file://SOLE E95s 2023 Owners Manual (595622).pdf
+  sha256: 6ea7c857f8ecb5e188427d553320a48955e91a491e8194c1b804882dfd36089d
+  ingested_at: '2026-09-12'
+- id: sole-el-e98-2013-owners-manual
+  title: Sole E98 2013 owner's manual (598012)
+  kind: pdf
+  origin_uri: file://SOLE E98 2013 Owners Manual (598012).pdf
+  sha256: dc2f2445818a7e1e0d1c3950212f172a905e9812a4713e590d4c5266581f9bb4
+  ingested_at: '2026-09-12'
+- id: sole-el-e98-2015-2016-owners-manual
+  title: Sole E98 2015/2016 owner's manual (598015, 598016)
+  kind: pdf
+  origin_uri: file://SOLE E98 2015 2016 Owners Manual (598015, 598016).pdf
+  sha256: d6281b34b0946ec23811a3942e032eb9a3d53e359b022a1601903e5582f1e888
+  ingested_at: '2026-09-12'
+- id: sole-el-e98-2019-owners-manual
+  title: Sole E98 2019 owner's manual (598018)
+  kind: pdf
+  origin_uri: file://SOLE E98 2019 Owners Manual (598018).pdf
+  sha256: db52cb826287b710ff5d7175be8858e4ae1d37eca3c9f7fbdcfe1623a9ada2af
+  ingested_at: '2026-09-12'
+- id: sole-el-e98-2023-owners-manual
+  title: Sole E98 2023 owner's manual (598022)
+  kind: pdf
+  origin_uri: file://SOLE E98 2023 Owners Manual (598022).pdf
+  sha256: 81ce9cd50a73a4b4f6dd2f48766c45160a46ac1c6f629eda68ee3e1c4053f515
+  ingested_at: '2026-09-12'
+- id: sole-el-e25-e55-2007-owners-manual
+  title: Sole E25/E55 2007 owner's manual (525081, 555081, 555086) — the book names E25/E55 throughout, never UE25/UE55
+  kind: pdf
+  origin_uri: file://SOLE UE25 UE55 E55 2007 Owners Manual (525081, 555081, 555086).pdf
+  sha256: 607de3ee4c0f36de2ff620b2f29e7ea998f08e366531117c9c1085bcb5508e2d
+  ingested_at: '2026-09-12'
+- id: sole-el-e35-e75-e95-2007-owners-manual
+  title: Sole E35/E75/E95 2007 owner's manual (535081, 575081, 595081) — the book names E35/E75/E95 throughout, never UE35/UE75/UE95
+  kind: pdf
+  origin_uri: file://SOLE UE35 UE75 UE95 2007 Owners Manual (535081, 575081, 595081).pdf
+  sha256: 1207f811ef8f1af24fc4f882c415229d4063e0b5eea50ba72a0725f678b39e23
+  ingested_at: '2026-09-12'
+- id: sole-el-ve25-ve55-2008-owners-manual
+  title: Sole VE25/VE55 2008 owner's manual (525087, 555087)
+  kind: pdf
+  origin_uri: file://SOLE VE25 VE55 2008 Owners Manual (525087, 555087).pdf
+  sha256: 3919321b80fc199ca3c674954397cfbabed671d49269e6a2221f9831b4530fed
+  ingested_at: '2026-09-12'
+- id: sole-el-ve35-ve95-2008-owners-manual
+  title: Sole VE35/VE95 2008 owner's manual (535087, 595087)
+  kind: pdf
+  origin_uri: file://SOLE VE35 VE95 2008 Owners Manual (535087, 595087).pdf
+  sha256: 715ac14d97e5355b15a26e54ac831be09c2afebd180463b57129ef2a81e0e824
+  ingested_at: '2026-09-12'
+- id: sole-el-we25-we35-2009-2010-owners-manual
+  title: Sole WE25/WE35 2009/2010 owner's manual (525088, 535088)
+  kind: pdf
+  origin_uri: file://SOLE WE25 WE35 2009 2010 Owners Manual (525088, 535088).pdf
+  sha256: d844882e1cabc9ff5460243300e5738d480ed1907651c47798a0c897a6def28f
+  ingested_at: '2026-09-12'
+- id: sole-el-we55-we95-2009-2010-owners-manual
+  title: Sole WE55/WE95 2009/2010 owner's manual (555088, 595088)
+  kind: pdf
+  origin_uri: file://SOLE WE55 WE95 2009 2010 Owners Manual (555088, 595088).pdf
+  sha256: 853b194ddc9555fac981cfd100542913285c906540cca0ba24662856984e4c34
+  ingested_at: '2026-09-12'
 - id: sole-elliptical-e20-2026-owners-manual
   title: Sole E20 2026 owner's manual (520026)
   kind: pdf

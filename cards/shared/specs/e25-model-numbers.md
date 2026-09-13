@@ -18,11 +18,19 @@ facets:
   - sole
   product_line: elliptical
   model:
+  - e25-2007
+  - e25-2013
+  - e25-2014
+  - e25-2015
   - e25-2016
   - e25-2019
   - e25-2023
   - e25-2026
   applies_to:
+  - e25-2007
+  - e25-2013
+  - e25-2014
+  - e25-2015
   - e25-2016
   - e25-2019
   - e25-2023
@@ -30,6 +38,10 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '525081'
+  - '525012'
+  - '525013'
+  - '525114'
   - '525116'
   - '525018'
   - '525022'
@@ -44,12 +56,16 @@ see_also:
 - e25-2026-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e25-2016 to e25-2026
+  locator: rows e25-2007 to e25-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2007 | 525081 | e25-2007 |
+| 2013 | 525012 | e25-2013 |
+| 2014 | 525013 | e25-2014 |
+| 2015 | 525114 | e25-2015 |
 | 2016 | 525116 | e25-2016 |
 | 2019 | 525018 | e25-2019 |
 | 2023 | 525022 | e25-2023 |

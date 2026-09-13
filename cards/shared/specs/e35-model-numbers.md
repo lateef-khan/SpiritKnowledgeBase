@@ -18,12 +18,19 @@ facets:
   - sole
   product_line: elliptical
   model:
-  - e35
+  - e35-2007
+  - e35-2013
+  - e35-2014
+  - e35-2015
   - e35-2016
   - e35-2019
   - e35-2023
   - e35-2026
   applies_to:
+  - e35-2007
+  - e35-2013
+  - e35-2014
+  - e35-2015
   - e35-2016
   - e35-2019
   - e35-2023
@@ -31,6 +38,10 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '535081'
+  - '535012'
+  - '535013'
+  - '535015'
   - '535016'
   - '535018'
   - '535022'
@@ -44,12 +55,16 @@ see_also:
 - e35-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e35-2016 to e35-2026
+  locator: rows e35-2007 to e35-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2007 | 535081 | e35-2007 |
+| 2013 | 535012 | e35-2013 |
+| 2014 | 535013 | e35-2014 |
+| 2015 | 535015 | e35-2015 |
 | 2016 | 535016 | e35-2016 |
 | 2019 | 535018 | e35-2019 |
 | 2023 | 535022 | e35-2023 |
