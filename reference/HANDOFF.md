@@ -2,9 +2,9 @@
 
 **Written:** 2026-09-10, at a clean pause. **Updated 2026-09-12** after the third and
 last Xterra wave (X3) merged, after a full hash-and-text check of every PDF on
-disk, and after Sole treadmills wave **A1** merged (PR #64). **3a (Spirit) and
-3b (Xterra) are done. Sole is IN PROGRESS: 25 of 95 legacy owner's manuals
-ingested** — see section 3d.
+disk, and after Sole treadmill waves **A1** (PR #64) and **A2** (PR #66) merged.
+**3a (Spirit) and 3b (Xterra) are done. Sole is IN PROGRESS: 49 of 95 legacy
+owner's manuals ingested** — see section 3d.
 Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
@@ -17,11 +17,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **9,669** |
+| cards | **9,827** |
 | `kb lint` | 0 problems |
-| declared model ids | **442** (209 Spirit, 169 Sole, 64 Xterra) — every one has at least one card |
-| sources ingested | 592 |
-| machines carrying `model_number` | **319** of 360 with single-machine cards |
+| declared model ids | **445** (209 Spirit, 172 Sole, 64 Xterra) — every one has at least one card |
+| sources ingested | 616 |
+| machines carrying `model_number` | **322** of 363 with single-machine cards |
 
 Check it yourself:
 
@@ -368,10 +368,19 @@ settled: ids from footer revision stamps (`MODEL_YYYYMMDD`) + warranty
 effective dates + one full `dbo.MODEL` SOLE dump, never the filename (TT9
 "2019" is a 2018 revision; AS77 "2011" stamps 2012-01-23; V-machines are
 2007 under 2008 filenames; W-books pair two years under one SKU);
-`f60-2013` = 560813, 560812 unassigned; TT8C has no DB row. Remaining, in
-this order: **A2** 24 stencil-era treadmills (all <100 native words, full
-OCR sweep per book), **B** 32 ellipticals (incl. the UE25 extra), **C** 14
-climbers / rowers / SRVO / strength.
+`f60-2013` = 560813, 560812 unassigned; TT8C has no DB row.
+
+**A2 treadmills stencil era: done** (PR #66, 2026-09-12) — 24 books, full
+300dpi OCR sweep (27–36 supplemented pages each, 7–11k words a book; run
+with system `python3`, `.venv` has no PIL). 3 new ids: `f63-2025`,
+`td80-2019`, `tt8-2021` (footer `TT8_2021 Ver.C`); shared-SKU numbers
+encoded per the 2026-09-03/08 user decisions (`tt8-2020`, `f85-2020`,
+`f85-2021`, `st90-2020`, `st90-2021`). 157 new cards + 141 extensions.
+No E01/LS1 in any A2 book. Wave file
+`reference/sole-treadmills-a2-wave.tsv`; briefs in `/tmp/sole-a2/briefs/`.
+
+Remaining, in this order: **B** 32 ellipticals (incl. the UE25 extra),
+**C** 14 climbers / rowers / SRVO / strength.
 
 They are real new work: the F80 2019 book measures 0.00 against the F80 2026 book
 and the 2023 service manual; the E20/E25 2012-2015 book 0.51 against its nearest
@@ -502,23 +511,20 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written 2026-09-12; A1 merged the same day)
+## 8. Where to pick up (written 2026-09-12; A1 and A2 merged the same day)
 
-Spirit (3a) and Xterra (3b) are merged; Sole 3d wave **A1** (25 native-text
-treadmills, PR #64) is merged. **Next is A2: the 24 stencil-era Sole
-treadmills** (every one under 100 native words — full 300 dpi OCR sweep per
-book, all four rotations, expect 5–9k words a book), then **B** (32
-ellipticals) and **C** (14 climbers / rowers / SRVO / strength), all from
+Spirit (3a) and Xterra (3b) are merged; Sole 3d waves **A1** (25 native-text
+treadmills, PR #64) and **A2** (24 stencil treadmills, PR #66) are merged.
+**Next is B: the 32 Sole ellipticals** (31 TSV rows plus the UE25 UE55 E55
+2007 extra), then **C** (14 climbers / rowers / SRVO / strength), all from
 `Sole Treadmill/Owners Manuals-20260904T175611Z-1-001/Owners Manuals` and
 listed in `reference/sole-legacy-owners-manuals-not-ingested.tsv` (95 rows).
-Reuse the A1 briefs as the template (they are newer than the X2 set: Sole
-brand with existing cards, treadmill section boundaries, the four
-double-checks, `sole-<family>` shared ids, W-book one-SKU-two-ids shape);
-they live in the A1 session scratchpad, not the repo — rebuild from
-`reference/wave-briefs/` + `reference/sole-treadmills-a1-wave.tsv`.
-The Sole 2026 error-code family rule holds: old books E1-E8, 2026 books
-E01-E06/E22/E31, never one card for both. Then the five Spirit strength
-2025 revisions (section 3d, last paragraph). Then 3c, which needs a person.
+Reuse the A2 briefs as the template (stencil-image method, render-verified
+figures, shared-SKU sibling ids); ellipticals add stride/step-up assembly,
+pedal-arm maintenance and the E35/E95 multi-year books. The Sole 2026
+error-code family rule holds: never one card across code families. Then the
+five Spirit strength 2025 revisions (section 3d, last paragraph). Then 3c,
+which needs a person.
 
 Small things a later session could pick up:
 
