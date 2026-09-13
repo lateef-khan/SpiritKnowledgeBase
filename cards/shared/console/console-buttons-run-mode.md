@@ -32,7 +32,7 @@ see_also:
 - f63-2016-console-buttons-ready-mode
 source:
   ref: sole-tm-f63-2016-service-manual
-  locator: page 20, Function Button In Main Mode, RUN MODE
+  locator: page 20, Function Button In Main Mode, RUN MODE; sole-tm-f63-f65-2016-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

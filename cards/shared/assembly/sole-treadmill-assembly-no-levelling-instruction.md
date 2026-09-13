@@ -2,7 +2,7 @@
 id: sole-treadmill-assembly-no-levelling-instruction
 title: No levelling instruction in these treadmill owner manuals
 kind: fact
-question: Do Sole treadmills from 2006 to 2018 need levelling after assembly?
+question: Do Sole treadmills need levelling after assembly?
 asked_as:
 - sole treadmill levelling feet
 - how to level my sole treadmill
@@ -32,21 +32,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -85,10 +114,10 @@ source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: Full assembly sections of all 25 A1 sources (e.g. F63 ASSEMBLY INSTRUCTIONS,
     PDF pp. 10-13); full-text scan of every text.md for level/levelling + foot/pad/glide/adjust/stabiliser
-    terms returns only program-effort "levels"
+    terms returns only program-effort "levels". A2 adds full assembly sections of all 24 stencil-era sources scanned the same way - placement is only ever a smooth level or leveled floor or ground with the rear 3 ft from a wall, and the TD80 reasonably-level-surface sentence is about roller parallelism (belt care)
   extracted_at: '2026-09-12'
 ---
 
-None of these 25 owner manuals prints a levelling step: no adjustable feet, no levelling procedure, no "level the frame" instruction anywhere in any assembly section. Placement is only ever "a smooth, level floor/ground" (or "a hard, level surface" in the TT8 books).
+None of these 49 owner manuals prints a levelling step: no adjustable feet, no levelling procedure, no "level the frame" instruction anywhere in any assembly section. Placement is only ever "a smooth, level floor/ground" (or "a hard, level surface" in the TT8 books).
 
-Proved twice: a case-insensitive full-text scan of all 25 text.md files for levelling/leveling and for "level" near foot/pad/glide/adjust/stabili- returns only workout-effort "levels" (e.g. "adjust the speed level"), and every assembly section was read in full. Belt-tracking adjustment with the rear-roller bolts is care, not levelling, and lives with the maintenance section.
+Proved twice: a case-insensitive full-text scan of all 25 A1 plus all 24 A2 text.md files for levelling/leveling and for "level" near foot/pad/glide/adjust/stabili- returns only workout-effort "levels" (e.g. "adjust the speed level"), and every assembly section was read in full. Belt-tracking adjustment with the rear-roller bolts is care, not levelling, and lives with the maintenance section.

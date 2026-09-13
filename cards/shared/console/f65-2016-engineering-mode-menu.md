@@ -35,7 +35,7 @@ see_also:
 - f65-2016-e0-safety-key-error
 source:
   ref: sole-tm-f65-2016-service-manual
-  locator: Section 8.9, MAINTENANCE MENU
+  locator: Section 8.9, MAINTENANCE MENU; sole-tm-f63-f65-2016-owners-manual PDF p. 33
   extracted_at: '2026-09-04'
 ---
 

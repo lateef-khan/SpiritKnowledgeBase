@@ -20,8 +20,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: errors
   code: '*'
@@ -33,7 +34,7 @@ see_also:
 - st90-parts-and-wiring
 source:
   ref: sole-tm-st90-2021-service-manual
-  locator: Section 7-1 Error Codes, pages 29-30
+  locator: Section 7-1 Error Codes, pages 29-30; owner checklist sole-tm-st90-2021-owners-manual PDF pp. 27-28 (printed 25-26)
   extracted_at: '2026-09-04'
 ---
 
@@ -63,3 +64,14 @@ This machine uses an AC inverter, so its codes are the `E-nnH` set, not the E1 t
 **Codes this manual does not list.** The company-wide inverter list (`sole-inverter-error-code-list`) also carries E-0CH, E-26H, E-27H, E-28H, E-41H, E-42H, E-53H and a green and red E3 split. This manual prints none of them, and prints `E-3H` where that list prints `E-53H`. Neither source explains the difference.
 
 **Where this table disagrees with the company-wide list.** For E-06H this manual says `Please check Braking resistor`; the company-wide list says to follow the inverter troubleshooting and replace the inverter. For E-21H this manual says to lubricate the belt; the company-wide list calls it a flash program fault and replaces the inverter.
+
+**The owner's manual prints the same code set as an OK/NG checklist** (sole-tm-st90-2021-owners-manual PDF pp. 27-28, printed 25-26; that book covers st90-2020 and st90-2021), headed "ERROR MESSAGES FOR DIGITAL-CONTROL SYSTEM TREADMILLS", each row shaped "Console showing <meaning> / Error E-nnH" with OK/NG tick boxes. Code shapes verified against the render: zeros, not the letter O (E-01H, E-02H, E-0AH, E-0BH). Every code and remedy matches the service table except:
+
+| Code | Owner printing | Service printing above |
+|---|---|---|
+| E-09H | Please clean cooling fan. | Please check and clean cooling fan. |
+| E-0AH, E-0BH, E-21H | Please check running belt or check bearing for damage. | Please lubricate running belt or check for bad bearing. |
+| E-29H | Abnormal temperature, please clean cooling fan. | Abnormal temperature, please clean dusk [dust] on cooling fan. |
+| E-0BH | Meaning misprinted "Converter oberload". | Converter overload. |
+
+The card follows the service manual's lubricate-and-bearing fix for E-0AH/E-0BH/E-21H; the owner's "check" is its customer-facing first step. The owner table additionally prints **E-25H Emergency Stop: "Safety key pulled, please attach safety key"**, which the service manual omits — check the key is attached before any board work.

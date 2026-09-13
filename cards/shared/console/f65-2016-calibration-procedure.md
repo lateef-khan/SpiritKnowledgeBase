@@ -38,7 +38,7 @@ see_also:
 - f80-2016-engineering-mode-menu
 source:
   ref: sole-tm-f65-2016-service-manual
-  locator: Section 8.9, CALIBRATION PROCEDURE
+  locator: Section 8.9, CALIBRATION PROCEDURE; sole-tm-f63-f65-2016-owners-manual PDF p. 33
   extracted_at: '2026-09-04'
 ---
 

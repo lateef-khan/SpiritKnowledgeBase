@@ -34,12 +34,28 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - uf80-2006
   - uf83-2006
@@ -84,8 +100,10 @@ source:
     PDF p.26; sole-tm-vs73-vs77-2008-owners-manual PDF p.22; sole-tm-vtt8-2008-owners-manual
     PDF p.22; sole-tm-wf63-2009-2010-owners-manual PDF p.27; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
     PDF p.27; sole-tm-ws73-ws77-2009-2010-owners-manual PDF p.23; sole-tm-wtt8-2009-2010-owners-manual
-    PDF p.23
+    PDF p.23; sole-tm-f63-f65-2016-owners-manual PDF p. 33; sole-tm-f63-2019-owners-manual PDF p. 31; sole-tm-tt8-2016-owners-manual PDF p. 34; sole-tm-f63-2023-owners-manual PDF p. 34
   extracted_at: '2026-09-12'
 ---
 
 Two paths print the same setting. **Calibration path** (every book below): enter factory settings (remove safety key, hold Start plus Fast, replace key, Enter), then at the units step press the **Up/Down key** to show Metric or English (miles vs kilometres) and press Enter. **Menu path** (books with a maintenance menu): open the menu and take **Functions -> Units - choose English or Metric display readings** (2007-2010 books: 'set display to English or Metric readings'). The odometer, speed and distance windows follow the setting.
+
+The A2 books use the incline up/down key (not Up/Down) at the calibration units step; the menu path is unchanged.

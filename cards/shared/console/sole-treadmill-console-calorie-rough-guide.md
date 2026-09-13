@@ -33,18 +33,35 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - uf63-2006
   - uf80-2006
@@ -95,8 +112,10 @@ source:
     PDF p.15; sole-tm-vf80-vf83-vf85-2008-owners-manual PDF p.17; sole-tm-vs73-vs77-2008-owners-manual
     PDF p.13; sole-tm-vtt8-2008-owners-manual PDF p.14; sole-tm-wf63-2009-2010-owners-manual
     PDF p.16; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual PDF p.16; sole-tm-ws73-ws77-2009-2010-owners-manual
-    PDF p.13; sole-tm-wtt8-2009-2010-owners-manual PDF p.14
+    PDF p.13; sole-tm-wtt8-2009-2010-owners-manual PDF p.14; sole-tm-f63-f65-2016-owners-manual PDF p. 18; sole-tm-f63-2019-owners-manual PDF p. 17; sole-tm-td80-2019-owners-manual PDF p. 18; sole-tm-tt8-2016-owners-manual PDF p. 17; sole-tm-f63-2023-owners-manual PDF p. 19
   extracted_at: '2026-09-12'
 ---
 
 The display shows cumulative calories burned at any time during the workout, but 'this is only a rough guide used for comparison of different exercise sessions, which cannot be used for medical purposes.' The F60-2016 prints the same note with its middle garbled in extraction; the TT9 prints no standalone calorie section (calories appear in its program setup and summary screens). Entering the right body weight keeps the count closer; age and weight entry itself is programs' territory.
+
+The A2 LCD, TT8 and TD80 books print the same rough-guide note (the TD80 repeats it under its windows).

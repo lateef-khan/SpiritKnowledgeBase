@@ -35,7 +35,7 @@ see_also:
 - tt8-2016-ac-console-data-ranges
 source:
   ref: sole-tm-tt8-2016-ac-service-manual
-  locator: Function Button In Main Mode, READY MODE, page 19
+  locator: Function Button In Main Mode, READY MODE, page 19; sole-tm-tt8-2016-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 
@@ -49,3 +49,5 @@ The keys behave the same in ready mode and in run mode: the machine goes to that
 
 Beware the neighbouring TT8 variants — the speed preset row is one of the places where the AC and DC builds
 and the model years differ, so read the value off the machine in front of you rather than from memory.
+
+The 2016 owners book prints the generic 1-3-5-7-9-12-15 grade row shared with the non-decline books; this card follows the service manual (-4 to 12), which fits a decline machine.

@@ -35,18 +35,34 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -98,7 +114,7 @@ source:
     PDF p.16; sole-tm-vs73-vs77-2008-owners-manual PDF p.12; sole-tm-vtt8-2008-owners-manual
     PDF p.13; sole-tm-wf63-2009-2010-owners-manual PDF p.15; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
     PDF p.15; sole-tm-ws73-ws77-2009-2010-owners-manual PDF p.12; sole-tm-wtt8-2009-2010-owners-manual
-    PDF p.13
+    PDF p.13; sole-tm-f63-f65-2016-owners-manual PDF p. 16; sole-tm-f63-2019-owners-manual PDF p. 16; sole-tm-f65-2019-owners-manual PDF p. 16; sole-tm-f80-2016-owners-manual PDF p. 16; sole-tm-f80-2019-owners-manual PDF p. 16; sole-tm-f85-2016-owners-manual PDF p. 16; sole-tm-f85-2019-owners-manual PDF p. 16; sole-tm-s77-2016-owners-manual PDF p. 16; sole-tm-s77-2019-owners-manual PDF p. 16; sole-tm-tt8-2016-owners-manual PDF p. 16; sole-tm-tt8-2019-owners-manual PDF p. 15; sole-tm-f63-2023-owners-manual PDF p. 18; sole-tm-f65-2023-owners-manual PDF p. 16; sole-tm-f63-2025-owners-manual PDF p. 18
   extracted_at: '2026-09-12'
 ---
 
@@ -108,3 +124,5 @@ source:
 4. Press **Stop** or pull the safety key to stop the belt.
 
 Start-speed wording differs by book: the 2006 F63 book starts 'at 1.0 km'; the 2006 F80/TT8 books start 'at .5 mph'; the 2007-2010 books start 'at 0.5 mph'; the TT9 touchscreen starts at '0.8 km/h (0.5 MPH)'; the 2011/2013 and F60-2016 books state no start speed. The TT9 stops with the first-page button or Stop. The TT9 has no rapid preset keys.
+
+The A2 LCD books print the same four steps with their per-book speed presets (own cards hold the values).

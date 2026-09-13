@@ -35,11 +35,24 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   - tt8-2013
   - tt8c-2011
   - uf63-2006
@@ -61,8 +74,10 @@ source:
     PDF p.10; sole-tm-f65-2013-2014-owners-manual PDF p.15; sole-tm-f80-f85-2013-owners-manual
     PDF p.16; sole-tm-s77-2013-owners-manual PDF p.15; sole-tm-tt8-2013-owners-manual
     PDF p.14; sole-tm-tt8c-2011-owners-manual PDF p.15; sole-tm-vf63-2008-owners-manual
-    PDF p.13; sole-tm-wf63-2009-2010-owners-manual PDF p.14
+    PDF p.13; sole-tm-wf63-2009-2010-owners-manual PDF p.14; sole-tm-f63-f65-2016-owners-manual PDF p. 16; sole-tm-f63-2019-owners-manual PDF p. 15; sole-tm-f65-2019-owners-manual PDF p. 15; sole-tm-f80-2016-owners-manual PDF p. 15; sole-tm-f80-2019-owners-manual PDF p. 15; sole-tm-f85-2016-owners-manual PDF p. 15; sole-tm-f85-2019-owners-manual PDF p. 15; sole-tm-s77-2016-owners-manual PDF p. 15; sole-tm-s77-2019-owners-manual PDF p. 15; sole-tm-td80-2019-owners-manual PDF p. 17; sole-tm-f63-2023-owners-manual PDF p. 17; sole-tm-f65-2023-owners-manual PDF p. 16; sole-tm-f63-2025-owners-manual PDF p. 17
   extracted_at: '2026-09-12'
 ---
 
 Plug into a wall outlet, switch on the power switch at the front below the motor hood, and fit the safety key – the machine will not power on without it. A message scrolls across the Message Window (2006/VF63/WF63 books: the dot matrix) showing the current software version; then the Time and Distance windows show odometer readings (hours used, miles gone – or kilometres if set to metric); then the machine enters **idle mode**, the starting point for operation.
+
+The 2023 books show the odometer in the Time and Pace (not Distance) windows; the TD80 shows software version, mileage and hours.

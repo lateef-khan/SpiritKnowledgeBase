@@ -24,6 +24,9 @@ facets:
   applies_to:
   - f85-2016
   - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
   section: maintenance
   code: '*'
 authority: 3
@@ -31,7 +34,7 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: sole-tm-f85-2016-service-manual
-  locator: section 9 Folding Instructions, printed page 65
+  locator: 'section 9 Folding Instructions, printed page 65 A2 same-text owners books (FOLDING/TRANSPORTATION INSTRUCTIONS): sole-tm-f85-2021 and sole-tm-f85-2023 (f85-2020 shares the 2021 book, one SKU).'
   extracted_at: '2026-09-04'
 ---
 

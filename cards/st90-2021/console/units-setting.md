@@ -21,8 +21,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: console
   code: '*'
@@ -33,7 +34,7 @@ see_also:
 - st90-2021-engineering-mode-parameters
 source:
   ref: sole-tm-st90-2021-service-manual
-  locator: Section 8-1-1 Units, page 37
+  locator: Section 8-1-1 Units, page 37; sole-tm-st90-2021-owners-manual PDF p. 21
   extracted_at: '2026-09-04'
 ---
 
@@ -49,3 +50,5 @@ Four values follow the setting:
 | Weight | lb / Kg |
 
 There is a second units setting in engineering mode, which is the one the calibration uses.
+
+The owners book prints only the tap-UNITS switch; the imperial/metric table stays service-sourced.

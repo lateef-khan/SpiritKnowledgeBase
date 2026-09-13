@@ -25,6 +25,9 @@ facets:
   model: '*'
   section: errors
   applies_to:
+  - st90-2020
+  - st90-2021
+  - st90-2023
   - tt9-2018
   - uf80-2006
   - uf83-2006
@@ -45,7 +48,7 @@ source:
   ref: sole-tm-tt9-2018-owners-manual
   locator: 'SERVICE CHECKLIST table (14-gauge wording): tt9-2018 PDF p. 41; uf80/83/85-2007
     PDF p. 26; vf80/83/85-2008 PDF p. 26; vs73/77-2008 PDF p. 22; vtt8-2008 PDF p.
-    22'
+    22; A2 rows: st90-2021 PDF p. 26 (printed 24, render-verified); st90-2023 PDF p. 26 (printed 24, render-verified)'
   extracted_at: '2026-09-12'
 ---
 
@@ -54,3 +57,5 @@ This is the 14-gauge reading — not the 16-gauge reading most books of this era
 > Treadmill will only achieve approximately 7 mph but shows higher speed on display — This indicates motor should be receiving power to operate. Low AC voltage to treadmill. Do not use an extension cord. If an extension cord is required it should be as short as possible and heavy duty 14 gauge minimum. Low household voltage. Contact an electrician or your SOLE dealer. A minimum of 110 volt AC current is required.
 
 The TT9-2018 book ends "...110 volt AC current is required"; the four 2007/2008 books (UF80/83/85, VF80/83/85, VS73/77, VTT8) end "...110 volt AC, 15 amp is required".
+
+The ST90-2021 and ST90-2023 books (covering st90-2020, st90-2021 and st90-2023) end "...110 volt AC current is required", like the TT9-2018 book.

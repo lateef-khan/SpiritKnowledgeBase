@@ -23,6 +23,17 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - f80-2023
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
+  - tt8-2021
+  - tt8-2023
   - tt9-2018
   - uf80-2006
   - uf83-2006
@@ -47,7 +58,7 @@ source:
   ref: sole-tm-vf63-2008-owners-manual
   locator: safety list PDF p. 4 in most books (p. 5 in the AF63/AF80/AS77/ATT8/TT8C
     books); electrical page PDF p. 5 (p. 6 in those five); operation page PDF p. 6
-    (p. 7 in those five)
+    (p. 7 in those five) - A2 same paragraphs, safety list PDF p. 4, in the eleven 120-volt books.
   extracted_at: '2026-09-12'
 ---
 
@@ -58,3 +69,5 @@ source:
 TT9-2018 contradicts itself: its safety list names this 120-volt, 15-amp outlet, but its grounding page says the product is for use on a nominal 110-volt circuit. This card follows the safety list for the outlet figure; the grounding figure is on the nominal-110-volt grounding card.
 
 The 2009-and-later books for most other models name 110 volts instead and have their own card.
+
+The eleven 120-volt A2 machines named in applies_to print the same two WARNING paragraphs word for word (render-verified for the F80-2023 book). The TD80-2019 book reads `See Grounding Instructions if applicable` where the others cite `page 3`.

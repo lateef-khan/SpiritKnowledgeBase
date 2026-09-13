@@ -32,14 +32,32 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - tt9-2018
   - wf63-2009
@@ -66,7 +84,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: Grounding Instructions, PDF p. 5 (p. 6 in the AF63/AF80/AS77/ATT8/TT8C
-    books)
+    books) - A2 same page, Grounding Instructions PDF p. 5, in the eighteen 110-volt books.
   extracted_at: '2026-09-12'
 ---
 
@@ -77,3 +95,5 @@ source:
 **This product is for use on a nominal 110-volt circuit.** A temporary adapter may be used to connect the plug to a 2-pole receptacle if a properly grounded outlet is not available, but only until a properly grounded outlet can be installed by a qualified electrician. The green colored rigid ear lug extending from the adapter must be connected to a permanent ground, such as a properly grounded outlet box cover, and whenever the adapter is used it must be held in place by a metal screw.
 
 The 2006-family books and the 2007 printings name a nominal 120-volt circuit instead and have their own card.
+
+The eighteen 110-volt A2 machines named in applies_to print the same grounding page word for word, temporary adapter and metal screw included.

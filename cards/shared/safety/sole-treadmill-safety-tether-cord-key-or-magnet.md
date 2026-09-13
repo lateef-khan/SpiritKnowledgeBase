@@ -34,21 +34,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -90,7 +119,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: Safety tether cord section, PDF p. 6 (p. 7 in the AF63/AF80/AS77/ATT8/TT8C
-    books)
+    books) - A2 tether page, operation PDF p. 6, in all 24 books.
   extracted_at: '2026-09-12'
 ---
 
@@ -106,3 +135,5 @@ The fitting differs by era; the function does not:
 Both eras then agree: **fasten the plastic clip onto your clothing securely**, be familiar with its function and limitations, and **the treadmill will stop, depending on speed, with a one to two step coast anytime the key or magnet is pulled off the console. Use the red Stop switch in normal operation** (red Stop / Pause switch in the 2006 books).
 
 A treadmill that runs with no key fitted is a fault, not this card.
+
+The 28 non-desk A2 books use the safety-key fitting with the same step 1 and step 2 as the first table row, and add a third step the A1-wave books do not print: if the console displays `Safety key removed, machine stopped ...`, put the safety key back to continue. In most A2 books the message reads `... machine stopped, click Replace the key to Operate`; the F63-2023 and F63-2025 books read `... machine stopped. Please replace the key to Operate`. The eight 2016-era A2 ids (F60-2020, F63-2016, F65-2016, F80-2016, F85-2016, S77-2016, TT8-2016, TT8-2016-AC) print steps 1-2 only, matching the first table row exactly. The TD80-2019 desk book uses the magnet fitting - place the magnet on the red portion of the console head between the Start and Stop keys, with the same `strong enough power` note - and prints no third step.

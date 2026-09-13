@@ -33,8 +33,10 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2013
   - f63-2015
+  - f63-2016
   - f65-2013
   - f65-2014
   - f65-2016
@@ -43,8 +45,12 @@ facets:
   - f80-2016
   - f80-2019
   - f85-2013
+  - f85-2016
   - s77-2013
+  - s77-2016
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
   - tt8c-2011
   - tt9-2018
   - wf63-2009
@@ -62,12 +68,13 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- f63-2026-afci-gfci-nuisance-tripping
 - f65-2016-electrical-power-requirements
 - f65-2016-house-breaker-trips
 - f80-2016-electrical-power-requirements
 source:
   ref: sole-tm-f65-2016-service-manual
-  locator: Section 7.2, Important Electrical Instructions; legacy owner books print both paragraphs word for word (electrical page PDF p. 5, p. 6 in the AF63/AF80/AS77/ATT8/TT8C books)
+  locator: Section 7.2, Important Electrical Instructions; legacy owner books print both paragraphs word for word (electrical page PDF p. 5, p. 6 in the AF63/AF80/AS77/ATT8/TT8C books) - A2 same paragraphs, electrical page PDF p. 5, in the 2016-era books.
   extracted_at: '2026-09-04'
 ---
 
@@ -78,3 +85,5 @@ source:
 This is **not a warranty defect** - the manufacturer has no ability to control it. The part is available through most electrical supply stores. Examples given: **Grainger part # 1D237**, or online at www.squared.com **part # QO120HM**.
 
 The legacy owner books listed above print both paragraphs word for word (same Grainger 1D237 and squared.com QO120HM examples). The WS73/WS77 books print a different GFCI sentence and the 2006-family and 2007-printing books print no breaker paragraph, so none of those are named here; their GFCI rule is on `sole-treadmill-safety-gfci-without-breaker-paragraph`.
+
+The 2016-era A2 owner books print both paragraphs word for word with the same Grainger 1D237 / squared.com QO120HM examples: F60-2020, F63-2016, F85-2016, S77-2016, TT8-2016 and TT8-2016-AC (F65-2016 and F80-2016 were already named). The 2019-and-later A2 books replace both paragraphs with the AFCI/GFCI page and are on `f63-2026-afci-gfci-nuisance-tripping` instead. (F65-2019 and F80-2019 are named above from their service manuals, which print the old paragraphs; their owner books print the AFCI/GFCI page.)

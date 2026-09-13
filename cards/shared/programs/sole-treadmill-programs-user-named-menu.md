@@ -33,9 +33,18 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
   - s77-2013
   section: programs
@@ -48,7 +57,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'USER PROGRAMS, PDF p.21 (printed 19); same steps: F65, F60-2012, F80/F85-2013,
-    S77-2013, AF63/AF65 (Calorie/Message windows), AF80/AF83/AF85, AS77 books'
+    S77-2013, AF63/AF65 (Calorie/Message windows), AF80/AF83/AF85, AS77 books; A2 stencil same steps: F63/F65-2016, F80-2016, F63/F65/F80-2019, F63/F65-2023, F63-2025 books'
   extracted_at: '2026-09-12'
 ---
 
@@ -60,4 +69,4 @@ source:
 6. The **first column (segment) blinks**. Set the **speed** for segment 1 with the Speed/Fast/Slow/Quick keys, press Enter, and repeat for every column. The first column then blinks again for **incline**: repeat the same process for all incline segments.
 7. **Press Start to begin the workout and also save the program to memory.**
 
-Speeds are absolute entries per segment here, unlike the TT8 Custom program where a mid-workout change propagates. Several books add that **changing the speed mid-workout shifts all later segments too** (with a worked 1 mph / 0.5 mph example): the AF63/AF65 book (as an "F65 Note"), the AF80/AF83/AF85 book, the AS77 book, and the F65-2013, F80/F85-2013 and S77-2013 books. The F63-2013 and F60-2012 books do not print that note.
+Speeds are absolute entries per segment here, unlike the TT8 Custom program where a mid-workout change propagates. Several books add that **changing the speed mid-workout shifts all later segments too** (with a worked 1 mph / 0.5 mph example): the AF63/AF65 book (as an "F65 Note"), the AF80/AF83/AF85 book, the AS77 book, and the F65-2013, F80/F85-2013 and S77-2013 books. The F63-2013 and F60-2012 books do not print that note. A2: all nine added books print the note with the 1 mph / 0.5 mph example.

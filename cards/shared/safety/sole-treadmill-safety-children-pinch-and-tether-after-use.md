@@ -33,21 +33,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -89,11 +118,13 @@ source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: safety list PDF p. 4 in most books (p. 5 in the AF63/AF80/AS77/ATT8/TT8C
     books); electrical page PDF p. 5 (p. 6 in those five); operation page PDF p. 6
-    (p. 7 in those five)
+    (p. 7 in those five) - A2 under-13 line, safety list PDF p. 4, in all 24 books.
   extracted_at: '2026-09-12'
 ---
 
 - **Keep children away from the treadmill. There are obvious pinch points and other caution areas that can cause harm.** In the F60-2016 and TT9-2018 books this line instead reads "**Keep children under the age of 13 away from this machine**"; the rest of the sentence is identical.
 - **Remove tether cord after use to prevent unauthorized treadmill operation.**
 
-No legacy book states a pets-around-the-machine safety rule; the word "pet" appears only in the chest-strap interference list ("perimeter fence for a pet") and in the cleaning section ("pet hair") - both outside this section. None of them prints the "persons with reduced capabilities" clause the 2026 books carry.
+No legacy book states a pets-around-the-machine safety rule; the word "pet" appears only in the chest-strap interference list ("perimeter fence for a pet") and in the cleaning section ("pet hair") - both outside this section. The A1-wave books print no "persons with reduced capabilities" clause; all 24 A2 books do, and it has its own card (`sole-treadmill-safety-reduced-capabilities-supervision`).
+
+All 24 A2 books print the under-13 line: 28 machines read `away from this machine`; the TD80-2019 book reads `away from the treadmill`. The tether-after-use line is identical in all 24.

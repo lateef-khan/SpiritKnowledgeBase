@@ -35,16 +35,28 @@ facets:
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2006
   - tt8-2013
   - tt8c-2011
@@ -97,8 +109,10 @@ source:
     PDF p.17; sole-tm-vs73-vs77-2008-owners-manual PDF p.13; sole-tm-vtt8-2008-owners-manual
     PDF p.14; sole-tm-wf63-2009-2010-owners-manual PDF p.16; sole-tm-wf80-wf83-wf85-2009-2010-owners-manual
     PDF p.16; sole-tm-ws73-ws77-2009-2010-owners-manual PDF p.13; sole-tm-wtt8-2009-2010-owners-manual
-    PDF p.14
+    PDF p.14; sole-tm-f63-f65-2016-owners-manual PDF p. 18; sole-tm-f63-2019-owners-manual PDF p. 17; sole-tm-f65-2019-owners-manual PDF p. 17; sole-tm-f80-2016-owners-manual PDF p. 17; sole-tm-f80-2019-owners-manual PDF p. 17; sole-tm-f85-2016-owners-manual PDF p. 17; sole-tm-f85-2019-owners-manual PDF p. 17; sole-tm-s77-2016-owners-manual PDF p. 17; sole-tm-s77-2019-owners-manual PDF p. 17; sole-tm-f63-2023-owners-manual PDF p. 19; sole-tm-f65-2023-owners-manual PDF p. 17; sole-tm-f63-2025-owners-manual PDF p. 19
   extracted_at: '2026-09-12'
 ---
 
 The 1/4-mile track rings the dot matrix window and a flashing dot marks progress. Where the laps go differs by book: **viewed in the Message Window** (F63/F65/F80/S77 2013 books, AF80 book); **below the Message Window** (F60-2012 book); **below the Pulse/PULSE window** (AF63/AF65 and WF63 books); **in the center of the track** (UF80, VF80, WF80, VS73, WS73, VTT8, WTT8 books); **no laps sentence** – the feature simply restarts after each 1/4 mile (2006 books, VF63); **1/4-Mile Track (0.4 km)** with no laps sentence (AS77, ATT8, TT8C); TT8-2013 adds that the dot advances **counterclockwise** around the Speed and Incline profiles. The F60-2016 and TT9 print no 1/4-mile track section (the TT9 has a TRACK touch view instead).
+
+The A2 books print the Message-Window lap-counter variant (2023 included); the TT8 books print no track section.

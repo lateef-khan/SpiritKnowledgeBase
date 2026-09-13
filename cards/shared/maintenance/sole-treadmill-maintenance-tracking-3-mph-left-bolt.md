@@ -33,14 +33,40 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - td80-2019
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - wf63-2009
@@ -74,7 +100,7 @@ source:
     PDF p.28 (lines 1114-1155); sole-tm-tt9-2018-owners-manual PDF p.39 (lines 1141-1182);
     sole-tm-wf63-2009-2010-owners-manual PDF p.24 (lines 776-811); and the same layout
     in the as77-2012, tt8c-2011, wf80, ws73, ws77 and wtt8 books (tracking page, left-bolt
-    3 mph procedure).'
+    3 mph procedure). A2 same-text stencil books (tracking page, left-bolt 3 mph procedure, figures read on the render where load-bearing): sole-tm-f60-2020, sole-tm-f63-2019, sole-tm-f63-2023, sole-tm-f63-2025, sole-tm-f63-f65-2016, sole-tm-f65-2019, sole-tm-f65-2023, sole-tm-f80-2016, sole-tm-f80-2019, sole-tm-f80-2023, sole-tm-f85-2016, sole-tm-f85-2019, sole-tm-f85-2021, sole-tm-f85-2023, sole-tm-f89-2023, sole-tm-s77-2016, sole-tm-s77-2019, sole-tm-td80-2019, sole-tm-tt8-2016, sole-tm-tt8-2019, sole-tm-tt8-2021, sole-tm-tt8-2023.'
   extracted_at: '2026-09-12'
 ---
 
@@ -93,3 +119,5 @@ The belt may need periodic tracking adjustment depending on use and walking/runn
 **ATTENTION: damage to the running belt resulting from improper tracking/tension adjustments is not covered under the Sole warranty.**
 
 The service manuals for these generations print a different procedure (10 mm wrench, kph speeds); see `f65-2016-belt-tracking-adjustment`. This card follows the owner's manuals.
+
+The stencil books carded here (2016-2025) print the same left-bolt 3 mph procedure with the same 6 mm key: an M6 L Allen wrench (132) in the F60-2020, F63-2019, F63/F65-2016, F65-2019, F65-2023, F80-2023, F85-2021, F85-2023, F89-2023 and S77-2019 books, (103) in the F63-2023 book, (105) in the TT8-2019 and TT8-2021 books, (104) in the TT8-2023 and S77-2016 books, and unnumbered in the TD80 book. The F60-2020 and TT8-2016 service manuals print different tracking figures (motor-hood marks; 10 mm wrench with kph speeds); this card follows the owners books.

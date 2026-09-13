@@ -44,3 +44,5 @@ source:
 |---|---|
 | The belt moves but stops after a short time, and the display shows `Err` | Run a calibration. |
 | You press Start and the belt never moves, then the display shows `Err` | Contact service. |
+
+The owner's manual prints the same two branches in its SERVICE CHECKLIST table (sole-tm-st90-2023-owners-manual PDF p. 26, printed 24), render-verified.

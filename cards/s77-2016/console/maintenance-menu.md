@@ -36,7 +36,7 @@ see_also:
 - sole-engineering-menu-non-touchscreen
 source:
   ref: sole-tm-s77-2016-service-manual
-  locator: Section 8.9 Maintenance menu, page 60
+  locator: Section 8.9 Maintenance menu, page 60; sole-tm-s77-2016-owners-manual PDF p. 31
   extracted_at: '2026-09-04'
 ---
 

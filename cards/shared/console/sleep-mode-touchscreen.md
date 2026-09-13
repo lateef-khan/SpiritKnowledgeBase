@@ -30,6 +30,7 @@ facets:
   - st90-2021
   - st90-2023
   - tt8-2020
+  - tt8-2021
   - tt8-2023
   section: console
   code: '*'
@@ -39,7 +40,7 @@ see_also:
 - sole-sleep-mode-non-touchscreen
 source:
   ref: sole-tm-enabling-sleep-mode-treadmill
-  locator: For All Touchscreen Treadmills
+  locator: For All Touchscreen Treadmills; sole-tm-tt8-2021-owners-manual PDF p. 23 (Display Mode row, 30-minute power-down)
   extracted_at: '2026-09-03'
 ---
 

@@ -20,13 +20,14 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f63-2026
+  model: '*'
   applies_to:
   - f63-2026
+  - f80-2023
+  - f85-2023
+  - f89-2023
   section: errors
   code: '*'
-  model_number:
-  - '563286'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +36,7 @@ see_also:
 - f63-2026-power-outlet-requirements
 source:
   ref: sole-tm-f63-2026-owners-manual
-  locator: page 28, Service Checklist - Diagnosis Guide
+  locator: page 28, Service Checklist - Diagnosis Guide; A2 120-volt rows — f80-2023 PDF p. 30 (printed 28, render-verified); f85-2023 PDF p. 30; f89-2023 PDF p. 31
   extracted_at: '2026-09-04'
 ---
 
@@ -56,3 +57,5 @@ Nothing in either manual reconciles them. The safest reading is the heaviest cor
 The electrical section states the underlying rule: **a ten percent voltage variation may affect performance, and is not covered under warranty.** See `f63-2026-supply-voltage-variation`.
 
 **A miscalibrated console produces the same complaint from a different cause.** The service manual blames calibration and then the controller; see `f63-2026-speed-or-incline-does-not-match`.
+
+**The 2023 F80, F85 and F89 stencil books print this same 16-gauge / 120-volt row** (locator) with no cord-figure disagreement in-book.

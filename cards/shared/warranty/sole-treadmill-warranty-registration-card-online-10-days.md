@@ -35,21 +35,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -88,12 +117,13 @@ see_also:
 - sole-treadmill-warranty-responsibilities-7-item-household
 - sole-treadmill-warranty-start-date-receipt-or-18-months-shipping
 - f63-2026-product-registration
+- sole-treadmill-warranty-responsibilities-8-item-photo-duty-2023
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'f63-2013-2015-owners-man PDF p. 3, Product Registration, text.md L76-86;
     warranty 10-day rule: f63-uf63-2006-2007-owner PDF p. 18 (printed 17), text.md
     L618-685; af63-af65-2011-owners-ma PDF p. 33 (printed 30), text.md L1250-1319;
-    tt9-2018-owners-manual PDF p. 42 (printed 40), text.md L1295-1365'
+    tt9-2018-owners-manual PDF p. 42 (printed 40), text.md L1295-1365; f60-2020-owners-manual PDF p. 3, Product Registration, text.md L207-217; f63-2025-owners-manual PDF p. 3, Product Registration, text.md L256-266'
   extracted_at: '2026-09-12'
 ---
 
@@ -106,4 +136,4 @@ source:
 
 **The warranty section adds the deadline** the front page does not mention: the card must be returned **within 10 days of the original purchase** to validate the warranty. **No late-registration-with-proof sentence is printed** — unlike the 2026 books (see `f63-2026-product-registration`). Exclusion 6 bites here: with no registration card on file, SOLE may demand proof of purchase.
 
-Same in all 25 books (effective 2004–2018); only Sole/SOLE capitalisation and the support-tab phrase vary.
+Same in all 49 books (effective 2004–2025); only Sole/SOLE capitalisation and the support-tab phrase vary. The TD80-2019 front page writes "wwwsoletreadmills.com" (no dot after www) — carded as printed. The 2023 books’ warranty duties allow late registration with proof of purchase outside the 10 days (see `sole-treadmill-warranty-responsibilities-8-item-photo-duty-2023`); the front page itself is unchanged.

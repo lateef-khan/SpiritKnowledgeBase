@@ -35,7 +35,7 @@ see_also:
 - s77-2016-console-data-ranges
 source:
   ref: sole-tm-s77-2016-service-manual
-  locator: Section 4 Function Button In Main Mode, page 19
+  locator: Section 4 Function Button In Main Mode, page 19; sole-tm-s77-2016-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

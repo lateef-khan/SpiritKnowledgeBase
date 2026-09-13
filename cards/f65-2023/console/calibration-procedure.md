@@ -36,7 +36,7 @@ see_also:
 - sole-calibration-button-console
 source:
   ref: sole-tm-f65-2023-service-manual
-  locator: Section 8.10 Calibration Procedure, page 35
+  locator: Section 8.10 Calibration Procedure, page 35; sole-tm-f65-2023-owners-manual PDF p. 32
   extracted_at: '2026-09-04'
 ---
 

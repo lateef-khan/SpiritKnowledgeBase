@@ -44,6 +44,7 @@ see_also:
 - sole-treadmill-maintenance-lubrication-every-180-hours-loosen-belt-3-mph
 - sole-treadmill-maintenance-lubrication-every-180-hours-loosen-belt-6-mph
 - sole-treadmill-maintenance-lubrication-every-180-hours-s-pattern
+- sole-treadmill-maintenance-lubrication-every-90-hours-90-days
 - sole-treadmill-maintenance-lubrication-every-90-hours-s-pattern
 - sole-treadmill-maintenance-lubrication-first-50-hours-then-1000-hours
 source:

@@ -19,6 +19,7 @@ facets:
   model: '*'
   applies_to:
   - f63-2023
+  - f63-2025
   - f65-2023
   section: console
   code: '*'
@@ -28,7 +29,7 @@ see_also:
 - sole-sleep-mode-non-touchscreen
 source:
   ref: sole-tm-enabling-sleep-mode-treadmill
-  locator: For the 2023 F63 and F65
+  locator: For the 2023 F63 and F65; sole-tm-f63-2023-owners-manual PDF p. 20; sole-tm-f65-2023-owners-manual PDF p. 18; sole-tm-f63-2025-owners-manual PDF p. 20
   extracted_at: '2026-09-03'
 ---
 
@@ -41,3 +42,5 @@ Applies to the 2023 F63 and F65. These use a shorter combination than the genera
 5. Press **Enter** to confirm.
 
 **What happens**: the machine sleeps after 15 to 30 minutes of no use while the safety key is in. The screen also turns off when the key is removed. Press **Start** to wake it, as long as the key is still in.
+
+The owners books hold Stop, Enter and Display together for 5 seconds (the technician note staggers Display after Stop+Enter).

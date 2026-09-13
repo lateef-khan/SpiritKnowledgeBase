@@ -37,6 +37,7 @@ facets:
   - f65-2013
   - f65-2014
   - f80-2013
+  - f80-2023
   - f85-2013
   - s77-2013
   - tt8-2013
@@ -70,6 +71,7 @@ authority: 3
 not_to_be_confused_with: []
 see_also:
 - f85-2019-console-data-ranges
+- sole-treadmill-specs-elevation-minus-6-to-plus-15
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'Calibration pages setting minimum speed 0.5, maximum speed 12.0 and maximum
@@ -79,8 +81,12 @@ source:
     PDF p. 30; TT8C-2011 PDF p. 32; UF80/UF83/UF85-2006 PDF p. 27; VF80/VF83/VF85-2007
     PDF p. 27; VS73/VS77-2007 PDF p. 23; VTT8-2007 PDF p. 23; WF63-2009/2010 PDF p.
     27; WF80/WF83/WF85-2009/2010 PDF p. 27; WS73/WS77-2009/2010 PDF p. 23; WTT8-2009/2010
-    PDF p. 23 (all PDF pages; printed pages run one to two lower)'
+    PDF p. 23 (all PDF pages; printed pages run one to two lower). Stencil era: F80-2023
+    Custom-program paragraph, PDF p. 19 (printed p. 17, text.md ll. 853-856): "Incline
+    values are absolute and vary from 0 to 15", read on the render'
   extracted_at: '2026-09-12'
 ---
 
-**The calibration maximum elevation is 15 (percent grade).** Every book in `applies_to` prints "Adjust the maximum elevation (if needed) to 15" on its calibration page. The AS77-2012 book corroborates it on the console page with Quick Incline keys "1, 3, 6, 9, 12, 15"; the ATT8-2011, TT8-2013 and TT8C-2011 books print the same Quick Incline key row. The F60-2016 machine is different (0 to 12 levels) and has its own card.
+**The calibration maximum elevation is 15 (percent grade).** Every pre-stencil book in `applies_to` prints "Adjust the maximum elevation (if needed) to 15" on its calibration page. The AS77-2012 book corroborates it on the console page with Quick Incline keys "1, 3, 6, 9, 12, 15"; the ATT8-2011, TT8-2013 and TT8C-2011 books print the same Quick Incline key row. The F60-2016 machine is different (0 to 12 levels) and has its own card.
+
+The stencil-era F80-2023 book reaches the same 15 in its Custom program ("Incline values are absolute and vary from 0 to 15"). Its 2023 siblings F85, F89 and TT8 decline to -6 and have their own card. No other stencil-era book prints a numeric incline range.

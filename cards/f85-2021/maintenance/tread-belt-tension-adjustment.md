@@ -20,8 +20,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f85-2021
+  model: '*'
   applies_to:
+  - f85-2020
   - f85-2021
   section: maintenance
   code: '*'

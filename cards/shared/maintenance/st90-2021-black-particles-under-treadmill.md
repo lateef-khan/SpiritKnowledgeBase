@@ -21,6 +21,7 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   - st90-2023
   section: maintenance

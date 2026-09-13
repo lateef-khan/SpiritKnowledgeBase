@@ -27,11 +27,21 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   section: console
   code: '*'
 authority: 3
@@ -43,8 +53,10 @@ source:
   locator: MESSAGE WINDOW DISPLAY, sole-tm-f63-2013-2015-owners-manual PDF p.17 lines
     605-611; sole-tm-f60-2012-2014-owners-manual PDF p.16; sole-tm-f65-2013-2014-owners-manual
     PDF p.17; sole-tm-f80-f85-2013-owners-manual PDF p.18; sole-tm-s77-2013-owners-manual
-    PDF p.17
+    PDF p.17; sole-tm-f63-f65-2016-owners-manual PDF p. 18; sole-tm-f63-2019-owners-manual PDF p. 17; sole-tm-f65-2019-owners-manual PDF p. 17; sole-tm-f80-2016-owners-manual PDF p. 17; sole-tm-f80-2019-owners-manual PDF p. 17; sole-tm-f85-2016-owners-manual PDF p. 17; sole-tm-f85-2019-owners-manual PDF p. 17; sole-tm-s77-2016-owners-manual PDF p. 17; sole-tm-s77-2019-owners-manual PDF p. 17
   extracted_at: '2026-09-12'
 ---
 
 The Message Window first shows the program name. Each **Display** press steps on: **Pace, Incline, Laps, Verticle** (the books' spelling), **Segment Time, Max Speed (in mph), and Data Scan mode**. In Data Scan mode the shown information changes every **4 seconds**. The TT8 prints a different order starting with Laps; the 2011 books print no Display-cycle section at all.
+
+The A2 books through 2019 print the same order (the 2023 books drop Pace and Incline; the TT8 books differ).

@@ -2,7 +2,7 @@
 id: st90-2021-pause-and-stop
 title: Pausing, resuming and finishing a workout
 kind: procedure
-question: How do I pause and finish a workout on a Sole ST90-2021 treadmill?
+question: How do I pause and finish a workout on a Sole ST90-series treadmill?
 asked_as:
 - how do i pause my treadmill
 - how do i end the workout on my st90
@@ -19,8 +19,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: programs
   code: '*'
@@ -30,8 +31,8 @@ see_also:
 - st90-2021-quick-start
 - st90-2021-grade-return
 source:
-  ref: sole-tm-st90-2021-service-manual
-  locator: Section 4-2-4 Pause/Stop, page 15
+  locator: 'Section 4-2-4 Pause/Stop, page 15; A2: one SKU 590820 covers st90-2020
+    and st90-2021 and the owners text does not separate them'
   extracted_at: '2026-09-04'
 ---
 

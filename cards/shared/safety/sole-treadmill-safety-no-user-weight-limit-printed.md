@@ -32,21 +32,50 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2006
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2006
   - f80-2013
+  - f80-2016
+  - f80-2019
+  - f80-2023
   - f83-2006
   - f85-2006
   - f85-2013
+  - f85-2016
+  - f85-2019
+  - f85-2020
+  - f85-2021
+  - f85-2023
+  - f89-2023
   - s73-2006
   - s77-2006
   - s77-2013
+  - s77-2016
+  - s77-2019
+  - st90-2020
+  - st90-2021
+  - st90-2023
+  - td80-2019
   - tt8-2006
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
+  - tt8-2021
+  - tt8-2023
   - tt8c-2011
   - tt9-2018
   - uf63-2006
@@ -86,10 +115,12 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'Whole book; representative: programmable-features bodyweight entries,
-    PDF pp. 17-20'
+    PDF pp. 17-20; A2 same search over all 24 books, text layer plus OCR supplements.'
   extracted_at: '2026-09-12'
 ---
 
 No legacy book in this wave prints a user weight limit anywhere - not on the safety pages, not in a specification table, not in the warranty. Searched for "weight limit", "weight capacity", "maximum weight", "user weight" and every pound figure: zero hits in all 25 books including the OCR supplements.
 
 The only "weight" figures are the bodyweight entries the console asks for when programming age/weight-dependent programs (affecting the calorie readout), which are inputs, not limits. The weight limit, if one applies to these machines, must come from elsewhere; the specs section holds whatever capacity figures exist for other Sole ranges.
+
+The same search over all 24 A2 stencil books finds no weight limit either: the only `weight` figures are the bodyweight inputs the console asks for when programming calorie programs. The 29 A2 machines named in applies_to therefore join this card.

@@ -40,8 +40,10 @@ facets:
   - f83-2006
   - f85-2006
   - f85-2013
+  - f89-2023
   - s73-2006
   - s77-2006
+  - td80-2019
   - uf63-2006
   - uf80-2006
   - uf83-2006
@@ -69,7 +71,7 @@ see_also:
 - f65-2016-folding-and-unfolding
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
-  locator: 'PDF p.14 (lines 472-503), FOLDING INSTRUCTIONS and TRANSPORTATION INSTRUCTIONS.
+  locator: 'PDF p.14 (lines 472-503), FOLDING INSTRUCTIONS and TRANSPORTATION INSTRUCTIONS. A2 same-text books: sole-tm-f89-2023-owners-manual and the treadmill-deck half of sole-tm-td80-2019-owners-manual (locking telescoping tube assembly, unlocking lever, forward pressure; the TD80 desk-folding sequence is its own card).
     Same text: sole-tm-f60-2012-2014-owners-manual PDF p.13 (lines 438-478); sole-tm-f60-2016-owners-manual
     PDF p.12 (lines 397-419); sole-tm-f63-uf63-2006-2007-owners-manual PDF p.9 (lines
     265-291); sole-tm-f80-family-2006-2007-owners-manual PDF p.11 (lines 334-365);

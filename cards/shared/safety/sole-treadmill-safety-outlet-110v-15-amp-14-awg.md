@@ -33,14 +33,32 @@ facets:
   - f60-2013
   - f60-2014
   - f60-2016
+  - f60-2020
   - f63-2013
   - f63-2015
+  - f63-2016
+  - f63-2019
+  - f63-2023
+  - f63-2025
   - f65-2013
   - f65-2014
+  - f65-2016
+  - f65-2019
+  - f65-2023
   - f80-2013
+  - f80-2016
+  - f80-2019
   - f85-2013
+  - f85-2016
+  - f85-2019
   - s77-2013
+  - s77-2016
+  - s77-2019
   - tt8-2013
+  - tt8-2016
+  - tt8-2016-ac
+  - tt8-2019
+  - tt8-2020
   - tt8c-2011
   - wf63-2009
   - wf63-2010
@@ -70,7 +88,7 @@ source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: safety list PDF p. 4 in most books (p. 5 in the AF63/AF80/AS77/ATT8/TT8C
     books); electrical page PDF p. 5 (p. 6 in those five); operation page PDF p. 6
-    (p. 7 in those five)
+    (p. 7 in those five) - A2 same paragraphs, safety list PDF p. 4, in the eighteen 110-volt books.
   extracted_at: '2026-09-12'
 ---
 
@@ -81,3 +99,5 @@ source:
 The TT9 diagnosis guide repeats the rule from the other direction: do not use an extension cord, and if one is required it should be as short as possible and heavy duty 14 gauge minimum - consistent with the 14 AWG figure above.
 
 Other legacy books print different figures and have their own cards: 120-volt/14 AWG, 120-volt 20-amp/12 AWG (WTT8), and the 2006 books, which ban extension cords outright.
+
+The eighteen 110-volt A2 machines named in applies_to print the same two WARNING paragraphs word for word (render-verified for the F63-2019 book). The F60-2020 book interior is versioned F60-2020 Ver. A; the `Sole F60 2019` database name appears nowhere in the book.

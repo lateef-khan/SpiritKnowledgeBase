@@ -29,11 +29,16 @@ facets:
   - f60-2014
   - f63-2013
   - f63-2015
+  - f63-2016
   - f65-2013
   - f65-2014
+  - f65-2016
   - f80-2013
+  - f80-2016
   - f85-2013
+  - f85-2016
   - s77-2013
+  - s77-2016
   section: programs
   code: '*'
 authority: 3
@@ -45,7 +50,7 @@ see_also:
 source:
   ref: sole-tm-f63-2013-2015-owners-manual
   locator: 'PROGRAMMABLE FEATURES, PDF p.19 (printed 17); same suite: F65 book PDF
-    p.19, F60-2012 book PDF p.18, F80/F85-2013 book PDF p.20, S77-2013 book PDF p.19'
+    p.19, F60-2012 book PDF p.18, F80/F85-2013 book PDF p.20, S77-2013 book PDF p.19; A2 stencil same suite: F63/F65-2016, F80-2016, F85-2016, S77-2016 books (Interval fifth preset, workload wording)'
   extracted_at: '2026-09-12'
 ---
 

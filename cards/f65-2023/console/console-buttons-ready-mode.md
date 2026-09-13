@@ -35,7 +35,7 @@ see_also:
 - f65-2023-console-data-ranges
 source:
   ref: sole-tm-f65-2023-service-manual
-  locator: Section 4 Button Function in each mode, Ready Mode, pages 9-10
+  locator: Section 4 Button Function in each mode, Ready Mode, pages 9-10; sole-tm-f65-2023-owners-manual PDF p. 16
   extracted_at: '2026-09-04'
 ---
 

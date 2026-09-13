@@ -35,7 +35,7 @@ see_also:
 - st90-parts-and-wiring
 source:
   ref: sole-tm-st90-2023-service-manual
-  locator: Section 7 Error Code List, page 15
+  locator: Section 7 Error Code List, page 15; owner checklist sole-tm-st90-2023-owners-manual PDF pp. 27-28 (printed 25-26)
   extracted_at: '2026-09-04'
 ---
 
@@ -65,3 +65,5 @@ This machine uses an AC inverter, so its codes are the `E-nnH` set, not the E1 t
 **The table is identical to the earlier ST90 manual** except that E-09H is printed "Converters overheat" rather than "Converter overheat".
 
 **Codes this manual does not list.** The company-wide inverter list (`sole-inverter-error-code-list`) also carries E-0CH, E-26H, E-27H, E-28H, E-41H, E-42H, E-53H and a green and red E3 split. This manual prints none of them.
+
+**The owner's manual prints the same code set as an OK/NG checklist** (sole-tm-st90-2023-owners-manual PDF pp. 27-28, printed 25-26), headed "ERROR MESSAGES FOR DIGITAL-CONTROL SYSTEM TREADMILLS", each row shaped "Console showing <meaning> / Error E-nnH" with OK/NG tick boxes — word for word identical to the ST90-2021 owner's table, including the "Converter oberload" misprint. Code shapes verified against the render: zeros, not the letter O. Against the service table above: the owner says "Converter overheat" where the service table says "Converters overheat" (E-09H), "Please clean cooling fan" where it says "Please check and clean cooling fan", and "Please check running belt or check bearing for damage" where it says "Please lubricate running belt or check for bad bearing" (E-0AH, E-0BH, E-21H) — follow the service manual's fix; the owner's "check" is its customer-facing first step.

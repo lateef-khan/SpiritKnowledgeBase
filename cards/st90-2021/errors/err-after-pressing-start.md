@@ -19,8 +19,9 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: st90-2021
+  model: '*'
   applies_to:
+  - st90-2020
   - st90-2021
   section: errors
   code: err
@@ -45,3 +46,5 @@ The manual splits it by what the belt does:
 |---|---|
 | The belt moves, stops after a short time, and the display shows `Err` | Run a calibration. |
 | You press Start and the belt never moves, then the display shows `Err` | Contact service. |
+
+The owner's manual prints the same two branches in its SERVICE CHECKLIST table (sole-tm-st90-2021-owners-manual PDF p. 26, printed 24): "If the belt moves, but stops after a short time and the display shows 'Err', run calibration" / "If you press Start and the belt never moves, then the display shows 'Err', contact service." That book covers st90-2020 and st90-2021.
