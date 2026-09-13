@@ -32,6 +32,7 @@ not_to_be_confused_with: []
 see_also:
 - srvo-pair-wireless-switch
 - srvo-ways-to-control
+- srvo-2021-wireless-switch-battery-lights
 source:
   ref: sole-srvo-seminar
   locator: PDF pages 40 and 41

@@ -68,6 +68,9 @@ facets:
   - e98-2015
   - e98-2019
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   - ve25-2007
   - ve35-2007
   - ve55-2007
@@ -91,7 +94,9 @@ see_also:
 source:
   ref: sole-el-e20-e25-2012-2015-owners-manual
   locator: e20-e25-2012-2015-owners-manual PDF p. 3 (printed 1), text.md L80-88; e25-e55-2007-owners-manual
-    text.md L64-73; e98-2011-owners-manual text.md L64-73; e25-2023-owners-manual text.md L197-199
+    text.md L64-73; e98-2011-owners-manual text.md L64-73; e25-2023-owners-manual text.md L197-199;
+    sc200-2016-owners-manual PDF p. 3 (printed 1), text.md L113-123; sc200-2017-owners-manual
+    (evidence for the SC200-2019) text.md L188-198; sc300-2017-owners-manual text.md L217-227
   extracted_at: '2026-09-12'
 ---
 
@@ -99,6 +104,6 @@ Every book in the wave carries the same Product Registration page:
 
 - **Record the serial number** in the space provided ("RECORD YOUR SERIAL NUMBER ... in the space provided below").
 - **REGISTER YOUR PURCHASE:** "The self-addressed product registration card must be completed in full and returned to SOLE." The warranty-duties list in every book adds the deadline: **within 10 days of the original purchase** to validate the warranty (the 2023 books also accept late registration with proof of purchase).
-- **Or register online under the support tab.** The host varies by era: the 2007 books print visit **www.soletreadmills.com**; the VE/WE books print **www.Soletreadmills.com under the support tab**; the E98-2011 book prints **www.soleellipticals.com under the support tab**; the 2023 books print **www.soletreadmills.com under the support tab**. Carded per book.
+- **Or register online under the support tab.** The host varies by era: the 2007 books print visit **www.soletreadmills.com**; the VE/WE books print **www.Soletreadmills.com under the support tab**; the E98-2011 book prints **www.soleellipticals.com under the support tab**; the 2023 books print **www.soletreadmills.com under the support tab**; the three SC climber books print **www.soletreadmills.com under the support tab**. Carded per book.
 
 The treadmill twin is `sole-treadmill-warranty-registration-card-online-10-days`. The 2026 one-machine registration cards (e.g. e20-2026-product-registration) are left untouched and linked here by pointer only.

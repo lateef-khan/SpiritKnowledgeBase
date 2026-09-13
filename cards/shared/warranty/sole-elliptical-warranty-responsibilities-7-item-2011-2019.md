@@ -58,6 +58,9 @@ facets:
   - e98-2013
   - e98-2015
   - e98-2019
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   section: warranty
   code: '*'
 authority: 3
@@ -70,7 +73,10 @@ see_also:
 source:
   ref: sole-el-e20-e25-2012-2015-owners-manual
   locator: e20-e25-2012-2015-owners-manual PDF p. 30, text.md L1116-1127; ae55-ae95-2011-owners-manual
-    PDF p. 28, text.md L1041-1052; e25-2016-owners-manual PDF p. 26, text.md L1313-1324
+    PDF p. 28, text.md L1041-1052; e25-2016-owners-manual PDF p. 26, text.md L1313-1324;
+    sc200-2016-owners-manual PDF p. 19 (printed 19), text.md L757-770; sc200-2017-owners-manual
+    (evidence for the SC200-2019) PDF p. 20 (printed 20), text.md L1037-1056; sc300-2017-owners-manual
+    PDF p. 20 (printed 20), text.md L1103-1122
   extracted_at: '2026-09-12'
 ---
 
@@ -84,4 +90,4 @@ This warranty applies only to products in **ordinary household use**, and the co
 6. **Damages to the elliptical finish** during shipping, installation or following installation.
 7. **Routine maintenance** of the unit as specified in this manual.
 
-Same seven items, same order, in every book listed — native and stencil, 2011 through 2019, E20 through E98. The one variant: the **E98-2011** opening line admits "products in ordinary household use **or in a non-dues paying, light commercial facility with 5 hours elliptical use or less per day**" (matching its commercial warranty column); every other book says household use only. The treadmill twin says "treadmill" and "belt tracking" where this card says "elliptical": `sole-treadmill-warranty-responsibilities-7-item-household`. The older six-duty list is `sole-elliptical-warranty-responsibilities-6-item-2005-2010`.
+Same seven items, same order, in every book listed — native and stencil, 2011 through 2019, E20 through E98. The SC200-2016 (effective August 1, 2015), SC200-2017 and SC300-2017 (both effective August 1, 2017) climber books print the same seven duties reading "climber" for "elliptical" in items 2, 3, 5 and 6, with the same 10-day card and routine-maintenance item 7. The one variant: the **E98-2011** opening line admits "products in ordinary household use **or in a non-dues paying, light commercial facility with 5 hours elliptical use or less per day**" (matching its commercial warranty column); every other book says household use only. The treadmill twin says "treadmill" and "belt tracking" where this card says "elliptical": `sole-treadmill-warranty-responsibilities-7-item-household`. The older six-duty list is `sole-elliptical-warranty-responsibilities-6-item-2005-2010`.

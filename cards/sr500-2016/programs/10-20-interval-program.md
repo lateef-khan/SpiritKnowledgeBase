@@ -2,7 +2,7 @@
 id: sr500-2016-10-20-interval-program
 title: 10/20 interval program
 kind: procedure
-question: How does the 10/20 interval program work on a Sole sr500-2016 rower?
+question: How does the 10/20 interval program work on a Sole rower?
 asked_as:
 - what is 10 20 interval on my sole rower
 - 10 seconds work 20 seconds rest rower
@@ -19,13 +19,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: '*'
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

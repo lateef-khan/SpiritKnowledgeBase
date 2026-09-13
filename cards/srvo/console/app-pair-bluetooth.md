@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: "*"
   applies_to:
   - srvo
+  - srvo-2021
   section: console
   code: '*'
 authority: 3
@@ -47,6 +48,4 @@ button on the left and a **refresh** button on the top right.
   "Connected", with an information (i) button beside it.
 - **Unpair Device** on the same Settings tab removes the machine from the app.
 
-The screenshots show the search screen and the paired result. They do not show
-the steps in between, so this card cannot list what the app asks for during
-pairing.
+The screenshots show the search screen and the paired result. **The owner book fills in the steps in between:** open the SOLE+ app, tap the **Bluetooth icon in the upper right corner**, select SRVO and search; in the found-device list tap the device to connect, with the SRVO **powered on**.

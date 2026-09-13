@@ -23,13 +23,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: assembly
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -39,7 +38,7 @@ see_also:
 - cc81-2026-hardware-pack-checklist
 source:
   ref: sole-climber-cc81-2026-owners-manual
-  locator: page 9, REAR STABILIZER/CONSOLE MAST ASSEMBLY, steps 2 and 3
+  locator: page 9, REAR STABILIZER/CONSOLE MAST ASSEMBLY, steps 2 and 3; same steps in sole-cl-cc81-2019-owners-manual, text.md lines 57-68
   extracted_at: '2026-09-04'
 ---
 

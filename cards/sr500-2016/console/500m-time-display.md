@@ -2,8 +2,7 @@
 id: sr500-2016-500m-time-display
 title: The 500 metre split and the scan display
 kind: fact
-question: What is the 500m/time reading on a Sole sr500-2016 rower and how do I switch
-  to it?
+question: What is the 500m/time reading on a Sole rower and how do I switch to it?
 asked_as:
 - what is 500m time on my sole rower
 - how do i see my split on an sr500
@@ -21,13 +20,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: "*"
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: console
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -48,3 +47,5 @@ Pressing **MODE** steps the centre display:
     SCAN  ->  wave pattern  ->  500M/TIME  ->  SCAN
 
 so pressing MODE once holds the wave pattern, pressing it again holds 500M/TIME, and pressing it again returns to scanning.
+
+The 2019 and 2022 owner books print the same 5-second SCAN cycle, the same MODE stepping and the same four-mode limit, so this card covers the sr500-2019 and sr500-2022 as well.

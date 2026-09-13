@@ -1,6 +1,6 @@
 ---
 id: sole-elliptical-specs-no-specification-table
-title: No specification table in thirty-two legacy owner's manuals, and the
+title: No specification table in thirty-five legacy owner's manuals, and the
   figures printed instead
 kind: fact
 question: Where are the dimensions, machine weight, flywheel weight and power
@@ -71,6 +71,9 @@ facets:
   - e98-2015
   - e98-2019
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   - ve25-2007
   - ve35-2007
   - ve55-2007
@@ -100,11 +103,17 @@ source:
     native TOC (no spec chapter) and every stencil TOC checked the same way;
     loose-word greps for lb/kg figures return only console-default weights
     (Age 35, Weight 150/155 lbs) and program watt tables. Stencil figures are
-    OCR supplements (render text), so no flattened page hides a table.'
+    OCR supplements (render text), so no flattened page hides a table.
+    SC200-2016 (sole-cl-sc200-2016-owners-manual), SC200-2019
+    (sole-cl-sc200-2017-owners-manual) and SC300-2017
+    (sole-cl-sc300-2017-owners-manual) verified the same way 2026-09-12:
+    native TOCs on PDF p. 2 with no spec chapter; loose-word greps return
+    only hardware sizes, shipping boilerplate and console defaults
+    (Age/Weight/Time); the step and power figures below verified in text.'
   extracted_at: '2026-09-12'
 ---
 
-**None of the thirty-two legacy owner's manuals prints a specification table.**
+**None of the thirty-five legacy owner's manuals prints a specification table.**
 Every table of contents runs Registration, Safety, Electrical, Operation,
 Assembly, Programs, Heart Rate, Maintenance, Warranty — no dimensions,
 footprint, product or shipping weight, flywheel weight, power rating, rated
@@ -119,6 +128,11 @@ wiring diagram, or FCC statement appears in any of them.
   angle** in the pre-2012 books (except as noted there) —
   `sole-elliptical-specs-adjustable-footpad-angles-0-5-and-10-degrees`,
   `sole-elliptical-specs-footpads-2-degree-inward-angle`.
+- **A floor is 16 steps, and step height is a key, not a figure** (SC200-2016,
+  SC200-2019, SC300-2017) - the SC300 book adds Level / Step-height keys but
+  prints no inch figure and no level count; the SC200 books power the climber
+  from an external DC adapter while the SC300 connects directly to 120-volt
+  mains (outlets and circuits are carded under safety).
 - **Resistance level mapped to watts** (E98 2011 / 2013 / 2015 / 2019 fitness
   test: Level 1 = 9W through Level 15 = 122W, 1 watt = 6.11829727787
   kg-m/min) — carded with the fitness-test program procedure (programs

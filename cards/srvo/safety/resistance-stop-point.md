@@ -21,9 +21,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: safety
   code: '*'
 authority: 3
@@ -57,6 +58,8 @@ weight begins. **Below the stop point the weight is released.**
 
 - Check that resistance is not activated. The weight display should be blinking.
 - Vary the cadence of the two start/stop presses.
+
+The SRVO-2021 owner's book (PDF p. 6, text.md lines 375-380) describes the same feature from the machine side: pull the cable to the desired stop point before resistance is set, press start/stop twice, wait for the prompt sound, then press start to engage; it is also available from the wireless button.
 
 **To reset it:** retract the cables to the start point, then press the start/stop
 button twice.

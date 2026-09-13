@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: errors
   code: '*'
 authority: 3
@@ -38,7 +39,7 @@ see_also:
 - srvo-error-0x400000-encoder-not-connected
 source:
   ref: sole-srvo-service-manual
-  locator: page 44, section 9 Error Messages & Troubleshooting
+  locator: page 44, section 9 Error Messages & Troubleshooting (same 12-row table in the owner's book, sole-srvo-owners-manual PDF page 13)
   extracted_at: '2026-09-04'
 ---
 

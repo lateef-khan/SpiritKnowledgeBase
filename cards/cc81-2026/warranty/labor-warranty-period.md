@@ -2,7 +2,7 @@
 id: cc81-2026-labor-warranty-period
 title: The labor period the service section sets, and how it disagrees with the table
 kind: policy
-question: How long is labor covered on a Sole CC81-2026 climber?
+question: How long is labor covered on a Sole climber?
 asked_as:
 - how long is labor covered on my sole climber
 - does sole charge for labor after a year
@@ -20,13 +20,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: warranty
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +35,8 @@ see_also:
 source:
   ref: sole-climber-cc81-2026-owners-manual
   locator: page 20, MANUFACTURER'S LIMITED WARRANTY, SERVICE paragraph, against the
-    RESIDENTIAL table on the same page
+    RESIDENTIAL table on the same page; sole-cl-cc81-2019-owners-manual (evidence for
+    the CC81-2020) SERVICE paragraph text.md L562-564 against its table text.md L504-506
   extracted_at: '2026-09-04'
 ---
 
@@ -48,5 +48,8 @@ source:
 | SERVICE paragraph, page 20 | "Twelve (12) months from the date on the bill of sale or eighteen (18) months from the date of factory shipping as determined by the serial number **establishes the labor warranty period** should service be required." |
 
 The SERVICE paragraph also says: keep your bill of sale, and if service is performed it is in your best interest to obtain and keep all receipts. This written warranty gives you specific legal rights, and you may also have other rights that vary from state to state.
+
+The CC81-2019 book carries the same conflict: its table reads Labor 2 Year while its
+SERVICE paragraph sets twelve (12) months from the bill of sale as the labor period.
 
 **How this was read.** The manual draws its body text as outlined glyphs, so `pdftotext` dropped almost the whole of page 20, so neither half of this conflict was visible before. This card was read from the rendered page image.

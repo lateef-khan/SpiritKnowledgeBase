@@ -20,13 +20,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: assembly
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -34,7 +33,7 @@ see_also:
 - cc81-2026-pre-assembly-unboxing
 source:
   ref: sole-climber-cc81-2026-owners-manual
-  locator: page 7, ASSEMBLY TOOLS
+  locator: page 7, ASSEMBLY TOOLS; same list in sole-cl-cc81-2019-owners-manual (CC81_2019 Ver.C, evidence for cc81-2020), PDF p.7, text.md lines 467-475
   extracted_at: '2026-09-04'
 ---
 

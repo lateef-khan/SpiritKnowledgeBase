@@ -2,7 +2,7 @@
 id: cc81-2026-manual-program
 title: Setting up and running the Manual program
 kind: procedure
-question: How do I run the Manual program on a Sole CC81-2026 climber?
+question: How do I run the Manual program on a Sole climber?
 asked_as:
 - how do i set my age and weight on my sole climber
 - manual program cc81 climber
@@ -23,13 +23,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: programs
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:

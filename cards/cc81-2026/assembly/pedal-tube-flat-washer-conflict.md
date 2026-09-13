@@ -21,13 +21,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: assembly
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -36,7 +35,7 @@ see_also:
 source:
   ref: sole-climber-cc81-2026-owners-manual
   locator: page 10, SIDE TUBE ASSEMBLY step 1 bottom part, against the Hardware Step
-    2 box on the same page and the checklist on pages 6 and 7
+    2 box on the same page and the checklist on pages 6 and 7; same conflict in sole-cl-cc81-2019-owners-manual, text.md lines 75-79 and 443-454
   extracted_at: '2026-09-04'
 ---
 

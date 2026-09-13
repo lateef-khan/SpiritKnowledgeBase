@@ -24,11 +24,10 @@ facets:
   - sr500-2016
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- sole-sr500-time-5-minute-steps
 - sr500-2016-workout-mode-list
 source:
   ref: sole-rower-sr500-2016-service-manual

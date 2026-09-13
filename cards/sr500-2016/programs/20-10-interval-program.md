@@ -2,7 +2,7 @@
 id: sr500-2016-20-10-interval-program
 title: 20/10 interval program
 kind: procedure
-question: How does the 20/10 interval program work on a Sole sr500-2016 rower?
+question: How does the 20/10 interval program work on a Sole rower?
 asked_as:
 - what is 20 10 interval on my sole rower
 - tabata style workout on an sr500
@@ -19,13 +19,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: '*'
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

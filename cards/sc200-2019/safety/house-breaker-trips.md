@@ -2,7 +2,7 @@
 id: sc200-2019-house-breaker-trips
 title: House breaker trips but the machine breaker does not
 kind: policy
-question: My house breaker trips when I use my Sole sc200-2019, is that a warranty
+question: My house breaker trips when I use my Sole SC200-2019 climber or SR500-2019 rower, is that a warranty
   defect?
 asked_as:
 - my breaker trips when i use my climber
@@ -21,13 +21,12 @@ facets:
   brand:
   - sole
   product_line: elliptical
-  model: sc200-2019
+  model: '*'
   applies_to:
   - sc200-2019
+  - sr500-2019
   section: safety
   code: '*'
-  model_number:
-  - '520517'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -42,4 +41,4 @@ Some circuit breakers used in homes are not rated for the high inrush currents t
 
 If the machine trips the house circuit breaker even though it is the proper current rating, but the breaker on the machine itself does not trip, **replace the home breaker with a high inrush type**.
 
-**This is not a warranty defect.** The manual states it is a condition the manufacturer has no ability to control. The part is available through most electrical supply stores. Examples given: **Grainger part # 1D237**, or online at www.squared.com **part # QO120HM**.
+**This is not a warranty defect.** The manual states it is a condition the manufacturer has no ability to control. The part is available through most electrical supply stores. Examples given: **Grainger part # 1D237**, or online at www.squared.com **part # QO120HM**. The SR500-2019 rower owner's book (Important Electrical Instructions, PDF p. 5) prints the same paragraph word for word for the Rower, including the machine-breaker clause, and adds that the outlet used should have a dedicated 15 amp circuit breaker. Its part number OCR reads Q0120HM (zero for O); quoted above as printed in the service manual.

@@ -2,7 +2,7 @@
 id: sr500-2016-strength-program
 title: Strength program
 kind: procedure
-question: How does the Strength program work on a Sole sr500-2016 rower?
+question: How does the Strength program work on a Sole rower?
 asked_as:
 - what is strength mode on my sole rower
 - strength program on an sr500
@@ -19,13 +19,13 @@ facets:
   brand:
   - sole
   product_line: rower
-  model: sr500-2016
+  model: '*'
   applies_to:
   - sr500-2016
+  - sr500-2019
+  - sr500-2022
   section: programs
   code: '*'
-  model_number:
-  - '500911'
 authority: 3
 not_to_be_confused_with: []
 see_also:

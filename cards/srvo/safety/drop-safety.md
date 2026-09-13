@@ -19,9 +19,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: '*'
   applies_to:
   - srvo
+  - srvo-2021
   section: safety
   code: '*'
 authority: 3
@@ -48,5 +49,7 @@ resistance.
 
 The seminar gives no adjustable settings for drop safety, and the app safety
 screen in the screenshots shows toggles only for static safety and tilt safety.
+The SRVO-2021 owner's book (PDF p. 6, text.md lines 389-392) prints the same feature with figures: dropping the bar or handle in fatigue enters safety mode with no resistance for about 10 seconds, then the cable retracts on the lowest resistance.
+
 Cables that do not retract at all are a separate fault; see the cables not
 retracting card.

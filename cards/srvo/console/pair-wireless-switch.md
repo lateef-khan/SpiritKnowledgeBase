@@ -20,9 +20,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: "*"
   applies_to:
   - srvo
+  - srvo-2021
   section: console
   code: '*'
 authority: 3
@@ -40,18 +41,24 @@ The wireless switch turns the resistance on and off from a distance.
 
 **To pair it:**
 
-1. Press and hold the front **SOLE logo** on the wireless switch.
+1. Press and hold the front **SOLE logo** on the wireless switch (the owner book: press and hold the switch to pair).
 2. Hold until the **blue light flashes five times**. Five flashes means pairing
    succeeded.
 
 **Battery:** the switch runs on a coin battery. When the battery is low, take off
-the plastic cover and replace it.
+the plastic cover and replace it. The owner book adds the low-battery signal: the **red light flashes for 10 seconds**.
 
 As with the control panel, a flashing number on the SRVO weight display means the
 machine is in an adjustable state.
 
-The seminar says different flashing sequences mean different states of the
-wireless switch, and points at a chart. **That chart is an image and its contents
-could not be extracted**, so this card cannot list the other sequences. Only the
-five-flash success signal, and the fault signals on the wireless-switch
-troubleshooting card, are written out in the document.
+The owner book prints the light chart the seminar leaves as an image:
+
+| Light | State |
+|---|---|
+| Red/blue flashing alternately | Connecting |
+| Blue flashes 5 times | Connected (pairing succeeded) |
+| Red flashes 5 times | Pairing canceled / unpaired |
+| Blue on when clicked, off when released | Button press |
+| Red flashing for 10 seconds | Low battery |
+
+Press and hold to pair; five blue flashes mean success. During pairing, press and hold again to cancel and exit pairing.

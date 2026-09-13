@@ -2,7 +2,7 @@
 id: cc81-2026-hiit-program
 title: What the HIIT program does
 kind: fact
-question: What does the HIIT program do on a Sole CC81-2026 climber?
+question: What does the HIIT program do on a Sole climber?
 asked_as:
 - what is the hiit workout on my sole climber
 - interval program cc81 stepper
@@ -20,13 +20,12 @@ facets:
   brand:
   - sole
   product_line: climber
-  model: cc81-2026
+  model: '*'
   applies_to:
+  - cc81-2020
   - cc81-2026
   section: programs
   code: '*'
-  model_number:
-  - '581526'
 authority: 3
 not_to_be_confused_with: []
 see_also:

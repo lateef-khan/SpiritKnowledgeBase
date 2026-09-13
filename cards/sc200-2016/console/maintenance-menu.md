@@ -2,8 +2,7 @@
 id: sc200-2016-maintenance-menu
 title: Maintenance menu, also called Engineering Mode
 kind: procedure
-question: How do I get into the engineering or maintenance menu on a Sole sc200-2016
-  climber?
+question: How do I get into the engineering or maintenance menu on a Sole climber?
 asked_as:
 - how do i get into engineering mode on my sole machine
 - change my sole machine from miles to km
@@ -22,25 +21,29 @@ facets:
   brand:
   - sole
   product_line: elliptical
-  model: sc200-2016
+  model: "*"
   applies_to:
   - sc200-2016
+  - sc200-2019
+  - sc300-2017
   section: console
   code: '*'
-  model_number:
-  - '520516'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - sc200-2016-console-modes
 - sc200-2016-console-buttons
+- sole-elliptical-bluetooth-on-off-enter-display
+- sole-sc300-step-height-calibration-start-5s
 source:
   ref: sole-elliptical-sc200-2016-service-manual
   locator: Maintenance menu in console software, page 43
   extracted_at: '2026-09-04'
 ---
 
-Press and hold **Start, Stop and Enter together for about 5 seconds**. The message window displays "Engineering Mode". Press Enter to access the menu. Use the Level UP/DOWN keys to navigate.
+Press and hold **Start, Stop and Enter together for about 5 seconds**. The message window displays "Engineering Mode". Press Enter to access the menu. Use the Level UP/DOWN keys to navigate (the SC300-2017 book calls them the Level or Step-height up/down keys).
+
+The SC200-2019 (2017 book) and SC300-2017 books print the same entry and the same A-F menu, so this card covers all three machines. The two newer books add two procedures **outside** this menu: Bluetooth on/off (ENTER plus DISPLAY, 5 seconds) and, on the SC300 only, step-height calibration (see_also).
 
 - **A. Key Test** - test all the keys to make sure they are functioning.
 - **B. Display Test** - automatically tests all LCDs.

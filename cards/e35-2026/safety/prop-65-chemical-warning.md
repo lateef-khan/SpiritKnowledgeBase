@@ -44,6 +44,9 @@ facets:
   - e98-2015
   - e98-2019
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   section: safety
   code: '*'
 authority: 3
@@ -62,4 +65,4 @@ For more information, go to **www.P65Warnings.ca.gov**.
 
 The notice is printed on the same page as the table of contents. The manual gives no list of which parts contain the chemicals and no handling instruction beyond the notice itself.
 
-All 19 stencil B books print the notice once, on the table-of-contents page (PDF p. 2), with the same chemicals and the same www.P65Warnings.ca.gov URL. None of the 13 native B books (2007-2015) prints any Proposition 65 warning.
+All 19 stencil B books print the notice once, on the table-of-contents page (PDF p. 2), with the same chemicals and the same www.P65Warnings.ca.gov URL. None of the 13 native B books (2007-2015) prints any Proposition 65 warning. The three C-wave climber books print the same notice once, on the contents page (PDF p. 2): the SC200-2017 book (the SC200-2019 machine) and the SC300-2017 book name Toluene and Acrylamide with the same www.P65Warnings.ca.gov URL; the SC200-2016 book prints no Proposition 65 warning at all.

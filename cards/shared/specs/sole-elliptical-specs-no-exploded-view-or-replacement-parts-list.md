@@ -66,6 +66,9 @@ facets:
   - e98-2015
   - e98-2019
   - e98-2023
+  - sc200-2016
+  - sc200-2019
+  - sc300-2017
   - ve25-2007
   - ve35-2007
   - ve55-2007
@@ -92,6 +95,6 @@ source:
   extracted_at: '2026-09-12'
 ---
 
-No book in this wave prints an exploded view, a replacement-parts list, or a parts-ordering procedure. Proven four ways: zero hits for "exploded", "parts list" or "replacement part" in all 32 text.md files (native layer plus OCR supplements); the tables of contents run Product Registration, Safety, Electrical, Operation, Assembly, Programs/Features, Maintenance, Warranty — no parts chapter (checked in full on the E25-2016, E98-2015-2016 and E20-2016 TOCs, and the native books' TOCs likewise list no parts chapter); the OCR supplements are assembly drawings and console faces, not parts pages; and the assembly chapters' numbered figures are step drawings whose callouts belong to the assembly procedure.
+No book in this wave prints an exploded view, a replacement-parts list, or a parts-ordering procedure. Proven four ways: zero hits for "exploded", "parts list" or "replacement part" in all 32 text.md files (native layer plus OCR supplements); the tables of contents run Product Registration, Safety, Electrical, Operation, Assembly, Programs/Features, Maintenance, Warranty — no parts chapter (checked in full on the E25-2016, E98-2015-2016 and E20-2016 TOCs, and the native books' TOCs likewise list no parts chapter); the OCR supplements are assembly drawings and console faces, not parts pages; and the assembly chapters' numbered figures are step drawings whose callouts belong to the assembly procedure. The three SC climber books (SC200-2016, SC200-2017, SC300-2017) likewise print none: zero hits across their texts, TOCs without a parts chapter, and supplements limited to checklists, tool drawings and assembly figures.
 
 What the books do print is assembly hardware item numbers in parentheses and a few part-number callouts — those live on `sole-elliptical-specs-assembly-item-numbers-and-tool-lists`, not here. Parts reach the owner through warranty service (return-authorization steps on the warranty cards), never through an order form in the book. The treadmill twin of this absence is `sole-treadmill-specs-no-exploded-view-or-replacement-parts-list`.

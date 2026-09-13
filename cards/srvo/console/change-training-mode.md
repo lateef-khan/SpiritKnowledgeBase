@@ -21,9 +21,10 @@ facets:
   brand:
   - sole
   product_line: strength
-  model: srvo
+  model: "*"
   applies_to:
   - srvo
+  - srvo-2021
   section: console
   code: '*'
 authority: 3
@@ -53,3 +54,5 @@ source:
 
 Holding start/stop steps through the modes in turn; there is no direct jump to a
 mode number.
+
+**The owner book words the switch differently:** press and hold start/stop for three seconds, **then turn the knob to switch between modes**. **Ruling.** For operating the machine follow the owner's book: hold, then turn the knob. The mode number in the top left of the display still tells you which mode you landed in.
