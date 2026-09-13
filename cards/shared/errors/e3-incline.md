@@ -38,6 +38,9 @@ facets:
 authority: 2
 not_to_be_confused_with:
 - sole-e2-error
+- sole-e95-errors-e-3-incline-motor
+- sole-e95s-errors-e-3-stride-motor
+- sole-e98-errors-e-3-incline-motor
 see_also:
 - sole-pin-test-pre-2016
 - sole-dc-controller-error-code-list

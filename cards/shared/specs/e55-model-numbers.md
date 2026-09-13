@@ -18,14 +18,20 @@ facets:
   - sole
   product_line: elliptical
   model:
+  - e55-2006
+  - e55-2014
   - e55-2016
   - e55-2019
   applies_to:
+  - e55-2006
+  - e55-2014
   - e55-2016
   - e55-2019
   section: specs
   code: '*'
   model_number:
+  - '555086'
+  - '555013'
   - '555016'
   - '555018'
   lookup: model-numbers
@@ -36,12 +42,14 @@ see_also:
 - e55-2019-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e55-2016 to e55-2019
+  locator: rows e55-2006 to e55-2019
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 555086 | e55-2006 |
+| 2014 | 555013 | e55-2014 |
 | 2016 | 555016 | e55-2016 |
 | 2019 | 555018 | e55-2019 |
 

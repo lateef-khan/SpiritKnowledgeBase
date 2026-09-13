@@ -18,12 +18,27 @@ facets:
   - sole
   product_line: elliptical
   model:
+  - e20-2013
+  - e20-2014
+  - e20-2015
+  - e20-2016
+  - e20-2020
   - e20-2026
   applies_to:
+  - e20-2013
+  - e20-2014
+  - e20-2015
+  - e20-2016
+  - e20-2020
   - e20-2026
   section: specs
   code: '*'
   model_number:
+  - '520012'
+  - '520013'
+  - '520014'
+  - '520016'
+  - '520020'
   - '520026'
   lookup: model-numbers
 authority: 3
@@ -31,12 +46,17 @@ not_to_be_confused_with: []
 see_also: []
 source:
   ref: custservice-model-numbers
-  locator: row e20-2026
+  locator: rows e20-2013 to e20-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2013 | 520012 | e20-2013 |
+| 2014 | 520013 | e20-2014 |
+| 2015 | 520014 | e20-2015 |
+| 2016 | 520016 | e20-2016 |
+| 2020 | 520020 | e20-2020 |
 | 2026 | 520026 | e20-2026 |
 
 The numbers come from the customer-service model table (`dbo.MODEL` in `CustService`); a manual rarely prints one.

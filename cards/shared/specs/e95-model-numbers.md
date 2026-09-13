@@ -18,17 +18,32 @@ facets:
   - sole
   product_line: elliptical
   model:
-  - e95
+  - e95-2007
+  - e95-2013
+  - e95-2014
+  - e95-2015
   - e95-2016
+  - e95-2019
   - e95-2023
   - e95-2026
   applies_to:
+  - e95-2007
+  - e95-2013
+  - e95-2014
+  - e95-2015
   - e95-2016
+  - e95-2019
   - e95-2023
   - e95-2026
   section: specs
   code: '*'
   model_number:
+  - '595081'
+  - '595012'
+  - '595013'
+  - '595014'
+  - '595016'
+  - '595018'
   - '595022'
   - '595026'
   lookup: model-numbers
@@ -39,13 +54,18 @@ see_also:
 - e95-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e95-2023 to e95-2026; no row for e95-2016
+  locator: rows e95-2007 to e95-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
-| 2016 | not confirmed | e95-2016 |
+| 2007 | 595081 | e95-2007 |
+| 2013 | 595012 | e95-2013 |
+| 2014 | 595013 | e95-2014 |
+| 2015 | 595014 | e95-2015 |
+| 2016 | 595016 | e95-2016 |
+| 2019 | 595018 | e95-2019 |
 | 2023 | 595022 | e95-2023 |
 | 2026 | 595026 | e95-2026 |
 

@@ -18,17 +18,19 @@ facets:
   - sole
   product_line: elliptical
   model:
-  - e95s
+  - e95s-2015
   - e95s-2016
   - e95s-2019
   - e95s-2023
   applies_to:
+  - e95s-2015
   - e95s-2016
   - e95s-2019
   - e95s-2023
   section: specs
   code: '*'
   model_number:
+  - '595615'
   - '595616'
   - '595618'
   - '595622'
@@ -41,12 +43,13 @@ see_also:
 - e95s-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows e95s-2016 to e95s-2023
+  locator: rows e95s-2015 to e95s-2023
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2015 | 595615 | e95s-2015 |
 | 2016 | 595616 | e95s-2016 |
 | 2019 | 595618 | e95s-2019 |
 | 2023 | 595622 | e95s-2023 |

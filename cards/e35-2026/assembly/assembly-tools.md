@@ -20,13 +20,13 @@ facets:
   brand:
   - sole
   product_line: elliptical
-  model: e35-2026
+  model: '*'
   applies_to:
+  - e25-2023
+  - e35-2023
   - e35-2026
   section: assembly
   code: '*'
-  model_number:
-  - '535026'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +35,7 @@ see_also:
 - e35-2026-squeaks-and-noise
 source:
   ref: sole-elliptical-e35-2026-owners-manual
-  locator: page 7, Assembly Tools
+  locator: page 7, Assembly Tools (2026 book); E35-2023 (sole-el-e35-2023-owners-manual p.9) and E25-2023 (sole-el-e25-2023-owners-manual p.9) print the same five tools with the same numbers, read against the render
   extracted_at: '2026-09-04'
 ---
 

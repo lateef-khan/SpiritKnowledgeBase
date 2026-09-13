@@ -20,9 +20,15 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - e25-2019
+  - e35-2019
+  - e55-2019
+  - e95-2019
+  - e95s-2019
+  - e98-2019
   - f63-2019
   - f65-2019
   - f80-2019
@@ -47,6 +53,6 @@ source:
 ---
 
 Same app pairing as 2016 (top-left/corner icon, Connect, console Bluetooth icon lights, **iOS 7 or Android 4.4**), plus:
-- **SYNC**: if the treadmill is not connected when the workout ends, the console shows **SYNC**; connect by phone to store the data in the App. The console holds only the last workout; returning to IDLE MODE erases it.
+- **SYNC**: if the machine is not connected when the workout ends, the console shows **SYNC**; connect by phone to store the data in the App. The console holds only the last workout; returning to IDLE MODE erases it.
 - **Bluetooth heart-rate switching (BLE 4.0)**: the same radio also talks to a BLE 4.0 chest strap, even mid-App. In idle mode, if the keypad Bluetooth LED is off the radio is on the App; press the **heart rate key** and the LED lights: the radio is now on the strap. Wear the strap first, then connect; the console shows the heart rate over Bluetooth. After the workout the radio switches back to the App by itself.
 - **Wireless music**: search the phone's Bluetooth menu for **Bt-speaker**, tap to connect, and the phone plays through the machine.

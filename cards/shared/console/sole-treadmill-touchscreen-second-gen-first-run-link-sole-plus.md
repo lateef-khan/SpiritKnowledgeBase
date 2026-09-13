@@ -19,9 +19,13 @@ keywords:
 facets:
   brand:
   - sole
-  product_line: treadmill
+  product_line: '*'
   model: '*'
   applies_to:
+  - e35-2023
+  - e95-2023
+  - e95s-2023
+  - e98-2023
   - f80-2023
   - f85-2023
   - f89-2023
