@@ -17,7 +17,6 @@ keywords:
 - coast guard
 - peb
 - marine corps
-- timed distance
 - edit parameters
 facets:
   brand:

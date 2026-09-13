@@ -19,7 +19,6 @@ keywords:
 - hiit
 - warm up
 - cool down
-- 20 percent
 facets:
   brand:
   - sole

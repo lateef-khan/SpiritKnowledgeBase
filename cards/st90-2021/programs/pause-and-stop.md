@@ -31,6 +31,7 @@ see_also:
 - st90-2021-quick-start
 - st90-2021-grade-return
 source:
+  ref: sole-tm-st90-2021-service-manual
   locator: 'Section 4-2-4 Pause/Stop, page 15; A2: one SKU 590820 covers st90-2020
     and st90-2021 and the owners text does not separate them'
   extracted_at: '2026-09-04'

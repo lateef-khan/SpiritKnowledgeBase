@@ -1,7 +1,6 @@
 ---
 id: sole-treadmill-programs-touchscreen-gen1-hr-60-80
-title: The Heart Rate program at 60 or 80 percent with manual speed on the TT8 and
-  ST90 touchscreen
+title: The Heart Rate program at 60 or 80 percent with manual speed on first-generation touchscreens
 kind: procedure
 question: How does the Heart Rate program work on a Sole TT8-2021?
 asked_as:

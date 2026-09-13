@@ -1,6 +1,6 @@
 ---
 id: f60-2020-programs-suite-p1-p24-countdown
-title: Manual, P1-P24 with named Fatburn, Cardio, Strength and HIIT slots, plus countdown
+title: Manual plus 24 named preset programs with countdown
   modes
 kind: fact
 question: What workout programs does a Sole F60-2020 have?

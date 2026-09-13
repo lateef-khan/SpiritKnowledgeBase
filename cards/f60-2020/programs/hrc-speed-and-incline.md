@@ -1,6 +1,6 @@
 ---
 id: f60-2020-programs-hrc-speed-and-incline
-title: HR1 holding heart rate on speed at 60 percent, HR2 on incline at 80 percent
+title: Heart-rate programs holding 60 percent on speed and 80 percent on incline
 kind: procedure
 question: How do the heart rate programs work on a Sole F60-2020?
 asked_as:

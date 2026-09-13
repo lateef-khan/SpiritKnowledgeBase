@@ -1,6 +1,6 @@
 ---
 id: sole-treadmill-programs-touchscreen-gen2-custom-flat
-title: A connect-the-dots Custom pattern on the F80 and ST90 touchscreens
+title: A connect-the-dots Custom pattern on second-generation touchscreens
 kind: procedure
 question: How do I build a Custom program on a Sole F80-2023?
 asked_as:

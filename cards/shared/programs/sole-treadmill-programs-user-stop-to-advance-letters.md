@@ -1,7 +1,6 @@
 ---
 id: sole-treadmill-programs-user-stop-to-advance-letters
-title: Building a named user program where STOP advances each letter on the F85 and
-  S77
+title: Building a named user program where STOP advances each letter
 kind: procedure
 question: How do I build a user program on a Sole F85-2016 or S77 treadmill?
 asked_as:

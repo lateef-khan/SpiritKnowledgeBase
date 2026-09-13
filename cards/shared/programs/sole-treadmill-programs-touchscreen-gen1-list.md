@@ -19,7 +19,6 @@ keywords:
 - 5k run
 - 10k run
 - fitness tests
-- templates
 facets:
   brand:
   - sole

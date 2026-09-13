@@ -10,9 +10,6 @@ asked_as:
 - sole f80 manual timer hill fatburn
 - sole 2023 5k 10k run estimated time
 keywords:
-- touchscreen programs
-- timer
-- manual program
 - hill
 - fatburn
 - cardio
@@ -21,7 +18,6 @@ keywords:
 - 5k run
 - 10k run
 - fitness tests
-- templates
 - profiles
 - sole plus
 facets:

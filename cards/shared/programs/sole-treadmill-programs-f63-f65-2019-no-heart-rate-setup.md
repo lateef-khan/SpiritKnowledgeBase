@@ -1,6 +1,6 @@
 ---
 id: sole-treadmill-programs-f63-f65-2019-no-heart-rate-setup
-title: The F63-2019 and F65-2019 books name HR1 and HR2 but print no setup steps
+title: Books naming two heart-rate programs but printing no setup steps
 kind: fact
 question: How do I set up HR1 on a Sole F63-2019?
 asked_as:
