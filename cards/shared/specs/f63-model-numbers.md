@@ -19,14 +19,18 @@ facets:
   product_line: treadmill
   model:
   - f63
+  - f63-2006
   - f63-2013
+  - f63-2015
   - f63-2016
   - f63-2019
   - f63-2023
   - f63-2026
   applies_to:
   - f63
+  - f63-2006
   - f63-2013
+  - f63-2015
   - f63-2016
   - f63-2019
   - f63-2023
@@ -34,7 +38,9 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '563881'
   - '563812'
+  - '563814'
   - '563816'
   - '563818'
   - '563822'
@@ -46,14 +52,16 @@ see_also:
 - f63-2013-power-path-parts
 source:
   ref: custservice-model-numbers
-  locator: rows f63-2013 to f63-2026; no row for f63
+  locator: rows f63 to f63-2026; no row for f63
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
 | — | not confirmed | f63 |
+| 2006 | 563881 | f63-2006 |
 | 2013 | 563812 | f63-2013 |
+| 2015 | 563814 | f63-2015 |
 | 2016 | 563816 | f63-2016 |
 | 2019 | 563818 | f63-2019 |
 | 2023 | 563822 | f63-2023 |

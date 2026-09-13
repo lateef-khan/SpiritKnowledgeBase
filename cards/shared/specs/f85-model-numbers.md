@@ -18,7 +18,8 @@ facets:
   - sole
   product_line: treadmill
   model:
-  - f85
+  - f85-2006
+  - f85-2013
   - f85-2016
   - f85-2019
   - f85-2020
@@ -26,6 +27,8 @@ facets:
   - f85-2023
   - f85-2026
   applies_to:
+  - f85-2006
+  - f85-2013
   - f85-2016
   - f85-2019
   - f85-2020
@@ -35,6 +38,8 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '585881'
+  - '585812'
   - '585816'
   - '585818'
   - '585822'
@@ -53,12 +58,14 @@ see_also:
 - sole-start-button-grayed-2023
 source:
   ref: custservice-model-numbers
-  locator: rows f85-2016 to f85-2026; no row for f85-2020, f85-2021
+  locator: rows f85-2006 to f85-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 585881 | f85-2006 |
+| 2013 | 585812 | f85-2013 |
 | 2016 | 585816 | f85-2016 |
 | 2019 | 585818 | f85-2019 |
 | 2020 | not confirmed | f85-2020 |

@@ -36,6 +36,7 @@ not_to_be_confused_with:
 - spirit-xt-2007-console-calibration-factory-setting-wheel-2-810-or-3-060
 - spirit-ct800-console-calibration-with-grade-return
 see_also:
+- sole-treadmill-errors-calibration-sensor-alignment
 - spirit-xt-2007-console-engineering-mode-six-submenus
 source:
   ref: spirit-treadmill-xt175-xt275-xt375-xt475-xt675-2007-service-manual

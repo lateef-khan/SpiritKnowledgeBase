@@ -31,9 +31,10 @@ not_to_be_confused_with:
 - xt-2023-console-calibration-basic
 - xt685-2023-calibration-procedure
 see_also:
-- xt-2023-maintenance-adjusting-the-speed-sensor
-- xt-2023-console-engineering-mode-menu
+- sole-treadmill-errors-calibration-sensor-alignment
 - spirit-xt-2023-console-data-ranges-20-kmh-incline-15
+- xt-2023-console-engineering-mode-menu
+- xt-2023-maintenance-adjusting-the-speed-sensor
 source:
   ref: spirit-treadmill-xt385-2023-owners-manual
   locator: 'page 46, BELT AND DECK CLEANING & CALIBRATION PROCEDURE - Calibration

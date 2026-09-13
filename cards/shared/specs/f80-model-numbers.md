@@ -18,12 +18,15 @@ facets:
   - sole
   product_line: treadmill
   model:
-  - f80
+  - f80-2006
+  - f80-2013
   - f80-2016
   - f80-2019
   - f80-2023
   - f80-2026
   applies_to:
+  - f80-2006
+  - f80-2013
   - f80-2016
   - f80-2019
   - f80-2023
@@ -31,6 +34,8 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '580881'
+  - '580812'
   - '580816'
   - '580818'
   - '580822'
@@ -44,12 +49,14 @@ see_also:
 - f80-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows f80-2016 to f80-2026
+  locator: rows f80-2006 to f80-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 580881 | f80-2006 |
+| 2013 | 580812 | f80-2013 |
 | 2016 | 580816 | f80-2016 |
 | 2019 | 580818 | f80-2019 |
 | 2023 | 580822 | f80-2023 |

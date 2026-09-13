@@ -18,14 +18,20 @@ facets:
   - sole
   product_line: treadmill
   model:
+  - s77-2006
+  - s77-2013
   - s77-2016
   - s77-2019
   applies_to:
+  - s77-2006
+  - s77-2013
   - s77-2016
   - s77-2019
   section: specs
   code: '*'
   model_number:
+  - '577881'
+  - '577812'
   - '577816'
   - '577818'
   lookup: model-numbers
@@ -36,12 +42,14 @@ see_also:
 - s77-2019-model-number
 source:
   ref: custservice-model-numbers
-  locator: rows s77-2016 to s77-2019
+  locator: rows s77-2006 to s77-2019
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2006 | 577881 | s77-2006 |
+| 2013 | 577812 | s77-2013 |
 | 2016 | 577816 | s77-2016 |
 | 2019 | 577818 | s77-2019 |
 

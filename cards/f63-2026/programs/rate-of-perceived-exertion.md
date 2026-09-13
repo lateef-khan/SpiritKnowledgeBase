@@ -20,20 +20,47 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f63-2026
+  model: '*'
   applies_to:
+  - af63-2011
+  - af65-2011
+  - af80-2011
+  - af83-2011
+  - af85-2011
+  - as77-2012
+  - att8-2011
+  - f60-2013
+  - f60-2014
+  - f60-2016
+  - f63-2013
+  - f63-2015
   - f63-2026
+  - f65-2013
+  - f65-2014
+  - f80-2013
+  - f85-2013
+  - s77-2013
+  - tt8-2013
+  - tt8c-2011
+  - tt9-2018
+  - wf63-2009
+  - wf63-2010
+  - wf80-2009
+  - wf80-2010
+  - wf83-2009
+  - wf83-2010
+  - wf85-2009
+  - wf85-2010
   section: programs
   code: '*'
-  model_number:
-  - '563286'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - f63-2026-target-heart-rate-zone
 source:
   ref: sole-tm-f63-2026-owners-manual
-  locator: pages 21 to 22, Rate of Perceived Exertion
+  locator: pages 21 to 22, Rate of Perceived Exertion; same table in the F63-2013, F65, F60-2012, F80/F85-2013,
+    S77-2013, AF63/AF65, AF80/AF83/AF85, AS77, TT8-2013, ATT8, TT8C, WF63, WF80, F60-2016 and TT9 books
   extracted_at: '2026-09-04'
 ---
 

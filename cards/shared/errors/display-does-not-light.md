@@ -22,8 +22,62 @@ facets:
   product_line: treadmill
   model: '*'
   applies_to:
+  - af63-2011
+  - af65-2011
+  - af80-2011
+  - af83-2011
+  - af85-2011
+  - as77-2012
+  - att8-2011
+  - f60-2013
+  - f60-2014
+  - f63-2006
+  - f63-2013
+  - f63-2015
+  - f65-2013
+  - f65-2014
   - f65-2016
   - f65-2019
+  - f80-2006
+  - f80-2013
+  - f83-2006
+  - f85-2006
+  - f85-2013
+  - s73-2006
+  - s77-2006
+  - s77-2013
+  - tt8-2006
+  - tt8-2013
+  - tt8c-2011
+  - tt9-2018
+  - uf63-2006
+  - uf80-2006
+  - uf83-2006
+  - uf85-2006
+  - us73-2006
+  - us77-2006
+  - utt8-2006
+  - vf63-2007
+  - vf80-2007
+  - vf83-2007
+  - vf85-2007
+  - vs73-2007
+  - vs77-2007
+  - vtt8-2007
+  - wf63-2009
+  - wf63-2010
+  - wf80-2009
+  - wf80-2010
+  - wf83-2009
+  - wf83-2010
+  - wf85-2009
+  - wf85-2010
+  - ws73-2009
+  - ws73-2010
+  - ws77-2009
+  - ws77-2010
+  - wtt8-2009
+  - wtt8-2010
   section: errors
   code: '*'
 authority: 3
@@ -42,3 +96,5 @@ source:
 3. The plug is disconnected. Make sure it is firmly pushed into a **110 VAC wall outlet. (for 220V model is 220 VAC)**
 4. The breaker panel circuit breaker may be tripped.
 5. Treadmill defect - contact your dealer.
+
+**Twenty-four older owner's manuals print this same five-check list.** The 2011–2013 and 2009/2010 books word it as above (tether cord, front-grill breaker, wall plug, household breaker, dealer defect), numbered "1." or "1)" — the ATT8-2011, TT8-2013 and TT8C-2011 books say "Safety key" where the rest say "Tether cord". The 2006–2008 books print the same checks as unnumbered bullets and add "or power switch off" to the front-grill breaker check. Corroborated in each book's SERVICE CHECKLIST table (e.g. AF63/AF65-2011 PDF p. 31, F63/UF63-2006 PDF p. 17, WF80/83/85-2009/2010 PDF p. 26). The F60-2016 owner's list is damaged at step 3, ends "Contact FUEL Fitness", and is already held by that machine's service-manual cards, so F60-2016 is not on this card.

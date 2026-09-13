@@ -20,22 +20,43 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f63-2026
+  model: '*'
   applies_to:
+  - af63-2011
+  - af65-2011
+  - af80-2011
+  - af83-2011
+  - af85-2011
+  - as77-2012
+  - att8-2011
+  - f60-2013
+  - f60-2014
+  - f60-2016
+  - f63-2013
+  - f63-2015
   - f63-2026
+  - f65-2013
+  - f65-2014
+  - f80-2013
+  - f85-2013
+  - s77-2013
+  - tt8-2013
+  - tt8c-2011
+  - tt9-2018
   section: programs
   code: '*'
-  model_number:
-  - '563286'
 authority: 3
 not_to_be_confused_with: []
 see_also:
 - f63-2026-heart-rate-programs
 - f63-2026-rate-of-perceived-exertion
 - f63-2026-pulse-sensor-accuracy-disclaimer
+- sole-treadmill-programs-target-zone-90-70
+- sole-treadmill-programs-target-zone-w-series
 source:
   ref: sole-tm-f63-2026-owners-manual
-  locator: page 21, Heart Rate Programs
+  locator: page 21, Heart Rate Programs; same zone in the F63-2013, F65, F60-2012, F80/F85-2013, S77-2013,
+    AF63/AF65, AF80/AF83/AF85, AS77, TT8-2013, ATT8, TT8C, F60-2016 and TT9 books
   extracted_at: '2026-09-04'
 ---
 
@@ -61,3 +82,5 @@ So for a 40 year old the training zone would be **108 to 144 beats per minute**.
 **Consult your physician before participating in any exercise program.**
 
 **A chart is missing from this page.** The text refers to "the black columns on the chart above" showing MHR by age, with two diagonal lines for the cardiovascular and weight loss training rates. **That chart is an image and did not survive the text extraction.** The numbers above are the whole of what the page states in words.
+
+**Legacy wording.** The books above print this same zone with the same 40-year-old 108-to-144 example and the same physician note. The F60-2016 book calls it the **predicted** maximum and phrases the ends as **60% "recommended for burning fat"** and **80% "recommended for strengthening your cardiovascular system"**. Generations with different percentages have their own cards: 90%/70% on `sole-treadmill-programs-target-zone-90-70`, 80%/60% reworded on `sole-treadmill-programs-target-zone-w-series`.

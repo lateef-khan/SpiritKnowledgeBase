@@ -20,13 +20,66 @@ facets:
   brand:
   - sole
   product_line: treadmill
-  model: f63-2026
+  model: '*'
   applies_to:
+  - af63-2011
+  - af65-2011
+  - af80-2011
+  - af83-2011
+  - af85-2011
+  - as77-2012
+  - att8-2011
+  - f60-2013
+  - f60-2014
+  - f60-2016
+  - f63-2006
+  - f63-2013
+  - f63-2015
   - f63-2026
+  - f65-2013
+  - f65-2014
+  - f80-2006
+  - f80-2013
+  - f83-2006
+  - f85-2006
+  - f85-2013
+  - s73-2006
+  - s77-2006
+  - s77-2013
+  - tt8-2006
+  - tt8-2013
+  - tt8c-2011
+  - tt9-2018
+  - uf63-2006
+  - uf80-2006
+  - uf83-2006
+  - uf85-2006
+  - us73-2006
+  - us77-2006
+  - utt8-2006
+  - vf63-2007
+  - vf80-2007
+  - vf83-2007
+  - vf85-2007
+  - vs73-2007
+  - vs77-2007
+  - vtt8-2007
+  - wf63-2009
+  - wf63-2010
+  - wf80-2009
+  - wf80-2010
+  - wf83-2009
+  - wf83-2010
+  - wf85-2009
+  - wf85-2010
+  - ws73-2009
+  - ws73-2010
+  - ws77-2009
+  - ws77-2010
+  - wtt8-2009
+  - wtt8-2010
   section: safety
   code: '*'
-  model_number:
-  - '563286'
 authority: 3
 not_to_be_confused_with: []
 see_also:
@@ -35,7 +88,8 @@ see_also:
 source:
   ref: sole-tm-f63-2026-owners-manual
   locator: pages 2, 3 and 25, Important Safety Instructions, Important Electrical
-    Instructions and General Cleaning
+    Instructions and General Cleaning; legacy owner books print the same DANGER line, disconnect order and cover rule
+    (safety list PDF p. 4, electrical page PDF p. 5; pp. 5/6 in the AF63/AF80/AS77/ATT8/TT8C books)
   extracted_at: '2026-09-04'
 ---
 
@@ -52,3 +106,5 @@ To disconnect:
 The maintenance section repeats the rule for vacuuming under the motor cover: UNPLUG THE POWER CORD BEFORE THIS TASK.
 
 Also: route the power cord away from any moving part of the treadmill, including the elevation mechanism and the transport wheels. Keep the cord away from heated surfaces, and never operate the treadmill with a damaged cord or plug.
+
+The legacy owner books listed above print the same DANGER line, the same three-step disconnect order and the same never-remove-a-cover rule; only the 2026 book adds the maintenance-repeat and cord-routing sentences.

@@ -33,7 +33,7 @@ see_also:
 - f60-2016-console-buttons-ready-mode
 source:
   ref: sole-tm-f60-2016-service-manual
-  locator: page 60, 8.9 CALIBRATION PROCEDURE
+  locator: page 60, 8.9 CALIBRATION PROCEDURE; owner's-book variant in sole-tm-f60-2016-owners-manual, ENGINEERING MODE, PDF p. 23 (printed 21), text.md lines 787-803
   extracted_at: '2026-09-04'
 ---
 
@@ -48,3 +48,5 @@ source:
    6. **Incline level**, set at **10** for level 10 or **12** for level 12. Press Clear/Set after setting.
 4. Press the **START** key to enter the automatic calibration.
 5. The console returns to idle mode when the calibration is completed.
+
+**Owner's-manual variant for the same machine.** The owner's book prints the same PROGRAM-key entry with different stored values: wheel size **60** (same), minimum speed **5** for speed 0.5, maximum speed **100** for speed 10, incline level **10** for level 10 or **12** for level 12. Its engineering-mode page is partly garbled (the first step and the first two settings are unreadable), so only the readable settings are recorded here. Ruled: the maximum-speed split is units — 160 (= 16 km/h) is the metric twin of 100 (= 10 mph), matching the manual's own 0.5–10 Mi / 0.8–16.0 Km working range; the minimum-speed split (10 = 1 versus 5 = 0.5) has no clean units story, so both readings stand and the card leads with the service manual's complete ordered list including the E0-on-key-pull cue.

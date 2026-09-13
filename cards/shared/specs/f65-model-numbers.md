@@ -18,12 +18,15 @@ facets:
   - sole
   product_line: treadmill
   model:
-  - f65
+  - f65-2013
+  - f65-2014
   - f65-2016
   - f65-2019
   - f65-2023
   - f65-2026
   applies_to:
+  - f65-2013
+  - f65-2014
   - f65-2016
   - f65-2019
   - f65-2023
@@ -31,6 +34,8 @@ facets:
   section: specs
   code: '*'
   model_number:
+  - '565812'
+  - '565813'
   - '565816'
   - '565818'
   - '565822'
@@ -44,12 +49,14 @@ see_also:
 - f65-2023-model-overview
 source:
   ref: custservice-model-numbers
-  locator: rows f65-2016 to f65-2026
+  locator: rows f65-2013 to f65-2026
   extracted_at: '2026-09-10'
 ---
 
 | Year | Model number | Tag |
 |---|---|---|
+| 2013 | 565812 | f65-2013 |
+| 2014 | 565813 | f65-2014 |
 | 2016 | 565816 | f65-2016 |
 | 2019 | 565818 | f65-2019 |
 | 2023 | 565822 | f65-2023 |
