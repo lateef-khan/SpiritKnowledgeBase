@@ -1,9 +1,10 @@
 # Handoff — where the knowledge base stands and how to continue
 
 **Written:** 2026-09-10, at a clean pause. **Updated 2026-09-12** after the third and
-last Xterra wave (X3) merged, and again the same day after a full hash-and-text check
-of every PDF on disk. **3a (Spirit) and 3b (Xterra) are done. Sole is NOT done:
-93 Sole owner's manuals from 2006-2025 were never ingested** — see section 3d.
+last Xterra wave (X3) merged, after a full hash-and-text check of every PDF on
+disk, and after Sole treadmills wave **A1** merged (PR #64). **3a (Spirit) and
+3b (Xterra) are done. Sole is IN PROGRESS: 25 of 95 legacy owner's manuals
+ingested** — see section 3d.
 Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
@@ -16,11 +17,11 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **9,405** |
+| cards | **9,669** |
 | `kb lint` | 0 problems |
-| declared model ids | **389** (209 Spirit, 116 Sole, 64 Xterra) — every one has at least one card |
-| sources ingested | 567 |
-| machines carrying `model_number` | **294** of 334 with single-machine cards |
+| declared model ids | **442** (209 Spirit, 169 Sole, 64 Xterra) — every one has at least one card |
+| sources ingested | 592 |
+| machines carrying `model_number` | **319** of 360 with single-machine cards |
 
 Check it yourself:
 
@@ -346,17 +347,31 @@ extended** (24 warranty, 9 safety, 5 console, 5 errors, 5 maintenance, 3 specs,
   headed "Model R48" treated as the ERG750W.
 - Tank capacity tables are `specs`; one maintenance duplicate deleted.
 
-### 3d. Sole owner's manuals 2006-2025 — 93 PDFs never ingested
+### 3d. Sole owner's manuals 2006-2025 — 95 PDFs, 25 ingested (A1 merged)
 
 Found 2026-09-12 by hashing every PDF under `/mnt/HDD/Downloads/` against the
 manifest and text-comparing the rest against the ingested sources of the same
 model. Earlier handoffs said "every Sole manual is done"; only the Sole **bikes**
 (B94/R92, LCB/LCR, SB700, SB900, SB1200, all years) and the **2026** books were.
 The list is `reference/sole-legacy-owners-manuals-not-ingested.tsv` (path, native
-word count). By line: treadmills 48, ellipticals 31, climbers 4, rowers 4, SRVO 2,
-strength 4. Fifty of the 93 have **under 100 native words** — the image-stencil
-PDFs the memory note `kb-image-stencil-pdf-ocr` describes: render at 300 dpi,
-tesseract `--psm 4`, all four rotations, and expect 5-9k words a book.
+word count) — 93 rows plus 2 the survey caught it missing (`UE25 UE55 E55 2007`
+ellipticals, `VF80 VF83 VF85 2008` treadmills). Digest **only** from
+`/mnt/HDD/Downloads/Sole Treadmill/Owners Manuals-20260904T175611Z-1-001/Owners Manuals`:
+the rest of that download folder (Bikes, 2026, Rowers/Service/SRVO/Treadmills
+zip-extracts) is already ingested, confirmed file-by-file against the manifest.
+
+**A1 treadmills native-text era: done** (PR #64, 2026-09-12) — 25 books, 25
+sources, 53 new ids, 233 new cards + 16 extensions. Wave file
+`reference/sole-treadmills-a1-wave.tsv`; briefs in `/tmp/sole-a1/briefs/`
+(not committed — rebuild per wave from `reference/wave-briefs/`). What it
+settled: ids from footer revision stamps (`MODEL_YYYYMMDD`) + warranty
+effective dates + one full `dbo.MODEL` SOLE dump, never the filename (TT9
+"2019" is a 2018 revision; AS77 "2011" stamps 2012-01-23; V-machines are
+2007 under 2008 filenames; W-books pair two years under one SKU);
+`f60-2013` = 560813, 560812 unassigned; TT8C has no DB row. Remaining, in
+this order: **A2** 24 stencil-era treadmills (all <100 native words, full
+OCR sweep per book), **B** 32 ellipticals (incl. the UE25 extra), **C** 14
+climbers / rowers / SRVO / strength.
 
 They are real new work: the F80 2019 book measures 0.00 against the F80 2026 book
 and the 2023 service manual; the E20/E25 2012-2015 book 0.51 against its nearest
@@ -364,7 +379,7 @@ neighbour. Several files bundle years and SKUs in one book
 (`SOLE E35 E95 2012 2013 2014 2015 Owners Manual (535012, … 595015).pdf`), so one
 source will carry several `<model>-<year>` ids — prove each year from the book,
 not the filename (see "A filename year is not evidence" in `CLAUDE.md`), and the
-Sole ids already declared in `kb.yaml` (116) decide which are new.
+Sole ids already declared in `kb.yaml` (169) decide which are new.
 
 Also **not** gaps, checked the same day: the Spirit strength 2025 revisions of
 CSD-ACBE, CSD-ITOT, CSD-LELC, CSD-LPCE and CSD-PUDA measure 0.65-0.70 against
@@ -376,9 +391,10 @@ folder names hold non-breaking spaces, so match them with `glob`, not typed path
 
 ### 3c. Left over from the model-number work
 
-25 machines have no `model_number`. `reference/model-numbers-open.csv` lists
+26 machines have no `model_number` (`tt8c-2011` joined them: SKU 589810 is in
+no `dbo.MODEL` row). `reference/model-numbers-open.csv` lists
 each with its candidates. Most are one model id facing two SKUs because the
-other generation has no cards yet; they will resolve as 3a and 3b card those
+other generation has no cards yet; they will resolve as 3d cards those
 generations. Do not guess them.
 
 ---
@@ -486,18 +502,23 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written 2026-09-12, corrected the same day)
+## 8. Where to pick up (written 2026-09-12; A1 merged the same day)
 
-Spirit (3a) and Xterra (3b) are merged. **Next is 3d: the 93 Sole owner's
-manuals from 2006-2025** (section 3d, list in
-`reference/sole-legacy-owners-manuals-not-ingested.tsv`). Run it as sub-waves by
-product line — treadmills 48, ellipticals 31, then climbers / rowers / SRVO /
-strength 14 — with the X2 brief set: the Sole 2026 and bike cards exist, so the
-"extend same-brand cards" section applies (`brand: [sole]`), and the Sole 2026
-error-code family rule in the memory note `sole-2026-error-code-family` matters:
-the older books use E1-E8, the 2026 books E01-E06/E22/E31, never one card for
-both. Then the five Spirit strength 2025 revisions (section 3d, last paragraph).
-Then 3c, which needs a person.
+Spirit (3a) and Xterra (3b) are merged; Sole 3d wave **A1** (25 native-text
+treadmills, PR #64) is merged. **Next is A2: the 24 stencil-era Sole
+treadmills** (every one under 100 native words — full 300 dpi OCR sweep per
+book, all four rotations, expect 5–9k words a book), then **B** (32
+ellipticals) and **C** (14 climbers / rowers / SRVO / strength), all from
+`Sole Treadmill/Owners Manuals-20260904T175611Z-1-001/Owners Manuals` and
+listed in `reference/sole-legacy-owners-manuals-not-ingested.tsv` (95 rows).
+Reuse the A1 briefs as the template (they are newer than the X2 set: Sole
+brand with existing cards, treadmill section boundaries, the four
+double-checks, `sole-<family>` shared ids, W-book one-SKU-two-ids shape);
+they live in the A1 session scratchpad, not the repo — rebuild from
+`reference/wave-briefs/` + `reference/sole-treadmills-a1-wave.tsv`.
+The Sole 2026 error-code family rule holds: old books E1-E8, 2026 books
+E01-E06/E22/E31, never one card for both. Then the five Spirit strength
+2025 revisions (section 3d, last paragraph). Then 3c, which needs a person.
 
 Small things a later session could pick up:
 
@@ -542,4 +563,8 @@ disagree on volts / amps / gauge / GFCI; the CT900 and XS895 warranty terms
 battery power source; the FTP credentials on `ct900ent-console-ftp-settings-error-log-upload`;
 whether the 2019 sheet cards should reach post-2019 ids; the 7.0R "set Unit Type
 to upright" and the CSD-CPSP 679 lb / 598 lb placards.
+From #64 (A1): the second "F60 2013" SKU 560812 (unassigned — both 560812 and
+560813 claim 2013); whether the pre-existing f80/f85/f83-2026 belt-dust and
+military-fitness splits should join the A1 sentence now on f80's cards; the
+F60-2016 calibration min-speed split (10 = 1.0 vs 5 = 0.5) kept as both readings.
 
