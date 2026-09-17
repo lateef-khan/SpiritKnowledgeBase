@@ -279,6 +279,57 @@ This is why `text.md` is for reading and the PDF is for deciding. It now carries
 three kinds of text: the native layer, the `=== OCR SUPPLEMENT ===` blocks this
 repository appends, and — on some sources — a ghost layer that was never on paper.
 
+## A text layer can be a cipher, not an absence
+
+Worse than a flattened page and worse than ghost text, because it does not look
+broken. `pdftotext` returns thousands of words, the page count is right, a word
+count per page looks healthy — and **every letter is wrong**.
+
+On 2026-09-17 all five Spirit CSD strength 2025 printings were found to carry
+broken font encodings. One font is a **+29 character shift**, so
+`6FDQWRTXLFNO\` is `Scan to quickly`; another is an unmappable custom cmap that
+comes out as `${Χp{¶` for `DO NOT`. Digits are dropped almost entirely, so a
+revision stamp extracts as `Version: .0` and `Revision: 02/2 /202`.
+
+**The tell is text of the right shape with the wrong letters**, and a figure or a
+date with holes where digits belong. If a heading reads like keyboard mash but
+keeps English word lengths and punctuation, suspect the encoding, not the scan.
+
+```bash
+pdftotext -layout FILE.pdf - | head -40        # cipher text, right shape
+pdftoppm -r 300 -png -f 1 -l 1 FILE.pdf /tmp/p
+tesseract /tmp/p-1.png stdout --psm 4          # what the page actually says
+```
+
+Decoding the shift recovers part of it and is **not** a fix: the second font has
+no mapping, and the digits are gone either way. OCR the whole book, mark every
+page `=== OCR SUPPLEMENT, PDF PAGE n ===`, and say in the `text.md` header
+comment why the native layer was discarded.
+
+**A cipher layer also poisons every similarity measurement.** Those five books
+measured 0.77-0.84 against their earlier printings from `text.md` and 0.83-0.92
+rendered and OCR'd on both sides — and an earlier survey, measuring the same
+files the same wrong way, recorded 0.65-0.70 and called them heavily revised.
+When one side of a comparison is OCR, **OCR both sides.** This is the same rule
+as "Measure similarity from the PDF, never from `text.md`", and it fails the same
+way: an artefact of extraction read as a fact about the document.
+
+## An agent's arithmetic is not evidence
+
+Extraction agents are careful readers and unreliable adders. In the same wave one
+agent read a plate table correctly — nine 15 lb plates, six 10 lb plates, two
+10 lb top pieces — and totalled it as 225 lb. It is 215 lb. The wrong figure was
+in the card's id, its title, its body table and two cards that referenced it.
+
+It was caught because a second agent, working a different section from the same
+page, reported 215. **When two agents' numbers disagree, recompute from the
+printed rows; never pick one.** And re-add any total a card states, because a
+total is the one number on a card that no page ever printed — it is the agent's
+own work, and `kb lint` cannot check it.
+
+Fix the id while the card is still unmerged. After it syncs, the id is frozen and
+a card called `...-stack-of-225-lb-...` will say 215 lb forever.
+
 ## A folder name is not a brand
 
 The download folders are sorted by brand, and they are wrong in both directions.
