@@ -1,0 +1,8 @@
+pdf_folder	pdf_token	source_id	title	model_ids	printed_stamp	footer_code
+Strength/CSD-ACBE	4609US	spirit-strength-csd-acbe-owners-manual-2025-revision	Spirit CSD-ACBE ab crunch / back extension strength machine owner's manual, version 5.0, revision 04/11/2025	csd-acbe	Version: 5.0 / Revision: 04/11/2025	CSD-ACBE_622233_OM_20250412
+Strength/CSD-ITOT	4316US	spirit-strength-csd-itot-owners-manual-2025-revision	Spirit CSD-ITOT inner / outer thigh strength machine owner's manual, version 4.0, revision 02/22/2025	csd-itot	Version: 4.0 / Revision: 02/22/2025	CSD-ITOT_648683_OM_2025_0222
+Strength/CSD-LELC	0521	spirit-strength-csd-lelc-owners-manual-2025-february-printing	Spirit CSD-LELC leg extension / leg curl strength machine owner's manual, version 5.0, revision 02/20/2025	csd-lelc	Version: 5.0 / Revision: 02/20/2025	CSD-LELC_653523_OM_20250220
+Strength/CSD-LPCE	4608US	spirit-strength-csd-lpce-owners-manual-2025-revision	Spirit CSD-LPCE leg press / calf extension strength machine owner's manual, version 4.0, revision 03/03/2025	csd-lpce	Version: 4.0 / Revision: 03/03/2025	CSD-LPCE_657233_OM_20250303
+Strength/CSD-PUDA	4314US	spirit-strength-csd-puda-owners-manual-2025-revision	Spirit CSD-PUDA pull-up / dip assist strength machine owner's manual, version 4.0, revision 15/05/2025	csd-puda	Version: 4.0 / Revision: 15/05/2025	CSD-PUDA_678323_OM_20250515
+# The filenames in these folders hold U+00A0 non-breaking spaces, so a typed path fails.
+# Resolve each PDF with glob(pdf_folder + '/*' + pdf_token + '*.pdf'), never by typing the name.
