@@ -113,8 +113,15 @@ twenty Φ15xΦ5.3x1.2 big washers, and it has two front shields rather than one.
 The order the covers go on, and the wiring you must connect first, are on
 [the shroud order card](spirit-strength-assembly-connect-the-battery-before-the-shrouds-go-on.md).
 
-## The chest press / shoulder press prints ten rows, not eight
+## Three of the dual stations print ten rows, not eight
 
-**The CSD-CPSP's step 9 table carries two rows this card does not**: **6, Fixed bushing, 12** and **16, Countersunk head hexagon socket screw, M6*16, 12** - in both its February 2024 printing and its May 2025 update, read from the native text of both. The other eight rows are as above. So "identical on all twenty-eight" does not hold for the CSD-CPSP; check its own table before ordering shroud hardware for it.
+**The CSD-CPSP, the CSD-LELC and the CSD-LPCE carry two rows this card does not**:
+**6, Fixed bushing, 12** and **16, Countersunk head hexagon socket screw, M6x16, 12**. On
+the CPSP that is both its February 2024 printing and its May 2025 update, read from the
+native text of both; on the leg extension/leg curl it is both 2025 printings and on the leg
+press/calf extension both printings, read from the native text of the 2024 books and from
+renders of the 2025 ones. The
+other eight rows are as above on all three. So "identical on all twenty-eight" does not
+hold for those three; check the table in your own book before ordering shroud hardware.
 
 The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

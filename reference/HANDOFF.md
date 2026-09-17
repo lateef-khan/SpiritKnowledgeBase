@@ -1,10 +1,12 @@
 # Handoff — where the knowledge base stands and how to continue
 
-**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-12** after the third and
-last Xterra wave (X3) merged, after a full hash-and-text check of every PDF on
-disk, and after Sole waves **A1** (PR #64), **A2** (PR #66), **B** (PR #68) and
-**C** (PR #70) merged. **3a (Spirit), 3b (Xterra) and 3d (Sole legacy) are
-done: all 95 legacy owner's manuals ingested** — see section 3d.
+**Written:** 2026-09-10, at a clean pause. **Updated 2026-09-17** after the five
+Spirit CSD strength 2025 revision printings were ingested and carded. Before
+that, **updated 2026-09-12** after the third and last Xterra wave (X3) merged,
+after a full hash-and-text check of every PDF on disk, and after Sole waves
+**A1** (PR #64), **A2** (PR #66), **B** (PR #68) and **C** (PR #70) merged.
+**3a (Spirit), 3b (Xterra), 3d (Sole legacy) and the strength revisions are
+done.**
 Read section 8 first. Nothing is ingested but uncarded.
 **Branch to start from:** `main`. Every branch below it is merged and deleted.
 
@@ -17,10 +19,10 @@ This file tells you what is done, what is next, and how the work is actually run
 
 | | |
 |---|---|
-| cards | **10,371** |
+| cards | **10,375** |
 | `kb lint` | 0 problems |
 | declared model ids | **495** (209 Spirit, 222 Sole, 64 Xterra) — every one has at least one card |
-| sources ingested | 662 |
+| sources ingested | 667 |
 | machines carrying `model_number` | **341** of 390 with single-machine cards |
 
 Check it yourself:
@@ -407,13 +409,86 @@ source will carry several `<model>-<year>` ids — prove each year from the book
 not the filename (see "A filename year is not evidence" in `CLAUDE.md`), and the
 Sole ids already declared in `kb.yaml` (222) decide which are new.
 
-Also **not** gaps, checked the same day: the Spirit strength 2025 revisions of
-CSD-ACBE, CSD-ITOT, CSD-LELC, CSD-LPCE and CSD-PUDA measure 0.65-0.70 against
-their carded 2024 books — genuine revisions, like the CSD-CPSP 2025 update that
-was ingested at 0.53, and worth one small wave; every other unmatched Spirit file
-is a re-export at 0.95-1.00 (the XBR95 "NewStyle 2024" is the 2023 book at 1.00;
-the CSD-BCUR 2025-06-26 file is the CSS-BCUR 2025-06-17 source at 1.00 — the
-folder names hold non-breaking spaces, so match them with `glob`, not typed paths).
+Every other unmatched Spirit file is a re-export at 0.95-1.00 (the XBR95
+"NewStyle 2024" is the 2023 book at 1.00; the CSD-BCUR 2025-06-26 file is the
+CSS-BCUR 2025-06-17 source at 1.00 — the folder names hold non-breaking spaces,
+so match them with `glob`, not typed paths). The five strength 2025 revisions
+that were listed here are **done**; see section 3e.
+
+### 3e. Spirit strength 2025 revision printings — done
+
+**Done** (2026-09-17). Five books from
+`/mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/`: the 2025
+revision printings of CSD-ACBE (Ver 5.0, rev 04/11/2025), CSD-ITOT (4.0,
+02/22/2025), CSD-LPCE (4.0, 03/03/2025), CSD-PUDA (4.0, 15/05/2025) and the
+CSD-LELC `SP-4605US` printing (5.0, 02/20/2025). No new model ids — all five
+machines were already declared. 4 new cards, 31 extended. Wave file
+`reference/spirit-strength-2025-revisions-wave.tsv`; briefs were rebuilt from
+`reference/wave-briefs/` and are not committed.
+
+**What this wave learned about the method, and it is the important part:**
+
+- **A PDF's native text layer can be a cipher, not an absence.** These five
+  exports carry broken font encodings: `pdftotext` returns a +29 character shift
+  on one font (`6FDQ` is `Scan`), an unmappable custom cmap on another, and drops
+  most digits. The page looks healthy — thousands of words come out — and every
+  one of them is wrong. **The tell is text that is the right shape and the wrong
+  letters.** Decoding the shift recovers some of it and is not enough; the whole
+  book was OCR'd instead, and every `text.md` in this wave is 100% OCR under
+  `=== OCR SUPPLEMENT ===` headers, with the reason in its header comment.
+- **Measure a revision OCR-to-OCR, never OCR against native.** Measured from
+  `text.md` these books read 0.77-0.84 against their earlier printings, which is
+  mostly the encoding, not the content. Rendered and OCR'd on both sides they are
+  0.83-0.92, and the residue is the real change list. The earlier handoff's
+  0.65-0.70 figure for these books was an artefact of the same problem.
+- **OCR misreads digits even at 300 dpi.** The CSD-PUDA overall height OCRs as
+  `83"` where the page prints `88"`; the ACBE's `436.3 lb` and the PUDA's
+  `15lb` plates were only settled at 600 dpi. Every figure in this wave was
+  read off a render. Two would have shipped wrong otherwise.
+- **An agent's arithmetic needs checking as much as its reading.** The specs
+  agent read the ACBE plate rows correctly (9 x 15 lb + 6 x 10 lb + two 10 lb
+  top pieces) and totalled them as 225 lb. It is 215 lb. The card id, title,
+  body and two referring cards all carried the wrong number; the id was still
+  unmerged, so it was renamed. The assembly agent reached 215 independently,
+  which is what caught it — **when two agents' numbers disagree, recompute, do
+  not pick.**
+- **Two halves of one fact still need linking by hand.** The assembly and
+  maintenance cards for the guide-rod silicone, and the assembly and console
+  cards for the magnet pulley and the battery, were each extended by a different
+  agent and none of them linked to its other half. Section-disjoint briefs
+  prevent double-carding; they do not create the `see_also`. Check for it at
+  reconciliation.
+- The filenames in these folders hold **U+00A0 non-breaking spaces**. Resolve
+  them with `glob`, never by typing the path.
+
+**What the books changed.** The tools NOTE flipped on four machines (tools are
+**not** included; Allen wrench set, Phillips screw driver, C-ring pliers), and
+"Remove the tools first" is gone from their unpacking step. The serial decal's
+metric figure is corrected, `180 KG` → `163kg`. Two weight stacks moved: ACBE
+200 → 215 lb, PUDA 330 → 230 lb. A new part **210 Pulley Set with Magnets**
+appears with the note that its magnet side must face the sensor. The four
+workout placard part numbers are printed for the first time (#311010455,
+#311008421, #311006282, #311008419), on cards that had said no number is
+printed. Warranty terms and effective dates did not move.
+
+**Two things a human may want to overrule:**
+
+- **The CSD-ACBE machine weight.** The 2025 book prints `436.3 lb / 197.9kg`
+  where the 2024 book prints `547 lbs / 248 kgs`, with the dimensions unchanged.
+  436 lb is *exactly* the CSD-ITOT's machine weight, and the ITOT is a much
+  smaller machine, so this reads like a copied row. Both figures are on the card
+  with the 2024 one ruled the credible one. A scale would settle it.
+- **The CSD-LELC's two 2025 printings.** The **earlier** book (02/20/2025)
+  carries the **newer** content — part 210, the new plate names, the full magnet
+  note, the lubrication note — and the already-ingested **later** book
+  (03/10/2025) has none of it and still prints the `180 KG` decal. Ruled: act on
+  the February book, treat the March one as a stale reprint. If that is wrong,
+  five cards change. Note the two files are differently named lineages
+  (`CSD-LELC_653523_OM_20250220` against `CSD-LELC_OM_653523_20250310`), which
+  may be the explanation.
+
+The other two `SP-4605US` CSD-LELC files (`0514 v2`, `0515`) are the same
+document as the `0521` one at 0.995 and 0.999 and were not ingested.
 
 ### 3c. Left over from the model-number work
 
@@ -528,17 +603,20 @@ in `reference/`.
 
 ---
 
-## 8. Where to pick up (written 2026-09-12; all four Sole waves merged the same day)
+## 8. Where to pick up (written 2026-09-17)
 
-Spirit (3a), Xterra (3b) and Sole legacy (3d) are merged: **A1** (25
-native-text treadmills, PR #64), **A2** (24 stencil treadmills, PR #66),
-**B** (32 ellipticals, PR #68), **C** (14 climbers/rowers/SRVO/strength, PR
-#70) — 95/95 books, nothing left in the Owners Manuals folder. **Next is
-the five Spirit strength 2025 revisions** (section 3d, last paragraph:
-CSD-ACBE, CSD-ITOT, CSD-LELC, CSD-LPCE, CSD-PUDA at 0.65–0.70 — one small
-wave, same method). **Then 3c, which needs a person** (26 open machines in
-`reference/model-numbers-open.csv`, now including C's `sr500-2016`,
-`sc300-2017`, `sr400`, `sw*`, `srvo-2021` rows).
+**Every manual on disk is ingested.** Spirit (3a), Xterra (3b), Sole legacy
+(3d) and the five Spirit strength 2025 revision printings (3e) are all
+merged. There is no ingestion backlog.
+
+**The next task needs a person, not a wave: 3c**, the 26 machines with no
+`model_number` (`reference/model-numbers-open.csv`). Most are one model id
+facing two SKUs. Do not guess them; they want the database and a decision.
+
+**Two rulings from 3e are worth a human's eye before they harden** — the
+CSD-ACBE's 436.3 lb machine weight and the CSD-LELC's two 2025 printings.
+Both are described at the end of section 3e, both are on the cards, and
+neither blocks anything.
 
 Small things a later session could pick up:
 

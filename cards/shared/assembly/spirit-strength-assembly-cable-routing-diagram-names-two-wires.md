@@ -59,6 +59,7 @@ facets:
 authority: 3
 not_to_be_confused_with: []
 see_also:
+- spirit-strength-assembly-cable-clear-of-the-limiting-post
 - spirit-strength-assembly-thread-the-cable-before-joining-the-frames
 - spirit-strength-assembly-the-magnet-side-of-the-upper-pulley-faces-the-sensor
 - spirit-strength-assembly-no-cable-routing-diagram-on-the-functional-range
@@ -89,6 +90,12 @@ threaded through the frame in step 1, before the door frame is bolted on.
 **The diagram itself is a drawing with two lettered callouts and no route description.**
 There is no text on the page saying where either wire runs; the route is only shown, and
 on most of these books the page is flat artwork with no text behind it.
+
+**Five of the CSD dual stations also print a Correct/Wrong panel labelled *cable limiting
+post***, which is about the **steel cable**, not the wiring - on a second CABLE ROUTING
+DIAGRAM page in four of them and on the step 7 assembly page of the leg extension/leg
+curl. Different page, different subject - see
+[the limiting post card](spirit-strength-assembly-cable-clear-of-the-limiting-post.md).
 
 The order of work matters more than the diagram. If the power line is not threaded first,
 the machine has to come apart - see

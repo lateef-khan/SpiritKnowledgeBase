@@ -5,7 +5,7 @@ title: Weight stacks first, then the top stack, then the incremental weight, and
 kind: procedure
 question: In what order do the weight plates, top plate and guide rod fixed plate
   go on when I build a Spirit commercial strength machine? Covers the Spirit CSS selectorized
-  range and three CSD dual stations.
+  range and seven CSD dual stations.
 asked_as:
 - what order do the weight plates go on
 - how do i fit the weight stack
@@ -26,10 +26,14 @@ facets:
   product_line: strength
   model: '*'
   applies_to:
+  - csd-acbe
   - csd-cpsp
+  - csd-itot
   - csd-lelc
+  - csd-lpce
   - csd-lpsr
   - csd-pfrd
+  - csd-puda
   - css-abdo
   - css-bcur
   - css-bext
@@ -67,7 +71,12 @@ source:
     ASSEMBLY - CONTINUED, the weight-stack notes, PDF p. 20 (printed 19); text.md
     lines 278-291 | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
     ASSEMBLY - STEP 6 - CONTINUED, Note 1, PDF p. 19 (printed 18); text.md OCR supplement
-    at 1608-1611'
+    at 1608-1611 | the five CSD 2025 reprints, all in the third wording - csd-acbe 2025
+    revision PDF p. 19 (printed 18) text.md lines 579-580; csd-itot 2025 revision PDF p.
+    15 (printed 14) lines 511-512; csd-lpce 2025 revision PDF p. 19 (printed 18) lines
+    584-585; csd-puda 2025 revision PDF p. 16 (printed 15) lines 632-633; csd-lelc
+    February 2025 printing PDF p. 20 (printed 19) lines 624-625 - the step tables behind
+    them read from 600 dpi renders'
   extracted_at: '2026-09-10'
 ---
 
@@ -91,8 +100,25 @@ Four printings exist across these machines:
 - *"...Weight Stacks, Top Weight Stack and Guide rod fixed plate in sequence"* - deltoid
   trainer, seated row and pec fly/rear delt, with the incremental weight left off.
 
+- *"Please install the Weight Stacks, Top Weight Stack, incremental weight in sequence"* -
+  **all five CSD 2025 reprints**, again with the fixed plate left off.
+
 **The order is the same in all four; the shorter ones simply omit an item.** Fit all four
 in the order above whichever book you have.
+
+## Four of the 2025 reprints have no guide rod fixed plate to fit
+
+The ab crunch/back extension, inner/outer thigh, leg press/calf extension and the
+**February** printing of the leg extension/leg curl drop `Guide rod fixed plate` from both
+the step table and the exploded drawing of their 2025 revisions; their February 2024
+printings all list it as item 5. The **pull-up/dip assist** keeps it (005, qty 1) and so
+does the leg extension/leg curl's **March** printing. If your table has no fixed-plate row,
+the note's four-item sequence is a three-item one - see
+[the guide rod hardware card](spirit-strength-assembly-guide-rod-and-selector-pin-hardware.md).
+
+**The leg extension/leg curl March printing mis-numbers the plate.** Its note reads *"...
+then the guide rod fixed plate (12) in sequence"*, but item 12 in its own table is the
+**rod end cover**; the fixed plate is item 5. Go by the description.
 
 Two more notes sit in the same panel: the magnet side of the upper pulley has to face the
 sensor, and the guide rods are lubricated before the shrouds go on. See

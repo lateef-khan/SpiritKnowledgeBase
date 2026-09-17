@@ -3054,6 +3054,13 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ACBE/CSD-ACBE_622233_OM_20240325.pdf
   sha256: 1c8ac0640b5f3f8877856e6ffb65d3132d02b8693b75fda769e7b4c6ccedd31f
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-acbe-owners-manual-2025-revision
+  title: Spirit CSD-ACBE ab crunch / back extension strength machine owner's manual,
+    version 5.0, revision 04/11/2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ACBE/SP-4609US, CSD-ACBE, AbCrunchBackExtension - 2025 0521.pdf
+  sha256: 88ee183f9c6cd06819ed5887542a2db5292a7f4b00f51fe38a55d57fea40d8e7
+  ingested_at: '2026-09-17'
 - id: spirit-strength-csd-bcte-owners-manual
   title: Spirit CSD-BCTE biceps curl / triceps extension strength machine owner's
     manual, warranty effective february 21, 2024
@@ -3082,6 +3089,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ITOT/CSD-ITOT_648683_OM_20240221.pdf
   sha256: 3a4ed7653e05a2cfe6d0413c2e5d7adbdfada52a2c8320ac716fa31c034a65f0
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-itot-owners-manual-2025-revision
+  title: Spirit CSD-ITOT inner / outer thigh strength machine owner's manual, version
+    4.0, revision 02/22/2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-ITOT/4316US,
+    CSD-ITOT,  2025 0521.pdf
+  sha256: c917fd54afd0e8fd2ad5043b9d0e03937f8ee80267b72e2aa7bfe0fdff128ae7
+  ingested_at: '2026-09-17'
 - id: spirit-strength-csd-lelc-owners-manual
   title: Spirit CSD-LELC leg extension / leg curl strength machine owner's manual,
     warranty effective february 22, 2024
@@ -3089,6 +3104,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LELC/CSD-LELC_OM_653523_20250310.pdf
   sha256: 68edbab95e04d9b936ffccad09d9f30bd5a883347709f5b4d59644e36fb8c42a
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-lelc-owners-manual-2025-february-printing
+  title: Spirit CSD-LELC leg extension / leg curl strength machine owner's manual,
+    version 5.0, revision 02/20/2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LELC/SP-4605US,
+    CSD-LELC - 2025 0521.pdf
+  sha256: 8b5cb90175c12795ad854a71519c82a1222e3ef25644e9e0412d0c8ebb6fd1a1
+  ingested_at: '2026-09-17'
 - id: spirit-strength-csd-lpce-owners-manual
   title: Spirit CSD-LPCE leg press / calf extension strength machine owner's manual,
     warranty effective february 22, 2024
@@ -3096,6 +3119,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LPCE/CSD-LPCE_657233_OM_20240221.pdf
   sha256: 3d82b102a8b879e1d64ee718bc4b74b66b9c67509545508551e022882e603d05
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-lpce-owners-manual-2025-revision
+  title: Spirit CSD-LPCE leg press / calf extension strength machine owner's manual,
+    version 4.0, revision 03/03/2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-LPCE/SP-4608US,
+    CSD-LPCE, LegPressCalfExtension - 2025 0521.pdf
+  sha256: 95bb9d2bd91a2089ed83a0802b9990d5303f800889d327844cff3e78ea91f135
+  ingested_at: '2026-09-17'
 - id: spirit-strength-csd-lpsr-owners-manual
   title: Spirit CSD-LPSR lat pulldown / seated row strength machine owner's manual,
     warranty effective february 22, 2024
@@ -3117,6 +3148,14 @@
   origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-PUDA/CSD-PUDA_678323_OM_20240619.pdf
   sha256: 398bc3889a7f5237ab304336421b8ff14ba557108234c3a4e1548221db5e1c4b
   ingested_at: '2026-09-10'
+- id: spirit-strength-csd-puda-owners-manual-2025-revision
+  title: Spirit CSD-PUDA pull-up / dip assist strength machine owner's manual, version
+    4.0, revision 15/05/2025
+  kind: pdf
+  origin_uri: file:///mnt/HDD/Downloads/Spirit Folder/Spirit Owners Manuals/Strength/CSD-PUDA/4314US,
+    CSD-PUDA, PullUpDipAssist_OM - Update - 2025 0521.pdf
+  sha256: 0e77ae65845e8d7a530a97d5161aac1e09e0b7f6c2d0efc0eeb6767e08b63f71
+  ingested_at: '2026-09-17'
 - id: spirit-strength-csf-aabb-owners-manual
   title: Spirit CSF-AABB ab and back bench strength machine owner's manual, warranty
     effective march 05, 2024

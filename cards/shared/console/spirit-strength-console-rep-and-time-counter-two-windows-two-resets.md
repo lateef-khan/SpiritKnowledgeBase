@@ -69,14 +69,20 @@ see_also:
 - spirit-strength-console-nine-machines-with-no-counter-console-or-display
 source:
   ref: spirit-strength-css-abdo-owners-manual
-  locator: REPETITION AND TIME COUNTER page, printed pp. 17-24 depending on the book
+  locator: 'REPETITION AND TIME COUNTER page, printed pp. 17-24 depending on the book
     (CSS-ABDO printed p. 19, PDF p. 20). Word for word on all 28 CSS and CSD manuals;
     read from the PDF text layer on 27 and from a 300 dpi tesseract --psm 4 render
     on CSS-SROW, whose PDF has no text layer. CSS-DELT 2026 revision (spirit-strength-css-delt-owners-manual-2026)
     REPETITION AND TIME COUNTER, PDF p. 22 (printed 21), text.md lines 670-696, read
     from the OCR supplement because the text layer is a shifted font; CSD-CPSP May
     2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update) PDF p. 25 (printed
-    24), lines 352-379, checked against a 100 dpi render
+    24), lines 352-379, checked against a 100 dpi render. What the counter senses:
+    ASSEMBLY - CONTINUED, weight-stack step, note 2, on all five CSD 2025 revision
+    printings in this wave (spirit-strength-csd-acbe-owners-manual-2025-revision PDF
+    p. 19, text.md lines 578-584; spirit-strength-csd-itot-owners-manual-2025-revision;
+    spirit-strength-csd-lelc-owners-manual-2025-february-printing; spirit-strength-csd-lpce-owners-manual-2025-revision;
+    spirit-strength-csd-puda-owners-manual-2025-revision), each an OCR read, no native
+    text layer'
   extracted_at: '2026-09-10'
 ---
 
@@ -122,4 +128,20 @@ resistance electronically, runs training modes and pairs with a phone app. This 
 things, counts and times, and controls nothing.
 
 **The 2026 revision of the CSS-DELT book and the May 2025 update of the CSD-CPSP book print the page unchanged** - the same two windows, the same two RESET buttons, the same two-line table.
+
+## What the counter senses
+
+The REPS window is not driven by the console itself: the weight-stack assembly page names the part
+that triggers it. The **upper pulley carries magnets**, and a **sensor** in the tower reads them as
+the pulley turns - that sensor is the same **reed switch** the troubleshooting page names ("Magnet
+must go up past the counter reed switch and back down past it to count ONE repetition") and the
+same one the cable routing diagram calls the *Dry Reed Pipe Connection Wire*. One pass of the magnet
+past the reed switch, in each direction, is one counted repetition; nothing else on the machine
+closes that circuit.
+
+**Which way round the magnet pulley goes is an assembly instruction, not a console one** - see
+[the fitting card](../assembly/spirit-strength-assembly-the-magnet-side-of-the-upper-pulley-faces-the-sensor.md).
+This wave's five 2025 CSD revision printings (ACBE, ITOT, LELC February printing, LPCE, PUDA) are
+the first of these five books to name the magnet pulley by its part number; the mechanism itself -
+a magnet passing a reed switch - is not new and was already printed on every troubleshooting page.
 

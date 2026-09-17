@@ -36,6 +36,7 @@ see_also:
 - spirit-strength-specs-stack-of-170-lb
 - spirit-strength-specs-stack-of-180-lb
 - spirit-strength-specs-stack-of-190-lb
+- spirit-strength-specs-assist-stack-of-230-lb
 source:
   ref: spirit-strength-csd-puda-owners-manual
   locator: 'Assembly hardware table, PDF page 16, rows 073, 074, 075, 076 and 117. Read from the PDF text layer.'
@@ -63,6 +64,11 @@ who reads 330 lb as a resistance rating has it backwards.
 **Three separate part numbers for the same 10 lb plate** - 073, 074 and 075, in quantities 1, 2 and
 5. All eight are the same size; the split is a bill-of-materials artefact, not three different
 plates.
+
+**This is the 2024-printing figure only.** The 2025 revision drops the large plate from 20 lb to
+15 lb and cuts row 075's quantity from 5 to 1, taking the total to 230 lb -
+`spirit-strength-specs-assist-stack-of-230-lb`. A machine shipping today most likely carries the
+2025 figure; this card still applies to a machine that shipped with the 2024-printing manual.
 
 The 330 lb here and the 330 lb on the seated leg press are unrelated figures -
 `spirit-strength-specs-stack-of-330-lb-in-twenty-pound-plates`.
