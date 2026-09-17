@@ -4,9 +4,9 @@ title: No tools in the carton - prepare an Allen wrench set, a Phillips screwdri
   and C-ring pliers
 kind: fact
 question: What tools do I need to assemble a Spirit commercial strength machine, and
-  are any in the box? Covers every Spirit CSS selectorized station plus the CSD leg
-  extension/leg curl, lat pulldown/seated row and pec fly/rear delt and the CSF functional
-  trainer.
+  are any in the box? Covers every Spirit CSS selectorized station, the CSF functional
+  trainer, and eight CSD dual stations - five of which print this only in a 2025
+  reprint.
 asked_as:
 - what tools do i need to build this machine
 - are the tools in the box
@@ -28,10 +28,14 @@ facets:
   product_line: strength
   model: '*'
   applies_to:
+  - csd-acbe
   - csd-cpsp
+  - csd-itot
   - csd-lelc
+  - csd-lpce
   - csd-lpsr
   - csd-pfrd
+  - csd-puda
   - csf-funt
   - css-abdo
   - css-bcur
@@ -72,7 +76,13 @@ source:
     functional trainer books | csd-cpsp May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
     ASSEMBLY & SETUP, the NOTE, PDF p. 11 (printed 10); text.md lines 236-241 | css-delt
     2026 revision (spirit-strength-css-delt-owners-manual-2026): ASSEMBLY & SETUP,
-    the NOTE, PDF p. 11 (printed 10); text.md OCR supplement at 1391-1396'
+    the NOTE, PDF p. 11 (printed 10); text.md OCR supplement at 1391-1396
+    | csd-acbe 2025 revision (spirit-strength-csd-acbe-owners-manual-2025-revision),
+    text.md lines 399-404; csd-itot 2025 revision lines 383-388; csd-lpce 2025 revision
+    lines 406-411; csd-puda 2025 revision lines 481-486; csd-lelc February 2025 printing
+    (spirit-strength-csd-lelc-owners-manual-2025-february-printing) lines 413-418 - each
+    ASSEMBLY & SETUP, the NOTE, PDF p. 11 (printed 10), and each read from a 600 dpi
+    render of that page rather than from the OCR, which is all these five sources have'
   extracted_at: '2026-09-10'
 ---
 
@@ -90,29 +100,37 @@ named anywhere in these books.
 the snap rings that retain the pivot shafts and roller-pad tubes; several step panels
 list a `Ring` item with no fastener beside it, and that ring is what the pliers are for.
 
-## Thirteen manuals in the same range say the opposite
+## The same books said the opposite in an earlier printing
 
-The other CSD and CSF books, and both i-Strength machines, say the tools **are** in the
-carton and to take them out of the hardware pack first. Do not carry this card onto
-them - see
+Five of the CSD dual stations on this card - the ab crunch/back extension, chest
+press/shoulder press, inner/outer thigh, leg press/calf extension and pull-up/dip assist -
+print *"the tools are included"* in their February 2024 printings, and the i-Strength and
+CSF bench books still do. Answer by the book, not by the machine; the printing dates are
+tabulated on
 [the tools-in-the-carton card](spirit-strength-assembly-tools-are-in-the-carton.md).
 
-## Two of these books contradict themselves on the same page
+## Which books contradict themselves on the same page
 
-The **leg extension/leg curl dual station** and the **functional trainer** print
-*"Remove the tools first"* in the unpacking list and *"All tools required... are NOT
-included within the packaging"* in the NOTE directly beside it. Both sentences are on
-the printed page - a 300 dpi render agrees with the text layer. Treat the NOTE as the
-operative one and bring your own tools, because nothing in either parts list is a tool.
+*"Remove the tools first"* in the unpacking list beside a NOTE saying the tools are not
+included is a contradiction some of these books print and others do not:
 
-## One book misprints the first tool
+| Book | "Remove the tools first" | NOTE names the three tools |
+|---|---|---|
+| Functional trainer | yes - contradicts itself | yes |
+| Leg extension/leg curl, **March 2025** printing (`CSD-LELC_OM_653523_20250310`) | yes - contradicts itself | **no**, it says only that they are not included |
+| Leg extension/leg curl, **February 2025** printing (`CSD-LELC_653523_OM_20250220`) | **no** | yes |
+| ACBE, ITOT, LPCE, PUDA 2025 revisions | **no** | yes |
+| Chest press/shoulder press, May 2025 update | yes - contradicts itself | yes |
 
-The **lat pulldown** manual prints **"Please prepare Allen wrwrench set"**. The typo is
-on the printed page, not an extraction artefact; the render of its PDF p. 11 shows it
-too. It means Allen wrench set.
+So the February printing of the leg extension/leg curl book is the one that reads
+straight, and the March printing - the later of the two - is the one that both
+contradicts itself and leaves the tool list off. Bring your own tools either way, because
+nothing in any of these parts lists is a tool.
 
-## The chest press / shoulder press changed sides in May 2025
+## Two books misprint the first tool
 
-**The CSD-CPSP's May 2025 update prints this NOTE** - "are NOT included within the packaging. Please prepare Allen wrench set, Phillips screw driver, and c ring pliers for installation" - where **its February 2024 printing says the tools are included**. Both printings keep "Remove the tools first" in the unpacking list. A CSD-CPSP is on this card for the 2025 book and on the tools-in-the-carton card for the 2024 book; the two printings contradict each other and nothing in either parts list is a tool.
+The **lat pulldown** manual and the **pull-up/dip assist 2025 revision** both print
+**"Please prepare Allen wrwrench set"**. The typo is on the printed page, not an
+extraction artefact; a render of PDF p. 11 shows it on both. It means Allen wrench set.
 
 The **CSS-DELT's 2026 revision** (SP-4312, 20260821, whose text layer is a shifted font - read from its OCR supplements and renders) prints this exactly as its 2025 printing does.

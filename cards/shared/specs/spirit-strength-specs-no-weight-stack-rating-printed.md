@@ -103,12 +103,14 @@ plate. The manual does not print these totals; say so when you quote one.
 | 200 lb | CSD-ACBE, CSD-CPSP, CSD-LPSR, CSD-PFRD | `spirit-strength-specs-stack-of-200-lb` |
 | 220 lb | CSD-LPCE | `spirit-strength-specs-stack-of-220-lb` |
 | 225 lb | CSD-LELC | `spirit-strength-specs-stack-of-225-lb` |
+| 215 lb (2025 revision only, mixed plates) | CSD-ACBE | `spirit-strength-specs-stack-of-215-lb-mixed-plates` |
 | 240 lb | CSS-DELT, CSS-SCPR, CSS-SHPR, CSS-TROT | `spirit-strength-specs-stack-of-240-lb` |
 | 250 lb | CSS-GLUT, LATP, LATR, LEXT, PRLC, SCEX, SLGC, SROW | `spirit-strength-specs-stack-of-250-lb` |
 | 270 lb | CSS-ABDO, CSS-LROW, CSS-SQSC | `spirit-strength-specs-stack-of-270-lb` |
 | 280 lb | CSS-BEXT | `spirit-strength-specs-stack-of-280-lb` |
 | 330 lb | CSS-SLGP | `spirit-strength-specs-stack-of-330-lb-in-twenty-pound-plates` |
-| 330 lb assist | CSD-PUDA | `spirit-strength-specs-assist-stack-of-330-lb` |
+| 330 lb assist | CSD-PUDA (2024 printing) | `spirit-strength-specs-assist-stack-of-330-lb` |
+| 230 lb assist | CSD-PUDA (2025 revision) | `spirit-strength-specs-assist-stack-of-230-lb` |
 | 2 x 160 lb | CSF-FUNT | `spirit-strength-specs-functional-trainer-two-ten-pound-stacks` |
 | 2 x 160 lb | ST800FT | `spirit-strength-specs-effective-resistance-is-half-the-weight-selected` |
 | none | CSF-AABB, BEXT, HRAC, LEGP, UPRB; ST800DR3, ST800FI | `spirit-strength-specs-no-weight-stack-on-the-benches-and-racks` |
@@ -126,4 +128,6 @@ That is the family difference worth knowing: a dual station steps in 15 lb, a si
 - **Three manuals label the plates in translated Chinese, not English.** CSS-SQSC calls them
   `20lb selection of iron components` and `10 pounds of counterweight`; CSD-ACBE and CSD-LELC call
   them `selected iron set` and `counterweight set`. They are weight plates. A search for
-  *weight stack* or *weight plate* misses all three.
+  *weight stack* or *weight plate* misses all three. **The 2025 CSD-ACBE revision renames these to
+  English** (`top plate`, `counterweight plate`, `weight stack`) and, separately, changes the plate
+  quantities - see `spirit-strength-specs-stack-of-215-lb-mixed-plates`.

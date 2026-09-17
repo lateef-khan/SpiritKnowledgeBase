@@ -64,6 +64,7 @@ not_to_be_confused_with:
 see_also:
 - spirit-strength-console-rep-and-time-counter-two-windows-two-resets
 - spirit-strength-errors-rep-counter-and-timer-does-not-turn-on
+- spirit-strength-assembly-connect-the-battery-before-the-shrouds-go-on
 source:
   ref: spirit-strength-css-abdo-owners-manual
   locator: 'REPETITION AND TIME COUNTER page, closing line: ''This counter is powered

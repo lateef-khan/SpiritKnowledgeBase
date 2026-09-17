@@ -71,8 +71,16 @@ source:
     printed page 22 (PDF page 23). Every one of the 31 pages was read from a 300 dpi
     tesseract --psm 4 render, because the placard is a flat image on all of them.;
     CSS-DELT 2026: PDF p. 21 (printed 20); text.md lines 659-670; CSD-CPSP May 2025
-    update: PDF p. 24 (printed 23); text.md lines 341-352'
-  extracted_at: '2026-09-10'
+    update: PDF p. 24 (printed 23); text.md lines 341-352; CSD-ACBE 2025 revision
+    (spirit-strength-csd-acbe-owners-manual-2025-revision): PDF p. 23 (printed 22);
+    text.md lines 628-636, read from a 600 dpi render; CSD-ITOT 2025 revision: PDF
+    p. 19 (printed 18); text.md lines 581-589, read from a 600 dpi render; CSD-LELC
+    2025 February printing (spirit-strength-csd-lelc-owners-manual-2025-february-printing):
+    PDF p. 23 (printed 22); text.md lines 675-683, read from a 600 dpi render;
+    CSD-LPCE 2025 revision: PDF p. 23 (printed 22); text.md lines 658-671, read from
+    a 600 dpi render; CSD-PUDA 2025 revision: PDF p. 19 (printed 18); text.md lines
+    680-703, read from a 600 dpi render'
+  extracted_at: '2026-09-17'
 ---
 
 **Thirty-one of these manuals answer "how do I do the exercise?" with a photograph of
@@ -112,3 +120,5 @@ this material on the console instead - see
 `spirit-strength-programs-how-to-use-lives-on-the-console`.
 
 **Two later printings change nothing here**: the 2026 CSS-DELT revision and the May 2025 CSD-CPSP update each still answer with the one START WORKOUT picture and no prose. The CSD-CPSP update does now print a placard part number, #311010451, where the earlier CSD-CPSP book printed none - so that machine moves from the eight pages without a number to the pages with one.
+
+**The 2025 revision printings of the five CSD dual-station machines change nothing here either.** Each still answers with the one START WORKOUT picture and no prose, and each was checked twice for a hidden program table - a loose grep of the OCR text for "program"/"rep scheme" and a 600 dpi read of the placard panel itself - and found none. Four of the five now print a placard part number where the earlier printing had none, moving CSD-ACBE, CSD-ITOT, CSD-LPCE and CSD-PUDA from the pages without a number to the pages with one; CSD-LELC already had one in the earlier printing this wave adds. See the per-machine cards for the numbers.

@@ -5,7 +5,7 @@ title: Three fasteners at the foot of the weight tower arrive already fitted and
 kind: procedure
 question: Why are there already bolts in the bottom of the weight tower on a Spirit
   commercial strength machine, and do I take them out? Covers the Spirit CSS selectorized
-  range and three CSD dual stations.
+  range and six CSD dual stations.
 asked_as:
 - there are already bolts in the tower
 - do i remove the pre installed screws
@@ -27,7 +27,10 @@ facets:
   product_line: strength
   model: '*'
   applies_to:
+  - csd-acbe
+  - csd-itot
   - csd-lelc
+  - csd-lpce
   - csd-lpsr
   - csd-pfrd
   - css-abdo
@@ -62,7 +65,12 @@ source:
     row and pec fly/rear delt manuals, and reworded on the CSD leg extension/leg curl
     manual - the lat pulldown and leg extension/leg curl wordings confirmed against
     a 300 dpi render of PDF p. 13 | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
-    ASSEMBLY - STEP 1, Note 1, PDF p. 13 (printed 12); text.md OCR supplement at 1470-1476'
+    ASSEMBLY - STEP 1, Note 1, PDF p. 13 (printed 12); text.md OCR supplement at 1470-1476
+    | csd-acbe 2025 revision (spirit-strength-csd-acbe-owners-manual-2025-revision),
+    ASSEMBLY step 1, Note 1, PDF p. 13 (printed 12), text.md lines 467-469; csd-itot
+    2025 revision, Note 1, PDF p. 13, lines 455-457; csd-lpce 2025 revision, Note 1,
+    PDF p. 13, lines 472-474 - the ACBE and LPCE step tables and notes read from a
+    600 dpi render of PDF p. 13, which is the only reliable text these sources have'
   extracted_at: '2026-09-10'
 ---
 
@@ -83,10 +91,21 @@ front of you.
 **On the lat pulldown the note says "attach the frame (40) onto tower"** rather than onto
 the door frame - the only machine on this card that describes the joint that way.
 
+## Three dual stations gained this note only in their 2025 reprint
+
+The **ab crunch/back extension**, **inner/outer thigh** and **leg press/calf extension**
+print it word for word in their 2025 revisions and **not at all** in their February 2024
+printings, whose step 1 carries only the cable warning. All three use the CSS numbering,
+20/24/27. Do not tell a customer with a 2024 book to look for a note that is not in it.
+
 ## How many bolts is a per-machine number
 
 The door-frame joint takes **4** of the M10x35 bolts on most of these machines and **8**
-on the abdominal, the back extension, the lat row and the seated leg press. Two books
+on the abdominal, the back extension, the lat row and the seated leg press. **The leg
+press/calf extension needs a second set of fasteners for the same step** - 4 x M8x20
+inner hexagon socket head bolts (19), 4 x M8 spring washers (23) and 4 x M8x18 rivet nuts
+with small countersunk heads (29) beside the 4 x M10x35, with **6** flat washers (27)
+rather than 4. Two books
 print a count that does not balance at all - see
 [the mismatched counts card](spirit-strength-assembly-fastener-counts-that-do-not-balance.md).
 Take the figure from your own step table, never from another machine's.

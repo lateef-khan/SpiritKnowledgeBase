@@ -82,7 +82,11 @@ source:
     & SETUP - Unpacking & Parts item 2, PDF p. 11 (printed 10); text.md lines 232-236
     - the same words as the 2024 printing | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
     ASSEMBLY & SETUP - Unpacking & Parts item 2, PDF p. 11 (printed 10); text.md OCR
-    supplement at 1385-1389'
+    supplement at 1385-1389 | the five CSD 2025 reprints - spirit-strength-csd-acbe-owners-manual-2025-revision
+    text.md lines 386-397, -csd-itot-...-2025-revision lines 370-381, -csd-lpce-...-2025-revision
+    lines 395-404, -csd-puda-...-2025-revision lines 466-479 and spirit-strength-csd-lelc-owners-manual-2025-february-printing
+    lines 402-411, each ASSEMBLY & SETUP - Unpacking &Parts, PDF p. 11 (printed 10),
+    read from a 600 dpi render of that page'
   extracted_at: '2026-09-10'
 ---
 
@@ -105,6 +109,14 @@ squat/standing calf, eight on the biceps curl and the triceps extension and ten 
 leg extension and the seated leg curl; the bench-style CSF units run to three, four or
 five, and the two i-Strength machines to four and six. Count the panels in the book in
 front of you and ignore the sentence.
+
+**The 2025 CSD reprints keep the sentence and still disagree with it**: seven step panels
+on the ab crunch/back extension and the leg press/calf extension, five on the inner/outer
+thigh and the pull-up/dip assist, and **nine** on the leg extension/leg curl.
+
+**The leg press/calf extension 2025 book also re-splits the two bullets**, ending item 1
+with *"Locate the hardware package."* and starting item 2 with *"The hardware is separated
+into four steps."* The words are the same; only the bullet break moved.
 
 ## Three of them add a step before the straps are cut
 

@@ -76,8 +76,17 @@ source:
     CSF-LEGP and CSF-UPRB manuals. CSD-CPSP May 2025 update: Serial Number Decal on
     PRODUCT LABELS, PDF p. 5 (printed 4), text.md lines 61-146, read from a 250 dpi
     render, in spirit-strength-csd-cpsp-owners-manual-2025-update. CSS-DELT 2026 revision:
-    PDF p. 5, lines 85-131, read from a 250 dpi render, in spirit-strength-css-delt-owners-manual-2026'
-  extracted_at: '2026-09-10'
+    PDF p. 5, lines 85-131, read from a 250 dpi render, in spirit-strength-css-delt-owners-manual-2026.
+    CSD-ACBE, CSD-ITOT, CSD-LPCE and CSD-PUDA 2024 books and CSD-LELC March 2025 printing,
+    re-checked against 600 dpi renders of PDF p. 5 (spirit-strength-csd-acbe-owners-manual,
+    spirit-strength-csd-itot-owners-manual, spirit-strength-csd-lpce-owners-manual,
+    spirit-strength-csd-puda-owners-manual, spirit-strength-csd-lelc-owners-manual).
+    2025 revision printings, PDF p. 5, 600 dpi renders: spirit-strength-csd-acbe-owners-manual-2025-revision
+    (text.md lines 112-153), spirit-strength-csd-itot-owners-manual-2025-revision (lines
+    112-158), spirit-strength-csd-lelc-owners-manual-2025-february-printing (lines
+    153-188), spirit-strength-csd-lpce-owners-manual-2025-revision (lines 117-168),
+    spirit-strength-csd-puda-owners-manual-2025-revision (lines 125-192)'
+  extracted_at: '2026-09-17'
 ---
 
 The **Serial Number Decal** on the thirty-four CSS, CSD and CSF machines carries seven lines, in this
@@ -105,11 +114,30 @@ Two of these lines get asked about:
   This is what makes these machines commercially rated, and it is the answer to "is this a light
   commercial machine".
 
-The **MODEL NUMBER** on the decal is Spirit's internal SP- drawing number, not the CSS/CSD/CSF
-catalogue code the manual's cover uses. CSS-SCPR's decal says `SP-4301`; CSF-HRAC's says
-`SP-4202-P` with the product spelled out as `Half Power Rack with Platform`; CSF-LEGP's says
-`SP-4216`, CSF-AABB's `SP-4218`, CSF-BEXT's `SP-4220`. Expect the sample serial on the drawing to
-read like `SP-42181906001` or `1234 5678 9876` — those are placeholders.
+**On the CSS and CSF machines checked, the MODEL NUMBER on the decal is Spirit's internal SP-
+drawing number, not the CSS/CSD/CSF catalogue code the manual's cover uses.** CSS-SCPR's decal says
+`SP-4301`; CSF-HRAC's says `SP-4202-P` with the product spelled out as `Half Power Rack with
+Platform`; CSF-LEGP's says `SP-4216`, CSF-AABB's `SP-4218`, CSF-BEXT's `SP-4220`. Expect the sample
+serial on the drawing to read like `SP-42181906001` or `1234 5678 9876` — those are placeholders.
+
+**Five CSD machines are the exception, in every printing checked, not only the 2025 ones.** A
+600 dpi render of PDF p. 5 shows the catalogue code, not an SP- number, on both the older book and
+the 2025 revision of each:
+
+| Machine | Decal `MODEL NUMBER` field | Checked in |
+|---|---|---|
+| CSD-ACBE | `CSD-ACBE` | 2024 book and 2025 revision (v5.0, 04/11/2025) |
+| CSD-ITOT | `CSD-ITOT` | 2024 book and 2025 revision (v4.0, 02/22/2025) |
+| CSD-LELC | `CSD-LELC` | March 2025 printing and February 2025 printing (v5.0) |
+| CSD-LPCE | `CSD-LPCE` | 2024 book and 2025 revision (v4.0, 03/03/2025) |
+| CSD-PUDA | `CSD-PUDA` | 2024 book and 2025 revision (v4.0, 15/05/2025) |
+
+**This corrects the paragraph above for these five: it was never true of them, in either printing —
+not a change this wave found, but a standing error in this card that this wave's re-check caught.**
+The filenames of all five 2025-revision PDFs are themselves SP- numbers (`SP-4609US`, `4316US`,
+`SP-4605US`, `SP-4608US`, `4314US` — ITOT and PUDA lack the `SP-` prefix even in the filename), which
+may be why an earlier pass assumed the decal itself carried one; it does not, on any of these five,
+in any printing on file.
 
 **On eight machines the decal's metric weight figure contradicts the manual.** See the card on that.
 

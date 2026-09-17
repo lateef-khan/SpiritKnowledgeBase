@@ -85,7 +85,15 @@ source:
     layer plus every OCR supplement appended to it - for teflon, ptfe, silicone, lithium, grease,
     oil, wd-40 and lubricant: the only hit anywhere in the thirty-five is the word "lubricate"
     itself, except in css-latp, css-lext and css-sqsc, where the assembly chapter names clear
-    silicone'
+    silicone. The five 2025 revision printings (spirit-strength-csd-acbe-owners-manual-2025-revision,
+    spirit-strength-csd-itot-owners-manual-2025-revision,
+    spirit-strength-csd-lelc-owners-manual-2025-february-printing,
+    spirit-strength-csd-lpce-owners-manual-2025-revision,
+    spirit-strength-csd-puda-owners-manual-2025-revision) were checked on 2026-09-17 against each
+    source''s 100% OCR text.md and their maintenance-schedule table read from a 600 dpi render: the
+    guide-rods row is unchanged on all five. CSD-ITOT and CSD-PUDA now also print the clear-silicone
+    assembly clause; see spirit-strength-maintenance-guide-rods-take-a-thin-coat-of-clear-silicone
+    for that finding.'
   extracted_at: '2026-09-10'
 ---
 
@@ -114,18 +122,16 @@ weekly on the two CSI. Cleaning and lubricating are two rows in two groups.
 
 ## The only lubricant named anywhere in the range, and where it is
 
-**Three CSS manuals name one — and they name it in the assembly chapter, not on this page.** The
-CSS-LATP, CSS-LEXT and CSS-SQSC weight-stack step reads *"After the weight stack is installed,
-lubricate the Guide Rods using **a thin coat of clear silicone** prior to attaching the weight
-stack shrouds."* See
-`spirit-strength-maintenance-guide-rods-take-a-thin-coat-of-clear-silicone`.
+**Five manuals name one — and they name it in the assembly chapter, not on this page.** CSS-LATP,
+CSS-LEXT, CSS-SQSC and, new in the 2025 revision printings only, CSD-ITOT and CSD-PUDA read *"After
+the weight stack is installed, lubricate the Guide Rods using **a thin coat of clear silicone**
+prior to attaching the weight stack shrouds."* The other thirty-one books, including the 2025
+revisions of CSD-ACBE, CSD-LELC (February printing) and CSD-LPCE, print the same step with the
+clause removed or do not print the step at all. See
+`spirit-strength-maintenance-guide-rods-take-a-thin-coat-of-clear-silicone` for the full count and
+the 2025 evidence.
 
-**That is a build instruction for the initial assembly, and it is printed in three books out of
-thirty-six.** The other thirty-two print the same step with the lubricant clause removed —
-*"lubricate the Guide Rods prior to attaching the weight stack shrouds"* — or, on the CSD, CSF and
-CSI books, do not print the step at all.
-
-**The monthly maintenance row names no lubricant on any of the thirty-five, including those three.**
+**The monthly maintenance row names no lubricant on any of the thirty-five, including those five.**
 
 ## What to say to a customer whose stack is sticking
 

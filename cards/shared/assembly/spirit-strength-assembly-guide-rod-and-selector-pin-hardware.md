@@ -4,7 +4,8 @@ title: Two guide rods, four rubber bumpers in two sizes, four rod end covers, on
   selector pin and one magnet pulley
 kind: spec
 question: What parts make up the guide rod and selector assembly on a Spirit commercial
-  strength machine? Covers the Spirit CSS selectorized range and five CSD dual stations.
+  strength machine? Covers the Spirit CSS selectorized range and seven CSD dual
+  stations.
 asked_as:
 - what parts hold the weight stack rods
 - how many rubber bumpers are in the weight stack
@@ -28,6 +29,8 @@ facets:
   applies_to:
   - csd-acbe
   - csd-itot
+  - csd-lelc
+  - csd-lpce
   - csd-lpsr
   - csd-pfrd
   - csd-puda
@@ -61,7 +64,12 @@ source:
     a 300 dpi render of PDF p. 17 of the Shoulder Press manual and PDF p. 18 of the
     Squat/Standing Calf manual | css-delt 2026 revision (spirit-strength-css-delt-owners-manual-2026):
     ASSEMBLY - STEP 6, PDF p. 18 (printed 17); text.md OCR supplement at 1566-1597,
-    checked on a 110 dpi render'
+    checked on a 110 dpi render | the five CSD 2025 reprints, the weight-stack step
+    table - csd-acbe 2025 revision PDF p. 18 (printed 17); csd-itot 2025 revision PDF
+    p. 15 (printed 14); csd-lpce 2025 revision PDF p. 18 (printed 17); csd-puda 2025
+    revision PDF p. 16 (printed 15); csd-lelc February 2025 printing PDF p. 20 (printed
+    19) - every one of those five tables read at 600 dpi and compared against a 600 dpi
+    render of the same table in the earlier printing'
   extracted_at: '2026-09-10'
 ---
 
@@ -83,6 +91,24 @@ The guide-rod half of the weight-stack step is the same on every machine that pr
 **What changes from machine to machine is everything below this**: the plate count and
 plate weight of the stack itself, the number of plain pulley sets, and the fasteners that
 carry them. Take those from your own step table.
+
+## Four of the 2025 reprints delete the guide rod fixed plate
+
+The **ab crunch/back extension**, **inner/outer thigh**, **leg press/calf extension** and
+the **February 2025** printing of the leg extension/leg curl drop `Guide rod fixed plate`
+from this panel in their 2025 revisions - out of the table **and** out of the exploded
+drawing. Their February 2024 printings all list it as item 5, qty 1, and the
+**pull-up/dip assist** still lists it (005, qty 1), as does the leg extension/leg curl's
+**March 2025** printing. So the panel is a six-row panel on those four books and a
+seven-row panel on the rest. Count it off your own table before you tell a customer a
+plate is missing from the carton.
+
+## The ab crunch/back extension and the inner/outer thigh print no selector pin here
+
+Neither book's weight-stack table has a `Selector pin` row, in either printing. The leg
+press/calf extension, leg extension/leg curl and pull-up/dip assist all do (item 14, or
+014, qty 1). The machines all have a weight selector pin - it is called out on their
+PARTS OF YOUR UNIT page - so this is a gap in the table, not a missing part.
 
 ## Two printed counts on this panel are wrong
 

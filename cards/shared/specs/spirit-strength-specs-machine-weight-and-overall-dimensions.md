@@ -78,7 +78,16 @@ source:
     Product Specifications, PDF p. 11 (printed 10), text.md lines 318-321 (this page
     has a readable text layer; OCR supplement lines 1414-1418 agrees) - the same 501.5lb
     / 227.5kg and 60" x 28" x 62". CSD-CPSP May 2025 update (spirit-strength-csd-cpsp-owners-manual-2025-update):
-    Product Specifications, PDF p. 11 (printed 10), text.md lines 231-235'
+    Product Specifications, PDF p. 11 (printed 10), text.md lines 231-235. CSD-ACBE
+    2025 revision (spirit-strength-csd-acbe-owners-manual-2025-revision): Product
+    Specifications, PDF p. 11, text.md lines 379-419 (100% OCR source; figure confirmed
+    on a 600 dpi render, `Weight 436.3 lb / 197.9kg`, dimensions unchanged). CSD-LPCE
+    2025 revision (spirit-strength-csd-lpce-owners-manual-2025-revision): Product
+    Specifications, PDF p. 11, text.md lines 389-426 (100% OCR source; confirmed on
+    a 600 dpi render, `Overall Dimensions 76.4" x 44.7" x 62.2"`, metric unchanged
+    at 1940 x 1135 x 1580mm). CSD-ITOT, CSD-PUDA and CSD-LELC February-2025 printings
+    also confirmed unchanged on 600 dpi renders of PDF p. 11: spirit-strength-csd-itot-owners-manual-2025-revision,
+    spirit-strength-csd-puda-owners-manual-2025-revision, spirit-strength-csd-lelc-owners-manual-2025-february-printing.'
   extracted_at: '2026-09-10'
 ---
 
@@ -117,18 +126,31 @@ exactly 59" (1500 mm) tall; the two lat machines are 91".
 
 | Machine | Weight | Overall dimensions |
 |---|---|---|
-| CSD-ACBE | 547 lbs / 248 kgs | 51.7" x 44" x 62.2" / 1314 x 1119 x 1580 mm |
+| CSD-ACBE | 547 lbs / 248 kgs (2024 printing); **436.3 lb / 197.9kg (2025 revision)** | 51.7" x 44" x 62.2" / 1314 x 1119 x 1580 mm (unchanged) |
 | CSD-BCTE | 465 lbs / 211 kgs | 43.9" x 51.6" x 62.2" / 1115 x 1310 x 1580 mm |
 | CSD-CPSP | `Products Weight` 598 lbs / 271 | 53.14" x 78.11" x 66" / 1350 x 1984 x 1676 mm |
 | CSD-ITOT | 436 lbs / 198 kgs | 63.7" x 26.6" x 59" / 1617 x 677 x 1500 mm |
 | CSD-LELC | 625 lb / 284 kg | 55.4" x 54" x 62.2" / 1407 x 1373 x 1580 mm |
-| CSD-LPCE | 585 lbs / 265 kgs | 76.37" x 44.7" x 62.2" / 1940 x 1135 x 1580 mm |
+| CSD-LPCE | 585 lbs / 265 kgs | 76.37" x 44.7" x 62.2" (2024 printing); **76.4" x 44.7" x 62.2" (2025 revision, a rounding correction - 76.37" is 1939.8mm and 76.4" is 1940.6mm)** / 1940 x 1135 x 1580 mm (metric unchanged) |
 | CSD-LPSR | 551lb / 250kg | 71" x 48" x 89" / 1808 x 1213 x 2270mm |
 | CSD-PFRD | 493 lbs / 224 kgs | 57.1" x 57.6" x 78.1" / 1451 x 1463 x 1985 mm |
 | CSD-PUDA | 583 lbs / 264 kgs | 48.7" x 46.7" x 88" / 1238 x 1187 x 2236 mm |
 
 **CSD-CPSP is the only machine whose row is labelled `Products Weight`, and the only one whose kg
 figure is printed with no unit** - the page reads `598 lbs / 271`, nothing after the 271.
+
+**The CSD-ACBE 2025 revision prints a different machine weight, and it is exactly the CSD-ITOT's
+weight.** `436.3 lb / 197.9kg` (confirmed on a 600 dpi render of PDF p. 11) is the same figure as
+CSD-ITOT's `436 lb / 198 kg` - and the ITOT is a much smaller, lighter-built machine (63.7" x 26.6" x
+59" against the ACBE's 51.7" x 44" x 62.2", with unchanged dimensions between ACBE printings). That
+match is strong evidence the 2025 ACBE book's Product Specifications box copied the ITOT's row rather
+than re-measuring the ACBE. **Treat the 2024 figure, 547 lbs / 248 kgs, as the more credible assembled
+weight for a freight or parts quote**, and quote 436.3 lb / 197.9kg only as what the 2025-revision
+book prints, with this doubt attached.
+
+**The CSD-PUDA height OCRs as `83"` in this wave's `text.md`; the page itself prints `88"`,
+confirmed on a 600 dpi render of PDF p. 11** - unchanged from the earlier printing. This is the
+canonical example of why a figure in this wave must be read from a render, not the OCR text.
 
 ## CSF - functional, rack and bench
 
