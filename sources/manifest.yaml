@@ -349,6 +349,24 @@
   origin_uri: file://SOLE AE55 AE95 2011 Owners Manual (555010, 595010).pdf
   sha256: 62578fd8ca8ed076c6ef041116d8cb9b86a4faadd78de5fbb3ab3b96a2292045
   ingested_at: '2026-09-12'
+- id: sole-el-calibration-ellipticals
+  title: Calibration (Ellipticals)
+  kind: markdown
+  origin_uri: file://Calibration (Ellipticals).docx
+  sha256: fae958bf54dd3791acb7eef4f57000ed48b4190bfca97403e98e2f12e45e3217
+  ingested_at: '2026-09-19'
+- id: sole-el-e1-error-elliptical
+  title: E1 Error (Elliptical)
+  kind: markdown
+  origin_uri: file://E1 Error (Elliptical).docx
+  sha256: a453c1e3f40766d51a4fa323e8f5bb86f4335f1d645aa2749e025b692566cb8e
+  ingested_at: '2026-09-19'
+- id: sole-el-e2-error-elliptical
+  title: E2 Error (Elliptical)
+  kind: markdown
+  origin_uri: file://E2 Error (Elliptical).docx
+  sha256: 4a6b7c476d7613f64f47a16df81b259772a62bcc79514ae58fcfb9b5ed4fcd9e
+  ingested_at: '2026-09-19'
 - id: sole-el-e20-2016-owners-manual
   title: Sole E20 2016 owner's manual (520016)
   kind: pdf
@@ -381,12 +399,24 @@
   origin_uri: file://SOLE E25 2019 Owners Manual (525018).pdf
   sha256: 22ca3bd22226ca0b060f4afd968d67569d4efd4660d3b88a058ecea35308f597
   ingested_at: '2026-09-12'
+- id: sole-el-e25-2023-525022-wiring
+  title: E25 2023 (525022) wiring and part numbers
+  kind: markdown
+  origin_uri: file://E25_2023_525022.docx
+  sha256: fe471fc1c6a02128682a851991b16f4d2df0f062084e878e57dbe607d784fdcc
+  ingested_at: '2026-09-20'
 - id: sole-el-e25-2023-owners-manual
   title: Sole E25 2023 owner's manual (525022)
   kind: pdf
   origin_uri: file://SOLE E25 2023 Owners Manual (525022).pdf
   sha256: e8e8292a91cb288e37edfeb8b11f375ca722ece568828d566a45d9f8f72b4c36
   ingested_at: '2026-09-12'
+- id: sole-el-e25-525018-flywheel-by-serial
+  title: E25 525018 flywheel and steel cable by serial range
+  kind: markdown
+  origin_uri: file://E25-525018 flywheel.xlsx
+  sha256: bb0fe05356f4414c2e915b647d1acb4fed4d25c6d6707204fb96778130199d48
+  ingested_at: '2026-09-20'
 - id: sole-el-e25-e55-2007-owners-manual
   title: Sole E25/E55 2007 owner's manual (525081, 555081, 555086) — the book names
     E25/E55 throughout, never UE25/UE55
@@ -394,6 +424,18 @@
   origin_uri: file://SOLE UE25 UE55 E55 2007 Owners Manual (525081, 555081, 555086).pdf
   sha256: 607de3ee4c0f36de2ff620b2f29e7ea998f08e366531117c9c1085bcb5508e2d
   ingested_at: '2026-09-12'
+- id: sole-el-e3-error-elliptical
+  title: E3 Error (Elliptical)
+  kind: markdown
+  origin_uri: file://E3 Error (Elliptical).docx
+  sha256: be3ab78894d59a5829fe8d42b9808e36fe476ef21b5960188c6440c1a6c6e46f
+  ingested_at: '2026-09-19'
+- id: sole-el-e35-2013-535013-wiring
+  title: E35 2013 (535013) wiring and part numbers
+  kind: markdown
+  origin_uri: file://E35_2013_535013.docx
+  sha256: bcf88b48f9fd18f1bea7e90cebc685fec01ea02fda49fb9cf137d4a7f51ce59d
+  ingested_at: '2026-09-20'
 - id: sole-el-e35-2016-owners-manual
   title: Sole E35 2016 owner's manual (535016)
   kind: pdf
@@ -406,12 +448,24 @@
   origin_uri: file://SOLE E35 2019 Owners Manual (535018).pdf
   sha256: 60a5e943b13249f6a040ac3dffeb5d7fdc1bef3c2a86144c7495e5b36106747f
   ingested_at: '2026-09-12'
+- id: sole-el-e35-2023-535022-wiring
+  title: E35 2023 (535022) wiring and part numbers
+  kind: markdown
+  origin_uri: file://E35_2023_535022.docx
+  sha256: 15cc3cce6ebf6675e18682d7063fa8e189db31055d9c7bc07a18159c5ce013af
+  ingested_at: '2026-09-20'
 - id: sole-el-e35-2023-owners-manual
   title: Sole E35 2023 owner's manual (535022)
   kind: pdf
   origin_uri: file://SOLE E35 2023 Owners Manual (535022).pdf
   sha256: 1becf012d23c1b564f24f1741008f7ca321883d9f1f96a904b229ed8e84ca5bb
   ingested_at: '2026-09-12'
+- id: sole-el-e35-535018-flywheel-by-serial
+  title: E35 535018 flywheel and steel cable by serial range
+  kind: markdown
+  origin_uri: file://E35-535018 flywheel.xlsx
+  sha256: c8ef6e94b2cec9dc6ae24919d1a25437a9b958e15ed21682bd00f48ec199fbd1
+  ingested_at: '2026-09-20'
 - id: sole-el-e35-e75-e95-2007-owners-manual
   title: Sole E35/E75/E95 2007 owner's manual (535081, 575081, 595081) — the book
     names E35/E75/E95 throughout, never UE35/UE75/UE95
@@ -445,6 +499,12 @@
   origin_uri: file://SOLE E55 2019 Owners Manual (555018).pdf
   sha256: 22722bad35c93d27c29143b7aafacfbd590b23fe0321c12152d16cc38ce3c3c3
   ingested_at: '2026-09-12'
+- id: sole-el-e55-555018-flywheel-by-serial
+  title: E55 555018 flywheel and steel cable by serial range
+  kind: markdown
+  origin_uri: file://E55-555018 Flywheel.xlsx
+  sha256: d5c44e248fcf4f4c06a71da50aa77ae45b37bd475c8faf28d5067e3a6c8cb4d7
+  ingested_at: '2026-09-20'
 - id: sole-el-e95-2016-owners-manual
   title: Sole E95 2016 owner's manual (595016)
   kind: pdf
@@ -512,6 +572,42 @@
   origin_uri: file://SOLE E98 2023 Owners Manual (598022).pdf
   sha256: 81ce9cd50a73a4b4f6dd2f48766c45160a46ac1c6f629eda68ee3e1c4053f515
   ingested_at: '2026-09-12'
+- id: sole-el-engineering-mode-ellipticals
+  title: Engineering Mode (Ellipticals)
+  kind: markdown
+  origin_uri: file://Engineering Mode (Ellipticals).docx
+  sha256: c637ec93a98fdfbe637c7df40a6abfabf5615150d2f7e13a81bed4f9121231ec
+  ingested_at: '2026-09-19'
+- id: sole-el-incline-changes-by-itself
+  title: Elliptical Incline Changes by Itself
+  kind: markdown
+  origin_uri: file://Elliptical Incline Changes by Itself.docx
+  sha256: 5da2dbd4c8ae749ab4632633d707196cf585520391711c6ccc4999f279b98d2a
+  ingested_at: '2026-09-19'
+- id: sole-el-level-changes-by-itself
+  title: Elliptical Level Changes by Itself
+  kind: markdown
+  origin_uri: file://Elliptical Level Changes by Itself.docx
+  sha256: b969b645d1c104942d97c1a604a1217c6eebf6827f74368eaf49071f6f2f7baf
+  ingested_at: '2026-09-19'
+- id: sole-el-lubricate-rails-and-wheels
+  title: How to Lubricate Elliptical Rails and Wheels
+  kind: markdown
+  origin_uri: file://How to Lubricate Elliptical Rails and Wheels.docx
+  sha256: 4d4cfb8993fb125a559223b06f892909783076b2b2aaddbcf96cd35c01beb15f
+  ingested_at: '2026-09-19'
+- id: sole-el-no-power-to-elliptical
+  title: No Power to Elliptical
+  kind: markdown
+  origin_uri: file://No Power to Elliptical.docx
+  sha256: 7ad16a0014173ce1b80f69c984a157e1f412a6ee402c2243997e98003c5107db
+  ingested_at: '2026-09-19'
+- id: sole-el-various-elliptical-noise
+  title: Various Elliptical Noises
+  kind: markdown
+  origin_uri: file://Various Elliptical Noise.docx
+  sha256: 3bd099cdb27c2030dd56eba4b743347b5223d824f7b6bbc6bd5a37fb2143e67d
+  ingested_at: '2026-09-19'
 - id: sole-el-ve25-ve55-2008-owners-manual
   title: Sole VE25/VE55 2008 owner's manual (525087, 555087)
   kind: pdf
