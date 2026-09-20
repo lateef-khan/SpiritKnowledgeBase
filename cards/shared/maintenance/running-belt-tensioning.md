@@ -66,13 +66,15 @@ see_also:
 - sole-lubricate-running-belt
 source:
   ref: sole-tm-treadmill-belt-tensioning-and-tracking
-  locator: Tensioning
+  locator: Tensioning; lift check (2-3 in gap, 5 or 6 mm wrench, quarter turns, walk-test) from sole-tm-how-to-tension-running-belt, whole document
   extracted_at: '2026-09-03'
 ---
 
 At the very back of the machine, the top hole in each end cap holds the rear roller bolt used for tensioning.
 
-1. Use the Allen wrench on both the left and the right bolt.
-2. **Turn both bolts the same number of turns.** If you do not, the belt walks off to one side.
+1. Check first: at the middle of the belt, lift it straight up off the deck and measure between the belt and the deck surface. It should be **2-3 inches**.
+2. If it is too loose, use a **5 or 6 mm Allen wrench** on both the left and the right bolt, tightening **a quarter turn at a time**.
+3. **Turn both bolts the same number of turns.** If you do not, the belt walks off to one side.
+4. Walk on the belt periodically and re-check until the slipping stops.
 
 The owner's manual holds the tensioning instructions for the specific machine.

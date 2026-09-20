@@ -674,6 +674,12 @@
   origin_uri: file://XS110B-YS007 (SC200 2019) Service  Manual.pdf
   sha256: 0b782feb4d0fedfef0479f3b7964aa74c2d994850ab39a358e683ed56040b17f
   ingested_at: '2026-09-04'
+- id: sole-extended-labor-warranty-agreement
+  title: Sole in-house extended labor warranty agreement
+  kind: pdf
+  origin_uri: file://In-House Extended Labor Warranty Agreement.pdf
+  sha256: bc3b4af3ead1df6e9744865acb6356e104c24a7e63a1ddb4affccfb76a64bf30
+  ingested_at: '2026-09-19'
 - id: sole-ftms-model-status-20210806
   title: SOLE FTMS model status, 2021-08-06
   kind: markdown
@@ -1376,6 +1382,12 @@
   origin_uri: file://How to Install Motor Controller.docx
   sha256: 231888ec1e26b86a4f29a5bb094e4cd1e9ba4b9585de07be1c3de2d6d036aa4b
   ingested_at: '2026-09-03'
+- id: sole-tm-how-to-tension-running-belt
+  title: How to tension Running Belt
+  kind: markdown
+  origin_uri: file://How to tension Running Belt.docx
+  sha256: bc2e9aca133dd56b73ca40cbee3fd2be83c6fd191becd157724e5314fdd651fd
+  ingested_at: '2026-09-19'
 - id: sole-tm-how-to-update-media-apps-touchscreens-only
   title: How to Update Media Apps (Touchscreens Only)
   kind: markdown
